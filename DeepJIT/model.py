@@ -28,7 +28,10 @@ class DeepJIT(nn.Module):
 
         # other information
         self.dropout = nn.Dropout(args.dropout_keep_prob)
-        self.fc1 = nn.Linear(2 * len(Ks) * Co, args.hidden_units)  # hidden units
+        if args.cam:
+            self.fc1 = nn.Linear(len(Ks) * Co, args.hidden_units)  # hidden units
+        else:
+            self.fc1 = nn.Linear(2 * len(Ks) * Co, args.hidden_units)  # hidden units
         self.fc2 = nn.Linear(args.hidden_units, Class)
         self.sigmoid = nn.Sigmoid()
 
@@ -56,11 +59,13 @@ class DeepJIT(nn.Module):
         x_msg = self.embed_msg(msg)
         x_msg = self.forward_msg(x_msg, self.convs_msg)
 
-        x_code = self.embed_code(code)
-        x_code = self.forward_code(x_code, self.convs_code_line, self.convs_code_file)
+        if not self.args.cam:
+            x_code = self.embed_code(code)
+            x_code = self.forward_code(x_code, self.convs_code_line, self.convs_code_file)
 
-        # x_commit = x_msg
-        x_commit = torch.cat((x_msg, x_code), 1)
+            x_commit = torch.cat((x_msg, x_code), 1)
+        else:
+            x_commit = x_msg
         x_commit = self.dropout(x_commit)
         out = self.fc1(x_commit)
         out = F.relu(out)
