@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+905398,905398,Fix Released,metadata service failing on essex-2 with traceback,https://bugs.launchpad.net/nova/+bug/905398,2012-04-05
+903497,903497,Fix Released,Confusion between UUID instance ID and integer ID in instance_info_cache_delete_by_instance_id,https://bugs.launchpad.net/nova/+bug/903497,2012-04-05
+901899,901899,Fix Released,Management of Associations between Networks and Projects fails,https://bugs.launchpad.net/nova/+bug/901899,2012-04-05
+898485,898485,Fix Released,terminate instance didn't clean ip information,https://bugs.launchpad.net/nova/+bug/898485,2012-04-05
+894683,894683,Fix Released,nova.service does not handle attribute specific exceptions and client hangs,https://bugs.launchpad.net/nova/+bug/894683,2012-04-05
+921715,921715,Fix Released,'nova x509-create-cert' fails,https://bugs.launchpad.net/nova/+bug/921715,2012-04-05
+917676,917676,Fix Released,"Missing scripts in 2011.3.1 (no distutils-extra in venv, now used to build tarballs)",https://bugs.launchpad.net/nova/+bug/917676,2012-04-05
+916992,916992,Fix Released,Database migration v064 fails against MySQL 5.5 + InnoDB,https://bugs.launchpad.net/nova/+bug/916992,2012-04-05
+907878,907878,Fix Released,migration 064 causes IndexError: list index out of range,https://bugs.launchpad.net/nova/+bug/907878,2012-04-05
+902288,902288,Fix Released,vm_utils _check_image_size inconsistant returns,https://bugs.launchpad.net/nova/+bug/902288,2012-04-05
+902282,902282,Fix Released,Nose does not test nova/tests/test_linux_net.py,https://bugs.launchpad.net/nova/+bug/902282,2012-04-05
+901730,901730,Fix Released,Unit test errors on Python 2.6,https://bugs.launchpad.net/nova/+bug/901730,2012-04-05
+901500,901500,Fix Released,"nova setup installs boto-1.9b, which is incompatible with euca2ools",https://bugs.launchpad.net/nova/+bug/901500,2012-04-05
+901459,901459,Fix Released,QuantumManager#get_all_networks uninitalized variable,https://bugs.launchpad.net/nova/+bug/901459,2012-04-05
+901387,901387,Fix Released,Test suite fails to run when not using virtualenv,https://bugs.launchpad.net/nova/+bug/901387,2012-04-05
+900564,900564,Fix Released,Unable to access both deleted and active records,https://bugs.launchpad.net/nova/+bug/900564,2012-04-05
+899299,899299,Fix Released,nova-manage expext to register images with int id,https://bugs.launchpad.net/nova/+bug/899299,2012-04-05
+899225,899225,Fix Released,EC2API: rescue instance can't work,https://bugs.launchpad.net/nova/+bug/899225,2012-04-05
+898290,898290,Fix Released,iSCSI volume backend treats FLAGS.host as a hostname,https://bugs.launchpad.net/nova/+bug/898290,2012-04-05
+898162,898162,Fix Released,"if a snapshot fails, the task state of the instance stays in ""image_snapshot""",https://bugs.launchpad.net/nova/+bug/898162,2012-04-05
+897089,897089,Fix Released,"""Error fetching floating ips: The server has either erred or is incapable of performing the requested operation."" when none allocated to tenant",https://bugs.launchpad.net/horizon/+bug/897089,2012-04-05
+897089,897089,Fix Released,"""Error fetching floating ips: The server has either erred or is incapable of performing the requested operation."" when none allocated to tenant",https://bugs.launchpad.net/nova/+bug/897089,2012-04-05
+897054,897054,Fix Released,stack crashes with AttributeError on e.reason if the server returns an error,https://bugs.launchpad.net/nova/+bug/897054,2012-04-05
+896997,896997,Fix Released,nova-vncproxy's flash socket policy port is not configurable,https://bugs.launchpad.net/nova/+bug/896997,2012-04-05
+894431,894431,Fix Released,linux_net ovsinterfacedriver is setting the wrong iface-id,https://bugs.launchpad.net/nova/+bug/894431,2012-04-05
+893840,893840,Fix Released,test_libvirt:LibvirtUtilsTestCase.test_get_fs_info fails on Mac OS X,https://bugs.launchpad.net/nova/+bug/893840,2012-04-05
+893757,893757,Fix Released,xml.etree.ElementTree.ParseError not supported in Python 2.6,https://bugs.launchpad.net/nova/+bug/893757,2012-04-05
+892271,892271,Fix Released,M2Crypto installed with VirtualEnv/PIP broken,https://bugs.launchpad.net/nova/+bug/892271,2012-04-05
+889169,889169,Fix Released,VM Status string should include both vm_state and task_state,https://bugs.launchpad.net/nova/+bug/889169,2012-04-05
+889164,889164,Fix Released,"""nova rebuild"" fails because there is a mismatch between what is sent by the api (int) and what the libvirt connection expects (string)",https://bugs.launchpad.net/nova/+bug/889164,2012-04-05
+888730,888730,Fix Released,vmwareapi suds debug logging very verbose,https://bugs.launchpad.net/nova/+bug/888730,2012-04-05
+888719,888719,Fix Released,openvswitch-nova runs after firstboot scripts,https://bugs.launchpad.net/nova/+bug/888719,2012-04-05
+888649,888649,Fix Released,Snapshots left in undeletable state,https://bugs.launchpad.net/nova/+bug/888649,2012-04-05
+897164,897164,Fix Released,neither EC2 api nor openstack API expose the hostname,https://bugs.launchpad.net/nova/+bug/897164,2012-04-05
+891718,891718,Fix Released,"nova components always log to standard error, even when syslog is turned on",https://bugs.launchpad.net/nova/+bug/891718,2012-04-05
+885374,885374,Fix Released,Full FQDN should be set if passed in nova boot call,https://bugs.launchpad.net/nova/+bug/885374,2012-04-05
+884018,884018,Fix Released,"""stack help"" prints stacktrace if it cannot connect to the server",https://bugs.launchpad.net/nova/+bug/884018,2012-04-05
+883676,883676,Fix Released,Create volume from snapshot using OSAPI,https://bugs.launchpad.net/nova/+bug/883676,2012-04-05
+856612,856612,Fix Released,Use of socat should be optional.,https://bugs.launchpad.net/nova/+bug/856612,2012-04-05
+890489,890489,Fix Released,multistring flags do not parse properly,https://bugs.launchpad.net/nova/+bug/890489,2012-04-05
+890486,890486,Fix Released,Cannot create image with kernel_id and ramdisk_id in S3ImageService,https://bugs.launchpad.net/nova/+bug/890486,2012-04-05
+886224,886224,Fix Released,Compute Manager makes too many calls to Glance on instance create,https://bugs.launchpad.net/nova/+bug/886224,2012-04-05
+884885,884885,Fix Released,M2crypto fails to build in venv on RHEL6.1,https://bugs.launchpad.net/nova/+bug/884885,2012-04-05
+882933,882933,Fix Released,run_tests.sh stops at CloudTestCase test_ajax_console,https://bugs.launchpad.net/nova/+bug/882933,2012-04-05
+861293,861293,Fix Released,Client using sha1 won't be able to authenticate if sha256 is available to the server,https://bugs.launchpad.net/nova/+bug/861293,2012-04-05
+814561,814561,Fix Released,Instance files left over in case nova-compute is halted,https://bugs.launchpad.net/nova/+bug/814561,2012-04-05
+903956,903956,Fix Released,Pass additional information from nova to Quantum,https://bugs.launchpad.net/nova/+bug/903956,2012-04-05
+903954,903954,Fix Released,Don't barf if the subnet doesn't have a cidr set,https://bugs.launchpad.net/nova/+bug/903954,2012-04-05
+902626,902626,Fix Released,floating ip list fails for non-admin users,https://bugs.launchpad.net/nova/+bug/902626,2012-04-05
+901445,901445,Fix Released,instance['host'] is not reverted on revert-resize,https://bugs.launchpad.net/nova/+bug/901445,2012-04-05
+897091,897091,Fix Released,"""nova actions"" fails with HTTP 400 / TypeError if a server action has been performed",https://bugs.launchpad.net/nova/+bug/897091,2012-04-05
+893456,893456,Fix Released,poll rebooting still passes instance id,https://bugs.launchpad.net/nova/+bug/893456,2012-04-05
+890477,890477,Fix Released,Migration 052 downgrade broken,https://bugs.launchpad.net/nova/+bug/890477,2012-04-05
+890474,890474,Fix Released,Migration 054 downgrade is broken,https://bugs.launchpad.net/nova/+bug/890474,2012-04-05
+890427,890427,Fix Released,Migrations without a downgrade,https://bugs.launchpad.net/nova/+bug/890427,2012-04-05
+890426,890426,Fix Released,euca-describe-images fails when ramdisk_id is defined as null,https://bugs.launchpad.net/nova/+bug/890426,2012-04-05
+888918,888918,Fix Released,Availability zone ignored in ec2 api,https://bugs.launchpad.net/nova/+bug/888918,2012-04-05
+887805,887805,Fix Released,Error during report_driver_status(): 'LibvirtConnection' object has no attribute '_host_state',https://bugs.launchpad.net/nova/+bug/887805,2012-04-05
+887708,887708,Fix Released,xenapi returns HANDLE_INVALID randomly,https://bugs.launchpad.net/nova/+bug/887708,2012-04-05
+886353,886353,Fix Released,Faults raised by OpenStack API Resource handlers fail to be reported properly,https://bugs.launchpad.net/nova/+bug/886353,2012-04-05
+886289,886289,Fix Released,schedulers should set instance to error state,https://bugs.launchpad.net/nova/+bug/886289,2012-04-05
+884915,884915,Fix Released,Some keypair-related unit tests fail on RHEL6.1,https://bugs.launchpad.net/nova/+bug/884915,2012-04-05
+878319,878319,Fix Released,VDI.resize_online should be VDI.resize for XenServer 6,https://bugs.launchpad.net/nova/+bug/878319,2012-04-05
+862649,862649,Fix Released,OpenStack v1.1 API: cloudServersFault should be computeFault,https://bugs.launchpad.net/nova/+bug/862649,2012-04-05
+852141,852141,Fix Released,Requesting application/xml on return for extensions returns cloudServersFault 500,https://bugs.launchpad.net/nova/+bug/852141,2012-04-05
+834867,834867,Fix Released,Event Notification: compute.instance.create: launched_at timestamp missing from event,https://bugs.launchpad.net/nova/+bug/834867,2012-04-05
+767947,767947,Fix Released,start of new instance not possible after restarting libvirtd,https://bugs.launchpad.net/nova/+bug/767947,2012-04-05
+757033,757033,Fix Released,Two different CA path definition causes launching_vpn_instance error,https://bugs.launchpad.net/nova/+bug/757033,2012-04-05
+904888,904888,Fix Released,nova db sync failure on precise,https://bugs.launchpad.net/nova/+bug/904888,2012-04-05
+901925,901925,Fix Released,python2.6 setup.py clean -a returned exit code 1,https://bugs.launchpad.net/nova/+bug/901925,2012-04-05
+900849,900849,Fix Released,"revert resize fails with Failure: ['FIELD_TYPE_ERROR', 'self']",https://bugs.launchpad.net/nova/+bug/900849,2012-04-05
+900359,900359,Fix Released,Can't attach RBD volume due to typo,https://bugs.launchpad.net/nova/+bug/900359,2012-04-05
+897155,897155,Fix Released,rpc calls are broken when remote procedure returns None,https://bugs.launchpad.net/nova/+bug/897155,2012-04-05
+894755,894755,Fix Released,Potential directory traversal in _untarzip_image,https://bugs.launchpad.net/nova/+bug/894755,2012-04-05
+890195,890195,Fix Released,iptables drops forward rules for hosts,https://bugs.launchpad.net/nova/+bug/890195,2012-04-05

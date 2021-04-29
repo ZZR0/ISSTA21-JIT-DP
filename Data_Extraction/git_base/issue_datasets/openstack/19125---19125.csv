@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1713926,1713926,Fix Released,Cinder failed to deploy if Ceph is not deployed,https://bugs.launchpad.net/kolla-ansible/+bug/1713926,2017-09-05
+1435198,1435198,Fix Released,Failed to stop intance when nova-compute init host,https://bugs.launchpad.net/nova/+bug/1435198,2017-09-05
+1688400,1688400,Fix Released,feature: ability to attach cinder volumes,https://bugs.launchpad.net/nova-lxd/+bug/1688400,2017-09-05
+1709308,1709308,Fix Committed,task-list can hang if the 'published' field is big enough,https://bugs.launchpad.net/python-mistralclient/+bug/1709308,2017-09-05
+1710522,1710522,Fix Released,update lp for pike/queen,https://bugs.launchpad.net/networking-midonet/+bug/1710522,2017-09-05
+1690096,1690096,Fix Released,server status is stuck in *ing if power action failed,https://bugs.launchpad.net/mogan/+bug/1690096,2017-09-05
+1707495,1707495,Fix Released,Missing trunk status update,https://bugs.launchpad.net/dragonflow/+bug/1707495,2017-09-05
+1680006,1680006,Fix Released,Check for legacy hiera data fails preventing the upgrade from proceeding,https://bugs.launchpad.net/tripleo/+bug/1680006,2017-09-05
+1691744,1691744,Fix Released,revenge of the tuskar - remove left over packages if present after upgrade,https://bugs.launchpad.net/tripleo/+bug/1691744,2017-09-04
+1692522,1692522,Fix Released,Misleading enable_cinder option,https://bugs.launchpad.net/tripleo/+bug/1692522,2017-09-04
+1702576,1702576,Fix Released,pep8 job broken in instack-undercloud newton branch,https://bugs.launchpad.net/tripleo/+bug/1702576,2017-09-04
+1702709,1702709,Fix Released,Deleting/moving the undercloud-passwords.conf file can break the undercloud,https://bugs.launchpad.net/tripleo/+bug/1702709,2017-09-04
+1713811,1713811,Fix Released,Self-service network - Create a router - Installation Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1713811,2017-09-04
+1682448,1682448,Fix Released,Minor update fails because haproxy can't start,https://bugs.launchpad.net/tripleo/+bug/1682448,2017-09-04
+1687597,1687597,Fix Released,AllNodesExtraConfig should run before AllNodesDeploySteps,https://bugs.launchpad.net/tripleo/+bug/1687597,2017-09-04
+1685750,1685750,Fix Released,M->N->O upgrade cinder api returns ERROR: Internal Server Error (HTTP 500),https://bugs.launchpad.net/tripleo/+bug/1685750,2017-09-04
+1695893,1695893,Fix Released,ovs-ctl ops may restart openvswitch during upgrade,https://bugs.launchpad.net/tripleo/+bug/1695893,2017-09-04
+1699535,1699535,Fix Released,glance api service set incorrectly to storage network,https://bugs.launchpad.net/tripleo/+bug/1699535,2017-09-04
+1693339,1693339,Fix Released,basic overcloud deploy fails on ceilometer-upgrade,https://bugs.launchpad.net/tripleo/+bug/1693339,2017-09-04
+1640306,1640306,Fix Released,Allow custom ssh warning banner,https://bugs.launchpad.net/tripleo/+bug/1640306,2017-09-04
+1677548,1677548,Fix Released,Updates hanging after resources faild in Heat,https://bugs.launchpad.net/tripleo/+bug/1677548,2017-09-04
+1697421,1697421,Fix Released,pep8 on stable/newton failing with openssl/opensslv.h: No such file or directory,https://bugs.launchpad.net/tripleo/+bug/1697421,2017-09-04
+1672790,1672790,Fix Released,Wrong return code when CLI pre-deploy verifications fail,https://bugs.launchpad.net/tripleo/+bug/1672790,2017-09-04
+1632721,1632721,Fix Released,dhcp_agents_per_network set to 1 when deploying multiple nodes running the NeutronDhcpAgent service,https://bugs.launchpad.net/tripleo/+bug/1632721,2017-09-04
+1661689,1661689,Fix Released,Problems when switching from v3 rc file to undercloud stackrc,https://bugs.launchpad.net/tripleo/+bug/1661689,2017-09-04
+1662203,1662203,Fix Released,Broken stackrc due to awk backslash,https://bugs.launchpad.net/tripleo/+bug/1662203,2017-09-04
+1672296,1672296,Fix Released,restarting collectd creates duplicate alarms.,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1672296,2017-09-04
+1714897,1714897,Fix Released,os-brick does not have API docs,https://bugs.launchpad.net/openstack-manuals/+bug/1714897,2017-09-04
+1641350,1641350,Fix Released,neutron_agents empty/nonexitent group breaks repo build,https://bugs.launchpad.net/openstack-ansible/+bug/1641350,2017-09-04
+1682928,1682928,Fix Released,NetApp cDOT iSCSI/FC drivers fail to delete missing volumes,https://bugs.launchpad.net/cinder/+bug/1682928,2017-09-04
+1656017,1656017,Fix Released,nova-manage cell_v2 map_cell0 always returns a non-0 exit code,https://bugs.launchpad.net/nova/+bug/1656017,2017-09-04
+1607357,1607357,Fix Released,Support internal DNS with OVN native DHCP solution,https://bugs.launchpad.net/networking-ovn/+bug/1607357,2017-09-04
+1680122,1680122,Fix Released,cinder list returned empty volume_image_metadata,https://bugs.launchpad.net/cinder/+bug/1680122,2017-09-04
+1702764,1702764,Fix Released,container images enable the epel repository,https://bugs.launchpad.net/tripleo/+bug/1702764,2017-09-04
+1669959,1669959,Fix Released,sgapp is not working properly,https://bugs.launchpad.net/dragonflow/+bug/1669959,2017-09-03
+1547788,1547788,Fix Released,RFE: local controller lacks of status report mechanism,https://bugs.launchpad.net/dragonflow/+bug/1547788,2017-09-03
+1674562,1674562,Fix Released,remove log translations,https://bugs.launchpad.net/dragonflow/+bug/1674562,2017-09-03
+1636888,1636888,Fix Released,confused method name in df,https://bugs.launchpad.net/dragonflow/+bug/1636888,2017-09-03
+1602318,1602318,Fix Released,pep8 fails on N342: String interpolation should be delayed at logging calls,https://bugs.launchpad.net/dragonflow/+bug/1602318,2017-09-03
+1548716,1548716,Fix Released,vxlan kernel driver isn't installed on vxlan setup,https://bugs.launchpad.net/dragonflow/+bug/1548716,2017-09-03
+1542590,1542590,Fix Released,"Local controller uses greenthreads, no need for lock",https://bugs.launchpad.net/dragonflow/+bug/1542590,2017-09-03
+1517049,1517049,Fix Released,Creating a VM on the public network crashes the DragonFlow,https://bugs.launchpad.net/dragonflow/+bug/1517049,2017-09-03
+1440735,1440735,Fix Released,When reciving port update from switch or hello ARP responder are installed to all the switchs,https://bugs.launchpad.net/dragonflow/+bug/1440735,2017-09-03
+1619747,1619747,Fix Released,can not update chassis info in df db,https://bugs.launchpad.net/dragonflow/+bug/1619747,2017-09-03
+1714586,1714586,Fix Released,Add missing BarbicanApi service,https://bugs.launchpad.net/tripleo/+bug/1714586,2017-09-02
+1704059,1704059,Fix Released,remove node from cluster error,https://bugs.launchpad.net/senlin/+bug/1704059,2017-09-02
+1708754,1708754,Fix Released,Use get_notification_url when configuring oslo.messaging notifications,https://bugs.launchpad.net/devstack/+bug/1708754,2017-09-02
+1714577,1714577,Fix Released,scenario004 failing: 'Manager' object has no attribute 'volumes_v2_client',https://bugs.launchpad.net/tripleo/+bug/1714577,2017-09-02
+1601898,1601898,Fix Released,Add cinder backend driver for Huawei FusionStorage,https://bugs.launchpad.net/openstack-manuals/+bug/1601898,2017-09-01
+1552076,1552076,Fix Released,test cases failing after MAX_Version changes,https://bugs.launchpad.net/cinder/+bug/1552076,2017-09-01
+1413102,1413102,Fix Released,default cinder.conf should follow API deprecation warning,https://bugs.launchpad.net/cinder/+bug/1413102,2017-09-01
+1708352,1708352,Fix Released,report_interval must be located in AGENT section,https://bugs.launchpad.net/openstack-manuals/+bug/1708352,2017-09-01
+1711032,1711032,Fix Released,"In the new Ubuntu OpenStack packages in Installation Guide：set upOpenStack repository should be pike, rather than ocata.",https://bugs.launchpad.net/openstack-manuals/+bug/1711032,2017-09-01
+1682244,1682244,Fix Released,API Docs do not mention dns_name in port resource,https://bugs.launchpad.net/neutron/+bug/1682244,2017-09-01
+1653862,1653862,Fix Released,"hyper-v: Exception dispatching event <LifecycleEvent: 1483485307.93, 9279c28b-b957-4743-8727-81716783a86b => Stopped>: <x_wmi: Not found  >",https://bugs.launchpad.net/nova/+bug/1653862,2017-09-01
+1702769,1702769,Fix Released,Binding info for DVR port not found error seen when notify_l2pop_port_wiring is called with DVR routers,https://bugs.launchpad.net/neutron/+bug/1702769,2017-09-01
+1707699,1707699,Fix Released,resource cache can push in stale data on server query,https://bugs.launchpad.net/neutron/+bug/1707699,2017-09-01
+1500604,1500604,Fix Released,Pattern argument is required on updating a blacklist,https://bugs.launchpad.net/python-designateclient/+bug/1500604,2017-09-01
+1499867,1499867,Fix Released,Remove the name argument for recordset updates,https://bugs.launchpad.net/python-designateclient/+bug/1499867,2017-09-01
+1499541,1499541,Fix Released,The v2 zone transfer request create command should not require the target project id,https://bugs.launchpad.net/python-designateclient/+bug/1499541,2017-09-01
+1511225,1511225,Fix Released,v2 cli doc mismatch  with actual v2 cli,https://bugs.launchpad.net/python-designateclient/+bug/1511225,2017-09-01
+1702693,1702693,Fix Released,_is_dns_integration_supported is not used consistenty in L3_NAT_dbonly_mixin,https://bugs.launchpad.net/neutron/+bug/1702693,2017-09-01
+1708006,1708006,Fix Released,update man page paths in doc/source/conf.py,https://bugs.launchpad.net/glance/+bug/1708006,2017-09-01
+1653990,1653990,Fix Released,test_asg_scale_up_max_size fails with KeyError,https://bugs.launchpad.net/heat/+bug/1653990,2017-09-01
+1712234,1712234,Fix Released,No keypair info in server object,https://bugs.launchpad.net/mogan/+bug/1712234,2017-09-01
+1709456,1709456,Fix Released,Quotas not honored per-tenant,https://bugs.launchpad.net/group-based-policy/+bug/1709456,2017-08-31
+1576840,1576840,Fix Released,fullstack OVS agent in native openflow mode sometimes fails to bind socket,https://bugs.launchpad.net/neutron/+bug/1576840,2017-08-31
+1602567,1602567,Fix Released,fullstack doesn't work with branch-2.5 ovs,https://bugs.launchpad.net/neutron/+bug/1602567,2017-08-31
+1711198,1711198,Fix Released,CI/scenario004: configuring tempest when ceph-rgw is deployed doesn't work,https://bugs.launchpad.net/tripleo/+bug/1711198,2017-08-31
+1678475,1678475,Fix Released,Apply QoS policy on network:router_gateway,https://bugs.launchpad.net/openstack-manuals/+bug/1678475,2017-08-31
+1678475,1678475,Fix Released,Apply QoS policy on network:router_gateway,https://bugs.launchpad.net/neutron/+bug/1678475,2017-08-31
+1682228,1682228,Fix Released,can't cross address scopes with DVR,https://bugs.launchpad.net/neutron/+bug/1682228,2017-08-31
+1683102,1683102,Fix Released,Port data plane status extension implementation,https://bugs.launchpad.net/neutron/+bug/1683102,2017-08-31
+1694337,1694337,Fix Released,Port information (binding:host_id) not updated for network:router_gateway after qRouter failover,https://bugs.launchpad.net/neutron/+bug/1694337,2017-08-31
+1713082,1713082,Fix Released,cinder get volume (v3 cinder api) returns wrong attachment id,https://bugs.launchpad.net/python-cinderclient/+bug/1713082,2017-08-31

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1482091,1482091,Fix Released,lxc image download is sometimes corrupt,https://bugs.launchpad.net/openstack-ansible/+bug/1482091,2016-05-03
+1482146,1482146,Fix Released,lxc_hosts role presumes irqbalance is installed,https://bugs.launchpad.net/openstack-ansible/+bug/1482146,2016-05-03
+1453276,1453276,Fix Released,Additional Swift middleware not loaded in proxy server,https://bugs.launchpad.net/openstack-ansible/+bug/1453276,2016-05-03
+1473230,1473230,Fix Released,Reduce neutron configuration,https://bugs.launchpad.net/openstack-ansible/+bug/1473230,2016-05-03
+1483246,1483246,Fix Released,Exposing resume_guests_state_on_host_boot for nova.conf,https://bugs.launchpad.net/openstack-ansible/+bug/1483246,2016-05-03
+1481355,1481355,Fix Released,swift play uses ceilometer user which doesn't exist yet,https://bugs.launchpad.net/openstack-ansible/+bug/1481355,2016-05-03
+1479824,1479824,Fix Released,Ansible log folder link and ansible.cfg change should only be present in the gate check,https://bugs.launchpad.net/openstack-ansible/+bug/1479824,2016-05-03
+1481339,1481339,Fix Released,Keystone import errors and upstream config mismatch,https://bugs.launchpad.net/openstack-ansible/+bug/1481339,2016-05-03
+1469870,1469870,Fix Released,Use tox for automating documentation builds,https://bugs.launchpad.net/openstack-ansible/+bug/1469870,2016-05-03
+1450733,1450733,Fix Released,Unable to build contrib packages due to pbr 0.11.0 bump,https://bugs.launchpad.net/heat/+bug/1450733,2016-05-03
+1450733,1450733,Fix Released,Unable to build contrib packages due to pbr 0.11.0 bump,https://bugs.launchpad.net/openstack-ansible/+bug/1450733,2016-05-03
+1481700,1481700,Fix Released,Swift service region does not use service_region site default,https://bugs.launchpad.net/openstack-ansible/+bug/1481700,2016-05-03
+1482260,1482260,Fix Released,python-zaqarclient has incompatible requirements with oslo.middleware,https://bugs.launchpad.net/openstack-ansible/+bug/1482260,2016-05-03
+1484766,1484766,Fix Released,Incorporate glance CVE-2015-5163 fix,https://bugs.launchpad.net/openstack-ansible/+bug/1484766,2016-05-03
+1475000,1475000,Fix Released,Document infra-repo_host requirement,https://bugs.launchpad.net/openstack-ansible/+bug/1475000,2016-05-03
+1483603,1483603,Fix Released,Issues with neutron metadata service in AIO,https://bugs.launchpad.net/openstack-ansible/+bug/1483603,2016-05-03
+1482572,1482572,Fix Released,gate checks should have debug logging enabled,https://bugs.launchpad.net/openstack-ansible/+bug/1482572,2016-05-03
+1468514,1468514,Fix Released,Allow config drive to be disabled,https://bugs.launchpad.net/openstack-ansible/+bug/1468514,2016-05-03
+1460497,1460497,Fix Released,remove unused swift variables,https://bugs.launchpad.net/openstack-ansible/+bug/1460497,2016-05-03
+1485042,1485042,Fix Released,haproxy service binding is incorrect,https://bugs.launchpad.net/openstack-ansible/+bug/1485042,2016-05-03
+1479473,1479473,Fix Released,Need log_slave_update enabled,https://bugs.launchpad.net/openstack-ansible/+bug/1479473,2016-05-03
+1484256,1484256,Fix Released,Apache servers reporting version in response header,https://bugs.launchpad.net/openstack-ansible/+bug/1484256,2016-05-03
+1486789,1486789,Fix Released,Move developer docs into their own subtree,https://bugs.launchpad.net/openstack-ansible/+bug/1486789,2016-05-03
+1476810,1476810,Fix Released,libxslt1-dev apt package missing from cinder-api install,https://bugs.launchpad.net/openstack-ansible/+bug/1476810,2016-05-03
+1486955,1486955,Fix Released,galera log dir is incorrect,https://bugs.launchpad.net/openstack-ansible/+bug/1486955,2016-05-03
+1455238,1455238,Fix Released,Ceph Support,https://bugs.launchpad.net/openstack-ansible/+bug/1455238,2016-05-03
+1469238,1469238,Fix Released,Allow nova password injection (libvirt) to be enabled,https://bugs.launchpad.net/openstack-ansible/+bug/1469238,2016-05-03
+1483650,1483650,Fix Released,autodev for cinder-volumes in containers now fails,https://bugs.launchpad.net/openstack-ansible/+bug/1483650,2016-05-03
+1482045,1482045,Fix Released,Allow configuration of dhcp_domain in nova.conf,https://bugs.launchpad.net/openstack-ansible/+bug/1482045,2016-05-03
+1487378,1487378,Fix Released,Enable admin level on the haproxy stats socket,https://bugs.launchpad.net/openstack-ansible/+bug/1487378,2016-05-03
+1476885,1476885,Fix Released,ssh timeout after flush net cache tasks,https://bugs.launchpad.net/openstack-ansible/+bug/1476885,2016-05-03
+1486504,1486504,Fix Released,nova-compute needs restarting on AIO deployed w/ ceph,https://bugs.launchpad.net/openstack-ansible/+bug/1486504,2016-05-03
+1487055,1487055,Fix Released,AIO bootstrap should ignore ro drives,https://bugs.launchpad.net/openstack-ansible/+bug/1487055,2016-05-03
+1474916,1474916,Fix Released,Keystone v3 does not automatically create _member_ role,https://bugs.launchpad.net/openstack-ansible/+bug/1474916,2016-05-03
+1484439,1484439,Fix Released,live_migration_flag nova.conf option only specified when ceph in use,https://bugs.launchpad.net/openstack-ansible/+bug/1484439,2016-05-03
+1446432,1446432,Fix Released,Enable HAProxy stats Web UI,https://bugs.launchpad.net/openstack-ansible/+bug/1446432,2016-05-03
+1485945,1485945,Fix Released,Tempest configured to test swift when DEPLOY_SWIFT=no,https://bugs.launchpad.net/openstack-ansible/+bug/1485945,2016-05-03
+1489144,1489144,Fix Released,Apparmor profile changes still result in extended downtime during upgrade,https://bugs.launchpad.net/openstack-ansible/+bug/1489144,2016-05-03
+1490142,1490142,Fix Released,gate failures: Containers not accessible via ssh,https://bugs.launchpad.net/openstack-ansible/+bug/1490142,2016-05-03
+1487130,1487130,Fix Released,Juno to Kilo upgrade: lxc-container can not mount /var/run/netns and losing all namespaces,https://bugs.launchpad.net/openstack-ansible/+bug/1487130,2016-05-03
+1481822,1481822,Fix Released,ceilometer tests are not enabled in tempest,https://bugs.launchpad.net/openstack-ansible/+bug/1481822,2016-05-03
+1481787,1481787,Fix Released,cinder-backup doesn't work with ceph,https://bugs.launchpad.net/openstack-ansible/+bug/1481787,2016-05-03
+1481542,1481542,Fix Released,Cinder v1 API deprecated - move to cinder v2 API,https://bugs.launchpad.net/openstack-ansible/+bug/1481542,2016-05-03
+1487409,1487409,Fix Released,haproxy-playbook fails when installing on multiple hosts,https://bugs.launchpad.net/openstack-ansible/+bug/1487409,2016-05-03
+1481121,1481121,Fix Released,swift replication giving connection refused in logs,https://bugs.launchpad.net/openstack-ansible/+bug/1481121,2016-05-03
+1480581,1480581,Fix Released,swift read_affinity setting seems to be ignored,https://bugs.launchpad.net/openstack-ansible/+bug/1480581,2016-05-03
+1485557,1485557,Fix Released,Inconsistent shebang usage in bash scripts,https://bugs.launchpad.net/openstack-ansible/+bug/1485557,2016-05-03
+1482364,1482364,Fix Released,Tempest configuration out of date,https://bugs.launchpad.net/openstack-ansible/+bug/1482364,2016-05-03
+1491749,1491749,Fix Released,gate: hpcloud build timeouts and failures,https://bugs.launchpad.net/openstack-ansible/+bug/1491749,2016-05-03
+1489078,1489078,Fix Released,cirros url specified multiple times,https://bugs.launchpad.net/openstack-ansible/+bug/1489078,2016-05-03
+1493429,1493429,Fix Released,haproxy misconfiguration if using SSL and an ssl nova_console,https://bugs.launchpad.net/openstack-ansible/+bug/1493429,2016-05-03
+1493451,1493451,Fix Released,documentation is outdated for management network (cidr section) in openstack_user_config,https://bugs.launchpad.net/openstack-ansible/+bug/1493451,2016-05-03
+1492250,1492250,Fix Released,keystone shibboleth.xml template uses keystone_ssl_enabled instead of keystone_ssl,https://bugs.launchpad.net/openstack-ansible/+bug/1492250,2016-05-03
+1487380,1487380,Fix Released,HAProxy User SSL cert/key distribution,https://bugs.launchpad.net/openstack-ansible/+bug/1487380,2016-05-03
+1487353,1487353,Fix Released,MySQL host address is not set properly for all .my.cnf files,https://bugs.launchpad.net/openstack-ansible/+bug/1487353,2016-05-03
+1493421,1493421,Fix Released,concatenation of certificates for haproxy incorrect,https://bugs.launchpad.net/openstack-ansible/+bug/1493421,2016-05-03
+1493820,1493820,Fix Released,be even more precise with used_ips,https://bugs.launchpad.net/openstack-ansible/+bug/1493820,2016-05-03
+1493911,1493911,Fix Released,Allow testing of cinder multi backends through tempest,https://bugs.launchpad.net/openstack-ansible/+bug/1493911,2016-05-03
+1488639,1488639,Fix Released,Profile Ansible tasks to find the slowest ones,https://bugs.launchpad.net/openstack-ansible/+bug/1488639,2016-05-03
+1494020,1494020,Fix Released,Jinja Whitespace typo in keystone-httpd.conf.j2,https://bugs.launchpad.net/openstack-ansible/+bug/1494020,2016-05-03
+1493799,1493799,Fix Released,Uninitialised variables cause AIO run failure when deploying w/ ceph,https://bugs.launchpad.net/openstack-ansible/+bug/1493799,2016-05-03
+1493981,1493981,Fix Released,Enable log compression by default for all logs,https://bugs.launchpad.net/openstack-ansible/+bug/1493981,2016-05-03
+1491478,1491478,Fix Released,"horizon can't create a volume in ""Any availability zone"" when following the documentation and having storage_hosts different than storage-infra_hosts",https://bugs.launchpad.net/openstack-ansible/+bug/1491478,2016-05-03
+1489947,1489947,Fix Released,heat config generation fails,https://bugs.launchpad.net/openstack-ansible/+bug/1489947,2016-05-03
+1495563,1495563,Fix Released,openstack ansible fails to upgrade juno -> kilo if some services are on metal,https://bugs.launchpad.net/openstack-ansible/+bug/1495563,2016-05-03
+1494267,1494267,Fix Released,rsyslog roles assumes presence of logrotate,https://bugs.launchpad.net/openstack-ansible/+bug/1494267,2016-05-03
+1482265,1482265,Fix Released,Nova-computes need nfs-common installed if NFS cinder backend,https://bugs.launchpad.net/openstack-ansible/+bug/1482265,2016-05-03
+1496117,1496117,Fix Released,Rebooting a swift object store node on 10.1.10 removes /var/lock/swift/,https://bugs.launchpad.net/openstack-ansible/+bug/1496117,2016-05-03
+1482756,1482756,Fix Released,networking fails due to new ebtables-based arp spoofing protection,https://bugs.launchpad.net/openstack-ansible/+bug/1482756,2016-05-03
+1499073,1499073,Fix Released,change the haproxy port will cause internal server error.,https://bugs.launchpad.net/openstack-ansible/+bug/1499073,2016-05-03
+1498726,1498726,Fix Released,Specify ciphers with HAProxy SSL frontends,https://bugs.launchpad.net/openstack-ansible/+bug/1498726,2016-05-03
+1497669,1497669,Fix Released,python-ldap is missing from the keystone containers,https://bugs.launchpad.net/openstack-ansible/+bug/1497669,2016-05-03
+1497361,1497361,Fix Released,Merge documentation about SSL certificate management,https://bugs.launchpad.net/openstack-ansible/+bug/1497361,2016-05-03
+1498111,1498111,Fix Released,Enable fact caching in ansible,https://bugs.launchpad.net/openstack-ansible/+bug/1498111,2016-05-03
+1482141,1482141,Fix Released,inventory-manage should show groups,https://bugs.launchpad.net/openstack-ansible/+bug/1482141,2016-05-03

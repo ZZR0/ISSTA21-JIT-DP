@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1361360,1361360,Fix Released,Eventlet green threads not released back to the pool leading to choking of new requests,https://bugs.launchpad.net/neutron/+bug/1361360,2016-01-21
+1361360,1361360,Fix Released,Eventlet green threads not released back to the pool leading to choking of new requests,https://bugs.launchpad.net/nova/+bug/1361360,2016-01-21
+1361360,1361360,Fix Released,Eventlet green threads not released back to the pool leading to choking of new requests,https://bugs.launchpad.net/keystone/+bug/1361360,2016-01-21
+1361360,1361360,Fix Released,Eventlet green threads not released back to the pool leading to choking of new requests,https://bugs.launchpad.net/glance/+bug/1361360,2016-01-21
+1361360,1361360,Fix Released,Eventlet green threads not released back to the pool leading to choking of new requests,https://bugs.launchpad.net/manila/+bug/1361360,2016-01-21
+1361360,1361360,Fix Released,Eventlet green threads not released back to the pool leading to choking of new requests,https://bugs.launchpad.net/sahara/+bug/1361360,2016-01-21
+1361360,1361360,Fix Released,Eventlet green threads not released back to the pool leading to choking of new requests,https://bugs.launchpad.net/heat/+bug/1361360,2016-01-21
+1361360,1361360,Fix Released,Eventlet green threads not released back to the pool leading to choking of new requests,https://bugs.launchpad.net/cinder/+bug/1361360,2016-01-21
+1486182,1486182,Fix Released,empty output validation bug,https://bugs.launchpad.net/heat/+bug/1486182,2016-01-21
+1451819,1451819,Fix Released,Validation fails for RouterInterface resource,https://bugs.launchpad.net/heat/+bug/1451819,2016-01-21
+1488475,1488475,Fix Released,Heat template fail from Kilo release on validation (use to work till Juno),https://bugs.launchpad.net/heat/+bug/1488475,2016-01-21
+1487288,1487288,Fix Released,Can not update resources which are in UPDATE_IN_PROGRESS anymore,https://bugs.launchpad.net/heat/+bug/1487288,2016-01-21
+1501828,1501828,Fix Released,Stack cleanup after dead engines ignores nested stacks,https://bugs.launchpad.net/heat/+bug/1501828,2016-01-21
+1488754,1488754,Fix Released,Can't get stack for project with Chinese characters,https://bugs.launchpad.net/heat/+bug/1488754,2016-01-21
+1488366,1488366,Fix Released,TripleO Deployments get stuck sometimes until a timeout is reached,https://bugs.launchpad.net/heat/+bug/1488366,2016-01-21
+1488366,1488366,Fix Released,TripleO Deployments get stuck sometimes until a timeout is reached,https://bugs.launchpad.net/tripleo/+bug/1488366,2016-01-21
+1494108,1494108,Fix Released,heat updates raw_template when there is no change in raw_template,https://bugs.launchpad.net/heat/+bug/1494108,2016-01-21
+1477812,1477812,Fix Released,heat stack-list does not work after stack-update,https://bugs.launchpad.net/heat/+bug/1477812,2016-01-21
+1479579,1479579,Fix Released,Don't raise NotFound exception if nested stack not exist,https://bugs.launchpad.net/heat/+bug/1479579,2016-01-21
+1447508,1447508,Fix Released,TypeError: any() takes exactly one argument (3 given),https://bugs.launchpad.net/heat/+bug/1447508,2016-01-21
+1474153,1474153,Fix Released,Remote exception from nested stack can break all future exceptions of that type,https://bugs.launchpad.net/heat/+bug/1474153,2016-01-21
+1471912,1471912,Fix Released,[OSSA 2015-014] Format-guessing and file disclosure via image conversion (CVE-2015-5163),https://bugs.launchpad.net/ossa/+bug/1471912,2016-01-21
+1471912,1471912,Fix Released,[OSSA 2015-014] Format-guessing and file disclosure via image conversion (CVE-2015-5163),https://bugs.launchpad.net/glance/+bug/1471912,2016-01-21
+1482371,1482371,Fix Released,[OSSA 2015-019] Image status can be changed by passing header 'x-image-meta-status' with PUT operation using v1 (CVE-2015-5251),https://bugs.launchpad.net/ossa/+bug/1482371,2016-01-21
+1482371,1482371,Fix Released,[OSSA 2015-019] Image status can be changed by passing header 'x-image-meta-status' with PUT operation using v1 (CVE-2015-5251),https://bugs.launchpad.net/glance/+bug/1482371,2016-01-21
+1498163,1498163,Fix Released,[OSSA 2015-020] Glance storage quota bypass when token is expired (CVE-2015-5286),https://bugs.launchpad.net/glance/+bug/1498163,2016-01-21
+1498163,1498163,Fix Released,[OSSA 2015-020] Glance storage quota bypass when token is expired (CVE-2015-5286),https://bugs.launchpad.net/ossa/+bug/1498163,2016-01-21
+1478690,1478690,Fix Released,Request ID has a double req- at the start,https://bugs.launchpad.net/searchlight/+bug/1478690,2016-01-21
+1478690,1478690,Fix Released,Request ID has a double req- at the start,https://bugs.launchpad.net/glance/+bug/1478690,2016-01-21
+1505218,1505218,Fix Released,Image schema doesn't contain 'deactivated' status,https://bugs.launchpad.net/glance/+bug/1505218,2016-01-21
+1501672,1501672,Fix Released,v2 image download returns 403 when 'get_image_locations' policy set,https://bugs.launchpad.net/glance/+bug/1501672,2016-01-21
+1480196,1480196,Fix Released,Request-id is not getting returned if glance throws 500 error,https://bugs.launchpad.net/glance/+bug/1480196,2016-01-21
+1499651,1499651,Fix Released,signature failure of the data sent out by tools/send_test_data.py,https://bugs.launchpad.net/ceilometer/+bug/1499651,2016-01-21
+1509677,1509677,Fix Released,resource-list doesn't need to join sample table if no timestamp is specified (mysql backend),https://bugs.launchpad.net/ceilometer/+bug/1509677,2016-01-21
+1484117,1484117,Fix Released,None image.size value crashes on get_sample,https://bugs.launchpad.net/ceilometer/+bug/1484117,2016-01-21
+1474369,1474369,Fix Released,ceilometer.hardware.discovery polls nova api without bound,https://bugs.launchpad.net/ceilometer/+bug/1474369,2016-01-21
+1465641,1465641,Fix Released,Alarm's severity is missing from rest notifier,https://bugs.launchpad.net/ceilometer/+bug/1465641,2016-01-21
+1431986,1431986,Fix Released,Database deadlock in ceilometer-collector when ceilometer-expirer is running,https://bugs.launchpad.net/ceilometer/+bug/1431986,2016-01-21
+1489062,1489062,Fix Released,v2/events does not AND request_id's,https://bugs.launchpad.net/ceilometer/+bug/1489062,2016-01-21
+1488202,1488202,Fix Released,Event requeue/ack will not work when workload_partitioning is enabled,https://bugs.launchpad.net/ceilometer/+bug/1488202,2016-01-21
+1489132,1489132,Fix Released,instance_type metadata is different between notifications and polling,https://bugs.launchpad.net/ceilometer/+bug/1489132,2016-01-21
+1488707,1488707,Fix Released,ceilometer identity.trust.* samples  are not stored,https://bugs.launchpad.net/ceilometer/+bug/1488707,2016-01-21
+1480490,1480490,Fix Released,"test_check_nova_notification_event_and_meter fails causes ceilo-api to 500 with Server-side error: ""5217""",https://bugs.launchpad.net/ceilometer/+bug/1480490,2016-01-21
+1496982,1496982,Fix Released,Ceilometer coordinator should try to handle ToozError when joining group,https://bugs.launchpad.net/ceilometer/+bug/1496982,2016-01-21
+1488716,1488716,Fix Released,"The command 'ceilometer event-list -q ""outcome=string::success;eventType=string::activity;action=string::authenticate"" ' fails",https://bugs.launchpad.net/ceilometer/+bug/1488716,2016-01-21
+1475356,1475356,Fix Released,Serializer reports wrong supported version,https://bugs.launchpad.net/nova/+bug/1475356,2016-01-21
+1440762,1440762,Fix Released,Rebuild an instance with attached volume fails,https://bugs.launchpad.net/nova/+bug/1440762,2016-01-21
+1536243,1536243,Fix Released,Trove cluster connection info table not aligning properly,https://bugs.launchpad.net/trove/+bug/1536243,2016-01-21
+1483583,1483583,Fix Released,"vnc config group ""DEFAULT"" is deprecated at nova.conf",https://bugs.launchpad.net/devstack/+bug/1483583,2016-01-21
+1486653,1486653,Fix Released,Create big cluster failed because token expired,https://bugs.launchpad.net/sahara/+bug/1486653,2016-01-21
+1521992,1521992,Fix Released,Issues with trust work in sahara,https://bugs.launchpad.net/sahara/+bug/1521992,2016-01-21
+1527833,1527833,Fix Released,change owner to project for image commands,https://bugs.launchpad.net/python-openstackclient/+bug/1527833,2016-01-21
+1536410,1536410,Fix Released,"get-pip.py failing, using an outdated location for get-pip.py script",https://bugs.launchpad.net/astara/+bug/1536410,2016-01-21
+1501662,1501662,Fix Released,filesystem_store_datadir doesn't have the default it pretends,https://bugs.launchpad.net/glance-store/+bug/1501662,2016-01-21
+1498926,1498926,Fix Released,Unable to create subnet from IPv6 subnetpool,https://bugs.launchpad.net/horizon/+bug/1498926,2016-01-21
+1514869,1514869,Fix Released,Missing documentation for SCSS code design,https://bugs.launchpad.net/horizon/+bug/1514869,2016-01-21
+1497056,1497056,Fix Released,Allow configuration of nova micro-version in the settings,https://bugs.launchpad.net/horizon/+bug/1497056,2016-01-21
+1519591,1519591,Fix Released,manage security groups missing back button,https://bugs.launchpad.net/horizon/+bug/1519591,2016-01-21
+1520049,1520049,Fix Released,"When we use pre tag and a line in the contents is too long, layout is collapsed.",https://bugs.launchpad.net/horizon/+bug/1520049,2016-01-21
+1512428,1512428,Fix Released,Success pop-up is not displayed after successful nova-instance deploy with NG option.,https://bugs.launchpad.net/horizon/+bug/1512428,2016-01-21
+1516684,1516684,Fix Released,Some volume related quotas are not translatable on admin->defaults,https://bugs.launchpad.net/horizon/+bug/1516684,2016-01-21
+1516021,1516021,Fix Released,Breadcrumb header styling should be theme-specific,https://bugs.launchpad.net/horizon/+bug/1516021,2016-01-21
+1521360,1521360,Fix Released,Add Member action in loadbalancers does not enforce protocol as required field,https://bugs.launchpad.net/horizon/+bug/1521360,2016-01-21
+1479966,1479966,Fix Released,Text About Compressed Images,https://bugs.launchpad.net/horizon/+bug/1479966,2016-01-21
+1499142,1499142,Fix Released,test coverage for toast service error,https://bugs.launchpad.net/horizon/+bug/1499142,2016-01-21
+1523849,1523849,Fix Released,Incorrect ID for theme preview navigation,https://bugs.launchpad.net/horizon/+bug/1523849,2016-01-21
+1524115,1524115,Fix Released,Split Buttons dropdowns stopped working,https://bugs.launchpad.net/horizon/+bug/1524115,2016-01-21
+1492365,1492365,Fix Released,Inconsistent/ useless error messages in networking workflows,https://bugs.launchpad.net/horizon/+bug/1492365,2016-01-21
+1445249,1445249,Fix Released,Fix bad performance when editing domain members,https://bugs.launchpad.net/horizon/+bug/1445249,2016-01-21
+1516603,1516603,Fix Released,VPN forms help text could be improved,https://bugs.launchpad.net/horizon/+bug/1516603,2016-01-21
+1516986,1516986,Fix Released,Grammar/ phrasing cleanup on packaging docs,https://bugs.launchpad.net/horizon/+bug/1516986,2016-01-21
+1522520,1522520,Fix Released,need directive to check if api version is enabled,https://bugs.launchpad.net/horizon/+bug/1522520,2016-01-21
+1525903,1525903,Fix Released,should not use mutable default arguments,https://bugs.launchpad.net/horizon/+bug/1525903,2016-01-21
+1442288,1442288,Fix Released,"Setting 'auto_fade_alerts' is working only for simple request, not ajax",https://bugs.launchpad.net/horizon/+bug/1442288,2016-01-21
+1501921,1501921,Fix Released,Heat Stacks Details: missing unit tests,https://bugs.launchpad.net/horizon/+bug/1501921,2016-01-21

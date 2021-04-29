@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1279000,1279000,Fix Released,db migrate script to set charset=utf8 for all tables,https://bugs.launchpad.net/glance/+bug/1279000,2015-08-05
+1474246,1474246,Fix Released,compute createVolume has incorrect params,https://bugs.launchpad.net/openstack-api-site/+bug/1474246,2015-08-05
+1268310,1268310,Fix Released,Cryptic message if keystone is missing an endpoint for designate,https://bugs.launchpad.net/python-designateclient/+bug/1268310,2015-08-04
+1480389,1480389,Fix Released,Installing tempest always requires root privileges,https://bugs.launchpad.net/tempest/+bug/1480389,2015-08-04
+1460208,1460208,Fix Committed,cue-manage broker add command does not return new broker id,https://bugs.launchpad.net/cue/+bug/1460208,2015-08-04
+1477162,1477162,Fix Released,Restart nfs server after fuel installed on hardware lab.,https://bugs.launchpad.net/fuel/+bug/1477162,2015-08-04
+1479017,1479017,Fix Released,Gerrit fails to receive tree object from puppetlabs-apt repo - need manual push to backend store,https://bugs.launchpad.net/fuel/+bug/1479017,2015-08-04
+1481062,1481062,Fix Released,[Fuel Plugin SDK] Add information about 'strict' flag for restrictions,https://bugs.launchpad.net/fuel/+bug/1481062,2015-08-04
+1477295,1477295,Fix Released,Allow to select default Environment Network,https://bugs.launchpad.net/murano/+bug/1477295,2015-08-04
+1480818,1480818,Fix Released,[orchestration] make auth_uri in ec2authtoken section an attribute,https://bugs.launchpad.net/openstack-chef/+bug/1480818,2015-08-04
+1474349,1474349,Fix Released,test-requirements-deb job in fuel-main repo is outdated,https://bugs.launchpad.net/fuel/+bug/1474349,2015-08-04
+1480335,1480335,Fix Released,Zabbix monitoring EMC and Extreme Networks plugins does not deploy,https://bugs.launchpad.net/fuel/+bug/1480335,2015-08-04
+1465780,1465780,Fix Released,Beaker job is broken on Trusty,https://bugs.launchpad.net/puppet-designate/+bug/1465780,2015-08-04
+1481292,1481292,Fix Released,staging test failed due to high load on the server,https://bugs.launchpad.net/fuel/+bug/1481292,2015-08-04
+1477966,1477966,Fix Released,[fuel-qa] Remove offloading tests for deprecated nova-flat,https://bugs.launchpad.net/fuel/+bug/1477966,2015-08-04
+1480158,1480158,Fix Released,SNPTT doesn't restart properly after emc or extreme configs are arrived,https://bugs.launchpad.net/fuel/+bug/1480158,2015-08-04
+1453818,1453818,Fix Released,test_preserve_preexisting_port in fails when port_vnic_type = direct,https://bugs.launchpad.net/tempest/+bug/1453818,2015-08-04
+1467699,1467699,Fix Released,CORS not enabled,https://bugs.launchpad.net/app-catalog/+bug/1467699,2015-08-04
+1353846,1353846,Fix Released,servers list API support specify multi-status,https://bugs.launchpad.net/openstack-api-site/+bug/1353846,2015-08-03
+1472724,1472724,Fix Released,Kilo iso has juno release version in openstack_version,https://bugs.launchpad.net/fuel/+bug/1472724,2015-08-03
+1480874,1480874,Fix Released,nova regression causes failures in deploy tests,https://bugs.launchpad.net/fuel/+bug/1480874,2015-08-03
+1426091,1426091,Fix Released,python-swiftclient API can't upload non-local file-like objects,https://bugs.launchpad.net/python-swiftclient/+bug/1426091,2015-08-03
+1480023,1480023,Fix Released,"Neutron API-site: Some request parameters of ""Create floating IP"" should be optional",https://bugs.launchpad.net/openstack-api-site/+bug/1480023,2015-08-03
+1325865,1325865,Fix Released,[Nailgun] DB operations refactoring from models to objects,https://bugs.launchpad.net/fuel/+bug/1325865,2015-08-03
+1480035,1480035,Fix Released,Keystone V3 : List endpoints API. Same endpoint id exists.,https://bugs.launchpad.net/openstack-api-site/+bug/1480035,2015-08-03
+1477402,1477402,Fix Released,"Keystone: section of List groups api and Show group details , the ""id"" should be ""domain_id"" in response parameter table",https://bugs.launchpad.net/openstack-api-site/+bug/1477402,2015-08-03
+1365601,1365601,Fix Released,Chapter 3. API operations and extensions in OpenStack Networking API v2.0 (neutron) Reference  - API v2.0 (neutron) and extensions,https://bugs.launchpad.net/openstack-api-site/+bug/1365601,2015-08-03
+1480577,1480577,Fix Released,[identity]  LDAP connection pool configurations are missing,https://bugs.launchpad.net/openstack-chef/+bug/1480577,2015-08-03
+1480837,1480837,Fix Released,heat stack-abandon or delete does not delete stack,https://bugs.launchpad.net/heat/+bug/1480837,2015-08-03
+1475603,1475603,Fix Released,CirrOS vm doesn't get MTU/RA options,https://bugs.launchpad.net/fuel/+bug/1475603,2015-08-03
+1471155,1471155,Fix Released,[build-team] build iso ignore host-system hosts file,https://bugs.launchpad.net/fuel/+bug/1471155,2015-08-03
+1475615,1475615,Fix Released,[devops] We need two mirrors for our project,https://bugs.launchpad.net/fuel/+bug/1475615,2015-08-03
+1241615,1241615,Fix Released,rebuild with volume attached leaves instance without the volume and in an inconsistent state,https://bugs.launchpad.net/nova/+bug/1241615,2015-08-02
+1254174,1254174,Fix Released,bulk-delete-floating-ip does not free used quota,https://bugs.launchpad.net/nova/+bug/1254174,2015-08-02
+1215527,1215527,Fix Released,DescribeInstanceAttribute userData missing value xml element,https://bugs.launchpad.net/ec2-api/+bug/1215527,2015-08-02
+954335,954335,Fix Released,registering new image from existing s3 location does not respect kernel/ramdisk/name,https://bugs.launchpad.net/ec2-api/+bug/954335,2015-08-02
+1371046,1371046,Fix Released,No type check for resource-id value in EC2 describe_tags filter,https://bugs.launchpad.net/ec2-api/+bug/1371046,2015-08-02
+1325079,1325079,Fix Released,Invalid error message for snapshot creation in EC2 layer,https://bugs.launchpad.net/ec2-api/+bug/1325079,2015-08-02
+1075051,1075051,Fix Released,AWS credentials delegation to S3/Swift3,https://bugs.launchpad.net/ec2-api/+bug/1075051,2015-08-02
+1272844,1272844,Fix Released,Fails to 'modify_image_attribute()' for ec2,https://bugs.launchpad.net/ec2-api/+bug/1272844,2015-08-02
+1370339,1370339,Fix Released,Cannot register volume backed image by EC2 API,https://bugs.launchpad.net/ec2-api/+bug/1370339,2015-08-02
+1371424,1371424,Fix Released,EC2 API does not support filters,https://bugs.launchpad.net/ec2-api/+bug/1371424,2015-08-02
+1263993,1263993,Fix Released,nova-api ec2 DescribeInstaces returns invalid xml under certain conditions,https://bugs.launchpad.net/ec2-api/+bug/1263993,2015-08-02
+1479860,1479860,Fix Released,"Identity Admin API v2.0/Users: missing the ""Create  user"" info.",https://bugs.launchpad.net/openstack-api-site/+bug/1479860,2015-08-01
+1479937,1479937,Fix Committed,Moving Arista drivers from neutron tree to networking-arista,https://bugs.launchpad.net/networking-arista/+bug/1479937,2015-08-01
+1443342,1443342,Fix Released,The assignment in extensions.py may cause resources point to same object,https://bugs.launchpad.net/neutron/+bug/1443342,2015-08-01
+1391532,1391532,Fix Released,"Keystone/identity: POST ""Add user"" Response Parameters missing the ""username"" parameter",https://bugs.launchpad.net/openstack-api-site/+bug/1391532,2015-08-01
+1480020,1480020,Fix Released,Missing volume type update api in api-site,https://bugs.launchpad.net/openstack-api-site/+bug/1480020,2015-08-01
+1479629,1479629,Fix Released,"Neutron API-site: ""Error response codes"" of ""Create floating IP"" missing Not Found (404)",https://bugs.launchpad.net/openstack-api-site/+bug/1479629,2015-08-01
+1477443,1477443,Fix Released,"Neutron API-site: ""Response parameters"" table of ""Security groups and rules"" has a wrong parameter name",https://bugs.launchpad.net/openstack-api-site/+bug/1477443,2015-08-01
+1477796,1477796,Fix Released,The description of the response code for /v2/{tenant_id}/os-server-groups is wrong.,https://bugs.launchpad.net/openstack-api-site/+bug/1477796,2015-08-01
+1477397,1477397,Fix Released,"Neutron API-site: ""Response parameters"" table of ""List security group rules""  has an unnecessary entry",https://bugs.launchpad.net/openstack-api-site/+bug/1477397,2015-08-01
+1307751,1307751,Fix Released,"Allow -1 as the length of ""get console output"" API",https://bugs.launchpad.net/openstack-api-site/+bug/1307751,2015-08-01
+1478032,1478032,Fix Released,"A sample of a response body of ""POST /v3/services"" is not correct.",https://bugs.launchpad.net/openstack-api-site/+bug/1478032,2015-08-01
+1477891,1477891,Fix Released,"No information of ""type"" parameter is in reboot server API.",https://bugs.launchpad.net/openstack-api-site/+bug/1477891,2015-08-01
+1477911,1477911,Fix Released,"Keystone V3 : Create domain API, wrong explanation for response parameter ""domain""",https://bugs.launchpad.net/openstack-api-site/+bug/1477911,2015-08-01
+1458983,1458983,Fix Released,Repeated (and incorrect) information for block_device_mapping_v2,https://bugs.launchpad.net/openstack-api-site/+bug/1458983,2015-08-01
+1478527,1478527,Fix Released,A token is necessary for managing groups.,https://bugs.launchpad.net/openstack-api-site/+bug/1478527,2015-07-31
+1478047,1478047,Fix Released,"Identity API v3 No description of ""/v3/groups/{group_id}/users/{user_id}""",https://bugs.launchpad.net/openstack-api-site/+bug/1478047,2015-07-31
+1478429,1478429,Fix Released,Incorrect URL and normal response codes in Manage Services section of Compute API v2 extensions (SUPPORTED),https://bugs.launchpad.net/openstack-api-site/+bug/1478429,2015-07-31
+1479621,1479621,Fix Released,"Neutron: ""Create VPN service"" doesn't show fully responses parameters",https://bugs.launchpad.net/openstack-api-site/+bug/1479621,2015-07-31
+1479622,1479622,Fix Released,"Neutron: ""Show VPN service details"" doesn't show fully responses parameters",https://bugs.launchpad.net/openstack-api-site/+bug/1479622,2015-07-31
+1479624,1479624,Fix Released,"Neutron: ""Update VPN service"" doesn't show fully responses parameters",https://bugs.launchpad.net/openstack-api-site/+bug/1479624,2015-07-31
+1478482,1478482,Fix Released,"Tempest test ""test_volume_boot_pattern"" doesn't work when use_floatingip_for_ssh is false",https://bugs.launchpad.net/tempest/+bug/1478482,2015-07-31
+1477365,1477365,Fix Released,Unauthorized(401) error response code for Tokens Authenticate API is duplicated,https://bugs.launchpad.net/openstack-api-site/+bug/1477365,2015-07-31
+1477874,1477874,Fix Released,"Neutron/Networking: GET ""List pools"" Response Parameters are incorrect",https://bugs.launchpad.net/openstack-api-site/+bug/1477874,2015-07-31
+1367074,1367074,Fix Released,API support for random access to images,https://bugs.launchpad.net/openstack-api-site/+bug/1367074,2015-07-31
+1477354,1477354,Fix Released,"Nova: Compute v2.1 api has to add {tenant_id} in request parameter,otherwise will return 404 not found",https://bugs.launchpad.net/openstack-api-site/+bug/1477354,2015-07-31
+1479245,1479245,Fix Released,"Neutron: ""Create router"" doesn't show fully responses parameters",https://bugs.launchpad.net/openstack-api-site/+bug/1479245,2015-07-31
+1477832,1477832,Fix Committed,[monasca-ui] the page title of Horizon should be translated.,https://bugs.launchpad.net/monasca/+bug/1477832,2015-07-31
+1412433,1412433,Fix Released,old packages python-migrate and stevedore in Centos,https://bugs.launchpad.net/fuel/+bug/1412433,2015-07-31
+1392268,1392268,Fix Released,setup environment for external mongo testing,https://bugs.launchpad.net/fuel/+bug/1392268,2015-07-31
+1443496,1443496,Fix Released,remove debug option from rpmbuild,https://bugs.launchpad.net/fuel/+bug/1443496,2015-07-31
+1328873,1328873,Fix Committed,provisioning fails because of cobbler race conditions,https://bugs.launchpad.net/fuel/+bug/1328873,2015-07-31
+1307699,1307699,Fix Released,Identity API doesn't have v3/projects/​{project_id}​/users,https://bugs.launchpad.net/openstack-api-site/+bug/1307699,2015-07-31

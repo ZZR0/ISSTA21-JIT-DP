@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1212625,1212625,Fix Released,'str' object has no attribute 'AndReturn',https://bugs.launchpad.net/glance/+bug/1212625,2013-10-17
+1167318,1167318,Fix Released,some default config options are of the wrong type,https://bugs.launchpad.net/cinder/+bug/1167318,2013-10-17
+1233097,1233097,Fix Released,rbd delete_image does not catch ImageNotFound when deleting snap,https://bugs.launchpad.net/glance/+bug/1233097,2013-10-17
+1164922,1164922,Fix Released,cinder-manage backup list is broken since we switched to uuids for backups,https://bugs.launchpad.net/cinder/+bug/1164922,2013-10-17
+1231255,1231255,Fix Released,Glance GET /v2/images fails with 500 due to erroneous policy check,https://bugs.launchpad.net/glance/+bug/1231255,2013-10-17
+1162251,1162251,Fix Released,Huawei driver failed to handle mutiple requests in short time,https://bugs.launchpad.net/cinder/+bug/1162251,2013-10-17
+1161841,1161841,Fix Released,cinder allows creation of volume from snapshot that is larger than specified volume size,https://bugs.launchpad.net/cinder/+bug/1161841,2013-10-17
+1233275,1233275,Fix Released,Avoid printing URIs which can contain credentials,https://bugs.launchpad.net/glance/+bug/1233275,2013-10-17
+1158681,1158681,Fix Released,unable to discover shares for nfs drivers,https://bugs.launchpad.net/cinder/+bug/1158681,2013-10-17
+1220067,1220067,Fix Released,"add_image fails with ""Bad header: x-image-meta-deleted-at"" message",https://bugs.launchpad.net/glance/+bug/1220067,2013-10-17
+1153108,1153108,Fix Released,test_preattach_status_volume is invalid,https://bugs.launchpad.net/cinder/+bug/1153108,2013-10-17
+1218903,1218903,Fix Released,glance-api can't start in non-English env,https://bugs.launchpad.net/glance/+bug/1218903,2013-10-17
+1184235,1184235,Fix Released,Unable to modify volume-type/QoS on cloned SolidFire volume,https://bugs.launchpad.net/cinder/+bug/1184235,2013-10-17
+1215396,1215396,Fix Released,emit warning while running flake8 without virtual env,https://bugs.launchpad.net/glance/+bug/1215396,2013-10-17
+1204359,1204359,Fix Released,Duplicate options registered in glance/registry/client/v1/api.py,https://bugs.launchpad.net/glance/+bug/1204359,2013-10-17
+1183521,1183521,Fix Released,Cloned volume is associated with wrong SolidFire account,https://bugs.launchpad.net/cinder/+bug/1183521,2013-10-17
+1214830,1214830,Fix Released,add missing index for 'owner' column on images table,https://bugs.launchpad.net/glance/+bug/1214830,2013-10-17
+1179773,1179773,Fix Released,live migration fails with storwize/svc driver,https://bugs.launchpad.net/cinder/+bug/1179773,2013-10-17
+1231497,1231497,Fix Released,v2 member-create call allows adding an empty tenantId as member,https://bugs.launchpad.net/glance/+bug/1231497,2013-10-17
+1229366,1229366,Fix Released,incorrect response code from v2 delete image member call,https://bugs.launchpad.net/glance/+bug/1229366,2013-10-17
+1229351,1229351,Fix Released,v2 image sharing doc incorrect,https://bugs.launchpad.net/glance/+bug/1229351,2013-10-17
+1173365,1173365,Fix Released,Deleted snapshots still counting against quota,https://bugs.launchpad.net/cinder/+bug/1173365,2013-10-17
+1173037,1173037,Fix Released,Can't specify custom backend-name for HP/Lefthand driver,https://bugs.launchpad.net/cinder/+bug/1173037,2013-10-17
+1226701,1226701,Fix Released,Many typos of v1 image metadata in glanceapi.rst,https://bugs.launchpad.net/glance/+bug/1226701,2013-10-17
+1172503,1172503,Fix Released,3par driver not synchronize causing duplicate hostname error,https://bugs.launchpad.net/cinder/+bug/1172503,2013-10-17
+1223861,1223861,Fix Released,Typo in protected property message,https://bugs.launchpad.net/glance/+bug/1223861,2013-10-17
+1172286,1172286,Fix Released,RBD driver doesn't get volume_backend_name value from configuration file,https://bugs.launchpad.net/cinder/+bug/1172286,2013-10-17
+1223167,1223167,Fix Released,Tests should call get_api instead of importing the module directly,https://bugs.launchpad.net/glance/+bug/1223167,2013-10-17
+1169943,1169943,Fix Released,backup-delete removes backup from database,https://bugs.launchpad.net/cinder/+bug/1169943,2013-10-17
+1169928,1169928,Fix Released,Multibackend config issue in cinder-volume,https://bugs.launchpad.net/cinder/+bug/1169928,2013-10-17
+1217838,1217838,Fix Released,Glance V2 image create does not throw exception when the image is deleted during upload,https://bugs.launchpad.net/glance/+bug/1217838,2013-10-17
+1169857,1169857,Fix Released,"cinder backup db call and read_deleted=""yes""?",https://bugs.launchpad.net/cinder/+bug/1169857,2013-10-17
+1207266,1207266,Fix Released,glance allows membership access and modify for deleted image,https://bugs.launchpad.net/glance/+bug/1207266,2013-10-17
+1190666,1190666,Fix Released,Add swift_store_ssl_compression param,https://bugs.launchpad.net/glance/+bug/1190666,2013-10-17
+1167141,1167141,Fix Released,SolidFire driver can't be used with extra-specs as in the past,https://bugs.launchpad.net/cinder/+bug/1167141,2013-10-17
+1228256,1228256,Fix Released,Glance cache cleaner wrongly deletes cache for non invalid images,https://bugs.launchpad.net/glance/+bug/1228256,2013-10-17
+1166607,1166607,Fix Released,nexenta driver doesn't report volume stats,https://bugs.launchpad.net/cinder/+bug/1166607,2013-10-17
+1166572,1166572,Fix Released,ThinLVM driver fails due to get_stats,https://bugs.launchpad.net/cinder/+bug/1166572,2013-10-17
+1224449,1224449,Fix Released,Property protections not enforced in order,https://bugs.launchpad.net/glance/+bug/1224449,2013-10-17
+1164857,1164857,Fix Released,Error re-scheduling volume creation,https://bugs.launchpad.net/cinder/+bug/1164857,2013-10-17
+1218712,1218712,Fix Released,Registry API v1 couldn't work with multiple-location when image metadata encrypting enabled,https://bugs.launchpad.net/glance/+bug/1218712,2013-10-17
+1164038,1164038,Fix Released,glusterfs driver doesn't report volume stats,https://bugs.launchpad.net/cinder/+bug/1164038,2013-10-17
+1213880,1213880,Fix Released,glance upload to rbd creates zero length image,https://bugs.launchpad.net/glance/+bug/1213880,2013-10-17
+1163964,1163964,Fix Released,storwize svc driver needs to avoid SVC CLI shortcut,https://bugs.launchpad.net/cinder/+bug/1163964,2013-10-17
+1202098,1202098,Fix Released,glance-api failed to startup caused by UnicodeEncodeError in non-English environment,https://bugs.launchpad.net/glance/+bug/1202098,2013-10-17
+1163754,1163754,Fix Released,Fail to get WWPN on IBM Storwize,https://bugs.launchpad.net/cinder/+bug/1163754,2013-10-17
+1159027,1159027,Fix Released,reschedule_or_reraise in cinder.volume.manager eats exception on base LVM driver,https://bugs.launchpad.net/cinder/+bug/1159027,2013-10-17
+1153551,1153551,Fix Released,FLAGS are only used once in cinder/volume/manager.py use configuration instead,https://bugs.launchpad.net/cinder/+bug/1153551,2013-10-17
+1221366,1221366,Fix Released,Glance api v2 added features but still at 2.1,https://bugs.launchpad.net/glance/+bug/1221366,2013-10-17
+1213241,1213241,Fix Released,Pickled data in Glance database enables remote code execution,https://bugs.launchpad.net/glance/+bug/1213241,2013-10-17
+1218277,1218277,Fix Released,API server tracebacks not shown in logs when running tests,https://bugs.launchpad.net/glance/+bug/1218277,2013-10-17
+1217837,1217837,Fix Released,notify error not called on upload errors in V2,https://bugs.launchpad.net/glance/+bug/1217837,2013-10-17
+1213779,1213779,Fix Released,glance-replicator: exception information doesn't get into log file,https://bugs.launchpad.net/glance/+bug/1213779,2013-10-17
+1212994,1212994,Fix Released,redundant conditions in paginate-query,https://bugs.launchpad.net/glance/+bug/1212994,2013-10-17
+1212988,1212988,Fix Released,remove flake8 option in run_tests.sh,https://bugs.launchpad.net/glance/+bug/1212988,2013-10-17
+1208417,1208417,Fix Released,glance-replicator: handle circumstances when one of image properties is None,https://bugs.launchpad.net/glance/+bug/1208417,2013-10-17
+1207616,1207616,Fix Released,The error msg of v2 image_data.py should be improved,https://bugs.launchpad.net/glance/+bug/1207616,2013-10-17
+1205367,1205367,Fix Released,test_multiprocessing fails on OS X,https://bugs.launchpad.net/glance/+bug/1205367,2013-10-17
+1205091,1205091,Fix Released,test_get_image_members_not_existing unit failure,https://bugs.launchpad.net/glance/+bug/1205091,2013-10-17
+1204941,1204941,Fix Released,Database migration can incorrectly drop owner column on downgrade,https://bugs.launchpad.net/glance/+bug/1204941,2013-10-17
+1204940,1204940,Fix Released,Database migration snake walk test doesn't actually snake walk,https://bugs.launchpad.net/glance/+bug/1204940,2013-10-17
+1204668,1204668,Fix Released,Glance RPC client fails when the returned value is a integer,https://bugs.launchpad.net/glance/+bug/1204668,2013-10-17
+1204186,1204186,Fix Released,Test test_get_bind_addr_default_value picks up port value from system config file,https://bugs.launchpad.net/glance/+bug/1204186,2013-10-17
+1202513,1202513,Fix Released,glance-replicator will expose trace when no args given,https://bugs.launchpad.net/glance/+bug/1202513,2013-10-17
+1199125,1199125,Fix Released,Upload failures to swift are not logged,https://bugs.launchpad.net/glance/+bug/1199125,2013-10-17
+1197402,1197402,Fix Released,Cannot delete all queued images from cache when using xattr driver,https://bugs.launchpad.net/glance/+bug/1197402,2013-10-17
+1197360,1197360,Fix Released,xattr cache driver returns iso8601 format timestamps,https://bugs.launchpad.net/glance/+bug/1197360,2013-10-17
+1196953,1196953,Fix Released,Glance logs 500 internal error when client disconnects during upload,https://bugs.launchpad.net/glance/+bug/1196953,2013-10-17
+1195470,1195470,Fix Released,Migration downgrade tests missing,https://bugs.launchpad.net/glance/+bug/1195470,2013-10-17
+1189451,1189451,Fix Released,glance-cache-manage clean command is not implemented,https://bugs.launchpad.net/glance/+bug/1189451,2013-10-17
+1201758,1201758,Fix Released,image-delete fires multiple queries to delete its child entries,https://bugs.launchpad.net/glance/+bug/1201758,2013-10-17
+1212300,1212300,Fix Released,Remove glance CLI man page from glance.,https://bugs.launchpad.net/glance/+bug/1212300,2013-10-17
+1202985,1202985,Fix Released,Simulate similar behaviour for image_locations in simple/api.py as in sqlalchemy/api.py,https://bugs.launchpad.net/glance/+bug/1202985,2013-10-17
+1197800,1197800,Fix Released,Cannot run tests without virtual env,https://bugs.launchpad.net/glance/+bug/1197800,2013-10-17
+1177972,1177972,Fix Released,notify.error is not always called when image upload fails,https://bugs.launchpad.net/glance/+bug/1177972,2013-10-17

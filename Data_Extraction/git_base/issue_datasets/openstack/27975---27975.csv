@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1664635,1664635,Fix Committed,sshd stops reading puppet output on applying keystone.pp during fuel-qa auto tests,https://bugs.launchpad.net/fuel/+bug/1664635,2017-03-08
+1670405,1670405,Fix Committed,"Invalid ""vlan_range"" for multigroup tests",https://bugs.launchpad.net/fuel/+bug/1670405,2017-03-08
+1669539,1669539,Fix Released,Cinder-API doesn't pass volume-type extra_specs to scheduler for non-admin user requests when creating volume from an image,https://bugs.launchpad.net/cinder/+bug/1669539,2017-03-08
+1568119,1568119,Fix Committed,Improve KMIP error code for invalid key spec,https://bugs.launchpad.net/python-barbicanclient/+bug/1568119,2017-03-08
+1658859,1658859,Fix Released,Add blazar release notes,https://bugs.launchpad.net/blazar/+bug/1658859,2017-03-08
+1323705,1323705,Fix Released,Instance VNC console can't connect on the first attempt,https://bugs.launchpad.net/fuel/+bug/1323705,2017-03-08
+1662734,1662734,Fix Released,Migrate climate namespace to blazar in blazar repo,https://bugs.launchpad.net/blazar/+bug/1662734,2017-03-08
+1670804,1670804,Fix Released,OVB BMC failing to start properly,https://bugs.launchpad.net/tripleo/+bug/1670804,2017-03-07
+1623731,1623731,Fix Released,check_for_pending_or_processing_ops should exclude the row which to be validated,https://bugs.launchpad.net/networking-odl/+bug/1623731,2017-03-07
+1547270,1547270,Fix Released,Order create fails with KMIP backend,https://bugs.launchpad.net/barbican/+bug/1547270,2017-03-07
+1670728,1670728,Fix Released,Possible neutron -> neutron_lib migrations affecting gate,https://bugs.launchpad.net/networking-vpp/+bug/1670728,2017-03-07
+1613724,1613724,Fix Committed,Neutron services are not restarted after config changes in common config sections,https://bugs.launchpad.net/fuel/+bug/1613724,2017-03-07
+1655097,1655097,Fix Released,Implement REST API for ML2 Nexus driver,https://bugs.launchpad.net/networking-cisco/+bug/1655097,2017-03-07
+1669909,1669909,Fix Released,"Update Agent, Router and RouterPort imports",https://bugs.launchpad.net/networking-cisco/+bug/1669909,2017-03-07
+1662771,1662771,Fix Released,Error when adding multiple policies for server group,https://bugs.launchpad.net/python-openstackclient/+bug/1662771,2017-03-07
+1651117,1651117,Fix Released,Implement encryption-type commands of cinderclient in OSC,https://bugs.launchpad.net/python-openstackclient/+bug/1651117,2017-03-07
+1661814,1661814,Fix Released,"KeyError cause ""module list --all"" command failed",https://bugs.launchpad.net/python-openstackclient/+bug/1661814,2017-03-07
+1658614,1658614,Fix Released,parse service version from console input bug,https://bugs.launchpad.net/python-openstackclient/+bug/1658614,2017-03-07
+1499657,1499657,Fix Released,--parents option access wrong URL,https://bugs.launchpad.net/python-openstackclient/+bug/1499657,2017-03-07
+1654913,1654913,Fix Released,switch to the public and unified method get_console_url,https://bugs.launchpad.net/python-openstackclient/+bug/1654913,2017-03-07
+1663520,1663520,Fix Released,"""server create"" command failed when --nic auto or none",https://bugs.launchpad.net/python-openstackclient/+bug/1663520,2017-03-07
+1666841,1666841,Fix Released,"Help message should contain ""type"" for ""--service"" option of endpoint list",https://bugs.launchpad.net/python-openstackclient/+bug/1666841,2017-03-07
+1666780,1666780,Fix Released,Support list commands by group name keyword,https://bugs.launchpad.net/python-openstackclient/+bug/1666780,2017-03-07
+1665231,1665231,Fix Released,Bug of is_default option in the network create/set,https://bugs.launchpad.net/python-openstackclient/+bug/1665231,2017-03-07
+1666551,1666551,Fix Released,image create : --file and --volume should be mutually exclusive,https://bugs.launchpad.net/python-openstackclient/+bug/1666551,2017-03-07
+1667699,1667699,Fix Released,openstack security group rule list --long fails to show Ethertype,https://bugs.launchpad.net/python-openstackclient/+bug/1667699,2017-03-07
+1656788,1656788,Fix Released,port set --security-group: 'Port' object has no attribute 'security_groups',https://bugs.launchpad.net/python-openstackclient/+bug/1656788,2017-03-07
+1669415,1669415,Fix Committed,[grafana] Ceph dashboard missing data,https://bugs.launchpad.net/lma-toolchain/+bug/1669415,2017-03-07
+1581058,1581058,Fix Committed,"[mos-xenial] ""ip link"" can produce different output formats",https://bugs.launchpad.net/fuel/+bug/1581058,2017-03-07
+1651404,1651404,Fix Released,ns_haproxy ns_vrouter ocf have incorrect grep command,https://bugs.launchpad.net/fuel/+bug/1651404,2017-03-07
+1662739,1662739,Fix Released,Update blazar overview guide,https://bugs.launchpad.net/blazar/+bug/1662739,2017-03-07
+1669454,1669454,Fix Released,Docker build during NFP controller image build is failing,https://bugs.launchpad.net/group-based-policy/+bug/1669454,2017-03-07
+1651931,1651931,Fix Released,[QA Ocata] devstack Postgres,https://bugs.launchpad.net/congress/+bug/1651931,2017-03-07
+1651932,1651932,Fix Released,[QA Ocata] replicated policy engine,https://bugs.launchpad.net/congress/+bug/1651932,2017-03-07
+1651930,1651930,Fix Released,[QA Ocata] devstack MySQL,https://bugs.launchpad.net/congress/+bug/1651930,2017-03-07
+1644325,1644325,Fix Released,Remove openstack incubator code,https://bugs.launchpad.net/congress/+bug/1644325,2017-03-07
+1552184,1552184,Fix Released,Remove execute_action dependecy in policy engine in new architecture,https://bugs.launchpad.net/congress/+bug/1552184,2017-03-07
+1669674,1669674,Fix Released,Delete container cleanups the Neutron existing port,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1669674,2017-03-07
+1667040,1667040,Fix Released,InstanceNotFound exception during check_instance_exists on instance evacuation,https://bugs.launchpad.net/nova/+bug/1667040,2017-03-06
+1570356,1570356,Fix Released,unable to load plugins in Centos,https://bugs.launchpad.net/barbican/+bug/1570356,2017-03-06
+1641267,1641267,Fix Released,not able to install multi-node via devstack,https://bugs.launchpad.net/networking-sfc/+bug/1641267,2017-03-06
+1634276,1634276,Fix Released,Add reno for release notes management,https://bugs.launchpad.net/networking-sfc/+bug/1634276,2017-03-06
+1638282,1638282,Fix Released,The output of neutron port-chain-create have duplicate tenant_id,https://bugs.launchpad.net/networking-sfc/+bug/1638282,2017-03-06
+1649274,1649274,Fix Released,Use ovs devstack plugin instead of coyping it,https://bugs.launchpad.net/networking-sfc/+bug/1649274,2017-03-06
+1655618,1655618,Fix Released,Tempest runs: intermittent single test failure,https://bugs.launchpad.net/networking-sfc/+bug/1655618,2017-03-06
+1630657,1630657,Fix Released,project_id not being leveraged by the OVS driver,https://bugs.launchpad.net/networking-sfc/+bug/1630657,2017-03-06
+1656126,1656126,Fix Released,Broken link to http://docs.openstack.org/developer/networking-sfc/py-modindex.html,https://bugs.launchpad.net/networking-sfc/+bug/1656126,2017-03-06
+1658089,1658089,Fix Released,Gate failure: TypeError: 'NoneType' object has no attribute '__getitem__',https://bugs.launchpad.net/networking-sfc/+bug/1658089,2017-03-06
+1660625,1660625,Fix Released,Unit tests broken with stevedore 1.20.0,https://bugs.launchpad.net/networking-sfc/+bug/1660625,2017-03-06
+1663877,1663877,Fix Released,PEP8 checks are being ignored,https://bugs.launchpad.net/networking-sfc/+bug/1663877,2017-03-06
+1670446,1670446,Fix Released,variables shell integration tests are repeated code,https://bugs.launchpad.net/python-cratonclient/+bug/1670446,2017-03-06
+1586523,1586523,Fix Released,Cannot update Ironic nodes via baremetal import,https://bugs.launchpad.net/tripleo/+bug/1586523,2017-03-06
+1659110,1659110,Fix Released,Support get/set/delete variables in Python client/CLI,https://bugs.launchpad.net/python-cratonclient/+bug/1659110,2017-03-06
+1618714,1618714,Fix Released,Running setup.py install for netifaces: finished with status 'error',https://bugs.launchpad.net/rally/+bug/1618714,2017-03-06
+1661044,1661044,Fix Released,Junit report is wrong,https://bugs.launchpad.net/rally/+bug/1661044,2017-03-06
+1668483,1668483,Fix Released,rally-ci broken due to devstack,https://bugs.launchpad.net/rally/+bug/1668483,2017-03-06
+1642426,1642426,Fix Released,attributes.PLURALS is never used,https://bugs.launchpad.net/neutron/+bug/1642426,2017-03-06
+1657840,1657840,Fix Released,powervm volume/driver.py needs to use connection_info serial  to get the volume_id,https://bugs.launchpad.net/nova-powervm/+bug/1657840,2017-03-06
+1582844,1582844,Fix Released,Stack validation fails when called as nested template,https://bugs.launchpad.net/heat/+bug/1582844,2017-03-06
+1661237,1661237,Fix Committed,[9.2][updates][UI] deploy-changes button still active after update by mos-playbooks,https://bugs.launchpad.net/fuel/+bug/1661237,2017-03-06
+1628234,1628234,Fix Released,TFTP is not supported over IPv6 in the undercloud,https://bugs.launchpad.net/tripleo/+bug/1628234,2017-03-06
+1610693,1610693,Fix Released,Broken instances quota check in Liberty,https://bugs.launchpad.net/horizon/+bug/1610693,2017-03-06
+1665977,1665977,Fix Released,IBM Storwize family and SVC volume driver in Configuration Reference,https://bugs.launchpad.net/openstack-manuals/+bug/1665977,2017-03-06
+1641061,1641061,Fix Released,[vCenter] Value of glance:vcenter_security_disabled is undefined,https://bugs.launchpad.net/fuel/+bug/1641061,2017-03-06
+1668305,1668305,Fix Released,api-ref: v2 API does not mention DELETE for volume metadata,https://bugs.launchpad.net/cinder/+bug/1668305,2017-03-06
+1666887,1666887,Fix Released,ovs firewall and dpdk tests failed with permission denied error,https://bugs.launchpad.net/fuel/+bug/1666887,2017-03-06
+1634483,1634483,Fix Released,Agent Listener unit tests do not properly override configuration,https://bugs.launchpad.net/murano/+bug/1634483,2017-03-06
+1656762,1656762,Fix Released,The osc.v1.DeleteHost class should be a subclass of osc_lib.command.command class.,https://bugs.launchpad.net/python-masakariclient/+bug/1656762,2017-03-06
+1659962,1659962,Fix Released,repo install fails when limiting to one controller node,https://bugs.launchpad.net/openstack-ansible/+bug/1659962,2017-03-06
+1649617,1649617,Fix Released,Security role fails if SELinux is disabled,https://bugs.launchpad.net/openstack-ansible/+bug/1649617,2017-03-06
+1640388,1640388,Fix Released,Haproxy health check for ironic-api always fails,https://bugs.launchpad.net/openstack-ansible/+bug/1640388,2017-03-06
+1669115,1669115,Fix Released,Failed to create a network with both ipv4 and ipv6,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1669115,2017-03-05
+1670063,1670063,Fix Released,kuryr-libnetwork docker image did not output,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1670063,2017-03-05
+1584190,1584190,Fix Released,fuel-ostf heat-autoscaling fails on complicated environments with timeout error,https://bugs.launchpad.net/fuel/+bug/1584190,2017-03-05
+1662922,1662922,Fix Released,Autoselection of IBM SVC/Storwize IO group,https://bugs.launchpad.net/cinder/+bug/1662922,2017-03-04

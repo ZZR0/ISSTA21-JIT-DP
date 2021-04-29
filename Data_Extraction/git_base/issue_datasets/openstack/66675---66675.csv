@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1431519,1431519,Fix Released,nova.tests.unit.network.test_neutronv2.TestNeutronv2WithMock.test_deallocate_for_instance_uses_delete_helper fails with sqlalchemy.exc.OperationalError,https://bugs.launchpad.net/nova/+bug/1431519,2015-04-30
+1431022,1431022,Fix Released,Infinite recursion possible with test_auth test,https://bugs.launchpad.net/nova/+bug/1431022,2015-04-30
+1424054,1424054,Fix Released,Command: sudo nova-rootwrap /etc/nova/rootwrap.conf blkid -o value -s TYPE /dev/nbd12 fails,https://bugs.launchpad.net/nova/+bug/1424054,2015-04-30
+1419629,1419629,Fix Released,HTTPInternalServerError if 'label' is missing in request body of create tenant network API,https://bugs.launchpad.net/nova/+bug/1419629,2015-04-30
+1418675,1418675,Fix Released,libvirt utils doesn't canonicalize the image architecture property,https://bugs.launchpad.net/nova/+bug/1418675,2015-04-30
+1418641,1418641,Fix Released,"Hypervisor support matrix contains no ""pause"" section but refers to it",https://bugs.launchpad.net/nova/+bug/1418641,2015-04-30
+1418410,1418410,Fix Released,add snapshot name validate for create snapshot,https://bugs.launchpad.net/nova/+bug/1418410,2015-04-30
+1417798,1417798,Fix Released,IP filtering can include duplicate instances,https://bugs.launchpad.net/nova/+bug/1417798,2015-04-30
+1417649,1417649,Fix Released,IP filtering is not accurate when used with limit,https://bugs.launchpad.net/nova/+bug/1417649,2015-04-30
+1417555,1417555,Fix Released,Current AWS CLI and botocore do not work with EC2 API in nova,https://bugs.launchpad.net/nova/+bug/1417555,2015-04-30
+1416435,1416435,Fix Released,The publisher_id field is missing the service name sometimes,https://bugs.launchpad.net/nova/+bug/1416435,2015-04-30
+1414038,1414038,Fix Released,libvirt driver creates wrong console device for system z,https://bugs.launchpad.net/nova/+bug/1414038,2015-04-30
+1413705,1413705,Fix Released,Some processes refused to die error on libvirt-lxc destroy,https://bugs.launchpad.net/nova/+bug/1413705,2015-04-30
+1409173,1409173,Fix Released,Interaction between various unit/virt/disk tests,https://bugs.launchpad.net/nova/+bug/1409173,2015-04-30
+1409135,1409135,Fix Released,Fix XenAPI Netinject tests for Mac,https://bugs.launchpad.net/nova/+bug/1409135,2015-04-30
+1403441,1403441,Fix Released,remove detail method from the LimitsController class,https://bugs.launchpad.net/nova/+bug/1403441,2015-04-30
+1389782,1389782,Fix Released,Servicegroups: Multi process nova-conductor is unable to join servicegroups when zk driver is used,https://bugs.launchpad.net/nova/+bug/1389782,2015-04-30
+1367186,1367186,Fix Released,Instances stuck with task_state of unshelving after RPC call timeout.,https://bugs.launchpad.net/nova/+bug/1367186,2015-04-30
+1358316,1358316,Fix Released,disk: add support to resize ntfs,https://bugs.launchpad.net/nova/+bug/1358316,2015-04-30
+1203981,1203981,Fix Released,EC2 hostnames are too long when launching multiple at once,https://bugs.launchpad.net/nova/+bug/1203981,2015-04-30
+1336094,1336094,Fix Released,fake_network_cache_model doesn't support ipv6,https://bugs.launchpad.net/nova/+bug/1336094,2015-04-30
+1256306,1256306,Fix Released,Lockfiles for fetching images remain forever,https://bugs.launchpad.net/nova/+bug/1256306,2015-04-30
+1432465,1432465,Fix Released,nova detach interface will get inconsistent if hypervisor failed to detach a port,https://bugs.launchpad.net/nova/+bug/1432465,2015-04-30
+1432100,1432100,Fix Released,non-admin user can delete a network without any project assoicate with nova-network's Vlan manager,https://bugs.launchpad.net/nova/+bug/1432100,2015-04-30
+1431438,1431438,Fix Released,Make heal_instance_info_cache_interval clearer,https://bugs.launchpad.net/nova/+bug/1431438,2015-04-30
+1431203,1431203,Fix Released,too long error message on InstanceDeployFailure,https://bugs.launchpad.net/nova/+bug/1431203,2015-04-30
+1429791,1429791,Fix Released,Typo in nova/scheduler/filters/utils.py,https://bugs.launchpad.net/nova/+bug/1429791,2015-04-30
+1429759,1429759,Fix Released,Fix wrong log output in nova/nova/tests/unit/fake_volume.py,https://bugs.launchpad.net/nova/+bug/1429759,2015-04-30
+1429755,1429755,Fix Released,Fix confusing log output in nova/nova/network/linux_net.py,https://bugs.launchpad.net/nova/+bug/1429755,2015-04-30
+1428481,1428481,Fix Released,Wrong exception raised for PortNotFound and NetworkNotFound,https://bugs.launchpad.net/nova/+bug/1428481,2015-04-30
+1428072,1428072,Fix Released,Don't allow to resize down the default ephemeral disk,https://bugs.launchpad.net/nova/+bug/1428072,2015-04-30
+1425657,1425657,Fix Released,Create server with an image containing a long unicode property value fails,https://bugs.launchpad.net/nova/+bug/1425657,2015-04-30
+1425571,1425571,Fix Released,Unhelpful error message and log when virt_type is incorrect in nova.conf,https://bugs.launchpad.net/nova/+bug/1425571,2015-04-30
+1425485,1425485,Fix Released,Method sqlalchemy.api._check_instance_exists has incorrect behavior,https://bugs.launchpad.net/nova/+bug/1425485,2015-04-30
+1425187,1425187,Fix Released,Libvirt Snapshot Test Cleanup,https://bugs.launchpad.net/nova/+bug/1425187,2015-04-30
+1424647,1424647,Fix Released,Allow configuring proxy_host and proxy_port in nova.conf,https://bugs.launchpad.net/nova/+bug/1424647,2015-04-30
+1424594,1424594,Fix Released,500 error and 2 traces if no free fixed IP left in the neutron network,https://bugs.launchpad.net/nova/+bug/1424594,2015-04-30
+1424576,1424576,Fix Released,"RuntimeError: Unable to find group for option fatal_deprecations, maybe it's defined twice in the same group?",https://bugs.launchpad.net/nova/+bug/1424576,2015-04-30
+1422610,1422610,Fix Released,No retries in 'network_set_host' function,https://bugs.launchpad.net/nova/+bug/1422610,2015-04-30
+1422315,1422315,Fix Released,"novncproxy fails to establish a VNC connection, if a reverse DNS look up times out",https://bugs.launchpad.net/nova/+bug/1422315,2015-04-30
+1421707,1421707,Fix Released,Differential data not carrying over on resize up,https://bugs.launchpad.net/nova/+bug/1421707,2015-04-30
+1421272,1421272,Fix Released,Hyper-V: Attribute error when trying to spawn instance from vhd image,https://bugs.launchpad.net/nova/+bug/1421272,2015-04-30
+1420457,1420457,Fix Released,Insecurely generated session ID in vpn_ping(),https://bugs.launchpad.net/nova/+bug/1420457,2015-04-30
+1420113,1420113,Fix Released,Add notification for suspend,https://bugs.launchpad.net/nova/+bug/1420113,2015-04-30
+1419905,1419905,Fix Released,Nova may not start instances when OS is installed with locale not en_US,https://bugs.launchpad.net/nova/+bug/1419905,2015-04-30
+1419474,1419474,Fix Released,"VMware: Volume attach fails with ""VMwareDriverException: A specified parameter was not correct.""",https://bugs.launchpad.net/nova/+bug/1419474,2015-04-30
+1419002,1419002,Fix Released,nova do not compain if 'my_ip' is wrong,https://bugs.launchpad.net/nova/+bug/1419002,2015-04-30
+1417144,1417144,Fix Released,libvirt: instance schedule fails when the host has offlined CPUs,https://bugs.launchpad.net/nova/+bug/1417144,2015-04-30
+1414515,1414515,Fix Released,Zookeeper servicegroup driver's join() method returns a FakeLoopingCall,https://bugs.launchpad.net/nova/+bug/1414515,2015-04-30
+1414513,1414513,Fix Released,servicegroup.API.leave() method is unused,https://bugs.launchpad.net/nova/+bug/1414513,2015-04-30
+1413087,1413087,Fix Released,aggregate_multitenancy_isolation doesn't work with multiple tenants,https://bugs.launchpad.net/nova/+bug/1413087,2015-04-30
+1412727,1412727,Fix Released,"LOG.warn(msg, xxx) can't be found by pep8 check",https://bugs.launchpad.net/nova/+bug/1412727,2015-04-30
+1410172,1410172,Fix Released,500 on deleteing a not existing ec2 security group,https://bugs.launchpad.net/nova/+bug/1410172,2015-04-30
+1409617,1409617,Fix Released,Failed to attach interface,https://bugs.launchpad.net/nova/+bug/1409617,2015-04-30
+1408142,1408142,Fix Released,nova-network fails to initialize gateway device if the interface address has 'dynamic' flag,https://bugs.launchpad.net/nova/+bug/1408142,2015-04-30
+1406484,1406484,Fix Released,Connection info retrieved on each call to get_volume_connector,https://bugs.launchpad.net/nova/+bug/1406484,2015-04-30
+1406167,1406167,Fix Released,Block migration fails because destination compute node refuses ssh connection,https://bugs.launchpad.net/nova/+bug/1406167,2015-04-30
+1404791,1404791,Fix Released,can not delete an instance if the instance's rescue volume is not found,https://bugs.launchpad.net/nova/+bug/1404791,2015-04-30
+1403889,1403889,Fix Released,force_config_drive gives inconsistent instance state,https://bugs.launchpad.net/nova/+bug/1403889,2015-04-30
+1400080,1400080,Fix Released,interfaces.template generation needs to include the hw address for usage on multi-nic Windows machines,https://bugs.launchpad.net/nova/+bug/1400080,2015-04-30
+1400069,1400069,Fix Released,Hyper-V configdrive is missing the static ip configuration,https://bugs.launchpad.net/nova/+bug/1400069,2015-04-30
+1399498,1399498,Fix Released,centos 7 unit test fails,https://bugs.launchpad.net/nova/+bug/1399498,2015-04-30
+1389127,1389127,Fix Released,instance can not recovery from resize status when nova-compute down after resize starting,https://bugs.launchpad.net/nova/+bug/1389127,2015-04-30
+1384653,1384653,Fix Released,"attach encrypted volume, raise ""Empty module name"" exception",https://bugs.launchpad.net/nova/+bug/1384653,2015-04-30
+1381598,1381598,Fix Released,boot from image created with nova image-create from a volume backed instance is rejected,https://bugs.launchpad.net/nova/+bug/1381598,2015-04-30
+1352668,1352668,Fix Released,After archive db the instance with deleted flavor failed,https://bugs.launchpad.net/nova/+bug/1352668,2015-04-30
+1350704,1350704,Fix Released,The floating ip should be removed after shelve offload instance,https://bugs.launchpad.net/nova/+bug/1350704,2015-04-30
+1338551,1338551,Fix Released,Failure in interface-attach may leave port around,https://bugs.launchpad.net/nova/+bug/1338551,2015-04-30
+1291199,1291199,Fix Released,"update quota multi-value in one request, half done half failed",https://bugs.launchpad.net/nova/+bug/1291199,2015-04-30
+1278849,1278849,Fix Released,"Need more log info for ""Instance could not be found"" error.",https://bugs.launchpad.net/nova/+bug/1278849,2015-04-30
+1273451,1273451,Fix Released,improper use of mock with stevedore in tests,https://bugs.launchpad.net/nova/+bug/1273451,2015-04-30
+1431549,1431549,Fix Released,"""Arguments dropped when creating context"" warnings are spamming logs",https://bugs.launchpad.net/nova/+bug/1431549,2015-04-30
+1430383,1430383,Fix Released,"""libvirtError: Network filter not found: no nwfilter with matching name"" tracing a ton since 3/3",https://bugs.launchpad.net/nova/+bug/1430383,2015-04-30
+1427745,1427745,Fix Released,Tests fail in non-en_US locale,https://bugs.launchpad.net/nova/+bug/1427745,2015-04-30
+1426364,1426364,Fix Released,scheduler does not display chosen host,https://bugs.launchpad.net/nova/+bug/1426364,2015-04-30

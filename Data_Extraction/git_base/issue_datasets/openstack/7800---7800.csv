@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1719325,1719325,Fix Released,Wrong secure_proxy_ssl_header value in nova.conf.j2,https://bugs.launchpad.net/kolla-ansible/+bug/1719325,2019-04-10
+1720481,1720481,Fix Released,nova create image failed,https://bugs.launchpad.net/kolla-ansible/+bug/1720481,2019-04-10
+1716956,1716956,Fix Released,Fix Pike nova.conf for HyperV,https://bugs.launchpad.net/kolla-ansible/+bug/1716956,2019-04-10
+1742869,1742869,Fix Released,Prechecks fail while checking docker version.,https://bugs.launchpad.net/kolla-ansible/+bug/1742869,2019-04-10
+1713010,1713010,Fix Released,cinder conf tries to copy nfs_shares to all nodes instead of just cinder-volume,https://bugs.launchpad.net/kolla-ansible/+bug/1713010,2019-04-10
+1735095,1735095,Fix Released,gnocchi-metricd do not follow openstack_service_workers variable,https://bugs.launchpad.net/kolla-ansible/+bug/1735095,2019-04-10
+1719274,1719274,Fix Released,cinder.conf requires my_ip configuration,https://bugs.launchpad.net/kolla-ansible/+bug/1719274,2019-04-10
+1719063,1719063,Fix Released,octavia housekeeping require certification files when enabled  spare_amphora_pool_size feature,https://bugs.launchpad.net/kolla-ansible/+bug/1719063,2019-04-10
+1713656,1713656,Fix Released,Registering keystone ceph_rgw user run on all nodes,https://bugs.launchpad.net/kolla-ansible/+bug/1713656,2019-04-10
+1713639,1713639,Fix Released,"when enabled multipath in nova, it won't work",https://bugs.launchpad.net/kolla-ansible/+bug/1713639,2019-04-10
+1713639,1713639,Fix Released,"when enabled multipath in nova, it won't work",https://bugs.launchpad.net/kolla/+bug/1713639,2019-04-10
+1695023,1695023,Fix Released,keystone-paste.ini file outdated in Keystone role,https://bugs.launchpad.net/kolla-ansible/+bug/1695023,2019-04-10
+1712453,1712453,Fix Released,"when upload large size of image to glance horizon, horizon hang",https://bugs.launchpad.net/kolla-ansible/+bug/1712453,2019-04-10
+1643509,1643509,Fix Released,nova and cinder ha fails due to glance api servers configuration,https://bugs.launchpad.net/kolla-ansible/+bug/1643509,2019-04-10
+1685170,1685170,Fix Released,fluentd global config using symlink_path will cause stale symlink,https://bugs.launchpad.net/kolla-ansible/+bug/1685170,2019-04-10
+1662598,1662598,Fix Released,upgrades fails while restarting some containers,https://bugs.launchpad.net/kolla-ansible/+bug/1662598,2019-04-10
+1707097,1707097,Fix Released,docker exec rpc issue on docker container restart,https://bugs.launchpad.net/kolla-ansible/+bug/1707097,2019-04-10
+1705657,1705657,Fix Released,volume_backend_name  is not configured in rbd driver in cinder voume,https://bugs.launchpad.net/kolla-ansible/+bug/1705657,2019-04-10
+1705200,1705200,Fix Released,chrony doesn't work when no ntp server,https://bugs.launchpad.net/kolla-ansible/+bug/1705200,2019-04-10
+1705160,1705160,Fix Released,http_trace is enabled and has security risk in httpd,https://bugs.launchpad.net/kolla-ansible/+bug/1705160,2019-04-10
+1704915,1704915,Fix Released,Ceilometer agent require pipeline configuration files,https://bugs.launchpad.net/kolla-ansible/+bug/1704915,2019-04-10
+1682060,1682060,Fix Released,empty nova service and hypervisor list,https://bugs.launchpad.net/openstack-manuals/+bug/1682060,2019-04-10
+1682060,1682060,Fix Released,empty nova service and hypervisor list,https://bugs.launchpad.net/kolla-ansible/+bug/1682060,2019-04-10
+1682060,1682060,Fix Released,empty nova service and hypervisor list,https://bugs.launchpad.net/nova/+bug/1682060,2019-04-10
+1703077,1703077,Fix Released,namespace may be stable,https://bugs.launchpad.net/kolla-ansible/+bug/1703077,2019-04-10
+1702486,1702486,Fix Released,horizon policy file won't work,https://bugs.launchpad.net/kolla-ansible/+bug/1702486,2019-04-10
+1700121,1700121,Fix Released,time sync isn't verified prior to deploy,https://bugs.launchpad.net/kolla-ansible/+bug/1700121,2019-04-10
+1699924,1699924,Fix Released,One notify in keystone is not correct,https://bugs.launchpad.net/kolla-ansible/+bug/1699924,2019-04-10
+1673969,1673969,Fix Released,Telegraf error on Mysql/MariaDB inputs retrieval,https://bugs.launchpad.net/kolla-ansible/+bug/1673969,2019-04-10
+1696038,1696038,Fix Released,ceilometer should not configure archive policy when using gnocchi,https://bugs.launchpad.net/kolla-ansible/+bug/1696038,2019-04-10
+1688649,1688649,Fix Released,Log rotation not performed for many services,https://bugs.launchpad.net/kolla-ansible/+bug/1688649,2019-04-10
+1690694,1690694,Fix Released,Stevedore.named: Could not load LoadBalancerPluginv2,https://bugs.launchpad.net/kolla-ansible/+bug/1690694,2019-04-10
+1690302,1690302,Fix Released,"memcached container print debug logs, which grow very fast",https://bugs.launchpad.net/kolla-ansible/+bug/1690302,2019-04-10
+1689550,1689550,Fix Released,ansible when statements should not include jinja2 templating delimiters,https://bugs.launchpad.net/kolla-ansible/+bug/1689550,2019-04-10
+1688682,1688682,Fix Released,chrony server do not work when there is no intenert,https://bugs.launchpad.net/kolla-ansible/+bug/1688682,2019-04-10
+1688681,1688681,Fix Released,ceilometer collector do not work with panko,https://bugs.launchpad.net/kolla-ansible/+bug/1688681,2019-04-10
+1688152,1688152,Fix Released,wait_for module hang for a long time if the port is opened during precheck,https://bugs.launchpad.net/kolla-ansible/+bug/1688152,2019-04-10
+1687635,1687635,Fix Released,sahara-engine failed to create trust,https://bugs.launchpad.net/kolla-ansible/+bug/1687635,2019-04-10
+1684378,1684378,Fix Released,cinder volume require /lib/modules to load kernel module,https://bugs.launchpad.net/kolla-ansible/+bug/1684378,2019-04-10
+1676319,1676319,Fix Released,qos rules are not applied on ocata with ovs,https://bugs.launchpad.net/kolla-ansible/+bug/1676319,2019-04-10
+1683802,1683802,Fix Released,neutron fwaas is not configured properly,https://bugs.launchpad.net/kolla-ansible/+bug/1683802,2019-04-10
+1683216,1683216,Fix Released,barbican_crypto_password is missing in passwords.yml file,https://bugs.launchpad.net/kolla-ansible/+bug/1683216,2019-04-10
+1682445,1682445,Fix Released,"ansible ""Copying config"" Task bad variable usage in some roles",https://bugs.launchpad.net/kolla-ansible/+bug/1682445,2019-04-10
+1681160,1681160,Fix Released,cloudkitty processor do not support multi process since tooz is not configured,https://bugs.launchpad.net/kolla-ansible/+bug/1681160,2019-04-10
+1676267,1676267,Fix Released,disable rados_connect_timeout in cinder.conf  is a bad idea,https://bugs.launchpad.net/kolla-ansible/+bug/1676267,2019-04-10
+1671862,1671862,Fix Released,Nova external-ceph.yml writes keyname into libvirt .base64 instead of value,https://bugs.launchpad.net/kolla-ansible/+bug/1671862,2019-04-10
+1673208,1673208,Fix Released,"congress, designate, freezer, manila,  murano, octavia, senlin, trove, watcher logs are missing from kibana",https://bugs.launchpad.net/kolla-ansible/+bug/1673208,2019-04-10
+1674645,1674645,Fix Released,nova serial is using wrong interface in haproxy.cfg file,https://bugs.launchpad.net/kolla-ansible/+bug/1674645,2019-04-10
+1673932,1673932,Fix Released,Error during Restart grafana container,https://bugs.launchpad.net/kolla-ansible/+bug/1673932,2019-04-10
+1673703,1673703,Fix Released,cinder v3 endpoint is required,https://bugs.launchpad.net/kolla-ansible/+bug/1673703,2019-04-10
+1673002,1673002,Fix Released,nova-placement api glance and cinder logs not showing in kibana,https://bugs.launchpad.net/kolla-ansible/+bug/1673002,2019-04-10
+1666618,1666618,Fix Released,need enable horizon_backend_database when enabled murano dashboard,https://bugs.launchpad.net/kolla-ansible/+bug/1666618,2019-04-10
+1672001,1672001,Fix Released,ERROR barbican.plugin,https://bugs.launchpad.net/kolla-ansible/+bug/1672001,2019-04-10
+1671758,1671758,Fix Released,vpnaas custom config wrong directory,https://bugs.launchpad.net/kolla-ansible/+bug/1671758,2019-04-10
+1667153,1667153,Fix Released,ironic_pxe bootstrap should run on all hosts,https://bugs.launchpad.net/kolla-ansible/+bug/1667153,2019-04-10
+1671103,1671103,Fix Released,there is no need run nova-compute-ironic on a single node,https://bugs.launchpad.net/kolla-ansible/+bug/1671103,2019-04-10
+1668220,1668220,Fix Released,"keystone task reporting status ""changed"" regardless",https://bugs.launchpad.net/kolla-ansible/+bug/1668220,2019-04-10
+1670286,1670286,Fix Released,precheck still failed when running on a deployed env,https://bugs.launchpad.net/kolla-ansible/+bug/1670286,2019-04-10
+1669089,1669089,Fix Released,"etcd fails to start, ENV missing data-dir, permissions denied to default data-dir",https://bugs.launchpad.net/kolla-ansible/+bug/1669089,2019-04-10
+1668521,1668521,Fix Released,Ceilometer failed to create mysql database when bootstraping,https://bugs.launchpad.net/kolla-ansible/+bug/1668521,2019-04-10
+1668499,1668499,Fix Released,neturon dhcp agent do not have a upstream dns server,https://bugs.launchpad.net/kolla-ansible/+bug/1668499,2019-04-10
+1668206,1668206,Fix Released,Mongodb should start before panko,https://bugs.launchpad.net/kolla-ansible/+bug/1668206,2019-04-10
+1668023,1668023,Fix Released,delete nova_libvirt failed during upgrade when instance is running,https://bugs.launchpad.net/kolla-ansible/+bug/1668023,2019-04-10
+1668001,1668001,Fix Released,kolla-ansible gate lie when container is failed,https://bugs.launchpad.net/kolla-ansible/+bug/1668001,2019-04-10
+1666031,1666031,Fix Released,do not failed when there is no compute nodes in the deployment env,https://bugs.launchpad.net/kolla-ansible/+bug/1666031,2019-04-10
+1665905,1665905,Fix Released,nova compute and nova compute ironic run on the same node,https://bugs.launchpad.net/kolla-ansible/+bug/1665905,2019-04-10
+1665836,1665836,Fix Released,nova-conductor should start earlier,https://bugs.launchpad.net/kolla-ansible/+bug/1665836,2019-04-10
+1665258,1665258,Fix Released,extension_drivers  wrong var check,https://bugs.launchpad.net/kolla-ansible/+bug/1665258,2019-04-10
+1664936,1664936,Fix Released,freezer CLI error - public endpoint for backup service not found,https://bugs.launchpad.net/kolla-ansible/+bug/1664936,2019-04-10
+1665047,1665047,Fix Released,chrony genconfig start containers,https://bugs.launchpad.net/kolla-ansible/+bug/1665047,2019-04-10
+1699658,1699658,Fix Released,nova should not pull cinder.client keys from ceph if cinder is disabled.,https://bugs.launchpad.net/kolla-ansible/+bug/1699658,2019-04-10
+1678102,1678102,Fix Released,designate prechecks are executed when containers are running,https://bugs.launchpad.net/kolla-ansible/+bug/1678102,2019-04-10
+1670673,1670673,Fix Released,nova should access placement api though internal interface,https://bugs.launchpad.net/kolla-ansible/+bug/1670673,2019-04-10
+1669305,1669305,Fix Released,tox -e docs fails,https://bugs.launchpad.net/kolla-ansible/+bug/1669305,2019-04-10
+1666982,1666982,Fix Released,ironic_dnsmasq should use ironic-inspector group,https://bugs.launchpad.net/kolla-ansible/+bug/1666982,2019-04-10

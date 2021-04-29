@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1576199,1576199,Fix Released,the nova_ssh_private_key and nova_ssh_public_key is useless,https://bugs.launchpad.net/kolla/+bug/1576199,2016-11-12
+1561563,1561563,Fix Released,rax gates fail with ip != hostname,https://bugs.launchpad.net/kolla/+bug/1561563,2016-11-12
+1605967,1605967,Fix Released,Ceilmoter datate connecting fail,https://bugs.launchpad.net/kolla/+bug/1605967,2016-11-12
+1581565,1581565,Fix Released,ceilometer-bootstrap-error,https://bugs.launchpad.net/kolla/+bug/1581565,2016-11-12
+1574134,1574134,Fix Released,remove the manual eth1 up and down in the rax-ord,https://bugs.launchpad.net/kolla/+bug/1574134,2016-11-12
+1572082,1572082,Fix Released,"kolla_keystone_bootstrap occasionally returns no json output, fails the deploy",https://bugs.launchpad.net/kolla/+bug/1572082,2016-11-12
+1572819,1572819,Fix Released,recent change to qemu.conf breaks some deployments,https://bugs.launchpad.net/kolla/+bug/1572819,2016-11-12
+1580884,1580884,Fix Released,need configure the policy in the rabbitmq,https://bugs.launchpad.net/kolla/+bug/1580884,2016-11-12
+1576209,1576209,Fix Released,cinder reconfigure crashed in multi node env,https://bugs.launchpad.net/kolla/+bug/1576209,2016-11-12
+1575884,1575884,Fix Released,ubuntu is not building,https://bugs.launchpad.net/kolla/+bug/1575884,2016-11-12
+1577422,1577422,Fix Released,python-memcache is missing from cinder and glance containers,https://bugs.launchpad.net/kolla/+bug/1577422,2016-11-12
+1571275,1571275,Fix Released,some nodepool internals not exported,https://bugs.launchpad.net/kolla/+bug/1571275,2016-11-12
+1571281,1571281,Fix Released,Remove check for config files to verify MountFlags,https://bugs.launchpad.net/kolla/+bug/1571281,2016-11-12
+1562383,1562383,Fix Released,gate is faling because of bindeps or image changes,https://bugs.launchpad.net/kolla/+bug/1562383,2016-11-12
+1548589,1548589,Fix Released,kolla-toolbox fails to build,https://bugs.launchpad.net/kolla/+bug/1548589,2016-11-12
+1518475,1518475,Fix Released,Ceph does not work without cache tier,https://bugs.launchpad.net/kolla/+bug/1518475,2016-11-12
+1622878,1622878,Fix Released,Deprecate nova-network container,https://bugs.launchpad.net/kolla/+bug/1622878,2016-11-12
+1579885,1579885,Fix Released,Allow for configurable custom repos for all software,https://bugs.launchpad.net/kolla/+bug/1579885,2016-11-12
+1560689,1560689,Fix Released,need way to override horizon configuration,https://bugs.launchpad.net/kolla/+bug/1560689,2016-11-12
+1547967,1547967,Fix Released,"stable/liberty centos-binary-glance image build fails with ""Peer's Certificate has expired.""",https://bugs.launchpad.net/kolla/+bug/1547967,2016-11-12
+1623876,1623876,Fix Released,nova is not setting the MTU provided by Neutron,https://bugs.launchpad.net/nova/+bug/1623876,2016-11-12
+1623876,1623876,Fix Released,nova is not setting the MTU provided by Neutron,https://bugs.launchpad.net/os-vif/+bug/1623876,2016-11-12
+1634518,1634518,Fix Released,"Move ""parse_docker_image()"" from driver specific code to common utils",https://bugs.launchpad.net/zun/+bug/1634518,2016-11-12
+1637543,1637543,Fix Released,Remove old docs,https://bugs.launchpad.net/python-cinderclient/+bug/1637543,2016-11-11
+1636565,1636565,Fix Released,Time is not synced for resumed from suspend instances,https://bugs.launchpad.net/nova/+bug/1636565,2016-11-11
+1637204,1637204,Fix Released,Parameter 'CephStorageCount' was not found in existing stack when using composable roles,https://bugs.launchpad.net/tripleo/+bug/1637204,2016-11-11
+1639235,1639235,Fix Released,The search() method failing if there are multiple key=value arguments,https://bugs.launchpad.net/nova-powervm/+bug/1639235,2016-11-11
+1588433,1588433,Fix Released,Logic to choose the default root device is different in IPA and the old ramdisk (and can't be changed),https://bugs.launchpad.net/tripleo/+bug/1588433,2016-11-11
+1468201,1468201,Fix Released,New version of py.test breaks requirements in fuel-devops,https://bugs.launchpad.net/fuel/+bug/1468201,2016-11-11
+1640838,1640838,Fix Committed,Enable Fuel-CI check jobs for the stable/newton branch,https://bugs.launchpad.net/fuel/+bug/1640838,2016-11-11
+1615966,1615966,Fix Released,RFE: Use a command line parsing library in df-db,https://bugs.launchpad.net/dragonflow/+bug/1615966,2016-11-11
+1628621,1628621,Fix Released,Release 'fuel2 health *' command,https://bugs.launchpad.net/fuel/+bug/1628621,2016-11-11
+1634104,1634104,Fix Released,verify-fuel-astute failed with activesupport required ruby>=2.2.2,https://bugs.launchpad.net/fuel/+bug/1634104,2016-11-11
+1451226,1451226,Fix Released,several config options are in the DEFAULT section and shouldn't be,https://bugs.launchpad.net/magnum/+bug/1451226,2016-11-11
+1640877,1640877,Fix Released,Verified +2 label is not set,https://bugs.launchpad.net/fuel/+bug/1640877,2016-11-11
+1630574,1630574,Fix Released,Rename DB columns: tenant -> project,https://bugs.launchpad.net/networking-plumgrid/+bug/1630574,2016-11-11
+1588013,1588013,Fix Released,neutron stadium evolution: developer doc,https://bugs.launchpad.net/networking-odl/+bug/1588013,2016-11-11
+1634333,1634333,Fix Released,Add option to allow filtering by mac-address on port list,https://bugs.launchpad.net/python-openstackclient/+bug/1634333,2016-11-11
+1555001,1555001,Fix Released,stack.sh isn't working after using VxLAN,https://bugs.launchpad.net/dragonflow/+bug/1555001,2016-11-10
+1611418,1611418,Fix Committed,Allow regions to be created in clients,https://bugs.launchpad.net/python-cratonclient/+bug/1611418,2016-11-10
+1550328,1550328,Fix Released,AttributeError when no Physical Drive serial returned,https://bugs.launchpad.net/python-dracclient/+bug/1550328,2016-11-10
+1570962,1570962,Fix Released,Murano doesn't detect pre-installed murano-agent on the debian image,https://bugs.launchpad.net/murano/+bug/1570962,2016-11-10
+1598208,1598208,Fix Released,murano uses deprecated psutil.NUM_CPUS,https://bugs.launchpad.net/murano/+bug/1598208,2016-11-10
+1560106,1560106,Fix Released,resource_registry broken for relative paths,https://bugs.launchpad.net/python-heatclient/+bug/1560106,2016-11-10
+1606467,1606467,Fix Released,Add suspend and resume interface for scheduled operations,https://bugs.launchpad.net/karbor/+bug/1606467,2016-11-10
+1519502,1519502,Fix Released,Network Floating IP CRUD,https://bugs.launchpad.net/python-openstackclient/+bug/1519502,2016-11-10
+1639540,1639540,Fix Released,Image API should pull image from image docker driver instead of container docker driver,https://bugs.launchpad.net/zun/+bug/1639540,2016-11-10
+1602549,1602549,Fix Released,domain_id in keystone_authtoken section of tacker.conf,https://bugs.launchpad.net/tacker/+bug/1602549,2016-11-10
+1617328,1617328,Fix Released,Devstack: Unused tacker_nova configuration in lib/tacker,https://bugs.launchpad.net/tacker/+bug/1617328,2016-11-10
+1617181,1617181,Fix Released,Add the appropriate keyname in deprecated decorator,https://bugs.launchpad.net/tacker/+bug/1617181,2016-11-10
+1625990,1625990,Fix Released,"""openstack dataprocessing plugin configs get"" misses errors",https://bugs.launchpad.net/python-saharaclient/+bug/1625990,2016-11-10
+1638464,1638464,Fix Released,New saharaclient doesn't provide WebUI address,https://bugs.launchpad.net/python-saharaclient/+bug/1638464,2016-11-10
+1613597,1613597,Fix Released,"Add command ""volume service set"" in OSC",https://bugs.launchpad.net/python-openstackclient/+bug/1613597,2016-11-10
+1619937,1619937,Fix Released,`openstack token issue` cannot print `expires` value when using JSON formatter,https://bugs.launchpad.net/python-openstackclient/+bug/1619937,2016-11-10
+1620922,1620922,Fix Released,"Repeated ""is_public"" properties of volume type object",https://bugs.launchpad.net/python-openstackclient/+bug/1620922,2016-11-10
+1611809,1611809,Fix Released,hypervisor show command doesn't display uptime information,https://bugs.launchpad.net/python-openstackclient/+bug/1611809,2016-11-10
+1612065,1612065,Fix Released,hypervisor show command doesn't work at all for ironic virt driver,https://bugs.launchpad.net/python-openstackclient/+bug/1612065,2016-11-10
+1609767,1609767,Fix Released,"[Volume] Support to set quota ""per_volume_gigabytes"", ""backup_gigabytes"" and ""backups""",https://bugs.launchpad.net/python-openstackclient/+bug/1609767,2016-11-10
+1609233,1609233,Fix Released,openstack quota set/show --class not work,https://bugs.launchpad.net/python-openstackclient/+bug/1609233,2016-11-10
+1614385,1614385,Fix Released,OSC don't support to list specified server's ports,https://bugs.launchpad.net/python-openstackclient/+bug/1614385,2016-11-10
+1622565,1622565,Fix Released,--long option breaks in router list if availability_zone ext is not loaded,https://bugs.launchpad.net/python-openstackclient/+bug/1622565,2016-11-10
+1624085,1624085,Fix Released,server ssh command uses nonexistent attribute,https://bugs.launchpad.net/python-openstackclient/+bug/1624085,2016-11-10
+1610883,1610883,Fix Released,Add subnet list filtering options,https://bugs.launchpad.net/python-openstackclient/+bug/1610883,2016-11-10
+1613926,1613926,Fix Released,Add subnet pool list filtering options,https://bugs.launchpad.net/python-openstackclient/+bug/1613926,2016-11-10
+1614823,1614823,Fix Released,Add 'description' option to os subnet pool create/set cmd,https://bugs.launchpad.net/python-openstackclient/+bug/1614823,2016-11-10
+1614458,1614458,Fix Released,Add 'description' option to os subnet create/set cmd,https://bugs.launchpad.net/python-openstackclient/+bug/1614458,2016-11-10
+1578819,1578819,Fix Released,Add network list filtering options,https://bugs.launchpad.net/python-openstackclient/+bug/1578819,2016-11-10
+1613261,1613261,Fix Released,OSC doesn't support setting volume backup state,https://bugs.launchpad.net/python-openstackclient/+bug/1613261,2016-11-10
+1607972,1607972,Fix Released,object create has no remote filename option,https://bugs.launchpad.net/python-openstackclient/+bug/1607972,2016-11-10
+1627913,1627913,Fix Released,"Missing options of ""volume create"" command",https://bugs.launchpad.net/python-openstackclient/+bug/1627913,2016-11-10
+1568005,1568005,Fix Released,no need for size if snapshot of source are provided,https://bugs.launchpad.net/python-openstackclient/+bug/1568005,2016-11-10
+1623860,1623860,Fix Released,'Openstack complete' command output is not clear,https://bugs.launchpad.net/python-openstackclient/+bug/1623860,2016-11-10
+1610161,1610161,Fix Released,Add router create miss one option,https://bugs.launchpad.net/python-openstackclient/+bug/1610161,2016-11-10
+1630962,1630962,Fix Released,Supported API versions list should be sorted,https://bugs.launchpad.net/python-openstackclient/+bug/1630962,2016-11-10
+1622346,1622346,Fix Released,implied role apis do not return responses,https://bugs.launchpad.net/python-keystoneclient/+bug/1622346,2016-11-10

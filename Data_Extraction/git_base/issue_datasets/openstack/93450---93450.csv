@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1017562,1017562,Fix Released,vm_vdi_cleaner.py calls vmops._destroy with unknown shutdown kwarg,https://bugs.launchpad.net/nova/+bug/1017562,2012-09-27
+1015301,1015301,Fix Released,XenSMTestCase:test_create_volume causes a memory leak when running unit tests on OS X,https://bugs.launchpad.net/nova/+bug/1015301,2012-09-27
+1014925,1014925,Fix Released,API 'v1.1/{tenant_id}/os-hosts' does not return a list of hosts,https://bugs.launchpad.net/nova/+bug/1014925,2012-09-27
+1013770,1013770,Fix Released,Reorder imports and check PEP8 violation,https://bugs.launchpad.net/nova/+bug/1013770,2012-09-27
+1013765,1013765,Fix Released,ec2 volume and snapshot id's is incorrect,https://bugs.launchpad.net/nova/+bug/1013765,2012-09-27
+1013689,1013689,Fix Released,cannot umount guestfs,https://bugs.launchpad.net/nova/+bug/1013689,2012-09-27
+1013436,1013436,Fix Released,xen storage manager: create volume fails after uuid changes in nova-volume,https://bugs.launchpad.net/nova/+bug/1013436,2012-09-27
+1012878,1012878,Fix Released,xenapi: launching instance fails while spawning,https://bugs.launchpad.net/nova/+bug/1012878,2012-09-27
+1012301,1012301,Fix Released,Unused and Untested Cells code in /nova/db,https://bugs.launchpad.net/nova/+bug/1012301,2012-09-27
+1011848,1011848,Fix Released,libvirt KVM driver need special timer policy settings for reliable guest time keeping,https://bugs.launchpad.net/nova/+bug/1011848,2012-09-27
+1010638,1010638,Fix Released,wrong flavorid to instance_type_id translation,https://bugs.launchpad.net/nova/+bug/1010638,2012-09-27
+1010586,1010586,Fix Released,power state misuse,https://bugs.launchpad.net/nova/+bug/1010586,2012-09-27
+1010581,1010581,Fix Released,broken EC2 compatibility on shutdown_terminate flag,https://bugs.launchpad.net/nova/+bug/1010581,2012-09-27
+1010486,1010486,Fix Released,Internal error listing security groups of non-existent server,https://bugs.launchpad.net/nova/+bug/1010486,2012-09-27
+1010376,1010376,Fix Released,Remove ensure_ascii from rpc/impl_zmq json.dumps,https://bugs.launchpad.net/nova/+bug/1010376,2012-09-27
+1010236,1010236,Fix Released,eventlet backdoor doesn't always play nicely with gettext,https://bugs.launchpad.net/nova/+bug/1010236,2012-09-27
+1010200,1010200,Fix Released,volume id is no longer an int,https://bugs.launchpad.net/nova/+bug/1010200,2012-09-27
+1009041,1009041,Fix Released,Creation of ext4 formatted ephemeral fails,https://bugs.launchpad.net/nova/+bug/1009041,2012-09-27
+1007648,1007648,Fix Released,Add python stack trace to SQL comment strings,https://bugs.launchpad.net/nova/+bug/1007648,2012-09-27
+1007615,1007615,Fix Released,"block device mappings sometimes returns None, causing traceback and failure to terminate errored VM",https://bugs.launchpad.net/nova/+bug/1007615,2012-09-27
+1007267,1007267,Fix Released,Fail to migrate VM with attached volume,https://bugs.launchpad.net/nova/+bug/1007267,2012-09-27
+1006457,1006457,Fix Released,Missing policy.json file results in silent 404 errors,https://bugs.launchpad.net/nova/+bug/1006457,2012-09-27
+1006094,1006094,Fix Released,typo in addmethod.openstackapi.rst,https://bugs.launchpad.net/nova/+bug/1006094,2012-09-27
+1005931,1005931,Fix Released,security group quota headroom reduction under-counted for multi-rule addition via EC2 API,https://bugs.launchpad.net/nova/+bug/1005931,2012-09-27
+1005869,1005869,Fix Released,The default config values in nova.conf.sample contain quotes where there shouldn't be any,https://bugs.launchpad.net/nova/+bug/1005869,2012-09-27
+1004280,1004280,Fix Released,Adding a new fixed IP only accepts network_id,https://bugs.launchpad.net/nova/+bug/1004280,2012-09-27
+1004153,1004153,Fix Released,mis-use save_and_reraise_exception in resize,https://bugs.launchpad.net/nova/+bug/1004153,2012-09-27
+1003979,1003979,Fix Released,Network list not exposed to users,https://bugs.launchpad.net/nova/+bug/1003979,2012-09-27
+1003664,1003664,Fix Released,volume_update db api needs to return the volume_ref,https://bugs.launchpad.net/nova/+bug/1003664,2012-09-27
+1002497,1002497,Fix Released,XenServer diagnostics not providing the actual latest data,https://bugs.launchpad.net/nova/+bug/1002497,2012-09-27
+1001828,1001828,Fix Released,EC2 volumes - attach_time is null,https://bugs.launchpad.net/nova/+bug/1001828,2012-09-27
+999206,999206,Fix Released,unicode serialization problem,https://bugs.launchpad.net/nova/+bug/999206,2012-09-27
+998117,998117,Fix Released,compute api delete race condition,https://bugs.launchpad.net/nova/+bug/998117,2012-09-27
+997835,997835,Fix Released,XenAPI rescue sometimes rescues swap,https://bugs.launchpad.net/nova/+bug/997835,2012-09-27
+996880,996880,Fix Released,"exception.HostNotFound should be a 404 via the API, not a 500",https://bugs.launchpad.net/nova/+bug/996880,2012-09-27
+994935,994935,Fix Released,Deleting Flavor currently in use by instance creates error,https://bugs.launchpad.net/nova/+bug/994935,2012-09-27
+988596,988596,Fix Released,xensm volume driver: backend_add broken,https://bugs.launchpad.net/nova/+bug/988596,2012-09-27
+1008628,1008628,Fix Released,timeutils should be used in place of time methods in utils.py,https://bugs.launchpad.net/nova/+bug/1008628,2012-09-27
+1000133,1000133,Fix Released,Sample config tool update and cleanup,https://bugs.launchpad.net/nova/+bug/1000133,2012-09-27
+1000887,1000887,Fix Released,Nova/Quantum Integration broken due to typo in serializer,https://bugs.launchpad.net/neutron/+bug/1000887,2012-09-27
+1000887,1000887,Fix Released,Nova/Quantum Integration broken due to typo in serializer,https://bugs.launchpad.net/nova/+bug/1000887,2012-09-27
+967261,967261,Fix Released,Melange_ipam_lib needs to catch the right exceptions,https://bugs.launchpad.net/nova/+bug/967261,2012-09-27
+883328,883328,Fix Released,get_glance_client throws UnboundLocalError,https://bugs.launchpad.net/nova/+bug/883328,2012-09-27
+995818,995818,Fix Released,Prettytable updated with new api,https://bugs.launchpad.net/nova/+bug/995818,2012-09-27
+994786,994786,Fix Released,There is no mechanism to deal with instances stuck in BUILD,https://bugs.launchpad.net/nova/+bug/994786,2012-09-27
+991994,991994,Fix Released,Exceeded Quotas need to provide better error messages,https://bugs.launchpad.net/nova/+bug/991994,2012-09-27
+988556,988556,Fix Released,Option to use config drive always,https://bugs.launchpad.net/nova/+bug/988556,2012-09-27
+988189,988189,Fix Released,can't describe specific addresses in ec2 api,https://bugs.launchpad.net/nova/+bug/988189,2012-09-27
+977976,977976,Fix Released,Ensure all relevant log messages in nova/compute/manager.py pass instance information,https://bugs.launchpad.net/nova/+bug/977976,2012-09-27
+977975,977975,Fix Released,Transition block_device_mapping table to using instance UUID,https://bugs.launchpad.net/nova/+bug/977975,2012-09-27
+975774,975774,Fix Released,Instance logging should be able to handle uuids as well as full instance dicts,https://bugs.launchpad.net/nova/+bug/975774,2012-09-27
+969499,969499,Fix Released,Error message for 'nova ssh' should be improved,https://bugs.launchpad.net/nova/+bug/969499,2012-09-27
+968452,968452,Fix Released,Remove 3-arg raise hacks,https://bugs.launchpad.net/nova/+bug/968452,2012-09-27
+956457,956457,Fix Released,"Code cleanups, HACKING compliance  before RC",https://bugs.launchpad.net/nova/+bug/956457,2012-09-27
+920705,920705,Fix Released,Improve rpc RemoteError to return original exception args,https://bugs.launchpad.net/nova/+bug/920705,2012-09-27
+1002191,1002191,Fix Released,getLogger should use __name__,https://bugs.launchpad.net/nova/+bug/1002191,2012-09-27
+1000403,1000403,Fix Released,[SRU] multi scheduler does not handle capabilities updates correctly,https://bugs.launchpad.net/nova/+bug/1000403,2012-09-27
+1000220,1000220,Fix Released,objectstore should use 'listen' host/port configs,https://bugs.launchpad.net/nova/+bug/1000220,2012-09-27
+1000071,1000071,Fix Released,Misused and not used Config options,https://bugs.launchpad.net/nova/+bug/1000071,2012-09-27
+999729,999729,Fix Released,implement hypervisor_hostname extended SRV-ATTR for libvirt,https://bugs.launchpad.net/nova/+bug/999729,2012-09-27
+998965,998965,Fix Released,migrate missing license info,https://bugs.launchpad.net/nova/+bug/998965,2012-09-27
+998089,998089,Fix Released,libvirt get_disks() raises an error,https://bugs.launchpad.net/nova/+bug/998089,2012-09-27
+998059,998059,Fix Released,de-duplicate key pair code across EC2/OS apis,https://bugs.launchpad.net/nova/+bug/998059,2012-09-27
+997805,997805,Fix Released,xenserver windows agent 'version' cmd needs an argument,https://bugs.launchpad.net/nova/+bug/997805,2012-09-27
+994846,994846,Fix Released,Remove InstanceAction logging mechanism,https://bugs.launchpad.net/nova/+bug/994846,2012-09-27
+993669,993669,Fix Released,postgresql schema has leftover quotas_new sequence (should be just 'quotas'),https://bugs.launchpad.net/nova/+bug/993669,2012-09-27
+993667,993667,Fix Released,postgresql schema has leftover zones sequence (should be cells now),https://bugs.launchpad.net/nova/+bug/993667,2012-09-27
+993149,993149,Fix Released,"httplib throw ""TypeError: an integer is required"" when run quantum on fedora and redhat",https://bugs.launchpad.net/nova/+bug/993149,2012-09-27
+992662,992662,Fix Released,Filtering flavors by an invalid minRam returns all flavors,https://bugs.launchpad.net/nova/+bug/992662,2012-09-27
+991672,991672,Fix Released,migration 86 fails when database table dns_domains is already InnoDB,https://bugs.launchpad.net/nova/+bug/991672,2012-09-27
+990019,990019,Fix Released,Self links don't contain tenant id for server entity in images response,https://bugs.launchpad.net/nova/+bug/990019,2012-09-27
+989764,989764,Fix Released,[SRU] timeout on EC2 CreateImage action is 60 hours instead of 1 hour,https://bugs.launchpad.net/nova/+bug/989764,2012-09-27
+989271,989271,Fix Released,"Launched_at date incorrect on notifications for resize, rebuild.",https://bugs.launchpad.net/nova/+bug/989271,2012-09-27
+987077,987077,Fix Released,Coverage report generation crashes with UnicodeDecodeError,https://bugs.launchpad.net/nova/+bug/987077,2012-09-27
+987055,987055,Fix Released,exclude xenapi plugins from pep8/hacking checks,https://bugs.launchpad.net/nova/+bug/987055,2012-09-27

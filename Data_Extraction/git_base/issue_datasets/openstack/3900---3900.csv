@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1851258,1851258,Fix Released,kibana role broken with ansible 2.9,https://bugs.launchpad.net/kolla-ansible/+bug/1851258,2020-01-30
+1840166,1840166,Fix Released,Fluentd custom file not idempotent when overwriting default file,https://bugs.launchpad.net/kolla-ansible/+bug/1840166,2020-01-30
+1839172,1839172,Fix Released,Heat role fails for hosts not part of heat-engine group,https://bugs.launchpad.net/kolla-ansible/+bug/1839172,2020-01-30
+1849265,1849265,Fix Released,Swift: merge_config strategy of swift.conf,https://bugs.launchpad.net/kolla-ansible/+bug/1849265,2020-01-30
+1849189,1849189,Fix Released,Swift: reconfigure task fails when swift_has_replication_network is false,https://bugs.launchpad.net/kolla-ansible/+bug/1849189,2020-01-30
+1843842,1843842,Fix Released,Designate Coordination Backend Missing,https://bugs.launchpad.net/kolla-ansible/+bug/1843842,2020-01-30
+1850945,1850945,Fix Released,Galera nodes in Donor state are removed from haproxy backend list,https://bugs.launchpad.net/kolla-ansible/+bug/1850945,2020-01-30
+1854735,1854735,Fix Released,source nova-placement-api fails if kolla_install_type is binary,https://bugs.launchpad.net/kolla-ansible/+bug/1854735,2020-01-30
+1824571,1824571,Fix Released,l3agent can't create router if there are multiple external networks,https://bugs.launchpad.net/neutron/+bug/1824571,2020-01-29
+1856572,1856572,Fix Released,l3 agent Bad file descriptor,https://bugs.launchpad.net/neutron/+bug/1856572,2020-01-29
+1826249,1826249,Fix Released,Move provider_networks into os_neutron,https://bugs.launchpad.net/openstack-ansible/+bug/1826249,2020-01-29
+1779562,1779562,Fix Released,stackwiz results are not rendering in periodic promotion jobs,https://bugs.launchpad.net/tripleo/+bug/1779562,2020-01-29
+1857139,1857139,Fix Released,TypeError: object of type 'object' has no len() from resources_from_request_spec when cells are down,https://bugs.launchpad.net/nova/+bug/1857139,2020-01-29
+1852807,1852807,Fix Released,tempest.api.compute.volumes.test_attach_volume.AttachVolumeTestJSON.test_attach_detach_volume failed when the self.device(vdb)value was in use(config_drive vfat in my case),https://bugs.launchpad.net/tempest/+bug/1852807,2020-01-28
+1731180,1731180,Fix Released,RedHat 7 puppet status,https://bugs.launchpad.net/puppet-vswitch/+bug/1731180,2020-01-28
+1578407,1578407,Fix Released,puppet-swift does not work on xenial,https://bugs.launchpad.net/puppet-swift/+bug/1578407,2020-01-28
+1294787,1294787,Fix Released,Puppet-sahara should use inifile instead of erb templates,https://bugs.launchpad.net/puppet-sahara/+bug/1294787,2020-01-28
+1762110,1762110,Fix Released,Latest unit test failed,https://bugs.launchpad.net/puppet-openstack-extras/+bug/1762110,2020-01-28
+1845649,1845649,Fix Released,Fails to install rake via bundle in puppet-openstack-unit-5.5-centos-7 job,https://bugs.launchpad.net/puppet-openstack-spec-helper/+bug/1845649,2020-01-28
+1845785,1845785,Fix Released,Fails to install minitest via bundle in puppet-openstack-unit-5.5-centos-7 job,https://bugs.launchpad.net/puppet-openstack-spec-helper/+bug/1845785,2020-01-28
+1643044,1643044,Fix Released,"Jobs fail with error ""change from absent to flat failed: Property provider_network_type does not support being updated""",https://bugs.launchpad.net/puppet-neutron/+bug/1643044,2020-01-28
+1818287,1818287,Fix Released,[queens] puppet-ceph should be pinned to stable/luminous,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1818287,2020-01-28
+1633864,1633864,Fix Released,scenario002 fails after adding support to ec2api,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1633864,2020-01-28
+1592113,1592113,Fix Released,$GEM_BIN_DIR should be added to $PATH,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1592113,2020-01-28
+1556164,1556164,Fix Released,Keystone should use memcached for tokens,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1556164,2020-01-28
+1525385,1525385,Fix Released,Make repositories configurable,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1525385,2020-01-28
+1621109,1621109,Fix Released,Key manager is always overridden to ConfKeyManager,https://bugs.launchpad.net/cinder/+bug/1621109,2020-01-28
+1621109,1621109,Fix Released,Key manager is always overridden to ConfKeyManager,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1621109,2020-01-28
+1552447,1552447,Fix Released,local usage fails,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1552447,2020-01-28
+1762774,1762774,Fix Released,TripleO should configure Octavia related user roles in Keystone,https://bugs.launchpad.net/puppet-octavia/+bug/1762774,2020-01-28
+1350966,1350966,Fix Released,Incorrect dependency on puppetlabs-rabbitmq,https://bugs.launchpad.net/puppet-nova/+bug/1350966,2020-01-28
+1828963,1828963,Fix Released,nova.exception.InternalError: Nova requires QEMU version 2.8.0 or greater,https://bugs.launchpad.net/puppet-nova/+bug/1828963,2020-01-28
+1861086,1861086,Fix Released,Get images in Virtual Machine Image Guide opensuse,https://bugs.launchpad.net/openstack-manuals/+bug/1861086,2020-01-28
+1745002,1745002,Fix Released,Neutron uses the Nova API public endpoint which may not be always reachable from the node running the Neutron service,https://bugs.launchpad.net/tripleo/+bug/1745002,2020-01-28
+1745002,1745002,Fix Released,Neutron uses the Nova API public endpoint which may not be always reachable from the node running the Neutron service,https://bugs.launchpad.net/puppet-neutron/+bug/1745002,2020-01-28
+1585699,1585699,Fix Released,Neutron Metadata Agent Configuration - nova_metadata_ip,https://bugs.launchpad.net/puppet-neutron/+bug/1585699,2020-01-28
+1585699,1585699,Fix Released,Neutron Metadata Agent Configuration - nova_metadata_ip,https://bugs.launchpad.net/neutron/+bug/1585699,2020-01-28
+1827047,1827047,Fix Released,Castellan doesn't support trust-scoped token for barbican,https://bugs.launchpad.net/castellan/+bug/1827047,2020-01-28
+1634529,1634529,Fix Released,api-paste.ini filter:authtoken bug,https://bugs.launchpad.net/puppet-neutron/+bug/1634529,2020-01-28
+1718508,1718508,Fix Released,OpenDaylight HA deployment fails to launch instance due to Port Status failures,https://bugs.launchpad.net/puppet-neutron/+bug/1718508,2020-01-28
+1718508,1718508,Fix Released,OpenDaylight HA deployment fails to launch instance due to Port Status failures,https://bugs.launchpad.net/tripleo/+bug/1718508,2020-01-28
+1475628,1475628,Fix Released,[puppet] Need to ask for dns nameservecies during murano installation,https://bugs.launchpad.net/puppet-murano/+bug/1475628,2020-01-28
+1620758,1620758,Fix Released,Murano puppet module doesn't support configure_user,https://bugs.launchpad.net/puppet-murano/+bug/1620758,2020-01-28
+1514692,1514692,Fix Released,Murano does not get keystone endpoint when Keystone is configured to use templated catalog,https://bugs.launchpad.net/rally/+bug/1514692,2020-01-28
+1514692,1514692,Fix Released,Murano does not get keystone endpoint when Keystone is configured to use templated catalog,https://bugs.launchpad.net/puppet-murano/+bug/1514692,2020-01-28
+1514692,1514692,Fix Released,Murano does not get keystone endpoint when Keystone is configured to use templated catalog,https://bugs.launchpad.net/python-muranoclient/+bug/1514692,2020-01-28
+1514692,1514692,Fix Released,Murano does not get keystone endpoint when Keystone is configured to use templated catalog,https://bugs.launchpad.net/congress/+bug/1514692,2020-01-28
+1514692,1514692,Fix Released,Murano does not get keystone endpoint when Keystone is configured to use templated catalog,https://bugs.launchpad.net/murano/+bug/1514692,2020-01-28
+1472039,1472039,Fix Released,oslo-messaging deprecates qpid settings in the     DEFAULT section,https://bugs.launchpad.net/puppet-manila/+bug/1472039,2020-01-28
+1718297,1718297,Fix Released,generic driver doesnt provide tag of manila-support-package,https://bugs.launchpad.net/puppet-manila/+bug/1718297,2020-01-28
+1567192,1567192,Fix Released,lack of profiler related parameters in puppet-trove,https://bugs.launchpad.net/puppet-manila/+bug/1567192,2020-01-28
+1476449,1476449,Fix Released,lack of related parameters in manila,https://bugs.launchpad.net/puppet-manila/+bug/1476449,2020-01-28
+1469583,1469583,Fix Released,lack of related parameters in manila::quota,https://bugs.launchpad.net/puppet-manila/+bug/1469583,2020-01-28
+1468620,1468620,Fix Released,no log_dir configed after ironic installation,https://bugs.launchpad.net/puppet-ironic/+bug/1468620,2020-01-28
+1470037,1470037,Fix Released,provide an option to customize force_power_state_during_sync,https://bugs.launchpad.net/puppet-ironic/+bug/1470037,2020-01-28
+1517941,1517941,Fix Released,ironic-inspector requires BOOTIF variable to be set in iPXE,https://bugs.launchpad.net/puppet-ironic/+bug/1517941,2020-01-28
+1486197,1486197,Fix Released,ironic-inspector support is missing,https://bugs.launchpad.net/puppet-ironic/+bug/1486197,2020-01-28
+1483608,1483608,Fix Released,the comment for port in ironic api.pp is wrong,https://bugs.launchpad.net/puppet-ironic/+bug/1483608,2020-01-28
+1440055,1440055,Fix Released,"Horizon configures apache for permanent redirect, which gets into browser cache",https://bugs.launchpad.net/puppet-horizon/+bug/1440055,2020-01-28
+1575546,1575546,Fix Released,hypervisor_defaults param should be configurable,https://bugs.launchpad.net/puppet-horizon/+bug/1575546,2020-01-28
+1575231,1575231,Fix Released,neutron_defaults param should be configurable,https://bugs.launchpad.net/puppet-horizon/+bug/1575231,2020-01-28
+1575545,1575545,Fix Released,cinder_defaults param should be configurable,https://bugs.launchpad.net/puppet-horizon/+bug/1575545,2020-01-28
+1533029,1533029,Fix Released,pool-manager service is not supported by now,https://bugs.launchpad.net/puppet-designate/+bug/1533029,2020-01-28
+1482204,1482204,Fix Released,lack of Managed resources settings in designate::central,https://bugs.launchpad.net/puppet-designate/+bug/1482204,2020-01-28
+1485510,1485510,Fix Released,designate pool manager is not supported,https://bugs.launchpad.net/puppet-designate/+bug/1485510,2020-01-28
+1485516,1485516,Fix Released,designate zone manager is not supported,https://bugs.launchpad.net/puppet-designate/+bug/1485516,2020-01-28
+1600294,1600294,Fix Released,Unable to disable log_dir by setting to false,https://bugs.launchpad.net/puppet-heat/+bug/1600294,2020-01-28
+1600294,1600294,Fix Released,Unable to disable log_dir by setting to false,https://bugs.launchpad.net/puppet-murano/+bug/1600294,2020-01-28
+1600294,1600294,Fix Released,Unable to disable log_dir by setting to false,https://bugs.launchpad.net/puppet-nova/+bug/1600294,2020-01-28
+1600294,1600294,Fix Released,Unable to disable log_dir by setting to false,https://bugs.launchpad.net/puppet-sahara/+bug/1600294,2020-01-28
+1600294,1600294,Fix Released,Unable to disable log_dir by setting to false,https://bugs.launchpad.net/puppet-glance/+bug/1600294,2020-01-28
+1600294,1600294,Fix Released,Unable to disable log_dir by setting to false,https://bugs.launchpad.net/puppet-trove/+bug/1600294,2020-01-28
+1600294,1600294,Fix Released,Unable to disable log_dir by setting to false,https://bugs.launchpad.net/puppet-panko/+bug/1600294,2020-01-28
+1600294,1600294,Fix Released,Unable to disable log_dir by setting to false,https://bugs.launchpad.net/puppet-watcher/+bug/1600294,2020-01-28
+1600294,1600294,Fix Released,Unable to disable log_dir by setting to false,https://bugs.launchpad.net/puppet-ironic/+bug/1600294,2020-01-28

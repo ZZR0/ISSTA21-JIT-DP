@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1819893,1819893,Fix Released,Could not satisfy constraints for 'tap-as-a-service': installation from path or url cannot be constrained to a version,https://bugs.launchpad.net/networking-midonet/+bug/1819893,2020-09-25
+1835216,1835216,Fix Released,networking_odl.tests.unit.common.test_odl_features.TestOdlFeaturesNoFixture.test_feature_configs_does_not_mutate_default_features  randomly failes,https://bugs.launchpad.net/networking-odl/+bug/1835216,2020-09-25
+1876033,1876033,Fix Released,networking_odl.tests.functional.test_odl_dhcp_driver.TestOdlDhcpDriver.test_subnet_delete fails constantly,https://bugs.launchpad.net/networking-odl/+bug/1876033,2020-09-25
+1896741,1896741,Fix Released,Intel mediated device info doesn't provide a name attribute,https://bugs.launchpad.net/nova/+bug/1896741,2020-09-25
+1890241,1890241,Fix Released,Storwize: delete_group_snapshot doesn't handle flash copy consistency group cleanup.,https://bugs.launchpad.net/cinder/+bug/1890241,2020-09-25
+1861442,1861442,Fix Released,QOS minimum bandwidth rejection of non-physnet network and updates should be driver specific,https://bugs.launchpad.net/neutron/+bug/1861442,2020-09-25
+1861032,1861032,Fix Released,[RFE] Add support for configuring dnsmasq with multiple IPv6 addresses in same subnet on same port,https://bugs.launchpad.net/neutron/+bug/1861032,2020-09-25
+1853840,1853840,Fix Released,Neutron fails to create bandwidth providers if CONF.host is set,https://bugs.launchpad.net/neutron/+bug/1853840,2020-09-25
+1824248,1824248,Fix Released,Security Group filtering hides rules from user,https://bugs.launchpad.net/neutron/+bug/1824248,2020-09-25
+1855759,1855759,Fix Released,neutron.plugins.ml2.drivers.agent._common_agent KeyError: 'gateway' . ERROR,https://bugs.launchpad.net/neutron/+bug/1855759,2020-09-25
+1737892,1737892,Fix Released,Fullstack test test_qos.TestBwLimitQoSOvs.test_bw_limit_qos_port_removed failing many times,https://bugs.launchpad.net/neutron/+bug/1737892,2020-09-25
+1819029,1819029,Fix Released,QoS policies with minimum-bandwidth rule should be rejected on non-physnet ports/networks,https://bugs.launchpad.net/neutron/+bug/1819029,2020-09-25
+1850557,1850557,Fix Released,DHCP connectivity after migration/resize not working,https://bugs.launchpad.net/neutron/+bug/1850557,2020-09-25
+1830763,1830763,Fix Released,Debug neutron-tempest-plugin-dvr-multinode-scenario failures,https://bugs.launchpad.net/neutron/+bug/1830763,2020-09-25
+1895361,1895361,Fix Released,[RFE] NetApp - Improve user experience on Adaptive QoS,https://bugs.launchpad.net/manila/+bug/1895361,2020-09-24
+1896252,1896252,Fix Released,number_list and range_list filters are throwing warnings,https://bugs.launchpad.net/tripleo/+bug/1896252,2020-09-24
+1860265,1860265,Fix Released,Unitest failing with python 3.8,https://bugs.launchpad.net/masakari/+bug/1860265,2020-09-24
+1657322,1657322,Fix Released,[DOC]Implement share revert to snapshot,https://bugs.launchpad.net/manila/+bug/1657322,2020-09-24
+1843953,1843953,Fix Released,[DOC]Add share network with multiple subnets,https://bugs.launchpad.net/manila/+bug/1843953,2020-09-24
+1896829,1896829,Fix Released,Overcloud deployments fail with FileNotFound errors during os-net-config,https://bugs.launchpad.net/tripleo/+bug/1896829,2020-09-24
+1621960,1621960,Fix Released,deprecate all usage of admin_token,https://bugs.launchpad.net/puppet-keystone/+bug/1621960,2020-09-24
+1874273,1874273,Fix Released,Horizon doesn't show all OS-EXT-SRV-ATTR attributes,https://bugs.launchpad.net/horizon/+bug/1874273,2020-09-24
+1896087,1896087,Fix Released,Volumes stays in '-ing' state after back-create call if backup service is unavailable,https://bugs.launchpad.net/cinder/+bug/1896087,2020-09-24
+1882918,1882918,Fix Released,Instances page crashes on repeated confirm/revert resize actions,https://bugs.launchpad.net/horizon/+bug/1882918,2020-09-24
+1894086,1894086,Fix Released,PowerMax Driver REST API iterator expires before all data read,https://bugs.launchpad.net/cinder/+bug/1894086,2020-09-24
+1895570,1895570,Fix Released,when multiple error popups are shown we cannot show details of second or later popups,https://bugs.launchpad.net/horizon/+bug/1895570,2020-09-24
+1896764,1896764,Fix Released,SPDK failing with KeyError: 'storage_protocol',https://bugs.launchpad.net/cinder/+bug/1896764,2020-09-24
+1682694,1682694,Fix Released,[DOC] Add possibility to run 'manila-api' with wsgi web servers,https://bugs.launchpad.net/manila/+bug/1682694,2020-09-23
+1896522,1896522,Fix Released,openstack overcloud config download require super user,https://bugs.launchpad.net/tripleo/+bug/1896522,2020-09-23
+1896523,1896523,Fix Released,openstack overcloud config download unzip|gtar could not handle archive,https://bugs.launchpad.net/tripleo/+bug/1896523,2020-09-23
+1890586,1890586,Fix Released,optimize check_flashcopy_rate to avoid redundant lssystem calls,https://bugs.launchpad.net/cinder/+bug/1890586,2020-09-23
+1890588,1890588,Fix Released,Avoid get_pool_attrs in select_io_group for non hyperswap pools,https://bugs.launchpad.net/cinder/+bug/1890588,2020-09-23
+1895172,1895172,Fix Released,Improve testing coverage for manila-ui/api/manila.py,https://bugs.launchpad.net/manila-ui/+bug/1895172,2020-09-23
+1894362,1894362,Fix Released,"When deleting the share instance, I get an error'Couldn't find the share in used list'",https://bugs.launchpad.net/manila/+bug/1894362,2020-09-23
+1886010,1886010,Fix Released,"After the glusterfs driver deletes the share, the client can still read and write the share",https://bugs.launchpad.net/manila/+bug/1886010,2020-09-23
+1886632,1886632,Fix Released,Cannot delete __DEFAULT__ volume type,https://bugs.launchpad.net/cinder/+bug/1886632,2020-09-23
+1658230,1658230,Fix Released,[Doc] Share Migration Ocata Improvements,https://bugs.launchpad.net/manila/+bug/1658230,2020-09-23
+1838765,1838765,Fix Released,"DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead",https://bugs.launchpad.net/tripleo/+bug/1838765,2020-09-23
+1895899,1895899,Fix Released,Base subnet is assigned for nodes in leaf networks when spine-leaf environment with assigning predictable IPs.,https://bugs.launchpad.net/tripleo/+bug/1895899,2020-09-23
+1896753,1896753,Fix Released,bug12345,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1896753,2020-09-23
+1734204,1734204,Fix Released,Insufficient free host memory pages available to allocate guest RAM with Open vSwitch DPDK in Newton,https://bugs.launchpad.net/nova/+bug/1734204,2020-09-23
+1795950,1795950,Fix Released,Fix cleaning of web-download image import in node_staging_uri,https://bugs.launchpad.net/glance/+bug/1795950,2020-09-23
+1856658,1856658,Fix Released,Creating a host fails with 404 from keystone,https://bugs.launchpad.net/blazar/+bug/1856658,2020-09-23
+1895663,1895663,Fix Released,"Image import ""web-download"" doesn't check on download size",https://bugs.launchpad.net/glance/+bug/1895663,2020-09-22
+1779287,1779287,Fix Released,placement can throw exception if webob<1.8 in use,https://bugs.launchpad.net/nova/+bug/1779287,2020-09-22
+1659025,1659025,Fix Released,[DOC]Manila Share Groups,https://bugs.launchpad.net/manila/+bug/1659025,2020-09-22
+1895318,1895318,Fix Released,unwritable /honme/stack/ansible.log after container image prepare,https://bugs.launchpad.net/tripleo/+bug/1895318,2020-09-22
+1886232,1886232,Fix Released,NetApp ONTAP Manila driver logs 'package python-manila is not installed',https://bugs.launchpad.net/manila/+bug/1886232,2020-09-22
+1890769,1890769,Fix Released,[RHOSP 13 to 16.1 Upgrades][SRIOV] Baremetal node hangs on reboot during leapp upgrade,https://bugs.launchpad.net/tripleo/+bug/1890769,2020-09-22
+1890400,1890400,Fix Released,Default gateway in HA router namespace not set if using Keepalived 1.x,https://bugs.launchpad.net/neutron/+bug/1890400,2020-09-22
+1895792,1895792,Fix Released,"public endpoint for compute service not found is getting TIMED_OUT on fs002, fs020 and fs035",https://bugs.launchpad.net/tripleo/+bug/1895792,2020-09-22
+1895401,1895401,Fix Released,[L3][IPv6][DVR] missing address scope mark for IPv6 traffic,https://bugs.launchpad.net/neutron/+bug/1895401,2020-09-22
+1896439,1896439,Fix Released,There was an issue creating /var/log/extra as requested: [Errno 13] Permission denied: b'/var/log/extra',https://bugs.launchpad.net/tripleo/+bug/1896439,2020-09-22
+1893826,1893826,Fix Released,container image prepare cannot push to a registry with basic auth,https://bugs.launchpad.net/tripleo/+bug/1893826,2020-09-22
+1854723,1854723,Fix Released,Avoid raising NetworkInterfaceNotFound exception in DHCP agent logs,https://bugs.launchpad.net/neutron/+bug/1854723,2020-09-22
+1885956,1885956,Fix Released,"Share stuck on ""creating"" status when using a private share type from other project",https://bugs.launchpad.net/manila/+bug/1885956,2020-09-22
+1886636,1886636,Fix Released,"Error ""'dict object' has no attribute 'containers'"" in OVB jobs on controllers",https://bugs.launchpad.net/tripleo/+bug/1886636,2020-09-21
+1890833,1890833,Fix Released,"total_capacity_gb, free_capacity_gb reported by the CephFS driver is incorrect",https://bugs.launchpad.net/manila/+bug/1890833,2020-09-21
+1865138,1865138,Fix Released,When deleting an stateless subnet port can get allocation on subnet with invalid segment,https://bugs.launchpad.net/neutron/+bug/1865138,2020-09-21
+1864333,1864333,Fix Released,"When adding another stateless subnet, implicit address allocation happen for port with deferred ip allocation",https://bugs.launchpad.net/neutron/+bug/1864333,2020-09-21
+1864225,1864225,Fix Released,IP allocation for stateless IPv6 does not filter on segment when fixed-ips contain a subnet_id,https://bugs.launchpad.net/neutron/+bug/1864225,2020-09-21
+1896322,1896322,Fix Released,Container driver failing to manage share server in Ubuntu Focal,https://bugs.launchpad.net/manila/+bug/1896322,2020-09-21
+1895323,1895323,Fix Released,missing means to adjust share groups after share_backend rename,https://bugs.launchpad.net/manila/+bug/1895323,2020-09-21
+1895171,1895171,Fix Released,Unit tests for nova::compute::libvirt class are ignored and broken,https://bugs.launchpad.net/puppet-nova/+bug/1895171,2020-09-21
+1895571,1895571,Fix Released,tripleo callback failure by default,https://bugs.launchpad.net/tripleo/+bug/1895571,2020-09-21
+1892765,1892765,Fix Released,vxlan-gpe: no data flow across compute nodes due to incorrect lisp remote-mapping,https://bugs.launchpad.net/networking-vpp/+bug/1892765,2020-09-21
+1895124,1895124,Fix Released,Adding and instanlty removing pod still raise K8sClientException,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1895124,2020-09-21
+1853819,1853819,Fix Released,Backport THT integration for backup and restore,https://bugs.launchpad.net/tripleo/+bug/1853819,2020-09-21
+1895829,1895829,Fix Released,[update] Fip test may start before the fip is ready and return false positive,https://bugs.launchpad.net/tripleo/+bug/1895829,2020-09-21
+1895518,1895518,Fix Released,Unpack base image fails on stable/ussuri on ubuntu 18.04,https://bugs.launchpad.net/openstack-ansible/+bug/1895518,2020-09-21
+1810490,1810490,Fix Released,wrong link of gabbits,https://bugs.launchpad.net/nova/+bug/1810490,2020-09-21
+1855934,1855934,Fix Released,new versions of flake8 parse typeing coments,https://bugs.launchpad.net/nova/+bug/1855934,2020-09-21
+1894758,1894758,Fix Released,LB resources creation failed because load balancer Not Found,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1894758,2020-09-21
+1896169,1896169,Fix Committed,debian image can't be built,https://bugs.launchpad.net/diskimage-builder/+bug/1896169,2020-09-21
+1892042,1892042,Fix Released,ovn-dbs update task fails on bootstrap node 'ovn_dbs_image_latest' is undefined,https://bugs.launchpad.net/tripleo/+bug/1892042,2020-09-20

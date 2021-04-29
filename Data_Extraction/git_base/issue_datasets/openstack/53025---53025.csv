@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1482021,1482021,Fix Released,report error: Userdata content cannot be decoded when handling user_data content unb64encoded to nova,https://bugs.launchpad.net/senlin/+bug/1482021,2015-12-14
+1479586,1479586,Fix Released,server side fix: cluster-resize failed when only specify a parameter max_size or min_size,https://bugs.launchpad.net/senlin/+bug/1479586,2015-12-14
+1477841,1477841,Fix Released,"When ResourceStatusError happens in deleting node, deleting action can't finish",https://bugs.launchpad.net/senlin/+bug/1477841,2015-12-14
+1472915,1472915,Fix Released,Test case for webhook module is missing,https://bugs.launchpad.net/senlin/+bug/1472915,2015-12-14
+1472859,1472859,Fix Released,Test case of webhook middleware is missing,https://bugs.launchpad.net/senlin/+bug/1472859,2015-12-14
+1472855,1472855,Fix Released,Test case of keystone_v3 driver is missing,https://bugs.launchpad.net/senlin/+bug/1472855,2015-12-14
+1472854,1472854,Fix Released,Test case of heat_v1 driver is missing,https://bugs.launchpad.net/senlin/+bug/1472854,2015-12-14
+1472852,1472852,Fix Released,Test case of neutron lbaas driver is missing,https://bugs.launchpad.net/senlin/+bug/1472852,2015-12-14
+1472851,1472851,Fix Released,Test case of neutron_v2 driver is missing,https://bugs.launchpad.net/senlin/+bug/1472851,2015-12-14
+1472833,1472833,Fix Released,"When removing a node from a cluster, python error happens",https://bugs.launchpad.net/senlin/+bug/1472833,2015-12-14
+1472560,1472560,Fix Released,"When add/delete node to/from cluster, got a 404 error",https://bugs.launchpad.net/senlin/+bug/1472560,2015-12-14
+1471668,1471668,Fix Released,Node index is not unique in the same cluster,https://bugs.launchpad.net/senlin/+bug/1471668,2015-12-14
+1470747,1470747,Fix Released,test case of schema Spec is missing,https://bugs.launchpad.net/senlin/+bug/1470747,2015-12-14
+1470305,1470305,Fix Released,test case of policy base is missing,https://bugs.launchpad.net/senlin/+bug/1470305,2015-12-14
+1469957,1469957,Fix Released,Using same name to create heat stack nodes causes an error,https://bugs.launchpad.net/senlin/+bug/1469957,2015-12-14
+1469956,1469956,Fix Released,cluster is deadlocked for unexpected exception happened during node action progress,https://bugs.launchpad.net/senlin/+bug/1469956,2015-12-14
+1469953,1469953,Fix Released,Node deletion error,https://bugs.launchpad.net/senlin/+bug/1469953,2015-12-14
+1465469,1465469,Fix Released,'MultipleChoices' exception is not translated,https://bugs.launchpad.net/senlin/+bug/1465469,2015-12-14
+1459258,1459258,Fix Released,"all cli commands are failed with ""keyerror catalog""",https://bugs.launchpad.net/senlin/+bug/1459258,2015-12-14
+1456124,1456124,Fix Released,adjustment should be allowed when desired is in the scope of min_size/max_size when doing cluster resizing,https://bugs.launchpad.net/senlin/+bug/1456124,2015-12-14
+1449823,1449823,Fix Released,Absolute value of input count should be used for cluster scaling,https://bugs.launchpad.net/senlin/+bug/1449823,2015-12-14
+1448960,1448960,Fix Released,scaling size limiation is not checked correctly,https://bugs.launchpad.net/senlin/+bug/1448960,2015-12-14
+1448871,1448871,Fix Released,node_get_all_by_cluster should allow to ignore nodes that have been deleted,https://bugs.launchpad.net/senlin/+bug/1448871,2015-12-14
+1448855,1448855,Fix Released,node status was not set  to DELETED after deletion succeeded,https://bugs.launchpad.net/senlin/+bug/1448855,2015-12-14
+1447468,1447468,Fix Released,node index duplicated,https://bugs.launchpad.net/senlin/+bug/1447468,2015-12-14
+1471691,1471691,Fix Released,oslo_utils.timeutils rather than datetime should be used for timestamp,https://bugs.launchpad.net/senlin/+bug/1471691,2015-12-14
+1468660,1468660,Fix Released,incorrect policy detach should be rejected in early stage,https://bugs.launchpad.net/senlin/+bug/1468660,2015-12-14
+1520473,1520473,Fix Released,EncryptedVolumeType show attribute incorrectly resolves,https://bugs.launchpad.net/heat/+bug/1520473,2015-12-14
+1465581,1465581,Fix Released,Consistency in action creation should be enforced,https://bugs.launchpad.net/senlin/+bug/1465581,2015-12-14
+1465120,1465120,Fix Released,cluster update will override all metadata,https://bugs.launchpad.net/senlin/+bug/1465120,2015-12-14
+1510431,1510431,Fix Released,API resource names should not include underscores,https://bugs.launchpad.net/senlin/+bug/1510431,2015-12-14
+1481265,1481265,Fix Released,Update cluster which contains no node will fail with UnboundLocalError,https://bugs.launchpad.net/senlin/+bug/1481265,2015-12-14
+1480770,1480770,Fix Released,Misleading documentation for creating profile with metadata,https://bugs.launchpad.net/senlin/+bug/1480770,2015-12-14
+1472857,1472857,Fix Released,Test case of openstack-sdk driver is missing,https://bugs.launchpad.net/senlin/+bug/1472857,2015-12-14
+1472856,1472856,Fix Released,Test case of ceilometer_v2 driver is missing,https://bugs.launchpad.net/senlin/+bug/1472856,2015-12-14
+1472853,1472853,Fix Released,Test case of nova_v2 driver is missing,https://bugs.launchpad.net/senlin/+bug/1472853,2015-12-14
+1471131,1471131,Fix Released,test case of node module is missing,https://bugs.launchpad.net/senlin/+bug/1471131,2015-12-14
+1470011,1470011,Fix Released,Not test case covers service engine start or stop,https://bugs.launchpad.net/senlin/+bug/1470011,2015-12-14
+1469947,1469947,Fix Released,Test case for trust middleware is missing,https://bugs.launchpad.net/senlin/+bug/1469947,2015-12-14
+1469528,1469528,Fix Released,Test case for cluster policies API is missing,https://bugs.launchpad.net/senlin/+bug/1469528,2015-12-14
+1469100,1469100,Fix Released,status_reason can't contain too long characters,https://bugs.launchpad.net/senlin/+bug/1469100,2015-12-14
+1468694,1468694,Fix Released,test case of nova server profile is missing,https://bugs.launchpad.net/senlin/+bug/1468694,2015-12-14
+1468693,1468693,Fix Released,test case of heat stack profile is missing,https://bugs.launchpad.net/senlin/+bug/1468693,2015-12-14
+1468690,1468690,Fix Released,test case of node_action is missing,https://bugs.launchpad.net/senlin/+bug/1468690,2015-12-14
+1468687,1468687,Fix Released,test case of cluster_action is missing,https://bugs.launchpad.net/senlin/+bug/1468687,2015-12-14
+1468676,1468676,Fix Released,test case of deletion_policy is missing,https://bugs.launchpad.net/senlin/+bug/1468676,2015-12-14
+1468672,1468672,Fix Released,test case of scaling_in_policy is missing,https://bugs.launchpad.net/senlin/+bug/1468672,2015-12-14
+1468671,1468671,Fix Released,test case of scaling_out_policy is missing,https://bugs.launchpad.net/senlin/+bug/1468671,2015-12-14
+1465211,1465211,Fix Released,profile type matching should be checked earlier,https://bugs.launchpad.net/senlin/+bug/1465211,2015-12-14
+1447458,1447458,Fix Released,Webhook API lacks document,https://bugs.launchpad.net/senlin/+bug/1447458,2015-12-14
+1478423,1478423,Fix Released,"HttpException: 403 Client Error: Forbidden, At least one role should be specified",https://bugs.launchpad.net/senlin/+bug/1478423,2015-12-14
+1475480,1475480,Fix Released,get user id by name is not working,https://bugs.launchpad.net/senlin/+bug/1475480,2015-12-14
+1471166,1471166,Fix Released,Adding or deleting a node from a cluster ends up with error,https://bugs.launchpad.net/senlin/+bug/1471166,2015-12-14
+1524656,1524656,Fix Released,mounting the freshly formatted xfs on the lv occasionally fails,https://bugs.launchpad.net/devstack-plugin-glusterfs/+bug/1524656,2015-12-14
+1525502,1525502,Fix Released,nova-base for centos binary is missing oslo-policy,https://bugs.launchpad.net/kolla/+bug/1525502,2015-12-14
+1453651,1453651,Fix Released,FirstApp: Fix links in choosing your SDK,https://bugs.launchpad.net/openstack-manuals/+bug/1453651,2015-12-14
+1515798,1515798,Fix Released,"The ""Writing your first OpenStack application"" book is missing a heat template to scale the FAAFO application",https://bugs.launchpad.net/openstack-api-site/+bug/1515798,2015-12-14
+1515063,1515063,Fix Released,"The ""Writing your first OpenStack application"" book is missing a basic heat template to install the FAAFO application",https://bugs.launchpad.net/openstack-api-site/+bug/1515063,2015-12-14
+1449324,1449324,Fix Released,Section Six: Orchestration in FirstApp,https://bugs.launchpad.net/openstack-manuals/+bug/1449324,2015-12-14
+1525360,1525360,Fix Released,update_port doesn't work as expected for security group changes when remote_group is involved,https://bugs.launchpad.net/networking-ovn/+bug/1525360,2015-12-14
+1524391,1524391,Fix Released,[gate] stable/liberty dashboard CI gate is red,https://bugs.launchpad.net/murano/+bug/1524391,2015-12-13
+1522841,1522841,Fix Released,tox -egenconfig fails if keystonemiddleware is 4.0.0,https://bugs.launchpad.net/ironic/+bug/1522841,2015-12-13
+1254969,1254969,Fix Released,xenapi: move session into new client module,https://bugs.launchpad.net/openstack-manuals/+bug/1254969,2015-12-13
+1524718,1524718,Fix Released,devstack relies on Q_AGENT=openvswitch for ML2,https://bugs.launchpad.net/networking-midonet/+bug/1524718,2015-12-13
+1525567,1525567,Fix Released,LBaaS v2 API is now stable,https://bugs.launchpad.net/openstack-api-site/+bug/1525567,2015-12-13
+1523731,1523731,Fix Released,duplicate request id mentioned in servermetadata API ref,https://bugs.launchpad.net/openstack-api-site/+bug/1523731,2015-12-13
+1523758,1523758,Fix Released,Fix for flavor-access API ref,https://bugs.launchpad.net/openstack-api-site/+bug/1523758,2015-12-13
+1525100,1525100,Fix Released,Duplicate validation error for 'image_location',https://bugs.launchpad.net/horizon/+bug/1525100,2015-12-12
+1522129,1522129,Fix Released,HDS HUS iSCSI driver - System requirements in OpenStack Configuration Reference  - juno,https://bugs.launchpad.net/openstack-manuals/+bug/1522129,2015-12-12
+1516841,1516841,Fix Released,Client should should request/report share size in GiB instead of GB,https://bugs.launchpad.net/python-manilaclient/+bug/1516841,2015-12-12
+1483315,1483315,Fix Released,ebtables ARP rules don't account for floating IPs on LinuxBridge,https://bugs.launchpad.net/neutron/+bug/1483315,2015-12-12
+1493588,1493588,Fix Released,refstack-client default verbosity should be info,https://bugs.launchpad.net/refstack/+bug/1493588,2015-12-12
+1514290,1514290,Fix Released,Occasional Internal Server error when trying to log in,https://bugs.launchpad.net/refstack/+bug/1514290,2015-12-12
+1504691,1504691,Fix Released,First login with OpenStackID is wonky,https://bugs.launchpad.net/refstack/+bug/1504691,2015-12-12
+1501903,1501903,Fix Released,refstack-client fails to run when using an accounts file for Tempest,https://bugs.launchpad.net/refstack/+bug/1501903,2015-12-12

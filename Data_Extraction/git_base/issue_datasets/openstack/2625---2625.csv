@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1803544,1803544,Fix Released,unable to find user root: no matching entries in passwd file,https://bugs.launchpad.net/tripleo/+bug/1803544,2020-04-18
+1867192,1867192,Fix Released,neutron_dhcp side container is racy,https://bugs.launchpad.net/tripleo/+bug/1867192,2020-04-18
+1872734,1872734,Fix Released,Some HA containers logging got lost with the move to podman,https://bugs.launchpad.net/tripleo/+bug/1872734,2020-04-18
+1861886,1861886,Fix Released,ovn_nb_connection for Octavia is hard-coded to use tcp: schema,https://bugs.launchpad.net/tripleo/+bug/1861886,2020-04-18
+1873051,1873051,Fix Released,description incorrect for some encryption-type policies,https://bugs.launchpad.net/cinder/+bug/1873051,2020-04-17
+1873110,1873110,Fix Released,resolve status of policy target deprecated in stein,https://bugs.launchpad.net/cinder/+bug/1873110,2020-04-17
+1872985,1872985,Fix Released,need tests for volume-type encryption-type policies,https://bugs.launchpad.net/cinder/+bug/1872985,2020-04-17
+1872691,1872691,Fix Released,provider implementation to retrive credentials is not consistent,https://bugs.launchpad.net/puppet-glance/+bug/1872691,2020-04-17
+1868148,1868148,Fix Released,DBMS plugin with MySQL cannot delete volume,https://bugs.launchpad.net/cinderlib/+bug/1868148,2020-04-17
+1873436,1873436,Fix Released,This is bug on the new feature,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1873436,2020-04-17
+1858762,1858762,Fix Released,“UNKNOWN” host_status notification may cause unsafe evacuation,https://bugs.launchpad.net/masakari/+bug/1858762,2020-04-17
+1870264,1870264,Fix Committed,Unhandled AttributeArrors when Content-Type header not set in response,https://bugs.launchpad.net/python-magnumclient/+bug/1870264,2020-04-17
+1809497,1809497,Fix Released,_get_filterid_for_ip can generate an UnboundLocalError,https://bugs.launchpad.net/neutron/+bug/1809497,2020-04-17
+1872992,1872992,Fix Released,Support configuring [neutron]/dhcpv6_stateful_address_count,https://bugs.launchpad.net/puppet-ironic/+bug/1872992,2020-04-17
+1680183,1680183,Fix Released,"neutron-keepalived-state-change fails with ""AssertionError: do not call blocking functions from the mainloop""",https://bugs.launchpad.net/neutron/+bug/1680183,2020-04-17
+1869350,1869350,Fix Committed,max_length and min_length properties not accepted in constraints in list type,https://bugs.launchpad.net/tosca-parser/+bug/1869350,2020-04-17
+1872008,1872008,Fix Released,ironic-neutron-agent failed to start when using self-sign cert,https://bugs.launchpad.net/kolla-ansible/+bug/1872008,2020-04-17
+1871384,1871384,Fix Released,iptables-services rpm isn't managed on centos7,https://bugs.launchpad.net/tripleo/+bug/1871384,2020-04-17
+1849502,1849502,Fix Released,[DHCP] Check the dnsmasq process status after enabling the process,https://bugs.launchpad.net/neutron/+bug/1849502,2020-04-17
+1863241,1863241,Fix Released,PowerMax Driver - Deletion of group with volumes,https://bugs.launchpad.net/cinder/+bug/1863241,2020-04-16
+1870114,1870114,Fix Released,Trunk subports aren't treated as dvr serviced ports,https://bugs.launchpad.net/neutron/+bug/1870114,2020-04-16
+1842937,1842937,Fix Released,Some ports assigned to routers don't have the correspondent routerport register,https://bugs.launchpad.net/neutron/+bug/1842937,2020-04-16
+1872693,1872693,Fix Released,Timeout exception in scenario tests with advanced image,https://bugs.launchpad.net/neutron/+bug/1872693,2020-04-16
+1826565,1826565,Fix Released,"""tc_lib.add_tc_policy_class"" must always assign a default value to ""min_kbps""",https://bugs.launchpad.net/neutron/+bug/1826565,2020-04-16
+1871665,1871665,Fix Released,servers actions (many) API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1871665,2020-04-16
+1872404,1872404,Fix Released,octavia failed to create loadbalancer when using self-sign cert,https://bugs.launchpad.net/kolla-ansible/+bug/1872404,2020-04-16
+1850843,1850843,Fix Released,Sensitive information leaked in mistral logs,https://bugs.launchpad.net/tripleo/+bug/1850843,2020-04-16
+1872656,1872656,Fix Released,Puppet::Provider::Glance is broken because of missing os_region_name,https://bugs.launchpad.net/puppet-glance/+bug/1872656,2020-04-16
+1866017,1866017,Fix Released,keystone bootstrap may produce invalid json,https://bugs.launchpad.net/kolla/+bug/1866017,2020-04-16
+1799555,1799555,Fix Committed,Fullstack test neutron.tests.fullstack.test_dhcp_agent.TestDhcpAgentHA.test_reschedule_network_on_new_agent timeout,https://bugs.launchpad.net/neutron/+bug/1799555,2020-04-16
+1867006,1867006,Fix Released,Prevent creation of unnecessary Ceph variables,https://bugs.launchpad.net/tripleo/+bug/1867006,2020-04-16
+1798362,1798362,Fix Released,paunch --label does not work,https://bugs.launchpad.net/tripleo/+bug/1798362,2020-04-16
+1856578,1856578,Fix Released,docs: image schema customization restrictions,https://bugs.launchpad.net/glance/+bug/1856578,2020-04-15
+1868464,1868464,Fix Released,Nova assumes hw_firmware_type=uefi being set on UEFI instances,https://bugs.launchpad.net/nova/+bug/1868464,2020-04-15
+1871596,1871596,Fix Released,Rally job on stable branches is failing,https://bugs.launchpad.net/neutron/+bug/1871596,2020-04-15
+1872637,1872637,Fix Released,update py2 sample configs to py3 in DS8000 cinder configuration,https://bugs.launchpad.net/cinder/+bug/1872637,2020-04-15
+1869072,1869072,Fix Released,glance-api privsep error with cinder backend [not affecting only centos binary],https://bugs.launchpad.net/kolla/+bug/1869072,2020-04-15
+1834308,1834308,Fix Released,[DVR][DB] too many slow query during agent restart,https://bugs.launchpad.net/neutron/+bug/1834308,2020-04-15
+1871927,1871927,Fix Released,os_ironic: gdisk utils missing,https://bugs.launchpad.net/openstack-ansible/+bug/1871927,2020-04-15
+1848353,1848353,Fix Released,python2 packages appearing in octavia host-prep-tasks,https://bugs.launchpad.net/tripleo/+bug/1848353,2020-04-15
+1872688,1872688,Fix Released,NP CRD patching broken due to CRD holding outdated data,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1872688,2020-04-15
+1849073,1849073,Fix Released,tripleo-ansible-inventory multi stack produces group with servers it shouldn't have,https://bugs.launchpad.net/tripleo/+bug/1849073,2020-04-15
+1872243,1872243,Fix Released,NetApp driver attempts to create peering between the same vservers,https://bugs.launchpad.net/manila/+bug/1872243,2020-04-14
+1848082,1848082,Fix Released,Quickstart: AIO in openstack-ansible,https://bugs.launchpad.net/openstack-ansible/+bug/1848082,2020-04-14
+1861248,1861248,Fix Released,Keystone bootstrap password variable is invalid,https://bugs.launchpad.net/tripleo/+bug/1861248,2020-04-14
+1831575,1831575,Fix Released,br-tun gets a wrong arp drop rule when dvr is connected to a network but not used as gateway,https://bugs.launchpad.net/neutron/+bug/1831575,2020-04-14
+1766485,1766485,Fix Released,Support locking user password,https://bugs.launchpad.net/horizon/+bug/1766485,2020-04-14
+1871806,1871806,Fix Released,"The information about auth type (Internal, External auth) is not available when rendering openrc files in horizon",https://bugs.launchpad.net/horizon/+bug/1871806,2020-04-14
+1808814,1808814,Fix Released,admin docs: interoperable image import revision for stein,https://bugs.launchpad.net/glance/+bug/1808814,2020-04-14
+1870336,1870336,Fix Released,Update 'common image properties' doc,https://bugs.launchpad.net/glance/+bug/1870336,2020-04-14
+1869184,1869184,Fix Released,Poor LUKSv1 performance when using native QEMU decryption and RBD volumes,https://bugs.launchpad.net/nova/+bug/1869184,2020-04-14
+1869182,1869182,Fix Released,Poor LUKSv1 performance when using native QEMU decryption,https://bugs.launchpad.net/nova/+bug/1869182,2020-04-14
+1815631,1815631,Fix Released,[Docs] all examples lacking correct horizon image upload mode,https://bugs.launchpad.net/openstack-ansible/+bug/1815631,2020-04-14
+1872399,1872399,Fix Released,"Deployment failed because ""nova_wait_for_api_service"" container failed to start (nova_api_wsgi_error - ModuleNotFoundError: No module named 'dataclasses')",https://bugs.launchpad.net/tripleo/+bug/1872399,2020-04-14
+1861334,1861334,Fix Released,cors config defaults not used when Glance is run as WSGI app,https://bugs.launchpad.net/glance/+bug/1861334,2020-04-14
+1823703,1823703,Fix Released,Wrong version URL when Glance is deployed behind proxy with vhost,https://bugs.launchpad.net/glance/+bug/1823703,2020-04-14
+1863879,1863879,Fix Released,Multiple import fails if all-stores 'True' is passed,https://bugs.launchpad.net/glance/+bug/1863879,2020-04-14
+1850412,1850412,Fix Released,Useful image properties in glance - os_admin_user not documented,https://bugs.launchpad.net/glance/+bug/1850412,2020-04-14
+1782840,1782840,Fix Released,No policy enforcement for several delete metadef APIs,https://bugs.launchpad.net/glance/+bug/1782840,2020-04-14
+1871588,1871588,Fix Released,"copy-image, multiple image imports dosen't work as expected if all_stores_must_succeed passed as string",https://bugs.launchpad.net/glance/+bug/1871588,2020-04-14
+1866785,1866785,Fix Released,Backport role specific tag for NeutronBridgeMappings to stable/queens,https://bugs.launchpad.net/tripleo/+bug/1866785,2020-04-14
+1869701,1869701,Fix Released,Periodic jobs failing with ImportError: No module named os_ken.tests.integrated.common,https://bugs.launchpad.net/tripleo/+bug/1869701,2020-04-14
+1871291,1871291,Fix Released,Introspection failing for OVB jobs - No nodes are manageable at this time.,https://bugs.launchpad.net/tripleo/+bug/1871291,2020-04-14
+1871337,1871337,Fix Released,overcloud deployment failing with msg: 'argument parameters is of type <class ''str''> and we were unable to convert to dict: unable to evaluate string as dictionary'.,https://bugs.launchpad.net/tripleo/+bug/1871337,2020-04-14
+1768618,1768618,Fix Released,Designate-Worker occasionally raises Bad Action,https://bugs.launchpad.net/designate/+bug/1768618,2020-04-13
+1871674,1871674,Fix Released,"Pass boolean instead of string for --all-stores, --allow-failure options",https://bugs.launchpad.net/python-glanceclient/+bug/1871674,2020-04-13
+1861097,1861097,Fix Released,service principal not created,https://bugs.launchpad.net/tripleo/+bug/1861097,2020-04-13
+1797138,1797138,Fix Released,Allow rhel repository swtich upon upgrade,https://bugs.launchpad.net/tripleo/+bug/1797138,2020-04-13
+1803740,1803740,Fix Released,[CI] false possitive in upgrades job,https://bugs.launchpad.net/tripleo/+bug/1803740,2020-04-13
+1808965,1808965,Fix Released,rhel-registration not working due to wrong absolute path,https://bugs.launchpad.net/tripleo/+bug/1808965,2020-04-13
+1813184,1813184,Fix Released,[Queens only] rhel-registration forced registration not being done during upgrades,https://bugs.launchpad.net/tripleo/+bug/1813184,2020-04-13
+1818848,1818848,Fix Released,[ci] ci environments from tripleo-heat-templates pointing to /usr/share/openstack-tripleo-heat-templates,https://bugs.launchpad.net/tripleo/+bug/1818848,2020-04-13
+1829858,1829858,Fix Released,[Rocky/Queens Only] Remove pre-upgrade validation tasks,https://bugs.launchpad.net/tripleo/+bug/1829858,2020-04-13
+1845935,1845935,Fix Released,Dying containers during undercloud-upgrade,https://bugs.launchpad.net/tripleo/+bug/1845935,2020-04-13
+1860328,1860328,Fix Released,[Rocky/Queens] Pacemaker managed templates ovn-dbs and manila-share fail due to wrong Jinja filter,https://bugs.launchpad.net/tripleo/+bug/1860328,2020-04-13

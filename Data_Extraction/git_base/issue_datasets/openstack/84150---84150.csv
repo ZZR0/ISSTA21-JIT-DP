@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1196623,1196623,Fix Released,Enable pylint/pep8 gating checks.,https://bugs.launchpad.net/anvil/+bug/1196623,2013-12-13
+1189716,1189716,Fix Released,Not correctly removing past phases,https://bugs.launchpad.net/anvil/+bug/1189716,2013-12-13
+1189708,1189708,Fix Released,Keystone missing keystone-paste.ini,https://bugs.launchpad.net/anvil/+bug/1189708,2013-12-13
+1189707,1189707,Fix Released,Ensure anvil doesn't remove packages it depends on,https://bugs.launchpad.net/anvil/+bug/1189707,2013-12-13
+1257666,1257666,Fix Released,"OSTF test ""Create stack, check its details, then update and delete Heat stack"" has failed for 3.2.1",https://bugs.launchpad.net/fuel/+bug/1257666,2013-12-13
+1048483,1048483,Fix Released,qemu.conf permission denied,https://bugs.launchpad.net/devstack/+bug/1048483,2013-12-13
+889398,889398,Fix Released,Bad pycrypto version cause ImportError: No module named Crypto.Cipher,https://bugs.launchpad.net/horizon/+bug/889398,2013-12-13
+1260543,1260543,Fix Released,We sometimes try to boot instances before there are any compute nodes,https://bugs.launchpad.net/tripleo/+bug/1260543,2013-12-13
+1256310,1256310,Fix Released,[systest][ostf] Check ostf with neutron in gre/vlan,https://bugs.launchpad.net/fuel/+bug/1256310,2013-12-13
+1260366,1260366,Fix Released,"OSTF test ""Check that VM is accessible via floating IP address"" has failed with error Server can not be deleted",https://bugs.launchpad.net/fuel/+bug/1260366,2013-12-13
+1014683,1014683,Fix Released,test_get_console_output_server_id_in_reboot_status has issues,https://bugs.launchpad.net/tempest/+bug/1014683,2013-12-13
+1252999,1252999,Fix Released,hard-coded value in scenario test,https://bugs.launchpad.net/tempest/+bug/1252999,2013-12-13
+1243856,1243856,Fix Released,"""No module named libvirt"" ERRORs in ceilometer-acompute after successful large-ops tempest run",https://bugs.launchpad.net/devstack/+bug/1243856,2013-12-13
+1257330,1257330,Fix Released,object expirer isn't deleting objects,https://bugs.launchpad.net/swift/+bug/1257330,2013-12-13
+1244545,1244545,Fix Released,tempauth rejects all requests when used with keystoneauth and swift3,https://bugs.launchpad.net/swift/+bug/1244545,2013-12-13
+1258141,1258141,Fix Released,neutron: nvp plugin does not set gateway interface correctly,https://bugs.launchpad.net/devstack/+bug/1258141,2013-12-13
+1233513,1233513,Fix Released,assertLessEqual not supported with py26+testtools,https://bugs.launchpad.net/tempest/+bug/1233513,2013-12-13
+1188215,1188215,Fix Released,python2 needs to be installed to run stack.sh,https://bugs.launchpad.net/devstack/+bug/1188215,2013-12-13
+1133622,1133622,Fix Released,The test_attach_interfaces needs additional work for the fixed_ip case,https://bugs.launchpad.net/tempest/+bug/1133622,2013-12-12
+1225024,1225024,Fix Released,tempest.api.compute.admin.test_hosts.HostsAdminTestXML.test_list_hosts_with_zone[gate]  unexpected conductor service,https://bugs.launchpad.net/tempest/+bug/1225024,2013-12-12
+1225024,1225024,Fix Released,tempest.api.compute.admin.test_hosts.HostsAdminTestXML.test_list_hosts_with_zone[gate]  unexpected conductor service,https://bugs.launchpad.net/nova/+bug/1225024,2013-12-12
+1242974,1242974,Fix Released,stable/havana devstack doesn't check out stable/havana repos,https://bugs.launchpad.net/devstack/+bug/1242974,2013-12-12
+1252168,1252168,Fix Released,"""BuildErrorException: Server ... failed to build and is in ERROR status"" in tempest.api.compute.servers.test_server_addresses.ServerAddressesTestXML",https://bugs.launchpad.net/tempest/+bug/1252168,2013-12-12
+1252876,1252876,Fix Released,test_server_actions server not created in setUp,https://bugs.launchpad.net/tempest/+bug/1252876,2013-12-12
+1228940,1228940,Fix Released,tempest.api.compute.images.test_images.ImagesTestJSON.test_delete_saving_image fails sporadically in swift gate jobs,https://bugs.launchpad.net/tempest/+bug/1228940,2013-12-12
+1243593,1243593,Fix Released,The presence of public_network_id and public_router_id should only be checked if Quantum is enabled,https://bugs.launchpad.net/tempest/+bug/1243593,2013-12-12
+1253718,1253718,Fix Released,Python 3.x incompatible use of print operator,https://bugs.launchpad.net/tempest/+bug/1253718,2013-12-12
+1259548,1259548,Fix Released,devstack is launching multiple object/account/container swift servers,https://bugs.launchpad.net/devstack/+bug/1259548,2013-12-12
+1218279,1218279,Fix Released,setUpClass (tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON)  Failed at server creation,https://bugs.launchpad.net/nova/+bug/1218279,2013-12-12
+1218279,1218279,Fix Released,setUpClass (tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON)  Failed at server creation,https://bugs.launchpad.net/tempest/+bug/1218279,2013-12-12
+1218601,1218601,Fix Released,GET v2.0/tenants (admin) and GET v2.0 tenants (public) are not clearly differentiated,https://bugs.launchpad.net/openstack-api-site/+bug/1218601,2013-12-12
+1170118,1170118,Fix Released,exceptions.Duplicate for rescued_vm tests,https://bugs.launchpad.net/tempest/+bug/1170118,2013-12-12
+1229957,1229957,Fix Released,_error_in_logs function of stress/driver.py shall check all nodes,https://bugs.launchpad.net/tempest/+bug/1229957,2013-12-12
+1230175,1230175,Fix Released,"XML Client is not being used for ""test_hosts.py"" located in api/compute/admin/",https://bugs.launchpad.net/tempest/+bug/1230175,2013-12-12
+1228072,1228072,Fix Released,Test failure with test_list_containers_with_marker,https://bugs.launchpad.net/swift/+bug/1228072,2013-12-12
+1257181,1257181,Fix Released,ServerDiskConfigTestJSON._get_alternative_flavor cannot get the correct alternative_flavor,https://bugs.launchpad.net/tempest/+bug/1257181,2013-12-12
+1256236,1256236,Fix Released,tempest.cli.simple_read_only.test_cinder.SimpleReadOnlyCinderClientV2Test not parallel friendly,https://bugs.launchpad.net/tempest/+bug/1256236,2013-12-12
+1253848,1253848,Fix Released,tempest _cleanup_ports tries to delete router ports,https://bugs.launchpad.net/tempest/+bug/1253848,2013-12-12
+1252024,1252024,Fix Released,gate-tempest-devstack-vm-neutron failing on stable/havana,https://bugs.launchpad.net/tempest/+bug/1252024,2013-12-12
+1252024,1252024,Fix Released,gate-tempest-devstack-vm-neutron failing on stable/havana,https://bugs.launchpad.net/openstack-ci/+bug/1252024,2013-12-12
+1249953,1249953,Fix Released,"tempest case tempest/api/compute/servers/test_list_server_filters.py:ListServerFiltersTestJSON.test_list_servers_detailed_filter_by_server_status are not work well when there are some instances in ""ACTIVE"" mode",https://bugs.launchpad.net/tempest/+bug/1249953,2013-12-12
+1243991,1243991,Fix Released,test_lock_unlock_server fail with Duplicate error,https://bugs.launchpad.net/tempest/+bug/1243991,2013-12-12
+1241588,1241588,Fix Released,stable/havana: test_servers_negative is taking too long to run,https://bugs.launchpad.net/tempest/+bug/1241588,2013-12-12
+1227858,1227858,Fix Released,volume xml volume_clients bootable check is case sensitive,https://bugs.launchpad.net/tempest/+bug/1227858,2013-12-12
+1226678,1226678,Fix Released,"fix pep8 errors: E231, E128",https://bugs.launchpad.net/tempest/+bug/1226678,2013-12-12
+1225723,1225723,Fix Released,"add required python modules(six,iso8601,fixtures) to requirements.txt",https://bugs.launchpad.net/tempest/+bug/1225723,2013-12-12
+1224742,1224742,Fix Released,Admin role is hardcoded to 'admin' but it's configurable within openstack.,https://bugs.launchpad.net/tempest/+bug/1224742,2013-12-12
+1221469,1221469,Fix Released,cleanups are done by the testing framework and outside of decorator based locks,https://bugs.launchpad.net/tempest/+bug/1221469,2013-12-12
+1218666,1218666,Fix Released,"Volume upload test fails for drivers that expect a non ""raw"" disk format",https://bugs.launchpad.net/tempest/+bug/1218666,2013-12-12
+1216903,1216903,Fix Released,logical_resource_id  disappeared in favor of resource_name,https://bugs.launchpad.net/tempest/+bug/1216903,2013-12-12
+1216903,1216903,Fix Released,logical_resource_id  disappeared in favor of resource_name,https://bugs.launchpad.net/horizon/+bug/1216903,2013-12-12
+1216903,1216903,Fix Released,logical_resource_id  disappeared in favor of resource_name,https://bugs.launchpad.net/python-heatclient/+bug/1216903,2013-12-12
+1216335,1216335,Fix Released,test_autoscaling should not run if orchestration is not available,https://bugs.launchpad.net/tempest/+bug/1216335,2013-12-12
+1215794,1215794,Fix Released,ssh timeout not correctly calculated,https://bugs.launchpad.net/tempest/+bug/1215794,2013-12-12
+1215405,1215405,Fix Released,emit warning while running flake8 without virtual env,https://bugs.launchpad.net/tempest/+bug/1215405,2013-12-12
+1214219,1214219,Fix Released,test_attach_detach_volume failing because of unset variable,https://bugs.launchpad.net/tempest/+bug/1214219,2013-12-12
+1214202,1214202,Fix Released,"Eliminate the impact of ""wait_until='BUILD'""",https://bugs.launchpad.net/tempest/+bug/1214202,2013-12-12
+1214199,1214199,Fix Released,Skip os-fixed-ips test since neutron has not implemented it,https://bugs.launchpad.net/tempest/+bug/1214199,2013-12-12
+1213896,1213896,Fix Released,parsing flavor extra specs fails for missing namespace,https://bugs.launchpad.net/tempest/+bug/1213896,2013-12-12
+1212545,1212545,Fix Released,typos in tempest/api/README.rst,https://bugs.launchpad.net/tempest/+bug/1212545,2013-12-12
+1210664,1210664,Fix Released,neutron can't setup basic network connnectivity in gate jobs,https://bugs.launchpad.net/tempest/+bug/1210664,2013-12-12
+1210664,1210664,Fix Released,neutron can't setup basic network connnectivity in gate jobs,https://bugs.launchpad.net/devstack/+bug/1210664,2013-12-12
+1208846,1208846,Fix Released,test_admin_timeout should be configurable,https://bugs.launchpad.net/tempest/+bug/1208846,2013-12-12
+1207893,1207893,Fix Released,_volume_create_get_delete needs to log blanket exception,https://bugs.launchpad.net/tempest/+bug/1207893,2013-12-12
+1207082,1207082,Fix Released,network_for_ssh default in tempest.conf.sample does not match code,https://bugs.launchpad.net/tempest/+bug/1207082,2013-12-12
+1206694,1206694,Fix Released,test_neutron_dhcp_agent_list_hosting_net hard-codes the network name,https://bugs.launchpad.net/tempest/+bug/1206694,2013-12-12
+1205923,1205923,Fix Released,tempest cannot run without a connection to glance,https://bugs.launchpad.net/tempest/+bug/1205923,2013-12-12
+1201662,1201662,Fix Released,Instance fails to unlock after a lock action,https://bugs.launchpad.net/tempest/+bug/1201662,2013-12-12
+1220514,1220514,Fix Released,Hardcoded values in test_attach_volume,https://bugs.launchpad.net/tempest/+bug/1220514,2013-12-12
+1242556,1242556,Fix Released,conflicting dependency on six<1.4.0 causing glance client error in devstack,https://bugs.launchpad.net/tempest/+bug/1242556,2013-12-12
+1256945,1256945,Fix Released,OfficialClientManager does not support region,https://bugs.launchpad.net/tempest/+bug/1256945,2013-12-12
+1150296,1150296,Fix Released,Add ssh support the cli test,https://bugs.launchpad.net/tempest/+bug/1150296,2013-12-12
+1090237,1090237,Fix Released,Test to verify the working of ssh using keypair,https://bugs.launchpad.net/tempest/+bug/1090237,2013-12-12
+1260246,1260246,Fix Released,Can't build ISO: npm conflicts with existing nodejs,https://bugs.launchpad.net/fuel/+bug/1260246,2013-12-12
+1260242,1260242,Fix Released,OSTF Ceilometer: tests failed on environment without ceilometer,https://bugs.launchpad.net/fuel/+bug/1260242,2013-12-12

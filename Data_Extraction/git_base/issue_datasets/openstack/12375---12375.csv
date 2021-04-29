@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1579242,1579242,Fix Released,clean up not run when sigint occurs during build,https://bugs.launchpad.net/kolla/+bug/1579242,2018-06-20
+1571128,1571128,Fix Released,cinder volume creation failed because glance round-robin,https://bugs.launchpad.net/kolla/+bug/1571128,2018-06-20
+1569971,1569971,Fix Released,kolla-ansible missing upgrade info in help documentation,https://bugs.launchpad.net/kolla/+bug/1569971,2018-06-20
+1569709,1569709,Fix Released,nova-spicehtml5proxy container keeps restarting during deploy centos-binary,https://bugs.launchpad.net/kolla/+bug/1569709,2018-06-20
+1569182,1569182,Fix Released,/var/cache/swift missing in source installation,https://bugs.launchpad.net/kolla/+bug/1569182,2018-06-20
+1566316,1566316,Fix Released,Build output does not show SHA used for source builds,https://bugs.launchpad.net/kolla/+bug/1566316,2018-06-20
+1565497,1565497,Fix Released,unable to create new flavors,https://bugs.launchpad.net/kolla/+bug/1565497,2018-06-20
+1565353,1565353,Fix Released,missing openstack_release option in globals.yml,https://bugs.launchpad.net/kolla/+bug/1565353,2018-06-20
+1560386,1560386,Fix Released,add ubuntu binary build and deploy gate,https://bugs.launchpad.net/kolla/+bug/1560386,2018-06-20
+1626861,1626861,Fix Released,Gate busted due to lack of openssl-devel package,https://bugs.launchpad.net/kolla/+bug/1626861,2018-06-20
+1564440,1564440,Fix Released,kibana can not access from the external network,https://bugs.launchpad.net/kolla/+bug/1564440,2018-06-20
+1564278,1564278,Fix Released,mariadb.pid checking after mariadb container starts fails deployment,https://bugs.launchpad.net/kolla/+bug/1564278,2018-06-20
+1505636,1505636,Fix Released,"In some cases, nova-conductor cannot connect DB",https://bugs.launchpad.net/kolla/+bug/1505636,2018-06-20
+1562141,1562141,Fix Released,kolla can not work with nova migrate and nova resize,https://bugs.launchpad.net/kolla/+bug/1562141,2018-06-20
+1560779,1560779,Fix Released,heka elasticsearch is returning warnings,https://bugs.launchpad.net/kolla/+bug/1560779,2018-06-20
+1560250,1560250,Fix Released,changing horizon log location to kolla_logs volume,https://bugs.launchpad.net/kolla/+bug/1560250,2018-06-20
+1624457,1624457,Fix Released,iptables -N ironic-inspector returned non-zero exit status 1,https://bugs.launchpad.net/kolla/+bug/1624457,2018-06-20
+1634680,1634680,Fix Released,failed to build mariadb - percona-xtrabackup key issue,https://bugs.launchpad.net/kolla/+bug/1634680,2018-06-20
+1631984,1631984,Fix Released,failed to launch instance when enabled ceph,https://bugs.launchpad.net/kolla/+bug/1631984,2018-06-20
+1627717,1627717,Fix Released,mariadb_recovery fails and data loss,https://bugs.launchpad.net/kolla/+bug/1627717,2018-06-20
+1626601,1626601,Fix Released,ceph-* images should install related filesystem packages,https://bugs.launchpad.net/kolla/+bug/1626601,2018-06-20
+1614363,1614363,Fix Released,mariadb-bootstrap-failed-script,https://bugs.launchpad.net/kolla/+bug/1614363,2018-06-20
+1617741,1617741,Fix Released,nova libvirt  raise error during the upgrade and reconfiguration,https://bugs.launchpad.net/kolla/+bug/1617741,2018-06-20
+1617713,1617713,Fix Released,bandit gate tests are failing,https://bugs.launchpad.net/kolla/+bug/1617713,2018-06-20
+1614970,1614970,Fix Released,nova-compute should create the folder when it not exist,https://bugs.launchpad.net/kolla/+bug/1614970,2018-06-20
+1608841,1608841,Fix Released,Bug: global name 'tlscert' is not defined,https://bugs.launchpad.net/kolla/+bug/1608841,2018-06-20
+1598339,1598339,Fix Released,upgrade haproxy failed,https://bugs.launchpad.net/kolla/+bug/1598339,2018-06-20
+1596653,1596653,Fix Released,upgrade fails if nova vm is launched,https://bugs.launchpad.net/kolla/+bug/1596653,2018-06-20
+1586085,1586085,Fix Released,kolla ubuntu source load incorrect version of arping,https://bugs.launchpad.net/kolla/+bug/1586085,2018-06-20
+1576151,1576151,Fix Released,non-default mysql/mariadb port not supported in kolla ansible,https://bugs.launchpad.net/kolla/+bug/1576151,2018-06-20
+1577498,1577498,Fix Released,Bandit #nosec tags should be applied in a few instances,https://bugs.launchpad.net/kolla/+bug/1577498,2018-06-20
+1576238,1576238,Fix Released,Base image build broken for oraclelinux,https://bugs.launchpad.net/kolla/+bug/1576238,2018-06-20
+1569723,1569723,Fix Released,failed to upgrade in stable/mitaka,https://bugs.launchpad.net/kolla/+bug/1569723,2018-06-20
+1569696,1569696,Fix Released,heat bootstrapping busted,https://bugs.launchpad.net/kolla/+bug/1569696,2018-06-20
+1566117,1566117,Fix Released,Add TLS to the kibana service,https://bugs.launchpad.net/kolla/+bug/1566117,2018-06-20
+1568424,1568424,Fix Released,neutron reconfig failed when enable the linuxbridge-agent,https://bugs.launchpad.net/kolla/+bug/1568424,2018-06-20
+1568281,1568281,Fix Released,ubuntu install wrong package for neutron-linuxbridge-agent and neutron-openvswitch-agent container,https://bugs.launchpad.net/kolla/+bug/1568281,2018-06-20
+1568012,1568012,Fix Released,qemu process has no permission in /var/lib/nova/instance/<uuid>,https://bugs.launchpad.net/kolla/+bug/1568012,2018-06-20
+1567406,1567406,Fix Released,neutron linux bridge agent is buggy and can not boot instance,https://bugs.launchpad.net/kolla/+bug/1567406,2018-06-20
+1566360,1566360,Fix Released,neutron reconfigure does not work,https://bugs.launchpad.net/kolla/+bug/1566360,2018-06-20
+1565624,1565624,Fix Released,"with tls enabled, vms never enter started state",https://bugs.launchpad.net/kolla/+bug/1565624,2018-06-20
+1563664,1563664,Fix Released,"creating 100 vms via horizon on 64 node cluster returns error ""max scheduling attempts reached 3""",https://bugs.launchpad.net/kolla/+bug/1563664,2018-06-20
+1565105,1565105,Fix Released,while spining vms on large scale some vms get multiple ips and multiple ports get created,https://bugs.launchpad.net/kolla/+bug/1565105,2018-06-20
+1777622,1777622,Fix Released,Thare is no log file in devstack,https://bugs.launchpad.net/tacker/+bug/1777622,2018-06-20
+1564275,1564275,Fix Released,scale limits inappropriate for Kolla for database connections,https://bugs.launchpad.net/kolla/+bug/1564275,2018-06-20
+1563643,1563643,Fix Released,Kolla reconfigure failure after mariadb connection limit reset,https://bugs.launchpad.net/kolla/+bug/1563643,2018-06-20
+1546789,1546789,Fix Released,neutron failed to deploy in a multi-node deployment,https://bugs.launchpad.net/kolla/+bug/1546789,2018-06-20
+1561073,1561073,Fix Released,incomplete horizon logging fix,https://bugs.launchpad.net/kolla/+bug/1561073,2018-06-20
+1562701,1562701,Fix Released,rabbitmq crashed on centos binary deploy,https://bugs.launchpad.net/kolla/+bug/1562701,2018-06-20
+1562261,1562261,Fix Released,Rabbitmq start on all host in multi host env,https://bugs.launchpad.net/kolla/+bug/1562261,2018-06-20
+1550455,1550455,Fix Released,Keepalive configuration can cause black hole with two VIPs,https://bugs.launchpad.net/kolla/+bug/1550455,2018-06-20
+1664272,1664272,Fix Released,grafana gpg key failed to verify rpm package,https://bugs.launchpad.net/kolla/+bug/1664272,2018-06-20
+1720601,1720601,Fix Released,migrate to zuulv3 for gate jobs,https://bugs.launchpad.net/kolla-ansible/+bug/1720601,2018-06-20
+1720601,1720601,Fix Released,migrate to zuulv3 for gate jobs,https://bugs.launchpad.net/kolla/+bug/1720601,2018-06-20
+1713652,1713652,Fix Released,gates run out of disk space,https://bugs.launchpad.net/kolla-ansible/+bug/1713652,2018-06-20
+1713652,1713652,Fix Released,gates run out of disk space,https://bugs.launchpad.net/kolla/+bug/1713652,2018-06-20
+1707841,1707841,Fix Released,python-libvirt shouldn't be installed from pip,https://bugs.launchpad.net/kolla/+bug/1707841,2018-06-20
+1700978,1700978,Fix Released,gnocchi openstack repo no longer maintained,https://bugs.launchpad.net/kolla/+bug/1700978,2018-06-20
+1665293,1665293,Fix Released,source deployment: docker sahara-base needs ssh-keygen binary,https://bugs.launchpad.net/kolla/+bug/1665293,2018-06-20
+1657894,1657894,Fix Released,magnum-conductor error,https://bugs.launchpad.net/kolla-ansible/+bug/1657894,2018-06-20
+1656733,1656733,Fix Released,epel release 7.9 has been release,https://bugs.launchpad.net/kolla/+bug/1656733,2018-06-20
+1653863,1653863,Fix Released,libvirt 2.0 break the gate,https://bugs.launchpad.net/kolla-ansible/+bug/1653863,2018-06-20
+1654495,1654495,Fix Released,ceilometer requires python-gnocchiclient,https://bugs.launchpad.net/kolla/+bug/1654495,2018-06-20
+1647585,1647585,Fix Released,Check use of store_events = true in ceilometer configuration,https://bugs.launchpad.net/kolla/+bug/1647585,2018-06-20
+1647379,1647379,Fix Released,use a single shell script in gate,https://bugs.launchpad.net/kolla/+bug/1647379,2018-06-20
+1646535,1646535,Fix Released,glance api container need qemu-img tool,https://bugs.launchpad.net/kolla/+bug/1646535,2018-06-20
+1644159,1644159,Fix Released,source images lacking strongswan package,https://bugs.launchpad.net/kolla/+bug/1644159,2018-06-20
+1645195,1645195,Fix Released,sahara dashboard is not loaded when enabled sahara,https://bugs.launchpad.net/kolla/+bug/1645195,2018-06-20
+1645195,1645195,Fix Released,sahara dashboard is not loaded when enabled sahara,https://bugs.launchpad.net/kolla-ansible/+bug/1645195,2018-06-20
+1645104,1645104,Fix Released,ironic dashboard is not load in horizon when enable_ironic is  yes,https://bugs.launchpad.net/kolla/+bug/1645104,2018-06-20
+1645104,1645104,Fix Released,ironic dashboard is not load in horizon when enable_ironic is  yes,https://bugs.launchpad.net/kolla-ansible/+bug/1645104,2018-06-20
+1643860,1643860,Fix Released,ceilometer and publicURL with TLS enabled,https://bugs.launchpad.net/kolla/+bug/1643860,2018-06-20
+1643860,1643860,Fix Released,ceilometer and publicURL with TLS enabled,https://bugs.launchpad.net/kolla-ansible/+bug/1643860,2018-06-20
+1643867,1643867,Fix Released,bump percona-release in docker,https://bugs.launchpad.net/kolla/+bug/1643867,2018-06-20
+1642995,1642995,Fix Released,Designate source Images do not contain required assets,https://bugs.launchpad.net/kolla/+bug/1642995,2018-06-20

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1325406,1325406,Fix Released,lbaas doesn't have route rule for rootwrap,https://bugs.launchpad.net/neutron/+bug/1325406,2014-10-16
+1324659,1324659,Fix Released,dump_flows_for_table() needs to handle run_ofctl failing,https://bugs.launchpad.net/neutron/+bug/1324659,2014-10-16
+1252654,1252654,Fix Released,libvirt+xen: nova.compute.manager issues a warning about number of VMs on hypervisor,https://bugs.launchpad.net/nova/+bug/1252654,2014-10-16
+1324120,1324120,Fix Released,NSX: exception when creating a flat network,https://bugs.launchpad.net/neutron/+bug/1324120,2014-10-16
+1245595,1245595,Fix Released,Resize/Migrate with LVM Restores from Image; Does Not Copy Data,https://bugs.launchpad.net/nova/+bug/1245595,2014-10-16
+1323832,1323832,Fix Released,linux.utils.execute should log error on return codes,https://bugs.launchpad.net/neutron/+bug/1323832,2014-10-16
+1215772,1215772,Fix Released,Nova Attach/Detach Volume can't work if volume endpoint set to v2,https://bugs.launchpad.net/nova/+bug/1215772,2014-10-16
+1323322,1323322,Fix Released,fwaas:shrared attribute of tenant's firewall should not have the option to update,https://bugs.launchpad.net/neutron/+bug/1323322,2014-10-16
+1322440,1322440,Fix Released,NoSuchOptError: no such option: state_path,https://bugs.launchpad.net/neutron/+bug/1322440,2014-10-16
+1150194,1150194,Fix Released,nova domain leaking into other domains,https://bugs.launchpad.net/nova/+bug/1150194,2014-10-16
+1320775,1320775,Fix Released,"fwaas:Firewall in ""active"" status is  not working when there is no external g/w to the router",https://bugs.launchpad.net/neutron/+bug/1320775,2014-10-16
+1298981,1298981,Fix Released,Skip resizing disk if the parameter resize_instance is False,https://bugs.launchpad.net/nova/+bug/1298981,2014-10-16
+1316382,1316382,Fix Released,Big Switch: servermanager HTTPS fails on 2.6,https://bugs.launchpad.net/neutron/+bug/1316382,2014-10-16
+1293938,1293938,Fix Released,nova.image.glance unit tests should not use fake glance service,https://bugs.launchpad.net/nova/+bug/1293938,2014-10-16
+1315538,1315538,Fix Released,NSX: cluster is passed instead of context during metadata operation,https://bugs.launchpad.net/neutron/+bug/1315538,2014-10-16
+1315467,1315467,Fix Released,Neutron deletes the router interface instead of adding a floatingip,https://bugs.launchpad.net/neutron/+bug/1315467,2014-10-16
+1237402,1237402,Fix Released,"Remove deprecated option ""libvirt_wait_soft_reboot_seconds""",https://bugs.launchpad.net/nova/+bug/1237402,2014-10-16
+1315097,1315097,Fix Released,get_security_groups_on_port takes a long time slowing down neutron,https://bugs.launchpad.net/neutron/+bug/1315097,2014-10-16
+1360113,1360113,Fix Released,V2 hypervisors Unit Test tests hypervisors API as non Admin,https://bugs.launchpad.net/nova/+bug/1360113,2014-10-16
+1312482,1312482,Fix Released,scalability problem of router routes update,https://bugs.launchpad.net/neutron/+bug/1312482,2014-10-16
+1358702,1358702,Fix Released,Hyper-V unit test fails on Windows due to path separator inconsistency: nova.tests.virt.hyperv.test_pathutils.PathUtilsTestCase.test_lookup_config_drive_path,https://bugs.launchpad.net/nova/+bug/1358702,2014-10-16
+1311002,1311002,Fix Released,"ip-lib : ""ip neigh"" command should use ""replace"" instead of ""add""",https://bugs.launchpad.net/neutron/+bug/1311002,2014-10-16
+1356983,1356983,Fix Released,Need to document installing graphviz from distro for tox -e docs run,https://bugs.launchpad.net/nova/+bug/1356983,2014-10-16
+1356687,1356687,Fix Released,hacking check for jsonutils produces pep8 traceback,https://bugs.launchpad.net/nova/+bug/1356687,2014-10-16
+1352428,1352428,Fix Released,"HyperV ""Shutting Down"" state is not mapped",https://bugs.launchpad.net/nova/+bug/1352428,2014-10-16
+1308675,1308675,Fix Released,netaddr raises ValueError in 0.7.10 and AddrFormatError in 0.7.11,https://bugs.launchpad.net/neutron/+bug/1308675,2014-10-16
+1352141,1352141,Fix Released,uncaught exception in floating ip creation when pool is not found with neutron backend,https://bugs.launchpad.net/nova/+bug/1352141,2014-10-16
+1351810,1351810,Fix Released,Move _is_mapping logic to more central place,https://bugs.launchpad.net/nova/+bug/1351810,2014-10-16
+1306301,1306301,Fix Released,NSX plugin unable to list gateway devices,https://bugs.launchpad.net/neutron/+bug/1306301,2014-10-16
+1302312,1302312,Fix Released,dhcp agent sometimes fail to add gateway to interface because interface is down,https://bugs.launchpad.net/neutron/+bug/1302312,2014-10-16
+1350751,1350751,Fix Released,Nova responses unexpected error messages when fail to create flavor,https://bugs.launchpad.net/nova/+bug/1350751,2014-10-16
+1302304,1302304,Fix Released,tox pep8 warns /bin/bash not installed in testenv,https://bugs.launchpad.net/neutron/+bug/1302304,2014-10-16
+1349268,1349268,Fix Released,OverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded,https://bugs.launchpad.net/nova/+bug/1349268,2014-10-16
+1347777,1347777,Fix Released,The compute_driver option description does not include the Hyper-V driver,https://bugs.launchpad.net/nova/+bug/1347777,2014-10-16
+1347499,1347499,Fix Released,"block-device source=blank,dest=volume is allowed as a combination, but won't work",https://bugs.launchpad.net/nova/+bug/1347499,2014-10-16
+1301838,1301838,Fix Released,SG rule should not allow an ICMP Policy when icmp-code alone is provided.,https://bugs.launchpad.net/neutron/+bug/1301838,2014-10-16
+1298495,1298495,Fix Released,Associate and disassociate floating IP broken logic in PLUMgrid Plugin,https://bugs.launchpad.net/neutron/+bug/1298495,2014-10-16
+1335901,1335901,Fix Released,Allow fine grained control on cells actions,https://bugs.launchpad.net/nova/+bug/1335901,2014-10-16
+1298976,1298976,Fix Released,Be sure converted image will be restored,https://bugs.launchpad.net/nova/+bug/1298976,2014-10-16
+1288312,1288312,Fix Released,radware lbaas unit test failed: MismatchError: 409 != 204,https://bugs.launchpad.net/neutron/+bug/1288312,2014-10-16
+1296164,1296164,Fix Released,"Missing implementation to get, delete, and update volume metadata",https://bugs.launchpad.net/nova/+bug/1296164,2014-10-16
+1267649,1267649,Fix Released,duplicate port create requests to neutron by compute,https://bugs.launchpad.net/neutron/+bug/1267649,2014-10-16
+1292572,1292572,Fix Released,aggregate-set-metadata return succesful on incorrect usage,https://bugs.launchpad.net/nova/+bug/1292572,2014-10-16
+1309195,1309195,Fix Released,[OSSA 2014-019] IPv6 prefix shouldn't be added in the NAT table (CVE-2014-4167),https://bugs.launchpad.net/neutron/+bug/1309195,2014-10-16
+1309195,1309195,Fix Released,[OSSA 2014-019] IPv6 prefix shouldn't be added in the NAT table (CVE-2014-4167),https://bugs.launchpad.net/ossa/+bug/1309195,2014-10-16
+1292309,1292309,Fix Released,Exception handle in be better when create a flavor,https://bugs.launchpad.net/nova/+bug/1292309,2014-10-16
+1270305,1270305,Fix Released,LVM backed instance migration does not copy disk,https://bugs.launchpad.net/nova/+bug/1270305,2014-10-16
+1307344,1307344,Fix Released,neutron migrations are not idempotent or invariant to enabled services,https://bugs.launchpad.net/neutron/+bug/1307344,2014-10-16
+1268424,1268424,Fix Released,Building the docs according to README.rst fails,https://bugs.launchpad.net/nova/+bug/1268424,2014-10-16
+1253525,1253525,Fix Released,The positional arguments of create flavor is incorrect disposal,https://bugs.launchpad.net/nova/+bug/1253525,2014-10-16
+1240339,1240339,Fix Released,log messages around not having python-libguestfs installed need improvement,https://bugs.launchpad.net/nova/+bug/1240339,2014-10-16
+1219040,1219040,Fix Released,manual  unit_tests.html  mentions non existing option for run_tests.sh,https://bugs.launchpad.net/nova/+bug/1219040,2014-10-16
+1218572,1218572,Fix Released,When nova-network raises NoMoreFixedIps a stacktrace is thrown,https://bugs.launchpad.net/nova/+bug/1218572,2014-10-16
+1131395,1131395,Fix Released,EC2 API does not support InstanceInstantiatedShutdownBehavior,https://bugs.launchpad.net/nova/+bug/1131395,2014-10-16
+1359835,1359835,Fix Released,select_destinations should send start/end notifications,https://bugs.launchpad.net/nova/+bug/1359835,2014-10-16
+1359427,1359427,Fix Released,Potential codec errors during rescheduling operations,https://bugs.launchpad.net/nova/+bug/1359427,2014-10-16
+1358795,1358795,Fix Released,instance.create.end notification may not be sent if the instance is deleted during boot,https://bugs.launchpad.net/nova/+bug/1358795,2014-10-16
+1358380,1358380,Fix Released,rebuild API doesn't handle OnsetFile*LimitExceeded quota errors,https://bugs.launchpad.net/nova/+bug/1358380,2014-10-16
+1354448,1354448,Fix Released,The Hyper-V driver should raise a InstanceFaultRollback in case of resize down requests,https://bugs.launchpad.net/nova/+bug/1354448,2014-10-16
+1353029,1353029,Fix Released,Trusted Filter does not work when Mt. Wilson returns non-ISO formatted dates.,https://bugs.launchpad.net/nova/+bug/1353029,2014-10-16
+1352659,1352659,Fix Released,race in server show api,https://bugs.launchpad.net/nova/+bug/1352659,2014-10-16
+1348584,1348584,Fix Released,KeyError in nova.compute.api.API.external_instance_event,https://bugs.launchpad.net/nova/+bug/1348584,2014-10-16
+1348368,1348368,Fix Released,ERROR(s) and WARNING(s) during tox -e docs,https://bugs.launchpad.net/nova/+bug/1348368,2014-10-16
+1361611,1361611,Fix Released,console/virt stop returning arbitrary dicts in driver API,https://bugs.launchpad.net/nova/+bug/1361611,2014-10-16
+1361097,1361097,Fix Released,Compute exception text never present when max sched attempt reached,https://bugs.launchpad.net/nova/+bug/1361097,2014-10-16
+1359475,1359475,Fix Released,AttributeError: 'module' object has no attribute 'VIR_MIGRATE_LIVE',https://bugs.launchpad.net/nova/+bug/1359475,2014-10-16
+1358609,1358609,Fix Released,ENOENT error breaks update_status() of libvirt driver,https://bugs.launchpad.net/nova/+bug/1358609,2014-10-16
+1357152,1357152,Fix Released,nova.utils.TIME_UNITS['Day'] is only 84400 sec,https://bugs.launchpad.net/nova/+bug/1357152,2014-10-16
+1356815,1356815,Fix Released,Nova hacking check for jsonutils used invalid number,https://bugs.launchpad.net/nova/+bug/1356815,2014-10-16
+1356058,1356058,Fix Released,Various extensions don't respect content header when returning a 202,https://bugs.launchpad.net/nova/+bug/1356058,2014-10-16
+1352768,1352768,Fix Released,virt: error in log when log exception in guestfs.py,https://bugs.launchpad.net/nova/+bug/1352768,2014-10-16
+1352732,1352732,Fix Released,live migration fails:CPU feature `erms' specified more than once,https://bugs.launchpad.net/nova/+bug/1352732,2014-10-16
+1351350,1351350,Fix Released,Warnings and Errors in Document generation,https://bugs.launchpad.net/nova/+bug/1351350,2014-10-16
+1351127,1351127,Fix Released,Exception in string format operation,https://bugs.launchpad.net/nova/+bug/1351127,2014-10-16
+1351020,1351020,Fix Released,FloatingIP fails to load from database when not associated,https://bugs.launchpad.net/nova/+bug/1351020,2014-10-16

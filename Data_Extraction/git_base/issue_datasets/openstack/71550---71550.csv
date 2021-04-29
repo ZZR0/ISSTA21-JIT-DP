@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1308198,1308198,Fix Committed,overcloud initialization script shown in UI is too specific,https://bugs.launchpad.net/tuskar-ui/+bug/1308198,2014-11-21
+1386224,1386224,Fix Committed,Delete confirmation dialogs do not list selected items correctly,https://bugs.launchpad.net/tuskar-ui/+bug/1386224,2014-11-21
+1262529,1262529,Fix Released,Floating IP takes too long to update in nova and even longer for multiple VMs,https://bugs.launchpad.net/nova/+bug/1262529,2014-11-21
+1262529,1262529,Fix Released,Floating IP takes too long to update in nova and even longer for multiple VMs,https://bugs.launchpad.net/neutron/+bug/1262529,2014-11-21
+1282206,1282206,Fix Released,Uncaught GreenletExit in ProcessLauncher if wait called after greenlet kill,https://bugs.launchpad.net/nova/+bug/1282206,2014-11-21
+1282206,1282206,Fix Released,Uncaught GreenletExit in ProcessLauncher if wait called after greenlet kill,https://bugs.launchpad.net/neutron/+bug/1282206,2014-11-21
+1393115,1393115,Fix Committed,nailgun-agent log too verbose,https://bugs.launchpad.net/fuel/+bug/1393115,2014-11-21
+1374289,1374289,Fix Released,[UI] Only 'SUCCESS' status is displayed on the pages,https://bugs.launchpad.net/mistral/+bug/1374289,2014-11-21
+1378700,1378700,Fix Released,[image provisioning] Provisioning failed after reset cluster and re-deploy with [431] fabaf555-30d8-4c54-a33d-6358cffba1f2: Provision command returned non zero exit code on node: 1 in Astute logs,https://bugs.launchpad.net/fuel/+bug/1378700,2014-11-21
+1373748,1373748,Fix Released,/actions v2 endpoint doesn't provide property 'is_system',https://bugs.launchpad.net/mistral/+bug/1373748,2014-11-21
+1373728,1373728,Fix Released,Workflow pretty logging doesn't work,https://bugs.launchpad.net/mistral/+bug/1373728,2014-11-21
+1373295,1373295,Fix Released,[CLI] Workflows don't have tags but there is such column in CLI command output,https://bugs.launchpad.net/mistral/+bug/1373295,2014-11-21
+1318427,1318427,Fix Released,[UI] Task list should be in-order of execution,https://bugs.launchpad.net/mistral/+bug/1318427,2014-11-21
+1376640,1376640,Fix Released,task-defaults doesn't get work if task has on-* property,https://bugs.launchpad.net/mistral/+bug/1376640,2014-11-21
+1393272,1393272,Fix Released,os-instance-actions lists history of actions vs. available actions,https://bugs.launchpad.net/openstack-api-site/+bug/1393272,2014-11-21
+1376682,1376682,Fix Released,DataFlow does not work,https://bugs.launchpad.net/mistral/+bug/1376682,2014-11-21
+1388751,1388751,Fix Released,Run nailgun tests in parallel in CI,https://bugs.launchpad.net/fuel/+bug/1388751,2014-11-21
+1255850,1255850,Fix Released,"L3_agent: if openvswitch fails to restart, _rpc_loop will block forever.",https://bugs.launchpad.net/neutron/+bug/1255850,2014-11-21
+1394437,1394437,Fix Released,"Ceilometer task samples are invalid due to missing ""context""",https://bugs.launchpad.net/rally/+bug/1394437,2014-11-21
+1394531,1394531,Fix Committed,make iso fails because of wrong version of multistrap,https://bugs.launchpad.net/fuel/+bug/1394531,2014-11-21
+1376735,1376735,Fix Released,We need to reschedule tests for some swarm jobs,https://bugs.launchpad.net/fuel/+bug/1376735,2014-11-21
+1312654,1312654,Fix Released,[devops] build iso on Ubuntu 14.04 (multistrap issue),https://bugs.launchpad.net/fuel/+bug/1312654,2014-11-21
+1394332,1394332,Fix Released,Should document that cinder delete_volume will fail if any snapshots depend upon that volume,https://bugs.launchpad.net/openstack-api-site/+bug/1394332,2014-11-21
+1328019,1328019,Fix Released,Neutron db migration fails when adding a non-nullable column for DB2,https://bugs.launchpad.net/neutron/+bug/1328019,2014-11-21
+1179777,1179777,Fix Released,glance-cache-cleaner does not respect image_cache_stall_time,https://bugs.launchpad.net/glance/+bug/1179777,2014-11-21
+1377105,1377105,Fix Committed,[astute]  Problem with provision status detection in case of a large number of nodes,https://bugs.launchpad.net/fuel/+bug/1377105,2014-11-21
+1394561,1394561,Fix Released,add information about lbaas HA,https://bugs.launchpad.net/openstack-manuals/+bug/1394561,2014-11-20
+1394747,1394747,Fix Released,"gate-tempest-dsvm-neutron-heat-slow fails with ""The test run didn't actually run any tests""",https://bugs.launchpad.net/tempest/+bug/1394747,2014-11-20
+1364377,1364377,Fix Released,"Chapter 3. OpenStack Projects, History, and Releases Overview in OpenStack Training Guides",https://bugs.launchpad.net/openstack-training-guides/+bug/1364377,2014-11-20
+1394568,1394568,Fix Released,[Devops] We need to be able to switch all our 6.0 swarm tests to image-based provisioning,https://bugs.launchpad.net/fuel/+bug/1394568,2014-11-20
+1392845,1392845,Fix Released,API spec describes the wrong behaviour to enable/disable projects  considering a projects hierarhcy,https://bugs.launchpad.net/keystone/+bug/1392845,2014-11-20
+1380840,1380840,Fix Committed,Manual VirtualBox deployment instructions have IP addresses swapped,https://bugs.launchpad.net/fuel/+bug/1380840,2014-11-20
+1361600,1361600,Fix Committed,Puppet-pull helper script doesn't support updates,https://bugs.launchpad.net/fuel/+bug/1361600,2014-11-20
+1391961,1391961,Fix Released,libvirt metrics require sql_connection,https://bugs.launchpad.net/monasca/+bug/1391961,2014-11-20
+1392004,1392004,Fix Released,Package for python Ceilometer client change log not equal to git commits history,https://bugs.launchpad.net/fuel/+bug/1392004,2014-11-20
+1392015,1392015,Fix Released,Package for python Heat client change log not equal to git commits history,https://bugs.launchpad.net/fuel/+bug/1392015,2014-11-20
+1392037,1392037,Fix Released,Package for python Swift client change log not equal to git commits history,https://bugs.launchpad.net/fuel/+bug/1392037,2014-11-20
+1381976,1381976,Fix Released,Configure Storage Service in OpenStack Installation Guide for Ubuntu 12.04/14.04 (LTS)  - icehouse,https://bugs.launchpad.net/openstack-manuals/+bug/1381976,2014-11-20
+1392032,1392032,Fix Released,Empty git history in centos-packages.changelog for python-saharaclient package,https://bugs.launchpad.net/fuel/+bug/1392032,2014-11-20
+1392039,1392039,Fix Released,Information about python-troveclient not presented in  ubuntu-packages.changelog file,https://bugs.launchpad.net/fuel/+bug/1392039,2014-11-20
+1392041,1392041,Fix Released,Information about sahara-dashboard not presented in centos-packages.changelog file,https://bugs.launchpad.net/fuel/+bug/1392041,2014-11-20
+1390345,1390345,Fix Released,[block-storage] missing glance_api_version option,https://bugs.launchpad.net/openstack-chef/+bug/1390345,2014-11-20
+1384631,1384631,Fix Committed,Nailgun test test_deletion_three_offline_nodes_and_one_online failed,https://bugs.launchpad.net/fuel/+bug/1384631,2014-11-20
+1387164,1387164,Fix Committed,Hide all passwords from upgrade logs,https://bugs.launchpad.net/fuel/+bug/1387164,2014-11-20
+1359002,1359002,Fix Released,comments misspelled in type_filter,https://bugs.launchpad.net/nova/+bug/1359002,2014-11-20
+1388144,1388144,Fix Released,review.pp class does not expose projects_config parameter,https://bugs.launchpad.net/openstack-ci/+bug/1388144,2014-11-20
+1387994,1387994,Fix Released,status_url value is hardcoded in zuul_prod.pp class,https://bugs.launchpad.net/openstack-ci/+bug/1387994,2014-11-20
+1390492,1390492,Fix Committed,Provisioning failed if inactive md device had been found,https://bugs.launchpad.net/fuel/+bug/1390492,2014-11-20
+1393859,1393859,Fix Committed,There is no requirement for 'requests' in nailgun,https://bugs.launchpad.net/fuel/+bug/1393859,2014-11-20
+1391896,1391896,Fix Committed,hanging mount points when building iso,https://bugs.launchpad.net/fuel/+bug/1391896,2014-11-20
+1394140,1394140,Fix Released,Always wait for keystone haproxy backends then deploying a primary controller,https://bugs.launchpad.net/fuel/+bug/1394140,2014-11-20
+1391776,1391776,Fix Committed,Mellanox deployment missing intel_iommu=on kernel parameter,https://bugs.launchpad.net/fuel/+bug/1391776,2014-11-20
+1374373,1374373,Fix Released,Chapter 41. Hardening the virtualization layers in OpenStack Security Guide  - current,https://bugs.launchpad.net/openstack-manuals/+bug/1374373,2014-11-20
+1393803,1393803,Fix Committed,[ui] Settings tab layout bugs,https://bugs.launchpad.net/fuel/+bug/1393803,2014-11-20
+1228314,1228314,Fix Released,Page numbering incorrect for frontmatter to first chapter transition,https://bugs.launchpad.net/openstack-manuals/+bug/1228314,2014-11-20
+1362460,1362460,Fix Released,Arrows should show direction of message flows in figure for Identity Service concepts in OpenStack Installation Guide for Ubuntu 12.04/14.04 (LTS)  - icehouse,https://bugs.launchpad.net/openstack-manuals/+bug/1362460,2014-11-20
+1306835,1306835,Fix Released,V3 list users  filter by email address throws exception,https://bugs.launchpad.net/openstack-manuals/+bug/1306835,2014-11-20
+1306835,1306835,Fix Released,V3 list users  filter by email address throws exception,https://bugs.launchpad.net/keystone/+bug/1306835,2014-11-20
+1382489,1382489,Fix Released,Astute logs page hangs nailgun,https://bugs.launchpad.net/fuel/+bug/1382489,2014-11-20
+1393367,1393367,Fix Released,TypeError: e.getDOMNode(...) is null,https://bugs.launchpad.net/fuel/+bug/1393367,2014-11-20
+1367526,1367526,Fix Released,Better mention that python-dev package should be pre-installed before setting up the clients.,https://bugs.launchpad.net/openstack-manuals/+bug/1367526,2014-11-20
+1358828,1358828,Fix Released,chkconfig messagebus on - CentOS,https://bugs.launchpad.net/openstack-manuals/+bug/1358828,2014-11-20
+1281444,1281444,Fix Released,"Need to add instructions for configuring a Red Hat Storage (gluster) Backend to ""Cloud Admin Guide""",https://bugs.launchpad.net/openstack-manuals/+bug/1281444,2014-11-20
+1255142,1255142,Fix Released,unable to get router's external IP when non admin (blocker for VPNaaS),https://bugs.launchpad.net/neutron/+bug/1255142,2014-11-20
+1393891,1393891,Fix Released,rally fails to run against Folsom,https://bugs.launchpad.net/rally/+bug/1393891,2014-11-20
+1387661,1387661,Fix Released,All graphs stop working after visiting details page on rally's generated html report,https://bugs.launchpad.net/rally/+bug/1387661,2014-11-20
+1343329,1343329,Fix Released,MySQL (single node) fails to start on reboot,https://bugs.launchpad.net/tripleo/+bug/1343329,2014-11-20
+1394024,1394024,Fix Released,neutron and tempest ignore $SYSLOG,https://bugs.launchpad.net/devstack/+bug/1394024,2014-11-19
+1394109,1394109,Fix Released,Network cleanup fails on NotFound exceptions,https://bugs.launchpad.net/tempest/+bug/1394109,2014-11-19
+1260051,1260051,Fix Released,"detach ""floating"" network from physnet br-ex",https://bugs.launchpad.net/fuel/+bug/1260051,2014-11-19
+1248945,1248945,Fix Released,[library] fill external_ids field for our topology bridges,https://bugs.launchpad.net/fuel/+bug/1248945,2014-11-19
+1101287,1101287,Fix Released,Keystone LDAP does not support v3 Role Grants,https://bugs.launchpad.net/keystone/+bug/1101287,2014-11-19
+1394191,1394191,Fix Released,can't be added as a gerrit reviewer,https://bugs.launchpad.net/openstack-ci/+bug/1394191,2014-11-19
+1382353,1382353,Fix Released,Zabbix in Fuel [Not Supported],https://bugs.launchpad.net/fuel/+bug/1382353,2014-11-19
+1382658,1382658,Fix Released,dnsmasq on FUEL/MOS masternode get busy and logging a lot,https://bugs.launchpad.net/fuel/+bug/1382658,2014-11-19

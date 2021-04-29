@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1515076,1515076,Fix Released,libvirt service name is incorrect for debian,https://bugs.launchpad.net/puppet-nova/+bug/1515076,2016-05-17
+1466464,1466464,Fix Released,nova::api installs openstackocci but pip version is to old,https://bugs.launchpad.net/puppet-nova/+bug/1466464,2016-05-17
+1484402,1484402,Fix Released,no interface for modify the port of nova-api,https://bugs.launchpad.net/puppet-nova/+bug/1484402,2016-05-17
+1169813,1169813,Fix Released,Allow more granular floating IP ranges in Nova,https://bugs.launchpad.net/puppet-nova/+bug/1169813,2016-05-17
+1582850,1582850,Fix Released,NPIV mapping disconnect only checks instance task states,https://bugs.launchpad.net/nova-powervm/+bug/1582850,2016-05-17
+1501081,1501081,Fix Released,does not handle the case when a virsh secret is undefined,https://bugs.launchpad.net/puppet-nova/+bug/1501081,2016-05-17
+1501748,1501748,Fix Committed,fuel-octane fails during upgrade of compute node,https://bugs.launchpad.net/fuel/+bug/1501748,2016-05-17
+1582248,1582248,Fix Released,"Wrong container name in devstack ""All-In-One Single LXC Container"" manual.",https://bugs.launchpad.net/devstack/+bug/1582248,2016-05-17
+1482800,1482800,Fix Released,Cinder configs should go in [cinder] section,https://bugs.launchpad.net/puppet-nova/+bug/1482800,2016-05-17
+1472445,1472445,Fix Released,Cannot override compute_driver config,https://bugs.launchpad.net/puppet-nova/+bug/1472445,2016-05-17
+1445224,1445224,Fix Released,[Launch Instance Fix] Errors for required transfer tables not obvious,https://bugs.launchpad.net/horizon/+bug/1445224,2016-05-17
+1579081,1579081,Fix Released,Duplicate lines in OpenStack components' log files at Fuel master node,https://bugs.launchpad.net/fuel/+bug/1579081,2016-05-17
+1562947,1562947,Fix Released,[dpdk] core mask should not be 0x0,https://bugs.launchpad.net/fuel/+bug/1562947,2016-05-17
+1582348,1582348,Fix Released,Name of veth device not same as those created by Nova,https://bugs.launchpad.net/kuryr/+bug/1582348,2016-05-17
+1573859,1573859,Fix Released,create_object_continue sends content body prior to 100 status,https://bugs.launchpad.net/tempest/+bug/1573859,2016-05-17
+1582721,1582721,Fix Released,First call to swift fails,https://bugs.launchpad.net/nova-powervm/+bug/1582721,2016-05-17
+1582645,1582645,Fix Committed,refactor get_veth_pair() function from fuel-ha-utils (ocf/ns_conntrackd),https://bugs.launchpad.net/fuel/+bug/1582645,2016-05-17
+1562841,1562841,Fix Released,[dpdk] nailgun should validate that vlan network enabled when dpdk requested,https://bugs.launchpad.net/fuel/+bug/1562841,2016-05-17
+1556083,1556083,Fix Released,[dpdk] [huge] instance start fails if HugePages is requested and DPDK is configured,https://bugs.launchpad.net/fuel/+bug/1556083,2016-05-17
+1562985,1562985,Fix Released,[dpdk] group libvirt-qemu does not exists on netconfig task time,https://bugs.launchpad.net/fuel/+bug/1562985,2016-05-17
+1567439,1567439,Fix Released,[OSTF] Test network connectivity to instance which is running on node with enabled DPDK,https://bugs.launchpad.net/fuel/+bug/1567439,2016-05-17
+1567447,1567447,Fix Released,[OSTF] Tests for network connectivity should be skipped if there are no computes w/o DPDK,https://bugs.launchpad.net/fuel/+bug/1567447,2016-05-17
+1357967,1357967,Fix Released,The instance name is not associated with display name. It is not easy to maintain.,https://bugs.launchpad.net/nova/+bug/1357967,2016-05-17
+1582350,1582350,Fix Released,Docs: Fix bulleting in setup teardown section,https://bugs.launchpad.net/tempest/+bug/1582350,2016-05-17
+1578777,1578777,Fix Released,rsyslog_client role in Kilo should filter only for containers on  log_hosts  group,https://bugs.launchpad.net/openstack-ansible/+bug/1578777,2016-05-17
+1560479,1560479,Fix Released,DPDK w/ OVS can't handle jumbo frames,https://bugs.launchpad.net/fuel/+bug/1560479,2016-05-17
+1294098,1294098,Fix Released,Serial console in vmware,https://bugs.launchpad.net/nova/+bug/1294098,2016-05-17
+1303890,1303890,Fix Released,Uncaught qpid error can break a consumer,https://bugs.launchpad.net/neutron/+bug/1303890,2016-05-17
+1561946,1561946,Fix Released,Request stable/kilo 2015.1.6 release for networking-ofagent,https://bugs.launchpad.net/neutron/+bug/1561946,2016-05-17
+1572098,1572098,Fix Committed,Fuel cli don't work commands for downloading deployment configuration.,https://bugs.launchpad.net/fuel/+bug/1572098,2016-05-17
+1548389,1548389,Fix Released,mysql errors when trying to manage root password for non-primary controller database task,https://bugs.launchpad.net/fuel/+bug/1548389,2016-05-17
+1577290,1577290,Fix Released,Could not clean up: 'description',https://bugs.launchpad.net/python-aodhclient/+bug/1577290,2016-05-17
+1570446,1570446,Fix Released,batch_meetings() function is not converting all values,https://bugs.launchpad.net/yaml2ical/+bug/1570446,2016-05-17
+1545985,1545985,Fix Released,Use eval_generate instead of generate,https://bugs.launchpad.net/fuel/+bug/1545985,2016-05-17
+1582230,1582230,Fix Committed,remove nodes hash usage from detach-* plugins,https://bugs.launchpad.net/fuel/+bug/1582230,2016-05-17
+1582228,1582228,Fix Committed,parseyaml in detach-* plugins doesn't work if there is no data,https://bugs.launchpad.net/fuel/+bug/1582228,2016-05-17
+1199019,1199019,Fix Released,Allow admin to specify CPU topology as metadata for glance images,https://bugs.launchpad.net/nova/+bug/1199019,2016-05-17
+1582608,1582608,Fix Committed,Wrong link to gerrit fuel-qa-core group in MAINTAINERS file,https://bugs.launchpad.net/fuel/+bug/1582608,2016-05-17
+1575807,1575807,Fix Released,[system-tests] Remove upload_provision_data task entry from LCM task fixtures,https://bugs.launchpad.net/fuel/+bug/1575807,2016-05-17
+1556133,1556133,Fix Committed,Murano usage of Glare should be enabled by Default,https://bugs.launchpad.net/fuel/+bug/1556133,2016-05-17
+1563805,1563805,Fix Released,Extra storage labels in UI,https://bugs.launchpad.net/fuel/+bug/1563805,2016-05-17
+1561412,1561412,Fix Released,Can not hide task result message from Dashboard,https://bugs.launchpad.net/fuel/+bug/1561412,2016-05-17
+1116593,1116593,Fix Released,Need mechanism to show instance device -> cinder volume mapping.,https://bugs.launchpad.net/python-novaclient/+bug/1116593,2016-05-17
+1553049,1553049,Fix Released,[fuel-library] cinder-volume daemons are stopped after role-based deployment. Task enable_cinder_volume_service (roles/cinder_enable.pp) will never be executed due to invalid description,https://bugs.launchpad.net/fuel/+bug/1553049,2016-05-17
+1578098,1578098,Fix Released,use configure file in the home path but not the right one,https://bugs.launchpad.net/devstack/+bug/1578098,2016-05-17
+1578140,1578140,Fix Released,Cinder_netapp plugin sets option in wrong section,https://bugs.launchpad.net/fuel/+bug/1578140,2016-05-17
+1552737,1552737,Fix Committed,[fuel-library] Remove fuel-dockerctl package,https://bugs.launchpad.net/fuel/+bug/1552737,2016-05-17
+1537403,1537403,Fix Released,[fuel-library] Deployment failed on configuration with celometer + compute-vmware,https://bugs.launchpad.net/fuel/+bug/1537403,2016-05-17
+1582616,1582616,Fix Committed,Job https://ci.fuel-infra.org/job/verify-docker-nailgun_performance_tests/ is down since 1st build,https://bugs.launchpad.net/fuel/+bug/1582616,2016-05-17
+1560516,1560516,Fix Released,[fuel-library] Deploy failed if compute-vmware role used,https://bugs.launchpad.net/fuel/+bug/1560516,2016-05-17
+1560430,1560430,Fix Released,[fuel-library] Erratum in compute-vmware manifest,https://bugs.launchpad.net/fuel/+bug/1560430,2016-05-17
+1524672,1524672,Fix Committed,OCF: Use private attributes to not trigger pacemaker transitions on each update,https://bugs.launchpad.net/fuel/+bug/1524672,2016-05-17
+1554095,1554095,Fix Released,Fuel removes all plugin APT sources breaking all plugins,https://bugs.launchpad.net/fuel/+bug/1554095,2016-05-17
+1561890,1561890,Fix Released,Dropped noop test cases shall be returned,https://bugs.launchpad.net/fuel/+bug/1561890,2016-05-17
+1582183,1582183,Fix Released,need cherry-pick Refactor Setup_environment from master to stable/mitaka branch,https://bugs.launchpad.net/fuel/+bug/1582183,2016-05-17
+1575650,1575650,Fix Released,"System test for ""Separate Fuel master node deployment""",https://bugs.launchpad.net/fuel/+bug/1575650,2016-05-17
+1558117,1558117,Fix Released,Plugins pre deployment hooks are not attached to the main graph in task-based deployment,https://bugs.launchpad.net/fuel/+bug/1558117,2016-05-17
+1564115,1564115,Fix Released,"auth_token expiry on action execution (Glance, Murano)",https://bugs.launchpad.net/congress/+bug/1564115,2016-05-17
+1527023,1527023,Fix Released,Use six.text_type to represent unicode textual data,https://bugs.launchpad.net/python-magnumclient/+bug/1527023,2016-05-17
+1577545,1577545,Fix Released,vagrant install readme notes vagrant up should take around 10min; mine took 38min,https://bugs.launchpad.net/kuryr/+bug/1577545,2016-05-17
+1478538,1478538,Fix Released,Fix four typos on devstack documentation,https://bugs.launchpad.net/devstack/+bug/1478538,2016-05-17
+1479578,1479578,Fix Released,Domain-specific config breaks some ops,https://bugs.launchpad.net/keystone/+bug/1479578,2016-05-17
+1581978,1581978,Fix Released,Normal Deploy using Swift logs significant amount of errors (even though OK!),https://bugs.launchpad.net/nova-powervm/+bug/1581978,2016-05-17
+1582416,1582416,Fix Released,Request for stable/mitaka release for networking-arista,https://bugs.launchpad.net/networking-arista/+bug/1582416,2016-05-17
+1536929,1536929,Fix Released,all abnormal exception should be catch and logged,https://bugs.launchpad.net/tricircle/+bug/1536929,2016-05-17
+1565034,1565034,Fix Released,Router set --clear-routes options should be --no-route,https://bugs.launchpad.net/python-openstackclient/+bug/1565034,2016-05-16
+1582221,1582221,Fix Committed,Parameter verbose is deprecated and should be removed,https://bugs.launchpad.net/fuel/+bug/1582221,2016-05-16
+1581608,1581608,Fix Released,ansible ipaddr('address') filter is not the right tool for the job,https://bugs.launchpad.net/tripleo-quickstart/+bug/1581608,2016-05-16
+1505930,1505930,Fix Released,Fix key manager service endpoints in devstack Nova ephemeral,https://bugs.launchpad.net/nova/+bug/1505930,2016-05-16
+1580640,1580640,Fix Released,system-tests: Human not readable checker in test negative_admin_bonding_in_lacp_mode,https://bugs.launchpad.net/fuel/+bug/1580640,2016-05-16
+1567999,1567999,Fix Released,Make DPDK feature experimental,https://bugs.launchpad.net/fuel/+bug/1567999,2016-05-16
+1566721,1566721,Fix Released,DPDK does not work with QEMU,https://bugs.launchpad.net/fuel/+bug/1566721,2016-05-16
+1528437,1528437,Fix Released,fuel menu does not save settings for network setup,https://bugs.launchpad.net/fuel/+bug/1528437,2016-05-16
+1539545,1539545,Fix Released,Keystone catalog uses IP address instead DNS name for Keystone when public TLS enabled,https://bugs.launchpad.net/fuel/+bug/1539545,2016-05-16
+1573604,1573604,Fix Committed,[Murano] Murano doesn't using unversioned keystone endpoint,https://bugs.launchpad.net/fuel/+bug/1573604,2016-05-16

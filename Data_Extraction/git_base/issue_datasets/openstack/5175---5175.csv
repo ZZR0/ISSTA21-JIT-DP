@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1845306,1845306,Fix Released,kolla vmtp image does not build on ubuntu bionic (and other Unicode issues),https://bugs.launchpad.net/kolla/+bug/1845306,2019-10-03
+1840828,1840828,Fix Released,standalone scenario 3 on RedHat 8 -  python3-pyngus (used for  amqp1) is missing,https://bugs.launchpad.net/tripleo/+bug/1840828,2019-10-03
+1842894,1842894,Fix Released,Incorrect NeutronPhysnetNUMANodesMapping parameter computation,https://bugs.launchpad.net/tripleo/+bug/1842894,2019-10-03
+1837805,1837805,Fix Released,py3: account metadata handling is busted,https://bugs.launchpad.net/swift/+bug/1837805,2019-10-03
+1837819,1837819,Fix Released,Overloaded object primaries cause 404s on GET,https://bugs.launchpad.net/swift/+bug/1837819,2019-10-03
+1746685,1746685,Fix Released,Unable to delete a SLO due to a fixed value of MAX_BUFFERED_SLO_SEGMENTS,https://bugs.launchpad.net/swift/+bug/1746685,2019-10-03
+1842291,1842291,Fix Released,test_gateway_chassis_rebalance fails randomly because of port not being bound yet,https://bugs.launchpad.net/networking-ovn/+bug/1842291,2019-10-03
+1846432,1846432,Fix Released,tripleo-ci promoter server fails to import docker properly,https://bugs.launchpad.net/tripleo/+bug/1846432,2019-10-03
+1845003,1845003,Fix Released,test_ovn_sb_sync_add_new_host fails sporadically,https://bugs.launchpad.net/networking-ovn/+bug/1845003,2019-10-03
+1335146,1335146,Fix Committed,[iso] missing files in astute spec,https://bugs.launchpad.net/fuel/+bug/1335146,2019-10-03
+1842042,1842042,Fix Released,OvS DPDK derive parameters timeout issue,https://bugs.launchpad.net/tripleo/+bug/1842042,2019-10-03
+1800515,1800515,Fix Released,Unnecessary locking when connecting volumes,https://bugs.launchpad.net/nova/+bug/1800515,2019-10-02
+1565928,1565928,Fix Released,Remove times.dbm file for each tox run,https://bugs.launchpad.net/python-karborclient/+bug/1565928,2019-10-02
+1565928,1565928,Fix Released,Remove times.dbm file for each tox run,https://bugs.launchpad.net/dragonflow/+bug/1565928,2019-10-02
+1565928,1565928,Fix Released,Remove times.dbm file for each tox run,https://bugs.launchpad.net/barbican/+bug/1565928,2019-10-02
+1565928,1565928,Fix Released,Remove times.dbm file for each tox run,https://bugs.launchpad.net/trove/+bug/1565928,2019-10-02
+1565928,1565928,Fix Released,Remove times.dbm file for each tox run,https://bugs.launchpad.net/karbor/+bug/1565928,2019-10-02
+1565928,1565928,Fix Released,Remove times.dbm file for each tox run,https://bugs.launchpad.net/python-barbicanclient/+bug/1565928,2019-10-02
+1730756,1730756,Fix Released,Creating a VM with a non-ASCII name fails with an Unicode error in libvirt guest create(),https://bugs.launchpad.net/nova/+bug/1730756,2019-10-02
+1644513,1644513,Fix Released,"(psycopg2.ProgrammingError) column ""deleted"" is of type integer but expression is of type boolean",https://bugs.launchpad.net/nova/+bug/1644513,2019-10-02
+1779412,1779412,Fix Released,Enumeration fails due to non-UTF8 characters returned,https://bugs.launchpad.net/python-dracclient/+bug/1779412,2019-10-02
+1834747,1834747,Fix Released,Horizon is unable to show instance list is image_id is not set,https://bugs.launchpad.net/horizon/+bug/1834747,2019-10-02
+1750236,1750236,Fix Released,os::aodh::alarm via heat stable/pike ubuntu & centos http 503,https://bugs.launchpad.net/openstack-ansible/+bug/1750236,2019-10-02
+1822925,1822925,Fix Released,Active Panel always go back to Project/Container/Containers,https://bugs.launchpad.net/zun-ui/+bug/1822925,2019-10-02
+1802587,1802587,Fix Released,"With multiple backends enabled, adding a location does not default to default store",https://bugs.launchpad.net/glance/+bug/1802587,2019-10-02
+1808868,1808868,Fix Released,Useful image properties in glance - hw_cdrom_bus is not documented,https://bugs.launchpad.net/glance/+bug/1808868,2019-10-02
+1844108,1844108,Fix Released,glance-api fails to start with duplicate option: filesystem_store_datadir error,https://bugs.launchpad.net/glance/+bug/1844108,2019-10-02
+1807219,1807219,Fix Released,SchedulerReporClient init slows down nova-api startup,https://bugs.launchpad.net/nova/+bug/1807219,2019-10-01
+1728039,1728039,Fix Released,tune undercloud service workers similar to overcloud,https://bugs.launchpad.net/tripleo/+bug/1728039,2019-10-01
+1844700,1844700,Fix Released,"Read timed out. (read timeout=60.0)"",)': /pypi/simple/bindep/,  ERROR: No matching distribution found for bindep",https://bugs.launchpad.net/tripleo/+bug/1844700,2019-10-01
+1844111,1844111,Fix Released,tripleo-ci-centos-7-containerized-undercloud-upgrades fails with error InternalError: pymysql.err.InternalError - Table scheduled_jobs_v2 already exists,https://bugs.launchpad.net/tripleo/+bug/1844111,2019-10-01
+1802108,1802108,Fix Released,Pacemaker resource constraints cause API outage during maintenance,https://bugs.launchpad.net/tripleo/+bug/1802108,2019-10-01
+1842933,1842933,Fix Released,"OVB: Nova compute fails with error BadRequestException: 400: Client Error for url: http://192.168.24.3:6385/v1/nodes?fields=instance_id&associated=True, Field(s) ""instance_id"" are not valid",https://bugs.launchpad.net/tripleo/+bug/1842933,2019-10-01
+1818886,1818886,Fix Released,Unexpected API error: Server fault - nova.exception.GlanceConnectionFailed,https://bugs.launchpad.net/tripleo/+bug/1818886,2019-10-01
+1824348,1824348,Fix Released,taas unit test failure,https://bugs.launchpad.net/networking-midonet/+bug/1824348,2019-10-01
+1845482,1845482,Fix Released,The migration for scheduled jobs needs to drop the table first,https://bugs.launchpad.net/mistral/+bug/1845482,2019-10-01
+1774557,1774557,Fix Released,Ansible timeout with containerized undercloud + IPv6 overcloud,https://bugs.launchpad.net/tripleo/+bug/1774557,2019-10-01
+1845574,1845574,Fix Released,tripleo-centos-ceph-jewel.repo is not available for stein but listed in install_overcloud.rst,https://bugs.launchpad.net/tripleo/+bug/1845574,2019-09-30
+1813027,1813027,Fix Released,undercloud install fails with some timezones,https://bugs.launchpad.net/tripleo/+bug/1813027,2019-09-30
+1721702,1721702,Fix Released,Possible DNS issue in the CI,https://bugs.launchpad.net/tripleo/+bug/1721702,2019-09-30
+1749450,1749450,Fix Released,enable_ssh_admin workflow fails if there are any failed servers in nova,https://bugs.launchpad.net/tripleo/+bug/1749450,2019-09-30
+1719369,1719369,Fix Released,multiple methods for generating openrc files,https://bugs.launchpad.net/tripleo/+bug/1719369,2019-09-30
+1836265,1836265,Fix Released,container builds with buildah does not exit with an error when errors or build deps issues fail contianer builds,https://bugs.launchpad.net/tripleo/+bug/1836265,2019-09-30
+1845667,1845667,Fix Released,nodepool-setup: No package matching 'centos-release-opensack-ocata',https://bugs.launchpad.net/tripleo/+bug/1845667,2019-09-30
+1635006,1635006,Fix Released,V1 record create occasionally fails with db error,https://bugs.launchpad.net/designate/+bug/1635006,2019-09-30
+1412977,1412977,Fix Released,RPC code overrides a private method of Oslo's Dispatcher class,https://bugs.launchpad.net/designate/+bug/1412977,2019-09-30
+1844884,1844884,Fix Released,rally db create failing because of new alembic release,https://bugs.launchpad.net/rally/+bug/1844884,2019-09-30
+1844313,1844313,Fix Released,cinder backup ceph keyring not present,https://bugs.launchpad.net/openstack-ansible/+bug/1844313,2019-09-28
+1845497,1845497,Fix Released,"os_nova: Change from ""include_tasks"" to ""import_tasks"" broke autodection of virt_type",https://bugs.launchpad.net/openstack-ansible/+bug/1845497,2019-09-28
+1797925,1797925,Fix Released,Derive NUMA aware vSwitches parameters,https://bugs.launchpad.net/tripleo/+bug/1797925,2019-09-28
+1818736,1818736,Fix Released,The limit and registered limit APIs should account for different scopes,https://bugs.launchpad.net/keystone/+bug/1818736,2019-09-27
+1844461,1844461,Fix Released,Role assignment list for subtree is only project scoped,https://bugs.launchpad.net/keystone/+bug/1844461,2019-09-27
+1839486,1839486,Fix Released,[DOC]Add Infortrend Manila Driver,https://bugs.launchpad.net/manila/+bug/1839486,2019-09-27
+1844242,1844242,Fix Released,Creation of workflow language specifications is too expensive,https://bugs.launchpad.net/mistral/+bug/1844242,2019-09-27
+1321378,1321378,Fix Released,keystone user-role-* operations fails when user no longer exists in backend,https://bugs.launchpad.net/keystone/+bug/1321378,2019-09-27
+1760644,1760644,Fix Released,API reference contains mistakes,https://bugs.launchpad.net/manila/+bug/1760644,2019-09-27
+1826041,1826041,Fix Released,Replace git.openstack.org URLs with opendev.org URLs,https://bugs.launchpad.net/mistral/+bug/1826041,2019-09-27
+1820823,1820823,Fix Released,get node details failed when creating node is error,https://bugs.launchpad.net/senlin/+bug/1820823,2019-09-27
+1809691,1809691,Fix Released,Memory leak with senlin-engine sdk drivers,https://bugs.launchpad.net/senlin/+bug/1809691,2019-09-27
+1820838,1820838,Fix Released,leak Vm when recover node failed,https://bugs.launchpad.net/senlin/+bug/1820838,2019-09-27
+1828856,1828856,Fix Released,Webhook requires microversion 1.10 header to accept additional body params,https://bugs.launchpad.net/senlin/+bug/1828856,2019-09-27
+1826545,1826545,Fix Released,Unable add node to loadbalancer pool after recovery cluster,https://bugs.launchpad.net/senlin/+bug/1826545,2019-09-27
+1830152,1830152,Fix Released,Can't detach a lb policy binding in a cluster when lb not exist,https://bugs.launchpad.net/senlin/+bug/1830152,2019-09-27
+1834515,1834515,Fix Released,Update keystone_authtoken config in senlin installation doc,https://bugs.launchpad.net/senlin/+bug/1834515,2019-09-27
+1834516,1834516,Fix Released,Update health policy example,https://bugs.launchpad.net/senlin/+bug/1834516,2019-09-27
+1823188,1823188,Fix Released,a user with role is admin can't show details of a profile of other users,https://bugs.launchpad.net/senlin/+bug/1823188,2019-09-27
+1840868,1840868,Fix Released,Introduce the new `heartbeat_in_pthread` oslo.messaging option.,https://bugs.launchpad.net/puppet-cinder/+bug/1840868,2019-09-27
+1840868,1840868,Fix Released,Introduce the new `heartbeat_in_pthread` oslo.messaging option.,https://bugs.launchpad.net/puppet-neutron/+bug/1840868,2019-09-27
+1840868,1840868,Fix Released,Introduce the new `heartbeat_in_pthread` oslo.messaging option.,https://bugs.launchpad.net/puppet-trove/+bug/1840868,2019-09-27
+1840868,1840868,Fix Released,Introduce the new `heartbeat_in_pthread` oslo.messaging option.,https://bugs.launchpad.net/puppet-designate/+bug/1840868,2019-09-27
+1840868,1840868,Fix Released,Introduce the new `heartbeat_in_pthread` oslo.messaging option.,https://bugs.launchpad.net/puppet-mistral/+bug/1840868,2019-09-27
+1840868,1840868,Fix Released,Introduce the new `heartbeat_in_pthread` oslo.messaging option.,https://bugs.launchpad.net/puppet-sahara/+bug/1840868,2019-09-27
+1840868,1840868,Fix Released,Introduce the new `heartbeat_in_pthread` oslo.messaging option.,https://bugs.launchpad.net/puppet-tacker/+bug/1840868,2019-09-27
+1840868,1840868,Fix Released,Introduce the new `heartbeat_in_pthread` oslo.messaging option.,https://bugs.launchpad.net/puppet-manila/+bug/1840868,2019-09-27
+1840868,1840868,Fix Released,Introduce the new `heartbeat_in_pthread` oslo.messaging option.,https://bugs.launchpad.net/puppet-congress/+bug/1840868,2019-09-27

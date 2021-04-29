@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1207566,1207566,Fix Released,"Misspelling the option name of ""account_suppression_time"" in manual",https://bugs.launchpad.net/openstack-manuals/+bug/1207566,2013-08-08
+1169848,1169848,Fix Released,Can't log into  VM after powervm is resized,https://bugs.launchpad.net/nova/+bug/1169848,2013-08-08
+1207660,1207660,Fix Released,Add call backtrace in error message,https://bugs.launchpad.net/devstack/+bug/1207660,2013-08-08
+1210033,1210033,Fix Released,openstack-metering cookbook uploading ERROR: Cookbook openstack-metering depends on cookbook 'openstack-common' version '~> 0.3.0',https://bugs.launchpad.net/openstack-chef/+bug/1210033,2013-08-08
+1159055,1159055,Fix Released,"Nova API /os-hosts missing element ""zone""",https://bugs.launchpad.net/nova/+bug/1159055,2013-08-07
+1207104,1207104,Fix Released,puppet-heat moves to StackForge,https://bugs.launchpad.net/openstack-ci/+bug/1207104,2013-08-07
+1197048,1197048,Fix Released,Cinder element doesn't correctly setup cinder rootwrap,https://bugs.launchpad.net/tripleo/+bug/1197048,2013-08-07
+1208557,1208557,Fix Released,The ML2 devstack integration doesn't set mechanism_drivers correctly,https://bugs.launchpad.net/devstack/+bug/1208557,2013-08-07
+1207719,1207719,Fix Released,baremetal does not work with the latest ramdisk-image-create,https://bugs.launchpad.net/devstack/+bug/1207719,2013-08-07
+1206560,1206560,Fix Released,The test test_get_logger_sysloghandler_plumbing is failing on osx,https://bugs.launchpad.net/swift/+bug/1206560,2013-08-07
+1204319,1204319,Fix Released,Staticweb returns error response even if a request succeeded,https://bugs.launchpad.net/swift/+bug/1204319,2013-08-07
+1203421,1203421,Fix Released,Boolean params format are not unified in swift conf file,https://bugs.launchpad.net/swift/+bug/1203421,2013-08-07
+1202453,1202453,Fix Released,Accept header bug with listings,https://bugs.launchpad.net/swift/+bug/1202453,2013-08-07
+1202386,1202386,Fix Released,db.py re-raises exception in a wrong way,https://bugs.launchpad.net/swift/+bug/1202386,2013-08-07
+1201958,1201958,Fix Released,uncaught AttributeError in container-auditor,https://bugs.launchpad.net/swift/+bug/1201958,2013-08-07
+1201844,1201844,Fix Released,Auto-extract feature of bulk.py can bypass quota settings,https://bugs.launchpad.net/swift/+bug/1201844,2013-08-07
+1201431,1201431,Fix Released,developement_guideline needs to be updated with regard to the change with flake8+hacking,https://bugs.launchpad.net/swift/+bug/1201431,2013-08-07
+1198878,1198878,Fix Released,inconsistency of reseller_prefix in keystoneauth.py and proxy-server.conf-sample,https://bugs.launchpad.net/swift/+bug/1198878,2013-08-07
+1198149,1198149,Fix Released,wsgi.make_pre_authed_request fails if path arg is None,https://bugs.launchpad.net/swift/+bug/1198149,2013-08-07
+1177526,1177526,Fix Released,1.7.4 keystone middleware allows operator_roles to delete accounts,https://bugs.launchpad.net/swift/+bug/1177526,2013-08-07
+1169287,1169287,Fix Released,Date headers aren't returned with timezone,https://bugs.launchpad.net/swift/+bug/1169287,2013-08-07
+903406,903406,Fix Released,object-replicator rsync error syslog line too long,https://bugs.launchpad.net/swift/+bug/903406,2013-08-07
+885006,885006,Fix Released,/srv/nodes static reference instead of conf.get,https://bugs.launchpad.net/swift/+bug/885006,2013-08-07
+1208396,1208396,Fix Released,error in swift.comm.utils when building doc,https://bugs.launchpad.net/swift/+bug/1208396,2013-08-07
+1204110,1204110,Fix Released,A user is able to remove his/her own Account Quota,https://bugs.launchpad.net/swift/+bug/1204110,2013-08-07
+1203907,1203907,Fix Released,Tests attempt to connect to addresses which aren't listening,https://bugs.launchpad.net/swift/+bug/1203907,2013-08-07
+1167779,1167779,Fix Released,Can't create a network with network-create when vlan is set,https://bugs.launchpad.net/python-novaclient/+bug/1167779,2013-08-07
+1205378,1205378,Fix Released,"""apt-get install -y"" prompts for user-input on Debian",https://bugs.launchpad.net/heat-cfntools/+bug/1205378,2013-08-07
+1195622,1195622,Fix Released,Missing GitHub tarball and zipball support,https://bugs.launchpad.net/heat-cfntools/+bug/1195622,2013-08-07
+1193349,1193349,Fix Released,No run test cases actually under python 2.6,https://bugs.launchpad.net/heat-cfntools/+bug/1193349,2013-08-07
+1201482,1201482,Fix Released,Hot template show JSON format after deploy,https://bugs.launchpad.net/python-heatclient/+bug/1201482,2013-08-07
+1207839,1207839,Fix Released,Infinite recursion in StackManager.list's paginate sub-function,https://bugs.launchpad.net/python-heatclient/+bug/1207839,2013-08-07
+1203805,1203805,Fix Released,RabbitMQ server setup in openstack-ops-messaging::rabbitmq-server fails,https://bugs.launchpad.net/openstack-chef/+bug/1203805,2013-08-07
+1209037,1209037,Fix Released,search_for creates improper Chef Search,https://bugs.launchpad.net/openstack-chef/+bug/1209037,2013-08-07
+1187514,1187514,Fix Released,Move ceilometer out of nova cookbook and into metering,https://bugs.launchpad.net/openstack-chef/+bug/1187514,2013-08-07
+1187748,1187748,Fix Released,Quantum plugin extension can not load,https://bugs.launchpad.net/neutron/+bug/1187748,2013-08-06
+1182704,1182704,Fix Released,quantum-ns-metadata-proxy path is not configurable,https://bugs.launchpad.net/tripleo/+bug/1182704,2013-08-06
+1053381,1053381,Fix Released,All subprocess.Popen calls should go through common function,https://bugs.launchpad.net/neutron/+bug/1053381,2013-08-06
+1207513,1207513,Fix Released,"openstack-manuals - clean up ""common"" directory - lots of files that are no longer used",https://bugs.launchpad.net/openstack-manuals/+bug/1207513,2013-08-06
+1208912,1208912,Fix Released,seed VM fails to generate SSH key resulting in infinite waiting during boot-seed-vm (Read from socket failed: Connection reset by peer),https://bugs.launchpad.net/tripleo/+bug/1208912,2013-08-06
+1073291,1073291,Fix Released,Update sample_data.sh to match docs,https://bugs.launchpad.net/keystone/+bug/1073291,2013-08-06
+1207109,1207109,Fix Released,mismatch between devstack/README.md and tempest-repo-restructure,https://bugs.launchpad.net/devstack/+bug/1207109,2013-08-06
+1206425,1206425,Fix Released,Host Actions are not working against V2,https://bugs.launchpad.net/python-novaclient/+bug/1206425,2013-08-06
+1206005,1206005,Fix Released,The help text of bash-completion is mangled,https://bugs.launchpad.net/python-novaclient/+bug/1206005,2013-08-06
+1203001,1203001,Fix Released,TypeError: __init__() got an unexpected keyword argument 'project_id',https://bugs.launchpad.net/python-novaclient/+bug/1203001,2013-08-06
+1202920,1202920,Fix Released,"""nova hypervisor-*"" cannot handle hypervisor name argument.",https://bugs.launchpad.net/python-novaclient/+bug/1202920,2013-08-06
+1202901,1202901,Fix Released,"""nova aggregate-*"" cannot handle aggregate name argument.",https://bugs.launchpad.net/python-novaclient/+bug/1202901,2013-08-06
+1200341,1200341,Fix Released,AggregateManager.get missing,https://bugs.launchpad.net/python-novaclient/+bug/1200341,2013-08-06
+1197191,1197191,Fix Released,v2_auth and plugin_auth implicitly ignore HTTP 305 redirects,https://bugs.launchpad.net/python-novaclient/+bug/1197191,2013-08-06
+1195670,1195670,Fix Released,Enable force_delete and restore instance via novaclient,https://bugs.launchpad.net/python-novaclient/+bug/1195670,2013-08-06
+1192997,1192997,Fix Released,Can't get output from stdout/stderr in tests,https://bugs.launchpad.net/python-novaclient/+bug/1192997,2013-08-06
+1192656,1192656,Fix Released,attempt to re-authenticate on possible token expiry re-uses expired token,https://bugs.launchpad.net/python-novaclient/+bug/1192656,2013-08-06
+1191139,1191139,Fix Released,No exception raised when --nic specified w/out net-id,https://bugs.launchpad.net/python-novaclient/+bug/1191139,2013-08-06
+1185580,1185580,Fix Released,shell test not comparability with older version of pretttyable,https://bugs.launchpad.net/python-novaclient/+bug/1185580,2013-08-06
+1185009,1185009,Fix Released,delete of a non-existing keypair returns 1 not 0,https://bugs.launchpad.net/python-novaclient/+bug/1185009,2013-08-06
+1180393,1180393,Fix Released,Illegal ManagerWithFind descendants,https://bugs.launchpad.net/python-novaclient/+bug/1180393,2013-08-06
+1174469,1174469,Fix Released,OverLimit exception should expose Retry-After header,https://bugs.launchpad.net/python-novaclient/+bug/1174469,2013-08-06
+1173511,1173511,Fix Released,Allow multiple image delete from cli,https://bugs.launchpad.net/python-novaclient/+bug/1173511,2013-08-06
+1172179,1172179,Fix Released,Support returning ALL private and public flavors in admin flavor-list,https://bugs.launchpad.net/python-novaclient/+bug/1172179,2013-08-06
+1166455,1166455,Fix Released,nova flavor-list only shows 1000 flavors,https://bugs.launchpad.net/python-novaclient/+bug/1166455,2013-08-06
+1166217,1166217,Fix Released,Wrong shell command description,https://bugs.launchpad.net/python-novaclient/+bug/1166217,2013-08-06
+1165325,1165325,Fix Released,`nova --version` does not work on trunk,https://bugs.launchpad.net/python-novaclient/+bug/1165325,2013-08-06
+1161297,1161297,Fix Released,"""multi_host"" setting in network-create didn't succeed",https://bugs.launchpad.net/python-novaclient/+bug/1161297,2013-08-06
+1161008,1161008,Fix Released,Shell tests fail if OS_* environment variables are set,https://bugs.launchpad.net/python-novaclient/+bug/1161008,2013-08-06
+1158733,1158733,Fix Released,keypair-delete help documents are incorrect,https://bugs.launchpad.net/python-novaclient/+bug/1158733,2013-08-06
+1154582,1154582,Fix Released,nova quota-update fails for valid tenant_ids,https://bugs.launchpad.net/python-novaclient/+bug/1154582,2013-08-06
+1152665,1152665,Fix Released,bash completion test can fail when adding extensions,https://bugs.launchpad.net/python-novaclient/+bug/1152665,2013-08-06
+1151787,1151787,Fix Released,'nova boot --num-instances 0' should be an error,https://bugs.launchpad.net/python-novaclient/+bug/1151787,2013-08-06
+1145706,1145706,Fix Released,check if tenant parameter for quota commands is uuid_like,https://bugs.launchpad.net/python-novaclient/+bug/1145706,2013-08-06
+1134382,1134382,Fix Released,nova list ignores --tenant argument,https://bugs.launchpad.net/python-novaclient/+bug/1134382,2013-08-06
+1132790,1132790,Fix Released,When instance evacuated user password not printed,https://bugs.launchpad.net/python-novaclient/+bug/1132790,2013-08-06
+1131845,1131845,Fix Released,many tests fail because of missing FakeHTTPClient attributes,https://bugs.launchpad.net/python-novaclient/+bug/1131845,2013-08-06
+1131237,1131237,Fix Released,nova raises if password not set,https://bugs.launchpad.net/python-novaclient/+bug/1131237,2013-08-06
+1131001,1131001,Fix Released,'nova credentials' doesn't have a wrap option to make output human readable (for PKI tokens),https://bugs.launchpad.net/python-novaclient/+bug/1131001,2013-08-06
+1130937,1130937,Fix Released,fails to install on python 3,https://bugs.launchpad.net/python-novaclient/+bug/1130937,2013-08-06

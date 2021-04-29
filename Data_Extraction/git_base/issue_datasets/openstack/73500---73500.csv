@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1365516,1365516,Fix Released,Revert parent commit for iSCSI refactor that didn't make it in Juno,https://bugs.launchpad.net/cinder/+bug/1365516,2014-10-16
+1349638,1349638,Fix Released,DVR vmarp table update causes exception in L3 service plugin,https://bugs.launchpad.net/neutron/+bug/1349638,2014-10-16
+1365487,1365487,Fix Released,Cinder fails to upload volume to vhd image,https://bugs.launchpad.net/cinder/+bug/1365487,2014-10-16
+1349318,1349318,Fix Released,neutron.conf do not have the definition of firewall quota,https://bugs.launchpad.net/neutron/+bug/1349318,2014-10-16
+1365474,1365474,Fix Released,gpfs driver not setting pool information properly,https://bugs.launchpad.net/cinder/+bug/1365474,2014-10-16
+1348479,1348479,Fix Released,_extend_extra_router_dict does not handle boolean correctly,https://bugs.launchpad.net/neutron/+bug/1348479,2014-10-16
+1364232,1364232,Fix Released,EMC VMAX driver does not handle newlines and whitespace consistently in xml,https://bugs.launchpad.net/cinder/+bug/1364232,2014-10-16
+1347963,1347963,Fix Released,Network profile tests have incorrect create request,https://bugs.launchpad.net/neutron/+bug/1347963,2014-10-16
+1342756,1342756,Fix Released,cisco_ml2_apic_contracts table needs to set nullable=False on tenant_id column,https://bugs.launchpad.net/neutron/+bug/1342756,2014-10-16
+1341378,1341378,Fix Released,Missing max_routes in neutron.conf,https://bugs.launchpad.net/neutron/+bug/1341378,2014-10-16
+1340778,1340778,Fix Released,common/log.py creates its own logger,https://bugs.launchpad.net/neutron/+bug/1340778,2014-10-16
+1342046,1342046,Fix Released,GET /v2/​{tenant_id}​/volumes?all_tenants=0 lists volumes in all tenants,https://bugs.launchpad.net/cinder/+bug/1342046,2014-10-16
+1340708,1340708,Fix Released,imporve exception handles inside spawn,https://bugs.launchpad.net/neutron/+bug/1340708,2014-10-16
+1275682,1275682,Fix Released,vmware: volume retype to be supported for vmdk driver,https://bugs.launchpad.net/cinder/+bug/1275682,2014-10-16
+1369355,1369355,Fix Released,Getting iscsi_ip_address from config file,https://bugs.launchpad.net/cinder/+bug/1369355,2014-10-16
+1369057,1369057,Fix Released,HP 3PAR drivers should not claim to have 'infinite' space,https://bugs.launchpad.net/cinder/+bug/1369057,2014-10-16
+1327000,1327000,Fix Released,Should not schedule dhcp-agent when dhcp port creation,https://bugs.launchpad.net/neutron/+bug/1327000,2014-10-16
+1368927,1368927,Fix Released,HP 3PAR Exception: Invalid current snapCPG name for retype.  The volume may be in a transitioning state.  snapCpg='None'.,https://bugs.launchpad.net/cinder/+bug/1368927,2014-10-16
+1323718,1323718,Fix Released,OVS capabilities test failure masks exception,https://bugs.launchpad.net/neutron/+bug/1323718,2014-10-16
+1368381,1368381,Fix Released,Export target objects hang in Datera backend,https://bugs.launchpad.net/cinder/+bug/1368381,2014-10-16
+1368213,1368213,Fix Released,25->24 DB migration fails,https://bugs.launchpad.net/cinder/+bug/1368213,2014-10-16
+1367429,1367429,Fix Released,3PAR attach/detach_volume missing login and logout,https://bugs.launchpad.net/cinder/+bug/1367429,2014-10-16
+1293184,1293184,Fix Released,Can't clear shared flag of unused network,https://bugs.launchpad.net/neutron/+bug/1293184,2014-10-16
+1367238,1367238,Fix Released,"IBM NAS cinder driver sets 'rw' permissions to all during volume create operation, which is security issue",https://bugs.launchpad.net/cinder/+bug/1367238,2014-10-16
+1287648,1287648,Fix Released,ensure removed devices get treated on resyncs for Mlnx Agent,https://bugs.launchpad.net/neutron/+bug/1287648,2014-10-16
+1366205,1366205,Fix Released,Delete consistency group failed,https://bugs.launchpad.net/cinder/+bug/1366205,2014-10-16
+1365392,1365392,Fix Released,"c-vol.log reports ""Error checking replication status""  for non-replication volumes every 1 minutes",https://bugs.launchpad.net/cinder/+bug/1365392,2014-10-16
+1362455,1362455,Fix Released,Cinder service.py is out of sync from incubator that causes threads hang all the time.,https://bugs.launchpad.net/cinder/+bug/1362455,2014-10-16
+1229155,1229155,Fix Released,camelcase in function name,https://bugs.launchpad.net/neutron/+bug/1229155,2014-10-16
+1311271,1311271,Fix Released,Missing config option for Glance Client CA file,https://bugs.launchpad.net/cinder/+bug/1311271,2014-10-16
+1352698,1352698,Fix Released,neutron context doesn't include auth token,https://bugs.launchpad.net/neutron/+bug/1352698,2014-10-16
+1374585,1374585,Fix Released,VMware: cinder-volume operation fails with Exception in VMwareVcVmdkDriver,https://bugs.launchpad.net/cinder/+bug/1374585,2014-10-16
+1350942,1350942,Fix Released,Use oslo.db create_engine instead of SQLAlchemy,https://bugs.launchpad.net/neutron/+bug/1350942,2014-10-16
+1374154,1374154,Fix Released,cinder.conf.sample is out of date again,https://bugs.launchpad.net/cinder/+bug/1374154,2014-10-16
+1317008,1317008,Fix Released,notification is not generated for neutron dhcp-agent-network-add and dhcp-agent-network-remove commands,https://bugs.launchpad.net/neutron/+bug/1317008,2014-10-16
+1366596,1366596,Fix Released,"Glance tests failing, breaking Cinder check jobs",https://bugs.launchpad.net/cinder/+bug/1366596,2014-10-16
+1363058,1363058,Fix Released,cfg.CONF.state_path set to wrong value in tests,https://bugs.launchpad.net/neutron/+bug/1363058,2014-10-16
+1362480,1362480,Fix Released,Datacenter moid should be a value not a tuple,https://bugs.launchpad.net/neutron/+bug/1362480,2014-10-16
+1357635,1357635,Fix Released,ProphetStor initialize_connection failed when the storage server heavy loading.,https://bugs.launchpad.net/cinder/+bug/1357635,2014-10-16
+1357629,1357629,Fix Released,ProphetStor cinder volume driver should supported to force delete volume,https://bugs.launchpad.net/cinder/+bug/1357629,2014-10-16
+1361545,1361545,Fix Released,dhcp agent shouldn't spawn metadata-proxy for non-isolated networks,https://bugs.launchpad.net/neutron/+bug/1361545,2014-10-16
+1357521,1357521,Fix Released,Unit test test_upload_volume* in test_image_utils.py fail without /dev/loop1,https://bugs.launchpad.net/cinder/+bug/1357521,2014-10-16
+1361176,1361176,Fix Released,DB: Some tables still explicitly set mysql_engine,https://bugs.launchpad.net/neutron/+bug/1361176,2014-10-16
+1357010,1357010,Fix Released,Cannot run tests on OS X due to platform specific features,https://bugs.launchpad.net/cinder/+bug/1357010,2014-10-16
+1360958,1360958,Fix Released,neutron metering driver default value is different in code and config file,https://bugs.launchpad.net/neutron/+bug/1360958,2014-10-16
+1356223,1356223,Fix Released,bad indentation in netapp and san driver,https://bugs.launchpad.net/cinder/+bug/1356223,2014-10-16
+1358731,1358731,Fix Released,SLAAC IP address is not checked for duplicates,https://bugs.launchpad.net/neutron/+bug/1358731,2014-10-16
+1354801,1354801,Fix Released,Cinder backup for Swift does not work with Auth 2.0,https://bugs.launchpad.net/cinder/+bug/1354801,2014-10-16
+1358196,1358196,Fix Released,IpNetnsCommand will refuse to work without root_helper,https://bugs.launchpad.net/neutron/+bug/1358196,2014-10-16
+1354272,1354272,Fix Released,EMC: Fix minor issue in VNX driver and unit tests,https://bugs.launchpad.net/cinder/+bug/1354272,2014-10-16
+1357125,1357125,Fix Released,Cisco N1kv plugin needs to send subtype on network profile creation,https://bugs.launchpad.net/neutron/+bug/1357125,2014-10-16
+1354066,1354066,Fix Released,ProphetStor DPL cinder volume driver certification,https://bugs.launchpad.net/cinder/+bug/1354066,2014-10-16
+1354034,1354034,Fix Released,Outdated error/report within tox tests,https://bugs.launchpad.net/cinder/+bug/1354034,2014-10-16
+1351997,1351997,Fix Released,Fix snapshot id for snapshot_destroy,https://bugs.launchpad.net/cinder/+bug/1351997,2014-10-16
+1356609,1356609,Fix Released,Networks do not get scheduled to DHCP agents using Cisco N1KV plugin,https://bugs.launchpad.net/neutron/+bug/1356609,2014-10-16
+1350699,1350699,Fix Released,FakeBackupService doesn't implement verify,https://bugs.launchpad.net/cinder/+bug/1350699,2014-10-16
+1355502,1355502,Fix Released,NSX - add note in configuration files regarding distributed routers,https://bugs.launchpad.net/neutron/+bug/1355502,2014-10-16
+1349936,1349936,Fix Released,Listing volumes has poor performance (due to glance metadata),https://bugs.launchpad.net/cinder/+bug/1349936,2014-10-16
+1349805,1349805,Fix Released,snapshot has wrong status in notification-info when it created done,https://bugs.launchpad.net/cinder/+bug/1349805,2014-10-16
+1355100,1355100,Fix Released,TestSubresourcePlugin functions are double indented,https://bugs.launchpad.net/neutron/+bug/1355100,2014-10-16
+1348859,1348859,Fix Released,cinder-clear-rabbit-queues should be removed,https://bugs.launchpad.net/cinder/+bug/1348859,2014-10-16
+1353414,1353414,Fix Released,duplicated check for router connect to external network,https://bugs.launchpad.net/neutron/+bug/1353414,2014-10-16
+1348856,1348856,Fix Released,cinder-rpc-zmq-receiver should be removed,https://bugs.launchpad.net/cinder/+bug/1348856,2014-10-16
+1353112,1353112,Fix Released,template attribute missing a support for subnet and router in Nuage plugin,https://bugs.launchpad.net/neutron/+bug/1353112,2014-10-16
+1348230,1348230,Fix Released,Enabling volume_copy_bps_limit make nfs volume copy fail,https://bugs.launchpad.net/cinder/+bug/1348230,2014-10-16
+1346622,1346622,Fix Released,IBM Storwize/SVC driver will not attach a volume if the FC initiators are not logged in,https://bugs.launchpad.net/cinder/+bug/1346622,2014-10-16
+1352893,1352893,Fix Released,ipv6 cannot be disabled for ovs agent,https://bugs.launchpad.net/neutron/+bug/1352893,2014-10-16
+1346496,1346496,Fix Released,The Cinder Windows storage driver must not require Hyper-V,https://bugs.launchpad.net/cinder/+bug/1346496,2014-10-16
+1351123,1351123,Fix Released,DB Duplicate error while scheduling distributed routers,https://bugs.launchpad.net/neutron/+bug/1351123,2014-10-16
+1350937,1350937,Fix Released,neutron should use openstack logging everywhere,https://bugs.launchpad.net/neutron/+bug/1350937,2014-10-16
+1343544,1343544,Fix Released,AttributeError: ContextAdapter instance has no attribute 'isEnabledFor' with python 2.6,https://bugs.launchpad.net/cinder/+bug/1343544,2014-10-16
+1350252,1350252,Fix Released,test_l3_plugin fails when run as single test,https://bugs.launchpad.net/neutron/+bug/1350252,2014-10-16
+1349898,1349898,Fix Released,ofagent: port_bound forgets to normalize port name,https://bugs.launchpad.net/neutron/+bug/1349898,2014-10-16
+1334422,1334422,Fix Released,ionice rootwrap config doesn't cover every option pattern,https://bugs.launchpad.net/cinder/+bug/1334422,2014-10-16
+1349895,1349895,Fix Released,Radware LBaaS driver create extra Neutron Ports,https://bugs.launchpad.net/neutron/+bug/1349895,2014-10-16

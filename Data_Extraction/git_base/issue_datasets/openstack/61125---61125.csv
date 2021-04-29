@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1490492,1490492,Fix Released,[System test] Delete nova_network class from test_failover because neutron network is default,https://bugs.launchpad.net/fuel/+bug/1490492,2015-09-01
+1483678,1483678,Fix Released,Neutron endpoint is registered in keystone even if env with nova-network,https://bugs.launchpad.net/fuel/+bug/1483678,2015-09-01
+1488372,1488372,Fix Released,[system_tests] Create jobs for networking templates tests,https://bugs.launchpad.net/fuel/+bug/1488372,2015-09-01
+1483348,1483348,Fix Released,[system-tests] HA_flat scalability test doesn't deploy changes after adding new controllers,https://bugs.launchpad.net/fuel/+bug/1483348,2015-09-01
+1481410,1481410,Fix Released,[devops] Need to add jobs to run chain of upgrades,https://bugs.launchpad.net/fuel/+bug/1481410,2015-09-01
+1488274,1488274,Fix Released,No way to skip volume clone tests,https://bugs.launchpad.net/tempest/+bug/1488274,2015-09-01
+1486545,1486545,Fix Released,[murano] Seems like manage.py collectstatic wasn't run during murano-dashboard installation,https://bugs.launchpad.net/fuel/+bug/1486545,2015-09-01
+1484936,1484936,Fix Released,Nailgun test randomly fails TestNetworkCheck.test_check_untagged_intersection_failed,https://bugs.launchpad.net/fuel/+bug/1484936,2015-09-01
+1485953,1485953,Fix Released,Random fails of TestNetworkConfigurationValidator.test_validate_networks_not_in_db,https://bugs.launchpad.net/fuel/+bug/1485953,2015-09-01
+1485549,1485549,Fix Released,Typos in fuelmenu,https://bugs.launchpad.net/fuel/+bug/1485549,2015-09-01
+1439824,1439824,Fix Released,Support multiple IPv6 prefixes on internal router ports,https://bugs.launchpad.net/neutron/+bug/1439824,2015-09-01
+1484477,1484477,Fix Released,VIP section in updated HA Guide should be moved,https://bugs.launchpad.net/openstack-manuals/+bug/1484477,2015-09-01
+1489200,1489200,Fix Released,"Upon VM deletes, SG iptables not cleaned up, garbage piles up",https://bugs.launchpad.net/neutron/+bug/1489200,2015-09-01
+1488177,1488177,Fix Released,"Inappropriate parameter type in ""List shared images"" - Image service API v1",https://bugs.launchpad.net/openstack-api-site/+bug/1488177,2015-08-31
+1486488,1486488,Fix Released,Keystone V3 : Validate token API. Token parameter doesn't exist.,https://bugs.launchpad.net/openstack-api-site/+bug/1486488,2015-08-31
+1404412,1404412,Fix Released,Session's persistent objects across transactions create inconsistency,https://bugs.launchpad.net/group-based-policy/+bug/1404412,2015-08-31
+1490631,1490631,Fix Released,"typo, method href attribute getUnauthorizedRequestToken",https://bugs.launchpad.net/openstack-api-site/+bug/1490631,2015-08-31
+1489368,1489368,Fix Released,"Mistake in description of manual ""Block Storage API v2 (CURRENT)""",https://bugs.launchpad.net/openstack-api-site/+bug/1489368,2015-08-31
+1476767,1476767,Fix Released,logging info as error,https://bugs.launchpad.net/octavia/+bug/1476767,2015-08-31
+1470155,1470155,Fix Released,Octavia ignores other rabbit hosts than localhost,https://bugs.launchpad.net/octavia/+bug/1470155,2015-08-31
+1469148,1469148,Fix Released,rally throws 45-line tracebacks when deployment cloud is not available,https://bugs.launchpad.net/rally/+bug/1469148,2015-08-31
+1486329,1486329,Fix Released,Image index should show more detail information in v2,https://bugs.launchpad.net/python-glanceclient/+bug/1486329,2015-08-31
+1475769,1475769,Fix Released,Client can't create unicode properties in v2,https://bugs.launchpad.net/python-glanceclient/+bug/1475769,2015-08-31
+1468485,1468485,Fix Released,test_shell.py tests don't account for dictionary order,https://bugs.launchpad.net/python-glanceclient/+bug/1468485,2015-08-31
+1465373,1465373,Fix Released,v2 python-glanceclient doesn't support the marker attribute,https://bugs.launchpad.net/python-glanceclient/+bug/1465373,2015-08-31
+1434306,1434306,Fix Released,Missing test case for validation of an active image update,https://bugs.launchpad.net/python-glanceclient/+bug/1434306,2015-08-31
+1433962,1433962,Fix Released,Invalid tags are skipped instead of raising an exception,https://bugs.launchpad.net/python-glanceclient/+bug/1433962,2015-08-31
+1419788,1419788,Fix Released,Auth plugin tests running only on Keystone v2 environment variables,https://bugs.launchpad.net/python-glanceclient/+bug/1419788,2015-08-31
+1408028,1408028,Fix Released,v2 image create --file documentation is wrong,https://bugs.launchpad.net/python-glanceclient/+bug/1408028,2015-08-31
+1309272,1309272,Fix Released,Required options should be listed as required and error when not provided.,https://bugs.launchpad.net/python-glanceclient/+bug/1309272,2015-08-31
+1220809,1220809,Fix Released,help for image-update is incorrect,https://bugs.launchpad.net/python-glanceclient/+bug/1220809,2015-08-31
+1201765,1201765,Fix Released,Can't filter on owner with v1 client,https://bugs.launchpad.net/python-glanceclient/+bug/1201765,2015-08-31
+1434381,1434381,Fix Released,glanceclient v2.shell for image-show doesn't have --human-readable option,https://bugs.launchpad.net/python-glanceclient/+bug/1434381,2015-08-31
+1433637,1433637,Fix Released,The v2 task module is not fully covered with tests,https://bugs.launchpad.net/python-glanceclient/+bug/1433637,2015-08-31
+1418508,1418508,Fix Released,Redundant FakeSchemaAPI __init__ method,https://bugs.launchpad.net/python-glanceclient/+bug/1418508,2015-08-31
+1396087,1396087,Fix Released,Typo in versions error message,https://bugs.launchpad.net/python-glanceclient/+bug/1396087,2015-08-31
+1174339,1174339,Fix Released,log_curl_request function in glance/common/http.py has no test coverage,https://bugs.launchpad.net/python-glanceclient/+bug/1174339,2015-08-31
+1442883,1442883,Fix Released,py34 client fails when using no ssl compression,https://bugs.launchpad.net/python-glanceclient/+bug/1442883,2015-08-31
+1439513,1439513,Fix Released,Creating task with invalid additionalProperties crashes in Python 3,https://bugs.launchpad.net/python-glanceclient/+bug/1439513,2015-08-31
+1399778,1399778,Fix Released,Failing to create image using glance endpoint version 2,https://bugs.launchpad.net/python-glanceclient/+bug/1399778,2015-08-31
+1475261,1475261,Fix Released,stable/kilo test_do_md_resource_type_list test is failing,https://bugs.launchpad.net/python-glanceclient/+bug/1475261,2015-08-31
+1472234,1472234,Fix Released,SSL test failed on ci,https://bugs.launchpad.net/python-glanceclient/+bug/1472234,2015-08-31
+1488454,1488454,Fix Released,VIP-related information duplicated in astute.yaml,https://bugs.launchpad.net/fuel/+bug/1488454,2015-08-31
+1486002,1486002,Fix Released,Failing validation tests in test_network_configuration_validator.py,https://bugs.launchpad.net/fuel/+bug/1486002,2015-08-31
+1488955,1488955,Fix Released,User experience of UI should be improved in case of completely red OSTF,https://bugs.launchpad.net/fuel/+bug/1488955,2015-08-31
+1398838,1398838,Fix Released,Errors should not print json,https://bugs.launchpad.net/python-glanceclient/+bug/1398838,2015-08-31
+1483202,1483202,Fix Released,"""Spawn VMs"" button disappear from UI",https://bugs.launchpad.net/fuel/+bug/1483202,2015-08-31
+1483669,1483669,Fix Released,New banner about quantity notifications overlap old one,https://bugs.launchpad.net/fuel/+bug/1483669,2015-08-31
+1488845,1488845,Fix Released,Uncaught TypeError: Cannot read property while Edit node role,https://bugs.launchpad.net/fuel/+bug/1488845,2015-08-31
+1489347,1489347,Fix Released,"rsyslog is not reporting into ""/var/log/*-all.log"" files nor /var/log/(messages|syslog)",https://bugs.launchpad.net/fuel/+bug/1489347,2015-08-31
+1485995,1485995,Fix Released,Link to UI in /etc/issue should point to https,https://bugs.launchpad.net/fuel/+bug/1485995,2015-08-31
+1455155,1455155,Fix Released,isolated metadata in dhcp_agent.ini,https://bugs.launchpad.net/fuel/+bug/1455155,2015-08-31
+1482239,1482239,Fix Released,Cinder volume creation fails if image is used as source: 'ImageNotAuthorized: Not authorized for image <id>',https://bugs.launchpad.net/fuel/+bug/1482239,2015-08-31
+1489146,1489146,Fix Released,It's not obvious why Virt role is disabled,https://bugs.launchpad.net/fuel/+bug/1489146,2015-08-31
+1391460,1391460,Fix Released,Links to documentation in OSTF descriptions/error messages are not clickable,https://bugs.launchpad.net/fuel/+bug/1391460,2015-08-31
+1488307,1488307,Fix Released,Create a SwiftStack plugin project in Stackforge.,https://bugs.launchpad.net/fuel/+bug/1488307,2015-08-31
+1398349,1398349,Fix Released,nova service-update fails for services on non-child (top) cell,https://bugs.launchpad.net/nova/+bug/1398349,2015-08-31
+1489022,1489022,Fix Released,XML file generation error for cli-reference in murano case,https://bugs.launchpad.net/openstack-manuals/+bug/1489022,2015-08-31
+1470619,1470619,Fix Released,debug mode doesn't scale,https://bugs.launchpad.net/akanda/+bug/1470619,2015-08-30
+1490198,1490198,Fix Released,Change tls and sni listener API attributes to ref,https://bugs.launchpad.net/openstack-api-site/+bug/1490198,2015-08-30
+1487452,1487452,Fix Released,[system-tests] Models in system tests should implement custom __repr__ method,https://bugs.launchpad.net/fuel/+bug/1487452,2015-08-30
+1488316,1488316,Fix Released,"Missing ""v2"" in all URI in ""Compute API v2""",https://bugs.launchpad.net/openstack-api-site/+bug/1488316,2015-08-29
+1394238,1394238,Fix Released,"Nova - ""Update Security Group"" operation is not documented",https://bugs.launchpad.net/openstack-api-site/+bug/1394238,2015-08-29
+1295553,1295553,Fix Released,Fixes evacuate doesn't honor enable password conf for v3,https://bugs.launchpad.net/openstack-api-site/+bug/1295553,2015-08-29
+1487136,1487136,Fix Released,"""volume_id"" should not be specified in ""Create volume"" URI - Compute API v2 extensions",https://bugs.launchpad.net/openstack-api-site/+bug/1487136,2015-08-29
+1489046,1489046,Fix Released,Neworking API v2 getExtension Request parameter alias has no description,https://bugs.launchpad.net/openstack-api-site/+bug/1489046,2015-08-29
+1488017,1488017,Fix Released,Grammar miss in manual Identity API v3 (CURRENT),https://bugs.launchpad.net/openstack-api-site/+bug/1488017,2015-08-29
+1489681,1489681,Fix Released,The using of verbs in one sentence should be consistent,https://bugs.launchpad.net/openstack-api-site/+bug/1489681,2015-08-29
+1489137,1489137,Fix Released,Typo in the create_isolated_networks help in config.py,https://bugs.launchpad.net/tempest/+bug/1489137,2015-08-29
+1462028,1462028,Fix Released,[Common] ref to non-existent DB2 cookbook should be removed.,https://bugs.launchpad.net/openstack-chef/+bug/1462028,2015-08-28
+1489306,1489306,Fix Released,"Incorrect parameter description for ""sample_id"" in Telemetry API v2",https://bugs.launchpad.net/openstack-api-site/+bug/1489306,2015-08-28
+1489307,1489307,Fix Released,Fix verb's status to be the third person,https://bugs.launchpad.net/openstack-api-site/+bug/1489307,2015-08-28
+1487219,1487219,Fix Released,fuel plugins --sync throws a stacktrace,https://bugs.launchpad.net/fuel/+bug/1487219,2015-08-28
+1487117,1487117,Fix Released,vip_reservation. Deployment failed if network_roles.yaml contains custom name of namespace,https://bugs.launchpad.net/fuel/+bug/1487117,2015-08-28
+1487007,1487007,Fix Released,[VIPs] VIP name and namespace should be normalized,https://bugs.launchpad.net/fuel/+bug/1487007,2015-08-28

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1509078,1509078,Fix Released,Mysql file handles not correctly configured,https://bugs.launchpad.net/openstack-ansible/+bug/1509078,2016-05-05
+1513668,1513668,Fix Released,RabbitMQ: unable to connect to node: nodedown during `Enable queue mirroring`,https://bugs.launchpad.net/openstack-ansible/+bug/1513668,2016-05-05
+1514291,1514291,Fix Released,Dollar signs in swift backend passwords causes errors,https://bugs.launchpad.net/openstack-ansible/+bug/1514291,2016-05-05
+1426254,1426254,Fix Released,Race creating /openstack/log,https://bugs.launchpad.net/openstack-ansible/+bug/1426254,2016-05-05
+1508517,1508517,Fix Released,nova fails to deploy on hosts without container_networks set,https://bugs.launchpad.net/openstack-ansible/+bug/1508517,2016-05-05
+1514988,1514988,Fix Released,scripts-library.sh prints get-pip.py to console,https://bugs.launchpad.net/openstack-ansible/+bug/1514988,2016-05-05
+1515166,1515166,Fix Released,PLUMgrid config file needs to be updated with new a parameter for keystone version,https://bugs.launchpad.net/openstack-ansible/+bug/1515166,2016-05-05
+1516424,1516424,Fix Released,Add install for enabling PLUMgrid Plugin functionality in openstack-ansible,https://bugs.launchpad.net/openstack-ansible/+bug/1516424,2016-05-05
+1517047,1517047,Fix Released,typo in dynamic_inventory.py,https://bugs.launchpad.net/openstack-ansible/+bug/1517047,2016-05-05
+1517964,1517964,Fix Released,Ceilometer client not installed on utility container,https://bugs.launchpad.net/openstack-ansible/+bug/1517964,2016-05-05
+1516655,1516655,Fix Released,Update neutron service handler to restart only enabled services,https://bugs.launchpad.net/openstack-ansible/+bug/1516655,2016-05-05
+1519088,1519088,Fix Released,nova-secret world readable,https://bugs.launchpad.net/openstack-ansible/+bug/1519088,2016-05-05
+1516330,1516330,Fix Released,Glance schema issue on Kilo,https://bugs.launchpad.net/openstack-ansible/+bug/1516330,2016-05-05
+1513455,1513455,Fix Released,haproxy config fails when containers are missing,https://bugs.launchpad.net/openstack-ansible/+bug/1513455,2016-05-05
+1519174,1519174,Fix Released,Set OpenStack service usernames and passwords to reference their own variables and work with LDAP Keystone Identity Backend,https://bugs.launchpad.net/openstack-ansible/+bug/1519174,2016-05-05
+1518351,1518351,Fix Released,Playbooks stop when enabling keystone ldap backend,https://bugs.launchpad.net/openstack-ansible/+bug/1518351,2016-05-05
+1522149,1522149,Fix Released,provider_networks module does not iterate over multiple vlan networks,https://bugs.launchpad.net/openstack-ansible/+bug/1522149,2016-05-05
+1513132,1513132,Fix Released,RabbitMQ should not install when not needed,https://bugs.launchpad.net/openstack-ansible/+bug/1513132,2016-05-05
+1526292,1526292,Fix Released,"infra_hosts definition doesn't set galera_all, fails on haproxy_install.yml",https://bugs.launchpad.net/openstack-ansible/+bug/1526292,2016-05-05
+1523581,1523581,Fix Released,When not using keystone swift plays still attempt to setup swift users.,https://bugs.launchpad.net/openstack-ansible/+bug/1523581,2016-05-05
+1530796,1530796,Fix Released,Tempest test numbers are unstable,https://bugs.launchpad.net/openstack-ansible/+bug/1530796,2016-05-05
+1524957,1524957,Fix Released,Add multipath-tools to kvm hosts,https://bugs.launchpad.net/openstack-ansible/+bug/1524957,2016-05-05
+1522957,1522957,Fix Released,Update mirror list for new datacenters in OpenStack CI,https://bugs.launchpad.net/openstack-ansible/+bug/1522957,2016-05-05
+1533126,1533126,Fix Released,mysql restart handler logic is incorrect,https://bugs.launchpad.net/openstack-ansible/+bug/1533126,2016-05-05
+1532761,1532761,Fix Released,Galera cluster initialisation failures,https://bugs.launchpad.net/openstack-ansible/+bug/1532761,2016-05-05
+1479484,1479484,Fix Released,server_id missing in my.cnf,https://bugs.launchpad.net/openstack-ansible/+bug/1479484,2016-05-05
+1536726,1536726,Fix Released,check-requirements.yml disk space available checks fail on > 1 TB drives,https://bugs.launchpad.net/openstack-ansible/+bug/1536726,2016-05-05
+1535945,1535945,Fix Released,documentation suggests verifying missing service kibana,https://bugs.launchpad.net/openstack-ansible/+bug/1535945,2016-05-05
+1533800,1533800,Fix Released,Defcore test list is broken in openstack-tempest-gate,https://bugs.launchpad.net/openstack-ansible/+bug/1533800,2016-05-05
+1541193,1541193,Fix Released,Liberty repo-build role builds wrong pip version,https://bugs.launchpad.net/openstack-ansible/+bug/1541193,2016-05-05
+1536957,1536957,Fix Released,config_template fails with unicode error,https://bugs.launchpad.net/openstack-ansible/+bug/1536957,2016-05-05
+1543588,1543588,Fix Released,using a listOP with config_template in an INI file will break openstack services,https://bugs.launchpad.net/openstack-ansible/+bug/1543588,2016-05-05
+1542121,1542121,Fix Released,swift container-reconciler error connecting to memcached,https://bugs.launchpad.net/openstack-ansible/+bug/1542121,2016-05-05
+1578506,1578506,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/vitrage/+bug/1578506,2016-05-05
+1547748,1547748,Fix Released,Check None return value in tests,https://bugs.launchpad.net/python-openstackclient/+bug/1547748,2016-05-05
+1541786,1541786,Fix Released,Workflow specification is parsed too many times,https://bugs.launchpad.net/mistral/+bug/1541786,2016-05-05
+1555580,1555580,Fix Released,mistral creates a trust when user is uploading a workbook,https://bugs.launchpad.net/mistral/+bug/1555580,2016-05-05
+1555025,1555025,Fix Released,With-items workflow task still runnig when concurrent sub-workflows fail,https://bugs.launchpad.net/mistral/+bug/1555025,2016-05-05
+1502120,1502120,Fix Released,Task stalls in state RUNNING in case of service dies,https://bugs.launchpad.net/mistral/+bug/1502120,2016-05-05
+1546021,1546021,Fix Released,[ui] Actions screen pagination supports only descending order,https://bugs.launchpad.net/mistral/+bug/1546021,2016-05-05
+1545141,1545141,Fix Released,Added CORS support to Mistral,https://bugs.launchpad.net/mistral/+bug/1545141,2016-05-05
+1544499,1544499,Fix Released,python34 gate in mistral-dashboard repo is broken,https://bugs.launchpad.net/mistral/+bug/1544499,2016-05-05
+1541041,1541041,Fix Released,BaremetalIntrospectionAction.introspect does not find the service name,https://bugs.launchpad.net/mistral/+bug/1541041,2016-05-05
+1520086,1520086,Fix Released,Remove iso8601 dependency,https://bugs.launchpad.net/mistral/+bug/1520086,2016-05-05
+1516920,1516920,Fix Released,Remove iso8601 dependency,https://bugs.launchpad.net/mistral/+bug/1516920,2016-05-05
+1505662,1505662,Fix Released,"[ui] Problem with ""Actions"" page layout",https://bugs.launchpad.net/mistral/+bug/1505662,2016-05-05
+1549047,1549047,Fix Released,"Execution creation is failed, if created using workflow id",https://bugs.launchpad.net/mistral/+bug/1549047,2016-05-05
+1516863,1516863,Fix Released,Dashboard display error.,https://bugs.launchpad.net/mistral/+bug/1516863,2016-05-05
+1535722,1535722,Fix Released,Mistral workflow including 'with-items' is not starting on-success task,https://bugs.launchpad.net/mistral/+bug/1535722,2016-05-05
+1527976,1527976,Fix Released,Task timeout error message,https://bugs.launchpad.net/mistral/+bug/1527976,2016-05-05
+1527475,1527475,Fix Released,yaml example  lost indentation,https://bugs.launchpad.net/mistral/+bug/1527475,2016-05-05
+1505665,1505665,Fix Released,"[ui] The sense of ""Filter"" button (""Actions"" table) is not clear and button doesn't work",https://bugs.launchpad.net/mistral/+bug/1505665,2016-05-05
+1523905,1523905,Fix Released,doc/source/dsl/dsl_v2.rst missed whitespace,https://bugs.launchpad.net/mistral/+bug/1523905,2016-05-05
+1516953,1516953,Fix Released,cron-trigger-create failed.,https://bugs.launchpad.net/mistral/+bug/1516953,2016-05-05
+1512380,1512380,Fix Released,[UI] Execution overview screen - layout overflow,https://bugs.launchpad.net/mistral/+bug/1512380,2016-05-05
+1512377,1512377,Fix Released,[UI] Current scss stylesheet mechanism is broken,https://bugs.launchpad.net/mistral/+bug/1512377,2016-05-05
+1526463,1526463,Fix Released,database migration 009 fails on Centos ('Can't DROP 'cron_triggers_v2_workflow_input_hash_workflow_name_pattern__key'),https://bugs.launchpad.net/mistral/+bug/1526463,2016-05-05
+1523590,1523590,Fix Released,pep8 failed because flake8-docstrings,https://bugs.launchpad.net/mistral/+bug/1523590,2016-05-05
+1520930,1520930,Fix Released,Using yaql task function with non existing task results in IndexError,https://bugs.launchpad.net/mistral/+bug/1520930,2016-05-05
+1515488,1515488,Fix Released,Cron-trigger executed only once when specifying pattern and first time,https://bugs.launchpad.net/mistral/+bug/1515488,2016-05-05
+1510417,1510417,Fix Released,[API] wrong sort dir at execution controller,https://bugs.launchpad.net/mistral/+bug/1510417,2016-05-05
+1514972,1514972,Fix Released,with-items list length less the concurrency result in index out of range,https://bugs.launchpad.net/mistral/+bug/1514972,2016-05-05
+1512477,1512477,Fix Released,"If list for with-items is empty, the result returns [null]",https://bugs.launchpad.net/mistral/+bug/1512477,2016-05-05
+1578068,1578068,Fix Released,the distributed lock is always reset,https://bugs.launchpad.net/dragonflow/+bug/1578068,2016-05-05
+1510990,1510990,Fix Released,"""Add in cinder devices types"" task failing",https://bugs.launchpad.net/openstack-ansible/+bug/1510990,2016-05-04
+1524544,1524544,Fix Released,Glance role does only support one store protocol (default_store),https://bugs.launchpad.net/openstack-ansible/+bug/1524544,2016-05-04
+1532204,1532204,Fix Released,os_swift_sync role does not support weight changes,https://bugs.launchpad.net/openstack-ansible/+bug/1532204,2016-05-04
+1522042,1522042,Fix Released,neutron has notifications turned on by default,https://bugs.launchpad.net/openstack-ansible/+bug/1522042,2016-05-04
+1414397,1414397,Fix Released,Deploy haproxy with keepalived,https://bugs.launchpad.net/openstack-ansible/+bug/1414397,2016-05-04
+1523932,1523932,Fix Released,Keystone notifications not configured for Ceilometer,https://bugs.launchpad.net/openstack-ansible/+bug/1523932,2016-05-04
+1533830,1533830,Fix Released,Add option to horizon for default panel,https://bugs.launchpad.net/openstack-ansible/+bug/1533830,2016-05-04
+1567395,1567395,Fix Released,"""No valid host"" error in periodic CI jobs",https://bugs.launchpad.net/tripleo/+bug/1567395,2016-05-04
+1577682,1577682,Fix Released,Ci: sometimes curl fails to upload images in periodic jobs,https://bugs.launchpad.net/tripleo/+bug/1577682,2016-05-04
+1575486,1575486,Fix Released,VM cleanup after evacuate fails,https://bugs.launchpad.net/nova-powervm/+bug/1575486,2016-05-04
+1553429,1553429,Fix Released,Allow for Pure drivers to verify HTTPS requests,https://bugs.launchpad.net/cinder/+bug/1553429,2016-05-04

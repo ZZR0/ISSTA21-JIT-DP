@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1657247,1657247,Fix Released,Gate runs fail if controller ip gets set to .1,https://bugs.launchpad.net/trove/+bug/1657247,2017-01-27
+1645733,1645733,Fix Released,Stop using the pxe_ssh driver,https://bugs.launchpad.net/tripleo-quickstart/+bug/1645733,2017-01-27
+1639327,1639327,Fix Released,Ensure tuned is configured for performance,https://bugs.launchpad.net/tripleo-quickstart/+bug/1639327,2017-01-27
+1442517,1442517,Fix Released,Random swift store test fail with ClientException,https://bugs.launchpad.net/glance-store/+bug/1442517,2017-01-27
+1412802,1412802,Fix Released,copy-from broken for large files and swift,https://bugs.launchpad.net/glance/+bug/1412802,2017-01-27
+1651892,1651892,Fix Released,not containerized_overcloud|bool): 'containerized_overcloud' is undefined,https://bugs.launchpad.net/tripleo-quickstart/+bug/1651892,2017-01-27
+1655107,1655107,Fix Released,build-test-packages failure on upgrading pip,https://bugs.launchpad.net/tripleo-quickstart/+bug/1655107,2017-01-27
+1657248,1657248,Fix Released,'dict object' has no attribute 'non_root_user_uid'\n\nThe error appears to have been in '/var/tmp/devmode/usr/local/share/ansible/roles/undercloud-deploy/tasks/configure-vbmc.yml',https://bugs.launchpad.net/tripleo-quickstart/+bug/1657248,2017-01-27
+1657300,1657300,Fix Released,RFE: need a quickstart check gate for devmode.sh,https://bugs.launchpad.net/tripleo-quickstart/+bug/1657300,2017-01-27
+1654574,1654574,Fix Released,[RFE] - Make clear differentiation between `ansible_user` and undercloud user that deploys the overcloud,https://bugs.launchpad.net/tripleo-quickstart/+bug/1654574,2017-01-27
+1506111,1506111,Fix Released,Unable to configure VDU using openwrt mgmt driver,https://bugs.launchpad.net/tacker/+bug/1506111,2017-01-27
+1648432,1648432,Fix Released,"Dashboard: change ""Task Details"" to ""Task Execution Details""",https://bugs.launchpad.net/mistral/+bug/1648432,2017-01-27
+1648420,1648420,Fix Released,"Dashboard: ""Run action"" functionality doesn't work",https://bugs.launchpad.net/mistral/+bug/1648420,2017-01-27
+1640378,1640378,Fix Released,Repair with-items 'concurrency',https://bugs.launchpad.net/mistral/+bug/1640378,2017-01-27
+1649366,1649366,Fix Released,body for std.email seems to actually be required - throws error when not present,https://bugs.launchpad.net/mistral/+bug/1649366,2017-01-27
+1651997,1651997,Fix Released,"Kombu dsvm gate fails with ""Second simultaneous read on fileno""",https://bugs.launchpad.net/mistral/+bug/1651997,2017-01-27
+1656692,1656692,Fix Released,"Ironic introspection fails because unexpected keyword ""insecure""",https://bugs.launchpad.net/tripleo/+bug/1656692,2017-01-27
+1656692,1656692,Fix Released,"Ironic introspection fails because unexpected keyword ""insecure""",https://bugs.launchpad.net/mistral/+bug/1656692,2017-01-27
+1657368,1657368,Fix Released,ExecutionExpirationPolicy is affected by the local timezone,https://bugs.launchpad.net/mistral/+bug/1657368,2017-01-27
+1657694,1657694,Fix Released,YAQL/Jinja function 'task' doesn't work w/o a task name,https://bugs.launchpad.net/mistral/+bug/1657694,2017-01-27
+1655557,1655557,Fix Released,openstack_actions_mapping_path parameter not handled properly,https://bugs.launchpad.net/mistral/+bug/1655557,2017-01-27
+1658958,1658958,Fix Released,Jinja2 expression pattern is invalid,https://bugs.launchpad.net/mistral/+bug/1658958,2017-01-27
+1649760,1649760,Fix Released,lsyncd postcmd race with rsync,https://bugs.launchpad.net/openstack-ansible/+bug/1649760,2017-01-27
+1656945,1656945,Fix Released,lsyncd misconfigured on CentOS 7 with repo_server role,https://bugs.launchpad.net/openstack-ansible/+bug/1656945,2017-01-27
+1646124,1646124,Fix Released,Swift is generating audit.log errors on CentOS with selinux enabled,https://bugs.launchpad.net/openstack-ansible/+bug/1646124,2017-01-27
+1651359,1651359,Fix Released,os_nova: nova_spice_console_keymap is never used,https://bugs.launchpad.net/openstack-ansible/+bug/1651359,2017-01-27
+1657138,1657138,Fix Released,neutron role doesn't create {{ neutron_bin }} directory,https://bugs.launchpad.net/openstack-ansible/+bug/1657138,2017-01-27
+1655061,1655061,Fix Released,Horizon role doesn't specify permissions for /openstack/venvs,https://bugs.launchpad.net/openstack-ansible/+bug/1655061,2017-01-27
+1650035,1650035,Fix Released,Heat role needs backups_enabled configurable,https://bugs.launchpad.net/openstack-ansible/+bug/1650035,2017-01-27
+1651511,1651511,Fix Released,[os_keystone] fernet_token block still configured even though keystone_token_provider is uuid,https://bugs.launchpad.net/openstack-ansible/+bug/1651511,2017-01-27
+1656901,1656901,Fix Released,openstack_hosts fails to install htop on CentOS 7,https://bugs.launchpad.net/openstack-ansible/+bug/1656901,2017-01-27
+1650113,1650113,Fix Released,Security role - detecting file ownership,https://bugs.launchpad.net/openstack-ansible/+bug/1650113,2017-01-27
+1654604,1654604,Fix Released,Documentation bug,https://bugs.launchpad.net/openstack-ansible/+bug/1654604,2017-01-27
+1659001,1659001,Fix Released,setup-hosts.yaml fails at check if FIPS enabled,https://bugs.launchpad.net/openstack-ansible/+bug/1659001,2017-01-27
+1657513,1657513,Fix Released,LXC networking is down upon reboot (CentOS),https://bugs.launchpad.net/openstack-ansible/+bug/1657513,2017-01-27
+1653962,1653962,Fix Released,xtrabackup version in power architecture is not consistent with version in amd64,https://bugs.launchpad.net/openstack-ansible/+bug/1653962,2017-01-27
+1657330,1657330,Fix Released,Running tox always failed,https://bugs.launchpad.net/openstack-ansible/+bug/1657330,2017-01-27
+1657951,1657951,Fix Released,json.dumps with indent adds trailing space at end of line,https://bugs.launchpad.net/openstack-ansible/+bug/1657951,2017-01-27
+1657517,1657517,Fix Released,Hosts role should set SELinux into permissive mode,https://bugs.launchpad.net/openstack-ansible/+bug/1657517,2017-01-27
+1504687,1504687,Fix Released,network interfaces on the vnf instance does not come up in the same sequence as specified in the vnfd template,https://bugs.launchpad.net/tacker/+bug/1504687,2017-01-27
+1467021,1467021,Fix Released,Create a devstack hook to Tacker project,https://bugs.launchpad.net/tacker/+bug/1467021,2017-01-27
+1463648,1463648,Fix Released,Tacker Horizon: ImportError: No module named openstack_dashboard.dashboards,https://bugs.launchpad.net/tacker/+bug/1463648,2017-01-27
+1522196,1522196,Fix Released,tacker vnf-create fails due to port_security_enabled error,https://bugs.launchpad.net/tacker/+bug/1522196,2017-01-27
+1497474,1497474,Fix Released,vnf monitoring using ping is not consistent,https://bugs.launchpad.net/tacker/+bug/1497474,2017-01-27
+1497035,1497035,Fix Released,VNF creation failed (stuck in pending create) should be handled by tacker properly,https://bugs.launchpad.net/tacker/+bug/1497035,2017-01-27
+1475798,1475798,Fix Released,Deleting a VNF in PENDING_CREATE state does not delete the associated VM,https://bugs.launchpad.net/tacker/+bug/1475798,2017-01-27
+1642328,1642328,Fix Released,Removed status_topic config parameter,https://bugs.launchpad.net/watcher/+bug/1642328,2017-01-27
+1655419,1655419,Fix Released,'required' is an invalid argument for positionals for nsd name,https://bugs.launchpad.net/tacker/+bug/1655419,2017-01-27
+1659726,1659726,Fix Released,Fix wrong verb,https://bugs.launchpad.net/openstack-i18n/+bug/1659726,2017-01-27
+1658720,1658720,Fix Released,zun image-list giving error,https://bugs.launchpad.net/zun/+bug/1658720,2017-01-27
+1658069,1658069,Fix Released,9.0-pkg-systest-ubuntu job fails because env's mirrors are incorrectly set up,https://bugs.launchpad.net/fuel/+bug/1658069,2017-01-27
+1561054,1561054,Fix Released,Make Fernet the default token provider,https://bugs.launchpad.net/keystone/+bug/1561054,2017-01-27
+1659730,1659730,Fix Released,Invalid parameter name on interface,https://bugs.launchpad.net/keystone/+bug/1659730,2017-01-27
+1658004,1658004,Fix Released,zun create container comment,https://bugs.launchpad.net/zun/+bug/1658004,2017-01-27
+1657369,1657369,Fix Released,"The command ""reboot"" supports --timeout",https://bugs.launchpad.net/zun/+bug/1657369,2017-01-27
+1654468,1654468,Fix Released,"The command ""stop"" supports --time",https://bugs.launchpad.net/zun/+bug/1654468,2017-01-27
+1610466,1610466,Fix Released,Install and configure in Installation Guide,https://bugs.launchpad.net/trove/+bug/1610466,2017-01-27
+1610466,1610466,Fix Released,Install and configure in Installation Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1610466,2017-01-27
+1658371,1658371,Fix Released,Allow zun exec to take arbitrary number of arguments,https://bugs.launchpad.net/zun/+bug/1658371,2017-01-27
+1655162,1655162,Fix Released,Add support for killing multiple containers,https://bugs.launchpad.net/zun/+bug/1655162,2017-01-27
+1655868,1655868,Fix Released,API cannot work as expected because of the boolean params,https://bugs.launchpad.net/zun/+bug/1655868,2017-01-27
+1597793,1597793,Fix Released,[RFE] Introduce virtualpdu to keep snmp power driver in-tree,https://bugs.launchpad.net/ironic/+bug/1597793,2017-01-27
+1648087,1648087,Fix Released,Add filter --project to port list command,https://bugs.launchpad.net/python-openstackclient/+bug/1648087,2017-01-27
+1655445,1655445,Fix Released,Cannot update subnetpool quota,https://bugs.launchpad.net/python-openstackclient/+bug/1655445,2017-01-27
+1657311,1657311,Fix Released,osc should not enforce a fixed choice of network_type,https://bugs.launchpad.net/python-openstackclient/+bug/1657311,2017-01-27
+1658582,1658582,Fix Released,Create trust failed with permission to list roles,https://bugs.launchpad.net/python-openstackclient/+bug/1658582,2017-01-27
+1658138,1658138,Fix Released,images v1 container format help choices out of date,https://bugs.launchpad.net/python-openstackclient/+bug/1658138,2017-01-27
+1647242,1647242,Fix Released,"Missing some options to filter results in ""server list"" command",https://bugs.launchpad.net/python-openstackclient/+bug/1647242,2017-01-27
+1658147,1658147,Fix Released,"When disabling or enabling a user, the client assumes ""default"" domain",https://bugs.launchpad.net/python-openstackclient/+bug/1658147,2017-01-27
+1497845,1497845,Fix Released,--image and --volume shouldn't be required if block-device-mapping is provided,https://bugs.launchpad.net/python-openstackclient/+bug/1497845,2017-01-27
+1647406,1647406,Fix Released,When server create --volume used root device_name always 'vda',https://bugs.launchpad.net/python-openstackclient/+bug/1647406,2017-01-27
+1659346,1659346,Fix Released,NFP - Add dependencies among the resources for lbaasv2 multiple listener template,https://bugs.launchpad.net/group-based-policy/+bug/1659346,2017-01-27
+1659277,1659277,Fix Released,NFP - Exception in user config update failure handling,https://bugs.launchpad.net/group-based-policy/+bug/1659277,2017-01-27
+1659294,1659294,Fix Released,NFP - VIP port is being added in members list for LBaaS v2,https://bugs.launchpad.net/group-based-policy/+bug/1659294,2017-01-27
+1637474,1637474,Fix Released,baremetal import --initial-state enroll does not work,https://bugs.launchpad.net/tripleo/+bug/1637474,2017-01-27

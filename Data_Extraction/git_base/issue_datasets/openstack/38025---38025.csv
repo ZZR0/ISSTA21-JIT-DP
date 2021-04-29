@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1604645,1604645,Fix Released,prompt is not exact when no have default service provider of LOADBALANCERV2,https://bugs.launchpad.net/neutron/+bug/1604645,2016-09-01
+1607585,1607585,Fix Released,neutron server report error when get loadbalance status,https://bugs.launchpad.net/neutron/+bug/1607585,2016-09-01
+1598879,1598879,Fix Released,Remove internal function for validate_integer once neutron-lib patch comes in,https://bugs.launchpad.net/neutron/+bug/1598879,2016-09-01
+1587901,1587901,Fix Released,Cant get listener connected with l7policy through neutron api,https://bugs.launchpad.net/neutron/+bug/1587901,2016-09-01
+1611750,1611750,Fix Released,LBaaSv2 SELECT FOR UPDATE error in postgresql,https://bugs.launchpad.net/neutron/+bug/1611750,2016-09-01
+1613251,1613251,Fix Released,HAproxy scenario tests cleanup fail with a StaleDataError (LBaaSv1 and LBaaSv2),https://bugs.launchpad.net/neutron/+bug/1613251,2016-09-01
+1607758,1607758,Fix Released,Error on l7rule create,https://bugs.launchpad.net/octavia/+bug/1607758,2016-09-01
+1596158,1596158,Fix Released,"firewall rule add ""reject"" action db upgrade script doesn't work for postgresql",https://bugs.launchpad.net/neutron/+bug/1596158,2016-09-01
+1608401,1608401,Fix Released,q-l3 failed to start in case q-fwaas enabled,https://bugs.launchpad.net/devstack/+bug/1608401,2016-09-01
+1611834,1611834,Fix Released,"[neutron-fwaas] ""Unknown column 'r.tenant_id' in 'where clause'""",https://bugs.launchpad.net/neutron/+bug/1611834,2016-09-01
+1610815,1610815,Fix Released,fwaas db migration failure with postgresql,https://bugs.launchpad.net/neutron/+bug/1610815,2016-09-01
+1613299,1613299,Fix Released,Unknown column 'r.project_id' in FWaaS migrations,https://bugs.launchpad.net/openstack-ansible/+bug/1613299,2016-09-01
+1613299,1613299,Fix Released,Unknown column 'r.project_id' in FWaaS migrations,https://bugs.launchpad.net/neutron/+bug/1613299,2016-09-01
+1615578,1615578,Fix Released,fwaas has an extra db migration branch,https://bugs.launchpad.net/neutron/+bug/1615578,2016-09-01
+1595795,1595795,Fix Released,[BGP][devstack] Install bgp failed because of Permission denied,https://bugs.launchpad.net/neutron/+bug/1595795,2016-09-01
+1618012,1618012,Fix Released,Duplicate utils in kuryr-lib and kuryr-libnetwork,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1618012,2016-09-01
+1604051,1604051,Fix Released,[MuranoPL] dict-based override of new() cannot properly accept owner,https://bugs.launchpad.net/murano/+bug/1604051,2016-09-01
+1500827,1500827,Fix Released,[cf-service-broker] service broker writes to murano db,https://bugs.launchpad.net/murano/+bug/1500827,2016-09-01
+1500777,1500777,Fix Released,[cf-service-broker] can't deploy 'complex' apps through service broker,https://bugs.launchpad.net/murano/+bug/1500777,2016-09-01
+1603467,1603467,Fix Released,"[docs] ""Config"" properties are not documented",https://bugs.launchpad.net/murano/+bug/1603467,2016-09-01
+1602839,1602839,Fix Released,Object versioning is unstable in case of inheritance,https://bugs.launchpad.net/murano/+bug/1602839,2016-09-01
+1596647,1596647,Fix Released,"[MuranoPL] MuranoMethodArgument does not reflect its ""Usage"" attribute",https://bugs.launchpad.net/murano/+bug/1596647,2016-09-01
+1602404,1602404,Fix Released,AgentListener doesn't respect per-region RabbitMQs,https://bugs.launchpad.net/murano/+bug/1602404,2016-09-01
+1606987,1606987,Fix Released,[Tempest] Negative tests doesn't clean up resources after passing,https://bugs.launchpad.net/murano/+bug/1606987,2016-09-01
+1608713,1608713,Fix Released,Duplicate instantiation on property redeclare,https://bugs.launchpad.net/murano/+bug/1608713,2016-09-01
+1608718,1608718,Fix Released,Nested new() are not using 2-phase load,https://bugs.launchpad.net/murano/+bug/1608718,2016-09-01
+1608712,1608712,Fix Released,Type origin isn't respected for property access,https://bugs.launchpad.net/murano/+bug/1608712,2016-09-01
+1609709,1609709,Fix Released,fix typo in the rst file,https://bugs.launchpad.net/murano/+bug/1609709,2016-09-01
+1610130,1610130,Fix Released,[murano] [murano-cfapi] [glare] CF-api can't operate if glare is enabled,https://bugs.launchpad.net/murano/+bug/1610130,2016-09-01
+1610997,1610997,Fix Released,"Access to uninitialized property ""reporter"" in InstanceGroup::.init method",https://bugs.launchpad.net/murano/+bug/1610997,2016-09-01
+1611332,1611332,Fix Released,Methods of io.murano.configuration.Linux cannot be run in parallel,https://bugs.launchpad.net/murano/+bug/1611332,2016-09-01
+1603343,1603343,Fix Released,[murano-api] There is no way to specify the number of workers for murano-api,https://bugs.launchpad.net/murano/+bug/1603343,2016-09-01
+1613337,1613337,Fix Released,Any env deployment fail on devstack with enable congress,https://bugs.launchpad.net/murano/+bug/1613337,2016-09-01
+1615375,1615375,Fix Released,[gate] dsvm murano gate is red,https://bugs.launchpad.net/murano/+bug/1615375,2016-09-01
+1614602,1614602,Fix Released,[gate] Congress job doesn't run any tests,https://bugs.launchpad.net/murano/+bug/1614602,2016-09-01
+1617096,1617096,Fix Released,No ability to set networking driver explicitly,https://bugs.launchpad.net/murano/+bug/1617096,2016-09-01
+1617363,1617363,Fix Released,Renaming some Base Application classes for App Development Framework,https://bugs.launchpad.net/murano/+bug/1617363,2016-09-01
+1616997,1616997,Fix Released,User can't run scale action in a big K8s Cluster App,https://bugs.launchpad.net/murano/+bug/1616997,2016-09-01
+1618563,1618563,Fix Released,Type name resolution fails,https://bugs.launchpad.net/murano/+bug/1618563,2016-09-01
+1593292,1593292,Fix Released,[Dashboard] Incorrect environment actions avaliable,https://bugs.launchpad.net/murano/+bug/1593292,2016-09-01
+1559066,1559066,Fix Released,[dashboard][performance] latest apps makes a request for each app in the list.,https://bugs.launchpad.net/murano/+bug/1559066,2016-09-01
+1604000,1604000,Fix Released,generateHostname doesn't work under python3,https://bugs.launchpad.net/murano/+bug/1604000,2016-09-01
+1606896,1606896,Fix Released,"[Dashboard] while env is deploying the button ""Create Environment"" does not work correct",https://bugs.launchpad.net/murano/+bug/1606896,2016-09-01
+1593366,1593366,Fix Released,"[Dashboard] while the creation of the new env, it can be sorted by name",https://bugs.launchpad.net/murano/+bug/1593366,2016-09-01
+1607759,1607759,Fix Released,[dashboard] Horizon rework probably will break murano dashboard,https://bugs.launchpad.net/murano/+bug/1607759,2016-09-01
+1606891,1606891,Fix Released,"[Dashboard] status of the env is ""Ready to deploy"" after closing session with changes in this env",https://bugs.launchpad.net/murano/+bug/1606891,2016-09-01
+1594354,1594354,Fix Released,[Dashboard] ready to deploy env cannot be deployed,https://bugs.launchpad.net/murano/+bug/1594354,2016-09-01
+1611722,1611722,Fix Released,[tests][devstack] Incorrect client creation in murano-dashboard ui tests.,https://bugs.launchpad.net/murano/+bug/1611722,2016-09-01
+1617183,1617183,Fix Released,[dashboard ci] test_check_image_info test broken,https://bugs.launchpad.net/murano/+bug/1617183,2016-09-01
+1542776,1542776,Fix Released,Dashboard gives broken link for import apps,https://bugs.launchpad.net/murano/+bug/1542776,2016-09-01
+1617322,1617322,Fix Released,[Dashboard] Delete button is not enabled when an environment is in 'delete failure' status,https://bugs.launchpad.net/murano/+bug/1617322,2016-09-01
+1618222,1618222,Fix Released,[glare][dashboard] when using glare and uploading a package 'public' flag is ignored,https://bugs.launchpad.net/murano/+bug/1618222,2016-09-01
+1610181,1610181,Fix Released,"[agent] py34 gate tests are red, due to string comparison in json",https://bugs.launchpad.net/murano/+bug/1610181,2016-09-01
+1595827,1595827,Fix Released,raw_input() raises NameError in python3,https://bugs.launchpad.net/ceilometer/+bug/1595827,2016-09-01
+1595827,1595827,Fix Released,raw_input() raises NameError in python3,https://bugs.launchpad.net/heat/+bug/1595827,2016-09-01
+1595827,1595827,Fix Released,raw_input() raises NameError in python3,https://bugs.launchpad.net/vmware-nsx/+bug/1595827,2016-09-01
+1595827,1595827,Fix Released,raw_input() raises NameError in python3,https://bugs.launchpad.net/aodh/+bug/1595827,2016-09-01
+1612385,1612385,Fix Released,Add fault field from trove show,https://bugs.launchpad.net/trove-dashboard/+bug/1612385,2016-09-01
+1612096,1612096,Fix Released,Confirm before instance delete,https://bugs.launchpad.net/trove-dashboard/+bug/1612096,2016-09-01
+1571711,1571711,Fix Released,Add New Relic License module driver,https://bugs.launchpad.net/trove/+bug/1571711,2016-09-01
+1592099,1592099,Fix Released,Fix user & database pagination in guests,https://bugs.launchpad.net/trove/+bug/1592099,2016-09-01
+1344113,1344113,Fix Released,Ophaned Volume Not Removed on Instance Delete,https://bugs.launchpad.net/trove/+bug/1344113,2016-09-01
+1585355,1585355,Fix Released,PXC has a different secure method - this should be collapsed into the base 'mysql' secure,https://bugs.launchpad.net/trove/+bug/1585355,2016-09-01
+1261876,1261876,Fix Released,flavor details do not show virtual cpu number,https://bugs.launchpad.net/trove/+bug/1261876,2016-09-01
+1603187,1603187,Fix Released,Flavor ids with leading '0' not supported in Trove,https://bugs.launchpad.net/trove/+bug/1603187,2016-09-01
+1599656,1599656,Fix Released,Incorrect variable argument type on configuration detach,https://bugs.launchpad.net/trove/+bug/1599656,2016-09-01
+1604131,1604131,Fix Released,Add missing LOG variable to fix scenario tests,https://bugs.launchpad.net/trove/+bug/1604131,2016-09-01
+1380880,1380880,Fix Released,New user wrongly given access permissions to databases,https://bugs.launchpad.net/trove/+bug/1380880,2016-09-01
+1605385,1605385,Fix Released,Define safe pid-file and socket paths in MySQL config,https://bugs.launchpad.net/trove/+bug/1605385,2016-09-01
+1606374,1606374,Fix Released,Mysql Replication fails if the master has a pre-existing full backup,https://bugs.launchpad.net/trove/+bug/1606374,2016-09-01
+1604914,1604914,Fix Released,Mysql Replication fails for more complex GTID use cases,https://bugs.launchpad.net/trove/+bug/1604914,2016-09-01
+1609084,1609084,Fix Released,"tcp_ports configuration issue for couchdb, db2, pxc with port 22 in devstack",https://bugs.launchpad.net/trove/+bug/1609084,2016-09-01
+1485884,1485884,Fix Released,Introduce ICMP option for DB security group,https://bugs.launchpad.net/trove/+bug/1485884,2016-09-01
+1269615,1269615,Fix Released,log rotation needed for guestagent,https://bugs.launchpad.net/trove/+bug/1269615,2016-09-01
+1550557,1550557,Fix Released,Add guest log retrieval for Cassandra,https://bugs.launchpad.net/trove/+bug/1550557,2016-09-01

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1486300,1486300,Fix Released,"ICMP port code should be checked in range [0,255]",https://bugs.launchpad.net/neutron/+bug/1486300,2015-10-15
+1478012,1478012,Fix Released,VPNaaS: Support VPNaaS with L3 HA,https://bugs.launchpad.net/neutron/+bug/1478012,2015-10-15
+1475498,1475498,Fix Released,"test_l2_ovs_agent: ""port value out of range for in_port""",https://bugs.launchpad.net/neutron/+bug/1475498,2015-10-15
+1455338,1455338,Fix Released,OVS-agent: KeyError for local_vlan_map,https://bugs.launchpad.net/neutron/+bug/1455338,2015-10-15
+1454772,1454772,Fix Released,VPNaaS: tox -ecover fails,https://bugs.launchpad.net/neutron/+bug/1454772,2015-10-15
+1495508,1495508,Fix Released,l2population driver registers duplicate topics,https://bugs.launchpad.net/neutron/+bug/1495508,2015-10-15
+1487598,1487598,Fix Released,Remove vendor AGENT_TYPE_* constants,https://bugs.launchpad.net/neutron/+bug/1487598,2015-10-15
+1496424,1496424,Fix Released,gate-neutron-python27(34)-constraints jobs blowing up in gate due to misconfig,https://bugs.launchpad.net/neutron/+bug/1496424,2015-10-15
+1494021,1494021,Fix Released,tests.unit.quota.test_resource can randomly fail,https://bugs.launchpad.net/neutron/+bug/1494021,2015-10-15
+1493886,1493886,Fix Released,Neutron notifier for Nova uses old hacks for nova extensions,https://bugs.launchpad.net/neutron/+bug/1493886,2015-10-15
+1492909,1492909,Fix Released,QoS: Sr-IOV Agent  doens't clear VF rate when deleteing VM,https://bugs.launchpad.net/neutron/+bug/1492909,2015-10-15
+1492283,1492283,Fix Released,Add ability to use custom config in DHCP-agent,https://bugs.launchpad.net/neutron/+bug/1492283,2015-10-15
+1480338,1480338,Fix Released,neutron-fwaas: Enable python34 support,https://bugs.launchpad.net/neutron/+bug/1480338,2015-10-15
+1468332,1468332,Fix Released,sriov agent causes incorrect port state if sriov driver doesn't support 'ip link vf state' setting,https://bugs.launchpad.net/neutron/+bug/1468332,2015-10-15
+1496578,1496578,Fix Released,SNAT port not found for the given internal port error message seen when gateway is removed for DVR routers.,https://bugs.launchpad.net/neutron/+bug/1496578,2015-10-15
+1494996,1494996,Fix Released,l3 scheduler get_candidates returns non-iterable,https://bugs.launchpad.net/neutron/+bug/1494996,2015-10-15
+1494667,1494667,Fix Released,Switch to load based schedulers,https://bugs.launchpad.net/neutron/+bug/1494667,2015-10-15
+1489671,1489671,Fix Released,Neutron L3 sync_routers logic process all router ports from database when even sync for a specific router,https://bugs.launchpad.net/neutron/+bug/1489671,2015-10-15
+1488996,1488996,Fix Released,QoS doesn't work when a mechanism driver which doesn't implement bind_port explicitly supports it,https://bugs.launchpad.net/neutron/+bug/1488996,2015-10-15
+1468007,1468007,Fix Released,Delete the FloatingIP Agent Gateway Port only when External Network is deleted and also delete the port based on Agents decision.,https://bugs.launchpad.net/neutron/+bug/1468007,2015-10-15
+1450982,1450982,Fix Released,DVR: Moving FloatingIP between hosts can lead to Floating Agent Gateway Port not being deleted,https://bugs.launchpad.net/neutron/+bug/1450982,2015-10-15
+1449897,1449897,Fix Released,neutron.agent.linux.utils.execute() fails to handle decoding in system locale (eg: Japanese),https://bugs.launchpad.net/neutron/+bug/1449897,2015-10-15
+1445690,1445690,Fix Released,"""legacy"" admin rule does not work and is not needed anymore",https://bugs.launchpad.net/neutron/+bug/1445690,2015-10-15
+1408855,1408855,Fix Released,Deleting floating ip fails in concurrent scenario,https://bugs.launchpad.net/neutron/+bug/1408855,2015-10-15
+1329223,1329223,Fix Released,ovs agent resync may miss port remove event,https://bugs.launchpad.net/neutron/+bug/1329223,2015-10-15
+1498665,1498665,Fix Released,no dnsmasq name resolution for IPv6 addresses,https://bugs.launchpad.net/neutron/+bug/1498665,2015-10-15
+1497459,1497459,Fix Released,port usage tracking not reliable anymore,https://bugs.launchpad.net/neutron/+bug/1497459,2015-10-15
+1497450,1497450,Fix Released,DNS lookup code in get_ports needs to be optimized,https://bugs.launchpad.net/neutron/+bug/1497450,2015-10-15
+1496974,1496974,Fix Released,Improve performance of _get_dvr_sync_data,https://bugs.launchpad.net/neutron/+bug/1496974,2015-10-15
+1496239,1496239,Fix Released,neutron-fwaas check_migartion fails,https://bugs.launchpad.net/neutron/+bug/1496239,2015-10-15
+1495592,1495592,Fix Released,"In DHCP agent, resync only for the required networks when sync_state fails",https://bugs.launchpad.net/neutron/+bug/1495592,2015-10-15
+1495523,1495523,Fix Released,router-interface-add fails with error 500 on PostgreSQL,https://bugs.launchpad.net/neutron/+bug/1495523,2015-10-15
+1495147,1495147,Fix Released,type error delete_floatingip_agent_gateway_port,https://bugs.launchpad.net/neutron/+bug/1495147,2015-10-15
+1494336,1494336,Fix Released,Neutron traceback when an external network without IPv6 subnet is attached to an HA Router,https://bugs.launchpad.net/neutron/+bug/1494336,2015-10-15
+1493396,1493396,Fix Released,Enable rootwrap daemon logging during functional tests,https://bugs.launchpad.net/neutron/+bug/1493396,2015-10-15
+1490043,1490043,Fix Released,test_keepalived_respawns fails when trying to kill -15,https://bugs.launchpad.net/neutron/+bug/1490043,2015-10-15
+1489014,1489014,Fix Released,ovs agen _bind_devices should query only existing ports,https://bugs.launchpad.net/neutron/+bug/1489014,2015-10-15
+1486134,1486134,Fix Released,Reservations code triggers deadlocks and lock wait timeouts,https://bugs.launchpad.net/neutron/+bug/1486134,2015-10-15
+1484135,1484135,Fix Released,DetachedInstanceError on network delete,https://bugs.launchpad.net/neutron/+bug/1484135,2015-10-15
+1479130,1479130,Fix Released,DVR:Removing an interface from router with multiple interfaces and with ext gw set does not remove interface from SNAT namespace,https://bugs.launchpad.net/neutron/+bug/1479130,2015-10-15
+1478847,1478847,Fix Released,"test_udp_{input|output}.* fails with "" AssertionError: RuntimeError not raised.""",https://bugs.launchpad.net/neutron/+bug/1478847,2015-10-15
+1477860,1477860,Fix Released,TestAsyncProcess.test_async_process_respawns fails with TimeoutException,https://bugs.launchpad.net/neutron/+bug/1477860,2015-10-15
+1473110,1473110,Fix Released,Can't declare service providers both in neutron.conf and in neutron_*aas.conf,https://bugs.launchpad.net/neutron/+bug/1473110,2015-10-15
+1463129,1463129,Fix Released,Plugins have no way to do post-api/rpc worker fork initialization,https://bugs.launchpad.net/neutron/+bug/1463129,2015-10-15
+1495937,1495937,Fix Released,test_killed_monitor_respawns fails with MismatchError,https://bugs.launchpad.net/neutron/+bug/1495937,2015-10-15
+1495040,1495040,Fix Released,test_filtering_shared_networks fails intermittently,https://bugs.launchpad.net/neutron/+bug/1495040,2015-10-15
+1494886,1494886,Fix Released,Neutron DBDeadlocks a ridiculous amount in successful CI runs,https://bugs.launchpad.net/neutron/+bug/1494886,2015-10-15
+1494114,1494114,Fix Released,Bad router request: Router already has a port on subnet,https://bugs.launchpad.net/neutron/+bug/1494114,2015-10-15
+1490594,1490594,Fix Released,Incorrect neutron-ns-metadata command when watch_log is False,https://bugs.launchpad.net/neutron/+bug/1490594,2015-10-15
+1489952,1489952,Fix Released,_call_on_dict_driver debug statements are ridiculously verbose,https://bugs.launchpad.net/neutron/+bug/1489952,2015-10-15
+1489788,1489788,Fix Released,typo in doc string of subnet_alloc.py,https://bugs.launchpad.net/neutron/+bug/1489788,2015-10-15
+1489716,1489716,Fix Released,Patching an object which could be gone during test cleanup randomly fails at TestQosPlugin,https://bugs.launchpad.net/neutron/+bug/1489716,2015-10-15
+1489125,1489125,Fix Released,FWaaS Long name or description causes 500,https://bugs.launchpad.net/neutron/+bug/1489125,2015-10-15
+1489060,1489060,Fix Released,SR-IOV configuration file should be split into agent and driver pieces,https://bugs.launchpad.net/neutron/+bug/1489060,2015-10-15
+1488868,1488868,Fix Released,failed to run test_qos_plugin.TestQosPlugin independently,https://bugs.launchpad.net/neutron/+bug/1488868,2015-10-15
+1488298,1488298,Fix Released,lb-agent: delete-vlan-bridge and delete-vlan doesn't only work with vlan,https://bugs.launchpad.net/neutron/+bug/1488298,2015-10-15
+1488032,1488032,Fix Released,"""name 'NetworkRBAC' is not defined"" Error when quering the db directly using models_v2",https://bugs.launchpad.net/neutron/+bug/1488032,2015-10-15
+1487435,1487435,Fix Released,don't hardcode tunnel bridge name in setup_tunnel_br,https://bugs.launchpad.net/neutron/+bug/1487435,2015-10-15
+1487324,1487324,Fix Released,failed to list qos rule type due to policy check,https://bugs.launchpad.net/neutron/+bug/1487324,2015-10-15
+1487322,1487322,Fix Released,fullstack oslo messaging deprecation warning for configuration,https://bugs.launchpad.net/neutron/+bug/1487322,2015-10-15
+1487053,1487053,Fix Released,validate_local_ip shouldn't run if no tunneling is enabled,https://bugs.launchpad.net/neutron/+bug/1487053,2015-10-15
+1486848,1486848,Fix Released,The neutron-server document contains broken link,https://bugs.launchpad.net/neutron/+bug/1486848,2015-10-15
+1486662,1486662,Fix Released,Decomposition of ML2 Nuage mechanism driver,https://bugs.launchpad.net/neutron/+bug/1486662,2015-10-15
+1486528,1486528,Fix Released,fullstack tests rely on db models instead of migration scripts,https://bugs.launchpad.net/neutron/+bug/1486528,2015-10-15
+1486379,1486379,Fix Released,l2population raises an squashed exception,https://bugs.launchpad.net/neutron/+bug/1486379,2015-10-15
+1486314,1486314,Fix Released,verification of tenant_id should be  consist,https://bugs.launchpad.net/neutron/+bug/1486314,2015-10-15
+1486279,1486279,Fix Released,Remove vendor VIF_TYPE_* constants,https://bugs.launchpad.net/neutron/+bug/1486279,2015-10-15
+1486277,1486277,Fix Released,Remove VIF_TYPES constant,https://bugs.launchpad.net/neutron/+bug/1486277,2015-10-15
+1486081,1486081,Fix Released,safe_client fails in cleanup if resource was removed explicitly,https://bugs.launchpad.net/neutron/+bug/1486081,2015-10-15
+1486053,1486053,Fix Released,get get_policy_bandwidth_limit_rules_for_policy return all bw rules and  not filter by qos policy,https://bugs.launchpad.net/neutron/+bug/1486053,2015-10-15
+1486028,1486028,Fix Released,"If you attach a QoS policy to a network, agents handling the port networks are not notified",https://bugs.launchpad.net/neutron/+bug/1486028,2015-10-15
+1485993,1485993,Fix Released,Tenants could potentially modify rules from not owned policies,https://bugs.launchpad.net/neutron/+bug/1485993,2015-10-15
+1485969,1485969,Fix Released,"test_dualnet_multi_prefix_dhcpv6_stateless failed due to ""RuntimeError: Set changed size during iteration"" in quota code",https://bugs.launchpad.net/neutron/+bug/1485969,2015-10-15
+1485926,1485926,Fix Released,Delete qos policy fails due to missing ON DELETE CASCADE,https://bugs.launchpad.net/neutron/+bug/1485926,2015-10-15
+1485858,1485858,Fix Released,"Tenants cannot access or attach QoS policies even if shared, but can create policies",https://bugs.launchpad.net/neutron/+bug/1485858,2015-10-15

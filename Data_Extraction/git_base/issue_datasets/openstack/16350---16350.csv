@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1741848,1741848,Fix Released,Zuul check 'openstack-tox-py27' is failing with cryptography version,https://bugs.launchpad.net/openstack-requirements/+bug/1741848,2018-01-10
+1673910,1673910,Fix Released,libvirt racing with linux bridge agent,https://bugs.launchpad.net/neutron/+bug/1673910,2018-01-10
+1739405,1739405,Fix Released,Need to remove 'mac' from iSCSI boot related interfaces,https://bugs.launchpad.net/proliantutils/+bug/1739405,2018-01-10
+1694441,1694441,Fix Released,Add `img_hide_hypervisor_id` image property,https://bugs.launchpad.net/glance/+bug/1694441,2018-01-10
+1735935,1735935,Fix Released,get_html_theme_path() is commented out in glance-specs doc conf.py,https://bugs.launchpad.net/glance/+bug/1735935,2018-01-10
+1715451,1715451,Fix Released,Castellan 0.13.0 doesn't work with ConfKeyManager due to missing list() abstract method,https://bugs.launchpad.net/cinder/+bug/1715451,2018-01-10
+1715451,1715451,Fix Released,Castellan 0.13.0 doesn't work with ConfKeyManager due to missing list() abstract method,https://bugs.launchpad.net/castellan/+bug/1715451,2018-01-10
+1715451,1715451,Fix Released,Castellan 0.13.0 doesn't work with ConfKeyManager due to missing list() abstract method,https://bugs.launchpad.net/openstack-requirements/+bug/1715451,2018-01-10
+1738810,1738810,Fix Released,debugging of ceph installations in pike should have simple ansible verbosity option,https://bugs.launchpad.net/tripleo/+bug/1738810,2018-01-10
+1717251,1717251,Fix Released,nova has no disk space when overcloud is deployed with ceph-ansible,https://bugs.launchpad.net/tripleo/+bug/1717251,2018-01-10
+1686716,1686716,Fix Released,Undercloud deploy is not idempotent,https://bugs.launchpad.net/tripleo/+bug/1686716,2018-01-10
+1698349,1698349,Fix Released,"mysql_init_tasks throws ERROR 1045 on containerized undercloud, when doing consequent re-deployments",https://bugs.launchpad.net/tripleo/+bug/1698349,2018-01-10
+1732947,1732947,Fix Released,volume-backed instance rebuild with no image change is still going through scheduler,https://bugs.launchpad.net/nova/+bug/1732947,2018-01-10
+1630420,1630420,Fix Released,config_drive unit tests (libvirt driver) aren't mocking genisoimage,https://bugs.launchpad.net/nova/+bug/1630420,2018-01-10
+1698201,1698201,Fix Released,Upper case letters in HostnameFormat parameters cause trouble,https://bugs.launchpad.net/tripleo/+bug/1698201,2018-01-09
+1453667,1453667,Fix Released,document port security behavior when updating network,https://bugs.launchpad.net/neutron/+bug/1453667,2018-01-09
+1716081,1716081,Fix Released,Validate security group rules for port ranges,https://bugs.launchpad.net/neutron/+bug/1716081,2018-01-09
+1718385,1718385,Fix Released,invalid segmentation_id 0 does not return friendly error,https://bugs.launchpad.net/neutron/+bug/1718385,2018-01-09
+1639254,1639254,Fix Released,No API ref for agent extension,https://bugs.launchpad.net/neutron/+bug/1639254,2018-01-09
+1717233,1717233,Fix Released,BGPVPN empty string in Route Target is accepted,https://bugs.launchpad.net/bgpvpn/+bug/1717233,2018-01-09
+1733367,1733367,Fix Released,external_net extension not properly documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733367,2018-01-09
+1733387,1733387,Fix Released,qos_rule_type_details not properly doc'd in api-ref,https://bugs.launchpad.net/neutron/+bug/1733387,2018-01-09
+1738371,1738371,Fix Released,Neutron API port range validation not working correctly,https://bugs.launchpad.net/neutron/+bug/1738371,2018-01-09
+1723452,1723452,Fix Released,Move placement API to neutron-lib,https://bugs.launchpad.net/neutron/+bug/1723452,2018-01-09
+1668939,1668939,Fix Released,Files owned by root in ~/.cache directory on the undercloud,https://bugs.launchpad.net/tripleo/+bug/1668939,2018-01-09
+1734992,1734992,Fix Released,Tokens in Security Guide,https://bugs.launchpad.net/ossp-security-documentation/+bug/1734992,2018-01-09
+1668304,1668304,Fix Released,Cinder Ceph backend doesn't provide not regular keyring files,https://bugs.launchpad.net/cinder/+bug/1668304,2018-01-09
+1702506,1702506,Fix Released,designate python client is lacking support for tsig-keys,https://bugs.launchpad.net/python-designateclient/+bug/1702506,2018-01-09
+1714460,1714460,Fix Released,Incorrect error handling for failed requests,https://bugs.launchpad.net/python-designateclient/+bug/1714460,2018-01-09
+1736161,1736161,Fix Released,The records option gobbles up all trailing parameters,https://bugs.launchpad.net/python-designateclient/+bug/1736161,2018-01-09
+1738300,1738300,Fix Released,TokenNotFound at WARNING level spamming logs,https://bugs.launchpad.net/keystonemiddleware/+bug/1738300,2018-01-09
+1693813,1693813,Fix Released,[RFE] provide a dnsmasq PXE filter driver,https://bugs.launchpad.net/ironic-inspector/+bug/1693813,2018-01-09
+1722267,1722267,Fix Released,[RFE] Allow concurrect updating of dnsmasq configuration,https://bugs.launchpad.net/ironic-inspector/+bug/1722267,2018-01-09
+1723384,1723384,Fix Released,[HA] discrepancies when a decorated fsm_transition calls node_info.finished inside,https://bugs.launchpad.net/ironic-inspector/+bug/1723384,2018-01-09
+1721230,1721230,Fix Released,[HA] node_info.finished(error!=None): always set error in the DB no matter race conditions,https://bugs.launchpad.net/ironic-inspector/+bug/1721230,2018-01-09
+1721233,1721233,Fix Released,[HA] node_info.finished(error=!None) doesn't update state,https://bugs.launchpad.net/ironic-inspector/+bug/1721233,2018-01-09
+1681073,1681073,Fix Released,Create Consistency Group form has an exception,https://bugs.launchpad.net/horizon/+bug/1681073,2018-01-09
+1729586,1729586,Fix Released,CI: rdocloud node randomly going offline during jobs,https://bugs.launchpad.net/tripleo/+bug/1729586,2018-01-08
+1714965,1714965,Fix Released,"""profiles"" commands should check nova hypervisors",https://bugs.launchpad.net/tripleo/+bug/1714965,2018-01-08
+1736606,1736606,Fix Released,tripleoclient: wrong default for --overcloud-ssh-key,https://bugs.launchpad.net/tripleo/+bug/1736606,2018-01-08
+1557238,1557238,Fix Released,mapping yield no valid identity result in HTTP 500 error,https://bugs.launchpad.net/keystone/+bug/1557238,2018-01-08
+1396152,1396152,Fix Released,container partitions directories never removed,https://bugs.launchpad.net/swift/+bug/1396152,2018-01-08
+1593641,1593641,Fix Released,Strange errors when using dump/dumps from jsonutils,https://bugs.launchpad.net/nova/+bug/1593641,2018-01-08
+1497993,1497993,Fix Released,Barbican plugin needs config it could get from catalog,https://bugs.launchpad.net/castellan/+bug/1497993,2018-01-08
+1727988,1727988,Fix Released,_setUpExtension signature change breaking unit tests,https://bugs.launchpad.net/bgpvpn/+bug/1727988,2018-01-08
+1727988,1727988,Fix Released,_setUpExtension signature change breaking unit tests,https://bugs.launchpad.net/networking-sfc/+bug/1727988,2018-01-08
+1727988,1727988,Fix Released,_setUpExtension signature change breaking unit tests,https://bugs.launchpad.net/neutron/+bug/1727988,2018-01-08
+1728267,1728267,Fix Released,TLS Deployments don't work in Pike,https://bugs.launchpad.net/tripleo/+bug/1728267,2018-01-08
+1709653,1709653,Fix Released,OsNetConfigMappings should be case insensitive in os-net-config-mappings.yaml,https://bugs.launchpad.net/tripleo/+bug/1709653,2018-01-08
+1735731,1735731,Fix Released,Ocata to Pike upgrade: can't skip pre-upgrade validations on the non-controllers with upgrade-non-controller.sh,https://bugs.launchpad.net/tripleo/+bug/1735731,2018-01-08
+1732335,1732335,Fix Released,non-existent paths do not raise correct exception,https://bugs.launchpad.net/tripleo/+bug/1732335,2018-01-08
+1739835,1739835,Fix Released,Enable Sensu repo in override template,https://bugs.launchpad.net/tripleo/+bug/1739835,2018-01-08
+1645787,1645787,Fix Released,CI ovb-ha job is broken on Galera setup with Puppet4,https://bugs.launchpad.net/tripleo/+bug/1645787,2018-01-08
+1619363,1619363,Fix Released,add explicit osc node power on|off commands,https://bugs.launchpad.net/python-ironicclient/+bug/1619363,2018-01-08
+1704674,1704674,Fix Released,ansible 2.4 needs plugins changes,https://bugs.launchpad.net/openstack-ansible/+bug/1704674,2018-01-08
+1737335,1737335,Fix Released,"tripleo-ui package fails to build in DLRN in ""npm run build""",https://bugs.launchpad.net/tripleo/+bug/1737335,2018-01-08
+1669087,1669087,Fix Released,linuxbridge-agent fails to start due to interface not having a mac address,https://bugs.launchpad.net/neutron/+bug/1669087,2018-01-06
+1702211,1702211,Fix Released,test_password_history_not_enforced_in_admin_reset failed in tempest test,https://bugs.launchpad.net/keystone/+bug/1702211,2018-01-06
+1695992,1695992,Fix Committed,Cleanup the containers at zunclient funtional tests,https://bugs.launchpad.net/zun/+bug/1695992,2018-01-05
+1658365,1658365,Fix Committed,Add image-search command to client,https://bugs.launchpad.net/zun/+bug/1658365,2018-01-05
+1721993,1721993,Fix Released,libvirt volume drivers using deprecated os-brick constants,https://bugs.launchpad.net/nova/+bug/1721993,2018-01-05
+1741088,1741088,Fix Released,corner https case for config intfcfg_portchannel,https://bugs.launchpad.net/networking-cisco/+bug/1741088,2018-01-05
+1693533,1693533,Fix Released,ML2 Cisco UCSM MD: Add config variable to disable ssl certificate checks with UcsSdk,https://bugs.launchpad.net/networking-cisco/+bug/1693533,2018-01-05
+1727670,1727670,Fix Released,Set one time boot not working second time in ISCSI Boot,https://bugs.launchpad.net/proliantutils/+bug/1727670,2018-01-05
+1596084,1596084,Fix Released,Nova complains of poorly configured glance_api_servers,https://bugs.launchpad.net/openstack-ansible/+bug/1596084,2018-01-04
+1662585,1662585,Fix Released,Convergence doubles up on DB writes for resource locks,https://bugs.launchpad.net/heat/+bug/1662585,2018-01-04
+1640125,1640125,Fix Released,Remove useless service mgr detection,https://bugs.launchpad.net/openstack-ansible/+bug/1640125,2018-01-04
+1688722,1688722,Fix Released,Fail to create event when update vnf,https://bugs.launchpad.net/tacker/+bug/1688722,2018-01-04
+1718788,1718788,Fix Released,DVR: Migrate centralized unbound floatingip to the respective host when  the port is bound,https://bugs.launchpad.net/neutron/+bug/1718788,2018-01-03
+1727180,1727180,Fix Released,neutron.tests.tempest.api.admin.test_tag assumes some extensions,https://bugs.launchpad.net/neutron/+bug/1727180,2018-01-03
+1715842,1715842,Fix Released,Wrong information about DNS resolution in admin guide,https://bugs.launchpad.net/neutron/+bug/1715842,2018-01-03
+1731871,1731871,Fix Released,Safe defaults script attempts to configure dhcp on vnet,https://bugs.launchpad.net/tripleo/+bug/1731871,2018-01-03
+1722640,1722640,Fix Released,"pike promotion errors, overcloud images and containers were not promoted properly",https://bugs.launchpad.net/tripleo/+bug/1722640,2018-01-03
+1739661,1739661,Fix Released,Tracker Bug: Intermittent failures creating OVB stacks on RDO Cloud since upgrade,https://bugs.launchpad.net/tripleo/+bug/1739661,2018-01-03
+1737617,1737617,Fix Released,master promoter script looping and failing since 12/9,https://bugs.launchpad.net/tripleo/+bug/1737617,2018-01-03

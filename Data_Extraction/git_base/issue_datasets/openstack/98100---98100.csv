@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+821019,821019,Fix Released,Enable ServiceNET for Swift backend,https://bugs.launchpad.net/glance/+bug/821019,2011-09-22
+820090,820090,Fix Released,Logging str(Exception) considered harmful,https://bugs.launchpad.net/glance/+bug/820090,2011-09-22
+819551,819551,Fix Released,Registry db api marker implementation does not respect sort_key/sort_dir,https://bugs.launchpad.net/glance/+bug/819551,2011-09-22
+818916,818916,Fix Released,kombu needs packages added to Glance PPA,https://bugs.launchpad.net/glance/+bug/818916,2011-09-22
+772397,772397,Fix Released,Empty logfiles after logrotating with logrotated,https://bugs.launchpad.net/glance/+bug/772397,2011-09-22
+713154,713154,Fix Released,S3 Backend doesn't support POST either.,https://bugs.launchpad.net/glance/+bug/713154,2011-09-22
+829654,829654,Fix Released,glance/tests/functional/test_api.py tests expected values against expected values,https://bugs.launchpad.net/glance/+bug/829654,2011-09-22
+825493,825493,Fix Released,Glance client requires gettext module,https://bugs.launchpad.net/glance/+bug/825493,2011-09-22
+824690,824690,Fix Released,Glance incorrectly checking whether image-cache is enabled,https://bugs.launchpad.net/glance/+bug/824690,2011-09-22
+820047,820047,Fix Released,Installs top-level tests module,https://bugs.launchpad.net/glance/+bug/820047,2011-09-22
+827660,827660,Fix Released,Cannot store files greater than 5GB in Swift,https://bugs.launchpad.net/glance/+bug/827660,2011-09-22
+818292,818292,Fix Released,Unable to register image with FS backend,https://bugs.launchpad.net/glance/+bug/818292,2011-09-22
+839559,839559,Fix Released,update the glance config files with keystone auth examples,https://bugs.launchpad.net/glance/+bug/839559,2011-09-22
+828719,828719,Fix Released,"glance/common/config.py find_config_file() loads config files from "".""",https://bugs.launchpad.net/glance/+bug/828719,2011-09-22
+726864,726864,Fix Released,Variable `id` shadowing builtin,https://bugs.launchpad.net/glance/+bug/726864,2011-09-22
+825419,825419,Fix Released,Functional tests for private and shared images,https://bugs.launchpad.net/glance/+bug/825419,2011-09-22
+825024,825024,Fix Released,'glance add' treats size=xxx as a normal property,https://bugs.launchpad.net/glance/+bug/825024,2011-09-22
+851216,851216,Fix Released,TestMigrations should default to sqlite,https://bugs.launchpad.net/glance/+bug/851216,2011-09-22
+849368,849368,Fix Released,Image properties min_ram and min_disk are non-existant,https://bugs.launchpad.net/glance/+bug/849368,2011-09-22
+853930,853930,Fix Released,No documentation on client authentication and environ variables,https://bugs.launchpad.net/glance/+bug/853930,2011-09-22
+851016,851016,Fix Released,test_migrations.py isn't working properly,https://bugs.launchpad.net/glance/+bug/851016,2011-09-22
+794582,794582,Fix Released,glance sets image size to 0 for http images -> yields connection reset error on GET,https://bugs.launchpad.net/glance/+bug/794582,2011-09-22
+833285,833285,Fix Released,swift store delete only removes manifest,https://bugs.launchpad.net/glance/+bug/833285,2011-09-22
+755916,755916,Fix Released,Location field reveals security and filesystem locations,https://bugs.launchpad.net/glance/+bug/755916,2011-09-22
+804429,804429,Fix Released,Cannot stream http image,https://bugs.launchpad.net/glance/+bug/804429,2011-09-22
+758404,758404,Fix Released,euca-attach-volume fails when using RBD driver,https://bugs.launchpad.net/nova/+bug/758404,2011-09-21
+712982,712982,Fix Released,attach volume while status is 'creating',https://bugs.launchpad.net/horizon/+bug/712982,2011-09-19
+712982,712982,Fix Released,attach volume while status is 'creating',https://bugs.launchpad.net/nova/+bug/712982,2011-09-19
+848973,848973,Fix Released,Nova fails to build in milestone-proposed PPA,https://bugs.launchpad.net/openstack-ci/+bug/848973,2011-09-16
+827070,827070,Fix Released,need python webtest module in quantum build slave,https://bugs.launchpad.net/openstack-ci/+bug/827070,2011-09-15
+829587,829587,Fix Released,"Large Objects/Manifests ignore allowed_headers (Content-Encoding, Content-Disposition, ...)",https://bugs.launchpad.net/swift/+bug/829587,2011-09-12
+838905,838905,Fix Released,Last modified date for Swift3 middleware isn't formatted correctly,https://bugs.launchpad.net/swift/+bug/838905,2011-09-12
+812092,812092,Fix Released,swift3 uses incorrect content/type for xml,https://bugs.launchpad.net/swift/+bug/812092,2011-09-12
+817766,817766,Fix Released,"swift tool upload does't strip initial ""/"" of an object when object",https://bugs.launchpad.net/swift/+bug/817766,2011-09-12
+820185,820185,Fix Released,Intermittent TypeError NoneType in atexit handler of unit tests,https://bugs.launchpad.net/swift/+bug/820185,2011-09-12
+837409,837409,Fix Released,object auditor crashed,https://bugs.launchpad.net/swift/+bug/837409,2011-09-12
+837428,837428,Fix Released,HTTP_X_NEWEST requests require objects to have a timestamp header,https://bugs.launchpad.net/swift/+bug/837428,2011-09-12
+825489,825489,Fix Released,new gerrit build lost documentation links,https://bugs.launchpad.net/openstack-ci/+bug/825489,2011-09-09
+845698,845698,Fix Released,Jenkins job swift-docs-archive doesn't build correctly for a specific release number based on bzr branch variable,https://bugs.launchpad.net/openstack-ci/+bug/845698,2011-09-09
+745231,745231,Fix Released,"nova-manage reports ""Command Failed""",https://bugs.launchpad.net/nova/+bug/745231,2011-09-07
+843188,843188,Fix Released,Fix failing tests.Support global Admin role.,https://bugs.launchpad.net/keystone/+bug/843188,2011-09-06
+843187,843187,Fix Released,Changes to support Base URL Refs.,https://bugs.launchpad.net/keystone/+bug/843187,2011-09-06
+843186,843186,Fix Released,POST /users allows creation of user with no password,https://bugs.launchpad.net/keystone/+bug/843186,2011-09-06
+843185,843185,Fix Released,No such model UserTenantAssociation,https://bugs.launchpad.net/keystone/+bug/843185,2011-09-06
+843184,843184,Fix Released,SPEC incorrect about POST /tokens,https://bugs.launchpad.net/keystone/+bug/843184,2011-09-06
+843183,843183,Fix Released,SPEC incorrect about return from POST /tokens,https://bugs.launchpad.net/keystone/+bug/843183,2011-09-06
+843182,843182,Fix Released,Unit tests should not require server(s) to be started,https://bugs.launchpad.net/keystone/+bug/843182,2011-09-06
+843181,843181,Fix Released,Name of primary key of Token model inconsistent,https://bugs.launchpad.net/keystone/+bug/843181,2011-09-06
+843180,843180,Fix Released,Adds unit testing base class that takes care of,https://bugs.launchpad.net/keystone/+bug/843180,2011-09-06
+843179,843179,Fix Released,ValidateToken call to return roles,https://bugs.launchpad.net/keystone/+bug/843179,2011-09-06
+843178,843178,Fix Released,Changes to return rolerefs when validate token call is made.,https://bugs.launchpad.net/keystone/+bug/843178,2011-09-06
+843177,843177,Fix Released,Content-type incorrect when 404 returned,https://bugs.launchpad.net/keystone/+bug/843177,2011-09-06
+843176,843176,Fix Released,Add test case for verifying GET /v2.0/tokens returns 404 Not Found,https://bugs.launchpad.net/keystone/+bug/843176,2011-09-06
+843175,843175,Fix Released,Code change to support get tenants and to return roles as a part of validate token call.,https://bugs.launchpad.net/keystone/+bug/843175,2011-09-06
+843173,843173,Fix Released,Support service catalog.,https://bugs.launchpad.net/keystone/+bug/843173,2011-09-06
+843172,843172,Fix Released,Support service catalog.,https://bugs.launchpad.net/keystone/+bug/843172,2011-09-06
+843171,843171,Fix Released,Adds more unit tests for v2 Admin API for authentication and GET /tokens/<TOKENID>,https://bugs.launchpad.net/keystone/+bug/843171,2011-09-06
+843170,843170,Fix Released,Admin API GET /tokens/<TOKEN_ID> returned result does not match documentation,https://bugs.launchpad.net/keystone/+bug/843170,2011-09-06
+843169,843169,Fix Released,Changes to return service catalog.,https://bugs.launchpad.net/keystone/+bug/843169,2011-09-06
+843168,843168,Fix Released,Changes to return service catalog and support auth 1.0 style calls.,https://bugs.launchpad.net/keystone/+bug/843168,2011-09-06
+843167,843167,Fix Released,Changes to return service catalog and support auth 1.0/1.1 style calls.,https://bugs.launchpad.net/keystone/+bug/843167,2011-09-06
+843166,843166,Fix Released,Doc changes.,https://bugs.launchpad.net/keystone/+bug/843166,2011-09-06
+843165,843165,Fix Released,Put updated Swift Quickstart into README.md,https://bugs.launchpad.net/keystone/+bug/843165,2011-09-06
+843164,843164,Fix Released,Fix test directory location,https://bugs.launchpad.net/keystone/+bug/843164,2011-09-06
+843163,843163,Fix Released,Make 'Admin' role name for Keystone configurable,https://bugs.launchpad.net/keystone/+bug/843163,2011-09-06
+843162,843162,Fix Released,Moving user calls out of tenants.,https://bugs.launchpad.net/keystone/+bug/843162,2011-09-06
+843161,843161,Fix Released,Adds Sphinx build ability and RST documentation.,https://bugs.launchpad.net/keystone/+bug/843161,2011-09-06
+843160,843160,Fix Released,Minor fixes,https://bugs.launchpad.net/keystone/+bug/843160,2011-09-06
+843159,843159,Fix Released,Default port of 8080 conflicts with Swfit,https://bugs.launchpad.net/keystone/+bug/843159,2011-09-06
+843158,843158,Fix Released,./bin/keystone doesn't work - wrong database used,https://bugs.launchpad.net/keystone/+bug/843158,2011-09-06
+843157,843157,Fix Released,/v2.0/users works but /v2.0/users/ does not,https://bugs.launchpad.net/keystone/+bug/843157,2011-09-06
+843156,843156,Fix Released,"Create user should be a POST request, as per consistency with tenants and REST standards",https://bugs.launchpad.net/keystone/+bug/843156,2011-09-06
+843155,843155,Fix Released,Additional User Calls,https://bugs.launchpad.net/keystone/+bug/843155,2011-09-06
+843154,843154,Fix Released,Cleaning up,https://bugs.launchpad.net/keystone/+bug/843154,2011-09-06
+843153,843153,Fix Released,cannot create user - 401 unauthoroized,https://bugs.launchpad.net/keystone/+bug/843153,2011-09-06

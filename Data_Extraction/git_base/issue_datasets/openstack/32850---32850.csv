@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1606181,1606181,Fix Committed,bootstrap_admin_node.sh script breaks dns settings,https://bugs.launchpad.net/fuel/+bug/1606181,2016-12-07
+1607757,1607757,Fix Committed,[10.0-community] Failed in deployment of ceph_rados_gw,https://bugs.launchpad.net/fuel/+bug/1607757,2016-12-07
+1608438,1608438,Fix Committed,Stop using deprecated network_device_mtu parameter for neutron,https://bugs.launchpad.net/fuel/+bug/1608438,2016-12-07
+1604413,1604413,Fix Committed,"Failed noop test ""should contain oslo_messaging_notifications ""driver"" option""",https://bugs.launchpad.net/fuel/+bug/1604413,2016-12-07
+1608732,1608732,Fix Committed,fuel puppet module doesn't contain working test configuration,https://bugs.launchpad.net/fuel/+bug/1608732,2016-12-07
+1607824,1607824,Fix Committed,Adapt openstack_cinder module to upstream,https://bugs.launchpad.net/fuel/+bug/1607824,2016-12-07
+1611031,1611031,Fix Committed,Turn off reauthentication for Heat + RadosGW,https://bugs.launchpad.net/fuel/+bug/1611031,2016-12-07
+1611689,1611689,Fix Committed,master fuel-agent job is failed: got an error at ironic-conductor deployment task,https://bugs.launchpad.net/fuel/+bug/1611689,2016-12-07
+1613754,1613754,Fix Committed,nova-rootwrap isn't used to run privsep command,https://bugs.launchpad.net/fuel/+bug/1613754,2016-12-07
+1614009,1614009,Fix Committed,primary-ceph-mon timeout 180 sec is not enough,https://bugs.launchpad.net/fuel/+bug/1614009,2016-12-07
+1613644,1613644,Fix Committed,Duplicate declaration: Ironic_config[conductor/api_url],https://bugs.launchpad.net/fuel/+bug/1613644,2016-12-07
+1610180,1610180,Fix Committed,"[ostf] HA tests failures after restarting entire cluster: data replication over mysql, galera environment state",https://bugs.launchpad.net/fuel/+bug/1610180,2016-12-07
+1611790,1611790,Fix Committed,Swift logs stored only in swift-all.log,https://bugs.launchpad.net/fuel/+bug/1611790,2016-12-07
+1614413,1614413,Fix Committed,puppetlabs-tftp provider is hardcoded to 'upstart',https://bugs.launchpad.net/fuel/+bug/1614413,2016-12-07
+1612276,1612276,Fix Committed,The pxelinux.0 file was not found after migration on Xenial (Ironic job),https://bugs.launchpad.net/fuel/+bug/1612276,2016-12-07
+1604473,1604473,Fix Committed,Enable rootwrap daemon for Neutron,https://bugs.launchpad.net/fuel/+bug/1604473,2016-12-07
+1614101,1614101,Fix Committed,rsyncd should listen on admin network instead of 0.0.0.0,https://bugs.launchpad.net/fuel/+bug/1614101,2016-12-07
+1612820,1612820,Fix Committed,HAproxy configuration options hardcode,https://bugs.launchpad.net/fuel/+bug/1612820,2016-12-07
+1614625,1614625,Fix Committed,TypeError: Invalid version specified: False,https://bugs.launchpad.net/fuel/+bug/1614625,2016-12-07
+1612848,1612848,Fix Committed,PermitRootLogin for ssh on slaves,https://bugs.launchpad.net/fuel/+bug/1612848,2016-12-07
+1614647,1614647,Fix Released,wrong relationship in clusters mysql manifest,https://bugs.launchpad.net/fuel/+bug/1614647,2016-12-07
+1615078,1615078,Fix Committed,roles/ironic-conductor noop test broken,https://bugs.launchpad.net/fuel/+bug/1615078,2016-12-07
+1612145,1612145,Fix Committed,"Failed noop tests in task ""astute/upload_cirros""",https://bugs.launchpad.net/fuel/+bug/1612145,2016-12-07
+1614473,1614473,Fix Committed,job master.fuel-agent.pkgs.ubuntu.review_fuel_agent_ironic_deploy failed: Failed tasks: Task[ironic-conductor/1] Stopping the deployment process!,https://bugs.launchpad.net/fuel/+bug/1614473,2016-12-07
+1604071,1604071,Fix Committed,Deployment of haproxy failed with 'default_ovs' network template,https://bugs.launchpad.net/fuel/+bug/1604071,2016-12-07
+1613874,1613874,Fix Committed,nailgun_syncdb does not re-ran on subsequent runs,https://bugs.launchpad.net/fuel/+bug/1613874,2016-12-07
+1614250,1614250,Fix Committed,openstack-network-common-config task fails if  get_network_role_property() returns an empty value,https://bugs.launchpad.net/fuel/+bug/1614250,2016-12-07
+1616190,1616190,Fix Committed,ci failure due to rubocop-rspec gem requiring ruby >= 2.2.0,https://bugs.launchpad.net/fuel/+bug/1616190,2016-12-07
+1614146,1614146,Fix Released,Priorityze IPv4 of IPv6,https://bugs.launchpad.net/fuel/+bug/1614146,2016-12-07
+1616161,1616161,Fix Committed,RabbitMQs wrapper OCF script outputs errors to log,https://bugs.launchpad.net/fuel/+bug/1616161,2016-12-07
+1615588,1615588,Fix Committed,epmd daemon is mismanaged by puppet manifests,https://bugs.launchpad.net/fuel/+bug/1615588,2016-12-07
+1606914,1606914,Fix Committed,Bootstrap timeout for multiracks,https://bugs.launchpad.net/fuel/+bug/1606914,2016-12-07
+1615643,1615643,Fix Released,nova-compute service is unavailable on non-ubuntu compute after modular task execution,https://bugs.launchpad.net/fuel/+bug/1615643,2016-12-07
+1617332,1617332,Fix Committed,Need to adapt ironic-conductor role to reflect upstream changes,https://bugs.launchpad.net/fuel/+bug/1617332,2016-12-07
+1595110,1595110,Fix Committed,Setup repositories task failed with timeout error,https://bugs.launchpad.net/fuel/+bug/1595110,2016-12-07
+1613241,1613241,Fix Committed,generate_vms.sh is not idempotent,https://bugs.launchpad.net/fuel/+bug/1613241,2016-12-07
+1605602,1605602,Fix Committed,Develop a script which applies 9.x updates to masternode,https://bugs.launchpad.net/fuel/+bug/1605602,2016-12-07
+1616087,1616087,Fix Committed,Wrong listen-address for dnsmasq service after Updating to 9.1,https://bugs.launchpad.net/fuel/+bug/1616087,2016-12-07
+1618553,1618553,Fix Committed,[9.1] update from 9.0 to 9.1 is failed due to incorrect permissions for swift,https://bugs.launchpad.net/fuel/+bug/1618553,2016-12-07
+1618746,1618746,Fix Committed,"MU installation using ""fuel2 update"" failed  due to Failed tasks: Task[pkg_upgrade/1], Task[pkg_upgrade/3], Task[pkg_upgrade/2], Task[pkg_upgrade/4], Task[pkg_upgrade/5]",https://bugs.launchpad.net/fuel/+bug/1618746,2016-12-07
+1620304,1620304,Fix Committed,10.0-community.main.ubuntu.bvt_2 fail due to rabbitmq-plugins,https://bugs.launchpad.net/fuel/+bug/1620304,2016-12-07
+1620410,1620410,Fix Committed,10.0-community.main.ubuntu.bvt_2 failed due to ostf tests,https://bugs.launchpad.net/fuel/+bug/1620410,2016-12-07
+1618843,1618843,Fix Committed,Pacemaker never restarts RabbitMQ if rabbitmqctl times out,https://bugs.launchpad.net/fuel/+bug/1618843,2016-12-07
+1619727,1619727,Fix Committed,Deploy ceph in HA mode failed in task ceph_ready_check,https://bugs.launchpad.net/fuel/+bug/1619727,2016-12-07
+1619740,1619740,Fix Committed,Several OSTF test fail: ClientException: Unexpected API Error.  <class 'sqlalchemy.exc.ProgrammingError'> (HTTP 500),https://bugs.launchpad.net/fuel/+bug/1619740,2016-12-07
+1603207,1603207,Fix Committed,move ceph configuration options to use ceph class parameters,https://bugs.launchpad.net/fuel/+bug/1603207,2016-12-07
+1619498,1619498,Fix Committed,Cinder conf default_volume_type not managed,https://bugs.launchpad.net/fuel/+bug/1619498,2016-12-07
+1621056,1621056,Fix Released,"Deployment additional nodes to updated 9.1 cluster  failed due to ""(/Stage[main]/Osnailyfacter::Upgrade::Pkg_upgrade/Service[pacemaker]) Could not evaluate: Could not find init script or upstart conf file for 'pacemaker'""",https://bugs.launchpad.net/fuel/+bug/1621056,2016-12-07
+1622355,1622355,Fix Committed,update-master-node.sh does not work for Newton,https://bugs.launchpad.net/fuel/+bug/1622355,2016-12-07
+1622590,1622590,Fix Committed,[Fuel] Deploy fails with '/etc/default/corosync-notifyd cannot be found',https://bugs.launchpad.net/fuel/+bug/1622590,2016-12-07
+1615488,1615488,Fix Committed,Deployment fails on Task[primary-cluster-haproxy/1]  after 1800 seconds timeout,https://bugs.launchpad.net/fuel/+bug/1615488,2016-12-07
+1623893,1623893,Fix Committed,checksum_udp.pp fails on rhel7,https://bugs.launchpad.net/fuel/+bug/1623893,2016-12-07
+1623900,1623900,Fix Committed,"galera_status.pp: ""Could not find group nogroup"" when applying on rhel7",https://bugs.launchpad.net/fuel/+bug/1623900,2016-12-07
+1623914,1623914,Fix Committed,corosync cannot be started on rhel7 with config generated by corosync.pp,https://bugs.launchpad.net/fuel/+bug/1623914,2016-12-07
+1620306,1620306,Fix Committed,Duplicate declaration: Ironic_config[glance/swift_temp_url_key],https://bugs.launchpad.net/fuel/+bug/1620306,2016-12-07
+1610947,1610947,Fix Committed,Deployment fails on Task[swift-proxy_storage/1] with error Could not find init script or upstart conf file for 'swift-object-reconstructor',https://bugs.launchpad.net/fuel/+bug/1610947,2016-12-07
+1626468,1626468,Fix Committed,[swarm] can't setup fuel master due to upgrade failure,https://bugs.launchpad.net/fuel/+bug/1626468,2016-12-07
+1623093,1623093,Fix Committed,Pkg_upgrade task is failed due to small timeout,https://bugs.launchpad.net/fuel/+bug/1623093,2016-12-07
+1626393,1626393,Fix Committed,keystone cache backend should use oslo_cache,https://bugs.launchpad.net/fuel/+bug/1626393,2016-12-07
+1614895,1614895,Fix Committed,[LCM] logging task is not idempotent,https://bugs.launchpad.net/fuel/+bug/1614895,2016-12-07
+1628532,1628532,Fix Committed,option httpclose is deprecated,https://bugs.launchpad.net/fuel/+bug/1628532,2016-12-07
+1625173,1625173,Fix Committed,Invalid parameter network_device_mtu,https://bugs.launchpad.net/fuel/+bug/1625173,2016-12-07
+1593166,1593166,Fix Committed,Race condition in mcollective puppetd module,https://bugs.launchpad.net/fuel/+bug/1593166,2016-12-07
+1590458,1590458,Fix Committed,Wrong task message when stopping node deployment,https://bugs.launchpad.net/fuel/+bug/1590458,2016-12-07
+1617970,1617970,Fix Released,Cannot create diagnostic snapshot - Timmy 127 exit code,https://bugs.launchpad.net/fuel/+bug/1617970,2016-12-07
+1619621,1619621,Fix Committed,[BVT2] DHCP checker fails,https://bugs.launchpad.net/fuel/+bug/1619621,2016-12-07
+1621456,1621456,Fix Committed,Astute does not send progress 100 sometimes for already completed tasks,https://bugs.launchpad.net/fuel/+bug/1621456,2016-12-07
+1618965,1618965,Fix Committed,[9.1][timmy] Impossible to create a diagnostic snapshot if nailgun password was changed,https://bugs.launchpad.net/fuel/+bug/1618965,2016-12-07
+1560026,1560026,Fix Committed,Task from example_v3 plugin was run twice,https://bugs.launchpad.net/fuel/+bug/1560026,2016-12-07
+1623937,1623937,Fix Committed,Deploy task has inconsistent progress value,https://bugs.launchpad.net/fuel/+bug/1623937,2016-12-07
+1552346,1552346,Fix Committed,root=UUID in the IBP breaks booting in Debian,https://bugs.launchpad.net/fuel/+bug/1552346,2016-12-07
+1614048,1614048,Fix Committed,HttpUrlConnectionError error message format incorrect in fuel agent,https://bugs.launchpad.net/fuel/+bug/1614048,2016-12-07
+1620301,1620301,Fix Released,Modify update script to cover package configs updating,https://bugs.launchpad.net/fuel/+bug/1620301,2016-12-07
+1543063,1543063,Fix Committed,wrong order of execution of cloud-init modules. 'write_files'  is executed before 'runcmd',https://bugs.launchpad.net/fuel/+bug/1543063,2016-12-07
+1611040,1611040,Fix Released,freezer-web-ui test requirements does not match the ones in global requirements,https://bugs.launchpad.net/freezer/+bug/1611040,2016-12-07

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1492921,1492921,Fix Released,Proliantutils returns exact disk size as returned by RIS/RIBCL,https://bugs.launchpad.net/proliantutils/+bug/1492921,2016-08-03
+1571496,1571496,Fix Released,Firmware update (manual cleaning): firmware update fails if using firmware file in swfit is associated with swift pseudo folder,https://bugs.launchpad.net/proliantutils/+bug/1571496,2016-08-03
+1419609,1419609,Fix Released,Add unit tests for RISOperations,https://bugs.launchpad.net/proliantutils/+bug/1419609,2016-08-03
+1606685,1606685,Fix Released,Error: Package: nodejs-0.10.42-4.el7.x86_64 (@epel) Requires: libuv.so.0.10()(64bit),https://bugs.launchpad.net/tripleo/+bug/1606685,2016-08-02
+1456409,1456409,Fix Released,email addresses can't have dots on the LHS,https://bugs.launchpad.net/app-catalog/+bug/1456409,2016-08-02
+1569749,1569749,Fix Released,Attempt to access non-existing unicode archive policy results in 500 error,https://bugs.launchpad.net/gnocchi/+bug/1569749,2016-08-02
+1569781,1569781,Fix Released,Attempt to delete archive policy used by archive-policy-rule returns 500 error,https://bugs.launchpad.net/gnocchi/+bug/1569781,2016-08-02
+1580059,1580059,Fix Released,Gnocchi offers 3 storage drivers:,https://bugs.launchpad.net/gnocchi/+bug/1580059,2016-08-02
+1582057,1582057,Fix Released,1800 points with a granularity of 1 hour  should equal  75 days,https://bugs.launchpad.net/gnocchi/+bug/1582057,2016-08-02
+1582976,1582976,Fix Released,status not accurate when batching,https://bugs.launchpad.net/gnocchi/+bug/1582976,2016-08-02
+1530967,1530967,Fix Released,Can't get the unit of a metric,https://bugs.launchpad.net/gnocchi/+bug/1530967,2016-08-02
+1584139,1584139,Fix Released,hide fact delete metric is async,https://bugs.launchpad.net/gnocchi/+bug/1584139,2016-08-02
+1586443,1586443,Fix Released,i386 tests exhaust threads,https://bugs.launchpad.net/gnocchi/+bug/1586443,2016-08-02
+1501322,1501322,Fix Released,Pluggable aggregation methods are reported in /v1/capabilities,https://bugs.launchpad.net/gnocchi/+bug/1501322,2016-08-02
+1584083,1584083,Fix Released,Gnocchi freezes if coordination URL is unresponsive,https://bugs.launchpad.net/gnocchi/+bug/1584083,2016-08-02
+1576835,1576835,Fix Released,Add wildcard support to queries,https://bugs.launchpad.net/gnocchi/+bug/1576835,2016-08-02
+1552751,1552751,Fix Released,gnocchi metric list times out,https://bugs.launchpad.net/gnocchi/+bug/1552751,2016-08-02
+1558791,1558791,Fix Released,Threads provide poor performances improvement in Carbonara,https://bugs.launchpad.net/gnocchi/+bug/1558791,2016-08-02
+1583820,1583820,Fix Released,stop expunging on every metricd worker,https://bugs.launchpad.net/gnocchi/+bug/1583820,2016-08-02
+1606547,1606547,Fix Released,SQLAlchemy: KeyError in cache,https://bugs.launchpad.net/gnocchi/+bug/1606547,2016-08-02
+1606746,1606746,Fix Released,cinder driver config string with %(tenant)s breaks glance gate and is preventing further store release,https://bugs.launchpad.net/glance-store/+bug/1606746,2016-08-02
+1586025,1586025,Fix Released,metadata: review fallback to neutronclient on RPC messaging failure,https://bugs.launchpad.net/neutron/+bug/1586025,2016-08-02
+1566706,1566706,Fix Released,Update help text for [ml2] path_mtu,https://bugs.launchpad.net/neutron/+bug/1566706,2016-08-02
+1589442,1589442,Fix Released,stable/* HEADs break packstack installations using stable/liberty puppet definitions,https://bugs.launchpad.net/python-neutronclient/+bug/1589442,2016-08-02
+1569700,1569700,Fix Released,"Installing app-catalog-ui with devstack fail due to ""Could not satisfy constraints for 'horizon': installation from path or url cannot be constrained to a version""",https://bugs.launchpad.net/app-catalog/+bug/1569700,2016-08-02
+1454037,1454037,Fix Released,"Rename ""Featured Apps"" to ""Recently Added Apps""",https://bugs.launchpad.net/app-catalog/+bug/1454037,2016-08-02
+1454430,1454430,Fix Released,Analytics tracker missing from HTML pages,https://bugs.launchpad.net/app-catalog/+bug/1454430,2016-08-02
+1594870,1594870,Fix Released,Action parameter missing in generated stonith fence manifests,https://bugs.launchpad.net/puppet-pacemaker/+bug/1594870,2016-08-02
+1608678,1608678,Fix Released,Freezer API db_mappings file has inconsistent syntax,https://bugs.launchpad.net/freezer/+bug/1608678,2016-08-02
+1592988,1592988,Fix Released,openstackclient is not authorized to lookup domains by name,https://bugs.launchpad.net/python-openstackclient/+bug/1592988,2016-08-02
+1535536,1535536,Fix Released,No role for mounting the drives in swift object server nodes using swift ansible playbook,https://bugs.launchpad.net/openstack-ansible/+bug/1535536,2016-08-02
+1364708,1364708,Fix Released,notifications.error should be consumed or not be sent,https://bugs.launchpad.net/ceilometer/+bug/1364708,2016-08-02
+1607341,1607341,Fix Released,cli fetch command ignores --componets parameter,https://bugs.launchpad.net/fuel-ccp/+bug/1607341,2016-08-02
+1603088,1603088,Fix Released,We need to use shortened version for reporting in bvt if there is snapshot word in prefix,https://bugs.launchpad.net/fuel/+bug/1603088,2016-08-02
+1604746,1604746,Fix Committed,"Need to add ""Neutron QoS"" option to Product-Stats",https://bugs.launchpad.net/fuel/+bug/1604746,2016-08-02
+1583609,1583609,Fix Committed,"[mos-xenial] ""fuel-rabbit-fence"" init scripts packaging is inconsistent",https://bugs.launchpad.net/fuel/+bug/1583609,2016-08-02
+1600797,1600797,Fix Released,test 'upgrade_ceph_ha_scale_ceph' fails with TypeError: 'NoneType',https://bugs.launchpad.net/fuel/+bug/1600797,2016-08-02
+1469045,1469045,Fix Committed,Align requirements in all projects to global-requirements,https://bugs.launchpad.net/fuel/+bug/1469045,2016-08-02
+1607625,1607625,Fix Released,gate-neutron-fwaas-dsvm-tempest is not working properly,https://bugs.launchpad.net/neutron/+bug/1607625,2016-08-02
+1607363,1607363,Fix Released,ccp exits with 0 error code if user put unknown component name,https://bugs.launchpad.net/fuel-ccp/+bug/1607363,2016-08-02
+1603265,1603265,Fix Released,fix CheckpointViewBuilder class because of  'provider_id'  have been removed from checkpoint,https://bugs.launchpad.net/karbor/+bug/1603265,2016-08-02
+1592401,1592401,Fix Committed,primary controller database resyncs at the end of the cluster formation,https://bugs.launchpad.net/fuel/+bug/1592401,2016-08-02
+1603758,1603758,Fix Released,test_preserve_preexisting_port Failure,https://bugs.launchpad.net/tempest/+bug/1603758,2016-08-02
+1510546,1510546,Fix Released,bump cliff version now that cliff-tablib has been removed,https://bugs.launchpad.net/python-openstackclient/+bug/1510546,2016-08-02
+1606444,1606444,Fix Released,modify supported_extension_aliases,https://bugs.launchpad.net/dragonflow/+bug/1606444,2016-08-02
+1579262,1579262,Fix Released,Angular registry - Cannot read property 'itemActions' of undefined,https://bugs.launchpad.net/searchlight/+bug/1579262,2016-08-02
+1579262,1579262,Fix Released,Angular registry - Cannot read property 'itemActions' of undefined,https://bugs.launchpad.net/horizon/+bug/1579262,2016-08-02
+1592711,1592711,Fix Released,"Missing doc for ""list of roles assigned to a user for a tenant"" on identity v2 API",https://bugs.launchpad.net/keystone/+bug/1592711,2016-08-02
+1567260,1567260,Fix Released,Extras authentication plugins do not register entry_points,https://bugs.launchpad.net/keystoneauth/+bug/1567260,2016-08-02
+1543050,1543050,Fix Released,test_create_sample test failed with IndexError: list index out of range,https://bugs.launchpad.net/fuel/+bug/1543050,2016-08-02
+1574965,1574965,Fix Released,openstack CLI is not translated,https://bugs.launchpad.net/python-openstackclient/+bug/1574965,2016-08-02
+1475840,1475840,Fix Released,openstack credentials create and  credentials show didn't exist,https://bugs.launchpad.net/python-openstackclient/+bug/1475840,2016-08-02
+1484373,1484373,Fix Released,token_endpoint authentication no longer working in OSC,https://bugs.launchpad.net/os-client-config/+bug/1484373,2016-08-02
+1570924,1570924,Fix Released,Add missing help text translation,https://bugs.launchpad.net/python-openstackclient/+bug/1570924,2016-08-02
+1566962,1566962,Fix Released,[RFE] Update tests for compute servers,https://bugs.launchpad.net/python-openstackclient/+bug/1566962,2016-08-02
+1489441,1489441,Fix Released,No support for neutron related quota,https://bugs.launchpad.net/python-openstackclient/+bug/1489441,2016-08-02
+1513216,1513216,Fix Released,Mismatched keystone api version produces cryptic 'Error: Openstack',https://bugs.launchpad.net/python-openstackclient/+bug/1513216,2016-08-02
+1603172,1603172,Fix Released,Coverage reports hang indefinitely,https://bugs.launchpad.net/cinder/+bug/1603172,2016-08-01
+1564010,1564010,Fix Released,Keystone middleware for ec2 doesn't work with keystone v3,https://bugs.launchpad.net/keystonemiddleware/+bug/1564010,2016-08-01
+1499296,1499296,Fix Released,rejoin-stack report unknown locale utf-8,https://bugs.launchpad.net/devstack/+bug/1499296,2016-08-01
+1570049,1570049,Fix Released,"Tox ignores following docstrings error codes D202,D203,D205,D400,D401",https://bugs.launchpad.net/keystone/+bug/1570049,2016-08-01
+1598449,1598449,Fix Released,bgp unit tests are excluded on stable/mitaka,https://bugs.launchpad.net/networking-midonet/+bug/1598449,2016-08-01
+1259827,1259827,Fix Released,keystone execute SQL statements so many times?,https://bugs.launchpad.net/keystone/+bug/1259827,2016-08-01
+1521492,1521492,Fix Released,OSC doesn't support list server by searching flavor and image name.,https://bugs.launchpad.net/python-openstackclient/+bug/1521492,2016-08-01
+1556929,1556929,Fix Released,set host enable and disable support for compute,https://bugs.launchpad.net/python-openstackclient/+bug/1556929,2016-08-01
+1543672,1543672,Fix Released,OSC network command doesn't support nova-network,https://bugs.launchpad.net/python-openstackclient/+bug/1543672,2016-08-01
+1558931,1558931,Fix Released,http request will never return in some cases,https://bugs.launchpad.net/tempest/+bug/1558931,2016-08-01
+1585331,1585331,Fix Released,Kilo upgrade to Liberty Spice upgrade dies,https://bugs.launchpad.net/openstack-ansible/+bug/1585331,2016-08-01
+1580276,1580276,Fix Released,Live Migration (Block) not working out of box on OSA,https://bugs.launchpad.net/openstack-ansible/+bug/1580276,2016-08-01
+1600360,1600360,Fix Released,network_api_class deprecated in Mitaka,https://bugs.launchpad.net/openstack-ansible/+bug/1600360,2016-08-01
+1598146,1598146,Fix Released,In os_horizon the compress and collect is run at the wrong time,https://bugs.launchpad.net/openstack-ansible/+bug/1598146,2016-08-01
+1598143,1598143,Fix Released,in os_horizon there is no way to set additional HORIZON_CONFIG options,https://bugs.launchpad.net/openstack-ansible/+bug/1598143,2016-08-01
+1573908,1573908,Fix Released,role openstack_hosts fails not to add scsi_dh to /etc/modules,https://bugs.launchpad.net/openstack-ansible/+bug/1573908,2016-08-01
+1596620,1596620,Fix Released,L > M upgrade: lxc_hosts fails to install pip packages,https://bugs.launchpad.net/openstack-ansible/+bug/1596620,2016-08-01
+1519840,1519840,Fix Released,Add support for floating IPs,https://bugs.launchpad.net/networking-calico/+bug/1519840,2016-08-01

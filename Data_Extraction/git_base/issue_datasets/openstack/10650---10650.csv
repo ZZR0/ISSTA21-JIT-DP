@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1692058,1692058,Fix Released,Shares view uses deprecated db model properties,https://bugs.launchpad.net/manila/+bug/1692058,2018-10-08
+1794688,1794688,Fix Released,Rocky upgrade nova_oslomsg_notify_host_group' is undefined,https://bugs.launchpad.net/openstack-ansible/+bug/1794688,2018-10-08
+1788950,1788950,Fix Released,skydive still installed on overcloud images,https://bugs.launchpad.net/tripleo/+bug/1788950,2018-10-08
+1735849,1735849,Fix Released,[RFE] ping_metadata_ip in 20-os-net-config should be waiting for X second(s) between each ping,https://bugs.launchpad.net/tripleo/+bug/1735849,2018-10-08
+1783949,1783949,Fix Released,Ceph cannot be updated/upgraded in Rocky,https://bugs.launchpad.net/tripleo/+bug/1783949,2018-10-08
+1788051,1788051,Fix Released,swift storage attempts to configure rsyslog even if rsyslog isn't present,https://bugs.launchpad.net/tripleo/+bug/1788051,2018-10-08
+1789549,1789549,Fix Released,OVS based security groups parameter not populated correctly,https://bugs.launchpad.net/tripleo/+bug/1789549,2018-10-08
+1790474,1790474,Fix Released,"Online data migrations not run for Ironic, Cinder, and Nova",https://bugs.launchpad.net/tripleo/+bug/1790474,2018-10-08
+1790504,1790504,Fix Released,containerized undercloud is not disabling nova power sync,https://bugs.launchpad.net/tripleo/+bug/1790504,2018-10-08
+1794251,1794251,Fix Released,[master] undercloud reinstall failed with invalid selinux context: [Errno 95] Operation not supported,https://bugs.launchpad.net/tripleo/+bug/1794251,2018-10-08
+1793557,1793557,Fix Released,[Upgrades] Could not find the requested service openstack-glance-registry,https://bugs.launchpad.net/tripleo/+bug/1793557,2018-10-08
+1795558,1795558,Fix Released,docker-puppet privileged is not working as expected,https://bugs.launchpad.net/tripleo/+bug/1795558,2018-10-08
+1784605,1784605,Fix Released,available roles listing fails when no role tag are present,https://bugs.launchpad.net/tripleo/+bug/1784605,2018-10-08
+1788802,1788802,Fix Released,Py27 tests is failing on master - tripleo_common.tests.image.test_image_uploader.TestDockerImageUploader,https://bugs.launchpad.net/tripleo/+bug/1788802,2018-10-08
+1785660,1785660,Fix Released,overcloudrc has // in OS_AUTH_URL,https://bugs.launchpad.net/tripleo/+bug/1785660,2018-10-08
+1615825,1615825,Fix Released,Plan Deletion Doesn't Use a Bulk Delete,https://bugs.launchpad.net/tripleo/+bug/1615825,2018-10-08
+1727347,1727347,Fix Released,Prepare command may output empty files,https://bugs.launchpad.net/tripleo/+bug/1727347,2018-10-08
+1791120,1791120,Fix Released,Deploying overcloud fails if there's a plan,https://bugs.launchpad.net/tripleo/+bug/1791120,2018-10-08
+1786293,1786293,Fix Released,incorect way of argument negation in _deploy_tripleo_heat_templates() function call,https://bugs.launchpad.net/tripleo/+bug/1786293,2018-10-08
+1788047,1788047,Fix Released,openstack undercloud upgrade --dry-run not so dry,https://bugs.launchpad.net/tripleo/+bug/1788047,2018-10-08
+1788307,1788307,Fix Released,"openstack deploy fails with write() argument must be str, not bytes",https://bugs.launchpad.net/tripleo/+bug/1788307,2018-10-08
+1789220,1789220,Fix Released,Minor update with default ssh user doesn't work,https://bugs.launchpad.net/tripleo/+bug/1789220,2018-10-08
+1790580,1790580,Fix Released,Passwords mismatch issue when using custom plan env  file,https://bugs.launchpad.net/tripleo/+bug/1790580,2018-10-08
+1785659,1785659,Fix Released,"Containerized logrotate does not match processes for reloading to refresh log files, unless the rotated files exceed its rotation period and got removed",https://bugs.launchpad.net/tripleo/+bug/1785659,2018-10-08
+1785309,1785309,Fix Released,Py3.7 unit test failures,https://bugs.launchpad.net/python-zunclient/+bug/1785309,2018-10-08
+1785330,1785330,Fix Released,4.0.1 client volume-transfer create is not backwards compatible with pre-rocky,https://bugs.launchpad.net/python-cinderclient/+bug/1785330,2018-10-08
+1785594,1785594,Fix Released,cinder api-version failed to execute,https://bugs.launchpad.net/python-cinderclient/+bug/1785594,2018-10-08
+1785091,1785091,Fix Released,Capabilities class __repr__ still crashes after fix committed,https://bugs.launchpad.net/python-cinderclient/+bug/1785091,2018-10-08
+1784728,1784728,Fix Released,Py3.7 test failures,https://bugs.launchpad.net/python-cinderclient/+bug/1784728,2018-10-08
+1796372,1796372,Fix Released,broken link from image guide to CLI reference,https://bugs.launchpad.net/openstack-manuals/+bug/1796372,2018-10-08
+1786259,1786259,Fix Released,ipv6 command parsing failure,https://bugs.launchpad.net/devstack/+bug/1786259,2018-10-08
+1796174,1796174,Fix Released,'integer expression expected' errors on Ubuntu,https://bugs.launchpad.net/devstack/+bug/1796174,2018-10-08
+1792858,1792858,Fix Released,cloudkitty dashboard missing in openstack-ansible-os_horizon,https://bugs.launchpad.net/openstack-ansible/+bug/1792858,2018-10-07
+1796341,1796341,Fix Released,The tripleo-ci-centos-7-undercloud-upgrades and containerized-undercloud-upgrades fails during undercloud upgrade in restart xinetd task,https://bugs.launchpad.net/tripleo/+bug/1796341,2018-10-06
+1796188,1796188,Fix Released,Undercloud fails to deploy (with Podman) if ceph-ansible isn't installed,https://bugs.launchpad.net/tripleo/+bug/1796188,2018-10-06
+1673227,1673227,Fix Released,placement apis for inventory and allocations use insufficiently robust jsonschema,https://bugs.launchpad.net/nova/+bug/1673227,2018-10-05
+1685930,1685930,Fix Released,model query hooks cleanup breaks UTs,https://bugs.launchpad.net/bgpvpn/+bug/1685930,2018-10-05
+1057558,1057558,Fix Released,"I can't add interface to router, if there is another port in non-shared network of other tenant",https://bugs.launchpad.net/neutron/+bug/1057558,2018-10-05
+1661154,1661154,Fix Released,Dell eqlx/PS driver timeout error in periodic task,https://bugs.launchpad.net/cinder/+bug/1661154,2018-10-05
+1790776,1790776,Fix Released,Expose an API to get the stqatus of the BIOS settings applied prior to the latest power cycle,https://bugs.launchpad.net/proliantutils/+bug/1790776,2018-10-05
+1615076,1615076,Fix Released,"Keystone server does  not define ""enabled"" attribute for Region but mentions in v3 regions.py",https://bugs.launchpad.net/keystone/+bug/1615076,2018-10-05
+1615076,1615076,Fix Released,"Keystone server does  not define ""enabled"" attribute for Region but mentions in v3 regions.py",https://bugs.launchpad.net/python-keystoneclient/+bug/1615076,2018-10-05
+1794333,1794333,Fix Released,Local delete emits only legacy start and end notifications,https://bugs.launchpad.net/nova/+bug/1794333,2018-10-05
+1574441,1574441,Fix Released,[api-ref]Manila does not describe API versions,https://bugs.launchpad.net/manila/+bug/1574441,2018-10-04
+1498883,1498883,Fix Released,Some API views have 'deleted' and 'deleted_at' fields,https://bugs.launchpad.net/manila/+bug/1498883,2018-10-04
+1792560,1792560,Fix Released,Upgrades in CI still using Q->master instead of R->master release,https://bugs.launchpad.net/tripleo/+bug/1792560,2018-10-04
+1796015,1796015,Fix Released,some project dashboard stuff should be clean up,https://bugs.launchpad.net/openstack-ansible/+bug/1796015,2018-10-04
+1750599,1750599,Fix Released,functional tests failing in both master and stable/queens due to ovsdbapp timeouts,https://bugs.launchpad.net/networking-ovn/+bug/1750599,2018-10-04
+1753657,1753657,Fix Released,"OVN: ""foreign key constraint failed"" error while creating segmenthostmappings entry",https://bugs.launchpad.net/networking-ovn/+bug/1753657,2018-10-04
+1743745,1743745,Fix Released,We shouldn't schedule routers on compute nodes for DVR environments,https://bugs.launchpad.net/networking-ovn/+bug/1743745,2018-10-04
+1757074,1757074,Fix Released,"Don't add the period ""."" character of the fqdn  in the OVN nb db's dns records",https://bugs.launchpad.net/networking-ovn/+bug/1757074,2018-10-04
+1757438,1757438,Fix Released,UpdateLRouterPort command with OVS 2.8: KeyError: 'ipv6_ra_configs',https://bugs.launchpad.net/networking-ovn/+bug/1757438,2018-10-04
+1762694,1762694,Fix Released,L3 HA Least loaded scheduling policy doesn't work as it always schedules gateways in the same node,https://bugs.launchpad.net/networking-ovn/+bug/1762694,2018-10-04
+1762933,1762933,Fix Released,RuntimeError: OVSDB Error:  is seen on an ovn worker which doesn't have the 'neutron_ovn_event_lock',https://bugs.launchpad.net/networking-ovn/+bug/1762933,2018-10-04
+1761194,1761194,Fix Released,Tempest test_trunk_subport_lifecycle may fail as reusing subports won't always work,https://bugs.launchpad.net/networking-ovn/+bug/1761194,2018-10-04
+1763005,1763005,Fix Released,schedule_unhosted_gateways() dont work as expected as it will schedule all ports within the same transaction,https://bugs.launchpad.net/networking-ovn/+bug/1763005,2018-10-04
+1770723,1770723,Fix Released,networking-ovn doesn't handle the port security flag of a port as expected,https://bugs.launchpad.net/networking-ovn/+bug/1770723,2018-10-04
+1774052,1774052,Fix Released,networking-ovn doesn't define a default dns_server option in the DHCP_Options table for subnets without dns_nameservers defined,https://bugs.launchpad.net/networking-ovn/+bug/1774052,2018-10-04
+1774052,1774052,Fix Released,networking-ovn doesn't define a default dns_server option in the DHCP_Options table for subnets without dns_nameservers defined,https://bugs.launchpad.net/tripleo/+bug/1774052,2018-10-04
+1746979,1746979,Fix Released,The maintenance thread fails when handling router ports,https://bugs.launchpad.net/networking-ovn/+bug/1746979,2018-10-04
+1643623,1643623,Fix Released,Instance stuck in 'migrating' status due to invalid host,https://bugs.launchpad.net/nova/+bug/1643623,2018-10-04
+1795710,1795710,Fix Released,osa-ops mnaio loadbalancer route issues,https://bugs.launchpad.net/openstack-ansible/+bug/1795710,2018-10-03
+1209101,1209101,Fix Released,Non-public flavor cannot be used in created tenant,https://bugs.launchpad.net/nova/+bug/1209101,2018-10-03
+1756346,1756346,Fix Released,Duplicate role names in t-h-t,https://bugs.launchpad.net/tripleo/+bug/1756346,2018-10-03
+1748446,1748446,Fix Released,EVPN OVS driver: wrong rootwrap configuration,https://bugs.launchpad.net/networking-bagpipe/+bug/1748446,2018-10-03
+1748438,1748438,Fix Released,bagpipe-bgp: E-VPN OVS driver race bw. vif_plugged and route processing,https://bugs.launchpad.net/networking-bagpipe/+bug/1748438,2018-10-03
+1748870,1748870,Fix Released,bagpipe-l2 agent extension handles unsupported network types,https://bugs.launchpad.net/networking-bagpipe/+bug/1748870,2018-10-03
+1748234,1748234,Fix Released,stale ARP entries due to IPVPN router fallback,https://bugs.launchpad.net/networking-bagpipe/+bug/1748234,2018-10-03
+1749910,1749910,Fix Released,bagpipe-bgp: Default route for attract traffic not correctly advertised/withdrawn,https://bugs.launchpad.net/networking-bagpipe/+bug/1749910,2018-10-03
+1719597,1719597,Fix Released,Need to act on port admin status 'down',https://bugs.launchpad.net/networking-bagpipe/+bug/1719597,2018-10-03
+1751302,1751302,Fix Released,KeyError: 'port_id' exception in .trunk.drivers.linuxbridge.agent.driver.LinuxBridgeTrunkDriver.agent_port_change,https://bugs.launchpad.net/networking-bagpipe/+bug/1751302,2018-10-03
+1750859,1750859,Fix Released,bagpipe-bgp: Route removed from self.readvertised only if it is the last route for the corresponding tracked_entry,https://bugs.launchpad.net/networking-bagpipe/+bug/1750859,2018-10-03
+1754399,1754399,Fix Released,sfc: wrong entry point in setup.cfg,https://bugs.launchpad.net/networking-bagpipe/+bug/1754399,2018-10-03
+1758296,1758296,Fix Released,bagpipe-bgp: Missing local-preference for locally generated route by a VRF,https://bugs.launchpad.net/networking-bagpipe/+bug/1758296,2018-10-03
+1615955,1615955,Fix Released,Scaleio statistics provided volume.log does not show free capacity,https://bugs.launchpad.net/cinder/+bug/1615955,2018-10-03

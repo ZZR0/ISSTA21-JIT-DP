@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1790902,1790902,Fix Released,"kuryr-daemon failing with ""TypeError: a bytes-like object is required, not 'str'"" with Python 3",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1790902,2018-12-17
+1792191,1792191,Fix Released,"Kuryr-cni fails with ""TypeError: can't concat str to bytes"" on Python 3",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1792191,2018-12-17
+1796122,1796122,Fix Released,Outdated resources listed in kuryr-controller ServiceAccount,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1796122,2018-12-17
+1797523,1797523,Fix Released,tox -e debug failed to run,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1797523,2018-12-17
+1792488,1792488,Fix Released,Kubernetes API server is not accessible on Nested deployment,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1792488,2018-12-17
+1798120,1798120,Fix Released,kubernetes-scheduler isn't restarted on crash,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1798120,2018-12-17
+1798338,1798338,Fix Released,Octavia polling intervals should be optimized,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1798338,2018-12-17
+1792768,1792768,Fix Released,Kuryr doesn't support UDP K8S-services although Octavia  supports  UDP LoadBalancing,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1792768,2018-12-17
+1798782,1798782,Fix Released,Tests in test_public_ip.py not running the methods they're testing,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1798782,2018-12-17
+1799468,1799468,Fix Released,etcd_legacy is deprecated and can be removed,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1799468,2018-12-17
+1799496,1799496,Fix Released,namespace and network policy handlers are not compatible,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1799496,2018-12-17
+1800431,1800431,Fix Released,AttributeError: 'NestedVIFPool' object has no attribute '_available_ports_pools',https://bugs.launchpad.net/kuryr-kubernetes/+bug/1800431,2018-12-17
+1800491,1800491,Fix Released,AttributeError: 'NestedVIFPool' object has no attribute '_last_update',https://bugs.launchpad.net/kuryr-kubernetes/+bug/1800491,2018-12-17
+1802099,1802099,Fix Released,2 kuryr-controllers during Deployment's rolling update in non-HA mode on containerized deployments,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1802099,2018-12-17
+1802841,1802841,Fix Released,CRDs do not allow to have dictionaries in its annotations,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1802841,2018-12-17
+1804310,1804310,Fix Released,Kuryr controller constantly restarts due to exceeded quota,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1804310,2018-12-17
+1804485,1804485,Fix Released,UDP traffic is not allowed from host,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1804485,2018-12-17
+1805814,1805814,Fix Released,Controller marked as not ready if components have no limit for quota,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1805814,2018-12-17
+1806911,1806911,Fix Released,Labels encode not accepted by K8S API,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1806911,2018-12-17
+1807380,1807380,Fix Released,tools/build_cni_daemonset_image doesn't work with -D/--no-daemon option,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1807380,2018-12-17
+1807690,1807690,Fix Released,pod_label handle should skip pods with hostNetworking,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1807690,2018-12-17
+1807977,1807977,Fix Released,periodic-tripleo-centos-7-master-containers-build fails for mariadb:Error'd /bin/sh -c rm /etc/my.cnf.d/mariadb-server.cnf /etc/my.cnf.d/auth_gssapi.cnf HTTP Error 503 - Service Unavailable,https://bugs.launchpad.net/tripleo/+bug/1807977,2018-12-17
+1777922,1777922,Fix Released,neutron is not dropping radvd privileges,https://bugs.launchpad.net/neutron/+bug/1777922,2018-12-17
+1784972,1784972,Fix Released,Error on executing command with ssl server,https://bugs.launchpad.net/zun/+bug/1784972,2018-12-15
+1808591,1808591,Fix Released,stable/rocky standalone failing to pull containers from local registry,https://bugs.launchpad.net/tripleo/+bug/1808591,2018-12-15
+1596587,1596587,Fix Released,error handling for tar when using encryption,https://bugs.launchpad.net/freezer/+bug/1596587,2018-12-13
+1807949,1807949,Fix Released,os_vif error: [Errno 24] Too many open files,https://bugs.launchpad.net/os-vif/+bug/1807949,2018-12-13
+1808283,1808283,Fix Released,aodh alarm action with senlin webhook,https://bugs.launchpad.net/senlin/+bug/1808283,2018-12-13
+1690842,1690842,Fix Released,need to add ulimit arg for kolla docker run  when use elasticsearch 5.4,https://bugs.launchpad.net/kolla/+bug/1690842,2018-12-13
+1746393,1746393,Fix Released,'cpu_thread_policy' impacts on emulator threads,https://bugs.launchpad.net/nova/+bug/1746393,2018-12-13
+1744965,1744965,Fix Released,'emulator_threads_policy' doesn't work with 'vcpu_pin_set',https://bugs.launchpad.net/nova/+bug/1744965,2018-12-13
+1716569,1716569,Fix Released,TripleO-ci.rst is outdated,https://bugs.launchpad.net/tripleo/+bug/1716569,2018-12-13
+1733645,1733645,Fix Released,"Feature Configuration in tripleo-quickstart ""Missing  scenario008-multinode.yaml""",https://bugs.launchpad.net/tripleo/+bug/1733645,2018-12-13
+1729216,1729216,Fix Released,pip install ansible in different location for debian and RedHat family OSs,https://bugs.launchpad.net/kolla-ansible/+bug/1729216,2018-12-13
+1729216,1729216,Fix Released,pip install ansible in different location for debian and RedHat family OSs,https://bugs.launchpad.net/kolla/+bug/1729216,2018-12-13
+1718427,1718427,Fix Released,ping ansible version for stable branch,https://bugs.launchpad.net/kolla/+bug/1718427,2018-12-13
+1691413,1691413,Fix Released,Customization not honored in included templates,https://bugs.launchpad.net/kolla/+bug/1691413,2018-12-13
+1683294,1683294,Fix Released,Ceph RadosGW problem with Keystone/Ocata: UUID/FERNET tokens and revoked tokens response is missing signed section,https://bugs.launchpad.net/kolla/+bug/1683294,2018-12-13
+1672741,1672741,Fix Released,Missing CSS and JS in Horizon,https://bugs.launchpad.net/kolla/+bug/1672741,2018-12-13
+1667864,1667864,Fix Released,ironic-conductor iSCSI driver tcp is not loaded,https://bugs.launchpad.net/kolla/+bug/1667864,2018-12-13
+1662182,1662182,Fix Released,ImportError: No module named packaging.version,https://bugs.launchpad.net/kolla/+bug/1662182,2018-12-13
+1654996,1654996,Fix Released,"cinder.conf either supports lvm or ceph backend, not both",https://bugs.launchpad.net/kolla/+bug/1654996,2018-12-13
+1654996,1654996,Fix Released,"cinder.conf either supports lvm or ceph backend, not both",https://bugs.launchpad.net/kolla-ansible/+bug/1654996,2018-12-13
+1653740,1653740,Fix Released,Kolla Ubuntu gates rely on bug in Kolla to work,https://bugs.launchpad.net/kolla/+bug/1653740,2018-12-13
+1808124,1808124,Fix Released,[cloudkitty] uwsgi needs libxml2 to start,https://bugs.launchpad.net/openstack-ansible/+bug/1808124,2018-12-12
+1805616,1805616,Fix Released,f28 standalone job is has post timeout,https://bugs.launchpad.net/tripleo/+bug/1805616,2018-12-12
+1788942,1788942,Fix Released,url quoting breaks x-image-meta-location,https://bugs.launchpad.net/python-glanceclient/+bug/1788942,2018-12-12
+1762044,1762044,Fix Released,local image schema 'status' missing some values,https://bugs.launchpad.net/python-glanceclient/+bug/1762044,2018-12-12
+1747511,1747511,Fix Released,"server create fails with ""Can not find requested image"" when CONF.glance.api_servers is not set and [service_user] is set",https://bugs.launchpad.net/nova/+bug/1747511,2018-12-11
+1718965,1718965,Fix Released,TripleO-Quickstart hanging on virt-customize call during execution of modify-image role,https://bugs.launchpad.net/tripleo/+bug/1718965,2018-12-11
+1807520,1807520,Fix Released,volume attach fails on stein side of grenade with: Volume ab2390bc-54a2-454e-823d-01faf0a8fdc1 status must be available or downloading (HTTP 400),https://bugs.launchpad.net/grenade/+bug/1807520,2018-12-11
+1801029,1801029,Fix Released,ovs plugin no longer loads on Windows,https://bugs.launchpad.net/os-vif/+bug/1801029,2018-12-10
+1801485,1801485,Fix Released,Don't quote {posargs} in tox.ini,https://bugs.launchpad.net/os-vif/+bug/1801485,2018-12-10
+1792951,1792951,Fix Released,many projects dashboard missing in openstack-ansible-os_horizon,https://bugs.launchpad.net/openstack-ansible/+bug/1792951,2018-12-10
+1706466,1706466,Fix Released,neutron-lbaas performance hit due to unnecessary lazy sql calls,https://bugs.launchpad.net/octavia/+bug/1706466,2018-12-10
+1801587,1801587,Fix Released,[master/Rocky]Fs035 job fails in promotion because of heat stack timeout,https://bugs.launchpad.net/tripleo/+bug/1801587,2018-12-10
+1530860,1530860,Fix Released,Nova service restart disconnects Quobyte volumes on systemd systems,https://bugs.launchpad.net/nova/+bug/1530860,2018-12-10
+1715078,1715078,Fix Released,Creation of volumes from snapshots with Quobyte can be slow,https://bugs.launchpad.net/cinder/+bug/1715078,2018-12-10
+1707634,1707634,Fix Released,incomplete config in Ocata rootwrap for Quobyte driver,https://bugs.launchpad.net/cinder/+bug/1707634,2018-12-10
+1807657,1807657,Fix Released,author-email of install guide's setup.cfg is still openstack-dev mail-list,https://bugs.launchpad.net/openstack-manuals/+bug/1807657,2018-12-10
+1736727,1736727,Fix Released,Error while removing a non existing interface from a Linux Bridge,https://bugs.launchpad.net/os-vif/+bug/1736727,2018-12-10
+1670628,1670628,Fix Committed,nova-compute will try to re-plug the vif even if it exists for vhostuser port.,https://bugs.launchpad.net/os-vif/+bug/1670628,2018-12-10
+1715317,1715317,Fix Released,Hybrid bridge should permanently keep MAC entries,https://bugs.launchpad.net/os-vif/+bug/1715317,2018-12-10
+1798255,1798255,Fix Released,freezer-dr: evacuator drivers lack definition of get_info method,https://bugs.launchpad.net/freezer/+bug/1798255,2018-12-10
+1596935,1596935,Fix Released,DELETE routes return HTTP 204 even if the item doesn't exist,https://bugs.launchpad.net/freezer/+bug/1596935,2018-12-10
+1749919,1749919,Fix Released,AttributeError: 'NoDaemon' object has no attribute 'restart',https://bugs.launchpad.net/freezer/+bug/1749919,2018-12-10
+1750566,1750566,Fix Released,freezer-agent broken because the .ssh/id_rsa miss,https://bugs.launchpad.net/freezer/+bug/1750566,2018-12-10
+1752242,1752242,Fix Released,feezer-scheduler start failed,https://bugs.launchpad.net/freezer/+bug/1752242,2018-12-10
+1619158,1619158,Fix Released,freezer-agent error when backup instance or volume without path-to-backup,https://bugs.launchpad.net/freezer/+bug/1619158,2018-12-10
+1684026,1684026,Fix Released,freezer info action show the same information when with '--container' or not,https://bugs.launchpad.net/freezer/+bug/1684026,2018-12-10
+1750776,1750776,Fix Released,Docu: Install and configure for Ubuntu in freezer,https://bugs.launchpad.net/freezer/+bug/1750776,2018-12-10
+1676404,1676404,Fix Released,Openstack freezer-data encryption is not working for cinder volume and instance level backup/restore,https://bugs.launchpad.net/freezer/+bug/1676404,2018-12-10
+1774722,1774722,Fix Released,An option in deprecated name causes failure on overriding the value,https://bugs.launchpad.net/freezer/+bug/1774722,2018-12-10
+1593257,1593257,Fix Released,Multiple Storages not working,https://bugs.launchpad.net/freezer/+bug/1593257,2018-12-10
+1799183,1799183,Fix Released,wrong lvm backup directory generated from parameters,https://bugs.launchpad.net/freezer/+bug/1799183,2018-12-10

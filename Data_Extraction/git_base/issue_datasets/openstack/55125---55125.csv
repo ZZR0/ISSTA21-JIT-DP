@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1482987,1482987,Fix Released,"have mariadb and galera in the repo, only need galera",https://bugs.launchpad.net/kolla/+bug/1482987,2015-11-20
+1482478,1482478,Fix Released,Kolla vagrant does not work with kvm,https://bugs.launchpad.net/kolla/+bug/1482478,2015-11-20
+1477963,1477963,Fix Released,Functional gate is failing due to broken barbican,https://bugs.launchpad.net/kolla/+bug/1477963,2015-11-20
+1475155,1475155,Fix Released,Change docker ADD file instruction to COPY,https://bugs.launchpad.net/kolla/+bug/1475155,2015-11-20
+1500392,1500392,Fix Released,openvswitch image has incorrect name,https://bugs.launchpad.net/kolla/+bug/1500392,2015-11-20
+1495390,1495390,Fix Released,https://github.com/stackforge/kolla,https://bugs.launchpad.net/kolla/+bug/1495390,2015-11-20
+1493670,1493670,Fix Released,"Add AUTHORS, ChangeLog, doc/build/ to gitignore",https://bugs.launchpad.net/kolla/+bug/1493670,2015-11-20
+1490893,1490893,Fix Released,all source based builds should use tarballs instead of packages for novnc,https://bugs.launchpad.net/kolla/+bug/1490893,2015-11-20
+1488014,1488014,Fix Released,dev quick guide needs refine to make it easy to understood and follow  for new users,https://bugs.launchpad.net/kolla/+bug/1488014,2015-11-20
+1487462,1487462,Fix Released,Zaqar template is busted,https://bugs.launchpad.net/kolla/+bug/1487462,2015-11-20
+1484673,1484673,Fix Released,Using gnocchi from source creates /etc/gnocchi/gnocchi and can't find the config file,https://bugs.launchpad.net/kolla/+bug/1484673,2015-11-20
+1482986,1482986,Fix Released,rename cinder-app to cinder,https://bugs.launchpad.net/kolla/+bug/1482986,2015-11-20
+1482381,1482381,Fix Released,vagrant user can't access docker on operator node,https://bugs.launchpad.net/kolla/+bug/1482381,2015-11-20
+1482294,1482294,Fix Released,build.py should default to the release since we don't use latest,https://bugs.launchpad.net/kolla/+bug/1482294,2015-11-20
+1481293,1481293,Fix Released,tools/genenv missing executable bit,https://bugs.launchpad.net/kolla/+bug/1481293,2015-11-20
+1480498,1480498,Fix Released,Variables in the defaults yaml in the keystone role are unneeded,https://bugs.launchpad.net/kolla/+bug/1480498,2015-11-20
+1480174,1480174,Fix Released,Address missed comments on Cinder doc,https://bugs.launchpad.net/kolla/+bug/1480174,2015-11-20
+1479176,1479176,Fix Released,Remove /opt/kolla directory creation base images,https://bugs.launchpad.net/kolla/+bug/1479176,2015-11-20
+1476494,1476494,Fix Released,Update config scripts required variables to be better visible,https://bugs.launchpad.net/kolla/+bug/1476494,2015-11-20
+1475550,1475550,Fix Released,Incorrect spacing in compose/glance-api-registry.yml,https://bugs.launchpad.net/kolla/+bug/1475550,2015-11-20
+1473554,1473554,Fix Released,properly check if docker is usable for $USER,https://bugs.launchpad.net/kolla/+bug/1473554,2015-11-20
+1473551,1473551,Fix Released,Remove requirement for root user in scripts,https://bugs.launchpad.net/kolla/+bug/1473551,2015-11-20
+1472491,1472491,Fix Released,horizon start scripts need update for cmd & args,https://bugs.launchpad.net/kolla/+bug/1472491,2015-11-20
+1470456,1470456,Fix Released,Redundant duplicate PUBLIC_IP entry in tools/genenv,https://bugs.launchpad.net/kolla/+bug/1470456,2015-11-20
+1517476,1517476,Fix Released,Vagrantfile can be simplified,https://bugs.launchpad.net/kolla/+bug/1517476,2015-11-20
+1517475,1517475,Fix Released,Vagrant dev env should provide a way to configure it easily,https://bugs.launchpad.net/kolla/+bug/1517475,2015-11-20
+1513088,1513088,Fix Released,RHEL isn't building correctly,https://bugs.launchpad.net/kolla/+bug/1513088,2015-11-20
+1509627,1509627,Fix Released,"heat role needs to depend on ""common""",https://bugs.launchpad.net/kolla/+bug/1509627,2015-11-20
+1505281,1505281,Fix Released,vagrant should install tox,https://bugs.launchpad.net/kolla/+bug/1505281,2015-11-20
+1503999,1503999,Fix Released,Neutron-server should be on control group,https://bugs.launchpad.net/kolla/+bug/1503999,2015-11-20
+1503711,1503711,Fix Released,Docs - openstack command typo,https://bugs.launchpad.net/kolla/+bug/1503711,2015-11-20
+1500577,1500577,Fix Released,ironic needs discoverd service for source and PXE service for deb binary,https://bugs.launchpad.net/kolla/+bug/1500577,2015-11-20
+1500157,1500157,Fix Released,haproxy listens on all known services,https://bugs.launchpad.net/kolla/+bug/1500157,2015-11-20
+1498461,1498461,Fix Released,NFS should not be the default shared folder provider for Vagrant,https://bugs.launchpad.net/kolla/+bug/1498461,2015-11-20
+1498454,1498454,Fix Released,The centos/7 base image in the Vagrantfile does not container guest additions,https://bugs.launchpad.net/kolla/+bug/1498454,2015-11-20
+1498240,1498240,Fix Released,vagrant up VM misses the public key,https://bugs.launchpad.net/kolla/+bug/1498240,2015-11-20
+1496702,1496702,Fix Released,build.ini should live in /etc/kolla,https://bugs.launchpad.net/kolla/+bug/1496702,2015-11-20
+1496658,1496658,Fix Released,haproxy not exposing statistics page,https://bugs.launchpad.net/kolla/+bug/1496658,2015-11-20
+1495393,1495393,Fix Released,Update kolla repo in devenv,https://bugs.launchpad.net/kolla/+bug/1495393,2015-11-20
+1495162,1495162,Fix Released,Update repository to openstack,https://bugs.launchpad.net/kolla/+bug/1495162,2015-11-20
+1492279,1492279,Fix Released,build with git clone by reference stable/kilo fails,https://bugs.launchpad.net/kolla/+bug/1492279,2015-11-20
+1491740,1491740,Fix Released,galera container named galera instead of mariadb,https://bugs.launchpad.net/kolla/+bug/1491740,2015-11-20
+1490386,1490386,Fix Released,build.ini references dest_filename needlessly,https://bugs.launchpad.net/kolla/+bug/1490386,2015-11-20
+1488744,1488744,Fix Released,Building kolla-ansible Image Takes a Long Time when github is Slow,https://bugs.launchpad.net/kolla/+bug/1488744,2015-11-20
+1487800,1487800,Fix Released,Cinder has a default non-intuitive volume group name,https://bugs.launchpad.net/kolla/+bug/1487800,2015-11-20
+1487387,1487387,Fix Released,ansible waits for bootstrap containers on all hosts,https://bugs.launchpad.net/kolla/+bug/1487387,2015-11-20
+1486374,1486374,Fix Released,Remove mysql-server from base,https://bugs.launchpad.net/kolla/+bug/1486374,2015-11-20
+1484675,1484675,Fix Released,Using magnum from source creates /etc/magnum/magnum and can't find the config file,https://bugs.launchpad.net/kolla/+bug/1484675,2015-11-20
+1484672,1484672,Fix Released,Using designate from source creates /etc/designate/designate and can't find the config file Edit,https://bugs.launchpad.net/kolla/+bug/1484672,2015-11-20
+1484669,1484669,Fix Released,Using ceilometer from source creates /etc/ceilometer/ceilometer and can't find the config file,https://bugs.launchpad.net/kolla/+bug/1484669,2015-11-20
+1484662,1484662,Fix Released,Using cinder from source creates /etc/cinder/cinder and can't find the config file,https://bugs.launchpad.net/kolla/+bug/1484662,2015-11-20
+1484668,1484668,Fix Released,Using barbican from source creates /etc/barbican/barbican and can't find the config file,https://bugs.launchpad.net/kolla/+bug/1484668,2015-11-20
+1484649,1484649,Fix Released,Using heat from source creates /etc/heat/heat and can't find the config file,https://bugs.launchpad.net/kolla/+bug/1484649,2015-11-20
+1482895,1482895,Fix Released,some containers now building causing gate to fail,https://bugs.launchpad.net/kolla/+bug/1482895,2015-11-20
+1482832,1482832,Fix Released,keepalived is looking up the wrong group information,https://bugs.launchpad.net/kolla/+bug/1482832,2015-11-20
+1481670,1481670,Fix Released,tarballs should be the default source install method as are faster than git clone,https://bugs.launchpad.net/kolla/+bug/1481670,2015-11-20
+1481130,1481130,Fix Released,"disabling haproxy via the ""enable_haproxy"" flag is not honored",https://bugs.launchpad.net/kolla/+bug/1481130,2015-11-20
+1480296,1480296,Fix Released,tools/genenv broken,https://bugs.launchpad.net/kolla/+bug/1480296,2015-11-20
+1478328,1478328,Fix Released,database and message-broker to not match the naming scheme,https://bugs.launchpad.net/kolla/+bug/1478328,2015-11-20
+1477383,1477383,Fix Released,Split cleanup-containers script,https://bugs.launchpad.net/kolla/+bug/1477383,2015-11-20
+1476840,1476840,Fix Released,removing /root/.cache shaves 40MB off images,https://bugs.launchpad.net/kolla/+bug/1476840,2015-11-20
+1476760,1476760,Fix Released,Remove RDO dependency from source images,https://bugs.launchpad.net/kolla/+bug/1476760,2015-11-20
+1476202,1476202,Fix Released,All source based builds should default to the master tarball to match the git method,https://bugs.launchpad.net/kolla/+bug/1476202,2015-11-20
+1475760,1475760,Fix Released,Libvirt is not able to be configured externally,https://bugs.launchpad.net/kolla/+bug/1475760,2015-11-20
+1475332,1475332,Fix Released,Some files not symlinked in neutron-base,https://bugs.launchpad.net/kolla/+bug/1475332,2015-11-20
+1474679,1474679,Fix Released,Remove dead haautorpoxy code,https://bugs.launchpad.net/kolla/+bug/1474679,2015-11-20
+1474213,1474213,Fix Released,keepalived common files should live in common dir,https://bugs.launchpad.net/kolla/+bug/1474213,2015-11-20
+1473856,1473856,Fix Released,kolla start fails for docker-py==1.3.0,https://bugs.launchpad.net/kolla/+bug/1473856,2015-11-20
+1471536,1471536,Fix Released,ansible bootstrap containers continually restart,https://bugs.launchpad.net/kolla/+bug/1471536,2015-11-20
+1471514,1471514,Fix Released,ansible config module is not idempotent,https://bugs.launchpad.net/kolla/+bug/1471514,2015-11-20
+1470683,1470683,Fix Released,./tools/min-env.sh is not portable,https://bugs.launchpad.net/kolla/+bug/1470683,2015-11-20
+1470504,1470504,Fix Released,Min env vars script should sort variables and remove duplicates,https://bugs.launchpad.net/kolla/+bug/1470504,2015-11-20
+1463101,1463101,Fix Released,genenv dependent on openssl without verifying its existence,https://bugs.launchpad.net/kolla/+bug/1463101,2015-11-20
+1462798,1462798,Fix Released,designate_poolman_poolid should be autogenerated,https://bugs.launchpad.net/kolla/+bug/1462798,2015-11-20
+1460136,1460136,Fix Released,Cinder volumes will start and look active when it's not,https://bugs.launchpad.net/kolla/+bug/1460136,2015-11-20

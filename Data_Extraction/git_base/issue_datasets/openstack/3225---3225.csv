@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1866687,1866687,Fix Released,tempest-conf error: Setting [volume-feature-enabled] multi_backend = True;  TypeError: option values must be strings,https://bugs.launchpad.net/tripleo/+bug/1866687,2020-03-10
+1845225,1845225,Fix Released,"OVB master branch job is broken, can't create bmc",https://bugs.launchpad.net/tripleo/+bug/1845225,2020-03-10
+1756118,1756118,Fix Released,No live migration on aarch64,https://bugs.launchpad.net/nova/+bug/1756118,2020-03-09
+1559078,1559078,Fix Released,Scalar stack_owner_role where heat supports multiple roles,https://bugs.launchpad.net/tempest/+bug/1559078,2020-03-09
+1866543,1866543,Fix Released,All CentOS-8 jobs fail on missing various packages from component repos,https://bugs.launchpad.net/tripleo/+bug/1866543,2020-03-09
+1797966,1797966,Fix Released,"Traceback from ""detaching network adapter failed.: libvirtError: internal error: End of file from qemu monitor"" when network-vif-delete races with server delete",https://bugs.launchpad.net/nova/+bug/1797966,2020-03-09
+1865040,1865040,Fix Released,Able to show update and delete aggregate with invalid id,https://bugs.launchpad.net/nova/+bug/1865040,2020-03-09
+1852835,1852835,Fix Released,"the parameter ""--public"" has been removed in new version",https://bugs.launchpad.net/glance/+bug/1852835,2020-03-09
+1713875,1713875,Fix Released,Race condition in designate central update_zone - different zone objects returned in memory,https://bugs.launchpad.net/designate/+bug/1713875,2020-03-09
+1820089,1820089,Fix Released,pdns4 does not allow tsigkey per host,https://bugs.launchpad.net/designate/+bug/1820089,2020-03-09
+1835407,1835407,Fix Released,Improve log message for better understanding,https://bugs.launchpad.net/designate/+bug/1835407,2020-03-09
+1837532,1837532,Fix Released,"Engine doesn't retry a DB transaction on ""Too many connections"" error",https://bugs.launchpad.net/mistral/+bug/1837532,2020-03-07
+1865557,1865557,Fix Released,Error reading log file from 'neutron-keepalived-state-change' in 'test_read_queue_send_garp',https://bugs.launchpad.net/neutron/+bug/1865557,2020-03-07
+1866316,1866316,Fix Released,ara < 1.0.0 is failing on overcloud-prep-image,https://bugs.launchpad.net/tripleo/+bug/1866316,2020-03-06
+1862561,1862561,Fix Released,os-create-backup API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1862561,2020-03-06
+1773725,1773725,Fix Released,[XtremIO] backend's free gb capacity is incorrectly reported,https://bugs.launchpad.net/cinder/+bug/1773725,2020-03-06
+1860797,1860797,Fix Released,"- name: remove control-scale opts from deploy command, he error was: template error while templating string: no filter named 'succeeded'. String: {% if control_scale|succeeded %}",https://bugs.launchpad.net/tripleo/+bug/1860797,2020-03-06
+1864776,1864776,Fix Released,os-volumes-attachments API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1864776,2020-03-06
+1866181,1866181,Fix Released,"failing task ""service-ks-register : keystone | Creating services""",https://bugs.launchpad.net/kolla/+bug/1866181,2020-03-06
+1850779,1850779,Fix Released,[L3] snat-ns will be initialized twice for DVR+HA routers during agent restart,https://bugs.launchpad.net/neutron/+bug/1850779,2020-03-06
+1862558,1862558,Fix Released,os-console-output API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1862558,2020-03-05
+1698786,1698786,Fix Released,[SRU] cinder-volume fails on start when rbd pool contains partially deleted images,https://bugs.launchpad.net/cinder/+bug/1698786,2020-03-05
+1818560,1818560,Fix Released,"Nova test_report_client uses nova conf when starting placement intercept, causing missing config opts",https://bugs.launchpad.net/nova/+bug/1818560,2020-03-05
+1856324,1856324,Fix Released,podman 1.5.1 race makes some jobs fail unexpectedly in CI,https://bugs.launchpad.net/tripleo/+bug/1856324,2020-03-05
+1863945,1863945,Fix Released,Tempest config doesn't allow None values,https://bugs.launchpad.net/rally/+bug/1863945,2020-03-05
+1862220,1862220,Fix Released,_discover_or_create_flavor() takes exactly 3 arguments (2 given),https://bugs.launchpad.net/rally/+bug/1862220,2020-03-05
+1861774,1861774,Fix Released,Ping monitor ignores retry prameter,https://bugs.launchpad.net/tacker/+bug/1861774,2020-03-05
+1864106,1864106,Fix Released,Links in Mistral README.rst are dead.,https://bugs.launchpad.net/mistral/+bug/1864106,2020-03-05
+1865893,1865893,Fix Released,Kuryr is restarted if NP got removed during its processing,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1865893,2020-03-04
+1866072,1866072,Fix Released,TypeError: 'TestOpenStackClient' object is not subscriptable,https://bugs.launchpad.net/nova/+bug/1866072,2020-03-04
+1648900,1648900,Fix Released,Checking storage_protocol via initialize_connection() is high cost,https://bugs.launchpad.net/python-cinderclient/+bug/1648900,2020-03-04
+1674412,1674412,Fix Released,cinder-local attach doesn't work for non-admin users,https://bugs.launchpad.net/python-cinderclient/+bug/1674412,2020-03-04
+1659909,1659909,Fix Released,AttributeError: 'module' object has no attribute 'service_type',https://bugs.launchpad.net/python-cinderclient/+bug/1659909,2020-03-04
+1866107,1866107,Fix Released,"tripleo-ci-centos-7-scenario010-standalone jobs are failing tesmpest tests ""ServiceError: Request on service 'load-balancer' with url 'http://192.168.24.1:9876' failed with code 500""",https://bugs.launchpad.net/tripleo/+bug/1866107,2020-03-04
+1803745,1803745,Fix Released,neutron-dynamic-routing: unit test failures with master branch of neutron,https://bugs.launchpad.net/neutron/+bug/1803745,2020-03-04
+1843413,1843413,Fix Released,neutron-tempest-iptables_hybrid-fedora job is failing with RETRY_LIMIT constantly,https://bugs.launchpad.net/neutron/+bug/1843413,2020-03-04
+1819180,1819180,Fix Released,LBaaS Security Group not updated on SVC with named targedPort and Network Policy creation,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1819180,2020-03-04
+1839858,1839858,Fix Released,Adding TLS external endpoint during a stack update breaks with HA overcloud,https://bugs.launchpad.net/tripleo/+bug/1839858,2020-03-04
+1857460,1857460,Fix Released,ensure ceph-ansible installed role contradicts itself,https://bugs.launchpad.net/tripleo/+bug/1857460,2020-03-04
+1863888,1863888,Fix Released,Missing information in log message for Invalid tunnel type,https://bugs.launchpad.net/neutron/+bug/1863888,2020-03-03
+1630317,1630317,Fix Released,Tempest plugin service client registration is duplicated with >1 plugin,https://bugs.launchpad.net/tempest/+bug/1630317,2020-03-03
+1799981,1799981,Fix Released,Swift capabilities tests fail when being run against Rados GW,https://bugs.launchpad.net/tempest/+bug/1799981,2020-03-03
+1745322,1745322,Fix Released,stackviz folder does not show up in logs on zuulv3 native jobs,https://bugs.launchpad.net/tempest/+bug/1745322,2020-03-03
+1865000,1865000,Fix Released,openstack-tox-linters failing with ModuleNotFoundError: No module named 'six',https://bugs.launchpad.net/tripleo/+bug/1865000,2020-03-03
+1860273,1860273,Fix Released,Delete static route exception,https://bugs.launchpad.net/neutron/+bug/1860273,2020-03-03
+1796207,1796207,Fix Released,"devstack-plugin-ceph-tempest job failing with ""KeyError: 'volume_id'"" during test_volume_snapshot_backup",https://bugs.launchpad.net/cinder-tempest-plugin/+bug/1796207,2020-03-03
+1849481,1849481,Fix Released,Failed to delete volumes while delete instance,https://bugs.launchpad.net/nova/+bug/1849481,2020-03-03
+1857013,1857013,Fix Released,Configure live migrations in nova - timeout section for kvm doesn't mention live_migration_timeout_action,https://bugs.launchpad.net/nova/+bug/1857013,2020-03-03
+1804652,1804652,Fix Released,nova.db.sqlalchemy.migration.db_version is racy,https://bugs.launchpad.net/nova/+bug/1804652,2020-03-03
+1818345,1818345,Fix Released,"api-ref: list/show volume attachment response parameter ""device"" should be marked optional",https://bugs.launchpad.net/nova/+bug/1818345,2020-03-03
+1864451,1864451,Fix Released,wrong attempt to retrieve pods list from kubernetes response,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1864451,2020-03-02
+1605016,1605016,Fix Released,Post copy live migration interrupts network connectivity,https://bugs.launchpad.net/nova/+bug/1605016,2020-03-02
+1861464,1861464,Fix Released,os-attach-interfaces API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1861464,2020-03-02
+1792875,1792875,Fix Released,"/v2/tasks endpoint returns an error with the filter ""workflow_execution_id=eq:1-2-3-4""",https://bugs.launchpad.net/mistral/+bug/1792875,2020-03-02
+1820349,1820349,Fix Released,500 error on Service API is not supported,https://bugs.launchpad.net/mistral/+bug/1820349,2020-03-02
+1858394,1858394,Fix Released,cant create 2 workbooks with the same name in different namespaces,https://bugs.launchpad.net/mistral/+bug/1858394,2020-03-02
+1857871,1857871,Fix Released,Rework Keycloak auth token validation with auth server public key,https://bugs.launchpad.net/mistral/+bug/1857871,2020-03-02
+1707131,1707131,Fix Released,gnocchi action just can't work,https://bugs.launchpad.net/mistral/+bug/1707131,2020-03-02
+1631541,1631541,Fix Released,input of workflow-get API is ambiguous,https://bugs.launchpad.net/mistral/+bug/1631541,2020-03-02
+1815515,1815515,Fix Released,preserve key order in workflow definition,https://bugs.launchpad.net/mistral/+bug/1815515,2020-03-02
+1779318,1779318,Fix Released,Move any useful info from the wiki to the docs,https://bugs.launchpad.net/mistral/+bug/1779318,2020-03-02
+1861988,1861988,Fix Released,"LegacyScheduler doesn't assign the ""key"" property of delayed calls",https://bugs.launchpad.net/mistral/+bug/1861988,2020-03-02
+1863857,1863857,Fix Released,"Add ""convert_output_data"" config option for YAQL",https://bugs.launchpad.net/mistral/+bug/1863857,2020-03-02
+1862484,1862484,Fix Released,GET os-availability-zone API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1862484,2020-03-02
+1861501,1861501,Fix Released,Store ID fetched from URI is incorrectly encoded under py27,https://bugs.launchpad.net/glance/+bug/1861501,2020-03-02
+1861500,1861500,Fix Released,[OVN] Key error while setting QoS policies,https://bugs.launchpad.net/neutron/+bug/1861500,2020-03-02
+1847585,1847585,Fix Released,periodics centos-7-standalone-full-tempest-master + centos-7-ovb-1ctlr_2comp-featureset020-master timeout tempest tests,https://bugs.launchpad.net/tripleo/+bug/1847585,2020-03-02
+1851491,1851491,Fix Released,Issue with opendaylight RPM repo,https://bugs.launchpad.net/kolla/+bug/1851491,2020-03-02
+1863892,1863892,Fix Released,[OVN] Provider driver IPv6 traffic doesn't work,https://bugs.launchpad.net/neutron/+bug/1863892,2020-03-02
+1426106,1426106,Fix Released,Custom zone name prefix is not getting set for Cisco Driver,https://bugs.launchpad.net/cinder/+bug/1426106,2020-03-02
+1856723,1856723,Fix Released,periodic-tripleo-ci-centos-7-standalone-full-tempest-master fails during tempest run ImagesTestJSON:test_delete_saving_image,https://bugs.launchpad.net/tripleo/+bug/1856723,2020-03-01
+1860004,1860004,Fix Released,Forceful removal of containers in paunch/tripleo-container-manage leaves leftovers behind,https://bugs.launchpad.net/tripleo/+bug/1860004,2020-02-29
+1805725,1805725,Fix Released,Default timeout of enable_ssh_admin is too short  in case multiple servers deployment,https://bugs.launchpad.net/tripleo/+bug/1805725,2020-02-28
+1830607,1830607,Fix Released,[CVE-2019-3895] Privilege escalation allows running new amphorae based on arbitrary images,https://bugs.launchpad.net/tripleo/+bug/1830607,2020-02-28
+1765339,1765339,Fix Released,mysql bootstrap container leaks root db password,https://bugs.launchpad.net/tripleo/+bug/1765339,2020-02-28

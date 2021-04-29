@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+854163,854163,Fix Released,MigrateDeprecationWarning when migrating schema,https://bugs.launchpad.net/nova/+bug/854163,2012-04-05
+837464,837464,Fix Released,OSAPI iso date format is inadequate,https://bugs.launchpad.net/glance/+bug/837464,2012-04-05
+837464,837464,Fix Released,OSAPI iso date format is inadequate,https://bugs.launchpad.net/nova/+bug/837464,2012-04-05
+810424,810424,Fix Released,./run_tests.sh -N fails strangely without python-mox,https://bugs.launchpad.net/nova/+bug/810424,2012-04-05
+767984,767984,Fix Released,nova-dhcpbridge doesn't close rabbitmq connections gracefully,https://bugs.launchpad.net/nova/+bug/767984,2012-04-05
+755854,755854,Fix Released,Possible to have better error message when nbd module not loaded?,https://bugs.launchpad.net/nova/+bug/755854,2012-04-05
+942990,942990,Fix Released,volume api returns garbage when not attached,https://bugs.launchpad.net/openstack-manuals/+bug/942990,2012-04-05
+942990,942990,Fix Released,volume api returns garbage when not attached,https://bugs.launchpad.net/nova/+bug/942990,2012-04-05
+942644,942644,Fix Released,Timing vulnerabilities throughout openstack,https://bugs.launchpad.net/nova/+bug/942644,2012-04-05
+942644,942644,Fix Released,Timing vulnerabilities throughout openstack,https://bugs.launchpad.net/swift/+bug/942644,2012-04-05
+942644,942644,Fix Released,Timing vulnerabilities throughout openstack,https://bugs.launchpad.net/keystone/+bug/942644,2012-04-05
+942431,942431,Fix Released,real exceptions get eaten when processing api resources,https://bugs.launchpad.net/nova/+bug/942431,2012-04-05
+938853,938853,Fix Released,openstack api allows deletion of in-use security group,https://bugs.launchpad.net/nova/+bug/938853,2012-04-05
+934575,934575,Fix Released,notifier endless loops in is_primitive,https://bugs.launchpad.net/nova/+bug/934575,2012-04-05
+933584,933584,Fix Released,Qpid error while creating an instance,https://bugs.launchpad.net/nova/+bug/933584,2012-04-05
+932257,932257,Fix Released,e2fsck needs -y,https://bugs.launchpad.net/nova/+bug/932257,2012-04-05
+932180,932180,Fix Released,Can't disable force raw images,https://bugs.launchpad.net/nova/+bug/932180,2012-04-05
+932154,932154,Fix Released,076_remove_unique_constraints fails on Postgres,https://bugs.launchpad.net/nova/+bug/932154,2012-04-05
+929784,929784,Fix Released,impl_qpid reconnects in a busy loop,https://bugs.launchpad.net/nova/+bug/929784,2012-04-05
+929281,929281,Fix Released,"when value of metadata is unicode, GETs return 500s",https://bugs.launchpad.net/nova/+bug/929281,2012-04-05
+929232,929232,Fix Released,unicode in server names causes 500 errors during create,https://bugs.launchpad.net/nova/+bug/929232,2012-04-05
+928996,928996,Fix Released,impl_qpid and impl_kombu can step on each other's connection pool,https://bugs.launchpad.net/nova/+bug/928996,2012-04-05
+928836,928836,Fix Released,tests.integrated fails with devstack,https://bugs.launchpad.net/nova/+bug/928836,2012-04-05
+927966,927966,Fix Released,Extension authorizer needs project_id and user_id,https://bugs.launchpad.net/nova/+bug/927966,2012-04-05
+926412,926412,Fix Released,Rootwrap pid check raises exception,https://bugs.launchpad.net/nova/+bug/926412,2012-04-05
+926372,926372,Fix Released,Nova requires the deprecated X_USER header in auth mode,https://bugs.launchpad.net/nova/+bug/926372,2012-04-05
+925792,925792,Fix Released,crypto import fails on non-case sensitive filesystem,https://bugs.launchpad.net/nova/+bug/925792,2012-04-05
+925682,925682,Fix Released,"virtual_interfaces extension returns UUID, Nova expects ID",https://bugs.launchpad.net/nova/+bug/925682,2012-04-05
+924601,924601,Fix Released,lxc fails to attach volumes.,https://bugs.launchpad.net/nova/+bug/924601,2012-04-05
+933147,933147,Fix Released,Security Group Trigger notifications not propagated to Quantum,https://bugs.launchpad.net/nova/+bug/933147,2012-04-05
+933012,933012,Fix Released,InstanceNotFound exceptions should not log stack traces in compute logs,https://bugs.launchpad.net/nova/+bug/933012,2012-04-05
+932927,932927,Fix Released,glance xenserver plugin doesn't always retry,https://bugs.launchpad.net/nova/+bug/932927,2012-04-05
+932395,932395,Fix Released,OS API issues when calling network API,https://bugs.launchpad.net/nova/+bug/932395,2012-04-05
+932356,932356,Fix Released,"return code for ""iscsiadm: No records found"" is 21",https://bugs.launchpad.net/nova/+bug/932356,2012-04-05
+932179,932179,Fix Released,libvirt.connection.pre_block_migration() may pass wrong size,https://bugs.launchpad.net/nova/+bug/932179,2012-04-05
+932156,932156,Fix Released,No such option: use_deprecated_auth,https://bugs.launchpad.net/nova/+bug/932156,2012-04-05
+931794,931794,Fix Released,test_libvirt missing uuid field in instance,https://bugs.launchpad.net/nova/+bug/931794,2012-04-05
+931687,931687,Fix Released,SAWarning: The IN-predicate on [...] was invoked with an empty sequence,https://bugs.launchpad.net/nova/+bug/931687,2012-04-05
+931608,931608,Fix Released,run_tests.sh (-x | --stop) is broken,https://bugs.launchpad.net/nova/+bug/931608,2012-04-05
+931604,931604,Fix Released,improve how xenapi RRD records are retrieved,https://bugs.launchpad.net/nova/+bug/931604,2012-04-05
+931602,931602,Fix Released,Database migrations failing on 077_convert_to_utf8.py,https://bugs.launchpad.net/nova/+bug/931602,2012-04-05
+931356,931356,Fix Released,nova-manage prints libvirt related warnings if libvirt isn't installed,https://bugs.launchpad.net/nova/+bug/931356,2012-04-05
+930863,930863,Fix Released,hard coded database name in 077_convert_to_utf8.py,https://bugs.launchpad.net/nova/+bug/930863,2012-04-05
+930519,930519,Fix Released,fault in nova/testing/runner.py stops unit test,https://bugs.launchpad.net/nova/+bug/930519,2012-04-05
+930409,930409,Fix Released,integer imageRef causes HTTP 500,https://bugs.launchpad.net/nova/+bug/930409,2012-04-05
+930329,930329,Fix Released,server lists return 404 when network api raises InstanceNotFound,https://bugs.launchpad.net/nova/+bug/930329,2012-04-05
+930278,930278,Fix Released,Asynchronous faults do not show traceback,https://bugs.launchpad.net/nova/+bug/930278,2012-04-05
+930245,930245,Fix Released,nova gives up on glance connection failures too easily,https://bugs.launchpad.net/nova/+bug/930245,2012-04-05
+929462,929462,Fix Released,compile_diagnostics in xenapi erronously catch XenAPI.Failure,https://bugs.launchpad.net/nova/+bug/929462,2012-04-05
+929101,929101,Fix Released,BaseException.message has been deprecated in nova/compute/manager.py,https://bugs.launchpad.net/nova/+bug/929101,2012-04-05
+929090,929090,Fix Released,quantum port security should allow for inclusion of link-local addresses,https://bugs.launchpad.net/nova/+bug/929090,2012-04-05
+929041,929041,Fix Released,nova/network/quantum/melange_connection.py gives up too easily,https://bugs.launchpad.net/nova/+bug/929041,2012-04-05
+929018,929018,Fix Released,quantum port security only works the the 1st address,https://bugs.launchpad.net/nova/+bug/929018,2012-04-05
+928749,928749,Fix Released,mkfs.ntfs command not working on files,https://bugs.launchpad.net/nova/+bug/928749,2012-04-05
+928566,928566,Fix Released,nova-rootwrap does not wait() for subprocess before returning,https://bugs.launchpad.net/nova/+bug/928566,2012-04-05
+928489,928489,Fix Released,xvpvncproxy error in nova-all,https://bugs.launchpad.net/nova/+bug/928489,2012-04-05
+928474,928474,Fix Released,Exception in finish_resize() will leave instance stuck in RESIZE,https://bugs.launchpad.net/nova/+bug/928474,2012-04-05
+928322,928322,Fix Released,075 migration fails with OperationalError,https://bugs.launchpad.net/nova/+bug/928322,2012-04-05
+928015,928015,Fix Released,hostId is not unique within each project,https://bugs.launchpad.net/nova/+bug/928015,2012-04-05
+927714,927714,Fix Released,image cache manager can delete used images,https://bugs.launchpad.net/nova/+bug/927714,2012-04-05
+925664,925664,Fix Released,fixed IPs are not disassociated with FlatManager,https://bugs.launchpad.net/nova/+bug/925664,2012-04-05
+925587,925587,Fix Released,Gap in usage data due to rebuilds.,https://bugs.launchpad.net/nova/+bug/925587,2012-04-05
+924970,924970,Fix Released,test timeouts with libvirt raw images,https://bugs.launchpad.net/nova/+bug/924970,2012-04-05
+924933,924933,Fix Released,boto 2.2.1 fails to install,https://bugs.launchpad.net/nova/+bug/924933,2012-04-05
+924918,924918,Fix Released,Deadlock creating >5 servers at once using xenapi driver,https://bugs.launchpad.net/nova/+bug/924918,2012-04-05
+924266,924266,Fix Released,connection_type and firewall_driver flags mismatch,https://bugs.launchpad.net/nova/+bug/924266,2012-04-05
+924093,924093,Fix Released,describe_resource have to return values with better  format,https://bugs.launchpad.net/nova/+bug/924093,2012-04-05
+923983,923983,Fix Released,Add custom routes support for extensions,https://bugs.launchpad.net/nova/+bug/923983,2012-04-05
+923798,923798,Fix Released,On XenServer the DomU firewall driver fails with NotImplementedError,https://bugs.launchpad.net/nova/+bug/923798,2012-04-05
+922373,922373,Fix Released,Invalid ec2 credentials result in a key error + 400 Bad Request,https://bugs.launchpad.net/nova/+bug/922373,2012-04-05
+921848,921848,Fix Released,Restarting nova-compute faild beucase _get_host_utilization uses Intance.localgb which is not exist,https://bugs.launchpad.net/nova/+bug/921848,2012-04-05
+921730,921730,Fix Released,plugins/xenserver/xenapi/etc/xapi.d/plugins/objectstore no longer in use,https://bugs.launchpad.net/nova/+bug/921730,2012-04-05
+921087,921087,Fix Released,i18n-key and local-storage hard-coded in xenapi,https://bugs.launchpad.net/nova/+bug/921087,2012-04-05
+919390,919390,Fix Released,Block migration fails when keystone is in use.,https://bugs.launchpad.net/nova/+bug/919390,2012-04-05
+917736,917736,Fix Released,UUID used for starting KVM instances is not the same like the internal UUIDs,https://bugs.launchpad.net/nova/+bug/917736,2012-04-05

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1527753,1527753,Fix Released,<remark> element in dbaas.wadl; comment out,https://bugs.launchpad.net/openstack-api-site/+bug/1527753,2016-01-15
+1520135,1520135,Fix Released,[vmware-dvs] Network creation failed  when port group name length is more than 43 symbols,https://bugs.launchpad.net/vmware-dvs/+bug/1520135,2016-01-15
+1528787,1528787,Fix Released,fuel-bootstrap: config file is not synced to Mcollective container,https://bugs.launchpad.net/fuel/+bug/1528787,2016-01-15
+1533955,1533955,Fix Released,Assertion argument order is wrong in gateway device and l2 gateway,https://bugs.launchpad.net/networking-midonet/+bug/1533955,2016-01-15
+1487482,1487482,Fix Released,[VIPs] VIPs names should be unique,https://bugs.launchpad.net/fuel/+bug/1487482,2016-01-15
+1496787,1496787,Fix Released,"If qos service_plugin is enabled, but ml2 extension driver is not, api requests attaching policies to ports or nets will fail with an ugly exception",https://bugs.launchpad.net/neutron/+bug/1496787,2016-01-15
+1514510,1514510,Fix Released,Delete of last member does not remove it from haproxy config,https://bugs.launchpad.net/octavia/+bug/1514510,2016-01-15
+1527691,1527691,Fix Released,default haproxy process running on amphora,https://bugs.launchpad.net/octavia/+bug/1527691,2016-01-15
+1513302,1513302,Fix Released,Logging fails in database task,https://bugs.launchpad.net/octavia/+bug/1513302,2016-01-15
+1505406,1505406,Fix Released,Queries for fetching quotas are not scoped,https://bugs.launchpad.net/neutron/+bug/1505406,2016-01-15
+1534384,1534384,Fix Released,image upload failure with file store backend,https://bugs.launchpad.net/kolla/+bug/1534384,2016-01-15
+1531723,1531723,Fix Released,devstack doesn't check ASTARA_APPLIANCE_SSH_PUBLIC_KEY existence,https://bugs.launchpad.net/astara/+bug/1531723,2016-01-15
+1533918,1533918,Fix Released,floating ip deletion causes DBDeadlock in Juno,https://bugs.launchpad.net/group-based-policy/+bug/1533918,2016-01-15
+1518110,1518110,Fix Released,Launch Instance Wizard - Security Groups Available table count not working,https://bugs.launchpad.net/horizon/+bug/1518110,2016-01-15
+1532724,1532724,Fix Released,Deploying example-app/io.murano.apps.demo.DemoApp fails,https://bugs.launchpad.net/murano/+bug/1532724,2016-01-14
+1533655,1533655,Fix Released,Test list generation doesn't report stdout,https://bugs.launchpad.net/refstack/+bug/1533655,2016-01-14
+1349888,1349888,Fix Released,[SRU] Attempting to attach the same volume multiple times can cause bdm record for existing attachment to be deleted.,https://bugs.launchpad.net/nova/+bug/1349888,2016-01-14
+1534173,1534173,Fix Released,Wrong shares client version used in ShareRulesTest,https://bugs.launchpad.net/manila/+bug/1534173,2016-01-14
+1531039,1531039,Fix Released,lack of related parameters in neutron::agents::ml2::ovs,https://bugs.launchpad.net/puppet-neutron/+bug/1531039,2016-01-14
+1529635,1529635,Fix Released,ERR: (/Stage[main]/Murano::Dashboard/Exec[django_syncdb]) Failed to call refresh: /usr/share/openstack-dashboard/manage.py syncdb --noinput returned 1 instead of one of [0],https://bugs.launchpad.net/puppet-murano/+bug/1529635,2016-01-14
+1532691,1532691,Fix Released,Mistake in API documentation for action_plans,https://bugs.launchpad.net/watcher/+bug/1532691,2016-01-14
+1520553,1520553,Fix Released,Deployment with DVR fails on Firewall setup,https://bugs.launchpad.net/fuel/+bug/1520553,2016-01-14
+1479466,1479466,Fix Released,The needs  to treat subflows as standalone entity,https://bugs.launchpad.net/octavia/+bug/1479466,2016-01-14
+1533791,1533791,Fix Released,"oschecks-check_keystone_api  error list indices must be integers, not str",https://bugs.launchpad.net/osops/+bug/1533791,2016-01-14
+1518993,1518993,Fix Released,Plugins metadata (keys in hash with settings) gets corrupted,https://bugs.launchpad.net/fuel/+bug/1518993,2016-01-14
+1498253,1498253,Fix Released,[dashboard] Yaql types 'validators' support in dynamic UI is broken,https://bugs.launchpad.net/murano/+bug/1498253,2016-01-14
+1500920,1500920,Fix Released,SameHostFilter should fail if no instances on host,https://bugs.launchpad.net/nova/+bug/1500920,2016-01-14
+1427975,1427975,Fix Released,Comment doesn't get saved in policy rule creation,https://bugs.launchpad.net/congress/+bug/1427975,2016-01-14
+1523541,1523541,Fix Released,We need to clean up interface related changes by Predictable Interfaces,https://bugs.launchpad.net/fuel/+bug/1523541,2016-01-14
+1517412,1517412,Fix Released,OSTF test fails during neutron_vlan_ha deployment on fuel-ci,https://bugs.launchpad.net/fuel/+bug/1517412,2016-01-14
+1534122,1534122,Fix Committed,[ISO build] Incorrect versioning schema for fuel debian package on ISO build,https://bugs.launchpad.net/fuel/+bug/1534122,2016-01-14
+1508876,1508876,Fix Released,errors.CannotUpdate exception doesn't exist,https://bugs.launchpad.net/fuel/+bug/1508876,2016-01-14
+1505375,1505375,Fix Released,Upgrading an existing HA router to DVR returns wrong error,https://bugs.launchpad.net/neutron/+bug/1505375,2016-01-14
+1533205,1533205,Fix Released,Method _get_tenant_id_for_create in neutron core will be deprecated in N release.,https://bugs.launchpad.net/networking-midonet/+bug/1533205,2016-01-14
+1526351,1526351,Fix Released,Fuel master node deployment failed with ERROR: rabbitmq failed to start.,https://bugs.launchpad.net/fuel/+bug/1526351,2016-01-14
+1518264,1518264,Fix Released,There are 2 rabbitmq cluster after failover of one controller that was rabbit master previosly,https://bugs.launchpad.net/fuel/+bug/1518264,2016-01-14
+1435943,1435943,Fix Released,SSH test is failing with Cirros 0.3.1,https://bugs.launchpad.net/devstack/+bug/1435943,2016-01-14
+1531916,1531916,Fix Released,[Pivotal Ops Manager] App is unavailable after installation,https://bugs.launchpad.net/murano-apps/+bug/1531916,2016-01-14
+1527630,1527630,Fix Released,[Ops Manager] Security group unconfigured after deployment,https://bugs.launchpad.net/murano-apps/+bug/1527630,2016-01-14
+1533761,1533761,Fix Released,Devstack doc - extra space causing service to crash,https://bugs.launchpad.net/watcher/+bug/1533761,2016-01-14
+1318514,1318514,Fix Committed,Not a whole /var/log/ is used for diagnostic snapshot,https://bugs.launchpad.net/fuel/+bug/1318514,2016-01-14
+1519757,1519757,Fix Released,Sahara OSTF tests failed because of image not found,https://bugs.launchpad.net/fuel/+bug/1519757,2016-01-14
+1526034,1526034,Fix Released,"Network check should fail, but completes successfuly",https://bugs.launchpad.net/fuel/+bug/1526034,2016-01-14
+1533864,1533864,Fix Released,Document Network Offloading,https://bugs.launchpad.net/fuel/+bug/1533864,2016-01-14
+1517449,1517449,Fix Released,CI reports wrong number of nodes and fails,https://bugs.launchpad.net/tripleo/+bug/1517449,2016-01-14
+1533332,1533332,Fix Committed,Fuel syntax check should check all puppet manifests for nested classes and defines in order to support Puppet4,https://bugs.launchpad.net/fuel/+bug/1533332,2016-01-14
+1504297,1504297,Fix Released,Failed BVT due to https://review.openstack.org/#/c/228503/,https://bugs.launchpad.net/fuel/+bug/1504297,2016-01-14
+1533115,1533115,Fix Released,source code should be compliant with Import order template,https://bugs.launchpad.net/python-watcherclient/+bug/1533115,2016-01-14
+1531606,1531606,Fix Released,Subusers cannot delete stacks with software config,https://bugs.launchpad.net/heat/+bug/1531606,2016-01-14
+1533448,1533448,Fix Released,tempest-cli: Cannot get subcommands help with '--help/-h' option,https://bugs.launchpad.net/tempest/+bug/1533448,2016-01-14
+1533257,1533257,Fix Released,VNC options need to move to [vnc] section,https://bugs.launchpad.net/puppet-nova/+bug/1533257,2016-01-14
+1533269,1533269,Fix Released,SSL options is deprecating and move to [ssl] section,https://bugs.launchpad.net/puppet-nova/+bug/1533269,2016-01-14
+1533346,1533346,Fix Released,federation create_mapping signature and V9 wrapper incorrect,https://bugs.launchpad.net/keystone/+bug/1533346,2016-01-14
+1522773,1522773,Fix Committed,Can't add 2 router interfaces to the same network,https://bugs.launchpad.net/midonet/+bug/1522773,2016-01-14
+1446583,1446583,Fix Released,services no longer reliably stop in stable/liberty / master,https://bugs.launchpad.net/keystone/+bug/1446583,2016-01-14
+1446583,1446583,Fix Released,services no longer reliably stop in stable/liberty / master,https://bugs.launchpad.net/cinder/+bug/1446583,2016-01-14
+1446583,1446583,Fix Released,services no longer reliably stop in stable/liberty / master,https://bugs.launchpad.net/nova/+bug/1446583,2016-01-14
+1469353,1469353,Fix Released,the db models file ovs_models_v2.py seems to be not required,https://bugs.launchpad.net/tricircle/+bug/1469353,2016-01-14
+1469351,1469351,Fix Released,Add a PoC link on the Tricircle readme.md,https://bugs.launchpad.net/tricircle/+bug/1469351,2016-01-14
+1532529,1532529,Fix Released,Set BUILD_ASTARA_APPLIANCE_IMAGE=true doesn't build appliance.,https://bugs.launchpad.net/astara/+bug/1532529,2016-01-14
+1533824,1533824,Fix Released,Add the Networking service in Installation Guide - broken link to Networking Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1533824,2016-01-14
+1459820,1459820,Fix Released,OpenStack Security Guide - Mandatory Access Control policy guidance,https://bugs.launchpad.net/openstack-manuals/+bug/1459820,2016-01-14
+1527749,1527749,Fix Released,"extra code element in ch_identity-v3.xml, API Ref",https://bugs.launchpad.net/openstack-api-site/+bug/1527749,2016-01-14
+1279062,1279062,Fix Released,Software config hook for configuring with Chef,https://bugs.launchpad.net/heat-templates/+bug/1279062,2016-01-14
+1454844,1454844,Fix Released,Arity error when getting rows for table with modal,https://bugs.launchpad.net/congress/+bug/1454844,2016-01-13
+1499274,1499274,Fix Released,deleting a policy always throws error,https://bugs.launchpad.net/congress/+bug/1499274,2016-01-13
+1505057,1505057,Fix Released,Congress failed to start,https://bugs.launchpad.net/congress/+bug/1505057,2016-01-13
+1505750,1505750,Fix Released,test_policy assumes oslo.policy internal implementationd details,https://bugs.launchpad.net/congress/+bug/1505750,2016-01-13
+1507329,1507329,Fix Released,Status API for a rule doesn't work after Congress restarts,https://bugs.launchpad.net/congress/+bug/1507329,2016-01-13
+1510428,1510428,Fix Released,clarify the example in 'Simulation with Actions' RST document,https://bugs.launchpad.net/congress/+bug/1510428,2016-01-13
+1510527,1510527,Fix Released,The output don't match with example commands in enforcement.rst,https://bugs.launchpad.net/congress/+bug/1510527,2016-01-13
+1510762,1510762,Fix Released,"builtins table lack important methods, like equal(x,y) in policy.rst",https://bugs.launchpad.net/congress/+bug/1510762,2016-01-13
+1515890,1515890,Fix Released,restarting service fails with error PolicyException when there is table with 0 arity,https://bugs.launchpad.net/congress/+bug/1515890,2016-01-13
+1344431,1344431,Fix Released,Error message for Java dependency,https://bugs.launchpad.net/congress/+bug/1344431,2016-01-13
+1413425,1413425,Fix Released,Streamline datasource drivers,https://bugs.launchpad.net/congress/+bug/1413425,2016-01-13

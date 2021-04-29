@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1682135,1682135,Fix Released,centos CDN infra is not working properly,https://bugs.launchpad.net/tripleo/+bug/1682135,2018-02-20
+1711435,1711435,Fix Released,rhel-registration script broken with satellite 6.2.5+,https://bugs.launchpad.net/tripleo/+bug/1711435,2018-02-20
+1712070,1712070,Fix Released,Containerized overcloud with pacemaker is missing CI,https://bugs.launchpad.net/tripleo/+bug/1712070,2018-02-20
+1714952,1714952,Fix Released,Mariadb health check reports false negatives,https://bugs.launchpad.net/tripleo/+bug/1714952,2018-02-20
+1720761,1720761,Fix Released,[OVN]ovsdb_jsonrpc_server|ERR|ptcp:6641:172.17.1.10: listen failed: Cannot assign requested address,https://bugs.launchpad.net/tripleo/+bug/1720761,2018-02-20
+1720761,1720761,Fix Committed,[OVN]ovsdb_jsonrpc_server|ERR|ptcp:6641:172.17.1.10: listen failed: Cannot assign requested address,https://bugs.launchpad.net/networking-ovn/+bug/1720761,2018-02-20
+1720766,1720766,Fix Released,Boot of multiple nodes causes ARP storm,https://bugs.launchpad.net/tripleo/+bug/1720766,2018-02-20
+1720787,1720787,Fix Released,TripleO deploys ceph client keyring with 644 permissions,https://bugs.launchpad.net/tripleo/+bug/1720787,2018-02-20
+1728409,1728409,Fix Released,glance-api container not working when using cinder for backend,https://bugs.launchpad.net/tripleo/+bug/1728409,2018-02-20
+1729453,1729453,Fix Released,added level of indirection causes incorrect hiera config for big switch networks plugin,https://bugs.launchpad.net/tripleo/+bug/1729453,2018-02-20
+1730280,1730280,Fix Released,"undercloud containers fails due to "" heat cloudformation endpoint is not in service catalog""",https://bugs.launchpad.net/heat/+bug/1730280,2018-02-20
+1730280,1730280,Fix Released,"undercloud containers fails due to "" heat cloudformation endpoint is not in service catalog""",https://bugs.launchpad.net/tripleo/+bug/1730280,2018-02-20
+1733943,1733943,Fix Released,docker restart or machine reboot can cause docker daemon to exit,https://bugs.launchpad.net/tripleo/+bug/1733943,2018-02-20
+1737799,1737799,Fix Released,keystone domain configuration not written out in containers,https://bugs.launchpad.net/tripleo/+bug/1737799,2018-02-20
+1739492,1739492,Fix Released,"nova-compute.log, and other container logs are missing in some containerized deployments",https://bugs.launchpad.net/tripleo/+bug/1739492,2018-02-20
+1743863,1743863,Fix Released,ganesha VIP deployment fails because multiply defined,https://bugs.launchpad.net/tripleo/+bug/1743863,2018-02-20
+1744950,1744950,Fix Released,TemplateSyntaxError: unexpected char u'\\' at 7556 when using hostvars with config-download,https://bugs.launchpad.net/tripleo/+bug/1744950,2018-02-20
+1744763,1744763,Fix Released,Ci: moving OVB jobs to RDO third party CI,https://bugs.launchpad.net/tripleo/+bug/1744763,2018-02-20
+1749677,1749677,Fix Released,Inconsistency in the un-used parameters warning,https://bugs.launchpad.net/tripleo/+bug/1749677,2018-02-20
+1744967,1744967,Fix Released,OVS OpenDaylight fails to configure correctly when TLS is used and connection uri's are set,https://bugs.launchpad.net/puppet-neutron/+bug/1744967,2018-02-20
+1748435,1748435,Fix Released,Dependency cycle issue - networking_baremetal ml2 plugin,https://bugs.launchpad.net/puppet-neutron/+bug/1748435,2018-02-20
+1746389,1746389,Fix Released,Beaker tests failing due to keystone config changes,https://bugs.launchpad.net/puppet-ironic/+bug/1746389,2018-02-20
+1477484,1477484,Fix Released,test_engine_service tests are racy,https://bugs.launchpad.net/heat/+bug/1477484,2018-02-20
+1747841,1747841,Fix Released,Remove ceilometer api class,https://bugs.launchpad.net/puppet-ceilometer/+bug/1747841,2018-02-20
+1680658,1680658,Fix Released,Loading a resource object always loads all resource db fields,https://bugs.launchpad.net/heat/+bug/1680658,2018-02-20
+1738424,1738424,Fix Released,CentOS/SUSE pip wheel builds are very slow,https://bugs.launchpad.net/openstack-ansible/+bug/1738424,2018-02-20
+1336095,1336095,Fix Released,Not logging enough at INFO level,https://bugs.launchpad.net/heat/+bug/1336095,2018-02-20
+1464037,1464037,Fix Released,Create stack fails on a multi core VM,https://bugs.launchpad.net/heat/+bug/1464037,2018-02-20
+1532427,1532427,Fix Released,"""Add properties for id attributes"" breaks Heat",https://bugs.launchpad.net/heat/+bug/1532427,2018-02-20
+1526308,1526308,Fix Released,[RFE] New deploy driver using ansible for node bootstraping,https://bugs.launchpad.net/ironic/+bug/1526308,2018-02-20
+1664931,1664931,Fix Released,[OSSA-2017-005] nova rebuild ignores all image properties and scheduler filters (CVE-2017-16239),https://bugs.launchpad.net/ossa/+bug/1664931,2018-02-20
+1664931,1664931,Fix Released,[OSSA-2017-005] nova rebuild ignores all image properties and scheduler filters (CVE-2017-16239),https://bugs.launchpad.net/nova/+bug/1664931,2018-02-20
+1744983,1744983,Fix Released,coverage job fails with timeout,https://bugs.launchpad.net/neutron/+bug/1744983,2018-02-20
+1750521,1750521,Fix Released,K8S service resource creation - fails,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1750521,2018-02-20
+1719619,1719619,Fix Released,port delete fails due to bug in delete_port_precommit,https://bugs.launchpad.net/networking-vpp/+bug/1719619,2018-02-20
+1744646,1744646,Fix Released,Wrong number of nodes: Messaging service  in High Availability Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1744646,2018-02-20
+1750255,1750255,Fix Released,vpp l3 plugin should avoid dependency on vpp_papi,https://bugs.launchpad.net/networking-vpp/+bug/1750255,2018-02-20
+1744528,1744528,Fix Released,ci failed due to wrong scaling param is translated,https://bugs.launchpad.net/tacker/+bug/1744528,2018-02-20
+1545595,1545595,Fix Released,tox failing in stable/libery,https://bugs.launchpad.net/python-tackerclient/+bug/1545595,2018-02-20
+1553715,1553715,Fix Released,Clean up hacking.rst and doc,https://bugs.launchpad.net/python-tackerclient/+bug/1553715,2018-02-20
+1617157,1617157,Fix Released,Unit test under tackerclient/tests/unit are not getting executed,https://bugs.launchpad.net/python-tackerclient/+bug/1617157,2018-02-20
+1706161,1706161,Fix Released,tacker client has no published documentation,https://bugs.launchpad.net/python-tackerclient/+bug/1706161,2018-02-20
+1711550,1711550,Fix Released,Wrong DB table type,https://bugs.launchpad.net/tacker/+bug/1711550,2018-02-20
+1625402,1625402,Fix Released,"Authenticated ""Billion laughs"" memory exhaustion / DoS vulnerability in ovf_process.py",https://bugs.launchpad.net/glance/+bug/1625402,2018-02-20
+1670464,1670464,Fix Released,"Downloading image with --progress fails with ""RequestIdProxy object is not an iterator""",https://bugs.launchpad.net/glance/+bug/1670464,2018-02-20
+1599735,1599735,Fix Released,integrate i18n according to oslo.i18n usage,https://bugs.launchpad.net/tacker/+bug/1599735,2018-02-20
+1596082,1596082,Fix Released,"installation error Ignoring dnspython3: markers u""python_version=='3.4'"" don't match your environment",https://bugs.launchpad.net/tacker/+bug/1596082,2018-02-20
+1592277,1592277,Fix Released,CLI: Add VNFD id in vnf-list output,https://bugs.launchpad.net/tacker/+bug/1592277,2018-02-20
+1590691,1590691,Fix Released,Not work well with api_workers more than 1,https://bugs.launchpad.net/tacker/+bug/1590691,2018-02-20
+1589018,1589018,Fix Released,"Rename db table names, relevant columns and API calls to MANO term.",https://bugs.launchpad.net/tacker/+bug/1589018,2018-02-20
+1573815,1573815,Fix Released,VNF row does not highlight color in Horizon on an empty VNF list page,https://bugs.launchpad.net/tacker/+bug/1573815,2018-02-20
+1561817,1561817,Fix Released,Testcase to verify the stack_id from heat client with the vnf instance_id to verify vnf is actually created in the provided tenant,https://bugs.launchpad.net/tacker/+bug/1561817,2018-02-20
+1547712,1547712,Fix Released,Add Python3 support in Tacker,https://bugs.launchpad.net/tacker/+bug/1547712,2018-02-20
+1543377,1543377,Fix Released,Pre-onboard OpenWRT VNFD template in tacker devstack installation,https://bugs.launchpad.net/tacker/+bug/1543377,2018-02-20
+1540527,1540527,Fix Released,Setup Translation in tacker,https://bugs.launchpad.net/tacker/+bug/1540527,2018-02-20
+1522961,1522961,Fix Released,Display VNF monitoring status and health failure reason,https://bugs.launchpad.net/tacker/+bug/1522961,2018-02-20
+1490067,1490067,Fix Released,tacker vnfd-create with empty vnfd-file or vnfd argument  throws a non meaningful error,https://bugs.launchpad.net/tacker/+bug/1490067,2018-02-20
+1490067,1490067,Fix Released,tacker vnfd-create with empty vnfd-file or vnfd argument  throws a non meaningful error,https://bugs.launchpad.net/python-tackerclient/+bug/1490067,2018-02-20
+1493513,1493513,Fix Released,"UI: Textbox contents need to be cleared while toggling between ""File"" and ""Direct Input""",https://bugs.launchpad.net/tacker/+bug/1493513,2018-02-20
+1476698,1476698,Fix Released,Tacker: Add vnfd-show command and format attributes output,https://bugs.launchpad.net/tacker/+bug/1476698,2018-02-20
+1475785,1475785,Fix Released,Tacker:  The vnf-create --config-file and --config options should be mutually exclusive,https://bugs.launchpad.net/tacker/+bug/1475785,2018-02-20
+1745631,1745631,Fix Released,Barbican starts a single process only,https://bugs.launchpad.net/openstack-ansible/+bug/1745631,2018-02-19
+1743382,1743382,Fix Released,Handle missing init.scope systemd scope,https://bugs.launchpad.net/openstack-ansible/+bug/1743382,2018-02-19
+1747740,1747740,Fix Released,CentOS yum repository for galera has moved,https://bugs.launchpad.net/openstack-ansible/+bug/1747740,2018-02-19
+1677238,1677238,Fix Released,Convert Linux Bridge os-vif driver to use native Python bindings,https://bugs.launchpad.net/os-vif/+bug/1677238,2018-02-19
+1745479,1745479,Fix Released,Keystone configured as insecure when HAproxy certs are installed,https://bugs.launchpad.net/openstack-ansible/+bug/1745479,2018-02-19
+1624791,1624791,Fix Released,Horizon randomly fails to connect to the service APIs,https://bugs.launchpad.net/openstack-ansible/+bug/1624791,2018-02-19
+1708655,1708655,Fix Released,mod_wsgi requires WSGIApplicationGroup %{GLOBAL} or it will hang,https://bugs.launchpad.net/kolla-ansible/+bug/1708655,2018-02-19
+1708655,1708655,Fix Released,mod_wsgi requires WSGIApplicationGroup %{GLOBAL} or it will hang,https://bugs.launchpad.net/horizon/+bug/1708655,2018-02-19
+1708655,1708655,Fix Released,mod_wsgi requires WSGIApplicationGroup %{GLOBAL} or it will hang,https://bugs.launchpad.net/puppet-horizon/+bug/1708655,2018-02-19
+1708655,1708655,Fix Released,mod_wsgi requires WSGIApplicationGroup %{GLOBAL} or it will hang,https://bugs.launchpad.net/openstack-ansible/+bug/1708655,2018-02-19
+1738416,1738416,Fix Released,HATop download failing in haproxy_server on CentOS,https://bugs.launchpad.net/openstack-ansible/+bug/1738416,2018-02-19
+1734868,1734868,Fix Released,Race condition in zone imports tests,https://bugs.launchpad.net/designate/+bug/1734868,2018-02-19
+1641250,1641250,Fix Released,NG details view route should have different name,https://bugs.launchpad.net/horizon/+bug/1641250,2018-02-19
+1641250,1641250,Fix Released,NG details view route should have different name,https://bugs.launchpad.net/magnum-ui/+bug/1641250,2018-02-19

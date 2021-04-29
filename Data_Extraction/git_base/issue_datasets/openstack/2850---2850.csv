@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1867357,1867357,Fix Released,Make cpuset_cpus configurable for nova_libvirt,https://bugs.launchpad.net/tripleo/+bug/1867357,2020-04-09
+1868135,1868135,Fix Released,paunch: get_all_cpus() isn't consistent on PPC,https://bugs.launchpad.net/tripleo/+bug/1868135,2020-04-09
+1864660,1864660,Fix Released,container local push may fail if source container metadata is different than the metadata from podman,https://bugs.launchpad.net/tripleo/+bug/1864660,2020-04-09
+1791238,1791238,Fix Released,"Undercloud - changing os-net-config conf kills undercloud_[admin, public]_host IPs",https://bugs.launchpad.net/tripleo/+bug/1791238,2020-04-09
+1870469,1870469,Fix Released,Fix the failing unit tests due to change in heat-translator,https://bugs.launchpad.net/tacker/+bug/1870469,2020-04-09
+1854209,1854209,Fix Released,Node Specific Overrides for Ceph fail on awk command,https://bugs.launchpad.net/tripleo/+bug/1854209,2020-04-09
+1857493,1857493,Fix Released,rebuilding initramfs should be always run after applying Sysctl,https://bugs.launchpad.net/tripleo/+bug/1857493,2020-04-09
+1860146,1860146,Fix Released,Config-download deployment consumes a lot of memeory during the update /etc/hosts task,https://bugs.launchpad.net/tripleo/+bug/1860146,2020-04-09
+1856573,1856573,Fix Released,Set SyslogIdentifier for container healthchecks,https://bugs.launchpad.net/tripleo/+bug/1856573,2020-04-09
+1862031,1862031,Fix Released,problem in how ceph_ansible_inherits_calling_ansible_environment,https://bugs.launchpad.net/tripleo/+bug/1862031,2020-04-09
+1861093,1861093,Fix Released,"[tripleo_container_manage] ""Async container create/run"" starts then ""Check podman create status"" times out",https://bugs.launchpad.net/tripleo/+bug/1861093,2020-04-09
+1866847,1866847,Fix Released,CentOS 8 build fails on CentOS 8 host when kernel is not latest,https://bugs.launchpad.net/diskimage-builder/+bug/1866847,2020-04-09
+1830434,1830434,Fix Released,Nova SSH key distribution incomplete when run with --limit,https://bugs.launchpad.net/openstack-ansible/+bug/1830434,2020-04-09
+1870881,1870881,Fix Released,server shelve API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1870881,2020-04-09
+1871598,1871598,Fix Released,PUT /servers/{server_id}/os-volume_attachments/{volume_id} does not update delete_on_termination from True to False,https://bugs.launchpad.net/nova/+bug/1871598,2020-04-09
+1870291,1870291,Fix Released,container-puppet-keystone_init_tasks seems to be running in multiple steps,https://bugs.launchpad.net/tripleo/+bug/1870291,2020-04-09
+1871346,1871346,Fix Released,Ironic nodes registration failing with error - ironicclient.common.apiclient.exceptions.InternalServerError: 'NoneType' object has no attribute 'keys',https://bugs.launchpad.net/tripleo/+bug/1871346,2020-04-09
+1870484,1870484,Fix Released,server metadata API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1870484,2020-04-08
+1870872,1870872,Fix Released,server topology API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1870872,2020-04-08
+1859128,1859128,Fix Released,"setup-openstack fails at upgrade check, placement API endpoint not found",https://bugs.launchpad.net/openstack-ansible/+bug/1859128,2020-04-08
+1828319,1828319,Fix Released,Journald dependencies not installed correctly for Glance OSA role,https://bugs.launchpad.net/openstack-ansible/+bug/1828319,2020-04-08
+1843526,1843526,Fix Released,Add periodic job to prefetch images into cache,https://bugs.launchpad.net/glance/+bug/1843526,2020-04-08
+1845338,1845338,Fix Released,Make location API compatible with multiple store,https://bugs.launchpad.net/glance/+bug/1845338,2020-04-08
+1782357,1782357,Fix Released,Undefined ceilometer variables for additional services,https://bugs.launchpad.net/openstack-ansible/+bug/1782357,2020-04-08
+1748740,1748740,Fix Released,Documentation missing for adding compute host with ceph,https://bugs.launchpad.net/openstack-ansible/+bug/1748740,2020-04-08
+1814127,1814127,Fix Released,Jinja formatting issues in glance-api.conf,https://bugs.launchpad.net/openstack-ansible/+bug/1814127,2020-04-08
+1870488,1870488,Fix Released,server password API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1870488,2020-04-08
+1871287,1871287,Fix Released,server tags  API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1871287,2020-04-08
+1728732,1728732,Fix Released,"OpenStack nova service responds with an erroneous httpd redirect to a ""GET,version_controller,show"" request.",https://bugs.launchpad.net/nova/+bug/1728732,2020-04-08
+1845530,1845530,Fix Released,Versioned discovery endpoint should not require authentication,https://bugs.launchpad.net/nova/+bug/1845530,2020-04-08
+1866176,1866176,Fix Released,puppet-openstack-unit-*-centos-8 is failing because of wonrg path where bunde is installed,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1866176,2020-04-08
+1845531,1845531,Fix Released,Leases stuck in PENDING indefinitely,https://bugs.launchpad.net/blazar/+bug/1845531,2020-04-08
+1859540,1859540,Fix Released,Karbor logs rabbitmq password on connection log,https://bugs.launchpad.net/karbor/+bug/1859540,2020-04-08
+1859433,1859433,Fix Released,get_admin_context inadvertently elevates thread,https://bugs.launchpad.net/karbor/+bug/1859433,2020-04-08
+1627480,1627480,Fix Released,create_port can succeed without returning fixed_ips on all requested subnets,https://bugs.launchpad.net/neutron/+bug/1627480,2020-04-07
+1759455,1759455,Fix Committed,Support adding/removing floating IPs by specifying container instead of port,https://bugs.launchpad.net/zun/+bug/1759455,2020-04-07
+1842659,1842659,Fix Released,Funtional tests of start and restart services failing 100% times,https://bugs.launchpad.net/networking-sfc/+bug/1842659,2020-04-07
+1842659,1842659,Fix Released,Funtional tests of start and restart services failing 100% times,https://bugs.launchpad.net/neutron/+bug/1842659,2020-04-07
+1843290,1843290,Fix Released,Remove network flavor profile fails,https://bugs.launchpad.net/neutron/+bug/1843290,2020-04-07
+1830081,1830081,Fix Released,Nova unplug interface race condition when deleting an instance,https://bugs.launchpad.net/nova/+bug/1830081,2020-04-07
+1870883,1870883,Fix Released,resume server API policy is allowed for everyone even policy defaults is admin_or_owner Edit,https://bugs.launchpad.net/nova/+bug/1870883,2020-04-07
+1871076,1871076,Fix Released,url_helper.py[WARNING]: Calling 'http://192.168.100.1/latest/meta-data/instance-id' causing ovb checks jobs to fail in rdo,https://bugs.launchpad.net/tripleo/+bug/1871076,2020-04-07
+1870392,1870392,Fix Released,Wrong ethertype when creating sg rules,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1870392,2020-04-07
+1871033,1871033,Fix Released,RDO Third Party CI check failing with ERROR! the role 'tripleo-bootstrap' was not found,https://bugs.launchpad.net/tripleo/+bug/1871033,2020-04-07
+1810979,1810979,Fix Released,image will not build if parent skipped,https://bugs.launchpad.net/kolla/+bug/1810979,2020-04-07
+1869353,1869353,Fix Released,Action definition list does not know namespace field,https://bugs.launchpad.net/mistral/+bug/1869353,2020-04-07
+1869148,1869148,Fix Released,"if only .pyc exist, the extension API will be disabled",https://bugs.launchpad.net/manila/+bug/1869148,2020-04-07
+1870412,1870412,Fix Released,jobs fail in gate due to image size/flavor mis-match,https://bugs.launchpad.net/manila/+bug/1870412,2020-04-06
+1819285,1819285,Fix Released,BarbicanSecrets.create_symmetric_and_delete: TypeError: Object of type 'bytes' is not JSON serializable,https://bugs.launchpad.net/rally/+bug/1819285,2020-04-06
+1655427,1655427,Fix Released,export locations tempest tests inadequate,https://bugs.launchpad.net/manila/+bug/1655427,2020-04-06
+1870385,1870385,Fix Released,AcceleratorServerTest.test_create_server_with_error fails intermittently,https://bugs.launchpad.net/nova/+bug/1870385,2020-04-06
+1870302,1870302,Fix Released,[VPNaaS]: test_migrations_sync failed with alembic 1.4.2,https://bugs.launchpad.net/neutron/+bug/1870302,2020-04-06
+1861723,1861723,Fix Released,Glance is listening on TCP socket before store initialization,https://bugs.launchpad.net/glance/+bug/1861723,2020-04-06
+1870481,1870481,Fix Released,Periodic jobs failing with ERROR! the role 'tripleo-podman' was not found,https://bugs.launchpad.net/tripleo/+bug/1870481,2020-04-06
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-aodh/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-manila/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-octavia/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-congress/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-sahara/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-watcher/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-cinder/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-cloudkitty/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-ceilometer/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-neutron/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-ironic/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-barbican/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-tacker/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-heat/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-designate/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-glance/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-openstacklib/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-murano/+bug/1850236,2020-04-05
+1850236,1850236,Fix Released,puppetlabs/rabbitmq has been deprecated,https://bugs.launchpad.net/puppet-trove/+bug/1850236,2020-04-05
+1868283,1868283,Fix Released,mariadb can't running,https://bugs.launchpad.net/kolla-ansible/+bug/1868283,2020-04-04

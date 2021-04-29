@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1524274,1524274,Fix Released,[OSSA 2016-001] Unprivileged api user can access host data using instance snapshot (CVE-2015-7548),https://bugs.launchpad.net/ossa/+bug/1524274,2020-02-27
+1842932,1842932,Fix Released,Remove dependency on Libvirt packages on the overcloud system and remove it from the overcloud image,https://bugs.launchpad.net/tripleo/+bug/1842932,2020-02-27
+1205344,1205344,Fix Released,mkfs error in test_stamp_pattern,https://bugs.launchpad.net/cinder/+bug/1205344,2020-02-27
+1205344,1205344,Fix Released,mkfs error in test_stamp_pattern,https://bugs.launchpad.net/tempest/+bug/1205344,2020-02-27
+1792850,1792850,Fix Released,"want to use sni part, but sni_container_refs was deleted",https://bugs.launchpad.net/neutron-lbaas-dashboard/+bug/1792850,2020-02-27
+1861397,1861397,Fix Released,Needed mechanism to differentiate pings sent in tempest tests,https://bugs.launchpad.net/neutron/+bug/1861397,2020-02-27
+1861670,1861670,Fix Released,AttributeError: 'NetworkConnectivityTest' object has no attribute 'safe_client',https://bugs.launchpad.net/neutron/+bug/1861670,2020-02-27
+1864015,1864015,Fix Released,"neutron-tempest-plugin-designate-scenario fails on stable branches  with ""SyntaxError: invalid syntax"" installing dnspython",https://bugs.launchpad.net/neutron/+bug/1864015,2020-02-27
+1850800,1850800,Fix Released,UDP port forwarding test is failing often,https://bugs.launchpad.net/neutron/+bug/1850800,2020-02-27
+1864471,1864471,Fix Released,[neutron-tempest-plugin] SG quota exceeded,https://bugs.launchpad.net/neutron/+bug/1864471,2020-02-27
+1801348,1801348,Fix Released,notification agent fails with KeyError on volume create/delete,https://bugs.launchpad.net/ceilometer/+bug/1801348,2020-02-27
+1827768,1827768,Fix Released,metering data lost randomly,https://bugs.launchpad.net/ceilometer/+bug/1827768,2020-02-27
+1808350,1808350,Fix Released,Unit test fails with: No module named confluent_kafka,https://bugs.launchpad.net/ceilometer/+bug/1808350,2020-02-27
+1860141,1860141,Fix Released,[OVN] Provider driver fails while LB VIP port already created,https://bugs.launchpad.net/neutron/+bug/1860141,2020-02-27
+1860140,1860140,Fix Released,[OVN] Provider driver sends  malformed update to Octavia,https://bugs.launchpad.net/neutron/+bug/1860140,2020-02-27
+1511231,1511231,Fix Released,sytle is inconsistence bettwen last step and other steps of wrokflow,https://bugs.launchpad.net/horizon/+bug/1511231,2020-02-27
+1787937,1787937,Fix Released,novaclient connect to wrong region,https://bugs.launchpad.net/watcher/+bug/1787937,2020-02-26
+1795613,1795613,Fix Released,www_authenticate_uri passed to RequestContext as auth_url,https://bugs.launchpad.net/watcher/+bug/1795613,2020-02-26
+1800468,1800468,Fix Released,Accessing to nonexistent cinder pool arguments,https://bugs.launchpad.net/watcher/+bug/1800468,2020-02-26
+1817533,1817533,Fix Released,Incorrect usage of ResourceNotFound exception,https://bugs.launchpad.net/watcher/+bug/1817533,2020-02-26
+1818962,1818962,Fix Released,AttributeError while audit creating,https://bugs.launchpad.net/watcher/+bug/1818962,2020-02-26
+1847434,1847434,Fix Released,Missing Metrics of an Instance stops audit execution,https://bugs.launchpad.net/watcher/+bug/1847434,2020-02-26
+1860134,1860134,Fix Released,Doc issue - Block Storage API V3 (CURRENT) in cinder - Volume delete,https://bugs.launchpad.net/cinder/+bug/1860134,2020-02-26
+1861302,1861302,Fix Released,[SELinux] iptables and ip6tables: scontext=unconfined_u:system_r:iptables_t:s0-s0:c0.c1023 tcontext=unconfined_u:object_r:admin_home_t:s0,https://bugs.launchpad.net/tripleo/+bug/1861302,2020-02-26
+1802163,1802163,Fix Released,An issue on using Zun with neutron DVR,https://bugs.launchpad.net/zun/+bug/1802163,2020-02-26
+1802163,1802163,Fix Released,An issue on using Zun with neutron DVR,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1802163,2020-02-26
+1812370,1812370,Fix Released,Unused members are not removed from pool,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1812370,2020-02-26
+1815880,1815880,Fix Released,kuryr-controller pod restarts continuously  due to lb in ERROR status,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1815880,2020-02-26
+1832838,1832838,Fix Released,Error deleting network pools when network is in use,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1832838,2020-02-26
+1834605,1834605,Fix Released,svc: failure adding members for pods with host networking,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1834605,2020-02-26
+1834634,1834634,Fix Released,Wrong exception raised in case Kubernetes respond with not found,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1834634,2020-02-26
+1833712,1833712,Fix Released,Fail to recreate namespace when previous KuryrNet CRD is not deleted,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1833712,2020-02-26
+1836023,1836023,Fix Released,"OVS agent ""hangs"" while processing trusted ports",https://bugs.launchpad.net/neutron/+bug/1836023,2020-02-26
+1786784,1786784,Fix Released,watcher actionplan show <uuid> fails on Py3.x,https://bugs.launchpad.net/watcher/+bug/1786784,2020-02-26
+1862001,1862001,Fix Released,"""test_create_manage_and_write"" is failed with ""Target share type is still in use.""",https://bugs.launchpad.net/manila/+bug/1862001,2020-02-26
+1864327,1864327,Fix Released,[kuryr-controller] Readiness checks and quota calculation are not accurate and can lead to crashes,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1864327,2020-02-26
+1863855,1863855,Fix Released,Bagpipe-bgp agent won't start,https://bugs.launchpad.net/networking-bagpipe/+bug/1863855,2020-02-26
+1838005,1838005,Fix Released,The response data in test_routers_client is inconsistent with the Reference API document,https://bugs.launchpad.net/tempest/+bug/1838005,2020-02-26
+1848201,1848201,Fix Released,[neutron-vpnaas] Neutron installed inside venv makes VPNaaS broken,https://bugs.launchpad.net/neutron/+bug/1848201,2020-02-26
+1860971,1860971,Fix Released,"Deployment with TLS fails, 'Error: Could not find group qemu'",https://bugs.launchpad.net/tripleo/+bug/1860971,2020-02-26
+1847608,1847608,Fix Released,Octavia install fails with octavia-ansible not writable,https://bugs.launchpad.net/tripleo/+bug/1847608,2020-02-26
+1841609,1841609,Fix Released,tests failing with :`Only volume-backed servers are allowed for flavors with zero disk on stein`,https://bugs.launchpad.net/rally/+bug/1841609,2020-02-25
+1862036,1862036,Fix Released,rally creates router on network different to  [network]  public_network_id,https://bugs.launchpad.net/rally/+bug/1862036,2020-02-25
+1781300,1781300,Fix Released,resize reschedule results in CantStartEngineError during up-call to InstanceMappings table,https://bugs.launchpad.net/nova/+bug/1781300,2020-02-25
+1835400,1835400,Fix Released,Issues booting with os_distro=centos7.0,https://bugs.launchpad.net/nova/+bug/1835400,2020-02-25
+1846532,1846532,Fix Released,Confusing error message when volume create fails,https://bugs.launchpad.net/nova/+bug/1846532,2020-02-25
+1839515,1839515,Fix Released,Weird functional test failures hitting neutron API in unrelated resize flows since 8/5,https://bugs.launchpad.net/nova/+bug/1839515,2020-02-25
+1833581,1833581,Fix Released,instance stuck in BUILD state if nova-compute is restarted,https://bugs.launchpad.net/nova/+bug/1833581,2020-02-25
+1843639,1843639,Fix Released,libvirt: post_live_migration failures to disconnect volumes result in the rollback of live migrations,https://bugs.launchpad.net/nova/+bug/1843639,2020-02-25
+1850694,1850694,Fix Released,shelve doesn't handle UnexpectedTaskStateError,https://bugs.launchpad.net/nova/+bug/1850694,2020-02-25
+1794827,1794827,Fix Released,Queens openstack client does not support --block-device,https://bugs.launchpad.net/nova/+bug/1794827,2020-02-25
+1851425,1851425,Fix Released,"Revert ""openstack server create"" to  ""nova boot""  command in docs",https://bugs.launchpad.net/nova/+bug/1851425,2020-02-25
+1852993,1852993,Fix Released,Don't delete compute node when deleting service other than nova-compute,https://bugs.launchpad.net/nova/+bug/1852993,2020-02-25
+1838392,1838392,Fix Released,BDMNotFound raised and stale block devices left over when simultaneously reboot and deleting an instance,https://bugs.launchpad.net/nova/+bug/1838392,2020-02-25
+1783565,1783565,Fix Released,"ServerGroupTestV21.test_evacuate_with_anti_affinity_no_valid_host intermittently fails with ""Instance compute service state on host2 expected to be down, but it was up.""",https://bugs.launchpad.net/nova/+bug/1783565,2020-02-25
+1825018,1825018,Fix Released,security group driver gets loaded way too much in the api,https://bugs.launchpad.net/nova/+bug/1825018,2020-02-25
+1835926,1835926,Fix Released,Volume attachment may fail after rescuing instance on an image with different hw_disk_bus,https://bugs.launchpad.net/nova/+bug/1835926,2020-02-25
+1852610,1852610,Fix Released,API allows source compute service/node deletion while instances are pending a resize confirm/revert,https://bugs.launchpad.net/nova/+bug/1852610,2020-02-25
+1864553,1864553,Fix Released,[OVN] setup.cfg packages should be set to ovn_octavia_provider,https://bugs.launchpad.net/neutron/+bug/1864553,2020-02-25
+1669455,1669455,Fix Released,tempest run --regex '\[.*\bsmoke\b.*\]' --blacklist-file=/home/jenkins/tempest/skip.txt not able to run smoke tests,https://bugs.launchpad.net/tempest/+bug/1669455,2020-02-25
+1611771,1611771,Fix Released,verify_tempest_config.py: verify_api_versions can't get versions of glance and not check api_v3 for cinder,https://bugs.launchpad.net/tempest/+bug/1611771,2020-02-25
+1864522,1864522,Fix Released,centos-8 python-tripleoclient fails to install in ci due to older openvswitch page in pre.yaml,https://bugs.launchpad.net/tripleo/+bug/1864522,2020-02-25
+1229445,1229445,Fix Released,db type could not be determined,https://bugs.launchpad.net/ironic/+bug/1229445,2020-02-25
+1229445,1229445,Fix Released,db type could not be determined,https://bugs.launchpad.net/zun/+bug/1229445,2020-02-25
+1229445,1229445,Fix Released,db type could not be determined,https://bugs.launchpad.net/magnum/+bug/1229445,2020-02-25
+1229445,1229445,Fix Released,db type could not be determined,https://bugs.launchpad.net/nova/+bug/1229445,2020-02-25
+1840691,1840691,Fix Released,Failed stein update because the container name is already in use.,https://bugs.launchpad.net/tripleo/+bug/1840691,2020-02-25
+1775250,1775250,Fix Released,Implement DVR-aware announcement of fixed IP's in neutron-dynamic-routing,https://bugs.launchpad.net/neutron/+bug/1775250,2020-02-25
+1855750,1855750,Fix Released,Support VPP API Versioning,https://bugs.launchpad.net/networking-vpp/+bug/1855750,2020-02-24
+1801873,1801873,Fix Released,Unable to delete domains when users was managed by LDAP back-end,https://bugs.launchpad.net/keystone/+bug/1801873,2020-02-24
+1782922,1782922,Fix Released,LDAP: changing user_id_attribute bricks group mapping,https://bugs.launchpad.net/keystone/+bug/1782922,2020-02-24
+1840291,1840291,Fix Released,keystone does not retry on DbDeadlock [HTTP 500] for delete_credential_for_user,https://bugs.launchpad.net/keystone/+bug/1840291,2020-02-24
+1843609,1843609,Fix Released,Domain-specific domain ID resolution breaks with system-scoped tokens,https://bugs.launchpad.net/keystone/+bug/1843609,2020-02-24
+1856904,1856904,Fix Released,CADF Notifications are missing user name in initiator object,https://bugs.launchpad.net/keystone/+bug/1856904,2020-02-24
+1803438,1803438,Fix Released,Install and configure in keystone,https://bugs.launchpad.net/keystone/+bug/1803438,2020-02-24

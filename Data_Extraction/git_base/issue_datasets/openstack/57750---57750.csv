@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1466065,1466065,Fix Released,Incorrect exception caught in qos-specs create api,https://bugs.launchpad.net/cinder/+bug/1466065,2015-10-15
+1463798,1463798,Fix Released,Overquota always returns incorrect gigabytes quota,https://bugs.launchpad.net/cinder/+bug/1463798,2015-10-15
+1462453,1462453,Fix Released,SnapshotNotFound raises from list method right after snapshot deletion sometimes,https://bugs.launchpad.net/cinder/+bug/1462453,2015-10-15
+1461402,1461402,Fix Released,Request body element name existence check and error message is not consistent across all apis,https://bugs.launchpad.net/cinder/+bug/1461402,2015-10-15
+1461116,1461116,Fix Released,netapp direct glance to cinder clone broken in kilo,https://bugs.launchpad.net/cinder/+bug/1461116,2015-10-15
+1460575,1460575,Fix Released,Replace is_valid_boolstr with strutils.bool_from_string method,https://bugs.launchpad.net/cinder/+bug/1460575,2015-10-15
+1458640,1458640,Fix Released,RemoteFS: Reporting ZERO as reserved_percentage in _update_volume_stats,https://bugs.launchpad.net/cinder/+bug/1458640,2015-10-15
+1430014,1430014,Fix Released,violin v6000 drivers query wrong backend location during export verify,https://bugs.launchpad.net/cinder/+bug/1430014,2015-10-15
+1404020,1404020,Fix Released,cinder list fails with 'name' sort key,https://bugs.launchpad.net/cinder/+bug/1404020,2015-10-15
+1404020,1404020,Fix Released,cinder list fails with 'name' sort key,https://bugs.launchpad.net/python-cinderclient/+bug/1404020,2015-10-15
+1225822,1225822,Fix Released,devref refers to quickstart but quickstart doesn't exist,https://bugs.launchpad.net/cinder/+bug/1225822,2015-10-15
+1470148,1470148,Fix Released,GlusterFS: support extending a volume that has snapshots,https://bugs.launchpad.net/cinder/+bug/1470148,2015-10-15
+1463682,1463682,Fix Released,delete snapshot check in ceph,https://bugs.launchpad.net/cinder/+bug/1463682,2015-10-15
+1326431,1326431,Fix Released,Cinder backup reports no performance stats to ceiliometer,https://bugs.launchpad.net/cinder/+bug/1326431,2015-10-15
+1477393,1477393,Fix Released,[cinder-doc] rename il8n.rst to i18n.rst,https://bugs.launchpad.net/cinder/+bug/1477393,2015-10-15
+1475419,1475419,Fix Released,scality volume driver should set connection_info['data']['export'] key in os-initialize_connection,https://bugs.launchpad.net/cinder/+bug/1475419,2015-10-15
+1473822,1473822,Fix Released,PureFCDriver _connect method has an unused paramter,https://bugs.launchpad.net/cinder/+bug/1473822,2015-10-15
+1473338,1473338,Fix Released,There is a method which has not been used.,https://bugs.launchpad.net/cinder/+bug/1473338,2015-10-15
+1470315,1470315,Fix Released,Replace basestring with six.string_types in v7000_common,https://bugs.launchpad.net/cinder/+bug/1470315,2015-10-15
+1470113,1470113,Fix Released,test_v7000_fcp  does DNS lookup when running unit tests,https://bugs.launchpad.net/cinder/+bug/1470113,2015-10-15
+1469693,1469693,Fix Released,use versionutils from oslo_utils,https://bugs.launchpad.net/cinder/+bug/1469693,2015-10-15
+1469249,1469249,Fix Released,smbfs driver has incorrect check for smbfs_user_ratio validity,https://bugs.launchpad.net/cinder/+bug/1469249,2015-10-15
+1464822,1464822,Fix Released,Cinder does not shutdown processes gracefully,https://bugs.launchpad.net/cinder/+bug/1464822,2015-10-15
+1464772,1464772,Fix Released,backup unit tests invoke oslo logging,https://bugs.launchpad.net/cinder/+bug/1464772,2015-10-15
+1459958,1459958,Fix Released,Error messages returned to the user are not consistent across all apis,https://bugs.launchpad.net/cinder/+bug/1459958,2015-10-15
+1454905,1454905,Fix Released,Refactor VNX Cinder Driver to consistently use symbol constants for error codes,https://bugs.launchpad.net/cinder/+bug/1454905,2015-10-15
+1433052,1433052,Fix Released,update quota fails with long type values,https://bugs.launchpad.net/cinder/+bug/1433052,2015-10-15
+1433052,1433052,Fix Released,update quota fails with long type values,https://bugs.launchpad.net/nova/+bug/1433052,2015-10-15
+1430410,1430410,Fix Released,Create volume fails (EMC VNX),https://bugs.launchpad.net/cinder/+bug/1430410,2015-10-15
+1259463,1259463,Fix Released,can't run cinder unit tests in parallel reliable,https://bugs.launchpad.net/cinder/+bug/1259463,2015-10-15
+1473206,1473206,Fix Released,Cannot override auth_url used by os_privileged_user,https://bugs.launchpad.net/cinder/+bug/1473206,2015-10-15
+1471990,1471990,Fix Released,"remove ""volume:services"" rule from policy.json",https://bugs.launchpad.net/cinder/+bug/1471990,2015-10-15
+1470355,1470355,Fix Released,Should  use backup instead of backup.id in import_record,https://bugs.launchpad.net/cinder/+bug/1470355,2015-10-15
+1469816,1469816,Fix Released,3PAR driver doesn't remove all VLUNs after a volume detach in some situations,https://bugs.launchpad.net/cinder/+bug/1469816,2015-10-15
+1469120,1469120,Fix Released,Cannot save dates in Versioned Objects,https://bugs.launchpad.net/cinder/+bug/1469120,2015-10-15
+1467763,1467763,Fix Released,Timeout issue in EMC VNX driver's unit test,https://bugs.launchpad.net/cinder/+bug/1467763,2015-10-15
+1466991,1466991,Fix Released,Services are not able to handle transient DB errors when attempting to report state,https://bugs.launchpad.net/cinder/+bug/1466991,2015-10-15
+1443340,1443340,Fix Released,Fix a wrong argument of delete_keys method in QoSSpecsController Class,https://bugs.launchpad.net/cinder/+bug/1443340,2015-10-15
+1440227,1440227,Fix Released,Not all volume drivers set the 'encrypted' key in connection_info,https://bugs.launchpad.net/cinder/+bug/1440227,2015-10-15
+1473098,1473098,Fix Released,Cinder-api fails to shutdown in grenade tests,https://bugs.launchpad.net/cinder/+bug/1473098,2015-10-15
+1472344,1472344,Fix Released,Consistency Group's host entry doesn't contain pool,https://bugs.launchpad.net/cinder/+bug/1472344,2015-10-15
+1470218,1470218,Fix Released,LVM Cinder - error deleting snapshot when disk/partition is full,https://bugs.launchpad.net/cinder/+bug/1470218,2015-10-15
+1468913,1468913,Fix Released,Storwise SVC : unexpected removing of FC zoning,https://bugs.launchpad.net/cinder/+bug/1468913,2015-10-15
+1467841,1467841,Fix Released,"backup export-record, import-record and reset-status no longer works",https://bugs.launchpad.net/cinder/+bug/1467841,2015-10-15
+1467386,1467386,Fix Released,XtremIO volume driver fails on 2 snapshot operation executed on the same second,https://bugs.launchpad.net/cinder/+bug/1467386,2015-10-15
+1463217,1463217,Fix Released,Support EMC SMI-S provider v8.0.3 in VMAX driver,https://bugs.launchpad.net/cinder/+bug/1463217,2015-10-15
+1450649,1450649,Fix Released,Retyping with migrate to new backend not renaming volume on backend device,https://bugs.launchpad.net/cinder/+bug/1450649,2015-10-15
+1466198,1466198,Fix Released,tox -e genconfig fails,https://bugs.launchpad.net/cinder/+bug/1466198,2015-10-15
+1466321,1466321,Fix Released,Useless check_copy_ok method in helper for Storwize driver,https://bugs.launchpad.net/cinder/+bug/1466321,2015-10-15
+1466219,1466219,Fix Released,scaleio driver invalid format string,https://bugs.launchpad.net/cinder/+bug/1466219,2015-10-15
+1466060,1466060,Fix Released,begin_detaching on a volume which is already detaching returned success,https://bugs.launchpad.net/cinder/+bug/1466060,2015-10-15
+1465819,1465819,Fix Released,block_device_driver local path is broken,https://bugs.launchpad.net/cinder/+bug/1465819,2015-10-15
+1462970,1462970,Fix Released,Ceph driver should support retries on rados_connect_timeout,https://bugs.launchpad.net/cinder/+bug/1462970,2015-10-15
+1462106,1462106,Fix Released,Unit tests belong in cinder/tests/unit/*,https://bugs.launchpad.net/cinder/+bug/1462106,2015-10-15
+1462096,1462096,Fix Released,Datera volume throws exception with invalid parameter name,https://bugs.launchpad.net/cinder/+bug/1462096,2015-10-15
+1461931,1461931,Fix Released,__init__ method should not return any value explicitly,https://bugs.launchpad.net/cinder/+bug/1461931,2015-10-15
+1461931,1461931,Fix Released,__init__ method should not return any value explicitly,https://bugs.launchpad.net/nova/+bug/1461931,2015-10-15
+1461171,1461171,Fix Released,assertRaisesRegexp deprecation warnings  in unit tests logs,https://bugs.launchpad.net/cinder/+bug/1461171,2015-10-15
+1460814,1460814,Fix Released,"Use ""rtslib_fb"" import instead of ""rtslib""",https://bugs.launchpad.net/cinder/+bug/1460814,2015-10-15
+1460692,1460692,Fix Released,Concurrency issues on rtstool (LIO),https://bugs.launchpad.net/cinder/+bug/1460692,2015-10-15
+1459852,1459852,Fix Released,tox runs single threaded and can't be overridden,https://bugs.launchpad.net/cinder/+bug/1459852,2015-10-15
+1459538,1459538,Fix Released,Fix all expression-not-assigned pylint issues,https://bugs.launchpad.net/cinder/+bug/1459538,2015-10-15
+1459497,1459497,Fix Released,Remove un-used import at test_volume_transfer.py,https://bugs.launchpad.net/cinder/+bug/1459497,2015-10-15
+1458976,1458976,Fix Released,cannot create thin provisioned volume larger than free space,https://bugs.launchpad.net/cinder/+bug/1458976,2015-10-15
+1458868,1458868,Fix Released,Cinder consistencygroup delete api returns 500,https://bugs.launchpad.net/cinder/+bug/1458868,2015-10-15
+1458061,1458061,Fix Released,manager should set filter_function and goodness_function,https://bugs.launchpad.net/cinder/+bug/1458061,2015-10-15
+1457995,1457995,Fix Released,Netapp E-Series Driver should not use LUN ID 0,https://bugs.launchpad.net/cinder/+bug/1457995,2015-10-15
+1456996,1456996,Fix Released,Brocade driver in zone manager does not handle switch data correctly,https://bugs.launchpad.net/cinder/+bug/1456996,2015-10-15
+1455595,1455595,Fix Released,NFS volumes not sparse after migration,https://bugs.launchpad.net/cinder/+bug/1455595,2015-10-15
+1454638,1454638,Fix Released,rbd driver in cinder does not manage glance images multi-location,https://bugs.launchpad.net/cinder/+bug/1454638,2015-10-15
+1454425,1454425,Fix Released,SolidFire update cache image overwrites accountID param variable,https://bugs.launchpad.net/cinder/+bug/1454425,2015-10-15
+1454407,1454407,Fix Released,cinderclient no longer honors --endpoint-type,https://bugs.launchpad.net/cinder/+bug/1454407,2015-10-15
+1454212,1454212,Fix Released,Remove unused context parameter from volume/utils.py methods,https://bugs.launchpad.net/cinder/+bug/1454212,2015-10-15
+1453654,1453654,Fix Released,Missing '-o' in CLI command may result in failures in VNX Cinder Driver,https://bugs.launchpad.net/cinder/+bug/1453654,2015-10-15
+1453518,1453518,Fix Released,IOError on `cinder-rtstool save` when targetcli is not installed,https://bugs.launchpad.net/cinder/+bug/1453518,2015-10-15

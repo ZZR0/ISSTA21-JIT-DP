@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+729406,729406,Fix Released,Bug with Object Auditor invalidate hash location,https://bugs.launchpad.net/swift/+bug/729406,2011-04-15
+723496,723496,Fix Released,Ratelimiting does not handle memcache exceptions,https://bugs.launchpad.net/swift/+bug/723496,2011-04-15
+758148,758148,Fix Released,"tpools don't handle TimeoutErrors, so we need to.",https://bugs.launchpad.net/swift/+bug/758148,2011-04-15
+720984,720984,Fix Released,nova-manage network create passes a label kwargs that VlanManager doesn't accept,https://bugs.launchpad.net/nova/+bug/720984,2011-04-15
+718994,718994,Fix Released,rpc layer should use a threadpool or some other magic to add concurrency,https://bugs.launchpad.net/nova/+bug/718994,2011-04-15
+716427,716427,Fix Released,RPC concurrency problem,https://bugs.launchpad.net/nova/+bug/716427,2011-04-15
+716414,716414,Fix Released,Traffic to floating IP does not work from network worker,https://bugs.launchpad.net/nova/+bug/716414,2011-04-15
+714931,714931,Fix Released,_get_my_ip in flags.py does not catch some socket exceptions,https://bugs.launchpad.net/nova/+bug/714931,2011-04-15
+714889,714889,Fix Released,"GetConsoleOutput in EC2 api requires InstanceId.1, when it should use InstanceId",https://bugs.launchpad.net/nova/+bug/714889,2011-04-15
+695587,695587,Fix Released,"Instance action recording fails with ""primary key must be unique"" error",https://bugs.launchpad.net/nova/+bug/695587,2011-04-15
+759220,759220,Fix Released,cloudpipe is heavily underdocumented,https://bugs.launchpad.net/nova/+bug/759220,2011-04-15
+754552,754552,Fix Released,No docs for Zones,https://bugs.launchpad.net/nova/+bug/754552,2011-04-15
+751767,751767,Fix Released,Missing unit test for ec2 api terminate_instances,https://bugs.launchpad.net/nova/+bug/751767,2011-04-15
+741354,741354,Fix Released,Generated adminPass is prefixed with the first 4 characters of the server name,https://bugs.launchpad.net/nova/+bug/741354,2011-04-15
+741339,741339,Fix Released,libvirt does not support snapshotting,https://bugs.launchpad.net/nova/+bug/741339,2011-04-15
+740322,740322,Fix Released,Can't run test_localization_tests by themselves,https://bugs.launchpad.net/nova/+bug/740322,2011-04-15
+730806,730806,Fix Released,XenAPI naming-scheme rework,https://bugs.launchpad.net/nova/+bug/730806,2011-04-15
+723171,723171,Fix Released,rewrite db.service_get_all() to really get all services,https://bugs.launchpad.net/nova/+bug/723171,2011-04-15
+720685,720685,Fix Released,vlan1 is a poor default choice for FLAGS.public_interface,https://bugs.launchpad.net/nova/+bug/720685,2011-04-15
+719325,719325,Fix Released,implement clean test to check if device is coming up after using qemu-nbd,https://bugs.launchpad.net/nova/+bug/719325,2011-04-15
+718847,718847,Fix Released,change logging message if no compute nodes available,https://bugs.launchpad.net/nova/+bug/718847,2011-04-15
+718621,718621,Fix Released,introduce new FLAG for setting default DNSMASQ interface in nova-dhcpbridge,https://bugs.launchpad.net/nova/+bug/718621,2011-04-15
+713766,713766,Fix Released,use ip instead of ifconfig in nova/network/linux_net.py,https://bugs.launchpad.net/nova/+bug/713766,2011-04-15
+704985,704985,Fix Released,nova-api.conf hardcoded in bin/nova-api,https://bugs.launchpad.net/nova/+bug/704985,2011-04-15
+681411,681411,Fix Released,Instance types should not be hard coded,https://bugs.launchpad.net/nova/+bug/681411,2011-04-15
+754983,754983,Fix Released,Instance shutdown with libvirt hammers the DB,https://bugs.launchpad.net/nova/+bug/754983,2011-04-15
+754651,754651,Fix Released,bzr ignore the top level CA dir,https://bugs.launchpad.net/nova/+bug/754651,2011-04-15
+751242,751242,Fix Released,"migrating instance can be terminated, and data inconsistency occurs",https://bugs.launchpad.net/nova/+bug/751242,2011-04-15
+745481,745481,Fix Released,FLAGS.vncproxy_topic doesn't exist in compute.api,https://bugs.launchpad.net/nova/+bug/745481,2011-04-15
+744628,744628,Fix Released,Volume size smoketest broken with busybox image,https://bugs.launchpad.net/nova/+bug/744628,2011-04-15
+744110,744110,Fix Released,Two periodic_tasks sneaked in nova/compute/manager.py,https://bugs.launchpad.net/nova/+bug/744110,2011-04-15
+742692,742692,Fix Released,OSAPI: remove backup_schedule from the v1.1 API,https://bugs.launchpad.net/nova/+bug/742692,2011-04-15
+741342,741342,Fix Released,"The word ""None"" is injected into authorized_keys",https://bugs.launchpad.net/nova/+bug/741342,2011-04-15
+741328,741328,Fix Released,utils.execute fails retries,https://bugs.launchpad.net/nova/+bug/741328,2011-04-15
+741077,741077,Fix Released,IP groups improperly unimplemented [sic],https://bugs.launchpad.net/nova/+bug/741077,2011-04-15
+740605,740605,Fix Released,"OpenStack API v1.0 sends computeFault, not cloudServersFault",https://bugs.launchpad.net/nova/+bug/740605,2011-04-15
+739750,739750,Fix Released,XenAPI's Rescue/Unrescue needs unit tests,https://bugs.launchpad.net/nova/+bug/739750,2011-04-15
+736754,736754,Fix Released,Doc fix needed around local image store (was Image not found on nova-compute only node),https://bugs.launchpad.net/nova/+bug/736754,2011-04-15
+735974,735974,Fix Released,nova-network logs exception when starting up,https://bugs.launchpad.net/nova/+bug/735974,2011-04-15
+735641,735641,Fix Released,Unclear error when images directory wasn't upgraded,https://bugs.launchpad.net/nova/+bug/735641,2011-04-15
+734978,734978,Fix Released,pep8 errors on trunk r797,https://bugs.launchpad.net/nova/+bug/734978,2011-04-15
+734081,734081,Fix Released,Incorrect db sync error message,https://bugs.launchpad.net/nova/+bug/734081,2011-04-15
+733232,733232,Fix Released,Waiting for lock is not logged,https://bugs.launchpad.net/nova/+bug/733232,2011-04-15
+732924,732924,Fix Released,"DescribeVolume returns owner as the user that created the volume, but not the project",https://bugs.launchpad.net/nova/+bug/732924,2011-04-15
+732902,732902,Fix Released,uninformative error when invalid instance id is entered,https://bugs.launchpad.net/nova/+bug/732902,2011-04-15
+731010,731010,Fix Released,nova.sh project zipfile fails on first run,https://bugs.launchpad.net/nova/+bug/731010,2011-04-15
+730639,730639,Fix Released,"""nova-dhcpbridge init"" output malformed",https://bugs.launchpad.net/nova/+bug/730639,2011-04-15
+728597,728597,Fix Released,OSAPI passes instance_id as unicode,https://bugs.launchpad.net/nova/+bug/728597,2011-04-15
+726763,726763,Fix Released,negative api offsets,https://bugs.launchpad.net/nova/+bug/726763,2011-04-15
+725674,725674,Fix Released,euca-get-ajax-console: cannot import name ConnectionFailed,https://bugs.launchpad.net/nova/+bug/725674,2011-04-15
+725349,725349,Fix Released,NovaLogger.exception() should not dump a stack trace unless --verbose is specified,https://bugs.launchpad.net/nova/+bug/725349,2011-04-15
+724633,724633,Fix Released,Incorrect method naming scheme for Auth Token database interactions,https://bugs.launchpad.net/nova/+bug/724633,2011-04-15
+723967,723967,Fix Released,Logging breaking on OS X,https://bugs.launchpad.net/nova/+bug/723967,2011-04-15
+723621,723621,Fix Released,test_spawn_raw_glance in XenAPIVMTestCase complains about missing pygrub,https://bugs.launchpad.net/nova/+bug/723621,2011-04-15
+723591,723591,Fix Released,"calling ""nova-manage network create"" creates a lot of 10.0.X.0/24 networks",https://bugs.launchpad.net/nova/+bug/723591,2011-04-15
+723498,723498,Fix Released,specifying a name in describe_security_groups causes an exception,https://bugs.launchpad.net/nova/+bug/723498,2011-04-15
+723447,723447,Fix Released,fake_rabbit shouldn't use prefix matching on routing keys,https://bugs.launchpad.net/nova/+bug/723447,2011-04-15
+723299,723299,Fix Released,xenapi: /boot/guest should be created if it does not exist,https://bugs.launchpad.net/nova/+bug/723299,2011-04-15
+723298,723298,Fix Released,FlatManager should not call driver.init_host(),https://bugs.launchpad.net/nova/+bug/723298,2011-04-15
+722990,722990,Fix Released,multiple api workers breaks because ec2_port is used for both internal and external port,https://bugs.launchpad.net/nova/+bug/722990,2011-04-15
+722554,722554,Fix Released,bin/nova-manage hides disabled services,https://bugs.launchpad.net/nova/+bug/722554,2011-04-15
+721646,721646,Fix Released,vpn image fails to pick up kernel and ramdisk,https://bugs.launchpad.net/nova/+bug/721646,2011-04-15
+721285,721285,Fix Released,nova-api unconditionally logs at DEBUG level,https://bugs.launchpad.net/nova/+bug/721285,2011-04-15
+720589,720589,Fix Released,nova.db.api.project_get_network has unused parameter.,https://bugs.launchpad.net/nova/+bug/720589,2011-04-15
+720252,720252,Fix Released,adminclient create_user fails with --auth_driver=nova.auth.ldapdriver.LdapDriver,https://bugs.launchpad.net/nova/+bug/720252,2011-04-15
+718329,718329,Fix Released,Describe availability zones fails for non-admins,https://bugs.launchpad.net/nova/+bug/718329,2011-04-15
+715936,715936,Fix Released,ValueError when limit/offset = non-number in OpenStack API,https://bugs.launchpad.net/nova/+bug/715936,2011-04-15
+715620,715620,Fix Released,fix logging message if database server is not reachable,https://bugs.launchpad.net/nova/+bug/715620,2011-04-15
+715427,715427,Fix Released,nova-manage : create network doesn't check if the fixed_ips are already existing,https://bugs.launchpad.net/nova/+bug/715427,2011-04-15
+715424,715424,Fix Released,nova-manage : create network crashes when subnet range provided is not enough,https://bugs.launchpad.net/nova/+bug/715424,2011-04-15
+714709,714709,Fix Released,xenapi: kernel/ramdisk not removed on instance termination,https://bugs.launchpad.net/nova/+bug/714709,2011-04-15
+712814,712814,Fix Released,Some log levels not correctly setup from flags (e.g. nova.utils),https://bugs.launchpad.net/nova/+bug/712814,2011-04-15
+712681,712681,Fix Released,gflag --pidfile isn't working,https://bugs.launchpad.net/nova/+bug/712681,2011-04-15
+718675,718675,Fix Released,Can't create db with PostgreSQL backend,https://bugs.launchpad.net/nova/+bug/718675,2011-04-15
+718548,718548,Fix Released,use_nova_chains fails due to a missing flag,https://bugs.launchpad.net/nova/+bug/718548,2011-04-15

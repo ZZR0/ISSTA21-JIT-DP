@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1303885,1303885,Fix Released,(murano-api) run_tests.sh exclude functional tests,https://bugs.launchpad.net/murano/+bug/1303885,2014-07-11
+1317702,1317702,Fix Committed,fuel-client failing to specify neutron segmentation type raises traceback,https://bugs.launchpad.net/fuel/+bug/1317702,2014-07-11
+1333204,1333204,Fix Committed,upgrade script for secure Fuel Master services,https://bugs.launchpad.net/fuel/+bug/1333204,2014-07-11
+1319451,1319451,Fix Committed,AMQP Channel errors in orchestrator logs,https://bugs.launchpad.net/fuel/+bug/1319451,2014-07-11
+1288155,1288155,Fix Released,updating alarm can specify an alarm_name exists,https://bugs.launchpad.net/ceilometer/+bug/1288155,2014-07-11
+1329599,1329599,Fix Released,novaclient has incorrect description of vlan option for creating network with an associated vlan,https://bugs.launchpad.net/python-novaclient/+bug/1329599,2014-07-11
+1331602,1331602,Fix Released,Flavor access __repr__ method crashes,https://bugs.launchpad.net/python-novaclient/+bug/1331602,2014-07-11
+1326613,1326613,Fix Released,confusion help msg for nova volume-update,https://bugs.launchpad.net/python-novaclient/+bug/1326613,2014-07-11
+1326134,1326134,Fix Released,Bypass URL doesn't have a corresponding environment variable,https://bugs.launchpad.net/python-novaclient/+bug/1326134,2014-07-11
+1324077,1324077,Fix Released,Logical error in flavors unset_keys method,https://bugs.launchpad.net/python-novaclient/+bug/1324077,2014-07-11
+1323909,1323909,Fix Released,Can't create server_group in cli when 'policy' isn't specified,https://bugs.launchpad.net/python-novaclient/+bug/1323909,2014-07-11
+1323450,1323450,Fix Released,Base64 output cannot be JSON encoded in py3,https://bugs.launchpad.net/python-novaclient/+bug/1323450,2014-07-11
+1321205,1321205,Fix Released,output of volume-update command ERROR,https://bugs.launchpad.net/python-novaclient/+bug/1321205,2014-07-11
+1321073,1321073,Fix Released,Description of volume-detach command is not proper,https://bugs.launchpad.net/python-novaclient/+bug/1321073,2014-07-11
+1314395,1314395,Fix Released,Documentation for config_drive boot parameter is incorrect,https://bugs.launchpad.net/python-novaclient/+bug/1314395,2014-07-11
+1312747,1312747,Fix Released,Help explanation for --poll under nova commands is not clear,https://bugs.launchpad.net/python-novaclient/+bug/1312747,2014-07-11
+1309986,1309986,Fix Released,Add unit test for keypair's api,https://bugs.launchpad.net/python-novaclient/+bug/1309986,2014-07-11
+1309542,1309542,Fix Released,Some fake return values for fakeclient for nova V3 are wrong,https://bugs.launchpad.net/python-novaclient/+bug/1309542,2014-07-11
+1308147,1308147,Fix Released,Bare metal list doesn't display MAC address or task state,https://bugs.launchpad.net/python-novaclient/+bug/1308147,2014-07-11
+1302954,1302954,Fix Released,Support delete multiple instance groups in one request,https://bugs.launchpad.net/python-novaclient/+bug/1302954,2014-07-11
+1302696,1302696,Fix Released,"""nova rebuild"" does not show returned admin password",https://bugs.launchpad.net/python-novaclient/+bug/1302696,2014-07-11
+1295293,1295293,Fix Released,ClientException: <attribute 'message' of 'exceptions.BaseException' objects> (HTTP 503),https://bugs.launchpad.net/python-novaclient/+bug/1295293,2014-07-11
+1292669,1292669,Fix Released,Nova boot returns 0 when VM state is ERROR,https://bugs.launchpad.net/python-novaclient/+bug/1292669,2014-07-11
+1281342,1281342,Fix Released,The wrong element is put into the client request body,https://bugs.launchpad.net/python-novaclient/+bug/1281342,2014-07-11
+1280453,1280453,Fix Released,Printing novaclient.v1_1.servers.Server object causes AttributeError,https://bugs.launchpad.net/python-novaclient/+bug/1280453,2014-07-11
+1278931,1278931,Fix Released,'nova boot' help menu has a typo for 'snapshot',https://bugs.launchpad.net/python-novaclient/+bug/1278931,2014-07-11
+1277425,1277425,Fix Released,os_password was set to None by the novaclient,https://bugs.launchpad.net/python-novaclient/+bug/1277425,2014-07-11
+1154634,1154634,Fix Released,nova command failing with no keyring daemon error,https://bugs.launchpad.net/python-novaclient/+bug/1154634,2014-07-11
+1153839,1153839,Fix Released,Add support for passing certs for external auth,https://bugs.launchpad.net/python-novaclient/+bug/1153839,2014-07-11
+1314217,1314217,Fix Released,add multiple server support to nova reset-state,https://bugs.launchpad.net/python-novaclient/+bug/1314217,2014-07-11
+1295126,1295126,Fix Released,Admin only shown for args that can be used by non-admin,https://bugs.launchpad.net/python-novaclient/+bug/1295126,2014-07-11
+1267685,1267685,Fix Released,boot vm don't support ipv6,https://bugs.launchpad.net/nova/+bug/1267685,2014-07-11
+1267685,1267685,Fix Released,boot vm don't support ipv6,https://bugs.launchpad.net/python-novaclient/+bug/1267685,2014-07-11
+1330571,1330571,Fix Released,quota-class-update doesn't work for --fixed_ips,https://bugs.launchpad.net/python-novaclient/+bug/1330571,2014-07-11
+1312087,1312087,Fix Released,"""nova delete"" has no output if the VM was deleted",https://bugs.launchpad.net/python-novaclient/+bug/1312087,2014-07-11
+1304570,1304570,Fix Released,volume-type-delete has the wrong help string,https://bugs.launchpad.net/python-novaclient/+bug/1304570,2014-07-11
+1303875,1303875,Fix Released,Add support for specifying disk bus and device type when attaching volumes,https://bugs.launchpad.net/python-novaclient/+bug/1303875,2014-07-11
+1258488,1258488,Fix Released,"""nova boot"" should not log an error if subsidiary commands fail",https://bugs.launchpad.net/python-novaclient/+bug/1258488,2014-07-11
+1250501,1250501,Fix Released,Expand shell test coverage for security groups,https://bugs.launchpad.net/python-novaclient/+bug/1250501,2014-07-11
+1331095,1331095,Fix Released,v3 shell still has quota-class API calls but that's not in the v3 API,https://bugs.launchpad.net/python-novaclient/+bug/1331095,2014-07-11
+1327212,1327212,Fix Released,"Instances cannot be booted using name of a non-public, but accessible, flavor",https://bugs.launchpad.net/python-novaclient/+bug/1327212,2014-07-11
+1324857,1324857,Fix Released,floating-ip-list does not list attached server anymore,https://bugs.launchpad.net/python-novaclient/+bug/1324857,2014-07-11
+1309244,1309244,Fix Released,if using nova boot --num-instances and neutron instances count are truncated to port quota,https://bugs.launchpad.net/python-novaclient/+bug/1309244,2014-07-11
+1297796,1297796,Fix Released,nova python client is not process safe,https://bugs.launchpad.net/python-novaclient/+bug/1297796,2014-07-11
+1329780,1329780,Fix Released,Deployment fail with errors in puppet log,https://bugs.launchpad.net/fuel/+bug/1329780,2014-07-10
+1322102,1322102,Fix Released,[OSTF] Sometimes Health Check returns false/positive error while checking connectivity via floating IP,https://bugs.launchpad.net/fuel/+bug/1322102,2014-07-10
+1316957,1316957,Fix Released,logrotate should be fixed for fuel master node,https://bugs.launchpad.net/fuel/+bug/1316957,2014-07-10
+1339024,1339024,Fix Released,"Error running RPC method stop_deploy_task: can't convert NilClass into time interval, trac",https://bugs.launchpad.net/fuel/+bug/1339024,2014-07-10
+1296934,1296934,Fix Released,glossary: tooltips are broken when the glossterm contains parenthesis,https://bugs.launchpad.net/openstack-manuals/+bug/1296934,2014-07-10
+1311081,1311081,Fix Released,Chapter 1. Getting Started in OpenStack Training Guides,https://bugs.launchpad.net/openstack-manuals/+bug/1311081,2014-07-10
+1336693,1336693,Fix Released,mis-spelling module name for training-guides in openstack-manual,https://bugs.launchpad.net/openstack-manuals/+bug/1336693,2014-07-10
+1339875,1339875,Fix Released,Parallel puppet-apply jobs fail creating existing /var/run/puppet,https://bugs.launchpad.net/openstack-ci/+bug/1339875,2014-07-10
+1316173,1316173,Fix Released,nova.virt.imagehandler not used,https://bugs.launchpad.net/nova/+bug/1316173,2014-07-10
+1212428,1212428,Fix Released,compute_node_get_all slow as molasses,https://bugs.launchpad.net/nova/+bug/1212428,2014-07-10
+1290382,1290382,Fix Committed,jenkins-job-builder: email-ext's default Reply-To is incorrect,https://bugs.launchpad.net/openstack-ci/+bug/1290382,2014-07-10
+1337901,1337901,Fix Committed,Unexpected presence of Mirantis logo and registration link,https://bugs.launchpad.net/fuel/+bug/1337901,2014-07-10
+1298477,1298477,Fix Released,python-muranoclient endpoint url does not contain version,https://bugs.launchpad.net/murano/+bug/1298477,2014-07-10
+1337896,1337896,Fix Committed,fix usage for dockerctl,https://bugs.launchpad.net/fuel/+bug/1337896,2014-07-10
+1325347,1325347,Fix Released,Verification failed. Error occurred while running method 'verify_networks',https://bugs.launchpad.net/fuel/+bug/1325347,2014-07-10
+1338806,1338806,Fix Released,[openstack-doc-tools] openstack-auto-commands should handle *-manage CLIs,https://bugs.launchpad.net/openstack-manuals/+bug/1338806,2014-07-10
+1226310,1226310,Fix Released,Nova bm operations fail when LIBVIRT_DEFAULT_URI not set,https://bugs.launchpad.net/tripleo/+bug/1226310,2014-07-10
+1194739,1194739,Fix Released,Keypairs does not take action-level policies into consideration,https://bugs.launchpad.net/nova/+bug/1194739,2014-07-09
+1240374,1240374,Fix Released,some times availability-zone not take effect after it created,https://bugs.launchpad.net/nova/+bug/1240374,2014-07-09
+1265561,1265561,Fix Released,Log message printed for unhandled exception is not very helpful.,https://bugs.launchpad.net/nova/+bug/1265561,2014-07-09
+1265561,1265561,Fix Released,Log message printed for unhandled exception is not very helpful.,https://bugs.launchpad.net/glance/+bug/1265561,2014-07-09
+1225191,1225191,Fix Released,add qpid-python to requirements.txt,https://bugs.launchpad.net/heat/+bug/1225191,2014-07-09
+1160749,1160749,Fix Released,nova quota-update command is executed without checking if the quota exceed,https://bugs.launchpad.net/nova/+bug/1160749,2014-07-09
+1031493,1031493,Fix Released,"Default Quotas still lists ""Cores"" when should be VCPUs",https://bugs.launchpad.net/horizon/+bug/1031493,2014-07-09
+1333653,1333653,Fix Released,fuel cli spelling error for 'fuel network',https://bugs.launchpad.net/fuel/+bug/1333653,2014-07-09
+1332655,1332655,Fix Released,Bad link in Fuel development docs,https://bugs.launchpad.net/fuel/+bug/1332655,2014-07-09
+1324723,1324723,Fix Released,"[DevOps] Simplify ""make iso"" process",https://bugs.launchpad.net/fuel/+bug/1324723,2014-07-09
+1326494,1326494,Fix Released,Building fuel-main ISO requires specific version of python-daemon,https://bugs.launchpad.net/fuel/+bug/1326494,2014-07-09
+1333992,1333992,Fix Committed,Non-string inputs cause error in os-refresh-config,https://bugs.launchpad.net/heat-templates/+bug/1333992,2014-07-09
+1252693,1252693,Fix Released,Running of unit tests fails if SQLAlchemy >= 0.8.3 is used,https://bugs.launchpad.net/nova/+bug/1252693,2014-07-09
+1292142,1292142,Fix Released,Fix some swift based scrubber functional tests,https://bugs.launchpad.net/glance/+bug/1292142,2014-07-09

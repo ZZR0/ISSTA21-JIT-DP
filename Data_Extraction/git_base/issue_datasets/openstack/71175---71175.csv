@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1386318,1386318,Fix Released,Two out of three heat-engine services are not started in HA mode,https://bugs.launchpad.net/fuel/+bug/1386318,2014-12-16
+1390171,1390171,Fix Released,nova-api failed to start on compute node because of missing 'python-memcache' package,https://bugs.launchpad.net/fuel/+bug/1390171,2014-12-16
+1390745,1390745,Fix Released,Pacemaker provider cannot recieve success on clones start within given timeout,https://bugs.launchpad.net/fuel/+bug/1390745,2014-12-16
+1400725,1400725,Fix Released,Typo in a unittest for allowed-address-pairs extension which may lead to false-positives,https://bugs.launchpad.net/neutron/+bug/1400725,2014-12-16
+1399605,1399605,Fix Released,MySQL destructive test tries to use data from PID which doesn't exist,https://bugs.launchpad.net/fuel/+bug/1399605,2014-12-16
+1391956,1391956,Fix Released,Fuel+NSX can not complete deploy Ubuntu-based cloud because of broken dependencies packages,https://bugs.launchpad.net/fuel/+bug/1391956,2014-12-16
+1384628,1384628,Fix Released,Unable to locate package ntp-dev,https://bugs.launchpad.net/fuel/+bug/1384628,2014-12-16
+1389299,1389299,Fix Released,Fix neutron agents start in OCF,https://bugs.launchpad.net/fuel/+bug/1389299,2014-12-16
+1338128,1338128,Fix Released,Identity API v3 nonstandard response code format,https://bugs.launchpad.net/openstack-api-site/+bug/1338128,2014-12-16
+1329605,1329605,Fix Released,Security Guide does not document delayed deletion or deferred deletion,https://bugs.launchpad.net/openstack-manuals/+bug/1329605,2014-12-16
+1364068,1364068,Fix Committed,Rollback is impossible due to package conflicts,https://bugs.launchpad.net/fuel/+bug/1364068,2014-12-16
+1328469,1328469,Fix Released,Update test requirement hacking to series 0.9.x,https://bugs.launchpad.net/keystone/+bug/1328469,2014-12-15
+1328469,1328469,Fix Released,Update test requirement hacking to series 0.9.x,https://bugs.launchpad.net/python-keystoneclient/+bug/1328469,2014-12-15
+1344342,1344342,Fix Released,"Security Guide - Chapter 43. Security beyond scheduling, images, and migrations",https://bugs.launchpad.net/openstack-manuals/+bug/1344342,2014-12-15
+1398601,1398601,Fix Released,lint'ing the repo.,https://bugs.launchpad.net/openstack-ansible/+bug/1398601,2014-12-15
+1392244,1392244,Fix Released,Fuel+NSX can not complete deploy CentOS-based cloud because of problems with neutron,https://bugs.launchpad.net/fuel/+bug/1392244,2014-12-15
+1388066,1388066,Fix Released,Provide datastore_regex option into vCenter section,https://bugs.launchpad.net/fuel/+bug/1388066,2014-12-15
+1393497,1393497,Fix Released,Deploy NSX and  сompute + multiple roles at one node  may cause an error,https://bugs.launchpad.net/fuel/+bug/1393497,2014-12-15
+1399529,1399529,Fix Released,list_parts failed before executing rebalance,https://bugs.launchpad.net/swift/+bug/1399529,2014-12-15
+1387415,1387415,Fix Released,unauthorized upload returns 413 when over account quota instead of 403,https://bugs.launchpad.net/swift/+bug/1387415,2014-12-15
+1381875,1381875,Fix Released,Swift out of quota error is confusing,https://bugs.launchpad.net/swift/+bug/1381875,2014-12-15
+1381866,1381866,Fix Released,swiftclient /info call does not respect --insecure,https://bugs.launchpad.net/swift/+bug/1381866,2014-12-15
+1379767,1379767,Fix Released,swift-drive-audit missing logger in get_errors,https://bugs.launchpad.net/swift/+bug/1379767,2014-12-15
+1379149,1379149,Fix Released,Those assignment statements look a little bit verbose in the validate_device_partition routine,https://bugs.launchpad.net/swift/+bug/1379149,2014-12-15
+1370070,1370070,Fix Released,Some partitions of a 3 replicas Swift cluster may have only 2 replicas,https://bugs.launchpad.net/swift/+bug/1370070,2014-12-15
+1329093,1329093,Fix Released,ssync doesn't sync X-Static-Large-Object,https://bugs.launchpad.net/swift/+bug/1329093,2014-12-15
+1244506,1244506,Fix Released,Swift CLI shows stack traces while segement_size is in a string,https://bugs.launchpad.net/swift/+bug/1244506,2014-12-15
+1359018,1359018,Fix Released,Inappropriate checking of connection timeout in db_replicator._repl_to_node,https://bugs.launchpad.net/swift/+bug/1359018,2014-12-15
+966671,966671,Fix Released,Improve error reporting when running on an unsupported filesystem,https://bugs.launchpad.net/swift/+bug/966671,2014-12-15
+1382259,1382259,Fix Committed,Fuel tries to boot nodes via eth0 even if PXE interface differs,https://bugs.launchpad.net/fuel/+bug/1382259,2014-12-15
+1394477,1394477,Fix Released,"Fuel master deployment fails: ""Error: Could not find package ntp""",https://bugs.launchpad.net/fuel/+bug/1394477,2014-12-15
+1394225,1394225,Fix Released,Create new jenkins job for performance tests,https://bugs.launchpad.net/fuel/+bug/1394225,2014-12-15
+1386671,1386671,Fix Released,two primary controllers for one env,https://bugs.launchpad.net/fuel/+bug/1386671,2014-12-15
+1393437,1393437,Fix Released,[System tests] Ha_pacemaker_configuration test failed on Ubuntu - need to change search for hostname to short node name,https://bugs.launchpad.net/fuel/+bug/1393437,2014-12-15
+1400258,1400258,Fix Released,[System tests] We need to disable test on Monit and AMQP connections of heat-engine,https://bugs.launchpad.net/fuel/+bug/1400258,2014-12-15
+1392354,1392354,Fix Released,In generic errors CLI shows exception traceback instead of simple message,https://bugs.launchpad.net/rally/+bug/1392354,2014-12-15
+1400518,1400518,Fix Released,venv installation for tempest failed in debug mode,https://bugs.launchpad.net/rally/+bug/1400518,2014-12-15
+1400465,1400465,Fix Released,rally-debug mode is not working correct for all debug messages in rally,https://bugs.launchpad.net/rally/+bug/1400465,2014-12-15
+1400823,1400823,Fix Released,DevStack needs to create an IPv6 address with global scope on PUBLIC_BRIDGE if no ipv6 address has been set,https://bugs.launchpad.net/devstack/+bug/1400823,2014-12-12
+1395714,1395714,Fix Released,The base Client function shouldn't require version,https://bugs.launchpad.net/python-glanceclient/+bug/1395714,2014-12-12
+1394965,1394965,Fix Released,identity_headers are being ignored,https://bugs.launchpad.net/python-glanceclient/+bug/1394965,2014-12-12
+1401032,1401032,Fix Released,V2 shell import fails with schema types [],https://bugs.launchpad.net/python-glanceclient/+bug/1401032,2014-12-12
+1397722,1397722,Fix Released,[networking] Rakefile doesn't have descs in it,https://bugs.launchpad.net/openstack-chef/+bug/1397722,2014-12-12
+1329002,1329002,Fix Released,H302 fails to recognize something as a module,https://bugs.launchpad.net/hacking/+bug/1329002,2014-12-12
+1372483,1372483,Fix Released,RabbitMQ loses murano user when controller is offline,https://bugs.launchpad.net/fuel/+bug/1372483,2014-12-12
+1308523,1308523,Fix Released,trove-conductor needs packaging,https://bugs.launchpad.net/openstack-manuals/+bug/1308523,2014-12-12
+1383765,1383765,Fix Released,[fuel-library] Could not find resource 'Class[Murano::Rabbitmq]' for relationship from 'Class[Murano::Db::Mysql]',https://bugs.launchpad.net/fuel/+bug/1383765,2014-12-12
+1334603,1334603,Fix Committed,double quoted string containing no variables,https://bugs.launchpad.net/openstack-ci/+bug/1334603,2014-12-12
+1376008,1376008,Fix Committed,Implicit dependency between two SoftwareDeployment resources causes double run (rdo-icehouse-release),https://bugs.launchpad.net/heat-templates/+bug/1376008,2014-12-12
+1191044,1191044,Fix Released,Create VM with no networks with Quantum Gives SecurityGroups Exception,https://bugs.launchpad.net/nova/+bug/1191044,2014-12-12
+1313191,1313191,Fix Released,Deprecate admin_token option in auth_token,https://bugs.launchpad.net/openstack-manuals/+bug/1313191,2014-12-11
+1401232,1401232,Fix Committed,Readme should include instructions for running integration tests,https://bugs.launchpad.net/trove-integration/+bug/1401232,2014-12-11
+1027263,1027263,Fix Released,Nova volume api volume list and volume detail list are the same,https://bugs.launchpad.net/cinder/+bug/1027263,2014-12-11
+1097785,1097785,Fix Released,Missing API documentation for FlavorSwap API extension,https://bugs.launchpad.net/openstack-api-site/+bug/1097785,2014-12-11
+1215115,1215115,Fix Released,API documentation for boot from volume,https://bugs.launchpad.net/openstack-api-site/+bug/1215115,2014-12-11
+1330620,1330620,Fix Released,Cinder volume types APIs not documented in online API reference,https://bugs.launchpad.net/openstack-api-site/+bug/1330620,2014-12-11
+1252577,1252577,Fix Released,Adds XML namespace example for disk config extension,https://bugs.launchpad.net/openstack-api-site/+bug/1252577,2014-12-11
+1044237,1044237,Fix Released,Block Migration doesn't work: Nova searches for the Instance on the destination Compute host,https://bugs.launchpad.net/nova/+bug/1044237,2014-12-11
+1376209,1376209,Fix Released,Logs on controllers are not rotated: /var/log/murano/ directory has insecure permissions,https://bugs.launchpad.net/fuel/+bug/1376209,2014-12-11
+1394973,1394973,Fix Committed,Network check: mcollective availability,https://bugs.launchpad.net/fuel/+bug/1394973,2014-12-11
+1373569,1373569,Fix Released,Ceilometer Cant Connect to AMQP after Controller Down,https://bugs.launchpad.net/fuel/+bug/1373569,2014-12-11
+1385420,1385420,Fix Released,[system_tests] Add usage of openstack python clients to the assert_ready_cluster method,https://bugs.launchpad.net/fuel/+bug/1385420,2014-12-11
+1390457,1390457,Fix Released,plenty of traces in statsenderd.log,https://bugs.launchpad.net/fuel/+bug/1390457,2014-12-11
+1373988,1373988,Fix Released,FUEL doesn't check nodes via mcollective,https://bugs.launchpad.net/fuel/+bug/1373988,2014-12-11
+1388111,1388111,Fix Released,There are many unnecessary neutron logs such as  neutron.api_insecure.log,https://bugs.launchpad.net/fuel/+bug/1388111,2014-12-11
+1386640,1386640,Fix Released,Login form doesn't show after redirect to #login when token is expired,https://bugs.launchpad.net/fuel/+bug/1386640,2014-12-11
+1392646,1392646,Fix Released,NSX settings block text fields layout breakage during migration to React.js,https://bugs.launchpad.net/fuel/+bug/1392646,2014-12-11
+1401120,1401120,Fix Committed,Migration of action_logs with mixed value types in lists failed,https://bugs.launchpad.net/fuel/+bug/1401120,2014-12-11
+1390030,1390030,Fix Committed,Remove unpacking code for docker images from upgrade.sh,https://bugs.launchpad.net/fuel/+bug/1390030,2014-12-11
+1330610,1330610,Fix Committed,Add neutron-lbaas-agent package to Mirantis repos,https://bugs.launchpad.net/fuel/+bug/1330610,2014-12-11
+1398811,1398811,Fix Released,NetworkClientJSON.deserialize_list does not handle the scenraio when pagination is enabled in neutron,https://bugs.launchpad.net/tempest/+bug/1398811,2014-12-11
+1399021,1399021,Fix Released,Incorrect section title Brocade Fibre Channel Zone Driver in OpenStack Configuration Reference  - juno,https://bugs.launchpad.net/openstack-manuals/+bug/1399021,2014-12-10
+1400902,1400902,Fix Released,test_update_router_admin_state failing against ironic,https://bugs.launchpad.net/tempest/+bug/1400902,2014-12-10
+1379055,1379055,Fix Released,Cmd2 module depends on 'which' utility,https://bugs.launchpad.net/python-cliff/+bug/1379055,2014-12-10
+1339691,1339691,Fix Released,[OSTF] Time limit exceeded while waiting for 'ping' command to finish,https://bugs.launchpad.net/fuel/+bug/1339691,2014-12-10

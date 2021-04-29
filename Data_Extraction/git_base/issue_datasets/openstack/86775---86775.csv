@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1226074,1226074,Fix Released,cinder.conf should default rootwrap_config path like nova,https://bugs.launchpad.net/cinder/+bug/1226074,2013-10-17
+1221517,1221517,Fix Released,Misuse of assertTrue in test scripts,https://bugs.launchpad.net/cinder/+bug/1221517,2013-10-17
+1219016,1219016,Fix Released,qos spec manager API lacks of view builder,https://bugs.launchpad.net/cinder/+bug/1219016,2013-10-17
+1231116,1231116,Fix Released,ThinLVMVolumeDriver missing upgrade path from Grizzly,https://bugs.launchpad.net/cinder/+bug/1231116,2013-10-17
+1225194,1225194,Fix Released,LVM clear_volume should raise exc. if volume_clear opt is invalid,https://bugs.launchpad.net/cinder/+bug/1225194,2013-10-17
+1225094,1225094,Fix Released,Nexenta NFS volume driver error in _do_create_volume method,https://bugs.launchpad.net/cinder/+bug/1225094,2013-10-17
+1224030,1224030,Fix Released,GlusterFS snapshot code uses new qemu-img arguments,https://bugs.launchpad.net/cinder/+bug/1224030,2013-10-17
+1223128,1223128,Fix Released,"When creating a volume with non-English character,the log has UnicodeEncodeError",https://bugs.launchpad.net/cinder/+bug/1223128,2013-10-17
+1223046,1223046,Fix Released,brick's iscsi pep8 violation in iscsi.py,https://bugs.launchpad.net/cinder/+bug/1223046,2013-10-17
+1221874,1221874,Fix Released,Unhandled exception on update_volume_group when vg is None,https://bugs.launchpad.net/cinder/+bug/1221874,2013-10-17
+1221012,1221012,Fix Released,"Should check cinder-backup service before changing to ""backing-up""",https://bugs.launchpad.net/cinder/+bug/1221012,2013-10-17
+1220286,1220286,Fix Released,Volume operations fail for thin provisioning the first time it's executed,https://bugs.launchpad.net/cinder/+bug/1220286,2013-10-17
+1219950,1219950,Fix Released,C:\iSCSIVirtualDisks dir created during tests,https://bugs.launchpad.net/cinder/+bug/1219950,2013-10-17
+1217552,1217552,Fix Released,/tmp space near full causes failure of create from image,https://bugs.launchpad.net/cinder/+bug/1217552,2013-10-17
+1232698,1232698,Fix Released,migrate does not convert string to bool for force_host_copy,https://bugs.launchpad.net/cinder/+bug/1232698,2013-10-17
+1230189,1230189,Fix Released,[taskflow] Incorrect state transition on failure of create volume API,https://bugs.launchpad.net/cinder/+bug/1230189,2013-10-17
+1230176,1230176,Fix Released,[taskflow] Quotas are not rolled back on failure of create volume,https://bugs.launchpad.net/cinder/+bug/1230176,2013-10-17
+1230066,1230066,Fix Released,Should not be using CONF settings in brick,https://bugs.launchpad.net/cinder/+bug/1230066,2013-10-17
+1229894,1229894,Fix Released,brick has duplicate conf entries in iser and iscsi,https://bugs.launchpad.net/cinder/+bug/1229894,2013-10-17
+1228835,1228835,Fix Released,v2 API doesn't allow specifying volume type by name,https://bugs.launchpad.net/cinder/+bug/1228835,2013-10-17
+1228358,1228358,Fix Released,extend volume for LVM got lost in the shuffle,https://bugs.launchpad.net/cinder/+bug/1228358,2013-10-17
+1227979,1227979,Fix Released,Volume metadata does not exist in v2 API,https://bugs.launchpad.net/cinder/+bug/1227979,2013-10-17
+1227837,1227837,Fix Released,inadvertent type change to bootable in volume api summary view,https://bugs.launchpad.net/cinder/+bug/1227837,2013-10-17
+1225897,1225897,Fix Released,Drivers dont error out or log message for set up error,https://bugs.launchpad.net/cinder/+bug/1225897,2013-10-17
+1225235,1225235,Fix Released,hp3par driver and common should log errors before raising exception,https://bugs.launchpad.net/cinder/+bug/1225235,2013-10-17
+1225102,1225102,Fix Released,Copy-image-to-volume fails on FibreChannelDriver without sg_scan included in rootwrap.d/volume.filters,https://bugs.launchpad.net/cinder/+bug/1225102,2013-10-17
+1224334,1224334,Fix Released,HyperV doesn't work with CHAP in Storwize/SVC driver,https://bugs.launchpad.net/cinder/+bug/1224334,2013-10-17
+1223879,1223879,Fix Released,NFS does not use rootwrap for mount command,https://bugs.launchpad.net/cinder/+bug/1223879,2013-10-17
+1223677,1223677,Fix Released,qos specs list API shows deleted keys,https://bugs.launchpad.net/cinder/+bug/1223677,2013-10-17
+1223660,1223660,Fix Released,unable to delete a key in qos specs,https://bugs.launchpad.net/cinder/+bug/1223660,2013-10-17
+1223484,1223484,Fix Released,Add python-novaclient to requirements.txt,https://bugs.launchpad.net/cinder/+bug/1223484,2013-10-17
+1222907,1222907,Fix Released,GlusterFS clone from snapshot may select wrong source file,https://bugs.launchpad.net/cinder/+bug/1222907,2013-10-17
+1222692,1222692,Fix Released,associate qos specs with type already associated overwirtes orginal association,https://bugs.launchpad.net/cinder/+bug/1222692,2013-10-17
+1221309,1221309,Fix Released,brick's remotefs has dependency on cinder.exception,https://bugs.launchpad.net/cinder/+bug/1221309,2013-10-17
+1220867,1220867,Fix Released,Taskflow 'tuple' object is not callable,https://bugs.launchpad.net/cinder/+bug/1220867,2013-10-17
+1220232,1220232,Fix Released,Volumes with metadata can't be returned when admin metadata is present,https://bugs.launchpad.net/cinder/+bug/1220232,2013-10-17
+1219106,1219106,Fix Released,No notification sent when extending a volume,https://bugs.launchpad.net/cinder/+bug/1219106,2013-10-17
+1219097,1219097,Fix Released,online volume migration fails due to db schema change,https://bugs.launchpad.net/cinder/+bug/1219097,2013-10-17
+1218554,1218554,Fix Released,"3par VVS set in extra-specs, driver needs to validate vvs before creating volume",https://bugs.launchpad.net/cinder/+bug/1218554,2013-10-17
+1215329,1215329,Fix Released,Volume Type deletion should not be allowed if volumes present with that type,https://bugs.launchpad.net/cinder/+bug/1215329,2013-10-17
+1229867,1229867,Fix Released,TypeError: create_volume() takes at least 6 arguments,https://bugs.launchpad.net/cinder/+bug/1229867,2013-10-17
+1220436,1220436,Fix Released,test_cinder_quota_class_show failes during gate jobs,https://bugs.launchpad.net/cinder/+bug/1220436,2013-10-17
+1220140,1220140,Fix Released,Errors in volume usage audit script,https://bugs.launchpad.net/cinder/+bug/1220140,2013-10-17
+1219197,1219197,Fix Released,check_uptodate.sh need run in venv,https://bugs.launchpad.net/cinder/+bug/1219197,2013-10-17
+1218383,1218383,Fix Released,cinder volume usage auditor crashes,https://bugs.launchpad.net/cinder/+bug/1218383,2013-10-17
+1217220,1217220,Fix Released,NetApp driver errors out for deprecated drivers,https://bugs.launchpad.net/cinder/+bug/1217220,2013-10-17
+1217118,1217118,Fix Released,LeftHand driver does not support snapshots or extend volume,https://bugs.launchpad.net/cinder/+bug/1217118,2013-10-17
+1216820,1216820,Fix Released,Don't need to init testr explicitly,https://bugs.launchpad.net/cinder/+bug/1216820,2013-10-17
+1215962,1215962,Fix Released,Cinder migration 017_add_encryption_information adds two new volume types without warning,https://bugs.launchpad.net/cinder/+bug/1215962,2013-10-17
+1215301,1215301,Fix Released,Quota Update Extension raises HTTP 500 for invalid quota value,https://bugs.launchpad.net/cinder/+bug/1215301,2013-10-17
+1214994,1214994,Fix Released,3par drivers terminate connection requires host validation,https://bugs.launchpad.net/cinder/+bug/1214994,2013-10-17
+1214748,1214748,Fix Released,Brick library doesn't support NFS,https://bugs.launchpad.net/cinder/+bug/1214748,2013-10-17
+1214365,1214365,Fix Released,flake8 H202 error in test_image_utils.py,https://bugs.launchpad.net/cinder/+bug/1214365,2013-10-17
+1214228,1214228,Fix Released,Cannot remove a volume in error_extending status,https://bugs.launchpad.net/cinder/+bug/1214228,2013-10-17
+1214102,1214102,Fix Released,api requests not returned in language specified in accept-language header,https://bugs.launchpad.net/cinder/+bug/1214102,2013-10-17
+1213248,1213248,Fix Released,GPFS Driver should implement clone_image for efficient volume creation,https://bugs.launchpad.net/cinder/+bug/1213248,2013-10-17
+1212884,1212884,Fix Released,SSH injection threat in 3PAR driver,https://bugs.launchpad.net/cinder/+bug/1212884,2013-10-17
+1212328,1212328,Fix Released,3PAR drivers need to support CPGs that are not part of a domain,https://bugs.launchpad.net/cinder/+bug/1212328,2013-10-17
+1211994,1211994,Fix Released,The HP 3PAR drivers should support version 3.1.2 MU2 of the python-3parclient,https://bugs.launchpad.net/cinder/+bug/1211994,2013-10-17
+1211861,1211861,Fix Released,Some docstrings in connector.py do not comply with HACKING.rst,https://bugs.launchpad.net/cinder/+bug/1211861,2013-10-17
+1211709,1211709,Fix Released,create volume clone from volume broken in cinder,https://bugs.launchpad.net/cinder/+bug/1211709,2013-10-17
+1211130,1211130,Fix Released,flake8 check: H233 the print operator,https://bugs.launchpad.net/cinder/+bug/1211130,2013-10-17
+1210245,1210245,Fix Released,3PAR volumes created from snapshots have the snapshop display name in the backend comment field instead of the new volume name.,https://bugs.launchpad.net/cinder/+bug/1210245,2013-10-17
+1210240,1210240,Fix Released,Upgrade Scality driver to match minimum features,https://bugs.launchpad.net/cinder/+bug/1210240,2013-10-17
+1209317,1209317,Fix Released,ERROR messages are being unnecessarily and incorrectly translated,https://bugs.launchpad.net/cinder/+bug/1209317,2013-10-17
+1209021,1209021,Fix Released,ImageUnacceptable exceptions are not properly raised from image_utils.fetch_to_raw(),https://bugs.launchpad.net/cinder/+bug/1209021,2013-10-17
+1208617,1208617,Fix Released,rbd exception for clone_image with glance v1 api,https://bugs.launchpad.net/cinder/+bug/1208617,2013-10-17
+1207560,1207560,Fix Released,Add clone volume and extend volume functions to HUS Driver,https://bugs.launchpad.net/cinder/+bug/1207560,2013-10-17
+1206992,1206992,Fix Released,add glanceclient timeout option,https://bugs.launchpad.net/cinder/+bug/1206992,2013-10-17
+1206962,1206962,Fix Released,get rid of old sm functionality,https://bugs.launchpad.net/cinder/+bug/1206962,2013-10-17
+1206947,1206947,Fix Released,tox.ini: Change sitepackages to False,https://bugs.launchpad.net/cinder/+bug/1206947,2013-10-17
+1206944,1206944,Fix Released,LVM & block_device Drivers: Some options are defined twice in the same group,https://bugs.launchpad.net/cinder/+bug/1206944,2013-10-17
+1206044,1206044,Fix Released,make all str conversions utf8 in ceph backup driver,https://bugs.launchpad.net/cinder/+bug/1206044,2013-10-17
+1205253,1205253,Fix Released,Table 'migrations' is unused and should be removed (it's a part of Nova),https://bugs.launchpad.net/cinder/+bug/1205253,2013-10-17
+1205100,1205100,Fix Released,brick iscsi/iscsi.py has a dependancy on cinder.utils,https://bugs.launchpad.net/cinder/+bug/1205100,2013-10-17

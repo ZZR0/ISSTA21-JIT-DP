@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1666936,1666936,Fix Released,Placment API client doesn't honor insecure nor cafile parameters,https://bugs.launchpad.net/nova/+bug/1666936,2017-04-26
+1686382,1686382,Fix Released,testing,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1686382,2017-04-26
+1686328,1686328,Fix Released,"Check QoS policy during net/port binding, to avoid incompatible rules",https://bugs.launchpad.net/neutron/+bug/1686328,2017-04-26
+1602681,1602681,Fix Committed,[fuel-qa] Need to fix creation ironic subnet after bump devops to 2.9.21 version,https://bugs.launchpad.net/fuel/+bug/1602681,2017-04-26
+1673720,1673720,Fix Released,docs build failure on html_last_updated_fmt option,https://bugs.launchpad.net/manila/+bug/1673720,2017-04-26
+1684064,1684064,Fix Released,[infra] Extend iso build information,https://bugs.launchpad.net/fuel/+bug/1684064,2017-04-26
+1672290,1672290,Fix Released,karbor-proection gives future_warning for access_policy Edit,https://bugs.launchpad.net/karbor/+bug/1672290,2017-04-26
+1682013,1682013,Fix Released,AttributeError: 'RedisPortStatusNotifier' object has no attribute 'mech_driver',https://bugs.launchpad.net/dragonflow/+bug/1682013,2017-04-26
+1681879,1681879,Fix Released,Add a fullstack test about protecting a server which boots from a volume,https://bugs.launchpad.net/karbor/+bug/1681879,2017-04-26
+1676400,1676400,Fix Released,Remove LBaaS v1 and enable LBaaS v2 by default in NFP,https://bugs.launchpad.net/group-based-policy/+bug/1676400,2017-04-26
+1672799,1672799,Fix Released,[CI gate] test_volume_upload fails,https://bugs.launchpad.net/patrole/+bug/1672799,2017-04-25
+1647871,1647871,Fix Released,RFE: resync of VPP state on agent restart,https://bugs.launchpad.net/networking-vpp/+bug/1647871,2017-04-25
+1655289,1655289,Fix Committed,[fuel-plugins] Missed 'major_version' rendering key,https://bugs.launchpad.net/fuel/+bug/1655289,2017-04-25
+1685418,1685418,Fix Released,upgrade jobs failing with openstack-heat-templates vs openstack-heat-agents dependencies,https://bugs.launchpad.net/tripleo/+bug/1685418,2017-04-25
+1664418,1664418,Fix Released,HA deployments taking close to the CI timeout,https://bugs.launchpad.net/tripleo/+bug/1664418,2017-04-25
+1672596,1672596,Fix Released,metadata reset doesn't work when mark resource healthy,https://bugs.launchpad.net/heat/+bug/1672596,2017-04-25
+1676896,1676896,Fix Released,hook-poll doesn't work with nested stack,https://bugs.launchpad.net/python-heatclient/+bug/1676896,2017-04-25
+1656125,1656125,Fix Released,resource sync_points needlessly process dependencies for outputs,https://bugs.launchpad.net/heat/+bug/1656125,2017-04-25
+1661049,1661049,Fix Released,batched create breaks with zero size resource group,https://bugs.launchpad.net/heat/+bug/1661049,2017-04-25
+1661594,1661594,Fix Released,trusts and stack_domain_user creation may not work in multi-region environment,https://bugs.launchpad.net/heat/+bug/1661594,2017-04-25
+1652034,1652034,Fix Released,map_replace should allow noop colliding replacements,https://bugs.launchpad.net/heat/+bug/1652034,2017-04-25
+1631408,1631408,Fix Released,An empty parameter_defaults section in an environment breaks deployment,https://bugs.launchpad.net/python-heatclient/+bug/1631408,2017-04-25
+1676338,1676338,Fix Released,"hostmonitor.sh recognizes error codes other than ""1"" as success.",https://bugs.launchpad.net/masakari-monitors/+bug/1676338,2017-04-25
+1663513,1663513,Fix Released,Masakari failed to rescue PAUSED instances,https://bugs.launchpad.net/masakari/+bug/1663513,2017-04-25
+1674724,1674724,Fix Committed,Network check fails on ARM machines,https://bugs.launchpad.net/fuel/+bug/1674724,2017-04-25
+1443815,1443815,Fix Released,Example: Fedora image in OpenStack Virtual Machine Image Guide  - current,https://bugs.launchpad.net/openstack-manuals/+bug/1443815,2017-04-25
+1681471,1681471,Fix Released,Add vyos day0 config support to NFP contrib,https://bugs.launchpad.net/group-based-policy/+bug/1681471,2017-04-25
+1659527,1659527,Fix Released,The Hyper-V Security Groups Driver fails if the port's security groups is disabled,https://bugs.launchpad.net/networking-hyperv/+bug/1659527,2017-04-25
+1685765,1685765,Fix Released,ironic-dbsync fails due to permissions on undercloud upgrade,https://bugs.launchpad.net/tripleo/+bug/1685765,2017-04-25
+1619602,1619602,Fix Released,Hyper-V: vhd config drive images are not migrated,https://bugs.launchpad.net/nova/+bug/1619602,2017-04-25
+1657424,1657424,Fix Released,Hyper-V: Instance ports not bound after resize,https://bugs.launchpad.net/nova/+bug/1657424,2017-04-25
+1681555,1681555,Fix Released,Broken link: Meteos Official Documentation,https://bugs.launchpad.net/meteos/+bug/1681555,2017-04-25
+1519727,1519727,Fix Released,Fails installation from an editable git repo in setuptools 18.6,https://bugs.launchpad.net/fuel/+bug/1519727,2017-04-25
+1668258,1668258,Fix Committed,Some urls and handlers were removed from nailgun mistakenly,https://bugs.launchpad.net/fuel/+bug/1668258,2017-04-25
+1487280,1487280,Fix Released,swift-ring-builder write_builder doesn't work if you remove a device,https://bugs.launchpad.net/swift/+bug/1487280,2017-04-24
+1680740,1680740,Fix Released,default_aggregation_methods configuration is not effected when upgrade gnocchi indexer.,https://bugs.launchpad.net/gnocchi/+bug/1680740,2017-04-24
+1684246,1684246,Fix Released,gnocchi upgrade from newton to ocata fails,https://bugs.launchpad.net/gnocchi/+bug/1684246,2017-04-24
+1647301,1647301,Fix Released,GetParametersAction takes very long,https://bugs.launchpad.net/tripleo/+bug/1647301,2017-04-24
+1682001,1682001,Fix Released,[promotion] nova hypervisors/detail fails when host is not mapped to any cell,https://bugs.launchpad.net/nova/+bug/1682001,2017-04-24
+1682001,1682001,Fix Released,[promotion] nova hypervisors/detail fails when host is not mapped to any cell,https://bugs.launchpad.net/tripleo/+bug/1682001,2017-04-24
+1682362,1682362,Fix Released,Multinode setup fails as n-cpu is not start due after following multinode guide in devstack,https://bugs.launchpad.net/devstack/+bug/1682362,2017-04-24
+1654218,1654218,Fix Released,This test fails: mistral.tests.unit.services.test_trigger_service.TriggerServiceV2Test.test_trigger_create,https://bugs.launchpad.net/mistral/+bug/1654218,2017-04-24
+1674670,1674670,Fix Released,Remove log translations,https://bugs.launchpad.net/python-mistralclient/+bug/1674670,2017-04-24
+1675388,1675388,Fix Released,UTC conversion not taking DST into account,https://bugs.launchpad.net/python-mistralclient/+bug/1675388,2017-04-24
+1667182,1667182,Fix Released,container logs is not good user experience,https://bugs.launchpad.net/zun/+bug/1667182,2017-04-24
+1669704,1669704,Fix Released,Wrong websocket_attach when entering interactive mode,https://bugs.launchpad.net/python-zunclient/+bug/1669704,2017-04-24
+1647387,1647387,Fix Released,Support list containers in all tenants,https://bugs.launchpad.net/zun/+bug/1647387,2017-04-24
+1670199,1670199,Fix Released,Setup coverage job in gate,https://bugs.launchpad.net/python-zunclient/+bug/1670199,2017-04-24
+1670199,1670199,Fix Released,Setup coverage job in gate,https://bugs.launchpad.net/zun/+bug/1670199,2017-04-24
+1666442,1666442,Fix Released,container delete in osc functional tests does not wait for  container create to complete,https://bugs.launchpad.net/python-zunclient/+bug/1666442,2017-04-24
+1680751,1680751,Fix Committed,"The result of ""zun list"" and ""openstack appcontainer list"" are different",https://bugs.launchpad.net/zun/+bug/1680751,2017-04-24
+1671749,1671749,Fix Committed,zun attach returns Not Authorized,https://bugs.launchpad.net/zun/+bug/1671749,2017-04-24
+1683951,1683951,Fix Released,Combine tty and stdin_open in server side,https://bugs.launchpad.net/zun/+bug/1683951,2017-04-24
+1482359,1482359,Fix Released,Tosca version data type is not supported,https://bugs.launchpad.net/heat-translator/+bug/1482359,2017-04-24
+1502385,1502385,Fix Released,Do not use logging conf until implementation is complete,https://bugs.launchpad.net/heat-translator/+bug/1502385,2017-04-24
+1522217,1522217,Fix Released,Fix unit tests after the release of tosca parser 0.3.0,https://bugs.launchpad.net/heat-translator/+bug/1522217,2017-04-24
+1668343,1668343,Fix Released,spawn is not checking if volume is a FC volume,https://bugs.launchpad.net/nova-dpm/+bug/1668343,2017-04-24
+1684630,1684630,Fix Released,"ovb-fake-caserver job failing, timing out creating the Compute resource",https://bugs.launchpad.net/tripleo/+bug/1684630,2017-04-24
+1685008,1685008,Fix Committed,centos builds fail on installing python-pip,https://bugs.launchpad.net/openstack-loci/+bug/1685008,2017-04-24
+1668198,1668198,Fix Released,NFP - Add Failure handling for Process Restart Conditions,https://bugs.launchpad.net/group-based-policy/+bug/1668198,2017-04-24
+1676804,1676804,Fix Released,Fix: reference an undefined attribute of 'msg' of Exception,https://bugs.launchpad.net/karbor/+bug/1676804,2017-04-24
+1548070,1548070,Fix Released,Amphora agent fails to start in a Centos based amphora,https://bugs.launchpad.net/octavia/+bug/1548070,2017-04-23
+1578377,1578377,Fix Released,Update requirement for tosca parser 0.5.0,https://bugs.launchpad.net/heat-translator/+bug/1578377,2017-04-23
+1404420,1404420,Fix Released,TOSCA parser test fails assertEqual,https://bugs.launchpad.net/heat-translator/+bug/1404420,2017-04-23
+1382646,1382646,Fix Released,Unit test failing build randomly,https://bugs.launchpad.net/heat-translator/+bug/1382646,2017-04-23
+1326280,1326280,Fix Released,TOSCA translator is missing tests,https://bugs.launchpad.net/heat-translator/+bug/1326280,2017-04-23
+1436345,1436345,Fix Released,TOSCA Compute not handling memory unit,https://bugs.launchpad.net/heat-translator/+bug/1436345,2017-04-23
+1683009,1683009,Fix Released,Usage summary not reduce when delete error instances,https://bugs.launchpad.net/nova/+bug/1683009,2017-04-23
+1488368,1488368,Fix Released,An error occurred when enabling libvirt monitoring and creating an instance whose name including multi-byte characters.,https://bugs.launchpad.net/monasca/+bug/1488368,2017-04-22
+1425712,1425712,Fix Released,measurement-list broken with influxdb RC4,https://bugs.launchpad.net/monasca/+bug/1425712,2017-04-22
+1425711,1425711,Fix Released,metric-statistics broken with influxdb RC4,https://bugs.launchpad.net/monasca/+bug/1425711,2017-04-22
+1426565,1426565,Fix Released,monasca metric-statistics not displaying data that is there,https://bugs.launchpad.net/monasca/+bug/1426565,2017-04-22
+1684237,1684237,Fix Released,Firewall-as-a-Service (FWaaS) v2 scenario in Networking Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1684237,2017-04-22
+1685318,1685318,Fix Released,OVB jobs down due to network outage,https://bugs.launchpad.net/tripleo/+bug/1685318,2017-04-21
+1671925,1671925,Fix Released,S3 driver uses up all available buckets,https://bugs.launchpad.net/gnocchi/+bug/1671925,2017-04-21

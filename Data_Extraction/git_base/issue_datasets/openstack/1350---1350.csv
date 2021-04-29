@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1867931,1867931,Fix Released,"periodic-tripleo-ci-centos-8-scenario010-standalone-network-master deploy fails with package conflict - ""openstack-neutron-common-1:16.0.0-0.20200318094753.8c7ca77.el8.noarch conflicts""",https://bugs.launchpad.net/tripleo/+bug/1867931,2020-08-07
+1877405,1877405,Fix Released,[vmware] doesn't catch missing datastores,https://bugs.launchpad.net/cinder/+bug/1877405,2020-08-07
+1794646,1794646,Fix Released,DellEMC VNX: original volume can not be deleted on array backend if its snapshot has been used.,https://bugs.launchpad.net/cinder/+bug/1794646,2020-08-07
+1832225,1832225,Fix Released,Neutron-vpnaas unit tests broken,https://bugs.launchpad.net/neutron/+bug/1832225,2020-08-07
+1865011,1865011,Fix Released,Running concurrent backup restores results in OOM killing,https://bugs.launchpad.net/cinder/+bug/1865011,2020-08-07
+1889394,1889394,Fix Released,Undercloud deployment reports false successfully deployment but deployment was already failed with RuntimeError: wait_api_port_ready: Max retries 30 reached,https://bugs.launchpad.net/tripleo/+bug/1889394,2020-08-07
+1890080,1890080,Fix Released,leapp upgrades with kernel args is not working as expected,https://bugs.launchpad.net/tripleo/+bug/1890080,2020-08-07
+1864822,1864822,Fix Released,Openvswitch Agent - Connexion openvswitch DB Broken,https://bugs.launchpad.net/neutron/+bug/1864822,2020-08-07
+1889619,1889619,Fix Released,Validate subnet when plugging to the router don't works when plugging port,https://bugs.launchpad.net/neutron/+bug/1889619,2020-08-07
+1834045,1834045,Fix Released,Live-migration double binding doesn't work with OVN,https://bugs.launchpad.net/neutron/+bug/1834045,2020-08-07
+1834045,1834045,Fix Released,Live-migration double binding doesn't work with OVN,https://bugs.launchpad.net/networking-ovn/+bug/1834045,2020-08-07
+1867906,1867906,Fix Released,group-create-from-src doesn't work in active/active mode,https://bugs.launchpad.net/cinder/+bug/1867906,2020-08-07
+1874541,1874541,Fix Released,SolidFire driver fails when updating capabilities: ZeroDivisionError,https://bugs.launchpad.net/cinder/+bug/1874541,2020-08-07
+1880971,1880971,Fix Released,Cinder leaves volume mapped when copying fails,https://bugs.launchpad.net/cinder/+bug/1880971,2020-08-07
+1871524,1871524,Fix Released,ceph backend volume migration fails  when in the same pool,https://bugs.launchpad.net/cinder/+bug/1871524,2020-08-07
+1619246,1619246,Fix Released,Capacity filter and weigher fails when volume has no volume type,https://bugs.launchpad.net/cinder/+bug/1619246,2020-08-07
+1889640,1889640,Fix Released,Image import might result 'active' image with no data.,https://bugs.launchpad.net/glance/+bug/1889640,2020-08-07
+1639230,1639230,Fix Released,reschedule fails with ip already allocated error,https://bugs.launchpad.net/nova/+bug/1639230,2020-08-07
+1658259,1658259,Fix Released,[DOC]Add cast_rules_to_readonly to share instances,https://bugs.launchpad.net/manila/+bug/1658259,2020-08-07
+1884022,1884022,Fix Released,designate plugin is using v1 in v2 tasks,https://bugs.launchpad.net/rally/+bug/1884022,2020-08-06
+1884021,1884021,Fix Released,designate plugin designateclient.exceptions.Forbidden: forbidden (on quita),https://bugs.launchpad.net/rally/+bug/1884021,2020-08-06
+1819834,1819834,Fix Released,tripleo client failed to ssh host to ipv6 for provisioning,https://bugs.launchpad.net/tripleo/+bug/1819834,2020-08-06
+1847141,1847141,Fix Released,404 Client Error: Not Found for url: tripleo-container-image-prepare.log,https://bugs.launchpad.net/tripleo/+bug/1847141,2020-08-06
+1787910,1787910,Fix Released,OVB overcloud deploy fails on nova placement errors,https://bugs.launchpad.net/tripleo/+bug/1787910,2020-08-06
+1787910,1787910,Fix Released,OVB overcloud deploy fails on nova placement errors,https://bugs.launchpad.net/nova/+bug/1787910,2020-08-06
+1853012,1853012,Fix Released,Standalone upgrade job is failing - On ovn upgrade,https://bugs.launchpad.net/tripleo/+bug/1853012,2020-08-06
+1853183,1853183,Fix Released,undercloud upgrades on train is failing in step 1,https://bugs.launchpad.net/tripleo/+bug/1853183,2020-08-06
+1871643,1871643,Fix Released,tht : ApacheMaxRequestWorkers sets maxclients instead of maxrequestworkers,https://bugs.launchpad.net/tripleo/+bug/1871643,2020-08-06
+1676207,1676207,Fix Released,test_create_router_set_gateway_with_fixed_ip is flaky,https://bugs.launchpad.net/tempest/+bug/1676207,2020-08-06
+1809101,1809101,Fix Released,audit middleware broken for glance,https://bugs.launchpad.net/keystonemiddleware/+bug/1809101,2020-08-06
+1869776,1869776,Fix Released,Undercloud update fails on generated playbook.,https://bugs.launchpad.net/tripleo/+bug/1869776,2020-08-06
+1885637,1885637,Fix Released,tripleo-upgrade needs to update yum repos prior to yum updates for upgrade jobs.,https://bugs.launchpad.net/tripleo/+bug/1885637,2020-08-06
+1889676,1889676,Fix Released,"""stores"" can be set as property breaking multistore indication of stores where the images are present",https://bugs.launchpad.net/glance/+bug/1889676,2020-08-06
+1884174,1884174,Fix Released,create audittemplate not support strategy name,https://bugs.launchpad.net/watcher/+bug/1884174,2020-08-06
+1688620,1688620,Fix Released,NetApp cDOT driver reports migration cancelation was successful even if it wasn't,https://bugs.launchpad.net/manila/+bug/1688620,2020-08-06
+1890240,1890240,Fix Released,Docs: Broken link in  Tacker Mitaka Spec,https://bugs.launchpad.net/tacker/+bug/1890240,2020-08-06
+1886833,1886833,Fix Released,"Update fails with ""Could not find the requested service tripleo_octavia_api_tls_proxy""",https://bugs.launchpad.net/tripleo/+bug/1886833,2020-08-06
+1889666,1889666,Fix Released,'stores' property added when using image-create-via-import --stores <list>,https://bugs.launchpad.net/python-glanceclient/+bug/1889666,2020-08-05
+1885284,1885284,Fix Released,Certificate update scripts can misbehave on HA control plance,https://bugs.launchpad.net/tripleo/+bug/1885284,2020-08-05
+1883896,1883896,Fix Released,galera service has a hardcoded start timeout,https://bugs.launchpad.net/tripleo/+bug/1883896,2020-08-05
+1888489,1888489,Fix Released,[OVN Octavia Provider] octavia_tempest_plugin.tests.api.v2.test_member.MemberAPITest.test_member_batch_update fails,https://bugs.launchpad.net/neutron/+bug/1888489,2020-08-05
+1886784,1886784,Fix Released,python3 + SSL + wsgi murano api RecursionError: maximum recursion depth exceeded while calling a Python object,https://bugs.launchpad.net/murano/+bug/1886784,2020-08-05
+1890331,1890331,Fix Released,"[stable] oslo.service 2.3.2 requests eventlet 0.25.2, but upper version is 0.25.1",https://bugs.launchpad.net/neutron/+bug/1890331,2020-08-05
+1887363,1887363,Fix Released,[ovn-octavia-provider] Functional tests job fails,https://bugs.launchpad.net/neutron/+bug/1887363,2020-08-05
+1880934,1880934,Fix Released,"""rpc_response_max_timeout"" configuration variable not present in Linux Bridge agent",https://bugs.launchpad.net/neutron/+bug/1880934,2020-08-05
+1887789,1887789,Fix Released,Running tempest.api.volume.test_versions.VersionsTest.test_show_version test case failed,https://bugs.launchpad.net/tempest/+bug/1887789,2020-08-05
+1446873,1446873,Fix Released,ssync doesn't work with replication_server = true,https://bugs.launchpad.net/swift/+bug/1446873,2020-08-04
+1883302,1883302,Fix Released,container-sharder should send stat updates using replication network,https://bugs.launchpad.net/swift/+bug/1883302,2020-08-04
+1889279,1889279,Fix Released,"TASK [ceph : set jq osd percentage filter] fails with: ""error: try is not defined""",https://bugs.launchpad.net/tripleo/+bug/1889279,2020-08-04
+1889523,1889523,Fix Released,Octavia certificate passphrase appears in clear text in deployment logs,https://bugs.launchpad.net/tripleo/+bug/1889523,2020-08-04
+1888511,1888511,Fix Released,Some tempest tests are failing with floating ip quota,https://bugs.launchpad.net/tripleo/+bug/1888511,2020-08-04
+1886070,1886070,Fix Released,Barbican key manager settings not applied to DCN/Edge nodes,https://bugs.launchpad.net/tripleo/+bug/1886070,2020-08-04
+1888651,1888651,Fix Released,Connectivity during update can be lost with some version of openvswitch.,https://bugs.launchpad.net/tripleo/+bug/1888651,2020-08-04
+1889455,1889455,Fix Released,Network problems caused by incorrectly labelled securitygroup section,https://bugs.launchpad.net/kolla-ansible/+bug/1889455,2020-08-04
+1885401,1885401,Fix Released,Zun doesn't pick up cafile from keystone_auth config,https://bugs.launchpad.net/zun/+bug/1885401,2020-08-04
+1888905,1888905,Fix Released,share group snapshot failing on the LVM driver,https://bugs.launchpad.net/manila/+bug/1888905,2020-08-03
+1848941,1848941,Fix Released,IPv6 control plane support does not work with the fully routed topology (/128),https://bugs.launchpad.net/kolla-ansible/+bug/1848941,2020-08-03
+1889611,1889611,Fix Released,masakari missing deploy-containers action implementation,https://bugs.launchpad.net/kolla-ansible/+bug/1889611,2020-08-03
+1885431,1885431,Fix Released,murano-pkg-check: unit tests broken with mock 4.x,https://bugs.launchpad.net/murano/+bug/1885431,2020-08-03
+1888852,1888852,Fix Released,fluentd is configured to log to stdout,https://bugs.launchpad.net/kolla-ansible/+bug/1888852,2020-08-03
+1889357,1889357,Fix Released,Centos7 Check/Gate jobs failing with UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 2: ordinal not in range(128),https://bugs.launchpad.net/tripleo/+bug/1889357,2020-08-03
+1889524,1889524,Fix Released,periodic centos8 ovb featureset 1 baremetal master fails ironic unexpected keyword argument 'hash_function,https://bugs.launchpad.net/tripleo/+bug/1889524,2020-08-03
+1889200,1889200,Fix Released,Doc: Old links present in Tacker WSGI/HTTP API layer page,https://bugs.launchpad.net/tacker/+bug/1889200,2020-08-03
+1888471,1888471,Fix Released,Doc: Broken link found in VNF Component in Tacker,https://bugs.launchpad.net/tacker/+bug/1888471,2020-08-03
+1793259,1793259,Fix Released,sg_scan returns wrong HLU number if it's greater than 255,https://bugs.launchpad.net/nova/+bug/1793259,2020-08-03
+1837403,1837403,Fix Released,CleanableInUse exceptions when doing large parallel operations (like snapshot creates),https://bugs.launchpad.net/openstack-ansible/+bug/1837403,2020-08-02
+1859775,1859775,Fix Released,Wrong quota exceeded message for snapshot size,https://bugs.launchpad.net/manila/+bug/1859775,2020-08-01
+1889702,1889702,Fix Released,lint job fails because of some classes are still included by absolute names,https://bugs.launchpad.net/puppet-oslo/+bug/1889702,2020-08-01
+1766301,1766301,Fix Released,ironic baremetal node ownership not checked with early vif plugging,https://bugs.launchpad.net/nova/+bug/1766301,2020-08-01
+1856094,1856094,Fix Released,tripleo-firewall role needs optimization,https://bugs.launchpad.net/tripleo/+bug/1856094,2020-07-31
+1822245,1822245,Fix Released,"When editing a subnet, if the gateway ip is empty and hidden, the form cannot be submitted",https://bugs.launchpad.net/horizon/+bug/1822245,2020-07-31
+1888982,1888982,Fix Released,Ceph dashboard is not accessible while using TLS everywhere,https://bugs.launchpad.net/tripleo/+bug/1888982,2020-07-31
+1887846,1887846,Fix Released,jq: error: Could not open file /var/lib/heat-config/deployed/XXXXXX.notify.json: No such file or directory,https://bugs.launchpad.net/tripleo/+bug/1887846,2020-07-31
+1792343,1792343,Fix Released,[tripleo] rocky baremetal deployment fails with jq: error: Could not open file /var/lib/heat-config/deployed/<id>.notify.json,https://bugs.launchpad.net/tripleo/+bug/1792343,2020-07-31
+1888915,1888915,Fix Released,LVM driver fails to delete already deleted shares,https://bugs.launchpad.net/manila/+bug/1888915,2020-07-31

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1314240,1314240,Fix Released,template-validate fails when using parameters with custom_constraint and default,https://bugs.launchpad.net/heat/+bug/1314240,2014-10-16
+1294821,1294821,Fix Released,Implement root reset functionality for Couchbase,https://bugs.launchpad.net/trove/+bug/1294821,2014-10-16
+1294421,1294421,Fix Released,Admin mgmt API requires rate limiting for POSTs,https://bugs.launchpad.net/trove/+bug/1294421,2014-10-16
+1310710,1310710,Fix Released,Invalid engine server resource validation does not work with nova Noopquotadriver,https://bugs.launchpad.net/heat/+bug/1310710,2014-10-16
+1310710,1310710,Fix Committed,Invalid engine server resource validation does not work with nova Noopquotadriver,https://bugs.launchpad.net/fuel/+bug/1310710,2014-10-16
+1294369,1294369,Fix Released,Backup restore fails with ephemeral support enabled,https://bugs.launchpad.net/trove/+bug/1294369,2014-10-16
+1308812,1308812,Fix Released,Error deleting deleted stack project,https://bugs.launchpad.net/heat/+bug/1308812,2014-10-16
+1292692,1292692,Fix Released,execute_with_timeout in utils.py can throw UnknownArgumentError when timeout is passed in kwargs,https://bugs.launchpad.net/trove/+bug/1292692,2014-10-16
+1308682,1308682,Fix Released,Race in heat stack update,https://bugs.launchpad.net/heat/+bug/1308682,2014-10-16
+1292457,1292457,Fix Released,fake nova_client redefines the volumes while creating fake_nova_client,https://bugs.launchpad.net/trove/+bug/1292457,2014-10-16
+1304145,1304145,Fix Released,HOT template support not stated correctly in spec,https://bugs.launchpad.net/heat/+bug/1304145,2014-10-16
+1285157,1285157,Fix Released,Missing redis heat template,https://bugs.launchpad.net/trove/+bug/1285157,2014-10-16
+1301657,1301657,Fix Released,NotFound on deployment operation returns 500 REST response,https://bugs.launchpad.net/heat/+bug/1301657,2014-10-16
+1301311,1301311,Fix Released,Abandon stack lacks locking,https://bugs.launchpad.net/heat/+bug/1301311,2014-10-16
+1326591,1326591,Fix Released,trove-integration test are failing due to timeout,https://bugs.launchpad.net/trove/+bug/1326591,2014-10-16
+1316321,1316321,Fix Released,tests dont use datastore version,https://bugs.launchpad.net/trove/+bug/1316321,2014-10-16
+1297396,1297396,Fix Released,Nested Provider resources not found,https://bugs.launchpad.net/heat/+bug/1297396,2014-10-16
+1310785,1310785,Fix Released,Trove is not monkey patching eventlet early enough,https://bugs.launchpad.net/trove/+bug/1310785,2014-10-16
+1288586,1288586,Fix Released,common/config/generator.py does not properly handle the same option name in multiple groups,https://bugs.launchpad.net/heat/+bug/1288586,2014-10-16
+1301826,1301826,Fix Released,In-tests failing for datastore other than mysql,https://bugs.launchpad.net/trove/+bug/1301826,2014-10-16
+1270775,1270775,Fix Released,Cannot delete the Stack after UpdateReplace was failed.,https://bugs.launchpad.net/heat/+bug/1270775,2014-10-16
+1325313,1325313,Fix Released,translation not available in loguserdata.py,https://bugs.launchpad.net/heat/+bug/1325313,2014-10-16
+1295313,1295313,Fix Released,Trove GuestAgent Stop Also Stops Some Datastores,https://bugs.launchpad.net/trove/+bug/1295313,2014-10-16
+1319499,1319499,Fix Released,Deletion of stack containing server fails,https://bugs.launchpad.net/heat/+bug/1319499,2014-10-16
+1291896,1291896,Fix Released,resize-volume api is not working for mysql,https://bugs.launchpad.net/trove/+bug/1291896,2014-10-16
+1317667,1317667,Fix Released,"Parameters to ""create"" are not validated in heat-cfn-api",https://bugs.launchpad.net/heat/+bug/1317667,2014-10-16
+1212436,1212436,Fix Released,trove uses soon-to-be-deprecated first-boot scripts,https://bugs.launchpad.net/trove/+bug/1212436,2014-10-16
+1321093,1321093,Fix Released,*-tempest-dsvm-postgres-full failing on trove-manage db_sync,https://bugs.launchpad.net/trove/+bug/1321093,2014-10-16
+1280487,1280487,Fix Released,Incremental backup patch set removed restore from full backup test,https://bugs.launchpad.net/trove/+bug/1280487,2014-10-16
+1308770,1308770,Fix Released,software deployment AttributeError: _get with latest heatclient,https://bugs.launchpad.net/heat/+bug/1308770,2014-10-16
+1367947,1367947,Fix Released,pylint task runs agains default config,https://bugs.launchpad.net/sahara/+bug/1367947,2014-10-16
+1294800,1294800,Fix Released,puppet-sahara still uses savanna internally,https://bugs.launchpad.net/sahara/+bug/1294800,2014-10-16
+1369851,1369851,Fix Released,Add java checkstyle for hadoop-swiftfs,https://bugs.launchpad.net/sahara/+bug/1369851,2014-10-16
+1350063,1350063,Fix Released,[DOC] Services missing in Overview/Details,https://bugs.launchpad.net/sahara/+bug/1350063,2014-10-16
+1374550,1374550,Fix Released,[DOC] feature matrix for spark is outdated,https://bugs.launchpad.net/sahara/+bug/1374550,2014-10-16
+1373593,1373593,Fix Released,[doc] Update Fedora image for Juno release,https://bugs.launchpad.net/sahara/+bug/1373593,2014-10-16
+1373022,1373022,Fix Released,[DOC] EDP description references processes specific for Vanilla plugin,https://bugs.launchpad.net/sahara/+bug/1373022,2014-10-16
+1372504,1372504,Fix Released,job_workflow_postfix config descriptions uses hardcoded 'hadoop' hdfs user,https://bugs.launchpad.net/sahara/+bug/1372504,2014-10-16
+1371760,1371760,Fix Released,"Description in heat template reads ""Hadoop Cluster by Sahara""",https://bugs.launchpad.net/sahara/+bug/1371760,2014-10-16
+1370272,1370272,Fix Released,DB migration descriptions are wrong,https://bugs.launchpad.net/sahara/+bug/1370272,2014-10-16
+1367959,1367959,Fix Released,pylintrc can't contain duplicate keys,https://bugs.launchpad.net/sahara/+bug/1367959,2014-10-16
+1367723,1367723,Fix Released,All CDH services running on all instances in ubuntu,https://bugs.launchpad.net/sahara/+bug/1367723,2014-10-16
+1366958,1366958,Fix Released,pep8 checks from trunk failed,https://bugs.launchpad.net/sahara/+bug/1366958,2014-10-16
+1365071,1365071,Fix Released,[doc] Need to add 'libxslt-dev' to 1 step in Sahara UI Dev Environment Setup,https://bugs.launchpad.net/sahara/+bug/1365071,2014-10-16
+1375773,1375773,Fix Released,[DOC] Add links for spark images,https://bugs.launchpad.net/sahara/+bug/1375773,2014-10-16
+1375278,1375278,Fix Released,[DOC] Installation instructions for RDO are out of date,https://bugs.launchpad.net/sahara/+bug/1375278,2014-10-16
+1373529,1373529,Fix Released,[DOC] Heat engine feature support matrix on features page is outdated,https://bugs.launchpad.net/sahara/+bug/1373529,2014-10-16
+1373066,1373066,Fix Released,[DOC] Hadoop-Swift page is outdated,https://bugs.launchpad.net/sahara/+bug/1373066,2014-10-16
+1372711,1372711,Fix Released,[CDH] Plugin resources missing from manifest,https://bugs.launchpad.net/sahara/+bug/1372711,2014-10-16
+1372561,1372561,Fix Released,[DOC] Sahara still points on answers.launchpad.net,https://bugs.launchpad.net/sahara/+bug/1372561,2014-10-16
+1372485,1372485,Fix Released,[DOC] Missing documentation for Sahara distributed mode,https://bugs.launchpad.net/sahara/+bug/1372485,2014-10-16
+1371426,1371426,Fix Released,[DOC] Add cloudera plugin to features matrix,https://bugs.launchpad.net/sahara/+bug/1371426,2014-10-16
+1371357,1371357,Fix Released,[DOC] UI installation guide is outdated,https://bugs.launchpad.net/sahara/+bug/1371357,2014-10-16
+1368852,1368852,Fix Released,Fix the localrc file for enabling swift services.,https://bugs.launchpad.net/sahara/+bug/1368852,2014-10-16
+1365057,1365057,Fix Released,[DOC] Docs with Sahara-Dashboard needs to be updated,https://bugs.launchpad.net/sahara/+bug/1365057,2014-10-16
+1363029,1363029,Fix Released,Periodic task terminate_unneeded_clusters fails on distributed version,https://bugs.launchpad.net/sahara/+bug/1363029,2014-10-16
+1360313,1360313,Fix Released,CDH scaling fails with connection refused,https://bugs.launchpad.net/sahara/+bug/1360313,2014-10-16
+1291029,1291029,Fix Released,[HDP] Default value for HDP plugin configuration property 'global/namenode_opt_maxnewsize' should be changed to 200m,https://bugs.launchpad.net/sahara/+bug/1291029,2014-10-16
+1370508,1370508,Fix Released,AlreadyExists exception blocks creation tables in HBase,https://bugs.launchpad.net/ceilometer/+bug/1370508,2014-10-16
+1260835,1260835,Fix Released,[HDP] Only one ZOOKEEPER server is allowed in a cluster,https://bugs.launchpad.net/sahara/+bug/1260835,2014-10-16
+1365613,1365613,Fix Released,stable/icehouse test listing fails with testtools>=0.9.39,https://bugs.launchpad.net/ceilometer/+bug/1365613,2014-10-16
+1366941,1366941,Fix Released,[HEAT] Cluster creation failed,https://bugs.launchpad.net/sahara/+bug/1366941,2014-10-16
+1356000,1356000,Fix Released,sqlalchemy orm has an overhead associated with it,https://bugs.launchpad.net/ceilometer/+bug/1356000,2014-10-16
+1364659,1364659,Fix Released,[Sahara][HEAT engine] It's impossible to assign 'default' security group to node group,https://bugs.launchpad.net/horizon/+bug/1364659,2014-10-16
+1364659,1364659,Fix Released,[Sahara][HEAT engine] It's impossible to assign 'default' security group to node group,https://bugs.launchpad.net/sahara/+bug/1364659,2014-10-16
+1373427,1373427,Fix Released,Compute agent logs far too verbose,https://bugs.launchpad.net/ceilometer/+bug/1373427,2014-10-16
+1364426,1364426,Fix Released,Set rollback info failed if you use heat engine,https://bugs.launchpad.net/sahara/+bug/1364426,2014-10-16
+1373115,1373115,Fix Released,api unit tests using deprecated keystone middleware,https://bugs.launchpad.net/ceilometer/+bug/1373115,2014-10-16
+1357512,1357512,Fix Released,Plugin SPI contains a lot of EDP-engine specific methods,https://bugs.launchpad.net/sahara/+bug/1357512,2014-10-16
+1371373,1371373,Fix Released,missing description of the pipeline discovery  section in the doc,https://bugs.launchpad.net/ceilometer/+bug/1371373,2014-10-16
+1371012,1371012,Fix Released,Sahara doesn't work with keystonemiddleware==1.0.0,https://bugs.launchpad.net/sahara/+bug/1371012,2014-10-16
+1370476,1370476,Fix Released,Rename devstack config filename to local.conf in docs,https://bugs.launchpad.net/ceilometer/+bug/1370476,2014-10-16
+1370298,1370298,Fix Released,Insecure temp file usage in vanilla plugin,https://bugs.launchpad.net/sahara/+bug/1370298,2014-10-16
+1370030,1370030,Fix Released,configuration.rst lacks a section for api configuration options,https://bugs.launchpad.net/ceilometer/+bug/1370030,2014-10-16
+1366914,1366914,Fix Released,PEP8 tests broken,https://bugs.launchpad.net/sahara/+bug/1366914,2014-10-16

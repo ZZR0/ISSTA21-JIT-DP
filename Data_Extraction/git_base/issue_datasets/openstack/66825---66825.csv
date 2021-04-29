@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1211648,1211648,Fix Released,tox -epy27 succeeds when no tests are run,https://bugs.launchpad.net/nova/+bug/1211648,2015-04-30
+1414708,1414708,Fix Released,libvirt unit tests are failing if no real libvirt installed,https://bugs.launchpad.net/nova/+bug/1414708,2015-04-30
+1414480,1414480,Fix Released,Cell type in “nova-manage cell create” is different from what is used in nova.conf,https://bugs.launchpad.net/nova/+bug/1414480,2015-04-30
+1408529,1408529,Fix Released,"nova boot vm with '--nic net-id=xxxx, v4-fixed-ip=xxx' failed",https://bugs.launchpad.net/nova/+bug/1408529,2015-04-30
+1408529,1408529,Fix Released,"nova boot vm with '--nic net-id=xxxx, v4-fixed-ip=xxx' failed",https://bugs.launchpad.net/python-neutronclient/+bug/1408529,2015-04-30
+1408326,1408326,Fix Released,Server booted to a server group stucks in scheduling state if the policy filter is not configured,https://bugs.launchpad.net/nova/+bug/1408326,2015-04-30
+1404390,1404390,Fix Released,Python 2.7.9 breaks nova.tests.unit.test_wsgi.TestWSGIServerWithSSL.test_app_using_ipv6_and_ssl,https://bugs.launchpad.net/nova/+bug/1404390,2015-04-30
+1401486,1401486,Fix Released,Incorrect initialisation of tests for extended_availability_zones V21 API extension,https://bugs.launchpad.net/nova/+bug/1401486,2015-04-30
+1400764,1400764,Fix Released,Compute manager NotFound exception inconsistent,https://bugs.launchpad.net/nova/+bug/1400764,2015-04-30
+1399127,1399127,Fix Released,Hyper-V: copy_vm_console_logs does not behave as expected,https://bugs.launchpad.net/nova/+bug/1399127,2015-04-30
+1391694,1391694,Fix Released,Warning message about missing policy.d folder during Sahara start,https://bugs.launchpad.net/sahara/+bug/1391694,2015-04-30
+1391694,1391694,Fix Released,Warning message about missing policy.d folder during Sahara start,https://bugs.launchpad.net/nova/+bug/1391694,2015-04-30
+1380513,1380513,Fix Released,Numa related exception didn't process by v2.1 api,https://bugs.launchpad.net/nova/+bug/1380513,2015-04-30
+1378395,1378395,Fix Released,Slow MySQL queries with lots of deleted instances,https://bugs.launchpad.net/nova/+bug/1378395,2015-04-30
+1377958,1377958,Fix Released,image to local block device mapping doesnt work but accepted by the API,https://bugs.launchpad.net/nova/+bug/1377958,2015-04-30
+1373741,1373741,Fix Released,"The v2.1 API links of ""list versions"" API doesn't show v2.1",https://bugs.launchpad.net/nova/+bug/1373741,2015-04-30
+1372812,1372812,Fix Released,instance task status keep for long time when reboot,https://bugs.launchpad.net/nova/+bug/1372812,2015-04-30
+1372436,1372436,Fix Released,check the value of the configuration item num_vbd_unplug_retries,https://bugs.launchpad.net/nova/+bug/1372436,2015-04-30
+1367786,1367786,Fix Released,Hyper-V driver should log a clear error message during migrations for remote node permissions errors,https://bugs.launchpad.net/nova/+bug/1367786,2015-04-30
+1195884,1195884,Fix Released,resume guests on libvirt host reboot fails for instances created from multi-part image,https://bugs.launchpad.net/nova/+bug/1195884,2015-04-30
+1415333,1415333,Fix Released,Memnode element is not supported on all versions of libvirt,https://bugs.launchpad.net/nova/+bug/1415333,2015-04-30
+1412547,1412547,Fix Released,Additional properties are not allowed ('block_device_mapping_v2' was unexpected),https://bugs.launchpad.net/nova/+bug/1412547,2015-04-30
+1410924,1410924,Fix Released,instructions for rebuilding API samples are wrong,https://bugs.launchpad.net/nova/+bug/1410924,2015-04-30
+1410431,1410431,Fix Released,GET details REST API next link missing 'details' for flavors and images,https://bugs.launchpad.net/nova/+bug/1410431,2015-04-30
+1409258,1409258,Fix Released,Version number is not reported properly by the Hyper-V driver,https://bugs.launchpad.net/nova/+bug/1409258,2015-04-30
+1408992,1408992,Fix Released,nova-manage shell ipython failed,https://bugs.launchpad.net/nova/+bug/1408992,2015-04-30
+1408070,1408070,Fix Released,Instance crashes when guest topology is being requested,https://bugs.launchpad.net/nova/+bug/1408070,2015-04-30
+1404801,1404801,Fix Released,Unshelve instance not working if instance is boot from volume,https://bugs.launchpad.net/nova/+bug/1404801,2015-04-30
+1404196,1404196,Fix Released,many codepaths do not pass image_meta to libvirt blockinfo APIs,https://bugs.launchpad.net/nova/+bug/1404196,2015-04-30
+1403544,1403544,Fix Released,Empty string in key_name treated as None but gets into DB,https://bugs.launchpad.net/nova/+bug/1403544,2015-04-30
+1403312,1403312,Fix Released,when booting multiple instances at once nova names are too long,https://bugs.launchpad.net/nova/+bug/1403312,2015-04-30
+1402403,1402403,Fix Released,Hyper-V: wrong constant name causes volume attach to fail,https://bugs.launchpad.net/nova/+bug/1402403,2015-04-30
+1401171,1401171,Fix Released,Instance creation fails with with HTTP 500 - IndexError: list index out of range,https://bugs.launchpad.net/nova/+bug/1401171,2015-04-30
+1400945,1400945,Fix Released,User quota could be set greater than tenant quota,https://bugs.launchpad.net/nova/+bug/1400945,2015-04-30
+1400315,1400315,Fix Released,Add hyper-v timer enlightenments for windows guests,https://bugs.launchpad.net/nova/+bug/1400315,2015-04-30
+1398826,1398826,Fix Released,xenapi: upload failures causing image to go active,https://bugs.launchpad.net/nova/+bug/1398826,2015-04-30
+1395063,1395063,Fix Released,Hyper-V won't disconnect iSCSI targets created by tgt,https://bugs.launchpad.net/nova/+bug/1395063,2015-04-30
+1394268,1394268,Fix Released,wrong error message when no IP addresses are available,https://bugs.launchpad.net/nova/+bug/1394268,2015-04-30
+1375480,1375480,Fix Released,xenapi: migrate does not work with volume backed instance,https://bugs.launchpad.net/nova/+bug/1375480,2015-04-30
+1369414,1369414,Fix Released,Set socket options in correct way,https://bugs.launchpad.net/nova/+bug/1369414,2015-04-30
+1365887,1365887,Fix Released,Metadata filtering is broken,https://bugs.launchpad.net/nova/+bug/1365887,2015-04-30
+1364758,1364758,Fix Released,Metadata filtering logic too tightly coupled with other code,https://bugs.launchpad.net/nova/+bug/1364758,2015-04-30
+1362075,1362075,Fix Released,Live migration fails on Hyper-V when boot from volume is used,https://bugs.launchpad.net/nova/+bug/1362075,2015-04-30
+1309753,1309753,Fix Released,VMware: datastore_regex not used while sending disk stats,https://bugs.launchpad.net/nova/+bug/1309753,2015-04-30
+1417678,1417678,Fix Released,TestRemoteInstanceObject randomly failing,https://bugs.launchpad.net/nova/+bug/1417678,2015-04-30
+1417348,1417348,Fix Released,swap_volume calls DriverBlockDevice save with wrong parameters,https://bugs.launchpad.net/nova/+bug/1417348,2015-04-30
+1416321,1416321,Fix Released,Attempt to boot from volume - no image supplied,https://bugs.launchpad.net/tripleo/+bug/1416321,2015-04-30
+1416321,1416321,Fix Released,Attempt to boot from volume - no image supplied,https://bugs.launchpad.net/nova/+bug/1416321,2015-04-30
+1415835,1415835,Fix Released,VM boot is broken with providing port-id from Neutron,https://bugs.launchpad.net/nova/+bug/1415835,2015-04-30
+1414965,1414965,Fix Released,Hyper-V: instance snapshot fails,https://bugs.launchpad.net/nova/+bug/1414965,2015-04-30
+1412742,1412742,Fix Released,tests randomly hang in oslo.messaging fake driver,https://bugs.launchpad.net/nova/+bug/1412742,2015-04-30
+1410622,1410622,Fix Released,nova is still broken with boto==2.35*,https://bugs.launchpad.net/nova/+bug/1410622,2015-04-30
+1410310,1410310,Fix Released,'headroom' KeyError while creating instance,https://bugs.launchpad.net/nova/+bug/1410310,2015-04-30
+1407736,1407736,Fix Released,python unit test jobs failing due to subunit log being too big,https://bugs.launchpad.net/nova/+bug/1407736,2015-04-30
+1407024,1407024,Fix Released,pep8 H302 failing on stable/juno with latest hacking,https://bugs.launchpad.net/nova/+bug/1407024,2015-04-30
+1404839,1404839,Fix Released,NUMA topology from image meta data is bugged,https://bugs.launchpad.net/nova/+bug/1404839,2015-04-30
+1400037,1400037,Fix Released,Launching an instance with muliple interfaces attached to same network by using --net-id fails,https://bugs.launchpad.net/nova/+bug/1400037,2015-04-30
+1375531,1375531,Fix Released,swap_volume does not save changes made in _connect_volume,https://bugs.launchpad.net/nova/+bug/1375531,2015-04-30
+1372108,1372108,Fix Released,Attaching LVM encrypted volumes has problems with other locales than english,https://bugs.launchpad.net/nova/+bug/1372108,2015-04-30
+1266262,1266262,Fix Released,creating a large ext3 ephemeral disk filesystem is much slower than ext4,https://bugs.launchpad.net/nova/+bug/1266262,2015-04-30
+1266262,1266262,Fix Released,creating a large ext3 ephemeral disk filesystem is much slower than ext4,https://bugs.launchpad.net/tripleo/+bug/1266262,2015-04-30
+1415461,1415461,Fix Released,VMware: unable to launch instance when using NSXv,https://bugs.launchpad.net/nova/+bug/1415461,2015-04-30
+1410626,1410626,Fix Released,AttributeError: 'module' object has no attribute 'LibvirtDriver',https://bugs.launchpad.net/nova/+bug/1410626,2015-04-30
+1408987,1408987,Fix Released,tempest failing with boto==2.35.0,https://bugs.launchpad.net/nova/+bug/1408987,2015-04-30
+1408613,1408613,Fix Released,VMware: snapshoting a VM with ephemeral disk attached creates wrong image,https://bugs.launchpad.net/nova/+bug/1408613,2015-04-30
+1402813,1402813,Fix Released,https://review.openstack.org/#/c/91722 breaks icehouse->juno live migration,https://bugs.launchpad.net/nova/+bug/1402813,2015-04-30
+1402751,1402751,Fix Released,"gate-nova-python27 fails with ""TypeError: 'SetuptoolsVersion' object does not support indexing"" after setuptools 8",https://bugs.launchpad.net/nova/+bug/1402751,2015-04-30
+1374000,1374000,Fix Released,VMWare: file writer class uses unsafe SSL connection,https://bugs.launchpad.net/nova/+bug/1374000,2015-04-30
+1376933,1376933,Fix Released,_poll_unconfirmed_resize timing window causes instance to stay in verify_resize state forever,https://bugs.launchpad.net/nova/+bug/1376933,2015-04-30
+1376651,1376651,Fix Released,Enforce the minimum required libvirt in nova,https://bugs.launchpad.net/nova/+bug/1376651,2015-04-30
+1375467,1375467,Fix Released,db deadlock on _instance_update(),https://bugs.launchpad.net/nova/+bug/1375467,2015-04-30
+1375379,1375379,Fix Released,console: wrong check when verify the server response,https://bugs.launchpad.net/nova/+bug/1375379,2015-04-30
+1371406,1371406,Fix Released,should error when unshelve an volume backed instance which the image was deleted,https://bugs.launchpad.net/nova/+bug/1371406,2015-04-30
+1363901,1363901,Fix Released,HTTP 500 is returned when using an in-used fixed ip to attach interface,https://bugs.launchpad.net/nova/+bug/1363901,2015-04-30
+1363326,1363326,Fix Released,Error retries in _allocate_network,https://bugs.launchpad.net/nova/+bug/1363326,2015-04-30

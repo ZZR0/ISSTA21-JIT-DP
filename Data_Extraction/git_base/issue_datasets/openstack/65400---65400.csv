@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1440896,1440896,Fix Released,None DHCP Provider does not work with agent driver,https://bugs.launchpad.net/ironic/+bug/1440896,2015-04-30
+1375332,1375332,Fix Released,Recon does not sum up every policy's amount,https://bugs.launchpad.net/swift/+bug/1375332,2015-04-30
+1438546,1438546,Fix Released,ilo driver inspection requires extra parameters,https://bugs.launchpad.net/ironic/+bug/1438546,2015-04-30
+1329785,1329785,Fix Released,swift-recon object auditor type error,https://bugs.launchpad.net/swift/+bug/1329785,2015-04-30
+1438478,1438478,Fix Released,Fix backwards compatibility,https://bugs.launchpad.net/ironic/+bug/1438478,2015-04-30
+1425679,1425679,Fix Released,swift-object-info should try harder on tombstones,https://bugs.launchpad.net/swift/+bug/1425679,2015-04-30
+1438166,1438166,Fix Released,DRAC driver throws exception if a reboot is requested in powered off state,https://bugs.launchpad.net/ironic/+bug/1438166,2015-04-30
+667956,667956,Fix Released,chunked transfer client disconnect causes unhandled value error in object server,https://bugs.launchpad.net/swift/+bug/667956,2015-04-30
+1436353,1436353,Fix Released,Subsequent deploys after deploy using whole disk image fails for iscsi_ilo driver,https://bugs.launchpad.net/ironic/+bug/1436353,2015-04-30
+1435959,1435959,Fix Released,rebuild fails with ilo* drivers,https://bugs.launchpad.net/ironic/+bug/1435959,2015-04-30
+1421425,1421425,Fix Released,ssync fails to replicate deletes,https://bugs.launchpad.net/swift/+bug/1421425,2015-04-30
+1435605,1435605,Fix Released,Nova cannot remove instance uuid from node during cleaning,https://bugs.launchpad.net/ironic/+bug/1435605,2015-04-30
+1435357,1435357,Fix Released,pxe drivers deploy fails in uefi boot mode for partition images,https://bugs.launchpad.net/ironic/+bug/1435357,2015-04-30
+1437442,1437442,Fix Released,v1 in the API url seems to be a placeholder,https://bugs.launchpad.net/swift/+bug/1437442,2015-04-30
+1434852,1434852,Fix Released,Node deployment when dhcp_provider=none is broken,https://bugs.launchpad.net/ironic/+bug/1434852,2015-04-30
+1433727,1433727,Fix Released,"partial upgrade not possible, 'reason': u'Unknown argument: ""configdrive"" (HTTP 400)'",https://bugs.launchpad.net/ironic/+bug/1433727,2015-04-30
+1432498,1432498,Fix Released,Whole disk image feature is broken in UEFI environment for pxe drivers,https://bugs.launchpad.net/ironic/+bug/1432498,2015-04-30
+1418327,1418327,Fix Released,pxe_ilo and iscsi_ilo driver sets capabilities:boot_mode  in node property if there is none,https://bugs.launchpad.net/ironic/+bug/1418327,2015-04-30
+1432918,1432918,Fix Released,pxe deploy with agent ramdisk fails on localboot,https://bugs.launchpad.net/ironic/+bug/1432918,2015-04-30
+1422723,1422723,Fix Released,Ironic sets instance as active even if bootloader installation fails when boot_option is 'local',https://bugs.launchpad.net/diskimage-builder/+bug/1422723,2015-04-30
+1422723,1422723,Fix Released,Ironic sets instance as active even if bootloader installation fails when boot_option is 'local',https://bugs.launchpad.net/ironic/+bug/1422723,2015-04-30
+1432097,1432097,Fix Released,ilo_iscsi driver do not validate 'boot_option' in properties['capabilities'] of node,https://bugs.launchpad.net/ironic/+bug/1432097,2015-04-30
+1430896,1430896,Fix Released,JSONDecodeError when trying to install boot loader on an image with no grub,https://bugs.launchpad.net/ironic/+bug/1430896,2015-04-30
+1429750,1429750,Fix Released,Fix wrong log output in ironic/ironic/conductor/manager.py,https://bugs.launchpad.net/ironic/+bug/1429750,2015-04-30
+1428199,1428199,Fix Released,DHCP options are not updated correctly during AgentDeploy's take_over,https://bugs.launchpad.net/ironic/+bug/1428199,2015-04-30
+1430115,1430115,Fix Released,keystone_authtoken options not present in sample config file,https://bugs.launchpad.net/ironic/+bug/1430115,2015-04-30
+1427953,1427953,Fix Released,Missing the tftp mapfile configuration in install-guide,https://bugs.launchpad.net/ironic/+bug/1427953,2015-04-30
+1426546,1426546,Fix Released,IPA standalone mode option is not settable via Kernel cmdline,https://bugs.launchpad.net/ironic/+bug/1426546,2015-04-30
+1426239,1426239,Fix Released,"Fix typo in ""Enabling Drivers""",https://bugs.launchpad.net/ironic/+bug/1426239,2015-04-30
+1420210,1420210,Fix Released,Ilo drivers doesn't support to communicate to iLO via REST API,https://bugs.launchpad.net/ironic/+bug/1420210,2015-04-30
+1418804,1418804,Fix Released,console process will not shutdown when the node is deleted,https://bugs.launchpad.net/ironic/+bug/1418804,2015-04-30
+1418659,1418659,Fix Released,subnet creation step not documented in the installation guide,https://bugs.launchpad.net/ironic/+bug/1418659,2015-04-30
+1417837,1417837,Fix Released,wrong argument value for work_on_disk() in unit test,https://bugs.launchpad.net/ironic/+bug/1417837,2015-04-30
+1416421,1416421,Fix Released,ilo driver tests doesn't use proliantutils module if available in virtual environment,https://bugs.launchpad.net/ironic/+bug/1416421,2015-04-30
+1408080,1408080,Fix Released,IPA deploy functions do not return results properly,https://bugs.launchpad.net/ironic/+bug/1408080,2015-04-30
+1402019,1402019,Fix Released,ilo_deploy driver has poor test coverage for continue_deploy,https://bugs.launchpad.net/ironic/+bug/1402019,2015-04-30
+1400342,1400342,Fix Released,Deploy interface of IPA driver does not return required properties,https://bugs.launchpad.net/ironic/+bug/1400342,2015-04-30
+1383432,1383432,Fix Released,default IPMI retry timeout is too long,https://bugs.launchpad.net/ironic/+bug/1383432,2015-04-30
+1432860,1432860,Fix Released,inspect_*_at fields present in responses to unversioned request,https://bugs.launchpad.net/ironic/+bug/1432860,2015-04-30
+1431999,1431999,Fix Released,discoverd incorrectly reports False from validate when disabled,https://bugs.launchpad.net/ironic/+bug/1431999,2015-04-30
+1427597,1427597,Fix Released,destroy_port fails to delete the port even if the node is locked by the same process.,https://bugs.launchpad.net/ironic/+bug/1427597,2015-04-30
+1420981,1420981,Fix Released,Agent does not provide enough information to troubleshoot failed image downloads,https://bugs.launchpad.net/ironic/+bug/1420981,2015-04-30
+1418474,1418474,Fix Released,Conductor shutdown always triggers deregistration,https://bugs.launchpad.net/ironic/+bug/1418474,2015-04-30
+1417954,1417954,Fix Released,invalid value for enabled_drivers does not prevent conductor from starting,https://bugs.launchpad.net/ironic/+bug/1417954,2015-04-30
+1416298,1416298,Fix Released,Failed to create the password file during sync power state,https://bugs.launchpad.net/ironic/+bug/1416298,2015-04-30
+1432093,1432093,Fix Released,Instance tear down fail with KeyError: 'is_whole_disk_image',https://bugs.launchpad.net/ironic/+bug/1432093,2015-04-30
+1429208,1429208,Fix Released,continuing deploy log message contains config_drive contents,https://bugs.launchpad.net/ironic/+bug/1429208,2015-04-30
+1424926,1424926,Fix Released,Support 'latest' as a version for X-OpenStack-Ironic-API-Version,https://bugs.launchpad.net/ironic/+bug/1424926,2015-04-30
+1422721,1422721,Fix Released,Instances provisioned with boot_option as 'local' doesn't boot,https://bugs.launchpad.net/ironic/+bug/1422721,2015-04-30
+1421370,1421370,Fix Released,_do_takeover not taking node provision state into account,https://bugs.launchpad.net/ironic/+bug/1421370,2015-04-30
+1174153,1174153,Fix Released,data from previous tenants accessible with nova baremetal,https://bugs.launchpad.net/nova/+bug/1174153,2015-04-30
+1174153,1174153,Fix Released,data from previous tenants accessible with nova baremetal,https://bugs.launchpad.net/ironic/+bug/1174153,2015-04-30
+1421006,1421006,Fix Released,agent_ssh tempest job failing with ImageDownloadError,https://bugs.launchpad.net/ironic/+bug/1421006,2015-04-30
+1418833,1418833,Fix Released,check-tempest-dsvm-ironic-agent_ssh fails due to ConfigDriveWriteError,https://bugs.launchpad.net/ironic/+bug/1418833,2015-04-30
+1417307,1417307,Fix Released,verify_iscsi_connection causes 'No such file or directory'...,https://bugs.launchpad.net/ironic/+bug/1417307,2015-04-30
+1415934,1415934,Fix Released,post_get_test_node returns conductor_affinity attribute that is not exposed in API,https://bugs.launchpad.net/ironic/+bug/1415934,2015-04-30
+1415017,1415017,Fix Released,failed deploy undionly.kpxe then can't get ipxe script boot.ipxe,https://bugs.launchpad.net/ironic/+bug/1415017,2015-04-30
+1404362,1404362,Fix Released,IPA carrying legacy code,https://bugs.launchpad.net/ironic/+bug/1404362,2015-04-30
+1414526,1414526,Fix Released,function docstring of ilo.deploy.__get_boot_iso_object_name is incorrect,https://bugs.launchpad.net/ironic/+bug/1414526,2015-04-30
+1412269,1412269,Fix Released,IloPXEDeploy.validate() is redendant,https://bugs.launchpad.net/ironic/+bug/1412269,2015-04-30
+1411488,1411488,Fix Released,iboot power driver: unbound variable error,https://bugs.launchpad.net/ironic/+bug/1411488,2015-04-30
+1411241,1411241,Fix Released,Deploying Ironic with Devstack doc should be updated to use local.conf,https://bugs.launchpad.net/ironic/+bug/1411241,2015-04-30
+1410372,1410372,Fix Released,IPA error classes should all inherit from RESTError class,https://bugs.launchpad.net/ironic/+bug/1410372,2015-04-30
+1408879,1408879,Fix Released,etc/ironic/ironic.conf.sample is not updated as of Jan. 9th 2015,https://bugs.launchpad.net/ironic/+bug/1408879,2015-04-30
+1408817,1408817,Fix Released,IPA clean up how Error classes set details,https://bugs.launchpad.net/ironic/+bug/1408817,2015-04-30
+1408813,1408813,Fix Released,some IPA Error classes (eg LookupAgentIPError's) __init__ incorrectly calling super(),https://bugs.launchpad.net/ironic/+bug/1408813,2015-04-30
+1394975,1394975,Fix Released,"Fix typo in ""Bare Metal Service Installation Guide""",https://bugs.launchpad.net/ironic/+bug/1394975,2015-04-30
+1394470,1394470,Fix Released,VendorInterface.validate() not regard 'method' as a mandatory argument,https://bugs.launchpad.net/ironic/+bug/1394470,2015-04-30
+1386978,1386978,Fix Released,SSH driver failure logging does not contain actual error,https://bugs.launchpad.net/ironic/+bug/1386978,2015-04-30
+1286374,1286374,Fix Released,deploy error logging should be improved,https://bugs.launchpad.net/ironic/+bug/1286374,2015-04-30
+1413825,1413825,Fix Released,Agent driver fails with Glance swift_store_multiple_containers_seed,https://bugs.launchpad.net/ironic/+bug/1413825,2015-04-30
+1413296,1413296,Fix Released,Deployment doesn't start if the node is powered on,https://bugs.launchpad.net/ironic/+bug/1413296,2015-04-30
+1412238,1412238,Fix Released,region missing in endpoint selection,https://bugs.launchpad.net/ironic/+bug/1412238,2015-04-30
+1411002,1411002,Fix Released,Hard coded block size may not optimal for all environments,https://bugs.launchpad.net/ironic/+bug/1411002,2015-04-30
+1410468,1410468,Fix Released,Requests dependency not in requirements.txt,https://bugs.launchpad.net/ironic/+bug/1410468,2015-04-30

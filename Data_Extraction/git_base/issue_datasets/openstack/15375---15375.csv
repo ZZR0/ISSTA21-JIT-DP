@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1747100,1747100,Fix Released,Remove network type check while validating rescuing network in rescue.validate(),https://bugs.launchpad.net/ironic/+bug/1747100,2018-02-08
+1746849,1746849,Fix Released,conductor.utils.node_power_action() doesn't always use timeout,https://bugs.launchpad.net/ironic/+bug/1746849,2018-02-08
+1744332,1744332,Fix Released,Impossible to disable flat network interface without manually setting default_network_interface,https://bugs.launchpad.net/ironic/+bug/1744332,2018-02-08
+1643995,1643995,Fix Released,"ironic can't find nodes whose name ends in "".<mimetype>""",https://bugs.launchpad.net/ironic/+bug/1643995,2018-02-08
+1734875,1734875,Fix Released,openshift gates fail with 403 Forbidden when downloading OpenShift binaries,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1734875,2018-02-08
+1730644,1730644,Fix Released,EEXIST when kubelet triggers retry of ADD request,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1730644,2018-02-08
+1739014,1739014,Fix Released,CNI daemon doesn't wait for port to become ACTIVE before returning to CNI,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1739014,2018-02-08
+1742757,1742757,Fix Released,Can't deploy just kubelet in a multi node devstack environment,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1742757,2018-02-08
+1747058,1747058,Fix Released,Kuryr reports BrokenPipeError errors in kubelet logs when running containerized,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1747058,2018-02-08
+1695969,1695969,Fix Committed,Bifrost fails to install on current Centos7,https://bugs.launchpad.net/bifrost/+bug/1695969,2018-02-08
+1742957,1742957,Fix Committed,[RFE] Provide more metadata versions in configdrive,https://bugs.launchpad.net/bifrost/+bug/1742957,2018-02-08
+1747349,1747349,Fix Released,Deployment fails on minimal ubuntu xenial when no VENV used and keystone enabled,https://bugs.launchpad.net/bifrost/+bug/1747349,2018-02-08
+1743969,1743969,Fix Released,Access of blob object with incorrect artifact_type url,https://bugs.launchpad.net/glare/+bug/1743969,2018-02-08
+1715790,1715790,Fix Released,IPA files to detect physical memory on systems without dmidecode,https://bugs.launchpad.net/ironic-python-agent/+bug/1715790,2018-02-08
+1727913,1727913,Fix Released,Add manageable server information into metadata,https://bugs.launchpad.net/mogan/+bug/1727913,2018-02-08
+1748104,1748104,Fix Committed,Support md5 of message body,https://bugs.launchpad.net/zaqar/+bug/1748104,2018-02-08
+1677380,1677380,Fix Released,Swift Authorization Failure in tempest job,https://bugs.launchpad.net/congress/+bug/1677380,2018-02-08
+1734894,1734894,Fix Released,Could not find or access ovs-dpdkctl.sh during deploy,https://bugs.launchpad.net/kolla-ansible/+bug/1734894,2018-02-08
+1714483,1714483,Fix Released,gnocchiclient interface change causes errors,https://bugs.launchpad.net/ceilometer/+bug/1714483,2018-02-08
+1715528,1715528,Fix Released,Remove class PublisherBase,https://bugs.launchpad.net/ceilometer/+bug/1715528,2018-02-08
+1715551,1715551,Fix Released,Remove class FileDispatcher,https://bugs.launchpad.net/ceilometer/+bug/1715551,2018-02-08
+1715855,1715855,Fix Released,missing-admin-role-for-gnocchi,https://bugs.launchpad.net/ceilometer/+bug/1715855,2018-02-08
+1716678,1716678,Fix Released,can't call agent manager,https://bugs.launchpad.net/ceilometer/+bug/1716678,2018-02-08
+1707713,1707713,Fix Released,Ceilometer backend should default to Gnocchi in DevStack,https://bugs.launchpad.net/ceilometer/+bug/1707713,2018-02-08
+1700639,1700639,Fix Released,duplicate filtering pollsters,https://bugs.launchpad.net/ceilometer/+bug/1700639,2018-02-08
+1720120,1720120,Fix Released,ImportError: No module named gnocchiclient,https://bugs.launchpad.net/ceilometer/+bug/1720120,2018-02-08
+1726458,1726458,Fix Released,inconsistent RadosGW metric names,https://bugs.launchpad.net/ceilometer/+bug/1726458,2018-02-08
+1728014,1728014,Fix Released,Data processing and pipelines in ceilometer - remove direct://?dispatcher=http from sample publishers section,https://bugs.launchpad.net/ceilometer/+bug/1728014,2018-02-08
+1728212,1728212,Fix Released,Telemetry Data Collection service overview in ceilometer - Only one polling agent,https://bugs.launchpad.net/ceilometer/+bug/1728212,2018-02-08
+1729506,1729506,Fix Released,"Ceilometer polling catch an exception from  libvirt when disk without ""source""",https://bugs.launchpad.net/ceilometer/+bug/1729506,2018-02-08
+1729617,1729617,Fix Released,notification agent does not refresh,https://bugs.launchpad.net/ceilometer/+bug/1729617,2018-02-08
+1687839,1687839,Fix Released,Installation Guide for Telemetry Data Collection Service,https://bugs.launchpad.net/ceilometer/+bug/1687839,2018-02-08
+1730849,1730849,Fix Released,notification agent needlessly refresh after init,https://bugs.launchpad.net/ceilometer/+bug/1730849,2018-02-08
+1720021,1720021,Fix Released,Cannot  turn off event publishing pipeline,https://bugs.launchpad.net/ceilometer/+bug/1720021,2018-02-08
+1732147,1732147,Fix Released,snmp can't be polled,https://bugs.launchpad.net/ceilometer/+bug/1732147,2018-02-08
+1732228,1732228,Fix Released,cleanup polling tests,https://bugs.launchpad.net/ceilometer/+bug/1732228,2018-02-08
+1738361,1738361,Fix Released,some event type miss display_name,https://bugs.launchpad.net/ceilometer/+bug/1738361,2018-02-08
+1734898,1734898,Fix Released,jitter doesn't work,https://bugs.launchpad.net/ceilometer/+bug/1734898,2018-02-08
+1596645,1596645,Fix Released,resource-type-list up to 10x slower in Mitaka than Liberty,https://bugs.launchpad.net/heat/+bug/1596645,2018-02-08
+1544074,1544074,Fix Released,Convergence tests are slow,https://bugs.launchpad.net/heat/+bug/1544074,2018-02-07
+1651907,1651907,Fix Released,Add libvirt image metadef for hw_pointer_model,https://bugs.launchpad.net/glance/+bug/1651907,2018-02-07
+1747419,1747419,Fix Released,Look into total_ips_on_port quota and discover why it is not working,https://bugs.launchpad.net/neutron-quark/+bug/1747419,2018-02-07
+1733757,1733757,Fix Released,Remove deprecated neutron.common.utils.ensure_dir,https://bugs.launchpad.net/neutron/+bug/1733757,2018-02-07
+1741035,1741035,Fix Released,Spurious race conditions detected white-/black-listing MAC addresses in dnsmasq PXE filter,https://bugs.launchpad.net/ironic-inspector/+bug/1741035,2018-02-07
+1539878,1539878,Fix Released,"validation step ignores roles@openstack context and marks as ""invalid"" valid cases",https://bugs.launchpad.net/rally/+bug/1539878,2018-02-07
+1747279,1747279,Fix Released,"'tripleo-repos current-tripleo-dev ceph' should install luminous, not jewel",https://bugs.launchpad.net/tripleo/+bug/1747279,2018-02-07
+1699468,1699468,Fix Released,notifier/zaqar.py use old auth_opts,https://bugs.launchpad.net/aodh/+bug/1699468,2018-02-07
+1728073,1728073,Fix Released,Glossary in aodh,https://bugs.launchpad.net/aodh/+bug/1728073,2018-02-07
+1644954,1644954,Fix Released,mysql: bigint support,https://bugs.launchpad.net/panko/+bug/1644954,2018-02-07
+1731117,1731117,Fix Released,Outdated Kolla docker container images on hub.docker.com,https://bugs.launchpad.net/kolla/+bug/1731117,2018-02-07
+1676091,1676091,Fix Released,Validation pane can be improved,https://bugs.launchpad.net/tripleo/+bug/1676091,2018-02-07
+1661320,1661320,Fix Released,thresholder still emitting events for already deleted alarm-definitions,https://bugs.launchpad.net/monasca/+bug/1661320,2018-02-07
+1661322,1661322,Fix Committed,alarm-definitions are not deleted from the DB,https://bugs.launchpad.net/monasca/+bug/1661322,2018-02-07
+1551846,1551846,Fix Released,Convert error message to exceptions in couchdb guestagent code,https://bugs.launchpad.net/trove/+bug/1551846,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-cinder/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-tempest/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-gnocchi/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-barbican/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-octavia/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-nova/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-glance/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-aodh/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-monasca/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-trove/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-vitrage/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-glare/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-swift/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-watcher/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-ceph/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-horizon/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-neutron/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-keystone/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-cloudkitty/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-designate/+bug/1668732,2018-02-07
+1668732,1668732,Fix Released,Inconsistent package_ensure parameter name,https://bugs.launchpad.net/puppet-oslo/+bug/1668732,2018-02-07

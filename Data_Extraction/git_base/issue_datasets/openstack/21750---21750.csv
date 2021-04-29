@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1609984,1609984,Fix Released,volume-detach fails for shelved instance,https://bugs.launchpad.net/nova/+bug/1609984,2017-06-16
+1611321,1611321,Fix Released,HyperV: shelve vm deadlock,https://bugs.launchpad.net/nova/+bug/1611321,2017-06-16
+1611008,1611008,Fix Released,"ServersNegativeTestJSON.test_suspend_server_invalid_state fails with ""NovaException: Unable to find host for Instance""",https://bugs.launchpad.net/nova/+bug/1611008,2017-06-16
+1606740,1606740,Fix Released,The schema of quota's update isn't include networks quota,https://bugs.launchpad.net/nova/+bug/1606740,2017-06-16
+1621392,1621392,Fix Released,emit_event() is failing when locale/language is changed to other than english,https://bugs.launchpad.net/nova/+bug/1621392,2017-06-16
+1579839,1579839,Fix Released,Service version does not update on restart,https://bugs.launchpad.net/nova/+bug/1579839,2017-06-16
+1589821,1589821,Fix Released,cleanup_incomplete_migrations periodic task regression with commit 099cf53 (CVE-2016-7498),https://bugs.launchpad.net/ossa/+bug/1589821,2017-06-16
+1589821,1589821,Fix Released,cleanup_incomplete_migrations periodic task regression with commit 099cf53 (CVE-2016-7498),https://bugs.launchpad.net/nova/+bug/1589821,2017-06-16
+1537062,1537062,Fix Released,Fail to boot vm when set AggregateImagePropertiesIsolation filter and add custom metadata in the Host Aggregate,https://bugs.launchpad.net/nova/+bug/1537062,2017-06-16
+1276214,1276214,Fix Released,Live migration failure in API doesn't revert task_state to None,https://bugs.launchpad.net/nova/+bug/1276214,2017-06-16
+1417723,1417723,Fix Released,"when using dedicated cpus, the guest topology doesn't match the host",https://bugs.launchpad.net/nova/+bug/1417723,2017-06-16
+1550317,1550317,Fix Released,'hw:cpu_thread_policy=isolate' does not schedule on non-HT hosts,https://bugs.launchpad.net/nova/+bug/1550317,2017-06-16
+1587386,1587386,Fix Released,Unshelve results in duplicated resource deallocated,https://bugs.launchpad.net/nova/+bug/1587386,2017-06-16
+1533876,1533876,Fix Released,plug_vhostuser may fail due to device not found error when setting mtu,https://bugs.launchpad.net/nova/+bug/1533876,2017-06-16
+1419115,1419115,Fix Released,IndexError adding host to availability zone,https://bugs.launchpad.net/nova/+bug/1419115,2017-06-16
+1565698,1565698,Fix Released,novncproxy missed the vnc section in cli options,https://bugs.launchpad.net/nova/+bug/1565698,2017-06-16
+1570884,1570884,Fix Released,Functional test_name_validation unexpectedly passing,https://bugs.launchpad.net/nova/+bug/1570884,2017-06-16
+1571825,1571825,Fix Released,Rescue with bad image makes instance stuck in weird state,https://bugs.launchpad.net/nova/+bug/1571825,2017-06-16
+1572593,1572593,Fix Released,Impossible attach detached port to another instance,https://bugs.launchpad.net/nova/+bug/1572593,2017-06-16
+1572495,1572495,Fix Released,"Nova API fails to start if ""ec2"" is specified in enabled_apis",https://bugs.launchpad.net/nova/+bug/1572495,2017-06-16
+1497484,1497484,Fix Released,image-create does not respect the force_raw_images setting,https://bugs.launchpad.net/nova/+bug/1497484,2017-06-16
+1503453,1503453,Fix Released,unavailable ironic nodes being scheduled to,https://bugs.launchpad.net/nova/+bug/1503453,2017-06-16
+1525806,1525806,Fix Released,An incorrect value for block_device_mapping_v2 causes HTTP 500 response when creating a VM instance,https://bugs.launchpad.net/nova/+bug/1525806,2017-06-16
+1557585,1557585,Fix Released,Xenapi live-migration does not work at all now,https://bugs.launchpad.net/nova/+bug/1557585,2017-06-16
+1561022,1561022,Fix Released,Server group policies are not honored during live migration,https://bugs.launchpad.net/nova/+bug/1561022,2017-06-16
+1561357,1561357,Fix Released,VM deployed with availability-zone (force_hosts) cannot be live migrated to an untargeted host,https://bugs.launchpad.net/nova/+bug/1561357,2017-06-16
+1560860,1560860,Fix Released,mellanox infiniband SR-IOV(ib_hostdev vif)  detach  port fails,https://bugs.launchpad.net/nova/+bug/1560860,2017-06-16
+1531881,1531881,Fix Released,AttributeError: 'module' object has no attribute 'dump_as_bytes',https://bugs.launchpad.net/tripleo/+bug/1531881,2017-06-16
+1695088,1695088,Fix Released,Other arguments are allowed with --nic auto and --nic none,https://bugs.launchpad.net/python-novaclient/+bug/1695088,2017-06-16
+1697358,1697358,Fix Released,novaclient.tests.unit.test_client.SessionClientTest.test_global_id fails,https://bugs.launchpad.net/python-novaclient/+bug/1697358,2017-06-16
+1528612,1528612,Fix Released,mongodb parameter is dropped in Mitaka,https://bugs.launchpad.net/puppet-ceilometer/+bug/1528612,2017-06-16
+1451660,1451660,Fix Released,pip-and-virtualenv from tripleo-image-elements should be generalized and put into diskimage-builder,https://bugs.launchpad.net/diskimage-builder/+bug/1451660,2017-06-16
+1567295,1567295,Fix Released,tox -e py27 is failing due to fixtures 2.0.0 release,https://bugs.launchpad.net/neutron/+bug/1567295,2017-06-16
+1615299,1615299,Fix Released,[all] stable branch integration gates are pulling artifacts from master,https://bugs.launchpad.net/openstack-chef/+bug/1615299,2017-06-16
+1649858,1649858,Fix Released,missing messaging configuration for murano agent,https://bugs.launchpad.net/kolla-ansible/+bug/1649858,2017-06-16
+1549853,1549853,Fix Released,"""Trying to apply a migration context that does not seem to be set for this instance"" spams n-cpu logs in liberty",https://bugs.launchpad.net/nova/+bug/1549853,2017-06-16
+1516578,1516578,Fix Released,Add ppc architecture for NUMA,https://bugs.launchpad.net/nova/+bug/1516578,2017-06-16
+1506356,1506356,Fix Released,"There is no ""[vnc]"" option group in nova.conf.sample",https://bugs.launchpad.net/nova/+bug/1506356,2017-06-16
+1501851,1501851,Fix Released,Nova can incorrectly think an instance is volume backed,https://bugs.launchpad.net/nova/+bug/1501851,2017-06-16
+1456955,1456955,Fix Released,tox -epep8 fails due to tox picking python 3.x,https://bugs.launchpad.net/nova/+bug/1456955,2017-06-16
+1456955,1456955,Fix Released,tox -epep8 fails due to tox picking python 3.x,https://bugs.launchpad.net/designate/+bug/1456955,2017-06-16
+1551900,1551900,Fix Released,test_virt_drivers.LibvirtConnTestCase fails if /etc/machine-id is empty,https://bugs.launchpad.net/nova/+bug/1551900,2017-06-16
+1549408,1549408,Fix Released,nova doesn't use Neutron MTUs when wiring up VIFs,https://bugs.launchpad.net/nova/+bug/1549408,2017-06-16
+1549032,1549032,Fix Released,max_net_count doesn't interact properly with min_count when booting multiple instances,https://bugs.launchpad.net/nova/+bug/1549032,2017-06-16
+1546778,1546778,Fix Released,libvirt: resize with deleted backing image fails,https://bugs.launchpad.net/nova/+bug/1546778,2017-06-16
+1523742,1523742,Fix Released,illegal video driver for PPC64 little endian system,https://bugs.launchpad.net/nova/+bug/1523742,2017-06-16
+1522112,1522112,Fix Released,ports duplication in the VM XML when using heat and multiple networks,https://bugs.launchpad.net/nova/+bug/1522112,2017-06-16
+1518321,1518321,Fix Released,cannot set injected_files in build_instance pre hook,https://bugs.launchpad.net/nova/+bug/1518321,2017-06-16
+1518200,1518200,Fix Released,instance is not destroyed on source host after a successful evacuate,https://bugs.launchpad.net/nova/+bug/1518200,2017-06-16
+1515672,1515672,Fix Released,XenServer attach second Cinder volume failed,https://bugs.launchpad.net/nova/+bug/1515672,2017-06-16
+1511539,1511539,Fix Released,libvirt evacute on ppcle failed with IDE controllers are unsupported for this QEMU binary or machine type,https://bugs.launchpad.net/nova/+bug/1511539,2017-06-16
+1506958,1506958,Fix Released,"TypeError: object.__new__(thread.lock) is not safe, use thread.lock.__new__()",https://bugs.launchpad.net/nova/+bug/1506958,2017-06-16
+1506701,1506701,Fix Released,metadata service security-groups doesn't work with neutron,https://bugs.launchpad.net/nova/+bug/1506701,2017-06-16
+1502583,1502583,Fix Released,ConfigDrive creation fails on Python 3,https://bugs.launchpad.net/nova/+bug/1502583,2017-06-16
+1491222,1491222,Fix Released,Booting instance cause infinite recursion in the case of enough user quota and unlimited project quota,https://bugs.launchpad.net/nova/+bug/1491222,2017-06-16
+1470437,1470437,Fix Released,ImageCacheManager raises Permission denied error on nova compute in race condition,https://bugs.launchpad.net/nova/+bug/1470437,2017-06-16
+1465416,1465416,Fix Released,os-assisted-volume-snapshots:delete doesn't work if instance is SHUTOFF,https://bugs.launchpad.net/nova/+bug/1465416,2017-06-16
+1444806,1444806,Fix Released,test_volume_boot_pattern tempest test failure for glusterfs backend - Part 2,https://bugs.launchpad.net/nova/+bug/1444806,2017-06-16
+1387807,1387807,Fix Released,Rollback is needed if attach volume times out.,https://bugs.launchpad.net/nova/+bug/1387807,2017-06-16
+1369465,1369465,Fix Released,[SRU] nova resize doesn't resize(extend) rbd disk files when using rbd disk backend,https://bugs.launchpad.net/nova/+bug/1369465,2017-06-16
+1256838,1256838,Fix Released,Race between imagebackend and imagecache,https://bugs.launchpad.net/nova/+bug/1256838,2017-06-16
+1240373,1240373,Fix Released,VMware: Sparse glance vmdk's size property is mistaken for capacity,https://bugs.launchpad.net/nova/+bug/1240373,2017-06-16
+1555287,1555287,Fix Released,Libvirt driver broken for non-disk-image backends,https://bugs.launchpad.net/nova/+bug/1555287,2017-06-16
+1549068,1549068,Fix Released,Ironic vif_port_id mismatch with neutron port id if specified multi networks,https://bugs.launchpad.net/nova/+bug/1549068,2017-06-16
+1543766,1543766,Fix Released,nova.tests.unit.test_wsgi.TestWSGIServerWithSSL fails with testtools.matchers._impl.MismatchError: 'OK\r\n' != 'PONG' and eventlet 0.18.2,https://bugs.launchpad.net/nova/+bug/1543766,2017-06-16
+1538896,1538896,Fix Released,nova flavor-show <id> raises 500 error if flavor is deleted,https://bugs.launchpad.net/nova/+bug/1538896,2017-06-16
+1536214,1536214,Fix Released,PO files broken,https://bugs.launchpad.net/nova/+bug/1536214,2017-06-16
+1532809,1532809,Fix Released,Gate failures when DHCP lease cannot be acquired,https://bugs.launchpad.net/nova/+bug/1532809,2017-06-16
+1523646,1523646,Fix Released,Nova/Cinder Key Manager for Barbican Uses Stale Cache,https://bugs.launchpad.net/cinder/+bug/1523646,2017-06-16
+1523646,1523646,Fix Released,Nova/Cinder Key Manager for Barbican Uses Stale Cache,https://bugs.launchpad.net/castellan/+bug/1523646,2017-06-16
+1523646,1523646,Fix Released,Nova/Cinder Key Manager for Barbican Uses Stale Cache,https://bugs.launchpad.net/nova/+bug/1523646,2017-06-16
+1523503,1523503,Fix Released,Scheduling does not work with a hybid cloud,https://bugs.launchpad.net/nova/+bug/1523503,2017-06-16
+1517926,1517926,Fix Released,Nova services stop to report state via remote conductor,https://bugs.launchpad.net/nova/+bug/1517926,2017-06-16
+1516765,1516765,Fix Released,[OSSA 2016-002] xenapi: volume_utils._parse_volume_info can leak connection password via StorageError (CVE-2015-8749),https://bugs.launchpad.net/nova/+bug/1516765,2017-06-16
+1516765,1516765,Fix Released,[OSSA 2016-002] xenapi: volume_utils._parse_volume_info can leak connection password via StorageError (CVE-2015-8749),https://bugs.launchpad.net/ossa/+bug/1516765,2017-06-16

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1651285,1651285,Fix Released,overcloud image generation requires export DIB_PYTHON_VERSION=2 on RHEL 7.3,https://bugs.launchpad.net/tripleo/+bug/1651285,2017-02-16
+1652107,1652107,Fix Released,yum update runs on deployment,https://bugs.launchpad.net/tripleo/+bug/1652107,2017-02-16
+1651831,1651831,Fix Released,[CVE-2016-9599] undercloud firewall opening all ports with ssl enabled,https://bugs.launchpad.net/tripleo/+bug/1651831,2017-02-16
+1654280,1654280,Fix Released,Mysql/Rabbit/Redis/Horizon roles cannot be decoupled from haproxy due to missing firewall,https://bugs.launchpad.net/tripleo/+bug/1654280,2017-02-16
+1646147,1646147,Fix Released,deploy of manila with external ceph fails to update ceph.conf,https://bugs.launchpad.net/tripleo/+bug/1646147,2017-02-16
+1659309,1659309,Fix Released,keepalived segfaults on interface misconfiguration,https://bugs.launchpad.net/tripleo/+bug/1659309,2017-02-16
+1640302,1640302,Fix Released,Configure auditd rules for security compliance,https://bugs.launchpad.net/tripleo/+bug/1640302,2017-02-16
+1660722,1660722,Fix Released,innodb_file_per_table should be set to ON for all mysql installations,https://bugs.launchpad.net/tripleo/+bug/1660722,2017-02-16
+1663624,1663624,Fix Released,Make quotes consistent in the sample config,https://bugs.launchpad.net/tripleo/+bug/1663624,2017-02-16
+1651951,1651951,Fix Released,[instack-undercloud] H803 hacking have been deprecated,https://bugs.launchpad.net/tripleo/+bug/1651951,2017-02-16
+1655171,1655171,Fix Released,Overcloud instances failing to spawn due to: IOError: [Errno 2] No such file or directory: '/etc/nova/cloud-config.json',https://bugs.launchpad.net/tripleo/+bug/1655171,2017-02-16
+1643655,1643655,Fix Released,Undercloud vips not validated when generating service certificate,https://bugs.launchpad.net/tripleo/+bug/1643655,2017-02-16
+1660824,1660824,Fix Released,overcloud-full ramdisk being rebuilt twice,https://bugs.launchpad.net/tripleo/+bug/1660824,2017-02-16
+1660671,1660671,Fix Released,INSPECTION_NODE_NOT_FOUND_HOOK is not passed correctly to Puppet in the Undercloud,https://bugs.launchpad.net/tripleo/+bug/1660671,2017-02-16
+1662981,1662981,Fix Released,instack-undercloud: image_path configuration option not  used,https://bugs.launchpad.net/tripleo/+bug/1662981,2017-02-16
+1645267,1645267,Fix Released,Undercloud upgrade breaks due to IP range change,https://bugs.launchpad.net/tripleo/+bug/1645267,2017-02-16
+1652605,1652605,Fix Released,error adding non-ascii atribute to resource,https://bugs.launchpad.net/cinder/+bug/1652605,2017-02-16
+1622429,1622429,Fix Released,lack of angular-schema-form in  js test env,https://bugs.launchpad.net/senlin-dashboard/+bug/1622429,2017-02-16
+1630861,1630861,Fix Released,the option of no-pep8 is ignored,https://bugs.launchpad.net/senlin-dashboard/+bug/1630861,2017-02-16
+1633318,1633318,Fix Released,The cluster/node miss delete action,https://bugs.launchpad.net/senlin-dashboard/+bug/1633318,2017-02-16
+1636675,1636675,Fix Released,Profile update doesn't work well,https://bugs.launchpad.net/senlin-dashboard/+bug/1636675,2017-02-16
+1636082,1636082,Fix Released,The url to each policies are not correct in cluster detail page,https://bugs.launchpad.net/senlin-dashboard/+bug/1636082,2017-02-16
+1659173,1659173,Fix Released,error message doesn't pop-up,https://bugs.launchpad.net/senlin-dashboard/+bug/1659173,2017-02-16
+1660920,1660920,Fix Released,Profile create/update dialogs is differ from others,https://bugs.launchpad.net/senlin-dashboard/+bug/1660920,2017-02-16
+1659732,1659732,Fix Released,policy is not set for delete action,https://bugs.launchpad.net/senlin-dashboard/+bug/1659732,2017-02-16
+1488608,1488608,Fix Released,stats output in reconstructor.py gives wrong device count,https://bugs.launchpad.net/swift/+bug/1488608,2017-02-16
+1649773,1649773,Fix Released,Swift tox test failed -- py34: InterpreterNotFound: python3.4,https://bugs.launchpad.net/swift/+bug/1649773,2017-02-16
+1578321,1578321,Fix Released,common.utils.readconf SystemExit is noisy,https://bugs.launchpad.net/swift/+bug/1578321,2017-02-16
+1213200,1213200,Fix Released,Can't confirm receipt of multipart-manifest PUT w/ETag,https://bugs.launchpad.net/swift/+bug/1213200,2017-02-16
+1656147,1656147,Fix Released,Range request to SLO can 500 with traceback,https://bugs.launchpad.net/swift/+bug/1656147,2017-02-16
+1626296,1626296,Fix Released,setting reclaim_age longer than default doesn't work,https://bugs.launchpad.net/swift/+bug/1626296,2017-02-16
+1658405,1658405,Fix Released,Swift tox test failure on AArch64 platform,https://bugs.launchpad.net/swift/+bug/1658405,2017-02-16
+1491605,1491605,Fix Released,Reconstructor jobs are ordered by disk instead of randomized,https://bugs.launchpad.net/swift/+bug/1491605,2017-02-16
+1660214,1660214,Fix Released,swift-ring-builder set_weight long option's useage doesn't mention the new weight argument.,https://bugs.launchpad.net/swift/+bug/1660214,2017-02-16
+1653169,1653169,Fix Released,reconstructor too aggressive to revert to handoff node,https://bugs.launchpad.net/swift/+bug/1653169,2017-02-16
+1539275,1539275,Fix Released,swift-get-nodes arg parsing for missing ring is bad,https://bugs.launchpad.net/swift/+bug/1539275,2017-02-16
+1663021,1663021,Fix Released,TestReplicatorFunctions probe test fails with rsync,https://bugs.launchpad.net/swift/+bug/1663021,2017-02-16
+1653018,1653018,Fix Released,make reconstructor handoffs_first mode more useful,https://bugs.launchpad.net/swift/+bug/1653018,2017-02-16
+1663579,1663579,Fix Released,undercloud upgrade has packaging resolution errors,https://bugs.launchpad.net/tripleo/+bug/1663579,2017-02-16
+1550937,1550937,Fix Released,resume instance with SR-IOV failed,https://bugs.launchpad.net/fuel/+bug/1550937,2017-02-16
+1664498,1664498,Fix Released,hostmonitor will continue to sent notification when host failure happen.,https://bugs.launchpad.net/masakari-monitors/+bug/1664498,2017-02-16
+1655653,1655653,Fix Released,kolla-genpwd pbr versioning exception,https://bugs.launchpad.net/kolla-ansible/+bug/1655653,2017-02-16
+1662445,1662445,Fix Released,Building release notes is failed,https://bugs.launchpad.net/masakari/+bug/1662445,2017-02-16
+1664026,1664026,Fix Released,keystone revocation error,https://bugs.launchpad.net/kolla/+bug/1664026,2017-02-16
+1641604,1641604,Fix Released,Exception in neutron server when a router gateway is cleared with native L3,https://bugs.launchpad.net/networking-ovn/+bug/1641604,2017-02-16
+1648670,1648670,Fix Released,CI jobs broken after upgrade to ubuntu xenial,https://bugs.launchpad.net/networking-ovn/+bug/1648670,2017-02-16
+1469006,1469006,Fix Released,Live migration fails with a booted from volume  instance,https://bugs.launchpad.net/nova/+bug/1469006,2017-02-16
+1661537,1661537,Fix Released,Domain token confused with domain context in identity panels,https://bugs.launchpad.net/horizon/+bug/1661537,2017-02-16
+1632117,1632117,Fix Released,odl driver for bgpvpn should be moved to networking-odl and v2 type driver is needed,https://bugs.launchpad.net/networking-odl/+bug/1632117,2017-02-16
+1632117,1632117,Fix Released,odl driver for bgpvpn should be moved to networking-odl and v2 type driver is needed,https://bugs.launchpad.net/bgpvpn/+bug/1632117,2017-02-16
+1663646,1663646,Fix Released,Usage docs need work,https://bugs.launchpad.net/python-magnumclient/+bug/1663646,2017-02-16
+1647146,1647146,Fix Released,Circular dependencies in the V2 driver,https://bugs.launchpad.net/networking-odl/+bug/1647146,2017-02-16
+1648035,1648035,Fix Released,qos v1 driver: the code is unnecessary broken into two classes,https://bugs.launchpad.net/networking-odl/+bug/1648035,2017-02-16
+1648912,1648912,Fix Released,rally: create_and_delete_network fails,https://bugs.launchpad.net/networking-odl/+bug/1648912,2017-02-16
+1650903,1650903,Fix Released,H803 hacking have been deprecated,https://bugs.launchpad.net/networking-odl/+bug/1650903,2017-02-16
+1647516,1647516,Fix Released,Document Functional Testing in networking-odl,https://bugs.launchpad.net/networking-odl/+bug/1647516,2017-02-16
+1646311,1646311,Fix Released,fullstack tests better to use independent scripts to install ODL,https://bugs.launchpad.net/networking-odl/+bug/1646311,2017-02-16
+1655481,1655481,Fix Released,Stack fails with plugin.sh: line 81: create_nova_conf_neutron: command not found,https://bugs.launchpad.net/networking-odl/+bug/1655481,2017-02-16
+1660895,1660895,Fix Released,"dsvm-tempest fails with ""No hosts found to map to cell, exiting.""",https://bugs.launchpad.net/networking-odl/+bug/1660895,2017-02-16
+1656902,1656902,Fix Released,Provide driver to support for VLAN Aware VMs for OpenDaylight,https://bugs.launchpad.net/networking-odl/+bug/1656902,2017-02-16
+1619298,1619298,Fix Released,devstack: port conflict with 6640 dhcp agent an odl server,https://bugs.launchpad.net/networking-odl/+bug/1619298,2017-02-16
+1662638,1662638,Fix Released,test_list_agent fails,https://bugs.launchpad.net/networking-odl/+bug/1662638,2017-02-16
+1657508,1657508,Fix Released,Data too long for column 'password',https://bugs.launchpad.net/tacker/+bug/1657508,2017-02-16
+1660315,1660315,Fix Released,api-ref failing,https://bugs.launchpad.net/tacker/+bug/1660315,2017-02-16
+1660774,1660774,Fix Released,"Delete mistral resources, when workflow raise exception.",https://bugs.launchpad.net/tacker/+bug/1660774,2017-02-16
+1594448,1594448,Fix Released,Upgrade keystone version from v2.0 t v3 in functional test cases,https://bugs.launchpad.net/tacker/+bug/1594448,2017-02-16
+1661528,1661528,Fix Released,exception should raised earlier in get_vim_from_vnf,https://bugs.launchpad.net/tacker/+bug/1661528,2017-02-16
+1663147,1663147,Fix Released,Fail to create a new revision file,https://bugs.launchpad.net/tacker/+bug/1663147,2017-02-16
+1658899,1658899,Fix Released,tacker project needs MANIFEST.in to include alembic_migrations scripts,https://bugs.launchpad.net/tacker/+bug/1658899,2017-02-16
+1662704,1662704,Fix Released,ns_create stuck in pending state if vnf creation failed,https://bugs.launchpad.net/tacker/+bug/1662704,2017-02-16
+1663063,1663063,Fix Released,VNFD templates doesn't show in list after migration,https://bugs.launchpad.net/tacker/+bug/1663063,2017-02-16
+1664803,1664803,Fix Released,Fail to create a new vnffg instance,https://bugs.launchpad.net/tacker/+bug/1664803,2017-02-16
+1664860,1664860,Fix Released,ram quota exceeded in tacker functional testing,https://bugs.launchpad.net/tacker/+bug/1664860,2017-02-16
+1645940,1645940,Fix Released,document improvement: update multi-pod & single-pod,https://bugs.launchpad.net/tricircle/+bug/1645940,2017-02-16
+1646009,1646009,Fix Released,"The ""LOG.warning"" should correspond with ""_LW""",https://bugs.launchpad.net/tricircle/+bug/1646009,2017-02-16

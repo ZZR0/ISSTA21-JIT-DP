@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1694724,1694724,Fix Released,Sphinx Warning for ironic.drivers.modules.deploy_utils,https://bugs.launchpad.net/ironic/+bug/1694724,2017-08-17
+1694645,1694645,Fix Released,Netboot is failed with virtual media,https://bugs.launchpad.net/ironic/+bug/1694645,2017-08-17
+1695135,1695135,Fix Released,py3.5 - configure-vm.py does not find jinja2 with devstack,https://bugs.launchpad.net/ironic/+bug/1695135,2017-08-17
+1691808,1691808,Fix Released,Manual cleaning fails when using iDRAC driver,https://bugs.launchpad.net/ironic/+bug/1691808,2017-08-17
+1700497,1700497,Fix Released,noop network interface cannot list VIFs,https://bugs.launchpad.net/ironic/+bug/1700497,2017-08-17
+1692895,1692895,Fix Released,"Waiting for power state action results is repeated in all drivers, instead of the conductor",https://bugs.launchpad.net/ironic/+bug/1692895,2017-08-17
+1702129,1702129,Fix Released,"RAID config validation error with ""size_gb"" as numeric string in command line",https://bugs.launchpad.net/ironic/+bug/1702129,2017-08-17
+1701495,1701495,Fix Released,Running periodics can be stopped ungracefully when conductor is going down,https://bugs.launchpad.net/ironic/+bug/1701495,2017-08-17
+1700548,1700548,Fix Released,Grenade jobs broken by not finding iniset_rpc_backend,https://bugs.launchpad.net/ironic/+bug/1700548,2017-08-17
+1691344,1691344,Fix Released,[RFE] Make ip address of socat console configurable,https://bugs.launchpad.net/ironic/+bug/1691344,2017-08-17
+1686457,1686457,Fix Released,Introspection fails with InternalServerError not valid power interface,https://bugs.launchpad.net/ironic/+bug/1686457,2017-08-17
+1702859,1702859,Fix Released,One of the soft power off tests fails periodically,https://bugs.launchpad.net/ironic/+bug/1702859,2017-08-17
+1702195,1702195,Fix Released,Revert wait until iDRAC is ready before out-of-band cleaning,https://bugs.launchpad.net/ironic/+bug/1702195,2017-08-17
+1701721,1701721,Fix Released,PXE interface should be using non-persistent boot for cleaning/deploying phases as default,https://bugs.launchpad.net/ironic/+bug/1701721,2017-08-17
+1704913,1704913,Fix Released,Setting interfaces to nodes in available state is not allowed,https://bugs.launchpad.net/ironic/+bug/1704913,2017-08-17
+1629286,1629286,Fix Released,agent_ilo driver : Swift error logs while nova delete instance,https://bugs.launchpad.net/ironic/+bug/1629286,2017-08-17
+1706418,1706418,Fix Released,Ironic multinode-grenade upgrades nova without upgrading the API,https://bugs.launchpad.net/ironic/+bug/1706418,2017-08-17
+1697719,1697719,Fix Released,"Py3.5: py3 gate fails with ""TypeError: Unicode-objects must be encoded before hashing""",https://bugs.launchpad.net/ironic/+bug/1697719,2017-08-17
+1702672,1702672,Fix Released,"Change ramdisk log filename template to avoid a colon, as it confuses tar",https://bugs.launchpad.net/ironic/+bug/1702672,2017-08-17
+1570301,1570301,Fix Released,[RFE] Deprecate and remove the *_ssh drivers,https://bugs.launchpad.net/ironic/+bug/1570301,2017-08-17
+1639688,1639688,Fix Released,"[RFE] Add ""reset bios settings to default"" to iRMC drivers as cleaning step",https://bugs.launchpad.net/ironic/+bug/1639688,2017-08-17
+1706176,1706176,Fix Released,ironic has no published configuration guide,https://bugs.launchpad.net/ironic/+bug/1706176,2017-08-17
+1705544,1705544,Fix Released,[RFE] Add hardware type of OneView supporting ironic dynamic drivers,https://bugs.launchpad.net/ironic/+bug/1705544,2017-08-17
+1585141,1585141,Fix Released,[RFE] Add new ironic-dbsync command online_data_migrations,https://bugs.launchpad.net/ironic/+bug/1585141,2017-08-17
+1639080,1639080,Fix Released,Image uploads fail in Horizon if upload mode is set to direct if endpoint set to internal.,https://bugs.launchpad.net/horizon/+bug/1639080,2017-08-17
+1639080,1639080,Fix Released,Image uploads fail in Horizon if upload mode is set to direct if endpoint set to internal.,https://bugs.launchpad.net/openstack-ansible/+bug/1639080,2017-08-17
+1687050,1687050,Fix Released,KeyError: 'MaximumRetryCount',https://bugs.launchpad.net/zun/+bug/1687050,2017-08-17
+1687471,1687471,Fix Released,Add tests for api microversion,https://bugs.launchpad.net/zun/+bug/1687471,2017-08-17
+1689534,1689534,Fix Released,ERROR oslo_service.periodic_task KeyError: 'NanoCpus',https://bugs.launchpad.net/zun/+bug/1689534,2017-08-17
+1690907,1690907,Fix Released,Zun execute without command returned 500,https://bugs.launchpad.net/zun/+bug/1690907,2017-08-17
+1691320,1691320,Fix Released,zun fail to run container with local image,https://bugs.launchpad.net/zun/+bug/1691320,2017-08-17
+1690985,1690985,Fix Released,Put team mascot at the readme home page,https://bugs.launchpad.net/zun/+bug/1690985,2017-08-17
+1691606,1691606,Fix Released,enable devstack multihost support for zun,https://bugs.launchpad.net/zun/+bug/1691606,2017-08-17
+1675245,1675245,Fix Released,Multi-host devstack guide,https://bugs.launchpad.net/zun/+bug/1675245,2017-08-17
+1692732,1692732,Fix Released,Compile stats on server side,https://bugs.launchpad.net/zun/+bug/1692732,2017-08-17
+1692586,1692586,Fix Released,Change to git.openstack.org,https://bugs.launchpad.net/zun/+bug/1692586,2017-08-17
+1693060,1693060,Fix Released,zun should raise ImageNotFound when image not found in docker repo,https://bugs.launchpad.net/zun/+bug/1693060,2017-08-17
+1694336,1694336,Fix Released,The container doesn't have any security group,https://bugs.launchpad.net/zun/+bug/1694336,2017-08-17
+1695779,1695779,Fix Released,Log the network configuration,https://bugs.launchpad.net/zun/+bug/1695779,2017-08-17
+1696466,1696466,Fix Released,Remove duplicated hacking rule Z318,https://bugs.launchpad.net/zun/+bug/1696466,2017-08-17
+1695788,1695788,Fix Released,The commit API should return the image ID,https://bugs.launchpad.net/zun/+bug/1695788,2017-08-17
+1697569,1697569,Fix Released,Set host to container at claim,https://bugs.launchpad.net/zun/+bug/1697569,2017-08-17
+1693425,1693425,Fix Released,Cannot import docker client,https://bugs.launchpad.net/zun/+bug/1693425,2017-08-17
+1671874,1671874,Fix Released,Move from docker-py to docker,https://bugs.launchpad.net/zun/+bug/1671874,2017-08-17
+1699635,1699635,Fix Released,sandbox can not be deleted even by -f,https://bugs.launchpad.net/zun/+bug/1699635,2017-08-17
+1701734,1701734,Fix Released,Warning on running tempest tests,https://bugs.launchpad.net/zun/+bug/1701734,2017-08-17
+1701870,1701870,Fix Released,Remove unnecessary inspect in kill,https://bugs.launchpad.net/zun/+bug/1701870,2017-08-17
+1701853,1701853,Fix Released,Container host is None,https://bugs.launchpad.net/zun/+bug/1701853,2017-08-17
+1703016,1703016,Fix Released,Refine default policy,https://bugs.launchpad.net/zun/+bug/1703016,2017-08-17
+1703018,1703018,Fix Released,Update the fake policy file,https://bugs.launchpad.net/zun/+bug/1703018,2017-08-17
+1703293,1703293,Fix Released,error in poliy data,https://bugs.launchpad.net/zun/+bug/1703293,2017-08-17
+1703383,1703383,Fix Released,kuryr driver name should be configurable,https://bugs.launchpad.net/zun/+bug/1703383,2017-08-17
+1703024,1703024,Fix Released,Create a default policy rule for 'all_tenants',https://bugs.launchpad.net/zun/+bug/1703024,2017-08-17
+1704461,1704461,Fix Released,Add unit tests for kuryr network driver,https://bugs.launchpad.net/zun/+bug/1704461,2017-08-17
+1698471,1698471,Fix Released,Error on adding duplicated secgroup,https://bugs.launchpad.net/zun/+bug/1698471,2017-08-17
+1701984,1701984,Fix Released,Add periodic task to cleanup auto-removed containers,https://bugs.launchpad.net/zun/+bug/1701984,2017-08-17
+1707506,1707506,Fix Released,Etcd config didn't work.,https://bugs.launchpad.net/zun/+bug/1707506,2017-08-17
+1647434,1647434,Fix Released,Implement image_pull policy for image clis,https://bugs.launchpad.net/zun/+bug/1647434,2017-08-17
+1691345,1691345,Fix Released,Etcd API does not implements compute node related API,https://bugs.launchpad.net/zun/+bug/1691345,2017-08-17
+1708745,1708745,Fix Released,The 'command' attribute is missing,https://bugs.launchpad.net/zun/+bug/1708745,2017-08-17
+1707069,1707069,Fix Released,Couldn't add security group to container,https://bugs.launchpad.net/zun/+bug/1707069,2017-08-17
+1707954,1707954,Fix Released,Allow add security group by uuid,https://bugs.launchpad.net/zun/+bug/1707954,2017-08-17
+1708937,1708937,Fix Released,Need to handle null in json payload,https://bugs.launchpad.net/zun/+bug/1708937,2017-08-17
+1702581,1702581,Fix Released,Support create container with existing neutron port,https://bugs.launchpad.net/zun/+bug/1702581,2017-08-17
+1692382,1692382,Fix Released,Change from wsgi to uwsgi,https://bugs.launchpad.net/zun/+bug/1692382,2017-08-17
+1709267,1709267,Fix Released,Zunexception miss the msg_fmt field,https://bugs.launchpad.net/zun/+bug/1709267,2017-08-17
+1705154,1705154,Fix Released,Implement create with existing network,https://bugs.launchpad.net/zun/+bug/1705154,2017-08-17
+1703955,1703955,Fix Released,Allow arbitrary glance image name,https://bugs.launchpad.net/zun/+bug/1703955,2017-08-17
+1711003,1711003,Fix Released,routing list not filtered by project,https://bugs.launchpad.net/tricircle/+bug/1711003,2017-08-17
+1711001,1711001,Fix Released,Job list not filtered by project,https://bugs.launchpad.net/tricircle/+bug/1711001,2017-08-17
+1670461,1670461,Fix Released,unpin functional test python3 version,https://bugs.launchpad.net/ironic-inspector/+bug/1670461,2017-08-17
+1667472,1667472,Fix Released,[RFE] update PXE enabled,https://bugs.launchpad.net/ironic-inspector/+bug/1667472,2017-08-17
+1683732,1683732,Fix Released,Unit tests fail with oslo.config from master,https://bugs.launchpad.net/ironic-inspector/+bug/1683732,2017-08-17
+1681751,1681751,Fix Released,[RFE] Add dependencies between plugins,https://bugs.launchpad.net/ironic-inspector/+bug/1681751,2017-08-17
+1665664,1665664,Fix Released,[RFE] Expose API node introspection state,https://bugs.launchpad.net/ironic-inspector/+bug/1665664,2017-08-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1833820,1833820,Fix Released,Floating up update is deleting the NAT entry in OVN North db,https://bugs.launchpad.net/networking-ovn/+bug/1833820,2020-05-29
+1816449,1816449,Fix Released,OVN Neutron network MTU never get applied,https://bugs.launchpad.net/networking-ovn/+bug/1816449,2020-05-29
+1878331,1878331,Fix Released,[tripleo-upgrade][train] reboot procedure doesn't work anymore for update,https://bugs.launchpad.net/tripleo/+bug/1878331,2020-05-29
+1877825,1877825,Fix Released,undercloud upgrade: packages are updated before asking user confirmation,https://bugs.launchpad.net/tripleo/+bug/1877825,2020-05-29
+1880207,1880207,Fix Released,LB sgs are left behind upon LB deletion,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1880207,2020-05-28
+1839535,1839535,Fix Released,"debian9 container image is missing apt-listchanges package, but has the apt.conf.d/20listchanges config file, causing failure.",https://bugs.launchpad.net/openstack-ansible/+bug/1839535,2020-05-28
+1877215,1877215,Fix Released,Kernel arguments do not persist for EFI boot servers,https://bugs.launchpad.net/tripleo/+bug/1877215,2020-05-28
+1878916,1878916,Fix Released,"When deleting a network, delete the segment RP only when the segment is deleted",https://bugs.launchpad.net/neutron/+bug/1878916,2020-05-28
+1879938,1879938,Fix Released,Ceph RGW settings are missing in ceph.conf,https://bugs.launchpad.net/tripleo/+bug/1879938,2020-05-28
+1867077,1867077,Fix Released,"stein: when use ""openstack server resize"" command, there is an error: Unexpected API Error.",https://bugs.launchpad.net/nova/+bug/1867077,2020-05-28
+1876752,1876752,Fix Released,neutron-ovn-db-sync-util fails with KeyError: 'ovn',https://bugs.launchpad.net/neutron/+bug/1876752,2020-05-28
+1881057,1881057,Fix Released,A misspelling error in QNAP driver,https://bugs.launchpad.net/cinder/+bug/1881057,2020-05-28
+1788416,1788416,Fix Released,check_floating_ip_status utility method can have confusing output,https://bugs.launchpad.net/tempest/+bug/1788416,2020-05-28
+1833455,1833455,Fix Released,[RBAC]  User is not allowed to create port  with fixed IP on shared network via RBAC,https://bugs.launchpad.net/neutron/+bug/1833455,2020-05-28
+1502138,1502138,Fix Released,When creating a volume from an image fails we may not clean up system devices,https://bugs.launchpad.net/cinder/+bug/1502138,2020-05-28
+1734872,1734872,Fix Released,Reconfigure of nova with changed DB or MQ hostname or password creates a duplicate cell,https://bugs.launchpad.net/kolla-ansible/+bug/1734872,2020-05-28
+1799642,1799642,Fix Released,docker stop/restart kills child processes immediately,https://bugs.launchpad.net/kolla/+bug/1799642,2020-05-28
+1870017,1870017,Fix Released,no_proxy in overcloudrc gets duplicated items if no_proxy is set by overcoudrc,https://bugs.launchpad.net/tripleo/+bug/1870017,2020-05-28
+1792992,1792992,Fix Released,os-net-config - schema validation on routes fail if routes is [],https://bugs.launchpad.net/tripleo/+bug/1792992,2020-05-28
+1871744,1871744,Fix Released,Glance retry failed: TypeError: get() got an unexpected keyword argument 'schema_name',https://bugs.launchpad.net/cinder/+bug/1871744,2020-05-28
+1880676,1880676,Fix Released,"""test_iptables.TestHelper"" UTs are making a system call",https://bugs.launchpad.net/neutron/+bug/1880676,2020-05-28
+1879359,1879359,Fix Released,test_validate_token function fails if roles are present in the token,https://bugs.launchpad.net/tempest/+bug/1879359,2020-05-28
+1845452,1845452,Fix Released,Unity: Failed to delete CIFS share if invalid access was set,https://bugs.launchpad.net/manila/+bug/1845452,2020-05-27
+1880002,1880002,Fix Released,"openstack overcloud deployment fails with message ""Could not find the requested service libvirt-guests: host""",https://bugs.launchpad.net/tripleo/+bug/1880002,2020-05-27
+1878699,1878699,Fix Released,GET snapshots without details does not return user_id as mentioned in api-ref,https://bugs.launchpad.net/cinder/+bug/1878699,2020-05-27
+1879418,1879418,Fix Released,vendordata configuration is missing in nova-api and nove-metadata,https://bugs.launchpad.net/tripleo/+bug/1879418,2020-05-27
+1864409,1864409,Fix Released,[master][fs035][ipv6] Deployments failing with 503 Service Unavailable(neutron),https://bugs.launchpad.net/tripleo/+bug/1864409,2020-05-27
+1864133,1864133,Fix Released,cinder service isn't  working via horizon after doing a Rocky->Stein->Train upgrade,https://bugs.launchpad.net/horizon/+bug/1864133,2020-05-27
+1878101,1878101,Fix Released,"ping br-ctlplane is failing too often, ""Trying to ping default gateway""",https://bugs.launchpad.net/tripleo/+bug/1878101,2020-05-27
+1860155,1860155,Fix Released,Service kill script has bad substitution,https://bugs.launchpad.net/tripleo/+bug/1860155,2020-05-27
+1877146,1877146,Fix Released,neutron-dynamic-plugin tempest jobs fail on stable/train branch,https://bugs.launchpad.net/neutron/+bug/1877146,2020-05-27
+1806077,1806077,Fix Released,reproducer queens undercloud upgrade job fails trying to setup the queens repo,https://bugs.launchpad.net/tripleo/+bug/1806077,2020-05-27
+1813950,1813950,Fix Released,Error validating environment for plan overcloud: ERROR: Property error: resources.CephStorageIpListMap.properties: Unknown Property StorageMgmtIpList,https://bugs.launchpad.net/tripleo/+bug/1813950,2020-05-26
+1860670,1860670,Fix Released,[validations] tox configuration of the queens branch needs to be updated to deal with modules which no longer support the older versions,https://bugs.launchpad.net/tripleo/+bug/1860670,2020-05-26
+1830734,1830734,Fix Released,TLS everywhere timeouts on getcert resubmit,https://bugs.launchpad.net/tripleo/+bug/1830734,2020-05-26
+1840246,1840246,Fix Released,Queens octavia template uses pike heat template version,https://bugs.launchpad.net/tripleo/+bug/1840246,2020-05-26
+1838679,1838679,Fix Released,Redis THT templates contain malformed metadata_settings,https://bugs.launchpad.net/tripleo/+bug/1838679,2020-05-26
+1879371,1879371,Fix Released,LB resources not deleted when are transitioned to ERROR,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1879371,2020-05-26
+1879486,1879486,Fix Released,skip_check failing for test_access_rules_metadata and test_rules,https://bugs.launchpad.net/manila/+bug/1879486,2020-05-26
+1879932,1879932,Fix Released,test_validate_env_dir_not_a_real_director fails with error,https://bugs.launchpad.net/tripleo/+bug/1879932,2020-05-26
+1737050,1737050,Fix Released,No way to allow non admins the ability to filter on attributes such as host,https://bugs.launchpad.net/nova/+bug/1737050,2020-05-26
+1878048,1878048,Fix Released,Containerized overcloud means that kvm doesn't work out of the box on ppc64le,https://bugs.launchpad.net/tripleo/+bug/1878048,2020-05-26
+1877449,1877449,Fix Released,centos-7-containerized-undercloud-upgrades fails in Start or restart systemd services in,https://bugs.launchpad.net/tripleo/+bug/1877449,2020-05-25
+1815461,1815461,Fix Released,create port in shared network from tenant fail because horizon add wrong SecurityGroup,https://bugs.launchpad.net/horizon/+bug/1815461,2020-05-25
+1880383,1880383,Fix Released,"ERROR! Unable to retrieve file contents, Could not find or access '/home/zuul/workspace/.quickstart/config/release/queens.yml' on the Ansible Controller. failing tripleo quickstart deployment on centos-8 (master, ussuri and train)",https://bugs.launchpad.net/tripleo/+bug/1880383,2020-05-25
+1676228,1676228,Fix Released,Install and configure for Red Hat Enterprise Linux and CentOS in Installation Guide for DNS Service,https://bugs.launchpad.net/designate/+bug/1676228,2020-05-25
+1879871,1879871,Fix Released,unused inner-function exists in UT and FT,https://bugs.launchpad.net/tacker/+bug/1879871,2020-05-25
+1879747,1879747,Fix Released,Manual install & Configuration in neutron,https://bugs.launchpad.net/neutron/+bug/1879747,2020-05-25
+1850755,1850755,Fix Released,Short notation not supported,https://bugs.launchpad.net/tacker/+bug/1850755,2020-05-23
+1747167,1747167,Fix Released,Neutron driver handles incorrectly 404 errors,https://bugs.launchpad.net/nova/+bug/1747167,2020-05-23
+1850812,1850812,Fix Released,prometheus-openstack-exporter can't handle self-signed certificate,https://bugs.launchpad.net/kolla-ansible/+bug/1850812,2020-05-23
+1880036,1880036,Fix Released,component based dlrn repos in stable branches fail due to same name in repos,https://bugs.launchpad.net/tripleo/+bug/1880036,2020-05-23
+1862724,1862724,Fix Released,ERROR:root:ImportError: cannot import name ensure_text,https://bugs.launchpad.net/tripleo/+bug/1862724,2020-05-23
+1856845,1856845,Fix Released,Ephemeral storage removal fails with message rbd remove failed,https://bugs.launchpad.net/nova/+bug/1856845,2020-05-22
+1804811,1804811,Fix Released,DatabaseAtVersion fixture causes order-related failures in tests using Database fixture,https://bugs.launchpad.net/nova/+bug/1804811,2020-05-22
+1836415,1836415,Fix Released,RFE: Add support for installing Keycloak to support Keystone federation,https://bugs.launchpad.net/tripleo/+bug/1836415,2020-05-22
+1875579,1875579,Fix Released,[S->T] 'ovn_dbs_short_bootstrap_node_name' is undefined,https://bugs.launchpad.net/tripleo/+bug/1875579,2020-05-22
+1855080,1855080,Fix Released,[OSSA-2019-006] Credentials API allows listing and retrieving of all users credentials (CVE-2019-19687),https://bugs.launchpad.net/ossa/+bug/1855080,2020-05-22
+1855080,1855080,Fix Released,[OSSA-2019-006] Credentials API allows listing and retrieving of all users credentials (CVE-2019-19687),https://bugs.launchpad.net/keystone/+bug/1855080,2020-05-22
+1880067,1880067,Fix Released,A grammar error in explanatory notes in inspur driver,https://bugs.launchpad.net/cinder/+bug/1880067,2020-05-22
+1864625,1864625,Fix Released,"evacute_server raises ""b'' is not of type 'object', 'string'""",https://bugs.launchpad.net/tempest/+bug/1864625,2020-05-22
+1879941,1879941,Fix Released,tempest.lib.exceptions.NotFound: Object not found causes failure on stable/train tripleo-ci-centos-7-scenario010-standalone,https://bugs.launchpad.net/tripleo/+bug/1879941,2020-05-22
+1823514,1823514,Fix Released,OpenStack logo is not shown,https://bugs.launchpad.net/openstack-manuals/+bug/1823514,2020-05-21
+1860641,1860641,Fix Released,haproxy unable to configure CRL file,https://bugs.launchpad.net/tripleo/+bug/1860641,2020-05-21
+1824837,1824837,Fix Released,CINDER_PERIODIC_INTERVAL is unnecessary and perhaps dangerous,https://bugs.launchpad.net/devstack/+bug/1824837,2020-05-21
+1740950,1740950,Fix Released,Volume details shows attached compute host for non-admins,https://bugs.launchpad.net/cinder/+bug/1740950,2020-05-21
+1879797,1879797,Fix Released,ussuri: undercloud minion failing validation ERROR: Heat Engine host count is 1 or less.,https://bugs.launchpad.net/tripleo/+bug/1879797,2020-05-21
+1878405,1878405,Fix Released,tripleo ansible sometimes does not run certain containers,https://bugs.launchpad.net/tripleo/+bug/1878405,2020-05-21
+1879534,1879534,Fix Released,rdo / docker Error response from daemon: client version 1.40 is too new. Maximum supported API version is 1.39,https://bugs.launchpad.net/tripleo/+bug/1879534,2020-05-20
+1831918,1831918,Fix Released,ec2 credentials do not create audit notifications,https://bugs.launchpad.net/keystone/+bug/1831918,2020-05-20
+1652379,1652379,Fix Released,[Dell EMC Unity] Support create share smaller than 3 GB,https://bugs.launchpad.net/manila/+bug/1652379,2020-05-20
+1877063,1877063,Fix Released,netapp driver scheduler-stats missing max_over_subscription_ratio,https://bugs.launchpad.net/manila/+bug/1877063,2020-05-20
+1879577,1879577,Fix Released,Ussuri ovb deployment hangs in introspection step.,https://bugs.launchpad.net/tripleo/+bug/1879577,2020-05-20
+1844607,1844607,Fix Released,log error when create neutron port with wrong subnet,https://bugs.launchpad.net/neutron/+bug/1844607,2020-05-20
+1874171,1874171,Fix Released,tempest-horizon job fails in stable/rocky,https://bugs.launchpad.net/horizon/+bug/1874171,2020-05-20

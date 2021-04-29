@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1861515,1861515,Fix Released,rhel 8 container build failing on cherry pick of 669471,https://bugs.launchpad.net/tripleo/+bug/1861515,2020-02-03
+1861624,1861624,Fix Released,Repeated sg rules on NP CRD break the patch of CRD,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1861624,2020-02-03
+1860804,1860804,Fix Released,ERROR:root:Image prepare failed: Modifying image 192.168.24.1:8787/tripleo*,https://bugs.launchpad.net/tripleo/+bug/1860804,2020-02-03
+1832390,1832390,Fix Released,s3api should use parent container's storage policy when creating segments container,https://bugs.launchpad.net/swift/+bug/1832390,2020-02-03
+1847955,1847955,Fix Released,swift-drive-audit broken on python 3,https://bugs.launchpad.net/swift/+bug/1847955,2020-02-03
+1847755,1847755,Fix Released,On-disk encryption is borken with Python 3,https://bugs.launchpad.net/swift/+bug/1847755,2020-02-03
+1848485,1848485,Fix Released,CORS in swift,https://bugs.launchpad.net/swift/+bug/1848485,2020-02-03
+1835324,1835324,Fix Committed,Internal client's delete_object always logs 499 for 404s,https://bugs.launchpad.net/swift/+bug/1835324,2020-02-03
+1858260,1858260,Fix Released,Upstream CI neutron-tempest-plugin-* fails,https://bugs.launchpad.net/neutron/+bug/1858260,2020-02-03
+1859988,1859988,Fix Released,neutron-tempest-plugin tests fail for stable/queens,https://bugs.launchpad.net/tempest/+bug/1859988,2020-02-03
+1859988,1859988,Fix Released,neutron-tempest-plugin tests fail for stable/queens,https://bugs.launchpad.net/neutron/+bug/1859988,2020-02-03
+1859988,1859988,Fix Released,neutron-tempest-plugin tests fail for stable/queens,https://bugs.launchpad.net/devstack/+bug/1859988,2020-02-03
+1861282,1861282,Fix Released,[Tempest] Floating IP and static IP should be in different CIDRs,https://bugs.launchpad.net/neutron/+bug/1861282,2020-02-03
+1861313,1861313,Fix Released,LB in error status continuosly created without deleting previous ones,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1861313,2020-02-03
+1622722,1622722,Fix Released,ostestr can't run with both --blacklist_file and --regex at the same time,https://bugs.launchpad.net/tempest/+bug/1622722,2020-02-02
+1821072,1821072,Fix Released,All devstack-tempest jobs are failing due to 'gabbi_tempest_path' is undefined,https://bugs.launchpad.net/tempest/+bug/1821072,2020-02-02
+1821071,1821071,Fix Released,All devstack-tempest jobs are failing due to 'gabbi_tempest_path' is undefined,https://bugs.launchpad.net/tempest/+bug/1821071,2020-02-02
+1860937,1860937,Fix Released,create container with non-integer cpu return 500,https://bugs.launchpad.net/zun/+bug/1860937,2020-02-01
+1838641,1838641,Fix Released,Cloudkitty database upgrade fail version 8.0.0,https://bugs.launchpad.net/kolla-ansible/+bug/1838641,2020-01-31
+1842482,1842482,Fix Released,"""test_get_devices_info_veth_different_namespaces"" fails because veth1_1 interface has a link device in the same namespace",https://bugs.launchpad.net/neutron/+bug/1842482,2020-01-31
+1832985,1832985,Fix Released,Update of segmentation id for network don't works,https://bugs.launchpad.net/neutron/+bug/1832985,2020-01-31
+1839252,1839252,Fix Released,Connectivity issues due to skb marks on the  encapsulating  packet,https://bugs.launchpad.net/neutron/+bug/1839252,2020-01-31
+1837380,1837380,Fix Released,Timeout while getting bridge datapath id crashes ova agent,https://bugs.launchpad.net/neutron/+bug/1837380,2020-01-31
+1830679,1830679,Fix Released,Security groups RBAC cause a major performance degradation,https://bugs.launchpad.net/neutron/+bug/1830679,2020-01-31
+1833717,1833717,Fix Released,Functional tests: error during namespace creation,https://bugs.launchpad.net/neutron/+bug/1833717,2020-01-31
+1819125,1819125,Fix Released,Fullstack test test_min_bw_qos_policy_rule_lifecycle failing often,https://bugs.launchpad.net/neutron/+bug/1819125,2020-01-31
+1833041,1833041,Fix Released,importing a keypair when keypair limit is reached will logout user,https://bugs.launchpad.net/horizon/+bug/1833041,2020-01-31
+1811235,1811235,Fix Released,instance's vm-state becomes error when cold-migrate instance to same host  failed,https://bugs.launchpad.net/nova/+bug/1811235,2020-01-30
+1748697,1748697,Fix Released,Cold migration fails when the filter only returns the host where the vm is located and the vm status is set to ERROR,https://bugs.launchpad.net/nova/+bug/1748697,2020-01-30
+1727795,1727795,Fix Released,Cirros image is hardcoded to x86-64,https://bugs.launchpad.net/kolla-ansible/+bug/1727795,2020-01-30
+1836375,1836375,Fix Released,Ironic inspector iPXE config references incorrect ramdisk in initrd kernel argument,https://bugs.launchpad.net/kolla-ansible/+bug/1836375,2020-01-30
+1853472,1853472,Fix Released,multi cellv2 deployment fail with exported data after refactor in https://review.opendev.org/#/c/694115/,https://bugs.launchpad.net/tripleo/+bug/1853472,2020-01-30
+1854341,1854341,Fix Released,Handle range (hype) in the DPDK cores to mask conversion,https://bugs.launchpad.net/tripleo/+bug/1854341,2020-01-30
+1854368,1854368,Fix Released,live migration is broken when ceph is used,https://bugs.launchpad.net/tripleo/+bug/1854368,2020-01-30
+1837644,1837644,Fix Released,tripleo-ssh-known-hosts fails if roles_network is not set,https://bugs.launchpad.net/tripleo/+bug/1837644,2020-01-30
+1855149,1855149,Fix Released,undercloud minion job fails on tripleo-ssh-known-hosts when there are no networks defined,https://bugs.launchpad.net/tripleo/+bug/1855149,2020-01-30
+1855502,1855502,Fix Released,tuned fails if using --dry-run,https://bugs.launchpad.net/tripleo/+bug/1855502,2020-01-30
+1854980,1854980,Fix Released,undercloud : firewall rules not persisted accross reboot,https://bugs.launchpad.net/tripleo/+bug/1854980,2020-01-30
+1856893,1856893,Fix Released,ansible_ssh_host_key_rsa_public undefined,https://bugs.launchpad.net/tripleo/+bug/1856893,2020-01-30
+1860451,1860451,Fix Released,all hosts have same IP in ssh_known_hosts,https://bugs.launchpad.net/tripleo/+bug/1860451,2020-01-30
+1797448,1797448,Fix Released,zun-compute does not work in rocky due to missing configuration in kolla and kolla-ansible.,https://bugs.launchpad.net/kolla-ansible/+bug/1797448,2020-01-30
+1797448,1797448,Fix Released,zun-compute does not work in rocky due to missing configuration in kolla and kolla-ansible.,https://bugs.launchpad.net/kolla/+bug/1797448,2020-01-30
+1844114,1844114,Fix Released,kolla_toolbox module sometimes ignores errors and changes,https://bugs.launchpad.net/kolla-ansible/+bug/1844114,2020-01-30
+1835501,1835501,Fix Released,RabbitMQ logs are not being collected by Fluentd,https://bugs.launchpad.net/kolla-ansible/+bug/1835501,2020-01-30
+1846336,1846336,Fix Released,monasca logstash has wrong path to JAVA_HOME,https://bugs.launchpad.net/kolla/+bug/1846336,2020-01-30
+1850044,1850044,Fix Released,centos qdrouterd is unbuildable,https://bugs.launchpad.net/kolla/+bug/1850044,2020-01-30
+1823736,1823736,Fix Released,Obsolete Ansible in Kolla-toolbox,https://bugs.launchpad.net/kolla/+bug/1823736,2020-01-30
+1806896,1806896,Fix Released,Kolla ceph_osd bootstrap doesn't work with NVMe drives,https://bugs.launchpad.net/kolla/+bug/1806896,2020-01-30
+1804474,1804474,Fix Released,nova-consoleauth is deprecated,https://bugs.launchpad.net/kolla-ansible/+bug/1804474,2020-01-30
+1804474,1804474,Fix Released,nova-consoleauth is deprecated,https://bugs.launchpad.net/kolla/+bug/1804474,2020-01-30
+1853474,1853474,Fix Released,lsb-release missing in debian buster,https://bugs.launchpad.net/kolla/+bug/1853474,2020-01-30
+1845647,1845647,Fix Released,monasca-grafana fails to build due to rake 13.0 release,https://bugs.launchpad.net/kolla/+bug/1845647,2020-01-30
+1845843,1845843,Fix Released,centos (all branches) broken on sensu image - old ruby,https://bugs.launchpad.net/kolla/+bug/1845843,2020-01-30
+1846207,1846207,Fix Released,swift swift-XXX-replicator containers have no rsync package installed,https://bugs.launchpad.net/kolla/+bug/1846207,2020-01-30
+1845650,1845650,Fix Released,image search error 500,https://bugs.launchpad.net/zun/+bug/1845650,2020-01-30
+1848019,1848019,Fix Released,Pushing to registy ignores errors,https://bugs.launchpad.net/kolla/+bug/1848019,2020-01-30
+1849128,1849128,Fix Released,barbican-api fails because of wrong uwsgi version,https://bugs.launchpad.net/kolla/+bug/1849128,2020-01-30
+1840631,1840631,Fix Released,prometheus blackbox_exporter missing new_raw capability,https://bugs.launchpad.net/kolla/+bug/1840631,2020-01-30
+1706549,1706549,Fix Released,apt_sources_list option does not work,https://bugs.launchpad.net/kolla/+bug/1706549,2020-01-30
+1836952,1836952,Fix Released,Nova uses deprecated service URL for Neutron,https://bugs.launchpad.net/kolla-ansible/+bug/1836952,2020-01-30
+1842460,1842460,Fix Released,Nova cell registration logic broken,https://bugs.launchpad.net/kolla-ansible/+bug/1842460,2020-01-30
+1844636,1844636,Fix Released,haproxy precheck fails on centos for non-root,https://bugs.launchpad.net/kolla-ansible/+bug/1844636,2020-01-30
+1836368,1836368,Fix Released,all slave keepalived down after upgrade,https://bugs.launchpad.net/kolla-ansible/+bug/1836368,2020-01-30
+1841479,1841479,Fix Released,Octavia region configuration missing,https://bugs.launchpad.net/kolla-ansible/+bug/1841479,2020-01-30
+1774313,1774313,Fix Released,"When swift-proxy was seperated from controller, memcached communication error  occured",https://bugs.launchpad.net/kolla-ansible/+bug/1774313,2020-01-30
+1786238,1786238,Fix Released,centos-binary-kuryr-libnetwork not found,https://bugs.launchpad.net/kolla-ansible/+bug/1786238,2020-01-30
+1848146,1848146,Fix Released,Enabling glance image cache fails due to undefined variable,https://bugs.launchpad.net/kolla-ansible/+bug/1848146,2020-01-30
+1847562,1847562,Fix Released,neutron.conf service_plugins not set for fwaas,https://bugs.launchpad.net/kolla-ansible/+bug/1847562,2020-01-30
+1839597,1839597,Fix Released,Monasca log transformer doesn't accept non UTC times,https://bugs.launchpad.net/kolla-ansible/+bug/1839597,2020-01-30
+1847863,1847863,Fix Released,ntp package is installed despite not enabling host ntp,https://bugs.launchpad.net/kolla-ansible/+bug/1847863,2020-01-30
+1848937,1848937,Fix Released,placement enabled always instead of just with nova,https://bugs.launchpad.net/kolla-ansible/+bug/1848937,2020-01-30
+1848191,1848191,Fix Released,Python3 incompatibility for kolla-genpwd  when generating the Barbican fernet key,https://bugs.launchpad.net/kolla-ansible/+bug/1848191,2020-01-30
+1832020,1832020,Fix Released,Monasca service upgrade lacks database migration,https://bugs.launchpad.net/kolla-ansible/+bug/1832020,2020-01-30
+1848737,1848737,Fix Released,DHCP agent timing out spawning dnsmasq,https://bugs.launchpad.net/kolla-ansible/+bug/1848737,2020-01-30
+1845244,1845244,Fix Released,Nova scheduler is stopped after each reboot,https://bugs.launchpad.net/kolla-ansible/+bug/1845244,2020-01-30

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1338197,1338197,Fix Released,No metering.xsd in api-site,https://bugs.launchpad.net/openstack-api-site/+bug/1338197,2015-02-08
+1410920,1410920,Fix Released,Security Guide - Verified boot section awkward sentence,https://bugs.launchpad.net/openstack-manuals/+bug/1410920,2015-02-08
+1411501,1411501,Fix Released,Security Guide - Identity - Service reference standardization,https://bugs.launchpad.net/openstack-manuals/+bug/1411501,2015-02-08
+1413980,1413980,Fix Released,Stress test actions should be updated,https://bugs.launchpad.net/tempest/+bug/1413980,2015-02-07
+1419029,1419029,Fix Released,[devops] need to add user into mox-core group in fuel-infra repositories,https://bugs.launchpad.net/fuel/+bug/1419029,2015-02-06
+1386782,1386782,Fix Released,tempest-lib migration script generates incorrect sha1s,https://bugs.launchpad.net/tempest/+bug/1386782,2015-02-06
+1396946,1396946,Fix Committed,Rabbitmq OCF script requires additional criteria to be met for Master/Slave statuses,https://bugs.launchpad.net/fuel/+bug/1396946,2015-02-06
+1319786,1319786,Fix Committed,[nailgun] Move priorities calculation from Nailgun code to openstack.yaml,https://bugs.launchpad.net/fuel/+bug/1319786,2015-02-06
+1411274,1411274,Fix Released,[system_tests] assert_release_state function value should be reterned in lower space,https://bugs.launchpad.net/fuel/+bug/1411274,2015-02-06
+1379917,1379917,Fix Released,20 nodes discovering failed,https://bugs.launchpad.net/fuel/+bug/1379917,2015-02-06
+1418946,1418946,Fix Committed,Issue with package versioning,https://bugs.launchpad.net/fuel/+bug/1418946,2015-02-06
+1393126,1393126,Fix Released,Failed to deploy node 'controller_2': Unknown error,https://bugs.launchpad.net/fuel/+bug/1393126,2015-02-06
+1409945,1409945,Fix Released,conflict with rabbitmq exchange between ceilometer notification agent and magnetodb task executor,https://bugs.launchpad.net/magnetodb/+bug/1409945,2015-02-06
+1415100,1415100,Fix Released,put item fails while trying to put utf-8 string value with gunicorn,https://bugs.launchpad.net/magnetodb/+bug/1415100,2015-02-06
+1328847,1328847,Fix Released,sortedset JSON serialization falure,https://bugs.launchpad.net/magnetodb/+bug/1328847,2015-02-06
+1328888,1328888,Fix Released,batch write request does not fail on nonexistent table,https://bugs.launchpad.net/magnetodb/+bug/1328888,2015-02-06
+1331073,1331073,Fix Released,tempest test for create table are deprecated,https://bugs.launchpad.net/magnetodb/+bug/1331073,2015-02-06
+1332053,1332053,Fix Released,Increase tempest test coverage on ListTables,https://bugs.launchpad.net/magnetodb/+bug/1332053,2015-02-06
+1373955,1373955,Fix Released,inconsistent-error-format,https://bugs.launchpad.net/magnetodb/+bug/1373955,2015-02-06
+1375985,1375985,Fix Released,update item failed when adding to existing set attribute,https://bugs.launchpad.net/magnetodb/+bug/1375985,2015-02-06
+1376834,1376834,Fix Released,request and content type 'application/json' is not assigned to request/responce,https://bugs.launchpad.net/magnetodb/+bug/1376834,2015-02-06
+1378820,1378820,Fix Released,No validation on table creation with set type hash key,https://bugs.launchpad.net/magnetodb/+bug/1378820,2015-02-06
+1388828,1388828,Fix Released,wrong URL in list table response JSON,https://bugs.launchpad.net/magnetodb/+bug/1388828,2015-02-06
+1389635,1389635,Fix Released,GetItemTestCase  and PutitemTestCase classes should be a child of class APITestCase,https://bugs.launchpad.net/magnetodb/+bug/1389635,2015-02-06
+1400695,1400695,Fix Released,The payload for notifications should be a dict and should contain uuid of the table and user_id instead of user_name,https://bugs.launchpad.net/magnetodb/+bug/1400695,2015-02-06
+1403555,1403555,Fix Released,put-if-item-exists-documentation,https://bugs.launchpad.net/magnetodb/+bug/1403555,2015-02-06
+1405825,1405825,Fix Released,Remove ConnectionHandler patching,https://bugs.launchpad.net/magnetodb/+bug/1405825,2015-02-06
+1406250,1406250,Fix Released,Documentation not according to code,https://bugs.launchpad.net/magnetodb/+bug/1406250,2015-02-06
+1407566,1407566,Fix Released,Table can't be deleted if table creation or deletion fails although there is an entry in table_info.,https://bugs.launchpad.net/magnetodb/+bug/1407566,2015-02-06
+1407671,1407671,Fix Released,devstack job fails cause of tempest update,https://bugs.launchpad.net/magnetodb/+bug/1407671,2015-02-06
+1410599,1410599,Fix Released,Documentation error: UpdateItem sample request expected condition incorrect,https://bugs.launchpad.net/magnetodb/+bug/1410599,2015-02-06
+1415619,1415619,Fix Released,update item does not support query retry,https://bugs.launchpad.net/magnetodb/+bug/1415619,2015-02-06
+1416094,1416094,Fix Released,"update non-existing item with return_values ""ALL_OLD"" fails with 500",https://bugs.launchpad.net/magnetodb/+bug/1416094,2015-02-06
+1416112,1416112,Fix Released,"update fails with updating an item, that contains only key attrs",https://bugs.launchpad.net/magnetodb/+bug/1416112,2015-02-06
+1416388,1416388,Fix Released,BackupMeta and TableMeta are not serializable,https://bugs.launchpad.net/magnetodb/+bug/1416388,2015-02-06
+1298814,1298814,Fix Released,creation_date_time in create_table response returns 0,https://bugs.launchpad.net/magnetodb/+bug/1298814,2015-02-06
+1308964,1308964,Fix Released,Table can be created with two indices with same key schema,https://bugs.launchpad.net/magnetodb/+bug/1308964,2015-02-06
+1396880,1396880,Fix Released,Successful run of unit tests throw lot of misleading output,https://bugs.launchpad.net/magnetodb/+bug/1396880,2015-02-06
+1409953,1409953,Fix Released,promt comfirmation while unzip gradle.zip on devstack reinstall,https://bugs.launchpad.net/magnetodb/+bug/1409953,2015-02-06
+1408901,1408901,Fix Released,rabbitmq PRECONDITION_FAILED,https://bugs.launchpad.net/magnetodb/+bug/1408901,2015-02-06
+1408664,1408664,Fix Released,devstack job fails cause of tempest update,https://bugs.launchpad.net/magnetodb/+bug/1408664,2015-02-06
+1407688,1407688,Fix Released,Two different uuids generated for a table.,https://bugs.launchpad.net/magnetodb/+bug/1407688,2015-02-06
+1405776,1405776,Fix Released,gunicorn_min_version_18,https://bugs.launchpad.net/magnetodb/+bug/1405776,2015-02-06
+1405622,1405622,Fix Released,Error during creating table with LSI by field with uppercase name,https://bugs.launchpad.net/magnetodb/+bug/1405622,2015-02-06
+1404282,1404282,Fix Released,rate limiting is broken after recent API url refactoring,https://bugs.launchpad.net/magnetodb/+bug/1404282,2015-02-06
+1402791,1402791,Fix Released,MagnetoDB is not handling SSL termination proxies,https://bugs.launchpad.net/magnetodb/+bug/1402791,2015-02-06
+1413229,1413229,Fix Released,dvsm job fails on devstack installation,https://bugs.launchpad.net/magnetodb/+bug/1413229,2015-02-06
+1407717,1407717,Fix Released,Memory leakage during cluster reconnection,https://bugs.launchpad.net/magnetodb/+bug/1407717,2015-02-06
+1417601,1417601,Fix Committed,New repository mos-infra/nodepool,https://bugs.launchpad.net/fuel/+bug/1417601,2015-02-06
+1406227,1406227,Fix Released,fix the document bug for huawei drivers in stable/juno,https://bugs.launchpad.net/openstack-manuals/+bug/1406227,2015-02-06
+1414963,1414963,Fix Released,Chapter 3. Repeated sentence,https://bugs.launchpad.net/openstack-manuals/+bug/1414963,2015-02-06
+1414969,1414969,Fix Released,Chapter 3. A space missing,https://bugs.launchpad.net/openstack-manuals/+bug/1414969,2015-02-06
+1375233,1375233,Fix Released,"Fails on ""mysql_grant"" call when used with puppetlabs-mysql 2.3.1",https://bugs.launchpad.net/puppet-ceilometer/+bug/1375233,2015-02-06
+1414806,1414806,Fix Committed,Should use standard Openstack config options for Python persister daemon,https://bugs.launchpad.net/monasca/+bug/1414806,2015-02-06
+1308868,1308868,Fix Released,database connection section/name are wrong for icehouse,https://bugs.launchpad.net/puppet-heat/+bug/1308868,2015-02-06
+1249280,1249280,Fix Released,auth_encryption_key parameter is overwritten at every puppet run,https://bugs.launchpad.net/puppet-heat/+bug/1249280,2015-02-06
+1412841,1412841,Fix Released,RPCFixture monkey patches private property in oslo.messaging,https://bugs.launchpad.net/nova/+bug/1412841,2015-02-06
+1380669,1380669,Fix Released,precreated router ports can enable cross tenant plugging,https://bugs.launchpad.net/neutron/+bug/1380669,2015-02-06
+1401110,1401110,Fix Released,Volume Block Device Mapping cannot be found,https://bugs.launchpad.net/tempest/+bug/1401110,2015-02-05
+1375111,1375111,Fix Released,can't mix ceilometer and cwlite alarms in one stack,https://bugs.launchpad.net/heat/+bug/1375111,2015-02-05
+1418593,1418593,Fix Committed,fuel-devops failed to install if system package python-libvirt installed.,https://bugs.launchpad.net/fuel/+bug/1418593,2015-02-05
+1415143,1415143,Fix Released,Unauthorized and Forbidden is merged for tempest_lib,https://bugs.launchpad.net/tempest/+bug/1415143,2015-02-05
+1416291,1416291,Fix Released,Cannot build FUEL ISO,https://bugs.launchpad.net/fuel/+bug/1416291,2015-02-05
+1414593,1414593,Fix Released,[devops] Run only repeatable_image-based test group in 6.1 swarm,https://bugs.launchpad.net/fuel/+bug/1414593,2015-02-05
+1411156,1411156,Fix Committed,Dnsmasq forwards requests for default domain name domain.tld to upstream DNS server(s),https://bugs.launchpad.net/fuel/+bug/1411156,2015-02-05
+1362446,1362446,Fix Released,ignore .idea folder in python-cinderclient,https://bugs.launchpad.net/python-cinderclient/+bug/1362446,2015-02-05
+1418022,1418022,Fix Released,"Improve ""RPM check failed: package version in the stable repo is newer!"" warning",https://bugs.launchpad.net/fuel/+bug/1418022,2015-02-05
+1365635,1365635,Fix Committed,[library][patching] during patching failed resources are not migrated from the node,https://bugs.launchpad.net/fuel/+bug/1365635,2015-02-05
+1364081,1364081,Fix Committed,Packages versions issue after env 5.0 is upgraded to 5.1,https://bugs.launchpad.net/fuel/+bug/1364081,2015-02-05
+1385439,1385439,Fix Committed,fuel-devops missing libvirt-python requirement,https://bugs.launchpad.net/fuel/+bug/1385439,2015-02-05
+1418394,1418394,Fix Released,[devops] Node on CI in running out of free disk space,https://bugs.launchpad.net/fuel/+bug/1418394,2015-02-05
+1411082,1411082,Fix Released,Security Guide - Alice and Bob Recaps,https://bugs.launchpad.net/openstack-manuals/+bug/1411082,2015-02-05
+1406408,1406408,Fix Released,"Neutron: PUT Update network Request Parameters missing the ""router:external"" parameter",https://bugs.launchpad.net/openstack-api-site/+bug/1406408,2015-02-04
+1416127,1416127,Fix Released,Need some selected cookie cutter files,https://bugs.launchpad.net/networking-brocade/+bug/1416127,2015-02-04
+1418206,1418206,Fix Released,Restucture repo to support multiple service plugins and MDs,https://bugs.launchpad.net/networking-brocade/+bug/1418206,2015-02-04

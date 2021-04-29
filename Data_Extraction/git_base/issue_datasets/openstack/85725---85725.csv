@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1207956,1207956,Fix Released,Migration 146 does not downgrade on MySQL,https://bugs.launchpad.net/nova/+bug/1207956,2013-10-17
+1235308,1235308,Fix Released,ML2 README needs updates for havana release,https://bugs.launchpad.net/neutron/+bug/1235308,2013-10-17
+1207746,1207746,Fix Released,xenapi: we should retry when glance_upload gets killed,https://bugs.launchpad.net/nova/+bug/1207746,2013-10-17
+1237888,1237888,Fix Released,Correct the typo %{edge_id)s,https://bugs.launchpad.net/neutron/+bug/1237888,2013-10-17
+1207625,1207625,Fix Released,Incorrect validation and exception message for server name with whitespace,https://bugs.launchpad.net/nova/+bug/1207625,2013-10-17
+1237209,1237209,Fix Released,BigSwitch: disassociate floating IP references wrong network,https://bugs.launchpad.net/neutron/+bug/1237209,2013-10-17
+1207474,1207474,Fix Released,xenapi: code duplication in vmops,https://bugs.launchpad.net/nova/+bug/1207474,2013-10-17
+1236627,1236627,Fix Released,plugin support wrongly set in Embrane based plugins,https://bugs.launchpad.net/neutron/+bug/1236627,2013-10-17
+1206993,1206993,Fix Released,redundant _create_instance method in test_compute,https://bugs.launchpad.net/nova/+bug/1206993,2013-10-17
+1235323,1235323,Fix Released,Change linuxbridge rpc_support_old_agents default,https://bugs.launchpad.net/neutron/+bug/1235323,2013-10-17
+1206595,1206595,Fix Released,Allow ipv6 based host_ip for ESX/vSphere driver,https://bugs.launchpad.net/nova/+bug/1206595,2013-10-17
+1204916,1204916,Fix Released,Empty nova list causes expensive in predicate queries,https://bugs.launchpad.net/nova/+bug/1204916,2013-10-17
+1235074,1235074,Fix Released,Bigswitch plugin disassociate floatingip call to backend missing,https://bugs.launchpad.net/neutron/+bug/1235074,2013-10-17
+1203726,1203726,Fix Released,xenapi glance upload retries should not occur on all errors,https://bugs.launchpad.net/nova/+bug/1203726,2013-10-17
+1234012,1234012,Fix Released,test_nexus_plugin.py duplicate values causes tests to fail.,https://bugs.launchpad.net/neutron/+bug/1234012,2013-10-17
+1203714,1203714,Fix Released,xenapi: should consistently set vcpu weight,https://bugs.launchpad.net/nova/+bug/1203714,2013-10-17
+1231914,1231914,Fix Released,"Midonet plug, add dhcp opt121 route when a new subnet is created",https://bugs.launchpad.net/neutron/+bug/1231914,2013-10-17
+1200761,1200761,Fix Released,Pass additional context info in headers to glance,https://bugs.launchpad.net/nova/+bug/1200761,2013-10-17
+1231913,1231913,Fix Released,Floating IP is not removed when VM is terminated in midonet plugin,https://bugs.launchpad.net/neutron/+bug/1231913,2013-10-17
+1224967,1224967,Fix Released,port down after live migration,https://bugs.launchpad.net/neutron/+bug/1224967,2013-10-17
+1198239,1198239,Fix Released,XenAPI Default SR depends on obscure i18n key,https://bugs.launchpad.net/nova/+bug/1198239,2013-10-17
+1218556,1218556,Fix Released,veth pair connecting between physical and integration bridge down after ovs agent restart,https://bugs.launchpad.net/neutron/+bug/1218556,2013-10-17
+1197242,1197242,Fix Released,ec2-api: describe instances filter by tag should filter out the deleted tags,https://bugs.launchpad.net/nova/+bug/1197242,2013-10-17
+1238921,1238921,Fix Released,DB migration upgrade/downgrade not employed for brocade-plugin,https://bugs.launchpad.net/neutron/+bug/1238921,2013-10-17
+1196570,1196570,Fix Released,xenapi: pygrub running in domU,https://bugs.launchpad.net/nova/+bug/1196570,2013-10-17
+1238846,1238846,Fix Released,Fail to create VPN IPSec Site connection with ML2 plugin,https://bugs.launchpad.net/neutron/+bug/1238846,2013-10-17
+1192014,1192014,Fix Released,info_cache unified object should hydrate/to_primitive network_info,https://bugs.launchpad.net/nova/+bug/1192014,2013-10-17
+1238561,1238561,Fix Released,Mistake in usage alter_column's parameter type_,https://bugs.launchpad.net/neutron/+bug/1238561,2013-10-17
+1192008,1192008,Fix Released,fake instance objects in test_compute have stale changes,https://bugs.launchpad.net/nova/+bug/1192008,2013-10-17
+1191838,1191838,Fix Released,Indexes are missing in sqlite,https://bugs.launchpad.net/nova/+bug/1191838,2013-10-17
+1237028,1237028,Fix Released,Fix dhcp_release lease race condition,https://bugs.launchpad.net/neutron/+bug/1237028,2013-10-17
+1236993,1236993,Fix Released,Plugins without quota extension fail to start due to missing quota table,https://bugs.launchpad.net/neutron/+bug/1236993,2013-10-17
+1162382,1162382,Fix Released,LVM over ISCSI as default SR not working,https://bugs.launchpad.net/nova/+bug/1162382,2013-10-17
+1236970,1236970,Fix Released,plumgrid plugin is missing quota table,https://bugs.launchpad.net/neutron/+bug/1236970,2013-10-17
+1096468,1096468,Fix Released,public hostname get changed from internal hostname to public IP,https://bugs.launchpad.net/nova/+bug/1096468,2013-10-17
+1053382,1053382,Fix Released,All subprocess.Popen calls should go through common function,https://bugs.launchpad.net/nova/+bug/1053382,2013-10-17
+1234195,1234195,Fix Released,ML2 mechanism drivers not called for ports auto-deleted when subnet deleted,https://bugs.launchpad.net/neutron/+bug/1234195,2013-10-17
+1028494,1028494,Fix Released,Flavors list results not limited on database server-side,https://bugs.launchpad.net/nova/+bug/1028494,2013-10-17
+1234137,1234137,Fix Released,l2 population mech driver must propagate ip updates,https://bugs.launchpad.net/neutron/+bug/1234137,2013-10-17
+1218861,1218861,Fix Released,Nova compute throws an exception if ephemeral is passed wiithout size.,https://bugs.launchpad.net/nova/+bug/1218861,2013-10-17
+1189671,1189671,Fix Released,default quota driver not suitable for production,https://bugs.launchpad.net/neutron/+bug/1189671,2013-10-17
+1216042,1216042,Fix Released,InstanceTypeDiskTooSmall does not account for VHD chain overhead,https://bugs.launchpad.net/nova/+bug/1216042,2013-10-17
+1224991,1224991,Fix Released,ml2 plugin may let hyperv agents ports to build status,https://bugs.launchpad.net/neutron/+bug/1224991,2013-10-17
+1215068,1215068,Fix Released,Error messages in compute.api when setting vm_state to error don't provide context for debugging,https://bugs.launchpad.net/nova/+bug/1215068,2013-10-17
+1209446,1209446,Fix Released,nova security group extension doesn't handle neutron exception properly,https://bugs.launchpad.net/nova/+bug/1209446,2013-10-17
+1232360,1232360,Fix Released,Missing migration for new fields in Cisco Nexus table,https://bugs.launchpad.net/neutron/+bug/1232360,2013-10-17
+1207238,1207238,Fix Released,xenapi: metadata updates causing rebuild and resize to fail,https://bugs.launchpad.net/nova/+bug/1207238,2013-10-17
+1229075,1229075,Fix Released,Unable to add two identical metering rules on different labels,https://bugs.launchpad.net/neutron/+bug/1229075,2013-10-17
+1228212,1228212,Fix Released,TestNecPortBindingValidatePortInfo unit tests failing on longinteger conversion,https://bugs.launchpad.net/neutron/+bug/1228212,2013-10-17
+1218779,1218779,Fix Released,'PXE' object has no attribute 'get_pxe_config_file_path',https://bugs.launchpad.net/nova/+bug/1218779,2013-10-17
+1227927,1227927,Fix Released,bad request for lswitches created through NVPAdvancedPlugin,https://bugs.launchpad.net/neutron/+bug/1227927,2013-10-17
+1217315,1217315,Fix Released,incomplete message of coverage directory error,https://bugs.launchpad.net/nova/+bug/1217315,2013-10-17
+1227405,1227405,Fix Released,Fix bridge logical chaining,https://bugs.launchpad.net/neutron/+bug/1227405,2013-10-17
+1217068,1217068,Fix Released,compute rpcapi 2.29 is not backwards compatible,https://bugs.launchpad.net/nova/+bug/1217068,2013-10-17
+1227247,1227247,Fix Released,keyerror when booting a vm with specific port id,https://bugs.launchpad.net/neutron/+bug/1227247,2013-10-17
+1217044,1217044,Fix Released,compute rpcapi 2.37 is not backwards compatible,https://bugs.launchpad.net/nova/+bug/1217044,2013-10-17
+1226400,1226400,Fix Released,Not all exception information is propagated through API,https://bugs.launchpad.net/neutron/+bug/1226400,2013-10-17
+1215710,1215710,Fix Released,extension user_data v3 without alias prefix for request params,https://bugs.launchpad.net/nova/+bug/1215710,2013-10-17
+1226366,1226366,Fix Released,Raise an exception if starting neutron-l3-agent without creating a router,https://bugs.launchpad.net/neutron/+bug/1226366,2013-10-17
+1215704,1215704,Fix Released,extension availability-zone v3 without alias as prefix for request params,https://bugs.launchpad.net/nova/+bug/1215704,2013-10-17
+1225011,1225011,Fix Released,NvpAdvancedPlugin should redefine create_network too,https://bugs.launchpad.net/neutron/+bug/1225011,2013-10-17
+1215404,1215404,Fix Released,emit warning while running flake8 without virtual env,https://bugs.launchpad.net/nova/+bug/1215404,2013-10-17
+1228738,1228738,Fix Released,Remove camelcase for test names in this module,https://bugs.launchpad.net/neutron/+bug/1228738,2013-10-17
+1215019,1215019,Fix Released,The powervm driver should log ssh stderr as warning rather than debug,https://bugs.launchpad.net/nova/+bug/1215019,2013-10-17
+1221663,1221663,Fix Released,neutron.common.log.log does not print module path,https://bugs.launchpad.net/neutron/+bug/1221663,2013-10-17
+1214532,1214532,Fix Released,interface not deleted on unplug when using IVS,https://bugs.launchpad.net/nova/+bug/1214532,2013-10-17
+1218928,1218928,Fix Released,Change hard coded numbers to constants in security group tests,https://bugs.launchpad.net/neutron/+bug/1218928,2013-10-17
+1214523,1214523,Fix Released,fixed ips and floating ips can't be synced properly,https://bugs.launchpad.net/nova/+bug/1214523,2013-10-17
+1232189,1232189,Fix Released,increase number of concurrent_connections to nvp,https://bugs.launchpad.net/neutron/+bug/1232189,2013-10-17
+1214431,1214431,Fix Released,variable _host_state is initialized twice in __init__ method of libvirt driver,https://bugs.launchpad.net/nova/+bug/1214431,2013-10-17
+1214413,1214413,Fix Released,FC attach fails for single WWN,https://bugs.launchpad.net/nova/+bug/1214413,2013-10-17
+1214413,1214413,Fix Released,FC attach fails for single WWN,https://bugs.launchpad.net/cinder/+bug/1214413,2013-10-17
+1231124,1231124,Fix Released,ml2_conf.ini miss a section for VXLAN,https://bugs.launchpad.net/neutron/+bug/1231124,2013-10-17
+1214372,1214372,Fix Released,libvirt: allow passing 'os_type' property to glance when doing snapshot,https://bugs.launchpad.net/nova/+bug/1214372,2013-10-17
+1230184,1230184,Fix Released,allowed addr pairs support in nec plugin,https://bugs.launchpad.net/neutron/+bug/1230184,2013-10-17

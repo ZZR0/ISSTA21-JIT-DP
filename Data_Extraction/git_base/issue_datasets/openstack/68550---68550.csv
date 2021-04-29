@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1438228,1438228,Fix Released,[stats] Need to add api handlers to analytics to be able to get fuel and openstack stat,https://bugs.launchpad.net/fuel/+bug/1438228,2015-04-21
+1433092,1433092,Fix Released,Puppet debug checkbox on UI,https://bugs.launchpad.net/fuel/+bug/1433092,2015-04-21
+1440633,1440633,Fix Committed,Skipped tasks should be removed when drawing a graph,https://bugs.launchpad.net/fuel/+bug/1440633,2015-04-21
+1442010,1442010,Fix Released,Incorrect message in role tooltip,https://bugs.launchpad.net/fuel/+bug/1442010,2015-04-21
+1437283,1437283,Fix Released,Jenkins does not check gate-group-based-policy-specs-python27,https://bugs.launchpad.net/group-based-policy-specs/+bug/1437283,2015-04-21
+1440074,1440074,Fix Committed,All repositories added to CentOS environment are used with the same priority,https://bugs.launchpad.net/fuel/+bug/1440074,2015-04-21
+1437282,1437282,Fix Released,tox fails at the py27 environment,https://bugs.launchpad.net/group-based-policy-specs/+bug/1437282,2015-04-21
+1423990,1423990,Fix Released,/resource returns 404 should probably be list of resource types,https://bugs.launchpad.net/gnocchi/+bug/1423990,2015-04-21
+1437061,1437061,Fix Released,Swift driver fails sometimes on devstack-gate,https://bugs.launchpad.net/gnocchi/+bug/1437061,2015-04-21
+1435180,1435180,Fix Released,Devstack tests fail from time to time,https://bugs.launchpad.net/gnocchi/+bug/1435180,2015-04-21
+1444160,1444160,Fix Released,gnocchi/gendoc.py fails with recent WebOb,https://bugs.launchpad.net/gnocchi/+bug/1444160,2015-04-21
+1429949,1429949,Fix Released,bad metric id to metric API Endpoint results in 500 not 404,https://bugs.launchpad.net/gnocchi/+bug/1429949,2015-04-21
+1425588,1425588,Fix Released,requesting a resource with non-uuid causes 500 error,https://bugs.launchpad.net/gnocchi/+bug/1425588,2015-04-21
+1444122,1444122,Fix Released,Deployment of env with CephOSD as backend for Cinder and Glance in DualHypervisors mode(vCenter).,https://bugs.launchpad.net/fuel/+bug/1444122,2015-04-21
+1215300,1215300,Fix Released,Correct the status code to 201 for create v3,https://bugs.launchpad.net/openstack-api-site/+bug/1215300,2015-04-20
+1224447,1224447,Fix Released,Make v3 API  versions extensions core,https://bugs.launchpad.net/openstack-api-site/+bug/1224447,2015-04-20
+1424965,1424965,Fix Released,Move policy enforcement into REST API layer for v2.1 fping,https://bugs.launchpad.net/openstack-api-site/+bug/1424965,2015-04-20
+1219858,1219858,Fix Released,Make v3 API console-output extension core,https://bugs.launchpad.net/openstack-api-site/+bug/1219858,2015-04-20
+1197739,1197739,Fix Released,Demote admin-passwd from core of API v3 as extensions os-admin-passwd,https://bugs.launchpad.net/openstack-api-site/+bug/1197739,2015-04-20
+1285381,1285381,Fix Released,Heat puppet module isn't HA aware,https://bugs.launchpad.net/puppet-heat/+bug/1285381,2015-04-20
+1436839,1436839,Fix Released,test_update_instance_port_admin_state test in scenario.test_network_basic_ops should be skipped when changing the port admin state is not supported,https://bugs.launchpad.net/tempest/+bug/1436839,2015-04-20
+1446309,1446309,Fix Released,tempest.tests.common.test_accounts.TestAccount.test__get_creds_by_roles_no_admin race fails,https://bugs.launchpad.net/tempest/+bug/1446309,2015-04-20
+1246795,1246795,Fix Released,Could not prefetch neutron_net provider 'neutron',https://bugs.launchpad.net/fuel/+bug/1246795,2015-04-20
+1436965,1436965,Fix Committed,Configure appropriate readonly fields in REST API,https://bugs.launchpad.net/cue/+bug/1436965,2015-04-20
+1444647,1444647,Fix Released,[network] CRITICAL neutron [-] ConfigFileValueError: value for option enable_distributed_routing is not valid: Unexpected boolean value '',https://bugs.launchpad.net/openstack-chef/+bug/1444647,2015-04-20
+1446035,1446035,Fix Released,"[comptue]Should configure ""reserved_host_memory_mb"" attribute to support bare metal",https://bugs.launchpad.net/openstack-chef/+bug/1446035,2015-04-20
+1381525,1381525,Fix Released,Can't get gerrit trigger operational in OSCI,https://bugs.launchpad.net/fuel/+bug/1381525,2015-04-20
+1418451,1418451,Fix Released,Fork pupet modules from openstack-infra,https://bugs.launchpad.net/fuel/+bug/1418451,2015-04-20
+1419832,1419832,Fix Released,number of errors during iso build,https://bugs.launchpad.net/fuel/+bug/1419832,2015-04-20
+1438415,1438415,Fix Released,Some network tests failing with IndexError,https://bugs.launchpad.net/devstack/+bug/1438415,2015-04-20
+1432065,1432065,Fix Released,"DBDeadlock: (OperationalError) (1213, 'Deadlock found when trying to get lock; try restarting transaction') 'DELETE FROM ipallocationpools WHERE ipallocationpools.id",https://bugs.launchpad.net/neutron/+bug/1432065,2015-04-20
+1383439,1383439,Fix Released,KeyError: 'private' in *-grenade-dsvm-neutron javelin logs,https://bugs.launchpad.net/openstack-gate/+bug/1383439,2015-04-20
+1430592,1430592,Fix Released,"testtools-1.7.0 triggering  pkg_resources.VersionConflict: (unittest2 0.5.1 (/usr/lib/python2.7/dist-packages), Requirement.parse('unittest2>=1.0.0'))",https://bugs.launchpad.net/devstack/+bug/1430592,2015-04-20
+1441058,1441058,Fix Released,Unable to override external plugin default configurations,https://bugs.launchpad.net/devstack/+bug/1441058,2015-04-20
+1337861,1337861,Fix Released,[sahara] Add link to the image to Sahara Health check tests,https://bugs.launchpad.net/fuel/+bug/1337861,2015-04-20
+1444192,1444192,Fix Released,Mistral oslo.config requirement conflicts with python-keystoneclient's oslo.config requirements,https://bugs.launchpad.net/mistral/+bug/1444192,2015-04-20
+1444155,1444155,Fix Released,action_context should contain action execution ID,https://bugs.launchpad.net/mistral/+bug/1444155,2015-04-20
+1411853,1411853,Fix Released,task is stuck in a running state on YAQL error,https://bugs.launchpad.net/mistral/+bug/1411853,2015-04-20
+1420617,1420617,Fix Released,Execution creation failed since missing db column,https://bugs.launchpad.net/mistral/+bug/1420617,2015-04-20
+1436050,1436050,Fix Released,"[identity] Need to create standard ""service"" role",https://bugs.launchpad.net/openstack-chef/+bug/1436050,2015-04-20
+1423018,1423018,Fix Released,Docker Package Includes Push Bug,https://bugs.launchpad.net/kolla/+bug/1423018,2015-04-20
+1439138,1439138,Fix Committed,[osci] re-implement comments to LP bugs,https://bugs.launchpad.net/fuel/+bug/1439138,2015-04-20
+1444892,1444892,Fix Released,[bare-metal]Wrong configuration about image service api scheme,https://bugs.launchpad.net/openstack-chef/+bug/1444892,2015-04-20
+1440791,1440791,Fix Released,Creation of .img artifact should be removed,https://bugs.launchpad.net/fuel/+bug/1440791,2015-04-20
+1442335,1442335,Fix Released,Extra confirmation before cluster removal,https://bugs.launchpad.net/fuel/+bug/1442335,2015-04-20
+1431870,1431870,Fix Released,Countries and provinces in Create Account dialog,https://bugs.launchpad.net/fuel/+bug/1431870,2015-04-20
+1442700,1442700,Fix Released,Successful message of network verification adjoins closely to the scheme for Chinese,https://bugs.launchpad.net/fuel/+bug/1442700,2015-04-20
+1374349,1374349,Fix Released,Signing error: Error opening signer certificate /etc/keystone/ssl/certs/signing_cert.pem,https://bugs.launchpad.net/fuel/+bug/1374349,2015-04-20
+1380649,1380649,Fix Released,deb/rpm for mistral package,https://bugs.launchpad.net/fuel/+bug/1380649,2015-04-20
+1433658,1433658,Fix Released,[OSCI] ci bot must be publish only in fuel/mos space,https://bugs.launchpad.net/fuel/+bug/1433658,2015-04-20
+1437332,1437332,Fix Released,We should make a script that allows to upload results of Tempest tests to TestRail,https://bugs.launchpad.net/fuel/+bug/1437332,2015-04-20
+1412486,1412486,Fix Released,APIException doesn't have error code,https://bugs.launchpad.net/python-mistralclient/+bug/1412486,2015-04-20
+1443415,1443415,Fix Committed,Need to remove colon for two cloud validation OSTF tests,https://bugs.launchpad.net/fuel/+bug/1443415,2015-04-20
+1445649,1445649,Fix Released,[network] network cookbook uses wrong package names for *aaS packages,https://bugs.launchpad.net/openstack-chef/+bug/1445649,2015-04-20
+1444267,1444267,Fix Released,n-cpu process fail when run ./rejoin-stack,https://bugs.launchpad.net/devstack/+bug/1444267,2015-04-20
+1398128,1398128,Fix Released,ironic tempest tests periodically failing: No valid host was found,https://bugs.launchpad.net/devstack/+bug/1398128,2015-04-19
+1438341,1438341,Fix Committed,Duplicate code in api test_clusters,https://bugs.launchpad.net/cue/+bug/1438341,2015-04-19
+1441310,1441310,Fix Released,[network] ['network']['dhcp']['dnsmasq_rpm_source'] used before it's defined,https://bugs.launchpad.net/openstack-chef/+bug/1441310,2015-04-18
+1433405,1433405,Fix Released,[all]Couldn't set kombu ssl version after enabling rabbit ssl,https://bugs.launchpad.net/openstack-chef/+bug/1433405,2015-04-18
+1444696,1444696,Fix Released,[commmon] render_config_file with_section_content  only checks first section,https://bugs.launchpad.net/openstack-chef/+bug/1444696,2015-04-18
+1438455,1438455,Fix Released,Use the unscoped token for listing user project and scoping,https://bugs.launchpad.net/django-openstack-auth/+bug/1438455,2015-04-17
+1407874,1407874,Fix Released,[network] network cookbook should call neutron-db-manage for Neutron advance services,https://bugs.launchpad.net/openstack-chef/+bug/1407874,2015-04-17
+1442238,1442238,Fix Released,Networking architecture - Grammatical Mistake,https://bugs.launchpad.net/openstack-manuals/+bug/1442238,2015-04-17
+1445599,1445599,Fix Released,Security notes (OSSN) that fail pep standards for line length merged anyway?,https://bugs.launchpad.net/openstack-manuals/+bug/1445599,2015-04-17
+1392718,1392718,Fix Released,Sticky region selection in Login page,https://bugs.launchpad.net/horizon/+bug/1392718,2015-04-17
+1392718,1392718,Fix Released,Sticky region selection in Login page,https://bugs.launchpad.net/django-openstack-auth/+bug/1392718,2015-04-17
+1421799,1421799,Fix Released,"Sphinx template needs precise ""Log a doc bug"" link created on-demand similar to current functionality",https://bugs.launchpad.net/openstack-manuals/+bug/1421799,2015-04-17
+1419163,1419163,Fix Released,tls-proxy is not proxying Sahara,https://bugs.launchpad.net/devstack/+bug/1419163,2015-04-17
+1419162,1419162,Fix Released,Sahara ignores USE_SSL option,https://bugs.launchpad.net/devstack/+bug/1419162,2015-04-17
+1410614,1410614,Fix Released,need to enable ceilometer-agent-ipmi,https://bugs.launchpad.net/devstack/+bug/1410614,2015-04-17
+1030798,1030798,Fix Released,rabbitmq service not starting,https://bugs.launchpad.net/devstack/+bug/1030798,2015-04-17
+1225395,1225395,Fix Released,"(Ubuntu) Add logic to verify presence of packages: python-dev, libxml2-dev,libxslt-dev",https://bugs.launchpad.net/devstack/+bug/1225395,2015-04-17
+1430250,1430250,Fix Committed,Fix VIP assignment logic to support lists of vip types,https://bugs.launchpad.net/fuel/+bug/1430250,2015-04-17
+1439269,1439269,Fix Committed,Deprecation warnings break integration tests,https://bugs.launchpad.net/fuel/+bug/1439269,2015-04-17
+1414716,1414716,Fix Released,[system-tests] Not enough timeout for ha_haproxy termination test,https://bugs.launchpad.net/fuel/+bug/1414716,2015-04-17

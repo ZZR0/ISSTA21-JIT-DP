@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1604371,1604371,Fix Released,If there are no nodes to introspect (in a manageable state) the tripleo client crashes,https://bugs.launchpad.net/tripleo/+bug/1604371,2016-09-01
+1606820,1606820,Fix Released,"[python-tripleoclient] ""openstack overcloud deploy"" command help inconsistent format for ""-e"" option",https://bugs.launchpad.net/tripleo/+bug/1606820,2016-09-01
+1605876,1605876,Fix Released,openstackclient plugins using private attributes,https://bugs.launchpad.net/python-heatclient/+bug/1605876,2016-09-01
+1605876,1605876,Fix Released,openstackclient plugins using private attributes,https://bugs.launchpad.net/tripleo/+bug/1605876,2016-09-01
+1605876,1605876,Fix Released,openstackclient plugins using private attributes,https://bugs.launchpad.net/python-mistralclient/+bug/1605876,2016-09-01
+1608624,1608624,Fix Released,Validation errors should be fatal by default,https://bugs.launchpad.net/tripleo/+bug/1608624,2016-09-01
+1607407,1607407,Fix Released,New CephX keys aren't generated on update/upgrade,https://bugs.launchpad.net/tripleo/+bug/1607407,2016-09-01
+1611284,1611284,Fix Released,[tripleoclient] Wrong message displayed when running introspect_manageable_nodes workflow,https://bugs.launchpad.net/tripleo/+bug/1611284,2016-09-01
+1614115,1614115,Fix Released,"Confusing 'Skipping ""horizon"" postconfig' message printed",https://bugs.launchpad.net/tripleo/+bug/1614115,2016-09-01
+1595205,1595205,Fix Released,"[tripleoclient] Additional ""overcloud node"" commands",https://bugs.launchpad.net/tripleo/+bug/1595205,2016-09-01
+1595125,1595125,Fix Released,fact by network are failing when facter.value is nil,https://bugs.launchpad.net/puppet-tripleo/+bug/1595125,2016-09-01
+1600652,1600652,Fix Released,os-collect-config has no timeout on collector requests get,https://bugs.launchpad.net/tripleo/+bug/1600652,2016-09-01
+1595402,1595402,Fix Released,undercloud endpoints are not set to https on if cert is not given but autogenerate is,https://bugs.launchpad.net/tripleo/+bug/1595402,2016-09-01
+1604770,1604770,Fix Released,introspection hangs due to broken ipxe config,https://bugs.launchpad.net/tripleo/+bug/1604770,2016-09-01
+1605349,1605349,Fix Released,"instack-undercloud fails to install, w/ touch: cannot touch ‘/opt/stack/.undercloud-setup’: No such file or directory",https://bugs.launchpad.net/tripleo/+bug/1605349,2016-09-01
+1610935,1610935,Fix Released,Undercloud Glance images are not available after upgrade to Newton,https://bugs.launchpad.net/tripleo/+bug/1610935,2016-09-01
+1613088,1613088,Fix Released,tripleo-ci: periodic nonha job failing to promote due to SSL,https://bugs.launchpad.net/tripleo/+bug/1613088,2016-09-01
+1609319,1609319,Fix Released,Bug in keystone per domain backend support,https://bugs.launchpad.net/kolla/+bug/1609319,2016-09-01
+1543221,1543221,Fix Released,Illegal OpCode after Ubuntu install on ProLiant DL380 Gen9 with  RAID,https://bugs.launchpad.net/fuel/+bug/1543221,2016-09-01
+1550501,1550501,Fix Released,the 'ovs_use_veth' and 'veth_mtu' options should be deprecated,https://bugs.launchpad.net/neutron/+bug/1550501,2016-09-01
+1609000,1609000,Fix Released,repair aodh dockerfile,https://bugs.launchpad.net/kolla/+bug/1609000,2016-09-01
+1604064,1604064,Fix Released,ovn ml2 mechanism driver tcp connectors,https://bugs.launchpad.net/networking-ovn/+bug/1604064,2016-09-01
+1607682,1607682,Fix Released,[fuel-qa] Yum don't clear all octane data,https://bugs.launchpad.net/fuel/+bug/1607682,2016-09-01
+1582255,1582255,Fix Released,Can't create env with Cinder Block Device via fuel_web.client,https://bugs.launchpad.net/fuel/+bug/1582255,2016-09-01
+1619190,1619190,Fix Released,tripleo/validate pingtest fails during promotion jobs,https://bugs.launchpad.net/tripleo-quickstart/+bug/1619190,2016-09-01
+1616959,1616959,Fix Released,Authorization reset after page refresh,https://bugs.launchpad.net/fuel/+bug/1616959,2016-09-01
+1566259,1566259,Fix Released,Upgrades job failing with ControllerServiceChain config_settings error,https://bugs.launchpad.net/tripleo/+bug/1566259,2016-09-01
+1585992,1585992,Fix Committed,Changing target node hostname to '3-edon' stops dnsmasq on Fuel master and breaks deployment process,https://bugs.launchpad.net/fuel/+bug/1585992,2016-09-01
+1618857,1618857,Fix Released,Can't save changes in the deployment configuration dialog,https://bugs.launchpad.net/tripleo-ui/+bug/1618857,2016-09-01
+1604428,1604428,Fix Released,NoSuchOptError: no such option in group neutron: auth_plugin,https://bugs.launchpad.net/nova/+bug/1604428,2016-09-01
+1619198,1619198,Fix Released,Only one tag being checked during get_ready_image_names call,https://bugs.launchpad.net/fuel-ccp/+bug/1619198,2016-09-01
+1604517,1604517,Fix Released,replace the native quickstart inventory with github.com/redhat-openstack/ansible-role-tripleo-inventory,https://bugs.launchpad.net/tripleo-quickstart/+bug/1604517,2016-09-01
+1619252,1619252,Fix Released,kuryr-libnetwork config generation can produce the wrong output,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1619252,2016-09-01
+1619251,1619251,Fix Released,[Plugin CI] ldap lib packages are absent on slaves,https://bugs.launchpad.net/fuel/+bug/1619251,2016-09-01
+1603193,1603193,Fix Released,oslo.context (2.6.0) tests fail with is_admin_project mismatch,https://bugs.launchpad.net/senlin/+bug/1603193,2016-09-01
+1604648,1604648,Fix Released,Scaling out several  vms failure when lb_policy attached,https://bugs.launchpad.net/senlin/+bug/1604648,2016-09-01
+1606817,1606817,Fix Released,Tutorial doc code is out of date,https://bugs.launchpad.net/senlin/+bug/1606817,2016-09-01
+1613142,1613142,Fix Released,resource metadata field are not correctly persisted into db,https://bugs.launchpad.net/senlin/+bug/1613142,2016-09-01
+1613552,1613552,Fix Released,health-manager unable to pick clusters for listening,https://bugs.launchpad.net/senlin/+bug/1613552,2016-09-01
+1615874,1615874,Fix Released,some new typos in senlin,https://bugs.launchpad.net/senlin/+bug/1615874,2016-09-01
+1564784,1564784,Fix Released,Protect node form deleting when node status is creating,https://bugs.launchpad.net/senlin/+bug/1564784,2016-09-01
+1614450,1614450,Fix Released,Scale-in with deletion-policy and the criteria is OLDEST_FIRST failed,https://bugs.launchpad.net/senlin/+bug/1614450,2016-09-01
+1619144,1619144,Fix Released,Container  id is too long to store,https://bugs.launchpad.net/senlin/+bug/1619144,2016-09-01
+1616188,1616188,Fix Released,.pyc files should be cleaned up after updates,https://bugs.launchpad.net/fuel/+bug/1616188,2016-09-01
+1618297,1618297,Fix Released,Baremetal pre-install playbook cannot install python-simplejson on fresh ubuntu 14.04,https://bugs.launchpad.net/kolla/+bug/1618297,2016-09-01
+1616969,1616969,Fix Released,DevStack: OSError: [Errno 13] Permission denied: '/var/log/ironic',https://bugs.launchpad.net/ironic/+bug/1616969,2016-09-01
+1557519,1557519,Fix Released,pecan: plugin association code not handling plurals and quotas,https://bugs.launchpad.net/neutron/+bug/1557519,2016-09-01
+1602157,1602157,Fix Released,existing_users context  cannot fetch 'tenant' and 'user' details from cloud deployment,https://bugs.launchpad.net/rally/+bug/1602157,2016-09-01
+1613528,1613528,Fix Released,Set up MTU docker interface,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1613528,2016-09-01
+1595081,1595081,Fix Released,[keystone v3] Rally task's test user role setting failed,https://bugs.launchpad.net/rally/+bug/1595081,2016-09-01
+1570087,1570087,Fix Released,Cloud Server image/flavor validation always fails when metadata is missing,https://bugs.launchpad.net/heat/+bug/1570087,2016-09-01
+1585206,1585206,Fix Released,ResourceGroup removal_policies not applied on create,https://bugs.launchpad.net/heat/+bug/1585206,2016-09-01
+1612238,1612238,Fix Released,Bad Template Link in Contributing > Blueprints Doc,https://bugs.launchpad.net/heat/+bug/1612238,2016-09-01
+1591098,1591098,Fix Released,Cannot pass attribute of resource into the OS::Nova::Server image,https://bugs.launchpad.net/heat/+bug/1591098,2016-09-01
+1597602,1597602,Fix Released,unable to update a non-healthy nova keypair,https://bugs.launchpad.net/heat/+bug/1597602,2016-09-01
+1377016,1377016,Fix Released,doc of outputs attribute of OS::Heat::AutoScalingGroup fails to mention path,https://bugs.launchpad.net/heat/+bug/1377016,2016-09-01
+1581447,1581447,Fix Released,cross-reference of heat resources/attributes fails with circular dependency.,https://bugs.launchpad.net/heat/+bug/1581447,2016-09-01
+1601921,1601921,Fix Released,hidden properties and attributes are shown in resource-type-template,https://bugs.launchpad.net/heat/+bug/1601921,2016-09-01
+1598044,1598044,Fix Released,OS::Heat::ScalingPolicy does not consider any Alarm but alarm status,https://bugs.launchpad.net/heat/+bug/1598044,2016-09-01
+1606148,1606148,Fix Released,Heat returns a 500 on empty parameters section,https://bugs.launchpad.net/heat/+bug/1606148,2016-09-01
+1606951,1606951,Fix Released,is_using_neutron method returns True even if there is no neutron endpoint,https://bugs.launchpad.net/heat/+bug/1606951,2016-09-01
+1607177,1607177,Fix Released,test_api_reload_on_sighup failure,https://bugs.launchpad.net/heat/+bug/1607177,2016-09-01
+1607222,1607222,Fix Released,is_using_neutron always return False,https://bugs.launchpad.net/heat/+bug/1607222,2016-09-01
+1591341,1591341,Fix Released,Nested stack creates are not cancelled when a sibling resource fails,https://bugs.launchpad.net/heat/+bug/1591341,2016-09-01
+1608910,1608910,Fix Released,test_purge_project_id fail on gate-heat-dsvm-functional-orig-mysql-lbaasv2,https://bugs.launchpad.net/heat/+bug/1608910,2016-09-01
+1608409,1608409,Fix Released,Predictable resource group index,https://bugs.launchpad.net/heat/+bug/1608409,2016-09-01
+1608452,1608452,Fix Released,Heat stack fails when stack_scheduler_hints is enabled,https://bugs.launchpad.net/heat/+bug/1608452,2016-09-01
+1301320,1301320,Fix Released,There are no accessibilities for the backup_stack,https://bugs.launchpad.net/heat/+bug/1301320,2016-09-01
+1597593,1597593,Fix Released,heat logs missing modules as exceptions,https://bugs.launchpad.net/heat/+bug/1597593,2016-09-01
+1613881,1613881,Fix Released,convert_json_to_yaml can corrupt data,https://bugs.launchpad.net/heat/+bug/1613881,2016-09-01
+1606150,1606150,Fix Released,OS::Glance::Image missing several properties,https://bugs.launchpad.net/heat/+bug/1606150,2016-09-01
+1595040,1595040,Fix Released,Use config replace_on_change flag to decide whether to replace a deployment resource,https://bugs.launchpad.net/heat/+bug/1595040,2016-09-01
+1614960,1614960,Fix Released,convergence: stack remains in in progress state,https://bugs.launchpad.net/heat/+bug/1614960,2016-09-01
+1613669,1613669,Fix Released,custom guidelines raises an error on opening non-existing files,https://bugs.launchpad.net/heat/+bug/1613669,2016-09-01
+1605485,1605485,Fix Released,parameter doesn't represent in template after stack update failed,https://bugs.launchpad.net/heat/+bug/1605485,2016-09-01

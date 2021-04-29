@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1556028,1556028,Fix Released,Nailgun: random failures of test_do_not_redeploy_nodes_in_ready_status,https://bugs.launchpad.net/fuel/+bug/1556028,2016-06-21
+1594656,1594656,Fix Released,nested_level data type incorrect in testcase <create_nested_snapshots_and_attach_volume.json>,https://bugs.launchpad.net/rally/+bug/1594656,2016-06-21
+1560931,1560931,Fix Released,Align test descriptions in fuel-qa with descriptions in Testrail for acceptance suite,https://bugs.launchpad.net/fuel/+bug/1560931,2016-06-21
+1552805,1552805,Fix Released,Mcollective agent confuses puppet pid while puppet agent is running,https://bugs.launchpad.net/fuel/+bug/1552805,2016-06-21
+1570943,1570943,Fix Released,Fill root filesystem on primary controller and check pacemakerTest  fails on attempts to connect to online controllers,https://bugs.launchpad.net/fuel/+bug/1570943,2016-06-21
+1553236,1553236,Fix Committed,plain text passwords in cloud-init templates,https://bugs.launchpad.net/fuel/+bug/1553236,2016-06-21
+1566324,1566324,Fix Committed,Fix timeout in change_pacemaker_parameter_not_break_rabbitmq test,https://bugs.launchpad.net/fuel/+bug/1566324,2016-06-21
+1563434,1563434,Fix Released,There is no deployment serialised data in DB in case of non-lcm serialisers,https://bugs.launchpad.net/fuel/+bug/1563434,2016-06-21
+1583506,1583506,Fix Released,Stopping logic for ovs-dpdk is wrong,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1583506,2016-06-21
+1542201,1542201,Fix Released,Cluster has 'new' status after deployment,https://bugs.launchpad.net/fuel/+bug/1542201,2016-06-21
+1422435,1422435,Fix Released,No feedback between fuel ui and granular deployment,https://bugs.launchpad.net/fuel/+bug/1422435,2016-06-21
+1566432,1566432,Fix Released,Need to add tests that use separate provision and deploy for each role separately over cli,https://bugs.launchpad.net/fuel/+bug/1566432,2016-06-21
+1587466,1587466,Fix Released,Need to increase size of RAM for  virtual machines to deploy_bonding_neutron_vlan,https://bugs.launchpad.net/fuel/+bug/1587466,2016-06-21
+1583187,1583187,Fix Committed,Validation message for number of SR-IOV virtual functions is inaccurate,https://bugs.launchpad.net/fuel/+bug/1583187,2016-06-21
+1529267,1529267,Fix Released,Useless docs folder in Astute repository,https://bugs.launchpad.net/fuel/+bug/1529267,2016-06-21
+1546134,1546134,Fix Released,fuel-utils check_all fails because of missing bootstrap profile,https://bugs.launchpad.net/fuel/+bug/1546134,2016-06-21
+1582279,1582279,Fix Released,Glance (swift) download broken after Kilo to Liberty Upgrade,https://bugs.launchpad.net/openstack-ansible/+bug/1582279,2016-06-21
+1564363,1564363,Fix Committed,Check cluster settings before and after the deploy,https://bugs.launchpad.net/fuel/+bug/1564363,2016-06-21
+1520234,1520234,Fix Released,"The test ""deploy_neutron_vlan_ha_with_public_network"" failed with error:  Some untagged networks are assigned to the same physical interface",https://bugs.launchpad.net/fuel/+bug/1520234,2016-06-21
+1558797,1558797,Fix Released,[nailgun][test] Sporadic fail in EnvironmentManager.stop_deployment(),https://bugs.launchpad.net/fuel/+bug/1558797,2016-06-21
+1586422,1586422,Fix Released,Nodes after custom group deletion not moved to 'error' state,https://bugs.launchpad.net/fuel/+bug/1586422,2016-06-21
+1564610,1564610,Fix Released,Logrotate does not freed space of one week /var/log/messages file,https://bugs.launchpad.net/fuel/+bug/1564610,2016-06-21
+1549395,1549395,Fix Released,Need add possibility change socket timeout in _tcp_ping helper,https://bugs.launchpad.net/fuel/+bug/1549395,2016-06-21
+1519290,1519290,Fix Released,Inconsistent error format for network validation errors,https://bugs.launchpad.net/fuel/+bug/1519290,2016-06-21
+1558634,1558634,Fix Released,[nailgun][test] Sporadic fail in EnvironmentManager.wait_ready,https://bugs.launchpad.net/fuel/+bug/1558634,2016-06-21
+1554106,1554106,Fix Released,Need to know an ID of network with wrong configuration during uploading new network yaml-file to an environment.,https://bugs.launchpad.net/fuel/+bug/1554106,2016-06-21
+1578664,1578664,Fix Released,[system-tests] cli_deploy_tasks uses not sorted list of node ids,https://bugs.launchpad.net/fuel/+bug/1578664,2016-06-21
+1560669,1560669,Fix Released,Some tests does't match with them descriptions,https://bugs.launchpad.net/fuel/+bug/1560669,2016-06-21
+1562017,1562017,Fix Released,fuel_logs.py failed while parsing puppet logs for a cluster from master node,https://bugs.launchpad.net/fuel/+bug/1562017,2016-06-21
+1549238,1549238,Fix Released,We should remove initialize=True from show_step as it is unnecessary,https://bugs.launchpad.net/fuel/+bug/1549238,2016-06-21
+1558474,1558474,Fix Released,[system test] Upload description script uses old runner for collect groups,https://bugs.launchpad.net/fuel/+bug/1558474,2016-06-21
+1583526,1583526,Fix Released,[Contrail 4.0.0] OSTF failled for ceilometer,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1583526,2016-06-21
+1537715,1537715,Fix Released,Deployment fails with special characters in the admin's password,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1537715,2016-06-21
+1544335,1544335,Fix Released,Copy merge_yaml_settings type from nailgun to fuel,https://bugs.launchpad.net/fuel/+bug/1544335,2016-06-21
+1565702,1565702,Fix Released,[Reboot plugin] Deployment of cluster with plugin containing reboot task fails with different errors,https://bugs.launchpad.net/fuel/+bug/1565702,2016-06-21
+1483286,1483286,Fix Released,Update and purge YAML file sample in the noop tests,https://bugs.launchpad.net/fuel/+bug/1483286,2016-06-21
+1520513,1520513,Fix Released,"fuel-nailgun package should create all necessary directories, group and user",https://bugs.launchpad.net/fuel/+bug/1520513,2016-06-21
+1560477,1560477,Fix Released,ValueError: No JSON object Exception when changing ENV_FUEL and KEYSTONE password,https://bugs.launchpad.net/fuel/+bug/1560477,2016-06-21
+1576182,1576182,Fix Released,[TestRail] Bugs statistics generation fails: 'TypeError: expected string or buffer',https://bugs.launchpad.net/fuel/+bug/1576182,2016-06-21
+1593682,1593682,Fix Released,YAQL related issues in Docker apps,https://bugs.launchpad.net/murano-apps/+bug/1593682,2016-06-21
+1573641,1573641,Fix Released,[system-test] Verify that the information stored in the database via the fuel_cli,https://bugs.launchpad.net/fuel/+bug/1573641,2016-06-21
+1552990,1552990,Fix Released,genisoimage required on Compute nodes to use config-drive as CD-ROM,https://bugs.launchpad.net/fuel/+bug/1552990,2016-06-21
+1558008,1558008,Fix Released,TestRail report tool should update tests fields,https://bugs.launchpad.net/fuel/+bug/1558008,2016-06-21
+1590366,1590366,Fix Released,[system-tests] Log message for connectivity_tests.pp changed,https://bugs.launchpad.net/fuel/+bug/1590366,2016-06-21
+1556123,1556123,Fix Released,The attrd_updater is misused in the OCF RA,https://bugs.launchpad.net/fuel/+bug/1556123,2016-06-21
+1558028,1558028,Fix Released,[TestImpact] Write scenario for fuel menu enabling by default,https://bugs.launchpad.net/fuel/+bug/1558028,2016-06-21
+1570248,1570248,Fix Released,[fuel-qa][fuel-ci] Deployment test for fuel-web missed regreission in verify_networks,https://bugs.launchpad.net/fuel/+bug/1570248,2016-06-21
+1583530,1583530,Fix Released,Add test on separate haproxy node,https://bugs.launchpad.net/fuel/+bug/1583530,2016-06-21
+1562796,1562796,Fix Released,[fuel] [scf-9.0] Deployment failed while running url_access_checker on bootstraped controller slave,https://bugs.launchpad.net/fuel/+bug/1562796,2016-06-21
+1551346,1551346,Fix Released,fuel-nailgun-agent deployment test on review,https://bugs.launchpad.net/fuel/+bug/1551346,2016-06-21
+1527111,1527111,Fix Released,Settings processing in fuel-menu is inconsistent,https://bugs.launchpad.net/fuel/+bug/1527111,2016-06-21
+1540456,1540456,Fix Released,fuel-library noop tests does not account context when showing catalog,https://bugs.launchpad.net/fuel/+bug/1540456,2016-06-21
+1542501,1542501,Fix Released,noop tests fail for ubuntu tests on OSX,https://bugs.launchpad.net/fuel/+bug/1542501,2016-06-21
+1584722,1584722,Fix Released,Use root user in numa_cpu tests,https://bugs.launchpad.net/fuel/+bug/1584722,2016-06-21
+1587435,1587435,Fix Released,Fix deploy_cluster_with_reboot_plugin test,https://bugs.launchpad.net/fuel/+bug/1587435,2016-06-21
+1529852,1529852,Fix Released,"Option ""amqp_durable_queues""  is deprecated",https://bugs.launchpad.net/fuel/+bug/1529852,2016-06-21
+1521991,1521991,Fix Released,VMware: Create volume from snapshot/volume failed if source volume exist in another datacenter,https://bugs.launchpad.net/cinder/+bug/1521991,2016-06-21
+1561739,1561739,Fix Released,unorphan openstac::swift::rebalance_cronjob,https://bugs.launchpad.net/fuel/+bug/1561739,2016-06-21
+1527662,1527662,Fix Released,diagnostic snapshots do not include apache configurations,https://bugs.launchpad.net/fuel/+bug/1527662,2016-06-21
+1563260,1563260,Fix Released,[system-test] New runner duplicates groups when push them into proboscis plan,https://bugs.launchpad.net/fuel/+bug/1563260,2016-06-21
+1564991,1564991,Fix Released,deploy_cluster_with_reboot_plugin_timeout.deploy_cluster_with_reboot_plugin_timeout failed with index error,https://bugs.launchpad.net/fuel/+bug/1564991,2016-06-21
+1561934,1561934,Fix Released,systest deploy_neutron_stop_reset_on_provisioning don't have step in action's that described in docstring,https://bugs.launchpad.net/fuel/+bug/1561934,2016-06-21
+1578681,1578681,Fix Released,Tests with stop re-deployment of ready cluster fails because stop action is allowed now,https://bugs.launchpad.net/fuel/+bug/1578681,2016-06-21
+1587329,1587329,Fix Committed,[Racks] Wrong order of data.,https://bugs.launchpad.net/fuel/+bug/1587329,2016-06-21
+1567122,1567122,Fix Committed,Ability to delete IPv4 network in Racks,https://bugs.launchpad.net/fuel/+bug/1567122,2016-06-21
+1498446,1498446,Fix Released,fuel-menu allows using the same IP settings for different NICs,https://bugs.launchpad.net/fuel/+bug/1498446,2016-06-21
+1564404,1564404,Fix Released,Update fuelmenu pallet to reflect Fuel color scheme,https://bugs.launchpad.net/fuel/+bug/1564404,2016-06-21
+1534181,1534181,Fix Released,"Fuelmenu problem with ""Save and Continue""",https://bugs.launchpad.net/fuel/+bug/1534181,2016-06-21
+1545549,1545549,Fix Released,some test cases are missing in cluster functional test,https://bugs.launchpad.net/senlin/+bug/1545549,2016-06-21
+1562768,1562768,Fix Released,[api-ref][Clustering API v1] Description of listing all policies for a cluster is missed the Response Parameters table.,https://bugs.launchpad.net/senlin/+bug/1562768,2016-06-21
+1545025,1545025,Fix Released,Merge new patch into reporting tool (custom-scripts).,https://bugs.launchpad.net/fuel/+bug/1545025,2016-06-21
+1555714,1555714,Fix Released,Permissions in kolla and kolla-mesos repositories,https://bugs.launchpad.net/fuel/+bug/1555714,2016-06-21
+1558421,1558421,Fix Released,Merge reporting tool documentation,https://bugs.launchpad.net/fuel/+bug/1558421,2016-06-21
+1561996,1561996,Fix Released,Merge gerrit-query logging patch into reporting tool (custom-scripts),https://bugs.launchpad.net/fuel/+bug/1561996,2016-06-21
+1561058,1561058,Fix Released,Update reporting tool config (custom-scripts),https://bugs.launchpad.net/fuel/+bug/1561058,2016-06-21

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1308419,1308419,Fix Released,requesting empty task list fails when using v2 api with registry,https://bugs.launchpad.net/glance/+bug/1308419,2014-10-16
+1340970,1340970,Fix Released,Excessive logging due to defaults being unset in tests,https://bugs.launchpad.net/keystone/+bug/1340970,2014-10-16
+1298039,1298039,Fix Released,Glance Tests Will Fail With psutil 2.0.0,https://bugs.launchpad.net/glance/+bug/1298039,2014-10-16
+1334779,1334779,Fix Released,db_sync breaks in non-utf8 databases on region table,https://bugs.launchpad.net/keystone/+bug/1334779,2014-10-16
+1292455,1292455,Fix Released,In some case lose information of the first exception in store.rbd.Store,https://bugs.launchpad.net/glance/+bug/1292455,2014-10-16
+1332831,1332831,Fix Released,order of user list appears inconsistent,https://bugs.launchpad.net/keystone/+bug/1332831,2014-10-16
+1324260,1324260,Fix Released,Always migrate the the db for extensions instead of conditionally,https://bugs.launchpad.net/keystone/+bug/1324260,2014-10-16
+1302658,1302658,Fix Released,Sheepdog store accept GET and DELETE request still even failed to configure essential option,https://bugs.launchpad.net/glance/+bug/1302658,2014-10-16
+1321804,1321804,Fix Released,Information leakage from the error message for user creation,https://bugs.launchpad.net/keystone/+bug/1321804,2014-10-16
+1287506,1287506,Fix Released,BadStoreUri doesn't get the expected arguments in several places,https://bugs.launchpad.net/glance/+bug/1287506,2014-10-16
+1316657,1316657,Fix Released,"500 error in case request body is a valid json object, but not a dict",https://bugs.launchpad.net/keystone/+bug/1316657,2014-10-16
+1311142,1311142,Fix Released,Cache records for get_*_by_name are not invalidated on entity rename,https://bugs.launchpad.net/keystone/+bug/1311142,2014-10-16
+1291366,1291366,Fix Released,documentation should advice against using pki_setup and ssl_setup,https://bugs.launchpad.net/keystone/+bug/1291366,2014-10-16
+1283943,1283943,Fix Released,Update keystone docs,https://bugs.launchpad.net/keystone/+bug/1283943,2014-10-16
+1314007,1314007,Fix Released,"run_tests.sh failed by  ""No module named tools"" exception",https://bugs.launchpad.net/glance/+bug/1314007,2014-10-16
+1273975,1273975,Fix Released,"when ""v2/images"" API with ""changes-since"" option is requested, Glance API Server returns 500 code",https://bugs.launchpad.net/glance/+bug/1273975,2014-10-16
+1205506,1205506,Fix Released,get_group_project_roles() asks same ldap query for all groups associated with user,https://bugs.launchpad.net/keystone/+bug/1205506,2014-10-16
+1258331,1258331,Fix Released,Glance v2: Image property quotas are unforgiving when quota is exceeded,https://bugs.launchpad.net/glance/+bug/1258331,2014-10-16
+1175904,1175904,Fix Released,passlib trunc_password MAX_PASSWORD_LENGTH password truncation,https://bugs.launchpad.net/keystone/+bug/1175904,2014-10-16
+1339735,1339735,Fix Released,Deadlock updating image properties in glance-registry daemon,https://bugs.launchpad.net/glance/+bug/1339735,2014-10-16
+1331912,1331912,Fix Released,[OSSA 2014-022] V2 Trusts allow trustee to emulate trustor in other projects (CVE-2014-3520),https://bugs.launchpad.net/keystone/+bug/1331912,2014-10-16
+1331912,1331912,Fix Released,[OSSA 2014-022] V2 Trusts allow trustee to emulate trustor in other projects (CVE-2014-3520),https://bugs.launchpad.net/ossa/+bug/1331912,2014-10-16
+1334774,1334774,Fix Released,test_quota unit tests failing with UnicodeError from oslo gettextutils,https://bugs.launchpad.net/glance/+bug/1334774,2014-10-16
+1328201,1328201,Fix Released,Cannot fetch Certs with Compressed token provider,https://bugs.launchpad.net/keystone/+bug/1328201,2014-10-16
+1324592,1324592,Fix Released,[OSSA 2014-018] Trust scope can be circumvented by chaining trusts (CVE-2014-3476),https://bugs.launchpad.net/keystone/+bug/1324592,2014-10-16
+1324592,1324592,Fix Released,[OSSA 2014-018] Trust scope can be circumvented by chaining trusts (CVE-2014-3476),https://bugs.launchpad.net/ossa/+bug/1324592,2014-10-16
+1317847,1317847,Fix Released,debug level logs should not be translated,https://bugs.launchpad.net/glance/+bug/1317847,2014-10-16
+1295018,1295018,Fix Released,Move keystone's tests to use in-memory SQLite,https://bugs.launchpad.net/keystone/+bug/1295018,2014-10-16
+1293698,1293698,Fix Released,Can't map user description using LDAP,https://bugs.launchpad.net/keystone/+bug/1293698,2014-10-16
+1288098,1288098,Fix Released,v3 Service Catalog doesn't expose service name,https://bugs.launchpad.net/keystone/+bug/1288098,2014-10-16
+1288098,1288098,Fix Released,v3 Service Catalog doesn't expose service name,https://bugs.launchpad.net/openstack-api-site/+bug/1288098,2014-10-16
+1317314,1317314,Fix Released,making an image public should be only admin by default,https://bugs.launchpad.net/glance/+bug/1317314,2014-10-16
+1284639,1284639,Fix Released,Unimplemented get roles by group for project list,https://bugs.launchpad.net/keystone/+bug/1284639,2014-10-16
+1313992,1313992,Fix Released,VMware store should handle upload of files with unknown Content-Length,https://bugs.launchpad.net/glance/+bug/1313992,2014-10-16
+1257171,1257171,Fix Released,support conventional domain name with one or more dot,https://bugs.launchpad.net/keystone/+bug/1257171,2014-10-16
+1307878,1307878,Fix Released,Fix instances of mutable default arguments to functions/methods,https://bugs.launchpad.net/glance/+bug/1307878,2014-10-16
+1299095,1299095,Fix Released,Location header is set on HTTP 200,https://bugs.launchpad.net/glance/+bug/1299095,2014-10-16
+1324076,1324076,Fix Released,Duplicated DELETE queries on sql backend,https://bugs.launchpad.net/keystone/+bug/1324076,2014-10-16
+1323770,1323770,Fix Released,driver_hints.Hints implementation could be optimized,https://bugs.launchpad.net/keystone/+bug/1323770,2014-10-16
+1284975,1284975,Fix Released,methods succeed and fail in Task class reference non-existent var,https://bugs.launchpad.net/glance/+bug/1284975,2014-10-16
+1323361,1323361,Fix Released,fix spelling mistakes in keystone docs,https://bugs.launchpad.net/keystone/+bug/1323361,2014-10-16
+1216247,1216247,Fix Released,glance-replicator commands fail due to incorrect regex check,https://bugs.launchpad.net/glance/+bug/1216247,2014-10-16
+1323341,1323341,Fix Released,Replace magic value 'service/security' in CADF notifications,https://bugs.launchpad.net/keystone/+bug/1323341,2014-10-16
+1261747,1261747,Fix Released,Openstack Glance: user_total_quota size unit bytes,https://bugs.launchpad.net/glance/+bug/1261747,2014-10-16
+1322187,1322187,Fix Released,Sensitive error messages are alarming,https://bugs.launchpad.net/keystone/+bug/1322187,2014-10-16
+1284677,1284677,Fix Released,Python 3: do not use 'unicode()',https://bugs.launchpad.net/tuskar/+bug/1284677,2014-10-16
+1284677,1284677,Fix Released,Python 3: do not use 'unicode()',https://bugs.launchpad.net/manila/+bug/1284677,2014-10-16
+1284677,1284677,Fix Released,Python 3: do not use 'unicode()',https://bugs.launchpad.net/glance/+bug/1284677,2014-10-16
+1284677,1284677,Fix Released,Python 3: do not use 'unicode()',https://bugs.launchpad.net/python-glanceclient/+bug/1284677,2014-10-16
+1275040,1275040,Fix Released,VMware storage backend needs documentation in configuring.rst,https://bugs.launchpad.net/glance/+bug/1275040,2014-10-16
+1297358,1297358,Fix Released,Glance v1: HTTP HEAD on /images/detail returns 500,https://bugs.launchpad.net/glance/+bug/1297358,2014-10-16
+1316128,1316128,Fix Released,Move code in ldap which delete elements of tree to common method,https://bugs.launchpad.net/keystone/+bug/1316128,2014-10-16
+1282400,1282400,Fix Released,The race condition caused by image created_at break DB driver test_image_paginate case,https://bugs.launchpad.net/glance/+bug/1282400,2014-10-16
+1313127,1313127,Fix Released,keystone: links in versions response do not work,https://bugs.launchpad.net/keystone/+bug/1313127,2014-10-16
+1314968,1314968,Fix Released,Installing test-requirements fails because pysendfile.2.0.0.tar.gz cannot be found,https://bugs.launchpad.net/glance/+bug/1314968,2014-10-16
+1311693,1311693,Fix Released,add docs to configuration federated identity,https://bugs.launchpad.net/keystone/+bug/1311693,2014-10-16
+1257273,1257273,Fix Released,Glance download fails when size is 0,https://bugs.launchpad.net/glance/+bug/1257273,2014-10-16
+1311324,1311324,Fix Released,documentation does not specify that [auth] drivers only work with v3 API,https://bugs.launchpad.net/keystone/+bug/1311324,2014-10-16
+1310768,1310768,Fix Released,"keystone tests fail unless tox is configured ""just so""",https://bugs.launchpad.net/keystone/+bug/1310768,2014-10-16
+1308634,1308634,Fix Released,missing import and syntax error in external-auth doc code example,https://bugs.launchpad.net/keystone/+bug/1308634,2014-10-16
+1308593,1308593,Fix Released,Migration DB_INIT_VERSION in common place.,https://bugs.launchpad.net/keystone/+bug/1308593,2014-10-16
+1307781,1307781,Fix Released,Unnecessary dict copy,https://bugs.launchpad.net/keystone/+bug/1307781,2014-10-16
+1306874,1306874,Fix Released,Fix typo of ANS1 to ASN1,https://bugs.launchpad.net/django-openstack-auth/+bug/1306874,2014-10-16
+1306874,1306874,Fix Released,Fix typo of ANS1 to ASN1,https://bugs.launchpad.net/keystone/+bug/1306874,2014-10-16
+1306874,1306874,Fix Released,Fix typo of ANS1 to ASN1,https://bugs.launchpad.net/python-keystoneclient/+bug/1306874,2014-10-16
+1305272,1305272,Fix Released,TrustNotFound exceptions not setting trust_id kwarg in trustv3 controller,https://bugs.launchpad.net/keystone/+bug/1305272,2014-10-16
+1304834,1304834,Fix Released,little typo in keysonte:configuringservices.rst,https://bugs.launchpad.net/keystone/+bug/1304834,2014-10-16
+1290254,1290254,Fix Released,two dependencies of keystone dev-enviroment omit,https://bugs.launchpad.net/keystone/+bug/1290254,2014-10-16
+1281216,1281216,Fix Released,Keystone Havana Authentication Error using samAccountName in Active Directory,https://bugs.launchpad.net/keystone/+bug/1281216,2014-10-16
+1275823,1275823,Fix Released,RFE: default keystone.conf file should point to correct paths for cert files,https://bugs.launchpad.net/keystone/+bug/1275823,2014-10-16
+1236511,1236511,Fix Released,Keystone Trusts API sends non descriptive error message for requests with invalid trust id,https://bugs.launchpad.net/keystone/+bug/1236511,2014-10-16
+1325668,1325668,Fix Released,invalid operations in federation docs to install mod_shib,https://bugs.launchpad.net/keystone/+bug/1325668,2014-10-16
+1323489,1323489,Fix Released,list_user_ids_for_project returns dumb member in LDAP backend,https://bugs.launchpad.net/keystone/+bug/1323489,2014-10-16
+1322735,1322735,Fix Released,"keystone installation from source docs are missing ""python setup.py install"" step",https://bugs.launchpad.net/keystone/+bug/1322735,2014-10-16
+1321536,1321536,Fix Released,mapping engine ignores multiple assertion values when using regex,https://bugs.launchpad.net/keystone/+bug/1321536,2014-10-16

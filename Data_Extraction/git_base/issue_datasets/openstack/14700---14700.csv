@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1744056,1744056,Fix Released,"Newton -> Queens FFU upgrade: fast_forward_upgrade_playbook fails during Cinder db sync task with ""Error during database migration: There are still 1 unmigrated records in the messages table. Migration cannot continue until all records have been migrated.""",https://bugs.launchpad.net/tripleo/+bug/1744056,2018-03-03
+1750643,1750643,Fix Released,"Enable tripleo-repos ffu step fails while running ""cmd"": [""tripleo-repos"", ""-"", ""b"", ""o"", ""c"", ""a"", ""t"", ""a"", ""c"", ""u"", ""r"", ""r"", ""e"", ""n"", ""t""]",https://bugs.launchpad.net/tripleo/+bug/1750643,2018-03-03
+1751779,1751779,Fix Released,Containerized zaqar websocket config conflicts with its haproxy config,https://bugs.launchpad.net/tripleo/+bug/1751779,2018-03-03
+1751934,1751934,Fix Released,Container Undercloud - UndercloudAllNodesValidationDeployment: No module named ipaddr,https://bugs.launchpad.net/tripleo/+bug/1751934,2018-03-03
+1744381,1744381,Fix Released,tripleo-common fails to install in a venv,https://bugs.launchpad.net/tripleo/+bug/1744381,2018-03-03
+1743758,1743758,Fix Released,Newton -> Queens FFU upgrade:  upgrade_steps_playbook.yaml  fails: The error was: error while evaluating conditional ((httpd_enabled.rc == 0) and (httpd_running.rc == 0) and (step|int == 2)): 'httpd_enabled' is undefined,https://bugs.launchpad.net/tripleo/+bug/1743758,2018-03-03
+1743883,1743883,Fix Released,container tag discover needs to support multiple labels to build tag,https://bugs.launchpad.net/tripleo/+bug/1743883,2018-03-03
+1745373,1745373,Fix Released,Swift Rings backup workflow creates a deployment plan container,https://bugs.launchpad.net/tripleo/+bug/1745373,2018-03-03
+1745687,1745687,Fix Released,periodic build-images job fails to create mongodb container image,https://bugs.launchpad.net/tripleo/+bug/1745687,2018-03-03
+1746305,1746305,Fix Released,image_uploader: default multiprocessing.Pool is killing small underclouds,https://bugs.launchpad.net/tripleo/+bug/1746305,2018-03-03
+1746600,1746600,Fix Released,image prepare --tag-from-label doesn't work for ceph image,https://bugs.launchpad.net/tripleo/+bug/1746600,2018-03-03
+1723170,1723170,Fix Released,Error handling errors in validation workflows. Task 'check_flavors' error=Can not evaluate YAQL expression,https://bugs.launchpad.net/tripleo/+bug/1723170,2018-03-03
+1745241,1745241,Fix Released,config-download: ansible deployments not formatted in group_vars,https://bugs.launchpad.net/tripleo/+bug/1745241,2018-03-03
+1746737,1746737,Fix Released,"""msg"": ""No package matching 'jq' found available, installed or updated""",https://bugs.launchpad.net/tripleo/+bug/1746737,2018-03-03
+1747160,1747160,Fix Released,tripleo-common: ImportError: No module named keystoneclient,https://bugs.launchpad.net/tripleo/+bug/1747160,2018-03-03
+1746742,1746742,Fix Released,octavia health manager ports losing their address after controller reboot,https://bugs.launchpad.net/tripleo/+bug/1746742,2018-03-03
+1747057,1747057,Fix Released,openstack overcloud node configure --all-manageable --root-device=sda fails in queens,https://bugs.launchpad.net/tripleo/+bug/1747057,2018-03-03
+1747945,1747945,Fix Released,rotate_fernet_keys workflow uses wrong message type,https://bugs.launchpad.net/tripleo/+bug/1747945,2018-03-03
+1733633,1733633,Fix Released,Missing log messages,https://bugs.launchpad.net/tripleo/+bug/1733633,2018-03-03
+1748482,1748482,Fix Released,config-download: Handle None value RoleConfig stack output,https://bugs.launchpad.net/tripleo/+bug/1748482,2018-03-03
+1748965,1748965,Fix Released,config-download: ansible-playbook-command.sh should quote $@,https://bugs.launchpad.net/tripleo/+bug/1748965,2018-03-03
+1749054,1749054,Fix Released,container prepare --tag-from-label doesn't replace discovered tags,https://bugs.launchpad.net/tripleo/+bug/1749054,2018-03-03
+1749204,1749204,Fix Released,openstack overcloud plan export is broken on master,https://bugs.launchpad.net/tripleo/+bug/1749204,2018-03-03
+1748976,1748976,Fix Released,FFU upgrade: openstack overcloud config download fails with: Deployment NetworkDeployment with group:os-apply-config not supported with config-download,https://bugs.launchpad.net/tripleo/+bug/1748976,2018-03-03
+1749663,1749663,Fix Released,openstack overcloud container image upload fails from time to time,https://bugs.launchpad.net/tripleo/+bug/1749663,2018-03-03
+1743626,1743626,Fix Released,composable haproxy configuration fails,https://bugs.launchpad.net/tripleo/+bug/1743626,2018-03-03
+1745821,1745821,Fix Released,hw ovs offload - no representor ports after reboot,https://bugs.launchpad.net/tripleo/+bug/1745821,2018-03-03
+1746952,1746952,Fix Released,logging: wrong fluentd configuration when service_configuration is used,https://bugs.launchpad.net/tripleo/+bug/1746952,2018-03-03
+1747326,1747326,Fix Released,containerized cinder pacemaker bundles are missing ssl CA certs,https://bugs.launchpad.net/tripleo/+bug/1747326,2018-03-03
+1747473,1747473,Fix Released,oci-machine-register is disabled by default,https://bugs.launchpad.net/tripleo/+bug/1747473,2018-03-03
+1747643,1747643,Fix Released,fencing can fail if IHA is not configured,https://bugs.launchpad.net/tripleo/+bug/1747643,2018-03-03
+1748199,1748199,Fix Released,"undercloud installation fails ""with Invalid query params: network""",https://bugs.launchpad.net/tripleo/+bug/1748199,2018-03-03
+1747386,1747386,Fix Released,The Mistral cron-trigger subsystem creates unnecessary load on the undercloud,https://bugs.launchpad.net/tripleo/+bug/1747386,2018-03-03
+1749186,1749186,Fix Released,Undercloud install fails because of API exception in mistral client,https://bugs.launchpad.net/tripleo/+bug/1749186,2018-03-03
+1749671,1749671,Fix Released,"Overcloud installation fails with ""Failure prepping block device."" error",https://bugs.launchpad.net/tripleo/+bug/1749671,2018-03-03
+1750311,1750311,Fix Released,[queens promotion] - overcloud deployment fails step2: /dev/loop3 missing,https://bugs.launchpad.net/tripleo/+bug/1750311,2018-03-02
+1633090,1633090,Fix Released,composable roles and network isolation,https://bugs.launchpad.net/tripleo/+bug/1633090,2018-03-02
+1752062,1752062,Fix Released,Gating of tripleo-upgarde doesn't work.,https://bugs.launchpad.net/tripleo/+bug/1752062,2018-03-02
+1747623,1747623,Fix Released,Floating IP doesn't match in tempest test_minimum_basic_scenario,https://bugs.launchpad.net/tripleo/+bug/1747623,2018-03-02
+1744954,1744954,Fix Released,(race condition) oci runtime error when spawning containers,https://bugs.launchpad.net/tripleo/+bug/1744954,2018-03-02
+1735697,1735697,Fix Released,O->P fails during AllNodesPostUpgradeSteps.ControllerDeployment_Step1 on haproxy docker.,https://bugs.launchpad.net/tripleo/+bug/1735697,2018-03-02
+1737152,1737152,Fix Released,add zun client and openstack cli to remove security group,https://bugs.launchpad.net/zun/+bug/1737152,2018-03-02
+1694709,1694709,Fix Released,Reaching disk space capacity for containers job,https://bugs.launchpad.net/tripleo/+bug/1694709,2018-03-02
+1748921,1748921,Fix Released,OVB jobs fails when uploading image because no httpboot/agent.kernel is found,https://bugs.launchpad.net/tripleo/+bug/1748921,2018-03-02
+1707101,1707101,Fix Released,privileged instance creation failed,https://bugs.launchpad.net/nova-lxd/+bug/1707101,2018-03-02
+1751056,1751056,Fix Released,telemetry_tempest_plugin.scenario.test_telemetry_integration is failing on featureset 017,https://bugs.launchpad.net/tripleo/+bug/1751056,2018-03-02
+1752633,1752633,Fix Released,queens promotion config for rdophase1 has incorrect job names,https://bugs.launchpad.net/tripleo/+bug/1752633,2018-03-02
+1752810,1752810,Fix Released,This is a test bug - AAA,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1752810,2018-03-02
+1750321,1750321,Fix Released,centos-binary-keepalived container is missing in dockerhub,https://bugs.launchpad.net/tripleo/+bug/1750321,2018-03-02
+1723934,1723934,Fix Released,Service 'nscd' causes issues with Docker's user namespace,https://bugs.launchpad.net/kolla-ansible/+bug/1723934,2018-03-01
+1744673,1744673,Fix Released,manila-share can't restart when use external-ceph,https://bugs.launchpad.net/kolla-ansible/+bug/1744673,2018-03-01
+1714015,1714015,Fix Released,containers not started during deploy if are stopped,https://bugs.launchpad.net/kolla-ansible/+bug/1714015,2018-03-01
+1746005,1746005,Fix Released,ironic_dnsmasq_dhcp_range  parameter needed globals.yml,https://bugs.launchpad.net/kolla-ansible/+bug/1746005,2018-03-01
+1745559,1745559,Fix Released,opendaylight not copying custom config files,https://bugs.launchpad.net/kolla-ansible/+bug/1745559,2018-03-01
+1749046,1749046,Fix Released,Invalid value for selinux policy,https://bugs.launchpad.net/kolla-ansible/+bug/1749046,2018-03-01
+1747375,1747375,Fix Released,Blazar role does not implement new policy.yaml support,https://bugs.launchpad.net/kolla-ansible/+bug/1747375,2018-03-01
+1747436,1747436,Fix Released,Use apt ansible module instead of apt-get,https://bugs.launchpad.net/kolla-ansible/+bug/1747436,2018-03-01
+1747592,1747592,Fix Released,Kolla-ansible prechecks command failure,https://bugs.launchpad.net/kolla-ansible/+bug/1747592,2018-03-01
+1748347,1748347,Fix Released,log_bin_trust_function_creators break the deployment,https://bugs.launchpad.net/kolla-ansible/+bug/1748347,2018-03-01
+1746682,1746682,Fix Released,macros.install_pip() fails if working dir is different than /,https://bugs.launchpad.net/kolla/+bug/1746682,2018-03-01
+1748269,1748269,Fix Released,Preconfigured user attempts to change mysql variable during upgrade,https://bugs.launchpad.net/kolla-ansible/+bug/1748269,2018-03-01
+1748473,1748473,Fix Released,deploy fails if controllers have different api_interface names,https://bugs.launchpad.net/kolla-ansible/+bug/1748473,2018-03-01
+1741536,1741536,Fix Released,Ceilometer fails to deploy,https://bugs.launchpad.net/kolla/+bug/1741536,2018-03-01
+1749056,1749056,Fix Released,deploy-tacker-demo-sfc fails if running using sh in ubuntu 16.04/17.10,https://bugs.launchpad.net/kolla-ansible/+bug/1749056,2018-03-01
+1749227,1749227,Fix Released,kolla base image for centos needs socat package,https://bugs.launchpad.net/kolla/+bug/1749227,2018-03-01
+1732846,1732846,Fix Released,api_interface checks failed on deployment group,https://bugs.launchpad.net/kolla-ansible/+bug/1732846,2018-03-01
+1749775,1749775,Fix Released,ppc64le is built in delorean-deps.repo,https://bugs.launchpad.net/kolla/+bug/1749775,2018-03-01
+1749780,1749780,Fix Released,syslinux is x86_64 only,https://bugs.launchpad.net/kolla/+bug/1749780,2018-03-01
+1750373,1750373,Fix Released,murano deployment fails,https://bugs.launchpad.net/kolla-ansible/+bug/1750373,2018-03-01
+1750408,1750408,Fix Released,Grafana admin username is hardcoded,https://bugs.launchpad.net/kolla-ansible/+bug/1750408,2018-03-01
+1750816,1750816,Fix Released,freezer can't use mariadb as storage for pike,https://bugs.launchpad.net/kolla-ansible/+bug/1750816,2018-03-01
+1751024,1751024,Fix Released,wrom version tacker sfc demo,https://bugs.launchpad.net/kolla-ansible/+bug/1751024,2018-03-01
+1751224,1751224,Fix Released,keystone-fernet failed when keystone-ssh is not started or failed,https://bugs.launchpad.net/kolla-ansible/+bug/1751224,2018-03-01
+1733674,1733674,Fix Released,NotFound exception moved,https://bugs.launchpad.net/tempest/+bug/1733674,2018-03-01
+1719575,1719575,Fix Released,create_websocket needs support for IPv6,https://bugs.launchpad.net/tempest/+bug/1719575,2018-03-01

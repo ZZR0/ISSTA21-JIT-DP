@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1709902,1709902,Fix Released,source host allocation not cleaned up in placement after evacuation,https://bugs.launchpad.net/nova/+bug/1709902,2018-09-06
+1750829,1750829,Fix Released,RFE: libvirt: Add ability to configure extra CPU flags for named CPU models,https://bugs.launchpad.net/nova/+bug/1750829,2018-09-06
+1756936,1756936,Fix Released,rdo jobs ignore depends-on tripleo-common,https://bugs.launchpad.net/tripleo/+bug/1756936,2018-09-06
+1789414,1789414,Fix Released,Grub2 package cannot be found on aarch64,https://bugs.launchpad.net/diskimage-builder/+bug/1789414,2018-09-06
+1715066,1715066,Fix Released,Cannot launch instance with Django Launch Instance form with multiple networks for a tenant,https://bugs.launchpad.net/horizon/+bug/1715066,2018-09-06
+1703109,1703109,Fix Released,Django 1.10.x breaks WEBSSO login form on firefox,https://bugs.launchpad.net/django-openstack-auth/+bug/1703109,2018-09-06
+1703109,1703109,Fix Released,Django 1.10.x breaks WEBSSO login form on firefox,https://bugs.launchpad.net/horizon/+bug/1703109,2018-09-06
+1723142,1723142,Fix Released,network topology page doesn't scale,https://bugs.launchpad.net/horizon/+bug/1723142,2018-09-06
+1349463,1349463,Fix Released,Remove variable SESSION_SERIALIZER from settings.py,https://bugs.launchpad.net/horizon/+bug/1349463,2018-09-06
+1778006,1778006,Fix Released,'user_home' config param does't work for admin,https://bugs.launchpad.net/horizon/+bug/1778006,2018-09-06
+1790611,1790611,Fix Released,Reproducer is broken when tries to apply jobs changes to itself,https://bugs.launchpad.net/tripleo/+bug/1790611,2018-09-05
+1784233,1784233,Fix Released,Kolla fails to build horizon container in periodic master job,https://bugs.launchpad.net/tripleo/+bug/1784233,2018-09-05
+1784233,1784233,Fix Released,Kolla fails to build horizon container in periodic master job,https://bugs.launchpad.net/kolla/+bug/1784233,2018-09-05
+1772552,1772552,Fix Released,neutron-bgp-dragent,https://bugs.launchpad.net/kolla/+bug/1772552,2018-09-05
+1790199,1790199,Fix Released,fs035: openstack overcloud deploy returns error code  without any signs or error,https://bugs.launchpad.net/tripleo/+bug/1790199,2018-09-05
+1789852,1789852,Fix Released,promoter failure: KeyError: u'current-tripleo-rdo-internal',https://bugs.launchpad.net/tripleo/+bug/1789852,2018-09-05
+1788128,1788128,Fix Released,[CI upgrades] legacy-tripleo-ci-centos-7-container-to-container-upgrades-queens failing,https://bugs.launchpad.net/tripleo/+bug/1788128,2018-09-05
+1756368,1756368,Fix Released,"VMAX driver - Ocata, detaches fail when volume removed",https://bugs.launchpad.net/cinder/+bug/1756368,2018-09-05
+1771589,1771589,Fix Released,Update existing VM keypair,https://bugs.launchpad.net/openstack-publiccloud-wg/+bug/1771589,2018-09-05
+1726703,1726703,Fix Released,vpp-agent doesn't start with Ocata,https://bugs.launchpad.net/networking-vpp/+bug/1726703,2018-09-04
+1765609,1765609,Fix Released,Refstack-client should use stestr for tempest testing,https://bugs.launchpad.net/refstack/+bug/1765609,2018-09-04
+1756269,1756269,Fix Released,Heat stack update removes external resource,https://bugs.launchpad.net/heat/+bug/1756269,2018-09-04
+1763021,1763021,Fix Released,Stack update timing out due to resource atomic update failure,https://bugs.launchpad.net/heat/+bug/1763021,2018-09-04
+1760932,1760932,Fix Released,Senlin integration broken in latest Queens,https://bugs.launchpad.net/heat/+bug/1760932,2018-09-04
+1767962,1767962,Fix Released,Migrating a FAILED stack to convergence fails ith TypeError,https://bugs.launchpad.net/heat/+bug/1767962,2018-09-04
+1757300,1757300,Fix Released,RandomString may have less entropy than expected,https://bugs.launchpad.net/heat/+bug/1757300,2018-09-04
+1444429,1444429,Fix Released,WaitConditionHandle creates stack user without a password,https://bugs.launchpad.net/heat/+bug/1444429,2018-09-04
+1666129,1666129,Fix Released,password created by heat won't be consistent with regex specified in keystone,https://bugs.launchpad.net/heat/+bug/1666129,2018-09-04
+1729439,1729439,Fix Released,Resource type substitution is destructive in convergence,https://bugs.launchpad.net/heat/+bug/1729439,2018-09-04
+1745931,1745931,Fix Released,RandomString resource is using default Python RNG,https://bugs.launchpad.net/heat/+bug/1745931,2018-09-04
+1744787,1744787,Fix Released,nimble : update documentation for extra specs,https://bugs.launchpad.net/cinder/+bug/1744787,2018-09-04
+1783381,1783381,Fix Released,can't add a new haproxy node,https://bugs.launchpad.net/kolla-ansible/+bug/1783381,2018-09-04
+1783569,1783569,Fix Released,lio/lvm cinder volumes are not usable after upgrade,https://bugs.launchpad.net/kolla-ansible/+bug/1783569,2018-09-04
+1783963,1783963,Fix Released,etcd fails when kuryr is disabled,https://bugs.launchpad.net/kolla-ansible/+bug/1783963,2018-09-04
+1784497,1784497,Fix Released,7.0.0.0b3 Magnum main.yml correction,https://bugs.launchpad.net/kolla-ansible/+bug/1784497,2018-09-04
+1784496,1784496,Fix Released,Deploy failure during task ceilometer : Running Ceilometer bootstrap container,https://bugs.launchpad.net/kolla-ansible/+bug/1784496,2018-09-04
+1785066,1785066,Fix Released,cinder_iscsi_helper is not defined in iscsi role,https://bugs.launchpad.net/kolla-ansible/+bug/1785066,2018-09-04
+1784656,1784656,Fix Released,Monasca API uses old config file name,https://bugs.launchpad.net/kolla-ansible/+bug/1784656,2018-09-04
+1738115,1738115,Fix Released,auth_version of neutron_lbaas need to be changed to version 3,https://bugs.launchpad.net/kolla-ansible/+bug/1738115,2018-09-04
+1756771,1756771,Fix Released,neutron_lbaas_agent do not need when octavia is enabled,https://bugs.launchpad.net/kolla-ansible/+bug/1756771,2018-09-04
+1787092,1787092,Fix Released,designate_backend_bind9 container restarting,https://bugs.launchpad.net/kolla-ansible/+bug/1787092,2018-09-04
+1787610,1787610,Fix Released,Monasca endpoint registration uses public keystone endpoint,https://bugs.launchpad.net/kolla-ansible/+bug/1787610,2018-09-04
+1788179,1788179,Fix Released,Redis Sentinel did not work correctly when restart,https://bugs.launchpad.net/kolla-ansible/+bug/1788179,2018-09-04
+1772005,1772005,Fix Released,Verify_keystone_connection requires admin rights,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1772005,2018-09-04
+1773349,1773349,Fix Released,lbaas handler dies due to endpoint without pods,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1773349,2018-09-04
+1774634,1774634,Fix Released,controller's lbaas handler explodes when trying to run a nodeport service,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1774634,2018-09-04
+1760885,1760885,Fix Released,Devstack deployment is stuck when Octavia LB does not set to active,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1760885,2018-09-04
+1777632,1777632,Fix Released,The watcher retry mechanism fails to stop watching resources,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1777632,2018-09-04
+1777155,1777155,Fix Released,test_watch_retry gives us a false positive as it is not running its handler,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1777155,2018-09-04
+1777133,1777133,Fix Released,Kuryr CNI container blocks on busy envs,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1777133,2018-09-04
+1776676,1776676,Fix Released,CNI goes useless if the watcher loses connectivity with the API for longer than the retry timeout,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1776676,2018-09-04
+1784683,1784683,Fix Released,Octavia members are not created after service edit,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1784683,2018-09-04
+1789898,1789898,Fix Released,check failing due to missing python-tripleoclient,https://bugs.launchpad.net/tripleo/+bug/1789898,2018-09-04
+1789440,1789440,Fix Released,"queens, rocky branches missing from rdo-info check  jobs",https://bugs.launchpad.net/tripleo/+bug/1789440,2018-09-04
+1778929,1778929,Fix Released,resource_provider API handler does not return specific error codes,https://bugs.launchpad.net/nova/+bug/1778929,2018-09-04
+1790579,1790579,Fix Released,kolla-build tool failes to create rhel based containers - TypeError: argument of type 'NoneType' is not iterable,https://bugs.launchpad.net/kolla/+bug/1790579,2018-09-04
+1784651,1784651,Fix Released,Some API checks throws tracebacks instead of meaningful errors,https://bugs.launchpad.net/osops/+bug/1784651,2018-09-03
+1789437,1789437,Fix Released,missing rpm deps in rocky builds causing dlrn build errors,https://bugs.launchpad.net/tripleo/+bug/1789437,2018-09-03
+1716349,1716349,Fix Released,Wrong Error Message and return code when inputting any of normal text in tosca file for vnfd creation,https://bugs.launchpad.net/tacker/+bug/1716349,2018-09-03
+1785058,1785058,Fix Released,Missing page titles,https://bugs.launchpad.net/designate-dashboard/+bug/1785058,2018-09-01
+1790152,1790152,Fix Released,"jobs failing with ansible ""ImportError: No module named manager"" since 8/30",https://bugs.launchpad.net/openstack-gate/+bug/1790152,2018-08-31
+1790127,1790127,Fix Released,All OVB jobs fail to get http://169.254.169.254/openstack/2015-10-15/meta_data.json,https://bugs.launchpad.net/tripleo/+bug/1790127,2018-08-31
+1692128,1692128,Fix Released,VPNaaS stuff should load inside of an l3 agent extension mechanism,https://bugs.launchpad.net/neutron/+bug/1692128,2018-08-31
+1697324,1697324,Fix Released,_delete_segments_for_network callback fails with routed networks,https://bugs.launchpad.net/neutron/+bug/1697324,2018-08-31
+1732543,1732543,Fix Released,HA network tenant network fails upon router delete,https://bugs.launchpad.net/neutron/+bug/1732543,2018-08-31
+1468366,1468366,Fix Released,[RFE] (Operator-only) Logging API for security group rules,https://bugs.launchpad.net/neutron/+bug/1468366,2018-08-31
+1652263,1652263,Fix Released,``services`` table model doesn't match what's created by DB migration,https://bugs.launchpad.net/cinder/+bug/1652263,2018-08-31
+1789462,1789462,Fix Released,overcloud stack update attempts to redeploy servers which have already been deployed,https://bugs.launchpad.net/tripleo/+bug/1789462,2018-08-30
+1387662,1387662,Fix Released,Sample Sink Handlers can delete ALL records in a zone,https://bugs.launchpad.net/designate/+bug/1387662,2018-08-30
+1696331,1696331,Fix Released,Api should configure bind_host and bind_port parameters instead of host and port,https://bugs.launchpad.net/puppet-octavia/+bug/1696331,2018-08-30
+1663570,1663570,Fix Released,Remove usage of config option verbose,https://bugs.launchpad.net/cinder/+bug/1663570,2018-08-30
+1663570,1663570,Fix Released,Remove usage of config option verbose,https://bugs.launchpad.net/nova/+bug/1663570,2018-08-30
+1522705,1522705,Fix Released,Cinder volumes are stuck when non admin user executes nova swap volume API,https://bugs.launchpad.net/nova/+bug/1522705,2018-08-30
+1716782,1716782,Fix Released,DVR multinode job has linuxbridge agent mech driver defined,https://bugs.launchpad.net/neutron/+bug/1716782,2018-08-29
+1780428,1780428,Fix Released,Mitigate OSSN-0075,https://bugs.launchpad.net/glance/+bug/1780428,2018-08-29

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1226229,1226229,Fix Released,Edge service router status in PENDING_CREATE even though it is been created successfully,https://bugs.launchpad.net/neutron/+bug/1226229,2013-10-17
+1205582,1205582,Fix Released,user quota not properly work with project quota,https://bugs.launchpad.net/nova/+bug/1205582,2013-10-17
+1225200,1225200,Fix Released,DHCP agent dnsmasq startup only allows 1000 leases,https://bugs.launchpad.net/neutron/+bug/1225200,2013-10-17
+1225128,1225128,Fix Released,Fix validation and DB for peer_address and peer_id,https://bugs.launchpad.net/neutron/+bug/1225128,2013-10-17
+1205099,1205099,Fix Released,EC2 API: DescribeTags wildcards not working,https://bugs.launchpad.net/nova/+bug/1205099,2013-10-17
+1205034,1205034,Fix Released,Tests failing test_networks in master,https://bugs.launchpad.net/nova/+bug/1205034,2013-10-17
+1224660,1224660,Fix Released,default l3_gateway_service not passed on external provider networks,https://bugs.launchpad.net/neutron/+bug/1224660,2013-10-17
+1204999,1204999,Fix Released,422 HTTP status code on several actions,https://bugs.launchpad.net/nova/+bug/1204999,2013-10-17
+1224174,1224174,Fix Released,500 error when deleting a router which is associated with VPNService,https://bugs.launchpad.net/neutron/+bug/1224174,2013-10-17
+1204905,1204905,Fix Released,cold migrate fail will set a VM from SHUTOFF to ACTIVE,https://bugs.launchpad.net/nova/+bug/1204905,2013-10-17
+1223902,1223902,Fix Released,Nicira plugin: dissasociate floating IP does not dissassociate router,https://bugs.launchpad.net/neutron/+bug/1223902,2013-10-17
+1206948,1206948,Fix Released,TypeError: 'NoneType' object has no attribute '__getitem__',https://bugs.launchpad.net/nova/+bug/1206948,2013-10-17
+1206458,1206458,Fix Released,xenapi: unable to start VM when dsa key is injected,https://bugs.launchpad.net/nova/+bug/1206458,2013-10-17
+1223646,1223646,Fix Released,prevent ip_address from matching address_pair on update_port,https://bugs.launchpad.net/neutron/+bug/1223646,2013-10-17
+1205066,1205066,Fix Released,powervm driver should raise NotImplemented rather than pass,https://bugs.launchpad.net/nova/+bug/1205066,2013-10-17
+1223478,1223478,Fix Released,firewall with PENDING_CREATE status cannot be deleted,https://bugs.launchpad.net/neutron/+bug/1223478,2013-10-17
+1204933,1204933,Fix Released,xenapi: image upload does not need to propagate usage_agent key,https://bugs.launchpad.net/nova/+bug/1204933,2013-10-17
+1223465,1223465,Fix Released,firewall-policy-create steals rules associated with the other policy,https://bugs.launchpad.net/neutron/+bug/1223465,2013-10-17
+1204798,1204798,Fix Released,"Unit tests fail with ""KeyError: 'uuid'""",https://bugs.launchpad.net/nova/+bug/1204798,2013-10-17
+1223250,1223250,Fix Released,Stale pid files exist after metadata namespace proxy is terminated,https://bugs.launchpad.net/neutron/+bug/1223250,2013-10-17
+1204440,1204440,Fix Released,xenapi: console logrotate fails,https://bugs.launchpad.net/nova/+bug/1204440,2013-10-17
+1221896,1221896,Fix Released,NVP does not like port with name set to None,https://bugs.launchpad.net/neutron/+bug/1221896,2013-10-17
+1203059,1203059,Fix Released,Hyper-V versions before 2012 are not properly recognized,https://bugs.launchpad.net/nova/+bug/1203059,2013-10-17
+1203025,1203025,Fix Released,xenapi: rename hostname not working on windows,https://bugs.launchpad.net/nova/+bug/1203025,2013-10-17
+1221486,1221486,Fix Released,Error when stopping vcns driver task manager,https://bugs.launchpad.net/neutron/+bug/1221486,2013-10-17
+1202404,1202404,Fix Released,EC2 Client Tokens don't work yet,https://bugs.launchpad.net/nova/+bug/1202404,2013-10-17
+1202404,1202404,Fix Released,EC2 Client Tokens don't work yet,https://bugs.launchpad.net/tempest/+bug/1202404,2013-10-17
+1221315,1221315,Fix Released,_validate_network_tenant_ownership must be less strict,https://bugs.launchpad.net/neutron/+bug/1221315,2013-10-17
+1202356,1202356,Fix Released,Setting metadata_host to 127.0.0.1 results in incorrect iptables filter rules,https://bugs.launchpad.net/nova/+bug/1202356,2013-10-17
+1201283,1201283,Fix Released,Aggregate metadata filtering by key returns unrelated metadata,https://bugs.launchpad.net/nova/+bug/1201283,2013-10-17
+1221054,1221054,Fix Released,ovs agent : Failed reporting state!,https://bugs.launchpad.net/neutron/+bug/1221054,2013-10-17
+1200279,1200279,Fix Released,image-create minDisk size should be based on the flavor's Disk size,https://bugs.launchpad.net/nova/+bug/1200279,2013-10-17
+1221036,1221036,Fix Released,conversion type missing in log message,https://bugs.launchpad.net/neutron/+bug/1221036,2013-10-17
+1199454,1199454,Fix Released,xenapi: glance upload retries should not occur on 401 errors,https://bugs.launchpad.net/nova/+bug/1199454,2013-10-17
+1220931,1220931,Fix Released,nvp test_routers test suite fail due to KeyError 'distributed',https://bugs.launchpad.net/neutron/+bug/1220931,2013-10-17
+1197192,1197192,Fix Released,nova list still shows error'ed network after interface-delete of an error'ed interface,https://bugs.launchpad.net/nova/+bug/1197192,2013-10-17
+1220881,1220881,Fix Released,send a notification to the dhcp agent for subnets without a gateway,https://bugs.launchpad.net/neutron/+bug/1220881,2013-10-17
+1220692,1220692,Fix Released,LBaaS HAProxy agent outputs traceback in get_stats,https://bugs.launchpad.net/neutron/+bug/1220692,2013-10-17
+1218142,1218142,Fix Released,Neutron daemon Pidfile class does not need to not use root_helper,https://bugs.launchpad.net/neutron/+bug/1218142,2013-10-17
+1192911,1192911,Fix Released,os-hypervisors/$ID/uptime fails in cell setup,https://bugs.launchpad.net/nova/+bug/1192911,2013-10-17
+1218033,1218033,Fix Released,Cisco plugin portbinding extension support,https://bugs.launchpad.net/neutron/+bug/1218033,2013-10-17
+1192015,1192015,Fix Released,Need to pass unified objects down via cells,https://bugs.launchpad.net/nova/+bug/1192015,2013-10-17
+1217103,1217103,Fix Released,Firewall rules and policies should be shareable in policy.json,https://bugs.launchpad.net/neutron/+bug/1217103,2013-10-17
+1192011,1192011,Fix Released,OS API servers update() should use result of compute_api.update(),https://bugs.launchpad.net/nova/+bug/1192011,2013-10-17
+1215872,1215872,Fix Released,Avoid extra query when loading qos queue binding,https://bugs.launchpad.net/neutron/+bug/1215872,2013-10-17
+1191643,1191643,Fix Released,Need an API sample for creating a server with security groups,https://bugs.launchpad.net/nova/+bug/1191643,2013-10-17
+1215204,1215204,Fix Released,vm_id tag may be confusing for nvp logical port,https://bugs.launchpad.net/neutron/+bug/1215204,2013-10-17
+1191126,1191126,Fix Released,Scheduler should handle instance being deleted,https://bugs.launchpad.net/nova/+bug/1191126,2013-10-17
+1210877,1210877,Fix Released,Sync router fails with db exception,https://bugs.launchpad.net/neutron/+bug/1210877,2013-10-17
+1233300,1233300,Fix Released,Cisco plugin should check for switch - vlan bindings,https://bugs.launchpad.net/neutron/+bug/1233300,2013-10-17
+1230330,1230330,Fix Released,ML2 plugin and drivers do not delete dhcp port upon deletion of network,https://bugs.launchpad.net/neutron/+bug/1230330,2013-10-17
+1161619,1161619,Fix Released,Can't create nova aggregate on Xen,https://bugs.launchpad.net/nova/+bug/1161619,2013-10-17
+1229331,1229331,Fix Released,unable to update port resouces,https://bugs.launchpad.net/neutron/+bug/1229331,2013-10-17
+1226729,1226729,Fix Released,Delete router interface fails in N1kv plugin,https://bugs.launchpad.net/neutron/+bug/1226729,2013-10-17
+1160887,1160887,Fix Released,Getting 500 While booting VM through router interface using same port id,https://bugs.launchpad.net/nova/+bug/1160887,2013-10-17
+1226654,1226654,Fix Released,Hyper-V agent requires agent reporting to work with ML2,https://bugs.launchpad.net/neutron/+bug/1226654,2013-10-17
+1226323,1226323,Fix Released,unable to router-interface-delete on no-snat routers,https://bugs.launchpad.net/neutron/+bug/1226323,2013-10-17
+1226169,1226169,Fix Released,port binding registration with NeutronDbPluin causes Neutron Crash,https://bugs.launchpad.net/neutron/+bug/1226169,2013-10-17
+968175,968175,Fix Released,Quota update should not allow negative headroom,https://bugs.launchpad.net/nova/+bug/968175,2013-10-17
+1220112,1220112,Fix Released,scheduler rpcapi 2.9 is not backwards compatible,https://bugs.launchpad.net/nova/+bug/1220112,2013-10-17
+1224981,1224981,Fix Released,ncs mechanism driver uses wrong URL on full sync,https://bugs.launchpad.net/neutron/+bug/1224981,2013-10-17
+1217586,1217586,Fix Released,init_host fails due to powervm driver raising NotImplementedError for plug_vifs,https://bugs.launchpad.net/nova/+bug/1217586,2013-10-17
+1224882,1224882,Fix Released,Migration 4a666eb208c2 should apply to both Nicira plugins,https://bugs.launchpad.net/neutron/+bug/1224882,2013-10-17
+1217163,1217163,Fix Released,"tempest test_aggregate_add_host_create_server_with_az fails with ""server failed to build and is ERROR status""",https://bugs.launchpad.net/nova/+bug/1217163,2013-10-17
+1224796,1224796,Fix Released,L3 agent does not work with Ryu plugin,https://bugs.launchpad.net/neutron/+bug/1224796,2013-10-17
+1216267,1216267,Fix Released,image upload - make_subprocess issue,https://bugs.launchpad.net/nova/+bug/1216267,2013-10-17
+1224719,1224719,Fix Released,nicira plugin: sync process crashed on multi-chunk synchronization,https://bugs.launchpad.net/neutron/+bug/1224719,2013-10-17
+1213921,1213921,Fix Released,test_postgresql_opportunistically failure - MismatchError: ('project_user_quotas_user_id_deleted_idx,https://bugs.launchpad.net/nova/+bug/1213921,2013-10-17
+1224038,1224038,Fix Released,Fix typo deafult_tz_uuid,https://bugs.launchpad.net/neutron/+bug/1224038,2013-10-17
+1223668,1223668,Fix Released,ovs_lib doest not parse flow parameters correctly.,https://bugs.launchpad.net/neutron/+bug/1223668,2013-10-17
+1210371,1210371,Fix Released,mount_options: mount: /boot: No such file or directory,https://bugs.launchpad.net/nova/+bug/1210371,2013-10-17
+1222949,1222949,Fix Released,Midonet plugin dhcp agent scheduling fails,https://bugs.launchpad.net/neutron/+bug/1222949,2013-10-17
+1209072,1209072,Fix Released,'ActionDeserializer' object has no attribute '_action_change_password',https://bugs.launchpad.net/nova/+bug/1209072,2013-10-17
+1221490,1221490,Fix Released,ML2: Mechanism drivers not loaded in correct order.,https://bugs.launchpad.net/neutron/+bug/1221490,2013-10-17
+1208746,1208746,Fix Released,no validation for security groups in create server of v3 api,https://bugs.launchpad.net/nova/+bug/1208746,2013-10-17

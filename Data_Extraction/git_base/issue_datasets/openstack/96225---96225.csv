@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+888250,888250,Fix Released,Libvirt test failing in trunk,https://bugs.launchpad.net/nova/+bug/888250,2012-04-05
+888236,888236,Fix Released,distributed_scheduler doesn't implement fallback schedule routine,https://bugs.launchpad.net/nova/+bug/888236,2012-04-05
+887402,887402,Fix Released,can't terminate instance with attached volumes,https://bugs.launchpad.net/nova/+bug/887402,2012-04-05
+885167,885167,Fix Released,Path Traversal possible when downloading an image,https://bugs.launchpad.net/nova/+bug/885167,2012-04-05
+871877,871877,Fix Released,Diablo fails to run a VPN,https://bugs.launchpad.net/nova/+bug/871877,2012-04-05
+857209,857209,Fix Released,"contrib/nova.sh is broken, due to syntax changes",https://bugs.launchpad.net/nova/+bug/857209,2012-04-05
+904560,904560,Fix Released,check_exit_code TypeError: argument of type 'bool' is not iterable,https://bugs.launchpad.net/nova/+bug/904560,2012-04-05
+900591,900591,Fix Released,admin password is not set on instance create,https://bugs.launchpad.net/nova/+bug/900591,2012-04-05
+885815,885815,Fix Released,Resize fails with chance scheduler,https://bugs.launchpad.net/nova/+bug/885815,2012-04-05
+885778,885778,Fix Released,nova-manage not executable,https://bugs.launchpad.net/nova/+bug/885778,2012-04-05
+885723,885723,Fix Released,Failure on resize should set instance to ERROR,https://bugs.launchpad.net/nova/+bug/885723,2012-04-05
+884863,884863,Fix Released,nova logs everything to syslog twice,https://bugs.launchpad.net/nova/+bug/884863,2012-04-05
+884534,884534,Fix Released,nova-ajax-console-proxy crashes on shutdown,https://bugs.launchpad.net/nova/+bug/884534,2012-04-05
+884527,884527,Fix Released,ajax_console_proxy_port needs to be an integer,https://bugs.launchpad.net/nova/+bug/884527,2012-04-05
+884307,884307,Fix Released,"Typo in system usage data: ""audit_period_begining""  should be ""audit_period_beginning""",https://bugs.launchpad.net/nova/+bug/884307,2012-04-05
+883233,883233,Fix Released,typo in nova/scheduler/driver.py  assert_compute_node_has_enough_memory(),https://bugs.launchpad.net/nova/+bug/883233,2012-04-05
+883233,883233,Fix Released,typo in nova/scheduler/driver.py  assert_compute_node_has_enough_memory(),https://bugs.launchpad.net/openstack-qa/+bug/883233,2012-04-05
+882889,882889,Fix Released,Nova Internal API reference in Developer Guide has no content,https://bugs.launchpad.net/nova/+bug/882889,2012-04-05
+882742,882742,Fix Released,Extra slash on certain auth requests,https://bugs.launchpad.net/nova/+bug/882742,2012-04-05
+882568,882568,Fix Released,LibvirtOpenVswitchDriver failed to create tap device on Scientific linux 6.1,https://bugs.launchpad.net/nova/+bug/882568,2012-04-05
+882330,882330,Fix Released,Networks returned by get_instance_nw_info must have a label,https://bugs.launchpad.net/nova/+bug/882330,2012-04-05
+882212,882212,Fix Released,Xen Storage Manager Volume Driver needs dev documentation,https://bugs.launchpad.net/nova/+bug/882212,2012-04-05
+881640,881640,Fix Released,db.api incorrectly used in numerous places,https://bugs.launchpad.net/nova/+bug/881640,2012-04-05
+880905,880905,Fix Released,run_tests fails in venv on my setup (lucid),https://bugs.launchpad.net/nova/+bug/880905,2012-04-05
+877661,877661,Fix Released,test_stop_start_with_volume test occasionally fails,https://bugs.launchpad.net/nova/+bug/877661,2012-04-05
+874472,874472,Fix Released,Prevent mysql operation errors from rolling up to client,https://bugs.launchpad.net/nova/+bug/874472,2012-04-05
+873610,873610,Fix Released,vcpu_weight migration didn't add column to models,https://bugs.launchpad.net/nova/+bug/873610,2012-04-05
+872780,872780,Fix Released,sql_min_pool_size and sql_max_pool_size do not make sence,https://bugs.launchpad.net/nova/+bug/872780,2012-04-05
+871984,871984,Fix Released,get_floating_ips_by_fixed_address in network_api is broken,https://bugs.launchpad.net/nova/+bug/871984,2012-04-05
+869153,869153,Fix Released,Openstack api could return not found for unknown extensions,https://bugs.launchpad.net/nova/+bug/869153,2012-04-05
+865585,865585,Fix Released,"/v1.1 returns a 500, /v1.1/ gives desired respons",https://bugs.launchpad.net/nova/+bug/865585,2012-04-05
+865399,865399,Fix Released,Handle empty dnsmasq pidfile properly,https://bugs.launchpad.net/nova/+bug/865399,2012-04-05
+865371,865371,Fix Released,ip address deletion uses deprecated syntax,https://bugs.launchpad.net/nova/+bug/865371,2012-04-05
+865357,865357,Fix Released,database schema cannot be downgraded,https://bugs.launchpad.net/nova/+bug/865357,2012-04-05
+862969,862969,Fix Released,--logfile_mode flag does not properly set logfile permissions,https://bugs.launchpad.net/nova/+bug/862969,2012-04-05
+862629,862629,Fix Released,tests fail with newer kombu versions,https://bugs.launchpad.net/nova/+bug/862629,2012-04-05
+861691,861691,Fix Released,SignerTestCase test failure in master,https://bugs.launchpad.net/nova/+bug/861691,2012-04-05
+861440,861440,Fix Released,test_create_multiple_servers fails on master with venv,https://bugs.launchpad.net/nova/+bug/861440,2012-04-05
+861310,861310,Fix Released,Scheduler hangs if filtered host list is empty.,https://bugs.launchpad.net/nova/+bug/861310,2012-04-05
+860666,860666,Fix Released,Exception messages don't get displayed correctly in test suite,https://bugs.launchpad.net/nova/+bug/860666,2012-04-05
+858679,858679,Fix Released,db.instance_set_state reference in xenapi/vmops.py is wrong,https://bugs.launchpad.net/nova/+bug/858679,2012-04-05
+856664,856664,Fix Released,When hitting the absolute limit I am getting a 403 instead of 413,https://bugs.launchpad.net/nova/+bug/856664,2012-04-05
+855660,855660,Fix Released,DescribeInstances fails sporadically,https://bugs.launchpad.net/nova/+bug/855660,2012-04-05
+854239,854239,Fix Released,"instance_get_all_by_filters now does 2 DB queries, but they can be consolidated into 1.",https://bugs.launchpad.net/nova/+bug/854239,2012-04-05
+851374,851374,Fix Released,Build failures are not reflected in server status,https://bugs.launchpad.net/nova/+bug/851374,2012-04-05
+850389,850389,Fix Released,snapshots are not private by default,https://bugs.launchpad.net/nova/+bug/850389,2012-04-05
+869908,869908,Fix Released,EC2 api missing equivalent to allow_admin_api,https://bugs.launchpad.net/nova/+bug/869908,2012-04-05
+867674,867674,Fix Released,Make service liveness checks more consistent / correct,https://bugs.launchpad.net/nova/+bug/867674,2012-04-05
+833205,833205,Fix Released,instance reboot types are not supported,https://bugs.launchpad.net/nova/+bug/833205,2012-04-05
+822998,822998,Fix Released,network_info is generated/used haphazardly throughout tests,https://bugs.launchpad.net/nova/+bug/822998,2012-04-05
+819997,819997,Fix Released,Nova volume should support tgt rather than iscsitarget.,https://bugs.launchpad.net/nova/+bug/819997,2012-04-05
+886169,886169,Fix Released,OSAPI duplicates kernel_id/ramdisk_id lookup,https://bugs.launchpad.net/nova/+bug/886169,2012-04-05
+886139,886139,Fix Released,Extraneous call to list all images in OSAPI Server Create,https://bugs.launchpad.net/nova/+bug/886139,2012-04-05
+885462,885462,Fix Released,Specifying an unknown key produces a non-templated error message,https://bugs.launchpad.net/nova/+bug/885462,2012-04-05
+885389,885389,Fix Released,OSAPI never reports PASSWORD when changing server password,https://bugs.launchpad.net/nova/+bug/885389,2012-04-05
+885349,885349,Fix Released,API responses for build should avoid waiting on scheduler when possible,https://bugs.launchpad.net/nova/+bug/885349,2012-04-05
+884906,884906,Fix Released,OSAPI does not report HARD_REBOOT,https://bugs.launchpad.net/nova/+bug/884906,2012-04-05
+884858,884858,Fix Released,Server create and immediate delete fails on libvirt,https://bugs.launchpad.net/nova/+bug/884858,2012-04-05
+883279,883279,Fix Released,"Nova Notifications doesn't report instance UUID, only instance id",https://bugs.launchpad.net/nova/+bug/883279,2012-04-05
+879582,879582,Fix Released,Request id doesn't appear in logs,https://bugs.launchpad.net/nova/+bug/879582,2012-04-05
+873099,873099,Fix Released,XenServer clean_reboot task doesn't time out,https://bugs.launchpad.net/nova/+bug/873099,2012-04-05
+869132,869132,Fix Released,Stacktrace is visible for api call exceptions,https://bugs.launchpad.net/nova/+bug/869132,2012-04-05
+862637,862637,Fix Released,FLAGS.instance_name_template needs to be more flexible,https://bugs.launchpad.net/nova/+bug/862637,2012-04-05
+861776,861776,Fix Released,Add VM weights to instance_types,https://bugs.launchpad.net/nova/+bug/861776,2012-04-05
+861753,861753,Fix Released,nova list recursing zones should be default now,https://bugs.launchpad.net/nova/+bug/861753,2012-04-05
+861666,861666,Fix Released,make flavor 'id' a string in the OSAPI v1.1,https://bugs.launchpad.net/nova/+bug/861666,2012-04-05
+859149,859149,Fix Released,minRam and minDisk display as Ints in /images/detail response,https://bugs.launchpad.net/nova/+bug/859149,2012-04-05
+859148,859148,Fix Released,OSAPI DELETE on missing image should return 404,https://bugs.launchpad.net/nova/+bug/859148,2012-04-05
+856527,856527,Fix Released,OSAPI confirm/revertResize error message unhelpful,https://bugs.launchpad.net/nova/+bug/856527,2012-04-05
+852079,852079,Fix Released,Compute uses the DB directly to get network related info,https://bugs.launchpad.net/nova/+bug/852079,2012-04-05
+850407,850407,Fix Released,OSAPI v1.1 Flavors should have a 'vcpus' attribute,https://bugs.launchpad.net/nova/+bug/850407,2012-04-05
+850319,850319,Fix Released,We need the ability to automatically confirm resizes after a given window,https://bugs.launchpad.net/nova/+bug/850319,2012-04-05
+849117,849117,Fix Released,Usage spec requires more data.,https://bugs.launchpad.net/nova/+bug/849117,2012-04-05
+844926,844926,Fix Released,OSAPI v1.1 Flavors Filtering,https://bugs.launchpad.net/nova/+bug/844926,2012-04-05
+844912,844912,Fix Released,OSAPI v1.1 Container Pagination Links,https://bugs.launchpad.net/nova/+bug/844912,2012-04-05

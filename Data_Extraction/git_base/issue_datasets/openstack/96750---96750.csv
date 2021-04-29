@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+954057,954057,Fix Released,memcache test failing when system not in UTC,https://bugs.launchpad.net/keystone/+bug/954057,2012-04-05
+952977,952977,Fix Released,Can't fetch EC2 credentials,https://bugs.launchpad.net/keystone/+bug/952977,2012-04-05
+951093,951093,Fix Released,Unable to authenticate user without metadata,https://bugs.launchpad.net/keystone/+bug/951093,2012-04-05
+949373,949373,Fix Released,Default configuration values are ignored,https://bugs.launchpad.net/keystone/+bug/949373,2012-04-05
+948495,948495,Fix Released,need to provide totally offline ./run_tests.sh to support downstream packaging,https://bugs.launchpad.net/keystone/+bug/948495,2012-04-05
+948211,948211,Fix Released,Wrong commands and configuration mentioned at http://keystone.openstack.org/configuration.html,https://bugs.launchpad.net/keystone/+bug/948211,2012-04-05
+947011,947011,Fix Released,users should be able to get ec2 credentials,https://bugs.launchpad.net/keystone/+bug/947011,2012-04-05
+945868,945868,Fix Released,Listen interface can only be 0.0.0.0,https://bugs.launchpad.net/keystone/+bug/945868,2012-04-05
+944372,944372,Fix Released,docs/middleware_architecture out of sync with auth_token,https://bugs.launchpad.net/keystone/+bug/944372,2012-04-05
+942986,942986,Fix Released,auth_token needs logging enabled,https://bugs.launchpad.net/keystone/+bug/942986,2012-04-05
+942793,942793,Fix Released,keystone-all ignores all command line options,https://bugs.launchpad.net/keystone/+bug/942793,2012-04-05
+938253,938253,Fix Released,update auth_token to support memcache,https://bugs.launchpad.net/keystone/+bug/938253,2012-04-05
+934328,934328,Fix Released,document how to import previous keystone (Diablo),https://bugs.launchpad.net/keystone/+bug/934328,2012-04-05
+932258,932258,Fix Released,Role names should be globally unique and required,https://bugs.launchpad.net/keystone/+bug/932258,2012-04-05
+961412,961412,Fix Released,endpoint-create fails,https://bugs.launchpad.net/keystone/+bug/961412,2012-04-05
+961354,961354,Fix Released,python-keystoneclient job fails to build a tarball,https://bugs.launchpad.net/keystone/+bug/961354,2012-04-05
+958135,958135,Fix Released,keystone CLI shouldn't traceback when invalid data entered:UnboundLocalError: local variable 'metadata_ref' referenced before assignment,https://bugs.launchpad.net/keystone/+bug/958135,2012-04-05
+954217,954217,Fix Released,need basic how-to-install docs for RC1,https://bugs.launchpad.net/keystone/+bug/954217,2012-04-05
+954089,954089,Fix Released,service-list returns empty set for TemplatedCatalog backend,https://bugs.launchpad.net/keystone/+bug/954089,2012-04-05
+954087,954087,Fix Released,endpoint-list with TemplatedCatalog backend raises AttributeError,https://bugs.launchpad.net/keystone/+bug/954087,2012-04-05
+951933,951933,Fix Released,diablo style responses to auth_token,https://bugs.launchpad.net/keystone/+bug/951933,2012-04-05
+949521,949521,Fix Released,Document the LDAP Identity Driver,https://bugs.launchpad.net/keystone/+bug/949521,2012-04-05
+948439,948439,Fix Released,belongs_to token calls need a serviceCatalog returned,https://bugs.launchpad.net/keystone/+bug/948439,2012-04-05
+943722,943722,Fix Released,token auth needs unit tests,https://bugs.launchpad.net/keystone/+bug/943722,2012-04-05
+942985,942985,Fix Released,the service tries to get a new admin token when the user's token fails to validated,https://bugs.launchpad.net/keystone/+bug/942985,2012-04-05
+942984,942984,Fix Released,keystone should return 503 service unavailable when service can't get a token via admin user/pass,https://bugs.launchpad.net/keystone/+bug/942984,2012-04-05
+941101,941101,Fix Released,auth_token middleware should set X_USER_ID,https://bugs.launchpad.net/keystone/+bug/941101,2012-04-05
+940637,940637,Fix Released,Default compute port should be 8774,https://bugs.launchpad.net/keystone/+bug/940637,2012-04-05
+940521,940521,Fix Released,glance_auth_token has incorrect 'admin' role name,https://bugs.launchpad.net/keystone/+bug/940521,2012-04-05
+940010,940010,Fix Released,Backslash continuations (Keystone),https://bugs.launchpad.net/keystone/+bug/940010,2012-04-05
+939015,939015,Fix Released,re-add admin_password/admin_user support to auth_token middleware,https://bugs.launchpad.net/keystone/+bug/939015,2012-04-05
+938815,938815,Fix Released,invalid credentials causes TypeError: 'NoneType' object is not subscriptable,https://bugs.launchpad.net/keystone/+bug/938815,2012-04-05
+938718,938718,Fix Released,keystone-manage foo bar should return exit status,https://bugs.launchpad.net/keystone/+bug/938718,2012-04-05
+937265,937265,Fix Released,error during installation from jenkins tarball: can't copy 'keystone/common/sql/migrate_repo/migrate.cfg': doesn't exist or not a regular file,https://bugs.launchpad.net/keystone/+bug/937265,2012-04-05
+933852,933852,Fix Released,Reimplement LDAP support in Keystone,https://bugs.launchpad.net/keystone/+bug/933852,2012-04-05
+933786,933786,Fix Released,Admin tenants list API call returns partial list,https://bugs.launchpad.net/keystone/+bug/933786,2012-04-05
+933721,933721,Fix Released,get_tenant_users broken post-redux,https://bugs.launchpad.net/keystone/+bug/933721,2012-04-05
+933234,933234,Fix Released,keystone fails to start.,https://bugs.launchpad.net/keystone/+bug/933234,2012-04-05
+933034,933034,Fix Released,keystone-redux problem creating user with default tenant,https://bugs.launchpad.net/keystone/+bug/933034,2012-04-05
+932729,932729,Fix Released,git ignore sqlite.db files,https://bugs.launchpad.net/keystone/+bug/932729,2012-04-05
+932578,932578,Fix Released,Unpythonic code in redux in auth_token.py,https://bugs.launchpad.net/keystone/+bug/932578,2012-04-05
+931746,931746,Fix Released,unicode keys break memcache backend set/get,https://bugs.launchpad.net/keystone/+bug/931746,2012-04-05
+925872,925872,Fix Released,Legacy Swift auth blows up with service-header-mappings,https://bugs.launchpad.net/keystone/+bug/925872,2012-04-05
+925429,925429,Fix Released,AttributeError: 'module' object has no attribute 'DEFINE_string',https://bugs.launchpad.net/keystone/+bug/925429,2012-04-05
+923573,923573,Fix Released,Expired admin token not auto-refreshed,https://bugs.launchpad.net/keystone/+bug/923573,2012-04-05
+910456,910456,Fix Released,keystone-manage role list tenant not working,https://bugs.launchpad.net/keystone/+bug/910456,2012-04-05
+910320,910320,Fix Released,keystone-manage did not support update and delete function,https://bugs.launchpad.net/keystone/+bug/910320,2012-04-05
+928053,928053,Fix Released,implement a sql catalog backend,https://bugs.launchpad.net/keystone/+bug/928053,2012-04-05
+900836,900836,Fix Released,Token duration is not configurable,https://bugs.launchpad.net/keystone/+bug/900836,2012-04-05
+934331,934331,Fix Released,create a sample-data script for quick development use,https://bugs.launchpad.net/keystone/+bug/934331,2012-04-05
+933587,933587,Fix Released,HEAD /v2.0/tokens/{token_id} returns 404,https://bugs.launchpad.net/keystone/+bug/933587,2012-04-05
+929653,929653,Fix Released,ksl tests leak memory,https://bugs.launchpad.net/keystone/+bug/929653,2012-04-05
+928565,928565,Fix Released,Ensure that keystone can accept alternate config files,https://bugs.launchpad.net/keystone/+bug/928565,2012-04-05
+928057,928057,Fix Released,provide Vary header,https://bugs.launchpad.net/keystone/+bug/928057,2012-04-05
+928021,928021,Fix Released,need a token delete API and extended backends,https://bugs.launchpad.net/keystone/+bug/928021,2012-04-05
+927873,927873,Fix Released,keystone-manage doesn't allow setting of boolean,https://bugs.launchpad.net/keystone/+bug/927873,2012-04-05
+923933,923933,Fix Released,keystone-manage2 does not list granted roles,https://bugs.launchpad.net/keystone/+bug/923933,2012-04-05
+916386,916386,Fix Released,Second create-tenant request fails with 401 Forbidden,https://bugs.launchpad.net/keystone/+bug/916386,2012-04-05
+940357,940357,Fix Released,Missing files in generated tarballs,https://bugs.launchpad.net/keystone/+bug/940357,2012-04-05
+932369,932369,Fix Released,remove pycli dependency,https://bugs.launchpad.net/keystone/+bug/932369,2012-04-05
+932238,932238,Fix Released,keystoneclient call to get users for tenant yields 500,https://bugs.launchpad.net/keystone/+bug/932238,2012-04-05
+930321,930321,Fix Released,ksl: GET /v2.0/ returns {},https://bugs.launchpad.net/keystone/+bug/930321,2012-04-05
+928545,928545,Fix Released,implement token expiry,https://bugs.launchpad.net/keystone/+bug/928545,2012-04-05
+928062,928062,Fix Released,add DEBUG logging to 40x repsonses,https://bugs.launchpad.net/keystone/+bug/928062,2012-04-05
+928061,928061,Fix Released,add error messages to 500 response codes,https://bugs.launchpad.net/keystone/+bug/928061,2012-04-05
+928058,928058,Fix Released,support XML output for Keystone API,https://bugs.launchpad.net/keystone/+bug/928058,2012-04-05
+928056,928056,Fix Released,acknowledge/interpret Accept header,https://bugs.launchpad.net/keystone/+bug/928056,2012-04-05
+928055,928055,Fix Released,provide Content-Type header,https://bugs.launchpad.net/keystone/+bug/928055,2012-04-05
+928054,928054,Fix Released,/extensions API support,https://bugs.launchpad.net/keystone/+bug/928054,2012-04-05
+928052,928052,Fix Released,implement a SQL based token backend,https://bugs.launchpad.net/keystone/+bug/928052,2012-04-05
+928049,928049,Fix Released,"implement ""mark & limit"" on user list and tenant list today",https://bugs.launchpad.net/keystone/+bug/928049,2012-04-05
+928045,928045,Fix Released,verify that 200 responses from keystone have content in the body,https://bugs.launchpad.net/keystone/+bug/928045,2012-04-05
+928043,928043,Fix Released,document how to configure keystone (redux) with swift auth,https://bugs.launchpad.net/keystone/+bug/928043,2012-04-05
+928041,928041,Fix Released,document basic concepts for keystone and their relations,https://bugs.launchpad.net/keystone/+bug/928041,2012-04-05
+928039,928039,Fix Released,middleware needs tests,https://bugs.launchpad.net/keystone/+bug/928039,2012-04-05

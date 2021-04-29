@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1182611,1182611,Fix Released,tools/conf/generate_sample.sh seems to be broken,https://bugs.launchpad.net/cinder/+bug/1182611,2013-10-17
+1182203,1182203,Fix Released,cinder-manage fails if a version of pbr<0.5.10 is installed,https://bugs.launchpad.net/cinder/+bug/1182203,2013-10-17
+1182134,1182134,Fix Released,3PAR Host already exists,https://bugs.launchpad.net/cinder/+bug/1182134,2013-10-17
+1180984,1180984,Fix Released,NFS driver breaks if volume name contains spaces,https://bugs.launchpad.net/cinder/+bug/1180984,2013-10-17
+1178576,1178576,Fix Released,Project name is not available in CinderKeystoneContext,https://bugs.launchpad.net/cinder/+bug/1178576,2013-10-17
+1148784,1148784,Fix Released,Missing copy_image_to_volume method in  the Sheepdog driver,https://bugs.launchpad.net/cinder/+bug/1148784,2013-10-17
+1090306,1090306,Fix Released,Volume type extra specs delete always returns 202 status code,https://bugs.launchpad.net/cinder/+bug/1090306,2013-10-17
+1190419,1190419,Fix Released,cinder terminate_connection inconsistent API,https://bugs.launchpad.net/cinder/+bug/1190419,2013-10-17
+1182037,1182037,Fix Released,Going to replace all the FLAGS with cfg.CONF,https://bugs.launchpad.net/cinder/+bug/1182037,2013-10-17
+1159824,1159824,Fix Released,Independent boot from volume,https://bugs.launchpad.net/cinder/+bug/1159824,2013-10-17
+1194599,1194599,Fix Released,Remove domain config option from HP 3PAR drivers,https://bugs.launchpad.net/cinder/+bug/1194599,2013-10-17
+1185714,1185714,Fix Released,cinder volume create with bad availability_zone should fail immediately,https://bugs.launchpad.net/cinder/+bug/1185714,2013-10-17
+1199471,1199471,Fix Released,Handle errors raised by extend volume,https://bugs.launchpad.net/cinder/+bug/1199471,2013-10-17
+1199453,1199453,Fix Released,cinder doesn't work with SQLAlchemy >= 0.8,https://bugs.launchpad.net/cinder/+bug/1199453,2013-10-17
+1195461,1195461,Fix Released,Availability Zones should be discoverable through API,https://bugs.launchpad.net/cinder/+bug/1195461,2013-10-17
+1194289,1194289,Fix Released,3Par driver required scoping of the extra-spec keys,https://bugs.launchpad.net/cinder/+bug/1194289,2013-10-17
+1190056,1190056,Fix Released,3PAR driver's terminate_connection issue,https://bugs.launchpad.net/cinder/+bug/1190056,2013-10-17
+1187910,1187910,Fix Released,volume transfer doesn't include policy checks,https://bugs.launchpad.net/cinder/+bug/1187910,2013-10-17
+1187134,1187134,Fix Released,cinder-manage migrate should be removed in Havana,https://bugs.launchpad.net/cinder/+bug/1187134,2013-10-17
+1186427,1186427,Fix Released,3PAR Cinder Driver issues when a CPG is specified in the volume extra specs,https://bugs.launchpad.net/cinder/+bug/1186427,2013-10-17
+1185974,1185974,Fix Released,Incorrect authorization rule in api.quota,https://bugs.launchpad.net/cinder/+bug/1185974,2013-10-17
+1185098,1185098,Fix Released,default signing_dir config causes WARNINGs,https://bugs.launchpad.net/cinder/+bug/1185098,2013-10-17
+1179159,1179159,Fix Released,"netapp, nfs, storwize and rbd plugins register opts only after instantiation",https://bugs.launchpad.net/cinder/+bug/1179159,2013-10-17
+1173266,1173266,Fix Released,Integrated unit tests fail in cinder due to default volume type not found,https://bugs.launchpad.net/cinder/+bug/1173266,2013-10-17
+1164929,1164929,Fix Released,cinder force-delete of an attached volume fails and puts system into a inconsistent state,https://bugs.launchpad.net/cinder/+bug/1164929,2013-10-17
+1202007,1202007,Fix Released,need_longer_timeout_setting_for_solidfire_clone,https://bugs.launchpad.net/cinder/+bug/1202007,2013-10-17
+1200709,1200709,Fix Released,Error in c-vol log after successful tempest run,https://bugs.launchpad.net/cinder/+bug/1200709,2013-10-17
+1200040,1200040,Fix Released,"volume stays in an indefinite ""backing-up"" state when no cinder-backup is running",https://bugs.launchpad.net/cinder/+bug/1200040,2013-10-17
+1199909,1199909,Fix Released,LVM volume clone fails with NoSuchOptError volume_name_template,https://bugs.launchpad.net/cinder/+bug/1199909,2013-10-17
+1195910,1195910,Fix Released,SolidFire driver should catch Connection Refused error,https://bugs.launchpad.net/cinder/+bug/1195910,2013-10-17
+1192601,1192601,Fix Released,cinder thinlvm allocates new snap based volumes outside the pool,https://bugs.launchpad.net/cinder/+bug/1192601,2013-10-17
+1192390,1192390,Fix Released,don't propagate glance backref out of db layer,https://bugs.launchpad.net/cinder/+bug/1192390,2013-10-17
+1192258,1192258,Fix Released,LVM volume copy/clear assumes volume_dd_blocksize is set to 1M,https://bugs.launchpad.net/cinder/+bug/1192258,2013-10-17
+1189455,1189455,Fix Released,logging exception in lvm driver,https://bugs.launchpad.net/cinder/+bug/1189455,2013-10-17
+1188619,1188619,Fix Released,Pyflakes error in EMC driver,https://bugs.launchpad.net/cinder/+bug/1188619,2013-10-17
+1187538,1187538,Fix Released,Need elevated context when accepting transfer,https://bugs.launchpad.net/cinder/+bug/1187538,2013-10-17
+1187137,1187137,Fix Released,'cinder-manage config list' command doesn't allow users to specify a config option to display,https://bugs.launchpad.net/cinder/+bug/1187137,2013-10-17
+1186566,1186566,Fix Released,Syntax error in hp3par driver,https://bugs.launchpad.net/cinder/+bug/1186566,2013-10-17
+1183416,1183416,Fix Released,Some tests are skipped because of the execute bit,https://bugs.launchpad.net/cinder/+bug/1183416,2013-10-17
+1174525,1174525,Fix Released,Outdated install docs and broken link,https://bugs.launchpad.net/cinder/+bug/1174525,2013-10-17
+1174502,1174502,Fix Released,cinder-manage man page needs to be rewritten,https://bugs.launchpad.net/cinder/+bug/1174502,2013-10-17
+1169290,1169290,Fix Released,local attach of iSCSI silently fails,https://bugs.launchpad.net/cinder/+bug/1169290,2013-10-17
+1156608,1156608,Fix Released,Cinder API log WARNING: Inheritance-based rules are deprecated,https://bugs.launchpad.net/cinder/+bug/1156608,2013-10-17
+1122898,1122898,Fix Released,Generic iSCSI copy volume<->image doesn't disconnect,https://bugs.launchpad.net/cinder/+bug/1122898,2013-10-17
+1201592,1201592,Fix Released,handle-remaining-connect-fails-cases-in-solidfire-driver,https://bugs.launchpad.net/cinder/+bug/1201592,2013-10-17
+1183736,1183736,Fix Released,'%' might be missed during the message definition,https://bugs.launchpad.net/cinder/+bug/1183736,2013-10-17
+1183731,1183731,Fix Released,"generate_sample.sh does not generate sample configuration for modules  using ""_""  builtin.",https://bugs.launchpad.net/cinder/+bug/1183731,2013-10-17
+1181996,1181996,Fix Released,run_tests.sh runs all tests even when one specifies a single test file,https://bugs.launchpad.net/cinder/+bug/1181996,2013-10-17
+1181413,1181413,Fix Released,enable_[v1|v2]_api does not modify versions API response,https://bugs.launchpad.net/cinder/+bug/1181413,2013-10-17
+1177678,1177678,Fix Released,cinder scheduler failed to filter Huawei backend volume,https://bugs.launchpad.net/cinder/+bug/1177678,2013-10-17
+1176259,1176259,Fix Released,Need notifiers for create/destroy of volumeType and create/update/delete of VolumeTypeExtraSpec,https://bugs.launchpad.net/cinder/+bug/1176259,2013-10-17
+1175532,1175532,Fix Released,Boot from volume doesn't honour the minDisk parameter,https://bugs.launchpad.net/cinder/+bug/1175532,2013-10-17
+1175222,1175222,Fix Released,Can't specify custom backend-name for HP/3par driver,https://bugs.launchpad.net/cinder/+bug/1175222,2013-10-17
+1172777,1172777,Fix Released,cinder mounting nfs and glusterfs volume will fail silently when cinder is installed in machines with other language than english,https://bugs.launchpad.net/cinder/+bug/1172777,2013-10-17
+1172645,1172645,Fix Released,Release volumes stuck in a downloading state.,https://bugs.launchpad.net/cinder/+bug/1172645,2013-10-17
+1172352,1172352,Fix Released,test_safe_parse_xml not working with some minidom versions,https://bugs.launchpad.net/cinder/+bug/1172352,2013-10-17
+1170038,1170038,Fix Released,logger logs events multiple times when you use the default_log_levels,https://bugs.launchpad.net/cinder/+bug/1170038,2013-10-17
+1169461,1169461,Fix Released,Backup list API lists all backups in the system,https://bugs.launchpad.net/cinder/+bug/1169461,2013-10-17
+1162908,1162908,Fix Released,Unable to delete backups in error state,https://bugs.launchpad.net/cinder/+bug/1162908,2013-10-17
+1161437,1161437,Fix Released,"Mutually exclusive options snapshot-id, source-volid and image-id are not correctly enforced",https://bugs.launchpad.net/cinder/+bug/1161437,2013-10-17
+1160459,1160459,Fix Released,CoraidDriver: REST session validity not checked into get_volume_info,https://bugs.launchpad.net/cinder/+bug/1160459,2013-10-17
+1157910,1157910,Fix Released,Unit test code for NetApp driver spams the logs,https://bugs.launchpad.net/cinder/+bug/1157910,2013-10-17
+1157417,1157417,Fix Released,Block size for dd command in LVM driver not configurable,https://bugs.launchpad.net/cinder/+bug/1157417,2013-10-17
+1157242,1157242,Fix Released,CoraidDriver : retrive volume's informations (improvement),https://bugs.launchpad.net/cinder/+bug/1157242,2013-10-17
+1157110,1157110,Fix Released,db function snapsht_get_active_by_window required,https://bugs.launchpad.net/cinder/+bug/1157110,2013-10-17
+1136892,1136892,Fix Released,Huawei driver: Username and password in xml should not be stored as plaintext,https://bugs.launchpad.net/cinder/+bug/1136892,2013-10-17
+1180976,1180976,Fix Released,Improve filter scheduler capacity update information,https://bugs.launchpad.net/cinder/+bug/1180976,2013-10-17
+1180611,1180611,Fix Released,src_uuid isn't passed correctly when cloning a volume with SolidFire,https://bugs.launchpad.net/cinder/+bug/1180611,2013-10-17
+1166600,1166600,Fix Released,backup tests fail due to format errors in messages,https://bugs.launchpad.net/cinder/+bug/1166600,2013-10-17
+1161038,1161038,Fix Released,Logging configured incorrectly in cinder-all,https://bugs.launchpad.net/cinder/+bug/1161038,2013-10-17
+1177288,1177288,Fix Released,Create a bootable volume not implemented feature in all nfs backends,https://bugs.launchpad.net/cinder/+bug/1177288,2013-10-17
+1171906,1171906,Fix Released,cinder fail test_schedule_happy_day test,https://bugs.launchpad.net/cinder/+bug/1171906,2013-10-17
+1168573,1168573,Fix Released,Grizzly upgrade breaks old api v1 router path,https://bugs.launchpad.net/cinder/+bug/1168573,2013-10-17
+1236339,1236339,Fix Released,Glance functional tests fail against swift backend,https://bugs.launchpad.net/glance/+bug/1236339,2013-10-17
+1167841,1167841,Fix Released,cinder volume service keeps retrying even with code exception,https://bugs.launchpad.net/cinder/+bug/1167841,2013-10-17

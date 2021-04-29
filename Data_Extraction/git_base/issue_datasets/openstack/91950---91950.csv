@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1061637,1061637,Fix Released,test_interrupt_avoids_respawn_storm fails when run under fakeroot,https://bugs.launchpad.net/glance/+bug/1061637,2013-04-04
+1061331,1061331,Fix Released,"when context.owner == None, all images are displayed",https://bugs.launchpad.net/glance/+bug/1061331,2013-04-04
+1060481,1060481,Fix Released,image_get_all is_public=True returns private images,https://bugs.launchpad.net/glance/+bug/1060481,2013-04-04
+1056420,1056420,Fix Released,nosetest options cause no such option errors,https://bugs.launchpad.net/glance/+bug/1056420,2013-04-04
+1050098,1050098,Fix Released,filesystem store driver reports None as image size,https://bugs.launchpad.net/glance/+bug/1050098,2013-04-04
+1077106,1077106,Fix Released,adding a member to the image and the trying to boot from it gives 500,https://bugs.launchpad.net/glance/+bug/1077106,2013-04-04
+1075843,1075843,Fix Released,simple db api timestamp handling,https://bugs.launchpad.net/glance/+bug/1075843,2013-04-04
+1071446,1071446,Fix Released,admins can see deleted images in v2 api,https://bugs.launchpad.net/glance/+bug/1071446,2013-04-04
+1069940,1069940,Fix Released,Admin can change metadata of a deleted image in V2,https://bugs.launchpad.net/glance/+bug/1069940,2013-04-04
+1066416,1066416,Fix Released,multiprocessing race condition when opening filesystem store,https://bugs.launchpad.net/glance/+bug/1066416,2013-04-04
+1065197,1065197,Fix Released,Unknown value in default_store causes startup to repeatedly fail without exiting if workers > 0,https://bugs.launchpad.net/glance/+bug/1065197,2013-04-04
+1064319,1064319,Fix Released,test_s3 tests don't properly cleanup temp directories,https://bugs.launchpad.net/glance/+bug/1064319,2013-04-04
+1063829,1063829,Fix Released,ssl functional tests always skipped,https://bugs.launchpad.net/glance/+bug/1063829,2013-04-04
+1063793,1063793,Fix Released,https registry client isnt symmetric wrt api client,https://bugs.launchpad.net/glance/+bug/1063793,2013-04-04
+1063217,1063217,Fix Released,Properties incorrectly converted in glance replicator,https://bugs.launchpad.net/glance/+bug/1063217,2013-04-04
+1060944,1060944,Fix Released,v1 API returns 200 OK when an admin deletes a deleted image,https://bugs.launchpad.net/glance/+bug/1060944,2013-04-04
+1060930,1060930,Fix Released,Admin can update metadata of a deleted image,https://bugs.launchpad.net/glance/+bug/1060930,2013-04-04
+1056976,1056976,Fix Released,occasional failure to connect to database at system boot,https://bugs.launchpad.net/glance/+bug/1056976,2013-04-04
+1039727,1039727,Fix Released,Fragile config opt registration,https://bugs.launchpad.net/glance/+bug/1039727,2013-04-04
+1074132,1074132,Fix Released,infinite child spawn loop when rabbit_durable_queues differs from rabbit server,https://bugs.launchpad.net/glance/+bug/1074132,2013-04-04
+1049408,1049408,Fix Released,Fragile Test: glance.tests.functional.v1.test_multiprocessing:TestMultiprocessing.test_interrupt_avoids_respawn_storm,https://bugs.launchpad.net/glance/+bug/1049408,2013-04-04
+1162857,1162857,Fix Released,"""Too many open files"" with PKI + sqlite + v3 auth",https://bugs.launchpad.net/keystone/+bug/1162857,2013-04-04
+1159987,1159987,Fix Released,auth.token_factory recreates all token data from the db on every use,https://bugs.launchpad.net/keystone/+bug/1159987,2013-04-04
+1158980,1158980,Fix Released,Rename RH-TRUST to OS-TRUST,https://bugs.launchpad.net/keystone/+bug/1158980,2013-04-04
+1158783,1158783,Fix Released,keystone-all and keystone-manage --version are blank,https://bugs.launchpad.net/keystone/+bug/1158783,2013-04-04
+1160504,1160504,Fix Released,Grizzly v2 catalog has slight formatting changes compared to Folsom,https://bugs.launchpad.net/keystone/+bug/1160504,2013-04-04
+1157727,1157727,Fix Released,ldap backend fails to work with enabled attributes on domains and groups,https://bugs.launchpad.net/keystone/+bug/1157727,2013-04-04
+1155234,1155234,Fix Released,emulated ldap enabled improperly handles updates,https://bugs.launchpad.net/keystone/+bug/1155234,2013-04-04
+1154277,1154277,Fix Released,_ldap_livetest suite fails in its current state,https://bugs.launchpad.net/keystone/+bug/1154277,2013-04-04
+1154216,1154216,Fix Released,LDAP project tests are insufficient,https://bugs.launchpad.net/keystone/+bug/1154216,2013-04-04
+1152326,1152326,Fix Released,__init__.py in tests directory breaks running individual tests,https://bugs.launchpad.net/keystone/+bug/1152326,2013-04-04
+1133240,1133240,Fix Released,Unpin pam dependency version,https://bugs.launchpad.net/keystone/+bug/1133240,2013-04-04
+1133041,1133041,Fix Released,Keystone silently crashes on SSL misconfiguration,https://bugs.launchpad.net/keystone/+bug/1133041,2013-04-04
+1131443,1131443,Fix Released,domain_id_attributes in config.py have wrong default value,https://bugs.launchpad.net/keystone/+bug/1131443,2013-04-04
+1131439,1131439,Fix Released,keystone.conf.sample missing domain_id_attribute examples,https://bugs.launchpad.net/keystone/+bug/1131439,2013-04-04
+1131119,1131119,Fix Released,Add user has wrong response code,https://bugs.launchpad.net/keystone/+bug/1131119,2013-04-04
+1136967,1136967,Fix Released,"The ""methods"" modules conflicts with common usage in python",https://bugs.launchpad.net/keystone/+bug/1136967,2013-04-04
+1132372,1132372,Fix Released,Filtering the results from an api call by boolean doesn't work,https://bugs.launchpad.net/keystone/+bug/1132372,2013-04-04
+1132080,1132080,Fix Released,Tests for v3 protection/filtering need to be improved,https://bugs.launchpad.net/keystone/+bug/1132080,2013-04-04
+1155922,1155922,Fix Released,Lack of negative testing for Credentials,https://bugs.launchpad.net/keystone/+bug/1155922,2013-04-04
+1154918,1154918,Fix Released,legacy_endpoint_id actually stored in 'extra',https://bugs.launchpad.net/keystone/+bug/1154918,2013-04-04
+1152632,1152632,Fix Released,null endpoints are not ignored by v3,https://bugs.launchpad.net/keystone/+bug/1152632,2013-04-04
+1135306,1135306,Fix Released,Start keyston with debug host and port fails,https://bugs.launchpad.net/keystone/+bug/1135306,2013-04-04
+1133526,1133526,Fix Released,v3 tokens contain an 'expires' attr instead of 'expires_at',https://bugs.launchpad.net/keystone/+bug/1133526,2013-04-04
+1103569,1103569,Fix Released,unable to load certificate should abort request,https://bugs.launchpad.net/keystone/+bug/1103569,2013-04-04
+1156594,1156594,Fix Released,deserializing xml results in bad links,https://bugs.launchpad.net/keystone/+bug/1156594,2013-04-04
+1155924,1155924,Fix Released,CredentialNotFound exception is referenced but not defined,https://bugs.launchpad.net/keystone/+bug/1155924,2013-04-04
+1155921,1155921,Fix Released,Deleting User or Project should clean up Credentials/Tokens,https://bugs.launchpad.net/keystone/+bug/1155921,2013-04-04
+1153786,1153786,Fix Released,ldap dereferencing is broken in the ldap backend,https://bugs.launchpad.net/keystone/+bug/1153786,2013-04-04
+1151747,1151747,Fix Released,List endpoints through XML interface using keystone v3 is not successful,https://bugs.launchpad.net/keystone/+bug/1151747,2013-04-04
+1150930,1150930,Fix Released,keystone commands failing,https://bugs.launchpad.net/keystone/+bug/1150930,2013-04-04
+1137696,1137696,Fix Released,Endpoint default config values fail to load with TypeError,https://bugs.launchpad.net/keystone/+bug/1137696,2013-04-04
+1101043,1101043,Fix Released,xml_body returns backtrace on XMLSyntaxError,https://bugs.launchpad.net/keystone/+bug/1101043,2013-04-04
+1097995,1097995,Fix Released,Delete domain -- doesn't do anything with groups/users/tenants,https://bugs.launchpad.net/keystone/+bug/1097995,2013-04-04
+1092187,1092187,Fix Released,LDAP implementation incomplete for User Groups,https://bugs.launchpad.net/keystone/+bug/1092187,2013-04-04
+1081943,1081943,Fix Released,belongsTo not implemented for UUID; raises 500 on mismatch w/ PKI,https://bugs.launchpad.net/keystone/+bug/1081943,2013-04-04
+949467,949467,Fix Released,need a way to get a token for acting on behalf of a user to another service,https://bugs.launchpad.net/keystone/+bug/949467,2013-04-04
+1157430,1157430,Fix Released,V3 V2 token intermix should not allowed for non-default domain,https://bugs.launchpad.net/keystone/+bug/1157430,2013-04-04
+1156913,1156913,Fix Released,V2 to V3 token intermix for unscoped token is broken,https://bugs.launchpad.net/keystone/+bug/1156913,2013-04-04
+1156780,1156780,Fix Released,Folsom to Grizzly migration fails on non-empty sqlite  db.,https://bugs.launchpad.net/keystone/+bug/1156780,2013-04-04
+1154406,1154406,Fix Released,WARNING [keystone.auth.controllers] duplicate option: password,https://bugs.launchpad.net/keystone/+bug/1154406,2013-04-04
+1152283,1152283,Fix Released,delete token for trust invalidation has typo,https://bugs.launchpad.net/keystone/+bug/1152283,2013-04-04
+1148186,1148186,Fix Released,Update keystone version info to include v3,https://bugs.launchpad.net/keystone/+bug/1148186,2013-04-04
+1145267,1145267,Fix Released,/v3/auth/tokens vs /v3/auth/token,https://bugs.launchpad.net/keystone/+bug/1145267,2013-04-04
+1131840,1131840,Fix Released,v3 auth API untranslatable to XML,https://bugs.launchpad.net/keystone/+bug/1131840,2013-04-04
+1131819,1131819,Fix Released,v3_protection test leaves CONF.policyfile setting in incorrect state,https://bugs.launchpad.net/keystone/+bug/1131819,2013-04-04
+1131769,1131769,Fix Released,Getting domain roles for token missing in kvs/ldap backends,https://bugs.launchpad.net/keystone/+bug/1131769,2013-04-04
+1130424,1130424,Fix Released,SQL migration 017 fails with non-empty database,https://bugs.launchpad.net/keystone/+bug/1130424,2013-04-04
+1130236,1130236,Fix Released,Domains are not validated on authentication,https://bugs.launchpad.net/keystone/+bug/1130236,2013-04-04
+1126021,1126021,Fix Released,Updating Project and Group fails to update certain attributes,https://bugs.launchpad.net/keystone/+bug/1126021,2013-04-04
+1152801,1152801,Fix Released,V3 tokens do not show up in list_tokens_for_trust,https://bugs.launchpad.net/keystone/+bug/1152801,2013-04-04
+1131087,1131087,Fix Released,Roles lost in Folsom to Grizzly upgrade,https://bugs.launchpad.net/keystone/+bug/1131087,2013-04-04
+1119789,1119789,Fix Released,Role table not upgraded to grizzly cleanly,https://bugs.launchpad.net/keystone/+bug/1119789,2013-04-04
+1093493,1093493,Fix Released,v3 grant/revoke roles to not invalidate existing tokens,https://bugs.launchpad.net/keystone/+bug/1093493,2013-04-04
+1129243,1129243,Fix Released,fakehttpconnection unit tests failure - unexpected keyword argument 'timeout',https://bugs.launchpad.net/keystone/+bug/1129243,2013-04-04

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+849160,849160,Fix Released,"swap, rxtx_cap, rxtx_quota not listed in output of 'nova flavor-list'",https://bugs.launchpad.net/nova/+bug/849160,2011-09-22
+837463,837463,Fix Released,Starting nova-compute fails on non-x86 architecture.,https://bugs.launchpad.net/nova/+bug/837463,2011-09-22
+837102,837102,Fix Released,nova writes libvirt xml 'driver_type' based only on FLAGS.use_cow_images,https://bugs.launchpad.net/nova/+bug/837102,2011-09-22
+852891,852891,Fix Released,libvirt config drive has missing references to user and projec,https://bugs.launchpad.net/nova/+bug/852891,2011-09-22
+851889,851889,Fix Released,libvirt test_snapshot failure,https://bugs.launchpad.net/nova/+bug/851889,2011-09-22
+851157,851157,Fix Released,multiple snapshots lead to incredibly large files in libvirt,https://bugs.launchpad.net/nova/+bug/851157,2011-09-22
+849154,849154,Fix Released,"swap is interpreted in GB, not MB",https://bugs.launchpad.net/nova/+bug/849154,2011-09-22
+847768,847768,Fix Released,"Direct use of sudo (instead of ""run_as_root=True"") has crept in code",https://bugs.launchpad.net/nova/+bug/847768,2011-09-22
+844944,844944,Fix Released,Cannot create a network using FlatDHCPManager without a bridge interface,https://bugs.launchpad.net/nova/+bug/844944,2011-09-22
+844935,844935,Fix Released,Nova should not assume the default iptables INPUT filter policy is accept,https://bugs.launchpad.net/nova/+bug/844935,2011-09-22
+844933,844933,Fix Released,OSAPI v1.1 Image Statuses,https://bugs.launchpad.net/nova/+bug/844933,2011-09-22
+836759,836759,Fix Released,nova does not grow qcow disk images correctly,https://bugs.launchpad.net/nova/+bug/836759,2011-09-22
+834030,834030,Fix Released,'invalid literal for int' when listing a image snapshot,https://bugs.launchpad.net/nova/+bug/834030,2011-09-22
+829687,829687,Fix Released,flavors.detail does not return vcpus,https://bugs.launchpad.net/nova/+bug/829687,2011-09-22
+827807,827807,Fix Released,"in multi_host nova-network mode, nova-network doesn't reassociate reassociate the floating ips on reboot",https://bugs.launchpad.net/nova/+bug/827807,2011-09-22
+827598,827598,Fix Released,ephemeral device does not have a filesystem,https://bugs.launchpad.net/nova/+bug/827598,2011-09-22
+855115,855115,Fix Released,Unauthorized user can release floating_ips,https://bugs.launchpad.net/nova/+bug/855115,2011-09-22
+851218,851218,Fix Released,no swap if block-device-mapping of /dev/vdb=swap,https://bugs.launchpad.net/nova/+bug/851218,2011-09-22
+851145,851145,Fix Released,ephemeral device (local_gb) does not get a filesystem,https://bugs.launchpad.net/nova/+bug/851145,2011-09-22
+850305,850305,Fix Released,OS api extension to boot from volumes fails,https://bugs.launchpad.net/nova/+bug/850305,2011-09-22
+849381,849381,Fix Released,Windows hostnames can only be <= 15 chars in length,https://bugs.launchpad.net/nova/+bug/849381,2011-09-22
+849207,849207,Fix Released,Hostname not injected to xenstore upon creation,https://bugs.launchpad.net/nova/+bug/849207,2011-09-22
+848960,848960,Fix Released,Files are missing from tarball due to rev1559,https://bugs.launchpad.net/nova/+bug/848960,2011-09-22
+844717,844717,Fix Released,nova-vncproxy doesn't listen for queue messages,https://bugs.launchpad.net/nova/+bug/844717,2011-09-22
+831497,831497,Fix Released,Instance spawn operation fails on ESXi compute node,https://bugs.launchpad.net/nova/+bug/831497,2011-09-22
+824008,824008,Fix Released,euca-describe-instances shows all instances in all states (even terminated),https://bugs.launchpad.net/nova/+bug/824008,2011-09-22
+806647,806647,Fix Released,NBD device doesn't get disconnected after terminating LXC instance,https://bugs.launchpad.net/nova/+bug/806647,2011-09-22
+855245,855245,Fix Released,dnsmasq-utils required by nova-network but unavailable on natty,https://bugs.launchpad.net/nova/+bug/855245,2011-09-22
+855210,855210,Fix Released,unable to boot instances w/ DHCP (dnsmasq 2.58),https://bugs.launchpad.net/nova/+bug/855210,2011-09-22
+855125,855125,Fix Released,Remove keystone middlewares so they can go in keystone,https://bugs.launchpad.net/nova/+bug/855125,2011-09-22
+839581,839581,Fix Released,Update nova to work with Glance keystone client changes,https://bugs.launchpad.net/nova/+bug/839581,2011-09-22
+833552,833552,Fix Released,No easy migration from old auth to keystone,https://bugs.launchpad.net/nova/+bug/833552,2011-09-22
+758762,758762,Fix Released,Need for more user-friendly docs,https://bugs.launchpad.net/glance/+bug/758762,2011-09-22
+706387,706387,Fix Released,Missing AUTHORS file,https://bugs.launchpad.net/glance/+bug/706387,2011-09-22
+788920,788920,Fix Released,Passing functional tests leaving test data around,https://bugs.launchpad.net/glance/+bug/788920,2011-09-22
+788175,788175,Fix Released,No documentation for new results filtering in API or client,https://bugs.launchpad.net/glance/+bug/788175,2011-09-22
+787296,787296,Fix Released,test_walk_versions fails with SQLalchemy 0.7,https://bugs.launchpad.net/glance/+bug/787296,2011-09-22
+771464,771464,Fix Released,Logging documentation needs clarity,https://bugs.launchpad.net/glance/+bug/771464,2011-09-22
+766406,766406,Fix Released,Example conf doesn't show log_file option,https://bugs.launchpad.net/glance/+bug/766406,2011-09-22
+766295,766295,Fix Released,glance clear should prompt before deleting all images,https://bugs.launchpad.net/glance/+bug/766295,2011-09-22
+766052,766052,Fix Released,debug and verbose settings in glance.conf not treated as boolean,https://bugs.launchpad.net/glance/+bug/766052,2011-09-22
+778463,778463,Fix Released,'No module named paste' error when installing glance (apt-get glance),https://bugs.launchpad.net/glance/+bug/778463,2011-09-22
+768979,768979,Fix Released,"Confirmation for ""bin/glance clear"" and ""bin/glance delete <id>""",https://bugs.launchpad.net/glance/+bug/768979,2011-09-22
+768969,768969,Fix Released,Images in 'killed' status show in index(); no status shown in show(),https://bugs.launchpad.net/glance/+bug/768969,2011-09-22
+766957,766957,Fix Released,adding/removing image  problem with wrong url,https://bugs.launchpad.net/glance/+bug/766957,2011-09-22
+754221,754221,Fix Released,Rework documentation on glance add to be more clear,https://bugs.launchpad.net/glance/+bug/754221,2011-09-22
+773388,773388,Fix Released,glance index does not show queued or saving images,https://bugs.launchpad.net/glance/+bug/773388,2011-09-22
+767203,767203,Fix Released,Update 'Name' attribute doesn't work,https://bugs.launchpad.net/glance/+bug/767203,2011-09-22
+766308,766308,Fix Released,image_properties not marked as deleted when 'glance clear' is called,https://bugs.launchpad.net/glance/+bug/766308,2011-09-22
+801703,801703,Fix Released,No logging is configured for unit tests,https://bugs.launchpad.net/glance/+bug/801703,2011-09-22
+800947,800947,Fix Released,Incorrect content-type returned on GET '/v1/images/<id>',https://bugs.launchpad.net/glance/+bug/800947,2011-09-22
+799008,799008,Fix Released,glance creates zero-length images in local file store on Ubuntu oneiric,https://bugs.launchpad.net/glance/+bug/799008,2011-09-22
+803188,803188,Fix Released,Error booting image,https://bugs.launchpad.net/glance/+bug/803188,2011-09-22
+813291,813291,Fix Released,POST to /images setting x-image-meta-id to an already existing image id causes a 500 error,https://bugs.launchpad.net/glance/+bug/813291,2011-09-22
+802883,802883,Fix Released,tests/unit/test_config.py fails,https://bugs.launchpad.net/glance/+bug/802883,2011-09-22
+817275,817275,Fix Released,Don't tee same image into cache multiple times,https://bugs.launchpad.net/glance/+bug/817275,2011-09-22
+803656,803656,Fix Released,Support is_public in filtering,https://bugs.launchpad.net/glance/+bug/803656,2011-09-22
+803260,803260,Fix Released,"GET http://<host>:<port>/ with out an ""Accept: "" header causes glance-api to return a 500 error",https://bugs.launchpad.net/glance/+bug/803260,2011-09-22
+817278,817278,Fix Released,Fix etc/glance-api.conf to include image_cache_enabled,https://bugs.launchpad.net/glance/+bug/817278,2011-09-22
+817121,817121,Fix Released,URI parsing still problematic,https://bugs.launchpad.net/glance/+bug/817121,2011-09-22
+771849,771849,Fix Released,Port not parsed correctly in Swift URI,https://bugs.launchpad.net/glance/+bug/771849,2011-09-22
+739629,739629,Fix Released,run_tests.sh needs --unittests-only option,https://bugs.launchpad.net/glance/+bug/739629,2011-09-22
+829064,829064,Fix Released,"glance/common/utils.py creates dangerous ""execute"" function that uses the shell to run commands without filtering meta characters",https://bugs.launchpad.net/glance/+bug/829064,2011-09-22
+824706,824706,Fix Released,gettext interfering with nosetest runs,https://bugs.launchpad.net/glance/+bug/824706,2011-09-22
+824083,824083,Fix Released,Allow Glance to log to syslog,https://bugs.launchpad.net/glance/+bug/824083,2011-09-22
+821513,821513,Fix Released,limiting server-side configuration needs to be more flexible,https://bugs.launchpad.net/glance/+bug/821513,2011-09-22
+821296,821296,Fix Released,--unittests-only not running any tests,https://bugs.launchpad.net/glance/+bug/821296,2011-09-22
+821279,821279,Fix Released,install_venv not compatible with python2.7,https://bugs.launchpad.net/glance/+bug/821279,2011-09-22
+819336,819336,Fix Released,python-xattr dependency is not versioned in pip-requires,https://bugs.launchpad.net/glance/+bug/819336,2011-09-22
+818122,818122,Fix Released,tools/pip-requires has unnecessary entry for hashlib,https://bugs.launchpad.net/glance/+bug/818122,2011-09-22
+816077,816077,Fix Released,"Replace str(e) with ""%s"" % e or unicode(e)",https://bugs.launchpad.net/glance/+bug/816077,2011-09-22
+798749,798749,Fix Released,glance-upload --help fails,https://bugs.launchpad.net/glance/+bug/798749,2011-09-22
+794718,794718,Fix Released,S3 requires seekable file. webob versions 0.9.8 through 1.0.7 make_body_seekable() method broken for chunked transfer requests,https://bugs.launchpad.net/glance/+bug/794718,2011-09-22
+781410,781410,Fix Released,glance should fail more gracefully on requests for images that have been removed from the fs,https://bugs.launchpad.net/glance/+bug/781410,2011-09-22
+823041,823041,Fix Released,GET /images returns invalid value,https://bugs.launchpad.net/glance/+bug/823041,2011-09-22

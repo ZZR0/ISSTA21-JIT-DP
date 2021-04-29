@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1257583,1257583,Fix Released,Conductor Does Not Default to Verbose/Debug Logging,https://bugs.launchpad.net/trove/+bug/1257583,2014-04-17
+1256384,1256384,Fix Released,missing-innobackupex-ubuntu-1204,https://bugs.launchpad.net/trove/+bug/1256384,2014-04-17
+1252327,1252327,Fix Released,dotted user names and hosts are truncated,https://bugs.launchpad.net/trove/+bug/1252327,2014-04-17
+1243370,1243370,Fix Released,xml.py in the troveclient imports a non-exiting class (TroveHTTPClient),https://bugs.launchpad.net/trove/+bug/1243370,2014-04-17
+1239408,1239408,Fix Released,mysqldump restore doesnt work,https://bugs.launchpad.net/trove/+bug/1239408,2014-04-17
+1235829,1235829,Fix Released,Trove uses the assert_unicode which is SQLAlchemy 0.7.x only,https://bugs.launchpad.net/trove/+bug/1235829,2014-04-17
+1261823,1261823,Fix Released,entry point bin scripts should call main() method,https://bugs.launchpad.net/trove/+bug/1261823,2014-04-17
+1261169,1261169,Fix Released,Invalid method defined init_engine in trove/tests/util/__init__.py,https://bugs.launchpad.net/trove/+bug/1261169,2014-04-17
+1257279,1257279,Fix Released,.gitignore has the editor specific ignores,https://bugs.launchpad.net/trove/+bug/1257279,2014-04-17
+1251649,1251649,Fix Released,Backup stragegy has too much storage logic,https://bugs.launchpad.net/trove/+bug/1251649,2014-04-17
+1235845,1235845,Fix Released,update user attributes accepts invalid hostnames,https://bugs.launchpad.net/trove/+bug/1235845,2014-04-17
+1234314,1234314,Fix Released,Trove uses [filter:tokenauth] instead of [filter:authtoken],https://bugs.launchpad.net/trove/+bug/1234314,2014-04-17
+1263159,1263159,Fix Released,guest_info missing tenant_id when created using heat services,https://bugs.launchpad.net/trove/+bug/1263159,2014-04-17
+1262421,1262421,Fix Released,trove-heat integration broken when trove_volume_support is disabled,https://bugs.launchpad.net/trove/+bug/1262421,2014-04-17
+1260294,1260294,Fix Released,guestagent.conf.sample still proposes invalid service_registry_ext,https://bugs.launchpad.net/trove/+bug/1260294,2014-04-17
+1258592,1258592,Fix Released,"H403, H702 are suppressed in tox.ini flake8 section.",https://bugs.launchpad.net/trove/+bug/1258592,2014-04-17
+1253850,1253850,Fix Released,"When a backup fails, zombie innobackupex processes are left behind",https://bugs.launchpad.net/trove/+bug/1253850,2014-04-17
+1253849,1253849,Fix Released,"xtrabackup issues a ""FLUSH TABLES WITH READ LOCK"" during a backup",https://bugs.launchpad.net/trove/+bug/1253849,2014-04-17
+1217985,1217985,Fix Released,Trove Resize doesn't wait for instance to become ACTIVE on nova,https://bugs.launchpad.net/trove/+bug/1217985,2014-04-17
+1262378,1262378,Fix Released,cinder code in heat code path,https://bugs.launchpad.net/trove/+bug/1262378,2014-04-17
+1257267,1257267,Fix Released,project contains multiple unused import statements,https://bugs.launchpad.net/trove/+bug/1257267,2014-04-17
+1254607,1254607,Fix Released,_create_server_volume_heat signature contains unused security_groups argument,https://bugs.launchpad.net/trove/+bug/1254607,2014-04-17
+1253596,1253596,Fix Released,Default heat template for mysql is faulty,https://bugs.launchpad.net/trove/+bug/1253596,2014-04-17
+1253469,1253469,Fix Released,_create_server_volume code path busted due to typos,https://bugs.launchpad.net/trove/+bug/1253469,2014-04-17
+1251203,1251203,Fix Released,remote.py is hard-coding the credentials of radmin along with authtoken while creating heatclient,https://bugs.launchpad.net/trove/+bug/1251203,2014-04-17
+1249410,1249410,Fix Released,Prefer Host instead of HostId for Nova host attribute,https://bugs.launchpad.net/trove/+bug/1249410,2014-04-17
+1246368,1246368,Fix Released,Invalid checksum for backup produces bad error message,https://bugs.launchpad.net/trove/+bug/1246368,2014-04-17
+1245767,1245767,Fix Released,security-group-not-attached-to-instance,https://bugs.launchpad.net/trove/+bug/1245767,2014-04-17
+1245705,1245705,Fix Released,User-Create Host Does Not Support Octet Wildcard,https://bugs.launchpad.net/trove/+bug/1245705,2014-04-17
+1241655,1241655,Fix Released,service type for heat instance is hard coded as mysql,https://bugs.launchpad.net/trove/+bug/1241655,2014-04-17
+1240275,1240275,Fix Released,pagination-fails-with-non-string-marker,https://bugs.launchpad.net/trove/+bug/1240275,2014-04-17
+1237395,1237395,Fix Released,trove-taskmanager.conf.sample misses some parameters for GA,https://bugs.launchpad.net/trove/+bug/1237395,2014-04-17
+1235145,1235145,Fix Released,User ID for Notifications is Incorrect,https://bugs.launchpad.net/trove/+bug/1235145,2014-04-17
+1235039,1235039,Fix Released,Add tenant id to /etc/guest_info,https://bugs.launchpad.net/trove/+bug/1235039,2014-04-17
+1234909,1234909,Fix Released,Remove Duplicate trove_auth_url From cfg,https://bugs.launchpad.net/trove/+bug/1234909,2014-04-17
+1234869,1234869,Fix Released,Backup Fake mode missing location attribute,https://bugs.launchpad.net/trove/+bug/1234869,2014-04-17
+1231706,1231706,Fix Released,Method for creating an instance via Heat doesn't support availability zone,https://bugs.launchpad.net/trove/+bug/1231706,2014-04-17
+1219627,1219627,Fix Released,User and Database List in Instance Creation Not Fully Validated,https://bugs.launchpad.net/trove/+bug/1219627,2014-04-17
+1219624,1219624,Fix Released,Support Creation of Superuser(s) for Database,https://bugs.launchpad.net/trove/+bug/1219624,2014-04-17
+1215649,1215649,Fix Released,Service ID for Notifications should bind to Service Type,https://bugs.launchpad.net/trove/+bug/1215649,2014-04-17
+1178333,1178333,Fix Released,Quota usage is able to drop below zero,https://bugs.launchpad.net/trove/+bug/1178333,2014-04-17
+1243793,1243793,Fix Released,White box mode is broken,https://bugs.launchpad.net/trove/+bug/1243793,2014-04-17
+1238901,1238901,Fix Released,Impossible to start trove-api in fake mode.,https://bugs.launchpad.net/trove/+bug/1238901,2014-04-17
+1234739,1234739,Fix Released,Fake Usage Verifier Doesn't Implement clear_events,https://bugs.launchpad.net/trove/+bug/1234739,2014-04-17
+1199518,1199518,Fix Released,Trove - service_statuses updated_at Not Being Set,https://bugs.launchpad.net/trove/+bug/1199518,2014-04-17
+1237910,1237910,Fix Released,trove-guestagent.conf.sample missing some parameters,https://bugs.launchpad.net/trove/+bug/1237910,2014-04-17
+1235278,1235278,Fix Released,Nova Server Fakes reference hostId,https://bugs.launchpad.net/trove/+bug/1235278,2014-04-17
+1183519,1183519,Fix Released,Flip Instance to Failed if Security Group or Default Rule Creation Fail During 'Instance Create',https://bugs.launchpad.net/trove/+bug/1183519,2014-04-17
+1227913,1227913,Fix Released,Use a python lib to generate root passwords instead of GUID,https://bugs.launchpad.net/trove/+bug/1227913,2014-04-17
+1224700,1224700,Fix Released,Account Passwords Logged in Plaintext on GuestAgent Log,https://bugs.launchpad.net/trove/+bug/1224700,2014-04-17
+1224570,1224570,Fix Released,remove manual traceback calls,https://bugs.launchpad.net/trove/+bug/1224570,2014-04-17
+1104578,1104578,Fix Released,"If an Instance is stuck in BUILD, it cannot be deleted",https://bugs.launchpad.net/trove/+bug/1104578,2014-04-17
+1245673,1245673,Fix Released,Mysql XtraBackups ignore process.stderr,https://bugs.launchpad.net/trove/+bug/1245673,2014-04-17
+1245546,1245546,Fix Released,Circular reference logging error,https://bugs.launchpad.net/trove/+bug/1245546,2014-04-17
+1226496,1226496,Fix Released,trove.conf defaults for required params need to be set correctly in cfg.py,https://bugs.launchpad.net/trove/+bug/1226496,2014-04-17
+1283904,1283904,Fix Released,create_region_with_id with duplicate id raise 500 Internal Server Error,https://bugs.launchpad.net/keystone/+bug/1283904,2014-04-17
+1302075,1302075,Fix Released,service catalog in token contains legacy_endpoint_id and enabled fields,https://bugs.launchpad.net/keystone/+bug/1302075,2014-04-17
+1245247,1245247,Fix Released,"For ldap, API wrongly reports user is in group",https://bugs.launchpad.net/keystone/+bug/1245247,2014-04-17
+1296768,1296768,Fix Released,keystone.tests.test_wsgi.ServerTest.test_keepalive_and_keepidle_set MismatchError: 1 != 2,https://bugs.launchpad.net/keystone/+bug/1296768,2014-04-17
+1296333,1296333,Fix Released,Keystone docs fail to build with SQLAlchemy 0.9,https://bugs.launchpad.net/keystone/+bug/1296333,2014-04-17
+1294781,1294781,Fix Released,user_id missing from message about federation roles,https://bugs.launchpad.net/keystone/+bug/1294781,2014-04-17
+1294393,1294393,Fix Released,FederatedTokenTests.scope_to_bad_project test is disabled due to its naming,https://bugs.launchpad.net/keystone/+bug/1294393,2014-04-17
+1291705,1291705,Fix Released,Oauth manager created multiple times,https://bugs.launchpad.net/keystone/+bug/1291705,2014-04-17
+1288124,1288124,Fix Released,Update docstrings in auth/tokens/plugins/saml2.py and contrib/federation/routers.py,https://bugs.launchpad.net/keystone/+bug/1288124,2014-04-17
+1287637,1287637,Fix Released,remove hardcoded SQL queries in tests,https://bugs.launchpad.net/keystone/+bug/1287637,2014-04-17
+1284422,1284422,Fix Released,v3 endpoint create should require url,https://bugs.launchpad.net/keystone/+bug/1284422,2014-04-17
+1255518,1255518,Fix Released,"name '_' is not defined, under nosetests.",https://bugs.launchpad.net/keystone/+bug/1255518,2014-04-17
+1247443,1247443,Fix Released,tests leak file descriptors,https://bugs.launchpad.net/keystone/+bug/1247443,2014-04-17
+1240052,1240052,Fix Released,Hardcoded paths prevent tests from being parallelized,https://bugs.launchpad.net/keystone/+bug/1240052,2014-04-17
+1297922,1297922,Fix Released,Internationalization is broken when using httpd/keystone.py,https://bugs.launchpad.net/keystone/+bug/1297922,2014-04-17
+1297059,1297059,Fix Released,Migrate 43 fails on old sqlalchemy,https://bugs.launchpad.net/keystone/+bug/1297059,2014-04-17
+1296862,1296862,Fix Released,Keystone doc build fails when built from sdist tarballs,https://bugs.launchpad.net/keystone/+bug/1296862,2014-04-17
+1294150,1294150,Fix Released,Keystone fails when returning unscoped federated token as XML,https://bugs.launchpad.net/keystone/+bug/1294150,2014-04-17
+1294150,1294150,Fix Released,Keystone fails when returning unscoped federated token as XML,https://bugs.launchpad.net/openstack-api-site/+bug/1294150,2014-04-17
+1293781,1293781,Fix Released,Ensure sample config is up-to-date [Icehouse RC],https://bugs.launchpad.net/keystone/+bug/1293781,2014-04-17

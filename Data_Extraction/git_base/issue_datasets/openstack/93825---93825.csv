@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1018641,1018641,Fix Released,Add PEP8 checks back for Dom0 plugins,https://bugs.launchpad.net/nova/+bug/1018641,2012-09-27
+1017988,1017988,Fix Released,affinity filters can't handle single uuid and novaclient can't construct list,https://bugs.launchpad.net/nova/+bug/1017988,2012-09-27
+1017816,1017816,Fix Released,volume and snapshot mapping are using improper project_only context,https://bugs.launchpad.net/nova/+bug/1017816,2012-09-27
+1017770,1017770,Fix Released,bandwidth_usage() unnecessarily queries network,https://bugs.launchpad.net/nova/+bug/1017770,2012-09-27
+1017769,1017769,Fix Released,scheduler host manager instance_get_all() joins too much,https://bugs.launchpad.net/nova/+bug/1017769,2012-09-27
+1017756,1017756,Fix Released,openstack API extensions duplicate DB calls,https://bugs.launchpad.net/nova/+bug/1017756,2012-09-27
+1017722,1017722,Fix Released,instance create API action is extremely slow,https://bugs.launchpad.net/nova/+bug/1017722,2012-09-27
+1017282,1017282,Fix Released,vm_vdi_cleaner.py cleanup_instance() fails,https://bugs.launchpad.net/nova/+bug/1017282,2012-09-27
+1014194,1014194,Fix Released,Metadata keys are incorrect for kernel-id and ramdisk-id,https://bugs.launchpad.net/nova/+bug/1014194,2012-09-27
+1010927,1010927,Fix Released,Nova fails to start if --start_guests_on_host_boot=true is set,https://bugs.launchpad.net/nova/+bug/1010927,2012-09-27
+1009750,1009750,Fix Released,XenAPI: cache_images without use_cow_images fails on multiple builds,https://bugs.launchpad.net/nova/+bug/1009750,2012-09-27
+1007573,1007573,Fix Released,affinity filters don't work if scheduler_hints is None,https://bugs.launchpad.net/nova/+bug/1007573,2012-09-27
+1007307,1007307,Fix Released,Unittest case pollutes httplib,https://bugs.launchpad.net/nova/+bug/1007307,2012-09-27
+1007266,1007266,Fix Released,rescue broken in libvirt for images without kernel and ramdisk,https://bugs.launchpad.net/nova/+bug/1007266,2012-09-27
+1006950,1006950,Fix Released,"Starting Instance from ""stopped"" state with attached volume cause libvirt error",https://bugs.launchpad.net/nova/+bug/1006950,2012-09-27
+1006616,1006616,Fix Released,libvirt image cache manager fails when instances are being resized,https://bugs.launchpad.net/nova/+bug/1006616,2012-09-27
+1003093,1003093,Fix Released,Usages API returns instance names but not IDs,https://bugs.launchpad.net/openstack-manuals/+bug/1003093,2012-09-27
+1003093,1003093,Fix Released,Usages API returns instance names but not IDs,https://bugs.launchpad.net/nova/+bug/1003093,2012-09-27
+1003093,1003093,Fix Released,Usages API returns instance names but not IDs,https://bugs.launchpad.net/horizon/+bug/1003093,2012-09-27
+1002154,1002154,Fix Released,Bug in simple_tenant_usage API,https://bugs.launchpad.net/nova/+bug/1002154,2012-09-27
+1001098,1001098,Fix Released,nova-novncproxy need to change to supporting new flag file utils,https://bugs.launchpad.net/nova/+bug/1001098,2012-09-27
+1000673,1000673,Fix Released,Aggressive validation for security group names in Nova EC2 API,https://bugs.launchpad.net/nova/+bug/1000673,2012-09-27
+999928,999928,Fix Released,SimpleCIDRAffinityFilter uses scheduler IP instead of host IP,https://bugs.launchpad.net/nova/+bug/999928,2012-09-27
+998199,998199,Fix Released,Error message when quota exceeded is incorrect and confusing,https://bugs.launchpad.net/nova/+bug/998199,2012-09-27
+997867,997867,Fix Released,Instance snapshot stuck in Shutoff status,https://bugs.launchpad.net/nova/+bug/997867,2012-09-27
+985184,985184,Fix Released,Security groups fail to be set correctly if incorrect case is used for protocol specification,https://bugs.launchpad.net/nova/+bug/985184,2012-09-27
+985162,985162,Fix Released,Firewall rules from nova-compute are not refreshed after host reboot,https://bugs.launchpad.net/nova/+bug/985162,2012-09-27
+965630,965630,Fix Released,Allowing operations during RESIZE_VERIFY leaks original instance,https://bugs.launchpad.net/nova/+bug/965630,2012-09-27
+962822,962822,Fix Released,nova network do not respect existing routes when moving ips to bridge,https://bugs.launchpad.net/nova/+bug/962822,2012-09-27
+939122,939122,Fix Released,floating ips do not display in 'nova list' after association to instance,https://bugs.launchpad.net/nova/+bug/939122,2012-09-27
+827458,827458,Fix Released,modify-image-attribute immediately after register exposes race condition,https://bugs.launchpad.net/nova/+bug/827458,2012-09-27
+1019334,1019334,Fix Released,boot-from-volume broken by foreign key constraints,https://bugs.launchpad.net/nova/+bug/1019334,2012-09-27
+1019032,1019032,Fix Released,Erroneously retrying against the same Glance host,https://bugs.launchpad.net/nova/+bug/1019032,2012-09-27
+1019016,1019016,Fix Released,OS API returns STOPPED instead of SHUTOFF,https://bugs.launchpad.net/nova/+bug/1019016,2012-09-27
+1018829,1018829,Fix Released,Missing bin/nova-novncproxy in tarball,https://bugs.launchpad.net/nova/+bug/1018829,2012-09-27
+1018596,1018596,Fix Released,Swap VDIs use incorrect name label,https://bugs.launchpad.net/nova/+bug/1018596,2012-09-27
+1017585,1017585,Fix Released,test_KillFilter fails on Fedora 17,https://bugs.launchpad.net/nova/+bug/1017585,2012-09-27
+1016273,1016273,Fix Released,ram_allocation_ratio does not work,https://bugs.launchpad.net/nova/+bug/1016273,2012-09-27
+1015355,1015355,Fix Released,LoopingCalls in libvirt return immediately,https://bugs.launchpad.net/nova/+bug/1015355,2012-09-27
+1013782,1013782,Fix Released,Stop/start a KVM instance with volumes attached produces an error state,https://bugs.launchpad.net/nova/+bug/1013782,2012-09-27
+1012374,1012374,Fix Released,impl_qpid doesn't ACK messages,https://bugs.launchpad.net/nova/+bug/1012374,2012-09-27
+1010514,1010514,Fix Released,Source group based security group rule without protocol and port causes failures,https://bugs.launchpad.net/nova/+bug/1010514,2012-09-27
+1010275,1010275,Fix Released,rootwrap filter fail when killing a pid that doesn't exist,https://bugs.launchpad.net/nova/+bug/1010275,2012-09-27
+1009738,1009738,Fix Released,instance_uuid column created in instance_metadata with no index,https://bugs.launchpad.net/nova/+bug/1009738,2012-09-27
+1006467,1006467,Fix Released,Some parts of Nova not using versioned RPC APIs,https://bugs.launchpad.net/nova/+bug/1006467,2012-09-27
+1003756,1003756,Fix Released,quota reservations fail w/ postgres (SELECT FOR UPDATE w/ a join),https://bugs.launchpad.net/nova/+bug/1003756,2012-09-27
+1003741,1003741,Fix Released,Delete a flavor test fails,https://bugs.launchpad.net/nova/+bug/1003741,2012-09-27
+1000853,1000853,Fix Released,Restarting nova-network removes ip packet filters,https://bugs.launchpad.net/nova/+bug/1000853,2012-09-27
+999698,999698,Fix Released,qpid timeout causing compute service to crash,https://bugs.launchpad.net/nova/+bug/999698,2012-09-27
+938317,938317,Fix Released,rapid firing from command line can go over quota,https://bugs.launchpad.net/nova/+bug/938317,2012-09-27
+1014769,1014769,Fix Released,NoMoreFixedIps: Zero fixed ips available. Nova seems leaking them.,https://bugs.launchpad.net/nova/+bug/1014769,2012-09-27
+1010291,1010291,Fix Released,libvirt destroy causes AttributeError: 'module' object has no attribute 'SHUTOFF',https://bugs.launchpad.net/nova/+bug/1010291,2012-09-27
+1007043,1007043,Fix Released,exception deepcopying RpcContext,https://bugs.launchpad.net/nova/+bug/1007043,2012-09-27
+1000359,1000359,Fix Released,Handle possible race conditions with vm_vdi_cleaner.py,https://bugs.launchpad.net/nova/+bug/1000359,2012-09-27
+1000261,1000261,Fix Released,newer `qemu-img info` causes in exception when finding the backing file for qcow2 images,https://bugs.launchpad.net/nova/+bug/1000261,2012-09-27
+999318,999318,Fix Released,Need to update image metadata on rebuild,https://bugs.launchpad.net/nova/+bug/999318,2012-09-27
+999305,999305,Fix Released,ConfigOpts doesn't find policy.json and api-paste.ini,https://bugs.launchpad.net/nova/+bug/999305,2012-09-27
+997849,997849,Fix Released,instance system metadata not deleted,https://bugs.launchpad.net/nova/+bug/997849,2012-09-27
+996570,996570,Fix Released,instance-usage-data uses invalid option,https://bugs.launchpad.net/nova/+bug/996570,2012-09-27
+993151,993151,Fix Released,network connectivity of Xen instances not possible if nova.virt.libvirt.vif.QuantumLinuxBridgeVIFDriver creates tap devices,https://bugs.launchpad.net/nova/+bug/993151,2012-09-27
+993097,993097,Fix Released,method _device_exists in linux_net.py should also be wrapped by nova-rootwrap,https://bugs.launchpad.net/nova/+bug/993097,2012-09-27
+992916,992916,Fix Released,[SRU] nova.tests.test_nova_rootwrap fails on Fedora 17,https://bugs.launchpad.net/nova/+bug/992916,2012-09-27
+992805,992805,Fix Released,test_get_console_output_file requires sudo NOPASSWD,https://bugs.launchpad.net/nova/+bug/992805,2012-09-27
+992729,992729,Fix Released,Add 'host' name to initialize/terminate volume connection,https://bugs.launchpad.net/nova/+bug/992729,2012-09-27
+992729,992729,Fix Released,Add 'host' name to initialize/terminate volume connection,https://bugs.launchpad.net/cinder/+bug/992729,2012-09-27
+992661,992661,Fix Released,Blank passwords should be allowed on server changePassword action,https://bugs.launchpad.net/nova/+bug/992661,2012-09-27
+992648,992648,Fix Released,Blank passwords should be allowed on server create,https://bugs.launchpad.net/nova/+bug/992648,2012-09-27
+992206,992206,Fix Released,nova-manage db sync error,https://bugs.launchpad.net/nova/+bug/992206,2012-09-27
+992098,992098,Fix Released,"xenapi driver fails with ""global name 'instance' is not defined"" during resize down",https://bugs.launchpad.net/nova/+bug/992098,2012-09-27
+990805,990805,Fix Released,Resize does not use appropriate task states,https://bugs.launchpad.net/nova/+bug/990805,2012-09-27
+990237,990237,Fix Released,[sru] libvirt get_console_output:  'instance_name' is not defined,https://bugs.launchpad.net/nova/+bug/990237,2012-09-27
+988951,988951,Fix Released,keystone middleware is not logged,https://bugs.launchpad.net/nova/+bug/988951,2012-09-27
+988615,988615,Fix Released,[SRU] xen: destroy_vdi breaks because session is not passed in,https://bugs.launchpad.net/nova/+bug/988615,2012-09-27
+987335,987335,Fix Released,[SRU] libvit/connection.py missing console_log variable,https://bugs.launchpad.net/nova/+bug/987335,2012-09-27
+987058,987058,Fix Released,key pair quotas,https://bugs.launchpad.net/nova/+bug/987058,2012-09-27

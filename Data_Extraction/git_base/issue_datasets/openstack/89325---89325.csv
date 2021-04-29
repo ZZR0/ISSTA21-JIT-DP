@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1201639,1201639,Fix Released,UUID Token provider in keystone.conf,https://bugs.launchpad.net/devstack/+bug/1201639,2013-07-18
+1202776,1202776,Fix Released,Old Starter Guide still showing on /trunk/,https://bugs.launchpad.net/openstack-manuals/+bug/1202776,2013-07-18
+1172423,1172423,Fix Released,mirror update job should output diffs,https://bugs.launchpad.net/openstack-ci/+bug/1172423,2013-07-18
+1200718,1200718,Fix Released,Neutron Chapter does not appear in API Reference page,https://bugs.launchpad.net/openstack-api-site/+bug/1200718,2013-07-18
+1202233,1202233,Fix Released,Allow to configure tempauth with keystoneauth,https://bugs.launchpad.net/devstack/+bug/1202233,2013-07-18
+1172264,1172264,Fix Released,Outdated scheduler documentation (costs are no longer used),https://bugs.launchpad.net/openstack-manuals/+bug/1172264,2013-07-18
+1199781,1199781,Fix Released,Relative link broken in http://docs.openstack.org/grizzly/openstack-compute/admin/content/ch_volumes.html#comment-957279246,https://bugs.launchpad.net/openstack-manuals/+bug/1199781,2013-07-18
+1198464,1198464,Fix Released,rename configuration files from quantum to neutron,https://bugs.launchpad.net/openstack-manuals/+bug/1198464,2013-07-18
+1202284,1202284,Fix Released,missing account quota infos in object-storage admin guide,https://bugs.launchpad.net/openstack-manuals/+bug/1202284,2013-07-18
+1197117,1197117,Fix Released,Install: apt-get not marked up correctly in Install Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1197117,2013-07-18
+1201779,1201779,Fix Released,Typo in under_the_hood-openvswith doc:  s/qcbXXX/qvbXXX,https://bugs.launchpad.net/openstack-manuals/+bug/1201779,2013-07-18
+1130414,1130414,Fix Released,Periodically test devstack nodes to make sure they still work,https://bugs.launchpad.net/openstack-ci/+bug/1130414,2013-07-17
+1201077,1201077,Fix Released,Swift functional tests are failing with keystone on gate.,https://bugs.launchpad.net/devstack/+bug/1201077,2013-07-17
+1201694,1201694,Fix Released,vm_test_mode is not set properly on swift,https://bugs.launchpad.net/devstack/+bug/1201694,2013-07-17
+1090139,1090139,Fix Released,Guestagent Unit tests,https://bugs.launchpad.net/trove/+bug/1090139,2013-07-17
+1085188,1085188,Fix Released,"Some tests fail if ""reddwarf_main_instance_has_volume"" is False in test config.",https://bugs.launchpad.net/trove/+bug/1085188,2013-07-17
+1087838,1087838,Fix Released,The log message describing the error is wrong when a server does not reach VERIFY_RESIZE status during resize,https://bugs.launchpad.net/trove/+bug/1087838,2013-07-17
+1086540,1086540,Fix Released,unproccessable entity error 422 message has blank dictionary for status,https://bugs.launchpad.net/trove/+bug/1086540,2013-07-17
+1091488,1091488,Fix Released,Unit Test WaitForGuestInstallationToFinish fails when Volume Support is False,https://bugs.launchpad.net/trove/+bug/1091488,2013-07-17
+1080706,1080706,Fix Released,db_api field imports a module in a way that causes ImportErrors.,https://bugs.launchpad.net/trove/+bug/1080706,2013-07-17
+1081321,1081321,Fix Released,Test refers to reddwarf_lite instead of reddwarf,https://bugs.launchpad.net/trove/+bug/1081321,2013-07-17
+1084720,1084720,Fix Released,Instances can be created with a blank name or with spaces for names,https://bugs.launchpad.net/trove/+bug/1084720,2013-07-17
+1074422,1074422,Fix Released,common context needs to check for kwargs before deleting them,https://bugs.launchpad.net/trove/+bug/1074422,2013-07-17
+1078531,1078531,Fix Released,run_tests.sh lacks embedded vim formatting,https://bugs.launchpad.net/trove/+bug/1078531,2013-07-17
+1078840,1078840,Fix Released,account view server host may be None,https://bugs.launchpad.net/trove/+bug/1078840,2013-07-17
+1078976,1078976,Fix Released,RPC Failure on enable root user call,https://bugs.launchpad.net/trove/+bug/1078976,2013-07-17
+1084802,1084802,Fix Released,Fix volume support,https://bugs.launchpad.net/trove/+bug/1084802,2013-07-17
+1084144,1084144,Fix Released,Timing issues when eventlet is used in Fake Mode,https://bugs.launchpad.net/trove/+bug/1084144,2013-07-17
+1085076,1085076,Fix Released,mysql-server-5.1 used for validation in guest,https://bugs.launchpad.net/trove/+bug/1085076,2013-07-17
+1161190,1161190,Fix Released,Fixed IPs quota can break upgrades,https://bugs.launchpad.net/openstack-manuals/+bug/1161190,2013-07-17
+1161190,1161190,Fix Released,Fixed IPs quota can break upgrades,https://bugs.launchpad.net/nova/+bug/1161190,2013-07-17
+1199570,1199570,Fix Released,cinder element fails to initialize during first os-refersh-config run,https://bugs.launchpad.net/tripleo/+bug/1199570,2013-07-17
+1160689,1160689,Fix Released,Pretty table headers should match raw output keys,https://bugs.launchpad.net/python-heatclient/+bug/1160689,2013-07-16
+1160648,1160648,Fix Released,When invoking --token-only the username should also be passed,https://bugs.launchpad.net/python-heatclient/+bug/1160648,2013-07-16
+1103657,1103657,Fix Released,Unwanted logging on new http connection,https://bugs.launchpad.net/python-heatclient/+bug/1103657,2013-07-16
+1144630,1144630,Fix Released,--disable-rollback option should be --enable-rollback,https://bugs.launchpad.net/python-heatclient/+bug/1144630,2013-07-16
+1129348,1129348,Fix Released,--create-timeout option doesn't work,https://bugs.launchpad.net/python-heatclient/+bug/1129348,2013-07-16
+1163335,1163335,Fix Released,"""heat stack-create"" doesn't return the error message from server",https://bugs.launchpad.net/python-heatclient/+bug/1163335,2013-07-16
+1194997,1194997,Fix Released,Incomplete specification for Keystone API 2.0,https://bugs.launchpad.net/openstack-api-site/+bug/1194997,2013-07-16
+1194997,1194997,Fix Released,Incomplete specification for Keystone API 2.0,https://bugs.launchpad.net/openstack-manuals/+bug/1194997,2013-07-16
+1197651,1197651,Fix Released,account-reaper warns if not making progress,https://bugs.launchpad.net/openstack-manuals/+bug/1197651,2013-07-16
+1201625,1201625,Fix Released,security guide is not redeploying on new merges,https://bugs.launchpad.net/openstack-manuals/+bug/1201625,2013-07-16
+1062307,1062307,Fix Released,some glance tests fail as root,https://bugs.launchpad.net/glance/+bug/1062307,2013-07-16
+1196577,1196577,Fix Released,identity-api: reorg the doc source directories to separate v2.0 from v3 in prep for v3 work,https://bugs.launchpad.net/openstack-api-site/+bug/1196577,2013-07-16
+1198743,1198743,Fix Released,Pull from Merge History to build revision history for basic install guide,https://bugs.launchpad.net/openstack-manuals/+bug/1198743,2013-07-16
+1110146,1110146,Fix Released,"docs.openstack.org ""API"" should be ""using openstack""",https://bugs.launchpad.net/openstack-manuals/+bug/1110146,2013-07-15
+1201056,1201056,Fix Released,init-nova requires internet access,https://bugs.launchpad.net/tripleo/+bug/1201056,2013-07-15
+1199412,1199412,Fix Released,seed vm build fails during cinder service install,https://bugs.launchpad.net/tripleo/+bug/1199412,2013-07-15
+1199568,1199568,Fix Released,keystone service not running during wipe-openstack,https://bugs.launchpad.net/tripleo/+bug/1199568,2013-07-15
+1182241,1182241,Fix Released,first-boot.d rules are running on every boot,https://bugs.launchpad.net/tripleo/+bug/1182241,2013-07-15
+1189944,1189944,Fix Released,update mirror after uploading to pypi,https://bugs.launchpad.net/openstack-ci/+bug/1189944,2013-07-15
+1197632,1197632,Fix Released,create build job for security guide,https://bugs.launchpad.net/openstack-manuals/+bug/1197632,2013-07-15
+1097667,1097667,Fix Released,stack.sh should install missing dependency python-netaddr,https://bugs.launchpad.net/devstack/+bug/1097667,2013-07-15
+1200098,1200098,Fix Released,LBaaS entry on Dashboard not shown by enabling q-lbaas,https://bugs.launchpad.net/devstack/+bug/1200098,2013-07-15
+1197305,1197305,Fix Released,xenapi: use xe-network attach to create ovs bridge,https://bugs.launchpad.net/devstack/+bug/1197305,2013-07-15
+1201039,1201039,Fix Released,Tempest README.rst has old paths,https://bugs.launchpad.net/tempest/+bug/1201039,2013-07-15
+1192988,1192988,Fix Released,Add AggregateRamFilter,https://bugs.launchpad.net/openstack-manuals/+bug/1192988,2013-07-15
+1199918,1199918,Fix Released,Move swift account setup out of keystone_data.sh to lib/swift,https://bugs.launchpad.net/devstack/+bug/1199918,2013-07-15
+1200677,1200677,Fix Released,specify integration bridge vmware,https://bugs.launchpad.net/devstack/+bug/1200677,2013-07-15
+1198281,1198281,Fix Released,Rename NOS to Director in PLUMgrid plugin,https://bugs.launchpad.net/devstack/+bug/1198281,2013-07-15
+1195237,1195237,Fix Released,lib/quantum_plugins/linuxbridge should load linuxbridge_agent,https://bugs.launchpad.net/devstack/+bug/1195237,2013-07-15
+1195640,1195640,Fix Released,xenapi: zipball issue,https://bugs.launchpad.net/devstack/+bug/1195640,2013-07-15
+1044414,1044414,Fix Released,nova-compute and VMware ESXi hypervisor configuration,https://bugs.launchpad.net/openstack-manuals/+bug/1044414,2013-07-15
+1188660,1188660,Fix Released,Possible gate config layout issue,https://bugs.launchpad.net/barbican/+bug/1188660,2013-07-15
+1026674,1026674,Fix Released,"Hypervisor flag descriptions are often KVM specific, need to include XenAPI",https://bugs.launchpad.net/openstack-manuals/+bug/1026674,2013-07-15
+1091889,1091889,Fix Released,High Availability miss OpenStack services,https://bugs.launchpad.net/openstack-manuals/+bug/1091889,2013-07-15
+1192434,1192434,Fix Released,can only build ramdisks matching the host arch,https://bugs.launchpad.net/diskimage-builder/+bug/1192434,2013-07-15
+1192870,1192870,Fix Released,Data Network Not Used in this Doc ...,https://bugs.launchpad.net/openstack-manuals/+bug/1192870,2013-07-14
+1193312,1193312,Fix Released,Add AggregateCoreFilter,https://bugs.launchpad.net/openstack-manuals/+bug/1193312,2013-07-14
+1195569,1195569,Fix Released,havana: nova -  'm1.tiny' now has root_gb=1,https://bugs.launchpad.net/openstack-manuals/+bug/1195569,2013-07-14
+1040046,1040046,Fix Released,Document how to uninstall components,https://bugs.launchpad.net/openstack-manuals/+bug/1040046,2013-07-14
+1085404,1085404,Fix Released,Document LVM-backed instances,https://bugs.launchpad.net/openstack-manuals/+bug/1085404,2013-07-13
+1095506,1095506,Fix Released,grizzly: add configdrive support for xenapi,https://bugs.launchpad.net/openstack-manuals/+bug/1095506,2013-07-13
+1194221,1194221,Fix Released,Make it more clear that restarting apache and memcached is required no matter the config,https://bugs.launchpad.net/openstack-manuals/+bug/1194221,2013-07-13
+1200711,1200711,Fix Released,Swift functional test gate goes to the wrong path,https://bugs.launchpad.net/openstack-ci/+bug/1200711,2013-07-12

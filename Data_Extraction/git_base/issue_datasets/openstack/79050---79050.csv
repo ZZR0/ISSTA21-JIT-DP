@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1268582,1268582,Fix Released,CatalogFailure: Can't get API URL when deploying a node,https://bugs.launchpad.net/ironic/+bug/1268582,2014-04-17
+1268066,1268066,Fix Released,PXEAndSSH driver lacks vendor_passthru for PXE deployment,https://bugs.launchpad.net/ironic/+bug/1268066,2014-04-17
+1267351,1267351,Fix Released,ironic.conf $pybasedir is not enabled before using,https://bugs.launchpad.net/ironic/+bug/1267351,2014-04-17
+1263210,1263210,Fix Released,validate should not log exceptions from drivers,https://bugs.launchpad.net/ironic/+bug/1263210,2014-04-17
+1259269,1259269,Fix Released,Port address field not being normalized,https://bugs.launchpad.net/ironic/+bug/1259269,2014-04-17
+1252213,1252213,Fix Released,Port node_id and Node chassis_id in the API are misleading names and should be renamed,https://bugs.launchpad.net/ironic/+bug/1252213,2014-04-17
+1251549,1251549,Fix Released,Ports node_id and Nodes chassis_id attributes should be UUID only in the API object,https://bugs.launchpad.net/ironic/+bug/1251549,2014-04-17
+1246816,1246816,Fix Released,API accepts MAC instead of UUID for ports,https://bugs.launchpad.net/ironic/+bug/1246816,2014-04-17
+1236533,1236533,Fix Released,driver options should be namespaced and documented,https://bugs.launchpad.net/ironic/+bug/1236533,2014-04-17
+1266201,1266201,Fix Released,glanceclient raise HTTPUnauthorized exception,https://bugs.launchpad.net/ironic/+bug/1266201,2014-04-17
+1262912,1262912,Fix Released,sync_power_states does not handle missing driver info well,https://bugs.launchpad.net/ironic/+bug/1262912,2014-04-17
+1261917,1261917,Fix Released,API docs don't list PATCH or DELETE methods,https://bugs.launchpad.net/ironic/+bug/1261917,2014-04-17
+1257673,1257673,Fix Released,DBDuplicateEntry not being handled when updating/creating Ports with the same address,https://bugs.launchpad.net/ironic/+bug/1257673,2014-04-17
+1250804,1250804,Fix Released,No 'next' link provided when GET'ing the maximum number of items,https://bugs.launchpad.net/ironic/+bug/1250804,2014-04-17
+1244541,1244541,Fix Released,Race when associating instance_uuid,https://bugs.launchpad.net/ironic/+bug/1244541,2014-04-17
+1242544,1242544,Fix Released,Command call should log the stdout and stderror,https://bugs.launchpad.net/ironic/+bug/1242544,2014-04-17
+1238117,1238117,Fix Released,API should validate power state change requests,https://bugs.launchpad.net/ironic/+bug/1238117,2014-04-17
+1236536,1236536,Fix Released,non-unique pxe driver 'instance_name' causes problems,https://bugs.launchpad.net/ironic/+bug/1236536,2014-04-17
+1223847,1223847,Fix Released,Lack of advanced validation for PATCH request,https://bugs.launchpad.net/ironic/+bug/1223847,2014-04-17
+1256159,1256159,Fix Released,Replace removed xrange in Python3,https://bugs.launchpad.net/ironic/+bug/1256159,2014-04-17
+1248216,1248216,Fix Released,Need remove deprecated module commands,https://bugs.launchpad.net/cinder/+bug/1248216,2014-04-17
+1248216,1248216,Fix Released,Need remove deprecated module commands,https://bugs.launchpad.net/nova/+bug/1248216,2014-04-17
+1248216,1248216,Fix Released,Need remove deprecated module commands,https://bugs.launchpad.net/ironic/+bug/1248216,2014-04-17
+1248216,1248216,Fix Released,Need remove deprecated module commands,https://bugs.launchpad.net/glance/+bug/1248216,2014-04-17
+1245920,1245920,Fix Released,Unit tests fail sometimes,https://bugs.launchpad.net/ironic/+bug/1245920,2014-04-17
+1233213,1233213,Fix Released,current tox is slow,https://bugs.launchpad.net/ironic/+bug/1233213,2014-04-17
+1191084,1191084,Fix Released,baremetal fdisk failures,https://bugs.launchpad.net/nova/+bug/1191084,2014-04-17
+1191084,1191084,Fix Released,baremetal fdisk failures,https://bugs.launchpad.net/ironic/+bug/1191084,2014-04-17
+1253426,1253426,Fix Released,periodic tasks called twice in unit tests,https://bugs.launchpad.net/ironic/+bug/1253426,2014-04-17
+1246342,1246342,Fix Released,ipmitool driver does not accept empty username or password,https://bugs.launchpad.net/ironic/+bug/1246342,2014-04-17
+1193666,1193666,Fix Released,API FunctionalTest class lacks doc strings,https://bugs.launchpad.net/ceilometer/+bug/1193666,2014-04-17
+1193666,1193666,Fix Released,API FunctionalTest class lacks doc strings,https://bugs.launchpad.net/ironic/+bug/1193666,2014-04-17
+1258207,1258207,Fix Released,/drivers no such option: conductor,https://bugs.launchpad.net/ironic/+bug/1258207,2014-04-17
+1255952,1255952,Fix Released,Add drivers resource to API V1 root controller links,https://bugs.launchpad.net/ironic/+bug/1255952,2014-04-17
+1254002,1254002,Fix Released,Exception info never sent in response[' debuginfo'] due wrong api/config.py,https://bugs.launchpad.net/ironic/+bug/1254002,2014-04-17
+1252343,1252343,Fix Released,UniqueConstraint for Port address doesn't work for updates with sqlite,https://bugs.launchpad.net/ironic/+bug/1252343,2014-04-17
+1250575,1250575,Fix Released,Nonexistent module in allowed_rpc_exception_modules property of ironic.conf.sample,https://bugs.launchpad.net/ironic/+bug/1250575,2014-04-17
+1246731,1246731,Fix Released,GET a subresource where parent doesn't exist doesn't return 404,https://bugs.launchpad.net/ironic/+bug/1246731,2014-04-17
+1244747,1244747,Fix Released,API exposes python stack trace,https://bugs.launchpad.net/ironic/+bug/1244747,2014-04-17
+1244742,1244742,Fix Released,"api options not registered under the ""api"" opt group",https://bugs.launchpad.net/ironic/+bug/1244742,2014-04-17
+1244072,1244072,Fix Released,Node object has no value for  'created_at' and 'updated_at',https://bugs.launchpad.net/ironic/+bug/1244072,2014-04-17
+1237650,1237650,Fix Released,can't update driver_info if pre-existing data is invalid,https://bugs.launchpad.net/ironic/+bug/1237650,2014-04-17
+1233251,1233251,Fix Released,openstack/requirements no longer includes Cheetah,https://bugs.launchpad.net/ironic/+bug/1233251,2014-04-17
+1231601,1231601,Fix Released,ipminative driver unit tests doesn't use mock,https://bugs.launchpad.net/ironic/+bug/1231601,2014-04-17
+1229398,1229398,Fix Released,pxe driver unit tests don't use mock,https://bugs.launchpad.net/ironic/+bug/1229398,2014-04-17
+1229397,1229397,Fix Released,ssh power driver unit tests don't use mock,https://bugs.launchpad.net/ironic/+bug/1229397,2014-04-17
+1229396,1229396,Fix Released,ipmitool driver unit tests don't use mock,https://bugs.launchpad.net/ironic/+bug/1229396,2014-04-17
+1227390,1227390,Fix Released,documentation for using tox is missing libpq-dev,https://bugs.launchpad.net/ironic/+bug/1227390,2014-04-17
+1226374,1226374,Fix Released,misused assertTrue in unit tests,https://bugs.launchpad.net/ironic/+bug/1226374,2014-04-17
+1226374,1226374,Fix Released,misused assertTrue in unit tests,https://bugs.launchpad.net/heat/+bug/1226374,2014-04-17
+1226374,1226374,Fix Released,misused assertTrue in unit tests,https://bugs.launchpad.net/glance/+bug/1226374,2014-04-17
+1226374,1226374,Fix Released,misused assertTrue in unit tests,https://bugs.launchpad.net/keystone/+bug/1226374,2014-04-17
+1226374,1226374,Fix Released,misused assertTrue in unit tests,https://bugs.launchpad.net/tempest/+bug/1226374,2014-04-17
+1226374,1226374,Fix Released,misused assertTrue in unit tests,https://bugs.launchpad.net/python-keystoneclient/+bug/1226374,2014-04-17
+1226374,1226374,Fix Released,misused assertTrue in unit tests,https://bugs.launchpad.net/swift/+bug/1226374,2014-04-17
+1220107,1220107,Fix Released,Updating a resource in the API doesn't allow UNSETTING an attribute,https://bugs.launchpad.net/ironic/+bug/1220107,2014-04-17
+1199535,1199535,Fix Released,Use fixture from oslo.incubator,https://bugs.launchpad.net/ironic/+bug/1199535,2014-04-17
+1193499,1193499,Fix Released,Some DB options not in [database] group,https://bugs.launchpad.net/ironic/+bug/1193499,2014-04-17
+1190916,1190916,Fix Released,Port DB model lacks of UUID,https://bugs.launchpad.net/ironic/+bug/1190916,2014-04-17
+1190269,1190269,Fix Released,nova bare metal helper: local variable 'root_uuid' referenced before assignment,https://bugs.launchpad.net/nova/+bug/1190269,2014-04-17
+1190269,1190269,Fix Released,nova bare metal helper: local variable 'root_uuid' referenced before assignment,https://bugs.launchpad.net/ironic/+bug/1190269,2014-04-17
+1184941,1184941,Fix Released,Pecan logging config duplicates oslo logging config,https://bugs.launchpad.net/ceilometer/+bug/1184941,2014-04-17
+1184941,1184941,Fix Released,Pecan logging config duplicates oslo logging config,https://bugs.launchpad.net/ironic/+bug/1184941,2014-04-17
+1180143,1180143,Fix Released,test_update_node failure in test_nodes.py,https://bugs.launchpad.net/ironic/+bug/1180143,2014-04-17
+1251011,1251011,Fix Released,REST API doc is not auto-generated,https://bugs.launchpad.net/ironic/+bug/1251011,2014-04-17
+1246680,1246680,Fix Released,Cannot create a chassis with a unicode description,https://bugs.launchpad.net/ironic/+bug/1246680,2014-04-17
+1241230,1241230,Fix Released,create ports having the same address,https://bugs.launchpad.net/ironic/+bug/1241230,2014-04-17
+1237678,1237678,Fix Released,power_state set to python object when changing driver_info,https://bugs.launchpad.net/ironic/+bug/1237678,2014-04-17
+1236371,1236371,Fix Released,Ironic policy file is not valid,https://bugs.launchpad.net/ironic/+bug/1236371,2014-04-17
+1234479,1234479,Fix Released,ipmi power probing is too fast,https://bugs.launchpad.net/nova/+bug/1234479,2014-04-17
+1234479,1234479,Fix Released,ipmi power probing is too fast,https://bugs.launchpad.net/ironic/+bug/1234479,2014-04-17
+1227928,1227928,Fix Released,API collection not named based on resource type,https://bugs.launchpad.net/ironic/+bug/1227928,2014-04-17
+1227431,1227431,Fix Released,API request to list resources should return only minimal data,https://bugs.launchpad.net/ironic/+bug/1227431,2014-04-17
+1223253,1223253,Fix Released,"bad logging from baremetal_deploy_helper.py, line 217",https://bugs.launchpad.net/ironic/+bug/1223253,2014-04-17
+1223253,1223253,Fix Released,"bad logging from baremetal_deploy_helper.py, line 217",https://bugs.launchpad.net/nova/+bug/1223253,2014-04-17

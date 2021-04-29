@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1140384,1140384,Fix Released,Improve test_api_samples.py to generate useful response template files,https://bugs.launchpad.net/nova/+bug/1140384,2013-04-04
+1140294,1140294,Fix Released,nova baremetal node create error:column deleted is of type boolean but expression is integer,https://bugs.launchpad.net/nova/+bug/1140294,2013-04-04
+1136010,1136010,Fix Released,Baremetal virtual power driver does not support ports other then 22 and does not allow key based authentication,https://bugs.launchpad.net/nova/+bug/1136010,2013-04-04
+1135155,1135155,Fix Released,Disk size of flavor does not take effect during deployment for Hyper-V,https://bugs.launchpad.net/nova/+bug/1135155,2013-04-04
+1134960,1134960,Fix Released,nova does not validate security groups,https://bugs.launchpad.net/nova/+bug/1134960,2013-04-04
+1133111,1133111,Fix Released,"the safe xml calls, cause http 500 errors in the API, it should cause 400 (invalid request) errors instead",https://bugs.launchpad.net/nova/+bug/1133111,2013-04-04
+1132772,1132772,Fix Released,Need to follow new method signature for hyper-v driver,https://bugs.launchpad.net/nova/+bug/1132772,2013-04-04
+1131872,1131872,Fix Released,impl_zmq fails to import; missing processutils,https://bugs.launchpad.net/nova/+bug/1131872,2013-04-04
+1131594,1131594,Fix Released,instance_info_cache_update bug if not found,https://bugs.launchpad.net/nova/+bug/1131594,2013-04-04
+1131430,1131430,Fix Released,API for baremetal nodes fails if node has no interfaces,https://bugs.launchpad.net/nova/+bug/1131430,2013-04-04
+1129485,1129485,Fix Released,ComputeCapabilitiesFilter does not play well with baremetal driver,https://bugs.launchpad.net/openstack-manuals/+bug/1129485,2013-04-04
+1129485,1129485,Fix Released,ComputeCapabilitiesFilter does not play well with baremetal driver,https://bugs.launchpad.net/nova/+bug/1129485,2013-04-04
+1129485,1129485,Fix Released,ComputeCapabilitiesFilter does not play well with baremetal driver,https://bugs.launchpad.net/devstack/+bug/1129485,2013-04-04
+1126211,1126211,Fix Released,Snapshots does not have API samples testing,https://bugs.launchpad.net/nova/+bug/1126211,2013-04-04
+1126204,1126204,Fix Released,Volume Attachments extension doesn't have API samples testing,https://bugs.launchpad.net/nova/+bug/1126204,2013-04-04
+1126187,1126187,Fix Released,Detach volume rescue,https://bugs.launchpad.net/nova/+bug/1126187,2013-04-04
+1157058,1157058,Fix Released,netaddr 0.7.5 raises UnboundLocalError,https://bugs.launchpad.net/nova/+bug/1157058,2013-04-04
+1156127,1156127,Fix Released,Remove unused virt.disk.api methods bind/unbind,https://bugs.launchpad.net/nova/+bug/1156127,2013-04-04
+1155761,1155761,Fix Released,rstrip() strips characters not strings,https://bugs.launchpad.net/nova/+bug/1155761,2013-04-04
+1155371,1155371,Fix Released,migration 153 takes extremely long amount of time,https://bugs.launchpad.net/nova/+bug/1155371,2013-04-04
+1154811,1154811,Fix Released,sqlalchemy impl calls back to DB API,https://bugs.launchpad.net/nova/+bug/1154811,2013-04-04
+1154253,1154253,Fix Released,increased support for different compression types,https://bugs.launchpad.net/nova/+bug/1154253,2013-04-04
+1153964,1153964,Fix Released,forget to release resource before rescheduling,https://bugs.launchpad.net/nova/+bug/1153964,2013-04-04
+1153841,1153841,Fix Released,cells.utils split_cell_and_item should not raise a ValueError when there's no cell,https://bugs.launchpad.net/nova/+bug/1153841,2013-04-04
+1153694,1153694,Fix Released,Counting vcpus can fail when domains are not complete,https://bugs.launchpad.net/nova/+bug/1153694,2013-04-04
+1153599,1153599,Fix Released,PowerVM doesn't resize/migrate,https://bugs.launchpad.net/nova/+bug/1153599,2013-04-04
+1153283,1153283,Fix Released,Instance task_state being left as migrating after live migration failed,https://bugs.launchpad.net/nova/+bug/1153283,2013-04-04
+1153133,1153133,Fix Released,XML deserialiser doesn't handle OS-DCF:diskConfig resize and rebuild actions,https://bugs.launchpad.net/nova/+bug/1153133,2013-04-04
+1152519,1152519,Fix Released,nbd device can not be released after injecting files into image if mount operation failed,https://bugs.launchpad.net/nova/+bug/1152519,2013-04-04
+1152512,1152512,Fix Released,Instance evacuation fails on InstanceActionNotFound exception,https://bugs.launchpad.net/nova/+bug/1152512,2013-04-04
+1152492,1152492,Fix Released,Instance evacuation fails with shared storage,https://bugs.launchpad.net/nova/+bug/1152492,2013-04-04
+1152439,1152439,Fix Released,OS-DCF:diskconfig attribute bad xml conversion,https://bugs.launchpad.net/nova/+bug/1152439,2013-04-04
+1150250,1150250,Fix Released,Nova should not require os-network extension to process requested_networks when running with quantum,https://bugs.launchpad.net/nova/+bug/1150250,2013-04-04
+1148563,1148563,Fix Released,flavor with empty string id cannot be specified,https://bugs.launchpad.net/nova/+bug/1148563,2013-04-04
+1148536,1148536,Fix Released,Attaching volume to instance failed on Hyper-V using IPv6,https://bugs.launchpad.net/nova/+bug/1148536,2013-04-04
+1146322,1146322,Fix Released,instance resource quota feather can't works duo to confilict with compute_capabilities_filter,https://bugs.launchpad.net/nova/+bug/1146322,2013-04-04
+1146253,1146253,Fix Released,should use inst_type['extra_specs'] instead of instance['extra_specs'],https://bugs.launchpad.net/nova/+bug/1146253,2013-04-04
+1145609,1145609,Fix Released,nova-manage db archive_deleted_rows  doesn't check for negative max_rows,https://bugs.launchpad.net/nova/+bug/1145609,2013-04-04
+1144840,1144840,Fix Released,N802 rule has limit of 72 characters but prints 50 as limit,https://bugs.launchpad.net/nova/+bug/1144840,2013-04-04
+1144426,1144426,Fix Released,"The name of the security group rule field ""source_ip_prefix""  is misleading",https://bugs.launchpad.net/python-neutronclient/+bug/1144426,2013-04-04
+1144426,1144426,Fix Released,"The name of the security group rule field ""source_ip_prefix""  is misleading",https://bugs.launchpad.net/neutron/+bug/1144426,2013-04-04
+1144426,1144426,Fix Released,"The name of the security group rule field ""source_ip_prefix""  is misleading",https://bugs.launchpad.net/nova/+bug/1144426,2013-04-04
+1140917,1140917,Fix Released,Live migration fails when the instance has attached volumes,https://bugs.launchpad.net/nova/+bug/1140917,2013-04-04
+1140778,1140778,Fix Released,Hyper-V option should be moved to the HYPERV group,https://bugs.launchpad.net/nova/+bug/1140778,2013-04-04
+1140759,1140759,Fix Released,nova delete error: no such option vnc_enabled,https://bugs.launchpad.net/nova/+bug/1140759,2013-04-04
+1140310,1140310,Fix Released,oslo-config dependency should be updated to support deprecated_group,https://bugs.launchpad.net/nova/+bug/1140310,2013-04-04
+1138666,1138666,Fix Released,delete deleted image 500 error,https://bugs.launchpad.net/nova/+bug/1138666,2013-04-04
+1138269,1138269,Fix Released,remove pylint errors in security_group_base,https://bugs.launchpad.net/nova/+bug/1138269,2013-04-04
+1136359,1136359,Fix Released,Powervm driver failing on snapshot due to missing  update_task_state call,https://bugs.launchpad.net/nova/+bug/1136359,2013-04-04
+1136345,1136345,Fix Released,EC2APIError: No rule for the specified parameters.,https://bugs.launchpad.net/nova/+bug/1136345,2013-04-04
+1134622,1134622,Fix Released,hacking.py crashes on module AttributeError,https://bugs.launchpad.net/nova/+bug/1134622,2013-04-04
+1134493,1134493,Fix Released,Add retry on upload_vhd in xapi glance plugin,https://bugs.launchpad.net/nova/+bug/1134493,2013-04-04
+1133524,1133524,Fix Released,"Instance snapshot should use min_ram from the original image, even with VHD disk_format",https://bugs.launchpad.net/nova/+bug/1133524,2013-04-04
+1133103,1133103,Fix Released,pep8 returns false N302 for missing import,https://bugs.launchpad.net/nova/+bug/1133103,2013-04-04
+1133070,1133070,Fix Released,hacking.py's N302 test cannot handle parentheses,https://bugs.launchpad.net/nova/+bug/1133070,2013-04-04
+1133062,1133062,Fix Released,nova/tests/compute/test_rpcapi.py:347: redefinition of function 'test_get_host_uptime' from line 165,https://bugs.launchpad.net/nova/+bug/1133062,2013-04-04
+1132931,1132931,Fix Released,powervm_img_remote_path and powervm_img_local_path required but not enforced by powervm driver,https://bugs.launchpad.net/nova/+bug/1132931,2013-04-04
+1132742,1132742,Fix Released,Make libguestfs API calls run in a thread pool,https://bugs.launchpad.net/nova/+bug/1132742,2013-04-04
+1131956,1131956,Fix Released,ec2 _format_security_group() access db using quantum_driver,https://bugs.launchpad.net/nova/+bug/1131956,2013-04-04
+1131932,1131932,Fix Released,Unable to specify multiple config files for nova-dhcpbridge,https://bugs.launchpad.net/nova/+bug/1131932,2013-04-04
+1131891,1131891,Fix Released,missing import_opt for flat_injected,https://bugs.launchpad.net/nova/+bug/1131891,2013-04-04
+1131441,1131441,Fix Released,missing ec2 security group quantum mixin,https://bugs.launchpad.net/nova/+bug/1131441,2013-04-04
+1131306,1131306,Fix Released,Unable to boot an libvirt instance using a flavour with swap enabled,https://bugs.launchpad.net/nova/+bug/1131306,2013-04-04
+1131035,1131035,Fix Released,Powervm driver implementation of macs_for_instance fails when qpid used as amqp provider,https://bugs.launchpad.net/nova/+bug/1131035,2013-04-04
+1131033,1131033,Fix Released,Unnecessary dependency on qemu-img by powervm driver,https://bugs.launchpad.net/nova/+bug/1131033,2013-04-04
+1126163,1126163,Fix Released,Rebooting a VM in Rescue state takes the VM to Active state,https://bugs.launchpad.net/nova/+bug/1126163,2013-04-04
+1122720,1122720,Fix Released,nova-api accumulates coverage data and other nova services does not,https://bugs.launchpad.net/nova/+bug/1122720,2013-04-04
+1122552,1122552,Fix Released,Fix ComputeManager.get_host_uptime to remove host from list of parms,https://bugs.launchpad.net/nova/+bug/1122552,2013-04-04
+1100912,1100912,Fix Released,"hacking.py breaks use of """""" in non-docstrings",https://bugs.launchpad.net/nova/+bug/1100912,2013-04-04
+1100462,1100462,Fix Released,Instance task_state being left as migrating after InvalidSharedStorage error,https://bugs.launchpad.net/nova/+bug/1100462,2013-04-04
+1097980,1097980,Fix Released,XenAPI should implement list_instance_uuids(),https://bugs.launchpad.net/nova/+bug/1097980,2013-04-04
+1086980,1086980,Fix Released,Behavior of deleting non-existent keypairs changed,https://bugs.launchpad.net/nova/+bug/1086980,2013-04-04
+1086386,1086386,Fix Released,Can no longer explicitly configure the libvirt cache mode for disk devices,https://bugs.launchpad.net/nova/+bug/1086386,2013-04-04
+1075790,1075790,Fix Released,Useless error message when adding a network to a project without VLAN support,https://bugs.launchpad.net/nova/+bug/1075790,2013-04-04
+1067744,1067744,Fix Released,"rescue instance with libvirt and ""boot from volume""",https://bugs.launchpad.net/nova/+bug/1067744,2013-04-04

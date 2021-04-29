@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1662483,1662483,Fix Released,detach_volume races with delete,https://bugs.launchpad.net/nova/+bug/1662483,2019-04-26
+1734025,1734025,Fix Released,cleanup running deleted instance with reap failed with none token context,https://bugs.launchpad.net/nova/+bug/1734025,2019-04-26
+1733736,1733736,Fix Released,reclaim_instance_interval causes dirty attached volume,https://bugs.launchpad.net/nova/+bug/1733736,2019-04-26
+1816360,1816360,Fix Released,nova-scheduler did not logged the weight of each compute_node,https://bugs.launchpad.net/nova/+bug/1816360,2019-04-26
+1773394,1773394,Fix Released,Rabbitmq install fails if hostname too long,https://bugs.launchpad.net/openstack-ansible/+bug/1773394,2019-04-26
+1779534,1779534,Fix Released,pip install offline fails with new version of get-pip.py,https://bugs.launchpad.net/openstack-ansible/+bug/1779534,2019-04-26
+1776606,1776606,Fix Released,qemu-kvm missing on new compute hosts,https://bugs.launchpad.net/openstack-ansible/+bug/1776606,2019-04-26
+1780011,1780011,Fix Released,OSA Queens: libvirtError: Failed to connect socket to '/var/run/libvirt/libvirt-sock': No such file or directory,https://bugs.launchpad.net/openstack-ansible/+bug/1780011,2019-04-26
+1795052,1795052,Fix Released,Update deprecated options for SR-IOV,https://bugs.launchpad.net/openstack-ansible/+bug/1795052,2019-04-26
+1771200,1771200,Fix Released,stable/pike (16.0.11): missing default for neutron_ovs_service_name,https://bugs.launchpad.net/openstack-ansible/+bug/1771200,2019-04-26
+1772772,1772772,Fix Released,When using federation sso_callback_template.html is missing,https://bugs.launchpad.net/openstack-ansible/+bug/1772772,2019-04-26
+1791873,1791873,Fix Released,Keystone LDAP tasks fail because haproxy pool is drained during install,https://bugs.launchpad.net/openstack-ansible/+bug/1791873,2019-04-26
+1804827,1804827,Fix Released,Keystone ldap only configures domain on one node,https://bugs.launchpad.net/openstack-ansible/+bug/1804827,2019-04-26
+1794337,1794337,Fix Released,Apache and Horizon configs not automatically turning off SSL when overridden,https://bugs.launchpad.net/openstack-ansible/+bug/1794337,2019-04-26
+1783132,1783132,Fix Released,designate.conf.j2 does not respect user configured designate database name,https://bugs.launchpad.net/openstack-ansible/+bug/1783132,2019-04-26
+1781552,1781552,Fix Released,[Utility] gnocchi-cli OS_AUTH_TYPE missing,https://bugs.launchpad.net/openstack-ansible/+bug/1781552,2019-04-26
+1783342,1783342,Fix Released,"setup-hosts.yml failing with ""No package matching 'linux-image-extra-4.15.0-29-generic' is available""",https://bugs.launchpad.net/openstack-ansible/+bug/1783342,2019-04-26
+1768592,1768592,Fix Released,/usr/local/bin/cache-prep-commands.sh failing to write to /etc/resolv.conf when resolvconf used on Xenial,https://bugs.launchpad.net/openstack-ansible/+bug/1768592,2019-04-26
+1807405,1807405,Fix Released,Failed to activate service 'org.freedesktop.login1': timed out,https://bugs.launchpad.net/openstack-ansible/+bug/1807405,2019-04-26
+1775938,1775938,Fix Released,haproxy template file causes haproxy to fail to start,https://bugs.launchpad.net/openstack-ansible/+bug/1775938,2019-04-26
+1768725,1768725,Fix Released,Ansible hardening takes comments into account for some checks,https://bugs.launchpad.net/openstack-ansible/+bug/1768725,2019-04-26
+1719525,1719525,Fix Released,"CI: Zaqar error ""404 not found"" in undercloud",https://bugs.launchpad.net/tripleo/+bug/1719525,2019-04-26
+1824084,1824084,Fix Released,testsuite incompatible with jsonschema 3.0.1,https://bugs.launchpad.net/proliantutils/+bug/1824084,2019-04-26
+1820892,1820892,Fix Released,"Intermittent ""Error starting thread.: ModuleNotFoundError: No module named 'etcd3gw'"" in grenade-py3 jobs since March 14",https://bugs.launchpad.net/devstack/+bug/1820892,2019-04-26
+1757372,1757372,Fix Released,Workflow Zaqar messages should be standardised,https://bugs.launchpad.net/tripleo/+bug/1757372,2019-04-26
+1810327,1810327,Fix Released,Brocade zone driver HTTP connector auth failure,https://bugs.launchpad.net/cinder/+bug/1810327,2019-04-25
+1781011,1781011,Fix Released,networking-ansible ml2 manifest fails with dependency cycle error,https://bugs.launchpad.net/puppet-neutron/+bug/1781011,2019-04-25
+1809923,1809923,Fix Released,kolla-ansible destroy fatal error,https://bugs.launchpad.net/kolla-ansible/+bug/1809923,2019-04-25
+1774710,1774710,Fix Released,DHCP agent doesn't do anything with a network's dns_domain attribute,https://bugs.launchpad.net/neutron/+bug/1774710,2019-04-25
+1825220,1825220,Fix Released,f28 master standalone job fails container-image-prepare - No module named 'pkg_resources',https://bugs.launchpad.net/tripleo/+bug/1825220,2019-04-25
+1825982,1825982,Fix Released,Stein tripleo-ci-centos-7-scenario009-multinode-oooq-container Unauthorized for url: https://registry-1.docker.io/v2/tripleostein/etcd/manifests/latest,https://bugs.launchpad.net/tripleo/+bug/1825982,2019-04-25
+1796925,1796925,Fix Released,[RFE] port forwarding floating IP QoS,https://bugs.launchpad.net/neutron/+bug/1796925,2019-04-25
+1749394,1749394,Fix Released,heat-translator failed: - [Errno 13] Permission denied: 'SP1_res.yaml',https://bugs.launchpad.net/tacker/+bug/1749394,2019-04-24
+1820830,1820830,Fix Released,Replace custom netloc filters with ansible native urlsplit filter,https://bugs.launchpad.net/openstack-ansible/+bug/1820830,2019-04-24
+1824631,1824631,Fix Released,setup-openstack in 19.0.0.0rc1 Create symlink to neutron-keepalived-state-change fails,https://bugs.launchpad.net/openstack-ansible/+bug/1824631,2019-04-24
+1823688,1823688,Fix Released,zuul reproducer fails at uc upgrade job for queens,https://bugs.launchpad.net/tripleo/+bug/1823688,2019-04-23
+1825806,1825806,Fix Released,migrate zuul reproducer to opendev,https://bugs.launchpad.net/tripleo/+bug/1825806,2019-04-23
+1753557,1753557,Fix Released,i18n javascript on login page requires login (again),https://bugs.launchpad.net/horizon/+bug/1753557,2019-04-23
+1754133,1754133,Fix Released,login page exception  - hz-login-finder doesn't function because of horizon.app loading failure,https://bugs.launchpad.net/horizon/+bug/1754133,2019-04-23
+1820174,1820174,Fix Released,create network failed as allocate_tenant_segment function break out TypeError,https://bugs.launchpad.net/tricircle/+bug/1820174,2019-04-23
+1816718,1816718,Fix Released,the devstack mulit node run failed in tricircle,https://bugs.launchpad.net/tricircle/+bug/1816718,2019-04-23
+1701508,1701508,Fix Released,port not deleted in original region,https://bugs.launchpad.net/tricircle/+bug/1701508,2019-04-23
+1687587,1687587,Fix Released,Not clear port's binding:host_id attr when detach vm's interface,https://bugs.launchpad.net/tricircle/+bug/1687587,2019-04-23
+1825405,1825405,Fix Released,vpp agent crashes due to variable reference before assignment,https://bugs.launchpad.net/networking-vpp/+bug/1825405,2019-04-22
+1824991,1824991,Fix Released,ceph_client tries to manage libvirt packages,https://bugs.launchpad.net/openstack-ansible/+bug/1824991,2019-04-22
+1825265,1825265,Fix Released,periodic-tripleo-ci-centos-7-singlenode-featureset027-stein is failing tempest -  NoOptionError: No option 'region' in section: 'identity',https://bugs.launchpad.net/tripleo/+bug/1825265,2019-04-22
+1825732,1825732,Fix Released,"all tripleo jobs failing in pre.yaml "" cp: â€˜/home/zuul/src/opendev.org/openstack/tripleo-ciâ€™ and â€˜./tripleo-ciâ€™ are the same file""",https://bugs.launchpad.net/tripleo/+bug/1825732,2019-04-22
+1768876,1768876,Fix Released,metadata-api fails to get availability zone for instances created before pike,https://bugs.launchpad.net/nova/+bug/1768876,2019-04-22
+1749215,1749215,Fix Released,Allocations not deleted on failed resize_instance,https://bugs.launchpad.net/nova/+bug/1749215,2019-04-19
+1818317,1818317,Fix Released,"Network filtering by MTU is not supported with the ""net-mtu-writable"" module",https://bugs.launchpad.net/neutron/+bug/1818317,2019-04-19
+1789654,1789654,Fix Released,placement allocation_ratio initialized with 0.0,https://bugs.launchpad.net/nova/+bug/1789654,2019-04-18
+1818855,1818855,Fix Released,tripleo-image-elements py27 tests are failing,https://bugs.launchpad.net/tripleo/+bug/1818855,2019-04-18
+1823173,1823173,Fix Released,images.rdoproject.org/master/rdo_trunk/current-tripleo images are missing,https://bugs.launchpad.net/tripleo/+bug/1823173,2019-04-18
+1769633,1769633,Fix Released,Failed to import test module,https://bugs.launchpad.net/python-manilaclient/+bug/1769633,2019-04-18
+1823353,1823353,Fix Released,br-ctlplane interface doesn't come up at boot time after rebooting the undercloud post install,https://bugs.launchpad.net/tripleo/+bug/1823353,2019-04-18
+1782147,1782147,Fix Released,Deploy Sahara using unversioned endpoints,https://bugs.launchpad.net/tripleo/+bug/1782147,2019-04-18
+1782147,1782147,Fix Released,Deploy Sahara using unversioned endpoints,https://bugs.launchpad.net/puppet-sahara/+bug/1782147,2019-04-18
+1782147,1782147,Fix Released,Deploy Sahara using unversioned endpoints,https://bugs.launchpad.net/kolla-ansible/+bug/1782147,2019-04-18
+1782147,1782147,Fix Released,Deploy Sahara using unversioned endpoints,https://bugs.launchpad.net/openstack-ansible/+bug/1782147,2019-04-18
+1782147,1782147,Fix Released,Deploy Sahara using unversioned endpoints,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1782147,2019-04-18
+1638677,1638677,Fix Released,Pass the ntp server overcloud configuration to sahara.conf (if sahara is enabled),https://bugs.launchpad.net/tripleo/+bug/1638677,2019-04-18
+1819174,1819174,Fix Released,nova_wait_for_placement_service.py doesn't lookup the endpoint in the correct region,https://bugs.launchpad.net/tripleo/+bug/1819174,2019-04-18
+1819464,1819464,Fix Released,No simple way to add static route on provisioning network via undercloud.conf,https://bugs.launchpad.net/tripleo/+bug/1819464,2019-04-18
+1819449,1819449,Fix Released,Scenario008 is broken in check . Deployment fails for missing ContainerCli parameter in role_data,https://bugs.launchpad.net/tripleo/+bug/1819449,2019-04-18
+1819931,1819931,Fix Released,container run error message is hard to find in the logs,https://bugs.launchpad.net/tripleo/+bug/1819931,2019-04-18
+1819459,1819459,Fix Released,Swift service tries to relabel files,https://bugs.launchpad.net/tripleo/+bug/1819459,2019-04-18
+1820166,1820166,Fix Released,overcloud deployment fails because of missing rsyslogd service,https://bugs.launchpad.net/tripleo/+bug/1820166,2019-04-18
+1820359,1820359,Fix Released,ceph-mon.yaml does not open ceph monitor port v2,https://bugs.launchpad.net/tripleo/+bug/1820359,2019-04-18
+1820577,1820577,Fix Released,overcloud deployment fails at Run container-puppet tasks (generate config) during step 1 - /etc/pki/tls/private/haproxy: no such file or directory,https://bugs.launchpad.net/tripleo/+bug/1820577,2019-04-18
+1820844,1820844,Fix Released,[rdo phase 1] failing tripleo-quickstart-promote-master-current-tripleo-delorean-minimal for no pacemaker,https://bugs.launchpad.net/tripleo/+bug/1820844,2019-04-18
+1821013,1821013,Fix Released,Undercloud upgrade rocky->stein fails with mysql_json.image undefined,https://bugs.launchpad.net/tripleo/+bug/1821013,2019-04-18
+1821046,1821046,Fix Released,THT - nic-config templates - default for %network%InterfaceDefaultRoute always the base subnets gateway,https://bugs.launchpad.net/tripleo/+bug/1821046,2019-04-18
+1821025,1821025,Fix Released,"tripleo-image-serve : Image-Serve | reload httpd, ""Unable to start service httpd: Job for httpd.service",https://bugs.launchpad.net/tripleo/+bug/1821025,2019-04-18
+1821178,1821178,Fix Released,"SELinux is set to ""permissive"" too late in the deploy",https://bugs.launchpad.net/tripleo/+bug/1821178,2019-04-18
+1821438,1821438,Fix Released,OpenShift deployment fails with error loading module nf_conntrack_proto_sctp,https://bugs.launchpad.net/tripleo/+bug/1821438,2019-04-18

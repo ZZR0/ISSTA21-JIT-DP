@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+754086,754086,Fix Released,"swauth-cleanup-tokens ""not found"" error handling",https://bugs.launchpad.net/swift/+bug/754086,2011-05-31
+750862,750862,Fix Released,Make swauth-* scripts return proper exit codes,https://bugs.launchpad.net/swift/+bug/750862,2011-05-31
+727320,727320,Fix Released,stats collate_worker catchall,https://bugs.launchpad.net/swift/+bug/727320,2011-05-31
+767809,767809,Fix Released,Object replicator breaks when running object replicator with no objects on the server,https://bugs.launchpad.net/swift/+bug/767809,2011-05-31
+758220,758220,Fix Released,Move loadapp to after forks,https://bugs.launchpad.net/swift/+bug/758220,2011-05-31
+747867,747867,Fix Released,Replicator double quarantine,https://bugs.launchpad.net/swift/+bug/747867,2011-05-31
+700140,700140,Fix Released,DescribeRegions is not working,https://bugs.launchpad.net/nova/+bug/700140,2011-05-25
+727414,727414,Fix Released,install_venv output is confusing,https://bugs.launchpad.net/horizon/+bug/727414,2011-05-24
+784866,784866,Fix Released,VNC button should have a settings flag,https://bugs.launchpad.net/horizon/+bug/784866,2011-05-24
+787222,787222,Fix Released,tools/install_venv.py not PEP8 compliant,https://bugs.launchpad.net/horizon/+bug/787222,2011-05-24
+785989,785989,Fix Released,"install_venv claims to install virtualenv, but doesn't",https://bugs.launchpad.net/horizon/+bug/785989,2011-05-24
+776760,776760,Fix Released,Instance nickname should be displayed in the volume attachment ui,https://bugs.launchpad.net/horizon/+bug/776760,2011-05-18
+705811,705811,Fix Released,Cannot boot instances under use_ipv6=true and with FlatManager/FlatDHCPManager,https://bugs.launchpad.net/nova/+bug/705811,2011-05-16
+705082,705082,Fix Released,Unable to launch instance using openstack api/nova/glance,https://bugs.launchpad.net/nova/+bug/705082,2011-05-16
+700893,700893,Fix Released,volume ids are messed up in ec2_api,https://bugs.launchpad.net/nova/+bug/700893,2011-05-16
+661262,661262,Fix Released,nova-compute doesn't update VM status on start,https://bugs.launchpad.net/nova/+bug/661262,2011-05-16
+707171,707171,Fix Released,HyperV instance is created with .001% CPU limit,https://bugs.launchpad.net/nova/+bug/707171,2011-05-16
+752818,752818,Fix Released,"ApiError error message if 'code' argument left out, becomes a redundant error",https://bugs.launchpad.net/nova/+bug/752818,2011-05-12
+741109,741109,Fix Released,Users and Roles table out of place,https://bugs.launchpad.net/horizon/+bug/741109,2011-05-11
+759814,759814,Fix Released,python2.6 hardcoding breaks installation on Natty/py2.7 platforms (patch included),https://bugs.launchpad.net/horizon/+bug/759814,2011-05-11
+780276,780276,Fix Released,run_tests.sh fails test_authors_up_to_date when using git repo,https://bugs.launchpad.net/nova/+bug/780276,2011-05-11
+742578,742578,Fix Released,Wishlist: Nova-network dnsmasq settings are static,https://bugs.launchpad.net/nova/+bug/742578,2011-05-10
+714678,714678,Fix Released,Missing items in release tarball,https://bugs.launchpad.net/nova/+bug/714678,2011-05-05
+770538,770538,Fix Released,When user with netadmin role tries to edit instances details dashboard errors out,https://bugs.launchpad.net/horizon/+bug/770538,2011-05-02
+760072,760072,Fix Released,Image detail view needs an x button to resume normal view,https://bugs.launchpad.net/horizon/+bug/760072,2011-05-02
+754215,754215,Fix Released,Connection error message on instances page impedes on user experience.,https://bugs.launchpad.net/horizon/+bug/754215,2011-05-02
+760239,760239,Fix Released,Permission denied page is not styled,https://bugs.launchpad.net/horizon/+bug/760239,2011-05-02
+770199,770199,Fix Released,Documentation explaining Role based Access Control is confusing,https://bugs.launchpad.net/nova/+bug/770199,2011-04-29
+746135,746135,Fix Released,python-suds is still a hard dependency (NameError: name 'MessagePlugin' is not defined),https://bugs.launchpad.net/nova/+bug/746135,2011-04-29
+714577,714577,Fix Released,IP's are recycled too quickly,https://bugs.launchpad.net/nova/+bug/714577,2011-04-25
+753724,753724,Fix Released,_make_request fails to catch timeouts,https://bugs.launchpad.net/swift/+bug/753724,2011-04-21
+750088,750088,Fix Released,"Natty ships euca2ools 1.3, but euca-get-ajax-console assumes 1.2",https://bugs.launchpad.net/nova/+bug/750088,2011-04-21
+744384,744384,Fix Released,OSAPI: glance image errors: 'ValueError: unconverted data remains: .736549',https://bugs.launchpad.net/nova/+bug/744384,2011-04-21
+742696,742696,Fix Released,OSAPI: remove shared_ip_groups from the v1.1 API,https://bugs.launchpad.net/nova/+bug/742696,2011-04-21
+742545,742545,Fix Released,OSAPI: support 'user' and 'core' extensions paths,https://bugs.launchpad.net/nova/+bug/742545,2011-04-21
+741514,741514,Fix Released,AttributeError: libvirt_type when migrating an instance,https://bugs.launchpad.net/nova/+bug/741514,2011-04-21
+741429,741429,Fix Released,Problem with mapping of timestamps with glance,https://bugs.launchpad.net/nova/+bug/741429,2011-04-21
+741415,741415,Fix Released,cannot attach an iSCSI volume to an instance,https://bugs.launchpad.net/nova/+bug/741415,2011-04-21
+741214,741214,Fix Released,Automatically unrescue rescued instances after N hours,https://bugs.launchpad.net/nova/+bug/741214,2011-04-21
+740947,740947,Fix Released,_write_partition: parted should be executed with sudo,https://bugs.launchpad.net/nova/+bug/740947,2011-04-21
+740935,740935,Fix Released,wrong local variable name in VMOPS._shutdown causes termination to fail,https://bugs.launchpad.net/nova/+bug/740935,2011-04-21
+740929,740929,Fix Released,Spawn error if cidr_v6 is null for network,https://bugs.launchpad.net/nova/+bug/740929,2011-04-21
+740742,740742,Fix Released,EC2 Admin api returns misformatted instance types,https://bugs.launchpad.net/nova/+bug/740742,2011-04-21
+739641,739641,Fix Released,Smoketests failing for ipv6,https://bugs.launchpad.net/nova/+bug/739641,2011-04-21
+739609,739609,Fix Released,Cannot set body to unicode without a charset errors,https://bugs.launchpad.net/nova/+bug/739609,2011-04-21
+737574,737574,Fix Released,'module' object has no attribute 'id_to_ec2_id',https://bugs.launchpad.net/nova/+bug/737574,2011-04-21
+737240,737240,Fix Released,sysadmin smoketests failing for ipv6,https://bugs.launchpad.net/nova/+bug/737240,2011-04-21
+737109,737109,Fix Released,Metadata is not removed from instance_metadata when a server is deleted,https://bugs.launchpad.net/nova/+bug/737109,2011-04-21
+736846,736846,Fix Released,OSAPI: NoneType when creating server w/out a personality,https://bugs.launchpad.net/nova/+bug/736846,2011-04-21
+735526,735526,Fix Released,Can't build packages on lucid box because of missing python-multiprocessing,https://bugs.launchpad.net/nova/+bug/735526,2011-04-21
+735005,735005,Fix Released,small typo in nova-manage vm live-migration,https://bugs.launchpad.net/nova/+bug/735005,2011-04-21
+733439,733439,Fix Released,_inject_net_into_fs in disk.py appears broken,https://bugs.launchpad.net/nova/+bug/733439,2011-04-21
+732777,732777,Fix Released,Lockfile sync failing on Mac OS X,https://bugs.launchpad.net/nova/+bug/732777,2011-04-21
+731350,731350,Fix Released,KeyError: 'type' when creating servers with OS API w/ Glance,https://bugs.launchpad.net/nova/+bug/731350,2011-04-21
+730960,730960,Fix Released,mangled instance creation in virt drivers due to improper merge conflict resolution,https://bugs.launchpad.net/nova/+bug/730960,2011-04-21
+729400,729400,Fix Released,http query params limit and offset are ignored when they are malformed,https://bugs.launchpad.net/nova/+bug/729400,2011-04-21
+725615,725615,Fix Released,hardcoded maximum of max used NBD devices,https://bugs.launchpad.net/nova/+bug/725615,2011-04-21
+725176,725176,Fix Released,bin/nova-ajax-console-proxy: error while trying to get URLs without a QUERY_STRING,https://bugs.launchpad.net/nova/+bug/725176,2011-04-21
+708347,708347,Fix Released,RunInstances: Invalid instance type gives improper error message,https://bugs.launchpad.net/nova/+bug/708347,2011-04-21
+708025,708025,Fix Released,VLAN field in networks table should be constrained,https://bugs.launchpad.net/nova/+bug/708025,2011-04-21
+702973,702973,Fix Released,Network injection creates an invalid /etc/network/interfaces file if no DNS is specified,https://bugs.launchpad.net/nova/+bug/702973,2011-04-21
+702636,702636,Fix Released,Adding existing group gives weird error message,https://bugs.launchpad.net/nova/+bug/702636,2011-04-21
+682888,682888,Fix Released,DescribeImages has no unit tests,https://bugs.launchpad.net/nova/+bug/682888,2011-04-21
+681417,681417,Fix Released,All errors about quotas should include a unit,https://bugs.launchpad.net/nova/+bug/681417,2011-04-21
+660042,660042,Fix Released,Better error when no virtualization method is available on the server,https://bugs.launchpad.net/nova/+bug/660042,2011-04-21
+658234,658234,Fix Released,Image type is not taken into consideration when generating image ID,https://bugs.launchpad.net/nova/+bug/658234,2011-04-21
+757677,757677,Fix Released,genvpn path incorrectly points to geninter,https://bugs.launchpad.net/nova/+bug/757677,2011-04-21
+754218,754218,Fix Released,Errors when deleting default route in ensure_bridge,https://bugs.launchpad.net/nova/+bug/754218,2011-04-21
+753416,753416,Fix Released,nova-manage log broken in several ways,https://bugs.launchpad.net/nova/+bug/753416,2011-04-21
+752074,752074,Fix Released,venv python eventlet needs to get patched,https://bugs.launchpad.net/nova/+bug/752074,2011-04-21
+752019,752019,Fix Released,"ipv6 address are not injected unless 1 fixed_ip exists, also it will be injected multiple times if there are more than 1",https://bugs.launchpad.net/nova/+bug/752019,2011-04-21
+751560,751560,Fix Released,Listing addresses via /servers/id/ips returns 404,https://bugs.launchpad.net/nova/+bug/751560,2011-04-21
+751503,751503,Fix Released,The metadata and addresses collections in xml responses are malformed,https://bugs.launchpad.net/nova/+bug/751503,2011-04-21
+751231,751231,Fix Released,"""live migration fails due to instance record is erased""",https://bugs.launchpad.net/nova/+bug/751231,2011-04-21
+751176,751176,Fix Released,AllocateAddress returns incompatible tags,https://bugs.launchpad.net/nova/+bug/751176,2011-04-21

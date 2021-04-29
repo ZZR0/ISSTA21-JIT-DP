@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1442115,1442115,Fix Released,Glance fs_size is lower than the default image_cache_size (regression),https://bugs.launchpad.net/openstack-ansible/+bug/1442115,2015-05-08
+1431052,1431052,Fix Released,Swift failures with upgrade to tempest 7c73dd5,https://bugs.launchpad.net/openstack-ansible/+bug/1431052,2015-05-08
+1436240,1436240,Fix Released,rabbitmq download failures,https://bugs.launchpad.net/openstack-ansible/+bug/1436240,2015-05-08
+1432670,1432670,Fix Released,ldappool required for keystone AD backend,https://bugs.launchpad.net/openstack-ansible/+bug/1432670,2015-05-08
+1429109,1429109,Fix Released,Bad references to haproxy_balance_alg,https://bugs.launchpad.net/openstack-ansible/+bug/1429109,2015-05-08
+1427599,1427599,Fix Released,swift replication network should not be required,https://bugs.launchpad.net/openstack-ansible/+bug/1427599,2015-05-08
+1425953,1425953,Fix Released,Unknown var external_vip_address referenced in os-horizon,https://bugs.launchpad.net/openstack-ansible/+bug/1425953,2015-05-08
+1424828,1424828,Fix Released,AIO script needs PUBLIC_INTERFACE exported if primary interface is not eth0,https://bugs.launchpad.net/openstack-ansible/+bug/1424828,2015-05-08
+1415046,1415046,Fix Released,swift-all play does not result in full rsyslog reconfiguration,https://bugs.launchpad.net/openstack-ansible/+bug/1415046,2015-05-08
+1412521,1412521,Fix Released,mariadb mirror impossibly slow,https://bugs.launchpad.net/openstack-ansible/+bug/1412521,2015-05-08
+1410743,1410743,Fix Released,mariadb repo (oregon state univ) expires versions >6 months,https://bugs.launchpad.net/openstack-ansible/+bug/1410743,2015-05-08
+1408342,1408342,Fix Released,Hosts with no containers (e.g. swift hosts) fail on checking networking for containers,https://bugs.launchpad.net/openstack-ansible/+bug/1408342,2015-05-08
+1408138,1408138,Fix Released,3 node galera cluster failing to build,https://bugs.launchpad.net/openstack-ansible/+bug/1408138,2015-05-08
+1407900,1407900,Fix Released,AIO script is failing on Rackspace Cloud,https://bugs.launchpad.net/openstack-ansible/+bug/1407900,2015-05-08
+1407647,1407647,Fix Released,gating: aio check fails on hpcloud instances when adding apt key,https://bugs.launchpad.net/openstack-ansible/+bug/1407647,2015-05-08
+1407633,1407633,Fix Released,rsyslog: all logs are not readable,https://bugs.launchpad.net/openstack-ansible/+bug/1407633,2015-05-08
+1404343,1404343,Fix Released,External CI failures due to SSH issues,https://bugs.launchpad.net/openstack-ansible/+bug/1404343,2015-05-08
+1403584,1403584,Fix Released,glance container size is smaller than default image_cache size for glance,https://bugs.launchpad.net/openstack-ansible/+bug/1403584,2015-05-08
+1401287,1401287,Fix Released,Add swift deployment into all-in-one check build,https://bugs.launchpad.net/openstack-ansible/+bug/1401287,2015-05-08
+1399651,1399651,Fix Released,check-os-ansible-deployment-aio-build failing,https://bugs.launchpad.net/openstack-ansible/+bug/1399651,2015-05-08
+1399387,1399387,Fix Released,Swift parameter causes inventory generator error,https://bugs.launchpad.net/openstack-ansible/+bug/1399387,2015-05-08
+1399368,1399368,Fix Released,Wrong ownership on /var/lib/horizon/.secret_key_store,https://bugs.launchpad.net/openstack-ansible/+bug/1399368,2015-05-08
+1399352,1399352,Fix Released,glance module doesn't allow for non-public endpoint types.,https://bugs.launchpad.net/openstack-ansible/+bug/1399352,2015-05-08
+1398649,1398649,Fix Released,Keystone is not using the proper cache vip for dogpile cache,https://bugs.launchpad.net/openstack-ansible/+bug/1398649,2015-05-08
+1421679,1421679,Fix Released,apt cache not updated after pin or repo additions,https://bugs.launchpad.net/openstack-ansible/+bug/1421679,2015-05-08
+1417164,1417164,Fix Released,container_restart play looking for containers on the object hosts,https://bugs.launchpad.net/openstack-ansible/+bug/1417164,2015-05-08
+1416725,1416725,Fix Released,Stable/Juno 2014.2.1 + requires new clients,https://bugs.launchpad.net/openstack-ansible/+bug/1416725,2015-05-08
+1436374,1436374,Fix Committed,Api only returns metrics for the region in the config file,https://bugs.launchpad.net/monasca/+bug/1436374,2015-05-08
+1425767,1425767,Fix Released,Icehouse gate commit check failing due to missing dependency,https://bugs.launchpad.net/openstack-ansible/+bug/1425767,2015-05-08
+1429188,1429188,Fix Released,/var/lib/nova/.ssh/config missing,https://bugs.launchpad.net/openstack-ansible/+bug/1429188,2015-05-08
+1412484,1412484,Fix Released,gate: lxc-create failing due to missing debootstrap command,https://bugs.launchpad.net/openstack-ansible/+bug/1412484,2015-05-08
+1404862,1404862,Fix Released,Horizon SSL configuration vulnerable,https://bugs.launchpad.net/openstack-ansible/+bug/1404862,2015-05-08
+1403917,1403917,Fix Released,Horizon secret_key_store permissions cause FilePermissionError,https://bugs.launchpad.net/openstack-ansible/+bug/1403917,2015-05-08
+1452225,1452225,Fix Committed,Supervisord on Fuel Master doesn't stop while shutdown and reboot.  There is no stop entry  in rcX.d,https://bugs.launchpad.net/fuel/+bug/1452225,2015-05-08
+1453012,1453012,Fix Released,Don't exists requirements before executing build_wheels.sh,https://bugs.launchpad.net/devstack/+bug/1453012,2015-05-08
+1453143,1453143,Fix Released,compute.servers.test_list_servers_negative test cases are giving error if  admin credentials are not provided in tempest.conf,https://bugs.launchpad.net/tempest/+bug/1453143,2015-05-08
+1438711,1438711,Fix Released,Hyper-V Neutron agent raises TypeError if requested port was not processed yet,https://bugs.launchpad.net/networking-hyperv/+bug/1438711,2015-05-08
+1443862,1443862,Fix Released,Hyperv Neutron agent does not respect remoteIPAddress sepcified as part of security group rules,https://bugs.launchpad.net/networking-hyperv/+bug/1443862,2015-05-08
+1439143,1439143,Fix Released,Hyper-V Agent daemon_loop() on Exception starts port binding for all ports.,https://bugs.launchpad.net/networking-hyperv/+bug/1439143,2015-05-08
+1438084,1438084,Fix Released,Hyper-v Agent misses sending state report while processing large rules/port,https://bugs.launchpad.net/networking-hyperv/+bug/1438084,2015-05-08
+1422439,1422439,Fix Released,Hyper-V: Agent should skip rebinding port to VSwitch and VLAN to port,https://bugs.launchpad.net/networking-hyperv/+bug/1422439,2015-05-08
+1421266,1421266,Fix Released,physical network mappings don't retain order from config,https://bugs.launchpad.net/networking-hyperv/+bug/1421266,2015-05-08
+1452925,1452925,Fix Committed,configure_default_route task failed on base-os role,https://bugs.launchpad.net/fuel/+bug/1452925,2015-05-08
+1252971,1252971,Fix Released,race condition in test_list_servers_negative.py,https://bugs.launchpad.net/tempest/+bug/1252971,2015-05-08
+1350124,1350124,Fix Committed,Log and track gerrit_diff.py output in a public spreadsheet,https://bugs.launchpad.net/fuel/+bug/1350124,2015-05-08
+1451967,1451967,Fix Released,[block-storage] Need attribute for the host= default attribute in cinder.conf,https://bugs.launchpad.net/openstack-chef/+bug/1451967,2015-05-08
+1452730,1452730,Fix Released,"[block-storage] By defaut, v1 api was disabled",https://bugs.launchpad.net/openstack-chef/+bug/1452730,2015-05-08
+1417972,1417972,Fix Committed,[scale] Pacemaker service ver:1 must be stopped prior to the corosync service then scaling the deployment,https://bugs.launchpad.net/fuel/+bug/1417972,2015-05-08
+1452349,1452349,Fix Committed,[sahara] add templates for HDP 2.2 plugin,https://bugs.launchpad.net/fuel/+bug/1452349,2015-05-08
+1453142,1453142,Fix Committed,Release fuel plugin builder 2.0.1 on pypi,https://bugs.launchpad.net/fuel/+bug/1453142,2015-05-08
+1451888,1451888,Fix Released,Upgrade failed - HTTPError: 502 Server Error: Bad Gateway,https://bugs.launchpad.net/fuel/+bug/1451888,2015-05-08
+1453084,1453084,Fix Released,[Docs] Fuel Plugins terminology article should be updated,https://bugs.launchpad.net/fuel/+bug/1453084,2015-05-08
+1441268,1441268,Fix Released,devstack plugin fails to source lib/neutron,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1441268,2015-05-08
+1443511,1443511,Fix Released,building ovs fails when ovs commit is before vhost-cuse was added,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1443511,2015-05-08
+1437264,1437264,Fix Released,grepping hugepages mounts has to be whole word matching,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1437264,2015-05-08
+1441015,1441015,Fix Released,I need rights to edit bug's info,https://bugs.launchpad.net/fuel/+bug/1441015,2015-05-08
+1412848,1412848,Fix Released,"Command ""fuel --version"" in the console shows the 6.0.0",https://bugs.launchpad.net/fuel/+bug/1412848,2015-05-08
+1354319,1354319,Fix Committed,Rabbitmq cluster should recover from partitioning,https://bugs.launchpad.net/fuel/+bug/1354319,2015-05-08
+1452555,1452555,Fix Released,[block-storage] Make service name and type configurable,https://bugs.launchpad.net/openstack-chef/+bug/1452555,2015-05-08
+1446251,1446251,Fix Committed,RabbitMQ OCF applications check should rely on the 'kernel' module running instead of exit code,https://bugs.launchpad.net/fuel/+bug/1446251,2015-05-08
+1446241,1446241,Fix Committed,RabbitMQ OCF timeout should be used without 'su' childs,https://bugs.launchpad.net/fuel/+bug/1446241,2015-05-08
+1452912,1452912,Fix Committed,sync_time fails on non-first deployment of controllers,https://bugs.launchpad.net/fuel/+bug/1452912,2015-05-08
+1451367,1451367,Fix Released,cannot install mistralclient in devstack for stable/kilo,https://bugs.launchpad.net/python-mistralclient/+bug/1451367,2015-05-08
+1449522,1449522,Fix Released,There is no way to provide wf params when we create cron-trigger,https://bugs.launchpad.net/python-mistralclient/+bug/1449522,2015-05-08
+1356117,1356117,Fix Released,Setup.py should not need find_packages,https://bugs.launchpad.net/surveil/+bug/1356117,2015-05-08
+1424838,1424838,Fix Committed,Traceback is logged when the network node info is omitted in ml2_cisco.ini file,https://bugs.launchpad.net/networking-cisco/+bug/1424838,2015-05-07
+1450954,1450954,Fix Committed,Unclear error message when trying to access Fuel mirror,https://bugs.launchpad.net/fuel/+bug/1450954,2015-05-07
+1427227,1427227,Fix Released,Slave nodes are not booted because of 'cobbler check' in product.sh,https://bugs.launchpad.net/fuel/+bug/1427227,2015-05-07
+1423345,1423345,Fix Released,neutron tries to create VXLAN if all dedicated VLANs are used,https://bugs.launchpad.net/fuel/+bug/1423345,2015-05-07
+1412388,1412388,Fix Released,Expose vm's metadata to metrics,https://bugs.launchpad.net/openstack-manuals/+bug/1412388,2015-05-07
+1425070,1425070,Fix Committed,Mesh role reassignment in network schema for neutron is not reflected in configuration,https://bugs.launchpad.net/fuel/+bug/1425070,2015-05-07
+1414059,1414059,Fix Released,fuel creates two diagnostic snapshots instead of one,https://bugs.launchpad.net/fuel/+bug/1414059,2015-05-07
+1430787,1430787,Fix Released,keystone of master node is unreachable during applying puppet manifests during fuel installation,https://bugs.launchpad.net/fuel/+bug/1430787,2015-05-07
+1430271,1430271,Fix Released,fuel sets p1p1 as primary interface in interfaces for ubuntu,https://bugs.launchpad.net/fuel/+bug/1430271,2015-05-07
+1450542,1450542,Fix Released,Test 'vcenter_vlan_cindervmdk_cinder_ceph' incorrectly configures storage options for cluster,https://bugs.launchpad.net/fuel/+bug/1450542,2015-05-07

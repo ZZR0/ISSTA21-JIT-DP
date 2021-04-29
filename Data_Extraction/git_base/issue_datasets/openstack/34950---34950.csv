@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1513548,1513548,Fix Released,Workflow executed more than once when using cron-trigger with multiple engines,https://bugs.launchpad.net/mistral/+bug/1513548,2016-11-10
+1520208,1520208,Fix Released,std.email action run error,https://bugs.launchpad.net/mistral/+bug/1520208,2016-11-10
+1505664,1505664,Fix Released,Some DB queries are reported slow as no indices are used,https://bugs.launchpad.net/mistral/+bug/1505664,2016-11-10
+1513456,1513456,Fix Released,task stuck in RUNNING state when all action executions are finished,https://bugs.launchpad.net/mistral/+bug/1513456,2016-11-10
+1518012,1518012,Fix Released,WF execution stays in RUNNING although task and action executions are in SUCCESS,https://bugs.launchpad.net/mistral/+bug/1518012,2016-11-10
+1506240,1506240,Fix Released,type-list does not scale. Makes Horizon unusable for Manila.,https://bugs.launchpad.net/manila/+bug/1506240,2016-11-10
+1506938,1506938,Fix Released,List Availability Zones API is broken on PostgreSQL,https://bugs.launchpad.net/manila/+bug/1506938,2016-11-10
+1517987,1517987,Fix Released,Standalone network plugin does not allow to set network type,https://bugs.launchpad.net/manila/+bug/1517987,2016-11-10
+1519066,1519066,Fix Released,HPE3PAR Create share from snapshot fails with ShareSnapshotInstance has no attribute 'share',https://bugs.launchpad.net/manila/+bug/1519066,2016-11-10
+1506297,1506297,Fix Released,glusterfs_driver: Attempt to create share fails ungracefully when backend gluster volumes aren't exported,https://bugs.launchpad.net/manila/+bug/1506297,2016-11-10
+1522074,1522074,Fix Released,generic driver: SSHException: Check whether private key or password are correctly set. Error connecting via ssh: [Errno 2] No such file or directory: '/var/lib/manila/.ssh/id_rsa',https://bugs.launchpad.net/manila/+bug/1522074,2016-11-10
+1561121,1561121,Fix Released,Keystone unit test failure with oslo.* from master,https://bugs.launchpad.net/keystone/+bug/1561121,2016-11-10
+1523664,1523664,Fix Released,Token operations fail when fernet key repository isn't writeable,https://bugs.launchpad.net/keystone/+bug/1523664,2016-11-10
+1583535,1583535,Fix Released,Ironic relies on processutils.ssh_execute internals in its unit tests,https://bugs.launchpad.net/ironic/+bug/1583535,2016-11-10
+1555547,1555547,Fix Released,"install bootloader often fails ""local variable 'efi_partition' referenced before assignment""",https://bugs.launchpad.net/ironic-python-agent/+bug/1555547,2016-11-10
+1611528,1611528,Fix Released,IPA for stable/liberty unit tests fail with AssertionError: InspectionError not raised by extension_manager,https://bugs.launchpad.net/ironic-python-agent/+bug/1611528,2016-11-10
+1511109,1511109,Fix Released,Python Tests are failing on Horizon because of incomplete mocking,https://bugs.launchpad.net/horizon/+bug/1511109,2016-11-10
+1513179,1513179,Fix Released,create volume workflow does not compute quota usage correctly,https://bugs.launchpad.net/horizon/+bug/1513179,2016-11-10
+1505976,1505976,Fix Released,containers loading image location hardcoded,https://bugs.launchpad.net/horizon/+bug/1505976,2016-11-10
+1513601,1513601,Fix Released,add Italian localization,https://bugs.launchpad.net/horizon/+bug/1513601,2016-11-10
+1509121,1509121,Fix Released,[UI] job_binaries Exception Value: too many values to unpack,https://bugs.launchpad.net/horizon/+bug/1509121,2016-11-10
+1509121,1509121,Fix Released,[UI] job_binaries Exception Value: too many values to unpack,https://bugs.launchpad.net/sahara/+bug/1509121,2016-11-10
+1518893,1518893,Fix Released,Instance flavor column does not sort the proper way,https://bugs.launchpad.net/horizon/+bug/1518893,2016-11-10
+1533076,1533076,Fix Released,Can't replace nova server with same port,https://bugs.launchpad.net/heat/+bug/1533076,2016-11-10
+1505675,1505675,Fix Released,Flaky tasks test  glance.tests.unit.v2.test_tasks_resource.TestTasksController.test_create_with_live_time,https://bugs.launchpad.net/glance/+bug/1505675,2016-11-10
+1504184,1504184,Fix Released,Glance does not error gracefully on token validation error,https://bugs.launchpad.net/glance/+bug/1504184,2016-11-10
+1505710,1505710,Fix Released,Wrong logging setup in replicator,https://bugs.launchpad.net/glance/+bug/1505710,2016-11-10
+1505474,1505474,Fix Released,Glance raise 500 error when delete images with unallowed status change,https://bugs.launchpad.net/glance/+bug/1505474,2016-11-10
+1517060,1517060,Fix Released,Users (without admin privileges) can change ACTIVE_IMMUTABLE properties of their own images when deactivated.,https://bugs.launchpad.net/glance/+bug/1517060,2016-11-10
+1483353,1483353,Fix Released,v1:  Updates using x-image-meta-id header provoke E500 or 200,https://bugs.launchpad.net/glance/+bug/1483353,2016-11-10
+1507564,1507564,Fix Released,os.path.remove doesn't exist. Conver task fails,https://bugs.launchpad.net/glance/+bug/1507564,2016-11-10
+1522132,1522132,Fix Released,Scrubber tests are broken due to deprecated config filesystem_store_datadir under DEFAULT section,https://bugs.launchpad.net/glance/+bug/1522132,2016-11-10
+1526675,1526675,Fix Released,test_models_sync fails with 'Models and migration scripts aren't in sync',https://bugs.launchpad.net/glance/+bug/1526675,2016-11-10
+1526675,1526675,Fix Released,test_models_sync fails with 'Models and migration scripts aren't in sync',https://bugs.launchpad.net/neutron/+bug/1526675,2016-11-10
+1526675,1526675,Fix Released,test_models_sync fails with 'Models and migration scripts aren't in sync',https://bugs.launchpad.net/nova/+bug/1526675,2016-11-10
+1526804,1526804,Fix Released,Model sync is broken for SQLite because of BigInteger type mismatch,https://bugs.launchpad.net/glance/+bug/1526804,2016-11-10
+1485792,1485792,Fix Released,Glance create an image with incorrect location,https://bugs.launchpad.net/glance-store/+bug/1485792,2016-11-10
+1501443,1501443,Fix Released,glance_store exceptions trigger child exceptions (which break Glance's error handling),https://bugs.launchpad.net/glance-store/+bug/1501443,2016-11-10
+1517275,1517275,Fix Released,"VMware NSX CI failing on image create with ""AttributeError: HTTPResponse instance has no attribute 'body'""",https://bugs.launchpad.net/glance-store/+bug/1517275,2016-11-10
+1523691,1523691,Fix Released,Unhandled exception in periodic_sync/recovery halts the process,https://bugs.launchpad.net/designate/+bug/1523691,2016-11-10
+1532735,1532735,Fix Released,Unit test fails with  InvocationError usign tox,https://bugs.launchpad.net/designate/+bug/1532735,2016-11-10
+1511230,1511230,Fix Released,Deleting managed recordsets should provide meaningful exception message.,https://bugs.launchpad.net/designate/+bug/1511230,2016-11-10
+1537892,1537892,Fix Released,_assert_exception() does not cover the case that no exception is thrown out,https://bugs.launchpad.net/designate/+bug/1537892,2016-11-10
+1531294,1531294,Fix Released,periodic_sync_seconds cannot be set to None (in order to sync everything),https://bugs.launchpad.net/designate/+bug/1531294,2016-11-10
+1533299,1533299,Fix Released,Wildcard NS records are not allowed by backend like BIND,https://bugs.launchpad.net/designate/+bug/1533299,2016-11-10
+1533402,1533402,Fix Released,More record validation is needed,https://bugs.launchpad.net/designate/+bug/1533402,2016-11-10
+1545658,1545658,Fix Released,Zone Manager exists event emits Designate obj representiations,https://bugs.launchpad.net/designate/+bug/1545658,2016-11-10
+1549980,1549980,Fix Released,MiniDNS TCP connections stop being accepted,https://bugs.launchpad.net/designate/+bug/1549980,2016-11-10
+1548331,1548331,Fix Released,The zone records quota are not enforced,https://bugs.launchpad.net/designate/+bug/1548331,2016-11-10
+1546437,1546437,Fix Released,Unable to restart the keystone services,https://bugs.launchpad.net/designate/+bug/1546437,2016-11-10
+1552864,1552864,Fix Released,TCP connections are not sending their entire buffers,https://bugs.launchpad.net/designate/+bug/1552864,2016-11-10
+1492306,1492306,Fix Released,Ceilometer datasource errors on poll,https://bugs.launchpad.net/congress/+bug/1492306,2016-11-10
+1494935,1494935,Fix Released,documentation: fix mismatch in description and example quoted,https://bugs.launchpad.net/congress/+bug/1494935,2016-11-10
+1489313,1489313,Fix Released,'table list <policy>' will return builtin tablenames such as 'equal',https://bugs.launchpad.net/congress/+bug/1489313,2016-11-10
+1495881,1495881,Fix Released,"nova_driver throws error ""list() got unexpected keywork 'all_tenanats'""",https://bugs.launchpad.net/congress/+bug/1495881,2016-11-10
+1499065,1499065,Fix Released,State computation incorrect,https://bugs.launchpad.net/congress/+bug/1499065,2016-11-10
+1499018,1499018,Fix Released,Swift authentication error,https://bugs.launchpad.net/congress/+bug/1499018,2016-11-10
+1498771,1498771,Fix Released,congress service crashes after creating a policy of 'database' and  'materialized' kind,https://bugs.launchpad.net/congress/+bug/1498771,2016-11-10
+1497881,1497881,Fix Released,creating policy failed when the string of policy.abbreviation is longer than 5 chars,https://bugs.launchpad.net/congress/+bug/1497881,2016-11-10
+1499025,1499025,Fix Released,"Datasource action listings for cinder, glance, etc.",https://bugs.launchpad.net/congress/+bug/1499025,2016-11-10
+1503095,1503095,Fix Released,Installation: fatal error: ffi.h: No such file or directory,https://bugs.launchpad.net/congress/+bug/1503095,2016-11-10
+1503094,1503094,Fix Released,Installation: Import error: no module named pbr.version,https://bugs.launchpad.net/congress/+bug/1503094,2016-11-10
+1503443,1503443,Fix Released,Murano driver errors on show actions,https://bugs.launchpad.net/congress/+bug/1503443,2016-11-10
+1497084,1497084,Fix Released,Inserting a rule throws AttributeError: 'DseRuntime' object has no attribute 'engine',https://bugs.launchpad.net/congress/+bug/1497084,2016-11-10
+1503392,1503392,Fix Released,Internal error on rule insert with nonexistent policy,https://bugs.launchpad.net/congress/+bug/1503392,2016-11-10
+1503447,1503447,Fix Released,Heat driver errors when polling,https://bugs.launchpad.net/congress/+bug/1503447,2016-11-10
+1497007,1497007,Fix Released,Netapp E-Series array password not updating correctly,https://bugs.launchpad.net/cinder/+bug/1497007,2016-11-10
+1516365,1516365,Fix Released,xtremio failed to map readonly volume,https://bugs.launchpad.net/cinder/+bug/1516365,2016-11-10
+1517043,1517043,Fix Released,Quotas API is not compatible with keystone API v2,https://bugs.launchpad.net/cinder/+bug/1517043,2016-11-10
+1530970,1530970,Fix Released,Inability to correlate customer usage metrics with NetApp backends,https://bugs.launchpad.net/cinder/+bug/1530970,2016-11-10
+1476150,1476150,Fix Released,performance issue about querying volumes detail under large scale volumes,https://bugs.launchpad.net/cinder/+bug/1476150,2016-11-10
+1495990,1495990,Fix Released,Cinder raises an error when performing a quota-update in subprojects,https://bugs.launchpad.net/cinder/+bug/1495990,2016-11-10
+1512682,1512682,Fix Released,XtremIO: create vol with CG and CG from src errors,https://bugs.launchpad.net/cinder/+bug/1512682,2016-11-10
+1510150,1510150,Fix Released,NfsException: mount.nfs is not installed - when not checked as root,https://bugs.launchpad.net/cinder/+bug/1510150,2016-11-10
+1525057,1525057,Fix Released,allocated volume of cinder quota will be cumulative and larger than hard_limit,https://bugs.launchpad.net/cinder/+bug/1525057,2016-11-10

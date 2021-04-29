@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1862115,1862115,Fix Released,cname_lookup middleware save a wrong type string in environment that causes 500 error,https://bugs.launchpad.net/swift/+bug/1862115,2020-03-18
+1856894,1856894,Fix Released,Can't shard containers with special characters in their names,https://bugs.launchpad.net/swift/+bug/1856894,2020-03-18
+1680377,1680377,Fix Released,Delete account with InternalClient,https://bugs.launchpad.net/swift/+bug/1680377,2020-03-18
+1857546,1857546,Fix Released,Auto-extract looses X-Delete-At and X-Delete-After headers,https://bugs.launchpad.net/swift/+bug/1857546,2020-03-18
+1849841,1849841,Fix Released,Container-sync retries 404 delete requests,https://bugs.launchpad.net/swift/+bug/1849841,2020-03-18
+1827394,1827394,Fix Released,accounts quotas aren't enforced on empty accounts,https://bugs.launchpad.net/swift/+bug/1827394,2020-03-18
+1860149,1860149,Fix Released,Large X-Delete-At values cause object-server to 500,https://bugs.launchpad.net/swift/+bug/1860149,2020-03-18
+1475018,1475018,Fix Released,Either delimiter option is not properly documented or has a bug,https://bugs.launchpad.net/swift/+bug/1475018,2020-03-18
+1669888,1669888,Fix Released,ratelimit doesn't filter requests very well,https://bugs.launchpad.net/swift/+bug/1669888,2020-03-18
+1838694,1838694,Fix Released,glanceclient doesn't cleanup session it creates if one is not provided,https://bugs.launchpad.net/python-glanceclient/+bug/1838694,2020-03-18
+1864646,1864646,Fix Released,periodic standalone full-tempest-master failing neutron_tempest_plugin.scenario.test_security_groups,https://bugs.launchpad.net/tripleo/+bug/1864646,2020-03-18
+1835733,1835733,Fix Released,VMware VMDK volume detach fails,https://bugs.launchpad.net/nova/+bug/1835733,2020-03-18
+1864177,1864177,Fix Released,"Kibana, elasticsearch and monasca roles failing with invalid JSON body",https://bugs.launchpad.net/kolla-ansible/+bug/1864177,2020-03-18
+1860718,1860718,Fix Released,Passing IPA to undercloud.conf/certificate_generation_ca generates a certificate from the local CA,https://bugs.launchpad.net/tripleo/+bug/1860718,2020-03-18
+1696972,1696972,Fix Released,host type 'm1.nano' not found when lanch instance,https://bugs.launchpad.net/nova/+bug/1696972,2020-03-18
+968696,968696,Fix Released,"""admin""-ness not properly scoped",https://bugs.launchpad.net/cinder/+bug/968696,2020-03-18
+968696,968696,Fix Released,"""admin""-ness not properly scoped",https://bugs.launchpad.net/keystone/+bug/968696,2020-03-18
+968696,968696,Fix Released,"""admin""-ness not properly scoped",https://bugs.launchpad.net/horizon/+bug/968696,2020-03-18
+1856881,1856881,Fix Released,keystone-manage bootstrap fails with ambiguous role names,https://bugs.launchpad.net/keystone/+bug/1856881,2020-03-18
+1768795,1768795,Fix Released,Object Store Container Public Access Connection Unauthorized,https://bugs.launchpad.net/kolla/+bug/1768795,2020-03-18
+1370223,1370223,Fix Released,Generic driver configures incorrect Samba share path,https://bugs.launchpad.net/manila/+bug/1370223,2020-03-18
+1866160,1866160,Fix Released,Update security group failed with the same stateful data,https://bugs.launchpad.net/neutron/+bug/1866160,2020-03-17
+1840616,1840616,Fix Released,Master/stein check and promotion OVB jobs are randomly giving ansible time out while overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1840616,2020-03-17
+1839845,1839845,Fix Released,"TripleO gate jobs run on limestone nodes are failing ""to retrieve repo file from https://trunk.rdoproject.org/centos7-<release>/current-tripleo/delorean.repo"" after 10 retries",https://bugs.launchpad.net/tripleo/+bug/1839845,2020-03-17
+1866087,1866087,Fix Released,[OVN Octavia Provider] Deleting of listener fails,https://bugs.launchpad.net/neutron/+bug/1866087,2020-03-17
+1867177,1867177,Fix Released,Cannot download noarch/python3-cssselect-0.9.2-13.el8.noarch.rpm,https://bugs.launchpad.net/tripleo/+bug/1867177,2020-03-17
+1864122,1864122,Fix Released,Instances (bare metal) queue for 30-60 seconds when managing a large amount of Ironic nodes,https://bugs.launchpad.net/nova/+bug/1864122,2020-03-17
+1867332,1867332,Fix Released,Mistrial tests getting skiped in undercloud deployment,https://bugs.launchpad.net/tripleo/+bug/1867332,2020-03-16
+1861663,1861663,Fix Released,"[Rocky to Stein] *short_node_names_upgraded variables undefined when running ""upgrade run"" without --limit option",https://bugs.launchpad.net/tripleo/+bug/1861663,2020-03-16
+1861427,1861427,Fix Released,Systemd bindings do not exist when using ironic ansible deploy interface,https://bugs.launchpad.net/kolla/+bug/1861427,2020-03-16
+1864771,1864771,Fix Released,"centos-8 tripleo ceph deployment fails w/ ""  msg: Ansible version must be 2.8!'""",https://bugs.launchpad.net/tripleo/+bug/1864771,2020-03-16
+1685875,1685875,Fix Released,Swapping encrypted volumes leaves an decrypted volume attached to the instance,https://bugs.launchpad.net/nova/+bug/1685875,2020-03-16
+1859616,1859616,Fix Released,Firmware update fails on Gen 8.1 due to newline in cookie header,https://bugs.launchpad.net/proliantutils/+bug/1859616,2020-03-16
+1853210,1853210,Fix Released,Failure during inspect using ilo,https://bugs.launchpad.net/proliantutils/+bug/1853210,2020-03-16
+1857901,1857901,Fix Released,"subunit2html failed with ""UnicodeDecodeError: 'ascii' codec can't decode byte 0xef in position ...""",https://bugs.launchpad.net/os-testr/+bug/1857901,2020-03-15
+1724172,1724172,Fix Released,Allocation of an evacuated instance is not cleaned on the source host if instance is not defined on the hypervisor,https://bugs.launchpad.net/nova/+bug/1724172,2020-03-14
+1777884,1777884,Fix Released,mod_auth_openidc needs to have the x-forwarded-port header set in proxied requests,https://bugs.launchpad.net/tripleo/+bug/1777884,2020-03-14
+1826699,1826699,Fix Released,Replace git.openstack.org URLs with opendev.org URLs,https://bugs.launchpad.net/python-dracclient/+bug/1826699,2020-03-13
+1824435,1824435,Fix Released,fill_virtual_interface_list migration fails on second attempt,https://bugs.launchpad.net/nova/+bug/1824435,2020-03-13
+1632215,1632215,Fix Released,Swift object versioning not enabled - but expected by Tempest,https://bugs.launchpad.net/tripleo/+bug/1632215,2020-03-13
+1818919,1818919,Fix Released,CooperativeReader not py3-ready,https://bugs.launchpad.net/glance/+bug/1818919,2020-03-13
+1816647,1816647,Fix Released,Unable to dump policy using oslopolicy-policy-generator for glance,https://bugs.launchpad.net/glance/+bug/1816647,2020-03-13
+1779251,1779251,Fix Released,Unable to return list of all images (e.g. public + community) in a single request,https://bugs.launchpad.net/glance/+bug/1779251,2020-03-13
+1808063,1808063,Fix Released,"glanceclient.exc.HTTPBadGateway: 502 Proxy Error during server snapshot - infinite loop in File ""/opt/stack/new/glance/glance/quota/__init__.py"", line 168 in __getattr__",https://bugs.launchpad.net/glance/+bug/1808063,2020-03-13
+1797571,1797571,Fix Released,Functional tests related to web-download import method timeouts or fails intermittently,https://bugs.launchpad.net/glance/+bug/1797571,2020-03-13
+1793057,1793057,Fix Released,Multiple backend related config options are not listed in sample conf file,https://bugs.launchpad.net/glance-store/+bug/1793057,2020-03-13
+1793057,1793057,Fix Released,Multiple backend related config options are not listed in sample conf file,https://bugs.launchpad.net/glance/+bug/1793057,2020-03-13
+1770410,1770410,Fix Released,change webob to 1.8.1 in lower-constraints,https://bugs.launchpad.net/glance/+bug/1770410,2020-03-13
+1784994,1784994,Fix Released,Install and configure (Ubuntu) in glance,https://bugs.launchpad.net/glance/+bug/1784994,2020-03-13
+1695299,1695299,Fix Released,Glance installation fails if password contains '@' symbol,https://bugs.launchpad.net/glance/+bug/1695299,2020-03-13
+1781627,1781627,Fix Released,In Py3.7 test failures occur due to RuntimeError for  StopIteration,https://bugs.launchpad.net/glance/+bug/1781627,2020-03-13
+1781617,1781617,Fix Released,In Py3.7 async is a keyword,https://bugs.launchpad.net/glance/+bug/1781617,2020-03-13
+1860420,1860420,Fix Released,tacker-horizon python3,https://bugs.launchpad.net/tacker/+bug/1860420,2020-03-13
+1867023,1867023,Fix Released,ImportError: cannot import name suppress,https://bugs.launchpad.net/tripleo/+bug/1867023,2020-03-13
+1856865,1856865,Fix Released,Upgrade of stein to train fail because of an issue in tripleo-upgrade,https://bugs.launchpad.net/tripleo/+bug/1856865,2020-03-13
+1816454,1816454,Fix Released,hw:mem_page_size is not respecting all documented values,https://bugs.launchpad.net/nova/+bug/1816454,2020-03-13
+1861749,1861749,Fix Released,Instance is under rebuilding status always when use 'arm64' architecture image,https://bugs.launchpad.net/nova/+bug/1861749,2020-03-13
+1800811,1800811,Fix Released,We seem to configure all networks in network_data.yaml for all roles,https://bugs.launchpad.net/tripleo/+bug/1800811,2020-03-13
+1671652,1671652,Fix Released,Add IPv6 enablement logic in CI,https://bugs.launchpad.net/manila/+bug/1671652,2020-03-12
+1866644,1866644,Fix Released,Invalid Characters in Hosts Undercloud Hostname,https://bugs.launchpad.net/tripleo/+bug/1866644,2020-03-12
+1855692,1855692,Fix Released,Add validation to ensure lvm2 package is installed on overcloud nodes if ceph is being deployed w/ already provisioned servers,https://bugs.launchpad.net/tripleo/+bug/1855692,2020-03-12
+1865459,1865459,Fix Released,[CentOS8]tripleo modify images fail when gating-repo is not present,https://bugs.launchpad.net/tripleo/+bug/1865459,2020-03-12
+1867105,1867105,Fix Released,pcmk_remote is not ordered after wait-for-settle on rhel8,https://bugs.launchpad.net/puppet-pacemaker/+bug/1867105,2020-03-12
+1642537,1642537,Fix Released,finish_resize fails with DBDeadlock on migrations table,https://bugs.launchpad.net/nova/+bug/1642537,2020-03-12
+1854442,1854442,Fix Released,All api servers running under httpd with wsgi has /icons accessible,https://bugs.launchpad.net/puppet-openstacklib/+bug/1854442,2020-03-11
+1821696,1821696,Fix Released,Failed to start instances with encrypted volumes,https://bugs.launchpad.net/nova/+bug/1821696,2020-03-11
+1818334,1818334,Fix Released,Functional test test_concurrent_create_port_forwarding_update_port is failing,https://bugs.launchpad.net/neutron/+bug/1818334,2020-03-11
+1823229,1823229,Fix Released,ansible task fails: untar local backup of ceph-ansible fetch directory,https://bugs.launchpad.net/tripleo/+bug/1823229,2020-03-11
+1773102,1773102,Fix Released,Abnormal request id in logs,https://bugs.launchpad.net/nova/+bug/1773102,2020-03-11
+1866927,1866927,Fix Released,Missing tag for centos-binary-cron container image,https://bugs.launchpad.net/tripleo/+bug/1866927,2020-03-11
+1856762,1856762,Fix Released,Ceph FSID generated by TripleO client could be more random,https://bugs.launchpad.net/tripleo/+bug/1856762,2020-03-10
+1836596,1836596,Fix Released,[Debug output for task: Run puppet host configuration for step 1] TASK is skipping failures,https://bugs.launchpad.net/tripleo/+bug/1836596,2020-03-10
+1865281,1865281,Fix Released,Remove deprecation warning when mixing new and old engine facade,https://bugs.launchpad.net/neutron/+bug/1865281,2020-03-10
+1864171,1864171,Fix Released,Default security group rules not created during list of SG rules,https://bugs.launchpad.net/neutron/+bug/1864171,2020-03-10
+1865098,1865098,Fix Released,logging error in _update_routed_network_host_routes,https://bugs.launchpad.net/neutron/+bug/1865098,2020-03-10

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1708037,1708037,Fix Released,scheduler/resource tracker report client should send accept header on all requests,https://bugs.launchpad.net/nova/+bug/1708037,2017-10-24
+1710908,1710908,Fix Released,scheduler.utils.merge_resources allows zero value resources,https://bugs.launchpad.net/nova/+bug/1710908,2017-10-24
+1710249,1710249,Fix Released,nova doesn't clean up the resources after shelve offload,https://bugs.launchpad.net/nova/+bug/1710249,2017-10-24
+1712008,1712008,Fix Released,Force live migrate doesn't claim resources on the target host,https://bugs.launchpad.net/nova/+bug/1712008,2017-10-24
+1712045,1712045,Fix Released,nova doesn't clean up the resources after live migrate,https://bugs.launchpad.net/nova/+bug/1712045,2017-10-24
+1664669,1664669,Fix Released,Leftover ./instances from test runs can make tests fail locally,https://bugs.launchpad.net/nova/+bug/1664669,2017-10-24
+1712689,1712689,Fix Released,shelve offloading an instance always results in an error being logged,https://bugs.launchpad.net/nova/+bug/1712689,2017-10-24
+1712684,1712684,Fix Released,allocations not immediately removed when instance is deleted,https://bugs.launchpad.net/nova/+bug/1712684,2017-10-24
+1712855,1712855,Fix Released,consecutive_build_service_disable_threshold config option is not in sample nova.conf,https://bugs.launchpad.net/nova/+bug/1712855,2017-10-24
+1712718,1712718,Fix Released,Allocations records aren't removed after rescheduling,https://bugs.launchpad.net/nova/+bug/1712718,2017-10-24
+1712850,1712850,Fix Released,Allocations are not removed from destination node when rescheduling during resize/migrate,https://bugs.launchpad.net/nova/+bug/1712850,2017-10-24
+1712763,1712763,Fix Released,a typo of format_cpu_spec doc,https://bugs.launchpad.net/nova/+bug/1712763,2017-10-24
+1712281,1712281,Fix Released,Attach volume failed for vmware driver,https://bugs.launchpad.net/nova/+bug/1712281,2017-10-24
+1713095,1713095,Fix Released,Nova compute driver init happens before conductor is ready,https://bugs.launchpad.net/nova/+bug/1713095,2017-10-24
+1713150,1713150,Fix Released,config option help for default value of default_publisher_id is wrong,https://bugs.launchpad.net/nova/+bug/1713150,2017-10-24
+1713502,1713502,Fix Released,PCI passthrough documentation needs updating since options moved to [pci] section,https://bugs.launchpad.net/nova/+bug/1713502,2017-10-24
+1713735,1713735,Fix Released,Nova assisted volume snapshots fails to find BDM in multi-cell,https://bugs.launchpad.net/nova/+bug/1713735,2017-10-24
+1713354,1713354,Fix Released,oslo.versionedobjects iso8601.is8061.Utc No Longer correct import path in python3,https://bugs.launchpad.net/nova/+bug/1713354,2017-10-24
+1713750,1713750,Fix Released,typo in admin doc ssh-configuration.html,https://bugs.launchpad.net/nova/+bug/1713750,2017-10-24
+1705683,1705683,Fix Released,Leaked resources after cold migration,https://bugs.launchpad.net/nova/+bug/1705683,2017-10-24
+1712411,1712411,Fix Released,Allocations may not be removed from dest node during failed migrations,https://bugs.launchpad.net/nova/+bug/1712411,2017-10-24
+1714072,1714072,Fix Released,"PUT /allocations/{consumer_id} fails with a 500 if ""resources: {}""",https://bugs.launchpad.net/nova/+bug/1714072,2017-10-24
+1701421,1701421,Fix Released,Virtual device tag support should be documented in the Feature Support Matrix,https://bugs.launchpad.net/nova/+bug/1701421,2017-10-24
+1710766,1710766,Fix Released,video type error when launching instance in AArch64,https://bugs.launchpad.net/nova/+bug/1710766,2017-10-24
+1714283,1714283,Fix Released,Placement API reference: GET /traits query parameter starts_with should be startswith,https://bugs.launchpad.net/nova/+bug/1714283,2017-10-24
+1714284,1714284,Fix Released,Placement user doc: add link to API reference,https://bugs.launchpad.net/nova/+bug/1714284,2017-10-24
+1714285,1714285,Fix Released,Hyper-V: leaked resources after failed spawn,https://bugs.launchpad.net/nova/+bug/1714285,2017-10-24
+1713974,1713974,Fix Released,payload samples are not hidden in the notification devref by default,https://bugs.launchpad.net/nova/+bug/1713974,2017-10-24
+1677047,1677047,Fix Released,glance download fsync raises EINVAL for FIFOs,https://bugs.launchpad.net/nova/+bug/1677047,2017-10-24
+1670738,1670738,Fix Released,"man page needed for ""nova-manage db online_data_migrations""",https://bugs.launchpad.net/nova/+bug/1670738,2017-10-24
+1705450,1705450,Fix Released,Nova doesn't pass the conf object to oslo_reports,https://bugs.launchpad.net/nova/+bug/1705450,2017-10-24
+1715217,1715217,Fix Released,nova xenapi unit tests fail with os-xenapi 0.3.0,https://bugs.launchpad.net/openstack-requirements/+bug/1715217,2017-10-24
+1715217,1715217,Fix Released,nova xenapi unit tests fail with os-xenapi 0.3.0,https://bugs.launchpad.net/nova/+bug/1715217,2017-10-24
+1700926,1700926,Fix Released,Exception Error logs shown in Citrix XenServer CI,https://bugs.launchpad.net/os-xenapi/+bug/1700926,2017-10-24
+1700926,1700926,Fix Released,Exception Error logs shown in Citrix XenServer CI,https://bugs.launchpad.net/nova/+bug/1700926,2017-10-24
+1715493,1715493,Fix Released,Instances always get mapped into the last processed cell in conductor,https://bugs.launchpad.net/nova/+bug/1715493,2017-10-24
+1715462,1715462,Fix Released,Instances failing quota recheck end up with no assigned cell,https://bugs.launchpad.net/nova/+bug/1715462,2017-10-24
+1716046,1716046,Fix Released,GET /resource_providers api-ref doesn't mention microversions for resources/member_of filters,https://bugs.launchpad.net/nova/+bug/1716046,2017-10-24
+1714402,1714402,Fix Released,When setting an allocation with multiple resource providers and one of them does not exist the error message can be wrong,https://bugs.launchpad.net/nova/+bug/1714402,2017-10-24
+1716247,1716247,Fix Released,api_sample_tests.test_aggregates.AggregatesSampleJsonTest failing due to change in aggregates,https://bugs.launchpad.net/nova/+bug/1716247,2017-10-24
+1696033,1696033,Fix Released,Standardization of VM diagnostics info API.,https://bugs.launchpad.net/nova/+bug/1696033,2017-10-24
+1713786,1713786,Fix Released,Allocations are not managed properly in all evacuate scenarios,https://bugs.launchpad.net/nova/+bug/1713786,2017-10-24
+1716718,1716718,Fix Released,chown commands failing (no rootwrap filter),https://bugs.launchpad.net/nova/+bug/1716718,2017-10-24
+1717000,1717000,Fix Released,InstanceNotFound prevents putting over-quota instance into ERROR state,https://bugs.launchpad.net/nova/+bug/1717000,2017-10-24
+1716903,1716903,Fix Released,Failed to live-migrate instance in cell with microversion >= 2.34,https://bugs.launchpad.net/nova/+bug/1716903,2017-10-24
+1718335,1718335,Fix Released,remove 400 as expected error,https://bugs.launchpad.net/nova/+bug/1718335,2017-10-24
+1717917,1717917,Fix Released,test_resize_server_error_and_reschedule_was_failed failing due to missing notification,https://bugs.launchpad.net/nova/+bug/1717917,2017-10-24
+1688054,1688054,Fix Released,Flavors in Administrator Guide - confusing description for rxtx factor,https://bugs.launchpad.net/nova/+bug/1688054,2017-10-24
+1718545,1718545,Fix Released,[vnc]vncserver_proxyclient_address and [vnc]vncserver_listen removed without deprecation,https://bugs.launchpad.net/nova/+bug/1718545,2017-10-24
+1718545,1718545,Fix Released,[vnc]vncserver_proxyclient_address and [vnc]vncserver_listen removed without deprecation,https://bugs.launchpad.net/nova-powervm/+bug/1718545,2017-10-24
+1494688,1494688,Fix Released,"[VMWARE] Connection pool is full, discarding connection",https://bugs.launchpad.net/nova/+bug/1494688,2017-10-24
+1719048,1719048,Fix Released,The scheduler runs a useless periodic task to expire quota reservations,https://bugs.launchpad.net/nova/+bug/1719048,2017-10-24
+1716786,1716786,Fix Released,"""idle_timeout"" is missing a help string",https://bugs.launchpad.net/nova/+bug/1716786,2017-10-24
+1719364,1719364,Fix Released,Wrong  IoOpsFilter test class name,https://bugs.launchpad.net/nova/+bug/1719364,2017-10-24
+1717533,1717533,Fix Released,No rootwrap filter for chmod in libvirt/utils,https://bugs.launchpad.net/nova/+bug/1717533,2017-10-24
+1708252,1708252,Fix Released,resource tracker updates its map of aggregates too often,https://bugs.launchpad.net/nova/+bug/1708252,2017-10-24
+1715437,1715437,Fix Released,"No docs for 'emulator_threads_policy', 'cpu_realtime', 'cpu_realtime_mask'",https://bugs.launchpad.net/nova/+bug/1715437,2017-10-24
+1721644,1721644,Fix Released,VolumesExtendAttachedTest.test_extend_attached_volume fails cells v1 job 100% A+,https://bugs.launchpad.net/nova/+bug/1721644,2017-10-24
+1721791,1721791,Fix Released,Pagination of instances works incorrect,https://bugs.launchpad.net/nova/+bug/1721791,2017-10-24
+1707860,1707860,Fix Released,Ironic driver should use internal endpoints,https://bugs.launchpad.net/nova/+bug/1707860,2017-10-24
+1699115,1699115,Fix Released,api.fault notification is never emitted,https://bugs.launchpad.net/nova/+bug/1699115,2017-10-24
+1718226,1718226,Fix Released,bdm is wastefully loaded for versioned instance notifications,https://bugs.launchpad.net/nova/+bug/1718226,2017-10-24
+1720130,1720130,Fix Released,nova-manage map_instances is not using the cells info from the API database,https://bugs.launchpad.net/nova/+bug/1720130,2017-10-24
+1722403,1722403,Fix Released,api-ref: valid server status for filtering is wrong in docs,https://bugs.launchpad.net/nova/+bug/1722403,2017-10-24
+1723120,1723120,Fix Released,"Copy-paste style error in documentation ""Compute schedulers""",https://bugs.launchpad.net/nova/+bug/1723120,2017-10-24
+1723982,1723982,Fix Released,Commands that do not exist appear in help message of nova-manage,https://bugs.launchpad.net/nova/+bug/1723982,2017-10-24
+1726754,1726754,Fix Released,test-bug-3,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1726754,2017-10-24
+1726719,1726719,Fix Released,test-bug-2,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1726719,2017-10-24
+1724656,1724656,Fix Released,Building an ubuntu-minimal + simple-init images gives me both python 2 and 3,https://bugs.launchpad.net/diskimage-builder/+bug/1724656,2017-10-24
+1698128,1698128,Fix Released,[api-ref]Using volume transfer description in creating volume snapshot parameters,https://bugs.launchpad.net/cinder/+bug/1698128,2017-10-24
+1703933,1703933,Fix Released,VolumeTypeExtraSpecsController policy could be more granular,https://bugs.launchpad.net/cinder/+bug/1703933,2017-10-24
+1709034,1709034,Fix Released,The execute method of ExtractSchedulerSpecTask transfer a wrong param,https://bugs.launchpad.net/cinder/+bug/1709034,2017-10-24
+1709254,1709254,Fix Released,metadata option for backup not in api docs,https://bugs.launchpad.net/cinder/+bug/1709254,2017-10-24
+1710229,1710229,Fix Released,SMB: thin provisioning reporting issue,https://bugs.launchpad.net/cinder/+bug/1710229,2017-10-24
+1686985,1686985,Fix Released,Issue with Volume having image_cache_enabled for HPE 3PAR backend,https://bugs.launchpad.net/cinder/+bug/1686985,2017-10-24

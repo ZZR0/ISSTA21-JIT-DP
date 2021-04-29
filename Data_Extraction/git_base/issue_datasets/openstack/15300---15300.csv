@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1742336,1742336,Fix Released,api version details return 302 Found,https://bugs.launchpad.net/manila/+bug/1742336,2018-02-08
+1746207,1746207,Fix Released,"Dell EMC VMAX Manila driver, AttributeError: 'VMAXStorageConnection' object has no attribute 'ipv6_implemented'",https://bugs.launchpad.net/manila/+bug/1746207,2018-02-08
+1746439,1746439,Fix Released,INFINIDAT share driver fails to delete shares with snapshots,https://bugs.launchpad.net/manila/+bug/1746439,2018-02-08
+1746723,1746723,Fix Released,LVM driver does not handle IPv6 addresses in recovery mode,https://bugs.launchpad.net/manila/+bug/1746723,2018-02-08
+1733289,1733289,Fix Released,Image data stays in store (filesystem store) if image is deleted after staging call,https://bugs.launchpad.net/glance/+bug/1733289,2018-02-08
+1728368,1728368,Fix Released,oslo.serialization 2.21.2 breaks glance,https://bugs.launchpad.net/glance/+bug/1728368,2018-02-08
+1744824,1744824,Fix Released,functional tests broken under py27,https://bugs.launchpad.net/glance/+bug/1744824,2018-02-08
+1747690,1747690,Fix Released,master promotion: Failed to call refresh: glance-manage  db_sync,https://bugs.launchpad.net/glance/+bug/1747690,2018-02-08
+1746834,1746834,Fix Released,Add img_linked_clone to compute vmware metadefs,https://bugs.launchpad.net/glance/+bug/1746834,2018-02-08
+1733964,1733964,Fix Released,Rolling Upgrades in glance typo error,https://bugs.launchpad.net/glance/+bug/1733964,2018-02-08
+1745124,1745124,Fix Released,Implementation of Inject metadata properties,https://bugs.launchpad.net/glance/+bug/1745124,2018-02-08
+1747926,1747926,Fix Released,Import plugins requires deployer to poke Glance code with internal details,https://bugs.launchpad.net/glance/+bug/1747926,2018-02-08
+1748218,1748218,Fix Released,revise api-ref: make 2.6 CURRENT,https://bugs.launchpad.net/glance/+bug/1748218,2018-02-08
+1747533,1747533,Fix Released,systemd: puppet duplicated resources for service restart,https://bugs.launchpad.net/tripleo/+bug/1747533,2018-02-08
+1742656,1742656,Fix Released,seperate tempest plugin repo for various services causing congress to skip respective tests,https://bugs.launchpad.net/congress/+bug/1742656,2018-02-08
+1742833,1742833,Fix Released,cfg validator agent fails to start TypeError: unorderable types: str() < NoneType(),https://bugs.launchpad.net/congress/+bug/1742833,2018-02-08
+1746139,1746139,Fix Released,concurrent delete_policies ops sometimes return 500 error on DB deadlock,https://bugs.launchpad.net/congress/+bug/1746139,2018-02-08
+1745056,1745056,Fix Released,Revert Cassandra version to 2 on ubuntu element,https://bugs.launchpad.net/trove/+bug/1745056,2018-02-08
+1745477,1745477,Fix Released,Update validation rules file for mysql 5.7,https://bugs.launchpad.net/trove/+bug/1745477,2018-02-08
+1746626,1746626,Fix Released,Unable to perform backup on DB2 instance,https://bugs.launchpad.net/trove/+bug/1746626,2018-02-08
+1745238,1745238,Fix Released,Update validation rules file for postgresql 9.6,https://bugs.launchpad.net/trove/+bug/1745238,2018-02-08
+1745493,1745493,Fix Released,Improve Vertica 9.x support,https://bugs.launchpad.net/trove/+bug/1745493,2018-02-08
+1746351,1746351,Fix Released,Remove hardcoded version in DB2 install path,https://bugs.launchpad.net/trove/+bug/1746351,2018-02-08
+1747031,1747031,Fix Released,Accept the IBM DB2 license during the DIB process,https://bugs.launchpad.net/trove/+bug/1747031,2018-02-08
+1747050,1747050,Fix Released,Unable to grow/shrink Vertica 9.x cluster,https://bugs.launchpad.net/trove/+bug/1747050,2018-02-08
+1553030,1553030,Fix Released,"Change optparse to argparse, optparse is Deprecated since python version 2.7",https://bugs.launchpad.net/trove/+bug/1553030,2018-02-08
+1553030,1553030,Fix Released,"Change optparse to argparse, optparse is Deprecated since python version 2.7",https://bugs.launchpad.net/python-swiftclient/+bug/1553030,2018-02-08
+1553030,1553030,Fix Released,"Change optparse to argparse, optparse is Deprecated since python version 2.7",https://bugs.launchpad.net/glance/+bug/1553030,2018-02-08
+1492067,1492067,Fix Released,Include response codes in the documentation for all ironic API calls,https://bugs.launchpad.net/ironic/+bug/1492067,2018-02-08
+1668337,1668337,Fix Released,kubectl exec/log are not working on devstack,https://bugs.launchpad.net/magnum/+bug/1668337,2018-02-08
+1712810,1712810,Fix Released,Add  prefix for all container images used in a magnum cluster,https://bugs.launchpad.net/magnum/+bug/1712810,2018-02-08
+1718608,1718608,Fix Released,missing documentation for kube_dashboard_enabled label,https://bugs.launchpad.net/magnum/+bug/1718608,2018-02-08
+1679301,1679301,Fix Released,network-config-service.sh incorrect for Fedora Atomic 25,https://bugs.launchpad.net/magnum/+bug/1679301,2018-02-08
+1689618,1689618,Fix Released,rkt fetch does not work behind proxy,https://bugs.launchpad.net/magnum/+bug/1689618,2018-02-08
+1548371,1548371,Fix Released,"Document how to resolve the error ""Multiple head revisions are present for given argument 'head'""",https://bugs.launchpad.net/magnum/+bug/1548371,2018-02-08
+1727613,1727613,Fix Released,Devstack failed with tls-proxy enabled,https://bugs.launchpad.net/magnum/+bug/1727613,2018-02-08
+1722522,1722522,Fix Released,do not restrict storage driver value,https://bugs.launchpad.net/magnum/+bug/1722522,2018-02-08
+1739422,1739422,Fix Released,magnum not taking kube_tag from cluster,https://bugs.launchpad.net/magnum/+bug/1739422,2018-02-08
+1741911,1741911,Fix Released,Regression with cliff 2.10.0,https://bugs.launchpad.net/magnum/+bug/1741911,2018-02-08
+1737145,1737145,Fix Released,Fix barbicanclient deprecation,https://bugs.launchpad.net/magnum/+bug/1737145,2018-02-08
+1738305,1738305,Fix Released,Quotas commands do not work,https://bugs.launchpad.net/magnum/+bug/1738305,2018-02-08
+1739424,1739424,Fix Released,magnum container_infra_prefix not being overriden when passed in cluster label,https://bugs.launchpad.net/magnum/+bug/1739424,2018-02-08
+1737802,1737802,Fix Released,Better cluster HA with anti-affinity,https://bugs.launchpad.net/magnum/+bug/1737802,2018-02-08
+1668330,1668330,Fix Released,Make periodic monitoring tasks optional,https://bugs.launchpad.net/magnum/+bug/1668330,2018-02-08
+1746287,1746287,Fix Released,RDO cloud ci jobs using Rackspace mirror,https://bugs.launchpad.net/tripleo/+bug/1746287,2018-02-08
+1741943,1741943,Fix Released,Error message on attaching non-multiattach volume is unclear,https://bugs.launchpad.net/cinder/+bug/1741943,2018-02-08
+1721583,1721583,Fix Released,Storwize: update_migrated_volume() fails to find source name,https://bugs.launchpad.net/cinder/+bug/1721583,2018-02-08
+1745219,1745219,Fix Released,Unable to create multiattach volume without specific volume type,https://bugs.launchpad.net/cinder/+bug/1745219,2018-02-08
+1745209,1745209,Fix Released,bootable volume with multiattach fails with context  object has no attribute 'authorize',https://bugs.launchpad.net/cinder/+bug/1745209,2018-02-08
+1745602,1745602,Fix Released,SMBFS: provisioning type not honored,https://bugs.launchpad.net/cinder/+bug/1745602,2018-02-08
+1743404,1743404,Fix Released,Context's request-id not found in response of volume actions.,https://bugs.launchpad.net/cinder/+bug/1743404,2018-02-08
+1745552,1745552,Fix Released,Storwize:  correct the return value for update_group,https://bugs.launchpad.net/cinder/+bug/1745552,2018-02-08
+1746235,1746235,Fix Released,Sync period not set for replication in periodic mode,https://bugs.launchpad.net/cinder/+bug/1746235,2018-02-08
+1746022,1746022,Fix Released,Windows: missing/outdated documentation,https://bugs.launchpad.net/cinder/+bug/1746022,2018-02-08
+1745180,1745180,Fix Released,Encrypted volume backups mishandle encryption key IDs,https://bugs.launchpad.net/cinder/+bug/1745180,2018-02-08
+1711267,1711267,Fix Released,Boot from volume in cinder,https://bugs.launchpad.net/cinder/+bug/1711267,2018-02-08
+1744025,1744025,Fix Released,"HPE 3PAR: Volume created and added in cloned group, differs from volume present in the source group in terms of extra-specs rules like Compression and provisioning.",https://bugs.launchpad.net/cinder/+bug/1744025,2018-02-08
+1747021,1747021,Fix Released,Encryption key migration fails with DuplicateOptError,https://bugs.launchpad.net/cinder/+bug/1747021,2018-02-08
+1745098,1745098,Fix Released,Storwize: message handling UnicodeDecodeError if ssh response stderr with non-ascii characters,https://bugs.launchpad.net/cinder/+bug/1745098,2018-02-08
+1728984,1728984,Fix Released,Enable fatal_exception_format_errors in unit tests,https://bugs.launchpad.net/cinder/+bug/1728984,2018-02-08
+1743800,1743800,Fix Released,Document the all_tenants API query option,https://bugs.launchpad.net/cinder/+bug/1743800,2018-02-08
+1744005,1744005,Fix Released,"cinder delete fails on Solidfire with ""imported"" volumes",https://bugs.launchpad.net/cinder/+bug/1744005,2018-02-08
+1746191,1746191,Fix Released,failed when create audit zone_migration,https://bugs.launchpad.net/watcher/+bug/1746191,2018-02-08
+1746162,1746162,Fix Released,get_compute_node_by_hostname returns empty if hostname != uuid in Compute CDM,https://bugs.launchpad.net/watcher/+bug/1746162,2018-02-08
+1644767,1644767,Fix Released,Improve the api of software-deployment-create,https://bugs.launchpad.net/heat/+bug/1644767,2018-02-08
+1717165,1717165,Fix Released,Move tempest test to ironic-tempest-plugin repo,https://bugs.launchpad.net/ironic/+bug/1717165,2018-02-08
+1747011,1747011,Fix Released,Add Endpoint Group: Local System Subnets is not hidden if CIDR type is selected,https://bugs.launchpad.net/neutron-vpnaas-dashboard/+bug/1747011,2018-02-08
+1747041,1747041,Fix Released,routers without external gateway should be excluded in Create VPN service form,https://bugs.launchpad.net/neutron-vpnaas-dashboard/+bug/1747041,2018-02-08
+1743780,1743780,Fix Released,docs build fail after Sphinx upgrade to 1.6.6,https://bugs.launchpad.net/ironic/+bug/1743780,2018-02-08
+1702508,1702508,Fix Released,[RFE] Ironic XClarity Driver,https://bugs.launchpad.net/ironic/+bug/1702508,2018-02-08
+1614876,1614876,Fix Released,"[RFE] Allow setting {provisioning,cleaning}_network in node driver_info",https://bugs.launchpad.net/ironic/+bug/1614876,2018-02-08
+1693788,1693788,Fix Released,[RFE] Switch the OneView driver to hpOneView and ilorest libraries,https://bugs.launchpad.net/ironic/+bug/1693788,2018-02-08
+1706725,1706725,Fix Released,The get_boot_device of oneview drivers is not capable of get persistent property from server_hardware's iLo,https://bugs.launchpad.net/ironic/+bug/1706725,2018-02-08
+1722616,1722616,Fix Released,[RFE] - Set a timeout for powering on/off an node on HPE OneView Driver,https://bugs.launchpad.net/ironic/+bug/1722616,2018-02-08
+1722374,1722374,Fix Released,[RFE] Soft power operations for OneView hardware type,https://bugs.launchpad.net/ironic/+bug/1722374,2018-02-08

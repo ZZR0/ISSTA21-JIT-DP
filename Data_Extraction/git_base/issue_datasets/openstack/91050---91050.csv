@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1109166,1109166,Fix Released,Remove unnecessary deserializer test for FlavorExtraSpecs extension,https://bugs.launchpad.net/nova/+bug/1109166,2013-04-04
+1108978,1108978,Fix Released,Remove print statements in unit test code,https://bugs.launchpad.net/nova/+bug/1108978,2013-04-04
+1108820,1108820,Fix Released,^M characters appearing in console output,https://bugs.launchpad.net/nova/+bug/1108820,2013-04-04
+1108222,1108222,Fix Released,Finer access control in os-volume_attachments,https://bugs.launchpad.net/nova/+bug/1108222,2013-04-04
+1107890,1107890,Fix Released,Session.execute() method is not wrapped by wrap_db_error,https://bugs.launchpad.net/nova/+bug/1107890,2013-04-04
+1105319,1105319,Fix Released,notify_usage_exists fails to find system_metatdata in instance,https://bugs.launchpad.net/nova/+bug/1105319,2013-04-04
+1105170,1105170,Fix Released,Fix show and update methods serializers in FlavorExtraSpecs extension,https://bugs.launchpad.net/nova/+bug/1105170,2013-04-04
+1104907,1104907,Fix Released,nova-novncproxy failed to start due to no attribute 'websocketproxy',https://bugs.launchpad.net/nova/+bug/1104907,2013-04-04
+1104000,1104000,Fix Released,n-net - KeyError: u'network_id' during Exception,https://bugs.launchpad.net/nova/+bug/1104000,2013-04-04
+1103783,1103783,Fix Released,"nova-dhcpbridge assumes only 2 additional arguments to add, old, del",https://bugs.launchpad.net/nova/+bug/1103783,2013-04-04
+1103130,1103130,Fix Released,Generated SSH key length is only 1024 bits,https://bugs.launchpad.net/nova/+bug/1103130,2013-04-04
+1103086,1103086,Fix Released,Need a way to add custom nw filters to nova-base filters,https://bugs.launchpad.net/nova/+bug/1103086,2013-04-04
+1102652,1102652,Fix Released,Recent TaskLog refactor work on sqlalchemy/api.py has broken Instance Usage Audit Log extension,https://bugs.launchpad.net/nova/+bug/1102652,2013-04-04
+1102501,1102501,Fix Released,EncryptionFailure: Failed to encrypt text: ssh-keygen: illegal option -- m,https://bugs.launchpad.net/nova/+bug/1102501,2013-04-04
+1102477,1102477,Fix Released,datetime used for string column query crashed postgresql driver,https://bugs.launchpad.net/nova/+bug/1102477,2013-04-04
+1102469,1102469,Fix Released,conductor api doesn't have instance_get_active_by_window_joined method,https://bugs.launchpad.net/nova/+bug/1102469,2013-04-04
+1102462,1102462,Fix Released,List servers having non-existent flavor returns 422 Unprocessable Entity instead of empty list,https://bugs.launchpad.net/nova/+bug/1102462,2013-04-04
+1103607,1103607,Fix Released,Bump the base rpc version of the network api.,https://bugs.launchpad.net/nova/+bug/1103607,2013-04-04
+1099761,1099761,Fix Released,Nova takes a long time to notice if a VM is shutdown by guest admin,https://bugs.launchpad.net/nova/+bug/1099761,2013-04-04
+1098770,1098770,Fix Released,libvirt: race condition between delete and get_vcpu_used,https://bugs.launchpad.net/nova/+bug/1098770,2013-04-04
+1098741,1098741,Fix Released,reboot does network query in API,https://bugs.launchpad.net/nova/+bug/1098741,2013-04-04
+1098733,1098733,Fix Released,nova-manage has several usage issues,https://bugs.launchpad.net/nova/+bug/1098733,2013-04-04
+1098727,1098727,Fix Released,reboot_instance is using stale instance data,https://bugs.launchpad.net/nova/+bug/1098727,2013-04-04
+1098646,1098646,Fix Released,Large user data (>8k) prevents creation of VMs,https://bugs.launchpad.net/nova/+bug/1098646,2013-04-04
+1098382,1098382,Fix Released,xenapi get_all_bw_counters accesses instance as object,https://bugs.launchpad.net/nova/+bug/1098382,2013-04-04
+1096985,1096985,Fix Released,Floating ips on separate interface + external gateway does not work,https://bugs.launchpad.net/nova/+bug/1096985,2013-04-04
+1092560,1092560,Fix Released,VFAT config drive,https://bugs.launchpad.net/nova/+bug/1092560,2013-04-04
+1084567,1084567,Fix Released,migrations unit test should opportunistically test postgres,https://bugs.launchpad.net/nova/+bug/1084567,2013-04-04
+1076801,1076801,Fix Released,resize instance doesn't use connection_info from initialize_connection,https://bugs.launchpad.net/nova/+bug/1076801,2013-04-04
+1064084,1064084,Fix Released,generate_sample.sh nova.conf does not handle non-default groups,https://bugs.launchpad.net/nova/+bug/1064084,2013-04-04
+1023865,1023865,Fix Released,image directory naming convention in libvirt driver,https://bugs.launchpad.net/nova/+bug/1023865,2013-04-04
+989746,989746,Fix Released,'FlatManager' object has no attribute 'allocate_floating_ip',https://bugs.launchpad.net/nova/+bug/989746,2013-04-04
+973393,973393,Fix Released,Instance vm_state remains 'migrating' if source compute node goes down during migration,https://bugs.launchpad.net/nova/+bug/973393,2013-04-04
+1130686,1130686,Fix Released,Don't log lifecycle events as LOG.ERROR,https://bugs.launchpad.net/nova/+bug/1130686,2013-04-04
+1127696,1127696,Fix Released,IPAddress() macro only provides 39 characters where ipv6 cidr could be 43 characters,https://bugs.launchpad.net/nova/+bug/1127696,2013-04-04
+1126348,1126348,Fix Released,Starting a LXC container fails,https://bugs.launchpad.net/nova/+bug/1126348,2013-04-04
+1124594,1124594,Fix Released,nova live-migration is broken by nova-conductor enforcement,https://bugs.launchpad.net/nova/+bug/1124594,2013-04-04
+1123435,1123435,Fix Released,no-db-compute exception with --config-drive 1 add_instance_metadata,https://bugs.launchpad.net/nova/+bug/1123435,2013-04-04
+1123219,1123219,Fix Released,Illegal DB access in nova-compute _sync_db_power_states method,https://bugs.launchpad.net/nova/+bug/1123219,2013-04-04
+1122733,1122733,Fix Released,XenAPI Volume Errors not showing up in Instance Faults,https://bugs.launchpad.net/nova/+bug/1122733,2013-04-04
+1122316,1122316,Fix Released,Restarting nova-compute with source groups lead to traceback.,https://bugs.launchpad.net/nova/+bug/1122316,2013-04-04
+1120402,1120402,Fix Released,ConfigDrive uses metadata service which hits the database from within nova-compute,https://bugs.launchpad.net/nova/+bug/1120402,2013-04-04
+1120390,1120390,Fix Released,nova-compute raises non-existent exception on failed DB access,https://bugs.launchpad.net/nova/+bug/1120390,2013-04-04
+1118491,1118491,Fix Released,check_can_live_migrate_source does not return data (xenapi),https://bugs.launchpad.net/nova/+bug/1118491,2013-04-04
+1117882,1117882,Fix Released,Resize doesn't apply the hypervisor_type filter in choosing the migration target,https://bugs.launchpad.net/nova/+bug/1117882,2013-04-04
+1116586,1116586,Fix Released,Incorrect copyright notice on Hyper-V driver,https://bugs.launchpad.net/nova/+bug/1116586,2013-04-04
+1116236,1116236,Fix Released,DB Migration truncates long Mixed IPv4-IPv6 Addresses,https://bugs.launchpad.net/nova/+bug/1116236,2013-04-04
+1115880,1115880,Fix Released,Fix FlavorAccessTemplate serializer in FlavorAccess API extension,https://bugs.launchpad.net/nova/+bug/1115880,2013-04-04
+1110808,1110808,Fix Released,Errors in scheduler do not set instance fault,https://bugs.launchpad.net/nova/+bug/1110808,2013-04-04
+1109889,1109889,Fix Released,SQL Error with fixed_ips.deleted in devstack/postgresql,https://bugs.launchpad.net/nova/+bug/1109889,2013-04-04
+1106960,1106960,Fix Released,lxc doesnt support virDomainGetVcpus,https://bugs.launchpad.net/nova/+bug/1106960,2013-04-04
+1103436,1103436,Fix Released,iptables-restore error when table not loaded,https://bugs.launchpad.net/nova/+bug/1103436,2013-04-04
+1101874,1101874,Fix Released,test_migration_149_mysql can trigger a race,https://bugs.launchpad.net/nova/+bug/1101874,2013-04-04
+1101057,1101057,Fix Released,coverage extension should be disabled by default,https://bugs.launchpad.net/nova/+bug/1101057,2013-04-04
+1100589,1100589,Fix Released,Booting an image without a kernel/initrd on baremetal fails without telling user why,https://bugs.launchpad.net/nova/+bug/1100589,2013-04-04
+1100559,1100559,Fix Released,Instance fault when rescheduling is missing exception info,https://bugs.launchpad.net/nova/+bug/1100559,2013-04-04
+1100459,1100459,Fix Released,Allow Nova to talk to Cinder using  a self-signed cert,https://bugs.launchpad.net/nova/+bug/1100459,2013-04-04
+1100430,1100430,Fix Released,init host crashes if instance cannot be resumed,https://bugs.launchpad.net/nova/+bug/1100430,2013-04-04
+1100253,1100253,Fix Released,Invalid UUID in servers rest calls causes 500s when using Postgresql,https://bugs.launchpad.net/nova/+bug/1100253,2013-04-04
+1099527,1099527,Fix Released,Libvirt driver misses out some CPU flags on old libvirt,https://bugs.launchpad.net/nova/+bug/1099527,2013-04-04
+1098692,1098692,Fix Released,Bug in NovaBase.save() method,https://bugs.launchpad.net/nova/+bug/1098692,2013-04-04
+1094142,1094142,Fix Released,Flavor Extra Specs should require admin privileges by default,https://bugs.launchpad.net/nova/+bug/1094142,2013-04-04
+1091668,1091668,Fix Released,get Floating IP Pools response is 403 (forbidden),https://bugs.launchpad.net/nova/+bug/1091668,2013-04-04
+1088655,1088655,Fix Released,bare metal node partitioning does not handle errors well,https://bugs.launchpad.net/nova/+bug/1088655,2013-04-04
+1078154,1078154,Fix Released,"nova baremetal overrides network card MAC addresses, interacts poorly with udev persistent rules",https://bugs.launchpad.net/nova/+bug/1078154,2013-04-04
+1071547,1071547,Fix Released,instance rebuild with volumes attached fails,https://bugs.launchpad.net/nova/+bug/1071547,2013-04-04
+1068258,1068258,Fix Released,_assert_compute_node_has_enough_memory doesn't support ram overcommit,https://bugs.launchpad.net/nova/+bug/1068258,2013-04-04
+1064581,1064581,Fix Released,instance destroy causes libvirtError: Unable to read from monitor,https://bugs.launchpad.net/nova/+bug/1064581,2013-04-04
+1061045,1061045,Fix Released,Failure to set root password leaves instance in ERROR,https://bugs.launchpad.net/nova/+bug/1061045,2013-04-04
+982108,982108,Fix Released,Rebooting not allowed for instances stuck in rebooting_hard state,https://bugs.launchpad.net/nova/+bug/982108,2013-04-04
+1130718,1130718,Fix Released,Volumes fail to boot: iscsiadm exit code 21,https://bugs.launchpad.net/nova/+bug/1130718,2013-04-04
+1130146,1130146,Fix Released,Unit tests broke with recent commit,https://bugs.launchpad.net/nova/+bug/1130146,2013-04-04
+1108448,1108448,Fix Released,"migration 147 wrong, would loose AZ data",https://bugs.launchpad.net/nova/+bug/1108448,2013-04-04
+1098819,1098819,Fix Released,Refactored periodic tasks sleep logic is wrong,https://bugs.launchpad.net/nova/+bug/1098819,2013-04-04
+1096722,1096722,Fix Released,inconsistent nova-bm state will prevent launching new instances,https://bugs.launchpad.net/nova/+bug/1096722,2013-04-04

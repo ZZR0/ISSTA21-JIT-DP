@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1538496,1538496,Fix Released,RemoteFS: race in _create_snapshot_online => infinite loop,https://bugs.launchpad.net/cinder/+bug/1538496,2016-03-03
+1546453,1546453,Fix Released,Detach 3PAR volume from an instance fails if host name is changed,https://bugs.launchpad.net/cinder/+bug/1546453,2016-03-03
+1547666,1547666,Fix Released,get_replication_updates in manager.py does NOTHING,https://bugs.launchpad.net/cinder/+bug/1547666,2016-03-03
+1545898,1545898,Fix Released,"Huawei hypermetro  is created while  the end of  config the not exist pool, will load to  incorrect logs",https://bugs.launchpad.net/cinder/+bug/1545898,2016-03-03
+1548167,1548167,Fix Released,Huawei: URL that need to be rectified with specifications referenced to the array .,https://bugs.launchpad.net/cinder/+bug/1548167,2016-03-03
+1504192,1504192,Fix Released,VMAX driver does not cleanup HW Resource WWPN initiators,https://bugs.launchpad.net/cinder/+bug/1504192,2016-03-03
+1548711,1548711,Fix Released,Invalid lun type,https://bugs.launchpad.net/cinder/+bug/1548711,2016-03-03
+1549048,1549048,Fix Released,X-IO driver returns lun id as unicode instead of int,https://bugs.launchpad.net/cinder/+bug/1549048,2016-03-03
+1536040,1536040,Fix Released,Huawei: Don't fail when port group not exists,https://bugs.launchpad.net/cinder/+bug/1536040,2016-03-03
+1549161,1549161,Fix Released,Fix create volume with prefetch value error,https://bugs.launchpad.net/cinder/+bug/1549161,2016-03-03
+1549157,1549157,Fix Released,Huawei: Log the IP when login fails,https://bugs.launchpad.net/cinder/+bug/1549157,2016-03-03
+1549375,1549375,Fix Released,HNAS iSCSI attachment broken,https://bugs.launchpad.net/cinder/+bug/1549375,2016-03-03
+1549563,1549563,Fix Released,NoneObject error when cinder-manage service list,https://bugs.launchpad.net/cinder/+bug/1549563,2016-03-03
+1546281,1546281,Fix Released,Storwize driver is not returning target wppwns on last term conn,https://bugs.launchpad.net/cinder/+bug/1546281,2016-03-03
+1520077,1520077,Fix Released,Show capabilities for storage backends returns 500,https://bugs.launchpad.net/cinder/+bug/1520077,2016-03-03
+1549453,1549453,Fix Released,"Change ""Fail"" to ""Failed"" in error messaging",https://bugs.launchpad.net/cinder/+bug/1549453,2016-03-03
+1517103,1517103,Fix Released,VMAX driver - Changing PercentSynched to CopyState in isSynched method,https://bugs.launchpad.net/cinder/+bug/1517103,2016-03-03
+1545971,1545971,Fix Released,When attach or detach hypermetro volume，the number of parameters is wrong,https://bugs.launchpad.net/cinder/+bug/1545971,2016-03-03
+1548158,1548158,Fix Released,Huawei: Code cleanup,https://bugs.launchpad.net/cinder/+bug/1548158,2016-03-03
+1537304,1537304,Fix Released,Huawei: Add description when rename LUN,https://bugs.launchpad.net/cinder/+bug/1537304,2016-03-03
+1548220,1548220,Fix Released,Huawei: Consider bandwidth when selecting port,https://bugs.launchpad.net/cinder/+bug/1548220,2016-03-03
+1545914,1545914,Fix Released,Huawei: Match the ip in the iqn more accurately,https://bugs.launchpad.net/cinder/+bug/1545914,2016-03-03
+1549584,1549584,Fix Released,Huawei: delete_snapshot need not return any value,https://bugs.launchpad.net/cinder/+bug/1549584,2016-03-03
+1537189,1537189,Fix Released,Cinder nested quotas does not handle unlimited quotas (-1) well,https://bugs.launchpad.net/cinder/+bug/1537189,2016-03-03
+1544774,1544774,Fix Released,Cinder quotas validation can be broken with skip_validation=False,https://bugs.launchpad.net/cinder/+bug/1544774,2016-03-03
+1548645,1548645,Fix Released,quota limit of child project can be set bigger than limit of parent,https://bugs.launchpad.net/cinder/+bug/1548645,2016-03-03
+1504460,1504460,Fix Released,VMAX driver - iscsiadm iscsi_ip_address can be incorrect for existing Masking Views,https://bugs.launchpad.net/cinder/+bug/1504460,2016-03-03
+1501521,1501521,Fix Released,Cinder object Snapshot has no attribute named: type get,https://bugs.launchpad.net/cinder/+bug/1501521,2016-03-03
+1542100,1542100,Fix Released,Pure: Fix replication to match v2.1 spec,https://bugs.launchpad.net/cinder/+bug/1542100,2016-03-03
+1539006,1539006,Fix Released,Update the image when you delete,https://bugs.launchpad.net/glance/+bug/1539006,2016-03-03
+1499355,1499355,Fix Released,TestHTTPSVerifyCert - No appropriate failure message is received,https://bugs.launchpad.net/python-glanceclient/+bug/1499355,2016-03-03
+1348269,1348269,Fix Released,monkey patching not needed?,https://bugs.launchpad.net/python-glanceclient/+bug/1348269,2016-03-03
+1496822,1496822,Fix Released,v2 reports instance-uuid as an option to image create,https://bugs.launchpad.net/glance/+bug/1496822,2016-03-03
+1496822,1496822,Fix Released,v2 reports instance-uuid as an option to image create,https://bugs.launchpad.net/python-glanceclient/+bug/1496822,2016-03-03
+1521581,1521581,Fix Released,"v2 - ""readOnly"" key should be used in schemas",https://bugs.launchpad.net/glance/+bug/1521581,2016-03-03
+1521581,1521581,Fix Released,"v2 - ""readOnly"" key should be used in schemas",https://bugs.launchpad.net/python-glanceclient/+bug/1521581,2016-03-03
+1551829,1551829,Fix Released,some neutron agents fail to start due to permission error,https://bugs.launchpad.net/kolla/+bug/1551829,2016-03-03
+1537401,1537401,Fix Released,keystone gate failing test_get_token_id_error_handling,https://bugs.launchpad.net/keystone/+bug/1537401,2016-03-03
+1099603,1099603,Fix Released,i18n directory and message file is absence,https://bugs.launchpad.net/python-neutronclient/+bug/1099603,2016-03-03
+1517870,1517870,Fix Released,nova client should let user know which API version it is using,https://bugs.launchpad.net/python-novaclient/+bug/1517870,2016-03-03
+1495427,1495427,Fix Released,help information of 'firewall-rule-create' lack of ip-version,https://bugs.launchpad.net/python-neutronclient/+bug/1495427,2016-03-03
+1530211,1530211,Fix Released,client extension list does not work with pagination,https://bugs.launchpad.net/python-neutronclient/+bug/1530211,2016-03-03
+1527129,1527129,Fix Released,"enhance the help info of ""neutron router-gateway-set""",https://bugs.launchpad.net/python-neutronclient/+bug/1527129,2016-03-03
+1508012,1508012,Fix Released,Support default subnetpool API,https://bugs.launchpad.net/python-neutronclient/+bug/1508012,2016-03-03
+1541625,1541625,Fix Released,Inconsistent metavar usage,https://bugs.launchpad.net/python-neutronclient/+bug/1541625,2016-03-03
+1508753,1508753,Fix Released,Handling for capitalization in protocol/action field in firewall-rule-create,https://bugs.launchpad.net/python-neutronclient/+bug/1508753,2016-03-03
+1504411,1504411,Fix Released,Neutron Firewall CLIs do not show all updatable options in help,https://bugs.launchpad.net/python-neutronclient/+bug/1504411,2016-03-03
+1503985,1503985,Fix Released,"Firewall-rule-update does not show ip_version, source_address or destination address but does in horizon",https://bugs.launchpad.net/python-neutronclient/+bug/1503985,2016-03-03
+1102897,1102897,Fix Released,quantum port-create --fixed-ip ignores additional invalid items,https://bugs.launchpad.net/python-neutronclient/+bug/1102897,2016-03-03
+1548974,1548974,Fix Released,Use 'instanceof' instead of 'type',https://bugs.launchpad.net/python-neutronclient/+bug/1548974,2016-03-03
+1547705,1547705,Fix Released,There is no way to use the default subnet pool without first looking it up,https://bugs.launchpad.net/neutron/+bug/1547705,2016-03-03
+1547705,1547705,Fix Released,There is no way to use the default subnet pool without first looking it up,https://bugs.launchpad.net/python-neutronclient/+bug/1547705,2016-03-03
+1544907,1544907,Fix Released,unable to find network with name or id,https://bugs.launchpad.net/python-neutronclient/+bug/1544907,2016-03-03
+1518390,1518390,Fix Released,Scrub python 2.6 compatibility from python-novaclient,https://bugs.launchpad.net/python-novaclient/+bug/1518390,2016-03-03
+1538112,1538112,Fix Released,Novaclient warns generic driver that it does not consider microversions,https://bugs.launchpad.net/python-novaclient/+bug/1538112,2016-03-03
+1521975,1521975,Fix Released,No module named importlib in test,https://bugs.launchpad.net/python-novaclient/+bug/1521975,2016-03-03
+1434167,1434167,Fix Released,Nova API uses different attribute name for list method,https://bugs.launchpad.net/python-novaclient/+bug/1434167,2016-03-03
+1551316,1551316,Fix Released,The variable nova_keystone_user in neutron role breaks the deployment,https://bugs.launchpad.net/kolla/+bug/1551316,2016-03-03
+1552132,1552132,Fix Released,keystone not found when using single tenant store with keystone v2,https://bugs.launchpad.net/glance-store/+bug/1552132,2016-03-03
+1551048,1551048,Fix Released,network validation tests fail: No module named ipaddr,https://bugs.launchpad.net/tripleo/+bug/1551048,2016-03-03
+1513102,1513102,Fix Released,Useless deprecation message for driver import,https://bugs.launchpad.net/keystone/+bug/1513102,2016-03-03
+1516469,1516469,Fix Released,"endpoints not show correctly when using ""endpoint_filter.sql"" as catalog's backend driver",https://bugs.launchpad.net/keystone/+bug/1516469,2016-03-03
+1501740,1501740,Fix Released,Creating a region without request parameters failed.,https://bugs.launchpad.net/keystone/+bug/1501740,2016-03-03
+1532345,1532345,Fix Released,enabled emulation query must filter tree dn,https://bugs.launchpad.net/keystone/+bug/1532345,2016-03-03
+1538754,1538754,Fix Released,keystone should convert host CONF.federation.trusted_dashboard to lower case before comparing,https://bugs.launchpad.net/keystone/+bug/1538754,2016-03-03
+1538291,1538291,Fix Released,Improve DevStack documentation,https://bugs.launchpad.net/watcher/+bug/1538291,2016-03-03
+1484554,1484554,Fix Released,Documentation for configuring networks using Fuel CLI should be supplemented,https://bugs.launchpad.net/fuel/+bug/1484554,2016-03-03
+1550436,1550436,Fix Released,All declarative config parsing takes a long time,https://bugs.launchpad.net/ceilometer/+bug/1550436,2016-03-03
+1504495,1504495,Fix Released,RBAC rules 'context_is_project' and 'context_is_owner' ain't working,https://bugs.launchpad.net/ceilometer/+bug/1504495,2016-03-03
+1504495,1504495,Fix Released,RBAC rules 'context_is_project' and 'context_is_owner' ain't working,https://bugs.launchpad.net/aodh/+bug/1504495,2016-03-03
+1536338,1536338,Fix Released,Fix Ceilometer floating ip pollster,https://bugs.launchpad.net/ceilometer/+bug/1536338,2016-03-03
+1536277,1536277,Fix Released,update devstack batching,https://bugs.launchpad.net/ceilometer/+bug/1536277,2016-03-03
+1539163,1539163,Fix Released,Aggregation transformer sometimes produces incorrect values,https://bugs.launchpad.net/ceilometer/+bug/1539163,2016-03-03
+1550614,1550614,Fix Released,A minor issue about missing parameter in DefinitionException,https://bugs.launchpad.net/ceilometer/+bug/1550614,2016-03-03
+1551383,1551383,Fix Released,lbaas1 gates failed on master,https://bugs.launchpad.net/heat/+bug/1551383,2016-03-03

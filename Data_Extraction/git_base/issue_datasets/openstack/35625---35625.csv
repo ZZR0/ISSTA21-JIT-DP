@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1621837,1621837,Fix Released,Plugin API was silently changed for subnetpool dict extension functions,https://bugs.launchpad.net/neutron/+bug/1621837,2016-10-18
+1623425,1623425,Fix Released,DNSNameServerDbObjectTestCase.test_filtering_by_fields fails sometimes,https://bugs.launchpad.net/neutron/+bug/1623425,2016-10-18
+1620864,1620864,Fix Released,control size of neutron logs,https://bugs.launchpad.net/neutron/+bug/1620864,2016-10-18
+1622632,1622632,Fix Released,Circular dependency in neutron.services.trunk.utils,https://bugs.launchpad.net/neutron/+bug/1622632,2016-10-18
+1617409,1617409,Fix Released,fixed ip gets assigned when a port is created with no fixed ip,https://bugs.launchpad.net/neutron/+bug/1617409,2016-10-18
+1622824,1622824,Fix Released,l3 dvr code passing ip allocation objects to update_port,https://bugs.launchpad.net/neutron/+bug/1622824,2016-10-18
+1621750,1621750,Fix Released,Port does not revert device_owner to previous value in concurrent requests case,https://bugs.launchpad.net/neutron/+bug/1621750,2016-10-18
+1596075,1596075,Fix Released,Neutron confused about overlapping subnet creation,https://bugs.launchpad.net/neutron/+bug/1596075,2016-10-18
+1618879,1618879,Fix Released,iptables rule always be thrashed when update a little rule,https://bugs.launchpad.net/neutron/+bug/1618879,2016-10-18
+1622938,1622938,Fix Released,generating duplicate LLA iptables rules,https://bugs.launchpad.net/neutron/+bug/1622938,2016-10-18
+1623176,1623176,Fix Released,TypeError in neutron.cmd.checks._vf_management_support,https://bugs.launchpad.net/neutron/+bug/1623176,2016-10-18
+1621650,1621650,Fix Released,PortNotFound in DHCP agent logs,https://bugs.launchpad.net/neutron/+bug/1621650,2016-10-18
+1623422,1623422,Fix Released,delete_subnet update_port needs to catch SubnetNotFound,https://bugs.launchpad.net/neutron/+bug/1623422,2016-10-18
+1623505,1623505,Fix Released,test_create_port_when_quotas_is_full breaks if you have dhcp agent running,https://bugs.launchpad.net/neutron/+bug/1623505,2016-10-18
+1607746,1607746,Fix Released,Update floating IP extra attributes will unexpectedly disassociate it,https://bugs.launchpad.net/neutron/+bug/1607746,2016-10-18
+1622833,1622833,Fix Released,timestamp mechanism in linux bridge false positives,https://bugs.launchpad.net/neutron/+bug/1622833,2016-10-18
+1623402,1623402,Fix Released,ipam leaks DBReference error on deleted subnet,https://bugs.launchpad.net/neutron/+bug/1623402,2016-10-18
+1619312,1619312,Fix Released,dvr: can't migrate legacy router to DVR,https://bugs.launchpad.net/neutron/+bug/1619312,2016-10-18
+1623800,1623800,Fix Released,Can't add exact count of fixed ips to port (regression),https://bugs.launchpad.net/neutron/+bug/1623800,2016-10-18
+1623990,1623990,Fix Released,"ml2 ""while True"" assumes fresh data on transactions",https://bugs.launchpad.net/neutron/+bug/1623990,2016-10-18
+1618987,1618987,Fix Released,"test_connection_from_diff_address_scope intermittent ""Cannot find device"" errors",https://bugs.launchpad.net/neutron/+bug/1618987,2016-10-18
+1623958,1623958,Fix Released,Metering-agent fails to restore iptables with 'Bad argument',https://bugs.launchpad.net/neutron/+bug/1623958,2016-10-18
+1623732,1623732,Fix Released,test_network_basic_ops to fail with SSHTimeout,https://bugs.launchpad.net/neutron/+bug/1623732,2016-10-18
+1623108,1623108,Fix Released,Add 'newton' milestone tag to alembic branches,https://bugs.launchpad.net/neutron/+bug/1623108,2016-10-18
+1621810,1621810,Fix Released,neutron-lbaas quota unit tests broken,https://bugs.launchpad.net/neutron/+bug/1621810,2016-10-18
+1623252,1623252,Fix Released,LBaaS gate broken by project_id in API calls,https://bugs.launchpad.net/neutron/+bug/1623252,2016-10-18
+1465758,1465758,Fix Released,[RFE] Add the ability to create lb vip and member with network_id,https://bugs.launchpad.net/neutron/+bug/1465758,2016-10-18
+1623183,1623183,Fix Released,"[FWaaS] project_id being returned instead of tenant_id by neutron, breaking some FWaaS unit tests",https://bugs.launchpad.net/neutron/+bug/1623183,2016-10-18
+1620334,1620334,Fix Released,Neutron dynamic routing: remove derpracted DB warnings,https://bugs.launchpad.net/neutron/+bug/1620334,2016-10-18
+1620516,1620516,Fix Released,Dynamic routing: deprecated warnings for address scope,https://bugs.launchpad.net/neutron/+bug/1620516,2016-10-18
+1611963,1611963,Fix Released,OVN NB sync ignores ACLs on lswitch without ports,https://bugs.launchpad.net/networking-ovn/+bug/1611963,2016-10-18
+1618508,1618508,Fix Released,creating a distributed router should not set chassis column,https://bugs.launchpad.net/networking-ovn/+bug/1618508,2016-10-18
+1608899,1608899,Fix Released,Add sync code for DHCP_Options,https://bugs.launchpad.net/networking-ovn/+bug/1608899,2016-10-18
+1610347,1610347,Fix Released,OVS transaction timeout with many logical switch ports on a logical switch,https://bugs.launchpad.net/networking-ovn/+bug/1610347,2016-10-18
+1622809,1622809,Fix Released,ovn-remote port should be 6642？,https://bugs.launchpad.net/networking-ovn/+bug/1622809,2016-10-18
+1622799,1622799,Fix Released,port dhcpv4 will be disabled by set dhcpv6 disabled as extra options,https://bugs.launchpad.net/networking-ovn/+bug/1622799,2016-10-18
+1621506,1621506,Fix Released,dhcp options should be cleaned within port,https://bugs.launchpad.net/networking-ovn/+bug/1621506,2016-10-18
+1619599,1619599,Fix Released,Wrong reference to settings file in glare docs,https://bugs.launchpad.net/murano/+bug/1619599,2016-10-18
+1619685,1619685,Fix Released,Properties with Usage: Config initialised with NO_VALUE in deserialised objects,https://bugs.launchpad.net/murano/+bug/1619685,2016-10-18
+1605786,1605786,Fix Released,Set a computer hostname with murano,https://bugs.launchpad.net/murano/+bug/1605786,2016-10-18
+1618797,1618797,Fix Released,"SoftwareComponent unit tests fail due to yaql language exception ""No function ""#operator_+"" matches supplied arguments""",https://bugs.launchpad.net/murano/+bug/1618797,2016-10-18
+1620048,1620048,Fix Released,"Murano installation doc in ""http://docs.openstack.org/developer/murano/draft/admin-guide/deploy_murano/install_manually.html"" should be changed",https://bugs.launchpad.net/murano/+bug/1620048,2016-10-18
+1620271,1620271,Fix Released,ExistingNeutronNetwork::initialize throws exception,https://bugs.launchpad.net/murano/+bug/1620271,2016-10-18
+1620716,1620716,Fix Released,[mistral] MistralClient doesn't provide default for region_name,https://bugs.launchpad.net/murano/+bug/1620716,2016-10-18
+1620706,1620706,Fix Released,[murano][tempest] Murano tempest tests shouldn't write to test directory,https://bugs.launchpad.net/murano/+bug/1620706,2016-10-18
+1618999,1618999,Fix Released,[devstack] incorrect external_network ID is assigned when deploy murano with multi-regions,https://bugs.launchpad.net/murano/+bug/1618999,2016-10-18
+1620269,1620269,Fix Released,Users of io.murano.resources.Instance class should be able to get list of all networks which instances joined to.,https://bugs.launchpad.net/murano/+bug/1620269,2016-10-18
+1597747,1597747,Fix Released,[test-runner] no way to test resource deallocation / garbage collection,https://bugs.launchpad.net/murano/+bug/1597747,2016-10-18
+1619635,1619635,Fix Released,[engine] Subscriber and target deleted in the wrong order,https://bugs.launchpad.net/murano/+bug/1619635,2016-10-18
+1619248,1619248,Fix Released,[engine] Destruction dependencies broken by object model merge process,https://bugs.launchpad.net/murano/+bug/1619248,2016-10-18
+1561522,1561522,Fix Released,Error if binary file is included in plan template,https://bugs.launchpad.net/murano/+bug/1561522,2016-10-18
+1623612,1623612,Fix Released,Regions can be deleted prior to applications,https://bugs.launchpad.net/murano/+bug/1623612,2016-10-18
+1618961,1618961,Fix Released,[dashboard] Murano dashboard should take advantage of Wrapping column in horizon,https://bugs.launchpad.net/murano/+bug/1618961,2016-10-18
+1616697,1616697,Fix Released,create/delete/abandon environment using the wrong redirect_url,https://bugs.launchpad.net/murano/+bug/1616697,2016-10-18
+1613336,1613336,Fix Released,[MuranoDashboard] it is possible to create several envs at one time,https://bugs.launchpad.net/murano/+bug/1613336,2016-10-18
+1618271,1618271,Fix Released,[tests][glare][dashboard] test_upload_package_detail  is too fast when run on glare,https://bugs.launchpad.net/murano/+bug/1618271,2016-10-18
+1615979,1615979,Fix Released,[muranodashboard] filter throws 500 when search-string has unicode,https://bugs.launchpad.net/murano/+bug/1615979,2016-10-18
+1623109,1623109,Fix Released,[dashboard] Cannot fill an application form when using Nova Network,https://bugs.launchpad.net/murano/+bug/1623109,2016-10-18
+1623894,1623894,Fix Released,[dashboard] ci is broken after replace table row 'status_unknown' class with 'warning' class,https://bugs.launchpad.net/murano/+bug/1623894,2016-10-18
+1619628,1619628,Fix Released,[API] Mistral doesn't respond on / and /v2 URLs,https://bugs.launchpad.net/mistral/+bug/1619628,2016-10-18
+1617351,1617351,Fix Released,No output in executions listing,https://bugs.launchpad.net/mistral/+bug/1617351,2016-10-18
+1617762,1617762,Fix Released,can't send numbers in std.http header since requests upgrade to 2.11.0,https://bugs.launchpad.net/mistral/+bug/1617762,2016-10-18
+1621644,1621644,Fix Released,index unique_key does not exist,https://bugs.launchpad.net/mistral/+bug/1621644,2016-10-18
+1623414,1623414,Fix Released,Mistral API is not starting,https://bugs.launchpad.net/mistral/+bug/1623414,2016-10-18
+1611202,1611202,Fix Released,README.md incorrect for mesos ubuntu driver,https://bugs.launchpad.net/magnum/+bug/1611202,2016-10-18
+1614198,1614198,Fix Released,magnum/releasenotes/build/html/py-modindex.html not found,https://bugs.launchpad.net/magnum/+bug/1614198,2016-10-18
+1615221,1615221,Fix Released,Restrict magnum service name.,https://bugs.launchpad.net/magnum/+bug/1615221,2016-10-18
+1618827,1618827,Fix Released,"Correction in devstack quickstart guide for ""magnum cluster-list"".",https://bugs.launchpad.net/magnum/+bug/1618827,2016-10-18
+1618817,1618817,Fix Released,[docs] Devstack quickstart guide contain old output from the magnum service-list.,https://bugs.launchpad.net/magnum/+bug/1618817,2016-10-18
+1619225,1619225,Fix Released,Incorrect Arguments passed when raising MagnumServiceNotFound exception.,https://bugs.launchpad.net/magnum/+bug/1619225,2016-10-18
+1613413,1613413,Fix Released,bay show operation is not returning version info,https://bugs.launchpad.net/magnum/+bug/1613413,2016-10-18
+1620161,1620161,Fix Released,Project contains multiple incorrect import statements,https://bugs.launchpad.net/magnum/+bug/1620161,2016-10-18
+1617283,1617283,Fix Released,magnum-api fails in Docker by not finding its config file,https://bugs.launchpad.net/magnum/+bug/1617283,2016-10-18
+1612596,1612596,Fix Released,fix magnum manage templates,https://bugs.launchpad.net/magnum/+bug/1612596,2016-10-18
+1623387,1623387,Fix Released,Cluster create hides error,https://bugs.launchpad.net/magnum/+bug/1623387,2016-10-18

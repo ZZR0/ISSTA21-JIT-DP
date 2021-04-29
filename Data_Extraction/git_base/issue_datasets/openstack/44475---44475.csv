@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1368686,1368686,Fix Released,Catalog compilation fails when $configure_endpoint is set to false,https://bugs.launchpad.net/puppet-glance/+bug/1368686,2016-05-10
+1368686,1368686,Fix Released,Catalog compilation fails when $configure_endpoint is set to false,https://bugs.launchpad.net/puppet-neutron/+bug/1368686,2016-05-10
+1368686,1368686,Fix Released,Catalog compilation fails when $configure_endpoint is set to false,https://bugs.launchpad.net/puppet-nova/+bug/1368686,2016-05-10
+1368686,1368686,Fix Released,Catalog compilation fails when $configure_endpoint is set to false,https://bugs.launchpad.net/puppet-trove/+bug/1368686,2016-05-10
+1445251,1445251,Fix Released,Block configuration not respected by glance and neutron setters.,https://bugs.launchpad.net/puppet-tempest/+bug/1445251,2016-05-10
+1482949,1482949,Fix Released,etc/tempest.conf.sample does not exist anymore,https://bugs.launchpad.net/puppet-tempest/+bug/1482949,2016-05-10
+1484614,1484614,Fix Released,"make ""log_requests"" flag configurable, reduce account/object/container server logs",https://bugs.launchpad.net/puppet-swift/+bug/1484614,2016-05-10
+1523643,1523643,Fix Released,glance & keystone fighting over openstack client,https://bugs.launchpad.net/puppet-keystone/+bug/1523643,2016-05-10
+1523643,1523643,Fix Released,glance & keystone fighting over openstack client,https://bugs.launchpad.net/puppet-openstacklib/+bug/1523643,2016-05-10
+1523643,1523643,Fix Released,glance & keystone fighting over openstack client,https://bugs.launchpad.net/puppet-glance/+bug/1523643,2016-05-10
+1518343,1518343,Fix Released,cinder::backup::swift doesn't contain backup_swift_auth_url,https://bugs.launchpad.net/puppet-cinder/+bug/1518343,2016-05-10
+1500384,1500384,Fix Released,Puppet-cinder uses api-paste for authtoken configuration,https://bugs.launchpad.net/puppet-cinder/+bug/1500384,2016-05-10
+1493336,1493336,Fix Released,Support IBM GPFS driver,https://bugs.launchpad.net/puppet-cinder/+bug/1493336,2016-05-10
+1482590,1482590,Fix Released,[CI down] puppet-cinder lock_path not distro agnostic,https://bugs.launchpad.net/puppet-cinder/+bug/1482590,2016-05-10
+1482590,1482590,Fix Released,[CI down] puppet-cinder lock_path not distro agnostic,https://bugs.launchpad.net/tripleo/+bug/1482590,2016-05-10
+1476378,1476378,Fix Released,kilo cinder ceilometer notification driver should be messagingv2,https://bugs.launchpad.net/puppet-cinder/+bug/1476378,2016-05-10
+1462967,1462967,Fix Released,Exec[vgcreatecinder-volumes /dev/loop2]: Failed to call refresh:vgcreate cinder-volumes /dev/loop2 returned 5,https://bugs.launchpad.net/puppet-cinder/+bug/1462967,2016-05-10
+1423188,1423188,Fix Released,Parameter host doesn't set into vmdk.pp,https://bugs.launchpad.net/puppet-cinder/+bug/1423188,2016-05-10
+1506504,1506504,Fix Released,rspec tests cannot be run under OSX,https://bugs.launchpad.net/puppet-cinder/+bug/1506504,2016-05-10
+1560232,1560232,Fix Released,rdo repositories point at master in stable/mitaka,https://bugs.launchpad.net/kolla/+bug/1560232,2016-05-10
+1565279,1565279,Fix Released,upgrade version pins for mitaka rc3,https://bugs.launchpad.net/kolla/+bug/1565279,2016-05-10
+1576889,1576889,Fix Released,change default ports for servers,https://bugs.launchpad.net/swift/+bug/1576889,2016-05-10
+1513925,1513925,Fix Released,devstack should disable resize tests in tempest if using cells,https://bugs.launchpad.net/devstack/+bug/1513925,2016-05-10
+1513226,1513226,Fix Released,Quotas in admin API is missing api_export_size,https://bugs.launchpad.net/designate/+bug/1513226,2016-05-10
+1543549,1543549,Fix Released,tun_ceph_for_images_and_objects test failed on external ntp list check,https://bugs.launchpad.net/fuel/+bug/1543549,2016-05-10
+1396571,1396571,Fix Released,[System tests] Add upgrade test on deletion node from old cluster,https://bugs.launchpad.net/fuel/+bug/1396571,2016-05-10
+1405783,1405783,Fix Released,[systests] We need to check swift rings health,https://bugs.launchpad.net/fuel/+bug/1405783,2016-05-10
+1575171,1575171,Fix Released,[perestroika] backport patches to stable/8.0 branch,https://bugs.launchpad.net/fuel/+bug/1575171,2016-05-10
+1564819,1564819,Fix Released,Private network is mandatory for DPDK enabled interface,https://bugs.launchpad.net/fuel/+bug/1564819,2016-05-10
+1419044,1419044,Fix Committed,Publish src deb packages for our public Ubuntu repos,https://bugs.launchpad.net/fuel/+bug/1419044,2016-05-10
+1515624,1515624,Fix Released,AvailabilityZoneFilter is not working in manila-scheduler,https://bugs.launchpad.net/manila/+bug/1515624,2016-05-10
+1573037,1573037,Fix Released,New job for idempotency group,https://bugs.launchpad.net/fuel/+bug/1573037,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-heat/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-aodh/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-ceilometer/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-ironic/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-murano/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-tuskar/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-keystone/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-nova/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-barbican/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-neutron/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-sahara/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-gnocchi/+bug/1515273,2016-05-10
+1515273,1515273,Fix Released,Defaults for *::db classes are incorrect,https://bugs.launchpad.net/puppet-manila/+bug/1515273,2016-05-10
+1559224,1559224,Fix Released,[dpdk] nailgun should validate that huge and kvm are enabled when dpdk requested,https://bugs.launchpad.net/fuel/+bug/1559224,2016-05-10
+1580127,1580127,Fix Committed,Move deployment based gate job for fuel-agent into non-voating mode for  10.0,https://bugs.launchpad.net/fuel/+bug/1580127,2016-05-10
+1533680,1533680,Fix Released,"Ceilometer api requests periodically fails with 'Cannot connect to proxy.', error(104, 'Connection reset by peer'",https://bugs.launchpad.net/fuel/+bug/1533680,2016-05-10
+1571716,1571716,Fix Released,admin utility exceptio,https://bugs.launchpad.net/vmware-nsx/+bug/1571716,2016-05-10
+1576095,1576095,Fix Released,Can't create a portgroup provider network with no physical_network attribute set,https://bugs.launchpad.net/vmware-nsx/+bug/1576095,2016-05-10
+1546365,1546365,Fix Released,Implement protection workflow,https://bugs.launchpad.net/karbor/+bug/1546365,2016-05-10
+1437407,1437407,Fix Released,"With using V3 cloud admin policy, domain admin unable to list role assignment for projects in his domain",https://bugs.launchpad.net/python-keystoneclient/+bug/1437407,2016-05-10
+1437407,1437407,Fix Released,"With using V3 cloud admin policy, domain admin unable to list role assignment for projects in his domain",https://bugs.launchpad.net/keystone/+bug/1437407,2016-05-10
+1580034,1580034,Fix Released,"In the example of Request a scoped OS-FEDERATION token, json data is not valid",https://bugs.launchpad.net/keystone/+bug/1580034,2016-05-10
+1561104,1561104,Fix Released,dpkg status database is locked by another process,https://bugs.launchpad.net/fuel/+bug/1561104,2016-05-10
+1578725,1578725,Fix Committed,Cannot activate nailgun tests venv,https://bugs.launchpad.net/fuel/+bug/1578725,2016-05-10
+1552646,1552646,Fix Released,aggregate-details should be aggregate-show to be consistent with all other commands,https://bugs.launchpad.net/python-novaclient/+bug/1552646,2016-05-10
+1574597,1574597,Fix Released,Openstack configuration fail with KeyError: u'memcache_server_port',https://bugs.launchpad.net/fuel/+bug/1574597,2016-05-10
+1574230,1574230,Fix Released,Dragonflow code fails pep8 test: N530: Direct neutron imports not allowed,https://bugs.launchpad.net/dragonflow/+bug/1574230,2016-05-10
+1578555,1578555,Fix Released,[Contrail 4.0] Plugin tests did not pass shellcheck,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1578555,2016-05-10
+1571665,1571665,Fix Released,OFPErrorMsg errors seen in DF controller log,https://bugs.launchpad.net/dragonflow/+bug/1571665,2016-05-10
+1574990,1574990,Fix Released,"nova-cpu can't start, Unable to load the virtualization driver",https://bugs.launchpad.net/ironic/+bug/1574990,2016-05-10
+1569874,1569874,Fix Committed,[vCenter] cinder-volume in down state after deploy,https://bugs.launchpad.net/fuel/+bug/1569874,2016-05-10
+1465558,1465558,Fix Released,typo in description of image in container controller,https://bugs.launchpad.net/magnum/+bug/1465558,2016-05-10
+1567813,1567813,Fix Released,Update vCenter integration tests for 9.0 release,https://bugs.launchpad.net/fuel/+bug/1567813,2016-05-10
+1567815,1567815,Fix Released,Implement tests with verification vmware-related services,https://bugs.launchpad.net/fuel/+bug/1567815,2016-05-10
+1569387,1569387,Fix Committed,[vCenter] Implement test with checking default gw for vmware nodes,https://bugs.launchpad.net/fuel/+bug/1569387,2016-05-10
+1556807,1556807,Fix Released,Performance degradation when multiple subnets added,https://bugs.launchpad.net/dragonflow/+bug/1556807,2016-05-10
+1533609,1533609,Fix Released,Solar is missing CI jobs for testing examples,https://bugs.launchpad.net/solar/+bug/1533609,2016-05-10
+1573912,1573912,Fix Released,dragongflow  devstack redis_driver shell bug,https://bugs.launchpad.net/dragonflow/+bug/1573912,2016-05-10
+1563687,1563687,Fix Released,admin_tenant_name value is missing in ironic.conf,https://bugs.launchpad.net/ironic/+bug/1563687,2016-05-10
+1579616,1579616,Fix Released,section of entry_points:vitrage.transformers in setup.cfg  is not used,https://bugs.launchpad.net/vitrage/+bug/1579616,2016-05-10
+1574431,1574431,Fix Released,Nova is being installed on vagrant OVN_DB node,https://bugs.launchpad.net/devstack/+bug/1574431,2016-05-10
+1576393,1576393,Fix Released,logging not module-level in agent_api.py,https://bugs.launchpad.net/steth/+bug/1576393,2016-05-10
+1553418,1553418,Fix Released,[docs] OpenStack Planning Guide empty section,https://bugs.launchpad.net/fuel/+bug/1553418,2016-05-10

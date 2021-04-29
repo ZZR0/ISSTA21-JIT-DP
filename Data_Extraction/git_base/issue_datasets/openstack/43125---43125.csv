@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1496873,1496873,Fix Released,nova-compute leaves an open file descriptor after failed check for direct IO support,https://bugs.launchpad.net/nova/+bug/1496873,2016-06-02
+1567857,1567857,Fix Released,XenAPI: specify block size for writing config drive.,https://bugs.launchpad.net/nova/+bug/1567857,2016-06-02
+1520633,1520633,Fix Released,Exception in compute log when booting an instance with max_concurrent_builds=0,https://bugs.launchpad.net/nova/+bug/1520633,2016-06-02
+1568292,1568292,Fix Released,broken review priorities link in devref,https://bugs.launchpad.net/nova/+bug/1568292,2016-06-02
+1538054,1538054,Fix Released,attach_interface in nova.compute.manager didn't handle NotImplemented Error,https://bugs.launchpad.net/nova/+bug/1538054,2016-06-02
+1572264,1572264,Fix Released,xenapi xmlrpclib marshalling error,https://bugs.launchpad.net/nova/+bug/1572264,2016-06-02
+1572303,1572303,Fix Released,additionalProperties validation doesn't work on assisted_volume_snapshots API,https://bugs.launchpad.net/nova/+bug/1572303,2016-06-02
+1492716,1492716,Fix Released,Can't do image-create for suspended instance booted from volume,https://bugs.launchpad.net/nova/+bug/1492716,2016-06-02
+1491216,1491216,Fix Released,Inject an ssh key failed when booting a instance by using direct image injection.,https://bugs.launchpad.net/nova/+bug/1491216,2016-06-02
+1545041,1545041,Fix Released,Error 500 on resize when hitting quota,https://bugs.launchpad.net/nova/+bug/1545041,2016-06-02
+1577378,1577378,Fix Released,not set 413 as expected return error for server-metadata,https://bugs.launchpad.net/nova/+bug/1577378,2016-06-02
+1558532,1558532,Fix Released,AntiAffinity policy problems with resize and migrate to same host,https://bugs.launchpad.net/nova/+bug/1558532,2016-06-02
+1490531,1490531,Fix Released,api: deprecate the concept of extensions in v2.1,https://bugs.launchpad.net/nova/+bug/1490531,2016-06-02
+1577758,1577758,Fix Released,fix wrong key name in test code,https://bugs.launchpad.net/nova/+bug/1577758,2016-06-02
+1574558,1574558,Fix Released,UEFI - instance terminates after boot,https://bugs.launchpad.net/nova/+bug/1574558,2016-06-02
+1365230,1365230,Fix Released,Improve ironic driver logging configurability,https://bugs.launchpad.net/nova/+bug/1365230,2016-06-02
+1579124,1579124,Fix Released,Instance mapping doesn't strictly load cell_mapping on save.,https://bugs.launchpad.net/nova/+bug/1579124,2016-06-02
+1483132,1483132,Fix Released,ssh-keygen-to-Paramiko change breaks third-party tools,https://bugs.launchpad.net/nova/+bug/1483132,2016-06-02
+1544744,1544744,Fix Released,Live migration with attached volume results in ERROR state and fails to rollback when cinder client exception is thrown,https://bugs.launchpad.net/nova/+bug/1544744,2016-06-02
+1580536,1580536,Fix Released,Typo in api doc,https://bugs.launchpad.net/nova/+bug/1580536,2016-06-02
+1545972,1545972,Fix Released,Missing API doc for fault server field,https://bugs.launchpad.net/nova/+bug/1545972,2016-06-02
+1580609,1580609,Fix Released,live-migration force complete could leave instance paused in case of failure,https://bugs.launchpad.net/nova/+bug/1580609,2016-06-02
+1580987,1580987,Fix Released,"""Cannot call obj_load_attr on orphaned Instance object"" in baremetal_basic_ops",https://bugs.launchpad.net/nova/+bug/1580987,2016-06-02
+1580467,1580467,Fix Released,instance boot with invalid availability zone raises 500 InternalServerError,https://bugs.launchpad.net/nova/+bug/1580467,2016-06-02
+1581246,1581246,Fix Released,Ironic driver: _cleanup_deploy is called with incorrect parameters,https://bugs.launchpad.net/nova/+bug/1581246,2016-06-02
+1582103,1582103,Fix Released,nova-novncproxy fails to start: NoSuchOptError: no such option in group DEFAULT: verbose,https://bugs.launchpad.net/nova/+bug/1582103,2016-06-02
+1582680,1582680,Fix Released,Ironic: wrong check for ready to deploy,https://bugs.launchpad.net/nova/+bug/1582680,2016-06-02
+1505681,1505681,Fix Released,Hyper-V creates VM memory file on the local disk for each VM,https://bugs.launchpad.net/nova/+bug/1505681,2016-06-02
+1346857,1346857,Fix Released,HyperV driver does not implement Image cache ageing,https://bugs.launchpad.net/nova/+bug/1346857,2016-06-02
+1584737,1584737,Fix Released,Incorrect objects comparison in unit test,https://bugs.launchpad.net/nova/+bug/1584737,2016-06-02
+1577727,1577727,Fix Released,nova flavor-create raises 500 error if large value passed to flavor properties,https://bugs.launchpad.net/nova/+bug/1577727,2016-06-02
+1316928,1316928,Fix Released,VMware driver does not change compute node state to unavailable after disconnecting from vCenter,https://bugs.launchpad.net/nova/+bug/1316928,2016-06-02
+1587014,1587014,Fix Released,Serial ports lost after hard-reboot,https://bugs.launchpad.net/nova/+bug/1587014,2016-06-02
+1565785,1565785,Fix Released,SR-IOV PF passthrough device claiming/allocation does not work for physical functions devices,https://bugs.launchpad.net/nova/+bug/1565785,2016-06-02
+1567549,1567549,Fix Released,SR-IOV VF passthrough does not properly update status of parent PF upon freeing VF,https://bugs.launchpad.net/nova/+bug/1567549,2016-06-02
+1586351,1586351,Fix Released,buildimage tox job is broken,https://bugs.launchpad.net/manila-image-elements/+bug/1586351,2016-06-02
+1524512,1524512,Fix Released,Deprecation warnings do not explicitly name the resource,https://bugs.launchpad.net/heat/+bug/1524512,2016-06-02
+1544949,1544949,Fix Released,Prev raw template and sync points not deleted for ROLLBACK,https://bugs.launchpad.net/heat/+bug/1544949,2016-06-02
+1558514,1558514,Fix Released,Mistral workflow fails at handle_create with empty tasks list,https://bugs.launchpad.net/heat/+bug/1558514,2016-06-02
+1545577,1545577,Fix Released,Transaction error in user_creds_delete,https://bugs.launchpad.net/heat/+bug/1545577,2016-06-02
+1558964,1558964,Fix Released,Converge:  user_creds and trust residue after deleting a stack,https://bugs.launchpad.net/heat/+bug/1558964,2016-06-02
+1558515,1558515,Fix Released,CronTrigger fails on create step with empty workflow map,https://bugs.launchpad.net/heat/+bug/1558515,2016-06-02
+1560284,1560284,Fix Released,"Create BayModel failed in heat with reason InvalidAttribute ""ssh_authorized_key""",https://bugs.launchpad.net/heat/+bug/1560284,2016-06-02
+1522394,1522394,Fix Released,Poor validation of barbican order resource,https://bugs.launchpad.net/heat/+bug/1522394,2016-06-02
+1561810,1561810,Fix Released,gate-grenade-dsvm-heat is broken,https://bugs.launchpad.net/heat/+bug/1561810,2016-06-02
+1490866,1490866,Fix Released,integration tests requirements are not synced with global requirements,https://bugs.launchpad.net/heat/+bug/1490866,2016-06-02
+1488326,1488326,Fix Released,heat-manage script fails on encryption due to invalid data,https://bugs.launchpad.net/heat/+bug/1488326,2016-06-02
+1562283,1562283,Fix Released,Add flavor id and name properties to OS::Nova::Flavor,https://bugs.launchpad.net/heat/+bug/1562283,2016-06-02
+1523519,1523519,Fix Released,Poor barbican secret validation,https://bugs.launchpad.net/heat/+bug/1523519,2016-06-02
+1562901,1562901,Fix Released,Incorrect host aggregate handle_delete,https://bugs.launchpad.net/heat/+bug/1562901,2016-06-02
+1560688,1560688,Fix Released,Replaced resources can be left UPDATE_IN_PROGRESS,https://bugs.launchpad.net/heat/+bug/1560688,2016-06-02
+1509915,1509915,Fix Released,Don't hint explicitly while deleting a config still referenced,https://bugs.launchpad.net/heat/+bug/1509915,2016-06-02
+1559942,1559942,Fix Released,Add volume_driver property in resource OS::Magnum::BayModel,https://bugs.launchpad.net/heat/+bug/1559942,2016-06-02
+1561172,1561172,Fix Released,Overcloud delete never completes,https://bugs.launchpad.net/heat/+bug/1561172,2016-06-02
+1561172,1561172,Fix Released,Overcloud delete never completes,https://bugs.launchpad.net/tripleo/+bug/1561172,2016-06-02
+1559302,1559302,Fix Released,Utility for encrypting parameters and properties fails when data is missing,https://bugs.launchpad.net/heat/+bug/1559302,2016-06-02
+1565742,1565742,Fix Released,update failed if no difference in properties Keystone::User,https://bugs.launchpad.net/heat/+bug/1565742,2016-06-02
+1566830,1566830,Fix Released,No way to get metadata for flavor,https://bugs.launchpad.net/heat/+bug/1566830,2016-06-02
+1561214,1561214,Fix Released,database dying can result in FAILED stacks with IN_PROGRESS resources,https://bugs.launchpad.net/heat/+bug/1561214,2016-06-02
+1571638,1571638,Fix Released,ResourceChain doesn't manage its resources properly in update,https://bugs.launchpad.net/heat/+bug/1571638,2016-06-02
+1572851,1572851,Fix Released,heat-engine restart  occur error,https://bugs.launchpad.net/heat/+bug/1572851,2016-06-02
+1549702,1549702,Fix Released,provider_net does not need physical network required,https://bugs.launchpad.net/heat/+bug/1549702,2016-06-02
+1572294,1572294,Fix Released,"Parameter decryption fails with ""too many values to unpack""",https://bugs.launchpad.net/heat/+bug/1572294,2016-06-02
+1567193,1567193,Fix Released,[Software configuration] miss two parameters,https://bugs.launchpad.net/heat/+bug/1567193,2016-06-02
+1578615,1578615,Fix Released,DBDeadlock error while updating stack in DB,https://bugs.launchpad.net/heat/+bug/1578615,2016-06-02
+1581379,1581379,Fix Released,Mark monasca plugin supported in heat,https://bugs.launchpad.net/heat/+bug/1581379,2016-06-02
+1527071,1527071,Fix Released,Make cinder resources available based on os-api ext,https://bugs.launchpad.net/heat/+bug/1527071,2016-06-02
+1582556,1582556,Fix Released,CI is failing due to invalid property 'timeout',https://bugs.launchpad.net/heat/+bug/1582556,2016-06-02
+1583673,1583673,Fix Released,Convergence: Magnum gate jobs timeout when convergence is on,https://bugs.launchpad.net/heat/+bug/1583673,2016-06-02
+1491186,1491186,Fix Released,convergence: cancel-on-failure does not seem to be working,https://bugs.launchpad.net/heat/+bug/1491186,2016-06-02
+1584724,1584724,Fix Released,Can't set IN_PROGRESS stack to FAILED when engine restart,https://bugs.launchpad.net/heat/+bug/1584724,2016-06-02
+1570983,1570983,Fix Released,raw_template files duplication wastes DB space and memory,https://bugs.launchpad.net/heat/+bug/1570983,2016-06-02
+1585792,1585792,Fix Released,Redundant wording in Scheduler Hints docs,https://bugs.launchpad.net/heat/+bug/1585792,2016-06-02
+1582236,1582236,Fix Released,Race condition in scaling policy signal handling,https://bugs.launchpad.net/heat/+bug/1582236,2016-06-02
+1581283,1581283,Fix Released,some validation of server networks don't works,https://bugs.launchpad.net/heat/+bug/1581283,2016-06-02

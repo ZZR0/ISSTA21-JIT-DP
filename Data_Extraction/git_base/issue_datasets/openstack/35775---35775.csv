@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1618575,1618575,Fix Released,zfssaiscsi driver log messges need cleaned up,https://bugs.launchpad.net/cinder/+bug/1618575,2016-10-18
+1615621,1615621,Fix Released,VNX Cinder driver attach LUN performance issue,https://bugs.launchpad.net/cinder/+bug/1615621,2016-10-18
+1591031,1591031,Fix Released,exceed of dd action when clearing a volume [2/2],https://bugs.launchpad.net/cinder/+bug/1591031,2016-10-18
+1586593,1586593,Fix Released,"""transfer-accept"" doesn't respect quota per_volume_gigabytes",https://bugs.launchpad.net/cinder/+bug/1586593,2016-10-18
+1616133,1616133,Fix Released,EMC VMAX Volume Snapshot failing with volume cannot be found,https://bugs.launchpad.net/cinder/+bug/1616133,2016-10-18
+1567577,1567577,Fix Released,VMAX driver: multi-attach failure to VMAX3 when SLO is NONE,https://bugs.launchpad.net/cinder/+bug/1567577,2016-10-18
+1619584,1619584,Fix Released,HPE 3PAR: Error in log message format using dictionary key,https://bugs.launchpad.net/cinder/+bug/1619584,2016-10-18
+1617272,1617272,Fix Released,fail to disable service when --reason is passed,https://bugs.launchpad.net/cinder/+bug/1617272,2016-10-18
+1617442,1617442,Fix Released,Manage existing volume fails with MissingDependencies,https://bugs.launchpad.net/cinder/+bug/1617442,2016-10-18
+1612361,1612361,Fix Released,Error when you try to manage an already-managed volume,https://bugs.launchpad.net/cinder/+bug/1612361,2016-10-18
+1620613,1620613,Fix Released,CinderUnicodeTest tempest test fails due to not providing volume size,https://bugs.launchpad.net/cinder/+bug/1620613,2016-10-18
+1596679,1596679,Fix Released,NetApp - Backing snapshots may not be deleted,https://bugs.launchpad.net/cinder/+bug/1596679,2016-10-18
+1618784,1618784,Fix Released,VMAX driver should not delete pre-existing IGs,https://bugs.launchpad.net/cinder/+bug/1618784,2016-10-18
+1620969,1620969,Fix Released,state_path not in cinder.conf.sample,https://bugs.launchpad.net/cinder/+bug/1620969,2016-10-18
+1615451,1615451,Fix Released,NetApp cDOT doesn't report replication_enabled as a pool level capability,https://bugs.launchpad.net/cinder/+bug/1615451,2016-10-18
+1480377,1480377,Fix Released,eqlx delete snapshot when snapshot is not present,https://bugs.launchpad.net/cinder/+bug/1480377,2016-10-18
+1620781,1620781,Fix Released,Orphan view and multipath issue in Kaminario driver,https://bugs.launchpad.net/cinder/+bug/1620781,2016-10-18
+1597284,1597284,Fix Released,VMAX driver: Get target wwn fails if a port is down,https://bugs.launchpad.net/cinder/+bug/1597284,2016-10-18
+1587969,1587969,Fix Released,VMAX driver - iSCSI support on controller node,https://bugs.launchpad.net/cinder/+bug/1587969,2016-10-18
+1552426,1552426,Fix Released,VMAX driver: failed rollback on VMAX3 when MV issue,https://bugs.launchpad.net/cinder/+bug/1552426,2016-10-18
+1621836,1621836,Fix Released,Backing up attached volumes doesn't work when a c-vol is in Mitaka version,https://bugs.launchpad.net/cinder/+bug/1621836,2016-10-18
+1621942,1621942,Fix Released,RBD driver: rados_connect_timeout is not working,https://bugs.launchpad.net/cinder/+bug/1621942,2016-10-18
+1602660,1602660,Fix Released,VMware: Backup create fails with 'ValueError: Invalid InitiatorConnector protocol specified VMDK',https://bugs.launchpad.net/cinder/+bug/1602660,2016-10-18
+1614598,1614598,Fix Released,Fail to retype lvm volume to scaleio,https://bugs.launchpad.net/cinder/+bug/1614598,2016-10-18
+1605193,1605193,Fix Released,VMAX - FC - Cleanup of Initiator group fails,https://bugs.launchpad.net/cinder/+bug/1605193,2016-10-18
+1622476,1622476,Fix Released,500 error of cinder group-create,https://bugs.launchpad.net/cinder/+bug/1622476,2016-10-18
+1622253,1622253,Fix Released,ScaleIO doesn't start without specifying sio_max_over_subscription_ratio,https://bugs.launchpad.net/cinder/+bug/1622253,2016-10-18
+1622762,1622762,Fix Released,retype never calls driver method,https://bugs.launchpad.net/cinder/+bug/1622762,2016-10-18
+1623280,1623280,Fix Released,Dell SC driver should not define servers with alerting enabled,https://bugs.launchpad.net/cinder/+bug/1623280,2016-10-18
+1623328,1623328,Fix Released,Use IP instead of volume_backend_name for kaminario locks,https://bugs.launchpad.net/cinder/+bug/1623328,2016-10-18
+1623618,1623618,Fix Released,SolidFire potential clone/snapshot errors in >20K volume environments,https://bugs.launchpad.net/cinder/+bug/1623618,2016-10-18
+1623744,1623744,Fix Released,Block Storage API V2 in Block Storage API Reference is Missing JSON response,https://bugs.launchpad.net/cinder/+bug/1623744,2016-10-18
+1603177,1603177,Fix Released,/v2/​{tenant_id}​/consistencygroups API documentation incorrectly lists request parameters,https://bugs.launchpad.net/cinder/+bug/1603177,2016-10-18
+1620880,1620880,Fix Released,Failed to launch aodh-api in devstack with ENABLE_HTTPD_MOD_WSGI_SERVICES=False,https://bugs.launchpad.net/aodh/+bug/1620880,2016-10-18
+1616760,1616760,Fix Released,AlarmNotifierServer object has no attribute '_title',https://bugs.launchpad.net/aodh/+bug/1616760,2016-10-18
+1634526,1634526,Fix Released,neutron agent compatibility issues with removal of setup_adapter,https://bugs.launchpad.net/networking-powervm/+bug/1634526,2016-10-18
+1605758,1605758,Fix Released,updates to ceilometer_pipeline_yaml_overrides overwrite all items in sources list,https://bugs.launchpad.net/openstack-ansible/+bug/1605758,2016-10-18
+1545988,1545988,Fix Released,Fix idempotency of compute tasks,https://bugs.launchpad.net/fuel/+bug/1545988,2016-10-18
+1515373,1515373,Fix Released,Support multiple subnets/prefix in a neutron router interface,https://bugs.launchpad.net/networking-ovn/+bug/1515373,2016-10-18
+1521933,1521933,Fix Released,Need to build debian package fro python-fuelclient,https://bugs.launchpad.net/fuel/+bug/1521933,2016-10-18
+1632108,1632108,Fix Released,Volume Wiping in Security Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1632108,2016-10-18
+1630721,1630721,Fix Released,[Murano CI] Package 'python-virtualenv' has no installation candidate,https://bugs.launchpad.net/murano/+bug/1630721,2016-10-18
+1633946,1633946,Fix Committed,gate-kuryr-libnetwork-kuryr_lib-src-dsvm-fullstack-nv failed,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1633946,2016-10-18
+1630496,1630496,Fix Released,db inconsistent bug in df controller,https://bugs.launchpad.net/dragonflow/+bug/1630496,2016-10-18
+1632323,1632323,Fix Released,pip install python-etcd failed,https://bugs.launchpad.net/zun/+bug/1632323,2016-10-18
+1619321,1619321,Fix Released,password generatation is only give empty passwords,https://bugs.launchpad.net/kolla-kubernetes/+bug/1619321,2016-10-18
+1621399,1621399,Fix Released,Neutron endpoint are wrong value.,https://bugs.launchpad.net/kolla-kubernetes/+bug/1621399,2016-10-18
+1622841,1622841,Fix Released,Creation part of configmaps does not follow the latest update of naming convention,https://bugs.launchpad.net/kolla-kubernetes/+bug/1622841,2016-10-18
+1624958,1624958,Fix Released,Can't deploy tgtd and iscsid,https://bugs.launchpad.net/kolla-kubernetes/+bug/1624958,2016-10-18
+1630127,1630127,Fix Released,neutron-openvswitch-agent can not bootup,https://bugs.launchpad.net/kolla-kubernetes/+bug/1630127,2016-10-18
+1630601,1630601,Fix Released,literal block in quickstart are messed up,https://bugs.launchpad.net/kolla-kubernetes/+bug/1630601,2016-10-18
+1607636,1607636,Fix Released,typo in project-config ceilometer.yaml,https://bugs.launchpad.net/ceilometer/+bug/1607636,2016-10-17
+1217980,1217980,Fix Released,OVS agent will leave compute host in an unsafe state when rpc_setup() fails,https://bugs.launchpad.net/neutron/+bug/1217980,2016-10-17
+1083155,1083155,Fix Released,Unable to set Content-MD5 header when using chunked transfer encoding,https://bugs.launchpad.net/glance/+bug/1083155,2016-10-17
+1631923,1631923,Fix Released,'ceph_extra_confs' is undefined,https://bugs.launchpad.net/openstack-ansible/+bug/1631923,2016-10-17
+1291396,1291396,Fix Released,No exact match of nodes with flavors,https://bugs.launchpad.net/ironic/+bug/1291396,2016-10-17
+1291396,1291396,Fix Released,No exact match of nodes with flavors,https://bugs.launchpad.net/tripleo/+bug/1291396,2016-10-17
+1291396,1291396,Fix Released,No exact match of nodes with flavors,https://bugs.launchpad.net/nova/+bug/1291396,2016-10-17
+1597913,1597913,Fix Released,relocate model definitions,https://bugs.launchpad.net/neutron/+bug/1597913,2016-10-17
+1394449,1394449,Fix Released,insecure is not supported by ceilometerclient,https://bugs.launchpad.net/python-ceilometerclient/+bug/1394449,2016-10-17
+1600796,1600796,Fix Released,upgrade process is extremely slow,https://bugs.launchpad.net/gnocchi/+bug/1600796,2016-10-17
+1621559,1621559,Fix Released,rsyslog server configuration does not separate remote from local messages,https://bugs.launchpad.net/openstack-ansible/+bug/1621559,2016-10-17
+1621596,1621596,Fix Released,repo_build does not honor pip_install_options,https://bugs.launchpad.net/openstack-ansible/+bug/1621596,2016-10-17
+1625405,1625405,Fix Released,repo_build should honor global_environment_variables,https://bugs.launchpad.net/openstack-ansible/+bug/1625405,2016-10-17
+1622275,1622275,Fix Released,repo_build_wheel_selective: no breaks repo_build,https://bugs.launchpad.net/openstack-ansible/+bug/1622275,2016-10-17
+1621279,1621279,Fix Released,SSH race in lxc_container_create,https://bugs.launchpad.net/openstack-ansible/+bug/1621279,2016-10-17
+1620872,1620872,Fix Released,pip_install should honor pip_install_options,https://bugs.launchpad.net/openstack-ansible/+bug/1620872,2016-10-17
+1615320,1615320,Fix Released,openstack ansible aio losetup put after exit 0 in rc.local file,https://bugs.launchpad.net/openstack-ansible/+bug/1615320,2016-10-17
+1605302,1605302,Fix Released,it's not possible to change cinder or nova ceph client via user_variables for the ceph_client role,https://bugs.launchpad.net/openstack-ansible/+bug/1605302,2016-10-17
+1631916,1631916,Fix Released,[swarm 10.0] test 'bootstrap_multipath' fails on template loading,https://bugs.launchpad.net/fuel/+bug/1631916,2016-10-17
+1552511,1552511,Fix Released,Use OSprofiler options consolidated in lib itself,https://bugs.launchpad.net/openstack-manuals/+bug/1552511,2016-10-17
+1628551,1628551,Fix Released,M/N upgrades - Update the upgrade documentation with any M/N gotchas,https://bugs.launchpad.net/tripleo/+bug/1628551,2016-10-17
+1632242,1632242,Fix Released,[5.0] Can not deploy contrail with Controller + Cinder + Ceph multirole,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1632242,2016-10-17
+1632238,1632238,Fix Released,[5.0] Deployment with bonding has failed.,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1632238,2016-10-17
+1632224,1632224,Fix Released,"[5.0] Contrail status of 'contrail-discovery:0'  is  failed on node 'contrail-analytics, contrail-controller'.",https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1632224,2016-10-17

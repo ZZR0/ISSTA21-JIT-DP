@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1369942,1369942,Fix Released,Ability to use CINDER_ENABLED_BACKENDS is not avaliable in devstack tempest script,https://bugs.launchpad.net/devstack/+bug/1369942,2014-10-23
+1355342,1355342,Fix Released,ubuntu ceph journal parttion GUID isn't always set,https://bugs.launchpad.net/fuel/+bug/1355342,2014-10-23
+1382525,1382525,Fix Released,"Non-fatal error: ""Execution of '/usr/bin/neutron --os-tenant-name services --os-username neutron --os-password fQqxaSyb --os-auth-url http://192.168.0.1:35357/v2.0 net-list' returned 1",https://bugs.launchpad.net/fuel/+bug/1382525,2014-10-23
+1383719,1383719,Fix Released,nodepool_prod.pp class should use absolute path for nodepool_template parameter,https://bugs.launchpad.net/openstack-ci/+bug/1383719,2014-10-23
+1384238,1384238,Fix Committed,JJB: package name does not match and breaks PBR,https://bugs.launchpad.net/openstack-ci/+bug/1384238,2014-10-23
+1292033,1292033,Fix Released,Improve Trove exceptions  message in horizon(python-troveclient),https://bugs.launchpad.net/trove/+bug/1292033,2014-10-22
+1285149,1285149,Fix Released,Missing percona heat template,https://bugs.launchpad.net/trove/+bug/1285149,2014-10-22
+1298707,1298707,Fix Released,trove configuration-update bug,https://bugs.launchpad.net/trove/+bug/1298707,2014-10-22
+1218780,1218780,Fix Released,"Image property ""hw_vif_model"" is not honored again if we do a  VM soft/hard reboot via Nova",https://bugs.launchpad.net/nova/+bug/1218780,2014-10-22
+1383619,1383619,Fix Released,[Cinder] Cookbook lack some insecure-related attribte and glance server url should can be https,https://bugs.launchpad.net/openstack-chef/+bug/1383619,2014-10-22
+1374051,1374051,Fix Released,add last_run_summary into diagnostic snapshot,https://bugs.launchpad.net/fuel/+bug/1374051,2014-10-22
+1382627,1382627,Fix Committed,Duplicate hosts in 'fuel nodes' output,https://bugs.launchpad.net/fuel/+bug/1382627,2014-10-22
+1288715,1288715,Fix Released,OpenStack Installation  sqlite cinder,https://bugs.launchpad.net/openstack-manuals/+bug/1288715,2014-10-22
+1363144,1363144,Fix Released,"Key-value stores in OpenStack Installation Guide for Red Hat Enterprise Linux, CentOS, and Fedora  - icehouse",https://bugs.launchpad.net/openstack-manuals/+bug/1363144,2014-10-22
+1381997,1381997,Fix Committed,tune cobbler and dnsmasq for larger deployments,https://bugs.launchpad.net/fuel/+bug/1381997,2014-10-22
+1338559,1338559,Fix Committed,Puppet coding style,https://bugs.launchpad.net/fuel/+bug/1338559,2014-10-22
+1326021,1326021,Fix Released,Failed to provision cluster with cinder volumes,https://bugs.launchpad.net/sahara/+bug/1326021,2014-10-21
+1304629,1304629,Fix Released,percona package in mysql element gone missing,https://bugs.launchpad.net/tripleo/+bug/1304629,2014-10-21
+1312962,1312962,Fix Released,400 response code when fetching get-pip.py,https://bugs.launchpad.net/tripleo/+bug/1312962,2014-10-21
+1362348,1362348,Fix Committed,elastic-recheck is showing open reviews for e-r patches,https://bugs.launchpad.net/openstack-ci/+bug/1362348,2014-10-21
+1226351,1226351,Fix Released,Make RBD Usable for Ephemeral Storage,https://bugs.launchpad.net/nova/+bug/1226351,2014-10-21
+1381599,1381599,Fix Released,"[Nova] Cookbook lack some insecure-related attribtes, and neutron_url and neutron_admin_auth_url should be prefixed with scheme",https://bugs.launchpad.net/openstack-chef/+bug/1381599,2014-10-21
+1382482,1382482,Fix Released,"ceilometer shouldn't poll neutron info about LBaaS, VPNaaS and FWaaS",https://bugs.launchpad.net/fuel/+bug/1382482,2014-10-21
+1381143,1381143,Fix Released,Can not create volume from qcow2 image,https://bugs.launchpad.net/fuel/+bug/1381143,2014-10-21
+1136069,1136069,Fix Released,Add openstackwatch to jeepyb,https://bugs.launchpad.net/openstack-ci/+bug/1136069,2014-10-21
+1382518,1382518,Fix Released,Logs on UI are destroyed,https://bugs.launchpad.net/fuel/+bug/1382518,2014-10-21
+1336888,1336888,Fix Released,Add configurable http_timeout parameter for Cisco N1K,https://bugs.launchpad.net/openstack-manuals/+bug/1336888,2014-10-21
+1381826,1381826,Fix Released,MongoDB provisioning failed,https://bugs.launchpad.net/fuel/+bug/1381826,2014-10-21
+1291905,1291905,Fix Released,new resources are not available for signalling during an update -> heat stack update timeout,https://bugs.launchpad.net/heat/+bug/1291905,2014-10-21
+1291905,1291905,Fix Released,new resources are not available for signalling during an update -> heat stack update timeout,https://bugs.launchpad.net/tripleo/+bug/1291905,2014-10-21
+1378860,1378860,Fix Released,(/Stage[main]/Horizon/Exec[horizon_compress_styles]) Failed to call refresh: python manage.py compress returned 1 instead of one of [0],https://bugs.launchpad.net/fuel/+bug/1378860,2014-10-21
+1346683,1346683,Fix Released,The short link not working on the Chapter 1 tutorial guide in the Brief  Overview section (error code 404),https://bugs.launchpad.net/openstack-training-guides/+bug/1346683,2014-10-21
+1340682,1340682,Fix Released,The url http://goo.gl/ka4SrV returns 404 error,https://bugs.launchpad.net/openstack-training-guides/+bug/1340682,2014-10-21
+758885,758885,Fix Released,"Scan for except Exception: where we meant except (Exception, Timeout):",https://bugs.launchpad.net/swift/+bug/758885,2014-10-21
+1381757,1381757,Fix Committed,MOS/Fuel masternode high load during 99 nodes cluster provisioning/deployment,https://bugs.launchpad.net/fuel/+bug/1381757,2014-10-21
+1297920,1297920,Fix Released,Completely disabled availability zone cause horizon to trace at availability zones list,https://bugs.launchpad.net/horizon/+bug/1297920,2014-10-21
+1294381,1294381,Fix Committed,pypi-mirror does not pickup all necessary python packages,https://bugs.launchpad.net/openstack-ci/+bug/1294381,2014-10-20
+1383273,1383273,Fix Released,Empty functions in Cisco plugin cause stack.sh to fail,https://bugs.launchpad.net/devstack/+bug/1383273,2014-10-20
+1365136,1365136,Fix Released,oslo config generator does not handle a random python hash seed,https://bugs.launchpad.net/tempest/+bug/1365136,2014-10-20
+1358345,1358345,Fix Released,Need to increase vm_slave_memory_mb in config.sh for VBox,https://bugs.launchpad.net/fuel/+bug/1358345,2014-10-20
+1381218,1381218,Fix Committed,[library] Ceph-deploy OSD prepare fails on HP Smart Array CCISS drives,https://bugs.launchpad.net/fuel/+bug/1381218,2014-10-20
+1376307,1376307,Fix Released,nova compute is crashing with the error TypeError: unsupported operand type(s) for /: 'NoneType' and 'int',https://bugs.launchpad.net/nova/+bug/1376307,2014-10-20
+1378786,1378786,Fix Released,Update rpc version aliases for juno,https://bugs.launchpad.net/nova/+bug/1378786,2014-10-20
+1376492,1376492,Fix Released,Minesweeper failure: tempest.api.compute.servers.test_server_actions.ServerActionsTestJSON.test_resize_server_revert,https://bugs.launchpad.net/nova/+bug/1376492,2014-10-20
+1376945,1376945,Fix Released,os-networks extension displays cidr incorrectly,https://bugs.launchpad.net/nova/+bug/1376945,2014-10-20
+1376368,1376368,Fix Released,nova.crypto.revoke_cert always raises ProjectNotFound,https://bugs.launchpad.net/nova/+bug/1376368,2014-10-20
+1377447,1377447,Fix Released,pci_request_id break the upgrade from icehouse to Juno,https://bugs.launchpad.net/nova/+bug/1377447,2014-10-20
+1370265,1370265,Fix Released,Crash on describing EC2 volume backed image with multiple devices,https://bugs.launchpad.net/nova/+bug/1370265,2014-10-20
+1383337,1383337,Fix Committed,[fuel-library] ceilometer rake spec failure,https://bugs.launchpad.net/fuel/+bug/1383337,2014-10-20
+1306665,1306665,Fix Released,Problem with creation stack from new user and tenant,https://bugs.launchpad.net/heat/+bug/1306665,2014-10-20
+1381343,1381343,Fix Released,[ops-messaging]Configuring rabbitmq default password with clear test is insecure,https://bugs.launchpad.net/openstack-chef/+bug/1381343,2014-10-20
+1358142,1358142,Fix Released,[cookbook]Should provide attributes for keystone-paste.ini,https://bugs.launchpad.net/openstack-chef/+bug/1358142,2014-10-20
+1273355,1273355,Fix Released,Grizzly-havana upgrade fails when migrating from stamped db,https://bugs.launchpad.net/neutron/+bug/1273355,2014-10-20
+1373974,1373974,Fix Released,Remove XML samples from v2.1 Compute API API Reference,https://bugs.launchpad.net/openstack-api-site/+bug/1373974,2014-10-20
+1379679,1379679,Fix Released,[juno] glance_store package is outdated,https://bugs.launchpad.net/fuel/+bug/1379679,2014-10-20
+1379256,1379256,Fix Released,"Issue with job definition, ""syntax error near unexpected token `{{'""",https://bugs.launchpad.net/openstack-ci/+bug/1379256,2014-10-20
+1352715,1352715,Fix Released,syslinux.cfg Permission denied error,https://bugs.launchpad.net/diskimage-builder/+bug/1352715,2014-10-20
+1294417,1294417,Fix Released,resize2fs crash in set_flexbg_block_bitmap on boot,https://bugs.launchpad.net/diskimage-builder/+bug/1294417,2014-10-20
+1375824,1375824,Fix Committed,Rabbit OCF: we should idempotently block / unblock,https://bugs.launchpad.net/fuel/+bug/1375824,2014-10-20
+1383191,1383191,Fix Released,test_verify_multiple_nics_order create two networks but not remove it after testcase end,https://bugs.launchpad.net/tempest/+bug/1383191,2014-10-20
+1352401,1352401,Fix Released,"For vCenter: need to lock ""CinderLVM"" and check by default ""VMware vCenter""",https://bugs.launchpad.net/fuel/+bug/1352401,2014-10-20
+1382962,1382962,Fix Released,typo in Operations guide Network Troubleshooting,https://bugs.launchpad.net/openstack-manuals/+bug/1382962,2014-10-20
+1382031,1382031,Fix Committed,UniCodeError in Heat software config hooks in case of special characters,https://bugs.launchpad.net/heat-templates/+bug/1382031,2014-10-19
+1379472,1379472,Fix Released,Improper handling of aliases,https://bugs.launchpad.net/python-manilaclient/+bug/1379472,2014-10-19
+1371739,1371739,Fix Released,Building of docs produces errors,https://bugs.launchpad.net/manila/+bug/1371739,2014-10-19
+1379935,1379935,Fix Released,building of docs produces warnings (cont),https://bugs.launchpad.net/manila/+bug/1379935,2014-10-19
+1379378,1379378,Fix Released,Share dictionary in api response is uninformative.,https://bugs.launchpad.net/manila/+bug/1379378,2014-10-19
+1378687,1378687,Fix Released,Description of share network in share server dictionary is not enough.,https://bugs.launchpad.net/manila/+bug/1378687,2014-10-19
+1377160,1377160,Fix Committed,"Remove ""fuelweb"" from repo paths",https://bugs.launchpad.net/fuel/+bug/1377160,2014-10-18
+1254911,1254911,Fix Released,UniversalLanguageSelector breaks wiki skin,https://bugs.launchpad.net/openstack-ci/+bug/1254911,2014-10-17
+1378471,1378471,Fix Released,No response documented for Show resource metadata API,https://bugs.launchpad.net/heat/+bug/1378471,2014-10-17
+1378471,1378471,Fix Released,No response documented for Show resource metadata API,https://bugs.launchpad.net/openstack-api-site/+bug/1378471,2014-10-17
+1365946,1365946,Fix Released,[juno] muranoclient missed dependency,https://bugs.launchpad.net/fuel/+bug/1365946,2014-10-17
+1377941,1377941,Fix Released,Exceptions get muted in Try-Finally,https://bugs.launchpad.net/murano/+bug/1377941,2014-10-17
+1379028,1379028,Fix Released,Remove font-awesome resources from muranodashboard/static,https://bugs.launchpad.net/murano/+bug/1379028,2014-10-17

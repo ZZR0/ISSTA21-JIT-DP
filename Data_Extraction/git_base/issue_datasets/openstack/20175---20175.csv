@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1690113,1690113,Fix Released,The synergy.log doesn't contain the messages logged by specific sub-modules,https://bugs.launchpad.net/synergy-service/+bug/1690113,2017-08-10
+1690126,1690126,Fix Released,Sometimes the SchedulerManager doesn't receive the compute.instance.delete.end notifications,https://bugs.launchpad.net/synergy-scheduler-manager/+bug/1690126,2017-08-10
+1690123,1690123,Fix Released,Partition Director requires configuring Synergy through RESTful API,https://bugs.launchpad.net/synergy-scheduler-manager/+bug/1690123,2017-08-10
+1691352,1691352,Fix Released,Missing security support,https://bugs.launchpad.net/synergy-scheduler-manager/+bug/1691352,2017-08-10
+1691352,1691352,Fix Released,Missing security support,https://bugs.launchpad.net/synergy-service/+bug/1691352,2017-08-10
+1690117,1690117,Fix Released,manager.notify() doesn't handle the NotImplementedError exceptions,https://bugs.launchpad.net/synergy-service/+bug/1690117,2017-08-10
+1705427,1705427,Fix Released,webhook channel is invalid,https://bugs.launchpad.net/senlin/+bug/1705427,2017-08-10
+1655182,1655182,Fix Released,keystone-manage mapping_engine tester problems,https://bugs.launchpad.net/keystone/+bug/1655182,2017-08-10
+1707149,1707149,Fix Released,Bare Metal Deployment Guide for kolla-kubernetes in kolla-kubernetes,https://bugs.launchpad.net/kolla-kubernetes/+bug/1707149,2017-08-10
+1680702,1680702,Fix Released,function always returns None,https://bugs.launchpad.net/meteos/+bug/1680702,2017-08-10
+1709743,1709743,Fix Released,networking-opencontrail gives a traceback with latest neutron code,https://bugs.launchpad.net/networking-opencontrail/+bug/1709743,2017-08-10
+1680825,1680825,Fix Released,Use openstackclient for nova security group manipulation,https://bugs.launchpad.net/puppet-nova/+bug/1680825,2017-08-10
+1571259,1571259,Fix Released,nova_security_group and nova_security_rule are not idempotent,https://bugs.launchpad.net/puppet-nova/+bug/1571259,2017-08-10
+1693701,1693701,Fix Released,Allow user to see which access rule is recent created or recent updated,https://bugs.launchpad.net/python-manilaclient/+bug/1693701,2017-08-10
+1588860,1588860,Fix Released,keystone-manage bootstrap cannot recover admin account,https://bugs.launchpad.net/keystone/+bug/1588860,2017-08-09
+1579604,1579604,Fix Released,project delete returns 501 NotImplemented with templated catalog,https://bugs.launchpad.net/keystone/+bug/1579604,2017-08-09
+1621626,1621626,Fix Released,Unauthenticated requests return information,https://bugs.launchpad.net/keystone/+bug/1621626,2017-08-09
+1587777,1587777,Fix Released,Mitaka: dashboard performance,https://bugs.launchpad.net/keystone/+bug/1587777,2017-08-09
+1661242,1661242,Fix Released,undercloud upgrade fails: novaclient.exceptions.Unauthorized,https://bugs.launchpad.net/tripleo/+bug/1661242,2017-08-09
+1661412,1661412,Fix Released,"NetworkDeployment is executed even if NetworkDeploymentActions is set to [""CREATE""] only",https://bugs.launchpad.net/tripleo/+bug/1661412,2017-08-09
+1663458,1663458,Fix Released,brutal stop of ovs-agent doesn't kill ryu controller,https://bugs.launchpad.net/neutron/+bug/1663458,2017-08-09
+1663458,1663458,Fix Released,brutal stop of ovs-agent doesn't kill ryu controller,https://bugs.launchpad.net/tripleo/+bug/1663458,2017-08-09
+1657753,1657753,Fix Released,Cinder fails to start after N->O upgrade due to selinux,https://bugs.launchpad.net/tripleo/+bug/1657753,2017-08-09
+1660930,1660930,Fix Released,NetApp deploy fails unless ManilaNetAppTraceFlags value is supplied,https://bugs.launchpad.net/tripleo/+bug/1660930,2017-08-09
+1661227,1661227,Fix Released,Failed openstack-zaqar service after undercloud upgrade,https://bugs.launchpad.net/tripleo/+bug/1661227,2017-08-09
+1651719,1651719,Fix Released,Introspection fails on nodes with the same IPMI address but different IPMI ports,https://bugs.launchpad.net/tripleo/+bug/1651719,2017-08-09
+1651719,1651719,Fix Released,Introspection fails on nodes with the same IPMI address but different IPMI ports,https://bugs.launchpad.net/ironic-inspector/+bug/1651719,2017-08-09
+1651842,1651842,Fix Released,Compute Placement API Upgrade Considerations,https://bugs.launchpad.net/tripleo/+bug/1651842,2017-08-09
+1656389,1656389,Fix Released,Error: Could not set 'present' on ensure: No such file or directory - /etc/heat/heat.conf at 72:/etc/puppet/modules/heat/manifests/keystone/domain.pp,https://bugs.launchpad.net/tripleo/+bug/1656389,2017-08-09
+1632822,1632822,Fix Released,Must have a role named Controller running memcached when using custom roles due to hardcoded ControllerIpListMap,https://bugs.launchpad.net/tripleo/+bug/1632822,2017-08-09
+1635269,1635269,Fix Released,Overcloud deploy failing to due BadStatusLine exception when uploading tarball to swift,https://bugs.launchpad.net/tripleo/+bug/1635269,2017-08-09
+1524916,1524916,Fix Released,neutron-ns-metadata-proxy uses ~25MB/router in production,https://bugs.launchpad.net/tripleo/+bug/1524916,2017-08-09
+1524916,1524916,Fix Released,neutron-ns-metadata-proxy uses ~25MB/router in production,https://bugs.launchpad.net/neutron/+bug/1524916,2017-08-09
+1707486,1707486,Fix Released,Floating IP is not associated if created while port is not bound,https://bugs.launchpad.net/dragonflow/+bug/1707486,2017-08-09
+1708589,1708589,Fix Released,nova service not start when instance not exists,https://bugs.launchpad.net/nova-lxd/+bug/1708589,2017-08-09
+1696834,1696834,Fix Released,"Intermittent ""KeyError: 'allocations'"" in functional tests",https://bugs.launchpad.net/nova/+bug/1696834,2017-08-09
+1687563,1687563,Fix Committed,test case mismatch for cinder in refstack and tempest,https://bugs.launchpad.net/refstack/+bug/1687563,2017-08-09
+1709320,1709320,Fix Released,Typo in bash substitution in openstack-ansible-tests,https://bugs.launchpad.net/openstack-ansible/+bug/1709320,2017-08-09
+1528197,1528197,Fix Released,Failed test verify-fuel-library-bats-tests,https://bugs.launchpad.net/fuel/+bug/1528197,2017-08-09
+1673917,1673917,Fix Released,ConfigFileValueError: Value for option host is not valid: localhost is not IPv4 or IPv6 address,https://bugs.launchpad.net/networking-bagpipe/+bug/1673917,2017-08-09
+1687058,1687058,Fix Released,bagpipe-bgp: support oslo-config-generator,https://bugs.launchpad.net/networking-bagpipe/+bug/1687058,2017-08-09
+1657361,1657361,Fix Released,failed in py34 unit test,https://bugs.launchpad.net/vitrage/+bug/1657361,2017-08-09
+1622633,1622633,Fix Released,Release notes must be maintained,https://bugs.launchpad.net/vitrage/+bug/1622633,2017-08-09
+1707154,1707154,Fix Released,py27: commands failed,https://bugs.launchpad.net/dragonflow/+bug/1707154,2017-08-09
+1676941,1676941,Fix Released,Hyper-V instance fails to receive an IP on rebuild,https://bugs.launchpad.net/networking-hyperv/+bug/1676941,2017-08-09
+1694432,1694432,Fix Released,Exception when trying to create the neutron port SG rules,https://bugs.launchpad.net/networking-hyperv/+bug/1694432,2017-08-09
+1709085,1709085,Fix Released,Project should use networking_hyperv namespace,https://bugs.launchpad.net/networking-hyperv/+bug/1709085,2017-08-09
+1701440,1701440,Fix Released,run bashate on gate,https://bugs.launchpad.net/networking-midonet/+bug/1701440,2017-08-09
+1708662,1708662,Fix Released,event trigger execution error,https://bugs.launchpad.net/mistral/+bug/1708662,2017-08-09
+1680176,1680176,Fix Committed,[MOS 10] Version mismatch,https://bugs.launchpad.net/fuel/+bug/1680176,2017-08-09
+1554857,1554857,Fix Released,Sample Swift tests don't have SLA defined,https://bugs.launchpad.net/rally/+bug/1554857,2017-08-09
+1672763,1672763,Fix Committed,Remove Heat dependency,https://bugs.launchpad.net/karbor/+bug/1672763,2017-08-09
+1569305,1569305,Fix Committed,Operation Log REST API,https://bugs.launchpad.net/karbor/+bug/1569305,2017-08-09
+1672773,1672773,Fix Committed,docs: write Karbor Deployment guide,https://bugs.launchpad.net/karbor/+bug/1672773,2017-08-09
+1705141,1705141,Fix Released,"select_destinations results in ""TypeError: 'NoneType' object is not iterable"" if get_allocation_candidates fails to connect to Placement",https://bugs.launchpad.net/nova/+bug/1705141,2017-08-09
+1652708,1652708,Fix Released,db migration version should be able to be specified in the CLI,https://bugs.launchpad.net/tricircle/+bug/1652708,2017-08-09
+1284373,1284373,Fix Released,SLO manifest with unauthorized segments functest fails without initial proxy-logging in pipeline,https://bugs.launchpad.net/swift/+bug/1284373,2017-08-09
+1672670,1672670,Fix Released,Unit tests fail with current os-brick master,https://bugs.launchpad.net/nova/+bug/1672670,2017-08-08
+1709169,1709169,Fix Released,buildlogs.centos.org DDOS,https://bugs.launchpad.net/tripleo/+bug/1709169,2017-08-08
+1709265,1709265,Fix Released,remove-unused-functions-in-mogan,https://bugs.launchpad.net/mogan/+bug/1709265,2017-08-08
+1676238,1676238,Fix Released,Revise Storage architecture in Architecture Design Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1676238,2017-08-08
+1707662,1707662,Fix Released,Incorrect permissions on qdrouterd.saslb,https://bugs.launchpad.net/puppet-qdr/+bug/1707662,2017-08-08
+1707821,1707821,Fix Released,"devstack gate now runs etcd3, conflicts with etcd in plugin",https://bugs.launchpad.net/networking-vpp/+bug/1707821,2017-08-08
+1708652,1708652,Fix Released,"Nova, instances_path as a variable",https://bugs.launchpad.net/openstack-ansible/+bug/1708652,2017-08-07
+1556975,1556975,Fix Released,Various roles fail on download of remote venv checksum when accessed through a proxy,https://bugs.launchpad.net/openstack-ansible/+bug/1556975,2017-08-07
+1523962,1523962,Fix Released,documentation doesn't need to mention differences due to releases,https://bugs.launchpad.net/ironic/+bug/1523962,2017-08-07
+1502136,1502136,Fix Released,Everything returns 403 if show_multiple_locations is true and  get_image_location policy is set,https://bugs.launchpad.net/glance/+bug/1502136,2017-08-07
+1707644,1707644,Fix Released,"""--limit"" CLI param is ignored when running ""mistral action-execution-list --limit 2""",https://bugs.launchpad.net/python-mistralclient/+bug/1707644,2017-08-07
+1664255,1664255,Fix Released,"Admin can't override default ""distributed"" flags",https://bugs.launchpad.net/python-openstackclient/+bug/1664255,2017-08-07
+1703768,1703768,Fix Released,multiple host instance launch is failing,https://bugs.launchpad.net/nova-dpm/+bug/1703768,2017-08-07
+1701200,1701200,Fix Released,make grenade jobs voting,https://bugs.launchpad.net/networking-midonet/+bug/1701200,2017-08-07
+1611232,1611232,Fix Released,Re-implement   'update_trigger_property'  of TimeTrigger,https://bugs.launchpad.net/karbor/+bug/1611232,2017-08-07
+1637435,1637435,Fix Released,image creation script doesn't work on centos,https://bugs.launchpad.net/octavia/+bug/1637435,2017-08-06
+1628481,1628481,Fix Released,[RFE] Create an experimental multinode job,https://bugs.launchpad.net/octavia/+bug/1628481,2017-08-06
+1614311,1614311,Fix Released,AmphoraPostVIPPlug sometimes fails resulting in 409 result which leads to failover failure,https://bugs.launchpad.net/octavia/+bug/1614311,2017-08-06

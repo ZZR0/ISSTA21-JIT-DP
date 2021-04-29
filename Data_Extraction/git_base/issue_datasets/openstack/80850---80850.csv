@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1276575,1276575,Fix Released,some filter's info is missing in source/devref/filter_scheduler.rst,https://bugs.launchpad.net/nova/+bug/1276575,2014-04-17
+1275352,1275352,Fix Released,test_migration_utils runs sqlite tests even if no sqlite configured,https://bugs.launchpad.net/nova/+bug/1275352,2014-04-17
+1274294,1274294,Fix Released,vmware section of nova.conf describes host_ip as url but is not,https://bugs.launchpad.net/nova/+bug/1274294,2014-04-17
+1270811,1270811,Fix Released,Wrong option is used in test_availability.py,https://bugs.launchpad.net/nova/+bug/1270811,2014-04-17
+1260575,1260575,Fix Released,security group quota usage is wrong when the security group is deleted by admin,https://bugs.launchpad.net/nova/+bug/1260575,2014-04-17
+1234604,1234604,Fix Released,xenapi: migration error - original exception not logged,https://bugs.launchpad.net/nova/+bug/1234604,2014-04-17
+1296818,1296818,Fix Released,vm_mode not updated during rebuild,https://bugs.launchpad.net/nova/+bug/1296818,2014-04-17
+1296593,1296593,Fix Released,Compute manager _poll_live_migration 'instance_ref' argument should be renamed to 'instance',https://bugs.launchpad.net/nova/+bug/1296593,2014-04-17
+1296502,1296502,Fix Released,Needs passing the right project/user id to rollback methods in conductor.manager,https://bugs.launchpad.net/nova/+bug/1296502,2014-04-17
+1294774,1294774,Fix Released,Remove nova.conf.sample from the tree replace with README.nova.conf,https://bugs.launchpad.net/nova/+bug/1294774,2014-04-17
+1293750,1293750,Fix Released,Cells: AttributeError: 'dict' object has no attribute 'disable_terminate',https://bugs.launchpad.net/nova/+bug/1293750,2014-04-17
+1291238,1291238,Fix Released,VMware: VC drivers reports deprectaion message for ESX driver,https://bugs.launchpad.net/nova/+bug/1291238,2014-04-17
+1290036,1290036,Fix Released,Test refresh_instance_security_rules in nova.tests.virt.test_virt_drivers,https://bugs.launchpad.net/nova/+bug/1290036,2014-04-17
+1288926,1288926,Fix Released,incorrect error code when rebooting a rebooting_hard guest,https://bugs.launchpad.net/nova/+bug/1288926,2014-04-17
+1281973,1281973,Fix Released,Compute manager ignores image_meta from api when booting an instance,https://bugs.launchpad.net/nova/+bug/1281973,2014-04-17
+1272195,1272195,Fix Released,Previous ip show twice after 'interface-attach',https://bugs.launchpad.net/nova/+bug/1272195,2014-04-17
+1262461,1262461,Fix Released,resize auto-confirmation failed with nova-conductor because of db access in nova-compute,https://bugs.launchpad.net/nova/+bug/1262461,2014-04-17
+1260891,1260891,Fix Released,network_model tests mix IP() and FixedIP,https://bugs.launchpad.net/nova/+bug/1260891,2014-04-17
+1240922,1240922,Fix Released,VM don't resume after detaching volume,https://bugs.launchpad.net/nova/+bug/1240922,2014-04-17
+1226370,1226370,Fix Released,service record did not updated on time after restart,https://bugs.launchpad.net/nova/+bug/1226370,2014-04-17
+1224469,1224469,Fix Released,if volume size is None for image bdms nova compute throws an exception,https://bugs.launchpad.net/nova/+bug/1224469,2014-04-17
+1296913,1296913,Fix Released,GroupAntiAffinityFilter scheduler hint no longer works,https://bugs.launchpad.net/nova/+bug/1296913,2014-04-17
+1296874,1296874,Fix Released,VMware: InvalidDiskFormat when booting from volume,https://bugs.launchpad.net/nova/+bug/1296874,2014-04-17
+1296808,1296808,Fix Released,Devstack. Fail to boot an instance if more than 1 network is defined,https://bugs.launchpad.net/nova/+bug/1296808,2014-04-17
+1295625,1295625,Fix Released,Oslo messaging port broke graceful shutdown of services in Nova,https://bugs.launchpad.net/nova/+bug/1295625,2014-04-17
+1294102,1294102,Fix Released,VMware: get_object_properties may not return any objects,https://bugs.launchpad.net/nova/+bug/1294102,2014-04-17
+1294069,1294069,Fix Released,XenAPI: Boot from volume without image_ref broken,https://bugs.launchpad.net/devstack/+bug/1294069,2014-04-17
+1294069,1294069,Fix Released,XenAPI: Boot from volume without image_ref broken,https://bugs.launchpad.net/nova/+bug/1294069,2014-04-17
+1293641,1293641,Fix Released,Libvirt's close callback causes deadlocks,https://bugs.launchpad.net/nova/+bug/1293641,2014-04-17
+1293435,1293435,Fix Released,VMware: rescue with image that is not linked clone leaves rescue vmdk in the instance folder,https://bugs.launchpad.net/nova/+bug/1293435,2014-04-17
+1292963,1292963,Fix Released,postgres incompatibility in InstanceGroup.get_hosts(),https://bugs.launchpad.net/nova/+bug/1292963,2014-04-17
+1292633,1292633,Fix Released,VMware: Unable to boot from ISO when a 0 GB root disk size is specified,https://bugs.launchpad.net/nova/+bug/1292633,2014-04-17
+1292583,1292583,Fix Released,"VMware: nova nodes crash on 503 errors, control of vSphere infrastructure completely lost",https://bugs.launchpad.net/nova/+bug/1292583,2014-04-17
+1292185,1292185,Fix Released,Cells: metadata update calls don't get to the virt driver,https://bugs.launchpad.net/nova/+bug/1292185,2014-04-17
+1292181,1292181,Fix Released,Cells: compute.instance.exists notification prior to rebuild has incorrect OS information,https://bugs.launchpad.net/nova/+bug/1292181,2014-04-17
+1291515,1291515,Fix Released,Recent Change to default state_path can silently  break existing systems,https://bugs.launchpad.net/nova/+bug/1291515,2014-04-17
+1291014,1291014,Fix Released,Nova boot fails: AttributeError: is_public,https://bugs.launchpad.net/nova/+bug/1291014,2014-04-17
+1290326,1290326,Fix Released,Input validation broken for os-server-groups create method,https://bugs.launchpad.net/nova/+bug/1290326,2014-04-17
+1290302,1290302,Fix Released,Booting from volume fails when the device_name is not specified,https://bugs.launchpad.net/nova/+bug/1290302,2014-04-17
+1289361,1289361,Fix Released,xenapi: unable to create instances with ephemeral disks,https://bugs.launchpad.net/nova/+bug/1289361,2014-04-17
+1287945,1287945,Fix Released,Instance doesn't have a task state,https://bugs.launchpad.net/nova/+bug/1287945,2014-04-17
+1287884,1287884,Fix Released,VMware: VimException __str__ attempts to concatenate string to list,https://bugs.launchpad.net/nova/+bug/1287884,2014-04-17
+1284733,1284733,Fix Released,metadata injected at nova boot does not arrive in /meta.js,https://bugs.launchpad.net/nova/+bug/1284733,2014-04-17
+1274129,1274129,Fix Released,host-update --maintenance enable regression for vmware VCDriver,https://bugs.launchpad.net/nova/+bug/1274129,2014-04-17
+1273556,1273556,Fix Released,Servers sometimes fail to startup in the gate with a permission denied,https://bugs.launchpad.net/nova/+bug/1273556,2014-04-17
+1271047,1271047,Fix Released,V2 API floating_ips addFloatingIP does not catch InstanceNotFound exception,https://bugs.launchpad.net/nova/+bug/1271047,2014-04-17
+1270804,1270804,Fix Released,V2 API virtual interfaces does not catch InstanceNotFound exceptions,https://bugs.launchpad.net/nova/+bug/1270804,2014-04-17
+1270803,1270803,Fix Released,V2 API deferred_delete does not catch InstanceNotFound exceptions,https://bugs.launchpad.net/nova/+bug/1270803,2014-04-17
+1258620,1258620,Fix Released,Make network_cache more robust with neutron,https://bugs.launchpad.net/nova/+bug/1258620,2014-04-17
+1258275,1258275,Fix Released,Migration record for resize not cleared if exception is thrown during the resize,https://bugs.launchpad.net/nova/+bug/1258275,2014-04-17
+1255355,1255355,Fix Released,VMware: Instances stuck in spawning when insufficient disk space,https://bugs.launchpad.net/nova/+bug/1255355,2014-04-17
+1254128,1254128,Fix Released,VMware: NoneType object has no attribute 'state',https://bugs.launchpad.net/nova/+bug/1254128,2014-04-17
+1252967,1252967,Fix Released,VMware: delete vm snapshot after nova snapshot,https://bugs.launchpad.net/nova/+bug/1252967,2014-04-17
+1230047,1230047,Fix Released,"VMware: spawning large amounts of VMs concurrently sometimes causes ""VMDK lock"" error",https://bugs.launchpad.net/nova/+bug/1230047,2014-04-17
+1221190,1221190,Fix Released,[0SSA 2014-009] Image format not enforced when using rescue (CVE-2014-0134),https://bugs.launchpad.net/ossa/+bug/1221190,2014-04-17
+1221190,1221190,Fix Released,[0SSA 2014-009] Image format not enforced when using rescue (CVE-2014-0134),https://bugs.launchpad.net/nova/+bug/1221190,2014-04-17
+1220459,1220459,Fix Released,VMware Driver reports incorrect disk usage,https://bugs.launchpad.net/nova/+bug/1220459,2014-04-17
+1212790,1212790,Fix Released,VMware driver: unused cached images never clear from datastore's cache folder (usually named vmware_base),https://bugs.launchpad.net/nova/+bug/1212790,2014-04-17
+1195947,1195947,Fix Released,VM re-scheduler mechanism will cause BDM-volumes conflict,https://bugs.launchpad.net/nova/+bug/1195947,2014-04-17
+1270088,1270088,Fix Released,disk/api.py: resize2fs needs tests + better log,https://bugs.launchpad.net/nova/+bug/1270088,2014-04-17
+1270076,1270076,Fix Released,Exception isn't handled in virt/libvirt/driver.py,https://bugs.launchpad.net/nova/+bug/1270076,2014-04-17
+1269997,1269997,Fix Released,Needs verification for *_ workers value,https://bugs.launchpad.net/nova/+bug/1269997,2014-04-17
+1267664,1267664,Fix Released,docker driver exposes public methods outside of driver interface - should be private,https://bugs.launchpad.net/nova/+bug/1267664,2014-04-17
+1267382,1267382,Fix Released,ec2 api shoud check the 'max_count' and 'min_count' para in run_instances,https://bugs.launchpad.net/nova/+bug/1267382,2014-04-17
+1267300,1267300,Fix Released,type() method should be replaced with isinstance() in nova/utils.py,https://bugs.launchpad.net/nova/+bug/1267300,2014-04-17
+1266635,1266635,Fix Released,nova boot hangs with --user-data file larger than about 800 bytes,https://bugs.launchpad.net/nova/+bug/1266635,2014-04-17
+1266634,1266634,Fix Released,unnecessary parameter is found in quota-classes request body,https://bugs.launchpad.net/nova/+bug/1266634,2014-04-17
+1266623,1266623,Fix Released,nova/doc/README.rst missing remark about oslo.sphinx,https://bugs.launchpad.net/nova/+bug/1266623,2014-04-17
+1266379,1266379,Fix Released,InstanceInvalidState exception not caught in server start/stop,https://bugs.launchpad.net/nova/+bug/1266379,2014-04-17
+1266344,1266344,Fix Released,duplicate __init__() in ExtensionResource,https://bugs.launchpad.net/nova/+bug/1266344,2014-04-17
+1266051,1266051,Fix Released,Attach/detach volume iSCSI multipath doesn't work properly if there are different targets associated with different portals for a mulitpath device.,https://bugs.launchpad.net/nova/+bug/1266051,2014-04-17
+1263204,1263204,Fix Released,Exceptions that get returned via REST api should have more user friendly messages,https://bugs.launchpad.net/nova/+bug/1263204,2014-04-17
+1261978,1261978,Fix Released,Default machine type for libvirt does not work with ARM,https://bugs.launchpad.net/nova/+bug/1261978,2014-04-17
+1261842,1261842,Fix Released,Hacking checks should prevent virt drivers accessing each other's code,https://bugs.launchpad.net/nova/+bug/1261842,2014-04-17
+1259267,1259267,Fix Released,Nova Docker: Metadata service doesn't work,https://bugs.launchpad.net/nova/+bug/1259267,2014-04-17

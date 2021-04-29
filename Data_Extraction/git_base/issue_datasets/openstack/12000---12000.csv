@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1773132,1773132,Fix Released,masakari-engine runs recovery twice for one notification when disconnection with rabbitmq,https://bugs.launchpad.net/masakari/+bug/1773132,2018-07-26
+1781871,1781871,Fix Released,"RDO cloud jobs failing with SSH Error: data could not be sent to remote host \""38.145.32.100\"". Make sure this host can be reached over ssh",https://bugs.launchpad.net/tripleo/+bug/1781871,2018-07-26
+1676369,1676369,Fix Released,quickstart: Required an ansible lint rule which ensures we use pipefail with pipes in shell module,https://bugs.launchpad.net/tripleo/+bug/1676369,2018-07-26
+1677275,1677275,Fix Released,quickstart: support initramfs images in modify-image role,https://bugs.launchpad.net/tripleo/+bug/1677275,2018-07-26
+1777399,1777399,Fix Released,unit test fails after ./stack.sh,https://bugs.launchpad.net/blazar/+bug/1777399,2018-07-26
+1747560,1747560,Fix Released,Only one event per 10 seconds,https://bugs.launchpad.net/blazar/+bug/1747560,2018-07-26
+1779660,1779660,Fix Released,`os_admin_project_domain_name` in configuration is not reflected,https://bugs.launchpad.net/blazar/+bug/1779660,2018-07-26
+1709639,1709639,Fix Released,Creating extra capabilities with keys longer than 64 characters triggers an Internal Server Error,https://bugs.launchpad.net/blazar/+bug/1709639,2018-07-26
+1780946,1780946,Fix Released,"Unit test ""test_get_host_details_without_az"" sometimes fails.",https://bugs.launchpad.net/blazar/+bug/1780946,2018-07-26
+1780738,1780738,Fix Released,nova client version 2.53 doesn't work.,https://bugs.launchpad.net/blazar/+bug/1780738,2018-07-26
+1764321,1764321,Fix Released,Random failures in py35 unittest test_properties_file_codec,https://bugs.launchpad.net/trove/+bug/1764321,2018-07-26
+1771990,1771990,Fix Released,Mysql/MariaDB restore failed with percona-xtrabackup 2.4.11,https://bugs.launchpad.net/trove/+bug/1771990,2018-07-26
+1777440,1777440,Fix Released,py3 - TypeError: install() got an unexpected keyword argument 'unicode',https://bugs.launchpad.net/trove/+bug/1777440,2018-07-26
+1767373,1767373,Fix Released,undercloud does not expose adding additional insecure-registries for docker,https://bugs.launchpad.net/tripleo/+bug/1767373,2018-07-26
+1762803,1762803,Fix Committed,pycodestyle >= 2.4.0 errors on previously ignored issues,https://bugs.launchpad.net/python-openstackclient/+bug/1762803,2018-07-26
+1778500,1778500,Fix Released,python-tripleoclient should allow to upload individual images,https://bugs.launchpad.net/tripleo/+bug/1778500,2018-07-26
+1782131,1782131,Fix Released,watcher decission engine fails to start after last osc-lib release,https://bugs.launchpad.net/watcher/+bug/1782131,2018-07-26
+1742992,1742992,Fix Released,nimble: remove unsupported from release notes,https://bugs.launchpad.net/cinder/+bug/1742992,2018-07-25
+1782752,1782752,Fix Released,[tripleo-ha-utils] domain parameter is hard-coded inside Instance HA task,https://bugs.launchpad.net/tripleo/+bug/1782752,2018-07-25
+1758042,1758042,Fix Released,Nexus: Remove deprecated ncclient driver and associated cfg,https://bugs.launchpad.net/networking-cisco/+bug/1758042,2018-07-25
+1779713,1779713,Fix Released,"The Root Execution ID is missing from ""mistral execution-get""",https://bugs.launchpad.net/mistral/+bug/1779713,2018-07-25
+1782076,1782076,Fix Released,"OS_TARGET_CACERT or --os-target_cacert both not work, still report CERTIFICATE_VERIFY_FAILED",https://bugs.launchpad.net/mistral/+bug/1782076,2018-07-25
+1783310,1783310,Fix Released,Tripleo periodic jobs fail because /etc/nodepool/id_rsa permission denied,https://bugs.launchpad.net/tripleo/+bug/1783310,2018-07-25
+1744913,1744913,Fix Released,shouldn't use the same router id in the CI,https://bugs.launchpad.net/kolla-ansible/+bug/1744913,2018-07-25
+1778085,1778085,Fix Released,Horizon health check fails when developer panels enabled,https://bugs.launchpad.net/openstack-ansible/+bug/1778085,2018-07-25
+1657742,1657742,Fix Released,Add default roles used by Barbican,https://bugs.launchpad.net/openstack-ansible/+bug/1657742,2018-07-25
+1657742,1657742,Fix Released,Add default roles used by Barbican,https://bugs.launchpad.net/kolla-ansible/+bug/1657742,2018-07-25
+1783465,1783465,Fix Released,Change tacker CLI to OpenStackClient CLI in documentation,https://bugs.launchpad.net/tacker/+bug/1783465,2018-07-25
+1783194,1783194,Fix Released,share_net typo broke scenario tests,https://bugs.launchpad.net/manila/+bug/1783194,2018-07-25
+1783334,1783334,Fix Released,access list metadata tests are running in stable branches,https://bugs.launchpad.net/manila/+bug/1783334,2018-07-24
+1737647,1737647,Fix Released,"Security Group with a UDP rule of port 100, denies traffic sent thru port 100",https://bugs.launchpad.net/networking-vpp/+bug/1737647,2018-07-24
+1754528,1754528,Fix Released,VPP seems to be allowing packets to an active session even after an ACL policy update,https://bugs.launchpad.net/networking-vpp/+bug/1754528,2018-07-24
+1778718,1778718,Fix Released,Fix upper-constraints networkx version to 2.1,https://bugs.launchpad.net/openstack-requirements/+bug/1778718,2018-07-24
+1775190,1775190,Fix Released,Add CI coverage for openshift deployment,https://bugs.launchpad.net/tripleo/+bug/1775190,2018-07-24
+1766195,1766195,Fix Released,Error installing fluent-plugin-kubernetes_metadata_filter at pike,https://bugs.launchpad.net/tripleo/+bug/1766195,2018-07-24
+1710058,1710058,Fix Released,ceph osd is using a transient journal path,https://bugs.launchpad.net/kolla/+bug/1710058,2018-07-24
+1772442,1772442,Fix Released,MariaDB bootstrap container exited with non-zero return code 1,https://bugs.launchpad.net/kolla/+bug/1772442,2018-07-24
+1773938,1773938,Fix Released,Kolla-toolbox fails to build due to new release of cmd2,https://bugs.launchpad.net/kolla-ansible/+bug/1773938,2018-07-24
+1773938,1773938,Fix Released,Kolla-toolbox fails to build due to new release of cmd2,https://bugs.launchpad.net/kolla/+bug/1773938,2018-07-24
+1771717,1771717,Fix Released,failed to install python packages on system level  when building kolla toolbox image,https://bugs.launchpad.net/kolla/+bug/1771717,2018-07-24
+1745957,1745957,Fix Released,designate: bind server refuse notify from worker,https://bugs.launchpad.net/kolla-ansible/+bug/1745957,2018-07-24
+1758855,1758855,Fix Released,horizon requires run db migrate during upgrade,https://bugs.launchpad.net/kolla-ansible/+bug/1758855,2018-07-24
+1758850,1758850,Fix Released,Designate: handler for neutron have wrong conf,https://bugs.launchpad.net/kolla-ansible/+bug/1758850,2018-07-24
+1738418,1738418,Fix Released,Ironic inspector public endpoint has internal URL,https://bugs.launchpad.net/kolla-ansible/+bug/1738418,2018-07-24
+1725258,1725258,Fix Released,iscsid does not start on computes and storage nodes for non-lvm backends,https://bugs.launchpad.net/kolla-ansible/+bug/1725258,2018-07-24
+1759922,1759922,Fix Released,Missing common_options when checking keystone containers,https://bugs.launchpad.net/kolla-ansible/+bug/1759922,2018-07-24
+1747586,1747586,Fix Released,The problem on the latest version of docker ipc_mode comparison,https://bugs.launchpad.net/kolla-ansible/+bug/1747586,2018-07-24
+1730651,1730651,Fix Released,kibana role post_config assumes vip is accessible from deploy node,https://bugs.launchpad.net/kolla-ansible/+bug/1730651,2018-07-24
+1751690,1751690,Fix Released,warning when reload the docker,https://bugs.launchpad.net/kolla-ansible/+bug/1751690,2018-07-24
+1558658,1558658,Fix Released,[OSSA-2016-009] Security Groups do not prevent MAC and/or IPv4 spoofing in DHCP requests (CVE-2016-5362 and CVE-2016-5363),https://bugs.launchpad.net/ossa/+bug/1558658,2018-07-24
+1558658,1558658,Fix Released,[OSSA-2016-009] Security Groups do not prevent MAC and/or IPv4 spoofing in DHCP requests (CVE-2016-5362 and CVE-2016-5363),https://bugs.launchpad.net/neutron/+bug/1558658,2018-07-24
+1716329,1716329,Fix Released,[RFE] HPE ilo OOB RAID configuration,https://bugs.launchpad.net/proliantutils/+bug/1716329,2018-07-24
+1783156,1783156,Fix Released,"Tripleo common package/dependencies should be updated to fix ""Exception: write_default_ansible_cfg() got an unexpected keyword argument 'transport'""",https://bugs.launchpad.net/tripleo/+bug/1783156,2018-07-24
+1782718,1782718,Fix Released,Tacker logs not generating,https://bugs.launchpad.net/tacker/+bug/1782718,2018-07-24
+1783098,1783098,Fix Released,Qos binding network causes ovs-agent to send a lot of rpc,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1783098,2018-07-24
+1750865,1750865,Fix Released,Unable to display VNFFGD template,https://bugs.launchpad.net/python-tackerclient/+bug/1750865,2018-07-24
+1780214,1780214,Fix Committed,Tackerclient failed to handle yaml load error.,https://bugs.launchpad.net/tacker/+bug/1780214,2018-07-24
+1747401,1747401,Fix Released,Skydive need to use internal endpoint for join keystone like other service. (analyser),https://bugs.launchpad.net/kolla-ansible/+bug/1747401,2018-07-24
+1756221,1756221,Fix Released,error while evaluating conditional,https://bugs.launchpad.net/kolla-ansible/+bug/1756221,2018-07-24
+1757385,1757385,Fix Released,bootstrap_panko failes due to invalid database connection string when using mysql,https://bugs.launchpad.net/kolla-ansible/+bug/1757385,2018-07-24
+1759629,1759629,Fix Released,wrong designate producer image used in deploy,https://bugs.launchpad.net/kolla-ansible/+bug/1759629,2018-07-24
+1752128,1752128,Fix Released,recover_mariadb fails,https://bugs.launchpad.net/kolla-ansible/+bug/1752128,2018-07-24
+1759568,1759568,Fix Released,Panko fails to create database,https://bugs.launchpad.net/kolla-ansible/+bug/1759568,2018-07-24
+1769651,1769651,Fix Released,destroy not removing network endpoints,https://bugs.launchpad.net/kolla-ansible/+bug/1769651,2018-07-24
+1769686,1769686,Fix Released,neutron_openvswitch_agent: ignoring computes_need_external_bridge,https://bugs.launchpad.net/kolla-ansible/+bug/1769686,2018-07-24
+1770060,1770060,Fix Released,[haproxy] Enable global optimization options,https://bugs.launchpad.net/kolla-ansible/+bug/1770060,2018-07-24
+1695102,1695102,Fix Released,Deploy fails when fernet is enabled and deploy network is not api network,https://bugs.launchpad.net/kolla-ansible/+bug/1695102,2018-07-24
+1772482,1772482,Fix Released,Elasticsearch containers not starting in debian/ubuntu,https://bugs.launchpad.net/kolla-ansible/+bug/1772482,2018-07-24
+1765517,1765517,Fix Released,etcd compare_container skip the environment,https://bugs.launchpad.net/kolla-ansible/+bug/1765517,2018-07-24
+1755416,1755416,Fix Released,post jobs failed on periodic pipeline,https://bugs.launchpad.net/kolla/+bug/1755416,2018-07-24
+1769850,1769850,Fix Released,Kolla not buildable for Debian:stretch-backports,https://bugs.launchpad.net/kolla/+bug/1769850,2018-07-24
+1767750,1767750,Fix Released,the ipmitoo in missing in ceilometer-impi image,https://bugs.launchpad.net/kolla/+bug/1767750,2018-07-24
+1783238,1783238,Fix Released,OpenStack installation failed in XenServer pool,https://bugs.launchpad.net/os-xenapi/+bug/1783238,2018-07-24
+1678143,1678143,Fix Released,ironic-base contains unnecessary sudoers entries,https://bugs.launchpad.net/kolla/+bug/1678143,2018-07-24
+1699014,1699014,Fix Released,Barbican - ValueError: Fernet key must be 32 url-safe base64-encoded bytes,https://bugs.launchpad.net/kolla-ansible/+bug/1699014,2018-07-24

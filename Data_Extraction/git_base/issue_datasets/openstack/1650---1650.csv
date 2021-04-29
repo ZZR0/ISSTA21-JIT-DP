@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1888404,1888404,Fix Released,Unexpected templating type error occurred while generating Generate ReaR config file during standalone deploy,https://bugs.launchpad.net/tripleo/+bug/1888404,2020-07-23
+1777047,1777047,Fix Released,Test that create or delete user in an LDAP backed user source have to be blacklisted,https://bugs.launchpad.net/tempest/+bug/1777047,2020-07-23
+1840061,1840061,Fix Released,Vault functional tests failing in gate,https://bugs.launchpad.net/castellan/+bug/1840061,2020-07-23
+1888488,1888488,Fix Released,centos-8 ussuri scenario 0 upgrade Callback Exception controller upgrade run,https://bugs.launchpad.net/tripleo/+bug/1888488,2020-07-23
+1855708,1855708,Fix Released,Reload tests broken in Py3,https://bugs.launchpad.net/glance/+bug/1855708,2020-07-23
+1887811,1887811,Fix Released,--stack-only not more working on Master tripleoclient,https://bugs.launchpad.net/tripleo/+bug/1887811,2020-07-23
+1782329,1782329,Fix Released,KeyError: 'storage.zfs_pool_name',https://bugs.launchpad.net/nova-lxd/+bug/1782329,2020-07-23
+1747720,1747720,Fix Committed,Booting with config drive fails rootwrap,https://bugs.launchpad.net/nova-lxd/+bug/1747720,2020-07-23
+1657339,1657339,Fix Committed,debug logs are not enough,https://bugs.launchpad.net/nova-lxd/+bug/1657339,2020-07-23
+1815325,1815325,Fix Committed,nova-lxd fails to boot with TypeError: 'filter' object is not subscriptable,https://bugs.launchpad.net/nova-lxd/+bug/1815325,2020-07-23
+1776205,1776205,Fix Committed,os-vif: 'create_ovs_vif_port' is no longer available - replace with os-vif module,https://bugs.launchpad.net/nova-lxd/+bug/1776205,2020-07-23
+1756900,1756900,Fix Committed,nova-lxd breaks when lxd is deployed on a zfs filesystem containing the '/' character,https://bugs.launchpad.net/nova-lxd/+bug/1756900,2020-07-23
+1757371,1757371,Fix Committed,_get_zpool_info() may fail if locale is not english,https://bugs.launchpad.net/nova-lxd/+bug/1757371,2020-07-23
+1790956,1790956,Fix Committed,syntax error in manager.py ping_ip_address,https://bugs.launchpad.net/nova-lxd/+bug/1790956,2020-07-23
+1884246,1884246,Fix Released,openstack overcloud export expecting different directory structure for --config-download-dir,https://bugs.launchpad.net/tripleo/+bug/1884246,2020-07-23
+1526315,1526315,Fix Released,[RFE] Allow active node creation,https://bugs.launchpad.net/ironic/+bug/1526315,2020-07-23
+1888569,1888569,Fix Released,SSH doesn't allow non-root connections before full boot,https://bugs.launchpad.net/manila-image-elements/+bug/1888569,2020-07-22
+1884922,1884922,Fix Released,Using RABBITMQ_SERVER_ERL_ARGS to override parameters is wrong,https://bugs.launchpad.net/tripleo/+bug/1884922,2020-07-22
+1855751,1855751,Fix Released,Create a new interface for overlays and network types,https://bugs.launchpad.net/networking-vpp/+bug/1855751,2020-07-22
+1877651,1877651,Fix Released,Reclaim of tombstone rows is unbounded and causes LockTimeout (10s),https://bugs.launchpad.net/swift/+bug/1877651,2020-07-22
+1879303,1879303,Fix Released,Unexpected update in setup script for functional test,https://bugs.launchpad.net/tacker/+bug/1879303,2020-07-22
+1193146,1193146,Fix Released,libvirt hypervisor version checks are insufficient,https://bugs.launchpad.net/nova/+bug/1193146,2020-07-22
+1886634,1886634,Fix Released,LCM-instantiate fails with single VNFD,https://bugs.launchpad.net/tacker/+bug/1886634,2020-07-22
+1884734,1884734,Fix Released,OVN deployment issues with high CPU load and disconnects,https://bugs.launchpad.net/kolla-ansible/+bug/1884734,2020-07-22
+1741667,1741667,Fix Released,live snapshot of a paused instance hangs,https://bugs.launchpad.net/nova/+bug/1741667,2020-07-22
+1886203,1886203,Fix Released,Host entries for large scale deployments report YAQL memory error,https://bugs.launchpad.net/tripleo/+bug/1886203,2020-07-22
+1887963,1887963,Fix Released,centos8 fs30 multinode job fails for stable/train with Destination directory /etc/docker does not exist,https://bugs.launchpad.net/tripleo/+bug/1887963,2020-07-22
+1803919,1803919,Fix Released,[L2] dataplane down during ovs-agent restart,https://bugs.launchpad.net/neutron/+bug/1803919,2020-07-22
+1840443,1840443,Fix Released,[OVS agent] Physical bridges can't be initialized if there is no connectivity to rabbitmq,https://bugs.launchpad.net/neutron/+bug/1840443,2020-07-22
+1888387,1888387,Fix Released,mol-promoter: broken on Ensure docker manifest command is enabled by default,https://bugs.launchpad.net/tripleo/+bug/1888387,2020-07-22
+1883098,1883098,Fix Released,nova online migrations should run on nova-conductor,https://bugs.launchpad.net/tripleo/+bug/1883098,2020-07-22
+1886418,1886418,Fix Released,Enabled compute service still have COMPUTE_STATUS_DISABLED trait and therefore ignored by the scheduler,https://bugs.launchpad.net/nova/+bug/1886418,2020-07-22
+1876646,1876646,Fix Released,Running enable-ssh-admin.sh for pre-provisoned nodes will loop forever if workflow fails,https://bugs.launchpad.net/tripleo/+bug/1876646,2020-07-22
+1885602,1885602,Fix Released,"Octavia component: failing tempest, Details: {'faultcode': 'Client', 'faultstring': 'Policy does not allow this request to be performed.',",https://bugs.launchpad.net/tripleo/+bug/1885602,2020-07-22
+1887856,1887856,Fix Released,"centos-8 master tripleo component tests are failing with ""ModuleNotFoundError: No module named 'blazarclient'""",https://bugs.launchpad.net/tripleo/+bug/1887856,2020-07-22
+1885293,1885293,Fix Released,RBD: No such file or directory error on disconnect,https://bugs.launchpad.net/cinderlib/+bug/1885293,2020-07-21
+1886042,1886042,Fix Released,Kaminario ignoring unique_fqdn_network config option,https://bugs.launchpad.net/cinder/+bug/1886042,2020-07-21
+1834695,1834695,Fix Released,3PAR: Attach fails on systems with duplicate host names,https://bugs.launchpad.net/cinder/+bug/1834695,2020-07-21
+1828386,1828386,Fix Released,ceph mirror mirroring -- Retype replicatione_enable to disable failed,https://bugs.launchpad.net/cinder/+bug/1828386,2020-07-21
+1887702,1887702,Fix Released,scale down of nodes is failing if all nodes are unreachable,https://bugs.launchpad.net/tripleo/+bug/1887702,2020-07-21
+1317133,1317133,Fix Released,test_container_synchronization does not work,https://bugs.launchpad.net/tempest/+bug/1317133,2020-07-21
+1886663,1886663,Fix Released,ironic rootwrap filters are not installed in /etc,https://bugs.launchpad.net/kolla/+bug/1886663,2020-07-21
+1822229,1822229,Fix Released,Dell SC terminates volume connection wrongly when instances with the multi-attach volume are on same host.,https://bugs.launchpad.net/cinder/+bug/1822229,2020-07-21
+1886837,1886837,Fix Released,centos8 master undercloud upgrade failing - yum instead of dnf,https://bugs.launchpad.net/tripleo/+bug/1886837,2020-07-21
+1802918,1802918,Fix Released,Missing step Ceilometer configuration for controller,https://bugs.launchpad.net/ceilometer/+bug/1802918,2020-07-21
+1888180,1888180,Fix Released,"DellEMC powermax/vnx manila driver: "" TypeError: _wrap_socket() argument 1 must be _socket.socket, not GreenSSLSocket""",https://bugs.launchpad.net/manila/+bug/1888180,2020-07-21
+1888216,1888216,Fix Released,"Remove useless "":z"" flag for a nova_libvirt mount",https://bugs.launchpad.net/tripleo/+bug/1888216,2020-07-21
+1852106,1852106,Fix Released,Possible data loss from createImage action,https://bugs.launchpad.net/nova/+bug/1852106,2020-07-21
+1844652,1844652,Fix Released,test_gateway_chassis_with_bridge_mappings is incomplete,https://bugs.launchpad.net/networking-ovn/+bug/1844652,2020-07-21
+1843485,1843485,Fix Released,logical port for gw on router getting lost when subnet is added,https://bugs.launchpad.net/networking-ovn/+bug/1843485,2020-07-21
+1875681,1875681,Fix Released,scenario012-standalone.yaml failed to create vms for ironic to introspect,https://bugs.launchpad.net/tripleo/+bug/1875681,2020-07-21
+1885721,1885721,Fix Released,Deployment task getting run when using --tags with a differnt value than the task,https://bugs.launchpad.net/tripleo/+bug/1885721,2020-07-21
+1824504,1824504,Fix Released,arp responder will be created for a vlan port when port ip changed,https://bugs.launchpad.net/neutron/+bug/1824504,2020-07-20
+1762734,1762734,Fix Released,external ceph: keyring name is hardcoded (nova),https://bugs.launchpad.net/kolla-ansible/+bug/1762734,2020-07-20
+1662324,1662324,Fix Released,linux bridge agent disables ipv6 before adding an ipv6 address,https://bugs.launchpad.net/neutron/+bug/1662324,2020-07-20
+1837635,1837635,Fix Released,"HA router state change from ""standby"" to ""master"" should be delayed",https://bugs.launchpad.net/neutron/+bug/1837635,2020-07-20
+1887992,1887992,Fix Committed,[neutron-tempest-plugin] glance service failing during the installation,https://bugs.launchpad.net/neutron/+bug/1887992,2020-07-20
+1885885,1885885,Fix Released,Fluentd 1.0 file chunk size default has increased and can exceed Monasca Log API limit,https://bugs.launchpad.net/kolla-ansible/+bug/1885885,2020-07-20
+1886002,1886002,Fix Released,fluentd mariadb input filter error,https://bugs.launchpad.net/kolla-ansible/+bug/1886002,2020-07-20
+1886166,1886166,Fix Released,Configuration generation for dedicated Manila service hosts gives errors about non-existent directory for openvswitch configuration,https://bugs.launchpad.net/kolla-ansible/+bug/1886166,2020-07-20
+1886711,1886711,Fix Released,Gnocchi bootstrap fails when using ceph backend,https://bugs.launchpad.net/kolla-ansible/+bug/1886711,2020-07-20
+1880220,1880220,Fix Released,Unfriendly error message if trying to operate on invalid passwords.yml,https://bugs.launchpad.net/kolla-ansible/+bug/1880220,2020-07-20
+1873715,1873715,Fix Released,cyborg agent failed to start privsep daemon,https://bugs.launchpad.net/kolla-ansible/+bug/1873715,2020-07-20
+1873717,1873717,Fix Released,cyborg conductor failed to communicate with placement,https://bugs.launchpad.net/kolla-ansible/+bug/1873717,2020-07-20
+1872540,1872540,Fix Released,"HAProxy rules for Horizon emit warnings when using ""split"" HAProxy config template",https://bugs.launchpad.net/kolla-ansible/+bug/1872540,2020-07-20
+1874028,1874028,Fix Released,cyborg api failed to deploy because failed to find api-paste.ini file,https://bugs.launchpad.net/kolla-ansible/+bug/1874028,2020-07-20
+1875588,1875588,Fix Released,ironic direct deploy configuring glance with object storage as backend doesn't work,https://bugs.launchpad.net/kolla-ansible/+bug/1875588,2020-07-20
+1875786,1875786,Fix Released,rabbitmq openstack user tags is removed during nova-cell role,https://bugs.launchpad.net/kolla-ansible/+bug/1875786,2020-07-20
+1876985,1876985,Fix Released,CloudKitty configuration uses deleted options,https://bugs.launchpad.net/kolla-ansible/+bug/1876985,2020-07-20
+1881890,1881890,Fix Released,Task Enable grafana datasources fail after reconfigure,https://bugs.launchpad.net/kolla-ansible/+bug/1881890,2020-07-20
+1884137,1884137,Fix Released,etcd protocol incorrectly configured with internal TLS enabled,https://bugs.launchpad.net/kolla-ansible/+bug/1884137,2020-07-20
+1885732,1885732,Fix Released,elasticsearch curator's cron job does not run,https://bugs.launchpad.net/kolla-ansible/+bug/1885732,2020-07-20
+1886170,1886170,Fix Released,Applying custom Nova policy makes nova-conductor fail,https://bugs.launchpad.net/kolla-ansible/+bug/1886170,2020-07-20
+1856021,1856021,Fix Released,can't set fernet_token_expiry to 3600,https://bugs.launchpad.net/kolla-ansible/+bug/1856021,2020-07-20
+1860161,1860161,Fix Released,kolla-ansible genconfig performs host configuration,https://bugs.launchpad.net/kolla-ansible/+bug/1860161,2020-07-20

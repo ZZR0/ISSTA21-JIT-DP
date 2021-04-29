@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1663562,1663562,Fix Released,"task bifrost-ironic-install : Ensure guest user is removed from rabbitmq fails with ""AttributeError: 'AnsibleModule' object has no attribute 'warn'""",https://bugs.launchpad.net/bifrost/+bug/1663562,2017-02-16
+1662770,1662770,Fix Released,Unable to install bifrost,https://bugs.launchpad.net/bifrost/+bug/1662770,2017-02-16
+1647342,1647342,Fix Released,UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128),https://bugs.launchpad.net/monasca/+bug/1647342,2017-02-16
+1649174,1649174,Fix Released,Replace deprecated identity options,https://bugs.launchpad.net/monasca/+bug/1649174,2017-02-16
+1613997,1613997,Fix Released,can not list metric for other tenant,https://bugs.launchpad.net/monasca/+bug/1613997,2017-02-16
+1656122,1656122,Fix Released,Influxdb statistics returns duplicated timestamps when more than one function is given,https://bugs.launchpad.net/monasca/+bug/1656122,2017-02-16
+1657512,1657512,Fix Released,List metric names with dimensions does not work with Vertica,https://bugs.launchpad.net/monasca/+bug/1657512,2017-02-16
+1659071,1659071,Fix Released,"""Permission Denied"" when bring up devstack locally",https://bugs.launchpad.net/monasca/+bug/1659071,2017-02-16
+1642808,1642808,Fix Released,Cannot create regular file for grafana with devstack install,https://bugs.launchpad.net/monasca/+bug/1642808,2017-02-16
+1616431,1616431,Fix Released,Fix URLs for images to speed up jobs,https://bugs.launchpad.net/tripleo-quickstart/+bug/1616431,2017-02-16
+1621230,1621230,Fix Released,missing release files for 3rd party gates and others,https://bugs.launchpad.net/tripleo-quickstart/+bug/1621230,2017-02-16
+1604520,1604520,Fix Released,replace the native quickstart overcloud validation w/  github.com/redhat-openstack/ansible-role-tripleo-overcloud-validate,https://bugs.launchpad.net/tripleo-quickstart/+bug/1604520,2017-02-16
+1604518,1604518,Fix Released,Remove the tripleo-quickstart overcloud role and replace it w/  github.com/redhat-openstack/ansible-role-tripleo-overcloud,https://bugs.launchpad.net/tripleo-quickstart/+bug/1604518,2017-02-16
+1621405,1621405,Fix Released,The linters gate job passes on any input and does not check the roles,https://bugs.launchpad.net/tripleo-quickstart/+bug/1621405,2017-02-16
+1624413,1624413,Fix Released,Tempest tests are not run even when test_tempest: true,https://bugs.launchpad.net/tripleo-quickstart/+bug/1624413,2017-02-16
+1609464,1609464,Fix Released,UnicodeDecode error with custom LANG values,https://bugs.launchpad.net/tripleo-quickstart/+bug/1609464,2017-02-16
+1628936,1628936,Fix Released,OSP10 can not install in virtual undercloud without SSSE3,https://bugs.launchpad.net/tripleo-quickstart/+bug/1628936,2017-02-16
+1630705,1630705,Fix Released,native libvirt role determines flavor by role rather than flavor,https://bugs.launchpad.net/tripleo-quickstart/+bug/1630705,2017-02-16
+1649272,1649272,Fix Released,Undercloud ssh check timeout might be too short,https://bugs.launchpad.net/tripleo-quickstart/+bug/1649272,2017-02-16
+1655757,1655757,Fix Released,gate-quickstart role failing depends-on 'UnboundLocalError: local variable 'remote_head' referenced before assignment',https://bugs.launchpad.net/tripleo-quickstart/+bug/1655757,2017-02-16
+1657232,1657232,Fix Released,tq libvirt role fails to mark ooo_pool autostart,https://bugs.launchpad.net/tripleo-quickstart/+bug/1657232,2017-02-16
+1650653,1650653,Fix Released,Stack user can't be deleted,https://bugs.launchpad.net/tripleo-quickstart/+bug/1650653,2017-02-16
+1661032,1661032,Fix Released,tripleo container ci is failing on package openstack-tripleo-doc,https://bugs.launchpad.net/tripleo-quickstart/+bug/1661032,2017-02-16
+1654183,1654183,Fix Released,Token based authentication in Client class does not work,https://bugs.launchpad.net/python-novaclient/+bug/1654183,2017-02-16
+1654183,1654183,Fix Released,Token based authentication in Client class does not work,https://bugs.launchpad.net/trove/+bug/1654183,2017-02-16
+1654183,1654183,Fix Released,Token based authentication in Client class does not work,https://bugs.launchpad.net/tripleo-quickstart/+bug/1654183,2017-02-16
+1654183,1654183,Fix Released,Token based authentication in Client class does not work,https://bugs.launchpad.net/tripleo/+bug/1654183,2017-02-16
+1662929,1662929,Fix Released,OOOQ deployments using the minimal_pacemaker config fail to generate docs,https://bugs.launchpad.net/tripleo-quickstart/+bug/1662929,2017-02-16
+1659493,1659493,Fix Released,IRONIC_AGENT_MULTIPATH_DRIVERS is undefined during IPA image build,https://bugs.launchpad.net/tripleo/+bug/1659493,2017-02-16
+1661206,1661206,Fix Released,CLI gate job 'buildimage-overcloud-full' failing on delorean.repo,https://bugs.launchpad.net/tripleo/+bug/1661206,2017-02-16
+1648351,1648351,Fix Released,"Tripleo-Heat-Template, example for NeutronSriovNumVFs causes parsing error",https://bugs.launchpad.net/tripleo/+bug/1648351,2017-02-16
+1641882,1641882,Fix Released,Implement Horizon disallow_iframe_embed,https://bugs.launchpad.net/tripleo/+bug/1641882,2017-02-16
+1650307,1650307,Fix Released,zaqar t-h-t service fails to run (missing bind IP),https://bugs.launchpad.net/tripleo/+bug/1650307,2017-02-16
+1634171,1634171,Fix Released,[RFE] OVN split northd and plugin composable services,https://bugs.launchpad.net/tripleo/+bug/1634171,2017-02-16
+1590473,1590473,Fix Released,Expose parameter for enabling  Aodh event alarms,https://bugs.launchpad.net/tripleo/+bug/1590473,2017-02-16
+1652119,1652119,Fix Released,Containerized compute node broken after update to libvirtd update,https://bugs.launchpad.net/tripleo/+bug/1652119,2017-02-16
+1645898,1645898,Fix Released,erlang empd and kernel are listening on public IP,https://bugs.launchpad.net/tripleo/+bug/1645898,2017-02-16
+1654058,1654058,Fix Released,can't separate nova from mysql role due to cells_v2 setup,https://bugs.launchpad.net/tripleo/+bug/1654058,2017-02-16
+1646862,1646862,Fix Released,update-from-keystone-admin-internal-api.yaml is not adapted to newton/ocata,https://bugs.launchpad.net/tripleo/+bug/1646862,2017-02-16
+1655204,1655204,Fix Released,Typo in ManagementAllocationPools in network-environment,https://bugs.launchpad.net/tripleo/+bug/1655204,2017-02-16
+1654586,1654586,Fix Released,Remove deprecated OpenDaylight L2 deployments,https://bugs.launchpad.net/tripleo/+bug/1654586,2017-02-16
+1656079,1656079,Fix Released,nova api default floating pool should be a heat parameter,https://bugs.launchpad.net/tripleo/+bug/1656079,2017-02-16
+1650680,1650680,Fix Released,Allow to change crontabs scheduling,https://bugs.launchpad.net/tripleo/+bug/1650680,2017-02-16
+1656364,1656364,Fix Released,Ceilometer stanza gets configured in HAProxy even though there's no Ceilometer API running on the backend servers,https://bugs.launchpad.net/tripleo/+bug/1656364,2017-02-16
+1657555,1657555,Fix Released,"CeilometerStoreEvents set to false, but Ceilometer still stores events",https://bugs.launchpad.net/tripleo/+bug/1657555,2017-02-16
+1655651,1655651,Fix Released,Unable to rerun Ansible upgrade tasks for services which contain wildcards for their names,https://bugs.launchpad.net/tripleo/+bug/1655651,2017-02-16
+1657901,1657901,Fix Released,Add dnsmasq_dns_servers config for Neutron DHCP Agent,https://bugs.launchpad.net/tripleo/+bug/1657901,2017-02-16
+1658755,1658755,Fix Released,"scenario002 ResourceInError: resources.volume1: Went to status error due to ""Unknown""",https://bugs.launchpad.net/tripleo/+bug/1658755,2017-02-16
+1659079,1659079,Fix Released,Upgrade N->O is broken due to glance registry removal,https://bugs.launchpad.net/tripleo/+bug/1659079,2017-02-16
+1659139,1659139,Fix Released,Duplicate resources in puppet/post.yaml,https://bugs.launchpad.net/tripleo/+bug/1659139,2017-02-16
+1640800,1640800,Fix Released,Horizon password_validator entry,https://bugs.launchpad.net/tripleo/+bug/1640800,2017-02-16
+1652177,1652177,Fix Released,Add support for the deployment of the Ceph RBD mirroring daemon,https://bugs.launchpad.net/tripleo/+bug/1652177,2017-02-16
+1660929,1660929,Fix Released,Remove NeutronSupportedPCIVendorDevs parameter,https://bugs.launchpad.net/tripleo/+bug/1660929,2017-02-16
+1661339,1661339,Fix Released,Newton->Ocata upgrade fails during 'Start ceph-osd service' task,https://bugs.launchpad.net/tripleo/+bug/1661339,2017-02-16
+1661082,1661082,Fix Released,Raise DriverLoadError if using flat network with cleaning enabled and cleaning_network is not set,https://bugs.launchpad.net/tripleo/+bug/1661082,2017-02-16
+1661082,1661082,Fix Released,Raise DriverLoadError if using flat network with cleaning enabled and cleaning_network is not set,https://bugs.launchpad.net/ironic/+bug/1661082,2017-02-16
+1661251,1661251,Fix Released,Newton->Ocata upgrade fails during 'Check service openstack-ceilometer-api is running' task,https://bugs.launchpad.net/tripleo/+bug/1661251,2017-02-16
+1662344,1662344,Fix Released,(HA) mysql bind_address param is not compatible with nova cell_v2,https://bugs.launchpad.net/tripleo/+bug/1662344,2017-02-16
+1661316,1661316,Fix Released,ScaleIO: Update heat templates for Cinder Scaleio to support composable roles,https://bugs.launchpad.net/tripleo/+bug/1661316,2017-02-16
+1662941,1662941,Fix Released,memcache by default is configured to use 95% of ram,https://bugs.launchpad.net/tripleo/+bug/1662941,2017-02-16
+1663187,1663187,Fix Released,Nova Placement API on IPv6 unreachable from compute nodes,https://bugs.launchpad.net/tripleo/+bug/1663187,2017-02-16
+1664569,1664569,Fix Released,Containerized overcloud fails due to missing EndpointMap parameter,https://bugs.launchpad.net/tripleo/+bug/1664569,2017-02-16
+1644756,1644756,Fix Released,Automatic flavor matching when tagging nodes doesn't work for object-storage and custom roles,https://bugs.launchpad.net/tripleo/+bug/1644756,2017-02-16
+1614928,1614928,Fix Released,openstack overcloud update stack should be powered by a mistral workflow,https://bugs.launchpad.net/tripleo/+bug/1614928,2017-02-16
+1640770,1640770,Fix Released,openstack node delete usability issues,https://bugs.launchpad.net/tripleo/+bug/1640770,2017-02-16
+1651508,1651508,Fix Released,heat agents container image missing packages,https://bugs.launchpad.net/tripleo/+bug/1651508,2017-02-16
+1644587,1644587,Fix Released,[RFE]: don't allow illegal characters in plan names,https://bugs.launchpad.net/tripleo/+bug/1644587,2017-02-16
+1648781,1648781,Fix Released,Not all sub-workflows calls are being passed the queue_name,https://bugs.launchpad.net/tripleo/+bug/1648781,2017-02-16
+1652037,1652037,Fix Released,Action does not honour the operator given passwords in get_passwords workflow,https://bugs.launchpad.net/tripleo/+bug/1652037,2017-02-16
+1640249,1640249,Fix Released,Prevent the deploy workflow doing anything if the Heat stack is in (CREATE|UPDATE)_IN_PROGRESS,https://bugs.launchpad.net/tripleo/+bug/1640249,2017-02-16
+1654002,1654002,Fix Released,IPA image build not skipped even if image already exists,https://bugs.launchpad.net/tripleo/+bug/1654002,2017-02-16
+1657108,1657108,Fix Released,tripleo::firewall does not work as intended if the image has prepopulated firewall rules,https://bugs.launchpad.net/tripleo/+bug/1657108,2017-02-16
+1660160,1660160,Fix Released,No host-to-cell mapping found for selected host,https://bugs.launchpad.net/tripleo/+bug/1660160,2017-02-16
+1646226,1646226,Fix Released,CI jobs that build images are no longer logging anything for the image build,https://bugs.launchpad.net/tripleo/+bug/1646226,2017-02-16
+1653768,1653768,Fix Released,tripleoclient not logging image build output,https://bugs.launchpad.net/tripleo/+bug/1653768,2017-02-16

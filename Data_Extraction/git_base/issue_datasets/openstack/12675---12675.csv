@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1759994,1759994,Fix Released,XIV: Report FC target ports should consider zoning,https://bugs.launchpad.net/cinder/+bug/1759994,2018-06-08
+1768650,1768650,Fix Released,POST /volumes/{volume_id}/action os-detach incorrectly requires attachment_id is not None,https://bugs.launchpad.net/cinder/+bug/1768650,2018-06-08
+1768427,1768427,Fix Released,document bug in Dell EMC VNX driver config,https://bugs.launchpad.net/cinder/+bug/1768427,2018-06-08
+1766768,1766768,Fix Released,QNAP Cinder driver: driver fails to detach while uploading volume to image,https://bugs.launchpad.net/cinder/+bug/1766768,2018-06-08
+1768198,1768198,Fix Released,Fix i18n issue in volume_action and admin_action,https://bugs.launchpad.net/cinder/+bug/1768198,2018-06-08
+1769740,1769740,Fix Released,Original exception will not be logged if detach volume fails during backup restore,https://bugs.launchpad.net/cinder/+bug/1769740,2018-06-08
+1769889,1769889,Fix Released,API hostname validation fails,https://bugs.launchpad.net/cinder/+bug/1769889,2018-06-08
+1763242,1763242,Fix Released,Huawei driver doesn't implement create_group_from_src interface,https://bugs.launchpad.net/cinder/+bug/1763242,2018-06-08
+1769660,1769660,Fix Released,Cinder backup driver is broken: mutually exclusive variables,https://bugs.launchpad.net/cinder/+bug/1769660,2018-06-08
+1736569,1736569,Fix Released,oauth2client is deprecated - migrate to oauthlib,https://bugs.launchpad.net/cinder/+bug/1736569,2018-06-08
+1772421,1772421,Fix Released,INFINIDAT driver LUN is extending on X TB instead of extending to X TB,https://bugs.launchpad.net/cinder/+bug/1772421,2018-06-08
+1772659,1772659,Fix Released,Additional fix for hostname validation regex,https://bugs.launchpad.net/cinder/+bug/1772659,2018-06-08
+1773123,1773123,Fix Released,With newer versions of sqlite tests are failing on sqlite3.OperationalError : Cannot add a column with non-constant default. In SQL queries is boolean without apostrophes which causes sqlite3 error.,https://bugs.launchpad.net/cinder/+bug/1773123,2018-06-08
+1727631,1727631,Fix Released,"[Doc][cinder] Missing ""backup_gigabytes"" and ""per_volume_gigabytes"" parameters in update quotas api v2",https://bugs.launchpad.net/cinder/+bug/1727631,2018-06-08
+1775027,1775027,Fix Released,Execution deletion doesn't work if you use mistralclient 3.5.0 with Queens or earlier,https://bugs.launchpad.net/mistral/+bug/1775027,2018-06-08
+1775281,1775281,Fix Released,nova command line reference is gone since Pike,https://bugs.launchpad.net/python-novaclient/+bug/1775281,2018-06-08
+1766267,1766267,Fix Released,neutron server failed with 'NoForeignKeysError',https://bugs.launchpad.net/neutron/+bug/1766267,2018-06-08
+1753540,1753540,Fix Released,"When isolated metadata is enabled, metadata proxy doesn't get automatically started/stopped when needed",https://bugs.launchpad.net/neutron/+bug/1753540,2018-06-08
+1765421,1765421,Fix Released,docker image build job not working,https://bugs.launchpad.net/mistral/+bug/1765421,2018-06-08
+1743649,1743649,Fix Released,Bad jinja template prevents upstream action execution from completing,https://bugs.launchpad.net/mistral/+bug/1743649,2018-06-08
+1756252,1756252,Fix Released,The senlin action  populate failed,https://bugs.launchpad.net/mistral/+bug/1756252,2018-06-08
+1598135,1598135,Fix Released,Deleting executions shouldn't be allowed unless they have finished (SUCCESS/ERROR),https://bugs.launchpad.net/mistral/+bug/1598135,2018-06-08
+1768450,1768450,Fix Released,execution_field_size_limit_kb doesn't handle correctly -1 case,https://bugs.launchpad.net/mistral/+bug/1768450,2018-06-08
+1735690,1735690,Fix Released,Purge README.rst in favor of the generated documentation,https://bugs.launchpad.net/mistral/+bug/1735690,2018-06-08
+1769552,1769552,Fix Released,GET /v2/executions?fields=input doesn't work,https://bugs.launchpad.net/mistral/+bug/1769552,2018-06-08
+1611036,1611036,Fix Released,Automatically test database migrations,https://bugs.launchpad.net/mistral/+bug/1611036,2018-06-08
+1771518,1771518,Fix Released,"Add ""fields"" argument to all DB API ""get"" methods",https://bugs.launchpad.net/mistral/+bug/1771518,2018-06-08
+1772864,1772864,Fix Released,"Using the YAQL function ""difference"" leads to the ""unhashatable type: dict"" error",https://bugs.launchpad.net/mistral/+bug/1772864,2018-06-08
+1660001,1660001,Fix Released,Hyper-V PCI Passthrough,https://bugs.launchpad.net/nova/+bug/1660001,2018-06-08
+1763907,1763907,Fix Released,allocation candidates member_of gets all the shared providers,https://bugs.launchpad.net/nova/+bug/1763907,2018-06-08
+1760322,1760322,Fix Released,Traits not synced if first retrieval fails,https://bugs.launchpad.net/nova/+bug/1760322,2018-06-08
+1762842,1762842,Fix Released,Compute API guide: Faults in nova - Instance Faults section is wrong,https://bugs.launchpad.net/nova/+bug/1762842,2018-06-08
+1763741,1763741,Fix Released,Policy docs for os_compute_api:os-flavor-extra-specs:index don't include 2.47 and 2.61 usage,https://bugs.launchpad.net/nova/+bug/1763741,2018-06-08
+1765204,1765204,Fix Released,Listing resource providers in placement with a postgresql backend gets a group by error,https://bugs.launchpad.net/nova/+bug/1765204,2018-06-08
+1765144,1765144,Fix Released,"[keystone_authtoken]  auth_url = http://controller:35357 port error, it should be 5000",https://bugs.launchpad.net/nova/+bug/1765144,2018-06-08
+1759979,1759979,Fix Released,xenapi: InstanceNotFound trace in detach_interface during instance delete,https://bugs.launchpad.net/nova/+bug/1759979,2018-06-08
+1752896,1752896,Fix Released,novncproxy in Newton uses outdated novnc 0.5 which breaks Nova noVNC consoles,https://bugs.launchpad.net/nova/+bug/1752896,2018-06-08
+1764390,1764390,Fix Released,Replace passing system_metadata to notification functions with instance.system_metadata usage,https://bugs.launchpad.net/nova/+bug/1764390,2018-06-08
+1766306,1766306,Fix Released,api-ref: block_device_mapping_v2.boot_index is required until queens,https://bugs.launchpad.net/nova/+bug/1766306,2018-06-08
+1766692,1766692,Fix Released,instance.uuid no longer being a str breaks powervm scsi disconnect,https://bugs.launchpad.net/nova-powervm/+bug/1766692,2018-06-08
+1766692,1766692,Fix Released,instance.uuid no longer being a str breaks powervm scsi disconnect,https://bugs.launchpad.net/nova/+bug/1766692,2018-06-08
+1767192,1767192,Fix Released,RAMWeigher and CPUWeigher docs don't link properly to config options,https://bugs.launchpad.net/nova/+bug/1767192,2018-06-08
+1767553,1767553,Fix Released,compute resource tracker errors regarding stale allocations should be logged at WARNING instead of DEBUG,https://bugs.launchpad.net/nova/+bug/1767553,2018-06-08
+1767058,1767058,Fix Released,Rally test boot_and_delete_server_with_secgroups fails,https://bugs.launchpad.net/nova/+bug/1767058,2018-06-08
+1768107,1768107,Fix Released,The user_id field is missing from RequestSpec,https://bugs.launchpad.net/nova/+bug/1768107,2018-06-08
+1767309,1767309,Fix Released,Placement - Make association_refresh configurable,https://bugs.launchpad.net/nova/+bug/1767309,2018-06-08
+1767139,1767139,Fix Released,TypeError in _get_inventory_and_update_provider_generation,https://bugs.launchpad.net/nova/+bug/1767139,2018-06-08
+1769131,1769131,Fix Released,"After cold-migration of a volume-backed instance, disk.info file leftover on source host",https://bugs.launchpad.net/nova/+bug/1769131,2018-06-08
+1765742,1765742,Fix Released,virt_driver.detach_volume rollback calls in attach_volume failures uses wrong method signature,https://bugs.launchpad.net/nova/+bug/1765742,2018-06-08
+1765575,1765575,Fix Released,soft_deleted is supported in query param,https://bugs.launchpad.net/nova/+bug/1765575,2018-06-08
+1770220,1770220,Fix Released,report client allocation retry handling insufficient,https://bugs.launchpad.net/nova/+bug/1770220,2018-06-08
+1754071,1754071,Fix Released,image not found warning in logs when instance is deleted during snapshot,https://bugs.launchpad.net/nova/+bug/1754071,2018-06-08
+1770560,1770560,Fix Released,api-ref: wrong parameter description in os-volume-attachments.inc,https://bugs.launchpad.net/nova/+bug/1770560,2018-06-08
+1770718,1770718,Fix Released,test_auth_middleware_factory fails with new keystonemiddleware 5.1.0,https://bugs.launchpad.net/nova/+bug/1770718,2018-06-08
+1771137,1771137,Fix Released,Xenapi disk resize broken by use of privsep code,https://bugs.launchpad.net/nova/+bug/1771137,2018-06-08
+1769283,1769283,Fix Released,ImagePropertiesFilter has no default value resulting in unpredictable scheduling,https://bugs.launchpad.net/nova/+bug/1769283,2018-06-08
+1771384,1771384,Fix Released,placement api send text/html error responses when accept headers is '*/*',https://bugs.launchpad.net/nova/+bug/1771384,2018-06-08
+1771707,1771707,Fix Released,allocation candidates with nested providers have inappropriate candidates when traits specified,https://bugs.launchpad.net/nova/+bug/1771707,2018-06-08
+1751073,1751073,Fix Released,[Regression] Nova's 'enabled_perf_events' feature will be broken with Linux Kernel 4.14+,https://bugs.launchpad.net/nova/+bug/1751073,2018-06-08
+1772243,1772243,Fix Released,Some candidates are missing when multiple sharing provider have multiple shared resources,https://bugs.launchpad.net/nova/+bug/1772243,2018-06-08
+1774556,1774556,Fix Released,Invalid raise in test_compute_mgr,https://bugs.launchpad.net/nova/+bug/1774556,2018-06-08
+1765008,1765008,Fix Released,Tempest API tests failing for stable/queens branch,https://bugs.launchpad.net/neutron/+bug/1765008,2018-06-08
+1765008,1765008,Fix Released,Tempest API tests failing for stable/queens branch,https://bugs.launchpad.net/tripleo/+bug/1765008,2018-06-08
+1733649,1733649,Fix Released,fullstack neutron.tests.fullstack.test_qos.TestDscpMarkingQoSOvs.test_dscp_marking_packets(openflow-native) failure,https://bugs.launchpad.net/neutron/+bug/1733649,2018-06-08
+1743536,1743536,Fix Released,devstack/computenode-local.conf.sample miss networking-ovn-metadata-agent,https://bugs.launchpad.net/networking-ovn/+bug/1743536,2018-06-08
+1757520,1757520,Fix Released,Latest queens/master : ImportError  Unable to find uuid driver in keystone.token.provider,https://bugs.launchpad.net/kolla-ansible/+bug/1757520,2018-06-08
+1766500,1766500,Fix Released,tox fails to run in local environment,https://bugs.launchpad.net/glance-store/+bug/1766500,2018-06-07
+1768365,1768365,Fix Released,Follow the OpenStack Sphinx theme configuration,https://bugs.launchpad.net/glance/+bug/1768365,2018-06-07
+1615899,1615899,Fix Released,"[api-ref]: ""Show images"" should be changed to ""List images""",https://bugs.launchpad.net/glance/+bug/1615899,2018-06-07
+1767142,1767142,Fix Released,functional tests need time-bounded wait-for-status,https://bugs.launchpad.net/glance/+bug/1767142,2018-06-07
+1726213,1726213,Fix Released,KNOWN_EXCEPTIONS don't include all possible exceptions,https://bugs.launchpad.net/glance/+bug/1726213,2018-06-07
+1734832,1734832,Fix Released,Unreachable 'ImageSizeLimitExceeded' exception block in upload call,https://bugs.launchpad.net/glance/+bug/1734832,2018-06-07
+1763161,1763161,Fix Released,Segment ignore sorting parameters,https://bugs.launchpad.net/neutron/+bug/1763161,2018-06-07
+1764330,1764330,Fix Released,"Cannot set --no-share on shared network covered also by ""access_as_shared"" RBAC policy",https://bugs.launchpad.net/neutron/+bug/1764330,2018-06-07
+1687065,1687065,Fix Released,functional tests are filled with POLLIN messages from ovs even when it's not using ovs itself,https://bugs.launchpad.net/neutron/+bug/1687065,2018-06-07

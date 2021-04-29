@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1594225,1594225,Fix Released,Backup snapshot fail due to not Initializes the driver's client,https://bugs.launchpad.net/cinder/+bug/1594225,2016-08-09
+1575886,1575886,Fix Released,Backup snapshot does not work without creating a temp volume,https://bugs.launchpad.net/cinder/+bug/1575886,2016-08-09
+1593590,1593590,Fix Released,VMware: Storage policy is not associated with the vmdk,https://bugs.launchpad.net/cinder/+bug/1593590,2016-08-09
+1596907,1596907,Fix Released,VMware: Creating volume from streamOptimized image fails with TypeError,https://bugs.launchpad.net/cinder/+bug/1596907,2016-08-09
+1598214,1598214,Fix Released,Volume manager does not log traceback from driver's terminate_connection,https://bugs.launchpad.net/cinder/+bug/1598214,2016-08-09
+1600362,1600362,Fix Released,"Pure volume driver cannot create volume with ""None"" type id",https://bugs.launchpad.net/cinder/+bug/1600362,2016-08-09
+1596680,1596680,Fix Released,Dell SC: Wrong replication syncmode specified,https://bugs.launchpad.net/cinder/+bug/1596680,2016-08-09
+1597820,1597820,Fix Released,Dell SC: HighAvailability cannot be set in Async repl,https://bugs.launchpad.net/cinder/+bug/1597820,2016-08-09
+1540938,1540938,Fix Released,upload volume to image fails if disk-format is iso,https://bugs.launchpad.net/cinder/+bug/1540938,2016-08-09
+1603480,1603480,Fix Released,Some node is not available via ssh right after OSTF Sanity checks passed,https://bugs.launchpad.net/fuel/+bug/1603480,2016-08-09
+1583368,1583368,Fix Released,Fuel-devops doesn't escape '$' in sudo calls,https://bugs.launchpad.net/fuel/+bug/1583368,2016-08-09
+1605599,1605599,Fix Released,dos.py list returns strange output,https://bugs.launchpad.net/fuel/+bug/1605599,2016-08-09
+1595865,1595865,Fix Released,Can't deploy master node using paramiko 2.0.1,https://bugs.launchpad.net/fuel/+bug/1595865,2016-08-09
+1605846,1605846,Fix Released,Upper constraints are not applied correctly in repo_build,https://bugs.launchpad.net/openstack-ansible/+bug/1605846,2016-08-09
+1611247,1611247,Fix Released,neutron fails due to PUBLIC_INTERFACE reseted,https://bugs.launchpad.net/devstack/+bug/1611247,2016-08-09
+1604768,1604768,Fix Released,lib/neutron doesn't create initial networks unless neutron-l3 is enabled,https://bugs.launchpad.net/devstack/+bug/1604768,2016-08-09
+1595713,1595713,Fix Released,timeout keyword arg not supported by create_ovs_vif_port,https://bugs.launchpad.net/os-vif/+bug/1595713,2016-08-09
+1591113,1591113,Fix Released,OVS vif: MTU should not be set to port if it's None or 0.,https://bugs.launchpad.net/os-vif/+bug/1591113,2016-08-09
+1595614,1595614,Fix Released,Plugging a VIFOpenVSwitch vif creates extraneous linux bridge and veth pair,https://bugs.launchpad.net/os-vif/+bug/1595614,2016-08-09
+1587526,1587526,Fix Released,Cannot specify resources-dir for hot-package,https://bugs.launchpad.net/python-muranoclient/+bug/1587526,2016-08-09
+1604852,1604852,Fix Released,environment-action-call command accepts only strings as --arguments values,https://bugs.launchpad.net/python-muranoclient/+bug/1604852,2016-08-09
+1569373,1569373,Fix Committed,horizon UI is broken after deployment with packages from UCA,https://bugs.launchpad.net/fuel/+bug/1569373,2016-08-09
+1602698,1602698,Fix Released,"[10.0-mitaka]bvt_2: deployment failed, ConnectFailure to keystone",https://bugs.launchpad.net/fuel/+bug/1602698,2016-08-09
+1578598,1578598,Fix Committed,[fuel-plugin-builder] execution of pre_build_hook depends on current directory,https://bugs.launchpad.net/fuel/+bug/1578598,2016-08-09
+1608286,1608286,Fix Released,[Contrail] Remove a controller-node from environment with Contrail leads to OSTF fail,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1608286,2016-08-09
+1597328,1597328,Fix Released,Create Fuel Plugin Manila /Openstack,https://bugs.launchpad.net/fuel/+bug/1597328,2016-08-09
+1608852,1608852,Fix Committed,[Zabbix] Host failover doesn't work,https://bugs.launchpad.net/lma-toolchain/+bug/1608852,2016-08-09
+1608577,1608577,Fix Committed,KUBE_NODE_PUBLIC_IP is not being used in fedora driver.,https://bugs.launchpad.net/magnum/+bug/1608577,2016-08-09
+1605329,1605329,Fix Committed,Inconsistent heat template versions,https://bugs.launchpad.net/magnum/+bug/1605329,2016-08-09
+1610630,1610630,Fix Released,Fix Unit test failure,https://bugs.launchpad.net/networking-onos/+bug/1610630,2016-08-09
+1605039,1605039,Fix Released,Improve Octavia configuration options in Configuration Reference,https://bugs.launchpad.net/openstack-manuals/+bug/1605039,2016-08-09
+1228384,1228384,Fix Released,Security Group extension reads all Neutron ports for anything other that a single server,https://bugs.launchpad.net/nova/+bug/1228384,2016-08-09
+1542545,1542545,Fix Released,pip install fails when using constraints on keystone,https://bugs.launchpad.net/devstack/+bug/1542545,2016-08-09
+1610796,1610796,Fix Released,NetworksSearchCriteriaTest/SubnetsSearchCriteriaTest failure,https://bugs.launchpad.net/networking-midonet/+bug/1610796,2016-08-09
+1560717,1560717,Fix Released,Flavors framework plugin is not loaded in gate job,https://bugs.launchpad.net/group-based-policy/+bug/1560717,2016-08-09
+1485529,1485529,Fix Released,The API for getting console connection info works only for RDP,https://bugs.launchpad.net/nova/+bug/1485529,2016-08-08
+1607338,1607338,Fix Released,Retry failure in networking-powervm,https://bugs.launchpad.net/networking-powervm/+bug/1607338,2016-08-08
+1534512,1534512,Fix Released,build.py should support docker build ards,https://bugs.launchpad.net/kolla/+bug/1534512,2016-08-08
+1598242,1598242,Fix Released,policy default targets incomplete,https://bugs.launchpad.net/django-openstack-auth/+bug/1598242,2016-08-08
+1599870,1599870,Fix Released,Not authorized when logout and login creating an instance,https://bugs.launchpad.net/django-openstack-auth/+bug/1599870,2016-08-08
+1602528,1602528,Fix Released,openstack_auth token doesn't support is_admin_project attribute,https://bugs.launchpad.net/django-openstack-auth/+bug/1602528,2016-08-08
+1602313,1602313,Fix Released,Extra routes for neutron subnet not populated in etcd for calico-dhcp-agent,https://bugs.launchpad.net/networking-calico/+bug/1602313,2016-08-08
+1433402,1433402,Fix Released,list users in group unauthorised with v3 policy,https://bugs.launchpad.net/keystone/+bug/1433402,2016-08-08
+1606834,1606834,Fix Released,Vitrage Update Modes,https://bugs.launchpad.net/vitrage/+bug/1606834,2016-08-08
+1607091,1607091,Fix Released,[system-tests] Avoid using magic numbers in ubuntu bootstrap tests,https://bugs.launchpad.net/fuel/+bug/1607091,2016-08-08
+1605305,1605305,Fix Committed,Fuel CI job 8.0.verify-fuel-web fails with 45 min timeout for the stable/8.0 branch,https://bugs.launchpad.net/fuel/+bug/1605305,2016-08-08
+1603985,1603985,Fix Committed,Statistic generator doesn't work after snapshots were introduced,https://bugs.launchpad.net/fuel/+bug/1603985,2016-08-08
+1609706,1609706,Fix Released,stopping of neutron-server in puppet module broke deployment,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1609706,2016-08-08
+1608210,1608210,Fix Released,Exception in dhcp app,https://bugs.launchpad.net/dragonflow/+bug/1608210,2016-08-08
+1521759,1521759,Fix Released,Bootstrap process is very slow in scale,https://bugs.launchpad.net/fuel/+bug/1521759,2016-08-08
+1556639,1556639,Fix Released,Failed to execute hook 'influxdb_grafana-0.9.0' Puppet run failed.,https://bugs.launchpad.net/lma-toolchain/+bug/1556639,2016-08-08
+1608453,1608453,Fix Released,Update the 'get' function of ScheduledOperationState,https://bugs.launchpad.net/karbor/+bug/1608453,2016-08-08
+1592532,1592532,Fix Released,Aodh datasource should not retrieve alarms with status 'insufficient data',https://bugs.launchpad.net/vitrage/+bug/1592532,2016-08-08
+1569851,1569851,Fix Released,os-cloud-config hardcodes SSL ports,https://bugs.launchpad.net/tripleo/+bug/1569851,2016-08-08
+1609668,1609668,Fix Released,Add description to Scheduled Operation,https://bugs.launchpad.net/karbor/+bug/1609668,2016-08-08
+1592356,1592356,Fix Released,cinder-api exception due to default_volume_type not being created,https://bugs.launchpad.net/kolla/+bug/1592356,2016-08-07
+1589750,1589750,Fix Released,Request stable/liberty 1.0.3 release for networking-ofagent,https://bugs.launchpad.net/neutron/+bug/1589750,2016-08-07
+1597332,1597332,Fix Released,df dropall doesn't work for redis,https://bugs.launchpad.net/dragonflow/+bug/1597332,2016-08-07
+1581666,1581666,Fix Released,[api-ref]Broken link to filtering section in list floating IP detail operation,https://bugs.launchpad.net/neutron/+bug/1581666,2016-08-06
+1491003,1491003,Fix Released,Tech Debt: bay_conductor hard-coded server_type to 'vm',https://bugs.launchpad.net/magnum/+bug/1491003,2016-08-05
+1482799,1482799,Fix Released,Update to Kubernetes Release 1,https://bugs.launchpad.net/magnum/+bug/1482799,2016-08-05
+1490319,1490319,Fix Committed,Tracking upstream code generation problem with k8 v1.json,https://bugs.launchpad.net/magnum/+bug/1490319,2016-08-05
+1537086,1537086,Fix Released,Add support of TLS in k8s coreos bay,https://bugs.launchpad.net/magnum/+bug/1537086,2016-08-05
+1529316,1529316,Fix Released,remove oslo-incubator code from MagnumClient,https://bugs.launchpad.net/magnum/+bug/1529316,2016-08-05
+1501045,1501045,Fix Released,Tech Debt: Consider nested stacks instead of generated templates,https://bugs.launchpad.net/magnum/+bug/1501045,2016-08-05
+1504311,1504311,Fix Released,Barbican return Internal Server Error on bay-delete,https://bugs.launchpad.net/magnum/+bug/1504311,2016-08-05
+1511281,1511281,Fix Released,Remove kube-register,https://bugs.launchpad.net/magnum/+bug/1511281,2016-08-05
+1497042,1497042,Fix Released,labels should use semicolon for lists,https://bugs.launchpad.net/magnum/+bug/1497042,2016-08-05
+1471924,1471924,Fix Released,Add functional tests for baymodel resource,https://bugs.launchpad.net/magnum/+bug/1471924,2016-08-05
+1471506,1471506,Fix Committed,Need test case for API auth_token,https://bugs.launchpad.net/magnum/+bug/1471506,2016-08-05
+1463634,1463634,Fix Released,Add more appropriate timeout for bay-create in functional test,https://bugs.launchpad.net/magnum/+bug/1463634,2016-08-05
+1451227,1451227,Fix Released,we should be using identity_uri instead of auth fragments,https://bugs.launchpad.net/magnum/+bug/1451227,2016-08-05
+1501892,1501892,Fix Released,magnum pod-show does not work,https://bugs.launchpad.net/python-magnumclient/+bug/1501892,2016-08-05
+1577729,1577729,Fix Released,Delorean setup fails on CentOS because of setuptools version,https://bugs.launchpad.net/tripleo/+bug/1577729,2016-08-05
+1583676,1583676,Fix Released,Ci: postci functions sometimes freezes,https://bugs.launchpad.net/tripleo/+bug/1583676,2016-08-05

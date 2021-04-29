@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1418111,1418111,Fix Released,[System test] False negative test result when we can't restore successful snapshot,https://bugs.launchpad.net/fuel/+bug/1418111,2015-03-04
+1413571,1413571,Fix Released,"Spell mistake into Fuel UI settings tab (Upstream DNS, Upstream NTP)",https://bugs.launchpad.net/fuel/+bug/1413571,2015-03-04
+1428004,1428004,Fix Committed,Import of TaskHelpers raises ImportError exception,https://bugs.launchpad.net/fuel/+bug/1428004,2015-03-04
+1427370,1427370,Fix Released,Overcloud puppet deployment failing with Error: Could not find dependency Package[python] for Package[python-greenlet],https://bugs.launchpad.net/tripleo/+bug/1427370,2015-03-04
+1427919,1427919,Fix Committed,Remove the model completely from stackforge for vdx,https://bugs.launchpad.net/networking-brocade/+bug/1427919,2015-03-04
+1407526,1407526,Fix Released,Need more UT support for the ODL mapping driver,https://bugs.launchpad.net/group-based-policy/+bug/1407526,2015-03-04
+1409573,1409573,Fix Released,Need UT for ODL Manager,https://bugs.launchpad.net/group-based-policy/+bug/1409573,2015-03-04
+1348665,1348665,Fix Released,Request addition to troubleshooting section of Cloud Administrator Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1348665,2015-03-03
+1420165,1420165,Fix Released,"Incorrect parameters for ""Create security group rule""",https://bugs.launchpad.net/openstack-api-site/+bug/1420165,2015-03-03
+1415244,1415244,Fix Released,"In-use L2Policy delete should fail, otherwise results orphan neutron objs",https://bugs.launchpad.net/group-based-policy/+bug/1415244,2015-03-03
+1407323,1407323,Fix Released,referred/in-use L3policy deletion does not fail,https://bugs.launchpad.net/group-based-policy/+bug/1407323,2015-03-03
+1412350,1412350,Fix Released,GBP: Used servicec-hain spec can deleted although used by Policy Action,https://bugs.launchpad.net/group-based-policy/+bug/1412350,2015-03-03
+1416156,1416156,Fix Released,L3Policy check for subnet-prefix-length smaller than pool subnet,https://bugs.launchpad.net/group-based-policy/+bug/1416156,2015-03-03
+1412799,1412799,Fix Committed,[system_tests] add iptables rule for tftp traffic when Multiple Networks are true,https://bugs.launchpad.net/fuel/+bug/1412799,2015-03-03
+1412759,1412759,Fix Committed,[image-based] fuel-agent will create fs even if image for that fs exists,https://bugs.launchpad.net/fuel/+bug/1412759,2015-03-03
+1423376,1423376,Fix Committed,Forwarder incorrectly logs token expirations as  API down.,https://bugs.launchpad.net/monasca/+bug/1423376,2015-03-03
+1263551,1263551,Fix Released,neutron port-list -f csv outputs poorly formatted JSON strings.,https://bugs.launchpad.net/python-neutronclient/+bug/1263551,2015-03-03
+1405046,1405046,Fix Released,'Namespace' object has no attribute 'project_domain_name',https://bugs.launchpad.net/python-neutronclient/+bug/1405046,2015-03-03
+1385908,1385908,Fix Released,Error when running neutron  firewall-policy-create   with firewall-rules option,https://bugs.launchpad.net/python-neutronclient/+bug/1385908,2015-03-03
+1384984,1384984,Fix Released,"""neutron net-create"": provider network attributes have to be placed after the name",https://bugs.launchpad.net/python-neutronclient/+bug/1384984,2015-03-03
+1359230,1359230,Fix Released,list_security_group_rules missing support for optional security_group_id parameter,https://bugs.launchpad.net/python-neutronclient/+bug/1359230,2015-03-03
+1288656,1288656,Fix Released,The operation of  router not only supports id also supports name,https://bugs.launchpad.net/python-neutronclient/+bug/1288656,2015-03-03
+1206110,1206110,Fix Released,Add unit tests for agent related commands,https://bugs.launchpad.net/python-neutronclient/+bug/1206110,2015-03-03
+1380030,1380030,Fix Released,Error warning is not accurate when using wrong cmd line,https://bugs.launchpad.net/python-neutronclient/+bug/1380030,2015-03-03
+1368934,1368934,Fix Released,"Router create optional argument ""distributed/ha"" accepts only Camel case",https://bugs.launchpad.net/python-neutronclient/+bug/1368934,2015-03-03
+1254241,1254241,Fix Released,agent-update online help tells nothing about what the command actually does,https://bugs.launchpad.net/python-neutronclient/+bug/1254241,2015-03-03
+1398854,1398854,Fix Released,TypeError while using Neutron client under Python 3,https://bugs.launchpad.net/python-neutronclient/+bug/1398854,2015-03-03
+1206113,1206113,Fix Released,Add unit tests for agentscheduler related commands,https://bugs.launchpad.net/python-neutronclient/+bug/1206113,2015-03-03
+1387506,1387506,Fix Released,lb-healthmonitor-show command error,https://bugs.launchpad.net/python-neutronclient/+bug/1387506,2015-03-03
+1382476,1382476,Fix Released,Some modules use gettext directly instead of using oslo.i18n (or openstack.common.gettextutils),https://bugs.launchpad.net/python-neutronclient/+bug/1382476,2015-03-03
+1377516,1377516,Fix Released,Change healthmonitor to health monitor in help info,https://bugs.launchpad.net/python-neutronclient/+bug/1377516,2015-03-03
+1373622,1373622,Fix Released,Neutron CLI help text ipsecpolicies should be two separate words.,https://bugs.launchpad.net/python-neutronclient/+bug/1373622,2015-03-03
+1373417,1373417,Fix Released,can't update ipv6-ra-mode and ipv6-address-mode due to invalid ip version exception,https://bugs.launchpad.net/python-neutronclient/+bug/1373417,2015-03-03
+1280964,1280964,Fix Released,cStringIO.StringIO is incompatible for python 3,https://bugs.launchpad.net/python-neutronclient/+bug/1280964,2015-03-03
+1280964,1280964,Fix Released,cStringIO.StringIO is incompatible for python 3,https://bugs.launchpad.net/cinder/+bug/1280964,2015-03-03
+1280964,1280964,Fix Released,cStringIO.StringIO is incompatible for python 3,https://bugs.launchpad.net/tuskar/+bug/1280964,2015-03-03
+1280964,1280964,Fix Released,cStringIO.StringIO is incompatible for python 3,https://bugs.launchpad.net/sahara/+bug/1280964,2015-03-03
+1380937,1380937,Fix Released,neutron load balancer commands output is wrong when resource is not present,https://bugs.launchpad.net/python-neutronclient/+bug/1380937,2015-03-03
+1356550,1356550,Fix Released,neutronclient does not prompt for password,https://bugs.launchpad.net/python-neutronclient/+bug/1356550,2015-03-03
+1375765,1375765,Fix Released,noauth mode doesn't work,https://bugs.launchpad.net/python-neutronclient/+bug/1375765,2015-03-03
+1401555,1401555,Fix Released,subnet: --enable-dhcp=False/True syntax is not accepted since 2.3.5,https://bugs.launchpad.net/python-neutronclient/+bug/1401555,2015-03-03
+1382017,1382017,Fix Released,Do not use obsolete modules from oslo-incubator,https://bugs.launchpad.net/python-neutronclient/+bug/1382017,2015-03-03
+1376171,1376171,Fix Released,SessionClient should not raise exception when status code >=400,https://bugs.launchpad.net/python-neutronclient/+bug/1376171,2015-03-03
+1368676,1368676,Fix Released,endpoint_type is ignored since keystone v3 patch,https://bugs.launchpad.net/python-neutronclient/+bug/1368676,2015-03-03
+1412919,1412919,Fix Released,[all] Use different URLs for internal/public endpoints (enhancement request),https://bugs.launchpad.net/openstack-chef/+bug/1412919,2015-03-03
+1416145,1416145,Fix Released,fuel-stats master CI is broken: CommandError: No such revision '4da2da15ec42',https://bugs.launchpad.net/fuel/+bug/1416145,2015-03-03
+1419794,1419794,Fix Released,"Pacemaker resources are stopped when corosync cluster lacks quorum, astute does not check amount of controllers",https://bugs.launchpad.net/fuel/+bug/1419794,2015-03-03
+1411622,1411622,Fix Released,Create test-report job for 6.1 swarm,https://bugs.launchpad.net/fuel/+bug/1411622,2015-03-03
+1381680,1381680,Fix Released,Batch mode displays prompt,https://bugs.launchpad.net/python-cliff/+bug/1381680,2015-03-03
+1411025,1411025,Fix Released,Add ability to mark commands deprecated so they no longer appear in help output,https://bugs.launchpad.net/python-cliff/+bug/1411025,2015-03-03
+1316622,1316622,Fix Released,initialize_app is not called when running --help,https://bugs.launchpad.net/python-cliff/+bug/1316622,2015-03-03
+1424927,1424927,Fix Released,Incorrect Parameters for Create/Update Port,https://bugs.launchpad.net/openstack-api-site/+bug/1424927,2015-03-03
+1417807,1417807,Fix Released,heat create-stack request example should include example parameters,https://bugs.launchpad.net/openstack-api-site/+bug/1417807,2015-03-03
+1417806,1417806,Fix Released,heat create-stack request and response parameters are not correct,https://bugs.launchpad.net/openstack-api-site/+bug/1417806,2015-03-03
+1426221,1426221,Fix Released,stack.sh fails to install epel-repo when proxy is set,https://bugs.launchpad.net/devstack/+bug/1426221,2015-03-03
+1425169,1425169,Fix Released,Invalid memcache configuration causes dashboard error,https://bugs.launchpad.net/fuel/+bug/1425169,2015-03-03
+1419716,1419716,Fix Released,build 6.0.1.all and 6.1.all failed,https://bugs.launchpad.net/fuel/+bug/1419716,2015-03-03
+1422620,1422620,Fix Released,/etc/hiera from nodes is not included in diagnostic snapshot,https://bugs.launchpad.net/fuel/+bug/1422620,2015-03-03
+1414082,1414082,Fix Released,Ceph RBD for images (Glance) switching is unavailable sometimes,https://bugs.launchpad.net/fuel/+bug/1414082,2015-03-03
+1426062,1426062,Fix Released,[osci] setup sync with upstream for a project,https://bugs.launchpad.net/fuel/+bug/1426062,2015-03-03
+1418016,1418016,Fix Released,"Debian build job fails with ""out of date"" error",https://bugs.launchpad.net/fuel/+bug/1418016,2015-03-03
+1421856,1421856,Fix Released,Could not find resource 'Package[pacemaker]',https://bugs.launchpad.net/fuel/+bug/1421856,2015-03-03
+1403870,1403870,Fix Released,Provisioning not succeed due to bsdutils package cannot be installed,https://bugs.launchpad.net/fuel/+bug/1403870,2015-03-03
+1423395,1423395,Fix Released,master.fuel-library.centos.ha_nova_vlan fails periodically with error 'Value of settings:common.use_vcenter.value is undefined. Set options.strict to false to allow undefined values.',https://bugs.launchpad.net/fuel/+bug/1423395,2015-03-03
+1420882,1420882,Fix Released,[staging BVT ubuntu] OSTF issues with nose_adapter,https://bugs.launchpad.net/fuel/+bug/1420882,2015-03-03
+1423872,1423872,Fix Committed,nodes table needs ON CASCADE DELETE constraints so that batch deletion is possible,https://bugs.launchpad.net/fuel/+bug/1423872,2015-03-03
+1425041,1425041,Fix Released,"Incorrect parameters for ""Create router""",https://bugs.launchpad.net/openstack-api-site/+bug/1425041,2015-03-03
+1417437,1417437,Fix Released,Change test groups for BVTs on jenkins-product,https://bugs.launchpad.net/fuel/+bug/1417437,2015-03-03
+1043886,1043886,Fix Released,Firewall rules are not updated if you restart nova-compute,https://bugs.launchpad.net/nova/+bug/1043886,2015-03-03
+1427470,1427470,Fix Committed,fix typo in import pathname,https://bugs.launchpad.net/networking-brocade/+bug/1427470,2015-03-03
+1427453,1427453,Fix Committed,Fix pathname of  import of brocade db model,https://bugs.launchpad.net/networking-brocade/+bug/1427453,2015-03-03
+1258300,1258300,Fix Released,"Install Networking services on a dedicated network node in OpenStack Installation Guide for Red Hat Enterprise Linux, CentOS, and Fedora  - havana",https://bugs.launchpad.net/openstack-manuals/+bug/1258300,2015-03-03
+1426131,1426131,Fix Released,stable juno branch changes,https://bugs.launchpad.net/openstack-chef/+bug/1426131,2015-03-02
+1424943,1424943,Fix Released,Include globoff for curl statements,https://bugs.launchpad.net/devstack/+bug/1424943,2015-03-02
+1415935,1415935,Fix Released,encode_headers which has NoneType value would raise exception,https://bugs.launchpad.net/python-glanceclient/+bug/1415935,2015-03-02

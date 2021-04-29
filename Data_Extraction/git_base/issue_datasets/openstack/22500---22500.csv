@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1669050,1669050,Fix Released,Add support for module-reapply command,https://bugs.launchpad.net/openstack-manuals/+bug/1669050,2017-06-08
+1651665,1651665,Fix Released,Deprecate use_neutron option,https://bugs.launchpad.net/kolla-ansible/+bug/1651665,2017-06-08
+1554753,1554753,Fix Released,Coho driver does not honor clone volume size,https://bugs.launchpad.net/cinder/+bug/1554753,2017-06-08
+1559913,1559913,Fix Released,RBD driver does not honor clone volume size when rbd_max_clone_depth is 0,https://bugs.launchpad.net/cinder/+bug/1559913,2017-06-08
+1558257,1558257,Fix Released,[api-ref]cinder os-hosts API is not documented,https://bugs.launchpad.net/cinder/+bug/1558257,2017-06-08
+1659504,1659504,Fix Released,sort_key does not work for 'name' param on v2 snapshot API GET,https://bugs.launchpad.net/cinder/+bug/1659504,2017-06-08
+1647055,1647055,Fix Released,zfssa cache luns are too small when glance images are precisely X Gigabytes,https://bugs.launchpad.net/cinder/+bug/1647055,2017-06-08
+1670014,1670014,Fix Released,ZFSSA can avoid fetching img when creating vol from cache,https://bugs.launchpad.net/cinder/+bug/1670014,2017-06-08
+1674161,1674161,Fix Released,[api-ref] Missing/incorrect error codes for v3 api documentation,https://bugs.launchpad.net/cinder/+bug/1674161,2017-06-08
+1674611,1674611,Fix Released,Missing return value in clone_volume of Quobyte Driver,https://bugs.launchpad.net/cinder/+bug/1674611,2017-06-08
+1674278,1674278,Fix Released,Remove duplicate API interface documentation,https://bugs.launchpad.net/cinder/+bug/1674278,2017-06-08
+1658574,1658574,Fix Released,Sheepdog: Fail to create volume from image with specifying same image-id at the same time,https://bugs.launchpad.net/cinder/+bug/1658574,2017-06-08
+1672577,1672577,Fix Released,create_volume calls get_all_volume_groups  is missing argument,https://bugs.launchpad.net/cinder/+bug/1672577,2017-06-08
+1676252,1676252,Fix Released,reset group and group-snapshot status in Block Storage V3 API ref should use 'POST' not 'PUT',https://bugs.launchpad.net/cinder/+bug/1676252,2017-06-08
+1675861,1675861,Fix Released,Cinder Unit tests depend on /etc/mtab (psutil),https://bugs.launchpad.net/cinder/+bug/1675861,2017-06-08
+1648067,1648067,Fix Released,3PAR Driver fails to handle pre-existing host record with different name but the same path,https://bugs.launchpad.net/cinder/+bug/1648067,2017-06-08
+1677456,1677456,Fix Released,cascade delete option for volumes not in api docs,https://bugs.launchpad.net/cinder/+bug/1677456,2017-06-08
+1678031,1678031,Fix Released,Incremental backups logs sha256file in a debug mode,https://bugs.launchpad.net/cinder/+bug/1678031,2017-06-08
+1674233,1674233,Fix Released,cinder metadata api's raises TypeError with 400 BadRequest if incorrect formatted metadata is passed,https://bugs.launchpad.net/cinder/+bug/1674233,2017-06-08
+1678822,1678822,Fix Released,NEC driver doesn't provide link down portal info.,https://bugs.launchpad.net/cinder/+bug/1678822,2017-06-08
+1678015,1678015,Fix Released,ds8k: volume driver should use distributed lock manager,https://bugs.launchpad.net/cinder/+bug/1678015,2017-06-08
+1680343,1680343,Fix Released,ds8k should check lun exist or not when clone volume,https://bugs.launchpad.net/cinder/+bug/1680343,2017-06-08
+1680709,1680709,Fix Released,UUID parameters are not validated in create volume API,https://bugs.launchpad.net/cinder/+bug/1680709,2017-06-08
+1665276,1665276,Fix Released,[api-ref]Missing volume status on block storage v2 API,https://bugs.launchpad.net/cinder/+bug/1665276,2017-06-08
+1681305,1681305,Fix Released,VNX driver: consistent_group_snapshot_enabled is missing from pool stats,https://bugs.launchpad.net/cinder/+bug/1681305,2017-06-08
+1681406,1681406,Fix Released,RemoteFS: volume cascade delete fails,https://bugs.launchpad.net/cinder/+bug/1681406,2017-06-08
+1658763,1658763,Fix Released,ProphetStor DPL driver using HTTPSConnection,https://bugs.launchpad.net/cinder/+bug/1658763,2017-06-08
+1675710,1675710,Fix Released,Switch to URIOpt disabled redundancy config in Quobyte driver,https://bugs.launchpad.net/cinder/+bug/1675710,2017-06-08
+1674261,1674261,Fix Released,XIV: add CG capability to generic groups,https://bugs.launchpad.net/cinder/+bug/1674261,2017-06-08
+1669662,1669662,Fix Released,useless call with Glance V1 for kernel and ramdisk id,https://bugs.launchpad.net/cinder/+bug/1669662,2017-06-08
+1682194,1682194,Fix Released,Dell EMC SC: It is not clear that replay failed due to an empty volume,https://bugs.launchpad.net/cinder/+bug/1682194,2017-06-08
+1485449,1485449,Fix Released,Upload encrypted volume to image,https://bugs.launchpad.net/cinder/+bug/1485449,2017-06-08
+1676278,1676278,Fix Released,Group API update does not do policy check,https://bugs.launchpad.net/cinder/+bug/1676278,2017-06-08
+1681543,1681543,Fix Released,attach_volume failing with already attached when it shouldn't,https://bugs.launchpad.net/cinder/+bug/1681543,2017-06-08
+1683214,1683214,Fix Released,manage volume should not be prevented by capacity check,https://bugs.launchpad.net/cinder/+bug/1683214,2017-06-08
+1683701,1683701,Fix Released,Filter attachment with instance_id would always fail,https://bugs.launchpad.net/cinder/+bug/1683701,2017-06-08
+1681297,1681297,Fix Released,attachment update/create API didn't store 'connection_info' into database,https://bugs.launchpad.net/cinder/+bug/1681297,2017-06-08
+1682687,1682687,Fix Released,ProphetStor failed to create volume size larger than the original snapshot.,https://bugs.launchpad.net/cinder/+bug/1682687,2017-06-08
+1596305,1596305,Fix Released,Backup using temp snapshot does not work on remote node,https://bugs.launchpad.net/cinder/+bug/1596305,2017-06-08
+1692827,1692827,Fix Released,Possible to delete group-type while there's a group associated with it,https://bugs.launchpad.net/cinder/+bug/1692827,2017-06-08
+1679716,1679716,Fix Released,Cinder NetApp CDOT NFS Driver Cloning Problem,https://bugs.launchpad.net/cinder/+bug/1679716,2017-06-08
+1686272,1686272,Fix Released,initialize volid before use it,https://bugs.launchpad.net/cinder/+bug/1686272,2017-06-08
+1679736,1679736,Fix Released,VolumeTypeEncryption API extension is not documented in api-ref site,https://bugs.launchpad.net/cinder/+bug/1679736,2017-06-08
+1686386,1686386,Fix Released,Use cg object when invoke update consistency group method,https://bugs.launchpad.net/cinder/+bug/1686386,2017-06-08
+1616974,1616974,Fix Released,Replication freeze doesn't work as expected,https://bugs.launchpad.net/cinder/+bug/1616974,2017-06-08
+1666529,1666529,Fix Released,Non-integer values are not consistently checked during cinder quota update,https://bugs.launchpad.net/cinder/+bug/1666529,2017-06-08
+1685084,1685084,Fix Released,quota usage for manage snapshot is not correct,https://bugs.launchpad.net/cinder/+bug/1685084,2017-06-08
+1687044,1687044,Fix Released,test_volume_extend_when_volume_has_snapshot fails with VolumeNotDeactivated,https://bugs.launchpad.net/cinder/+bug/1687044,2017-06-08
+1687289,1687289,Fix Released,XIV: get_fc_targets by host,https://bugs.launchpad.net/cinder/+bug/1687289,2017-06-08
+1687583,1687583,Fix Released,Cinder update the volume status with an attach_status value,https://bugs.launchpad.net/cinder/+bug/1687583,2017-06-08
+1680313,1680313,Fix Released,HPE 3PAR :Volume Retype of replicated volume passes in Openstack but volume doesn't get retyped in 3par array.,https://bugs.launchpad.net/cinder/+bug/1680313,2017-06-08
+1678034,1678034,Fix Released,Issue in Logs while creating cinder volume.,https://bugs.launchpad.net/cinder/+bug/1678034,2017-06-08
+1688313,1688313,Fix Released,Ubuntu Xenial python-tox raise an error in pep8 env,https://bugs.launchpad.net/cinder/+bug/1688313,2017-06-08
+1686616,1686616,Fix Released,InstanceLocalityFilter fails with Keystone error 401,https://bugs.launchpad.net/cinder/+bug/1686616,2017-06-08
+1689523,1689523,Fix Released,backup_api_class doesn't work,https://bugs.launchpad.net/cinder/+bug/1689523,2017-06-08
+1680036,1680036,Fix Released,rados_connection_interval and rados_connection_retries cannot be configured in [<backend>] section,https://bugs.launchpad.net/cinder/+bug/1680036,2017-06-08
+1680065,1680065,Fix Released,xtremio uses CONF to get retry_count and interval instead of self.configuration,https://bugs.launchpad.net/cinder/+bug/1680065,2017-06-08
+1690281,1690281,Fix Released,swift backup backend doesn't work when auth_url is None,https://bugs.launchpad.net/cinder/+bug/1690281,2017-06-08
+1690779,1690779,Fix Released,SMBFS: cannot specify volume format through volume types,https://bugs.launchpad.net/cinder/+bug/1690779,2017-06-08
+1664464,1664464,Fix Released,HPE 3par: Cloned volume is not added in Virtual volume set of source volume in 3par array.,https://bugs.launchpad.net/cinder/+bug/1664464,2017-06-08
+1691358,1691358,Fix Released,[api-ref]Using wrong arguments in API Document,https://bugs.launchpad.net/cinder/+bug/1691358,2017-06-08
+1683258,1683258,Fix Released,snapshot is always backing-up if backup failed.,https://bugs.launchpad.net/cinder/+bug/1683258,2017-06-08
+1667944,1667944,Fix Released,xiv async mirroring differs on some systems,https://bugs.launchpad.net/cinder/+bug/1667944,2017-06-08
+1603293,1603293,Fix Released,The cinder retype is missing in the api documentation,https://bugs.launchpad.net/cinder/+bug/1603293,2017-06-08
+1569152,1569152,Fix Released,Notification for a key of volume type is not good enough,https://bugs.launchpad.net/cinder/+bug/1569152,2017-06-08
+1691411,1691411,Fix Released,INFINIDAT: Use infinisdk for communication with InfiniBox storage array,https://bugs.launchpad.net/cinder/+bug/1691411,2017-06-08
+1691412,1691412,Fix Released,INFINIDAT: host objects are not deleted when last LUN is detached,https://bugs.launchpad.net/cinder/+bug/1691412,2017-06-08
+1640085,1640085,Fix Released,Generic Groups incorrectly using volume_type_ids,https://bugs.launchpad.net/cinder/+bug/1640085,2017-06-08
+1691488,1691488,Fix Released,py27 unit tests failing/hanging,https://bugs.launchpad.net/cinder/+bug/1691488,2017-06-08
+1673644,1673644,Fix Released,Add API documentation for force-delete volime.,https://bugs.launchpad.net/cinder/+bug/1673644,2017-06-08
+1676693,1676693,Fix Released,Add  the missing  parameters in the api-ref of ext-backups.inc,https://bugs.launchpad.net/cinder/+bug/1676693,2017-06-08
+1691739,1691739,Fix Released,Unable to initialize GPFSNFS & GPFSRemote driver,https://bugs.launchpad.net/cinder/+bug/1691739,2017-06-08
+1657992,1657992,Fix Released,cinder manageable-list does not support marker and raise 500 error,https://bugs.launchpad.net/cinder/+bug/1657992,2017-06-08
+1657992,1657992,Fix Released,cinder manageable-list does not support marker and raise 500 error,https://bugs.launchpad.net/python-cinderclient/+bug/1657992,2017-06-08
+1609521,1609521,Fix Released,Oracle ZFSSA iSCSI Cinder driver does not allow clone sizes different from original volume size,https://bugs.launchpad.net/cinder/+bug/1609521,2017-06-08

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1317527,1317527,Fix Released,'pxe_preserve_ephemeral' leaking from $nova delete,https://bugs.launchpad.net/ironic/+bug/1317527,2014-10-16
+1317044,1317044,Fix Released,Location header should be sent with an HTTP status code of 201 or 202,https://bugs.launchpad.net/ironic/+bug/1317044,2014-10-16
+1316145,1316145,Fix Released,flow extension loads extensions circularly,https://bugs.launchpad.net/ironic/+bug/1316145,2014-10-16
+1325655,1325655,Fix Released,support devstack with bind9 backend on Fedora,https://bugs.launchpad.net/designate/+bug/1325655,2014-10-16
+1315187,1315187,Fix Released,add sink support to designate devstack,https://bugs.launchpad.net/designate/+bug/1315187,2014-10-16
+1313606,1313606,Fix Released,Root partition always last,https://bugs.launchpad.net/ironic/+bug/1313606,2014-10-16
+1315171,1315171,Fix Released,only call sink handlers for supported event types,https://bugs.launchpad.net/designate/+bug/1315171,2014-10-16
+1312757,1312757,Fix Released,set_console_mode ovewritting the last_error field,https://bugs.launchpad.net/ironic/+bug/1312757,2014-10-16
+1314178,1314178,Fix Released,"""self"" link retuned by floatingip endpoint is wrong",https://bugs.launchpad.net/designate/+bug/1314178,2014-10-16
+1312321,1312321,Fix Released,SeaMicroPowerDriverTestCase is skipped,https://bugs.launchpad.net/ironic/+bug/1312321,2014-10-16
+1312799,1312799,Fix Released,sink Service missing _get_handler_event_types,https://bugs.launchpad.net/designate/+bug/1312799,2014-10-16
+1310137,1310137,Fix Released,The Nova reboot command silently fails when using the Ironic driver,https://bugs.launchpad.net/ironic/+bug/1310137,2014-10-16
+1302029,1302029,Fix Released,v1 api does not allow priority of 0,https://bugs.launchpad.net/designate/+bug/1302029,2014-10-16
+1309719,1309719,Fix Released,"list_instances() returns a list of nodes, not instances",https://bugs.launchpad.net/ironic/+bug/1309719,2014-10-16
+1261894,1261894,Fix Released,Deleting Record With BIND 9 Driver Fails,https://bugs.launchpad.net/designate/+bug/1261894,2014-10-16
+1308320,1308320,Fix Released,Chassis-node relationship does not reflected via the API,https://bugs.launchpad.net/ironic/+bug/1308320,2014-10-16
+1334935,1334935,Fix Released,A trailing slash after a uuid causes a 404,https://bugs.launchpad.net/designate/+bug/1334935,2014-10-16
+1214870,1214870,Fix Released,Replace use of Cliff with oslo.config based CLI for designate-manage,https://bugs.launchpad.net/designate/+bug/1214870,2014-10-16
+1307726,1307726,Fix Released,nova.virt.ironic driver does not send ephemeral drive specifications to ironic,https://bugs.launchpad.net/ironic/+bug/1307726,2014-10-16
+1333347,1333347,Fix Released,V2 API Returns a HTML Page on a 404,https://bugs.launchpad.net/designate/+bug/1333347,2014-10-16
+1307589,1307589,Fix Released,loopingcall logging ERROR for HTTPBadRequest,https://bugs.launchpad.net/ironic/+bug/1307589,2014-10-16
+1333312,1333312,Fix Released,A GET to /v2/zones/<id> returns text/dns content-type by default,https://bugs.launchpad.net/designate/+bug/1333312,2014-10-16
+1304642,1304642,Fix Released,sync_power_state puts node in maintenance mode too fast,https://bugs.launchpad.net/ironic/+bug/1304642,2014-10-16
+1330540,1330540,Fix Released,Style checker ignoring logging I18n issue,https://bugs.launchpad.net/designate/+bug/1330540,2014-10-16
+1303670,1303670,Fix Released,seamicro.power.validate has broken method definition,https://bugs.launchpad.net/ironic/+bug/1303670,2014-10-16
+1327244,1327244,Fix Released,devstack powerdns package name incorrect for fedora,https://bugs.launchpad.net/designate/+bug/1327244,2014-10-16
+1299288,1299288,Fix Released,nova.virt.driver:node_is_available is not overridden,https://bugs.launchpad.net/ironic/+bug/1299288,2014-10-16
+1326141,1326141,Fix Released,"devstack exercise for deletion, dns checking",https://bugs.launchpad.net/designate/+bug/1326141,2014-10-16
+1288007,1288007,Fix Released,deploy() should fail if image is larger than root partition,https://bugs.launchpad.net/ironic/+bug/1288007,2014-10-16
+1304152,1304152,Fix Released,RecordSetNotFound error on create,https://bugs.launchpad.net/designate/+bug/1304152,2014-10-16
+1285793,1285793,Fix Released,_check_deploy_timeouts can attempt to spawn more processes then there are threads available,https://bugs.launchpad.net/ironic/+bug/1285793,2014-10-16
+1271493,1271493,Fix Released,Starting central / agent with bind9 backend with no-domains fails.,https://bugs.launchpad.net/designate/+bug/1271493,2014-10-16
+1278441,1278441,Fix Released,JsonPatch add operation on existing property should replace the property as per RFC 6902,https://bugs.launchpad.net/ironic/+bug/1278441,2014-10-16
+1268315,1268315,Fix Released,Sync Oslo Policy from oslo-incubator,https://bugs.launchpad.net/designate/+bug/1268315,2014-10-16
+1273785,1273785,Fix Released,Get rid of swap partitions,https://bugs.launchpad.net/ironic/+bug/1273785,2014-10-16
+1344131,1344131,Fix Released,Tcp requests are not correctly handled in Mdns,https://bugs.launchpad.net/designate/+bug/1344131,2014-10-16
+1344011,1344011,Fix Released,DevStack logs a KeyError: 'user_id',https://bugs.launchpad.net/designate/+bug/1344011,2014-10-16
+1314310,1314310,Fix Released,"DynECT backend should handle ""Operation Blocked"" errors from Dyn",https://bugs.launchpad.net/designate/+bug/1314310,2014-10-16
+1199665,1199665,Fix Released,download images only once per conductor in pxe driver,https://bugs.launchpad.net/ironic/+bug/1199665,2014-10-16
+1314304,1314304,Fix Released,DynECT backend should ignore 404's during deletion,https://bugs.launchpad.net/designate/+bug/1314304,2014-10-16
+1199522,1199522,Fix Released,Use system call for downloading files,https://bugs.launchpad.net/ironic/+bug/1199522,2014-10-16
+1326988,1326988,Fix Released,n-cpu cannot be restarted with running instances,https://bugs.launchpad.net/ironic/+bug/1326988,2014-10-16
+1321494,1321494,Fix Released,NodeLocked log messages causing random test failures,https://bugs.launchpad.net/ironic/+bug/1321494,2014-10-16
+1344040,1344040,Fix Released,Context unavailable to oslo logging on the server side of a RPC call,https://bugs.launchpad.net/designate/+bug/1344040,2014-10-16
+1343561,1343561,Fix Released,DB Error ('Sesssion is already flushing'),https://bugs.launchpad.net/designate/+bug/1343561,2014-10-16
+1317202,1317202,Fix Released,RPC_API_VERSION out of sync,https://bugs.launchpad.net/ironic/+bug/1317202,2014-10-16
+1309048,1309048,Fix Released,Node is not a valid node managed by this compute host,https://bugs.launchpad.net/ironic/+bug/1309048,2014-10-16
+1343526,1343526,Fix Released,Eventlet patching is occurring too late during service startup,https://bugs.launchpad.net/designate/+bug/1343526,2014-10-16
+1308045,1308045,Fix Released,TripleO Ironic- RuntimeError: Second simultaneous read on fileno n detected.,https://bugs.launchpad.net/ironic/+bug/1308045,2014-10-16
+1343211,1343211,Fix Released,SQLAlchemy session is reused by multiple greenthreads,https://bugs.launchpad.net/designate/+bug/1343211,2014-10-16
+1307754,1307754,Fix Released,nova.virt.ironic driver does not implement rebuild method,https://bugs.launchpad.net/ironic/+bug/1307754,2014-10-16
+1302562,1302562,Fix Released,Ironic needs a way to disable drivers,https://bugs.launchpad.net/ironic/+bug/1302562,2014-10-16
+1321873,1321873,Fix Released,"Indeterminate gate failure ""KeyError: 'id'"" in NeutronFloatingHandlerTest",https://bugs.launchpad.net/designate/+bug/1321873,2014-10-16
+1300602,1300602,Fix Released,check_deploy_timeout fails glance auth during clean_up,https://bugs.launchpad.net/ironic/+bug/1300602,2014-10-16
+1319139,1319139,Fix Released,DevStack docs point to moniker-dns github repo,https://bugs.launchpad.net/designate/+bug/1319139,2014-10-16
+1299312,1299312,Fix Released,the ironic nova driver's unit tests do not currently run,https://bugs.launchpad.net/ironic/+bug/1299312,2014-10-16
+1298529,1298529,Fix Released,Missing dependencies for third-party driver causes exception traceback,https://bugs.launchpad.net/ironic/+bug/1298529,2014-10-16
+1295870,1295870,Fix Released,ironic.driver does not wrap all icli calls in _retry,https://bugs.launchpad.net/ironic/+bug/1295870,2014-10-16
+1326312,1326312,Fix Released,Broken HostManager: TypeError: __init__() takes at most 4 arguments (5 given),https://bugs.launchpad.net/ironic/+bug/1326312,2014-10-16
+1370973,1370973,Fix Released,Fix subnet residue when resource deletion,https://bugs.launchpad.net/heat/+bug/1370973,2014-10-16
+1365924,1365924,Fix Released,can't delete AWS::EC2::VPC resource,https://bugs.launchpad.net/heat/+bug/1365924,2014-10-16
+1365399,1365399,Fix Released,Create state not immediately persisted,https://bugs.launchpad.net/heat/+bug/1365399,2014-10-16
+1364018,1364018,Fix Released,Unexpected error when start heat-api service,https://bugs.launchpad.net/heat/+bug/1364018,2014-10-16
+1363093,1363093,Fix Released,Unexpected traceback during creation,https://bugs.launchpad.net/heat/+bug/1363093,2014-10-16
+1340096,1340096,Fix Released,AWS::EC2::VolumeAttachment must not support any updates,https://bugs.launchpad.net/heat/+bug/1340096,2014-10-16
+1334519,1334519,Fix Released,availability zone output in instance resource does not get resolved,https://bugs.launchpad.net/heat/+bug/1334519,2014-10-16
+1336498,1336498,Fix Released,Rackspace Autoscale group doesn't support user data,https://bugs.launchpad.net/heat/+bug/1336498,2014-10-16
+1374128,1374128,Fix Released,Barbican client API changed,https://bugs.launchpad.net/heat/+bug/1374128,2014-10-16
+1374125,1374125,Fix Released,Barbican plugin wrongly uses self.clients,https://bugs.launchpad.net/heat/+bug/1374125,2014-10-16
+1374101,1374101,Fix Released,Barbican plugin tries to use inexistant import,https://bugs.launchpad.net/heat/+bug/1374101,2014-10-16
+1374097,1374097,Fix Released,Barbican setup.cfg doesn't register the client,https://bugs.launchpad.net/heat/+bug/1374097,2014-10-16
+1367439,1367439,Fix Released,Add more fields to stacks filtering whiltelist,https://bugs.launchpad.net/heat/+bug/1367439,2014-10-16
+1361471,1361471,Fix Released,msg_format booby trap in Error class in heat.common.exception.py,https://bugs.launchpad.net/heat/+bug/1361471,2014-10-16
+1357433,1357433,Fix Released,Stack preview does not pass files to nested stacks,https://bugs.launchpad.net/heat/+bug/1357433,2014-10-16
+1355669,1355669,Fix Released,"Heat list sort-keys are not matching with the API response, need to make it consistent",https://bugs.launchpad.net/heat/+bug/1355669,2014-10-16

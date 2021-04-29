@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1595059,1595059,Fix Released,"CI: FAIL when installing undercloud, no repos are reachable from puppet",https://bugs.launchpad.net/tripleo/+bug/1595059,2016-08-05
+1608889,1608889,Fix Committed,Cache calculation for fuel-stats web interface consumes a lot of memory,https://bugs.launchpad.net/fuel/+bug/1608889,2016-08-05
+1598817,1598817,Fix Released,Root user can not see volume pools created by non-root user,https://bugs.launchpad.net/tripleo-quickstart/+bug/1598817,2016-08-05
+1603805,1603805,Fix Released,Ci: git clone sometimes fails from http://review.rdoproject.org,https://bugs.launchpad.net/tripleo/+bug/1603805,2016-08-05
+1604380,1604380,Fix Released,CI: nodes registrtion in periodic jobs fail because of bug in old pecan (fixed in 1.0.5),https://bugs.launchpad.net/tripleo/+bug/1604380,2016-08-05
+1604039,1604039,Fix Released,CI: delorean build of tripleo-heat-templates fails,https://bugs.launchpad.net/tripleo/+bug/1604039,2016-08-05
+1540346,1540346,Fix Released,HTTP Error 504: Gateway Time-out after sending 'deploy changes' request,https://bugs.launchpad.net/fuel/+bug/1540346,2016-08-05
+1595209,1595209,Fix Committed,After upgrade from 8.0 to 9.0 can not access old environment in Fuel UI,https://bugs.launchpad.net/fuel/+bug/1595209,2016-08-05
+1575054,1575054,Fix Committed,[octane] Upgrade of compute node fails due to  mismatch in partition table,https://bugs.launchpad.net/fuel/+bug/1575054,2016-08-05
+1595499,1595499,Fix Committed,[octane] doesn't copy Fuel generated keys for an environment,https://bugs.launchpad.net/fuel/+bug/1595499,2016-08-05
+1584746,1584746,Fix Committed,[octane] Control-plane upgrading fails when fuel doesn't have cached service tenant,https://bugs.launchpad.net/fuel/+bug/1584746,2016-08-05
+1588955,1588955,Fix Committed,[octane] Octane reports errors partly when calls fuel2 client,https://bugs.launchpad.net/fuel/+bug/1588955,2016-08-05
+1541256,1541256,Fix Committed,[Ironic] Deployment failed: Missing a required parameter uids,https://bugs.launchpad.net/fuel/+bug/1541256,2016-08-05
+1584658,1584658,Fix Committed,ceph-deploy problem on controller upgrade 7.0 -> 8.0,https://bugs.launchpad.net/fuel/+bug/1584658,2016-08-05
+1596909,1596909,Fix Committed,[upgrade] upgrade-db step: Lost connection to MySQL server at  mysql --batch --skip-column-names,https://bugs.launchpad.net/fuel/+bug/1596909,2016-08-05
+1605655,1605655,Fix Committed,[upgrade 7-8] Ceph crash on upgrade with network template,https://bugs.launchpad.net/fuel/+bug/1605655,2016-08-05
+1599258,1599258,Fix Committed,[upgrade master][6.0->8.0] octane fuel-restore fails: can't find file to patch at input line 5,https://bugs.launchpad.net/fuel/+bug/1599258,2016-08-05
+1573653,1573653,Fix Committed,[octane] nova db sync broken from Juno to Liberty,https://bugs.launchpad.net/fuel/+bug/1573653,2016-08-05
+1584041,1584041,Fix Committed,Could not evaluate: Primitive 'p_dns' was not found in CIB!,https://bugs.launchpad.net/fuel/+bug/1584041,2016-08-05
+1610082,1610082,Fix Released,nova fails to start due to iscsi_use_multipath,https://bugs.launchpad.net/nova-lxd/+bug/1610082,2016-08-05
+1587941,1587941,Fix Released,UnboundLocalError: local variable 'cmd' referenced before assignment,https://bugs.launchpad.net/rally/+bug/1587941,2016-08-05
+1598829,1598829,Fix Released,Clicking deploy button doesn't give feedback,https://bugs.launchpad.net/tripleo-ui/+bug/1598829,2016-08-05
+1608518,1608518,Fix Committed,'stp' option can't be configured separately,https://bugs.launchpad.net/fuel/+bug/1608518,2016-08-05
+1608169,1608169,Fix Released,ADFS plugin fails loading if lxml is not available,https://bugs.launchpad.net/keystoneauth/+bug/1608169,2016-08-05
+1608419,1608419,Fix Released,Missing OidcClientCredentials in __all__ prevents it from being loaded,https://bugs.launchpad.net/keystoneauth/+bug/1608419,2016-08-05
+1609429,1609429,Fix Released,"[fuel-qa]BVT/Smoke failed with error on ""get"" request to nailgun",https://bugs.launchpad.net/fuel/+bug/1609429,2016-08-05
+1608974,1608974,Fix Released,resolve recent unit test failures that have popped up,https://bugs.launchpad.net/networking-cisco/+bug/1608974,2016-08-04
+1607467,1607467,Fix Released,"test_vscsi should mock discover_hdisk, not lua_recovery",https://bugs.launchpad.net/nova-powervm/+bug/1607467,2016-08-04
+1609504,1609504,Fix Released,Wrong naming for config/release images.,https://bugs.launchpad.net/tripleo-quickstart/+bug/1609504,2016-08-04
+1514602,1514602,Fix Released,Pool manager doesn't start when coordination backend isn't reachable,https://bugs.launchpad.net/designate/+bug/1514602,2016-08-04
+1427277,1427277,Fix Released,[UI] Detailed error on object creation is not shown,https://bugs.launchpad.net/sahara/+bug/1427277,2016-08-04
+1609578,1609578,Fix Released,[PCE][Manila] Manila plugin couldn’t be built,https://bugs.launchpad.net/fuel/+bug/1609578,2016-08-04
+1607342,1607342,Fix Released,[swarm] unable to setup master node,https://bugs.launchpad.net/fuel/+bug/1607342,2016-08-04
+1609651,1609651,Fix Released,SSH access to 'jenkins' and 'root' users on slaves,https://bugs.launchpad.net/fuel/+bug/1609651,2016-08-04
+1609228,1609228,Fix Released,Proliantutils doesn't provide detailed error message for InvalidInputExecption,https://bugs.launchpad.net/proliantutils/+bug/1609228,2016-08-04
+1546878,1546878,Fix Released,Minor issue with the code,https://bugs.launchpad.net/proliantutils/+bug/1546878,2016-08-04
+1604835,1604835,Fix Released,[Newton] hostname instability after fresh deployment,https://bugs.launchpad.net/tripleo/+bug/1604835,2016-08-04
+1188337,1188337,Fix Released,[chef-testing-stack] Add simple integration test to openstack-chef-repo,https://bugs.launchpad.net/openstack-chef/+bug/1188337,2016-08-04
+1188337,1188337,Fix Released,[chef-testing-stack] Add simple integration test to openstack-chef-repo,https://bugs.launchpad.net/openstack-ci/+bug/1188337,2016-08-04
+1465981,1465981,Fix Released,[all] cleanup the template file,https://bugs.launchpad.net/openstack-chef/+bug/1465981,2016-08-04
+1608433,1608433,Fix Released,Deployment of ZabbixAgent from a.o.o fails,https://bugs.launchpad.net/murano-apps/+bug/1608433,2016-08-04
+1600191,1600191,Fix Released,test_attach_detach_volume not running in the gate,https://bugs.launchpad.net/tempest/+bug/1600191,2016-08-04
+1562666,1562666,Fix Released,Implement nova protection plugin,https://bugs.launchpad.net/karbor/+bug/1562666,2016-08-04
+1599863,1599863,Fix Released,yum conflicts with pip when removing virtualenv package,https://bugs.launchpad.net/devstack/+bug/1599863,2016-08-03
+1595578,1595578,Fix Released,Quota context does not restore original settings on exit,https://bugs.launchpad.net/rally/+bug/1595578,2016-08-03
+1340815,1340815,Fix Released,Multi-backend domain code/tests could use a bit of tidy up,https://bugs.launchpad.net/keystone/+bug/1340815,2016-08-03
+986980,986980,Fix Released,No documentation about token backends,https://bugs.launchpad.net/openstack-manuals/+bug/986980,2016-08-03
+986980,986980,Fix Released,No documentation about token backends,https://bugs.launchpad.net/keystone/+bug/986980,2016-08-03
+1529539,1529539,Fix Released,"Ceilometer 5.0 can't pollster hardware snmp meter (cpu_util, memory.usage,....)",https://bugs.launchpad.net/ceilometer/+bug/1529539,2016-08-03
+1557777,1557777,Fix Released,[contrail] Tasks into plugin should be a puppet-classes,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1557777,2016-08-03
+1604980,1604980,Fix Released,vSCSI mappings for evacuated instances fail to be cleaned up from source host,https://bugs.launchpad.net/nova-powervm/+bug/1604980,2016-08-03
+1608609,1608609,Fix Released,NvramManager _get_data method not handling pypowervm HttpError exception properly,https://bugs.launchpad.net/nova-powervm/+bug/1608609,2016-08-03
+1606770,1606770,Fix Released,Time of creating image snapshot  increased in comparison of last release v.4.0.0,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1606770,2016-08-03
+1599835,1599835,Fix Released,[CI]Running autotests on CI with 2 refs changes doesn't work,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1599835,2016-08-03
+1604376,1604376,Fix Released,Expected message on subnet creation didn’t appear after changing subnet in Contrail,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1604376,2016-08-03
+1600192,1600192,Fix Committed,job verify-python-fuelclient uses wrong fuel-web branch,https://bugs.launchpad.net/fuel/+bug/1600192,2016-08-03
+1609196,1609196,Fix Released,kuryr-libnetwork pip install . error,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1609196,2016-08-03
+1522115,1522115,Fix Committed,Use snapshots when building ISO,https://bugs.launchpad.net/fuel/+bug/1522115,2016-08-03
+1556854,1556854,Fix Released,[NFV] Deployment with enabled SR-IOV fails: virtual functions aren't configured by netconfig,https://bugs.launchpad.net/fuel/+bug/1556854,2016-08-03
+1598110,1598110,Fix Released,Broken link on Magnum Contirbuting Wiki,https://bugs.launchpad.net/magnum/+bug/1598110,2016-08-03
+1369944,1369944,Fix Released,Volumes & Snapshots table snapshot description truncated,https://bugs.launchpad.net/horizon/+bug/1369944,2016-08-03
+1603863,1603863,Fix Released,x-openstack-request-id will not be logged in case of exception,https://bugs.launchpad.net/python-glanceclient/+bug/1603863,2016-08-03
+1590402,1590402,Fix Released,[CI][6.1] 6.1.verify-python-fuelclient test is failed,https://bugs.launchpad.net/fuel/+bug/1590402,2016-08-03
+1609232,1609232,Fix Released,Minor issue with 'raid_config' validation error message,https://bugs.launchpad.net/proliantutils/+bug/1609232,2016-08-03
+1598141,1598141,Fix Committed,[fuel-devops 3.0] AddressPool._safe_create_network does not protect from race condition,https://bugs.launchpad.net/fuel/+bug/1598141,2016-08-03
+1506577,1506577,Fix Released,glusterfs-native: dyamic-auth gluster option is not set properly,https://bugs.launchpad.net/manila/+bug/1506577,2016-08-03
+1461299,1461299,Fix Released,Failure on list users when using ldap domain configuration from database,https://bugs.launchpad.net/keystone/+bug/1461299,2016-08-03
+1578315,1578315,Fix Committed,[Swarm] Swarm tests for ironic has failed because fail in ironicclient,https://bugs.launchpad.net/fuel/+bug/1578315,2016-08-03
+1602162,1602162,Fix Released,[10.0-community]HTTP 500 while publishing built ISO/torrent,https://bugs.launchpad.net/fuel/+bug/1602162,2016-08-03
+1608380,1608380,Fix Released,[Contrail] Deploy different storage with controller and Contrail+DPDK leads to fail,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1608380,2016-08-03
+1461937,1461937,Fix Released,Node stuck on DEPLOYING (potentially all *ING) state(s),https://bugs.launchpad.net/ironic/+bug/1461937,2016-08-03
+1604057,1604057,Fix Released,[system-tests] run_system_test.py cannot run some test cases with templates,https://bugs.launchpad.net/fuel/+bug/1604057,2016-08-03
+1602246,1602246,Fix Released,Change 9.0 swarm to support -proposed repositories,https://bugs.launchpad.net/fuel/+bug/1602246,2016-08-03
+1531254,1531254,Fix Released,Support migrating of legacy routers to HA and back,https://bugs.launchpad.net/neutron/+bug/1531254,2016-08-03
+1492924,1492924,Fix Released,RIBCL return wrong number of processors (cpus),https://bugs.launchpad.net/proliantutils/+bug/1492924,2016-08-03

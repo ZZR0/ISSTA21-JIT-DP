@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1818798,1818798,Fix Released,Should not skip volume_size check for bdm.image_id == image_ref case,https://bugs.launchpad.net/nova/+bug/1818798,2020-11-24
+1892870,1892870,Fix Released,concurrent  interface detach/attach may accidently unbind port,https://bugs.launchpad.net/nova/+bug/1892870,2020-11-24
+1855927,1855927,Fix Released,_poll_unconfirmed_resizes may not retry later if confirm_resize fails in API,https://bugs.launchpad.net/nova/+bug/1855927,2020-11-24
+1894966,1894966,Fix Released,Create servergroup failed with unexpected error,https://bugs.launchpad.net/nova/+bug/1894966,2020-11-24
+1895322,1895322,Fix Released,Nova is not actually disabling greendns,https://bugs.launchpad.net/nova/+bug/1895322,2020-11-24
+1879878,1879878,Fix Released,VM become Error after confirming resize with Error info CPUUnpinningInvalid on source node,https://bugs.launchpad.net/nova/+bug/1879878,2020-11-24
+1879787,1879787,Fix Released,post_live_migration does not handle Neutron errors,https://bugs.launchpad.net/nova/+bug/1879787,2020-11-24
+1893751,1893751,Fix Released,Reject resize operation for accelerator,https://bugs.launchpad.net/nova/+bug/1893751,2020-11-24
+1894022,1894022,Fix Released,Some package or kernel version of virtual persistent memory restrictions is not consistent,https://bugs.launchpad.net/nova/+bug/1894022,2020-11-24
+1893864,1893864,Fix Released,resolve ResourceProviderSyncFailed issue in python3,https://bugs.launchpad.net/nova/+bug/1893864,2020-11-24
+1851587,1851587,Fix Released,HypervisorUnavailable error leaks compute host fqdn to non-admin users,https://bugs.launchpad.net/nova/+bug/1851587,2020-11-24
+1892961,1892961,Fix Released,set different VirtualDevice.key,https://bugs.launchpad.net/nova/+bug/1892961,2020-11-24
+1889633,1889633,Fix Released,Pinned instance with thread policy can consume VCPU,https://bugs.launchpad.net/nova/+bug/1889633,2020-11-24
+1881727,1881727,Fix Released,Nova retains the 'delta' file for the entire snapshot upload time,https://bugs.launchpad.net/nova/+bug/1881727,2020-11-24
+1841363,1841363,Fix Released,nova cannot attach volume whose source_type='block' when setting disk_cache_modes as writethrough or writeback,https://bugs.launchpad.net/nova/+bug/1841363,2020-11-24
+1489304,1489304,Fix Released,Lack of volume status checks when detaching volume in rebuild.,https://bugs.launchpad.net/nova/+bug/1489304,2020-11-24
+1876301,1876301,Fix Released,block_device_mapping_v2.disk_bus allows invalid values,https://bugs.launchpad.net/nova/+bug/1876301,2020-11-24
+1775934,1775934,Fix Released,"Cannot run ""openstack server list"" with instance stuck in scheduling state",https://bugs.launchpad.net/nova/+bug/1775934,2020-11-24
+1882521,1882521,Fix Released,Failing device detachments on Focal,https://bugs.launchpad.net/nova/+bug/1882521,2020-11-24
+1896496,1896496,Fix Released,"Combination of 'hw_video_ram' image metadata prop, 'hw_video:ram_max_mb' extra spec raises error",https://bugs.launchpad.net/nova/+bug/1896496,2020-11-24
+1898715,1898715,Fix Released,Live migration fails despite matching CPUs,https://bugs.launchpad.net/nova/+bug/1898715,2020-11-24
+1899431,1899431,Fix Released,virsh domifstat can not get vhostuser vif statistics,https://bugs.launchpad.net/nova/+bug/1899431,2020-11-24
+1900731,1900731,Fix Released,Huge pages in nova,https://bugs.launchpad.net/nova/+bug/1900731,2020-11-24
+1902048,1902048,Fix Released,[Master]Network component jobs is failing on tempest TASK [os_tempest : Ensure private network exists],https://bugs.launchpad.net/tripleo/+bug/1902048,2020-11-23
+1903581,1903581,Fix Released,tripleo-ci-centos-8-scenario000-multinode-oooq-container-updates is pulling containers from docker.io,https://bugs.launchpad.net/tripleo/+bug/1903581,2020-11-23
+1905036,1905036,Fix Released,"Scenario10 octavia jobs failing deploy stack creation with ""Error Referenced Attribute (OctaviaBase update_tasks) is incorrect",https://bugs.launchpad.net/tripleo/+bug/1905036,2020-11-23
+1901383,1901383,Fix Released,"nova-compute fails with ""TypeError: Parameterized generics cannot be used with class"" with python 3.6 and libvirt-python 6.8.0",https://bugs.launchpad.net/nova/+bug/1901383,2020-11-20
+1892361,1892361,Fix Released,"SRIOV instance gets type-PF interface, libvirt kvm fails",https://bugs.launchpad.net/nova/+bug/1892361,2020-11-20
+1871482,1871482,Fix Released,nova-compute must not configure api database,https://bugs.launchpad.net/tripleo/+bug/1871482,2020-11-20
+1863595,1863595,Fix Released,"Overcloud update converge fails when updating Octavia to latest Queens, Rocky, Stein",https://bugs.launchpad.net/tripleo/+bug/1863595,2020-11-20
+1904858,1904858,Fix Released,[neutron-tempest-plugin] Reduce the number of test workers in the scenario tests,https://bugs.launchpad.net/neutron/+bug/1904858,2020-11-20
+1903887,1903887,Fix Released,kolla-ansible does not work with pyenv-virtualenv,https://bugs.launchpad.net/kolla-ansible/+bug/1903887,2020-11-20
+1874141,1874141,Fix Released,dry-run fails on remote deployment file slurp,https://bugs.launchpad.net/tripleo/+bug/1874141,2020-11-20
+1901937,1901937,Fix Released,NetApp options prevent mounting NFS on Windows OS,https://bugs.launchpad.net/manila/+bug/1901937,2020-11-20
+1904874,1904874,Fix Released,Neutron metering iptables chain not found message is logged is ERROR level,https://bugs.launchpad.net/neutron/+bug/1904874,2020-11-20
+1902925,1902925,Fix Released,Upgrades to compute RPC API 5.12 are broken,https://bugs.launchpad.net/nova/+bug/1902925,2020-11-20
+1903656,1903656,Fix Released,Adding support of system scoped openrc and clouds.yaml in openstack_openrc role,https://bugs.launchpad.net/openstack-ansible/+bug/1903656,2020-11-20
+1896949,1896949,Fix Released,NetApp driver is not applying the access rules for the promoted replica using CIFS,https://bugs.launchpad.net/manila/+bug/1896949,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-oslo/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-tacker/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-vitrage/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-heat/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-ironic/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-ceilometer/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-cloudkitty/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-trove/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-octavia/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-watcher/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-neutron/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-nova/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-aodh/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-manila/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-cinder/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-keystone/+bug/1902158,2020-11-20
+1902158,1902158,Fix Released,Deprecate allow_insecure_clients option,https://bugs.launchpad.net/puppet-sahara/+bug/1902158,2020-11-20
+1904731,1904731,Fix Released,[TLS Everywhere] Syntax error in 15-horizon_ssl_vhost.conf SSLVerifyClient: Invalid argument  'true',https://bugs.launchpad.net/tripleo/+bug/1904731,2020-11-20
+1900270,1900270,Fix Released,"Implement ""find_child_pids"" natively",https://bugs.launchpad.net/neutron/+bug/1900270,2020-11-20
+1904188,1904188,Fix Released,Include standard attributes ID in OVO dictionaries to improve the OVN revision numbers operation,https://bugs.launchpad.net/neutron/+bug/1904188,2020-11-20
+1775207,1775207,Fix Released,Fetching all mappings may become too slow,https://bugs.launchpad.net/keystone/+bug/1775207,2020-11-20
+1823200,1823200,Fix Released,Improper handling of ScaleIO backend credentials,https://bugs.launchpad.net/ossp-security-documentation/+bug/1823200,2020-11-19
+1823200,1823200,Fix Released,Improper handling of ScaleIO backend credentials,https://bugs.launchpad.net/cinder/+bug/1823200,2020-11-19
+1903996,1903996,Fix Released,Queens periodic jobs are failing on tempest test: tempest.scenario.test_network_basic_ops.TestNetworkBasicOps with testtools.matchers._impl.MismatchError: 'ACTIVE' != u'DOWN': - FloatingIP: is at status: DOWN. failed  to reach status: ACTIVE,https://bugs.launchpad.net/tripleo/+bug/1903996,2020-11-19
+1903989,1903989,Fix Released,Bug in logging potentionally causing neutron to fail,https://bugs.launchpad.net/neutron/+bug/1903989,2020-11-19
+1832537,1832537,Fix Released,neutron_tempest_plugin.scenario.admin.test_floatingip.FloatingIpTestCasesAdmin is failing on master promotions,https://bugs.launchpad.net/tripleo/+bug/1832537,2020-11-19
+1786961,1786961,Fix Released,cell_v2 discovery does not run during scale out when controllers are blacklisted,https://bugs.launchpad.net/tripleo/+bug/1786961,2020-11-19
+1901753,1901753,Fix Released,Building container fails because manifest is not found,https://bugs.launchpad.net/tripleo/+bug/1901753,2020-11-19
+1897505,1897505,Fix Released,"overcloud-prep-images failes at Introspect overcloud images (fs001, fs002, fs020and fs039 is failing)",https://bugs.launchpad.net/tripleo/+bug/1897505,2020-11-19
+1902831,1902831,Fix Released,"tripleo-ci-centos-8-scenario000-multinode-oooq-container-updates is failing in check/gate/periodic with [ERROR]: Container(s) which finished with wrong return code: ['container-puppet-clustercheck', 'container-puppet-haproxy', 'container-puppet-mysql', container-puppet-memcached', 'container-puppet-keystone', 'container-puppet-rabbitmq']",https://bugs.launchpad.net/tripleo/+bug/1902831,2020-11-19
+1900443,1900443,Fix Released,centos-7 train jobs are failing to find variables for OS - os-tempest,https://bugs.launchpad.net/tripleo/+bug/1900443,2020-11-19
+1897228,1897228,Fix Released,[train] ERROR root [  ] Image prepare failed: Not found image: https://trunk.registry.rdoproject.org/v2/tripleotraincentos8/centos-binary-neutron-metadata-agent is failing sc007 and fs030,https://bugs.launchpad.net/tripleo/+bug/1897228,2020-11-19
+1896917,1896917,Fix Released,problem with some vexxhost hypervisor,https://bugs.launchpad.net/tripleo/+bug/1896917,2020-11-19
+1896537,1896537,Fix Released,[stein] standalone-upgrade failing tempest,https://bugs.launchpad.net/tripleo/+bug/1896537,2020-11-19
+1896469,1896469,Fix Released,Depsolve Error occured: \n Problem: cannot install the best candidate for the job\n  - nothing provides network-scripts-openvswitch2.13 needed by rdo-openvswitch-1:2.13-1.el8.noarch\n  - nothing provides openvswitch2.13 needed by rdo-openvswitch-1:2.13-1.el8.noarch,https://bugs.launchpad.net/tripleo/+bug/1896469,2020-11-19
+1896277,1896277,Fix Released,[scen10-ovn] OVN provider does not support HTTPS protocol,https://bugs.launchpad.net/tripleo/+bug/1896277,2020-11-19
+1894953,1894953,Fix Released,[ussuri] tempest.api.compute.servers.test_servers_negative  failing,https://bugs.launchpad.net/tripleo/+bug/1894953,2020-11-19

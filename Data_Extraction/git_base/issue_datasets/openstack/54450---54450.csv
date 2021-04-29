@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1489465,1489465,Fix Released,Remove config.mk from fuel-mirror,https://bugs.launchpad.net/fuel/+bug/1489465,2015-11-30
+1482080,1482080,Fix Released,midonet-devstack-set-to-wrong-branch,https://bugs.launchpad.net/networking-midonet/+bug/1482080,2015-11-30
+1475952,1475952,Fix Released,Port security missing in kilo,https://bugs.launchpad.net/networking-midonet/+bug/1475952,2015-11-30
+1516489,1516489,Fix Released,networking-midonet stable/kilo release request,https://bugs.launchpad.net/networking-midonet/+bug/1516489,2015-11-30
+1516489,1516489,Fix Released,networking-midonet stable/kilo release request,https://bugs.launchpad.net/neutron/+bug/1516489,2015-11-30
+1508084,1508084,Fix Released,Filtering by node label is broken,https://bugs.launchpad.net/fuel/+bug/1508084,2015-11-30
+1516701,1516701,Fix Released,Set 'blocking' default value as message executor,https://bugs.launchpad.net/watcher/+bug/1516701,2015-11-30
+1520599,1520599,Fix Released,Can not trigger a new audit,https://bugs.launchpad.net/watcher/+bug/1520599,2015-11-30
+1513118,1513118,Fix Released,'python setup develop' error,https://bugs.launchpad.net/watcher/+bug/1513118,2015-11-30
+1520215,1520215,Fix Released,TypeError: this.props.clusters.get(...) is undefined,https://bugs.launchpad.net/fuel/+bug/1520215,2015-11-30
+1486952,1486952,Fix Released,Node label validation issue,https://bugs.launchpad.net/fuel/+bug/1486952,2015-11-30
+1487458,1487458,Fix Released,build.py fails with error on AUFS,https://bugs.launchpad.net/kolla/+bug/1487458,2015-11-30
+1387379,1387379,Fix Released,No documentation on the fact that List users/groups  require a domain to be specified in multi domain configuration,https://bugs.launchpad.net/keystone/+bug/1387379,2015-11-30
+1520231,1520231,Fix Released,Compute nodes don't work after reboot,https://bugs.launchpad.net/fuel/+bug/1520231,2015-11-30
+1155255,1155255,Fix Released,revoke token does not revoke the tokens created by the original,https://bugs.launchpad.net/keystone/+bug/1155255,2015-11-30
+1446082,1446082,Fix Released,"Instance without ""extra"" data crashes nova-compute",https://bugs.launchpad.net/nova/+bug/1446082,2015-11-30
+1363569,1363569,Fix Released,No way to return an empty token from a plugin,https://bugs.launchpad.net/python-keystoneclient/+bug/1363569,2015-11-30
+1492970,1492970,Fix Released,"when execute command ""cinder backup-show <Name of backup>"", it throws an Exception:ERROR: list() got an unexpected keyword argument 'search_opts'.",https://bugs.launchpad.net/python-cinderclient/+bug/1492970,2015-11-30
+1518698,1518698,Fix Released,"Missing ""router_ids"" param for FWaaS API",https://bugs.launchpad.net/openstack-api-site/+bug/1518698,2015-11-28
+1519166,1519166,Fix Released,Cinder v2 - Volume actions,https://bugs.launchpad.net/openstack-api-site/+bug/1519166,2015-11-28
+1519162,1519162,Fix Released,"Attachments type is a ""list"" not ""dict""",https://bugs.launchpad.net/openstack-api-site/+bug/1519162,2015-11-28
+1518697,1518697,Fix Released,"Missing ""firewall"" and ""firewalls"" in FwaaS API",https://bugs.launchpad.net/openstack-api-site/+bug/1518697,2015-11-28
+1513053,1513053,Fix Committed,Register extraroute extension for networking-plumgrid,https://bugs.launchpad.net/networking-plumgrid/+bug/1513053,2015-11-27
+1371447,1371447,Fix Released,German translation is quite bad,https://bugs.launchpad.net/openstack-i18n/+bug/1371447,2015-11-27
+1480373,1480373,Fix Released,Add a test for volume and compute quota set,https://bugs.launchpad.net/python-openstackclient/+bug/1480373,2015-11-27
+1504352,1504352,Fix Committed,PEP8 exclusions must be removed,https://bugs.launchpad.net/fuel/+bug/1504352,2015-11-27
+1509543,1509543,Fix Released,deploy_cinder_net_tmpl system test failed with Error code 500 ['NoneType' object has no attribute 'vlan_start'],https://bugs.launchpad.net/fuel/+bug/1509543,2015-11-27
+1496448,1496448,Fix Released,Some Nailgun tests fail with different PYTHONHASHSEED,https://bugs.launchpad.net/fuel/+bug/1496448,2015-11-27
+1485895,1485895,Fix Released,Stop deployment task stucked and wasn't transmitted to astute,https://bugs.launchpad.net/fuel/+bug/1485895,2015-11-27
+1495593,1495593,Fix Released,Update dnsmasq.conf dynamically on changes in admin networks,https://bugs.launchpad.net/fuel/+bug/1495593,2015-11-27
+1346862,1346862,Fix Released,Neutron HA Deployment failed with errors in puppet log (Custom ISO),https://bugs.launchpad.net/fuel/+bug/1346862,2015-11-27
+1270949,1270949,Fix Released,pacemaker can't create 2-nd monitor for master resource,https://bugs.launchpad.net/fuel/+bug/1270949,2015-11-27
+1393772,1393772,Fix Released,neutron server has unsanctioned autostart in HA under Ubuntu,https://bugs.launchpad.net/fuel/+bug/1393772,2015-11-27
+1365607,1365607,Fix Released,"""neutron-db-manage upgrade head"" has wrong behavior during rollback",https://bugs.launchpad.net/fuel/+bug/1365607,2015-11-27
+1361707,1361707,Fix Released,HA deployment failed  err: invalid address  (fuel_settings['nodes'][0]['public_netmask']),https://bugs.launchpad.net/fuel/+bug/1361707,2015-11-27
+1359082,1359082,Fix Released,l3 and dhcp agents should be corosync clones,https://bugs.launchpad.net/fuel/+bug/1359082,2015-11-27
+1348149,1348149,Fix Released,Add an ability to tune important neutron parameters before deploy,https://bugs.launchpad.net/fuel/+bug/1348149,2015-11-27
+1340968,1340968,Fix Released,[library] network namespaces require net.ipv4.ip_forward,https://bugs.launchpad.net/fuel/+bug/1340968,2015-11-27
+1336041,1336041,Fix Released,Unable to resolve Openstack::Ha::Haproxy_service['mysqld'] -> Anchor['galera'] dependency,https://bugs.launchpad.net/fuel/+bug/1336041,2015-11-27
+1318936,1318936,Fix Released,Rabbit service does not start after reboot the controller(HA mode),https://bugs.launchpad.net/fuel/+bug/1318936,2015-11-27
+1310661,1310661,Fix Released,L23__linux_bonded_interfaces__has_wrong_down-n-up_order,https://bugs.launchpad.net/fuel/+bug/1310661,2015-11-27
+1306084,1306084,Fix Released,[icehouse] Neutron API not available,https://bugs.launchpad.net/fuel/+bug/1306084,2015-11-27
+1285929,1285929,Fix Released,when neutron-dhcp-agent dies / moves dnsmasq is left running,https://bugs.launchpad.net/fuel/+bug/1285929,2015-11-27
+1284189,1284189,Fix Released,refactor code of solution for bug/1267431,https://bugs.launchpad.net/fuel/+bug/1284189,2015-11-27
+1277147,1277147,Fix Released,L23network module can't get one-element array as bond parameter,https://bugs.launchpad.net/fuel/+bug/1277147,2015-11-27
+1277112,1277112,Fix Released,wrong condition in l23network bond type,https://bugs.launchpad.net/fuel/+bug/1277112,2015-11-27
+1272349,1272349,Fix Released,Don't assign public addresses for nodes which don't require them,https://bugs.launchpad.net/fuel/+bug/1272349,2015-11-27
+1310646,1310646,Fix Released,[library] unit-tests for l23network new resources not avalaible,https://bugs.launchpad.net/fuel/+bug/1310646,2015-11-27
+1397038,1397038,Fix Released,Snapshot creating very slow on cluster with offline nodes,https://bugs.launchpad.net/fuel/+bug/1397038,2015-11-27
+1463889,1463889,Fix Released,unit tests are not isolated from /etc/ceilometer/ceilometer.conf,https://bugs.launchpad.net/gnocchi/+bug/1463889,2015-11-27
+1489404,1489404,Fix Released,gate hooks need to be updated due to subunit2html location change,https://bugs.launchpad.net/python-ceilometerclient/+bug/1489404,2015-11-27
+1489404,1489404,Fix Released,gate hooks need to be updated due to subunit2html location change,https://bugs.launchpad.net/ceilometer/+bug/1489404,2015-11-27
+1489404,1489404,Fix Released,gate hooks need to be updated due to subunit2html location change,https://bugs.launchpad.net/aodh/+bug/1489404,2015-11-27
+1489404,1489404,Fix Released,gate hooks need to be updated due to subunit2html location change,https://bugs.launchpad.net/gnocchi/+bug/1489404,2015-11-27
+1518923,1518923,Fix Released,UI not accessible when removing networks using CLI,https://bugs.launchpad.net/fuel/+bug/1518923,2015-11-27
+1286110,1286110,Fix Released,Min level filter changes from ERROR to INFO for orchestrator logs,https://bugs.launchpad.net/fuel/+bug/1286110,2015-11-27
+1520265,1520265,Fix Committed,Basic framework required to add CLI unit test cases,https://bugs.launchpad.net/networking-plumgrid/+bug/1520265,2015-11-27
+1507929,1507929,Fix Released,Number of items instead percents shown on fuel-stats cahrts,https://bugs.launchpad.net/fuel/+bug/1507929,2015-11-27
+1518201,1518201,Fix Released,Networks tab unexpectedly locked after saving changes,https://bugs.launchpad.net/fuel/+bug/1518201,2015-11-27
+1483651,1483651,Fix Released,User should be able to save networking changes during verification,https://bugs.launchpad.net/fuel/+bug/1483651,2015-11-27
+1516632,1516632,Fix Committed,Integrate retry functionality to seedclient,https://bugs.launchpad.net/fuel/+bug/1516632,2015-11-27
+1514493,1514493,Fix Released,Invalid default gateway and IP range on Networks tab,https://bugs.launchpad.net/fuel/+bug/1514493,2015-11-27
+1439057,1439057,Fix Released,--tests option in run_tests.sh in nailgun returns 0 regardless of test result.,https://bugs.launchpad.net/fuel/+bug/1439057,2015-11-27
+1513445,1513445,Fix Released,Unexpected dockerctl lock after deployment,https://bugs.launchpad.net/fuel/+bug/1513445,2015-11-27
+1518341,1518341,Fix Released,'fuel nodegroup' throws exception KeyError: 'cluster',https://bugs.launchpad.net/fuel/+bug/1518341,2015-11-27
+1518381,1518381,Fix Committed,Cluster plugin dashboard link support,https://bugs.launchpad.net/fuel/+bug/1518381,2015-11-27
+1508423,1508423,Fix Released,"Network configuration handler in nailgun changed API, python-fuelclient did not follow",https://bugs.launchpad.net/fuel/+bug/1508423,2015-11-27
+1519990,1519990,Fix Released,"Fuel master installation fails: 'ProgrammingError: (ProgrammingError) relation ""releases"" does not exist'",https://bugs.launchpad.net/fuel/+bug/1519990,2015-11-27
+1519802,1519802,Fix Released,Need to modify baremetal network configuration in fuel-qa framework,https://bugs.launchpad.net/fuel/+bug/1519802,2015-11-27
+1164445,1164445,Fix Released,Can auth_token be more permissive when specifying auth_version?,https://bugs.launchpad.net/keystonemiddleware/+bug/1164445,2015-11-27
+1488347,1488347,Fix Released,Can't specify identity endpoint for token validation among several keystone servers in  keystonemiddleware,https://bugs.launchpad.net/keystonemiddleware/+bug/1488347,2015-11-27
+1447731,1447731,Fix Released,memcache tests are skipped on python 3,https://bugs.launchpad.net/keystonemiddleware/+bug/1447731,2015-11-27
+1461767,1461767,Fix Released,Policy.json based RBAC does not work on ceilometer events api,https://bugs.launchpad.net/ceilometer/+bug/1461767,2015-11-27
+1180998,1180998,Fix Released,auth_token is trying to create the signing_dir in the  AuthProtocol initialization even though keystone is configured to work with UUID token which is incorrect,https://bugs.launchpad.net/keystonemiddleware/+bug/1180998,2015-11-27
+1240202,1240202,Fix Released,doc/source/middlewarearchitecture.rst is redundant,https://bugs.launchpad.net/keystonemiddleware/+bug/1240202,2015-11-27

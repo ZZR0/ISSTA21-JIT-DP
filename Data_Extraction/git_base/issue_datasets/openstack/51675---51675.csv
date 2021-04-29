@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1473924,1473924,Fix Released,datasource-row-list API raise 400 exception when thread switching occur in update_from_datasource(),https://bugs.launchpad.net/congress/+bug/1473924,2016-01-13
+1486508,1486508,Fix Released,"The behavior of the changing page button for the lists(alarm definitions, alarms and notifications) should be improved.",https://bugs.launchpad.net/monasca/+bug/1486508,2016-01-13
+1423072,1423072,Fix Released,devstack localrc instructions leave out permissions change,https://bugs.launchpad.net/congress/+bug/1423072,2016-01-13
+1533683,1533683,Fix Released,"Terms missing from security-doc glossary: https, amqp",https://bugs.launchpad.net/openstack-manuals/+bug/1533683,2016-01-13
+1514998,1514998,Fix Released,Move L3 related code to networking_ovn/l3/l3_ovn.py,https://bugs.launchpad.net/networking-ovn/+bug/1514998,2016-01-13
+1533161,1533161,Fix Released,The wrong location for lock_path of  params in cinder.conf,https://bugs.launchpad.net/puppet-cinder/+bug/1533161,2016-01-13
+1533777,1533777,Fix Released,n-net doesn't start in gate-tempest-dsvm-large-ops job on stable/liberty but devstack doesn't fail,https://bugs.launchpad.net/openstack-gate/+bug/1533777,2016-01-13
+1507884,1507884,Fix Released,ceilometer should construct keystoneclient with session,https://bugs.launchpad.net/ceilometer/+bug/1507884,2016-01-13
+1526530,1526530,Fix Released,stable/liberty integration tests failing,https://bugs.launchpad.net/ceilometer/+bug/1526530,2016-01-13
+1526669,1526669,Fix Released,verify gnocchi connection before processing,https://bugs.launchpad.net/ceilometer/+bug/1526669,2016-01-13
+1526676,1526676,Fix Released,pysnmp==4.2.1 doesn't work with ceilometer,https://bugs.launchpad.net/ceilometer/+bug/1526676,2016-01-13
+1530663,1530663,Fix Released,Support orchestration resource_type in Gnocchi,https://bugs.launchpad.net/ceilometer/+bug/1530663,2016-01-13
+1519729,1519729,Fix Released,Authentication error will be thrown if we construct ceilometer client in a certain way,https://bugs.launchpad.net/python-ceilometerclient/+bug/1519729,2016-01-13
+1533712,1533712,Fix Released,ceilometerclient cannot resolve aodh redirect,https://bugs.launchpad.net/python-ceilometerclient/+bug/1533712,2016-01-13
+1518844,1518844,Fix Released,No handling of no default cinder volume type,https://bugs.launchpad.net/horizon/+bug/1518844,2016-01-13
+1530911,1530911,Fix Released,gentoo support,https://bugs.launchpad.net/diskimage-builder/+bug/1530911,2016-01-13
+1527392,1527392,Fix Released,sysctl settings are not getting set in the amphora image,https://bugs.launchpad.net/octavia/+bug/1527392,2016-01-13
+1506742,1506742,Fix Released,'openstack zone list' command gives 'invalid filters type' exception  when  used with --type filter.,https://bugs.launchpad.net/designate/+bug/1506742,2016-01-13
+1519356,1519356,Fix Released,Policy file is read before configuration parsed with designate-manage command,https://bugs.launchpad.net/designate/+bug/1519356,2016-01-13
+1521265,1521265,Fix Released,Log configuration causes error in applications that have already processed configuration arguments,https://bugs.launchpad.net/castellan/+bug/1521265,2016-01-13
+1515388,1515388,Fix Released,can not set auth_endpoint in run time.  (options.set_defaults),https://bugs.launchpad.net/castellan/+bug/1515388,2016-01-13
+1474185,1474185,Fix Released,404 for developer documentation in readme,https://bugs.launchpad.net/castellan/+bug/1474185,2016-01-13
+1505407,1505407,Fix Released,Define PasteDeploy filter factories,https://bugs.launchpad.net/keystonemiddleware/+bug/1505407,2016-01-13
+1208991,1208991,Fix Released,no keystone endpoint gives bad error message,https://bugs.launchpad.net/python-keystoneclient/+bug/1208991,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/cinder/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/designate/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/nova/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/neutron/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/ironic/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/barbican/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/trove/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/sahara/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/ceilometer/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/heat/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/zaqar/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/glance/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/swift/+bug/1342274,2016-01-13
+1342274,1342274,Fix Released,auth_token middleware in keystoneclient is deprecated,https://bugs.launchpad.net/python-keystoneclient/+bug/1342274,2016-01-13
+1479582,1479582,Fix Released,internalURL is missed in test_gives_v2_catalog function,https://bugs.launchpad.net/python-keystoneclient/+bug/1479582,2016-01-13
+1483872,1483872,Fix Released,RuntimeError: OrderedDict mutated during iteration,https://bugs.launchpad.net/python-keystoneclient/+bug/1483872,2016-01-13
+1513839,1513839,Fix Released,discovery constructor fails with only session parameter,https://bugs.launchpad.net/python-keystoneclient/+bug/1513839,2016-01-13
+1517907,1517907,Fix Released,GnomeKeyring was imported without specifying a version first.,https://bugs.launchpad.net/python-keystoneclient/+bug/1517907,2016-01-13
+1515048,1515048,Fix Released,Exceptions mismatch when using keystoneauth,https://bugs.launchpad.net/python-keystoneclient/+bug/1515048,2016-01-13
+1518511,1518511,Fix Released,Create project method has incorrect positional warning,https://bugs.launchpad.net/python-keystoneclient/+bug/1518511,2016-01-13
+1521476,1521476,Fix Released,K2K plugin doesn't work when using generic plugin as base,https://bugs.launchpad.net/keystoneauth/+bug/1521476,2016-01-13
+1531153,1531153,Fix Committed,nailgun performance tests failing for verify job,https://bugs.launchpad.net/fuel/+bug/1531153,2016-01-13
+1515698,1515698,Fix Released,CLI support for VPNaaS multiple local subnets,https://bugs.launchpad.net/openstack-manuals/+bug/1515698,2016-01-13
+1530988,1530988,Fix Released,Add protocol value options to sg-rule-create,https://bugs.launchpad.net/openstack-manuals/+bug/1530988,2016-01-13
+1530988,1530988,Fix Released,Add protocol value options to sg-rule-create,https://bugs.launchpad.net/python-neutronclient/+bug/1530988,2016-01-13
+1526952,1526952,Fix Committed,update_vm_host is not defined in db_lib in stable/kilo,https://bugs.launchpad.net/networking-arista/+bug/1526952,2016-01-13
+1449066,1449066,Fix Released,Remove keystoneclient.middleware,https://bugs.launchpad.net/python-keystoneclient/+bug/1449066,2016-01-13
+1462694,1462694,Fix Released,python keystone v3 client RoleAssignmentManager  needs to  pass include_subtree,https://bugs.launchpad.net/python-keystoneclient/+bug/1462694,2016-01-13
+1526686,1526686,Fix Released,very poor perfomance with PKI tokens,https://bugs.launchpad.net/python-keystoneclient/+bug/1526686,2016-01-13
+1526651,1526651,Fix Released,remove apiclient exceptions,https://bugs.launchpad.net/python-keystoneclient/+bug/1526651,2016-01-13
+1333951,1333951,Fix Released,ec2_token middleware needs tests,https://bugs.launchpad.net/keystonemiddleware/+bug/1333951,2016-01-13
+1473039,1473039,Fix Released,ec2 token authentication doesn't support v4 protocol,https://bugs.launchpad.net/keystonemiddleware/+bug/1473039,2016-01-13
+1523311,1523311,Fix Released,Deprecated auth_token options in sample configs,https://bugs.launchpad.net/keystonemiddleware/+bug/1523311,2016-01-13
+1422432,1422432,Fix Released,configuration documentation needs updating,https://bugs.launchpad.net/keystonemiddleware/+bug/1422432,2016-01-13
+1423973,1423973,Fix Released,Use choices from oslo_config,https://bugs.launchpad.net/glance/+bug/1423973,2016-01-13
+1423973,1423973,Fix Released,Use choices from oslo_config,https://bugs.launchpad.net/nova/+bug/1423973,2016-01-13
+1423973,1423973,Fix Released,Use choices from oslo_config,https://bugs.launchpad.net/keystonemiddleware/+bug/1423973,2016-01-13
+1423973,1423973,Fix Released,Use choices from oslo_config,https://bugs.launchpad.net/keystone/+bug/1423973,2016-01-13
+1533463,1533463,Fix Released,Can't set project_name in auth_token fixture,https://bugs.launchpad.net/keystonemiddleware/+bug/1533463,2016-01-13
+1517858,1517858,Fix Released,Correct the examples in keystoneauth documentation,https://bugs.launchpad.net/keystoneauth/+bug/1517858,2016-01-13
+1502232,1502232,Fix Released,Loads of unit test failures in Python 3.5: OrderedDict mutated during iteration,https://bugs.launchpad.net/keystoneauth/+bug/1502232,2016-01-13
+1523893,1523893,Fix Released,add betamax in test-requirements.txt,https://bugs.launchpad.net/keystoneauth/+bug/1523893,2016-01-13
+1532144,1532144,Fix Released,Shouldn't be able to list pods when bay is not ready,https://bugs.launchpad.net/python-magnumclient/+bug/1532144,2016-01-13
+1531458,1531458,Fix Committed,Add header to interface configs about that they are managed by Puppet,https://bugs.launchpad.net/fuel/+bug/1531458,2016-01-13
+1527533,1527533,Fix Released,[CDH]IMPALAD service validation check is of no effect,https://bugs.launchpad.net/sahara/+bug/1527533,2016-01-13
+1273831,1273831,Fix Released,"Keystone v2.0 documentation shows unsupported ""versionId"", ""versionList"", ""versionInfo"" fields",https://bugs.launchpad.net/openstack-api-site/+bug/1273831,2016-01-13
+1532278,1532278,Fix Released,bypass-url still gets url from service catalog,https://bugs.launchpad.net/python-magnumclient/+bug/1532278,2016-01-13
+1532773,1532773,Fix Committed,remove docker workaround for systemd,https://bugs.launchpad.net/fuel/+bug/1532773,2016-01-13
+1528445,1528445,Fix Released,Tempest tests does not honor CONF.enable_instance_password,https://bugs.launchpad.net/tempest/+bug/1528445,2016-01-13
+1530783,1530783,Fix Released,Should use new password to test authentication after rebuild,https://bugs.launchpad.net/tempest/+bug/1530783,2016-01-13
+1532796,1532796,Fix Released,Some security group tests are executed regardless of enabled network features in tempest config,https://bugs.launchpad.net/tempest/+bug/1532796,2016-01-13

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1493060,1493060,Fix Released,if gnocchi-metricd fails start the storage client it processes no metrics and does not retry,https://bugs.launchpad.net/gnocchi/+bug/1493060,2015-12-02
+1512680,1512680,Fix Released,[docs] Create description for basic CI installation,https://bugs.launchpad.net/fuel/+bug/1512680,2015-12-02
+1425103,1425103,Fix Released,nova.network.linux_net.metadata_accept() does not support IPv6,https://bugs.launchpad.net/nova/+bug/1425103,2015-12-02
+1497082,1497082,Fix Released,auth_token plugin options don't show in generated configs,https://bugs.launchpad.net/keystonemiddleware/+bug/1497082,2015-12-01
+1284321,1284321,Fix Released,qos commands not working in api version 2,https://bugs.launchpad.net/cinder/+bug/1284321,2015-12-01
+1517379,1517379,Fix Released,There is no way to return to the top page from inside of doc,https://bugs.launchpad.net/openstack-manuals/+bug/1517379,2015-12-01
+1518930,1518930,Fix Released,provider lnx[ovs]_redhat7 is not supported by l23-network module,https://bugs.launchpad.net/fuel/+bug/1518930,2015-12-01
+1521148,1521148,Fix Released,Need to add system_test.failover.filling_root to swarm,https://bugs.launchpad.net/fuel/+bug/1521148,2015-12-01
+1521622,1521622,Fix Released,unable to install network-checker,https://bugs.launchpad.net/fuel/+bug/1521622,2015-12-01
+1328546,1328546,Fix Released,Race condition when hard rebooting instance,https://bugs.launchpad.net/neutron/+bug/1328546,2015-12-01
+1517890,1517890,Fix Released,[system-tests] Add a test to verify that template based network configuration is not broken after node reboot,https://bugs.launchpad.net/fuel/+bug/1517890,2015-12-01
+1516658,1516658,Fix Released,[system-tests] Add a test to verify that network bond config is not corrupted due to deployment failure,https://bugs.launchpad.net/fuel/+bug/1516658,2015-12-01
+1512677,1512677,Fix Released,[system-tests]Refactor Fuel Master migration test to use template based approach,https://bugs.launchpad.net/fuel/+bug/1512677,2015-12-01
+1512021,1512021,Fix Released,Neutron_router_interface[router04:net04__subnet]/ensure) change from absent to present failed,https://bugs.launchpad.net/fuel/+bug/1512021,2015-12-01
+1519811,1519811,Fix Released,A lot of Tempest tests failed on CI lab,https://bugs.launchpad.net/fuel/+bug/1519811,2015-12-01
+1519831,1519831,Fix Released,Tempest tests should be executed on daily basis even if SWARM tests was skipped,https://bugs.launchpad.net/fuel/+bug/1519831,2015-12-01
+1517493,1517493,Fix Committed,missing support for adminUserDomainId and adminUserProjectId in monasca-api,https://bugs.launchpad.net/monasca/+bug/1517493,2015-12-01
+1501759,1501759,Fix Released,Detach-database failed to deploy,https://bugs.launchpad.net/fuel/+bug/1501759,2015-12-01
+1520572,1520572,Fix Released,[system tests] Add tests to verify stop reinstallation cases,https://bugs.launchpad.net/fuel/+bug/1520572,2015-12-01
+1499468,1499468,Fix Released,remove bootstrap_admin_node.sh (not docker one),https://bugs.launchpad.net/fuel/+bug/1499468,2015-12-01
+1234550,1234550,Fix Released,Quantum/Neutron gating broken in stable/grizzly,https://bugs.launchpad.net/python-neutronclient/+bug/1234550,2015-12-01
+1521584,1521584,Fix Released,Need redeploy server srv95-bud.infra.mirantis.net,https://bugs.launchpad.net/fuel/+bug/1521584,2015-12-01
+1510065,1510065,Fix Released,Configuration of connectivity for srv94-bud.infra.mirantis.net - srv98-bud.infra.mirantis.net,https://bugs.launchpad.net/fuel/+bug/1510065,2015-12-01
+1232437,1232437,Fix Released,Expose insecure option of keystoneclient to avoid SSL cert validation,https://bugs.launchpad.net/ceilometer/+bug/1232437,2015-12-01
+1505728,1505728,Fix Committed,script for creating new branches does not  have checks in code,https://bugs.launchpad.net/fuel/+bug/1505728,2015-12-01
+1512604,1512604,Fix Committed,packages/trusty/ceph: `8.0' branch is missing,https://bugs.launchpad.net/fuel/+bug/1512604,2015-12-01
+1324927,1324927,Fix Released,"qemu vulnerabilities (CVE-2014-0150, CVE-2014-2894)",https://bugs.launchpad.net/fuel/+bug/1324927,2015-12-01
+1521508,1521508,Fix Released,Old ISO on Fuel CI,https://bugs.launchpad.net/fuel/+bug/1521508,2015-12-01
+1518869,1518869,Fix Released,creating a provider network type flat fails,https://bugs.launchpad.net/networking-plumgrid/+bug/1518869,2015-12-01
+1519073,1519073,Fix Released,creating a provider network type vlan fails,https://bugs.launchpad.net/networking-plumgrid/+bug/1519073,2015-12-01
+1519829,1519829,Fix Released,Need to change the name of Tempest test suite in TestRail and in CI jobs,https://bugs.launchpad.net/fuel/+bug/1519829,2015-12-01
+1510999,1510999,Fix Released,Fuel 8.0 DB migration test failed,https://bugs.launchpad.net/fuel/+bug/1510999,2015-12-01
+1485047,1485047,Fix Released,Forcing CPU flags makes the guest kernel Oops,https://bugs.launchpad.net/fuel/+bug/1485047,2015-12-01
+1519301,1519301,Fix Released,New nodegroup can't be added to the operational environment using Fuel UI,https://bugs.launchpad.net/fuel/+bug/1519301,2015-12-01
+1511319,1511319,Fix Released,Cluster with detach-keystone failed to deploy - probably ssl issue,https://bugs.launchpad.net/fuel/+bug/1511319,2015-12-01
+1516987,1516987,Fix Released,UI doesn't work in some browsers,https://bugs.launchpad.net/fuel/+bug/1516987,2015-12-01
+1516791,1516791,Fix Released,LBaaS v2 doc for show loadbalancer has incorrect status,https://bugs.launchpad.net/openstack-api-site/+bug/1516791,2015-12-01
+1463837,1463837,Fix Released,Heat (kilo) fails  in standalone mode with trusts as the new default deferred auth method,https://bugs.launchpad.net/devstack/+bug/1463837,2015-12-01
+1515441,1515441,Fix Committed,Monasca API sometimes doesn't preserve milliseconds on timestamp,https://bugs.launchpad.net/monasca/+bug/1515441,2015-12-01
+1480563,1480563,Fix Released,weird sort for hypervisor_hostname,https://bugs.launchpad.net/horizon/+bug/1480563,2015-12-01
+1324470,1324470,Fix Released,"useless iso8601 debug info displayed if use ""--debug""",https://bugs.launchpad.net/python-keystoneclient/+bug/1324470,2015-12-01
+1324470,1324470,Fix Released,"useless iso8601 debug info displayed if use ""--debug""",https://bugs.launchpad.net/python-heatclient/+bug/1324470,2015-12-01
+1324470,1324470,Fix Released,"useless iso8601 debug info displayed if use ""--debug""",https://bugs.launchpad.net/python-ceilometerclient/+bug/1324470,2015-12-01
+1324470,1324470,Fix Committed,"useless iso8601 debug info displayed if use ""--debug""",https://bugs.launchpad.net/python-swiftclient/+bug/1324470,2015-12-01
+1516820,1516820,Fix Released,Event streamer eventually gets in error state consuming 100% of a cpu,https://bugs.launchpad.net/ciwatch/+bug/1516820,2015-11-30
+1498370,1498370,Fix Released,[SRU] DHCP agent: interface unplug leads to exception,https://bugs.launchpad.net/neutron/+bug/1498370,2015-11-30
+1518817,1518817,Fix Committed,cisco nexus ML2 MD: L3 agent HA interfaces not getting VLAN created on Nexus switch,https://bugs.launchpad.net/networking-cisco/+bug/1518817,2015-11-30
+1451756,1451756,Fix Released,OVS with GRE doesn't work in 3.10,https://bugs.launchpad.net/fuel/+bug/1451756,2015-11-30
+1405632,1405632,Fix Released,build new DEB/RPM for docker-py 0.7.0,https://bugs.launchpad.net/fuel/+bug/1405632,2015-11-30
+1491637,1491637,Fix Released,Error when adding a new Firewall Rule,https://bugs.launchpad.net/horizon/+bug/1491637,2015-11-30
+1482710,1482710,Fix Released,WARNING: There are issues connecting to Fuel update repository.,https://bugs.launchpad.net/fuel/+bug/1482710,2015-11-30
+1487498,1487498,Fix Released,Fuel admin node installation takes too much time because of building ubuntu bootstrap image,https://bugs.launchpad.net/fuel/+bug/1487498,2015-11-30
+1455756,1455756,Fix Released,Keystone logs from the node renamed after intergated with apache2,https://bugs.launchpad.net/fuel/+bug/1455756,2015-11-30
+1470172,1470172,Fix Released,ACPI is missing on fuel nodes,https://bugs.launchpad.net/fuel/+bug/1470172,2015-11-30
+1465547,1465547,Fix Released,FUEL - CLI: same description for several  help commands,https://bugs.launchpad.net/fuel/+bug/1465547,2015-11-30
+1481296,1481296,Fix Released,Keystone expose novav3 API with wrong address,https://bugs.launchpad.net/fuel/+bug/1481296,2015-11-30
+1470771,1470771,Fix Released,No connectivity notifies me to update and destroy_all - Formatting and content issue,https://bugs.launchpad.net/fuel/+bug/1470771,2015-11-30
+1480993,1480993,Fix Released,Previously selected logs level  and source are not saved after switching tab,https://bugs.launchpad.net/fuel/+bug/1480993,2015-11-30
+1397360,1397360,Fix Released,animated progress bars lead high cpu usage,https://bugs.launchpad.net/fuel/+bug/1397360,2015-11-30
+1418848,1418848,Fix Released,We can specify any data in Syslog hostname (fuel UI settings tab),https://bugs.launchpad.net/fuel/+bug/1418848,2015-11-30
+1451552,1451552,Fix Released,PXE menu without comments may confuse users,https://bugs.launchpad.net/fuel/+bug/1451552,2015-11-30
+1462343,1462343,Fix Released,New password for fuel user saved after changing in bash history,https://bugs.launchpad.net/fuel/+bug/1462343,2015-11-30
+1493392,1493392,Fix Released,User can use only 2 Guest OS DNS Servers,https://bugs.launchpad.net/fuel/+bug/1493392,2015-11-30
+1484280,1484280,Fix Released,Rabbit OCF monitor returns 'generic error' when it should be 'not running' instead,https://bugs.launchpad.net/fuel/+bug/1484280,2015-11-30
+1473452,1473452,Fix Released,[fuel-web][nailgun] generators are not supported in fuel plugin environment_config.yaml,https://bugs.launchpad.net/fuel/+bug/1473452,2015-11-30
+1493412,1493412,Fix Released,PXE interface flapping,https://bugs.launchpad.net/fuel/+bug/1493412,2015-11-30
+1492933,1492933,Fix Released,"Deployment with networking template fails if 'keystone/api' network is moved to separate interface: ""Timeout waiting for HAProxy backend: 'keystone-2' status to become: 'up' after 600 seconds!""",https://bugs.launchpad.net/fuel/+bug/1492933,2015-11-30
+1492781,1492781,Fix Released,Deploy with bonded admin interfaces failed on task netconfig.pp: Can't set property '/sys/class/net/lnx-bond0/bonding/xmit_hash_policy' to 'undef',https://bugs.launchpad.net/fuel/+bug/1492781,2015-11-30
+1519750,1519750,Fix Released,stable tarball contains master version,https://bugs.launchpad.net/neutron/+bug/1519750,2015-11-30
+1494997,1494997,Fix Released,Kubernetes:  empty configuration for etcd slave node,https://bugs.launchpad.net/murano-apps/+bug/1494997,2015-11-30
+1519010,1519010,Fix Released,murano-ci is red for client and dashboard,https://bugs.launchpad.net/murano/+bug/1519010,2015-11-30
+1521101,1521101,Fix Released,Need redeploy server srv94-bud.infra.mirantis.net,https://bugs.launchpad.net/fuel/+bug/1521101,2015-11-30
+1518247,1518247,Fix Released,[Packaging][python-cffi] Versioned provides leads to warnings in apt (Ubuntu Trusy),https://bugs.launchpad.net/fuel/+bug/1518247,2015-11-30
+1493898,1493898,Fix Released,Add scroll_to_top button for Fuel UI,https://bugs.launchpad.net/fuel/+bug/1493898,2015-11-30
+1446387,1446387,Fix Released,Support Host header in REST queries,https://bugs.launchpad.net/designate/+bug/1446387,2015-11-30

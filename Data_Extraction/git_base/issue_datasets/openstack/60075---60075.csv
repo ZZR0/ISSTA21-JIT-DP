@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1437245,1437245,Fix Committed,Fuel backup doesn't flush the docker images after completion,https://bugs.launchpad.net/fuel/+bug/1437245,2015-09-26
+1383741,1383741,Fix Released,File system corruption in containers on master node,https://bugs.launchpad.net/fuel/+bug/1383741,2015-09-26
+1316377,1316377,Fix Released,[library] Enabling vCenter integration disables Ceph for Glance and RadosGW,https://bugs.launchpad.net/fuel/+bug/1316377,2015-09-26
+1458573,1458573,Fix Released,[OSCI][install test] Wrong application execution,https://bugs.launchpad.net/fuel/+bug/1458573,2015-09-26
+1441707,1441707,Fix Released,[system-tests] System test was failed with exception when try fetch ip in net namespace,https://bugs.launchpad.net/fuel/+bug/1441707,2015-09-26
+1438725,1438725,Fix Committed,[astute][plugins] Global shell timeout,https://bugs.launchpad.net/fuel/+bug/1438725,2015-09-26
+1413182,1413182,Fix Released,Same ip permitted in ui for dns in neutron l3 setup.,https://bugs.launchpad.net/fuel/+bug/1413182,2015-09-26
+1412792,1412792,Fix Released,[system-tests] If haproxy exec command check fails we do not fail the test,https://bugs.launchpad.net/fuel/+bug/1412792,2015-09-26
+1459772,1459772,Fix Committed,Disabling management net on a single swift proxy node leads to a very long swift response time,https://bugs.launchpad.net/fuel/+bug/1459772,2015-09-26
+1443827,1443827,Fix Released,[System tests] Need to add tests to check rabbit node kick in case corosync node dies,https://bugs.launchpad.net/fuel/+bug/1443827,2015-09-26
+1464932,1464932,Fix Released,Conntrackd: logrotate postsctipt doesn't restart deamon,https://bugs.launchpad.net/fuel/+bug/1464932,2015-09-26
+1455910,1455910,Fix Released,Pacemaker 'vip__public' can be stopped for a while when deploy finishes.,https://bugs.launchpad.net/fuel/+bug/1455910,2015-09-26
+1451796,1451796,Fix Committed,Haproxy_backend_status[keystone-admin] is being configured after Ceilometer::Keystone::Auth/Keystone_role[ResellerAdmin] and breaks deployment,https://bugs.launchpad.net/fuel/+bug/1451796,2015-09-26
+1449677,1449677,Fix Released,fuel-dockerctl has version template logic typo,https://bugs.launchpad.net/fuel/+bug/1449677,2015-09-26
+1446593,1446593,Fix Released,Cinder backup service: Volume backup of 50GB failed,https://bugs.launchpad.net/fuel/+bug/1446593,2015-09-26
+1445684,1445684,Fix Released,"VM-to-VM 4 Gbps, expected 9-10",https://bugs.launchpad.net/fuel/+bug/1445684,2015-09-26
+1425605,1425605,Fix Released,logging doesn't explicitly depend on crontabs,https://bugs.launchpad.net/fuel/+bug/1425605,2015-09-26
+1431547,1431547,Fix Released,Public VIP is inaccessible from external networks,https://bugs.launchpad.net/fuel/+bug/1431547,2015-09-26
+1476227,1476227,Fix Released,[osci] MARK: ERROR: Package version in stable repo is newer in 5.1-updates branch,https://bugs.launchpad.net/fuel/+bug/1476227,2015-09-26
+1446620,1446620,Fix Released,package was not rebuilt,https://bugs.launchpad.net/fuel/+bug/1446620,2015-09-26
+1481877,1481877,Fix Committed,stable/juno branches are versioned incorrectly,https://bugs.launchpad.net/akanda/+bug/1481877,2015-09-25
+1479536,1479536,Fix Released,[plugins] Deployment tasks fails on master,https://bugs.launchpad.net/fuel/+bug/1479536,2015-09-25
+1451515,1451515,Fix Released,Addition or removal of controller invalidates most of Keystone tokens,https://bugs.launchpad.net/fuel/+bug/1451515,2015-09-25
+1492115,1492115,Fix Released,Service nova does not have required endpoint in service catalog for the resource type OS::Nova::Server,https://bugs.launchpad.net/python-heatclient/+bug/1492115,2015-09-25
+1482667,1482667,Fix Released,[fuel-library]Unable to perform update_modules.sh,https://bugs.launchpad.net/fuel/+bug/1482667,2015-09-25
+1496276,1496276,Fix Committed,"In Monasca document, some of the unit expression in the semantics for metrics are not consistent or missing",https://bugs.launchpad.net/monasca/+bug/1496276,2015-09-25
+1496274,1496274,Fix Committed,"Semantics of some metrics for ""Apache Web Server"" in the Monasca document are incorrect",https://bugs.launchpad.net/monasca/+bug/1496274,2015-09-25
+1497172,1497172,Fix Committed,"MariaDB and semantics of the metrics should be described in documentation of ""MySQL Checks"".",https://bugs.launchpad.net/monasca/+bug/1497172,2015-09-25
+1489923,1489923,Fix Released,Could not evaluate: Execution of '/sbin/ip --force link set up dev eth4.123' returned 2: RTNETLINK answers: Network is down,https://bugs.launchpad.net/fuel/+bug/1489923,2015-09-25
+1484049,1484049,Fix Released,Allocated role locks the whole dependent setting group,https://bugs.launchpad.net/fuel/+bug/1484049,2015-09-25
+1485188,1485188,Fix Released,ubuntu bootstrap: node fails to boot (hardware dependent),https://bugs.launchpad.net/fuel/+bug/1485188,2015-09-25
+1367250,1367250,Fix Released,[docs] Document containers structure,https://bugs.launchpad.net/fuel/+bug/1367250,2015-09-25
+1474380,1474380,Fix Released,[fuel-dev-docs] Missing fuel-agent repo in Getting sources,https://bugs.launchpad.net/fuel/+bug/1474380,2015-09-25
+1443347,1443347,Fix Released,[feature-stats] Add filtering of data on the web-application side,https://bugs.launchpad.net/fuel/+bug/1443347,2015-09-25
+1492138,1492138,Fix Released,"Floating IPs of VMs are not accessible from the external network, VMs can't access Internet",https://bugs.launchpad.net/fuel/+bug/1492138,2015-09-25
+1455534,1455534,Fix Committed,OVS endpoints configuration using FUEL CLI,https://bugs.launchpad.net/fuel/+bug/1455534,2015-09-25
+1497799,1497799,Fix Released,iRMC vmedia deploy fails if vmedia is already attached,https://bugs.launchpad.net/ironic/+bug/1497799,2015-09-25
+1495668,1495668,Fix Released,Ironic Python Agent's readme does not include links to the wiki and dev docs,https://bugs.launchpad.net/ironic/+bug/1495668,2015-09-25
+1496552,1496552,Fix Released,custom DictMatches matcher in unit tests can be removed,https://bugs.launchpad.net/ironic/+bug/1496552,2015-09-25
+1495241,1495241,Fix Released,Configure ironic services to be automatically started at boot time in 'install guide',https://bugs.launchpad.net/ironic/+bug/1495241,2015-09-25
+1499284,1499284,Fix Released,CIMC common.py missing i18n _ function import,https://bugs.launchpad.net/ironic/+bug/1499284,2015-09-25
+1496867,1496867,Fix Released,ssh driver requirements unclear,https://bugs.launchpad.net/ironic/+bug/1496867,2015-09-25
+1496026,1496026,Fix Released,iBoot test taking more time than needed,https://bugs.launchpad.net/ironic/+bug/1496026,2015-09-25
+1494807,1494807,Fix Released,Docs: --is-public parameter for glance image-create has been removed,https://bugs.launchpad.net/ironic/+bug/1494807,2015-09-25
+1311288,1311288,Fix Released,API end-points for changing node states are not discoverable,https://bugs.launchpad.net/ironic/+bug/1311288,2015-09-25
+1494991,1494991,Fix Released,PXE files setup incorrectly when tftpd daemon uses --secure,https://bugs.launchpad.net/ironic/+bug/1494991,2015-09-25
+1494367,1494367,Fix Released,IPA: missing dmidecode binary (it's missing ipmitool as well),https://bugs.launchpad.net/ironic/+bug/1494367,2015-09-25
+1486148,1486148,Fix Released,IPMITool vendor passthru is not used in any driver,https://bugs.launchpad.net/ironic/+bug/1486148,2015-09-25
+1407820,1407820,Fix Released,server will not boot from pxe if it does not support command 'chassis bootdev pxe ' with 'persistent' option,https://bugs.launchpad.net/ironic/+bug/1407820,2015-09-25
+1498275,1498275,Fix Released,node.target_raid_config cannot be unset,https://bugs.launchpad.net/ironic/+bug/1498275,2015-09-25
+1493816,1493816,Fix Released,Rolling-upgrade: lack of indirection API,https://bugs.launchpad.net/ironic/+bug/1493816,2015-09-25
+1490760,1490760,Fix Released,intermittent iboot command failures,https://bugs.launchpad.net/ironic/+bug/1490760,2015-09-25
+1486887,1486887,Fix Released,Config drive creation fails in UEFI boot mode for whole disk image,https://bugs.launchpad.net/ironic/+bug/1486887,2015-09-25
+1475744,1475744,Fix Released,driver properties not discoverable in REST API,https://bugs.launchpad.net/ironic/+bug/1475744,2015-09-25
+1471081,1471081,Fix Released,agent_ssh driver did not check RAM size,https://bugs.launchpad.net/ironic/+bug/1471081,2015-09-25
+1480752,1480752,Fix Released,"""barbican help secret store"" says payload is optional, but when i execute cli without any parameters it says payload missing",https://bugs.launchpad.net/python-barbicanclient/+bug/1480752,2015-09-25
+1205520,1205520,Fix Released,Cannot set the default project for the User V3,https://bugs.launchpad.net/python-keystoneclient/+bug/1205520,2015-09-24
+1495233,1495233,Fix Released,"some request parameters is missed  in ""Update health monitor"" - Networking API v2.0 extensions LBaaS 1.0",https://bugs.launchpad.net/openstack-api-site/+bug/1495233,2015-09-24
+1490953,1490953,Fix Released,"Values of ""type"" parameters in JSON response are incorrect for Image schemas APIs",https://bugs.launchpad.net/openstack-api-site/+bug/1490953,2015-09-24
+1361306,1361306,Fix Released,Keystone doesn't handle user_attribute_id mapping,https://bugs.launchpad.net/keystone/+bug/1361306,2015-09-24
+1396763,1396763,Fix Released,user id beginning with 0 cannot authenticate through ldap,https://bugs.launchpad.net/keystone/+bug/1396763,2015-09-24
+1334466,1334466,Fix Released,Eventlet Log Spamming on Client Disconnect (Broken Pipe),https://bugs.launchpad.net/keystone/+bug/1334466,2015-09-24
+1490155,1490155,Fix Released,Pretty output of assert_ostf_run_certain,https://bugs.launchpad.net/fuel/+bug/1490155,2015-09-24
+1483300,1483300,Fix Released,Double call to import_tests() in run_tests.py,https://bugs.launchpad.net/fuel/+bug/1483300,2015-09-24
+1498450,1498450,Fix Released,Chapter 2. Basic environment in OpenStack Installation Guide for Ubuntu 14.04 : Reference to OpenSuse,https://bugs.launchpad.net/openstack-manuals/+bug/1498450,2015-09-24
+1495648,1495648,Fix Released,infra app-catalog manifest fails to load zopfli,https://bugs.launchpad.net/app-catalog/+bug/1495648,2015-09-24
+1499153,1499153,Fix Released,"Fix response info for ""Image schemas"" apis",https://bugs.launchpad.net/openstack-api-site/+bug/1499153,2015-09-24
+1496272,1496272,Fix Released,"A description of an ""id"" of ""Show IP details"" API is missing.",https://bugs.launchpad.net/openstack-api-site/+bug/1496272,2015-09-24
+1499320,1499320,Fix Released,"A json response body sample of ""Compute v2 List addresses by network"" is incorrect.",https://bugs.launchpad.net/openstack-api-site/+bug/1499320,2015-09-24
+1479763,1479763,Fix Released,astute loses HOME var during puppet run,https://bugs.launchpad.net/fuel/+bug/1479763,2015-09-24
+1475885,1475885,Fix Released,templates-for-networking reverts enhancements from separate controllers feature,https://bugs.launchpad.net/fuel/+bug/1475885,2015-09-24
+1480606,1480606,Fix Released,openstack-haproxy-stats has wrong dependencies and is in wrong task category,https://bugs.launchpad.net/fuel/+bug/1480606,2015-09-24
+1499223,1499223,Fix Committed,manila-CI: native driver CI fails occassionally during the devstack run,https://bugs.launchpad.net/devstack-plugin-glusterfs/+bug/1499223,2015-09-24
+1472592,1472592,Fix Released,Failing TestRoles.test_roles_add_and_remove,https://bugs.launchpad.net/fuel/+bug/1472592,2015-09-24
+1470487,1470487,Fix Released,Restrict nova-network in UI for non-vCenter/multi-HV use case,https://bugs.launchpad.net/fuel/+bug/1470487,2015-09-24

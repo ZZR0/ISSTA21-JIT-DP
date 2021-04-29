@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1436687,1436687,Fix Released,support ipv6 in udp publisher,https://bugs.launchpad.net/ceilometer/+bug/1436687,2015-04-30
+1436209,1436209,Fix Released,Don't need querying images twice to get all tenants' images,https://bugs.launchpad.net/ceilometer/+bug/1436209,2015-04-30
+1436077,1436077,Fix Released,minimise hmac calls to avoid performance degradation,https://bugs.launchpad.net/ceilometer/+bug/1436077,2015-04-30
+1435897,1435897,Fix Released,collector cannot listen on IPv6 address.,https://bugs.launchpad.net/ceilometer/+bug/1435897,2015-04-30
+1434711,1434711,Fix Released,middleware and profiler notifications generate non-metric meters,https://bugs.launchpad.net/ceilometer/+bug/1434711,2015-04-30
+1433881,1433881,Fix Released,Collector does not requeue sample when requeue_sample_on_dispatcher_error is enabled,https://bugs.launchpad.net/ceilometer/+bug/1433881,2015-04-30
+1432914,1432914,Fix Released,"Collector does not retry sample create transaction in case of deadlock and gives up, losing data",https://bugs.launchpad.net/ceilometer/+bug/1432914,2015-04-30
+1432077,1432077,Fix Released,Ceilometer client fails to create samples with new (unsupported) meter/counter name,https://bugs.launchpad.net/ceilometer/+bug/1432077,2015-04-30
+1426466,1426466,Fix Released,Querying /v2/samples with a q.field of metaquery causes 500,https://bugs.launchpad.net/ceilometer/+bug/1426466,2015-04-30
+1441175,1441175,Fix Released,kafka unit code needs refactor,https://bugs.launchpad.net/ceilometer/+bug/1441175,2015-04-30
+1440031,1440031,Fix Released,Incorrect item in the capabilities list,https://bugs.launchpad.net/ceilometer/+bug/1440031,2015-04-30
+1439766,1439766,Fix Released,Deprecation process for meters need to be introduced,https://bugs.launchpad.net/ceilometer/+bug/1439766,2015-04-30
+1435855,1435855,Fix Released,Default rule does not work in ceilometer policy.json,https://bugs.launchpad.net/ceilometer/+bug/1435855,2015-04-30
+1435533,1435533,Fix Released,ceilometermiddleware listener incorrect key check,https://bugs.launchpad.net/ceilometer/+bug/1435533,2015-04-30
+1441655,1441655,Fix Released,ceilometermiddleware not in global requirements,https://bugs.launchpad.net/ceilometer/+bug/1441655,2015-04-30
+1419919,1419919,Fix Released,gate-requirements-integration-dsvm fails on stable/juno with ValueError for missing 2014.2.3,https://bugs.launchpad.net/keystone/+bug/1419919,2015-04-30
+1419919,1419919,Fix Released,gate-requirements-integration-dsvm fails on stable/juno with ValueError for missing 2014.2.3,https://bugs.launchpad.net/ceilometer/+bug/1419919,2015-04-30
+1431922,1431922,Fix Released,publisher can't publish to multiple queue topics,https://bugs.launchpad.net/ceilometer/+bug/1431922,2015-04-30
+1429339,1429339,Fix Released,add support for user id in keystone cadf events,https://bugs.launchpad.net/ceilometer/+bug/1429339,2015-04-30
+1429337,1429337,Fix Released,add support for identity events (region/endpoint/policy/service),https://bugs.launchpad.net/ceilometer/+bug/1429337,2015-04-30
+1428202,1428202,Fix Released,POSTing a counter to /v2/meters/something responds 200 on success should be 201,https://bugs.launchpad.net/ceilometer/+bug/1428202,2015-04-30
+1418834,1418834,Fix Released,Possible duplicated resources for pollster,https://bugs.launchpad.net/ceilometer/+bug/1418834,2015-04-30
+1418793,1418793,Fix Released,notification agent needs to gracefully stop(),https://bugs.launchpad.net/ceilometer/+bug/1418793,2015-04-30
+1389085,1389085,Fix Released,"api.controller.v2 is too large, we'd better to split it to several modules",https://bugs.launchpad.net/ceilometer/+bug/1389085,2015-04-30
+1367512,1367512,Fix Released,tripleO keyerrors in central agent,https://bugs.launchpad.net/ceilometer/+bug/1367512,2015-04-30
+1428476,1428476,Fix Released,ceilometer-polling has no validation for namespace duplication,https://bugs.launchpad.net/ceilometer/+bug/1428476,2015-04-30
+1427997,1427997,Fix Released,ceilometer db2 need to insert random strings to prevent multi-thread running case in db upgrade,https://bugs.launchpad.net/ceilometer/+bug/1427997,2015-04-30
+1427393,1427393,Fix Released,mongdb get_event_types overly complex,https://bugs.launchpad.net/ceilometer/+bug/1427393,2015-04-30
+1425554,1425554,Fix Released,rados errors in genconfig,https://bugs.launchpad.net/ceilometer/+bug/1425554,2015-04-30
+1425303,1425303,Fix Released,missing entry points for swift notifications,https://bugs.launchpad.net/ceilometer/+bug/1425303,2015-04-30
+1424871,1424871,Fix Released,ceilometer expirer results in regular bursts of slow queries,https://bugs.launchpad.net/ceilometer/+bug/1424871,2015-04-30
+1424807,1424807,Fix Released,bad inline multiple assignment,https://bugs.launchpad.net/ceilometer/+bug/1424807,2015-04-30
+1423714,1423714,Fix Released,tests wrongly assume trait ordering,https://bugs.launchpad.net/ceilometer/+bug/1423714,2015-04-30
+1423713,1423713,Fix Released,mysql does not support intersect,https://bugs.launchpad.net/ceilometer/+bug/1423713,2015-04-30
+1423545,1423545,Fix Released,Event tests fails on  py-pgsql unittest environment,https://bugs.launchpad.net/ceilometer/+bug/1423545,2015-04-30
+1423524,1423524,Fix Released,PostgreSQL daemon is not stopped  when tests failed,https://bugs.launchpad.net/ceilometer/+bug/1423524,2015-04-30
+1423171,1423171,Fix Released,regex filtering with postgresql backend fails,https://bugs.launchpad.net/ceilometer/+bug/1423171,2015-04-30
+1422050,1422050,Fix Released,wrong parameter in self-disabled test case,https://bugs.launchpad.net/ceilometer/+bug/1422050,2015-04-30
+1421430,1421430,Fix Released,UnicodeError when events enabled,https://bugs.launchpad.net/ceilometer/+bug/1421430,2015-04-30
+1419962,1419962,Fix Released,connection can fail if database.connection is not defined,https://bugs.launchpad.net/ceilometer/+bug/1419962,2015-04-30
+1417278,1417278,Fix Released,Sinks and Sources may contain duplication in names,https://bugs.launchpad.net/ceilometer/+bug/1417278,2015-04-30
+1381736,1381736,Fix Released,event write performance is terrible in sql backend,https://bugs.launchpad.net/ceilometer/+bug/1381736,2015-04-30
+1321537,1321537,Fix Released,oid for memory used error,https://bugs.launchpad.net/ceilometer/+bug/1321537,2015-04-30
+1429707,1429707,Fix Released,500 error when post alarm,https://bugs.launchpad.net/ceilometer/+bug/1429707,2015-04-30
+1427367,1427367,Fix Released,direct event publisher assumes ordering of events,https://bugs.launchpad.net/ceilometer/+bug/1427367,2015-04-30
+1427234,1427234,Fix Released,Null time constraint in alarm creation raises an error,https://bugs.launchpad.net/ceilometer/+bug/1427234,2015-04-30
+1426198,1426198,Fix Released,wrong string format in libvirt inspector,https://bugs.launchpad.net/ceilometer/+bug/1426198,2015-04-30
+1423710,1423710,Fix Released,041 migration script mucked up column types,https://bugs.launchpad.net/ceilometer/+bug/1423710,2015-04-30
+1421485,1421485,Fix Released,database connection retry always use default retry and interval value,https://bugs.launchpad.net/ceilometer/+bug/1421485,2015-04-30
+1412613,1412613,Fix Released,Trigger nova client may cause large number of requests at same time,https://bugs.launchpad.net/ceilometer/+bug/1412613,2015-04-30
+1407374,1407374,Fix Released,ceilometer event list api doesn't support invalid query,https://bugs.launchpad.net/ceilometer/+bug/1407374,2015-04-30
+1424657,1424657,Fix Released,ceilometer unconditionally requires rados gateway support,https://bugs.launchpad.net/ceilometer/+bug/1424657,2015-04-30
+1410411,1410411,Fix Released,unit tests are leaking sudo commands,https://bugs.launchpad.net/ceilometer/+bug/1410411,2015-04-30
+1413455,1413455,Fix Released,pytidylib and netifaces should be removed from dependency because they are not required,https://bugs.launchpad.net/ceilometer/+bug/1413455,2015-04-30
+1411493,1411493,Fix Released,api unittest failed when proxy enabled,https://bugs.launchpad.net/ceilometer/+bug/1411493,2015-04-30
+1408858,1408858,Fix Released,api/config.py should remove some outdated settings,https://bugs.launchpad.net/ceilometer/+bug/1408858,2015-04-30
+1407800,1407800,Fix Released,update measurement docs for network services meters,https://bugs.launchpad.net/ceilometer/+bug/1407800,2015-04-30
+1406405,1406405,Fix Released,notification coordination does not reset listeners on refresh,https://bugs.launchpad.net/ceilometer/+bug/1406405,2015-04-30
+1403505,1403505,Fix Released,Skip polling cycle when no resources are found and some resources are required by the relevant pollster,https://bugs.launchpad.net/ceilometer/+bug/1403505,2015-04-30
+1397485,1397485,Fix Released,"virt.inspector.inspect_instances is not used anywhere, we should remove it",https://bugs.launchpad.net/ceilometer/+bug/1397485,2015-04-30
+1393328,1393328,Fix Released,measurement is missing or incorrect in the developer doc,https://bugs.launchpad.net/ceilometer/+bug/1393328,2015-04-30
+1389684,1389684,Fix Released,tools/make_test_data.sh script does not work,https://bugs.launchpad.net/ceilometer/+bug/1389684,2015-04-30
+1389229,1389229,Fix Released,no need to use import_opt or import_group if we already import that module,https://bugs.launchpad.net/ceilometer/+bug/1389229,2015-04-30
+1414903,1414903,Fix Released,IPMI unit test doesn't cover all platform initilization,https://bugs.launchpad.net/ceilometer/+bug/1414903,2015-04-30
+1413237,1413237,Fix Released,API service has unnecessary transitive dependencies on tooz and ceilometerclient,https://bugs.launchpad.net/ceilometer/+bug/1413237,2015-04-30
+1413179,1413179,Fix Released,options group lists impi instead of ipmi,https://bugs.launchpad.net/ceilometer/+bug/1413179,2015-04-30
+1413066,1413066,Fix Released,test cases in tests.storage.test_impl_mongodb are ignored,https://bugs.launchpad.net/ceilometer/+bug/1413066,2015-04-30
+1411492,1411492,Fix Released,[DB2 nosql] Ceilometer sample-list alway return nothing with two timestamp condition queries,https://bugs.launchpad.net/ceilometer/+bug/1411492,2015-04-30
+1406728,1406728,Fix Released,do not use str in message object because they may contain non-ascii characters,https://bugs.launchpad.net/ceilometer/+bug/1406728,2015-04-30
+1404886,1404886,Fix Released,ceilometer broken on recent devstack - can not connect to localhost,https://bugs.launchpad.net/ceilometer/+bug/1404886,2015-04-30
+1388514,1388514,Fix Released,event api description should be added to documents,https://bugs.launchpad.net/ceilometer/+bug/1388514,2015-04-30
+1372442,1372442,Fix Released,Statistics default period_start leaks information,https://bugs.launchpad.net/ceilometer/+bug/1372442,2015-04-30
+1337837,1337837,Fix Released,Opencontrail pollster should use the analytics API directly,https://bugs.launchpad.net/ceilometer/+bug/1337837,2015-04-30
+1325399,1325399,Fix Released,[Errno -9] Address family for hostname not supported,https://bugs.launchpad.net/ceilometer/+bug/1325399,2015-04-30
+1408737,1408737,Fix Released,broken unit tests after oslo.utils update,https://bugs.launchpad.net/ceilometer/+bug/1408737,2015-04-30

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1208528,1208528,Fix Released,Order creation failing with 500,https://bugs.launchpad.net/barbican/+bug/1208528,2013-09-12
+1211929,1211929,Fix Released,Creating order with oversized payload fails with 413 instead of 400,https://bugs.launchpad.net/barbican/+bug/1211929,2013-09-12
+1208562,1208562,Fix Released,Secret payload retrieval fails with 406,https://bugs.launchpad.net/barbican/+bug/1208562,2013-09-12
+1215166,1215166,Fix Released,Implement Allowed Address Pairs,https://bugs.launchpad.net/openstack-manuals/+bug/1215166,2013-09-12
+1192180,1192180,Fix Released,Get Queue Stats : non existing queue,https://bugs.launchpad.net/zaqar/+bug/1192180,2013-09-12
+1200664,1200664,Fix Released,PATCH Claim Returns 400,https://bugs.launchpad.net/zaqar/+bug/1200664,2013-09-12
+1201649,1201649,Fix Released,Delete Single Message by ID,https://bugs.launchpad.net/zaqar/+bug/1201649,2013-09-12
+1202846,1202846,Fix Released,Large JSON integers result in 503,https://bugs.launchpad.net/zaqar/+bug/1202846,2013-09-12
+1212389,1212389,Fix Released,[consistency] Have GET with a bad marker return 204,https://bugs.launchpad.net/zaqar/+bug/1212389,2013-09-12
+1210301,1210301,Fix Released,Post Claim returns 200,https://bugs.launchpad.net/zaqar/+bug/1210301,2013-09-12
+1207075,1207075,Fix Released,Can not GET a specific queue,https://bugs.launchpad.net/zaqar/+bug/1207075,2013-09-12
+1206175,1206175,Fix Released,Post claim with negative int for TTL/ grace,https://bugs.launchpad.net/zaqar/+bug/1206175,2013-09-12
+1204432,1204432,Fix Released,Exceptions should NOT be marked as translatable,https://bugs.launchpad.net/zaqar/+bug/1204432,2013-09-12
+1177979,1177979,Fix Released,Claim Message : with limit >50,https://bugs.launchpad.net/zaqar/+bug/1177979,2013-09-12
+1177976,1177976,Fix Released,Post message  > 50 messages in a single request,https://bugs.launchpad.net/zaqar/+bug/1177976,2013-09-12
+1177971,1177971,Fix Released,Create Queue : Queue name longer than 64 characters,https://bugs.launchpad.net/zaqar/+bug/1177971,2013-09-12
+1177947,1177947,Fix Released,"Header with accept != ""application/json""",https://bugs.launchpad.net/zaqar/+bug/1177947,2013-09-12
+1218990,1218990,Fix Released,Unexpected 204s and 404s when creating claims,https://bugs.launchpad.net/zaqar/+bug/1218990,2013-09-12
+1215484,1215484,Fix Released,Claim ID not required to delete claimed messages,https://bugs.launchpad.net/zaqar/+bug/1215484,2013-09-12
+1207759,1207759,Fix Released,Don't use count on claims,https://bugs.launchpad.net/zaqar/+bug/1207759,2013-09-12
+1207018,1207018,Fix Released,Use the queue name and project for getting messages,https://bugs.launchpad.net/zaqar/+bug/1207018,2013-09-12
+1206517,1206517,Fix Released,Mongodb's active index order is wrong,https://bugs.launchpad.net/zaqar/+bug/1206517,2013-09-12
+1206153,1206153,Fix Released,Sort everything by K,https://bugs.launchpad.net/zaqar/+bug/1206153,2013-09-12
+1206128,1206128,Fix Released,Messages _list is not using the right index,https://bugs.launchpad.net/zaqar/+bug/1206128,2013-09-12
+1205388,1205388,Fix Released,Unclaim queries don't use indexes,https://bugs.launchpad.net/zaqar/+bug/1205388,2013-09-12
+1203842,1203842,Fix Released,Using an invalid url returns 503 instead of 404,https://bugs.launchpad.net/zaqar/+bug/1203842,2013-09-12
+1202430,1202430,Fix Released,Listing messages excludes claimed,https://bugs.launchpad.net/zaqar/+bug/1202430,2013-09-12
+1194571,1194571,Fix Released,Post Single Message - Incorrect location header,https://bugs.launchpad.net/zaqar/+bug/1194571,2013-09-12
+1192196,1192196,Fix Released,List Queue with detaild=True -Truncated JSON response,https://bugs.launchpad.net/zaqar/+bug/1192196,2013-09-12
+1190524,1190524,Fix Released,Log is not working,https://bugs.launchpad.net/zaqar/+bug/1190524,2013-09-12
+1187280,1187280,Fix Released,remove gunicorn and use wsgiref,https://bugs.launchpad.net/zaqar/+bug/1187280,2013-09-12
+1169838,1169838,Fix Released,fix(storage.mongodb) Empty bulk insert fails,https://bugs.launchpad.net/zaqar/+bug/1169838,2013-09-12
+1169821,1169821,Fix Released,(storage.mongodb) Handle AutoReconnect,https://bugs.launchpad.net/zaqar/+bug/1169821,2013-09-12
+1165102,1165102,Fix Released,Get Multiple messages with messageID returns 502,https://bugs.launchpad.net/zaqar/+bug/1165102,2013-09-12
+1154690,1154690,Fix Released,test checks for isinstance instead of issubclass,https://bugs.launchpad.net/zaqar/+bug/1154690,2013-09-12
+1216950,1216950,Fix Released,"perf: Requests get slower, when queues have a lot of messages",https://bugs.launchpad.net/zaqar/+bug/1216950,2013-09-12
+1211386,1211386,Fix Released,Duplicate marker regex fails to match (HTTP 503),https://bugs.launchpad.net/zaqar/+bug/1211386,2013-09-12
+1210662,1210662,Fix Released,PATCH claim not resetting age,https://bugs.launchpad.net/zaqar/+bug/1210662,2013-09-12
+1210633,1210633,Fix Released,Releasing a claim not releasing (immediately),https://bugs.launchpad.net/zaqar/+bug/1210633,2013-09-12
+1155657,1155657,Fix Released,update() got multiple values for keyword argument 'name',https://bugs.launchpad.net/zaqar/+bug/1155657,2013-09-12
+1194468,1194468,Fix Released,tempest security group create with duplicate name fail with Quantum enabled,https://bugs.launchpad.net/tempest/+bug/1194468,2013-09-12
+1210437,1210437,Fix Released,There is not any test case for instance boot from volume,https://bugs.launchpad.net/tempest/+bug/1210437,2013-09-11
+929021,929021,Fix Released,available devstack node count should be monitored with alerts,https://bugs.launchpad.net/openstack-ci/+bug/929021,2013-09-11
+1223331,1223331,Fix Released,LBaaS now supports agent scheduling,https://bugs.launchpad.net/openstack-manuals/+bug/1223331,2013-09-11
+1218665,1218665,Fix Released,Need quantum.conf to have matching rootwrap info as shipped sudoers file on Ubuntu 12.04 LTS,https://bugs.launchpad.net/openstack-manuals/+bug/1218665,2013-09-11
+1199867,1199867,Fix Released,test_volumes_actions is not executed against the xml API,https://bugs.launchpad.net/tempest/+bug/1199867,2013-09-11
+1215290,1215290,Fix Released,git https clones failing on centos slaves,https://bugs.launchpad.net/openstack-ci/+bug/1215290,2013-09-10
+1214366,1214366,Fix Released,Could not find any downloads that satisfy the requirement markupsafe,https://bugs.launchpad.net/openstack-ci/+bug/1214366,2013-09-10
+1207725,1207725,Fix Released,Job devstack-update-inprogress fails in getMachineByJenkinsName,https://bugs.launchpad.net/openstack-ci/+bug/1207725,2013-09-10
+1207703,1207703,Fix Released,Tempest gate fails with null pointer exception,https://bugs.launchpad.net/openstack-ci/+bug/1207703,2013-09-10
+1076481,1076481,Fix Released,Add Swift functional tests to full test run,https://bugs.launchpad.net/openstack-ci/+bug/1076481,2013-09-10
+1204843,1204843,Fix Released,No Content-Type for logs on eavesdrop.openstack.org,https://bugs.launchpad.net/openstack-ci/+bug/1204843,2013-09-10
+904298,904298,Fix Released,SHA1 referenced in commit message should be linked,https://bugs.launchpad.net/openstack-ci/+bug/904298,2013-09-10
+1193450,1193450,Fix Released,jenkins-job-builder docs incorrectly reference cache location,https://bugs.launchpad.net/openstack-ci/+bug/1193450,2013-09-10
+1223012,1223012,Fix Released,devstack should enable VPNaaS Horizon if q-vpn is enabled,https://bugs.launchpad.net/devstack/+bug/1223012,2013-09-10
+1222314,1222314,Fix Released,devstack is not compatible with the current neutron midoNet plugin,https://bugs.launchpad.net/devstack/+bug/1222314,2013-09-10
+1222854,1222854,Fix Released,ML2 configuration items overwrite localrc options instead of adding to them,https://bugs.launchpad.net/devstack/+bug/1222854,2013-09-10
+1220743,1220743,Fix Released,Enable OVS and LB agents with ML2 in devstack,https://bugs.launchpad.net/devstack/+bug/1220743,2013-09-10
+1204218,1204218,Fix Released,slo segmented uploading broken in version 1.5.0,https://bugs.launchpad.net/python-swiftclient/+bug/1204218,2013-09-10
+1221097,1221097,Fix Released,The Swift middleware should be enabled by default.,https://bugs.launchpad.net/devstack/+bug/1221097,2013-09-10
+1197088,1197088,Fix Released,Periodic task for offloading shelved instances,https://bugs.launchpad.net/openstack-manuals/+bug/1197088,2013-09-09
+1220407,1220407,Fix Released,openstack-manuals: rename subfolders to use naming convention,https://bugs.launchpad.net/openstack-manuals/+bug/1220407,2013-09-09
+1214317,1214317,Fix Released,the name style is wrong in the nova v3 api extended_server_attributes namespace,https://bugs.launchpad.net/nova/+bug/1214317,2013-09-09
+1221923,1221923,Fix Released,inconsistent neutron subnet-create option,https://bugs.launchpad.net/openstack-manuals/+bug/1221923,2013-09-09
+1218252,1218252,Fix Released,New core member for community-metrics-dash stackforge project,https://bugs.launchpad.net/openstack-ci/+bug/1218252,2013-09-09
+1022636,1022636,Fix Released,auto Unauthorized retry,https://bugs.launchpad.net/python-novaclient/+bug/1022636,2013-09-09
+1099270,1099270,Fix Released,tests/utils.py unconditionally imports unittest2,https://bugs.launchpad.net/python-novaclient/+bug/1099270,2013-09-09
+1061712,1061712,Fix Released,"GET /servers?status=BALONEY returns 400, should return 200 with empty list",https://bugs.launchpad.net/nova/+bug/1061712,2013-09-09
+1198051,1198051,Fix Released,python-novaclient docs out of date,https://bugs.launchpad.net/openstack-manuals/+bug/1198051,2013-09-09
+1222689,1222689,Fix Released,typo in AggregateMultiTenancyIsolation scheduler filter documentation,https://bugs.launchpad.net/openstack-manuals/+bug/1222689,2013-09-09
+1221044,1221044,Fix Released,Support for uploading thin vmdks to glance,https://bugs.launchpad.net/devstack/+bug/1221044,2013-09-09
+1196099,1196099,Fix Released,openstack-ha guide / Active-Active section: Miss Network section,https://bugs.launchpad.net/openstack-manuals/+bug/1196099,2013-09-09
+1221160,1221160,Fix Released,Please add shakhat into fuel-core group,https://bugs.launchpad.net/openstack-ci/+bug/1221160,2013-09-09
+1213273,1213273,Fix Released,docs: Add 'description' field to domains,https://bugs.launchpad.net/designate/+bug/1213273,2013-09-09
+1220454,1220454,Fix Released,IOVisor driver should not use version number in PATH,https://bugs.launchpad.net/nova/+bug/1220454,2013-09-09

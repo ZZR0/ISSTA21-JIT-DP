@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1732223,1732223,Fix Released,cinder-manage volume delete doesn't work due to rpc versioning error,https://bugs.launchpad.net/cinder/+bug/1732223,2017-12-16
+1734134,1734134,Fix Released,Pike periodic promotion job multinode-1ctlr-featureset016 fail with error running docker 'gnocchi_db_sync' - rados.Rados.connect PermissionDeniedError: error connecting to the cluster,https://bugs.launchpad.net/tripleo/+bug/1734134,2017-12-16
+1668654,1668654,Fix Released,ubuntu libvirtError Unable to open logfile,https://bugs.launchpad.net/kolla-ansible/+bug/1668654,2017-12-16
+1731944,1731944,Fix Released,Documentation on running unit tests is out of date,https://bugs.launchpad.net/cinder/+bug/1731944,2017-12-15
+1661360,1661360,Fix Released,InstanceNotFound due to missing osapi_compute service version when running nova-api under wsgi,https://bugs.launchpad.net/nova/+bug/1661360,2017-12-15
+1661360,1661360,Fix Released,InstanceNotFound due to missing osapi_compute service version when running nova-api under wsgi,https://bugs.launchpad.net/tripleo/+bug/1661360,2017-12-15
+1737411,1737411,Fix Released,gentoo target fails to build,https://bugs.launchpad.net/diskimage-builder/+bug/1737411,2017-12-15
+1675637,1675637,Fix Released,"In horizon,  uploading a large image to glance failed with gateway timeout.",https://bugs.launchpad.net/kolla-ansible/+bug/1675637,2017-12-15
+1674207,1674207,Fix Released,Remove mariadb volume failed,https://bugs.launchpad.net/kolla-ansible/+bug/1674207,2017-12-15
+1697337,1697337,Fix Released,service_type of Octavia is 'load-balancer',https://bugs.launchpad.net/kolla-ansible/+bug/1697337,2017-12-15
+1682810,1682810,Fix Released,"Grafana config file uses static username and database in the ""session"" section",https://bugs.launchpad.net/kolla-ansible/+bug/1682810,2017-12-15
+1700718,1700718,Fix Released,glance api.log have not intuitive,https://bugs.launchpad.net/kolla-ansible/+bug/1700718,2017-12-15
+1690975,1690975,Fix Released,ERROR: Missing required credential: roles ['heat_stack_owner'],https://bugs.launchpad.net/kolla-ansible/+bug/1690975,2017-12-15
+1700712,1700712,Fix Released,horizon static contents directory path is invalid when deployed with ubuntu/binary,https://bugs.launchpad.net/kolla-ansible/+bug/1700712,2017-12-15
+1706170,1706170,Fix Released,Magnum fail to create cluster template when using a self-signed certificate,https://bugs.launchpad.net/kolla/+bug/1706170,2017-12-15
+1712020,1712020,Fix Released,miss clean ExecStart in quickstart guide,https://bugs.launchpad.net/kolla-ansible/+bug/1712020,2017-12-15
+1709809,1709809,Fix Released,ironic is not usable because iscsid is not running on the same node.,https://bugs.launchpad.net/kolla-ansible/+bug/1709809,2017-12-15
+1702244,1702244,Fix Released,WARNING Module did not set no_log for auth_password,https://bugs.launchpad.net/kolla-ansible/+bug/1702244,2017-12-15
+1693171,1693171,Fix Released,rally create verifier  error,https://bugs.launchpad.net/kolla/+bug/1693171,2017-12-15
+1715269,1715269,Fix Released,kolla-build error during base image build with RHEL7 OS,https://bugs.launchpad.net/kolla/+bug/1715269,2017-12-15
+1734981,1734981,Fix Released,python-brick-cinderclient-ext 0.5.0 is broken when using os-brick 2.1.0,https://bugs.launchpad.net/cinder/+bug/1734981,2017-12-14
+1513894,1513894,Fix Released,Discrepancy between API and CLI on how to enable PD,https://bugs.launchpad.net/python-openstackclient/+bug/1513894,2017-12-13
+1712473,1712473,Fix Released,"""openstack image unset"" command's help message's typo",https://bugs.launchpad.net/python-openstackclient/+bug/1712473,2017-12-13
+1711284,1711284,Fix Released,image in python-openstackclient,https://bugs.launchpad.net/python-openstackclient/+bug/1711284,2017-12-13
+1707103,1707103,Fix Released,Useless line of code in shell.py,https://bugs.launchpad.net/python-openstackclient/+bug/1707103,2017-12-13
+1717874,1717874,Fix Released,Add functional test cases for “volume qos associate/disassociate”,https://bugs.launchpad.net/python-openstackclient/+bug/1717874,2017-12-13
+1719413,1719413,Fix Released,openstack endpoint list is slow in case of many endpoints,https://bugs.launchpad.net/python-openstackclient/+bug/1719413,2017-12-13
+1717829,1717829,Fix Released,Support creating unaddress neutron port,https://bugs.launchpad.net/python-openstackclient/+bug/1717829,2017-12-13
+1722008,1722008,Fix Released,Breakage of OSC plugin prevent OSC to work,https://bugs.launchpad.net/python-openstackclient/+bug/1722008,2017-12-13
+1712242,1712242,Fix Released,security group rule create doesn't allow protocol-less rules,https://bugs.launchpad.net/python-openstackclient/+bug/1712242,2017-12-13
+1719499,1719499,Fix Released,openstack image set can't reset min-disk and min-ram to 0,https://bugs.launchpad.net/python-openstackclient/+bug/1719499,2017-12-13
+1703278,1703278,Fix Released,"""openstack server rescue"" is missing an --image argument",https://bugs.launchpad.net/python-openstackclient/+bug/1703278,2017-12-13
+1704834,1704834,Fix Released,network rbac --target-project default should be wildcard,https://bugs.launchpad.net/python-openstackclient/+bug/1704834,2017-12-13
+1728525,1728525,Fix Released,[Network] Different behavior for access_as_external target,https://bugs.launchpad.net/python-openstackclient/+bug/1728525,2017-12-13
+1675489,1675489,Fix Released,router show should include interfaces,https://bugs.launchpad.net/python-openstackclient/+bug/1675489,2017-12-13
+1731848,1731848,Fix Released,"Type errors in credential when do the actions like 'create, list and put'.",https://bugs.launchpad.net/python-openstackclient/+bug/1731848,2017-12-13
+1726726,1726726,Fix Released,no Designate usage docs Plugin Commands in python-openstackclient,https://bugs.launchpad.net/python-openstackclient/+bug/1726726,2017-12-13
+1735836,1735836,Fix Released,openstack subnet create fails when tags is None,https://bugs.launchpad.net/python-openstackclient/+bug/1735836,2017-12-13
+1732216,1732216,Fix Released,--changes-since is sending changes_since instead of changes-since,https://bugs.launchpad.net/python-openstackclient/+bug/1732216,2017-12-13
+1733992,1733992,Fix Released,Devstack plugin fails with worker enabled,https://bugs.launchpad.net/designate/+bug/1733992,2017-12-13
+1734635,1734635,Fix Released,Install and configure for Ubuntu in designate,https://bugs.launchpad.net/designate/+bug/1734635,2017-12-13
+1736801,1736801,Fix Released,build hostname is leaking in designate.conf,https://bugs.launchpad.net/designate/+bug/1736801,2017-12-13
+1736252,1736252,Fix Released,Remove mistral tempest tests jenkins-periodic-master-rdo_trunk-virtbasic-1ctlr_1comp_64gb,https://bugs.launchpad.net/tripleo/+bug/1736252,2017-12-13
+1735540,1735540,Fix Released,Nexus Failing on DBDuplicateEntry in DB cisco_ml2_nexus_host_interface_mapping,https://bugs.launchpad.net/networking-cisco/+bug/1735540,2017-12-13
+1733874,1733874,Fix Released,dhcp_domain in nova.conf causes nova nodes to use their fqdn as shortname too,https://bugs.launchpad.net/tripleo/+bug/1733874,2017-12-13
+1724571,1724571,Fix Released,[dashboard]environments details page gives ValueError Edit,https://bugs.launchpad.net/murano/+bug/1724571,2017-12-13
+1733835,1733835,Fix Released,Confusing docs in murano-dashboard project,https://bugs.launchpad.net/murano/+bug/1733835,2017-12-13
+1717439,1717439,Fix Released,Murano image properties are unprotected,https://bugs.launchpad.net/murano/+bug/1717439,2017-12-13
+1735035,1735035,Fix Released,[dashboard]Create env didn't show the correct error message,https://bugs.launchpad.net/murano/+bug/1735035,2017-12-13
+1732208,1732208,Fix Released,need a way to display only volume snapshots in volume selection field,https://bugs.launchpad.net/murano/+bug/1732208,2017-12-13
+1737123,1737123,Fix Released,murano setup.cfg still have murano-tempest-plugin entry,https://bugs.launchpad.net/murano/+bug/1737123,2017-12-13
+1729200,1729200,Fix Released,metadata zero value will skip valid check,https://bugs.launchpad.net/zaqar/+bug/1729200,2017-12-13
+1729152,1729152,Fix Released,return error subscription id when create it,https://bugs.launchpad.net/zaqar/+bug/1729152,2017-12-13
+1722632,1722632,Fix Released,Prepare command to detect need to set DockerInsecureRegistryAddress,https://bugs.launchpad.net/tripleo/+bug/1722632,2017-12-13
+1737716,1737716,Fix Released,TripleO CI jobs fail: can't connect to nodepool hosts,https://bugs.launchpad.net/tripleo/+bug/1737716,2017-12-12
+1657518,1657518,Fix Released,Hosts role should disable or remove firewalld,https://bugs.launchpad.net/openstack-ansible/+bug/1657518,2017-12-12
+1721377,1721377,Fix Released,Inactive account locking refers to the wrong file,https://bugs.launchpad.net/openstack-ansible/+bug/1721377,2017-12-12
+1716785,1716785,Fix Released,Optimize how we install and configure OS package repositories,https://bugs.launchpad.net/openstack-ansible/+bug/1716785,2017-12-12
+1714462,1714462,Fix Released,Ansible security leads to FAIL_DELAY configuration error on ocata,https://bugs.launchpad.net/openstack-ansible/+bug/1714462,2017-12-12
+1716444,1716444,Fix Released,ansible-hardening: Functional jobs run when changing docs,https://bugs.launchpad.net/openstack-ansible/+bug/1716444,2017-12-12
+1732521,1732521,Fix Released,SELinux AVC: keepalived can't use setpgid,https://bugs.launchpad.net/openstack-ansible/+bug/1732521,2017-12-12
+1712596,1712596,Fix Released,RabbitMQ versionlock doesn't overwrite previous locks,https://bugs.launchpad.net/openstack-ansible/+bug/1712596,2017-12-12
+1597697,1597697,Fix Committed,fuel-agent: wrong amount of arguments for logger fails provisioning,https://bugs.launchpad.net/fuel/+bug/1597697,2017-12-12
+1711374,1711374,Fix Released,CentOS logrotate isn't restarting rsyslog properly,https://bugs.launchpad.net/openstack-ansible/+bug/1711374,2017-12-12
+1331502,1331502,Fix Released,VPNaaS:pluto.pid  already exists,https://bugs.launchpad.net/neutron/+bug/1331502,2017-12-12
+1737578,1737578,Fix Released,Security Group rules with protocol numbers are not getting installed,https://bugs.launchpad.net/networking-vpp/+bug/1737578,2017-12-12
+1737611,1737611,Fix Released,install packages failing on 403 for openstack-tripleo-common and openstack-tripleo-common-containers,https://bugs.launchpad.net/tripleo/+bug/1737611,2017-12-12
+1698355,1698355,Fix Released,py35 dsvm job failing with RemoteDisconnected error,https://bugs.launchpad.net/neutron/+bug/1698355,2017-12-12
+1736906,1736906,Fix Released,Unnecessary sleep exists in host-failure recovery process,https://bugs.launchpad.net/masakari/+bug/1736906,2017-12-12
+1721742,1721742,Fix Released,Masakari will fail to recovery instances on failure host if instance's task_state is not none,https://bugs.launchpad.net/masakari/+bug/1721742,2017-12-12
+1669571,1669571,Fix Released,later environment files with overwriting parameter_defaults for nested stack only parameters do not take effect,https://bugs.launchpad.net/heat/+bug/1669571,2017-12-11
+1716612,1716612,Fix Released,Can not delete the stack: TypeError: 'NoneType' object has no attribute '__getitem__',https://bugs.launchpad.net/heat/+bug/1716612,2017-12-11
+1721878,1721878,Fix Released,os_magnum: Pike: missing default_docker_volume_type,https://bugs.launchpad.net/openstack-ansible/+bug/1721878,2017-12-11
+1735764,1735764,Fix Released,haproxy port collision on 8080 for swift and opendaylight,https://bugs.launchpad.net/openstack-ansible/+bug/1735764,2017-12-11
+1733108,1733108,Fix Released,got an unexpected keyword argument 'domain' when using keystone federation,https://bugs.launchpad.net/openstack-ansible/+bug/1733108,2017-12-11

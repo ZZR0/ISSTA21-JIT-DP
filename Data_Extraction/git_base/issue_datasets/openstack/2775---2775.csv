@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1864986,1864986,Fix Released,swift_rsync container runs privileged,https://bugs.launchpad.net/tripleo/+bug/1864986,2020-04-09
+1865357,1865357,Fix Released,tripleo-heat-templates scenarios use deprecated LocalCephAnsibleFetchDirectoryBackup,https://bugs.launchpad.net/tripleo/+bug/1865357,2020-04-09
+1865458,1865458,Fix Released,Neutron is down after Controllers upgrade. Pacemaker allocating different IPs for ovn-dbserver,https://bugs.launchpad.net/tripleo/+bug/1865458,2020-04-09
+1864477,1864477,Fix Released,Prevent creation of unnecessary Ceph pools,https://bugs.launchpad.net/tripleo/+bug/1864477,2020-04-09
+1866339,1866339,Fix Released,ceph_systemd tag configures the ceph-ansible playbook but does not run it,https://bugs.launchpad.net/tripleo/+bug/1866339,2020-04-09
+1842001,1842001,Fix Released,deployment fails when networks are disabled,https://bugs.launchpad.net/tripleo/+bug/1842001,2020-04-09
+1866958,1866958,Fix Released,Missing a necessary firewall rule for rabbitmqctl command.,https://bugs.launchpad.net/tripleo/+bug/1866958,2020-04-09
+1867165,1867165,Fix Released,spurious mysql root user created when deploying a HA control plane,https://bugs.launchpad.net/tripleo/+bug/1867165,2020-04-09
+1866215,1866215,Fix Released,Drop resource registry section in ips from pool environments,https://bugs.launchpad.net/tripleo/+bug/1866215,2020-04-09
+1867207,1867207,Fix Released,network-environment-v6.j2.yaml - Misses InterfaceDefaultRoute for Tenant network,https://bugs.launchpad.net/tripleo/+bug/1867207,2020-04-09
+1860638,1860638,Fix Released,haproxy fails with duplicate mount destination,https://bugs.launchpad.net/tripleo/+bug/1860638,2020-04-09
+1867599,1867599,Fix Released,overcloud deploy failing on fs030 and fs016 while pulling mariadb container from undercloud registry,https://bugs.launchpad.net/tripleo/+bug/1867599,2020-04-09
+1867973,1867973,Fix Released,"ceph-ansible fails with ""you must set dashboard_admin_password and grafana_admin_password.""",https://bugs.launchpad.net/tripleo/+bug/1867973,2020-04-09
+1868118,1868118,Fix Released,[Ceph Dashboard HA Config] - Grafana is not reacheable from Ceph Dashboard,https://bugs.launchpad.net/tripleo/+bug/1868118,2020-04-09
+1868533,1868533,Fix Released,HA: resource restart fails on stack update if status is disabled in pacemaker,https://bugs.launchpad.net/tripleo/+bug/1868533,2020-04-09
+1868569,1868569,Fix Released,[OVN] There's no way to configure IGMP Snooping in Neutron,https://bugs.launchpad.net/tripleo/+bug/1868569,2020-04-09
+1868579,1868579,Fix Released,DCN/Edge deploment with IPv6 has Invalid glance-api URI,https://bugs.launchpad.net/tripleo/+bug/1868579,2020-04-09
+1868731,1868731,Fix Released,ceph_ansible_skip_tags is getting ignored during multinode overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1868731,2020-04-09
+1869020,1869020,Fix Released,Deployment fails when nfs mount points exist in /var/lib/nova,https://bugs.launchpad.net/tripleo/+bug/1869020,2020-04-09
+1869335,1869335,Fix Released,ffwd prepare fails from queens to train fails with ConcurrentTransaction error,https://bugs.launchpad.net/tripleo/+bug/1869335,2020-04-09
+1869360,1869360,Fix Released,Weak string comparaison leads to a deploy failure if hostname is CaMeLcAsEd,https://bugs.launchpad.net/tripleo/+bug/1869360,2020-04-09
+1869714,1869714,Fix Released,undercloud ctlplane network install fails on  CentOS 8,https://bugs.launchpad.net/tripleo/+bug/1869714,2020-04-09
+1869900,1869900,Fix Released,ovn_dbs_virtual_ip created even though ovn is disabled in the environment which takes up an ip address unnecessarily,https://bugs.launchpad.net/tripleo/+bug/1869900,2020-04-09
+1870351,1870351,Fix Released,tripleo-ci-centos-8-scenario004-standalone fails in bootstrap tasks,https://bugs.launchpad.net/tripleo/+bug/1870351,2020-04-09
+1864953,1864953,Fix Released,(intermittent/race?) Image prepare failed: [Errno 17] File exists,https://bugs.launchpad.net/tripleo/+bug/1864953,2020-04-09
+1867968,1867968,Fix Released,config-download Timeout Does Not Always Work,https://bugs.launchpad.net/tripleo/+bug/1867968,2020-04-09
+1867981,1867981,Fix Released,container image prepare can fail if download times exceed token life times,https://bugs.launchpad.net/tripleo/+bug/1867981,2020-04-09
+1869735,1869735,Fix Released,[WARNING]: sftp transfer mechanism failed,https://bugs.launchpad.net/tripleo/+bug/1869735,2020-04-09
+1869880,1869880,Fix Released,ffwd upgrade broken after removing OrchestrationDeployAction,https://bugs.launchpad.net/tripleo/+bug/1869880,2020-04-09
+1861035,1861035,Fix Released,Old Undercloud Hosts Entry Should be Removed,https://bugs.launchpad.net/tripleo/+bug/1861035,2020-04-09
+1863352,1863352,Fix Released,"TASK [Generate container puppet configs for step. TypeError: write() argument must be str, not bytes 1] ,",https://bugs.launchpad.net/tripleo/+bug/1863352,2020-04-09
+1863920,1863920,Fix Released,(intermittent?) cli-enable-ssh-admin.yaml fails during the overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1863920,2020-04-09
+1864118,1864118,Fix Released,tmpwatch missing from pre-deployed server deployment,https://bugs.launchpad.net/tripleo/+bug/1864118,2020-04-09
+1861413,1861413,Fix Released,Starting octavia services later breaks ansible tasks in composable octavia,https://bugs.launchpad.net/tripleo/+bug/1861413,2020-04-09
+1864059,1864059,Fix Released,BaR 'bootstrap_nodeid' is no longer valid,https://bugs.launchpad.net/tripleo/+bug/1864059,2020-04-09
+1844837,1844837,Fix Released,"ceph runs the tripleo-ceph-{work-dir,fetch-dir,common} roles more than once in the deployment steps",https://bugs.launchpad.net/tripleo/+bug/1844837,2020-04-09
+1864855,1864855,Fix Released,BaR problem getting the container galera id,https://bugs.launchpad.net/tripleo/+bug/1864855,2020-04-09
+1866233,1866233,Fix Released,openstack overcloud node introspect --all-manageable --provide no longer works,https://bugs.launchpad.net/tripleo/+bug/1866233,2020-04-09
+1866694,1866694,Fix Released,tripleo_ceph_work_dir : gather hiera metadata | permission denied,https://bugs.launchpad.net/tripleo/+bug/1866694,2020-04-09
+1866911,1866911,Fix Released,overcloud node introspect --all-manageable no longer fail if no manageble nodes,https://bugs.launchpad.net/tripleo/+bug/1866911,2020-04-09
+1866600,1866600,Fix Released,rotate-keys.yaml playbook seems broken,https://bugs.launchpad.net/tripleo/+bug/1866600,2020-04-09
+1867004,1867004,Fix Released,"deployment fails on task ""tripleo_ceph_work_dir : add gnocchi pool""",https://bugs.launchpad.net/tripleo/+bug/1867004,2020-04-09
+1867787,1867787,Fix Released,tripleo-ansible-centos-8-molecule-tripleo_container_* jobs failing to pull containers,https://bugs.launchpad.net/tripleo/+bug/1867787,2020-04-09
+1868082,1868082,Fix Released,systemd sync script for sidecar containers is unable to spawn new processes,https://bugs.launchpad.net/tripleo/+bug/1868082,2020-04-09
+1868864,1868864,Fix Released,tripleo_ansible/roles/tripleo_ceph_work_dir/tasks/get_ssh_private_key is not using $HOME/.ssh/id_rsa_tripleo,https://bugs.launchpad.net/tripleo/+bug/1868864,2020-04-09
+1869010,1869010,Fix Released,rabbitmq erlang cookie (and other secrets) changes between minor updates,https://bugs.launchpad.net/tripleo/+bug/1869010,2020-04-09
+1866204,1866204,Fix Released,OVB is stuck on providing nodes,https://bugs.launchpad.net/tripleo/+bug/1866204,2020-04-09
+1869384,1869384,Fix Released,"systemd wrappers should filter on containers, not processes",https://bugs.launchpad.net/tripleo/+bug/1869384,2020-04-09
+1871228,1871228,Fix Released,Rendering all_nodes Data Fails Due to TypeError,https://bugs.launchpad.net/tripleo/+bug/1871228,2020-04-09
+1871397,1871397,Fix Released,get_failed_containers() filters fails in check mode,https://bugs.launchpad.net/tripleo/+bug/1871397,2020-04-09
+1863679,1863679,Fix Released,running openstack command before undercloud install leads to misleading warnings,https://bugs.launchpad.net/tripleo/+bug/1863679,2020-04-09
+1863633,1863633,Fix Released,stack output missing from the overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1863633,2020-04-09
+1859182,1859182,Fix Released,tripleoclient report successful upgrade when ansible failed,https://bugs.launchpad.net/tripleo/+bug/1859182,2020-04-09
+1864700,1864700,Fix Released,tripleo container image push command cannot auth to the source registry,https://bugs.launchpad.net/tripleo/+bug/1864700,2020-04-09
+1864828,1864828,Fix Released,tripleoclient unit tests fail - TestFileImageClientAdapter.test_get_image MismatchError: '2019-11-14T01:33:39' != '2019-11-14T02:33:39',https://bugs.launchpad.net/tripleo/+bug/1864828,2020-04-09
+1864862,1864862,Fix Released,AttributeError: 'Client' object has no attribute 'tripleoclient',https://bugs.launchpad.net/tripleo/+bug/1864862,2020-04-09
+1864940,1864940,Fix Released,wrong permissions in ~/.config directory,https://bugs.launchpad.net/tripleo/+bug/1864940,2020-04-09
+1866184,1866184,Fix Released,centos-8 multinode overcloud deploy failed with heat_resource_tree_params = heat_resource_tree['parameters'] KeyError: 'parameters',https://bugs.launchpad.net/tripleo/+bug/1866184,2020-04-09
+1866247,1866247,Fix Released,plan delete fails due to bad context,https://bugs.launchpad.net/tripleo/+bug/1866247,2020-04-09
+1866249,1866249,Fix Released,using an environment file from the current working directory no longer works for overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1866249,2020-04-09
+1866313,1866313,Fix Released,undercloud_hosts_entries is not python3 friendly,https://bugs.launchpad.net/tripleo/+bug/1866313,2020-04-09
+1864491,1864491,Fix Released,"Undercloud, optionally use ironic neuton network interface driver",https://bugs.launchpad.net/tripleo/+bug/1864491,2020-04-09
+1866410,1866410,Fix Released,autodocs broken for python-tripleoclient,https://bugs.launchpad.net/tripleo/+bug/1866410,2020-04-09
+1866637,1866637,Fix Released,deployment variable leaked outside of loop scope,https://bugs.launchpad.net/tripleo/+bug/1866637,2020-04-09
+1867798,1867798,Fix Released,"Overcloud deploy fail when not using standard ""overcloud"" stack name",https://bugs.launchpad.net/tripleo/+bug/1867798,2020-04-09
+1868416,1868416,Fix Released,'openstack tripleo valiador run' fails with TypeError,https://bugs.launchpad.net/tripleo/+bug/1868416,2020-04-09
+1868619,1868619,Fix Released,The 'undercloud-passwords.conf' path is not consistently returned,https://bugs.launchpad.net/tripleo/+bug/1868619,2020-04-09
+1869736,1869736,Fix Released,Image upload fails - AttributeError: 'function' object has no attribute 'list',https://bugs.launchpad.net/tripleo/+bug/1869736,2020-04-09
+1869230,1869230,Fix Released,standalone upgrade do not raise if upgrade_tasks failed,https://bugs.launchpad.net/tripleo/+bug/1869230,2020-04-09
+1866031,1866031,Fix Released,"periodic centos7 fs2 upload/fs1 master fails overcloud deploy pcs ""create constraint failed""",https://bugs.launchpad.net/tripleo/+bug/1866031,2020-04-09
+1866209,1866209,Fix Released,we need an explicit guarantee that firewall rules are opened before we invoke any pcs commands,https://bugs.launchpad.net/tripleo/+bug/1866209,2020-04-09
+1866214,1866214,Fix Released,stonith level do not explicitely require stonith resources,https://bugs.launchpad.net/tripleo/+bug/1866214,2020-04-09
+1867186,1867186,Fix Released,mysql password is not updated for specific mysql root user,https://bugs.launchpad.net/tripleo/+bug/1867186,2020-04-09
+1868284,1868284,Fix Released,cinder mishandling ipv6 address when using etcd for its DLM,https://bugs.launchpad.net/tripleo/+bug/1868284,2020-04-09
+1862954,1862954,Fix Released,paunch: reduce container updates downtime,https://bugs.launchpad.net/tripleo/+bug/1862954,2020-04-09

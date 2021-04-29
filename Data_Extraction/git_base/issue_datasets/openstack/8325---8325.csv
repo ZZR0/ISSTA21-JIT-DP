@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1810340,1810340,Fix Released,Repetitive info messages from nova-compute,https://bugs.launchpad.net/nova/+bug/1810340,2019-03-22
+1808247,1808247,Fix Released,nova-lvm job failing with ArgsAlreadyParsedError (privsep),https://bugs.launchpad.net/nova/+bug/1808247,2019-03-22
+1798796,1798796,Fix Released,libvirt: Use VIR_MIGRATE_TLS to get QEMU's native TLS support for migration and NBD,https://bugs.launchpad.net/nova/+bug/1798796,2019-03-22
+1811565,1811565,Fix Released,Live migrations gives a cryptic message when instance is paused,https://bugs.launchpad.net/nova/+bug/1811565,2019-03-22
+1742467,1742467,Fix Released,Compute unnecessarily gets resource provider aggregates during every update_available_resource run,https://bugs.launchpad.net/nova/+bug/1742467,2019-03-22
+1770527,1770527,Fix Released,add volume fails over 26vols and returns 500 API error with libvirt driver,https://bugs.launchpad.net/nova/+bug/1770527,2019-03-22
+1814953,1814953,Fix Released,Compute API in nova - bad link in 'create extra specs for flavor' API reference,https://bugs.launchpad.net/nova/+bug/1814953,2019-03-22
+1814882,1814882,Fix Released,Bandwidth limits specified in flavors are not applied to generic vHost User interfaces,https://bugs.launchpad.net/nova/+bug/1814882,2019-03-22
+1815763,1815763,Fix Released,Unbound regex in config options,https://bugs.launchpad.net/nova/+bug/1815763,2019-03-22
+1815591,1815591,Fix Released,Out-of-date configuration options and no cross-referencing in scheduler filter guide,https://bugs.launchpad.net/nova/+bug/1815591,2019-03-22
+1800657,1800657,Fix Released,docs: ComputeDriver.update_provider_tree in nova,https://bugs.launchpad.net/nova/+bug/1800657,2019-03-22
+1808252,1808252,Fix Released,libvirt: unplug_hw_veb incorrectly set vm mac on vf,https://bugs.launchpad.net/nova/+bug/1808252,2019-03-22
+1799495,1799495,Fix Released,api-ref: createImage description does not mention volume-backed snapshots,https://bugs.launchpad.net/nova/+bug/1799495,2019-03-22
+1816152,1816152,Fix Released,legacy-grenade-dsvm-neutron-multinode-live-migration is not running on real code changes,https://bugs.launchpad.net/nova/+bug/1816152,2019-03-22
+1816831,1816831,Fix Released,DOC: typo in add_initial_allocation_ratio releasenote,https://bugs.launchpad.net/nova/+bug/1816831,2019-03-22
+1817915,1817915,Fix Released,Autogeneration of API sample docs fails,https://bugs.launchpad.net/nova/+bug/1817915,2019-03-22
+1817961,1817961,Fix Released,populate_queued_for_delete queries the cell database for instances even if there are no instance mappings to migrate in that cell,https://bugs.launchpad.net/nova/+bug/1817961,2019-03-22
+1818131,1818131,Fix Released,GET /servers/{server_id} response for a down-cell instance does not include links,https://bugs.launchpad.net/nova/+bug/1818131,2019-03-22
+1817963,1817963,Fix Released,"API reference tells users to not create servers with availability_zone ""nova"" but the server create samples use ""nova"" for the AZ :(",https://bugs.launchpad.net/nova/+bug/1817963,2019-03-22
+1816859,1816859,Fix Released,Server concepts in nova - automatic resize confirm is wrong in docs,https://bugs.launchpad.net/nova/+bug/1816859,2019-03-22
+1818252,1818252,Fix Released,Incorrect logging instance uuid in nova logs,https://bugs.launchpad.net/nova/+bug/1818252,2019-03-22
+1794994,1794994,Fix Released,Update the --max-rows parameter description for nova-manage db archive_deleted_rows,https://bugs.launchpad.net/nova/+bug/1794994,2019-03-22
+1819166,1819166,Fix Released,"nova-live-migration evacuation tests fail with ""error: unrecognized arguments: --force""",https://bugs.launchpad.net/nova/+bug/1819166,2019-03-22
+1800661,1800661,Fix Released,doc: Flavors in nova - numbered request groups,https://bugs.launchpad.net/nova/+bug/1800661,2019-03-22
+1819374,1819374,Fix Released,test_interface_detach_with_port_with_bandwidth_request intermittently fails,https://bugs.launchpad.net/nova/+bug/1819374,2019-03-22
+1818310,1818310,Fix Released,api-ref: block_device_mapping_v2.volume_size does not mention when it's required,https://bugs.launchpad.net/nova/+bug/1818310,2019-03-22
+1819944,1819944,Fix Released,nova-grenade-live-migration job failing on ubuntu bionic due to missing ceph package,https://bugs.launchpad.net/nova/+bug/1819944,2019-03-22
+1821092,1821092,Fix Released,test_local_delete_removes_allocations_after_compute_restart failing since https://review.openstack.org/#/c/644591/,https://bugs.launchpad.net/nova/+bug/1821092,2019-03-22
+1220104,1220104,Fix Released,glance image-update --file does not work correctly,https://bugs.launchpad.net/python-glanceclient/+bug/1220104,2019-03-22
+1793343,1793343,Fix Released,Unable to generate sample policy files,https://bugs.launchpad.net/congress/+bug/1793343,2019-03-22
+1819248,1819248,Fix Released,Congress Agent exits: TypeError: string indices must be integers,https://bugs.launchpad.net/congress/+bug/1819248,2019-03-22
+1811754,1811754,Fix Released,500 error on datasource create when fail to reach _ds_manager,https://bugs.launchpad.net/congress/+bug/1811754,2019-03-22
+1819985,1819985,Fix Released,JSON ingester transaction isolation problem,https://bugs.launchpad.net/congress/+bug/1819985,2019-03-22
+1819988,1819988,Fix Released,JSON ingester data may be unindexable,https://bugs.launchpad.net/congress/+bug/1819988,2019-03-22
+1819987,1819987,Fix Released,JSON ingester repeatedly creates redundant index,https://bugs.launchpad.net/congress/+bug/1819987,2019-03-22
+1819556,1819556,Fix Released,JSON ingester connection error as setup by devstack plugin,https://bugs.launchpad.net/congress/+bug/1819556,2019-03-22
+1821098,1821098,Fix Released,Users cannot access ingested data,https://bugs.launchpad.net/congress/+bug/1821098,2019-03-22
+1817154,1817154,Fix Released,DuplicateOptError: duplicate option: barbican,https://bugs.launchpad.net/tripleo/+bug/1817154,2019-03-22
+1818026,1818026,Fix Released,OVN Octavia  deployment fails in Devstack due to lack of VIP Port Creation,https://bugs.launchpad.net/networking-ovn/+bug/1818026,2019-03-22
+1818384,1818384,Fix Released,AttributeError: 'Import' object has no attribute 'infer_name_module',https://bugs.launchpad.net/networking-midonet/+bug/1818384,2019-03-21
+1819876,1819876,Fix Released,CI failure related to network segment range,https://bugs.launchpad.net/networking-midonet/+bug/1819876,2019-03-21
+1542993,1542993,Fix Released,dns-integration extension,https://bugs.launchpad.net/networking-midonet/+bug/1542993,2019-03-21
+1818628,1818628,Fix Released,Scenario jobs for neutron-dynamic-routing project fails on Ubuntu Bionic,https://bugs.launchpad.net/neutron/+bug/1818628,2019-03-21
+1712062,1712062,Fix Released,k8s: cluster-delete fails,https://bugs.launchpad.net/magnum/+bug/1712062,2019-03-21
+1789829,1789829,Fix Released,Unhandled exception can stop VNF monitoring,https://bugs.launchpad.net/tacker/+bug/1789829,2019-03-21
+1778613,1778613,Fix Released,tosca.policies.tacker.Scaling of tacker_defs.yaml  define incorrect,https://bugs.launchpad.net/tacker/+bug/1778613,2019-03-21
+1807863,1807863,Fix Released,warning when generate the configuration file tacker.conf.sample,https://bugs.launchpad.net/tacker/+bug/1807863,2019-03-21
+1812766,1812766,Fix Released,Kubernetes VIM  installation error,https://bugs.launchpad.net/tacker/+bug/1812766,2019-03-21
+1710801,1710801,Fix Released,improve returned message of nsd-create,https://bugs.launchpad.net/tacker/+bug/1710801,2019-03-21
+1814855,1814855,Fix Released,nsd-create failed abnormally if no import sesction in template,https://bugs.launchpad.net/tacker/+bug/1814855,2019-03-21
+1656416,1656416,Fix Released,RFE: remove deprecated YAML string for API attributes,https://bugs.launchpad.net/tacker/+bug/1656416,2019-03-21
+1710633,1710633,Fix Released,Improve returned message of create_vnffg,https://bugs.launchpad.net/tacker/+bug/1710633,2019-03-21
+1817283,1817283,Fix Released,Windows style line endings issue,https://bugs.launchpad.net/tacker/+bug/1817283,2019-03-21
+1819935,1819935,Fix Released,TypeError: 'dict_keys' object does not support indexing,https://bugs.launchpad.net/tacker/+bug/1819935,2019-03-21
+1793915,1793915,Fix Released,Tempest tests broken in stable/ocata,https://bugs.launchpad.net/manila/+bug/1793915,2019-03-21
+1760822,1760822,Fix Released,Quotas can be set differently on same project if using project name or ID,https://bugs.launchpad.net/designate/+bug/1760822,2019-03-21
+1789876,1789876,Fix Released,Designate ignores project quota when transferring a zone,https://bugs.launchpad.net/designate/+bug/1789876,2019-03-21
+1792671,1792671,Fix Released,Python 3.x and eventlet 0.21+ breaks Designate,https://bugs.launchpad.net/designate/+bug/1792671,2019-03-21
+1779850,1779850,Fix Released,Lack of support for NAPTR records,https://bugs.launchpad.net/designate/+bug/1779850,2019-03-21
+1787552,1787552,Fix Released,Lack of support for CAA records,https://bugs.launchpad.net/designate/+bug/1787552,2019-03-21
+1809906,1809906,Fix Released,Parent zone can be deleted when child is in another tenant,https://bugs.launchpad.net/designate/+bug/1809906,2019-03-21
+1813089,1813089,Fix Released,Lbaas driver could pick the wrong member address in dual stack network,https://bugs.launchpad.net/senlin/+bug/1813089,2019-03-21
+1815995,1815995,Fix Released,"Volume details page, if the metadata is too long, it will affect the display.",https://bugs.launchpad.net/horizon/+bug/1815995,2019-03-21
+1816333,1816333,Fix Released,"On the instance page, if the instance flavor name is too long, it will exceed the scope of the instance flavor details modal box.",https://bugs.launchpad.net/horizon/+bug/1816333,2019-03-21
+1816632,1816632,Fix Released,Horizon should not allow to change image format,https://bugs.launchpad.net/horizon/+bug/1816632,2019-03-21
+1815639,1815639,Fix Released,WARNING horizon.exceptions Recoverable error: 'module' object has no attribute 'tenant_limit_usages',https://bugs.launchpad.net/horizon/+bug/1815639,2019-03-21
+1817054,1817054,Fix Released,Attribute Error just after creating a volume group,https://bugs.launchpad.net/horizon/+bug/1817054,2019-03-21
+1816010,1816010,Fix Released,"Create an group of the name has exist, the error message is not clear",https://bugs.launchpad.net/horizon/+bug/1816010,2019-03-21
+1819394,1819394,Fix Released,"On the update metadata form, if the value of the key is too long, the description will exceed the page range.",https://bugs.launchpad.net/horizon/+bug/1819394,2019-03-21
+1819423,1819423,Fix Released,Horizon does not support CSRF_COOKIE_HTTPONLY option,https://bugs.launchpad.net/horizon/+bug/1819423,2019-03-21
+1817887,1817887,Fix Released,Modify Edit User information Success message,https://bugs.launchpad.net/horizon/+bug/1817887,2019-03-21
+1816041,1816041,Fix Released,Nova keypair type cannot be selected,https://bugs.launchpad.net/horizon/+bug/1816041,2019-03-21
+1819587,1819587,Fix Released,"On change volume type form， without modifying any information，then click the ""change Volume Type"" button，cannot submit the form",https://bugs.launchpad.net/horizon/+bug/1819587,2019-03-21
+1818826,1818826,Fix Released,Volume Type 'View Extra Specs' overrides existing  key value,https://bugs.launchpad.net/horizon/+bug/1818826,2019-03-21
+1820935,1820935,Fix Released,typo of Horizon Dashboard UI,https://bugs.launchpad.net/horizon/+bug/1820935,2019-03-21

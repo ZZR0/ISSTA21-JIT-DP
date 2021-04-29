@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1607119,1607119,Fix Released,TOTP auth not functional in python3,https://bugs.launchpad.net/keystone/+bug/1607119,2016-09-02
+1607107,1607107,Fix Released,Unauthorized exception causes missing exception kwargs (programmer error),https://bugs.launchpad.net/keystone/+bug/1607107,2016-09-02
+1608653,1608653,Fix Released,Add libpg-dev to developer docs,https://bugs.launchpad.net/keystone/+bug/1608653,2016-09-02
+1603038,1603038,Fix Released,Execption on admin_token usage ValueError: Unrecognized,https://bugs.launchpad.net/keystone/+bug/1603038,2016-09-02
+1607567,1607567,Fix Released,[api] domain configuration API docs missing domain config creation,https://bugs.launchpad.net/keystone/+bug/1607567,2016-09-02
+1604862,1604862,Fix Released,DBDeadlock: (_mysql_exceptions.OperationalError) while deleting user,https://bugs.launchpad.net/keystone/+bug/1604862,2016-09-02
+1609174,1609174,Fix Released,[api] Document query option (is_domain) for projects,https://bugs.launchpad.net/keystone/+bug/1609174,2016-09-02
+1609177,1609177,Fix Released,"[api] Add ""nocatalog"" option to GET /v3/auth/tokens",https://bugs.launchpad.net/keystone/+bug/1609177,2016-09-02
+1572168,1572168,Fix Released,[api] Missing response parameter tables identity admin API,https://bugs.launchpad.net/keystone/+bug/1572168,2016-09-02
+1609175,1609175,Fix Released,[api] Document query options for GET /projects,https://bugs.launchpad.net/keystone/+bug/1609175,2016-09-02
+1609178,1609178,Fix Released,"[api] Document GET /auth/catalog, GET /auth/projects, GET /auth/domains",https://bugs.launchpad.net/keystone/+bug/1609178,2016-09-02
+1609173,1609173,Fix Released,[api] Document default domain config behaviour,https://bugs.launchpad.net/keystone/+bug/1609173,2016-09-02
+1609164,1609164,Fix Released,[api] Document implied roles,https://bugs.launchpad.net/keystone/+bug/1609164,2016-09-02
+1609171,1609171,Fix Released,[api] Document domain specific roles,https://bugs.launchpad.net/keystone/+bug/1609171,2016-09-02
+1609159,1609159,Fix Released,[api] add relationship links to all routes,https://bugs.launchpad.net/keystone/+bug/1609159,2016-09-02
+1615000,1615000,Fix Released,Entry to User table creates entries in local_user table for ldap and custom driver users,https://bugs.launchpad.net/keystone/+bug/1615000,2016-09-02
+1613466,1613466,Fix Released,"Update credential to ""ec2"" type accepts a credential without the project set",https://bugs.launchpad.net/keystone/+bug/1613466,2016-09-02
+1615111,1615111,Fix Released,Useless log message about encryption key loading.,https://bugs.launchpad.net/keystone/+bug/1615111,2016-09-02
+1617361,1617361,Fix Released,Federation mapping schema docs out of date,https://bugs.launchpad.net/keystone/+bug/1617361,2016-09-02
+1615698,1615698,Fix Released,developing.rst needs to be updated for new rolling upgrade approach,https://bugs.launchpad.net/keystone/+bug/1615698,2016-09-02
+1609161,1609161,Fix Released,[api] Document set user's tenant,https://bugs.launchpad.net/keystone/+bug/1609161,2016-09-02
+1601929,1601929,Fix Released,Relax the requirement for mappings to result in group memberships,https://bugs.launchpad.net/keystone/+bug/1601929,2016-09-02
+1596500,1596500,Fix Released,Passwords created_at attribute could remain unset during rolling upgrade,https://bugs.launchpad.net/keystone/+bug/1596500,2016-09-02
+1518199,1518199,Fix Released,Swift Backup Driver: Auth URL parameter not treated as keystone URL,https://bugs.launchpad.net/cinder/+bug/1518199,2016-09-02
+1543937,1543937,Fix Released,db purge records fails for very large number,https://bugs.launchpad.net/cinder/+bug/1543937,2016-09-02
+1543937,1543937,Fix Released,db purge records fails for very large number,https://bugs.launchpad.net/nova/+bug/1543937,2016-09-02
+1543937,1543937,Fix Released,db purge records fails for very large number,https://bugs.launchpad.net/glance/+bug/1543937,2016-09-02
+1594759,1594759,Fix Released,VMware: Retype doesn't honor vmware_cluster_name option,https://bugs.launchpad.net/cinder/+bug/1594759,2016-09-02
+1593552,1593552,Fix Released,Remove deprecated Fujitsu mapping in manager.py,https://bugs.launchpad.net/cinder/+bug/1593552,2016-09-02
+1597705,1597705,Fix Released,Emc xtremio: manage_existing_get_size should return ceiling of volume size,https://bugs.launchpad.net/cinder/+bug/1597705,2016-09-02
+1597045,1597045,Fix Released,Admin cannot show/set quotas in projects where they are not a member or in hierarchy,https://bugs.launchpad.net/cinder/+bug/1597045,2016-09-02
+1578294,1578294,Fix Released,Storwize: terminate_connection fails when a different host is removed concurrently,https://bugs.launchpad.net/cinder/+bug/1578294,2016-09-02
+1602648,1602648,Fix Released,tox -e api-ref raises error,https://bugs.launchpad.net/cinder/+bug/1602648,2016-09-02
+1580866,1580866,Fix Released,Check 'thin_provisioning_support' in extra specs,https://bugs.launchpad.net/cinder/+bug/1580866,2016-09-02
+1617683,1617683,Fix Released,Group type filter is wrong,https://bugs.launchpad.net/cinder/+bug/1617683,2016-09-02
+1603325,1603325,Fix Released,qos-create raises HTTP 500 error if you pass key or value greater than 255 characters,https://bugs.launchpad.net/cinder/+bug/1603325,2016-09-02
+1604269,1604269,Fix Released,generate_driver_list prints empty summary,https://bugs.launchpad.net/cinder/+bug/1604269,2016-09-02
+1603549,1603549,Fix Released,Volume status not set to error when exception thrown for manage existing volume opertion,https://bugs.launchpad.net/cinder/+bug/1603549,2016-09-02
+1599502,1599502,Fix Released,Versioned Object Refresh method doesn't behave as expected,https://bugs.launchpad.net/cinder/+bug/1599502,2016-09-02
+1596569,1596569,Fix Released,NetApp cDOT create_volume_from_snapshot doesn't scale well,https://bugs.launchpad.net/cinder/+bug/1596569,2016-09-02
+1605027,1605027,Fix Released,Prevent races on SolidFire template volume creation,https://bugs.launchpad.net/cinder/+bug/1605027,2016-09-02
+1599806,1599806,Fix Released,"Existing api_version decorator mechanism forces ""# noqa""",https://bugs.launchpad.net/cinder/+bug/1599806,2016-09-02
+1604347,1604347,Fix Released,OVO destroy methods don't update the instance,https://bugs.launchpad.net/cinder/+bug/1604347,2016-09-02
+1605551,1605551,Fix Released,Log message contains resource name as 'volume' if service is disabled when retrieving manageable snapshots,https://bugs.launchpad.net/cinder/+bug/1605551,2016-09-02
+1599830,1599830,Fix Released,cinder-manage db purge fails with IntegrityError for quality_of_service_specs db table,https://bugs.launchpad.net/cinder/+bug/1599830,2016-09-02
+1604740,1604740,Fix Released,sheepdog:failed to create volume from image,https://bugs.launchpad.net/cinder/+bug/1604740,2016-09-02
+1514026,1514026,Fix Released,Some NetApp driver unit tests are testing functionality rather than code coverage,https://bugs.launchpad.net/cinder/+bug/1514026,2016-09-02
+1513760,1513760,Fix Released,failed to attach to instance after volume retype,https://bugs.launchpad.net/cinder/+bug/1513760,2016-09-02
+1606698,1606698,Fix Released,quobyte: volume driver should use distributed lock manager,https://bugs.launchpad.net/cinder/+bug/1606698,2016-09-02
+1596939,1596939,Fix Released,VMware: Upload to image fails with KeyError: 'is_public' if glance_api_version is set to 2,https://bugs.launchpad.net/cinder/+bug/1596939,2016-09-02
+1603472,1603472,Fix Released,QoS specs object introduced mistakes,https://bugs.launchpad.net/cinder/+bug/1603472,2016-09-02
+1602008,1602008,Fix Released,Storwize: space in volume name causes SSHInjectionThreat failure,https://bugs.launchpad.net/cinder/+bug/1602008,2016-09-02
+1607641,1607641,Fix Released,Empty name allowed for qos-spec,https://bugs.launchpad.net/cinder/+bug/1607641,2016-09-02
+1599167,1599167,Fix Released,VMware: Retype fails if storage policy is enabled and the new volume type has a policy,https://bugs.launchpad.net/cinder/+bug/1599167,2016-09-02
+1604151,1604151,Fix Released,Violin Memory Cinder Driver - Address deferred  comments from an earlier review,https://bugs.launchpad.net/cinder/+bug/1604151,2016-09-02
+1588592,1588592,Fix Released,Size in tintri driver is float type which should be converted to integer,https://bugs.launchpad.net/cinder/+bug/1588592,2016-09-02
+1591597,1591597,Fix Released,Huawei Driver: Volume snapshot manage should get ceiling of volume size,https://bugs.launchpad.net/cinder/+bug/1591597,2016-09-02
+1604703,1604703,Fix Released,volume retype from other array to scaleIO array cannot finish with 'volume rename' issue,https://bugs.launchpad.net/cinder/+bug/1604703,2016-09-02
+1602086,1602086,Fix Released,os-volume-manage api  does not do metadata check,https://bugs.launchpad.net/cinder/+bug/1602086,2016-09-02
+1570208,1570208,Fix Released,Huawei: fix problems caused by an array of password expiration,https://bugs.launchpad.net/cinder/+bug/1570208,2016-09-02
+1608853,1608853,Fix Released,ImportError of fake_driver,https://bugs.launchpad.net/cinder/+bug/1608853,2016-09-02
+1608997,1608997,Fix Released,"a misspelling ""administator"" in synology_common.py",https://bugs.launchpad.net/cinder/+bug/1608997,2016-09-02
+1605673,1605673,Fix Released,Scheduler manager masking retype failure details,https://bugs.launchpad.net/cinder/+bug/1605673,2016-09-02
+1592730,1592730,Fix Released,proxy server config option for google backup driver,https://bugs.launchpad.net/cinder/+bug/1592730,2016-09-02
+1609208,1609208,Fix Released,No module named fake_driver,https://bugs.launchpad.net/cinder/+bug/1609208,2016-09-02
+1607333,1607333,Fix Released,Backup failed when initialize_connection backup device,https://bugs.launchpad.net/cinder/+bug/1607333,2016-09-02
+1588310,1588310,Fix Released,exceed of dd action when clearing a volume[1/2],https://bugs.launchpad.net/cinder/+bug/1588310,2016-09-02
+1514546,1514546,Fix Released,Cinder volume encryption uses default parameters for keys,https://bugs.launchpad.net/cinder/+bug/1514546,2016-09-02
+1609791,1609791,Fix Released,Comma at the end of policy.json causes json loads to fail,https://bugs.launchpad.net/cinder/+bug/1609791,2016-09-02
+1605109,1605109,Fix Released,API doesn't fail on Down Service for manage/get_manageable volumes/snapshots,https://bugs.launchpad.net/cinder/+bug/1605109,2016-09-02
+1608488,1608488,Fix Released,Improve snapshot handling in Kaminario K2 FC and iSCSI cinder drivers,https://bugs.launchpad.net/cinder/+bug/1608488,2016-09-02
+1610152,1610152,Fix Released,"Remove unused ""context""  parameter from private methods",https://bugs.launchpad.net/cinder/+bug/1610152,2016-09-02
+1611066,1611066,Fix Released,Warning in api log for error loading resource_common_manage,https://bugs.launchpad.net/cinder/+bug/1611066,2016-09-02
+1607157,1607157,Fix Released,"can't reset backup's state when the state is not ""RESTORING""",https://bugs.launchpad.net/cinder/+bug/1607157,2016-09-02
+1611802,1611802,Fix Released,Dell SC: Requests async header is invalid,https://bugs.launchpad.net/cinder/+bug/1611802,2016-09-02

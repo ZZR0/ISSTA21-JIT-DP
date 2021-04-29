@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+968339,968339,Fix Released,Race condition in LibVirtConnection.get_disk_available_least,https://bugs.launchpad.net/nova/+bug/968339,2012-04-05
+965333,965333,Fix Released,nova-network spends too much time in VlanManager._disassociate_stale_fixed_ips,https://bugs.launchpad.net/nova/+bug/965333,2012-04-05
+963357,963357,Fix Released,versions resource on volume api endpoint fails,https://bugs.launchpad.net/nova/+bug/963357,2012-04-05
+959426,959426,Fix Released,nova + glance services die if started before db is reachable,https://bugs.launchpad.net/glance/+bug/959426,2012-04-05
+959426,959426,Fix Released,nova + glance services die if started before db is reachable,https://bugs.launchpad.net/nova/+bug/959426,2012-04-05
+956366,956366,Fix Released,self-referential security groups can not be deleted,https://bugs.launchpad.net/nova/+bug/956366,2012-04-05
+797770,797770,Fix Released,'Socket closed' during API stress test,https://bugs.launchpad.net/nova/+bug/797770,2012-04-05
+960437,960437,Fix Released,Creating snapshot with multiple volume hosts fails,https://bugs.launchpad.net/nova/+bug/960437,2012-04-05
+948286,948286,Fix Released,euca-describe-instances returns ImageNotFound on first run,https://bugs.launchpad.net/nova/+bug/948286,2012-04-05
+954833,954833,Fix Released,xenapi plugins all need the execute permission set,https://bugs.launchpad.net/nova/+bug/954833,2012-04-05
+954341,954341,Fix Released,network_get_all_by_host does not return the right networks,https://bugs.launchpad.net/nova/+bug/954341,2012-04-05
+953716,953716,Fix Released,nova-manage floating delete fails,https://bugs.launchpad.net/nova/+bug/953716,2012-04-05
+953423,953423,Fix Released,import pickle should be import cPickle,https://bugs.launchpad.net/nova/+bug/953423,2012-04-05
+953182,953182,Fix Released,Missing serializer on os-quota-sets/defaults,https://bugs.launchpad.net/nova/+bug/953182,2012-04-05
+953153,953153,Fix Released,melange_conenction does not import exception,https://bugs.launchpad.net/nova/+bug/953153,2012-04-05
+951161,951161,Fix Released,nova-manage floating create interprets /32 range as being wider than the /31 range,https://bugs.launchpad.net/nova/+bug/951161,2012-04-05
+950964,950964,Fix Released,sm volume driver: adding backed with specified sr_uuid fails,https://bugs.launchpad.net/nova/+bug/950964,2012-04-05
+950478,950478,Fix Released,Use of deprecated webob.Request.str_* properties limits compatibility to WebOb < 1.2,https://bugs.launchpad.net/nova/+bug/950478,2012-04-05
+950055,950055,Fix Released,EC2 API hides exceptions from the user. (volumes),https://bugs.launchpad.net/nova/+bug/950055,2012-04-05
+949631,949631,Fix Released,boto should not be a dependency when not using ec2 api/s3,https://bugs.launchpad.net/nova/+bug/949631,2012-04-05
+949098,949098,Fix Released,xml namespace of limits call is incorrect,https://bugs.launchpad.net/nova/+bug/949098,2012-04-05
+948611,948611,Fix Released,'nova-manage logs errors' broken,https://bugs.launchpad.net/nova/+bug/948611,2012-04-05
+948601,948601,Fix Released,Audit period needs adjustable offset.,https://bugs.launchpad.net/nova/+bug/948601,2012-04-05
+948595,948595,Fix Released,Default api-paste.ini does not properly route metadata requests to /1.0,https://bugs.launchpad.net/nova/+bug/948595,2012-04-05
+948586,948586,Fix Released,InstanceInfoCache should be availible for deleted instances,https://bugs.launchpad.net/nova/+bug/948586,2012-04-05
+948154,948154,Fix Released,instance faults overriden by: format requires a mapping error,https://bugs.launchpad.net/nova/+bug/948154,2012-04-05
+947750,947750,Fix Released,diable-stable: keypairs with empty name behave badly,https://bugs.launchpad.net/nova/+bug/947750,2012-04-05
+946687,946687,Fix Released,xenapi tests sporadically hang,https://bugs.launchpad.net/nova/+bug/946687,2012-04-05
+945364,945364,Fix Released,add uuid suffix to dnstest.txt in minidns,https://bugs.launchpad.net/nova/+bug/945364,2012-04-05
+945363,945363,Fix Released,add uuid suffix to lock_name in TestLockCleanup,https://bugs.launchpad.net/nova/+bug/945363,2012-04-05
+945358,945358,Fix Released,late load rabbit_notifier in test_notifier,https://bugs.launchpad.net/nova/+bug/945358,2012-04-05
+945355,945355,Fix Released,provide-a-provider-in-boto.utils.canonical_string,https://bugs.launchpad.net/nova/+bug/945355,2012-04-05
+945346,945346,Fix Released,remove trailing whitespaces in regular file,https://bugs.launchpad.net/nova/+bug/945346,2012-04-05
+945206,945206,Fix Released,Trying to Update a server which the user is not authorized for throws a ComputeFault,https://bugs.launchpad.net/nova/+bug/945206,2012-04-05
+945160,945160,Fix Released,fix restructuredtext formatting in docstrings that show up in the developer guide,https://bugs.launchpad.net/nova/+bug/945160,2012-04-05
+944846,944846,Fix Released,list images invalid marker throws 500 error,https://bugs.launchpad.net/nova/+bug/944846,2012-04-05
+944385,944385,Fix Released,fix formatting errors in static rst files,https://bugs.launchpad.net/nova/+bug/944385,2012-04-05
+944381,944381,Fix Released,fix header underlines in auto-generated doc files,https://bugs.launchpad.net/nova/+bug/944381,2012-04-05
+944168,944168,Fix Released,VIFs unplugged twice during VM restart?,https://bugs.launchpad.net/nova/+bug/944168,2012-04-05
+944096,944096,Fix Released,glance plugin should try multiple servers on failure,https://bugs.launchpad.net/nova/+bug/944096,2012-04-05
+943490,943490,Fix Released,xen instance build fails when vcpu_weights set,https://bugs.launchpad.net/nova/+bug/943490,2012-04-05
+942690,942690,Fix Released,model_query does not support boolean read_deleted values,https://bugs.launchpad.net/nova/+bug/942690,2012-04-05
+942406,942406,Fix Released,check all migrations in test_misc,https://bugs.launchpad.net/nova/+bug/942406,2012-04-05
+931801,931801,Fix Released,quantum manager eats exceptions during deallocation,https://bugs.launchpad.net/nova/+bug/931801,2012-04-05
+931667,931667,Fix Released,non-ascii usernames broken in nova,https://bugs.launchpad.net/nova/+bug/931667,2012-04-05
+931667,931667,Fix Released,non-ascii usernames broken in nova,https://bugs.launchpad.net/horizon/+bug/931667,2012-04-05
+930314,930314,Fix Released,images registered via ec2 api have nave attribute 'None',https://bugs.launchpad.net/nova/+bug/930314,2012-04-05
+950768,950768,Fix Released,Code missing from error message when quota-breaching instance launched via OS API,https://bugs.launchpad.net/nova/+bug/950768,2012-04-05
+944997,944997,Fix Released,running_deleted_instance_action should default to 'log',https://bugs.launchpad.net/nova/+bug/944997,2012-04-05
+936898,936898,Fix Released,Nova options tool enhancements,https://bugs.launchpad.net/nova/+bug/936898,2012-04-05
+901594,901594,Fix Released,Change in hostname exposition renders EC2 API unusable,https://bugs.launchpad.net/nova/+bug/901594,2012-04-05
+827619,827619,Fix Released,DescribeInstances reply is not ordered as in EC2,https://bugs.launchpad.net/nova/+bug/827619,2012-04-05
+821252,821252,Fix Released,Default scheduler should be smarter than ChanceScheduler,https://bugs.launchpad.net/nova/+bug/821252,2012-04-05
+959661,959661,Fix Released,accessIPv6 error message in incorrect,https://bugs.launchpad.net/nova/+bug/959661,2012-04-05
+955975,955975,Fix Released,Include babel.cfg in released tarballs,https://bugs.launchpad.net/nova/+bug/955975,2012-04-05
+953781,953781,Fix Released,NoopFirewallDriver results in infinite loop with libvirt,https://bugs.launchpad.net/nova/+bug/953781,2012-04-05
+953685,953685,Fix Released,nova-manage fixed list Keyerror when fixed ip allocated to missing instance,https://bugs.launchpad.net/nova/+bug/953685,2012-04-05
+953492,953492,Fix Released,Additional Extensions cause Test Failures,https://bugs.launchpad.net/nova/+bug/953492,2012-04-05
+953354,953354,Fix Released,nova-manage syslog should work on Fedora/RHEL,https://bugs.launchpad.net/nova/+bug/953354,2012-04-05
+949650,949650,Fix Released,scheduler/driver shouldn't have dependency on ec2 api code,https://bugs.launchpad.net/nova/+bug/949650,2012-04-05
+947776,947776,Fix Released,need flag to disable ratelimiting,https://bugs.launchpad.net/nova/+bug/947776,2012-04-05
+944105,944105,Fix Released,500 error on 'nova host-update --status [enabled|disabled] when using xenapi aggregates',https://bugs.launchpad.net/nova/+bug/944105,2012-04-05
+943690,943690,Fix Released,kill_dhcp fails if dnsmasq is not running,https://bugs.launchpad.net/nova/+bug/943690,2012-04-05
+943316,943316,Fix Released,"Wrong use of "">"" to try to redirect output in _enable_hairpin",https://bugs.launchpad.net/nova/+bug/943316,2012-04-05
+943188,943188,Fix Released,Create a new aggregate with same name as deleted not working,https://bugs.launchpad.net/nova/+bug/943188,2012-04-05
+943178,943178,Fix Released,aggregate extension lacks documentation,https://bugs.launchpad.net/nova/+bug/943178,2012-04-05
+942956,942956,Fix Released,Progress incorrect on initial build/resize,https://bugs.launchpad.net/nova/+bug/942956,2012-04-05
+942556,942556,Fix Released,xenhost power actions do not use host uuid,https://bugs.launchpad.net/nova/+bug/942556,2012-04-05
+940581,940581,Fix Released,Can't rescue previously rescued instance,https://bugs.launchpad.net/nova/+bug/940581,2012-04-05
+938287,938287,Fix Released,FLAGS.rpc_response_timeout default is too long,https://bugs.launchpad.net/nova/+bug/938287,2012-04-05
+937227,937227,Fix Released,os-floating-ips gives 500 with FlatManager,https://bugs.launchpad.net/nova/+bug/937227,2012-04-05
+917982,917982,Fix Released,invalid cidr for security rule causes 500 error,https://bugs.launchpad.net/nova/+bug/917982,2012-04-05
+917484,917484,Fix Released,OS API: Metadata key thats length exceeds system limit throws incorrect error,https://bugs.launchpad.net/nova/+bug/917484,2012-04-05
+902846,902846,Fix Released,docs don't build properly in virtualenv,https://bugs.launchpad.net/nova/+bug/902846,2012-04-05
+902846,902846,Fix Released,docs don't build properly in virtualenv,https://bugs.launchpad.net/openstack-ci/+bug/902846,2012-04-05

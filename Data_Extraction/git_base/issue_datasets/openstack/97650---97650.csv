@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+762071,762071,Fix Released,"Several modules use ""== None"" instead of ""is None""",https://bugs.launchpad.net/nova/+bug/762071,2011-09-22
+762047,762047,Fix Released,Several modules don't pass pep8,https://bugs.launchpad.net/nova/+bug/762047,2011-09-22
+760717,760717,Fix Released,Parameter mismatch when calling to_xml() from spawn() in libvirt_conn.py,https://bugs.launchpad.net/nova/+bug/760717,2011-09-22
+760342,760342,Fix Released,API returning Error after running a number of builds,https://bugs.launchpad.net/nova/+bug/760342,2011-09-22
+759108,759108,Fix Released,"Several modules use ""!= None"" instead of ""is not None""",https://bugs.launchpad.net/nova/+bug/759108,2011-09-22
+759013,759013,Fix Released,Zope interface required but not used,https://bugs.launchpad.net/nova/+bug/759013,2011-09-22
+782611,782611,Fix Released,vnc keymap should be configurable,https://bugs.launchpad.net/nova/+bug/782611,2011-09-22
+781399,781399,Fix Released,IPv6 address generation should be pluggable,https://bugs.launchpad.net/nova/+bug/781399,2011-09-22
+780002,780002,Fix Released,OSAPI: request extensions,https://bugs.launchpad.net/nova/+bug/780002,2011-09-22
+776825,776825,Fix Released,"When register_image fails, the state of the image isn't updated",https://bugs.launchpad.net/nova/+bug/776825,2011-09-22
+765439,765439,Fix Released,libvirt compute driver: implement get_host_ip_addr,https://bugs.launchpad.net/nova/+bug/765439,2011-09-22
+765069,765069,Fix Released,run_tests should add/allow failfast,https://bugs.launchpad.net/nova/+bug/765069,2011-09-22
+760484,760484,Fix Released,Suspend/Pause not supported for libvirt,https://bugs.launchpad.net/nova/+bug/760484,2011-09-22
+742602,742602,Fix Released,Allow import of public keys,https://bugs.launchpad.net/nova/+bug/742602,2011-09-22
+742128,742128,Fix Released,libvirt_conn._get_network_info() should generate same network_info as in xenapi,https://bugs.launchpad.net/nova/+bug/742128,2011-09-22
+742053,742053,Fix Released,add tests for libvirt-multinic-nova changes,https://bugs.launchpad.net/nova/+bug/742053,2011-09-22
+784865,784865,Fix Released,"When metadata fails, we eat the exception and don't return a useful message",https://bugs.launchpad.net/nova/+bug/784865,2011-09-22
+783478,783478,Fix Released,nova-manage project doesn't report problem information in case of error. Just writes logs,https://bugs.launchpad.net/nova/+bug/783478,2011-09-22
+781756,781756,Fix Released,AuthToken server_management_url spelled incorrectly,https://bugs.launchpad.net/nova/+bug/781756,2011-09-22
+781429,781429,Fix Released,pep8 issues in the tools directory,https://bugs.launchpad.net/nova/+bug/781429,2011-09-22
+778282,778282,Fix Released,nova-manage doesn't report problem information in case of error with creation network,https://bugs.launchpad.net/nova/+bug/778282,2011-09-22
+775395,775395,Fix Released,Controllers in api.openstack.servers has unused broken method _get_addresses_view_builder,https://bugs.launchpad.net/nova/+bug/775395,2011-09-22
+771489,771489,Fix Released,setup.py build error: command 'intltool-update' failed with exit status 1,https://bugs.launchpad.net/nova/+bug/771489,2011-09-22
+767667,767667,Fix Released,nova-manage vpn list is broken,https://bugs.launchpad.net/nova/+bug/767667,2011-09-22
+800889,800889,Fix Released,OSAPI: image metadata item improperly presented,https://bugs.launchpad.net/nova/+bug/800889,2011-09-22
+800843,800843,Fix Released,OSAPI: extra 'checksum' property in image metadata,https://bugs.launchpad.net/nova/+bug/800843,2011-09-22
+800842,800842,Fix Released,nova-manage displaying incorrect error msgs on flavor create,https://bugs.launchpad.net/nova/+bug/800842,2011-09-22
+798296,798296,Fix Released,Glance API Defaulting to 127.0.0.1,https://bugs.launchpad.net/nova/+bug/798296,2011-09-22
+797510,797510,Fix Released,tools/pip-requires requires non-existing novaclient,https://bugs.launchpad.net/nova/+bug/797510,2011-09-22
+796785,796785,Fix Released,Remove clocksource=jiffies from xenserver configurations,https://bugs.launchpad.net/nova/+bug/796785,2011-09-22
+794281,794281,Fix Released,ec2 api method import_public_key only works for project manager/admin.,https://bugs.launchpad.net/nova/+bug/794281,2011-09-22
+794111,794111,Fix Released,Need to be able to set a default IPv6 gateway,https://bugs.launchpad.net/nova/+bug/794111,2011-09-22
+792431,792431,Fix Released,Double requirement in pip-requires,https://bugs.launchpad.net/nova/+bug/792431,2011-09-22
+792156,792156,Fix Released,"paramiko not installed in venv, required by smoketests/base.py",https://bugs.launchpad.net/nova/+bug/792156,2011-09-22
+791524,791524,Fix Released,simplify 018_rename_server_management_url,https://bugs.launchpad.net/nova/+bug/791524,2011-09-22
+741274,741274,Fix Released,MySQL database tables are using the MyISAM engine,https://bugs.launchpad.net/nova/+bug/741274,2011-09-22
+759978,759978,Fix Released,Openstack API Rate limiting isn't flexible enough,https://bugs.launchpad.net/nova/+bug/759978,2011-09-22
+744217,744217,Fix Released,Zones needs to support servers.get_all,https://bugs.launchpad.net/nova/+bug/744217,2011-09-22
+741903,741903,Fix Released,More thorough XenAPI Unrescue test coverage,https://bugs.launchpad.net/nova/+bug/741903,2011-09-22
+815908,815908,Fix Released,Log line typo 'exceeeded',https://bugs.launchpad.net/nova/+bug/815908,2011-09-22
+814228,814228,Fix Released,OSAPI v1.1 fault xmlns incorrect,https://bugs.launchpad.net/nova/+bug/814228,2011-09-22
+806128,806128,Fix Released,Zone offsets missing some child zones when applying offsets,https://bugs.launchpad.net/nova/+bug/806128,2011-09-22
+803861,803861,Fix Released,"run_tests.sh spurious ""rm: cannot remove `tests.sqlite': No such file or directory"" error on fresh branch",https://bugs.launchpad.net/nova/+bug/803861,2011-09-22
+798361,798361,Fix Released,Zone Aware Scheduler fails to create db entry for locally provisioned instances,https://bugs.launchpad.net/nova/+bug/798361,2011-09-22
+796834,796834,Fix Released,ESX(i) : Incorrect machine id parameters in vmx for guest_tool.py,https://bugs.launchpad.net/nova/+bug/796834,2011-09-22
+795685,795685,Fix Released,OSAPI: images metadata missing from /images/detail and /images/<id> calls,https://bugs.launchpad.net/nova/+bug/795685,2011-09-22
+789175,789175,Fix Released,Windows Instances aren't configured on XenServer,https://bugs.launchpad.net/nova/+bug/789175,2011-09-22
+828399,828399,Fix Released,Can not delete a network which is associated with a project,https://bugs.launchpad.net/nova/+bug/828399,2011-09-22
+827468,827468,Fix Released,test_libvirt leaves nova/tests/_base/ in source tree,https://bugs.launchpad.net/nova/+bug/827468,2011-09-22
+825649,825649,Fix Released,allow_project_net_traffic actually allows all traffic from the same network,https://bugs.launchpad.net/nova/+bug/825649,2011-09-22
+814192,814192,Fix Released,Add support for conditional Skipping of unittests,https://bugs.launchpad.net/nova/+bug/814192,2011-09-22
+810666,810666,Fix Released,There is no possibility to mark fixed ip as reserved using nova-manage,https://bugs.launchpad.net/nova/+bug/810666,2011-09-22
+781315,781315,Fix Released,no purpose to having flags for both xenapi_inject_image and flat_injected,https://bugs.launchpad.net/nova/+bug/781315,2011-09-22
+739815,739815,Fix Released,euca-authorize and euca-revoke throws unknown error for invalid port range,https://bugs.launchpad.net/nova/+bug/739815,2011-09-22
+715443,715443,Fix Released,EC2 APIs Create Keypairs/Security Groups etc above database column limits gives weird results,https://bugs.launchpad.net/nova/+bug/715443,2011-09-22
+832200,832200,Fix Released,iscsiadm cmd failure,https://bugs.launchpad.net/nova/+bug/832200,2011-09-22
+832096,832096,Fix Released,Instance rebuild fails due to admin_pass AttributeError,https://bugs.launchpad.net/nova/+bug/832096,2011-09-22
+832012,832012,Fix Released,OSAPI list servers causes 'AttributeError: use_ipv6',https://bugs.launchpad.net/nova/+bug/832012,2011-09-22
+829019,829019,Fix Released,MySQLdb doesn't allow None to be passed for password,https://bugs.launchpad.net/nova/+bug/829019,2011-09-22
+828848,828848,Fix Released,InstanceTypeFilter host filter no longer valid,https://bugs.launchpad.net/nova/+bug/828848,2011-09-22
+761947,761947,Fix Released,create server response json doesn't contain progress,https://bugs.launchpad.net/nova/+bug/761947,2011-09-22
+789205,789205,Fix Released,test_service.py tests fail because of incompatible use of mox,https://bugs.launchpad.net/nova/+bug/789205,2011-09-22
+788979,788979,Fix Released,xenapi SimpleDH() is encoding password with a '\n' at the end,https://bugs.launchpad.net/nova/+bug/788979,2011-09-22
+787815,787815,Fix Released,xenapi's admin password creation doesn't strip newline,https://bugs.launchpad.net/nova/+bug/787815,2011-09-22
+784693,784693,Fix Released,Error during report_driver_status(): 'XenAPIConnection' object has no attribute 'session',https://bugs.launchpad.net/nova/+bug/784693,2011-09-22
+782237,782237,Fix Released,logging loop when drivers don't implement set_admin_password,https://bugs.launchpad.net/nova/+bug/782237,2011-09-22
+781878,781878,Fix Released,Error during report_driver_status(): host_state_interval,https://bugs.launchpad.net/nova/+bug/781878,2011-09-22
+781435,781435,Fix Released,50 builds at once sometimes results in 'Unable to find host for Instance #',https://bugs.launchpad.net/nova/+bug/781435,2011-09-22
+778271,778271,Fix Released,Cant install virtualenv in natty/python2.7,https://bugs.launchpad.net/nova/+bug/778271,2011-09-22
+778269,778269,Fix Released,ImageNotFound exception refers to non existant variable 'image_id',https://bugs.launchpad.net/nova/+bug/778269,2011-09-22
+776256,776256,Fix Released,Revision 1032 breaks uploading of old images,https://bugs.launchpad.net/nova/+bug/776256,2011-09-22
+766240,766240,Fix Released,OpenStack API services action_reboot should return more informative error,https://bugs.launchpad.net/nova/+bug/766240,2011-09-22
+765159,765159,Fix Released,test_authors_up_to_date passes when if statement not met,https://bugs.launchpad.net/nova/+bug/765159,2011-09-22
+764822,764822,Fix Released,nova-manage image convert fails if image directory is specified,https://bugs.launchpad.net/nova/+bug/764822,2011-09-22
+764551,764551,Fix Released,OpenStack API 1.0 services.create should return more informative error,https://bugs.launchpad.net/nova/+bug/764551,2011-09-22

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1361540,1361540,Fix Released,no mechanism driver calls for gateway port removal,https://bugs.launchpad.net/neutron/+bug/1361540,2015-04-30
+1415043,1415043,Fix Released,"neutron-ovs-agent : sequence item 0: expected string, int found",https://bugs.launchpad.net/neutron/+bug/1415043,2015-04-30
+1415043,1415043,Fix Released,"neutron-ovs-agent : sequence item 0: expected string, int found",https://bugs.launchpad.net/tripleo/+bug/1415043,2015-04-30
+1414812,1414812,Fix Released,DVR job is belly up again,https://bugs.launchpad.net/neutron/+bug/1414812,2015-04-30
+1411865,1411865,Fix Released,pylint is failing in the check queue,https://bugs.launchpad.net/neutron/+bug/1411865,2015-04-30
+1409909,1409909,Fix Released,functional job's test_models_sync fails with AttributeError,https://bugs.launchpad.net/neutron/+bug/1409909,2015-04-30
+1409786,1409786,Fix Released,neutron-fwaas unit tests fail after recent l3-agent adjustments,https://bugs.launchpad.net/neutron/+bug/1409786,2015-04-30
+1394030,1394030,Fix Released,big switch: optimized floating IP calls missing data,https://bugs.launchpad.net/neutron/+bug/1394030,2015-04-30
+1393991,1393991,Fix Released,big switch L3: missing tenant ID for external gateway causes expensive query on backend,https://bugs.launchpad.net/neutron/+bug/1393991,2015-04-30
+1393691,1393691,Fix Released,test_migration needs some refactor due to oslo.db 1.1.0 release,https://bugs.launchpad.net/neutron/+bug/1393691,2015-04-30
+1393184,1393184,Fix Released,root_helper is not always needed but sometimes enforced artifically,https://bugs.launchpad.net/neutron/+bug/1393184,2015-04-30
+1392569,1392569,Fix Released,ofagent UT failure,https://bugs.launchpad.net/neutron/+bug/1392569,2015-04-30
+1392560,1392560,Fix Released,ofagent should have a separate rootwarp filter,https://bugs.launchpad.net/neutron/+bug/1392560,2015-04-30
+1391326,1391326,Fix Released,Remove openvswitch core plugin entry point,https://bugs.launchpad.net/neutron/+bug/1391326,2015-04-30
+1388716,1388716,Fix Released,User cannot create HA L3 Router,https://bugs.launchpad.net/neutron/+bug/1388716,2015-04-30
+1387152,1387152,Fix Released,Wrong Product ID for Intel NIC in supported_pci_vendor_devs,https://bugs.launchpad.net/neutron/+bug/1387152,2015-04-30
+1386946,1386946,Fix Released,"bigswitch ""test_server"" prioritises inputs incorrectly",https://bugs.launchpad.net/neutron/+bug/1386946,2015-04-30
+1386660,1386660,Fix Released,ML2 SR-IOV Mechanism driver configuration option agent_required should be False in ml2_conf_sriov.ini,https://bugs.launchpad.net/neutron/+bug/1386660,2015-04-30
+1385353,1385353,Fix Released,Migrate Neutron to oslo.serialization,https://bugs.launchpad.net/neutron/+bug/1385353,2015-04-30
+1383098,1383098,Fix Released,sriovagent is missing support for macvtap vnics state change,https://bugs.launchpad.net/neutron/+bug/1383098,2015-04-30
+1382000,1382000,Fix Released,NSX: Make conn_idle_timeout configurable,https://bugs.launchpad.net/neutron/+bug/1382000,2015-04-30
+1381263,1381263,Fix Released,Attribute Error found with router_interface_delete,https://bugs.launchpad.net/neutron/+bug/1381263,2015-04-30
+1381221,1381221,Fix Released,VPNaaS Cisco cleanup test code,https://bugs.launchpad.net/neutron/+bug/1381221,2015-04-30
+1379510,1379510,Fix Released,Big Switch: sync is not retried after failure,https://bugs.launchpad.net/neutron/+bug/1379510,2015-04-30
+1377156,1377156,Fix Released,fg- device is not deleted after the deletion of the last VM on the compute node,https://bugs.launchpad.net/neutron/+bug/1377156,2015-04-30
+1376527,1376527,Fix Released,big switch plugin doesn't notify agent on sec group update,https://bugs.launchpad.net/neutron/+bug/1376527,2015-04-30
+1374836,1374836,Fix Released,Unit tests run multiple times due to inheritance,https://bugs.launchpad.net/neutron/+bug/1374836,2015-04-30
+1373547,1373547,Fix Released,Cisco N1kv: Remove unnecessary REST call to delete VM network on controller,https://bugs.launchpad.net/neutron/+bug/1373547,2015-04-30
+1373015,1373015,Fix Released,"first_ip, allocation_pool_id and last_ip, allocation_pool_id should be unique in the table.",https://bugs.launchpad.net/neutron/+bug/1373015,2015-04-30
+1371705,1371705,Fix Released,ProcessMonitor has an extra config parameter which should be removed,https://bugs.launchpad.net/neutron/+bug/1371705,2015-04-30
+1371701,1371701,Fix Released,delete middleware module files,https://bugs.launchpad.net/neutron/+bug/1371701,2015-04-30
+1370914,1370914,Fix Released,"When two ovs ports contain same external_ids:face-id field, ovs agent might fail finding correct port.",https://bugs.launchpad.net/neutron/+bug/1370914,2015-04-30
+1370898,1370898,Fix Released,Big Switch unit tests leave exceptions in subunit log,https://bugs.launchpad.net/neutron/+bug/1370898,2015-04-30
+1369239,1369239,Fix Released,OpenDaylight MD should not ignore 400 errors,https://bugs.launchpad.net/neutron/+bug/1369239,2015-04-30
+1367075,1367075,Fix Released,iptables_manager.get_binary_name is broken with greenlet,https://bugs.launchpad.net/neutron/+bug/1367075,2015-04-30
+1367034,1367034,Fix Released,NSX: prevents creating multiple networks same vlan but different physical network,https://bugs.launchpad.net/neutron/+bug/1367034,2015-04-30
+1367032,1367032,Fix Released,NSX: unabled to delete provider network,https://bugs.launchpad.net/neutron/+bug/1367032,2015-04-30
+1365751,1365751,Fix Released,Use of assert_called_once() instead of assert_called_once_with(),https://bugs.launchpad.net/nova/+bug/1365751,2015-04-30
+1365751,1365751,Fix Released,Use of assert_called_once() instead of assert_called_once_with(),https://bugs.launchpad.net/python-cliff/+bug/1365751,2015-04-30
+1365751,1365751,Fix Released,Use of assert_called_once() instead of assert_called_once_with(),https://bugs.launchpad.net/neutron/+bug/1365751,2015-04-30
+1365727,1365727,Fix Released,Tenant able to create networks using N1kv network profiles not explicitly assigned to it,https://bugs.launchpad.net/neutron/+bug/1365727,2015-04-30
+1364976,1364976,Fix Released,ML2 Cisco Nexus MD:  Create vlan sent twice,https://bugs.launchpad.net/neutron/+bug/1364976,2015-04-30
+1385266,1385266,Fix Released,Too many 'Enforcing rule' logged on the gate,https://bugs.launchpad.net/neutron/+bug/1385266,2015-04-30
+1378398,1378398,Fix Released,Remove legacy weight from l3 agent _process_routers,https://bugs.launchpad.net/neutron/+bug/1378398,2015-04-30
+1293953,1293953,Fix Released,Add broadcast reply option to DnsMasq,https://bugs.launchpad.net/neutron/+bug/1293953,2015-04-30
+1397184,1397184,Fix Released,no-op tests in test_dhcp_agent,https://bugs.launchpad.net/neutron/+bug/1397184,2015-04-30
+1396276,1396276,Fix Released,dvr unit test requires sudo,https://bugs.launchpad.net/neutron/+bug/1396276,2015-04-30
+1393589,1393589,Fix Released,Attaching or detaching an interface to a router causes all VPNaaS daemons to be restarted.,https://bugs.launchpad.net/neutron/+bug/1393589,2015-04-30
+1393399,1393399,Fix Released,Cisco N1KV plugin doesn't process correctly SQLAlchemy exceptions,https://bugs.launchpad.net/neutron/+bug/1393399,2015-04-30
+1393362,1393362,Fix Released,linuxbridge agent is using too much memory,https://bugs.launchpad.net/neutron/+bug/1393362,2015-04-30
+1393329,1393329,Fix Released,Trailing whitespaces pass IP address validation,https://bugs.launchpad.net/neutron/+bug/1393329,2015-04-30
+1390078,1390078,Fix Released,'Internal Server Error' When using the wrong lb_method in lb-pool-update command,https://bugs.launchpad.net/neutron/+bug/1390078,2015-04-30
+1389601,1389601,Fix Released,"Replace ""nova"" entries in iptables_manager with ""neutron""",https://bugs.launchpad.net/neutron/+bug/1389601,2015-04-30
+1388162,1388162,Fix Released,Duplicate ensure_remove_chain method in iptables_manager,https://bugs.launchpad.net/neutron/+bug/1388162,2015-04-30
+1384505,1384505,Fix Released,"creating a security group with name ""DEFAULT"" should not be allowed",https://bugs.launchpad.net/neutron/+bug/1384505,2015-04-30
+1384263,1384263,Fix Released,nec plugin: packet filter cannot be applied for openflow router interface,https://bugs.launchpad.net/neutron/+bug/1384263,2015-04-30
+1382327,1382327,Fix Released,"""tox -e pep8"" unnecessarily uses bash",https://bugs.launchpad.net/neutron/+bug/1382327,2015-04-30
+1382319,1382319,Fix Released,l2population_rpc has little doc,https://bugs.launchpad.net/neutron/+bug/1382319,2015-04-30
+1381900,1381900,Fix Released,l3 agent context name conflict,https://bugs.launchpad.net/neutron/+bug/1381900,2015-04-30
+1381886,1381886,Fix Released,nova list show incorrect when neutron re-assign floatingip,https://bugs.launchpad.net/neutron/+bug/1381886,2015-04-30
+1381277,1381277,Fix Released,Fix docstring on send_delete-port_request in N1kv plugin,https://bugs.launchpad.net/neutron/+bug/1381277,2015-04-30
+1381100,1381100,Fix Released,neutron-db-manage has mandatory --config-file parameter,https://bugs.launchpad.net/neutron/+bug/1381100,2015-04-30
+1379811,1379811,Fix Released,VPN: Update logging to use i18n hints,https://bugs.launchpad.net/neutron/+bug/1379811,2015-04-30
+1379711,1379711,Fix Released,Error log emit when running tox like “Extension path 'unit/extensions' doesn't exist!”,https://bugs.launchpad.net/neutron/+bug/1379711,2015-04-30
+1379609,1379609,Fix Released,Cisco N1kv: Fix add-tenant in update network profile,https://bugs.launchpad.net/neutron/+bug/1379609,2015-04-30
+1378756,1378756,Fix Released,set_context in L3NatTestCaseMixin.floatingip_with_assoc does not work,https://bugs.launchpad.net/neutron/+bug/1378756,2015-04-30
+1377350,1377350,Fix Released,BSN: inconsistency when backend missing during delete,https://bugs.launchpad.net/neutron/+bug/1377350,2015-04-30
+1377307,1377307,Fix Released,Metadata host route added when DVR and isolated metadata enabled,https://bugs.launchpad.net/neutron/+bug/1377307,2015-04-30
+1375698,1375698,Fix Released,"mlnx agent throws exception - ""unbound method sleep()""",https://bugs.launchpad.net/neutron/+bug/1375698,2015-04-30
+1375597,1375597,Fix Released,exception will kill router rescheduling call,https://bugs.launchpad.net/neutron/+bug/1375597,2015-04-30
+1373652,1373652,Fix Released,For redundant Arista switches do not fail L3 operations if one switch is available,https://bugs.launchpad.net/neutron/+bug/1373652,2015-04-30
+1373126,1373126,Fix Released,API v2 Test (test_page_reverse) Has No Assertion,https://bugs.launchpad.net/neutron/+bug/1373126,2015-04-30
+1367697,1367697,Fix Released,Fix execution on udevadm program inside neutron agents,https://bugs.launchpad.net/neutron/+bug/1367697,2015-04-30
+1362416,1362416,Fix Released,midonet: Deletes incorrect nested DHCP subnet,https://bugs.launchpad.net/neutron/+bug/1362416,2015-04-30
+1361264,1361264,Fix Released,Neutron metering does not check overlapping ip range,https://bugs.launchpad.net/neutron/+bug/1361264,2015-04-30

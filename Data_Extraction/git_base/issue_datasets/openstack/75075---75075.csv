@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1241395,1241395,Fix Released,"heat ""Stack creation failed"" error messages need improvement",https://bugs.launchpad.net/horizon/+bug/1241395,2014-10-16
+1321872,1321872,Fix Released,Resize/migrate stopped instance fails with Neutron event timeout,https://bugs.launchpad.net/nova/+bug/1321872,2014-10-16
+1218462,1218462,Fix Released,Logging output shown when running tests,https://bugs.launchpad.net/horizon/+bug/1218462,2014-10-16
+1319943,1319943,Fix Released,libvirt driver's to_xml method logs iscsi auth_password if debug,https://bugs.launchpad.net/nova/+bug/1319943,2014-10-16
+1325787,1325787,Fix Released,"Create Image, fields are not persisted",https://bugs.launchpad.net/horizon/+bug/1325787,2014-10-16
+1317912,1317912,Fix Released,VMware: get_info() fails if properties are missing,https://bugs.launchpad.net/nova/+bug/1317912,2014-10-16
+1322399,1322399,Fix Released,Large-ish image uploads timeout,https://bugs.launchpad.net/horizon/+bug/1322399,2014-10-16
+1317804,1317804,Fix Released,InstanceActionEvent traceback parameter not serializable,https://bugs.launchpad.net/nova/+bug/1317804,2014-10-16
+1319284,1319284,Fix Released,STATUS_CHOICES need to add _ for translate,https://bugs.launchpad.net/horizon/+bug/1319284,2014-10-16
+1316074,1316074,Fix Released,nova network dhcpbridge has direct DB access,https://bugs.launchpad.net/nova/+bug/1316074,2014-10-16
+1317817,1317817,Fix Released,change mbformat to float_mbformat in hypervisor table,https://bugs.launchpad.net/horizon/+bug/1317817,2014-10-16
+1310966,1310966,Fix Released,nova network floating IP has direct DB access,https://bugs.launchpad.net/nova/+bug/1310966,2014-10-16
+1316331,1316331,Fix Released,"ValueError when cookie pagesize is """"",https://bugs.launchpad.net/horizon/+bug/1316331,2014-10-16
+1308715,1308715,Fix Released,Deadlock on quota_usages,https://bugs.launchpad.net/nova/+bug/1308715,2014-10-16
+1315739,1315739,Fix Released,local_settings misses policy references for services,https://bugs.launchpad.net/horizon/+bug/1315739,2014-10-16
+1308064,1308064,Fix Released,resizing a stopped server fails with xenapi,https://bugs.launchpad.net/nova/+bug/1308064,2014-10-16
+1315486,1315486,Fix Released,Horizon doesn't allow more than 25 characters in the name field of a flavor,https://bugs.launchpad.net/horizon/+bug/1315486,2014-10-16
+1307408,1307408,Fix Released,VMWare - Destroy fails when Claim is not successful,https://bugs.launchpad.net/nova/+bug/1307408,2014-10-16
+1313473,1313473,Fix Released,Wrong logic in clean method for SetInstanceDetailsAction,https://bugs.launchpad.net/horizon/+bug/1313473,2014-10-16
+1306718,1306718,Fix Released,Instances become undelete-able if vif unplugging fails,https://bugs.launchpad.net/nova/+bug/1306718,2014-10-16
+1305423,1305423,Fix Released,nova libvirt re-write broken with mulitiple ephemeral disks,https://bugs.launchpad.net/nova/+bug/1305423,2014-10-16
+1312192,1312192,Fix Released,"On security groups page, attribute error in error handle",https://bugs.launchpad.net/horizon/+bug/1312192,2014-10-16
+1304968,1304968,Fix Released,Nova cpu full of instance_info_cache stack traces due to attempting to send events about deleted instances,https://bugs.launchpad.net/nova/+bug/1304968,2014-10-16
+1309339,1309339,Fix Released,Start date  should after end date in calendar,https://bugs.launchpad.net/horizon/+bug/1309339,2014-10-16
+1309268,1309268,Fix Released,Create New Image - status in table doesn't update,https://bugs.launchpad.net/horizon/+bug/1309268,2014-10-16
+1309125,1309125,Fix Released,Untranslated strings in Icehouse,https://bugs.launchpad.net/horizon/+bug/1309125,2014-10-16
+1308208,1308208,Fix Released,"Import key, public key field can be extended over other fields",https://bugs.launchpad.net/horizon/+bug/1308208,2014-10-16
+1307541,1307541,Fix Released,Inactive calendar widget should be closed,https://bugs.launchpad.net/horizon/+bug/1307541,2014-10-16
+1306302,1306302,Fix Released,Disk Config options should be hidden if the extension is not supported,https://bugs.launchpad.net/horizon/+bug/1306302,2014-10-16
+1301602,1301602,Fix Released,nova unit tests fail test_get_domain_info_with_more_return,https://bugs.launchpad.net/nova/+bug/1301602,2014-10-16
+1302387,1302387,Fix Released,Allow changing any horizon settings from the plugin config files,https://bugs.launchpad.net/horizon/+bug/1302387,2014-10-16
+1298494,1298494,Fix Released,"""nova server-group-list"" doesn't show members of the group",https://bugs.launchpad.net/nova/+bug/1298494,2014-10-16
+1299126,1299126,Fix Released,local variable 'keypair' referenced before assignment,https://bugs.launchpad.net/horizon/+bug/1299126,2014-10-16
+1297685,1297685,Fix Released,Spaces in SSH public key comment breaks cloud-init,https://bugs.launchpad.net/nova/+bug/1297685,2014-10-16
+1293727,1293727,Fix Released,Removing admin and/or project dashboard causes error on login,https://bugs.launchpad.net/horizon/+bug/1293727,2014-10-16
+1297485,1297485,Fix Released,Libvirt driver lifecycle event not recorded by nova in timely manner,https://bugs.launchpad.net/nova/+bug/1297485,2014-10-16
+1288304,1288304,Fix Released,Improve Volumes Tabs UX,https://bugs.launchpad.net/horizon/+bug/1288304,2014-10-16
+1296839,1296839,Fix Released,xen boot from volume attempts resize,https://bugs.launchpad.net/nova/+bug/1296839,2014-10-16
+1287881,1287881,Fix Released,Refactor code around Console support,https://bugs.launchpad.net/horizon/+bug/1287881,2014-10-16
+1296575,1296575,Fix Released,TypeError: libvirt_info() takes exactly 6 arguments (7 given) when boot instance to rbd directly,https://bugs.launchpad.net/nova/+bug/1296575,2014-10-16
+1287634,1287634,Fix Released,forms and fields are not in a proper place,https://bugs.launchpad.net/horizon/+bug/1287634,2014-10-16
+1291565,1291565,Fix Released,validate_networks does unnecessary querying to neutron in some cases,https://bugs.launchpad.net/nova/+bug/1291565,2014-10-16
+1281679,1281679,Fix Released,unclear error message when detaching volume we booted from,https://bugs.launchpad.net/horizon/+bug/1281679,2014-10-16
+1288466,1288466,Fix Released,Get servers REST reply does not have marker when default limit is reached,https://bugs.launchpad.net/nova/+bug/1288466,2014-10-16
+1277103,1277103,Fix Released,Filter always returns last created volume as result irrespective of search string until user re-navigates to the volume page,https://bugs.launchpad.net/horizon/+bug/1277103,2014-10-16
+1273943,1273943,Fix Released,Tox failing on py27dj14 environment,https://bugs.launchpad.net/horizon/+bug/1273943,2014-10-16
+1284709,1284709,Fix Released,nova evacuate fails with neutron,https://bugs.launchpad.net/nova/+bug/1284709,2014-10-16
+1273608,1273608,Fix Released,wizard broken in non modal view,https://bugs.launchpad.net/horizon/+bug/1273608,2014-10-16
+1260439,1260439,Fix Released,Error message when creating a user with the default member role,https://bugs.launchpad.net/horizon/+bug/1260439,2014-10-16
+1280532,1280532,Fix Released,"Detach volume fails with ""Unexpected KeyError"" in EC2 interface.",https://bugs.launchpad.net/nova/+bug/1280532,2014-10-16
+1280327,1280327,Fix Released,notifier middleware broken by oslo.messaging,https://bugs.launchpad.net/nova/+bug/1280327,2014-10-16
+1279199,1279199,Fix Released,vmwareapi: unrescue instance failed due to can't detach disk from running instance,https://bugs.launchpad.net/nova/+bug/1279199,2014-10-16
+1252878,1252878,Fix Released,Internal Server Error on exceptions from APIs in Overview page,https://bugs.launchpad.net/horizon/+bug/1252878,2014-10-16
+1274772,1274772,Fix Released,libvirt.txt in gate is full of error messages,https://bugs.launchpad.net/nova/+bug/1274772,2014-10-16
+1192621,1192621,Fix Released,Quota exceeded : button disabled after instances have been deleted,https://bugs.launchpad.net/horizon/+bug/1192621,2014-10-16
+1188182,1188182,Fix Released,horizon is removing the URL path from glance's endpoint,https://bugs.launchpad.net/horizon/+bug/1188182,2014-10-16
+1326406,1326406,Fix Released,Launching instance fails when Nova doesn't support DiskConfig,https://bugs.launchpad.net/horizon/+bug/1326406,2014-10-16
+1269418,1269418,Fix Released,[OSSA 2014-017] nova rescue doesn't put VM into RESCUE status on vmware (CVE-2014-2573),https://bugs.launchpad.net/ossa/+bug/1269418,2014-10-16
+1269418,1269418,Fix Released,[OSSA 2014-017] nova rescue doesn't put VM into RESCUE status on vmware (CVE-2014-2573),https://bugs.launchpad.net/nova/+bug/1269418,2014-10-16
+1317630,1317630,Fix Released,"""Build timed out"" in gate-horizon-selenium",https://bugs.launchpad.net/horizon/+bug/1317630,2014-10-16
+1312222,1312222,Fix Released,Horizon error on accessing psuedo-folder,https://bugs.launchpad.net/horizon/+bug/1312222,2014-10-16
+1249519,1249519,Fix Released,VMware: deleting instance snapshot too soon leaves instance in Image Uploading state,https://bugs.launchpad.net/nova/+bug/1249519,2014-10-16
+1311047,1311047,Fix Released,Cannot launch instances in French (using the modal),https://bugs.launchpad.net/horizon/+bug/1311047,2014-10-16
+1308952,1308952,Fix Released,Traling commas in JS files able to break Horizon on old web browsers.,https://bugs.launchpad.net/horizon/+bug/1308952,2014-10-16
+1226228,1226228,Fix Released,ConfKeyManagerTestCase doesn't verify that keymgr.fixed_key is actually used,https://bugs.launchpad.net/nova/+bug/1226228,2014-10-16
+1326289,1326289,Fix Released,Failing to launch instances : Filter ComputeCapabilitiesFilter returned 0 hosts,https://bugs.launchpad.net/tripleo/+bug/1326289,2014-10-16
+1326289,1326289,Fix Released,Failing to launch instances : Filter ComputeCapabilitiesFilter returned 0 hosts,https://bugs.launchpad.net/nova/+bug/1326289,2014-10-16
+1253829,1253829,Fix Released,HorizonMiddleware class causes excessive session rewrites and possible race condition resulting in logouts,https://bugs.launchpad.net/horizon/+bug/1253829,2014-10-16
+1324793,1324793,Fix Released,"Nova conductor throws ERROR messages, which is forbidden in our contract",https://bugs.launchpad.net/nova/+bug/1324793,2014-10-16
+1316433,1316433,Fix Released,vmware: nova compute memory grows continuously with creation and deletions on VMs,https://bugs.launchpad.net/nova/+bug/1316433,2014-10-16
+1307582,1307582,Fix Released,FixedIp object does not support Neutron,https://bugs.launchpad.net/nova/+bug/1307582,2014-10-16
+1262566,1262566,Fix Released,security group listing race,https://bugs.launchpad.net/nova/+bug/1262566,2014-10-16
+1350273,1350273,Fix Released,Filtering services by name doesn't work,https://bugs.launchpad.net/keystone/+bug/1350273,2014-10-16
+1350000,1350000,Fix Released,UUID is a more friendly default token provider than PKI,https://bugs.launchpad.net/keystone/+bug/1350000,2014-10-16
+1209343,1209343,Fix Released,LDAP connection code does not provide ldap.set_option(ldap.OPT_X_TLS_CACERTFILE) for ldaps protocol,https://bugs.launchpad.net/keystone/+bug/1209343,2014-10-16

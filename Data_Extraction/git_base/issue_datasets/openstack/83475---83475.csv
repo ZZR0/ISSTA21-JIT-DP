@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1265879,1265879,Fix Released,Python 3: AttributeError in find_resource,https://bugs.launchpad.net/python-keystoneclient/+bug/1265879,2014-01-30
+1267987,1267987,Fix Released,Python 3: HTTPMessage.getheader() does not exist,https://bugs.launchpad.net/python-keystoneclient/+bug/1267987,2014-01-30
+1259488,1259488,Fix Released,Ignore H803 (git commit should end with period) to match keystone,https://bugs.launchpad.net/python-keystoneclient/+bug/1259488,2014-01-30
+1245556,1245556,Fix Released,keystoneclient doesn't require simplejson,https://bugs.launchpad.net/python-keystoneclient/+bug/1245556,2014-01-30
+1248257,1248257,Fix Released,Unhelpful error message when connection via httpclient fails,https://bugs.launchpad.net/python-keystoneclient/+bug/1248257,2014-01-30
+1248658,1248658,Fix Released,keystone client help text implies restriction of service type,https://bugs.launchpad.net/python-keystoneclient/+bug/1248658,2014-01-30
+1252927,1252927,Fix Released,Management URL not updated after token refresh,https://bugs.launchpad.net/python-keystoneclient/+bug/1252927,2014-01-30
+1254660,1254660,Fix Released,Fix typo in keystoneclient,https://bugs.launchpad.net/python-keystoneclient/+bug/1254660,2014-01-30
+1255992,1255992,Fix Released,Inappropriate function docstrings,https://bugs.launchpad.net/python-keystoneclient/+bug/1255992,2014-01-30
+1211292,1211292,Fix Released,keystone client help text does not show type for heat,https://bugs.launchpad.net/python-keystoneclient/+bug/1211292,2014-01-30
+1257541,1257541,Fix Released,auth_url and token authentication is broken,https://bugs.launchpad.net/python-keystoneclient/+bug/1257541,2014-01-30
+1267286,1267286,Fix Released,Certain redirects change the HTTP method,https://bugs.launchpad.net/python-keystoneclient/+bug/1267286,2014-01-30
+1261554,1261554,Fix Released,Keystoneclient revocation list is not multi-thread/process safe,https://bugs.launchpad.net/python-keystoneclient/+bug/1261554,2014-01-30
+1272248,1272248,Fix Released,Security groups in OpenStack Operations Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1272248,2014-01-30
+1262534,1262534,Fix Released,Swift tests fail if trans_id_suffix is set to non-hex value,https://bugs.launchpad.net/tempest/+bug/1262534,2014-01-30
+1273360,1273360,Fix Released,Running SNAT specific test cases only when ext-gw-mode extension is enabled,https://bugs.launchpad.net/tempest/+bug/1273360,2014-01-30
+1273737,1273737,Fix Released,VerifiedHTTPSConnection.close() makes a super call with an old-style parent class,https://bugs.launchpad.net/tempest/+bug/1273737,2014-01-30
+1269597,1269597,Fix Released,test_get_object_at_expiry_time[gate] fails in gate,https://bugs.launchpad.net/tempest/+bug/1269597,2014-01-30
+1271312,1271312,Fix Released,VolumeTypesTest does not use tha Admin base class,https://bugs.launchpad.net/tempest/+bug/1271312,2014-01-30
+1273456,1273456,Fix Released,Request to add to groups for OpenStack-SDK-PHP,https://bugs.launchpad.net/openstack-ci/+bug/1273456,2014-01-30
+1273381,1273381,Fix Released,Request initial group member for stackforge/gce-api project,https://bugs.launchpad.net/openstack-ci/+bug/1273381,2014-01-30
+1273264,1273264,Fix Released,docker-ci service account,https://bugs.launchpad.net/openstack-ci/+bug/1273264,2014-01-30
+1265923,1265923,Fix Released,Move Object Storage Info from Config Reference to Cloud Admin Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1265923,2014-01-29
+1274153,1274153,Fix Released,Parts of os-quota-sets APIs are wrong,https://bugs.launchpad.net/openstack-api-site/+bug/1274153,2014-01-29
+1247972,1247972,Fix Released,Configuring a Compute Node in OpenStack Installation Guide for Ubuntu 12.04 (LTS)  - havana,https://bugs.launchpad.net/openstack-manuals/+bug/1247972,2014-01-29
+1248876,1248876,Fix Released,sgdisk: command not found,https://bugs.launchpad.net/fuel/+bug/1248876,2014-01-29
+1243973,1243973,Fix Released,Simultaneous PUT requests for the same account or container causes server error response,https://bugs.launchpad.net/swift/+bug/1243973,2014-01-29
+1273058,1273058,Fix Released,"Repeatedly add log_filters,log_outputs to libvirtd.conf when restart",https://bugs.launchpad.net/devstack/+bug/1273058,2014-01-28
+1268794,1268794,Fix Released,swift fails to bind on restart,https://bugs.launchpad.net/devstack/+bug/1268794,2014-01-28
+1272828,1272828,Fix Released,Use tempest test glance api ssl enable,https://bugs.launchpad.net/tempest/+bug/1272828,2014-01-28
+1262341,1262341,Fix Released,object versioning breaks with non-ascii container names,https://bugs.launchpad.net/swift/+bug/1262341,2014-01-28
+1223469,1223469,Fix Released,Volume create tgtadmin fails with error code 22,https://bugs.launchpad.net/cinder/+bug/1223469,2014-01-28
+1273372,1273372,Fix Committed,PEP8 check is not run by default when tests are run,https://bugs.launchpad.net/tuskar-ui/+bug/1273372,2014-01-28
+1053931,1053931,Fix Released,"Volume hangs in ""creating"" status even though scheduler raises ""No valid host"" exception",https://bugs.launchpad.net/nova/+bug/1053931,2014-01-28
+1053931,1053931,Fix Released,"Volume hangs in ""creating"" status even though scheduler raises ""No valid host"" exception",https://bugs.launchpad.net/cinder/+bug/1053931,2014-01-28
+1254932,1254932,Fix Released,Grenade failures due to failing to attach a volume,https://bugs.launchpad.net/cinder/+bug/1254932,2014-01-27
+1272468,1272468,Fix Released,[ERROR] /opt/stack/new/devstack/lib/cinder:173 No suitable rootwrap found.,https://bugs.launchpad.net/devstack/+bug/1272468,2014-01-27
+1218611,1218611,Fix Released,Devstack uses a deprecated nova config option: LibvirtHybridOVSBridgeDriver,https://bugs.launchpad.net/devstack/+bug/1218611,2014-01-27
+1159032,1159032,Fix Released,devstack.org home page inconsistent with README.md,https://bugs.launchpad.net/devstack/+bug/1159032,2014-01-27
+1177134,1177134,Fix Released,[ERROR] /opt/stack/new/devstack/exercises/bundle.sh:61 Image ami-00000001 not available within 15 seconds,https://bugs.launchpad.net/devstack/+bug/1177134,2014-01-27
+1266094,1266094,Fix Released,check_grenade_dsvm failed - aggregates tests failed,https://bugs.launchpad.net/devstack/+bug/1266094,2014-01-27
+1271031,1271031,Fix Released,orchestration API doc omits mention of disable_rollback argument to stack_create,https://bugs.launchpad.net/openstack-api-site/+bug/1271031,2014-01-27
+1199468,1199468,Fix Released,Race around info_cache and bw_usage updates,https://bugs.launchpad.net/nova/+bug/1199468,2014-01-27
+1269709,1269709,Fix Released,glance swift backend depends on working DNS,https://bugs.launchpad.net/tripleo/+bug/1269709,2014-01-27
+1273191,1273191,Fix Released,ceilometer api v2/meter/meter_id is wrong,https://bugs.launchpad.net/openstack-api-site/+bug/1273191,2014-01-27
+1271691,1271691,Fix Released,nova-api fails to start on overcloud (permission denied),https://bugs.launchpad.net/tripleo/+bug/1271691,2014-01-27
+1272914,1272914,Fix Released,bc is not installed with stack.sh,https://bugs.launchpad.net/devstack/+bug/1272914,2014-01-26
+1269531,1269531,Fix Released,Changes to tempest run_tests.sh break cinder_driver_cert.sh,https://bugs.launchpad.net/devstack/+bug/1269531,2014-01-26
+1264422,1264422,Fix Released,stack.sh overwrites local changes,https://bugs.launchpad.net/devstack/+bug/1264422,2014-01-26
+1272126,1272126,Fix Released,upload_image.sh doesn't parse correctly the metadata in the filename,https://bugs.launchpad.net/devstack/+bug/1272126,2014-01-26
+1265671,1265671,Fix Released,neutron server/backend interaction sanity checks would be desirable,https://bugs.launchpad.net/devstack/+bug/1265671,2014-01-26
+1268730,1268730,Fix Released,ERRORs in ceilometer-acentral log after succesful tempest run,https://bugs.launchpad.net/devstack/+bug/1268730,2014-01-25
+1261814,1261814,Fix Released,AgentManagementTestXML.test_list_agent fails because of wrong timestamp check,https://bugs.launchpad.net/tempest/+bug/1261814,2014-01-25
+1272533,1272533,Fix Released,test_volume_transfers_test leaves volumes behind after test,https://bugs.launchpad.net/tempest/+bug/1272533,2014-01-25
+1269948,1269948,Fix Released,tempest.common.ssh.Client.connect_until_closed doesn't,https://bugs.launchpad.net/tempest/+bug/1269948,2014-01-25
+1172991,1172991,Fix Released,Inconsistency: Heat binds to $SERVICE_HOST instead of 0.0.0.0,https://bugs.launchpad.net/devstack/+bug/1172991,2014-01-25
+1259905,1259905,Fix Released,xenapi: zipball issue,https://bugs.launchpad.net/devstack/+bug/1259905,2014-01-25
+1269090,1269090,Fix Released,neutron-adv-test exercise runs neutron-debug under demo tenant,https://bugs.launchpad.net/devstack/+bug/1269090,2014-01-25
+1271889,1271889,Fix Released,nova-compute keeps running after unstack.sh,https://bugs.launchpad.net/devstack/+bug/1271889,2014-01-25
+1268930,1268930,Fix Released,Duplicated rootwrap.d in Ironic,https://bugs.launchpad.net/devstack/+bug/1268930,2014-01-25
+1266876,1266876,Fix Released,services/object_storage/container_client.py:ContainerClient.list_container_metadata don't need to set a storage_token,https://bugs.launchpad.net/tempest/+bug/1266876,2014-01-25
+1269712,1269712,Fix Released,The text-html type is absent in TXT_ENC,https://bugs.launchpad.net/tempest/+bug/1269712,2014-01-25
+1264549,1264549,Fix Released,barbican secrets API doesn't validate bit length,https://bugs.launchpad.net/barbican/+bug/1264549,2014-01-25
+1268859,1268859,Fix Released,DevStack VM instructions - bugs/typos,https://bugs.launchpad.net/devstack/+bug/1268859,2014-01-24
+1218261,1218261,Fix Released,No handlers could be found for logger,https://bugs.launchpad.net/python-tuskarclient/+bug/1218261,2014-01-24
+1213050,1213050,Fix Released,Add help support for subcommands,https://bugs.launchpad.net/python-tuskarclient/+bug/1213050,2014-01-24
+1224669,1224669,Fix Released,disk-image-create doesn't export the kernel and ramdisk,https://bugs.launchpad.net/diskimage-builder/+bug/1224669,2014-01-24
+1239479,1239479,Fix Released,dhcp-all-interfaces adds stanzas for tap interfaces,https://bugs.launchpad.net/diskimage-builder/+bug/1239479,2014-01-24
+1272221,1272221,Fix Released,extra print in fileutils._read_env_file,https://bugs.launchpad.net/rally/+bug/1272221,2014-01-24
+1267547,1267547,Fix Released,Used deprecated root wrap,https://bugs.launchpad.net/manila/+bug/1267547,2014-01-24
+1083540,1083540,Fix Released,RBD driver option rbd_user is confusing,https://bugs.launchpad.net/cinder/+bug/1083540,2014-01-24
+1270807,1270807,Fix Committed,Fix mysql::python usage for spec tests,https://bugs.launchpad.net/fuel/+bug/1270807,2014-01-23
+1160752,1160752,Fix Released,No nova quota-usage CLI to show how many cores are already used,https://bugs.launchpad.net/nova/+bug/1160752,2014-01-23
+1266428,1266428,Fix Released,Horizon flow to download openrc.sh needs to be updated,https://bugs.launchpad.net/openstack-manuals/+bug/1266428,2014-01-23
+1268646,1268646,Fix Released,devstack clone cinder error No suitable rootwrap found,https://bugs.launchpad.net/devstack/+bug/1268646,2014-01-23

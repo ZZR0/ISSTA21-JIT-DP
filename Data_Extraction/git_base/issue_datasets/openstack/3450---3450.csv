@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1858012,1858012,Fix Released,List role assignments by role ID may leak extra system assignments outside of filter,https://bugs.launchpad.net/keystone/+bug/1858012,2020-02-24
+1863212,1863212,Fix Released,"Error when processing addNetwork request: (34, 'Numerical result out of range')",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1863212,2020-02-24
+1864018,1864018,Fix Released,periodic master container build fails ImportError: No module named queue,https://bugs.launchpad.net/tripleo/+bug/1864018,2020-02-24
+1864330,1864330,Fix Released,Test 'test_container_ipam_request_address_with_existing_port' failed in CI,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1864330,2020-02-24
+1863474,1863474,Fix Released,Devstack installation fails due to shebang not using python3,https://bugs.launchpad.net/devstack/+bug/1863474,2020-02-24
+1498039,1498039,Fix Released,projects drop-down broken for large numbers of projects,https://bugs.launchpad.net/horizon/+bug/1498039,2020-02-22
+1863799,1863799,Fix Released,Not all DCN roles shouldn't contain BlockStorageCinderVolume service,https://bugs.launchpad.net/tripleo/+bug/1863799,2020-02-22
+1864129,1864129,Fix Released,many warning info in the watcher api log file,https://bugs.launchpad.net/watcher/+bug/1864129,2020-02-22
+1854214,1854214,Fix Released,Deploying with node specific overrrides is error prone,https://bugs.launchpad.net/tripleo/+bug/1854214,2020-02-21
+1864105,1864105,Fix Released,memcached container flapping on train upgrades job,https://bugs.launchpad.net/tripleo/+bug/1864105,2020-02-21
+1535554,1535554,Fix Released,Multiple dhcp agents are scheduled to host one network automatically if multiple subnets are created at the same time,https://bugs.launchpad.net/neutron/+bug/1535554,2020-02-21
+1844124,1844124,Fix Released,Not possible to change fixed-ips if port is on routed provider network,https://bugs.launchpad.net/neutron/+bug/1844124,2020-02-21
+1844124,1844124,Fix Released,Not possible to change fixed-ips if port is on routed provider network,https://bugs.launchpad.net/tripleo/+bug/1844124,2020-02-21
+1843428,1843428,Fix Released,List port by mac address is case sensitive,https://bugs.launchpad.net/neutron/+bug/1843428,2020-02-21
+1845324,1845324,Fix Released,Openvswitch kernel module is sometimes not loaded running devstack,https://bugs.launchpad.net/neutron/+bug/1845324,2020-02-21
+1845354,1845354,Fix Released,[FT] FdbInterfaceTestCase test cases failing when creating two VTI with the same VNI,https://bugs.launchpad.net/neutron/+bug/1845354,2020-02-21
+1845891,1845891,Fix Released,Designate integration not fully multi region safe,https://bugs.launchpad.net/neutron/+bug/1845891,2020-02-21
+1812118,1812118,Fix Released,Neutron doesn't allow to update router external subnets,https://bugs.launchpad.net/neutron/+bug/1812118,2020-02-21
+1844688,1844688,Fix Released,"""radvd"" daemon does not work by default in some containers",https://bugs.launchpad.net/neutron/+bug/1844688,2020-02-21
+1848147,1848147,Fix Released,not mocking openstacksdk exception may cause random non detected errors in unit tests,https://bugs.launchpad.net/neutron/+bug/1848147,2020-02-21
+1849098,1849098,Fix Released,ovs agent is stuck with OVSFWTagNotFound when dealing with unbound port,https://bugs.launchpad.net/neutron/+bug/1849098,2020-02-21
+1850864,1850864,Fix Released,DHCP agent takes very long time to report when port is provisioned,https://bugs.launchpad.net/neutron/+bug/1850864,2020-02-21
+1849449,1849449,Fix Released,get_link_id()  traceback in case of non-existing interface is misleading,https://bugs.launchpad.net/neutron/+bug/1849449,2020-02-21
+1842261,1842261,Fix Released,Make the MTU attribute not nullable,https://bugs.launchpad.net/neutron/+bug/1842261,2020-02-21
+1846494,1846494,Fix Released,neutron-openvswitch-agent and IPv6,https://bugs.launchpad.net/neutron/+bug/1846494,2020-02-21
+1849676,1849676,Fix Released,DHCP agents time out during startup at 60s when there is enough agents,https://bugs.launchpad.net/neutron/+bug/1849676,2020-02-21
+1850558,1850558,Fix Released,"""AttributeError: 'str' object has no attribute 'content_type' in functional tests",https://bugs.launchpad.net/neutron/+bug/1850558,2020-02-21
+1848213,1848213,Fix Released,Do not pass port-range to backend if all ports specified in security group rule,https://bugs.launchpad.net/neutron/+bug/1848213,2020-02-21
+1848220,1848220,Fix Released,TestMinBwQoSOvs is not calling the correct methods,https://bugs.launchpad.net/neutron/+bug/1848220,2020-02-21
+1849976,1849976,Fix Released,"""networkdhcpagentbindings.binding_index"" autoincrement parameter is not working",https://bugs.launchpad.net/neutron/+bug/1849976,2020-02-21
+1850292,1850292,Fix Released,Fullstack test can try to use IP address from outside the subnet's allocation pool,https://bugs.launchpad.net/neutron/+bug/1850292,2020-02-21
+1852724,1852724,Fix Released,Fullstack test for dscp_marking_packets fails if first icmp is not send properly,https://bugs.launchpad.net/neutron/+bug/1852724,2020-02-21
+1840638,1840638,Fix Released,network/subnet resources cannot be read and written separated,https://bugs.launchpad.net/neutron/+bug/1840638,2020-02-21
+1852869,1852869,Fix Released,"NetcatTester.stop_processes should handle, if needed, the case when the process does not exist",https://bugs.launchpad.net/neutron/+bug/1852869,2020-02-21
+1848500,1848500,Fix Released,Implement an OpenFlow monitor,https://bugs.launchpad.net/neutron/+bug/1848500,2020-02-21
+1647421,1647421,Fix Released,Neutron attempts to schedule DHCP agents even when intentionally not in use,https://bugs.launchpad.net/neutron/+bug/1647421,2020-02-21
+1647421,1647421,Fix Released,Neutron attempts to schedule DHCP agents even when intentionally not in use,https://bugs.launchpad.net/networking-ovn/+bug/1647421,2020-02-21
+1849980,1849980,Fix Released,"Do not inherit from built-in ""dict""",https://bugs.launchpad.net/neutron/+bug/1849980,2020-02-21
+1848152,1848152,Fix Released,Update mtu of network has no validation,https://bugs.launchpad.net/neutron/+bug/1848152,2020-02-21
+1851609,1851609,Fix Released,Add an option for graceful l3 agent shutdown,https://bugs.launchpad.net/neutron/+bug/1851609,2020-02-21
+1856853,1856853,Fix Released,OVSInterfaceDriver.plug_new should catch pyroute2.netlink.exceptions.NetlinkError,https://bugs.launchpad.net/neutron/+bug/1856853,2020-02-21
+1853582,1853582,Fix Released,ovs_all_ports option used by ovs cleanup has a misleading help string,https://bugs.launchpad.net/neutron/+bug/1853582,2020-02-21
+1856675,1856675,Fix Released,IPv6 Prefix Delegation do not work,https://bugs.launchpad.net/neutron/+bug/1856675,2020-02-21
+1856726,1856726,Fix Released,IpamBackendMixin._gateway_ip_str is not reading correctly the subnet IP version,https://bugs.launchpad.net/neutron/+bug/1856726,2020-02-21
+1856839,1856839,Fix Released,[L3] router processing time increase if there are large set ports,https://bugs.launchpad.net/neutron/+bug/1856839,2020-02-21
+1845176,1845176,Fix Released,Removing of QoS queue in neutron-ovs-agent fails due to existing references,https://bugs.launchpad.net/neutron/+bug/1845176,2020-02-21
+1859258,1859258,Fix Released,switch to reader context,https://bugs.launchpad.net/neutron/+bug/1859258,2020-02-21
+1854940,1854940,Fix Released,"DhcpLocalProcess ""_enable"" method should not call ""restart"" --> ""enable""",https://bugs.launchpad.net/neutron/+bug/1854940,2020-02-21
+1859163,1859163,Fix Released,Create port with fixed ipv6 address for non-router ports is not allowed anymore,https://bugs.launchpad.net/neutron/+bug/1859163,2020-02-21
+1859190,1859190,Fix Released,"Remove references to ""unittest2""",https://bugs.launchpad.net/neutron/+bug/1859190,2020-02-21
+1857035,1857035,Fix Released,"Add better description for ""test_cleanup_network_namespaces_cleans_dhcp_and_l3_namespaces"" in case of failure",https://bugs.launchpad.net/neutron/+bug/1857035,2020-02-21
+1843165,1843165,Fix Released,RFE: Adding support for direct ports with qos in ovs,https://bugs.launchpad.net/neutron/+bug/1843165,2020-02-21
+1860209,1860209,Fix Released,"Local variable referenced before assignment in ""_router_fip_qos_after_admin_state_down_up""",https://bugs.launchpad.net/neutron/+bug/1860209,2020-02-21
+1860436,1860436,Fix Released,[ovn] Agent liveness checks are flaky and report false positives,https://bugs.launchpad.net/neutron/+bug/1860436,2020-02-21
+1860332,1860332,Fix Released,"[CI] gate py3{6,7,8} and tox-cover jobs timeout",https://bugs.launchpad.net/neutron/+bug/1860332,2020-02-21
+1860560,1860560,Fix Released,[ovn] lsp_set_address Exception possible when passed empty list of addresses,https://bugs.launchpad.net/neutron/+bug/1860560,2020-02-21
+1859962,1859962,Fix Released,Sanity checks comparing versions should not use decimal comparison,https://bugs.launchpad.net/neutron/+bug/1859962,2020-02-21
+1828721,1828721,Fix Released,[VPNaaS]: Check restart_check_config enabled,https://bugs.launchpad.net/neutron/+bug/1828721,2020-02-21
+1853223,1853223,Fix Released,[VPNaaS]: Python3 RuntimeError: dictionary changed size during iteration,https://bugs.launchpad.net/neutron/+bug/1853223,2020-02-21
+1852516,1852516,Fix Released,[VPNaaS]: tempest gate failed,https://bugs.launchpad.net/neutron/+bug/1852516,2020-02-21
+1850602,1850602,Fix Released,remove firewall_v1 in neutron-lib,https://bugs.launchpad.net/neutron/+bug/1850602,2020-02-21
+1795816,1795816,Fix Released,neutron_dynamic_routing Bgp floatingip_update KeyError: 'last_known_router_id',https://bugs.launchpad.net/neutron/+bug/1795816,2020-02-21
+1844660,1844660,Fix Released,python3: func_doc was renamed to __doc__,https://bugs.launchpad.net/networking-odl/+bug/1844660,2020-02-21
+1855512,1855512,Fix Released,"""sudo: python3.5: command not found"" in centos-7 jobs",https://bugs.launchpad.net/networking-midonet/+bug/1855512,2020-02-21
+1846601,1846601,Fix Released,Bagpipe don't works with python3,https://bugs.launchpad.net/networking-bagpipe/+bug/1846601,2020-02-21
+1846767,1846767,Fix Released,Error because dict size changed during iteration,https://bugs.launchpad.net/networking-bagpipe/+bug/1846767,2020-02-21
+1864187,1864187,Fix Released,Proliantutils version 2.9.3 is broken with < 3.1.0 version of sushy,https://bugs.launchpad.net/proliantutils/+bug/1864187,2020-02-21
+1329757,1329757,Fix Committed,assertEquals deprecated in python2.7,https://bugs.launchpad.net/fuel/+bug/1329757,2020-02-21
+1857043,1857043,Fix Released,Storwize storwize_preferred_host_site handling fails for more than one site,https://bugs.launchpad.net/cinder/+bug/1857043,2020-02-20
+1858377,1858377,Fix Released,[neutron-dynamic-routing]The bgp_speaker_show_dragents interface should be modified to bgp_dragent_list_hosting_speakers,https://bugs.launchpad.net/python-neutronclient/+bug/1858377,2020-02-20
+1816468,1816468,Fix Released,[SRU] Acceleration cinder - glance with ceph not working,https://bugs.launchpad.net/nova/+bug/1816468,2020-02-20
+1816468,1816468,Fix Released,[SRU] Acceleration cinder - glance with ceph not working,https://bugs.launchpad.net/cinder/+bug/1816468,2020-02-20
+1337033,1337033,Fix Released,nova cli cache does not work,https://bugs.launchpad.net/python-novaclient/+bug/1337033,2020-02-20
+1521899,1521899,Fix Released,A lot of H404/405 violations,https://bugs.launchpad.net/tempest/+bug/1521899,2020-02-20
+1521899,1521899,Fix Released,A lot of H404/405 violations,https://bugs.launchpad.net/magnum-ui/+bug/1521899,2020-02-20

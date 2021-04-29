@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1818693,1818693,Fix Released,"Make ""phys_brs"" parameter variable in OVSAgentExtensionAPI",https://bugs.launchpad.net/neutron/+bug/1818693,2019-03-18
+1658070,1658070,Fix Released,Failed SR_IOV evacuation with host,https://bugs.launchpad.net/nova/+bug/1658070,2019-03-18
+1819583,1819583,Fix Released,periodic-... containers-build-push job skips retagging with tripleo-ci-testing,https://bugs.launchpad.net/tripleo/+bug/1819583,2019-03-18
+1695963,1695963,Fix Released,ceilometer-dbsize.yaml validation no longer checks useful settings,https://bugs.launchpad.net/tripleo/+bug/1695963,2019-03-18
+1747616,1747616,Fix Released,DPDK: Validation is missing to fail deployment when 0 PMD cores on a NUMA node,https://bugs.launchpad.net/tripleo/+bug/1747616,2019-03-18
+1807025,1807025,Fix Released,overcloud image is missing ansible-role-redhat-subscription RPM,https://bugs.launchpad.net/tripleo/+bug/1807025,2019-03-18
+1814070,1814070,Fix Released,handle lowercase uuid change for dmidecode >= 3.1 for ceph-ansible per-node customizations,https://bugs.launchpad.net/tripleo/+bug/1814070,2019-03-18
+1792994,1792994,Fix Released,overcloud deploy on security harden image fails missing openstack-heat-agents package,https://bugs.launchpad.net/tripleo/+bug/1792994,2019-03-18
+1798439,1798439,Fix Released,Mistral Exception mistral.actions.action_factory.GetOvercloudConfig During Deployment,https://bugs.launchpad.net/tripleo/+bug/1798439,2019-03-18
+1786970,1786970,Fix Released,Nodes in ironic still point to older ramdisk and kernel after images update in glance,https://bugs.launchpad.net/tripleo/+bug/1786970,2019-03-18
+1793264,1793264,Fix Released,periodic fs020 rocky failing at containerized gnocchi,https://bugs.launchpad.net/tripleo/+bug/1793264,2019-03-18
+1791039,1791039,Fix Released,tripleo client ignores --template-file argument on overcloud container prepare,https://bugs.launchpad.net/tripleo/+bug/1791039,2019-03-18
+1792641,1792641,Fix Released,disable ssh password auth during tripleo-admin enablement,https://bugs.launchpad.net/tripleo/+bug/1792641,2019-03-18
+1792416,1792416,Fix Released,When moving to containers we broke password changing,https://bugs.launchpad.net/tripleo/+bug/1792416,2019-03-18
+1810690,1810690,Fix Released,periodic-tripleo-ci-centos-7-ovb-1ctlr_1comp-featureset020-master - which includes idempotency check -  is timing out during introspection,https://bugs.launchpad.net/tripleo/+bug/1810690,2019-03-18
+1807087,1807087,Fix Released,NIC Partitioning shall work even if NetworkManager service is active,https://bugs.launchpad.net/tripleo/+bug/1807087,2019-03-18
+1807350,1807350,Fix Released,NIC Partitioning - OVS-DPDK interfaces doesn't come  up after reboot,https://bugs.launchpad.net/tripleo/+bug/1807350,2019-03-18
+1793361,1793361,Fix Released,undercloud cannot tune specific data via the override hieradata if the config class is not included,https://bugs.launchpad.net/tripleo/+bug/1793361,2019-03-18
+1799784,1799784,Fix Released,(Queens) 192.168.24.1:8787 is missing from insecure registries,https://bugs.launchpad.net/tripleo/+bug/1799784,2019-03-18
+1797285,1797285,Fix Released,Invalid field for 'command',https://bugs.launchpad.net/zun-ui/+bug/1797285,2019-03-17
+1797528,1797528,Fix Released,zun-ui TypeError image_list apiclent,https://bugs.launchpad.net/zun-ui/+bug/1797528,2019-03-17
+1799650,1799650,Fix Released,Need to replace @memoized_with_request to @memoized,https://bugs.launchpad.net/zun-ui/+bug/1799650,2019-03-17
+1799125,1799125,Fix Released,'host' parameter is unnecessary for deleting image,https://bugs.launchpad.net/zun-ui/+bug/1799125,2019-03-17
+1798702,1798702,Fix Released,Images panel should have host column,https://bugs.launchpad.net/zun-ui/+bug/1798702,2019-03-17
+1819979,1819979,Fix Released,overcloud-prep-containers fails w/ read timeout,https://bugs.launchpad.net/tripleo/+bug/1819979,2019-03-17
+1820268,1820268,Fix Released,Fedora28 container builds broken and reporting missing packages,https://bugs.launchpad.net/tripleo/+bug/1820268,2019-03-17
+1776947,1776947,Fix Released,Flood of deprecation warnings in api.log file,https://bugs.launchpad.net/manila/+bug/1776947,2019-03-17
+1807394,1807394,Fix Released,creating ipv6 subnet with invalid gateway results in HttpException: 500,https://bugs.launchpad.net/neutron/+bug/1807394,2019-03-15
+1818161,1818161,Fix Released,podman pull centos-binary-ovn-sb-db-server fails in CI,https://bugs.launchpad.net/tripleo/+bug/1818161,2019-03-15
+1815576,1815576,Fix Released,Intermitent failures at tripleo-container-image-prepare at gates with MANIFEST_BLOB_UNKNOWN,https://bugs.launchpad.net/tripleo/+bug/1815576,2019-03-15
+1780091,1780091,Fix Released,containerized undercloud deployment failed on periodic jobs,https://bugs.launchpad.net/tripleo/+bug/1780091,2019-03-15
+1718945,1718945,Fix Released,keystoneauth 3.2.0 broke keystonemiddleware tests,https://bugs.launchpad.net/keystonemiddleware/+bug/1718945,2019-03-15
+1816239,1816239,Fix Released,Functional test test_router_processing_pool_size failing,https://bugs.launchpad.net/neutron/+bug/1816239,2019-03-15
+1819877,1819877,Fix Released,f28: tempest failure due to outdated python3-tempestconf,https://bugs.launchpad.net/tripleo/+bug/1819877,2019-03-15
+1819991,1819991,Fix Released,scenario001/004 failing on ansible-lint post-deployment,https://bugs.launchpad.net/tripleo/+bug/1819991,2019-03-15
+1789643,1789643,Fix Released,installation of tempest service fails om stable/rocky,https://bugs.launchpad.net/devstack/+bug/1789643,2019-03-15
+1819981,1819981,Fix Released,Exception: 500 Server Error: Server Error for url: http://mirror.regionone.rdo-cloud-tripleo.rdoproject.org:8082/v2/,https://bugs.launchpad.net/tripleo/+bug/1819981,2019-03-15
+1782376,1782376,Fix Released,Deprecated puppet parameters cause Cinder Netapp backend to fail,https://bugs.launchpad.net/tripleo/+bug/1782376,2019-03-14
+1773569,1773569,Fix Released,TQE: ovb-create-stack.yml role overrides are not working as expected,https://bugs.launchpad.net/tripleo/+bug/1773569,2019-03-14
+1791176,1791176,Fix Released,Undercloud - overlapping dhcp range and inspection range - obscure error message,https://bugs.launchpad.net/tripleo/+bug/1791176,2019-03-14
+1793211,1793211,Fix Released,undercloud ugprade root partition free space validation inaccurate,https://bugs.launchpad.net/tripleo/+bug/1793211,2019-03-14
+1815787,1815787,Fix Released,gdisk missing from overcloud images,https://bugs.launchpad.net/tripleo/+bug/1815787,2019-03-14
+1789804,1789804,Fix Released,Add a role file for configuring OVS-DPDK and SR-IOV in the same role,https://bugs.launchpad.net/tripleo/+bug/1789804,2019-03-14
+1795043,1795043,Fix Released,designate's named is conflicting with unbound in CI scenario003,https://bugs.launchpad.net/tripleo/+bug/1795043,2019-03-14
+1743563,1743563,Fix Released,ceilometer-upgrade --skip-metering-database fails during undercloud install in master,https://bugs.launchpad.net/tripleo/+bug/1743563,2019-03-14
+1805345,1805345,Fix Released,Octavia params not being reflected in its confg files,https://bugs.launchpad.net/tripleo/+bug/1805345,2019-03-14
+1808190,1808190,Fix Released,Octavia health manager doesn't receive heartbeat message from amp on composable role,https://bugs.launchpad.net/tripleo/+bug/1808190,2019-03-14
+1807933,1807933,Fix Released,Changing haproxy parameters with enabled SELinux after the initial deployment results in the haproxy container stuck in a restart loop,https://bugs.launchpad.net/tripleo/+bug/1807933,2019-03-14
+1800232,1800232,Fix Released,CephOSD/Compute nodes crash under memory pressure unless custom tuned profile is used,https://bugs.launchpad.net/tripleo/+bug/1800232,2019-03-14
+1806736,1806736,Fix Released,Tripleo won't let override of openshift_master_cluster_hostname and openshift_master_cluster_public_hostname variables,https://bugs.launchpad.net/tripleo/+bug/1806736,2019-03-14
+1790447,1790447,Fix Released,tripleo.storage.v1.ceph-install fails on ppc64le,https://bugs.launchpad.net/tripleo/+bug/1790447,2019-03-14
+1810338,1810338,Fix Released,Containerized iSCSI connections not propagated to the host,https://bugs.launchpad.net/tripleo/+bug/1810338,2019-03-14
+1794510,1794510,Fix Released,OVN Metadata agent doesn't work when using HTTPS to talk to Nova,https://bugs.launchpad.net/tripleo/+bug/1794510,2019-03-14
+1805611,1805611,Fix Released,Tripleo deployed OpenShift deployment fails when using default containers-prepare-parameter.yaml,https://bugs.launchpad.net/tripleo/+bug/1805611,2019-03-14
+1804790,1804790,Fix Released,Docker service gets restarted during openshift scale out causing an outage,https://bugs.launchpad.net/tripleo/+bug/1804790,2019-03-14
+1807668,1807668,Fix Released,Tripleo-deployed openshift: master nodes don't pick changes to openshift_master_identity_providers,https://bugs.launchpad.net/tripleo/+bug/1807668,2019-03-14
+1812211,1812211,Fix Released,HorizonSecureCookies missing from ssl/enable-tls.yaml environment,https://bugs.launchpad.net/tripleo/+bug/1812211,2019-03-14
+1811708,1811708,Fix Released,Upgrade jobs NON FATAL failure with missing '/var/log/<service>' folder,https://bugs.launchpad.net/tripleo/+bug/1811708,2019-03-14
+1811664,1811664,Fix Released,Fails to re-deploy openshift w/o CNS after deploying it with CNS,https://bugs.launchpad.net/tripleo/+bug/1811664,2019-03-14
+1789827,1789827,Fix Released,Set Rx/Tx queues to 1024 for all OVS-DPDK roles,https://bugs.launchpad.net/tripleo/+bug/1789827,2019-03-14
+1806353,1806353,Fix Released,Tripleo doesn't deploy Openshift service catalog and template service broker,https://bugs.launchpad.net/tripleo/+bug/1806353,2019-03-14
+1813771,1813771,Fix Released,Deault 10s timeout for docker/podman stop is not enough for heat engine,https://bugs.launchpad.net/tripleo/+bug/1813771,2019-03-14
+1812659,1812659,Fix Released,UpgradeInitCommand not applying at correct time,https://bugs.launchpad.net/tripleo/+bug/1812659,2019-03-14
+1814057,1814057,Fix Released,Missing ContainerImagePrepare service in ControllerStorageNfs role,https://bugs.launchpad.net/tripleo/+bug/1814057,2019-03-14
+1812839,1812839,Fix Released,openstack undercloud backup got stuck,https://bugs.launchpad.net/tripleo/+bug/1812839,2019-03-14
+1789886,1789886,Fix Released,Validation runs through mistral are breaking,https://bugs.launchpad.net/tripleo/+bug/1789886,2019-03-14
+1793605,1793605,Fix Released,GetOvercloudConfig fails when a node is blacklisted: server_id isn't found,https://bugs.launchpad.net/tripleo/+bug/1793605,2019-03-14
+1794103,1794103,Fix Released,Deployment with default roles data broken: container-image-prepare service not passing resource_registry to tripleo-container-image-prepare,https://bugs.launchpad.net/tripleo/+bug/1794103,2019-03-14
+1790928,1790928,Fix Released,config-download: error during check mode with server deployments,https://bugs.launchpad.net/tripleo/+bug/1790928,2019-03-14
+1784967,1784967,Fix Released,ceph integration's failure to parse invalid JSON in NodeDataLookup error message should be more helpful,https://bugs.launchpad.net/tripleo/+bug/1784967,2019-03-14
+1789350,1789350,Fix Released,Make ODL healthcheck IPv6 compatible,https://bugs.launchpad.net/tripleo/+bug/1789350,2019-03-14
+1785680,1785680,Fix Released,enable_ssh_admin doesnt honor blacklist,https://bugs.launchpad.net/tripleo/+bug/1785680,2019-03-14
+1796893,1796893,Fix Released,Message sending in the scale workbook is broken,https://bugs.launchpad.net/tripleo/+bug/1796893,2019-03-14
+1796745,1796745,Fix Released,file lock failure on tripleo_common.tests.utils.test_config.TestConfig.test_overcloud_config_one_config_type_StringException,https://bugs.launchpad.net/tripleo/+bug/1796745,2019-03-14
+1797514,1797514,Fix Released,nova_metadata container reports unhealthy after deploy,https://bugs.launchpad.net/tripleo-common/+bug/1797514,2019-03-14

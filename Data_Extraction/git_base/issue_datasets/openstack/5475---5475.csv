@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1723880,1723880,Fix Released,Unshelve instance failed with availability zone which be deleted,https://bugs.launchpad.net/nova/+bug/1723880,2019-09-27
+1838666,1838666,Fix Released,lxml 4.4.0 causes failed tests in nova,https://bugs.launchpad.net/nova/+bug/1838666,2019-09-27
+1842081,1842081,Fix Released,Error during ComputeManager._cleanup_running_deleted_instances: VirtDriverNotReady: Virt driver is not ready. (ironic),https://bugs.launchpad.net/nova/+bug/1842081,2019-09-27
+1842130,1842130,Fix Released,Hyper-V virtualization platform in nova doc error,https://bugs.launchpad.net/nova/+bug/1842130,2019-09-27
+1842989,1842989,Fix Released,IronicDriver uses instance_id instead of instance_uuid in fields when calling Ironic API,https://bugs.launchpad.net/nova/+bug/1842989,2019-09-27
+1843050,1843050,Fix Released,Regression in the ironic driver: wait_for_active checks a random node,https://bugs.launchpad.net/nova/+bug/1843050,2019-09-27
+1843098,1843098,Fix Released,Compute API in nova - host_numa_node field in server topology API is wrong,https://bugs.launchpad.net/nova/+bug/1843098,2019-09-27
+1843433,1843433,Fix Released,functional test  test_migrate_server_with_qos_port fails intermittently due to race condition,https://bugs.launchpad.net/nova/+bug/1843433,2019-09-27
+1843714,1843714,Fix Released,nova-status documentation not in the list of man-pages,https://bugs.launchpad.net/nova/+bug/1843714,2019-09-27
+1843836,1843836,Fix Released,Failure to schedule if flavor contains non-CPU flag traits,https://bugs.launchpad.net/nova/+bug/1843836,2019-09-27
+1844583,1844583,Fix Released,"tox -e docs fails with ""WARNING: RSVG converter command 'rsvg-convert' cannot be run. Check the rsvg_converter_bin setting""",https://bugs.launchpad.net/nova/+bug/1844583,2019-09-27
+1843439,1843439,Fix Released,doc: Rebuild vs. Evacuate (and other move-ish ops),https://bugs.launchpad.net/nova/+bug/1843439,2019-09-27
+1844211,1844211,Fix Released,nova compute service failed to start when cpu_model_extra_flags set,https://bugs.launchpad.net/nova/+bug/1844211,2019-09-27
+1844993,1844993,Fix Released,migrate a server with qos port with compute RPC pinned to 5.1 fails and leaves the qos port in an inconsistent state,https://bugs.launchpad.net/nova/+bug/1844993,2019-09-27
+1539722,1539722,Fix Released,"Image ""container_format"" incorrectly modified when editing image",https://bugs.launchpad.net/horizon/+bug/1539722,2019-09-27
+1700034,1700034,Fix Released,wrong list of attached vms are shown in manage volume attachments,https://bugs.launchpad.net/horizon/+bug/1700034,2019-09-27
+1843104,1843104,Fix Released,KeyError: 'default_dns_nameservers' in Horizon,https://bugs.launchpad.net/horizon/+bug/1843104,2019-09-27
+1845523,1845523,Fix Released,Horizon doesn't show UI when it can't read policy files,https://bugs.launchpad.net/horizon/+bug/1845523,2019-09-27
+1813135,1813135,Fix Released,RFE: Tacker Automatic Image Creation doesn't work on parameterized imagesource,https://bugs.launchpad.net/tacker/+bug/1813135,2019-09-27
+1823860,1823860,Fix Released,Failed to create VNF with param values,https://bugs.launchpad.net/tacker/+bug/1823860,2019-09-27
+1829348,1829348,Fix Released,Fail to create Kubernetes VIM,https://bugs.launchpad.net/tacker/+bug/1829348,2019-09-27
+1829384,1829384,Fix Released,Kubernetes 'ssl_ca_cert' value error,https://bugs.launchpad.net/tacker/+bug/1829384,2019-09-27
+1834178,1834178,Fix Released,nfv event list failed with internal server error,https://bugs.launchpad.net/tacker/+bug/1834178,2019-09-27
+1592235,1592235,Fix Released,Need functional test case to check SSH access after VNF is created,https://bugs.launchpad.net/tacker/+bug/1592235,2019-09-27
+1833505,1833505,Fix Released,VNF scale failed for non-admin tenants,https://bugs.launchpad.net/tacker/+bug/1833505,2019-09-27
+1836342,1836342,Fix Released,tacker infra drivers did not import i18n,https://bugs.launchpad.net/tacker/+bug/1836342,2019-09-27
+1837205,1837205,Fix Released,VNF Update always raise exception,https://bugs.launchpad.net/tacker/+bug/1837205,2019-09-27
+1633005,1633005,Fix Released,Unable to cleanup container when non compute node has qemu process,https://bugs.launchpad.net/kolla/+bug/1633005,2019-09-27
+1837393,1837393,Fix Released,/usr/lib/python3.6/site-packages/tripleo_common/image/image_uploader.py:711: ResourceWarning: unclosed <socket.socket,https://bugs.launchpad.net/tripleo/+bug/1837393,2019-09-27
+1841629,1841629,Fix Released,Minor update of HA services doesn't restart containers on config change,https://bugs.launchpad.net/tripleo/+bug/1841629,2019-09-27
+1842117,1842117,Fix Released,os_octavia failed to copy certificates when octavia_cert_setup_host is not localhost,https://bugs.launchpad.net/openstack-ansible/+bug/1842117,2019-09-26
+1823633,1823633,Fix Committed,[RFE] L3 - netfilter Contrack Helper Support,https://bugs.launchpad.net/neutron/+bug/1823633,2019-09-26
+1594372,1594372,Fix Released,[doc] Add user_id and project_id to snapshot APIs,https://bugs.launchpad.net/manila/+bug/1594372,2019-09-26
+1822178,1822178,Fix Released,[tests] python3 dsvm tests are run with improper version,https://bugs.launchpad.net/manila/+bug/1822178,2019-09-26
+1831092,1831092,Fix Released,[NetApp driver] Vserver deletion tries to acquire lock when it is already locked,https://bugs.launchpad.net/manila/+bug/1831092,2019-09-26
+1833423,1833423,Fix Released,Typo in Manila cli documentation,https://bugs.launchpad.net/manila/+bug/1833423,2019-09-26
+1619457,1619457,Fix Released,[doc] Nexenta: adding share drivers for NexentaStor,https://bugs.launchpad.net/manila/+bug/1619457,2019-09-26
+1822815,1822815,Fix Released,"ValueError when running manila list --count True""",https://bugs.launchpad.net/manila/+bug/1822815,2019-09-26
+1588144,1588144,Fix Released,Share replica create API allows users to override the parent share's share network,https://bugs.launchpad.net/python-manilaclient/+bug/1588144,2019-09-26
+1588144,1588144,Fix Released,Share replica create API allows users to override the parent share's share network,https://bugs.launchpad.net/manila/+bug/1588144,2019-09-26
+1844596,1844596,Fix Released,Can not delete share server cause of soft-deleted,https://bugs.launchpad.net/manila/+bug/1844596,2019-09-26
+1829454,1829454,Fix Released,Deprecated as of Train,https://bugs.launchpad.net/keystone/+bug/1829454,2019-09-26
+1829453,1829453,Fix Released,Removed as of Train,https://bugs.launchpad.net/keystone/+bug/1829453,2019-09-26
+1831517,1831517,Fix Released,Sphinx not sync requirement,https://bugs.launchpad.net/zun/+bug/1831517,2019-09-26
+1833766,1833766,Fix Released,"Microversions tempest tests expect no other ""Vary"" headers",https://bugs.launchpad.net/manila/+bug/1833766,2019-09-26
+1843889,1843889,Fix Released,Windows: IPv6 tunnel endpoints,https://bugs.launchpad.net/neutron/+bug/1843889,2019-09-26
+1844171,1844171,Fix Released,"Configuration parameter missing at ""Configure the layer-3 agent""",https://bugs.launchpad.net/neutron/+bug/1844171,2019-09-26
+1821891,1821891,Fix Released,Virtual Machine evacuate is not supported because capability has not been set,https://bugs.launchpad.net/nova-powervm/+bug/1821891,2019-09-26
+1822853,1822853,Fix Released,Remove supports_recreate from nova-powervm driver,https://bugs.launchpad.net/nova-powervm/+bug/1822853,2019-09-26
+1823128,1823128,Fix Released,bad sql composition in json ingester index creation,https://bugs.launchpad.net/congress/+bug/1823128,2019-09-26
+1828109,1828109,Fix Released,missing libpq-dev bindep,https://bugs.launchpad.net/congress/+bug/1828109,2019-09-26
+1823095,1823095,Fix Released,psycopg2>=2.7 not available on RDO (CentOS 7),https://bugs.launchpad.net/congress/+bug/1823095,2019-09-26
+1800470,1800470,Fix Released,designate quota tests may fail when being run with static Tempest credentials,https://bugs.launchpad.net/designate/+bug/1800470,2019-09-26
+1810148,1810148,Fix Released,Ceilometer does not know about backup.size,https://bugs.launchpad.net/ceilometer/+bug/1810148,2019-09-26
+1819562,1819562,Fix Released,ceilometer polling agent consumes too much memory on vmware,https://bugs.launchpad.net/ceilometer/+bug/1819562,2019-09-26
+1819107,1819107,Fix Released,disk capacity is less than disk usage,https://bugs.launchpad.net/ceilometer/+bug/1819107,2019-09-26
+1625602,1625602,Fix Released,ceilometer-polling agent can't start on Windows,https://bugs.launchpad.net/ceilometer/+bug/1625602,2019-09-26
+1801486,1801486,Fix Released,Update min tox version to 2.0,https://bugs.launchpad.net/panko/+bug/1801486,2019-09-26
+1842934,1842934,Fix Released,multicast scenario test failing when guest image don't have python3 installed,https://bugs.launchpad.net/neutron/+bug/1842934,2019-09-25
+1844516,1844516,Fix Released,[neutron-tempest-plugin] SSH timeout exceptions when executing remote commands,https://bugs.launchpad.net/neutron/+bug/1844516,2019-09-25
+1831870,1831870,Fix Released,Tests failing due to mock 3.0.0,https://bugs.launchpad.net/ec2-api/+bug/1831870,2019-09-25
+1805193,1805193,Fix Released,dashboard - consider dropping use of floppyforms?,https://bugs.launchpad.net/murano/+bug/1805193,2019-09-25
+1831377,1831377,Fix Released,Sync Sphinx requirement,https://bugs.launchpad.net/blazar/+bug/1831377,2019-09-25
+1685333,1685333,Fix Released,Fatal Python error: Cannot recover from stack overflow. - in py35 unit test job,https://bugs.launchpad.net/nova/+bug/1685333,2019-09-25
+1717943,1717943,Fix Released,compute.metrics.update is not a versioned notification and not whitelisted. See ./doc/source/notification.rst,https://bugs.launchpad.net/nova/+bug/1717943,2019-09-25
+1830903,1830903,Fix Released,Failures when running with Falcon 2.0.0,https://bugs.launchpad.net/zaqar/+bug/1830903,2019-09-25
+1837856,1837856,Fix Released,Fix the StopIteration error for py37,https://bugs.launchpad.net/zaqar/+bug/1837856,2019-09-25
+1773342,1773342,Fix Released,hyper-v: Unused images are always deleted,https://bugs.launchpad.net/nova/+bug/1773342,2019-09-25
+1801713,1801713,Fix Released,Improper error message handling,https://bugs.launchpad.net/nova/+bug/1801713,2019-09-25
+1817488,1817488,Fix Released,Create capsule with volume failed,https://bugs.launchpad.net/zun/+bug/1817488,2019-09-25
+1817489,1817489,Fix Released,Cinder volume attached to capsule is not clean up,https://bugs.launchpad.net/zun/+bug/1817489,2019-09-25
+1822509,1822509,Fix Released,Listing capsules failed with KeyError: 'Name',https://bugs.launchpad.net/zun/+bug/1822509,2019-09-25
+1824513,1824513,Fix Released,zun rebuild meet an error in compute node,https://bugs.launchpad.net/zun/+bug/1824513,2019-09-25
+1827968,1827968,Fix Released,Gate failed on searching image in DockerHub,https://bugs.launchpad.net/zun/+bug/1827968,2019-09-25
+1825725,1825725,Fix Released,TypeError on _get_network_info,https://bugs.launchpad.net/zun/+bug/1825725,2019-09-25

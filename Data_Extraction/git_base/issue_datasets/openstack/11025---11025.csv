@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1771672,1771672,Fix Released,Remove deprecated host to interface mapping config,https://bugs.launchpad.net/networking-cisco/+bug/1771672,2018-08-29
+1743284,1743284,Fix Committed,Delete db error when syncing vlan allocation,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1743284,2018-08-29
+1716185,1716185,Fix Released,Exercises that are shipped with devstack failed with all latest releases of openstack,https://bugs.launchpad.net/devstack/+bug/1716185,2018-08-28
+1570122,1570122,Fix Released,ipv6 prefix delegated subnets are not accessable external of the router they are attached.,https://bugs.launchpad.net/neutron/+bug/1570122,2018-08-28
+1788653,1788653,Fix Released,cico node get --arch x86_64 --release 7 --count 1 --retry-count 6 --retry-interval 60 -f csv 16:04:49 The requested operation requires an API key.,https://bugs.launchpad.net/tripleo/+bug/1788653,2018-08-27
+1401870,1401870,Fix Released,teardown_unused_network_gateway parameter is False by default,https://bugs.launchpad.net/fuel/+bug/1401870,2018-08-27
+1789291,1789291,Fix Released,Devstack cloning repo's from rocky/stable by default,https://bugs.launchpad.net/devstack/+bug/1789291,2018-08-27
+1576425,1576425,Fix Released,Security group changes can trigger thousands of messages,https://bugs.launchpad.net/neutron/+bug/1576425,2018-08-25
+1769648,1769648,Fix Released,Can't create IBMi VM with RBD backend storage,https://bugs.launchpad.net/nova-powervm/+bug/1769648,2018-08-24
+1770696,1770696,Fix Committed,UUID mismatch on newer cloud-init,https://bugs.launchpad.net/nova-powervm/+bug/1770696,2018-08-24
+1787817,1787817,Fix Released,emit_releases.py is looking for a promoted version of rocky and failing,https://bugs.launchpad.net/tripleo/+bug/1787817,2018-08-24
+1785676,1785676,Fix Released,novajoin: containerized undercloud configures the wrong cloud-config script path,https://bugs.launchpad.net/tripleo/+bug/1785676,2018-08-24
+1787263,1787263,Fix Released,"rocky, rdo-kolla-build, build and push images fails",https://bugs.launchpad.net/tripleo/+bug/1787263,2018-08-24
+1783262,1783262,Fix Released,[All branches] tripleo quickstart promotion jobs are failing while pip install giving OSError: Command /home/jenkins/worksp...ld-images/bin/python - setuptools pip wheel failed with error code 1,https://bugs.launchpad.net/tripleo/+bug/1783262,2018-08-24
+1787048,1787048,Fix Released,attempting to disable ctrl-alt-del reboot always skips,https://bugs.launchpad.net/openstack-ansible/+bug/1787048,2018-08-24
+1788426,1788426,Fix Released,Tracking bug: RDO Cloud is down,https://bugs.launchpad.net/tripleo/+bug/1788426,2018-08-24
+1776180,1776180,Fix Released,Swift logs end up in /var/log/messages,https://bugs.launchpad.net/tripleo/+bug/1776180,2018-08-24
+1781019,1781019,Fix Released,Fluentd: Cinder-backup log path missing,https://bugs.launchpad.net/tripleo/+bug/1781019,2018-08-24
+1782392,1782392,Fix Released,barbican-api and octavia-api fail to deploy when TLS everywhere is enabled,https://bugs.launchpad.net/tripleo/+bug/1782392,2018-08-24
+1782423,1782423,Fix Released,"Unreachable overcloud nodes during ""run nodes-uuid"" task",https://bugs.launchpad.net/tripleo/+bug/1782423,2018-08-24
+1783988,1783988,Fix Released,yaml-validate.py not compatible with python3,https://bugs.launchpad.net/tripleo/+bug/1783988,2018-08-24
+1784084,1784084,Fix Released,multiple-nics network templates fail when no VLAN defined,https://bugs.launchpad.net/tripleo/+bug/1784084,2018-08-24
+1784307,1784307,Fix Released,"tripleomaster/centos-binary-collectd:current-tripleo-updated-20180730001257   \""kolla_start\""      Restarting",https://bugs.launchpad.net/tripleo/+bug/1784307,2018-08-24
+1784851,1784851,Fix Released,unable to start novajoin-notifier in containerized undercloud,https://bugs.launchpad.net/tripleo/+bug/1784851,2018-08-24
+1784910,1784910,Fix Released,Undercloud installation fails when using a hostname different than 'undercloud',https://bugs.launchpad.net/tripleo/+bug/1784910,2018-08-24
+1783776,1783776,Fix Released,vxlan not configured when ooo deployed with networking-ansible enabled,https://bugs.launchpad.net/tripleo/+bug/1783776,2018-08-24
+1784569,1784569,Fix Released,Undercloud heat container is missing plugins,https://bugs.launchpad.net/tripleo/+bug/1784569,2018-08-24
+1785744,1785744,Fix Released,No access to the metadata in containerized undercloud,https://bugs.launchpad.net/tripleo/+bug/1785744,2018-08-24
+1785130,1785130,Fix Released,Error: Check if a temporary URL key already exists  while running create_swift_temp_url_key,https://bugs.launchpad.net/tripleo/+bug/1785130,2018-08-24
+1786772,1786772,Fix Released,Validations not exposed any more in containerized undercloud,https://bugs.launchpad.net/tripleo/+bug/1786772,2018-08-24
+1786953,1786953,Fix Released,undercloud_post.yaml not rendered properly,https://bugs.launchpad.net/tripleo/+bug/1786953,2018-08-24
+1786954,1786954,Fix Released,[UPGRADES][14] Failed to setup heat output - resources.CADeployment: An unexpected error prevented the server from fulfilling your request,https://bugs.launchpad.net/tripleo/+bug/1786954,2018-08-24
+1787500,1787500,Fix Released,TripleO release note should specify why IronicEnabledDrivers option removed from Rocky,https://bugs.launchpad.net/tripleo/+bug/1787500,2018-08-24
+1788413,1788413,Fix Released,standalone always writes out clouds.yaml to /root,https://bugs.launchpad.net/tripleo/+bug/1788413,2018-08-24
+1779093,1779093,Fix Released,DeploymentFailuresAction uses incorrect execution id to look for errors file,https://bugs.launchpad.net/tripleo/+bug/1779093,2018-08-24
+1784991,1784991,Fix Released,nova-api/metadata container can't access novajoin's cloud-init script,https://bugs.launchpad.net/tripleo/+bug/1784991,2018-08-24
+1785018,1785018,Fix Released,Importing deployment plan from Git repository is broken,https://bugs.launchpad.net/tripleo/+bug/1785018,2018-08-24
+1785872,1785872,Fix Released,"openstack overcloud container image prepare unexpected arg ""append_tag""",https://bugs.launchpad.net/tripleo/+bug/1785872,2018-08-24
+1785279,1785279,Fix Released,Ceph packages are upgraded too early in the FFU process,https://bugs.launchpad.net/tripleo/+bug/1785279,2018-08-24
+1786521,1786521,Fix Released,Using --local-push-destination for openstack tripleo container image prepare command leads to undercloud failures,https://bugs.launchpad.net/tripleo/+bug/1786521,2018-08-24
+1788288,1788288,Fix Released,overcloud deploy errors with 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte from swiftclient,https://bugs.launchpad.net/tripleo/+bug/1788288,2018-08-24
+1784422,1784422,Fix Released,puppet-tripleo unit tests broken due to missing redis,https://bugs.launchpad.net/tripleo/+bug/1784422,2018-08-24
+1776533,1776533,Fix Released,logrotate_crond removes files and sends too many SIGHUPs,https://bugs.launchpad.net/tripleo/+bug/1776533,2018-08-24
+1781350,1781350,Fix Released,Swift logs to /var/log/messages on the undercloud,https://bugs.launchpad.net/tripleo/+bug/1781350,2018-08-24
+1713873,1713873,Fix Released,Housekeeping is not handling exceptions,https://bugs.launchpad.net/octavia/+bug/1713873,2018-08-24
+1755564,1755564,Fix Released,gnocchi-upgrade failed with 'table already exist' error,https://bugs.launchpad.net/tripleo/+bug/1755564,2018-08-23
+1676373,1676373,Fix Released,"[RFE] Allow users to run oooq from any host OS, from a container",https://bugs.launchpad.net/tripleo/+bug/1676373,2018-08-23
+1697428,1697428,Fix Released,cinderclient's extend testcase would fail if running with python3,https://bugs.launchpad.net/cinder/+bug/1697428,2018-08-22
+1705250,1705250,Fix Released,"OpenStack Administrator Guides: missing index for murano, cinder & keystone page",https://bugs.launchpad.net/murano/+bug/1705250,2018-08-22
+1705250,1705250,Fix Released,"OpenStack Administrator Guides: missing index for murano, cinder & keystone page",https://bugs.launchpad.net/openstack-manuals/+bug/1705250,2018-08-22
+1705250,1705250,Fix Released,"OpenStack Administrator Guides: missing index for murano, cinder & keystone page",https://bugs.launchpad.net/cinder/+bug/1705250,2018-08-22
+1705250,1705250,Fix Released,"OpenStack Administrator Guides: missing index for murano, cinder & keystone page",https://bugs.launchpad.net/keystone/+bug/1705250,2018-08-22
+1766274,1766274,Fix Released,Fail to build fluentd image for Pike,https://bugs.launchpad.net/kolla/+bug/1766274,2018-08-22
+1776921,1776921,Fix Released,Tempest tests occasionally fail with port state mismatch,https://bugs.launchpad.net/vitrage/+bug/1776921,2018-08-22
+1788265,1788265,Fix Released,Broken link in messaging high availability documentation,https://bugs.launchpad.net/openstack-manuals/+bug/1788265,2018-08-22
+1665156,1665156,Fix Released,apache docs should be proxy only,https://bugs.launchpad.net/swift/+bug/1665156,2018-08-22
+1435506,1435506,Fix Released,Account DB policy_stat Table Needs Some More Creating,https://bugs.launchpad.net/swift/+bug/1435506,2018-08-22
+1736840,1736840,Fix Released,Suffix-range requests for 0-byte objects produce invalid responses,https://bugs.launchpad.net/swift/+bug/1736840,2018-08-22
+1706321,1706321,Fix Released,reconstructor does not delete empty partition that  previously had non-durable data,https://bugs.launchpad.net/swift/+bug/1706321,2018-08-22
+1777701,1777701,Fix Released,Unittest Fails - test_wsgi.py with 'Mock' object has no attribute '__getitem__',https://bugs.launchpad.net/swift/+bug/1777701,2018-08-22
+1777836,1777836,Fix Released,test_wsgi.py fails with AttributeError with eventlet 0.17.4,https://bugs.launchpad.net/swift/+bug/1777836,2018-08-22
+1780163,1780163,Fix Released,no Alpine Linux (apk) entries in Swift bindep.txt,https://bugs.launchpad.net/swift/+bug/1780163,2018-08-22
+1618573,1618573,Fix Released,SLO etag doesn't match between container listings and object GET/HEAD,https://bugs.launchpad.net/swift/+bug/1618573,2018-08-22
+1781297,1781297,Fix Released,bdist rpm does not include s3 schema folder,https://bugs.launchpad.net/swift/+bug/1781297,2018-08-22
+1783204,1783204,Fix Released,openstack tripleo container image prepare default --local-push-destination sets push_destination to localhost:8787,https://bugs.launchpad.net/tripleo/+bug/1783204,2018-08-21
+1775577,1775577,Fix Released,tripleoclient unit tests fail intermitently at packaging,https://bugs.launchpad.net/tripleo/+bug/1775577,2018-08-21
+1755497,1755497,Fix Released,undercloud: autogenerated certificate takes precedence over user-provided one,https://bugs.launchpad.net/tripleo/+bug/1755497,2018-08-21
+1783389,1783389,Fix Released,In case of containerized undercloud failure we may see output like: 'InstallUndercloud' object has no attribute 'heat_launch',https://bugs.launchpad.net/tripleo/+bug/1783389,2018-08-21
+1784999,1784999,Fix Released,UC upgrade Q->R failed: enable-tls.yaml is malformed and is missing the resource registry,https://bugs.launchpad.net/tripleo/+bug/1784999,2018-08-21
+1785059,1785059,Fix Released,"Q->R uc upgrade failed: Could not find a suitable TLS CA certificate bundle, invalid path: /etc/ipa/ca.crt",https://bugs.launchpad.net/tripleo/+bug/1785059,2018-08-21
+1783722,1783722,Fix Released,undercloud upgrade command shows as upgraded when confirmation question replied as No,https://bugs.launchpad.net/tripleo/+bug/1783722,2018-08-21
+1783787,1783787,Fix Released,Undercloud preflight checks should log what they are doing,https://bugs.launchpad.net/tripleo/+bug/1783787,2018-08-21
+1787131,1787131,Fix Released,"After upgrading to containerized undercloud, overcloud upgrade fails  with InternalServerError",https://bugs.launchpad.net/tripleo/+bug/1787131,2018-08-21
+1749079,1749079,Fix Released,Missing support and documentation for OVN,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1749079,2018-08-21
+1748836,1748836,Fix Released,SelfLink-based resource management creates the bugs,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1748836,2018-08-21

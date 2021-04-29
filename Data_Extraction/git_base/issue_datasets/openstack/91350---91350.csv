@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1064713,1064713,Fix Released,hostname in metadata ends with . if dhcp_domain flag is empty,https://bugs.launchpad.net/nova/+bug/1064713,2013-04-04
+1063920,1063920,Fix Released,xenapi: boot from volume is broken,https://bugs.launchpad.net/nova/+bug/1063920,2013-04-04
+1061922,1061922,Fix Released,sent_meta needs a centralized definition in _create_image(),https://bugs.launchpad.net/nova/+bug/1061922,2013-04-04
+1061628,1061628,Fix Released,Non default topic cause service startup error.,https://bugs.launchpad.net/nova/+bug/1061628,2013-04-04
+1061291,1061291,Fix Released,powervm: list_instances filtering filters out instances with custom instance_name_template setting,https://bugs.launchpad.net/nova/+bug/1061291,2013-04-04
+1061173,1061173,Fix Released,powervm: LPARInstanceNotFound exception causes compute to die when db instances aren't found,https://bugs.launchpad.net/nova/+bug/1061173,2013-04-04
+1059772,1059772,Fix Released,Openstack Xen Plugins RPM Spec out of date,https://bugs.launchpad.net/nova/+bug/1059772,2013-04-04
+1066887,1066887,Fix Released,live-migration and volume host assignement,https://bugs.launchpad.net/nova/+bug/1066887,2013-04-04
+1066513,1066513,Fix Released,live_migration missing migrate_data parameter in Hyper-V driver,https://bugs.launchpad.net/nova/+bug/1066513,2013-04-04
+1065899,1065899,Fix Released,remove-fixed-ip raise InvalidUUID Exception,https://bugs.launchpad.net/nova/+bug/1065899,2013-04-04
+1065440,1065440,Fix Released,resize does not migrate DHCP host information,https://bugs.launchpad.net/nova/+bug/1065440,2013-04-04
+1065092,1065092,Fix Released,Resource reservation isn't rolled back properly for certain failures during Instance Create,https://bugs.launchpad.net/nova/+bug/1065092,2013-04-04
+1065053,1065053,Fix Released,Nova backup image fails,https://bugs.launchpad.net/nova/+bug/1065053,2013-04-04
+1064359,1064359,Fix Released,nova-manage doesn't validate the key value supplied to update the quota,https://bugs.launchpad.net/nova/+bug/1064359,2013-04-04
+1061944,1061944,Fix Released,xen volume auto device selection always picks xvdb,https://bugs.launchpad.net/nova/+bug/1061944,2013-04-04
+1061499,1061499,Fix Released,API calls to dis-associate an auto-assigned floating IP should return proper warning,https://bugs.launchpad.net/nova/+bug/1061499,2013-04-04
+1060255,1060255,Fix Released,Host field set too early during builds,https://bugs.launchpad.net/nova/+bug/1060255,2013-04-04
+1059366,1059366,Fix Released,nova-network cannot re-generate MAC address if collision happen,https://bugs.launchpad.net/nova/+bug/1059366,2013-04-04
+1057756,1057756,Fix Released,"libvirt: if exception raised during volume_detach, volume state is inconsistent",https://bugs.launchpad.net/nova/+bug/1057756,2013-04-04
+1057145,1057145,Fix Released,db tests fail with sqlalchemy 0.7.4,https://bugs.launchpad.net/nova/+bug/1057145,2013-04-04
+1056380,1056380,Fix Released,deleting security group does not mark rules as deleted,https://bugs.launchpad.net/nova/+bug/1056380,2013-04-04
+1055431,1055431,Fix Released,Xenserver cannot boot vm_mode=xen type images,https://bugs.launchpad.net/nova/+bug/1055431,2013-04-04
+1055413,1055413,Fix Released,Fail to boot raw image on XenServer,https://bugs.launchpad.net/nova/+bug/1055413,2013-04-04
+1054163,1054163,Fix Released,nova boot succeeds for deleted glance image,https://bugs.launchpad.net/nova/+bug/1054163,2013-04-04
+1053572,1053572,Fix Released,libvirt test_spawn_with_network_info is broken,https://bugs.launchpad.net/nova/+bug/1053572,2013-04-04
+1050924,1050924,Fix Released,Duplicate MAC Addresses generated during Create Server stress tests,https://bugs.launchpad.net/nova/+bug/1050924,2013-04-04
+1049446,1049446,Fix Released,Multiple errors in Storwize/SVC driver options,https://bugs.launchpad.net/nova/+bug/1049446,2013-04-04
+1049446,1049446,Fix Released,Multiple errors in Storwize/SVC driver options,https://bugs.launchpad.net/cinder/+bug/1049446,2013-04-04
+1029291,1029291,Fix Released,Floating ip doesn't get moved when live-migrating,https://bugs.launchpad.net/nova/+bug/1029291,2013-04-04
+1028092,1028092,Fix Released,Resizing a Xen instance with attached volumes fails,https://bugs.launchpad.net/nova/+bug/1028092,2013-04-04
+1025712,1025712,Fix Released,Remove connection_type in Grizzly,https://bugs.launchpad.net/nova/+bug/1025712,2013-04-04
+1015731,1015731,Fix Released,resize leave leftover libvirt configs,https://bugs.launchpad.net/nova/+bug/1015731,2013-04-04
+1011122,1011122,Fix Released,Nova-network creates /120 IPv6 subnet mask instead of /64,https://bugs.launchpad.net/nova/+bug/1011122,2013-04-04
+887191,887191,Fix Released,OS API: XML Namespace Handling Broken,https://bugs.launchpad.net/nova/+bug/887191,2013-04-04
+1078793,1078793,Fix Released,resizes aren't updating swap size,https://bugs.launchpad.net/nova/+bug/1078793,2013-04-04
+1078207,1078207,Fix Released,migrate_instance_start should be called on source compute node,https://bugs.launchpad.net/nova/+bug/1078207,2013-04-04
+1076114,1076114,Fix Released,image create fails with QemuImgInfo error,https://bugs.launchpad.net/nova/+bug/1076114,2013-04-04
+1075701,1075701,Fix Released,Rescue not using base images,https://bugs.launchpad.net/nova/+bug/1075701,2013-04-04
+1075575,1075575,Fix Released,nova host-list cann't return result in xml form,https://bugs.launchpad.net/nova/+bug/1075575,2013-04-04
+1075245,1075245,Fix Released,migrations fail due to rpc.call to wrong queue,https://bugs.launchpad.net/nova/+bug/1075245,2013-04-04
+1075017,1075017,Fix Released,libvirt imagecache still runs even if disabled,https://bugs.launchpad.net/nova/+bug/1075017,2013-04-04
+1073956,1073956,Fix Released,Scheduler Race Condition at high volume,https://bugs.launchpad.net/nova/+bug/1073956,2013-04-04
+1073858,1073858,Fix Released,nova-api crashes if it is run with nobody account.,https://bugs.launchpad.net/nova/+bug/1073858,2013-04-04
+1073600,1073600,Fix Released,Compute manager doesn't update 'host' field when it tries to run a VM,https://bugs.launchpad.net/nova/+bug/1073600,2013-04-04
+1071849,1071849,Fix Released,hacking.py is naive about finding import lines,https://bugs.launchpad.net/nova/+bug/1071849,2013-04-04
+1071017,1071017,Fix Released,Instance reboot not working.,https://bugs.launchpad.net/nova/+bug/1071017,2013-04-04
+1070559,1070559,Fix Released,Migration 091 broken for SQLite,https://bugs.launchpad.net/nova/+bug/1070559,2013-04-04
+1070088,1070088,Fix Released,Qemu-img does not handle snapshot list,https://bugs.launchpad.net/nova/+bug/1070088,2013-04-04
+1068716,1068716,Fix Released,Instances deleted during spawn leak network allocations,https://bugs.launchpad.net/nova/+bug/1068716,2013-04-04
+1065785,1065785,Fix Released,volume and snapshot IDs do not correctly map to UUIDs after folsom upgrade,https://bugs.launchpad.net/nova/+bug/1065785,2013-04-04
+1065267,1065267,Fix Released,Scheduler resize race condition,https://bugs.launchpad.net/nova/+bug/1065267,2013-04-04
+1065250,1065250,Fix Released,Unexpected Task State Error on Snapshot,https://bugs.launchpad.net/nova/+bug/1065250,2013-04-04
+1065069,1065069,Fix Released,nova-volume-usage-audit doesn't work in folsom,https://bugs.launchpad.net/nova/+bug/1065069,2013-04-04
+1065004,1065004,Fix Released,Fail to assign private fixed ip with multi_host,https://bugs.launchpad.net/nova/+bug/1065004,2013-04-04
+1064524,1064524,Fix Released,Nic Ordering not guaranteed with Quantum API,https://bugs.launchpad.net/nova/+bug/1064524,2013-04-04
+1064134,1064134,Fix Released,xenapi: volume not tagged in boot from volume case,https://bugs.launchpad.net/nova/+bug/1064134,2013-04-04
+1063851,1063851,Fix Released,metadata service throws 500 - NoSuchOptError,https://bugs.launchpad.net/nova/+bug/1063851,2013-04-04
+1062033,1062033,Fix Released,nova-compute will assign the same device name if volume-attach continuously,https://bugs.launchpad.net/nova/+bug/1062033,2013-04-04
+1060197,1060197,Fix Released,Add version to network rpc api,https://bugs.launchpad.net/nova/+bug/1060197,2013-04-04
+1057730,1057730,Fix Released,libvirt: cannot detach volume from stopped domain,https://bugs.launchpad.net/nova/+bug/1057730,2013-04-04
+1057719,1057719,Fix Released,libvirt: concurrent detach_volume and terminate fails,https://bugs.launchpad.net/nova/+bug/1057719,2013-04-04
+1056601,1056601,Fix Released,deletes fail when instance in RESIZED,https://bugs.launchpad.net/nova/+bug/1056601,2013-04-04
+1056285,1056285,Fix Released,ComputeManager does not provide block_device_info on destroy call in revert_resize,https://bugs.launchpad.net/nova/+bug/1056285,2013-04-04
+1056242,1056242,Fix Released,Cloudpipe extension xml serialization doesn't return the instance(s) data,https://bugs.launchpad.net/nova/+bug/1056242,2013-04-04
+1053441,1053441,Fix Released,Instances in vm state DELETED are preventing compute restart,https://bugs.launchpad.net/nova/+bug/1053441,2013-04-04
+1041581,1041581,Fix Released,Server builds that fail due to an incorrect imageRef being used still consume resources towards quota,https://bugs.launchpad.net/nova/+bug/1041581,2013-04-04
+1023169,1023169,Fix Released,update nova to report quantum floating IPs,https://bugs.launchpad.net/nova/+bug/1023169,2013-04-04
+966529,966529,Fix Released,floating ip does not move with live migration with multi_host,https://bugs.launchpad.net/nova/+bug/966529,2013-04-04
+1078594,1078594,Fix Released,libvirt image cache manager doesn't handle shared storage during cleanup,https://bugs.launchpad.net/nova/+bug/1078594,2013-04-04
+1074437,1074437,Fix Released,disassociate_floating_ip with multi_host=True fails,https://bugs.launchpad.net/nova/+bug/1074437,2013-04-04
+1074072,1074072,Fix Released,"resizes fail: UnsupportedRpcVersion: Specified RPC version, 1.2",https://bugs.launchpad.net/nova/+bug/1074072,2013-04-04
+1070509,1070509,Fix Released,nova-api now requires quantumclient,https://bugs.launchpad.net/nova/+bug/1070509,2013-04-04
+1064083,1064083,Fix Released,xenapi migrations fail w/ swap,https://bugs.launchpad.net/nova/+bug/1064083,2013-04-04
+1061166,1061166,Fix Released,ec2 instance IDs are broken after folsom upgrade,https://bugs.launchpad.net/nova/+bug/1061166,2013-04-04
+1060363,1060363,Fix Released,Resource tracker uses regex DB query too often,https://bugs.launchpad.net/nova/+bug/1060363,2013-04-04

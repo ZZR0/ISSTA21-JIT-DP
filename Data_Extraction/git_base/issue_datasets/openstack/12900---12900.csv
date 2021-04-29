@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1746493,1746493,Fix Released,[pike->queens] (OS::TripleO::Services::FluentdClient) could not be found.,https://bugs.launchpad.net/tripleo/+bug/1746493,2018-06-05
+1764745,1764745,Fix Released,ovn-controller container looses connection to openvswitch when openvswitch service is restarted,https://bugs.launchpad.net/tripleo/+bug/1764745,2018-06-05
+1765641,1765641,Fix Released,Adjust non-puppetish (ansible/external deploys) detection logic for YAML validate hiera interpolation,https://bugs.launchpad.net/tripleo/+bug/1765641,2018-06-05
+1765547,1765547,Fix Released,FFU: updating stack outputs fails on environments with management network enabled: Could not fetch contents for file:///tmp/tripleoclient-kjhsMm/tripleo-heat-templates/network/ports/management.yaml,https://bugs.launchpad.net/tripleo/+bug/1765547,2018-06-05
+1765975,1765975,Fix Released,ssh timeout in tempest basic ops scen007 gate jobs,https://bugs.launchpad.net/tripleo/+bug/1765975,2018-06-05
+1765997,1765997,Fix Released,FFU: post upgrade openstack-nova-consoleauth service is not disabled,https://bugs.launchpad.net/tripleo/+bug/1765997,2018-06-05
+1766178,1766178,Fix Released,Keystone in container: missing trusted CA,https://bugs.launchpad.net/tripleo/+bug/1766178,2018-06-05
+1766255,1766255,Fix Released,Overcloud Gnocchi instance for Collectd,https://bugs.launchpad.net/tripleo/+bug/1766255,2018-06-05
+1766502,1766502,Fix Released,"Ceph upgrade fails with ""no valid command found; 10 closest matches:\nosd pool stats {<name>}""",https://bugs.launchpad.net/tripleo/+bug/1766502,2018-06-05
+1766759,1766759,Fix Released,docker-puppet fails to run neutron ovs agent container with db.sock not available error,https://bugs.launchpad.net/tripleo/+bug/1766759,2018-06-05
+1766908,1766908,Fix Released,FFU: updating stack outputs fails on environments using OS::TripleO::NodeExtraConfig customizations with resources.NodeExtraConfig: Property error: resources.PreDeployDeployment.properties: Property name not assigned,https://bugs.launchpad.net/tripleo/+bug/1766908,2018-06-05
+1767318,1767318,Fix Released,Ceph upgrade prepare/converge env file aren't correct,https://bugs.launchpad.net/tripleo/+bug/1767318,2018-06-05
+1767070,1767070,Fix Released,Block VLAN tenant networks for OVN driver from TripleO,https://bugs.launchpad.net/tripleo/+bug/1767070,2018-06-05
+1767395,1767395,Fix Released,Barbican key_id not set in Swift container on overcloud updates,https://bugs.launchpad.net/tripleo/+bug/1767395,2018-06-05
+1767252,1767252,Fix Released,scenario001 timeout: ceph-ansible + config-download takes more time than before,https://bugs.launchpad.net/tripleo/+bug/1767252,2018-06-05
+1765788,1765788,Fix Released,tripleo.storage.v1.ceph-install fails with external ceph on yaql $.ansible_output.get('plays')[0].get('tasks')[0].get('hosts') - index out of bounds,https://bugs.launchpad.net/tripleo/+bug/1765788,2018-06-05
+1768019,1768019,Fix Released,AnsibleParserError with containerised undercloud install,https://bugs.launchpad.net/tripleo/+bug/1768019,2018-06-05
+1766748,1766748,Fix Released,Upgrades using single-nic-vlans and Ceph fail,https://bugs.launchpad.net/tripleo/+bug/1766748,2018-06-05
+1768358,1768358,Fix Released,THT check-up-to-date.sh in pep8 is broken,https://bugs.launchpad.net/tripleo/+bug/1768358,2018-06-05
+1769639,1769639,Fix Released,Capabilities map referencing obsolete Cinder environment file,https://bugs.launchpad.net/tripleo/+bug/1769639,2018-06-05
+1769436,1769436,Fix Released,"manila.share.manager logs ""access denied"" when using Ceph",https://bugs.launchpad.net/tripleo/+bug/1769436,2018-06-05
+1770598,1770598,Fix Released,cinder-backup minor update fails when image hasn't changed,https://bugs.launchpad.net/tripleo/+bug/1770598,2018-06-05
+1770191,1770191,Fix Released,provide a way to set up Ceph 3.0 repositories,https://bugs.launchpad.net/tripleo/+bug/1770191,2018-06-05
+1771083,1771083,Fix Released,Enabling collectd brings cloud down,https://bugs.launchpad.net/tripleo/+bug/1771083,2018-06-05
+1765439,1765439,Fix Released,[Glance] Interoperable image import should be disabled by default on 3 node HA setup,https://bugs.launchpad.net/tripleo/+bug/1765439,2018-06-05
+1771435,1771435,Fix Released,scenario001/002 failing on autoscaling with urllib3.exceptions.SSLError: [SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:579),https://bugs.launchpad.net/tripleo/+bug/1771435,2018-06-05
+1771627,1771627,Fix Released,CloudName shouldn't be a required parameter,https://bugs.launchpad.net/tripleo/+bug/1771627,2018-06-05
+1771744,1771744,Fix Released,oslo-messaging-rpc with rabbitmq is broken with TLS everywhere,https://bugs.launchpad.net/tripleo/+bug/1771744,2018-06-05
+1769051,1769051,Fix Released,fluentd_sources doesn't point to container logs,https://bugs.launchpad.net/tripleo/+bug/1769051,2018-06-05
+1771888,1771888,Fix Released,non-pacemaker redis container does not survive a reboot,https://bugs.launchpad.net/tripleo/+bug/1771888,2018-06-05
+1772040,1772040,Fix Released,sc000 upgrade getting stuck on NetworkDeployment,https://bugs.launchpad.net/tripleo/+bug/1772040,2018-06-05
+1772039,1772039,Fix Released,[queens->master] Upstream CI job pulls wrong container images on major upgrade,https://bugs.launchpad.net/tripleo/+bug/1772039,2018-06-05
+1768142,1768142,Fix Released,tripleo-ci-centos-7-3nodes-multinode timing out frequently in the gate,https://bugs.launchpad.net/tripleo/+bug/1768142,2018-06-05
+1772072,1772072,Fix Released,neutron failover does not work properly after baremetal->container upgrade,https://bugs.launchpad.net/tripleo/+bug/1772072,2018-06-05
+1772743,1772743,Fix Released,THT should default to setting ceph pool application type when using luminous,https://bugs.launchpad.net/tripleo/+bug/1772743,2018-06-05
+1772650,1772650,Fix Released,Passing ceph-ansible.yaml environment file to 'ceph-upgrade run' causes the wrong playbook to run,https://bugs.launchpad.net/tripleo/+bug/1772650,2018-06-05
+1773746,1773746,Fix Released,NeutronSriovHostConfig missing in SRIOV's env files,https://bugs.launchpad.net/tripleo/+bug/1773746,2018-06-05
+1772519,1772519,Fix Released,Container Undercloud - Password authentication via SSH disabled,https://bugs.launchpad.net/tripleo/+bug/1772519,2018-06-05
+1761122,1761122,Fix Released,neutron_api healthcheck does not work,https://bugs.launchpad.net/tripleo/+bug/1761122,2018-06-05
+1761499,1761499,Fix Released,Noop removal action only removes noops from plan-env and not user-env,https://bugs.launchpad.net/tripleo/+bug/1761499,2018-06-05
+1764996,1764996,Fix Released,Upgrade converge command incompatible with separate ceph workflow,https://bugs.launchpad.net/tripleo/+bug/1764996,2018-06-05
+1765727,1765727,Fix Released,overcloud generate fencing command cannot be run before the actual deployment,https://bugs.launchpad.net/tripleo/+bug/1765727,2018-06-05
+1759308,1759308,Fix Released,Create a workflow to properly expose the create_container action,https://bugs.launchpad.net/tripleo/+bug/1759308,2018-06-05
+1761412,1761412,Fix Released,Upload files to swift fails if file too big,https://bugs.launchpad.net/tripleo/+bug/1761412,2018-06-05
+1765092,1765092,Fix Released,passlib displays a deprecation warning due to the usage in tripleo-common.utils.passwords,https://bugs.launchpad.net/tripleo/+bug/1765092,2018-06-05
+1769549,1769549,Fix Released,container prepare --roles-file with no env files results in an empty list,https://bugs.launchpad.net/tripleo/+bug/1769549,2018-06-05
+1770089,1770089,Fix Released,Derive parameters -  incorrect plan name  in send_message task,https://bugs.launchpad.net/tripleo/+bug/1770089,2018-06-05
+1770641,1770641,Fix Released,Default file path in OctaviaAmphoraSshKeyFile may not be readable,https://bugs.launchpad.net/tripleo/+bug/1770641,2018-06-05
+1770153,1770153,Fix Released,Syntax error in octavia-undercloud role,https://bugs.launchpad.net/tripleo/+bug/1770153,2018-06-05
+1769896,1769896,Fix Released,The global amount of Octavia loadbalancers is constrained by the service project quotas,https://bugs.launchpad.net/tripleo/+bug/1769896,2018-06-05
+1770117,1770117,Fix Released,Install Octavia amphora image if Red Hat,https://bugs.launchpad.net/tripleo/+bug/1770117,2018-06-05
+1771705,1771705,Fix Released,redis healthcheck is broken,https://bugs.launchpad.net/tripleo/+bug/1771705,2018-06-05
+1770956,1770956,Fix Released,The global amount of Octavia loadbalancers is constrained by the size of lb-mgmt-subnet,https://bugs.launchpad.net/tripleo/+bug/1770956,2018-06-05
+1772880,1772880,Fix Released,Octavia amphora image fails to install in undercloud,https://bugs.launchpad.net/tripleo/+bug/1772880,2018-06-05
+1770700,1770700,Fix Released,Fencing parameter generation uses outdated approach to drivers,https://bugs.launchpad.net/tripleo/+bug/1770700,2018-06-05
+1774168,1774168,Fix Released,Could not load 'tripleo.container_images.prepare_upload',https://bugs.launchpad.net/tripleo/+bug/1774168,2018-06-05
+1718353,1718353,Fix Released,"The ""context"" parameter of Action.run() isn't filled properly for asynchronous actions",https://bugs.launchpad.net/mistral/+bug/1718353,2018-06-05
+1718353,1718353,Fix Released,"The ""context"" parameter of Action.run() isn't filled properly for asynchronous actions",https://bugs.launchpad.net/tripleo/+bug/1718353,2018-06-05
+1771488,1771488,Fix Released,Containerized undercloud upgrade fails to process templates,https://bugs.launchpad.net/tripleo/+bug/1771488,2018-06-05
+1771441,1771441,Fix Released,deployment errors not printed by tripleoclient,https://bugs.launchpad.net/tripleo/+bug/1771441,2018-06-05
+1771982,1771982,Fix Released,python-tripleoclient upgrade command breaks check-osc-plugins,https://bugs.launchpad.net/tripleo/+bug/1771982,2018-06-05
+1751078,1751078,Fix Released,[i18n] tripleo client undercloud config/deploy params  require i18n support,https://bugs.launchpad.net/tripleo/+bug/1751078,2018-06-05
+1772804,1772804,Fix Released,Upgrade process doesn't fail when upgrade_tasks returns 1 in containerized undercloud,https://bugs.launchpad.net/tripleo/+bug/1772804,2018-06-05
+1764514,1764514,Fix Released,haproxy containers stopped on two controllers on fresh deployment with OpenDaylight,https://bugs.launchpad.net/tripleo/+bug/1764514,2018-06-05
+1762518,1762518,Fix Released,HaProxy should use roundrobin balancing instead of sourced balancing  for ODL and ODL websocket,https://bugs.launchpad.net/tripleo/+bug/1762518,2018-06-05
+1768037,1768037,Fix Released,haproxy shows 'NO SERV' despite opendaylight up and operational,https://bugs.launchpad.net/tripleo/+bug/1768037,2018-06-05
+1771752,1771752,Fix Released,rabbitmq certificate ownership is wrong,https://bugs.launchpad.net/tripleo/+bug/1771752,2018-06-05
+1773188,1773188,Fix Released,puppet-tripleo unit tests broken due to recent upstream puppet module cleanup,https://bugs.launchpad.net/tripleo/+bug/1773188,2018-06-05
+1754681,1754681,Fix Released,IPv6 undercloud: ctlplane-subnet creation fails,https://bugs.launchpad.net/tripleo/+bug/1754681,2018-06-05
+1757196,1757196,Fix Released,heat signal URLs need to be wrapped if IPv6,https://bugs.launchpad.net/tripleo/+bug/1757196,2018-06-05
+1765700,1765700,Fix Released,Undercloud: pike -> queens upgrade break introspection,https://bugs.launchpad.net/tripleo/+bug/1765700,2018-06-05
+1764507,1764507,Fix Released,instack-undercloud: issues with net_config_override,https://bugs.launchpad.net/tripleo/+bug/1764507,2018-06-05
+1760118,1760118,Fix Released,TLS everywhere: Could not evaluate: The certificate  wasn't found in the list.,https://bugs.launchpad.net/tripleo/+bug/1760118,2018-06-05
+1767405,1767405,Fix Released,Upgrading undercloud from OSP12 to OSP13 fails when SSH directory SELinux contexts need correction,https://bugs.launchpad.net/tripleo/+bug/1767405,2018-06-05
+1758065,1758065,Fix Released,We need to revert the config-download mappings at the end of Q upgrade,https://bugs.launchpad.net/tripleo/+bug/1758065,2018-06-05

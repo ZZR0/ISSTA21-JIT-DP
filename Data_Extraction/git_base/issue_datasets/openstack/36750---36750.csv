@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1623889,1623889,Fix Released,live migration of instance using npiv volumes and multiple vios does not take the client slot into account,https://bugs.launchpad.net/nova-powervm/+bug/1623889,2016-09-22
+1580077,1580077,Fix Released,all configuration fields with restrictions.action='disable' are validated by the engine and then avoid to configure plugins in Fuel UI,https://bugs.launchpad.net/fuel/+bug/1580077,2016-09-22
+1625969,1625969,Fix Released,[5.0 Vcenter] Deployment has failed on task 'vcenter_compute_zones_create'.,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1625969,2016-09-22
+1616382,1616382,Fix Committed,CI fails for manila's xenial jobs,https://bugs.launchpad.net/devstack-plugin-glusterfs/+bug/1616382,2016-09-22
+1618872,1618872,Fix Released,[fuel-qa]Network settings are different before and after deploy,https://bugs.launchpad.net/fuel/+bug/1618872,2016-09-22
+1607446,1607446,Fix Released,Upgrade instructions for Fuel 9.0 don't work,https://bugs.launchpad.net/fuel/+bug/1607446,2016-09-22
+1490984,1490984,Fix Released,"instance binded floating ip cannot ping external gateway, bug i can ping the other pc in external network",https://bugs.launchpad.net/neutron/+bug/1490984,2016-09-22
+1495610,1495610,Fix Released,Resolve conflicting dependencies from source swift and docker registry,https://bugs.launchpad.net/storlets/+bug/1495610,2016-09-22
+1626410,1626410,Fix Released,duplicated fetch args in some df apps,https://bugs.launchpad.net/dragonflow/+bug/1626410,2016-09-22
+1625223,1625223,Fix Released,Delete commands for fuel config cli don't work if resource name is used,https://bugs.launchpad.net/fuel/+bug/1625223,2016-09-22
+1621515,1621515,Fix Released,[RFC] DRAC: get progress after submitting set_bios_config request,https://bugs.launchpad.net/ironic/+bug/1621515,2016-09-22
+1625520,1625520,Fix Released,[5.0 Vcenter] Vrouter has not started on contrail nodes.,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1625520,2016-09-22
+1594168,1594168,Fix Released,"My FirstApp: Update links in the ""Choose your OpenStack SDK"" table",https://bugs.launchpad.net/openstack-api-site/+bug/1594168,2016-09-22
+1492069,1492069,Fix Released,Enable the use of 'external' service providers,https://bugs.launchpad.net/neutron/+bug/1492069,2016-09-21
+1625915,1625915,Fix Released,Fix the py34-jenkins-error,https://bugs.launchpad.net/app-catalog/+bug/1625915,2016-09-21
+1506987,1506987,Fix Released,Add check for bay object in class K8sAPI,https://bugs.launchpad.net/magnum/+bug/1506987,2016-09-21
+1615568,1615568,Fix Released,scaling convertion fails,https://bugs.launchpad.net/heat-translator/+bug/1615568,2016-09-21
+1626251,1626251,Fix Released,Automatic deployment is broken,https://bugs.launchpad.net/heat-translator/+bug/1626251,2016-09-21
+1625322,1625322,Fix Released,nova newton specs docs link to sections of live-migrate-rescued-instances spec,https://bugs.launchpad.net/nova/+bug/1625322,2016-09-21
+1618566,1618566,Fix Released,tripleo-build-images should allow building a single image,https://bugs.launchpad.net/tripleo/+bug/1618566,2016-09-21
+1602208,1602208,Fix Released,"keystone_tenant prefetch fails with ""undefined local variable or method `action'""",https://bugs.launchpad.net/puppet-openstacklib/+bug/1602208,2016-09-21
+1584247,1584247,Fix Released,[library] Murano db task failed when using hostname with uppercase letters,https://bugs.launchpad.net/puppet-openstacklib/+bug/1584247,2016-09-21
+1563898,1563898,Fix Released,No possibility to override the retry mechanism.,https://bugs.launchpad.net/puppet-openstacklib/+bug/1563898,2016-09-21
+1599113,1599113,Fix Released,Add a defaults manifest loaded by all puppet modules.,https://bugs.launchpad.net/puppet-openstacklib/+bug/1599113,2016-09-21
+1507934,1507934,Fix Released,Could not find resource 'Anchor[heat::db::begin]',https://bugs.launchpad.net/tripleo/+bug/1507934,2016-09-21
+1507934,1507934,Fix Released,Could not find resource 'Anchor[heat::db::begin]',https://bugs.launchpad.net/puppet-heat/+bug/1507934,2016-09-21
+1472053,1472053,Fix Released,Cannot specify empty heat::instance_user,https://bugs.launchpad.net/puppet-heat/+bug/1472053,2016-09-21
+1508293,1508293,Fix Released,engine_workers should be configurable,https://bugs.launchpad.net/puppet-heat/+bug/1508293,2016-09-21
+1591154,1591154,Fix Committed,"Jenkins job ""gate-puppet-heat-puppet-beaker-rspec-ubuntu-trusty"" failed due to unavailability of command journalctl",https://bugs.launchpad.net/puppet-heat/+bug/1591154,2016-09-21
+1621531,1621531,Fix Released,tempest failures due to AttributeError: 'Join' object has no attribute 'info',https://bugs.launchpad.net/gnocchi/+bug/1621531,2016-09-21
+1619509,1619509,Fix Released,EEXIST stack trace when removing measures files,https://bugs.launchpad.net/gnocchi/+bug/1619509,2016-09-21
+1613739,1613739,Fix Released,ceph driver isn't compressed,https://bugs.launchpad.net/gnocchi/+bug/1613739,2016-09-21
+1611089,1611089,Fix Released,broken carbonara benchmarking,https://bugs.launchpad.net/gnocchi/+bug/1611089,2016-09-21
+1621510,1621510,Fix Released,minimise round_timestamp calculations,https://bugs.launchpad.net/gnocchi/+bug/1621510,2016-09-21
+1621498,1621498,Fix Released,minimise groupby work,https://bugs.launchpad.net/gnocchi/+bug/1621498,2016-09-21
+1603495,1603495,Fix Released,feature: support processing raw measures on GET,https://bugs.launchpad.net/gnocchi/+bug/1603495,2016-09-21
+1573023,1573023,Fix Released,Add groupby aggregation function,https://bugs.launchpad.net/gnocchi/+bug/1573023,2016-09-21
+1617561,1617561,Fix Released,The resource type API need to increase the inspection,https://bugs.launchpad.net/gnocchi/+bug/1617561,2016-09-21
+1625529,1625529,Fix Released,drop metrics we previously process: TypeError: unsupported operand type(s) for -: 'set' and 'list',https://bugs.launchpad.net/gnocchi/+bug/1625529,2016-09-21
+1580990,1580990,Fix Released,there is no config file after setup,https://bugs.launchpad.net/gnocchi/+bug/1580990,2016-09-21
+1566445,1566445,Fix Released,migrations aren't being tested properly,https://bugs.launchpad.net/gnocchi/+bug/1566445,2016-09-21
+1624504,1624504,Fix Released,indexer upgrade fails,https://bugs.launchpad.net/gnocchi/+bug/1624504,2016-09-21
+1623139,1623139,Fix Released,gnocchiclient gate broken,https://bugs.launchpad.net/gnocchi/+bug/1623139,2016-09-21
+1611912,1611912,Fix Released,upgrade fails if run on upgraded storage,https://bugs.launchpad.net/gnocchi/+bug/1611912,2016-09-21
+1589393,1589393,Fix Released,Failed to run gnocchi-upgrade with file backend,https://bugs.launchpad.net/gnocchi/+bug/1589393,2016-09-21
+1623594,1623594,Fix Released,Application Development framework does not get installed with Murano Plugin,https://bugs.launchpad.net/fuel-plugin-murano/+bug/1623594,2016-09-21
+1623943,1623943,Fix Released,"[CLI] ""--is-public"" is not working with glance glare",https://bugs.launchpad.net/fuel-plugin-murano/+bug/1623943,2016-09-21
+1624365,1624365,Fix Released,It is possible to import package twice via plugin with enabled glance artifact repository,https://bugs.launchpad.net/fuel-plugin-murano/+bug/1624365,2016-09-21
+1493448,1493448,Fix Released,All operations are perfomed with admin priveleges when 'use_user_token' is False,https://bugs.launchpad.net/glance/+bug/1493448,2016-09-21
+1532695,1532695,Fix Released,Created subnets on ONE network that duplicated CIDR  in case of neutron server active-active,https://bugs.launchpad.net/neutron/+bug/1532695,2016-09-21
+1621473,1621473,Fix Released,Update router commands for SDK change,https://bugs.launchpad.net/python-openstackclient/+bug/1621473,2016-09-21
+1622727,1622727,Fix Released,document default security groups for provisioning/cleaning networks,https://bugs.launchpad.net/ironic/+bug/1622727,2016-09-21
+1626138,1626138,Fix Released,puppet-midonet broke puppet-tripleo unit testing,https://bugs.launchpad.net/tripleo/+bug/1626138,2016-09-21
+1625083,1625083,Fix Released,[upgrade] Octane does not expecting 9.1 release in cluster data,https://bugs.launchpad.net/fuel/+bug/1625083,2016-09-21
+1622543,1622543,Fix Released,[upgrade 7-9] upgrade osd fail on validation step,https://bugs.launchpad.net/fuel/+bug/1622543,2016-09-21
+1626089,1626089,Fix Released,2 proliantutils related unit test failure when building the Debian package for 6.1.0,https://bugs.launchpad.net/ironic/+bug/1626089,2016-09-21
+1622943,1622943,Fix Released,Add CI job for env customizations check system tests,https://bugs.launchpad.net/fuel/+bug/1622943,2016-09-21
+1622916,1622916,Fix Released,"[system-tests] Extend upgrade test suite adding tests for python-cudet tool, customizations check functionality",https://bugs.launchpad.net/fuel/+bug/1622916,2016-09-21
+1626029,1626029,Fix Released,Postci fails to launch get_host_info.sh,https://bugs.launchpad.net/tripleo/+bug/1626029,2016-09-21
+1576243,1576243,Fix Released,Open libvirt socket on CI slaves,https://bugs.launchpad.net/fuel/+bug/1576243,2016-09-21
+1543785,1543785,Fix Released,Role setup is now incorrect for Heat tests,https://bugs.launchpad.net/tempest/+bug/1543785,2016-09-21
+1623595,1623595,Fix Committed,Add fuel2 commands to operate on extensions,https://bugs.launchpad.net/fuel/+bug/1623595,2016-09-21
+1612227,1612227,Fix Released,Add new CLI commands for managing cluster facts,https://bugs.launchpad.net/fuel/+bug/1612227,2016-09-21
+1614863,1614863,Fix Released,Haproxy is running on contrail nodes,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1614863,2016-09-21
+1624044,1624044,Fix Released,Add fuel2 commands to operate on extensions,https://bugs.launchpad.net/fuel/+bug/1624044,2016-09-21
+1612598,1612598,Fix Committed,Release repos list/update,https://bugs.launchpad.net/fuel/+bug/1612598,2016-09-21
+1619290,1619290,Fix Released,Release a new 'fuel2 role *' commands,https://bugs.launchpad.net/fuel/+bug/1619290,2016-09-21
+1621838,1621838,Fix Released,Added commands to manage deployment sequences,https://bugs.launchpad.net/fuel/+bug/1621838,2016-09-21
+1621807,1621807,Fix Released,Added commands to manage deployment sequences,https://bugs.launchpad.net/fuel/+bug/1621807,2016-09-21
+1612607,1612607,Fix Committed,Allow provisioning and deployment of nodes in fuel2,https://bugs.launchpad.net/fuel/+bug/1612607,2016-09-21
+1612606,1612606,Fix Committed,Add 'fuel2 release component list' command,https://bugs.launchpad.net/fuel/+bug/1612606,2016-09-21
+1612610,1612610,Fix Committed,Add fuel2 commands to undiscover nodes,https://bugs.launchpad.net/fuel/+bug/1612610,2016-09-21
+1612218,1612218,Fix Released,Add fuel2 commands to undiscover nodes,https://bugs.launchpad.net/fuel/+bug/1612218,2016-09-21
+1612151,1612151,Fix Committed,Add fuel2 commands for node interfaces and disks,https://bugs.launchpad.net/fuel/+bug/1612151,2016-09-21
+1612148,1612148,Fix Committed,Add new CLI commands for managing cluster networks and settings,https://bugs.launchpad.net/fuel/+bug/1612148,2016-09-21

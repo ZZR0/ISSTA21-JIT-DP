@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1836048,1836048,Fix Released,Rocky promotion jobs failing on tripleo-modify-image-playbook,https://bugs.launchpad.net/tripleo/+bug/1836048,2019-07-11
+1795030,1795030,Fix Released,os-collect-config hangs when journald restarts,https://bugs.launchpad.net/tripleo/+bug/1795030,2019-07-11
+1831464,1831464,Fix Released,NovaHelper.get_compute_node_by_hostname method is buggy and slow in large environments,https://bugs.launchpad.net/watcher/+bug/1831464,2019-07-11
+1835368,1835368,Fix Released,Undercloud ntp service was not upgraded,https://bugs.launchpad.net/tripleo/+bug/1835368,2019-07-11
+1831136,1831136,Fix Released,Swift-Docker: Use liberasurecode from Alpine reposiotories rather that build from source,https://bugs.launchpad.net/swift/+bug/1831136,2019-07-10
+1812969,1812969,Fix Released,catch VolumeAttachmentNotFound when attach failed,https://bugs.launchpad.net/nova/+bug/1812969,2019-07-10
+1771860,1771860,Fix Released,instance.availability_zone reports wrong az after live migration,https://bugs.launchpad.net/nova/+bug/1771860,2019-07-10
+1785425,1785425,Fix Released,tempest-full-py3 runs on test-only changes,https://bugs.launchpad.net/nova/+bug/1785425,2019-07-10
+1717547,1717547,Fix Released,Creating snapshot fails when image metadata has version field,https://bugs.launchpad.net/nova/+bug/1717547,2019-07-10
+1815949,1815949,Fix Released,missing special-case libvirt exception during device detach,https://bugs.launchpad.net/nova/+bug/1815949,2019-07-10
+1813216,1813216,Fix Released,"legacy-grenade-dsvm-neutron-multinode-live-migration failing with ""is not on shared storage: Shared storage live-migration requires either shared storage or boot-from-volume with no local disks."" since Jan 21",https://bugs.launchpad.net/nova/+bug/1813216,2019-07-10
+1803717,1803717,Fix Released,Instance snapshot fails with rbd backend,https://bugs.launchpad.net/nova/+bug/1803717,2019-07-10
+1757292,1757292,Fix Released,port binding 'migrating_to' attribute not cleaned up on failed live migration if using local shared disk,https://bugs.launchpad.net/nova/+bug/1757292,2019-07-10
+1818092,1818092,Fix Released,hypervisor check in _check_instance_has_no_numa() is broken,https://bugs.launchpad.net/nova/+bug/1818092,2019-07-10
+1595119,1595119,Fix Released,whitelist_file regex does get appended correctly with regex,https://bugs.launchpad.net/os-testr/+bug/1595119,2019-07-10
+1506215,1506215,Fix Released,--regex  and --blacklist_file does not work together,https://bugs.launchpad.net/os-testr/+bug/1506215,2019-07-10
+1798135,1798135,Fix Released,hacking url is not the latest Edit,https://bugs.launchpad.net/os-testr/+bug/1798135,2019-07-10
+1826529,1826529,Fix Released,Replace git.openstack.org URLs with opendev.org URLs,https://bugs.launchpad.net/os-testr/+bug/1826529,2019-07-10
+1835219,1835219,Fix Released,ansible-role-tripleo-modify-image  -- improve failure message when running on the wrong node,https://bugs.launchpad.net/tripleo/+bug/1835219,2019-07-10
+1665856,1665856,Fix Released,DEVSTACK_GATE_SETTINGS does not support passing arguments to settings file,https://bugs.launchpad.net/networking-ovn/+bug/1665856,2019-07-10
+1741310,1741310,Fix Released,Undercloud heat's max_json_body_size value is too low (again),https://bugs.launchpad.net/tripleo/+bug/1741310,2019-07-10
+1241806,1241806,Fix Released,Reboot operation fails if force_disk_config is switched to True after spawning,https://bugs.launchpad.net/nova/+bug/1241806,2019-07-09
+1754368,1754368,Fix Released,Fedramp requires cloud providers to use TLS v1.1 as a minimum,https://bugs.launchpad.net/tripleo/+bug/1754368,2019-07-08
+1792613,1792613,Fix Released,docker-puppet tasks can only run on the primary controller role,https://bugs.launchpad.net/tripleo/+bug/1792613,2019-07-08
+1824566,1824566,Fix Released,DVR-Nexthop static routes are not getting configured in FIP Namespace when disassociating and reassociating a FloatingIP in Ocata,https://bugs.launchpad.net/neutron/+bug/1824566,2019-07-08
+1823314,1823314,Fix Released,ha router sometime goes in standby mode in all controllers,https://bugs.launchpad.net/neutron/+bug/1823314,2019-07-08
+1741875,1741875,Fix Released,tripleo.ansible-generate-inventory fails when used during deployment/update,https://bugs.launchpad.net/tripleo/+bug/1741875,2019-07-08
+1831053,1831053,Fix Released,BMC node in periodic OVB jobs fails to retrieve metadata information,https://bugs.launchpad.net/tripleo/+bug/1831053,2019-07-08
+1764665,1764665,Fix Released,Add generic-vhost-user pluging to os-vif,https://bugs.launchpad.net/os-vif/+bug/1764665,2019-07-08
+1816648,1816648,Fix Released,kurryer renamed the job os-vif uses,https://bugs.launchpad.net/os-vif/+bug/1816648,2019-07-08
+1803723,1803723,Fix Released,[fwaas] _is_supported_by_fw_l2_driver method is hard linked to the default ML2/OVS core plugin implementation,https://bugs.launchpad.net/neutron/+bug/1803723,2019-07-08
+1796230,1796230,Fix Released,no libnetfilter-log1 package on centos,https://bugs.launchpad.net/neutron/+bug/1796230,2019-07-08
+1786413,1786413,Fix Released,Cannot load neutron_fwaas.conf by neutron-api,https://bugs.launchpad.net/neutron/+bug/1786413,2019-07-08
+1816740,1816740,Fix Released,FWaaS v2 - incorrect shared rule check,https://bugs.launchpad.net/neutron/+bug/1816740,2019-07-08
+1788759,1788759,Fix Released,Firewall Logging does not work when changing port state to UP after restarting q-l3.service,https://bugs.launchpad.net/neutron/+bug/1788759,2019-07-08
+1820325,1820325,Fix Released,Upgrading from Rocky to Stein fails on MariaDB,https://bugs.launchpad.net/kolla-ansible/+bug/1820325,2019-07-05
+1829769,1829769,Fix Released,clients no longer installed on the controllers by default,https://bugs.launchpad.net/tripleo/+bug/1829769,2019-07-05
+1824805,1824805,Fix Released,nova scheduler & compute healthchecks don't test the right port,https://bugs.launchpad.net/tripleo/+bug/1824805,2019-07-05
+1825417,1825417,Fix Released,rolling_update.yml fails in ceph-update-run.sh,https://bugs.launchpad.net/tripleo/+bug/1825417,2019-07-05
+1825339,1825339,Fix Released,heat_engine healthchecks don't test the right port,https://bugs.launchpad.net/tripleo/+bug/1825339,2019-07-05
+1823712,1823712,Fix Released,Allow NovaNfs parameters to be role specific,https://bugs.launchpad.net/tripleo/+bug/1823712,2019-07-05
+1825374,1825374,Fix Released,Overcloud with Nova NFS backend deployment failure due to InvalidSchemaError,https://bugs.launchpad.net/tripleo/+bug/1825374,2019-07-05
+1823274,1823274,Fix Released,"db purge/archive job is kicked at the same time, which can cause DB spike or lock contention",https://bugs.launchpad.net/tripleo/+bug/1823274,2019-07-05
+1826554,1826554,Fix Released,Redis bundle cannot be restarted after overcloud node reboot,https://bugs.launchpad.net/tripleo/+bug/1826554,2019-07-05
+1827273,1827273,Fix Released,Overcloud deployment with Ceph fails during TASK [Remove ceph-ansible fetch directory],https://bugs.launchpad.net/tripleo/+bug/1827273,2019-07-05
+1827276,1827276,Fix Released,deployed-server-bootstrap-rhel.sh tries to install packages that are missing in rhel8; also it's missing lvm2 package used for ceph deployments,https://bugs.launchpad.net/tripleo/+bug/1827276,2019-07-05
+1826897,1826897,Fix Released,Flattened cinder-backup templates not configuring backend driver,https://bugs.launchpad.net/tripleo/+bug/1826897,2019-07-05
+1826375,1826375,Fix Released,"(stable/stein) standalone-upgrade job fails in post-upgrade tasks for ""rmtree failed: [Errno 16] Device or resource busy: '/var/lib/docker/containers""",https://bugs.launchpad.net/tripleo/+bug/1826375,2019-07-05
+1827676,1827676,Fix Released,ntp service is still incorrectly referenced in roles and environment files,https://bugs.launchpad.net/tripleo/+bug/1827676,2019-07-05
+1827927,1827927,Fix Released,IPv6 flaps on OVS restart due to ndisc_notify settings on RHEL/CentOS,https://bugs.launchpad.net/tripleo/+bug/1827927,2019-07-05
+1827775,1827775,Fix Released,nova_wait_for_compute_service.py Failing When Supplying Multiple Options In NovaPCIPassthrough,https://bugs.launchpad.net/tripleo/+bug/1827775,2019-07-05
+1828413,1828413,Fix Released,Fix DPDK step_config input,https://bugs.launchpad.net/tripleo/+bug/1828413,2019-07-05
+1828295,1828295,Fix Released,container-puppet.py errors if the step config is empty,https://bugs.launchpad.net/tripleo/+bug/1828295,2019-07-05
+1825342,1825342,Fix Released,cinder_scheduler healthcheck don't test the right port,https://bugs.launchpad.net/tripleo/+bug/1825342,2019-07-05
+1828186,1828186,Fix Released,OVN- We have to remove the option of setting OVNTunnelEncapType: vlan,https://bugs.launchpad.net/tripleo/+bug/1828186,2019-07-05
+1828250,1828250,Fix Released,firewall rules for haproxy are broken on composable setups,https://bugs.launchpad.net/tripleo/+bug/1828250,2019-07-05
+1828893,1828893,Fix Released,undercloud-aodh.yaml incorrectly removed,https://bugs.launchpad.net/tripleo/+bug/1828893,2019-07-05
+1823841,1823841,Fix Released,[Rocky] Forward logging to haproxy.log file task failing in dry-run mode,https://bugs.launchpad.net/tripleo/+bug/1823841,2019-07-05
+1830179,1830179,Fix Released,Unable to log into overcloud BM instance when using OVN,https://bugs.launchpad.net/tripleo/+bug/1830179,2019-07-05
+1829338,1829338,Fix Released,horizon haproxy firewall rules shadows haproxy stats iptables rule,https://bugs.launchpad.net/tripleo/+bug/1829338,2019-07-05
+1830274,1830274,Fix Released,run-os-net-config.sh script fails on IPv6 hostnames,https://bugs.launchpad.net/tripleo/+bug/1830274,2019-07-05
+1830750,1830750,Fix Released,Could not fetch contents for manila-scheduler-container-puppet.yam,https://bugs.launchpad.net/tripleo/+bug/1830750,2019-07-05
+1821756,1821756,Fix Released,TripleO  should configure server_certs_key_passphrase for Octavia,https://bugs.launchpad.net/tripleo/+bug/1821756,2019-07-05
+1830334,1830334,Fix Released,haproxy stats http configuration is suboptimal,https://bugs.launchpad.net/tripleo/+bug/1830334,2019-07-05
+1831122,1831122,Fix Released,Manila deployment with NetApp fails due to missing manifest,https://bugs.launchpad.net/tripleo/+bug/1831122,2019-07-05
+1830852,1830852,Fix Released,TLS everywhere hardcode lowercase network names,https://bugs.launchpad.net/tripleo/+bug/1830852,2019-07-05
+1824777,1824777,Fix Released,Incorrect service auth URL in Octavia,https://bugs.launchpad.net/tripleo/+bug/1824777,2019-07-05
+1826729,1826729,Fix Released,"Requested MTU is too big, maximum is 1500",https://bugs.launchpad.net/tripleo/+bug/1826729,2019-07-05
+1830982,1830982,Fix Released,sshd running inside nova_migration_target overrides /var/run/sshd.pid on host with pid 1,https://bugs.launchpad.net/tripleo/+bug/1830982,2019-07-05
+1824421,1824421,Fix Released,TLS-everywhere env file has GaneshaInternal URL as DNS,https://bugs.launchpad.net/tripleo/+bug/1824421,2019-07-05
+1831745,1831745,Fix Released,Neutron Nova Placement Keystone authentication credentials should be configured,https://bugs.launchpad.net/tripleo/+bug/1831745,2019-07-05
+1831701,1831701,Fix Released,"attaching interface with q35 machine type fails with ""No mode available PCI slots""",https://bugs.launchpad.net/tripleo/+bug/1831701,2019-07-05
+1830627,1830627,Fix Released,After undercloud upgrade openvswitch-neutron-agent doesn't work when upgrading to openvswitch2.10,https://bugs.launchpad.net/tripleo/+bug/1830627,2019-07-05
+1831022,1831022,Fix Released,"Upgrade CI broken: ""image is being used by running container""",https://bugs.launchpad.net/tripleo/+bug/1831022,2019-07-05
+1831238,1831238,Fix Released,Upgrade fails on trying to clear cni0 config,https://bugs.launchpad.net/tripleo/+bug/1831238,2019-07-05

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1214276,1214276,Fix Released,ImageSizeLimitExceeded results in data leak,https://bugs.launchpad.net/glance/+bug/1214276,2013-10-17
+1194987,1194987,Fix Released,glance-api depends on the calling programs name,https://bugs.launchpad.net/glance/+bug/1194987,2013-10-17
+1175570,1175570,Fix Released,glance-manage ignores --sql_connection parameter,https://bugs.launchpad.net/glance/+bug/1175570,2013-10-17
+1209148,1209148,Fix Released,Size and checksum should be immutable for active images,https://bugs.launchpad.net/glance/+bug/1209148,2013-10-17
+1199990,1199990,Fix Released,Glance Registry: No way to use Context middleware without  keystone auth_token middleware,https://bugs.launchpad.net/glance/+bug/1199990,2013-10-17
+1199373,1199373,Fix Released,Error message not passed to exception,https://bugs.launchpad.net/glance/+bug/1199373,2013-10-17
+1198685,1198685,Fix Released,Stale process left after unit tests complete,https://bugs.launchpad.net/glance/+bug/1198685,2013-10-17
+1197472,1197472,Fix Released,glance-cache-manage usage message has incorrectly formatted defaults,https://bugs.launchpad.net/glance/+bug/1197472,2013-10-17
+1193375,1193375,Fix Released,documentation missing for recently added notifications,https://bugs.launchpad.net/glance/+bug/1193375,2013-10-17
+1193310,1193310,Fix Released,glance v2 get image erro,https://bugs.launchpad.net/glance/+bug/1193310,2013-10-17
+1192132,1192132,Fix Released,Glance sends full tracebacks to the client on 500 errors,https://bugs.launchpad.net/glance/+bug/1192132,2013-10-17
+1183860,1183860,Fix Released,Registry 500 error when listing images whose names are null,https://bugs.launchpad.net/glance/+bug/1183860,2013-10-17
+1180884,1180884,Fix Released,scrubber creates queued files containing unencrypted uris,https://bugs.launchpad.net/glance/+bug/1180884,2013-10-17
+1173380,1173380,Fix Released,Qpid notification tests not run by default,https://bugs.launchpad.net/glance/+bug/1173380,2013-10-17
+1172719,1172719,Fix Released,500 server error when admin tries to access private image uuid,https://bugs.launchpad.net/glance/+bug/1172719,2013-10-17
+1201585,1201585,Fix Released,Unused variable in glance/tests/functional/test_cache_middleware:test_cache_manage_delete_cached_images,https://bugs.launchpad.net/glance/+bug/1201585,2013-10-17
+1163012,1163012,Fix Released,glance-manage should use entry_points instead of scripts,https://bugs.launchpad.net/glance/+bug/1163012,2013-10-17
+1199364,1199364,Fix Released,Property DB operations are not consistent with the rest of the API,https://bugs.launchpad.net/glance/+bug/1199364,2013-10-17
+1197057,1197057,Fix Released,image_tag_get_all only returns not found for non-existant image in simple db,https://bugs.launchpad.net/glance/+bug/1197057,2013-10-17
+1192356,1192356,Fix Released,Tests: test_create_pool does not correctly assert anything,https://bugs.launchpad.net/glance/+bug/1192356,2013-10-17
+1187442,1187442,Fix Released,test_get_index_filter_name has unused dictionary fixture,https://bugs.launchpad.net/glance/+bug/1187442,2013-10-17
+1185055,1185055,Fix Released,Create image API  should not expose any trace when the image location is wrong,https://bugs.launchpad.net/glance/+bug/1185055,2013-10-17
+1184279,1184279,Fix Released,contenty_type is missing for some exceptions,https://bugs.launchpad.net/glance/+bug/1184279,2013-10-17
+1196275,1196275,Fix Released,unittests cannot be run without installation,https://bugs.launchpad.net/glance/+bug/1196275,2013-10-17
+1187888,1187888,Fix Released,"glance registry client searches for ""image"" endpoint when authenticating",https://bugs.launchpad.net/glance/+bug/1187888,2013-10-17
+1182824,1182824,Fix Released,Exception on running glance commands with non-ASCII arguments,https://bugs.launchpad.net/glance/+bug/1182824,2013-10-17
+1182536,1182536,Fix Released,Glance api fails to set image to active after upload when user token expires or is revoked.,https://bugs.launchpad.net/glance/+bug/1182536,2013-10-17
+1176177,1176177,Fix Released,FileSystem Store: Deleting an image that is uploading leaves data behind,https://bugs.launchpad.net/glance/+bug/1176177,2013-10-17
+1195346,1195346,Fix Released,"on deleting an image, its image_tags are not deleted",https://bugs.launchpad.net/glance/+bug/1195346,2013-10-17
+1186291,1186291,Fix Released,Functional tests shouldn't inherit from Isolate IsolatedUnitTest,https://bugs.launchpad.net/glance/+bug/1186291,2013-10-17
+1183049,1183049,Fix Released,Doing a GET on v2/images/{id}/file fails,https://bugs.launchpad.net/glance/+bug/1183049,2013-10-17
+1155389,1155389,Fix Released,Multi-tenant swift store image sharing doesn't work,https://bugs.launchpad.net/glance/+bug/1155389,2013-10-17
+1155389,1155389,Fix Released,Multi-tenant swift store image sharing doesn't work,https://bugs.launchpad.net/swift/+bug/1155389,2013-10-17
+1180565,1180565,Fix Released,rbd store does not return image size from get() or implement get_size(),https://bugs.launchpad.net/glance/+bug/1180565,2013-10-17
+1177739,1177739,Fix Released,Add documentation for supported params,https://bugs.launchpad.net/glance/+bug/1177739,2013-10-17
+1177732,1177732,Fix Released,Update documentation around is_public param,https://bugs.launchpad.net/glance/+bug/1177732,2013-10-17
+1176994,1176994,Fix Released,Enable RBD backend for location option,https://bugs.launchpad.net/glance/+bug/1176994,2013-10-17
+1175815,1175815,Fix Released,Glance returns dual version strings in 'Location' header when redirecting a '/v#' request,https://bugs.launchpad.net/glance/+bug/1175815,2013-10-17
+1172475,1172475,Fix Released,Functional tests spend too much time creating the DB,https://bugs.launchpad.net/glance/+bug/1172475,2013-10-17
+1171469,1171469,Fix Released,Glance v1 api deleting a deleted image gives 403,https://bugs.launchpad.net/glance/+bug/1171469,2013-10-17
+1166957,1166957,Fix Released,/v1.1 returns a 500 error,https://bugs.launchpad.net/glance/+bug/1166957,2013-10-17
+1153613,1153613,Fix Released,Add a policy to control setting 'location' parameter,https://bugs.launchpad.net/glance/+bug/1153613,2013-10-17
+1162933,1162933,Fix Released,Functional tests should record the logs of the services they started.,https://bugs.launchpad.net/glance/+bug/1162933,2013-10-17
+1155188,1155188,Fix Released,Add unit tests for glance.api.cached_images module,https://bugs.launchpad.net/glance/+bug/1155188,2013-10-17
+1152230,1152230,Fix Released,Improve unit tests for glance.api.v1 module,https://bugs.launchpad.net/glance/+bug/1152230,2013-10-17
+1152183,1152183,Fix Released,Improve unit tests for glance.common package,https://bugs.launchpad.net/glance/+bug/1152183,2013-10-17
+1152053,1152053,Fix Released,Improve unit tests for glance.api.middleware.cache module,https://bugs.launchpad.net/glance/+bug/1152053,2013-10-17
+1152009,1152009,Fix Released,Improve unit tests for glance.common.auth  module,https://bugs.launchpad.net/glance/+bug/1152009,2013-10-17
+1150380,1150380,Fix Released,Glance server ignores Accept-Encoding,https://bugs.launchpad.net/glance/+bug/1150380,2013-10-17
+1133094,1133094,Fix Released,"use the fact that empty sequences are false for sequences(lists,strings,tuples)",https://bugs.launchpad.net/glance/+bug/1133094,2013-10-17
+1046576,1046576,Fix Released,glance-manage should not require glance-registry.conf,https://bugs.launchpad.net/glance/+bug/1046576,2013-10-17
+1177999,1177999,Fix Released,No unittests around image data upload functionality in api/v1/images.py,https://bugs.launchpad.net/glance/+bug/1177999,2013-10-17
+1177818,1177818,Fix Released,test_mismatch_[size|checksum] incorrectly assert image data was deleted,https://bugs.launchpad.net/glance/+bug/1177818,2013-10-17
+1172220,1172220,Fix Released,Missing keyword args from several raise exception calls,https://bugs.launchpad.net/glance/+bug/1172220,2013-10-17
+1167770,1167770,Fix Released,Remove deprecated / unused configure_db function,https://bugs.launchpad.net/glance/+bug/1167770,2013-10-17
+1163722,1163722,Fix Released,Monkey patching done after logging,https://bugs.launchpad.net/glance/+bug/1163722,2013-10-17
+1158342,1158342,Fix Released,Don't import sys in glance/store/swift.py,https://bugs.launchpad.net/glance/+bug/1158342,2013-10-17
+1068051,1068051,Fix Released,Terminate the glance-api in eclipse cause Ubuntu logout,https://bugs.launchpad.net/glance/+bug/1068051,2013-10-17
+1176174,1176174,Fix Released,Deleting an image that is uploading causes a 500 on the upload request,https://bugs.launchpad.net/glance/+bug/1176174,2013-10-17
+1171851,1171851,Fix Released,scrubber prints image URI not ID,https://bugs.launchpad.net/glance/+bug/1171851,2013-10-17
+1163020,1163020,Fix Released,Unclear behavior in V1 API when deleting a pending_delete image,https://bugs.launchpad.net/glance/+bug/1163020,2013-10-17
+1162449,1162449,Fix Released,many glance config options lack help text,https://bugs.launchpad.net/glance/+bug/1162449,2013-10-17
+1160529,1160529,Fix Released,Verify SSL certificates at boot time,https://bugs.launchpad.net/glance/+bug/1160529,2013-10-17
+1160331,1160331,Fix Released,Standardize exception syntax,https://bugs.launchpad.net/glance/+bug/1160331,2013-10-17
+1158805,1158805,Fix Released,glance functional test test_scrubber_with_metadata_enc failing,https://bugs.launchpad.net/glance/+bug/1158805,2013-10-17
+1158711,1158711,Fix Released,Should raise 413 when image size exceeded,https://bugs.launchpad.net/glance/+bug/1158711,2013-10-17
+1158404,1158404,Fix Released,glance functional test test_copy_from_swift failing,https://bugs.launchpad.net/glance/+bug/1158404,2013-10-17
+1153614,1153614,Fix Released,Add a policy to control copy-from functionality,https://bugs.launchpad.net/glance/+bug/1153614,2013-10-17
+1170156,1170156,Fix Released,Forbidden 403 error while get public image from multitenant swift storage where object is chunked (larger than 5GB),https://bugs.launchpad.net/glance/+bug/1170156,2013-10-17
+1163617,1163617,Fix Released,Invalid reference to self in functional test test_scrubber.py,https://bugs.launchpad.net/glance/+bug/1163617,2013-10-17
+1157988,1157988,Fix Released,ping=pong used as a v2 option to index.,https://bugs.launchpad.net/glance/+bug/1157988,2013-10-17
+1047593,1047593,Fix Released,Fragile Test: glance.tests.functional.v1.test_api:TestApi. test_unsupported_default_store,https://bugs.launchpad.net/glance/+bug/1047593,2013-10-17
+1152716,1152716,Fix Released,Use RBAC to define admin-ness,https://bugs.launchpad.net/glance/+bug/1152716,2013-10-17
+1236676,1236676,Fix Released,update always  replaces on TemplateResource,https://bugs.launchpad.net/heat/+bug/1236676,2013-10-17
+1236177,1236177,Fix Released,Bad parameter to ConfigFilesNotFoundError,https://bugs.launchpad.net/heat/+bug/1236177,2013-10-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1864501,1864501,Fix Released,container-puppet.sh fails if SElinux is enforced and Paunch disabled,https://bugs.launchpad.net/tripleo/+bug/1864501,2020-03-30
+1833081,1833081,Fix Released,podman inspect doesn't scale for our needs,https://bugs.launchpad.net/tripleo/+bug/1833081,2020-03-30
+1831455,1831455,Fix Released,Queens: minor update fails if docker_config_scripts.yaml doesn't exist,https://bugs.launchpad.net/tripleo/+bug/1831455,2020-03-30
+1822327,1822327,Fix Released,Deployment fails when enabling TLS when with 3 controllers in 3 profiles,https://bugs.launchpad.net/tripleo/+bug/1822327,2020-03-30
+1866843,1866843,Fix Released,Missing PyYAML in tripleo-buildimage-overcloud-full-centos-7,https://bugs.launchpad.net/tripleo/+bug/1866843,2020-03-30
+1862625,1862625,Fix Released,os-lxc-container-setup.yml doesn't support idempotency,https://bugs.launchpad.net/openstack-ansible/+bug/1862625,2020-03-30
+1728886,1728886,Fix Released,test_port_security_macspoofing_port doesn't work when l2pop and arpresponding are enabled,https://bugs.launchpad.net/tripleo/+bug/1728886,2020-03-30
+1869161,1869161,Fix Released,tripleo-ci-centos-7-containers-multinode-train/stein/stein/queens failing with ERROR: Package 'python-heatclient' requires a different Python: 2.7.5 not in '>=3.6'.,https://bugs.launchpad.net/tripleo/+bug/1869161,2020-03-30
+1869586,1869586,Fix Released,2020-03-29 11:09:29 | puppet-user: Error: Could not find resource 'Service[pcsd]' for relationship from 'File[etc-pacemaker-authkey]' on node overcloud-controller-2.localdomain,https://bugs.launchpad.net/tripleo/+bug/1869586,2020-03-30
+1869174,1869174,Fix Released,tripleo-common-stable/train openstack-tox-py27 job failing with ERROR: Package 'Pygments' requires a different Python: 2.7.17 not in '>=3.5',https://bugs.launchpad.net/tripleo/+bug/1869174,2020-03-29
+1866179,1866179,Fix Released,race-condition in tempest.api.compute.servers.test_attach_interfaces.AttachInterfacesUnderV243Test.test_add_remove_fixed_ip,https://bugs.launchpad.net/tempest/+bug/1866179,2020-03-27
+1869119,1869119,Fix Released,permission denied error in diskimage_builder/lib/common-functions causing overcloud image build failures,https://bugs.launchpad.net/tripleo/+bug/1869119,2020-03-27
+1869301,1869301,Fix Released,base image fails to build due to missing nfv7-opendaylight-6-release repo,https://bugs.launchpad.net/kolla/+bug/1869301,2020-03-27
+1863009,1863009,Fix Released,os-deferred-delete restore server API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1863009,2020-03-27
+1749365,1749365,Fix Released,Tempest test  skip test because of bug to be resolved which is already resolved,https://bugs.launchpad.net/tempest/+bug/1749365,2020-03-27
+1863806,1863806,Fix Released,os-reset_status notifications are incorrect,https://bugs.launchpad.net/cinder/+bug/1863806,2020-03-27
+1547736,1547736,Fix Released,Add DNS integration support to the client,https://bugs.launchpad.net/python-openstackclient/+bug/1547736,2020-03-27
+1547736,1547736,Fix Released,Add DNS integration support to the client,https://bugs.launchpad.net/python-neutronclient/+bug/1547736,2020-03-27
+1813147,1813147,Fix Released,p35 jobs are failing with subunit.parser ... FAILED,https://bugs.launchpad.net/nova/+bug/1813147,2020-03-27
+1813147,1813147,Fix Released,p35 jobs are failing with subunit.parser ... FAILED,https://bugs.launchpad.net/glance/+bug/1813147,2020-03-27
+1869040,1869040,Fix Released,requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://auth.docker.io/token?s,https://bugs.launchpad.net/tripleo/+bug/1869040,2020-03-26
+1859864,1859864,Fix Released,vmware driver get_volume_stats revert,https://bugs.launchpad.net/cinder/+bug/1859864,2020-03-26
+1472999,1472999,Fix Released,filter doesn't handle unicode charaters,https://bugs.launchpad.net/python-novaclient/+bug/1472999,2020-03-26
+1472999,1472999,Fix Released,filter doesn't handle unicode charaters,https://bugs.launchpad.net/nova/+bug/1472999,2020-03-26
+1853805,1853805,Fix Released,"powermax/vnx manila drivers failed on py3.6 - ‘TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.’",https://bugs.launchpad.net/manila/+bug/1853805,2020-03-26
+1859785,1859785,Fix Released,share list detail slow database access,https://bugs.launchpad.net/manila/+bug/1859785,2020-03-26
+1861485,1861485,Fix Released,"[OSSA-2020-002] Unprivileged users can retrieve, use and manipulate share networks (CVE-2020-9543)",https://bugs.launchpad.net/manila/+bug/1861485,2020-03-26
+1869175,1869175,Fix Released,tripleo-build-containers-rhel-8-master errors out when applying rhel8 kolla patches,https://bugs.launchpad.net/tripleo/+bug/1869175,2020-03-26
+1710509,1710509,Fix Released,ServerMovingTests.test_evacuate sometimes fails but not always,https://bugs.launchpad.net/nova/+bug/1710509,2020-03-26
+1779328,1779328,Fix Released,Fullstack tests neutron.tests.fullstack.test_securitygroup.TestSecurityGroupsSameNetwork fails,https://bugs.launchpad.net/neutron/+bug/1779328,2020-03-26
+1851430,1851430,Fix Released,Slow metadata API performance with security groups that have a lot of rules,https://bugs.launchpad.net/nova/+bug/1851430,2020-03-25
+1868996,1868996,Fix Released,Unable to swap between RBD volumes using virDomainBlockRebase,https://bugs.launchpad.net/nova/+bug/1868996,2020-03-25
+1868079,1868079,Fix Released,puppet-neutron container failed,https://bugs.launchpad.net/tripleo/+bug/1868079,2020-03-25
+1867945,1867945,Fix Released,periodic centos8 standalone-full-tempest-tempest-master timeout,https://bugs.launchpad.net/tripleo/+bug/1867945,2020-03-25
+1868632,1868632,Fix Released,overcloud-deploy fails w/ The Workflow errored and no messages were received.,https://bugs.launchpad.net/tripleo/+bug/1868632,2020-03-25
+1867664,1867664,Fix Released,"Master periodic jobs are failing overcloud deploy with ''Container(s) with bad ExitCode: [''container-puppet-neutron''], check logs in /var/log/containers/stdouts/'",https://bugs.launchpad.net/tripleo/+bug/1867664,2020-03-25
+1817782,1817782,Fix Released,client calls bash-completion code from library calls,https://bugs.launchpad.net/python-cinderclient/+bug/1817782,2020-03-25
+1855224,1855224,Fix Released,cinder does not show bootable flag consistently when when creating a volume w/ --poll,https://bugs.launchpad.net/python-cinderclient/+bug/1855224,2020-03-25
+1457527,1457527,Fix Released,Image-cache deleting active swap backing images,https://bugs.launchpad.net/nova/+bug/1457527,2020-03-25
+1868714,1868714,Fix Released,tripleo-ceph-integration-rhel-8-scenario001-and-scenario004-standalone RETRY_LIMIT on nodeset centos-7,https://bugs.launchpad.net/tripleo/+bug/1868714,2020-03-25
+1492140,1492140,Fix Released,[OSSA-2020-001] Nova can leak consoleauth token into log files (CVE-2015-9543),https://bugs.launchpad.net/ossa/+bug/1492140,2020-03-25
+1492140,1492140,Fix Released,[OSSA-2020-001] Nova can leak consoleauth token into log files (CVE-2015-9543),https://bugs.launchpad.net/nova/+bug/1492140,2020-03-25
+1867807,1867807,Fix Released,periodic- centos-8-ovb-3ctlr_1comp-featureset001-baremetal-master fails to download tempest cirros image,https://bugs.launchpad.net/tripleo/+bug/1867807,2020-03-25
+1669080,1669080,Fix Released,"""openstack role create"" should support ""--description""",https://bugs.launchpad.net/keystone/+bug/1669080,2020-03-25
+1851362,1851362,Fix Released,[RFE] ports do not inherit their associated network's policy,https://bugs.launchpad.net/neutron/+bug/1851362,2020-03-25
+1866129,1866129,Fix Released,dnsmasq_version_supported() sometimes throws an exception,https://bugs.launchpad.net/neutron/+bug/1866129,2020-03-25
+1839674,1839674,Fix Released,ResourceTracker.compute_nodes won't try to create a ComputeNode a second time if the first create() fails,https://bugs.launchpad.net/nova/+bug/1839674,2020-03-25
+1623409,1623409,Fix Released,Error: The operation would result in removing the booted kernel,https://bugs.launchpad.net/diskimage-builder/+bug/1623409,2020-03-24
+1723026,1723026,Fix Released,[RFE]Support get device_ids from floatingips,https://bugs.launchpad.net/neutron/+bug/1723026,2020-03-24
+1720727,1720727,Fix Released,[RFE] (Operator-only) Add support 'firewall_group' for loggable resource type,https://bugs.launchpad.net/neutron/+bug/1720727,2020-03-24
+1840360,1840360,Fix Released,nova-config tag throwing error management_address' is undefined,https://bugs.launchpad.net/openstack-ansible/+bug/1840360,2020-03-24
+1868565,1868565,Fix Committed,solidfire driver fails to initialize on queens,https://bugs.launchpad.net/cinder/+bug/1868565,2020-03-24
+1703364,1703364,Fix Released,Need to support volume v2 API being disabled,https://bugs.launchpad.net/tempest/+bug/1703364,2020-03-24
+1868454,1868454,Fix Released,puppet-openstack-unit-6.11-* fails because of os_woekers_* tests failing,https://bugs.launchpad.net/puppet-openstacklib/+bug/1868454,2020-03-24
+1868074,1868074,Fix Released,Neutron ports still remain for completed pods,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1868074,2020-03-24
+1848363,1848363,Fix Released,Openvswitch: some ovs tools require ovs daemons pidfiles,https://bugs.launchpad.net/kolla-ansible/+bug/1848363,2020-03-24
+1840401,1840401,Fix Released,test_port_list_filter_by_ip has inaccurate assertions,https://bugs.launchpad.net/tempest/+bug/1840401,2020-03-24
+1812385,1812385,Fix Released,verify-config KeyError with tempest plugins,https://bugs.launchpad.net/tempest/+bug/1812385,2020-03-24
+1795463,1795463,Fix Released,pagination does not speed up list queries,https://bugs.launchpad.net/manila/+bug/1795463,2020-03-24
+1864108,1864108,Fix Released,centos-8 container builds fail in promotion on base container,https://bugs.launchpad.net/tripleo/+bug/1864108,2020-03-24
+1863893,1863893,Fix Released,[OVN] OVN LoadBalancer VIP shouldn't have addresses set,https://bugs.launchpad.net/neutron/+bug/1863893,2020-03-24
+1498433,1498433,Fix Released,'Availability zone' field isn't shown for public shares,https://bugs.launchpad.net/manila-ui/+bug/1498433,2020-03-24
+1641625,1641625,Fix Released,RFE: add more info in the k2k assertion,https://bugs.launchpad.net/keystone/+bug/1641625,2020-03-23
+1841700,1841700,Fix Released,instance ingress bandwidth limiting doesn't works in ocata.,https://bugs.launchpad.net/neutron/+bug/1841700,2020-03-23
+1848334,1848334,Fix Released,Empty volume list when creating an instance,https://bugs.launchpad.net/horizon/+bug/1848334,2020-03-23
+1563529,1563529,Fix Released,"""Boot from volume"" fails on image size restriction",https://bugs.launchpad.net/horizon/+bug/1563529,2020-03-23
+1793694,1793694,Fix Released,[Queens] evacuate fails if target is not selected,https://bugs.launchpad.net/horizon/+bug/1793694,2020-03-23
+1428687,1428687,Fix Released,Available Volume Limit label don`t counts how much resources remains,https://bugs.launchpad.net/horizon/+bug/1428687,2020-03-23
+1860614,1860614,Fix Released,[DOC] USE_SSL parameter is not a valid setting,https://bugs.launchpad.net/horizon/+bug/1860614,2020-03-23
+1836295,1836295,Fix Released,Registering 2 Dashboards breaks get_dashboards,https://bugs.launchpad.net/horizon/+bug/1836295,2020-03-23
+1823089,1823089,Fix Released,modal js code can't handle file download,https://bugs.launchpad.net/horizon/+bug/1823089,2020-03-23
+1834167,1834167,Fix Released,Kolla affected by [Explicitly set LOCALE_PATHS for Horizon apps] - compilemessages via manage.py run extra compilations,https://bugs.launchpad.net/horizon/+bug/1834167,2020-03-23
+1866632,1866632,Fix Released,AttributeError on file upload,https://bugs.launchpad.net/horizon/+bug/1866632,2020-03-23
+1865119,1865119,Fix Released,cannot customise kolla_toolbox_pip_virtualenv_package,https://bugs.launchpad.net/kolla/+bug/1865119,2020-03-23
+1862079,1862079,Fix Released,Ironic conductor container missing ssh clients needed for ansible deploy interface,https://bugs.launchpad.net/kolla/+bug/1862079,2020-03-23

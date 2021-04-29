@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1625558,1625558,Fix Released,NIC templates examples for usual custom roles,https://bugs.launchpad.net/tripleo/+bug/1625558,2019-01-22
+1620476,1620476,Fix Released,RunValidationAction fails with UnboundLocalError when identity file is missing,https://bugs.launchpad.net/tripleo/+bug/1620476,2019-01-22
+1620329,1620329,Fix Released,The network-environment validator crashes if the cidrs are missing,https://bugs.launchpad.net/tripleo/+bug/1620329,2019-01-22
+1790603,1790603,Fix Released,ovb: repo_setup.sh: line 212: NODEPOOL_CBS_CENTOS_PROXY: unbound variable,https://bugs.launchpad.net/tripleo/+bug/1790603,2019-01-22
+1787227,1787227,Fix Released,queens: syntax error in haproxy.pp,https://bugs.launchpad.net/tripleo/+bug/1787227,2019-01-22
+1614153,1614153,Fix Released,instack-undercloud: puppet-stack-config.pp breaks /etc/lvm/lvm.conf,https://bugs.launchpad.net/tripleo/+bug/1614153,2019-01-22
+1608867,1608867,Fix Released,Upgrade liberty to mitaka fails,https://bugs.launchpad.net/tripleo/+bug/1608867,2019-01-22
+1590559,1590559,Fix Released,aodh ports on undercloud are not in firewall rules in stable/mitaka,https://bugs.launchpad.net/tripleo/+bug/1590559,2019-01-22
+1590087,1590087,Fix Released,add coordination url to gnocchi config,https://bugs.launchpad.net/tripleo/+bug/1590087,2019-01-22
+1581504,1581504,Fix Released,Add Aodh to Liberty to support upgrades to mitaka,https://bugs.launchpad.net/tripleo/+bug/1581504,2019-01-22
+1567373,1567373,Fix Released,string parameter type mismatch,https://bugs.launchpad.net/heat/+bug/1567373,2019-01-22
+1541381,1541381,Fix Released,RFE: allow booting the inspector ramdisk via iPXE + UEFI,https://bugs.launchpad.net/puppet-ironic/+bug/1541381,2019-01-22
+1541381,1541381,Fix Released,RFE: allow booting the inspector ramdisk via iPXE + UEFI,https://bugs.launchpad.net/tripleo/+bug/1541381,2019-01-22
+1544150,1544150,Fix Released,Python UnicodeDecodeError in undercloud.py,https://bugs.launchpad.net/tripleo/+bug/1544150,2019-01-22
+1250866,1250866,Fix Released,"create_test_server doesn't specify default network, so fails in multi network environments",https://bugs.launchpad.net/tempest/+bug/1250866,2019-01-22
+1188218,1188218,Fix Released,Support standard ceilometer compute metrics with nova baremetal,https://bugs.launchpad.net/ceilometer/+bug/1188218,2019-01-22
+1188218,1188218,Fix Released,Support standard ceilometer compute metrics with nova baremetal,https://bugs.launchpad.net/ironic/+bug/1188218,2019-01-22
+1714281,1714281,Fix Released,change in freeipa 4.5,https://bugs.launchpad.net/novajoin/+bug/1714281,2019-01-22
+1810422,1810422,Fix Released,SELinux context is wrong after reboot for haproxy logs,https://bugs.launchpad.net/tripleo/+bug/1810422,2019-01-22
+1798138,1798138,Fix Released,hacking url is not the latest,https://bugs.launchpad.net/cloudpulse/+bug/1798138,2019-01-22
+1809114,1809114,Fix Committed,CI is failing randmly when executing snapshot test,https://bugs.launchpad.net/nova-lxd/+bug/1809114,2019-01-21
+1787399,1787399,Fix Released,Not able to upload volume to image,https://bugs.launchpad.net/karbor/+bug/1787399,2019-01-21
+1802022,1802022,Fix Released,Unit test fail due to freezerclient update,https://bugs.launchpad.net/karbor/+bug/1802022,2019-01-21
+1801920,1801920,Fix Released,api returns 500 without any useful log,https://bugs.launchpad.net/karbor/+bug/1801920,2019-01-21
+1802815,1802815,Fix Released,List objects  in file bank is not correct,https://bugs.launchpad.net/karbor/+bug/1802815,2019-01-21
+1803035,1803035,Fix Released,List checkpoints by plan and filter by start_date error,https://bugs.launchpad.net/karbor/+bug/1803035,2019-01-21
+1803409,1803409,Fix Released,List checkpoints by plan with marker not work,https://bugs.launchpad.net/karbor/+bug/1803409,2019-01-21
+1811090,1811090,Fix Released,Restore server to other cluster with non exist flavor,https://bugs.launchpad.net/karbor/+bug/1811090,2019-01-21
+1799934,1799934,Fix Released,security service misses ou parameter in manila cli,https://bugs.launchpad.net/python-manilaclient/+bug/1799934,2019-01-21
+1782277,1782277,Fix Released,blocktrans in django templates should use 'trimmed' option,https://bugs.launchpad.net/manila-ui/+bug/1782277,2019-01-21
+1786915,1786915,Fix Released,verify-config raises IndexError,https://bugs.launchpad.net/tempest/+bug/1786915,2019-01-20
+1801927,1801927,Fix Released,[RFE] Set up clouds.yaml in undercloud stack user,https://bugs.launchpad.net/tripleo/+bug/1801927,2019-01-19
+1804434,1804434,Fix Released,"podman error with nova container: stderr: standard_init_linux.go:203: exec user process caused \""no such file or directory\""",https://bugs.launchpad.net/tripleo/+bug/1804434,2019-01-18
+1812261,1812261,Fix Released,invalid dlrn_hash created for tripleo current-tripleo,https://bugs.launchpad.net/tripleo/+bug/1812261,2019-01-18
+1812264,1812264,Fix Released,getting a 404 when running dlrnapi manually,https://bugs.launchpad.net/tripleo/+bug/1812264,2019-01-18
+1805440,1805440,Fix Released,reproducer script throws a SyntaxError (python 3),https://bugs.launchpad.net/tripleo/+bug/1805440,2019-01-18
+1811113,1811113,Fix Released,DIB fails to build bionic using ubuntu-minimal (rsyslog),https://bugs.launchpad.net/diskimage-builder/+bug/1811113,2019-01-18
+1811115,1811115,Fix Released,puppet-nova-tripleo-standalone fails due to outdated python2-rfc3986 version in the nova_api container,https://bugs.launchpad.net/tripleo/+bug/1811115,2019-01-18
+1502356,1502356,Fix Released,max_fixed_ips_per_port appears to be unnecessary,https://bugs.launchpad.net/neutron/+bug/1502356,2019-01-18
+1759326,1759326,Fix Released,"Re-deployment with conf-changes is fails due to ""ValueError: The Parameter (DeployIdentifier) was not provided.""",https://bugs.launchpad.net/tripleo/+bug/1759326,2019-01-17
+1810269,1810269,Fix Released,tempest.api.compute.admin.test_agents.AgentsAdminTestJSON tests failing with Internal Server Error,https://bugs.launchpad.net/tripleo/+bug/1810269,2019-01-17
+1677163,1677163,Fix Released,Neutron DHCP L3 metadata agents restarted on ml2 config change,https://bugs.launchpad.net/kolla-ansible/+bug/1677163,2019-01-17
+1809270,1809270,Fix Released,Plugin rally-openstack installation is missing in,https://bugs.launchpad.net/rally/+bug/1809270,2019-01-17
+1611176,1611176,Fix Released,Add guidelines on the use of example URLs in the Contributor Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1611176,2019-01-17
+1812105,1812105,Fix Released,"grpc-1.18.0-x86_64-linux requires ruby version >= 2.2, which is incompatible",https://bugs.launchpad.net/tripleo/+bug/1812105,2019-01-17
+1722951,1722951,Fix Released,Container updater may be stuck and not make progress,https://bugs.launchpad.net/swift/+bug/1722951,2019-01-16
+1791637,1791637,Fix Released,tempest kuryr plugin ImportError: No module named openshift,https://bugs.launchpad.net/tripleo/+bug/1791637,2019-01-16
+1783654,1783654,Fix Released,DVR process flow not installed on physical bridge for shared tenant network,https://bugs.launchpad.net/neutron/+bug/1783654,2019-01-16
+1809023,1809023,Fix Released,ansible-lint 4.0.0 breaks TripleO,https://bugs.launchpad.net/tripleo/+bug/1809023,2019-01-16
+1810319,1810319,Fix Released,Can't set gateway for provider network,https://bugs.launchpad.net/openstack-ansible/+bug/1810319,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-octavia/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-ironic/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-gnocchi/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-barbican/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-vitrage/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-cinder/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-heat/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-ceilometer/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-manila/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-designate/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-aodh/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-monasca/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-nova/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-neutron/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-trove/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-tuskar/+bug/1468407,2019-01-16
+1468407,1468407,Fix Released,make keystone service description configurable,https://bugs.launchpad.net/puppet-swift/+bug/1468407,2019-01-16
+1804254,1804254,Fix Released,Duplicate parameters,https://bugs.launchpad.net/puppet-qdr/+bug/1804254,2019-01-16
+1804884,1804884,Fix Released,Certificate diffs should not be shown,https://bugs.launchpad.net/puppet-octavia/+bug/1804884,2019-01-16
+1804883,1804883,Fix Released,certificate folders should be created after package,https://bugs.launchpad.net/puppet-octavia/+bug/1804883,2019-01-16
+1794045,1794045,Fix Released,remove all paste related code,https://bugs.launchpad.net/puppet-keystone/+bug/1794045,2019-01-16
+1808737,1808737,Fix Released,error for endpoint,https://bugs.launchpad.net/puppet-glare/+bug/1808737,2019-01-16
+1808737,1808737,Fix Released,error for endpoint,https://bugs.launchpad.net/puppet-senlin/+bug/1808737,2019-01-16
+1790217,1790217,Fix Released,Options removed from cinder should not be added to cinder.conf,https://bugs.launchpad.net/puppet-cinder/+bug/1790217,2019-01-16
+1796096,1796096,Fix Released,"When configuring rbd backends, we miss to define the rbd_cluster_name setting",https://bugs.launchpad.net/puppet-cinder/+bug/1796096,2019-01-16

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1815478,1815478,Fix Released,"Error message 'Invalid protocol %(protocol)s for port range, only ...' is difficult to understand",https://bugs.launchpad.net/neutron/+bug/1815478,2019-04-12
+1816489,1816489,Fix Released,Functional test neutron.tests.functional.agent.l3.test_ha_router.LinuxBridgeL3HATestCase. test_ha_router_lifecycle failing,https://bugs.launchpad.net/neutron/+bug/1816489,2019-04-12
+1818335,1818335,Fix Released,Fullstack test test_dscp_marking_packets fails,https://bugs.launchpad.net/neutron/+bug/1818335,2019-04-12
+1815618,1815618,Fix Released,cannot update qos rule,https://bugs.launchpad.net/neutron/+bug/1815618,2019-04-12
+1817385,1817385,Fix Released,"When a a storagegroup is destroyed because it's empty, VNX driver doesn't recreate it upon subsequent attachment",https://bugs.launchpad.net/cinder/+bug/1817385,2019-04-12
+1817295,1817295,Fix Released,Functional NetlinkLib tests can interfere with other tests,https://bugs.launchpad.net/neutron/+bug/1817295,2019-04-12
+1805790,1805790,Fix Released,"Failed to revert a volume based on a snapshot: ""AttributeError: 'Snapshot' object has no attribute '_obj_metadata'""",https://bugs.launchpad.net/cinder/+bug/1805790,2019-04-12
+1815912,1815912,Fix Released,[OVS] exception message when retrieving bridge-id is not present,https://bugs.launchpad.net/neutron/+bug/1815912,2019-04-12
+1812404,1812404,Fix Released,test_concurrent_create_port_forwarding_update_port failed with InvalidIpForSubnet,https://bugs.launchpad.net/neutron/+bug/1812404,2019-04-12
+1789106,1789106,Fix Released,DB deadlock on worker create,https://bugs.launchpad.net/cinder/+bug/1789106,2019-04-12
+1808968,1808968,Fix Released,MSA 2050 is not registered,https://bugs.launchpad.net/cinder/+bug/1808968,2019-04-12
+1819740,1819740,Fix Released,"""test_port_ip_update_revises"" fails in py37 intermittently",https://bugs.launchpad.net/neutron/+bug/1819740,2019-04-12
+1801958,1801958,Fix Released,Service down and errors in log during image related operations,https://bugs.launchpad.net/cinder/+bug/1801958,2019-04-12
+1811369,1811369,Fix Released,Windows SMB driver regression,https://bugs.launchpad.net/cinder/+bug/1811369,2019-04-12
+1807760,1807760,Fix Released,Permission issues with NFS-backed volumes and/or backups,https://bugs.launchpad.net/cinder/+bug/1807760,2019-04-12
+1796219,1796219,Fix Released,multipathd don't  optimize reconfigure action,https://bugs.launchpad.net/kolla-ansible/+bug/1796219,2019-04-12
+1803874,1803874,Fix Released,fix a type,https://bugs.launchpad.net/kolla-ansible/+bug/1803874,2019-04-12
+1804455,1804455,Fix Released,YAML format for policy file is missing in docs,https://bugs.launchpad.net/kolla-ansible/+bug/1804455,2019-04-12
+1801435,1801435,Fix Released,"some urls is not the latest, it better be updated",https://bugs.launchpad.net/kolla/+bug/1801435,2019-04-12
+1796366,1796366,Fix Released,some roles can't support deploy separated,https://bugs.launchpad.net/kolla-ansible/+bug/1796366,2019-04-12
+1808820,1808820,Fix Released,Prometheus prechecks get broken when prechecks are raun for a deployed environment,https://bugs.launchpad.net/kolla-ansible/+bug/1808820,2019-04-12
+1808575,1808575,Fix Released,Timeout waiting for compute services,https://bugs.launchpad.net/kolla-ansible/+bug/1808575,2019-04-12
+1811716,1811716,Fix Released,murano-api doesn't find murano-engine and vice versa,https://bugs.launchpad.net/kolla-ansible/+bug/1811716,2019-04-12
+1819173,1819173,Fix Released,Bootstrap-servers broken on CentOS/RHEL with Ansible 2.6,https://bugs.launchpad.net/kolla-ansible/+bug/1819173,2019-04-12
+1791365,1791365,Fix Released,Neutron precheck for Docker MountFlags doesn't work with Docker 18.* CE,https://bugs.launchpad.net/kolla-ansible/+bug/1791365,2019-04-12
+1783268,1783268,Fix Released,neutron services do not restarts on ml2_conf change,https://bugs.launchpad.net/kolla-ansible/+bug/1783268,2019-04-12
+1821362,1821362,Fix Released,Upgraded nova-compute services fail to start new instances,https://bugs.launchpad.net/kolla-ansible/+bug/1821362,2019-04-12
+1821599,1821599,Fix Released,Bootstrap-servers sets owner and permissions recursively to kolla:kolla in /etc/kolla,https://bugs.launchpad.net/kolla-ansible/+bug/1821599,2019-04-12
+1778720,1778720,Fix Released,Error when using manila with external ceph when /volumes does not exist,https://bugs.launchpad.net/kolla-ansible/+bug/1778720,2019-04-12
+1819502,1819502,Fix Released,Manila fix_cephfs_owner.yml fails to mount cephfs,https://bugs.launchpad.net/kolla-ansible/+bug/1819502,2019-04-12
+1785574,1785574,Fix Released,Ironic inspector dnsmasq listens on wrong interface,https://bugs.launchpad.net/kolla-ansible/+bug/1785574,2019-04-12
+1761815,1761815,Fix Released,Ironic inspector dnsmasq config uses VIP for TFTP server IP,https://bugs.launchpad.net/kolla-ansible/+bug/1761815,2019-04-12
+1762805,1762805,Fix Released,ironic dnsmasq - ARP-cache injection failed,https://bugs.launchpad.net/kolla/+bug/1762805,2019-04-12
+1785201,1785201,Fix Released,Ironic is missing Cinder auth credentials,https://bugs.launchpad.net/kolla-ansible/+bug/1785201,2019-04-12
+1778107,1778107,Fix Released,Cinder external ceph volumes don't work unless nova ceph backend is enabled,https://bugs.launchpad.net/kolla-ansible/+bug/1778107,2019-04-12
+1761108,1761108,Fix Released,Manila-share prompts no permissions when creating a cephfs volume,https://bugs.launchpad.net/kolla-ansible/+bug/1761108,2019-04-12
+1816050,1816050,Fix Released,[tempest] scenario tests fail with 403 when booting service images,https://bugs.launchpad.net/manila/+bug/1816050,2019-04-12
+1815532,1815532,Fix Released,manila does not return the request ID when using shrink and extend APIs,https://bugs.launchpad.net/manila/+bug/1815532,2019-04-12
+1815700,1815700,Fix Released,Driver filter disallows using queries with share_backend_name,https://bugs.launchpad.net/manila/+bug/1815700,2019-04-12
+1811680,1811680,Fix Released,Manila allows share type deletion despite quota allocations,https://bugs.launchpad.net/manila/+bug/1811680,2019-04-12
+1786347,1786347,Fix Released,Incorrect entry point of metering iptables driver,https://bugs.launchpad.net/neutron/+bug/1786347,2019-04-12
+1746000,1746000,Fix Released,dnsmasq does not fallback on SERVFAIL,https://bugs.launchpad.net/neutron/+bug/1746000,2019-04-12
+1732456,1732456,Fix Released,dhcp agent race condition between between network_create_end and port_delete_end RPC,https://bugs.launchpad.net/neutron/+bug/1732456,2019-04-12
+1796593,1796593,Fix Released,metadata agent can't use ipv6 addresses for nova_metadata_host,https://bugs.launchpad.net/neutron/+bug/1796593,2019-04-12
+1800157,1800157,Fix Released,privsep: lack of capabilities on kernel 4.15,https://bugs.launchpad.net/neutron/+bug/1800157,2019-04-12
+1793527,1793527,Fix Released,[dvr_no_external][ha][dataplane down]centralized floating IP nat rules not install in every HA node,https://bugs.launchpad.net/neutron/+bug/1793527,2019-04-12
+1783378,1783378,Fix Released,"Following protocol 73 name change , neutron constants have to be updated too",https://bugs.launchpad.net/neutron/+bug/1783378,2019-04-12
+1687709,1687709,Fix Released,fullstack: ovs-agents remove trunk bridges that don't belong to them,https://bugs.launchpad.net/neutron/+bug/1687709,2019-04-12
+1740885,1740885,Fix Released,Security group updates fail when port hasn't been initialized yet,https://bugs.launchpad.net/neutron/+bug/1740885,2019-04-12
+1747709,1747709,Fix Released,neutron-tempest-ovsfw fails 100% times,https://bugs.launchpad.net/neutron/+bug/1747709,2019-04-12
+1715041,1715041,Fix Released,vg_thin_pool_size should be  float type,https://bugs.launchpad.net/cinder/+bug/1715041,2019-04-12
+1816694,1816694,Fix Released,python-zunclient 1.1.0 doesn't work with stable/queens server,https://bugs.launchpad.net/zun/+bug/1816694,2019-04-12
+1798823,1798823,Fix Released,Non key=value values for 'allocation candidate list --resource' produce confusing output,https://bugs.launchpad.net/placement-osc-plugin/+bug/1798823,2019-04-12
+1558812,1558812,Fix Released,[RFE] Enable adoption of an existing subnet into a subnetpool,https://bugs.launchpad.net/neutron/+bug/1558812,2019-04-12
+1813224,1813224,Fix Released,fedora28 standalone failing on tempest,https://bugs.launchpad.net/tripleo/+bug/1813224,2019-04-12
+1500400,1500400,Fix Released,Functional tests do not work with Python 3,https://bugs.launchpad.net/neutron/+bug/1500400,2019-04-12
+1674569,1674569,Fix Released,remove log translations,https://bugs.launchpad.net/neutron/+bug/1674569,2019-04-12
+1588171,1588171,Fix Released,Should update nova api version to 2.1,https://bugs.launchpad.net/searchlight/+bug/1588171,2019-04-12
+1588171,1588171,Fix Released,Should update nova api version to 2.1,https://bugs.launchpad.net/cinder/+bug/1588171,2019-04-12
+1588171,1588171,Fix Released,Should update nova api version to 2.1,https://bugs.launchpad.net/octavia/+bug/1588171,2019-04-12
+1588171,1588171,Fix Released,Should update nova api version to 2.1,https://bugs.launchpad.net/neutron/+bug/1588171,2019-04-12
+1588171,1588171,Fix Released,Should update nova api version to 2.1,https://bugs.launchpad.net/ceilometer/+bug/1588171,2019-04-12
+1588171,1588171,Fix Released,Should update nova api version to 2.1,https://bugs.launchpad.net/heat/+bug/1588171,2019-04-12
+1588171,1588171,Fix Released,Should update nova api version to 2.1,https://bugs.launchpad.net/python-openstackclient/+bug/1588171,2019-04-12
+1804131,1804131,Fix Released,"Raid creation failing for input raid_level: 1+0, 5+0 and 6+0 in redfish call",https://bugs.launchpad.net/proliantutils/+bug/1804131,2019-04-12
+1744229,1744229,Fix Released,mariadb fails to bootstrap in multinode,https://bugs.launchpad.net/kolla-ansible/+bug/1744229,2019-04-12
+1823062,1823062,Fix Released,[CI] Upgrade job broken by attempting to use C.UTF-8 locale,https://bugs.launchpad.net/tripleo/+bug/1823062,2019-04-12
+1817824,1817824,Fix Released,MariaDB resolveip fails on bootstrap server,https://bugs.launchpad.net/kolla/+bug/1817824,2019-04-12
+1738768,1738768,Fix Released,Dataplane downtime when containers are stopped/restarted,https://bugs.launchpad.net/tripleo/+bug/1738768,2019-04-12
+1785017,1785017,Fix Released,Installing Manually in panko,https://bugs.launchpad.net/panko/+bug/1785017,2019-04-12
+1813198,1813198,Fix Released,"TestNetworkBasicOps:test_subnet_details intermittently fails with ""cat: can't open '/var/run/udhcpc..pid': No such file or directory""",https://bugs.launchpad.net/tempest/+bug/1813198,2019-04-12
+1745471,1745471,Fix Released,tox.ini settings for global constraints are out of date,https://bugs.launchpad.net/placement-osc-plugin/+bug/1745471,2019-04-11
+1789649,1789649,Fix Committed,test-requirements out of date,https://bugs.launchpad.net/placement-osc-plugin/+bug/1789649,2019-04-11
+1809491,1809491,Fix Released,Image building fails when modifying undefined variables,https://bugs.launchpad.net/kolla/+bug/1809491,2019-04-11
+1822030,1822030,Fix Released,When build kafka not found the package,https://bugs.launchpad.net/kolla/+bug/1822030,2019-04-11

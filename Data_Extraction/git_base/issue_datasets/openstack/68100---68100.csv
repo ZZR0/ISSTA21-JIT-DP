@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1426448,1426448,Fix Released,Identity API spec for creating domain-config should be PUT not POST,https://bugs.launchpad.net/keystone/+bug/1426448,2015-04-30
+1426334,1426334,Fix Released,DB migration problem with federation extension,https://bugs.launchpad.net/keystone/+bug/1426334,2015-04-30
+1426310,1426310,Fix Released,The identity API spec includes examples of the email attribute,https://bugs.launchpad.net/keystone/+bug/1426310,2015-04-30
+1420141,1420141,Fix Released,Sporadic failures when testing versions,https://bugs.launchpad.net/keystone/+bug/1420141,2015-04-30
+1419853,1419853,Fix Released,TypeError with Apache and memcache_pool as cache backend,https://bugs.launchpad.net/keystone/+bug/1419853,2015-04-30
+1411478,1411478,Fix Released,Any attribute that is equal to 'TRUE' or 'FALSE' is treated as boolean by LDAP drivers,https://bugs.launchpad.net/keystone/+bug/1411478,2015-04-30
+1399768,1399768,Fix Released,migration of endpoint_filter fails due to foreign key constraint,https://bugs.launchpad.net/keystone/+bug/1399768,2015-04-30
+1427533,1427533,Fix Released,keystone logs password in log message,https://bugs.launchpad.net/keystone/+bug/1427533,2015-04-30
+1419187,1419187,Fix Released,ldap unicode issue with mapping id generator,https://bugs.launchpad.net/keystone/+bug/1419187,2015-04-30
+1419043,1419043,Fix Released,Conflict on isolated credential setup,https://bugs.launchpad.net/keystone/+bug/1419043,2015-04-30
+1407540,1407540,Fix Released,Identity driver has unused pointer to assignment,https://bugs.launchpad.net/keystone/+bug/1407540,2015-04-30
+1406721,1406721,Fix Released,RoleNotFound exception not tested for grant APIs,https://bugs.launchpad.net/keystone/+bug/1406721,2015-04-30
+1324610,1324610,Fix Released,tools/config/generate_sample.sh has no effect on OS X,https://bugs.launchpad.net/keystone/+bug/1324610,2015-04-30
+1415190,1415190,Fix Released,list_user_projects method at assignment manager needs to be removed,https://bugs.launchpad.net/keystone/+bug/1415190,2015-04-30
+1413459,1413459,Fix Released,test_ec2_list_credentials does a wrong test,https://bugs.launchpad.net/keystone/+bug/1413459,2015-04-30
+1410750,1410750,Fix Released,test_backend has an sql specific test in it,https://bugs.launchpad.net/keystone/+bug/1410750,2015-04-30
+1410748,1410748,Fix Released,Incorrectly named test in backend FilterTests,https://bugs.launchpad.net/keystone/+bug/1410748,2015-04-30
+1410170,1410170,Fix Released,obsolete help text of os_inherit,https://bugs.launchpad.net/keystone/+bug/1410170,2015-04-30
+1409205,1409205,Fix Released,Role inheritance section in configuration.rst is outdated,https://bugs.launchpad.net/keystone/+bug/1409205,2015-04-30
+1408389,1408389,Fix Released,Tests shouldn't rely on provider registration by import,https://bugs.launchpad.net/keystone/+bug/1408389,2015-04-30
+1407342,1407342,Fix Released,Incorrect comment about circular dependency in assignment manager,https://bugs.launchpad.net/keystone/+bug/1407342,2015-04-30
+1406393,1406393,Fix Released,Doc string info on exceptions incorrect for a number of assignment driver methods,https://bugs.launchpad.net/keystone/+bug/1406393,2015-04-30
+1406315,1406315,Fix Released,multiple non-working migrations,https://bugs.launchpad.net/keystone/+bug/1406315,2015-04-30
+1405710,1405710,Fix Released,contrib/endpoint_filter/backends/sql.py should not return db object,https://bugs.launchpad.net/keystone/+bug/1405710,2015-04-30
+1405673,1405673,Fix Released,db_sync downgrade from 44 to 43 fails,https://bugs.launchpad.net/keystone/+bug/1405673,2015-04-30
+1404819,1404819,Fix Released,wrong self link in the response of endpoint_groups API,https://bugs.launchpad.net/keystone/+bug/1404819,2015-04-30
+1404354,1404354,Fix Released,SAWarning using empty IN on assignment.actor_id,https://bugs.launchpad.net/keystone/+bug/1404354,2015-04-30
+1384112,1384112,Fix Released,"endpoint, service, region can not be updated when using kvs driver",https://bugs.launchpad.net/keystone/+bug/1384112,2015-04-30
+1368772,1368772,Fix Released,fakeldap search with SUBTREE scope does not return the base entry,https://bugs.launchpad.net/keystone/+bug/1368772,2015-04-30
+1417835,1417835,Fix Released,"for CADF notifications, the initiator's ID (not name) should be user_id",https://bugs.launchpad.net/keystone/+bug/1417835,2015-04-30
+1415271,1415271,Fix Released,user_enabled_attribute string support is poor,https://bugs.launchpad.net/keystone/+bug/1415271,2015-04-30
+1410182,1410182,Fix Released,project schema misses parent_id,https://bugs.launchpad.net/keystone/+bug/1410182,2015-04-30
+1408930,1408930,Fix Released,endpoint_group_update  does parameter check after updating endpoint_group,https://bugs.launchpad.net/keystone/+bug/1408930,2015-04-30
+1408658,1408658,Fix Released,migration 61 downgrade fails using mysql,https://bugs.launchpad.net/keystone/+bug/1408658,2015-04-30
+1406627,1406627,Fix Released,Inheritance info must be stored inside scope on test_v3_assignment,https://bugs.launchpad.net/keystone/+bug/1406627,2015-04-30
+1403929,1403929,Fix Released,"Improve clarity, encapsulation and performance of assignment type calculation",https://bugs.launchpad.net/keystone/+bug/1403929,2015-04-30
+1403277,1403277,Fix Released,should invalidate cache when updating catalog objects successfully,https://bugs.launchpad.net/keystone/+bug/1403277,2015-04-30
+1401108,1401108,Fix Released,Memcache pool locks on release,https://bugs.launchpad.net/keystone/+bug/1401108,2015-04-30
+1393518,1393518,Fix Released,"v3 service catalog returns services without names, but v2.0 api does not",https://bugs.launchpad.net/keystone/+bug/1393518,2015-04-30
+1416459,1416459,Fix Released,Disabling identity providers doesn't work,https://bugs.launchpad.net/keystone/+bug/1416459,2015-04-30
+1415959,1415959,Fix Released,Role cache details are actually using the assignment values,https://bugs.launchpad.net/keystone/+bug/1415959,2015-04-30
+1411411,1411411,Fix Released,keystone sample config is out of date,https://bugs.launchpad.net/keystone/+bug/1411411,2015-04-30
+1407273,1407273,Fix Released,Unit tests failing with deprecation errors setuptools 10.2,https://bugs.launchpad.net/keystone/+bug/1407273,2015-04-30
+1406826,1406826,Fix Released,master keystone.conf sample is out of sync,https://bugs.launchpad.net/keystone/+bug/1406826,2015-04-30
+1402916,1402916,Fix Released,unable to validate signature from a keystone issued SAML assertion,https://bugs.launchpad.net/keystone/+bug/1402916,2015-04-30
+1383676,1383676,Fix Released,endless loop when deleting region,https://bugs.launchpad.net/keystone/+bug/1383676,2015-04-30
+1390100,1390100,Fix Released,do not depend on protocol specific id's when creating a federation token,https://bugs.launchpad.net/keystone/+bug/1390100,2015-04-30
+1348262,1348262,Fix Released,PKI and PKIZ tokens contain unnecessary whitespace,https://bugs.launchpad.net/keystone/+bug/1348262,2015-04-30
+1394816,1394816,Fix Released,sample_data.sh does not work with default options in keystone.conf,https://bugs.launchpad.net/keystone/+bug/1394816,2015-04-30
+1390484,1390484,Fix Released,"Missing ""s"" in keystone configuration document.",https://bugs.launchpad.net/keystone/+bug/1390484,2015-04-30
+1389623,1389623,Fix Released,Duplicate code in test_v3_federation,https://bugs.launchpad.net/keystone/+bug/1389623,2015-04-30
+1389586,1389586,Fix Released,lack of debug logging for federation flows,https://bugs.launchpad.net/keystone/+bug/1389586,2015-04-30
+1389583,1389583,Fix Released,_handle_saml2_tokens() should be renamed to something more generic,https://bugs.launchpad.net/keystone/+bug/1389583,2015-04-30
+1385405,1385405,Fix Released,Domain backed by a populated read-only domain-specific LDAP identity backend cannot be deleted,https://bugs.launchpad.net/keystone/+bug/1385405,2015-04-30
+1384457,1384457,Fix Released,Self value in Link  is wrong in  GET /OS-REVOKE/events,https://bugs.launchpad.net/keystone/+bug/1384457,2015-04-30
+1384409,1384409,Fix Released,UnicodeDecodeError when trying to create a user with DEBUG logging turned on,https://bugs.launchpad.net/keystone/+bug/1384409,2015-04-30
+1380477,1380477,Fix Released,a tiny issue in docstring,https://bugs.launchpad.net/keystone/+bug/1380477,2015-04-30
+1377101,1377101,Fix Released,Obsolete deployment docs,https://bugs.launchpad.net/keystone/+bug/1377101,2015-04-30
+1367778,1367778,Fix Released,Extract Assignment related tests from IdentityTestCase,https://bugs.launchpad.net/keystone/+bug/1367778,2015-04-30
+1365147,1365147,Fix Released,No test for tokens using inherited domain role,https://bugs.launchpad.net/keystone/+bug/1365147,2015-04-30
+1177623,1177623,Fix Released,keystone reports internal error when policy.json is broken,https://bugs.launchpad.net/keystone/+bug/1177623,2015-04-30
+1401721,1401721,Fix Released,Update role using LDAP backend with same name fails,https://bugs.launchpad.net/keystone/+bug/1401721,2015-04-30
+1400565,1400565,Fix Released,ValueError when running Keystone tests,https://bugs.launchpad.net/keystone/+bug/1400565,2015-04-30
+1399857,1399857,Fix Released,delete endpoint policy returns HTTP 500,https://bugs.launchpad.net/keystone/+bug/1399857,2015-04-30
+1398470,1398470,Fix Released,sql migration helpers incorrectly inspect for FKs,https://bugs.launchpad.net/keystone/+bug/1398470,2015-04-30
+1397207,1397207,Fix Released,keystone-manage db_version --extension shows incorrect help info,https://bugs.launchpad.net/keystone/+bug/1397207,2015-04-30
+1395688,1395688,Fix Released,Memcache distributed lock ruins HA,https://bugs.launchpad.net/keystone/+bug/1395688,2015-04-30
+1395117,1395117,Fix Released,Create SAML assertion using domain scoped tokens returns 500 (Internal Server Error),https://bugs.launchpad.net/keystone/+bug/1395117,2015-04-30
+1390085,1390085,Fix Released,"if REMOTE_USER is returned from apache plugin, it shouldn't need to be mapped",https://bugs.launchpad.net/keystone/+bug/1390085,2015-04-30
+1387401,1387401,Fix Released,token_flush can hang if lots of tokens,https://bugs.launchpad.net/keystone/+bug/1387401,2015-04-30
+1386376,1386376,Fix Released,Validation parameter_type.url regex doesn't pass validation for IPv6 addresses,https://bugs.launchpad.net/keystone/+bug/1386376,2015-04-30
+1384775,1384775,Fix Released,revoke driver default should be the non-deprecated driver,https://bugs.launchpad.net/keystone/+bug/1384775,2015-04-30
+1381768,1381768,Fix Released,AttributeError: 'module' object has no attribute 'LDAP_CONTROL_PAGE_OID' with python-ldap 2.4,https://bugs.launchpad.net/keystone/+bug/1381768,2015-04-30
+1308778,1308778,Fix Released,keystone-manage ssl_setup does not overwrite existing files,https://bugs.launchpad.net/keystone/+bug/1308778,2015-04-30
+1241134,1241134,Fix Released,"Using LDAP with enabled ignored, no error when attempt to change",https://bugs.launchpad.net/keystone/+bug/1241134,2015-04-30

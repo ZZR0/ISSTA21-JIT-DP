@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1524035,1524035,Fix Released,nova.virt.block_device.DriverBlockDevice cannot save to DB if bdm passed in was not already an object,https://bugs.launchpad.net/nova/+bug/1524035,2016-01-21
+1526369,1526369,Fix Released,nova.tests.unit.virt.xenapi.test_vmops.BootableTestCase.test_set_bootable is racy on py34,https://bugs.launchpad.net/nova/+bug/1526369,2016-01-21
+1496854,1496854,Fix Released,libvirt: CPU tune bw policy not available in some linux kernels,https://bugs.launchpad.net/nova/+bug/1496854,2016-01-21
+1527881,1527881,Fix Released,To correct the using of mock in test case.,https://bugs.launchpad.net/nova/+bug/1527881,2016-01-21
+1530952,1530952,Fix Released,libvirt: should only lazy-load flavor from instance in get_disk_mapping if necessary,https://bugs.launchpad.net/nova/+bug/1530952,2016-01-21
+1532340,1532340,Fix Released,No such file or directory: '/proc/self/mounts',https://bugs.launchpad.net/nova/+bug/1532340,2016-01-21
+1532542,1532542,Fix Released,TypeError: _live_migration_copy_disk_paths() takes exactly 2 arguments (4 given),https://bugs.launchpad.net/nova/+bug/1532542,2016-01-21
+1533290,1533290,Fix Released,nova unit tests failing with os-win 0.1.0,https://bugs.launchpad.net/nova/+bug/1533290,2016-01-21
+1524643,1524643,Fix Released,port 'binding:profile' can't be removed when VM is deleted,https://bugs.launchpad.net/nova/+bug/1524643,2016-01-21
+1534837,1534837,Fix Released,AttributeError: 'LibvirtLiveMigrateData' object has no attribute 'get',https://bugs.launchpad.net/nova/+bug/1534837,2016-01-21
+1516546,1516546,Fix Released,Tag has no property 'project_id' during filtering by tags,https://bugs.launchpad.net/nova/+bug/1516546,2016-01-21
+1496846,1496846,Fix Released,Error message when using flavor not mapped to datastore contains tokens,https://bugs.launchpad.net/trove/+bug/1496846,2016-01-21
+1517194,1517194,Fix Released,mongodb cant create a database because of permissions when auth enabled,https://bugs.launchpad.net/trove/+bug/1517194,2016-01-21
+1518477,1518477,Fix Released,Fix race condition in replication backup delete,https://bugs.launchpad.net/trove/+bug/1518477,2016-01-21
+1525283,1525283,Fix Released,Refactor storage code from guestagent to common,https://bugs.launchpad.net/trove/+bug/1525283,2016-01-21
+1524993,1524993,Fix Released,guestagent unit test missing mock for write_file,https://bugs.launchpad.net/trove/+bug/1524993,2016-01-21
+1529928,1529928,Fix Released,Redis define 'device_path' cfg property,https://bugs.launchpad.net/trove/+bug/1529928,2016-01-21
+1531395,1531395,Fix Released,Meaningless default value in __get__(),https://bugs.launchpad.net/trove/+bug/1531395,2016-01-21
+1531257,1531257,Fix Released,to_gb & to_mb conversion function issues,https://bugs.launchpad.net/trove/+bug/1531257,2016-01-21
+1481979,1481979,Fix Released,Refactor code in change_permissions function for couchdb,https://bugs.launchpad.net/trove/+bug/1481979,2016-01-21
+1479523,1479523,Fix Released,Stop using debug for insecure responses,https://bugs.launchpad.net/keystone/+bug/1479523,2016-01-21
+1475091,1475091,Fix Released,It's possible to create duplicate trusts,https://bugs.launchpad.net/keystone/+bug/1475091,2016-01-21
+1434000,1434000,Fix Released,user creation without domain using admin_token should fail nicer,https://bugs.launchpad.net/keystone/+bug/1434000,2016-01-21
+1514977,1514977,Fix Released,Check if system supports TCP_KEEPIDLE,https://bugs.launchpad.net/keystone/+bug/1514977,2016-01-21
+1522433,1522433,Fix Released,API Version info incorrect for Liberty,https://bugs.launchpad.net/keystone/+bug/1522433,2016-01-21
+1418702,1418702,Fix Released,Project admin fails to list role assignments for his project with Project Scoped Token,https://bugs.launchpad.net/keystone/+bug/1418702,2016-01-21
+1506473,1506473,Fix Released,"EC2 controller should not get credentials other than the ones whose type is ""ec2""",https://bugs.launchpad.net/keystone/+bug/1506473,2016-01-21
+1513893,1513893,Fix Released,Token invalidation on project delete doesn't take into inheritance into account,https://bugs.launchpad.net/keystone/+bug/1513893,2016-01-21
+1524849,1524849,Fix Released,Cannot use trusts with fernet tokens,https://bugs.launchpad.net/keystone/+bug/1524849,2016-01-21
+1524562,1524562,Fix Released,No error raised if PUT/GET/PATCH/DELETE  domain-specific driver configuration database store with an invalid domain id,https://bugs.launchpad.net/keystone/+bug/1524562,2016-01-21
+1175686,1175686,Fix Released,Documentation doesn't explain how to install virtualenv,https://bugs.launchpad.net/keystone/+bug/1175686,2016-01-21
+1526660,1526660,Fix Released,enable os-inherit by default,https://bugs.launchpad.net/keystone/+bug/1526660,2016-01-21
+1528981,1528981,Fix Released,keystone fernet cannot work with mod wsgi anymore,https://bugs.launchpad.net/keystone/+bug/1528981,2016-01-21
+1500509,1500509,Fix Released,Define paste entrypoints,https://bugs.launchpad.net/keystone/+bug/1500509,2016-01-21
+1532536,1532536,Fix Released,OAuth1 backend implementation doesn't inherit its driver interface,https://bugs.launchpad.net/keystone/+bug/1532536,2016-01-21
+1522616,1522616,Fix Released,It's possible to disable the default domain through domain update API,https://bugs.launchpad.net/keystone/+bug/1522616,2016-01-21
+1533330,1533330,Fix Released,Some protection test cases have incorrect domain id setup,https://bugs.launchpad.net/keystone/+bug/1533330,2016-01-21
+1499841,1499841,Fix Released,"Install guide is redirecting to ""juno"" rather than ""kilo""",https://bugs.launchpad.net/keystone/+bug/1499841,2016-01-21
+1519299,1519299,Fix Released,Creating existing idp or remote_ids results to same Conflict error,https://bugs.launchpad.net/keystone/+bug/1519299,2016-01-21
+1534140,1534140,Fix Released,keystone-manage bootstrap failed to create assignment if user/project/role exists,https://bugs.launchpad.net/keystone/+bug/1534140,2016-01-21
+1526754,1526754,Fix Released,[fuel-web] Move Neutron VLAN to ML2 section on Wizard tab,https://bugs.launchpad.net/fuel/+bug/1526754,2016-01-21
+1518060,1518060,Fix Released,Failed to create queue with body {} on sqlalchemy control plane,https://bugs.launchpad.net/zaqar/+bug/1518060,2016-01-21
+1518815,1518815,Fix Released,zaqar-bench doesn't work,https://bugs.launchpad.net/zaqar/+bug/1518815,2016-01-21
+1518618,1518618,Fix Released,Tests from zaqar.tests.unit.transport.websocket.v1_1 do not execute(and fail if made executed),https://bugs.launchpad.net/zaqar/+bug/1518618,2016-01-21
+1531671,1531671,Fix Released,Websocket html client example can't process notifications,https://bugs.launchpad.net/zaqar/+bug/1531671,2016-01-21
+1523752,1523752,Fix Released,zaqar-bench should use credentials gathered from os_client_config,https://bugs.launchpad.net/zaqar/+bug/1523752,2016-01-21
+1532837,1532837,Fix Released,Can't do a message pop in websocket,https://bugs.launchpad.net/zaqar/+bug/1532837,2016-01-21
+1526428,1526428,Fix Released,Missing dependency on python cffi,https://bugs.launchpad.net/barbican/+bug/1526428,2016-01-21
+1533434,1533434,Fix Released,New p11_crypto module fails to clean up PKEKs when cache is full,https://bugs.launchpad.net/barbican/+bug/1533434,2016-01-21
+1480743,1480743,Fix Released,"installing barbican by following link ""https://wiki.openstack.org/wiki/BarbicanDevStack"" does not install barbican",https://bugs.launchpad.net/barbican/+bug/1480743,2016-01-21
+1519159,1519159,Fix Released,Barbican number of workers configuration does not work,https://bugs.launchpad.net/barbican/+bug/1519159,2016-01-21
+1535935,1535935,Fix Released,p11_crypto plugin fails to decrypt secret payloads containing certificates,https://bugs.launchpad.net/barbican/+bug/1535935,2016-01-21
+1521266,1521266,Fix Released,Debugging via pydev in PyCharm fails after change to use oslo.service,https://bugs.launchpad.net/sahara/+bug/1521266,2016-01-21
+1525172,1525172,Fix Released,[CDH]global name '_' is not defined in CDH edp_engine,https://bugs.launchpad.net/sahara/+bug/1525172,2016-01-21
+1431944,1431944,Fix Released,Swift passwords should use key manager interface,https://bugs.launchpad.net/sahara/+bug/1431944,2016-01-21
+1530282,1530282,Fix Released,Ensure default arguments are not mutable,https://bugs.launchpad.net/sahara/+bug/1530282,2016-01-21
+1530284,1530284,Fix Released,Use run_as_root instead of sudo to execute_command,https://bugs.launchpad.net/sahara/+bug/1530284,2016-01-21
+1533370,1533370,Fix Released,Bad kwarg name in cdh.commands.write_centos_repository,https://bugs.launchpad.net/sahara/+bug/1533370,2016-01-21
+1532720,1532720,Fix Released,neutron address-scope-create command help info missing  ip_version,https://bugs.launchpad.net/python-neutronclient/+bug/1532720,2016-01-21
+1499690,1499690,Fix Released,bash-completion must be added to mirrors and installed by default on master node,https://bugs.launchpad.net/fuel/+bug/1499690,2016-01-21
+1524821,1524821,Fix Released,[gate] stable/kilo dashboard CI gate is red,https://bugs.launchpad.net/murano/+bug/1524821,2016-01-21
+1536436,1536436,Fix Released,pip 8 is breaking everything in Rally,https://bugs.launchpad.net/rally/+bug/1536436,2016-01-21
+1526021,1526021,Fix Committed,Get rid of using version.yaml in jenkins-jobs,https://bugs.launchpad.net/fuel/+bug/1526021,2016-01-21
+1518268,1518268,Fix Committed,test_assign_ip_multiple_groups fails sometimes,https://bugs.launchpad.net/fuel/+bug/1518268,2016-01-21
+1527809,1527809,Fix Released,repo_build - create role based venv role in liberty branch fails,https://bugs.launchpad.net/openstack-ansible/+bug/1527809,2016-01-21
+1499719,1499719,Fix Released,Broken 8.0-kilo.all job,https://bugs.launchpad.net/fuel/+bug/1499719,2016-01-21
+1533591,1533591,Fix Released,Disallow multiple l2gw connections per l2gw,https://bugs.launchpad.net/networking-midonet/+bug/1533591,2016-01-21
+1533913,1533913,Fix Released,domains not applied to role in keystone::roles::admin,https://bugs.launchpad.net/puppet-keystone/+bug/1533913,2016-01-21
+1527384,1527384,Fix Released,[UI] Reset checkboxes on Wizard,https://bugs.launchpad.net/fuel/+bug/1527384,2016-01-21
+1532884,1532884,Fix Released,Cannot retype volume on Ceph when cinder-volume services on different nodes with different volume types,https://bugs.launchpad.net/cinder/+bug/1532884,2016-01-21
+1525286,1525286,Fix Committed,Get rid of old style artifacts in fuel-main,https://bugs.launchpad.net/fuel/+bug/1525286,2016-01-21
+1416405,1416405,Fix Released,neutron l3 high availability should be configured,https://bugs.launchpad.net/openstack-ansible/+bug/1416405,2016-01-21
+1504653,1504653,Fix Released,api module uses deprecated keystone settings,https://bugs.launchpad.net/puppet-trove/+bug/1504653,2016-01-21
+1335628,1335628,Fix Released,[mos] nova-compute fails to start due to major Ceph vs. Nova problems,https://bugs.launchpad.net/fuel/+bug/1335628,2016-01-21
+1491968,1491968,Fix Released,Enable Neutron LBaaS,https://bugs.launchpad.net/openstack-ansible/+bug/1491968,2016-01-21

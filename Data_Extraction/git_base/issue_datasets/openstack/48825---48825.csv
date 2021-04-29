@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1541201,1541201,Fix Released,deprecate pki related commands,https://bugs.launchpad.net/keystone/+bug/1541201,2016-03-03
+1519210,1519210,Fix Released,opt-out of certain notifications,https://bugs.launchpad.net/keystone/+bug/1519210,2016-03-03
+1542470,1542470,Fix Released,Correctly set oslo.log configuration default_log_levels,https://bugs.launchpad.net/keystone/+bug/1542470,2016-03-03
+1541092,1541092,Fix Released,squash migrations in preparation for mitaka,https://bugs.launchpad.net/keystone/+bug/1541092,2016-03-03
+1500631,1500631,Fix Released,support multiple LDAP URIs,https://bugs.launchpad.net/keystone/+bug/1500631,2016-03-03
+1542587,1542587,Fix Released,keystone-manage commands should use sys.exit(),https://bugs.launchpad.net/keystone/+bug/1542587,2016-03-03
+1532768,1532768,Fix Released,Missing service 'region' and endpoint name for EndpointFilterCatalog,https://bugs.launchpad.net/keystone/+bug/1532768,2016-03-03
+1534252,1534252,Fix Released,fernet tokens don't support oauth1 authentication,https://bugs.launchpad.net/keystone/+bug/1534252,2016-03-03
+1520383,1520383,Fix Released,Tests that need policy.json can never find it if run in isolation,https://bugs.launchpad.net/keystone/+bug/1520383,2016-03-03
+1535878,1535878,Fix Released,A user with a role on a project should be able to issue a GET /project call,https://bugs.launchpad.net/keystone/+bug/1535878,2016-03-03
+1473553,1473553,Fix Released,AuthContextMiddleware re-implements AdminToken,https://bugs.launchpad.net/keystone/+bug/1473553,2016-03-03
+1440107,1440107,Fix Released,Clearing up project assignments makes assumptions that domain_id != project_id,https://bugs.launchpad.net/keystone/+bug/1440107,2016-03-03
+1541540,1541540,Fix Released,"Implied role ""root_role"" config needs to be expanded",https://bugs.launchpad.net/keystone/+bug/1541540,2016-03-03
+1539240,1539240,Fix Released,create tests for trusts and implied roles,https://bugs.launchpad.net/keystone/+bug/1539240,2016-03-03
+1543318,1543318,Fix Released,Token for trust does not expand implied roles,https://bugs.launchpad.net/keystone/+bug/1543318,2016-03-03
+1528258,1528258,Fix Released,secure_proxy_ssl_header should default to HTTP_X_FORWARDED_PROTO,https://bugs.launchpad.net/keystone/+bug/1528258,2016-03-03
+1525250,1525250,Fix Released,Failure when federated user name contains non ascii characters,https://bugs.launchpad.net/keystone/+bug/1525250,2016-03-03
+1542417,1542417,Fix Released,LDAP backend lacks support for user_description_attribute mapping,https://bugs.launchpad.net/keystone/+bug/1542417,2016-03-03
+1548943,1548943,Fix Released,Passwords can no longer be null with patch (278570),https://bugs.launchpad.net/keystone/+bug/1548943,2016-03-03
+1548562,1548562,Fix Released,Misleading response when try to delete project with children,https://bugs.launchpad.net/keystone/+bug/1548562,2016-03-03
+1546562,1546562,Fix Released,deleting role with implied role fails,https://bugs.launchpad.net/keystone/+bug/1546562,2016-03-03
+1547214,1547214,Fix Released,Domain created by keystone-manage bootstrap has no description,https://bugs.launchpad.net/keystone/+bug/1547214,2016-03-03
+1440135,1440135,Fix Released,Cleaning up user/group assignments makes incorrect assumption that user_id != group_id,https://bugs.launchpad.net/keystone/+bug/1440135,2016-03-03
+1546605,1546605,Fix Released,Default domain's description references keystone v2,https://bugs.launchpad.net/keystone/+bug/1546605,2016-03-03
+1549371,1549371,Fix Released,Deprecation message when using default keystone-paste.ini,https://bugs.launchpad.net/keystone/+bug/1549371,2016-03-03
+1490571,1490571,Fix Released,Refactor use of oslo.db.sqlalchemy.session.EngineFacade because it's deprecated,https://bugs.launchpad.net/keystone/+bug/1490571,2016-03-03
+1550017,1550017,Fix Released,keystone eventlet using session is in 'prepared' state,https://bugs.launchpad.net/keystone/+bug/1550017,2016-03-03
+1551189,1551189,Fix Released,Tests don't work on leapdays,https://bugs.launchpad.net/keystone/+bug/1551189,2016-03-03
+1546189,1546189,Fix Released,Add driver details in architecture doc,https://bugs.launchpad.net/keystone/+bug/1546189,2016-03-03
+1549705,1549705,Fix Released,migrate DB failed due to password cannot be null,https://bugs.launchpad.net/keystone/+bug/1549705,2016-03-03
+1551312,1551312,Fix Released,Python unit tests don't run in a clean 15.10 environment,https://bugs.launchpad.net/keystone/+bug/1551312,2016-03-03
+1551101,1551101,Fix Released,service update catch wrong exception,https://bugs.launchpad.net/cinder/+bug/1551101,2016-03-03
+1552600,1552600,Fix Committed,project-config repo at review.infra.org cannot be pushed to,https://bugs.launchpad.net/fuel/+bug/1552600,2016-03-03
+1552520,1552520,Fix Released,Manila tempest jobs are broken - Need to switch to using tempest.lib over tempest_lib,https://bugs.launchpad.net/manila/+bug/1552520,2016-03-03
+1400217,1400217,Fix Released,L3 HA keepalived config state becomes inconsistent when managing floating ips,https://bugs.launchpad.net/neutron/+bug/1400217,2016-03-03
+1552043,1552043,Fix Released,Update to get image name from nova list command instead of hard coding,https://bugs.launchpad.net/octavia/+bug/1552043,2016-03-02
+1490160,1490160,Fix Released,Unit tests are super slow,https://bugs.launchpad.net/keystone/+bug/1490160,2016-03-02
+1552278,1552278,Fix Committed,[Fuel Gerrit] Wierd behavior of mos-infra/project-config repo and strange error in logs on Fuel Gerrit,https://bugs.launchpad.net/fuel/+bug/1552278,2016-03-02
+1551879,1551879,Fix Released,Typo Barbican project is in capital letters,https://bugs.launchpad.net/barbican/+bug/1551879,2016-03-02
+1551837,1551837,Fix Released,openstackclient generates traceback with AUTH=token_keystone,https://bugs.launchpad.net/python-ironicclient/+bug/1551837,2016-03-02
+1551946,1551946,Fix Released,Disallow regex in python client querystrings,https://bugs.launchpad.net/searchlight/+bug/1551946,2016-03-02
+1549312,1549312,Fix Released,AttributeError: PENDING_RETRY,https://bugs.launchpad.net/solar/+bug/1549312,2016-03-02
+1540287,1540287,Fix Released,Ironic client functional tests are not able to work with Keystone v3,https://bugs.launchpad.net/python-ironicclient/+bug/1540287,2016-03-02
+1544537,1544537,Fix Released,On error transport result should contain both stdout and stderr,https://bugs.launchpad.net/solar/+bug/1544537,2016-03-02
+1552299,1552299,Fix Released,Policy translation is not working,https://bugs.launchpad.net/heat-translator/+bug/1552299,2016-03-02
+1526143,1526143,Fix Released,Support display project_id and user_id for os-server-groups,https://bugs.launchpad.net/python-novaclient/+bug/1526143,2016-03-02
+1532711,1532711,Fix Released,V2 client User Warning in nova client test,https://bugs.launchpad.net/python-novaclient/+bug/1532711,2016-03-02
+1534644,1534644,Fix Released,"'Nova restore <server>' accepts only ID of server, not its name",https://bugs.launchpad.net/python-novaclient/+bug/1534644,2016-03-02
+1496180,1496180,Fix Released,nova boot --nic to accept network names,https://bugs.launchpad.net/python-novaclient/+bug/1496180,2016-03-02
+1541694,1541694,Fix Released,novaclient doesn't return all associated request_ids to user,https://bugs.launchpad.net/python-novaclient/+bug/1541694,2016-03-02
+1538073,1538073,Fix Released,image object doesn't have fault attribute,https://bugs.launchpad.net/python-novaclient/+bug/1538073,2016-03-02
+1542179,1542179,Fix Released,user get different interface to get request_ids,https://bugs.launchpad.net/python-novaclient/+bug/1542179,2016-03-02
+1510975,1510975,Fix Released,novaclient functional tests hardcoded assumptions about network setup,https://bugs.launchpad.net/python-novaclient/+bug/1510975,2016-03-02
+1550870,1550870,Fix Released,nova interface-list doesn't print anything even if the server side has returned some info,https://bugs.launchpad.net/python-novaclient/+bug/1550870,2016-03-02
+1299161,1299161,Fix Released,stack-adopt should fail for empty adopt-file,https://bugs.launchpad.net/python-heatclient/+bug/1299161,2016-03-02
+1538862,1538862,Fix Released,"heat stack-delete , config-delete and  deployment-delete should raise CommandError if  any of them failed to delete.",https://bugs.launchpad.net/python-heatclient/+bug/1538862,2016-03-02
+1539783,1539783,Fix Released,"backwards-incompatible change to ""heat output-show"" output",https://bugs.launchpad.net/python-heatclient/+bug/1539783,2016-03-02
+1546166,1546166,Fix Released,template.format.py: parse should not try to be smart about type of data to parse,https://bugs.launchpad.net/python-heatclient/+bug/1546166,2016-03-02
+1549693,1549693,Fix Committed,Remove syslinux related outdated code from fuel-main,https://bugs.launchpad.net/fuel/+bug/1549693,2016-03-02
+1268739,1268739,Fix Released,"For the Object Storage API, further describe subdir marker and delimiter",https://bugs.launchpad.net/openstack-api-site/+bug/1268739,2016-03-02
+1552059,1552059,Fix Released,regular tenants cannot validate auto-allocate requirements,https://bugs.launchpad.net/neutron/+bug/1552059,2016-03-02
+1540325,1540325,Fix Committed,[fuel packages] Remove change log section from fuel packages rpm specs,https://bugs.launchpad.net/fuel/+bug/1540325,2016-03-02
+1551659,1551659,Fix Committed,bootstrap_admin_node.sh tries to use /etc/fuel_openstack_version,https://bugs.launchpad.net/fuel/+bug/1551659,2016-03-02
+1552152,1552152,Fix Released,Error in transport when dest path does not exist,https://bugs.launchpad.net/solar/+bug/1552152,2016-03-02
+1551443,1551443,Fix Committed,[Doc] QuickStart Guide - VirtualBox Versions,https://bugs.launchpad.net/fuel/+bug/1551443,2016-03-02
+1494116,1494116,Fix Released,SessionClient doesn't have last_request_id,https://bugs.launchpad.net/python-novaclient/+bug/1494116,2016-03-02
+1552069,1552069,Fix Released,Document use of flavor and image properties,https://bugs.launchpad.net/heat-translator/+bug/1552069,2016-03-02
+1541022,1541022,Fix Released,Weird timings in stats in solar o report,https://bugs.launchpad.net/solar/+bug/1541022,2016-03-02
+1511317,1511317,Fix Released,"[testrail] Uploading of new test cases fails: testrail.APIError: TestRail API returned HTTP 400 (""Field :priority_id is not a valid priority."")",https://bugs.launchpad.net/fuel/+bug/1511317,2016-03-02
+1549326,1549326,Fix Released,If file does not exists SSHSyncTransport will stop solar-worker,https://bugs.launchpad.net/solar/+bug/1549326,2016-03-02
+1534578,1534578,Fix Released,The deploytime connectivity (ping) tests are failing in an ipv6 based deploy,https://bugs.launchpad.net/tripleo/+bug/1534578,2016-03-02
+1548624,1548624,Fix Released,NSXv3: Router interface port gets deleted at the backend even when FIP (NAT) is configured on the router from the subnet,https://bugs.launchpad.net/vmware-nsx/+bug/1548624,2016-03-02
+1312467,1312467,Fix Released,"On external networks with multiple subnets, routers need onlink routes for all subnets",https://bugs.launchpad.net/neutron/+bug/1312467,2016-03-02
+1545825,1545825,Fix Committed,[dockerctl] Race condition in check_ready function for container 'nailgun',https://bugs.launchpad.net/fuel/+bug/1545825,2016-03-02
+1539569,1539569,Fix Released,Create repository for Murano fuel plugin,https://bugs.launchpad.net/fuel/+bug/1539569,2016-03-02

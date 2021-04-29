@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1399522,1399522,Fix Released,iscsi_ilo driver fails to deploy bare metal node,https://bugs.launchpad.net/ironic/+bug/1399522,2015-04-30
+1345307,1345307,Fix Released,README file missing for barbican contrib in heat,https://bugs.launchpad.net/heat/+bug/1345307,2015-04-30
+1399463,1399463,Fix Released,Dev quickstart guide is broken on Ubuntu Trusty,https://bugs.launchpad.net/ironic/+bug/1399463,2015-04-30
+1439094,1439094,Fix Released,migrate_utils does not migrate data if created_at column does not exist,https://bugs.launchpad.net/heat/+bug/1439094,2015-04-30
+1377168,1377168,Fix Released,auth token may be expired while node is deploying,https://bugs.launchpad.net/ironic/+bug/1377168,2015-04-30
+1383436,1383436,Fix Released,Duplicate method breaks pep8,https://bugs.launchpad.net/ironic/+bug/1383436,2015-04-30
+1436128,1436128,Fix Released,template with autoscaling group gets stuck and never completes,https://bugs.launchpad.net/heat/+bug/1436128,2015-04-30
+1435415,1435415,Fix Released,heat-keystone-setup-domain should be idempotent,https://bugs.launchpad.net/heat/+bug/1435415,2015-04-30
+1434455,1434455,Fix Released,update heat unit test cases to use objects in place of db api,https://bugs.launchpad.net/heat/+bug/1434455,2015-04-30
+1434339,1434339,Fix Released,Change the num_engine_workers to greater than current 1,https://bugs.launchpad.net/heat/+bug/1434339,2015-04-30
+1434286,1434286,Fix Released,domain log WARNING should happen on engine startup,https://bugs.launchpad.net/heat/+bug/1434286,2015-04-30
+1429154,1429154,Fix Released,OS::stack_id output of nested stack not passed to parent stack correctly,https://bugs.launchpad.net/heat/+bug/1429154,2015-04-30
+1428879,1428879,Fix Released,Cannot install contrib plugins with pip,https://bugs.launchpad.net/heat/+bug/1428879,2015-04-30
+1407387,1407387,Fix Released,Allow empty 'config' for software deployment,https://bugs.launchpad.net/heat/+bug/1407387,2015-04-30
+1403445,1403445,Fix Released,"Heat returns Error 400 ""Malformed Request"" when PKIZ token without catalog is used",https://bugs.launchpad.net/heat/+bug/1403445,2015-04-30
+1390112,1390112,Fix Released,Invalid parameter defaults can't be overriden,https://bugs.launchpad.net/heat/+bug/1390112,2015-04-30
+1340126,1340126,Fix Released,Stack delete fails after wrong attribute in template,https://bugs.launchpad.net/heat/+bug/1340126,2015-04-30
+1334333,1334333,Fix Released,resume stack failed after suspend a stack at the same time  autoscaling updating the nested stack,https://bugs.launchpad.net/heat/+bug/1334333,2015-04-30
+1286157,1286157,Fix Released,Heat should use trusts by default,https://bugs.launchpad.net/heat/+bug/1286157,2015-04-30
+1440653,1440653,Fix Released,"heat_integrationtests.functional.test_autoscaling.AutoScalingSignalTest.test_signal_during_suspend fails with ""AtrributError:  outputs""",https://bugs.launchpad.net/heat/+bug/1440653,2015-04-30
+1440189,1440189,Fix Released,Neutron client plugin error when resolving attribute,https://bugs.launchpad.net/heat/+bug/1440189,2015-04-30
+1439216,1439216,Fix Released,Scheduler don't sleep before first step,https://bugs.launchpad.net/heat/+bug/1439216,2015-04-30
+1439071,1439071,Fix Released,stack-update with OS::Nova::Server resource fails when using 'network name' rather than 'network id',https://bugs.launchpad.net/heat/+bug/1439071,2015-04-30
+1437594,1437594,Fix Released,snapshot table records residual,https://bugs.launchpad.net/heat/+bug/1437594,2015-04-30
+1436121,1436121,Fix Released,functional test test_hook_pre_update_in_place is timing out,https://bugs.launchpad.net/heat/+bug/1436121,2015-04-30
+1434290,1434290,Fix Released,Invalid stack creation hangs due to Data too long for column 'status_reason',https://bugs.launchpad.net/heat/+bug/1434290,2015-04-30
+1433865,1433865,Fix Released,service does not handle multiple engine workers,https://bugs.launchpad.net/heat/+bug/1433865,2015-04-30
+1432795,1432795,Fix Released,Migration 056 does not apply cleanly if there are DELETED stacks in the DB,https://bugs.launchpad.net/heat/+bug/1432795,2015-04-30
+1428434,1428434,Fix Released,Stack deletion failed for the subnet,https://bugs.launchpad.net/heat/+bug/1428434,2015-04-30
+1422763,1422763,Fix Released,Keystone v2 wrapper does not respect region,https://bugs.launchpad.net/heat/+bug/1422763,2015-04-30
+1382320,1382320,Fix Released,Stack status IN_PROCESS will not change when restart heat service,https://bugs.launchpad.net/heat/+bug/1382320,2015-04-30
+1380629,1380629,Fix Released,Fix using obsolete oslo modules,https://bugs.launchpad.net/python-heatclient/+bug/1380629,2015-04-30
+1380629,1380629,Fix Released,Fix using obsolete oslo modules,https://bugs.launchpad.net/heat/+bug/1380629,2015-04-30
+1288970,1288970,Fix Released,tempest.api.orchestration.stacks.test_neutron_resources.NeutronResourcesTestJSON failed to reach CREATE_COMPLETE status within the required time,https://bugs.launchpad.net/heat/+bug/1288970,2015-04-30
+1288970,1288970,Fix Released,tempest.api.orchestration.stacks.test_neutron_resources.NeutronResourcesTestJSON failed to reach CREATE_COMPLETE status within the required time,https://bugs.launchpad.net/tempest/+bug/1288970,2015-04-30
+1433555,1433555,Fix Released,functional tests are taking too long and cause false failures,https://bugs.launchpad.net/heat/+bug/1433555,2015-04-30
+1432726,1432726,Fix Released,Traceback displayed regardless of debug setting,https://bugs.launchpad.net/heat/+bug/1432726,2015-04-30
+1432477,1432477,Fix Released,Stack object is missing with tag versioned-object,https://bugs.launchpad.net/heat/+bug/1432477,2015-04-30
+1431873,1431873,Fix Released,OS::Ceilometer::GnocchiMetricslarm is a typo,https://bugs.launchpad.net/heat/+bug/1431873,2015-04-30
+1431353,1431353,Fix Released,Stack object doesn't always use versioning mechanism,https://bugs.launchpad.net/heat/+bug/1431353,2015-04-30
+1431250,1431250,Fix Released,DB migration 57 failed on db2,https://bugs.launchpad.net/heat/+bug/1431250,2015-04-30
+1430197,1430197,Fix Released,docker plugin add restart policies and capability properties,https://bugs.launchpad.net/heat/+bug/1430197,2015-04-30
+1429029,1429029,Fix Released,heat db migration test cases create multiple stack with same template id,https://bugs.launchpad.net/heat/+bug/1429029,2015-04-30
+1428979,1428979,Fix Released,update multiregion stack failed,https://bugs.launchpad.net/heat/+bug/1428979,2015-04-30
+1428489,1428489,Fix Released,server network info update incorrect,https://bugs.launchpad.net/heat/+bug/1428489,2015-04-30
+1426053,1426053,Fix Released,Volume in deleting state results in detachment failure,https://bugs.launchpad.net/heat/+bug/1426053,2015-04-30
+1423174,1423174,Fix Released,Imports from oslo libraries need to be namespaceless,https://bugs.launchpad.net/heat/+bug/1423174,2015-04-30
+1421288,1421288,Fix Released,heat-manage.rst missing service list,https://bugs.launchpad.net/heat/+bug/1421288,2015-04-30
+1420367,1420367,Fix Released,Rackspace: Loadbalancer resource not exposing IP address for VIPs,https://bugs.launchpad.net/heat/+bug/1420367,2015-04-30
+1419772,1419772,Fix Released,ceilometer client is not created properly,https://bugs.launchpad.net/heat/+bug/1419772,2015-04-30
+1418950,1418950,Fix Released,Formatting issues in NeutronAutoscalingTest,https://bugs.launchpad.net/heat/+bug/1418950,2015-04-30
+1418878,1418878,Fix Released,Deleting floating ip failed when using nova-network,https://bugs.launchpad.net/heat/+bug/1418878,2015-04-30
+1418360,1418360,Fix Released,stack lock release when acquire,https://bugs.launchpad.net/heat/+bug/1418360,2015-04-30
+1406174,1406174,Fix Released,Add 'shared' property for neutron firewall,https://bugs.launchpad.net/heat/+bug/1406174,2015-04-30
+1405526,1405526,Fix Released,Add 'ha' property for OS::Neutron::Router,https://bugs.launchpad.net/heat/+bug/1405526,2015-04-30
+1331227,1331227,Fix Released,nested stack depth too low,https://bugs.launchpad.net/heat/+bug/1331227,2015-04-30
+1072957,1072957,Fix Released,"Add role to users, similar to nova's user role assignment",https://bugs.launchpad.net/heat/+bug/1072957,2015-04-30
+1428064,1428064,Fix Released,UnboundLocalError: local variables referenced before assignment in integration tests,https://bugs.launchpad.net/heat/+bug/1428064,2015-04-30
+1423189,1423189,Fix Released,Silent  traceback in unittests,https://bugs.launchpad.net/heat/+bug/1423189,2015-04-30
+1418306,1418306,Fix Released,"event-list looks odd with ""signal_COMPLETE"" instead of SIGNAL_COMPLETE",https://bugs.launchpad.net/heat/+bug/1418306,2015-04-30
+1415838,1415838,Fix Released,integration tests for adopt/abandon should skip themselves when Heat is not supproting those actions,https://bugs.launchpad.net/heat/+bug/1415838,2015-04-30
+1268438,1268438,Fix Released,Setting no gateway for subnet is not part of the api spec or doc,https://bugs.launchpad.net/heat/+bug/1268438,2015-04-30
+1440738,1440738,Fix Released,ordereddict package is no longer required,https://bugs.launchpad.net/trove/+bug/1440738,2015-04-30
+1438941,1438941,Fix Released,Use oslo util to determine network interface,https://bugs.launchpad.net/trove/+bug/1438941,2015-04-30
+1432212,1432212,Fix Released,Trove API accepts negative volume size in instance create,https://bugs.launchpad.net/trove/+bug/1432212,2015-04-30
+1297000,1297000,Fix Released,database_list shows Percona system databases,https://bugs.launchpad.net/trove/+bug/1297000,2015-04-30
+1423946,1423946,Fix Released,Error during pass 0 parameter to resource_group,https://bugs.launchpad.net/heat/+bug/1423946,2015-04-30
+1421885,1421885,Fix Released,stack queries by name or tenant are inefficient,https://bugs.launchpad.net/heat/+bug/1421885,2015-04-30
+1439963,1439963,Fix Released,New datastores missing rpc_ping in managers,https://bugs.launchpad.net/trove/+bug/1439963,2015-04-30
+1438247,1438247,Fix Released,move to nova v2 (v1.1 is deprecated),https://bugs.launchpad.net/trove/+bug/1438247,2015-04-30
+1433423,1433423,Fix Released,RHEL based distros my.cnf location,https://bugs.launchpad.net/trove/+bug/1433423,2015-04-30
+1416994,1416994,Fix Released,SoftwareDeployment does not invoke all actions defined in SoftwareComponent,https://bugs.launchpad.net/heat/+bug/1416994,2015-04-30
+1382931,1382931,Fix Released,"Resize Flavor Validation Overly Restrictive, Blocks VCPU Increase + More",https://bugs.launchpad.net/trove/+bug/1382931,2015-04-30
+1415237,1415237,Fix Released,Resource primary key should not be a UUID,https://bugs.launchpad.net/heat/+bug/1415237,2015-04-30
+1379729,1379729,Fix Released,test_tranformer unit test fails with ModelNotFoundError: InstanceServiceStatus Not Found,https://bugs.launchpad.net/trove/+bug/1379729,2015-04-30

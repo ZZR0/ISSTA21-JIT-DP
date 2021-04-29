@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1490912,1490912,Fix Released,Do not allow to modify access for public share type,https://bugs.launchpad.net/manila/+bug/1490912,2016-01-22
+1513509,1513509,Fix Released,NetApp cDOT driver should support read-only CIFS shares,https://bugs.launchpad.net/manila/+bug/1513509,2016-01-22
+1524808,1524808,Fix Released,hacking rule number is wrong,https://bugs.launchpad.net/manila/+bug/1524808,2016-01-22
+1524771,1524771,Fix Released,leverage dict comprehension in PEP-0274 to improve performance,https://bugs.launchpad.net/manila/+bug/1524771,2016-01-22
+1518996,1518996,Fix Released,Version Matching and comparison must be done consistently in manila tempest tests,https://bugs.launchpad.net/manila/+bug/1518996,2016-01-22
+1518996,1518996,Fix Released,Version Matching and comparison must be done consistently in manila tempest tests,https://bugs.launchpad.net/python-manilaclient/+bug/1518996,2016-01-22
+1527065,1527065,Fix Released,"wrong error message showing in ""manila cg-create""",https://bugs.launchpad.net/manila/+bug/1527065,2016-01-22
+1527450,1527450,Fix Released,"timeutils.strtime is deprecated, use isoformat instead",https://bugs.launchpad.net/manila/+bug/1527450,2016-01-22
+1528348,1528348,Fix Released,RequestContext is being created with user/tenant kwargs,https://bugs.launchpad.net/manila/+bug/1528348,2016-01-22
+1493951,1493951,Fix Released,NetApp cDOT driver should use Manila common capabilities,https://bugs.launchpad.net/manila/+bug/1493951,2016-01-22
+1528456,1528456,Fix Released,Manila tempest does not test expected keys while listing shares for some micro versions,https://bugs.launchpad.net/manila/+bug/1528456,2016-01-22
+1528936,1528936,Fix Released,HPE3PAR fails to find SMB share for allow access,https://bugs.launchpad.net/manila/+bug/1528936,2016-01-22
+1528983,1528983,Fix Released,failed to delete the interface in EMC VNX array,https://bugs.launchpad.net/manila/+bug/1528983,2016-01-22
+1529083,1529083,Fix Released,remove oslo-incubator code from Manila,https://bugs.launchpad.net/manila/+bug/1529083,2016-01-22
+1529092,1529092,Fix Released,wrong flake8 exception,https://bugs.launchpad.net/manila/+bug/1529092,2016-01-22
+1528203,1528203,Fix Released,Generic driver: stuck at ssh connect on check share-sever availability,https://bugs.launchpad.net/manila/+bug/1528203,2016-01-22
+1529254,1529254,Fix Released,remove unused oslo-log import,https://bugs.launchpad.net/manila/+bug/1529254,2016-01-22
+1530811,1530811,Fix Released,novaclient wrapper incorrectly handles exceptions,https://bugs.launchpad.net/manila/+bug/1530811,2016-01-22
+1529015,1529015,Fix Released,Use constants instead of literals,https://bugs.launchpad.net/manila/+bug/1529015,2016-01-22
+1506298,1506298,Fix Released,glusterfs vol based layout: Deleting a share created from snapshot should also delete its backend gluster volume,https://bugs.launchpad.net/manila/+bug/1506298,2016-01-22
+1530847,1530847,Fix Released,Gate jobs are not detaching volumes and eventually fail with no devices left,https://bugs.launchpad.net/manila/+bug/1530847,2016-01-22
+1530847,1530847,Fix Released,Gate jobs are not detaching volumes and eventually fail with no devices left,https://bugs.launchpad.net/nova/+bug/1530847,2016-01-22
+1531758,1531758,Fix Released,Tempest test failed because backend driver can not handle security service with fake data is used,https://bugs.launchpad.net/manila/+bug/1531758,2016-01-22
+1532300,1532300,Fix Released,manila dsvm jobs fail to setup horizon dashboard due to Permission Denied error on lock file,https://bugs.launchpad.net/manila/+bug/1532300,2016-01-22
+1531667,1531667,Fix Released,One of negative tempest tests for services API makes not safe assertions,https://bugs.launchpad.net/manila/+bug/1531667,2016-01-22
+1510208,1510208,Fix Released,Share instances for unmanaged shares available for listing,https://bugs.launchpad.net/manila/+bug/1510208,2016-01-22
+1531536,1531536,Fix Released,Extend and shrink share do not work for microversions >= 2.7,https://bugs.launchpad.net/manila/+bug/1531536,2016-01-22
+1532651,1532651,Fix Released,Huawei driver support both thin and thick filesystem in one storagepool.,https://bugs.launchpad.net/manila/+bug/1532651,2016-01-22
+1525860,1525860,Fix Released,"Some ""NotFound"" manila exceptions return response code 500 instead of 404",https://bugs.launchpad.net/manila/+bug/1525860,2016-01-22
+1522869,1522869,Fix Released,Failed to use standalone network base on Master branch,https://bugs.launchpad.net/manila/+bug/1522869,2016-01-22
+1534592,1534592,Fix Released,devstack fails when neutron not enabled,https://bugs.launchpad.net/manila/+bug/1534592,2016-01-22
+1528908,1528908,Fix Released,Tempest Share Client V2 access rules are using wrong action name,https://bugs.launchpad.net/manila/+bug/1528908,2016-01-22
+1534656,1534656,Fix Released,Resource cleanup for dynamically created tenant in tempest fails,https://bugs.launchpad.net/manila/+bug/1534656,2016-01-22
+1480514,1480514,Fix Released,Remove error instance fail when enable serial_consol,https://bugs.launchpad.net/nova/+bug/1480514,2016-01-22
+1517948,1517948,Fix Released,Functional tests are not running,https://bugs.launchpad.net/fuel/+bug/1517948,2016-01-22
+1517840,1517840,Fix Released,fuel-nailgun-agent broken gate,https://bugs.launchpad.net/fuel/+bug/1517840,2016-01-22
+1517900,1517900,Fix Released,Need create gate-job for testing fuel-agent,https://bugs.launchpad.net/fuel/+bug/1517900,2016-01-22
+1508897,1508897,Fix Released,Performance tests are broken after changing default network provider,https://bugs.launchpad.net/fuel/+bug/1508897,2016-01-22
+1505138,1505138,Fix Released,fuel-agent: uses wrong oslo.config module name,https://bugs.launchpad.net/fuel/+bug/1505138,2016-01-22
+1503238,1503238,Fix Released,unit tests for openstack module are broken,https://bugs.launchpad.net/fuel/+bug/1503238,2016-01-22
+1503790,1503790,Fix Released,[liberty] deployment fails at upload_cirros.rb step,https://bugs.launchpad.net/fuel/+bug/1503790,2016-01-22
+1503770,1503770,Fix Released,[liberty] Keystone didn't launch with 'ArgsAlreadyParsedError' and 'osrandom engine already registered',https://bugs.launchpad.net/fuel/+bug/1503770,2016-01-22
+1499659,1499659,Fix Released,dependency version conflict in python-fuelclient,https://bugs.launchpad.net/fuel/+bug/1499659,2016-01-22
+1499427,1499427,Fix Released,need socat for centos6 for 8.0,https://bugs.launchpad.net/fuel/+bug/1499427,2016-01-22
+1499289,1499289,Fix Released,Nailgun returns 500 if plugin tries to reserve more VIPs than available in the pool,https://bugs.launchpad.net/fuel/+bug/1499289,2016-01-22
+1498836,1498836,Fix Released,Add 'dictdiffer' (v. 0.4.0) python dependency to mirror,https://bugs.launchpad.net/fuel/+bug/1498836,2016-01-22
+1497391,1497391,Fix Released,Net config module should check connectivity,https://bugs.launchpad.net/fuel/+bug/1497391,2016-01-22
+1497148,1497148,Fix Released,"""Cannot remove role that has not been granted"" when try to delete _member_ role of heat user during deploy cluster",https://bugs.launchpad.net/fuel/+bug/1497148,2016-01-22
+1494196,1494196,Fix Released,Fuel Client unit tests fail on OS X,https://bugs.launchpad.net/fuel/+bug/1494196,2016-01-22
+1487077,1487077,Fix Released,Re-write fuel-createmirror in python,https://bugs.launchpad.net/fuel/+bug/1487077,2016-01-22
+1349702,1349702,Fix Released,Use more descriptive names for networks in Neutron,https://bugs.launchpad.net/fuel/+bug/1349702,2016-01-22
+1528149,1528149,Fix Released,Nailgun python requirements conflict with python-novaclient dependencies,https://bugs.launchpad.net/fuel/+bug/1528149,2016-01-22
+1520218,1520218,Fix Released,On Centos 7 ostf tests results are not reflected in UI,https://bugs.launchpad.net/fuel/+bug/1520218,2016-01-22
+1507685,1507685,Fix Released,Regression in openstacklib timeout behavior,https://bugs.launchpad.net/fuel/+bug/1507685,2016-01-22
+1504094,1504094,Fix Released,Openvswitch 2.3.2  RPM failed to compile in PRSTRK.,https://bugs.launchpad.net/fuel/+bug/1504094,2016-01-22
+1504002,1504002,Fix Released,error: File not found by glob: /tmp/BUILDROOT/fuel-docker-images-8.0.0-1.x86_64/var/www/nailgun/docker/utils/*,https://bugs.launchpad.net/fuel/+bug/1504002,2016-01-22
+1497933,1497933,Fix Released,pytest-2.8.0 leads to verify-fuel-library-python job fail,https://bugs.launchpad.net/fuel/+bug/1497933,2016-01-22
+1535821,1535821,Fix Released,Client not working with Python 3.4,https://bugs.launchpad.net/python-magnumclient/+bug/1535821,2016-01-22
+1534615,1534615,Fix Released,Audit & action plans api controllers - unused parameter in get_all() and detail(),https://bugs.launchpad.net/watcher/+bug/1534615,2016-01-22
+1519424,1519424,Fix Released,seedclient-wrapper threw deprecation warning to stdout,https://bugs.launchpad.net/fuel/+bug/1519424,2016-01-22
+1470789,1470789,Fix Released,Code blocks display in italics if the first character of the line is #,https://bugs.launchpad.net/openstack-manuals/+bug/1470789,2016-01-22
+1531082,1531082,Fix Released,Cluster status kept in 'RESIZING' when scaling failed,https://bugs.launchpad.net/senlin/+bug/1531082,2016-01-22
+1534600,1534600,Fix Released,unstack fails to stop ceph daemons,https://bugs.launchpad.net/devstack-plugin-ceph/+bug/1534600,2016-01-22
+1536625,1536625,Fix Released,manila :  fails to enable protocol 'cephfs' for cephfsnative driver,https://bugs.launchpad.net/devstack-plugin-ceph/+bug/1536625,2016-01-22
+1536530,1536530,Fix Released,building image is broken due to pip 8.0,https://bugs.launchpad.net/trove-integration/+bug/1536530,2016-01-22
+1534622,1534622,Fix Released,Heat configuration from Guide is not correct,https://bugs.launchpad.net/openstack-manuals/+bug/1534622,2016-01-22
+1451681,1451681,Fix Released,[launch instance] new launch instance doesn't honor webroot setting,https://bugs.launchpad.net/horizon/+bug/1451681,2016-01-21
+1493543,1493543,Fix Released,[CDH] Cluster Scale up fails on Update configs,https://bugs.launchpad.net/sahara/+bug/1493543,2016-01-21
+1488559,1488559,Fix Released,Logging authentication tokens in debug while using proxy commands or network namespaces,https://bugs.launchpad.net/sahara/+bug/1488559,2016-01-21
+1398086,1398086,Fix Released,nova servers pagination does not work with deleted marker,https://bugs.launchpad.net/nova/+bug/1398086,2016-01-21
+1284202,1284202,Fix Released,nova --debug secgroup-list --all-tenant 1 does not show all tenant when Neutron is used,https://bugs.launchpad.net/nova/+bug/1284202,2016-01-21
+1454149,1454149,Fix Released,"self._event is None that causes ""AttributeError: 'NoneType' object has no attribute 'pop'""",https://bugs.launchpad.net/nova/+bug/1454149,2016-01-21
+1423772,1423772,Fix Released,During live-migration Nova expects identical IQN from attached volume(s),https://bugs.launchpad.net/nova/+bug/1423772,2016-01-21
+1288039,1288039,Fix Released,live-migration cinder boot volume target_lun id incorrect,https://bugs.launchpad.net/nova/+bug/1288039,2016-01-21
+1487522,1487522,Fix Released,Objects: obj_reset_changes signature doesn't match,https://bugs.launchpad.net/nova/+bug/1487522,2016-01-21

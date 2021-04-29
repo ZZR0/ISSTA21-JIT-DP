@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1463980,1463980,Fix Released,MySQL related functional/fullstack jobs are always skipped,https://bugs.launchpad.net/neutron/+bug/1463980,2015-10-15
+1461486,1461486,Fix Released,Tunnel is not getting formed between Network and Compute node in non DVR mode for KVM hypervisors with l2pop enabled,https://bugs.launchpad.net/neutron/+bug/1461486,2015-10-15
+1461391,1461391,Fix Released,gazillion 'ClientException: The server has either erred or is incapable of performing the requested operation' traces,https://bugs.launchpad.net/neutron/+bug/1461391,2015-10-15
+1458119,1458119,Fix Released,Improve stability and robustness of periodic agent checks,https://bugs.launchpad.net/neutron/+bug/1458119,2015-10-15
+1452718,1452718,Fix Released,"Create sg rule or delete sg rule,  iptalbes can't be reloaded",https://bugs.launchpad.net/neutron/+bug/1452718,2015-10-15
+1452434,1452434,Fix Released,Conntrack state cleanup is also done on fixed-ips,https://bugs.launchpad.net/neutron/+bug/1452434,2015-10-15
+1451558,1451558,Fix Released,subnetpool allocation not working with postgresql,https://bugs.launchpad.net/neutron/+bug/1451558,2015-10-15
+1448813,1448813,Fix Released,"radvd running as neutron user in Kilo, attached network dead",https://bugs.launchpad.net/neutron/+bug/1448813,2015-10-15
+1448439,1448439,Fix Released,fwaas iptables driver does not work with plugins without DVR support,https://bugs.launchpad.net/neutron/+bug/1448439,2015-10-15
+1447242,1447242,Fix Released,Use of allowed-address-pairs can allow tenant to cause denial of service in shared networks,https://bugs.launchpad.net/neutron/+bug/1447242,2015-10-15
+1446784,1446784,Fix Released,VLAN Transparency and MTU advertisement coexistence problem,https://bugs.launchpad.net/neutron/+bug/1446784,2015-10-15
+1446405,1446405,Fix Released,Test discovery is broken for the api and functional paths,https://bugs.launchpad.net/neutron/+bug/1446405,2015-10-15
+1446021,1446021,Fix Released,Remove get_admin_roles in neutron/policy.py,https://bugs.launchpad.net/neutron/+bug/1446021,2015-10-15
+1445056,1445056,Fix Released,VPNaaS Functional job test module discovery,https://bugs.launchpad.net/neutron/+bug/1445056,2015-10-15
+1444146,1444146,Fix Released,Subnet creation from a subnet pool can get wrong ip_version,https://bugs.launchpad.net/neutron/+bug/1444146,2015-10-15
+1444146,1444146,Fix Released,Subnet creation from a subnet pool can get wrong ip_version,https://bugs.launchpad.net/python-neutronclient/+bug/1444146,2015-10-15
+1443798,1443798,Fix Released,Restrict netmask of CIDR to avoid DHCP resync,https://bugs.launchpad.net/neutron/+bug/1443798,2015-10-15
+1442272,1442272,Fix Released,Ovs monitor tests fail with eventlet timeout,https://bugs.launchpad.net/neutron/+bug/1442272,2015-10-15
+1442043,1442043,Fix Released,Brocade Vyatta Firewall feature impacted by L3 agent refactor,https://bugs.launchpad.net/neutron/+bug/1442043,2015-10-15
+1441382,1441382,Fix Released,IPv6 SLAAC subnet Tempest tests fail due to IntegrityError,https://bugs.launchpad.net/neutron/+bug/1441382,2015-10-15
+1441107,1441107,Fix Released,Missing entry point for haproxy namespace driver,https://bugs.launchpad.net/neutron/+bug/1441107,2015-10-15
+1438819,1438819,Fix Released,Router gets address allocation from all new gw subnets,https://bugs.launchpad.net/neutron/+bug/1438819,2015-10-15
+1438259,1438259,Fix Released,VPNaaS: remove dependency on Neutron in UT,https://bugs.launchpad.net/neutron/+bug/1438259,2015-10-15
+1433536,1433536,Fix Released,neutron service unnecessarily calls pool.dispose() on non-db services,https://bugs.launchpad.net/neutron/+bug/1433536,2015-10-15
+1424593,1424593,Fix Released,ObjectDeleted error when network already removed during rescheduling,https://bugs.launchpad.net/neutron/+bug/1424593,2015-10-15
+1417379,1417379,Fix Released,KeyError returned when subnet-update enable_dhcp to False,https://bugs.launchpad.net/neutron/+bug/1417379,2015-10-15
+1448202,1448202,Fix Released,test_set_multi_controllers_connection_mode failures,https://bugs.launchpad.net/neutron/+bug/1448202,2015-10-15
+1446261,1446261,Fix Released,gate-neutron-dsvm-functional race fails HA/DVR tests with network namespace not found,https://bugs.launchpad.net/neutron/+bug/1446261,2015-10-15
+1444201,1444201,Fix Released,change in ipset elements breaks agent,https://bugs.launchpad.net/neutron/+bug/1444201,2015-10-15
+1440183,1440183,Fix Released,DBDeadlock on subnet allocation,https://bugs.launchpad.net/neutron/+bug/1440183,2015-10-15
+1476706,1476706,Fix Released,Links in control descriptions on the settings tab are not highlighted,https://bugs.launchpad.net/fuel/+bug/1476706,2015-10-15
+1498136,1498136,Fix Released,'cinder-manage volume' has 'rpc_client' method,https://bugs.launchpad.net/cinder/+bug/1498136,2015-10-15
+1495806,1495806,Fix Released,Enhance initialize_connection in EMC VNX driver,https://bugs.launchpad.net/cinder/+bug/1495806,2015-10-15
+1494934,1494934,Fix Released,Pure create CG from CG snapshot fails with Purity REST API 1.4,https://bugs.launchpad.net/cinder/+bug/1494934,2015-10-15
+1494597,1494597,Fix Released,Relying on provider_id from database for SolidFire deletes is a bad idea,https://bugs.launchpad.net/cinder/+bug/1494597,2015-10-15
+1494459,1494459,Fix Released,PureFCDriver has unhelpful log tracing when initialize_connection is called,https://bugs.launchpad.net/cinder/+bug/1494459,2015-10-15
+1494130,1494130,Fix Released,Fix exception message mistake for all_tenants param,https://bugs.launchpad.net/cinder/+bug/1494130,2015-10-15
+1493874,1493874,Fix Released,E-Series Volume extend converts thin volumes to thick,https://bugs.launchpad.net/cinder/+bug/1493874,2015-10-15
+1493580,1493580,Fix Released,host_passes_filters KeyError: 'volume_id',https://bugs.launchpad.net/cinder/+bug/1493580,2015-10-15
+1493563,1493563,Fix Released,solidifre update_provider_info not returning a tuple,https://bugs.launchpad.net/cinder/+bug/1493563,2015-10-15
+1493546,1493546,Fix Released,HP LeftHand fails to rename volume after migrate,https://bugs.launchpad.net/cinder/+bug/1493546,2015-10-15
+1493478,1493478,Fix Released,Pure drivers should be reporting multiattach=True,https://bugs.launchpad.net/cinder/+bug/1493478,2015-10-15
+1493399,1493399,Fix Released,NetApp drivers could use wrong flexvols,https://bugs.launchpad.net/cinder/+bug/1493399,2015-10-15
+1491587,1491587,Fix Released,model_update in failover_replication is not being applied to the db model,https://bugs.launchpad.net/cinder/+bug/1491587,2015-10-15
+1491580,1491580,Fix Released,netapp_enable_multiattach default breaks backwards-compatibility,https://bugs.launchpad.net/cinder/+bug/1491580,2015-10-15
+1491485,1491485,Fix Released,SolidFire api call response checks are inconsistent and not needed,https://bugs.launchpad.net/cinder/+bug/1491485,2015-10-15
+1491210,1491210,Fix Released,KeyError in update_migrated_volume,https://bugs.launchpad.net/cinder/+bug/1491210,2015-10-15
+1490641,1490641,Fix Released,Local img-cache files ignored for image transfers--NetApp CDOT driver,https://bugs.launchpad.net/cinder/+bug/1490641,2015-10-15
+1489342,1489342,Fix Released,"Unnecessary volume_api.get(context, volume_id) calls",https://bugs.launchpad.net/cinder/+bug/1489342,2015-10-15
+1488690,1488690,Fix Released,"test_create_backing_from_stream_optimized_file fails with ""AttributeError: '_SentinelObject' object has no attribute 'readlines'""",https://bugs.launchpad.net/cinder/+bug/1488690,2015-10-15
+1487273,1487273,Fix Released,clean up project specific  version convert methods,https://bugs.launchpad.net/cinder/+bug/1487273,2015-10-15
+1487074,1487074,Fix Released,NetApp NFS driver can miss valid glance image locations,https://bugs.launchpad.net/cinder/+bug/1487074,2015-10-15
+1486359,1486359,Fix Released,Add extra param for update_migrated_volume in VNX driver,https://bugs.launchpad.net/cinder/+bug/1486359,2015-10-15
+1486326,1486326,Fix Released,Huawei driver did not change REST-URL automaticlly,https://bugs.launchpad.net/cinder/+bug/1486326,2015-10-15
+1485295,1485295,Fix Released,backup init_host cleanup volume detach should be resilient and effective,https://bugs.launchpad.net/cinder/+bug/1485295,2015-10-15
+1482030,1482030,Fix Released,Fix way of get LUN id in Huawei driver,https://bugs.launchpad.net/cinder/+bug/1482030,2015-10-15
+1479342,1479342,Fix Released,oracle zfssa iSCSI driver should return free space for non thin provisioned storage,https://bugs.launchpad.net/cinder/+bug/1479342,2015-10-15
+1477621,1477621,Fix Released,Many policies incorrectly have empty policy settings,https://bugs.launchpad.net/cinder/+bug/1477621,2015-10-15
+1468004,1468004,Fix Released,ONTAP Drivers present snapmirror targets as pools,https://bugs.launchpad.net/cinder/+bug/1468004,2015-10-15
+1465207,1465207,Fix Released,"Brocade Driver:Attaching second volume to an instance failed with ""Initiator"" as zoning policy.",https://bugs.launchpad.net/cinder/+bug/1465207,2015-10-15
+1415241,1415241,Fix Released,cinder hacking checks don't cover logging format string arg count,https://bugs.launchpad.net/cinder/+bug/1415241,2015-10-15
+1358525,1358525,Fix Released,Group test files in the right package in cinder.tests,https://bugs.launchpad.net/cinder/+bug/1358525,2015-10-15
+1496660,1496660,Fix Released,Create CG from cgsnapshot failed due to error 'LUN is migrating' with VNX driver,https://bugs.launchpad.net/cinder/+bug/1496660,2015-10-15
+1494636,1494636,Fix Released,VMware: Invalid product name in driver config,https://bugs.launchpad.net/cinder/+bug/1494636,2015-10-15
+1493905,1493905,Fix Released,Missing objects_ignore_messages entries for ConsistencyGroup object,https://bugs.launchpad.net/cinder/+bug/1493905,2015-10-15
+1492221,1492221,Fix Released,VMware: Volume creation fails with 'The operation is not allowed in the current state.',https://bugs.launchpad.net/cinder/+bug/1492221,2015-10-15
+1491834,1491834,Fix Released,VMware: Unformatted exception message,https://bugs.launchpad.net/cinder/+bug/1491834,2015-10-15
+1496747,1496747,Fix Released,Removing project access to volume type will not work after 128+ access rule,https://bugs.launchpad.net/cinder/+bug/1496747,2015-10-15
+1496154,1496154,Fix Released,cinder-all binary is broken,https://bugs.launchpad.net/cinder/+bug/1496154,2015-10-15
+1495938,1495938,Fix Released,AttributeError: 'NoneType' object has no attribute 'utcoffset',https://bugs.launchpad.net/cinder/+bug/1495938,2015-10-15
+1495247,1495247,Fix Released,SolidFire doesn't check for empty attributes,https://bugs.launchpad.net/cinder/+bug/1495247,2015-10-15
+1493856,1493856,Fix Released,db.api.snapshot_get_by_host work only with pool,https://bugs.launchpad.net/cinder/+bug/1493856,2015-10-15
+1493331,1493331,Fix Released,VMware: vCenter certificate is not verified while copying  certain images to vCenter datastores,https://bugs.launchpad.net/cinder/+bug/1493331,2015-10-15
+1492462,1492462,Fix Released,Error message in update_migrated_volume was incorrect,https://bugs.launchpad.net/cinder/+bug/1492462,2015-10-15
+1491495,1491495,Fix Released,cinderclient.quotas.get() fails against Cinder service in a Devstack,https://bugs.launchpad.net/cinder/+bug/1491495,2015-10-15

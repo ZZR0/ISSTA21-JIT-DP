@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1873782,1873782,Fix Released,nova.conf override not used from documented location,https://bugs.launchpad.net/kolla-ansible/+bug/1873782,2020-07-20
+1875618,1875618,Fix Released,octavia dose not use internal endpoint to communicate with barbican,https://bugs.launchpad.net/kolla-ansible/+bug/1875618,2020-07-20
+1877509,1877509,Fix Released,multipath requires udev-rules in host,https://bugs.launchpad.net/kolla-ansible/+bug/1877509,2020-07-20
+1878325,1878325,Fix Released,dpdk-vswitchd: some ovs tools require ovs daemons pidfiles,https://bugs.launchpad.net/kolla-ansible/+bug/1878325,2020-07-20
+1879125,1879125,Fix Released,failed to install ovs-dpdkctl service and config,https://bugs.launchpad.net/kolla-ansible/+bug/1879125,2020-07-20
+1864810,1864810,Fix Released,haproxy restarted multiple times during deploy,https://bugs.launchpad.net/kolla-ansible/+bug/1864810,2020-07-20
+1875228,1875228,Fix Released,haproxy still restarted twice,https://bugs.launchpad.net/kolla-ansible/+bug/1875228,2020-07-20
+1873744,1873744,Fix Released,cyborg agent unbuildable in Ussuri (no Cyborg in Ussuri),https://bugs.launchpad.net/kolla/+bug/1873744,2020-07-20
+1872713,1872713,Fix Released,"Windows library ""wmi"" is imported but not installed",https://bugs.launchpad.net/neutron/+bug/1872713,2020-07-20
+1884986,1884986,Fix Released,[OVN] functional test failing TestNBDbMonitorOverTcp  test_floatingip_mac_bindings,https://bugs.launchpad.net/neutron/+bug/1884986,2020-07-19
+1883730,1883730,Fix Released,Failed to create a duplicate DefaultSecurityGroup (with Calico plugin),https://bugs.launchpad.net/neutron/+bug/1883730,2020-07-18
+1886988,1886988,Fix Released,[ci] lvm jobs failing because of a reboot,https://bugs.launchpad.net/manila/+bug/1886988,2020-07-18
+1886374,1886374,Fix Released,Improve lazy loading mechanism for multiple stores,https://bugs.launchpad.net/glance/+bug/1886374,2020-07-18
+1869166,1869166,Fix Released,nftables might interfere with tripleo-firewall,https://bugs.launchpad.net/tripleo/+bug/1869166,2020-07-18
+1870095,1870095,Fix Released,keystone based standalone deployment failed with No such file or directory: ''/usr/sbin/nft',https://bugs.launchpad.net/tripleo/+bug/1870095,2020-07-18
+1817218,1817218,Fix Released,Optimize gpe segment allocation,https://bugs.launchpad.net/networking-vpp/+bug/1817218,2020-07-18
+1848286,1848286,Fix Released,octavia is not reporting metrics like lbaasv2,https://bugs.launchpad.net/ceilometer/+bug/1848286,2020-07-17
+1884242,1884242,Fix Released,unnecessary linux bridge errors in log,https://bugs.launchpad.net/networking-vpp/+bug/1884242,2020-07-17
+1884812,1884812,Fix Released,Train release compatibility,https://bugs.launchpad.net/networking-vpp/+bug/1884812,2020-07-17
+1885258,1885258,Fix Released,CinderRbdExtraPools fails with external Ceph  in tripleo-ansible,https://bugs.launchpad.net/tripleo/+bug/1885258,2020-07-17
+1883712,1883712,Fix Released,Neutron should retry http connections when notifying e.g. nova,https://bugs.launchpad.net/neutron/+bug/1883712,2020-07-17
+1813253,1813253,Fix Released,Update the processing of assigned addresses when assigning addresses,https://bugs.launchpad.net/neutron/+bug/1813253,2020-07-17
+1879307,1879307,Fix Released,Recent stable/rocky change breaks networking-calico's interface driver,https://bugs.launchpad.net/neutron/+bug/1879307,2020-07-17
+1883757,1883757,Fix Released,[SRIOV] SR-IOV agent need to have privsep configured,https://bugs.launchpad.net/neutron/+bug/1883757,2020-07-17
+1884256,1884256,Fix Released,'tox' not present on devstack based jobs,https://bugs.launchpad.net/neutron/+bug/1884256,2020-07-17
+1811405,1811405,Fix Released,OVSFWTagNotFound raised many times in neutron-openvswitch-agent logs,https://bugs.launchpad.net/neutron/+bug/1811405,2020-07-17
+1882640,1882640,Fix Released,CI failed at VM image building using diskimage-builder,https://bugs.launchpad.net/networking-spp/+bug/1882640,2020-07-17
+1866155,1866155,Fix Released,Allow to remove networks when validation is disabled,https://bugs.launchpad.net/tripleo/+bug/1866155,2020-07-17
+1884764,1884764,Fix Released,Some overcloud nodes are missing in the ansible inventory file generated for migration to ML2OVN,https://bugs.launchpad.net/neutron/+bug/1884764,2020-07-17
+1880252,1880252,Fix Released,RFE: allow regexes in blacklist and whitelist conditionals,https://bugs.launchpad.net/keystone/+bug/1880252,2020-07-16
+1886650,1886650,Fix Released,Glance client does not correctly forward global request IDs,https://bugs.launchpad.net/python-glanceclient/+bug/1886650,2020-07-16
+1887783,1887783,Fix Released,"Ussuri check/Gate jobs are failing because of missing ovn containers, Jobs failing with Error - Not found image: docker://docker.io/tripleou/centos-binary-neutron-metadata-agent-ovn""",https://bugs.launchpad.net/tripleo/+bug/1887783,2020-07-16
+1884527,1884527,Fix Released,Related dvr routers aren't created on compute nodes,https://bugs.launchpad.net/neutron/+bug/1884527,2020-07-16
+1878218,1878218,Fix Released,"""Edit Port Security Groups"" option is visible to all roles on instances in the Project section",https://bugs.launchpad.net/horizon/+bug/1878218,2020-07-16
+1883559,1883559,Fix Released,[OVN] enable_distributed_floating_ip changes are not applied for existing NAT entries,https://bugs.launchpad.net/neutron/+bug/1883559,2020-07-16
+1853372,1853372,Fix Released,Remove Python 2 testing and gate jobs,https://bugs.launchpad.net/cinderlib/+bug/1853372,2020-07-16
+1853372,1853372,Fix Released,Remove Python 2 testing and gate jobs,https://bugs.launchpad.net/cinder-tempest-plugin/+bug/1853372,2020-07-16
+1853372,1853372,Fix Released,Remove Python 2 testing and gate jobs,https://bugs.launchpad.net/python-cinderclient/+bug/1853372,2020-07-16
+1853372,1853372,Fix Released,Remove Python 2 testing and gate jobs,https://bugs.launchpad.net/cinder/+bug/1853372,2020-07-16
+1878632,1878632,Fix Released,Race condition in subnet and segment delete: The segment is still bound with port(s),https://bugs.launchpad.net/neutron/+bug/1878632,2020-07-16
+1881768,1881768,Fix Released,network default gateway can't be updated by t-h-t paramter,https://bugs.launchpad.net/tripleo/+bug/1881768,2020-07-16
+1877130,1877130,Fix Released,octavia::wsgi::apache::server_name should be octavia::wsgi::apache::servername in octavia api template,https://bugs.launchpad.net/tripleo/+bug/1877130,2020-07-16
+1882156,1882156,Fix Released,500 error going to /,https://bugs.launchpad.net/murano/+bug/1882156,2020-07-16
+1873290,1873290,Fix Released,[OSSA-2020-005] OAuth1 request token authorize silently ignores roles parameter (CVE-2020-12690),https://bugs.launchpad.net/keystone/+bug/1873290,2020-07-16
+1873290,1873290,Fix Released,[OSSA-2020-005] OAuth1 request token authorize silently ignores roles parameter (CVE-2020-12690),https://bugs.launchpad.net/ossa/+bug/1873290,2020-07-16
+1827431,1827431,Fix Released,add user option to ignore user inactivity period,https://bugs.launchpad.net/keystone/+bug/1827431,2020-07-15
+1840136,1840136,Fix Released,[RFE] Add new config option to enable IGMP snooping in ovs,https://bugs.launchpad.net/neutron/+bug/1840136,2020-07-15
+1886680,1886680,Fix Released,centos8 ussuri undercloud upgrades UNKNOWN_RELEASE.yml,https://bugs.launchpad.net/tripleo/+bug/1886680,2020-07-15
+1787736,1787736,Fix Released,[dashboard] neutron-lbaas is deprecated,https://bugs.launchpad.net/openstack-chef/+bug/1787736,2020-07-15
+1848342,1848342,Fix Released,Duplicated entries in users API,https://bugs.launchpad.net/keystone/+bug/1848342,2020-07-15
+1880545,1880545,Fix Released,404 in Mistral workflows,https://bugs.launchpad.net/tacker/+bug/1880545,2020-07-15
+1879962,1879962,Fix Released,Incorrect document link,https://bugs.launchpad.net/tacker/+bug/1879962,2020-07-15
+1885723,1885723,Fix Released,test_list_containers fails because of missing Accept-Range header in the response,https://bugs.launchpad.net/tempest/+bug/1885723,2020-07-15
+1850264,1850264,Fix Released,Add asynchronous error info into messages when share extend error,https://bugs.launchpad.net/manila/+bug/1850264,2020-07-15
+1883513,1883513,Fix Released,Adding a third DHCP agent to the network fails due to binding index error,https://bugs.launchpad.net/neutron/+bug/1883513,2020-07-15
+1886164,1886164,Fix Released,Creating 2 backends with the same name creates a mess,https://bugs.launchpad.net/cinderlib/+bug/1886164,2020-07-14
+1885291,1885291,Fix Released,RBD: running as non-root complains about missing root_helper,https://bugs.launchpad.net/cinderlib/+bug/1885291,2020-07-14
+1885302,1885302,Fix Released,Incorrectly thinking that it's running in a container,https://bugs.launchpad.net/cinderlib/+bug/1885302,2020-07-14
+1873312,1873312,Fix Released,RBD attach fails on Python 3 when running as root,https://bugs.launchpad.net/cinderlib/+bug/1873312,2020-07-14
+1876102,1876102,Fix Released,the config type defined error in barbican_key_manager,https://bugs.launchpad.net/castellan/+bug/1876102,2020-07-14
+1886829,1886829,Fix Released,"Error: 'rabbitmqctl status | grep -F ""{rabbit,""' returned 1 instead of one of [0] failing scenario004-standalone-train job",https://bugs.launchpad.net/tripleo/+bug/1886829,2020-07-14
+1880936,1880936,Fix Released,keystone overcloud deployment fails,https://bugs.launchpad.net/tripleo/+bug/1880936,2020-07-14
+1887151,1887151,Fix Released,Incorrect document link in Tacker Manual Installation,https://bugs.launchpad.net/tacker/+bug/1887151,2020-07-14
+1886878,1886878,Fix Released,ansible-role-collect-logs is not getting all the right files into the logstash,https://bugs.launchpad.net/tripleo/+bug/1886878,2020-07-14
+1886905,1886905,Fix Released,KeyError raised if max hostname length exceeded.,https://bugs.launchpad.net/openstack-ansible/+bug/1886905,2020-07-13
+1885924,1885924,Fix Released,Ansible shell module should detect return code on multiline,https://bugs.launchpad.net/tripleo/+bug/1885924,2020-07-13
+1699856,1699856,Fix Released,Tempest tests missing adding Security service to share-network,https://bugs.launchpad.net/manila/+bug/1699856,2020-07-13
+1887167,1887167,Fix Released,NP CRD unable to be patched because of missing sg rule ID,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1887167,2020-07-13
+1868145,1868145,Fix Released,The DBMS plugin cannot start with N+1 DB version,https://bugs.launchpad.net/cinderlib/+bug/1868145,2020-07-13
+1688673,1688673,Fix Released,cpu_realtime_mask handling is not intuitive,https://bugs.launchpad.net/nova/+bug/1688673,2020-07-13
+1886862,1886862,Fix Released,"Compute component pipeline tests are failing standalone deployment with ""Failed container(s): ['nova_wait_for_compute_service']"" - module 'os_traits' has no attribute 'HW_CPU_X86_AVX512VBMI'",https://bugs.launchpad.net/tripleo/+bug/1886862,2020-07-13
+1721432,1721432,Fix Released,TypeError: __init__() got an unexpected keyword argument 'project' in Designate,https://bugs.launchpad.net/masakari/+bug/1721432,2020-07-13
+1721432,1721432,Fix Released,TypeError: __init__() got an unexpected keyword argument 'project' in Designate,https://bugs.launchpad.net/designate/+bug/1721432,2020-07-13
+1721432,1721432,Fix Released,TypeError: __init__() got an unexpected keyword argument 'project' in Designate,https://bugs.launchpad.net/congress/+bug/1721432,2020-07-13
+1887146,1887146,Fix Released,Periodic Centos8 Scenario007 failing because neutron_ovs_agent failed with error: /usr/bin/python: No such file or directory,https://bugs.launchpad.net/tripleo/+bug/1887146,2020-07-13

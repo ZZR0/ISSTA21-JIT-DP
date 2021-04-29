@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1338932,1338932,Fix Released,No way to set timeout from cli,https://bugs.launchpad.net/python-neutronclient/+bug/1338932,2014-08-21
+1341040,1341040,Fix Released,neutron CLI should not allow user to create /32 subnet,https://bugs.launchpad.net/python-neutronclient/+bug/1341040,2014-08-21
+1322659,1322659,Fix Released,Remove validation of enums from client for VPN,https://bugs.launchpad.net/python-neutronclient/+bug/1322659,2014-08-21
+1265266,1265266,Fix Released,Remove unused imports,https://bugs.launchpad.net/python-neutronclient/+bug/1265266,2014-08-21
+1313607,1313607,Fix Released,agent-list should be sortable,https://bugs.launchpad.net/python-neutronclient/+bug/1313607,2014-08-21
+1299807,1299807,Fix Released,Can't Authenticate users not in Keystone default domain,https://bugs.launchpad.net/python-neutronclient/+bug/1299807,2014-08-21
+1287110,1287110,Fix Released,neutronclient swallows status reason error,https://bugs.launchpad.net/python-neutronclient/+bug/1287110,2014-08-21
+1274945,1274945,Fix Released,Neutron_test sanity script fails,https://bugs.launchpad.net/python-neutronclient/+bug/1274945,2014-08-21
+1241275,1241275,Fix Released,Nova / Neutron Client failing upon re-authentication after token expiration,https://bugs.launchpad.net/nova/+bug/1241275,2014-08-21
+1241275,1241275,Fix Released,Nova / Neutron Client failing upon re-authentication after token expiration,https://bugs.launchpad.net/python-neutronclient/+bug/1241275,2014-08-21
+1161849,1161849,Fix Released,unit test  for shell outputs error message,https://bugs.launchpad.net/python-neutronclient/+bug/1161849,2014-08-21
+1328625,1328625,Fix Released,Firewall_rules attribute was being re-set per each firewall rule,https://bugs.launchpad.net/python-neutronclient/+bug/1328625,2014-08-21
+1324189,1324189,Fix Released,Python Neutron client cannot update subnet,https://bugs.launchpad.net/python-neutronclient/+bug/1324189,2014-08-21
+1321871,1321871,Fix Released,Improve help strings for python-neutronclient,https://bugs.launchpad.net/python-neutronclient/+bug/1321871,2014-08-21
+1313702,1313702,Fix Released,binary should be listed in agent-list,https://bugs.launchpad.net/python-neutronclient/+bug/1313702,2014-08-21
+1246271,1246271,Fix Released,python object dump is displayed as an error message,https://bugs.launchpad.net/python-neutronclient/+bug/1246271,2014-08-21
+1295056,1295056,Fix Released,neutronclient can't parse keystone v3 endpoints correctly,https://bugs.launchpad.net/python-neutronclient/+bug/1295056,2014-08-21
+1359496,1359496,Fix Released,Rename --timeout param to --http-timeout,https://bugs.launchpad.net/openstack-manuals/+bug/1359496,2014-08-21
+1358802,1358802,Fix Committed,Dockerctl doesn't purge stale iptables rules: '$' is missed,https://bugs.launchpad.net/fuel/+bug/1358802,2014-08-20
+1349601,1349601,Fix Committed,(Ubuntu only) mysql syslog logs are missing on the master node,https://bugs.launchpad.net/fuel/+bug/1349601,2014-08-20
+1274135,1274135,Fix Released,infrastructure-wide issues with tox 1.7.0,https://bugs.launchpad.net/openstack-ci/+bug/1274135,2014-08-20
+1350764,1350764,Fix Released,"[library] Upgrades, puppet fails to restart supervisor during host system upgrade stage",https://bugs.launchpad.net/fuel/+bug/1350764,2014-08-20
+1314196,1314196,Fix Released,glance doesn't send notifications to ceilometer,https://bugs.launchpad.net/fuel/+bug/1314196,2014-08-20
+1348548,1348548,Fix Released,Two clusters when turn off mgmt network,https://bugs.launchpad.net/fuel/+bug/1348548,2014-08-20
+1358634,1358634,Fix Released,test_hotplug_nic does not wait for guest hot plug event,https://bugs.launchpad.net/tempest/+bug/1358634,2014-08-20
+1358914,1358914,Fix Released,MysqlRootPassword not defined as template parameter,https://bugs.launchpad.net/tripleo/+bug/1358914,2014-08-20
+1359102,1359102,Fix Released,"Invalid mysql command ""USE database neutron;"" in the havana-icehouse upgrade doc",https://bugs.launchpad.net/openstack-manuals/+bug/1359102,2014-08-20
+1314613,1314613,Fix Committed,Possibility to deploy OpenStack with vCenter without defining vCenter credentials,https://bugs.launchpad.net/fuel/+bug/1314613,2014-08-20
+1337283,1337283,Fix Committed,[docs] tox is missing in web UI tests DOC,https://bugs.launchpad.net/fuel/+bug/1337283,2014-08-20
+1331474,1331474,Fix Committed,"[docs] Update development documentation, describe how to install and use tox",https://bugs.launchpad.net/fuel/+bug/1331474,2014-08-20
+1220814,1220814,Fix Released,fix _get_bdm_image_metadata and semantics,https://bugs.launchpad.net/nova/+bug/1220814,2014-08-20
+1346163,1346163,Fix Committed,[library] Rabbit error: Generic server <0.4361.0> terminating,https://bugs.launchpad.net/fuel/+bug/1346163,2014-08-20
+1293591,1293591,Fix Released,No possibility to update virtualenv version in infra,https://bugs.launchpad.net/magnetodb/+bug/1293591,2014-08-20
+1332602,1332602,Fix Released,Installation of master node hangs if there are no drives available for installation,https://bugs.launchpad.net/fuel/+bug/1332602,2014-08-20
+1351279,1351279,Fix Released,System tests are failed during time synchronization over the network,https://bugs.launchpad.net/fuel/+bug/1351279,2014-08-20
+1348249,1348249,Fix Released,[systest] VMs snapshots aren't created when tests fail on 'prepare_slaves' stage,https://bugs.launchpad.net/fuel/+bug/1348249,2014-08-20
+1354327,1354327,Fix Released,Paramiko exception catched while trying to run ntpd,https://bugs.launchpad.net/fuel/+bug/1354327,2014-08-20
+1353455,1353455,Fix Released,"Failed to execute ""service ntpd stop && ntpd -qg && service ntpd start"" on remote host",https://bugs.launchpad.net/fuel/+bug/1353455,2014-08-20
+1350836,1350836,Fix Released,System tests did not generate error snapshots,https://bugs.launchpad.net/fuel/+bug/1350836,2014-08-20
+1346265,1346265,Fix Released,[systest] Need support check for iptables rules in systests,https://bugs.launchpad.net/fuel/+bug/1346265,2014-08-20
+1217972,1217972,Fix Released,xenapi: VBD detach failure,https://bugs.launchpad.net/nova/+bug/1217972,2014-08-20
+1354670,1354670,Fix Released,Neutron ML2 plugin should not use deprecated Q_AGENT_EXTRA_AGENT_OPTS,https://bugs.launchpad.net/devstack/+bug/1354670,2014-08-19
+1351288,1351288,Fix Committed,Cannot add ceph-node to env for vCenter,https://bugs.launchpad.net/fuel/+bug/1351288,2014-08-19
+1333321,1333321,Fix Released,worlddump shouldn't depend on LOGDIR,https://bugs.launchpad.net/devstack/+bug/1333321,2014-08-19
+1356991,1356991,Fix Released,Chapter 3. API operations and extensions in OpenStack Networking API v2.0 (neutron) Reference  - API v2.0 (neutron) and extensions,https://bugs.launchpad.net/openstack-api-site/+bug/1356991,2014-08-19
+1327225,1327225,Fix Released,Migration scripts are not being tested,https://bugs.launchpad.net/ironic/+bug/1327225,2014-08-19
+1358715,1358715,Fix Released,zaqar-specs acl is not provisioned,https://bugs.launchpad.net/openstack-ci/+bug/1358715,2014-08-19
+1358138,1358138,Fix Released,[image]glance conf file set wrong configuration for use ssl,https://bugs.launchpad.net/openstack-chef/+bug/1358138,2014-08-19
+1355757,1355757,Fix Committed,UnknownMethodCallError during tests,https://bugs.launchpad.net/tuskar-ui/+bug/1355757,2014-08-19
+1357292,1357292,Fix Committed,Cinder uses public network,https://bugs.launchpad.net/fuel/+bug/1357292,2014-08-19
+1349481,1349481,Fix Released,[System tests] Increase timeout for upgrade test,https://bugs.launchpad.net/fuel/+bug/1349481,2014-08-19
+1355225,1355225,Fix Released,Spanning tree protocol is enabled on bridges created by python-devops tests,https://bugs.launchpad.net/fuel/+bug/1355225,2014-08-19
+1352984,1352984,Fix Released,[compute] nova conf changes to sync with Juno,https://bugs.launchpad.net/openstack-chef/+bug/1352984,2014-08-19
+1248172,1248172,Fix Released,dns_nameservers in manifests are different from astute.yaml,https://bugs.launchpad.net/fuel/+bug/1248172,2014-08-19
+1356294,1356294,Fix Committed,incorrect processing finish / in parameter 'URL to NSX bits',https://bugs.launchpad.net/fuel/+bug/1356294,2014-08-19
+1342366,1342366,Fix Released,Awkward wording throughout Paragraph - Chapter 4. Security boundaries and threats in OpenStack Security Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1342366,2014-08-18
+1342982,1342982,Fix Released,Multiple grammatical errors - Chapter 46. Case studies: monitoring and logging in OpenStack Security Guide  - current,https://bugs.launchpad.net/openstack-manuals/+bug/1342982,2014-08-18
+1343549,1343549,Fix Released,Grammatical Errors - Chapter 44. Case studies: instance management in OpenStack Security Guide  - current,https://bugs.launchpad.net/openstack-manuals/+bug/1343549,2014-08-18
+1342389,1342389,Fix Released,"Missing Comma and redundant use of ""and""- Chapter 4. Security boundaries and threats in OpenStack Security Guide",https://bugs.launchpad.net/openstack-manuals/+bug/1342389,2014-08-18
+1342942,1342942,Fix Released,Grammar error resulting in ambiguity - Chapter 45. Forensics and incident response in OpenStack Security Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1342942,2014-08-18
+1344276,1344276,Fix Released,Security Guide - Chapter 43. AggregateMultiTenancyIsolation Consistency & Clarity,https://bugs.launchpad.net/openstack-manuals/+bug/1344276,2014-08-18
+1343583,1343583,Fix Released,Security Guide Chapter 41. Add SELinux User/Role Section,https://bugs.launchpad.net/openstack-manuals/+bug/1343583,2014-08-18
+1344237,1344237,Fix Released,Security Guide - Chapter 43. Host aggregate cleanup,https://bugs.launchpad.net/openstack-manuals/+bug/1344237,2014-08-18
+1356418,1356418,Fix Released,[sys test] Tests fails with: Cant establish connection to keystone with url http://...,https://bugs.launchpad.net/fuel/+bug/1356418,2014-08-18
+1250001,1250001,Fix Released,"Syntax error in ceph's manifest mon,pp",https://bugs.launchpad.net/fuel/+bug/1250001,2014-08-18
+1248166,1248166,Fix Released,"Deployment with ""Ceph rados-gw for objects"" fails",https://bugs.launchpad.net/fuel/+bug/1248166,2014-08-18
+1269382,1269382,Fix Released,Need to separate OSTF tests for ceilometer and savanna,https://bugs.launchpad.net/fuel/+bug/1269382,2014-08-18
+1357461,1357461,Fix Released,[telemetry] os_region_name not set,https://bugs.launchpad.net/openstack-chef/+bug/1357461,2014-08-18
+1353047,1353047,Fix Released,[telemetry] ceilometer conf changes to sync with Juno,https://bugs.launchpad.net/openstack-chef/+bug/1353047,2014-08-18
+1356336,1356336,Fix Released,"Failure to run scenario that uses the context ""images""",https://bugs.launchpad.net/rally/+bug/1356336,2014-08-18
+1355537,1355537,Fix Released,_verify_network_details router port filter too strict,https://bugs.launchpad.net/tempest/+bug/1355537,2014-08-18
+1353793,1353793,Fix Released,[common]OpenStack components services cannot start after enabling SSL,https://bugs.launchpad.net/openstack-chef/+bug/1353793,2014-08-18
+1353768,1353768,Fix Released,Release Notes PDF should not include table of contents and preface,https://bugs.launchpad.net/fuel/+bug/1353768,2014-08-18
+1355663,1355663,Fix Released,cookbook-openstack-network can not enable vxlan,https://bugs.launchpad.net/openstack-chef/+bug/1355663,2014-08-18
+1302774,1302774,Fix Released,Failed to detach volume because of volume not found error prevents vm teardown,https://bugs.launchpad.net/cinder/+bug/1302774,2014-08-18

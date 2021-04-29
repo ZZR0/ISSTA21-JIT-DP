@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1283250,1283250,Fix Released,remove pointless test TestN1kvNonDbTest,https://bugs.launchpad.net/neutron/+bug/1283250,2014-04-17
+1283019,1283019,Fix Released,"nec plugin: No need to use ""is not"" when comparing values",https://bugs.launchpad.net/neutron/+bug/1283019,2014-04-17
+1282946,1282946,Fix Released,db_plugin.test_delete_port does not test port-delete,https://bugs.launchpad.net/neutron/+bug/1282946,2014-04-17
+1282873,1282873,Fix Released,wsgi.run_server no longer used,https://bugs.launchpad.net/neutron/+bug/1282873,2014-04-17
+1282401,1282401,Fix Released,API UT: should not use expected_errors=False when expecting success HTTP response,https://bugs.launchpad.net/neutron/+bug/1282401,2014-04-17
+1281921,1281921,Fix Released,Fix class name typo in test_db_rpc_base,https://bugs.launchpad.net/neutron/+bug/1281921,2014-04-17
+1280597,1280597,Fix Released,Fix typo in service_drivers.ipsec,https://bugs.launchpad.net/neutron/+bug/1280597,2014-04-17
+1279813,1279813,Fix Released,excutils.save_and_reraise_exception should be used when reraising an exception,https://bugs.launchpad.net/neutron/+bug/1279813,2014-04-17
+1279769,1279769,Fix Released,duplicated config-option registering,https://bugs.launchpad.net/neutron/+bug/1279769,2014-04-17
+1279644,1279644,Fix Released,unused imports in neutron/agent/linux/async_process.py,https://bugs.launchpad.net/neutron/+bug/1279644,2014-04-17
+1279418,1279418,Fix Released,OVS plugin sample configs should have lower case section headers,https://bugs.launchpad.net/neutron/+bug/1279418,2014-04-17
+1278271,1278271,Fix Released,SG rpc: skip logging when devices are added to the set,https://bugs.launchpad.net/neutron/+bug/1278271,2014-04-17
+1277051,1277051,Fix Released,neutron run_test.sh has unused flag --hide-elapsed,https://bugs.launchpad.net/neutron/+bug/1277051,2014-04-17
+1276876,1276876,Fix Released,Add update subnet and pass required attributes in Cisco N1kv plugin,https://bugs.launchpad.net/neutron/+bug/1276876,2014-04-17
+1276367,1276367,Fix Released,Unnecessary return statement in ovs_lib,https://bugs.launchpad.net/neutron/+bug/1276367,2014-04-17
+1274361,1274361,Fix Released,improve version validation for router operations with the nsx/nvp plugin,https://bugs.launchpad.net/neutron/+bug/1274361,2014-04-17
+1272490,1272490,Fix Released,ML2 uses bulk support with drivers that don't support it,https://bugs.launchpad.net/neutron/+bug/1272490,2014-04-17
+1272128,1272128,Fix Released,Support Port Binding Extension in Cisco N1kv plugin,https://bugs.launchpad.net/neutron/+bug/1272128,2014-04-17
+1269722,1269722,Fix Released,Help message of flag 'enable_isolated_metadata' is not correct,https://bugs.launchpad.net/neutron/+bug/1269722,2014-04-17
+1269189,1269189,Fix Released,iptables_manager doesn't honor wrap target when removing a rule,https://bugs.launchpad.net/neutron/+bug/1269189,2014-04-17
+1269152,1269152,Fix Released,Missing log.exception in nvp plugin for create_router,https://bugs.launchpad.net/neutron/+bug/1269152,2014-04-17
+1268611,1268611,Fix Released,Broken links in documentation,https://bugs.launchpad.net/neutron/+bug/1268611,2014-04-17
+1268460,1268460,Fix Released,PLUMgrid plugin should report proper error messages,https://bugs.launchpad.net/neutron/+bug/1268460,2014-04-17
+1266650,1266650,Fix Released,Ryu plugin should support Quota extension,https://bugs.launchpad.net/neutron/+bug/1266650,2014-04-17
+1251026,1251026,Fix Released,Identity V3 tokens too long for neutron,https://bugs.launchpad.net/neutron/+bug/1251026,2014-04-17
+1243129,1243129,Fix Released,[LBaaS] Deletion of associated-to-pool(s) health monitor should fail,https://bugs.launchpad.net/neutron/+bug/1243129,2014-04-17
+1242532,1242532,Fix Released,mellanox plugin does not update port state up,https://bugs.launchpad.net/neutron/+bug/1242532,2014-04-17
+1287407,1287407,Fix Released,remove unused method update_fixed_ip_lease_expiration,https://bugs.launchpad.net/neutron/+bug/1287407,2014-04-17
+1287330,1287330,Fix Released,[Embrane]: alembic migrations fail,https://bugs.launchpad.net/neutron/+bug/1287330,2014-04-17
+1285993,1285993,Fix Released,neutron-server crashes when running on an empty database,https://bugs.launchpad.net/neutron/+bug/1285993,2014-04-17
+1285641,1285641,Fix Released,different fully qualified class name for VPNaaS migrations,https://bugs.launchpad.net/neutron/+bug/1285641,2014-04-17
+1285473,1285473,Fix Released,Use database session from the context in Cisco N1kv plugin,https://bugs.launchpad.net/neutron/+bug/1285473,2014-04-17
+1285426,1285426,Fix Released,NSX: set port status according to fabric status,https://bugs.launchpad.net/neutron/+bug/1285426,2014-04-17
+1285399,1285399,Fix Released,NSX L2 GW extension uses wrong network_id,https://bugs.launchpad.net/neutron/+bug/1285399,2014-04-17
+1285095,1285095,Fix Released,NSX: not all db migrations are executed,https://bugs.launchpad.net/neutron/+bug/1285095,2014-04-17
+1284881,1284881,Fix Released,BigSwitch plugin unnecessarily uses external locks,https://bugs.launchpad.net/neutron/+bug/1284881,2014-04-17
+1284314,1284314,Fix Released,poolstatisticss table should have columns of type bigint,https://bugs.launchpad.net/neutron/+bug/1284314,2014-04-17
+1282394,1282394,Fix Released,Exceptions due to bad user requests should not be logged as TRACE,https://bugs.launchpad.net/neutron/+bug/1282394,2014-04-17
+1282366,1282366,Fix Released,NVP FWaaS occurs error when creating firewall without policy,https://bugs.launchpad.net/neutron/+bug/1282366,2014-04-17
+1282352,1282352,Fix Released,Neutron Tempest XML tests fail for Cisco N1KV plugin,https://bugs.launchpad.net/neutron/+bug/1282352,2014-04-17
+1282303,1282303,Fix Released,all plugins should call __init__ in db_base_plugin for db.configure,https://bugs.launchpad.net/neutron/+bug/1282303,2014-04-17
+1281916,1281916,Fix Released,OpenStack cannot assign IPv6 address to instance via dnsmasq dhcpserver,https://bugs.launchpad.net/neutron/+bug/1281916,2014-04-17
+1281794,1281794,Fix Released,l2 agent script isn't resulting in the ovsdb-client process being stopped,https://bugs.launchpad.net/neutron/+bug/1281794,2014-04-17
+1281789,1281789,Fix Released,NSX: update_port gets nsx_status with wrong uuid,https://bugs.launchpad.net/neutron/+bug/1281789,2014-04-17
+1281574,1281574,Fix Released,nec plugin should handle OFC port-deletion race condition,https://bugs.launchpad.net/neutron/+bug/1281574,2014-04-17
+1279619,1279619,Fix Released,Arista ML2 Driver enhancements to improve the Sync performance  for scale deployments,https://bugs.launchpad.net/neutron/+bug/1279619,2014-04-17
+1279213,1279213,Fix Released,"Firewall in admin state down remains in status ""ACTIVE"" and keeps enforcing its policy rules",https://bugs.launchpad.net/neutron/+bug/1279213,2014-04-17
+1278581,1278581,Fix Released,NSX plugin can't reassociate floating ip to different IP on same port,https://bugs.launchpad.net/neutron/+bug/1278581,2014-04-17
+1278530,1278530,Fix Released,BigSwitch: Ports on shared network sending wrong netid,https://bugs.launchpad.net/neutron/+bug/1278530,2014-04-17
+1278349,1278349,Fix Released,nec plugin deletes and recreate a OFC port unexpectedly when update_port from dhcp-agent.,https://bugs.launchpad.net/neutron/+bug/1278349,2014-04-17
+1277914,1277914,Fix Released,ML2 plugin cannot raise NoResultFound exception,https://bugs.launchpad.net/neutron/+bug/1277914,2014-04-17
+1277029,1277029,Fix Released,cannot distinguish error from no port in ovs_lib list operation,https://bugs.launchpad.net/neutron/+bug/1277029,2014-04-17
+1276552,1276552,Fix Released,test_add_remove_router_interface_with_port_id failed in gate job,https://bugs.launchpad.net/neutron/+bug/1276552,2014-04-17
+1275166,1275166,Fix Released,Clean up unused RPC calls from Cisco N1kv plugin,https://bugs.launchpad.net/neutron/+bug/1275166,2014-04-17
+1270724,1270724,Fix Released,nicira: error occurs when net-gateway-connect with different segmentation-type,https://bugs.launchpad.net/neutron/+bug/1270724,2014-04-17
+1269938,1269938,Fix Released,Interprocess Locks with run_tests.sh,https://bugs.launchpad.net/neutron/+bug/1269938,2014-04-17
+1269098,1269098,Fix Released,embrane: plugin adjustments for tempest testing,https://bugs.launchpad.net/neutron/+bug/1269098,2014-04-17
+1268823,1268823,Fix Released,Non-admin owned networks can be updated to shared,https://bugs.launchpad.net/neutron/+bug/1268823,2014-04-17
+1268711,1268711,Fix Released,Unlock the psutil version requirement or use an alternative to psutil,https://bugs.launchpad.net/neutron/+bug/1268711,2014-04-17
+1267790,1267790,Fix Released,Fixed metric_index causes ValueError in ip_lib,https://bugs.launchpad.net/neutron/+bug/1267790,2014-04-17
+1267249,1267249,Fix Released,Don't require passing in port_security=False if security groups,https://bugs.launchpad.net/neutron/+bug/1267249,2014-04-17
+1267101,1267101,Fix Released,nicira: Lock wait timeout exceeded on port operations,https://bugs.launchpad.net/neutron/+bug/1267101,2014-04-17
+1266482,1266482,Fix Released,vmware nsx: db flush error during router operations,https://bugs.launchpad.net/neutron/+bug/1266482,2014-04-17
+1266347,1266347,Fix Released,Metaplugin can not be used with router service-type plugin,https://bugs.launchpad.net/neutron/+bug/1266347,2014-04-17
+1265505,1265505,Fix Released,"VM is reachable, but cannot SSH into it",https://bugs.launchpad.net/neutron/+bug/1265505,2014-04-17
+1265353,1265353,Fix Released,check_nvp_config.py erroneous config complaint,https://bugs.launchpad.net/neutron/+bug/1265353,2014-04-17
+1263881,1263881,Fix Released,ML2 l2-pop Mechanism driver fails when more than one port is added/deleted simultaneously,https://bugs.launchpad.net/neutron/+bug/1263881,2014-04-17
+1263194,1263194,Fix Released,VPN agent does not handle multiple connections per vpn service,https://bugs.launchpad.net/neutron/+bug/1263194,2014-04-17
+1262785,1262785,Fix Released,devstack-exercises floating_ips broken,https://bugs.launchpad.net/neutron/+bug/1262785,2014-04-17
+1260682,1260682,Fix Released,LBaaS: stacktraces in q-svc while running tempest lbaas api tests,https://bugs.launchpad.net/neutron/+bug/1260682,2014-04-17
+1258379,1258379,Fix Released,vpnservice's router must have gateway interface set,https://bugs.launchpad.net/neutron/+bug/1258379,2014-04-17
+1256106,1256106,Fix Released,Deadlock in ML2 plugin on delete port bindings,https://bugs.launchpad.net/neutron/+bug/1256106,2014-04-17
+1255153,1255153,Fix Released,Linuxbridge plugin doesn't return IP to VLAN interface when deleting a bridge,https://bugs.launchpad.net/neutron/+bug/1255153,2014-04-17
+1245310,1245310,Fix Released,'binding:host_id' is set None when port update without portbinding changes,https://bugs.launchpad.net/neutron/+bug/1245310,2014-04-17
+1241098,1241098,Fix Released,ML2 Cisco Nexus MD: Create pre/post DB event handlers,https://bugs.launchpad.net/neutron/+bug/1241098,2014-04-17

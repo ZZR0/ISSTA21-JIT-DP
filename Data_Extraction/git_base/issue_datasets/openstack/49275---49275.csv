@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1498462,1498462,Fix Released,Updating pool ns_records does not send NOTIFY,https://bugs.launchpad.net/designate/+bug/1498462,2016-02-22
+1548314,1548314,Fix Released,Remove multipledispatch and tabulate pacakges,https://bugs.launchpad.net/solar/+bug/1548314,2016-02-22
+1547320,1547320,Fix Released,"the key_name:""init_time"" of node response in senlin api ref is wrong, should be ""init_at""",https://bugs.launchpad.net/openstack-api-site/+bug/1547320,2016-02-22
+1547624,1547624,Fix Released,Can't  run baremetal(ironic) tempest tests via rally verify.,https://bugs.launchpad.net/rally/+bug/1547624,2016-02-22
+1535786,1535786,Fix Released,Consider using 'dt' as alias for datetime imports,https://bugs.launchpad.net/rally/+bug/1535786,2016-02-22
+1511721,1511721,Fix Committed,Make a tool to check scripts for bashisms,https://bugs.launchpad.net/openstack-resource-agents/+bug/1511721,2016-02-22
+1545550,1545550,Fix Released,Implement versioned object of triggers table,https://bugs.launchpad.net/karbor/+bug/1545550,2016-02-22
+1545404,1545404,Fix Released,Implement versioned object of scheduled_operation table,https://bugs.launchpad.net/karbor/+bug/1545404,2016-02-22
+1542180,1542180,Fix Released,Implement scheduled_operations table of db,https://bugs.launchpad.net/karbor/+bug/1542180,2016-02-22
+1542814,1542814,Fix Committed,wrong dependencies for fuel-tasklib,https://bugs.launchpad.net/fuel/+bug/1542814,2016-02-22
+1259229,1259229,Fix Released,Undesired migrate repository path caching.,https://bugs.launchpad.net/keystone/+bug/1259229,2016-02-22
+1463727,1463727,Fix Released,base64.urlsafe_b64encode returns unexpected type in python3,https://bugs.launchpad.net/keystone/+bug/1463727,2016-02-22
+1435588,1435588,Fix Released,request-ids aren't being logged for any cinder.api.openstack.wsgi [-],https://bugs.launchpad.net/cinder/+bug/1435588,2016-02-22
+1435588,1435588,Fix Released,request-ids aren't being logged for any cinder.api.openstack.wsgi [-],https://bugs.launchpad.net/heat/+bug/1435588,2016-02-22
+1435588,1435588,Fix Released,request-ids aren't being logged for any cinder.api.openstack.wsgi [-],https://bugs.launchpad.net/keystone/+bug/1435588,2016-02-22
+1528357,1528357,Fix Released,RefStack should not depend on keystone client,https://bugs.launchpad.net/refstack/+bug/1528357,2016-02-22
+1475938,1475938,Fix Released,create_security_group code may get into endless loop,https://bugs.launchpad.net/neutron/+bug/1475938,2016-02-21
+1546474,1546474,Fix Released,NSX v3 plugin create_security_group failing with TypeError: 'NoneType' object has no attribute '__getitem__',https://bugs.launchpad.net/vmware-nsx/+bug/1546474,2016-02-21
+1492505,1492505,Fix Released,py34 intermittent failure,https://bugs.launchpad.net/neutron/+bug/1492505,2016-02-21
+1547760,1547760,Fix Released,egress security group rules get removed when vrrp enabled,https://bugs.launchpad.net/octavia/+bug/1547760,2016-02-21
+1194356,1194356,Fix Released,"identity-api-doc : Validate and Check Token missing query parameter ""belongsTo""",https://bugs.launchpad.net/keystone/+bug/1194356,2016-02-21
+1544548,1544548,Fix Released,DHCP: no indication in API that DHCP service is not running,https://bugs.launchpad.net/neutron/+bug/1544548,2016-02-21
+1471385,1471385,Fix Released,group creation without domain using admin_token should fail nicer,https://bugs.launchpad.net/keystone/+bug/1471385,2016-02-21
+1547717,1547717,Fix Released,project id should not be UUIDType,https://bugs.launchpad.net/octavia/+bug/1547717,2016-02-21
+1514213,1514213,Fix Released,Redirects for Compute v2.0 API pages,https://bugs.launchpad.net/openstack-api-site/+bug/1514213,2016-02-21
+1257723,1257723,Fix Released,"""Timed out trying to delete user"" resolved by heat-engine restart",https://bugs.launchpad.net/keystone/+bug/1257723,2016-02-21
+1513119,1513119,Fix Released,Keystone startup failure due to missing MITAKA constant,https://bugs.launchpad.net/keystone/+bug/1513119,2016-02-21
+1525317,1525317,Fix Released,IdP doesn't support field based DB filtering,https://bugs.launchpad.net/keystone/+bug/1525317,2016-02-21
+1474660,1474660,Fix Released,Stack trace if federation mapping references unavailable request variables,https://bugs.launchpad.net/keystone/+bug/1474660,2016-02-21
+1424373,1424373,Fix Released,Service CRUD should not be allowed in templated catalog,https://bugs.launchpad.net/keystone/+bug/1424373,2016-02-21
+1416612,1416612,Fix Released,response of project_endpoint_group doesn't contain full url,https://bugs.launchpad.net/keystone/+bug/1416612,2016-02-21
+1415268,1415268,Fix Released,Testing of backend list_role_assignments needs to be improved,https://bugs.launchpad.net/keystone/+bug/1415268,2016-02-21
+1406640,1406640,Fix Released,Refactor role assignment assertions and creation of expected entities,https://bugs.launchpad.net/keystone/+bug/1406640,2016-02-21
+1294737,1294737,Fix Released,Disable domain doesn't remove domain scoped tokens,https://bugs.launchpad.net/keystone/+bug/1294737,2016-02-21
+1545230,1545230,Fix Released,entry points fail to load,https://bugs.launchpad.net/python-heatclient/+bug/1545230,2016-02-21
+1479066,1479066,Fix Released,DeprecationWarning: BaseException.message has been deprecated as of Python 2.6,https://bugs.launchpad.net/nova/+bug/1479066,2016-02-21
+1448844,1448844,Fix Released,Unit issue of CONF.libvirt.live_migration_bandwidth in option description,https://bugs.launchpad.net/nova/+bug/1448844,2016-02-20
+1520937,1520937,Fix Released,Nova strips the path from glance servers specificed in [glance]/api_servers config,https://bugs.launchpad.net/nova/+bug/1520937,2016-02-20
+1536272,1536272,Fix Released,Custom profiles no longer work,https://bugs.launchpad.net/kolla/+bug/1536272,2016-02-20
+1534556,1534556,Fix Released,New config parsing breaks plugins,https://bugs.launchpad.net/kolla/+bug/1534556,2016-02-20
+1522573,1522573,Fix Released,tox fails to set environment variables set by user on invocation or in session,https://bugs.launchpad.net/nova/+bug/1522573,2016-02-20
+1462992,1462992,Fix Released,Fix all Bad indentation pylint issues,https://bugs.launchpad.net/cinder/+bug/1462992,2016-02-20
+1376098,1376098,Fix Released,"nova list filtering only works when you have the ""Admin"" role",https://bugs.launchpad.net/nova/+bug/1376098,2016-02-20
+1503987,1503987,Fix Released,Fuel7.0 Deployment using multiple NMVe disks fails,https://bugs.launchpad.net/fuel/+bug/1503987,2016-02-20
+1547772,1547772,Fix Released,Page hang in node/cluster deletion,https://bugs.launchpad.net/senlin-dashboard/+bug/1547772,2016-02-20
+1547075,1547075,Fix Committed,Additional repo for puppet-twemproxy module for librarian,https://bugs.launchpad.net/fuel/+bug/1547075,2016-02-20
+1510851,1510851,Fix Released,osd_devices facter fails for nbd,https://bugs.launchpad.net/fuel/+bug/1510851,2016-02-20
+1538655,1538655,Fix Released,Nagios reports by default a critical disk space status on localhost,https://bugs.launchpad.net/lma-toolchain/+bug/1538655,2016-02-20
+1546555,1546555,Fix Released,Cinder notifications are not emitted,https://bugs.launchpad.net/lma-toolchain/+bug/1546555,2016-02-20
+1544054,1544054,Fix Released,"New ""nightly"" job for fuel-ui functional tests",https://bugs.launchpad.net/fuel/+bug/1544054,2016-02-20
+1326553,1326553,Fix Released,Instance lock/unlock state is not presented anywhere,https://bugs.launchpad.net/nova/+bug/1326553,2016-02-20
+1513425,1513425,Fix Committed,Packaging CI jobs should register in CR before start,https://bugs.launchpad.net/fuel/+bug/1513425,2016-02-20
+1425907,1425907,Fix Released,[nailgun] cannot reassign networks,https://bugs.launchpad.net/fuel/+bug/1425907,2016-02-20
+1539960,1539960,Fix Released,Style: Material Design: Brand SVG Should Inherit color from theme,https://bugs.launchpad.net/horizon/+bug/1539960,2016-02-20
+1539951,1539951,Fix Released,Style: Material Design: Hamburger menu should be white,https://bugs.launchpad.net/horizon/+bug/1539951,2016-02-20
+1539952,1539952,Fix Released,Style: Material Design: Responsive Menu should be white,https://bugs.launchpad.net/horizon/+bug/1539952,2016-02-20
+1540745,1540745,Fix Released,Style: Material: Better Inverse Dropdown Header Color,https://bugs.launchpad.net/horizon/+bug/1540745,2016-02-20
+967832,967832,Fix Released,Resources owned by a project/tenant are not cleaned up after that project is deleted from keystone,https://bugs.launchpad.net/keystone/+bug/967832,2016-02-20
+1415087,1415087,Fix Released,"[OSSA 2015-011] Format-guessing and file disclosure in image convert (CVE-2015-1850, CVE-2015-1851)",https://bugs.launchpad.net/ossa/+bug/1415087,2016-02-20
+1415087,1415087,Fix Released,"[OSSA 2015-011] Format-guessing and file disclosure in image convert (CVE-2015-1850, CVE-2015-1851)",https://bugs.launchpad.net/cinder/+bug/1415087,2016-02-20
+1545054,1545054,Fix Released,dnsmasq failing to start when port has multiple IPs,https://bugs.launchpad.net/astara/+bug/1545054,2016-02-19
+1445569,1445569,Fix Released,No dhcp lease after shelve unshelve,https://bugs.launchpad.net/nova/+bug/1445569,2016-02-19
+1544535,1544535,Fix Released,Incorrect displaying Neutron::Port properties in documentation,https://bugs.launchpad.net/heat/+bug/1544535,2016-02-19
+1253896,1253896,Fix Released,Attempts to verify guests are running via SSH fails. SSH connection to guest does not work.,https://bugs.launchpad.net/neutron/+bug/1253896,2016-02-19
+1253896,1253896,Fix Released,Attempts to verify guests are running via SSH fails. SSH connection to guest does not work.,https://bugs.launchpad.net/nova/+bug/1253896,2016-02-19
+1434475,1434475,Fix Released,[Docs] Replace screen for 6.1 user-guide.html#name-environment-and-choose-distribution,https://bugs.launchpad.net/fuel/+bug/1434475,2016-02-19
+1526620,1526620,Fix Released,host names are different even if scheduling servers on the same host,https://bugs.launchpad.net/devstack/+bug/1526620,2016-02-19
+1450594,1450594,Fix Released,Instance deletion fails sometimes when serial_console is enabled,https://bugs.launchpad.net/nova/+bug/1450594,2016-02-19
+1326901,1326901,Fix Released,ServiceBinaryExists - binary for nova-conductor already exists,https://bugs.launchpad.net/nova/+bug/1326901,2016-02-19
+1321381,1321381,Fix Released,VMware: Ports are not cleaned up after reschedule,https://bugs.launchpad.net/nova/+bug/1321381,2016-02-19
+1324934,1324934,Fix Released,Neutron port leak when connection is dropped during port create in instance boot.,https://bugs.launchpad.net/nova/+bug/1324934,2016-02-19
+1303360,1303360,Fix Released,GroupAntiAffinityFilter scheduler hint still doesn't work,https://bugs.launchpad.net/nova/+bug/1303360,2016-02-19
+1220856,1220856,Fix Released,libvirt error when create VM with 2 NICs under DevStack,https://bugs.launchpad.net/nova/+bug/1220856,2016-02-19
+1271541,1271541,Fix Released,Quota usage data wrong after instance resized by admin,https://bugs.launchpad.net/nova/+bug/1271541,2016-02-19
+1291489,1291489,Fix Released,list-secgroup fail if no secgroups defined for server,https://bugs.launchpad.net/nova/+bug/1291489,2016-02-19

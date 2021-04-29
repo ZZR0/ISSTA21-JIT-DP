@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1523928,1523928,Fix Released,Calling quota-show from non-admin user does not return default values,https://bugs.launchpad.net/cinder/+bug/1523928,2016-11-10
+1532836,1532836,Fix Released,Cannot extend a volume beyond max LUN geometry in NetApp ONTAP drivers,https://bugs.launchpad.net/cinder/+bug/1532836,2016-11-10
+1536683,1536683,Fix Released,NetApp ONTAP drivers have had API tracing removed,https://bugs.launchpad.net/cinder/+bug/1536683,2016-11-10
+1538582,1538582,Fix Released,zfssaiscsi driver should return target_lun as an int,https://bugs.launchpad.net/cinder/+bug/1538582,2016-11-10
+1541941,1541941,Fix Released,HNAS driver: Connection reset exception,https://bugs.launchpad.net/cinder/+bug/1541941,2016-11-10
+1543219,1543219,Fix Released,CONF.volume_api_class doesnt have any effect,https://bugs.launchpad.net/cinder/+bug/1543219,2016-11-10
+1529205,1529205,Fix Released,EMC ScaleIO driver - Unable to delete volume from cinder database,https://bugs.launchpad.net/cinder/+bug/1529205,2016-11-10
+1536248,1536248,Fix Released,Cinder doesn't restore LIO target ACLs for target after Cinder node reboots,https://bugs.launchpad.net/cinder/+bug/1536248,2016-11-10
+1550102,1550102,Fix Released,Unit test test_get_reserved_percentage fails,https://bugs.launchpad.net/cinder/+bug/1550102,2016-11-10
+1551325,1551325,Fix Released,"""found extension EntryPoint.parse"" blows up the size of the console log in py27 runs",https://bugs.launchpad.net/cinder/+bug/1551325,2016-11-10
+1539099,1539099,Fix Released,"EMC ScaleIO: If extend volume from 1Gb to 2Gb - Volume stuck with ""Error extending"" (Cross platform issue)",https://bugs.launchpad.net/cinder/+bug/1539099,2016-11-10
+1543208,1543208,Fix Released,HNAS driver: Wrong verification with SSH and cluster_admin_ip0,https://bugs.launchpad.net/cinder/+bug/1543208,2016-11-10
+1551994,1551994,Fix Released,3PAR iSCSI creates new LUN ids for each multipath attachment,https://bugs.launchpad.net/cinder/+bug/1551994,2016-11-10
+1554045,1554045,Fix Released,tempest.scenario.test_volume_boot_pattern.TestVolumeBootPatternV2.test_volume_boot_pattern fails with rbd,https://bugs.launchpad.net/cinder/+bug/1554045,2016-11-10
+1489744,1489744,Fix Released,Swapping volume will not result in correct status,https://bugs.launchpad.net/cinder/+bug/1489744,2016-11-10
+1559250,1559250,Fix Released,get_snapshot policy check missing,https://bugs.launchpad.net/cinder/+bug/1559250,2016-11-10
+1561174,1561174,Fix Released,empty volume list image metadata performance,https://bugs.launchpad.net/cinder/+bug/1561174,2016-11-10
+1488682,1488682,Fix Released,ceilometermiddleware meters client HEAD requests that are made as part of swift upload but fails to meter HEAD/GET as part of swift stat or swift list,https://bugs.launchpad.net/ceilometermiddleware/+bug/1488682,2016-11-10
+1485711,1485711,Fix Released,ceilomiddleware.swift ignore the swift_source in environ,https://bugs.launchpad.net/ceilometermiddleware/+bug/1485711,2016-11-10
+1500448,1500448,Fix Released,db_manage.py script doesn't return error code,https://bugs.launchpad.net/barbican/+bug/1500448,2016-11-10
+1502320,1502320,Fix Released,Need Secure Plugin for SubCA Feature,https://bugs.launchpad.net/barbican/+bug/1502320,2016-11-10
+1499876,1499876,Fix Released,Attempt to delete project preferred CA should return 409,https://bugs.launchpad.net/barbican/+bug/1499876,2016-11-10
+1501862,1501862,Fix Released,Need to enforce project ownership of subCAs,https://bugs.launchpad.net/barbican/+bug/1501862,2016-11-10
+1500687,1500687,Fix Released,db_manage breaking when using mysql,https://bugs.launchpad.net/barbican/+bug/1500687,2016-11-10
+1588151,1588151,Fix Released,ut fails because oslo.messaging 5.2.0,https://bugs.launchpad.net/ceilometer/+bug/1588151,2016-11-10
+1588151,1588151,Fix Released,ut fails because oslo.messaging 5.2.0,https://bugs.launchpad.net/aodh/+bug/1588151,2016-11-10
+1580498,1580498,Fix Released,Composite alarm ignores repeat_actions field,https://bugs.launchpad.net/aodh/+bug/1580498,2016-11-10
+1446735,1446735,Fix Released,MongoDB guest won't start,https://bugs.launchpad.net/trove/+bug/1446735,2016-11-10
+1446800,1446800,Fix Released,Don't apply the wrong Etag validation to rebuilt fragments,https://bugs.launchpad.net/swift/+bug/1446800,2016-11-10
+1446727,1446727,Fix Released,Bump PyECLib version from 1.0.3 to 1.0.7,https://bugs.launchpad.net/swift/+bug/1446727,2016-11-10
+1446801,1446801,Fix Released,Use reconstruct insetad of decode/encode,https://bugs.launchpad.net/swift/+bug/1446801,2016-11-10
+966329,966329,Fix Released,RAX-specific auth in novaclient,https://bugs.launchpad.net/python-novaclient/+bug/966329,2016-11-10
+966329,966329,Fix Released,RAX-specific auth in novaclient,https://bugs.launchpad.net/python-cinderclient/+bug/966329,2016-11-10
+1409982,1409982,Fix Released,endpoint_type should be defaulted to 'publicURL' troveclient.v1.client.Client,https://bugs.launchpad.net/trove/+bug/1409982,2016-11-10
+1394591,1394591,Fix Released,Fill empty 'Size' section with - when volume support disabled,https://bugs.launchpad.net/trove/+bug/1394591,2016-11-10
+1349528,1349528,Fix Released,"Running ""swift list --lh"" with out a bucket causes type error in python",https://bugs.launchpad.net/python-swiftclient/+bug/1349528,2016-11-10
+1376878,1376878,Fix Released,swiftclient - AssertionError in tests.unit.test_shell.TestShell.test_upload,https://bugs.launchpad.net/python-swiftclient/+bug/1376878,2016-11-10
+1381304,1381304,Fix Released,KeyError 'response_dict' in python-swiftclient,https://bugs.launchpad.net/swift/+bug/1381304,2016-11-10
+1372589,1372589,Fix Released,'swift stat' prints exception trace when auth fails,https://bugs.launchpad.net/python-swiftclient/+bug/1372589,2016-11-10
+1383243,1383243,Fix Released,swift post fails silently when credentials are bad,https://bugs.launchpad.net/python-swiftclient/+bug/1383243,2016-11-10
+1392651,1392651,Fix Released,AttributeError: 'NoneType' object has no attribute 'hasattr' with --object-name,https://bugs.launchpad.net/python-swiftclient/+bug/1392651,2016-11-10
+1258392,1258392,Fix Released,swift list --total is running without -l or without --ls,https://bugs.launchpad.net/swift/+bug/1258392,2016-11-10
+1371650,1371650,Fix Released,account HEAD returns 403 which fails --os-storage-url,https://bugs.launchpad.net/python-swiftclient/+bug/1371650,2016-11-10
+1387376,1387376,Fix Released,swiftclient download --output to stdout doesn't work,https://bugs.launchpad.net/swift/+bug/1387376,2016-11-10
+1395922,1395922,Fix Released,swift can't download to stdout,https://bugs.launchpad.net/python-swiftclient/+bug/1395922,2016-11-10
+1418007,1418007,Fix Released,Overwriting SLO object does not remove old segments,https://bugs.launchpad.net/python-swiftclient/+bug/1418007,2016-11-10
+1418473,1418473,Fix Released,SSL certificate verify failed,https://bugs.launchpad.net/python-swiftclient/+bug/1418473,2016-11-10
+1420253,1420253,Fix Released,"help message for ""<subcommand> --help""",https://bugs.launchpad.net/python-swiftclient/+bug/1420253,2016-11-10
+1411665,1411665,Fix Released,stat prints a stack trace on python2 when object name contains non ascii characters,https://bugs.launchpad.net/python-swiftclient/+bug/1411665,2016-11-10
+1399678,1399678,Fix Released,"""swift list -l -d /"" doesn't work with faux directories",https://bugs.launchpad.net/python-swiftclient/+bug/1399678,2016-11-10
+1379263,1379263,Fix Released,swift command line tool does not verify md5 of uploaded object,https://bugs.launchpad.net/python-swiftclient/+bug/1379263,2016-11-10
+1341777,1341777,Fix Released,glanceclient is not handling http connection pools properly with python-requests,https://bugs.launchpad.net/python-glanceclient/+bug/1341777,2016-11-10
+1341777,1341777,Fix Released,glanceclient is not handling http connection pools properly with python-requests,https://bugs.launchpad.net/python-swiftclient/+bug/1341777,2016-11-10
+1409432,1409432,Fix Released,Sahara CLI doesn't work,https://bugs.launchpad.net/python-saharaclient/+bug/1409432,2016-11-10
+1411672,1411672,Fix Released,Output of supported api versions wrong,https://bugs.launchpad.net/python-saharaclient/+bug/1411672,2016-11-10
+1412908,1412908,Fix Released,No way to pass image_id parameter to node group,https://bugs.launchpad.net/python-saharaclient/+bug/1412908,2016-11-10
+1359408,1359408,Fix Released,Sahara client doesn't do anything with os-cacert option,https://bugs.launchpad.net/python-saharaclient/+bug/1359408,2016-11-10
+1414587,1414587,Fix Released,Changing oslo library imports,https://bugs.launchpad.net/sahara/+bug/1414587,2016-11-10
+1414587,1414587,Fix Released,Changing oslo library imports,https://bugs.launchpad.net/python-saharaclient/+bug/1414587,2016-11-10
+1414953,1414953,Fix Released,saharclient should have a find_single API method,https://bugs.launchpad.net/python-saharaclient/+bug/1414953,2016-11-10
+1417527,1417527,Fix Released,saharaclient: option --endpoint-type does not work,https://bugs.launchpad.net/python-saharaclient/+bug/1417527,2016-11-10
+1413745,1413745,Fix Released,Sahara client is not backward compatible with 'data_processing' service,https://bugs.launchpad.net/python-saharaclient/+bug/1413745,2016-11-10
+1418085,1418085,Fix Released,option --service-type does not work,https://bugs.launchpad.net/python-saharaclient/+bug/1418085,2016-11-10
+1420551,1420551,Fix Released,Sahara shell ignores --bypass-url in case of keystone 3,https://bugs.launchpad.net/python-saharaclient/+bug/1420551,2016-11-10
+1420569,1420569,Fix Released,Sahara client reports 'None' error message for missing cluster_template_id,https://bugs.launchpad.net/python-saharaclient/+bug/1420569,2016-11-10
+1443936,1443936,Fix Released,Warn users about images with the same name,https://bugs.launchpad.net/murano/+bug/1443936,2016-11-10
+1473369,1473369,Fix Released,new mock release broke a bunch of unit tests,https://bugs.launchpad.net/python-muranoclient/+bug/1473369,2016-11-10
+1473369,1473369,Fix Released,new mock release broke a bunch of unit tests,https://bugs.launchpad.net/neutron/+bug/1473369,2016-11-10
+1473369,1473369,Fix Released,new mock release broke a bunch of unit tests,https://bugs.launchpad.net/glance/+bug/1473369,2016-11-10
+1473369,1473369,Fix Released,new mock release broke a bunch of unit tests,https://bugs.launchpad.net/swift/+bug/1473369,2016-11-10
+1473369,1473369,Fix Released,new mock release broke a bunch of unit tests,https://bugs.launchpad.net/murano/+bug/1473369,2016-11-10
+1473369,1473369,Fix Released,new mock release broke a bunch of unit tests,https://bugs.launchpad.net/glance-store/+bug/1473369,2016-11-10
+1475268,1475268,Fix Released,hacking is outdated in stable/kilo and code fails some H* checks,https://bugs.launchpad.net/python-muranoclient/+bug/1475268,2016-11-10
+1487099,1487099,Fix Released,murano --os-cacert (OS_CACERT) option does not work,https://bugs.launchpad.net/python-muranoclient/+bug/1487099,2016-11-10
+1503459,1503459,Fix Released,openstack client user password set  is hardcoded to use public interface,https://bugs.launchpad.net/python-keystoneclient/+bug/1503459,2016-11-10

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1162064,1162064,Fix Released,Block device spins forever when status == creating,https://bugs.launchpad.net/nova/+bug/1162064,2013-10-17
+1161529,1161529,Fix Released,ERROR: test_resize_server_revert BuildErrorException,https://bugs.launchpad.net/nova/+bug/1161529,2013-10-17
+1199383,1199383,Fix Released,Neutron server is missing required monkey patch,https://bugs.launchpad.net/neutron/+bug/1199383,2013-10-17
+1161518,1161518,Fix Released,nova list quantum security group cache,https://bugs.launchpad.net/nova/+bug/1161518,2013-10-17
+1161226,1161226,Fix Released,migrate/resize failed in same host with powervm driver,https://bugs.launchpad.net/nova/+bug/1161226,2013-10-17
+1198917,1198917,Fix Released,neutron net-create failed,https://bugs.launchpad.net/neutron/+bug/1198917,2013-10-17
+1236273,1236273,Fix Released,Conductor does not provide logs when unning as system process,https://bugs.launchpad.net/murano/+bug/1236273,2013-10-17
+1161081,1161081,Fix Released,get_instance_security_groups() get_admin_context() causes lots of keystone chatter,https://bugs.launchpad.net/nova/+bug/1161081,2013-10-17
+1161031,1161031,Fix Released,Logging configured incorrectly,https://bugs.launchpad.net/nova/+bug/1161031,2013-10-17
+1190613,1190613,Fix Released,when a port have multiple IP addresses the port cannot communicate,https://bugs.launchpad.net/neutron/+bug/1190613,2013-10-17
+1160323,1160323,Fix Released,Cannot block migrate in xenapi with iSCSI cinder volumes attached,https://bugs.launchpad.net/nova/+bug/1160323,2013-10-17
+1158509,1158509,Fix Released,Some Compute API methods unnecessarily alter the vm_state.,https://bugs.launchpad.net/nova/+bug/1158509,2013-10-17
+1182759,1182759,Fix Released,unused TunnelIP db model should be removed,https://bugs.launchpad.net/neutron/+bug/1182759,2013-10-17
+1158319,1158319,Fix Released,generate_authors() does not include Co-authored-by,https://bugs.launchpad.net/nova/+bug/1158319,2013-10-17
+1182736,1182736,Fix Released,Override empty api_extensions_path for NVP,https://bugs.launchpad.net/neutron/+bug/1182736,2013-10-17
+1174323,1174323,Fix Released,Incorrect usage of NexusPortBindingNotFound exception in nexus_db_v2,https://bugs.launchpad.net/neutron/+bug/1174323,2013-10-17
+1157824,1157824,Fix Released,incorrect config option type in baremetal virtual power driver,https://bugs.launchpad.net/nova/+bug/1157824,2013-10-17
+1157695,1157695,Fix Released,xenapi: RPM parted dependency,https://bugs.launchpad.net/nova/+bug/1157695,2013-10-17
+1177428,1177428,Fix Released,Create a common function for _parse_network_vlan_ranges used by plugins,https://bugs.launchpad.net/neutron/+bug/1177428,2013-10-17
+1181606,1181606,Fix Released,require_context*() decorators in nova/db/sqlalchemy/api.py don't copy function attrs to a wrapper,https://bugs.launchpad.net/nova/+bug/1181606,2013-10-17
+1180955,1180955,Fix Released,powervm error'd local volume cleanup fails,https://bugs.launchpad.net/nova/+bug/1180955,2013-10-17
+1173133,1173133,Fix Released,SQLAlchemy Query can be used as an iterable to avoid creation of a list,https://bugs.launchpad.net/neutron/+bug/1173133,2013-10-17
+1180604,1180604,Fix Released,Rebuild doesn't have ImageNotActive check,https://bugs.launchpad.net/nova/+bug/1180604,2013-10-17
+1160431,1160431,Fix Released,router.interface.{create|delete} notifications do not include the router or tenant IDs,https://bugs.launchpad.net/neutron/+bug/1160431,2013-10-17
+1159560,1159560,Fix Released,Create a fake netconf client for Cisco nexus unit tests,https://bugs.launchpad.net/neutron/+bug/1159560,2013-10-17
+1180283,1180283,Fix Released,"with cells, instances can go from active back to build",https://bugs.launchpad.net/nova/+bug/1180283,2013-10-17
+1158434,1158434,Fix Released,The admin role should be configurable,https://bugs.launchpad.net/neutron/+bug/1158434,2013-10-17
+1180159,1180159,Fix Released,Size handling in `_get_and_check_image_metadata`,https://bugs.launchpad.net/nova/+bug/1180159,2013-10-17
+1156473,1156473,Fix Released,"For sequences, (strings, lists, tuples), use the fact that empty sequences are false",https://bugs.launchpad.net/neutron/+bug/1156473,2013-10-17
+1179476,1179476,Fix Released,Nova doesn't allow for a cacert file to be specified when calling cinder  (Issue when using self signed certs),https://bugs.launchpad.net/nova/+bug/1179476,2013-10-17
+1152429,1152429,Fix Released,metadata-agent should reuse auth_token across eventlet threads,https://bugs.launchpad.net/neutron/+bug/1152429,2013-10-17
+1178280,1178280,Fix Released,Incorrect element name in server-evacuate-req.xml,https://bugs.launchpad.net/nova/+bug/1178280,2013-10-17
+1147190,1147190,Fix Released,Enable agent scheduler for brocade plugin,https://bugs.launchpad.net/neutron/+bug/1147190,2013-10-17
+1177948,1177948,Fix Released,Duplicate assert in test_snapshot_in_ami_format,https://bugs.launchpad.net/nova/+bug/1177948,2013-10-17
+1177605,1177605,Fix Released,Hyper-V test method test_spawn_nova_net_vif_no_vswitch_exception issue,https://bugs.launchpad.net/nova/+bug/1177605,2013-10-17
+1099694,1099694,Fix Released,parallelize unit tests,https://bugs.launchpad.net/neutron/+bug/1099694,2013-10-17
+1177487,1177487,Fix Released,Scheduler DB lookups are slow,https://bugs.launchpad.net/nova/+bug/1177487,2013-10-17
+1177104,1177104,Fix Released,PowerVM drver uses stale ssh connection if hypervisor is rebooted,https://bugs.launchpad.net/nova/+bug/1177104,2013-10-17
+1020184,1020184,Fix Released,Doc-string Formatting Clean-up (pep 257),https://bugs.launchpad.net/neutron/+bug/1020184,2013-10-17
+1175414,1175414,Fix Released,Circular reference serializing InstanceTypeNotFound,https://bugs.launchpad.net/nova/+bug/1175414,2013-10-17
+1175383,1175383,Fix Released,Default 'tiny' instance_type has wrong root_gb,https://bugs.launchpad.net/nova/+bug/1175383,2013-10-17
+1185260,1185260,Fix Released,Add sqlalchemy_pool_size option to default config files,https://bugs.launchpad.net/neutron/+bug/1185260,2013-10-17
+1174953,1174953,Fix Released,gflags used in Smoketests,https://bugs.launchpad.net/nova/+bug/1174953,2013-10-17
+1183209,1183209,Fix Released,Fix quantum.conf comment regarding overlapping IP's,https://bugs.launchpad.net/neutron/+bug/1183209,2013-10-17
+1174266,1174266,Fix Released,test_show_translates_image_state_correctly sometimes fails,https://bugs.launchpad.net/nova/+bug/1174266,2013-10-17
+1183144,1183144,Fix Released,Quantum should do an oslo sync to get new default log format and python3 friendliness.,https://bugs.launchpad.net/neutron/+bug/1183144,2013-10-17
+1181925,1181925,Fix Released,cannot print debug messages in tests (trivial),https://bugs.launchpad.net/neutron/+bug/1181925,2013-10-17
+1170328,1170328,Fix Released,failed rescue should not error an instance,https://bugs.launchpad.net/nova/+bug/1170328,2013-10-17
+1179759,1179759,Fix Released,make default transport type configurable nvp,https://bugs.launchpad.net/neutron/+bug/1179759,2013-10-17
+1170049,1170049,Fix Released,logger logs events multiple times when you use the default_log_levels Edit,https://bugs.launchpad.net/nova/+bug/1170049,2013-10-17
+1179331,1179331,Fix Released,./run_tests.sh -pep8 is broken,https://bugs.launchpad.net/neutron/+bug/1179331,2013-10-17
+1169811,1169811,Fix Released,Translate NoMoreFloatingIps exception in floating ip create API,https://bugs.launchpad.net/nova/+bug/1169811,2013-10-17
+1169777,1169777,Fix Released,cinderclient stacktrace when 404 from cinder get_snapshot,https://bugs.launchpad.net/nova/+bug/1169777,2013-10-17
+1177842,1177842,Fix Released,SQLAlchemy Query.first() can't raise the NoResultFound exception,https://bugs.launchpad.net/neutron/+bug/1177842,2013-10-17
+1166906,1166906,Fix Released,Powervm virt driver not reporting correct error state of corrupted VMs,https://bugs.launchpad.net/nova/+bug/1166906,2013-10-17
+1176947,1176947,Fix Released,Improve logic for nvp plugin nat rules ordering,https://bugs.launchpad.net/neutron/+bug/1176947,2013-10-17
+1165211,1165211,Fix Released,nova api log is missing request IDs for some transactions,https://bugs.launchpad.net/nova/+bug/1165211,2013-10-17
+1176570,1176570,Fix Released,binding:vif_type set twice in Brocade plugin,https://bugs.launchpad.net/neutron/+bug/1176570,2013-10-17
+1164331,1164331,Fix Released,No function to reset coverage data,https://bugs.launchpad.net/nova/+bug/1164331,2013-10-17
+1164331,1164331,Fix Released,No function to reset coverage data,https://bugs.launchpad.net/python-novaclient/+bug/1164331,2013-10-17
+1175481,1175481,Fix Released,lbaas db: Health Monitor is updated with non existing field,https://bugs.launchpad.net/neutron/+bug/1175481,2013-10-17
+1163985,1163985,Fix Released,"When using Quantum, Nova injects static config for dynamic networks",https://bugs.launchpad.net/nova/+bug/1163985,2013-10-17
+1174998,1174998,Fix Released,Avoid all() query when generating tunnel id,https://bugs.launchpad.net/neutron/+bug/1174998,2013-10-17
+1163844,1163844,Fix Released,"Resize instance from large flavor to small flavor based on Hyperv driver, instance status is error and the phsical instance get destroyed",https://bugs.launchpad.net/nova/+bug/1163844,2013-10-17
+1174593,1174593,Fix Released,Fix Cisco Nexus plugin failures for vlan IDs 1006-4094,https://bugs.launchpad.net/neutron/+bug/1174593,2013-10-17
+1163631,1163631,Fix Released,gate-tempest-devstack-vm-full failing with prettytable problem,https://bugs.launchpad.net/devstack/+bug/1163631,2013-10-17
+1163631,1163631,Fix Released,gate-tempest-devstack-vm-full failing with prettytable problem,https://bugs.launchpad.net/nova/+bug/1163631,2013-10-17
+1174457,1174457,Fix Released,Quota checks in test_extension_pnet not circumvented properly,https://bugs.launchpad.net/neutron/+bug/1174457,2013-10-17
+1174111,1174111,Fix Released,List ports operation reloads security group associations for each port,https://bugs.launchpad.net/neutron/+bug/1174111,2013-10-17
+1162029,1162029,Fix Released,xenapi: nova_instance_uuid not set for root image,https://bugs.launchpad.net/nova/+bug/1162029,2013-10-17
+1173463,1173463,Fix Released,Incorrect logic in OVSQuantumAgent.port_unbound method,https://bugs.launchpad.net/neutron/+bug/1173463,2013-10-17
+1173131,1173131,Fix Released,SQLAlchemy Query.all() can't raise NoResultFound exception,https://bugs.launchpad.net/neutron/+bug/1173131,2013-10-17
+1160268,1160268,Fix Released,"Migration may migrate the instance to the same host,  which is meaningless!",https://bugs.launchpad.net/nova/+bug/1160268,2013-10-17
+1169107,1169107,Fix Released,lbaas:  delete_health_monitor() should rely upon cascade operations,https://bugs.launchpad.net/neutron/+bug/1169107,2013-10-17
+1158292,1158292,Fix Released,Tenant and user id required in volume usage notification message,https://bugs.launchpad.net/nova/+bug/1158292,2013-10-17

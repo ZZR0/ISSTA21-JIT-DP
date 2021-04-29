@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1191975,1191975,Fix Released,"openstack-manuals: some of the links on the docs.openstack.org page don't go to correct books (for earlier releases - grizzly, folsom, and so on)",https://bugs.launchpad.net/openstack-manuals/+bug/1191975,2013-10-18
+1191975,1191975,Fix Released,"openstack-manuals: some of the links on the docs.openstack.org page don't go to correct books (for earlier releases - grizzly, folsom, and so on)",https://bugs.launchpad.net/openstack-api-site/+bug/1191975,2013-10-18
+1230002,1230002,Fix Released,Add a note to deprecate OVS and LB plugins,https://bugs.launchpad.net/openstack-manuals/+bug/1230002,2013-10-18
+1230283,1230283,Fix Released,Add neutron ml2 plugin info to cloud admin guide,https://bugs.launchpad.net/openstack-manuals/+bug/1230283,2013-10-18
+1216096,1216096,Fix Released,"All parameters are described as ""template"" in api-ref.html output since 1.9.0 clouddocs-maven-plugin",https://bugs.launchpad.net/openstack-manuals/+bug/1216096,2013-10-18
+1201459,1201459,Fix Released,Add Ceilometer to CLI Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1201459,2013-10-18
+1240390,1240390,Fix Released,Booting an Image in OpenStack Installation Guide for Ubuntu 12.04 (LTS)  - can't SSH in,https://bugs.launchpad.net/openstack-manuals/+bug/1240390,2013-10-18
+1237596,1237596,Fix Released,DB API encrypted fields stack trace on None,https://bugs.launchpad.net/heat/+bug/1237596,2013-10-17
+1207707,1207707,Fix Released,Encrypted passwords are not (always) encoded correctly,https://bugs.launchpad.net/heat/+bug/1207707,2013-10-17
+1217829,1217829,Fix Released,stable/grizzly intermittent MetadataRefreshTest failure,https://bugs.launchpad.net/heat/+bug/1217829,2013-10-17
+1155842,1155842,Fix Released,config drive not visible to windows,https://bugs.launchpad.net/nova/+bug/1155842,2013-10-17
+1212565,1212565,Fix Released,libvirt driver: Failed to attach new interface to VM,https://bugs.launchpad.net/nova/+bug/1212565,2013-10-17
+1224982,1224982,Fix Released,Compute nodes changing hostnames should log an error,https://bugs.launchpad.net/nova/+bug/1224982,2013-10-17
+1207422,1207422,Fix Released,Spawning multiple instances can cause race conditions with nbd,https://bugs.launchpad.net/nova/+bug/1207422,2013-10-17
+1215091,1215091,Fix Released,[OSSA 2013-026] Some sequence of characters in console-log can DoS nova-compute (CVE-2013-4261),https://bugs.launchpad.net/ossa/+bug/1215091,2013-10-17
+1193359,1193359,Fix Released,Cannot live block migrate an instance without shared storage,https://bugs.launchpad.net/nova/+bug/1193359,2013-10-17
+1216720,1216720,Fix Released,Security groups with source groups no longer work,https://bugs.launchpad.net/nova/+bug/1216720,2013-10-17
+1239983,1239983,Fix Released,After job complete the end time is not updated,https://bugs.launchpad.net/sahara/+bug/1239983,2013-10-17
+1239592,1239592,Fix Released,job is not started after cluster activation,https://bugs.launchpad.net/sahara/+bug/1239592,2013-10-17
+1236421,1236421,Fix Released,[EDP] Validation for binary job name,https://bugs.launchpad.net/sahara/+bug/1236421,2013-10-17
+1235702,1235702,Fix Released,config_helper.py doesn't handle int configuration correctly,https://bugs.launchpad.net/sahara/+bug/1235702,2013-10-17
+1235481,1235481,Fix Released,"Need to empty /tmp/*.sh, before appending",https://bugs.launchpad.net/sahara/+bug/1235481,2013-10-17
+1235258,1235258,Fix Released,[HDP] Monitor HDP 2.0 integration,https://bugs.launchpad.net/sahara/+bug/1235258,2013-10-17
+1238712,1238712,Fix Released,python-savannaclient installs requests 2.0 that brakes horizon,https://bugs.launchpad.net/sahara/+bug/1238712,2013-10-17
+1238072,1238072,Fix Released,New keystone.client() doesn't work for 'identity' v2.0,https://bugs.launchpad.net/sahara/+bug/1238072,2013-10-17
+1237434,1237434,Fix Released,[EDP] Wrong validation to run jar job,https://bugs.launchpad.net/sahara/+bug/1237434,2013-10-17
+1235229,1235229,Fix Released,[EDP] No validation when deleting Data Source,https://bugs.launchpad.net/sahara/+bug/1235229,2013-10-17
+1232084,1232084,Fix Released,"Cluster stuck in ""configuring"" state if plugin raises exception",https://bugs.launchpad.net/sahara/+bug/1232084,2013-10-17
+1232065,1232065,Fix Released,Anti-affinity is not copied from template to cluster,https://bugs.launchpad.net/sahara/+bug/1232065,2013-10-17
+1228138,1228138,Fix Released,[UI] Jobs and JobExecutions should be configurable,https://bugs.launchpad.net/sahara/+bug/1228138,2013-10-17
+1203802,1203802,Fix Released,[Doc] Savanna documentation should contain cluster states,https://bugs.launchpad.net/sahara/+bug/1203802,2013-10-17
+1234702,1234702,Fix Released,"In ""savanna-extra/hadoop-swiftfs"" pom.xml doesn't specify -source",https://bugs.launchpad.net/sahara/+bug/1234702,2013-10-17
+1235524,1235524,Fix Released,Add missing fixtures dependency to test-requirements.txt,https://bugs.launchpad.net/sahara/+bug/1235524,2013-10-17
+1236334,1236334,Fix Released,[Doc][Vanilla][HDP] Add usernames to docs for images,https://bugs.launchpad.net/sahara/+bug/1236334,2013-10-17
+1234642,1234642,Fix Released,Error logs on new cluster with running oozie,https://bugs.launchpad.net/sahara/+bug/1234642,2013-10-17
+1228140,1228140,Fix Released,JobExecution should be non-blocking,https://bugs.launchpad.net/sahara/+bug/1228140,2013-10-17
+1228128,1228128,Fix Released,Job-Binary retriever from swift is not implemented,https://bugs.launchpad.net/sahara/+bug/1228128,2013-10-17
+1235689,1235689,Fix Released,config_helper.py:set_general_configs should be removed,https://bugs.launchpad.net/sahara/+bug/1235689,2013-10-17
+1218452,1218452,Fix Released,No access check for savanna operation,https://bugs.launchpad.net/sahara/+bug/1218452,2013-10-17
+1204641,1204641,Fix Released,Request body json.dumps needed during object creation,https://bugs.launchpad.net/sahara/+bug/1204641,2013-10-17
+1234656,1234656,Fix Released,"Remove one of ""diskimage-create"" scripts",https://bugs.launchpad.net/sahara/+bug/1234656,2013-10-17
+1232038,1232038,Fix Released,[UI][EDP] Data Source should provide URL hints,https://bugs.launchpad.net/sahara/+bug/1232038,2013-10-17
+1232218,1232218,Fix Released,[UI][EDP] Job binaries details page is broken,https://bugs.launchpad.net/sahara/+bug/1232218,2013-10-17
+1232205,1232205,Fix Released,[UI][EDP] Data source details page is broken,https://bugs.launchpad.net/sahara/+bug/1232205,2013-10-17
+1228143,1228143,Fix Released,[UI] JobExecution page should be more pretty,https://bugs.launchpad.net/sahara/+bug/1228143,2013-10-17
+1227073,1227073,Fix Released,[UI] Savanna dashboard doesn't set workflow.name for cluster scale,https://bugs.launchpad.net/sahara/+bug/1227073,2013-10-17
+1234215,1234215,Fix Released,[Client] python-savannaclient does not support keystone v3 api,https://bugs.launchpad.net/sahara/+bug/1234215,2013-10-17
+1233192,1233192,Fix Released,Oozie isn't working,https://bugs.launchpad.net/sahara/+bug/1233192,2013-10-17
+1228135,1228135,Fix Released,[UI] Add help for EDP wizards,https://bugs.launchpad.net/sahara/+bug/1228135,2013-10-17
+1223953,1223953,Fix Released,Itermittent Unit Test Failure: ClusterModelTest.testCreateCluster,https://bugs.launchpad.net/sahara/+bug/1223953,2013-10-17
+1220239,1220239,Fix Released,validation exceptions are not handled correctly,https://bugs.launchpad.net/sahara/+bug/1220239,2013-10-17
+1218361,1218361,Fix Released,Typo in quickstart guide,https://bugs.launchpad.net/sahara/+bug/1218361,2013-10-17
+1209298,1209298,Fix Released,variable 'WORKAROUND_BUG_1204824' is not available on first boot,https://bugs.launchpad.net/sahara/+bug/1209298,2013-10-17
+1204077,1204077,Fix Released,'savanna-api --version' shows nothing,https://bugs.launchpad.net/sahara/+bug/1204077,2013-10-17
+1229857,1229857,Fix Released,[UI][EDP] JobBinaryInternal should be removed,https://bugs.launchpad.net/sahara/+bug/1229857,2013-10-17
+1228133,1228133,Fix Released,[UI] Description should be multiline,https://bugs.launchpad.net/sahara/+bug/1228133,2013-10-17
+1219903,1219903,Fix Released,"incorrect application parameter:""dfs.replication"" for scaling cluster",https://bugs.launchpad.net/sahara/+bug/1219903,2013-10-17
+1219191,1219191,Fix Released,babel dependency is missing in tarball built from master,https://bugs.launchpad.net/sahara/+bug/1219191,2013-10-17
+1215359,1215359,Fix Released,Cluster creation is possible with out image,https://bugs.launchpad.net/sahara/+bug/1215359,2013-10-17
+1212253,1212253,Fix Released,Return value for data-sources api is incorrect,https://bugs.launchpad.net/sahara/+bug/1212253,2013-10-17
+1208966,1208966,Fix Released,[HDP] make ambari rpm location configurable via ambari blueprint,https://bugs.launchpad.net/sahara/+bug/1208966,2013-10-17
+1208952,1208952,Fix Released,[HDP] Allow Ambari users to be specified in configuration,https://bugs.launchpad.net/sahara/+bug/1208952,2013-10-17
+1204943,1204943,Fix Released,Editing a Flavor that is used by an existing Node Group Template causes cluster error,https://bugs.launchpad.net/sahara/+bug/1204943,2013-10-17
+1228130,1228130,Fix Released,[UI ] Allow user to create scripts on the fly,https://bugs.launchpad.net/sahara/+bug/1228130,2013-10-17
+1227303,1227303,Fix Released,[HDP] enable swift integration,https://bugs.launchpad.net/sahara/+bug/1227303,2013-10-17
+1221032,1221032,Fix Released,Cinder volumes not removed,https://bugs.launchpad.net/sahara/+bug/1221032,2013-10-17
+1214878,1214878,Fix Released,Broken Cinder Volume,https://bugs.launchpad.net/sahara/+bug/1214878,2013-10-17
+1213392,1213392,Fix Released,Timeout on id_rsa generation causes cluster startup failure,https://bugs.launchpad.net/sahara/+bug/1213392,2013-10-17
+1213074,1213074,Fix Released,"Can not start a cluster with message ""Hadoop cluster should contain only 1 NameNode instance""",https://bugs.launchpad.net/sahara/+bug/1213074,2013-10-17
+1204426,1204426,Fix Released,Check SQLAlchemy 0.8.x compatibility,https://bugs.launchpad.net/sahara/+bug/1204426,2013-10-17
+1186874,1186874,Fix Released,Implement ip selection policy mechanism,https://bugs.launchpad.net/sahara/+bug/1186874,2013-10-17
+1186118,1186118,Fix Released,Migrate to pbr instead of oslo setup helper,https://bugs.launchpad.net/sahara/+bug/1186118,2013-10-17
+1212341,1212341,Fix Released,remote interface opens and closes connections too frequently,https://bugs.launchpad.net/sahara/+bug/1212341,2013-10-17
+1208951,1208951,Fix Released,"Current master has dependency conflict for ""requests"" package.",https://bugs.launchpad.net/sahara/+bug/1208951,2013-10-17
+1206670,1206670,Fix Released,[Doc] latest docs are broken at rtfd,https://bugs.launchpad.net/sahara/+bug/1206670,2013-10-17

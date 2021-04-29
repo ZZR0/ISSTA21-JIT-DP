@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1851379,1851379,Fix Released,Using requirements_git_url fail,https://bugs.launchpad.net/openstack-ansible/+bug/1851379,2019-11-19
+1852612,1852612,Fix Released,Invalid RPC call prevents agent from getting device details,https://bugs.launchpad.net/networking-hyperv/+bug/1852612,2019-11-18
+1794975,1794975,Fix Released,Secgroup driver should ignore missing ports,https://bugs.launchpad.net/networking-hyperv/+bug/1794975,2019-11-18
+1850715,1850715,Fix Released,LB SG is wrongly updated for egress only policy,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1850715,2019-11-18
+1850983,1850983,Fix Released,Train upgrades: periodic-tripleo-ci-centos-7-standalone-upgrade-train is failing -  ERROR configuring swift_ringbuilder,https://bugs.launchpad.net/tripleo/+bug/1850983,2019-11-18
+1852609,1852609,Fix Released,Reboot an instance in nova - split the rescue part out,https://bugs.launchpad.net/nova/+bug/1852609,2019-11-15
+1521342,1521342,Fix Released,support uploading from a stdin stream,https://bugs.launchpad.net/python-swiftclient/+bug/1521342,2019-11-15
+1842330,1842330,Fix Released,Command rally verify list-verifier-exts crashes,https://bugs.launchpad.net/rally/+bug/1842330,2019-11-15
+1784983,1784983,Fix Released,we should not set instance to ERROR state when rebuild_claim faild,https://bugs.launchpad.net/nova/+bug/1784983,2019-11-15
+1852688,1852688,Fix Released,Unable to connect to iLO if password of admin is changed,https://bugs.launchpad.net/proliantutils/+bug/1852688,2019-11-15
+1709041,1709041,Fix Released,REST api support for stack_cancel_update with no rollback,https://bugs.launchpad.net/heat/+bug/1709041,2019-11-15
+1733783,1733783,Fix Released,some links are invalid in the spec file,https://bugs.launchpad.net/neutron/+bug/1733783,2019-11-15
+1815403,1815403,Fix Released,"“Suspending” an instance cannot release it occupied resource, but “shelving” can.",https://bugs.launchpad.net/nova/+bug/1815403,2019-11-14
+1852508,1852508,Fix Released,upstream mirrors causing gate failures,https://bugs.launchpad.net/tripleo/+bug/1852508,2019-11-14
+1837877,1837877,Fix Released,[OSSA-2019-003] Nova Server Resource Faults Leak External Exception Details (CVE-2019-14433),https://bugs.launchpad.net/ossa/+bug/1837877,2019-11-14
+1837877,1837877,Fix Released,[OSSA-2019-003] Nova Server Resource Faults Leak External Exception Details (CVE-2019-14433),https://bugs.launchpad.net/nova/+bug/1837877,2019-11-14
+1550353,1550353,Fix Released,volume migration between different availability zones does not work,https://bugs.launchpad.net/cinder/+bug/1550353,2019-11-14
+1845330,1845330,Fix Released,neutron-tempest-plugin API test for list agents failure,https://bugs.launchpad.net/neutron/+bug/1845330,2019-11-14
+1823370,1823370,Fix Released,Evacuations are not restricted to the source cell during scheduling,https://bugs.launchpad.net/nova/+bug/1823370,2019-11-14
+1808902,1808902,Fix Released,Support matrix for abort migration is missing,https://bugs.launchpad.net/nova/+bug/1808902,2019-11-13
+1839658,1839658,Fix Released,"""subnet"" register in the DB can have network_id=NULL",https://bugs.launchpad.net/neutron/+bug/1839658,2019-11-13
+1852460,1852460,Fix Committed,"python-zunclient - argument must be str, not bytes",https://bugs.launchpad.net/python-zunclient/+bug/1852460,2019-11-13
+1624789,1624789,Fix Released,os_panko missing. Ceilometer event.sample queue stuck with no consumers,https://bugs.launchpad.net/openstack-ansible/+bug/1624789,2019-11-13
+1831041,1831041,Fix Released,Undercloud Upgrade job in stable/stein fails with error: No such playbook: /usr/share/openstack-tripleo-validations/playbooks/undercloud-disk-space-pre-upgrade.yaml,https://bugs.launchpad.net/tripleo/+bug/1831041,2019-11-13
+1843023,1843023,Fix Released,validate docker image in tripleo-upgrade is not working with podman.,https://bugs.launchpad.net/tripleo/+bug/1843023,2019-11-13
+1844974,1844974,Fix Released,"Undercloud upgrade failed taks tripleo-upgrade : remove ceph_osd from ceph env, Invalid data passed to 'loop'",https://bugs.launchpad.net/tripleo/+bug/1844974,2019-11-13
+1845025,1845025,Fix Released,validate_docker_images_versions.sh failes with unbound  variable,https://bugs.launchpad.net/tripleo/+bug/1845025,2019-11-13
+1735620,1735620,Fix Released,Delorean fails to detect ZUUL_BRANCH when building rpms,https://bugs.launchpad.net/tripleo/+bug/1735620,2019-11-13
+1718295,1718295,Fix Released,"Live migration fails with qemu-img >= 2.10: ""Failed to get shared ""write"" lock\nIs another process using the image?""",https://bugs.launchpad.net/nova/+bug/1718295,2019-11-12
+1718295,1718295,Fix Released,"Live migration fails with qemu-img >= 2.10: ""Failed to get shared ""write"" lock\nIs another process using the image?""",https://bugs.launchpad.net/devstack/+bug/1718295,2019-11-12
+1851927,1851927,Fix Released,"Stein OVB jobs fail,  ContainerOvnDbsImage was not provided.",https://bugs.launchpad.net/tripleo/+bug/1851927,2019-11-12
+1483700,1483700,Fix Released,[Ceilometer] radosgw pollsters are not obtained,https://bugs.launchpad.net/fuel/+bug/1483700,2019-11-12
+1634278,1634278,Fix Released,NetApp cDOT driver does not fence off 'dr' replicas after promotion,https://bugs.launchpad.net/manila/+bug/1634278,2019-11-12
+1678524,1678524,Fix Released,"NetApp driver doesn't check for valid license before reporting ""revert_to_snapshot_support""",https://bugs.launchpad.net/manila/+bug/1678524,2019-11-12
+1634734,1634734,Fix Released,create replica failed if share_backend_name is specified in share type,https://bugs.launchpad.net/manila/+bug/1634734,2019-11-12
+1796986,1796986,Fix Released,[doc] No end-user documentation on user messages,https://bugs.launchpad.net/manila/+bug/1796986,2019-11-12
+1700871,1700871,Fix Released,NetApp cDOT - Can't extend a replicated share,https://bugs.launchpad.net/manila/+bug/1700871,2019-11-12
+1845135,1845135,Fix Released,Failed to enable ipv6 mgmt IP for Unity manila driver (queens),https://bugs.launchpad.net/manila/+bug/1845135,2019-11-12
+1827645,1827645,Fix Released,etcd playbook targets wrong group,https://bugs.launchpad.net/openstack-ansible/+bug/1827645,2019-11-12
+1791125,1791125,Fix Released,CLI reference is missing options for 2.58 and 2.59 microversions,https://bugs.launchpad.net/python-novaclient/+bug/1791125,2019-11-12
+1794419,1794419,Fix Released,Rebuild with user-data takes file path literally,https://bugs.launchpad.net/python-novaclient/+bug/1794419,2019-11-12
+1823287,1823287,Fix Released,"nova console-log throws an error: ERROR (TypeError): write() argument must be str, not bytes",https://bugs.launchpad.net/python-novaclient/+bug/1823287,2019-11-12
+1845322,1845322,Fix Released,'--hint' argument to 'nova boot ' should be a key-value pair,https://bugs.launchpad.net/python-novaclient/+bug/1845322,2019-11-12
+1825888,1825888,Fix Released,"In OVS hybrid, avoid ""qbr"" from replying ARP packets if the IP is local in the system",https://bugs.launchpad.net/os-vif/+bug/1825888,2019-11-12
+1822099,1822099,Fix Released,NeutronBindNetworkPlugin multi segment mtu handling,https://bugs.launchpad.net/manila/+bug/1822099,2019-11-12
+1849165,1849165,Fix Released,"_populate_assigned_resources raises ""TypeError: argument of type 'NoneType' is not iterable"" during active migration",https://bugs.launchpad.net/nova/+bug/1849165,2019-11-12
+1839920,1839920,Fix Released,Macvtap CI fails on Train,https://bugs.launchpad.net/nova/+bug/1839920,2019-11-12
+1846836,1846836,Fix Released,Share network update returns success when it shouldn't,https://bugs.launchpad.net/manila/+bug/1846836,2019-11-12
+1794359,1794359,Fix Released,Installing openvswitch 2.10 through layered product packaging foils upgrades,https://bugs.launchpad.net/tripleo/+bug/1794359,2019-11-11
+1822990,1822990,Fix Released,heat deployment fails with TLS enabled,https://bugs.launchpad.net/kolla-ansible/+bug/1822990,2019-11-11
+1823726,1823726,Fix Released,Monasca notification restarting without notification templates,https://bugs.launchpad.net/kolla-ansible/+bug/1823726,2019-11-11
+1823044,1823044,Fix Released,Docker CE can cause ironic provisioning to fail,https://bugs.launchpad.net/kolla-ansible/+bug/1823044,2019-11-11
+1813492,1813492,Fix Released,easy_install doesn't exist in 18.04,https://bugs.launchpad.net/kolla-ansible/+bug/1813492,2019-11-11
+1823989,1823989,Fix Released,Ubuntu binary deploys are failing on master and stable/stein,https://bugs.launchpad.net/kolla-ansible/+bug/1823989,2019-11-11
+1823989,1823989,Fix Released,Ubuntu binary deploys are failing on master and stable/stein,https://bugs.launchpad.net/kolla/+bug/1823989,2019-11-11
+1824098,1824098,Fix Released,Add become for prometheus-openstack-exporter tasks,https://bugs.launchpad.net/kolla-ansible/+bug/1824098,2019-11-11
+1825150,1825150,Fix Released,External web URL not set in Prometheus,https://bugs.launchpad.net/kolla-ansible/+bug/1825150,2019-11-11
+1821285,1821285,Fix Released,wait for grafana ready failed,https://bugs.launchpad.net/kolla-ansible/+bug/1821285,2019-11-11
+1826511,1826511,Fix Released,glance reconfigure fails when using external ceph,https://bugs.launchpad.net/kolla-ansible/+bug/1826511,2019-11-11
+1827370,1827370,Fix Released,Ansible reports deprecation warning since ansible=2.5,https://bugs.launchpad.net/kolla-ansible/+bug/1827370,2019-11-11
+1827976,1827976,Fix Released,"BREACH attack is fixed on horizon side, gzip could be enable when using tls",https://bugs.launchpad.net/kolla-ansible/+bug/1827976,2019-11-11
+1809469,1809469,Fix Released,keystone_fernet incorrectly calculates rotation schedule,https://bugs.launchpad.net/kolla-ansible/+bug/1809469,2019-11-11
+1829705,1829705,Fix Released,DBNotAllowed error in nova compute log,https://bugs.launchpad.net/kolla-ansible/+bug/1829705,2019-11-11
+1829435,1829435,Fix Released,Path correction in Quick Start in kolla-ansible,https://bugs.launchpad.net/kolla-ansible/+bug/1829435,2019-11-11
+1830023,1830023,Fix Released,Live migration can fail if compute node hostnames don't map to api_interface,https://bugs.launchpad.net/kolla-ansible/+bug/1830023,2019-11-11
+1830184,1830184,Fix Released,Renaming payload fails for Fluentd Monasca config,https://bugs.launchpad.net/kolla-ansible/+bug/1830184,2019-11-11
+1830723,1830723,Fix Released,Permission denied when copying gnocchi policy.json,https://bugs.launchpad.net/kolla-ansible/+bug/1830723,2019-11-11
+1830346,1830346,Fix Released,Cannot deploy VMTP,https://bugs.launchpad.net/kolla-ansible/+bug/1830346,2019-11-11
+1831078,1831078,Fix Released,Support elasticsearch authentication and TLS connections,https://bugs.launchpad.net/kolla-ansible/+bug/1831078,2019-11-11
+1830853,1830853,Fix Released,Spelling mistake in manila.conf.j2,https://bugs.launchpad.net/kolla-ansible/+bug/1830853,2019-11-11
+1830586,1830586,Fix Released,kolla-ansible deploy-guide broken,https://bugs.launchpad.net/kolla-ansible/+bug/1830586,2019-11-11
+1832987,1832987,Fix Released,CI: random error in: nova : Discovering nova hosts (Duplicate host mapping),https://bugs.launchpad.net/kolla-ansible/+bug/1832987,2019-11-11
+1832989,1832989,Fix Released,CI: random error in: ceph : Enabling all new Luminous-only functionality (EPERM: not supported),https://bugs.launchpad.net/kolla-ansible/+bug/1832989,2019-11-11
+1833200,1833200,Fix Released,The redis_connection_string used by osprofiler is incorrect,https://bugs.launchpad.net/kolla-ansible/+bug/1833200,2019-11-11
+1833336,1833336,Fix Released,Horizon logrotate config is missing,https://bugs.launchpad.net/kolla-ansible/+bug/1833336,2019-11-11

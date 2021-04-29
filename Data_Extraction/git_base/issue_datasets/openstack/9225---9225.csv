@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1810504,1810504,Fix Released,neutron-tempest-iptables_hybrid job failing with internal server error while listining ports,https://bugs.launchpad.net/neutron/+bug/1810504,2019-02-26
+1809134,1809134,Fix Released,TypeError in QoS gateway_ip code in l3-agent logs,https://bugs.launchpad.net/neutron/+bug/1809134,2019-02-26
+1813540,1813540,Fix Released,Functional test neutron.tests.functional.services.portforwarding.test_port_forwarding.PortForwardingTestCase.test_concurrent_create_port_forwarding_delete_port fails,https://bugs.launchpad.net/neutron/+bug/1813540,2019-02-26
+1812576,1812576,Fix Released,L2 agent do not clear old QoS rules after restart,https://bugs.launchpad.net/neutron/+bug/1812576,2019-02-26
+1814143,1814143,Fix Released,Bump pyroute2 version to 0.5.3,https://bugs.launchpad.net/neutron/+bug/1814143,2019-02-26
+1815498,1815498,Fix Released,Use pyroute2 to check vlan/vxlan in use,https://bugs.launchpad.net/neutron/+bug/1815498,2019-02-26
+1815629,1815629,Fix Released,api and rpc worker defaults are problematic,https://bugs.launchpad.net/neutron/+bug/1815629,2019-02-26
+1781354,1781354,Fix Released,VPNaaS: IPsec siteconnection status DOWN while using IKE v2,https://bugs.launchpad.net/neutron/+bug/1781354,2019-02-26
+1786746,1786746,Fix Released,[FW Logging] NFLOG rules still remains after deleting log resource,https://bugs.launchpad.net/neutron/+bug/1786746,2019-02-26
+1789322,1789322,Fix Released,ImportError: cannot import name fake_notifier,https://bugs.launchpad.net/neutron/+bug/1789322,2019-02-26
+1775797,1775797,Fix Released,"The mac table size of neutron bridges (br-tun, br-int, br-*) is too small by default and eventually makes openvswitch explode",https://bugs.launchpad.net/neutron/+bug/1775797,2019-02-26
+1817248,1817248,Fix Released,KeyManager.create_key length parameter is ambiguous,https://bugs.launchpad.net/castellan/+bug/1817248,2019-02-26
+1806500,1806500,Fix Released,sharder fails when drive is unmounted,https://bugs.launchpad.net/swift/+bug/1806500,2019-02-25
+1804627,1804627,Fix Released,Selection of select eventlet.hub instead of poll in wsgi servers,https://bugs.launchpad.net/swift/+bug/1804627,2019-02-25
+1774719,1774719,Fix Released,copy middleware stores per-request data on the WSGI filter,https://bugs.launchpad.net/swift/+bug/1774719,2019-02-25
+1717401,1717401,Fix Released,Client(curl) gets partial content while proxy-server got ChunkRead timeout,https://bugs.launchpad.net/swift/+bug/1717401,2019-02-25
+1715177,1715177,Fix Released,Container cache management is racy,https://bugs.launchpad.net/swift/+bug/1715177,2019-02-25
+1634723,1634723,Fix Released,Fast-POST may place 'X-Static-Large-Object' metadata on non-manifest objects,https://bugs.launchpad.net/swift/+bug/1634723,2019-02-25
+1453807,1453807,Fix Released,Post (not as copy) to SLO manifest destroys its state as a manifest,https://bugs.launchpad.net/swift/+bug/1453807,2019-02-25
+1738804,1738804,Fix Released,Socket leak on proxy->obj when HTTPRequestedRangeNotSatisfiable with erasure code,https://bugs.launchpad.net/swift/+bug/1738804,2019-02-25
+1741371,1741371,Fix Released,Expiring objects have skewed X-Delete-At values,https://bugs.launchpad.net/swift/+bug/1741371,2019-02-25
+1791043,1791043,Fix Released,wsgi.py - wrong path in it,https://bugs.launchpad.net/horizon/+bug/1791043,2019-02-23
+1814200,1814200,Fix Released,Unable to remount NFS volume in Glance container,https://bugs.launchpad.net/openstack-ansible/+bug/1814200,2019-02-22
+1807384,1807384,Fix Released,os_cinder: Cinder volume is tied to original container,https://bugs.launchpad.net/openstack-ansible/+bug/1807384,2019-02-22
+1815902,1815902,Fix Released,Error galera_server : Download extra packages,https://bugs.launchpad.net/openstack-ansible/+bug/1815902,2019-02-22
+1811964,1811964,Fix Released,"""Where to go to next?"" buttons are broken",https://bugs.launchpad.net/openstack-manuals/+bug/1811964,2019-02-21
+1815620,1815620,Fix Released,Improve testing for config_template,https://bugs.launchpad.net/openstack-ansible/+bug/1815620,2019-02-21
+1816477,1816477,Fix Released,stable/rocky undercloud install fails on duplicate declaration of systemctl-daemon-reload,https://bugs.launchpad.net/tripleo/+bug/1816477,2019-02-21
+1816406,1816406,Fix Released,[rocky] [rdo-kolla-build : Reload and restart docker]  timeout,https://bugs.launchpad.net/tripleo/+bug/1816406,2019-02-21
+1816553,1816553,Fix Released,[fs16] multinode periodic job runned in check overcloud deploy got failed Could not fetch contents for file:///tmp/tripleoclient-j2egNX/tripleo-heat-templates/deployment/metrics/collectd-container-puppet.yaml,https://bugs.launchpad.net/tripleo/+bug/1816553,2019-02-21
+1815609,1815609,Fix Released,[fwaas] devstack plugin fails if ML2/OVS is not use,https://bugs.launchpad.net/neutron/+bug/1815609,2019-02-21
+1800495,1800495,Fix Released,reproducer script installs wrong puppet-tripleo package from delorian-current instead of the gating repo built locally,https://bugs.launchpad.net/tripleo/+bug/1800495,2019-02-20
+1533941,1533941,Fix Released,router in the bottom pod could be configurable to DVR or not,https://bugs.launchpad.net/tricircle/+bug/1533941,2019-02-20
+1793099,1793099,Fix Released,Qos rule not update after vm bound qos,https://bugs.launchpad.net/tricircle/+bug/1793099,2019-02-20
+1810314,1810314,Fix Released,neutron objects base get_values() fails with KeyError,https://bugs.launchpad.net/tricircle/+bug/1810314,2019-02-20
+1810700,1810700,Fix Released,the error version of oslo.upgradecheck,https://bugs.launchpad.net/tricircle/+bug/1810700,2019-02-20
+1801745,1801745,Fix Released,Unit tests are broken,https://bugs.launchpad.net/tricircle/+bug/1801745,2019-02-20
+1692415,1692415,Fix Released,Bridge network segment ID conflicts with local network's,https://bugs.launchpad.net/tricircle/+bug/1692415,2019-02-20
+1763436,1763436,Fix Released,Tempest plugins installed without upper-constraints,https://bugs.launchpad.net/devstack/+bug/1763436,2019-02-19
+1793073,1793073,Fix Released,[queens] fs01 noop job failed with Stderr: u'/usr/bin/ironic-inspector-rootwrap: Unauthorized command: systemctl start openstack-ironic-inspector-dnsmasq.service (no filter matched),https://bugs.launchpad.net/tripleo/+bug/1793073,2019-02-19
+1759952,1759952,Fix Released,mysql users are not updated when overcloud is redeployed with new passwords,https://bugs.launchpad.net/tripleo/+bug/1759952,2019-02-19
+1759982,1759982,Fix Released,Openvswitch user doesn't exist when updating ovs package to 2.8 onward during minor/major upgrade,https://bugs.launchpad.net/tripleo/+bug/1759982,2019-02-19
+1803937,1803937,Fix Released,internal libpod error open /sys/fs/cgroup/cpuset/machine.slice/cpuset.cpus: no such file or directory,https://bugs.launchpad.net/tripleo/+bug/1803937,2019-02-19
+1720153,1720153,Fix Released,No CI coverage for minor updates,https://bugs.launchpad.net/tripleo/+bug/1720153,2019-02-19
+1690185,1690185,Fix Released,[RFE] Deprecate classic drivers,https://bugs.launchpad.net/tripleo/+bug/1690185,2019-02-19
+1808855,1808855,Fix Released,TLS everywhere deployments fail with: Invalid input for field/attribute compact_services,https://bugs.launchpad.net/tripleo/+bug/1808855,2019-02-19
+1808855,1808855,Fix Released,TLS everywhere deployments fail with: Invalid input for field/attribute compact_services,https://bugs.launchpad.net/novajoin/+bug/1808855,2019-02-19
+1802083,1802083,Fix Released,Undercloud install fails at Unknown function: 'normalize_ip_for_uri',https://bugs.launchpad.net/tripleo/+bug/1802083,2019-02-19
+1801076,1801076,Fix Released,"Crane container fails to build in promotion because ""No package mod_xsendfile available""",https://bugs.launchpad.net/tripleo/+bug/1801076,2019-02-19
+1794770,1794770,Fix Released,undercloud upgrade using stale t-h-t,https://bugs.launchpad.net/tripleo/+bug/1794770,2019-02-19
+1785055,1785055,Fix Released,quickstart should collect information on the BMC node and baremetal console,https://bugs.launchpad.net/tripleo/+bug/1785055,2019-02-19
+1784417,1784417,Fix Released,TripleO-CI workflow fails to collect logs after a time out,https://bugs.launchpad.net/tripleo/+bug/1784417,2019-02-19
+1809645,1809645,Fix Released,Upgrading a cloud with networking-ovn metadata service enabled is failing on Rocky,https://bugs.launchpad.net/tripleo/+bug/1809645,2019-02-19
+1816017,1816017,Fix Released,Operation failed: No such file or directory at overcloud image building,https://bugs.launchpad.net/tripleo/+bug/1816017,2019-02-19
+1802817,1802817,Fix Released,FFWD prepare fails when Ironic is enabled on overcloud,https://bugs.launchpad.net/tripleo/+bug/1802817,2019-02-19
+1803965,1803965,Fix Released,Stop setting boot_option:local on flavors and nodes,https://bugs.launchpad.net/tripleo/+bug/1803965,2019-02-19
+1803724,1803724,Fix Released,Workflow fails to publish UI logs,https://bugs.launchpad.net/tripleo/+bug/1803724,2019-02-19
+1813911,1813911,Fix Released,Manila tests are failing in featureset019 and scenario004,https://bugs.launchpad.net/tripleo/+bug/1813911,2019-02-19
+1766639,1766639,Fix Released,Functional db migration tests broken and not running in gate,https://bugs.launchpad.net/networking-ovn/+bug/1766639,2019-02-19
+1815863,1815863,Fix Released,Incompatibility between ovs and new version of dpdk,https://bugs.launchpad.net/tripleo/+bug/1815863,2019-02-19
+1796851,1796851,Fix Released,vault: add support for AppRole authentication,https://bugs.launchpad.net/castellan/+bug/1796851,2019-02-18
+1797148,1797148,Fix Released,vault: support operator configuration of kv mountpoint,https://bugs.launchpad.net/castellan/+bug/1797148,2019-02-18
+1645751,1645751,Fix Released,Improper relationships between parent and child shares using LVM driver,https://bugs.launchpad.net/manila/+bug/1645751,2019-02-18
+1816447,1816447,Fix Released,disabling validations on the undercloud prevents FFU in Queens,https://bugs.launchpad.net/tripleo/+bug/1816447,2019-02-18
+1761171,1761171,Fix Released,scn0001 multinode container: mistralclient api authorization failed,https://bugs.launchpad.net/tripleo/+bug/1761171,2019-02-18
+1792493,1792493,Fix Released,DVR and floating IPs broken in latest 7.0.0.0rc1?,https://bugs.launchpad.net/neutron/+bug/1792493,2019-02-18
+1794320,1794320,Fix Released,messaging notification configuration is missing,https://bugs.launchpad.net/openstack-ansible/+bug/1794320,2019-02-18
+1811961,1811961,Fix Released,keystone healthcheck is broken,https://bugs.launchpad.net/tripleo/+bug/1811961,2019-02-18
+1812810,1812810,Fix Released,openstack overcloud delete fails with mistral error,https://bugs.launchpad.net/tripleo/+bug/1812810,2019-02-18
+1813176,1813176,Fix Released,container build check job failing with healthcheck/keystone not found,https://bugs.launchpad.net/tripleo/+bug/1813176,2019-02-18
+1814851,1814851,Fix Released,[master][promotion] centos 7 container build job deploying undercloud with usr/lib/rabbitmq/bin/rabbitmq-server: No such file or directory,https://bugs.launchpad.net/tripleo/+bug/1814851,2019-02-18
+1747627,1747627,Fix Released,Panko Sample Policy in panko - policy file is missing,https://bugs.launchpad.net/panko/+bug/1747627,2019-02-18
+1800375,1800375,Fix Committed,Use one-subnet neutron port on dual stack network failed,https://bugs.launchpad.net/zun/+bug/1800375,2019-02-16
+1798382,1798382,Fix Released,"Overcloud deployment with Rhsm role that uses activation key fails with:  ""msg"": ""parameters are mutually exclusive: activationkey, autosubscribe""",https://bugs.launchpad.net/tripleo/+bug/1798382,2019-02-15
+1805249,1805249,Fix Released,ansible-rhsm: katello-ca-consumer-latest.noarch.rpm needs to be deployed,https://bugs.launchpad.net/tripleo/+bug/1805249,2019-02-15

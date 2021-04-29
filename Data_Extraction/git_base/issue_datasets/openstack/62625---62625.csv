@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1365554,1365554,Fix Released,Unable to use nova::compute::rbd for use with cinder volumes,https://bugs.launchpad.net/puppet-nova/+bug/1365554,2015-07-10
+1417604,1417604,Fix Released,Unit-tests broken due to an update of rspec-puppet (2.0.0),https://bugs.launchpad.net/puppet-nova/+bug/1417604,2015-07-10
+1452278,1452278,Fix Released,db_sync should be executed based on sync_db but not enabled nor manage_service,https://bugs.launchpad.net/puppet-glance/+bug/1452278,2015-07-10
+1452278,1452278,Fix Released,db_sync should be executed based on sync_db but not enabled nor manage_service,https://bugs.launchpad.net/puppet-keystone/+bug/1452278,2015-07-10
+1452278,1452278,Fix Released,db_sync should be executed based on sync_db but not enabled nor manage_service,https://bugs.launchpad.net/puppet-cinder/+bug/1452278,2015-07-10
+1284742,1284742,Fix Released,Appended lines in cinder-volume.override,https://bugs.launchpad.net/puppet-cinder/+bug/1284742,2015-07-10
+1435660,1435660,Fix Released,scheduler_driver option can't be clean up,https://bugs.launchpad.net/puppet-cinder/+bug/1435660,2015-07-10
+1354467,1354467,Fix Released,Type_set[$type] is executed at each puppet run,https://bugs.launchpad.net/puppet-cinder/+bug/1354467,2015-07-10
+1458811,1458811,Fix Released,There is no ability to point swift endpoint type,https://bugs.launchpad.net/puppet-glance/+bug/1458811,2015-07-10
+1436699,1436699,Fix Released,rbd options should move into glance_store section,https://bugs.launchpad.net/puppet-glance/+bug/1436699,2015-07-10
+1391475,1391475,Fix Released,glance api uses deprecated config location for swift,https://bugs.launchpad.net/puppet-glance/+bug/1391475,2015-07-10
+1391475,1391475,Fix Released,glance api uses deprecated config location for swift,https://bugs.launchpad.net/fuel/+bug/1391475,2015-07-10
+1414900,1414900,Fix Released,Unable to find Class['ringbuilder'] in manifest,https://bugs.launchpad.net/puppet-swift/+bug/1414900,2015-07-10
+1355873,1355873,Fix Released,Could not look up qualified variable 'ssh::server::ensure',https://bugs.launchpad.net/puppet-swift/+bug/1355873,2015-07-10
+1420979,1420979,Fix Released,Non-ascii characters crashes catalog compilation,https://bugs.launchpad.net/puppet-swift/+bug/1420979,2015-07-10
+1447259,1447259,Fix Released,Unneeded dependency on ssh?,https://bugs.launchpad.net/puppet-swift/+bug/1447259,2015-07-10
+1422533,1422533,Fix Released,Swift: errors during large file upload. Need to change 'node_timeout' parameter,https://bugs.launchpad.net/puppet-swift/+bug/1422533,2015-07-10
+1442329,1442329,Fix Released,race condition where auditor may start before swift.conf,https://bugs.launchpad.net/puppet-swift/+bug/1442329,2015-07-10
+1428376,1428376,Fix Released,puppet-swift points to old auth_token middleware package,https://bugs.launchpad.net/puppet-swift/+bug/1428376,2015-07-10
+1243451,1243451,Fix Released,swift config files are configured before package,https://bugs.launchpad.net/puppet-swift/+bug/1243451,2015-07-10
+1269482,1269482,Fix Released,::proxy::ceilometer is broken due to permission issues,https://bugs.launchpad.net/puppet-swift/+bug/1269482,2015-07-10
+1465341,1465341,Fix Released,WSGI script not kilo compatable,https://bugs.launchpad.net/puppet-keystone/+bug/1465341,2015-07-10
+1421573,1421573,Fix Released,openstack provider only caches instance on first execution,https://bugs.launchpad.net/puppet-keystone/+bug/1421573,2015-07-10
+1414024,1414024,Fix Released,add require json for to_json dependency,https://bugs.launchpad.net/puppet-keystone/+bug/1414024,2015-07-10
+1409119,1409119,Fix Released,Set WSGI display names for keystone processes,https://bugs.launchpad.net/puppet-keystone/+bug/1409119,2015-07-10
+1408754,1408754,Fix Released,Using openstackclient for keystone config doesn't work on Ubuntu 14.04,https://bugs.launchpad.net/puppet-keystone/+bug/1408754,2015-07-10
+1400798,1400798,Fix Released,support for not managing passwords,https://bugs.launchpad.net/puppet-keystone/+bug/1400798,2015-07-10
+1391373,1391373,Fix Released,support Keystone with read-only LDAP identity backend,https://bugs.launchpad.net/puppet-keystone/+bug/1391373,2015-07-10
+1383779,1383779,Fix Released,support the ldap user_enabled_invert parameter,https://bugs.launchpad.net/puppet-keystone/+bug/1383779,2015-07-10
+1267627,1267627,Fix Released,keystone::endpoint admin_protocol parameter,https://bugs.launchpad.net/puppet-keystone/+bug/1267627,2015-07-10
+1449553,1449553,Fix Released,Need possibility to use custom file source for wsgi scripts,https://bugs.launchpad.net/puppet-keystone/+bug/1449553,2015-07-10
+1410453,1410453,Fix Released,paste config file setting is wrong for Debian,https://bugs.launchpad.net/puppet-keystone/+bug/1410453,2015-07-10
+1238103,1238103,Fix Released,Missing identity / credentials multiple backend configuration,https://bugs.launchpad.net/puppet-keystone/+bug/1238103,2015-07-10
+1224974,1224974,Fix Released,keystone-manage db_sync should be executed for each enabled keystone extension,https://bugs.launchpad.net/puppet-keystone/+bug/1224974,2015-07-10
+1425912,1425912,Fix Released,keystone::wsgi::apache broken on Juno with Ubuntu 14.04,https://bugs.launchpad.net/puppet-keystone/+bug/1425912,2015-07-10
+1472437,1472437,Fix Released,deprecate the tenant parameter of keystone_user,https://bugs.launchpad.net/puppet-keystone/+bug/1472437,2015-07-10
+1412309,1412309,Fix Released,Keystone_user: Could not evaluate: end of file reached,https://bugs.launchpad.net/puppet-keystone/+bug/1412309,2015-07-10
+1465465,1465465,Fix Released,keystone_user password does not work,https://bugs.launchpad.net/puppet-keystone/+bug/1465465,2015-07-10
+1408531,1408531,Fix Released,Rspec-puppet can't load puppet/util/openstack,https://bugs.launchpad.net/puppet-keystone/+bug/1408531,2015-07-10
+1394544,1394544,Fix Released,Mock does not have assert_called_once method,https://bugs.launchpad.net/cinder/+bug/1394544,2015-07-10
+1473431,1473431,Fix Released,[Consoler] Add license in files,https://bugs.launchpad.net/cloudv/+bug/1473431,2015-07-10
+1473381,1473381,Fix Released,mock usage is wrong,https://bugs.launchpad.net/ironic-inspector/+bug/1473381,2015-07-10
+1432153,1432153,Fix Released,"[fuel-docs] the config value 'html_add_permalinks' has type `NoneType', defaults to `unicode.'",https://bugs.launchpad.net/fuel/+bug/1432153,2015-07-10
+1473309,1473309,Fix Released,mock==1.1.0 break test_raw_request_chunked,https://bugs.launchpad.net/tempest/+bug/1473309,2015-07-10
+1473363,1473363,Fix Committed,GlusterFS CI for Cinder fails for encrypted volumes tests,https://bugs.launchpad.net/devstack-plugin-glusterfs/+bug/1473363,2015-07-10
+1467942,1467942,Fix Released,Ironic: ir-cond logs fails with KeyError: u'user_name',https://bugs.launchpad.net/devstack/+bug/1467942,2015-07-10
+1472934,1472934,Fix Released,Influxdb-Grafana Plugin fail install trunckated,https://bugs.launchpad.net/fuel/+bug/1472934,2015-07-10
+1471287,1471287,Fix Committed,Race condition for default security group,https://bugs.launchpad.net/networking-plumgrid/+bug/1471287,2015-07-09
+1469741,1469741,Fix Released,monasca-vagrant libvirt agent plugin not working,https://bugs.launchpad.net/monasca/+bug/1469741,2015-07-09
+1346920,1346920,Fix Released,[qa] Fuelweb_test module.mk is outdated,https://bugs.launchpad.net/fuel/+bug/1346920,2015-07-09
+1421413,1421413,Fix Released,network-service-policy cannot be reused,https://bugs.launchpad.net/group-based-policy/+bug/1421413,2015-07-09
+1433884,1433884,Fix Released,Glance Metadata Object update doesn't work from python glance client,https://bugs.launchpad.net/python-glanceclient/+bug/1433884,2015-07-09
+1438639,1438639,Fix Released,fuel-qa doesn't allow to install plugins with rpm extension,https://bugs.launchpad.net/fuel/+bug/1438639,2015-07-09
+1392772,1392772,Fix Released,Wheel support for packaging,https://bugs.launchpad.net/ironic-inspector/+bug/1392772,2015-07-09
+1459471,1459471,Fix Released,ironic-discoverd does not support standanlone ironic,https://bugs.launchpad.net/ironic-inspector/+bug/1459471,2015-07-09
+1470388,1470388,Fix Released,Drop functest directory,https://bugs.launchpad.net/ironic-inspector/+bug/1470388,2015-07-09
+1424598,1424598,Fix Released,Use is_uuid_like from oslo_utils to verify input,https://bugs.launchpad.net/ironic-inspector/+bug/1424598,2015-07-09
+1419736,1419736,Fix Released,Use thread pool instead of just spawn_n,https://bugs.launchpad.net/ironic-inspector/+bug/1419736,2015-07-09
+1413204,1413204,Fix Released,Support HTTPS directly,https://bugs.launchpad.net/ironic-inspector/+bug/1413204,2015-07-09
+1441117,1441117,Fix Released,Provide way to append/prepend plugins to processing_hooks w/o overriding the defaults,https://bugs.launchpad.net/ironic-inspector/+bug/1441117,2015-07-09
+1429148,1429148,Fix Released,Non-matched opening bracket in shell help,https://bugs.launchpad.net/ironic-inspector/+bug/1429148,2015-07-09
+1401579,1401579,Fix Released,"Missing unit tests for main, client and node_cache",https://bugs.launchpad.net/ironic-inspector/+bug/1401579,2015-07-09
+1398359,1398359,Fix Released,Switch to oslo.config,https://bugs.launchpad.net/ironic-inspector/+bug/1398359,2015-07-09
+1464184,1464184,Fix Released,Error log from ironicclient about duplicate MAC confuses people,https://bugs.launchpad.net/ironic-inspector/+bug/1464184,2015-07-09
+1437298,1437298,Fix Released,Check for valid provision state in process() too,https://bugs.launchpad.net/ironic-inspector/+bug/1437298,2015-07-09
+1436276,1436276,Fix Released,Properly handle validation failures in hooks,https://bugs.launchpad.net/ironic-inspector/+bug/1436276,2015-07-09
+1435882,1435882,Fix Released,Deprecate our own auth options,https://bugs.launchpad.net/ironic-inspector/+bug/1435882,2015-07-09
+1428652,1428652,Fix Released,Client should accept None as default value for base_url,https://bugs.launchpad.net/ironic-inspector/+bug/1428652,2015-07-09
+1418540,1418540,Fix Released,Make sure to sync options into existing NodeInfo instance,https://bugs.launchpad.net/ironic-inspector/+bug/1418540,2015-07-09
+1418005,1418005,Fix Released,Check driver availability on start up,https://bugs.launchpad.net/ironic-inspector/+bug/1418005,2015-07-09
+1411272,1411272,Fix Released,Support i18n,https://bugs.launchpad.net/ironic-inspector/+bug/1411272,2015-07-09
+1472154,1472154,Fix Released,devstack/exercise.sh loops forever when there are more than 2 nodes,https://bugs.launchpad.net/ironic-inspector/+bug/1472154,2015-07-09
+1468748,1468748,Fix Released,Make functional test importable,https://bugs.launchpad.net/ironic-inspector/+bug/1468748,2015-07-09
+1465303,1465303,Fix Released,Missing backslash in tox.ini is causing genconfig to fail,https://bugs.launchpad.net/ironic-inspector/+bug/1465303,2015-07-09
+1462993,1462993,Fix Released,Drop start up check on Ironic availability,https://bugs.launchpad.net/ironic-inspector/+bug/1462993,2015-07-09

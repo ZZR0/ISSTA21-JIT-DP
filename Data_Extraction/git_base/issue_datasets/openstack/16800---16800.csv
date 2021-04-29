@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1523375,1523375,Fix Released,Keystonemiddleware should switch to oslo.cache,https://bugs.launchpad.net/keystonemiddleware/+bug/1523375,2017-12-07
+1615498,1615498,Fix Released,VMware: unable to launch an instance on a 'portgroup' provider network,https://bugs.launchpad.net/nova/+bug/1615498,2017-12-07
+1711184,1711184,Fix Released,scheduler selects the same ironic node several times,https://bugs.launchpad.net/nova/+bug/1711184,2017-12-07
+1717892,1717892,Fix Released,hyperv: Driver does not report disk_available_least,https://bugs.launchpad.net/nova/+bug/1717892,2017-12-07
+1723123,1723123,Fix Released,missing coverage for trying to update a standard resource class in placement api,https://bugs.launchpad.net/nova/+bug/1723123,2017-12-07
+1723122,1723122,Fix Released,missing gabbi coverage for empty resources query string,https://bugs.launchpad.net/nova/+bug/1723122,2017-12-07
+1686136,1686136,Fix Released,Disk bus type 'sata' not allowed for qemu and kvm hypervisors,https://bugs.launchpad.net/nova/+bug/1686136,2017-12-07
+1481689,1481689,Fix Released,xenapi: cached images should be cleaned up by time,https://bugs.launchpad.net/nova/+bug/1481689,2017-12-07
+1714275,1714275,Fix Released,"GET /resource_providers: ""links"" doesn't include ""allocations""",https://bugs.launchpad.net/nova/+bug/1714275,2017-12-07
+1726871,1726871,Fix Released,AttributeError: 'BlockDeviceMapping' object has no attribute 'uuid',https://bugs.launchpad.net/nova/+bug/1726871,2017-12-07
+1720191,1720191,Fix Released,"test_live_block_migration fails in gate-grenade-dsvm-neutron-multinode-live-migration-nv with ""Shared storage live-migration requires either shared storage or boot-from-volume with no local disks."" since ~8/18/2017",https://bugs.launchpad.net/nova/+bug/1720191,2017-12-07
+1727558,1727558,Fix Released,libvirt driver ignores 'disk_cachemodes' configuration setting,https://bugs.launchpad.net/nova/+bug/1727558,2017-12-07
+1727134,1727134,Fix Released,XenAPI: resolve the failure VM_MISSING_PV_DRIVERS for PV VM,https://bugs.launchpad.net/nova/+bug/1727134,2017-12-07
+1702454,1702454,Fix Released,Transforming the RequestSpec object into legacy dicts doesn't support the requested_destination field,https://bugs.launchpad.net/nova/+bug/1702454,2017-12-07
+1377781,1377781,Fix Released,VMWare: should use ShutDownGuest to do grace OS shutdown and then force power off if timeout passed,https://bugs.launchpad.net/nova/+bug/1377781,2017-12-07
+1728934,1728934,Fix Released,placement gabbi tests that manipulate microversion can intermittently fail,https://bugs.launchpad.net/nova/+bug/1728934,2017-12-07
+1728722,1728722,Fix Released,"Resize test fails in conductor during migration/instance allocation swap: ""Unable to replace resource claim on source host""",https://bugs.launchpad.net/nova/+bug/1728722,2017-12-07
+1729445,1729445,Fix Released,Potential IndexError if using the CachingScheduler and not getting alternates,https://bugs.launchpad.net/nova/+bug/1729445,2017-12-07
+1728884,1728884,Fix Released,A missing versioned notification sample,https://bugs.launchpad.net/nova/+bug/1728884,2017-12-07
+1706399,1706399,Fix Released,unit test 'test_get_volume_config' doesn't test anything useful,https://bugs.launchpad.net/nova/+bug/1706399,2017-12-07
+1674694,1674694,Fix Released,In placement api error responses choose poor default content-type,https://bugs.launchpad.net/nova/+bug/1674694,2017-12-07
+1724065,1724065,Fix Released,Requesting an out of range microversion without an accept header in placement results in a KeyError,https://bugs.launchpad.net/nova/+bug/1724065,2017-12-07
+1713895,1713895,Fix Released,block_device_mapping_v2.bus_type is missing from POST /servers API reference,https://bugs.launchpad.net/nova/+bug/1713895,2017-12-07
+1731395,1731395,Fix Released,test_server_cfn_init and test_server_signal_userdata_format_software_config failing frequently,https://bugs.launchpad.net/nova/+bug/1731395,2017-12-07
+1731889,1731889,Fix Released,Nova logs adding security group to port when is actually removing a security group from a port,https://bugs.launchpad.net/nova/+bug/1731889,2017-12-07
+1732024,1732024,Fix Released,docs: unit tests doc links to hacking repo docs which isn't particularly helpful,https://bugs.launchpad.net/nova/+bug/1732024,2017-12-07
+1733030,1733030,Fix Released,GET /resource_providers?member_of misdocumented for lists,https://bugs.launchpad.net/nova/+bug/1733030,2017-12-07
+1726254,1726254,Fix Released,"api-ref: Incorrect examples in parameter description in ""Delete Assisted Volume Snapshot""",https://bugs.launchpad.net/nova/+bug/1726254,2017-12-07
+1726658,1726658,Fix Released,doc: Outdated host aggregate document,https://bugs.launchpad.net/nova/+bug/1726658,2017-12-07
+1732685,1732685,Fix Released,instance.snapshot notification samples are assigned to two different Notification classes,https://bugs.launchpad.net/nova/+bug/1732685,2017-12-07
+1708204,1708204,Fix Released,placement allocation representation asymetric on PUT and GET,https://bugs.launchpad.net/nova/+bug/1708204,2017-12-07
+1728557,1728557,Fix Released,placement-api-ref: wrong parameter order,https://bugs.launchpad.net/nova/+bug/1728557,2017-12-07
+1733308,1733308,Fix Released,placement:  the description of 'CUSTOM_' prefix is missing in resource classes APIs  of API reference,https://bugs.launchpad.net/nova/+bug/1733308,2017-12-07
+1734406,1734406,Fix Released,'all_tenants' query param is missing in GET sec group api-ref,https://bugs.launchpad.net/nova/+bug/1734406,2017-12-07
+1704952,1704952,Fix Released,VMware: Concurrent nova-compute service initialization may fail,https://bugs.launchpad.net/nova/+bug/1704952,2017-12-07
+1733317,1733317,Fix Released,placement: the note of aggregates link is missing in resource provider APIs of API reference,https://bugs.launchpad.net/nova/+bug/1733317,2017-12-07
+1734115,1734115,Fix Released,Shell unit tests check top-level keys of called body,https://bugs.launchpad.net/python-manilaclient/+bug/1734115,2017-12-07
+1715290,1715290,Fix Released,unnecessary name and description in the search_options list.,https://bugs.launchpad.net/manila/+bug/1715290,2017-12-07
+1727145,1727145,Fix Released,The parameters of share network update API are not correct in API-Ref doc,https://bugs.launchpad.net/manila/+bug/1727145,2017-12-07
+1536592,1536592,Fix Released,Manila should reuse sslutils and modules from oslo,https://bugs.launchpad.net/manila/+bug/1536592,2017-12-07
+1730509,1730509,Fix Released,IPv6 address literal not supported for netapp_server_hostname,https://bugs.launchpad.net/manila/+bug/1730509,2017-12-07
+1719543,1719543,Fix Released,Api ref params does not correct,https://bugs.launchpad.net/manila/+bug/1719543,2017-12-07
+1712073,1712073,Fix Released,Install and configure controller node on Ubuntu in Installation Guide for Shared File Systems Service,https://bugs.launchpad.net/manila/+bug/1712073,2017-12-07
+1733753,1733753,Fix Released,share type api missing some params in API docs,https://bugs.launchpad.net/manila/+bug/1733753,2017-12-07
+1733786,1733786,Fix Released,use default v3 cinder client for share volume,https://bugs.launchpad.net/manila/+bug/1733786,2017-12-07
+1734127,1734127,Fix Released,Base driver requires redundant IPv6 capabilities,https://bugs.launchpad.net/manila/+bug/1734127,2017-12-07
+1724177,1724177,Fix Released,Sqlalchemy column in_() operator does not allow NULL  element,https://bugs.launchpad.net/neutron/+bug/1724177,2017-12-07
+1724043,1724043,Fix Released,l3-agent network_update() can throw an excetion if router ex_gw_port is None,https://bugs.launchpad.net/neutron/+bug/1724043,2017-12-07
+1692134,1692134,Fix Released,Fix security groups documentation regarding other protocols,https://bugs.launchpad.net/neutron/+bug/1692134,2017-12-07
+1720077,1720077,Fix Released,"Quality of Service (QoS) , document is critical error",https://bugs.launchpad.net/neutron/+bug/1720077,2017-12-07
+1727132,1727132,Fix Released,"the example of ""detach a port from the QoS policy"" is wrong in config qos doc",https://bugs.launchpad.net/neutron/+bug/1727132,2017-12-07
+1705772,1705772,Fix Released,hardware offload support for openvswitch,https://bugs.launchpad.net/neutron/+bug/1705772,2017-12-07
+1730407,1730407,Fix Released,enable bridge command for openvswitch agent,https://bugs.launchpad.net/neutron/+bug/1730407,2017-12-07
+1618878,1618878,Fix Released,Disabling IPv6 on an interface fails if IPv6 is completely disabled in the kernel,https://bugs.launchpad.net/neutron/+bug/1618878,2017-12-07
+1722842,1722842,Fix Released,[RFE] API extension framework: impossible to extend a sub-resource,https://bugs.launchpad.net/neutron/+bug/1722842,2017-12-07
+1614478,1614478,Fix Released,Synthetic_fields can contain any string,https://bugs.launchpad.net/neutron/+bug/1614478,2017-12-07
+1732669,1732669,Fix Released,Install and configure controller node in neutron - need to install nova compute and api first,https://bugs.launchpad.net/neutron/+bug/1732669,2017-12-07
+1730896,1730896,Fix Released,[qos] some wrong in config qos doc,https://bugs.launchpad.net/neutron/+bug/1730896,2017-12-07
+1709215,1709215,Fix Released,IPv6 addresses is not correctly configured,https://bugs.launchpad.net/neutron/+bug/1709215,2017-12-07
+1735571,1735571,Fix Released,Fullstack vm fixture can't be destroyed when linuxbridge is used,https://bugs.launchpad.net/neutron/+bug/1735571,2017-12-07
+1736220,1736220,Fix Released,TypeError: __init__() got an unexpected keyword argument 'topics',https://bugs.launchpad.net/neutron/+bug/1736220,2017-12-07
+1736114,1736114,Fix Released,metadata_agent.ini cannot be built reproducibly,https://bugs.launchpad.net/neutron/+bug/1736114,2017-12-07
+1736201,1736201,Fix Released,No create_precommit callback notification for floating ips,https://bugs.launchpad.net/neutron/+bug/1736201,2017-12-07
+1573092,1573092,Fix Released,[RFE] BGP neutron should allow for 32bit ASN,https://bugs.launchpad.net/neutron/+bug/1573092,2017-12-07
+1732603,1732603,Fix Released,neutron-dynamic-routing CI failure,https://bugs.launchpad.net/neutron/+bug/1732603,2017-12-07
+1734265,1734265,Fix Released,neutron-dynamic-routing needs an update for agent extension rehome,https://bugs.launchpad.net/neutron/+bug/1734265,2017-12-07
+1625278,1625278,Fix Released,Support NSH dataplane protocol,https://bugs.launchpad.net/networking-sfc/+bug/1625278,2017-12-07
+1730076,1730076,Fix Released,get_agent_network_active_port_count call needs update,https://bugs.launchpad.net/networking-sfc/+bug/1730076,2017-12-07
+1724591,1724591,Fix Released,[ovn-sync] LSP is not created when metadata port is missing,https://bugs.launchpad.net/networking-ovn/+bug/1724591,2017-12-07
+1723118,1723118,Fix Released,Create lsp port in OVN when metadata port is found in neutron but not in OVN,https://bugs.launchpad.net/networking-ovn/+bug/1723118,2017-12-07
+1515005,1515005,Fix Released,Add SR-IOV support for a networking-ovn deployment,https://bugs.launchpad.net/networking-ovn/+bug/1515005,2017-12-07
+1717520,1717520,Fix Released,Logging is not initialized while setting host config parameter,https://bugs.launchpad.net/networking-odl/+bug/1717520,2017-12-07
+1720792,1720792,Fix Released,"update doc to use ""openstack"" CLI instead of legacy ""neutron"" CLI",https://bugs.launchpad.net/bgpvpn/+bug/1720792,2017-12-07
+1719589,1719589,Fix Released,Avoid having an RT multiple times in an RPC,https://bugs.launchpad.net/bgpvpn/+bug/1719589,2017-12-07
+1719589,1719589,Fix Released,Avoid having an RT multiple times in an RPC,https://bugs.launchpad.net/networking-bagpipe/+bug/1719589,2017-12-07

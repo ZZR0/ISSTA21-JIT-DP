@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1859491,1859491,Fix Released,Configurations for OpenStack Dashboard plugins are not being loaded,https://bugs.launchpad.net/tripleo/+bug/1859491,2020-02-18
+1859825,1859825,Fix Released,Removing compute in an additional cell failes in scale down tasks,https://bugs.launchpad.net/tripleo/+bug/1859825,2020-02-18
+1860124,1860124,Fix Released,healthcheck in clustercheck container doesn't work with ipv6,https://bugs.launchpad.net/tripleo/+bug/1860124,2020-02-18
+1860353,1860353,Fix Released,deployed-server nic config for Compute missing br-ex by default,https://bugs.launchpad.net/tripleo/+bug/1860353,2020-02-18
+1860364,1860364,Fix Released,generation of tripleo config hash is broken in master,https://bugs.launchpad.net/tripleo/+bug/1860364,2020-02-18
+1860475,1860475,Fix Released,Heat API WSGI timeout set to low,https://bugs.launchpad.net/tripleo/+bug/1860475,2020-02-18
+1860505,1860505,Fix Released,CinderCronDbPurgeMaxDelay is not applied,https://bugs.launchpad.net/tripleo/+bug/1860505,2020-02-18
+1860545,1860545,Fix Released,Expose network vip map in service config,https://bugs.launchpad.net/tripleo/+bug/1860545,2020-02-18
+1860571,1860571,Fix Released,Temporary containers created in docker_config not updated on update/upgrade,https://bugs.launchpad.net/tripleo/+bug/1860571,2020-02-18
+1860694,1860694,Fix Released,Scale down of compute node fails if nova-compute is not running properly,https://bugs.launchpad.net/tripleo/+bug/1860694,2020-02-18
+1861169,1861169,Fix Released,keepalived is not logging on file,https://bugs.launchpad.net/tripleo/+bug/1861169,2020-02-18
+1861473,1861473,Fix Released,VFs are used in dhcp-all-interfaces list,https://bugs.launchpad.net/tripleo/+bug/1861473,2020-02-18
+1861335,1861335,Fix Released,"upgrade of controller fails w/ ansible syntax error, gather_facts_undercloud",https://bugs.launchpad.net/tripleo/+bug/1861335,2020-02-18
+1861498,1861498,Fix Released,"Updated image with ""tripleo container image prepare "" fails to be installed during update.",https://bugs.launchpad.net/tripleo/+bug/1861498,2020-02-18
+1861508,1861508,Fix Released,"deployment fails with ""ERROR configuring neutron"" placement password for neutron is not set with novacontrol",https://bugs.launchpad.net/tripleo/+bug/1861508,2020-02-18
+1861393,1861393,Fix Released,Multiple volume related test failed due iscsiadm getting sessions: iscsiadm: and VolumeDeviceNotFound in nova compute,https://bugs.launchpad.net/tripleo/+bug/1861393,2020-02-18
+1861727,1861727,Fix Released,"Duplicate declaration: Class[Tripleo::Profile::Base::Haproxy] is already declared at (file: /etc/config.pp, line: 2",https://bugs.launchpad.net/tripleo/+bug/1861727,2020-02-18
+1853362,1853362,Fix Released,RootStackName not added to plan on stack update,https://bugs.launchpad.net/tripleo/+bug/1853362,2020-02-18
+1854868,1854868,Fix Released,overcloudrc ends up with an invalid no_proxy,https://bugs.launchpad.net/tripleo/+bug/1854868,2020-02-18
+1854991,1854991,Fix Released,update prepare command always saving config to overcloud-config container regardless of stack name,https://bugs.launchpad.net/tripleo/+bug/1854991,2020-02-18
+1855159,1855159,Fix Released,Mistral fails to derive OvS DPDK parameters in NIC Partitioning,https://bugs.launchpad.net/tripleo/+bug/1855159,2020-02-18
+1856031,1856031,Fix Released,Mistral introspection workflow does not detect manageable instances in large environments,https://bugs.launchpad.net/tripleo/+bug/1856031,2020-02-18
+1856068,1856068,Fix Released,Mistral fails to derive 'NeutronPhysnetNUMANodesMapping' correctly,https://bugs.launchpad.net/tripleo/+bug/1856068,2020-02-18
+1856191,1856191,Fix Released,Ironic PXE healthcheck is broken in master,https://bugs.launchpad.net/tripleo/+bug/1856191,2020-02-18
+1856193,1856193,Fix Released,"""Found multiple compute-2, which is unexpected"" if any host shortname starts with another host shortname",https://bugs.launchpad.net/tripleo/+bug/1856193,2020-02-18
+1856061,1856061,Fix Released,/var/lib/mistral/<stackname> directory is removed at the end of a scaledown,https://bugs.launchpad.net/tripleo/+bug/1856061,2020-02-18
+1856661,1856661,Fix Released,Writing ansible_host_vars fails with KeyError when nodes are blacklisted,https://bugs.launchpad.net/tripleo/+bug/1856661,2020-02-18
+1857012,1857012,Fix Released,container image prepare: traceback if no Labels,https://bugs.launchpad.net/tripleo/+bug/1857012,2020-02-18
+1858113,1858113,Fix Released,bad PYTHONWARNINGS in overcloudrc,https://bugs.launchpad.net/tripleo/+bug/1858113,2020-02-18
+1858459,1858459,Fix Released,Scale down fails in split-stack,https://bugs.launchpad.net/tripleo/+bug/1858459,2020-02-18
+1858678,1858678,Fix Released,NovaComputeCpuDedicatedSet and NovaComputeCpuSharedSet parameters are not derived automatically,https://bugs.launchpad.net/tripleo/+bug/1858678,2020-02-18
+1856124,1856124,Fix Released,Derive network config fails when using list_concat_unique with any interface routes and no inputs,https://bugs.launchpad.net/tripleo/+bug/1856124,2020-02-18
+1859244,1859244,Fix Released,Private SSH key for deployment has wrong permissions,https://bugs.launchpad.net/tripleo/+bug/1859244,2020-02-18
+1859425,1859425,Fix Released,Remove unused container image template entires,https://bugs.launchpad.net/tripleo/+bug/1859425,2020-02-18
+1837449,1837449,Fix Released,sample config missing service_user options,https://bugs.launchpad.net/cinder/+bug/1837449,2020-02-18
+1858672,1858672,Fix Released,"Container image uploader should not use http for ""no verify"" registries",https://bugs.launchpad.net/tripleo/+bug/1858672,2020-02-18
+1860040,1860040,Fix Released,provide a better error message if a registry returns 401 for missing images,https://bugs.launchpad.net/tripleo/+bug/1860040,2020-02-18
+1845483,1845483,Fix Released,"3PAR: For Peer Persistence, add policy options in RCG",https://bugs.launchpad.net/cinder/+bug/1845483,2020-02-18
+1746724,1746724,Fix Released,container image prepare can't be interrupted via Ctrl-C,https://bugs.launchpad.net/tripleo/+bug/1746724,2020-02-18
+1847258,1847258,Fix Released,Doc: duplicate option netapp_host_type in NetApp unified driver in cinder,https://bugs.launchpad.net/cinder/+bug/1847258,2020-02-18
+1862674,1862674,Fix Released,"build-containers jobs failing on ""no module named http""",https://bugs.launchpad.net/tripleo/+bug/1862674,2020-02-18
+1847171,1847171,Fix Released,Add volume type name and description check when update volume type,https://bugs.launchpad.net/cinder/+bug/1847171,2020-02-18
+1829010,1829010,Fix Released,NEC driver using deprecated defusedxml library calls,https://bugs.launchpad.net/cinder/+bug/1829010,2020-02-18
+1850697,1850697,Fix Released,Pure Storage disconnect volume fails when AC configured,https://bugs.launchpad.net/cinder/+bug/1850697,2020-02-18
+1849525,1849525,Fix Released,3par: iSCSI driver initialization should fail for Primera backend,https://bugs.launchpad.net/cinder/+bug/1849525,2020-02-18
+1851512,1851512,Fix Released,NFS driver create_cloned_volume locking is wrong,https://bugs.launchpad.net/cinder/+bug/1851512,2020-02-18
+1840712,1840712,Fix Released,Cannot create to boot from volume images concurrently,https://bugs.launchpad.net/cinder/+bug/1840712,2020-02-18
+1841836,1841836,Fix Released,tox bindep environment looks for 'test' profile only,https://bugs.launchpad.net/cinder/+bug/1841836,2020-02-18
+1851369,1851369,Fix Released,PowerMax Driver - Snapshot deletion during volume unmanage,https://bugs.launchpad.net/cinder/+bug/1851369,2020-02-18
+1853334,1853334,Fix Released,Ironic Inspector dnsmasq incorrectly configured to do DHCPv6-stateful when IPv6 addressmode is DHCPv6-stateless,https://bugs.launchpad.net/tripleo/+bug/1853334,2020-02-18
+1855010,1855010,Fix Released,undercloud minion fails on memcached_node_ips hieradata lookup,https://bugs.launchpad.net/tripleo/+bug/1855010,2020-02-18
+1855855,1855855,Fix Released,NVME Python3 target,https://bugs.launchpad.net/cinder/+bug/1855855,2020-02-18
+1855184,1855184,Fix Released,tripleo container image push fails with a traceback,https://bugs.launchpad.net/tripleo/+bug/1855184,2020-02-18
+1856859,1856859,Fix Released,"[doc]Configure multiple-storage back ends in cinder: typo in doc, should be [backend_defaults] not [backend_default]",https://bugs.launchpad.net/cinder/+bug/1856859,2020-02-18
+1852314,1852314,Fix Released,Parallel Stack Life-cycle in separate-heat-stacks,https://bugs.launchpad.net/tripleo/+bug/1852314,2020-02-18
+1856612,1856612,Fix Released,[Doc]Dell EMC Unity cinder driver doc does not clarify  use_multipath_for_image_xfer need to be set in specific backend or backend_defaults section,https://bugs.launchpad.net/cinder/+bug/1856612,2020-02-18
+1855633,1855633,Fix Released,tripleoclient doesn't retry when it gets 500 error from heat-api,https://bugs.launchpad.net/tripleo/+bug/1855633,2020-02-18
+1857945,1857945,Fix Released,KeyErrror 'volume' occurs when filter file does not existed,https://bugs.launchpad.net/cinder/+bug/1857945,2020-02-18
+1857057,1857057,Fix Released,unclear error message when an invalid subnet config exists in undercloud.conf,https://bugs.launchpad.net/tripleo/+bug/1857057,2020-02-18
+1858115,1858115,Fix Released,file exists when running ansible playbook,https://bugs.launchpad.net/tripleo/+bug/1858115,2020-02-18
+1859158,1859158,Fix Released,cinder/contrib/block-box bombs out during make base with dependency issue for tabulate>= 0.8.5,https://bugs.launchpad.net/cinder/+bug/1859158,2020-02-18
+1858222,1858222,Fix Released,ssh port wait needs to be configurable for deployment,https://bugs.launchpad.net/tripleo/+bug/1858222,2020-02-18
+1857094,1857094,Fix Released,Make provision to pass store information,https://bugs.launchpad.net/cinder/+bug/1857094,2020-02-18
+1859183,1859183,Fix Released,install-undercloud.log missing ansible logs,https://bugs.launchpad.net/tripleo/+bug/1859183,2020-02-18
+1860817,1860817,Fix Released,sqlalchemy 1.3.13 breaks unit tests,https://bugs.launchpad.net/cinder/+bug/1860817,2020-02-18
+1854337,1854337,Fix Released,Ceph dashboard listener should manage sticky sessions,https://bugs.launchpad.net/tripleo/+bug/1854337,2020-02-18
+1855138,1855138,Fix Released,service_names was removed but is still needed,https://bugs.launchpad.net/tripleo/+bug/1855138,2020-02-18
+1857605,1857605,Fix Released,Incorrect parameter for neutron::plugins::ml2::networking_ansible,https://bugs.launchpad.net/tripleo/+bug/1857605,2020-02-18
+1858775,1858775,Fix Released,cannot customize mysql haproxy's listen stanza,https://bugs.launchpad.net/tripleo/+bug/1858775,2020-02-18
+1859961,1859961,Fix Released,[Rocky to Stein] Galera bundle failing during the upgrade with: Could not determine galera name from pacemaker node <controller-2>.,https://bugs.launchpad.net/tripleo/+bug/1859961,2020-02-18
+1861668,1861668,Fix Released,issues with pcsd_bind_addr code,https://bugs.launchpad.net/tripleo/+bug/1861668,2020-02-18
+1862434,1862434,Fix Released,"puppet-openstack-unit-5.5-centos-7 fails with ""Evaluation Error: Operator '[]' is not applicable to an Undef Value.""",https://bugs.launchpad.net/tripleo/+bug/1862434,2020-02-18
+1855128,1855128,Fix Released,paunch pulls the image even when it exists when using podman,https://bugs.launchpad.net/tripleo/+bug/1855128,2020-02-18
+1855444,1855444,Fix Released,paunch succeeds if a container's volumes fail validation,https://bugs.launchpad.net/tripleo/+bug/1855444,2020-02-18
+1855932,1855932,Fix Released,paunch does not honor environment when an exec is invoked,https://bugs.launchpad.net/tripleo/+bug/1855932,2020-02-18

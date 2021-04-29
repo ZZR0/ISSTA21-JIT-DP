@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1818834,1818834,Fix Released,neutron_ovs_agent constantly restarts on rhel8,https://bugs.launchpad.net/tripleo/+bug/1818834,2019-10-30
+1849788,1849788,Fix Released,(python-tripleoclient) openstack-tox-docs is broken blocking the gate,https://bugs.launchpad.net/tripleo/+bug/1849788,2019-10-30
+1814233,1814233,Fix Released,rabbitmq image fails to build,https://bugs.launchpad.net/kolla/+bug/1814233,2019-10-30
+1848238,1848238,Fix Released,cannot delete a ldap domain with groups,https://bugs.launchpad.net/keystone/+bug/1848238,2019-10-30
+1850514,1850514,Fix Released,"ReshapeForPCPUsTest.test_vcpu_to_pcpu_reshape intermittently fails with ""Cannot 'migrate' instance while it is in vm_state building""",https://bugs.launchpad.net/nova/+bug/1850514,2019-10-29
+1839396,1839396,Fix Released,manila-share failed to start cause of improper 'driver_handles_share_servers'  for cephfs nfs,https://bugs.launchpad.net/manila/+bug/1839396,2019-10-29
+1809454,1809454,Fix Released,[SRU] nova rbd auth fallback uses cinder user with libvirt secret,https://bugs.launchpad.net/nova/+bug/1809454,2019-10-29
+1835822,1835822,Fix Released,vms loose acess to config drive with CONF.force_config_drive=True after hard reboot,https://bugs.launchpad.net/nova/+bug/1835822,2019-10-29
+1827492,1827492,Fix Released,vms failed to hard reboot and became error after set force_config_drive in compute nodes,https://bugs.launchpad.net/nova/+bug/1827492,2019-10-29
+1849663,1849663,Fix Released,rdo rhel8 periodic 3ctrl 1 comp featureset 001 fails undercloud install container image prepare,https://bugs.launchpad.net/tripleo/+bug/1849663,2019-10-29
+1742430,1742430,Fix Released,manila_tempest_test  create_share fails because a share type not create or define in advance,https://bugs.launchpad.net/manila/+bug/1742430,2019-10-28
+1715325,1715325,Fix Committed,Remove methods  strtime and  iso8601_from_timestamp,https://bugs.launchpad.net/gce-api/+bug/1715325,2019-10-28
+1715325,1715325,Fix Released,Remove methods  strtime and  iso8601_from_timestamp,https://bugs.launchpad.net/watcher/+bug/1715325,2019-10-28
+1715325,1715325,Fix Released,Remove methods  strtime and  iso8601_from_timestamp,https://bugs.launchpad.net/manila/+bug/1715325,2019-10-28
+1745436,1745436,Fix Released,Host assisted Share Migration breaks on IPv4+IPv6 backends,https://bugs.launchpad.net/manila/+bug/1745436,2019-10-28
+1708491,1708491,Fix Released,tempest api migration tests very long,https://bugs.launchpad.net/manila/+bug/1708491,2019-10-28
+1833942,1833942,Fix Released,TripleO should configure and validate server_certs_key_passphrase to be 32 chars long,https://bugs.launchpad.net/tripleo/+bug/1833942,2019-10-28
+1849895,1849895,Fix Released,deployment fails due to 'ansible_processor' is undefined,https://bugs.launchpad.net/tripleo/+bug/1849895,2019-10-28
+1748857,1748857,Fix Released,networking-ovn-install-dsvm-kuryr job doesn't install kuryr nor networking-ovn,https://bugs.launchpad.net/networking-ovn/+bug/1748857,2019-10-28
+1746715,1746715,Fix Released,Provision an ODL DHCP port  only for IPv4 Subnets,https://bugs.launchpad.net/networking-odl/+bug/1746715,2019-10-28
+1738246,1738246,Fix Released,Networking-odl trying to delete a router which was never pushed to ODL,https://bugs.launchpad.net/networking-odl/+bug/1738246,2019-10-28
+1849516,1849516,Fix Released,rdo periodic centos-7-ovb-3ctlr_1comp-featureset001-train fails tempest cant download cirros image,https://bugs.launchpad.net/tripleo/+bug/1849516,2019-10-28
+1737688,1737688,Fix Released,RDO CI quickstart job logs collection of dlrn logs is broken in  tripleo-quickstart-extras-gate-master-tripleo-ci-delorean-full-minimal_pacemaker,https://bugs.launchpad.net/tripleo/+bug/1737688,2019-10-28
+1656276,1656276,Fix Released,Error running nova-manage  cell_v2 simple_cell_setup when configuring nova with puppet-nova,https://bugs.launchpad.net/puppet-nova/+bug/1656276,2019-10-28
+1656276,1656276,Fix Released,Error running nova-manage  cell_v2 simple_cell_setup when configuring nova with puppet-nova,https://bugs.launchpad.net/tripleo/+bug/1656276,2019-10-28
+1748751,1748751,Fix Released,Undercloud Install Fail - Configuring Mistral Workloads - Authentication Error - when using RDO master,https://bugs.launchpad.net/python-mistralclient/+bug/1748751,2019-10-28
+1748751,1748751,Fix Released,Undercloud Install Fail - Configuring Mistral Workloads - Authentication Error - when using RDO master,https://bugs.launchpad.net/tripleo/+bug/1748751,2019-10-28
+1770298,1770298,Fix Released,"RAX yum mirror issues Error: python-libs conflicts, ethtool 404 etc",https://bugs.launchpad.net/diskimage-builder/+bug/1770298,2019-10-28
+1770298,1770298,Fix Released,"RAX yum mirror issues Error: python-libs conflicts, ethtool 404 etc",https://bugs.launchpad.net/tripleo/+bug/1770298,2019-10-28
+1799705,1799705,Fix Released,reproducer-quickstart.sh doesn't rebase depends-on patches,https://bugs.launchpad.net/tripleo/+bug/1799705,2019-10-28
+1818980,1818980,Fix Released,tripleo-ci log size should be limited,https://bugs.launchpad.net/tripleo/+bug/1818980,2019-10-28
+1815660,1815660,Fix Released,OVB import auth fails in python3,https://bugs.launchpad.net/tripleo/+bug/1815660,2019-10-28
+1769901,1769901,Fix Released,Different DLRN hashes in same job for current-tripleo,https://bugs.launchpad.net/tripleo/+bug/1769901,2019-10-28
+1765680,1765680,Fix Released,Incorrect branch used for not gated tripleo-upgrade repo,https://bugs.launchpad.net/tripleo/+bug/1765680,2019-10-28
+1757145,1757145,Fix Released,tripleo-quickstart default release is still pike,https://bugs.launchpad.net/tripleo/+bug/1757145,2019-10-28
+1755175,1755175,Fix Released,Multinode bootstrap code needs to be ported from tripleo.sh to an ansible role,https://bugs.launchpad.net/tripleo/+bug/1755175,2019-10-28
+1675174,1675174,Fix Released,Timeout passed to overcloud deploy not effective,https://bugs.launchpad.net/tripleo/+bug/1675174,2019-10-28
+1815048,1815048,Fix Released,[ovb][collect_logs] ovb collect logs job runs twice,https://bugs.launchpad.net/tripleo/+bug/1815048,2019-10-28
+1798525,1798525,Fix Released,"The undercloud-upgrades job is failing during the upgrade with ""error was: 'ironic_api_short_bootstrap_node_name' is undefined""",https://bugs.launchpad.net/tripleo/+bug/1798525,2019-10-28
+1794238,1794238,Fix Released,overcloud ARA is the same as undercloud ARA,https://bugs.launchpad.net/tripleo/+bug/1794238,2019-10-28
+1771318,1771318,Fix Released,No nova-compute image in docker after promotion,https://bugs.launchpad.net/tripleo/+bug/1771318,2019-10-28
+1762351,1762351,Fix Released,periodic-tripleo-ci-centos-7-ovb-1ctlr_1comp-featureset002-queens-upload is timeout in virt-customize step,https://bugs.launchpad.net/tripleo/+bug/1762351,2019-10-28
+1743436,1743436,Fix Released,CI: overcloud deployment is stuck and --timeout doesn't cancel it in time,https://bugs.launchpad.net/tripleo/+bug/1743436,2019-10-28
+1735792,1735792,Fix Released,tripleo-ci-centos-7-undercloud-upgrades is running tripleo.sh vs oooq,https://bugs.launchpad.net/tripleo/+bug/1735792,2019-10-28
+1843420,1843420,Fix Released,Quickstart is failing with syntax error,https://bugs.launchpad.net/tripleo/+bug/1843420,2019-10-28
+1841096,1841096,Fix Released,fluentd missing deps in building containers for RHEL 8,https://bugs.launchpad.net/tripleo/+bug/1841096,2019-10-28
+1849535,1849535,Fix Released,programming error when detaching a volume that failed to attach,https://bugs.launchpad.net/zun/+bug/1849535,2019-10-28
+1849754,1849754,Fix Released,py27 job failed with IOError,https://bugs.launchpad.net/zun/+bug/1849754,2019-10-27
+1849752,1849752,Fix Released,py37 job failed with BlockingIOError,https://bugs.launchpad.net/zun/+bug/1849752,2019-10-27
+1793411,1793411,Fix Committed,Dashboard memory leaks,https://bugs.launchpad.net/horizon/+bug/1793411,2019-10-27
+1847227,1847227,Fix Released,Naming convention for cloud shell container will  lead to validation errors,https://bugs.launchpad.net/zun-ui/+bug/1847227,2019-10-27
+1849990,1849990,Fix Released,the docs build job failed,https://bugs.launchpad.net/zun-ui/+bug/1849990,2019-10-26
+1776426,1776426,Fix Released,Missing dependencies for deploying kolla-ansible,https://bugs.launchpad.net/kolla-ansible/+bug/1776426,2019-10-26
+1791644,1791644,Fix Released,Swift role not updating config files,https://bugs.launchpad.net/kolla-ansible/+bug/1791644,2019-10-26
+1795602,1795602,Fix Released,swift3 not installed/enabled in swift proxy,https://bugs.launchpad.net/kolla-ansible/+bug/1795602,2019-10-26
+1791830,1791830,Fix Released,swift-recon installed but not activated,https://bugs.launchpad.net/kolla-ansible/+bug/1791830,2019-10-26
+1753574,1753574,Fix Released,switch keystone_token_provider to fernet,https://bugs.launchpad.net/kolla-ansible/+bug/1753574,2019-10-26
+1808897,1808897,Fix Released,Update mailinglist from dev to discuss,https://bugs.launchpad.net/kolla/+bug/1808897,2019-10-26
+1777571,1777571,Fix Released,Need auto install sudo via baremetal,https://bugs.launchpad.net/kolla-ansible/+bug/1777571,2019-10-26
+1658543,1658543,Fix Released,mariadb: allow configurable log directory,https://bugs.launchpad.net/kolla/+bug/1658543,2019-10-26
+1849164,1849164,Fix Released,nova policy doc does not include the PUT and Rebuild servers APIs for 'show:host_status' and 'os-extended-server-attributes',https://bugs.launchpad.net/nova/+bug/1849164,2019-10-26
+1849418,1849418,Fix Released,n-novnc service requirement causes intermittent failure in multinode jobs,https://bugs.launchpad.net/devstack/+bug/1849418,2019-10-26
+1713952,1713952,Fix Released,convergence: stack cancel_update with rollback fails with Attribute Errror,https://bugs.launchpad.net/heat/+bug/1713952,2019-10-25
+1848789,1848789,Fix Released,[Queens to Rocky] Upgrade task being skipped,https://bugs.launchpad.net/tripleo/+bug/1848789,2019-10-25
+1849870,1849870,Fix Released,docs build failing on psycopg2 dependency,https://bugs.launchpad.net/nova/+bug/1849870,2019-10-25
+1814320,1814320,Fix Released,octavia install breaking because crudini not installed on hosts,https://bugs.launchpad.net/tripleo/+bug/1814320,2019-10-25
+1833696,1833696,Fix Released,Devstack installs version-less rdo-release package,https://bugs.launchpad.net/devstack/+bug/1833696,2019-10-25
+1833696,1833696,Fix Released,Devstack installs version-less rdo-release package,https://bugs.launchpad.net/manila/+bug/1833696,2019-10-25
+1829895,1829895,Fix Released,Update Ansible to 2.6+ due to Python 3.7,https://bugs.launchpad.net/kolla/+bug/1829895,2019-10-25
+1829895,1829895,Fix Released,Update Ansible to 2.6+ due to Python 3.7,https://bugs.launchpad.net/kolla-ansible/+bug/1829895,2019-10-25
+1645339,1645339,Fix Released,Create minimal architecture example for HA,https://bugs.launchpad.net/openstack-manuals/+bug/1645339,2019-10-25
+1821174,1821174,Fix Released,systemd-journal-remote won't start,https://bugs.launchpad.net/openstack-ansible/+bug/1821174,2019-10-24
+1826427,1826427,Fix Released,Rocky→Stein upgrade fails in utility-install.yml (python_venv_build) looking for a non-existent path on the local PyPI mirror,https://bugs.launchpad.net/openstack-ansible/+bug/1826427,2019-10-24
+1830028,1830028,Fix Released,utility container is missing the shade library,https://bugs.launchpad.net/openstack-ansible/+bug/1830028,2019-10-24
+1830220,1830220,Fix Released,rgw keystone setup don't use right pyhton interpreter,https://bugs.launchpad.net/openstack-ansible/+bug/1830220,2019-10-24

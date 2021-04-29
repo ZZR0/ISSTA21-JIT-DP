@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1198926,1198926,Fix Released,"Delete operation in swift-bench failed, when proxy affinity is enable",https://bugs.launchpad.net/swift/+bug/1198926,2013-10-17
+1213845,1213845,Fix Released,test_utils.py use fixed temporary file and test fails if this one exists,https://bugs.launchpad.net/swift/+bug/1213845,2013-10-17
+1167836,1167836,Fix Released,Lacking initial rule for list_groups_for_user operation in sample policy.json,https://bugs.launchpad.net/keystone/+bug/1167836,2013-10-17
+1212849,1212849,Fix Released,container auditor test's don't reset mocks,https://bugs.launchpad.net/swift/+bug/1212849,2013-10-17
+1166182,1166182,Fix Released,grizzly sample_data.sh ignores password variables,https://bugs.launchpad.net/keystone/+bug/1166182,2013-10-17
+1210114,1210114,Fix Released,Lots of warnings and errors with groff for the man pages,https://bugs.launchpad.net/swift/+bug/1210114,2013-10-17
+1210045,1210045,Fix Released,test coverage of swift.account.reaper is low,https://bugs.launchpad.net/swift/+bug/1210045,2013-10-17
+1159888,1159888,Fix Released,broken links in rst doc,https://bugs.launchpad.net/keystone/+bug/1159888,2013-10-17
+1158470,1158470,Fix Released,Only display versions info of running API versions,https://bugs.launchpad.net/keystone/+bug/1158470,2013-10-17
+1208802,1208802,Fix Released,TestContainer.test_sync_first_loop will fail when there is an process binding on 80,https://bugs.launchpad.net/swift/+bug/1208802,2013-10-17
+1158077,1158077,Fix Released,user crud in ldap backend breaks when changing user_name_attribute and user_id_attribute,https://bugs.launchpad.net/keystone/+bug/1158077,2013-10-17
+1237044,1237044,Fix Released,allow POSTs when over quota,https://bugs.launchpad.net/swift/+bug/1237044,2013-10-17
+1157515,1157515,Fix Released,non-default auth plugins can't be configured,https://bugs.launchpad.net/keystone/+bug/1157515,2013-10-17
+1237037,1237037,Fix Released,fix ranged GET with if-none-match,https://bugs.launchpad.net/swift/+bug/1237037,2013-10-17
+1237029,1237029,Fix Released,CompressingFileReader doesn't support seek(),https://bugs.launchpad.net/swift/+bug/1237029,2013-10-17
+1152740,1152740,Fix Released,keystone-all --version doesn't print version,https://bugs.launchpad.net/keystone/+bug/1152740,2013-10-17
+1128379,1128379,Fix Released,WSGI.middleware do not catch exceptions,https://bugs.launchpad.net/keystone/+bug/1128379,2013-10-17
+1237026,1237026,Fix Released,improve error handling for SLO deletes,https://bugs.launchpad.net/swift/+bug/1237026,2013-10-17
+1125637,1125637,Fix Released,residual grants after delete action,https://bugs.launchpad.net/keystone/+bug/1125637,2013-10-17
+1237017,1237017,Fix Released,restore old swift.source logging,https://bugs.launchpad.net/swift/+bug/1237017,2013-10-17
+1119641,1119641,Fix Released,PKI support breaks memcache token backend,https://bugs.launchpad.net/keystone/+bug/1119641,2013-10-17
+1117356,1117356,Fix Released,Update API on LDAP does not return the result,https://bugs.launchpad.net/keystone/+bug/1117356,2013-10-17
+1209443,1209443,Fix Released,whataremyips doesn't return correct ipv6,https://bugs.launchpad.net/swift/+bug/1209443,2013-10-17
+1203182,1203182,Fix Released,bulk extract-archive doesn't seem to work for non-admin user,https://bugs.launchpad.net/swift/+bug/1203182,2013-10-17
+1168399,1168399,Fix Released,low performance with SQL token backends,https://bugs.launchpad.net/keystone/+bug/1168399,2013-10-17
+1167421,1167421,Fix Released,Upgrading from folsom to grizzly results in all tenants/users being disabled,https://bugs.launchpad.net/keystone/+bug/1167421,2013-10-17
+1200271,1200271,Fix Released,X-Copy-From can result in over quota,https://bugs.launchpad.net/swift/+bug/1200271,2013-10-17
+1166701,1166701,Fix Released,Error creating user with unicode username,https://bugs.launchpad.net/keystone/+bug/1166701,2013-10-17
+1237034,1237034,Fix Released,get_more_nodes() is very slow,https://bugs.launchpad.net/swift/+bug/1237034,2013-10-17
+1158544,1158544,Fix Released,db migration 022 does not close session,https://bugs.launchpad.net/keystone/+bug/1158544,2013-10-17
+1040115,1040115,Fix Released,TLS support for LDAP back end,https://bugs.launchpad.net/keystone/+bug/1040115,2013-10-17
+1237033,1237033,Fix Released,cached values don't expire,https://bugs.launchpad.net/swift/+bug/1237033,2013-10-17
+1178646,1178646,Fix Released,eventlet revert causes swift auth to hang,https://bugs.launchpad.net/keystone/+bug/1178646,2013-10-17
+1168726,1168726,Fix Released,default_domain_id breaks the ability to map keystone  to ldap,https://bugs.launchpad.net/keystone/+bug/1168726,2013-10-17
+1182271,1182271,Fix Released,Nova unit tests fail on CentOS 6 when python-jinja2 package is installed,https://bugs.launchpad.net/nova/+bug/1182271,2013-10-17
+1237102,1237102,Fix Released,Conductor does not properly copy objects during change tracking,https://bugs.launchpad.net/nova/+bug/1237102,2013-10-17
+1236176,1236176,Fix Released,Bad parameter to ConfigFilesNotFoundError,https://bugs.launchpad.net/nova/+bug/1236176,2013-10-17
+1233789,1233789,Fix Released,Object actions via conductor will result in verbose exception logging,https://bugs.launchpad.net/nova/+bug/1233789,2013-10-17
+1233504,1233504,Fix Released,Attach interface to instance failed at compute manage,https://bugs.launchpad.net/nova/+bug/1233504,2013-10-17
+1233454,1233454,Fix Released,missing entry in setup.cfg for shelve extension,https://bugs.launchpad.net/nova/+bug/1233454,2013-10-17
+1226622,1226622,Fix Released,Obscure error when plugins mismatch,https://bugs.launchpad.net/nova/+bug/1226622,2013-10-17
+1238281,1238281,Fix Released,Migration script deletes wrong compute node stats,https://bugs.launchpad.net/nova/+bug/1238281,2013-10-17
+1236356,1236356,Fix Released,"Havana libvirt live migration should not be allowed without shared storage, even for volume-backed VMs",https://bugs.launchpad.net/nova/+bug/1236356,2013-10-17
+1233563,1233563,Fix Released,unshelve feature does not work,https://bugs.launchpad.net/nova/+bug/1233563,2013-10-17
+1224088,1224088,Fix Released,Notifications missing for instance rescue operation,https://bugs.launchpad.net/nova/+bug/1224088,2013-10-17
+1223888,1223888,Fix Released,Object get() doesn't return extra fields,https://bugs.launchpad.net/nova/+bug/1223888,2013-10-17
+1223620,1223620,Fix Released,Misuse of assertTrue in test scripts,https://bugs.launchpad.net/nova/+bug/1223620,2013-10-17
+1223559,1223559,Fix Released,PCI passthrough failing on extra_info,https://bugs.launchpad.net/nova/+bug/1223559,2013-10-17
+1223165,1223165,Fix Released,duplicated class ImageDownloadModuleMetaDataError definition in exception.py,https://bugs.launchpad.net/nova/+bug/1223165,2013-10-17
+1222663,1222663,Fix Released,libvirt - should catch more accuracy exception for _lookup_by_name,https://bugs.launchpad.net/nova/+bug/1222663,2013-10-17
+1221925,1221925,Fix Released,snapshot_instance stacktrace when ImageNotFound,https://bugs.launchpad.net/nova/+bug/1221925,2013-10-17
+1221527,1221527,Fix Released,Exception message that is different from the expected,https://bugs.launchpad.net/nova/+bug/1221527,2013-10-17
+1221493,1221493,Fix Released,Exception message that is different from the expected,https://bugs.launchpad.net/nova/+bug/1221493,2013-10-17
+1221026,1221026,Fix Released,conversion type missing in log message,https://bugs.launchpad.net/nova/+bug/1221026,2013-10-17
+1220904,1220904,Fix Released,PXE dhcp_option needs to provide the bootfile_name,https://bugs.launchpad.net/nova/+bug/1220904,2013-10-17
+1220541,1220541,Fix Released,Misuse of assertTrue in virt test scripts,https://bugs.launchpad.net/nova/+bug/1220541,2013-10-17
+1220538,1220538,Fix Released,Misuse of assertTrue in compute test scripts,https://bugs.launchpad.net/nova/+bug/1220538,2013-10-17
+1220522,1220522,Fix Released,Misuse of assertTrue in Cells test scripts,https://bugs.launchpad.net/nova/+bug/1220522,2013-10-17
+1218057,1218057,Fix Released,Nova libvirt driver not passing REUSE flag when _swap_volume calls  blockRebase,https://bugs.launchpad.net/nova/+bug/1218057,2013-10-17
+1214315,1214315,Fix Released,the response code of add_host and remove_host in nova v3 aggreate api is error,https://bugs.launchpad.net/nova/+bug/1214315,2013-10-17
+1213953,1213953,Fix Released,booting VM form volume crashes by timeout creating volume,https://bugs.launchpad.net/nova/+bug/1213953,2013-10-17
+1212915,1212915,Fix Released,"nova api ""show"" do not fetch error message of vm",https://bugs.launchpad.net/nova/+bug/1212915,2013-10-17
+1210659,1210659,Fix Released,xenapi: Fix download_handler fallback,https://bugs.launchpad.net/nova/+bug/1210659,2013-10-17
+1209410,1209410,Fix Released,processutlis.execute not usable in windows,https://bugs.launchpad.net/cinder/+bug/1209410,2013-10-17
+1209410,1209410,Fix Released,processutlis.execute not usable in windows,https://bugs.launchpad.net/nova/+bug/1209410,2013-10-17
+1208701,1208701,Fix Released,Test migration _post_downgrade_186 doesn't work with postgres,https://bugs.launchpad.net/nova/+bug/1208701,2013-10-17
+1208652,1208652,Fix Released,Migration 152 loses indexes on postgres columns,https://bugs.launchpad.net/nova/+bug/1208652,2013-10-17
+1207153,1207153,Fix Released,wrong argument when calling saft_utils.getcallargs() in nova/exception.py,https://bugs.launchpad.net/nova/+bug/1207153,2013-10-17
+1206312,1206312,Fix Released,resize-revert might be failed when using slow NFS,https://bugs.launchpad.net/nova/+bug/1206312,2013-10-17
+1202484,1202484,Fix Released,Instance backup dir isn't deleted if instance is deleted during confirming resize,https://bugs.launchpad.net/nova/+bug/1202484,2013-10-17
+1191336,1191336,Fix Released,Unable to not set the value of quota to 0,https://bugs.launchpad.net/nova/+bug/1191336,2013-10-17
+1190585,1190585,Fix Released,Race condition for auto assigned addresses in Nova networking,https://bugs.launchpad.net/nova/+bug/1190585,2013-10-17
+1182830,1182830,Fix Released,"""/nova/image/glance.py""  could not parse ipv6 address correctly",https://bugs.launchpad.net/nova/+bug/1182830,2013-10-17
+1043861,1043861,Fix Released,"Pause/Unpause instance should generate a notification in ""notification.info""",https://bugs.launchpad.net/nova/+bug/1043861,2013-10-17
+1229515,1229515,Fix Released,Fix SecurityGroupsOutputTest v3 security group tests,https://bugs.launchpad.net/nova/+bug/1229515,2013-10-17

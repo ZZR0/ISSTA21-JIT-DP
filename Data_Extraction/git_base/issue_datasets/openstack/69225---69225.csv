@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1292775,1292775,Fix Released,ensure_packages requires array given (String) in ceilometer::collector,https://bugs.launchpad.net/puppet-ceilometer/+bug/1292775,2015-03-26
+1291030,1291030,Fix Released,Region name is not configured properly,https://bugs.launchpad.net/puppet-ceilometer/+bug/1291030,2015-03-26
+1290634,1290634,Fix Released,Add ability to define arbitrary nova_config through manifest parameter,https://bugs.launchpad.net/puppet-nova/+bug/1290634,2015-03-26
+1289187,1289187,Fix Released,Bad logic in pipeline check causes spurious warning,https://bugs.launchpad.net/puppet-swift/+bug/1289187,2015-03-26
+1288975,1288975,Fix Released,sync_db behavior change causing problems w/OVS in Havana,https://bugs.launchpad.net/puppet-neutron/+bug/1288975,2015-03-26
+1288659,1288659,Fix Released,Invalid status command for the openswitch service on Ubuntu,https://bugs.launchpad.net/puppet-vswitch/+bug/1288659,2015-03-26
+1287939,1287939,Fix Released,Service polling credentials are now in service_credentials group,https://bugs.launchpad.net/puppet-ceilometer/+bug/1287939,2015-03-26
+1287554,1287554,Fix Released,Race condition in FWaaS service setup,https://bugs.launchpad.net/puppet-neutron/+bug/1287554,2015-03-26
+1287520,1287520,Fix Released,API endpoint default URL's are unversioned,https://bugs.launchpad.net/puppet-keystone/+bug/1287520,2015-03-26
+1286167,1286167,Fix Released,missing libffi-dev dependency,https://bugs.launchpad.net/puppet-tempest/+bug/1286167,2015-03-26
+1282717,1282717,Fix Released,Deprecation warning due to lack of @ in inline templates,https://bugs.launchpad.net/puppet-swift/+bug/1282717,2015-03-26
+1282295,1282295,Fix Released,"The logdir configuration is deprecated, log_dir should be used instead",https://bugs.launchpad.net/puppet-nova/+bug/1282295,2015-03-26
+1279071,1279071,Fix Released,User should be able to disable endpoint configuration,https://bugs.launchpad.net/puppet-swift/+bug/1279071,2015-03-26
+1281684,1281684,Fix Released,Bad test for tunnel_types in OVS agent manifest,https://bugs.launchpad.net/puppet-neutron/+bug/1281684,2015-03-26
+1281392,1281392,Fix Released,Should have ability to disable installation of nova utilities,https://bugs.launchpad.net/puppet-nova/+bug/1281392,2015-03-26
+1280365,1280365,Fix Released,Add support for multi-region (AVAILABLE_REGIONS),https://bugs.launchpad.net/puppet-horizon/+bug/1280365,2015-03-26
+1280329,1280329,Fix Released,ceilometer_config provider shoud define self.file_path,https://bugs.launchpad.net/puppet-ceilometer/+bug/1280329,2015-03-26
+1280071,1280071,Fix Released,don't have the ablitiy of configuring notification related options,https://bugs.launchpad.net/puppet-keystone/+bug/1280071,2015-03-26
+1279329,1279329,Fix Released,keystone_config  should hide config values from puppet logs,https://bugs.launchpad.net/puppet-keystone/+bug/1279329,2015-03-26
+1278950,1278950,Fix Released,::proxy class requires for middlewares doesn't handle underscores,https://bugs.launchpad.net/puppet-swift/+bug/1278950,2015-03-26
+1278554,1278554,Fix Released,User should be able to disable endpoint configuration,https://bugs.launchpad.net/puppet-nova/+bug/1278554,2015-03-26
+1273878,1273878,Fix Released,glance_control_exchange shouldn't be enforced,https://bugs.launchpad.net/puppet-ceilometer/+bug/1273878,2015-03-26
+1278546,1278546,Fix Released,User should be able to disable call to pki_setup,https://bugs.launchpad.net/puppet-keystone/+bug/1278546,2015-03-26
+1274382,1274382,Fix Released,OPENSTACK_NEUTRON_NETWORK settings Are Not Parameterized,https://bugs.launchpad.net/puppet-horizon/+bug/1274382,2015-03-26
+1273883,1273883,Fix Released,Make notification_topics configurable,https://bugs.launchpad.net/puppet-ceilometer/+bug/1273883,2015-03-26
+1273876,1273876,Fix Released,Ceilometer shouldn't listen to glance_notifications topic,https://bugs.launchpad.net/puppet-ceilometer/+bug/1273876,2015-03-26
+1273771,1273771,Fix Released,Database parameters should be prefixed by database_,https://bugs.launchpad.net/puppet-neutron/+bug/1273771,2015-03-26
+1273697,1273697,Fix Released,keystone::wsgi::apache does not allow to bind to a specific IP address,https://bugs.launchpad.net/puppet-keystone/+bug/1273697,2015-03-26
+1273442,1273442,Fix Released,"Deprecated keystone_scheme,host,port parameters do not work",https://bugs.launchpad.net/puppet-horizon/+bug/1273442,2015-03-26
+1273285,1273285,Fix Released,dupplicate resource with haproxy on neutron::agents::lbaas,https://bugs.launchpad.net/puppet-neutron/+bug/1273285,2015-03-26
+1272441,1272441,Fix Released,havana install on ubuntu missing COMPRESS_OFFLINE,https://bugs.launchpad.net/puppet-horizon/+bug/1272441,2015-03-26
+1271635,1271635,Fix Released,Hide 'set password' panel while booting an instance,https://bugs.launchpad.net/puppet-horizon/+bug/1271635,2015-03-26
+1271269,1271269,Fix Released,bind_host is deprecated,https://bugs.launchpad.net/puppet-keystone/+bug/1271269,2015-03-26
+1269672,1269672,Fix Released,neutron::plugins::ml2 should require openstack-neutron-openvswitch for CentOS,https://bugs.launchpad.net/puppet-neutron/+bug/1269672,2015-03-26
+1269623,1269623,Fix Released,Unnecessary deprecated warnings for SQL parameters,https://bugs.launchpad.net/puppet-neutron/+bug/1269623,2015-03-26
+1267645,1267645,Fix Released,Wrong package name for vncproxy on Debian,https://bugs.launchpad.net/puppet-nova/+bug/1267645,2015-03-26
+1266259,1266259,Fix Released,control_exchange is dupplicated,https://bugs.launchpad.net/puppet-cinder/+bug/1266259,2015-03-26
+1266241,1266241,Fix Released,Use puppetlabs-mysql >= 2.0.0 module,https://bugs.launchpad.net/puppet-keystone/+bug/1266241,2015-03-26
+1263946,1263946,Fix Released,Type error with alarm_package_name on Debian osfamily,https://bugs.launchpad.net/puppet-ceilometer/+bug/1263946,2015-03-26
+1261865,1261865,Fix Released,netapp manifest & spec are out of date for havana,https://bugs.launchpad.net/puppet-cinder/+bug/1261865,2015-03-26
+1261662,1261662,Fix Released,SwiftOperator keystone role does not get created,https://bugs.launchpad.net/puppet-swift/+bug/1261662,2015-03-26
+1260732,1260732,Fix Released,Validate method failed for class sleep,https://bugs.launchpad.net/puppet-vswitch/+bug/1260732,2015-03-26
+1246742,1246742,Fix Released,Enabling ssl causes apache error,https://bugs.launchpad.net/puppet-horizon/+bug/1246742,2015-03-26
+1190282,1190282,Fix Released,Add ability to disable Apache in puppet-horizon,https://bugs.launchpad.net/puppet-horizon/+bug/1190282,2015-03-26
+1303453,1303453,Fix Released,report_interval is missing from the config,https://bugs.launchpad.net/puppet-nova/+bug/1303453,2015-03-26
+1292619,1292619,Fix Released,"When using syslog, log_file still exist",https://bugs.launchpad.net/puppet-keystone/+bug/1292619,2015-03-26
+1286891,1286891,Fix Released,Add the ability to control the number of multiple conductor,https://bugs.launchpad.net/puppet-nova/+bug/1286891,2015-03-26
+1259495,1259495,Fix Released,Add support to use dnsmasq with the OVS plug-in and GRE,https://bugs.launchpad.net/puppet-neutron/+bug/1259495,2015-03-26
+1340999,1340999,Fix Released,error 400 on controller without haproxy icehouse,https://bugs.launchpad.net/puppet-neutron/+bug/1340999,2015-03-26
+1294138,1294138,Fix Released,Multi-Backend: dupplicate resource with RBD,https://bugs.launchpad.net/puppet-cinder/+bug/1294138,2015-03-26
+1257738,1257738,Fix Released,auth_token configuration does not need the service catalog,https://bugs.launchpad.net/puppet-swift/+bug/1257738,2015-03-26
+1262489,1262489,Fix Released,add cron to token_flush,https://bugs.launchpad.net/puppet-keystone/+bug/1262489,2015-03-26
+1262302,1262302,Fix Released,Examples are outdated in tests/,https://bugs.launchpad.net/puppet-nova/+bug/1262302,2015-03-26
+1259193,1259193,Fix Released,Add multi rabbitmq support for icehouse,https://bugs.launchpad.net/puppet-glance/+bug/1259193,2015-03-26
+1409977,1409977,Fix Released,engine.pp defaults conflict with auth.pp defaults,https://bugs.launchpad.net/puppet-heat/+bug/1409977,2015-03-26
+1334250,1334250,Fix Released,nova-notifications: can't work with HTTPS keystone endpoint,https://bugs.launchpad.net/puppet-neutron/+bug/1334250,2015-03-26
+1288741,1288741,Fix Released,Package[openstack-neutron] is not in the catalog,https://bugs.launchpad.net/puppet-neutron/+bug/1288741,2015-03-26
+1278452,1278452,Fix Released,Cannot alias console packages on RHEL,https://bugs.launchpad.net/puppet-nova/+bug/1278452,2015-03-26
+1275688,1275688,Fix Released,Neutron database is never populated,https://bugs.launchpad.net/puppet-neutron/+bug/1275688,2015-03-26
+1254487,1254487,Fix Released,Fix auth_token configuration,https://bugs.launchpad.net/puppet-swift/+bug/1254487,2015-03-26
+1224770,1224770,Fix Released,Wrong ownership for /var/log/horizon,https://bugs.launchpad.net/puppet-horizon/+bug/1224770,2015-03-26
+1224179,1224179,Fix Released,Scalability issue with medium size OpenStack,https://bugs.launchpad.net/puppet-keystone/+bug/1224179,2015-03-26
+1199513,1199513,Fix Released,glance_image provider fails with puppet >= 3.0,https://bugs.launchpad.net/puppet-glance/+bug/1199513,2015-03-26
+1282296,1282296,Fix Released,Add ability to disable configuration of log_dir,https://bugs.launchpad.net/puppet-keystone/+bug/1282296,2015-03-26
+1282296,1282296,Fix Released,Add ability to disable configuration of log_dir,https://bugs.launchpad.net/puppet-ceilometer/+bug/1282296,2015-03-26
+1282296,1282296,Fix Released,Add ability to disable configuration of log_dir,https://bugs.launchpad.net/puppet-glance/+bug/1282296,2015-03-26
+1282296,1282296,Fix Released,Add ability to disable configuration of log_dir,https://bugs.launchpad.net/puppet-heat/+bug/1282296,2015-03-26
+1282296,1282296,Fix Released,Add ability to disable configuration of log_dir,https://bugs.launchpad.net/puppet-nova/+bug/1282296,2015-03-26
+1282296,1282296,Fix Released,Add ability to disable configuration of log_dir,https://bugs.launchpad.net/puppet-cinder/+bug/1282296,2015-03-26
+1282296,1282296,Fix Released,Add ability to disable configuration of log_dir,https://bugs.launchpad.net/puppet-neutron/+bug/1282296,2015-03-26
+1328448,1328448,Fix Released,Hide secrets from puppet logs,https://bugs.launchpad.net/puppet-ironic/+bug/1328448,2015-03-26
+1328448,1328448,Fix Released,Hide secrets from puppet logs,https://bugs.launchpad.net/puppet-neutron/+bug/1328448,2015-03-26
+1328448,1328448,Fix Released,Hide secrets from puppet logs,https://bugs.launchpad.net/puppet-designate/+bug/1328448,2015-03-26
+1328448,1328448,Fix Released,Hide secrets from puppet logs,https://bugs.launchpad.net/puppet-heat/+bug/1328448,2015-03-26
+1328448,1328448,Fix Released,Hide secrets from puppet logs,https://bugs.launchpad.net/puppet-glance/+bug/1328448,2015-03-26

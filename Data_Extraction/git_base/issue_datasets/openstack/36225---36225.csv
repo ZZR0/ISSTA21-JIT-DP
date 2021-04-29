@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1535707,1535707,Fix Released,Create router with external network attached doesn't notify l3 agent,https://bugs.launchpad.net/horizon/+bug/1535707,2016-10-07
+1490917,1490917,Fix Released,create_router regression for some of plugins,https://bugs.launchpad.net/neutron/+bug/1490917,2016-10-07
+1478100,1478100,Fix Released,DHCP agent scheduler can schedule dnsmasq to an agent without reachability to the network its supposed to serve,https://bugs.launchpad.net/neutron/+bug/1478100,2016-10-07
+1582518,1582518,Fix Released,Ubuntu binary containers are missing for Magnum,https://bugs.launchpad.net/kolla/+bug/1582518,2016-10-07
+1594796,1594796,Fix Released,test_api_extension_validation_with_good_dns_names fails with 500 error,https://bugs.launchpad.net/neutron/+bug/1594796,2016-10-07
+1604838,1604838,Fix Released,Failed to add sriov instance mac address when 2 physical port are configured,https://bugs.launchpad.net/neutron/+bug/1604838,2016-10-07
+1603363,1603363,Fix Released,fullstack tests miss logs from testrunner,https://bugs.launchpad.net/neutron/+bug/1603363,2016-10-07
+1602833,1602833,Fix Released,Missing retry decorator on dhcp_ready_on_ports,https://bugs.launchpad.net/neutron/+bug/1602833,2016-10-07
+1600344,1600344,Fix Released,l3 code can leave orphaned ports,https://bugs.launchpad.net/neutron/+bug/1600344,2016-10-07
+1596754,1596754,Fix Released,Pecan controllers should construct the plugin method names similar to how the legacy wsgi does,https://bugs.launchpad.net/neutron/+bug/1596754,2016-10-07
+1588042,1588042,Fix Released,UnboundLocalError with native openflow agent on switch timeout,https://bugs.launchpad.net/neutron/+bug/1588042,2016-10-07
+1587973,1587973,Fix Released,DhcpAgentSchedulerDbMixin.get_dhcp_agents_hosting_networks fails for many networks,https://bugs.launchpad.net/neutron/+bug/1587973,2016-10-07
+1583069,1583069,Fix Released,neutron.tests.unit.agent.ovsdb.native.test_connection raises exception in different thread,https://bugs.launchpad.net/neutron/+bug/1583069,2016-10-07
+1576046,1576046,Fix Released,test_create_router_port_and_fail_create_postcommit  makes networking-odl py27 and py34 fail,https://bugs.launchpad.net/neutron/+bug/1576046,2016-10-07
+1493414,1493414,Fix Released,OVS Neutron agent is marking port as dead before they are deleted,https://bugs.launchpad.net/neutron/+bug/1493414,2016-10-07
+1599643,1599643,Fix Released,Bug 1370570 has come back,https://bugs.launchpad.net/neutron/+bug/1599643,2016-10-07
+1599473,1599473,Fix Released,guest with direct port send broadcast request on dhcp renew in case guest and dhcp on the same physical node,https://bugs.launchpad.net/neutron/+bug/1599473,2016-10-07
+1598527,1598527,Fix Released,next() is incompatible in test_network_ip_availability.py,https://bugs.launchpad.net/neutron/+bug/1598527,2016-10-07
+1595345,1595345,Fix Released,callbacks can't raise RetryRequest,https://bugs.launchpad.net/neutron/+bug/1595345,2016-10-07
+1592983,1592983,Fix Released,callback can't unsubscribe itself in python3,https://bugs.launchpad.net/neutron/+bug/1592983,2016-10-07
+1591636,1591636,Fix Released,Variable name confusion,https://bugs.launchpad.net/neutron/+bug/1591636,2016-10-07
+1589745,1589745,Fix Released,availability_zone missing in dhcp and l3 conf,https://bugs.launchpad.net/neutron/+bug/1589745,2016-10-07
+1585149,1585149,Fix Released,Do not inherit test case classes from regular Neutron classes,https://bugs.launchpad.net/neutron/+bug/1585149,2016-10-07
+1561152,1561152,Fix Released,neutron-sanity-check generates invalid bridge names,https://bugs.launchpad.net/neutron/+bug/1561152,2016-10-07
+1559191,1559191,Fix Released,TestParseOneVlanRange fails in python3.5,https://bugs.launchpad.net/neutron/+bug/1559191,2016-10-07
+1557959,1557959,Fix Released,subnet rbac_entries not configured as a list,https://bugs.launchpad.net/neutron/+bug/1557959,2016-10-07
+1527991,1527991,Fix Released,SR-IOV port doesn't reach router internal  port when they on the same physical server,https://bugs.launchpad.net/neutron/+bug/1527991,2016-10-07
+1321352,1321352,Fix Released,Nova notification introduces a hard dependency on novaclient,https://bugs.launchpad.net/neutron/+bug/1321352,2016-10-07
+1599840,1599840,Fix Released,Remove foreign key during db upgrade not remove unique constraint for it,https://bugs.launchpad.net/neutron/+bug/1599840,2016-10-07
+1593402,1593402,Fix Released,Neutron returns 500 when creating a segment with non-existent network id,https://bugs.launchpad.net/neutron/+bug/1593402,2016-10-07
+1593342,1593342,Fix Released,metadata agent does not cache results if cache is configured using oslo.cache options,https://bugs.launchpad.net/neutron/+bug/1593342,2016-10-07
+1591981,1591981,Fix Released,Emulated pagination helper returns marker item when page_reverse is used,https://bugs.launchpad.net/neutron/+bug/1591981,2016-10-07
+1591338,1591338,Fix Released,Pecan does not support pagination,https://bugs.launchpad.net/neutron/+bug/1591338,2016-10-07
+1590602,1590602,Fix Released,duplicate mac detection is brittle,https://bugs.launchpad.net/neutron/+bug/1590602,2016-10-07
+1590316,1590316,Fix Released,exception handling of callback failures doesn't take into account retriable errors,https://bugs.launchpad.net/neutron/+bug/1590316,2016-10-07
+1583844,1583844,Fix Released,pecan exception handler inconsistent with legacy exception handler,https://bugs.launchpad.net/neutron/+bug/1583844,2016-10-07
+1570171,1570171,Fix Released,ip_conntrack only delete one direction entry,https://bugs.launchpad.net/neutron/+bug/1570171,2016-10-07
+1569921,1569921,Fix Released,l3 agent terminates on start if the server is not running,https://bugs.launchpad.net/neutron/+bug/1569921,2016-10-07
+1566007,1566007,Fix Released,l3 iptables floating IP rules don't match iptables rules,https://bugs.launchpad.net/neutron/+bug/1566007,2016-10-07
+1564144,1564144,Fix Released,Sometimes L3 rpc update operations produce deadlock errors,https://bugs.launchpad.net/neutron/+bug/1564144,2016-10-07
+1550886,1550886,Fix Released,L3 Agent's fullsync is raceful with creation of HA router,https://bugs.launchpad.net/neutron/+bug/1550886,2016-10-07
+1548285,1548285,Fix Released,l3 HA network management is racey,https://bugs.launchpad.net/neutron/+bug/1548285,2016-10-07
+1545058,1545058,Fix Released,ovs agent Runtime error when checking int_if_name type for the first time,https://bugs.launchpad.net/neutron/+bug/1545058,2016-10-07
+1540271,1540271,Fix Released,ha interface cleanup can leave orphans,https://bugs.launchpad.net/neutron/+bug/1540271,2016-10-07
+1522677,1522677,Fix Released,AZAwareWeightScheduler is not totally based on weight,https://bugs.launchpad.net/neutron/+bug/1522677,2016-10-07
+1514424,1514424,Fix Released,neutron metadata ns proxy does not support ssl,https://bugs.launchpad.net/neutron/+bug/1514424,2016-10-07
+1627765,1627765,Fix Committed,Create  a deb package for glare service,https://bugs.launchpad.net/fuel/+bug/1627765,2016-10-07
+1569417,1569417,Fix Released,Update dockerfiles for formatting,https://bugs.launchpad.net/kolla/+bug/1569417,2016-10-07
+1629798,1629798,Fix Released,[DOCS] Edits to the OSA install guide appendix,https://bugs.launchpad.net/openstack-ansible/+bug/1629798,2016-10-07
+1630247,1630247,Fix Released,sahara services during mitaka to newton upgrade,https://bugs.launchpad.net/tripleo/+bug/1630247,2016-10-07
+1522797,1522797,Fix Released,bagpipe: update bgpvpn attachement of an existing port does not work,https://bugs.launchpad.net/networking-bagpipe/+bug/1522797,2016-10-07
+1474279,1474279,Fix Released,"FWaaS let connection opened if delete allow rule, beacuse of conntrack",https://bugs.launchpad.net/neutron/+bug/1474279,2016-10-07
+1587551,1587551,Fix Released,do constrained tox jobs,https://bugs.launchpad.net/networking-bagpipe/+bug/1587551,2016-10-07
+1554226,1554226,Fix Released,Clean up warnings about enginefacade,https://bugs.launchpad.net/nova/+bug/1554226,2016-10-07
+1586309,1586309,Fix Released,"Delete a instance after this instance resized failed, source resource is not cleared.",https://bugs.launchpad.net/nova/+bug/1586309,2016-10-07
+1581222,1581222,Fix Released,Python clients fail for identity-v3-only setup,https://bugs.launchpad.net/devstack/+bug/1581222,2016-10-07
+1589502,1589502,Fix Released,Request Mitaka release for networking-bagpipe,https://bugs.launchpad.net/networking-bagpipe/+bug/1589502,2016-10-07
+1589502,1589502,Fix Released,Request Mitaka release for networking-bagpipe,https://bugs.launchpad.net/neutron/+bug/1589502,2016-10-07
+1600751,1600751,Fix Released,Missing Step in Alarming (AODH) configuration,https://bugs.launchpad.net/openstack-manuals/+bug/1600751,2016-10-07
+1336779,1336779,Fix Released,_clean_lvm_backing_file function didn't remove loop device,https://bugs.launchpad.net/devstack/+bug/1336779,2016-10-07
+1627701,1627701,Fix Committed,"cannot install ""clear"" 9.0 after 9.1 release",https://bugs.launchpad.net/fuel/+bug/1627701,2016-10-07
+1594584,1594584,Fix Released,Kilo nova extra migrations may not have successfully completed,https://bugs.launchpad.net/openstack-ansible/+bug/1594584,2016-10-07
+1613294,1613294,Fix Released,sudo ironic-rootwrap /etc/ironic/rootwrap.conf iscsiadm -m discovery -t st -p <IP> hangs forever,https://bugs.launchpad.net/kolla/+bug/1613294,2016-10-07
+1630530,1630530,Fix Released,List api for segments and hosts should return 400 error for invalid sort_key,https://bugs.launchpad.net/masakari/+bug/1630530,2016-10-07
+1236546,1236546,Fix Released,elements can be subtly wrong with no warning to developers,https://bugs.launchpad.net/diskimage-builder/+bug/1236546,2016-10-06
+1599329,1599329,Fix Released,Potential regression on handing over DHCP addresses to VMs,https://bugs.launchpad.net/neutron/+bug/1599329,2016-10-06
+1117007,1117007,Fix Released,concurrent runs fail,https://bugs.launchpad.net/diskimage-builder/+bug/1117007,2016-10-06
+1483385,1483385,Fix Released,install_grub failing for centos7,https://bugs.launchpad.net/diskimage-builder/+bug/1483385,2016-10-06
+1480585,1480585,Fix Released,Errors in block-device.d do not stop the build,https://bugs.launchpad.net/diskimage-builder/+bug/1480585,2016-10-06
+1477172,1477172,Fix Released,Cannot create CentOS7 image,https://bugs.launchpad.net/diskimage-builder/+bug/1477172,2016-10-06
+1596701,1596701,Fix Released,Nexenta: Add NBD driver for NexentaEdge.,https://bugs.launchpad.net/openstack-manuals/+bug/1596701,2016-10-06
+1593809,1593809,Fix Released,vzstorage: add ploop volume format support,https://bugs.launchpad.net/openstack-manuals/+bug/1593809,2016-10-06
+1630923,1630923,Fix Released,[apic-mapping] Policy Target creation error when create_auto_ptg is set,https://bugs.launchpad.net/group-based-policy/+bug/1630923,2016-10-06
+1619941,1619941,Fix Released,wrong iscsi device path with SolidFire and SVIP/Vlan specifications,https://bugs.launchpad.net/cinder/+bug/1619941,2016-10-06
+1540744,1540744,Fix Released,puppet-ceph does not ensure services start on boot,https://bugs.launchpad.net/puppet-ceph/+bug/1540744,2016-10-06

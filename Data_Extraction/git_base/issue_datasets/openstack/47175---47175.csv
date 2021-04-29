@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1554746,1554746,Fix Released,LeftHand create_cloned_volume size incorrect,https://bugs.launchpad.net/cinder/+bug/1554746,2016-03-17
+1544611,1544611,Fix Released,Storwize_svc V2 replication needs to be updated to V2.1,https://bugs.launchpad.net/cinder/+bug/1544611,2016-03-17
+1554750,1554750,Fix Released,Blockbridge driver does not honor clone volume size,https://bugs.launchpad.net/cinder/+bug/1554750,2016-03-17
+1547543,1547543,Fix Released,VNX: Fix replication to meet 2.1 spec,https://bugs.launchpad.net/cinder/+bug/1547543,2016-03-17
+1555153,1555153,Fix Released,cinder list performance is degradated,https://bugs.launchpad.net/cinder/+bug/1555153,2016-03-17
+1538305,1538305,Fix Released,volume type apis missing context.elevated,https://bugs.launchpad.net/cinder/+bug/1538305,2016-03-17
+1555370,1555370,Fix Released,"init initializes the backend vol service, except when it doesn't",https://bugs.launchpad.net/cinder/+bug/1555370,2016-03-17
+1522821,1522821,Fix Released,VMAX driver - snapshot refactoring and improvements,https://bugs.launchpad.net/cinder/+bug/1522821,2016-03-17
+1555802,1555802,Fix Released,Nested quota delete may let quota limit drop below usage,https://bugs.launchpad.net/cinder/+bug/1555802,2016-03-17
+1535708,1535708,Fix Released,Large number as 'offset' param triggers 500 error,https://bugs.launchpad.net/cinder/+bug/1535708,2016-03-17
+1554756,1554756,Fix Released,DRDB driver does not honor clone volume size,https://bugs.launchpad.net/cinder/+bug/1554756,2016-03-17
+1556020,1556020,Fix Released,Use googleapiclient import instead of apiclient,https://bugs.launchpad.net/cinder/+bug/1556020,2016-03-17
+1556150,1556150,Fix Released,Clean up exception handling in 3PAR and lefthand drivers for cheesecake replication 2.1,https://bugs.launchpad.net/cinder/+bug/1556150,2016-03-17
+1556211,1556211,Fix Released,pure drivers are creating an extra protection group with replication enabled,https://bugs.launchpad.net/cinder/+bug/1556211,2016-03-17
+1556234,1556234,Fix Released,Pure drivers don't check full rest client version,https://bugs.launchpad.net/cinder/+bug/1556234,2016-03-17
+1556285,1556285,Fix Released,Replication should be added as a valid key and replication_status should be set to enabled when failback,https://bugs.launchpad.net/cinder/+bug/1556285,2016-03-17
+1546184,1546184,Fix Released,SSl connection is not picking up parameters from emc xml file,https://bugs.launchpad.net/cinder/+bug/1546184,2016-03-17
+1556315,1556315,Fix Released,"init_host_with_rpc is checking for replication in stats, which isn't used any more",https://bugs.launchpad.net/cinder/+bug/1556315,2016-03-17
+1555722,1555722,Fix Released,volume retype doesn't emit ceilometer data,https://bugs.launchpad.net/cinder/+bug/1555722,2016-03-17
+1547798,1547798,Fix Released,Creating hypermetro failed when use the remote pool,https://bugs.launchpad.net/cinder/+bug/1547798,2016-03-17
+1554777,1554777,Fix Released,ScaleIO driver does not honor clone volume size,https://bugs.launchpad.net/cinder/+bug/1554777,2016-03-17
+1529553,1529553,Fix Released,VNX: support configurable migration rate support,https://bugs.launchpad.net/cinder/+bug/1529553,2016-03-17
+1556761,1556761,Fix Released,comment line wrong in quotas.py,https://bugs.launchpad.net/cinder/+bug/1556761,2016-03-17
+1556889,1556889,Fix Released,Circular import between cinder.api.common and cinder.db,https://bugs.launchpad.net/cinder/+bug/1556889,2016-03-17
+1556450,1556450,Fix Released,Huawei volume driver needs to support replication v2.1,https://bugs.launchpad.net/cinder/+bug/1556450,2016-03-17
+1543600,1543600,Fix Released,XIV/DS8k replication needs to be updated for V2.1 (cheesecake) design,https://bugs.launchpad.net/cinder/+bug/1543600,2016-03-17
+1555862,1555862,Fix Released,Migrate of in-use volume between backends with  AttributeError: 'VolumeType' object has no attribute '_sa_instance_state' error,https://bugs.launchpad.net/cinder/+bug/1555862,2016-03-17
+1555933,1555933,Fix Released,NetApp E-Series Volume creation doesn't add to consistency group,https://bugs.launchpad.net/cinder/+bug/1555933,2016-03-17
+1557366,1557366,Fix Released,Should use get_by_args instead of get_by_host_and_topic,https://bugs.launchpad.net/cinder/+bug/1557366,2016-03-17
+1557783,1557783,Fix Released,volume_image_metadata is not copied during volume clone,https://bugs.launchpad.net/cinder/+bug/1557783,2016-03-17
+1556331,1556331,Fix Released,LeftHand: Remote client creation fails if ssh key or timeout is not present,https://bugs.launchpad.net/cinder/+bug/1556331,2016-03-17
+1537301,1537301,Fix Released,Huawei: Check the QoS status before we use,https://bugs.launchpad.net/cinder/+bug/1537301,2016-03-17
+1549130,1549130,Fix Released,Huawei: Check the array version when attach hypermetro volume,https://bugs.launchpad.net/cinder/+bug/1549130,2016-03-17
+1558073,1558073,Fix Released,Non-scalable mode of backup jobs scheduling is broken,https://bugs.launchpad.net/cinder/+bug/1558073,2016-03-17
+1529768,1529768,Fix Released,Support rpm package changes for ONOS,https://bugs.launchpad.net/networking-onos/+bug/1529768,2016-03-17
+1529769,1529769,Fix Released,Support debain package changes for ONOS.,https://bugs.launchpad.net/networking-onos/+bug/1529769,2016-03-17
+1536172,1536172,Fix Released,rally deployment destroy failed with traceback for failed deployments,https://bugs.launchpad.net/rally/+bug/1536172,2016-03-17
+1518794,1518794,Fix Released,Release request for networking-L2GW for stable/liberty,https://bugs.launchpad.net/neutron/+bug/1518794,2016-03-17
+1513834,1513834,Fix Released,Config variables are not documented correctly,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1513834,2016-03-17
+1558254,1558254,Fix Released,"statistics tool doesn't recognize ""master-old-keepforstatistics"" branch/version",https://bugs.launchpad.net/openstack-i18n/+bug/1558254,2016-03-17
+1554740,1554740,Fix Released,3par create_cloned_volume incorrect size,https://bugs.launchpad.net/cinder/+bug/1554740,2016-03-17
+1556294,1556294,Fix Released,astara router driver causes config reload for every .end event.,https://bugs.launchpad.net/astara/+bug/1556294,2016-03-17
+1553828,1553828,Fix Released,Branding: Launch Instance: Metadata should inherit from theme,https://bugs.launchpad.net/horizon/+bug/1553828,2016-03-16
+1290625,1290625,Fix Released,keystone.contrib.revoke.backends.sql contains several glaring performance problems,https://bugs.launchpad.net/keystone/+bug/1290625,2016-03-16
+1550742,1550742,Fix Released,bug listing services when using templated backend (v3),https://bugs.launchpad.net/keystone/+bug/1550742,2016-03-16
+1514792,1514792,Fix Released,Remove references to with_venv.sh (oslo.incubator) from developer docs,https://bugs.launchpad.net/keystone/+bug/1514792,2016-03-16
+1550057,1550057,Fix Released,keystone-manage bootstrap should create an identity endpoint,https://bugs.launchpad.net/keystone/+bug/1550057,2016-03-16
+1454531,1454531,Fix Released,list_user_projects() can't get filtered by 'domain_id'.,https://bugs.launchpad.net/keystone/+bug/1454531,2016-03-16
+1549726,1549726,Fix Released,Race condition in keystone domain config,https://bugs.launchpad.net/keystone/+bug/1549726,2016-03-16
+1533794,1533794,Fix Released,Fernet v2 token response doesn't match v2 uuid token responses,https://bugs.launchpad.net/keystone/+bug/1533794,2016-03-16
+1476329,1476329,Fix Released,v2 tokens validated on the v3 API are missing timezones,https://bugs.launchpad.net/keystone/+bug/1476329,2016-03-16
+1277847,1277847,Fix Released,Deleting a domain should remove assignments for foreign users/groups,https://bugs.launchpad.net/keystone/+bug/1277847,2016-03-16
+1555403,1555403,Fix Released,mapping no longer allows 'type' attribute in 'user' object,https://bugs.launchpad.net/keystone/+bug/1555403,2016-03-16
+1397903,1397903,Fix Released,Hardcoded initial database version,https://bugs.launchpad.net/keystone/+bug/1397903,2016-03-16
+1556949,1556949,Fix Released,properties are always applied.,https://bugs.launchpad.net/puppet-pacemaker/+bug/1556949,2016-03-16
+1555637,1555637,Fix Released,::pacemaker::corosync is not idempotent.,https://bugs.launchpad.net/puppet-pacemaker/+bug/1555637,2016-03-16
+1555683,1555683,Fix Released,resource needs two runs as they miss dependency to pacemaker.,https://bugs.launchpad.net/puppet-pacemaker/+bug/1555683,2016-03-16
+1556953,1556953,Fix Released,fencing is not idempotent.,https://bugs.launchpad.net/puppet-pacemaker/+bug/1556953,2016-03-16
+1542680,1542680,Fix Released,Hit 'no such group' error,https://bugs.launchpad.net/nova-powervm/+bug/1542680,2016-03-16
+1557868,1557868,Fix Released,the size of close icon are different between delete confirm dialog and other modal dialog .,https://bugs.launchpad.net/horizon/+bug/1557868,2016-03-16
+1556266,1556266,Fix Released,Add service_instance_flavor_id in manila.conf,https://bugs.launchpad.net/kolla/+bug/1556266,2016-03-16
+1539037,1539037,Fix Committed,[upgrade] We should backup mirrors from 7.0 master node and restore it into 8.0 master node,https://bugs.launchpad.net/fuel/+bug/1539037,2016-03-16
+1538467,1538467,Fix Released,Remove 'Mirantis' from hostname in fuel-devops,https://bugs.launchpad.net/fuel/+bug/1538467,2016-03-16
+1538058,1538058,Fix Committed,Update custom-scripts configuration for change-escalator script,https://bugs.launchpad.net/fuel/+bug/1538058,2016-03-16
+1545117,1545117,Fix Released,neutron: 500 error when trying to attach no network to an instance with no network,https://bugs.launchpad.net/nova/+bug/1545117,2016-03-16
+1487451,1487451,Fix Released,Stale pci_stats in the DB after PCI reconfiguration,https://bugs.launchpad.net/nova/+bug/1487451,2016-03-16
+1538014,1538014,Fix Released,the update time is not updated when update zone of aggregate,https://bugs.launchpad.net/nova/+bug/1538014,2016-03-16
+1533132,1533132,Fix Released,Duplicated options #html5proxy_host and #html5proxy_port,https://bugs.launchpad.net/nova/+bug/1533132,2016-03-16
+1532228,1532228,Fix Released,iscsi related config options missing from nova configuration file,https://bugs.launchpad.net/nova/+bug/1532228,2016-03-16
+1552466,1552466,Fix Released,Ironic: deploy not cleaned up if configdrive fails to build,https://bugs.launchpad.net/nova/+bug/1552466,2016-03-16
+1522329,1522329,Fix Released,Check 'destination_type' instead of 'source_type' when boot instance by image and a volume with name 'vda',https://bugs.launchpad.net/nova/+bug/1522329,2016-03-16
+1553184,1553184,Fix Released,Slow Query on Instances Table,https://bugs.launchpad.net/nova/+bug/1553184,2016-03-16
+1321785,1321785,Fix Released,RFE: block_device_info dict should have a password key rather than clear password,https://bugs.launchpad.net/nova/+bug/1321785,2016-03-16
+1553319,1553319,Fix Released,"When CPU metric collection fails, stack trace not in nova logs",https://bugs.launchpad.net/nova/+bug/1553319,2016-03-16
+1523450,1523450,Fix Released,Empty-named AZ is accepted using aggregate-set-metadata,https://bugs.launchpad.net/nova/+bug/1523450,2016-03-16

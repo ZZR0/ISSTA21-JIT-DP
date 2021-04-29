@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1252549,1252549,Fix Released,Havana cinder requires glance API V2,https://bugs.launchpad.net/cinder/+bug/1252549,2014-04-17
+1252179,1252179,Fix Released,create snapshot throws 500 Internal Error,https://bugs.launchpad.net/cinder/+bug/1252179,2014-04-17
+1250673,1250673,Fix Released,base driver _do_iscsi_discovery relies on volume['host'] which breaks if called in multi-backend env,https://bugs.launchpad.net/cinder/+bug/1250673,2014-04-17
+1245360,1245360,Fix Released,No valid check on cinder quota class hard_limit value,https://bugs.launchpad.net/cinder/+bug/1245360,2014-04-17
+1244257,1244257,Fix Released,KeyError from storwize driver when 'host' is not provided to terminate_connection,https://bugs.launchpad.net/cinder/+bug/1244257,2014-04-17
+1243081,1243081,Fix Released,SSC volume filtering for extra specs can result in inconsistent list,https://bugs.launchpad.net/cinder/+bug/1243081,2014-04-17
+1242808,1242808,Fix Released,SSC attribute netapp_mirrored is not followed,https://bugs.launchpad.net/cinder/+bug/1242808,2014-04-17
+1241941,1241941,Fix Released,cinder delete cannot delete multiple volumes,https://bugs.launchpad.net/cinder/+bug/1241941,2014-04-17
+1241682,1241682,Fix Released,admin user cannot delete other tenants' volumes by name,https://bugs.launchpad.net/cinder/+bug/1241682,2014-04-17
+1240395,1240395,Fix Released,storwize: empty io groups cannot be used,https://bugs.launchpad.net/cinder/+bug/1240395,2014-04-17
+1238967,1238967,Fix Released,"Broken NetAppDirect7modeISCSIDriver reports incorrect free capacity, scheduler won't balance between multiple Netapp backends",https://bugs.launchpad.net/cinder/+bug/1238967,2014-04-17
+1236966,1236966,Fix Released,GlusterFS: fail snapshot creation gracefully if user can't write to share,https://bugs.launchpad.net/cinder/+bug/1236966,2014-04-17
+1236839,1236839,Fix Released,SSC attributes netapp_compression and netapp_dedup are not followed,https://bugs.launchpad.net/cinder/+bug/1236839,2014-04-17
+1235358,1235358,Fix Released,invalid volume when source image virtual size is bigger than the requested size,https://bugs.launchpad.net/cinder/+bug/1235358,2014-04-17
+1227881,1227881,Fix Released,"Migration 009, 010, 020 downgrade failures do not raise exceptions",https://bugs.launchpad.net/cinder/+bug/1227881,2014-04-17
+1209406,1209406,Fix Released,_ seems to have gone missing,https://bugs.launchpad.net/cinder/+bug/1209406,2014-04-17
+1254768,1254768,Fix Released,GlusterFS: cloned volume has incorrect permissions,https://bugs.launchpad.net/cinder/+bug/1254768,2014-04-17
+1254318,1254318,Fix Released,Properly handle volume cleanup with RBD driver,https://bugs.launchpad.net/cinder/+bug/1254318,2014-04-17
+1251425,1251425,Fix Released,GlusterFS: operations that modify data require locking,https://bugs.launchpad.net/cinder/+bug/1251425,2014-04-17
+1244470,1244470,Fix Released,copy image to volume fails on disconnect fro non-lvm drivers,https://bugs.launchpad.net/cinder/+bug/1244470,2014-04-17
+1244415,1244415,Fix Released,check_ssh_injection not handling quoted args correctly,https://bugs.launchpad.net/cinder/+bug/1244415,2014-04-17
+1244238,1244238,Fix Released,GlusterFS: errors when trying to boot instance from cloned volume,https://bugs.launchpad.net/cinder/+bug/1244238,2014-04-17
+1243980,1243980,Fix Released,copy image to volume is broken for non-local volumes,https://bugs.launchpad.net/cinder/+bug/1243980,2014-04-17
+1242980,1242980,Fix Released,volume transfer url is different from its href in detail body,https://bugs.launchpad.net/cinder/+bug/1242980,2014-04-17
+1242549,1242549,Fix Released,Fail to delete volume snapshot created by GPFS driver,https://bugs.launchpad.net/cinder/+bug/1242549,2014-04-17
+1240299,1240299,Fix Released,don't secure delete thin provisioned volumes or snapshots,https://bugs.launchpad.net/cinder/+bug/1240299,2014-04-17
+1237338,1237338,Fix Released,VMware: upload-to-image failure,https://bugs.launchpad.net/cinder/+bug/1237338,2014-04-17
+1236459,1236459,Fix Released,key manager is insecure warning messages,https://bugs.launchpad.net/cinder/+bug/1236459,2014-04-17
+1229998,1229998,Fix Released,vmware: Cannot create a volume from image on vSan datastores,https://bugs.launchpad.net/cinder/+bug/1229998,2014-04-17
+1197612,1197612,Fix Released,Excessive queries for API volumes/detail extensions,https://bugs.launchpad.net/cinder/+bug/1197612,2014-04-17
+1304724,1304724,Fix Released,DBNotAllowed raised if trying to create network with VlanManager from nova-manage network create,https://bugs.launchpad.net/nova/+bug/1304724,2014-04-17
+1303983,1303983,Fix Released,Enable ServerGroup scheduler filters by default,https://bugs.launchpad.net/nova/+bug/1303983,2014-04-17
+1302334,1302334,Fix Released,live migration failed,https://bugs.launchpad.net/nova/+bug/1302334,2014-04-17
+1301453,1301453,Fix Released,Libvirt LXC and Xen boot fails with VIR_DOMAIN_START_PAUSED,https://bugs.launchpad.net/nova/+bug/1301453,2014-04-17
+1301384,1301384,Fix Released,"Note that XML support *may* be removed, not *will* be",https://bugs.launchpad.net/nova/+bug/1301384,2014-04-17
+1295381,1295381,Fix Released,VMware: resize operates on orig VM and not clone,https://bugs.launchpad.net/nova/+bug/1295381,2014-04-17
+1300325,1300325,Fix Released,nic port ordering is not honored,https://bugs.launchpad.net/nova/+bug/1300325,2014-04-17
+1294756,1294756,Fix Released,missing test for None in sqlalchemy query filter,https://bugs.launchpad.net/nova/+bug/1294756,2014-04-17
+1294238,1294238,Fix Released,"default of vnc_port range start seems not to be 5900, but 9100",https://bugs.launchpad.net/nova/+bug/1294238,2014-04-17
+1293539,1293539,Fix Released,NeutronV2 API is missing associate method.,https://bugs.launchpad.net/nova/+bug/1293539,2014-04-17
+1292984,1292984,Fix Released,"Log message ""fetching image %s from glance"" is written in wrong place",https://bugs.launchpad.net/nova/+bug/1292984,2014-04-17
+1292285,1292285,Fix Released,equal_any() DB API helper produces incorrect SQL query,https://bugs.launchpad.net/nova/+bug/1292285,2014-04-17
+1292284,1292284,Fix Released,A few tests from test_sqlalchemy_utils fail on SQLAlchemy 0.9.x,https://bugs.launchpad.net/nova/+bug/1292284,2014-04-17
+1290903,1290903,Fix Released,xenapi: test_rescue incorrectly verifies original swap wasn't attached,https://bugs.launchpad.net/nova/+bug/1290903,2014-04-17
+1290487,1290487,Fix Released,"Libvirt native thread used for ""forbidden"" purposes",https://bugs.launchpad.net/nova/+bug/1290487,2014-04-17
+1290362,1290362,Fix Released,HPET timer not supported on non-x86 targets,https://bugs.launchpad.net/nova/+bug/1290362,2014-04-17
+1289993,1289993,Fix Released,dhcp_options_enabled used in comment,https://bugs.launchpad.net/nova/+bug/1289993,2014-04-17
+1289164,1289164,Fix Released,FloatingIpNotFoundForHost isn't handled when showing floating ips by host,https://bugs.launchpad.net/nova/+bug/1289164,2014-04-17
+1287844,1287844,Fix Released,VMware: raise an error for invalid disk_format,https://bugs.launchpad.net/nova/+bug/1287844,2014-04-17
+1285437,1285437,Fix Released,HTTPNotFound response does not contain enough explanation,https://bugs.launchpad.net/nova/+bug/1285437,2014-04-17
+1281936,1281936,Fix Released,"A v3 API  request of ""GET /versions/:(id)"" occurs ""Unexpected API Error.""",https://bugs.launchpad.net/nova/+bug/1281936,2014-04-17
+1281904,1281904,Fix Released,Wrong exception type HTTPBadRequest is raised,https://bugs.launchpad.net/nova/+bug/1281904,2014-04-17
+1279189,1279189,Fix Released,delete or query an not exist snapshot raise exception more readable,https://bugs.launchpad.net/nova/+bug/1279189,2014-04-17
+1274317,1274317,Fix Released,heal_instance_info_cache_interval config is not effective,https://bugs.launchpad.net/nova/+bug/1274317,2014-04-17
+1258380,1258380,Fix Released,unimplemented get_floating_ips_by_fixed_address in neutronv2/api.py,https://bugs.launchpad.net/nova/+bug/1258380,2014-04-17
+1257135,1257135,Fix Released,"Make sure ""volumeId"" in request body while attaching volume to server",https://bugs.launchpad.net/nova/+bug/1257135,2014-04-17
+1244203,1244203,Fix Released,Evacuate operation should honor the enable_instance_password conf value,https://bugs.launchpad.net/nova/+bug/1244203,2014-04-17
+1280306,1280306,Fix Released,check if export is already mounted before mounting it (LibvirtNFSVolumeDriver),https://bugs.launchpad.net/nova/+bug/1280306,2014-04-17
+1271528,1271528,Fix Released,libvirt._create_image is too large and not tested,https://bugs.launchpad.net/nova/+bug/1271528,2014-04-17
+1269395,1269395,Fix Released,nova pause causes ERRORs in log,https://bugs.launchpad.net/nova/+bug/1269395,2014-04-17
+1229190,1229190,Fix Released,"""nova hypervisor-show"" should also show the ip address of the hypervisor",https://bugs.launchpad.net/nova/+bug/1229190,2014-04-17
+1206365,1206365,Fix Released,add keypair create/delete notify events,https://bugs.launchpad.net/nova/+bug/1206365,2014-04-17
+1296940,1296940,Fix Released,Potential AttributeError in _get_servers if FlavorNotFound,https://bugs.launchpad.net/nova/+bug/1296940,2014-04-17
+1294480,1294480,Fix Released,commented out code in test_cinder_cloud,https://bugs.launchpad.net/nova/+bug/1294480,2014-04-17
+1294411,1294411,Fix Released,add file to open firewall ports to enable vmc to nova/tools,https://bugs.launchpad.net/nova/+bug/1294411,2014-04-17
+1293353,1293353,Fix Released,fix wrong comment in live_migration,https://bugs.launchpad.net/nova/+bug/1293353,2014-04-17
+1293298,1293298,Fix Released,Don't import guestfs  directly,https://bugs.launchpad.net/nova/+bug/1293298,2014-04-17
+1292997,1292997,Fix Released,nova.volume.cinder.API incorrectly derives from nova.db.base.Base,https://bugs.launchpad.net/nova/+bug/1292997,2014-04-17
+1292298,1292298,Fix Released,Log statement for updating info cache needs to be moved,https://bugs.launchpad.net/nova/+bug/1292298,2014-04-17
+1288661,1288661,Fix Released,log messages typos in rebuild_instance function,https://bugs.launchpad.net/nova/+bug/1288661,2014-04-17
+1288214,1288214,Fix Released,Calling GET v3/os-cells/capacities causes an 'Unexpected API Error.',https://bugs.launchpad.net/nova/+bug/1288214,2014-04-17
+1287367,1287367,Fix Released,The rescue API should handle NotImplementedError,https://bugs.launchpad.net/nova/+bug/1287367,2014-04-17
+1286006,1286006,Fix Released,Static injection pure IPv6 address will throw exception in vmware driver,https://bugs.launchpad.net/nova/+bug/1286006,2014-04-17
+1285209,1285209,Fix Released,[libvirt] nfs and glusterfs volume drivers don't unmount their shares when detaching,https://bugs.launchpad.net/nova/+bug/1285209,2014-04-17
+1282393,1282393,Fix Released,inconsistent documentation of how to run unit tests,https://bugs.launchpad.net/nova/+bug/1282393,2014-04-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1412483,1412483,Fix Released,Horizon UI behavior when browser cookies disabled,https://bugs.launchpad.net/horizon/+bug/1412483,2018-02-09
+1745502,1745502,Fix Released,novaclient hosts has been removed in version 10,https://bugs.launchpad.net/horizon/+bug/1745502,2018-02-09
+1746977,1746977,Fix Released,The VNIC Type  parameter is invalid on project creation port page,https://bugs.launchpad.net/horizon/+bug/1746977,2018-02-09
+1747196,1747196,Fix Released,"Network Topology ""Graph"" tab always shows nothing",https://bugs.launchpad.net/horizon/+bug/1747196,2018-02-09
+1740795,1740795,Fix Released,nova lacks debug output for selected page size when hw:mem_page_size is specified,https://bugs.launchpad.net/nova/+bug/1740795,2018-02-09
+1742421,1742421,Fix Released,Cells Layout (v2) in nova doc misleading about upcalls,https://bugs.launchpad.net/nova/+bug/1742421,2018-02-09
+1711093,1711093,Fix Released,Unit test get_disk_mapping_rescue_with_config error in AArch64,https://bugs.launchpad.net/nova/+bug/1711093,2018-02-09
+1741220,1741220,Fix Released,raise 500 in test_resize_server_negative_invalid_state,https://bugs.launchpad.net/nova/+bug/1741220,2018-02-09
+1744688,1744688,Fix Released,api-ref: wrong parameter type in server-migrations.inc,https://bugs.launchpad.net/nova/+bug/1744688,2018-02-09
+1744786,1744786,Fix Released,SchedulerReportClient.put with empty (not None) payload errors 415,https://bugs.launchpad.net/nova/+bug/1744786,2018-02-09
+1734427,1734427,Fix Released,'all_tenants'  'all_projects'  query param is not only integer as mentioned in api-ref,https://bugs.launchpad.net/nova/+bug/1734427,2018-02-09
+1745296,1745296,Fix Released,Missing 'if_notifications_enabled' decorator in 'notify_about_server_group_action' method,https://bugs.launchpad.net/nova/+bug/1745296,2018-02-09
+1732000,1732000,Fix Released,nova-api does not log config options when run in wsgi mode,https://bugs.launchpad.net/nova/+bug/1732000,2018-02-09
+1746294,1746294,Fix Released,Scheduler requests unlimited results from placement,https://bugs.launchpad.net/nova/+bug/1746294,2018-02-09
+1747003,1747003,Fix Released,A bad _RC_CACHE can rarely cause unit tests to fail,https://bugs.launchpad.net/nova/+bug/1747003,2018-02-09
+1747001,1747001,Fix Released,Use of parse.urlencode with dict in nova/tests/unit/scheduler/client/test_report.py can result in unpredictable query strings and thus unreliable tests,https://bugs.launchpad.net/nova/+bug/1747001,2018-02-09
+1746609,1746609,Fix Released,test_boot_server_from_encrypted_volume_luks cannot detach an encrypted StorPool-backed volume,https://bugs.launchpad.net/nova/+bug/1746609,2018-02-09
+1701614,1701614,Fix Released,Booting from an encrypted volume,https://bugs.launchpad.net/nova/+bug/1701614,2018-02-09
+1747095,1747095,Fix Released,doc: placement API ref for resource classes points to os-traits,https://bugs.launchpad.net/nova/+bug/1747095,2018-02-09
+1708844,1708844,Fix Released,Mixed OpenStack releases in manual Installation,https://bugs.launchpad.net/tacker/+bug/1708844,2018-02-09
+1724161,1724161,Fix Released,Unable to update VNFFG,https://bugs.launchpad.net/tacker/+bug/1724161,2018-02-09
+1724809,1724809,Fix Released,The vnffg-update functionality leaves database in an error state,https://bugs.launchpad.net/tacker/+bug/1724809,2018-02-09
+1729632,1729632,Fix Released,remove legacy devstack ci job,https://bugs.launchpad.net/tacker/+bug/1729632,2018-02-09
+1719839,1719839,Fix Released,Two classifiers cannot be assigned to the same SFC chain,https://bugs.launchpad.net/tacker/+bug/1719839,2018-02-09
+1733768,1733768,Fix Released,CI failed due to tacker-horizon installation from lib,https://bugs.launchpad.net/tacker/+bug/1733768,2018-02-09
+1716358,1716358,Fix Released,Wrong error message when using very big name of VNF during creation,https://bugs.launchpad.net/tacker/+bug/1716358,2018-02-09
+1734010,1734010,Fix Released,"tacker response ""internal server error"" when creates a resource with a big name",https://bugs.launchpad.net/tacker/+bug/1734010,2018-02-09
+1734031,1734031,Fix Released,Could not load modules when devstack installing,https://bugs.launchpad.net/tacker/+bug/1734031,2018-02-09
+1734316,1734316,Fix Released,vnfd-create returns 500 InternalServerError if VNF is already on-boarded,https://bugs.launchpad.net/tacker/+bug/1734316,2018-02-09
+1598257,1598257,Fix Released,[docs] Fix mano api guide to handle vim_id argument in VNF REST api,https://bugs.launchpad.net/tacker/+bug/1598257,2018-02-09
+1736627,1736627,Fix Released,Cloud-init error,https://bugs.launchpad.net/tacker/+bug/1736627,2018-02-09
+1736630,1736630,Fix Released,Tacker does not support symmetric port chains,https://bugs.launchpad.net/tacker/+bug/1736630,2018-02-09
+1739342,1739342,Fix Released,tacker ci does not support tls_proxy service enabled,https://bugs.launchpad.net/tacker/+bug/1739342,2018-02-09
+1739343,1739343,Fix Released,add reno note for symmetric vnffg,https://bugs.launchpad.net/tacker/+bug/1739343,2018-02-09
+1740357,1740357,Fix Released,Removing call syntax for Heat's policy.json file,https://bugs.launchpad.net/tacker/+bug/1740357,2018-02-09
+1741421,1741421,Fix Released,cannot ./stack.sh after ./unstack due to tacker horizon,https://bugs.launchpad.net/tacker/+bug/1741421,2018-02-09
+1719841,1719841,Fix Released,vim configuration does not allow the INSECURE property,https://bugs.launchpad.net/tacker/+bug/1719841,2018-02-09
+1742128,1742128,Fix Released,Failed to delete errored NS,https://bugs.launchpad.net/tacker/+bug/1742128,2018-02-09
+1691363,1691363,Fix Released,"VNF should not be allowed to delete separately, if part of an active NS",https://bugs.launchpad.net/tacker/+bug/1691363,2018-02-09
+1590215,1590215,Fix Released,replace the class path uuid based stack names with just the vnf names,https://bugs.launchpad.net/tacker/+bug/1590215,2018-02-09
+1709226,1709226,Fix Released,"unable to change ns's description using ""tacker ns-create --description""",https://bugs.launchpad.net/tacker/+bug/1709226,2018-02-09
+1658364,1658364,Fix Released,DBReferenceError when Deploy or delete vnffg,https://bugs.launchpad.net/tacker/+bug/1658364,2018-02-09
+1734842,1734842,Fix Released,Update pypi settings,https://bugs.launchpad.net/blazar/+bug/1734842,2018-02-09
+1699661,1699661,Fix Released,Remove duplicate status in computehost_reservations table,https://bugs.launchpad.net/blazar/+bug/1699661,2018-02-09
+1714437,1714437,Fix Released,Need update lease API support in instance reservation,https://bugs.launchpad.net/blazar/+bug/1714437,2018-02-09
+1713678,1713678,Fix Released,Improve README,https://bugs.launchpad.net/blazar/+bug/1713678,2018-02-09
+1710809,1710809,Fix Released,Create lease API return 500 status codes if some parameters are missed,https://bugs.launchpad.net/blazar/+bug/1710809,2018-02-09
+1710020,1710020,Fix Released,no error shown on dashboard when lease update fails,https://bugs.launchpad.net/blazar/+bug/1710020,2018-02-09
+1694754,1694754,Fix Released,Support deploying one Blazar per region in a multi-region setup,https://bugs.launchpad.net/blazar/+bug/1694754,2018-02-09
+1274520,1274520,Fix Released,Lease is ok even if resource in belonging reservation is in error state,https://bugs.launchpad.net/blazar/+bug/1274520,2018-02-09
+1732787,1732787,Fix Released,Tolerate spaces in extra capability values,https://bugs.launchpad.net/blazar/+bug/1732787,2018-02-09
+1724757,1724757,Fix Released,blazar dashboard fails to use blazarclient,https://bugs.launchpad.net/blazar/+bug/1724757,2018-02-09
+1721456,1721456,Fix Released,Delete host error causes inconsistency,https://bugs.launchpad.net/blazar/+bug/1721456,2018-02-09
+1719278,1719278,Fix Released,Scheduler filters are not properly enabled,https://bugs.launchpad.net/blazar/+bug/1719278,2018-02-09
+1713768,1713768,Fix Released,Cannot delete a lease which failed to start until after end_date,https://bugs.launchpad.net/blazar/+bug/1713768,2018-02-09
+1620721,1620721,Fix Released,Manila Share container isn't up after deploy,https://bugs.launchpad.net/kolla/+bug/1620721,2018-02-09
+1732166,1732166,Fix Released,The idrac hardware type does not support no-vendor,https://bugs.launchpad.net/ironic/+bug/1732166,2018-02-09
+1742451,1742451,Fix Released,The iscsi deploy interface validates root partition size for whole disk images,https://bugs.launchpad.net/ironic/+bug/1742451,2018-02-09
+1722158,1722158,Fix Released,multinode job is not stable (near 50% failures),https://bugs.launchpad.net/ironic/+bug/1722158,2018-02-09
+1744836,1744836,Fix Released,IPA displays IPMI credentials in DEBUG logs during cleaning,https://bugs.launchpad.net/ironic/+bug/1744836,2018-02-09
+1618434,1618434,Fix Released,Some assert methods can be updated,https://bugs.launchpad.net/trove/+bug/1618434,2018-02-09
+1674649,1674649,Fix Committed,AnsibleUndefinedVariable bootstrap,https://bugs.launchpad.net/bifrost/+bug/1674649,2018-02-09
+1693309,1693309,Fix Committed,enrollment fails when using noauth_mode=true,https://bugs.launchpad.net/bifrost/+bug/1693309,2018-02-09
+1748281,1748281,Fix Released,Update the valid disk bus list for qemu and kvm hypervisors,https://bugs.launchpad.net/glance/+bug/1748281,2018-02-09
+1693505,1693505,Fix Released,ironic-ui's package.json has a version,https://bugs.launchpad.net/ironic-ui/+bug/1693505,2018-02-09
+1714944,1714944,Fix Released,BMC address is getting replaced by 0.0.0.0 in the ramdisk data received,https://bugs.launchpad.net/ironic-python-agent/+bug/1714944,2018-02-09
+1714944,1714944,Fix Released,BMC address is getting replaced by 0.0.0.0 in the ramdisk data received,https://bugs.launchpad.net/ironic-inspector/+bug/1714944,2018-02-09
+1745208,1745208,Fix Released,new version of construct lib breaks exception handling,https://bugs.launchpad.net/ironic-inspector/+bug/1745208,2018-02-09
+1672448,1672448,Fix Released,"Should not ""enable_plugin ironic-inspector"" in devstack/upgrade/settings",https://bugs.launchpad.net/ironic-inspector/+bug/1672448,2018-02-09
+1641019,1641019,Fix Released,Make sure ovs bridge brbm exists before a port is added,https://bugs.launchpad.net/ironic-inspector/+bug/1641019,2018-02-09
+1680246,1680246,Fix Released,brbm-inspector bridge MTU attempted to be set even if IRONIC_IS_HARDWARE=True,https://bugs.launchpad.net/ironic-inspector/+bug/1680246,2018-02-09
+1670595,1670595,Fix Released,Check for existence of the bridge before adding port to it.  Also remove hard coded  value brbm-inspector.,https://bugs.launchpad.net/ironic-inspector/+bug/1670595,2018-02-09
+1685592,1685592,Fix Released,tenant_vif_port_id is not removed during tear_down,https://bugs.launchpad.net/ironic/+bug/1685592,2018-02-09
+1722597,1722597,Fix Released,Log messages mis-formatted,https://bugs.launchpad.net/ironic/+bug/1722597,2018-02-09
+1687866,1687866,Fix Released,Get an error network endpoint in multi region,https://bugs.launchpad.net/ironic/+bug/1687866,2018-02-09

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1379866,1379866,Fix Released,Fix libvirt watchdog support,https://bugs.launchpad.net/openstack-manuals/+bug/1379866,2014-11-04
+1388147,1388147,Fix Released,Openstack-common cookbook use wrong method to call components when pass certain arguments,https://bugs.launchpad.net/openstack-chef/+bug/1388147,2014-11-04
+1357353,1357353,Fix Released,python-barbicanclient returns 0.0.0 as version number when trying to execute barbican --version,https://bugs.launchpad.net/python-barbicanclient/+bug/1357353,2014-11-04
+1388741,1388741,Fix Released,Default cinder v2 api breaks several functions,https://bugs.launchpad.net/openstack-chef/+bug/1388741,2014-11-04
+1339817,1339817,Fix Released,Verifications are no longer supported in Barbican,https://bugs.launchpad.net/python-barbicanclient/+bug/1339817,2014-11-04
+1386070,1386070,Fix Released,the recipe of vpn_agent should add package dependencies according its device driver,https://bugs.launchpad.net/openstack-chef/+bug/1386070,2014-11-04
+1386067,1386067,Fix Released,the recipe of vpn_agent should support multi driver,https://bugs.launchpad.net/openstack-chef/+bug/1386067,2014-11-04
+1389071,1389071,Fix Released,[Cinder] Cookbook lack glance_ca_certificates_file when using glance client,https://bugs.launchpad.net/openstack-chef/+bug/1389071,2014-11-04
+1364508,1364508,Fix Released,[dashboard] using .push causes python-ibm-db-django to pollute the node attribute,https://bugs.launchpad.net/openstack-chef/+bug/1364508,2014-11-04
+1386125,1386125,Fix Released,"some clients configurations in heat([cliens_XXX]) are missing, they are not configurable in cookboook",https://bugs.launchpad.net/openstack-chef/+bug/1386125,2014-11-04
+1386625,1386625,Fix Released,ceilometer driver no longer works with new datasource interface,https://bugs.launchpad.net/congress/+bug/1386625,2014-11-03
+1388138,1388138,Fix Released,Network cookbook fail to retrieve nova_admin_tenant_id,https://bugs.launchpad.net/openstack-chef/+bug/1388138,2014-11-03
+1380940,1380940,Fix Released,Failed to connect to rabbitmq many times during openstack deployemnt,https://bugs.launchpad.net/openstack-chef/+bug/1380940,2014-11-03
+1387416,1387416,Fix Released,Wrong permissions on sahara cache,https://bugs.launchpad.net/devstack/+bug/1387416,2014-11-03
+1387943,1387943,Fix Released,openrc stopped working on zsh,https://bugs.launchpad.net/devstack/+bug/1387943,2014-11-03
+1320235,1320235,Fix Released,[OSSA 2014-023] Stored XSS for /admin/users/ (CVE-2014-3475),https://bugs.launchpad.net/ossa/+bug/1320235,2014-11-03
+1320235,1320235,Fix Released,[OSSA 2014-023] Stored XSS for /admin/users/ (CVE-2014-3475),https://bugs.launchpad.net/horizon/+bug/1320235,2014-11-03
+1347354,1347354,Fix Released,User keystone policy to check if user password can be updated,https://bugs.launchpad.net/horizon/+bug/1347354,2014-11-01
+1387738,1387738,Fix Released,Juno RHEL Install Guide glance_store should be in glance-api.conf,https://bugs.launchpad.net/openstack-manuals/+bug/1387738,2014-11-01
+1376680,1376680,Fix Committed,Deploy cluster  with 57 nodes failed,https://bugs.launchpad.net/fuel/+bug/1376680,2014-11-01
+1366009,1366009,Fix Committed,Fix setters in puppet providers,https://bugs.launchpad.net/fuel/+bug/1366009,2014-11-01
+1351473,1351473,Fix Committed,Unexpected behavior while installing fuel master.,https://bugs.launchpad.net/fuel/+bug/1351473,2014-10-31
+1373632,1373632,Fix Committed,Start using lockf/flock instead of custom locks in mirror scripts,https://bugs.launchpad.net/fuel/+bug/1373632,2014-10-31
+1376913,1376913,Fix Committed,logrotate undocumented,https://bugs.launchpad.net/openstack-ci/+bug/1376913,2014-10-31
+1315237,1315237,Fix Released,Glance should not call configure and configure_add two times at startup,https://bugs.launchpad.net/glance/+bug/1315237,2014-10-31
+1387292,1387292,Fix Released,Make the block device mapping retries configurable,https://bugs.launchpad.net/openstack-manuals/+bug/1387292,2014-10-31
+1381488,1381488,Fix Released,Postgresql 9.3 needed in CentOS repos,https://bugs.launchpad.net/fuel/+bug/1381488,2014-10-31
+1298466,1298466,Fix Released,devtest cleanup-env doesn't remove seed libvirt image file,https://bugs.launchpad.net/tripleo/+bug/1298466,2014-10-31
+1338427,1338427,Fix Released,Typo in Configure logical network in OpenStack Installation Guide for Ubuntu 12.04 (LTS)  - havana,https://bugs.launchpad.net/openstack-manuals/+bug/1338427,2014-10-31
+1312319,1312319,Fix Released,depricated options in icehouse instalation guide,https://bugs.launchpad.net/openstack-manuals/+bug/1312319,2014-10-31
+1376241,1376241,Fix Released,[systest] Tests 'deploy_neutron_vlan_ha_with_public_network' should be removed from BVT_1 group,https://bugs.launchpad.net/fuel/+bug/1376241,2014-10-31
+1377903,1377903,Fix Released,[system-tests] Timeouts for ostf tests in murano HA system test don't match,https://bugs.launchpad.net/fuel/+bug/1377903,2014-10-31
+1376710,1376710,Fix Released,[System test] We need verify for running 6.0 containers in master tests for upgrades,https://bugs.launchpad.net/fuel/+bug/1376710,2014-10-31
+1377846,1377846,Fix Released,Customer contact information for failure reports in UI,https://bugs.launchpad.net/fuel/+bug/1377846,2014-10-31
+1384267,1384267,Fix Released,Configure new glance CA certificate option in cinder,https://bugs.launchpad.net/devstack/+bug/1384267,2014-10-31
+1386562,1386562,Fix Released,keystone did not start (ImportError: Class TemplatedCatalog cannot be found),https://bugs.launchpad.net/devstack/+bug/1386562,2014-10-31
+1380626,1380626,Fix Released,Instances for CentOS have error state. No valid to host,https://bugs.launchpad.net/fuel/+bug/1380626,2014-10-31
+1380756,1380756,Fix Released,[DevOps] building release iso after building mirrors,https://bugs.launchpad.net/fuel/+bug/1380756,2014-10-31
+1384716,1384716,Fix Released,Add feature group 'techpreview' into ISO 6.0,https://bugs.launchpad.net/fuel/+bug/1384716,2014-10-31
+1387067,1387067,Fix Released,glance cookbook should set auth_version to v2.0,https://bugs.launchpad.net/openstack-chef/+bug/1387067,2014-10-31
+1319319,1319319,Fix Released,The web server allows the HTTP TRACE or TRACK methods.,https://bugs.launchpad.net/openstack-chef/+bug/1319319,2014-10-31
+1387879,1387879,Fix Released,Empty datasource tables when queried through policy,https://bugs.launchpad.net/congress/+bug/1387879,2014-10-30
+1386248,1386248,Fix Released,[identity] KS-CA8F92F Deprecated: keystone.token.backends.sql.Token,https://bugs.launchpad.net/openstack-chef/+bug/1386248,2014-10-30
+1387269,1387269,Fix Released,[network] Chef::Exceptions::EnclosingDirectoryDoesNotExist Parent directory /usr/local/bin does not exist,https://bugs.launchpad.net/openstack-chef/+bug/1387269,2014-10-30
+1384526,1384526,Fix Released,"[Heat] Preview stack response does not document ""parent"" property",https://bugs.launchpad.net/openstack-api-site/+bug/1384526,2014-10-30
+1344295,1344295,Fix Released,Security Guide - Chapter 43. Trusted Images Intro,https://bugs.launchpad.net/openstack-manuals/+bug/1344295,2014-10-30
+1386409,1386409,Fix Released,Security Guide - Instance Security - RHEL STIG link no longer exists,https://bugs.launchpad.net/openstack-manuals/+bug/1386409,2014-10-30
+1348798,1348798,Fix Released,Security Guide - Chapter 43. Entropy to instances,https://bugs.launchpad.net/openstack-manuals/+bug/1348798,2014-10-30
+1385267,1385267,Fix Released,Don't deploy nova-network on contoller,https://bugs.launchpad.net/fuel/+bug/1385267,2014-10-30
+1350715,1350715,Fix Committed,Node border disappears on a small browser scale,https://bugs.launchpad.net/fuel/+bug/1350715,2014-10-30
+1379181,1379181,Fix Released,mdadm package for ubuntu,https://bugs.launchpad.net/fuel/+bug/1379181,2014-10-30
+1314684,1314684,Fix Released,Chapter 3. Neutron Use Cases in OpenStack Training Guides -- nit in Fig 3.3,https://bugs.launchpad.net/openstack-training-guides/+bug/1314684,2014-10-30
+1376222,1376222,Fix Released,Need to standardize the inscriptions on Support page,https://bugs.launchpad.net/fuel/+bug/1376222,2014-10-30
+1376264,1376264,Fix Released,"Text field and button ""Rename"" are not aligned",https://bugs.launchpad.net/fuel/+bug/1376264,2014-10-30
+1321080,1321080,Fix Released,[OSSA 2014-021] auth token is exposed in meter http.request (CVE-2014-4615),https://bugs.launchpad.net/neutron/+bug/1321080,2014-10-30
+1321080,1321080,Fix Released,[OSSA 2014-021] auth token is exposed in meter http.request (CVE-2014-4615),https://bugs.launchpad.net/ossa/+bug/1321080,2014-10-30
+1383800,1383800,Fix Released,KVM module not loaded during deployment of compute nodes in MOS 6.0,https://bugs.launchpad.net/fuel/+bug/1383800,2014-10-30
+1387383,1387383,Fix Released,Deployment fails on Ubuntu with KVM: 'Unsupported osfamily: Debian',https://bugs.launchpad.net/fuel/+bug/1387383,2014-10-30
+1369514,1369514,Fix Released,django-pyscss can't find bootstrap files from xstatic,https://bugs.launchpad.net/horizon/+bug/1369514,2014-10-30
+1363016,1363016,Fix Released,Volume initialisation with image might fail due to disk caching,https://bugs.launchpad.net/cinder/+bug/1363016,2014-10-30
+1387016,1387016,Fix Released,neutron cookbook should set auth_version to v2.0,https://bugs.launchpad.net/openstack-chef/+bug/1387016,2014-10-30
+1385099,1385099,Fix Released,Need to set the v2 as the default Cinder api,https://bugs.launchpad.net/openstack-chef/+bug/1385099,2014-10-30
+1385400,1385400,Fix Released,[image] does not support multiple RabbitMQ hosts,https://bugs.launchpad.net/openstack-chef/+bug/1385400,2014-10-30
+1383821,1383821,Fix Released,[identity] create_user  password change needs idempotent check,https://bugs.launchpad.net/openstack-chef/+bug/1383821,2014-10-30
+1387192,1387192,Fix Released,Scenario with plugin fails with PicklingError: Can't pickle <class>,https://bugs.launchpad.net/rally/+bug/1387192,2014-10-29
+1367619,1367619,Fix Released,MetadefNamespace.namespaces column should indicate nullable=False,https://bugs.launchpad.net/glance/+bug/1367619,2014-10-29
+1369581,1369581,Fix Released,compute-trust.json provides invalid data for trust filter,https://bugs.launchpad.net/glance/+bug/1369581,2014-10-29
+1367771,1367771,Fix Released,glance-manage db load_metadefs will fail if DB is not empty,https://bugs.launchpad.net/glance/+bug/1367771,2014-10-29
+1370767,1370767,Fix Released,Update driver metadata definitions to Juno,https://bugs.launchpad.net/glance/+bug/1370767,2014-10-29
+1367908,1367908,Fix Released,Update glance docs to reflect the changes in metadefs api's,https://bugs.launchpad.net/glance/+bug/1367908,2014-10-29
+1380689,1380689,Fix Released,Deprecated options in etc/glance-api.conf,https://bugs.launchpad.net/glance/+bug/1380689,2014-10-29
+1373454,1373454,Fix Released,glance-api raises 500 error for invalid scheme while creating image,https://bugs.launchpad.net/glance/+bug/1373454,2014-10-29
+1368479,1368479,Fix Released,Metadef Property and Object schema columns should use JSONEncodedDict,https://bugs.launchpad.net/glance/+bug/1368479,2014-10-29
+1367432,1367432,Fix Released,developer docs don't include metadata definitions concepts,https://bugs.launchpad.net/glance/+bug/1367432,2014-10-29
+1372888,1372888,Fix Released,g-api raise 500 error if filesystem_store_datadirs and filesystem_store_datadir both specified,https://bugs.launchpad.net/glance/+bug/1372888,2014-10-29

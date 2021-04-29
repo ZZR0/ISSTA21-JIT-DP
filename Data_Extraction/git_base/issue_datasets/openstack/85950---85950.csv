@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1208628,1208628,Fix Released,Logic in add_host_to_aggregate() is incorrect.,https://bugs.launchpad.net/nova/+bug/1208628,2013-10-17
+1221336,1221336,Fix Released,"Midonet plugin, FIP and MD server connectivity problems",https://bugs.launchpad.net/neutron/+bug/1221336,2013-10-17
+1208627,1208627,Fix Released,Try except block in the aggregates extension masks real errors,https://bugs.launchpad.net/nova/+bug/1208627,2013-10-17
+1220878,1220878,Fix Released,ML2 Cisco Nexus MD: Access host ID via port-binding,https://bugs.launchpad.net/neutron/+bug/1220878,2013-10-17
+1208173,1208173,Fix Released,VMware: volume attachment fails with exception,https://bugs.launchpad.net/nova/+bug/1208173,2013-10-17
+1206703,1206703,Fix Released,VMOpsTestCase shadowed,https://bugs.launchpad.net/nova/+bug/1206703,2013-10-17
+1220668,1220668,Fix Released,lb-healthmonotor-disassociate fails with 'demo' user,https://bugs.launchpad.net/neutron/+bug/1220668,2013-10-17
+1217998,1217998,Fix Released,CONSTRAINT routerl3agentbindings failure during gate tests,https://bugs.launchpad.net/neutron/+bug/1217998,2013-10-17
+1204598,1204598,Fix Released,Race condition in aggregates list when an aggregate is deleted,https://bugs.launchpad.net/nova/+bug/1204598,2013-10-17
+1204503,1204503,Fix Released,the exception.FixedIpInvalid(msg) hasn't been handled,https://bugs.launchpad.net/nova/+bug/1204503,2013-10-17
+1194389,1194389,Fix Released,iptables manager does not honor top param of add_rule,https://bugs.launchpad.net/neutron/+bug/1194389,2013-10-17
+1201277,1201277,Fix Released,aggregate_get_by_host returns aggregates from other hosts,https://bugs.launchpad.net/nova/+bug/1201277,2013-10-17
+1182732,1182732,Fix Released,bad dependency on quantumclient breaks metadata agent,https://bugs.launchpad.net/neutron/+bug/1182732,2013-10-17
+1199955,1199955,Fix Released,VCDriver: Rescue broken for VCDriver,https://bugs.launchpad.net/nova/+bug/1199955,2013-10-17
+1229394,1229394,Fix Released,VPN Migration does not specify correct plugin,https://bugs.launchpad.net/neutron/+bug/1229394,2013-10-17
+1199811,1199811,Fix Released,nova live-migration of volume-backed VM fails because of image is None,https://bugs.launchpad.net/nova/+bug/1199811,2013-10-17
+1227697,1227697,Fix Released,Command service-provider-list not working for non-admin users,https://bugs.launchpad.net/neutron/+bug/1227697,2013-10-17
+1227091,1227091,Fix Released,ml2 fails to bind lbaas VIP,https://bugs.launchpad.net/neutron/+bug/1227091,2013-10-17
+1198284,1198284,Fix Released,hypervisor_hostname not updated on evacuate,https://bugs.launchpad.net/nova/+bug/1198284,2013-10-17
+1224196,1224196,Fix Released,Router ownership must be checked on vpnservice creation,https://bugs.launchpad.net/neutron/+bug/1224196,2013-10-17
+1197237,1197237,Fix Released,adding default bdms is considering instances as volume backed,https://bugs.launchpad.net/nova/+bug/1197237,2013-10-17
+1223000,1223000,Fix Released,ML2 port-binding fails if FQDN not used,https://bugs.launchpad.net/neutron/+bug/1223000,2013-10-17
+1221674,1221674,Fix Released,test_midonet_lib failes because of a missing import,https://bugs.launchpad.net/neutron/+bug/1221674,2013-10-17
+1196301,1196301,Fix Released,Xen and VMware drivers hit database in poll_rebooting_instances(),https://bugs.launchpad.net/nova/+bug/1196301,2013-10-17
+1195913,1195913,Fix Released,Mounting 4K block size Cinder Volume on instance fails,https://bugs.launchpad.net/nova/+bug/1195913,2013-10-17
+1218588,1218588,Fix Released,Cisco N1K plugin: Network creation and Port creation dont go through when no profile id is specified.,https://bugs.launchpad.net/neutron/+bug/1218588,2013-10-17
+1195849,1195849,Fix Released,_sync_power_state fails when instance is powered off,https://bugs.launchpad.net/nova/+bug/1195849,2013-10-17
+1213541,1213541,Fix Released,typos in neutron.api.extensions and hacking check,https://bugs.launchpad.net/neutron/+bug/1213541,2013-10-17
+1212898,1212898,Fix Released,Typos in midonet.py,https://bugs.launchpad.net/neutron/+bug/1212898,2013-10-17
+1212229,1212229,Fix Released,Testing method for LBaaS update status() is partially wrong,https://bugs.launchpad.net/neutron/+bug/1212229,2013-10-17
+1211951,1211951,Fix Released,"code contains generic assertRaises(Exception, ...)",https://bugs.launchpad.net/neutron/+bug/1211951,2013-10-17
+1187676,1187676,Fix Released,API Rate limiting should return 429 not 413,https://bugs.launchpad.net/nova/+bug/1187676,2013-10-17
+1211275,1211275,Fix Released,Missing space in log decorator,https://bugs.launchpad.net/neutron/+bug/1211275,2013-10-17
+1210998,1210998,Fix Released,Remove last remnants of nose,https://bugs.launchpad.net/neutron/+bug/1210998,2013-10-17
+1210306,1210306,Fix Released,pbr-0.5.21-py2.7.egg/ directory should be ignored,https://bugs.launchpad.net/neutron/+bug/1210306,2013-10-17
+1181895,1181895,Fix Released,Need fix performance  issue  during spawn with powervm driver,https://bugs.launchpad.net/nova/+bug/1181895,2013-10-17
+1210276,1210276,Fix Released,exceptions.AlreadyAttached is not used,https://bugs.launchpad.net/neutron/+bug/1210276,2013-10-17
+1180454,1180454,Fix Released,Cannot orchestrate PXE booting from nova,https://bugs.launchpad.net/tripleo/+bug/1180454,2013-10-17
+1180454,1180454,Fix Released,Cannot orchestrate PXE booting from nova,https://bugs.launchpad.net/nova/+bug/1180454,2013-10-17
+1209389,1209389,Fix Released,couple of typos in router table migration,https://bugs.launchpad.net/neutron/+bug/1209389,2013-10-17
+1173227,1173227,Fix Released,Nova doesn't refresh network cache when transferring a floating IP address,https://bugs.launchpad.net/nova/+bug/1173227,2013-10-17
+1209359,1209359,Fix Released,remove  nonApache 2.0 license from nvp code,https://bugs.launchpad.net/neutron/+bug/1209359,2013-10-17
+1208907,1208907,Fix Released,decorator does not need to be wsgi,https://bugs.launchpad.net/neutron/+bug/1208907,2013-10-17
+1218977,1218977,Fix Released,DOS by passing an ephemeral or swap of arbitrary size,https://bugs.launchpad.net/nova/+bug/1218977,2013-10-17
+1208728,1208728,Fix Released,Duplicating an association between a pool and a health monitor raises a 500,https://bugs.launchpad.net/neutron/+bug/1208728,2013-10-17
+1216113,1216113,Fix Released,cells scheduler fails Instance.create(),https://bugs.launchpad.net/nova/+bug/1216113,2013-10-17
+1208716,1208716,Fix Released,NEC Plugin: Useless and wrong comments,https://bugs.launchpad.net/neutron/+bug/1208716,2013-10-17
+1213967,1213967,Fix Released,Seed VM filtering out compute resources,https://bugs.launchpad.net/nova/+bug/1213967,2013-10-17
+1213967,1213967,Fix Released,Seed VM filtering out compute resources,https://bugs.launchpad.net/tripleo/+bug/1213967,2013-10-17
+1208708,1208708,Fix Released,NEC Plugin: plugin should ignore duplicated message from the agent,https://bugs.launchpad.net/neutron/+bug/1208708,2013-10-17
+1207823,1207823,Fix Released,Fix the alphabetical order in requirement files,https://bugs.launchpad.net/neutron/+bug/1207823,2013-10-17
+1210529,1210529,Fix Released,V3 API security groups extension should use xmlutils safe_minidom_parse_string,https://bugs.launchpad.net/nova/+bug/1210529,2013-10-17
+1207650,1207650,Fix Released,Loadbalancer Healthmonitor status should be removed,https://bugs.launchpad.net/neutron/+bug/1207650,2013-10-17
+1205169,1205169,Fix Released,Nicira plugin: nvp.ini option default_iface_name doesn't match code,https://bugs.launchpad.net/neutron/+bug/1205169,2013-10-17
+1186945,1186945,Fix Released,The code snippet could not provide the original target,https://bugs.launchpad.net/nova/+bug/1186945,2013-10-17
+1186881,1186881,Fix Released,Boot Instance Error with a  Flavor which is set  with os-extra_specs and has hosts meet the requirements in the cloud system,https://bugs.launchpad.net/nova/+bug/1186881,2013-10-17
+1204694,1204694,Fix Released,nicira tests cleanup,https://bugs.launchpad.net/neutron/+bug/1204694,2013-10-17
+1186775,1186775,Fix Released,Running api_sample tests fails when doc is in a splitted path,https://bugs.launchpad.net/nova/+bug/1186775,2013-10-17
+1204321,1204321,Fix Released,Plumgrid plugin raises exceptions incorrectly,https://bugs.launchpad.net/neutron/+bug/1204321,2013-10-17
+1186447,1186447,Fix Released,Handle UnexpectedTaskState and InstanceNotFound exceptions in run_instance and snapshot,https://bugs.launchpad.net/nova/+bug/1186447,2013-10-17
+1203925,1203925,Fix Released,remove policy checks in port_security tests,https://bugs.launchpad.net/neutron/+bug/1203925,2013-10-17
+1186401,1186401,Fix Released,instance dict is being abused to pass config_drive_id to libvirt on build,https://bugs.launchpad.net/nova/+bug/1186401,2013-10-17
+1203631,1203631,Fix Released,Prompted information is not correct when delete a non-existing port,https://bugs.launchpad.net/neutron/+bug/1203631,2013-10-17
+1185180,1185180,Fix Released,Support Cinder mount options for NFS and GlusterFS,https://bugs.launchpad.net/nova/+bug/1185180,2013-10-17
+1185180,1185180,Fix Released,Support Cinder mount options for NFS and GlusterFS,https://bugs.launchpad.net/cinder/+bug/1185180,2013-10-17
+1185030,1185030,Fix Released,driver libvirt doesn't honor vif quota,https://bugs.launchpad.net/nova/+bug/1185030,2013-10-17
+1184861,1184861,Fix Released,FC attach fails to find multipath devices,https://bugs.launchpad.net/nova/+bug/1184861,2013-10-17
+1202687,1202687,Fix Released,"Cisco plugin db clean up, part II",https://bugs.launchpad.net/neutron/+bug/1202687,2013-10-17
+1184594,1184594,Fix Released,Admin API call to resize up checks the admin's quota and not the customer and fails,https://bugs.launchpad.net/nova/+bug/1184594,2013-10-17
+1202406,1202406,Fix Released,nvp plugin rxtx_factor readonly update port,https://bugs.launchpad.net/neutron/+bug/1202406,2013-10-17
+1183733,1183733,Fix Released,Missed the conversion specifier in the message definition,https://bugs.launchpad.net/nova/+bug/1183733,2013-10-17
+1201537,1201537,Fix Released,"Remove unused config parameters from Cisco plugin, document the others",https://bugs.launchpad.net/neutron/+bug/1201537,2013-10-17
+1183712,1183712,Fix Released,x-compute-request-id header not included in responses to resize requests,https://bugs.launchpad.net/nova/+bug/1183712,2013-10-17
+1201249,1201249,Fix Released,quantum-lbaas-agent ignores use_namespaces = False,https://bugs.launchpad.net/neutron/+bug/1201249,2013-10-17
+1183602,1183602,Fix Released,Colorizer throws exception on failed tests,https://bugs.launchpad.net/nova/+bug/1183602,2013-10-17

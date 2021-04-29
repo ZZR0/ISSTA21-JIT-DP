@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1318498,1318498,Fix Released,"Neutron db migration failed due to ""reorg pending"" if engine is DB2.",https://bugs.launchpad.net/neutron/+bug/1318498,2014-10-16
+1315507,1315507,Fix Released,Attempts to lock pid files should be non-blocking,https://bugs.launchpad.net/neutron/+bug/1315507,2014-10-16
+1374902,1374902,Fix Released,missing vcpupin elements in cputune for numa case,https://bugs.launchpad.net/nova/+bug/1374902,2014-10-16
+1312439,1312439,Fix Released,NSX: wrong switch uuid reference used during dhcp/metadata operations,https://bugs.launchpad.net/neutron/+bug/1312439,2014-10-16
+1311589,1311589,Fix Released,DB2 upgrade failure for 50d5ba354c23_ml2_binding_vif_details,https://bugs.launchpad.net/neutron/+bug/1311589,2014-10-16
+1373962,1373962,Fix Released,LVM backed VM fails to launch,https://bugs.launchpad.net/nova/+bug/1373962,2014-10-16
+1311291,1311291,Fix Released,NSX: fake_api_client does not raise not found,https://bugs.launchpad.net/neutron/+bug/1311291,2014-10-16
+1373535,1373535,Fix Released,obj_make_compatible is wrong,https://bugs.launchpad.net/nova/+bug/1373535,2014-10-16
+1311232,1311232,Fix Released,LBaaSAgentSchedulerTestCaseXML.test_schedule_pool_with_down_agen broken,https://bugs.launchpad.net/neutron/+bug/1311232,2014-10-16
+1373159,1373159,Fix Released,"NUMA Topology cell memory sent to xml in MiB, but qemu uses KiB",https://bugs.launchpad.net/nova/+bug/1373159,2014-10-16
+1309694,1309694,Fix Released,neutron does not have a nova_ca_certificates_file conf option,https://bugs.launchpad.net/neutron/+bug/1309694,2014-10-16
+1372845,1372845,Fix Released,libvirt: Instance NUMA fitting code fails to account for vpu_pin_set config option properly,https://bugs.launchpad.net/nova/+bug/1372845,2014-10-16
+1309286,1309286,Fix Released,"OFAgent: Apply the OVS's patch ""Fixing lost vlan ids on interfaces""",https://bugs.launchpad.net/neutron/+bug/1309286,2014-10-16
+1372829,1372829,Fix Released,vcpu_pin_set setting raises exception,https://bugs.launchpad.net/nova/+bug/1372829,2014-10-16
+1370077,1370077,Fix Released,Set default vnic_type in neutron.,https://bugs.launchpad.net/nova/+bug/1370077,2014-10-16
+1309144,1309144,Fix Released,TypeError while building routers,https://bugs.launchpad.net/neutron/+bug/1309144,2014-10-16
+1370068,1370068,Fix Released,Numa filter fails to get instance_properties,https://bugs.launchpad.net/nova/+bug/1370068,2014-10-16
+1307472,1307472,Fix Released,workaround for bug #1219530 is obsolete,https://bugs.launchpad.net/neutron/+bug/1307472,2014-10-16
+1369984,1369984,Fix Released,NUMA topology checking will not check if instance can fit properly.,https://bugs.launchpad.net/nova/+bug/1369984,2014-10-16
+1307038,1307038,Fix Released,linux IP lib tests conflicting patches causing sporadic UT failures,https://bugs.launchpad.net/neutron/+bug/1307038,2014-10-16
+1369537,1369537,Fix Released,LibvirtConnTestCase.test_create_propagates_exceptions takes 30 seconds to run,https://bugs.launchpad.net/nova/+bug/1369537,2014-10-16
+1306822,1306822,Fix Released,neutron does not have a nova_api_insecure conf setting,https://bugs.launchpad.net/neutron/+bug/1306822,2014-10-16
+1369508,1369508,Fix Released,Instance with NUMA topology causes exception in the scheduler,https://bugs.launchpad.net/nova/+bug/1369508,2014-10-16
+1305957,1305957,Fix Released,LBaaS extension doesn't register it's resources to quota engine,https://bugs.launchpad.net/neutron/+bug/1305957,2014-10-16
+1369502,1369502,Fix Released,NUMA topology _get_constraints_auto assumes flavor object,https://bugs.launchpad.net/nova/+bug/1369502,2014-10-16
+1305656,1305656,Fix Released,test that inherit from BaseTestCase don't need to clean up the mock.patches,https://bugs.launchpad.net/neutron/+bug/1305656,2014-10-16
+1368404,1368404,Fix Released,Uncaught 'libvirtError: Domain not found' errors during destroy,https://bugs.launchpad.net/nova/+bug/1368404,2014-10-16
+1305428,1305428,Fix Released,run_tests.sh doesn't work on stable/havana branch,https://bugs.launchpad.net/neutron/+bug/1305428,2014-10-16
+1368202,1368202,Fix Released,Nova console VMRCConsole will break with ESX driver,https://bugs.launchpad.net/nova/+bug/1368202,2014-10-16
+1367342,1367342,Fix Released,call to _set_instance_error_state is incorrect in do_build_and_run_instance,https://bugs.launchpad.net/nova/+bug/1367342,2014-10-16
+1305377,1305377,Fix Released,Correct flake8 E711 and E712 violations,https://bugs.launchpad.net/neutron/+bug/1305377,2014-10-16
+1366832,1366832,Fix Released,"serial console, ports are not released",https://bugs.launchpad.net/nova/+bug/1366832,2014-10-16
+1304558,1304558,Fix Released,BigSwitch: Remove duplication of HTTPConnection,https://bugs.launchpad.net/neutron/+bug/1304558,2014-10-16
+1366548,1366548,Fix Released,libvirt: spawning an instance may have an additional 4 db writes,https://bugs.launchpad.net/nova/+bug/1366548,2014-10-16
+1304127,1304127,Fix Released,NSX: dhcp port missing on the metadata network,https://bugs.launchpad.net/neutron/+bug/1304127,2014-10-16
+1366181,1366181,Fix Released,Instance reschedule elevates to admin context,https://bugs.launchpad.net/nova/+bug/1366181,2014-10-16
+1303820,1303820,Fix Released,Update Cisco VPN device driver,https://bugs.launchpad.net/neutron/+bug/1303820,2014-10-16
+1303605,1303605,Fix Released,test_rollback_on_router_delete fails,https://bugs.launchpad.net/neutron/+bug/1303605,2014-10-16
+1301042,1301042,Fix Released,Routers may never be torn down if router_delete_namespaces is False,https://bugs.launchpad.net/neutron/+bug/1301042,2014-10-16
+1364849,1364849,Fix Released,VMware driver doesn't return typed console,https://bugs.launchpad.net/nova/+bug/1364849,2014-10-16
+1363575,1363575,Fix Released,db deadlock in nova-conductor,https://bugs.launchpad.net/nova/+bug/1363575,2014-10-16
+1299159,1299159,Fix Released,Hyper-V agent cannot add ICMP security group rules,https://bugs.launchpad.net/neutron/+bug/1299159,2014-10-16
+1363324,1363324,Fix Released,a bug in quota check,https://bugs.launchpad.net/nova/+bug/1363324,2014-10-16
+1299156,1299156,Fix Released,Hyper-V agent does not disable security group rules,https://bugs.launchpad.net/neutron/+bug/1299156,2014-10-16
+1294568,1294568,Fix Released,Unable to create the Neutron network net_local because of constraints for db2,https://bugs.launchpad.net/neutron/+bug/1294568,2014-10-16
+1362221,1362221,Fix Released,VMs fail to start when Ceph is used as a backend for ephemeral drives,https://bugs.launchpad.net/nova/+bug/1362221,2014-10-16
+1292102,1292102,Fix Released,"AttributeError: 'NoneType' object has no attribute 'obj' (driver.obj.release_segment(session, segment))",https://bugs.launchpad.net/neutron/+bug/1292102,2014-10-16
+1362191,1362191,Fix Released,Deprecate the libvirt volume_drivers config parameter,https://bugs.launchpad.net/nova/+bug/1362191,2014-10-16
+1283990,1283990,Fix Released,Incorrect instantiation of MlnxException exception,https://bugs.launchpad.net/neutron/+bug/1283990,2014-10-16
+1358552,1358552,Fix Released,Fail to remove logical volume,https://bugs.launchpad.net/nova/+bug/1358552,2014-10-16
+1357599,1357599,Fix Released,race condition with neutron in nova migrate code,https://bugs.launchpad.net/nova/+bug/1357599,2014-10-16
+1268728,1268728,Fix Released,Add 2-leg configuration to Radware LBaaS Driver,https://bugs.launchpad.net/neutron/+bug/1268728,2014-10-16
+1268423,1268423,Fix Released,multiple api_wokers cannot connect to pgsql,https://bugs.launchpad.net/neutron/+bug/1268423,2014-10-16
+1356633,1356633,Fix Released,use_usb_tablet=true have no effect,https://bugs.launchpad.net/nova/+bug/1356633,2014-10-16
+1267481,1267481,Fix Released,ML2 Cisco Nexus MD: Improve Unit Test Coverage,https://bugs.launchpad.net/neutron/+bug/1267481,2014-10-16
+1356157,1356157,Fix Released,make nova floating-ip-delete atomic with neutron,https://bugs.launchpad.net/nova/+bug/1356157,2014-10-16
+1266780,1266780,Fix Released,DHCP server crashes on networks where IPv6 addresses were supplied unshortened,https://bugs.launchpad.net/neutron/+bug/1266780,2014-10-16
+1353131,1353131,Fix Released,Failed to commit reservations  in gate,https://bugs.launchpad.net/nova/+bug/1353131,2014-10-16
+1312124,1312124,Fix Released,Downgrade doesn't work in 4eca4a84f08a_remove_ml2_cisco_cred_db migration,https://bugs.launchpad.net/neutron/+bug/1312124,2014-10-16
+1351002,1351002,Fix Released,live migration (non-block-migration) with shared instance storage and config drive fails,https://bugs.launchpad.net/nova/+bug/1351002,2014-10-16
+1311971,1311971,Fix Released,database exception causes UnboundLocalError in linuxbridge-agent,https://bugs.launchpad.net/neutron/+bug/1311971,2014-10-16
+1311943,1311943,Fix Released,ibm: plugin should set secret=Tur on cfg.stropt('password,https://bugs.launchpad.net/neutron/+bug/1311943,2014-10-16
+1311758,1311758,Fix Released,OpenDaylight ML2 Mechanism Driver does not handle authentication errors,https://bugs.launchpad.net/neutron/+bug/1311758,2014-10-16
+1349147,1349147,Fix Released,test_db_api unit tests fail with: UnexpectedMethodCallError: Unexpected method call get_session.__call__(use_slave=False) -> None,https://bugs.launchpad.net/nova/+bug/1349147,2014-10-16
+1311260,1311260,Fix Released,SDN-VE controller expects information not in Neutron request,https://bugs.launchpad.net/neutron/+bug/1311260,2014-10-16
+1340885,1340885,Fix Released,Can't unset a flavor-key,https://bugs.launchpad.net/nova/+bug/1340885,2014-10-16
+1310460,1310460,Fix Released,"wrong key ""router.interface"" reported by ceilometer log",https://bugs.launchpad.net/neutron/+bug/1310460,2014-10-16
+1339462,1339462,Fix Released,vmware: cannot use adaptertype Paravirtual,https://bugs.launchpad.net/nova/+bug/1339462,2014-10-16
+1334965,1334965,Fix Released,the headroom infomation  is wrong in the method of limit_check,https://bugs.launchpad.net/nova/+bug/1334965,2014-10-16
+1308927,1308927,Fix Released,ofagent: inbound flow for tunnels is spec-wise broken,https://bugs.launchpad.net/neutron/+bug/1308927,2014-10-16
+1308489,1308489,Fix Released,Wrong issubclass() hook behavior in PluginInterface,https://bugs.launchpad.net/neutron/+bug/1308489,2014-10-16
+1307788,1307788,Fix Released,IPv6 mode should not be specified in API when ip version is 4,https://bugs.launchpad.net/neutron/+bug/1307788,2014-10-16
+1306479,1306479,Fix Released,ec2 api breaks on non-ascii characters,https://bugs.launchpad.net/nova/+bug/1306479,2014-10-16
+1307720,1307720,Fix Released,ML2 migration script does not check initial db version,https://bugs.launchpad.net/neutron/+bug/1307720,2014-10-16
+1283987,1283987,Fix Released,Query Deadlock when creating >200 servers at once in sqlalchemy,https://bugs.launchpad.net/nova/+bug/1283987,2014-10-16

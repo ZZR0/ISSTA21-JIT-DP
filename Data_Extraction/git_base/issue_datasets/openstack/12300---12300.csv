@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1775502,1775502,Fix Released,unable to create artifact having field with nullable=True without default value,https://bugs.launchpad.net/glare/+bug/1775502,2018-06-28
+1777359,1777359,Fix Released,Unable to create a project from horizon on devstack,https://bugs.launchpad.net/horizon/+bug/1777359,2018-06-27
+1771655,1771655,Fix Released,Nexus: remove deprecated intfcfg.portchannel config,https://bugs.launchpad.net/networking-cisco/+bug/1771655,2018-06-27
+1776944,1776944,Fix Released,horizon translations update playbook misses openstack_auth,https://bugs.launchpad.net/openstack-ansible/+bug/1776944,2018-06-27
+1776212,1776212,Fix Released,ceph_client: cephkeys_access_group group creation,https://bugs.launchpad.net/openstack-ansible/+bug/1776212,2018-06-27
+1777130,1777130,Fix Released,RDO cloud is down,https://bugs.launchpad.net/tripleo/+bug/1777130,2018-06-27
+1778004,1778004,Fix Released,[instack-undercloud] openstack-tox-py35 fails with dependency issue,https://bugs.launchpad.net/tripleo/+bug/1778004,2018-06-27
+1777478,1777478,Fix Released,"ServerShowV263Test.test_show_update_rebuild_list_server fails cells v1 job with ""ValueError: An object of type nova.objects.instance.TrustedCerts is required in field trusted_certs, not a dict""",https://bugs.launchpad.net/nova/+bug/1777478,2018-06-26
+1777772,1777772,Fix Released,tacker service cannot auto install.,https://bugs.launchpad.net/tacker/+bug/1777772,2018-06-26
+1777819,1777819,Fix Released,Zun top return NoneType error,https://bugs.launchpad.net/python-zunclient/+bug/1777819,2018-06-26
+1778615,1778615,Fix Released,spp-agent fails in start for timeout of spp_primary initialization.,https://bugs.launchpad.net/networking-spp/+bug/1778615,2018-06-26
+1742027,1742027,Fix Released,DocImpact: Add quotas per share type,https://bugs.launchpad.net/manila/+bug/1742027,2018-06-25
+1770984,1770984,Fix Released,Etcd for Ubuntu in openstackinstallguide,https://bugs.launchpad.net/openstack-manuals/+bug/1770984,2018-06-25
+1769186,1769186,Fix Released,Preface in openstackinstallguide,https://bugs.launchpad.net/openstack-manuals/+bug/1769186,2018-06-25
+1700148,1700148,Fix Released,undercloud deploy fails with keystone token issue error,https://bugs.launchpad.net/tripleo/+bug/1700148,2018-06-25
+1625198,1625198,Fix Released,oslo_messaging_rabbit deprecation notices,https://bugs.launchpad.net/puppet-oslo/+bug/1625198,2018-06-25
+1778472,1778472,Fix Released,docker pull failed: Get https://registry-1.docker.io/v2/tripleomaster/centos-binary-rsyslog-base/manifests/current-tripleo: received unexpected HTTP status: 503 Service Unavailable,https://bugs.launchpad.net/tripleo/+bug/1778472,2018-06-25
+1778054,1778054,Fix Released,constraints for the neutron-lbaas breaks queens gate jobs,https://bugs.launchpad.net/openstack-requirements/+bug/1778054,2018-06-25
+1755847,1755847,Fix Released,missing 'baremetal create' command in command reference,https://bugs.launchpad.net/python-ironicclient/+bug/1755847,2018-06-25
+1778494,1778494,Fix Released,Set notification_format for nova to unversioned on undercloud,https://bugs.launchpad.net/tripleo/+bug/1778494,2018-06-25
+1777505,1777505,Fix Released,nova_cell1_conf is not configured for [neutron],https://bugs.launchpad.net/devstack/+bug/1777505,2018-06-25
+1778229,1778229,Fix Released,Configure the VIP in openstackhaguide,https://bugs.launchpad.net/openstack-manuals/+bug/1778229,2018-06-25
+1777614,1777614,Fix Released,the limitations of multisite_vim_usage_guide  is error,https://bugs.launchpad.net/tacker/+bug/1777614,2018-06-25
+1777751,1777751,Fix Committed,"when create flavor must be specify cpu and mem, but now tacker doesn't check",https://bugs.launchpad.net/tacker/+bug/1777751,2018-06-25
+1667073,1667073,Fix Released,lib/neutron: neutron conf handling is broken,https://bugs.launchpad.net/devstack/+bug/1667073,2018-06-22
+1778055,1778055,Fix Released,Change in search behaviour for v3 volume type breaks OSC,https://bugs.launchpad.net/python-cinderclient/+bug/1778055,2018-06-22
+1771928,1771928,Fix Committed,Disk usage leak on image import,https://bugs.launchpad.net/nova-lxd/+bug/1771928,2018-06-22
+1778201,1778201,Fix Released,"os-refresh-config undercloud install Error: Evaluation Error: Error while evaluating a Function Call, pick(): must receive at least one non empty",https://bugs.launchpad.net/puppet-ironic/+bug/1778201,2018-06-22
+1778201,1778201,Fix Released,"os-refresh-config undercloud install Error: Evaluation Error: Error while evaluating a Function Call, pick(): must receive at least one non empty",https://bugs.launchpad.net/tripleo/+bug/1778201,2018-06-22
+1767287,1767287,Fix Released,Multiple policies can be specified in server-group-create command,https://bugs.launchpad.net/python-novaclient/+bug/1767287,2018-06-22
+1722367,1722367,Fix Released,Documentation for dns integration needs improvement,https://bugs.launchpad.net/neutron/+bug/1722367,2018-06-22
+1775548,1775548,Fix Committed,'Statement' object has no attribute 'parsed',https://bugs.launchpad.net/python-tackerclient/+bug/1775548,2018-06-20
+1773572,1773572,Fix Released,rdo2: periodic ovb job (master) isn't handling hashes correctly,https://bugs.launchpad.net/tripleo/+bug/1773572,2018-06-20
+1777757,1777757,Fix Released,Rally won't load tests when using tempest<=17 as Verifier,https://bugs.launchpad.net/rally/+bug/1777757,2018-06-20
+1776501,1776501,Fix Released,session.request has bad default for raise_exc when creating Adapter-based clients,https://bugs.launchpad.net/keystoneauth/+bug/1776501,2018-06-20
+1689426,1689426,Fix Released,VNF in PENDING_DELETE status can not be deleted,https://bugs.launchpad.net/tacker/+bug/1689426,2018-06-20
+1676063,1676063,Fix Released,VPNaaS uses wrong path for custom config,https://bugs.launchpad.net/kolla/+bug/1676063,2018-06-20
+1635795,1635795,Fix Released,fernet deploy fails,https://bugs.launchpad.net/kolla/+bug/1635795,2018-06-20
+1665207,1665207,Fix Released,Able to trigger `Unknown instruction: &&`,https://bugs.launchpad.net/kolla/+bug/1665207,2018-06-20
+1628584,1628584,Fix Released,ceilomter container doesn't mount host /etc/localtime,https://bugs.launchpad.net/kolla/+bug/1628584,2018-06-20
+1627755,1627755,Fix Released,ironic-rootwrap: Executable not found: hexdump,https://bugs.launchpad.net/kolla/+bug/1627755,2018-06-20
+1577951,1577951,Fix Released,Cleanup mesos related images etc,https://bugs.launchpad.net/kolla/+bug/1577951,2018-06-20
+1620379,1620379,Fix Released,Murano configuration file uses wrong options,https://bugs.launchpad.net/kolla/+bug/1620379,2018-06-20
+1588829,1588829,Fix Released,Install keepalived in neutron_l3_agent container,https://bugs.launchpad.net/kolla/+bug/1588829,2018-06-20
+1577148,1577148,Fix Released,sync the timezone between the host and the containers,https://bugs.launchpad.net/kolla/+bug/1577148,2018-06-20
+1557454,1557454,Fix Released,container name in PS1 shell command prompt inside a container,https://bugs.launchpad.net/kolla/+bug/1557454,2018-06-20
+1569560,1569560,Fix Released,Remove Disable HAProxy Option from Quick Start Guide,https://bugs.launchpad.net/kolla/+bug/1569560,2018-06-20
+1554724,1554724,Fix Released,"""journalctl"" command in tools/deploy_aio.sh fails in gate on Ubuntu",https://bugs.launchpad.net/kolla/+bug/1554724,2018-06-20
+1567932,1567932,Fix Released,Put the variables in alphabetical order,https://bugs.launchpad.net/kolla/+bug/1567932,2018-06-20
+1576152,1576152,Fix Released,murano service type needs to be updated for mitaka,https://bugs.launchpad.net/kolla/+bug/1576152,2018-06-20
+1569769,1569769,Fix Released,Ansible unbuffered output should be enabled in the gate,https://bugs.launchpad.net/kolla/+bug/1569769,2018-06-20
+1568047,1568047,Fix Released,/etc/hostname has wrong selinux context,https://bugs.launchpad.net/kolla/+bug/1568047,2018-06-20
+1563972,1563972,Fix Released,Manila keystone v3 issues for all clients,https://bugs.launchpad.net/kolla/+bug/1563972,2018-06-20
+1566281,1566281,Fix Released,Add nova_ssh in cleanup containers script,https://bugs.launchpad.net/kolla/+bug/1566281,2018-06-20
+1563642,1563642,Fix Released,Optional services option missing in globals.yml,https://bugs.launchpad.net/kolla/+bug/1563642,2018-06-20
+1562345,1562345,Fix Released,kolla_docker use a wrong self refer,https://bugs.launchpad.net/kolla/+bug/1562345,2018-06-20
+1623305,1623305,Fix Released,upgrade in common role do not work,https://bugs.launchpad.net/kolla/+bug/1623305,2018-06-20
+1566588,1566588,Fix Released,integrate new qemu 2.3.0.X version into Kolla,https://bugs.launchpad.net/kolla/+bug/1566588,2018-06-20
+1566571,1566571,Fix Released,Add prechecks to validate kolla_internal_vip_address and kolla_external_vip_address,https://bugs.launchpad.net/kolla/+bug/1566571,2018-06-20
+1567642,1567642,Fix Released,Add mongodb in cleanup containers script,https://bugs.launchpad.net/kolla/+bug/1567642,2018-06-20
+1566150,1566150,Fix Released,Check empty passwords in $CONFIG_DIR/passwords.yml,https://bugs.launchpad.net/kolla/+bug/1566150,2018-06-20
+1563506,1563506,Fix Released,prechecks must check empty passwords in /etc/kolla/passwords.yml,https://bugs.launchpad.net/kolla/+bug/1563506,2018-06-20
+1565499,1565499,Fix Released,Keepalived logs needs to be writed on correct directory,https://bugs.launchpad.net/kolla/+bug/1565499,2018-06-20
+1564564,1564564,Fix Released,rabbitmq - IP resolve check doesn't work on AIO,https://bugs.launchpad.net/kolla/+bug/1564564,2018-06-20
+1563741,1563741,Fix Released,set_config.py --check can not handle if the src is directory,https://bugs.launchpad.net/kolla/+bug/1563741,2018-06-20
+1562991,1562991,Fix Released,Add a step to clean all ceph references in fstab,https://bugs.launchpad.net/kolla/+bug/1562991,2018-06-20
+1563500,1563500,Fix Released,prechecks must check LTS wily kernel version 4.2 on Ubuntu 14.04,https://bugs.launchpad.net/kolla/+bug/1563500,2018-06-20
+1623308,1623308,Fix Released,ubuntu 14 failed to run tox -e genconf,https://bugs.launchpad.net/kolla/+bug/1623308,2018-06-20
+1617902,1617902,Fix Released,nova resize not working with KVM,https://bugs.launchpad.net/kolla/+bug/1617902,2018-06-20
+1615350,1615350,Fix Released,kolla-toolbox need use a stable fixed Ansible version,https://bugs.launchpad.net/kolla/+bug/1615350,2018-06-20
+1611758,1611758,Fix Released,ironic_conductor - Permission denied: '/var/lib/ironic',https://bugs.launchpad.net/kolla/+bug/1611758,2018-06-20
+1613289,1613289,Fix Released,ironic-conductor - Executable not found: iscsiadm,https://bugs.launchpad.net/kolla/+bug/1613289,2018-06-20
+1613292,1613292,Fix Released,Failed to open some config files: /etc/ironic/ironic.conf,https://bugs.launchpad.net/kolla/+bug/1613292,2018-06-20
+1613298,1613298,Fix Released,ironic: iSCSI connection not seen by file system,https://bugs.launchpad.net/kolla/+bug/1613298,2018-06-20
+1595568,1595568,Fix Released,delorean.repo is now on CDN,https://bugs.launchpad.net/kolla/+bug/1595568,2018-06-20

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1746617,1746617,Fix Released,LXC package installation is slow on CentOS 7,https://bugs.launchpad.net/openstack-ansible/+bug/1746617,2018-02-14
+1742487,1742487,Fix Released,Keepalived is logging warnings and security violations,https://bugs.launchpad.net/openstack-ansible/+bug/1742487,2018-02-14
+1746283,1746283,Fix Released,Tempest image download fails on CentOS 7,https://bugs.launchpad.net/openstack-ansible/+bug/1746283,2018-02-14
+1747628,1747628,Fix Released,Upgrades to Queens are broken due to new container scaffolding,https://bugs.launchpad.net/openstack-ansible/+bug/1747628,2018-02-14
+1745152,1745152,Fix Released,Intermittent DEVICE_MANAGER service plugin lookup failure in UTs,https://bugs.launchpad.net/networking-cisco/+bug/1745152,2018-02-14
+1749375,1749375,Fix Released,type_name is coming as null,https://bugs.launchpad.net/glare/+bug/1749375,2018-02-14
+1749105,1749105,Fix Released,OVB ocata jobs fail because of wrong command overcloud container image prepare,https://bugs.launchpad.net/tripleo/+bug/1749105,2018-02-14
+1661701,1661701,Fix Released,Deprecate the Linux SMBFS driver,https://bugs.launchpad.net/cinder/+bug/1661701,2018-02-14
+1738142,1738142,Fix Released,overcloud config doesnt get the latest heat output in update,https://bugs.launchpad.net/tripleo/+bug/1738142,2018-02-13
+1713612,1713612,Fix Released,Containers missing for Neutron L2GW and BPGVPN-API,https://bugs.launchpad.net/tripleo/+bug/1713612,2018-02-13
+1746547,1746547,Fix Released,stable/pike of openstack-ansible-galera_server fails haproxy health check on rhel7,https://bugs.launchpad.net/openstack-ansible/+bug/1746547,2018-02-13
+1741471,1741471,Fix Released,keystone upgrade to Queens failure due to new handler,https://bugs.launchpad.net/openstack-ansible/+bug/1741471,2018-02-13
+1747079,1747079,Fix Released,cluster_lock throws DBDuplicateEntry exception,https://bugs.launchpad.net/senlin/+bug/1747079,2018-02-13
+1748934,1748934,Fix Released,Deploying mixed upgrade failed with AnsibleUndefinedVariable: 'undercloud_rpm_dependencies,https://bugs.launchpad.net/tripleo/+bug/1748934,2018-02-13
+1439433,1439433,Fix Released,[MAPR] Can't create cluster without volumes,https://bugs.launchpad.net/sahara/+bug/1439433,2018-02-13
+1747348,1747348,Fix Released,[doc] dead link,https://bugs.launchpad.net/cinder/+bug/1747348,2018-02-13
+1748026,1748026,Fix Released,missing install package for Red Hat Enterprise Linux and CentOS installation guide,https://bugs.launchpad.net/barbican/+bug/1748026,2018-02-12
+1746161,1746161,Fix Released,Next steps in Barbican,https://bugs.launchpad.net/barbican/+bug/1746161,2018-02-12
+1736005,1736005,Fix Released,jsonpatch 1.20 breaks glanceclient,https://bugs.launchpad.net/python-glanceclient/+bug/1736005,2018-02-12
+1736005,1736005,Fix Released,jsonpatch 1.20 breaks glanceclient,https://bugs.launchpad.net/openstack-requirements/+bug/1736005,2018-02-12
+1748180,1748180,Fix Released,scn003 gate: [tripleo-mysql-client-conf]: Could not evaluate: Saving failed,https://bugs.launchpad.net/tripleo/+bug/1748180,2018-02-12
+1697123,1697123,Fix Released,Gate fail with pyasn1==0.2.3,https://bugs.launchpad.net/openstack-requirements/+bug/1697123,2018-02-12
+1710216,1710216,Fix Released,"bagpipe-bgp: linuxbridge IPVPN, vif plug fails with ""An error occurred during local port plug to VPN: 'int' object has no attribute 'table'""",https://bugs.launchpad.net/networking-bagpipe/+bug/1710216,2018-02-12
+1715603,1715603,Fix Released,Shade 1.23.0 is breaking os_tempest role,https://bugs.launchpad.net/openstack-ansible/+bug/1715603,2018-02-12
+1732817,1732817,Fix Released,'Container' object has no attribute 'description',https://bugs.launchpad.net/openstack-requirements/+bug/1732817,2018-02-12
+1732817,1732817,Fix Released,'Container' object has no attribute 'description',https://bugs.launchpad.net/nova-lxd/+bug/1732817,2018-02-12
+1734009,1734009,Fix Released,No matching distribution found for protobuf===3.5.0,https://bugs.launchpad.net/openstack-requirements/+bug/1734009,2018-02-12
+1737588,1737588,Fix Released,cinder-rtstool failures with rtslib-fb 2.1.64 on F26,https://bugs.launchpad.net/cinder/+bug/1737588,2018-02-12
+1747305,1747305,Fix Released,Stable maint check of stable/ocata failing,https://bugs.launchpad.net/glance/+bug/1747305,2018-02-12
+1747304,1747304,Fix Released,Stable maint check of stable/pike failing,https://bugs.launchpad.net/glance/+bug/1747304,2018-02-12
+1738573,1738573,Fix Released,Index in contributor-guide,https://bugs.launchpad.net/openstack-contributor-guide/+bug/1738573,2018-02-12
+1715681,1715681,Fix Released,Allow default values for keystone_authtoken parameters,https://bugs.launchpad.net/sahara/+bug/1715681,2018-02-12
+1717059,1717059,Fix Released,Incomplete Storm config for >1.1.0,https://bugs.launchpad.net/sahara/+bug/1717059,2018-02-12
+1718940,1718940,Fix Released,unbound variable when creating cluster with no security groups,https://bugs.launchpad.net/sahara/+bug/1718940,2018-02-12
+1728159,1728159,Fix Released,Spark on vanilla incomplete auto sec group,https://bugs.launchpad.net/sahara/+bug/1728159,2018-02-12
+1740511,1740511,Fix Released,MapR 5.2: failure recognizing RHEL instances,https://bugs.launchpad.net/sahara/+bug/1740511,2018-02-12
+1741233,1741233,Fix Released,Reduce the log messages from amqp and oslo.messaging,https://bugs.launchpad.net/sahara/+bug/1741233,2018-02-12
+1714575,1714575,Fix Released,sahara node group templates fails when there is too much number fields,https://bugs.launchpad.net/sahara/+bug/1714575,2018-02-12
+1743384,1743384,Fix Released,"[UI] ""Create job binary"" button not working with Django 1.11",https://bugs.launchpad.net/sahara/+bug/1743384,2018-02-12
+1748574,1748574,Fix Released,VPP : VM with no SG should not permit any traffic like in OVS,https://bugs.launchpad.net/networking-vpp/+bug/1748574,2018-02-12
+1726892,1726892,Fix Released,SNAT issue with Floating IP,https://bugs.launchpad.net/networking-vpp/+bug/1726892,2018-02-12
+1672857,1672857,Fix Released,pingable_check_script fails under Trusty,https://bugs.launchpad.net/openstack-ansible/+bug/1672857,2018-02-12
+1666765,1666765,Fix Released,RPC settings not set for neutron agents,https://bugs.launchpad.net/openstack-ansible/+bug/1666765,2018-02-12
+1738276,1738276,Fix Released,ceph-ansible fork count should be a parameter,https://bugs.launchpad.net/tripleo/+bug/1738276,2018-02-12
+1742481,1742481,Fix Released,Generating Public certificates fails in non-containerized deployment,https://bugs.launchpad.net/tripleo/+bug/1742481,2018-02-12
+1731480,1731480,Fix Released,overcloud deploy fails with TypeError: argument of type 'bool' is not iterable,https://bugs.launchpad.net/tripleo/+bug/1731480,2018-02-12
+1728562,1728562,Fix Released,glance-api container has useless httpd logs bindmount,https://bugs.launchpad.net/tripleo/+bug/1728562,2018-02-12
+1716787,1716787,Fix Released,neutron-bgpvpn-opendaylight.yaml should contain OpenDaylight service plugin,https://bugs.launchpad.net/tripleo/+bug/1716787,2018-02-12
+1742647,1742647,Fix Released,CephPools parameter does not add CephX permission for openstack user,https://bugs.launchpad.net/tripleo/+bug/1742647,2018-02-12
+1715134,1715134,Fix Released,Allow to increase docker daemon verbosity,https://bugs.launchpad.net/tripleo/+bug/1715134,2018-02-12
+1724478,1724478,Fix Released,Upgrades CI job failing due to service openstack-ceilometer-central not found,https://bugs.launchpad.net/tripleo/+bug/1724478,2018-02-12
+1742655,1742655,Fix Released,Keystone fernet token rotation only works with clouds names 'overcloud',https://bugs.launchpad.net/tripleo/+bug/1742655,2018-02-12
+1743046,1743046,Fix Released,ceph-ansible worklow does not honor DeploymentServerBlacklist,https://bugs.launchpad.net/tripleo/+bug/1743046,2018-02-12
+1740880,1740880,Fix Released,ceph-ansible memory usage on undercloud,https://bugs.launchpad.net/tripleo/+bug/1740880,2018-02-12
+1735755,1735755,Fix Released,reset_stack_status is broken,https://bugs.launchpad.net/heat/+bug/1735755,2018-02-12
+1719340,1719340,Fix Released,Listing outputs in unnecessarily slow in Pike,https://bugs.launchpad.net/heat/+bug/1719340,2018-02-12
+1719603,1719603,Fix Released,fail to get nested output from OS::Heat::ResourceGroup resources,https://bugs.launchpad.net/heat/+bug/1719603,2018-02-12
+1733345,1733345,Fix Released,Master promotion: error creating the default Deployment Plan overcloud,https://bugs.launchpad.net/mistral/+bug/1733345,2018-02-12
+1733345,1733345,Fix Released,Master promotion: error creating the default Deployment Plan overcloud,https://bugs.launchpad.net/tripleo/+bug/1733345,2018-02-12
+1736821,1736821,Fix Released,Any workflows are not executed if you use PostgreSQL,https://bugs.launchpad.net/mistral/+bug/1736821,2018-02-12
+1718125,1718125,Fix Released,Missing some contents for install prerequisites,https://bugs.launchpad.net/glance/+bug/1718125,2018-02-12
+1747000,1747000,Fix Released,Use of parse.urlencode with dict in nova/tests/unit/scheduler/client/test_report.py can result in unpredictable query strings and thus unreliable tests,https://bugs.launchpad.net/nova/+bug/1747000,2018-02-12
+1724713,1724713,Fix Released,Split Tempest Plugins into Separate Repos/Projects,https://bugs.launchpad.net/congress/+bug/1724713,2018-02-12
+1734333,1734333,Fix Released,Container based tripleo deployment on virtual baremetal fails to assign ip to netns network -  RTNETLINK answers: Invalid argument,https://bugs.launchpad.net/tripleo/+bug/1734333,2018-02-12
+1716280,1716280,Fix Released,stable/pike: containers are pulled from latest (queens),https://bugs.launchpad.net/tripleo/+bug/1716280,2018-02-12
+1578494,1578494,Fix Released,package install from ceph.com fails because release key not present,https://bugs.launchpad.net/devstack-plugin-ceph/+bug/1578494,2018-02-12
+1379001,1379001,Fix Released,Follow oslo.i18n conventions for log messages,https://bugs.launchpad.net/trove/+bug/1379001,2018-02-11
+1337182,1337182,Fix Released,There is no CONTRIBUTING.rst in trove project,https://bugs.launchpad.net/trove/+bug/1337182,2018-02-11
+1326471,1326471,Fix Released,increase the width of subcommand column in the help output,https://bugs.launchpad.net/python-keystoneclient/+bug/1326471,2018-02-11
+1326471,1326471,Fix Released,increase the width of subcommand column in the help output,https://bugs.launchpad.net/python-ceilometerclient/+bug/1326471,2018-02-11
+1326471,1326471,Fix Released,increase the width of subcommand column in the help output,https://bugs.launchpad.net/python-novaclient/+bug/1326471,2018-02-11
+1360310,1360310,Fix Released,Remove use of term 'slave' in replication support,https://bugs.launchpad.net/trove/+bug/1360310,2018-02-11
+1314097,1314097,Fix Released,port-id and net-id subkeys of nics argument should be mutually exclusive,https://bugs.launchpad.net/python-novaclient/+bug/1314097,2018-02-11
+1368661,1368661,Fix Released,Unit tests sometimes fail because of stale pyc files,https://bugs.launchpad.net/python-keystoneclient/+bug/1368661,2018-02-11
+1368661,1368661,Fix Released,Unit tests sometimes fail because of stale pyc files,https://bugs.launchpad.net/magnum/+bug/1368661,2018-02-11

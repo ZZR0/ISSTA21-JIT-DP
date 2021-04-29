@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1292676,1292676,Fix Released,nova virt driver support for pre-generated auth_token doesn't work,https://bugs.launchpad.net/ironic/+bug/1292676,2014-04-17
+1290645,1290645,Fix Released,database.connection config option has no default value,https://bugs.launchpad.net/ironic/+bug/1290645,2014-04-17
+1290482,1290482,Fix Released,keystone.get_service_catalog() fails if auth_uri is versionless,https://bugs.launchpad.net/ironic/+bug/1290482,2014-04-17
+1286410,1286410,Fix Released,API and Conductor raise different exceptions when rejecting a request due to maintenance mode,https://bugs.launchpad.net/ironic/+bug/1286410,2014-04-17
+1285806,1285806,Fix Released,"Ironic will poke the node continuously, if it fails to change power state",https://bugs.launchpad.net/ironic/+bug/1285806,2014-04-17
+1279774,1279774,Fix Released,CONF should not be read before ironic/common/service.prepare_service() call,https://bugs.launchpad.net/ironic/+bug/1279774,2014-04-17
+1255648,1255648,Fix Released,driver.validate() does not actually validate driver_info,https://bugs.launchpad.net/ironic/+bug/1255648,2014-04-17
+1184470,1184470,Fix Released,"baremetal driver needs a state between ""building"" and ""deploying""",https://bugs.launchpad.net/nova/+bug/1184470,2014-04-17
+1184470,1184470,Fix Released,"baremetal driver needs a state between ""building"" and ""deploying""",https://bugs.launchpad.net/ironic/+bug/1184470,2014-04-17
+1296918,1296918,Fix Released,TypeError: _wait_for_provision_state() takes no arguments (1 given) while cleaning up failed node,https://bugs.launchpad.net/ironic/+bug/1296918,2014-04-17
+1295874,1295874,Fix Released,"heartbeat_interval not honored, leads to random test failures",https://bugs.launchpad.net/ironic/+bug/1295874,2014-04-17
+1295503,1295503,Fix Released,nova-compute errors on startup when ironic user isn't registered in keystone,https://bugs.launchpad.net/ironic/+bug/1295503,2014-04-17
+1294288,1294288,Fix Released,Drivers which do not implement the rescue interface should not report it as supported,https://bugs.launchpad.net/ironic/+bug/1294288,2014-04-17
+1291509,1291509,Fix Released,conductor logs expected exceptions,https://bugs.launchpad.net/ironic/+bug/1291509,2014-04-17
+1291056,1291056,Fix Released,Can not delete a node while waiting for deploy,https://bugs.launchpad.net/ironic/+bug/1291056,2014-04-17
+1285507,1285507,Fix Released,Improve Ironic Conductor threading & locks,https://bugs.launchpad.net/ironic/+bug/1285507,2014-04-17
+1276393,1276393,Fix Released,Changing a Port's MAC address doesn't take a lock on the Node,https://bugs.launchpad.net/ironic/+bug/1276393,2014-04-17
+1264596,1264596,Fix Released,IPMI set_boot_device is not called or tested,https://bugs.launchpad.net/ironic/+bug/1264596,2014-04-17
+1297937,1297937,Fix Released,"Nova ironic driver ignores the ""swap"" field from flavor",https://bugs.launchpad.net/ironic/+bug/1297937,2014-04-17
+1294389,1294389,Fix Released,Incorrect version string and utils,https://bugs.launchpad.net/ironic/+bug/1294389,2014-04-17
+1281025,1281025,Fix Released,LIBVIRT_DEFAULT_URI is not set in SSH driver,https://bugs.launchpad.net/ironic/+bug/1281025,2014-04-17
+1271854,1271854,Fix Released,sqlite-uniques-for-nodes-table,https://bugs.launchpad.net/ironic/+bug/1271854,2014-04-17
+1261398,1261398,Fix Released,Rework API tests to not POST data when creating a resource,https://bugs.launchpad.net/ironic/+bug/1261398,2014-04-17
+1269498,1269498,Fix Released,use oslo.rootwrap library instead of copying from oslo-incubator,https://bugs.launchpad.net/neutron/+bug/1269498,2014-04-17
+1269498,1269498,Fix Released,use oslo.rootwrap library instead of copying from oslo-incubator,https://bugs.launchpad.net/ironic/+bug/1269498,2014-04-17
+1282517,1282517,Fix Released,GET v1/nodes retuning the maintenance field,https://bugs.launchpad.net/ironic/+bug/1282517,2014-04-17
+1280064,1280064,Fix Released,ironic.conf.sample missing options from common.service,https://bugs.launchpad.net/ironic/+bug/1280064,2014-04-17
+1277062,1277062,Fix Released,manager's get_node_power_state is unused,https://bugs.launchpad.net/ironic/+bug/1277062,2014-04-17
+1274762,1274762,Fix Released,HashRing does not handle invalid inputs,https://bugs.launchpad.net/ironic/+bug/1274762,2014-04-17
+1273452,1273452,Fix Released,mock's return value for processutils.ssh_execute is incorrect,https://bugs.launchpad.net/ironic/+bug/1273452,2014-04-17
+1271291,1271291,Fix Released,Consolidate get_*nodes* functions,https://bugs.launchpad.net/ironic/+bug/1271291,2014-04-17
+1271283,1271283,Fix Released,Clean up unused exceptions,https://bugs.launchpad.net/ironic/+bug/1271283,2014-04-17
+1270146,1270146,Fix Released,"Default value of JSONEncodedDict columns should be { } instead of ""{ }""",https://bugs.launchpad.net/ironic/+bug/1270146,2014-04-17
+1282481,1282481,Fix Released,config generator returns wrong value for CONF.host parameter,https://bugs.launchpad.net/ironic/+bug/1282481,2014-04-17
+1275812,1275812,Fix Released,API tests not checking the return code,https://bugs.launchpad.net/ironic/+bug/1275812,2014-04-17
+1272741,1272741,Fix Released,default ramdisk & kernel don't make sense,https://bugs.launchpad.net/ironic/+bug/1272741,2014-04-17
+1272596,1272596,Fix Released,wrong HTTP response code for POST,https://bugs.launchpad.net/ironic/+bug/1272596,2014-04-17
+1272500,1272500,Fix Released,Newer version of SQLite (>=3.7.16) cause some of our tests to fail,https://bugs.launchpad.net/nova/+bug/1272500,2014-04-17
+1272500,1272500,Fix Released,Newer version of SQLite (>=3.7.16) cause some of our tests to fail,https://bugs.launchpad.net/ironic/+bug/1272500,2014-04-17
+1272428,1272428,Fix Released,Replace mock.assert_not_called() with self.assertFalse(mock.called) in unit tests,https://bugs.launchpad.net/ironic/+bug/1272428,2014-04-17
+1272045,1272045,Fix Released,SSH and PXE validate() methods doens't check whether node has a port associated with it or not,https://bugs.launchpad.net/ironic/+bug/1272045,2014-04-17
+1271554,1271554,Fix Released,Resources patch() not capturing all the exceptions raised by jsonpatch,https://bugs.launchpad.net/ironic/+bug/1271554,2014-04-17
+1271243,1271243,Fix Released,common.utils.mkfs() needs to run as root,https://bugs.launchpad.net/ironic/+bug/1271243,2014-04-17
+1270981,1270981,Fix Released,Remove pxe_deploy_timeout option,https://bugs.launchpad.net/ironic/+bug/1270981,2014-04-17
+1270160,1270160,Fix Released,Inconsistence in what is returned by the Ironic API when setting the power or provision states,https://bugs.launchpad.net/ironic/+bug/1270160,2014-04-17
+1260414,1260414,Fix Released,SSHPower driver does not handle VMware ESXi,https://bugs.launchpad.net/ironic/+bug/1260414,2014-04-17
+1238311,1238311,Fix Released,Make nova baremetal support ephemeral disks,https://bugs.launchpad.net/tripleo/+bug/1238311,2014-04-17
+1238311,1238311,Fix Released,Make nova baremetal support ephemeral disks,https://bugs.launchpad.net/ironic/+bug/1238311,2014-04-17
+1238311,1238311,Fix Released,Make nova baremetal support ephemeral disks,https://bugs.launchpad.net/nova/+bug/1238311,2014-04-17
+1238167,1238167,Fix Released,node-create does not validate driver,https://bugs.launchpad.net/ironic/+bug/1238167,2014-04-17
+1286053,1286053,Fix Released,PXE deploy_utils.deploy() failing silently,https://bugs.launchpad.net/ironic/+bug/1286053,2014-04-17
+1284136,1284136,Fix Released,PXE driver can fail continue deploy when_sync_power_states() is running,https://bugs.launchpad.net/ironic/+bug/1284136,2014-04-17
+1279992,1279992,Fix Released,py26 unit tests failing to load fake_pxe driver,https://bugs.launchpad.net/ironic/+bug/1279992,2014-04-17
+1279206,1279206,Fix Released,ironic-api is single threaded,https://bugs.launchpad.net/ironic/+bug/1279206,2014-04-17
+1260099,1260099,Fix Released,Can not take a node offline for maintenance,https://bugs.launchpad.net/ironic/+bug/1260099,2014-04-17
+1259910,1259910,Fix Released,race condition when changing node states,https://bugs.launchpad.net/ironic/+bug/1259910,2014-04-17
+1250348,1250348,Fix Released,Update node reservation by user causes unbreakable lock,https://bugs.launchpad.net/ironic/+bug/1250348,2014-04-17
+1287307,1287307,Fix Released,Updating node fails after the machine is deployed,https://bugs.launchpad.net/ironic/+bug/1287307,2014-04-17
+1273455,1273455,Fix Released,"stevedore 0.14 changes _load_plugins parameter list, mocking breaks",https://bugs.launchpad.net/ironic/+bug/1273455,2014-04-17
+1273455,1273455,Fix Released,"stevedore 0.14 changes _load_plugins parameter list, mocking breaks",https://bugs.launchpad.net/ceilometer/+bug/1273455,2014-04-17
+1273455,1273455,Fix Released,"stevedore 0.14 changes _load_plugins parameter list, mocking breaks",https://bugs.launchpad.net/nova/+bug/1273455,2014-04-17
+1270986,1270986,Fix Released,PXE'd node may get stuck in DEPLOYING if ramdisk does not POST back,https://bugs.launchpad.net/ironic/+bug/1270986,2014-04-17
+1268810,1268810,Fix Released,use same MANAGER_TOPIC variable for rabbit topic name,https://bugs.launchpad.net/ironic/+bug/1268810,2014-04-17
+1266143,1266143,Fix Released,pxe validator display wrong message,https://bugs.launchpad.net/ironic/+bug/1266143,2014-04-17
+1264127,1264127,Fix Released,if MAC address already exists error message does not contains it,https://bugs.launchpad.net/ironic/+bug/1264127,2014-04-17
+1259619,1259619,Fix Released,Inconsistent params names in the API,https://bugs.launchpad.net/ironic/+bug/1259619,2014-04-17
+1259586,1259586,Fix Released,whole objects are passed to functions when uuid would be sufficient,https://bugs.launchpad.net/ironic/+bug/1259586,2014-04-17
+1259527,1259527,Fix Released,Pull latest changes to UOM from Nova,https://bugs.launchpad.net/ironic/+bug/1259527,2014-04-17
+1255621,1255621,Fix Released,ironic.conf.sample should be automatically kept up to date,https://bugs.launchpad.net/ironic/+bug/1255621,2014-04-17
+1251598,1251598,Fix Released,API should makes use of the mandatory option of WSME,https://bugs.launchpad.net/ironic/+bug/1251598,2014-04-17
+1250533,1250533,Fix Released,ironic/common/exception.py wrap_exception method is never used,https://bugs.launchpad.net/ironic/+bug/1250533,2014-04-17
+1234672,1234672,Fix Released,netaddr 0.7.4 got installed on my test enviroment and caused some tests to fail,https://bugs.launchpad.net/ironic/+bug/1234672,2014-04-17
+1271308,1271308,Fix Released,sample config file missing keystone_authtoken section,https://bugs.launchpad.net/ironic/+bug/1271308,2014-04-17
+1268696,1268696,Fix Released,On Ubuntu: /usr/local/bin/ironic-rootwrap: Executable not found: /sbin/iscsiadm,https://bugs.launchpad.net/ironic/+bug/1268696,2014-04-17
+1268674,1268674,Fix Released,ironic-rootwrap: No section: 'Filters',https://bugs.launchpad.net/ironic/+bug/1268674,2014-04-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1064864,1064864,Fix Released,"quota-update doesn't report error,If a user supply invalid key",https://bugs.launchpad.net/nova/+bug/1064864,2013-04-04
+1039628,1039628,Fix Released,compute.HostAPI.get_host_uptime() doesn't pass 'host' to manager,https://bugs.launchpad.net/nova/+bug/1039628,2013-04-04
+996879,996879,Fix Released,"Host ""get"" is case-insensitive while host ""update"" is not",https://bugs.launchpad.net/nova/+bug/996879,2013-04-04
+975589,975589,Fix Released,Improve API logging,https://bugs.launchpad.net/nova/+bug/975589,2013-04-04
+1157439,1157439,Fix Released,adding a fixed ip to instance with quantum replaces existing ip,https://bugs.launchpad.net/nova/+bug/1157439,2013-04-04
+1157412,1157412,Fix Released,QemuImageInfo() can't succeed because QemuImageInfo requires first argument,https://bugs.launchpad.net/nova/+bug/1157412,2013-04-04
+1154843,1154843,Fix Released,resize with cells busted,https://bugs.launchpad.net/nova/+bug/1154843,2013-04-04
+1154755,1154755,Fix Released,console support broken with cells,https://bugs.launchpad.net/nova/+bug/1154755,2013-04-04
+1154707,1154707,Fix Released,simple_tenant_usage should honor stashed instance_type,https://bugs.launchpad.net/nova/+bug/1154707,2013-04-04
+1154473,1154473,Fix Released,Nova no longer reconnects if libvirt is restarted,https://bugs.launchpad.net/nova/+bug/1154473,2013-04-04
+1153975,1153975,Fix Released,Hyper-V nova plugin is not returning connector information correctly,https://bugs.launchpad.net/nova/+bug/1153975,2013-04-04
+1153414,1153414,Fix Released,vfs/guestfs raising TypeErrors,https://bugs.launchpad.net/nova/+bug/1153414,2013-04-04
+1152958,1152958,Fix Released,os-fixed-ips api does not take care deleted ip address,https://bugs.launchpad.net/nova/+bug/1152958,2013-04-04
+1152792,1152792,Fix Released,automatic confirmation after resize fails,https://bugs.launchpad.net/nova/+bug/1152792,2013-04-04
+1152546,1152546,Fix Released,correct db upgrade column value,https://bugs.launchpad.net/nova/+bug/1152546,2013-04-04
+1152371,1152371,Fix Released,Make nova-all start conductor,https://bugs.launchpad.net/nova/+bug/1152371,2013-04-04
+1147387,1147387,Fix Released,trying to delete an instance in 'RESIZE' state fails,https://bugs.launchpad.net/nova/+bug/1147387,2013-04-04
+1146000,1146000,Fix Released,lazy load 'system_metadata' error in nova-network,https://bugs.launchpad.net/nova/+bug/1146000,2013-04-04
+1145426,1145426,Fix Released,quantum security_group driver queries db regression,https://bugs.launchpad.net/nova/+bug/1145426,2013-04-04
+1140119,1140119,Fix Released,Remaining instance['instance_type'] uses should be removed,https://bugs.launchpad.net/nova/+bug/1140119,2013-04-04
+1138184,1138184,Fix Released,Scheduler selects deleted baremetal nodes,https://bugs.launchpad.net/nova/+bug/1138184,2013-04-04
+1137977,1137977,Fix Released,"""nova-manage db archive_deleted_rows"" returns error re foreign key constraints",https://bugs.launchpad.net/nova/+bug/1137977,2013-04-04
+1136768,1136768,Fix Released,"Confirm migration fails when executed with ""nova migrate"" instead of ""nova resize""",https://bugs.launchpad.net/nova/+bug/1136768,2013-04-04
+1136430,1136430,Fix Released,Live migration fails with error in compute_capabilities_filter,https://bugs.launchpad.net/nova/+bug/1136430,2013-04-04
+1134512,1134512,Fix Released,"Network api changed, deprecated api not kept compatable",https://bugs.launchpad.net/nova/+bug/1134512,2013-04-04
+1133572,1133572,Fix Released,rescue is broken with no-db-compute,https://bugs.launchpad.net/nova/+bug/1133572,2013-04-04
+1133204,1133204,Fix Released,Evacuate targets wrong host when calling rebuild,https://bugs.launchpad.net/nova/+bug/1133204,2013-04-04
+1133056,1133056,Fix Released,nova/tests/fakelibvirt.py fails because it doesn't import time,https://bugs.launchpad.net/nova/+bug/1133056,2013-04-04
+1132935,1132935,Fix Released,instance actions doesn't work with cells,https://bugs.launchpad.net/nova/+bug/1132935,2013-04-04
+1132739,1132739,Fix Released,Add a namespace prefix to glance hardware properties used by libvirt,https://bugs.launchpad.net/nova/+bug/1132739,2013-04-04
+1132138,1132138,Fix Released,Unused kernels and ramdisks not removed by libvirt image cache manager,https://bugs.launchpad.net/nova/+bug/1132138,2013-04-04
+1131913,1131913,Fix Released,boot from volume - invalid flow in libvirt driver,https://bugs.launchpad.net/nova/+bug/1131913,2013-04-04
+1131768,1131768,Fix Released,libguestfs: update to use Nova's libvirt URI,https://bugs.launchpad.net/nova/+bug/1131768,2013-04-04
+1131588,1131588,Fix Released,virt drivers' resume_state_on_host_boot don't handle migrating instances,https://bugs.launchpad.net/nova/+bug/1131588,2013-04-04
+1131358,1131358,Fix Released,LibvirtHybridOVSBridgeDriver crashes when spawning an instance with NoopFirewallDriver,https://bugs.launchpad.net/nova/+bug/1131358,2013-04-04
+1131264,1131264,Fix Released,Crash in quantumapi if neither port or network are not specified in request,https://bugs.launchpad.net/nova/+bug/1131264,2013-04-04
+1129519,1129519,Fix Released,ComputeManager running_deleted_instances doesn't support instance uuids,https://bugs.launchpad.net/nova/+bug/1129519,2013-04-04
+1124441,1124441,Fix Released,config drive not created when booting from volume,https://bugs.launchpad.net/nova/+bug/1124441,2013-04-04
+1123274,1123274,Fix Released,Unable to pre-create chardev file when booting from volume,https://bugs.launchpad.net/nova/+bug/1123274,2013-04-04
+1114633,1114633,Fix Released,baremetal deploy helper wastes nova-compute host pagecache,https://bugs.launchpad.net/nova/+bug/1114633,2013-04-04
+1108975,1108975,Fix Released,nova list does not show floating-ip (quantum enabled devstack),https://bugs.launchpad.net/nova/+bug/1108975,2013-04-04
+1090016,1090016,Fix Released,Database deadlocks not handled,https://bugs.launchpad.net/nova/+bug/1090016,2013-04-04
+1083424,1083424,Fix Released,ephemeral devices on LVM don't get mkfs'd,https://bugs.launchpad.net/nova/+bug/1083424,2013-04-04
+1155950,1155950,Fix Released,libvirt vif get_config interface broken,https://bugs.launchpad.net/nova/+bug/1155950,2013-04-04
+1155783,1155783,Fix Released,XenServer fails to fetch images,https://bugs.launchpad.net/nova/+bug/1155783,2013-04-04
+1151012,1151012,Fix Released,grizzly uses FQDN for services,https://bugs.launchpad.net/nova/+bug/1151012,2013-04-04
+1148614,1148614,Fix Released,Reboot with bad volume fails ungracefully,https://bugs.launchpad.net/nova/+bug/1148614,2013-04-04
+1147839,1147839,Fix Released,migration 153 creates deleted=NULL columns,https://bugs.launchpad.net/nova/+bug/1147839,2013-04-04
+1128574,1128574,Fix Released,os-cloudBuild timed out (after 30 minutes),https://bugs.launchpad.net/nova/+bug/1128574,2013-04-04
+1098380,1098380,Fix Released,Quotas showing in use when no VMs are running,https://bugs.launchpad.net/nova/+bug/1098380,2013-04-04
+1102400,1102400,Fix Released,venv setup fails with testtools == 0.9.25,https://bugs.launchpad.net/nova/+bug/1102400,2013-04-04
+1102400,1102400,Fix Released,venv setup fails with testtools == 0.9.25,https://bugs.launchpad.net/glance/+bug/1102400,2013-04-04
+1102346,1102346,Fix Released,nova crashes due to referring to a undefined variable,https://bugs.launchpad.net/nova/+bug/1102346,2013-04-04
+1102280,1102280,Fix Released,"""nova flavor-create"" command is executed without checking the length of flavorid and name",https://bugs.launchpad.net/nova/+bug/1102280,2013-04-04
+1101587,1101587,Fix Released,KeyError: u'memory_mb_limit' in nova.po,https://bugs.launchpad.net/nova/+bug/1101587,2013-04-04
+1101352,1101352,Fix Released,libvirt: 'instane' typo while adding configdrive,https://bugs.launchpad.net/nova/+bug/1101352,2013-04-04
+1101229,1101229,Fix Released,xenapi: error on volume detach StorageError: Unable to find SR from VBD,https://bugs.launchpad.net/nova/+bug/1101229,2013-04-04
+1101137,1101137,Fix Released,flavor disk size failed to take effect using LVM image backend,https://bugs.launchpad.net/nova/+bug/1101137,2013-04-04
+1101082,1101082,Fix Released,Suspended or paused instances cannot be rebooted,https://bugs.launchpad.net/nova/+bug/1101082,2013-04-04
+1101079,1101079,Fix Released,"Volume remains in ""Detaching"" state if libvirtd goes down during detach volume",https://bugs.launchpad.net/nova/+bug/1101079,2013-04-04
+1101048,1101048,Fix Released,Baremetal pxe driver doesn't delete /tftpboot/{uuid}/*,https://bugs.launchpad.net/nova/+bug/1101048,2013-04-04
+1100866,1100866,Fix Released,[xen] create/update metadata during boot can put instance into ERROR,https://bugs.launchpad.net/nova/+bug/1100866,2013-04-04
+1100598,1100598,Fix Released,"New module ""availability_zones"" using context not follow habbit",https://bugs.launchpad.net/nova/+bug/1100598,2013-04-04
+1100199,1100199,Fix Released,vif-driver of Nova requires Portbindings extension,https://bugs.launchpad.net/nova/+bug/1100199,2013-04-04
+1099399,1099399,Fix Released,services contrib extension fails with 'Service' object has no attribute 'availability_zone',https://bugs.launchpad.net/nova/+bug/1099399,2013-04-04
+1099378,1099378,Fix Released,nova remove-fixed-ip and nova add-fixed-ip not implemented when using quantum,https://bugs.launchpad.net/nova/+bug/1099378,2013-04-04
+1098635,1098635,Fix Released,"filter_scheduler should select from a pool of best hosts, not the single best host",https://bugs.launchpad.net/nova/+bug/1098635,2013-04-04
+1098411,1098411,Fix Released,libvirt compute resume() passes incorrect args when getting domain XML,https://bugs.launchpad.net/nova/+bug/1098411,2013-04-04
+1098116,1098116,Fix Released,nova command of host-descrbe should display vg disk size in xen hypervisor when libvirt_images_type is lvm,https://bugs.launchpad.net/nova/+bug/1098116,2013-04-04
+1098043,1098043,Fix Released,Be patient in test_multiprocess_api while waiting service to be spawned or killed,https://bugs.launchpad.net/nova/+bug/1098043,2013-04-04
+1097931,1097931,Fix Released,baremetal pxe driver logs exception from unlink_without_raise,https://bugs.launchpad.net/nova/+bug/1097931,2013-04-04
+1097830,1097830,Fix Released,typo in nova-manage ServiceCommands,https://bugs.launchpad.net/nova/+bug/1097830,2013-04-04
+1097524,1097524,Fix Released,quantum metadata proxy does not forward IP properly,https://bugs.launchpad.net/nova/+bug/1097524,2013-04-04
+1097524,1097524,Fix Released,quantum metadata proxy does not forward IP properly,https://bugs.launchpad.net/neutron/+bug/1097524,2013-04-04
+1096278,1096278,Fix Released,"""nova show"" not showing instance fault ""details"" for admin",https://bugs.launchpad.net/nova/+bug/1096278,2013-04-04

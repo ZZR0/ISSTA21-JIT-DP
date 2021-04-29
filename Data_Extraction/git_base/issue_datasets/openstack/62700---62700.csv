@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1462365,1462365,Fix Released,"Replace non-standard ""authenticate"" option with Ironic-alike auth_strategy",https://bugs.launchpad.net/ironic-inspector/+bug/1462365,2015-07-09
+1460689,1460689,Fix Released,/v1/continue should return node UUID to support IPA ramdisks,https://bugs.launchpad.net/ironic-inspector/+bug/1460689,2015-07-09
+1439647,1439647,Fix Released,Enhance and enable ramdisk_error,https://bugs.launchpad.net/ironic-inspector/+bug/1439647,2015-07-09
+1439468,1439468,Fix Released,python-openstackclient fails with url localhost,https://bugs.launchpad.net/ironic-inspector/+bug/1439468,2015-07-09
+1439276,1439276,Fix Released,Document how discoverd deals with ports,https://bugs.launchpad.net/ironic-inspector/+bug/1439276,2015-07-09
+1436880,1436880,Fix Released,Delete iptables rules on exit,https://bugs.launchpad.net/ironic-inspector/+bug/1436880,2015-07-09
+1428680,1428680,Fix Released,Proper exceptions for client,https://bugs.launchpad.net/ironic-inspector/+bug/1428680,2015-07-09
+1420281,1420281,Fix Released,Default to overwrite_existing=true,https://bugs.launchpad.net/ironic-inspector/+bug/1420281,2015-07-09
+1415040,1415040,Fix Released,"Resolve {ipmi,ilo,drac}_address if it's a hostname",https://bugs.launchpad.net/ironic-inspector/+bug/1415040,2015-07-09
+1413552,1413552,Fix Released,Introspection results might disappear if list_ports fails,https://bugs.launchpad.net/ironic-inspector/+bug/1413552,2015-07-09
+1410709,1410709,Fix Released,Get rid of thread=False monkey-patching hack,https://bugs.launchpad.net/ironic-inspector/+bug/1410709,2015-07-09
+1410180,1410180,Fix Released,Create official (and supported) CLI,https://bugs.launchpad.net/ironic-inspector/+bug/1410180,2015-07-09
+1404279,1404279,Fix Released,Allow deleting non-matching ports,https://bugs.launchpad.net/ironic-inspector/+bug/1404279,2015-07-09
+1470346,1470346,Fix Released,gate test fails,https://bugs.launchpad.net/ironic-inspector/+bug/1470346,2015-07-09
+1466477,1466477,Fix Released,Switch to pbr,https://bugs.launchpad.net/ironic-inspector/+bug/1466477,2015-07-09
+1465347,1465347,Fix Released,API error reporting is incompatible with what OpenStack does,https://bugs.launchpad.net/ironic-inspector/+bug/1465347,2015-07-09
+1464708,1464708,Fix Released,Move ramdisk out of main tree,https://bugs.launchpad.net/ironic-inspector/+bug/1464708,2015-07-09
+1464707,1464707,Fix Released,Move client out of main tree,https://bugs.launchpad.net/ironic-inspector/+bug/1464707,2015-07-09
+1461252,1461252,Fix Released,edeploy plugin puts too much data in Ironic extra column,https://bugs.launchpad.net/ironic-inspector/+bug/1461252,2015-07-09
+1439971,1439971,Fix Released,Document Kilo state machine usage,https://bugs.launchpad.net/ironic-inspector/+bug/1439971,2015-07-09
+1458932,1458932,Fix Released,functional readonly_cli tests pass with incorrect input,https://bugs.launchpad.net/python-cinderclient/+bug/1458932,2015-07-09
+1210874,1210874,Fix Released,Add convenience print after cinder backup-create,https://bugs.launchpad.net/python-cinderclient/+bug/1210874,2015-07-09
+1210292,1210292,Fix Released,assert_called_anytime clears the callstack,https://bugs.launchpad.net/python-cinderclient/+bug/1210292,2015-07-09
+1472372,1472372,Fix Committed,latest monasca-ui chicklet page doesn't work,https://bugs.launchpad.net/monasca/+bug/1472372,2015-07-09
+1468573,1468573,Fix Released,Tacker pyclient: Format the vnfd-list and vnf-list properly,https://bugs.launchpad.net/tacker/+bug/1468573,2015-07-09
+1463428,1463428,Fix Released,[system_test]Test ha_desctructive_ceph always run with neutron,https://bugs.launchpad.net/fuel/+bug/1463428,2015-07-09
+1385343,1385343,Fix Released,[doc] Remove usage of admin_token,https://bugs.launchpad.net/fuel/+bug/1385343,2015-07-09
+1470550,1470550,Fix Released,[fuel-infra]Add manifests for pip and npm local_mirror,https://bugs.launchpad.net/fuel/+bug/1470550,2015-07-09
+1405604,1405604,Fix Released,Cannot open link in docs: 404 not found,https://bugs.launchpad.net/fuel/+bug/1405604,2015-07-09
+1218475,1218475,Fix Released,ImagesOneServerTestJSON failure in setup not logged,https://bugs.launchpad.net/tempest/+bug/1218475,2015-07-09
+1470535,1470535,Fix Released,tools/xen contains unused files,https://bugs.launchpad.net/devstack/+bug/1470535,2015-07-09
+1459789,1459789,Fix Released,pip-installed python-request breaks SSL/TLS mode,https://bugs.launchpad.net/devstack/+bug/1459789,2015-07-09
+1081524,1081524,Fix Released,Record a list of all actions performed as root via sudo,https://bugs.launchpad.net/devstack/+bug/1081524,2015-07-08
+1460774,1460774,Fix Released,Gate fails on gate-python-cinderclient-pep8,https://bugs.launchpad.net/python-cinderclient/+bug/1460774,2015-07-08
+1453901,1453901,Fix Released,cinderclient --endpoint-type differs from other services os-endpoint-type,https://bugs.launchpad.net/python-cinderclient/+bug/1453901,2015-07-08
+1449444,1449444,Fix Released,findall in cinderclient is inefficient,https://bugs.launchpad.net/python-cinderclient/+bug/1449444,2015-07-08
+1423884,1423884,Fix Released,quota-class-update fails for default class,https://bugs.launchpad.net/python-cinderclient/+bug/1423884,2015-07-08
+1422244,1422244,Fix Released,cinder create with name = 'None'  and without name is ambiguous,https://bugs.launchpad.net/python-cinderclient/+bug/1422244,2015-07-08
+1421433,1421433,Fix Released,Cinder Client insists on fetching a keystone session even if auth_plugin is provided,https://bugs.launchpad.net/python-cinderclient/+bug/1421433,2015-07-08
+1420238,1420238,Fix Released,Wrong import of volume_transfers in v2 client,https://bugs.launchpad.net/python-cinderclient/+bug/1420238,2015-07-08
+1399747,1399747,Fix Released,"bash_completion shows options also when sub-command is ""help""",https://bugs.launchpad.net/python-cinderclient/+bug/1399747,2015-07-08
+1386232,1386232,Fix Released,Incorrect variable in get_volume_api_from_url,https://bugs.launchpad.net/python-cinderclient/+bug/1386232,2015-07-08
+1374211,1374211,Fix Released,Volume not found error occurs when running unmanege/replication-promote/replication-reenable commands with volume name as an argument,https://bugs.launchpad.net/python-cinderclient/+bug/1374211,2015-07-08
+1365273,1365273,Fix Released,Leverage openstack.common.importutils import_class,https://bugs.launchpad.net/python-openstackclient/+bug/1365273,2015-07-08
+1365273,1365273,Fix Released,Leverage openstack.common.importutils import_class,https://bugs.launchpad.net/python-cinderclient/+bug/1365273,2015-07-08
+1365273,1365273,Fix Released,Leverage openstack.common.importutils import_class,https://bugs.launchpad.net/python-neutronclient/+bug/1365273,2015-07-08
+1358926,1358926,Fix Released,client HTTPClient __init__ fails if auth_url None,https://bugs.launchpad.net/python-cinderclient/+bug/1358926,2015-07-08
+1343876,1343876,Fix Released,Intermittent failure in test_cinder_extra_specs_list,https://bugs.launchpad.net/python-cinderclient/+bug/1343876,2015-07-08
+1343844,1343844,Fix Released,Fix typo and repeated docstrings in python cinderclient,https://bugs.launchpad.net/python-cinderclient/+bug/1343844,2015-07-08
+1341424,1341424,Fix Released,Ability to allow metadata to be passed during snapshot create,https://bugs.launchpad.net/python-cinderclient/+bug/1341424,2015-07-08
+1339643,1339643,Fix Released,cinder reset-state should return nonzero when it failed for any volumes,https://bugs.launchpad.net/python-cinderclient/+bug/1339643,2015-07-08
+1333961,1333961,Fix Released,auth plugin ignored,https://bugs.launchpad.net/python-ceilometerclient/+bug/1333961,2015-07-08
+1333961,1333961,Fix Released,auth plugin ignored,https://bugs.launchpad.net/python-cinderclient/+bug/1333961,2015-07-08
+1325773,1325773,Fix Released,support pagination for volume list,https://bugs.launchpad.net/python-cinderclient/+bug/1325773,2015-07-08
+1294178,1294178,Fix Released,Volume.update_readonly_flag is  broken,https://bugs.launchpad.net/python-cinderclient/+bug/1294178,2015-07-08
+1293423,1293423,Fix Released,Volume.resize is broken,https://bugs.launchpad.net/python-cinderclient/+bug/1293423,2015-07-08
+1290956,1290956,Fix Released,Availability zones v2 is not tested and used correctly,https://bugs.launchpad.net/python-cinderclient/+bug/1290956,2015-07-08
+1286314,1286314,Fix Released,Cannot delete volume-type by name,https://bugs.launchpad.net/python-cinderclient/+bug/1286314,2015-07-08
+1286261,1286261,Fix Released,Malformed encryption-type body in test cases,https://bugs.launchpad.net/python-cinderclient/+bug/1286261,2015-07-08
+1284540,1284540,Fix Released,cinderclient cannot delete multiple snapshots,https://bugs.launchpad.net/python-cinderclient/+bug/1284540,2015-07-08
+1280393,1280393,Fix Released,No auth_plugin support after removing RAX_AUTH,https://bugs.launchpad.net/python-cinderclient/+bug/1280393,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/python-saharaclient/+bug/1280033,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/keystone/+bug/1280033,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/python-novaclient/+bug/1280033,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/nova/+bug/1280033,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/neutron/+bug/1280033,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/python-keystoneclient/+bug/1280033,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/python-glanceclient/+bug/1280033,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/heat/+bug/1280033,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/python-ceilometerclient/+bug/1280033,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/python-cinderclient/+bug/1280033,2015-07-08
+1280033,1280033,Fix Released,Remove dependent module py3kcompat,https://bugs.launchpad.net/python-ironicclient/+bug/1280033,2015-07-08
+1276088,1276088,Fix Released,Wrong hint key in volume create function,https://bugs.launchpad.net/python-cinderclient/+bug/1276088,2015-07-08
+1275881,1275881,Fix Released,help strings - write consistent and complete help strings for cinder client,https://bugs.launchpad.net/python-cinderclient/+bug/1275881,2015-07-08
+1267168,1267168,Fix Released,'control_location' required for 'encryption-type-create',https://bugs.launchpad.net/python-cinderclient/+bug/1267168,2015-07-08

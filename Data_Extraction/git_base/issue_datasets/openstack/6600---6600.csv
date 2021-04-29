@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1812962,1812962,Fix Released,OpenShift master nodes scaleup fails with undefined ansible variable,https://bugs.launchpad.net/tripleo/+bug/1812962,2019-06-21
+1811334,1811334,Fix Released,Deployment of multinode all-in-one OpenShift doens't work with CNS,https://bugs.launchpad.net/tripleo/+bug/1811334,2019-06-21
+1815015,1815015,Fix Released,missing 'IronicDefaultNetworkInterface: neutron' inside neutron-ml2-ansible.yaml,https://bugs.launchpad.net/tripleo/+bug/1815015,2019-06-21
+1812632,1812632,Fix Released,Overcloud nova compute docker command failing on nova_cellv2_discover_hosts,https://bugs.launchpad.net/tripleo/+bug/1812632,2019-06-21
+1813014,1813014,Fix Released,nova_cell_v2_discover_host.py issues with python3,https://bugs.launchpad.net/tripleo/+bug/1813014,2019-06-21
+1817794,1817794,Fix Released,heat yaql iterators limit is too low,https://bugs.launchpad.net/tripleo/+bug/1817794,2019-06-21
+1819440,1819440,Fix Released,phase 1 failing on No such file or directory: '/home/stack/tempest',https://bugs.launchpad.net/tripleo/+bug/1819440,2019-06-21
+1820289,1820289,Fix Released,Configure glance-import image_conversion plugin when the glance backend is rbd,https://bugs.launchpad.net/tripleo/+bug/1820289,2019-06-21
+1820342,1820342,Fix Released,keystonemiddleware cache not correclty configured on the undercloud,https://bugs.launchpad.net/tripleo/+bug/1820342,2019-06-21
+1820330,1820330,Fix Released,Undercloud deploy - fail if ctlplane-network not defined in undercloud.conf,https://bugs.launchpad.net/tripleo/+bug/1820330,2019-06-21
+1816469,1816469,Fix Released,"python-pankoclient isn't installed on undercloud by default, making impossible to get list of events",https://bugs.launchpad.net/tripleo/+bug/1816469,2019-06-21
+1823759,1823759,Fix Released,"Don't fail a deployment when configuring external ceph if the ceph-ansible fetch directory is empty, this is OK",https://bugs.launchpad.net/tripleo/+bug/1823759,2019-06-21
+1800457,1800457,Fix Released,Creating Swift log directory fails on dry runs,https://bugs.launchpad.net/tripleo/+bug/1800457,2019-06-21
+1823993,1823993,Fix Released,Standalone role needs to set br-ctlplane MTU,https://bugs.launchpad.net/tripleo/+bug/1823993,2019-06-21
+1815725,1815725,Fix Released,TripleO can list available validations,https://bugs.launchpad.net/tripleo/+bug/1815725,2019-06-21
+1816382,1816382,Fix Released,qemu-img not available in mistral executor,https://bugs.launchpad.net/tripleo/+bug/1816382,2019-06-21
+1817765,1817765,Fix Released,ssh_known_hosts tasks fail in check mode,https://bugs.launchpad.net/tripleo/+bug/1817765,2019-06-21
+1801969,1801969,Fix Released,container build failing on grafana when trying to build,https://bugs.launchpad.net/tripleo/+bug/1801969,2019-06-21
+1814564,1814564,Fix Released,standalone fails if hostname is not properly set and pacemaker is used,https://bugs.launchpad.net/tripleo/+bug/1814564,2019-06-21
+1815814,1815814,Fix Released,Undercloud install fails with http_proxy and 127.0.0.1 NOT in no_proxy,https://bugs.launchpad.net/tripleo/+bug/1815814,2019-06-21
+1816663,1816663,Fix Released,container image prepare doesn't support OVN/ODL,https://bugs.launchpad.net/tripleo/+bug/1816663,2019-06-21
+1833233,1833233,Fix Released,Hostname resolution fails when deploying an Undercloud on OVH cloud,https://bugs.launchpad.net/tripleo/+bug/1833233,2019-06-21
+1756179,1756179,Fix Released,deleting a nova-compute service leaves orphaned records in placement and host mapping,https://bugs.launchpad.net/nova/+bug/1756179,2019-06-21
+1820051,1820051,Fix Released,local install fails on stable/queens with tempest enabled,https://bugs.launchpad.net/devstack/+bug/1820051,2019-06-21
+1825329,1825329,Fix Released,[nova] access to /nova vhost not allowed during limited rollout,https://bugs.launchpad.net/openstack-ansible/+bug/1825329,2019-06-20
+1829993,1829993,Fix Released,tripleo-ci-centos-7-ovb-3ctlr_1comp-featureset035 & featureset001 fail tempest.scenario.test_network_basic_ops,https://bugs.launchpad.net/tripleo/+bug/1829993,2019-06-20
+1792761,1792761,Fix Released,include is marked as deprecated since ansible 2.4,https://bugs.launchpad.net/openstack-ansible/+bug/1792761,2019-06-20
+1832509,1832509,Fix Released,Ceph upgrade failed during minor (Rocky to Rocky) overcloud upgrade,https://bugs.launchpad.net/tripleo/+bug/1832509,2019-06-20
+1802393,1802393,Fix Released,THT deploys manila.conf with deprecated settings for neutron and nova,https://bugs.launchpad.net/tripleo/+bug/1802393,2019-06-20
+1802393,1802393,Fix Released,THT deploys manila.conf with deprecated settings for neutron and nova,https://bugs.launchpad.net/puppet-manila/+bug/1802393,2019-06-20
+1766919,1766919,Fix Released,inspect.getargspec usage is deprecated in python 3,https://bugs.launchpad.net/nova/+bug/1766919,2019-06-19
+1808171,1808171,Fix Committed,TaggedBootDevicesTest.test_tagged_boot_devices intermittently fails waiting for network-vif-plugged event which neutron does not send,https://bugs.launchpad.net/neutron/+bug/1808171,2019-06-19
+1813715,1813715,Fix Released,[L2][scale issue] ovs-agent meets unexpected tunnel lost,https://bugs.launchpad.net/neutron/+bug/1813715,2019-06-19
+1648327,1648327,Fix Released,Name of the key in vnf-show command  to be modified,https://bugs.launchpad.net/tacker/+bug/1648327,2019-06-19
+1782548,1782548,Fix Released,"Misspeling at ""Quick Start in Kolla-Ansible""",https://bugs.launchpad.net/kolla-ansible/+bug/1782548,2019-06-19
+1832293,1832293,Fix Released,Glare Api logs are flooded with debug logs which doesn't contain critical information,https://bugs.launchpad.net/glare/+bug/1832293,2019-06-18
+1832376,1832376,Fix Released,Regression of rabbitmq version,https://bugs.launchpad.net/openstack-ansible/+bug/1832376,2019-06-18
+1577105,1577105,Fix Released,build broken for DIB_RELEASE=xenial element ubuntu,https://bugs.launchpad.net/diskimage-builder/+bug/1577105,2019-06-18
+1831822,1831822,Fix Released,Install OpenStack services in openstackinstallguide,https://bugs.launchpad.net/openstack-manuals/+bug/1831822,2019-06-17
+1810867,1810867,Fix Released,Grafana RPM repository metadata fails GPG signature check,https://bugs.launchpad.net/kolla/+bug/1810867,2019-06-17
+1801038,1801038,Fix Released,Nova compute container broken after upgrade,https://bugs.launchpad.net/kolla/+bug/1801038,2019-06-17
+1797775,1797775,Fix Released,home page is not right,https://bugs.launchpad.net/dragonflow/+bug/1797775,2019-06-16
+1816195,1816195,Fix Released,Wait for iDRAC reset fails,https://bugs.launchpad.net/python-dracclient/+bug/1816195,2019-06-14
+1803341,1803341,Fix Released,Install cluster with provider KVM but without virsh installed provided wrong message,https://bugs.launchpad.net/labs/+bug/1803341,2019-06-14
+1536226,1536226,Fix Released,Not all .po files compiled,https://bugs.launchpad.net/neutron/+bug/1536226,2019-06-14
+1536226,1536226,Fix Released,Not all .po files compiled,https://bugs.launchpad.net/cinder/+bug/1536226,2019-06-14
+1536226,1536226,Fix Released,Not all .po files compiled,https://bugs.launchpad.net/heat/+bug/1536226,2019-06-14
+1536226,1536226,Fix Released,Not all .po files compiled,https://bugs.launchpad.net/nova/+bug/1536226,2019-06-14
+1536226,1536226,Fix Released,Not all .po files compiled,https://bugs.launchpad.net/keystone/+bug/1536226,2019-06-14
+1491317,1491317,Fix Released,[RFE] Add TCP/UDP port forwarding extension to L3,https://bugs.launchpad.net/neutron/+bug/1491317,2019-06-14
+1752792,1752792,Fix Released,Iptables can allow open access to instances in certain situations,https://bugs.launchpad.net/nova/+bug/1752792,2019-06-14
+1823005,1823005,Fix Released,Database check fails when running without haproxy and on a separate host,https://bugs.launchpad.net/kolla-ansible/+bug/1823005,2019-06-14
+1822257,1822257,Fix Released,Cloudkitty horizon module gets  404 from keystone,https://bugs.launchpad.net/kolla-ansible/+bug/1822257,2019-06-14
+1800480,1800480,Fix Released,Prevent restarting service containers when config hasn't changed,https://bugs.launchpad.net/kolla-ansible/+bug/1800480,2019-06-14
+1690843,1690843,Fix Released,"""event_connection"" from group ""database"" is deprecated for removal",https://bugs.launchpad.net/kolla-ansible/+bug/1690843,2019-06-14
+1819361,1819361,Fix Released,kolla-docker module can crash with undefined variable,https://bugs.launchpad.net/kolla-ansible/+bug/1819361,2019-06-14
+1819168,1819168,Fix Released,WSGI message field incorrect,https://bugs.launchpad.net/kolla-ansible/+bug/1819168,2019-06-14
+1778846,1778846,Fix Released,Kolla-Ansible must upgrade to Identity V3 apis for every service,https://bugs.launchpad.net/kolla-ansible/+bug/1778846,2019-06-14
+1820297,1820297,Fix Released,os-ken error when BGP peer goes down,https://bugs.launchpad.net/neutron/+bug/1820297,2019-06-13
+1641750,1641750,Fix Released,PCI devices are sometime not freed after a migration,https://bugs.launchpad.net/nova/+bug/1641750,2019-06-13
+1829854,1829854,Fix Released,volume_type not supported in version 2.72,https://bugs.launchpad.net/python-novaclient/+bug/1829854,2019-06-13
+1824210,1824210,Fix Released,"losesetup, pvdisplay, pvcreate etc commands are not found in cinder create lvm volume group task",https://bugs.launchpad.net/tripleo/+bug/1824210,2019-06-13
+1817656,1817656,Fix Released,"In the volume page, first click the Create Volume button, then cancel, enter any character in the filter box, you can filter out the volumes of the status is creating",https://bugs.launchpad.net/horizon/+bug/1817656,2019-06-12
+1792411,1792411,Fix Released,Unable to create an image with community or shared visibility,https://bugs.launchpad.net/horizon/+bug/1792411,2019-06-12
+1820260,1820260,Fix Released,Network topology graph incorrectly renders instances in non-default availability zone,https://bugs.launchpad.net/horizon/+bug/1820260,2019-06-12
+1821288,1821288,Fix Released,volume_groups view refers to consistency group index page incorrectly,https://bugs.launchpad.net/horizon/+bug/1821288,2019-06-12
+1821835,1821835,Fix Released,"On the trunk Details page, after deleting the trunk, jump to a wrong page.",https://bugs.launchpad.net/horizon/+bug/1821835,2019-06-12
+1822521,1822521,Fix Released,"On the Upload form in container panel, the file is required, but there is no required mark.",https://bugs.launchpad.net/horizon/+bug/1822521,2019-06-12
+1822524,1822524,Fix Released,"on create volume form in volume panel,snapshot_source、image_source and volume_source is not required; but no choose,the error message will shown",https://bugs.launchpad.net/horizon/+bug/1822524,2019-06-12
+1822719,1822719,Fix Released,The policy is not translated on the server group form in the launch instance workflow,https://bugs.launchpad.net/horizon/+bug/1822719,2019-06-12
+1811181,1811181,Fix Released,"In the form to add an interface in router, when we do not select subnet, no error message is shown",https://bugs.launchpad.net/horizon/+bug/1811181,2019-06-12
+1823109,1823109,Fix Released,"On the Edit form under container panel, the file is required, but there is no required mark.",https://bugs.launchpad.net/horizon/+bug/1823109,2019-06-12
+1823130,1823130,Fix Released,The awaiting-transfer status is not translated in volumes panel,https://bugs.launchpad.net/horizon/+bug/1823130,2019-06-12
+1821289,1821289,Fix Released,stein: Sync policy.json files with service projects,https://bugs.launchpad.net/horizon/+bug/1821289,2019-06-12
+1816330,1816330,Fix Released,"Cidr is not marked as required on the Add Rule form, but there will be an error message if you do not filled.",https://bugs.launchpad.net/horizon/+bug/1816330,2019-06-12

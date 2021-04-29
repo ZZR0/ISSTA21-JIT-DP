@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1606613,1606613,Fix Committed,[Upgrade] Octane fuel-restore command changes nailgun password,https://bugs.launchpad.net/fuel/+bug/1606613,2017-04-17
+1679994,1679994,Fix Released,CLI: support detailed in queue list,https://bugs.launchpad.net/zaqar/+bug/1679994,2017-04-17
+1453076,1453076,Fix Released,"Error: Cannot validate PXE bootloader. Some parameters were missing in node's driver_info. Missing are: ['deploy_ramdisk', 'deploy_kernel']",https://bugs.launchpad.net/tripleo/+bug/1453076,2017-04-17
+1630214,1630214,Fix Released,AttributeError: 'GetAtt' object has no attribute 'get',https://bugs.launchpad.net/heat/+bug/1630214,2017-04-17
+1610817,1610817,Fix Released,GET /action_executions should not include 'output' field,https://bugs.launchpad.net/mistral/+bug/1610817,2017-04-17
+1653034,1653034,Fix Released,LB need create lb with vip-network,https://bugs.launchpad.net/octavia/+bug/1653034,2017-04-16
+1450414,1450414,Fix Released,can't get authentication with os-token and os-url,https://bugs.launchpad.net/python-neutronclient/+bug/1450414,2017-04-16
+1682032,1682032,Fix Released,The status_reason always exists,https://bugs.launchpad.net/zun/+bug/1682032,2017-04-14
+1682488,1682488,Fix Released,CI broken by removal of epel from base image,https://bugs.launchpad.net/tripleo/+bug/1682488,2017-04-14
+1648392,1648392,Fix Released,Dashboard: Modal window layout breaks if error message is too large for create/update worbook/workflow,https://bugs.launchpad.net/mistral/+bug/1648392,2017-04-14
+1667939,1667939,Fix Released,Add test for mistral-dashboard action_executions,https://bugs.launchpad.net/mistral/+bug/1667939,2017-04-14
+1661201,1661201,Fix Released,Mistral fails to start in python 3 using kombu driver,https://bugs.launchpad.net/mistral/+bug/1661201,2017-04-14
+1648425,1648425,Fix Released,Remove all internal WF context data from final WF output,https://bugs.launchpad.net/mistral/+bug/1648425,2017-04-14
+1642908,1642908,Fix Released,"The semantical difference between ""on-complete"" and ""on-success"" + ""on-error"" is not documented",https://bugs.launchpad.net/mistral/+bug/1642908,2017-04-14
+1664603,1664603,Fix Released,Mistral unit tests against kombu driver are not being run,https://bugs.launchpad.net/mistral/+bug/1664603,2017-04-14
+1664228,1664228,Fix Released,Coverage job shows 0% coverage for kombu driver,https://bugs.launchpad.net/mistral/+bug/1664228,2017-04-14
+1668523,1668523,Fix Released,Workflow could not be cancelled if definition is deleted,https://bugs.launchpad.net/mistral/+bug/1668523,2017-04-14
+1667174,1667174,Fix Released,Failed to update other project's workflow by admin,https://bugs.launchpad.net/mistral/+bug/1667174,2017-04-14
+1670329,1670329,Fix Released,[quickstart] Some fields missing in the output,https://bugs.launchpad.net/mistral/+bug/1670329,2017-04-14
+1658946,1658946,Fix Released,DBExceptionError when trying to delete a huge number of  executions,https://bugs.launchpad.net/mistral/+bug/1658946,2017-04-14
+1664274,1664274,Fix Released,json default input value not overridden,https://bugs.launchpad.net/mistral/+bug/1664274,2017-04-14
+1674519,1674519,Fix Released,Can not get action list,https://bugs.launchpad.net/mistral/+bug/1674519,2017-04-14
+1679458,1679458,Fix Released,Admin user can not get workflow detail of other tenants,https://bugs.launchpad.net/mistral/+bug/1679458,2017-04-14
+1681819,1681819,Fix Released,Wrong default for COLLECTD_GNOCCHI_VERBOSE,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1681819,2017-04-14
+1663057,1663057,Fix Released,Auto-deletion of datasources fails,https://bugs.launchpad.net/congress/+bug/1663057,2017-04-14
+1662809,1662809,Fix Released,500 error on nova datasource delete,https://bugs.launchpad.net/congress/+bug/1662809,2017-04-14
+1665594,1665594,Fix Released,Not properly unit testing nova.servers_set_meta,https://bugs.launchpad.net/congress/+bug/1665594,2017-04-14
+1674537,1674537,Fix Released,add to cinder_driver encryption and attachment info,https://bugs.launchpad.net/congress/+bug/1674537,2017-04-14
+1599688,1599688,Fix Released,host.py assertion error during NOVA handling of HUP signal,https://bugs.launchpad.net/nova/+bug/1599688,2017-04-14
+1652943,1652943,Fix Released,api-ref: os-server-groups POST description is wrong for policies parameter,https://bugs.launchpad.net/nova/+bug/1652943,2017-04-14
+1654188,1654188,Fix Released,nova compute log misleading config drvie's state,https://bugs.launchpad.net/nova/+bug/1654188,2017-04-14
+1659811,1659811,Fix Released,/v2.1/servers/detail?tenant_id=XX returns unpredictable results,https://bugs.launchpad.net/nova/+bug/1659811,2017-04-14
+1660667,1660667,Fix Released,placement API policy handling uses deprecated fields,https://bugs.launchpad.net/nova/+bug/1660667,2017-04-14
+1660090,1660090,Fix Released,add better explanation to allow_resize_to_same_host,https://bugs.launchpad.net/nova/+bug/1660090,2017-04-14
+1660317,1660317,Fix Released,NotImplementedError for detach_interface in nova-compute during instance deletion,https://bugs.launchpad.net/nova/+bug/1660317,2017-04-14
+1662012,1662012,Fix Released,"column ""allocations.consumer_id"" must appear in the GROUP BY clause or be used in an aggregate function",https://bugs.launchpad.net/nova/+bug/1662012,2017-04-14
+1629371,1629371,Fix Released,libvirt: volume snapshot stacktraces if the qemu guest agent is not available,https://bugs.launchpad.net/nova/+bug/1629371,2017-04-14
+1663036,1663036,Fix Released,api-ref: delete server async postcondition doc is missing some info,https://bugs.launchpad.net/nova/+bug/1663036,2017-04-14
+1663389,1663389,Fix Released,api-ref: POST /flavors says that id is required but it's actually optional,https://bugs.launchpad.net/nova/+bug/1663389,2017-04-14
+1663729,1663729,Fix Released,CellsV1 regression introduced with flavor migration to api database,https://bugs.launchpad.net/nova/+bug/1663729,2017-04-14
+1662146,1662146,Fix Released,api-ref: wrong parameter type of 'network_label' in ips.inc,https://bugs.launchpad.net/nova/+bug/1662146,2017-04-14
+1664334,1664334,Fix Released,CONF.placement.os_interface is not used in nova-status upgrade check,https://bugs.launchpad.net/nova/+bug/1664334,2017-04-14
+1663163,1663163,Fix Released,Improper prompt when update existed resource class,https://bugs.launchpad.net/nova/+bug/1663163,2017-04-14
+1664446,1664446,Fix Released,Misuse of assertTrue in unit tests,https://bugs.launchpad.net/nova/+bug/1664446,2017-04-14
+1664509,1664509,Fix Released,api-ref: POST /servers does not note that bdm:device_name is ignored by libvirt driver,https://bugs.launchpad.net/nova/+bug/1664509,2017-04-14
+1654167,1654167,Fix Released,api-ref:  parameters related deprecated network proxy APIs in limits and quota sets APIs,https://bugs.launchpad.net/nova/+bug/1654167,2017-04-14
+1665145,1665145,Fix Released,enable defaults for 'nova-manage cell_v2 update-cell',https://bugs.launchpad.net/nova/+bug/1665145,2017-04-14
+1658877,1658877,Fix Released,live migration failed with XenServer as hypervisor,https://bugs.launchpad.net/nova/+bug/1658877,2017-04-14
+1658868,1658868,Fix Released,Should raise retry limit exceed error instead of class exist in Placement API,https://bugs.launchpad.net/nova/+bug/1658868,2017-04-14
+1634495,1634495,Fix Released,"nova generate wrong spice channel type 'pty', which should be 'spicevmc'",https://bugs.launchpad.net/nova/+bug/1634495,2017-04-14
+1659485,1659485,Fix Released,Warnings about nova-status.rst and config in Document generation,https://bugs.launchpad.net/nova/+bug/1659485,2017-04-14
+1581230,1581230,Fix Released,Nova should not inspect cinder volume state during attach,https://bugs.launchpad.net/nova/+bug/1581230,2017-04-14
+1669084,1669084,Fix Released,vendordata v2 will fail on a 204 response,https://bugs.launchpad.net/nova/+bug/1669084,2017-04-14
+1665693,1665693,Fix Released,"""Passing insecure dynamic vendordata requests because of missing or incorrect service account configuration."" warnings all over n-api logs",https://bugs.launchpad.net/nova/+bug/1665693,2017-04-14
+1657585,1657585,Fix Released,HTTP 500 for assisted volume snapshot on shelved instance,https://bugs.launchpad.net/nova/+bug/1657585,2017-04-14
+1653221,1653221,Fix Released,availability_zone field is missing from the service.update notification payload,https://bugs.launchpad.net/nova/+bug/1653221,2017-04-14
+1670522,1670522,Fix Released,TypeError booting instance with libvirt+xen in _create_pty_device with libvirt>=1.3.3,https://bugs.launchpad.net/nova/+bug/1670522,2017-04-14
+1664117,1664117,Fix Released,Error message should not include SQL command,https://bugs.launchpad.net/nova/+bug/1664117,2017-04-14
+1669847,1669847,Fix Released,sample config default values show details of infra worker instead of intended default values,https://bugs.launchpad.net/nova/+bug/1669847,2017-04-14
+1671435,1671435,Fix Released,fdatasync() usage breaks Windows compatibility,https://bugs.launchpad.net/nova/+bug/1671435,2017-04-14
+1665263,1665263,Fix Released,instance.delete notification is missing for unscheduled instance,https://bugs.launchpad.net/nova/+bug/1665263,2017-04-14
+1656781,1656781,Fix Released,api-ref: wrong parameters and missing parameters in os-keypairs.inc,https://bugs.launchpad.net/nova/+bug/1656781,2017-04-14
+1671847,1671847,Fix Released,Incorrect set deprecated flag for notify_on_state_change,https://bugs.launchpad.net/nova/+bug/1671847,2017-04-14
+1659475,1659475,Fix Released,api-ref: wrong parameters in os-aggregates.inc,https://bugs.launchpad.net/nova/+bug/1659475,2017-04-14
+1657998,1657998,Fix Released,Missing information about createImage on Compute API Reference,https://bugs.launchpad.net/nova/+bug/1657998,2017-04-14
+1669433,1669433,Fix Released,nova-status needs to check that placement 1.4 is available for pike,https://bugs.launchpad.net/nova/+bug/1669433,2017-04-14
+1664463,1664463,Fix Released,should not allow delete cell_v2 cell0,https://bugs.launchpad.net/nova/+bug/1664463,2017-04-14
+1673131,1673131,Fix Released,tox -edocs target is broken,https://bugs.launchpad.net/nova/+bug/1673131,2017-04-14
+1671648,1671648,Fix Released,Instances are not rescheduled after deploy fails,https://bugs.launchpad.net/nova/+bug/1671648,2017-04-14
+1673375,1673375,Fix Released,"""ValueError: Circular reference detected"" in send_notification",https://bugs.launchpad.net/nova/+bug/1673375,2017-04-14
+1673593,1673593,Fix Released,api-ref: descriptions for the various host fields in server GET response are useless,https://bugs.launchpad.net/nova/+bug/1673593,2017-04-14
+1635358,1635358,Fix Released,os-volume_attachments APIs requiring os-volumes permissions,https://bugs.launchpad.net/nova/+bug/1635358,2017-04-14
+1674236,1674236,Fix Released,CI / promotion: Nova isn't aware of the nodes that were registered with Ironic,https://bugs.launchpad.net/nova/+bug/1674236,2017-04-14
+1674236,1674236,Fix Released,CI / promotion: Nova isn't aware of the nodes that were registered with Ironic,https://bugs.launchpad.net/tripleo/+bug/1674236,2017-04-14
+1581203,1581203,Fix Released,Default policy allows unrestricted CRUD on os-server-tags,https://bugs.launchpad.net/nova/+bug/1581203,2017-04-14

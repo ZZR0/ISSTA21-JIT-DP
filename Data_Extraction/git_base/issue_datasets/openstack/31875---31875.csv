@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1463558,1463558,Fix Released,devstack waits for user input without any prompt,https://bugs.launchpad.net/networking-odl/+bug/1463558,2016-12-15
+1463549,1463549,Fix Released,syntax error in settings.odl,https://bugs.launchpad.net/networking-odl/+bug/1463549,2016-12-15
+1463544,1463544,Fix Released,tox -e py27 fails with import error,https://bugs.launchpad.net/networking-odl/+bug/1463544,2016-12-15
+1463529,1463529,Fix Released,devstack: OFFLINE=True is ignored,https://bugs.launchpad.net/networking-odl/+bug/1463529,2016-12-15
+1454372,1454372,Fix Released,ImportError: neutron.hooks.setup_hook,https://bugs.launchpad.net/networking-odl/+bug/1454372,2016-12-15
+1454372,1454372,Fix Released,ImportError: neutron.hooks.setup_hook,https://bugs.launchpad.net/neutron/+bug/1454372,2016-12-15
+1454372,1454372,Fix Committed,ImportError: neutron.hooks.setup_hook,https://bugs.launchpad.net/networking-brocade/+bug/1454372,2016-12-15
+1454372,1454372,Fix Committed,ImportError: neutron.hooks.setup_hook,https://bugs.launchpad.net/networking-6wind/+bug/1454372,2016-12-15
+1454372,1454372,Fix Released,ImportError: neutron.hooks.setup_hook,https://bugs.launchpad.net/networking-ovn/+bug/1454372,2016-12-15
+1640844,1640844,Fix Released,neutron stadium: openstack ci: don't run jobs too much. eg. doc only chnage,https://bugs.launchpad.net/networking-odl/+bug/1640844,2016-12-15
+1588011,1588011,Fix Released,neutron stadium evolution: adopt neutron-lib,https://bugs.launchpad.net/networking-odl/+bug/1588011,2016-12-15
+1638446,1638446,Fix Released,neutron stadium: make scenario tests run/pass with gate-tempest-dsvm-networking-odl-boron/carbon-snapshot,https://bugs.launchpad.net/networking-odl/+bug/1638446,2016-12-15
+1634940,1634940,Fix Released,neutron-stadium: stable branch is broken,https://bugs.launchpad.net/networking-odl/+bug/1634940,2016-12-15
+1633243,1633243,Fix Released,neutron stadium: write release notes for newton,https://bugs.launchpad.net/networking-odl/+bug/1633243,2016-12-15
+1632352,1632352,Fix Released,gate-tempest-dsvm-networking-odl-boron-snapshot and etc needs ovs 2.5+,https://bugs.launchpad.net/networking-odl/+bug/1632352,2016-12-15
+1619293,1619293,Fix Released,RFE: make gate-tempest-dsvm-networking-odl-boron/carbon-snapshot voting,https://bugs.launchpad.net/networking-odl/+bug/1619293,2016-12-15
+1588016,1588016,Fix Released,neutron stadium evolution: end-to-end test,https://bugs.launchpad.net/networking-odl/+bug/1588016,2016-12-15
+1450603,1450603,Fix Released,fix ODL upstream CI,https://bugs.launchpad.net/networking-odl/+bug/1450603,2016-12-15
+1615325,1615325,Fix Released,cinder.img mount to wrong device loopback after restart,https://bugs.launchpad.net/openstack-ansible/+bug/1615325,2016-12-15
+1632486,1632486,Fix Released,add debug to tox environment,https://bugs.launchpad.net/nova/+bug/1632486,2016-12-15
+1580552,1580552,Fix Released,Developer Guide: Nova API v2 is deprecated,https://bugs.launchpad.net/nova/+bug/1580552,2016-12-15
+1595575,1595575,Fix Released,The hash of a notification object does not depend on its SCHEMA,https://bugs.launchpad.net/nova/+bug/1595575,2016-12-15
+1634156,1634156,Fix Released,qemu-img convert image incompatability in alpine linux,https://bugs.launchpad.net/nova/+bug/1634156,2016-12-15
+1641413,1641413,Fix Released,Unnecessary db traffic when constructing instance object from db info,https://bugs.launchpad.net/nova/+bug/1641413,2016-12-15
+1639312,1639312,Fix Released,Nova does not validate graphics console addresses,https://bugs.launchpad.net/nova/+bug/1639312,2016-12-15
+1641988,1641988,Fix Released,Math in server migrations API samples doesn't add up,https://bugs.launchpad.net/nova/+bug/1641988,2016-12-15
+1641713,1641713,Fix Released,There is no api-ref for 2.24 and aborting a live migration,https://bugs.launchpad.net/nova/+bug/1641713,2016-12-15
+1642589,1642589,Fix Released,Resource tracker logs at too high level,https://bugs.launchpad.net/nova/+bug/1642589,2016-12-15
+1642681,1642681,Fix Released,"_process_instance_vif_deleted_event fails with ""TypeError: detach_interface() takes exactly 4 arguments (3 given)""",https://bugs.launchpad.net/nova/+bug/1642681,2016-12-15
+1631347,1631347,Fix Released,need add context param to nova's confirm_migration function,https://bugs.launchpad.net/nova/+bug/1631347,2016-12-15
+1636157,1636157,Fix Released,os-server-groups uses same policy.json rule for all CRUD operations,https://bugs.launchpad.net/nova/+bug/1636157,2016-12-15
+1642729,1642729,Fix Released,"instances.updated_at should be indexed for ""nova list --changes-since"" queries",https://bugs.launchpad.net/nova/+bug/1642729,2016-12-15
+1639894,1639894,Fix Released,TestInstanceNotificationSample.test_volume_swap_server_with_error is racy,https://bugs.launchpad.net/nova/+bug/1639894,2016-12-15
+1640818,1640818,Fix Released,missing samples from the notification dev-ref,https://bugs.launchpad.net/nova/+bug/1640818,2016-12-15
+1641753,1641753,Fix Released,Feature support matrix should list support for force-completing a live migration,https://bugs.launchpad.net/nova/+bug/1641753,2016-12-15
+1642484,1642484,Fix Released,create/update inventory placement APIs raises HTTP 500 Internal Server Error when int and float type parameters are greater than max limit,https://bugs.launchpad.net/nova/+bug/1642484,2016-12-15
+1646418,1646418,Fix Released,gate-tempest-dsvm-multinode-live-migration-ubuntu-xenial fails constantly,https://bugs.launchpad.net/nova/+bug/1646418,2016-12-15
+1646629,1646629,Fix Released,tox -edocs fails when tox picks python 3.x,https://bugs.launchpad.net/nova/+bug/1646629,2016-12-15
+1611458,1611458,Fix Released,MIgration incorrectly compares None as greater than any time,https://bugs.launchpad.net/nova/+bug/1611458,2016-12-15
+832507,832507,Fix Released,console.log grows indefinitely,https://bugs.launchpad.net/nova/+bug/832507,2016-12-15
+1642485,1642485,Fix Released,create/update respource_provider APIs raises HTTP 500 Internal Server Error when name is greater than 200 characters,https://bugs.launchpad.net/nova/+bug/1642485,2016-12-15
+1647993,1647993,Fix Released,Misuse of assertTrue in a pci device test case,https://bugs.launchpad.net/nova/+bug/1647993,2016-12-15
+1648054,1648054,Fix Released,Upper constraints for 'hacking' lib doesn't work for pep8,https://bugs.launchpad.net/nova/+bug/1648054,2016-12-15
+1647784,1647784,Fix Released,latest devstack fails to start nova-serialproxy,https://bugs.launchpad.net/nova/+bug/1647784,2016-12-15
+1647776,1647776,Fix Released,sriov functional test should avoid starting compute service twice with the same hostname,https://bugs.launchpad.net/nova/+bug/1647776,2016-12-15
+1614578,1614578,Fix Released,Image Metadata API wasn't deprecated after 2.35,https://bugs.launchpad.net/nova/+bug/1614578,2016-12-15
+1648047,1648047,Fix Released,Compute API in Compute API Reference,https://bugs.launchpad.net/nova/+bug/1648047,2016-12-15
+1647697,1647697,Fix Released,When deleting a resource provider in the placement api the rp's associated aggregates are not cleaned up,https://bugs.launchpad.net/nova/+bug/1647697,2016-12-15
+1628368,1628368,Fix Released,nova diagnostics network rx and tx have no units,https://bugs.launchpad.net/nova/+bug/1628368,2016-12-15
+1632856,1632856,Fix Released,Incorrect datatype for Python 3 in api-samples functional test,https://bugs.launchpad.net/nova/+bug/1632856,2016-12-15
+1649403,1649403,Fix Released,nova.tests.functional.notification_sample_tests.test_instance.TestInstanceNotificationSample.test_create_delete_server_with_instance_update randomly fails with ip_addresses not set in notifications,https://bugs.launchpad.net/nova/+bug/1649403,2016-12-15
+1608842,1608842,Fix Released,[api-ref] The 'id' parameters are defined as 'optional' in os-volume_attachments,https://bugs.launchpad.net/nova/+bug/1608842,2016-12-15
+1648663,1648663,Fix Released,Nova instance or other resource tags are allowed as empty string,https://bugs.launchpad.net/nova/+bug/1648663,2016-12-15
+1649944,1649944,Fix Released,api-ref: os-instance-usage-audit-log is not per-tenant,https://bugs.launchpad.net/nova/+bug/1649944,2016-12-15
+1562175,1562175,Fix Released,Pre-auth COPY in versioned_writes can result in a successful COPY that wouldn't have been authorized,https://bugs.launchpad.net/swift/+bug/1562175,2016-12-15
+1647672,1647672,Fix Released,Multinode grenade jobs keeps failing on stable/mitaka due to PyMSQL not being installed on the subnode,https://bugs.launchpad.net/cinder/+bug/1647672,2016-12-15
+1614915,1614915,Fix Released,Glance v2 image update doesn't update image meta-data,https://bugs.launchpad.net/cinder/+bug/1614915,2016-12-15
+1642477,1642477,Fix Released,Original traceback missing during validate_connector failure in volume driver,https://bugs.launchpad.net/cinder/+bug/1642477,2016-12-15
+1641294,1641294,Fix Released,Create a snapshot on a non-host volume,https://bugs.launchpad.net/cinder/+bug/1641294,2016-12-15
+1556902,1556902,Fix Released,Volume creation take more time with increased concurrency,https://bugs.launchpad.net/cinder/+bug/1556902,2016-12-15
+1642983,1642983,Fix Released,cinder v2 API POST volume (create) required parameters is wrong,https://bugs.launchpad.net/cinder/+bug/1642983,2016-12-15
+1501752,1501752,Fix Released,[api-ref]Volume reset status is Admin only,https://bugs.launchpad.net/cinder/+bug/1501752,2016-12-15
+1645506,1645506,Fix Released,Dell SC: Cannot locate  LV primary in all circumstances,https://bugs.launchpad.net/cinder/+bug/1645506,2016-12-15
+1620575,1620575,Fix Released,Delete consisgroup failed when volume type that in group_type  was deleted,https://bugs.launchpad.net/cinder/+bug/1620575,2016-12-15
+1598237,1598237,Fix Released,Block Storage API v2 docs: incorrect delete backup return code,https://bugs.launchpad.net/cinder/+bug/1598237,2016-12-15
+1534350,1534350,Fix Released,snapshot-manage fails with Invalid volume error when parent volume is attached,https://bugs.launchpad.net/cinder/+bug/1534350,2016-12-15
+1498783,1498783,Fix Released,Volume attributes are  incorrect which created by clone a consistency group,https://bugs.launchpad.net/cinder/+bug/1498783,2016-12-15
+1641714,1641714,Fix Released,Replication methods return 500 status code on missing host,https://bugs.launchpad.net/cinder/+bug/1641714,2016-12-15
+1641715,1641715,Fix Released,Wrong replication_status on failed-over failover on IvalidReplicationTarget,https://bugs.launchpad.net/cinder/+bug/1641715,2016-12-15
+1647789,1647789,Fix Released,"RPCVersionCapError: Requested message version, 3.1 is incompatible.  It needs to be equal in major version and less than or equal in minor version as the specified version cap 3.0. in c-vol in grenade jobs",https://bugs.launchpad.net/cinder/+bug/1647789,2016-12-15
+1646675,1646675,Fix Released,cinder-volume-usage-audit throw  type error when specify time,https://bugs.launchpad.net/cinder/+bug/1646675,2016-12-15
+1477805,1477805,Fix Released,Shred is not using ionice,https://bugs.launchpad.net/cinder/+bug/1477805,2016-12-15
+1539112,1539112,Fix Released,EMC ScaleIO: Extend volume doesn't check capacity (thin volume),https://bugs.launchpad.net/cinder/+bug/1539112,2016-12-15
+1600295,1600295,Fix Released,HNAS drivers does not respect pool size limits,https://bugs.launchpad.net/cinder/+bug/1600295,2016-12-15
+1642004,1642004,Fix Released,Cannot add a single compute node (--limit),https://bugs.launchpad.net/kolla-ansible/+bug/1642004,2016-12-15

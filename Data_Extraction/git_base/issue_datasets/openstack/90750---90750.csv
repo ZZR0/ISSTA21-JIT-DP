@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1058353,1058353,Fix Released,sync openstack.common and add remove common.policy,https://bugs.launchpad.net/cinder/+bug/1058353,2013-04-04
+1080898,1080898,Fix Released,create from snapshot failure,https://bugs.launchpad.net/cinder/+bug/1080898,2013-04-04
+1162077,1162077,Fix Released,quantum security group driver nova list shows same group,https://bugs.launchpad.net/nova/+bug/1162077,2013-04-04
+1161479,1161479,Fix Released,Injected files don't work with rescheduling,https://bugs.launchpad.net/nova/+bug/1161479,2013-04-04
+1158920,1158920,Fix Released,don't log rpc timeout in rpc layer,https://bugs.launchpad.net/nova/+bug/1158920,2013-04-04
+1160841,1160841,Fix Released,AZ list API fails if there are disabled services,https://bugs.launchpad.net/nova/+bug/1160841,2013-04-04
+1158679,1158679,Fix Released,get_instance_nw_info() passing wrong parameter to quantum api,https://bugs.launchpad.net/nova/+bug/1158679,2013-04-04
+1157437,1157437,Fix Released,euca-describe-instances  is not optimized and takes 38 seconds for 700 VMs,https://bugs.launchpad.net/nova/+bug/1157437,2013-04-04
+1155381,1155381,Fix Released,List of security groups is not filtered by tenant when quantum SG is enabled,https://bugs.launchpad.net/nova/+bug/1155381,2013-04-04
+1130609,1130609,Fix Released,os-services API extension XML serialization doesn't return the updated_at field,https://bugs.launchpad.net/nova/+bug/1130609,2013-04-04
+1161402,1161402,Fix Released,automatic confirmation after resize still fails,https://bugs.launchpad.net/nova/+bug/1161402,2013-04-04
+1161027,1161027,Fix Released,"nova-network crashes if dhcp_domain = """"",https://bugs.launchpad.net/nova/+bug/1161027,2013-04-04
+1161022,1161022,Fix Released,simply_tenant_usage stack traces due to lacking of flavor metadata,https://bugs.launchpad.net/nova/+bug/1161022,2013-04-04
+1160560,1160560,Fix Released,booting vms via --nic port-id=<> regression,https://bugs.launchpad.net/nova/+bug/1160560,2013-04-04
+1160489,1160489,Fix Released,periodically seeing KeyError: 'old_instance_type_memory_mb' in compute.log,https://bugs.launchpad.net/nova/+bug/1160489,2013-04-04
+1159793,1159793,Fix Released,/servers/<instance-id>/os-security-groups returns an empty list when quantum secgroup proxy is enabled,https://bugs.launchpad.net/nova/+bug/1159793,2013-04-04
+1158935,1158935,Fix Released,TestS3ImageService.test_s3_create_is_public fails on RHEL,https://bugs.launchpad.net/nova/+bug/1158935,2013-04-04
+1158897,1158897,Fix Released,nova compute trying to access db on resize,https://bugs.launchpad.net/nova/+bug/1158897,2013-04-04
+1158352,1158352,Fix Released,nova-manage vm list fails because instance['instance_type'] no longer exists,https://bugs.launchpad.net/nova/+bug/1158352,2013-04-04
+1152426,1152426,Fix Released,vif_type not in  existed instances info_cache cause upgrade from folsom to grizzly fails,https://bugs.launchpad.net/nova/+bug/1152426,2013-04-04
+1129719,1129719,Fix Released,removeFloatingIp action should return 400 rather than 404 when remove an removed floating ip,https://bugs.launchpad.net/nova/+bug/1129719,2013-04-04
+1126078,1126078,Fix Released,vCenter nova compute service fails to start because base_dir_name config not registered but used by vmops.py,https://bugs.launchpad.net/nova/+bug/1126078,2013-04-04
+1126062,1126062,Fix Released,nova.conf.sample missing novncproxy config options,https://bugs.launchpad.net/nova/+bug/1126062,2013-04-04
+1157442,1157442,Fix Released,db.service_update unused join to compute_node,https://bugs.launchpad.net/nova/+bug/1157442,2013-04-04
+1155303,1155303,Fix Released,missing API doc for os-tenant-networks/networks-post-req.json,https://bugs.launchpad.net/nova/+bug/1155303,2013-04-04
+1154597,1154597,Fix Released,nova.conductor.manager should list ComputeHostNotFound as a client exception,https://bugs.launchpad.net/nova/+bug/1154597,2013-04-04
+1154301,1154301,Fix Released,nova.compute.manager should list ConsoleTypeInvalid as a client exception,https://bugs.launchpad.net/nova/+bug/1154301,2013-04-04
+1154117,1154117,Fix Released,Nova hosts API error responses could be improved,https://bugs.launchpad.net/nova/+bug/1154117,2013-04-04
+1152713,1152713,Fix Released,keypair extension doesn't work with xenapi and agent,https://bugs.launchpad.net/nova/+bug/1152713,2013-04-04
+1151064,1151064,Fix Released,archive_deleted_rows default row count is not listed,https://bugs.launchpad.net/nova/+bug/1151064,2013-04-04
+1148734,1148734,Fix Released,boot with volume lacks disk serial number,https://bugs.launchpad.net/nova/+bug/1148734,2013-04-04
+1147879,1147879,Fix Released,Use of BIGINT column type affects testing with sqlite,https://bugs.launchpad.net/nova/+bug/1147879,2013-04-04
+1146510,1146510,Fix Released,Deferred delete tests might fail if periodic cleanup task runs,https://bugs.launchpad.net/nova/+bug/1146510,2013-04-04
+1143466,1143466,Fix Released,Server update timestamp not changed when networks are added or removed,https://bugs.launchpad.net/nova/+bug/1143466,2013-04-04
+1138844,1138844,Fix Released,nova-manage --version doesn't return anything,https://bugs.launchpad.net/nova/+bug/1138844,2013-04-04
+1135506,1135506,Fix Released,Extended server attributes can show wrong hypervisor_hostname,https://bugs.launchpad.net/nova/+bug/1135506,2013-04-04
+1133621,1133621,Fix Released,Improve output of _compare_result in case of errors,https://bugs.launchpad.net/nova/+bug/1133621,2013-04-04
+1133527,1133527,Fix Released,Duplicate forward rules in nova-network,https://bugs.launchpad.net/nova/+bug/1133527,2013-04-04
+1133262,1133262,Fix Released,Unpin PasteDeploy dependency version,https://bugs.launchpad.net/neutron/+bug/1133262,2013-04-04
+1133262,1133262,Fix Released,Unpin PasteDeploy dependency version,https://bugs.launchpad.net/nova/+bug/1133262,2013-04-04
+1133258,1133258,Fix Released,Unpin routes dependency version,https://bugs.launchpad.net/nova/+bug/1133258,2013-04-04
+1133247,1133247,Fix Released,Unpin suds dependency version,https://bugs.launchpad.net/nova/+bug/1133247,2013-04-04
+1133235,1133235,Fix Released,downgrading baremetal db (sqlite) from 004 to 003 does not drop a column added by upgrade,https://bugs.launchpad.net/nova/+bug/1133235,2013-04-04
+1133216,1133216,Fix Released,Unpin cheetah dependency version,https://bugs.launchpad.net/nova/+bug/1133216,2013-04-04
+1131542,1131542,Fix Released,Image filter does not work for vmware compute driver,https://bugs.launchpad.net/nova/+bug/1131542,2013-04-04
+1131023,1131023,Fix Released,OSX unit tests intermittently fail due to coverage conflict,https://bugs.launchpad.net/nova/+bug/1131023,2013-04-04
+1130343,1130343,Fix Released,Make use of fakes.py in Snapshots unit tests,https://bugs.launchpad.net/nova/+bug/1130343,2013-04-04
+1130313,1130313,Fix Released,Add snapshot methods to fakes,https://bugs.launchpad.net/nova/+bug/1130313,2013-04-04
+1123540,1123540,Fix Released,nova-novnc does not parse cmd line args in the correct order,https://bugs.launchpad.net/nova/+bug/1123540,2013-04-04
+1092408,1092408,Fix Released,instance metadata isn't deleted when the instance is destroyed,https://bugs.launchpad.net/nova/+bug/1092408,2013-04-04
+1076534,1076534,Fix Released,S3 nova-objectstore does not return error code when deleting or getting not existing object,https://bugs.launchpad.net/nova/+bug/1076534,2013-04-04
+1076023,1076023,Fix Released,Some tests in test_db_api.py do not run as expected,https://bugs.launchpad.net/nova/+bug/1076023,2013-04-04
+1071338,1071338,Fix Released,Volumes Extension doesn't have API Sample testing,https://bugs.launchpad.net/nova/+bug/1071338,2013-04-04
+869877,869877,Fix Released,limits controller does not handle standard methods,https://bugs.launchpad.net/nova/+bug/869877,2013-04-04
+741626,741626,Fix Released,FLAGS.fixed_range is silly,https://bugs.launchpad.net/nova/+bug/741626,2013-04-04
+1156730,1156730,Fix Released,Passing None to RequestContext crashes,https://bugs.launchpad.net/nova/+bug/1156730,2013-04-04
+1155801,1155801,Fix Released,project_id not stored in instance action table,https://bugs.launchpad.net/nova/+bug/1155801,2013-04-04
+1155585,1155585,Fix Released,nova-api running under apache mod_wsgi raises 500,https://bugs.launchpad.net/nova/+bug/1155585,2013-04-04
+1154371,1154371,Fix Released,nova.quota.py uses CONF on module load,https://bugs.launchpad.net/nova/+bug/1154371,2013-04-04
+1154333,1154333,Fix Released,Cells traceback when deleting instance not assigned to cell,https://bugs.launchpad.net/nova/+bug/1154333,2013-04-04
+1154327,1154327,Fix Released,get-vnc-console while in BUILD results in traceback,https://bugs.launchpad.net/nova/+bug/1154327,2013-04-04
+1154292,1154292,Fix Released,run_instance should not traceback if instance is deleted,https://bugs.launchpad.net/nova/+bug/1154292,2013-04-04
+1154280,1154280,Fix Released,baremetal virtual power driver attempts to execute $2 instead of actual command when configured for virsh,https://bugs.launchpad.net/nova/+bug/1154280,2013-04-04
+1154232,1154232,Fix Released,Nova Compute generates stack traces on startup trying to talk to conductor,https://bugs.launchpad.net/nova/+bug/1154232,2013-04-04
+1154138,1154138,Fix Released,Nova aggregate API throws an uncaught exception on invalid host,https://bugs.launchpad.net/nova/+bug/1154138,2013-04-04
+1154093,1154093,Fix Released,vm with multiples user-defined fixed-ips not supported by quantumv2 driver,https://bugs.launchpad.net/nova/+bug/1154093,2013-04-04
+1154089,1154089,Fix Released,nova-manage throws uncaught exception on invalid host/service,https://bugs.launchpad.net/nova/+bug/1154089,2013-04-04
+1154070,1154070,Fix Released,Managers incorrectly being SchedulerDependentManagers,https://bugs.launchpad.net/nova/+bug/1154070,2013-04-04
+1153795,1153795,Fix Released,conductor's quota_commit and quota_rollback don't accept project_id,https://bugs.launchpad.net/nova/+bug/1153795,2013-04-04
+1153429,1153429,Fix Released,Hyper-V live migration fails with attached volumes,https://bugs.launchpad.net/nova/+bug/1153429,2013-04-04
+1152676,1152676,Fix Released,baremetal Virtual_power_driver can return incorrect power status,https://bugs.launchpad.net/nova/+bug/1152676,2013-04-04
+1152328,1152328,Fix Released,default access_ip_* race condition,https://bugs.launchpad.net/nova/+bug/1152328,2013-04-04
+1149526,1149526,Fix Released,Multiple create with return_reservation_id=True fails when using XML,https://bugs.launchpad.net/nova/+bug/1149526,2013-04-04
+1145545,1145545,Fix Released,Don't raise a stack trace when a keypair isn't found,https://bugs.launchpad.net/nova/+bug/1145545,2013-04-04
+1142734,1142734,Fix Released,bdm dict item read as attribute in snapshot_volume_backed,https://bugs.launchpad.net/nova/+bug/1142734,2013-04-04

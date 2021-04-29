@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+970673,970673,Fix Released,Attached Instance should not be visible in volume attachment form,https://bugs.launchpad.net/horizon/+bug/970673,2012-09-27
+966764,966764,Fix Released,show Instance Name instead of ID in Floating IPs list,https://bugs.launchpad.net/horizon/+bug/966764,2012-09-27
+999358,999358,Fix Released,Panel scaffolding import missing dashboard class name,https://bugs.launchpad.net/horizon/+bug/999358,2012-09-27
+994151,994151,Fix Released,api.base returns a default of internalURL instead of using settings.OPENSTACK_ENDPOINT_TYPE,https://bugs.launchpad.net/horizon/+bug/994151,2012-09-27
+988560,988560,Fix Released,Flavor should show root vs ephemeral in launch instance dialog,https://bugs.launchpad.net/horizon/+bug/988560,2012-09-27
+987678,987678,Fix Released,Generated ec2rc.sh does not contain S3_URL,https://bugs.launchpad.net/horizon/+bug/987678,2012-09-27
+981237,981237,Fix Released,Quota infographic should update for selected flavor,https://bugs.launchpad.net/horizon/+bug/981237,2012-09-27
+979443,979443,Fix Released,Admin instance list polls on paused instance,https://bugs.launchpad.net/horizon/+bug/979443,2012-09-27
+979442,979442,Fix Released,Can't terminate a paused instance,https://bugs.launchpad.net/horizon/+bug/979442,2012-09-27
+974916,974916,Fix Released,Instance name not shown on attached volume table row,https://bugs.launchpad.net/horizon/+bug/974916,2012-09-27
+973836,973836,Fix Released,ImportError handling in override mechanism is broken,https://bugs.launchpad.net/horizon/+bug/973836,2012-09-27
+949491,949491,Fix Released,Horizon tenant list call should be cached,https://bugs.launchpad.net/horizon/+bug/949491,2012-09-27
+1001313,1001313,Fix Released,SyntaxError at /auth/login,https://bugs.launchpad.net/horizon/+bug/1001313,2012-09-27
+1001219,1001219,Fix Released,[folsom-1] Missing files in generated tarballs,https://bugs.launchpad.net/horizon/+bug/1001219,2012-09-27
+999360,999360,Fix Released,Template loader chokes if dashboard and panel path components aren't present,https://bugs.launchpad.net/horizon/+bug/999360,2012-09-27
+994297,994297,Fix Released,ec2rc.sh uses internal urls instead of public,https://bugs.launchpad.net/horizon/+bug/994297,2012-09-27
+988633,988633,Fix Released,Editing an image makes it public,https://bugs.launchpad.net/horizon/+bug/988633,2012-09-27
+985844,985844,Fix Released,"image overview has title ""instance overview""",https://bugs.launchpad.net/horizon/+bug/985844,2012-09-27
+1002551,1002551,Fix Released,setup.py bdist fails (breaks deb packaging),https://bugs.launchpad.net/horizon/+bug/1002551,2012-09-27
+996255,996255,Fix Released,unit test failures with mox on Python>=2.7.2,https://bugs.launchpad.net/horizon/+bug/996255,2012-09-27
+981252,981252,Fix Released,Image list truncates at 25 items,https://bugs.launchpad.net/horizon/+bug/981252,2012-09-27
+978896,978896,Fix Released,session fixation vulnerability,https://bugs.launchpad.net/horizon/+bug/978896,2012-09-27
+1053508,1053508,Fix Released,cinder default zone breaks ec2 api,https://bugs.launchpad.net/cinder/+bug/1053508,2012-09-27
+1053502,1053502,Fix Released,cinder-volume-usage-audit does not work,https://bugs.launchpad.net/cinder/+bug/1053502,2012-09-27
+1055693,1055693,Fix Released,Missing require settings in setup.py,https://bugs.launchpad.net/cinder/+bug/1055693,2012-09-27
+1052598,1052598,Fix Released,cinder-manage import DB should check nova DB level,https://bugs.launchpad.net/cinder/+bug/1052598,2012-09-27
+1046353,1046353,Fix Released,query string filter on listings doesn't work,https://bugs.launchpad.net/cinder/+bug/1046353,2012-09-27
+1044399,1044399,Fix Released,Copy image to volume unnecessarily calls ensure_export( ),https://bugs.launchpad.net/cinder/+bug/1044399,2012-09-27
+1044386,1044386,Fix Released,prefix all cinder bins with 'cinder-',https://bugs.launchpad.net/cinder/+bug/1044386,2012-09-27
+1043952,1043952,Fix Released,Invalid GB computation in bootable volume,https://bugs.launchpad.net/cinder/+bug/1043952,2012-09-27
+1039826,1039826,Fix Released,Volume attachment silently fails in current devstack,https://bugs.launchpad.net/cinder/+bug/1039826,2012-09-27
+1052176,1052176,Fix Released,Clean up db.volume_create(),https://bugs.launchpad.net/cinder/+bug/1052176,2012-09-27
+1047195,1047195,Fix Released,rename nova.po => cinder.po,https://bugs.launchpad.net/cinder/+bug/1047195,2012-09-27
+1037622,1037622,Fix Released,NFS driver have some useless return values and commented out code to remove,https://bugs.launchpad.net/cinder/+bug/1037622,2012-09-27
+1037619,1037619,Fix Released,NFS driver exceptions need to be moved to exceptions file,https://bugs.launchpad.net/cinder/+bug/1037619,2012-09-27
+1037422,1037422,Fix Released,no module named mock,https://bugs.launchpad.net/cinder/+bug/1037422,2012-09-27
+1049843,1049843,Fix Released,Set a sane default for 'control_exchange',https://bugs.launchpad.net/cinder/+bug/1049843,2012-09-27
+1039615,1039615,Fix Released,Need to update nova-manage db migration for quotas,https://bugs.launchpad.net/cinder/+bug/1039615,2012-09-27
+1038183,1038183,Fix Released,FLAGS for volume driver tests should not be set in fake_flags file,https://bugs.launchpad.net/cinder/+bug/1038183,2012-09-27
+1023311,1023311,Fix Released,Quotas management is broken,https://bugs.launchpad.net/cinder/+bug/1023311,2012-09-27
+1050135,1050135,Fix Released,etc/cinder/cinder.conf.sample is out of date,https://bugs.launchpad.net/cinder/+bug/1050135,2012-09-27
+1047841,1047841,Fix Released,patch for bug #1008866 is reverted,https://bugs.launchpad.net/cinder/+bug/1047841,2012-09-27
+1043884,1043884,Fix Released,potential bugs found by pylint,https://bugs.launchpad.net/cinder/+bug/1043884,2012-09-27
+1043760,1043760,Fix Released,Service does not start if volumes exist,https://bugs.launchpad.net/cinder/+bug/1043760,2012-09-27
+1036666,1036666,Fix Released,Remove unused imports,https://bugs.launchpad.net/cinder/+bug/1036666,2012-09-27
+1031285,1031285,Fix Released,vm_states referenced but not being imported into scheduler/manager.py,https://bugs.launchpad.net/cinder/+bug/1031285,2012-09-27
+1027774,1027774,Fix Released,pep8 test should skip openstack-common,https://bugs.launchpad.net/cinder/+bug/1027774,2012-09-27
+1026949,1026949,Fix Released,c-vol service unable to start,https://bugs.launchpad.net/cinder/+bug/1026949,2012-09-27
+1014687,1014687,Fix Released,Create Volume snapshot with invalid Volume ID is returning 500 ERROR,https://bugs.launchpad.net/cinder/+bug/1014687,2012-09-27
+1027814,1027814,Fix Released,test_nova_rootwrap fails in Fedora,https://bugs.launchpad.net/cinder/+bug/1027814,2012-09-27
+1023027,1023027,Fix Released,Nova api fails to unpack volume metadata using cinder,https://bugs.launchpad.net/cinder/+bug/1023027,2012-09-27
+968649,968649,Fix Released,deleted volume becomes available,https://bugs.launchpad.net/cinder/+bug/968649,2012-09-27
+968649,968649,Fix Released,deleted volume becomes available,https://bugs.launchpad.net/nova/+bug/968649,2012-09-27
+1022315,1022315,Fix Released,Incorrect content at http://docs.openstack.org/developer/cinder/,https://bugs.launchpad.net/cinder/+bug/1022315,2012-09-27
+1007518,1007518,Fix Released,Lock down test_requires pep8 version in cinder,https://bugs.launchpad.net/cinder/+bug/1007518,2012-09-27
+994177,994177,Fix Released,Remove compute api versions from cinder api,https://bugs.launchpad.net/cinder/+bug/994177,2012-09-27
+1007520,1007520,Fix Released,Lock down test_requires pep8 version in python-cinderclient,https://bugs.launchpad.net/cinder/+bug/1007520,2012-09-27
+1056465,1056465,Fix Released,"rabbit_durable_queues config opt should be boolean, not string",https://bugs.launchpad.net/glance/+bug/1056465,2012-09-27
+1050711,1050711,Fix Released,Log WARNING messages: Overwriting scheme file with..,https://bugs.launchpad.net/glance/+bug/1050711,2012-09-27
+1054388,1054388,Fix Released,running tests leaves running python2.6 processes,https://bugs.launchpad.net/glance/+bug/1054388,2012-09-27
+1052640,1052640,Fix Released,glance-api unresponsive during long-lived I/O-bound operations,https://bugs.launchpad.net/glance/+bug/1052640,2012-09-27
+1038190,1038190,Fix Released,Glance does not send notification for activating an image,https://bugs.launchpad.net/glance/+bug/1038190,2012-09-27
+1037592,1037592,Fix Released,Remove unused imports,https://bugs.launchpad.net/glance/+bug/1037592,2012-09-27
+1044462,1044462,Fix Released,mark metadata encryption key and sql_connection as secret=True,https://bugs.launchpad.net/glance/+bug/1044462,2012-09-27
+1043374,1043374,Fix Released,Log level for middleware should be warn,https://bugs.launchpad.net/glance/+bug/1043374,2012-09-27
+1050034,1050034,Fix Released,support region in the swift store,https://bugs.launchpad.net/glance/+bug/1050034,2012-09-27
+1049634,1049634,Fix Released,Update openstack-common log and setup code,https://bugs.launchpad.net/glance/+bug/1049634,2012-09-27
+1048851,1048851,Fix Released,'queued' images aren't set to 'deleted' when deleted,https://bugs.launchpad.net/glance/+bug/1048851,2012-09-27
+1046593,1046593,Fix Released,glance-control <SERVICE> start as non-privileged user appears to fail but still starts server,https://bugs.launchpad.net/glance/+bug/1046593,2012-09-27
+1046433,1046433,Fix Released,Failed copy-from not reflected in image status,https://bugs.launchpad.net/glance/+bug/1046433,2012-09-27
+1045792,1045792,Fix Released,Glance caching not correctly handling backend failures,https://bugs.launchpad.net/glance/+bug/1045792,2012-09-27
+1045455,1045455,Fix Released,Images API v2 utf-8 tags returned as unicode,https://bugs.launchpad.net/glance/+bug/1045455,2012-09-27
+1043416,1043416,Fix Released,Many functional tests don't call stop_servers after start_servers,https://bugs.launchpad.net/glance/+bug/1043416,2012-09-27
+1041238,1041238,Fix Released,improve glance registry logging,https://bugs.launchpad.net/glance/+bug/1041238,2012-09-27
+1039901,1039901,Fix Released,malformed JSON request body returns 500 error and stack trace,https://bugs.launchpad.net/glance/+bug/1039901,2012-09-27

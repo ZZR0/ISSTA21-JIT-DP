@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1802066,1802066,Fix Released,Swift  config changes are not applied on overcloud update,https://bugs.launchpad.net/tripleo/+bug/1802066,2020-11-06
+1867765,1867765,Fix Released,swift containers are needlessly restarted on redeploy with no config changes,https://bugs.launchpad.net/tripleo/+bug/1867765,2020-11-06
+1712358,1712358,Fix Released,Capability discovery endpoint detection is hardcoded,https://bugs.launchpad.net/python-swiftclient/+bug/1712358,2020-11-06
+1894957,1894957,Fix Released,Ensure dependency packages installed on target hosts/deployed-servers for tripleo-ansible modules to function,https://bugs.launchpad.net/tripleo/+bug/1894957,2020-11-06
+1751932,1751932,Fix Released,replication failback in SolidFire isn't setting portal info properly,https://bugs.launchpad.net/cinder/+bug/1751932,2020-11-06
+1834013,1834013,Fix Released,NetApp SolidFire replication errors,https://bugs.launchpad.net/cinder/+bug/1834013,2020-11-06
+1902052,1902052,Fix Released,Not possible to run validations before 'openstack undercloud upgrade',https://bugs.launchpad.net/tripleo/+bug/1902052,2020-11-06
+1901163,1901163,Fix Released,provider jobs may generate multiple container registries unused afterwards,https://bugs.launchpad.net/tripleo/+bug/1901163,2020-11-06
+1831538,1831538,Fix Released,IDE config drive CDROM doesn't work with q35 machine type,https://bugs.launchpad.net/nova/+bug/1831538,2020-11-06
+1784062,1784062,Fix Released,Instance console data is logged at DEBUG,https://bugs.launchpad.net/nova/+bug/1784062,2020-11-06
+1771700,1771700,Fix Released,nova-lvm tempest job failing with InvalidDiskInfo,https://bugs.launchpad.net/nova/+bug/1771700,2020-11-06
+1764460,1764460,Fix Released,Cannot hard reboot a libvirt instance in error state (mdev query fails),https://bugs.launchpad.net/nova/+bug/1764460,2020-11-06
+1739593,1739593,Fix Released,[OSSA-2018-001] Swapping encrypted volumes can lead to data loss and a possible compute host DOS attack (CVE-2017-18191),https://bugs.launchpad.net/ossa/+bug/1739593,2020-11-06
+1739593,1739593,Fix Released,[OSSA-2018-001] Swapping encrypted volumes can lead to data loss and a possible compute host DOS attack (CVE-2017-18191),https://bugs.launchpad.net/nova/+bug/1739593,2020-11-06
+1735188,1735188,Fix Released,PciDevice UUID field not populated,https://bugs.launchpad.net/nova/+bug/1735188,2020-11-06
+1712460,1712460,Fix Released,nova destroys wrong instance if trying to create a new instance with the same name,https://bugs.launchpad.net/nova/+bug/1712460,2020-11-06
+1683752,1683752,Fix Released,Evacuate API loses the json-schema validation in 2.13,https://bugs.launchpad.net/nova/+bug/1683752,2020-11-06
+1660647,1660647,Fix Released,_cleanup_failed_start aggressively removes local instance files when handling plug_vif failures,https://bugs.launchpad.net/nova/+bug/1660647,2020-11-06
+1648887,1648887,Fix Released,nova host-servers-migrate [hostname] fails,https://bugs.launchpad.net/nova/+bug/1648887,2020-11-06
+1614019,1614019,Fix Released,Instances lose its serial ports during soft-reboot after live-migration,https://bugs.launchpad.net/nova/+bug/1614019,2020-11-06
+1636109,1636109,Fix Released,Reschedule of a virtual machine fails with  'NetworkInfo' object has no 'wait',https://bugs.launchpad.net/nova/+bug/1636109,2020-11-06
+1627134,1627134,Fix Released,libvirt driver stuck deleting online snapshot,https://bugs.launchpad.net/nova/+bug/1627134,2020-11-06
+1890501,1890501,Fix Released,[OSSA-2020-006] Soft reboot after live-migration reverts instance to original source domain XML (CVE-2020-17376),https://bugs.launchpad.net/ossa/+bug/1890501,2020-11-06
+1890501,1890501,Fix Released,[OSSA-2020-006] Soft reboot after live-migration reverts instance to original source domain XML (CVE-2020-17376),https://bugs.launchpad.net/nova/+bug/1890501,2020-11-06
+1902920,1902920,Fix Released,New install package name in Ubuntu 20.04,https://bugs.launchpad.net/openstack-manuals/+bug/1902920,2020-11-06
+1803925,1803925,Fix Released,There is no interface for operators to migrate *all* the existing compute resource providers to be ready for nested providers,https://bugs.launchpad.net/nova/+bug/1803925,2020-11-06
+1778670,1778670,Fix Released,"api-ref: missing traits parameter in the ""List allocation candidates"" API",https://bugs.launchpad.net/nova/+bug/1778670,2020-11-06
+1749410,1749410,Fix Released,placement api-ref unclear if capacity is meant to be total or current,https://bugs.launchpad.net/nova/+bug/1749410,2020-11-06
+1870226,1870226,Fix Released,os-security-groups API policy is allowed for everyone even policy defaults is admin_or_owner,https://bugs.launchpad.net/nova/+bug/1870226,2020-11-06
+1818498,1818498,Fix Released,Placement aggregate creation continues to be unstable under very high load,https://bugs.launchpad.net/nova/+bug/1818498,2020-11-06
+1802925,1802925,Fix Released,Unable to start placement wsgi app without conf file,https://bugs.launchpad.net/nova/+bug/1802925,2020-11-06
+1794712,1794712,Fix Released,doc: document Placement error codes,https://bugs.launchpad.net/nova/+bug/1794712,2020-11-06
+1743120,1743120,Fix Released,placement inadvertently imports many python modules it does not need,https://bugs.launchpad.net/nova/+bug/1743120,2020-11-06
+1729784,1729784,Fix Released,nova-compute.log display incorrect information for CPUPinningUnknown.,https://bugs.launchpad.net/nova/+bug/1729784,2020-11-06
+1627693,1627693,Fix Released,VMware: do not check if inventory folder already exists,https://bugs.launchpad.net/nova/+bug/1627693,2020-11-06
+1805858,1805858,Fix Released,placement/objects/resource_provider.py missing test coverage for several methods,https://bugs.launchpad.net/nova/+bug/1805858,2020-11-06
+1804453,1804453,Fix Released,maximum recursion possible while setting aggregates in placement,https://bugs.launchpad.net/nova/+bug/1804453,2020-11-06
+1792503,1792503,Fix Released,"allocation candidates ""?member_of="" doesn't work with nested providers",https://bugs.launchpad.net/nova/+bug/1792503,2020-11-06
+1771325,1771325,Fix Released,placement trait and inventory handler use nonstandard HTTP error message details,https://bugs.launchpad.net/nova/+bug/1771325,2020-11-06
+1770705,1770705,Fix Released,test_list_servers_by_changes_since_invalid_date fails as HTTP500 on the gate,https://bugs.launchpad.net/nova/+bug/1770705,2020-11-06
+1683651,1683651,Fix Released,Policy.json for nova is removed in stable/ocata but the documentation still refers to editing the file for controlling actions,https://bugs.launchpad.net/nova/+bug/1683651,2020-11-06
+1890064,1890064,Fix Released,CI failture: ImportError: cannot import decorate,https://bugs.launchpad.net/nova/+bug/1890064,2020-11-06
+1890064,1890064,Fix Released,CI failture: ImportError: cannot import decorate,https://bugs.launchpad.net/neutron/+bug/1890064,2020-11-06
+1817633,1817633,Fix Released,Listing placement usages causes a circular reference error,https://bugs.launchpad.net/nova/+bug/1817633,2020-11-06
+1899134,1899134,Fix Released,Instantiation failed in FT,https://bugs.launchpad.net/tacker/+bug/1899134,2020-11-06
+1899112,1899112,Fix Released,vnflcm creattion raises package error,https://bugs.launchpad.net/tacker/+bug/1899112,2020-11-06
+1898963,1898963,Fix Released,creating vnf_instance failed in functional test,https://bugs.launchpad.net/tacker/+bug/1898963,2020-11-06
+1903038,1903038,Fix Released,bindep missing package required for doc sphinx build,https://bugs.launchpad.net/swift/+bug/1903038,2020-11-06
+1841574,1841574,Fix Released,Synology Backend Failed to initialize driver with python3,https://bugs.launchpad.net/cinder/+bug/1841574,2020-11-05
+1842327,1842327,Fix Released,Report in logs when FIP associate and disassociate,https://bugs.launchpad.net/neutron/+bug/1842327,2020-11-04
+1874134,1874134,Fix Released,ONTAP does not support online extend for iSCSI and FCP,https://bugs.launchpad.net/cinder/+bug/1874134,2020-11-04
+1899141,1899141,Fix Released,"Linuxbridge agent NetlinkError: (13, 'Permission denied') after Stein upgrade",https://bugs.launchpad.net/neutron/+bug/1899141,2020-11-04
+1902826,1902826,Fix Released,NUMNA is a mistype of NUMA,https://bugs.launchpad.net/nova/+bug/1902826,2020-11-04
+1888237,1888237,Fix Released,"nova-next job fails as novnc service fails with TypeError: _wrap_socket() argument 1 must be _socket.socket, not GreenSSLSocket",https://bugs.launchpad.net/nova/+bug/1888237,2020-11-04
+1704106,1704106,Fix Released,[SRU] Gathering of thin provisioning stats breaks c-vol,https://bugs.launchpad.net/cinder/+bug/1704106,2020-11-04
+1849548,1849548,Fix Released,Regression in adding octavia to an existing deployment,https://bugs.launchpad.net/tripleo/+bug/1849548,2020-11-04
+1849550,1849550,Fix Released,Scaling out Octavia service nodes has an lb cert issue,https://bugs.launchpad.net/tripleo/+bug/1849550,2020-11-04
+1867061,1867061,Fix Released,Cinder shows a raw python error when using --os-volume-api-version incorrectly,https://bugs.launchpad.net/python-cinderclient/+bug/1867061,2020-11-04
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/watcher/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/cinder/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/networking-sfc/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/networking-bagpipe/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/murano/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/designate/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/manila/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/nova/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/trove/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/glance/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/senlin/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/mistral/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/networking-hyperv/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/masakari/+bug/1863021,2020-11-03
+1863021,1863021,Fix Released,[SRU] eventlet monkey patch results in assert len(_active) == 1 AssertionError,https://bugs.launchpad.net/neutron/+bug/1863021,2020-11-03
+1888886,1888886,Fix Released,Keystone lower-constraints job failure due to PyMySQL==0.10.0,https://bugs.launchpad.net/keystone/+bug/1888886,2020-11-03
+1778644,1778644,Fix Released,Move to python3,https://bugs.launchpad.net/tacker/+bug/1778644,2020-11-03

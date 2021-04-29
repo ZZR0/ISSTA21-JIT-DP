@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1375867,1375867,Fix Released,Inconsistent naming for image reference in create volume API,https://bugs.launchpad.net/cinder/+bug/1375867,2015-04-30
+1358524,1358524,Fix Released,Improve Cinder API cache implementation,https://bugs.launchpad.net/cinder/+bug/1358524,2015-04-30
+1378066,1378066,Fix Released,router-gateway-clear binds router to agents,https://bugs.launchpad.net/neutron/+bug/1378066,2015-04-30
+1268062,1268062,Fix Released,remove unused variables,https://bugs.launchpad.net/cinder/+bug/1268062,2015-04-30
+1370394,1370394,Fix Released,neutron.tests.unit.cisco.test_network_plugin.TestCiscoRouterInterfacesV2XML.test_port_list_filtered_by_router_id failed in gate due to exception logged,https://bugs.launchpad.net/neutron/+bug/1370394,2015-04-30
+1244395,1244395,Fix Released,Cinder API docs don't include Error responses,https://bugs.launchpad.net/cinder/+bug/1244395,2015-04-30
+1402775,1402775,Fix Released,Fix HNAS driver confusing error message,https://bugs.launchpad.net/cinder/+bug/1402775,2015-04-30
+1333475,1333475,Fix Released,ML2 : network filters for provider attributes  don't work,https://bugs.launchpad.net/neutron/+bug/1333475,2015-04-30
+1264579,1264579,Fix Released,Don't execute SQLAlchemy in_ expression when argument is an empty sequence,https://bugs.launchpad.net/neutron/+bug/1264579,2015-04-30
+1393652,1393652,Fix Released,Cgsnapshot APIs should be disabled by default,https://bugs.launchpad.net/cinder/+bug/1393652,2015-04-30
+1432806,1432806,Fix Released,Primary VIP being deleted from L3 HA routers after agent restart,https://bugs.launchpad.net/neutron/+bug/1432806,2015-04-30
+1392792,1392792,Fix Released,iSCSI CHAP credentials length issue,https://bugs.launchpad.net/cinder/+bug/1392792,2015-04-30
+1432785,1432785,Fix Released,L3 HA functional test not cleaning up router,https://bugs.launchpad.net/neutron/+bug/1432785,2015-04-30
+1381464,1381464,Fix Released,Incorrectly formatted debug message in Prophetstor driver,https://bugs.launchpad.net/cinder/+bug/1381464,2015-04-30
+1431627,1431627,Fix Released,Entrypoint should not refer to vendor library,https://bugs.launchpad.net/neutron/+bug/1431627,2015-04-30
+1357075,1357075,Fix Released,3PAR manage volume does not support an id-type of 'source-id',https://bugs.launchpad.net/cinder/+bug/1357075,2015-04-30
+1431105,1431105,Fix Released,dhcp scheduling is racey with first port creation,https://bugs.launchpad.net/neutron/+bug/1431105,2015-04-30
+1356608,1356608,Fix Released,HP 3PAR migrate volume does not support volume-type settings,https://bugs.launchpad.net/cinder/+bug/1356608,2015-04-30
+1430519,1430519,Fix Released,Quota drivers should not throw QuotaResourceUknown,https://bugs.launchpad.net/neutron/+bug/1430519,2015-04-30
+1316540,1316540,Fix Released,DBDuplicateEntry: (IntegrityError)  500 after encryption-type-recreation,https://bugs.launchpad.net/cinder/+bug/1316540,2015-04-30
+1430098,1430098,Fix Released,linuxbridge UTs need more mocking,https://bugs.launchpad.net/neutron/+bug/1430098,2015-04-30
+1291875,1291875,Fix Released,bin/cinder-* scripts are not unit tested,https://bugs.launchpad.net/cinder/+bug/1291875,2015-04-30
+1429968,1429968,Fix Released,In Arista ML2 delete tenant if no resources associated with it,https://bugs.launchpad.net/neutron/+bug/1429968,2015-04-30
+1402806,1402806,Fix Released,Scheduler stats reports stale data,https://bugs.launchpad.net/cinder/+bug/1402806,2015-04-30
+1402790,1402790,Fix Released,Scheduler stats unavailable until after a volume is created,https://bugs.launchpad.net/cinder/+bug/1402790,2015-04-30
+1429753,1429753,Fix Released,Improve performance of security groups rpc-related code,https://bugs.launchpad.net/neutron/+bug/1429753,2015-04-30
+1402115,1402115,Fix Released,3PAR driver hangs on ssh calls with hp3parclient version 3.1.1,https://bugs.launchpad.net/cinder/+bug/1402115,2015-04-30
+1429737,1429737,Fix Released,Do not notify dead DHCP agent about removed network,https://bugs.launchpad.net/neutron/+bug/1429737,2015-04-30
+1401052,1401052,Fix Released,VMware: Attribute error while selecting datastores,https://bugs.launchpad.net/cinder/+bug/1401052,2015-04-30
+1427858,1427858,Fix Released,VPNaaS: Fix UT breakage in neutron-vpnaas,https://bugs.launchpad.net/neutron/+bug/1427858,2015-04-30
+1400832,1400832,Fix Released,Unable to Facilitate Migration from NetApp DFM 7-mode driver,https://bugs.launchpad.net/cinder/+bug/1400832,2015-04-30
+1427793,1427793,Fix Released,Brocade vendor code decomposition from Neutron,https://bugs.launchpad.net/neutron/+bug/1427793,2015-04-30
+1399820,1399820,Fix Released,PureISCSIDriver cannot successfully create a host in Purity,https://bugs.launchpad.net/cinder/+bug/1399820,2015-04-30
+1426586,1426586,Fix Released,Shared firewall_policies are not retrieved correctly,https://bugs.launchpad.net/neutron/+bug/1426586,2015-04-30
+1398651,1398651,Fix Released,3par driver incorrectly reports total capacity and free capacity when cpg limit is not set in 3par,https://bugs.launchpad.net/cinder/+bug/1398651,2015-04-30
+1398401,1398401,Fix Released,cinder scripts must use entry points,https://bugs.launchpad.net/cinder/+bug/1398401,2015-04-30
+1424113,1424113,Fix Released,Add missing db model changes related to nuage plugin,https://bugs.launchpad.net/neutron/+bug/1424113,2015-04-30
+1398293,1398293,Fix Released,VMware: Storage profile non-compliance after retype,https://bugs.launchpad.net/cinder/+bug/1398293,2015-04-30
+1423703,1423703,Fix Released,Updating an active port's MAC address causes l2pop to raise a non-existent exception,https://bugs.launchpad.net/neutron/+bug/1423703,2015-04-30
+1396718,1396718,Fix Released,netapp eseries driver doesnt fail if invalid controller IP is specified,https://bugs.launchpad.net/cinder/+bug/1396718,2015-04-30
+1423571,1423571,Fix Released,l3 agent: need to improve exception handling in _process_router_update(),https://bugs.launchpad.net/neutron/+bug/1423571,2015-04-30
+1394548,1394548,Fix Released,"local variable ""tmp"" tried to use before the assignment",https://bugs.launchpad.net/cinder/+bug/1394548,2015-04-30
+1423244,1423244,Fix Released,"VPN - Peer ID gets additional ""@"" every reload of vpn service",https://bugs.launchpad.net/neutron/+bug/1423244,2015-04-30
+1393916,1393916,Fix Released,Typo in SolidFire retryable errors list,https://bugs.launchpad.net/cinder/+bug/1393916,2015-04-30
+1421497,1421497,Fix Released,Gateway clear generates a TRACE - AttributeError in get_int_device_name in DVR routers,https://bugs.launchpad.net/neutron/+bug/1421497,2015-04-30
+1392063,1392063,Fix Released,PureISCSIDriver needs to not use .format() for log strings,https://bugs.launchpad.net/cinder/+bug/1392063,2015-04-30
+1421465,1421465,Fix Released,lbaas v2 does not expose the vip_port_id,https://bugs.launchpad.net/neutron/+bug/1421465,2015-04-30
+1391205,1391205,Fix Released,EMC VMAX create_cloned_volume() sometimes fails with ERROR_FAMILY_NOT_SUPPORTED,https://bugs.launchpad.net/cinder/+bug/1391205,2015-04-30
+1419815,1419815,Fix Released,Speed up SELECTs with filters by tenant_id,https://bugs.launchpad.net/neutron/+bug/1419815,2015-04-30
+1390383,1390383,Fix Released,Remove lio_initiator_iqns option,https://bugs.launchpad.net/cinder/+bug/1390383,2015-04-30
+1417708,1417708,Fix Released,Improve logic that determines liveliness of dhcp agent,https://bugs.launchpad.net/neutron/+bug/1417708,2015-04-30
+1386650,1386650,Fix Released,"gpfs driver volume attribute settings missing in create_cloned_volume, create_volume_from_snapshot",https://bugs.launchpad.net/cinder/+bug/1386650,2015-04-30
+1410982,1410982,Fix Released,test_slaac_from_os frequent failures,https://bugs.launchpad.net/neutron/+bug/1410982,2015-04-30
+1380602,1380602,Fix Released,"VMware: volume create fails with  ""VimFaultException: Unable to access the virtual machine configuration""",https://bugs.launchpad.net/cinder/+bug/1380602,2015-04-30
+1406705,1406705,Fix Released,Unscheduling a router(HA/legacy) from an agent not scheduled for that router causes an error.,https://bugs.launchpad.net/neutron/+bug/1406705,2015-04-30
+1376839,1376839,Fix Released,"Cinder stacktracing on ""InvalidInput: Invalid input received""",https://bugs.launchpad.net/cinder/+bug/1376839,2015-04-30
+1405413,1405413,Fix Released,VPN IPSec connection with fqdn not possible,https://bugs.launchpad.net/neutron/+bug/1405413,2015-04-30
+1376199,1376199,Fix Released,cinder backup service should change backup & volume status  in absence of swift service,https://bugs.launchpad.net/cinder/+bug/1376199,2015-04-30
+1372808,1372808,Fix Released,Hyper-V unable to find iSCSI volumes from NetApp,https://bugs.launchpad.net/cinder/+bug/1372808,2015-04-30
+1370098,1370098,Fix Released,NetApp Eseries - Migration not working correctly,https://bugs.launchpad.net/cinder/+bug/1370098,2015-04-30
+1402698,1402698,Fix Released,Deleting an HA router with interfaces attached leaves the DB in an inconsistent state,https://bugs.launchpad.net/neutron/+bug/1402698,2015-04-30
+1368972,1368972,Fix Released,HP 3PAR: Extra-specs snap_cpg is ignored if there is no extra-specs cpg,https://bugs.launchpad.net/cinder/+bug/1368972,2015-04-30
+1402010,1402010,Fix Released,L3 HA state transitions raceful; Metadata proxy not always opened and closed correctly,https://bugs.launchpad.net/neutron/+bug/1402010,2015-04-30
+1398865,1398865,Fix Released,DVR code can add duplicate routing rules,https://bugs.launchpad.net/neutron/+bug/1398865,2015-04-30
+1286245,1286245,Fix Released,mock in test_backup_ceph causes other tests to fail,https://bugs.launchpad.net/cinder/+bug/1286245,2015-04-30
+1378468,1378468,Fix Released,DBDuplicateError found sometimes when router_interface_delete issued with DVR,https://bugs.launchpad.net/neutron/+bug/1378468,2015-04-30
+1398875,1398875,Fix Released,scheduler fails to handle empty capabilities,https://bugs.launchpad.net/cinder/+bug/1398875,2015-04-30
+1398488,1398488,Fix Released,CONF.ssh_hosts_key_file was referenced before it was retrieved,https://bugs.launchpad.net/cinder/+bug/1398488,2015-04-30
+1373634,1373634,Fix Released,ML2 plugin bulk operations require multiple notifications being sent for sec group member updates,https://bugs.launchpad.net/neutron/+bug/1373634,2015-04-30
+1394396,1394396,Fix Released,cinder.sample.conf gets out of sync every time a dependency changes,https://bugs.launchpad.net/cinder/+bug/1394396,2015-04-30
+1370361,1370361,Fix Released,Neutron need to reduce number of network db calls during get_devices_details_list,https://bugs.launchpad.net/neutron/+bug/1370361,2015-04-30
+1390081,1390081,Fix Released,brick's lvm thin pool creation is broken,https://bugs.launchpad.net/cinder/+bug/1390081,2015-04-30
+1351135,1351135,Fix Released,"ovs_dead, ovs-agent booting up code should exit graceful",https://bugs.launchpad.net/neutron/+bug/1351135,2015-04-30
+1334292,1334292,Fix Released,fdb entries may contains inactive port,https://bugs.launchpad.net/neutron/+bug/1334292,2015-04-30
+1386902,1386902,Fix Released,TGT and ISER Fail When volume name Is Not In provider_location,https://bugs.launchpad.net/cinder/+bug/1386902,2015-04-30

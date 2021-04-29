@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1837703,1837703,Fix Released,"Cinder Rocky, Stein, and Train are running wrong online-data-migrations",https://bugs.launchpad.net/cinder/+bug/1837703,2020-05-20
+1869160,1869160,Fix Released,Request id in Cinder logs is changed when creating boot volume,https://bugs.launchpad.net/cinder/+bug/1869160,2020-05-20
+1879301,1879301,Fix Released,[OVN] networking-ovn-tempest-dsvm-ovs-release-python2 job starts to fail on tempest py2 installation,https://bugs.launchpad.net/neutron/+bug/1879301,2020-05-20
+1878540,1878540,Fix Released,[Train] certificate verify failed for Zaqar websocket when importing baremetal nodes,https://bugs.launchpad.net/tripleo/+bug/1878540,2020-05-20
+1838449,1838449,Fix Released,Router migrations failing in the gate,https://bugs.launchpad.net/neutron/+bug/1838449,2020-05-20
+1843464,1843464,Fix Released,TOTP previous windows passcode test fails intermittently,https://bugs.launchpad.net/keystone/+bug/1843464,2020-05-20
+1869707,1869707,Fix Released,Unit test error on aarch64,https://bugs.launchpad.net/nova/+bug/1869707,2020-05-19
+1878615,1878615,Fix Released,Pre-fetching images can fail if there are registry issues,https://bugs.launchpad.net/tripleo/+bug/1878615,2020-05-19
+1873081,1873081,Fix Released,ceph-ansible preparation tasks with no permission to read files in /var/lib/mistral,https://bugs.launchpad.net/tripleo/+bug/1873081,2020-05-19
+1857003,1857003,Fix Released,Bare Metal Node States in tripleo-docs,https://bugs.launchpad.net/tripleo/+bug/1857003,2020-05-19
+1878317,1878317,Fix Released,pep8 error caused by hacking version < 3.0.1,https://bugs.launchpad.net/nova/+bug/1878317,2020-05-19
+1816543,1816543,Fix Released,nova service-delete report  ComputeHostNotFound when delete compute service after I delete  other nova service on the same compute node,https://bugs.launchpad.net/nova/+bug/1816543,2020-05-19
+1875330,1875330,Fix Released,'vnf package list --exclude_default' do not display expected fields in command output,https://bugs.launchpad.net/python-tackerclient/+bug/1875330,2020-05-19
+1877574,1877574,Fix Released,"""Rescue Instance"" option is visible to all roles on instances in the Admin/Project section",https://bugs.launchpad.net/horizon/+bug/1877574,2020-05-19
+1866202,1866202,Fix Released,OVB on centos8 fails because of networking failures,https://bugs.launchpad.net/tripleo/+bug/1866202,2020-05-19
+1854049,1854049,Fix Released,kolla_ansible python module check is non-fatal,https://bugs.launchpad.net/kolla-ansible/+bug/1854049,2020-05-19
+1845629,1845629,Fix Released,Fluentd config incorrectly parses MariaDB logs,https://bugs.launchpad.net/kolla-ansible/+bug/1845629,2020-05-19
+1850792,1850792,Fix Released,wrong access to external mariadb cluster,https://bugs.launchpad.net/kolla-ansible/+bug/1850792,2020-05-19
+1851249,1851249,Fix Released,Variable supported_policy_files contains mangled filenames under python 3.7,https://bugs.launchpad.net/kolla-ansible/+bug/1851249,2020-05-19
+1850711,1850711,Fix Released,Cron job for key rotation not running in keystone_fernet container for source images,https://bugs.launchpad.net/kolla-ansible/+bug/1850711,2020-05-19
+1851594,1851594,Fix Released,mariadb_recovery didn't set restart policy when recreate mariadb container.,https://bugs.launchpad.net/kolla-ansible/+bug/1851594,2020-05-19
+1852066,1852066,Fix Released,Updating legacy Docker to Docker CE fails due to docker not running,https://bugs.launchpad.net/kolla-ansible/+bug/1852066,2020-05-19
+1852430,1852430,Fix Released,HAProxy role has a compatibility issue with Ansible 2.9,https://bugs.launchpad.net/kolla-ansible/+bug/1852430,2020-05-19
+1852572,1852572,Fix Released,"During deploy, if image pull fails, container is left removed",https://bugs.launchpad.net/kolla-ansible/+bug/1852572,2020-05-19
+1812864,1812864,Fix Released,Heat service returns Internal Server Error when enabling kolla_enable_tls_external,https://bugs.launchpad.net/kolla-ansible/+bug/1812864,2020-05-19
+1853011,1853011,Fix Released,Typo in Vitrage precheck task,https://bugs.launchpad.net/kolla-ansible/+bug/1853011,2020-05-19
+1853201,1853201,Fix Released,deploy fails with qinling_dev_mod is undefined,https://bugs.launchpad.net/kolla-ansible/+bug/1853201,2020-05-19
+1853336,1853336,Fix Released,"Fix Qinling deployment due to missing ""environment"" variable",https://bugs.launchpad.net/kolla-ansible/+bug/1853336,2020-05-19
+1853452,1853452,Fix Released,CI: zun scenario may fail due to exited container,https://bugs.launchpad.net/kolla-ansible/+bug/1853452,2020-05-19
+1853462,1853462,Fix Released,deploy/reconfigure blazar failed due to the authentication error,https://bugs.launchpad.net/kolla-ansible/+bug/1853462,2020-05-19
+1853464,1853464,Fix Released,Missing region setting for ironic-neutron-agent,https://bugs.launchpad.net/kolla-ansible/+bug/1853464,2020-05-19
+1853621,1853621,Fix Released,nova.conf config option placement.os_interface is removed,https://bugs.launchpad.net/kolla-ansible/+bug/1853621,2020-05-19
+1853862,1853862,Fix Released,'nova_cephx_raw_key' is undefined when using external ceph and nova_backend is not rbd,https://bugs.launchpad.net/kolla-ansible/+bug/1853862,2020-05-19
+1844349,1844349,Fix Released,Neighbour table overflow problem with Neutron,https://bugs.launchpad.net/kolla-ansible/+bug/1844349,2020-05-19
+1809844,1809844,Fix Released,ReadTimeout UnixHTTPConnectionPool,https://bugs.launchpad.net/kolla-ansible/+bug/1809844,2020-05-19
+1800132,1800132,Fix Released,swift mount - nobarrier not available with xfs in the modern kernels,https://bugs.launchpad.net/kolla-ansible/+bug/1800132,2020-05-19
+1854540,1854540,Fix Released,prometheus-server fails to generate prometheus.yml.j2 when alertmanager is disabled,https://bugs.launchpad.net/kolla-ansible/+bug/1854540,2020-05-19
+1855085,1855085,Fix Released,Designate Infoblox backed missing also_notifies in pools.yaml,https://bugs.launchpad.net/kolla-ansible/+bug/1855085,2020-05-19
+1854932,1854932,Fix Released,etcd3 coordination driver is unstable,https://bugs.launchpad.net/kolla-ansible/+bug/1854932,2020-05-19
+1830724,1830724,Fix Released,fluentd not reconnecting to ES on failures,https://bugs.launchpad.net/kolla-ansible/+bug/1830724,2020-05-19
+1720371,1720371,Fix Released,Some WSGI logs not using 04-openstack-wsgi.conf rules,https://bugs.launchpad.net/kolla-ansible/+bug/1720371,2020-05-19
+1856194,1856194,Fix Released,Ironic iPXE cannot be used to serve instance images,https://bugs.launchpad.net/kolla-ansible/+bug/1856194,2020-05-19
+1856725,1856725,Fix Released,Fix deploy rabbitmq cluster report unable to connect to epmd with centos7+ipv6,https://bugs.launchpad.net/kolla-ansible/+bug/1856725,2020-05-19
+1855094,1855094,Fix Released,HA Proxy config not generated when upgrading from Rocky to Stein,https://bugs.launchpad.net/kolla-ansible/+bug/1855094,2020-05-19
+1848452,1848452,Fix Released,rabbitmq ipv6 requires resolution uniqueness,https://bugs.launchpad.net/kolla-ansible/+bug/1848452,2020-05-19
+1859176,1859176,Fix Released,[zun] Can't specify Docker runtime when creating a container,https://bugs.launchpad.net/kolla-ansible/+bug/1859176,2020-05-19
+1859408,1859408,Fix Released,"when we enable external ceph in train release  ""ceph.client.cinder.keyring"" is not copied to /etc/kolla/nova-compute",https://bugs.launchpad.net/kolla-ansible/+bug/1859408,2020-05-19
+1855695,1855695,Fix Released,glance-api does not support iscsi cinder backend,https://bugs.launchpad.net/kolla-ansible/+bug/1855695,2020-05-19
+1861189,1861189,Fix Released,Placement port precheck uses wrong variable,https://bugs.launchpad.net/kolla-ansible/+bug/1861189,2020-05-19
+1855700,1855700,Fix Released,Logs sent to Monasca can be lost in Fluent,https://bugs.launchpad.net/kolla-ansible/+bug/1855700,2020-05-19
+1862058,1862058,Fix Released,Swift: rsync_module should not contain meta field as default,https://bugs.launchpad.net/kolla-ansible/+bug/1862058,2020-05-19
+1862393,1862393,Fix Released,Some hard coded ceph.client.gnocchi.keyring left,https://bugs.launchpad.net/kolla-ansible/+bug/1862393,2020-05-19
+1858431,1858431,Fix Released,Use internal API for masakari-monitor,https://bugs.launchpad.net/kolla-ansible/+bug/1858431,2020-05-19
+1863041,1863041,Fix Released,Mysqld Exporter should point to each controller database,https://bugs.launchpad.net/kolla-ansible/+bug/1863041,2020-05-19
+1861792,1861792,Fix Released,Kernel memory resource leak on hosts running containers performing sudo tasks,https://bugs.launchpad.net/kolla-ansible/+bug/1861792,2020-05-19
+1862419,1862419,Fix Released,communication with services using TLS should be on fqdn not ip,https://bugs.launchpad.net/kolla-ansible/+bug/1862419,2020-05-19
+1862211,1862211,Fix Released,Fluentd config files persist on restart,https://bugs.launchpad.net/kolla-ansible/+bug/1862211,2020-05-19
+1866617,1866617,Fix Released,HAProxy monitor VIP precheck fails if haproxy running remotely,https://bugs.launchpad.net/kolla-ansible/+bug/1866617,2020-05-19
+1866141,1866141,Fix Released,grafana do not support ipv6 in grafana.ini.j2,https://bugs.launchpad.net/kolla-ansible/+bug/1866141,2020-05-19
+1867481,1867481,Fix Released,"when using https, fluentd still use http protocol to write to es",https://bugs.launchpad.net/kolla-ansible/+bug/1867481,2020-05-19
+1868285,1868285,Fix Released,service_mapped_to_host filter always matches if group exists,https://bugs.launchpad.net/kolla-ansible/+bug/1868285,2020-05-19
+1868596,1868596,Fix Released,"kolla-ansible stop ignores service placement, which may cause it to fail",https://bugs.launchpad.net/kolla-ansible/+bug/1868596,2020-05-19
+1868986,1868986,Fix Released,HAProxy prechecks fail when scaling out to a new host with --limit or --serial,https://bugs.launchpad.net/kolla-ansible/+bug/1868986,2020-05-19
+1869137,1869137,Fix Released,"when using internal https, heat create resource failed",https://bugs.launchpad.net/kolla-ansible/+bug/1869137,2020-05-19
+1869832,1869832,Fix Released,openvswitch firewall still broken after unclean backport,https://bugs.launchpad.net/kolla-ansible/+bug/1869832,2020-05-19
+1729566,1729566,Fix Released,Nova compute needlessly depends on hostname for live migration url,https://bugs.launchpad.net/kolla-ansible/+bug/1729566,2020-05-19
+1872205,1872205,Fix Released,Designate tooz error,https://bugs.launchpad.net/kolla-ansible/+bug/1872205,2020-05-19
+1872545,1872545,Fix Released,"HAProxy backends missing all servers when using ""split"" config",https://bugs.launchpad.net/kolla-ansible/+bug/1872545,2020-05-19
+1869319,1869319,Fix Released,"kolla-ansible deploy vitrage, lack persister service",https://bugs.launchpad.net/kolla-ansible/+bug/1869319,2020-05-19
+1869319,1869319,Fix Released,"kolla-ansible deploy vitrage, lack persister service",https://bugs.launchpad.net/kolla/+bug/1869319,2020-05-19
+1851169,1851169,Fix Released,swift: container swift_rsyncd can take hours to start because of chown on /srv/node,https://bugs.launchpad.net/kolla/+bug/1851169,2020-05-19
+1852452,1852452,Fix Released,Ubuntu has no en_US.UTF-8 locale and falls back to C,https://bugs.launchpad.net/kolla/+bug/1852452,2020-05-19
+1852784,1852784,Fix Released,pool-manager has been removed - deprecated since newton,https://bugs.launchpad.net/kolla/+bug/1852784,2020-05-19
+1848572,1848572,Fix Released,Neutron BGP dynamic routing agent requires db migration,https://bugs.launchpad.net/kolla/+bug/1848572,2020-05-19
+1852086,1852086,Fix Released,etcd3 driver missing in binary images,https://bugs.launchpad.net/kolla-ansible/+bug/1852086,2020-05-19

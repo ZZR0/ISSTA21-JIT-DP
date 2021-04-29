@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+807020,807020,Fix Released,Syntax error in 'instance_get_active_by_window',https://bugs.launchpad.net/nova/+bug/807020,2011-09-22
+805549,805549,Fix Released,mysql root password in nova logs 644,https://bugs.launchpad.net/nova/+bug/805549,2011-09-22
+804430,804430,Fix Released,nova-manage vpn list command fails,https://bugs.launchpad.net/nova/+bug/804430,2011-09-22
+804096,804096,Fix Released,OS API 1.1 servers details missing timestamps,https://bugs.launchpad.net/nova/+bug/804096,2011-09-22
+804067,804067,Fix Released,OSAPI: Server Metadata response codes,https://bugs.launchpad.net/nova/+bug/804067,2011-09-22
+804002,804002,Fix Released,"OSAPI: getting server metadata does not have the ""meta"" wrapper in the response",https://bugs.launchpad.net/nova/+bug/804002,2011-09-22
+802849,802849,Fix Released,nova-manage network create does not properly register gateway_v6,https://bugs.launchpad.net/nova/+bug/802849,2011-09-22
+798298,798298,Fix Released,IPv6 currently requires IPv4 addresses to be present of faked out,https://bugs.launchpad.net/nova/+bug/798298,2011-09-22
+740810,740810,Fix Released,nova-manage network creation doesn't respect CIDR,https://bugs.launchpad.net/nova/+bug/740810,2011-09-22
+831995,831995,Fix Released,EC2 API noauth user_id is invalid,https://bugs.launchpad.net/nova/+bug/831995,2011-09-22
+830817,830817,Fix Released,OSAPI v1.1 400 when instance unattached to network,https://bugs.launchpad.net/nova/+bug/830817,2011-09-22
+828429,828429,Fix Released,nova-dhcpbridge: interface causes KeyError - bug added in v.1449,https://bugs.launchpad.net/nova/+bug/828429,2011-09-22
+828277,828277,Fix Released,Xenhost plugin does not include enabled status with its host_data,https://bugs.launchpad.net/nova/+bug/828277,2011-09-22
+827373,827373,Fix Released,Booting m1.tiny instance causes 'ImageTooLarge' exception,https://bugs.launchpad.net/nova/+bug/827373,2011-09-22
+824853,824853,Fix Released,Add user-data support to OSAPI,https://bugs.launchpad.net/nova/+bug/824853,2011-09-22
+823290,823290,Fix Released,Missing nova/api/openstack/schemas in tarball,https://bugs.launchpad.net/nova/+bug/823290,2011-09-22
+822906,822906,Fix Released,libvirt uses its own get_network_info function,https://bugs.launchpad.net/nova/+bug/822906,2011-09-22
+820962,820962,Fix Released,Generating hostname from display name incorrect,https://bugs.launchpad.net/nova/+bug/820962,2011-09-22
+820935,820935,Fix Released,Xenapi glance plugin resets custom image properties,https://bugs.launchpad.net/nova/+bug/820935,2011-09-22
+819915,819915,Fix Released,XenAPI Rescue broken after swap changes merged,https://bugs.launchpad.net/nova/+bug/819915,2011-09-22
+798346,798346,Fix Released,euca-authorize messes up nova-compute-local chains on nodes with more than 1 running instance,https://bugs.launchpad.net/nova/+bug/798346,2011-09-22
+790589,790589,Fix Released,"""source-group"" option in euca-authorize does not function",https://bugs.launchpad.net/nova/+bug/790589,2011-09-22
+712322,712322,Fix Released,Issue in security group's revoke command,https://bugs.launchpad.net/nova/+bug/712322,2011-09-22
+844364,844364,Fix Released,os-floating-ips doesn't correctly check for associated fixed_ip,https://bugs.launchpad.net/nova/+bug/844364,2011-09-22
+844165,844165,Fix Released,scheduler api's reroute_compute should better handle cases where a child zone is dead,https://bugs.launchpad.net/nova/+bug/844165,2011-09-22
+844155,844155,Fix Released,abstract scheduler short circuits before checking child zones if no local compute hosts,https://bugs.launchpad.net/nova/+bug/844155,2011-09-22
+844135,844135,Fix Released,BaseScheduler.weigh_hosts() doesn't return enough hosts,https://bugs.launchpad.net/nova/+bug/844135,2011-09-22
+843266,843266,Fix Released,flat_injected should be False by default,https://bugs.launchpad.net/nova/+bug/843266,2011-09-22
+839617,839617,Fix Released,DescribeImages output limited to some small number (22?),https://bugs.launchpad.net/nova/+bug/839617,2011-09-22
+835964,835964,Fix Released,pep8 violations in IPv6 code,https://bugs.launchpad.net/nova/+bug/835964,2011-09-22
+835952,835952,Fix Released,pep8 failures do not cause the tests to fail,https://bugs.launchpad.net/nova/+bug/835952,2011-09-22
+834772,834772,Fix Released,Unit tests fail on Python 2.6,https://bugs.launchpad.net/nova/+bug/834772,2011-09-22
+829624,829624,Fix Released,utils.to_primitive still tripping up on some objects ...,https://bugs.launchpad.net/nova/+bug/829624,2011-09-22
+829097,829097,Fix Released,Add keypairs to os api,https://bugs.launchpad.net/nova/+bug/829097,2011-09-22
+810654,810654,Fix Released,"On instance build error, instance status should not be changed to SHUTOFF",https://bugs.launchpad.net/nova/+bug/810654,2011-09-22
+838583,838583,Fix Released,os-floating-ips doesn't return instance_id for associated addresses,https://bugs.launchpad.net/nova/+bug/838583,2011-09-22
+834123,834123,Fix Released,Test that the fake virt driver implements the documented interface,https://bugs.launchpad.net/nova/+bug/834123,2011-09-22
+833106,833106,Fix Released,Logging tries to change mode of log file,https://bugs.launchpad.net/nova/+bug/833106,2011-09-22
+828614,828614,Fix Released,nova/ipv6/rfc2462.py is missing a single unit test,https://bugs.launchpad.net/nova/+bug/828614,2011-09-22
+828610,828610,Fix Released,nova/ipv6/account_identifier.py is missing a unit test for invalid address,https://bugs.launchpad.net/nova/+bug/828610,2011-09-22
+828600,828600,Fix Released,nova/version.py has no unit tests,https://bugs.launchpad.net/nova/+bug/828600,2011-09-22
+828596,828596,Fix Released,nova/compute/instance_types.py lacks unit tests for error conditions,https://bugs.launchpad.net/nova/+bug/828596,2011-09-22
+839012,839012,Fix Released,A few references to state_descripton got missed in the power_state merge,https://bugs.launchpad.net/nova/+bug/839012,2011-09-22
+838466,838466,Fix Released,unnecessarily instance record is created in db,https://bugs.launchpad.net/nova/+bug/838466,2011-09-22
+838251,838251,Fix Released,OSAPI create server and get server details response doesn't contain list of security groups,https://bugs.launchpad.net/nova/+bug/838251,2011-09-22
+837405,837405,Fix Released,OSAPI v1.1 needs to support changes-since on servers resource,https://bugs.launchpad.net/nova/+bug/837405,2011-09-22
+832598,832598,Fix Released,Associate floating IP doesnt care if IP is already assigned to another instance,https://bugs.launchpad.net/nova/+bug/832598,2011-09-22
+831599,831599,Fix Released,Tests hang frequently in XenAPIVMTestCase.test_parallel_builds,https://bugs.launchpad.net/nova/+bug/831599,2011-09-22
+829668,829668,Fix Released,user_id and tenant_id not returned in servers.detail,https://bugs.launchpad.net/nova/+bug/829668,2011-09-22
+813864,813864,Fix Released,zone_aware_scheduler assert failure,https://bugs.launchpad.net/nova/+bug/813864,2011-09-22
+803168,803168,Fix Released,Response Queues for RPC Calls aren't being torn down,https://bugs.launchpad.net/nova/+bug/803168,2011-09-22
+795228,795228,Fix Released,Incorrect  Status Transition on instance reboot,https://bugs.launchpad.net/nova/+bug/795228,2011-09-22
+793785,793785,Fix Released,Instance State reports build on Termination,https://bugs.launchpad.net/nova/+bug/793785,2011-09-22
+837867,837867,Fix Released,Add fixed IP fails,https://bugs.launchpad.net/nova/+bug/837867,2011-09-22
+837534,837534,Fix Released,nova shouldn't trust userdata is properly formated by client,https://bugs.launchpad.net/nova/+bug/837534,2011-09-22
+837438,837438,Fix Released,euca-describe images returns only 25 images,https://bugs.launchpad.net/nova/+bug/837438,2011-09-22
+836207,836207,Fix Released,EC2 ToToken middleware should use eventlet.green.httplib,https://bugs.launchpad.net/nova/+bug/836207,2011-09-22
+835090,835090,Fix Released,Failed to mount filesystem xvbd1 in XenServer,https://bugs.launchpad.net/nova/+bug/835090,2011-09-22
+834315,834315,Fix Released,rebuild should set image_id (href) before spawing instance,https://bugs.launchpad.net/nova/+bug/834315,2011-09-22
+832476,832476,Fix Released,default to noauth for the EC2 admin API,https://bugs.launchpad.net/nova/+bug/832476,2011-09-22
+832369,832369,Fix Released,glance/keystone integration,https://bugs.launchpad.net/nova/+bug/832369,2011-09-22
+828820,828820,Fix Released,Rescue needs to be available to the public API as an extension,https://bugs.launchpad.net/nova/+bug/828820,2011-09-22
+820954,820954,Fix Released,AMI image without ramdisk cannot be started through OS API,https://bugs.launchpad.net/nova/+bug/820954,2011-09-22
+803654,803654,Fix Released,availability zone ignored when creating volume,https://bugs.launchpad.net/nova/+bug/803654,2011-09-22
+794627,794627,Fix Released,Handle RabbitMQ crash and attempt to reestablish connections and queues,https://bugs.launchpad.net/nova/+bug/794627,2011-09-22
+837122,837122,Fix Released,RequestContext fails to set is_admin from keystone roles,https://bugs.launchpad.net/nova/+bug/837122,2011-09-22
+838154,838154,Fix Released,LXC instance without injected key doesn't get created,https://bugs.launchpad.net/nova/+bug/838154,2011-09-22
+838419,838419,Fix Released,nova-compute crashes when applying a security group rule,https://bugs.launchpad.net/nova/+bug/838419,2011-09-22
+839269,839269,Fix Released,cloudpipe vpns fail to get ip,https://bugs.launchpad.net/nova/+bug/839269,2011-09-22
+839383,839383,Fix Released,ESX(i) VIFs and mac addresses,https://bugs.launchpad.net/nova/+bug/839383,2011-09-22
+854322,854322,Fix Released,nova-manage fails when creating networks associated with a quantum id,https://bugs.launchpad.net/nova/+bug/854322,2011-09-22
+851393,851393,Fix Released,NoMoreFixedIps should be subclassing NovaException,https://bugs.launchpad.net/nova/+bug/851393,2011-09-22
+837100,837100,Fix Released,nova does not uncompress qcow compressed images,https://bugs.launchpad.net/nova/+bug/837100,2011-09-22
+829020,829020,Fix Released,Rescue implementation differs wildly between hypervisors,https://bugs.launchpad.net/nova/+bug/829020,2011-09-22
+828357,828357,Fix Released,ephemeral device filesystems should be labeled with 'ephemeralX',https://bugs.launchpad.net/nova/+bug/828357,2011-09-22

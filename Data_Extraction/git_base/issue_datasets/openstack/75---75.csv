@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1896735,1896735,Fix Released,Scenario tests from neutron_tempest_plugin.scenario.test_port_forwardings.PortForwardingTestJSON failing due to ssh failure,https://bugs.launchpad.net/neutron/+bug/1896735,2020-11-27
+1902678,1902678,Fix Released,[Fullstack] Wrong output of the cmdline causes tests timeouts,https://bugs.launchpad.net/neutron/+bug/1902678,2020-11-27
+1852727,1852727,Fix Released,PCI passthrough documentation does not describe the steps necessary to passthrough PFs,https://bugs.launchpad.net/nova/+bug/1852727,2020-11-26
+1893263,1893263,Fix Released,[SRU] Cannot create instance with multiqueue image and vif_type=tap (calico),https://bugs.launchpad.net/nova/+bug/1893263,2020-11-26
+1899753,1899753,Fix Released,Stable manager interface: improvement to create_volume,https://bugs.launchpad.net/tempest/+bug/1899753,2020-11-26
+1901508,1901508,Fix Released,Not all tripleo ansible operator logs are captured in CI,https://bugs.launchpad.net/tripleo/+bug/1901508,2020-11-26
+1817732,1817732,Fix Released,ovn-controller probe interval is not configurable and can cause troubles at scale,https://bugs.launchpad.net/puppet-ovn/+bug/1817732,2020-11-26
+1894735,1894735,Fix Released,functional tests failing on glance side due to deprecated context referencing,https://bugs.launchpad.net/glance-store/+bug/1894735,2020-11-25
+1890567,1890567,Fix Released,kolla_set_configs --check fails for source directories,https://bugs.launchpad.net/kolla/+bug/1890567,2020-11-24
+1884484,1884484,Fix Released,"[Ubuntu Source] - Nova-Compute Image, missing sysfsutils",https://bugs.launchpad.net/kolla/+bug/1884484,2020-11-24
+1839824,1839824,Fix Released,kolla-ansible fails to deploy heat if the heat_user_domain already exists in keystone,https://bugs.launchpad.net/kolla/+bug/1839824,2020-11-24
+1887180,1887180,Fix Released,passwords file does not respect custom configdir path,https://bugs.launchpad.net/kolla-ansible/+bug/1887180,2020-11-24
+1886796,1886796,Fix Released,br_netfilter kernel module not loaded on computes,https://bugs.launchpad.net/kolla-ansible/+bug/1886796,2020-11-24
+1681461,1681461,Fix Released,Instance fails to boot: Could not access KVM kernel module: Permission denied,https://bugs.launchpad.net/kolla-ansible/+bug/1681461,2020-11-24
+1888657,1888657,Fix Committed,Kolla-toolbox: cryptography deprecation warning,https://bugs.launchpad.net/kolla-ansible/+bug/1888657,2020-11-24
+1888501,1888501,Fix Released,Glance file error when glance_backend_file is no,https://bugs.launchpad.net/kolla-ansible/+bug/1888501,2020-11-24
+1888544,1888544,Fix Released,CloudKitty requests returning incorrect Location header,https://bugs.launchpad.net/kolla-ansible/+bug/1888544,2020-11-24
+1888522,1888522,Fix Released,Default Kafka replication factor is always 1,https://bugs.launchpad.net/kolla-ansible/+bug/1888522,2020-11-24
+1889387,1889387,Fix Released,neutron role skipped when trying to deploy external agent,https://bugs.launchpad.net/kolla-ansible/+bug/1889387,2020-11-24
+1891704,1891704,Fix Released,admin-openrc.sh is world readable,https://bugs.launchpad.net/kolla-ansible/+bug/1891704,2020-11-24
+1892210,1892210,Fix Released,neutron-server consumes all memcached connections,https://bugs.launchpad.net/kolla-ansible/+bug/1892210,2020-11-24
+1882553,1882553,Fix Released,check failed when the host is Centos but the kolla_base_distro  is ubuntu,https://bugs.launchpad.net/kolla-ansible/+bug/1882553,2020-11-24
+1864206,1864206,Fix Released,"When internal vip address is undefined, error message is about ""kolla_internal_address""",https://bugs.launchpad.net/kolla-ansible/+bug/1864206,2020-11-24
+1891024,1891024,Fix Released,Horizon REST_API_REQUIRED_SETTINGS is not in sync with upstream,https://bugs.launchpad.net/kolla-ansible/+bug/1891024,2020-11-24
+1896591,1896591,Fix Released,'haproxy_single_service_split' template may fail due to 'mode' being unset,https://bugs.launchpad.net/kolla-ansible/+bug/1896591,2020-11-24
+1896635,1896635,Fix Released,Unresponsive services during failover,https://bugs.launchpad.net/kolla-ansible/+bug/1896635,2020-11-24
+1894995,1894995,Fix Released,linuxbridge - baremetal missing from mechanism_drivers,https://bugs.launchpad.net/kolla-ansible/+bug/1894995,2020-11-24
+1898766,1898766,Fix Released,"Placement role does not allow overwrite of ""placement-api-wsgi.conf""",https://bugs.launchpad.net/kolla-ansible/+bug/1898766,2020-11-24
+1898765,1898765,Fix Released,"keystone-fernet cron job not triggering, results in keys not rotating",https://bugs.launchpad.net/kolla-ansible/+bug/1898765,2020-11-24
+1888512,1888512,Fix Released,Permission denied during sync of fernet-keys,https://bugs.launchpad.net/kolla-ansible/+bug/1888512,2020-11-24
+1905034,1905034,Fix Released,repo-setup fail: undercloud upgrade for ussuri fails on package dep python3-openstackclient >= 5.2.0,https://bugs.launchpad.net/tripleo/+bug/1905034,2020-11-24
+1900033,1900033,Fix Released,"openstack-tox-molecule jobs are failing with ""ImportError: cannot import name 'ansible_version'""",https://bugs.launchpad.net/tripleo/+bug/1900033,2020-11-24
+1904936,1904936,Fix Released,"openstack.exceptions.ResourceNotFound: No Introspection found for node,  Could not find node",https://bugs.launchpad.net/tripleo/+bug/1904936,2020-11-24
+1882821,1882821,Fix Released,'[libvirt] file_backed_memory' and '[DEFAULT] reserved_host_memory_mb' are incompatible,https://bugs.launchpad.net/nova/+bug/1882821,2020-11-24
+1868033,1868033,Fix Released,Booting instance with pci_device fails during rocky->stein live upgrade,https://bugs.launchpad.net/nova/+bug/1868033,2020-11-24
+1869050,1869050,Fix Released,migration of anti-affinity server fails due to stale scheduler instance info,https://bugs.launchpad.net/nova/+bug/1869050,2020-11-24
+1878979,1878979,Fix Released,Quota code does not respect [api]/instance_list_per_project_cells,https://bugs.launchpad.net/nova/+bug/1878979,2020-11-24
+1878583,1878583,Fix Released,Unable to createImage/snapshot paused volume backed instances,https://bugs.launchpad.net/nova/+bug/1878583,2020-11-24
+1878024,1878024,Fix Released,disk usage of the nova image cache is not counted as used disk space,https://bugs.launchpad.net/nova/+bug/1878024,2020-11-24
+1550919,1550919,Fix Released,[Libvirt]Evacuate fail may cause disk image be deleted,https://bugs.launchpad.net/nova/+bug/1550919,2020-11-24
+1879964,1879964,Fix Released,Invalid value for 'hw:mem_page_size' raises confusing error,https://bugs.launchpad.net/nova/+bug/1879964,2020-11-24
+1884214,1884214,Fix Released,reserve disk usage for image cache fails on a fresh hypervisor,https://bugs.launchpad.net/nova/+bug/1884214,2020-11-24
+1882919,1882919,Fix Released,e1000e interface reported as unsupported,https://bugs.launchpad.net/nova/+bug/1882919,2020-11-24
+1882233,1882233,Fix Released,Libvirt driver always reports 'memory_mb_used' of 0,https://bugs.launchpad.net/nova/+bug/1882233,2020-11-24
+1887946,1887946,Fix Released,Unable to detach volume from instance when previously removed from the inactive config,https://bugs.launchpad.net/nova/+bug/1887946,2020-11-24
+1843708,1843708,Fix Released,Key-pair is not updated during the rebuild,https://bugs.launchpad.net/nova/+bug/1843708,2020-11-24
+1879500,1879500,Fix Released,Unable to rescue using volume snapshot based images,https://bugs.launchpad.net/nova/+bug/1879500,2020-11-24
+1889257,1889257,Fix Released,Live migration of realtime instances is broken,https://bugs.launchpad.net/nova/+bug/1889257,2020-11-24
+1889108,1889108,Fix Released,failures during driver.pre_live_migration remove source attachments during rollback,https://bugs.launchpad.net/nova/+bug/1889108,2020-11-24
+1890428,1890428,Fix Released,format_message() is specifica novaException is not should raise in generic  exeptions,https://bugs.launchpad.net/nova/+bug/1890428,2020-11-24
+1891547,1891547,Fix Released,AttributeError: module 'libvirt' has no attribute 'VIR_ERR_DEVICE_MISSING',https://bugs.launchpad.net/nova/+bug/1891547,2020-11-24
+1847054,1847054,Fix Released,kolla-ansible CI: nova-compute-ironic reports errors in the ironic scenario,https://bugs.launchpad.net/nova/+bug/1847054,2020-11-24
+1753676,1753676,Fix Released,Live migration not working as Expected when Restarting nova-compute service while migration from source node,https://bugs.launchpad.net/nova/+bug/1753676,2020-11-24
+1870357,1870357,Fix Released,raw disk usage is not correctly reported  during resource update,https://bugs.launchpad.net/nova/+bug/1870357,2020-11-24
+1805767,1805767,Fix Released,The new numa topology in the new flavor extra specs weren't parsed when resize,https://bugs.launchpad.net/nova/+bug/1805767,2020-11-24
+1848308,1848308,Fix Released,Impossible to set instance CPU policy to 'shared' through flavor image property,https://bugs.launchpad.net/nova/+bug/1848308,2020-11-24
+1774249,1774249,Fix Released,update_available_resource will raise DiskNotFound after resize but before confirm,https://bugs.launchpad.net/nova/+bug/1774249,2020-11-24
+1854126,1854126,Fix Released,s390x: failed to live migrate VM,https://bugs.launchpad.net/nova/+bug/1854126,2020-11-24
+1852458,1852458,Fix Released,"""create"" instance action not created when instance is buried in cell0",https://bugs.launchpad.net/nova/+bug/1852458,2020-11-24
+1837199,1837199,Fix Released,nova-manage  Tracebeck on missing arg,https://bugs.launchpad.net/nova/+bug/1837199,2020-11-24
+1856925,1856925,Fix Released,Nova compute service exception that performs cold migration virtual machine stuck in resize state.,https://bugs.launchpad.net/nova/+bug/1856925,2020-11-24
+1860990,1860990,Fix Released,RBD image backend tries to flatten images even if they are already flat,https://bugs.launchpad.net/nova/+bug/1860990,2020-11-24
+1831771,1831771,Fix Released,UnexpectedDeletingTaskStateError exception can leave traces of VIFs on host,https://bugs.launchpad.net/nova/+bug/1831771,2020-11-24
+1862633,1862633,Fix Released,unshelve leak allocation if update port fails,https://bugs.launchpad.net/nova/+bug/1862633,2020-11-24
+1864428,1864428,Fix Released,Hypervisors collection_name affects pagination query,https://bugs.launchpad.net/nova/+bug/1864428,2020-11-24
+1866373,1866373,Fix Released,URLS in os-keypairs 'links' body are incorrect,https://bugs.launchpad.net/nova/+bug/1866373,2020-11-24
+1866380,1866380,Fix Released,Ironic driver hash ring treats hostnames differing only by case as different hostnames,https://bugs.launchpad.net/nova/+bug/1866380,2020-11-24
+1867380,1867380,Fix Released,nova-live-migration and nova-grenade-multinode fail due to n-cpu restarting slowly after being reconfigured for ceph,https://bugs.launchpad.net/nova/+bug/1867380,2020-11-24
+1863605,1863605,Fix Released,live migration with vpmem will go to error in Train,https://bugs.launchpad.net/nova/+bug/1863605,2020-11-24
+1866937,1866937,Fix Released,Requests to neutron API do not use retries,https://bugs.launchpad.net/nova/+bug/1866937,2020-11-24
+1844929,1844929,Fix Released,"grenade jobs failing due to ""Timed out waiting for response from cell"" in scheduler",https://bugs.launchpad.net/nova/+bug/1844929,2020-11-24
+1834659,1834659,Fix Released,Volume not removed on instance deletion,https://bugs.launchpad.net/nova/+bug/1834659,2020-11-24
+1824858,1824858,Fix Released,nova instance remnant left behind after cold migration completes,https://bugs.launchpad.net/nova/+bug/1824858,2020-11-24
+1867075,1867075,Fix Released,Arm64: Instance with Configure Drive attach volume failed failed,https://bugs.launchpad.net/nova/+bug/1867075,2020-11-24
+1825584,1825584,Fix Released,eventlet monkey-patching breaks AMQP heartbeat on uWSGI,https://bugs.launchpad.net/nova/+bug/1825584,2020-11-24

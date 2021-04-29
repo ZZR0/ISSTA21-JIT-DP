@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1560055,1560055,Fix Released,Killing one RabbitMQ node causes complete Swift outage,https://bugs.launchpad.net/fuel/+bug/1560055,2016-06-08
+1578408,1578408,Fix Released,swiftinit service provider can't work on xenial,https://bugs.launchpad.net/puppet-swift/+bug/1578408,2016-06-08
+1556041,1556041,Fix Released,Nova_config[DEFAULT/cpu_allocation_ratio] is already declared,https://bugs.launchpad.net/tripleo/+bug/1556041,2016-06-08
+1572467,1572467,Fix Released,Cannot load scheduler driver from configuration,https://bugs.launchpad.net/tripleo/+bug/1572467,2016-06-08
+1577827,1577827,Fix Released,puppet4 jobs are broken on centos7: dbus & virtlockd services are not idempotent,https://bugs.launchpad.net/puppet-nova/+bug/1577827,2016-06-08
+1581040,1581040,Fix Released,Baremetal API requres that ironic options is configured in nova.conf on nova-api node,https://bugs.launchpad.net/puppet-nova/+bug/1581040,2016-06-08
+1551387,1551387,Fix Released,Cisco nexus config template - obsolete parameter (replay count),https://bugs.launchpad.net/tripleo/+bug/1551387,2016-06-08
+1560850,1560850,Fix Released,project_name should be set to tenant_name if the latter is used,https://bugs.launchpad.net/puppet-neutron/+bug/1560850,2016-06-08
+1560933,1560933,Fix Released,Support for setting dnsmasq_dns_servers via neutron::agents::dhcp,https://bugs.launchpad.net/puppet-neutron/+bug/1560933,2016-06-08
+1565036,1565036,Fix Released,global_physnet_mtu is not working,https://bugs.launchpad.net/puppet-neutron/+bug/1565036,2016-06-08
+1566280,1566280,Fix Released,Support for OVN plugin,https://bugs.launchpad.net/puppet-neutron/+bug/1566280,2016-06-08
+1571697,1571697,Fix Released,neutron l3 service shouldn't be declared if manage_service is set to false,https://bugs.launchpad.net/puppet-neutron/+bug/1571697,2016-06-08
+1565754,1565754,Fix Released,add support for lbaas v2,https://bugs.launchpad.net/puppet-neutron/+bug/1565754,2016-06-08
+1581282,1581282,Fix Released,No spec test for config.pp,https://bugs.launchpad.net/puppet-aodh/+bug/1581282,2016-06-08
+1581282,1581282,Fix Released,No spec test for config.pp,https://bugs.launchpad.net/puppet-keystone/+bug/1581282,2016-06-08
+1581282,1581282,Fix Released,No spec test for config.pp,https://bugs.launchpad.net/puppet-cinder/+bug/1581282,2016-06-08
+1581282,1581282,Fix Released,No spec test for config.pp,https://bugs.launchpad.net/puppet-barbican/+bug/1581282,2016-06-08
+1581282,1581282,Fix Released,No spec test for config.pp,https://bugs.launchpad.net/puppet-neutron/+bug/1581282,2016-06-08
+1529649,1529649,Fix Released,murano-dashboard puppet manifests use deprecated syncdb command,https://bugs.launchpad.net/puppet-murano/+bug/1529649,2016-06-08
+1572787,1572787,Fix Released,Failed package import during deployment reported as successfull,https://bugs.launchpad.net/puppet-murano/+bug/1572787,2016-06-08
+1586008,1586008,Fix Released,Different default value for auth_uri in docs,https://bugs.launchpad.net/puppet-mistral/+bug/1586008,2016-06-08
+1551801,1551801,Fix Released,No method to configure apache::vhost::headers,https://bugs.launchpad.net/puppet-keystone/+bug/1551801,2016-06-08
+1553327,1553327,Fix Released,fernet_setup exec expects user/group options,https://bugs.launchpad.net/puppet-keystone/+bug/1553327,2016-06-08
+1555534,1555534,Fix Released,Using using_domain_config => true can create a failure upon install.,https://bugs.launchpad.net/puppet-keystone/+bug/1555534,2016-06-08
+1559292,1559292,Fix Released,openrc created before keystone service and keystone endpoint causes empty catalog,https://bugs.launchpad.net/puppet-keystone/+bug/1559292,2016-06-08
+1561586,1561586,Fix Released,keystone-manage pki_setup,https://bugs.launchpad.net/puppet-keystone/+bug/1561586,2016-06-08
+1485508,1485508,Fix Released,when domain_specific_drivers_enabled=True keystone_user provider fails,https://bugs.launchpad.net/puppet-keystone/+bug/1485508,2016-06-08
+1554555,1554555,Fix Released,openstack cli provider needs to pass domain in v3 calls,https://bugs.launchpad.net/puppet-keystone/+bug/1554555,2016-06-08
+1569390,1569390,Fix Released,restarting apache sometimes fails,https://bugs.launchpad.net/puppet-keystone/+bug/1569390,2016-06-08
+1564006,1564006,Fix Released,Cannot reinstall undercloud,https://bugs.launchpad.net/puppet-ironic/+bug/1564006,2016-06-08
+1564006,1564006,Fix Released,Cannot reinstall undercloud,https://bugs.launchpad.net/tripleo/+bug/1564006,2016-06-08
+1553835,1553835,Fix Released,Localsettings template dose not support custom time_zone option,https://bugs.launchpad.net/puppet-horizon/+bug/1553835,2016-06-08
+1558131,1558131,Fix Released,package dependency issue with puppet 4.3,https://bugs.launchpad.net/puppet-horizon/+bug/1558131,2016-06-08
+1563239,1563239,Fix Released,Syslog handler configured in local_settings.py should be optional,https://bugs.launchpad.net/puppet-horizon/+bug/1563239,2016-06-08
+1556132,1556132,Fix Released,python-memcache package should be installed,https://bugs.launchpad.net/puppet-horizon/+bug/1556132,2016-06-08
+1558673,1558673,Fix Released,heat not setting region_name for [keystone_authtoken],https://bugs.launchpad.net/puppet-heat/+bug/1558673,2016-06-08
+1528963,1528963,Fix Released,warnings about auth_ parameters present by default,https://bugs.launchpad.net/puppet-cinder/+bug/1528963,2016-06-08
+1528963,1528963,Fix Released,warnings about auth_ parameters present by default,https://bugs.launchpad.net/puppet-neutron/+bug/1528963,2016-06-08
+1528963,1528963,Fix Released,warnings about auth_ parameters present by default,https://bugs.launchpad.net/puppet-ceilometer/+bug/1528963,2016-06-08
+1528963,1528963,Fix Released,warnings about auth_ parameters present by default,https://bugs.launchpad.net/puppet-heat/+bug/1528963,2016-06-08
+1528963,1528963,Fix Released,warnings about auth_ parameters present by default,https://bugs.launchpad.net/puppet-ironic/+bug/1528963,2016-06-08
+1528963,1528963,Fix Released,warnings about auth_ parameters present by default,https://bugs.launchpad.net/puppet-nova/+bug/1528963,2016-06-08
+1528963,1528963,Fix Released,warnings about auth_ parameters present by default,https://bugs.launchpad.net/puppet-glance/+bug/1528963,2016-06-08
+1571407,1571407,Fix Released,auth_cfn default user & mail: comment/code mismatch,https://bugs.launchpad.net/puppet-heat/+bug/1571407,2016-06-08
+1580200,1580200,Fix Committed,rsyslog significantly slows down OpenStack services,https://bugs.launchpad.net/fuel/+bug/1580200,2016-06-08
+1543730,1543730,Fix Released,puppet-gnocchi doesn't manage the pipeline in api-paste.ini,https://bugs.launchpad.net/puppet-gnocchi/+bug/1543730,2016-06-08
+1481460,1481460,Fix Released,Cannot configure multiple Glance stores,https://bugs.launchpad.net/puppet-glance/+bug/1481460,2016-06-08
+1555697,1555697,Fix Released,Glance Artifacts Repository is a separate service now,https://bugs.launchpad.net/puppet-glance/+bug/1555697,2016-06-08
+1555697,1555697,Fix Released,Glance Artifacts Repository is a separate service now,https://bugs.launchpad.net/fuel/+bug/1555697,2016-06-08
+1579941,1579941,Fix Released,"Name of base package is ""designate-common"" instead just ""designate""",https://bugs.launchpad.net/puppet-designate/+bug/1579941,2016-06-08
+1555835,1555835,Fix Released,solidfire module does support latest driver options,https://bugs.launchpad.net/puppet-cinder/+bug/1555835,2016-06-08
+1581829,1581829,Fix Released,cinder_type provider is causing failures,https://bugs.launchpad.net/puppet-cinder/+bug/1581829,2016-06-08
+1584541,1584541,Fix Released,hp3par_iscsi spec tests are failling locally,https://bugs.launchpad.net/puppet-cinder/+bug/1584541,2016-06-08
+1581691,1581691,Fix Released,"ceilometer config options for agents are broken, polling agents are broken",https://bugs.launchpad.net/puppet-ceilometer/+bug/1581691,2016-06-08
+1564061,1564061,Fix Released,Ceilometer module should support messaging urls config,https://bugs.launchpad.net/puppet-ceilometer/+bug/1564061,2016-06-08
+1501239,1501239,Fix Committed,Create Notification UI does not accept email addresses ending with .corp,https://bugs.launchpad.net/monasca/+bug/1501239,2016-06-08
+1555230,1555230,Fix Committed,List metric names not supported by Monasca CLI,https://bugs.launchpad.net/monasca/+bug/1555230,2016-06-08
+1537590,1537590,Fix Released,too few arguments to function 'ndo_dflt_bridge_getlink',https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1537590,2016-06-08
+1532331,1532331,Fix Released,tweaks::ubuntu_service_override does not work if service does not have a job configuration file,https://bugs.launchpad.net/fuel/+bug/1532331,2016-06-08
+1584186,1584186,Fix Released,"In the ""Configure the Linux bridge agent. Edit the /etc/neutron/plugins/ml2/ml2_conf.ini file"" the config file is wrong, shold be ""linuxbridge_agent.ini",https://bugs.launchpad.net/openstack-manuals/+bug/1584186,2016-06-08
+1590378,1590378,Fix Committed,VirtualBox nodes should contain com-ports,https://bugs.launchpad.net/fuel/+bug/1590378,2016-06-08
+1588808,1588808,Fix Committed,Missing file on slave after ceph migration,https://bugs.launchpad.net/fuel/+bug/1588808,2016-06-08
+1590047,1590047,Fix Released,puppet module mapping has mistake in  aodh module name,https://bugs.launchpad.net/fuel/+bug/1590047,2016-06-08
+1565107,1565107,Fix Released,dpdk + bonding + vlan not working correctly,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1565107,2016-06-08
+1590380,1590380,Fix Released,devstack fails when df-redis is enabled,https://bugs.launchpad.net/dragonflow/+bug/1590380,2016-06-08
+1543222,1543222,Fix Released,"Keystone ""user password set"" should not require a scoped token",https://bugs.launchpad.net/python-openstackclient/+bug/1543222,2016-06-08
+1582968,1582968,Fix Released,image tags  and properties can not  be unset,https://bugs.launchpad.net/python-openstackclient/+bug/1582968,2016-06-08
+1588384,1588384,Fix Released,Option --enable does not work on commands,https://bugs.launchpad.net/python-openstackclient/+bug/1588384,2016-06-08
+1588701,1588701,Fix Released,compute keypair related command failed in argument 'id',https://bugs.launchpad.net/python-openstackclient/+bug/1588701,2016-06-08
+1581465,1581465,Fix Committed,Wrong task message when stopping node provisioning,https://bugs.launchpad.net/fuel/+bug/1581465,2016-06-08
+1581255,1581255,Fix Committed,Add read-only mode for Fuel API,https://bugs.launchpad.net/fuel/+bug/1581255,2016-06-08
+1530774,1530774,Fix Committed,Extract rsync_core_puppet pre-deployment task from nailgun,https://bugs.launchpad.net/fuel/+bug/1530774,2016-06-08
+1582202,1582202,Fix Committed,"""stick  on src"" haproxy option is a cause of slow keystone",https://bugs.launchpad.net/fuel/+bug/1582202,2016-06-08
+1588865,1588865,Fix Committed,networks to interfaces placement works incorrect,https://bugs.launchpad.net/fuel/+bug/1588865,2016-06-08
+1587861,1587861,Fix Committed,Messages for openstack-config format should be alligned to the common format,https://bugs.launchpad.net/fuel/+bug/1587861,2016-06-08

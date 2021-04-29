@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+959881,959881,Fix Released,webob 1.2b3 breaking the proxy server,https://bugs.launchpad.net/swift/+bug/959881,2012-07-26
+1026830,1026830,Fix Released,replication will never reload the ring file if it is initially empty,https://bugs.launchpad.net/swift/+bug/1026830,2012-07-26
+1012714,1012714,Fix Released,Swift 1.5.0 occasionally returns 5xx errors for what were (mostly) valid responses,https://bugs.launchpad.net/swift/+bug/1012714,2012-07-26
+969411,969411,Fix Released,ranged requests on large objects have incorrect behaviour when manifest file is not 0 bytes.,https://bugs.launchpad.net/swift/+bug/969411,2012-07-26
+888371,888371,Fix Released,Compatibility issues with python webob 1.2b2,https://bugs.launchpad.net/nova/+bug/888371,2012-07-26
+888371,888371,Fix Released,Compatibility issues with python webob 1.2b2,https://bugs.launchpad.net/swift/+bug/888371,2012-07-26
+1029100,1029100,Fix Released,Object Storage examples need v2.0 auth instead of v1.0,https://bugs.launchpad.net/openstack-manuals/+bug/1029100,2012-07-25
+1018457,1018457,Fix Released,NoMoreAddresses log message missing format character,https://bugs.launchpad.net/melange/+bug/1018457,2012-07-25
+971504,971504,Fix Released,fixed IP from terminated instance is NOT reused,https://bugs.launchpad.net/melange/+bug/971504,2012-07-25
+990118,990118,Fix Released,Melange uses sqlalchemy incorrectly making with_lockmode not work as expected,https://bugs.launchpad.net/melange/+bug/990118,2012-07-25
+887162,887162,Fix Released,VM interface goes down because of short dhcp lease,https://bugs.launchpad.net/nova/+bug/887162,2012-07-24
+863781,863781,Fix Released,nova returns 204 for not authenticated user,https://bugs.launchpad.net/nova/+bug/863781,2012-07-24
+996190,996190,Fix Released,Selenium support on CI infrastructure,https://bugs.launchpad.net/openstack-ci/+bug/996190,2012-07-24
+1026661,1026661,Fix Released,Request: Add asciidoc and related tools to puppet scripts for launching Jenkins build servers so that HA guide can be built,https://bugs.launchpad.net/openstack-ci/+bug/1026661,2012-07-23
+933547,933547,Fix Released,api-site FlavorRef and ImageRef are not documented as parameters when creating a server,https://bugs.launchpad.net/openstack-manuals/+bug/933547,2012-07-23
+1024321,1024321,Fix Released,"Inconsistent sentence in chapter ""9. Networking""",https://bugs.launchpad.net/openstack-manuals/+bug/1024321,2012-07-23
+1022712,1022712,Fix Released,About 111 orphaned HTML files still can come up in Google searches,https://bugs.launchpad.net/openstack-manuals/+bug/1022712,2012-07-23
+965826,965826,Fix Released,python-novaclient doesn't handle misconfigured 'auth_host',https://bugs.launchpad.net/python-novaclient/+bug/965826,2012-07-23
+1027396,1027396,Fix Released,Can't build Compute Admin guide,https://bugs.launchpad.net/openstack-manuals/+bug/1027396,2012-07-22
+1013217,1013217,Fix Released,Need to be able to output PDF with different file names from single book and pom.xml file combo,https://bugs.launchpad.net/openstack-manuals/+bug/1013217,2012-07-20
+1026321,1026321,Fix Released,Fix reference to Image service (Keystone),https://bugs.launchpad.net/openstack-manuals/+bug/1026321,2012-07-18
+1025910,1025910,Fix Released,"From the Compute Admin manual, point to the EPEL install guide rather than Fedora wiki pages",https://bugs.launchpad.net/openstack-manuals/+bug/1025910,2012-07-18
+1022179,1022179,Fix Released,novaclient can't add/remove security group to a instance,https://bugs.launchpad.net/python-novaclient/+bug/1022179,2012-07-18
+1021150,1021150,Fix Released,swift3 should be disabled by default,https://bugs.launchpad.net/devstack/+bug/1021150,2012-07-17
+1020513,1020513,Fix Released,xenapi plugins are not being downloaded correctly,https://bugs.launchpad.net/devstack/+bug/1020513,2012-07-17
+1016663,1016663,Fix Released,Task: add a note about getting NICs to work in Windows guest images,https://bugs.launchpad.net/openstack-manuals/+bug/1016663,2012-07-17
+963056,963056,Fix Released,Object references not validated (returning 500 instead of 404),https://bugs.launchpad.net/keystone/+bug/963056,2012-07-16
+1023435,1023435,Fix Released,Install RHEL/centos/fedora - service name is actually openstack-keystone not keystone,https://bugs.launchpad.net/openstack-manuals/+bug/1023435,2012-07-13
+1020668,1020668,Fix Released,Misspelling in Compute Admin Manual,https://bugs.launchpad.net/openstack-manuals/+bug/1020668,2012-07-12
+1023465,1023465,Fix Released,Website PDF links broken,https://bugs.launchpad.net/openstack-manuals/+bug/1023465,2012-07-12
+1023513,1023513,Fix Released,devstack exercises fail after nova cpu mode change,https://bugs.launchpad.net/devstack/+bug/1023513,2012-07-12
+923304,923304,Fix Released,chef-solo vagrant file listed in compute admin manual doesn't work with vagrant --pre,https://bugs.launchpad.net/openstack-manuals/+bug/923304,2012-07-12
+1019124,1019124,Fix Released,Need update to cloud controller docs for yum install,https://bugs.launchpad.net/openstack-manuals/+bug/1019124,2012-07-12
+992624,992624,Fix Released,Compute API v2 docs should not reference Nova flag,https://bugs.launchpad.net/openstack-manuals/+bug/992624,2012-07-12
+1020579,1020579,Fix Released,Should document how to install XenServer or XCP,https://bugs.launchpad.net/openstack-manuals/+bug/1020579,2012-07-12
+962103,962103,Fix Released,Need to improve XenServer networking documentation,https://bugs.launchpad.net/openstack-manuals/+bug/962103,2012-07-12
+1011574,1011574,Fix Released,"delete instance first then delete volume openstack, volume in error_deleting status",https://bugs.launchpad.net/nova/+bug/1011574,2012-07-12
+1016042,1016042,Fix Released,Test Cases: New test cases for Security Groups,https://bugs.launchpad.net/tempest/+bug/1016042,2012-07-11
+1006033,1006033,Fix Released,Validation errors for Delete Image API - Expected response codes not received,https://bugs.launchpad.net/tempest/+bug/1006033,2012-07-11
+1004138,1004138,Fix Released,Fix for Bug 992275 Breaks on Python < 2.7,https://bugs.launchpad.net/tempest/+bug/1004138,2012-07-11
+993754,993754,Fix Released,Srever created in test needs to be destroyed in finally block for test_servers_personality.py,https://bugs.launchpad.net/tempest/+bug/993754,2012-07-11
+993739,993739,Fix Released,Ensure proper clean up of servers created in the tests for test_servers.py,https://bugs.launchpad.net/tempest/+bug/993739,2012-07-11
+993632,993632,Fix Released,kwargs in create_server should support key_name parameter,https://bugs.launchpad.net/tempest/+bug/993632,2012-07-11
+992275,992275,Fix Released,Testcase: Some new tests to be added to floating ip,https://bugs.launchpad.net/tempest/+bug/992275,2012-07-11
+992215,992215,Fix Released,Testcase: Some new tests to be added to test_images.py,https://bugs.launchpad.net/tempest/+bug/992215,2012-07-11
+992167,992167,Fix Released,Testcase: Some new tests to be added to test_security_groups.py,https://bugs.launchpad.net/tempest/+bug/992167,2012-07-11
+992149,992149,Fix Released,Testcase: Some new tests to test_keypairs.py,https://bugs.launchpad.net/tempest/+bug/992149,2012-07-11
+991842,991842,Fix Released,No clean up for the resource created in the test_list_floating_ips.py,https://bugs.launchpad.net/tempest/+bug/991842,2012-07-11
+990015,990015,Fix Released,setting metadata with empty keyname gives 413 error code,https://bugs.launchpad.net/tempest/+bug/990015,2012-07-11
+988783,988783,Fix Released,Volume test in diablo stable,https://bugs.launchpad.net/tempest/+bug/988783,2012-07-11
+985867,985867,Fix Released,remove conf_from_devstack in favor of devstack.git/tools/configure_tempest.sh,https://bugs.launchpad.net/tempest/+bug/985867,2012-07-11
+980119,980119,Fix Released,Tempest tests broken by Change I7dcb3a4b: Adds basic tests for disk config extension,https://bugs.launchpad.net/tempest/+bug/980119,2012-07-11
+978958,978958,Fix Released,Floating IP test assume label is private,https://bugs.launchpad.net/tempest/+bug/978958,2012-07-11
+978932,978932,Fix Released,Authentication problem with image service,https://bugs.launchpad.net/tempest/+bug/978932,2012-07-11
+972660,972660,Fix Released,number of python files have dos line endings,https://bugs.launchpad.net/tempest/+bug/972660,2012-07-11
+960864,960864,Fix Released,Testcase: Write Testcases for the action list Volumes and list Volumes with Detail,https://bugs.launchpad.net/tempest/+bug/960864,2012-07-11
+944410,944410,Fix Released,Tempest depends on glance being installed,https://bugs.launchpad.net/tempest/+bug/944410,2012-07-11
+943092,943092,Fix Released,"test_servers_negative.py: Name error, release not defined",https://bugs.launchpad.net/tempest/+bug/943092,2012-07-11
+938953,938953,Fix Released,"_parse_image_id method in test_Images needs to be refactored to split on ""images/"" not ""/""",https://bugs.launchpad.net/tempest/+bug/938953,2012-07-11
+931712,931712,Fix Released,keypairs test fails in many different ways,https://bugs.launchpad.net/tempest/+bug/931712,2012-07-11
+903989,903989,Fix Released,Fix config issues in Tempest,https://bugs.launchpad.net/tempest/+bug/903989,2012-07-11
+899456,899456,Fix Released,'auth_url' config parameter needs to be split for flexibility,https://bugs.launchpad.net/tempest/+bug/899456,2012-07-11
+999256,999256,Fix Released,images_client uses incorrect exception: BuildErrorException,https://bugs.launchpad.net/tempest/+bug/999256,2012-07-11
+992877,992877,Fix Released,Remove unnecessary calls to Manager in some of test scripts,https://bugs.launchpad.net/tempest/+bug/992877,2012-07-11
+979172,979172,Fix Released,clarification on licensing,https://bugs.launchpad.net/devstack/+bug/979172,2012-07-11
+979172,979172,Fix Released,clarification on licensing,https://bugs.launchpad.net/tempest/+bug/979172,2012-07-11
+977594,977594,Fix Released,Clients do not have a way to choose a specific endpoint,https://bugs.launchpad.net/tempest/+bug/977594,2012-07-11
+972673,972673,Fix Released,Incorrect named parameters in BuildErrorException in test_volumes_list,https://bugs.launchpad.net/tempest/+bug/972673,2012-07-11
+945803,945803,Fix Released,Keypairs client appends un-necessary slash,https://bugs.launchpad.net/tempest/+bug/945803,2012-07-11
+921409,921409,Fix Released,List Servers filter test additions,https://bugs.launchpad.net/tempest/+bug/921409,2012-07-11
+903979,903979,Fix Released,Testcase: Write testcases for test_server_metadata - (boundary),https://bugs.launchpad.net/tempest/+bug/903979,2012-07-11
+903978,903978,Fix Released,Testcase: Write testcases for test_server_actions (boundary),https://bugs.launchpad.net/tempest/+bug/903978,2012-07-11
+903977,903977,Fix Released,Testcase: Write testcases for test_list_servers (boundary),https://bugs.launchpad.net/tempest/+bug/903977,2012-07-11
+903976,903976,Fix Released,Testcase: Write testcases for test_list_images (boundary),https://bugs.launchpad.net/tempest/+bug/903976,2012-07-11
+903970,903970,Fix Released,Testcase: Write testcases for test_images (boundary),https://bugs.launchpad.net/tempest/+bug/903970,2012-07-11

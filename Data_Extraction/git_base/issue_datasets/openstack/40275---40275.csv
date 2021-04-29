@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1599983,1599983,Fix Released,Python 3.5 gate exposes issue in webob.response status code type,https://bugs.launchpad.net/keystone/+bug/1599983,2016-07-14
+1594371,1594371,Fix Released,Docs for keystone recommend deprecated memcache backend,https://bugs.launchpad.net/keystone/+bug/1594371,2016-07-14
+1563454,1563454,Fix Released,potential user_id conflict when REMOTE_USER is set,https://bugs.launchpad.net/keystone/+bug/1563454,2016-07-14
+1532280,1532280,Fix Released,Fernet trust token is still valid when trustee's domain is disabled.,https://bugs.launchpad.net/keystone/+bug/1532280,2016-07-14
+1602714,1602714,Fix Released,[api-ref] OS-ENDPOINT-POLICY docs need work,https://bugs.launchpad.net/keystone/+bug/1602714,2016-07-14
+1524153,1524153,Fix Released,"[api-ref] Add ""update user of OS-KSCRUD extension"" on identity v2 API",https://bugs.launchpad.net/keystone/+bug/1524153,2016-07-14
+1583987,1583987,Fix Released,reboot_server_hard - can trigger loss of pub key data which fails test,https://bugs.launchpad.net/tempest/+bug/1583987,2016-07-14
+1430937,1430937,Fix Released,Enable NetworkBasicOps test in tempest commit checks,https://bugs.launchpad.net/openstack-ansible/+bug/1430937,2016-07-14
+1425099,1425099,Fix Released,glance+swift non-functional in master branch,https://bugs.launchpad.net/openstack-ansible/+bug/1425099,2016-07-14
+1437054,1437054,Fix Released,Default container user's password is hardcoded,https://bugs.launchpad.net/openstack-ansible/+bug/1437054,2016-07-14
+1408363,1408363,Fix Released,Glance policy is too relaxed,https://bugs.launchpad.net/openstack-ansible/+bug/1408363,2016-07-14
+1403663,1403663,Fix Released,rabbit_hosts are in the same order in all configs on all hosts,https://bugs.launchpad.net/openstack-ansible/+bug/1403663,2016-07-14
+1406629,1406629,Fix Released,Uncontrolled RabbitMQ channel creation after rabbitmq-server failure,https://bugs.launchpad.net/openstack-ansible/+bug/1406629,2016-07-14
+1416569,1416569,Fix Released,Clarify what options are required/optional for swift configuration,https://bugs.launchpad.net/openstack-ansible/+bug/1416569,2016-07-14
+1417973,1417973,Fix Released,Ability to run multiple levels of tempest tests,https://bugs.launchpad.net/openstack-ansible/+bug/1417973,2016-07-14
+1418122,1418122,Fix Released,Tempest playbook can't connect to utility containers,https://bugs.launchpad.net/openstack-ansible/+bug/1418122,2016-07-14
+1419094,1419094,Fix Released,AIO should run some basic tempest tests,https://bugs.launchpad.net/openstack-ansible/+bug/1419094,2016-07-14
+1424733,1424733,Fix Released,Lint check fails due to ansible lookup,https://bugs.launchpad.net/openstack-ansible/+bug/1424733,2016-07-14
+1424979,1424979,Fix Released,swift_hash_path_suffix / swift_hash_path_prefix not being populated correctly,https://bugs.launchpad.net/openstack-ansible/+bug/1424979,2016-07-14
+1447768,1447768,Fix Released,Heat does not work when using LDAP as identity backend,https://bugs.launchpad.net/openstack-ansible/+bug/1447768,2016-07-14
+1452316,1452316,Fix Released,Galera logs not readable,https://bugs.launchpad.net/openstack-ansible/+bug/1452316,2016-07-14
+1399797,1399797,Fix Released,Cinder doesn't failover to additional API containers,https://bugs.launchpad.net/openstack-ansible/+bug/1399797,2016-07-14
+1402487,1402487,Fix Released,Set expire_logs_days in mariadb,https://bugs.launchpad.net/openstack-ansible/+bug/1402487,2016-07-14
+1403676,1403676,Fix Released,Remove Rackspace-Specific Playbooks From the openstack-ansible Repo,https://bugs.launchpad.net/openstack-ansible/+bug/1403676,2016-07-14
+1410511,1410511,Fix Released,swift plays use localhost to set up swift config files,https://bugs.launchpad.net/openstack-ansible/+bug/1410511,2016-07-14
+1421048,1421048,Fix Released,public_endpoint set to internal LB vip,https://bugs.launchpad.net/openstack-ansible/+bug/1421048,2016-07-14
+1422936,1422936,Fix Released,Tempest failing on TestNetworkBasicOps,https://bugs.launchpad.net/openstack-ansible/+bug/1422936,2016-07-14
+1424525,1424525,Fix Released,Make policy.json configurable / replaceable,https://bugs.launchpad.net/openstack-ansible/+bug/1424525,2016-07-14
+1424921,1424921,Fix Released,Regression in the AIO script with the Kernel check,https://bugs.launchpad.net/openstack-ansible/+bug/1424921,2016-07-14
+1425717,1425717,Fix Released,AIO scripts configure public network to use a gateway IP that doesn't exist,https://bugs.launchpad.net/openstack-ansible/+bug/1425717,2016-07-14
+1425971,1425971,Fix Released,print statement in dynamic_inventory script breaks json output,https://bugs.launchpad.net/openstack-ansible/+bug/1425971,2016-07-14
+1434129,1434129,Fix Released,Check ANSIBLE_ROLE_FILE when looking for requirements file,https://bugs.launchpad.net/openstack-ansible/+bug/1434129,2016-07-14
+1434139,1434139,Fix Released,Change directories before trying to install ansible galaxy roles,https://bugs.launchpad.net/openstack-ansible/+bug/1434139,2016-07-14
+1441110,1441110,Fix Released,the horizon playbook does not restart apache2 when local_settings.py is changed,https://bugs.launchpad.net/openstack-ansible/+bug/1441110,2016-07-14
+1454860,1454860,Fix Released,Specify How Rabbit Recovers From Network Partitioning,https://bugs.launchpad.net/openstack-ansible/+bug/1454860,2016-07-14
+1399419,1399419,Fix Released,Cinder service created when there are no storage_hosts,https://bugs.launchpad.net/openstack-ansible/+bug/1399419,2016-07-14
+1399434,1399434,Fix Released,haproxy db users always created,https://bugs.launchpad.net/openstack-ansible/+bug/1399434,2016-07-14
+1401135,1401135,Fix Released,neutron fails to start on consolidated architecture - vxlan not unique mapping,https://bugs.launchpad.net/openstack-ansible/+bug/1401135,2016-07-14
+1420312,1420312,Fix Released,Dynamic inventory print dependency errors don't help,https://bugs.launchpad.net/openstack-ansible/+bug/1420312,2016-07-14
+1423235,1423235,Fix Released,lots of unnecessary if blocks in ml2_conf.ini template,https://bugs.launchpad.net/openstack-ansible/+bug/1423235,2016-07-14
+1424981,1424981,Fix Released,No role default for swift_allow_all_users,https://bugs.launchpad.net/openstack-ansible/+bug/1424981,2016-07-14
+1434233,1434233,Fix Released,Non-existent variable in os_glance role,https://bugs.launchpad.net/openstack-ansible/+bug/1434233,2016-07-14
+1399360,1399360,Fix Released,ansible logging: keystone user/tenant/role changes could do with improvement,https://bugs.launchpad.net/openstack-ansible/+bug/1399360,2016-07-14
+1399373,1399373,Fix Released,ansible lxc module,https://bugs.launchpad.net/openstack-ansible/+bug/1399373,2016-07-14
+1399386,1399386,Fix Released,Cinder Backup,https://bugs.launchpad.net/openstack-ansible/+bug/1399386,2016-07-14
+1413635,1413635,Fix Released,generating and ignoring ansible failures does not look nice,https://bugs.launchpad.net/openstack-ansible/+bug/1413635,2016-07-14
+1452456,1452456,Fix Released,Set up global proxy environment variables from user variable,https://bugs.launchpad.net/openstack-ansible/+bug/1452456,2016-07-14
+1590743,1590743,Fix Released,Rules create API returns 200 on success instead of 201,https://bugs.launchpad.net/ironic-inspector/+bug/1590743,2016-07-14
+1557190,1557190,Fix Released,Fuel doesn't accept ssh connection,https://bugs.launchpad.net/fuel/+bug/1557190,2016-07-14
+1602354,1602354,Fix Committed,SSH access change in Fuel Mitaka needs to be documented,https://bugs.launchpad.net/fuel/+bug/1602354,2016-07-14
+1603128,1603128,Fix Committed,[ci][10.0.all] Switch to Ubuntu Xenial repositories,https://bugs.launchpad.net/fuel/+bug/1603128,2016-07-14
+1550532,1550532,Fix Released,V2 zone import/export are not implemented,https://bugs.launchpad.net/python-designateclient/+bug/1550532,2016-07-14
+1572217,1572217,Fix Released,Docs for python-designateclient V2 seem sparse,https://bugs.launchpad.net/python-designateclient/+bug/1572217,2016-07-14
+1575259,1575259,Fix Released,openstackclient should be listed as a project requirement,https://bugs.launchpad.net/python-designateclient/+bug/1575259,2016-07-14
+1578207,1578207,Fix Released,Update designate command line tool  page with more examples,https://bugs.launchpad.net/python-designateclient/+bug/1578207,2016-07-14
+1583982,1583982,Fix Released,"Unhandled exceptions in central, during PM start, can cause PM to fail",https://bugs.launchpad.net/designate/+bug/1583982,2016-07-14
+1588734,1588734,Fix Released,"'tox  -e docs' commads failing with ""Duplicate explicit target name"" error",https://bugs.launchpad.net/designate/+bug/1588734,2016-07-14
+1579844,1579844,Fix Released,Designate created_at mapping parser exception,https://bugs.launchpad.net/designate/+bug/1579844,2016-07-14
+1602703,1602703,Fix Released,Administrative How-To Guide(s),https://bugs.launchpad.net/designate/+bug/1602703,2016-07-14
+1557495,1557495,Fix Released,Possible race conditions when changing image status in v2,https://bugs.launchpad.net/glance/+bug/1557495,2016-07-14
+1587944,1587944,Fix Released,incorrect title of quota:vif_outbound_peak,https://bugs.launchpad.net/glance/+bug/1587944,2016-07-14
+1591004,1591004,Fix Released,Unable to download image with no checksum when cache is enabled,https://bugs.launchpad.net/glance/+bug/1591004,2016-07-14
+1593177,1593177,Fix Released,The default policy should be admin,https://bugs.launchpad.net/glance/+bug/1593177,2016-07-14
+1598928,1598928,Fix Released,glance-replicator does not accept space-separated command-line arguments,https://bugs.launchpad.net/glance/+bug/1598928,2016-07-14
+1598985,1598985,Fix Released,glance-replicator compare output should show image name in addition to image id for missing images,https://bugs.launchpad.net/glance/+bug/1598985,2016-07-14
+1599192,1599192,Fix Released,glance-replicator size: Display human-readable size,https://bugs.launchpad.net/glance/+bug/1599192,2016-07-14
+1599314,1599314,Fix Released,Return 400 when name is more than 255 characters,https://bugs.launchpad.net/glance/+bug/1599314,2016-07-14
+1602996,1602996,Fix Committed,Fix remove controllers test from scale group,https://bugs.launchpad.net/fuel/+bug/1602996,2016-07-14
+1576732,1576732,Fix Committed,Rally test. Duplicate agent.,https://bugs.launchpad.net/fuel-plugin-vmware-dvs/+bug/1576732,2016-07-14
+1596521,1596521,Fix Released,Change version in User Guide file,https://bugs.launchpad.net/fuel-plugin-vmware-dvs/+bug/1596521,2016-07-14
+1545651,1545651,Fix Committed,ironic_deploy_ceph test failed after deployment on getting ironic-deploy-linux image,https://bugs.launchpad.net/fuel/+bug/1545651,2016-07-14
+1558884,1558884,Fix Released,Facets on analyzed string fields should attempt to return raw (sort) subfield,https://bugs.launchpad.net/searchlight/+bug/1558884,2016-07-14
+1589319,1589319,Fix Released,Reindex tests fail under Elasticsearch 2.x,https://bugs.launchpad.net/searchlight/+bug/1589319,2016-07-14
+1545069,1545069,Fix Released,"Normalize 'project_id', 'tenant_id', & 'owner' -> project_id",https://bugs.launchpad.net/searchlight/+bug/1545069,2016-07-14
+1579986,1579986,Fix Released,Disable_doc_values property in plugin code doesn't work,https://bugs.launchpad.net/searchlight/+bug/1579986,2016-07-14

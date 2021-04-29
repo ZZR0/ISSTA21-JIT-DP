@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1786870,1786870,Fix Released,alias can not support list for pci device,https://bugs.launchpad.net/nova/+bug/1786870,2019-03-22
+1790195,1790195,Fix Released,performance problems starting up nova process due to regex code,https://bugs.launchpad.net/nova/+bug/1790195,2019-03-22
+1793533,1793533,Fix Released,Scheduler doesn't filter out deleted compute node records based on placement RP UUIDs,https://bugs.launchpad.net/nova/+bug/1793533,2019-03-22
+1759420,1759420,Fix Released,nova does not correctly support HW_DISK_BUS=sata or usb for kvm/qemu,https://bugs.launchpad.net/nova/+bug/1759420,2019-03-22
+1757207,1757207,Fix Released,compute resource providers not equal to compute nodes in deployment,https://bugs.launchpad.net/nova/+bug/1757207,2019-03-22
+1793768,1793768,Fix Released,VirtDriverNotReady trace in _sync_power_states periodic from ironic nova-compute,https://bugs.launchpad.net/nova/+bug/1793768,2019-03-22
+1792313,1792313,Fix Released,Only one NVMe connection may be functional on Compute node,https://bugs.launchpad.net/nova/+bug/1792313,2019-03-22
+1784155,1784155,Fix Released,nova_placement service start not coordinated with api db sync on multiple controllers,https://bugs.launchpad.net/nova/+bug/1784155,2019-03-22
+1784155,1784155,Fix Released,nova_placement service start not coordinated with api db sync on multiple controllers,https://bugs.launchpad.net/tripleo/+bug/1784155,2019-03-22
+1794306,1794306,Fix Released,"Option ""scheduler_default_filters"" is deprecated",https://bugs.launchpad.net/nova/+bug/1794306,2019-03-22
+1793747,1793747,Fix Released,Fails to boot instance using Blazar flavor if compute host names are in uppercase,https://bugs.launchpad.net/nova/+bug/1793747,2019-03-22
+1709260,1709260,Fix Released,Addition of host to host-aggregate should be case -sensitive,https://bugs.launchpad.net/nova/+bug/1709260,2019-03-22
+1794364,1794364,Fix Released,'nova-manage db online_data_migrations' count fail,https://bugs.launchpad.net/nova/+bug/1794364,2019-03-22
+1794364,1794364,Fix Released,'nova-manage db online_data_migrations' count fail,https://bugs.launchpad.net/cinder/+bug/1794364,2019-03-22
+1794811,1794811,Fix Released,Lack of allocation candidates is only logged in DEBUG,https://bugs.launchpad.net/nova/+bug/1794811,2019-03-22
+1794812,1794812,Fix Released,Redis caching backend throws stacktraces,https://bugs.launchpad.net/nova/+bug/1794812,2019-03-22
+1795078,1795078,Fix Released,"""OsloDBDeprecationWarning: EngineFacade is deprecated; please use oslo_db.sqlalchemy.enginefacade"" warnings emitted numerous times during py3 unit tests",https://bugs.launchpad.net/nova/+bug/1795078,2019-03-22
+1796054,1796054,Fix Released,api-ref: the evacuate action should be in the admin action section,https://bugs.launchpad.net/nova/+bug/1796054,2019-03-22
+1796737,1796737,Fix Released,resize: hypervisor local_gb_used still reports usage even with volume-backed instances after fix for bug 1469179,https://bugs.launchpad.net/nova/+bug/1796737,2019-03-22
+1796676,1796676,Fix Released,Install and configure a compute node for Ubuntu in nova,https://bugs.launchpad.net/nova/+bug/1796676,2019-03-22
+1789998,1789998,Fix Released,ResourceProviderAllocationRetrievalFailed ERROR log message on fresh n-cpu startup,https://bugs.launchpad.net/nova/+bug/1789998,2019-03-22
+1795982,1795982,Fix Released,/os-console-auth-tokens/{console_token} API doesn't handle the database backend,https://bugs.launchpad.net/nova/+bug/1795982,2019-03-22
+1796981,1796981,Fix Released,nova/compute/manager.py throws TypeError: 'NoneType' object is not iterable,https://bugs.launchpad.net/nova/+bug/1796981,2019-03-22
+1797815,1797815,Fix Released,"DeprecationWarning: decodestring() is a deprecated alias, use decodebytes()",https://bugs.launchpad.net/nova/+bug/1797815,2019-03-22
+1796192,1796192,Fix Released,online_data_migrations exceptions quietly masked,https://bugs.launchpad.net/nova/+bug/1796192,2019-03-22
+1796192,1796192,Fix Released,online_data_migrations exceptions quietly masked,https://bugs.launchpad.net/cinder/+bug/1796192,2019-03-22
+1798163,1798163,Fix Released,Placement incomplete consumers online migration fails,https://bugs.launchpad.net/nova/+bug/1798163,2019-03-22
+1798158,1798158,Fix Released,Non-templated transport_url will fail if not defined in config,https://bugs.launchpad.net/nova/+bug/1798158,2019-03-22
+1798172,1798172,Fix Released,Ironic driver tries to update the compute_node's UUID which of course fails in case of existing compute_nodes,https://bugs.launchpad.net/nova/+bug/1798172,2019-03-22
+1798594,1798594,Fix Released,PendingDeprecationWarning: Please use assertRegex instead.,https://bugs.launchpad.net/nova/+bug/1798594,2019-03-22
+1778206,1778206,Fix Released,Compute leaks volume attachments if we fail in driver.pre_live_migration,https://bugs.launchpad.net/nova/+bug/1778206,2019-03-22
+1771538,1771538,Fix Released,PowerVM config drive path is not secure,https://bugs.launchpad.net/nova-powervm/+bug/1771538,2019-03-22
+1771538,1771538,Fix Released,PowerVM config drive path is not secure,https://bugs.launchpad.net/nova/+bug/1771538,2019-03-22
+1799113,1799113,Fix Released,queens/pike compute rpcapi version mismatch,https://bugs.launchpad.net/nova/+bug/1799113,2019-03-22
+1784353,1784353,Fix Released,Rescheduled boot from volume instances fail due to the premature removal of their attachments,https://bugs.launchpad.net/nova/+bug/1784353,2019-03-22
+1796008,1796008,Fix Released,"When ``changes-before`` <  ``changes-since``, getting instance migrations records is null",https://bugs.launchpad.net/nova/+bug/1796008,2019-03-22
+1796009,1796009,Fix Released,"When ``changes-before`` <  ``changes-since``, getting instance atcions records is null",https://bugs.launchpad.net/nova/+bug/1796009,2019-03-22
+1799893,1799893,Fix Released,api-ref:  Redundant minimum microversion description in parameters,https://bugs.launchpad.net/nova/+bug/1799893,2019-03-22
+1799707,1799707,Fix Released,shutdown_timeout config min version is not consistent with glance image meta def,https://bugs.launchpad.net/nova/+bug/1799707,2019-03-22
+1799727,1799727,Fix Released,CPU_Allocation_Ratio from nova.conf doesn't update exisiting providers,https://bugs.launchpad.net/nova/+bug/1799727,2019-03-22
+1801444,1801444,Fix Released,the nubmers of service components is not right,https://bugs.launchpad.net/nova/+bug/1801444,2019-03-22
+1558459,1558459,Fix Released,api-guide: server concepts: multiple format and style issues,https://bugs.launchpad.net/nova/+bug/1558459,2019-03-22
+1802247,1802247,Fix Released,api version details return 302 Found,https://bugs.launchpad.net/nova/+bug/1802247,2019-03-22
+1799246,1799246,Fix Released,module level init of db transation contexts cause failure under mod_wsgi on module reload,https://bugs.launchpad.net/nova/+bug/1799246,2019-03-22
+1802167,1802167,Fix Released,nova-manage db purge -h has weird help for --before option,https://bugs.launchpad.net/nova/+bug/1802167,2019-03-22
+1802111,1802111,Fix Released,Unable to assign more than 7 tenants to a filter_tenant_id string,https://bugs.launchpad.net/nova/+bug/1802111,2019-03-22
+1801789,1801789,Fix Released,GET /os-migrations sample has incorrect sort order,https://bugs.launchpad.net/nova/+bug/1801789,2019-03-22
+1771810,1771810,Fix Released,Quota calculation connects to all available cells,https://bugs.launchpad.net/nova/+bug/1771810,2019-03-22
+1801904,1801904,Fix Released,Server concepts in nova,https://bugs.launchpad.net/nova/+bug/1801904,2019-03-22
+1795992,1795992,Fix Released,retry_select_destinations decorator can make a mess with allocations in placement in a large multi-create request,https://bugs.launchpad.net/nova/+bug/1795992,2019-03-22
+1799892,1799892,Fix Released,Placement API crashes with 500s in Rocky upgrade with downed compute nodes,https://bugs.launchpad.net/nova/+bug/1799892,2019-03-22
+1804325,1804325,Fix Released,InstanceNotFound traceback errors in n-api logs while polling for server delete,https://bugs.launchpad.net/nova/+bug/1804325,2019-03-22
+1803627,1803627,Fix Released,Nova requires you to name your volumev3 service cinderv3,https://bugs.launchpad.net/nova/+bug/1803627,2019-03-22
+1805800,1805800,Fix Released,misuse of assertTrue,https://bugs.launchpad.net/nova/+bug/1805800,2019-03-22
+1804653,1804653,Fix Released,Provide user data to instances in nova should explicitly tell in the docs about the size limit,https://bugs.launchpad.net/nova/+bug/1804653,2019-03-22
+1806123,1806123,Fix Released,i/o concurrency semaphore test changes are racy,https://bugs.launchpad.net/nova/+bug/1806123,2019-03-22
+1806471,1806471,Fix Released,"In Nova, conf_key_manager logs encryption key value",https://bugs.launchpad.net/nova/+bug/1806471,2019-03-22
+1795425,1795425,Fix Released,create server api sends location header as bytestring in py3,https://bugs.launchpad.net/nova/+bug/1795425,2019-03-22
+1806925,1806925,Fix Released,evacuate test fails due to timeout waiting for evacuate to complete,https://bugs.launchpad.net/nova/+bug/1806925,2019-03-22
+1727369,1727369,Fix Released,_supports_direct_io() check fails on shared storage,https://bugs.launchpad.net/nova/+bug/1727369,2019-03-22
+1807407,1807407,Fix Released,snapshot related tests intermittently fail in cells v1 job,https://bugs.launchpad.net/nova/+bug/1807407,2019-03-22
+1800472,1800472,Fix Released,"nova.tests.functional.test_server_group.ServerGroupTestV264.test_boot_servers_with_affinity_no_valid_host intermittently failing with ""OpenStackApiNotFoundException: Item not found""",https://bugs.launchpad.net/nova/+bug/1800472,2019-03-22
+1798688,1798688,Fix Released,AllocationUpdateFailed_Remote: Failed to update allocations for consumer. Error: another process changed the consumer after the report client read the consumer state during the claim,https://bugs.launchpad.net/nova/+bug/1798688,2019-03-22
+1776481,1776481,Fix Released,WS-based serial port proxy prevents access to console log file,https://bugs.launchpad.net/nova/+bug/1776481,2019-03-22
+1807970,1807970,Fix Released,test_multi_cell_list fails in python 3.7,https://bugs.launchpad.net/nova/+bug/1807970,2019-03-22
+1807976,1807976,Fix Released,In python 3.7 the definition of a printable character is changed so test_flavors fails,https://bugs.launchpad.net/nova/+bug/1807976,2019-03-22
+1804271,1804271,Fix Released,nova-api is broken in postgresql jobs,https://bugs.launchpad.net/nova/+bug/1804271,2019-03-22
+1808579,1808579,Fix Released,Compute API in nova - issues in force_complete live migration API ref,https://bugs.launchpad.net/nova/+bug/1808579,2019-03-22
+1798224,1798224,Fix Released,"DeprecationWarning: The behavior of .best_match for the Accept classes is currently being maintained for backward compatibility, but the method will be deprecated in the future",https://bugs.launchpad.net/nova/+bug/1798224,2019-03-22
+1808879,1808879,Fix Released,meta-api request header logging is useless,https://bugs.launchpad.net/nova/+bug/1808879,2019-03-22
+1799249,1799249,Fix Released,"""UserWarning: Cannot convert <oslo_db.sqlalchemy.enginefacade._Default object at 0x7f5db695a2b8> to primitive, will raise ValueError instead of warning in version 3.0"" seen in nova functional tests due to CheatingSerializer",https://bugs.launchpad.net/nova/+bug/1799249,2019-03-22
+1808956,1808956,Fix Released,nova-status upgrade check fails with extracted placement-api,https://bugs.launchpad.net/nova/+bug/1808956,2019-03-22
+1797102,1797102,Fix Released,DeprecationWarning: Using class 'DbFixture' (either directly or via inheritance) is deprecated: Please use oslo_db.sqlalchemy.test_fixtures directly,https://bugs.launchpad.net/nova/+bug/1797102,2019-03-22
+1809755,1809755,Fix Released,DeprecationWarning: Please use rfc3986.validators.Validator instead.,https://bugs.launchpad.net/nova/+bug/1809755,2019-03-22
+1800936,1800936,Fix Released,2.66 server-get-resp.json API sample is wrong - and likely not tested,https://bugs.launchpad.net/nova/+bug/1800936,2019-03-22

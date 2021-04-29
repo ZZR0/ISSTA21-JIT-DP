@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1628526,1628526,Fix Released,Test with ldap for authentication failed with Not all required panels are available in main menu,https://bugs.launchpad.net/lma-toolchain/+bug/1628526,2016-10-06
+1625456,1625456,Fix Released,[SWARM]Fuel-qa: error in nodes count checker,https://bugs.launchpad.net/fuel/+bug/1625456,2016-10-06
+1630280,1630280,Fix Released,Use *vnet* (accounts for vNIC) slot methods instead of deprecated vea/cna methods,https://bugs.launchpad.net/nova-powervm/+bug/1630280,2016-10-06
+1577799,1577799,Fix Released,os-neutron install fails from Kilo to Liberty,https://bugs.launchpad.net/openstack-ansible/+bug/1577799,2016-10-06
+1625829,1625829,Fix Released,instance shut down and start up breaks neutron networking,https://bugs.launchpad.net/neutron/+bug/1625829,2016-10-06
+1630521,1630521,Fix Released,UPDATE_MASTER hardcoded to True if we use UPDATE_FUEL_MIRROR,https://bugs.launchpad.net/fuel/+bug/1630521,2016-10-06
+1623600,1623600,Fix Released,OpenStack client ignores OS_INTERFACE,https://bugs.launchpad.net/openstack-ansible/+bug/1623600,2016-10-06
+1618929,1618929,Fix Released,Horizon's LBaaS panels should be auto-enabled when LBaaSv2 is deployed,https://bugs.launchpad.net/openstack-ansible/+bug/1618929,2016-10-06
+1573131,1573131,Fix Released,Changes to global_environment_variables cause duplication,https://bugs.launchpad.net/openstack-ansible/+bug/1573131,2016-10-06
+1603703,1603703,Fix Released,endpoints created with unexpected protocol,https://bugs.launchpad.net/openstack-ansible/+bug/1603703,2016-10-06
+1594923,1594923,Fix Released,Variable name executor_thread_pool_size typo in os_neutron role,https://bugs.launchpad.net/openstack-ansible/+bug/1594923,2016-10-06
+1621612,1621612,Fix Released,lxc container service logs filling syslog,https://bugs.launchpad.net/openstack-ansible/+bug/1621612,2016-10-06
+1495685,1495685,Fix Released,Swift's CLI can't authenticate by default,https://bugs.launchpad.net/openstack-ansible/+bug/1495685,2016-10-06
+1552362,1552362,Fix Released,haproxy-install.yml should run when haproxy_hosts are defined,https://bugs.launchpad.net/openstack-ansible/+bug/1552362,2016-10-06
+1630985,1630985,Fix Released,Pods failed to start with error KeyError: 'etcd_client_port',https://bugs.launchpad.net/fuel-ccp/+bug/1630985,2016-10-06
+1611322,1611322,Fix Released,We should prepare right resolv config including namespaces into search domain,https://bugs.launchpad.net/fuel-ccp/+bug/1611322,2016-10-06
+1614484,1614484,Fix Released,Hostnames are not correct in Grafana,https://bugs.launchpad.net/fuel-ccp/+bug/1614484,2016-10-06
+1628883,1628883,Fix Released,Minimum requirements too low on oslo.log for keystone,https://bugs.launchpad.net/keystone/+bug/1628883,2016-10-06
+1630568,1630568,Fix Released,Create a gerrit user for jenkins,https://bugs.launchpad.net/fuel/+bug/1630568,2016-10-06
+1627778,1627778,Fix Released,Build command fails on the step pushing keystone image into local registry,https://bugs.launchpad.net/fuel-ccp/+bug/1627778,2016-10-06
+1618859,1618859,Fix Released,"postinstall : Wait for kubedns to be ready] failed ;; connection timed out; no servers could be reached""",https://bugs.launchpad.net/fuel-ccp/+bug/1618859,2016-10-06
+1612503,1612503,Fix Released,[doc] cephfs_native: add read-only share support,https://bugs.launchpad.net/manila/+bug/1612503,2016-10-06
+1600793,1600793,Fix Committed,slave-nodes-create-and-boot.sh show incorrect MAC address,https://bugs.launchpad.net/fuel/+bug/1600793,2016-10-06
+1618880,1618880,Fix Committed,"[Systests] Fix race condition in the test ""upload_config_for_node_and_env_in_transitional_state""",https://bugs.launchpad.net/fuel/+bug/1618880,2016-10-06
+1616047,1616047,Fix Committed,Cover up with test-cases config db improvements,https://bugs.launchpad.net/fuel/+bug/1616047,2016-10-06
+1591261,1591261,Fix Released,system test change_pacemaker_parameter_not_break_rabbitmq failed with TimeoutError: All nodes are staying in the cluster,https://bugs.launchpad.net/fuel/+bug/1591261,2016-10-06
+1629092,1629092,Fix Released,disk replacement on srv129-bud.infra.mirantis.net,https://bugs.launchpad.net/fuel/+bug/1629092,2016-10-06
+1558672,1558672,Fix Released,hexdump: command not found,https://bugs.launchpad.net/devstack/+bug/1558672,2016-10-06
+1397893,1397893,Fix Released,Undeletable volume-backed instance,https://bugs.launchpad.net/nova/+bug/1397893,2016-10-05
+1387244,1387244,Fix Released,Increasing number of InstancePCIRequests.get_by_instance_uuid RPC calls during compute host auditing,https://bugs.launchpad.net/nova/+bug/1387244,2016-10-05
+1418187,1418187,Fix Released,_get_host_numa_topology assumes numa cell has memory,https://bugs.launchpad.net/nova/+bug/1418187,2016-10-05
+1594261,1594261,Fix Released,No strict Boolean checking,https://bugs.launchpad.net/cinder/+bug/1594261,2016-10-05
+1501883,1501883,Fix Released,Update README,https://bugs.launchpad.net/tosca-parser/+bug/1501883,2016-10-05
+1626286,1626286,Fix Released,Upgrade murano with adding murano-node causes service fault,https://bugs.launchpad.net/fuel-plugin-murano/+bug/1626286,2016-10-05
+1630499,1630499,Fix Released,"""deploy_config"" was deleted from scheme ccp.yaml need to be fixed in the tests",https://bugs.launchpad.net/fuel-ccp/+bug/1630499,2016-10-05
+1628815,1628815,Fix Committed,the upgrade path from 7.0 to 9.1 does not support multi-rack installations,https://bugs.launchpad.net/fuel/+bug/1628815,2016-10-05
+1630429,1630429,Fix Committed,Disabling subnetpool feautre,https://bugs.launchpad.net/neutron/+bug/1630429,2016-10-05
+1614279,1614279,Fix Released,Merge YAML settings resource is non-idempotent,https://bugs.launchpad.net/fuel/+bug/1614279,2016-10-05
+1590872,1590872,Fix Committed,'fuel2 task history' shows extra tasks,https://bugs.launchpad.net/fuel/+bug/1590872,2016-10-05
+1601895,1601895,Fix Released,[upgrade][MOS cluster 7.0->8.0] ostf tests failed after upgrade,https://bugs.launchpad.net/fuel/+bug/1601895,2016-10-05
+1610257,1610257,Fix Released,'prefixlen' argument is absent for 'subnet' method in 'change_public_vip' test,https://bugs.launchpad.net/fuel/+bug/1610257,2016-10-05
+1630202,1630202,Fix Released,fuel-ccp-neutron creates broken network namespaces on a host level,https://bugs.launchpad.net/fuel-ccp/+bug/1630202,2016-10-05
+1627611,1627611,Fix Released,There isn't test for add upgraded node to cluster,https://bugs.launchpad.net/fuel/+bug/1627611,2016-10-05
+1574999,1574999,Fix Committed,[regression] MySQL may fail to SST because of a ./ib* files race condition,https://bugs.launchpad.net/fuel/+bug/1574999,2016-10-05
+1388779,1388779,Fix Committed,Full reassemble of Galera cluster fails in case of epoch divergence,https://bugs.launchpad.net/fuel/+bug/1388779,2016-10-05
+1572239,1572239,Fix Committed,mysql-wss can potentially stop mysqld during SST,https://bugs.launchpad.net/fuel/+bug/1572239,2016-10-05
+1594337,1594337,Fix Released,One of Rabbitmq service instances gracefully shutdown,https://bugs.launchpad.net/lma-toolchain/+bug/1594337,2016-10-05
+1603960,1603960,Fix Committed,[octane] Incorrect skip of tasks for Fuel 9.0,https://bugs.launchpad.net/fuel/+bug/1603960,2016-10-05
+1624521,1624521,Fix Released,os_gnocchi role gate has no functional testing,https://bugs.launchpad.net/openstack-ansible/+bug/1624521,2016-10-05
+1627732,1627732,Fix Released,Security docs occasionally fail with pickling error,https://bugs.launchpad.net/openstack-ansible/+bug/1627732,2016-10-05
+1626615,1626615,Fix Released,bootstrap-host role with multi-node configuration attaches br-vlan to wrong interface,https://bugs.launchpad.net/openstack-ansible/+bug/1626615,2016-10-05
+1623149,1623149,Fix Released,Doc: Better clarification for container_interface in user_config,https://bugs.launchpad.net/openstack-ansible/+bug/1623149,2016-10-05
+1625722,1625722,Fix Released,Newton upgrade fails due to bind mount of /var/log,https://bugs.launchpad.net/openstack-ansible/+bug/1625722,2016-10-05
+1630482,1630482,Fix Released,miss doing aging when ovsdb reconnect to df,https://bugs.launchpad.net/dragonflow/+bug/1630482,2016-10-05
+1624382,1624382,Fix Released,The description goes beyond in the UI.,https://bugs.launchpad.net/fuel-plugin-vmware-dvs/+bug/1624382,2016-10-05
+1618909,1618909,Fix Committed,After changing pacemaker parameter rabbit master node does not leave cluster,https://bugs.launchpad.net/fuel/+bug/1618909,2016-10-05
+1630122,1630122,Fix Released,6.1.mos.deploy-deb job is failing,https://bugs.launchpad.net/fuel/+bug/1630122,2016-10-05
+1630539,1630539,Fix Committed,6.1.mos.deploy-deb job is failing because of incorrect fuel's hostname,https://bugs.launchpad.net/fuel/+bug/1630539,2016-10-05
+1610145,1610145,Fix Released,Updates for 'test_scale_group_2.py' should be add to stable/mitaka from master branch,https://bugs.launchpad.net/fuel/+bug/1610145,2016-10-05
+1551092,1551092,Fix Released,Failed 8.0 ISO community build,https://bugs.launchpad.net/fuel/+bug/1551092,2016-10-05
+1549594,1549594,Fix Released,Create Fuel Plugin Datera Cinder project in /Openstack,https://bugs.launchpad.net/fuel/+bug/1549594,2016-10-05
+1599544,1599544,Fix Released,Create Fuel Plugin fuel-plugin-cinder-gcs project in /openstack,https://bugs.launchpad.net/fuel/+bug/1599544,2016-10-05
+1578037,1578037,Fix Released,pin the base image and the image tag,https://bugs.launchpad.net/kolla/+bug/1578037,2016-10-05
+1585085,1585085,Fix Released,Deleted hosts could be listed in IBM FlashSystem iSCSI driver,https://bugs.launchpad.net/cinder/+bug/1585085,2016-10-05
+1609566,1609566,Fix Released,500 error from revocation event deserialize,https://bugs.launchpad.net/keystone/+bug/1609566,2016-10-04
+1566841,1566841,Fix Released,Sheepdog backup fails due to Invalid InitiatorConnector protocol specified SHEEPDOG,https://bugs.launchpad.net/cinder/+bug/1566841,2016-10-04
+1629828,1629828,Fix Released,disk replacement on srv131-bud.infra.mirantis.net,https://bugs.launchpad.net/fuel/+bug/1629828,2016-10-04
+1586149,1586149,Fix Released,ceph driver throws errors on initial empty backlog,https://bugs.launchpad.net/gnocchi/+bug/1586149,2016-10-04
+1623979,1623979,Fix Released,Add option to build shared library,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1623979,2016-10-04
+1573595,1573595,Fix Released,Sahara should use glance client to produce operations with images,https://bugs.launchpad.net/sahara-tests/+bug/1573595,2016-10-04
+1573595,1573595,Fix Released,Sahara should use glance client to produce operations with images,https://bugs.launchpad.net/sahara/+bug/1573595,2016-10-04
+1414000,1414000,Fix Released,Images get returns images not registered in Sahara,https://bugs.launchpad.net/sahara/+bug/1414000,2016-10-04
+1425835,1425835,Fix Released,tempest-sahara-tests job broken,https://bugs.launchpad.net/sahara/+bug/1425835,2016-10-04
+1501347,1501347,Fix Released,tempest-sahara-tests job is broken again,https://bugs.launchpad.net/sahara/+bug/1501347,2016-10-04
+1506781,1506781,Fix Released,tempest-sahara-tests job is broken,https://bugs.launchpad.net/sahara/+bug/1506781,2016-10-04

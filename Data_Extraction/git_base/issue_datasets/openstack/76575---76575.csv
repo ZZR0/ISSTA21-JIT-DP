@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1353653,1353653,Fix Released,Wiki's Youtube plugin appears broken,https://bugs.launchpad.net/openstack-ci/+bug/1353653,2014-08-29
+1361980,1361980,Fix Released,Typo in the service name openstacknova-api,https://bugs.launchpad.net/openstack-manuals/+bug/1361980,2014-08-29
+1362748,1362748,Fix Released,Misleading informations about WSGI servers in dashboard security docs,https://bugs.launchpad.net/openstack-manuals/+bug/1362748,2014-08-29
+1313517,1313517,Fix Released,Quantum-metadata-agent does not run on network node in OpenStack Operations Guide Figure 1.4.,https://bugs.launchpad.net/openstack-manuals/+bug/1313517,2014-08-29
+1306705,1306705,Fix Committed,[neutron] Network verification failed on Neutron Vlan with Vlan tagging,https://bugs.launchpad.net/fuel/+bug/1306705,2014-08-29
+1318481,1318481,Fix Released,cfn_helper.py can not properly apt packages and config service on,https://bugs.launchpad.net/heat-cfntools/+bug/1318481,2014-08-29
+1205375,1205375,Fix Released,The same Instance metadata marked as _has_changed by cfn-helper.py,https://bugs.launchpad.net/heat-cfntools/+bug/1205375,2014-08-29
+1360212,1360212,Fix Released,"Improve test code of heat-cfntools, allow the order differences of calling command",https://bugs.launchpad.net/heat-cfntools/+bug/1360212,2014-08-29
+1359430,1359430,Fix Released,heat-cfntools depends on wget and curl. It's redundant.,https://bugs.launchpad.net/heat-cfntools/+bug/1359430,2014-08-29
+1273010,1273010,Fix Released,Reason for cfn-signal curl failure is not logged,https://bugs.launchpad.net/heat-cfntools/+bug/1273010,2014-08-28
+1269476,1269476,Fix Released,cfn-init doesn't take into account the ignoreErrors key for commands,https://bugs.launchpad.net/heat-cfntools/+bug/1269476,2014-08-28
+1269470,1269470,Fix Released,output of commands executed by cfn-init are not logged,https://bugs.launchpad.net/heat-cfntools/+bug/1269470,2014-08-28
+1269355,1269355,Fix Released,cfn-init and cfn-signal scripts don't log to /var/log/cfn-*.log,https://bugs.launchpad.net/heat-cfntools/+bug/1269355,2014-08-28
+1223429,1223429,Fix Released,cfn-signal should use a default value for id which is unique per instance,https://bugs.launchpad.net/heat-cfntools/+bug/1223429,2014-08-28
+1235796,1235796,Fix Released,install and downgrade should only execute once,https://bugs.launchpad.net/heat-cfntools/+bug/1235796,2014-08-28
+1180582,1180582,Fix Released,boto no longer needs to be pinned to version 2.5.2,https://bugs.launchpad.net/heat-cfntools/+bug/1180582,2014-08-28
+1354202,1354202,Fix Released,Remove zookeeper state keeper from the Notification Engine,https://bugs.launchpad.net/monasca/+bug/1354202,2014-08-28
+1361541,1361541,Fix Committed,Neutron db isn't migrated during HA cluster deployment,https://bugs.launchpad.net/fuel/+bug/1361541,2014-08-28
+1328881,1328881,Fix Committed,[library] ERR in puppet.log: RuntimeError: config file /etc/ceph/ceph.conf exists with different content; use --overwrite-conf to overwrite,https://bugs.launchpad.net/fuel/+bug/1328881,2014-08-28
+1348185,1348185,Fix Committed,Upstart starts services on Ubuntu before config file is created,https://bugs.launchpad.net/fuel/+bug/1348185,2014-08-28
+1350126,1350126,Fix Released,Indicate smoke+bvt status for public nightly builds,https://bugs.launchpad.net/fuel/+bug/1350126,2014-08-28
+1362563,1362563,Fix Committed,[make] Create build artifact for virtualbox scripts,https://bugs.launchpad.net/fuel/+bug/1362563,2014-08-28
+1362614,1362614,Fix Committed,fuelclient should install before docker containers,https://bugs.launchpad.net/fuel/+bug/1362614,2014-08-28
+1361711,1361711,Fix Released,[system tests] Need to add retries for ostf on tests restart ceph,https://bugs.launchpad.net/fuel/+bug/1361711,2014-08-28
+1362071,1362071,Fix Released,rpmvercmp.rb - incorrect result of comparing due to package issues in 5.0,https://bugs.launchpad.net/fuel/+bug/1362071,2014-08-28
+1353569,1353569,Fix Released,[identity] Allow admin and public workers to be configured,https://bugs.launchpad.net/openstack-chef/+bug/1353569,2014-08-28
+1359508,1359508,Fix Released,overlapping IP exception not caught correctly,https://bugs.launchpad.net/tempest/+bug/1359508,2014-08-28
+1220678,1220678,Fix Released,post body validation not working correctly with pecan,https://bugs.launchpad.net/ceilometer/+bug/1220678,2014-08-28
+1258899,1258899,Fix Released,Gerrit Code-Review -1 description is inaccurate,https://bugs.launchpad.net/openstack-ci/+bug/1258899,2014-08-27
+1056437,1056437,Fix Released,L3 agent should support provider external networks,https://bugs.launchpad.net/neutron/+bug/1056437,2014-08-27
+1353233,1353233,Fix Released,Remove openstack-rally entry point,https://bugs.launchpad.net/rally/+bug/1353233,2014-08-27
+1361026,1361026,Fix Released,Give proper titles to config-ref tables,https://bugs.launchpad.net/openstack-manuals/+bug/1361026,2014-08-27
+1359642,1359642,Fix Committed,document how to backup/restore Fuel Master Node,https://bugs.launchpad.net/fuel/+bug/1359642,2014-08-27
+1352689,1352689,Fix Committed,no package python-pip error,https://bugs.launchpad.net/heat-templates/+bug/1352689,2014-08-27
+1354464,1354464,Fix Released,Jobs not automatically requeued when dependencies are approved,https://bugs.launchpad.net/openstack-ci/+bug/1354464,2014-08-27
+1324594,1324594,Fix Committed,Add more diagnostic tools to Fuel distro,https://bugs.launchpad.net/fuel/+bug/1324594,2014-08-27
+1357925,1357925,Fix Released,TestMinimumBasicScenario.test_minimum_basic_scenario fails on Hyper-V due to volume naming differences,https://bugs.launchpad.net/tempest/+bug/1357925,2014-08-27
+1357691,1357691,Fix Released,glance_image_create does not work on Hyper-V since it's supporting QCoW2 and AMI image formats only,https://bugs.launchpad.net/tempest/+bug/1357691,2014-08-27
+1338552,1338552,Fix Committed,Cobbler Error during the Fuel master node installation: Could not evaluate: cobblerd does not appear to be running/accessible,https://bugs.launchpad.net/fuel/+bug/1338552,2014-08-27
+1356560,1356560,Fix Released,Chapter 5. Compute Node in OpenStack Training Guides -- Wrong IP Address in Guide?,https://bugs.launchpad.net/openstack-training-guides/+bug/1356560,2014-08-27
+1342155,1342155,Fix Released,"Devstack requires n-{novnc,xvnc} on pure-compute nodes",https://bugs.launchpad.net/devstack/+bug/1342155,2014-08-27
+1340499,1340499,Fix Released,SELinux file context are incorrect for source based installs,https://bugs.launchpad.net/tripleo/+bug/1340499,2014-08-27
+1344417,1344417,Fix Released,Services are unable to read /etc/hosts when SELinux is on,https://bugs.launchpad.net/tripleo/+bug/1344417,2014-08-27
+1339938,1339938,Fix Released,SELinux blocks haproxy from proxying openstack services,https://bugs.launchpad.net/tripleo/+bug/1339938,2014-08-27
+1342872,1342872,Fix Released,SELinux blocks keepalived from loading kernel modules,https://bugs.launchpad.net/tripleo/+bug/1342872,2014-08-27
+1346559,1346559,Fix Released,Unable to write to /run/<service> when SELinux is in enforcing mode,https://bugs.launchpad.net/tripleo/+bug/1346559,2014-08-27
+1344452,1344452,Fix Released,nova-api fails to start when SELinux is in enforcing mode,https://bugs.launchpad.net/tripleo/+bug/1344452,2014-08-27
+1354262,1354262,Fix Released,turn off swift-recon-cron emails,https://bugs.launchpad.net/tripleo/+bug/1354262,2014-08-27
+1359216,1359216,Fix Committed,Add documentations for Mellanox features to Fuel Doc,https://bugs.launchpad.net/fuel/+bug/1359216,2014-08-26
+1263121,1263121,Fix Released,Gerrit external testing tools should have consistent names,https://bugs.launchpad.net/openstack-ci/+bug/1263121,2014-08-26
+1353884,1353884,Fix Released,[ops-messaging]The current logic set a conflict value to ['rabbitmq']['port'],https://bugs.launchpad.net/openstack-chef/+bug/1353884,2014-08-26
+1351459,1351459,Fix Released,[identity]  keystone conf changes to sync with Juno,https://bugs.launchpad.net/openstack-chef/+bug/1351459,2014-08-26
+1339344,1339344,Fix Released,Change python-jenkins documentation location,https://bugs.launchpad.net/openstack-ci/+bug/1339344,2014-08-26
+1327988,1327988,Fix Released,Need to disable GSSAPIAuthentication in /etc/ssh/sshd_config,https://bugs.launchpad.net/fuel/+bug/1327988,2014-08-26
+1318510,1318510,Fix Released,Fuel master console is polluted by services messages from docker,https://bugs.launchpad.net/fuel/+bug/1318510,2014-08-26
+1316376,1316376,Fix Released,keystone client doesn't work with default openrc,https://bugs.launchpad.net/fuel/+bug/1316376,2014-08-26
+1073211,1073211,Fix Committed,Improper syntax highlighting for restructuredtext in gerrit,https://bugs.launchpad.net/openstack-ci/+bug/1073211,2014-08-26
+1361170,1361170,Fix Released,Initial Gerrit group members for swiftpolicy,https://bugs.launchpad.net/openstack-ci/+bug/1361170,2014-08-26
+1334898,1334898,Fix Released,pypi.python.org error Connection reset by peer,https://bugs.launchpad.net/openstack-ci/+bug/1334898,2014-08-26
+1255166,1255166,Fix Released,Gerrit does not emit events on draft publication,https://bugs.launchpad.net/openstack-ci/+bug/1255166,2014-08-26
+1351717,1351717,Fix Released,Test gate-heat-python26 failed with compilation error,https://bugs.launchpad.net/openstack-ci/+bug/1351717,2014-08-26
+1278210,1278210,Fix Released,CRM114 timeouts preventing logs from being indexed,https://bugs.launchpad.net/openstack-ci/+bug/1278210,2014-08-26
+1344023,1344023,Fix Released,Package libffi was not found in the pkg-config search path,https://bugs.launchpad.net/openstack-ci/+bug/1344023,2014-08-26
+1337099,1337099,Fix Released,Link to the cfn WordPress_Single_Instance.template broken,https://bugs.launchpad.net/heat/+bug/1337099,2014-08-26
+1312764,1312764,Fix Released,training-labs scripts cannot build a training cluster,https://bugs.launchpad.net/openstack-training-guides/+bug/1312764,2014-08-26
+1358972,1358972,Fix Committed,IOError: Socket closed When creating a deployment,https://bugs.launchpad.net/fuel/+bug/1358972,2014-08-26
+1357408,1357408,Fix Committed,Dnsqmasq logs missed,https://bugs.launchpad.net/fuel/+bug/1357408,2014-08-26
+1356352,1356352,Fix Committed,NSX bits cannot be downloaded via HTTPS,https://bugs.launchpad.net/fuel/+bug/1356352,2014-08-26
+1360248,1360248,Fix Committed,wrong disk space info,https://bugs.launchpad.net/fuel/+bug/1360248,2014-08-26
+1359070,1359070,Fix Committed,"Allocate full disk to root results in ""IndexError: list index out of range""",https://bugs.launchpad.net/fuel/+bug/1359070,2014-08-26
+1356748,1356748,Fix Committed,Waiting for haproxy mysqld backend should rely on haproxy service for mysqld,https://bugs.launchpad.net/fuel/+bug/1356748,2014-08-26
+1335041,1335041,Fix Released,dockerctl shell rabbitmq rabbitmqctl status gives error,https://bugs.launchpad.net/fuel/+bug/1335041,2014-08-26
+1360118,1360118,Fix Committed,"rsync: change_dir#3 ""/etc/swift"" failed: No such file or directory",https://bugs.launchpad.net/fuel/+bug/1360118,2014-08-26
+1355794,1355794,Fix Committed,OSTF tests failed in Simple Neutron GRE,https://bugs.launchpad.net/fuel/+bug/1355794,2014-08-26
+1340397,1340397,Fix Committed,[library] vcenter_hash is not a hash or array when accessing it with host_ip,https://bugs.launchpad.net/fuel/+bug/1340397,2014-08-26

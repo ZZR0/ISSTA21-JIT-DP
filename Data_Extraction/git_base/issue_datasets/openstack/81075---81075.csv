@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1240319,1240319,Fix Released,non string user metadata causes 500 error in nova-api,https://bugs.launchpad.net/nova/+bug/1240319,2014-04-17
+1223358,1223358,Fix Released,XML serialization fails when it's trying to serialize an empty selector,https://bugs.launchpad.net/nova/+bug/1223358,2014-04-17
+1251021,1251021,Fix Released,Enable remote debugger in nova,https://bugs.launchpad.net/nova/+bug/1251021,2014-04-17
+1265264,1265264,Fix Released,Remove unused import,https://bugs.launchpad.net/nova/+bug/1265264,2014-04-17
+1263480,1263480,Fix Released,wsgiref requirement missing,https://bugs.launchpad.net/nova/+bug/1263480,2014-04-17
+1262943,1262943,Fix Released,the key of aggregate's metadata accepts empty string as key,https://bugs.launchpad.net/nova/+bug/1262943,2014-04-17
+1261636,1261636,Fix Released,Need set compute driver's flag capabilities correctly,https://bugs.launchpad.net/nova/+bug/1261636,2014-04-17
+1261621,1261621,Fix Released,nova api value error is not right,https://bugs.launchpad.net/nova/+bug/1261621,2014-04-17
+1261475,1261475,Fix Released,Nova should disable libguestfs' automatic cleanup,https://bugs.launchpad.net/nova/+bug/1261475,2014-04-17
+1261442,1261442,Fix Released,Spurious error from ComputeManager._run_image_cache_manager_pass,https://bugs.launchpad.net/nova/+bug/1261442,2014-04-17
+1260905,1260905,Fix Released,"Return policy error, not generic error if nova net-create/delete is forbidden by policy",https://bugs.launchpad.net/nova/+bug/1260905,2014-04-17
+1260178,1260178,Fix Released,Error in getting the major and minor version of hypervisor from tuple,https://bugs.launchpad.net/nova/+bug/1260178,2014-04-17
+1259183,1259183,Fix Released,wsgi.Loader should ensure the config_path is absolute,https://bugs.launchpad.net/nova/+bug/1259183,2014-04-17
+1258103,1258103,Fix Released,Unused imports in libvirt fake utilities,https://bugs.launchpad.net/nova/+bug/1258103,2014-04-17
+1257940,1257940,Fix Released,Exceptions in _heal_instance_info_cache should be shown,https://bugs.launchpad.net/nova/+bug/1257940,2014-04-17
+1257151,1257151,Fix Released,Fix docstring on SnapshotController,https://bugs.launchpad.net/nova/+bug/1257151,2014-04-17
+1256873,1256873,Fix Released,Catch InstanceIsLocked exception instead of invalidstate on server actions,https://bugs.launchpad.net/nova/+bug/1256873,2014-04-17
+1255914,1255914,Fix Released,Misc typos in Openstack Compute (Nova),https://bugs.launchpad.net/nova/+bug/1255914,2014-04-17
+1254764,1254764,Fix Released,instance-action-list events are not ordered by time,https://bugs.launchpad.net/nova/+bug/1254764,2014-04-17
+1251538,1251538,Fix Released,create/update of v3 servers return 422 when input is invalid,https://bugs.launchpad.net/nova/+bug/1251538,2014-04-17
+1246087,1246087,Fix Released,"""""No attribute error"" from get_v4_ips_by_interface in n-net log after successful tempest run",https://bugs.launchpad.net/nova/+bug/1246087,2014-04-17
+1237155,1237155,Fix Released,records in nova instance_faults table are not being deleted,https://bugs.launchpad.net/nova/+bug/1237155,2014-04-17
+1235389,1235389,Fix Released,Quota violations should not cause a stacktrace in the logs,https://bugs.launchpad.net/nova/+bug/1235389,2014-04-17
+1235088,1235088,Fix Released,LOG.warn() should support translation,https://bugs.launchpad.net/nova/+bug/1235088,2014-04-17
+1214162,1214162,Fix Released,dhcp_options_enabled option be removed when neutron supports,https://bugs.launchpad.net/nova/+bug/1214162,2014-04-17
+1152748,1152748,Fix Released,libvirt imagebackend cache code encapsulation needs refactoring,https://bugs.launchpad.net/nova/+bug/1152748,2014-04-17
+1097999,1097999,Fix Released,multi-process metadata server runs iptables  setup multiple times,https://bugs.launchpad.net/nova/+bug/1097999,2014-04-17
+1262858,1262858,Fix Released,Wrong deprecated name for images_rbd options,https://bugs.launchpad.net/nova/+bug/1262858,2014-04-17
+1262206,1262206,Fix Released,xenapi: server gets deleted under certain live-migrate error conditions,https://bugs.launchpad.net/nova/+bug/1262206,2014-04-17
+1262154,1262154,Fix Released,HTTP 500 on update_server_metadata (DB deadlock),https://bugs.launchpad.net/nova/+bug/1262154,2014-04-17
+1261287,1261287,Fix Released,should handle boolean string parameters through cells sync_instances API,https://bugs.launchpad.net/nova/+bug/1261287,2014-04-17
+1260853,1260853,Fix Released,EC2 Client Tokens aren't reported in DescribeInstances,https://bugs.launchpad.net/nova/+bug/1260853,2014-04-17
+1260806,1260806,Fix Released,Defaulting device names fails to update the database,https://bugs.launchpad.net/nova/+bug/1260806,2014-04-17
+1260123,1260123,Fix Released,libvirt wait_for_block_job_info can infinitely loop,https://bugs.launchpad.net/nova/+bug/1260123,2014-04-17
+1258360,1258360,Fix Released,Remove unneeded call to conductor in network interface,https://bugs.launchpad.net/nova/+bug/1258360,2014-04-17
+1258256,1258256,Fix Released,Live upgrade from Havana broken by commit 62e9829,https://bugs.launchpad.net/nova/+bug/1258256,2014-04-17
+1257355,1257355,Fix Released,live migration fails when using non-image backed disk,https://bugs.launchpad.net/nova/+bug/1257355,2014-04-17
+1257146,1257146,Fix Released,Need to handle InstanceUserDataMalformed in create server v2 API,https://bugs.launchpad.net/nova/+bug/1257146,2014-04-17
+1254811,1254811,Fix Released,Deprecate and remove libvirt.api_thread_pool option,https://bugs.launchpad.net/nova/+bug/1254811,2014-04-17
+1252891,1252891,Fix Released,DB migration 209 can fail when deleting from instance_actions,https://bugs.launchpad.net/nova/+bug/1252891,2014-04-17
+1251650,1251650,Fix Released,xenapi: glance download can hang if interupted,https://bugs.launchpad.net/nova/+bug/1251650,2014-04-17
+1251525,1251525,Fix Released,baremetal deploy helper should abort immediately if target block devices are not available,https://bugs.launchpad.net/ironic/+bug/1251525,2014-04-17
+1251525,1251525,Fix Released,baremetal deploy helper should abort immediately if target block devices are not available,https://bugs.launchpad.net/nova/+bug/1251525,2014-04-17
+1249072,1249072,Fix Released,cells can apply resize/rebuild messages out of order,https://bugs.launchpad.net/nova/+bug/1249072,2014-04-17
+1247610,1247610,Fix Released,resource_tracker  didn't report resize statue when resize a shutoff instance,https://bugs.launchpad.net/nova/+bug/1247610,2014-04-17
+1243849,1243849,Fix Released,"flaky ""Getting disk size"" ERROR in n-cpu log after successful tempest run",https://bugs.launchpad.net/nova/+bug/1243849,2014-04-17
+1243101,1243101,Fix Released,nova docker driver cannot find cgroup in /proc/mounts on RHEL,https://bugs.launchpad.net/nova/+bug/1243101,2014-04-17
+1233184,1233184,Fix Released,VM would go to ERROR when live migration if libvirt on target host is down,https://bugs.launchpad.net/nova/+bug/1233184,2014-04-17
+1229018,1229018,Fix Released,no timeout parameter when execute ovs-vsctl in nova,https://bugs.launchpad.net/nova/+bug/1229018,2014-04-17
+1228847,1228847,Fix Released,VMware: VimException: Exception in __deepcopy__ Method not found,https://bugs.launchpad.net/nova/+bug/1228847,2014-04-17
+1208707,1208707,Fix Released,Cannot attach a volume to a bare-metal instance,https://bugs.launchpad.net/nova/+bug/1208707,2014-04-17
+1161472,1161472,Fix Released,Nova-Quantum SecurityGroup API should enforce unique group names,https://bugs.launchpad.net/nova/+bug/1161472,2014-04-17
+1266534,1266534,Fix Released,baselineCPU parser break unit tests in nova,https://bugs.launchpad.net/nova/+bug/1266534,2014-04-17
+1265512,1265512,Fix Released,VMware: unnecesary session termination,https://bugs.launchpad.net/nova/+bug/1265512,2014-04-17
+1263032,1263032,Fix Released,"Timeout while waiting on RPC response - topic: ""compute.devstack-*"", RPC method: ""get_console_output"" info: ""<unknown>""",https://bugs.launchpad.net/nova/+bug/1263032,2014-04-17
+1260697,1260697,Fix Released,network_device_mtu configuration does not apply on LibvirtHybridOVSBridgeDriver to OVS VIF ports and VETH pairs,https://bugs.launchpad.net/nova/+bug/1260697,2014-04-17
+1260075,1260075,Fix Released,VMware: NotAuthenticated occurred in the call to RetrievePropertiesEx,https://bugs.launchpad.net/nova/+bug/1260075,2014-04-17
+1259796,1259796,Fix Released,nova-compute failed to start because get_host_capablilities failed,https://bugs.launchpad.net/nova/+bug/1259796,2014-04-17
+1253980,1253980,Fix Released,[OSSA 2013-037] DoS attack via setting os_type in snapshots (CVE-2013-6437),https://bugs.launchpad.net/ossa/+bug/1253980,2014-04-17
+1253980,1253980,Fix Released,[OSSA 2013-037] DoS attack via setting os_type in snapshots (CVE-2013-6437),https://bugs.launchpad.net/nova/+bug/1253980,2014-04-17
+1252827,1252827,Fix Released,VMWARE: Intermittent problem with stats reporting,https://bugs.launchpad.net/nova/+bug/1252827,2014-04-17
+1247296,1247296,Fix Released,VMware: launching instance from instance snapshot fails,https://bugs.launchpad.net/nova/+bug/1247296,2014-04-17
+1247217,1247217,Fix Released,Sanitize passwords when logging payload in wsgi for API Extensions,https://bugs.launchpad.net/nova/+bug/1247217,2014-04-17
+1244018,1244018,Fix Released,update security group raise HttpError500 exception,https://bugs.launchpad.net/nova/+bug/1244018,2014-04-17
+1236585,1236585,Fix Released,tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_by_changes_since fails sporadically,https://bugs.launchpad.net/nova/+bug/1236585,2014-04-17
+1227027,1227027,Fix Released,[OSSA 2014-001] Insecure directory permissions with snapshot code (CVE-2013-7048),https://bugs.launchpad.net/ossa/+bug/1227027,2014-04-17
+1227027,1227027,Fix Released,[OSSA 2014-001] Insecure directory permissions with snapshot code (CVE-2013-7048),https://bugs.launchpad.net/nova/+bug/1227027,2014-04-17
+1214850,1214850,Fix Released,vmware driver does not work with more than one datacenter in vC,https://bugs.launchpad.net/nova/+bug/1214850,2014-04-17
+1270680,1270680,Fix Released,v3 extensions api inherently racey wrt instances,https://bugs.launchpad.net/nova/+bug/1270680,2014-04-17
+1256696,1256696,Fix Released,correct network_device_mtu help string,https://bugs.launchpad.net/nova/+bug/1256696,2014-04-17
+1256427,1256427,Fix Released,Duplicate FlavorNotFound handled in server create API,https://bugs.launchpad.net/nova/+bug/1256427,2014-04-17
+1255386,1255386,Fix Released,Fix InstanceIsLocked exception in server action,https://bugs.launchpad.net/nova/+bug/1255386,2014-04-17
+1253875,1253875,Fix Released,Scheduler Filters: ValueError: unsupported format character 'a' (0x61) at index 107,https://bugs.launchpad.net/nova/+bug/1253875,2014-04-17
+1251822,1251822,Fix Released,nova compute log incorrect message when enable/disable host,https://bugs.launchpad.net/nova/+bug/1251822,2014-04-17
+1248802,1248802,Fix Released,shelve/unshelve notification may be out of order,https://bugs.launchpad.net/nova/+bug/1248802,2014-04-17

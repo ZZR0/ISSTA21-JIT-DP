@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1693847,1693847,Fix Released,Vagrant development env broken after repo split,https://bugs.launchpad.net/kolla/+bug/1693847,2017-07-26
+1687124,1687124,Fix Released,osc-lib dependency incorrect,https://bugs.launchpad.net/python-openstackclient/+bug/1687124,2017-07-26
+1696605,1696605,Fix Released,TypeError: unorderable types: int() < NoneType() possible during quota limit check,https://bugs.launchpad.net/nova/+bug/1696605,2017-07-26
+1616424,1616424,Fix Released,Keystone OAuth1 doesn't handle invalid request properly,https://bugs.launchpad.net/keystone/+bug/1616424,2017-07-26
+1693510,1693510,Fix Released,GET /v3/role_assignments?effective&include_names API is blocked with 404 error when a group doesn't exists in identity backend,https://bugs.launchpad.net/keystone/+bug/1693510,2017-07-26
+1705673,1705673,Fix Released,shouldn't die when unstack mogan,https://bugs.launchpad.net/mogan/+bug/1705673,2017-07-26
+1640086,1640086,Fix Released,Openstack image show should display size in human friendly format,https://bugs.launchpad.net/python-openstackclient/+bug/1640086,2017-07-26
+1667266,1667266,Fix Released,Make block-device-mapping more stable and clear,https://bugs.launchpad.net/python-openstackclient/+bug/1667266,2017-07-26
+1689233,1689233,Fix Released,extension show raise TypeError when extension don't exist,https://bugs.launchpad.net/python-openstackclient/+bug/1689233,2017-07-26
+1687814,1687814,Fix Released,Cannot use security group name in server create,https://bugs.launchpad.net/python-openstackclient/+bug/1687814,2017-07-26
+1658189,1658189,Fix Released,project name-to-id conversion failing for non-admin,https://bugs.launchpad.net/python-openstackclient/+bug/1658189,2017-07-26
+1657956,1657956,Fix Released,"Replace ""Display Name"" by ""Name"" in volume list command",https://bugs.launchpad.net/python-openstackclient/+bug/1657956,2017-07-26
+1696246,1696246,Fix Released,the Mapping Guide show issue token should be token issue,https://bugs.launchpad.net/python-openstackclient/+bug/1696246,2017-07-26
+1667294,1667294,Fix Released,Subnetpools do not have default quotas,https://bugs.launchpad.net/python-openstackclient/+bug/1667294,2017-07-26
+1691776,1691776,Fix Released,"command ""network set"" has hint about vlan transparent, but neutron doesn't support modifying it",https://bugs.launchpad.net/python-openstackclient/+bug/1691776,2017-07-26
+1695783,1695783,Fix Released,Show neutron tags in networking resource,https://bugs.launchpad.net/python-openstackclient/+bug/1695783,2017-07-26
+1690902,1690902,Fix Released,doc/source/data/nova.csv is inaccurate for host-meta,https://bugs.launchpad.net/python-openstackclient/+bug/1690902,2017-07-26
+1626837,1626837,Fix Released,Add 'openstack image set --visibility',https://bugs.launchpad.net/python-openstackclient/+bug/1626837,2017-07-26
+1639220,1639220,Fix Released,"[RFE] Introduce Network QoS policy ""is_default"" behaviour",https://bugs.launchpad.net/neutron/+bug/1639220,2017-07-26
+1639220,1639220,Fix Released,"[RFE] Introduce Network QoS policy ""is_default"" behaviour",https://bugs.launchpad.net/python-openstackclient/+bug/1639220,2017-07-26
+1703783,1703783,Fix Released,OSC unit fails with os-client-config 1.27.0,https://bugs.launchpad.net/python-openstackclient/+bug/1703783,2017-07-26
+1703782,1703782,Fix Released,OSC unit test volume.test_find_resource fails with osc-lib 1.7.0,https://bugs.launchpad.net/python-openstackclient/+bug/1703782,2017-07-26
+1684989,1684989,Fix Released,Add data_plane_status support to Network Port,https://bugs.launchpad.net/python-openstackclient/+bug/1684989,2017-07-26
+1698742,1698742,Fix Released,"image-list should should support parameter 'name', 'marker ' ,etc",https://bugs.launchpad.net/python-openstackclient/+bug/1698742,2017-07-26
+1704097,1704097,Fix Released,'domain' filter doesn't work in some commands,https://bugs.launchpad.net/python-openstackclient/+bug/1704097,2017-07-26
+1696080,1696080,Fix Released,"[Gate] Some functional tests didn't cleanup os.environ changes, that cause following network tests are skipped",https://bugs.launchpad.net/python-openstackclient/+bug/1696080,2017-07-26
+1698390,1698390,Fix Released,python-openstackclient doesn't allow you to specify a domain on idp creation,https://bugs.launchpad.net/python-openstackclient/+bug/1698390,2017-07-26
+1703545,1703545,Fix Released,CLI outputs do no have unified style,https://bugs.launchpad.net/senlin/+bug/1703545,2017-07-26
+1558385,1558385,Fix Released,Docs: Octavia v2 api ref docs needed,https://bugs.launchpad.net/octavia/+bug/1558385,2017-07-25
+1640506,1640506,Fix Released,Switch to os-brick encryptor provider implementations,https://bugs.launchpad.net/nova/+bug/1640506,2017-07-25
+1699717,1699717,Fix Released,Updating of firewall-rule while attached to firewall via non-admin user shows exception on Horizon,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1699717,2017-07-25
+1675393,1675393,Fix Released,Add lan9118 as valid nic for hw_vif_model property for qemu,https://bugs.launchpad.net/nova/+bug/1675393,2017-07-25
+1615456,1615456,Fix Released,use request_id oslo middleware,https://bugs.launchpad.net/nova/+bug/1615456,2017-07-25
+1692022,1692022,Fix Released,migrate fails with tap device rename error,https://bugs.launchpad.net/nova-powervm/+bug/1692022,2017-07-25
+1641106,1641106,Fix Released,centos7 image missing lsb_release,https://bugs.launchpad.net/diskimage-builder/+bug/1641106,2017-07-25
+1548884,1548884,Fix Released,libvirt driver converts config drives to qcow2 during resize/migrate,https://bugs.launchpad.net/nova/+bug/1548884,2017-07-25
+1628768,1628768,Fix Released,backup point in the same container  was overwrite if we set the back ends to NFS,https://bugs.launchpad.net/cinder/+bug/1628768,2017-07-25
+1662950,1662950,Fix Released,VMAX driver: Create and immediately delete snapshot greater than 50GB fails first time,https://bugs.launchpad.net/cinder/+bug/1662950,2017-07-25
+1692044,1692044,Fix Released,Tempest failing on os_nova role on CentOS 7,https://bugs.launchpad.net/openstack-ansible/+bug/1692044,2017-07-25
+1706179,1706179,Fix Released,keystone has no admin or configuration guide,https://bugs.launchpad.net/keystone/+bug/1706179,2017-07-25
+1696368,1696368,Fix Released,Repeat words in Deployment examples in Networking Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1696368,2017-07-25
+1706323,1706323,Fix Released,Update URL in /doc/source/install,https://bugs.launchpad.net/mistral/+bug/1706323,2017-07-25
+1552251,1552251,Fix Released,Calls git log when building docs,https://bugs.launchpad.net/cinder/+bug/1552251,2017-07-25
+1552251,1552251,Fix Released,Calls git log when building docs,https://bugs.launchpad.net/python-mistralclient/+bug/1552251,2017-07-25
+1552251,1552251,Fix Released,Calls git log when building docs,https://bugs.launchpad.net/zaqar/+bug/1552251,2017-07-25
+1552251,1552251,Fix Released,Calls git log when building docs,https://bugs.launchpad.net/manila/+bug/1552251,2017-07-25
+1552251,1552251,Fix Released,Calls git log when building docs,https://bugs.launchpad.net/glance-store/+bug/1552251,2017-07-25
+1700253,1700253,Fix Released,test_smart_help_formatter fails in wider terminal,https://bugs.launchpad.net/python-cliff/+bug/1700253,2017-07-25
+1703514,1703514,Fix Released,Fix Pep8 Issues in existing python source for AWS and GCE,https://bugs.launchpad.net/omni/+bug/1703514,2017-07-25
+1683416,1683416,Fix Released,Cells in Configuration Reference - warning,https://bugs.launchpad.net/openstack-manuals/+bug/1683416,2017-07-25
+1705982,1705982,Fix Released,openstack documents links are not working properly,https://bugs.launchpad.net/openstack-manuals/+bug/1705982,2017-07-25
+1706135,1706135,Fix Released,Administrator Guide not found,https://bugs.launchpad.net/openstack-manuals/+bug/1706135,2017-07-25
+1682439,1682439,Fix Released,Install-guide-OBS doesn't mention memcached configuration,https://bugs.launchpad.net/openstack-manuals/+bug/1682439,2017-07-25
+1596627,1596627,Fix Released,Octavia API needs filtering support,https://bugs.launchpad.net/octavia/+bug/1596627,2017-07-25
+1705463,1705463,Fix Released,Trunk app should using flows installed by classifier app.,https://bugs.launchpad.net/dragonflow/+bug/1705463,2017-07-25
+1585572,1585572,Fix Released,Incorrect logic of subnet fetching in /IpamDriver.RequestAddress handling,https://bugs.launchpad.net/kuryr/+bug/1585572,2017-07-25
+1688219,1688219,Fix Released,Wrong service type is used in osc,https://bugs.launchpad.net/python-mistralclient/+bug/1688219,2017-07-25
+1688219,1688219,Fix Released,Wrong service type is used in osc,https://bugs.launchpad.net/mistral/+bug/1688219,2017-07-25
+1646362,1646362,Fix Released,spurious files next to container hashdir don't get cleaned up,https://bugs.launchpad.net/swift/+bug/1646362,2017-07-24
+1706091,1706091,Fix Released,Incorrect default log location,https://bugs.launchpad.net/puppet-qdr/+bug/1706091,2017-07-24
+1704160,1704160,Fix Released,"CI: scenario002  job fails with ""Error: Systemd start for systemd-resolved failed!""",https://bugs.launchpad.net/tripleo/+bug/1704160,2017-07-24
+1388047,1388047,Fix Released,Validation should catch unavailable resources,https://bugs.launchpad.net/heat/+bug/1388047,2017-07-24
+1705770,1705770,Fix Released,keystonemiddleware tests fail with keystoneauth1 3.0.0,https://bugs.launchpad.net/keystoneauth/+bug/1705770,2017-07-24
+1705770,1705770,Fix Released,keystonemiddleware tests fail with keystoneauth1 3.0.0,https://bugs.launchpad.net/keystonemiddleware/+bug/1705770,2017-07-24
+1703804,1703804,Fix Released,Grenade fails to find inspector logs,https://bugs.launchpad.net/ironic-inspector/+bug/1703804,2017-07-24
+1581372,1581372,Fix Released,"Use trustee_domain, trustee_domain_admin  name instead of trustee_domain_admin_id  and trustee_domain_id for trust configuration",https://bugs.launchpad.net/magnum/+bug/1581372,2017-07-24
+1705296,1705296,Fix Released,swift_configure_tempurls: Unable to establish connection,https://bugs.launchpad.net/devstack/+bug/1705296,2017-07-24
+1555770,1555770,Fix Released,Need change test ceph_ha_restart not marked test as failure if ceph health contains  warning with PG groups,https://bugs.launchpad.net/fuel/+bug/1555770,2017-07-24
+1705461,1705461,Fix Released,Classifier app should reset in_port before dispatching the packet,https://bugs.launchpad.net/dragonflow/+bug/1705461,2017-07-24
+1660811,1660811,Fix Released,kubernetes api-server certificate missing internal clusterip,https://bugs.launchpad.net/magnum/+bug/1660811,2017-07-24
+1675974,1675974,Fix Released,can't specify tenant/all_tenant in attachment CLI,https://bugs.launchpad.net/cinder/+bug/1675974,2017-07-24
+1664209,1664209,Fix Released,XtremIO driver fail when passing group_id,https://bugs.launchpad.net/cinder/+bug/1664209,2017-07-24
+1667306,1667306,Fix Released,delete consistency group fails on xtremio driver,https://bugs.launchpad.net/cinder/+bug/1667306,2017-07-24
+1684595,1684595,Fix Released,VMAX driver - Detaching non bootable volumes if part of 2 MVs,https://bugs.launchpad.net/cinder/+bug/1684595,2017-07-24
+1698757,1698757,Fix Released,The message of karborexception can not been raised to the wsgi response and can not been translated,https://bugs.launchpad.net/karbor/+bug/1698757,2017-07-24

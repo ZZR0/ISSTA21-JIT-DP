@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1476739,1476739,Fix Released,Need to add https link to Horizon after deployment when SSL is used,https://bugs.launchpad.net/fuel/+bug/1476739,2015-09-28
+1455488,1455488,Fix Released,Dockerctl cannot restore when there is a much of free space,https://bugs.launchpad.net/fuel/+bug/1455488,2015-09-28
+1491583,1491583,Fix Released,fuel dnsmask don't forwarding subdomains to upstream nameserver,https://bugs.launchpad.net/fuel/+bug/1491583,2015-09-28
+1445531,1445531,Fix Released,Provisioning/deployment can be started for node which doesn't belong to any cluster,https://bugs.launchpad.net/fuel/+bug/1445531,2015-09-28
+1457643,1457643,Fix Released,IBP images build is way too slow,https://bugs.launchpad.net/fuel/+bug/1457643,2015-09-28
+1494241,1494241,Fix Released,tools/Xen: failed to install domU due to keywords update in XenServer,https://bugs.launchpad.net/devstack/+bug/1494241,2015-09-28
+1490579,1490579,Fix Released,Error: /Stage[main]/Main/L23network::L3::Ifconfig[bond-testlnx]/L3_ifconfig[bond-testlnx]: Could not evaluate: Execution of '/usr/bin/arping -D  -c 32 -w 5 -I bond-testlnx 192.168.200.4' returned 2: arping: Device bond-testlnx not available.,https://bugs.launchpad.net/fuel/+bug/1490579,2015-09-28
+1454684,1454684,Fix Released,unify the swift-base container config script position,https://bugs.launchpad.net/kolla/+bug/1454684,2015-09-28
+1471829,1471829,Fix Released,Log files in /var/log/keystone are owned by root and not writable by keystone services,https://bugs.launchpad.net/kolla/+bug/1471829,2015-09-28
+1465401,1465401,Fix Released,Glance images need to be persistent,https://bugs.launchpad.net/kolla/+bug/1465401,2015-09-28
+1467528,1467528,Fix Released,Designate-sink start.sh should be moved to common,https://bugs.launchpad.net/kolla/+bug/1467528,2015-09-28
+1467576,1467576,Fix Released,Add option to skip db sync for all services,https://bugs.launchpad.net/kolla/+bug/1467576,2015-09-28
+1470415,1470415,Fix Released,Use --no-install-recommends option in Ubuntu containers,https://bugs.launchpad.net/kolla/+bug/1470415,2015-09-28
+1471331,1471331,Fix Released,tools/kolla concluding to soon deployment has succeeded,https://bugs.launchpad.net/kolla/+bug/1471331,2015-09-28
+1471825,1471825,Fix Released,database_address in etc/kolla/globals.yml should be set to kolla_internal_address,https://bugs.launchpad.net/kolla/+bug/1471825,2015-09-28
+1471827,1471827,Fix Released,python-mysqldb needs to be installed on the deployment host for ansible,https://bugs.launchpad.net/kolla/+bug/1471827,2015-09-28
+1471828,1471828,Fix Released,"docker_pull_policy should default to ""missing"" in etc/kolla/globals.yml",https://bugs.launchpad.net/kolla/+bug/1471828,2015-09-28
+1499970,1499970,Fix Committed,Wrong command for service publishing,https://bugs.launchpad.net/kuryr/+bug/1499970,2015-09-28
+1474774,1474774,Fix Released,Tech Debt: directory structure for images is not consistent,https://bugs.launchpad.net/kolla/+bug/1474774,2015-09-28
+1478330,1478330,Fix Released,galera is not listening on a single ip address,https://bugs.launchpad.net/kolla/+bug/1478330,2015-09-28
+1466548,1466548,Fix Released,"tools/init-runonce reports multiple ""unsupported locale"" errors when LC_ALL unset",https://bugs.launchpad.net/kolla/+bug/1466548,2015-09-28
+1484679,1484679,Fix Released,Using murano from source creates /etc/murano/murano and can't find the config file,https://bugs.launchpad.net/kolla/+bug/1484679,2015-09-28
+1484777,1484777,Fix Released,Magnum in fedora does not use fedora repo,https://bugs.launchpad.net/kolla/+bug/1484777,2015-09-28
+1484974,1484974,Fix Released,Refactor where source builds place config files,https://bugs.launchpad.net/kolla/+bug/1484974,2015-09-28
+1489021,1489021,Fix Released,cannot use 'oracle' as namespace for build.py,https://bugs.launchpad.net/kolla/+bug/1489021,2015-09-28
+1466913,1466913,Fix Released,Cinder symlinks broken in fedora + rhel,https://bugs.launchpad.net/kolla/+bug/1466913,2015-09-28
+1472270,1472270,Fix Released,Permission issues on /var/log/keystone breaking keystone container,https://bugs.launchpad.net/kolla/+bug/1472270,2015-09-28
+1474233,1474233,Fix Released,Many scripts are missing the executable bit,https://bugs.launchpad.net/kolla/+bug/1474233,2015-09-28
+1480465,1480465,Fix Released,Keystone Does Not Start Using Compose,https://bugs.launchpad.net/kolla/+bug/1480465,2015-09-28
+1426377,1426377,Fix Released,[Docs] Spell mistakes. operations.html#preparing-sahara-for-testing,https://bugs.launchpad.net/fuel/+bug/1426377,2015-09-28
+1464766,1464766,Fix Released,deep_merge gem package,https://bugs.launchpad.net/fuel/+bug/1464766,2015-09-28
+1477589,1477589,Fix Released,ci-status displays wrong links to build jobs,https://bugs.launchpad.net/fuel/+bug/1477589,2015-09-28
+1483337,1483337,Fix Released,According to change in LP 1476596 need to change base repos in /etc/yum.repos.d/... in Fuel ISO,https://bugs.launchpad.net/fuel/+bug/1483337,2015-09-28
+1478118,1478118,Fix Released,fuel-createmirror git repository is out of sync,https://bugs.launchpad.net/fuel/+bug/1478118,2015-09-28
+1476561,1476561,Fix Released,fuel-createmirror source code should be available publicly on some git repo,https://bugs.launchpad.net/fuel/+bug/1476561,2015-09-28
+1476176,1476176,Fix Released,Building ISO failed during downloading packeges,https://bugs.launchpad.net/fuel/+bug/1476176,2015-09-28
+1479761,1479761,Fix Released,"Switch ISO build on ""perestroika""",https://bugs.launchpad.net/fuel/+bug/1479761,2015-09-28
+1484429,1484429,Fix Released,[fuel-library] Deployment facts are taking from the deprecated structure,https://bugs.launchpad.net/fuel/+bug/1484429,2015-09-28
+1337399,1337399,Fix Released,OpenStack Operations Guide Upgrades section repeates itself,https://bugs.launchpad.net/openstack-manuals/+bug/1337399,2015-09-28
+1332336,1332336,Fix Released,Heat multicloud is not documented,https://bugs.launchpad.net/openstack-manuals/+bug/1332336,2015-09-28
+1493121,1493121,Fix Released,Wrong abbrevation used for PTL,https://bugs.launchpad.net/rally/+bug/1493121,2015-09-27
+1489469,1489469,Fix Released,Rally verify should allow use of non-virtual environments and other testr options,https://bugs.launchpad.net/rally/+bug/1489469,2015-09-27
+1468054,1468054,Fix Released,There is no section in readme about release notes,https://bugs.launchpad.net/rally/+bug/1468054,2015-09-27
+1467311,1467311,Fix Released,Add ability to specify list of param names in validator.restricted_parameters,https://bugs.launchpad.net/rally/+bug/1467311,2015-09-27
+1463011,1463011,Fix Released,There is no sectino in readme about specs,https://bugs.launchpad.net/rally/+bug/1463011,2015-09-27
+1455672,1455672,Fix Released,Add check for SuSE based systems in rally install script,https://bugs.launchpad.net/rally/+bug/1455672,2015-09-27
+1490359,1490359,Fix Released,typo in the code comment of samples/plugins/context/context_plugin.py,https://bugs.launchpad.net/rally/+bug/1490359,2015-09-27
+1492520,1492520,Fix Released,One of the useful link is outdated,https://bugs.launchpad.net/rally/+bug/1492520,2015-09-27
+1490360,1490360,Fix Released,Wrong spells and description of functions in multiple files,https://bugs.launchpad.net/rally/+bug/1490360,2015-09-27
+1490808,1490808,Fix Released,Typos in the following files,https://bugs.launchpad.net/rally/+bug/1490808,2015-09-27
+1443035,1443035,Fix Released,make timeouts configure from task or conf file and not hard-coded,https://bugs.launchpad.net/rally/+bug/1443035,2015-09-27
+1437162,1437162,Fix Released,need to specify where to install cirros image,https://bugs.launchpad.net/rally/+bug/1437162,2015-09-27
+1490141,1490141,Fix Released,Typo's in the multiple files,https://bugs.launchpad.net/rally/+bug/1490141,2015-09-27
+1489710,1489710,Fix Released,Fix one typo on Rally document,https://bugs.launchpad.net/rally/+bug/1489710,2015-09-27
+1489559,1489559,Fix Released,Rally Code Comment Bug ( rally/api.py ),https://bugs.launchpad.net/rally/+bug/1489559,2015-09-27
+1488835,1488835,Fix Released,Fix two typo on Rally Installation document,https://bugs.launchpad.net/rally/+bug/1488835,2015-09-27
+1487574,1487574,Fix Released,spelling and sentence need to be corrected,https://bugs.launchpad.net/rally/+bug/1487574,2015-09-27
+1487572,1487572,Fix Released,Spell mistakes in these files,https://bugs.launchpad.net/rally/+bug/1487572,2015-09-27
+1487559,1487559,Fix Released,Command should be elaborated,https://bugs.launchpad.net/rally/+bug/1487559,2015-09-27
+1487540,1487540,Fix Released,spell mistake and repeated word in the following README.rst file,https://bugs.launchpad.net/rally/+bug/1487540,2015-09-27
+1487519,1487519,Fix Released,spell mistakes in the following files,https://bugs.launchpad.net/rally/+bug/1487519,2015-09-27
+1487507,1487507,Fix Released,typo in rally/cli/commands/show.py,https://bugs.launchpad.net/rally/+bug/1487507,2015-09-27
+1484880,1484880,Fix Released,Fix many typos and grammar in Rally Readme Files,https://bugs.launchpad.net/rally/+bug/1484880,2015-09-27
+1477849,1477849,Fix Released,Fix eight typos on  Rally document,https://bugs.launchpad.net/rally/+bug/1477849,2015-09-27
+1474302,1474302,Fix Released,"[Docs] at User stories, typo in title",https://bugs.launchpad.net/rally/+bug/1474302,2015-09-27
+1473642,1473642,Fix Released,"[Docs] at Rally plugin, Mislead about create SLA Plugin",https://bugs.launchpad.net/rally/+bug/1473642,2015-09-27
+1473620,1473620,Fix Released,"[Docs] at tutorial step8, Dead link to source of scenario",https://bugs.launchpad.net/rally/+bug/1473620,2015-09-27
+1473486,1473486,Fix Released,[Docs at step_1_setting_up_env] sample commnad output is wrong,https://bugs.launchpad.net/rally/+bug/1473486,2015-09-27
+1473331,1473331,Fix Released,Lack of unit test for rally.common.util.EnumMixin,https://bugs.launchpad.net/rally/+bug/1473331,2015-09-27
+1472454,1472454,Fix Released,some file missing newline at end of file,https://bugs.launchpad.net/rally/+bug/1472454,2015-09-27
+1469590,1469590,Fix Released,can not update user password in keystone v3,https://bugs.launchpad.net/rally/+bug/1469590,2015-09-27
+1466055,1466055,Fix Released,functools32 should be added to requirements,https://bugs.launchpad.net/rally/+bug/1466055,2015-09-27
+1464495,1464495,Fix Released,"tox shows ""WARNING:test command found but not installed in testenv""",https://bugs.launchpad.net/rally/+bug/1464495,2015-09-27
+1460582,1460582,Fix Released,Rally with DevStack all-in-one installation doc is old,https://bugs.launchpad.net/rally/+bug/1460582,2015-09-27
+1442203,1442203,Fix Released,Authenticate. validate_neutron does not validate token per repetition,https://bugs.launchpad.net/rally/+bug/1442203,2015-09-27

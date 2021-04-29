@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1514495,1514495,Fix Released,[OSTF] need to add new heat test for waitcondition/waithandle resources,https://bugs.launchpad.net/fuel/+bug/1514495,2016-03-11
+1486056,1486056,Fix Released,OSTF fails trying to authenticate to HTTPS horizon,https://bugs.launchpad.net/fuel/+bug/1486056,2016-03-11
+1533306,1533306,Fix Released,[detached-keystone plugin] OSTF should use public VIP to access Keystone if SSL is enabled,https://bugs.launchpad.net/fuel/+bug/1533306,2016-03-11
+1530117,1530117,Fix Released,[OSTF] Test 'Check Keystone SSL certificate' always pass,https://bugs.launchpad.net/fuel/+bug/1530117,2016-03-11
+1524850,1524850,Fix Released,[Sahara][OSTF] Sahara OSTF tests failed because of mapping don't work,https://bugs.launchpad.net/fuel/+bug/1524850,2016-03-11
+1499415,1499415,Fix Released,OSTF hangs on selecting HTTP proxy for cloud,https://bugs.launchpad.net/fuel/+bug/1499415,2016-03-11
+1506945,1506945,Fix Released,OSTF test 'check pacemaker resources' wrongly check status for resource 'sysinfo_nodeXX...',https://bugs.launchpad.net/fuel/+bug/1506945,2016-03-11
+1485580,1485580,Fix Released,"OSTF test ""RabbitMQ availability"" fails if ""mgmt/messaging"" network role is moved to separate network: AssertionError: There are no online rabbit nodes",https://bugs.launchpad.net/fuel/+bug/1485580,2016-03-11
+1485448,1485448,Fix Released,[OSTF] test_mysql_replication fail after upgrade 6.1->7.0,https://bugs.launchpad.net/fuel/+bug/1485448,2016-03-11
+1479781,1479781,Fix Released,[ostf]OSTF check for pacemaker status returns false-positive result for clone_p_mysql,https://bugs.launchpad.net/fuel/+bug/1479781,2016-03-11
+1469389,1469389,Fix Released,Rabbitmq replication ostf test failed,https://bugs.launchpad.net/fuel/+bug/1469389,2016-03-11
+1469388,1469388,Fix Released,Heat ostf tests failed with flavor not found,https://bugs.launchpad.net/fuel/+bug/1469388,2016-03-11
+1486534,1486534,Fix Released,OSTF test RabbitMQ availability failure with timeout error,https://bugs.launchpad.net/fuel/+bug/1486534,2016-03-11
+1520664,1520664,Fix Released,[OSTF]Ceilometer test to check alarm state and get Nova metrics with Time Limit,https://bugs.launchpad.net/fuel/+bug/1520664,2016-03-11
+1529057,1529057,Fix Released,[vCenter][OSTF] vCenter OSTF are not active with Neutron netwroking,https://bugs.launchpad.net/fuel/+bug/1529057,2016-03-11
+1506367,1506367,Fix Released,Wrong cores group in OSTF Maintainers file,https://bugs.launchpad.net/fuel/+bug/1506367,2016-03-11
+1498934,1498934,Fix Released,OSTF CI fails to install test_requirements,https://bugs.launchpad.net/fuel/+bug/1498934,2016-03-11
+1517420,1517420,Fix Released,[ostf] Update string formatting in cleanup,https://bugs.launchpad.net/fuel/+bug/1517420,2016-03-11
+1510903,1510903,Fix Released,"[ostf] double ""and"" in docstrings",https://bugs.launchpad.net/fuel/+bug/1510903,2016-03-11
+1515220,1515220,Fix Released,Typo in warning message,https://bugs.launchpad.net/fuel/+bug/1515220,2016-03-11
+1515211,1515211,Fix Released,[ostf] [ironic] Add ironic port to apache api proxy configuration,https://bugs.launchpad.net/fuel/+bug/1515211,2016-03-11
+1500401,1500401,Fix Released,Packages versions conflict in OSTF container during installation of python-ironicclient,https://bugs.launchpad.net/fuel/+bug/1500401,2016-03-11
+1481732,1481732,Fix Released,OSTF RabbitMQ availability test is incompatible with RabbitMQ 3.5.4,https://bugs.launchpad.net/fuel/+bug/1481732,2016-03-11
+1483616,1483616,Fix Released,Ostf tests Ceilometer test to check notifications from Glance failed with 500 error response from service,https://bugs.launchpad.net/fuel/+bug/1483616,2016-03-11
+1532258,1532258,Fix Released,neutronclient commands do not follow cliff command guideline,https://bugs.launchpad.net/neutron/+bug/1532258,2016-03-11
+1532258,1532258,Fix Released,neutronclient commands do not follow cliff command guideline,https://bugs.launchpad.net/python-neutronclient/+bug/1532258,2016-03-11
+1555625,1555625,Fix Released,--encrypt-pass-file option does not work,https://bugs.launchpad.net/freezer/+bug/1555625,2016-03-11
+1220256,1220256,Fix Released,Hyper-V driver needs tests for WMI WQL instructions,https://bugs.launchpad.net/nova/+bug/1220256,2016-03-11
+1533940,1533940,Fix Released,check network az attribute when booting VM in the bottom pod,https://bugs.launchpad.net/tricircle/+bug/1533940,2016-03-11
+1555987,1555987,Fix Released,Bonding tests on 6.1 release has failed status,https://bugs.launchpad.net/fuel/+bug/1555987,2016-03-11
+1551616,1551616,Fix Released,top only port information not correctly formatted,https://bugs.launchpad.net/tricircle/+bug/1551616,2016-03-11
+1537759,1537759,Fix Released,"On burst VMs creation, the OVS don't respond",https://bugs.launchpad.net/dragonflow/+bug/1537759,2016-03-11
+1552170,1552170,Fix Committed,Enable pipelines only for exts which are enabled in cluster,https://bugs.launchpad.net/fuel/+bug/1552170,2016-03-11
+1532714,1532714,Fix Released,[doc]Image URL in CDH plugin doc is out of date,https://bugs.launchpad.net/sahara/+bug/1532714,2016-03-11
+1547541,1547541,Fix Released,galera_client fails without apt-transport-https,https://bugs.launchpad.net/openstack-ansible/+bug/1547541,2016-03-11
+1555256,1555256,Fix Released,os_neutron: no service or tool found for: neutron-lbaas-agent,https://bugs.launchpad.net/openstack-ansible/+bug/1555256,2016-03-11
+1531970,1531970,Fix Released,The port_security extension in neutron should be enabled by default,https://bugs.launchpad.net/tripleo/+bug/1531970,2016-03-11
+1548507,1548507,Fix Released,"Asterisks are missin in image fields: name, format",https://bugs.launchpad.net/horizon/+bug/1548507,2016-03-11
+1532066,1532066,Fix Released,Remove the kolla-build.conf,https://bugs.launchpad.net/kolla/+bug/1532066,2016-03-11
+1366286,1366286,Fix Released,Glance Metadata Definitions Catalog - Seed,https://bugs.launchpad.net/openstack-manuals/+bug/1366286,2016-03-11
+1396650,1396650,Fix Released,Duplicated tests for Catalog,https://bugs.launchpad.net/keystone/+bug/1396650,2016-03-11
+1555412,1555412,Fix Released,L3 APIC Plugin shouldn't inherit from NeutronDbPluginV2,https://bugs.launchpad.net/group-based-policy/+bug/1555412,2016-03-11
+1555631,1555631,Fix Released,north-west networking doesn't work,https://bugs.launchpad.net/tricircle/+bug/1555631,2016-03-11
+1478145,1478145,Fix Released,gnocchi api and statsd fail to build,https://bugs.launchpad.net/kolla/+bug/1478145,2016-03-11
+1498495,1498495,Fix Released,ActionInProgress_Remote: Stack TemplateResourceUpdateFailedTest already has an action (CREATE) in progress.,https://bugs.launchpad.net/heat/+bug/1498495,2016-03-11
+1553868,1553868,Fix Released,networking_brocade: On VDX ml2 nos dirver timeouts during netconf operation,https://bugs.launchpad.net/networking-brocade/+bug/1553868,2016-03-11
+1554901,1554901,Fix Released,most of the files in networking/openstack/common are not referenced anywhere,https://bugs.launchpad.net/networking-odl/+bug/1554901,2016-03-11
+1547616,1547616,Fix Released,ovs-firewall doesn't work with ipv6,https://bugs.launchpad.net/neutron/+bug/1547616,2016-03-11
+1555450,1555450,Fix Released,Acronyms is not well formated in README.rst,https://bugs.launchpad.net/group-based-policy/+bug/1555450,2016-03-10
+1486503,1486503,Fix Released,Some OSTF tests failed after reboot controller or maintenance mode (umm on/off),https://bugs.launchpad.net/fuel/+bug/1486503,2016-03-10
+1554200,1554200,Fix Released,Unit test 'test_l3_cfg_agent_query_ha_router_with_fips' fails,https://bugs.launchpad.net/networking-cisco/+bug/1554200,2016-03-10
+1548919,1548919,Fix Released,L7 - URL validation should use RFC3986 package,https://bugs.launchpad.net/octavia/+bug/1548919,2016-03-10
+1553244,1553244,Fix Released,implement logrotate for heka,https://bugs.launchpad.net/kolla/+bug/1553244,2016-03-10
+1504577,1504577,Fix Released,volume type extra specs only returned for admin,https://bugs.launchpad.net/cinder/+bug/1504577,2016-03-10
+1555735,1555735,Fix Released,Tests are failing due to missing secret_key,https://bugs.launchpad.net/horizon-cisco-ui/+bug/1555735,2016-03-10
+1552497,1552497,Fix Released,"Enhance Arista ML2 driver error handling for invalid URLs, empty response",https://bugs.launchpad.net/networking-arista/+bug/1552497,2016-03-10
+1555493,1555493,Fix Released,API types should NOT render the unsets to None by default,https://bugs.launchpad.net/octavia/+bug/1555493,2016-03-10
+1555577,1555577,Fix Released,Creation of environment snapshot fails with error Shotgun exit code: 1 due to ContextualVersionConflict,https://bugs.launchpad.net/fuel/+bug/1555577,2016-03-10
+1555401,1555401,Fix Released,Incorrect project_id type in API results in erratic behavior,https://bugs.launchpad.net/octavia/+bug/1555401,2016-03-10
+1508416,1508416,Fix Released,neutron-ha-tool RA does not support multiple regions,https://bugs.launchpad.net/openstack-resource-agents/+bug/1508416,2016-03-10
+1433924,1433924,Fix Released,"""Too much data for sort() with no index."" While Getting Resources",https://bugs.launchpad.net/ceilometer/+bug/1433924,2016-03-10
+1535333,1535333,Fix Released,admin_address cannot be configured independently of internal_address,https://bugs.launchpad.net/kolla/+bug/1535333,2016-03-10
+1512876,1512876,Fix Released,Show qos_specs_id based on policy,https://bugs.launchpad.net/cinder/+bug/1512876,2016-03-10
+1555692,1555692,Fix Released,Setup master node failed on attempts to build default bootstrap image: Depends: python-requests- but it is not installable\n',https://bugs.launchpad.net/fuel/+bug/1555692,2016-03-10
+1499298,1499298,Fix Released,Installers should use pymysql db driver as of Liberty,https://bugs.launchpad.net/tripleo/+bug/1499298,2016-03-10
+1531459,1531459,Fix Released,bagpipe: agent restart lost flows,https://bugs.launchpad.net/bgpvpn/+bug/1531459,2016-03-10
+1450859,1450859,Fix Released,list servers always returns all  with 'ip6' filter,https://bugs.launchpad.net/nova/+bug/1450859,2016-03-10
+1551827,1551827,Fix Released,attribute nve_src_intf causing bad behavior in Nexus ML2 driver,https://bugs.launchpad.net/networking-cisco/+bug/1551827,2016-03-10
+1531236,1531236,Fix Released,inspector only supports keystoneclient.v2_0,https://bugs.launchpad.net/ironic-inspector/+bug/1531236,2016-03-10
+1506348,1506348,Fix Released,Drop support for old plugin API (passing in patches),https://bugs.launchpad.net/ironic-inspector/+bug/1506348,2016-03-10
+1525235,1525235,Fix Released,[RFE] API for aborting introspection,https://bugs.launchpad.net/ironic-inspector/+bug/1525235,2016-03-10
+1529809,1529809,Fix Released,set-attribute fails if path w/o backslash at the beginning,https://bugs.launchpad.net/ironic-inspector/+bug/1529809,2016-03-10
+1544613,1544613,Fix Released,extra_hardware plugin does not work due to incorrect Swift API initialization,https://bugs.launchpad.net/ironic-inspector/+bug/1544613,2016-03-10
+1549836,1549836,Fix Released,"devstack plugin: add ""vga=normal console=ttyS0"" to pxelinux.cfg/default",https://bugs.launchpad.net/ironic-inspector/+bug/1549836,2016-03-10
+1528830,1528830,Fix Released,Deprecate root_device_hint name for raid_device plugin,https://bugs.launchpad.net/ironic-inspector/+bug/1528830,2016-03-10

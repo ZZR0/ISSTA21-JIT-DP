@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1527841,1527841,Fix Released,regression caused by fix for 'Port zfssa driver to Python 3',https://bugs.launchpad.net/cinder/+bug/1527841,2016-01-21
+1504719,1504719,Fix Released,retype volume got error when max volume limit has arrived,https://bugs.launchpad.net/cinder/+bug/1504719,2016-01-21
+1238093,1238093,Fix Released,Race between cinder and nova allows multiple detaches,https://bugs.launchpad.net/cinder/+bug/1238093,2016-01-21
+1490944,1490944,Fix Released,API delete races,https://bugs.launchpad.net/cinder/+bug/1490944,2016-01-21
+1529626,1529626,Fix Released,Cinder can not delete a snapshot if unprotect is already set,https://bugs.launchpad.net/cinder/+bug/1529626,2016-01-21
+1284160,1284160,Fix Released,nfs tests need to be converted to mock from mox,https://bugs.launchpad.net/cinder/+bug/1284160,2016-01-21
+1530358,1530358,Fix Released,Migration 061 is race condition prone and inefficient,https://bugs.launchpad.net/cinder/+bug/1530358,2016-01-21
+1530964,1530964,Fix Released,image cache is logging warnings when not enabled,https://bugs.launchpad.net/cinder/+bug/1530964,2016-01-21
+1531104,1531104,Fix Released,Re-enable hacking checks for H105,https://bugs.launchpad.net/cinder/+bug/1531104,2016-01-21
+1520102,1520102,Fix Released,Migration: additional volume deletion will fail,https://bugs.launchpad.net/cinder/+bug/1520102,2016-01-21
+1531676,1531676,Fix Released,Pure drivers still use db access in cg methods,https://bugs.launchpad.net/cinder/+bug/1531676,2016-01-21
+1534182,1534182,Fix Released,Chunked driver not handling _update_container_name as expected,https://bugs.launchpad.net/cinder/+bug/1534182,2016-01-21
+1534199,1534199,Fix Released,Cinder raises DB data if initiator is dictionary,https://bugs.launchpad.net/cinder/+bug/1534199,2016-01-21
+1530249,1530249,Fix Released,Use six.moves.reduce instead of builtin reduce,https://bugs.launchpad.net/glance/+bug/1530249,2016-01-21
+1530249,1530249,Fix Released,Use six.moves.reduce instead of builtin reduce,https://bugs.launchpad.net/cinder/+bug/1530249,2016-01-21
+1534240,1534240,Fix Released,netapp eseries uses wrong key name for max_over_subscription_ratio,https://bugs.launchpad.net/cinder/+bug/1534240,2016-01-21
+1534808,1534808,Fix Released,Unused table iscsi_targets,https://bugs.launchpad.net/cinder/+bug/1534808,2016-01-21
+1534302,1534302,Fix Released,"[BVT] Nailgun failed to start wit error SQLAlchemy<1.1.0,>=1.0.10 not found",https://bugs.launchpad.net/fuel/+bug/1534302,2016-01-21
+1529093,1529093,Fix Released,Check_file_exists for test neutron_tun has harcoded version of python-fuelclient,https://bugs.launchpad.net/fuel/+bug/1529093,2016-01-21
+1536514,1536514,Fix Released,cinder create volume from image doesn't work with source build,https://bugs.launchpad.net/kolla/+bug/1536514,2016-01-21
+1517424,1517424,Fix Released,Incorrect value for os_privileged_user_auth_url in cinder.conf,https://bugs.launchpad.net/fuel/+bug/1517424,2016-01-21
+1522960,1522960,Fix Released,designate devstack docs out of date,https://bugs.launchpad.net/searchlight/+bug/1522960,2016-01-21
+1523648,1523648,Fix Released,oslo config generator file should be named searchlight.conf,https://bugs.launchpad.net/searchlight/+bug/1523648,2016-01-21
+1532306,1532306,Fix Released,Functional tests are leaving zombies around,https://bugs.launchpad.net/searchlight/+bug/1532306,2016-01-21
+1533361,1533361,Fix Released,Refactor functional test plugin init,https://bugs.launchpad.net/searchlight/+bug/1533361,2016-01-21
+1528996,1528996,Fix Released,Can't delete heat node,https://bugs.launchpad.net/senlin/+bug/1528996,2016-01-21
+1530245,1530245,Fix Released,Senlin should have some local check factory in hacking,https://bugs.launchpad.net/senlin/+bug/1530245,2016-01-21
+1531744,1531744,Fix Released,node show with detail doesn't work,https://bugs.launchpad.net/senlin/+bug/1531744,2016-01-21
+1465657,1465657,Fix Released,Node join action should carry an optional 'role' parameter,https://bugs.launchpad.net/senlin/+bug/1465657,2016-01-21
+1534072,1534072,Fix Released,Input of update_policy using error,https://bugs.launchpad.net/senlin/+bug/1534072,2016-01-21
+1533644,1533644,Fix Released,add cooldown for scaling policy,https://bugs.launchpad.net/senlin/+bug/1533644,2016-01-21
+1504588,1504588,Fix Released,pysnmp 4.3.0 breaks SNMP polled metrics,https://bugs.launchpad.net/ceilometer/+bug/1504588,2016-01-21
+1517691,1517691,Fix Released,should use factorized yaml loading code simplify snmp meter loading,https://bugs.launchpad.net/ceilometer/+bug/1517691,2016-01-21
+1523124,1523124,Fix Released,gnocchi dispatcher can't handle single sample,https://bugs.launchpad.net/ceilometer/+bug/1523124,2016-01-21
+1506610,1506610,Fix Released,Malformed host field in instance resources,https://bugs.launchpad.net/ceilometer/+bug/1506610,2016-01-21
+1522892,1522892,Fix Released,Duplicate information link for writing agent plugins,https://bugs.launchpad.net/ceilometer/+bug/1522892,2016-01-21
+1523127,1523127,Fix Released,gnocchi dispatcher use multiple cache keys in different processes,https://bugs.launchpad.net/ceilometer/+bug/1523127,2016-01-21
+1489949,1489949,Fix Released,Collector should tolerate dispatcher backend service unavailable failure,https://bugs.launchpad.net/ceilometer/+bug/1489949,2016-01-21
+1519477,1519477,Fix Released,integration tests fail randomly,https://bugs.launchpad.net/ceilometer/+bug/1519477,2016-01-21
+1522521,1522521,Fix Released,No exception message when libvirt is not installed,https://bugs.launchpad.net/ceilometer/+bug/1522521,2016-01-21
+1526652,1526652,Fix Released,The EndpointNotFound exception in object store pollster cannot be exactly catched,https://bugs.launchpad.net/ceilometer/+bug/1526652,2016-01-21
+1523193,1523193,Fix Released,inefficient way of caching in gnocchi dispatcher,https://bugs.launchpad.net/ceilometer/+bug/1523193,2016-01-21
+1520358,1520358,Fix Released,Remove iso8601 dependency,https://bugs.launchpad.net/glance/+bug/1520358,2016-01-21
+1523977,1523977,Fix Released,[fuel-web] vcenter restrictions,https://bugs.launchpad.net/fuel/+bug/1523977,2016-01-21
+1492120,1492120,Fix Released,spelling mistake  in comment in nova/network/manager.py,https://bugs.launchpad.net/nova/+bug/1492120,2016-01-21
+1500337,1500337,Fix Released,Rollback of live-migration fails in the case of cinder with the NFS driver,https://bugs.launchpad.net/nova/+bug/1500337,2016-01-21
+1506213,1506213,Fix Released,nova.cmd.baseproxy handles errors incorrectly,https://bugs.launchpad.net/nova/+bug/1506213,2016-01-21
+1511094,1511094,Fix Released,REST API version history docs has wrong os-extended-volumes note for v2.3,https://bugs.launchpad.net/nova/+bug/1511094,2016-01-21
+1507424,1507424,Fix Released,Hypervisor type of xen should be XenServer,https://bugs.launchpad.net/nova/+bug/1507424,2016-01-21
+1501202,1501202,Fix Released,"Error spelling of ""explicitely""",https://bugs.launchpad.net/nova/+bug/1501202,2016-01-21
+1515637,1515637,Fix Released,Double detach volume causes server fault,https://bugs.launchpad.net/nova/+bug/1515637,2016-01-21
+1516963,1516963,Fix Released,Nova enginefacade uses private fields of oslo.db,https://bugs.launchpad.net/nova/+bug/1516963,2016-01-21
+1522349,1522349,Fix Released,FixedIpNotFoundForAddress should be catched when create instance,https://bugs.launchpad.net/nova/+bug/1522349,2016-01-21
+1488437,1488437,Fix Released,Fix the error of duplicate words.,https://bugs.launchpad.net/nova/+bug/1488437,2016-01-21
+1379425,1379425,Fix Released,REBOOTING_HARD not in expected_task_state,https://bugs.launchpad.net/nova/+bug/1379425,2016-01-21
+1522239,1522239,Fix Released,Useless element in migrate_server shcema,https://bugs.launchpad.net/nova/+bug/1522239,2016-01-21
+1521788,1521788,Fix Released,nova.network.neutronv2.api.validate_networks could be smarter when listing ports,https://bugs.launchpad.net/nova/+bug/1521788,2016-01-21
+1489627,1489627,Fix Released,Incorrect use of os.path.join() in nova/api/openstack/common.py,https://bugs.launchpad.net/nova/+bug/1489627,2016-01-21
+1524276,1524276,Fix Released,Inconsistent IP usage in help strings,https://bugs.launchpad.net/nova/+bug/1524276,2016-01-21
+1499204,1499204,Fix Released,wrong check for physical function in pci utils,https://bugs.launchpad.net/nova/+bug/1499204,2016-01-21
+1524444,1524444,Fix Released,auto-select rpc version info logging is too chatty,https://bugs.launchpad.net/nova/+bug/1524444,2016-01-21
+1357751,1357751,Fix Released,nova.tests.network.test_manager.AllocateTestCase should use mock,https://bugs.launchpad.net/nova/+bug/1357751,2016-01-21
+1524990,1524990,Fix Released,safe_utils.getcallargs does not match inspect.getcallargs,https://bugs.launchpad.net/nova/+bug/1524990,2016-01-21
+1524476,1524476,Fix Released,Compute API in Compute API Guide,https://bugs.launchpad.net/nova/+bug/1524476,2016-01-21
+1524476,1524476,Fix Released,Compute API in Compute API Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1524476,2016-01-21
+1525132,1525132,Fix Released,doc error about inject files to new build,https://bugs.launchpad.net/openstack-api-site/+bug/1525132,2016-01-21
+1525132,1525132,Fix Released,doc error about inject files to new build,https://bugs.launchpad.net/nova/+bug/1525132,2016-01-21
+1525137,1525137,Fix Released,doc wrong about BAK extensions of injection,https://bugs.launchpad.net/openstack-api-site/+bug/1525137,2016-01-21
+1525137,1525137,Fix Released,doc wrong about BAK extensions of injection,https://bugs.launchpad.net/nova/+bug/1525137,2016-01-21
+1518848,1518848,Fix Released,"set reclaim_instance_interval < 0, never delete instance completely.",https://bugs.launchpad.net/nova/+bug/1518848,2016-01-21
+1526162,1526162,Fix Released,Add instance.save() when handling nova-compute failure during a soft reboot,https://bugs.launchpad.net/nova/+bug/1526162,2016-01-21
+1516721,1516721,Fix Released,XenAPI: Race condition in test_get_console_output_with_unlimited_size,https://bugs.launchpad.net/nova/+bug/1516721,2016-01-21
+1527497,1527497,Fix Released,Unbound local variable request_spec,https://bugs.launchpad.net/nova/+bug/1527497,2016-01-21
+1528393,1528393,Fix Released,signature_utils tests fail on Fedora/RHEL/CentOS because not all ECC curves are available,https://bugs.launchpad.net/nova/+bug/1528393,2016-01-21
+1528041,1528041,Fix Released,Inefficient use of db calls to get instance rules in virt/firewall.py,https://bugs.launchpad.net/nova/+bug/1528041,2016-01-21

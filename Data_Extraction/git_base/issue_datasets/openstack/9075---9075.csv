@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1287051,1287051,Fix Released,"When launching an instance, the initial message should say ""Launch Scheduled""",https://bugs.launchpad.net/horizon/+bug/1287051,2019-03-07
+1815029,1815029,Fix Released,Missing Project ID information in detail page,https://bugs.launchpad.net/horizon/+bug/1815029,2019-03-07
+1816011,1816011,Fix Released,"When the status of the volume snapshot is Error Deleting, the status displayed on the snapshot details page is Error_deleting",https://bugs.launchpad.net/horizon/+bug/1816011,2019-03-07
+1815859,1815859,Fix Released,Volume Snapshot table 'Project' column have wrong information,https://bugs.launchpad.net/horizon/+bug/1815859,2019-03-07
+1816684,1816684,Fix Released,"Create an Application Credential of the name has exist, the error message is not clear",https://bugs.launchpad.net/horizon/+bug/1816684,2019-03-07
+1818292,1818292,Fix Released,POLICY_CHECK_FUNCTION as string change incomplete,https://bugs.launchpad.net/horizon/+bug/1818292,2019-03-07
+1818791,1818791,Fix Released,Volume Snapshot table has incorrect error message.,https://bugs.launchpad.net/horizon/+bug/1818791,2019-03-07
+1803746,1803746,Fix Released,Mistral doesn't send TASK_FAILED event in case of MistralException,https://bugs.launchpad.net/mistral/+bug/1803746,2019-03-07
+1788174,1788174,Fix Released,Mistral uses deprecated option keystone_authtoken/auth_uri for keystoneclient creation,https://bugs.launchpad.net/mistral/+bug/1788174,2019-03-07
+1751299,1751299,Fix Released,Horizon 500 error after fresh deployment,https://bugs.launchpad.net/tripleo/+bug/1751299,2019-03-07
+1812208,1812208,Fix Released,on ubuntu bionic grenade has incorrect python 3 version,https://bugs.launchpad.net/grenade/+bug/1812208,2019-03-07
+1802001,1802001,Fix Committed,please add documentation and example for python-zunclient API,https://bugs.launchpad.net/zun/+bug/1802001,2019-03-07
+1810908,1810908,Fix Committed,KeyError when error_body = body_json['errors'][0],https://bugs.launchpad.net/zun/+bug/1810908,2019-03-07
+1812518,1812518,Fix Released,Create container with --wait option break output formatting,https://bugs.launchpad.net/python-zunclient/+bug/1812518,2019-03-07
+1813516,1813516,Fix Released,Wrong error message,https://bugs.launchpad.net/python-zunclient/+bug/1813516,2019-03-07
+1813517,1813517,Fix Released,Error on missing 'type' key in 'mounts',https://bugs.launchpad.net/python-zunclient/+bug/1813517,2019-03-07
+1800387,1800387,Fix Released,Unable to run unit tests with regex,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1800387,2019-03-07
+1810219,1810219,Fix Released,Avoid renaming existing port,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1810219,2019-03-07
+1714417,1714417,Fix Released,"Error ""Unable to retrieve the Absolute Limits"" appeared in browser console when creating a volume from an image.",https://bugs.launchpad.net/horizon/+bug/1714417,2019-03-07
+1656186,1656186,Fix Released,Error running rally test scenario 'create-volume-from-snapshot',https://bugs.launchpad.net/cinder/+bug/1656186,2019-03-06
+1770640,1770640,Fix Released,live block migration of instance with vfat config drive fails,https://bugs.launchpad.net/nova/+bug/1770640,2019-03-06
+1816434,1816434,Fix Released,cleanup-orphaned-vms.sh not recognise boot from volume instances,https://bugs.launchpad.net/osops/+bug/1816434,2019-03-06
+1716477,1716477,Fix Released,OVN environment files are missing key neutron service plugin,https://bugs.launchpad.net/tripleo/+bug/1716477,2019-03-06
+1818653,1818653,Fix Committed,Unit test failures when testing against master neutron,https://bugs.launchpad.net/networking-sfc/+bug/1818653,2019-03-06
+1818509,1818509,Fix Released,All jobs in periodic pipeline failing to report to dlrn due to missing credentials,https://bugs.launchpad.net/tripleo/+bug/1818509,2019-03-06
+1818538,1818538,Fix Released,All OVB jobs in master periodic pipeline fail to install the undercloud while trying to create the ctlplane network with 503 service unavailable on neutron,https://bugs.launchpad.net/tripleo/+bug/1818538,2019-03-06
+1786245,1786245,Fix Released,Cannot enable mariadb service on openSUSE,https://bugs.launchpad.net/devstack/+bug/1786245,2019-03-06
+1253991,1253991,Fix Released,image cache clean-up should also remove unused ephemeral backing files,https://bugs.launchpad.net/nova/+bug/1253991,2019-03-05
+1693670,1693670,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/neutron/+bug/1693670,2019-03-05
+1693670,1693670,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/barbican/+bug/1693670,2019-03-05
+1693670,1693670,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/zaqar/+bug/1693670,2019-03-05
+1693670,1693670,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/glance/+bug/1693670,2019-03-05
+1693670,1693670,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/designate/+bug/1693670,2019-03-05
+1693670,1693670,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/zun/+bug/1693670,2019-03-05
+1693670,1693670,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/tempest/+bug/1693670,2019-03-05
+1693670,1693670,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/meteos/+bug/1693670,2019-03-05
+1693670,1693670,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/tacker/+bug/1693670,2019-03-05
+1693670,1693670,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/glance-store/+bug/1693670,2019-03-05
+1818646,1818646,Fix Released,misconfiguration of the new periodic build containers job preventing periodic pipeline to trigger,https://bugs.launchpad.net/tripleo/+bug/1818646,2019-03-05
+1769103,1769103,Fix Released,Undercloud upgrades job failing in stable/pike branch,https://bugs.launchpad.net/tripleo/+bug/1769103,2019-03-05
+1737196,1737196,Fix Released,os-net-config: useful log messages hidden in debug,https://bugs.launchpad.net/tripleo/+bug/1737196,2019-03-05
+1731289,1731289,Fix Released,"toci_quickstart.sh: recording the size of logs directory can fail with ""sort: write error""",https://bugs.launchpad.net/tripleo/+bug/1731289,2019-03-05
+1730106,1730106,Fix Released,"fetch rdoinfo fails, could not resolve github.com",https://bugs.launchpad.net/tripleo/+bug/1730106,2019-03-05
+1729686,1729686,Fix Released,undercloud oooq subunit file creation creates default failures and should be skipped,https://bugs.launchpad.net/tripleo/+bug/1729686,2019-03-05
+1723182,1723182,Fix Released,be more deterministic in log collection in /var/log and /etc/,https://bugs.launchpad.net/tripleo/+bug/1723182,2019-03-05
+1721038,1721038,Fix Released,Network_data should dynamically render resource registry,https://bugs.launchpad.net/tripleo/+bug/1721038,2019-03-05
+1715787,1715787,Fix Released,User is an optional attribute for ipmi systems,https://bugs.launchpad.net/tripleo/+bug/1715787,2019-03-05
+1762419,1762419,Fix Released,Collect logs task are not collecting the virt-customize logs from periodic-tripleo-ci-centos-7-ovb-1ctlr_1comp-featureset002-$release-upload,https://bugs.launchpad.net/tripleo/+bug/1762419,2019-03-05
+1715359,1715359,Fix Released,devmode.sh with OVB should support all the feature sets supported by non-ovb deployments.,https://bugs.launchpad.net/tripleo/+bug/1715359,2019-03-05
+1715349,1715349,Fix Released,devmode.sh with OVB should support containerized overcloud deployment.,https://bugs.launchpad.net/tripleo/+bug/1715349,2019-03-05
+1715187,1715187,Fix Released,Clean up fluentd service implementation,https://bugs.launchpad.net/tripleo/+bug/1715187,2019-03-05
+1715083,1715083,Fix Released,Overcloud stack create fails when disabling heat_api_cfn and heat_api_cloudwatch,https://bugs.launchpad.net/tripleo/+bug/1715083,2019-03-05
+1811401,1811401,Fix Released,Certmonger post-save command does not work with renewals,https://bugs.launchpad.net/tripleo/+bug/1811401,2019-03-05
+1813459,1813459,Fix Released,Mounting the cinder storage dashboard shows that the mount was successful but it turns out that the local store is the one mounted,https://bugs.launchpad.net/zun/+bug/1813459,2019-03-05
+1817360,1817360,Fix Released,Python image uploader: failure when certificate isn't valid,https://bugs.launchpad.net/tripleo/+bug/1817360,2019-03-05
+1818491,1818491,Fix Released,error while deleting interface from router in python 3.5,https://bugs.launchpad.net/networking-vpp/+bug/1818491,2019-03-05
+1606268,1606268,Fix Released,"Failure to upload to swift when keystone uses ""insecure"" SSL",https://bugs.launchpad.net/glance-store/+bug/1606268,2019-03-04
+1814464,1814464,Fix Released,no custom config capability for karbor providers,https://bugs.launchpad.net/kolla-ansible/+bug/1814464,2019-03-04
+1806899,1806899,Fix Released,Corosync and Pacemaker shutdown dependency,https://bugs.launchpad.net/fuel/+bug/1806899,2019-03-04
+1809401,1809401,Fix Released,os-resource-classes: Could not satisfy constraints for 'os-resource-classes': installation from path or url cannot be constrained to a version,https://bugs.launchpad.net/nova/+bug/1809401,2019-03-04
+1816446,1816446,Fix Released,On python-tripleoclient the tests fail if running without root user.,https://bugs.launchpad.net/tripleo/+bug/1816446,2019-03-04
+1817973,1817973,Fix Released,Could not satisfy constraints for 'neutron-tempest-plugin': installation from path or url cannot be constrained to a version,https://bugs.launchpad.net/networking-midonet/+bug/1817973,2019-03-04
+1768604,1768604,Fix Released,No replacement for 'instackenv validate' in Queens,https://bugs.launchpad.net/tripleo/+bug/1768604,2019-03-01
+1817598,1817598,Fix Released,introspection ( prepare images )  failing in 3rd party ovb jobs fs001/35,https://bugs.launchpad.net/tripleo/+bug/1817598,2019-03-01
+1803844,1803844,Fix Released,Etcd for SUSE in openstackinstallguide,https://bugs.launchpad.net/openstack-manuals/+bug/1803844,2019-03-01
+1788253,1788253,Fix Released,SSLContext infinite recursion in Python 3.6,https://bugs.launchpad.net/manila/+bug/1788253,2019-02-28
+1809100,1809100,Fix Committed,Unit tests failing,https://bugs.launchpad.net/bgpvpn/+bug/1809100,2019-02-28
+1785641,1785641,Fix Released,Py3.7 import failure running unit tests,https://bugs.launchpad.net/glance-store/+bug/1785641,2019-02-28
+1808456,1808456,Fix Committed,ceph backend reporting meaningless error when no space left,https://bugs.launchpad.net/glance-store/+bug/1808456,2019-02-28
+1808929,1808929,Fix Released,Update mailinglist from dev to discuss,https://bugs.launchpad.net/glance-store/+bug/1808929,2019-02-28
+1813092,1813092,Fix Released,Type issues in drivers (filesystem and VMware),https://bugs.launchpad.net/glance-store/+bug/1813092,2019-02-28
+1815335,1815335,Fix Released,rbd StopIteration Incompatible with py37,https://bugs.launchpad.net/glance-store/+bug/1815335,2019-02-28
+1792869,1792869,Fix Released,FS driver: chunk size is hard-coded,https://bugs.launchpad.net/glance-store/+bug/1792869,2019-02-28
+1807159,1807159,Fix Released,ipmitool missing from mistral_executor docker image,https://bugs.launchpad.net/tripleo/+bug/1807159,2019-02-28
+1797584,1797584,Fix Released,keystonemiddleware audit selects the wrong target service,https://bugs.launchpad.net/keystonemiddleware/+bug/1797584,2019-02-28

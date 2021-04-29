@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1640324,1640324,Fix Released,Client reporting wrong missing file,https://bugs.launchpad.net/tripleo/+bug/1640324,2016-12-15
+1642677,1642677,Fix Released,Hard-coded dependency between haproxy and keepalived,https://bugs.launchpad.net/tripleo/+bug/1642677,2016-12-15
+1629380,1629380,Fix Released,tripleo::profile::base::ceilometer::collector should use normalize_ip_for_uri for ipv6 address handling,https://bugs.launchpad.net/tripleo/+bug/1629380,2016-12-15
+1619074,1619074,Fix Released,os-collect-config ec2 collector should attempt config-drive before nova metadata server,https://bugs.launchpad.net/tripleo/+bug/1619074,2016-12-15
+1631052,1631052,Fix Released,openstack overcloud image upload command is broken,https://bugs.launchpad.net/tripleo/+bug/1631052,2016-12-15
+1631926,1631926,Fix Released,instack-undercloud doesn't use default Swift ring partition power,https://bugs.launchpad.net/tripleo/+bug/1631926,2016-12-15
+1632652,1632652,Fix Released,The validations should be installed by default,https://bugs.launchpad.net/tripleo/+bug/1632652,2016-12-15
+1633544,1633544,Fix Released,undercloud on bare metal configures too many workers,https://bugs.launchpad.net/tripleo/+bug/1633544,2016-12-15
+1633450,1633450,Fix Released,CI periodic nonha job fail on mistral error,https://bugs.launchpad.net/tripleo/+bug/1633450,2016-12-15
+1634052,1634052,Fix Released,instack-create-overcloudrc doesn't work with different stack name than overcloud.,https://bugs.launchpad.net/tripleo/+bug/1634052,2016-12-15
+1639868,1639868,Fix Released,[instack-undercloud] puppet-stack-config.pp $pkg_upgrade_cmd default will always fail,https://bugs.launchpad.net/tripleo/+bug/1639868,2016-12-15
+1593723,1593723,Fix Committed,"[LCM][Task idempotency] Task ""workloads_collector_add"" is not idempotent",https://bugs.launchpad.net/fuel/+bug/1593723,2016-12-15
+1647382,1647382,Fix Released,[9.2] Nova VMs are failed to start after hard reboot,https://bugs.launchpad.net/fuel/+bug/1647382,2016-12-15
+1649854,1649854,Fix Released,[Docs]  Need change option -t GRAPH_TYPES <GRAPH_TYPES> in 'fuel2 graph execute' command,https://bugs.launchpad.net/fuel/+bug/1649854,2016-12-15
+1618583,1618583,Fix Released,Deprecate `show_multiple_locations` option,https://bugs.launchpad.net/glance/+bug/1618583,2016-12-15
+1622338,1622338,Fix Released,Fix Subnet mocking for IPv6 tests,https://bugs.launchpad.net/dragonflow/+bug/1622338,2016-12-15
+1649865,1649865,Fix Released,The fullstack fails at test_l3_flows due to recent neutron update,https://bugs.launchpad.net/dragonflow/+bug/1649865,2016-12-15
+1649548,1649548,Fix Released,High delay in create_network,https://bugs.launchpad.net/dragonflow/+bug/1649548,2016-12-15
+1635494,1635494,Fix Released,ICMPResponder for router interface can only work within subnet,https://bugs.launchpad.net/dragonflow/+bug/1635494,2016-12-15
+1647115,1647115,Fix Released,Masakari output stack traces when instance failure about the instance that does not have ha_enabled metadata was notified.,https://bugs.launchpad.net/masakari/+bug/1647115,2016-12-15
+1649193,1649193,Fix Released,Instance Ha_Enabled check should be before stopping the instance for instance_failure workflow,https://bugs.launchpad.net/masakari/+bug/1649193,2016-12-15
+1649993,1649993,Fix Released,tempest test_update_delete_extra_route failure,https://bugs.launchpad.net/networking-odl/+bug/1649993,2016-12-15
+1649615,1649615,Fix Released,Undercloud running out of disk space in CI,https://bugs.launchpad.net/tripleo/+bug/1649615,2016-12-14
+1649340,1649340,Fix Released,Tinycorelinux repo down causing IPA gate breakage,https://bugs.launchpad.net/ironic-python-agent/+bug/1649340,2016-12-14
+1638861,1638861,Fix Released,os-brick 1.7.0 breaks 2 unit tests in cinder,https://bugs.launchpad.net/cinder/+bug/1638861,2016-12-14
+1608643,1608643,Fix Released,Add 'vhdx' disk format.,https://bugs.launchpad.net/glance/+bug/1608643,2016-12-14
+1599123,1599123,Fix Released,Glance API doesn't work in IPv6 only environment,https://bugs.launchpad.net/glance/+bug/1599123,2016-12-14
+1628787,1628787,Fix Released,Designate TLD : Able to create zone ending other than TLDs created by admin,https://bugs.launchpad.net/designate/+bug/1628787,2016-12-14
+1635717,1635717,Fix Released,oslo.config 3.18.0 broke unit tests,https://bugs.launchpad.net/designate/+bug/1635717,2016-12-14
+1637241,1637241,Fix Released,goal-remove-incubated-oslo-code,https://bugs.launchpad.net/designate/+bug/1637241,2016-12-14
+1630666,1630666,Fix Released,monasca-statsd is a non-optional import even when disabled,https://bugs.launchpad.net/designate/+bug/1630666,2016-12-14
+1639271,1639271,Fix Released,api-ref zone create parameter 'masters',https://bugs.launchpad.net/designate/+bug/1639271,2016-12-14
+1639248,1639248,Fix Released,designate-mdns/metrics: AttributeError: 'NoneType' object has no attribute 'timed',https://bugs.launchpad.net/designate/+bug/1639248,2016-12-14
+1625967,1625967,Fix Released,Authorization failed with project id,https://bugs.launchpad.net/golang-client/+bug/1625967,2016-12-14
+1649795,1649795,Fix Released,OS_TENANT_NAME not  configured properly,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1649795,2016-12-14
+1618003,1618003,Fix Released,CI: no logs after job is killed by timeout,https://bugs.launchpad.net/tripleo/+bug/1618003,2016-12-14
+1642772,1642772,Fix Released,Shouldn't use glance v1 as default API version,https://bugs.launchpad.net/python-openstackclient/+bug/1642772,2016-12-14
+1642238,1642238,Fix Released,Consistency group snapshot commands,https://bugs.launchpad.net/python-openstackclient/+bug/1642238,2016-12-14
+1639231,1639231,Fix Released,Openstack image list should sort on name,https://bugs.launchpad.net/python-openstackclient/+bug/1639231,2016-12-14
+1643861,1643861,Fix Released,"Missing ""Is Public"" column in ""volume type list""",https://bugs.launchpad.net/python-openstackclient/+bug/1643861,2016-12-14
+1645252,1645252,Fix Released,"Missing some options to filter results in  ""snapshot list"" command",https://bugs.launchpad.net/python-openstackclient/+bug/1645252,2016-12-14
+1627069,1627069,Fix Released,"Add QoS support to ""network""",https://bugs.launchpad.net/python-openstackclient/+bug/1627069,2016-12-14
+1613629,1613629,Fix Released,List security groups filtering option,https://bugs.launchpad.net/python-openstackclient/+bug/1613629,2016-12-14
+1610909,1610909,Fix Released,Add floating ip missed two options,https://bugs.launchpad.net/python-openstackclient/+bug/1610909,2016-12-14
+1613231,1613231,Fix Released,Add router list filtering options,https://bugs.launchpad.net/python-openstackclient/+bug/1613231,2016-12-14
+1636123,1636123,Fix Released,show network information return duplicated project id,https://bugs.launchpad.net/python-openstackclient/+bug/1636123,2016-12-14
+1624115,1624115,Fix Released,federated resource queries require auth-type plugins that no longer exist,https://bugs.launchpad.net/python-openstackclient/+bug/1624115,2016-12-14
+1597195,1597195,Fix Released,Cannot delete snapshot which in state other than error or available,https://bugs.launchpad.net/python-openstackclient/+bug/1597195,2016-12-14
+1595428,1595428,Fix Released,Barbican should default to Keystone authentication,https://bugs.launchpad.net/barbican/+bug/1595428,2016-12-14
+1531841,1531841,Fix Released,Something wrong in validator when get invalid property,https://bugs.launchpad.net/barbican/+bug/1531841,2016-12-14
+1624801,1624801,Fix Released,Failed to delete consumer,https://bugs.launchpad.net/barbican/+bug/1624801,2016-12-14
+1627176,1627176,Fix Released,Add secret to generic container with trailing slash fails,https://bugs.launchpad.net/barbican/+bug/1627176,2016-12-14
+1630916,1630916,Fix Released,barbican secret container list - internal server error,https://bugs.launchpad.net/barbican/+bug/1630916,2016-12-14
+1602936,1602936,Fix Released,Import Error when using simple crypto plugin,https://bugs.launchpad.net/barbican/+bug/1602936,2016-12-14
+1632179,1632179,Fix Released,Install and configure for Ubuntu in Installation Guide for Key Manager Service,https://bugs.launchpad.net/barbican/+bug/1632179,2016-12-14
+1604417,1604417,Fix Released,"Missing requirement ""pki"" which is used by dogtag plugin",https://bugs.launchpad.net/barbican/+bug/1604417,2016-12-14
+1609985,1609985,Fix Released,Setting project-quota fails with 500,https://bugs.launchpad.net/barbican/+bug/1609985,2016-12-14
+1635200,1635200,Fix Released,Wrong service endpoints in installation guide,https://bugs.launchpad.net/barbican/+bug/1635200,2016-12-14
+1597285,1597285,Fix Released,python freezerclient fails if opts is provided,https://bugs.launchpad.net/freezer/+bug/1597285,2016-12-14
+1562015,1562015,Fix Released,python freezer client filter by client,https://bugs.launchpad.net/freezer/+bug/1562015,2016-12-14
+1634136,1634136,Fix Released,python-freezerclient --insecure option is not working,https://bugs.launchpad.net/freezer/+bug/1634136,2016-12-14
+1634766,1634766,Fix Released,confused prompt when executing freezer client-register,https://bugs.launchpad.net/freezer/+bug/1634766,2016-12-14
+1641184,1641184,Fix Released,freezer client-delete prints 'Client deleted' even if client is not exists,https://bugs.launchpad.net/freezer/+bug/1641184,2016-12-14
+1641864,1641864,Fix Released,Import objects replaced by modules,https://bugs.launchpad.net/freezer/+bug/1641864,2016-12-14
+1642101,1642101,Fix Released,Different style output when no actions/clients,https://bugs.launchpad.net/freezer/+bug/1642101,2016-12-14
+1641991,1641991,Fix Released,freezer session-start and session-end actions not implemented and useless,https://bugs.launchpad.net/freezer/+bug/1641991,2016-12-14
+1640761,1640761,Fix Released,freezer complete isn't working,https://bugs.launchpad.net/freezer/+bug/1640761,2016-12-14
+1641993,1641993,Fix Released,freezer session-delete action is missed from freezerclient,https://bugs.launchpad.net/freezer/+bug/1641993,2016-12-14
+1644612,1644612,Fix Released,python-freezerclient doesn't use upper-constraints in tox.ini,https://bugs.launchpad.net/freezer/+bug/1644612,2016-12-14
+1640218,1640218,Fix Released,"Synergy CLI crash when using ""synergy quota show""",https://bugs.launchpad.net/synergy-scheduler-manager/+bug/1640218,2016-12-14
+1643826,1643826,Fix Released,freezer job-show:  End Date and Interval error,https://bugs.launchpad.net/freezer/+bug/1643826,2016-12-14
+1642130,1642130,Fix Released,[*] Error 404: No document found with ID None,https://bugs.launchpad.net/freezer/+bug/1642130,2016-12-14
+1642126,1642126,Fix Released,confused prompt when executing freezer action-create,https://bugs.launchpad.net/freezer/+bug/1642126,2016-12-14
+1645342,1645342,Fix Released,python-freezerclient doesn't fully checked against pep8,https://bugs.launchpad.net/freezer/+bug/1645342,2016-12-14
+1642151,1642151,Fix Released,backup-delete action is missing from freezerclient,https://bugs.launchpad.net/freezer/+bug/1642151,2016-12-14

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1563521,1563521,Fix Released,all-nodes.sh fails however networks are pingable,https://bugs.launchpad.net/tripleo/+bug/1563521,2016-06-02
+1567837,1567837,Fix Released,Inconsistent use of parameter_defaults in environment files,https://bugs.launchpad.net/tripleo/+bug/1567837,2016-06-02
+1568995,1568995,Fix Released,"GlanceFilePcmkDevice needs ""crazy quoting"" for IPv6",https://bugs.launchpad.net/tripleo/+bug/1568995,2016-06-02
+1572952,1572952,Fix Released,db sync is happening in step 4 and can cause deployment failures,https://bugs.launchpad.net/tripleo/+bug/1572952,2016-06-02
+1583225,1583225,Fix Released,SwiftStorage nodes are broken due to missing step,https://bugs.launchpad.net/tripleo/+bug/1583225,2016-06-02
+1536156,1536156,Fix Released,tripleoclient fails obscurely if it can't find undercloud-passwords.conf,https://bugs.launchpad.net/tripleo/+bug/1536156,2016-06-02
+1548385,1548385,Fix Released,Error message is confusing when a template is missing in overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1548385,2016-06-02
+1559290,1559290,Fix Released,UnsupportedVersion thrown for Supported Server,https://bugs.launchpad.net/python-manilaclient/+bug/1559290,2016-06-02
+1552771,1552771,Fix Released,Single alias action does not support non None default values,https://bugs.launchpad.net/python-manilaclient/+bug/1552771,2016-06-02
+1572095,1572095,Fix Released,Authentication with v3 token not supported,https://bugs.launchpad.net/python-manilaclient/+bug/1572095,2016-06-02
+1567623,1567623,Fix Released,ha router interfaces are now ignored when constructing appliance config,https://bugs.launchpad.net/astara/+bug/1567623,2016-06-02
+1567163,1567163,Fix Released,allocations config cannot be created when LB ports exist,https://bugs.launchpad.net/astara/+bug/1567163,2016-06-02
+1567667,1567667,Fix Released,loadbalancers leave stale ports,https://bugs.launchpad.net/astara/+bug/1567667,2016-06-02
+1570423,1570423,Fix Released,4.2 Neutron Client does not work removed APIParamsCall decorator,https://bugs.launchpad.net/astara/+bug/1570423,2016-06-02
+1572693,1572693,Fix Released,"nova and neutron clients default to publicURL endpoint, which breaks in some envs",https://bugs.launchpad.net/astara/+bug/1572693,2016-06-02
+1573156,1573156,Fix Released,mgt port cannot be accessed /w ovs,https://bugs.launchpad.net/astara/+bug/1573156,2016-06-02
+1573167,1573167,Fix Released,appliance ssh key isn't sanitized and can break cloud-init,https://bugs.launchpad.net/astara/+bug/1573167,2016-06-02
+1576886,1576886,Fix Released,router does not subscribe to correct floatingip events,https://bugs.launchpad.net/astara/+bug/1576886,2016-06-02
+1583330,1583330,Fix Released,neutron messages not being received by astara,https://bugs.launchpad.net/astara/+bug/1583330,2016-06-02
+1540520,1540520,Fix Released,router port status does not properly reflect the actual state,https://bugs.launchpad.net/astara/+bug/1540520,2016-06-02
+1573226,1573226,Fix Released,L3 Agent Scheduler is disabled improperly,https://bugs.launchpad.net/astara/+bug/1573226,2016-06-02
+1586152,1586152,Fix Released,Akanda stubs should be removed,https://bugs.launchpad.net/astara/+bug/1586152,2016-06-02
+1553971,1553971,Fix Released,os_cinder role has no functional testing,https://bugs.launchpad.net/openstack-ansible/+bug/1553971,2016-06-02
+1586163,1586163,Fix Released,OVN NB sync may delete all ACLs for a port,https://bugs.launchpad.net/networking-ovn/+bug/1586163,2016-06-02
+1552027,1552027,Fix Released,ASR1k: Disable the user visible router does not disable the HA_backup router,https://bugs.launchpad.net/networking-cisco/+bug/1552027,2016-06-02
+1544425,1544425,Fix Released,swift dispersion.conf auth version mismatch,https://bugs.launchpad.net/openstack-ansible/+bug/1544425,2016-06-02
+1577546,1577546,Fix Released,MariaDB/Galera upgrade fails,https://bugs.launchpad.net/openstack-ansible/+bug/1577546,2016-06-02
+1327005,1327005,Fix Released,Need change host to host_name in host resources,https://bugs.launchpad.net/python-novaclient/+bug/1327005,2016-06-02
+1564834,1564834,Fix Released,"With Ceph horizon containers page raises error ""Unable to get the Swift service info""",https://bugs.launchpad.net/horizon/+bug/1564834,2016-06-02
+1568325,1568325,Fix Released,Phantom is causing JS tests to fail constantly,https://bugs.launchpad.net/horizon/+bug/1568325,2016-06-02
+1568325,1568325,Fix Released,Phantom is causing JS tests to fail constantly,https://bugs.launchpad.net/searchlight/+bug/1568325,2016-06-02
+1564613,1564613,Fix Released,Update stack doesn't pause with pre-update hook set,https://bugs.launchpad.net/horizon/+bug/1564613,2016-06-02
+1570803,1570803,Fix Released,complicated wrong logic inside selenium wrapper _execute method,https://bugs.launchpad.net/horizon/+bug/1570803,2016-06-02
+1573726,1573726,Fix Released,pre_hook_test fail and sidebar menu fail in integration tests,https://bugs.launchpad.net/horizon/+bug/1573726,2016-06-02
+1577820,1577820,Fix Released,"key import in ""launch instance"" dialog not useable",https://bugs.launchpad.net/horizon/+bug/1577820,2016-06-02
+1560145,1560145,Fix Released,"""Copy Data"" checkbox on Image create has the wrong label",https://bugs.launchpad.net/horizon/+bug/1560145,2016-06-02
+1572686,1572686,Fix Released,Metadata widget errors and problems with changing metadata,https://bugs.launchpad.net/horizon/+bug/1572686,2016-06-02
+1561763,1561763,Fix Released,"""Clear Selection"" is unlocalzed",https://bugs.launchpad.net/horizon/+bug/1561763,2016-06-02
+1561761,1561761,Fix Released,Unlocalized text shown in Create Container window,https://bugs.launchpad.net/horizon/+bug/1561761,2016-06-02
+1561738,1561738,Fix Released,Unlocalized string found on Developer tab,https://bugs.launchpad.net/horizon/+bug/1561738,2016-06-02
+1561550,1561550,Fix Released,Untranslated strings found in Launch Instance window,https://bugs.launchpad.net/horizon/+bug/1561550,2016-06-02
+1569942,1569942,Fix Released,Network wizard allocation pools breaks Disable Gateway checkbox and field behavior,https://bugs.launchpad.net/horizon/+bug/1569942,2016-06-02
+1530729,1530729,Fix Released,"Create button in ""Create Subnet"" dialog on ""Subnet Details"" tab is disabled when ""Disable Gateway"" is selected",https://bugs.launchpad.net/horizon/+bug/1530729,2016-06-02
+1487005,1487005,Fix Released,unable to modify 'Allocation Pools' after creating a subnet,https://bugs.launchpad.net/horizon/+bug/1487005,2016-06-02
+1580790,1580790,Fix Released,Metadata display widget should use case insensitive matching,https://bugs.launchpad.net/horizon/+bug/1580790,2016-06-02
+1582710,1582710,Fix Released,"""Instance Name"" and ""Count"" are untranslated in ng-modal",https://bugs.launchpad.net/horizon/+bug/1582710,2016-06-02
+1582298,1582298,Fix Released,Django compressor cannot find custom theme templates,https://bugs.launchpad.net/horizon/+bug/1582298,2016-06-02
+1582489,1582489,Fix Released,UX: Misaligned OpenStack Logo,https://bugs.launchpad.net/horizon/+bug/1582489,2016-06-02
+1428946,1428946,Fix Released,add keystone service id to observer audit,https://bugs.launchpad.net/keystone/+bug/1428946,2016-06-02
+1491414,1491414,Fix Released,LibvirtConfigObject.to_xml() should not log the xml str - leave that to the caller,https://bugs.launchpad.net/nova/+bug/1491414,2016-06-02
+1515405,1515405,Fix Released,'Enum' field tests provide little value,https://bugs.launchpad.net/nova/+bug/1515405,2016-06-02
+1523734,1523734,Fix Released,IDE bus not supported for PPC64 little endian,https://bugs.launchpad.net/nova/+bug/1523734,2016-06-02
+1369019,1369019,Fix Released,VMware: need to support inventory folders,https://bugs.launchpad.net/nova/+bug/1369019,2016-06-02
+1555826,1555826,Fix Released,Functional API client has incorrect URL for volumes,https://bugs.launchpad.net/nova/+bug/1555826,2016-06-02
+1554631,1554631,Fix Released,Cinder exceptions returned from nova rest api as 500 errors,https://bugs.launchpad.net/nova/+bug/1554631,2016-06-02
+1161471,1161471,Fix Released,xenapi: guest kernel not cleaned up,https://bugs.launchpad.net/nova/+bug/1161471,2016-06-02
+1484586,1484586,Fix Released,file injection fails when using fallback method,https://bugs.launchpad.net/nova/+bug/1484586,2016-06-02
+1428639,1428639,Fix Released,Nova requires python-libguestfs in Kilo,https://bugs.launchpad.net/openstack-ansible/+bug/1428639,2016-06-02
+1550709,1550709,Fix Released,Stop using 'X-OpenStack-Nova-API-Version' header directly in functional tests,https://bugs.launchpad.net/nova/+bug/1550709,2016-06-02
+1549288,1549288,Fix Released,VMware: unable to launch and instance with NSX|V3 neutron plugin,https://bugs.launchpad.net/nova/+bug/1549288,2016-06-02
+1514320,1514320,Fix Released,Unexpected API Error: hypervisor-uptime,https://bugs.launchpad.net/nova/+bug/1514320,2016-06-02
+1496197,1496197,Fix Released,notify_decorator bad getattr default value,https://bugs.launchpad.net/nova/+bug/1496197,2016-06-02
+1478607,1478607,Fix Released,libvirt: serial console ports count upper limit needs to be checked,https://bugs.launchpad.net/nova/+bug/1478607,2016-06-02
+1552610,1552610,Fix Released,Failed to download images from vmware glance datastore to compute datastore,https://bugs.launchpad.net/nova/+bug/1552610,2016-06-02
+1555644,1555644,Fix Released,VMware: Extending virtual disk failed with error: capacity,https://bugs.launchpad.net/nova/+bug/1555644,2016-06-02
+1561796,1561796,Fix Released,ironic driver does not support ssl cafile,https://bugs.launchpad.net/nova/+bug/1561796,2016-06-02
+1484847,1484847,Fix Released,image_cache_manager message storm,https://bugs.launchpad.net/nova/+bug/1484847,2016-06-02
+1550282,1550282,Fix Released,Remove exception.LiveMigrationWithOldNovaNotSafe,https://bugs.launchpad.net/nova/+bug/1550282,2016-06-02
+1550250,1550250,Fix Released,"migrate in-use status volume, the volume's ""delete_on_termination"" flag lost",https://bugs.launchpad.net/nova/+bug/1550250,2016-06-02
+1559579,1559579,Fix Released,NovaException: Unable to get host UUID: /etc/machine-id is empty,https://bugs.launchpad.net/nova/+bug/1559579,2016-06-02
+1564870,1564870,Fix Released,Not supported error message is incorrect,https://bugs.launchpad.net/nova/+bug/1564870,2016-06-02
+1564872,1564872,Fix Released,Not supported error message of nova baremetal-node-delete is incorrect,https://bugs.launchpad.net/nova/+bug/1564872,2016-06-02
+1565753,1565753,Fix Released,notification_format config option is not part of the sample config,https://bugs.launchpad.net/nova/+bug/1565753,2016-06-02
+1562945,1562945,Fix Released,Change nova's devstack blacklist to use test uuids,https://bugs.launchpad.net/nova/+bug/1562945,2016-06-02
+1567336,1567336,Fix Released,instance_info_cache_update() is not retried on deadlock,https://bugs.launchpad.net/nova/+bug/1567336,2016-06-02

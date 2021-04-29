@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1567957,1567957,Fix Committed,[regression] It is not possible to resolve slave nodes by host names,https://bugs.launchpad.net/fuel/+bug/1567957,2016-09-09
+1549367,1549367,Fix Released,Add support for datastore flavors in launch instance wizard,https://bugs.launchpad.net/trove-dashboard/+bug/1549367,2016-09-09
+1617425,1617425,Fix Released,Update i40e-dkms driver to the latest stable version 1.5.19,https://bugs.launchpad.net/fuel/+bug/1617425,2016-09-09
+1560817,1560817,Fix Released,Use OVN address sets to optmize remote-security-group implementation,https://bugs.launchpad.net/networking-ovn/+bug/1560817,2016-09-09
+1605274,1605274,Fix Released,ACLs of a port are deleted and added for a port update even if the update doesn't change the security groups,https://bugs.launchpad.net/networking-ovn/+bug/1605274,2016-09-09
+1594241,1594241,Fix Released,Add more funtional test,https://bugs.launchpad.net/networking-ovn/+bug/1594241,2016-09-09
+1514488,1514488,Fix Released,Make use of the native OVN DHCPv4,https://bugs.launchpad.net/networking-ovn/+bug/1514488,2016-09-09
+1607639,1607639,Fix Released,Functional test test_ovsdb_monitor is failing,https://bugs.launchpad.net/networking-ovn/+bug/1607639,2016-09-09
+1597898,1597898,Fix Released,OVN L3 service plugin does not need agent RPC,https://bugs.launchpad.net/networking-ovn/+bug/1597898,2016-09-09
+1597898,1597898,Fix Released,OVN L3 service plugin does not need agent RPC,https://bugs.launchpad.net/neutron/+bug/1597898,2016-09-09
+1600330,1600330,Fix Released,Add sync support of SGs and ports to Address sets to OVN NB DB sync,https://bugs.launchpad.net/networking-ovn/+bug/1600330,2016-09-09
+1608808,1608808,Fix Released,Update the port dhcpv4 options of a port in the existing transaction instead of creating new ones,https://bugs.launchpad.net/networking-ovn/+bug/1608808,2016-09-09
+1615458,1615458,Fix Released,AttributeError on security_group_opts cause neutron-ovn-db-sync-util fail,https://bugs.launchpad.net/networking-ovn/+bug/1615458,2016-09-09
+1557960,1557960,Fix Released,neutron ext-list  name fileld should  be descriptive,https://bugs.launchpad.net/networking-sfc/+bug/1557960,2016-09-09
+1570975,1570975,Fix Released,AttributeError: 'FlowClassifierPlugin' object has no attribute '_get_tenant_id_for_create',https://bugs.launchpad.net/networking-sfc/+bug/1570975,2016-09-09
+1566849,1566849,Fix Released,Neutron flak8 hacking rule N340 and N341 causes pep8 errors,https://bugs.launchpad.net/networking-sfc/+bug/1566849,2016-09-09
+1576678,1576678,Fix Released,TypeError: create_connection() takes no arguments (1 given),https://bugs.launchpad.net/networking-sfc/+bug/1576678,2016-09-09
+1572815,1572815,Fix Released,port chain  update to add a flow classifier fails if there exists some flow classifiers in the port chain,https://bugs.launchpad.net/networking-sfc/+bug/1572815,2016-09-09
+1539493,1539493,Fix Released,ovs driver assert error when upgrade to mitaka,https://bugs.launchpad.net/networking-sfc/+bug/1539493,2016-09-09
+1569009,1569009,Fix Released,"remove ""mandatory"" restriction for ""source port"" in the Flow Classifier API",https://bugs.launchpad.net/networking-sfc/+bug/1569009,2016-09-09
+1576901,1576901,Fix Released,new nova instance cannot get ip address in multinode openstack,https://bugs.launchpad.net/networking-sfc/+bug/1576901,2016-09-09
+1537023,1537023,Fix Released,Port Chain Update doesn't have option to add Port Pair Group,https://bugs.launchpad.net/networking-sfc/+bug/1537023,2016-09-09
+1586718,1586718,Fix Released,set default flow classfier driver failed,https://bugs.launchpad.net/networking-sfc/+bug/1586718,2016-09-09
+1593039,1593039,Fix Released,a networking-sfc document error,https://bugs.launchpad.net/neutron/+bug/1593039,2016-09-09
+1594742,1594742,Fix Released,Case sensitive errors in Networkinh-sfc documentation,https://bugs.launchpad.net/networking-sfc/+bug/1594742,2016-09-09
+1596049,1596049,Fix Released,cleanup dead in ovs driver and agent,https://bugs.launchpad.net/networking-sfc/+bug/1596049,2016-09-09
+1586721,1586721,Fix Released,flow classifer create failed,https://bugs.launchpad.net/networking-sfc/+bug/1586721,2016-09-09
+1602890,1602890,Fix Released,remove the agent_opts for encap which comes from the config,https://bugs.launchpad.net/networking-sfc/+bug/1602890,2016-09-09
+1584140,1584140,Fix Released,Add API Reference documentation,https://bugs.launchpad.net/networking-sfc/+bug/1584140,2016-09-09
+1589107,1589107,Fix Released,Fix neutron_lib deprecations in unit tests,https://bugs.launchpad.net/networking-sfc/+bug/1589107,2016-09-09
+1586181,1586181,Fix Released,add functional tests coverage,https://bugs.launchpad.net/networking-sfc/+bug/1586181,2016-09-09
+1621840,1621840,Fix Released,[dependency loop] openstack-dashboard and horizon-vendor-theme packages,https://bugs.launchpad.net/fuel/+bug/1621840,2016-09-09
+1612204,1612204,Fix Committed,"Heat stack with ""wait_condition"" fails with stack creation error",https://bugs.launchpad.net/fuel/+bug/1612204,2016-09-09
+1556917,1556917,Fix Released,Network templates are not working for multiple nodegroups for VLAN segmentation,https://bugs.launchpad.net/fuel/+bug/1556917,2016-09-09
+1621471,1621471,Fix Released,Can not create heat stack: EndpointNotFound,https://bugs.launchpad.net/fuel/+bug/1621471,2016-09-09
+1621588,1621588,Fix Released,misspelling of status names for containers,https://bugs.launchpad.net/zun/+bug/1621588,2016-09-09
+1614288,1614288,Fix Released,Fix reading files that are symlinks,https://bugs.launchpad.net/trove/+bug/1614288,2016-09-09
+1614227,1614227,Fix Released,Cassandra cluster_complete timeout on slow systems,https://bugs.launchpad.net/trove/+bug/1614227,2016-09-09
+1296430,1296430,Fix Released,Improve error message when attempting to delete a host aggregate that has hosts,https://bugs.launchpad.net/nova/+bug/1296430,2016-09-09
+1615849,1615849,Fix Released,"Fuel CLI allows to upload only tasks, not graphs",https://bugs.launchpad.net/fuel/+bug/1615849,2016-09-09
+1621069,1621069,Fix Released,Fuel-octane: wait for status on node not stops on `stopped` status,https://bugs.launchpad.net/fuel/+bug/1621069,2016-09-09
+1621024,1621024,Fix Released,Fuel-octane produces colorized output even if colors could not be parsed,https://bugs.launchpad.net/fuel/+bug/1621024,2016-09-09
+1619319,1619319,Fix Committed,[fuel-octane] Files should be deleted if package removed,https://bugs.launchpad.net/fuel/+bug/1619319,2016-09-09
+1556003,1556003,Fix Released,change schedule for plugin and iso build jobs on product ci,https://bugs.launchpad.net/fuel/+bug/1556003,2016-09-09
+1501213,1501213,Fix Released,run tempest tests with bagpipe ovs agent,https://bugs.launchpad.net/bgpvpn/+bug/1501213,2016-09-09
+1615962,1615962,Fix Released,No module named fixtures on CI envs,https://bugs.launchpad.net/fuel/+bug/1615962,2016-09-09
+1607761,1607761,Fix Released,"[10.0-community] Build error: ""ImportError: cannot import name wait_pass""",https://bugs.launchpad.net/fuel/+bug/1607761,2016-09-09
+1592373,1592373,Fix Released,Fuel-octane: upgrade-db: MySQL on separate FS -> error on lost+found,https://bugs.launchpad.net/fuel/+bug/1592373,2016-09-09
+1589515,1589515,Fix Released,[QA][CI] Bump fuel-devops version up to 2.9.21,https://bugs.launchpad.net/fuel/+bug/1589515,2016-09-09
+1591094,1591094,Fix Released,"[system-tests] fuel-devops 3.0 on revert-resume does not start slaves, if it running before revert",https://bugs.launchpad.net/fuel/+bug/1591094,2016-09-09
+1439776,1439776,Fix Released,"""ready"" status while post_deploy tasks still running",https://bugs.launchpad.net/fuel/+bug/1439776,2016-09-09
+1621523,1621523,Fix Released,Need to update fuel-qa code and the fuel devops environment for fuel-ostf gates,https://bugs.launchpad.net/fuel/+bug/1621523,2016-09-09
+1621057,1621057,Fix Released,CI is broken for fuel-ostf repository (stable/mitaka branch),https://bugs.launchpad.net/fuel/+bug/1621057,2016-09-09
+1616476,1616476,Fix Released,Add a template for vCenter related devops environment,https://bugs.launchpad.net/fuel/+bug/1616476,2016-09-09
+1620757,1620757,Fix Released,apparmor profiles are not loaded properly in setup-hosts.yml,https://bugs.launchpad.net/openstack-ansible/+bug/1620757,2016-09-09
+1621519,1621519,Fix Released,Need to remove ceph+controller multirole from gates_tests/tests/review_in_ostf,https://bugs.launchpad.net/fuel/+bug/1621519,2016-09-09
+1618533,1618533,Fix Released,Ceph is not upgraded from Hammer to Jewel during OpenStack upgrade from Mitaka to Newton,https://bugs.launchpad.net/tripleo/+bug/1618533,2016-09-09
+1619575,1619575,Fix Released,get_samples's input params are incorrect in doc,https://bugs.launchpad.net/ceilometer/+bug/1619575,2016-09-09
+1593266,1593266,Fix Committed,Test for random unlock settings should fail job if there are failed configurations,https://bugs.launchpad.net/fuel/+bug/1593266,2016-09-09
+1621634,1621634,Fix Released,Cluster grow not showing locality,https://bugs.launchpad.net/trove/+bug/1621634,2016-09-09
+1580239,1580239,Fix Released,[RFE] Add agent extension framework for L3 agent,https://bugs.launchpad.net/neutron/+bug/1580239,2016-09-09
+1571488,1571488,Fix Released,yum-minimal : fix locales for F24,https://bugs.launchpad.net/diskimage-builder/+bug/1571488,2016-09-08
+1573006,1573006,Fix Committed,Nailgun API does not validate node roles against environment settings,https://bugs.launchpad.net/fuel/+bug/1573006,2016-09-08
+1483239,1483239,Fix Committed,Reassignment node returns 500 status code on request with empty body,https://bugs.launchpad.net/fuel/+bug/1483239,2016-09-08
+1549254,1549254,Fix Released,object.Cluster.get_common_node_group returns default node group if no groups found,https://bugs.launchpad.net/fuel/+bug/1549254,2016-09-08
+1555339,1555339,Fix Released,Unit tests for the cluster_upgrade extension use 8.0 as an upgrade release,https://bugs.launchpad.net/fuel/+bug/1555339,2016-09-08
+1572179,1572179,Fix Committed,Cluster settings is not properly copied during the upgrade from 8.0 to 9.0,https://bugs.launchpad.net/fuel/+bug/1572179,2016-09-08
+1482399,1482399,Fix Released,Cannot change vip and vrouter_vip IPs when we are using nodegroups,https://bugs.launchpad.net/fuel/+bug/1482399,2016-09-08
+1503663,1503663,Fix Released,fuel 8.0 with Liberty Openstack provides Kilo as choice of Openstack,https://bugs.launchpad.net/fuel/+bug/1503663,2016-09-08
+1482577,1482577,Fix Released,[nailgun]Clone environment doesn't clone environment network settings properly,https://bugs.launchpad.net/fuel/+bug/1482577,2016-09-08
+1604492,1604492,Fix Released,Build rpm packages for cluster_upgrade extension,https://bugs.launchpad.net/fuel/+bug/1604492,2016-09-08
+1503303,1503303,Fix Committed,"Fuel 7.0 different output for ""state"" column  ""fuel release"" into CLI and UI",https://bugs.launchpad.net/fuel/+bug/1503303,2016-09-08
+1552744,1552744,Fix Committed,[upgrade] Moving VIPs should consider node assignment for new cluster,https://bugs.launchpad.net/fuel/+bug/1552744,2016-09-08
+1611793,1611793,Fix Released,cluster_upgrade extension does not include migrations/versions module,https://bugs.launchpad.net/fuel/+bug/1611793,2016-09-08
+1558655,1558655,Fix Committed,It is impossible to reassign nodes during upgrade without re-provisioning,https://bugs.launchpad.net/fuel/+bug/1558655,2016-09-08

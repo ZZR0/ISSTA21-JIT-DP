@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1902775,1902775,Fix Released,neutron-rally-task fails on stable/rocky: SyntaxError: invalid syntax,https://bugs.launchpad.net/neutron/+bug/1902775,2020-11-16
+1891673,1891673,Fix Released,qrouter ns ip rules not deleted when fip removed from vm,https://bugs.launchpad.net/neutron/+bug/1891673,2020-11-15
+1863006,1863006,Fix Released,"""ping"" command should be correctly supported in rootwrap filters",https://bugs.launchpad.net/neutron/+bug/1863006,2020-11-15
+1903395,1903395,Fix Released,Event support is beck on Ceilometer but removed from os_ceilometer,https://bugs.launchpad.net/openstack-ansible/+bug/1903395,2020-11-15
+1811166,1811166,Fix Released,Enforce router admin_state_up=False before distributed update,https://bugs.launchpad.net/neutron/+bug/1811166,2020-11-15
+1900269,1900269,Fix Released,"Implement ""get_process_count_by_name"" natively",https://bugs.launchpad.net/neutron/+bug/1900269,2020-11-14
+1896112,1896112,Fix Released,SolidFire driver is creating duplicate volumes when API responses are lost and retried,https://bugs.launchpad.net/cinder/+bug/1896112,2020-11-14
+1888951,1888951,Fix Released,Cinder failed to create a backup from snapshot with NFS volume driver,https://bugs.launchpad.net/cinder/+bug/1888951,2020-11-14
+1903824,1903824,Fix Released,Nova defaults [database]connection to local sqlite database while the config doc says it is defaulted to None,https://bugs.launchpad.net/nova/+bug/1903824,2020-11-14
+1888878,1888878,Fix Released,Data not present in OVN IDL when requested,https://bugs.launchpad.net/neutron/+bug/1888878,2020-11-14
+1904184,1904184,Fix Released,deployment fail with NovaComputeEnableKsm=true and RHSM based registration,https://bugs.launchpad.net/tripleo/+bug/1904184,2020-11-14
+1902002,1902002,Fix Released,Fail to get default route device in CI jobs,https://bugs.launchpad.net/devstack/+bug/1902002,2020-11-14
+1903537,1903537,Fix Released,During upgrade_tasks on bootstrap node ansible is unable to find ceph-mon if controller has FQDN hostname,https://bugs.launchpad.net/tripleo/+bug/1903537,2020-11-14
+1895220,1895220,Fix Released,Fail to cold migrate between two hosts have difference VIF type,https://bugs.launchpad.net/nova/+bug/1895220,2020-11-14
+1841932,1841932,Fix Released,hide_hypervisor_id extra_specs in nova flavor cannot pass  AggregateInstanceExtraSpecsFilter,https://bugs.launchpad.net/nova/+bug/1841932,2020-11-13
+1903786,1903786,Fix Released,Introspect workflow should not mix introspection and ironic APIs,https://bugs.launchpad.net/tripleo/+bug/1903786,2020-11-13
+1847367,1847367,Fix Released,Images with hw:vif_multiqueue_enabled can be limited to 8 queues even if more are supported,https://bugs.launchpad.net/nova/+bug/1847367,2020-11-13
+1900410,1900410,Fix Released,"fatal: [os_infra1_keystone_container-5999bd47]: FAILED! => {""attempts"": 5, ""changed"": false, ""msg"": ""No package matching 'libcurl3' is available""}",https://bugs.launchpad.net/openstack-ansible/+bug/1900410,2020-11-13
+1904051,1904051,Fix Released,Intermittent failures in cross-cell functional tests,https://bugs.launchpad.net/nova/+bug/1904051,2020-11-13
+1864630,1864630,Fix Released,Hard Reboot VM with multiple port lost QoS,https://bugs.launchpad.net/neutron/+bug/1864630,2020-11-13
+1888213,1888213,Fix Released,[FT] neutron.tests.functional.agent.linux.test_iptables.IptablesManagerNonRootTestCase test cases always failing,https://bugs.launchpad.net/neutron/+bug/1888213,2020-11-13
+1877036,1877036,Fix Released,report KeyError: 'ovn'  in   neutron-ovn-db-sync-util  sb_synchronizer.do_sync(),https://bugs.launchpad.net/networking-ovn/+bug/1877036,2020-11-13
+1877544,1877544,Fix Released,Frequently update  Chassis external_ids    high cpu usage on ovn-controller process,https://bugs.launchpad.net/networking-ovn/+bug/1877544,2020-11-13
+1888168,1888168,Fix Released,Change default num_retries for glance to 3,https://bugs.launchpad.net/nova/+bug/1888168,2020-11-13
+1894117,1894117,Fix Released,ovn: filtering hash ring nodes is not time zone aware,https://bugs.launchpad.net/neutron/+bug/1894117,2020-11-13
+1881070,1881070,Fix Released,the accepted-egress-direct-flows can't be deleted when the VM is deleted,https://bugs.launchpad.net/neutron/+bug/1881070,2020-11-13
+1884708,1884708,Fix Released,explicity_egress_direct prevents learning of local MACs and causes flooding of ingress packets,https://bugs.launchpad.net/neutron/+bug/1884708,2020-11-13
+1900467,1900467,Fix Released,openstack overcloud external-update run --tags online_upgrade does not run anything,https://bugs.launchpad.net/tripleo/+bug/1900467,2020-11-12
+1870352,1870352,Fix Released,"""ctypes.CDLL"" C functions could release the GIL during the execution call",https://bugs.launchpad.net/neutron/+bug/1870352,2020-11-12
+1903709,1903709,Fix Released,Upstream periodic jobs are failing on TASK [undercloud-setup : Run the package installation script] with dependencies errors.,https://bugs.launchpad.net/tripleo/+bug/1903709,2020-11-12
+1879368,1879368,Fix Released,NetApp driver fails when promoting back a replica using CIFS,https://bugs.launchpad.net/manila/+bug/1879368,2020-11-12
+1903828,1903828,Fix Released,"periodic-tripleo-ci-centos-8-standalone-on-multinode-ipa-victoria is failing with Error while evaluating a Resource Statement, Duplicate declaration: Exec[/etc/pki/CA/certs/qemu.pem] is already declared",https://bugs.launchpad.net/tripleo/+bug/1903828,2020-11-12
+1881830,1881830,Fix Released,Error occurs in normal unittest of nfvo_plugin,https://bugs.launchpad.net/tacker/+bug/1881830,2020-11-12
+1854462,1854462,Fix Released,[Functional tests] Timeout exception in list_namespace_pids,https://bugs.launchpad.net/neutron/+bug/1854462,2020-11-12
+1892866,1892866,Fix Released,FileNotFoundError not cached during cleaning of HA router,https://bugs.launchpad.net/neutron/+bug/1892866,2020-11-12
+1861674,1861674,Fix Released,Gateway which is not in subnet CIDR is unsupported in ha router,https://bugs.launchpad.net/neutron/+bug/1861674,2020-11-12
+1902251,1902251,Fix Released,node_exporter container is not deployed in all the Ceph Storage nodes,https://bugs.launchpad.net/tripleo/+bug/1902251,2020-11-11
+1897177,1897177,Fix Released,SSYNC: Race condition in replication/reconstruction can lead to loss of datafile,https://bugs.launchpad.net/swift/+bug/1897177,2020-11-11
+1902914,1902914,Fix Released,"cinder extend ""Policy doesn't allow os_compute_api:os-server-external-events:create to be performed""",https://bugs.launchpad.net/openstack-ansible/+bug/1902914,2020-11-11
+1887281,1887281,Fix Released,[linuxbridge] ebtables delete arp protect chain fails,https://bugs.launchpad.net/neutron/+bug/1887281,2020-11-11
+1861592,1861592,Fix Released,Move 'gabbi_tempest_path'  to gabbi-tempest plugin,https://bugs.launchpad.net/tempest/+bug/1861592,2020-11-11
+1844535,1844535,Fix Released,several tests fail when image_ref_alt is set to non-cirros image,https://bugs.launchpad.net/tempest/+bug/1844535,2020-11-11
+1895056,1895056,Fix Released,"package conflict, openstack-tripleo-validations-12.4.1-0.20200909044505.ae20b37.el8.noarch and validations-common-1.1.1-0.20200908154415.946e3a8.el8.noarch",https://bugs.launchpad.net/tripleo/+bug/1895056,2020-11-11
+1869528,1869528,Fix Released,THT generates hiera parameters for puppet-nova that are no longer used,https://bugs.launchpad.net/tripleo/+bug/1869528,2020-11-11
+1901472,1901472,Fix Released,collect-flavors-and-verify-profiles validation fails when Overcloud{{role.name}}Flavor is not explicitly defined in templates,https://bugs.launchpad.net/tripleo/+bug/1901472,2020-11-11
+1773765,1773765,Fix Released,There is a possibility that 'running' notification will remain,https://bugs.launchpad.net/masakari/+bug/1773765,2020-11-10
+1872663,1872663,Fix Released,Failing to terminate Windows processes,https://bugs.launchpad.net/neutron/+bug/1872663,2020-11-10
+1667789,1667789,Fix Released,Clients connection to Galera cluster should be encrypted,https://bugs.launchpad.net/openstack-ansible/+bug/1667789,2020-11-10
+1875981,1875981,Fix Released,Admin deleting servers or ports leaves orphaned DNS records,https://bugs.launchpad.net/neutron/+bug/1875981,2020-11-10
+1891230,1891230,Fix Released,Masakari horizon plugin does not follow OPENSTACK_ENDPOINT_TYPE,https://bugs.launchpad.net/masakari-dashboard/+bug/1891230,2020-11-10
+1901960,1901960,Fix Released,[OVN] enable-chassis-as-gw setting is not needed by distributed FIP,https://bugs.launchpad.net/kolla-ansible/+bug/1901960,2020-11-10
+1810584,1810584,Fix Released,openstack-ansible setup-hosts.yml fails in task: lxc_hosts Ensure image has been pre-staged,https://bugs.launchpad.net/openstack-ansible/+bug/1810584,2020-11-10
+1903479,1903479,Fix Committed,DataError for min_ram attribute in vnf_software_images table,https://bugs.launchpad.net/tacker/+bug/1903479,2020-11-10
+1898789,1898789,Fix Released,formatting error causes exception in running agent,https://bugs.launchpad.net/neutron/+bug/1898789,2020-11-10
+1903316,1903316,Fix Released,excessive logging of rbd and rados import errors,https://bugs.launchpad.net/nova/+bug/1903316,2020-11-09
+1901562,1901562,Fix Released,"--deployed-server kind of required now, but the UX is terrible",https://bugs.launchpad.net/tripleo/+bug/1901562,2020-11-09
+1901550,1901550,Fix Released,fact caching disabled when running cli commands,https://bugs.launchpad.net/tripleo/+bug/1901550,2020-11-09
+1863161,1863161,Fix Committed,stackviz failing on stable jobs with py3.5 while installation,https://bugs.launchpad.net/stackviz/+bug/1863161,2020-11-09
+1879436,1879436,Fix Released,Upload VNF package fails when softwareImage properties in VNFD template has fraction values,https://bugs.launchpad.net/tacker/+bug/1879436,2020-11-09
+1903545,1903545,Fix Released,Nova does not support older than N - 1 computes but does not prevent such error situation either,https://bugs.launchpad.net/nova/+bug/1903545,2020-11-09
+1800601,1800601,Fix Released,[SRU] Infinite recursion in Python 3,https://bugs.launchpad.net/glance/+bug/1800601,2020-11-09
+1860554,1860554,Fix Released,test_ipblock_network_policy_sg_rules,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1860554,2020-11-09
+1903272,1903272,Fix Released,[neutron-tempest-plugin] testcases test_subport_connectivity and test_trunk_subport_lifecycle broken,https://bugs.launchpad.net/neutron/+bug/1903272,2020-11-09
+1888612,1888612,Fix Released,Issue during retype from base volume type to replication volume type for powermax,https://bugs.launchpad.net/cinder/+bug/1888612,2020-11-09
+1888614,1888614,Fix Released,Issue during retype from replication volume type to base volume type for powermax,https://bugs.launchpad.net/cinder/+bug/1888614,2020-11-09
+1884778,1884778,Fix Released,neutron images try to run update-alternatives on centos,https://bugs.launchpad.net/kolla/+bug/1884778,2020-11-09
+1896099,1896099,Fix Released,Health check recovery fails when a policy from a different project is attached,https://bugs.launchpad.net/senlin/+bug/1896099,2020-11-09
+1862739,1862739,Fix Released,Ubuntu /etc/hosts fix bug,https://bugs.launchpad.net/kolla-ansible/+bug/1862739,2020-11-08
+1890389,1890389,Fix Released,[Master] tripleoclient does not play well with cliff-3.4.0,https://bugs.launchpad.net/tripleo/+bug/1890389,2020-11-08
+1902729,1902729,Fix Released,dashboard_protocol should always be set when Ceph dashboard is enabled,https://bugs.launchpad.net/tripleo/+bug/1902729,2020-11-08
+1803968,1803968,Fix Released,Rally deployment create failed,https://bugs.launchpad.net/kolla/+bug/1803968,2020-11-07
+1900419,1900419,Fix Released,rally source build provides a broken virtualenv,https://bugs.launchpad.net/kolla/+bug/1900419,2020-11-07
+1799298,1799298,Fix Released,Metadata API cross joining instance_metadata and instance_system_metadata,https://bugs.launchpad.net/nova/+bug/1799298,2020-11-07
+1899489,1899489,Fix Released,CNI is not returning errors in a specified form,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1899489,2020-11-07
+1786065,1786065,Fix Released,many containers are needlessly restarted on redeploy with no config changes,https://bugs.launchpad.net/tripleo/+bug/1786065,2020-11-06

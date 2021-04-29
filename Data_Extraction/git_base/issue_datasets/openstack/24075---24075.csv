@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1551136,1551136,Fix Committed,Octane rpm package has no patch package in dependency,https://bugs.launchpad.net/fuel/+bug/1551136,2017-04-14
+1557734,1557734,Fix Committed,[upgrade] [build] Incorrect path to patches/ dir in octane RPM build spec,https://bugs.launchpad.net/fuel/+bug/1557734,2017-04-14
+1563253,1563253,Fix Committed,[upgrade] octane upgrade-node make computes unavailable,https://bugs.launchpad.net/fuel/+bug/1563253,2017-04-14
+1570371,1570371,Fix Committed,[octane] Broken pipe if large SQL dump,https://bugs.launchpad.net/fuel/+bug/1570371,2017-04-14
+1571586,1571586,Fix Committed,[octane] Octane does not backup profiles and distros,https://bugs.launchpad.net/fuel/+bug/1571586,2017-04-14
+1572019,1572019,Fix Committed,"[octane] cache_service_tenant_id should respect old verions without ""openstack"" client",https://bugs.launchpad.net/fuel/+bug/1572019,2017-04-14
+1572240,1572240,Fix Committed,[octane] network template omitted if replaced_deployment_info exists,https://bugs.launchpad.net/fuel/+bug/1572240,2017-04-14
+1552643,1552643,Fix Committed,[upgrade][8.0] After restore logs for already deployed nodes are not available in UI,https://bugs.launchpad.net/fuel/+bug/1552643,2017-04-14
+1551651,1551651,Fix Committed,[upgrade][8.0] Centos bootstrap contains not valid ssh keys in authorized_keys,https://bugs.launchpad.net/fuel/+bug/1551651,2017-04-14
+1582231,1582231,Fix Committed,Wrong image data uri after upgrade-env,https://bugs.launchpad.net/fuel/+bug/1582231,2017-04-14
+1583596,1583596,Fix Committed,[fuel-octane] Octane doesn't handle upgrade_levels in nova.conf,https://bugs.launchpad.net/fuel/+bug/1583596,2017-04-14
+1572028,1572028,Fix Committed,[octane] can't create repo backup without environments,https://bugs.launchpad.net/fuel/+bug/1572028,2017-04-14
+1572922,1572922,Fix Committed,[octane] Temporary file backups do not preserve file metadata and permissions,https://bugs.launchpad.net/fuel/+bug/1572922,2017-04-14
+1494507,1494507,Fix Released,New controller can not be added to the ready cluster,https://bugs.launchpad.net/fuel/+bug/1494507,2017-04-14
+1682173,1682173,Fix Released,Handle exec failure properly,https://bugs.launchpad.net/zun-ui/+bug/1682173,2017-04-14
+1508162,1508162,Fix Released,neutron puppet providers are broken due to warnings from urllib3,https://bugs.launchpad.net/fuel/+bug/1508162,2017-04-13
+1506398,1506398,Fix Committed,octane upgrade-control breaks mysql and rabbit clusters,https://bugs.launchpad.net/fuel/+bug/1506398,2017-04-13
+1505641,1505641,Fix Released,[fuel-octane]Need to specify in docs that first of all we need to  upgrade primary cic,https://bugs.launchpad.net/fuel/+bug/1505641,2017-04-13
+1501776,1501776,Fix Committed,fuel-octane initiate deploy of controllers during upgrade of compute and osd node,https://bugs.launchpad.net/fuel/+bug/1501776,2017-04-13
+1501667,1501667,Fix Committed,Need to make pyzabbix as optional requirement for fuel-octane,https://bugs.launchpad.net/fuel/+bug/1501667,2017-04-13
+1495963,1495963,Fix Committed,octane upgrade-control fails on removing patches from old cluster,https://bugs.launchpad.net/fuel/+bug/1495963,2017-04-13
+1474339,1474339,Fix Released,Python jobs for MOS 7.0 branch fail to install dependencies,https://bugs.launchpad.net/fuel/+bug/1474339,2017-04-13
+1468330,1468330,Fix Released,Wrong MOS 7.0 APT repo metadata => broken deployment,https://bugs.launchpad.net/fuel/+bug/1468330,2017-04-13
+1431413,1431413,Fix Released,Missing pydot-ng in dependencies,https://bugs.launchpad.net/fuel/+bug/1431413,2017-04-13
+1391180,1391180,Fix Released,Deployment of Ha nova-flat cluster failed with (/Stage[main]/Osnailyfacter::Cluster_ha/Nova_floating_range[10.108.78.128-10.108.78.254]) Could not evaluate: Oops - not sure what happened: 757: unexpected token at '<html><body><h1>504 Gateway Time-out</h1>,https://bugs.launchpad.net/fuel/+bug/1391180,2017-04-13
+1680912,1680912,Fix Released,Sometimes grenade job fails with NetworkNotFound because a network delete request took too long,https://bugs.launchpad.net/neutron/+bug/1680912,2017-04-13
+1650292,1650292,Fix Released,Progress bar on 'Extend Share' should deduct the current share's size,https://bugs.launchpad.net/manila-ui/+bug/1650292,2017-04-13
+1619244,1619244,Fix Released,Manage Replicas button doesn't work for some shares,https://bugs.launchpad.net/manila-ui/+bug/1619244,2017-04-13
+1668990,1668990,Fix Released,Settings path specified does not match actual file path,https://bugs.launchpad.net/manila-ui/+bug/1668990,2017-04-13
+1664877,1664877,Fix Released,Type int(attempts) compare to Type None(self.retries),https://bugs.launchpad.net/python-manilaclient/+bug/1664877,2017-04-13
+1669441,1669441,Fix Released,manilaclient functional tests verify incorrect behavior of server that was fixed,https://bugs.launchpad.net/python-manilaclient/+bug/1669441,2017-04-13
+1674915,1674915,Fix Released,Failed to allow user access to the share,https://bugs.launchpad.net/python-manilaclient/+bug/1674915,2017-04-13
+1621707,1621707,Fix Released,dedupe/compression capability doc description misleading,https://bugs.launchpad.net/manila/+bug/1621707,2017-04-13
+1662569,1662569,Fix Released,HNAS driver doesnt check if snapshot exists before reverting,https://bugs.launchpad.net/manila/+bug/1662569,2017-04-13
+1663300,1663300,Fix Released,Broken Windows share helper,https://bugs.launchpad.net/manila/+bug/1663300,2017-04-13
+1662615,1662615,Fix Released,HNAS concurrency issues when creating and deleting snapshots,https://bugs.launchpad.net/manila/+bug/1662615,2017-04-13
+1662427,1662427,Fix Released,hpe 3par driver : Remove the experimental consistency group APIs and replace them with the experimental Share Group APIs,https://bugs.launchpad.net/manila/+bug/1662427,2017-04-13
+1552812,1552812,Fix Released,[doc] Move Share Migration code to Data Service,https://bugs.launchpad.net/manila/+bug/1552812,2017-04-13
+1619000,1619000,Fix Released,[doc] Share migration Newton improvements,https://bugs.launchpad.net/manila/+bug/1619000,2017-04-13
+1664586,1664586,Fix Released,manila-manage manpage missing db purge documentation,https://bugs.launchpad.net/manila/+bug/1664586,2017-04-13
+1664841,1664841,Fix Released,Use doc8 to verify rst files,https://bugs.launchpad.net/manila/+bug/1664841,2017-04-13
+1665002,1665002,Fix Released,HNAS driver in Ocata shows the same version as in Newton but with more features,https://bugs.launchpad.net/manila/+bug/1665002,2017-04-13
+1665777,1665777,Fix Released,container driver log msg uses neutron subnet id for network id,https://bugs.launchpad.net/manila/+bug/1665777,2017-04-13
+1666498,1666498,Fix Released,policy share_snapshot inconsistency,https://bugs.launchpad.net/manila/+bug/1666498,2017-04-13
+1667450,1667450,Fix Released,host-assisted migration does not delete the source share from backend,https://bugs.launchpad.net/manila/+bug/1667450,2017-04-13
+1662572,1662572,Fix Released,RPC API for revert to snasphot includes unused share_id parameter,https://bugs.launchpad.net/manila/+bug/1662572,2017-04-13
+1670757,1670757,Fix Released,"tempest test ""ShareServersAdminTest.test_list_share_servers_with_filters_2_status"" is concurrency-prone",https://bugs.launchpad.net/manila/+bug/1670757,2017-04-13
+1666541,1666541,Fix Released,Broken API parameter in extend_share with Quobyte driver,https://bugs.launchpad.net/manila/+bug/1666541,2017-04-13
+1664201,1664201,Fix Released,"Tempest test ""api.test_replication.ReplicationTest.test_promote_in_sync_share_replica"" fails sometimes",https://bugs.launchpad.net/manila/+bug/1664201,2017-04-13
+1674687,1674687,Fix Released,Cinder docs jobs failing on not finding select.poll in the subprocess code,https://bugs.launchpad.net/cinder/+bug/1674687,2017-04-13
+1674687,1674687,Fix Released,Cinder docs jobs failing on not finding select.poll in the subprocess code,https://bugs.launchpad.net/manila/+bug/1674687,2017-04-13
+1674908,1674908,Fix Released,Failed to allow user access to the share,https://bugs.launchpad.net/manila/+bug/1674908,2017-04-13
+1676972,1676972,Fix Released,tests: CORSMiddleware tests fail with no such option verbose,https://bugs.launchpad.net/manila/+bug/1676972,2017-04-13
+1680263,1680263,Fix Released,Launch an instance from a volume in End User Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1680263,2017-04-13
+1318375,1318375,Fix Released,DELETE operation not write affinity aware,https://bugs.launchpad.net/swift/+bug/1318375,2017-04-13
+1676519,1676519,Fix Released,data corruption errors when getting unaggregated,https://bugs.launchpad.net/gnocchi/+bug/1676519,2017-04-13
+1671312,1671312,Fix Released,"get wrong information while inputting ""Count"" creating instance",https://bugs.launchpad.net/horizon/+bug/1671312,2017-04-13
+1617213,1617213,Fix Released,duplicated name test for host aggregate create  needs to be added,https://bugs.launchpad.net/horizon/+bug/1617213,2017-04-13
+1617140,1617140,Fix Released,form exception on host aggregate create,https://bugs.launchpad.net/horizon/+bug/1617140,2017-04-13
+1668718,1668718,Fix Released,More Actions button should be disabled when none of the actions is available,https://bugs.launchpad.net/horizon/+bug/1668718,2017-04-13
+1648565,1648565,Fix Released,Inconsistent labels for Stacks filters,https://bugs.launchpad.net/horizon/+bug/1648565,2017-04-13
+1657174,1657174,Fix Released,"The filesizeformat() method does not consider the situation like `float('inf')` or EB, ZB and YB.",https://bugs.launchpad.net/horizon/+bug/1657174,2017-04-13
+1520486,1520486,Fix Released,The success message of password change seems like the error message,https://bugs.launchpad.net/horizon/+bug/1520486,2017-04-13
+1649819,1649819,Fix Released,APIVersionManager can't distinguish between 2.4 and 2.40,https://bugs.launchpad.net/horizon/+bug/1649819,2017-04-13
+1435910,1435910,Fix Released,Refactor horizon.scss file,https://bugs.launchpad.net/horizon/+bug/1435910,2017-04-13
+1660449,1660449,Fix Released,Lack of some methods calling information in OpenStack Profiler page,https://bugs.launchpad.net/horizon/+bug/1660449,2017-04-13
+1660648,1660648,Fix Released,Wrong timezone in settings page,https://bugs.launchpad.net/horizon/+bug/1660648,2017-04-13
+1659818,1659818,Fix Released,No user_home when session is expired,https://bugs.launchpad.net/horizon/+bug/1659818,2017-04-13
+1682453,1682453,Fix Released,Live Migration failure: operation failed: Failed to connect to remote libvirt URI - End of file while reading data: sh: 1: nc: not found: Input/output error,https://bugs.launchpad.net/nova/+bug/1682453,2017-04-13
+1636679,1636679,Fix Released,don't know what key-value of volume qos specs in horizon to fill,https://bugs.launchpad.net/horizon/+bug/1636679,2017-04-13
+1661402,1661402,Fix Released,hypervisor panel blank,https://bugs.launchpad.net/horizon/+bug/1661402,2017-04-13
+1661423,1661423,Fix Released,No need to get all the information for servers for some pages,https://bugs.launchpad.net/horizon/+bug/1661423,2017-04-13
+1661422,1661422,Fix Released,Sidebar disappears at exact 768px width,https://bugs.launchpad.net/horizon/+bug/1661422,2017-04-13
+1624743,1624743,Fix Released,Project image table: admin user sees images which are not shared with me,https://bugs.launchpad.net/horizon/+bug/1624743,2017-04-13
+1661767,1661767,Fix Released,Deprecated novaclient API calls in Ocata,https://bugs.launchpad.net/horizon/+bug/1661767,2017-04-13

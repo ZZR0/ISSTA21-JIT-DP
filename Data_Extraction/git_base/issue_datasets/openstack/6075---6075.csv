@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1786764,1786764,Fix Released,Wrong versions of tripleo-common in container images updated in CI,https://bugs.launchpad.net/tripleo/+bug/1786764,2019-08-25
+1772121,1772121,Fix Released,openstack overcloud ffwd-upgrade run fails on the ffu gate job: Failed to connect to the host via ssh: Could not create directory \'/home/mistral/.ssh\,https://bugs.launchpad.net/tripleo/+bug/1772121,2019-08-25
+1745168,1745168,Fix Released,volume backup tests timing out since 1/23,https://bugs.launchpad.net/cinder/+bug/1745168,2019-08-23
+1840451,1840451,Fix Released,Master promotions are failing tempest test (fs020)  tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON,https://bugs.launchpad.net/tripleo/+bug/1840451,2019-08-23
+1813967,1813967,Fix Released,python-cinderclient always requires latest microversion,https://bugs.launchpad.net/python-cinderclient/+bug/1813967,2019-08-22
+1808622,1808622,Fix Released,cinder group-list always works with all_tenants=True mode,https://bugs.launchpad.net/python-cinderclient/+bug/1808622,2019-08-22
+1808621,1808621,Fix Released,cinder group-list does not work with non-admin user,https://bugs.launchpad.net/python-cinderclient/+bug/1808621,2019-08-22
+1821818,1821818,Fix Released,TypeError: 'NoneType' object has no attribute '__getitem__' when volume_type is not set,https://bugs.launchpad.net/python-cinderclient/+bug/1821818,2019-08-22
+1825372,1825372,Fix Released,Redirect auth test fails with v2/v3 keystone endpoints,https://bugs.launchpad.net/python-cinderclient/+bug/1825372,2019-08-22
+1826286,1826286,Fix Released,discover_version ignores client max supported version,https://bugs.launchpad.net/python-cinderclient/+bug/1826286,2019-08-22
+1831636,1831636,Fix Released,docs have a hard-coded version number,https://bugs.launchpad.net/python-cinderclient/+bug/1831636,2019-08-22
+1840973,1840973,Fix Released,container image prepare doesn't cleanup files on filesystem connection issues occur mid export,https://bugs.launchpad.net/tripleo/+bug/1840973,2019-08-22
+1802143,1802143,Fix Released,"Changes from [[post-config|$NOVA_CPU_CONF]] are overwritten in ""superconductor"" mode",https://bugs.launchpad.net/devstack/+bug/1802143,2019-08-22
+1749217,1749217,Fix Released,invalid secret href value with wsgi and no host_href,https://bugs.launchpad.net/barbican/+bug/1749217,2019-08-22
+1840551,1840551,Fix Released,Kombu 4.6.4 is breaking with python 3.7,https://bugs.launchpad.net/nova/+bug/1840551,2019-08-22
+1794277,1794277,Fix Released,openstack overcloud failures|status sometimes shows incorrect output ( from deployment process),https://bugs.launchpad.net/tripleo/+bug/1794277,2019-08-22
+1794054,1794054,Fix Released,nova-consoleauth service is deprecated,https://bugs.launchpad.net/puppet-nova/+bug/1794054,2019-08-22
+1674375,1674375,Fix Released,"compute_manager is removed, we should stop using it",https://bugs.launchpad.net/tripleo/+bug/1674375,2019-08-22
+1674375,1674375,Fix Released,"compute_manager is removed, we should stop using it",https://bugs.launchpad.net/puppet-nova/+bug/1674375,2019-08-22
+1674375,1674375,Fix Released,"compute_manager is removed, we should stop using it",https://bugs.launchpad.net/fuel/+bug/1674375,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-barbican/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-mistral/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-openstack-cookiecutter/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-zaqar/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-cloudkitty/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-manila/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-gnocchi/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-octavia/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-cinder/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-tacker/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-aodh/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-panko/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-glare/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-vitrage/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-watcher/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-sahara/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-designate/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-ceilometer/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-keystone/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-freezer/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-glance/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-nova/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-neutron/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-congress/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-heat/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-ironic/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-senlin/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-trove/+bug/1759098,2019-08-22
+1759098,1759098,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/puppet-ec2api/+bug/1759098,2019-08-22
+1794300,1794300,Fix Released,vnc and spice keymap deprecated,https://bugs.launchpad.net/puppet-nova/+bug/1794300,2019-08-22
+1794301,1794301,Fix Released,fping_path config option is deprecated,https://bugs.launchpad.net/puppet-nova/+bug/1794301,2019-08-22
+1723952,1723952,Fix Released,v2 dashboard: firewall should be renamed to firewall_group,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1723952,2019-08-22
+1761243,1761243,Fix Released,"After upgrading iLO 4 from 2.50 to 2.55, Model name changed on ProLiant BL460c Gen9",https://bugs.launchpad.net/proliantutils/+bug/1761243,2019-08-22
+1788434,1788434,Fix Released,Failures to parse ssacli output on HP Gen9 with a few RAID controllers,https://bugs.launchpad.net/proliantutils/+bug/1788434,2019-08-22
+1833612,1833612,Fix Released,Overloaded container can get erroneously cached as 404,https://bugs.launchpad.net/swift/+bug/1833612,2019-08-22
+1839748,1839748,Fix Released,keystoneauth doesn't support auth receipts or MFA,https://bugs.launchpad.net/keystoneauth/+bug/1839748,2019-08-21
+1826612,1826612,Fix Released,nova placement code has been removed from puppet-nova which breaks puppet-tripleo testing,https://bugs.launchpad.net/tripleo/+bug/1826612,2019-08-20
+1828104,1828104,Fix Released,Update ansible-role-tripleo-ci-reproducer bindep.txt to support python3,https://bugs.launchpad.net/tripleo/+bug/1828104,2019-08-20
+1838633,1838633,Fix Released,[nova placement] no version was discoverable,https://bugs.launchpad.net/tripleo/+bug/1838633,2019-08-20
+1838496,1838496,Fix Released,[os_tempest][ansible-2.8] (tempest_install_method == 'source'): 'tempest_install_method' is undefined,https://bugs.launchpad.net/tripleo/+bug/1838496,2019-08-20
+1839600,1839600,Fix Released,[Queens][promotion] ImportError: cannot import name test neutron tempest plugin,https://bugs.launchpad.net/tripleo/+bug/1839600,2019-08-20
+1836627,1836627,Fix Released,RHEL 8 on rdo requires mod_auth_openidc from the baseos repos,https://bugs.launchpad.net/tripleo/+bug/1836627,2019-08-20
+1827931,1827931,Fix Released,ERROR! the role 'os_tempest' was not found in role path,https://bugs.launchpad.net/tripleo/+bug/1827931,2019-08-20
+1837553,1837553,Fix Released,Neutron api-ref should mention that list of e.g. IDs is supported in GET requests,https://bugs.launchpad.net/neutron/+bug/1837553,2019-08-19
+1827083,1827083,Fix Released,"ERROR: Could not install packages due to an EnvironmentError: HTTPSConnectionPool(host='git.openstack.org', port=443): Max retries exceeded with url: /cgit/openstack/requirements/plain/upper-constraints.txt (Caused by NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x7febbf6ae630>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)) in vexxhost-sjc1",https://bugs.launchpad.net/openstack-gate/+bug/1827083,2019-08-19
+1830720,1830720,Fix Released,trunk_details extension attribute support missing in trunk plugin,https://bugs.launchpad.net/networking-vpp/+bug/1830720,2019-08-19
+1835555,1835555,Fix Released,"Post live migration, BD and vhostuser interface are not removed from the source compute node",https://bugs.launchpad.net/networking-vpp/+bug/1835555,2019-08-19
+1781391,1781391,Fix Released,cellv2_delete_host when host not found by ComputeNodeList,https://bugs.launchpad.net/nova/+bug/1781391,2019-08-19
+1825067,1825067,Fix Released,Command is wrong on container create,https://bugs.launchpad.net/python-zunclient/+bug/1825067,2019-08-19
+1801660,1801660,Fix Released,Update min tox version to 2.0,https://bugs.launchpad.net/python-watcherclient/+bug/1801660,2019-08-19
+1802217,1802217,Fix Released,'watcher audit show' can't display the value of 'start_time' and 'end_time',https://bugs.launchpad.net/watcher/+bug/1802217,2019-08-19
+1828698,1828698,Fix Released,tox runs are not using upper-constraints,https://bugs.launchpad.net/python-watcherclient/+bug/1828698,2019-08-19
+1837186,1837186,Fix Committed,watcher dashboard interrupted,https://bugs.launchpad.net/watcher/+bug/1837186,2019-08-19
+1808901,1808901,Fix Released,openstack-dev was decomissioned in https://review.openstack.org/621258 Update openstack-dev to openstack-discuss,https://bugs.launchpad.net/python-pankoclient/+bug/1808901,2019-08-19
+1821389,1821389,Fix Released,user/cli doc is broken,https://bugs.launchpad.net/python-manilaclient/+bug/1821389,2019-08-19

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1690363,1690363,Fix Released,Nested metadata to volume causes an internal server error,https://bugs.launchpad.net/cinder/+bug/1690363,2017-06-08
+1590977,1590977,Fix Released,List manageable volumes and snapshots,https://bugs.launchpad.net/cinder/+bug/1590977,2017-06-08
+1692816,1692816,Fix Released,Create volume from VHD format image always failed,https://bugs.launchpad.net/cinder/+bug/1692816,2017-06-08
+1691362,1691362,Fix Released,Assisted snapshots API usage broken after nova client update,https://bugs.launchpad.net/cinder/+bug/1691362,2017-06-08
+1682241,1682241,Fix Released,SolidFire driver needs to add CG capability to Groups,https://bugs.launchpad.net/cinder/+bug/1682241,2017-06-08
+1607074,1607074,Fix Released,smbfs volume driver should use distributed lock manager,https://bugs.launchpad.net/cinder/+bug/1607074,2017-06-08
+1602235,1602235,Fix Released,LVM max_over_subscription_ratio doesn't respect precedence,https://bugs.launchpad.net/cinder/+bug/1602235,2017-06-08
+1619647,1619647,Fix Released,"cinder os-force_detach action api 202 accepted even if required ""connector"" parameter is not passed in request body",https://bugs.launchpad.net/cinder/+bug/1619647,2017-06-08
+1689290,1689290,Fix Released,Volume creation into consistency group (generic group) fails,https://bugs.launchpad.net/cinder/+bug/1689290,2017-06-08
+1678005,1678005,Fix Released,api-ref for create backup has name as mandatory attribute in request,https://bugs.launchpad.net/cinder/+bug/1678005,2017-06-08
+1643886,1643886,Fix Released,inconsistent DB updates among drives on failover_host,https://bugs.launchpad.net/cinder/+bug/1643886,2017-06-08
+1693401,1693401,Fix Released,No way to cleanup the expired reservation,https://bugs.launchpad.net/cinder/+bug/1693401,2017-06-08
+1678842,1678842,Fix Released,Refactor NEC volume driver.,https://bugs.launchpad.net/cinder/+bug/1678842,2017-06-08
+1686897,1686897,Fix Released,Ceph: can't delete backup if the ceph pool doesn't  exist,https://bugs.launchpad.net/cinder/+bug/1686897,2017-06-08
+1693333,1693333,Fix Released,wrong key used in attachment_update,https://bugs.launchpad.net/cinder/+bug/1693333,2017-06-08
+1691319,1691319,Fix Released,local variable 'server_group' referenced before assignment,https://bugs.launchpad.net/searchlight/+bug/1691319,2017-06-08
+1691689,1691689,Fix Released,Correct deprecated oslo config option,https://bugs.launchpad.net/searchlight/+bug/1691689,2017-06-08
+1680148,1680148,Fix Released,Pool types need to use v2 members,https://bugs.launchpad.net/octavia/+bug/1680148,2017-06-08
+1681565,1681565,Fix Released,Octavia v2 API listener has unnecessary response field,https://bugs.launchpad.net/octavia/+bug/1681565,2017-06-08
+1681564,1681564,Fix Released,Octavia v2 API listener response is missing fields,https://bugs.launchpad.net/octavia/+bug/1681564,2017-06-08
+1681595,1681595,Fix Released,Octavia is not working with barbican,https://bugs.launchpad.net/octavia/+bug/1681595,2017-06-08
+1676671,1676671,Fix Released,Octavia v2 API session persistence is not updating like neutron-lbaas,https://bugs.launchpad.net/octavia/+bug/1676671,2017-06-08
+1687460,1687460,Fix Released,LBaaS Creation fails if gateway value is not defined in VIP subnet,https://bugs.launchpad.net/octavia/+bug/1687460,2017-06-08
+1687584,1687584,Fix Released,LB create API fails validation when using network noop driver and passing network_id+subnet_id,https://bugs.launchpad.net/octavia/+bug/1687584,2017-06-08
+1673504,1673504,Fix Released,"Octavia v2 API should not return ""DELETED"" records",https://bugs.launchpad.net/octavia/+bug/1673504,2017-06-08
+1685827,1685827,Fix Released,Octavia v2 API Healthmonitors don't check quota,https://bugs.launchpad.net/octavia/+bug/1685827,2017-06-08
+1685789,1685789,Fix Released,Octavia v2 API Listeners don't check quota,https://bugs.launchpad.net/octavia/+bug/1685789,2017-06-08
+1665446,1665446,Fix Released,Use of 'id' for HealthMonitor instead of 'pool_id' in the code,https://bugs.launchpad.net/octavia/+bug/1665446,2017-06-08
+1596636,1596636,Fix Released,Octavia API needs a tenant facing API interface,https://bugs.launchpad.net/octavia/+bug/1596636,2017-06-08
+1544214,1544214,Fix Released,Octavia:  Root tags should be required for request and response bodies,https://bugs.launchpad.net/octavia/+bug/1544214,2017-06-08
+1673499,1673499,Fix Released,Octavia v2 API needs to return the pools object,https://bugs.launchpad.net/octavia/+bug/1673499,2017-06-08
+1673546,1673546,Fix Released,Octavia v2 API needs to support single call create,https://bugs.launchpad.net/octavia/+bug/1673546,2017-06-08
+1596625,1596625,Fix Released,Octavia API needs pagination support,https://bugs.launchpad.net/octavia/+bug/1596625,2017-06-08
+1596628,1596628,Fix Released,Octavia API needs sorting support,https://bugs.launchpad.net/octavia/+bug/1596628,2017-06-08
+1541579,1541579,Fix Released,[RFE] Port based HealthMonitor in neutron_lbaas,https://bugs.launchpad.net/octavia/+bug/1541579,2017-06-08
+1663701,1663701,Fix Released,Octavia v2 API should support cascade delete,https://bugs.launchpad.net/octavia/+bug/1663701,2017-06-08
+1691286,1691286,Fix Released,lb_network_name option defined on tests and CONF.getops but not used anywhere,https://bugs.launchpad.net/octavia/+bug/1691286,2017-06-08
+1693044,1693044,Fix Released,Pool doesn't include healthmonitor_id in response,https://bugs.launchpad.net/octavia/+bug/1693044,2017-06-08
+1691287,1691287,Fix Released,get_vrrp_instance missing on NoopAmphoraLoadBalancerDriver,https://bugs.launchpad.net/octavia/+bug/1691287,2017-06-08
+1695087,1695087,Fix Released,"Race condition causes keepalived to fail, namespace not fully configured",https://bugs.launchpad.net/octavia/+bug/1695087,2017-06-08
+1695090,1695090,Fix Released,Keepalived not considered to declare unhealthy an amphorae on reboot,https://bugs.launchpad.net/octavia/+bug/1695090,2017-06-08
+1692171,1692171,Fix Released,create healthmonitor leaves pool in PENDING_UPDATE,https://bugs.launchpad.net/octavia/+bug/1692171,2017-06-08
+1686772,1686772,Fix Released,haproxy driver unit test broken due to recent Neutron patch,https://bugs.launchpad.net/octavia/+bug/1686772,2017-06-08
+1693103,1693103,Fix Released,test_session_persistence assumes every types are supported,https://bugs.launchpad.net/octavia/+bug/1693103,2017-06-08
+1640811,1640811,Fix Released,doc/source/api directory  is alwaways in version control,https://bugs.launchpad.net/python-watcherclient/+bug/1640811,2017-06-08
+1694436,1694436,Fix Released,No support to list active jobs in kingbirdclient,https://bugs.launchpad.net/python-kingbirdclient/+bug/1694436,2017-06-08
+1663417,1663417,Fix Released,Bandit issue B701:jinja2_autoescape_false,https://bugs.launchpad.net/trove/+bug/1663417,2017-06-07
+1671655,1671655,Fix Released,trove_auth_url is not populated properly everywhere,https://bugs.launchpad.net/trove/+bug/1671655,2017-06-07
+1681478,1681478,Fix Released,trove goal-deploy-api-in-wsgi,https://bugs.launchpad.net/trove/+bug/1681478,2017-06-07
+1655715,1655715,Fix Released,MySQL 5.7 doesn't start after restore,https://bugs.launchpad.net/trove/+bug/1655715,2017-06-07
+1656432,1656432,Fix Released,Redis backup can fail if auto one already running,https://bugs.launchpad.net/trove/+bug/1656432,2017-06-07
+1688063,1688063,Fix Released,trove builds are broken as they reference the keystone identity_admin which no longer exists,https://bugs.launchpad.net/trove/+bug/1688063,2017-06-07
+1688626,1688626,Fix Released,trovestack command doesn't grok systemd,https://bugs.launchpad.net/trove/+bug/1688626,2017-06-07
+1645792,1645792,Fix Released,Configuration show may display passwords,https://bugs.launchpad.net/trove/+bug/1645792,2017-06-07
+1673607,1673607,Fix Released,get_disks method won't work on SLES guests,https://bugs.launchpad.net/tempest/+bug/1673607,2017-06-07
+1627046,1627046,Fix Committed,VIFVHostUser should be extended for fast path scenario,https://bugs.launchpad.net/os-vif/+bug/1627046,2017-06-07
+1691966,1691966,Fix Released,Update Orchestration authorization model in Administrator Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1691966,2017-06-07
+1687402,1687402,Fix Released,"Error in procedure ""Messaging service for high availability in High Availability Guide""",https://bugs.launchpad.net/openstack-manuals/+bug/1687402,2017-06-07
+1690397,1690397,Fix Released,update_volume help and description is incorrect and misleading,https://bugs.launchpad.net/python-novaclient/+bug/1690397,2017-06-07
+1688507,1688507,Fix Released,client.logger.warning wrongly used in migrations.py,https://bugs.launchpad.net/python-novaclient/+bug/1688507,2017-06-07
+1560442,1560442,Fix Released,help message for nova aggregate-update <id|name> <name> [<availability_zone>] is ambiguous,https://bugs.launchpad.net/python-novaclient/+bug/1560442,2017-06-07
+1679087,1679087,Fix Released,volume attachments is string rather than list,https://bugs.launchpad.net/heat/+bug/1679087,2017-06-07
+1620859,1620859,Fix Released,Properties translations depend on HOT and Cfn template formats,https://bugs.launchpad.net/heat/+bug/1620859,2017-06-07
+1672623,1672623,Fix Released,Allow to specify 'user' when create keypair,https://bugs.launchpad.net/heat/+bug/1672623,2017-06-07
+1683995,1683995,Fix Released,Integration tests fail with IndexError: list index out of range,https://bugs.launchpad.net/heat/+bug/1683995,2017-06-07
+1681772,1681772,Fix Released,Undeletable stack due to DB event integrity error,https://bugs.launchpad.net/heat/+bug/1681772,2017-06-07
+1684354,1684354,Fix Released,Validation error for nested stack does not include template name,https://bugs.launchpad.net/heat/+bug/1684354,2017-06-07
+1672753,1672753,Fix Released,stack_update has an extra db read query,https://bugs.launchpad.net/heat/+bug/1672753,2017-06-07
+1687643,1687643,Fix Released,SoftwareConfig input defaults don't respect type,https://bugs.launchpad.net/heat/+bug/1687643,2017-06-07
+1646360,1646360,Fix Released,Supports to specify 'none' and 'auto' value for networks of server,https://bugs.launchpad.net/heat/+bug/1646360,2017-06-07
+1689026,1689026,Fix Released,Verify operation in Installation Guide for Orchestration Service,https://bugs.launchpad.net/heat/+bug/1689026,2017-06-07
+1678037,1678037,Fix Released,error raised when stack-show,https://bugs.launchpad.net/heat/+bug/1678037,2017-06-07
+1689266,1689266,Fix Released,Stack fails if an existing Mistral workflow is given as task to OS::Mistral::Workflow,https://bugs.launchpad.net/heat/+bug/1689266,2017-06-07
+1685817,1685817,Fix Released,warning when truncating username in test,https://bugs.launchpad.net/heat/+bug/1685817,2017-06-07
+1685434,1685434,Fix Released,fix arg type validation of 'list_concat',https://bugs.launchpad.net/heat/+bug/1685434,2017-06-07

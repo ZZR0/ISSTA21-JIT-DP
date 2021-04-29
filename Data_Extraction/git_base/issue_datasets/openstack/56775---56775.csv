@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1498913,1498913,Fix Released,Incorrect repository link in cluster upgrade documentation,https://bugs.launchpad.net/fuel/+bug/1498913,2015-10-19
+1489938,1489938,Fix Committed,LMA plugins use tox to run their tests,https://bugs.launchpad.net/fuel/+bug/1489938,2015-10-19
+1461185,1461185,Fix Released,Bug link broken for first-app,https://bugs.launchpad.net/openstack-manuals/+bug/1461185,2015-10-19
+1439951,1439951,Fix Released,glance.tests.unit.test_artifacts_plugin_loader unit test failed,https://bugs.launchpad.net/glance/+bug/1439951,2015-10-19
+1187019,1187019,Fix Released,Does X-Auth-Key make sense in a swift auth environment?,https://bugs.launchpad.net/openstack-api-site/+bug/1187019,2015-10-18
+1496709,1496709,Fix Released,[SystemTests] AttributeError: 'NoneType' object has no attribute 'group',https://bugs.launchpad.net/fuel/+bug/1496709,2015-10-18
+1477839,1477839,Fix Released,Add Cinder internal tenant support,https://bugs.launchpad.net/openstack-manuals/+bug/1477839,2015-10-18
+1445154,1445154,Fix Released,Add support for customized cluster name,https://bugs.launchpad.net/openstack-manuals/+bug/1445154,2015-10-18
+1432815,1432815,Fix Released,Extend images CLI v2 with new sorting syntax,https://bugs.launchpad.net/openstack-manuals/+bug/1432815,2015-10-18
+1422725,1422725,Fix Released,There are no checks that service endpoint exist in OpenStack actions,https://bugs.launchpad.net/mistral/+bug/1422725,2015-10-16
+1418545,1418545,Fix Released,Update command for nonexistent element works different for different Mistral items,https://bugs.launchpad.net/mistral/+bug/1418545,2015-10-16
+1473980,1473980,Fix Released,Cron-trigger failed with  ApplicationContextNotFoundException,https://bugs.launchpad.net/mistral/+bug/1473980,2015-10-16
+1454111,1454111,Fix Released,Command line arguments (e.g. --server) for launch script has lower priority than options in config file,https://bugs.launchpad.net/mistral/+bug/1454111,2015-10-16
+1450434,1450434,Fix Released,"Can't use a string value in ""requires"" clause similarly to ""on-xxx"" clauses",https://bugs.launchpad.net/mistral/+bug/1450434,2015-10-16
+1449948,1449948,Fix Released,"""pause-before"" has to have bigger priority than other policies",https://bugs.launchpad.net/mistral/+bug/1449948,2015-10-16
+1449505,1449505,Fix Released,Need to handle error during YAQL evalution if non-defined variable was called,https://bugs.launchpad.net/mistral/+bug/1449505,2015-10-16
+1444390,1444390,Fix Released,"""Task name"" column is missing in CLI action-execution-[list|get]  commands",https://bugs.launchpad.net/mistral/+bug/1444390,2015-10-16
+1428576,1428576,Fix Released,Retry policy break-on property does not work,https://bugs.launchpad.net/mistral/+bug/1428576,2015-10-16
+1413338,1413338,Fix Released,__env is not evaluated by with_items,https://bugs.launchpad.net/mistral/+bug/1413338,2015-10-16
+1404205,1404205,Fix Released,Need to add additional validation in 'join' control and fail execution in case if it is not passed,https://bugs.launchpad.net/mistral/+bug/1404205,2015-10-16
+1404204,1404204,Fix Released,"""create_vm_with_volume"" example doesn't work if there are a few available networks",https://bugs.launchpad.net/mistral/+bug/1404204,2015-10-16
+1483642,1483642,Fix Released,Variable referenced before assignment in mistral-dashboard,https://bugs.launchpad.net/mistral/+bug/1483642,2015-10-16
+1478448,1478448,Fix Released,/usr/bin/mistral-db-manage sometimes failed with tables and column are already there,https://bugs.launchpad.net/mistral/+bug/1478448,2015-10-16
+1472402,1472402,Fix Released,Duplicate execution of failed task on non-existent task transition,https://bugs.launchpad.net/mistral/+bug/1472402,2015-10-16
+1470373,1470373,Fix Released,It is impossible to create public action or workflow,https://bugs.launchpad.net/mistral/+bug/1470373,2015-10-16
+1470369,1470369,Fix Released,Define better terms for WAITING and DELAYED states,https://bugs.launchpad.net/mistral/+bug/1470369,2015-10-16
+1462189,1462189,Fix Released,"""with-items"" tasks should always have result of list type",https://bugs.launchpad.net/mistral/+bug/1462189,2015-10-16
+1459188,1459188,Fix Released,Get rid of openstack.common package,https://bugs.launchpad.net/mistral/+bug/1459188,2015-10-16
+1455038,1455038,Fix Released,"Invalid workflow completion in case of ""join""",https://bugs.launchpad.net/mistral/+bug/1455038,2015-10-16
+1449557,1449557,Fix Released,execution-update command doesn't work,https://bugs.launchpad.net/mistral/+bug/1449557,2015-10-16
+1449391,1449391,Fix Released,"Feature ""default values for input"" doesn't work",https://bugs.launchpad.net/mistral/+bug/1449391,2015-10-16
+1448084,1448084,Fix Released,"Impossible to configure ""requires"" under ""task-defaults""",https://bugs.launchpad.net/mistral/+bug/1448084,2015-10-16
+1442128,1442128,Fix Released,Uploading workbook on workflows endpoints leads to 500 error,https://bugs.launchpad.net/mistral/+bug/1442128,2015-10-16
+1324967,1324967,Fix Released,Fix devstack back to using Rabbit when the RPC problem is fixed,https://bugs.launchpad.net/mistral/+bug/1324967,2015-10-16
+1469926,1469926,Fix Released,task with ERROR doesn't post any result,https://bugs.launchpad.net/mistral/+bug/1469926,2015-10-16
+1451754,1451754,Fix Released,YAQL function len() doesn't work in Mistral,https://bugs.launchpad.net/mistral/+bug/1451754,2015-10-16
+1448403,1448403,Fix Released,Execution error when running with the same workflow in parallel,https://bugs.launchpad.net/mistral/+bug/1448403,2015-10-16
+1503959,1503959,Fix Committed,/NetworkDriver.CreateEndpoint crashes when null is given for Interface,https://bugs.launchpad.net/kuryr/+bug/1503959,2015-10-16
+1499956,1499956,Fix Committed,Update /NetworkDriver.CreateEndpoint to catch up with libnetwork 0.5.0,https://bugs.launchpad.net/kuryr/+bug/1499956,2015-10-16
+1503973,1503973,Fix Committed,Kuryr emits DuplicatedResourceException when we had subnetpools for IPv4 and IPv6,https://bugs.launchpad.net/kuryr/+bug/1503973,2015-10-16
+1496284,1496284,Fix Committed,Kuryr doesn't create the default subnets,https://bugs.launchpad.net/kuryr/+bug/1496284,2015-10-16
+1499796,1499796,Fix Committed,/NetworkDriver.CreateEndpoint should return allocated IP addresses in the reqponse,https://bugs.launchpad.net/kuryr/+bug/1499796,2015-10-16
+1504582,1504582,Fix Released,Remarks to updated documentation,https://bugs.launchpad.net/mistral/+bug/1504582,2015-10-16
+1396121,1396121,Fix Released,User can delete standard workflow,https://bugs.launchpad.net/mistral/+bug/1396121,2015-10-16
+1497294,1497294,Fix Released,Need to update yaml configuration files for tasks,https://bugs.launchpad.net/mistral/+bug/1497294,2015-10-16
+1494635,1494635,Fix Released,Implement validation of workflow graph integrity (check that all mentioned tasks in wf exist),https://bugs.launchpad.net/mistral/+bug/1494635,2015-10-16
+1460669,1460669,Fix Released,Mistral doesn't raise unpredictable errors,https://bugs.launchpad.net/mistral/+bug/1460669,2015-10-16
+1498803,1498803,Fix Released,500 error code when running single action-execution with error,https://bugs.launchpad.net/mistral/+bug/1498803,2015-10-16
+1491541,1491541,Fix Released,executions update with postgresql result in cannot adapt type dict,https://bugs.launchpad.net/mistral/+bug/1491541,2015-10-16
+1488157,1488157,Fix Released,Executions and action_executions remain unremoved after functional testing,https://bugs.launchpad.net/mistral/+bug/1488157,2015-10-16
+1487651,1487651,Fix Released,with items concurrency doesn't work if value is YAQL,https://bugs.launchpad.net/mistral/+bug/1487651,2015-10-16
+1484818,1484818,Fix Released,Data Flow doesn't work properly in case of a cyclic workflow,https://bugs.launchpad.net/mistral/+bug/1484818,2015-10-16
+1484804,1484804,Fix Released,Unexpected error when get services after zookeeper connection shutdown,https://bugs.launchpad.net/mistral/+bug/1484804,2015-10-16
+1484483,1484483,Fix Released,Retry policy does not work in case of with-items,https://bugs.launchpad.net/mistral/+bug/1484483,2015-10-16
+1484138,1484138,Fix Released,Expiration Policy for executions failed to delete executions,https://bugs.launchpad.net/mistral/+bug/1484138,2015-10-16
+1482057,1482057,Fix Released,"in case of a cyclic WF (all of the task are part of cycle) mistral doesn't fail to start, instead it doesn't run any task",https://bugs.launchpad.net/mistral/+bug/1482057,2015-10-16
+1481030,1481030,Fix Released,Error is not reported for failed async action invocation,https://bugs.launchpad.net/mistral/+bug/1481030,2015-10-16
+1488873,1488873,Fix Released,Some of Mistral API are broken with WSME 0.8,https://bugs.launchpad.net/mistral/+bug/1488873,2015-10-16
+1476075,1476075,Fix Released,Wrong state info when workflow fails,https://bugs.launchpad.net/mistral/+bug/1476075,2015-10-16
+1473914,1473914,Fix Released,[doc] Lack of description about how to update mapping.json,https://bugs.launchpad.net/mistral/+bug/1473914,2015-10-16
+1471777,1471777,Fix Released,"[UI] ""Description"" column is always empty",https://bugs.launchpad.net/mistral/+bug/1471777,2015-10-16
+1471628,1471628,Fix Released,[UI] The attribute description doesn't exist on Workflow,https://bugs.launchpad.net/mistral/+bug/1471628,2015-10-16
+1465570,1465570,Fix Released,mistral-client use the default OS_MISTRAL_URL and not the endpoint keystone return in the get token request,https://bugs.launchpad.net/mistral/+bug/1465570,2015-10-16
+1465476,1465476,Fix Released,Missing guide for properly initializing mistral db,https://bugs.launchpad.net/mistral/+bug/1465476,2015-10-16
+1457211,1457211,Fix Released,Remove unnecessary validation in create/update environment form the client,https://bugs.launchpad.net/mistral/+bug/1457211,2015-10-16
+1477116,1477116,Fix Released,Run action command returns dict with 'error' in case of ERROR,https://bugs.launchpad.net/mistral/+bug/1477116,2015-10-16
+1477092,1477092,Fix Released,Import error 'oslo.config' in tools/sync_db.py,https://bugs.launchpad.net/mistral/+bug/1477092,2015-10-16
+1477048,1477048,Fix Released,Error while executing std.http: Circular reference detected,https://bugs.launchpad.net/mistral/+bug/1477048,2015-10-16
+1473963,1473963,Fix Released,HTTP request to IP:8989 and to IP:8989/v2 return 401 code,https://bugs.launchpad.net/mistral/+bug/1473963,2015-10-16
+1471784,1471784,Fix Released,[UI] User can not click on task and get info about it,https://bugs.launchpad.net/mistral/+bug/1471784,2015-10-16
+1506698,1506698,Fix Released,Merge scheduler-hints section  to servers section  in Compute v2.1 API doc,https://bugs.launchpad.net/openstack-api-site/+bug/1506698,2015-10-16
+1469605,1469605,Fix Released,Input should not be checked for native actions,https://bugs.launchpad.net/mistral/+bug/1469605,2015-10-16
+1469330,1469330,Fix Released,Retry continues even though task succeeded,https://bugs.launchpad.net/mistral/+bug/1469330,2015-10-16
+1468572,1468572,Fix Released,Mistral funtianal testing skipped,https://bugs.launchpad.net/mistral/+bug/1468572,2015-10-16
+1468419,1468419,Fix Released,"""version"" field doesn't get injected properly into task specifications when using spec_parser.get_task_spec()",https://bugs.launchpad.net/mistral/+bug/1468419,2015-10-16

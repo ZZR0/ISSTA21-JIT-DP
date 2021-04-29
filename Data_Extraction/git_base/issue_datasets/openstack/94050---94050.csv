@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1044083,1044083,Fix Released,rootwrap filter for ip netns exec,https://bugs.launchpad.net/neutron/+bug/1044083,2012-09-27
+1043147,1043147,Fix Released,Cisco Nexus sub-plugin doesn't handle update of network admin status,https://bugs.launchpad.net/neutron/+bug/1043147,2012-09-27
+1043022,1043022,Fix Released,dns is not distributed by dhcp-agent,https://bugs.launchpad.net/neutron/+bug/1043022,2012-09-27
+1042109,1042109,Fix Released,nec plugin support for L3 + floating Ips,https://bugs.launchpad.net/neutron/+bug/1042109,2012-09-27
+1042037,1042037,Fix Released,"verify router, subnet/port ownership for L3 router interface calls",https://bugs.launchpad.net/neutron/+bug/1042037,2012-09-27
+1042030,1042030,Fix Released,add explicit check for 'external-network' in L3,https://bugs.launchpad.net/neutron/+bug/1042030,2012-09-27
+1041669,1041669,Fix Released,OVS + LB plugins clear device_id and device_owner if port is status down,https://bugs.launchpad.net/neutron/+bug/1041669,2012-09-27
+1040447,1040447,Fix Released,Linux bridge flat network looses connectivity if IP defined on interface,https://bugs.launchpad.net/neutron/+bug/1040447,2012-09-27
+1040277,1040277,Fix Released,Run unit tests against all plugins,https://bugs.launchpad.net/neutron/+bug/1040277,2012-09-27
+1039947,1039947,Fix Released,Unable to delete a router port,https://bugs.launchpad.net/neutron/+bug/1039947,2012-09-27
+1039687,1039687,Fix Released,Cisco Nexus plugin delete network removes additional vlans,https://bugs.launchpad.net/neutron/+bug/1039687,2012-09-27
+1039591,1039591,Fix Released,Allow regular user to list subnets on shared networks,https://bugs.launchpad.net/neutron/+bug/1039591,2012-09-27
+1039387,1039387,Fix Released,l3-agent router/namespace deletion,https://bugs.launchpad.net/neutron/+bug/1039387,2012-09-27
+1038962,1038962,Fix Released,Exception while associating a floating ip,https://bugs.launchpad.net/neutron/+bug/1038962,2012-09-27
+1038565,1038565,Fix Released,Some unit tests for Cisco plugin are failing,https://bugs.launchpad.net/neutron/+bug/1038565,2012-09-27
+1037815,1037815,Fix Released,Fix Quantum Rootwrap,https://bugs.launchpad.net/neutron/+bug/1037815,2012-09-27
+1037589,1037589,Fix Released,ipaddr is not assigned when creating a port on shared network with different tenant_id,https://bugs.launchpad.net/neutron/+bug/1037589,2012-09-27
+1022737,1022737,Fix Released,host route distribution by DHCP,https://bugs.launchpad.net/neutron/+bug/1022737,2012-09-27
+1011467,1011467,Fix Released,OVS plugin tunnel bridges never learn,https://bugs.launchpad.net/neutron/+bug/1011467,2012-09-27
+1048906,1048906,Fix Released,invalid ClassNotFound is used in interface.py,https://bugs.launchpad.net/neutron/+bug/1048906,2012-09-27
+1044135,1044135,Fix Released,ovs quantum agent appears to stop responding after some time,https://bugs.launchpad.net/neutron/+bug/1044135,2012-09-27
+1043583,1043583,Fix Released,Must start quantum-dhcp-agent by hand first time after devstack install,https://bugs.launchpad.net/neutron/+bug/1043583,2012-09-27
+1042446,1042446,Fix Released,Missing file/apt for quanutm in devstack,https://bugs.launchpad.net/devstack/+bug/1042446,2012-09-27
+1042446,1042446,Fix Released,Missing file/apt for quanutm in devstack,https://bugs.launchpad.net/neutron/+bug/1042446,2012-09-27
+1039393,1039393,Fix Released,DHCP agent will not work if the OVS or linux bridge agents are working with DB polling,https://bugs.launchpad.net/neutron/+bug/1039393,2012-09-27
+1037443,1037443,Fix Released,wrong interface prefix ovs,https://bugs.launchpad.net/neutron/+bug/1037443,2012-09-27
+1037341,1037341,Fix Released,"provider networks networks, phase 2, OVS",https://bugs.launchpad.net/neutron/+bug/1037341,2012-09-27
+1028174,1028174,Fix Released,Tenant cannot delete network when dhcp-agent is running,https://bugs.launchpad.net/neutron/+bug/1028174,2012-09-27
+1037152,1037152,Fix Released,Update metaplugin with new attribute extension spec,https://bugs.launchpad.net/neutron/+bug/1037152,2012-09-27
+1036690,1036690,Fix Released,device owner not reset when port is down,https://bugs.launchpad.net/neutron/+bug/1036690,2012-09-27
+1036533,1036533,Fix Released,pip requires missing common modules,https://bugs.launchpad.net/neutron/+bug/1036533,2012-09-27
+1035774,1035774,Fix Released,have not converted query string into right type value,https://bugs.launchpad.net/neutron/+bug/1035774,2012-09-27
+1035769,1035769,Fix Released,Make dhcp agent configurable for namespace,https://bugs.launchpad.net/neutron/+bug/1035769,2012-09-27
+1035669,1035669,Fix Released,Linux bridge has an execption with get device,https://bugs.launchpad.net/neutron/+bug/1035669,2012-09-27
+1035649,1035649,Fix Released,wrong device is moved into netns with linuxbridge,https://bugs.launchpad.net/neutron/+bug/1035649,2012-09-27
+1035425,1035425,Fix Released,ip_lib ensure_namespace has class name error,https://bugs.launchpad.net/neutron/+bug/1035425,2012-09-27
+1033520,1033520,Fix Released,MAC validation from configuration was problematic,https://bugs.launchpad.net/neutron/+bug/1033520,2012-09-27
+1032502,1032502,Fix Released,mac_ranges  in network is invalid,https://bugs.launchpad.net/neutron/+bug/1032502,2012-09-27
+1031716,1031716,Fix Released,test_db_plugin does not test other plugins,https://bugs.launchpad.net/neutron/+bug/1031716,2012-09-27
+1030832,1030832,Fix Released,610017c460b85e1b7d11327d050972bb03fcc0c3 break Ryu plugin/agent,https://bugs.launchpad.net/neutron/+bug/1030832,2012-09-27
+1030830,1030830,Fix Released,dhcp agent doesn't work with Ryu plugin,https://bugs.launchpad.net/neutron/+bug/1030830,2012-09-27
+1029680,1029680,Fix Released,NameError: global name 'conf' is not defined at OVS plugin,https://bugs.launchpad.net/neutron/+bug/1029680,2012-09-27
+1029313,1029313,Fix Released,pipeline config in api-paste should be more flexible,https://bugs.launchpad.net/neutron/+bug/1029313,2012-09-27
+1029024,1029024,Fix Released,Update openvswitch tunnel unittest,https://bugs.launchpad.net/neutron/+bug/1029024,2012-09-27
+1028646,1028646,Fix Released,make sure that there's a way of creating a subnet without a gateway,https://bugs.launchpad.net/neutron/+bug/1028646,2012-09-27
+1026598,1026598,Fix Released,CLI admin_state_up fails,https://bugs.launchpad.net/neutron/+bug/1026598,2012-09-27
+1025127,1025127,Fix Released,provide way to specify id in models_v2,https://bugs.launchpad.net/neutron/+bug/1025127,2012-09-27
+1024844,1024844,Fix Released,bulk creation does not work,https://bugs.launchpad.net/neutron/+bug/1024844,2012-09-27
+1023066,1023066,Fix Released,python-quantum fails to install due to python syntax errors,https://bugs.launchpad.net/neutron/+bug/1023066,2012-09-27
+1022739,1022739,Fix Released,MAC address range should be specified until 4th octet,https://bugs.launchpad.net/neutron/+bug/1022739,2012-09-27
+1021546,1021546,Fix Released,Remove quantum client codes for api 1.0,https://bugs.launchpad.net/neutron/+bug/1021546,2012-09-27
+1021106,1021106,Fix Released,API allows overlapping CIDRs on a network,https://bugs.launchpad.net/neutron/+bug/1021106,2012-09-27
+1019728,1019728,Fix Released,Add reconnect timeout in event of database failre,https://bugs.launchpad.net/neutron/+bug/1019728,2012-09-27
+1019230,1019230,Fix Released,openstack-common update,https://bugs.launchpad.net/neutron/+bug/1019230,2012-09-27
+1015418,1015418,Fix Released,devstack support for policy.json,https://bugs.launchpad.net/neutron/+bug/1015418,2012-09-27
+1011759,1011759,Fix Released,Quantum CLI not consistent with other CLIs,https://bugs.launchpad.net/neutron/+bug/1011759,2012-09-27
+1036669,1036669,Fix Released,Allow unit tests to load custom configuration files,https://bugs.launchpad.net/neutron/+bug/1036669,2012-09-27
+1022966,1022966,Fix Released,global name 'FLAGS' is not defined,https://bugs.launchpad.net/neutron/+bug/1022966,2012-09-27
+1020024,1020024,Fix Released,Plugin is initialized twice,https://bugs.launchpad.net/neutron/+bug/1020024,2012-09-27
+1034212,1034212,Fix Released,Quantum client should refresh keystone token,https://bugs.launchpad.net/neutron/+bug/1034212,2012-09-27
+1028075,1028075,Fix Released,Enable Keystone authN for Quantum in devstack,https://bugs.launchpad.net/neutron/+bug/1028075,2012-09-27
+1023649,1023649,Fix Released,policy.json is reloaded at each request,https://bugs.launchpad.net/neutron/+bug/1023649,2012-09-27
+1019491,1019491,Fix Released,ovs-agent exception non-existent ports,https://bugs.launchpad.net/neutron/+bug/1019491,2012-09-27
+1015148,1015148,Fix Released,v2 validity checks,https://bugs.launchpad.net/neutron/+bug/1015148,2012-09-27
+1032506,1032506,Fix Released,exception when deleting a port with gateway_ip,https://bugs.launchpad.net/neutron/+bug/1032506,2012-09-27
+1030271,1030271,Fix Released,faild to list network due to the provider:vlan_id,https://bugs.launchpad.net/neutron/+bug/1030271,2012-09-27
+1025150,1025150,Fix Released,Quantum crashes with field parameter on querystring and keystone enabled,https://bugs.launchpad.net/neutron/+bug/1025150,2012-09-27
+1023167,1023167,Fix Released,openvswitch plugin would fail with replicated quantum-server,https://bugs.launchpad.net/neutron/+bug/1023167,2012-09-27
+1023111,1023111,Fix Released,extension framework should support extended attributes on core resources,https://bugs.launchpad.net/neutron/+bug/1023111,2012-09-27
+1020639,1020639,Fix Released,make batch API create/delete atomic,https://bugs.launchpad.net/neutron/+bug/1020639,2012-09-27
+1019462,1019462,Fix Released,devstack support for quantum DHCP,https://bugs.launchpad.net/neutron/+bug/1019462,2012-09-27
+1017760,1017760,Fix Released,devstack support for v2 nova/quantum integration,https://bugs.launchpad.net/neutron/+bug/1017760,2012-09-27
+1014989,1014989,Fix Released,check foreign key ownership for port/subnet creation,https://bugs.launchpad.net/neutron/+bug/1014989,2012-09-27
+1008180,1008180,Fix Released,implement DB and allocation logic for dns + route info.,https://bugs.launchpad.net/neutron/+bug/1008180,2012-09-27
+1036425,1036425,Fix Released,failed to list subnets with id only,https://bugs.launchpad.net/neutron/+bug/1036425,2012-09-27

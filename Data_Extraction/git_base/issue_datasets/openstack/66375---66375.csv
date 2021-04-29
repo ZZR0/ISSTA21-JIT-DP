@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1393527,1393527,Fix Released,IPv6 Subnets configured to use external router should not be allowed to associate to Neutron Router.,https://bugs.launchpad.net/neutron/+bug/1393527,2015-04-30
+1391059,1391059,Fix Released,Assign gateway IP to LB VIP would disrupt traffic,https://bugs.launchpad.net/neutron/+bug/1391059,2015-04-30
+1370342,1370342,Fix Released,AttributeError: object has no attribute 'update_security_group_rules',https://bugs.launchpad.net/neutron/+bug/1370342,2015-04-30
+1365388,1365388,Fix Released,neutron.tests.unit.agent.test_l2population_rpc.TestL2populationRpcCallBackTunnelMixin.test_get_agent_ports_no_data contains dead code,https://bugs.launchpad.net/neutron/+bug/1365388,2015-04-30
+1339197,1339197,Fix Released,Linuxbridge agent test for VXLAN module requires /lib/modules,https://bugs.launchpad.net/neutron/+bug/1339197,2015-04-30
+1414902,1414902,Fix Released,Thin the in-tree MLNX Ml2 Driver and agent,https://bugs.launchpad.net/neutron/+bug/1414902,2015-04-30
+1412818,1412818,Fix Released,DHCP agent dnsmasq driver should not check dnsmasq version at runtime,https://bugs.launchpad.net/neutron/+bug/1412818,2015-04-30
+1412577,1412577,Fix Released,Thin Arista ML2 driver in tree,https://bugs.launchpad.net/neutron/+bug/1412577,2015-04-30
+1409151,1409151,Fix Released,Thin the in-tree OpenDaylight Ml2 Driver,https://bugs.launchpad.net/neutron/+bug/1409151,2015-04-30
+1408339,1408339,Fix Released,Midonet Plugin out of tree,https://bugs.launchpad.net/neutron/+bug/1408339,2015-04-30
+1387092,1387092,Fix Released,Migrate to oslo.concurrency,https://bugs.launchpad.net/neutron/+bug/1387092,2015-04-30
+1386794,1386794,Fix Released,Add option to remove networks from dead dhcp agents,https://bugs.launchpad.net/neutron/+bug/1386794,2015-04-30
+1188427,1188427,Fix Released,specify IP address when running router-gateway-set,https://bugs.launchpad.net/neutron/+bug/1188427,2015-04-30
+1416798,1416798,Fix Released,Not using correct error class in neutron/plugins/ml2/plugin.py,https://bugs.launchpad.net/neutron/+bug/1416798,2015-04-30
+1416554,1416554,Fix Released,l3 prevent port deletion doesn't handle missing ports,https://bugs.launchpad.net/neutron/+bug/1416554,2015-04-30
+1415971,1415971,Fix Released,Moving '_make_firewall_dict_with_rules' to firewall_db.py  from fwaas_plugin.py,https://bugs.launchpad.net/neutron/+bug/1415971,2015-04-30
+1411347,1411347,Fix Released,Missing space in error message in neutron/db/l3_db.py,https://bugs.launchpad.net/neutron/+bug/1411347,2015-04-30
+1409176,1409176,Fix Released,Shared networks do not work  with Arista ML2 Driver,https://bugs.launchpad.net/neutron/+bug/1409176,2015-04-30
+1405584,1405584,Fix Released,misc-sanity-checks.sh doesn't work on OS X,https://bugs.launchpad.net/neutron/+bug/1405584,2015-04-30
+1405095,1405095,Fix Released,The console scripts will still be created for lbaas and vpnaas when setup neutron,https://bugs.launchpad.net/neutron/+bug/1405095,2015-04-30
+1404935,1404935,Fix Released,ovs_lib unnecessarily loops through all Interfaces/Ports when calling 'ovs-vsctl list',https://bugs.launchpad.net/neutron/+bug/1404935,2015-04-30
+1404927,1404927,Fix Released,ML2 Cisco Nexus MD: Incorrect mock return value,https://bugs.launchpad.net/neutron/+bug/1404927,2015-04-30
+1404605,1404605,Fix Released,Prevent symlinks to creep in the tree,https://bugs.launchpad.net/neutron/+bug/1404605,2015-04-30
+1403743,1403743,Fix Released,Confusing message for deleting default security group,https://bugs.launchpad.net/neutron/+bug/1403743,2015-04-30
+1449008,1449008,Fix Released,Image provizioning has failed with error '/dev/sr0: No medium found\n',https://bugs.launchpad.net/fuel/+bug/1449008,2015-04-30
+1402458,1402458,Fix Released,apic driver doesn't bind services' ports,https://bugs.launchpad.net/neutron/+bug/1402458,2015-04-30
+1400311,1400311,Fix Released,neutron doesn't validate min/max _l3_agents_per_router,https://bugs.launchpad.net/neutron/+bug/1400311,2015-04-30
+1399804,1399804,Fix Released,fixture module from oslo-incubator should be dropped,https://bugs.launchpad.net/neutron/+bug/1399804,2015-04-30
+1398996,1398996,Fix Released,linuxbridge mechansim driver ignores enable_security_group,https://bugs.launchpad.net/neutron/+bug/1398996,2015-04-30
+1397310,1397310,Fix Released,Attribute validation errors are logged twice,https://bugs.launchpad.net/neutron/+bug/1397310,2015-04-30
+1397239,1397239,Fix Released,API comments mismatch for get_ports_from_devices,https://bugs.launchpad.net/neutron/+bug/1397239,2015-04-30
+1395196,1395196,Fix Released,AttributeError on OVS agent startup with DVR on,https://bugs.launchpad.net/neutron/+bug/1395196,2015-04-30
+1394848,1394848,Fix Released,check-tempest-dsvm-neutron-dvr failure after the recent rpc change,https://bugs.launchpad.net/neutron/+bug/1394848,2015-04-30
+1391766,1391766,Fix Released,DBDuplicateEntry: (IntegrityError) in neutron server for openvswitch-agent,https://bugs.launchpad.net/neutron/+bug/1391766,2015-04-30
+1385379,1385379,Fix Released,Change i18n hint from _ to _LI in neutron code,https://bugs.launchpad.net/neutron/+bug/1385379,2015-04-30
+1373199,1373199,Fix Released,_delete_port_security_group_bindings not needed in ML2 delete_port,https://bugs.launchpad.net/neutron/+bug/1373199,2015-04-30
+1356467,1356467,Fix Released,VPNaaS behavior undetermined with DVR router,https://bugs.launchpad.net/neutron/+bug/1356467,2015-04-30
+1313783,1313783,Fix Released,New python-keystoneclient prefers auth_uri and identity_uri for keystone_admin section,https://bugs.launchpad.net/neutron/+bug/1313783,2015-04-30
+1269131,1269131,Fix Released,ML2 unit test coverage - db,https://bugs.launchpad.net/neutron/+bug/1269131,2015-04-30
+1194565,1194565,Fix Released,Race condition exists for mac uniqueness,https://bugs.launchpad.net/neutron/+bug/1194565,2015-04-30
+1412348,1412348,Fix Released,Missing index on allocated,https://bugs.launchpad.net/neutron/+bug/1412348,2015-04-30
+1411016,1411016,Fix Released,Unblock config restrictions in Arista L3 Service Plugin,https://bugs.launchpad.net/neutron/+bug/1411016,2015-04-30
+1408334,1408334,Fix Released,OVS agent hangs on rpc calls if neutron-server is down and ovs-agent received SIGTERM,https://bugs.launchpad.net/neutron/+bug/1408334,2015-04-30
+1407618,1407618,Fix Released,unable to reload allocations neutron-dhcp-agent,https://bugs.launchpad.net/neutron/+bug/1407618,2015-04-30
+1405197,1405197,Fix Released,Race between delete_subnet and delete_network,https://bugs.launchpad.net/neutron/+bug/1405197,2015-04-30
+1404962,1404962,Fix Released,openvswitch mech. driver does not report error in check_segment_for_agent,https://bugs.launchpad.net/neutron/+bug/1404962,2015-04-30
+1403626,1403626,Fix Released,SRIOV mechanism driver doesn't support flat networks,https://bugs.launchpad.net/neutron/+bug/1403626,2015-04-30
+1399462,1399462,Fix Released,Incorrect iptables INPUT rules on l3-agent for metadata proxy,https://bugs.launchpad.net/neutron/+bug/1399462,2015-04-30
+1397022,1397022,Fix Released,Instances won't obtain additional configuration options from DHCP when using stateless DHCPv6 subnets,https://bugs.launchpad.net/neutron/+bug/1397022,2015-04-30
+1390356,1390356,Fix Released,Improve performance of get_active_networks_info,https://bugs.launchpad.net/neutron/+bug/1390356,2015-04-30
+1377843,1377843,Fix Released,Instances won't obtain IPv6 address and gateway when using Stateful DHCPv6 provided by OpenStack,https://bugs.launchpad.net/neutron/+bug/1377843,2015-04-30
+1377710,1377710,Fix Released,ML2 port binding failure logging too subtle,https://bugs.launchpad.net/neutron/+bug/1377710,2015-04-30
+1376325,1376325,Fix Released,Cannot enable DVR and IPv6 simultaneously,https://bugs.launchpad.net/neutron/+bug/1376325,2015-04-30
+1374995,1374995,Fix Released,VLAN underlay support for DVR (Distributed Virtual Router) for OVS L2 Agent,https://bugs.launchpad.net/neutron/+bug/1374995,2015-04-30
+1372981,1372981,Fix Released,Neutron functional tests can't target both postgres and mysql in the same test run,https://bugs.launchpad.net/neutron/+bug/1372981,2015-04-30
+1372883,1372883,Fix Released,DHCP agent should specify prefix-len for IPv6 dhcp-range's,https://bugs.launchpad.net/neutron/+bug/1372883,2015-04-30
+1341268,1341268,Fix Released,mac_address port attribute is read-only,https://bugs.launchpad.net/neutron/+bug/1341268,2015-04-30
+1341020,1341020,Fix Released,"after add_port, get_port_ofport may be called before vswitchd has assigned the ofport",https://bugs.launchpad.net/neutron/+bug/1341020,2015-04-30
+1331516,1331516,Fix Released,Improve unit test coverage of dhcp agent scheduling,https://bugs.launchpad.net/neutron/+bug/1331516,2015-04-30
+1316444,1316444,Fix Released,IPs from dhcp disabled subnets are added to host file when multiple subnets,https://bugs.launchpad.net/neutron/+bug/1316444,2015-04-30
+1305032,1305032,Fix Released,Logging under exception handling should make use of save_and_reraise,https://bugs.launchpad.net/neutron/+bug/1305032,2015-04-30
+1297142,1297142,Fix Released,LBaaS: haproxy driver should respect vip/pool admin state,https://bugs.launchpad.net/neutron/+bug/1297142,2015-04-30
+1194579,1194579,Fix Released,Race condition exists for default security group creation,https://bugs.launchpad.net/neutron/+bug/1194579,2015-04-30
+1155092,1155092,Fix Released,Namespace doesn't get deleted on vip/pool removal,https://bugs.launchpad.net/neutron/+bug/1155092,2015-04-30
+1417180,1417180,Fix Released,Unable to load extensions with same module name,https://bugs.launchpad.net/neutron/+bug/1417180,2015-04-30
+1416783,1416783,Fix Released,ML2 DVR port binding missing mechanism driver calls,https://bugs.launchpad.net/neutron/+bug/1416783,2015-04-30
+1415526,1415526,Fix Released,ML2 DVR port binding does not handle concurrency,https://bugs.launchpad.net/neutron/+bug/1415526,2015-04-30
+1415010,1415010,Fix Released,Hyper-V Agent: root_helper config issue,https://bugs.launchpad.net/neutron/+bug/1415010,2015-04-30
+1414199,1414199,Fix Released,Delete subnet can fail for SLAAC/DHCP_STATELESS with 409,https://bugs.launchpad.net/neutron/+bug/1414199,2015-04-30
+1411816,1411816,Fix Released,DB failure during functional job run,https://bugs.launchpad.net/neutron/+bug/1411816,2015-04-30
+1407190,1407190,Fix Released,test_create_list_show_delete_interfaces race fail due to port_state mismatch,https://bugs.launchpad.net/neutron/+bug/1407190,2015-04-30
+1404945,1404945,Fix Released,"Default gateway can vanish from HA routers, destroying external connectivity for all VMs on that network",https://bugs.launchpad.net/neutron/+bug/1404945,2015-04-30
+1403860,1403860,Fix Released,"L3 HA routers have IPv6 link local address on devices, periodically send traffic, moving MACs around and disrupting traffic",https://bugs.launchpad.net/neutron/+bug/1403860,2015-04-30
+1403585,1403585,Fix Released,Restore VMware unit tests,https://bugs.launchpad.net/neutron/+bug/1403585,2015-04-30
+1394026,1394026,Fix Released,floatingip_agent_gateway port is not deleted on fip disassociate,https://bugs.launchpad.net/neutron/+bug/1394026,2015-04-30

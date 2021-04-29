@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1153789,1153789,Fix Released,allow auth_token to not require admin user,https://bugs.launchpad.net/keystone/+bug/1153789,2013-10-17
+1201380,1201380,Fix Released,SQL migration for sqlite broken at the 015 (tenant->project) step,https://bugs.launchpad.net/keystone/+bug/1201380,2013-10-17
+1200241,1200241,Fix Released,Keystone doc variable with DC set to com instead of org,https://bugs.launchpad.net/keystone/+bug/1200241,2013-10-17
+1195371,1195371,Fix Released,tox cover testing is failing due to a missing entry in tox.ini,https://bugs.launchpad.net/keystone/+bug/1195371,2013-10-17
+1191807,1191807,Fix Released,Inconsistent default ou naming of LDAP project and group,https://bugs.launchpad.net/keystone/+bug/1191807,2013-10-17
+1191807,1191807,Fix Released,Inconsistent default ou naming of LDAP project and group,https://bugs.launchpad.net/devstack/+bug/1191807,2013-10-17
+1191730,1191730,Fix Released,Do not reraise exceptions,https://bugs.launchpad.net/neutron/+bug/1191730,2013-10-17
+1191730,1191730,Fix Released,Do not reraise exceptions,https://bugs.launchpad.net/nova/+bug/1191730,2013-10-17
+1191730,1191730,Fix Released,Do not reraise exceptions,https://bugs.launchpad.net/glance/+bug/1191730,2013-10-17
+1191730,1191730,Fix Released,Do not reraise exceptions,https://bugs.launchpad.net/keystone/+bug/1191730,2013-10-17
+1191730,1191730,Fix Released,Do not reraise exceptions,https://bugs.launchpad.net/cinder/+bug/1191730,2013-10-17
+1191384,1191384,Fix Released,400 Bad Request not raised for string values of 'enabled'  when update a tenant,https://bugs.launchpad.net/keystone/+bug/1191384,2013-10-17
+1190978,1190978,Fix Released,Unable to get local config from wsgi middleware,https://bugs.launchpad.net/keystone/+bug/1190978,2013-10-17
+1190647,1190647,Fix Released,Incorrect keystone doc entries for LDAP configuration,https://bugs.launchpad.net/keystone/+bug/1190647,2013-10-17
+1189121,1189121,Fix Released,weak point 	instat middleware,https://bugs.launchpad.net/keystone/+bug/1189121,2013-10-17
+1189118,1189118,Fix Released,Too many stat warning logs,https://bugs.launchpad.net/keystone/+bug/1189118,2013-10-17
+1188457,1188457,Fix Released,error  default policy for create_project,https://bugs.launchpad.net/keystone/+bug/1188457,2013-10-17
+1188370,1188370,Fix Released,kvs driver for tokens is not a production quality default,https://bugs.launchpad.net/keystone/+bug/1188370,2013-10-17
+1186069,1186069,Fix Released,typo in 'import pydev' statement,https://bugs.launchpad.net/keystone/+bug/1186069,2013-10-17
+1185506,1185506,Fix Released,"Misspelling in API Docs: ""Endoint""",https://bugs.launchpad.net/keystone/+bug/1185506,2013-10-17
+1180609,1180609,Fix Released,run_test.sh uses pep8 not flake8,https://bugs.launchpad.net/keystone/+bug/1180609,2013-10-17
+1180609,1180609,Fix Released,run_test.sh uses pep8 not flake8,https://bugs.launchpad.net/python-keystoneclient/+bug/1180609,2013-10-17
+1180033,1180033,Fix Released,"python-webob dependency should bot be ==, instead it should be >=",https://bugs.launchpad.net/keystone/+bug/1180033,2013-10-17
+1179259,1179259,Fix Released,test_keystoneclient_sql fails when run by itself,https://bugs.launchpad.net/keystone/+bug/1179259,2013-10-17
+1176213,1176213,Fix Released,"Typo in the ""Installing Keystone"" web page",https://bugs.launchpad.net/keystone/+bug/1176213,2013-10-17
+1176211,1176211,Fix Released,"Broken link in the ""Installing Keystone"" webpage",https://bugs.launchpad.net/keystone/+bug/1176211,2013-10-17
+1172801,1172801,Fix Released,role_name_attribute mapping in LDAP should default to ou,https://bugs.launchpad.net/keystone/+bug/1172801,2013-10-17
+1031405,1031405,Fix Released,SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen(),https://bugs.launchpad.net/keystone/+bug/1031405,2013-10-17
+1031405,1031405,Fix Released,SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen(),https://bugs.launchpad.net/glance/+bug/1031405,2013-10-17
+1031405,1031405,Fix Released,SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen(),https://bugs.launchpad.net/nova/+bug/1031405,2013-10-17
+1031405,1031405,Fix Released,SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen(),https://bugs.launchpad.net/cinder/+bug/1031405,2013-10-17
+1197743,1197743,Fix Released,Paths to *.pem files in keystone.conf.sample are incorrect,https://bugs.launchpad.net/keystone/+bug/1197743,2013-10-17
+1196687,1196687,Fix Released,keystone startup via httpd doesn't setup locales,https://bugs.launchpad.net/keystone/+bug/1196687,2013-10-17
+1194494,1194494,Fix Released,Keystone WSGI script missing 'application',https://bugs.launchpad.net/keystone/+bug/1194494,2013-10-17
+1194204,1194204,Fix Released,Do not create Domains entry in the LDAP,https://bugs.launchpad.net/keystone/+bug/1194204,2013-10-17
+1194204,1194204,Fix Released,Do not create Domains entry in the LDAP,https://bugs.launchpad.net/devstack/+bug/1194204,2013-10-17
+1190324,1190324,Fix Released,Logging use logging.conf doesn't workwhen keystone is  fronted by apache via mod-wsgi,https://bugs.launchpad.net/keystone/+bug/1190324,2013-10-17
+1188956,1188956,Fix Released,missing signing.ca_key in sample configuration,https://bugs.launchpad.net/keystone/+bug/1188956,2013-10-17
+1188785,1188785,Fix Released,keystone-manage db_sync with DB2 fails,https://bugs.launchpad.net/keystone/+bug/1188785,2013-10-17
+1187101,1187101,Fix Released,Incompatible version response,https://bugs.launchpad.net/keystone/+bug/1187101,2013-10-17
+1186353,1186353,Fix Released,Drop Credentials constraint  migration does not specify schema,https://bugs.launchpad.net/keystone/+bug/1186353,2013-10-17
+1186061,1186061,Fix Released,V3 Revoke token API is doing V2 style admin check,https://bugs.launchpad.net/keystone/+bug/1186061,2013-10-17
+1183433,1183433,Fix Released,GET /roles/{role_id}/users does not work as advertised,https://bugs.launchpad.net/keystone/+bug/1183433,2013-10-17
+1181893,1181893,Fix Released,"Keystone imports policy from oslo, but it doesn't appear in the config file",https://bugs.launchpad.net/keystone/+bug/1181893,2013-10-17
+1178063,1178063,Fix Released,Performance issue when delete tokens for users,https://bugs.launchpad.net/keystone/+bug/1178063,2013-10-17
+1175205,1175205,Fix Released,update group if member user is deleted in LDAP,https://bugs.launchpad.net/keystone/+bug/1175205,2013-10-17
+1103002,1103002,Fix Released,Harden default PKI setup,https://bugs.launchpad.net/keystone/+bug/1103002,2013-10-17
+1103002,1103002,Fix Released,Harden default PKI setup,https://bugs.launchpad.net/python-keystoneclient/+bug/1103002,2013-10-17
+1202651,1202651,Fix Released,UUID Token provider in keystone.conf must be set when token_format = UUID,https://bugs.launchpad.net/keystone/+bug/1202651,2013-10-17
+1191110,1191110,Fix Released,Migrations may create MyISAM tables,https://bugs.launchpad.net/keystone/+bug/1191110,2013-10-17
+1190708,1190708,Fix Released,Requests fail when no admin_token_auth middleware,https://bugs.launchpad.net/keystone/+bug/1190708,2013-10-17
+1189633,1189633,Fix Released,Migration 22->23 failing on MyISAM,https://bugs.launchpad.net/keystone/+bug/1189633,2013-10-17
+1185555,1185555,Fix Released,Debug statement breaks live ldap,https://bugs.launchpad.net/keystone/+bug/1185555,2013-10-17
+1177531,1177531,Fix Released,Active Extensions not enumerated,https://bugs.launchpad.net/keystone/+bug/1177531,2013-10-17
+1171985,1171985,Fix Released,Token List in Memcache can consume an entire memcache page,https://bugs.launchpad.net/keystone/+bug/1171985,2013-10-17
+1197874,1197874,Fix Released,User roles are replaced by group roles in v3 tokens,https://bugs.launchpad.net/keystone/+bug/1197874,2013-10-17
+1186128,1186128,Fix Released,Migration 020 incorrectly assigns roles.,https://bugs.launchpad.net/keystone/+bug/1186128,2013-10-17
+1170649,1170649,Fix Released,Removing a user from a project would result to all members of that project to be removed,https://bugs.launchpad.net/keystone/+bug/1170649,2013-10-17
+1178732,1178732,Fix Released,Eventlet dnspython monkey-patching problems,https://bugs.launchpad.net/keystone/+bug/1178732,2013-10-17
+1172195,1172195,Fix Released,admin_token and LDAP password show up in log in DEBUG mode,https://bugs.launchpad.net/keystone/+bug/1172195,2013-10-17
+1226346,1226346,Fix Released,Swift httpd shouldn't change root httpd user,https://bugs.launchpad.net/swift/+bug/1226346,2013-10-17
+1226346,1226346,Fix Released,Swift httpd shouldn't change root httpd user,https://bugs.launchpad.net/devstack/+bug/1226346,2013-10-17
+1214607,1214607,Fix Released,DiskFile provides inconsistent view of metadata with fast-POST,https://bugs.launchpad.net/swift/+bug/1214607,2013-10-17
+1166697,1166697,Fix Released,password in clear in keystone.log,https://bugs.launchpad.net/keystone/+bug/1166697,2013-10-17
+1212602,1212602,Fix Released,use testCase.assert instead of manually self.fail or assert,https://bugs.launchpad.net/swift/+bug/1212602,2013-10-17
+1153718,1153718,Fix Released,status 401 Not Authorized is not valid,https://bugs.launchpad.net/keystone/+bug/1153718,2013-10-17
+1212583,1212583,Fix Released,unit tests leave temp dir in /tmp,https://bugs.launchpad.net/swift/+bug/1212583,2013-10-17
+1153082,1153082,Fix Released,status 403 Not Authorized is not valid,https://bugs.launchpad.net/keystone/+bug/1153082,2013-10-17
+1110435,1110435,Fix Released,"Having enabled=""true"" in json data when creating user will produce 500",https://bugs.launchpad.net/keystone/+bug/1110435,2013-10-17
+1211783,1211783,Fix Released,"var ""i"" was re-defined in sub loop branch",https://bugs.launchpad.net/swift/+bug/1211783,2013-10-17
+1178041,1178041,Fix Released,unit tests fail on mysql due to timestamp dropping microseconds,https://bugs.launchpad.net/keystone/+bug/1178041,2013-10-17
+1208078,1208078,Fix Released,Assignment to reserved built-in symbol,https://bugs.launchpad.net/swift/+bug/1208078,2013-10-17
+1176204,1176204,Fix Released,keystone ipv6 tests fail,https://bugs.launchpad.net/keystone/+bug/1176204,2013-10-17
+1201678,1201678,Fix Released,memcached store old data of tempauth,https://bugs.launchpad.net/swift/+bug/1201678,2013-10-17
+1174585,1174585,Fix Released,LDAP list group users should not fail if user entry deleted,https://bugs.launchpad.net/keystone/+bug/1174585,2013-10-17

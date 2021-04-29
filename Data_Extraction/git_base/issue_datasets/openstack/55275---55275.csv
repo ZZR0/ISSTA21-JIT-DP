@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1458739,1458739,Fix Released,Build fails when changing git branch during the build,https://bugs.launchpad.net/kolla/+bug/1458739,2015-11-20
+1449287,1449287,Fix Released,build-all-docker-images triggers unnecessary image build,https://bugs.launchpad.net/kolla/+bug/1449287,2015-11-20
+1447959,1447959,Fix Released,need check the compose cmd result,https://bugs.launchpad.net/kolla/+bug/1447959,2015-11-20
+1447867,1447867,Fix Released,Remove service_hosts.sh file and add variables to genenv,https://bugs.launchpad.net/kolla/+bug/1447867,2015-11-20
+1435288,1435288,Fix Released,"When using containerized heat, meta data failed to pass into the container",https://bugs.launchpad.net/kolla/+bug/1435288,2015-11-20
+1433631,1433631,Fix Released,keystone container complains database not found when database service running,https://bugs.launchpad.net/kolla/+bug/1433631,2015-11-20
+1432336,1432336,Fix Released,Need add more check var for glance-api,https://bugs.launchpad.net/kolla/+bug/1432336,2015-11-20
+1429104,1429104,Fix Released,Race condition between keystone and glance-api containers,https://bugs.launchpad.net/kolla/+bug/1429104,2015-11-20
+1398632,1398632,Fix Released,Keystone container may end up with broken openrc file,https://bugs.launchpad.net/kolla/+bug/1398632,2015-11-20
+1377034,1377034,Fix Released,"keystone should idempotently create users, endpoints, and services",https://bugs.launchpad.net/kolla/+bug/1377034,2015-11-20
+1512579,1512579,Fix Released,spice 5 html doesn't build on RDO,https://bugs.launchpad.net/kolla/+bug/1512579,2015-11-20
+1514697,1514697,Fix Released,centos-binary gate fails to build horizon image,https://bugs.launchpad.net/kolla/+bug/1514697,2015-11-20
+1513711,1513711,Fix Released,mysql-devel package conflicts with Percona-Server-devel-55,https://bugs.launchpad.net/kolla/+bug/1513711,2015-11-20
+1513628,1513628,Fix Released,The liberty branch should be pinned to the liberty repositories,https://bugs.launchpad.net/kolla/+bug/1513628,2015-11-20
+1509281,1509281,Fix Released,percona-xtrabackup is busted in master,https://bugs.launchpad.net/kolla/+bug/1509281,2015-11-20
+1508326,1508326,Fix Released,enhance dry-ness of base dockerfile.j2,https://bugs.launchpad.net/kolla/+bug/1508326,2015-11-20
+1508236,1508236,Fix Released,CentOS from source on Ceph fails to build nova-compute,https://bugs.launchpad.net/kolla/+bug/1508236,2015-11-20
+1508127,1508127,Fix Released,Need a Liberty-specific repo for RDO,https://bugs.launchpad.net/kolla/+bug/1508127,2015-11-20
+1505549,1505549,Fix Released,Ceph non-functional on RPM distros,https://bugs.launchpad.net/kolla/+bug/1505549,2015-11-20
+1505456,1505456,Fix Released,openstack-base image fails to build,https://bugs.launchpad.net/kolla/+bug/1505456,2015-11-20
+1504902,1504902,Fix Released,nova doesn't always find images in glance in HA mode,https://bugs.launchpad.net/kolla/+bug/1504902,2015-11-20
+1504800,1504800,Fix Released,kolla issue with multiple nova_consoleauth and HA,https://bugs.launchpad.net/kolla/+bug/1504800,2015-11-20
+1504606,1504606,Fix Released,Horizon instance console fails to connect instance with more than one controller,https://bugs.launchpad.net/kolla/+bug/1504606,2015-11-20
+1504207,1504207,Fix Released,JSON config file for swift-rsyncd is not being copied to hosts,https://bugs.launchpad.net/kolla/+bug/1504207,2015-11-20
+1504204,1504204,Fix Released,src for swift-account-reaper json config is incorrect in ansible config task,https://bugs.launchpad.net/kolla/+bug/1504204,2015-11-20
+1503494,1503494,Fix Released,make version 1.0,https://bugs.launchpad.net/kolla/+bug/1503494,2015-11-20
+1503412,1503412,Fix Released,centos from source sudo failing,https://bugs.launchpad.net/kolla/+bug/1503412,2015-11-20
+1501455,1501455,Fix Released,Ansible 2.0 is breaking in the container,https://bugs.launchpad.net/kolla/+bug/1501455,2015-11-20
+1497436,1497436,Fix Released,openstack-dashboard pulls in outdated python-django-pyscss and python-scss,https://bugs.launchpad.net/kolla/+bug/1497436,2015-11-20
+1490867,1490867,Fix Released,external address registered as internal address,https://bugs.launchpad.net/kolla/+bug/1490867,2015-11-20
+1503416,1503416,Fix Released,iptables sysctl broken on centos 7,https://bugs.launchpad.net/kolla/+bug/1503416,2015-11-20
+1501694,1501694,Fix Released,containers creating /dev/log folder breaks rsyslog,https://bugs.launchpad.net/kolla/+bug/1501694,2015-11-20
+1500733,1500733,Fix Released,"regression in /dev/kvm permissions, /etc/libvirt/libvirtd.conf unreadable",https://bugs.launchpad.net/kolla/+bug/1500733,2015-11-20
+1500566,1500566,Fix Released,neutron_agents is broken with set_configs JSON,https://bugs.launchpad.net/kolla/+bug/1500566,2015-11-20
+1500166,1500166,Fix Released,novnc binds to all hosts breaking deploys,https://bugs.launchpad.net/kolla/+bug/1500166,2015-11-20
+1499868,1499868,Fix Released,no config-external in haproxy,https://bugs.launchpad.net/kolla/+bug/1499868,2015-11-20
+1498303,1498303,Fix Released,cinder-base fails to build from source due to outdated setuptools,https://bugs.launchpad.net/kolla/+bug/1498303,2015-11-20
+1497673,1497673,Fix Released,nova novncproxy is missing in haproxy.cfg,https://bugs.launchpad.net/kolla/+bug/1497673,2015-11-20
+1497507,1497507,Fix Released,Remove ceph repo from Ubuntu,https://bugs.launchpad.net/kolla/+bug/1497507,2015-11-20
+1496331,1496331,Fix Released,delegate_to is broken because we set ansible_ssh_user in group_vars,https://bugs.launchpad.net/kolla/+bug/1496331,2015-11-20
+1495470,1495470,Fix Released,fail to boot instance on source type centos family - missing ovs-vsctl,https://bugs.launchpad.net/kolla/+bug/1495470,2015-11-20
+1494273,1494273,Fix Released,source based nova compute container misses qemu-img,https://bugs.launchpad.net/kolla/+bug/1494273,2015-11-20
+1494253,1494253,Fix Released,ansible should wait for virtual ip to appear before installing other services,https://bugs.launchpad.net/kolla/+bug/1494253,2015-11-20
+1494060,1494060,Fix Released,upgrading nova-libvirt causes KVM processes to exit,https://bugs.launchpad.net/kolla/+bug/1494060,2015-11-20
+1492337,1492337,Fix Released,If bootstrap container fails ansible tasks go on and start other containers,https://bugs.launchpad.net/kolla/+bug/1492337,2015-11-20
+1490780,1490780,Fix Released,rabbitmq fails during startup,https://bugs.launchpad.net/kolla/+bug/1490780,2015-11-20
+1490602,1490602,Fix Released,rabbitmq frequently fails to start due to permissions error,https://bugs.launchpad.net/kolla/+bug/1490602,2015-11-20
+1490483,1490483,Fix Released,neutron-openvswitch-agent container fails to start due to no /etc/sudoers file,https://bugs.launchpad.net/kolla/+bug/1490483,2015-11-20
+1490326,1490326,Fix Released,nova compute doesn't work,https://bugs.launchpad.net/kolla/+bug/1490326,2015-11-20
+1490066,1490066,Fix Released,horizon broken on centos binary,https://bugs.launchpad.net/kolla/+bug/1490066,2015-11-20
+1490025,1490025,Fix Released,the centos defaults for httpd listen on port 80,https://bugs.launchpad.net/kolla/+bug/1490025,2015-11-20
+1489676,1489676,Fix Released,Leftover /var/run files prevent Keystone start,https://bugs.launchpad.net/kolla/+bug/1489676,2015-11-20
+1489664,1489664,Fix Released,regression in neutron_agents in /docker,https://bugs.launchpad.net/kolla/+bug/1489664,2015-11-20
+1489537,1489537,Fix Released,mariadb+galera doesn't work multinode,https://bugs.launchpad.net/kolla/+bug/1489537,2015-11-20
+1488714,1488714,Fix Released,kolla-ansible image failed to build,https://bugs.launchpad.net/kolla/+bug/1488714,2015-11-20
+1487828,1487828,Fix Released,neutron-server broken for centos,https://bugs.launchpad.net/kolla/+bug/1487828,2015-11-20
+1487801,1487801,Fix Released,cinder-volume must run as privileged,https://bugs.launchpad.net/kolla/+bug/1487801,2015-11-20
+1487799,1487799,Fix Released,cinder reads /usr/share/cinder/cinder-dist.conf,https://bugs.launchpad.net/kolla/+bug/1487799,2015-11-20
+1487771,1487771,Fix Released,looks like cinder lvmdriver requires /run bindmount,https://bugs.launchpad.net/kolla/+bug/1487771,2015-11-20
+1487762,1487762,Fix Released,automaton package in delorean renamed python-automaton,https://bugs.launchpad.net/kolla/+bug/1487762,2015-11-20
+1486876,1486876,Fix Released,database_user is overloaded,https://bugs.launchpad.net/kolla/+bug/1486876,2015-11-20
+1486636,1486636,Fix Released,Binary images do not build for oraclelinux using templates,https://bugs.launchpad.net/kolla/+bug/1486636,2015-11-20
+1486634,1486634,Fix Released,memcached template won't build due to missing trailing slash,https://bugs.launchpad.net/kolla/+bug/1486634,2015-11-20
+1486333,1486333,Fix Released,nova needs a data container,https://bugs.launchpad.net/kolla/+bug/1486333,2015-11-20
+1486276,1486276,Fix Released,keepalived goes into restart and segfault loop,https://bugs.launchpad.net/kolla/+bug/1486276,2015-11-20
+1486241,1486241,Fix Released,neutron-server doesn't run because oslo.versionedobjects not present,https://bugs.launchpad.net/kolla/+bug/1486241,2015-11-20
+1486230,1486230,Fix Released,build log output is not consistent,https://bugs.launchpad.net/kolla/+bug/1486230,2015-11-20
+1486100,1486100,Fix Released,Libvirt is copying external config to the wrong place,https://bugs.launchpad.net/kolla/+bug/1486100,2015-11-20
+1485745,1485745,Fix Released,Cinder bootstrap container is not initializing the DB,https://bugs.launchpad.net/kolla/+bug/1485745,2015-11-20
+1485742,1485742,Fix Released,global search and replace /opt/kolla with /var/lib/kolla,https://bugs.launchpad.net/kolla/+bug/1485742,2015-11-20
+1485297,1485297,Fix Released,volumes_from in ansible doesn't work as expected,https://bugs.launchpad.net/kolla/+bug/1485297,2015-11-20
+1485163,1485163,Fix Released,remove compose from documentation.,https://bugs.launchpad.net/kolla/+bug/1485163,2015-11-20
+1485142,1485142,Fix Released,neutron doesn't create endpoint in Ansible,https://bugs.launchpad.net/kolla/+bug/1485142,2015-11-20
+1485079,1485079,Fix Released,"if /run/keepalived.pid file exists, keepalive wont start",https://bugs.launchpad.net/kolla/+bug/1485079,2015-11-20
+1484357,1484357,Fix Released,typo in nova.conf,https://bugs.launchpad.net/kolla/+bug/1484357,2015-11-20

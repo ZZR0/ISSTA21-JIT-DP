@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1635563,1635563,Fix Committed,[8.0] [CI tests] Test 8.0.fuel-library.pkgs.ubuntu.neutron_vlan_ha failes due to timeout,https://bugs.launchpad.net/fuel/+bug/1635563,2016-11-21
+1642805,1642805,Fix Released,"""No valid host was found."" on gate",https://bugs.launchpad.net/networking-midonet/+bug/1642805,2016-11-21
+1641785,1641785,Fix Released,环境 in Installation Guide 镜像服务 写成了径向服务,https://bugs.launchpad.net/openstack-i18n/+bug/1641785,2016-11-21
+1643221,1643221,Fix Committed,Support state_path in Zun,https://bugs.launchpad.net/zun/+bug/1643221,2016-11-21
+1637060,1637060,Fix Committed,"During container creation image is always pulled, i think it should be pulled only based on some condition",https://bugs.launchpad.net/zun/+bug/1637060,2016-11-21
+1638462,1638462,Fix Committed,"Image should always be pulled, if it is outdated",https://bugs.launchpad.net/zun/+bug/1638462,2016-11-21
+1641854,1641854,Fix Released,Processmonitor outputs an invalid debug message.,https://bugs.launchpad.net/masakari-monitors/+bug/1641854,2016-11-21
+1641852,1641852,Fix Released,Processmonitor outputs error messages related to proc.list.,https://bugs.launchpad.net/masakari-monitors/+bug/1641852,2016-11-21
+1641853,1641853,Fix Released,masakari-instancemonitor command fails if it is executed under a directory where .git doesn't exists.,https://bugs.launchpad.net/masakari-monitors/+bug/1641853,2016-11-21
+1640397,1640397,Fix Released,Instancemonitor failed to send a notification,https://bugs.launchpad.net/masakari-monitors/+bug/1640397,2016-11-21
+1642736,1642736,Fix Released,stack.sh hangs on SUSE when running zypper rm,https://bugs.launchpad.net/devstack/+bug/1642736,2016-11-20
+1641942,1641942,Fix Released,migrate to neutron-lib,https://bugs.launchpad.net/networking-plumgrid/+bug/1641942,2016-11-20
+1527515,1527515,Fix Released,[RFE] Write functional sanity tests for Ironic Client,https://bugs.launchpad.net/python-ironicclient/+bug/1527515,2016-11-20
+1642370,1642370,Fix Committed,CI fails,https://bugs.launchpad.net/fuel/+bug/1642370,2016-11-20
+1489311,1489311,Fix Released,Chinese words in translations are incorrect,https://bugs.launchpad.net/openstack-i18n/+bug/1489311,2016-11-20
+1623989,1623989,Fix Released,Verify Plan Update doesn't clear Mistral Env,https://bugs.launchpad.net/tripleo/+bug/1623989,2016-11-20
+1505569,1505569,Fix Released,TypeError: teardown_server() takes at most 3 arguments (4 given),https://bugs.launchpad.net/manila/+bug/1505569,2016-11-19
+1606404,1606404,Fix Released,Functional tests cause heat-engine ERROR logging,https://bugs.launchpad.net/heat/+bug/1606404,2016-11-19
+1643055,1643055,Fix Released,FIXED_RANGE_V6 not set to sane value in neutron_plugins/services/l3,https://bugs.launchpad.net/devstack/+bug/1643055,2016-11-19
+1568414,1568414,Fix Released,Database Poison Warnings,https://bugs.launchpad.net/nova/+bug/1568414,2016-11-19
+1642784,1642784,Fix Released,[APIC-mapping] Need an option to reuse BridgeDomains on APIC,https://bugs.launchpad.net/group-based-policy/+bug/1642784,2016-11-19
+1596423,1596423,Fix Released,migration vs model mismatches,https://bugs.launchpad.net/networking-midonet/+bug/1596423,2016-11-19
+1513765,1513765,Fix Released,bulk delete of ports cost iptables-firewall too much time,https://bugs.launchpad.net/neutron/+bug/1513765,2016-11-19
+1643059,1643059,Fix Released,"CI: jobs failing with Error: /Stage[main]/Rabbitmq::Config/Rabbitmq_erlang_cookie[/var/lib/rabbitmq/.erlang.cookie]/content: <snip> `encode': ""\xC3"" on US-ASCII (Encoding::InvalidByteSequenceError)",https://bugs.launchpad.net/tripleo/+bug/1643059,2016-11-19
+1642450,1642450,Fix Released,networking-vpp lack hacking.,https://bugs.launchpad.net/networking-vpp/+bug/1642450,2016-11-18
+1569658,1569658,Fix Released,lack of swift_service_type parameters in guestagent conf,https://bugs.launchpad.net/puppet-trove/+bug/1569658,2016-11-18
+1638197,1638197,Fix Released,Deprecate image_ssh_user option,https://bugs.launchpad.net/puppet-tempest/+bug/1638197,2016-11-18
+1628967,1628967,Fix Released,Deployment fails when Memcached and SwiftProxy run on different nodes,https://bugs.launchpad.net/puppet-swift/+bug/1628967,2016-11-18
+1628967,1628967,Fix Released,Deployment fails when Memcached and SwiftProxy run on different nodes,https://bugs.launchpad.net/tripleo/+bug/1628967,2016-11-18
+1631359,1631359,Fix Released,Default concurrency for auditor/replicator/updater is way to high and might overload nodes,https://bugs.launchpad.net/puppet-swift/+bug/1631359,2016-11-18
+1638676,1638676,Fix Released,Expose the option default_ntp_server,https://bugs.launchpad.net/puppet-sahara/+bug/1638676,2016-11-18
+1517220,1517220,Fix Released,provider code doesn't account for regions,https://bugs.launchpad.net/puppet-nova/+bug/1517220,2016-11-18
+1639851,1639851,Fix Released,Horizon should allow the configuration of 'Retrieve Password',https://bugs.launchpad.net/puppet-horizon/+bug/1639851,2016-11-18
+1633282,1633282,Fix Released,"Option ""auth_plugin"" from group ""trustee"" is deprecated in Heat",https://bugs.launchpad.net/puppet-heat/+bug/1633282,2016-11-18
+1641076,1641076,Fix Released,CI: master job fail on undercloud install because of missing ceilometer-dbsync command,https://bugs.launchpad.net/tripleo/+bug/1641076,2016-11-18
+1642458,1642458,Fix Released,Translated mitaka docs seems to be overwritten by translated newton docs,https://bugs.launchpad.net/openstack-manuals/+bug/1642458,2016-11-18
+1642969,1642969,Fix Released,npm tests failing upstream,https://bugs.launchpad.net/horizon/+bug/1642969,2016-11-18
+1641884,1641884,Fix Committed,Failed community fuel-11.0 bvt test,https://bugs.launchpad.net/fuel/+bug/1641884,2016-11-18
+1642362,1642362,Fix Released,Devstack plugin sometimes loads out of order in gate,https://bugs.launchpad.net/ironic-inspector/+bug/1642362,2016-11-18
+1616257,1616257,Fix Released,install guide has no post install documentation for dhss=False,https://bugs.launchpad.net/manila/+bug/1616257,2016-11-18
+1621016,1621016,Fix Released,HPE 3PAR: getvfs returns one 1 entry causing driver bootup failure,https://bugs.launchpad.net/manila/+bug/1621016,2016-11-18
+1616061,1616061,Fix Released,zfsonlinux: nfs-kernel-server does not get started automatically,https://bugs.launchpad.net/manila/+bug/1616061,2016-11-18
+1602525,1602525,Fix Released,Spectifing host_id in neutron api should fail when  binding extension is missing,https://bugs.launchpad.net/manila/+bug/1602525,2016-11-18
+1612528,1612528,Fix Released,Tempest tests missing for mtu and gateway api changes,https://bugs.launchpad.net/manila/+bug/1612528,2016-11-18
+1621033,1621033,Fix Released,Local and remote shell executors behave differently,https://bugs.launchpad.net/manila/+bug/1621033,2016-11-18
+1625424,1625424,Fix Released,huawei driver deletes QoS failed,https://bugs.launchpad.net/manila/+bug/1625424,2016-11-18
+1613242,1613242,Fix Released,huawei driver encodes configuration string error for py3,https://bugs.launchpad.net/manila/+bug/1613242,2016-11-18
+1623105,1623105,Fix Released,[doc] Add dedupe report in HNAS driver,https://bugs.launchpad.net/manila/+bug/1623105,2016-11-18
+1616618,1616618,Fix Released,[doc] Rename and move HNAS driver,https://bugs.launchpad.net/manila/+bug/1616618,2016-11-18
+1614833,1614833,Fix Released,[doc] Add dedupe report in HNAS driver,https://bugs.launchpad.net/manila/+bug/1614833,2016-11-18
+1536812,1536812,Fix Released,[doc] Hitachi HNAS driver refactoring,https://bugs.launchpad.net/manila/+bug/1536812,2016-11-18
+1616563,1616563,Fix Released,[doc] add access_key to share_access_map,https://bugs.launchpad.net/manila/+bug/1616563,2016-11-18
+1628896,1628896,Fix Released,Devstack plugin not compatible with ubuntu-xenial,https://bugs.launchpad.net/manila/+bug/1628896,2016-11-18
+1630512,1630512,Fix Released,Container driver fails to release share server on ubuntu-xenial,https://bugs.launchpad.net/manila/+bug/1630512,2016-11-18
+1624526,1624526,Fix Released,NetApp cDOT driver does not eliminate untenable pools,https://bugs.launchpad.net/manila/+bug/1624526,2016-11-18
+1625261,1625261,Fix Released,Quick start in manila,https://bugs.launchpad.net/manila/+bug/1625261,2016-11-18
+1613676,1613676,Fix Released,Container driver fails in concurrent environments,https://bugs.launchpad.net/manila/+bug/1613676,2016-11-18
+1607444,1607444,Fix Released,"logs are full of manila-scheduler: Arguments dropped when creating context: {u'user': None, u'tenant': None}",https://bugs.launchpad.net/manila/+bug/1607444,2016-11-18
+1635588,1635588,Fix Released,"tempest does not see manila test module ""api.test_quotas""",https://bugs.launchpad.net/manila/+bug/1635588,2016-11-18
+1635073,1635073,Fix Released,Compare encoded configuration more accurately for huawei driver,https://bugs.launchpad.net/manila/+bug/1635073,2016-11-18
+1638896,1638896,Fix Released,"missing ""completing"" task_state for driver-assisted migration",https://bugs.launchpad.net/manila/+bug/1638896,2016-11-18
+1638994,1638994,Fix Released,"""*generic-no-share-servers*"" CI job fails very often",https://bugs.launchpad.net/manila/+bug/1638994,2016-11-18
+1639848,1639848,Fix Released,Manage/unmanage tempest test leaves shares on backend,https://bugs.launchpad.net/manila/+bug/1639848,2016-11-18
+1640774,1640774,Fix Released,Missing testscenario in test-requirements,https://bugs.launchpad.net/manila/+bug/1640774,2016-11-18
+1640169,1640169,Fix Released,Ceph driver doesn't check connection on set up,https://bugs.launchpad.net/manila/+bug/1640169,2016-11-18
+1642548,1642548,Fix Released,Scenario tests: share size is not configurable,https://bugs.launchpad.net/manila/+bug/1642548,2016-11-18
+1633739,1633739,Fix Released,greenfield install -- two new bugs on rsyslog play,https://bugs.launchpad.net/openstack-ansible/+bug/1633739,2016-11-18
+1633936,1633936,Fix Released,apt-cacher-ng won't start in repo container,https://bugs.launchpad.net/openstack-ansible/+bug/1633936,2016-11-18
+1640458,1640458,Fix Released,Deprecation warnings to_unicode to_bytes is deprecated,https://bugs.launchpad.net/openstack-ansible/+bug/1640458,2016-11-18
+1538642,1538642,Fix Released,Cirros Image creation failures,https://bugs.launchpad.net/openstack-ansible/+bug/1538642,2016-11-18
+1633221,1633221,Fix Released,OSA creates reseller_admin role but role should be ResellerAdmin,https://bugs.launchpad.net/openstack-ansible/+bug/1633221,2016-11-18
+1630953,1630953,Fix Released,"haproxy SSL, nova console is blank .",https://bugs.launchpad.net/openstack-ansible/+bug/1630953,2016-11-18
+1630950,1630950,Fix Released,"haproxy SSL, nova console set to http on the horizon link",https://bugs.launchpad.net/openstack-ansible/+bug/1630950,2016-11-18
+1632447,1632447,Fix Released,During upgrare M->N ssh key population doesn't work,https://bugs.launchpad.net/openstack-ansible/+bug/1632447,2016-11-18
+1642310,1642310,Fix Released,Deprecate scheduler_max_attempts option in nova,https://bugs.launchpad.net/openstack-ansible/+bug/1642310,2016-11-18

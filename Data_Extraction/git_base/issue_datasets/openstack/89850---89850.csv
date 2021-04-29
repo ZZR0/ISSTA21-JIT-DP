@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1169295,1169295,Fix Released,Some files has been missed in tarballs,https://bugs.launchpad.net/sahara/+bug/1169295,2013-05-30
+1168599,1168599,Fix Released,Tests failed with jsonschema 1.2.0,https://bugs.launchpad.net/sahara/+bug/1168599,2013-05-30
+1169032,1169032,Fix Released,"Use flake8 + hacking instead of pep8, hacking.py and pyflakes",https://bugs.launchpad.net/sahara/+bug/1169032,2013-05-30
+1163311,1163311,Fix Released,Wrong response body for node-templates GET request,https://bugs.launchpad.net/sahara/+bug/1163311,2013-05-30
+1163226,1163226,Fix Released,Simplify network settings for cluster VMs,https://bugs.launchpad.net/sahara/+bug/1163226,2013-05-30
+1162746,1162746,Fix Released,bugs for HTTP Status,https://bugs.launchpad.net/sahara/+bug/1162746,2013-05-30
+1168102,1168102,Fix Released,Problems with inner cluster dns,https://bugs.launchpad.net/sahara/+bug/1168102,2013-05-30
+1167198,1167198,Fix Released,run_tests.sh -c find import problems,https://bugs.launchpad.net/cinder/+bug/1167198,2013-05-30
+1093379,1093379,Fix Released,"i can not  start lxc instance via ""nova start"" after rebooting the host",https://bugs.launchpad.net/nova/+bug/1093379,2013-05-30
+1098458,1098458,Fix Released,lxc instance deletion error,https://bugs.launchpad.net/nova/+bug/1098458,2013-05-30
+1183732,1183732,Fix Released,heat updates failing due to keystone error,https://bugs.launchpad.net/tripleo/+bug/1183732,2013-05-29
+1122300,1122300,Fix Released,python-keystoneclient does not accept requests version > 1.0,https://bugs.launchpad.net/python-keystoneclient/+bug/1122300,2013-05-29
+1185147,1185147,Fix Released,build failed at safe-devstack-vm-gate-wrap.sh: line 98: /new/devstack-gate/devstack-vm-gate.sh: No such file or directory,https://bugs.launchpad.net/openstack-ci/+bug/1185147,2013-05-29
+1178152,1178152,Fix Released,In user.list pagination int(marker) is wrong,https://bugs.launchpad.net/python-keystoneclient/+bug/1178152,2013-05-29
+1172723,1172723,Fix Released,python-keystoneclient sets incorrect configuration causing testsuite failure,https://bugs.launchpad.net/python-keystoneclient/+bug/1172723,2013-05-29
+1168826,1168826,Fix Released,Conflict Exception is not reported correctly by keystone client and trows Client Exception instead,https://bugs.launchpad.net/python-keystoneclient/+bug/1168826,2013-05-29
+1154753,1154753,Fix Released,Exception generated from HTTP error does not contain the right details and message,https://bugs.launchpad.net/python-keystoneclient/+bug/1154753,2013-05-29
+1150299,1150299,Fix Released,Temporary network outage results in connection refused and invalid token,https://bugs.launchpad.net/python-keystoneclient/+bug/1150299,2013-05-29
+1145071,1145071,Fix Released,"Unnecessary import of keyring leads to spurious ""Failed to load keyring modules."" messages",https://bugs.launchpad.net/python-keystoneclient/+bug/1145071,2013-05-29
+1130200,1130200,Fix Released,test_auth_token_middleware encounters unlimited recursion,https://bugs.launchpad.net/python-keystoneclient/+bug/1130200,2013-05-29
+1124084,1124084,Fix Released,Latest version of python-keystoneclient break debug,https://bugs.launchpad.net/python-keystoneclient/+bug/1124084,2013-05-29
+1116559,1116559,Fix Released,HTTP 405 code is not handled as exception,https://bugs.launchpad.net/python-keystoneclient/+bug/1116559,2013-05-29
+1109349,1109349,Fix Released,"Discrepancies between V3 API and current code (Domains, Credentials)",https://bugs.launchpad.net/python-keystoneclient/+bug/1109349,2013-05-29
+1104313,1104313,Fix Released,--debug arg doesn't show request body,https://bugs.launchpad.net/python-keystoneclient/+bug/1104313,2013-05-29
+1103282,1103282,Fix Released,url_for method doesn't take region_name attribute into account,https://bugs.launchpad.net/python-keystoneclient/+bug/1103282,2013-05-29
+1100648,1100648,Fix Released,keystone command should handle name arguments.,https://bugs.launchpad.net/python-keystoneclient/+bug/1100648,2013-05-29
+1094699,1094699,Fix Released,keystone auth fails due to a low python-requests version,https://bugs.launchpad.net/python-keystoneclient/+bug/1094699,2013-05-29
+1061514,1061514,Fix Released,Prettytable change to python-keystoneclient breaks devstack,https://bugs.launchpad.net/python-keystoneclient/+bug/1061514,2013-05-29
+1091894,1091894,Fix Released,"{role, service, tenant, user-role}-list output order is not human-friendly",https://bugs.launchpad.net/python-keystoneclient/+bug/1091894,2013-05-29
+1089664,1089664,Fix Released,Keystone Auth middleware doesn't properly log to swift,https://bugs.launchpad.net/python-keystoneclient/+bug/1089664,2013-05-29
+1088654,1088654,Fix Released,MIsspelling error in README file,https://bugs.launchpad.net/python-keystoneclient/+bug/1088654,2013-05-29
+1086278,1086278,Fix Released,OS_CA_CERT is not consistent with help message,https://bugs.launchpad.net/python-keystoneclient/+bug/1086278,2013-05-29
+1082539,1082539,Fix Released,need a method to change own password,https://bugs.launchpad.net/python-keystoneclient/+bug/1082539,2013-05-29
+1078947,1078947,Fix Released,auth_token failure if signing_dir not specified running under upstart,https://bugs.launchpad.net/python-keystoneclient/+bug/1078947,2013-05-29
+1076235,1076235,Fix Released,clients prompts for password without os-auth-url,https://bugs.launchpad.net/python-keystoneclient/+bug/1076235,2013-05-29
+1070493,1070493,Fix Released,"Unnecessary ""Endpoint not found"" logging with unscoped token",https://bugs.launchpad.net/python-keystoneclient/+bug/1070493,2013-05-29
+1067512,1067512,Fix Released,Stacktrace returned because connection failures not trapped,https://bugs.launchpad.net/python-keystoneclient/+bug/1067512,2013-05-29
+1053728,1053728,Fix Released,'keystone token-get' output unreadable when using PKI,https://bugs.launchpad.net/python-keystoneclient/+bug/1053728,2013-05-29
+1040162,1040162,Fix Released,New CLI options have '_' in name,https://bugs.launchpad.net/python-keystoneclient/+bug/1040162,2013-05-29
+974319,974319,Fix Released,auth_token does not quote token to validate,https://bugs.launchpad.net/python-keystoneclient/+bug/974319,2013-05-29
+1073437,1073437,Fix Released,user-list output order is not human-friendly,https://bugs.launchpad.net/python-keystoneclient/+bug/1073437,2013-05-29
+1048662,1048662,Fix Released,Add an option to disable a service,https://bugs.launchpad.net/python-keystoneclient/+bug/1048662,2013-05-29
+1048662,1048662,Fix Released,Add an option to disable a service,https://bugs.launchpad.net/keystone/+bug/1048662,2013-05-29
+1046837,1046837,Fix Released,python-keystoneclient doesn't pass on the true ip address of the requester,https://bugs.launchpad.net/python-keystoneclient/+bug/1046837,2013-05-29
+1182130,1182130,Fix Released,"Required command arguments listead as optional for ""keystone help <command>""",https://bugs.launchpad.net/python-keystoneclient/+bug/1182130,2013-05-29
+1154768,1154768,Fix Released,auth_token needs doc info and other readability improvements,https://bugs.launchpad.net/python-keystoneclient/+bug/1154768,2013-05-29
+1124283,1124283,Fix Released,"Tests fail if project's dir name is ""wrong""",https://bugs.launchpad.net/python-keystoneclient/+bug/1124283,2013-05-29
+1090396,1090396,Fix Released,missing python-keyring dependency logs 'No handlers could be found...',https://bugs.launchpad.net/python-keystoneclient/+bug/1090396,2013-05-29
+1076233,1076233,Fix Released,client inadvertently encourages use of token/endpoint,https://bugs.launchpad.net/python-keystoneclient/+bug/1076233,2013-05-29
+1076225,1076225,Fix Released,Issue warning when extra credentials are supplied,https://bugs.launchpad.net/python-keystoneclient/+bug/1076225,2013-05-29
+949904,949904,Fix Released,Keystone redux Ubuntu 12.04 B1 'Client' object has no attribute 'service_catalog',https://bugs.launchpad.net/python-keystoneclient/+bug/949904,2013-05-29
+1175356,1175356,Fix Released,several v3 list() methods missing support for filters,https://bugs.launchpad.net/python-keystoneclient/+bug/1175356,2013-05-29
+1163678,1163678,Fix Released,requests.ConnectionError is unhandled,https://bugs.launchpad.net/python-keystoneclient/+bug/1163678,2013-05-29
+1154144,1154144,Fix Released,auth_token middleware should default to v2.0 if version is not specified,https://bugs.launchpad.net/python-keystoneclient/+bug/1154144,2013-05-29
+1050097,1050097,Fix Released,keystoneclient sends a request body of 'null' on PUT requests,https://bugs.launchpad.net/python-keystoneclient/+bug/1050097,2013-05-29
+1050091,1050091,Fix Released,keystoneclient inconsistently mocks httplib2 content-type/body handling,https://bugs.launchpad.net/python-keystoneclient/+bug/1050091,2013-05-29
+1025929,1025929,Fix Released,Updating a tenant with a blank description does not work,https://bugs.launchpad.net/python-keystoneclient/+bug/1025929,2013-05-29
+1136476,1136476,Fix Released,keystone discover command not finding the keystone endpoint running on localhost,https://bugs.launchpad.net/python-keystoneclient/+bug/1136476,2013-05-29
+1132390,1132390,Fix Released,Auth_token middleware doesn't handle v3 tokens correctly,https://bugs.launchpad.net/python-keystoneclient/+bug/1132390,2013-05-29
+1081192,1081192,Fix Released,token-get fails without a management_url,https://bugs.launchpad.net/python-keystoneclient/+bug/1081192,2013-05-29
+1078589,1078589,Fix Released,keystoneclient throws exception when loading auth_ref dictionary,https://bugs.launchpad.net/python-keystoneclient/+bug/1078589,2013-05-29
+1074784,1074784,Fix Released,management_url raises EndpointNotFound for non-admin,https://bugs.launchpad.net/python-keystoneclient/+bug/1074784,2013-05-29
+1028799,1028799,Fix Released,error happens when parse the error page,https://bugs.launchpad.net/python-keystoneclient/+bug/1028799,2013-05-29
+933076,933076,Fix Released,keystone-client tests fail on RHEL,https://bugs.launchpad.net/python-keystoneclient/+bug/933076,2013-05-29
+1154806,1154806,Fix Released,auth_token causes services to fail to start if keystone is down,https://bugs.launchpad.net/python-keystoneclient/+bug/1154806,2013-05-29
+1097860,1097860,Fix Released,Missing dependency iso8601,https://bugs.launchpad.net/python-keystoneclient/+bug/1097860,2013-05-29
+1087434,1087434,Fix Released,Don't require use_keyring by default,https://bugs.launchpad.net/python-keystoneclient/+bug/1087434,2013-05-29
+1064835,1064835,Fix Released,[SRU] keystoneclient fails on SSL certificates that work for other services,https://bugs.launchpad.net/python-keystoneclient/+bug/1064835,2013-05-29
+1151665,1151665,Fix Released,Pypi python-keystoneclient(v0.2.2) not compatible with the latest oslo.config-1.1,https://bugs.launchpad.net/ceilometer/+bug/1151665,2013-05-29
+1159719,1159719,Fix Released,Missing Documentation on cinder api to view the list of managed cinder-volume services,https://bugs.launchpad.net/openstack-api-site/+bug/1159719,2013-05-29
+1050982,1050982,Fix Released,ensure_default_security_group() does not call sgh,https://bugs.launchpad.net/nova/+bug/1050982,2013-05-29
+1057322,1057322,Fix Released,Image fails to upload to swift: TypeError: object of type 'CooperativeReader' has no len(,https://bugs.launchpad.net/glance/+bug/1057322,2013-05-28
+1133578,1133578,Fix Released,Monitor SSL Certificate expiration,https://bugs.launchpad.net/openstack-ci/+bug/1133578,2013-05-28
+1181659,1181659,Fix Released,Better error message when section missing xml:id,https://bugs.launchpad.net/openstack-manuals/+bug/1181659,2013-05-28
+1184647,1184647,Fix Released,Bugs marked Fix Released but not In Progress for openstack-chef project,https://bugs.launchpad.net/openstack-chef/+bug/1184647,2013-05-27

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1661197,1661197,Fix Released,Memcache setup missing in shibboleth2.xml,https://bugs.launchpad.net/openstack-ansible/+bug/1661197,2018-10-02
+1590180,1590180,Fix Released,3par iscsi host creation fails while querying host using iqn,https://bugs.launchpad.net/cinder/+bug/1590180,2018-10-02
+1627173,1627173,Fix Released,Stop stripping user and tenant from RequestContext,https://bugs.launchpad.net/ironic/+bug/1627173,2018-10-02
+1677621,1677621,Fix Released,Port update exception on nova unshelve for instance with PCI devices,https://bugs.launchpad.net/nova/+bug/1677621,2018-10-02
+1607313,1607313,Fix Released,Inconsistency in data stored in libvirt.xml file,https://bugs.launchpad.net/nova/+bug/1607313,2018-10-02
+1783995,1783995,Fix Released,"overcloud upgrade converge failed on ""Lost connection to MySQL server during query""",https://bugs.launchpad.net/tripleo/+bug/1783995,2018-10-02
+1746559,1746559,Fix Released,Backup abort mechanism can leave resources behind,https://bugs.launchpad.net/cinder/+bug/1746559,2018-10-02
+1762424,1762424,Fix Released,ONTAP v9.1 won't extend volume to 64G,https://bugs.launchpad.net/cinder/+bug/1762424,2018-10-02
+1690954,1690954,Fix Released,NetApp cDOT NFS driver sends the wrong flexvol name to the filer to delete volumes/snapshots,https://bugs.launchpad.net/cinder/+bug/1690954,2018-10-02
+1683228,1683228,Fix Released,"Incorrect ImageTooBig exception, with Ceph COW, cinder checks for free disk space even if no conversion is needed",https://bugs.launchpad.net/cinder/+bug/1683228,2018-10-02
+1744383,1744383,Fix Released,Create from image with cloning fails with not enough space,https://bugs.launchpad.net/cinder/+bug/1744383,2018-10-02
+1733967,1733967,Fix Released,unable to delete  migrated volume with SolidFire as the destination,https://bugs.launchpad.net/cinder/+bug/1733967,2018-10-02
+1694579,1694579,Fix Released,NetApp NFS driver fails to startup,https://bugs.launchpad.net/cinder/+bug/1694579,2018-10-02
+1560654,1560654,Fix Released,HPE LeftHand driver does not honor create from snapshot volume size,https://bugs.launchpad.net/cinder/+bug/1560654,2018-10-02
+1688243,1688243,Fix Released,"Lefthand - Volume created and added in cloned group is thinly provisioned, which differs from volume present in the source group as fully provisioned.",https://bugs.launchpad.net/cinder/+bug/1688243,2018-10-02
+1710072,1710072,Fix Released,HPE lefthand: Volume doesn't show expected parameters after Retype,https://bugs.launchpad.net/cinder/+bug/1710072,2018-10-02
+1710098,1710098,Fix Released,"HPE lefthand: Managed volume, does not pick up the extra specs/capabilities of the selected volume type",https://bugs.launchpad.net/cinder/+bug/1710098,2018-10-02
+1739318,1739318,Fix Released,RequestSpec online data migration context does not contain project_id,https://bugs.launchpad.net/nova/+bug/1739318,2018-10-02
+1644248,1644248,Fix Released,Nova incorrectly tracks live migration progress,https://bugs.launchpad.net/nova/+bug/1644248,2018-10-02
+1790915,1790915,Fix Released,OVN playbook attempts to set OVS hostname on ineligible host,https://bugs.launchpad.net/openstack-ansible/+bug/1790915,2018-10-02
+1793146,1793146,Fix Released,Document need for extension driver for Provider Support,https://bugs.launchpad.net/networking-cisco/+bug/1793146,2018-10-01
+1668514,1668514,Fix Released,key_repository is world readable: /etc/keystone/fernet-keys/,https://bugs.launchpad.net/kolla-ansible/+bug/1668514,2018-09-29
+1779205,1779205,Fix Released,[OSSA-2018-002] GET /v3/OS-FEDERATION/projects leaks project information (CVE-2018-14432),https://bugs.launchpad.net/ossa/+bug/1779205,2018-09-29
+1779205,1779205,Fix Released,[OSSA-2018-002] GET /v3/OS-FEDERATION/projects leaks project information (CVE-2018-14432),https://bugs.launchpad.net/keystone/+bug/1779205,2018-09-29
+1661258,1661258,Fix Released,Deleted ironic node has an inventory in nova_api database,https://bugs.launchpad.net/nova/+bug/1661258,2018-09-28
+1761836,1761836,Fix Released,undercloud install --with-heat is missing the undercloud info banner,https://bugs.launchpad.net/tripleo/+bug/1761836,2018-09-28
+1671142,1671142,Fix Released,Allow configuration of IP ranges used by docker,https://bugs.launchpad.net/tripleo/+bug/1671142,2018-09-28
+1761810,1761810,Fix Released,Templates directory should be renamed for better visibility,https://bugs.launchpad.net/tripleo/+bug/1761810,2018-09-28
+1742651,1742651,Fix Released,Fluentd: Problems with no containerized services logs,https://bugs.launchpad.net/tripleo/+bug/1742651,2018-09-28
+1724607,1724607,Fix Released,Mistral-api container is missing apache,https://bugs.launchpad.net/tripleo/+bug/1724607,2018-09-28
+1753406,1753406,Fix Released,local_mtu is not applied for containerized undercloud,https://bugs.launchpad.net/tripleo/+bug/1753406,2018-09-28
+1726234,1726234,Fix Released,"Containerized deployment : After overcloud stack update completion, the  haproxy  pacemaker bundle resource is not restarted",https://bugs.launchpad.net/tripleo/+bug/1726234,2018-09-28
+1697048,1697048,Fix Released,"heat_api and heat_api_cfn docker container has ""Restarting"" state on controller node",https://bugs.launchpad.net/tripleo/+bug/1697048,2018-09-28
+1789439,1789439,Fix Released,RFE: track overcloud deployment in ARA database and make nice report afterwards,https://bugs.launchpad.net/tripleo/+bug/1789439,2018-09-28
+1731251,1731251,Fix Released,Container image upload unusually slow,https://bugs.launchpad.net/tripleo/+bug/1731251,2018-09-28
+1724559,1724559,Fix Released,swift_rsync_container: failed to create pid file,https://bugs.launchpad.net/tripleo/+bug/1724559,2018-09-28
+1739323,1739323,Fix Released,KeyError in host_manager for _get_host_states,https://bugs.launchpad.net/nova/+bug/1739323,2018-09-28
+1742827,1742827,Fix Released,nova-scheduler reports dead compute nodes but nova-compute is enabled and up,https://bugs.launchpad.net/nova/+bug/1742827,2018-09-28
+1368128,1368128,Fix Released,glance rbd store get_size uses wrong pool,https://bugs.launchpad.net/glance/+bug/1368128,2018-09-28
+1737475,1737475,Fix Released,heat dashboard is missing in horizon,https://bugs.launchpad.net/kolla-ansible/+bug/1737475,2018-09-28
+1737475,1737475,Fix Released,heat dashboard is missing in horizon,https://bugs.launchpad.net/kolla/+bug/1737475,2018-09-28
+1713594,1713594,Fix Released,lbaas can not connect openvswitch db,https://bugs.launchpad.net/kolla-ansible/+bug/1713594,2018-09-28
+1711495,1711495,Fix Released,ironic conductor container  start failed,https://bugs.launchpad.net/kolla-ansible/+bug/1711495,2018-09-28
+1698790,1698790,Fix Released,missed items in cron.json cherry-pick,https://bugs.launchpad.net/kolla-ansible/+bug/1698790,2018-09-28
+1695142,1695142,Fix Released,"In Ansible 2.3, when statement should not contain delimiters",https://bugs.launchpad.net/kolla-ansible/+bug/1695142,2018-09-28
+1692495,1692495,Fix Released,nova cell upgrade wrong release notes,https://bugs.launchpad.net/kolla-ansible/+bug/1692495,2018-09-28
+1668185,1668185,Fix Released,serial shouldn't be used during upgrade and reconfigure,https://bugs.launchpad.net/kolla-ansible/+bug/1668185,2018-09-28
+1794859,1794859,Fix Released,"devstack-plugin-ceph-tempest job failing with ""ERROR cinder ImportError: Class ceph cannot be found""",https://bugs.launchpad.net/devstack/+bug/1794859,2018-09-28
+1794680,1794680,Fix Released,Rocky upgrade ceilometer fails tasks to initialize gnocchi database,https://bugs.launchpad.net/openstack-ansible/+bug/1794680,2018-09-28
+1793084,1793084,Fix Released,pyopenssl dependency not met,https://bugs.launchpad.net/rally/+bug/1793084,2018-09-27
+1791121,1791121,Fix Released,subnet_id can not be added as primary key due to foreign key constraint,https://bugs.launchpad.net/networking-cisco/+bug/1791121,2018-09-27
+1526752,1526752,Fix Released,[RFE] Policy Improvements,https://bugs.launchpad.net/ironic/+bug/1526752,2018-09-27
+1724305,1724305,Fix Released,nova live migration fails,https://bugs.launchpad.net/networking-vpp/+bug/1724305,2018-09-27
+1793353,1793353,Fix Released,broken upgrade path q->r requirement for oslo.db,https://bugs.launchpad.net/nova/+bug/1793353,2018-09-27
+1719933,1719933,Fix Released,"placement server needs to retry allocations, server-side",https://bugs.launchpad.net/nova/+bug/1719933,2018-09-27
+1778505,1778505,Fix Released,Undercloud heat installer cannot rely on stack_action other than CREATE,https://bugs.launchpad.net/tripleo/+bug/1778505,2018-09-27
+1793205,1793205,Fix Committed,Backport of LIO driver related  fixes to MOS7.0,https://bugs.launchpad.net/fuel/+bug/1793205,2018-09-27
+1762332,1762332,Fix Released,"bagpipe-bgp: IPVPN MPLS OVS driver, non-idempotent state removal",https://bugs.launchpad.net/networking-bagpipe/+bug/1762332,2018-09-27
+1769601,1769601,Fix Released,devstack: need to support non-legacy neutron,https://bugs.launchpad.net/networking-bagpipe/+bug/1769601,2018-09-27
+1769601,1769601,Fix Released,devstack: need to support non-legacy neutron,https://bugs.launchpad.net/bgpvpn/+bug/1769601,2018-09-27
+1793959,1793959,Fix Released,ironic provisionig fails - MissingAuthPlugin: An auth plugin is required to determine endpoint UR,https://bugs.launchpad.net/openstack-ansible/+bug/1793959,2018-09-27
+1750843,1750843,Fix Released,pysaml2 version in global requirements must be updated to 4.5.0,https://bugs.launchpad.net/openstack-requirements/+bug/1750843,2018-09-26
+1750843,1750843,Fix Released,pysaml2 version in global requirements must be updated to 4.5.0,https://bugs.launchpad.net/keystone/+bug/1750843,2018-09-26
+1775308,1775308,Fix Released,Listing placement usages (total or per resource provider) in a new process can result in a 500,https://bugs.launchpad.net/nova/+bug/1775308,2018-09-26
+1739325,1739325,Fix Released,Server operations fail to complete with versioned notifications if payload contains unset non-nullable fields,https://bugs.launchpad.net/nova/+bug/1739325,2018-09-26
+1777422,1777422,Fix Released,Resource tracker periodic task taking a very long time,https://bugs.launchpad.net/nova/+bug/1777422,2018-09-26
+1784705,1784705,Fix Released,ResourceTracker.stats can leak across multiple ironic nodes,https://bugs.launchpad.net/nova/+bug/1784705,2018-09-26
+1745673,1745673,Fix Released,missing dependency on networking_bgpvpn,https://bugs.launchpad.net/networking-bagpipe/+bug/1745673,2018-09-26
+1679742,1679742,Fix Released,flowspec range to OVS range issue,https://bugs.launchpad.net/networking-bagpipe/+bug/1679742,2018-09-26
+1779317,1779317,Fix Released,exabgp 4.0.6: Wrong default route decoding,https://bugs.launchpad.net/networking-bagpipe/+bug/1779317,2018-09-26
+1778971,1778971,Fix Released,stable/pike libvirt / python-libvirt incompatability,https://bugs.launchpad.net/openstack-requirements/+bug/1778971,2018-09-26
+1778971,1778971,Fix Released,stable/pike libvirt / python-libvirt incompatability,https://bugs.launchpad.net/manila/+bug/1778971,2018-09-26
+1794034,1794034,Fix Released,Validation tasks have increase their duration,https://bugs.launchpad.net/tripleo/+bug/1794034,2018-09-25
+1719259,1719259,Fix Released,lbaas v2.0 api-ref inconsistencies,https://bugs.launchpad.net/neutron/+bug/1719259,2018-09-25
+1793285,1793285,Fix Released,"Networking API v2.0 in neutron-lib: incorrect ''port_range_max"" description  for ICMP protocol",https://bugs.launchpad.net/neutron/+bug/1793285,2018-09-25

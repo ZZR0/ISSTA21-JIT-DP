@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1629816,1629816,Fix Released,"Misleading ""DVR: Duplicate DVR router interface detected for subnet""",https://bugs.launchpad.net/neutron/+bug/1629816,2017-02-01
+1639315,1639315,Fix Released,Gratuitous ARP is not sent when floating IP is added to HA router,https://bugs.launchpad.net/neutron/+bug/1639315,2017-02-01
+1578842,1578842,Fix Released,gratuitous arping causes exception filling up logs with errors on Ubuntu14.04,https://bugs.launchpad.net/neutron/+bug/1578842,2017-02-01
+1645509,1645509,Fix Released,dnsmasq host file entries can return from the grave,https://bugs.launchpad.net/neutron/+bug/1645509,2017-02-01
+1645616,1645616,Fix Released,dnsmasq doesn't like providing DHCP for subnets with prefixes shorter than 64,https://bugs.launchpad.net/neutron/+bug/1645616,2017-02-01
+1649665,1649665,Fix Released,Erroneous limit parameter not included in error message for neutron port-list --limit,https://bugs.launchpad.net/neutron/+bug/1649665,2017-02-01
+1520775,1520775,Fix Released,Remove the gateway of external net won't affect router,https://bugs.launchpad.net/neutron/+bug/1520775,2017-02-01
+1631513,1631513,Fix Released,DVR: Fix race conditions when trying to add default gateway for fip gateway port.,https://bugs.launchpad.net/neutron/+bug/1631513,2017-02-01
+1653880,1653880,Fix Released,sr-iov device scanning takes significant time,https://bugs.launchpad.net/neutron/+bug/1653880,2017-02-01
+1640008,1640008,Fix Released,Getting routing table by parsing 'ip route' command fails on xenial,https://bugs.launchpad.net/neutron/+bug/1640008,2017-02-01
+1642918,1642918,Fix Released,floating-ip nova notification is broken,https://bugs.launchpad.net/neutron/+bug/1642918,2017-02-01
+1638273,1638273,Fix Released,find_child_pids crashes under non-english locals,https://bugs.launchpad.net/neutron/+bug/1638273,2017-02-01
+1626277,1626277,Fix Released,DB migration tests are timing out,https://bugs.launchpad.net/neutron/+bug/1626277,2017-02-01
+1631004,1631004,Fix Released,neutron-netns-cleanup doesn't work with ip_gre kernel module,https://bugs.launchpad.net/neutron/+bug/1631004,2017-02-01
+1641879,1641879,Fix Released,No routers created after l3-agent start - error during L3NATAgentWithStateReport.periodic_sync_routers_task,https://bugs.launchpad.net/neutron/+bug/1641879,2017-02-01
+1609665,1609665,Fix Released,Updating a router to HA without enough agents results in partial update,https://bugs.launchpad.net/neutron/+bug/1609665,2017-02-01
+1649092,1649092,Fix Released,Cleaning snat namespace didn't unplug external device,https://bugs.launchpad.net/neutron/+bug/1649092,2017-02-01
+1623849,1623849,Fix Released,"openvswitch native agent, ARP responder response has wrong Eth headers",https://bugs.launchpad.net/neutron/+bug/1623849,2017-02-01
+1637993,1637993,Fix Released,Getting link attributes via IPDevice fails for interfaces with long names on xenial,https://bugs.launchpad.net/neutron/+bug/1637993,2017-02-01
+1647027,1647027,Fix Released,Neutron migration unit test failure with alembic 0.8.9,https://bugs.launchpad.net/neutron/+bug/1647027,2017-02-01
+1603400,1603400,Fix Released,neutron-ovs-agent  in compute node with XenServer doesn't support conntrack,https://bugs.launchpad.net/neutron/+bug/1603400,2017-02-01
+1630920,1630920,Fix Released,native/idl ovsdb driver loses some ovsdb transactions,https://bugs.launchpad.net/bgpvpn/+bug/1630920,2017-02-01
+1630920,1630920,Fix Released,native/idl ovsdb driver loses some ovsdb transactions,https://bugs.launchpad.net/neutron/+bug/1630920,2017-02-01
+1648879,1648879,Fix Released,l3 rpc handler not checking for UNBOUND with host_id,https://bugs.launchpad.net/neutron/+bug/1648879,2017-02-01
+1633589,1633589,Fix Released,Disabling port security does not work,https://bugs.launchpad.net/networking-hyperv/+bug/1633589,2017-02-01
+1634082,1634082,Fix Released,Issue with deleting security rules,https://bugs.launchpad.net/networking-hyperv/+bug/1634082,2017-02-01
+1553722,1553722,Fix Released,remove run_tests.sh,https://bugs.launchpad.net/tacker/+bug/1553722,2017-02-01
+1615884,1615884,Fix Released,Some obvious mistakes need to be fixed,https://bugs.launchpad.net/tacker/+bug/1615884,2017-02-01
+1627975,1627975,Fix Released,Alarm Monitoring and Scaling cannot work because of missing changes,https://bugs.launchpad.net/tacker/+bug/1627975,2017-02-01
+1629453,1629453,Fix Released,Anomalies observed in VNF event log as part of alarm monitoring plus scaling,https://bugs.launchpad.net/tacker/+bug/1629453,2017-02-01
+1517664,1517664,Fix Released,lacks doc about deploying a OpenWRT as VNF,https://bugs.launchpad.net/tacker/+bug/1517664,2017-02-01
+1629177,1629177,Fix Released,The vnf events details message after successful creation of vnf,https://bugs.launchpad.net/tacker/+bug/1629177,2017-02-01
+1633974,1633974,Fix Released,tacker conf generation tool missing with oslo configurations,https://bugs.launchpad.net/tacker/+bug/1633974,2017-02-01
+1634000,1634000,Fix Released,wrong os-config group is used for vim_drivers,https://bugs.launchpad.net/tacker/+bug/1634000,2017-02-01
+1633997,1633997,Fix Released,remove deprecated default_vim cfg item,https://bugs.launchpad.net/tacker/+bug/1633997,2017-02-01
+1592289,1592289,Fix Released,CLI: remove the service id from vnfd-create command  output,https://bugs.launchpad.net/tacker/+bug/1592289,2017-02-01
+1634011,1634011,Fix Released,Remove deprecated infra_driver nova,https://bugs.launchpad.net/tacker/+bug/1634011,2017-02-01
+1620163,1620163,Fix Released,devstack installation still mentions neutron,https://bugs.launchpad.net/tacker/+bug/1620163,2017-02-01
+1633327,1633327,Fix Released,"Allow devstack to install tacker, keystone and horizon only",https://bugs.launchpad.net/tacker/+bug/1633327,2017-02-01
+1637895,1637895,Fix Released,Resource type is wrong in vnfd scale template,https://bugs.launchpad.net/tacker/+bug/1637895,2017-02-01
+1639163,1639163,Fix Released,make scale sample tosca useful in tacker installed via devstack,https://bugs.launchpad.net/tacker/+bug/1639163,2017-02-01
+1604228,1604228,Fix Released,Modify some commands in manual installation file,https://bugs.launchpad.net/tacker/+bug/1604228,2017-02-01
+1610950,1610950,Fix Released,Update the manual installation according to the present scenerio,https://bugs.launchpad.net/tacker/+bug/1610950,2017-02-01
+1641519,1641519,Fix Released,nfp-show does not return vnffg_id in the nfp dict,https://bugs.launchpad.net/tacker/+bug/1641519,2017-02-01
+1642536,1642536,Fix Released,IndexError happened when creating vnffg,https://bugs.launchpad.net/tacker/+bug/1642536,2017-02-01
+1623067,1623067,Fix Released,Set VNFD state displayed in events tab to be 'Active' instead of 'Not Applicable',https://bugs.launchpad.net/tacker/+bug/1623067,2017-02-01
+1644769,1644769,Fix Released,Document of template parameterization is to be updated,https://bugs.launchpad.net/tacker/+bug/1644769,2017-02-01
+1648114,1648114,Fix Released,Typo in the devstack/lib/tacker settings,https://bugs.launchpad.net/tacker/+bug/1648114,2017-02-01
+1647278,1647278,Fix Released,tacker-db-manage purge_deleted command error,https://bugs.launchpad.net/tacker/+bug/1647278,2017-02-01
+1646807,1646807,Fix Released,dsvm failure: devstack plugin is not enabled to reuse multiple times,https://bugs.launchpad.net/tacker/+bug/1646807,2017-02-01
+1651029,1651029,Fix Released,coverage report files with message 'No data to report.',https://bugs.launchpad.net/tacker/+bug/1651029,2017-02-01
+1629028,1629028,Fix Released,VNF resource list output after scaling shows incorrect data,https://bugs.launchpad.net/tacker/+bug/1629028,2017-02-01
+1632214,1632214,Fix Released,No more Legacy templates support,https://bugs.launchpad.net/tacker/+bug/1632214,2017-02-01
+1648003,1648003,Fix Released,parameter value wrongly mapped in vnfd,https://bugs.launchpad.net/tacker/+bug/1648003,2017-02-01
+1634013,1634013,Fix Released,Remove deprecated infra_driver heat,https://bugs.launchpad.net/tacker/+bug/1634013,2017-02-01
+1652751,1652751,Fix Released,failed to retrieve vnfd on tacker horizon,https://bugs.launchpad.net/tacker/+bug/1652751,2017-02-01
+1626092,1626092,Fix Committed,Syslog exceed NOFILE limit,https://bugs.launchpad.net/fuel/+bug/1626092,2017-02-01
+1632099,1632099,Fix Released,"Deleting an HA router kills keepalived-state-change with signal 9, leaving children behind",https://bugs.launchpad.net/neutron/+bug/1632099,2017-02-01
+1660620,1660620,Fix Committed,[Plugin-CI] StackLight jobs fail because xenial repositories are used,https://bugs.launchpad.net/fuel/+bug/1660620,2017-02-01
+1639686,1639686,Fix Released,Wrong placement of policy.json,https://bugs.launchpad.net/kolla/+bug/1639686,2017-02-01
+1639686,1639686,Fix Released,Wrong placement of policy.json,https://bugs.launchpad.net/kolla-ansible/+bug/1639686,2017-02-01
+1660680,1660680,Fix Released,Delay of up to 30s before floating IPs are reachable,https://bugs.launchpad.net/networking-calico/+bug/1660680,2017-02-01
+1656131,1656131,Fix Released,Dummy strategy does not use input parameters,https://bugs.launchpad.net/watcher/+bug/1656131,2017-02-01
+1642865,1642865,Fix Released,Exception when we receive an HTTP 4xx response,https://bugs.launchpad.net/watcher-dashboard/+bug/1642865,2017-02-01
+1625999,1625999,Fix Released,py27 commands failed,https://bugs.launchpad.net/watcher-dashboard/+bug/1625999,2017-02-01
+1573582,1573582,Fix Released,API shoud show Goal name instead of Goal UUID,https://bugs.launchpad.net/watcher-dashboard/+bug/1573582,2017-02-01
+1573582,1573582,Fix Released,API shoud show Goal name instead of Goal UUID,https://bugs.launchpad.net/watcher/+bug/1573582,2017-02-01
+1573582,1573582,Fix Released,API shoud show Goal name instead of Goal UUID,https://bugs.launchpad.net/python-watcherclient/+bug/1573582,2017-02-01
+1623535,1623535,Fix Released,"""Go to Action Plan' fails",https://bugs.launchpad.net/watcher-dashboard/+bug/1623535,2017-02-01
+1623533,1623533,Fix Released,"""Go To Audit Template"" button fails",https://bugs.launchpad.net/watcher-dashboard/+bug/1623533,2017-02-01
+1623528,1623528,Fix Released,Can not delete several selected audit,https://bugs.launchpad.net/watcher-dashboard/+bug/1623528,2017-02-01
+1623527,1623527,Fix Released,can not see anymore audit information on dashboard,https://bugs.launchpad.net/watcher-dashboard/+bug/1623527,2017-02-01
+1602613,1602613,Fix Released,I can no more create an audit ONE_SHOT from dashboard,https://bugs.launchpad.net/watcher-dashboard/+bug/1602613,2017-02-01
+1649935,1649935,Fix Released,ceilometer removed from openstack-dashboard,https://bugs.launchpad.net/watcher-dashboard/+bug/1649935,2017-02-01
+1533245,1533245,Fix Released,State STARTING for Action Plan should be changed to TRIGGERED,https://bugs.launchpad.net/python-watcherclient/+bug/1533245,2017-02-01

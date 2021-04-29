@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1228953,1228953,Fix Released,exceptions.Duplicate is largely unused,https://bugs.launchpad.net/nova/+bug/1228953,2013-10-17
+1228426,1228426,Fix Released,info_cache in Instance object can be None,https://bugs.launchpad.net/nova/+bug/1228426,2013-10-17
+1228402,1228402,Fix Released,Instance object pci_devices and security_groups can't be None,https://bugs.launchpad.net/nova/+bug/1228402,2013-10-17
+1227251,1227251,Fix Released,Instance object makes assumptions about DB backend,https://bugs.launchpad.net/nova/+bug/1227251,2013-10-17
+1227080,1227080,Fix Released,deleted_at value in notification messages is wrong,https://bugs.launchpad.net/nova/+bug/1227080,2013-10-17
+1226756,1226756,Fix Released,xenapi sync_power_states peridodic task can traceback when instance not found,https://bugs.launchpad.net/nova/+bug/1226756,2013-10-17
+1226450,1226450,Fix Released,no image cache tests for VMware Hyper,https://bugs.launchpad.net/nova/+bug/1226450,2013-10-17
+1226162,1226162,Fix Released,rename q_exc to n_exc,https://bugs.launchpad.net/nova/+bug/1226162,2013-10-17
+1225579,1225579,Fix Released,service id is not right in nova-api,https://bugs.launchpad.net/nova/+bug/1225579,2013-10-17
+1225226,1225226,Fix Released,some API exception responses are not translated,https://bugs.launchpad.net/nova/+bug/1225226,2013-10-17
+1223890,1223890,Fix Released,device_type not respected,https://bugs.launchpad.net/nova/+bug/1223890,2013-10-17
+1220344,1220344,Fix Released,VMware driver should not have a conditional on suds,https://bugs.launchpad.net/nova/+bug/1220344,2013-10-17
+1214829,1214829,Fix Released,remove cached console auth tokens after instance migrate to other host,https://bugs.launchpad.net/nova/+bug/1214829,2013-10-17
+1197893,1197893,Fix Released,xenapi: need to pep8 check plugins,https://bugs.launchpad.net/nova/+bug/1197893,2013-10-17
+1228183,1228183,Fix Released,nova-network should bring interfaces up before enslaving to a bridge,https://bugs.launchpad.net/nova/+bug/1228183,2013-10-17
+1228160,1228160,Fix Released,Periodic task sync_power_state stops on first error,https://bugs.launchpad.net/nova/+bug/1228160,2013-10-17
+1227868,1227868,Fix Released,Testing error if sqlite3 not installed,https://bugs.launchpad.net/nova/+bug/1227868,2013-10-17
+1227019,1227019,Fix Released,"Error with run_tests.sh: Invalid version of ""six"" installed",https://bugs.launchpad.net/nova/+bug/1227019,2013-10-17
+1226348,1226348,Fix Released,pci passthrough scheduler hasattr dones not work for dict,https://bugs.launchpad.net/nova/+bug/1226348,2013-10-17
+1226238,1226238,Fix Released,VMware Driver reports SwitchNotFound when network already exists,https://bugs.launchpad.net/nova/+bug/1226238,2013-10-17
+1226076,1226076,Fix Released,HTTP 500 on delete_server_metadata_item (DB deadlock),https://bugs.launchpad.net/nova/+bug/1226076,2013-10-17
+1224479,1224479,Fix Released,[vmware] InvalidURL nonnumeric port in read_write_ util with ipv6 host,https://bugs.launchpad.net/nova/+bug/1224479,2013-10-17
+1224294,1224294,Fix Released,v3 consoles's index return extra 'console' key in response,https://bugs.launchpad.net/nova/+bug/1224294,2013-10-17
+1224293,1224293,Fix Released,exceptions not propagated up from all v3 API extension points,https://bugs.launchpad.net/nova/+bug/1224293,2013-10-17
+1224251,1224251,Fix Released,disassociate_address on unassociated address does not return proper EC2 response,https://bugs.launchpad.net/nova/+bug/1224251,2013-10-17
+1224226,1224226,Fix Released,Modules with wrong file mode bits,https://bugs.launchpad.net/nova/+bug/1224226,2013-10-17
+1223969,1223969,Fix Released,Heal instance info cache causes high extra DB queries,https://bugs.launchpad.net/nova/+bug/1223969,2013-10-17
+1223818,1223818,Fix Released,xenapi: freebsd and gentoo builds fail when using old agents,https://bugs.launchpad.net/nova/+bug/1223818,2013-10-17
+1223803,1223803,Fix Released,V3 API server metada xml serialize/deserialize is broken,https://bugs.launchpad.net/nova/+bug/1223803,2013-10-17
+1223205,1223205,Fix Released,get console failed because can't load attribute 'pool',https://bugs.launchpad.net/nova/+bug/1223205,2013-10-17
+1223074,1223074,Fix Released,vsphere: Instance with volume attachment stuck with DELETING status,https://bugs.launchpad.net/nova/+bug/1223074,2013-10-17
+1222349,1222349,Fix Released,VMware: datastore_regex is not honoured,https://bugs.launchpad.net/nova/+bug/1222349,2013-10-17
+1221651,1221651,Fix Released,Return wrong server's extended of security group's attributes for v3,https://bugs.launchpad.net/nova/+bug/1221651,2013-10-17
+1221541,1221541,Fix Released,create console failed by rpc call,https://bugs.launchpad.net/nova/+bug/1221541,2013-10-17
+1221293,1221293,Fix Released,xenapi: need to reduce impact of errors during SR.Scan,https://bugs.launchpad.net/nova/+bug/1221293,2013-10-17
+1221200,1221200,Fix Released,Live-migrate queries original image which could be gone,https://bugs.launchpad.net/nova/+bug/1221200,2013-10-17
+1220318,1220318,Fix Released,An instance created from an ami (converted to volume with block_device_mapping_v2) won't boot,https://bugs.launchpad.net/nova/+bug/1220318,2013-10-17
+1220220,1220220,Fix Released,Policy check for forced_host should be before the instance is created,https://bugs.launchpad.net/nova/+bug/1220220,2013-10-17
+1231206,1231206,Fix Released,rootwrap needs sync with oslo,https://bugs.launchpad.net/nova/+bug/1231206,2013-10-17
+1230125,1230125,Fix Released,Refactor test case related to instance oject,https://bugs.launchpad.net/nova/+bug/1230125,2013-10-17
+1230109,1230109,Fix Released,Assertion bug in test_cells_weights.py,https://bugs.launchpad.net/nova/+bug/1230109,2013-10-17
+1229753,1229753,Fix Released,Several flake8 errors in new xenserver code,https://bugs.launchpad.net/nova/+bug/1229753,2013-10-17
+1229410,1229410,Fix Released,Can't get translated API response from flavors API,https://bugs.launchpad.net/nova/+bug/1229410,2013-10-17
+1228872,1228872,Fix Released,Resource tracking updates PCI stats when they are not supported by the underlying driver,https://bugs.launchpad.net/nova/+bug/1228872,2013-10-17
+1228763,1228763,Fix Released,libvirt: there is no unit test for _hard_reboot,https://bugs.launchpad.net/nova/+bug/1228763,2013-10-17
+1228749,1228749,Fix Released,libvirt: there is no unit test to  test plug_vifs,https://bugs.launchpad.net/nova/+bug/1228749,2013-10-17
+1228475,1228475,Fix Released,Remove _get_compute_info from filter_scheduler.py,https://bugs.launchpad.net/nova/+bug/1228475,2013-10-17
+1227780,1227780,Fix Released,certificates misspelled in help message for CONF options,https://bugs.launchpad.net/nova/+bug/1227780,2013-10-17
+1227655,1227655,Fix Released,nova.tests.objects.test_quotas fails H233 hacking check,https://bugs.launchpad.net/nova/+bug/1227655,2013-10-17
+1227473,1227473,Fix Released,Many testcases import the database and don't use it,https://bugs.launchpad.net/nova/+bug/1227473,2013-10-17
+1226226,1226226,Fix Released,pre_live_migration should not require a static IP Address,https://bugs.launchpad.net/nova/+bug/1226226,2013-10-17
+1224960,1224960,Fix Released,wrong port-binding info after live-migration,https://bugs.launchpad.net/nova/+bug/1224960,2013-10-17
+1224918,1224918,Fix Released,Don't generate notifications when reaping running_deleted instances,https://bugs.launchpad.net/nova/+bug/1224918,2013-10-17
+1224696,1224696,Fix Released,xenapi out of memory errors,https://bugs.launchpad.net/nova/+bug/1224696,2013-10-17
+1224465,1224465,Fix Released,Target cell filter regression,https://bugs.launchpad.net/nova/+bug/1224465,2013-10-17
+1220087,1220087,Fix Released,nova api should raise badrequest when create flavor with  incorrect format of data in request body,https://bugs.launchpad.net/nova/+bug/1220087,2013-10-17
+1220045,1220045,Fix Released,change_since filter for server listing in V3 API does not work,https://bugs.launchpad.net/nova/+bug/1220045,2013-10-17
+1219445,1219445,Fix Released,attempting to delete a non existant flavor extra spec returns 204,https://bugs.launchpad.net/nova/+bug/1219445,2013-10-17
+1217429,1217429,Fix Released,Wrong instance_type_id field,https://bugs.launchpad.net/nova/+bug/1217429,2013-10-17
+1217429,1217429,Fix Released,Wrong instance_type_id field,https://bugs.launchpad.net/ceilometer/+bug/1217429,2013-10-17
+1216961,1216961,Fix Released,VMware: exceptions for RetrievePropertiesEx incorrectly handled,https://bugs.launchpad.net/nova/+bug/1216961,2013-10-17
+1215295,1215295,Fix Released,get_all_flavor cannot return all flavors if the deleted flavor has same name,https://bugs.launchpad.net/nova/+bug/1215295,2013-10-17
+1213960,1213960,Fix Released,xenapi: vcpu weight not applying because cap is missing,https://bugs.launchpad.net/nova/+bug/1213960,2013-10-17
+1207829,1207829,Fix Released,xenapi: finish_migrate should not inject the hostname,https://bugs.launchpad.net/nova/+bug/1207829,2013-10-17
+1206884,1206884,Fix Released,Enable v3 test_create_multiple_servers integrated test,https://bugs.launchpad.net/nova/+bug/1206884,2013-10-17
+1204204,1204204,Fix Released,./tools/config/generate_sample.sh  requires a -b parameter,https://bugs.launchpad.net/nova/+bug/1204204,2013-10-17
+1202177,1202177,Fix Released,Missing exception data for exceptions raised in floating ip assignment when ebtables is missing,https://bugs.launchpad.net/nova/+bug/1202177,2013-10-17
+1201795,1201795,Fix Released,Live migration on XenAPI is not live when using pools,https://bugs.launchpad.net/nova/+bug/1201795,2013-10-17
+1200233,1200233,Fix Released,Nova should pass in page_size to python-glanceclient,https://bugs.launchpad.net/nova/+bug/1200233,2013-10-17
+1199946,1199946,Fix Released,Hypervisor uptime is not implemented in VCDriver,https://bugs.launchpad.net/nova/+bug/1199946,2013-10-17
+1192016,1192016,Fix Released,Nova-compute will crash if it cannot connect to VC on startup,https://bugs.launchpad.net/nova/+bug/1192016,2013-10-17
+1189554,1189554,Fix Released,Rebuilding Stopped Instance Sets Terminated_at,https://bugs.launchpad.net/nova/+bug/1189554,2013-10-17
+1152268,1152268,Fix Released,xenapi: issues with resize/boot when root_gb=0 in flavor,https://bugs.launchpad.net/nova/+bug/1152268,2013-10-17
+1073303,1073303,Fix Released,xenapi finish_migration does not cleanup on failures,https://bugs.launchpad.net/nova/+bug/1073303,2013-10-17
+1039662,1039662,Fix Released,Snapshot queries original image which could be gone,https://bugs.launchpad.net/nova/+bug/1039662,2013-10-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1178587,1178587,Fix Released,Reddwarf database fails to be created since MYSQL_HOST is not set in redstack,https://bugs.launchpad.net/trove-integration/+bug/1178587,2014-04-21
+1257531,1257531,Fix Released,Fix incorrect spellings identified by 'misspellings',https://bugs.launchpad.net/trove-integration/+bug/1257531,2014-04-21
+1257531,1257531,Fix Released,Fix incorrect spellings identified by 'misspellings',https://bugs.launchpad.net/trove/+bug/1257531,2014-04-21
+1245676,1245676,Fix Released,pip install pbr==0.5.22 fails unless run twice on ubuntu 12.04,https://bugs.launchpad.net/heat/+bug/1245676,2014-04-21
+1226315,1226315,Fix Released,Update redstack scripts to install trove using devstack.,https://bugs.launchpad.net/trove-integration/+bug/1226315,2014-04-21
+1175408,1175408,Fix Released,Add a way to pin diskimagebuilder commit to redstack,https://bugs.launchpad.net/trove-integration/+bug/1175408,2014-04-21
+1171595,1171595,Fix Released,Add swift dependencies,https://bugs.launchpad.net/trove-integration/+bug/1171595,2014-04-21
+1155432,1155432,Fix Released,Change to simplify database_url in devstack breaks local.sh,https://bugs.launchpad.net/trove-integration/+bug/1155432,2014-04-21
+1154170,1154170,Fix Released,Trimming down redstack to install devstack using the local.sh way,https://bugs.launchpad.net/trove-integration/+bug/1154170,2014-04-21
+1131935,1131935,Fix Released,Deprecation of DATABASE_TYPE Flag in devstack breaks local.sh,https://bugs.launchpad.net/trove-integration/+bug/1131935,2014-04-21
+1108372,1108372,Fix Released,redstack and reddwarf need to work with internal IPs other than 10.0.0.1,https://bugs.launchpad.net/trove-integration/+bug/1108372,2014-04-21
+1105503,1105503,Fix Released,Communicating with keystone tries to unsuccessfully use certs from previous run when running redstack after unstack.,https://bugs.launchpad.net/trove-integration/+bug/1105503,2014-04-21
+1103778,1103778,Fix Released,Parametrize service_host value in the test config to be based on actual value of SERVICE_HOST from devstack/vmgate,https://bugs.launchpad.net/trove-integration/+bug/1103778,2014-04-21
+1103718,1103718,Fix Released,"Parametrize paths for keystone, glance, nova, reddwarf in the test config",https://bugs.launchpad.net/trove-integration/+bug/1103718,2014-04-21
+1101297,1101297,Fix Released,Create redstack task for post devstack run,https://bugs.launchpad.net/trove-integration/+bug/1101297,2014-04-21
+1095879,1095879,Fix Released,Fix redstack to work with out-of-band devstack install,https://bugs.launchpad.net/trove-integration/+bug/1095879,2014-04-21
+1080918,1080918,Fix Released,db_sync through rd_manage should no longer take the repo_path as an argument,https://bugs.launchpad.net/trove-integration/+bug/1080918,2014-04-21
+1190029,1190029,Fix Released,gerritbot notifications should go to openstack-trove instead of reddwarf,https://bugs.launchpad.net/trove-integration/+bug/1190029,2014-04-21
+1189641,1189641,Fix Released,PyPi dependencies should be installed alongside apt dependencies,https://bugs.launchpad.net/trove-integration/+bug/1189641,2014-04-21
+1182270,1182270,Fix Released,Re-enable the rpc-delete-queue test,https://bugs.launchpad.net/trove-integration/+bug/1182270,2014-04-21
+1172127,1172127,Fix Released,Building the image with percona doesn't set the service_type to percona by default,https://bugs.launchpad.net/trove-integration/+bug/1172127,2014-04-21
+1288245,1288245,Fix Released,mox is needed in requirements,https://bugs.launchpad.net/horizon/+bug/1288245,2014-04-21
+1291483,1291483,Fix Released,Glance v1 GET and HEAD APIs incorrectly documented,https://bugs.launchpad.net/openstack-api-site/+bug/1291483,2014-04-20
+1286075,1286075,Fix Released,wrong_uri_description_for_cinder_backup,https://bugs.launchpad.net/openstack-api-site/+bug/1286075,2014-04-20
+1268863,1268863,Fix Released,wrong api description for identity v3 projects/group/role manipulation,https://bugs.launchpad.net/openstack-api-site/+bug/1268863,2014-04-19
+1240349,1240349,Fix Released,publish_errors cfg option is broken,https://bugs.launchpad.net/cinder/+bug/1240349,2014-04-18
+1240349,1240349,Fix Released,publish_errors cfg option is broken,https://bugs.launchpad.net/keystone/+bug/1240349,2014-04-18
+1240349,1240349,Fix Released,publish_errors cfg option is broken,https://bugs.launchpad.net/neutron/+bug/1240349,2014-04-18
+1240349,1240349,Fix Released,publish_errors cfg option is broken,https://bugs.launchpad.net/nova/+bug/1240349,2014-04-18
+1308036,1308036,Fix Committed,Fuel UI allows to configure only 10 NICs,https://bugs.launchpad.net/fuel/+bug/1308036,2014-04-18
+1301782,1301782,Fix Released,network API ports test fail if an unused port is present,https://bugs.launchpad.net/tempest/+bug/1301782,2014-04-18
+1272969,1272969,Fix Released,dhcp-all-interfaces interactions breaks bridged configurations,https://bugs.launchpad.net/tripleo/+bug/1272969,2014-04-18
+1286928,1286928,Fix Released,fuel-jenkins misses graphviz,https://bugs.launchpad.net/fuel/+bug/1286928,2014-04-18
+1307092,1307092,Fix Released,[docs] How to contribute page at Mirantis site contains outdated info,https://bugs.launchpad.net/fuel/+bug/1307092,2014-04-18
+1307496,1307496,Fix Released,"Rename Havana to IceHouse on WebUI ""Releases"" page",https://bugs.launchpad.net/fuel/+bug/1307496,2014-04-18
+1298986,1298986,Fix Released,add conf and log directories to astute RPM,https://bugs.launchpad.net/fuel/+bug/1298986,2014-04-18
+1307968,1307968,Fix Released,Verification failed. Network amount for 'fixed' is more than 1 while using FlatDHCP manager,https://bugs.launchpad.net/fuel/+bug/1307968,2014-04-18
+1302554,1302554,Fix Released,[System tests] Need to increase delay in tests on ceph health check,https://bugs.launchpad.net/fuel/+bug/1302554,2014-04-18
+1307411,1307411,Fix Released,API failes to apply untagged fixed network,https://bugs.launchpad.net/fuel/+bug/1307411,2014-04-18
+1305612,1305612,Fix Released,Buggy vlan information on Configure Interfaces page,https://bugs.launchpad.net/fuel/+bug/1305612,2014-04-18
+1261774,1261774,Fix Released,Remove AUTHORS file from repos,https://bugs.launchpad.net/python-saharaclient/+bug/1261774,2014-04-18
+1261774,1261774,Fix Released,Remove AUTHORS file from repos,https://bugs.launchpad.net/sahara/+bug/1261774,2014-04-18
+1305170,1305170,Fix Released,cinder import error,https://bugs.launchpad.net/fuel/+bug/1305170,2014-04-18
+1304263,1304263,Fix Released,IceHouse support - puppet keystone API v2.0 usage issue,https://bugs.launchpad.net/fuel/+bug/1304263,2014-04-18
+1302389,1302389,Fix Released,IceHouse support - utf8 collation for *.migrate_version,https://bugs.launchpad.net/fuel/+bug/1302389,2014-04-18
+1304247,1304247,Fix Released,IceHouse support - horizon compress error,https://bugs.launchpad.net/fuel/+bug/1304247,2014-04-18
+1281485,1281485,Fix Committed,Rsyslog upstart script does not include /etc/default/rsyslog on start,https://bugs.launchpad.net/fuel/+bug/1281485,2014-04-18
+1301362,1301362,Fix Released,Sanity and Platform tests resources sharing,https://bugs.launchpad.net/fuel/+bug/1301362,2014-04-18
+1308809,1308809,Fix Committed,Remove Prefix from Default Datastore Version Names,https://bugs.launchpad.net/trove-integration/+bug/1308809,2014-04-18
+1305764,1305764,Fix Released,[database] connection is not present in glance-api.conf - icehouse,https://bugs.launchpad.net/openstack-manuals/+bug/1305764,2014-04-18
+1297925,1297925,Fix Released,Disk partitioning is broken if swap >= 1024mb,https://bugs.launchpad.net/ironic/+bug/1297925,2014-04-18
+1290568,1290568,Fix Released,Conductor support for networking on Icehouse,https://bugs.launchpad.net/nova/+bug/1290568,2014-04-18
+1023131,1023131,Fix Released,stop running exercise.sh in devstack-gate,https://bugs.launchpad.net/openstack-ci/+bug/1023131,2014-04-17
+1023131,1023131,Fix Released,stop running exercise.sh in devstack-gate,https://bugs.launchpad.net/grenade/+bug/1023131,2014-04-17
+1023131,1023131,Fix Released,stop running exercise.sh in devstack-gate,https://bugs.launchpad.net/tempest/+bug/1023131,2014-04-17
+1304341,1304341,Fix Released,test_object_formpost has periodic unauthorized results,https://bugs.launchpad.net/tempest/+bug/1304341,2014-04-17
+1301552,1301552,Fix Released,Neutron VPNaaS support and vendor .ini,https://bugs.launchpad.net/devstack/+bug/1301552,2014-04-17
+1172440,1172440,Fix Released,bug day stats should be in openstack-infra,https://bugs.launchpad.net/openstack-ci/+bug/1172440,2014-04-17
+1287219,1287219,Fix Released,scope of domain admin too broad in v3 policy sample,https://bugs.launchpad.net/keystone/+bug/1287219,2014-04-17
+1273598,1273598,Fix Released,Align run_tests.sh options with other projects,https://bugs.launchpad.net/heat/+bug/1273598,2014-04-17
+1299287,1299287,Fix Released,fuel integration test fails if LOGS_DIR is not set,https://bugs.launchpad.net/fuel/+bug/1299287,2014-04-17
+1299176,1299176,Fix Released,Rackspace network periodically blips and won't let us download get-pip from github,https://bugs.launchpad.net/openstack-ci/+bug/1299176,2014-04-17
+1300324,1300324,Fix Released,stop using notCompute,https://bugs.launchpad.net/tripleo/+bug/1300324,2014-04-17
+1092424,1092424,Fix Released,Ubuntu 12.04 Cinder install :Module iscsi_trgt not found.,https://bugs.launchpad.net/openstack-manuals/+bug/1092424,2014-04-17
+1300288,1300288,Fix Released,Nova rescheduling failure,https://bugs.launchpad.net/ironic/+bug/1300288,2014-04-17
+1297019,1297019,Fix Released,agent quits on a single error during lookup,https://bugs.launchpad.net/ironic/+bug/1297019,2014-04-17
+1291191,1291191,Fix Released,Python3: xrange is not available,https://bugs.launchpad.net/ironic/+bug/1291191,2014-04-17
+1291191,1291191,Fix Released,Python3: xrange is not available,https://bugs.launchpad.net/sahara/+bug/1291191,2014-04-17
+1291191,1291191,Fix Released,Python3: xrange is not available,https://bugs.launchpad.net/zaqar/+bug/1291191,2014-04-17
+1281385,1281385,Fix Released,requirement pyghmi(0.5.9.1) has no setup.py,https://bugs.launchpad.net/ironic/+bug/1281385,2014-04-17
+1260337,1260337,Fix Released,API objects to generate sample data for the auto-documentation,https://bugs.launchpad.net/ironic/+bug/1260337,2014-04-17
+1255954,1255954,Fix Released,Move API V1 root controller logic from __init__ to the dedicated file,https://bugs.launchpad.net/ironic/+bug/1255954,2014-04-17
+1298648,1298648,Fix Released,seamicro.vendor_passthru.validate has broken method definition,https://bugs.launchpad.net/ironic/+bug/1298648,2014-04-17
+1297549,1297549,Fix Released,Unexpected exceptions in nova driver destroy() causes traceback,https://bugs.launchpad.net/ironic/+bug/1297549,2014-04-17
+1294869,1294869,Fix Released,Individual drivers cannot be fetched via the API,https://bugs.launchpad.net/ironic/+bug/1294869,2014-04-17

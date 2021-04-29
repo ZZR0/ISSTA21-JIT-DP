@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1078854,1078854,Fix Released,Nested stack owner_id breaks with uuids,https://bugs.launchpad.net/heat/+bug/1078854,2013-04-04
+1078779,1078779,Fix Released,HA and autoscaling are broken due to stack_get_by_name tenant scoping,https://bugs.launchpad.net/heat/+bug/1078779,2013-04-04
+1078064,1078064,Fix Released,Move to ThreadGroups makes deletes block for pending WaitConditions,https://bugs.launchpad.net/heat/+bug/1078064,2013-04-04
+1072921,1072921,Fix Released,cloud-init paths different on Ubuntu hosts,https://bugs.launchpad.net/heat/+bug/1072921,2013-04-04
+1078480,1078480,Fix Released,change over to openstack style versioning,https://bugs.launchpad.net/heat/+bug/1078480,2013-04-04
+1156814,1156814,Fix Released,doc error in plugins.rst,https://bugs.launchpad.net/ceilometer/+bug/1156814,2013-04-04
+1151345,1151345,Fix Released,unittest test_by_user_period() failed,https://bugs.launchpad.net/ceilometer/+bug/1151345,2013-04-04
+1146340,1146340,Fix Released,Exclude tests when installing ceilometer,https://bugs.launchpad.net/ceilometer/+bug/1146340,2013-04-04
+1133823,1133823,Fix Released,Ceilometer resource-list help info is incorrect,https://bugs.launchpad.net/ceilometer/+bug/1133823,2013-04-04
+1132633,1132633,Fix Released,Can't use the python-ceilometerclient shell to access the v2 api,https://bugs.launchpad.net/ceilometer/+bug/1132633,2013-04-04
+1132628,1132628,Fix Released,period in the bd is a float but v2 api expects an int,https://bugs.launchpad.net/ceilometer/+bug/1132628,2013-04-04
+1131620,1131620,Fix Released,GET /v1/resources failed on sqlalchemy db backend,https://bugs.launchpad.net/ceilometer/+bug/1131620,2013-04-04
+1104492,1104492,Fix Released,update glossary with new terminology,https://bugs.launchpad.net/ceilometer/+bug/1104492,2013-04-04
+1104062,1104062,Fix Released,add keystone configuration instructions to manual install docs,https://bugs.launchpad.net/ceilometer/+bug/1104062,2013-04-04
+1086381,1086381,Fix Released,V1 and V2 APIs need to be started from the same script,https://bugs.launchpad.net/ceilometer/+bug/1086381,2013-04-04
+1071494,1071494,Fix Released,document notification configuration requirements,https://bugs.launchpad.net/ceilometer/+bug/1071494,2013-04-04
+1152584,1152584,Fix Released,API service does not configure logging properly,https://bugs.launchpad.net/ceilometer/+bug/1152584,2013-04-04
+1132732,1132732,Fix Released,SQLAlchemy driver fails in get_meter_statistics when the EventFilter has the 'end' parameter set,https://bugs.launchpad.net/ceilometer/+bug/1132732,2013-04-04
+1131638,1131638,Fix Released,Use API unit tests requests on all backends,https://bugs.launchpad.net/ceilometer/+bug/1131638,2013-04-04
+1131359,1131359,Fix Released,swift pollster does not disable itself when the endpoint is not configured in keystone,https://bugs.launchpad.net/ceilometer/+bug/1131359,2013-04-04
+1131349,1131349,Fix Released,sqlalchemy GET /v1/resources returns too much meter data needs to match mongodb implementation,https://bugs.launchpad.net/ceilometer/+bug/1131349,2013-04-04
+1118542,1118542,Fix Released,Can't use start_timestamp/end_timestamp with ceilometerclient,https://bugs.launchpad.net/ceilometer/+bug/1118542,2013-04-04
+1105404,1105404,Fix Released,kwapi pollster does not disable itself when kwapi is not running,https://bugs.launchpad.net/ceilometer/+bug/1105404,2013-04-04
+1098603,1098603,Fix Released,need to handle missing units values in existing mongodb data,https://bugs.launchpad.net/ceilometer/+bug/1098603,2013-04-04
+1070382,1070382,Fix Released,add glossary of terms to documentation,https://bugs.launchpad.net/ceilometer/+bug/1070382,2013-04-04
+1158808,1158808,Fix Released,Bad handling of metadata query if metadata is None from storage driver,https://bugs.launchpad.net/ceilometer/+bug/1158808,2013-04-04
+1144837,1144837,Fix Released,SQLAlchemy backend do not list resource correctly with timestamp,https://bugs.launchpad.net/ceilometer/+bug/1144837,2013-04-04
+1138137,1138137,Fix Released,"Can't filter by user and project with SQLAlchemy, breaks user API",https://bugs.launchpad.net/ceilometer/+bug/1138137,2013-04-04
+1133226,1133226,Fix Released,ceilometer-send-counter broken,https://bugs.launchpad.net/ceilometer/+bug/1133226,2013-04-04
+1131751,1131751,Fix Released,Ceilometer compute agent fails if instance's flavor don't exist anymore,https://bugs.launchpad.net/ceilometer/+bug/1131751,2013-04-04
+1070404,1070404,Fix Released,document steps for installing central agent manually,https://bugs.launchpad.net/ceilometer/+bug/1070404,2013-04-04
+1158405,1158405,Fix Released,Disable Ming tests,https://bugs.launchpad.net/ceilometer/+bug/1158405,2013-04-04
+1158276,1158276,Fix Released,counter_volume overflows in sqlalchemy implementation,https://bugs.launchpad.net/ceilometer/+bug/1158276,2013-04-04
+1153921,1153921,Fix Released,nova notifier test cases failed,https://bugs.launchpad.net/ceilometer/+bug/1153921,2013-04-04
+1130952,1130952,Fix Released,nova notifier plugin introduces config conflict,https://bugs.launchpad.net/ceilometer/+bug/1130952,2013-04-04
+1130601,1130601,Fix Released,Message signatures don't match in some cases,https://bugs.launchpad.net/ceilometer/+bug/1130601,2013-04-04
+1119035,1119035,Fix Released,can't retrieve resource details in v2-api,https://bugs.launchpad.net/ceilometer/+bug/1119035,2013-04-04
+1111233,1111233,Fix Released,central pollsters not working,https://bugs.launchpad.net/ceilometer/+bug/1111233,2013-04-04
+1109217,1109217,Fix Released,TemplateNotFound: list_event.html,https://bugs.launchpad.net/ceilometer/+bug/1109217,2013-04-04
+1105247,1105247,Fix Released,Documentation formatting problem,https://bugs.launchpad.net/ceilometer/+bug/1105247,2013-04-04
+1101100,1101100,Fix Released,incorrect return of get_raw_events() in sqlalchemy implementation,https://bugs.launchpad.net/ceilometer/+bug/1101100,2013-04-04
+1100107,1100107,Fix Released,Small typo on Ceilometer doc homepage,https://bugs.launchpad.net/ceilometer/+bug/1100107,2013-04-04
+1097201,1097201,Fix Released,add ceilometer client into devstack,https://bugs.launchpad.net/ceilometer/+bug/1097201,2013-04-04
+1087699,1087699,Fix Released,no module wsme.pecan for ceilometer-api,https://bugs.launchpad.net/ceilometer/+bug/1087699,2013-04-04
+1111632,1111632,Fix Released,Cannot use impl_zmq,https://bugs.launchpad.net/ceilometer/+bug/1111632,2013-04-04
+1124155,1124155,Fix Released,MongoDB test fails on real Mongo instance,https://bugs.launchpad.net/ceilometer/+bug/1124155,2013-04-04
+1093580,1093580,Fix Released,ceilometer-client cannot get samples by source,https://bugs.launchpad.net/ceilometer/+bug/1093580,2013-04-04
+1091675,1091675,Fix Released,Unrelated gettext error when SQL db is unavailable,https://bugs.launchpad.net/ceilometer/+bug/1091675,2013-04-04
+1124350,1124350,Fix Released,V2 API wrong type error,https://bugs.launchpad.net/ceilometer/+bug/1124350,2013-04-04
+1124121,1124121,Fix Released,Swift middleware doesn't use the good RPC settings,https://bugs.launchpad.net/ceilometer/+bug/1124121,2013-04-04
+1099739,1099739,Fix Released,Add test on Keystone middleware,https://bugs.launchpad.net/ceilometer/+bug/1099739,2013-04-04
+1085111,1085111,Fix Released,create high-level tests for all storage drivers,https://bugs.launchpad.net/ceilometer/+bug/1085111,2013-04-04
+1130475,1130475,Fix Released,Ceilometer Central error due to non-existant attribute,https://bugs.launchpad.net/ceilometer/+bug/1130475,2013-04-04
+1126990,1126990,Fix Released,agent broken due to invalid calls to pipeline manager,https://bugs.launchpad.net/ceilometer/+bug/1126990,2013-04-04
+1090310,1090310,Fix Released,invalid image information in resource metadata,https://bugs.launchpad.net/ceilometer/+bug/1090310,2013-04-04
+1086659,1086659,Fix Released,data should be stored in utf8 charset,https://bugs.launchpad.net/ceilometer/+bug/1086659,2013-04-04
+1086652,1086652,Fix Released,Update document link to the new one in openstack.org,https://bugs.launchpad.net/ceilometer/+bug/1086652,2013-04-04
+1084595,1084595,Fix Released,migration repository config migrate.cfg is not packaged,https://bugs.launchpad.net/ceilometer/+bug/1084595,2013-04-04
+1080990,1080990,Fix Released,ceilometer-api failed to launch,https://bugs.launchpad.net/ceilometer/+bug/1080990,2013-04-04
+1078371,1078371,Fix Released,CPU time & utilization polling fail with type mismatch on novaclient Server as opposed to the nova DB instance type,https://bugs.launchpad.net/ceilometer/+bug/1078371,2013-04-04
+1075824,1075824,Fix Released,accessing nova db error in compute agent,https://bugs.launchpad.net/ceilometer/+bug/1075824,2013-04-04
+1071486,1071486,Fix Released,instance and instance.<type> meters emitted at different frequencies,https://bugs.launchpad.net/ceilometer/+bug/1071486,2013-04-04
+1071461,1071461,Fix Released,Doc for 'cpu' meter and reality are different,https://bugs.launchpad.net/ceilometer/+bug/1071461,2013-04-04
+1070074,1070074,Fix Released,sqlalchemy performance issue,https://bugs.launchpad.net/ceilometer/+bug/1070074,2013-04-04
+1066148,1066148,Fix Released,collector sqlalchemy record_metering timestamp timezone unaware,https://bugs.launchpad.net/ceilometer/+bug/1066148,2013-04-04
+1066145,1066145,Fix Released,sqlalchemy record_meter resource merge find duplicate rows,https://bugs.launchpad.net/ceilometer/+bug/1066145,2013-04-04
+1064008,1064008,Fix Released,glance pollster should use the public API as opposed to the registry API,https://bugs.launchpad.net/ceilometer/+bug/1064008,2013-04-04
+1070009,1070009,Fix Released,need to meter routers created by quantum,https://bugs.launchpad.net/neutron/+bug/1070009,2013-04-04
+1070009,1070009,Fix Released,need to meter routers created by quantum,https://bugs.launchpad.net/ceilometer/+bug/1070009,2013-04-04
+1060919,1060919,Fix Released,Add support for Keystone authentication,https://bugs.launchpad.net/ceilometer/+bug/1060919,2013-04-04
+1057571,1057571,Fix Released,listen for instance resize events,https://bugs.launchpad.net/ceilometer/+bug/1057571,2013-04-04
+1057473,1057473,Fix Released,need a default configuration file,https://bugs.launchpad.net/ceilometer/+bug/1057473,2013-04-04
+1028498,1028498,Fix Released,need database management tool,https://bugs.launchpad.net/ceilometer/+bug/1028498,2013-04-04
+1021350,1021350,Fix Released,add self- enable/disable check on plugin load,https://bugs.launchpad.net/ceilometer/+bug/1021350,2013-04-04
+1004450,1004450,Fix Released,Pollster for Swift,https://bugs.launchpad.net/ceilometer/+bug/1004450,2013-04-04

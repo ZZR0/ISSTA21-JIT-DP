@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1496055,1496055,Fix Released,Status-line of HTTP responce is wrong,https://bugs.launchpad.net/cinder/+bug/1496055,2015-12-03
+1496055,1496055,Fix Released,Status-line of HTTP responce is wrong,https://bugs.launchpad.net/nova/+bug/1496055,2015-12-03
+1486635,1486635,Fix Released,nova server create / resize overquota should not contains Retry after,https://bugs.launchpad.net/nova/+bug/1486635,2015-12-03
+1482287,1482287,Fix Released,Scality volume driver doesn't detect Scality FS is already mounted,https://bugs.launchpad.net/nova/+bug/1482287,2015-12-03
+1447732,1447732,Fix Released,Cells: _heal_instances periodic task can lead to too much memory usage,https://bugs.launchpad.net/nova/+bug/1447732,2015-12-03
+1418590,1418590,Fix Released,Instance is left in ACTIVE state even if rescue fails,https://bugs.launchpad.net/nova/+bug/1418590,2015-12-03
+1413475,1413475,Fix Released,cannot get aggregate metadata information when nova-compute starts using xen,https://bugs.launchpad.net/nova/+bug/1413475,2015-12-03
+1516174,1516174,Fix Released,nova-cells in api cells generate redundant instance.update notifications,https://bugs.launchpad.net/nova/+bug/1516174,2015-12-03
+1506089,1506089,Fix Released,Nova incorrectly calculates service version,https://bugs.launchpad.net/nova/+bug/1506089,2015-12-03
+1503042,1503042,Fix Released,Need functional API samples test for os-server-groups GET with all_projects parameter,https://bugs.launchpad.net/nova/+bug/1503042,2015-12-03
+1503027,1503027,Fix Released,default security group creation ignores quota_usages conf,https://bugs.launchpad.net/nova/+bug/1503027,2015-12-03
+1498443,1498443,Fix Released,Nova API floating IP error code inconsistent between Nova-Net and Neutron,https://bugs.launchpad.net/nova/+bug/1498443,2015-12-03
+1497293,1497293,Fix Released,Nova misuses qemu-img for kernel and initrd,https://bugs.launchpad.net/nova/+bug/1497293,2015-12-03
+1492342,1492342,Fix Released,ComputeNode pci_device_pools field changes from empty PciDevicePoolList to None after save(),https://bugs.launchpad.net/nova/+bug/1492342,2015-12-03
+1490837,1490837,Fix Released,Sporadic incoherent metrics when driver.get_host_cpu_stats takes longer than 1 second to execute,https://bugs.launchpad.net/nova/+bug/1490837,2015-12-03
+1481693,1481693,Fix Released,xenapi: xentool - cache destroy script is broken,https://bugs.launchpad.net/nova/+bug/1481693,2015-12-03
+1479056,1479056,Fix Released,Fix usage of deprecated methods from oslo.utils.timeutils,https://bugs.launchpad.net/nova/+bug/1479056,2015-12-03
+1471958,1471958,Fix Released,Updates to network_info in info_cache lost with Cells + NeutronV2,https://bugs.launchpad.net/nova/+bug/1471958,2015-12-03
+1369463,1369463,Fix Released,VMware: concurrent access for deletion may fail,https://bugs.launchpad.net/nova/+bug/1369463,2015-12-03
+1257683,1257683,Fix Released,vmware VC driver doesn't attach swap storage,https://bugs.launchpad.net/nova/+bug/1257683,2015-12-03
+1503975,1503975,Fix Released,"service consoleauth does not start: ""no such option: consoleauth_topic""",https://bugs.launchpad.net/nova/+bug/1503975,2015-12-03
+1488435,1488435,Fix Released,Resources on destination node doesn't cleanup if live-migration fails,https://bugs.launchpad.net/nova/+bug/1488435,2015-12-03
+1370590,1370590,Fix Released,Libvirt _create_domain_and_network calls missing disk_info,https://bugs.launchpad.net/nova/+bug/1370590,2015-12-03
+1226543,1226543,Fix Released,VMware: attaching a volume to the VM failed,https://bugs.launchpad.net/nova/+bug/1226543,2015-12-03
+1437695,1437695,Fix Released,Not possible to specify empty value for extra-dhcp-opts during port create/update,https://bugs.launchpad.net/neutron/+bug/1437695,2015-12-03
+1331564,1331564,Fix Released,remove select for update lock from db_base_plugin,https://bugs.launchpad.net/neutron/+bug/1331564,2015-12-03
+1509045,1509045,Fix Released,FWaaS typos in comments,https://bugs.launchpad.net/neutron/+bug/1509045,2015-12-03
+1506289,1506289,Fix Released,The first letter of error message should be capitalized,https://bugs.launchpad.net/neutron/+bug/1506289,2015-12-03
+1501216,1501216,Fix Released,"Error spelling of ""accomodate""",https://bugs.launchpad.net/neutron/+bug/1501216,2015-12-03
+1501150,1501150,Fix Released,Reorganize and improve L3 agent functional tests,https://bugs.launchpad.net/neutron/+bug/1501150,2015-12-03
+1488021,1488021,Fix Released,Display alembic branch in neutron-db-manage current,https://bugs.launchpad.net/neutron/+bug/1488021,2015-12-03
+1463594,1463594,Fix Released,LBaaS plugin can delegate VIP allocation to drivers,https://bugs.launchpad.net/neutron/+bug/1463594,2015-12-03
+1453320,1453320,Fix Released,Create periodic task that logs agent's state,https://bugs.launchpad.net/neutron/+bug/1453320,2015-12-03
+1518429,1518429,Fix Released,[q-agt] linux.utils list interface time out error should be catched,https://bugs.launchpad.net/neutron/+bug/1518429,2015-12-03
+1518178,1518178,Fix Released,Replace neutron-specific LengthStrOpt with oslo.config StrOpt max_length option,https://bugs.launchpad.net/neutron/+bug/1518178,2015-12-03
+1517018,1517018,Fix Released,typo in iptables_firewall,https://bugs.launchpad.net/neutron/+bug/1517018,2015-12-03
+1514193,1514193,Fix Released,misuse of log marker functions in neutron,https://bugs.launchpad.net/neutron/+bug/1514193,2015-12-03
+1511004,1511004,Fix Released,_process_router_update can return without logging said return,https://bugs.launchpad.net/neutron/+bug/1511004,2015-12-03
+1508430,1508430,Fix Released,Remove deadcode from neutron.common.utils,https://bugs.launchpad.net/neutron/+bug/1508430,2015-12-03
+1507672,1507672,Fix Released,[VPNaaS] failures when updating admin_state of ipsec connections,https://bugs.launchpad.net/neutron/+bug/1507672,2015-12-03
+1506862,1506862,Fix Released,VethFixture: smart veth delete,https://bugs.launchpad.net/neutron/+bug/1506862,2015-12-03
+1506794,1506794,Fix Released,VPNaaS: Active VPN connection goes down after controller shutdown/start,https://bugs.launchpad.net/neutron/+bug/1506794,2015-12-03
+1506492,1506492,Fix Released,Deprecate new= argument from create_connection function,https://bugs.launchpad.net/networking-midonet/+bug/1506492,2015-12-03
+1506492,1506492,Fix Released,Deprecate new= argument from create_connection function,https://bugs.launchpad.net/neutron/+bug/1506492,2015-12-03
+1505786,1505786,Fix Released,As neutron accepts icpmv6 but on api its not documented in accepted values for api call in security group create,https://bugs.launchpad.net/neutron/+bug/1505786,2015-12-03
+1505701,1505701,Fix Released,HEAD files are needed for conflict management,https://bugs.launchpad.net/neutron/+bug/1505701,2015-12-03
+1505382,1505382,Fix Released,Wrong error code returned when an HA+DVR router is created or updated,https://bugs.launchpad.net/neutron/+bug/1505382,2015-12-03
+1504670,1504670,Fix Released,Remove embrane plugin,https://bugs.launchpad.net/neutron/+bug/1504670,2015-12-03
+1503074,1503074,Fix Released,Use assertFalse,https://bugs.launchpad.net/neutron/+bug/1503074,2015-12-03
+1503071,1503071,Fix Released,Use assertTrue,https://bugs.launchpad.net/neutron/+bug/1503071,2015-12-03
+1498301,1498301,Fix Released,[neutron-lbaas] typo in health monitor test names,https://bugs.launchpad.net/neutron/+bug/1498301,2015-12-03
+1480326,1480326,Fix Released,neutron-vpnaas: Enable python34 support,https://bugs.launchpad.net/neutron/+bug/1480326,2015-12-03
+1460379,1460379,Fix Released,multiline log from utils.execute is difficult to be parsed/analyzed by line-oriented log system,https://bugs.launchpad.net/neutron/+bug/1460379,2015-12-03
+1455320,1455320,Fix Released,OVS-agent: AttributeError: 'NoneType' object has no attribute 'update',https://bugs.launchpad.net/neutron/+bug/1455320,2015-12-03
+1212520,1212520,Fix Released,release_port_fixed_ip is not used in dhcp_agent.py,https://bugs.launchpad.net/neutron/+bug/1212520,2015-12-03
+1197570,1197570,Fix Released,Update instructions for database migration with additional steps that may be needed,https://bugs.launchpad.net/neutron/+bug/1197570,2015-12-03
+1519223,1519223,Fix Released,Freescale FWaaS Plugin code decomposition,https://bugs.launchpad.net/neutron/+bug/1519223,2015-12-03
+1519078,1519078,Fix Released,Freescale vendor code complete decomposition,https://bugs.launchpad.net/neutron/+bug/1519078,2015-12-03
+1517579,1517579,Fix Released,neutron.tests.unit.debug.test_shell.ShellTest.test_endpoint_option fails due to neutronclient change,https://bugs.launchpad.net/neutron/+bug/1517579,2015-12-03
+1515118,1515118,Fix Released,functional job for py34 stalls,https://bugs.launchpad.net/neutron/+bug/1515118,2015-12-03
+1522211,1522211,Fix Released,Add flavor option to loadbalancerv2 creation,https://bugs.launchpad.net/neutron/+bug/1522211,2015-12-03
+1514144,1514144,Fix Released,rpc should return empty list when no l3_plugin is present,https://bugs.launchpad.net/neutron/+bug/1514144,2015-12-03
+1511198,1511198,Fix Released,Decompose ovsvapp ml2 driver,https://bugs.launchpad.net/neutron/+bug/1511198,2015-12-03
+1509890,1509890,Fix Released,"Linux bridge agent ""interface_exists_on_bridge"" can be optimized",https://bugs.launchpad.net/neutron/+bug/1509890,2015-12-03
+1509092,1509092,Fix Released,Remove deprecated nova_* options,https://bugs.launchpad.net/neutron/+bug/1509092,2015-12-03
+1508781,1508781,Fix Released,remove bigswitch vendor plugin from Neutron core,https://bugs.launchpad.net/neutron/+bug/1508781,2015-12-03
+1508270,1508270,Fix Released,One log level for linux bridge agent was no right,https://bugs.launchpad.net/neutron/+bug/1508270,2015-12-03
+1508189,1508189,Fix Released,Remove deprecated namespace deletion options,https://bugs.launchpad.net/neutron/+bug/1508189,2015-12-03
+1508182,1508182,Fix Released,Remove deprecated SR-IOV option agent_required,https://bugs.launchpad.net/neutron/+bug/1508182,2015-12-03
+1504881,1504881,Fix Released,VPNaaS: Update API documentation for multiple local subnets,https://bugs.launchpad.net/neutron/+bug/1504881,2015-12-03
+1503088,1503088,Fix Released,Deprecate max_fixed_ips_per_port,https://bugs.launchpad.net/neutron/+bug/1503088,2015-12-03
+1502148,1502148,Fix Released,/common/utils.py py34 incompatibility,https://bugs.launchpad.net/neutron/+bug/1502148,2015-12-03
+1502061,1502061,Fix Released,Remove deprecated neutron.agent.linux.utils.ensure_dir,https://bugs.launchpad.net/neutron/+bug/1502061,2015-12-03
+1498614,1498614,Fix Released,VPNaaS minor typos in comments,https://bugs.launchpad.net/neutron/+bug/1498614,2015-12-03
+1497522,1497522,Fix Released,"DHCP agent fail if create a subnet startwitch ""224.x.x.x""",https://bugs.launchpad.net/neutron/+bug/1497522,2015-12-03

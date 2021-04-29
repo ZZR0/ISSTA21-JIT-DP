@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1085864,1085864,Fix Released,update_bug doesn't update bug status for oslo,https://bugs.launchpad.net/openstack-ci/+bug/1085864,2013-04-12
+1032657,1032657,Fix Released,nova-rootwrap incorrectly logs 'Deprecated Config: The root_helper....',https://bugs.launchpad.net/nova/+bug/1032657,2013-04-12
+1032657,1032657,Fix Released,nova-rootwrap incorrectly logs 'Deprecated Config: The root_helper....',https://bugs.launchpad.net/cinder/+bug/1032657,2013-04-12
+1078563,1078563,Fix Released,Clearer error needed in nova-manage,https://bugs.launchpad.net/nova/+bug/1078563,2013-04-12
+1168047,1168047,Fix Released,Missed a couple nova references in new Block Storage Admin guide,https://bugs.launchpad.net/openstack-manuals/+bug/1168047,2013-04-11
+1168149,1168149,Fix Released,Compute Admin guide doesn't build,https://bugs.launchpad.net/openstack-manuals/+bug/1168149,2013-04-11
+1167657,1167657,Fix Released,Prefer nova over nova-manage for network create and list,https://bugs.launchpad.net/openstack-manuals/+bug/1167657,2013-04-11
+1099414,1099414,Fix Released,Netapp: delete_volume leaves qtree behind,https://bugs.launchpad.net/cinder/+bug/1099414,2013-04-11
+1090167,1090167,Fix Released,NetApp: Can't delete a volume in error state,https://bugs.launchpad.net/cinder/+bug/1090167,2013-04-11
+1084273,1084273,Fix Released,Don't have permission to delete a volume in error state,https://bugs.launchpad.net/cinder/+bug/1084273,2013-04-11
+1102334,1102334,Fix Released,'glance-cache-manage list-cached' does not show 'last accessed' and 'last modified' fields in human-readable format',https://bugs.launchpad.net/glance/+bug/1102334,2013-04-11
+1157765,1157765,Fix Released,glance-cache-prefetcher explodes when no auth parameters were configured,https://bugs.launchpad.net/glance/+bug/1157765,2013-04-11
+1122299,1122299,Fix Released,mismatched image size or checksum leaves behind dangling image data,https://bugs.launchpad.net/glance/+bug/1122299,2013-04-11
+1060868,1060868,Fix Released,500 error returned when an Admin tries to delete membership of image from a non-existent /invalid tenant,https://bugs.launchpad.net/glance/+bug/1060868,2013-04-11
+1104924,1104924,Fix Released,filesystem store does not clean up after premature termination of image upload,https://bugs.launchpad.net/glance/+bug/1104924,2013-04-11
+1090320,1090320,Fix Released,Volume type extra specs update with empty body returns HTTP status 422,https://bugs.launchpad.net/cinder/+bug/1090320,2013-04-11
+1108766,1108766,Fix Released,Typo in cinder/db/api.py,https://bugs.launchpad.net/cinder/+bug/1108766,2013-04-11
+1143661,1143661,Fix Released,"Cannot delete snapshot in ""error"" state",https://bugs.launchpad.net/cinder/+bug/1143661,2013-04-11
+1159948,1159948,Fix Released,Volume can't be deleted if tgt has had a reconnect.,https://bugs.launchpad.net/cinder/+bug/1159948,2013-04-11
+1101071,1101071,Fix Released,ISCSITargetRemoveFailed: Failed to remove iscsi target,https://bugs.launchpad.net/cinder/+bug/1101071,2013-04-11
+1073999,1073999,Fix Released,Quantum service does not restart after reboot,https://bugs.launchpad.net/neutron/+bug/1073999,2013-04-11
+1018431,1018431,Fix Released,Log statement improperly output in nova-manage,https://bugs.launchpad.net/nova/+bug/1018431,2013-04-11
+1089668,1089668,Fix Released,rc.local editing wrong.,https://bugs.launchpad.net/nova/+bug/1089668,2013-04-11
+1086352,1086352,Fix Released,libvirt: nova should enable apic setting for xen or kvm guest,https://bugs.launchpad.net/nova/+bug/1086352,2013-04-11
+1159755,1159755,Fix Released,"live-migration to an invalid host should exist gracefully. Currently, it throws a stack trace",https://bugs.launchpad.net/nova/+bug/1159755,2013-04-11
+1152504,1152504,Fix Released,Wrong syntax for set:tag in dnsmasq startup options,https://bugs.launchpad.net/nova/+bug/1152504,2013-04-11
+1155315,1155315,Fix Released,Expected exception on volume attach leaves traceback in the logs.,https://bugs.launchpad.net/nova/+bug/1155315,2013-04-11
+1155498,1155498,Fix Released,PowerVM driver spawn failed due to missing attribute supported_instances,https://bugs.launchpad.net/nova/+bug/1155498,2013-04-11
+1103324,1103324,Fix Released,NoMoreFloatingIps with stack information responsed,https://bugs.launchpad.net/nova/+bug/1103324,2013-04-11
+1092610,1092610,Fix Released,attempting to create a public domain with wrong permissions causes stack trace to the user,https://bugs.launchpad.net/nova/+bug/1092610,2013-04-11
+1129055,1129055,Fix Released,Quantum Hybrid OVS driver does not set STP values correctly,https://bugs.launchpad.net/nova/+bug/1129055,2013-04-11
+1125068,1125068,Fix Released,nova leaves stale .part files on disk when downloading non raw VM images,https://bugs.launchpad.net/nova/+bug/1125068,2013-04-11
+1101136,1101136,Fix Released,Instance stuck in task state image_snapshot,https://bugs.launchpad.net/nova/+bug/1101136,2013-04-11
+1097806,1097806,Fix Released,VMs paused unbeknownst to nova compute are destroyed,https://bugs.launchpad.net/nova/+bug/1097806,2013-04-11
+1143584,1143584,Fix Released,Creating network failed with message handling via REST API,https://bugs.launchpad.net/nova/+bug/1143584,2013-04-11
+1154929,1154929,Fix Released,A default /24 netmask is used by dnsmasq instead of the configured netmasks (in netmasks table),https://bugs.launchpad.net/nova/+bug/1154929,2013-04-11
+1131223,1131223,Fix Released,Quantum:  DHCP request fails with IptablesFirewallDriver and default rule as DISCARD,https://bugs.launchpad.net/nova/+bug/1131223,2013-04-11
+1096719,1096719,Fix Released,comparing datetime to None in update-time handling,https://bugs.launchpad.net/nova/+bug/1096719,2013-04-11
+1051881,1051881,Fix Released,Failed Live Block Migration leaves with Inconsistent Instance Status,https://bugs.launchpad.net/nova/+bug/1051881,2013-04-11
+1100446,1100446,Fix Released,libvirt driver connection validation causes unnecessary process execution with libvirt/qemu,https://bugs.launchpad.net/nova/+bug/1100446,2013-04-11
+1085771,1085771,Fix Released,"Instance is sometimes shutdown without any operation and report the message ""Instance shutdown by itself. Calling the stop API""",https://bugs.launchpad.net/nova/+bug/1085771,2013-04-11
+1050433,1050433,Fix Released,LibvirtBridgeDriver crashes when spawning an instance with NoopFirewallDriver,https://bugs.launchpad.net/nova/+bug/1050433,2013-04-11
+1046356,1046356,Fix Released,soft_reboot followed by hard_reboot can lead to double reboot,https://bugs.launchpad.net/nova/+bug/1046356,2013-04-11
+1103260,1103260,Fix Released,fixed_ips cannot reliably be released on instance termination,https://bugs.launchpad.net/nova/+bug/1103260,2013-04-11
+1107156,1107156,Fix Released,Affinity filter checks erroneously includes deleted instances,https://bugs.launchpad.net/nova/+bug/1107156,2013-04-11
+1128180,1128180,Fix Released,DHCP agent could take upto a minute to get its IP address,https://bugs.launchpad.net/neutron/+bug/1128180,2013-04-11
+1166077,1166077,Fix Released,Folsom NEC plugin fails to create a network/port on some version of PFC due to too long string,https://bugs.launchpad.net/neutron/+bug/1166077,2013-04-11
+1118517,1118517,Fix Released,ovs and netns cleanupo utilities do not log,https://bugs.launchpad.net/neutron/+bug/1118517,2013-04-11
+1099625,1099625,Fix Released,"dhcp-agent distributes empty domain when dhcp_domain=""""",https://bugs.launchpad.net/neutron/+bug/1099625,2013-04-11
+1166076,1166076,Fix Released,Folsom NEC plugin: Cannot create a tenant on some version of OpenFlow controller,https://bugs.launchpad.net/neutron/+bug/1166076,2013-04-11
+1127664,1127664,Fix Released,Network cannot be created in NEC plugin when OFC network ID is unique inside a tenant,https://bugs.launchpad.net/neutron/+bug/1127664,2013-04-11
+1153594,1153594,Fix Released,MyISAM does not perform cascading deletions,https://bugs.launchpad.net/neutron/+bug/1153594,2013-04-11
+1130735,1130735,Fix Released,file descriptors not closed when executing sub-processes,https://bugs.launchpad.net/neutron/+bug/1130735,2013-04-11
+1110807,1110807,Fix Released,"Openstack quantum, race condition in ip address creation when starting 50 VMs on a 5-node cluster",https://bugs.launchpad.net/neutron/+bug/1110807,2013-04-11
+1104337,1104337,Fix Released,Deleting a subnet that is added to a router leaves behind a port that cannot be deleted,https://bugs.launchpad.net/neutron/+bug/1104337,2013-04-11
+1108063,1108063,Fix Released,More heplful error message for the default role,https://bugs.launchpad.net/horizon/+bug/1108063,2013-04-11
+1103003,1103003,Fix Released,Timezones in user settings should indicate the UTC offset,https://bugs.launchpad.net/horizon/+bug/1103003,2013-04-11
+1050316,1050316,Fix Released,Dashboard usability issue with the VNC console. The console looks bad - Can't see the console screen properly,https://bugs.launchpad.net/horizon/+bug/1050316,2013-04-11
+1133254,1133254,Fix Released,Flavors get deleted when reusing an existing name,https://bugs.launchpad.net/horizon/+bug/1133254,2013-04-11
+1125124,1125124,Fix Released,It's too easy to forget to select a keypair when launching an instance,https://bugs.launchpad.net/horizon/+bug/1125124,2013-04-11
+1079155,1079155,Fix Released,flavor create fails without describing error,https://bugs.launchpad.net/horizon/+bug/1079155,2013-04-11
+1052561,1052561,Fix Released,Needs to accept UUID as ID of Floating IP,https://bugs.launchpad.net/horizon/+bug/1052561,2013-04-11
+1102504,1102504,Fix Released,Subnet creation (Quantum) defaults to mask /32,https://bugs.launchpad.net/horizon/+bug/1102504,2013-04-11
+1124276,1124276,Fix Released,ugettext should be replaced with ugettext_lazy,https://bugs.launchpad.net/horizon/+bug/1124276,2013-04-11
+1101129,1101129,Fix Released,keystone-all --config-dir is being ignored,https://bugs.launchpad.net/keystone/+bug/1101129,2013-04-11
+1135230,1135230,Fix Released,V2 API reported at Beta,https://bugs.launchpad.net/keystone/+bug/1135230,2013-04-11
+1073272,1073272,Fix Released,PKI-signed token hash saved as token ID for SQL backend only,https://bugs.launchpad.net/keystone/+bug/1073272,2013-04-11
+1073343,1073343,Fix Released,Key PKI tokens on hash in memcached for auth_token middleware,https://bugs.launchpad.net/keystone/+bug/1073343,2013-04-11
+1074172,1074172,Fix Released,PKI tokens are broken after 24 hours,https://bugs.launchpad.net/keystone/+bug/1074172,2013-04-11
+1164756,1164756,Fix Released,/tmp/last_metadata is vulnerable to tmpfile races by arbitrary users,https://bugs.launchpad.net/heat-cfntools/+bug/1164756,2013-04-11
+1166323,1166323,Fix Released,Predictable /tmp filenames used in SourcesHandler,https://bugs.launchpad.net/heat-cfntools/+bug/1166323,2013-04-11
+1103023,1103023,Fix Released,Missing doc support for Coverage_ext API in api-site,https://bugs.launchpad.net/openstack-api-site/+bug/1103023,2013-04-11
+1088411,1088411,Fix Released,Cannot attach volumes to instances if using NexentaStor driver,https://bugs.launchpad.net/cinder/+bug/1088411,2013-04-11
+1167860,1167860,Fix Released,Wrong ID in the migration doc,https://bugs.launchpad.net/openstack-manuals/+bug/1167860,2013-04-11
+1167765,1167765,Fix Released,compute_driver for VMware has a typo error,https://bugs.launchpad.net/openstack-manuals/+bug/1167765,2013-04-11

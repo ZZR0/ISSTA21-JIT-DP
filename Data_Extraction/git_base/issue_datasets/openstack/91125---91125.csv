@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1094897,1094897,Fix Released,Unable to assign a specific IP address to a Quantum port,https://bugs.launchpad.net/nova/+bug/1094897,2013-04-04
+1094351,1094351,Fix Released,xen resize with volumes fails pv not loaded,https://bugs.launchpad.net/nova/+bug/1094351,2013-04-04
+1092640,1092640,Fix Released,"nbd error message has typo ""ndb""",https://bugs.launchpad.net/nova/+bug/1092640,2013-04-04
+1092016,1092016,Fix Released,Essex creation of zipfile,https://bugs.launchpad.net/nova/+bug/1092016,2013-04-04
+1091698,1091698,Fix Released,multihost: _disassociate_floating_ip _associate_floating_ip argument mismatch,https://bugs.launchpad.net/nova/+bug/1091698,2013-04-04
+1091639,1091639,Fix Released,LXC with LVM image backend: fail to delete instance,https://bugs.launchpad.net/nova/+bug/1091639,2013-04-04
+1091628,1091628,Fix Released,pygrub command does not use nova-rootwrap,https://bugs.launchpad.net/nova/+bug/1091628,2013-04-04
+1091611,1091611,Fix Released,tests/network/test_rpcapi.py has some duplicate function definitions,https://bugs.launchpad.net/nova/+bug/1091611,2013-04-04
+1091598,1091598,Fix Released,add_fixed_ip_to_instance in network/api.py passes instance id instead of uuid,https://bugs.launchpad.net/nova/+bug/1091598,2013-04-04
+1090148,1090148,Fix Released,"config_drive=""true"" during instance creation does not work",https://bugs.launchpad.net/nova/+bug/1090148,2013-04-04
+1089416,1089416,Fix Released,String formatting error in exceptions,https://bugs.launchpad.net/nova/+bug/1089416,2013-04-04
+1089232,1089232,Fix Released,sql_dbpool_enable is defined as IntOpt instead of BoolOpt,https://bugs.launchpad.net/nova/+bug/1089232,2013-04-04
+1089154,1089154,Fix Released,add and remove ixed ip need the refresh_cache decorator,https://bugs.launchpad.net/nova/+bug/1089154,2013-04-04
+1088627,1088627,Fix Released,periodic unrescue task doesn't update VM state in db,https://bugs.launchpad.net/nova/+bug/1088627,2013-04-04
+1088434,1088434,Fix Released,KeyError of log message in virt/libvirt/utils.py/create_lvm_image()/check_size(),https://bugs.launchpad.net/nova/+bug/1088434,2013-04-04
+1087760,1087760,Fix Released,instance['node'] not reverted on resize revert,https://bugs.launchpad.net/nova/+bug/1087760,2013-04-04
+1087308,1087308,Fix Released,KeyError: 'sr_uuid' when booting from volume on xenapi,https://bugs.launchpad.net/nova/+bug/1087308,2013-04-04
+1086780,1086780,Fix Released,libvirt: rescue for images with kernel missing cmdline config in xml,https://bugs.launchpad.net/nova/+bug/1086780,2013-04-04
+1086410,1086410,Fix Released,tools/hacking.py exclude logic breaks in pep8 1.3.3,https://bugs.launchpad.net/nova/+bug/1086410,2013-04-04
+1086026,1086026,Fix Released,Fanout cast for update DNS entries doesn't scale,https://bugs.launchpad.net/nova/+bug/1086026,2013-04-04
+1084641,1084641,Fix Released,powervm: power state fails on 'Starting',https://bugs.launchpad.net/nova/+bug/1084641,2013-04-04
+1084611,1084611,Fix Released,get_vcpu_total in nova/virt/libvirt.py reports wrong number of physical CPUs on Xen dom0 systems,https://bugs.launchpad.net/nova/+bug/1084611,2013-04-04
+1084337,1084337,Fix Released,nova.tests.test_virt_disk.VirtDiskTest.test_inject_admin_password fails on OS X,https://bugs.launchpad.net/nova/+bug/1084337,2013-04-04
+1084335,1084335,Fix Released,KeyError of log message in compute/api/resize(),https://bugs.launchpad.net/nova/+bug/1084335,2013-04-04
+1083642,1083642,Fix Released,Consoles tests API (xml) is incorrectly named,https://bugs.launchpad.net/nova/+bug/1083642,2013-04-04
+1083353,1083353,Fix Released,nova aggregate-create returns unclear error to user,https://bugs.launchpad.net/nova/+bug/1083353,2013-04-04
+1082547,1082547,Fix Released,_inherit_properties_from_image checks 'arch' instead of 'architecture',https://bugs.launchpad.net/nova/+bug/1082547,2013-04-04
+1082275,1082275,Fix Released,HyperV Compute driver doesn't report cpu_info,https://bugs.launchpad.net/nova/+bug/1082275,2013-04-04
+1081949,1081949,Fix Released,xen virt driver also need to remove db access,https://bugs.launchpad.net/nova/+bug/1081949,2013-04-04
+1081808,1081808,Fix Released,start_guests_on_host_boot option ignores use-requested states,https://bugs.launchpad.net/nova/+bug/1081808,2013-04-04
+1075082,1075082,Fix Released,I18N issue: some log messages are not wrapped with _(),https://bugs.launchpad.net/nova/+bug/1075082,2013-04-04
+1074054,1074054,Fix Released,Cannot live migrate an instance booted from volume,https://bugs.launchpad.net/nova/+bug/1074054,2013-04-04
+1073212,1073212,Fix Released,Nova Network Notifications Missing Instance UUID,https://bugs.launchpad.net/nova/+bug/1073212,2013-04-04
+1052696,1052696,Fix Released,Suspended instances cannot resume after hypervisor reboot,https://bugs.launchpad.net/nova/+bug/1052696,2013-04-04
+1011087,1011087,Fix Released,"Compute service state is beeing reported as "":-)"" while libvirtd is not running.",https://bugs.launchpad.net/nova/+bug/1011087,2013-04-04
+1079723,1079723,Fix Released,nova-rootwrap should support path search,https://bugs.launchpad.net/nova/+bug/1079723,2013-04-04
+1008622,1008622,Fix Released,Booting from volume shouldn't require specifying an image,https://bugs.launchpad.net/nova/+bug/1008622,2013-04-04
+1094141,1094141,Fix Released,Generating XML API samples fails when file doesn't yet exist,https://bugs.launchpad.net/nova/+bug/1094141,2013-04-04
+1092248,1092248,Fix Released,configdrive should use contextmanager for cleanup,https://bugs.launchpad.net/nova/+bug/1092248,2013-04-04
+1091743,1091743,Fix Released,FlavorRxtx extension doesn't have API Sample to documentation,https://bugs.launchpad.net/nova/+bug/1091743,2013-04-04
+1091739,1091739,Fix Released,FixedIPs extension doesn't have API Sample to documentation,https://bugs.launchpad.net/nova/+bug/1091739,2013-04-04
+1089531,1089531,Fix Released,Coverage Extension doesn't have API Sample testing,https://bugs.launchpad.net/nova/+bug/1089531,2013-04-04
+1089417,1089417,Fix Released,Complement resize server unit tests,https://bugs.launchpad.net/nova/+bug/1089417,2013-04-04
+1089385,1089385,Fix Released,Somehow server lists raises NotFound,https://bugs.launchpad.net/nova/+bug/1089385,2013-04-04
+1089368,1089368,Fix Released,Delete server doesn't test for itemNotFound errors,https://bugs.launchpad.net/nova/+bug/1089368,2013-04-04
+1088878,1088878,Fix Released,Complement Update Server Metadata tests,https://bugs.launchpad.net/nova/+bug/1088878,2013-04-04
+1088874,1088874,Fix Released,Revert resize unit tests doesn't test for invalid instance,https://bugs.launchpad.net/nova/+bug/1088874,2013-04-04
+1088686,1088686,Fix Released,Complement unittests to rebuild server,https://bugs.launchpad.net/nova/+bug/1088686,2013-04-04
+1088672,1088672,Fix Released,Complement nova unit tests to reboot server action api,https://bugs.launchpad.net/nova/+bug/1088672,2013-04-04
+1087030,1087030,Fix Released,libvirt: Ephemeral disks are labeled with None,https://bugs.launchpad.net/nova/+bug/1087030,2013-04-04
+1084766,1084766,Fix Released,rootwrap ConfigParser behavior,https://bugs.launchpad.net/nova/+bug/1084766,2013-04-04
+1083315,1083315,Fix Released,nova-manage stack traces when wrong number of arguments are passed,https://bugs.launchpad.net/nova/+bug/1083315,2013-04-04
+1080284,1080284,Fix Released,EC2 incorrect snapshot statuses,https://bugs.launchpad.net/nova/+bug/1080284,2013-04-04
+1070172,1070172,Fix Released,Quotas extension doesn't have API Sample to documentation,https://bugs.launchpad.net/nova/+bug/1070172,2013-04-04
+1070171,1070171,Fix Released,QuotaClasses extension doesn't have API Sample to documentation,https://bugs.launchpad.net/nova/+bug/1070171,2013-04-04
+1070163,1070163,Fix Released,FlavorManage extension doesn't have API Sample to documentation,https://bugs.launchpad.net/nova/+bug/1070163,2013-04-04
+1070162,1070162,Fix Released,FlavorExtraData extension doesn't have API Sample to documentation,https://bugs.launchpad.net/nova/+bug/1070162,2013-04-04
+1070161,1070161,Fix Released,FlavorDisabled extension doesn't have API Sample Tests and Docextension doesn't have API Sample Tests to Documentation,https://bugs.launchpad.net/nova/+bug/1070161,2013-04-04
+1070160,1070160,Fix Released,ExtendedStatus extension doesn't have API Sample Tests to Documentation,https://bugs.launchpad.net/nova/+bug/1070160,2013-04-04
+1070158,1070158,Fix Released,DiskConfig extension doesn't have API Sample Tests to Documentation,https://bugs.launchpad.net/nova/+bug/1070158,2013-04-04
+1070157,1070157,Fix Released,DeferredDelete extension doesn't have API Sample Tests to Documentation,https://bugs.launchpad.net/nova/+bug/1070157,2013-04-04
+1062494,1062494,Fix Released,POST to os-volume_attachments returns invalid 404,https://bugs.launchpad.net/nova/+bug/1062494,2013-04-04
+1062049,1062049,Fix Released,Folsom - Absolute limit parameters totalKeyPairsUsed and totalSecurityGroupsUsed values area not incremented when keypair and security group created,https://bugs.launchpad.net/nova/+bug/1062049,2013-04-04
+1040236,1040236,Fix Released,DNSDriver definition class should raise NotImplementedError,https://bugs.launchpad.net/devstack/+bug/1040236,2013-04-04
+1040236,1040236,Fix Released,DNSDriver definition class should raise NotImplementedError,https://bugs.launchpad.net/nova/+bug/1040236,2013-04-04
+1032546,1032546,Fix Released,Server PUT update does not reject properties which can't be changed,https://bugs.launchpad.net/nova/+bug/1032546,2013-04-04
+1027998,1027998,Fix Released,db.dnsdomain_get API calls return no results,https://bugs.launchpad.net/nova/+bug/1027998,2013-04-04
+1027788,1027788,Fix Released,os-hosts extension's show method cannot find host which has '.' in host-name (or host name is dotted quad),https://bugs.launchpad.net/nova/+bug/1027788,2013-04-04
+1010442,1010442,Fix Released,instance creation test without config drive wronly tests with config drive,https://bugs.launchpad.net/nova/+bug/1010442,2013-04-04
+955788,955788,Fix Released,Removing instance backing file causes nova to crash,https://bugs.launchpad.net/nova/+bug/955788,2013-04-04
+939087,939087,Fix Released,periodic tasks could use a refactoring,https://bugs.launchpad.net/nova/+bug/939087,2013-04-04
+836978,836978,Fix Released,DescribeInstances does not raise error on invalid instance,https://bugs.launchpad.net/nova/+bug/836978,2013-04-04
+836978,836978,Fix Released,DescribeInstances does not raise error on invalid instance,https://bugs.launchpad.net/devstack/+bug/836978,2013-04-04
+1098093,1098093,Fix Released,instance's cell_name not set in API cell,https://bugs.launchpad.net/nova/+bug/1098093,2013-04-04
+1097987,1097987,Fix Released,checking moved instances in init_host() calls method with wrong args,https://bugs.launchpad.net/nova/+bug/1097987,2013-04-04

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1543500,1543500,Fix Released,Failed to scale from one node to three nodes with InfluxDB v0.10.0,https://bugs.launchpad.net/lma-toolchain/+bug/1543500,2016-04-28
+1545743,1545743,Fix Released,heka_monitoring_filter out of memory,https://bugs.launchpad.net/lma-toolchain/+bug/1545743,2016-04-28
+1547402,1547402,Fix Released,Nagios3 and apache2 are started on non active nodes when scaling the cluster,https://bugs.launchpad.net/lma-toolchain/+bug/1547402,2016-04-28
+1547540,1547540,Fix Released,The SMTP encoder sandbox crashes,https://bugs.launchpad.net/lma-toolchain/+bug/1547540,2016-04-28
+1550330,1550330,Fix Released,Elasticsearch plugin fails to build - ca-certificates package update,https://bugs.launchpad.net/lma-toolchain/+bug/1550330,2016-04-28
+1538946,1538946,Fix Released,Cluster status metrics are missing,https://bugs.launchpad.net/lma-toolchain/+bug/1538946,2016-04-28
+1536689,1536689,Fix Released,wrong number_of_replicas setting for existing indices when scaling the cluster,https://bugs.launchpad.net/lma-toolchain/+bug/1536689,2016-04-28
+1536533,1536533,Fix Released,Scaling up the backend nodes doesn't work as expected,https://bugs.launchpad.net/lma-toolchain/+bug/1536533,2016-04-28
+1535577,1535577,Fix Released,Keystone HTTP metrics are missing,https://bugs.launchpad.net/lma-toolchain/+bug/1535577,2016-04-28
+1523579,1523579,Fix Released,"Influxdb node installation fails with ""/sbin/nologin must exist""",https://bugs.launchpad.net/lma-toolchain/+bug/1523579,2016-04-28
+1517053,1517053,Fix Released,collectd decoder dies with specific message,https://bugs.launchpad.net/lma-toolchain/+bug/1517053,2016-04-28
+1503251,1503251,Fix Released,[LMA] the collector service stops when the local RabbitMQ server is down,https://bugs.launchpad.net/lma-toolchain/+bug/1503251,2016-04-28
+1488717,1488717,Fix Released,Controller looses connection to elasticserch/kibana,https://bugs.launchpad.net/lma-toolchain/+bug/1488717,2016-04-28
+1530326,1530326,Fix Released,Heka logstreamer journal missing for OpenStack services,https://bugs.launchpad.net/lma-toolchain/+bug/1530326,2016-04-28
+1527253,1527253,Fix Released,LMA plugins break hiera.yaml with latest ISO,https://bugs.launchpad.net/lma-toolchain/+bug/1527253,2016-04-28
+1507962,1507962,Fix Released,[LMA] MySQL logs aren't collected anymore,https://bugs.launchpad.net/lma-toolchain/+bug/1507962,2016-04-28
+1518377,1518377,Fix Released,LMA Infrastructure Alerting plugin should check private IP addresses for VxLAN too,https://bugs.launchpad.net/lma-toolchain/+bug/1518377,2016-04-28
+1520330,1520330,Fix Released,"OpenStack logs with Rsyslog are missing request id, tenant-id and user-id",https://bugs.launchpad.net/lma-toolchain/+bug/1520330,2016-04-28
+1525247,1525247,Fix Released,Tracebacks aren't logged in the Rsyslog files,https://bugs.launchpad.net/lma-toolchain/+bug/1525247,2016-04-28
+1525831,1525831,Fix Released,Fail to deploy environment due to missing lma_collector::logs::openstack class,https://bugs.launchpad.net/lma-toolchain/+bug/1525831,2016-04-28
+1526389,1526389,Fix Released,Removed controller is still displayed in the main dashboard,https://bugs.launchpad.net/lma-toolchain/+bug/1526389,2016-04-28
+1529784,1529784,Fix Released,Handle sequential rotating OpenStack logfiles,https://bugs.launchpad.net/lma-toolchain/+bug/1529784,2016-04-28
+1531541,1531541,Fix Released,Nova is reported as down when Midonet is installed,https://bugs.launchpad.net/lma-toolchain/+bug/1531541,2016-04-28
+1532869,1532869,Fix Released,All SSH private network checks are unknown,https://bugs.launchpad.net/lma-toolchain/+bug/1532869,2016-04-28
+1535580,1535580,Fix Released,collectd monitors all interfaces including bridges and virtual interfaces,https://bugs.launchpad.net/lma-toolchain/+bug/1535580,2016-04-28
+1535598,1535598,Fix Released,"SeverityLabel in patterns.lua should have l.P""TRACE""",https://bugs.launchpad.net/lma-toolchain/+bug/1535598,2016-04-28
+1535731,1535731,Fix Released,[LMA] Infrastructure Alerting - Missing filesystems to be monitored,https://bugs.launchpad.net/lma-toolchain/+bug/1535731,2016-04-28
+1536692,1536692,Fix Released,InfluxDB database is somehow broken after a scale-up operation,https://bugs.launchpad.net/lma-toolchain/+bug/1536692,2016-04-28
+1538070,1538070,Fix Released,The Elasticsearch cluster isn't monitored anymore after a scale down of the environment,https://bugs.launchpad.net/lma-toolchain/+bug/1538070,2016-04-28
+1538456,1538456,Fix Released,Grafana annotations are broken with Grafana 2.6,https://bugs.launchpad.net/lma-toolchain/+bug/1538456,2016-04-28
+1539567,1539567,Fix Released,Nagios Logs are too noisy,https://bugs.launchpad.net/lma-toolchain/+bug/1539567,2016-04-28
+1540852,1540852,Fix Released,Log message.openstack_roles field is not correctly anlayzed,https://bugs.launchpad.net/lma-toolchain/+bug/1540852,2016-04-28
+1541458,1541458,Fix Released,infrastructure alerting: missing option to disable email notifications,https://bugs.launchpad.net/lma-toolchain/+bug/1541458,2016-04-28
+1541462,1541462,Fix Released,lma collector: configure by default the alerting mode if the infra-alerting role is deployed,https://bugs.launchpad.net/lma-toolchain/+bug/1541462,2016-04-28
+1541815,1541815,Fix Released,Ceph OSD metrics aren't collected anymore,https://bugs.launchpad.net/lma-toolchain/+bug/1541815,2016-04-28
+1541818,1541818,Fix Released,MySQL dashboard is missing some data,https://bugs.launchpad.net/lma-toolchain/+bug/1541818,2016-04-28
+1541951,1541951,Fix Released,Update logs dashboard,https://bugs.launchpad.net/lma-toolchain/+bug/1541951,2016-04-28
+1542300,1542300,Fix Released,number_of_replicas is not configured when scaling up the cluster,https://bugs.launchpad.net/lma-toolchain/+bug/1542300,2016-04-28
+1543464,1543464,Fix Released,Aliases are invalid for some graphs,https://bugs.launchpad.net/lma-toolchain/+bug/1543464,2016-04-28
+1543646,1543646,Fix Released,Alarms on log message metrics are flapping,https://bugs.launchpad.net/lma-toolchain/+bug/1543646,2016-04-28
+1543670,1543670,Fix Released,dbi plugins send duplicate datapoints,https://bugs.launchpad.net/lma-toolchain/+bug/1543670,2016-04-28
+1543939,1543939,Fix Released,influxdb deployment failed with a long mysql username,https://bugs.launchpad.net/lma-toolchain/+bug/1543939,2016-04-28
+1543999,1543999,Fix Released,Worker tables are broken after a service has been deleted,https://bugs.launchpad.net/lma-toolchain/+bug/1543999,2016-04-28
+1546633,1546633,Fix Released,severity_label of pacemaker logs are wrong,https://bugs.launchpad.net/lma-toolchain/+bug/1546633,2016-04-28
+1548355,1548355,Fix Released,The status of the Elasticsearch cluster flaps when new indices are created,https://bugs.launchpad.net/lma-toolchain/+bug/1548355,2016-04-28
+1533653,1533653,Fix Released,wrong number of keystone-admin-api down,https://bugs.launchpad.net/lma-toolchain/+bug/1533653,2016-04-28
+1536183,1536183,Fix Released,Deployment of LMA collector fails when metrics are disabled,https://bugs.launchpad.net/lma-toolchain/+bug/1536183,2016-04-28
+1538160,1538160,Fix Released,Automatically expand replica numbers for Kibana index,https://bugs.launchpad.net/lma-toolchain/+bug/1538160,2016-04-28
+1541841,1541841,Fix Released,No node filter in Grafana for MySQL,https://bugs.launchpad.net/lma-toolchain/+bug/1541841,2016-04-28
+1543465,1543465,Fix Released,The number of outstanding RabbitMQ messages is reported as per second,https://bugs.launchpad.net/lma-toolchain/+bug/1543465,2016-04-28
+1549820,1549820,Fix Released,Glance dashboard doesn't graph private images,https://bugs.launchpad.net/lma-toolchain/+bug/1549820,2016-04-28
+1552287,1552287,Fix Released,Add annotations to the InfluxDB dashboard,https://bugs.launchpad.net/lma-toolchain/+bug/1552287,2016-04-28
+1540073,1540073,Fix Committed,ssh brute force protection,https://bugs.launchpad.net/fuel/+bug/1540073,2016-04-28
+1576160,1576160,Fix Committed,error 500 when responsible user is selected when updating object,https://bugs.launchpad.net/fuel/+bug/1576160,2016-04-28
+1532860,1532860,Fix Released,apache2: Syntax error ... mod_proxy_fcgi.so: undefined symbol: proxy_module,https://bugs.launchpad.net/fuel/+bug/1532860,2016-04-28
+1575681,1575681,Fix Released,response parameter table missing,https://bugs.launchpad.net/openstack-api-site/+bug/1575681,2016-04-28
+1558613,1558613,Fix Released,[SR-IOV] Instance creation fails if there are few sriov nics with same physical network name,https://bugs.launchpad.net/fuel/+bug/1558613,2016-04-28
+1575558,1575558,Fix Committed,[fuel-main] remove centos bootstrap id_rsa key from project,https://bugs.launchpad.net/fuel/+bug/1575558,2016-04-28
+1564102,1564102,Fix Released,[fuel-qa] DPDK availability on interface 'X' is hardware property and can't be changed manually,https://bugs.launchpad.net/fuel/+bug/1564102,2016-04-28
+1457397,1457397,Fix Committed,Replace traceback usage on log.exception  everywhere in ostf,https://bugs.launchpad.net/fuel/+bug/1457397,2016-04-28
+1571558,1571558,Fix Released,New job for numa_cpu_pinning group,https://bugs.launchpad.net/fuel/+bug/1571558,2016-04-28
+1575646,1575646,Fix Committed,missing option 'use_vcenter' in ComputeGroup,https://bugs.launchpad.net/fuel/+bug/1575646,2016-04-28
+1480223,1480223,Fix Released,test_upload_delete_dlo_segments unit test fails intermittently,https://bugs.launchpad.net/python-swiftclient/+bug/1480223,2016-04-28
+1573327,1573327,Fix Released,Fix L2Gateway plugin due to networking-l2gw repo changes,https://bugs.launchpad.net/vmware-nsx/+bug/1573327,2016-04-28
+1501918,1501918,Fix Released,Saml auth plugin should redirect for 303,https://bugs.launchpad.net/keystoneauth/+bug/1501918,2016-04-28
+1501918,1501918,Fix Released,Saml auth plugin should redirect for 303,https://bugs.launchpad.net/python-keystoneclient/+bug/1501918,2016-04-28
+1540531,1540531,Fix Released,Upgrade issues with 'Create log aggregation links',https://bugs.launchpad.net/openstack-ansible/+bug/1540531,2016-04-28
+1535321,1535321,Fix Released,Hardcode 'client.radosgw' value,https://bugs.launchpad.net/puppet-ceph/+bug/1535321,2016-04-27
+1573951,1573951,Fix Released,"Amend docs, ""Known issues"" as a followup of 1573675",https://bugs.launchpad.net/fuel/+bug/1573951,2016-04-27
+1575795,1575795,Fix Committed,6.1.fuel-library.pkgs.ubuntu.ha_neutron_vlan is broken for ci-slave22.fuel-infra.org,https://bugs.launchpad.net/fuel/+bug/1575795,2016-04-27
+1493295,1493295,Fix Released,"Monasca-agent Plugin ""http_status"" isn't healthy when user password consist of only numeral",https://bugs.launchpad.net/monasca/+bug/1493295,2016-04-27
+1540802,1540802,Fix Released,Installing devstack with multi-region setting fails,https://bugs.launchpad.net/devstack/+bug/1540802,2016-04-27
+1575840,1575840,Fix Released,Test Bug within Documentation,https://bugs.launchpad.net/openstack-training-guides/+bug/1575840,2016-04-27
+1554650,1554650,Fix Released,monasca-notification intermittenly has issues with kafka partitions,https://bugs.launchpad.net/monasca/+bug/1554650,2016-04-27
+1533749,1533749,Fix Released,Ceilometer doesn't read data from Secondary MongoDB nodes,https://bugs.launchpad.net/fuel/+bug/1533749,2016-04-27

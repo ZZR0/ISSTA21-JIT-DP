@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1626403,1626403,Fix Released,Crashing on non-ascii resource property keys,https://bugs.launchpad.net/python-keystoneclient/+bug/1626403,2016-11-10
+1620751,1620751,Fix Released,cannot specify v1.22 microversion in openstackclient plugin,https://bugs.launchpad.net/python-ironicclient/+bug/1620751,2016-11-10
+1620737,1620737,Fix Released,Malformed ports field in 'node create' and 'node show' OSC subcommands,https://bugs.launchpad.net/python-ironicclient/+bug/1620737,2016-11-10
+1621021,1621021,Fix Released,Malformed nodes field in 'chassis create' and 'chassis show' OSC subcommands,https://bugs.launchpad.net/python-ironicclient/+bug/1621021,2016-11-10
+1626806,1626806,Fix Released,AttributeError when getting driver passthru methods of fake driver,https://bugs.launchpad.net/python-ironicclient/+bug/1626806,2016-11-10
+1588339,1588339,Fix Released,[RFE] A command to import Ironic resources from a file,https://bugs.launchpad.net/python-ironicclient/+bug/1588339,2016-11-10
+1635548,1635548,Fix Released,node_[create|show|update]_json response func tests fails,https://bugs.launchpad.net/python-ironicclient/+bug/1635548,2016-11-10
+1620974,1620974,Fix Released,ceilometerclient handles exceptions from session object in wrong way,https://bugs.launchpad.net/python-ceilometerclient/+bug/1620974,2016-11-10
+1634027,1634027,Fix Released,SSLError during cclient.meters.list() by https,https://bugs.launchpad.net/python-ceilometerclient/+bug/1634027,2016-11-10
+1615110,1615110,Fix Released,Incorrect usage message,https://bugs.launchpad.net/python-openstackclient/+bug/1615110,2016-11-10
+1609932,1609932,Fix Released,Added API extensions to detect sorting/pagination features,https://bugs.launchpad.net/neutron/+bug/1609932,2016-11-10
+1609934,1609934,Fix Released,Enable sorting and pagination by default,https://bugs.launchpad.net/neutron/+bug/1609934,2016-11-10
+1618205,1618205,Fix Released,neutron-lib eventlet hacking check test was reverted,https://bugs.launchpad.net/neutron/+bug/1618205,2016-11-10
+1620841,1620841,Fix Released,uuid_list validator regression,https://bugs.launchpad.net/neutron/+bug/1620841,2016-11-10
+1624269,1624269,Fix Released,Metering - missing  'tenant_id' for metering-label as request body,https://bugs.launchpad.net/neutron/+bug/1624269,2016-11-10
+1604073,1604073,Fix Released,neutron-lib's validate_values function is incomplete and might fail for some checks,https://bugs.launchpad.net/neutron/+bug/1604073,2016-11-10
+1624048,1624048,Fix Released,Allow creating loadbalancer with network_id,https://bugs.launchpad.net/neutron/+bug/1624048,2016-11-10
+1614994,1614994,Fix Released,keystonemiddleware 401 authentication string is not translated,https://bugs.launchpad.net/keystonemiddleware/+bug/1614994,2016-11-10
+1634110,1634110,Fix Released,keystoneauth shouldn't replace content-type header for request with json body,https://bugs.launchpad.net/keystoneauth/+bug/1634110,2016-11-10
+1613740,1613740,Fix Released,All test are broken,https://bugs.launchpad.net/django-openstack-auth/+bug/1613740,2016-11-10
+1625315,1625315,Fix Released,Can't deploy Mitaka overcloud on CentOS,https://bugs.launchpad.net/tripleo/+bug/1625315,2016-11-10
+1625463,1625463,Fix Released,Package dependency issue in liberty deployments,https://bugs.launchpad.net/tripleo/+bug/1625463,2016-11-10
+1633183,1633183,Fix Released,Remove epel from overcloud image builds,https://bugs.launchpad.net/tripleo/+bug/1633183,2016-11-10
+1566489,1566489,Fix Released,Make VNF name and VIM name optional in Horizon dashboard Deploy VNF form,https://bugs.launchpad.net/tacker/+bug/1566489,2016-11-10
+1490710,1490710,Fix Released,Catalog name provided in the 'Onboard VNF' dialog window does not get reflected in the VNF Catalog list and picks the name from vnfd yaml file,https://bugs.launchpad.net/tacker/+bug/1490710,2016-11-10
+1580496,1580496,Fix Released,Register VIM : Inconsistency between CLI and tacker horizon,https://bugs.launchpad.net/tacker/+bug/1580496,2016-11-10
+1554280,1554280,Fix Released,[multi-site-vim] Enable health monitoring for VIM,https://bugs.launchpad.net/tacker/+bug/1554280,2016-11-10
+1552122,1552122,Fix Released,Display VNF instance details in Tacker Horizon GUI,https://bugs.launchpad.net/tacker/+bug/1552122,2016-11-10
+1581373,1581373,Fix Released,Description parameter missing while Onboarding a VNF in tacker horizon,https://bugs.launchpad.net/tacker/+bug/1581373,2016-11-10
+1594626,1594626,Fix Released,Max Length of the VNFD/VNF/VIM name can be 255 characters long in tacker horizon,https://bugs.launchpad.net/tacker/+bug/1594626,2016-11-10
+1595341,1595341,Fix Released,Register VIM : Description should be rendered as multi lines in tacker horizon.,https://bugs.launchpad.net/tacker/+bug/1595341,2016-11-10
+1596239,1596239,Fix Released,"tacker-horizon, check extension of toscal file",https://bugs.launchpad.net/tacker/+bug/1596239,2016-11-10
+1610316,1610316,Fix Released,openstack client plugin should include only long options,https://bugs.launchpad.net/python-ironicclient/+bug/1610316,2016-11-10
+1590606,1590606,Fix Released,[RFE] Support remote iSCSI shares as root devices via iscsistart,https://bugs.launchpad.net/ironic-python-agent/+bug/1590606,2016-11-10
+1603542,1603542,Fix Released,stevedore 1.16 breaks missing inspector extension handling,https://bugs.launchpad.net/ironic-python-agent/+bug/1603542,2016-11-10
+1603411,1603411,Fix Released,[RFE] Wipe disks metadata cleaning step,https://bugs.launchpad.net/ironic/+bug/1603411,2016-11-10
+1603411,1603411,Fix Released,[RFE] Wipe disks metadata cleaning step,https://bugs.launchpad.net/ironic-python-agent/+bug/1603411,2016-11-10
+1612696,1612696,Fix Released,Lookup does not fallback on 401,https://bugs.launchpad.net/ironic-python-agent/+bug/1612696,2016-11-10
+1533892,1533892,Fix Released,_get_lldp_info() loops indefinitely,https://bugs.launchpad.net/ironic-python-agent/+bug/1533892,2016-11-10
+1616461,1616461,Fix Released,IPA master branch does not work with ironic mitaka.,https://bugs.launchpad.net/ironic-python-agent/+bug/1616461,2016-11-10
+1611856,1611856,Fix Released,[RFE] expose port vendor id and product_id,https://bugs.launchpad.net/ironic-python-agent/+bug/1611856,2016-11-10
+1626544,1626544,Fix Released,int cast error when deploying whole disk image,https://bugs.launchpad.net/ironic-lib/+bug/1626544,2016-11-10
+1626671,1626671,Fix Released,Check for GPT partitioned device is broken,https://bugs.launchpad.net/ironic-lib/+bug/1626671,2016-11-10
+1606534,1606534,Fix Released,"DBError(psycopg2.ProgrammingError) column ""bmc_address"" does not exist",https://bugs.launchpad.net/ironic-inspector/+bug/1606534,2016-11-10
+1618833,1618833,Fix Released,Reapply provides no feedback if fails to get data from swift,https://bugs.launchpad.net/ironic-inspector/+bug/1618833,2016-11-10
+1618645,1618645,Fix Released,Can't set source branch for ironic-inspector and client,https://bugs.launchpad.net/bifrost/+bug/1618645,2016-11-10
+1557247,1557247,Fix Released,API v1 and API v1.1 don't validate reserved queue attributes,https://bugs.launchpad.net/zaqar/+bug/1557247,2016-11-10
+1566506,1566506,Fix Released,Wrong font and size for Cancel button in few places,https://bugs.launchpad.net/trove-dashboard/+bug/1566506,2016-11-10
+1604913,1604913,Fix Released,Sahara UI not installed,https://bugs.launchpad.net/tripleo/+bug/1604913,2016-11-10
+1560934,1560934,Fix Released,Cinder cannot attach iSCSI volume to instance over IPv6,https://bugs.launchpad.net/tripleo/+bug/1560934,2016-11-10
+1562922,1562922,Fix Released,neutron-server service get notify even when we don't manage service,https://bugs.launchpad.net/tripleo/+bug/1562922,2016-11-10
+1563437,1563437,Fix Released,neutron-openvswitch-agent fails to talk to rabbit after upgrade completes successfully,https://bugs.launchpad.net/tripleo/+bug/1563437,2016-11-10
+1563437,1563437,Fix Released,neutron-openvswitch-agent fails to talk to rabbit after upgrade completes successfully,https://bugs.launchpad.net/puppet-neutron/+bug/1563437,2016-11-10
+1563751,1563751,Fix Released,Incomplete galera config for HA with MariaDB 10.1,https://bugs.launchpad.net/tripleo/+bug/1563751,2016-11-10
+1565545,1565545,Fix Released,Unable to renew overcloud SSL certificate,https://bugs.launchpad.net/tripleo/+bug/1565545,2016-11-10
+1564477,1564477,Fix Released,Centos gives /dev/pts/ptmx the wrong perms,https://bugs.launchpad.net/tripleo/+bug/1564477,2016-11-10
+1570265,1570265,Fix Released,Live migration does not work after kilo->liberty upgrade,https://bugs.launchpad.net/tripleo/+bug/1570265,2016-11-10
+1573471,1573471,Fix Released,Sahara SSL port conflicts with Manila,https://bugs.launchpad.net/tripleo/+bug/1573471,2016-11-10
+1576788,1576788,Fix Released,sahara public endpoint url is incorrectly pointing to the internal_api address,https://bugs.launchpad.net/tripleo/+bug/1576788,2016-11-10
+1567384,1567384,Fix Released,Services not restarted on stack-update - config changes can go unapplied,https://bugs.launchpad.net/tripleo/+bug/1567384,2016-11-10
+1581677,1581677,Fix Released,Galera access rules need to be tightened,https://bugs.launchpad.net/tripleo/+bug/1581677,2016-11-10
+1575622,1575622,Fix Released,[tripleo-heat-templates] The Referenced Attribute (ManagementPort ip_subnet) is incorrect,https://bugs.launchpad.net/tripleo/+bug/1575622,2016-11-10
+1586010,1586010,Fix Released,gnocchi statsd doesnt start clean due to misconfigured ceph keyring,https://bugs.launchpad.net/tripleo/+bug/1586010,2016-11-10
+1590057,1590057,Fix Released,keystoneauth1 500 error on stable/mitaka during pingtest,https://bugs.launchpad.net/tripleo/+bug/1590057,2016-11-10
+1590495,1590495,Fix Released,gnocchi requires bulk enabled in swift,https://bugs.launchpad.net/tripleo/+bug/1590495,2016-11-10
+1590004,1590004,Fix Released,Mitaka: Minor updates failing on trying to work with openstack-keystone pcmk resource,https://bugs.launchpad.net/tripleo/+bug/1590004,2016-11-10
+1594411,1594411,Fix Released,HAProxy doesn't get restarted if the certificate is updated for public TLS,https://bugs.launchpad.net/tripleo/+bug/1594411,2016-11-10
+1590589,1590589,Fix Released,set aodh auth_url so it doesnt default to localhost,https://bugs.launchpad.net/tripleo/+bug/1590589,2016-11-10
+1596057,1596057,Fix Released,L->M upgrades need to set the paste_deploy in keystone to a different path,https://bugs.launchpad.net/tripleo/+bug/1596057,2016-11-10
+1596065,1596065,Fix Released,Disable stonith during upgrades while stopping the cluster,https://bugs.launchpad.net/tripleo/+bug/1596065,2016-11-10
+1597674,1597674,Fix Released,Upgrade L->M converge puppet run fails because of missing commands,https://bugs.launchpad.net/tripleo/+bug/1597674,2016-11-10
+1600139,1600139,Fix Released,rabbitmq runs out of file descriptors,https://bugs.launchpad.net/tripleo/+bug/1600139,2016-11-10
+1599913,1599913,Fix Released,openstack-core isn't created when loadbalancer is false,https://bugs.launchpad.net/tripleo/+bug/1599913,2016-11-10
+1604860,1604860,Fix Released,Add a base constraint so gnocchi services should start after galera,https://bugs.launchpad.net/tripleo/+bug/1604860,2016-11-10
+1592449,1592449,Fix Released,Configure tripleo to create legacy resources during gnocchi upgrade,https://bugs.launchpad.net/tripleo/+bug/1592449,2016-11-10

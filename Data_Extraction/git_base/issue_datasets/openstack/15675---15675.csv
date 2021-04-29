@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1734037,1734037,Fix Released,DS8K: lss_range_for_cg should take csv as well as range,https://bugs.launchpad.net/cinder/+bug/1734037,2018-01-30
+1727963,1727963,Fix Released,DS8K: don't swap role after failover group,https://bugs.launchpad.net/cinder/+bug/1727963,2018-01-30
+1734252,1734252,Fix Released,workers cleanup API raises TypeError if invalid resource_type value is passed,https://bugs.launchpad.net/cinder/+bug/1734252,2018-01-30
+1723430,1723430,Fix Released,xtrem io terminate connection does not delete initiator group,https://bugs.launchpad.net/cinder/+bug/1723430,2018-01-30
+1735337,1735337,Fix Released,WARNING displayed in cinder logs when generic groups quota limit is updated,https://bugs.launchpad.net/cinder/+bug/1735337,2018-01-30
+1732557,1732557,Fix Released,Create from volume or create from snapshot regression with storage pools,https://bugs.launchpad.net/cinder/+bug/1732557,2018-01-30
+1729258,1729258,Fix Released,VMAX Doc - clarification and typo fixes,https://bugs.launchpad.net/cinder/+bug/1729258,2018-01-30
+1735650,1735650,Fix Released,"When capturing a vm, gigabytes quota gets updated to crrect value momentarily & then rolls back to its previous value. Also, there is inconsistency in snapshots quota",https://bugs.launchpad.net/cinder/+bug/1735650,2018-01-30
+1673662,1673662,Fix Released,Cinder ssh_util sends no keepalive packet.,https://bugs.launchpad.net/cinder/+bug/1673662,2018-01-30
+1736854,1736854,Fix Released,Policy in code changes introduce Error messages in logs for V3 GET Volume,https://bugs.launchpad.net/cinder/+bug/1736854,2018-01-30
+1732378,1732378,Fix Released,set volume  status to error if  restore_backup failed with volume expected_status,https://bugs.launchpad.net/cinder/+bug/1732378,2018-01-30
+1736907,1736907,Fix Released,Storwize: restrict the group creation rule,https://bugs.launchpad.net/cinder/+bug/1736907,2018-01-30
+1737724,1737724,Fix Released,FC attachment issue,https://bugs.launchpad.net/cinder/+bug/1737724,2018-01-30
+1738254,1738254,Fix Released,"TEMPEST test case failed ""tempest.api.compute.volumes.test_attach_volume.AttachVolumeShelveTestJSON.test_detach_volume_shelved_or_offload_server""",https://bugs.launchpad.net/cinder/+bug/1738254,2018-01-30
+1738223,1738223,Fix Released,Conflicting order to restart services in upgrade docs,https://bugs.launchpad.net/cinder/+bug/1738223,2018-01-30
+1730375,1730375,Fix Released,creating mirrored lvm volume in CentOS 7.4 fails,https://bugs.launchpad.net/cinder/+bug/1730375,2018-01-30
+1729782,1729782,Fix Released,Storwize: creating volume with replication group_id will be rejected,https://bugs.launchpad.net/cinder/+bug/1729782,2018-01-30
+1737609,1737609,Fix Released,Some APIs return None when missing permissions instead of raising 403,https://bugs.launchpad.net/cinder/+bug/1737609,2018-01-30
+1727314,1727314,Fix Released,create group snapshot failure leaves behind the volume,https://bugs.launchpad.net/cinder/+bug/1727314,2018-01-30
+1685012,1685012,Fix Released,NFS nas_secure auto mode permissions issue,https://bugs.launchpad.net/cinder/+bug/1685012,2018-01-30
+1738965,1738965,Fix Released,InStorage: doing instance live migration encounter failed,https://bugs.launchpad.net/cinder/+bug/1738965,2018-01-30
+1731393,1731393,Fix Released,Solidfire option sf_enable_volume_mapping is not working,https://bugs.launchpad.net/cinder/+bug/1731393,2018-01-30
+1737452,1737452,Fix Released,NEC driver: SAN access control should be configured automatically.,https://bugs.launchpad.net/cinder/+bug/1737452,2018-01-30
+1739987,1739987,Fix Released,Miss generalized_filters in cinder administration doc,https://bugs.launchpad.net/cinder/+bug/1739987,2018-01-30
+1739988,1739988,Fix Released,Adding all docs into index.rst of administration docs,https://bugs.launchpad.net/cinder/+bug/1739988,2018-01-30
+1717295,1717295,Fix Released,VMAX driver - Cannot extend volumes with snapshots,https://bugs.launchpad.net/cinder/+bug/1717295,2018-01-30
+1729657,1729657,Fix Released,VMAX driver - retypes failing when workload is missing,https://bugs.launchpad.net/cinder/+bug/1729657,2018-01-30
+1731930,1731930,Fix Released,VMAX driver - Incorrect stats reporting,https://bugs.launchpad.net/cinder/+bug/1731930,2018-01-30
+1732488,1732488,Fix Released,VMAX driver - Improve rollback on GVG create from source failures,https://bugs.launchpad.net/cinder/+bug/1732488,2018-01-30
+1735456,1735456,Fix Released,VMAX driver - Errors extending multiple replicated volumes concurrently,https://bugs.launchpad.net/cinder/+bug/1735456,2018-01-30
+1736661,1736661,Fix Released,dell_emc vmax driver has a type error,https://bugs.launchpad.net/cinder/+bug/1736661,2018-01-30
+1740826,1740826,Fix Released,DS8K driver: consistency group snapshots should not created on lsses which reserved for cg,https://bugs.launchpad.net/cinder/+bug/1740826,2018-01-30
+1741112,1741112,Fix Released,500 response received when trying to create volume attachment when volume is in-use,https://bugs.launchpad.net/cinder/+bug/1741112,2018-01-30
+1739640,1739640,Fix Released,3.48 volume response parameters are not in the v3 API reference,https://bugs.launchpad.net/cinder/+bug/1739640,2018-01-30
+1734053,1734053,Fix Released,[api-ref][Block storage v3 API] Shows details for Block Storage API v3 url error,https://bugs.launchpad.net/cinder/+bug/1734053,2018-01-30
+1741431,1741431,Fix Released,Storwize: correct in-use replication volume status and detaching behavior,https://bugs.launchpad.net/cinder/+bug/1741431,2018-01-30
+1741191,1741191,Fix Released,Create snapshot failed on cinder client,https://bugs.launchpad.net/cinder/+bug/1741191,2018-01-30
+1742100,1742100,Fix Released,VMAX driver - Race condition when creating volumes concurrently on clean system,https://bugs.launchpad.net/cinder/+bug/1742100,2018-01-30
+1742092,1742092,Fix Released,create group from source (in case of  tiramisu) for HPE 3PAR is not working,https://bugs.launchpad.net/cinder/+bug/1742092,2018-01-30
+1741833,1741833,Fix Released,Capacity will be consumed repeatedly when reschedule create volume request.,https://bugs.launchpad.net/cinder/+bug/1741833,2018-01-30
+1742371,1742371,Fix Released,reservation are left when validate snapshot metadata failed,https://bugs.launchpad.net/cinder/+bug/1742371,2018-01-30
+1742609,1742609,Fix Released,Policy for volume from image is being checked even if we're no creating a volume from image,https://bugs.launchpad.net/cinder/+bug/1742609,2018-01-30
+1734334,1734334,Fix Released,Cinder Volume cannot use multiple backends on Windows,https://bugs.launchpad.net/cinder/+bug/1734334,2018-01-30
+1742026,1742026,Fix Released,Storwize: Update documents for Tiramisu,https://bugs.launchpad.net/cinder/+bug/1742026,2018-01-30
+1742845,1742845,Fix Released,DS8K: adding in-use volume to group with consistency should be blocked,https://bugs.launchpad.net/cinder/+bug/1742845,2018-01-30
+1742709,1742709,Fix Released,VMAX driver - QOS settings incorrectly applied on Default storage group,https://bugs.launchpad.net/cinder/+bug/1742709,2018-01-30
+1742938,1742938,Fix Released,metadata and group_specs should allow null.,https://bugs.launchpad.net/cinder/+bug/1742938,2018-01-30
+1736298,1736298,Fix Released,Add DataCore documentation,https://bugs.launchpad.net/cinder/+bug/1736298,2018-01-30
+1742907,1742907,Fix Released,Name and Description is storing in DB with leading and trailing spaces,https://bugs.launchpad.net/cinder/+bug/1742907,2018-01-30
+1743338,1743338,Fix Released,discrepancy in snapshot_manage create API for 'ref' parameter,https://bugs.launchpad.net/cinder/+bug/1743338,2018-01-30
+1742616,1742616,Fix Released,Storwize: replcae local file lock with DLM,https://bugs.launchpad.net/cinder/+bug/1742616,2018-01-30
+1569150,1569150,Fix Released,Notification for QoS is not good enough,https://bugs.launchpad.net/cinder/+bug/1569150,2018-01-30
+1742940,1742940,Fix Released,group type & volume type APIs should allow combinations of parameters for update,https://bugs.launchpad.net/cinder/+bug/1742940,2018-01-30
+1744021,1744021,Fix Released,"HPE 3PAR - Volume migration is failing for ""in-use"" volume.",https://bugs.launchpad.net/cinder/+bug/1744021,2018-01-30
+1737000,1737000,Fix Released,"There is no policy controlling the ""complete attachment"" API action",https://bugs.launchpad.net/cinder/+bug/1737000,2018-01-30
+1745194,1745194,Fix Released,py27 tests failing to start API server,https://bugs.launchpad.net/searchlight/+bug/1745194,2018-01-30
+1743898,1743898,Fix Released,favicon-webpack-plugin not compatible with npm 5 (abandoned project),https://bugs.launchpad.net/tripleo/+bug/1743898,2018-01-30
+1734814,1734814,Fix Released,Memory channels parameter is not derivable in mistral derive parameter,https://bugs.launchpad.net/tripleo/+bug/1734814,2018-01-30
+1735214,1735214,Fix Released,capabilities map lists outdated files for ceph and ha,https://bugs.launchpad.net/tripleo/+bug/1735214,2018-01-30
+1730275,1730275,Fix Released,NovaMigrationTarget service is missing in NFV roles (DPDK and SR-IOV),https://bugs.launchpad.net/tripleo/+bug/1730275,2018-01-30
+1734353,1734353,Fix Released,[pike] [ci] containers-multinode-upgrades-pike job is broken due to missing puppet class.,https://bugs.launchpad.net/tripleo/+bug/1734353,2018-01-30
+1734093,1734093,Fix Released,CephPools can't be used to override properties of the standard OpenStack pools when using ceph-ansible,https://bugs.launchpad.net/tripleo/+bug/1734093,2018-01-30
+1733586,1733586,Fix Released,config-download generates invalid yaml if swap enabled,https://bugs.launchpad.net/tripleo/+bug/1733586,2018-01-30
+1735852,1735852,Fix Released,docker pacemaker service rabbitmq missing noops for Rabbitmq_policy and Rabbitmq_user puppet resources,https://bugs.launchpad.net/tripleo/+bug/1735852,2018-01-30
+1736687,1736687,Fix Released,there is no way to configure SR-IOV agent with qos extenstion,https://bugs.launchpad.net/tripleo/+bug/1736687,2018-01-30
+1736980,1736980,Fix Released,"n->o->p major-upgrade-composable-steps-docker.yaml fails with Error: Evaluation Error: Error while evaluating a Function Call, Could not find class ::panko",https://bugs.launchpad.net/tripleo/+bug/1736980,2018-01-30
+1737027,1737027,Fix Released,enable-ssh-admin.sh: use StrictHostKeyChecking=no,https://bugs.launchpad.net/tripleo/+bug/1737027,2018-01-30
+1737043,1737043,Fix Released,docker-puppet.py: can't easily reproduce a single failure from docker-puppet.json,https://bugs.launchpad.net/tripleo/+bug/1737043,2018-01-30
+1737548,1737548,Fix Released,Search for pcs managed containers with '--all' flag,https://bugs.launchpad.net/tripleo/+bug/1737548,2018-01-30
+1736707,1736707,Fix Released,ExtraConfigPre ignored by ceph-ansible,https://bugs.launchpad.net/tripleo/+bug/1736707,2018-01-30
+1738764,1738764,Fix Released,Enabling ConfigDebug: true misses the init_bundle containers,https://bugs.launchpad.net/tripleo/+bug/1738764,2018-01-30
+1736170,1736170,Fix Released,allow to set the maxpoll for time daemon,https://bugs.launchpad.net/tripleo/+bug/1736170,2018-01-30
+1735425,1735425,Fix Released,Iscsid container gets wrong volume for puppet generated configs,https://bugs.launchpad.net/tripleo/+bug/1735425,2018-01-30
+1741270,1741270,Fix Released,"ControllerNoCeph does not configure a CephClient for controller services that need it, e.g. Cinder, Glance, etc",https://bugs.launchpad.net/tripleo/+bug/1741270,2018-01-30
+1741452,1741452,Fix Released,clean up contrail in tripleo,https://bugs.launchpad.net/tripleo/+bug/1741452,2018-01-30

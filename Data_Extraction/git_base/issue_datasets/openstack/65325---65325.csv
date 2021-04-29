@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1412590,1412590,Fix Released,Pool Manager should reuse the existing threadgroup,https://bugs.launchpad.net/designate/+bug/1412590,2015-04-30
+1411398,1411398,Fix Released,PowerDNS Backend Tests,https://bugs.launchpad.net/designate/+bug/1411398,2015-04-30
+1411373,1411373,Fix Released,v2 reports do not have unit tests,https://bugs.launchpad.net/designate/+bug/1411373,2015-04-30
+1411132,1411132,Fix Released,oslo.db should >= 1.4.0,https://bugs.launchpad.net/designate/+bug/1411132,2015-04-30
+1408200,1408200,Fix Released,Pool Manager Needs Better Logging,https://bugs.launchpad.net/designate/+bug/1408200,2015-04-30
+1403267,1403267,Fix Released,create_domain should handle status asynchronously,https://bugs.launchpad.net/designate/+bug/1403267,2015-04-30
+1407218,1407218,Fix Released,README.rst should specifically refer to [drivers:storage:mongodb]/uri,https://bugs.launchpad.net/zaqar/+bug/1407218,2015-04-30
+1433247,1433247,Fix Released,Dependencies missing in the README.rst file,https://bugs.launchpad.net/zaqar/+bug/1433247,2015-04-30
+1439542,1439542,Fix Released,Lazy queue creation doesn't validate queue's data,https://bugs.launchpad.net/zaqar/+bug/1439542,2015-04-30
+1412539,1412539,Fix Released,api v2 update_recordset works improperly when updating 'records',https://bugs.launchpad.net/designate/+bug/1412539,2015-04-30
+1411400,1411400,Fix Released,PowerDNS Backend uses incorrect list of masters,https://bugs.launchpad.net/designate/+bug/1411400,2015-04-30
+1361017,1361017,Fix Released,Inconsistent use of storage.errors,https://bugs.launchpad.net/zaqar/+bug/1361017,2015-04-30
+1409083,1409083,Fix Released,Creating Domain On More Than One Server Fails in Pool Manager.,https://bugs.launchpad.net/designate/+bug/1409083,2015-04-30
+1373800,1373800,Fix Released,Make sure the admin_mode prop register only once,https://bugs.launchpad.net/zaqar/+bug/1373800,2015-04-30
+1408201,1408201,Fix Released,Pool Manager Needs Unit Tests,https://bugs.launchpad.net/designate/+bug/1408201,2015-04-30
+1383604,1383604,Fix Released,nosetests failed when ZAQAR_TEST_INTEGRATION enabled,https://bugs.launchpad.net/zaqar/+bug/1383604,2015-04-30
+1406414,1406414,Fix Released,Delete zone fails to propagate to all (Bind) nameservers in a pool depending on threshold_percentage,https://bugs.launchpad.net/designate/+bug/1406414,2015-04-30
+1369536,1369536,Fix Released,Add Missing Unit Tests,https://bugs.launchpad.net/zaqar/+bug/1369536,2015-04-30
+1404377,1404377,Fix Released,Zone marked as ACTIVE prior to being transferred to nameserver,https://bugs.launchpad.net/designate/+bug/1404377,2015-04-30
+1450124,1450124,Fix Committed,auxiliary repo breaks when uploading custom packages,https://bugs.launchpad.net/fuel/+bug/1450124,2015-04-30
+1361275,1361275,Fix Released,Add the base API and pools schema to the v1.1 homedoc,https://bugs.launchpad.net/zaqar/+bug/1361275,2015-04-30
+1351462,1351462,Fix Released,DRY pool meta-controllers,https://bugs.launchpad.net/zaqar/+bug/1351462,2015-04-30
+1348453,1348453,Fix Released,The functional test of pool shouldn't be skipped,https://bugs.launchpad.net/zaqar/+bug/1348453,2015-04-30
+1348335,1348335,Fix Released,Sample config is out of date,https://bugs.launchpad.net/zaqar/+bug/1348335,2015-04-30
+1399554,1399554,Fix Released,Pooling endpoints should be registered when pooling=True,https://bugs.launchpad.net/zaqar/+bug/1399554,2015-04-30
+1433158,1433158,Fix Released,The pipeline should return a `zaqar.common.pipeline.Pipeline` object instead of a list,https://bugs.launchpad.net/zaqar/+bug/1433158,2015-04-30
+1429401,1429401,Fix Released,Fix 'tox -e genconfig' warnings,https://bugs.launchpad.net/zaqar/+bug/1429401,2015-04-30
+1397027,1397027,Fix Released,Syntax enhancements in some modules,https://bugs.launchpad.net/zaqar/+bug/1397027,2015-04-30
+1412608,1412608,Fix Released,500 error during queues list when pool enabled and no queue,https://bugs.launchpad.net/zaqar/+bug/1412608,2015-04-30
+1403423,1403423,Fix Released,No need to include zaqar.config.sample,https://bugs.launchpad.net/zaqar/+bug/1403423,2015-04-30
+1409364,1409364,Fix Released,MismatchError while testing the Zaqar's MongoDB queue counter incrementation time window.,https://bugs.launchpad.net/zaqar/+bug/1409364,2015-04-30
+1404177,1404177,Fix Released,keystonemiddleware  1.3 is breaking the gate,https://bugs.launchpad.net/zaqar/+bug/1404177,2015-04-30
+1439908,1439908,Fix Committed,"Receiving ""Connected"" and ""Disconnected"" from corosync-notifyd  too often",https://bugs.launchpad.net/fuel/+bug/1439908,2015-04-30
+1441563,1441563,Fix Released,"Tempest doesn't wait for complete deletion of volume snapshot before deleting volume in test ""test_volume_boot_pattern""",https://bugs.launchpad.net/tempest/+bug/1441563,2015-04-30
+1327994,1327994,Fix Committed,Support of fuse-sshfs on master node,https://bugs.launchpad.net/fuel/+bug/1327994,2015-04-30
+1325537,1325537,Fix Committed,SQLAlchemy and Alembic packages with new versions needed,https://bugs.launchpad.net/fuel/+bug/1325537,2015-04-30
+1449563,1449563,Fix Released,test_rebuild_server may break other tests,https://bugs.launchpad.net/tempest/+bug/1449563,2015-04-30
+1441413,1441413,Fix Released,There is no maintenance check before do_node_deploy,https://bugs.launchpad.net/ironic/+bug/1441413,2015-04-30
+1439498,1439498,Fix Released,AgentClient throws incomprehensible error message when agent hits internal server error,https://bugs.launchpad.net/ironic/+bug/1439498,2015-04-30
+1323589,1323589,Fix Released,Installation guide needs updating,https://bugs.launchpad.net/ironic/+bug/1323589,2015-04-30
+1442081,1442081,Fix Released,Race condition in Ironic unittests,https://bugs.launchpad.net/ironic/+bug/1442081,2015-04-30
+1438041,1438041,Fix Released,There is a wrong variable format used in msg of ilo function _update_capabilities,https://bugs.launchpad.net/ironic/+bug/1438041,2015-04-30
+1437227,1437227,Fix Released,Update documentation to indicate lattest pythonseamicroclient package version,https://bugs.launchpad.net/ironic/+bug/1437227,2015-04-30
+1436569,1436569,Fix Released,Agent driver may deploy or clean a maintenanced node,https://bugs.launchpad.net/ironic/+bug/1436569,2015-04-30
+1435948,1435948,Fix Released,Incorrect assertEqual statements in unit tests,https://bugs.launchpad.net/ironic/+bug/1435948,2015-04-30
+1378933,1378933,Fix Released,document how cinder can provide iSCSI volumes for nodes,https://bugs.launchpad.net/ironic/+bug/1378933,2015-04-30
+1268589,1268589,Fix Released,Having IDs in get_test_<resource> in tests could result in Primary Key violation,https://bugs.launchpad.net/ironic/+bug/1268589,2015-04-30
+1441727,1441727,Fix Released,Glance exceptions not handled correctly by ironic's glance image service,https://bugs.launchpad.net/ironic/+bug/1441727,2015-04-30
+1441710,1441710,Fix Released,iPXE: Use hexhyp type instead of hexraw,https://bugs.launchpad.net/ironic/+bug/1441710,2015-04-30
+1441691,1441691,Fix Released,iscsi_ilo driver : deploy fails with ipa ramdisk if user image do not have boot iso property in UEFI boot mode,https://bugs.launchpad.net/ironic/+bug/1441691,2015-04-30
+1439664,1439664,Fix Released,VM get stuck when pxe_ssh is deployed with local boot,https://bugs.launchpad.net/ironic/+bug/1439664,2015-04-30
+1439072,1439072,Fix Released,pxe_amt driver didn't support IPA ramdisk well,https://bugs.launchpad.net/ironic/+bug/1439072,2015-04-30
+1437170,1437170,Fix Released,ironic raises UnicodeEncodeError exception in the non-english language locale,https://bugs.launchpad.net/ironic/+bug/1437170,2015-04-30
+1436884,1436884,Fix Released,Stop console when changing node's driver,https://bugs.launchpad.net/ironic/+bug/1436884,2015-04-30
+1436824,1436824,Fix Released,Lost control of nodes with amt driver after user reboot,https://bugs.launchpad.net/ironic/+bug/1436824,2015-04-30
+1436791,1436791,Fix Released,boot_mode is overwritten in node properties/capabilities  when secure boot is requested for iLO drivers,https://bugs.launchpad.net/ironic/+bug/1436791,2015-04-30
+1434473,1434473,Fix Released,DRAC client should retry on communication failures,https://bugs.launchpad.net/ironic/+bug/1434473,2015-04-30
+1434452,1434452,Fix Released,iscsi_ilo driver doesn't support whole disk image deployment using agent ramdisk,https://bugs.launchpad.net/ironic/+bug/1434452,2015-04-30
+1433832,1433832,Fix Released,Fix is_hostname_safe for RFC compliance,https://bugs.launchpad.net/ironic/+bug/1433832,2015-04-30
+1441599,1441599,Fix Released,test_policy_IO_override from test.unit.proxy.test_server.TestObjectController randomly fails,https://bugs.launchpad.net/swift/+bug/1441599,2015-04-30
+1431929,1431929,Fix Released,"Ironic failing to gracefully handle: ipmi error ""insufficient resources for session""",https://bugs.launchpad.net/ironic/+bug/1431929,2015-04-30
+1438579,1438579,Fix Released,swift-ring-builder - empty device name,https://bugs.launchpad.net/swift/+bug/1438579,2015-04-30
+1431204,1431204,Fix Released,New field 'name' not supported in port REST API,https://bugs.launchpad.net/ironic/+bug/1431204,2015-04-30
+1430454,1430454,Fix Released,IPA deploy driver gives incomprehensible error message when using partition images,https://bugs.launchpad.net/ironic/+bug/1430454,2015-04-30
+1434465,1434465,Fix Released,Tempauth Fails with Authorization Header,https://bugs.launchpad.net/swift/+bug/1434465,2015-04-30
+1415117,1415117,Fix Released,iSCSI login depends on fix length sleep to wait for connections to become active,https://bugs.launchpad.net/ironic/+bug/1415117,2015-04-30
+1430645,1430645,Fix Released,[OSSA 2015-006] unauthorized delete from container with x-version-location (CVE-2015-1856),https://bugs.launchpad.net/ossa/+bug/1430645,2015-04-30
+1430645,1430645,Fix Released,[OSSA 2015-006] unauthorized delete from container with x-version-location (CVE-2015-1856),https://bugs.launchpad.net/swift/+bug/1430645,2015-04-30
+1405519,1405519,Fix Released,hang at 'deploying' state if can not get root_uuid,https://bugs.launchpad.net/ironic/+bug/1405519,2015-04-30
+1397988,1397988,Fix Released,Ironic should allow choosing the root device,https://bugs.launchpad.net/ironic/+bug/1397988,2015-04-30
+1415957,1415957,Fix Released,unauthorized container GET returns 404 when account not found,https://bugs.launchpad.net/swift/+bug/1415957,2015-04-30
+1394609,1394609,Fix Released,IPA ramdisk should support PXE driver,https://bugs.launchpad.net/ironic/+bug/1394609,2015-04-30
+1442810,1442810,Fix Released,Cleaning may leave nodes locked and require manual intervention to unlock,https://bugs.launchpad.net/ironic/+bug/1442810,2015-04-30
+1375384,1375384,Fix Released,Error logs for PolicyError are absent or nasty,https://bugs.launchpad.net/swift/+bug/1375384,2015-04-30
+1441014,1441014,Fix Released,Improper error handling when Ironic application runs under Apache2,https://bugs.launchpad.net/ironic/+bug/1441014,2015-04-30

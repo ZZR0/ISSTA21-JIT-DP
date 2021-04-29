@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1268670,1268670,Fix Released,"[network] should create ""plugin.ini"" symlink on RHEL family systems",https://bugs.launchpad.net/openstack-chef/+bug/1268670,2014-03-02
+1279837,1279837,Fix Released,[network] openvswitch kernel module is not always reloaded properly,https://bugs.launchpad.net/openstack-chef/+bug/1279837,2014-03-02
+1282457,1282457,Fix Released,[chef-repo] no documentation about the data bag structure,https://bugs.launchpad.net/openstack-chef/+bug/1282457,2014-03-02
+1282941,1282941,Fix Released,[Image] registry.rb order bug,https://bugs.launchpad.net/openstack-chef/+bug/1282941,2014-03-02
+1283237,1283237,Fix Released,numerous neutron-lbaas-agent issues,https://bugs.launchpad.net/openstack-chef/+bug/1283237,2014-03-02
+1277266,1277266,Fix Released,[identity] conflicting attributes for the identity bind interface,https://bugs.launchpad.net/openstack-chef/+bug/1277266,2014-03-02
+1278030,1278030,Fix Released,[dashboard] Django 1.5 needs allowed hosts,https://bugs.launchpad.net/openstack-chef/+bug/1278030,2014-03-02
+1279577,1279577,Fix Released,[orchestration] cfn is registered with identity when not used,https://bugs.launchpad.net/openstack-chef/+bug/1279577,2014-03-02
+1280285,1280285,Fix Released,[block-storage] Incorrect platform? reference in template,https://bugs.launchpad.net/openstack-chef/+bug/1280285,2014-03-02
+1280361,1280361,Fix Released,[network] cannot update quotas,https://bugs.launchpad.net/openstack-chef/+bug/1280361,2014-03-02
+1274879,1274879,Fix Released,[image] Attributise rabbit_notification_topic,https://bugs.launchpad.net/openstack-chef/+bug/1274879,2014-03-02
+1276099,1276099,Fix Released,[block-storage] Missing attribute for notification_topic,https://bugs.launchpad.net/openstack-chef/+bug/1276099,2014-03-02
+1279756,1279756,Fix Released,[block-storage] LVM options missing,https://bugs.launchpad.net/openstack-chef/+bug/1279756,2014-03-02
+1253016,1253016,Fix Released,[identity] Define resource matchers for register resources,https://bugs.launchpad.net/openstack-chef/+bug/1253016,2014-03-02
+1273947,1273947,Fix Released,jeepby gerrit hook scripts are incompatible with gerrit 2.8,https://bugs.launchpad.net/openstack-ci/+bug/1273947,2014-03-01
+1286443,1286443,Fix Released,docker plugin fails on search for glance image,https://bugs.launchpad.net/devstack/+bug/1286443,2014-03-01
+1285924,1285924,Fix Released,clean.sh does not remove some files,https://bugs.launchpad.net/devstack/+bug/1285924,2014-03-01
+1280028,1280028,Fix Released,500 error when retrieving SLO manifest with If-Modified-Since,https://bugs.launchpad.net/swift/+bug/1280028,2014-03-01
+1259565,1259565,Fix Released,Container quota middleware must handle COPY verb,https://bugs.launchpad.net/swift/+bug/1259565,2014-03-01
+1280022,1280022,Fix Released,500 error when retrieving DLO manifest with If-Modified-Since,https://bugs.launchpad.net/swift/+bug/1280022,2014-03-01
+1279076,1279076,Fix Released,dlo / slo do not handle If-Match/If-None-Match headers correctly,https://bugs.launchpad.net/swift/+bug/1279076,2014-03-01
+1280954,1280954,Fix Released,account and container can't disable logging,https://bugs.launchpad.net/swift/+bug/1280954,2014-03-01
+1281626,1281626,Fix Released,Invalid account acl header value generates 500 response,https://bugs.launchpad.net/swift/+bug/1281626,2014-03-01
+1277848,1277848,Fix Released,Docker install script fails to install docker registry,https://bugs.launchpad.net/devstack/+bug/1277848,2014-02-28
+1275158,1275158,Fix Released,LDAP root DN creation fails,https://bugs.launchpad.net/devstack/+bug/1275158,2014-02-28
+1271775,1271775,Fix Released,common log format,https://bugs.launchpad.net/devstack/+bug/1271775,2014-02-28
+1235626,1235626,Fix Released,Use of shocco not documented,https://bugs.launchpad.net/devstack/+bug/1235626,2014-02-28
+1237461,1237461,Fix Released,xenapi: network setup ignoring defaults,https://bugs.launchpad.net/devstack/+bug/1237461,2014-02-28
+1238707,1238707,Fix Released,fixup_stuff.sh fails for py26,https://bugs.launchpad.net/devstack/+bug/1238707,2014-02-28
+1241574,1241574,Fix Released,Horizon on Ubuntu 13.10 has wrong apache permissions,https://bugs.launchpad.net/devstack/+bug/1241574,2014-02-28
+1241923,1241923,Fix Released,even with OFFLINE=True the pip 1.4.1 is getting from Internet,https://bugs.launchpad.net/devstack/+bug/1241923,2014-02-28
+1277516,1277516,Fix Released,marconi user creation failes,https://bugs.launchpad.net/devstack/+bug/1277516,2014-02-28
+1283173,1283173,Fix Released,git fetch fails but stack continues on,https://bugs.launchpad.net/devstack/+bug/1283173,2014-02-28
+1285740,1285740,Fix Released,New devstack env on Fedora 20 fails to authenticate with libvirt,https://bugs.launchpad.net/devstack/+bug/1285740,2014-02-28
+1285780,1285780,Fix Released,exits if have local changes,https://bugs.launchpad.net/devstack/+bug/1285780,2014-02-28
+1279983,1279983,Fix Released,Add better error handling for Heat,https://bugs.launchpad.net/tuskar/+bug/1279983,2014-02-28
+1282047,1282047,Fix Released,Expose heat stack-create/update exceptions  back to user,https://bugs.launchpad.net/tuskar/+bug/1282047,2014-02-28
+1276180,1276180,Fix Released,Gerrit hook scripts failing with IndexError exceptions,https://bugs.launchpad.net/openstack-ci/+bug/1276180,2014-02-28
+1283358,1283358,Fix Released,Document how to stop a deployment,https://bugs.launchpad.net/fuel/+bug/1283358,2014-02-28
+1283357,1283357,Fix Released,Document how to reset environment to pre-deploy state,https://bugs.launchpad.net/fuel/+bug/1283357,2014-02-28
+1267741,1267741,Fix Released,Documentation: Insufficient explanation of Network architecture,https://bugs.launchpad.net/fuel/+bug/1267741,2014-02-28
+1271931,1271931,Fix Released,Eventually consistent read in test_items.py where strong is expected,https://bugs.launchpad.net/magnetodb/+bug/1271931,2014-02-28
+1271942,1271942,Fix Released,Inconsistent read makes test unstable,https://bugs.launchpad.net/magnetodb/+bug/1271942,2014-02-28
+1271529,1271529,Fix Released,Incorrect error responce on problems during table creation,https://bugs.launchpad.net/magnetodb/+bug/1271529,2014-02-28
+1269878,1269878,Fix Released,Table creation fails from time to time,https://bugs.launchpad.net/magnetodb/+bug/1269878,2014-02-28
+1281153,1281153,Fix Released,fuel cli removes all nodes when misspelt,https://bugs.launchpad.net/fuel/+bug/1281153,2014-02-28
+1285162,1285162,Fix Released,User can run Health Check tests before deploy environment,https://bugs.launchpad.net/fuel/+bug/1285162,2014-02-28
+1283860,1283860,Fix Released,Murano seems to be using hardcoded keystone creds,https://bugs.launchpad.net/fuel/+bug/1283860,2014-02-28
+1282613,1282613,Fix Released,OSError: [Errno 13] Permission denied: for murano dashboard,https://bugs.launchpad.net/fuel/+bug/1282613,2014-02-28
+1282478,1282478,Fix Released,Failed tests for cli test_selected_node_deploy_or_provision,https://bugs.launchpad.net/fuel/+bug/1282478,2014-02-28
+1280709,1280709,Fix Released,intermittent resize2fs failures: kernel BUG at fs/ext4/resize.c:409!,https://bugs.launchpad.net/diskimage-builder/+bug/1280709,2014-02-28
+1285089,1285089,Fix Released,Package bc is absent in Ubuntu repo,https://bugs.launchpad.net/fuel/+bug/1285089,2014-02-28
+1281573,1281573,Fix Released,Neutron-GRE broken with  nailgun 9d8b3ba659,https://bugs.launchpad.net/fuel/+bug/1281573,2014-02-28
+1284500,1284500,Fix Released,test_live_block_migration_negative.py failed because the usage of 'self.config.compute_feature_enabled',https://bugs.launchpad.net/tempest/+bug/1284500,2014-02-28
+1282833,1282833,Fix Released,EC2VolumesTest should skip if cinder tests are disabled,https://bugs.launchpad.net/tempest/+bug/1282833,2014-02-28
+1265559,1265559,Fix Released,Message in BuildErrorException is too generic,https://bugs.launchpad.net/tempest/+bug/1265559,2014-02-28
+1265195,1265195,Fix Released,devstack doesn't install properly with a restrictive umask,https://bugs.launchpad.net/devstack/+bug/1265195,2014-02-28
+1283064,1283064,Fix Released,devstack fails to create lbaas vip on fedora,https://bugs.launchpad.net/devstack/+bug/1283064,2014-02-28
+1283803,1283803,Fix Released,keystone listens locally on admin port,https://bugs.launchpad.net/devstack/+bug/1283803,2014-02-27
+1277597,1277597,Fix Released,devstack now require bc,https://bugs.launchpad.net/devstack/+bug/1277597,2014-02-27
+1284236,1284236,Fix Released,Glance Error: image-cache/image-cache permission denied,https://bugs.launchpad.net/fuel/+bug/1284236,2014-02-27
+1279809,1279809,Fix Released,Backport bug/1277147 and related fixes to 4.0,https://bugs.launchpad.net/fuel/+bug/1279809,2014-02-27
+1283187,1283187,Fix Released,HA broken due to Puppet dependency cycle,https://bugs.launchpad.net/fuel/+bug/1283187,2014-02-27
+1282332,1282332,Fix Released,Gerrit account cleanup,https://bugs.launchpad.net/openstack-ci/+bug/1282332,2014-02-27
+1264530,1264530,Fix Released,Ubuntu: wrong ceilometer startup sequence,https://bugs.launchpad.net/fuel/+bug/1264530,2014-02-27
+1284014,1284014,Fix Released,Murano Dashboard doen't work on CentOS,https://bugs.launchpad.net/fuel/+bug/1284014,2014-02-27
+1283060,1283060,Fix Committed,Add tests for NICs bonding orchestrator messages,https://bugs.launchpad.net/fuel/+bug/1283060,2014-02-27
+1082812,1082812,Fix Released,Move rackspace/clouddocs-maven-plugin to openstack-dev/clouddocs-maven-plugin,https://bugs.launchpad.net/openstack-ci/+bug/1082812,2014-02-27
+1282178,1282178,Fix Released,cli tests should not call nova-manage,https://bugs.launchpad.net/tempest/+bug/1282178,2014-02-27
+1280085,1280085,Fix Released,duplicate api_extensions in [network-feature-enabled],https://bugs.launchpad.net/tempest/+bug/1280085,2014-02-27
+1274847,1274847,Fix Released,mcollective can't see the discovered nodes after cold reboot,https://bugs.launchpad.net/fuel/+bug/1274847,2014-02-26
+1282069,1282069,Fix Released,share-network-list does not have detail filter,https://bugs.launchpad.net/manila/+bug/1282069,2014-02-26
+1283812,1283812,Fix Released,Stop deploy tasks fails if any node was inaccessible,https://bugs.launchpad.net/fuel/+bug/1283812,2014-02-26
+1264123,1264123,Fix Released,OSTF Heat test fails in HA mode,https://bugs.launchpad.net/fuel/+bug/1264123,2014-02-26
+1263934,1263934,Fix Released,fuelmenu NTP settings prevent me from proceeding,https://bugs.launchpad.net/fuel/+bug/1263934,2014-02-26

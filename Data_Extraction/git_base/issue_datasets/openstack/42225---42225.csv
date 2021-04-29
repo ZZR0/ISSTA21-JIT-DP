@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1551249,1551249,Fix Released,Synchronize current cluster attributes to fuel-stats CSV report,https://bugs.launchpad.net/fuel/+bug/1551249,2016-06-14
+1589899,1589899,Fix Released,Network_scheme not given in the astute.yaml at cli_selected_nodes_deploy,https://bugs.launchpad.net/fuel/+bug/1589899,2016-06-14
+1544348,1544348,Fix Released,Environments can be left in an inconsistent state if update does not finish normally,https://bugs.launchpad.net/heat/+bug/1544348,2016-06-14
+1448155,1448155,Fix Released,stack updated_time isn't updated on update,https://bugs.launchpad.net/heat/+bug/1448155,2016-06-14
+1578653,1578653,Fix Committed,[Unlock settings tab] Neutron Advanced Configuration was not updated to deployed one after invokation load latest deployed configuration,https://bugs.launchpad.net/fuel/+bug/1578653,2016-06-14
+1549527,1549527,Fix Released,midonet decomposition mismatch between neutron and plugin,https://bugs.launchpad.net/networking-midonet/+bug/1549527,2016-06-14
+1549527,1549527,Fix Released,midonet decomposition mismatch between neutron and plugin,https://bugs.launchpad.net/neutron/+bug/1549527,2016-06-14
+1589937,1589937,Fix Released,api_proxy.pp task was skipped during deployment,https://bugs.launchpad.net/fuel/+bug/1589937,2016-06-14
+1590002,1590002,Fix Committed,Provide ability to view deployment tasks snapshot for dry_run,https://bugs.launchpad.net/fuel/+bug/1590002,2016-06-14
+1537822,1537822,Fix Released,[Vbox] Can't delete hostonly interfaces under Mac OS X,https://bugs.launchpad.net/fuel/+bug/1537822,2016-06-14
+1521087,1521087,Fix Released,Service engine is launched with error due to updating oslo.messaging to 3.0.0,https://bugs.launchpad.net/murano/+bug/1521087,2016-06-14
+1559067,1559067,Fix Committed,[fuel-library] Glance  with vmware backend - certificate verify failed,https://bugs.launchpad.net/fuel/+bug/1559067,2016-06-14
+1569537,1569537,Fix Committed,"Fuel master installation in progress, but slaves VM's started",https://bugs.launchpad.net/fuel/+bug/1569537,2016-06-14
+1584058,1584058,Fix Committed,Glance with vmware backend - remove deprecated vcenter_datacenter and vcenter_datastore parameters,https://bugs.launchpad.net/fuel/+bug/1584058,2016-06-14
+1587866,1587866,Fix Committed,[vCenter] Empty CA bundle file (Glance vSphere backend),https://bugs.launchpad.net/fuel/+bug/1587866,2016-06-14
+1573598,1573598,Fix Committed,'fuel2 help' does not displayed brief description for several commands,https://bugs.launchpad.net/fuel/+bug/1573598,2016-06-14
+1561986,1561986,Fix Released,Line 'MODULAR: netconfig.pp' not found after line 'None' in the file '/var/log/puppet.log',https://bugs.launchpad.net/fuel/+bug/1561986,2016-06-14
+1477551,1477551,Fix Released,Enable caching for property constraints,https://bugs.launchpad.net/openstack-manuals/+bug/1477551,2016-06-14
+1587028,1587028,Fix Committed,[CLI] delete operation is missed in fuel2 openstack-config  client,https://bugs.launchpad.net/fuel/+bug/1587028,2016-06-14
+1592228,1592228,Fix Released,lack device_id in Logical port,https://bugs.launchpad.net/dragonflow/+bug/1592228,2016-06-14
+1568983,1568983,Fix Released,"CI broken with ""Cannot reassign variable package_provider""",https://bugs.launchpad.net/puppet-openstacklib/+bug/1568983,2016-06-14
+1591529,1591529,Fix Released,Update index.rst for watcher devref,https://bugs.launchpad.net/kuryr/+bug/1591529,2016-06-14
+1583554,1583554,Fix Committed,CeilometerApiTests.test_list_meters failed with 410 error when tryed to get alarm list,https://bugs.launchpad.net/fuel/+bug/1583554,2016-06-14
+1591322,1591322,Fix Committed,Network verification failed on a cluster deployed by vbox scripts,https://bugs.launchpad.net/fuel/+bug/1591322,2016-06-14
+1591932,1591932,Fix Released,unit tests failure,https://bugs.launchpad.net/networking-midonet/+bug/1591932,2016-06-14
+1591123,1591123,Fix Released,Invalid VLAN tagging max value,https://bugs.launchpad.net/fuel/+bug/1591123,2016-06-14
+1569622,1569622,Fix Released,[NSX-v3]: L2GW connection create fails while using parent L2 gateway seg-id,https://bugs.launchpad.net/vmware-nsx/+bug/1569622,2016-06-14
+1473015,1473015,Fix Released,Make rabbitmq OCF script POSIX compatible,https://bugs.launchpad.net/fuel/+bug/1473015,2016-06-14
+1580585,1580585,Fix Released,"[install-guide] Korean: ""one or greater"" should be translated into Korean",https://bugs.launchpad.net/openstack-i18n/+bug/1580585,2016-06-14
+1546741,1546741,Fix Released,VMware vSphere in OpenStack Configuration Reference  - liberty; does not manage multiple clusters,https://bugs.launchpad.net/openstack-manuals/+bug/1546741,2016-06-13
+1484012,1484012,Fix Released,VMware: Cannot identify volume backings in vCenter,https://bugs.launchpad.net/cinder/+bug/1484012,2016-06-13
+1552394,1552394,Fix Released,auth_url contains wrong configuration for  metadata_agent.ini and other neutron config,https://bugs.launchpad.net/openstack-ansible/+bug/1552394,2016-06-13
+1590382,1590382,Fix Released,add sanity check to devstack for missing df db selection,https://bugs.launchpad.net/dragonflow/+bug/1590382,2016-06-13
+1564442,1564442,Fix Released,Configure the Storwize family and SVC driver in OpenStack Configuration Reference  - liberty,https://bugs.launchpad.net/openstack-manuals/+bug/1564442,2016-06-13
+1591778,1591778,Fix Released,Broken CI: toci_gate_test.sh failed - exit code: 137,https://bugs.launchpad.net/tripleo/+bug/1591778,2016-06-13
+1589522,1589522,Fix Released,Please redeploy ci-slave03.fuel-infra.org CI slave,https://bugs.launchpad.net/fuel/+bug/1589522,2016-06-13
+1542307,1542307,Fix Released,[detach-keystone] Deployment with detached-db failed on redeployment step after db node deletion,https://bugs.launchpad.net/fuel/+bug/1542307,2016-06-13
+1590066,1590066,Fix Committed,ubuntu.review_in_fuel_library should also check changes in particular modules,https://bugs.launchpad.net/fuel/+bug/1590066,2016-06-13
+1566384,1566384,Fix Committed,Custom graph execution does not set list of nodes to 'ALL' by default.,https://bugs.launchpad.net/fuel/+bug/1566384,2016-06-13
+1585208,1585208,Fix Released,pip-and-virtualenv-override not found,https://bugs.launchpad.net/tripleo/+bug/1585208,2016-06-13
+1587715,1587715,Fix Released,Add list function to scheduled operation log,https://bugs.launchpad.net/karbor/+bug/1587715,2016-06-13
+1591049,1591049,Fix Released,[upstram] Design Summit - wrong list of sessions,https://bugs.launchpad.net/openstack-training-guides/+bug/1591049,2016-06-13
+1590331,1590331,Fix Released,master.fuel-nailgun-agent.pkgs.ubuntu.review_nailgun_agent_one_node failed on checking package sha,https://bugs.launchpad.net/fuel/+bug/1590331,2016-06-13
+1570008,1570008,Fix Released,CI incorrectly applies fuel-agent patches,https://bugs.launchpad.net/fuel/+bug/1570008,2016-06-13
+1591702,1591702,Fix Released,make breadcrumb consistent with horizon,https://bugs.launchpad.net/karbor-dashboard/+bug/1591702,2016-06-13
+1548595,1548595,Fix Released,Implement Checkpoint Collection,https://bugs.launchpad.net/karbor/+bug/1548595,2016-06-13
+1590873,1590873,Fix Released,Incorrect information in readme regarding config file generation,https://bugs.launchpad.net/kuryr/+bug/1590873,2016-06-13
+1587706,1587706,Fix Released,kolla-ansible missing --password option,https://bugs.launchpad.net/kolla/+bug/1587706,2016-06-13
+1578888,1578888,Fix Released,Add fullstack tests of the resource protectables RESTAPI,https://bugs.launchpad.net/karbor/+bug/1578888,2016-06-13
+1432803,1432803,Fix Released,Add checklists in Appendix,https://bugs.launchpad.net/openstack-manuals/+bug/1432803,2016-06-13
+1587707,1587707,Fix Released,Add user_id to db table 'scheduled_operations',https://bugs.launchpad.net/karbor/+bug/1587707,2016-06-12
+1587267,1587267,Fix Released,Implement cinder volume  backup deletion,https://bugs.launchpad.net/karbor/+bug/1587267,2016-06-12
+1244464,1244464,Fix Released,cinder backup should use pipe for diff transfer,https://bugs.launchpad.net/cinder/+bug/1244464,2016-06-12
+1585839,1585839,Fix Released,Fix list protectable API error,https://bugs.launchpad.net/karbor/+bug/1585839,2016-06-12
+1590096,1590096,Fix Released,Devstack support for the networking-huawei plugin,https://bugs.launchpad.net/networking-huawei/+bug/1590096,2016-06-12
+1588128,1588128,Fix Released,"Add ""sort_dir"" parameter for list_objects in BankPlugin",https://bugs.launchpad.net/karbor/+bug/1588128,2016-06-12
+1581469,1581469,Fix Committed,Master node installation failed because keystone-manage could not write to log,https://bugs.launchpad.net/fuel/+bug/1581469,2016-06-11
+1589096,1589096,Fix Released,"""create_flow_classifier_precommit""  should be handle in  ""networking_onos/services/flowclassifier/driver.py""",https://bugs.launchpad.net/networking-onos/+bug/1589096,2016-06-11
+1590285,1590285,Fix Released,Adding tools/tox_install.sh file to install neutron,https://bugs.launchpad.net/networking-onos/+bug/1590285,2016-06-11
+1586332,1586332,Fix Committed,[fuel-ui] Wrong Nomenclature on Network Settings,https://bugs.launchpad.net/fuel/+bug/1586332,2016-06-10
+1576214,1576214,Fix Released,[ui] 'type: select' not work for plugin,https://bugs.launchpad.net/fuel/+bug/1576214,2016-06-10
+1578198,1578198,Fix Released,Convert from core plugin to ML2 driver,https://bugs.launchpad.net/networking-ovn/+bug/1578198,2016-06-10
+1588923,1588923,Fix Released,Resolve ML2 driver unit test TODOs,https://bugs.launchpad.net/networking-ovn/+bug/1588923,2016-06-10
+1584084,1584084,Fix Released,Running against localhost does not work,https://bugs.launchpad.net/tripleo-quickstart/+bug/1584084,2016-06-10
+1569953,1569953,Fix Released,create gate job for extending fuel_agent with ironic,https://bugs.launchpad.net/fuel/+bug/1569953,2016-06-10
+1574733,1574733,Fix Committed,"There is no message for user after ""Only provisioning"" why he can't start OSTF tests",https://bugs.launchpad.net/fuel/+bug/1574733,2016-06-10
+1574678,1574678,Fix Committed,Warning: Scope(Class[Rabbitmq]): $ssl_stomp_port requires that $ssl => true and will be ignored,https://bugs.launchpad.net/fuel/+bug/1574678,2016-06-10
+1578658,1578658,Fix Committed,hiera.pp task were executed before rsync task,https://bugs.launchpad.net/fuel/+bug/1578658,2016-06-10
+1590444,1590444,Fix Committed,Fix broad regular expressions for database and rabbitmq task names,https://bugs.launchpad.net/fuel/+bug/1590444,2016-06-10
+1580850,1580850,Fix Released,devstack reports 'too many arguments' when stacking,https://bugs.launchpad.net/devstack/+bug/1580850,2016-06-10
+1571626,1571626,Fix Committed,Keystone ends up in error state when revoking big number of tokens at once,https://bugs.launchpad.net/fuel/+bug/1571626,2016-06-10
+1563981,1563981,Fix Released,cleanup upload_glance workarounds that were added when debugging CI issues,https://bugs.launchpad.net/fuel/+bug/1563981,2016-06-10
+1542487,1542487,Fix Released,extraneous spaces in some files in Glance translations,https://bugs.launchpad.net/openstack-i18n/+bug/1542487,2016-06-10
+1571641,1571641,Fix Released,[UI] does not display a custom message if 'action:none' option used,https://bugs.launchpad.net/fuel/+bug/1571641,2016-06-10
+1578569,1578569,Fix Committed,controllers order change in fuel web ui,https://bugs.launchpad.net/fuel/+bug/1578569,2016-06-10

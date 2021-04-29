@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1560076,1560076,Fix Committed,[mirror] remove old packages from mos9.0,https://bugs.launchpad.net/fuel/+bug/1560076,2016-03-22
+1504535,1504535,Fix Released,"Ansible slated to remove sudo feature, bifrost needs update",https://bugs.launchpad.net/bifrost/+bug/1504535,2016-03-22
+1553039,1553039,Fix Released,"OptParse is deprecated, use argparse instead",https://bugs.launchpad.net/congress/+bug/1553039,2016-03-22
+1553076,1553076,Fix Released,DataModelException to raise proper exception instead of unknown error,https://bugs.launchpad.net/congress/+bug/1553076,2016-03-22
+1553982,1553982,Fix Released,Fails to delete a push type datasource,https://bugs.launchpad.net/congress/+bug/1553982,2016-03-22
+1503353,1503353,Fix Released,congress does not respect devstack branch,https://bugs.launchpad.net/congress/+bug/1503353,2016-03-22
+1553433,1553433,Fix Released,"""Rule already exists"" error when using non-existent named parameter",https://bugs.launchpad.net/congress/+bug/1553433,2016-03-22
+1553430,1553430,Fix Released,Adding same rule with different literal order,https://bugs.launchpad.net/congress/+bug/1553430,2016-03-22
+1554712,1554712,Fix Released,create policy fails,https://bugs.launchpad.net/congress/+bug/1554712,2016-03-22
+1558662,1558662,Fix Released,--trace option causes Internal Server Error,https://bugs.launchpad.net/congress/+bug/1558662,2016-03-22
+1558988,1558988,Fix Released,stack.sh errors out for Red Hat Enterprise Linux Server release 7.1,https://bugs.launchpad.net/devstack/+bug/1558988,2016-03-22
+1551402,1551402,Fix Released,Notify about Fuel CI failures in IRC,https://bugs.launchpad.net/fuel/+bug/1551402,2016-03-22
+1533074,1533074,Fix Released,Can't create nova server with subnet and fixed_ip,https://bugs.launchpad.net/heat/+bug/1533074,2016-03-22
+1549402,1549402,Fix Released,Neutron check_config raised: No section: 'quotas'.,https://bugs.launchpad.net/fuel/+bug/1549402,2016-03-22
+1444474,1444474,Fix Released,[docs] Networking-related sections of User Guide are outdated,https://bugs.launchpad.net/fuel/+bug/1444474,2016-03-22
+1270362,1270362,Fix Released,Error using /dev/zero to determine whether snapshot is accessible,https://bugs.launchpad.net/cinder/+bug/1270362,2016-03-22
+1549435,1549435,Fix Released,HTTP connector in Brocade zone driver leaves sessions open on the FC switch,https://bugs.launchpad.net/cinder/+bug/1549435,2016-03-22
+1511406,1511406,Fix Released,get_admin_context inadvertently elevates thread,https://bugs.launchpad.net/cinder/+bug/1511406,2016-03-22
+1511406,1511406,Fix Released,get_admin_context inadvertently elevates thread,https://bugs.launchpad.net/sahara/+bug/1511406,2016-03-22
+1473992,1473992,Fix Released,Unable to change type from public to private,https://bugs.launchpad.net/cinder/+bug/1473992,2016-03-22
+1417351,1417351,Fix Released,Fix wrong dictionary keyword in Fujitsu ETERNUS driver,https://bugs.launchpad.net/cinder/+bug/1417351,2016-03-22
+1474736,1474736,Fix Released,Querying cinder resource detail lacks updated_at property,https://bugs.launchpad.net/cinder/+bug/1474736,2016-03-22
+1459862,1459862,Fix Released,should migrate away from pretty_tox and use os-testr,https://bugs.launchpad.net/cinder/+bug/1459862,2016-03-22
+1261097,1261097,Fix Released,VMware: replace mox to mock in test_vmware_vmdk,https://bugs.launchpad.net/cinder/+bug/1261097,2016-03-22
+1505477,1505477,Fix Released,Deleted hosts could be listed in IBM FlashSystem FC driver,https://bugs.launchpad.net/cinder/+bug/1505477,2016-03-22
+1418715,1418715,Fix Released,"volume can be deleted during initialize_connection, causing dangling iscsi targets",https://bugs.launchpad.net/cinder/+bug/1418715,2016-03-22
+1531417,1531417,Fix Released,"Fix grammatical mistake, Changed character from ""an"" to ""a""",https://bugs.launchpad.net/cinder/+bug/1531417,2016-03-22
+1533796,1533796,Fix Released,IPA does not work behind a proxy server,https://bugs.launchpad.net/ironic-python-agent/+bug/1533796,2016-03-22
+1543339,1543339,Fix Released,GPT damaged while erasing MBR,https://bugs.launchpad.net/ironic-python-agent/+bug/1543339,2016-03-22
+1540958,1540958,Fix Released,Vague error when neither tgt not linux-io are available,https://bugs.launchpad.net/ironic-python-agent/+bug/1540958,2016-03-22
+1521202,1521202,Fix Released,Overly strict error reporting for parsing dmidecode output,https://bugs.launchpad.net/ironic-python-agent/+bug/1521202,2016-03-22
+1551300,1551300,Fix Released,IPA service to (re)scan SCSI devices prior to getting a list of it,https://bugs.launchpad.net/ironic-python-agent/+bug/1551300,2016-03-22
+1533113,1533113,Fix Released,Overly strict error reporting for HTTP 409 (conflict) errors,https://bugs.launchpad.net/ironic-python-agent/+bug/1533113,2016-03-22
+1556199,1556199,Fix Released,AttributeError: 'function' object has no attribute 'get',https://bugs.launchpad.net/ironic-python-agent/+bug/1556199,2016-03-22
+1557450,1557450,Fix Released,Replace SYSRQ commands,https://bugs.launchpad.net/ironic-python-agent/+bug/1557450,2016-03-22
+1558956,1558956,Fix Released,IPA may advertise a wrong IP address for its API,https://bugs.launchpad.net/ironic-python-agent/+bug/1558956,2016-03-22
+1551407,1551407,Fix Released,ceilometer exec missing some library,https://bugs.launchpad.net/kolla/+bug/1551407,2016-03-22
+1552271,1552271,Fix Released,No documentation for Astara Loadbalancers,https://bugs.launchpad.net/astara/+bug/1552271,2016-03-22
+1548383,1548383,Fix Released,Default Workflow engine - We should only catch exceptions from action.execute(),https://bugs.launchpad.net/watcher/+bug/1548383,2016-03-22
+1535602,1535602,Fix Released,Swiftclient dependency is not managed properly in glance_store,https://bugs.launchpad.net/glance-store/+bug/1535602,2016-03-21
+1526304,1526304,Fix Released,Using Linux-IO with local boot results in failure to mount root device,https://bugs.launchpad.net/ironic-python-agent/+bug/1526304,2016-03-21
+1560116,1560116,Fix Released,"In vm.py raised exception should take kwargs, not a dict",https://bugs.launchpad.net/nova-powervm/+bug/1560116,2016-03-21
+1557688,1557688,Fix Released,tripleoclient leaves Rabbit MQ with default Userid and password,https://bugs.launchpad.net/tripleo/+bug/1557688,2016-03-21
+1542933,1542933,Fix Released,Nested compute not supported,https://bugs.launchpad.net/kolla/+bug/1542933,2016-03-21
+1554075,1554075,Fix Released,ironic-agent misses to install the package 'psmisc' and 'dosfstools',https://bugs.launchpad.net/diskimage-builder/+bug/1554075,2016-03-21
+1559318,1559318,Fix Released,Add mitaka release milestone for db migrations,https://bugs.launchpad.net/vmware-nsx/+bug/1559318,2016-03-21
+1536643,1536643,Fix Released,User can't create volume in specified backend if more then 1 backend is available,https://bugs.launchpad.net/fuel/+bug/1536643,2016-03-21
+1513511,1513511,Fix Released,RabbitMQ crashed after power off of primary controller,https://bugs.launchpad.net/fuel/+bug/1513511,2016-03-21
+1549024,1549024,Fix Released,Enable the Load Balancer v2 for the Ceilometer(Part One),https://bugs.launchpad.net/ceilometer/+bug/1549024,2016-03-21
+1558997,1558997,Fix Released,osd prepare check fix,https://bugs.launchpad.net/puppet-ceph/+bug/1558997,2016-03-21
+1554351,1554351,Fix Released,Add skeleton for the smaug-dashboard,https://bugs.launchpad.net/karbor-dashboard/+bug/1554351,2016-03-21
+1557373,1557373,Fix Released,Mismatch in git repo branch for magnum and magnumclient,https://bugs.launchpad.net/magnum/+bug/1557373,2016-03-21
+1544036,1544036,Fix Released,RabbitMQ slave restarts when Master role switches to another node,https://bugs.launchpad.net/fuel/+bug/1544036,2016-03-21
+1550391,1550391,Fix Released,Unregistered versioned object breaks Hyper-V live migration,https://bugs.launchpad.net/nova/+bug/1550391,2016-03-21
+1543562,1543562,Fix Released,mitaka pci_request object needs a migration script for an online data migration,https://bugs.launchpad.net/nova/+bug/1543562,2016-03-21
+1552888,1552888,Fix Released,ERROR (BadRequest): expected string or buffer,https://bugs.launchpad.net/nova/+bug/1552888,2016-03-21
+1552303,1552303,Fix Released,Block live migrations are broken when nova calculates live migration type by itself,https://bugs.launchpad.net/nova/+bug/1552303,2016-03-21
+1556126,1556126,Fix Released,Live migrations from Mitaka to Liberty are broken,https://bugs.launchpad.net/nova/+bug/1556126,2016-03-21
+1553050,1553050,Fix Released,There is no instance-action reported by force live migration API,https://bugs.launchpad.net/nova/+bug/1553050,2016-03-21
+1536513,1536513,Fix Released,os-getConsoleOutput fail with 500,https://bugs.launchpad.net/nova/+bug/1536513,2016-03-21
+1553099,1553099,Fix Released,forcehost feature not working,https://bugs.launchpad.net/nova/+bug/1553099,2016-03-21
+1553231,1553231,Fix Released,neutron options in generated config have warnings,https://bugs.launchpad.net/nova/+bug/1553231,2016-03-21
+1512955,1512955,Fix Released,Race condition in nova/neutron when booting instance with XenAPI driver,https://bugs.launchpad.net/nova/+bug/1512955,2016-03-21
+1548980,1548980,Fix Released,nova list --deleted as admin fails with 404,https://bugs.launchpad.net/nova/+bug/1548980,2016-03-21
+1552616,1552616,Fix Released,novaclient usage api breaks in get function,https://bugs.launchpad.net/python-novaclient/+bug/1552616,2016-03-21
+1551591,1551591,Fix Released,Add change-since support when list servers,https://bugs.launchpad.net/python-novaclient/+bug/1551591,2016-03-21
+1558157,1558157,Fix Released,--block-device shutdown value not properly converted to boolean,https://bugs.launchpad.net/python-novaclient/+bug/1558157,2016-03-21
+1558581,1558581,Fix Released,HugePage distribution raise TypeError,https://bugs.launchpad.net/fuel/+bug/1558581,2016-03-21
+1538521,1538521,Fix Released,ERR:  (/Stage[main]/Mongodb::Replset/Mongodb_replset[ceilometer]) Could not evaluate: rs.initiate() failed for replicaset ceilometer: not authorized on admin to execute command,https://bugs.launchpad.net/fuel/+bug/1538521,2016-03-21
+1541734,1541734,Fix Released,Use config-generator.conf to generate config.sample file,https://bugs.launchpad.net/watcher/+bug/1541734,2016-03-21
+1554038,1554038,Fix Released,Fuel 8.0 CI gate-fuel-web-python27 test is failing,https://bugs.launchpad.net/fuel/+bug/1554038,2016-03-21
+1540545,1540545,Fix Released,Authentication.validate_* Scenario calls atomic action inside loop,https://bugs.launchpad.net/rally/+bug/1540545,2016-03-21
+1558298,1558298,Fix Released,"bvt failed with ""Unable to locate package ubuntu-cloud-keyring""",https://bugs.launchpad.net/fuel/+bug/1558298,2016-03-21
+1552340,1552340,Fix Released,Fuel noop tests failed due to incorrect common.rb spec,https://bugs.launchpad.net/fuel/+bug/1552340,2016-03-21
+1551955,1551955,Fix Released,"[BVT] Agents failed on bootsrapped nodes with ERROR -- : {""message"": ""deque(['meta', 'numa_topology', 'distances']): None is not of type 'array'"", ""errors"": []}",https://bugs.launchpad.net/fuel/+bug/1551955,2016-03-21

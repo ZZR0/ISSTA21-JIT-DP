@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1498790,1498790,Fix Released,rbac: can't delete other tenant's port on own network if not admin,https://bugs.launchpad.net/neutron/+bug/1498790,2016-07-16
+1602708,1602708,Fix Released,Fixes to ip billing after integration testing,https://bugs.launchpad.net/neutron-quark/+bug/1602708,2016-07-15
+1602036,1602036,Fix Released,Online Documentation link for osc-lib is broken,https://bugs.launchpad.net/python-openstackclient/+bug/1602036,2016-07-15
+1580414,1580414,Fix Released,"'segment_mtu' appeared in the annotation of 'physical_network_mtus'，However,the ‘segment_mtu’ option of the ML2 configuration has been deprecated.",https://bugs.launchpad.net/neutron/+bug/1580414,2016-07-15
+1602881,1602881,Fix Committed,vmware module missing openstacklib module for tests,https://bugs.launchpad.net/fuel/+bug/1602881,2016-07-15
+1571799,1571799,Fix Released,Re-applying module after remove causes no-show in module-query,https://bugs.launchpad.net/trove/+bug/1571799,2016-07-15
+1579900,1579900,Fix Released,Unsupported module driver not logged correctly,https://bugs.launchpad.net/trove/+bug/1579900,2016-07-15
+1603138,1603138,Fix Released,[ci][master-pkg-systest-centos] Add required changes to puppet manifests,https://bugs.launchpad.net/fuel/+bug/1603138,2016-07-15
+1602672,1602672,Fix Released,"[Contrail]Remove contrail-analytics, contrail-control and contrail-config nodes leads to crash the environment",https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1602672,2016-07-15
+1601843,1601843,Fix Released,"indexOf, lastIndexOf methods work incorrectly",https://bugs.launchpad.net/yaql/+bug/1601843,2016-07-15
+1583190,1583190,Fix Committed,time-sync in ntp.py must have support to sync time if server use chrony instead of ntpd,https://bugs.launchpad.net/fuel/+bug/1583190,2016-07-15
+1589341,1589341,Fix Released,network notfound error was not caught correct when creating nova server,https://bugs.launchpad.net/senlin/+bug/1589341,2016-07-15
+1589485,1589485,Fix Released,Raise error while use full node id for marker,https://bugs.launchpad.net/senlin/+bug/1589485,2016-07-15
+1590255,1590255,Fix Released,Node recover with not supported operation will get weird result,https://bugs.launchpad.net/senlin/+bug/1590255,2016-07-15
+1592736,1592736,Fix Released,some important debug info is missing in engine log,https://bugs.launchpad.net/senlin/+bug/1592736,2016-07-15
+1595484,1595484,Fix Released,Cluster next_index can't be updated correctly after cluster-node-add,https://bugs.launchpad.net/senlin/+bug/1595484,2016-07-15
+1602315,1602315,Fix Released,Various doc typos,https://bugs.launchpad.net/senlin/+bug/1602315,2016-07-15
+1578852,1578852,Fix Committed,fuel plugin builder can't build packages with arch specific binaries,https://bugs.launchpad.net/fuel/+bug/1578852,2016-07-15
+1584802,1584802,Fix Released,[dashboard] _data_table.html checks string representation of packages to check empty list,https://bugs.launchpad.net/murano/+bug/1584802,2016-07-15
+1585039,1585039,Fix Released,Rename the 'Applications' to 'Browse' in html template,https://bugs.launchpad.net/murano/+bug/1585039,2016-07-15
+1585428,1585428,Fix Released,blocktrans in django templates should use 'trimmed' option,https://bugs.launchpad.net/murano/+bug/1585428,2016-07-15
+1585694,1585694,Fix Released,[Dashboard] Deployment fails due to missing password,https://bugs.launchpad.net/murano/+bug/1585694,2016-07-15
+1580471,1580471,Fix Released,[Dashboard] No page title for 'Applications' shows on breadcrumb,https://bugs.launchpad.net/murano/+bug/1580471,2016-07-15
+1585812,1585812,Fix Released,[dashboard] [glare] Specifying abstract base class in the dynamic ui does not yield all of it's descendants in drop-down,https://bugs.launchpad.net/murano/+bug/1585812,2016-07-15
+1578306,1578306,Fix Released,[Dashboard] An incorrect message when environment deployment is started,https://bugs.launchpad.net/murano/+bug/1578306,2016-07-15
+1534642,1534642,Fix Released,[dashboard] Problems with check-password-on-the-fly java script,https://bugs.launchpad.net/murano/+bug/1534642,2016-07-15
+1589621,1589621,Fix Released,Minus (hyphen) is not considered as special character in password field when Murano application is configured,https://bugs.launchpad.net/murano/+bug/1589621,2016-07-15
+1591107,1591107,Fix Released,"Cannot call some ""waiting"" methods in tests with custom timeout",https://bugs.launchpad.net/murano/+bug/1591107,2016-07-15
+1591108,1591108,Fix Released,Timeout in test_deploy_several_mock_apps_in_a_row is too small,https://bugs.launchpad.net/murano/+bug/1591108,2016-07-15
+1594112,1594112,Fix Released,image should filter out the 'ari' and 'aki' type,https://bugs.launchpad.net/murano/+bug/1594112,2016-07-15
+1592434,1592434,Fix Released,murano-dashboard: Invalid template Invalid filter: 'parse_isotime',https://bugs.launchpad.net/murano/+bug/1592434,2016-07-15
+1596177,1596177,Fix Released,[dashboard] Error during Configure application form creation,https://bugs.launchpad.net/murano/+bug/1596177,2016-07-15
+1583579,1583579,Fix Released,[Dashboard][Docs] Mismatch between names in dashboard and docs,https://bugs.launchpad.net/murano/+bug/1583579,2016-07-15
+1579813,1579813,Fix Released,No documentation for how to use sub-templates in HOT packages,https://bugs.launchpad.net/murano/+bug/1579813,2016-07-15
+1587952,1587952,Fix Released,Version of Cloudify client in Cloudify plugin requirements is outdated,https://bugs.launchpad.net/murano/+bug/1587952,2016-07-15
+1588680,1588680,Fix Released,[Doc] mismatch description for http code 200 in murano template api doc,https://bugs.launchpad.net/murano/+bug/1588680,2016-07-15
+1587809,1587809,Fix Released,Application from the environment template cannot be deleted,https://bugs.launchpad.net/murano/+bug/1587809,2016-07-15
+1591865,1591865,Fix Released,tempest test failed because tempest client manager change,https://bugs.launchpad.net/murano/+bug/1591865,2016-07-15
+1587957,1587957,Fix Released,Update version of resource files in cloudify example application,https://bugs.launchpad.net/murano/+bug/1587957,2016-07-15
+1593535,1593535,Fix Released,devstack install murano-dashboard needs compile messages,https://bugs.launchpad.net/murano/+bug/1593535,2016-07-15
+1588903,1588903,Fix Released,runCommand and putFile methods do not support timeouts,https://bugs.launchpad.net/murano/+bug/1588903,2016-07-15
+1594451,1594451,Fix Released,Murano attempts to update heat stack even if template was not modified,https://bugs.launchpad.net/murano/+bug/1594451,2016-07-15
+1587833,1587833,Fix Released,Update service in template does not work,https://bugs.launchpad.net/murano/+bug/1587833,2016-07-15
+1594821,1594821,Fix Released,describe() method in ExistingNeutronNetwork fails with UninitializedPropertyAccessError exception,https://bugs.launchpad.net/murano/+bug/1594821,2016-07-15
+1585368,1585368,Fix Released,"[Glare] if Glare is enabled and murano use it, there is no core library in devstack installation",https://bugs.launchpad.net/murano/+bug/1585368,2016-07-15
+1588276,1588276,Fix Released,Description is missing in environment template and environment,https://bugs.launchpad.net/murano/+bug/1588276,2016-07-15
+1595174,1595174,Fix Released,[MuranoPL] [YAQL] YAQL's 'call' cannot be called for the object of another class,https://bugs.launchpad.net/murano/+bug/1595174,2016-07-15
+1496376,1496376,Fix Released,Murano should automatically convert script line-endings for the target guest OS,https://bugs.launchpad.net/murano/+bug/1496376,2016-07-15
+1597452,1597452,Fix Released,[MuranoPL] objects created with new() are not placed into the object store,https://bugs.launchpad.net/murano/+bug/1597452,2016-07-15
+1596621,1596621,Fix Released,[test-runner] assertEquals fails to compare to identical Murano objects,https://bugs.launchpad.net/murano/+bug/1596621,2016-07-15
+1596509,1596509,Fix Released,[test-runner] TestRunner does not run setUp and tearDown if they are not overriden,https://bugs.launchpad.net/murano/+bug/1596509,2016-07-15
+1585234,1585234,Fix Released,[test-runner] Inconvenient output,https://bugs.launchpad.net/murano/+bug/1585234,2016-07-15
+1598378,1598378,Fix Released,dashboad ci failed due to no such table: django_session,https://bugs.launchpad.net/murano/+bug/1598378,2016-07-15
+1591614,1591614,Fix Released,Too many arguments for format string in murano-agent,https://bugs.launchpad.net/murano/+bug/1591614,2016-07-15
+1497941,1497941,Fix Released,Need to clarify what versions of vbox we've certified as working for Fuel 6.1,https://bugs.launchpad.net/fuel/+bug/1497941,2016-07-15
+1485717,1485717,Fix Released,Introduction in Security Guide - Issues found during migration to RST,https://bugs.launchpad.net/openstack-manuals/+bug/1485717,2016-07-15
+1595548,1595548,Fix Committed,Exclude Elasticsearch from fuel-stats reports data flow,https://bugs.launchpad.net/fuel/+bug/1595548,2016-07-15
+1274523,1274523,Fix Released,connection_trace does not work with DB2 backend,https://bugs.launchpad.net/nova/+bug/1274523,2016-07-15
+1564789,1564789,Fix Released,Language enhancements in the description of [oslo_messaging_rabbit] send_single_reply in OpenStack Configuration Reference  - liberty,https://bugs.launchpad.net/openstack-manuals/+bug/1564789,2016-07-15
+1589284,1589284,Fix Released,keystone service isn't able to find /var/log/kolla/keystone,https://bugs.launchpad.net/kolla-kubernetes/+bug/1589284,2016-07-14
+1589285,1589285,Fix Released,Keystone bootstrap job is failing on endpoint creation,https://bugs.launchpad.net/kolla-kubernetes/+bug/1589285,2016-07-14
+1592038,1592038,Fix Released,The CLI shoudn't look for services in /usr/share/kolla,https://bugs.launchpad.net/kolla-kubernetes/+bug/1592038,2016-07-14
+1592053,1592053,Fix Released,Look for local kolla directory instead of kolla-kubernetes,https://bugs.launchpad.net/kolla-kubernetes/+bug/1592053,2016-07-14
+1597828,1597828,Fix Released,CLI reports the incorrect version number,https://bugs.launchpad.net/kolla-kubernetes/+bug/1597828,2016-07-14
+1582523,1582523,Fix Released,Ubuntu binary containers are missing for Gnocchi,https://bugs.launchpad.net/kolla/+bug/1582523,2016-07-14
+1567926,1567926,Fix Released,curlrc output is useless when building containers,https://bugs.launchpad.net/kolla/+bug/1567926,2016-07-14
+1586475,1586475,Fix Released,Tech-debt: don't use dicts (and random strings) all over the place,https://bugs.launchpad.net/kolla/+bug/1586475,2016-07-14
+1587752,1587752,Fix Released,Improve HAProxy configuration for MariaDB Galera cluster,https://bugs.launchpad.net/kolla/+bug/1587752,2016-07-14
+1578752,1578752,Fix Released,HAproxy does not consider wsrep_local_state when considering which db nodes/containers can accept traffic,https://bugs.launchpad.net/kolla/+bug/1578752,2016-07-14
+1588722,1588722,Fix Released,"fail to deploy nova fake driver, merge_config",https://bugs.launchpad.net/kolla/+bug/1588722,2016-07-14
+1588941,1588941,Fix Released,else statement missing for cinder vars,https://bugs.launchpad.net/kolla/+bug/1588941,2016-07-14
+1589282,1589282,Fix Released,kolla-kubernetes is failing to create the keystone endpoints,https://bugs.launchpad.net/kolla/+bug/1589282,2016-07-14
+1586563,1586563,Fix Released,"tools/setup_{RedHat,Debian}.sh can try to process multiple loop devices",https://bugs.launchpad.net/kolla/+bug/1586563,2016-07-14
+1586476,1586476,Fix Released,Tech-debt: don't use signal handlers to handle ctrl-c,https://bugs.launchpad.net/kolla/+bug/1586476,2016-07-14
+1582062,1582062,Fix Released,failed to bootstrap ceilometer container,https://bugs.launchpad.net/kolla/+bug/1582062,2016-07-14

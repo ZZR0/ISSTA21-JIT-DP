@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1361743,1361743,Fix Released,Spamming keystone server with 'revocation list',https://bugs.launchpad.net/keystonemiddleware/+bug/1361743,2019-02-28
+1803940,1803940,Fix Released,RFE: add request_id and global_request_id to CADF notifications,https://bugs.launchpad.net/keystonemiddleware/+bug/1803940,2019-02-28
+1813739,1813739,Fix Released,auth_token does not updated when endpoint is updated,https://bugs.launchpad.net/keystonemiddleware/+bug/1813739,2019-02-28
+1817859,1817859,Fix Released,"[fs035][master][promotion] Introspection Fails with TypeError: coercing to Unicode: need string or buffer, bool found",https://bugs.launchpad.net/tripleo/+bug/1817859,2019-02-28
+1815272,1815272,Fix Committed,Creating instance was error on Ubuntu18.04 Bionic,https://bugs.launchpad.net/nova-lxd/+bug/1815272,2019-02-28
+1815273,1815273,Fix Committed,Failed to launch nova-compute with zfs backend  on Xenial,https://bugs.launchpad.net/nova-lxd/+bug/1815273,2019-02-28
+1806126,1806126,Fix Released,LibvirtRbdEvacuateTest and LibvirtFlatEvacuateTest tests race fail,https://bugs.launchpad.net/nova/+bug/1806126,2019-02-28
+1670636,1670636,Fix Released,create backup from in-use volume destroy quota value,https://bugs.launchpad.net/cinder/+bug/1670636,2019-02-28
+1778774,1778774,Fix Released,Quota error after forced backup of in-use volume,https://bugs.launchpad.net/cinder/+bug/1778774,2019-02-28
+1773305,1773305,Fix Released,Unity: failed to clean zone when the host initiators are not logged in,https://bugs.launchpad.net/cinder/+bug/1773305,2019-02-28
+1766966,1766966,Fix Released,GoodnessWeigher alone fails to schedule a non-typed volume,https://bugs.launchpad.net/cinder/+bug/1766966,2019-02-28
+1775518,1775518,Fix Released,[Cinder Unity] Unity driver failed to initialize if the value of list type option is empty,https://bugs.launchpad.net/cinder/+bug/1775518,2019-02-28
+1779654,1779654,Fix Released,"VSA volume creation fails with ""the same name already exists.""",https://bugs.launchpad.net/cinder/+bug/1779654,2019-02-28
+1785050,1785050,Fix Released,Volume status changed from error to available,https://bugs.launchpad.net/cinder/+bug/1785050,2019-02-28
+1783582,1783582,Fix Released,NetApp: Ontap FC/iSCSI drivers  does not support force_detach,https://bugs.launchpad.net/cinder/+bug/1783582,2019-02-28
+1648675,1648675,Fix Released,vmware vmdk backup swift should  detach voulme,https://bugs.launchpad.net/cinder/+bug/1648675,2019-02-28
+1600754,1600754,Fix Released,VMDK driver can take 3 minutes to respond to API call,https://bugs.launchpad.net/cinder/+bug/1600754,2019-02-28
+1757922,1757922,Fix Released,Storwize:Attaching volume may discover wrong volume if storage configured different i/o groups,https://bugs.launchpad.net/cinder/+bug/1757922,2019-02-28
+1783525,1783525,Fix Released,quota not considered when import backup resource,https://bugs.launchpad.net/cinder/+bug/1783525,2019-02-28
+1817919,1817919,Fix Released,"""master"" parameter in ip.set() function is missing",https://bugs.launchpad.net/os-vif/+bug/1817919,2019-02-28
+1777774,1777774,Fix Released,It was didn't check the network exist when create new profile,https://bugs.launchpad.net/senlin/+bug/1777774,2019-02-28
+1789488,1789488,Fix Released,Create scaling policy does not fail if invalid adjustment type is given,https://bugs.launchpad.net/senlin/+bug/1789488,2019-02-28
+1789310,1789310,Fix Released,Faiing tests when building Rocky Debian package,https://bugs.launchpad.net/senlin/+bug/1789310,2019-02-28
+1795503,1795503,Fix Released,Cooldown is checked against policy attach time,https://bugs.launchpad.net/senlin/+bug/1795503,2019-02-28
+1800549,1800549,Fix Released,CLUSTER_DELETE can no longer steals locks,https://bugs.launchpad.net/senlin/+bug/1800549,2019-02-28
+1800038,1800038,Fix Released,Health policy with  node poll treats node as unhealthy if nova driver returns exception,https://bugs.launchpad.net/senlin/+bug/1800038,2019-02-28
+1806503,1806503,Fix Released,heath manager launches multiple health check tasks when db connection is lost.,https://bugs.launchpad.net/senlin/+bug/1806503,2019-02-28
+1808988,1808988,Fix Released,Webhook call causees an error: AttributeError: 'NoneType' object has no attribute 'update',https://bugs.launchpad.net/senlin/+bug/1808988,2019-02-28
+1808846,1808846,Fix Released,Node create action stuck in RUNNING,https://bugs.launchpad.net/senlin/+bug/1808846,2019-02-28
+1809652,1809652,Fix Released,node update() takes exactly 4 arguments (3 given) when recovery with lb_policy,https://bugs.launchpad.net/senlin/+bug/1809652,2019-02-28
+1811294,1811294,Fix Released,Node stop or node delete operations stay in WAITING_LIFECYCLE_COMPLETION after engine restart,https://bugs.launchpad.net/senlin/+bug/1811294,2019-02-28
+1811161,1811161,Fix Released,Detaching health policy fails to remove health check,https://bugs.launchpad.net/senlin/+bug/1811161,2019-02-28
+1812112,1812112,Fix Released,Cluster delete action status is failed even though cluster is deleted successfully,https://bugs.launchpad.net/senlin/+bug/1812112,2019-02-28
+1815540,1815540,Fix Released,Cluster recovery does not handle operation specified in body,https://bugs.launchpad.net/senlin/+bug/1815540,2019-02-28
+1816677,1816677,Fix Released,Node stop is not called before deletion,https://bugs.launchpad.net/senlin/+bug/1816677,2019-02-28
+1797270,1797270,Fix Committed,Health policy tempest are broken,https://bugs.launchpad.net/senlin/+bug/1797270,2019-02-28
+1805740,1805740,Fix Committed,Missing auth_url for senlinclient when using senlin-dashboard,https://bugs.launchpad.net/senlin/+bug/1805740,2019-02-28
+1802417,1802417,Fix Committed,python-senlinclient is broken with openstacksdk 0.190,https://bugs.launchpad.net/senlin/+bug/1802417,2019-02-28
+1682020,1682020,Fix Released,Remove nova default keymap option for qemu-kvm (deprecated),https://bugs.launchpad.net/nova/+bug/1682020,2019-02-28
+1713911,1713911,Fix Released,Add support to configure 'ilo_port' for 'pxe_ilo'  driver,https://bugs.launchpad.net/tripleo/+bug/1713911,2019-02-28
+1805466,1805466,Fix Released,Refactor VXLAN-GPE code to make the server.py module easily maintaineable,https://bugs.launchpad.net/networking-vpp/+bug/1805466,2019-02-28
+1810536,1810536,Fix Released,l3_router: no support for multiple router gateways to floating_net,https://bugs.launchpad.net/networking-vpp/+bug/1810536,2019-02-28
+1813024,1813024,Fix Released,sudo issues outside of devstack,https://bugs.launchpad.net/networking-vpp/+bug/1813024,2019-02-28
+1810518,1810518,Fix Released,neutron-functional tests failing with oslo.privsep 1.31,https://bugs.launchpad.net/neutron/+bug/1810518,2019-02-27
+1710129,1710129,Fix Released,"With ""TimeZone"" parameter defined, the deployment fails at step2 in controller",https://bugs.launchpad.net/tripleo/+bug/1710129,2019-02-27
+1814577,1814577,Fix Released,"_ovs_supports_mtu_requests will fail if ""mtu_request"" doesn't exit",https://bugs.launchpad.net/os-vif/+bug/1814577,2019-02-27
+1666917,1666917,Fix Released,Convert OVS os-vif driver to use native Python bindings,https://bugs.launchpad.net/os-vif/+bug/1666917,2019-02-27
+1817602,1817602,Fix Released,excessive errors in upgrade jobs causing logstash issues,https://bugs.launchpad.net/tripleo/+bug/1817602,2019-02-27
+1816414,1816414,Fix Released,[queens][fs017] telemetry tempest plugin tests failed in multinode promotion pipeline,https://bugs.launchpad.net/tripleo/+bug/1816414,2019-02-27
+1817331,1817331,Fix Released,periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset037-updates-rocky job failing on update step,https://bugs.launchpad.net/tripleo/+bug/1817331,2019-02-27
+1512880,1512880,Fix Released,Failed cold migration with SR-IOV,https://bugs.launchpad.net/nova/+bug/1512880,2019-02-27
+1728640,1728640,Fix Released,py35 unit test subunit.parser failures,https://bugs.launchpad.net/cinder/+bug/1728640,2019-02-27
+1805156,1805156,Fix Released,"In a python3 grenade run, openstack client plugins are lost after swift install",https://bugs.launchpad.net/grenade/+bug/1805156,2019-02-26
+1789236,1789236,Fix Released,OVN deployment is failing when used with OVS 2.10,https://bugs.launchpad.net/tripleo/+bug/1789236,2019-02-26
+1713935,1713935,Fix Released,oooq support for creating a virtual environment for DPDK testing and CI,https://bugs.launchpad.net/tripleo/+bug/1713935,2019-02-26
+1711690,1711690,Fix Released,nova-metadata service is not composable,https://bugs.launchpad.net/tripleo/+bug/1711690,2019-02-26
+1710292,1710292,Fix Released,nova.conf patching parameters not configurable,https://bugs.launchpad.net/tripleo/+bug/1710292,2019-02-26
+1703820,1703820,Fix Released,Introspect/Provide Nodes buttons don't work in table view,https://bugs.launchpad.net/tripleo/+bug/1703820,2019-02-26
+1788414,1788414,Fix Released,No easy way for local debugging on the containerized undercloud/standalone,https://bugs.launchpad.net/tripleo/+bug/1788414,2019-02-26
+1788270,1788270,Fix Released,RFE: execute standalone deployments on libvirt using centos or fedora images,https://bugs.launchpad.net/tripleo/+bug/1788270,2019-02-26
+1777401,1777401,Fix Released,CI - Container Undercloud config overridden by static config in quickstart-extras,https://bugs.launchpad.net/tripleo/+bug/1777401,2019-02-26
+1777132,1777132,Fix Released,queens branch tripleo-ci-centos-7-scenario000-multinode-oooq-container-upgrades is broken,https://bugs.launchpad.net/tripleo/+bug/1777132,2019-02-26
+1774199,1774199,Fix Released,Issues when upgrading DVR from bm to containers,https://bugs.launchpad.net/tripleo/+bug/1774199,2019-02-26
+1771082,1771082,Fix Released,[rfe] TripleO CI must collect and publish console logs from fake overcloud nodes during introspection and deployment,https://bugs.launchpad.net/tripleo/+bug/1771082,2019-02-26
+1769538,1769538,Fix Released,"RFE (libvirt-reproducer): Add option to install prerequisite packages (rpm, pip)",https://bugs.launchpad.net/tripleo/+bug/1769538,2019-02-26
+1767329,1767329,Fix Released,"[pike->queens] Pingtest failing after upgrade, stack failed due to:  ResourceInError: Went to status error due to ""Unknown""",https://bugs.launchpad.net/tripleo/+bug/1767329,2019-02-26
+1767304,1767304,Fix Released,Add CephMgr  to custom roles_data during P->Q upgrades,https://bugs.launchpad.net/tripleo/+bug/1767304,2019-02-26
+1766507,1766507,Fix Released,telemetry composable role doesn't work with swift,https://bugs.launchpad.net/tripleo/+bug/1766507,2019-02-26
+1765065,1765065,Fix Released,pip10 broken build-openstack-sphinx-docs for older releases,https://bugs.launchpad.net/tripleo/+bug/1765065,2019-02-26
+1763779,1763779,Fix Released,tripleo-common stable/queens tox -e py27 failing on fedora base system,https://bugs.launchpad.net/tripleo/+bug/1763779,2019-02-26
+1763671,1763671,Fix Released,worker calculation is not being applied across all services,https://bugs.launchpad.net/tripleo/+bug/1763671,2019-02-26
+1763333,1763333,Fix Released,typo in ovn-cms-options,https://bugs.launchpad.net/tripleo/+bug/1763333,2019-02-26
+1761317,1761317,Fix Released,newton ceilometer event dispatcher should use database,https://bugs.launchpad.net/tripleo/+bug/1761317,2019-02-26
+1802006,1802006,Fix Released,Floating IP attach/detach fails for non-admin user and unbound port with router in different tenant,https://bugs.launchpad.net/neutron/+bug/1802006,2019-02-26
+1807421,1807421,Fix Released,Open vSwitch hardware offloading in neutron updates,https://bugs.launchpad.net/neutron/+bug/1807421,2019-02-26

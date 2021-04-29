@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1408587,1408587,Fix Released,"Misdescription of a response code for ""Create floating IP"" in Neutron API Reference",https://bugs.launchpad.net/openstack-api-site/+bug/1408587,2015-01-19
+1381640,1381640,Fix Released,The FuelUI does not prompt to configure VMWare vCenter/ESXi Glance,https://bugs.launchpad.net/fuel/+bug/1381640,2015-01-19
+1386617,1386617,Fix Released,change input for public key to textarea,https://bugs.launchpad.net/fuel/+bug/1386617,2015-01-19
+1405757,1405757,Fix Released,[ui][fuel-stats] Ranges of nodes on 'Environment Size' histogram are broken,https://bugs.launchpad.net/fuel/+bug/1405757,2015-01-19
+1408240,1408240,Fix Committed,Add hacking checks to fuel-ostf,https://bugs.launchpad.net/fuel/+bug/1408240,2015-01-19
+1410665,1410665,Fix Committed,neutron network creation error: Unable to get tenant-ID for tenant 'admin',https://bugs.launchpad.net/fuel/+bug/1410665,2015-01-19
+1362929,1362929,Fix Released,libvirt: KVM live migration failed due to VIR_DOMAIN_XML_MIGRATABLE flag,https://bugs.launchpad.net/nova/+bug/1362929,2015-01-19
+1269577,1269577,Fix Released,Glance doesn't use workable eventlet hubs when the default is unavailable,https://bugs.launchpad.net/glance/+bug/1269577,2015-01-17
+1353622,1353622,Fix Released,Current nova benchmarks do not work with environment that uses neutron networks,https://bugs.launchpad.net/rally/+bug/1353622,2015-01-17
+1383281,1383281,Fix Released,Deployment endpoint_type is actually always `public',https://bugs.launchpad.net/rally/+bug/1383281,2015-01-17
+1398375,1398375,Fix Released,Rally tests fail when 5000 is not admin port,https://bugs.launchpad.net/rally/+bug/1398375,2015-01-17
+1411268,1411268,Fix Released,verify --regex doesn't work,https://bugs.launchpad.net/rally/+bug/1411268,2015-01-17
+1408447,1408447,Fix Released,pip no longer needs a download cache defined,https://bugs.launchpad.net/devstack/+bug/1408447,2015-01-17
+1411772,1411772,Fix Released,[dashboard] configuration isn't compatible with apache 2.4,https://bugs.launchpad.net/openstack-chef/+bug/1411772,2015-01-17
+1411794,1411794,Fix Released,"ironic tempest job broken: Details: {u'message': u""Quota exceeded for resources: ['subnet']"", u'detail': u'', u'type': u'OverQuota'}",https://bugs.launchpad.net/tempest/+bug/1411794,2015-01-16
+1409836,1409836,Fix Released,Move rally/doc/samples to rally/samples,https://bugs.launchpad.net/rally/+bug/1409836,2015-01-16
+1370753,1370753,Fix Released,vCenter IP field should take a hostname,https://bugs.launchpad.net/fuel/+bug/1370753,2015-01-16
+1355816,1355816,Fix Committed,pacemaker service provider race condition,https://bugs.launchpad.net/fuel/+bug/1355816,2015-01-16
+1411356,1411356,Fix Committed,duplicate in openstack.yaml,https://bugs.launchpad.net/fuel/+bug/1411356,2015-01-16
+1399297,1399297,Fix Released,SSL proxies and HTTP services in OpenStack Security Guide  - current,https://bugs.launchpad.net/openstack-manuals/+bug/1399297,2015-01-16
+1402085,1402085,Fix Released,pkg-map incompatible with new install-packages element,https://bugs.launchpad.net/diskimage-builder/+bug/1402085,2015-01-16
+1369579,1369579,Fix Released,Remove redundant mention of installation of ntp,https://bugs.launchpad.net/openstack-training-guides/+bug/1369579,2015-01-15
+1394688,1394688,Fix Released,[network] ERROR: Could not query service tenant UUID for nova_admin_tenant_id.,https://bugs.launchpad.net/openstack-chef/+bug/1394688,2015-01-15
+1411256,1411256,Fix Released,Assign role to tempest created users,https://bugs.launchpad.net/tempest/+bug/1411256,2015-01-15
+1328501,1328501,Fix Released,start of keystone not possible when use_syslog=True but syslog is not accessible/running,https://bugs.launchpad.net/keystone/+bug/1328501,2015-01-15
+1286128,1286128,Fix Released,Allow neutron network lookup by name,https://bugs.launchpad.net/heat/+bug/1286128,2015-01-15
+1411032,1411032,Fix Released,Remove OVS specific files from neutron cookbook,https://bugs.launchpad.net/openstack-chef/+bug/1411032,2015-01-15
+1397610,1397610,Fix Released,[chef-testing-stack][network] Neutron won't start on Centos65 because of an old version of dnsmasq,https://bugs.launchpad.net/openstack-chef/+bug/1397610,2015-01-15
+1406224,1406224,Fix Released,Cookbook should config the group for user nobody when using neutron lbaas,https://bugs.launchpad.net/openstack-chef/+bug/1406224,2015-01-15
+1408705,1408705,Fix Released,rabbit-ha support cleanups,https://bugs.launchpad.net/openstack-chef/+bug/1408705,2015-01-15
+1403139,1403139,Fix Released,Remove Ansible trademarked branding,https://bugs.launchpad.net/openstack-ansible/+bug/1403139,2015-01-15
+1410346,1410346,Fix Released,Need Jenkins slave for testing,https://bugs.launchpad.net/fuel/+bug/1410346,2015-01-15
+1394210,1394210,Fix Committed,Dos.py not notify any alert that we try to revert not existing snapshot,https://bugs.launchpad.net/fuel/+bug/1394210,2015-01-15
+1400910,1400910,Fix Released,m1.micro flavor creation error: Policy doesn't allow compute_extension:flavormanage to be performed.,https://bugs.launchpad.net/fuel/+bug/1400910,2015-01-15
+1298835,1298835,Fix Released,[wishlist] add a custom address text field for NTP address to sync with,https://bugs.launchpad.net/fuel/+bug/1298835,2015-01-15
+1407704,1407704,Fix Committed,Nova compute service triggers after the package install in Ubuntu,https://bugs.launchpad.net/fuel/+bug/1407704,2015-01-15
+1378963,1378963,Fix Released,fuelclient 'fuel node' makes extra calls when filtering nodes by env,https://bugs.launchpad.net/fuel/+bug/1378963,2015-01-15
+1372423,1372423,Fix Released,Update python-fabric to 1.9.1 or higher,https://bugs.launchpad.net/fuel/+bug/1372423,2015-01-15
+1308920,1308920,Fix Released,[ui] [settings] Warning should be displayed for disabled settings,https://bugs.launchpad.net/fuel/+bug/1308920,2015-01-15
+1368599,1368599,Fix Released,instance create failed due to the deffirence services between regions,https://bugs.launchpad.net/horizon/+bug/1368599,2015-01-15
+1402768,1402768,Fix Released,vlan_start doesn't propagate to nova.conf in case of VlanManager,https://bugs.launchpad.net/fuel/+bug/1402768,2015-01-15
+1406494,1406494,Fix Released,ntp doesn't point to master node in ubuntu deployments,https://bugs.launchpad.net/fuel/+bug/1406494,2015-01-15
+1072318,1072318,Fix Released,Incorrect ec2 error code (DescribeKeyPairs),https://bugs.launchpad.net/nova/+bug/1072318,2015-01-15
+1258622,1258622,Fix Released,RFE: Provide an easy way to access stack outputs from the command line.,https://bugs.launchpad.net/python-heatclient/+bug/1258622,2015-01-15
+1396769,1396769,Fix Released,[dashboard] Support upstream apache2 cookbook,https://bugs.launchpad.net/openstack-chef/+bug/1396769,2015-01-14
+1371696,1371696,Fix Released,Cannot add or update a child row: a foreign key constraint fails ml2_dvr_port_bindings,https://bugs.launchpad.net/neutron/+bug/1371696,2015-01-14
+1405301,1405301,Fix Released,cinder doesn't clear conf file between runs,https://bugs.launchpad.net/devstack/+bug/1405301,2015-01-14
+1410644,1410644,Fix Released,debian jobs failing due to 503's when fetching apt data,https://bugs.launchpad.net/tripleo/+bug/1410644,2015-01-14
+1409902,1409902,Fix Released,devstack mysql databse clean not working well on ubuntu,https://bugs.launchpad.net/devstack/+bug/1409902,2015-01-14
+1403877,1403877,Fix Released,"Sahara logs don't present in UI because it was renamed to ""sahara-all""",https://bugs.launchpad.net/fuel/+bug/1403877,2015-01-14
+1377870,1377870,Fix Released,[ui] [settings] Save Changes button doesn't work properly on Settings tab,https://bugs.launchpad.net/fuel/+bug/1377870,2015-01-14
+1405690,1405690,Fix Released,'regenerate_ubuntu_repo' script must not use hardcoded Ubuntu release name,https://bugs.launchpad.net/fuel/+bug/1405690,2015-01-14
+1404185,1404185,Fix Released,ceilometer events aren't enabled in mos,https://bugs.launchpad.net/fuel/+bug/1404185,2015-01-14
+1409684,1409684,Fix Released,[ui] Wizard step navigation UX issue,https://bugs.launchpad.net/fuel/+bug/1409684,2015-01-14
+1389671,1389671,Fix Released,[ui] Support page statistics wrong Save Changes state,https://bugs.launchpad.net/fuel/+bug/1389671,2015-01-14
+1343382,1343382,Fix Released,API reference should include API operation title,https://bugs.launchpad.net/openstack-api-site/+bug/1343382,2015-01-14
+1408734,1408734,Fix Released,cinder cannot find nova endpoint,https://bugs.launchpad.net/devstack/+bug/1408734,2015-01-13
+1405908,1405908,Fix Released,Setuptools 8.4 fails to upgrade/install packages,https://bugs.launchpad.net/tripleo/+bug/1405908,2015-01-13
+1339695,1339695,Fix Released,[compute] Handle deprecated nova configurations in Juno,https://bugs.launchpad.net/openstack-chef/+bug/1339695,2015-01-13
+1409743,1409743,Fix Committed,Hiding restricted pane in wizard,https://bugs.launchpad.net/fuel/+bug/1409743,2015-01-13
+1410117,1410117,Fix Committed,mirror/ubuntu: use debootstrap instead of multistrap,https://bugs.launchpad.net/fuel/+bug/1410117,2015-01-13
+1382530,1382530,Fix Released,Nodes id are sorted as a string,https://bugs.launchpad.net/fuel/+bug/1382530,2015-01-13
+1392948,1392948,Fix Released,Documentation - API QuickStart tenant_id unclear,https://bugs.launchpad.net/openstack-api-site/+bug/1392948,2015-01-13
+1400759,1400759,Fix Released,"Incorrect location of ""Select All"" on HealthCheck tab",https://bugs.launchpad.net/fuel/+bug/1400759,2015-01-13
+1398822,1398822,Fix Released,Impossible to add node in environment in case it was once added.,https://bugs.launchpad.net/fuel/+bug/1398822,2015-01-13
+1396645,1396645,Fix Released,"Inscription ""Invalid number"" for Ceph is not disappear after click ""Cancel Changes""",https://bugs.launchpad.net/fuel/+bug/1396645,2015-01-13
+1396596,1396596,Fix Released,[ui] MongoDB node role is disabled by default with no explanation,https://bugs.launchpad.net/fuel/+bug/1396596,2015-01-13
+1396240,1396240,Fix Released,'Cinder with LVM' option can be selected with vCenter,https://bugs.launchpad.net/fuel/+bug/1396240,2015-01-13
+1404889,1404889,Fix Released,[ui] [wizard] Environment name validation issue,https://bugs.launchpad.net/fuel/+bug/1404889,2015-01-13
+1401093,1401093,Fix Released,[ui] Children prop shouldn't be passed to textarea control,https://bugs.launchpad.net/fuel/+bug/1401093,2015-01-13
+1390524,1390524,Fix Released,"If you zoom in 5 times tab Nodes checkboxes ""Select All"" and dropdown pointer of ""Group by"" have very small size",https://bugs.launchpad.net/fuel/+bug/1390524,2015-01-13
+1376312,1376312,Fix Released,"Cancel cross is not located on the middle of ""Filter By"" field",https://bugs.launchpad.net/fuel/+bug/1376312,2015-01-13
+1406585,1406585,Fix Released,Not compatible format of 'rally task results' output and 'rally task report',https://bugs.launchpad.net/rally/+bug/1406585,2015-01-13
+1376564,1376564,Fix Committed,CentOS nproc limit is too low for production deployment,https://bugs.launchpad.net/fuel/+bug/1376564,2015-01-13
+1394956,1394956,Fix Released,ConfigFileValueError: IP address cannot be an empty string,https://bugs.launchpad.net/tripleo/+bug/1394956,2015-01-12

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1463796,1463796,Fix Released,Exception on freezerc execution because of arg change,https://bugs.launchpad.net/freezer/+bug/1463796,2015-06-10
+1427480,1427480,Fix Released,GBP: L3Policy update should error out if subnet-pr-len is greater than mask-length,https://bugs.launchpad.net/group-based-policy/+bug/1427480,2015-06-10
+1381416,1381416,Fix Released,ifconfig get different format of output which cause test_in_tenant_traffic fail in Fedora,https://bugs.launchpad.net/tempest/+bug/1381416,2015-06-10
+1452990,1452990,Fix Committed,resources not cleaned up when deleting a cluster in BUILDING state,https://bugs.launchpad.net/cue/+bug/1452990,2015-06-10
+1463048,1463048,Fix Released,Cannot ssh from controller to VM of vCenter.,https://bugs.launchpad.net/fuel/+bug/1463048,2015-06-10
+1435802,1435802,Fix Released,Dedicated replication network issues when storage and repl network are the same,https://bugs.launchpad.net/openstack-ansible/+bug/1435802,2015-06-10
+1463493,1463493,Fix Released,cinder-client doesn't honor endpoint-type,https://bugs.launchpad.net/openstack-ansible/+bug/1463493,2015-06-10
+1040883,1040883,Fix Released,object-server partital write prevention not tested,https://bugs.launchpad.net/swift/+bug/1040883,2015-06-10
+1376053,1376053,Fix Released,user_enabled_invert does not properly handle string values,https://bugs.launchpad.net/keystone/+bug/1376053,2015-06-10
+1377304,1377304,Fix Released,Deleting endpoint group project fails,https://bugs.launchpad.net/keystone/+bug/1377304,2015-06-10
+1375772,1375772,Fix Released,Authenicate fails with IndexError exception with LDAP and user_enabled_emulation,https://bugs.launchpad.net/keystone/+bug/1375772,2015-06-10
+1375139,1375139,Fix Released,"LDAP, non ascii characters in CN field couse error while switching projects",https://bugs.launchpad.net/keystone/+bug/1375139,2015-06-10
+1375937,1375937,Fix Released,Downgrade of federation extension can fail due to FKs,https://bugs.launchpad.net/keystone/+bug/1375937,2015-06-10
+1363047,1363047,Fix Released,test_sql_upgrade and live_test not working for non-sqlite DBs,https://bugs.launchpad.net/keystone/+bug/1363047,2015-06-10
+1373621,1373621,Fix Released,ZFSSA iSCSI driver doesn't honor volume_backend_name config option.,https://bugs.launchpad.net/cinder/+bug/1373621,2015-06-10
+1350504,1350504,Fix Released,[OSSA 2014-033] GlusterFS driver uses unsafe qcow2 format detection (CVE-2014-3641),https://bugs.launchpad.net/ossa/+bug/1350504,2015-06-10
+1350504,1350504,Fix Released,[OSSA 2014-033] GlusterFS driver uses unsafe qcow2 format detection (CVE-2014-3641),https://bugs.launchpad.net/cinder/+bug/1350504,2015-06-10
+1353506,1353506,Fix Released,NetApp ESeries unit test breaks tests using python-requests,https://bugs.launchpad.net/cinder/+bug/1353506,2015-06-10
+1379830,1379830,Fix Released,unable to re-attach a  volume to instance in VMWare deployment,https://bugs.launchpad.net/cinder/+bug/1379830,2015-06-10
+1374613,1374613,Fix Released,Eqlx driver can leave orphaned SSH connections,https://bugs.launchpad.net/cinder/+bug/1374613,2015-06-10
+1375487,1375487,Fix Released,"qemu-img ""-t none"" parameter fails image conversion on tmpfs",https://bugs.launchpad.net/cinder/+bug/1375487,2015-06-10
+1381106,1381106,Fix Released,Unexpected cinder volumes export occurs after restarting cinder-volume,https://bugs.launchpad.net/cinder/+bug/1381106,2015-06-10
+1368595,1368595,Fix Released,"IBM Storwize: unable to retype to the new qos, if QoS is empty",https://bugs.launchpad.net/cinder/+bug/1368595,2015-06-10
+1375946,1375946,Fix Released,Potential race condition in ISCSIConnector _disconnect_volume_multipath_iscsi,https://bugs.launchpad.net/cinder/+bug/1375946,2015-06-10
+1374630,1374630,Fix Released,NetApp volume extra specs are obsolete or deprecated,https://bugs.launchpad.net/cinder/+bug/1374630,2015-06-10
+1369750,1369750,Fix Released,ZFSSA iSCSI  driver cannot add multple initiators to a group,https://bugs.launchpad.net/cinder/+bug/1369750,2015-06-10
+1463605,1463605,Fix Committed,node id is not recorded if provisioning does not complete,https://bugs.launchpad.net/cue/+bug/1463605,2015-06-10
+1423165,1423165,Fix Released,https: client can cause nova/cinder to leak sockets for 'get' 'show' 'delete' 'update',https://bugs.launchpad.net/python-glanceclient/+bug/1423165,2015-06-10
+1358709,1358709,Fix Released,SLAAC IPv6 addressing doesn't work with more than one subnet,https://bugs.launchpad.net/neutron/+bug/1358709,2015-06-10
+1415522,1415522,Fix Released,DVR Tempest Job check-tempest-dsvm-neutron-dvr not stable when compared to the neutron job,https://bugs.launchpad.net/neutron/+bug/1415522,2015-06-10
+1393721,1393721,Fix Released,devstack multinode fails during cinder volume type creation,https://bugs.launchpad.net/devstack/+bug/1393721,2015-06-09
+1379705,1379705,Fix Released,DRAC Driver can't continue the deploy,https://bugs.launchpad.net/ironic/+bug/1379705,2015-06-09
+1462397,1462397,Fix Committed,IBP: virtual usb emulated disk fails provision,https://bugs.launchpad.net/fuel/+bug/1462397,2015-06-09
+1384178,1384178,Fix Released,"[dashboard] create (""plus"") button fails",https://bugs.launchpad.net/murano/+bug/1384178,2015-06-09
+1369977,1369977,Fix Released,Actual problems are not shown to the user via error messages,https://bugs.launchpad.net/murano/+bug/1369977,2015-06-09
+1423609,1423609,Fix Released,[Dashboard] Password-checking on-place is broken,https://bugs.launchpad.net/murano/+bug/1423609,2015-06-09
+1405216,1405216,Fix Released,[Dashboard] There are too many applications in latest apps section,https://bugs.launchpad.net/murano/+bug/1405216,2015-06-09
+1401550,1401550,Fix Released,[Dashboard] Application catalog page looks ugly if there are no apps in the catalog,https://bugs.launchpad.net/murano/+bug/1401550,2015-06-09
+1414008,1414008,Fix Released,Application becomes unavailable after environment is redeployed,https://bugs.launchpad.net/murano/+bug/1414008,2015-06-09
+1436618,1436618,Fix Released,Public app exists after tenant is deleted,https://bugs.launchpad.net/murano/+bug/1436618,2015-06-09
+1435437,1435437,Fix Released,[DSL] Action return as list of strings is failed to serialize,https://bugs.launchpad.net/murano/+bug/1435437,2015-06-09
+1458455,1458455,Fix Released,Can not rename error node on Add Nodes screen,https://bugs.launchpad.net/fuel/+bug/1458455,2015-06-09
+1463407,1463407,Fix Released,Deploying PostgreSQL (no docker) murano application triggers an error,https://bugs.launchpad.net/murano/+bug/1463407,2015-06-09
+1461927,1461927,Fix Released,Inconsistent netboot images download with 'fuel-createmirror',https://bugs.launchpad.net/fuel/+bug/1461927,2015-06-09
+1428982,1428982,Fix Released,dockerctl backup report success incorrectly,https://bugs.launchpad.net/fuel/+bug/1428982,2015-06-09
+1367500,1367500,Fix Released,"IPv6 network doesn't create namespace, dhcp port",https://bugs.launchpad.net/neutron/+bug/1367500,2015-06-09
+1462984,1462984,Fix Released,Need add 'check_services=False'  in the test vcenter_delete_controler,https://bugs.launchpad.net/fuel/+bug/1462984,2015-06-09
+1300870,1300870,Fix Released,Keypair extension to create server REST API not documented,https://bugs.launchpad.net/openstack-api-site/+bug/1300870,2015-06-09
+1252998,1252998,Fix Released,Storage filter name fails with puppetdb.,https://bugs.launchpad.net/puppet-swift/+bug/1252998,2015-06-09
+1368514,1368514,Fix Released,OpenStack nodes lose DNS and NTP on Fuel master node outage,https://bugs.launchpad.net/fuel/+bug/1368514,2015-06-08
+1460972,1460972,Fix Released,MTU 65000 for p_br-prv-0 is not restored,https://bugs.launchpad.net/fuel/+bug/1460972,2015-06-08
+1461542,1461542,Fix Released,Restore master node with custom path failed with error,https://bugs.launchpad.net/fuel/+bug/1461542,2015-06-08
+1462009,1462009,Fix Released,[IBP][fuel-agent] avoid user confirmation for lvcreate,https://bugs.launchpad.net/fuel/+bug/1462009,2015-06-08
+1459089,1459089,Fix Released,apt-get update task timeout too low,https://bugs.launchpad.net/fuel/+bug/1459089,2015-06-08
+1461167,1461167,Fix Released,Tracking page views in google analytics,https://bugs.launchpad.net/app-catalog/+bug/1461167,2015-06-08
+1459516,1459516,Fix Released,test_resize_server_confirm_from_stopped test tries to delete the same instance multiple times,https://bugs.launchpad.net/tempest/+bug/1459516,2015-06-08
+1451759,1451759,Fix Released,test_iscsi_volume fails,https://bugs.launchpad.net/tempest/+bug/1451759,2015-06-08
+1439499,1439499,Fix Released,Fernet token does not work with horizon,https://bugs.launchpad.net/django-openstack-auth/+bug/1439499,2015-06-08
+1434232,1434232,Fix Released,Resolv.conf in Ubuntu is not updated,https://bugs.launchpad.net/fuel/+bug/1434232,2015-06-08
+1398931,1398931,Fix Released,API documentation for image schema,https://bugs.launchpad.net/openstack-api-site/+bug/1398931,2015-06-08
+1451751,1451751,Fix Released,"""fpb --build"" command creates two packages instead of one",https://bugs.launchpad.net/fuel/+bug/1451751,2015-06-08
+1443941,1443941,Fix Released,Reboot plugin task fails deployment on CentOS,https://bugs.launchpad.net/fuel/+bug/1443941,2015-06-08
+1458772,1458772,Fix Released,'verify_firewall' check should be in an another testcase for groups 'prepare_ha_neutron' and 'prepare_ha_nova',https://bugs.launchpad.net/fuel/+bug/1458772,2015-06-08
+1458202,1458202,Fix Released,Thread_1 timeout error: move ceph cases from thread 1,https://bugs.launchpad.net/fuel/+bug/1458202,2015-06-08
+1458020,1458020,Fix Released,TestNeutronFailover.check_instance_connectivity() should be called using proper 'remote' connection,https://bugs.launchpad.net/fuel/+bug/1458020,2015-06-08
+1457831,1457831,Fix Released,System test 'ha_nova_destroy_controllers' failed because pacemaker didn't start 'p_mysql' resource yet,https://bugs.launchpad.net/fuel/+bug/1457831,2015-06-08
+1458768,1458768,Fix Released,No way to disable swift slo tests in configuration Edit,https://bugs.launchpad.net/tempest/+bug/1458768,2015-06-08
+1463017,1463017,Fix Released,Need add field in 6.1.custom_system_test to have possibility execute any test group,https://bugs.launchpad.net/fuel/+bug/1463017,2015-06-08
+1403487,1403487,Fix Released,Glance image_cache_max_size is larger than container size,https://bugs.launchpad.net/openstack-ansible/+bug/1403487,2015-06-08
+1461136,1461136,Fix Released,Adding of new controllers fails if some existing controllers are offline,https://bugs.launchpad.net/fuel/+bug/1461136,2015-06-08
+1439686,1439686,Fix Released,Add excplicit repo connectivity checks for Ubuntu envs,https://bugs.launchpad.net/fuel/+bug/1439686,2015-06-08
+1453762,1453762,Fix Released,ceph_ha_one_controller_with_cinder_restart failed: Node slave-01 has not become online after warm start,https://bugs.launchpad.net/fuel/+bug/1453762,2015-06-08
+1433486,1433486,Fix Released,disable offloading options disappear,https://bugs.launchpad.net/fuel/+bug/1433486,2015-06-08
+1358179,1358179,Fix Released,Neutron Virtual Private Network as a Service (VPNaaS) API requires a  WADL to be on the API Reference,https://bugs.launchpad.net/openstack-api-site/+bug/1358179,2015-06-08
+1210743,1210743,Fix Released,Implement API protection on target entities,https://bugs.launchpad.net/openstack-api-site/+bug/1210743,2015-06-08

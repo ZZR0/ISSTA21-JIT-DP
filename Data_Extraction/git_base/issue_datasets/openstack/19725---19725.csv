@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1711076,1711076,Fix Released,"Leases with the same name are not allowed, even across two different tenants",https://bugs.launchpad.net/blazar/+bug/1711076,2017-08-21
+1709103,1709103,Fix Released,Blazar doesn't populate lease user_id,https://bugs.launchpad.net/blazar/+bug/1709103,2017-08-21
+1649833,1649833,Fix Committed,Create/update fw_rule action with integer value hit internal error,https://bugs.launchpad.net/neutron/+bug/1649833,2017-08-21
+1694363,1694363,Fix Released,Tempest test  for firewall insertion into router fails,https://bugs.launchpad.net/neutron/+bug/1694363,2017-08-21
+1710840,1710840,Fix Released,Service clusterIP is not fully handled,https://bugs.launchpad.net/stackube/+bug/1710840,2017-08-21
+1640738,1640738,Fix Released,check_cinder_exists function works incorrect,https://bugs.launchpad.net/sahara/+bug/1640738,2017-08-20
+1602150,1602150,Fix Released,incorrect result of adding tags for network,https://bugs.launchpad.net/python-neutronclient/+bug/1602150,2017-08-19
+1508299,1508299,Fix Released,convergence: snapshots not deleted when deleting stack,https://bugs.launchpad.net/heat/+bug/1508299,2017-08-18
+1703932,1703932,Fix Released,Network isolation docs still refer to removed cli params,https://bugs.launchpad.net/tripleo/+bug/1703932,2017-08-18
+1703407,1703407,Fix Released,tripleo.org is missing its headers,https://bugs.launchpad.net/tripleo/+bug/1703407,2017-08-18
+1699549,1699549,Fix Released,metadefs release note for pike,https://bugs.launchpad.net/glance/+bug/1699549,2017-08-18
+1709277,1709277,Fix Released,Accessing kubernetes pod denied,https://bugs.launchpad.net/stackube/+bug/1709277,2017-08-18
+1653122,1653122,Fix Released,Placement API should support DELETE /resource-providers/{uuid}/inventories,https://bugs.launchpad.net/nova/+bug/1653122,2017-08-18
+1621709,1621709,Fix Released,There is no allocation record for migration action,https://bugs.launchpad.net/nova/+bug/1621709,2017-08-18
+1711262,1711262,Fix Released,tripleo job are overwriting nameserver with 8.8.8.8,https://bugs.launchpad.net/tripleo/+bug/1711262,2017-08-18
+1528307,1528307,Fix Released,Neutron play won't work with only vxlan networks,https://bugs.launchpad.net/openstack-ansible/+bug/1528307,2017-08-18
+1710287,1710287,Fix Released,Broken jinja2 in ceph_client variables,https://bugs.launchpad.net/openstack-ansible/+bug/1710287,2017-08-18
+1650356,1650356,Fix Released,Allow more configurability of cidr_networks,https://bugs.launchpad.net/openstack-ansible/+bug/1650356,2017-08-18
+1703621,1703621,Fix Released,Appendix A conflict with /etc/openstack_deploy/openstack_user_config.yml.example,https://bugs.launchpad.net/openstack-ansible/+bug/1703621,2017-08-18
+1709327,1709327,Fix Released,CI: extremely long times of overcloud deploy in multinode jobs,https://bugs.launchpad.net/tripleo/+bug/1709327,2017-08-18
+1667228,1667228,Fix Released,networking-odl  is sending qos policy during the network qos policy disassociation,https://bugs.launchpad.net/networking-odl/+bug/1667228,2017-08-18
+1625497,1625497,Fix Released,[Security Groups] Sync Mismatch between Openstack and ODL,https://bugs.launchpad.net/networking-odl/+bug/1625497,2017-08-18
+1591409,1591409,Fix Released,refactor tests for ml2_mech_driver_v2,https://bugs.launchpad.net/networking-odl/+bug/1591409,2017-08-18
+1588008,1588008,Fix Released,devstack update for vpnservice update for netvirt,https://bugs.launchpad.net/networking-odl/+bug/1588008,2017-08-18
+1557976,1557976,Fix Released,sg events callback: sg group deleted but the related rules are left,https://bugs.launchpad.net/neutron/+bug/1557976,2017-08-18
+1557976,1557976,Fix Released,sg events callback: sg group deleted but the related rules are left,https://bugs.launchpad.net/networking-odl/+bug/1557976,2017-08-18
+1540205,1540205,Fix Released,v2 driver lacks of the full sync feature like in v1 driver,https://bugs.launchpad.net/networking-odl/+bug/1540205,2017-08-18
+1489552,1489552,Fix Released,introduce lighter test framework,https://bugs.launchpad.net/networking-odl/+bug/1489552,2017-08-18
+1643947,1643947,Fix Released,neutron stadium: user/operator doc for new netvirt(vpnservice),https://bugs.launchpad.net/networking-odl/+bug/1643947,2017-08-18
+1643948,1643948,Fix Released,neutron stadium: openstack CI: enable new netvirt(vpnservice),https://bugs.launchpad.net/networking-odl/+bug/1643948,2017-08-18
+1643969,1643969,Fix Released,neutron stadium: neturon-lib: full conversion from neutron to neutron-lib,https://bugs.launchpad.net/networking-odl/+bug/1643969,2017-08-18
+1644409,1644409,Fix Released,neutron stadium: more test cases for fullstack test,https://bugs.launchpad.net/networking-odl/+bug/1644409,2017-08-18
+1646940,1646940,Fix Released,neutron stadium: migrate openstack CI from old netvirt to new netvirt,https://bugs.launchpad.net/networking-odl/+bug/1646940,2017-08-18
+1674727,1674727,Fix Released,networking-odl v2 driver sync: synced neutron ports have a bad security_group attribute,https://bugs.launchpad.net/networking-odl/+bug/1674727,2017-08-17
+1677912,1677912,Fix Released,full sync: router needs to be before port,https://bugs.launchpad.net/networking-odl/+bug/1677912,2017-08-17
+1677935,1677935,Fix Released,journal: auto deleted sgrule should be deleted before parent sg,https://bugs.launchpad.net/networking-odl/+bug/1677935,2017-08-17
+1701760,1701760,Fix Released,test_network_delete_pending_network_create fails intermittently,https://bugs.launchpad.net/networking-odl/+bug/1701760,2017-08-17
+1701761,1701761,Fix Released,test_bind_port_with_vif_type_vhost_user fails intermittently,https://bugs.launchpad.net/networking-odl/+bug/1701761,2017-08-17
+1704956,1704956,Fix Released,Port Status Update not working in V1 driver,https://bugs.launchpad.net/networking-odl/+bug/1704956,2017-08-17
+1697689,1697689,Fix Released,Mistral environments will fail if the variables are large enough,https://bugs.launchpad.net/tripleo/+bug/1697689,2017-08-17
+1697689,1697689,Fix Released,Mistral environments will fail if the variables are large enough,https://bugs.launchpad.net/mistral/+bug/1697689,2017-08-17
+1661048,1661048,Fix Released,bootstap-ansible can not be called from absolute path,https://bugs.launchpad.net/openstack-ansible/+bug/1661048,2017-08-17
+1657796,1657796,Fix Released,stable/newton: os_neutron gate failing intermittently on Xenial,https://bugs.launchpad.net/openstack-ansible/+bug/1657796,2017-08-17
+1649938,1649938,Fix Released,Use timezone from host inside LXC containers,https://bugs.launchpad.net/openstack-ansible/+bug/1649938,2017-08-17
+1643823,1643823,Fix Released,InternalServerError in rally NetworkPlugin.create_subnets_routers_interfaces,https://bugs.launchpad.net/networking-midonet/+bug/1643823,2017-08-17
+1645336,1645336,Fix Released,Nested stacks are validated multiple times,https://bugs.launchpad.net/heat/+bug/1645336,2017-08-17
+1709857,1709857,Fix Released,virtlogd still running on bare metal while libvirt is containerized,https://bugs.launchpad.net/tripleo/+bug/1709857,2017-08-17
+1620367,1620367,Fix Released,Doc: Links for docs outside the current doc tree do not transfer to stable branches properly,https://bugs.launchpad.net/openstack-ansible/+bug/1620367,2017-08-17
+1617389,1617389,Fix Released,os_horizon/tasks/horizon_ssl_user_provided.yml task contains mislabelled tags,https://bugs.launchpad.net/openstack-ansible/+bug/1617389,2017-08-17
+1580267,1580267,Fix Released,Doc: Operations - Dataplane Scaling,https://bugs.launchpad.net/openstack-ansible/+bug/1580267,2017-08-17
+1580264,1580264,Fix Released,Doc: Operations - Infrastructure Scaling,https://bugs.launchpad.net/openstack-ansible/+bug/1580264,2017-08-17
+1710787,1710787,Fix Released,CSV data is not the target for translation,https://bugs.launchpad.net/openstack-i18n/+bug/1710787,2017-08-17
+1677449,1677449,Fix Released,Remove deprecated config [ilo]/clean_priority_erase_devices config,https://bugs.launchpad.net/ironic/+bug/1677449,2017-08-17
+1678902,1678902,Fix Released,Remove deprecated method build_instance_info_for_deploy() from Agent deploy,https://bugs.launchpad.net/ironic/+bug/1678902,2017-08-17
+1679297,1679297,Fix Released,info in node.driver_internal_info not being saved,https://bugs.launchpad.net/ironic/+bug/1679297,2017-08-17
+1679944,1679944,Fix Released,Correction in deploy driver check,https://bugs.launchpad.net/ironic/+bug/1679944,2017-08-17
+1678394,1678394,Fix Released,wrong image file path may occur in devstack installation when disable nova,https://bugs.launchpad.net/ironic/+bug/1678394,2017-08-17
+1681778,1681778,Fix Released,Unclear error trying to delete a node from error state,https://bugs.launchpad.net/ironic/+bug/1681778,2017-08-17
+1642719,1642719,Fix Released,[RFE] RADOSGW authentication mechanism for storing config drive in Ceph,https://bugs.launchpad.net/ironic/+bug/1642719,2017-08-17
+1681509,1681509,Fix Released,deprecate pre-allocation model for OneView drivers,https://bugs.launchpad.net/ironic/+bug/1681509,2017-08-17
+1513005,1513005,Fix Released,[RFE] Auto deploy devstack with API under apache,https://bugs.launchpad.net/ironic/+bug/1513005,2017-08-17
+1684797,1684797,Fix Released,single node grenade failed on upgrade ironic phase,https://bugs.launchpad.net/ironic/+bug/1684797,2017-08-17
+1675404,1675404,Fix Released,Make terminal session timeout configurable,https://bugs.launchpad.net/ironic/+bug/1675404,2017-08-17
+1685093,1685093,Fix Released,Disk identifier overwritten by parted,https://bugs.launchpad.net/ironic/+bug/1685093,2017-08-17
+1670778,1670778,Fix Released,base.IronicObject._from_db_object() needs 'context' parameter,https://bugs.launchpad.net/ironic/+bug/1670778,2017-08-17
+1526477,1526477,Fix Released,[RFE] Add a redfish driver to Ironic,https://bugs.launchpad.net/ironic/+bug/1526477,2017-08-17
+1668605,1668605,Fix Released,Add tests for resource_class field of nodes in api version 1.21,https://bugs.launchpad.net/ironic/+bug/1668605,2017-08-17
+1689274,1689274,Fix Released,Add 'iscsi' deploy support for 'ilo' hardware type,https://bugs.launchpad.net/ironic/+bug/1689274,2017-08-17
+1681524,1681524,Fix Released,Update developer quickstart devstack documentation,https://bugs.launchpad.net/ironic/+bug/1681524,2017-08-17
+1628846,1628846,Fix Released,install guide does not mention how to configure Ironic re images and swift storage,https://bugs.launchpad.net/ironic/+bug/1628846,2017-08-17
+1659419,1659419,Fix Released,Check sort key to see if it is an allowed field,https://bugs.launchpad.net/ironic/+bug/1659419,2017-08-17
+1655568,1655568,Fix Released,function _ensure_config_dirs_exist in pxe_utils.py create tftpboot/<uuid> dir  with wrong permission,https://bugs.launchpad.net/ironic/+bug/1655568,2017-08-17
+1691504,1691504,Fix Released,[RFE] Add 'ipmitool' vendor interface for use by hardware types,https://bugs.launchpad.net/ironic/+bug/1691504,2017-08-17
+1526423,1526423,Fix Released,[RFE] Add guru meditation report for ironic,https://bugs.launchpad.net/ironic/+bug/1526423,2017-08-17
+1687658,1687658,Fix Released,Power interface not working for Redfish hardware,https://bugs.launchpad.net/ironic/+bug/1687658,2017-08-17

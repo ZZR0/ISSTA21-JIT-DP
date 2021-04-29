@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1585253,1585253,Fix Released,freezer-api expects content-type being set to application/json,https://bugs.launchpad.net/freezer/+bug/1585253,2016-06-03
+1587140,1587140,Fix Released,Freezer-scheduler fails to update/gather/execute jobs,https://bugs.launchpad.net/freezer/+bug/1587140,2016-06-03
+1587480,1587480,Fix Released,typo in freezer_api/api/v1/jobs.py,https://bugs.launchpad.net/freezer/+bug/1587480,2016-06-03
+1556780,1556780,Fix Released,freezer-scheduler config is invalid,https://bugs.launchpad.net/freezer/+bug/1556780,2016-06-03
+1556870,1556870,Fix Released,DEFAULT_FREEZER_SCHEDULER_CONF_D is not auto create,https://bugs.launchpad.net/freezer/+bug/1556870,2016-06-03
+1557860,1557860,Fix Released,freezer-agent cinder-vol-id is error,https://bugs.launchpad.net/freezer/+bug/1557860,2016-06-03
+1563397,1563397,Fix Released,SSLError during swift incremental restore,https://bugs.launchpad.net/freezer/+bug/1563397,2016-06-03
+1564501,1564501,Fix Released,novabackup doesn't work because of glance version,https://bugs.launchpad.net/freezer/+bug/1564501,2016-06-03
+1566012,1566012,Fix Released,README File is out of date,https://bugs.launchpad.net/freezer/+bug/1566012,2016-06-03
+1563245,1563245,Fix Released,cinder native backup failed when the volume hasn't any backup,https://bugs.launchpad.net/freezer/+bug/1563245,2016-06-03
+1563207,1563207,Fix Released,cinder native backup cover old one,https://bugs.launchpad.net/freezer/+bug/1563207,2016-06-03
+1563771,1563771,Fix Released,Restore cindernative backup no work,https://bugs.launchpad.net/freezer/+bug/1563771,2016-06-03
+1549627,1549627,Fix Released,rst syntax error in INSTALL.rst and README.rst,https://bugs.launchpad.net/freezer/+bug/1549627,2016-06-03
+1553159,1553159,Fix Released,Bandwidth limiting in Freezer is not working,https://bugs.launchpad.net/freezer/+bug/1553159,2016-06-03
+1581330,1581330,Fix Released,cindernative restore faild,https://bugs.launchpad.net/freezer/+bug/1581330,2016-06-03
+1544126,1544126,Fix Released,Migrate subhandler to DSE2,https://bugs.launchpad.net/congress/+bug/1544126,2016-06-03
+1581694,1581694,Fix Released,"For DSE2, datasource IDs are used by API instead of names",https://bugs.launchpad.net/congress/+bug/1581694,2016-06-03
+1582232,1582232,Fix Released,assertTrue(isinstance()) in tests should be replace with assertIsInstance(),https://bugs.launchpad.net/congress/+bug/1582232,2016-06-03
+1541008,1541008,Fix Released,Port test_congress to DSE2,https://bugs.launchpad.net/congress/+bug/1541008,2016-06-03
+1585563,1585563,Fix Released,congress-server fails on loading rules while restarting,https://bugs.launchpad.net/congress/+bug/1585563,2016-06-03
+1508421,1508421,Fix Released,Projects dropdown fails due to incomplete Keystone endpoint URL,https://bugs.launchpad.net/django-openstack-auth/+bug/1508421,2016-06-03
+1487372,1487372,Fix Released,unretrieve project list when switching project,https://bugs.launchpad.net/django-openstack-auth/+bug/1487372,2016-06-03
+1585824,1585824,Fix Committed,pcs shows no problem when config file for neutron-openvswitch-agent has wrong permissions,https://bugs.launchpad.net/fuel/+bug/1585824,2016-06-03
+1588267,1588267,Fix Committed,Remove deprecated parameter swift_hash_suffix from swift,https://bugs.launchpad.net/fuel/+bug/1588267,2016-06-03
+1561139,1561139,Fix Released,Managing a share with an invalid share type results in a share created,https://bugs.launchpad.net/manila/+bug/1561139,2016-06-03
+1563198,1563198,Fix Released,cephfs_native: regular user cannot read snapshot contents,https://bugs.launchpad.net/manila/+bug/1563198,2016-06-03
+1564505,1564505,Fix Released,test_manage_with_type_invalid always passes,https://bugs.launchpad.net/manila/+bug/1564505,2016-06-03
+1566826,1566826,Fix Released,migration tests fail,https://bugs.launchpad.net/manila/+bug/1566826,2016-06-03
+1566328,1566328,Fix Released,files have executable bits set,https://bugs.launchpad.net/manila/+bug/1566328,2016-06-03
+1568785,1568785,Fix Released,Tempest config verification fails in CI,https://bugs.launchpad.net/manila/+bug/1568785,2016-06-03
+1563823,1563823,Fix Released,Share Migration never sets status to success if driver migrates,https://bugs.launchpad.net/manila/+bug/1563823,2016-06-03
+1544812,1544812,Fix Released,[doc] Share Replication API and Scheduler Support,https://bugs.launchpad.net/manila/+bug/1544812,2016-06-03
+1565903,1565903,Fix Released,retry for manage share fails with an API error,https://bugs.launchpad.net/manila/+bug/1565903,2016-06-03
+1561641,1561641,Fix Released,Share managed with replication_type extra spec does not support replication,https://bugs.launchpad.net/manila/+bug/1561641,2016-06-03
+1569720,1569720,Fix Released,"Not use provided version for ""manage"" tempest test",https://bugs.launchpad.net/manila/+bug/1569720,2016-06-03
+1560126,1560126,Fix Released,DevStack sets DHSS=True when using ZFSonLinux as share driver,https://bugs.launchpad.net/manila/+bug/1560126,2016-06-03
+1578738,1578738,Fix Released,IPv6 standalone network plugin test fails on OS X,https://bugs.launchpad.net/manila/+bug/1578738,2016-06-03
+1571000,1571000,Fix Released,HNAS driver fails when filesystem is unconfined,https://bugs.launchpad.net/manila/+bug/1571000,2016-06-03
+1572742,1572742,Fix Released,share_server_id from CG APIs is always 'None',https://bugs.launchpad.net/manila/+bug/1572742,2016-06-03
+1571594,1571594,Fix Released,Shares created in CG from CG-snapshot do not have share_server_id using DHSS=true driver,https://bugs.launchpad.net/manila/+bug/1571594,2016-06-03
+1562846,1562846,Fix Released,Add user_id echo in manila show api,https://bugs.launchpad.net/manila/+bug/1562846,2016-06-03
+1580495,1580495,Fix Released,NetAppCmodeClient delete_network_interface missing vserver,https://bugs.launchpad.net/manila/+bug/1580495,2016-06-03
+1580690,1580690,Fix Released,inconsistent context requirements in DB API,https://bugs.launchpad.net/manila/+bug/1580690,2016-06-03
+1567043,1567043,Fix Released,m-api raises read_deleted error during devstack setup,https://bugs.launchpad.net/manila/+bug/1567043,2016-06-03
+1561559,1561559,Fix Released,manila api fails to read context instance attribute,https://bugs.launchpad.net/manila/+bug/1561559,2016-06-03
+1582346,1582346,Fix Released,context warnings spam scheduler and share logs,https://bugs.launchpad.net/manila/+bug/1582346,2016-06-03
+1562086,1562086,Fix Released,devdoc with quick start guide provides obsolete information,https://bugs.launchpad.net/manila/+bug/1562086,2016-06-03
+1583850,1583850,Fix Released,[doc] build_sphinx throws a bunch of errors and warnings,https://bugs.launchpad.net/manila/+bug/1583850,2016-06-03
+1566504,1566504,Fix Released,Manage API attempts to 'retry' manage if the same parameters are used,https://bugs.launchpad.net/manila/+bug/1566504,2016-06-03
+1584736,1584736,Fix Released,"assertEqual(None, *) with assertIsNone in tests",https://bugs.launchpad.net/manila/+bug/1584736,2016-06-03
+1584948,1584948,Fix Released,use assertTrue rather than assertEqual(True in tests,https://bugs.launchpad.net/manila/+bug/1584948,2016-06-03
+1566818,1566818,Fix Released,Invalid link to Module Index,https://bugs.launchpad.net/manila/+bug/1566818,2016-06-03
+1585035,1585035,Fix Released,Huawei: Fix exception in update_access not found,https://bugs.launchpad.net/manila/+bug/1585035,2016-06-03
+1587827,1587827,Fix Committed,Do not colocate haproxy with VIPs,https://bugs.launchpad.net/fuel/+bug/1587827,2016-06-03
+1560707,1560707,Fix Released,tox -e genconfig should also generate oslo.cache options,https://bugs.launchpad.net/zaqar/+bug/1560707,2016-06-03
+1561311,1561311,Fix Released,expire time should be checked when using pre-signed url,https://bugs.launchpad.net/zaqar/+bug/1561311,2016-06-03
+1563925,1563925,Fix Released,List tempest tests get an error,https://bugs.launchpad.net/zaqar/+bug/1563925,2016-06-03
+1559613,1559613,Fix Released,Too few samples for app developers,https://bugs.launchpad.net/zaqar/+bug/1559613,2016-06-03
+1569133,1569133,Fix Released,Zaqar doesn't support IPv6,https://bugs.launchpad.net/zaqar/+bug/1569133,2016-06-03
+1569474,1569474,Fix Released,OPTIONS ping should not require authentication,https://bugs.launchpad.net/zaqar/+bug/1569474,2016-06-03
+1569663,1569663,Fix Released,Default message ttl is needed to change correctly,https://bugs.launchpad.net/zaqar/+bug/1569663,2016-06-03
+1575870,1575870,Fix Released,Invalid API request during claim creation with maximum TTL,https://bugs.launchpad.net/zaqar/+bug/1575870,2016-06-03
+1579974,1579974,Fix Released,Cache decorator tests fail,https://bugs.launchpad.net/zaqar/+bug/1579974,2016-06-03
+1581189,1581189,Fix Released,falcon 1.0 breaks Zaqar,https://bugs.launchpad.net/zaqar/+bug/1581189,2016-06-03
+1583358,1583358,Fix Released,Zaqar tempest test failed,https://bugs.launchpad.net/zaqar/+bug/1583358,2016-06-03
+1584958,1584958,Fix Released,DRY not being respected on zaqar/storage/utils.py,https://bugs.launchpad.net/zaqar/+bug/1584958,2016-06-03
+1469207,1469207,Fix Released,sqlalchemy queue driver uses .run() wrapper instead of connection.execute,https://bugs.launchpad.net/zaqar/+bug/1469207,2016-06-03
+1567399,1567399,Fix Released,Bulk node interfaces configuration does not support bonding,https://bugs.launchpad.net/fuel/+bug/1567399,2016-06-03
+1400638,1400638,Fix Released,test_network_basic_ops could not ssh into instance with password,https://bugs.launchpad.net/tempest/+bug/1400638,2016-06-03
+1474193,1474193,Fix Released,Isolated credentials with v3 auth creates unusable users,https://bugs.launchpad.net/tempest/+bug/1474193,2016-06-03
+1588527,1588527,Fix Committed,BVT_2 failed on 2 OSTF tests,https://bugs.launchpad.net/fuel/+bug/1588527,2016-06-02
+1420541,1420541,Fix Released,Long running stack operations need a --poll flag,https://bugs.launchpad.net/python-heatclient/+bug/1420541,2016-06-02
+1583263,1583263,Fix Released,The default for installing puppet modules in instack-undercloud was changed to source,https://bugs.launchpad.net/tripleo/+bug/1583263,2016-06-02
+1584864,1584864,Fix Released,openstack undercloud install broken,https://bugs.launchpad.net/tripleo/+bug/1584864,2016-06-02
+1538218,1538218,Fix Released,Galera sync timeout too short on update,https://bugs.launchpad.net/tripleo/+bug/1538218,2016-06-02

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1437699,1437699,Fix Released,mDNS should Handle Bad File Descriptor,https://bugs.launchpad.net/designate/+bug/1437699,2015-10-15
+1437060,1437060,Fix Released,FloatingIP PTR should have managed_tenant_id enforced,https://bugs.launchpad.net/designate/+bug/1437060,2015-10-15
+1464763,1464763,Fix Released,Incorrect status code on a PATCH /v2/pool/{id} ?,https://bugs.launchpad.net/designate/+bug/1464763,2015-10-15
+1459487,1459487,Fix Released,v2 api xfr_zone not work,https://bugs.launchpad.net/designate/+bug/1459487,2015-10-15
+1459433,1459433,Fix Released,designate-manage pool show_config command broken,https://bugs.launchpad.net/designate/+bug/1459433,2015-10-15
+1454262,1454262,Fix Released,Check+Set Race Conditions,https://bugs.launchpad.net/designate/+bug/1454262,2015-10-15
+1453372,1453372,Fix Released,suds is missing from requirements.txt - required for the Akama backend,https://bugs.launchpad.net/designate/+bug/1453372,2015-10-15
+1451691,1451691,Fix Released,linux <3.9 doesn't support socket option SO_REUSEPORT,https://bugs.launchpad.net/designate/+bug/1451691,2015-10-15
+1445123,1445123,Fix Released,"Under high load, DB Connection Pool get's exhausted",https://bugs.launchpad.net/designate/+bug/1445123,2015-10-15
+1445115,1445115,Fix Released,Missing indexes on records table hurting performance,https://bugs.launchpad.net/designate/+bug/1445115,2015-10-15
+1443588,1443588,Fix Released,designate-dashboard reuses update domain screen as view details screen,https://bugs.launchpad.net/designate/+bug/1443588,2015-10-15
+1413472,1413472,Fix Released,API v1 listing of records noticibly slower moving to Juno,https://bugs.launchpad.net/designate/+bug/1413472,2015-10-15
+1411700,1411700,Fix Released,Pool Manager Needs Enhanced Unit Testing,https://bugs.launchpad.net/designate/+bug/1411700,2015-10-15
+1460187,1460187,Fix Released,Designate GET and POST /v1/domains has auth issue,https://bugs.launchpad.net/designate/+bug/1460187,2015-10-15
+1454175,1454175,Fix Released,pool-manager configuration options will leak db passwd,https://bugs.launchpad.net/designate/+bug/1454175,2015-10-15
+1447683,1447683,Fix Released,/v2/zones is missing the nameservers sub resource,https://bugs.launchpad.net/designate/+bug/1447683,2015-10-15
+1445129,1445129,Fix Released,Central's RPCAPI uses call for update_status,https://bugs.launchpad.net/designate/+bug/1445129,2015-10-15
+1445125,1445125,Fix Released,"Pool Manager with workers, every worker runs the periodic tasks",https://bugs.launchpad.net/designate/+bug/1445125,2015-10-15
+1445114,1445114,Fix Released,"With TSIG enabled, dns.exceptions.TooBig can be raised",https://bugs.launchpad.net/designate/+bug/1445114,2015-10-15
+1444384,1444384,Fix Released,mDNS workers - TCP/UDP sockets missing flags,https://bugs.launchpad.net/designate/+bug/1444384,2015-10-15
+1497646,1497646,Fix Released,Current policy.json role assignments are error prone for deployment modifications,https://bugs.launchpad.net/barbican/+bug/1497646,2015-10-15
+1459780,1459780,Fix Released,Add filter to secret list for acl secrets,https://bugs.launchpad.net/barbican/+bug/1459780,2015-10-15
+1423962,1423962,Fix Released,Add Alembic Modules to Enable Upgrades,https://bugs.launchpad.net/barbican/+bug/1423962,2015-10-15
+1496826,1496826,Fix Released,Traceback when attempting to run functional test directly,https://bugs.launchpad.net/barbican/+bug/1496826,2015-10-15
+1492010,1492010,Fix Released,Complete localization for Barbican Api Directory,https://bugs.launchpad.net/barbican/+bug/1492010,2015-10-15
+1499768,1499768,Fix Released,Barbican can fail to start if certificate plugin has an error,https://bugs.launchpad.net/barbican/+bug/1499768,2015-10-15
+1498525,1498525,Fix Released,Quota test test_get_quotas_with_defaults() assumes -1 is default,https://bugs.launchpad.net/barbican/+bug/1498525,2015-10-15
+1490747,1490747,Fix Released,Be consistent on test tools and drivers,https://bugs.launchpad.net/barbican/+bug/1490747,2015-10-15
+1490566,1490566,Fix Released,Functional tests do not fully clean up after orders,https://bugs.launchpad.net/barbican/+bug/1490566,2015-10-15
+1477240,1477240,Fix Released,snakeoil plugin needs input CSR  base64 decoded,https://bugs.launchpad.net/barbican/+bug/1477240,2015-10-15
+1499103,1499103,Fix Released,Certificate Authority Model misuses soft delete,https://bugs.launchpad.net/barbican/+bug/1499103,2015-10-15
+1497774,1497774,Fix Released,Intermittent Unit Test Failures in Quota Enforcer,https://bugs.launchpad.net/barbican/+bug/1497774,2015-10-15
+1497009,1497009,Fix Released,Barbican not returning correct effective quotas,https://bugs.launchpad.net/barbican/+bug/1497009,2015-10-15
+1496821,1496821,Fix Released,HTTP 403 Returned when trying to get preferred CA,https://bugs.launchpad.net/barbican/+bug/1496821,2015-10-15
+1496819,1496819,Fix Released,HTTP Code 500 Returned on bad CA resource in URL,https://bugs.launchpad.net/barbican/+bug/1496819,2015-10-15
+1495576,1495576,Fix Released,Get CAs returns empty list,https://bugs.launchpad.net/barbican/+bug/1495576,2015-10-15
+1499874,1499874,Fix Released,SnakeOil Can Sign Certificates with wrong CA,https://bugs.launchpad.net/barbican/+bug/1499874,2015-10-15
+1499396,1499396,Fix Released,Pare down the juno_initial Alembic version file,https://bugs.launchpad.net/barbican/+bug/1499396,2015-10-15
+1499105,1499105,Fix Released,Possible async issues with CA repo,https://bugs.launchpad.net/barbican/+bug/1499105,2015-10-15
+1498542,1498542,Fix Released,Traceback in barbican/model/repositories.py,https://bugs.launchpad.net/barbican/+bug/1498542,2015-10-15
+1498524,1498524,Fix Released,GET /v1/cas/{CA_ID}/projects returns internal project IDs,https://bugs.launchpad.net/barbican/+bug/1498524,2015-10-15
+1498289,1498289,Fix Released,Restrict Use of SubCAs to the owning project,https://bugs.launchpad.net/barbican/+bug/1498289,2015-10-15
+1498269,1498269,Fix Released,Return global or project preferred CA on GET /cas/preferred,https://bugs.launchpad.net/barbican/+bug/1498269,2015-10-15
+1497639,1497639,Fix Released,Unauth context doesn't provide all X-xxxx fields to context,https://bugs.launchpad.net/barbican/+bug/1497639,2015-10-15
+1459800,1459800,Fix Released,Add request ID to worker-side logs,https://bugs.launchpad.net/barbican/+bug/1459800,2015-10-15
+1386251,1386251,Fix Released,Error message for bad bit length is insufficient on secret create,https://bugs.launchpad.net/barbican/+bug/1386251,2015-10-15
+1489900,1489900,Fix Released,Test Attributes are Lost,https://bugs.launchpad.net/barbican/+bug/1489900,2015-10-15
+1485762,1485762,Fix Released,quotas test fails when admin username is not 'admin',https://bugs.launchpad.net/barbican/+bug/1485762,2015-10-15
+1485157,1485157,Fix Released,"PUT /v1/containers/<id> returns http 406, should be http 405",https://bugs.launchpad.net/barbican/+bug/1485157,2015-10-15
+1478116,1478116,Fix Released,KeyError: 'user_id' in devstack logs,https://bugs.launchpad.net/barbican/+bug/1478116,2015-10-15
+1468482,1468482,Fix Released,Complete localization for Barbican Plugin Directory,https://bugs.launchpad.net/barbican/+bug/1468482,2015-10-15
+1459682,1459682,Fix Released,Change config file name to barbican.conf,https://bugs.launchpad.net/barbican/+bug/1459682,2015-10-15
+1454587,1454587,Fix Released,Install scripts in /usr/bin with extensions,https://bugs.launchpad.net/barbican/+bug/1454587,2015-10-15
+1459454,1459454,Fix Released,Stored key certificate order does not set PK on generated container,https://bugs.launchpad.net/barbican/+bug/1459454,2015-10-15
+1450849,1450849,Fix Released,Only ceator of secret and container should be able to define and manage ACL.,https://bugs.launchpad.net/barbican/+bug/1450849,2015-10-15
+1451466,1451466,Fix Released,remove-unneeded-config-dot-py-file,https://bugs.launchpad.net/barbican/+bug/1451466,2015-10-15
+1450277,1450277,Fix Released,Remove admin endpoint,https://bugs.launchpad.net/barbican/+bug/1450277,2015-10-15
+1445610,1445610,Fix Released,Improve the Error Codes returned from pkcs11 plugin,https://bugs.launchpad.net/barbican/+bug/1445610,2015-10-15
+1463967,1463967,Fix Released,Replace oslo-incubator modules with the official oslo packages,https://bugs.launchpad.net/barbican/+bug/1463967,2015-10-15
+1462069,1462069,Fix Released,Inconsistent Request Ids in Logs,https://bugs.launchpad.net/barbican/+bug/1462069,2015-10-15
+1459448,1459448,Fix Released,Potential Race Condition with Barbican Config Options,https://bugs.launchpad.net/barbican/+bug/1459448,2015-10-15
+1455493,1455493,Fix Released,config-fix-sqlalchemy-pool-enable-logging,https://bugs.launchpad.net/barbican/+bug/1455493,2015-10-15
+1451456,1451456,Fix Released,snakeoil_ca plugin doesn't work,https://bugs.launchpad.net/barbican/+bug/1451456,2015-10-15
+1447872,1447872,Fix Released,Post of unsupported parameters in ACL succeeds,https://bugs.launchpad.net/barbican/+bug/1447872,2015-10-15
+1470563,1470563,Fix Released,Can't initiate DogTag Secret Store and Certificate plugins at the same time,https://bugs.launchpad.net/barbican/+bug/1470563,2015-10-15
+1460873,1460873,Fix Released,retries-task-retry-not-working,https://bugs.launchpad.net/barbican/+bug/1460873,2015-10-15
+1453636,1453636,Fix Released,certificates incorrectly encoded for dogtag plugin,https://bugs.launchpad.net/barbican/+bug/1453636,2015-10-15
+1449234,1449234,Fix Released,KMIP secret store cannot store keys,https://bugs.launchpad.net/barbican/+bug/1449234,2015-10-15
+1447868,1447868,Fix Released,Post of valid ACL returns 400,https://bugs.launchpad.net/barbican/+bug/1447868,2015-10-15
+1446266,1446266,Fix Released,RBAC needs to be checked for stored-key orders,https://bugs.launchpad.net/barbican/+bug/1446266,2015-10-15
+1462681,1462681,Fix Released,Secret GET /payload  returns 500 when no Accept header,https://bugs.launchpad.net/barbican/+bug/1462681,2015-10-15
+1455247,1455247,Fix Released,Cannot create a secret when working on a unauthenticated context,https://bugs.launchpad.net/barbican/+bug/1455247,2015-10-15
+1448193,1448193,Fix Released,Generate CSR Fails with PyOpenSSL Version 0.15.1,https://bugs.launchpad.net/barbican/+bug/1448193,2015-10-15
+1446826,1446826,Fix Released,Get secret with ACL returns 500 Internal Server Error,https://bugs.launchpad.net/barbican/+bug/1446826,2015-10-15
+1446406,1446406,Fix Released,Insecure signing_dir configuration in barbican-api-paste.ini,https://bugs.launchpad.net/barbican/+bug/1446406,2015-10-15

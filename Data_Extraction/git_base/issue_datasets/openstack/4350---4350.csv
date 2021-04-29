@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1618487,1618487,Fix Committed,"/etc/logrotate.d/fuel.nodaily is not using dateext directive, /etc/logrotate.conf is not using dateformat, which leads to broken log rotation, and filled up disk",https://bugs.launchpad.net/fuel/+bug/1618487,2019-12-18
+1597810,1597810,Fix Committed,tox -e pep8 reports an error on ubuntu 16.04,https://bugs.launchpad.net/fuel/+bug/1597810,2019-12-18
+1624230,1624230,Fix Released,Controller redeployment can lead to nailgun DB deadlock,https://bugs.launchpad.net/fuel/+bug/1624230,2019-12-18
+1662168,1662168,Fix Released,ImportError: No module named functools32,https://bugs.launchpad.net/fuel/+bug/1662168,2019-12-18
+1594610,1594610,Fix Released,Trace seen in ostf smoke connectivity test,https://bugs.launchpad.net/fuel/+bug/1594610,2019-12-18
+1661177,1661177,Fix Committed,[10.0][swarm] Task restart-haproxy failed,https://bugs.launchpad.net/fuel/+bug/1661177,2019-12-18
+1636834,1636834,Fix Committed,keystone cannot be started on RHEL7,https://bugs.launchpad.net/fuel/+bug/1636834,2019-12-18
+1671808,1671808,Fix Committed,Fuel should not use apache2 as radosgw frontend,https://bugs.launchpad.net/fuel/+bug/1671808,2019-12-18
+1617071,1617071,Fix Committed,Fuel fails to offer mdXXX devices as install option,https://bugs.launchpad.net/fuel/+bug/1617071,2019-12-18
+1547625,1547625,Fix Released,[Task-based] Apache should be configured before keystone on primary-controller,https://bugs.launchpad.net/fuel/+bug/1547625,2019-12-18
+1856830,1856830,Fix Released,master + train promote-consistent-to-tripleo-ci-testing times out blocks master+train pipeline,https://bugs.launchpad.net/tripleo/+bug/1856830,2019-12-18
+1808286,1808286,Fix Released,Inconsistent behavior for the marker option for instances and build requests,https://bugs.launchpad.net/nova/+bug/1808286,2019-12-18
+1811726,1811726,Fix Released,"Deleting compute service only deletes ""first"" ironic node resource provider from placement",https://bugs.launchpad.net/nova/+bug/1811726,2019-12-18
+1773822,1773822,Fix Released,mitaka to newton upgrade fails on introduced OVS workarounds,https://bugs.launchpad.net/tripleo/+bug/1773822,2019-12-18
+1760722,1760722,Fix Released,RFE: upgrade / update logs need timestamps,https://bugs.launchpad.net/tripleo/+bug/1760722,2019-12-18
+1749978,1749978,Fix Released,Release variables have the highest precende in oooq and cannot be dynamically redifined.,https://bugs.launchpad.net/tripleo/+bug/1749978,2019-12-18
+1748469,1748469,Fix Released,Upgrade M->N fails on CephStorage : update_os_net_config: command not found,https://bugs.launchpad.net/tripleo/+bug/1748469,2019-12-18
+1744075,1744075,Fix Released,undercloud upgrades/scaling commands failing on commands with unicode output,https://bugs.launchpad.net/tripleo/+bug/1744075,2019-12-18
+1855826,1855826,Fix Released,RHEL 8 master fs01 fails while getting image expected checksum after multiple retry,https://bugs.launchpad.net/tripleo/+bug/1855826,2019-12-18
+1675791,1675791,Fix Released,"Instance created by demo user(non-admin), shelved by admin and unshelved by demo user --> ends up in error state",https://bugs.launchpad.net/nova/+bug/1675791,2019-12-17
+1788527,1788527,Fix Released,Redundant instance group lookup during scheduling of move operations,https://bugs.launchpad.net/nova/+bug/1788527,2019-12-17
+1708433,1708433,Fix Released,Attaching sriov nic VM fail with keyError pci_slot,https://bugs.launchpad.net/nova/+bug/1708433,2019-12-17
+1835070,1835070,Fix Released,The unshelve notification functional sample test fails intermittently,https://bugs.launchpad.net/nova/+bug/1835070,2019-12-17
+1853028,1853028,Fix Released,Build overcloud image for rhel8 fails sometimes on in_target.d/post-install.d/51-enable-network-service,https://bugs.launchpad.net/tripleo/+bug/1853028,2019-12-17
+1849633,1849633,Fix Released,ovn: ovn-nb-db-server and ovn-sb-db-server kolla images are broken for OVN 2.12,https://bugs.launchpad.net/kolla/+bug/1849633,2019-12-17
+1835002,1835002,Fix Released,Host is not mapped to any cell when booting instance,https://bugs.launchpad.net/kolla-ansible/+bug/1835002,2019-12-17
+1844573,1844573,Fix Released,Ironic Inspector's dnsmasq does not start on IPv6 undercloud,https://bugs.launchpad.net/tripleo/+bug/1844573,2019-12-17
+1844573,1844573,Fix Released,Ironic Inspector's dnsmasq does not start on IPv6 undercloud,https://bugs.launchpad.net/puppet-ironic/+bug/1844573,2019-12-17
+1836578,1836578,Fix Released,Fail to pull container images on IPv6 undercloud,https://bugs.launchpad.net/tripleo/+bug/1836578,2019-12-17
+1830406,1830406,Fix Released,Deploy undercloud with IPv6 ctlplane networking,https://bugs.launchpad.net/tripleo/+bug/1830406,2019-12-17
+1821428,1821428,Fix Released,Cloudkitty custom metrics.yml file not copied,https://bugs.launchpad.net/kolla-ansible/+bug/1821428,2019-12-17
+1856663,1856663,Fix Released,sriov binding driver doesn't work with Mellanox smart NICs,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1856663,2019-12-17
+1856551,1856551,Fix Released,[rocky to stein] Upgrade fails with error: dnf: command not found,https://bugs.launchpad.net/tripleo/+bug/1856551,2019-12-17
+1791299,1791299,Fix Released,"ERROR due to ""Message: Exceeded maximum number of retries. Exhausted all hosts available for retrying build failures for instance a422e57b-f460-4e28-8aa4-b4457763fa80., Code: 500""",https://bugs.launchpad.net/tripleo/+bug/1791299,2019-12-17
+1855856,1855856,Fix Released,"rocky tripleo-ci-centos-7-undercloud-upgrades fail ""container-update : Check if containers-prepare-parameter.yaml exists""",https://bugs.launchpad.net/tripleo/+bug/1855856,2019-12-17
+1775686,1775686,Fix Released,minor update: docker/services/pacemaker/ovn-dbs.yaml is missing update_tasks,https://bugs.launchpad.net/tripleo/+bug/1775686,2019-12-16
+1832768,1832768,Fix Released,Horizon: AgularJS pages do not display dates in system's timezone,https://bugs.launchpad.net/horizon/+bug/1832768,2019-12-16
+1833267,1833267,Fix Released,Horizon doesn't show images for instances created from volume=true,https://bugs.launchpad.net/horizon/+bug/1833267,2019-12-16
+1854019,1854019,Fix Released,Horizon's tests are failing with python3.8,https://bugs.launchpad.net/horizon/+bug/1854019,2019-12-16
+1794028,1794028,Fix Released,Horizon doesn't work with jQuery 2.x+,https://bugs.launchpad.net/horizon/+bug/1794028,2019-12-16
+1849219,1849219,Fix Released,Removal of apt-cacher-ng breaks yum package installation,https://bugs.launchpad.net/openstack-ansible/+bug/1849219,2019-12-16
+1855910,1855910,Fix Released,missing dnsmasq-utils package,https://bugs.launchpad.net/devstack/+bug/1855910,2019-12-16
+1852629,1852629,Fix Released,Extend of an LVM volume fails,https://bugs.launchpad.net/cinderlib/+bug/1852629,2019-12-16
+1751822,1751822,Fix Released,EXCEPTION of type 'AttributeError' when using 'help' from openstack-cli,https://bugs.launchpad.net/python-cliff/+bug/1751822,2019-12-16
+1856100,1856100,Fix Released,nova image prop object and notifications are out of sync,https://bugs.launchpad.net/nova/+bug/1856100,2019-12-14
+1801829,1801829,Fix Released,Don't quote {posargs} in tox.ini,https://bugs.launchpad.net/hacking/+bug/1801829,2019-12-13
+1833262,1833262,Fix Released,Join tasks work incorrect after rerun,https://bugs.launchpad.net/mistral/+bug/1833262,2019-12-13
+1846152,1846152,Fix Released,An error occurs when fetching a workflow execution,https://bugs.launchpad.net/mistral/+bug/1846152,2019-12-13
+1838635,1838635,Fix Released,namespace not supported when using postgresql,https://bugs.launchpad.net/mistral/+bug/1838635,2019-12-13
+1847984,1847984,Fix Released,Action error message should print the root cause in the beginning,https://bugs.launchpad.net/mistral/+bug/1847984,2019-12-13
+1849280,1849280,Fix Released,Using std.ssh with username and password causes TypeError,https://bugs.launchpad.net/mistral/+bug/1849280,2019-12-13
+1848037,1848037,Fix Released,Mistral allows creating workflows with spaces in name but could not work with it,https://bugs.launchpad.net/mistral/+bug/1848037,2019-12-13
+1850315,1850315,Fix Released,Workflow fails in evaluating input param,https://bugs.launchpad.net/mistral/+bug/1850315,2019-12-13
+1791449,1791449,Fix Released,Task publish is ignored silently,https://bugs.launchpad.net/mistral/+bug/1791449,2019-12-13
+1852722,1852722,Fix Released,Local executors don't send action heartbeats,https://bugs.launchpad.net/mistral/+bug/1852722,2019-12-13
+1702421,1702421,Fix Released,"It's impossible to set ""equal to None"" filter when calling REST API",https://bugs.launchpad.net/mistral/+bug/1702421,2019-12-13
+1853457,1853457,Fix Released,tags support is not complete,https://bugs.launchpad.net/mistral/+bug/1853457,2019-12-13
+1819175,1819175,Fix Released,containers-multinode unable to pull images,https://bugs.launchpad.net/tripleo/+bug/1819175,2019-12-13
+1805891,1805891,Fix Released,pci numa polices are not followed,https://bugs.launchpad.net/nova/+bug/1805891,2019-12-13
+1795920,1795920,Fix Released,SR-IOV shared PCI numa not working,https://bugs.launchpad.net/nova/+bug/1795920,2019-12-13
+1855493,1855493,Fix Released,py38 unit test failure - test_validate_patternProperties_fails,https://bugs.launchpad.net/nova/+bug/1855493,2019-12-12
+1836568,1836568,Fix Released,Logs  filled with unnecessary policy deprecation warnings,https://bugs.launchpad.net/keystone/+bug/1836568,2019-12-12
+1845147,1845147,Fix Released,vmax manila readonly access policy not working,https://bugs.launchpad.net/manila/+bug/1845147,2019-12-12
+1853509,1853509,Fix Released,Rally role calls deprecated rally-manage script,https://bugs.launchpad.net/openstack-ansible/+bug/1853509,2019-12-12
+1850029,1850029,Fix Released,extra_specs is not case-insensitive,https://bugs.launchpad.net/manila/+bug/1850029,2019-12-12
+1855735,1855735,Fix Released,lower-constraints gate broken,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1855735,2019-12-12
+1843890,1843890,Fix Released,nova-conductor healthcheck fails when RpcPort is not default,https://bugs.launchpad.net/tripleo/+bug/1843890,2019-12-12
+1844465,1844465,Fix Released,podman fails to apply z flag when glance-api is using NFS,https://bugs.launchpad.net/tripleo/+bug/1844465,2019-12-12
+1846495,1846495,Fix Released,haproxy-bundle double mount with tls-everywhere,https://bugs.launchpad.net/tripleo/+bug/1846495,2019-12-12
+1847539,1847539,Fix Released,From rocky keystone is bootstrapped with a 'member' ; CephRgw used to allow 'Member' instead,https://bugs.launchpad.net/tripleo/+bug/1847539,2019-12-12
+1847780,1847780,Fix Released,ovn-dbs cluster ends the update process with 2 node stopped.,https://bugs.launchpad.net/tripleo/+bug/1847780,2019-12-12
+1842948,1842948,Fix Released,nova_wait_for_compute_service can be run before nova_api is up on controllers,https://bugs.launchpad.net/tripleo/+bug/1842948,2019-12-12
+1849747,1849747,Fix Released,deploy fails with ansible error when processing ContainerImageRegistryCredentials,https://bugs.launchpad.net/tripleo/+bug/1849747,2019-12-12
+1842141,1842141,Fix Released,Role names starting with a digit will fail in confg-download,https://bugs.launchpad.net/tripleo/+bug/1842141,2019-12-12
+1842102,1842102,Fix Released,SSH enablement workflow timeout during deploy of a large overcloud using config-download,https://bugs.launchpad.net/tripleo/+bug/1842102,2019-12-12

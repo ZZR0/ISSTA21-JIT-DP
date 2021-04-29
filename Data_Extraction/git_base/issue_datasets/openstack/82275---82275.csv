@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1273714,1273714,Fix Released,Yum cookbook dependency problem,https://bugs.launchpad.net/openstack-chef/+bug/1273714,2014-03-27
+1273020,1273020,Fix Released,[image] Incorrect RabbitMQ settings in glance-api.conf,https://bugs.launchpad.net/openstack-chef/+bug/1273020,2014-03-27
+1271535,1271535,Fix Released,ambiguously stubbed specs tests,https://bugs.launchpad.net/openstack-chef/+bug/1271535,2014-03-27
+1274385,1274385,Fix Released,Ubuntu node won't converge when default['openstack']['block-storage']['volume']['create_volume_group'] is true,https://bugs.launchpad.net/openstack-chef/+bug/1274385,2014-03-27
+1271486,1271486,Fix Released,[common] Access denied for user 'root'@'127.0.0.1' (using password: YES) when create database,https://bugs.launchpad.net/openstack-chef/+bug/1271486,2014-03-27
+1269438,1269438,Fix Released,default cinder volume driver is deprecated,https://bugs.launchpad.net/openstack-chef/+bug/1269438,2014-03-27
+1269432,1269432,Fix Released,"on rhel/centos, cinder-dist.conf defaults to qpid as amqp provider",https://bugs.launchpad.net/openstack-chef/+bug/1269432,2014-03-27
+1269077,1269077,Fix Released,"on rhel/centos, nova-dist.conf defaults to qpid as amqp provider",https://bugs.launchpad.net/openstack-chef/+bug/1269077,2014-03-27
+1267411,1267411,Fix Released,nova-network not installed when using allinone-compute role,https://bugs.launchpad.net/openstack-chef/+bug/1267411,2014-03-27
+1267165,1267165,Fix Released,[ops-messaging] default['openstack'][service]['rabbit']['host'] not set correctly,https://bugs.launchpad.net/openstack-chef/+bug/1267165,2014-03-27
+1266914,1266914,Fix Released,Parent directory /etc/sysctl.d does not exist for openstack-common::sysctl recipe on centos64,https://bugs.launchpad.net/openstack-chef/+bug/1266914,2014-03-27
+1264212,1264212,Fix Released,[identity] cookbook is not compatible with RH-based distros,https://bugs.launchpad.net/openstack-chef/+bug/1264212,2014-03-27
+1261804,1261804,Fix Released,rpc_backend for qpid in openstack-metering is not correct,https://bugs.launchpad.net/openstack-chef/+bug/1261804,2014-03-27
+1256460,1256460,Fix Released,"vncproxy_service only enabled, not started",https://bugs.launchpad.net/openstack-chef/+bug/1256460,2014-03-27
+1277041,1277041,Fix Released,[ops-database] setting mysql bind_ip does not work,https://bugs.launchpad.net/openstack-chef/+bug/1277041,2014-03-27
+1271193,1271193,Fix Released,[dashboard] does not create the apache site properly on centos,https://bugs.launchpad.net/openstack-chef/+bug/1271193,2014-03-27
+1270839,1270839,Fix Released,[dashboard] Fail to restart httpd when install horizon,https://bugs.launchpad.net/openstack-chef/+bug/1270839,2014-03-27
+1270708,1270708,Fix Released,[network] Fail to migrate network database when installing openstack neutron,https://bugs.launchpad.net/openstack-chef/+bug/1270708,2014-03-27
+1269475,1269475,Fix Released,include line in targets.conf for rhel/centos is wrong,https://bugs.launchpad.net/openstack-chef/+bug/1269475,2014-03-27
+1269348,1269348,Fix Released,[common] yum repository for rhel should be optional,https://bugs.launchpad.net/openstack-chef/+bug/1269348,2014-03-27
+1267691,1267691,Fix Released,[dashboard] Fail to login openstack dashboard with 500 error,https://bugs.launchpad.net/openstack-chef/+bug/1267691,2014-03-27
+1267677,1267677,Fix Released,[dashboard] /syspanel page could not be redirected after login,https://bugs.launchpad.net/openstack-chef/+bug/1267677,2014-03-27
+1267528,1267528,Fix Released,[network] chef-client run hangs when installing neutron,https://bugs.launchpad.net/openstack-chef/+bug/1267528,2014-03-27
+1266922,1266922,Fix Released,[object-storage] cannot parse havana+ swift-ring-builder output,https://bugs.launchpad.net/openstack-chef/+bug/1266922,2014-03-27
+1256377,1256377,Fix Released,[network] RHEL package names not correct,https://bugs.launchpad.net/openstack-chef/+bug/1256377,2014-03-27
+1254981,1254981,Fix Released,"[network] recipe::common, the linuxbridge can not be started",https://bugs.launchpad.net/openstack-chef/+bug/1254981,2014-03-27
+1282980,1282980,Fix Released,[common] epel is needed for any RDO packages for CentOS/RHEL,https://bugs.launchpad.net/openstack-chef/+bug/1282980,2014-03-27
+1281070,1281070,Fix Released,domain.list filter for enabled=False can return wrong data,https://bugs.launchpad.net/python-keystoneclient/+bug/1281070,2014-03-27
+1277725,1277725,Fix Released,[telemetry] ceilometer is not installing on RHEL,https://bugs.launchpad.net/openstack-chef/+bug/1277725,2014-03-27
+1273353,1273353,Fix Released,[ops-database] Mysql does not honor root_user_use_databag attribute,https://bugs.launchpad.net/openstack-chef/+bug/1273353,2014-03-27
+1257554,1257554,Fix Released,[ops-messaging] AMQP server on 127.0.0.1:5672 is unreachable when develop_mode=false in the environment file,https://bugs.launchpad.net/openstack-chef/+bug/1257554,2014-03-27
+1289074,1289074,Fix Released,memcache client race in wsgi middleware,https://bugs.launchpad.net/python-keystoneclient/+bug/1289074,2014-03-27
+1260916,1260916,Fix Released,Setting --os-identity-api-version=3  still uses v2,https://bugs.launchpad.net/python-keystoneclient/+bug/1260916,2014-03-27
+1293961,1293961,Fix Released,Add the Image Service agent for Telemetry in OpenStack Installation Guide for openSUSE and SUSE Linux Enterprise Server  - havana,https://bugs.launchpad.net/openstack-manuals/+bug/1293961,2014-03-27
+1294803,1294803,Fix Released,Fedora dhcp race with dhcp-all-interfaces rules,https://bugs.launchpad.net/diskimage-builder/+bug/1294803,2014-03-27
+1296899,1296899,Fix Released,"vm's element finalize does not add ""console=..."" kernel parameters for extlinux",https://bugs.launchpad.net/diskimage-builder/+bug/1296899,2014-03-27
+1297829,1297829,Fix Released,Network verification has failed. Socket error: Address family not supported by protocol,https://bugs.launchpad.net/fuel/+bug/1297829,2014-03-27
+1297209,1297209,Fix Released,not full data returns with detail request for security-service list,https://bugs.launchpad.net/manila/+bug/1297209,2014-03-27
+1179046,1179046,Fix Released,Quantum plugin configuration needs clarified and corrected,https://bugs.launchpad.net/openstack-manuals/+bug/1179046,2014-03-27
+1248597,1248597,Fix Released,Networking in OpenStack Installation Guide for Ubuntu 12.04 (LTS)  - havana,https://bugs.launchpad.net/openstack-manuals/+bug/1248597,2014-03-27
+1272319,1272319,Fix Released,This is really heavy going for a newcomer to OpenStack:  Chapter 10. Install the Networking service in OpenStack Installation Guide for Ubuntu 12.04 (LTS)  - havana,https://bugs.launchpad.net/openstack-manuals/+bug/1272319,2014-03-27
+1266401,1266401,Fix Released,"Install Networking services in OpenStack Installation Guide for Red Hat Enterprise Linux, CentOS, and Fedora  - havana - confusing :)",https://bugs.launchpad.net/openstack-manuals/+bug/1266401,2014-03-27
+1263716,1263716,Fix Released,Relocate Neutron deployment use cases section in OpenStack Installation Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1263716,2014-03-27
+1263719,1263719,Fix Released,Update Architecture chapter to include typical Nova-Network and Networking service architectures in OpenStack Installation Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1263719,2014-03-27
+1244759,1244759,Fix Released,Install Guide: Networking chapter is confusing,https://bugs.launchpad.net/openstack-manuals/+bug/1244759,2014-03-27
+1297205,1297205,Fix Released,not full data returns with detail request for shares list,https://bugs.launchpad.net/manila/+bug/1297205,2014-03-26
+1224332,1224332,Fix Released,Volume creation doesn't document the arguments,https://bugs.launchpad.net/openstack-api-site/+bug/1224332,2014-03-26
+1224332,1224332,Fix Released,Volume creation doesn't document the arguments,https://bugs.launchpad.net/openstack-manuals/+bug/1224332,2014-03-26
+1292685,1292685,Fix Released,clouddocs-maven-plugin: change example title style to sentence-style caps,https://bugs.launchpad.net/openstack-manuals/+bug/1292685,2014-03-26
+1294730,1294730,Fix Released,clouddocs-maven-plugin: add branding so that api-site output differs for rackspace and openstack,https://bugs.launchpad.net/openstack-manuals/+bug/1294730,2014-03-26
+1272082,1272082,Fix Released,Broken links to the WADL markup and WADL component examples at top of the page.,https://bugs.launchpad.net/openstack-manuals/+bug/1272082,2014-03-26
+1255919,1255919,Fix Released,Increase limit for concurrent ops in Astute,https://bugs.launchpad.net/fuel/+bug/1255919,2014-03-26
+1273758,1273758,Fix Released,"Can not delete share-network, that was used by driver",https://bugs.launchpad.net/manila/+bug/1273758,2014-03-26
+1294577,1294577,Fix Released,wrong criteria for changing status of share-network with activation/deactivation,https://bugs.launchpad.net/manila/+bug/1294577,2014-03-26
+1285639,1285639,Fix Released,Issues with Heat and Murano remote logs and multiline records,https://bugs.launchpad.net/fuel/+bug/1285639,2014-03-26
+1275655,1275655,Fix Committed,q-agent-cleanup.py and special characters in password,https://bugs.launchpad.net/fuel/+bug/1275655,2014-03-26
+1297368,1297368,Fix Released,Module 'nailgun.wsgi' has no 'appstart' attribute,https://bugs.launchpad.net/fuel/+bug/1297368,2014-03-26
+1287488,1287488,Fix Released,Factory methods in auth plugins should be private for now,https://bugs.launchpad.net/python-keystoneclient/+bug/1287488,2014-03-26
+1289231,1289231,Fix Released,UI do not update by realtime main cluster page,https://bugs.launchpad.net/fuel/+bug/1289231,2014-03-26
+1290902,1290902,Fix Released,Delete request for task doesn't work,https://bugs.launchpad.net/fuel/+bug/1290902,2014-03-26
+1292010,1292010,Fix Released,Nodes do not discovered  with 400 bad request from agent on bootstrap,https://bugs.launchpad.net/fuel/+bug/1292010,2014-03-26
+1296794,1296794,Fix Released,tests assume that memcached is available if python-memcached is installed,https://bugs.launchpad.net/python-keystoneclient/+bug/1296794,2014-03-26
+1286202,1286202,Fix Released,keystone user-create wrongly advertises the --pass option as optional,https://bugs.launchpad.net/python-keystoneclient/+bug/1286202,2014-03-26
+1295881,1295881,Fix Released,*args vs **kwargs is unmanagable for future compatibility,https://bugs.launchpad.net/python-keystoneclient/+bug/1295881,2014-03-26
+1285847,1285847,Fix Released,Undefined variable ``env`` in auth_token.AuthProtocol.verify_uuid_token,https://bugs.launchpad.net/python-keystoneclient/+bug/1285847,2014-03-26
+1282410,1282410,Fix Released,V3 AccessInfo.role_names gets wrong data,https://bugs.launchpad.net/python-keystoneclient/+bug/1282410,2014-03-26
+1278662,1278662,Fix Released,Module docs are not being generated,https://bugs.launchpad.net/python-keystoneclient/+bug/1278662,2014-03-26
+1292797,1292797,Fix Released,bp add-oauth-support broke stable/havana by introducing a new dependency on oauthlib,https://bugs.launchpad.net/python-keystoneclient/+bug/1292797,2014-03-26
+1261518,1261518,Fix Released,Manila run_tests.sh is down level,https://bugs.launchpad.net/manila/+bug/1261518,2014-03-26
+1201334,1201334,Fix Released,libvirt disk_mappings returns bad root disk for Xen paravirtualization,https://bugs.launchpad.net/nova/+bug/1201334,2014-03-26
+1278697,1278697,Fix Released,ceilometer-alarm service is not installed - Install the Telemetry module in OpenStack Installation Guide for openSUSE and SUSE Linux Enterprise Server  - havana,https://bugs.launchpad.net/openstack-manuals/+bug/1278697,2014-03-26
+1295434,1295434,Fix Released,Some keystone V3 API tests throw incorrect errors,https://bugs.launchpad.net/tempest/+bug/1295434,2014-03-26
+1295616,1295616,Fix Released,Cannot specify ImageUpdatePolicy to undercloud.,https://bugs.launchpad.net/tripleo/+bug/1295616,2014-03-26
+1269151,1269151,Fix Released,Create boilerplate iptables element to consolidate logic,https://bugs.launchpad.net/tripleo/+bug/1269151,2014-03-26
+1295388,1295388,Fix Released,Nova xvpvnc and novnc proxy services have inconsistent interface binding logic,https://bugs.launchpad.net/openstack-chef/+bug/1295388,2014-03-25

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1598092,1598092,Fix Released,Performance issues with keystone under wsgi apache on a multinode machine,https://bugs.launchpad.net/tripleo/+bug/1598092,2016-11-10
+1603381,1603381,Fix Released,openstack-core resource does not have interleave=true,https://bugs.launchpad.net/tripleo/+bug/1603381,2016-11-10
+1604777,1604777,Fix Released,ControllerCount contraint added kilo->liberty,https://bugs.launchpad.net/tripleo/+bug/1604777,2016-11-10
+1595518,1595518,Fix Released,selinux should not be configured in 'permissive' state on CephStorage nodes,https://bugs.launchpad.net/tripleo/+bug/1595518,2016-11-10
+1606953,1606953,Fix Released,install python-cradox explicitly during mitaka upgrades,https://bugs.launchpad.net/tripleo/+bug/1606953,2016-11-10
+1606863,1606863,Fix Released,tripleo doesn't set the secure_proxy_ssl_header for nova.conf,https://bugs.launchpad.net/tripleo/+bug/1606863,2016-11-10
+1610258,1610258,Fix Released,CephAdminKey is required for upgrade,https://bugs.launchpad.net/tripleo/+bug/1610258,2016-11-10
+1615721,1615721,Fix Released,Upgrades: mariadb dump/restore logic triggered when not necessary,https://bugs.launchpad.net/tripleo/+bug/1615721,2016-11-10
+1548987,1548987,Fix Released,Tokens need user domain be created correctly,https://bugs.launchpad.net/tempest/+bug/1548987,2016-11-10
+1517722,1517722,Fix Released,OS-INHERIT of keystone v3 does not exist in api tempest,https://bugs.launchpad.net/tempest/+bug/1517722,2016-11-10
+1552475,1552475,Fix Released,Tempest fails with unversioned identity url in catalog,https://bugs.launchpad.net/tempest/+bug/1552475,2016-11-10
+1549381,1549381,Fix Released,get_tenant_network() always gets a client manager for the primary credentials,https://bugs.launchpad.net/tempest/+bug/1549381,2016-11-10
+1517697,1517697,Fix Released,identity api tests use sleep(1),https://bugs.launchpad.net/tempest/+bug/1517697,2016-11-10
+1475143,1475143,Fix Released,Tempest doesn't use the floating_network_name config option when creating a floating IP,https://bugs.launchpad.net/tempest/+bug/1475143,2016-11-10
+1552863,1552863,Fix Released,Stress deprecation warning shows up on tempest --help,https://bugs.launchpad.net/tempest/+bug/1552863,2016-11-10
+1557814,1557814,Fix Released,"Tempest tests fail on Glance: ""Endpoint not found"" when IPv6",https://bugs.launchpad.net/tempest/+bug/1557814,2016-11-10
+1563885,1563885,Fix Released,intermittent test_show_port failures,https://bugs.launchpad.net/tempest/+bug/1563885,2016-11-10
+1551910,1551910,Fix Released,Remove device related abstractmethods attach interface and detach interfaces,https://bugs.launchpad.net/tacker/+bug/1551910,2016-11-10
+1566770,1566770,Fix Released,Create vnf without default vim gets internal exception,https://bugs.launchpad.net/tacker/+bug/1566770,2016-11-10
+1563189,1563189,Fix Released,Refactor functional tests base file,https://bugs.launchpad.net/tacker/+bug/1563189,2016-11-10
+1563661,1563661,Fix Released,Register vim with keystone version 2 errors in Horizon,https://bugs.launchpad.net/tacker/+bug/1563661,2016-11-10
+1547284,1547284,Fix Released,Expose port-security knob for all network ports (connection points),https://bugs.launchpad.net/tacker/+bug/1547284,2016-11-10
+1566003,1566003,Fix Released,[multi-site-vim] Provide Kilo support for heat infra driver,https://bugs.launchpad.net/tacker/+bug/1566003,2016-11-10
+1559861,1559861,Fix Released,dsvm-functional job does not generate correct test report,https://bugs.launchpad.net/tacker/+bug/1559861,2016-11-10
+1570693,1570693,Fix Released,Tosca VNFD templates missing for Enhanced VNF Placement feature,https://bugs.launchpad.net/tacker/+bug/1570693,2016-11-10
+1572420,1572420,Fix Released,Tacker dsvm functional gate test failed with VM quota reached error,https://bugs.launchpad.net/tacker/+bug/1572420,2016-11-10
+1582019,1582019,Fix Released,Add user_data support to the Tacker VDU definition,https://bugs.launchpad.net/tacker/+bug/1582019,2016-11-10
+1567123,1567123,Fix Released,Handle remote VIM keystone exceptions with intuitive message to the user,https://bugs.launchpad.net/tacker/+bug/1567123,2016-11-10
+1536037,1536037,Fix Released,fast-post broken with object mem server,https://bugs.launchpad.net/swift/+bug/1536037,2016-11-10
+1533768,1533768,Fix Released,inconsistent types returned for metadata,https://bugs.launchpad.net/swift/+bug/1533768,2016-11-10
+1526697,1526697,Fix Released,Typo in Deployment Guide,https://bugs.launchpad.net/swift/+bug/1526697,2016-11-10
+1537042,1537042,Fix Released,versioned_writes middleware is mis-placed in proxy pipeline,https://bugs.launchpad.net/swift/+bug/1537042,2016-11-10
+1534325,1534325,Fix Released,remove jerasure from swift docs,https://bugs.launchpad.net/swift/+bug/1534325,2016-11-10
+1540884,1540884,Fix Released,Object copied by container-sync may have older timestamp than source,https://bugs.launchpad.net/swift/+bug/1540884,2016-11-10
+1542168,1542168,Fix Released,EC: Accept-Range missing in EC GET response,https://bugs.launchpad.net/swift/+bug/1542168,2016-11-10
+1541491,1541491,Fix Released,recon not contacting all hosts when using storage policies,https://bugs.launchpad.net/swift/+bug/1541491,2016-11-10
+1542227,1542227,Fix Released,docs and sample config wrongly suggest that default log_statsd_host is localhost,https://bugs.launchpad.net/swift/+bug/1542227,2016-11-10
+1538834,1538834,Fix Released,max_large_object_get_time is not used,https://bugs.launchpad.net/swift/+bug/1538834,2016-11-10
+1536067,1536067,Fix Released,Duplicated code,https://bugs.launchpad.net/swift/+bug/1536067,2016-11-10
+1546865,1546865,Fix Released,older PUT than tombstone creates .data file,https://bugs.launchpad.net/swift/+bug/1546865,2016-11-10
+1534276,1534276,Fix Released,inconsistent suffix hashes after ssync replication of a tombstone,https://bugs.launchpad.net/swift/+bug/1534276,2016-11-10
+1550067,1550067,Fix Released,test_object_delete_at_aysnc_update is misnamed.,https://bugs.launchpad.net/swift/+bug/1550067,2016-11-10
+1550734,1550734,Fix Released,record etag of target source instead of possible_source,https://bugs.launchpad.net/swift/+bug/1550734,2016-11-10
+1550569,1550569,Fix Released,remove hash_cleanup_listdir legacy translation method,https://bugs.launchpad.net/swift/+bug/1550569,2016-11-10
+1555739,1555739,Fix Released,test_container_update_overrides fails intermittently,https://bugs.launchpad.net/swift/+bug/1555739,2016-11-10
+1556747,1556747,Fix Released,Recon middleware tries to report mount/usage status on files,https://bugs.launchpad.net/swift/+bug/1556747,2016-11-10
+1530254,1530254,Fix Released,test.functional.tests.TestAccount testPUT fails when using keystone auth,https://bugs.launchpad.net/swift/+bug/1530254,2016-11-10
+1558193,1558193,Fix Released,Wrong etag returned with 304 GET response using EC policy,https://bugs.launchpad.net/swift/+bug/1558193,2016-11-10
+1496234,1496234,Fix Released,EC: etag of range request is not consistent,https://bugs.launchpad.net/swift/+bug/1496234,2016-11-10
+1558751,1558751,Fix Released,remove device and reduce replicas can raise IndexError on rebalance,https://bugs.launchpad.net/swift/+bug/1558751,2016-11-10
+1252482,1252482,Fix Released,make slo multipart-manifest=get better,https://bugs.launchpad.net/swift/+bug/1252482,2016-11-10
+1183656,1183656,Fix Released,object auditors don't finish,https://bugs.launchpad.net/swift/+bug/1183656,2016-11-10
+1277223,1277223,Fix Released,"container-sync: multiple sync PUTs per user PUT, then remote cluster syncs back to sending cluster",https://bugs.launchpad.net/swift/+bug/1277223,2016-11-10
+1554005,1554005,Fix Released,"Multiple replicators rsync data to same partition, there're two copies with different suffix name at same time",https://bugs.launchpad.net/swift/+bug/1554005,2016-11-10
+1525995,1525995,Fix Released,swift-dispersion-report only queries a maximum of 10.000 containers or objects,https://bugs.launchpad.net/swift/+bug/1525995,2016-11-10
+1314817,1314817,Fix Released,SimpleClient doesn't support full_listing for containers,https://bugs.launchpad.net/swift/+bug/1314817,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/ceilometer/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/ironic/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/cinder/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/mistral/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/barbican/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/congress/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/trove/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/neutron/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/sahara/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/searchlight/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/murano/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/manila/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/heat/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/designate/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/magnum/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/cue/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/glance/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/nova/+bug/1551836,2016-11-10
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/keystone/+bug/1551836,2016-11-10

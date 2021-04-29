@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1408469,1408469,Fix Released,IPA HardwareManagers do not permit mix ins,https://bugs.launchpad.net/ironic/+bug/1408469,2015-04-30
+1406191,1406191,Fix Released,node-show discloses credentials as plain text in driver_info,https://bugs.launchpad.net/ironic/+bug/1406191,2015-04-30
+1405448,1405448,Fix Released,Images cannot be changed for deployed node when doing rebuild,https://bugs.launchpad.net/ironic/+bug/1405448,2015-04-30
+1404994,1404994,Fix Released,conductor starts even if no drivers are loaded,https://bugs.launchpad.net/ironic/+bug/1404994,2015-04-30
+1401501,1401501,Fix Released,rebuild with new image does not update kernel and ramdisk images,https://bugs.launchpad.net/ironic/+bug/1401501,2015-04-30
+1398509,1398509,Fix Released,update docs to reflect new glance cli args,https://bugs.launchpad.net/ironic/+bug/1398509,2015-04-30
+1398350,1398350,Fix Released,API JSON fields to support more than string and int values,https://bugs.launchpad.net/ironic/+bug/1398350,2015-04-30
+1397834,1397834,Fix Released,ssh driver aborts if a node that was requested to be powered down is already powered down,https://bugs.launchpad.net/ironic/+bug/1397834,2015-04-30
+1358820,1358820,Fix Released,Ironic has undocumented depedency on 'fuser' / psmisc package,https://bugs.launchpad.net/ironic/+bug/1358820,2015-04-30
+1288178,1288178,Fix Released,Sync new policy from oslo,https://bugs.launchpad.net/cinder/+bug/1288178,2015-04-30
+1288178,1288178,Fix Released,Sync new policy from oslo,https://bugs.launchpad.net/nova/+bug/1288178,2015-04-30
+1288178,1288178,Fix Released,Sync new policy from oslo,https://bugs.launchpad.net/tuskar/+bug/1288178,2015-04-30
+1288178,1288178,Fix Released,Sync new policy from oslo,https://bugs.launchpad.net/ironic/+bug/1288178,2015-04-30
+1288178,1288178,Fix Released,Sync new policy from oslo,https://bugs.launchpad.net/glance/+bug/1288178,2015-04-30
+1288178,1288178,Fix Released,Sync new policy from oslo,https://bugs.launchpad.net/neutron/+bug/1288178,2015-04-30
+1414510,1414510,Fix Released,"diskimage-builder failed due to ""dib-run-parts: command not found"" in Bare Metal Service Installation Guide",https://bugs.launchpad.net/ironic/+bug/1414510,2015-04-30
+1409036,1409036,Fix Released,Can't get power status on iDRAC 1.50 (11th gen),https://bugs.launchpad.net/ironic/+bug/1409036,2015-04-30
+1408811,1408811,Fix Released,ContextHook api hook does not properly detect admin-ness,https://bugs.launchpad.net/ironic/+bug/1408811,2015-04-30
+1405420,1405420,Fix Released,New state machine handles deploy failures incorrectly,https://bugs.launchpad.net/ironic/+bug/1405420,2015-04-30
+1403106,1403106,Fix Released,node_power_action should sync DB state with real state even if real state = requested state,https://bugs.launchpad.net/ironic/+bug/1403106,2015-04-30
+1382698,1382698,Fix Released,"Reservations may be ""stuck"" on restart of ironic",https://bugs.launchpad.net/ironic/+bug/1382698,2015-04-30
+1357878,1357878,Fix Released,[Icehouse] ironic.nova.scheduler.filters lacks __init__.py in release archive,https://bugs.launchpad.net/ironic/+bug/1357878,2015-04-30
+1417026,1417026,Fix Released,OC nodes stuck in BUILD state on Ironic timeouts,https://bugs.launchpad.net/ironic/+bug/1417026,2015-04-30
+1417026,1417026,Fix Released,OC nodes stuck in BUILD state on Ironic timeouts,https://bugs.launchpad.net/tripleo/+bug/1417026,2015-04-30
+1408808,1408808,Fix Released,updates to policy are not backward compatible,https://bugs.launchpad.net/ironic/+bug/1408808,2015-04-30
+1401244,1401244,Fix Released,Very bad logline in IPA prints entire base64'd configdrive,https://bugs.launchpad.net/ironic/+bug/1401244,2015-04-30
+1394910,1394910,Fix Released,Set info =  _parse_driver_info(self.node) in setup rather than in testcases.,https://bugs.launchpad.net/ironic/+bug/1394910,2015-04-30
+1392355,1392355,Fix Released,Dev quickstart instructions for RHEL don't fully work,https://bugs.launchpad.net/ironic/+bug/1392355,2015-04-30
+1387873,1387873,Fix Released,PXEDeploy.deploy's documented return code is out of sync with the actual implemented return code,https://bugs.launchpad.net/ironic/+bug/1387873,2015-04-30
+1386631,1386631,Fix Released,ImportError: cannot import name lockutils,https://bugs.launchpad.net/tripleo/+bug/1386631,2015-04-30
+1386631,1386631,Fix Released,ImportError: cannot import name lockutils,https://bugs.launchpad.net/ironic/+bug/1386631,2015-04-30
+1384577,1384577,Fix Released,ipxe doesn't support dnsmasq,https://bugs.launchpad.net/neutron/+bug/1384577,2015-04-30
+1384577,1384577,Fix Released,ipxe doesn't support dnsmasq,https://bugs.launchpad.net/ironic/+bug/1384577,2015-04-30
+1386486,1386486,Fix Released,Ironic python agent  Conf should modify,https://bugs.launchpad.net/ironic/+bug/1386486,2015-04-30
+1383162,1383162,Fix Released,Add SNMP driver for Aten PDU's,https://bugs.launchpad.net/ironic/+bug/1383162,2015-04-30
+1376285,1376285,Fix Released,ironic.tests.base.TestCase uses database fixture while lots of tests don't need it,https://bugs.launchpad.net/ironic/+bug/1376285,2015-04-30
+1400461,1400461,Fix Released,incorrect devstack link in quick-start,https://bugs.launchpad.net/ironic/+bug/1400461,2015-04-30
+1395946,1395946,Fix Released,Logging the deprecation of an API endpoint is not useful,https://bugs.launchpad.net/ironic/+bug/1395946,2015-04-30
+1394918,1394918,Fix Released,Add documentation for SeaMicro driver.,https://bugs.launchpad.net/ironic/+bug/1394918,2015-04-30
+1392304,1392304,Fix Released,"""Developer Quick-Start"" failed due to missing packages in case of Ubuntu",https://bugs.launchpad.net/ironic/+bug/1392304,2015-04-30
+1391787,1391787,Fix Released,Enable hacking rule E265,https://bugs.launchpad.net/ironic/+bug/1391787,2015-04-30
+1386291,1386291,Fix Released,doc for nodes-related API in different sections,https://bugs.launchpad.net/ironic/+bug/1386291,2015-04-30
+1385247,1385247,Fix Released,Unset fields of API objects have None values instead of wsme.types.Unset,https://bugs.launchpad.net/ironic/+bug/1385247,2015-04-30
+1384509,1384509,Fix Released,config 'use_ipv6' = True doesn't work,https://bugs.launchpad.net/ironic/+bug/1384509,2015-04-30
+1379911,1379911,Fix Released,node-validate error message is not clear,https://bugs.launchpad.net/ironic/+bug/1379911,2015-04-30
+1379470,1379470,Fix Released,pep8 test passed always,https://bugs.launchpad.net/ironic/+bug/1379470,2015-04-30
+1378868,1378868,Fix Released,Wrong names and error messages for Keystone related exceptions,https://bugs.launchpad.net/ironic/+bug/1378868,2015-04-30
+1378440,1378440,Fix Released,handle KeyError exception from AgentVendorInterface._heartbeat(),https://bugs.launchpad.net/ironic/+bug/1378440,2015-04-30
+1367917,1367917,Fix Released,Badly named function _get_kernel_params(),https://bugs.launchpad.net/ironic/+bug/1367917,2015-04-30
+1359463,1359463,Fix Released,tests fail when run with noexec /tmp,https://bugs.launchpad.net/ironic/+bug/1359463,2015-04-30
+1355375,1355375,Fix Released,Agent heartbeat thread sleeps with absolute time,https://bugs.launchpad.net/ironic/+bug/1355375,2015-04-30
+1350594,1350594,Fix Released,Code is duplicated in agent and pxe drivers,https://bugs.launchpad.net/ironic/+bug/1350594,2015-04-30
+1436002,1436002,Fix Released,the actions property of the OS::Heat::SoftwareComponent resource has both a default and required=True,https://bugs.launchpad.net/heat/+bug/1436002,2015-04-30
+1400674,1400674,Fix Released,vmware power manager doesn't tell power state correctly,https://bugs.launchpad.net/ironic/+bug/1400674,2015-04-30
+1434454,1434454,Fix Released,SupportStatus message appearing is missed during docs generating,https://bugs.launchpad.net/heat/+bug/1434454,2015-04-30
+1397212,1397212,Fix Released,node-get-boot-device return wrong value for ipminative driver,https://bugs.launchpad.net/ironic/+bug/1397212,2015-04-30
+1430211,1430211,Fix Released,docker plugin add read_only properties,https://bugs.launchpad.net/heat/+bug/1430211,2015-04-30
+1391580,1391580,Fix Released,validate() is not called in the driver_vendor_passthru(),https://bugs.launchpad.net/ironic/+bug/1391580,2015-04-30
+1404201,1404201,Fix Released,"update on a stack having a RandomString resource fails first, succeeds on next attempt",https://bugs.launchpad.net/heat/+bug/1404201,2015-04-30
+1390667,1390667,Fix Released,"set_boot_device should set the ""timeout"" flag",https://bugs.launchpad.net/ironic/+bug/1390667,2015-04-30
+1387495,1387495,Fix Released,"dev-quickstart guide recommends fake_ipmitool driver, but ipmitool is absent on dev machines",https://bugs.launchpad.net/ironic/+bug/1387495,2015-04-30
+1379569,1379569,Fix Released,Do not gate on sample config file,https://bugs.launchpad.net/heat/+bug/1379569,2015-04-30
+1384647,1384647,Fix Released,ironic.tests.db.utils.get_test_node method sets some values incorrectly,https://bugs.launchpad.net/ironic/+bug/1384647,2015-04-30
+1270103,1270103,Fix Released,Add functional tests for Volume resources,https://bugs.launchpad.net/heat/+bug/1270103,2015-04-30
+1382457,1382457,Fix Released,DriverVendorPassthru and VendorPassThru are inconsistent,https://bugs.launchpad.net/ironic/+bug/1382457,2015-04-30
+1439023,1439023,Fix Released,db sqlalchemy migration README update,https://bugs.launchpad.net/heat/+bug/1439023,2015-04-30
+1381135,1381135,Fix Released,_get_api_server() incorrectly handling CONF.glance.glance_api_servers,https://bugs.launchpad.net/ironic/+bug/1381135,2015-04-30
+1379415,1379415,Fix Released,sphinx errors when adding specs to kilo in ironic-specs,https://bugs.launchpad.net/ironic/+bug/1379415,2015-04-30
+1437144,1437144,Fix Released,log username and tenant like other projects do,https://bugs.launchpad.net/heat/+bug/1437144,2015-04-30
+1378301,1378301,Fix Released,Ironic should also validate the power interface before trying to start a deployment,https://bugs.launchpad.net/ironic/+bug/1378301,2015-04-30
+1435406,1435406,Fix Released,heat cfn does not report version,https://bugs.launchpad.net/heat/+bug/1435406,2015-04-30
+1372979,1372979,Fix Released,drivers' vendor_passthru should log all exceptions,https://bugs.launchpad.net/ironic/+bug/1372979,2015-04-30
+1337551,1337551,Fix Released,coreos-oem-inject.py uses non-approved requirements and is not pep8-compliant,https://bugs.launchpad.net/ironic/+bug/1337551,2015-04-30
+1432527,1432527,Fix Released,"""heat-api --version"" does not display version",https://bugs.launchpad.net/heat/+bug/1432527,2015-04-30
+1400156,1400156,Fix Released,image_source can break deployment if IPA is used,https://bugs.launchpad.net/ironic/+bug/1400156,2015-04-30

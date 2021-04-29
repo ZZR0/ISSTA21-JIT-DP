@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1206584,1206584,Fix Released,VMware ESX and vSphere drivers do not support config drive,https://bugs.launchpad.net/nova/+bug/1206584,2014-03-30
+1212164,1212164,Fix Released,"when using memcache, nova host-list cause api exception",https://bugs.launchpad.net/nova/+bug/1212164,2014-03-30
+1214985,1214985,Fix Released,powervm driver is not properly cleaning up compressed images,https://bugs.launchpad.net/nova/+bug/1214985,2014-03-30
+1220727,1220727,Fix Released,Inconsistent usage data for fixed_ip and floating_ip,https://bugs.launchpad.net/nova/+bug/1220727,2014-03-30
+1225002,1225002,Fix Released,VMware: no VM connectivity when opaque network does not match bridge id,https://bugs.launchpad.net/nova/+bug/1225002,2014-03-30
+1132146,1132146,Fix Released,Summary: Undeletable volumes after live migration (iSCSI),https://bugs.launchpad.net/nova/+bug/1132146,2014-03-30
+1167759,1167759,Fix Released,live migration did not send notification for other componments,https://bugs.launchpad.net/nova/+bug/1167759,2014-03-30
+1177811,1177811,Fix Released,Resize STOPPED instance on same host is in ACTIVE state after resize,https://bugs.launchpad.net/nova/+bug/1177811,2014-03-30
+1183654,1183654,Fix Released,vmware code is using deprecated API that may not handle inventories over 100 items properly,https://bugs.launchpad.net/nova/+bug/1183654,2014-03-30
+1188032,1188032,Fix Released,The prompt message is not accurate when creating host aggregate,https://bugs.launchpad.net/nova/+bug/1188032,2014-03-30
+1190515,1190515,Fix Released,Incorrect host stats reported by VMWare VCDriver,https://bugs.launchpad.net/nova/+bug/1190515,2014-03-30
+1192012,1192012,Fix Released,Need prep all instance['metadata'] access for objects,https://bugs.launchpad.net/nova/+bug/1192012,2014-03-30
+1192256,1192256,Fix Released,No support for double nested 64 bit guest using VCDriver,https://bugs.launchpad.net/nova/+bug/1192256,2014-03-30
+1194078,1194078,Fix Released,vmware cluster driver does not filter inaccessible datastores,https://bugs.launchpad.net/nova/+bug/1194078,2014-03-30
+1194696,1194696,Fix Released,register_storage_use JSON error,https://bugs.launchpad.net/nova/+bug/1194696,2014-03-30
+1194835,1194835,Fix Released,In Vlan mode can't create a network with ---vlan option,https://bugs.launchpad.net/nova/+bug/1194835,2014-03-30
+1198796,1198796,Fix Released,update cell error,https://bugs.launchpad.net/nova/+bug/1198796,2014-03-30
+1195029,1195029,Fix Released,Periodic reclaiming of soft deleted instances stops on first error,https://bugs.launchpad.net/nova/+bug/1195029,2014-03-30
+1195490,1195490,Fix Released,port disappears if the instance goes in error,https://bugs.launchpad.net/nova/+bug/1195490,2014-03-30
+1204714,1204714,Fix Released,VlanManager unnecessarly creates fixed_ip quota reservations,https://bugs.launchpad.net/nova/+bug/1204714,2014-03-30
+1211597,1211597,Fix Released,"Targeted deployments still try to ""find a new host"" if nova-compute encounters an error",https://bugs.launchpad.net/nova/+bug/1211597,2014-03-30
+1215352,1215352,Fix Released,VMware: unable to access VNC console if password is not configured,https://bugs.launchpad.net/nova/+bug/1215352,2014-03-30
+1205433,1205433,Fix Released,Adds support for the os-list-scheduler-hints extension,https://bugs.launchpad.net/openstack-api-site/+bug/1205433,2014-03-30
+1285327,1285327,Fix Released,openstack-manuals: XML and JSON errors - grizzly,https://bugs.launchpad.net/openstack-manuals/+bug/1285327,2014-03-30
+1212374,1212374,Fix Released,compute-api: update to use compute extensions WADLs for v2,https://bugs.launchpad.net/openstack-manuals/+bug/1212374,2014-03-30
+1212374,1212374,Fix Released,compute-api: update to use compute extensions WADLs for v2,https://bugs.launchpad.net/openstack-api-site/+bug/1212374,2014-03-30
+1279133,1279133,Fix Released,Update the dashboard procedures in the user guides to reflect latest changes.,https://bugs.launchpad.net/openstack-manuals/+bug/1279133,2014-03-30
+1289568,1289568,Fix Released,clouddocs-maven-plugin: version 1.14 and greater - errors with PDFs,https://bugs.launchpad.net/openstack-manuals/+bug/1289568,2014-03-30
+1192449,1192449,Fix Released,Add delegated_auth support for keystone,https://bugs.launchpad.net/openstack-api-site/+bug/1192449,2014-03-30
+1279179,1279179,Fix Released,"Need to include caveats for gracefully and safely unmounting volumes (in particular, Gluster)",https://bugs.launchpad.net/openstack-manuals/+bug/1279179,2014-03-30
+1282882,1282882,Fix Released,"Add service log files for cinder, nova, and neutron",https://bugs.launchpad.net/openstack-manuals/+bug/1282882,2014-03-30
+1294312,1294312,Fix Released,"Install Networking services on a dedicated network node in OpenStack Installation Guide for Red Hat Enterprise Linux, CentOS, and Fedora  - havana",https://bugs.launchpad.net/openstack-manuals/+bug/1294312,2014-03-30
+1285226,1285226,Fix Released,Install the Image Service in OpenStack Installation Guide for openSUSE and SUSE Linux Enterprise Server  - havana,https://bugs.launchpad.net/openstack-manuals/+bug/1285226,2014-03-30
+1080406,1080406,Fix Released,DisassociateAddress can cause Internal Server Error,https://bugs.launchpad.net/nova/+bug/1080406,2014-03-29
+1298963,1298963,Fix Released,"In --> ""How to Perform an Upgrade from Grizzly to Havana - Ubuntu in OpenStack Operations Guide"",  ___ /etc/glance/glance-api-paste.conf and /etc/glance/glance-registry-paste.conf ____should be_____ /etc/glance/glance-api-paste.ini and /etc/glance/glance-registry-paste.ini",https://bugs.launchpad.net/openstack-manuals/+bug/1298963,2014-03-29
+1298308,1298308,Fix Released,Install the Identity Service,https://bugs.launchpad.net/openstack-manuals/+bug/1298308,2014-03-29
+1294912,1294912,Fix Released,Nova addfixedip/removeFixedIp APIs are not tested in Nova gate,https://bugs.launchpad.net/tempest/+bug/1294912,2014-03-29
+1297102,1297102,Fix Released,Adds xiv_chap to xiv/ds8k driver configuration,https://bugs.launchpad.net/openstack-manuals/+bug/1297102,2014-03-28
+1297802,1297802,Fix Released,vmware: Remove pbm_default_policy config option,https://bugs.launchpad.net/openstack-manuals/+bug/1297802,2014-03-28
+1297991,1297991,Fix Released,Re-work how debugger CLI opts are registered,https://bugs.launchpad.net/openstack-manuals/+bug/1297991,2014-03-28
+1279074,1279074,Fix Released,Request: create a new repo for housing OpenStack Security Notes,https://bugs.launchpad.net/openstack-ci/+bug/1279074,2014-03-28
+1299022,1299022,Fix Released,ci overcloud job can't ping instances,https://bugs.launchpad.net/tripleo/+bug/1299022,2014-03-28
+1282865,1282865,Fix Released,[OSSA 2014-007] Keystone middleware may confuse contexts (CVE-2014-0105),https://bugs.launchpad.net/ossa/+bug/1282865,2014-03-28
+1282865,1282865,Fix Released,[OSSA 2014-007] Keystone middleware may confuse contexts (CVE-2014-0105),https://bugs.launchpad.net/python-keystoneclient/+bug/1282865,2014-03-28
+957065,957065,Fix Released,If only keystone/mysql is installed python-mysqldb will be missing,https://bugs.launchpad.net/devstack/+bug/957065,2014-03-28
+1298827,1298827,Fix Released,tox: command not found on unit-test slave,https://bugs.launchpad.net/openstack-ci/+bug/1298827,2014-03-28
+1294557,1294557,Fix Released,devstack should install qemu-kvm package instead of kvm,https://bugs.launchpad.net/devstack/+bug/1294557,2014-03-28
+1297939,1297939,Fix Released,Ironic api endpoint in nova conf is incorrect,https://bugs.launchpad.net/devstack/+bug/1297939,2014-03-28
+1298742,1298742,Fix Released,skipped private flavor test should be enabled,https://bugs.launchpad.net/tempest/+bug/1298742,2014-03-28
+1161857,1161857,Fix Released,python-cinderclient Syntax error,https://bugs.launchpad.net/python-cinderclient/+bug/1161857,2014-03-28
+1295117,1295117,Fix Released,Nodes are still checked after deployment starts,https://bugs.launchpad.net/fuel/+bug/1295117,2014-03-28
+1292466,1292466,Fix Released,stack the user performs no sudo privileges mkfs.xfs,https://bugs.launchpad.net/devstack/+bug/1292466,2014-03-28
+1297896,1297896,Fix Released,keypair context does not define __ctx_name__,https://bugs.launchpad.net/rally/+bug/1297896,2014-03-28
+1296769,1296769,Fix Released,rally verify failed without admin credentials,https://bugs.launchpad.net/rally/+bug/1296769,2014-03-28
+1297328,1297328,Fix Released,rally verify launches run_tempest.sh with wrong args,https://bugs.launchpad.net/rally/+bug/1297328,2014-03-28
+1269054,1269054,Fix Committed,tox is not working atm,https://bugs.launchpad.net/swift-bench/+bug/1269054,2014-03-28
+1196893,1196893,Fix Released,nova aggregate-add-host should limit user to  set different availability zone for a host,https://bugs.launchpad.net/nova/+bug/1196893,2014-03-28
+1292880,1292880,Fix Released,Typo in Chapter 1. Example Architectures in OpenStack Operations Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1292880,2014-03-27
+1157950,1157950,Fix Released,Add support for nova's new Fixed IP quota,https://bugs.launchpad.net/python-novaclient/+bug/1157950,2014-03-27
+1157950,1157950,Fix Released,Add support for nova's new Fixed IP quota,https://bugs.launchpad.net/python-openstackclient/+bug/1157950,2014-03-27
+1157950,1157950,Fix Released,Add support for nova's new Fixed IP quota,https://bugs.launchpad.net/horizon/+bug/1157950,2014-03-27
+1292789,1292789,Fix Committed,Tusak-ui uses not available /usr/bin/coverage,https://bugs.launchpad.net/tuskar-ui/+bug/1292789,2014-03-27
+1267095,1267095,Fix Released,Fail to create volume group when using LVMISCSIDriver,https://bugs.launchpad.net/openstack-chef/+bug/1267095,2014-03-27
+1182563,1182563,Fix Released,[compute] Add template tests to cookbook,https://bugs.launchpad.net/openstack-chef/+bug/1182563,2014-03-27
+1275714,1275714,Fix Released,[block-storage] Missing attribute for notification_driver,https://bugs.launchpad.net/openstack-chef/+bug/1275714,2014-03-27
+1274937,1274937,Fix Released,Missing attributes for image (swift.enable_snet & swift.store_region),https://bugs.launchpad.net/openstack-chef/+bug/1274937,2014-03-27
+1274884,1274884,Fix Released,Attributise image api workers configuration,https://bugs.launchpad.net/openstack-chef/+bug/1274884,2014-03-27
+1274866,1274866,Fix Released,[network] policy file is using deprecated policy syntax,https://bugs.launchpad.net/openstack-chef/+bug/1274866,2014-03-27
+1273946,1273946,Fix Released,[identity] conf needs updating to remove deprecation log entries,https://bugs.launchpad.net/openstack-chef/+bug/1273946,2014-03-27
+1269876,1269876,Fix Released,fixed_range in nova.conf is deprecated,https://bugs.launchpad.net/openstack-chef/+bug/1269876,2014-03-27
+1268974,1268974,Fix Released,compute cookbook drops useless nova-compute.conf,https://bugs.launchpad.net/openstack-chef/+bug/1268974,2014-03-27
+1266483,1266483,Fix Released,cookbook-openstack-identity - Inconsistent password access,https://bugs.launchpad.net/openstack-chef/+bug/1266483,2014-03-27
+1262669,1262669,Fix Released,[block-storage] spec test case name not correct,https://bugs.launchpad.net/openstack-chef/+bug/1262669,2014-03-27
+1279863,1279863,Fix Released,Horizon secret_key_path attribute not reflected in config,https://bugs.launchpad.net/openstack-chef/+bug/1279863,2014-03-27
+1277735,1277735,Fix Released,[telemetry] ceilometer-client reports Unauthorized,https://bugs.launchpad.net/openstack-chef/+bug/1277735,2014-03-27

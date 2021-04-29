@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1390431,1390431,Fix Released,configure LC_ALL=C in openrc,https://bugs.launchpad.net/fuel/+bug/1390431,2014-11-11
+1371040,1371040,Fix Released,glance store rbd driver get method returns tupe more than basic driver defines,https://bugs.launchpad.net/glance/+bug/1371040,2014-11-11
+1391098,1391098,Fix Released,lsb_release failing to be downloaded from bzr.linuxfoundation.org,https://bugs.launchpad.net/diskimage-builder/+bug/1391098,2014-11-11
+1391098,1391098,Fix Released,lsb_release failing to be downloaded from bzr.linuxfoundation.org,https://bugs.launchpad.net/tripleo/+bug/1391098,2014-11-11
+1352635,1352635,Fix Released,Allow Cisco ML2 driver to use the upstream ncclient,https://bugs.launchpad.net/neutron/+bug/1352635,2014-11-11
+1302701,1302701,Fix Released,Neutron refuses to delete instance associated with multiple floating addresses,https://bugs.launchpad.net/neutron/+bug/1302701,2014-11-11
+1369685,1369685,Fix Released,Trace in ovs agent when NoopFirewallDriver is configured,https://bugs.launchpad.net/neutron/+bug/1369685,2014-11-10
+1378855,1378855,Fix Released,juno capstone migration is missing,https://bugs.launchpad.net/neutron/+bug/1378855,2014-11-10
+1357084,1357084,Fix Released,IPv6 slaac is broken when subnet is less than /64,https://bugs.launchpad.net/neutron/+bug/1357084,2014-11-10
+1232525,1232525,Fix Released,KeyError Exception while synching routers,https://bugs.launchpad.net/neutron/+bug/1232525,2014-11-10
+1367892,1367892,Fix Released,delete port fails with RouterNotHostedByL3Agent exception,https://bugs.launchpad.net/neutron/+bug/1367892,2014-11-10
+1368152,1368152,Fix Released,l3 agent dies after MessagingTimeout error,https://bugs.launchpad.net/neutron/+bug/1368152,2014-11-10
+1378952,1378952,Fix Released,Updating ipv6 modes is problematic,https://bugs.launchpad.net/neutron/+bug/1378952,2014-11-10
+1362179,1362179,Fix Released,Default to requests cert bundle instead of nothing,https://bugs.launchpad.net/python-glanceclient/+bug/1362179,2014-11-10
+1350251,1350251,Fix Released,glanceclient should not overwrite the https adapter,https://bugs.launchpad.net/python-glanceclient/+bug/1350251,2014-11-10
+1371559,1371559,Fix Released,v2 image-update does not handle some schema properties properly,https://bugs.launchpad.net/python-glanceclient/+bug/1371559,2014-11-10
+1371559,1371559,Fix Released,v2 image-update does not handle some schema properties properly,https://bugs.launchpad.net/glance/+bug/1371559,2014-11-10
+1391206,1391206,Fix Released,Please provide access to srv16-msk.msk.mirantis.net,https://bugs.launchpad.net/fuel/+bug/1391206,2014-11-10
+1381557,1381557,Fix Committed,Store default values for networks externally,https://bugs.launchpad.net/fuel/+bug/1381557,2014-11-10
+1389696,1389696,Fix Released,wrong parameter name in ocf script for dhcp/L3  agents,https://bugs.launchpad.net/fuel/+bug/1389696,2014-11-10
+1386317,1386317,Fix Released,Inconsistent name of heat-engine.log,https://bugs.launchpad.net/fuel/+bug/1386317,2014-11-10
+1384332,1384332,Fix Committed,CentOS fails due to deployment timeout,https://bugs.launchpad.net/fuel/+bug/1384332,2014-11-10
+1388836,1388836,Fix Released,[System Tests] Need to remove odd service-list verification from simple_flat_add_compute test,https://bugs.launchpad.net/fuel/+bug/1388836,2014-11-10
+1388902,1388902,Fix Released,[System Tests] Test deploy_reset_on_ready failed on verify services step after reset withUnauthorized: User 65ff66cc4c8f48a7bf509bfdf941fca7 is unauthorized for tenant f290f96849bf4a28b6813eeee49ac7f3,https://bugs.launchpad.net/fuel/+bug/1388902,2014-11-10
+1388212,1388212,Fix Released,'ntpd' failed to start during bootstrap,https://bugs.launchpad.net/fuel/+bug/1388212,2014-11-10
+1231254,1231254,Fix Released,Windows instances need timezone to be localtime,https://bugs.launchpad.net/nova/+bug/1231254,2014-11-10
+1283718,1283718,Fix Released,file ./etc/nova/cells.json is invalid JSON,https://bugs.launchpad.net/nova/+bug/1283718,2014-11-09
+1373825,1373825,Fix Released,Chapter 2. Basic environment in OpenStack Installation Guide for Ubuntu 14.04 (LTS)  - juno,https://bugs.launchpad.net/openstack-manuals/+bug/1373825,2014-11-09
+1390203,1390203,Fix Committed,No trusty-netboot on Moscow Ubuntu mirror,https://bugs.launchpad.net/fuel/+bug/1390203,2014-11-08
+1389279,1389279,Fix Committed,[Image Based] Stack creation failed with ValueError: Key cannot be the null string,https://bugs.launchpad.net/fuel/+bug/1389279,2014-11-07
+1389624,1389624,Fix Released,"in nova.conf file, compute_scheduler_driver should be scheduler_driver",https://bugs.launchpad.net/openstack-chef/+bug/1389624,2014-11-07
+1369962,1369962,Fix Released,[system tests] system tests migrate vm backed with ceph  failed with  Type error,https://bugs.launchpad.net/fuel/+bug/1369962,2014-11-07
+1386622,1386622,Fix Committed,[ui] bad selection when using controls.jsx,https://bugs.launchpad.net/fuel/+bug/1386622,2014-11-07
+1390355,1390355,Fix Released,The minimum basic scenario test should wait for security groups to apply before ssh,https://bugs.launchpad.net/tempest/+bug/1390355,2014-11-07
+1387584,1387584,Fix Released,init-keystone : Authorization Failed: An unexpected error prevented the server from fulfilling your request. (HTTP 500),https://bugs.launchpad.net/tripleo/+bug/1387584,2014-11-07
+1231351,1231351,Fix Released,nova-bm keeps a copy of baremetal image after deployment,https://bugs.launchpad.net/ironic/+bug/1231351,2014-11-07
+1236714,1236714,Fix Released,have to redeploy baremetal instances when changing network interfaces,https://bugs.launchpad.net/ironic/+bug/1236714,2014-11-07
+1358719,1358719,Fix Released,Live migration fails as get_instance_disk_info is not present in the compute driver base class,https://bugs.launchpad.net/nova/+bug/1358719,2014-11-07
+1166211,1166211,Fix Released,tools/xen/install_os_domU.sh Fail with enable_service() call.,https://bugs.launchpad.net/devstack/+bug/1166211,2014-11-07
+1222847,1222847,Fix Released,xenapi: openstack not working with xenserver core and vhd images,https://bugs.launchpad.net/nova/+bug/1222847,2014-11-07
+1389292,1389292,Fix Released,[block-storage] missing default_volume_type option,https://bugs.launchpad.net/openstack-chef/+bug/1389292,2014-11-07
+1381535,1381535,Fix Committed,make iso fails because mirror miss some packages,https://bugs.launchpad.net/fuel/+bug/1381535,2014-11-06
+1230323,1230323,Fix Released,Race condition with multiple neutron-servers can allow a router to be scheduled twice,https://bugs.launchpad.net/neutron/+bug/1230323,2014-11-06
+1030119,1030119,Fix Released,document example of collecting data about running servers,https://bugs.launchpad.net/openstack-manuals/+bug/1030119,2014-11-06
+1030119,1030119,Fix Released,document example of collecting data about running servers,https://bugs.launchpad.net/ceilometer/+bug/1030119,2014-11-06
+1364185,1364185,Fix Released,collector: Allows to requeue a sample,https://bugs.launchpad.net/openstack-manuals/+bug/1364185,2014-11-06
+1346883,1346883,Fix Released,Multi meter arithmetic transformer,https://bugs.launchpad.net/openstack-manuals/+bug/1346883,2014-11-06
+1373608,1373608,Fix Released,Fuel UI should operate with real cores not hyperthreaded ones,https://bugs.launchpad.net/fuel/+bug/1373608,2014-11-06
+1372428,1372428,Fix Released,Ceilometer polling interval is too big for the average installations,https://bugs.launchpad.net/fuel/+bug/1372428,2014-11-06
+1320831,1320831,Fix Released,Mongo replication typo in puppet manifest,https://bugs.launchpad.net/fuel/+bug/1320831,2014-11-06
+1305592,1305592,Fix Released,Fix deprecated code,https://bugs.launchpad.net/fuel/+bug/1305592,2014-11-06
+1323608,1323608,Fix Released,"[mos] External gateway seems down in horizon, but works",https://bugs.launchpad.net/fuel/+bug/1323608,2014-11-06
+1383371,1383371,Fix Released,Image based provisioning failed due to problems with /etc/fstab,https://bugs.launchpad.net/fuel/+bug/1383371,2014-11-06
+1365067,1365067,Fix Released,[fuelmenu] Fuelmenu allows IP range overlapping in PXE setup,https://bugs.launchpad.net/fuel/+bug/1365067,2014-11-06
+1372586,1372586,Fix Released,dhcp-agent creates unexpected ports (ignores 'host' parameter) so HA is not working,https://bugs.launchpad.net/neutron/+bug/1372586,2014-11-06
+1386063,1386063,Fix Released,Ensure timezote set to UTC when configuring using puppet,https://bugs.launchpad.net/fuel/+bug/1386063,2014-11-06
+1378901,1378901,Fix Committed,Add macro replacement for release's orchestrator data,https://bugs.launchpad.net/fuel/+bug/1378901,2014-11-06
+1389572,1389572,Fix Committed,Behaviour in reset_cluster and stop_deployment incosistent,https://bugs.launchpad.net/fuel/+bug/1389572,2014-11-06
+1380655,1380655,Fix Released,Package python-lesscpy is missing for Ubuntu at Juno,https://bugs.launchpad.net/fuel/+bug/1380655,2014-11-06
+1334700,1334700,Fix Released,"[sahara] OSTF test ""Sahara tests to create, list, start, checks and delete cluster"" has failed without any messages",https://bugs.launchpad.net/fuel/+bug/1334700,2014-11-06
+1356954,1356954,Fix Committed,successful deployment failed by astute,https://bugs.launchpad.net/fuel/+bug/1356954,2014-11-05
+1353101,1353101,Fix Released,drop tenant-id from resource uri in python-barbicanclient,https://bugs.launchpad.net/python-barbicanclient/+bug/1353101,2014-11-05
+1276002,1276002,Fix Released,Endpoint argument is ignored if authentication is used,https://bugs.launchpad.net/python-barbicanclient/+bug/1276002,2014-11-05
+1382411,1382411,Fix Released,Punctuation error in Murano puppet,https://bugs.launchpad.net/fuel/+bug/1382411,2014-11-05
+1325172,1325172,Fix Released,network notifications throwing keyerror if associate a floatingip to a server,https://bugs.launchpad.net/ceilometer/+bug/1325172,2014-11-05
+1377125,1377125,Fix Committed,Make system uses upstream mirrors independently of product version,https://bugs.launchpad.net/fuel/+bug/1377125,2014-11-05
+1383652,1383652,Fix Released,Unable to locate package python-tasklib,https://bugs.launchpad.net/fuel/+bug/1383652,2014-11-05
+1388042,1388042,Fix Released,Deployment fails using image-based provisioning with ntpdate error,https://bugs.launchpad.net/fuel/+bug/1388042,2014-11-05
+1369412,1369412,Fix Released,"System test ""Deploy Heat HA"" fails",https://bugs.launchpad.net/fuel/+bug/1369412,2014-11-05
+1371496,1371496,Fix Released,system_tests.sh trying to remove env without existence check,https://bugs.launchpad.net/fuel/+bug/1371496,2014-11-05
+1382547,1382547,Fix Released,Image based provisioning of CentOS failed with fuel-agent Exception: Can not get http://10.108.0.2:8080/targetimages/centos_65_x86_64-boot.img.gz,https://bugs.launchpad.net/fuel/+bug/1382547,2014-11-05
+1375622,1375622,Fix Committed,Token is not revoked after logout in Fuel UI,https://bugs.launchpad.net/fuel/+bug/1375622,2014-11-05
+1389002,1389002,Fix Released,Undefined variable use_quantum observed in the manifests,https://bugs.launchpad.net/fuel/+bug/1389002,2014-11-05
+1387626,1387626,Fix Released,Node stats and notifications are not updated after loggin in,https://bugs.launchpad.net/fuel/+bug/1387626,2014-11-05
+1305600,1305600,Fix Released,[library] WARN: tag is a metaparam; this value will inherit to all contained resources in the l23network::l2::port definition,https://bugs.launchpad.net/fuel/+bug/1305600,2014-11-05

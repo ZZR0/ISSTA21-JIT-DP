@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1736803,1736803,Fix Released,--insecure-registry in /etc/sysconfig/docker removed by undercloud upgrade,https://bugs.launchpad.net/tripleo/+bug/1736803,2018-09-21
+1578132,1578132,Fix Released,allowed-address-pairs only update ipset on one compute node,https://bugs.launchpad.net/neutron/+bug/1578132,2018-09-21
+1706103,1706103,Fix Released,mkswap fails on cannot open /dev/xvde1,https://bugs.launchpad.net/openstack-gate/+bug/1706103,2018-09-20
+1739829,1739829,Fix Released,tempest-full job failing in stable/pike with 404 from keystone during tempest verify-config,https://bugs.launchpad.net/tempest/+bug/1739829,2018-09-20
+1672640,1672640,Fix Released,RFE: Composable networks,https://bugs.launchpad.net/tripleo/+bug/1672640,2018-09-20
+1790779,1790779,Fix Released,delegate_to on deploying host uses dns?,https://bugs.launchpad.net/openstack-ansible/+bug/1790779,2018-09-20
+1792983,1792983,Fix Released,"Grenade fails when run with postgresql due to: ""No role with a name or ID of 'Member' exists.""",https://bugs.launchpad.net/grenade/+bug/1792983,2018-09-19
+1629284,1629284,Fix Released,Update test-vars.yml for repositories,https://bugs.launchpad.net/openstack-ansible/+bug/1629284,2018-09-19
+1753222,1753222,Fix Released,port with client-id (Infiniband) failed with  The local_link_connection is required for 'neutron' network interface,https://bugs.launchpad.net/ironic/+bug/1753222,2018-09-19
+1787591,1787591,Fix Released,"tempest container failing to build in rocky, openstack-tempest-all  package missing",https://bugs.launchpad.net/tripleo/+bug/1787591,2018-09-19
+1645288,1645288,Fix Released,'RBDDriver' object has no attribute 'unmanage_snapshot',https://bugs.launchpad.net/cinder/+bug/1645288,2018-09-19
+1775140,1775140,Fix Released,Keystoneauth does not consistently add the collect-timing parameter,https://bugs.launchpad.net/mistral/+bug/1775140,2018-09-19
+1742206,1742206,Fix Released,os-cinder-install.yml fails with conflicting mariadb packages on centos infra hosts,https://bugs.launchpad.net/openstack-ansible/+bug/1742206,2018-09-19
+1762421,1762421,Fix Released,openstack-ansible-galera_server role needlessly removes and reinstalls MariaDB-server,https://bugs.launchpad.net/openstack-ansible/+bug/1762421,2018-09-19
+1792870,1792870,Fix Released,[Rocky] FS01 periodic job failed at overcloud prepare image giving Error: Unable to establish IPMI v2 / RMCP+ session\n'.: ProcessExecutionError: Unexpected error while running command,https://bugs.launchpad.net/tripleo/+bug/1792870,2018-09-19
+1788395,1788395,Fix Released,fed 28 + tripleo: line 94: ntpdate: command not found,https://bugs.launchpad.net/tripleo/+bug/1788395,2018-09-18
+1792892,1792892,Fix Released,Undercloud upgrades fails at ERROR! Invalid callback for stdout specified: yaml,https://bugs.launchpad.net/tripleo/+bug/1792892,2018-09-18
+1761392,1761392,Fix Released,vitrage dashboard dont load,https://bugs.launchpad.net/kolla-ansible/+bug/1761392,2018-09-18
+1770564,1770564,Fix Released,[keystone][master] wrong default keystone_ssl_protocol,https://bugs.launchpad.net/openstack-ansible/+bug/1770564,2018-09-18
+1762736,1762736,Fix Released,Iptables firewall driver adds forward rules for trusted ports only in the ingress direction,https://bugs.launchpad.net/neutron/+bug/1762736,2018-09-18
+1776468,1776468,Fix Released,neutron-netns-cleanup does not configure privsep correctly,https://bugs.launchpad.net/neutron/+bug/1776468,2018-09-18
+1768952,1768952,Fix Released,List availability zones with filters return 500,https://bugs.launchpad.net/neutron/+bug/1768952,2018-09-18
+1777598,1777598,Fix Released,Inaccurate L3 QoS bandwidth,https://bugs.launchpad.net/neutron/+bug/1777598,2018-09-18
+1758952,1758952,Fix Released,DHCP agent fails to configure routed networks due to failure generating subnet options,https://bugs.launchpad.net/neutron/+bug/1758952,2018-09-18
+1782141,1782141,Fix Released,"QoS L3 agent extension functional  tests fail on CentOS: ""rate"" or ""avrate"" MUST be specified.",https://bugs.launchpad.net/neutron/+bug/1782141,2018-09-18
+1792368,1792368,Fix Released,get wrong compte scope,https://bugs.launchpad.net/watcher/+bug/1792368,2018-09-18
+1636567,1636567,Fix Released,"devstack mitaka installation fails with error ""Running setup.py bdist_wheel for libvirt-python: finished with status 'error'"" in Ubuntu 16.10",https://bugs.launchpad.net/openstack-ansible/+bug/1636567,2018-09-17
+1749707,1749707,Fix Released,ironic errors out during overcloud-deploy,https://bugs.launchpad.net/tripleo/+bug/1749707,2018-09-16
+1780376,1780376,Fix Released,Queens neutron broken with recent L3 removal from neutron-lib.constants,https://bugs.launchpad.net/openstack-requirements/+bug/1780376,2018-09-14
+1662561,1662561,Fix Released,Solidfire disabling certificate verification,https://bugs.launchpad.net/cinder/+bug/1662561,2018-09-14
+1786055,1786055,Fix Released,performance degradation in placement with large number of resource providers,https://bugs.launchpad.net/nova/+bug/1786055,2018-09-14
+1792372,1792372,Fix Released,Undercloud install fails at rocky with Duplicate declaration: Nova_config,https://bugs.launchpad.net/tripleo/+bug/1792372,2018-09-14
+1760974,1760974,Fix Released,List policy API does not return metadata field,https://bugs.launchpad.net/senlin/+bug/1760974,2018-09-13
+1765122,1765122,Fix Released,qemu-img execute not mocked in unit tests,https://bugs.launchpad.net/nova/+bug/1765122,2018-09-13
+1791447,1791447,Fix Released,link to project-navigator not work,https://bugs.launchpad.net/openstack-manuals/+bug/1791447,2018-09-13
+1792158,1792158,Fix Released,te-broker was removed from the openstack-nodepool tenant,https://bugs.launchpad.net/tripleo/+bug/1792158,2018-09-13
+1737989,1737989,Fix Released,[MIR] ujson?,https://bugs.launchpad.net/ceilometer/+bug/1737989,2018-09-13
+1788225,1788225,Fix Released,Remove 30 second delay timer from Nexus initialization,https://bugs.launchpad.net/networking-cisco/+bug/1788225,2018-09-13
+1603282,1603282,Fix Released,storwize map multi-volumes by two cinder volume nodes parallelly failure,https://bugs.launchpad.net/cinder/+bug/1603282,2018-09-13
+1773343,1773343,Fix Released,ceilometer-notification kolla_ceilometer_extend_start failed,https://bugs.launchpad.net/kolla/+bug/1773343,2018-09-12
+1728858,1728858,Fix Released,Boot from volume in cinder - broken link,https://bugs.launchpad.net/cinder/+bug/1728858,2018-09-12
+1790577,1790577,Fix Released,warning in watcher.common.context,https://bugs.launchpad.net/watcher/+bug/1790577,2018-09-11
+1777548,1777548,Fix Released,exception messages are not displayed,https://bugs.launchpad.net/blazar/+bug/1777548,2018-09-10
+1749868,1749868,Fix Released,Handle effects of higher prioritized operations,https://bugs.launchpad.net/blazar/+bug/1749868,2018-09-10
+1785736,1785736,Fix Released,Some projects on Grouped runs page throws error and cannot display data on Jobs table,https://bugs.launchpad.net/openstack-health/+bug/1785736,2018-09-10
+1255106,1255106,Fix Released,API unittests coverage is unsufficient,https://bugs.launchpad.net/blazar/+bug/1255106,2018-09-10
+1783296,1783296,Fix Released,Creating a lease using the CLI client without providing the start date can sometimes fail,https://bugs.launchpad.net/blazar/+bug/1783296,2018-09-10
+1771366,1771366,Fix Released,Duplicate entry for GRUB_CMDLINE_LINUX for Centos,https://bugs.launchpad.net/diskimage-builder/+bug/1771366,2018-09-10
+1790109,1790109,Fix Released,Unable to start service virtualbmc@compute_0 with virtualbmc>=1.4,https://bugs.launchpad.net/tripleo/+bug/1790109,2018-09-10
+1276694,1276694,Fix Released,Openstack services should support SIGHUP signal,https://bugs.launchpad.net/heat/+bug/1276694,2018-09-10
+1276694,1276694,Fix Released,Openstack services should support SIGHUP signal,https://bugs.launchpad.net/glance/+bug/1276694,2018-09-10
+1276694,1276694,Fix Released,Openstack services should support SIGHUP signal,https://bugs.launchpad.net/nova/+bug/1276694,2018-09-10
+1276694,1276694,Fix Released,Openstack services should support SIGHUP signal,https://bugs.launchpad.net/sahara/+bug/1276694,2018-09-10
+1791169,1791169,Fix Released,zuul post-failure: collect logs timing out,https://bugs.launchpad.net/tripleo/+bug/1791169,2018-09-10
+1770133,1770133,Fix Released,Octavia is not used for LoadBalancer type service in k8s,https://bugs.launchpad.net/magnum/+bug/1770133,2018-09-10
+1775342,1775342,Fix Released,Strip cluster CA certificate from blank lines,https://bugs.launchpad.net/magnum/+bug/1775342,2018-09-10
+1758880,1758880,Fix Released,[CI updates] check_and_fail parameter not found in pacemaker_cluster ansible module,https://bugs.launchpad.net/tripleo/+bug/1758880,2018-09-10
+1764454,1764454,Fix Released,Tripleo-upgrade role is not complying with lint specifications,https://bugs.launchpad.net/tripleo/+bug/1764454,2018-09-10
+1769107,1769107,Fix Released,Undercloud upgrades job failing in stable/ocata,https://bugs.launchpad.net/tripleo/+bug/1769107,2018-09-10
+1771095,1771095,Fix Released,tripleo-upgrade tries to check cinder-volume running on all controllers,https://bugs.launchpad.net/tripleo/+bug/1771095,2018-09-10
+1776262,1776262,Fix Released,validate_docker_images_versions.sh gets incorrectly rendered in tripleo-upgrade,https://bugs.launchpad.net/tripleo/+bug/1776262,2018-09-10
+1783303,1783303,Fix Released,"[master] scenario000 multinode upgrade job is failing at tripleo-upgrade include task giving controllers' is undefined""}",https://bugs.launchpad.net/tripleo/+bug/1783303,2018-09-10
+1783789,1783789,Fix Released,Broken tests due to missing lower-constraints update,https://bugs.launchpad.net/python-neutronclient/+bug/1783789,2018-09-10
+1775922,1775922,Fix Released,neutron net-list with pagination fails on too many subnets,https://bugs.launchpad.net/python-neutronclient/+bug/1775922,2018-09-10
+1781372,1781372,Fix Released,No packet log if disable the ovs-agent DEBUG log level,https://bugs.launchpad.net/neutron/+bug/1781372,2018-09-07
+1790987,1790987,Fix Released,"rdo-cloud, ovb jobs fail due to network.  Failed connect to 169.254.169.254:80; Connection refused",https://bugs.launchpad.net/tripleo/+bug/1790987,2018-09-07
+1791082,1791082,Fix Released,"updates job failing with [""/bin/sh: dnf: command not found""]",https://bugs.launchpad.net/tripleo/+bug/1791082,2018-09-07
+1547684,1547684,Fix Released,Attribute error on Token object when using domain scoped token,https://bugs.launchpad.net/keystone/+bug/1547684,2018-09-07
+1779744,1779744,Fix Released,[RFE] Allow puppet to configure Keystone API session persistence in Queens,https://bugs.launchpad.net/tripleo/+bug/1779744,2018-09-07
+1790988,1790988,Fix Released,"""packet_write_wait: Connection to  port 22: Broken pipe\r\nrsync: connection unexpectedly closed",https://bugs.launchpad.net/tripleo/+bug/1790988,2018-09-07
+1791191,1791191,Fix Released,instances stuck in node_failure for 9+ hours,https://bugs.launchpad.net/tripleo/+bug/1791191,2018-09-07
+1790969,1790969,Fix Released,Could not find the requested service virtualbmc: host,https://bugs.launchpad.net/tripleo/+bug/1790969,2018-09-07
+1771590,1771590,Fix Released,Scheduler issue and Nova resources claim,https://bugs.launchpad.net/openstack-publiccloud-wg/+bug/1771590,2018-09-07
+1756983,1756983,Fix Released,Device manager .ini file is not provided to config agent when started by ASR1k Devstack script,https://bugs.launchpad.net/networking-cisco/+bug/1756983,2018-09-06
+1778007,1778007,Fix Released,Add Docker support for Dragonflow,https://bugs.launchpad.net/dragonflow/+bug/1778007,2018-09-06

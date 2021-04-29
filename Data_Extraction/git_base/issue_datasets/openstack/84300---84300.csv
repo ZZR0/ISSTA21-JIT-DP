@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1238204,1238204,Fix Released,"The memcache client ""decr"" method should return the decremented value like ""incr"" already does",https://bugs.launchpad.net/swift/+bug/1238204,2013-12-10
+1252893,1252893,Fix Released,Memcache max_connections should probably also look for memcache_max_connections,https://bugs.launchpad.net/swift/+bug/1252893,2013-12-10
+1215491,1215491,Fix Released,HTTPUnauthorized does not respond with WWW-Authenticate header,https://bugs.launchpad.net/swift/+bug/1215491,2013-12-10
+1254405,1254405,Fix Released,"tempest.api.object_storage.test_container_acl.ObjectTestACLs.test_write_object_with_rights[gate,smoke] failed",https://bugs.launchpad.net/swift/+bug/1254405,2013-12-10
+1254119,1254119,Fix Released,memcache pool growing with old versions of eventlet,https://bugs.launchpad.net/swift/+bug/1254119,2013-12-10
+1200621,1200621,Fix Released,paramiko log is missing from the console output,https://bugs.launchpad.net/tempest/+bug/1200621,2013-12-09
+1168252,1168252,Fix Released,keystone.conf should not be world-readable (to keep LDAP password and admin_token secret),https://bugs.launchpad.net/devstack/+bug/1168252,2013-12-09
+1218602,1218602,Fix Released,perf: _next_marker() is creating a bottleneck,https://bugs.launchpad.net/zaqar/+bug/1218602,2013-12-09
+1253689,1253689,Fix Released,openstack-manuals: update common pom.xml file to 1.12.0 clouddocs plug-in,https://bugs.launchpad.net/openstack-manuals/+bug/1253689,2013-12-09
+1053312,1053312,Fix Released,instance can't obtain IP address by DHCP when using LibvirtHybridOVSBridgeDriver,https://bugs.launchpad.net/nova/+bug/1053312,2013-12-09
+1257954,1257954,Fix Released,Whitespace on blank lines in local.conf fail,https://bugs.launchpad.net/devstack/+bug/1257954,2013-12-09
+1257283,1257283,Fix Released,ceilometer-agent-notification service is not started by devstack,https://bugs.launchpad.net/devstack/+bug/1257283,2013-12-09
+1248923,1248923,Fix Released,Devstack install is failing:,https://bugs.launchpad.net/devstack/+bug/1248923,2013-12-09
+1219963,1219963,Fix Released,Error casting value to float in lvm.py,https://bugs.launchpad.net/cinder/+bug/1219963,2013-12-09
+1246472,1246472,Fix Released,some of the disks allocated for Ceph OSD are not provisioned,https://bugs.launchpad.net/fuel/+bug/1246472,2013-12-09
+1256926,1256926,Fix Released,No metadata property for share in xml-response,https://bugs.launchpad.net/manila/+bug/1256926,2013-12-09
+1258079,1258079,Fix Released,Share metadata value length need to be changed,https://bugs.launchpad.net/manila/+bug/1258079,2013-12-09
+1258505,1258505,Fix Released,python-manilaclient uses wrong request for get share metadata,https://bugs.launchpad.net/manila/+bug/1258505,2013-12-09
+1243334,1243334,Fix Released,"Add the ""operate a production cluster"" use case to USECASES.md",https://bugs.launchpad.net/puppet-ceph/+bug/1243334,2013-12-09
+1184696,1184696,Fix Released,GRE tunneling is broken if hosts are on multiple subnets (multi-homed),https://bugs.launchpad.net/neutron/+bug/1184696,2013-12-08
+1256271,1256271,Fix Released,"OSTF test ""connectivity from instance via floating IP"" never stops",https://bugs.launchpad.net/fuel/+bug/1256271,2013-12-07
+1182908,1182908,Fix Released,Wrong initialization of instance attributes in horizon/tables/actions.py,https://bugs.launchpad.net/horizon/+bug/1182908,2013-12-07
+1240856,1240856,Fix Released,Unchecked response headers in Swift API test cases,https://bugs.launchpad.net/tempest/+bug/1240856,2013-12-07
+1258155,1258155,Fix Released,Install_pip doesn't work behind a proxy,https://bugs.launchpad.net/devstack/+bug/1258155,2013-12-07
+1144839,1144839,Fix Released,Keypair update returns unclear error with invalid name,https://bugs.launchpad.net/nova/+bug/1144839,2013-12-06
+1255088,1255088,Fix Released,Can't build iso from fuel-main,https://bugs.launchpad.net/fuel/+bug/1255088,2013-12-06
+956217,956217,Fix Released,There are no functional tests for Horizon in devstack,https://bugs.launchpad.net/devstack/+bug/956217,2013-12-05
+1203561,1203561,Fix Released,'unset volume type' calls wrong manager,https://bugs.launchpad.net/python-openstackclient/+bug/1203561,2013-12-05
+1180892,1180892,Fix Released,Change 'metadata' to 'properties' in output,https://bugs.launchpad.net/python-openstackclient/+bug/1180892,2013-12-05
+1190722,1190722,Fix Released,server rebuild fails due to lack of attribute 'rebuild_password',https://bugs.launchpad.net/python-openstackclient/+bug/1190722,2013-12-05
+1172064,1172064,Fix Released,implement compute quota commands,https://bugs.launchpad.net/python-openstackclient/+bug/1172064,2013-12-05
+1172057,1172057,Fix Released,implement compute limits commands,https://bugs.launchpad.net/python-openstackclient/+bug/1172057,2013-12-05
+1172039,1172039,Fix Released,implement compute diagnostics command,https://bugs.launchpad.net/python-openstackclient/+bug/1172039,2013-12-05
+1172032,1172032,Fix Released,implement compute aggregate commands,https://bugs.launchpad.net/python-openstackclient/+bug/1172032,2013-12-05
+1257931,1257931,Fix Released,recent import of stevedore to stackforge failed to import the git repo,https://bugs.launchpad.net/openstack-ci/+bug/1257931,2013-12-05
+1239726,1239726,Fix Released,excercices: aggregates needs to be more flexible,https://bugs.launchpad.net/devstack/+bug/1239726,2013-12-05
+1255854,1255854,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/devstack/+bug/1255854,2013-12-05
+1257680,1257680,Fix Released,8.8.8.8 can't ping from instance. OSTF tests with checking network connectivity has failed,https://bugs.launchpad.net/fuel/+bug/1257680,2013-12-05
+1256828,1256828,Fix Released,api-quick-start not published,https://bugs.launchpad.net/openstack-api-site/+bug/1256828,2013-12-05
+1257660,1257660,Fix Released,Create a gerrit-group for Tooz,https://bugs.launchpad.net/openstack-ci/+bug/1257660,2013-12-05
+1231117,1231117,Fix Released,cinder migrate fails with ERROR: global name '_find_volume' is not defined,https://bugs.launchpad.net/cinder/+bug/1231117,2013-12-05
+1249085,1249085,Fix Released,Can't override extra configs with local.conf,https://bugs.launchpad.net/devstack/+bug/1249085,2013-12-05
+1252269,1252269,Fix Released,"High CPU load on master fuel node due to 'mcollective_broadcast"" exchange absence",https://bugs.launchpad.net/fuel/+bug/1252269,2013-12-05
+1245519,1245519,Fix Released,instance stuck in scheduling when image cannot be copied to swift backend,https://bugs.launchpad.net/nova/+bug/1245519,2013-12-05
+1257285,1257285,Fix Released,Red Hat deployment times out registering to Sat if no internet,https://bugs.launchpad.net/fuel/+bug/1257285,2013-12-05
+1255124,1255124,Fix Released,Invalid JSON in documentation examples,https://bugs.launchpad.net/openstack-api-site/+bug/1255124,2013-12-05
+1256903,1256903,Fix Released,"[systest][ceph]Please, verify results for ceph's tests",https://bugs.launchpad.net/fuel/+bug/1256903,2013-12-05
+1246249,1246249,Fix Released,Auto update requirement review proposal run on wrong branches,https://bugs.launchpad.net/openstack-ci/+bug/1246249,2013-12-05
+1212183,1212183,Fix Released,[DOCS BUG] Change flavor size / Migration,https://bugs.launchpad.net/openstack-manuals/+bug/1212183,2013-12-05
+1252443,1252443,Fix Released,upload_image.sh should attempt to retrieve the vmdk descriptor-data pair,https://bugs.launchpad.net/devstack/+bug/1252443,2013-12-04
+1251316,1251316,Fix Released,Example 4.20 issue on Bulk Create Subnets on OpenStack API Complete Reference,https://bugs.launchpad.net/openstack-api-site/+bug/1251316,2013-12-04
+1214655,1214655,Fix Released,Narrowed version support of hp3parclient,https://bugs.launchpad.net/openstack-manuals/+bug/1214655,2013-12-04
+1175000,1175000,Fix Released,grizzly: document vmware driver disk options & vnc options,https://bugs.launchpad.net/openstack-manuals/+bug/1175000,2013-12-04
+1190940,1190940,Fix Released,"openstack-network admin manual does not mention ovs_plugin firewall_driver setup, only nova.conf setup.",https://bugs.launchpad.net/openstack-manuals/+bug/1190940,2013-12-04
+1257437,1257437,Fix Released,dnsmasq on cd-undercloud has been observed to segfault,https://bugs.launchpad.net/tripleo/+bug/1257437,2013-12-04
+1232177,1232177,Fix Released,volume manager fails in init_host on delete_volume,https://bugs.launchpad.net/cinder/+bug/1232177,2013-12-03
+1255887,1255887,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/diskimage-builder/+bug/1255887,2013-12-03
+1254879,1254879,Fix Released,Fedora image creation fails,https://bugs.launchpad.net/diskimage-builder/+bug/1254879,2013-12-03
+1252975,1252975,Fix Released,Deploy ramdisk fails for RHEL due to tgt mismatch package,https://bugs.launchpad.net/diskimage-builder/+bug/1252975,2013-12-03
+1199529,1199529,Fix Released,Python-keystoneclient requirement mismatch when installing on Ubuntu 12.04,https://bugs.launchpad.net/devstack/+bug/1199529,2013-12-03
+1250972,1250972,Fix Released,python client doesn't implement download for job binaries,https://bugs.launchpad.net/python-saharaclient/+bug/1250972,2013-12-03
+1253934,1253934,Fix Released,General installation script install the old version of horizon for release-0.4,https://bugs.launchpad.net/murano/+bug/1253934,2013-12-03
+1253937,1253937,Fix Released,[UI] Mark image fails if no image chosen,https://bugs.launchpad.net/murano/+bug/1253937,2013-12-03
+1252658,1252658,Fix Released,Jira <-> Launchpad synchronization script constantly tosses some bugs,https://bugs.launchpad.net/murano/+bug/1252658,2013-12-03
+1252289,1252289,Fix Released,AD Security Group fix,https://bugs.launchpad.net/murano/+bug/1252289,2013-12-03
+1250796,1250796,Fix Released,Only one project (tenant) is available for admin on MSK Lab,https://bugs.launchpad.net/murano/+bug/1250796,2013-12-03
+1236275,1236275,Fix Released,There is no way to specify RabbitMQ port during automated murano installation,https://bugs.launchpad.net/murano/+bug/1236275,2013-12-03
+1238601,1238601,Fix Released,murano api: does not work matching wildcard for SSL certificates,https://bugs.launchpad.net/murano/+bug/1238601,2013-12-03
+1230257,1230257,Fix Released,Test bug for sync script,https://bugs.launchpad.net/murano/+bug/1230257,2013-12-03
+1257125,1257125,Fix Released,"No workspace found, files cannot be copied",https://bugs.launchpad.net/openstack-ci/+bug/1257125,2013-12-03
+1257077,1257077,Fix Released,Requesting service account for turbo-hipster,https://bugs.launchpad.net/openstack-ci/+bug/1257077,2013-12-03
+1256456,1256456,Fix Released,vncproxy and console package and service names are incorrect for RHEL,https://bugs.launchpad.net/openstack-chef/+bug/1256456,2013-12-02
+1214725,1214725,Fix Released,Get image member of  v2 API are missing,https://bugs.launchpad.net/openstack-api-site/+bug/1214725,2013-12-02
+1203865,1203865,Fix Released,Neutron VPNaaS API Docs,https://bugs.launchpad.net/openstack-api-site/+bug/1203865,2013-12-02
+1256245,1256245,Fix Released,Errors building api-ref,https://bugs.launchpad.net/openstack-api-site/+bug/1256245,2013-12-02

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1284430,1284430,Fix Released,check the url format when create endpoint,https://bugs.launchpad.net/keystone/+bug/1284430,2014-10-16
+1195037,1195037,Fix Released,"""Self"" link in v3 collections omits any url filters",https://bugs.launchpad.net/keystone/+bug/1195037,2014-10-16
+1291848,1291848,Fix Released,Remove deprecation warning when loading stores,https://bugs.launchpad.net/glance/+bug/1291848,2014-10-16
+1183526,1183526,Fix Released,Cert setup testcase spews into log,https://bugs.launchpad.net/keystone/+bug/1183526,2014-10-16
+1256364,1256364,Fix Released,"While deleting an image, Glance Swift store fails to delete remaining chunks upon erroring on one of the chunks",https://bugs.launchpad.net/glance/+bug/1256364,2014-10-16
+1363224,1363224,Fix Released,token_flush is failing with recursion depth error,https://bugs.launchpad.net/keystone/+bug/1363224,2014-10-16
+1370989,1370989,Fix Released,s3_store_host including port num not working,https://bugs.launchpad.net/glance/+bug/1370989,2014-10-16
+1359376,1359376,Fix Released,KeyError in GroupNotFound error path,https://bugs.launchpad.net/keystone/+bug/1359376,2014-10-16
+1366515,1366515,Fix Released,[v2] Can't recognize paramter **id** for image create,https://bugs.launchpad.net/glance/+bug/1366515,2014-10-16
+1354315,1354315,Fix Released,REMOTE_USER as empty string results in authentication failure,https://bugs.launchpad.net/keystone/+bug/1354315,2014-10-16
+1264302,1264302,Fix Released,insufficient permissions on glance images for direct copy,https://bugs.launchpad.net/glance/+bug/1264302,2014-10-16
+1352134,1352134,Fix Released,/bin/pip: No such file or directory in pep8 and cover jobs,https://bugs.launchpad.net/keystone/+bug/1352134,2014-10-16
+1351038,1351038,Fix Released,Add OS-FEDERATION to scoped federation tokens,https://bugs.launchpad.net/keystone/+bug/1351038,2014-10-16
+1350192,1350192,Fix Released,List regions: 'parent_region_id' does not work,https://bugs.launchpad.net/keystone/+bug/1350192,2014-10-16
+1347909,1347909,Fix Released,Trust unit tests should target additional threat scenarios,https://bugs.launchpad.net/keystone/+bug/1347909,2014-10-16
+1337089,1337089,Fix Released,Pip temporarily diseappeared?,https://bugs.launchpad.net/keystone/+bug/1337089,2014-10-16
+1358888,1358888,Fix Released,Task ID should be logged when changing task status,https://bugs.launchpad.net/glance/+bug/1358888,2014-10-16
+1335037,1335037,Fix Released,Remaining trust uses are consumed even when create token fails,https://bugs.launchpad.net/keystone/+bug/1335037,2014-10-16
+1356406,1356406,Fix Released,bad indentation in glance code,https://bugs.launchpad.net/glance/+bug/1356406,2014-10-16
+1352509,1352509,Fix Released,RBD store: need to use READ_CHUNKSIZE in the ImageIterator,https://bugs.launchpad.net/glance/+bug/1352509,2014-10-16
+1325143,1325143,Fix Released,Eliminate use of with_lockmode('update'),https://bugs.launchpad.net/keystone/+bug/1325143,2014-10-16
+1322639,1322639,Fix Released,region creation API should not allow empty id,https://bugs.launchpad.net/keystone/+bug/1322639,2014-10-16
+1348838,1348838,Fix Released,Glance logs password hashes in swift URLs,https://bugs.launchpad.net/glance/+bug/1348838,2014-10-16
+1320997,1320997,Fix Released,Common Ldap handler connection pooling,https://bugs.launchpad.net/keystone/+bug/1320997,2014-10-16
+1342811,1342811,Fix Released,Bump up the min version of keystonemiddleware,https://bugs.launchpad.net/glance/+bug/1342811,2014-10-16
+1305537,1305537,Fix Released,get endpoints associated with a project will return 404 error if endpoint isnot exist,https://bugs.launchpad.net/keystone/+bug/1305537,2014-10-16
+1336970,1336970,Fix Released,VMware store to use content-length when available,https://bugs.launchpad.net/glance/+bug/1336970,2014-10-16
+1279496,1279496,Fix Released,Invalid links section for get access token,https://bugs.launchpad.net/keystone/+bug/1279496,2014-10-16
+1336168,1336168,Fix Released,Chunksize should be configurable when using copy_from,https://bugs.launchpad.net/glance/+bug/1336168,2014-10-16
+1267096,1267096,Fix Released,v3/credentials API is admin-only,https://bugs.launchpad.net/keystone/+bug/1267096,2014-10-16
+1335878,1335878,Fix Released,test_download_policy_when_cache_is_not_enabled fails with ECONNREFUSED,https://bugs.launchpad.net/glance/+bug/1335878,2014-10-16
+1291512,1291512,Fix Released,"Swift functional test ""test_delayed_delete_with_auth"" is failing",https://bugs.launchpad.net/glance/+bug/1291512,2014-10-16
+1188378,1188378,Fix Released,keystone.token.backends.sql uses a single delete command to flush expired tokens causing replication lag and potential deadlocks,https://bugs.launchpad.net/keystone/+bug/1188378,2014-10-16
+1258999,1258999,Fix Released,copy_from policy is missing from new policy.json,https://bugs.launchpad.net/glance/+bug/1258999,2014-10-16
+1362557,1362557,Fix Released,Performance of list_projects_for_user impacting keystone,https://bugs.launchpad.net/keystone/+bug/1362557,2014-10-16
+1205018,1205018,Fix Released,With set_image_location policy can still update image_locations,https://bugs.launchpad.net/glance/+bug/1205018,2014-10-16
+1194929,1194929,Fix Released,get_caching_iter doesn't always work with ChunkedFile,https://bugs.launchpad.net/glance/+bug/1194929,2014-10-16
+1349955,1349955,Fix Released,"Domain operation yield ""'module' object has no attribute 'KeyError'""",https://bugs.launchpad.net/keystone/+bug/1349955,2014-10-16
+1351413,1351413,Fix Released,DB migration failure due to 006_mysql_downgrade script handled mysql reserved word as column name wrongly,https://bugs.launchpad.net/glance/+bug/1351413,2014-10-16
+1349597,1349597,Fix Released,[OSSA 2014-026] Domain-scoped tokens don't get revoked (CVE-2014-5253),https://bugs.launchpad.net/ossa/+bug/1349597,2014-10-16
+1349597,1349597,Fix Released,[OSSA 2014-026] Domain-scoped tokens don't get revoked (CVE-2014-5253),https://bugs.launchpad.net/keystone/+bug/1349597,2014-10-16
+1297362,1297362,Fix Released,Glance v2: HTTP 404s are returned for unallowed methods,https://bugs.launchpad.net/glance/+bug/1297362,2014-10-16
+1348820,1348820,Fix Released,[OSSA 2014-026] Token issued_at time changes on /v3/auth/token GET requests (CVE-2014-5252),https://bugs.launchpad.net/ossa/+bug/1348820,2014-10-16
+1348820,1348820,Fix Released,[OSSA 2014-026] Token issued_at time changes on /v3/auth/token GET requests (CVE-2014-5252),https://bugs.launchpad.net/keystone/+bug/1348820,2014-10-16
+1184056,1184056,Fix Released,Test suite picks up configuration in ~/.glance,https://bugs.launchpad.net/glance/+bug/1184056,2014-10-16
+1347961,1347961,Fix Released,[OSSA 2014-026] Revocation events are broken with mysql (CVE-2014-5251),https://bugs.launchpad.net/ossa/+bug/1347961,2014-10-16
+1347961,1347961,Fix Released,[OSSA 2014-026] Revocation events are broken with mysql (CVE-2014-5251),https://bugs.launchpad.net/keystone/+bug/1347961,2014-10-16
+1354500,1354500,Fix Released,osprofiler version problem,https://bugs.launchpad.net/glance/+bug/1354500,2014-10-16
+1345942,1345942,Fix Released,500 error when deleting an in-use image from Ceph,https://bugs.launchpad.net/glance/+bug/1345942,2014-10-16
+1332103,1332103,Fix Released,Glance v2 api can not set or delete a property of a image when the value of the property is an empty string,https://bugs.launchpad.net/glance/+bug/1332103,2014-10-16
+1288846,1288846,Fix Released,Common context module missed in Glance,https://bugs.launchpad.net/glance/+bug/1288846,2014-10-16
+1247889,1247889,Fix Released,Custom log handlers lost ability to register event listeners,https://bugs.launchpad.net/glance/+bug/1247889,2014-10-16
+1236868,1236868,Fix Released,image status set to killed even if has been deleted,https://bugs.launchpad.net/glance/+bug/1236868,2014-10-16
+1357498,1357498,Fix Released,Can't upgrade from 2013.2 or 2013.2.1 to Juno,https://bugs.launchpad.net/keystone/+bug/1357498,2014-10-16
+1357462,1357462,Fix Released,glance cannot find store for scheme vmware_datastore,https://bugs.launchpad.net/glance/+bug/1357462,2014-10-16
+1335278,1335278,Fix Released,compute_port in config options,https://bugs.launchpad.net/keystone/+bug/1335278,2014-10-16
+1283841,1283841,Fix Released,Deprecate config options with 'tenant' in the name and replace with 'project' (LDAP),https://bugs.launchpad.net/keystone/+bug/1283841,2014-10-16
+1315321,1315321,Fix Released,[OSSA 2014-028] image_size_cap not checked in v2 (CVE-2014-5356),https://bugs.launchpad.net/ossa/+bug/1315321,2014-10-16
+1315321,1315321,Fix Released,[OSSA 2014-028] image_size_cap not checked in v2 (CVE-2014-5356),https://bugs.launchpad.net/glance/+bug/1315321,2014-10-16
+1340002,1340002,Fix Released,Some exceptions raise unicodeError,https://bugs.launchpad.net/glance/+bug/1340002,2014-10-16
+1134836,1134836,Fix Released,TestAuthInfo class in test_v3_auth could be more efficient,https://bugs.launchpad.net/keystone/+bug/1134836,2014-10-16
+1339775,1339775,Fix Released,Some v2 exceptions raise unicodeError,https://bugs.launchpad.net/glance/+bug/1339775,2014-10-16
+1336910,1336910,Fix Released,oauth1 response content type is incorrect,https://bugs.launchpad.net/python-keystoneclient/+bug/1336910,2014-10-16
+1336910,1336910,Fix Released,oauth1 response content type is incorrect,https://bugs.launchpad.net/keystone/+bug/1336910,2014-10-16
+1336238,1336238,Fix Released,_get_capacity_info fails when using long mount names or large storage due to multi-line df output,https://bugs.launchpad.net/glance/+bug/1336238,2014-10-16
+1335437,1335437,Fix Released,LDAP attributes mapped to None can cause 500 errors,https://bugs.launchpad.net/keystone/+bug/1335437,2014-10-16
+1335208,1335208,Fix Released,Shell injection possibility in cmd/control.py,https://bugs.launchpad.net/glance/+bug/1335208,2014-10-16
+1334915,1334915,Fix Released,Minor grammatical error in using-api-v2.rst,https://bugs.launchpad.net/keystone/+bug/1334915,2014-10-16
+1334711,1334711,Fix Released,Document workers parameter for the registry,https://bugs.launchpad.net/glance/+bug/1334711,2014-10-16
+1333325,1333325,Fix Released,glance-api workers should default to number of CPUs available,https://bugs.launchpad.net/glance/+bug/1333325,2014-10-16
+1326781,1326781,Fix Released,v2 api returns 200 with blank response (no image data) for download_image policy,https://bugs.launchpad.net/glance/+bug/1326781,2014-10-16
+1311960,1311960,Fix Released,Handle session timeout in the VMware store,https://bugs.launchpad.net/glance/+bug/1311960,2014-10-16
+1313837,1313837,Fix Released,unnecessary period in logs make searching/copy/paste annoying,https://bugs.launchpad.net/keystone/+bug/1313837,2014-10-16
+1310952,1310952,Fix Released,Not assignment variable 'image' in api.v2.image_data,https://bugs.launchpad.net/glance/+bug/1310952,2014-10-16
+1275693,1275693,Fix Released,Wrong oauth1_extension used instead of oauth_extension in documentation,https://bugs.launchpad.net/keystone/+bug/1275693,2014-10-16

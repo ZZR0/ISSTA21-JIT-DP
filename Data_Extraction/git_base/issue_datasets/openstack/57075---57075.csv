@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1489359,1489359,Fix Released,Tempest tests targeting user based rules issue,https://bugs.launchpad.net/manila/+bug/1489359,2015-10-15
+1488011,1488011,Fix Released,Huawei driver fix incorrect use of snapshot instances,https://bugs.launchpad.net/manila/+bug/1488011,2015-10-15
+1487351,1487351,Fix Released,Migration 5077ffcc5f1c add_share_instances fails with SQLAlchemy < 1.0.0,https://bugs.launchpad.net/manila/+bug/1487351,2015-10-15
+1486006,1486006,Fix Released,"tempest test cases missing for ""cert"" based access type",https://bugs.launchpad.net/manila/+bug/1486006,2015-10-15
+1485987,1485987,Fix Released,"enable tempest cases for missing protocols (glusterfs, hdfs)",https://bugs.launchpad.net/manila/+bug/1485987,2015-10-15
+1485441,1485441,Fix Released,Batch operations may cause the number of connections exceed the limits of huawei array,https://bugs.launchpad.net/manila/+bug/1485441,2015-10-15
+1483863,1483863,Fix Released,Tempest does not try to delete several shares,https://bugs.launchpad.net/manila/+bug/1483863,2015-10-15
+1482968,1482968,Fix Released,Fix extend share API in Huawei driver,https://bugs.launchpad.net/manila/+bug/1482968,2015-10-15
+1481180,1481180,Fix Released,Extend share doesn't work for GPFS manila driver,https://bugs.launchpad.net/manila/+bug/1481180,2015-10-15
+1481096,1481096,Fix Released,HP3PAR extra-specs for access_based_enum and continuous_avail build wrong command,https://bugs.launchpad.net/manila/+bug/1481096,2015-10-15
+1480856,1480856,Fix Released,Add retry logic when delete a nfs share using EMC VNX driver,https://bugs.launchpad.net/manila/+bug/1480856,2015-10-15
+1479697,1479697,Fix Released,Generic driver not properly waiting for volume extend,https://bugs.launchpad.net/manila/+bug/1479697,2015-10-15
+1477789,1477789,Fix Released,AttributeError when creating a new share without specifying a share type,https://bugs.launchpad.net/manila/+bug/1477789,2015-10-15
+1456938,1456938,Fix Released,Quobyte unit test fails : manila.tests.share.drivers.quobyte.test_jsonrpc.QuobyteJsonRpcTestCase.test_jsonrpc_call_ssl_disable,https://bugs.launchpad.net/manila/+bug/1456938,2015-10-15
+1489526,1489526,Fix Released,ShareInstance 'name' contains Share ID instead of ShareInstance ID,https://bugs.launchpad.net/manila/+bug/1489526,2015-10-15
+1483604,1483604,Fix Released,MySQL deadlock creating share networks concurrently,https://bugs.launchpad.net/manila/+bug/1483604,2015-10-15
+1489827,1489827,Fix Released,"db upgrade fails in ""add_availability_zones_table""",https://bugs.launchpad.net/manila/+bug/1489827,2015-10-15
+1486501,1486501,Fix Released,Tempest CI jobs are broken,https://bugs.launchpad.net/manila/+bug/1486501,2015-10-15
+1484238,1484238,Fix Released,Isilon driver fails to connect,https://bugs.launchpad.net/manila/+bug/1484238,2015-10-15
+1476710,1476710,Fix Released,gluster_native create_snapshot breaks on error,https://bugs.launchpad.net/manila/+bug/1476710,2015-10-15
+1473033,1473033,Fix Released,Cannot perform 'manila extend' - device is busy,https://bugs.launchpad.net/manila/+bug/1473033,2015-10-15
+1464136,1464136,Fix Released,EMC VNX driver report ZERO capacity of a pool,https://bugs.launchpad.net/manila/+bug/1464136,2015-10-15
+1466062,1466062,Fix Released,Delete redundant period in ManilaException messages,https://bugs.launchpad.net/manila/+bug/1466062,2015-10-15
+1477895,1477895,Fix Released,Wrong use _LE of manila/share/manager.py,https://bugs.launchpad.net/manila/+bug/1477895,2015-10-15
+1477703,1477703,Fix Released,Tempest Shares client should catch error_delete status for other resources,https://bugs.launchpad.net/manila/+bug/1477703,2015-10-15
+1475668,1475668,Fix Released,"Config option ""enabled_share_protocols"" is case-sensitive",https://bugs.launchpad.net/manila/+bug/1475668,2015-10-15
+1473885,1473885,Fix Released,DB Migration 3db9992c30f3 fails if models were changed,https://bugs.launchpad.net/manila/+bug/1473885,2015-10-15
+1473208,1473208,Fix Released,"Change ""volume"" to ""share"" in capacity filter and weigher",https://bugs.launchpad.net/manila/+bug/1473208,2015-10-15
+1470928,1470928,Fix Released,SchedulerStatsAdminTest can fail on stats timestamp. Should only compare keys.,https://bugs.launchpad.net/manila/+bug/1470928,2015-10-15
+1469361,1469361,Fix Released,Modify confusing name in Huawei driver,https://bugs.launchpad.net/manila/+bug/1469361,2015-10-15
+1469304,1469304,Fix Released,Remove duplicated options in manila/opts.py,https://bugs.launchpad.net/manila/+bug/1469304,2015-10-15
+1473324,1473324,Fix Released,gluster_native: 'manila delete <share>' fails with gluster 3.7.x as backend,https://bugs.launchpad.net/manila/+bug/1473324,2015-10-15
+1473044,1473044,Fix Released,gluster_native: 'manila snapshot delete' fails with gluster 3.7.x as backend,https://bugs.launchpad.net/manila/+bug/1473044,2015-10-15
+1470516,1470516,Fix Released,httplib.BadStatusLine errors in calls to Manila Quobyte Backend,https://bugs.launchpad.net/manila/+bug/1470516,2015-10-15
+1452653,1452653,Fix Released,"CI job ""gate-manila-tempest-dsvm-neutron-no-share-servers""  fails very often",https://bugs.launchpad.net/manila/+bug/1452653,2015-10-15
+1473400,1473400,Fix Released,wrong migration version record in DB,https://bugs.launchpad.net/manila/+bug/1473400,2015-10-15
+1469068,1469068,Fix Released,"'umount: Device is busy ' error  on delete, extend and shrink operations in generic driver",https://bugs.launchpad.net/manila/+bug/1469068,2015-10-15
+1425754,1425754,Fix Released,NetApp drivers fails to create share_servers on controllers running ONTAP 8.3,https://bugs.launchpad.net/manila/+bug/1425754,2015-10-15
+1477852,1477852,Fix Released,unstable unit tests,https://bugs.launchpad.net/manila/+bug/1477852,2015-10-15
+1473350,1473350,Fix Released,manila unit tests are broken with newest mock library release,https://bugs.launchpad.net/manila/+bug/1473350,2015-10-15
+1465543,1465543,Fix Released,Fix VNX Manila driver incompablity with VNX OE File V8.1.6 or later,https://bugs.launchpad.net/manila/+bug/1465543,2015-10-15
+1464935,1464935,Fix Released,Replace it.next() with next(it) for py3 compat,https://bugs.launchpad.net/manila/+bug/1464935,2015-10-15
+1459660,1459660,Fix Released,"security service model has unused attr ""status""",https://bugs.launchpad.net/manila/+bug/1459660,2015-10-15
+1459631,1459631,Fix Released,"API ""update security service"" verifies ""show"" policy instead of ""update"" policy",https://bugs.launchpad.net/manila/+bug/1459631,2015-10-15
+1459598,1459598,Fix Released,Manila does not have common approach for resource statuses,https://bugs.launchpad.net/manila/+bug/1459598,2015-10-15
+1455487,1455487,Fix Released,Custom share DB model properties is not serialized properly,https://bugs.launchpad.net/manila/+bug/1455487,2015-10-15
+1451386,1451386,Fix Released,Fix 'AllocType' read failure in Huawei driver,https://bugs.launchpad.net/manila/+bug/1451386,2015-10-15
+1447339,1447339,Fix Released,NetApp cDOT driver fails Tempest cleanup on clone workflows,https://bugs.launchpad.net/manila/+bug/1447339,2015-10-15
+1444914,1444914,Fix Released,Pass additional data through parameters to drivers to avoid direct DB usage,https://bugs.launchpad.net/manila/+bug/1444914,2015-10-15
+1444871,1444871,Fix Released,Remove direct DB usage from NetApp driver,https://bugs.launchpad.net/manila/+bug/1444871,2015-10-15
+1439030,1439030,Fix Released,config_group_name missing in NeutronNetworkHelper,https://bugs.launchpad.net/manila/+bug/1439030,2015-10-15
+1421104,1421104,Fix Released,No cloud_init package in ubuntu image,https://bugs.launchpad.net/manila/+bug/1421104,2015-10-15
+1463942,1463942,Fix Released,HP 3PAR driver config has unused username/password,https://bugs.launchpad.net/manila/+bug/1463942,2015-10-15
+1442768,1442768,Fix Released,Quobyte unit test fails sometimes: manila.tests.share.drivers.quobyte.test_jsonrpc.QuobyteJsonRpcTestCase.test_jsonrpc_call_ssl_error,https://bugs.launchpad.net/manila/+bug/1442768,2015-10-15
+1463552,1463552,Fix Released,HP3PAR Creating cross-protocol share never completes using older client with newer 3PAR,https://bugs.launchpad.net/manila/+bug/1463552,2015-10-15
+1453191,1453191,Fix Released,generic driver does not delete service port with deletion of share server,https://bugs.launchpad.net/manila/+bug/1453191,2015-10-15
+1446109,1446109,Fix Released,EMC VNX driver can not delete the error share server,https://bugs.launchpad.net/manila/+bug/1446109,2015-10-15
+1434076,1434076,Fix Released,requires ddt >= 0.7.0,https://bugs.launchpad.net/manila/+bug/1434076,2015-10-15
+1420440,1420440,Fix Released,No tests exist to validate manila on postgresql,https://bugs.launchpad.net/manila/+bug/1420440,2015-10-15
+1463718,1463718,Fix Released,tempest test_extend_share fails due to concurrency issues,https://bugs.launchpad.net/manila/+bug/1463718,2015-10-15
+1446369,1446369,Fix Released,NetApp cDOT driver clones NFS export policy,https://bugs.launchpad.net/manila/+bug/1446369,2015-10-15
+1490670,1490670,Fix Released,Exception generated when setting up a local working directory following the Quickstart guide,https://bugs.launchpad.net/tempest/+bug/1490670,2015-10-15
+1472076,1472076,Fix Released,Add enable_new_agents to neutron server,https://bugs.launchpad.net/neutron/+bug/1472076,2015-10-15
+1468934,1468934,Fix Released,Neutron might use robust quota enforcement,https://bugs.launchpad.net/neutron/+bug/1468934,2015-10-15
+1497823,1497823,Fix Released,LBaaS V2 Octavia driver should create get its own context/session,https://bugs.launchpad.net/neutron/+bug/1497823,2015-10-15
+1495161,1495161,Fix Released,Cannot add tap interface to the bridge when bridge mappings is not provided (Linux bridge),https://bugs.launchpad.net/neutron/+bug/1495161,2015-10-15
+1494157,1494157,Fix Released,Regression: ObjectDeletedError on network delete,https://bugs.launchpad.net/neutron/+bug/1494157,2015-10-15
+1493492,1493492,Fix Released,VPNaaS: ipsec.secrets file permissions prevents LibreSwan from starting,https://bugs.launchpad.net/neutron/+bug/1493492,2015-10-15
+1491690,1491690,Fix Released,IPv6 Address Resolution protection support in Neutron.,https://bugs.launchpad.net/neutron/+bug/1491690,2015-10-15
+1491110,1491110,Fix Released,Change a class comment to a docstring,https://bugs.launchpad.net/neutron/+bug/1491110,2015-10-15
+1489609,1489609,Fix Released,DB Model migrate: move cisco db l3_models to networking-cisco,https://bugs.launchpad.net/neutron/+bug/1489609,2015-10-15
+1489184,1489184,Fix Released,"Port is unbound from a compute node, the DVR scheduler needs to check whether the router can be deleted on the L3-agent",https://bugs.launchpad.net/neutron/+bug/1489184,2015-10-15
+1488764,1488764,Fix Released,Create IPSec site connection with IPSec policy that specifies AH-ESP protocol error,https://bugs.launchpad.net/neutron/+bug/1488764,2015-10-15
+1487139,1487139,Fix Released,We need more strict filters for functional tests,https://bugs.launchpad.net/neutron/+bug/1487139,2015-10-15
+1486861,1486861,Fix Released,get_extensions_path fail to remove duplicate path when the path gets appended with a another path,https://bugs.launchpad.net/neutron/+bug/1486861,2015-10-15

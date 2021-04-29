@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1252775,1252775,Fix Released,"CLI fails with obscure message: No handlers could be found for logger ""ceilometerclient.common.http""",https://bugs.launchpad.net/python-ceilometerclient/+bug/1252775,2015-06-24
+1146690,1146690,Fix Released,v2 calls are generating an extra slash,https://bugs.launchpad.net/python-ceilometerclient/+bug/1146690,2015-06-24
+1133749,1133749,Fix Released,Ceilometer V2 command cannot be executed,https://bugs.launchpad.net/python-ceilometerclient/+bug/1133749,2015-06-24
+1423291,1423291,Fix Released,ceilometerclient needs a new release,https://bugs.launchpad.net/heat/+bug/1423291,2015-06-24
+1423291,1423291,Fix Released,ceilometerclient needs a new release,https://bugs.launchpad.net/python-ceilometerclient/+bug/1423291,2015-06-24
+1312146,1312146,Fix Released,Resource classes of managers should have methods like delete() and get(),https://bugs.launchpad.net/python-ceilometerclient/+bug/1312146,2015-06-24
+1298528,1298528,Fix Released,multiple statistics --aggregate options need to be explicitly ordered,https://bugs.launchpad.net/python-ceilometerclient/+bug/1298528,2015-06-24
+1284548,1284548,Fix Released,command ceilometer trait-description-list is unavailable,https://bugs.launchpad.net/python-ceilometerclient/+bug/1284548,2015-06-24
+1271913,1271913,Fix Released,alarm-threshold-create --query option is discarded,https://bugs.launchpad.net/python-ceilometerclient/+bug/1271913,2015-06-24
+1253057,1253057,Fix Released,"alarm update resets repeat_actions attribute, breaking heat autoscaling",https://bugs.launchpad.net/python-ceilometerclient/+bug/1253057,2015-06-24
+1245317,1245317,Fix Released,Ceilemeter command will encounter a UnicodeEncodeError when update or show an alarm with not unicode attributes,https://bugs.launchpad.net/python-ceilometerclient/+bug/1245317,2015-06-24
+1207441,1207441,Fix Released,"keystoneclient.auth_token property is prematurely evaluated, misses refresh on token expiry",https://bugs.launchpad.net/python-ceilometerclient/+bug/1207441,2015-06-24
+1421040,1421040,Fix Released,sample-create & sample-show not working,https://bugs.launchpad.net/python-ceilometerclient/+bug/1421040,2015-06-24
+1438012,1438012,Fix Released,Building GBP documentation is failing,https://bugs.launchpad.net/group-based-policy/+bug/1438012,2015-06-24
+1443606,1443606,Fix Released,backward incompatible db migration changes,https://bugs.launchpad.net/group-based-policy/+bug/1443606,2015-06-24
+1455709,1455709,Fix Released,external routes not updated correctly,https://bugs.launchpad.net/group-based-policy/+bug/1455709,2015-06-24
+1455719,1455719,Fix Released,cross tenant external segment update doesn't calculate remote cidrs properly,https://bugs.launchpad.net/group-based-policy/+bug/1455719,2015-06-24
+1452958,1452958,Fix Committed,cluster does not change to ERROR state when VM does not go ACTIVE,https://bugs.launchpad.net/cue/+bug/1452958,2015-06-24
+1292022,1292022,Fix Released,dashboard requires L3 extension to be enabled else throws an error while launching instance,https://bugs.launchpad.net/horizon/+bug/1292022,2015-06-24
+1468321,1468321,Fix Committed,update product-stats.mirantis.com for 6.1,https://bugs.launchpad.net/fuel/+bug/1468321,2015-06-24
+1319112,1319112,Fix Released,Admins can't see all domains in domain-list,https://bugs.launchpad.net/designate/+bug/1319112,2015-06-24
+1319112,1319112,Fix Released,Admins can't see all domains in domain-list,https://bugs.launchpad.net/python-designateclient/+bug/1319112,2015-06-24
+1323435,1323435,Fix Released,Support Keystone V3 auth in Designate Client,https://bugs.launchpad.net/python-designateclient/+bug/1323435,2015-06-24
+1457821,1457821,Fix Released,all_tenants and edit_managed not defined using external keystone session,https://bugs.launchpad.net/python-designateclient/+bug/1457821,2015-06-24
+1444452,1444452,Fix Released,Designateclient does not support relative names in record-create command,https://bugs.launchpad.net/python-designateclient/+bug/1444452,2015-06-24
+1443858,1443858,Fix Released,Designateclient does not support to provide domain names instead of domain ids,https://bugs.launchpad.net/python-designateclient/+bug/1443858,2015-06-24
+1418156,1418156,Fix Released,Policy definition (policy.json)  is not honored for admin tenant,https://bugs.launchpad.net/python-designateclient/+bug/1418156,2015-06-24
+1292566,1292566,Fix Released,Unable to set metadata for aggregates,https://bugs.launchpad.net/horizon/+bug/1292566,2015-06-24
+1404809,1404809,Fix Released,Default gateway from storage network is used if 'Assign public network to all nodes' feature is enabled,https://bugs.launchpad.net/fuel/+bug/1404809,2015-06-24
+1274784,1274784,Fix Committed,Configure SQLAlchemy connection pool for production sized environments,https://bugs.launchpad.net/fuel/+bug/1274784,2015-06-24
+1371757,1371757,Fix Released,Deployment Fails when /var is Full.,https://bugs.launchpad.net/fuel/+bug/1371757,2015-06-24
+1415520,1415520,Fix Released,Add network verification result into fuel-stats,https://bugs.launchpad.net/fuel/+bug/1415520,2015-06-24
+1405407,1405407,Fix Released,Ceph deployment fails when Ceph is not enabled for storage and is enabled for ephemeral,https://bugs.launchpad.net/fuel/+bug/1405407,2015-06-24
+1413702,1413702,Fix Released,[library] Set correct sysctl vm.swappiness parameter for deployed nodes,https://bugs.launchpad.net/fuel/+bug/1413702,2015-06-24
+1433186,1433186,Fix Released,[doc] User should be notified about deployed plugins,https://bugs.launchpad.net/fuel/+bug/1433186,2015-06-24
+1403088,1403088,Fix Released,CentOS repository contains ruby conflicts - unable to run yum update plainly,https://bugs.launchpad.net/fuel/+bug/1403088,2015-06-24
+1463547,1463547,Fix Released,Amend non-HA deployment warning,https://bugs.launchpad.net/fuel/+bug/1463547,2015-06-24
+1463398,1463398,Fix Released,It is impossible to log out from the welcome page,https://bugs.launchpad.net/fuel/+bug/1463398,2015-06-24
+1467859,1467859,Fix Released,Need change 'FIXME'  to 'TODO' in the 'test_vcenter',https://bugs.launchpad.net/fuel/+bug/1467859,2015-06-24
+1387733,1387733,Fix Released,"500 internal server error If you check  ""Select all"" and click ""Run OSTF tests""",https://bugs.launchpad.net/fuel/+bug/1387733,2015-06-24
+1467708,1467708,Fix Released,meta should be metadata in the JSON example for PUT​{tenant_id}​/servers/​{server_id}​/metadata,https://bugs.launchpad.net/openstack-api-site/+bug/1467708,2015-06-24
+1468141,1468141,Fix Released,pep8 test continuously fails on the gate,https://bugs.launchpad.net/tempest/+bug/1468141,2015-06-24
+1467426,1467426,Fix Released,Response codes of some server actions in Nova API V2.1 are incorrect,https://bugs.launchpad.net/openstack-api-site/+bug/1467426,2015-06-24
+1462388,1462388,Fix Released,[image] Use correct endpoint scheme for api to registry connection,https://bugs.launchpad.net/openstack-chef/+bug/1462388,2015-06-24
+1467280,1467280,Fix Released,mariadb-entrypoint.sh not linked properly results in failed build,https://bugs.launchpad.net/kolla/+bug/1467280,2015-06-23
+1461280,1461280,Fix Released,neutron plugin monitors api where no server exists,https://bugs.launchpad.net/monasca/+bug/1461280,2015-06-23
+1467270,1467270,Fix Released,devstack fails on rhel 7.1 if you don't have yum-utils installed,https://bugs.launchpad.net/devstack/+bug/1467270,2015-06-23
+1412380,1412380,Fix Released,Magnum Documentation link report 404 error,https://bugs.launchpad.net/magnum/+bug/1412380,2015-06-23
+1465343,1465343,Fix Released,Need add networks mode for custom test job,https://bugs.launchpad.net/fuel/+bug/1465343,2015-06-23
+1467945,1467945,Fix Released,[Docs] Release day,https://bugs.launchpad.net/fuel/+bug/1467945,2015-06-23
+1466080,1466080,Fix Released,MOS-security repository is not configured for environments by default,https://bugs.launchpad.net/fuel/+bug/1466080,2015-06-23
+1461074,1461074,Fix Released,delete_environment fails because node provide response from erase_node action,https://bugs.launchpad.net/fuel/+bug/1461074,2015-06-23
+1467812,1467812,Fix Committed,Release fuel plugin builder 2.0.4 on pypi,https://bugs.launchpad.net/fuel/+bug/1467812,2015-06-23
+1333852,1333852,Fix Released,Trove does not support flavor UUIDs,https://bugs.launchpad.net/trove/+bug/1333852,2015-06-23
+1443922,1443922,Fix Released,Language chooser control should show full names of languages,https://bugs.launchpad.net/fuel/+bug/1443922,2015-06-23
+1430124,1430124,Fix Released,DEFAULT_LOG_LEVELS out of sync with oslo_log,https://bugs.launchpad.net/tempest/+bug/1430124,2015-06-23
+1430124,1430124,Fix Released,DEFAULT_LOG_LEVELS out of sync with oslo_log,https://bugs.launchpad.net/barbican/+bug/1430124,2015-06-23
+1405579,1405579,Fix Released,tempest-dsvm-neutron-src-python-heatclient-icehouse failed due to ERROR:   smoke: could not install deps,https://bugs.launchpad.net/tempest/+bug/1405579,2015-06-23
+1352498,1352498,Fix Released,"Tempest fails spectacularly with ""VolumeType c39f18bf-2408-4377-98f6-ef2839d6f70e deletion failed, VolumeType in use.""",https://bugs.launchpad.net/cinder/+bug/1352498,2015-06-23
+1352498,1352498,Fix Released,"Tempest fails spectacularly with ""VolumeType c39f18bf-2408-4377-98f6-ef2839d6f70e deletion failed, VolumeType in use.""",https://bugs.launchpad.net/tempest/+bug/1352498,2015-06-23
+1263369,1263369,Fix Released,AttributeError: 'BadRequest' object has no attribute 'status_code',https://bugs.launchpad.net/tempest/+bug/1263369,2015-06-23
+1284585,1284585,Fix Released,ClientException __str__ shows wrong message for HTTP errors,https://bugs.launchpad.net/python-swiftclient/+bug/1284585,2015-06-23
+1431147,1431147,Fix Released,Security group can not clean due to GetResourceErrorStatus,https://bugs.launchpad.net/rally/+bug/1431147,2015-06-23
+1466847,1466847,Fix Committed,redstack should use git-timed when issuing git commands,https://bugs.launchpad.net/trove-integration/+bug/1466847,2015-06-22
+1409169,1409169,Fix Released,IPA LLDP lookups loop forever,https://bugs.launchpad.net/ironic/+bug/1409169,2015-06-22
+1464706,1464706,Fix Released,[mq] Allow for rabbit kombu ssl configuration,https://bugs.launchpad.net/openstack-chef/+bug/1464706,2015-06-22
+1462438,1462438,Fix Released,[All] Add oslo rabbitmq heartbeat settings,https://bugs.launchpad.net/openstack-chef/+bug/1462438,2015-06-22
+1417303,1417303,Fix Released,py34 tests don't pass,https://bugs.launchpad.net/ceilometermiddleware/+bug/1417303,2015-06-22
+1417306,1417306,Fix Released,swift middleware should work without oslo.config,https://bugs.launchpad.net/ceilometermiddleware/+bug/1417306,2015-06-22
+1399428,1399428,Fix Released,Keystone cert signing dir has incorrect permissions,https://bugs.launchpad.net/openstack-ansible/+bug/1399428,2015-06-22
+1465682,1465682,Fix Released,SSH exec_command() fails on VM's with /bin/sh shell,https://bugs.launchpad.net/tempest/+bug/1465682,2015-06-22
+1426397,1426397,Fix Released,tempest.scenario.test_network_v6.TestGettingAddress.test_slaac_from_os intermittently fails with MismatchError,https://bugs.launchpad.net/tempest/+bug/1426397,2015-06-22
+1466786,1466786,Fix Released,"/etc/yum.repos.d/*updates*: No such file or directory {""failed_urls"":[""""]}",https://bugs.launchpad.net/fuel/+bug/1466786,2015-06-22
+1240829,1240829,Fix Released,Add swift object expiry test of parameter X-Delete-At,https://bugs.launchpad.net/tempest/+bug/1240829,2015-06-22
+1464035,1464035,Fix Released,MySQL with Galera in OpenStack High Availability Guide Documentation Updates,https://bugs.launchpad.net/openstack-manuals/+bug/1464035,2015-06-20

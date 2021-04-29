@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1300524,1300524,Fix Released,can't upload depends cookbooks,https://bugs.launchpad.net/openstack-chef/+bug/1300524,2014-07-28
+1300320,1300320,Fix Released,[Orchestration] Icehouse defaults have changed,https://bugs.launchpad.net/openstack-chef/+bug/1300320,2014-07-28
+1300080,1300080,Fix Released,hypervisor_inspector was not configured for ceilometer,https://bugs.launchpad.net/openstack-chef/+bug/1300080,2014-07-28
+1293814,1293814,Fix Released,[dashboard] Does not support using a sqlite database backend,https://bugs.launchpad.net/openstack-chef/+bug/1293814,2014-07-28
+1286582,1286582,Fix Released,live_migration_flag missing in nova.conf,https://bugs.launchpad.net/openstack-chef/+bug/1286582,2014-07-28
+1266456,1266456,Fix Released,[compute] Support new libvirt configuration group,https://bugs.launchpad.net/openstack-chef/+bug/1266456,2014-07-28
+1325754,1325754,Fix Released,veth_mtu not settable,https://bugs.launchpad.net/openstack-chef/+bug/1325754,2014-07-28
+1317646,1317646,Fix Released,[orchestration] Unable to configure separate endpoint and bind addresses,https://bugs.launchpad.net/openstack-chef/+bug/1317646,2014-07-28
+1317493,1317493,Fix Released,glance-manage runs as root,https://bugs.launchpad.net/openstack-chef/+bug/1317493,2014-07-28
+1313814,1313814,Fix Released,heat conf out of sync with common changes,https://bugs.launchpad.net/openstack-chef/+bug/1313814,2014-07-28
+1309123,1309123,Fix Released,Endpoint orchestration-api-cfn not registered,https://bugs.launchpad.net/openstack-chef/+bug/1309123,2014-07-28
+1307587,1307587,Fix Released,[network] data network openvswitch bridge is not created,https://bugs.launchpad.net/openstack-chef/+bug/1307587,2014-07-28
+1306806,1306806,Fix Released,[compute] $state_path in instances path attribute fails on directory resource,https://bugs.launchpad.net/openstack-chef/+bug/1306806,2014-07-28
+1300076,1300076,Fix Released,Most Neutron agents don't restart on neutron.conf changes.,https://bugs.launchpad.net/openstack-chef/+bug/1300076,2014-07-28
+1299157,1299157,Fix Released,[network] neutron-db-manage fails with icehouse stamp,https://bugs.launchpad.net/openstack-chef/+bug/1299157,2014-07-28
+1316732,1316732,Fix Released,Keystone is not registering any tenants when using Vagrantfiles,https://bugs.launchpad.net/openstack-chef/+bug/1316732,2014-07-28
+1316236,1316236,Fix Released,openrc  resource actions skipped,https://bugs.launchpad.net/openstack-chef/+bug/1316236,2014-07-28
+1311823,1311823,Fix Released,Importing image hangs when QPID notifications are enabled,https://bugs.launchpad.net/openstack-chef/+bug/1311823,2014-07-28
+1311311,1311311,Fix Released,[network] openvswitch agent does not use ml2_conf on redhat,https://bugs.launchpad.net/openstack-chef/+bug/1311311,2014-07-28
+1307358,1307358,Fix Released,Glance not pulling in python-anyjson,https://bugs.launchpad.net/openstack-chef/+bug/1307358,2014-07-28
+1306782,1306782,Fix Released,Cinder fails to install due to missing service tenant,https://bugs.launchpad.net/openstack-chef/+bug/1306782,2014-07-28
+1334834,1334834,Fix Committed,[library] qemu-kvm shouldn't be on controller nodes,https://bugs.launchpad.net/fuel/+bug/1334834,2014-07-28
+1340015,1340015,Fix Released,"Remove usage of random uuid, Random choices from unit tests",https://bugs.launchpad.net/rally/+bug/1340015,2014-07-28
+1346928,1346928,Fix Released,[nailgun] VMWare NSX is accessible on cluster created with Neutron/OVS,https://bugs.launchpad.net/fuel/+bug/1346928,2014-07-28
+1346835,1346835,Fix Released,[ui] Wrong hint about vCenter in HA-mode implementation in Fuel UI,https://bugs.launchpad.net/fuel/+bug/1346835,2014-07-28
+1347653,1347653,Fix Released,Networks with Floating IPs cause nova tests to fail,https://bugs.launchpad.net/rally/+bug/1347653,2014-07-28
+1348520,1348520,Fix Released,Wrong comments in rally/deploy/engines/existing.py,https://bugs.launchpad.net/rally/+bug/1348520,2014-07-28
+1346885,1346885,Fix Released,Rally doesn't cleanup after running create_and_list_routers scenario,https://bugs.launchpad.net/rally/+bug/1346885,2014-07-28
+1348181,1348181,Fix Committed,[library] HAproxy is not working if management IP is on another node,https://bugs.launchpad.net/fuel/+bug/1348181,2014-07-28
+1342946,1342946,Fix Released,Overuse of conjunctions - Chapter 45. Forensics and incident response in OpenStack Security Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1342946,2014-07-28
+1343355,1343355,Fix Committed,Cover Mellanox Changes in deployment serializers with unit tests,https://bugs.launchpad.net/fuel/+bug/1343355,2014-07-28
+1348863,1348863,Fix Committed,galeracheck uses xinetd::service but xinetd is not declared,https://bugs.launchpad.net/fuel/+bug/1348863,2014-07-28
+1319392,1319392,Fix Committed,[nailgun] Deadlocks in Nailgun,https://bugs.launchpad.net/fuel/+bug/1319392,2014-07-28
+1346304,1346304,Fix Committed,Timeout error in Ubuntu controller puppet log in case of iSER,https://bugs.launchpad.net/fuel/+bug/1346304,2014-07-28
+1331916,1331916,Fix Released,Status would never change from DELETE_IN_PROGRESS when instance deletion fails while deleting a stack,https://bugs.launchpad.net/heat/+bug/1331916,2014-07-28
+1327919,1327919,Fix Released,Verification values are hard coded in /tempest/api/orchestration/,https://bugs.launchpad.net/tempest/+bug/1327919,2014-07-28
+1347755,1347755,Fix Released,[Fuel-CI] Jenkins worker nodes require environment update,https://bugs.launchpad.net/fuel/+bug/1347755,2014-07-28
+1335891,1335891,Fix Released,Glance meters aren't work,https://bugs.launchpad.net/fuel/+bug/1335891,2014-07-28
+1303675,1303675,Fix Committed,[nailgun] Presentation of 'agent' logs with level 'warning' hangs,https://bugs.launchpad.net/fuel/+bug/1303675,2014-07-28
+1346757,1346757,Fix Released,"Assertion check for ""tempest.api.image.v2.test_images.BasicOperationsImagesTest.test_delete_imagetest"" test is not correct",https://bugs.launchpad.net/tempest/+bug/1346757,2014-07-28
+1341819,1341819,Fix Released,Compliance Overview chapter additions,https://bugs.launchpad.net/openstack-manuals/+bug/1341819,2014-07-28
+1342324,1342324,Fix Released,Chapter 13. Introduction to SSL/TLS in OpenStack Security Guide  - current -  simplify sentence,https://bugs.launchpad.net/openstack-manuals/+bug/1342324,2014-07-28
+1308592,1308592,Fix Committed,[nailgun] ensure os vg group single disk usage on ubuntu,https://bugs.launchpad.net/fuel/+bug/1308592,2014-07-28
+1333181,1333181,Fix Released,Incorrect type for response headers,https://bugs.launchpad.net/openstack-api-site/+bug/1333181,2014-07-28
+1342750,1342750,Fix Released,"GET on Object Storage API container has ""name of the container"" but it's name of object",https://bugs.launchpad.net/openstack-api-site/+bug/1342750,2014-07-28
+1344309,1344309,Fix Released,Security Guide - Chapter 43. Image Creation Process says 'secure' when it means 'verifiable',https://bugs.launchpad.net/openstack-manuals/+bug/1344309,2014-07-28
+1348898,1348898,Fix Released,Appendix B. Building the Training Cluster in OpenStack Training Guides,https://bugs.launchpad.net/openstack-manuals/+bug/1348898,2014-07-27
+1348978,1348978,Fix Released,Change needed to admin token part of Install the Identity Service in OpenStack Installation Guide for Ubuntu 12.04/14.04 (LTS)  - icehouse,https://bugs.launchpad.net/openstack-manuals/+bug/1348978,2014-07-27
+1335953,1335953,Fix Released,"grenade does not set SERVICE_PROTOCOL, others",https://bugs.launchpad.net/devstack/+bug/1335953,2014-07-26
+1342541,1342541,Fix Released,[iso] ISO build fails with the latest docker,https://bugs.launchpad.net/fuel/+bug/1342541,2014-07-26
+1322139,1322139,Fix Released,VXLAN kernel requirement check for openvswitch agent is not working,https://bugs.launchpad.net/neutron/+bug/1322139,2014-07-25
+1224163,1224163,Fix Released,neutron.firewall document properties,https://bugs.launchpad.net/heat/+bug/1224163,2014-07-25
+1342940,1342940,Fix Released,BellLaPadula or Bell–LaPadula? Chapter 40. Hypervisor selection in OpenStack Security Guide  - current,https://bugs.launchpad.net/openstack-manuals/+bug/1342940,2014-07-25
+1341634,1341634,Fix Released,Possible race in wait_for_hypervisor_stats,https://bugs.launchpad.net/tripleo/+bug/1341634,2014-07-25
+1339532,1339532,Fix Released,nova hypervisor stats not updated on time,https://bugs.launchpad.net/tripleo/+bug/1339532,2014-07-25
+1340382,1340382,Fix Released,Remains from previous tests cause current test to fail,https://bugs.launchpad.net/tempest/+bug/1340382,2014-07-25
+1320629,1320629,Fix Released,The --variable option is redundant,https://bugs.launchpad.net/python-cliff/+bug/1320629,2014-07-25
+1317525,1317525,Fix Committed,dhcpchecker does not always receive message from dhcp relay,https://bugs.launchpad.net/fuel/+bug/1317525,2014-07-25
+1344322,1344322,Fix Released,"Security Guide Chapter 43. Wording, Recommendations, and Hyphens",https://bugs.launchpad.net/openstack-manuals/+bug/1344322,2014-07-25
+1347007,1347007,Fix Committed,Pacemaker cannot assemble Galera Cluster on Ubuntu,https://bugs.launchpad.net/fuel/+bug/1347007,2014-07-25
+1337823,1337823,Fix Committed,[upgrade] Single OSTF can't be used for different OpensTack releases,https://bugs.launchpad.net/fuel/+bug/1337823,2014-07-25
+1334528,1334528,Fix Committed,[nailgun] Nailgun tests fail because of the missing 'fixtures' dep,https://bugs.launchpad.net/fuel/+bug/1334528,2014-07-25
+1342138,1342138,Fix Released,it does not distinguish soft-reboot and hard-reboot,https://bugs.launchpad.net/rally/+bug/1342138,2014-07-25
+1347957,1347957,Fix Released,self-signed cert validation from env variable fails in 0.10,https://bugs.launchpad.net/python-keystoneclient/+bug/1347957,2014-07-25
+1205178,1205178,Fix Released,Nexenta Driver fails when defining multiple backends,https://bugs.launchpad.net/cinder/+bug/1205178,2014-07-24
+1198831,1198831,Fix Released,Compute service wrong report disk usage when  libvirt_images_type is LVM,https://bugs.launchpad.net/nova/+bug/1198831,2014-07-24
+1094134,1094134,Fix Released,When using LVM backed images the audit 'Total Disk' reports for system drive,https://bugs.launchpad.net/nova/+bug/1094134,2014-07-24
+1266619,1266619,Fix Released,i18n is broken in docker_container.py,https://bugs.launchpad.net/heat/+bug/1266619,2014-07-24
+1335149,1335149,Fix Committed,"[library] Neutron is deployed with core plugin alias, which is not supported by neutron-db-manage yet",https://bugs.launchpad.net/fuel/+bug/1335149,2014-07-24
+1336222,1336222,Fix Committed,on redhat openstack-nova-compute  does not  accept options from /etc/sysconfig/,https://bugs.launchpad.net/fuel/+bug/1336222,2014-07-24
+1336810,1336810,Fix Committed,Need to setup production oriented values for metadata params,https://bugs.launchpad.net/fuel/+bug/1336810,2014-07-24
+1341566,1341566,Fix Committed,Ubuntu local mirror building is unoptimal,https://bugs.launchpad.net/fuel/+bug/1341566,2014-07-24
+1337288,1337288,Fix Committed,iso build should fail when docker build fails,https://bugs.launchpad.net/fuel/+bug/1337288,2014-07-24
+1342075,1342075,Fix Committed,[library] Fix cobbler manifests to skip iptables in docker mode,https://bugs.launchpad.net/fuel/+bug/1342075,2014-07-24
+1316127,1316127,Fix Released,OSTF must be allowed if deployment failed,https://bugs.launchpad.net/fuel/+bug/1316127,2014-07-24

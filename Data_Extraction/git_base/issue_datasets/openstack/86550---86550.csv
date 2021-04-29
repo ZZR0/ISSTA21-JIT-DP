@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1168988,1168988,Fix Released,locals() used in string substitution,https://bugs.launchpad.net/neutron/+bug/1168988,2013-10-17
+1152368,1152368,Fix Released,Hyper-V driver fails to boot instance if root.vhd already exists,https://bugs.launchpad.net/nova/+bug/1152368,2013-10-17
+1150499,1150499,Fix Released,Make services api extension work in cells,https://bugs.launchpad.net/nova/+bug/1150499,2013-10-17
+1166706,1166706,Fix Released,Deprecated message about DEFAULT.root_heloper should suggest a solution,https://bugs.launchpad.net/neutron/+bug/1166706,2013-10-17
+1166400,1166400,Fix Released,lbaas: delete_pool_health_monitor not implemented,https://bugs.launchpad.net/neutron/+bug/1166400,2013-10-17
+1113181,1113181,Fix Released,Multiple tests are failing on RHEL6.3,https://bugs.launchpad.net/nova/+bug/1113181,2013-10-17
+1166365,1166365,Fix Released,lbaas: update operations should protect themselves like update_vip does,https://bugs.launchpad.net/neutron/+bug/1166365,2013-10-17
+1112659,1112659,Fix Released,Make nova.virt.netutils.get_injected_network_template use the current network model,https://bugs.launchpad.net/nova/+bug/1112659,2013-10-17
+1166307,1166307,Fix Released,Nicira NVP plugin path is unnecessarily long,https://bugs.launchpad.net/neutron/+bug/1166307,2013-10-17
+1172297,1172297,Fix Released,Can use volume_id in nova.volume.cinder.API to reduce roundtrips with Cinder,https://bugs.launchpad.net/nova/+bug/1172297,2013-10-17
+1165989,1165989,Fix Released,L3NatExtenstion.setup invokes superclass twice,https://bugs.launchpad.net/neutron/+bug/1165989,2013-10-17
+1161506,1161506,Fix Released,Correctly handle an empty dnsmasq --domain,https://bugs.launchpad.net/nova/+bug/1161506,2013-10-17
+1112998,1112998,Fix Released,Attach volume via Nova API != Attach volume via Cinder API,https://bugs.launchpad.net/nova/+bug/1112998,2013-10-17
+1164154,1164154,Fix Released,missing security group quota settings in quantum.conf,https://bugs.launchpad.net/neutron/+bug/1164154,2013-10-17
+1096821,1096821,Fix Released,nova ec2-api: tags related calls do not work,https://bugs.launchpad.net/nova/+bug/1096821,2013-10-17
+1161413,1161413,Fix Released,tox -ecover does not work in Quantum,https://bugs.launchpad.net/neutron/+bug/1161413,2013-10-17
+1042215,1042215,Fix Released,Add unit testing coverage for nova.volume.cinder.API,https://bugs.launchpad.net/nova/+bug/1042215,2013-10-17
+1161124,1161124,Fix Released,quantum-ns-metadata-proxy log file name should have a '-' before the router_id,https://bugs.launchpad.net/neutron/+bug/1161124,2013-10-17
+1013893,1013893,Fix Released,firewall blocking policy is hard coded to DROP,https://bugs.launchpad.net/nova/+bug/1013893,2013-10-17
+1159925,1159925,Fix Released,missing args to nexc.NECDBException,https://bugs.launchpad.net/neutron/+bug/1159925,2013-10-17
+1159922,1159922,Fix Released,missing kwargs for l3.FloatingIPPortAlreadyAssociated,https://bugs.launchpad.net/neutron/+bug/1159922,2013-10-17
+1159856,1159856,Fix Released,Unclear exception message in L3 agent,https://bugs.launchpad.net/neutron/+bug/1159856,2013-10-17
+1184641,1184641,Fix Released,metadata service throws error 500 when compute_driver is not set,https://bugs.launchpad.net/nova/+bug/1184641,2013-10-17
+1158589,1158589,Fix Released,ip netns exec <netns> kill <pid> doesn't make sense,https://bugs.launchpad.net/neutron/+bug/1158589,2013-10-17
+1182867,1182867,Fix Released,stack trace when instance_actions extension can not find instance in GET,https://bugs.launchpad.net/nova/+bug/1182867,2013-10-17
+1158235,1158235,Fix Released,configuration of QueuePool not possible,https://bugs.launchpad.net/neutron/+bug/1158235,2013-10-17
+1158049,1158049,Fix Released,The LBaaS API gave the internal error when creating VIP for the pool with existing Vip,https://bugs.launchpad.net/neutron/+bug/1158049,2013-10-17
+1180973,1180973,Fix Released,EC2 API throws stacktrace if adding security group rule that already exists,https://bugs.launchpad.net/nova/+bug/1180973,2013-10-17
+1157094,1157094,Fix Released,unittest error when running loadbalancer tests separately,https://bugs.launchpad.net/neutron/+bug/1157094,2013-10-17
+1178543,1178543,Fix Released,"No need to add ""#!/usr/bin/env python"" for all .py files under nova/cmd",https://bugs.launchpad.net/nova/+bug/1178543,2013-10-17
+1156696,1156696,Fix Released,Can't run quantum.tests.unit.test_dhcp_agent.TestDhcpAgentEventHandler solely,https://bugs.launchpad.net/neutron/+bug/1156696,2013-10-17
+1177802,1177802,Fix Released,Some nova.tests.integrated.test_api_samples.Hypervisors* tests fail when run as single test,https://bugs.launchpad.net/nova/+bug/1177802,2013-10-17
+1177413,1177413,Fix Released,evacuate should not hard code admin authorisation check,https://bugs.launchpad.net/nova/+bug/1177413,2013-10-17
+1155667,1155667,Fix Released,Quantum Manager needs synchronization,https://bugs.launchpad.net/neutron/+bug/1155667,2013-10-17
+1176173,1176173,Fix Released,Architecture property updated twice during snapshot,https://bugs.launchpad.net/nova/+bug/1176173,2013-10-17
+1155051,1155051,Fix Released,NVP metadata support creates too many elevated contexts,https://bugs.launchpad.net/neutron/+bug/1155051,2013-10-17
+1175683,1175683,Fix Released,Syntax error in server create request body should return 400 code,https://bugs.launchpad.net/nova/+bug/1175683,2013-10-17
+1175357,1175357,Fix Released,Don't swallow missing SR error,https://bugs.launchpad.net/nova/+bug/1175357,2013-10-17
+1174199,1174199,Fix Released,VMware Hyper snapshot image missing some properties,https://bugs.launchpad.net/nova/+bug/1174199,2013-10-17
+1151806,1151806,Fix Released,rpc_backend not stubed in test_lb_quantum_agent stalls,https://bugs.launchpad.net/neutron/+bug/1151806,2013-10-17
+1173303,1173303,Fix Released,Key error thrown when create lpar instance failed,https://bugs.launchpad.net/nova/+bug/1173303,2013-10-17
+1172486,1172486,Fix Released,volume attach fails without systool installed,https://bugs.launchpad.net/nova/+bug/1172486,2013-10-17
+1172153,1172153,Fix Released,soft_delete instance_type_projects in instance_type_destroy,https://bugs.launchpad.net/nova/+bug/1172153,2013-10-17
+1123114,1123114,Fix Released,Loadbalancing: Missing validation in Vip creation,https://bugs.launchpad.net/neutron/+bug/1123114,2013-10-17
+1185152,1185152,Fix Released,update_port() does not update_port model in transaction,https://bugs.launchpad.net/neutron/+bug/1185152,2013-10-17
+1169982,1169982,Fix Released,Compute manager resize operations make unnecessary full usage audits,https://bugs.launchpad.net/nova/+bug/1169982,2013-10-17
+1183734,1183734,Fix Released,Missed the conversion specifier in the message definition,https://bugs.launchpad.net/neutron/+bug/1183734,2013-10-17
+1169097,1169097,Fix Released,Volume IO usage gets reset to 0 after a reboot / crash,https://bugs.launchpad.net/nova/+bug/1169097,2013-10-17
+1183614,1183614,Fix Released,Namespace metadata proxy runs without logging in devstack by default,https://bugs.launchpad.net/neutron/+bug/1183614,2013-10-17
+1183277,1183277,Fix Released,nicira network-gateway extension should list also gw connections,https://bugs.launchpad.net/neutron/+bug/1183277,2013-10-17
+1157521,1157521,Fix Released,Fix SecurityGroups XML sample tests,https://bugs.launchpad.net/nova/+bug/1157521,2013-10-17
+1157408,1157408,Fix Released,required skip detach_volume in test_compute_cells,https://bugs.launchpad.net/nova/+bug/1157408,2013-10-17
+1157389,1157389,Fix Released,xenapi: console for rescue vm is broken,https://bugs.launchpad.net/nova/+bug/1157389,2013-10-17
+1157222,1157222,Fix Released,Missing sample tests for SecurityGroups API actions,https://bugs.launchpad.net/nova/+bug/1157222,2013-10-17
+1157211,1157211,Fix Released,XenAPI depends on /sys/hypervisor/uuid - not readable across reboot,https://bugs.launchpad.net/nova/+bug/1157211,2013-10-17
+1156684,1156684,Fix Released,Modify _verify_response to check for response codes,https://bugs.launchpad.net/nova/+bug/1156684,2013-10-17
+1156269,1156269,Fix Released,Evacuated instance disk not deleted for non shared storage,https://bugs.launchpad.net/nova/+bug/1156269,2013-10-17
+1155066,1155066,Fix Released,xenapi: resize to size too small for disk fails badly,https://bugs.launchpad.net/nova/+bug/1155066,2013-10-17
+1176963,1176963,Fix Released,nicira plugin: metadata access network management makes unnecessary calls to backend,https://bugs.launchpad.net/neutron/+bug/1176963,2013-10-17
+1154731,1154731,Fix Released,xenserver boot from iso broken,https://bugs.launchpad.net/nova/+bug/1154731,2013-10-17
+1176227,1176227,Fix Released,Make endpoint_type configurable for the metadata agent,https://bugs.launchpad.net/neutron/+bug/1176227,2013-10-17
+1153087,1153087,Fix Released,live_migration() rpc call is dropped in cells,https://bugs.launchpad.net/nova/+bug/1153087,2013-10-17
+1175060,1175060,Fix Released,MTU for interface is configured as string and not integer,https://bugs.launchpad.net/neutron/+bug/1175060,2013-10-17
+1152475,1152475,Fix Released,nova-api coverage data contains other services' data after a combined report,https://bugs.launchpad.net/nova/+bug/1152475,2013-10-17
+1173284,1173284,Fix Released,quantum remote-router-interface should not return a 'null' body,https://bugs.launchpad.net/neutron/+bug/1173284,2013-10-17
+1145216,1145216,Fix Released,Race condition in db floating_ip_create and floating_ip_bulk_create,https://bugs.launchpad.net/nova/+bug/1145216,2013-10-17
+1172006,1172006,Fix Released,update-port error if port does not exist in nvp,https://bugs.launchpad.net/neutron/+bug/1172006,2013-10-17
+1107721,1107721,Fix Released,"while adding/removing security groups to instance, checking power state of instance is not required",https://bugs.launchpad.net/nova/+bug/1107721,2013-10-17
+1098979,1098979,Fix Released,Use timeutils for periodic task timing and testing,https://bugs.launchpad.net/nova/+bug/1098979,2013-10-17
+1171997,1171997,Fix Released,For networks shared beetwen multiple tenants (net-create --shared) there's no 'default' security group,https://bugs.launchpad.net/neutron/+bug/1171997,2013-10-17
+1076285,1076285,Fix Released,i18n issue: each project needs to have an individual domain name,https://bugs.launchpad.net/nova/+bug/1076285,2013-10-17
+1171926,1171926,Fix Released,NVP net-gateway extension fail when invalid parameter supplied,https://bugs.launchpad.net/neutron/+bug/1171926,2013-10-17
+1074904,1074904,Fix Released,EC2 DescribeImages not expected state values,https://bugs.launchpad.net/nova/+bug/1074904,2013-10-17
+1052495,1052495,Fix Released,Confusing error relating to quantum auth configuration,https://bugs.launchpad.net/nova/+bug/1052495,2013-10-17
+1170160,1170160,Fix Released,Incorrect port # for DHCPv6 used in dhcp.py,https://bugs.launchpad.net/neutron/+bug/1170160,2013-10-17

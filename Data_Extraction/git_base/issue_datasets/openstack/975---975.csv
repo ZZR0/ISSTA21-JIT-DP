@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1892353,1892353,Fix Released,Miscellaneous doc errors in Manual Installation.,https://bugs.launchpad.net/tacker/+bug/1892353,2020-09-14
+1893811,1893811,Fix Released,s3api should return more-useful error message when quotas are exceeded,https://bugs.launchpad.net/swift/+bug/1893811,2020-09-13
+1891121,1891121,Fix Released,Doc: Old link present in Tacker Ocata Specs,https://bugs.launchpad.net/tacker/+bug/1891121,2020-09-12
+1891010,1891010,Fix Released,Doc: Old link in  Tacker Queens Specs,https://bugs.launchpad.net/tacker/+bug/1891010,2020-09-12
+1894724,1894724,Fix Released,Use the correct attachment id for multiattach,https://bugs.launchpad.net/tempest/+bug/1894724,2020-09-12
+1893766,1893766,Fix Released,vxlan-gpe: lisp/one l2 arp entry fails to delete,https://bugs.launchpad.net/networking-vpp/+bug/1893766,2020-09-12
+1893201,1893201,Fix Released,vxlan-gpe: agent does not create the remote l2 arp entries at times,https://bugs.launchpad.net/networking-vpp/+bug/1893201,2020-09-12
+1892766,1892766,Fix Released,vxlan-gpe: packet drop due to incorrect lisp local eid,https://bugs.launchpad.net/networking-vpp/+bug/1892766,2020-09-12
+1892862,1892862,Fix Released,vxlan-gpe: agent fails to delete lisp remote eid mapping,https://bugs.launchpad.net/networking-vpp/+bug/1892862,2020-09-12
+1892762,1892762,Fix Released,vxlan-gpe: no data flow across compute nodes due to incorrect l2 arp entries,https://bugs.launchpad.net/networking-vpp/+bug/1892762,2020-09-12
+1892700,1892700,Fix Released,vxlan-gpe: lisp arp entry cleanup fails,https://bugs.launchpad.net/networking-vpp/+bug/1892700,2020-09-12
+1892749,1892749,Fix Released,vxlan-gpe: agent crashes upon restart due to lisp_add_del_local_eid API call failure,https://bugs.launchpad.net/networking-vpp/+bug/1892749,2020-09-12
+1882664,1882664,Fix Released,error: unpacking of archive failed on file /usr/share/ansible/plugins/modules/pacemaker_cluster.py;5eded785: cpio: open failed - Inappropriate ioctl for device,https://bugs.launchpad.net/tripleo/+bug/1882664,2020-09-11
+1770109,1770109,Fix Released,Prevent updating derived_parameters in plan environment,https://bugs.launchpad.net/tripleo/+bug/1770109,2020-09-11
+1884996,1884996,Fix Released,default value for all_stores_must_succeed is not stated,https://bugs.launchpad.net/glance/+bug/1884996,2020-09-11
+1893487,1893487,Fix Released,Race condition during network deletion,https://bugs.launchpad.net/tempest/+bug/1893487,2020-09-11
+1895027,1895027,Fix Released,scen12 standalone -  Evaluation Error: Unknown function: 'warn',https://bugs.launchpad.net/tripleo/+bug/1895027,2020-09-11
+1880057,1880057,Fix Released,An erroneous grammar in explanatory notes in nova,https://bugs.launchpad.net/nova/+bug/1880057,2020-09-11
+1893284,1893284,Fix Released,Per-user quotas not scoped correctly when creating a server,https://bugs.launchpad.net/nova/+bug/1893284,2020-09-11
+1780139,1780139,Fix Released,Sending SIGHUP to neutron-server process causes it to hang,https://bugs.launchpad.net/neutron/+bug/1780139,2020-09-11
+1895253,1895253,Fix Released,test bug report,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1895253,2020-09-11
+1859137,1859137,Fix Released,Possible DoS via dbus socket available in containers,https://bugs.launchpad.net/tripleo/+bug/1859137,2020-09-11
+1850818,1850818,Fix Released,[RFE][floatingip port_forwarding] Add description field,https://bugs.launchpad.net/neutron/+bug/1850818,2020-09-11
+1894072,1894072,Fix Released,Capacity based quality of service in cinder,https://bugs.launchpad.net/cinder/+bug/1894072,2020-09-10
+1895063,1895063,Fix Released,Allow rescue volume backed instance,https://bugs.launchpad.net/nova/+bug/1895063,2020-09-10
+1742936,1742936,Fix Committed,TestBootVolumePattern is failing in multinode jobs,https://bugs.launchpad.net/tripleo/+bug/1742936,2020-09-10
+1744359,1744359,Fix Released,Neutron haproxy logs are not being collected,https://bugs.launchpad.net/neutron/+bug/1744359,2020-09-10
+1744907,1744907,Fix Committed,"Tempest test: ""test_create_second_image_when_first_image_is_being_saved"" failing in featureset020 periodic job",https://bugs.launchpad.net/tripleo/+bug/1744907,2020-09-10
+1740698,1740698,Fix Committed,OVN: tempest fails on floating-ip,https://bugs.launchpad.net/tripleo/+bug/1740698,2020-09-10
+1710874,1710874,Fix Released,tacker requires conductor service in pike,https://bugs.launchpad.net/kolla/+bug/1710874,2020-09-10
+1710874,1710874,Fix Released,tacker requires conductor service in pike,https://bugs.launchpad.net/kolla-ansible/+bug/1710874,2020-09-10
+1865525,1865525,Fix Committed,update tripleo project zuul.d/layout for centos-8,https://bugs.launchpad.net/tripleo/+bug/1865525,2020-09-10
+1817705,1817705,Fix Committed,periodic-tripleo-ci-centos-7-ovb-1ctlr_1comp-featureset020-master fails tempest test related to DHCP agent,https://bugs.launchpad.net/tripleo/+bug/1817705,2020-09-10
+1873770,1873770,Fix Committed,OVB fs001 in centos8 master fails to push certificates contents to controllers,https://bugs.launchpad.net/tripleo/+bug/1873770,2020-09-10
+1894941,1894941,Fix Released,opercloud-prep-flavors failing post moving to novaless undercloud by default,https://bugs.launchpad.net/tripleo/+bug/1894941,2020-09-10
+1885642,1885642,Fix Committed,tripleo-ci-centos-7-scenario000-multinode-oooq-container-upgrades queens fails on pip install    contextlib2 between 0.5 < 0.6 when queens,https://bugs.launchpad.net/tripleo/+bug/1885642,2020-09-10
+1886555,1886555,Fix Committed,"""msg"": ""The conditional check 'registry_login_podman is defined and registry_login_podman.results.0.rc != 0' failed.",https://bugs.launchpad.net/tripleo/+bug/1886555,2020-09-10
+1894126,1894126,Fix Released,ec2-api container is not built via tripleo,https://bugs.launchpad.net/tripleo/+bug/1894126,2020-09-10
+1888700,1888700,Fix Committed,image build jobs are not using upstream proxy servers,https://bugs.launchpad.net/tripleo/+bug/1888700,2020-09-10
+1888821,1888821,Fix Committed,Some tasks are still using yum instead of dnf making the command always fail.,https://bugs.launchpad.net/tripleo/+bug/1888821,2020-09-10
+1892326,1892326,Fix Released,Jobs failing with RETRY_LIMIT with primary | /bin/sh: line 1: git: command not found at prepare-workspace-git : Clone cached repo to workspace,https://bugs.launchpad.net/tripleo/+bug/1892326,2020-09-10
+1705045,1705045,Fix Released,[DOC] Enable IPv6 in manila (allow access),https://bugs.launchpad.net/manila/+bug/1705045,2020-09-10
+1579664,1579664,Fix Released,"Nova-compute raise exception when vcpu_pin_set is set to None or"""".",https://bugs.launchpad.net/nova/+bug/1579664,2020-09-10
+1887159,1887159,Fix Released,centos8 standalone-upgrade ussuri fails Error: cluster is not configured,https://bugs.launchpad.net/tripleo/+bug/1887159,2020-09-10
+1894882,1894882,Fix Committed,molecule tests in tripleo-validations fail,https://bugs.launchpad.net/tripleo-validations/+bug/1894882,2020-09-10
+1832866,1832866,Fix Released,Cannot deploy Octavia on existing Rocky installation,https://bugs.launchpad.net/tripleo/+bug/1832866,2020-09-10
+1894984,1894984,Fix Released,puppet-openstack-unit-6.14-centos-8 failes because of duplicated selinux_core in Puppetfile,https://bugs.launchpad.net/tripleo/+bug/1894984,2020-09-09
+1866393,1866393,Fix Released,VLAN creation failed due to bridge_name not substituted,https://bugs.launchpad.net/tripleo/+bug/1866393,2020-09-09
+1652375,1652375,Fix Released,[DOC]Add create_share_from_snapshot_support extra spec,https://bugs.launchpad.net/manila/+bug/1652375,2020-09-09
+1445591,1445591,Fix Released,Edit Instance security group dialog isn't wide enough for translation,https://bugs.launchpad.net/horizon/+bug/1445591,2020-09-09
+1888487,1888487,Fix Released,"Change the default value of ""propagate_uplink_status"" to True",https://bugs.launchpad.net/neutron/+bug/1888487,2020-09-09
+1894844,1894844,Fix Released,volume backup response schema incorrect,https://bugs.launchpad.net/tempest/+bug/1894844,2020-09-09
+1886296,1886296,Fix Released,pyflakes till 2.1.0 not compatible with py3.8 (ubuntu focal),https://bugs.launchpad.net/mistral/+bug/1886296,2020-09-09
+1855929,1855929,Fix Released,undercloud needs to optionally support nova-metadata-api,https://bugs.launchpad.net/tripleo/+bug/1855929,2020-09-08
+1864557,1864557,Fix Released,baremetal provisioning infinite loop,https://bugs.launchpad.net/tripleo/+bug/1864557,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-manila/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-cinder/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-sahara/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-gnocchi/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-aodh/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-glance/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-barbican/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-swift/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-mistral/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-neutron/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-keystone/+bug/1806790,2020-09-08
+1806790,1806790,Fix Released,lint error,https://bugs.launchpad.net/puppet-heat/+bug/1806790,2020-09-08
+1886949,1886949,Fix Released,[RFE] Granular metering data in neutron-metering-agent,https://bugs.launchpad.net/neutron/+bug/1886949,2020-09-08
+1759971,1759971,Fix Released,[dvr][fast-exit] a route to a tenant network does not get created in fip namespace if an external network is attached after a tenant network have been attached (race condition),https://bugs.launchpad.net/neutron/+bug/1759971,2020-09-08
+1750777,1750777,Fix Released,"openvswitch agent eating CPU, time spent in ip_conntrack.py",https://bugs.launchpad.net/neutron/+bug/1750777,2020-09-08
+1892990,1892990,Fix Released,LAUNCH_INSTANCE_DEFAULTS does not work,https://bugs.launchpad.net/horizon/+bug/1892990,2020-09-08
+1762089,1762089,Fix Released,Wrong title on Angular index page,https://bugs.launchpad.net/horizon/+bug/1762089,2020-09-08
+1887799,1887799,Fix Released,interface metadata is not regenerated after interface detach,https://bugs.launchpad.net/nova/+bug/1887799,2020-09-08
+1894664,1894664,Fix Released,[train] containers and containers-multinode jobs failing with container not found,https://bugs.launchpad.net/tripleo/+bug/1894664,2020-09-08
+1618666,1618666,Fix Released,deprecated warning for SafeConfigParser,https://bugs.launchpad.net/glance-store/+bug/1618666,2020-09-08

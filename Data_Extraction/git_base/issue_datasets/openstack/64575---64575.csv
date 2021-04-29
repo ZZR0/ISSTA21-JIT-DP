@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1414107,1414107,Fix Released,Ability to send a list of servers for SSH action,https://bugs.launchpad.net/mistral/+bug/1414107,2015-05-07
+1435717,1435717,Fix Released,[log] 'task_id' is absent in part of info messages in mistral logs,https://bugs.launchpad.net/mistral/+bug/1435717,2015-05-07
+1442102,1442102,Fix Released,'with-items' does not support order of results,https://bugs.launchpad.net/mistral/+bug/1442102,2015-05-07
+1441009,1441009,Fix Released,Usage of 'target' element in task should be documented,https://bugs.launchpad.net/mistral/+bug/1441009,2015-05-07
+1439660,1439660,Fix Released,Occasionally we see in logs strange error - DetachedInstanceError,https://bugs.launchpad.net/mistral/+bug/1439660,2015-05-07
+1439625,1439625,Fix Released,'with-items' raises error when it gets empty list,https://bugs.launchpad.net/mistral/+bug/1439625,2015-05-07
+1436382,1436382,Fix Released,"Mistral doesn't assign tags to wf, if wf was create as part of wb",https://bugs.launchpad.net/mistral/+bug/1436382,2015-05-07
+1414108,1414108,Fix Released,Ability to send a list of servers for SSH action,https://bugs.launchpad.net/mistral/+bug/1414108,2015-05-07
+1443654,1443654,Fix Released,setup_app() got an unexpected keyword argument 'transport' when using wsgi script,https://bugs.launchpad.net/mistral/+bug/1443654,2015-05-07
+1442604,1442604,Fix Released,API sends 500 error in case of error in Engine,https://bugs.launchpad.net/mistral/+bug/1442604,2015-05-07
+1440110,1440110,Fix Released,Action-execution API does not provide 'output',https://bugs.launchpad.net/mistral/+bug/1440110,2015-05-07
+1440066,1440066,Fix Released,'With-items' doesn't recognize plain list input,https://bugs.launchpad.net/mistral/+bug/1440066,2015-05-07
+1438101,1438101,Fix Released,We need to use big type such as LongText in output,https://bugs.launchpad.net/mistral/+bug/1438101,2015-05-07
+1436364,1436364,Fix Released,Public task API doesn't provide 'published vars',https://bugs.launchpad.net/mistral/+bug/1436364,2015-05-07
+1426258,1426258,Fix Released,action under with-items doesn't take non-array parameters,https://bugs.launchpad.net/mistral/+bug/1426258,2015-05-07
+1428374,1428374,Fix Released,mistral client broken after refactor,https://bugs.launchpad.net/mistral/+bug/1428374,2015-05-07
+1423330,1423330,Fix Released,Eventlet monkey patch in mistral __init__.py conflicts with apache setup,https://bugs.launchpad.net/mistral/+bug/1423330,2015-05-07
+1421167,1421167,Fix Released,Mistral HTTPAction is unable to verify certs for calls to https endpoints,https://bugs.launchpad.net/mistral/+bug/1421167,2015-05-07
+1421090,1421090,Fix Released,wrong project name in run_tests.sh usage,https://bugs.launchpad.net/mistral/+bug/1421090,2015-05-07
+1420806,1420806,Fix Released,Authorization fails with SSL exception connecting to keystone over https,https://bugs.launchpad.net/mistral/+bug/1420806,2015-05-07
+1401688,1401688,Fix Released,API controllers should log at INFO level and not debug.,https://bugs.launchpad.net/mistral/+bug/1401688,2015-05-07
+1396461,1396461,Fix Released,In case of simplified parameter syntax expressions  are not  always evaluated properly,https://bugs.launchpad.net/mistral/+bug/1396461,2015-05-07
+1433231,1433231,Fix Released,Need to fix dsl schema in the standard actions and workflows,https://bugs.launchpad.net/mistral/+bug/1433231,2015-05-07
+1428635,1428635,Fix Released,Engine raises the error 'Delayed call not found',https://bugs.launchpad.net/mistral/+bug/1428635,2015-05-07
+1427933,1427933,Fix Released,upstream tasks calculation is wrong,https://bugs.launchpad.net/mistral/+bug/1427933,2015-05-07
+1426249,1426249,Fix Released,YAQL is not allowed in policies,https://bugs.launchpad.net/mistral/+bug/1426249,2015-05-07
+1422731,1422731,Fix Released,Incorrect service url formatting in OpenStack actions,https://bugs.launchpad.net/mistral/+bug/1422731,2015-05-07
+1422621,1422621,Fix Released,Task state DELAYED is not taken into account when finishing a workflow,https://bugs.launchpad.net/mistral/+bug/1422621,2015-05-07
+1421169,1421169,Fix Released,Keystone actions don't work: Auth token not in the request header. Will not build auth context,https://bugs.launchpad.net/mistral/+bug/1421169,2015-05-07
+1414821,1414821,Fix Released,Published outputs lost for parallel branches,https://bugs.launchpad.net/mistral/+bug/1414821,2015-05-07
+1412637,1412637,Fix Released,Action Error details lost in Task output,https://bugs.launchpad.net/mistral/+bug/1412637,2015-05-07
+1337705,1337705,Fix Released,Exception during message handling: _oslo_messaging_localcontext,https://bugs.launchpad.net/mistral/+bug/1337705,2015-05-07
+1414921,1414921,Fix Released,posting incorrect workflow/workbook results in 500 server error,https://bugs.launchpad.net/mistral/+bug/1414921,2015-05-07
+1416923,1416923,Fix Released,with-items does not work with actions with action_context,https://bugs.launchpad.net/mistral/+bug/1416923,2015-05-07
+1415886,1415886,Fix Released,YAQL raises error if it gets '{some text}' as expression,https://bugs.launchpad.net/mistral/+bug/1415886,2015-05-07
+1415668,1415668,Fix Released,Published outputs cannot be updated,https://bugs.launchpad.net/mistral/+bug/1415668,2015-05-07
+1413124,1413124,Fix Released,"""trust_id"" must be attached to execution or trigger objects",https://bugs.launchpad.net/mistral/+bug/1413124,2015-05-07
+1412635,1412635,Fix Released,Use published variables in 'publish',https://bugs.launchpad.net/mistral/+bug/1412635,2015-05-07
+1404202,1404202,Fix Released,If returned list is empty than Mistral can't publish its length to the context,https://bugs.launchpad.net/mistral/+bug/1404202,2015-05-07
+1322740,1322740,Fix Released,Need a better logging.conf.example,https://bugs.launchpad.net/mistral/+bug/1322740,2015-05-07
+1401391,1401391,Fix Released,"""task-defaults"" does not work for reverse workflow",https://bugs.launchpad.net/mistral/+bug/1401391,2015-05-07
+1401039,1401039,Fix Released,"Input inline syntax does not escape ""="" symbol",https://bugs.launchpad.net/mistral/+bug/1401039,2015-05-07
+1395772,1395772,Fix Released,Application context not found error in trigger tests,https://bugs.launchpad.net/mistral/+bug/1395772,2015-05-07
+1392652,1392652,Fix Released,Need to refactor std.email action,https://bugs.launchpad.net/mistral/+bug/1392652,2015-05-07
+1391118,1391118,Fix Released,Executions and tasks should be sorted by time,https://bugs.launchpad.net/mistral/+bug/1391118,2015-05-07
+1384564,1384564,Fix Released,Need to refactor API integration tests,https://bugs.launchpad.net/mistral/+bug/1384564,2015-05-07
+1383146,1383146,Fix Released,"User can create a few triggers with the same pattern, wf and wf-input",https://bugs.launchpad.net/mistral/+bug/1383146,2015-05-07
+1379159,1379159,Fix Released,"All collections(workflows, actions etc.) returned by endpoints should be sorted by names",https://bugs.launchpad.net/mistral/+bug/1379159,2015-05-07
+1378791,1378791,Fix Released,Need to raise a user-friendly exception if workflow name doesn't match to dictionary,https://bugs.launchpad.net/mistral/+bug/1378791,2015-05-07
+1394037,1394037,Fix Released,task with wrong input is stuck in RUNNING state,https://bugs.launchpad.net/mistral/+bug/1394037,2015-05-07
+1384552,1384552,Fix Released,Executions and tasks are not isolated by tenants,https://bugs.launchpad.net/mistral/+bug/1384552,2015-05-07
+1380873,1380873,Fix Released,'mistral_http' action is broken because it doesn't get 'action_context' parameter,https://bugs.launchpad.net/mistral/+bug/1380873,2015-05-07
+1395679,1395679,Fix Released,Engine race condition between on_task_result and start_workflow/on_task_result,https://bugs.launchpad.net/mistral/+bug/1395679,2015-05-07
+1448971,1448971,Fix Committed,Deadlock in TestActionLogs.test_only_utc_datetime_used,https://bugs.launchpad.net/fuel/+bug/1448971,2015-05-07
+1451397,1451397,Fix Released,Keystone v3 - Add service request body returns 400,https://bugs.launchpad.net/openstack-api-site/+bug/1451397,2015-05-07
+1363615,1363615,Fix Released,Glance Metadata Definitions Catalog - API,https://bugs.launchpad.net/openstack-api-site/+bug/1363615,2015-05-07
+1450182,1450182,Fix Released,[dashboard] update default test certificates to higher ciphers,https://bugs.launchpad.net/openstack-chef/+bug/1450182,2015-05-06
+1443436,1443436,Fix Released,Command line client fails without endpoint,https://bugs.launchpad.net/python-barbicanclient/+bug/1443436,2015-05-06
+1438901,1438901,Fix Released,Can't list orders on the command line,https://bugs.launchpad.net/python-barbicanclient/+bug/1438901,2015-05-06
+1431514,1431514,Fix Released,client shouldn't return http errors directly,https://bugs.launchpad.net/python-barbicanclient/+bug/1431514,2015-05-06
+1441848,1441848,Fix Released,unexpected keyword argument 'sub_status' when getting an order,https://bugs.launchpad.net/python-barbicanclient/+bug/1441848,2015-05-06
+1450648,1450648,Fix Released,No protection against resize down in resize testing,https://bugs.launchpad.net/tempest/+bug/1450648,2015-05-06
+1419699,1419699,Fix Released,All but one of mysql nodes should be backup for HAproxy configuration example,https://bugs.launchpad.net/openstack-manuals/+bug/1419699,2015-05-06
+1450159,1450159,Fix Released,cinder secure_delete is still being referenced,https://bugs.launchpad.net/devstack/+bug/1450159,2015-05-06
+1451363,1451363,Fix Released,[block-storage] LVMISCSIDriver is deprecated,https://bugs.launchpad.net/openstack-chef/+bug/1451363,2015-05-06
+1452260,1452260,Fix Released,[Docs] Fuel Plugins documentation should have link to Certification page at Mirantis website,https://bugs.launchpad.net/fuel/+bug/1452260,2015-05-06
+1253982,1253982,Fix Released,"Inconsistency in internationalization of the button ""Terminate Instances"" in Instances.",https://bugs.launchpad.net/horizon/+bug/1253982,2015-05-06
+1410101,1410101,Fix Released,HA fencing plugin,https://bugs.launchpad.net/fuel/+bug/1410101,2015-05-06
+1421554,1421554,Fix Released,Docs. Spell mistake in reference-architecture.html#switches,https://bugs.launchpad.net/fuel/+bug/1421554,2015-05-06
+1418521,1418521,Fix Released,Add link to Cobbler web UI into documentation.,https://bugs.launchpad.net/fuel/+bug/1418521,2015-05-06
+1411563,1411563,Fix Released,[docs] Incorrect markup in User&Planning Guides for note and ref,https://bugs.launchpad.net/fuel/+bug/1411563,2015-05-06
+1411183,1411183,Fix Released,there is misprint in fuel-dev documentation,https://bugs.launchpad.net/fuel/+bug/1411183,2015-05-06
+1401527,1401527,Fix Released,[docs] Allow to use socket to connect to DB in Nailgun,https://bugs.launchpad.net/fuel/+bug/1401527,2015-05-06
+1396623,1396623,Fix Released,Add option to flush database before/after tests,https://bugs.launchpad.net/fuel/+bug/1396623,2015-05-06
+1384329,1384329,Fix Released,Add 'dbshell' argument to manage.py,https://bugs.launchpad.net/fuel/+bug/1384329,2015-05-06

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1242155,1242155,Fix Released,not all yaml exceptions are caught in template.parser,https://bugs.launchpad.net/heat/+bug/1242155,2014-04-17
+1241826,1241826,Fix Released,bin/heat-manage db_sync doesn't create db,https://bugs.launchpad.net/heat/+bug/1241826,2014-04-17
+1241330,1241330,Fix Released,"Please use ""python -m coverage"" instead of /usr/bin/coverage",https://bugs.launchpad.net/heat/+bug/1241330,2014-04-17
+1240885,1240885,Fix Released,Tags property should be updatable,https://bugs.launchpad.net/heat/+bug/1240885,2014-04-17
+1240583,1240583,Fix Released,Add update_allowed* info to resource docs,https://bugs.launchpad.net/heat/+bug/1240583,2014-04-17
+1237195,1237195,Fix Released,"purge_deleted needs finer granularity than ""days""",https://bugs.launchpad.net/heat/+bug/1237195,2014-04-17
+1237109,1237109,Fix Released,Improve test coverage of restart signal,https://bugs.launchpad.net/heat/+bug/1237109,2014-04-17
+1235496,1235496,Fix Released,DependsOn only supports specifying a single value,https://bugs.launchpad.net/heat/+bug/1235496,2014-04-17
+1234242,1234242,Fix Released,Failure after the update of a suspended stack,https://bugs.launchpad.net/heat/+bug/1234242,2014-04-17
+1232885,1232885,Fix Released,FaultWrapper error mapping ignores parent classes,https://bugs.launchpad.net/heat/+bug/1232885,2014-04-17
+1229825,1229825,Fix Released,Allow overriding instance_user per-server,https://bugs.launchpad.net/heat/+bug/1229825,2014-04-17
+1227962,1227962,Fix Released,Heat unit tests are missing a mock somewhere,https://bugs.launchpad.net/heat/+bug/1227962,2014-04-17
+1227061,1227061,Fix Released,HOT non-obvious validation error,https://bugs.launchpad.net/heat/+bug/1227061,2014-04-17
+1226798,1226798,Fix Released,template guide Ref example is misleading,https://bugs.launchpad.net/heat/+bug/1226798,2014-04-17
+1226106,1226106,Fix Released,Error message for an invalid template,https://bugs.launchpad.net/heat/+bug/1226106,2014-04-17
+1224161,1224161,Fix Released,wait_condition document properties and attributes,https://bugs.launchpad.net/heat/+bug/1224161,2014-04-17
+1224159,1224159,Fix Released,vpc document properties,https://bugs.launchpad.net/heat/+bug/1224159,2014-04-17
+1224151,1224151,Fix Released,subnet document properties,https://bugs.launchpad.net/heat/+bug/1224151,2014-04-17
+1224149,1224149,Fix Released,security_group document properties,https://bugs.launchpad.net/heat/+bug/1224149,2014-04-17
+1224148,1224148,Fix Released,s3 document properties,https://bugs.launchpad.net/heat/+bug/1224148,2014-04-17
+1224147,1224147,Fix Released,route_table document properties,https://bugs.launchpad.net/heat/+bug/1224147,2014-04-17
+1224146,1224146,Fix Released,network_interface document properties,https://bugs.launchpad.net/heat/+bug/1224146,2014-04-17
+1223733,1223733,Fix Released,"OS::Neutron::RouterInterface needs ""port_id"" property",https://bugs.launchpad.net/heat/+bug/1223733,2014-04-17
+1213122,1213122,Fix Released,SSL parameters for clients,https://bugs.launchpad.net/heat/+bug/1213122,2014-04-17
+1191925,1191925,Fix Released,heat-manage raises backtrace when log dir does not exist,https://bugs.launchpad.net/heat/+bug/1191925,2014-04-17
+1072958,1072958,Fix Released,Create a getting started guide for scaling out,https://bugs.launchpad.net/heat/+bug/1072958,2014-04-17
+1252116,1252116,Fix Released,Stack pagination supports sorting by any column in the stack table,https://bugs.launchpad.net/heat/+bug/1252116,2014-04-17
+1251007,1251007,Fix Released,"no autoscaling action occurs for percentage adjustment, depending on initial size & adjustment step size",https://bugs.launchpad.net/heat/+bug/1251007,2014-04-17
+1250638,1250638,Fix Released,OS::Nova::Server metadata (tags) property needs to be UpdateAllowed,https://bugs.launchpad.net/heat/+bug/1250638,2014-04-17
+1250291,1250291,Fix Released,"Server create should never fail, even if resource name exceeds 63 characters",https://bugs.launchpad.net/heat/+bug/1250291,2014-04-17
+1249238,1249238,Fix Released,"Error occurs when Set template ""Resources""  Part use non-english key",https://bugs.launchpad.net/heat/+bug/1249238,2014-04-17
+1247200,1247200,Fix Released,Stacks can get stuck DELETE_COMPLETE,https://bugs.launchpad.net/heat/+bug/1247200,2014-04-17
+1241865,1241865,Fix Released,"error running ""heat-manage db_sync"", looks like backend mismatch",https://bugs.launchpad.net/heat/+bug/1241865,2014-04-17
+1241553,1241553,Fix Released,Fail to update OS::Neutron::Subnet resource,https://bugs.launchpad.net/heat/+bug/1241553,2014-04-17
+1240888,1240888,Fix Released,Resources created during update get invalid AWS::StackId value,https://bugs.launchpad.net/heat/+bug/1240888,2014-04-17
+1236678,1236678,Fix Released,"Iterating over a stack expects resources, not resource names",https://bugs.launchpad.net/heat/+bug/1236678,2014-04-17
+1235911,1235911,Fix Released,invalid template syntax in lists can result in undeleteable stacks,https://bugs.launchpad.net/heat/+bug/1235911,2014-04-17
+1232127,1232127,Fix Released,Parse errors in TemplateResource are surpressed and result in empty schema,https://bugs.launchpad.net/heat/+bug/1232127,2014-04-17
+1226681,1226681,Fix Released,heat 'parser' errors lack context,https://bugs.launchpad.net/heat/+bug/1226681,2014-04-17
+1171446,1171446,Fix Released,rpc code logs plaintext/unsanitised request context,https://bugs.launchpad.net/heat/+bug/1171446,2014-04-17
+1250797,1250797,Fix Released,Can't create table 'heat.stack_lock',https://bugs.launchpad.net/heat/+bug/1250797,2014-04-17
+1245863,1245863,Fix Released,Fn::Select no longer accepts integer selector values,https://bugs.launchpad.net/tripleo/+bug/1245863,2014-04-17
+1245863,1245863,Fix Released,Fn::Select no longer accepts integer selector values,https://bugs.launchpad.net/heat/+bug/1245863,2014-04-17
+1240289,1240289,Fix Released,"cfn/F17/WordPress_Single_Instance.template returns""ERROR: in <""byte string"">, position 0""",https://bugs.launchpad.net/heat/+bug/1240289,2014-04-17
+1298991,1298991,Fix Released,Duplicated colon in _container_metadata.html,https://bugs.launchpad.net/horizon/+bug/1298991,2014-04-17
+1301935,1301935,Fix Released,Dashboard ignores the HORIZON_CONFIG['user_home'] setting,https://bugs.launchpad.net/horizon/+bug/1301935,2014-04-17
+1295537,1295537,Fix Released,Graph for cpu resource usage going backwards,https://bugs.launchpad.net/horizon/+bug/1295537,2014-04-17
+1300290,1300290,Fix Released,Import translations for Icehouse release,https://bugs.launchpad.net/horizon/+bug/1300290,2014-04-17
+1287192,1287192,Fix Released,Improve handle method on ManageAggregateHostWorkflow class,https://bugs.launchpad.net/horizon/+bug/1287192,2014-04-17
+1288968,1288968,Fix Released,Remove unused file _update.html,https://bugs.launchpad.net/horizon/+bug/1288968,2014-04-17
+1277257,1277257,Fix Released,Succeed message for Resize Instance is confusing (resize is async operation),https://bugs.launchpad.net/horizon/+bug/1277257,2014-04-17
+1254488,1254488,Fix Released,No need to mark lang name in LANGUAGES in settings.py translatable,https://bugs.launchpad.net/horizon/+bug/1254488,2014-04-17
+1231227,1231227,Fix Released,Should add C libs check in horizon ./run_tests.sh OR add note on them at Quick Start WIKI page.,https://bugs.launchpad.net/horizon/+bug/1231227,2014-04-17
+1298934,1298934,Fix Released,"Cannot understand ""Gigabytes"" in default quotas table",https://bugs.launchpad.net/horizon/+bug/1298934,2014-04-17
+1296429,1296429,Fix Released,"default of OPENSTACK_KEYSTONE_DEFAULT_ROLE still ""Member""",https://bugs.launchpad.net/horizon/+bug/1296429,2014-04-17
+1296356,1296356,Fix Released,attached volume link in instance detail points to volume snapshot detail,https://bugs.launchpad.net/horizon/+bug/1296356,2014-04-17
+1292998,1292998,Fix Released,get_resource_or_fake method in VPN panel is no longer unnecessary,https://bugs.launchpad.net/horizon/+bug/1292998,2014-04-17
+1292995,1292995,Fix Released,Untranslated strings in LBaaS workflow,https://bugs.launchpad.net/horizon/+bug/1292995,2014-04-17
+1291548,1291548,Fix Released,verbose_name is unnecessary for hidden field,https://bugs.launchpad.net/horizon/+bug/1291548,2014-04-17
+1291529,1291529,Fix Released,"Help text improvement in ""Retrieve Password"": mention private key rather than key pair",https://bugs.launchpad.net/horizon/+bug/1291529,2014-04-17
+1291522,1291522,Fix Released,Some strings in routerrules template are not translatable,https://bugs.launchpad.net/horizon/+bug/1291522,2014-04-17
+1291505,1291505,Fix Released,strings in test plugin need not to be translatable,https://bugs.launchpad.net/horizon/+bug/1291505,2014-04-17
+1291050,1291050,Fix Released,Settings nav method can call attempt access of slug on None,https://bugs.launchpad.net/horizon/+bug/1291050,2014-04-17
+1291021,1291021,Fix Released,Unhandled UnboundLocalError in instance DetailView,https://bugs.launchpad.net/horizon/+bug/1291021,2014-04-17
+1288887,1288887,Fix Released,Update outdated references in docstring,https://bugs.launchpad.net/horizon/+bug/1288887,2014-04-17
+1288650,1288650,Fix Released,Missing slug in TabGroup gives confusing errors,https://bugs.launchpad.net/horizon/+bug/1288650,2014-04-17
+1288070,1288070,Fix Released,empty __init__.py contains copyright information,https://bugs.launchpad.net/horizon/+bug/1288070,2014-04-17
+1288020,1288020,Fix Released,wrong key for 'usage.summary.instances' in CSV summary,https://bugs.launchpad.net/horizon/+bug/1288020,2014-04-17
+1288015,1288015,Fix Released,Replace '-' with '0' in overview page,https://bugs.launchpad.net/horizon/+bug/1288015,2014-04-17
+1285298,1285298,Fix Released,Missing 'trunk' option with N1K plugin in the dashboard,https://bugs.launchpad.net/horizon/+bug/1285298,2014-04-17
+1282196,1282196,Fix Released,description field can be extended over other fields,https://bugs.launchpad.net/horizon/+bug/1282196,2014-04-17
+1229811,1229811,Fix Released,"Items not working in new ""Router"" dashboard",https://bugs.launchpad.net/horizon/+bug/1229811,2014-04-17
+1210513,1210513,Fix Released,"""Edit Rules"" in Security Group tab should be a better name",https://bugs.launchpad.net/horizon/+bug/1210513,2014-04-17
+1298587,1298587,Fix Released,libffi-dev dependency not documented,https://bugs.launchpad.net/horizon/+bug/1298587,2014-04-17
+1296321,1296321,Fix Released,run_tests.sh outputs <django.utils.functional.__proxy__ object at 0x68014d0>,https://bugs.launchpad.net/horizon/+bug/1296321,2014-04-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1696873,1696873,Fix Released,tripleo-quickstart devmode fails w/ gnochi error,https://bugs.launchpad.net/tripleo/+bug/1696873,2019-05-14
+1679650,1679650,Fix Released,quickstart fails trying to map project name tripleo-docs for dlrn,https://bugs.launchpad.net/tripleo/+bug/1679650,2019-05-14
+1698982,1698982,Fix Released,"devmode ovb + containers fails with template error expected '<document start>', but found '{'",https://bugs.launchpad.net/tripleo/+bug/1698982,2019-05-14
+1704356,1704356,Fix Released,Simple validation with OSC syntax error,https://bugs.launchpad.net/tripleo/+bug/1704356,2019-05-14
+1705734,1705734,Fix Released,Quickstart fails if Virtual BMCs have already been created,https://bugs.launchpad.net/tripleo/+bug/1705734,2019-05-14
+1708793,1708793,Fix Released,tempest is no longer failing appropriately in oooq,https://bugs.launchpad.net/tripleo/+bug/1708793,2019-05-14
+1709428,1709428,Fix Released,python-networking-bagpipe breaks ci when in ZUUL_CHANGES,https://bugs.launchpad.net/tripleo/+bug/1709428,2019-05-14
+1710013,1710013,Fix Released,KeyError: 'bmc_prefix' ovb version in oooq is no longer working,https://bugs.launchpad.net/tripleo/+bug/1710013,2019-05-14
+1709066,1709066,Fix Released,[CI] Upgrade job down: AnsibleUndefinedVariable: 'docker_registry_namespace' is undefined,https://bugs.launchpad.net/tripleo/+bug/1709066,2019-05-14
+1710938,1710938,Fix Released,Upgrades from Ocata to Pike (containerized) missing container upload step,https://bugs.launchpad.net/tripleo/+bug/1710938,2019-05-14
+1711559,1711559,Fix Released,Multinode CI regression - fails to create tripleo-admin user,https://bugs.launchpad.net/tripleo/+bug/1711559,2019-05-14
+1710678,1710678,Fix Released,DLRN not configured to use regional mirrors,https://bugs.launchpad.net/tripleo/+bug/1710678,2019-05-14
+1712029,1712029,Fix Released,build-image roles is not adding qemu repo to images in periodic jobs,https://bugs.launchpad.net/tripleo/+bug/1712029,2019-05-14
+1710992,1710992,Fix Released,"All container images are uploaded/specified, even for services not deployed",https://bugs.launchpad.net/tripleo/+bug/1710992,2019-05-14
+1712910,1712910,Fix Released,oooq virt-customize repo setup logs are not saved,https://bugs.launchpad.net/tripleo/+bug/1712910,2019-05-14
+1712436,1712436,Fix Released,stable/newton gate-tripleo-ci-centos-7-nonha-multinode-oooq is broken due to Controller create timeout,https://bugs.launchpad.net/tripleo/+bug/1712436,2019-05-14
+1713958,1713958,Fix Released,deploy_composable_scenario assumes deployed server environment,https://bugs.launchpad.net/tripleo/+bug/1713958,2019-05-14
+1714412,1714412,Fix Released,Upgrade from Ocata to Pike fails to pull containers during ControllerDeployment_Step1,https://bugs.launchpad.net/tripleo/+bug/1714412,2019-05-14
+1714781,1714781,Fix Released,Optional container images for composable scenarios missing in upgrade jobs,https://bugs.launchpad.net/tripleo/+bug/1714781,2019-05-14
+1717274,1717274,Fix Released,ocata2pike: broken package dependency during upgrade,https://bugs.launchpad.net/tripleo/+bug/1717274,2019-05-14
+1717846,1717846,Fix Released,CI injects cloud-init 0.7.6 which is not needed in CentOS .74,https://bugs.launchpad.net/tripleo/+bug/1717846,2019-05-14
+1711083,1711083,Fix Released,[TechDebt]Switch to keystone v3 APi completely for Running tempest tests,https://bugs.launchpad.net/tripleo/+bug/1711083,2019-05-14
+1718655,1718655,Fix Released,Can't ssh to VM  created on OVB based overcloud,https://bugs.launchpad.net/tripleo/+bug/1718655,2019-05-14
+1721790,1721790,Fix Released,(ansible_distribution == 'RedHat'): 'ansible_distribution' is undefined,https://bugs.launchpad.net/tripleo/+bug/1721790,2019-05-14
+1714660,1714660,Fix Released,tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_mtu_sized_frames is failing,https://bugs.launchpad.net/tripleo/+bug/1714660,2019-05-14
+1724347,1724347,Fix Released,scenario001 failing as docker.io is seen twice in the ceph/daemon image url,https://bugs.launchpad.net/tripleo/+bug/1724347,2019-05-14
+1724292,1724292,Fix Released,tripleo-quickstart-extras removes CentOS-Base during upgrade from Ocata to Pike,https://bugs.launchpad.net/tripleo/+bug/1724292,2019-05-14
+1722037,1722037,Fix Released,[quickstart] if a virtualbmc process crashes ironic cannot recover,https://bugs.launchpad.net/tripleo/+bug/1722037,2019-05-14
+1727698,1727698,Fix Released,"validate-simple still uses overcloudrc instead of overcloudrc.v3, failing master promotion jobs",https://bugs.launchpad.net/tripleo/+bug/1727698,2019-05-14
+1705252,1705252,Fix Released,extra newline in deploy command in quickstart's overcloud-deploy.sh,https://bugs.launchpad.net/tripleo/+bug/1705252,2019-05-14
+1729271,1729271,Fix Released,[RFE] quickstart should allow setting NTP server without using extra_args,https://bugs.launchpad.net/tripleo/+bug/1729271,2019-05-14
+1727738,1727738,Fix Released,create overcloud-prep-network script fails,https://bugs.launchpad.net/tripleo/+bug/1727738,2019-05-14
+1729403,1729403,Fix Released,subunit2html fails to run in TripleO CI,https://bugs.launchpad.net/tripleo/+bug/1729403,2019-05-14
+1730997,1730997,Fix Released,"quickstart devmode.sh fails on OVB deployment on the ""Run virt-customize on the provided image"" task",https://bugs.launchpad.net/tripleo/+bug/1730997,2019-05-14
+1731282,1731282,Fix Released,fs24 ovb jobs failing on overcloud.AllNodesDeploySteps.WorkflowTasks_Step2_Execution,https://bugs.launchpad.net/tripleo/+bug/1731282,2019-05-14
+1728917,1728917,Fix Released,Upgrades CI jobs in master not performing upgrade,https://bugs.launchpad.net/tripleo/+bug/1728917,2019-05-14
+1732423,1732423,Fix Released,quickstart on libvirt fails on malformed conditional,https://bugs.launchpad.net/tripleo/+bug/1732423,2019-05-14
+1731987,1731987,Fix Released,dstat files are not in the upstream tripleo logs in /var/log/extra,https://bugs.launchpad.net/tripleo/+bug/1731987,2019-05-14
+1720859,1720859,Fix Released,subunit 1.0 support is broken,https://bugs.launchpad.net/tripleo/+bug/1720859,2019-05-14
+1733574,1733574,Fix Released,Test test_boot_server_from_encrypted_volume_luks failing in ocata,https://bugs.launchpad.net/tripleo/+bug/1733574,2019-05-14
+1733800,1733800,Fix Released,Undercloud containers images prepare do not use promoted images with tags,https://bugs.launchpad.net/tripleo/+bug/1733800,2019-05-14
+1734426,1734426,Fix Released,tripleo quickstart deployment getting failed in validate-ui,https://bugs.launchpad.net/tripleo/+bug/1734426,2019-05-14
+1736026,1736026,Fix Released,Tempest tests fail because don't find 'etc/cirros-0.3.1-x86_64-vmlinuz',https://bugs.launchpad.net/tripleo/+bug/1736026,2019-05-14
+1736273,1736273,Fix Released,RFE: do not send tempest notifications for errors when logs are not available.,https://bugs.launchpad.net/tripleo/+bug/1736273,2019-05-14
+1737227,1737227,Fix Released,"No package matching 'python-neutron-tests-tempest' found available, installed",https://bugs.launchpad.net/tripleo/+bug/1737227,2019-05-14
+1737502,1737502,Fix Released,"Newton: RDO CI gate and phase1 promotion jobs fail with error ""publicURL endpoint for workflowv2 service not found"" because mistral is disabled",https://bugs.launchpad.net/tripleo/+bug/1737502,2019-05-14
+1736769,1736769,Fix Released,RFE: Quickstart dump out all variables used by ansible,https://bugs.launchpad.net/tripleo/+bug/1736769,2019-05-14
+1731988,1731988,Fix Released,TestNetworkBasicOps.test_mtu_sized_frames timing out on pike promotion jobs,https://bugs.launchpad.net/tripleo/+bug/1731988,2019-05-14
+1738038,1738038,Fix Released,ci: ovb jobs killed by timeout during overcloud-deploy do not have overcloud node logs,https://bugs.launchpad.net/tripleo/+bug/1738038,2019-05-14
+1741126,1741126,Fix Released,quickstart remove the listing of the tempest plugins to save time,https://bugs.launchpad.net/tripleo/+bug/1741126,2019-05-14
+1739654,1739654,Fix Released,dump vars on localhost causing sudo failures on jenkins slaves,https://bugs.launchpad.net/tripleo/+bug/1739654,2019-05-14
+1739420,1739420,Fix Released,tempestmail unittest missing console files,https://bugs.launchpad.net/tripleo/+bug/1739420,2019-05-14
+1739419,1739419,Fix Released,tempestmail unittest test_get_console error,https://bugs.launchpad.net/tripleo/+bug/1739419,2019-05-14
+1730409,1730409,Fix Released,tempestmail (from validate-tempest): custom subjects for different matchers,https://bugs.launchpad.net/tripleo/+bug/1730409,2019-05-14
+1742557,1742557,Fix Released,quickstart reproducer create script is getting skipped,https://bugs.launchpad.net/tripleo/+bug/1742557,2019-05-14
+1741985,1741985,Fix Released,"upstream reproducer-quickstart.sh fails with ""man-in-middle"" attack due to known hosts",https://bugs.launchpad.net/tripleo/+bug/1741985,2019-05-14
+1743140,1743140,Fix Released,"quickstart, jobtype is not exported properly in reproduce_quickstart.sh",https://bugs.launchpad.net/tripleo/+bug/1743140,2019-05-14
+1743403,1743403,Fix Released,validate-ipmi step fails on RDO Cloud runs,https://bugs.launchpad.net/tripleo/+bug/1743403,2019-05-14
+1739428,1739428,Fix Released,Quickstart UI validation step fails,https://bugs.launchpad.net/tripleo/+bug/1739428,2019-05-14
+1736264,1736264,Fix Released,"On host systems with IPv6 enabled, install fails at overcloud_prep_network step due to ipv6 dns server being used for ipv4 neutron network",https://bugs.launchpad.net/tripleo/+bug/1736264,2019-05-14
+1741569,1741569,Fix Released,Quickstart RFE: add an interface to tripleo's hostname_map feature for custom hostnames,https://bugs.launchpad.net/tripleo/+bug/1741569,2019-05-14
+1746540,1746540,Fix Released,Undercloud containers netconfig task fails in CI,https://bugs.launchpad.net/tripleo/+bug/1746540,2019-05-14
+1747055,1747055,Fix Released,tq-gate-rhos-12-ci-rhos-ovb-minimal-pacemaker-public-bond is failing consistently,https://bugs.launchpad.net/tripleo/+bug/1747055,2019-05-14
+1747986,1747986,Fix Released,container yum update failing due to missing base repo,https://bugs.launchpad.net/tripleo/+bug/1747986,2019-05-14
+1750265,1750265,Fix Released,"[queens promotion] - fs020 is failing Tempest with  ""AnsibleUndefinedVariable: {{ tempest_version_dict[release] }}: 'dict object' has no attribute u'queens'""}",https://bugs.launchpad.net/tripleo/+bug/1750265,2019-05-14
+1750363,1750363,Fix Released,[queens] Featureset 020 fails with Could not find or access 'tempest_skip_queens.yml',https://bugs.launchpad.net/tripleo/+bug/1750363,2019-05-14
+1750512,1750512,Fix Released,quickstart fails in ovb-manage-stack,https://bugs.launchpad.net/tripleo/+bug/1750512,2019-05-14
+1750747,1750747,Fix Released,[ocata->pike] Variables shared between overcloud-deploy and overcloud-upgrade roles cause CI job failure,https://bugs.launchpad.net/tripleo/+bug/1750747,2019-05-14
+1669186,1669186,Fix Released,"using a containerized undercloud ""openstack overcloud image upload"" fails with can not create regular file",https://bugs.launchpad.net/tripleo/+bug/1669186,2019-05-14
+1753370,1753370,Fix Released,"tempest.api.volume.test_volumes_snapshots.VolumesSnapshotTestJSON.test_snapshot_create_offline_delete_online , instance missing port security",https://bugs.launchpad.net/tripleo/+bug/1753370,2019-05-14
+1752874,1752874,Fix Released,"""Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on 127.0.0.1:53: server misbehaving""  while Trying to pull repository docker.io/ceph/daemon",https://bugs.launchpad.net/tripleo/+bug/1752874,2019-05-14
+1755670,1755670,Fix Released,rdo2: bare metal jobs are failing due to TQE configuration mismatch (overcloud_nodes),https://bugs.launchpad.net/tripleo/+bug/1755670,2019-05-14
+1756037,1756037,Fix Released,[ocata->pike] Upgrades CI job failing due to: /home/jenkins/repo-setup-pike.sh: No such file or directory,https://bugs.launchpad.net/tripleo/+bug/1756037,2019-05-14
+1756878,1756878,Fix Released,Problem deploying single-nic-vlans custom external net range via Quickstart,https://bugs.launchpad.net/tripleo/+bug/1756878,2019-05-14
+1757005,1757005,Fix Released,containers build job fails due to jinja evaluation of test_ping|bool,https://bugs.launchpad.net/tripleo/+bug/1757005,2019-05-14

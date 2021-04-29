@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1741926,1741926,Fix Released,Ocata to Pike upgrade and update_tasks step0 is never executed.,https://bugs.launchpad.net/tripleo/+bug/1741926,2018-01-30
+1741850,1741850,Fix Released,VolumeEncryptionTest is failing in tripleo-ci-centos-7-scenario002-multinode-oooq-container with request timeout,https://bugs.launchpad.net/tripleo/+bug/1741850,2018-01-30
+1742201,1742201,Fix Released,"panko::auth::auth_region uses hardcoded value, incorrectly",https://bugs.launchpad.net/tripleo/+bug/1742201,2018-01-30
+1742434,1742434,Fix Released,tripleo set wrong nova-conductor log file,https://bugs.launchpad.net/tripleo/+bug/1742434,2018-01-30
+1742440,1742440,Fix Released,kernel: missing interface to easily customize settings / modules,https://bugs.launchpad.net/tripleo/+bug/1742440,2018-01-30
+1741234,1741234,Fix Released,OvsDpdkMemoryChannels parameter default value,https://bugs.launchpad.net/tripleo/+bug/1741234,2018-01-30
+1729569,1729569,Fix Released,Periodic jobs using swift as glance backend failing,https://bugs.launchpad.net/tripleo/+bug/1729569,2018-01-30
+1742654,1742654,Fix Released,swift proxy is configured with keystone v2.0,https://bugs.launchpad.net/tripleo/+bug/1742654,2018-01-30
+1743760,1743760,Fix Released,Running minor update after config download does not work,https://bugs.launchpad.net/tripleo/+bug/1743760,2018-01-30
+1744124,1744124,Fix Released,environments/storage-environment.yaml has the wrong path to ceph-mgr,https://bugs.launchpad.net/tripleo/+bug/1744124,2018-01-30
+1739025,1739025,Fix Released,tripleo template override for kolla images doesn't cleanup after yum install,https://bugs.launchpad.net/tripleo/+bug/1739025,2018-01-30
+1638598,1638598,Fix Released,Parameters should be validated before being saved to Mistral,https://bugs.launchpad.net/tripleo/+bug/1638598,2018-01-30
+1740891,1740891,Fix Released,project_name and user_name no longer set in mistral action context,https://bugs.launchpad.net/mistral/+bug/1740891,2018-01-30
+1740891,1740891,Fix Released,project_name and user_name no longer set in mistral action context,https://bugs.launchpad.net/tripleo/+bug/1740891,2018-01-30
+1738666,1738666,Fix Released,"""overcloud container image tag discover"" is slow because it has to pull the image",https://bugs.launchpad.net/tripleo/+bug/1738666,2018-01-30
+1741292,1741292,Fix Released,config-download: fail gracefully when group:os-apply-config deployment used,https://bugs.launchpad.net/tripleo/+bug/1741292,2018-01-30
+1742731,1742731,Fix Released,Kolla image build for sensu-client fails due to gem install attempt,https://bugs.launchpad.net/tripleo/+bug/1742731,2018-01-30
+1742905,1742905,Fix Released,Unable to set root_device via instackenv.json,https://bugs.launchpad.net/tripleo/+bug/1742905,2018-01-30
+1738668,1738668,Fix Released,"""overcloud container image upload"" uploads images already at the destination",https://bugs.launchpad.net/tripleo/+bug/1738668,2018-01-30
+1738669,1738669,Fix Released,container tag discover needs to inspect every image for different tags,https://bugs.launchpad.net/tripleo/+bug/1738669,2018-01-30
+1713482,1713482,Fix Released,RFE : Increase HAProxy logging,https://bugs.launchpad.net/tripleo/+bug/1713482,2018-01-30
+1737086,1737086,Fix Released,"We can't do unit tests due to ""dot"" notation",https://bugs.launchpad.net/tripleo/+bug/1737086,2018-01-30
+1724328,1724328,Fix Released,Netwon to Ocata upgrade failure because of ceilometer-upgrade,https://bugs.launchpad.net/tripleo/+bug/1724328,2018-01-30
+1736132,1736132,Fix Released,Allow to add Basic Authentication on HAProxy endpoint,https://bugs.launchpad.net/tripleo/+bug/1736132,2018-01-30
+1738777,1738777,Fix Released,'wsrep_max_ws_rows exceeded' during upgrade of gnocchi.,https://bugs.launchpad.net/tripleo/+bug/1738777,2018-01-30
+1739771,1739771,Fix Released,stack update operation fails in containerized HA deployments,https://bugs.launchpad.net/tripleo/+bug/1739771,2018-01-30
+1739026,1739026,Fix Released,veritas rabbitmq users do not get created,https://bugs.launchpad.net/tripleo/+bug/1739026,2018-01-30
+1740261,1740261,Fix Released,"featureset024 Failing for master and pike - 'order' cannot contain '/', ':', or '""",https://bugs.launchpad.net/tripleo/+bug/1740261,2018-01-30
+1741345,1741345,Fix Released,rabbitmq-ready fails when node size 1 and doesn't actually fail the deployment,https://bugs.launchpad.net/tripleo/+bug/1741345,2018-01-30
+1742795,1742795,Fix Released,Pacemaker fails to create openstack-cinder-backup bundle,https://bugs.launchpad.net/tripleo/+bug/1742795,2018-01-30
+1733941,1733941,Fix Released,paunch doesn't error when image pull fails on detached containers,https://bugs.launchpad.net/tripleo/+bug/1733941,2018-01-30
+1733941,1733941,Fix Released,paunch doesn't error when image pull fails on detached containers,https://bugs.launchpad.net/paunch/+bug/1733941,2018-01-30
+1691003,1691003,Fix Released,os-collect-config is spewing a lot of useless logs,https://bugs.launchpad.net/tripleo/+bug/1691003,2018-01-30
+1722279,1722279,Fix Released,swift object-expirer service not running in the undercloud,https://bugs.launchpad.net/tripleo/+bug/1722279,2018-01-30
+1736246,1736246,Fix Released,"undercloud install fail, rhel, selinux",https://bugs.launchpad.net/tripleo/+bug/1736246,2018-01-30
+1737175,1737175,Fix Released,undercloud pre-upgrade nova online_db_migration fails,https://bugs.launchpad.net/tripleo/+bug/1737175,2018-01-30
+1737182,1737182,Fix Released,OVS links disappear during openstack undercloud,https://bugs.launchpad.net/tripleo/+bug/1737182,2018-01-30
+1739030,1739030,Fix Released,undercloud heat-engine workers setting inappropriate for large baremetal systems,https://bugs.launchpad.net/tripleo/+bug/1739030,2018-01-30
+1742538,1742538,Fix Released,"OSA-deployed uWSGI used by Keystone warns: ""!!! no internal routing support, rebuild with pcre support !!!""",https://bugs.launchpad.net/openstack-ansible/+bug/1742538,2018-01-30
+1735787,1735787,Fix Released,os_tempest: Jinja2 delimiters in when,https://bugs.launchpad.net/openstack-ansible/+bug/1735787,2018-01-30
+1742526,1742526,Fix Released,haproxy's stats page refresh should be configurable,https://bugs.launchpad.net/openstack-ansible/+bug/1742526,2018-01-30
+1736702,1736702,Fix Released,TMOUT  declared two times after upgrade in /etc/profile,https://bugs.launchpad.net/openstack-ansible/+bug/1736702,2018-01-30
+1735781,1735781,Fix Released,Ansible warning in get-ansible-role-requirements.yml,https://bugs.launchpad.net/openstack-ansible/+bug/1735781,2018-01-30
+1737310,1737310,Fix Released,"integrated lint test also tests roles, but should not",https://bugs.launchpad.net/openstack-ansible/+bug/1737310,2018-01-30
+1736989,1736989,Fix Released,[Docs] Issue when using --limit to add compute with DVR,https://bugs.launchpad.net/openstack-ansible/+bug/1736989,2018-01-30
+1742717,1742717,Fix Released,"haproxy still has a glance-registry backend, but glance-registry is deprecated",https://bugs.launchpad.net/openstack-ansible/+bug/1742717,2018-01-30
+1675810,1675810,Fix Released,inventory overrides causing dynamic_inventory.py to stacktrace,https://bugs.launchpad.net/openstack-ansible/+bug/1675810,2018-01-30
+1726596,1726596,Fix Released,Fluentd is not configured to add the hostname for some log messages,https://bugs.launchpad.net/kolla-ansible/+bug/1726596,2018-01-30
+1734789,1734789,Fix Released,Config directory check failed when fluentd is disabled,https://bugs.launchpad.net/kolla-ansible/+bug/1734789,2018-01-30
+1559809,1559809,Fix Released,Add check if all the hostnames are resolvable,https://bugs.launchpad.net/kolla-ansible/+bug/1559809,2018-01-30
+1722744,1722744,Fix Released,Missing note for overwriting policy.json file in docs,https://bugs.launchpad.net/kolla-ansible/+bug/1722744,2018-01-30
+1733565,1733565,Fix Released,cinder backend passwords should go to passwords.yml,https://bugs.launchpad.net/kolla-ansible/+bug/1733565,2018-01-30
+1733304,1733304,Fix Released,volume snapshot fails with nfs driver,https://bugs.launchpad.net/kolla-ansible/+bug/1733304,2018-01-30
+1736728,1736728,Fix Released,the designate-backend-bind9 is missing,https://bugs.launchpad.net/kolla-ansible/+bug/1736728,2018-01-30
+1734019,1734019,Fix Released,Murano deploy failed,https://bugs.launchpad.net/kolla-ansible/+bug/1734019,2018-01-30
+1734019,1734019,Fix Released,Murano deploy failed,https://bugs.launchpad.net/kolla/+bug/1734019,2018-01-30
+1738801,1738801,Fix Released,redis check.yml is missing,https://bugs.launchpad.net/kolla-ansible/+bug/1738801,2018-01-30
+1740223,1740223,Fix Released,glance v2 doesn't allow to specify custom,https://bugs.launchpad.net/kolla-ansible/+bug/1740223,2018-01-30
+1740591,1740591,Fix Released,Inspector uses internal ironic interface,https://bugs.launchpad.net/kolla-ansible/+bug/1740591,2018-01-30
+1741022,1741022,Fix Released,tempest failure for external ceph,https://bugs.launchpad.net/kolla-ansible/+bug/1741022,2018-01-30
+1741852,1741852,Fix Released,destroy action missing the docker service check,https://bugs.launchpad.net/kolla-ansible/+bug/1741852,2018-01-30
+1734255,1734255,Fix Released,"Cannot start docker service in Debian 9 on Arm when run ""bootstrap-servers""",https://bugs.launchpad.net/kolla-ansible/+bug/1734255,2018-01-30
+1742501,1742501,Fix Released,Grafana deployment fails if Grafana not on local controller,https://bugs.launchpad.net/kolla-ansible/+bug/1742501,2018-01-30
+1742969,1742969,Fix Released,Ironic PXE bootstrap broken with PXE UEFI disabled,https://bugs.launchpad.net/kolla-ansible/+bug/1742969,2018-01-30
+1742873,1742873,Fix Released,iscsi is deployed even if cinder is not enabled but cinder_backend_iscsi is enabeld,https://bugs.launchpad.net/kolla-ansible/+bug/1742873,2018-01-30
+1743402,1743402,Fix Released,Add os_region_name to Trove configuration files,https://bugs.launchpad.net/kolla-ansible/+bug/1743402,2018-01-30
+1743485,1743485,Fix Released,the run.yml gather facts twice,https://bugs.launchpad.net/kolla-ansible/+bug/1743485,2018-01-30
+1740028,1740028,Fix Released,the storage group missing for external ceph doc,https://bugs.launchpad.net/kolla-ansible/+bug/1740028,2018-01-30
+1745128,1745128,Fix Released,placement api does not work when enabled ssl,https://bugs.launchpad.net/kolla-ansible/+bug/1745128,2018-01-30
+1655921,1655921,Fix Released,nova: SR-IOV for VF doesn't work,https://bugs.launchpad.net/kolla-ansible/+bug/1655921,2018-01-30
+1712322,1712322,Fix Released,"mistral-dashboard should generate ""execute workflow"" form dynamically",https://bugs.launchpad.net/mistral/+bug/1712322,2018-01-30
+1732375,1732375,Fix Released,LOG information Irregular,https://bugs.launchpad.net/mistral/+bug/1732375,2018-01-30
+1705186,1705186,Fix Released,"A task should not be called 'fail', 'succeed', 'pause', 'noop'",https://bugs.launchpad.net/mistral/+bug/1705186,2018-01-30
+1690711,1690711,Fix Released,"Add docs for ""params"" (including 'evaluate_env')",https://bugs.launchpad.net/mistral/+bug/1690711,2018-01-30
+1745548,1745548,Fix Released,Mistral initializes the entire collection wf_ex.task_executions on a task creation,https://bugs.launchpad.net/mistral/+bug/1745548,2018-01-30

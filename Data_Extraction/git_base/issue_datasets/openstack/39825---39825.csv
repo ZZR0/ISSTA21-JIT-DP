@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1555006,1555006,Fix Released,Elasticsearch collecd plugin crashes when querying ES < 1.7,https://bugs.launchpad.net/lma-toolchain/+bug/1555006,2016-07-26
+1556576,1556576,Fix Released,ElasticSearch failed to scale down from 3 to 1 node,https://bugs.launchpad.net/lma-toolchain/+bug/1556576,2016-07-26
+1556803,1556803,Fix Released,Nova ec2 API has been removed from MOS 9.0,https://bugs.launchpad.net/lma-toolchain/+bug/1556803,2016-07-26
+1556806,1556806,Fix Released,openstack cinder http responses are missing in MOS 9.0,https://bugs.launchpad.net/lma-toolchain/+bug/1556806,2016-07-26
+1556832,1556832,Fix Released,[collectd] libvirt plugin: virDomainGetInfo failed with status -1,https://bugs.launchpad.net/lma-toolchain/+bug/1556832,2016-07-26
+1557384,1557384,Fix Released,Check of Cinder API is returning 300 instead of 200,https://bugs.launchpad.net/lma-toolchain/+bug/1557384,2016-07-26
+1561671,1561671,Fix Released,grafana fails to start after install,https://bugs.launchpad.net/lma-toolchain/+bug/1561671,2016-07-26
+1568814,1568814,Fix Released,Some Elasticsearch metrics are missing,https://bugs.launchpad.net/lma-toolchain/+bug/1568814,2016-07-26
+1569027,1569027,Fix Released,[doc] Controller removed with Fuel when LMA is active results in Alarms,https://bugs.launchpad.net/lma-toolchain/+bug/1569027,2016-07-26
+1570386,1570386,Fix Released,Fail to deploy the LMA toolchain in an environment with virt nodes,https://bugs.launchpad.net/lma-toolchain/+bug/1570386,2016-07-26
+1570839,1570839,Fix Released,Prevent using init script to start Heka on controller nodes,https://bugs.launchpad.net/lma-toolchain/+bug/1570839,2016-07-26
+1572631,1572631,Fix Released,The influxdb_accumulator filter can generate incorrect data,https://bugs.launchpad.net/lma-toolchain/+bug/1572631,2016-07-26
+1572929,1572929,Fix Released,Elasticsearch logs aren't compressed nor deleted,https://bugs.launchpad.net/lma-toolchain/+bug/1572929,2016-07-26
+1572930,1572930,Fix Released,Grafana logs aren't rotated,https://bugs.launchpad.net/lma-toolchain/+bug/1572930,2016-07-26
+1578183,1578183,Fix Released,Some Grafana servers aren't started because of conflicting migrations,https://bugs.launchpad.net/lma-toolchain/+bug/1578183,2016-07-26
+1578194,1578194,Fix Released,Some InfluxDB servers are stuck because of leader being unreachable,https://bugs.launchpad.net/lma-toolchain/+bug/1578194,2016-07-26
+1580938,1580938,Fix Released,Deployment of the LMA Infrastructure Alerting plugin alone fails,https://bugs.launchpad.net/lma-toolchain/+bug/1580938,2016-07-26
+1584825,1584825,Fix Released,Some Grafana dashboards miss the appropriate filters to support multiple environments,https://bugs.launchpad.net/lma-toolchain/+bug/1584825,2016-07-26
+1593135,1593135,Fix Released,The Elasticsearch-Kibana plugin fails to deploy when the recover_after_time parameter is missing,https://bugs.launchpad.net/lma-toolchain/+bug/1593135,2016-07-26
+1593270,1593270,Fix Released,[dedicated environement] fails to deploy detach-database plugin,https://bugs.launchpad.net/lma-toolchain/+bug/1593270,2016-07-26
+1595117,1595117,Fix Released,The FS alert threshold for Elasticsearch volume is not coherent with the default disk-based shard allocation policy,https://bugs.launchpad.net/lma-toolchain/+bug/1595117,2016-07-26
+1595929,1595929,Fix Released,Grafana provisioning may fail because the API isn't ready yet,https://bugs.launchpad.net/lma-toolchain/+bug/1595929,2016-07-26
+1598782,1598782,Fix Released,[doc] Provision another network and VIP for Grafana,https://bugs.launchpad.net/lma-toolchain/+bug/1598782,2016-07-26
+1547424,1547424,Fix Released,Move the lma_collector::mod_status class to the fuel_lma_collector module,https://bugs.launchpad.net/lma-toolchain/+bug/1547424,2016-07-26
+1555186,1555186,Fix Released,Dates aren't formatted consistently in the Kibana dashboards,https://bugs.launchpad.net/lma-toolchain/+bug/1555186,2016-07-26
+1604307,1604307,Fix Released,"Deployment fails when the InfluxDB username is defined as ""root""",https://bugs.launchpad.net/lma-toolchain/+bug/1604307,2016-07-26
+1493699,1493699,Fix Released,[LMA] Sahara logs should be collected and sent to Elasticsearch,https://bugs.launchpad.net/lma-toolchain/+bug/1493699,2016-07-26
+1547084,1547084,Fix Released,Write a diagnostics script,https://bugs.launchpad.net/lma-toolchain/+bug/1547084,2016-07-26
+1587002,1587002,Fix Released,Thresholds on partition's free space are too low,https://bugs.launchpad.net/lma-toolchain/+bug/1587002,2016-07-26
+1558669,1558669,Fix Released,Hiera actions are not ordered properly for lma-collector plugin,https://bugs.launchpad.net/lma-toolchain/+bug/1558669,2016-07-26
+1606304,1606304,Fix Released,Sometimes calico-dhcp-agent fails to start,https://bugs.launchpad.net/networking-calico/+bug/1606304,2016-07-26
+1600167,1600167,Fix Released,Nagios UI can not access to the LDAP server if it is not on the same subnet,https://bugs.launchpad.net/lma-toolchain/+bug/1600167,2016-07-26
+1595861,1595861,Fix Released,[doc] Enable support for LDAP authentication,https://bugs.launchpad.net/lma-toolchain/+bug/1595861,2016-07-26
+1595218,1595218,Fix Released,[doc] Enable secure communication over HTTPS for Kibana,https://bugs.launchpad.net/lma-toolchain/+bug/1595218,2016-07-26
+1595217,1595217,Fix Released,[doc] Enable secure communication over HTTPS for Grafana,https://bugs.launchpad.net/lma-toolchain/+bug/1595217,2016-07-26
+1585530,1585530,Fix Released,[doc] Remove the remote Nagios alerting mode,https://bugs.launchpad.net/lma-toolchain/+bug/1585530,2016-07-26
+1584856,1584856,Fix Committed,[system-tests] yaml-modification methods are outdated (docker were removed),https://bugs.launchpad.net/fuel/+bug/1584856,2016-07-26
+1513738,1513738,Fix Released,Gnocchi's aggregation-by-metric alarm is not evaluated,https://bugs.launchpad.net/aodh/+bug/1513738,2016-07-26
+1595180,1595180,Fix Released,Update Docs links to docs.openstack.org,https://bugs.launchpad.net/watcher/+bug/1595180,2016-07-26
+1556051,1556051,Fix Released,Add links for every reposponsinble mentions in racks,https://bugs.launchpad.net/fuel/+bug/1556051,2016-07-26
+1450110,1450110,Fix Released,"boto tests randomly fail in resource_cleanup with ""Failed to delete volume""",https://bugs.launchpad.net/cinder/+bug/1450110,2016-07-26
+1550227,1550227,Fix Released,[BVT] Provisioning of node failed : func do_bootloader failed on attempts to execute  Command: blkid -o value -s UUID /dev/mapper/os-swap,https://bugs.launchpad.net/fuel/+bug/1550227,2016-07-26
+1555664,1555664,Fix Released,provision with multipath device fails randomly,https://bugs.launchpad.net/fuel/+bug/1555664,2016-07-26
+1551432,1551432,Fix Released,[baremetal] Servers with NVMe drives are not discovered,https://bugs.launchpad.net/fuel/+bug/1551432,2016-07-26
+1559197,1559197,Fix Released,lvm broke multipath on provisioned systems,https://bugs.launchpad.net/fuel/+bug/1559197,2016-07-26
+1562874,1562874,Fix Released,Provision of node with multipath device fails with error 'Disk not found',https://bugs.launchpad.net/fuel/+bug/1562874,2016-07-26
+1568436,1568436,Fix Released,Neutron: postgresql db migration alter_enum issue,https://bugs.launchpad.net/neutron/+bug/1568436,2016-07-26
+1587359,1587359,Fix Released,oslo_config.cfg.NoSuchOptError: no such option in group DEFAULT: config_dirs,https://bugs.launchpad.net/bgpvpn/+bug/1587359,2016-07-25
+1587359,1587359,Fix Released,oslo_config.cfg.NoSuchOptError: no such option in group DEFAULT: config_dirs,https://bugs.launchpad.net/neutron/+bug/1587359,2016-07-25
+1585169,1585169,Fix Released,migration script for qospolicyrbacs has hardcoded InnoDB engine,https://bugs.launchpad.net/neutron/+bug/1585169,2016-07-25
+1561857,1561857,Fix Released,NetworksIpAvailabilityIPv6Test is not skipped with network_feature_enabled.ipv6=false,https://bugs.launchpad.net/neutron/+bug/1561857,2016-07-25
+1509312,1509312,Fix Released,unable to use tenant network after kilo to liberty update due to port security extension,https://bugs.launchpad.net/neutron/+bug/1509312,2016-07-25
+1520094,1520094,Fix Released,Retire gettext.install which installs _() as builtin namespace,https://bugs.launchpad.net/neutron/+bug/1520094,2016-07-25
+1566291,1566291,Fix Released,L3 agent: at some point an agent becomes unable to handle new routers,https://bugs.launchpad.net/neutron/+bug/1566291,2016-07-25
+1500422,1500422,Fix Released,Add cluster health task with disk monitor,https://bugs.launchpad.net/fuel/+bug/1500422,2016-07-25
+1588880,1588880,Fix Released,Upgrade doc needs --expand parameter,https://bugs.launchpad.net/neutron/+bug/1588880,2016-07-25
+1593772,1593772,Fix Released,"Remove the deprecated config ""quota_items""",https://bugs.launchpad.net/neutron/+bug/1593772,2016-07-25
+1594711,1594711,Fix Released,"Remove the deprecated config ""router_id""",https://bugs.launchpad.net/neutron/+bug/1594711,2016-07-25
+1599456,1599456,Fix Released,TrunksSearchCriteriaTest should check the extension,https://bugs.launchpad.net/neutron/+bug/1599456,2016-07-25
+1599574,1599574,Fix Released,"""upgrade --expand"" alembic migration failure",https://bugs.launchpad.net/neutron/+bug/1599574,2016-07-25
+1600396,1600396,Fix Released,AssertionError: 0 == 0 : No IPv4 addresses found on gate-tempest-dsvm-neutron-full,https://bugs.launchpad.net/neutron/+bug/1600396,2016-07-25
+1590588,1590588,Fix Released,pecan: list or get resource with single fields fails,https://bugs.launchpad.net/neutron/+bug/1590588,2016-07-25
+1307506,1307506,Fix Released,quota-delete should error out if input provided is wrong tenant id,https://bugs.launchpad.net/neutron/+bug/1307506,2016-07-25
+1215181,1215181,Fix Released,Security group rules validation allows duplicate rules,https://bugs.launchpad.net/neutron/+bug/1215181,2016-07-25
+1600398,1600398,Fix Released,Conflict: An object with that identifier already exists on gate-tempest-dsvm-neutron-linuxbridge,https://bugs.launchpad.net/tempest/+bug/1600398,2016-07-25
+1566934,1566934,Fix Released,"ovs-firewall: When port is created, it's marked with 4095 conntrack zone",https://bugs.launchpad.net/neutron/+bug/1566934,2016-07-25
+1580270,1580270,Fix Released,ValueError during TransactionQueue initialization with python3 and native ovsdb_interface,https://bugs.launchpad.net/neutron/+bug/1580270,2016-07-25
+1577887,1577887,Fix Released,manila_tempest_test does not cleanup appropriately while retrying,https://bugs.launchpad.net/manila/+bug/1577887,2016-07-25
+1592874,1592874,Fix Released,One tempest negative replication test does not create share type but depends on it,https://bugs.launchpad.net/manila/+bug/1592874,2016-07-25
+1585552,1585552,Fix Released,dashboard use Murano-specific Horizon settings,https://bugs.launchpad.net/murano/+bug/1585552,2016-07-25
+1581611,1581611,Fix Committed,ceilometer rpm package misses python-tooz dependency,https://bugs.launchpad.net/fuel/+bug/1581611,2016-07-25
+1594843,1594843,Fix Committed,l23network doesn't work with Puppet3 unless stringify_facts=false is set,https://bugs.launchpad.net/fuel/+bug/1594843,2016-07-25
+1539092,1539092,Fix Released,repeat_actions value is reset when alarm's state is manually reset,https://bugs.launchpad.net/python-ceilometerclient/+bug/1539092,2016-07-25
+1553932,1553932,Fix Released,"when listing events using 'ceilometer event-list', the dictionary shown in Traits column is not always sorted",https://bugs.launchpad.net/python-ceilometerclient/+bug/1553932,2016-07-25
+1589425,1589425,Fix Released,TypeError: __init__() got an unexpected keyword argument 'aodh_endpoint',https://bugs.launchpad.net/python-ceilometerclient/+bug/1589425,2016-07-25

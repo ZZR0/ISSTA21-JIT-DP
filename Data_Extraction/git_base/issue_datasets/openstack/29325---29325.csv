@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1655282,1655282,Fix Released,Raise a  HTTPNotFound exception when protectable instance can not be found,https://bugs.launchpad.net/karbor/+bug/1655282,2017-02-07
+1661692,1661692,Fix Released,"Broken Link on ""Shared File Systems service overview in Installation Guide""",https://bugs.launchpad.net/openstack-manuals/+bug/1661692,2017-02-07
+1564125,1564125,Fix Released,Allow to use several nics for physnet with SR-IOV,https://bugs.launchpad.net/openstack-manuals/+bug/1564125,2017-02-07
+1432971,1432971,Fix Released,FWaaS Insertion Model on Routers,https://bugs.launchpad.net/openstack-manuals/+bug/1432971,2017-02-07
+1575335,1575335,Fix Released,Out-of-tree compute drivers no longer loading,https://bugs.launchpad.net/nova/+bug/1575335,2017-02-07
+1575335,1575335,Fix Released,Out-of-tree compute drivers no longer loading,https://bugs.launchpad.net/nova-powervm/+bug/1575335,2017-02-07
+1660901,1660901,Fix Released,Use oslotest module,https://bugs.launchpad.net/blazar/+bug/1660901,2017-02-07
+1658920,1658920,Fix Released,Use oslo.policy module instead of openstack.common.policy module,https://bugs.launchpad.net/blazar/+bug/1658920,2017-02-07
+1659217,1659217,Fix Released,Flow for route to subnet share the same priority as flow for fip,https://bugs.launchpad.net/dragonflow/+bug/1659217,2017-02-07
+1653077,1653077,Fix Released,Set max_overflow and max_pool_size parameters in depend on hardware,https://bugs.launchpad.net/fuel-ccp/+bug/1653077,2017-02-07
+1658910,1658910,Fix Released,Delete unused oslo-incubator code,https://bugs.launchpad.net/blazar/+bug/1658910,2017-02-07
+1612731,1612731,Fix Released,The package requirements are broken on bootstrap image creation stage,https://bugs.launchpad.net/fuel/+bug/1612731,2017-02-07
+1658908,1658908,Fix Released,Delete openstack.common.config module,https://bugs.launchpad.net/blazar/+bug/1658908,2017-02-07
+1662219,1662219,Fix Committed,[Product-CI] ldap test reports job is broken,https://bugs.launchpad.net/fuel/+bug/1662219,2017-02-07
+1662408,1662408,Fix Released,Masakari is not synced with upper-contraints of global requirements,https://bugs.launchpad.net/masakari/+bug/1662408,2017-02-07
+1658158,1658158,Fix Released,[Cinder] Update nova/compute/manager.py to handle _prep_block_device flow differently for DPM,https://bugs.launchpad.net/nova-dpm/+bug/1658158,2017-02-07
+1657492,1657492,Fix Released,[RFE]HPSUM firmware update support in proliantutils,https://bugs.launchpad.net/proliantutils/+bug/1657492,2017-02-07
+1587836,1587836,Fix Committed,[regression] libvirtd does not start due to incorrect pre-start section in upstart config,https://bugs.launchpad.net/fuel/+bug/1587836,2017-02-07
+1560683,1560683,Fix Released,domain users cannot log into horizon,https://bugs.launchpad.net/kolla/+bug/1560683,2017-02-07
+1654165,1654165,Fix Released,lbaasv2 member status update doesn't work,https://bugs.launchpad.net/networking-midonet/+bug/1654165,2017-02-07
+1656174,1656174,Fix Released,periodic-tempest-dsvm-networking-midonet-v2-ubuntu-xenial-newton failure,https://bugs.launchpad.net/networking-midonet/+bug/1656174,2017-02-07
+1661563,1661563,Fix Released,Rename *mappings to physical_network_adapter_mappings,https://bugs.launchpad.net/networking-dpm/+bug/1661563,2017-02-07
+1661563,1661563,Fix Released,Rename *mappings to physical_network_adapter_mappings,https://bugs.launchpad.net/nova-dpm/+bug/1661563,2017-02-07
+1528453,1528453,Fix Released,Provide a ranking mechanism for glance-api to order locations,https://bugs.launchpad.net/glance/+bug/1528453,2017-02-07
+1660564,1660564,Fix Released,climate host-create fails with Keystone authentication error,https://bugs.launchpad.net/blazar/+bug/1660564,2017-02-07
+1635143,1635143,Fix Released,Huawei: Mask unnecessary log print,https://bugs.launchpad.net/cinder/+bug/1635143,2017-02-06
+1572009,1572009,Fix Released,cinder wrote unencrypted data to encrypted volumes when creating from a snapshot,https://bugs.launchpad.net/cinder/+bug/1572009,2017-02-06
+1572007,1572007,Fix Released,cinder wrote unencrypted data to encrypted volumes when creating from a source volume,https://bugs.launchpad.net/cinder/+bug/1572007,2017-02-06
+1640536,1640536,Fix Released,cinder-volume startup error with cluster volume group,https://bugs.launchpad.net/cinder/+bug/1640536,2017-02-06
+1586953,1586953,Fix Released,Missing rootwrap config for getfattr in Cinder/Quobyte,https://bugs.launchpad.net/cinder/+bug/1586953,2017-02-06
+1649962,1649962,Fix Released,Cleanup empty SGs on failed volume create,https://bugs.launchpad.net/cinder/+bug/1649962,2017-02-06
+1616802,1616802,Fix Released,Add volumes/summary API support,https://bugs.launchpad.net/cinder/+bug/1616802,2017-02-06
+1646889,1646889,Fix Released,/v2/{tenant_id}/volumes/{volume_id}/metadata has wrong parameter description,https://bugs.launchpad.net/cinder/+bug/1646889,2017-02-06
+1659165,1659165,Fix Released,Fix Iops limit for clone for Nimble Storage Driver,https://bugs.launchpad.net/cinder/+bug/1659165,2017-02-06
+1398877,1398877,Fix Released,solidfire: update_cluster_status() need better error handling for connectivity issues,https://bugs.launchpad.net/cinder/+bug/1398877,2017-02-06
+1659481,1659481,Fix Released,test_emc_vmax.py should not mock volume_types.get_volume_type_extra_spec globally,https://bugs.launchpad.net/cinder/+bug/1659481,2017-02-06
+1656029,1656029,Fix Released,VMAX driver - QoS key fix,https://bugs.launchpad.net/cinder/+bug/1656029,2017-02-06
+1658782,1658782,Fix Released,xiv create consistency group mishandles types,https://bugs.launchpad.net/cinder/+bug/1658782,2017-02-06
+1659531,1659531,Fix Released,VMAX driver - removing of six.text_type in volume replication causes exception,https://bugs.launchpad.net/cinder/+bug/1659531,2017-02-06
+1660303,1660303,Fix Released,Doing unnecessary things when notifications are disabled,https://bugs.launchpad.net/cinder/+bug/1660303,2017-02-06
+1660127,1660127,Fix Released,ibm_storage fails to clean up replication volume on backend,https://bugs.launchpad.net/cinder/+bug/1660127,2017-02-06
+1532645,1532645,Fix Released,"[api-ref]Need to write ""update snapshot status"" on block storage v2 API",https://bugs.launchpad.net/cinder/+bug/1532645,2017-02-06
+1660479,1660479,Fix Released,Pure drivers don't have descriptions in the driver list output,https://bugs.launchpad.net/cinder/+bug/1660479,2017-02-06
+1660368,1660368,Fix Released,VMAX driver - sync sv issue,https://bugs.launchpad.net/cinder/+bug/1660368,2017-02-06
+1660669,1660669,Fix Released,Redundant log message during initialize connection,https://bugs.launchpad.net/cinder/+bug/1660669,2017-02-06
+1655541,1655541,Fix Released,"HPE 3Par: Volumes created and added in consistency group created from consistency-snapshot, differs from volume present in the source consistency group.",https://bugs.launchpad.net/cinder/+bug/1655541,2017-02-06
+1660734,1660734,Fix Released,Volume created with HA A/A cannot be deleted,https://bugs.launchpad.net/cinder/+bug/1660734,2017-02-06
+1660750,1660750,Fix Released,NULL cluster_name when creating temp volumes on A/A,https://bugs.launchpad.net/cinder/+bug/1660750,2017-02-06
+1660411,1660411,Fix Released,HNAS: Cloned volume with different volume types,https://bugs.launchpad.net/cinder/+bug/1660411,2017-02-06
+1661029,1661029,Fix Released,Maximum recursion depth exceeded in test_copy_volume_to_image_with_image_volume_failure,https://bugs.launchpad.net/cinder/+bug/1661029,2017-02-06
+1660928,1660928,Fix Released,Backwards compatibility for oslo messaging in Cinder,https://bugs.launchpad.net/cinder/+bug/1660928,2017-02-06
+1653806,1653806,Fix Released,Brocade driver HTTPS connection errors out with 'SSL3_WRITE_PENDING',https://bugs.launchpad.net/cinder/+bug/1653806,2017-02-06
+1661194,1661194,Fix Released,xiv delete cg fails if removed on backend,https://bugs.launchpad.net/cinder/+bug/1661194,2017-02-06
+1661144,1661144,Fix Released,Failed to initialize driver due to unrecognized option '--ignoreskippedcluster,https://bugs.launchpad.net/cinder/+bug/1661144,2017-02-06
+1659772,1659772,Fix Released,"Cinder manageable-list, snapshot-manageable-list returns 500 error if the marker specified is non present.",https://bugs.launchpad.net/cinder/+bug/1659772,2017-02-06
+1612633,1612633,Fix Released,Wrong calculation for quota refresh with max_age,https://bugs.launchpad.net/cinder/+bug/1612633,2017-02-06
+1660300,1660300,Fix Released,Image utils: fetching available space fails on Windows,https://bugs.launchpad.net/cinder/+bug/1660300,2017-02-06
+1660383,1660383,Fix Released,VMAX driver - error handling on incorrect failover command,https://bugs.launchpad.net/cinder/+bug/1660383,2017-02-06
+1660376,1660376,Fix Released,eval in Dell EMC VMAX drivers,https://bugs.launchpad.net/cinder/+bug/1660376,2017-02-06
+1659831,1659831,Fix Released,VMAX driver - ignore service level and workload in XML,https://bugs.launchpad.net/cinder/+bug/1659831,2017-02-06
+1657331,1657331,Fix Released,Cinder raise 500 error when list resources with sort_key and marker,https://bugs.launchpad.net/cinder/+bug/1657331,2017-02-06
+1661223,1661223,Fix Released,xiv failure to create volume from replicated source,https://bugs.launchpad.net/cinder/+bug/1661223,2017-02-06
+1662321,1662321,Fix Released,CI jobs failing due to XStatic dependencies,https://bugs.launchpad.net/tripleo/+bug/1662321,2017-02-06
+1654105,1654105,Fix Released,sqlalchemy migration doesn't work well,https://bugs.launchpad.net/zaqar/+bug/1654105,2017-02-06
+1660816,1660816,Fix Released,test_search_service_policies test not passing on master,https://bugs.launchpad.net/searchlight/+bug/1660816,2017-02-06
+1653778,1653778,Fix Released,Nova server renames are ignored by listener,https://bugs.launchpad.net/searchlight/+bug/1653778,2017-02-06
+1655396,1655396,Fix Released,"No ""filtered"" query in ES 5; API queries fail",https://bugs.launchpad.net/searchlight/+bug/1655396,2017-02-06
+1661352,1661352,Fix Released,Disable ironic plugin by default,https://bugs.launchpad.net/searchlight/+bug/1661352,2017-02-06
+1661388,1661388,Fix Released,index sync fails if ironic plugin's enabled but service is not present,https://bugs.launchpad.net/searchlight/+bug/1661388,2017-02-06
+1653752,1653752,Fix Released,Use of keystoneclient.session deprecated,https://bugs.launchpad.net/searchlight/+bug/1653752,2017-02-06
+1564655,1564655,Fix Released,centos should use the virt sig for qemu and libvirt requirments,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1564655,2017-02-06
+1632769,1632769,Fix Committed,ovs-vswitchd doesn't stop after ./devstack/clean.sh,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1632769,2017-02-06
+1584553,1584553,Fix Committed,add support for reno,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1584553,2017-02-06
+1661342,1661342,Fix Committed,fuel-devops output sometimes is messed up,https://bugs.launchpad.net/fuel/+bug/1661342,2017-02-06
+1661656,1661656,Fix Released,CI: promoted overcloud-full image is missing from the mirror,https://bugs.launchpad.net/tripleo/+bug/1661656,2017-02-06

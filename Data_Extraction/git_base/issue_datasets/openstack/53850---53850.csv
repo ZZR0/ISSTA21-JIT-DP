@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1497188,1497188,Fix Released,some of api tests ignore CONF.network_feature_enabled.ipv6,https://bugs.launchpad.net/neutron/+bug/1497188,2015-12-03
+1497186,1497186,Fix Released,some of api tests assume address-scope extension,https://bugs.launchpad.net/neutron/+bug/1497186,2015-12-03
+1497182,1497182,Fix Released,some of api tests assume net-mtu extension,https://bugs.launchpad.net/neutron/+bug/1497182,2015-12-03
+1493658,1493658,Fix Released,neutron CLI is case-insensitive when deleting/showing firewall /firewall rule/firewall policy,https://bugs.launchpad.net/neutron/+bug/1493658,2015-12-03
+1491824,1491824,Fix Released,neutron.tests.unit.test_wsgi.JSONDictSerializerTest.test_json_with_utf8,https://bugs.launchpad.net/neutron/+bug/1491824,2015-12-03
+1490885,1490885,Fix Released,Neutron should not accept invalid subnet CIDRs like '1/24',https://bugs.launchpad.net/neutron/+bug/1490885,2015-12-03
+1513313,1513313,Fix Released,create vip failed for unbound method get_device_name() must be called with OVSInterfaceDriver instance as first argument,https://bugs.launchpad.net/neutron/+bug/1513313,2015-12-03
+1511401,1511401,Fix Released,L3 agent no longer restarts on SIGHUP,https://bugs.launchpad.net/neutron/+bug/1511401,2015-12-03
+1506934,1506934,Fix Released,The exception type is wrong and makes the except block not work,https://bugs.launchpad.net/neutron/+bug/1506934,2015-12-03
+1506482,1506482,Fix Released,neutron_vpnaas.tests.unit.db.vpn.test_vpn_db.TestVpnDatabase.test_list_endpoint_groups fails due to ordering issue,https://bugs.launchpad.net/neutron/+bug/1506482,2015-12-03
+1505799,1505799,Fix Released,VPNaaS: Provide functional test support for multiple local subnets,https://bugs.launchpad.net/neutron/+bug/1505799,2015-12-03
+1505217,1505217,Fix Released,Spawn dedicated rpc workers for state reports queue,https://bugs.launchpad.net/neutron/+bug/1505217,2015-12-03
+1504880,1504880,Fix Released,VPNaaS: Update API documentation for endpoint groups,https://bugs.launchpad.net/neutron/+bug/1504880,2015-12-03
+1504557,1504557,Fix Released,timeutils.isotime() deprecated and replaced,https://bugs.launchpad.net/neutron/+bug/1504557,2015-12-03
+1502930,1502930,Fix Released,ipset grabs semaphore excessively,https://bugs.launchpad.net/neutron/+bug/1502930,2015-12-03
+1501835,1501835,Fix Released,Enable IPv6 Prefix Delegation using a new configuration option,https://bugs.launchpad.net/neutron/+bug/1501835,2015-12-03
+1497027,1497027,Fix Released,Empty bridges are not removed,https://bugs.launchpad.net/neutron/+bug/1497027,2015-12-03
+1437745,1437745,Fix Released,ML2 flat_networks blank config defaults to '*' instead of [],https://bugs.launchpad.net/neutron/+bug/1437745,2015-12-03
+1311019,1311019,Fix Released,l2-population : linuxbridge agent should use IpNeighCommand,https://bugs.launchpad.net/neutron/+bug/1311019,2015-12-03
+1520098,1520098,Fix Released,Neutron-FWaaS tempest plugin fails on Gate,https://bugs.launchpad.net/neutron/+bug/1520098,2015-12-03
+1519240,1519240,Fix Released,LBaaS v2 scenario tests are getting skipped,https://bugs.launchpad.net/neutron/+bug/1519240,2015-12-03
+1514935,1514935,Fix Released,"""Exception: Port tapcea51630-e1 is not ready, resync needed"" spamming neutron agent logs",https://bugs.launchpad.net/neutron/+bug/1514935,2015-12-03
+1513280,1513280,Fix Released,firewall tests failing in gate-neutron-dsvm-api due to over quota,https://bugs.launchpad.net/neutron/+bug/1513280,2015-12-03
+1512753,1512753,Fix Released,dictmodel string representation is port specific,https://bugs.launchpad.net/neutron/+bug/1512753,2015-12-03
+1504647,1504647,Fix Released,New interface hashing breaks upgrades for LinuxBridge,https://bugs.launchpad.net/neutron/+bug/1504647,2015-12-03
+1453008,1453008,Fix Released,Deadlock on update_port_status,https://bugs.launchpad.net/neutron/+bug/1453008,2015-12-03
+1359523,1359523,Fix Released,Security group rules are erroneously applied to all ports having same ip addresses in different networks,https://bugs.launchpad.net/neutron/+bug/1359523,2015-12-03
+1512937,1512937,Fix Released,CREATE_FAILED status due to 'Resource CREATE failed: NotFound: resources.pool: No eligible backend for pool,https://bugs.launchpad.net/neutron/+bug/1512937,2015-12-03
+1512937,1512937,Fix Released,CREATE_FAILED status due to 'Resource CREATE failed: NotFound: resources.pool: No eligible backend for pool,https://bugs.launchpad.net/heat/+bug/1512937,2015-12-03
+1507558,1507558,Fix Released,Ironic gate breakage: deployed VM's do not get DHCP,https://bugs.launchpad.net/neutron/+bug/1507558,2015-12-03
+1504892,1504892,Fix Released,create a keystone.version package,https://bugs.launchpad.net/keystone/+bug/1504892,2015-12-03
+1500222,1500222,Fix Released,Request info in logs,https://bugs.launchpad.net/keystone/+bug/1500222,2015-12-03
+1496041,1496041,Fix Released,Document accept requests on base paths rather than separate ports,https://bugs.launchpad.net/keystone/+bug/1496041,2015-12-03
+1521122,1521122,Fix Released,K2K: 'NoneType' object has no attribute 'check_output',https://bugs.launchpad.net/keystone/+bug/1521122,2015-12-03
+1519244,1519244,Fix Released,Allow building doc using make latexpdf,https://bugs.launchpad.net/keystone/+bug/1519244,2015-12-03
+1509581,1509581,Fix Released,Comment spelling error in assignment section,https://bugs.launchpad.net/keystone/+bug/1509581,2015-12-03
+1506986,1506986,Fix Released,documentation needs to be clarified about differences between subtree_as_ids and subtree_as_list,https://bugs.launchpad.net/keystone/+bug/1506986,2015-12-03
+1504891,1504891,Fix Released,keystone-paste.ini docs for deployers are out of date,https://bugs.launchpad.net/keystone/+bug/1504891,2015-12-03
+1496530,1496530,Fix Released,debug note in error response inaccurate,https://bugs.launchpad.net/keystone/+bug/1496530,2015-12-03
+1494922,1494922,Fix Released,Deprecate httpd/keystone.py in favor of  keystone-wsgi-admin or keystone-wsgi-public,https://bugs.launchpad.net/keystone/+bug/1494922,2015-12-03
+1482625,1482625,Fix Released,Fix unreachable code in test_v3 module,https://bugs.launchpad.net/keystone/+bug/1482625,2015-12-03
+1466772,1466772,Fix Released,File based domain config checks contain unused code,https://bugs.launchpad.net/keystone/+bug/1466772,2015-12-03
+1420125,1420125,Fix Released,href variables for federation controller are inconsistent,https://bugs.launchpad.net/keystone/+bug/1420125,2015-12-03
+1369388,1369388,Fix Released,"local configuration is not allowed in ""keystone-paste.ini""",https://bugs.launchpad.net/keystone/+bug/1369388,2015-12-03
+1520850,1520850,Fix Released,testcase fail due to value is not match,https://bugs.launchpad.net/keystone/+bug/1520850,2015-12-03
+1513464,1513464,Fix Released,wrong description in developer doc,https://bugs.launchpad.net/keystone/+bug/1513464,2015-12-03
+1511416,1511416,Fix Released,i18n safe exceptions,https://bugs.launchpad.net/keystone/+bug/1511416,2015-12-03
+1507944,1507944,Fix Released,Incorrect example in federated rules documentation,https://bugs.launchpad.net/keystone/+bug/1507944,2015-12-03
+1507920,1507920,Fix Released,get_user_roles exception in RoleAssignmentV2,https://bugs.launchpad.net/keystone/+bug/1507920,2015-12-03
+1506594,1506594,Fix Released,Keystone endpoint can not resolve DNS,https://bugs.launchpad.net/keystone/+bug/1506594,2015-12-03
+1481048,1481048,Fix Released,Sample httpd config should have LimitRequestBody,https://bugs.launchpad.net/keystone/+bug/1481048,2015-12-03
+1496943,1496943,Fix Released,v2 does not filter is_domain=True projects in get_project_by_name,https://bugs.launchpad.net/keystone/+bug/1496943,2015-12-03
+1396493,1396493,Fix Released,ceilometerclient doesn't support os-endpoint-type,https://bugs.launchpad.net/python-ceilometerclient/+bug/1396493,2015-12-03
+1519230,1519230,Fix Released,Wrong entity name for Host Aggregate resource,https://bugs.launchpad.net/heat/+bug/1519230,2015-12-03
+1519069,1519069,Fix Released,Rackspace::Cloud::Loadbalancer resource fails when sslTermination is specified,https://bugs.launchpad.net/heat/+bug/1519069,2015-12-03
+1518471,1518471,Fix Released,image and flavour name cannot be specified in  Rackspace::AutoScale::Group,https://bugs.launchpad.net/heat/+bug/1518471,2015-12-03
+1517094,1517094,Fix Released,No module named HostConstraint in h-eng.log,https://bugs.launchpad.net/heat/+bug/1517094,2015-12-03
+1516196,1516196,Fix Released,remove the unnecessary log message,https://bugs.launchpad.net/heat/+bug/1516196,2015-12-03
+1516089,1516089,Fix Released,Stack actions events are added twice for COMPLETE,https://bugs.launchpad.net/heat/+bug/1516089,2015-12-03
+1515215,1515215,Fix Released,Engine backtrace looking for neutron extensions,https://bugs.launchpad.net/heat/+bug/1515215,2015-12-03
+1510832,1510832,Fix Released,Exception raised when adopt-stack-data file not contain environment section,https://bugs.launchpad.net/heat/+bug/1510832,2015-12-03
+1516128,1516128,Fix Released,No handler found if logging occurs before logging is ready,https://bugs.launchpad.net/heat/+bug/1516128,2015-12-03
+1512750,1512750,Fix Released,Convergence logs are confusing,https://bugs.launchpad.net/heat/+bug/1512750,2015-12-03
+1505165,1505165,Fix Released,Add 'enable' for keystone resources,https://bugs.launchpad.net/heat/+bug/1505165,2015-12-03
+1521837,1521837,Fix Released,tox -e docs is broken due to py3 compatibility,https://bugs.launchpad.net/heat/+bug/1521837,2015-12-03
+1521715,1521715,Fix Released,Rackspace::Cloud::Network resource delete failing,https://bugs.launchpad.net/heat/+bug/1521715,2015-12-03
+1520387,1520387,Fix Released,Unhelpful error message when api-paste.ini is missing,https://bugs.launchpad.net/heat/+bug/1520387,2015-12-03
+1519428,1519428,Fix Released,"when create a RequestContext object,an exception happen",https://bugs.launchpad.net/heat/+bug/1519428,2015-12-03
+1518337,1518337,Fix Released,Can't use pseudo-integer with Fn::Select,https://bugs.launchpad.net/heat/+bug/1518337,2015-12-03
+1514748,1514748,Fix Released,datetime.datetime.now() should be replaced by timeutils.utcnow(),https://bugs.launchpad.net/heat/+bug/1514748,2015-12-03
+1513657,1513657,Fix Released,Unit tests  wrongly using has_calls,https://bugs.launchpad.net/heat/+bug/1513657,2015-12-03
+1512771,1512771,Fix Released,Stack operations spams the neutron extension endpoint,https://bugs.launchpad.net/heat/+bug/1512771,2015-12-03
+1511909,1511909,Fix Released,Failed to update the allocation_pools for subnet,https://bugs.launchpad.net/heat/+bug/1511909,2015-12-03
+1509354,1509354,Fix Released,New keystione resolve functions can not resolve None values,https://bugs.launchpad.net/heat/+bug/1509354,2015-12-03
+1508990,1508990,Fix Released,*_COMPLETE/FAILED status is still set too early,https://bugs.launchpad.net/heat/+bug/1508990,2015-12-03

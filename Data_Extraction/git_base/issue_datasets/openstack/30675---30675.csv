@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1613710,1613710,Fix Released,[documentation] We should update screenshots in docs,https://bugs.launchpad.net/murano/+bug/1613710,2017-01-25
+1624008,1624008,Fix Released,ObjectDestroyedError upon deployment failure,https://bugs.launchpad.net/murano/+bug/1624008,2017-01-25
+1626048,1626048,Fix Released,Error while deploying Cinder Volumes,https://bugs.launchpad.net/murano/+bug/1626048,2017-01-25
+1626238,1626238,Fix Released,Static actions can't work properly on semver <2.5.0,https://bugs.launchpad.net/murano/+bug/1626238,2017-01-25
+1627707,1627707,Fix Released,Murano is using its own configuration about which network is use despite devstack configuration(neutron by default),https://bugs.launchpad.net/murano/+bug/1627707,2017-01-25
+1627983,1627983,Fix Released,[docs] incorrect specify of package version range,https://bugs.launchpad.net/murano/+bug/1627983,2017-01-25
+1602360,1602360,Fix Released,Instance deployment fails if no security rules are configured,https://bugs.launchpad.net/murano/+bug/1602360,2017-01-25
+1628688,1628688,Fix Released,Murano hot_package.py copies file before checking whether it exists,https://bugs.launchpad.net/murano/+bug/1628688,2017-01-25
+1628830,1628830,Fix Released,Murano uses sys.maxint which was removed in python 3,https://bugs.launchpad.net/murano/+bug/1628830,2017-01-25
+1625219,1625219,Fix Released,Type error in middleware ext_context python3,https://bugs.launchpad.net/murano/+bug/1625219,2017-01-25
+1628290,1628290,Fix Released,CFServiceInstance.to_dict calls wrong class,https://bugs.launchpad.net/murano/+bug/1628290,2017-01-25
+1628905,1628905,Fix Released,Prevent unnecessary stack.push in Instance::releaseResources,https://bugs.launchpad.net/murano/+bug/1628905,2017-01-25
+1629361,1629361,Fix Released,Update task in the Service Actions API references invalid Session State,https://bugs.launchpad.net/murano/+bug/1629361,2017-01-25
+1629853,1629853,Fix Released,[app-framework] incorrect indentation in ReplicationGroup class,https://bugs.launchpad.net/murano/+bug/1629853,2017-01-25
+1511645,1511645,Fix Released,[CLI] Can't delete component from deployed environment with one app,https://bugs.launchpad.net/murano/+bug/1511645,2017-01-25
+1629795,1629795,Fix Released,Cinder volume is not destroyed,https://bugs.launchpad.net/murano/+bug/1629795,2017-01-25
+1630747,1630747,Fix Released,TypeError: Unexpected keyword passed to sqlalchemy.orm.session from cf_connections,https://bugs.launchpad.net/murano/+bug/1630747,2017-01-25
+1630782,1630782,Fix Released,Statistics class references invalid attributes for models.ApiStats,https://bugs.launchpad.net/murano/+bug/1630782,2017-01-25
+1630217,1630217,Fix Released,Error in murano manual installation doc,https://bugs.launchpad.net/murano/+bug/1630217,2017-01-25
+1632619,1632619,Fix Released,murano statservice gives error,https://bugs.launchpad.net/murano/+bug/1632619,2017-01-25
+1633096,1633096,Fix Released,Problem to deploy instance networks in multi-region,https://bugs.launchpad.net/murano/+bug/1633096,2017-01-25
+1633176,1633176,Fix Released,TypeError thrown by wait_ready in System Engine Agent,https://bugs.launchpad.net/murano/+bug/1633176,2017-01-25
+1633546,1633546,Fix Released,application-development-library.zip does not have license file,https://bugs.launchpad.net/murano/+bug/1633546,2017-01-25
+1626872,1626872,Fix Released,[tempest][tests] Usage of obsolete wait_for_backup_deletion,https://bugs.launchpad.net/murano/+bug/1626872,2017-01-25
+1633394,1633394,Fix Released,murano auth faild when only using keystone V3,https://bugs.launchpad.net/murano/+bug/1633394,2017-01-25
+1622384,1622384,Fix Released,[core library] Resources/murano-agent sets /bin/sh but uses local,https://bugs.launchpad.net/murano/+bug/1622384,2017-01-25
+1634876,1634876,Fix Released,Tempest Tests fail on test_deploy_app_with_volume_creation_from_backup test,https://bugs.launchpad.net/murano/+bug/1634876,2017-01-25
+1605806,1605806,Fix Released,[logging] SSLMiddleware X-Forwarded-Proto debug output is excessive,https://bugs.launchpad.net/murano/+bug/1605806,2017-01-25
+1467487,1467487,Fix Released,Filter of Murano Applications working not properly,https://bugs.launchpad.net/murano/+bug/1467487,2017-01-25
+1603950,1603950,Fix Released,[documentation] Draft documentation need to be moved to index,https://bugs.launchpad.net/murano/+bug/1603950,2017-01-25
+1634206,1634206,Fix Released,[AppFramework] Application configuration is not re-applied on new nodes if configuration key has not been changed,https://bugs.launchpad.net/murano/+bug/1634206,2017-01-25
+1643936,1643936,Fix Released,[tests] Purge stacks function may affect stacks from other tenants,https://bugs.launchpad.net/murano/+bug/1643936,2017-01-25
+1643702,1643702,Fix Released,Async HeatStack may never be executed,https://bugs.launchpad.net/murano/+bug/1643702,2017-01-25
+1643971,1643971,Fix Released,Murano won't spawn a windows instance,https://bugs.launchpad.net/murano/+bug/1643971,2017-01-25
+1625017,1625017,Fix Released,There are no direct support for Heat OS::Nova::Server scheduler_hints and metadata,https://bugs.launchpad.net/murano/+bug/1625017,2017-01-25
+1645419,1645419,Fix Released,Agent queues don't always get re-created,https://bugs.launchpad.net/murano/+bug/1645419,2017-01-25
+1645724,1645724,Fix Released,SharedIp is broken,https://bugs.launchpad.net/murano/+bug/1645724,2017-01-25
+1644797,1644797,Fix Released,Murano is unable to spawn VMs connected to a shared network owned by other projects,https://bugs.launchpad.net/murano/+bug/1644797,2017-01-25
+1651795,1651795,Fix Released,parallel_select in dsl.helpers throws TypeError in Python 3+,https://bugs.launchpad.net/murano/+bug/1651795,2017-01-25
+1638923,1638923,Fix Released,get_external_network_id_for_network call wrong method,https://bugs.launchpad.net/murano/+bug/1638923,2017-01-25
+1654103,1654103,Fix Released,Admin can't delete user's environment.,https://bugs.launchpad.net/murano/+bug/1654103,2017-01-25
+1627725,1627725,Fix Released,Incorrect response codes description in API spec 'POST applications',https://bugs.launchpad.net/murano/+bug/1627725,2017-01-25
+1622599,1622599,Fix Released,[Dashboard] There is no ability to mark image with custom image type,https://bugs.launchpad.net/murano/+bug/1622599,2017-01-25
+1618228,1618228,Fix Released,[glare][dashboard][tests] Update test_add_pkg_to_category_non_admin to work on glare,https://bugs.launchpad.net/murano/+bug/1618228,2017-01-25
+1624291,1624291,Fix Released,[dashboard] Murano images panel is broken,https://bugs.launchpad.net/murano/+bug/1624291,2017-01-25
+1625312,1625312,Fix Released,Small typo on murano-dashboard releasenotes,https://bugs.launchpad.net/murano/+bug/1625312,2017-01-25
+1624423,1624423,Fix Released,[dashboard] Murano should show error if glance v2 is used,https://bugs.launchpad.net/murano/+bug/1624423,2017-01-25
+1627774,1627774,Fix Released,Muranodashboard API is listening at a wrong URL,https://bugs.launchpad.net/murano/+bug/1627774,2017-01-25
+1627971,1627971,Fix Released,[dashabord][test]test_apps_pagination test faild,https://bugs.launchpad.net/murano/+bug/1627971,2017-01-25
+1613671,1613671,Fix Released,[MuranoDashboard] incorrect behavior of the column Type,https://bugs.launchpad.net/murano/+bug/1613671,2017-01-25
+1567859,1567859,Fix Released,[dashboard] Password displaying mode breaks warnings,https://bugs.launchpad.net/murano/+bug/1567859,2017-01-25
+1629904,1629904,Fix Released,[dashboard] In Murano App configuration wizard move Back/Next w/o losing any data,https://bugs.launchpad.net/murano/+bug/1629904,2017-01-25
+1630672,1630672,Fix Released,[UI] UI crashes if the UI definition file has no Forms section,https://bugs.launchpad.net/murano/+bug/1630672,2017-01-25
+1632293,1632293,Fix Released,[Dashboard] Murano doesn't allow user to choose already deployed components in dropdown,https://bugs.launchpad.net/murano/+bug/1632293,2017-01-25
+1635709,1635709,Fix Released,[dashboard] Syntax Error in raise exception statement in Packages Forms,https://bugs.launchpad.net/murano/+bug/1635709,2017-01-25
+1636263,1636263,Fix Released,[dashboard] DetailView.get_data throws UnboundLocalError,https://bugs.launchpad.net/murano/+bug/1636263,2017-01-25
+1637568,1637568,Fix Released,[dashboard] TypeError thrown by UpdateServiceRow.update_cell in Environment Tables,https://bugs.launchpad.net/murano/+bug/1637568,2017-01-25
+1638928,1638928,Fix Released,[dashboard] RuntimeError thrown by finalize_properties in Dynamic UI Fields,https://bugs.launchpad.net/murano/+bug/1638928,2017-01-25
+1638722,1638722,Fix Released,[dashboard] TypeError thrown by raise statement in packages/views.py,https://bugs.launchpad.net/murano/+bug/1638722,2017-01-25
+1636639,1636639,Fix Released,[dashboard] Module has no attribute 'StringTypes',https://bugs.launchpad.net/murano/+bug/1636639,2017-01-25
+1641149,1641149,Fix Released,[dashboard] UnboundLocalError thrown by get_context_data in Environment Views,https://bugs.launchpad.net/murano/+bug/1641149,2017-01-25
+1641422,1641422,Fix Released,[dashboard] Environment OverviewTab find_stack recursion bug/doesn't work,https://bugs.launchpad.net/murano/+bug/1641422,2017-01-25
+1642374,1642374,Fix Released,[dashboard] Dropdown values are not sorted,https://bugs.launchpad.net/murano/+bug/1642374,2017-01-25
+1642152,1642152,Fix Released,murano dashboard shouldn't overwrite the custom DATABASE config,https://bugs.launchpad.net/murano/+bug/1642152,2017-01-25
+1645668,1645668,Fix Released,[UI] Topology: Entities in topology viewer do not  display lists of atomic properties,https://bugs.launchpad.net/murano/+bug/1645668,2017-01-25
+1645367,1645367,Fix Released,[UI] Topology: Application icons are not displayed properly for deployed apps,https://bugs.launchpad.net/murano/+bug/1645367,2017-01-25
+1647490,1647490,Fix Released,[dashboard] AttributeError thrown by CustomUnpickler for referencing unavailable method,https://bugs.launchpad.net/murano/+bug/1647490,2017-01-25
+1650029,1650029,Fix Released,[dashboard][tests] Fix failing unit tests,https://bugs.launchpad.net/murano/+bug/1650029,2017-01-25
+1648227,1648227,Fix Released,murano-dashboard doesn't show correctly the instance name and stack name,https://bugs.launchpad.net/murano/+bug/1648227,2017-01-25
+1650831,1650831,Fix Released,[tests][glare][dashboard] test_filter_by_description fails on glare gate job,https://bugs.launchpad.net/murano/+bug/1650831,2017-01-25
+1650514,1650514,Fix Released,Murano dashboard fails unit tests if html5lib is installed in venv,https://bugs.launchpad.net/murano/+bug/1650514,2017-01-25
+1650406,1650406,Fix Released,Can't define default value for the flavor field,https://bugs.launchpad.net/murano/+bug/1650406,2017-01-25
+1640998,1640998,Fix Released,muranodashboard limit yaql object to 100,https://bugs.launchpad.net/murano/+bug/1640998,2017-01-25
+1627851,1627851,Fix Released,Windows Agent throw a exception when the powershell output is null.,https://bugs.launchpad.net/murano/+bug/1627851,2017-01-25
+1658044,1658044,Fix Released,Make rabbitmq password config property as secret,https://bugs.launchpad.net/murano/+bug/1658044,2017-01-25

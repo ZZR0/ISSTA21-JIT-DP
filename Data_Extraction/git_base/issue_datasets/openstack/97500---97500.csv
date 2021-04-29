@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+802434,802434,Fix Released,nova-instancemonitor needs to be refreshed or dumped,https://bugs.launchpad.net/nova/+bug/802434,2011-12-19
+897749,897749,Fix Released,'keystone-manage endpoint add myTenant nova' appears to succeed,https://bugs.launchpad.net/keystone/+bug/897749,2011-12-17
+828267,828267,Fix Released,leases in dnsmasq aren't immediately released on disassociate.,https://bugs.launchpad.net/nova/+bug/828267,2011-12-16
+887833,887833,Fix Released,GET /users/{user_id} does not return user name,https://bugs.launchpad.net/keystone/+bug/887833,2011-12-14
+855182,855182,Fix Released,Supply tenantName to POST /tokens,https://bugs.launchpad.net/keystone/+bug/855182,2011-12-14
+904230,904230,Fix Released,nova-milestone-tarball job fails,https://bugs.launchpad.net/openstack-ci/+bug/904230,2011-12-14
+844947,844947,Fix Released,OSAPI v1.1 basic server entity should not have config_drive/key_name attributes,https://bugs.launchpad.net/nova/+bug/844947,2011-12-14
+903839,903839,Fix Released,nova stable/diablo unit test gate job fails due to wrong virtualenv,https://bugs.launchpad.net/openstack-ci/+bug/903839,2011-12-13
+891420,891420,Fix Released,Gerrit keeps removing openstack/nova from my watched projects,https://bugs.launchpad.net/openstack-ci/+bug/891420,2011-12-11
+896466,896466,Fix Released,nova.openstack.org no longer updating,https://bugs.launchpad.net/openstack-ci/+bug/896466,2011-12-11
+878925,878925,Fix Released,glance builder has user_xattr mount option,https://bugs.launchpad.net/openstack-ci/+bug/878925,2011-12-09
+848857,848857,Fix Released,Openstack nova-coverage job on Jenkins failures,https://bugs.launchpad.net/openstack-ci/+bug/848857,2011-12-09
+888461,888461,Fix Released,Extraneous glance tarball should be cleaned up on nova.openstack.org/tarballs,https://bugs.launchpad.net/openstack-ci/+bug/888461,2011-12-09
+848980,848980,Fix Released,Nova/Glance have outdated versions for maverick/lucid in milestone PPA,https://bugs.launchpad.net/openstack-ci/+bug/848980,2011-12-09
+848985,848985,Fix Released,Glance: Fails to build in Trunk PPA for maverick/lucid,https://bugs.launchpad.net/openstack-ci/+bug/848985,2011-12-09
+816386,816386,Fix Released,glance-scrubber missing from tarball (was: test_scrubber functional tests fail on package build),https://bugs.launchpad.net/glance/+bug/816386,2011-12-09
+822831,822831,Fix Released,Set up weekly automatic translations merge for Nova,https://bugs.launchpad.net/openstack-ci/+bug/822831,2011-12-09
+899056,899056,Fix Released,python-novaclient needs milestone-proposed Jenkins jobs,https://bugs.launchpad.net/openstack-ci/+bug/899056,2011-12-09
+863718,863718,Fix Released,bad python-pastedeploy in PPA?,https://bugs.launchpad.net/openstack-ci/+bug/863718,2011-12-09
+888458,888458,Fix Released,Stable branches should only be +2 by stable team maintainers,https://bugs.launchpad.net/openstack-ci/+bug/888458,2011-12-09
+900330,900330,Fix Released,quantum_auth_token.py middleware fails on roles,https://bugs.launchpad.net/keystone/+bug/900330,2011-12-07
+901027,901027,Fix Released,Merge prop 1879 unit tests failing on Jenkins that should pass,https://bugs.launchpad.net/openstack-ci/+bug/901027,2011-12-07
+894034,894034,Fix Released,Milestone-proposed branches should be +2able by PTLs,https://bugs.launchpad.net/openstack-ci/+bug/894034,2011-12-05
+897031,897031,Fix Released,Building in top-level doc directory fails,https://bugs.launchpad.net/openstack-manuals/+bug/897031,2011-12-05
+859620,859620,Fix Released,"""Merged"" email notification has non-useful subject",https://bugs.launchpad.net/openstack-ci/+bug/859620,2011-12-02
+878187,878187,Fix Released,Gerrit IRC notifications do not mention branch,https://bugs.launchpad.net/openstack-ci/+bug/878187,2011-12-02
+888479,888479,Fix Released,Bug should not be set to FixCommitted on non-master merge,https://bugs.launchpad.net/openstack-ci/+bug/888479,2011-12-02
+894733,894733,Fix Released,Jenkins periodic jobs no longer run,https://bugs.launchpad.net/openstack-ci/+bug/894733,2011-12-02
+885089,885089,Fix Released,services sometimes don't launch in screen,https://bugs.launchpad.net/devstack/+bug/885089,2011-11-29
+886666,886666,Fix Released,exception in get_uec_image.sh seem to be ignore,https://bugs.launchpad.net/devstack/+bug/886666,2011-11-29
+897854,897854,Fix Released,Unable to download quantum-0.1.tar.gz,https://bugs.launchpad.net/devstack/+bug/897854,2011-11-29
+888460,888460,Fix Released,"nova-milestone-tarball job fails to run on ""nova"" slave",https://bugs.launchpad.net/openstack-ci/+bug/888460,2011-11-29
+609791,609791,Fix Released,AMQPChannelException when running instance,https://bugs.launchpad.net/nova/+bug/609791,2011-11-27
+724317,724317,Fix Released,openssl error due to openssl.cnf.tmpl file provided by OpenStack,https://bugs.launchpad.net/nova/+bug/724317,2011-11-25
+887288,887288,Fix Released,proxy memory usage grows,https://bugs.launchpad.net/swift/+bug/887288,2011-11-24
+884187,884187,Fix Released,user can belong to more than one tenant？,https://bugs.launchpad.net/keystone/+bug/884187,2011-11-24
+634171,634171,Fix Released,Add better error handling to the st utility for swift,https://bugs.launchpad.net/swift/+bug/634171,2011-11-23
+854675,854675,Fix Released,auth causes 'NoneType' object has no attribute 'id' if no service admin exists,https://bugs.launchpad.net/keystone/+bug/854675,2011-11-22
+676531,676531,Fix Released,st tool needs proper bash exit codes,https://bugs.launchpad.net/swift/+bug/676531,2011-11-22
+827913,827913,Fix Released,swift-drive-audit does not work with > 26 drives,https://bugs.launchpad.net/swift/+bug/827913,2011-11-19
+887278,887278,Fix Released,swift-recon disk usage distribution graph is broken,https://bugs.launchpad.net/swift/+bug/887278,2011-11-18
+885404,885404,Fix Released,fix time-sensitive tests in expiring objects,https://bugs.launchpad.net/swift/+bug/885404,2011-11-18
+884766,884766,Fix Released,Where is the code: bzr or git?,https://bugs.launchpad.net/swift/+bug/884766,2011-11-18
+876927,876927,Fix Released,post_account: Undefined variable 'path' in client.py,https://bugs.launchpad.net/swift/+bug/876927,2011-11-18
+845952,845952,Fix Released,index out of range on ring rebalance,https://bugs.launchpad.net/swift/+bug/845952,2011-11-18
+884247,884247,Fix Released,fix doc import example,https://bugs.launchpad.net/swift/+bug/884247,2011-11-18
+883640,883640,Fix Released,remove bazaar and LP references,https://bugs.launchpad.net/swift/+bug/883640,2011-11-18
+873133,873133,Fix Released,Etag in HEAD or GET of a segmented file (manifest) does not work as documented,https://bugs.launchpad.net/swift/+bug/873133,2011-11-18
+857673,857673,Fix Released,COPY method fails to handle URL encoding properly,https://bugs.launchpad.net/swift/+bug/857673,2011-11-18
+872013,872013,Fix Released,trans-id not always set correctly,https://bugs.launchpad.net/swift/+bug/872013,2011-11-18
+836922,836922,Fix Released,swift-ring-builder exit status confusing,https://bugs.launchpad.net/swift/+bug/836922,2011-11-18
+890612,890612,Fix Released,Nova trunk PPA FTBFS,https://bugs.launchpad.net/openstack-ci/+bug/890612,2011-11-15
+848785,848785,Fix Released,"command ""nova-manage vpn list progect_name"" faild",https://bugs.launchpad.net/nova/+bug/848785,2011-11-14
+862752,862752,Fix Released,Auth call returns None as TenantId,https://bugs.launchpad.net/keystone/+bug/862752,2011-11-09
+844932,844932,Fix Released,Image status documentation out of date,https://bugs.launchpad.net/glance/+bug/844932,2011-11-09
+854094,854094,Fix Released,API documentation not current,https://bugs.launchpad.net/glance/+bug/854094,2011-11-09
+834683,834683,Fix Released,RoleID and RoleName,https://bugs.launchpad.net/keystone/+bug/834683,2011-11-09
+843054,843054,Fix Released,Keystone Discoverability,https://bugs.launchpad.net/keystone/+bug/843054,2011-11-09
+854228,854228,Fix Released,update docs and templates to use tenant IDs (instead of names),https://bugs.launchpad.net/keystone/+bug/854228,2011-11-09
+855823,855823,Fix Released,KeyError: 'roleRefs' in auth_token.py,https://bugs.launchpad.net/keystone/+bug/855823,2011-11-09
+856846,856846,Fix Released,TypeError: sequence item 0: expected string in users_get_by_tenant_get_page,https://bugs.launchpad.net/keystone/+bug/856846,2011-11-09
+856857,856857,Fix Released,Incorrect invocation of types.user.User constructor,https://bugs.launchpad.net/keystone/+bug/856857,2011-11-09
+863661,863661,Fix Released,KeyError: 'tenantId'  in /opt/stack/keystone/keystone/middleware/auth_token.py,https://bugs.launchpad.net/keystone/+bug/863661,2011-11-09
+861546,861546,Fix Released,Keystone tests fail with latest Webob,https://bugs.launchpad.net/keystone/+bug/861546,2011-11-09
+859927,859927,Fix Released,Scoping to non-existent tenant returns error 500,https://bugs.launchpad.net/keystone/+bug/859927,2011-11-09
+849007,849007,Fix Released,keystone-manage commands need to convert tenant name to ID,https://bugs.launchpad.net/keystone/+bug/849007,2011-11-09
+848267,848267,Fix Released,keystone requires unittest2 at runtime,https://bugs.launchpad.net/keystone/+bug/848267,2011-11-09
+843068,843068,Fix Released,Support Multiple Credentials & Protocols,https://bugs.launchpad.net/keystone/+bug/843068,2011-11-09
+831574,831574,Fix Released,Missing sys import in keystone.common.template,https://bugs.launchpad.net/keystone/+bug/831574,2011-11-09
+843062,843062,Fix Released,unit tests heavy on disk IO,https://bugs.launchpad.net/keystone/+bug/843062,2011-11-09
+886312,886312,Fix Released,"nova-network stuck on ""sudo arping""",https://bugs.launchpad.net/devstack/+bug/886312,2011-11-04
+701216,701216,Fix Released,"When a floating IP is associated with an instance, describe_instances for ec2 fails",https://bugs.launchpad.net/nova/+bug/701216,2011-11-03
+882851,882851,Fix Released,create_multiport fails when interfaces are already used on the host blade with cisco plugin,https://bugs.launchpad.net/neutron/+bug/882851,2011-11-01
+848399,848399,Fix Released,Port Keystone to novaclient from openstackx,https://bugs.launchpad.net/horizon/+bug/848399,2011-11-01
+848396,848396,Fix Released,Port Service Catalog to novaclient from openstackx,https://bugs.launchpad.net/horizon/+bug/848396,2011-11-01

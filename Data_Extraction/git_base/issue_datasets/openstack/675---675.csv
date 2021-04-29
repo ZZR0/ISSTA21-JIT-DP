@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1898751,1898751,Fix Released,/periodic-tripleo-ci-centos-8-scenario010-standalone-network-master is timing out running tempest -  Unable to access /var/lib/neutron/external/pids/XX.pid.haproxy; Error: [Errno 2] No such file or directory: '/var/lib/neutron/external/pids/XX.pid.haproxy,https://bugs.launchpad.net/tripleo/+bug/1898751,2020-10-07
+1894380,1894380,Fix Released,Neutron SFC and DR not upgraded with rolling upgrade,https://bugs.launchpad.net/kolla-ansible/+bug/1894380,2020-10-07
+1898046,1898046,Fix Released,Centos-8 Train OVB jobs are failing tempest - authenticated ssh - ERROR neutron.agent.linux.utils [-] Exit code: 2; Stdin: ; Stdout: ; Stderr: ping: sysctl: Name or service not known,https://bugs.launchpad.net/tripleo/+bug/1898046,2020-10-07
+1863298,1863298,Fix Released,manila manage OverQuota - no good way out,https://bugs.launchpad.net/manila/+bug/1863298,2020-10-07
+1764556,1764556,Fix Released,"""nova list"" fails with exception.ServiceNotFound if service is deleted and has no UUID",https://bugs.launchpad.net/nova/+bug/1764556,2020-10-07
+1778305,1778305,Fix Released,"Nova may erronously look up service version of a deleted service, when hostname have been reused",https://bugs.launchpad.net/nova/+bug/1778305,2020-10-07
+1898799,1898799,Fix Released,Syntax error in Landing pages on docs.openstack.org in Documentation Contributor Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1898799,2020-10-07
+1898724,1898724,Fix Released,Unable to deploy overcloud with deployed servers,https://bugs.launchpad.net/tripleo/+bug/1898724,2020-10-07
+1896248,1896248,Fix Committed,tripleo-ci-centos-7-containerized-undercloud-upgrades job is failing due to missing snmp,https://bugs.launchpad.net/tripleo/+bug/1896248,2020-10-07
+1753209,1753209,Fix Released,"neutron_tempest_plugin.api.admin.test_shared_network_extension.RBACSharedNetworksTest, rbac policy in use across tenants.",https://bugs.launchpad.net/tripleo/+bug/1753209,2020-10-07
+1753209,1753209,Fix Committed,"neutron_tempest_plugin.api.admin.test_shared_network_extension.RBACSharedNetworksTest, rbac policy in use across tenants.",https://bugs.launchpad.net/tempest/+bug/1753209,2020-10-07
+1753209,1753209,Fix Released,"neutron_tempest_plugin.api.admin.test_shared_network_extension.RBACSharedNetworksTest, rbac policy in use across tenants.",https://bugs.launchpad.net/neutron/+bug/1753209,2020-10-07
+1894357,1894357,Fix Released,staticweb makes bad links on python 3,https://bugs.launchpad.net/swift/+bug/1894357,2020-10-07
+1890337,1890337,Fix Released,Default OVN deployment requires Neutron bridge on compute nodes.,https://bugs.launchpad.net/tripleo/+bug/1890337,2020-10-07
+1898621,1898621,Fix Released,Backup: not all arguments converted during string formatting,https://bugs.launchpad.net/cinder/+bug/1898621,2020-10-06
+1885825,1885825,Fix Released,No implicit user creation with GRANT syntax in MySQL 8.0 Ubuntu Focal,https://bugs.launchpad.net/tacker/+bug/1885825,2020-10-06
+1885825,1885825,Fix Released,No implicit user creation with GRANT syntax in MySQL 8.0 Ubuntu Focal,https://bugs.launchpad.net/nova/+bug/1885825,2020-10-06
+1885825,1885825,Fix Released,No implicit user creation with GRANT syntax in MySQL 8.0 Ubuntu Focal,https://bugs.launchpad.net/zaqar/+bug/1885825,2020-10-06
+1885825,1885825,Fix Released,No implicit user creation with GRANT syntax in MySQL 8.0 Ubuntu Focal,https://bugs.launchpad.net/keystone/+bug/1885825,2020-10-06
+1885825,1885825,Fix Released,No implicit user creation with GRANT syntax in MySQL 8.0 Ubuntu Focal,https://bugs.launchpad.net/coverage2sql/+bug/1885825,2020-10-06
+1751923,1751923,Fix Released,"_heal_instance_info_cache periodic task bases on port list from nova db, not from neutron server",https://bugs.launchpad.net/nova/+bug/1751923,2020-10-06
+1897326,1897326,Fix Released,scenario test test_floating_ip_update is failing often on Ubuntu 20.04,https://bugs.launchpad.net/neutron/+bug/1897326,2020-10-06
+1896867,1896867,Fix Released,functional test failures due to unsuccessfully parsed duplicate key error,https://bugs.launchpad.net/tacker/+bug/1896867,2020-10-06
+1898526,1898526,Fix Released,Zabbix is not working after fixing zabbix url support ipv6,https://bugs.launchpad.net/tacker/+bug/1898526,2020-10-06
+1897947,1897947,Fix Released,periodic-tripleo-ci-centos-8-scenario010-standalone-octavia-master fails tempest with 'ModuleNotFoundError: No module named 'httpx'',https://bugs.launchpad.net/tripleo/+bug/1897947,2020-10-06
+1897343,1897343,Fix Released,Instructions on target host preparation for Ubuntu are outdated,https://bugs.launchpad.net/openstack-ansible/+bug/1897343,2020-10-06
+1896850,1896850,Fix Released,dhcp release fails when client_id is specified,https://bugs.launchpad.net/neutron/+bug/1896850,2020-10-06
+1535095,1535095,Fix Released,DEFAULT/network_device_mtu is deprecated in Liberty,https://bugs.launchpad.net/puppet-nova/+bug/1535095,2020-10-06
+1866931,1866931,Fix Released,Doc in tripleo_ansible/ansible_plugins/modules/baremetal_register_or_update_nodes.py is wrong,https://bugs.launchpad.net/tripleo/+bug/1866931,2020-10-06
+1806064,1806064,Fix Released,"Volume remains in attaching/reserved status, if the instance is deleted after TooManyInstances exception in nova-conductor",https://bugs.launchpad.net/nova/+bug/1806064,2020-10-06
+1837524,1837524,Fix Released,storwize: create_consistency_group fails if the volume has mirror copy,https://bugs.launchpad.net/cinder/+bug/1837524,2020-10-05
+1890589,1890589,Fix Released,storwize: create_flashcopy_to_consistgrp should call get_vdisk_attributes if the size and pool information is missing,https://bugs.launchpad.net/cinder/+bug/1890589,2020-10-05
+1895688,1895688,Fix Released,Authenticated RCE in blazar-dashboard via python expression in POST parameters,https://bugs.launchpad.net/blazar/+bug/1895688,2020-10-05
+1897893,1897893,Fix Released,kuryr-controller stuck if connection to K8s API dies silently,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1897893,2020-10-05
+1596611,1596611,Fix Released,[RFE] Create L3 floating IPs with qos (rate limit),https://bugs.launchpad.net/neutron/+bug/1596611,2020-10-05
+1897503,1897503,Fix Released,[tripleo-ansible][B&R] misconfigured the already nfs server,https://bugs.launchpad.net/tripleo/+bug/1897503,2020-10-05
+1898113,1898113,Fix Released,centos8 stream job fails processing overcloud.yaml,https://bugs.launchpad.net/tripleo/+bug/1898113,2020-10-05
+1783369,1783369,Fix Released,Some ojectstorage tests use skip_path() and assume swift is deployed on the /,https://bugs.launchpad.net/tempest/+bug/1783369,2020-10-05
+1897643,1897643,Fix Released,test_cmd_executor functional test always fail,https://bugs.launchpad.net/tacker/+bug/1897643,2020-10-05
+1863680,1863680,Fix Released,python3 swift-dispersion-report issue,https://bugs.launchpad.net/swift/+bug/1863680,2020-10-03
+1895346,1895346,Fix Released,swift-dispersion-populate and python3,https://bugs.launchpad.net/swift/+bug/1895346,2020-10-03
+1842149,1842149,Fix Released,TLS ciphers/protocols are not configurable for console proxies,https://bugs.launchpad.net/nova/+bug/1842149,2020-10-02
+1898035,1898035,Fix Released,nova-next job fails in post_test_hooks.sh with BadRequest,https://bugs.launchpad.net/nova/+bug/1898035,2020-10-02
+1886124,1886124,Fix Released,Running the VNF LCM instantiate using the sample vnf package fails,https://bugs.launchpad.net/tacker/+bug/1886124,2020-10-02
+1886622,1886622,Fix Released,vnf package delete command cannot delete package,https://bugs.launchpad.net/tacker/+bug/1886622,2020-10-02
+1897936,1897936,Fix Released,Pool update fails when zones exist,https://bugs.launchpad.net/designate/+bug/1897936,2020-10-02
+1895034,1895034,Fix Released,Generating CephExternalMultiConfig is error prone,https://bugs.launchpad.net/tripleo/+bug/1895034,2020-10-02
+1855912,1855912,Fix Released,MariaDB 10.1 fails during alembic migration,https://bugs.launchpad.net/neutron/+bug/1855912,2020-10-02
+1878314,1878314,Fix Released,Upgrade Rocky milestone revisions has no effective,https://bugs.launchpad.net/neutron/+bug/1878314,2020-10-02
+1871239,1871239,Fix Released,ovn-octavia-provider is not using load balancing algorithm source-ip-port,https://bugs.launchpad.net/neutron/+bug/1871239,2020-10-02
+1862178,1862178,Fix Committed,"Fullstack tests failing due to ""hang"" neutron-server process",https://bugs.launchpad.net/neutron/+bug/1862178,2020-10-02
+1853613,1853613,Fix Released,VMs don't get ip from dhcp after compute restart,https://bugs.launchpad.net/neutron/+bug/1853613,2020-10-02
+1869355,1869355,Fix Released,NotificationDriver should be 'noop' by default because telemetry services are disabled,https://bugs.launchpad.net/tripleo/+bug/1869355,2020-10-02
+1855888,1855888,Fix Released,ovs-offload with vxlan is broken due to adding skb mark,https://bugs.launchpad.net/neutron/+bug/1855888,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/astara/+bug/1519510,2020-10-02
+1519510,1519510,Fix Committed,remove py26 support,https://bugs.launchpad.net/python-heatclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Committed,remove py26 support,https://bugs.launchpad.net/python-magnumclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-zaqarclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/congress/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-novaclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-muranoclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Committed,remove py26 support,https://bugs.launchpad.net/python-designateclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-oneviewclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-manilaclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-mistralclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-swiftclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-openstackclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-watcherclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-glanceclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-saharaclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-tackerclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-cinderclient/+bug/1519510,2020-10-02
+1519510,1519510,Fix Released,remove py26 support,https://bugs.launchpad.net/python-barbicanclient/+bug/1519510,2020-10-02
+1526170,1526170,Fix Released,Python 3.3 support is being dropped since OpenStack Liberty.,https://bugs.launchpad.net/python-manilaclient/+bug/1526170,2020-10-02
+1526170,1526170,Fix Released,Python 3.3 support is being dropped since OpenStack Liberty.,https://bugs.launchpad.net/mistral/+bug/1526170,2020-10-02

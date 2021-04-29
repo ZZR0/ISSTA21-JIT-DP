@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1517398,1517398,Fix Released,vcenter_hooks.py doesn't support hiera override,https://bugs.launchpad.net/fuel/+bug/1517398,2016-02-16
+1463000,1463000,Fix Released,Packages for rabbitmq-server,https://bugs.launchpad.net/fuel/+bug/1463000,2016-02-16
+1503828,1503828,Fix Released,fuel-master iptables wrong if pxe interface changed from eth0,https://bugs.launchpad.net/fuel/+bug/1503828,2016-02-16
+1540289,1540289,Fix Released,"Cannot download ""All reports"" from product-stats. 500 Internal error",https://bugs.launchpad.net/fuel/+bug/1540289,2016-02-16
+1545864,1545864,Fix Released,Devstack dies if DISTRO not found,https://bugs.launchpad.net/devstack/+bug/1545864,2016-02-16
+1533660,1533660,Fix Released,Handle version 8.0 in the fuel-stats,https://bugs.launchpad.net/fuel/+bug/1533660,2016-02-16
+1515579,1515579,Fix Released,Implement filtration of fuel-stats by the fuel packages info,https://bugs.launchpad.net/fuel/+bug/1515579,2016-02-16
+1429077,1429077,Fix Released,The firewall rules are spread around all puppet manifests and should be put into the openstack::firewall,https://bugs.launchpad.net/fuel/+bug/1429077,2016-02-16
+1545659,1545659,Fix Released,Support Postgresql as backend database in DBLayer,https://bugs.launchpad.net/solar/+bug/1545659,2016-02-16
+1540422,1540422,Fix Committed,fuel-qa: update test for lma-collector plugin 0.9,https://bugs.launchpad.net/fuel/+bug/1540422,2016-02-16
+1489542,1489542,Fix Released,[librarian] update_modules.sh does not update a module if the folder exists but the contents has been removed,https://bugs.launchpad.net/fuel/+bug/1489542,2016-02-16
+1544433,1544433,Fix Released,Remove KEYSTONE_CATALOG_BACKEND from DevStack plugin,https://bugs.launchpad.net/watcher/+bug/1544433,2016-02-16
+1461562,1461562,Fix Released,Failed to casting message to the nailgun. RabbitMQ was dead,https://bugs.launchpad.net/fuel/+bug/1461562,2016-02-16
+1538182,1538182,Fix Committed,System tests 7.0 doesn't worked because of problem with libvirt,https://bugs.launchpad.net/fuel/+bug/1538182,2016-02-16
+1495536,1495536,Fix Released,Need to move all UI-related tests to verify-fuel-web-ui job and remove CasperJS tests,https://bugs.launchpad.net/fuel/+bug/1495536,2016-02-16
+1525780,1525780,Fix Released,neutron-openvswitch-agent fails to terminate on SIGTERM when of_interface=native,https://bugs.launchpad.net/neutron/+bug/1525780,2016-02-16
+1545870,1545870,Fix Released,Do not make OS Version mandatory,https://bugs.launchpad.net/heat-translator/+bug/1545870,2016-02-16
+1490538,1490538,Fix Released,gnocchi evaluator should use python-gnocchiclient,https://bugs.launchpad.net/aodh/+bug/1490538,2016-02-16
+1545571,1545571,Fix Released,Cannot create remote_mac_entry with same vtep_address,https://bugs.launchpad.net/networking-midonet/+bug/1545571,2016-02-16
+1545355,1545355,Fix Released,Add README.rst to security-doc repo,https://bugs.launchpad.net/openstack-manuals/+bug/1545355,2016-02-16
+1545513,1545513,Fix Released,[cli] adding apps to env template doesn't work,https://bugs.launchpad.net/python-muranoclient/+bug/1545513,2016-02-16
+1545599,1545599,Fix Released,"neutron router-interface-delete is failing with ""internal server error"" when neutron server is restarted after changing the 'ovn_l3_mode' to True from False",https://bugs.launchpad.net/networking-ovn/+bug/1545599,2016-02-16
+1544870,1544870,Fix Released,FWaaS - missing 'insert_rule' and 'remove_rule',https://bugs.launchpad.net/openstack-api-site/+bug/1544870,2016-02-15
+1544872,1544872,Fix Released,Layer-3 networking - Missing 'routers' object in GET v2.0/routers,https://bugs.launchpad.net/openstack-api-site/+bug/1544872,2016-02-15
+1545225,1545225,Fix Released,Compute - Cleanup replacement from 'id' to 'xxxx_id',https://bugs.launchpad.net/openstack-api-site/+bug/1545225,2016-02-15
+1457588,1457588,Fix Released,Implement QoS support in OVN,https://bugs.launchpad.net/networking-ovn/+bug/1457588,2016-02-15
+1539344,1539344,Fix Released,There is a warning of deprecated WritableLogger() when RefStack server start up.,https://bugs.launchpad.net/refstack/+bug/1539344,2016-02-15
+1539252,1539252,Fix Released,Scalability problem with the use of IPDB,https://bugs.launchpad.net/kuryr/+bug/1539252,2016-02-15
+1544691,1544691,Fix Released,Introduction to OpenStack in Security Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1544691,2016-02-15
+1522481,1522481,Fix Released,lnx2lnx patch is not restored after reboot on CentOS7,https://bugs.launchpad.net/fuel/+bug/1522481,2016-02-15
+1535721,1535721,Fix Released,Description of response parameters in not present to Create Multiple Servers,https://bugs.launchpad.net/openstack-api-site/+bug/1535721,2016-02-15
+1538440,1538440,Fix Released,Django INSTALLED_APPS not set correctly,https://bugs.launchpad.net/app-catalog/+bug/1538440,2016-02-15
+1323365,1323365,Fix Committed,[vbox] Virtualbox script does not setup dns upstream properly,https://bugs.launchpad.net/fuel/+bug/1323365,2016-02-15
+1516747,1516747,Fix Released,Cannot configure disk with Fuel 7 gui,https://bugs.launchpad.net/fuel/+bug/1516747,2016-02-15
+1475093,1475093,Fix Released,l3_db updates port db without calling l2 plugin,https://bugs.launchpad.net/neutron/+bug/1475093,2016-02-15
+1504656,1504656,Fix Released,verify-fuel-library-puppetfile doesn't work for older versions,https://bugs.launchpad.net/fuel/+bug/1504656,2016-02-15
+1544519,1544519,Fix Committed,[devops] Push force upstream git repository to mirrored one,https://bugs.launchpad.net/fuel/+bug/1544519,2016-02-15
+1545406,1545406,Fix Released,Container openstack-base for Ubuntu fails to build,https://bugs.launchpad.net/kolla/+bug/1545406,2016-02-15
+1544753,1544753,Fix Released,Hyper-V Security Groups Driver fails to apply rule due to unrecognised protocol,https://bugs.launchpad.net/networking-hyperv/+bug/1544753,2016-02-15
+1500836,1500836,Fix Released,fuelmenu saveonly mode misses some defaults,https://bugs.launchpad.net/fuel/+bug/1500836,2016-02-15
+1500849,1500849,Fix Released,astute.yaml should be serializated the same everywhere,https://bugs.launchpad.net/fuel/+bug/1500849,2016-02-15
+1523233,1523233,Fix Released,fuel-mirror apply creates incorrect configuration for new environments,https://bugs.launchpad.net/fuel/+bug/1523233,2016-02-15
+1539049,1539049,Fix Committed,please update email notifs in jenkins jobs,https://bugs.launchpad.net/fuel/+bug/1539049,2016-02-15
+1523505,1523505,Fix Released,JS modules bundle needs to be updated,https://bugs.launchpad.net/fuel/+bug/1523505,2016-02-15
+1530040,1530040,Fix Released,It is impossible to activate hotpluggable plugin version in deployed environment,https://bugs.launchpad.net/fuel/+bug/1530040,2016-02-15
+1513887,1513887,Fix Released,Support multiple floating networks,https://bugs.launchpad.net/fuel/+bug/1513887,2016-02-15
+1514389,1514389,Fix Released,[fuel_agent] Clean-up apt-cache before containerize,https://bugs.launchpad.net/fuel/+bug/1514389,2016-02-15
+1545630,1545630,Fix Released,Use openstack/solar-resources for resources,https://bugs.launchpad.net/solar/+bug/1545630,2016-02-15
+1541414,1541414,Fix Released,Avoid `None` as a redundant second argument to `dict.get()`,https://bugs.launchpad.net/rally/+bug/1541414,2016-02-15
+1523117,1523117,Fix Released,udevd: failed to rename network device,https://bugs.launchpad.net/fuel/+bug/1523117,2016-02-15
+1378962,1378962,Fix Released,Node Libvirt Unique UUID Not Generated On Deployment,https://bugs.launchpad.net/puppet-nova/+bug/1378962,2016-02-15
+1378962,1378962,Fix Released,Node Libvirt Unique UUID Not Generated On Deployment,https://bugs.launchpad.net/fuel/+bug/1378962,2016-02-15
+1503592,1503592,Fix Released,[fuel-library] Ignore languages in apt-get,https://bugs.launchpad.net/fuel/+bug/1503592,2016-02-15
+1516724,1516724,Fix Released,Create Fuel Plugin Astara project in /Openstack,https://bugs.launchpad.net/fuel/+bug/1516724,2016-02-15
+1528212,1528212,Fix Released,[nailgun] Extracting the list of all enabled plugins from astute.yaml,https://bugs.launchpad.net/fuel/+bug/1528212,2016-02-15
+1510190,1510190,Fix Released,Cannot filter list of audit-template by name,https://bugs.launchpad.net/python-watcherclient/+bug/1510190,2016-02-15
+1539417,1539417,Fix Released,i18n setup,https://bugs.launchpad.net/networking-midonet/+bug/1539417,2016-02-15
+1522282,1522282,Fix Released,should stop using neutron.i18n,https://bugs.launchpad.net/networking-midonet/+bug/1522282,2016-02-15
+1542574,1542574,Fix Released,cinder-backup container fails to enumarate volumes on startup with lvm backend,https://bugs.launchpad.net/kolla/+bug/1542574,2016-02-15
+1535600,1535600,Fix Released,Add status field_labels for environment,https://bugs.launchpad.net/python-muranoclient/+bug/1535600,2016-02-15
+1545182,1545182,Fix Released,[cli] broken project/tenant arguments handling,https://bugs.launchpad.net/python-muranoclient/+bug/1545182,2016-02-14
+1545292,1545292,Fix Released,regression in last week causes keystone to return unauthorized,https://bugs.launchpad.net/kolla/+bug/1545292,2016-02-14
+1545215,1545215,Fix Released,kolla-toolbox fails to build on CentOS,https://bugs.launchpad.net/kolla/+bug/1545215,2016-02-14
+1544320,1544320,Fix Released,"Floating IP status is ""ACTIVE"" when it is not associated with any port",https://bugs.launchpad.net/vmware-nsx/+bug/1544320,2016-02-14
+1541410,1541410,Fix Released,gate-sahara-buildimages-ambari job fails for ambari >= 2.1.2,https://bugs.launchpad.net/sahara/+bug/1541410,2016-02-14
+1544640,1544640,Fix Released,NSX v3 API Client needs more debug logging for state and failures,https://bugs.launchpad.net/vmware-nsx/+bug/1544640,2016-02-14
+1516759,1516759,Fix Released,Debian packaging,https://bugs.launchpad.net/swauth/+bug/1516759,2016-02-14
+1545430,1545430,Fix Released,Incorrect content-type sent on JSON responses,https://bugs.launchpad.net/swauth/+bug/1545430,2016-02-14
+1525053,1525053,Fix Released,Make public strings wrapped with i18n function,https://bugs.launchpad.net/kuryr/+bug/1525053,2016-02-14
+1333292,1333292,Fix Released,[osci] nova-api hangs during openstack updating,https://bugs.launchpad.net/fuel/+bug/1333292,2016-02-14
+1540801,1540801,Fix Released,No CUSTOM_THEME_PATH needed for horizon,https://bugs.launchpad.net/devstack/+bug/1540801,2016-02-14
+1533942,1533942,Fix Released,neutron_openvswitch_agent failed to start due to  br-ex  doesn't exist,https://bugs.launchpad.net/kolla/+bug/1533942,2016-02-14
+1520626,1520626,Fix Committed,The test_plugin_role_conflict_with_plugin_and_core fails periodically in Nailgun,https://bugs.launchpad.net/fuel/+bug/1520626,2016-02-13
+1527605,1527605,Fix Released,fuel-bootstrap doesn't allow to override default package/config list,https://bugs.launchpad.net/fuel/+bug/1527605,2016-02-13
+1492438,1492438,Fix Committed,sysctl provider in fuel-library causes noop failures on OSX,https://bugs.launchpad.net/fuel/+bug/1492438,2016-02-13

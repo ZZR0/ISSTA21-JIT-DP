@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1735699,1735699,Fix Released,memcached on under/over clouds leak auth tokens,https://bugs.launchpad.net/tripleo/+bug/1735699,2020-02-28
+1788009,1788009,Fix Released,neutron bridge name is not always set for ml2/ovs,https://bugs.launchpad.net/neutron/+bug/1788009,2020-02-28
+1857021,1857021,Fix Released,Wrong order of adding/deleting router ports may end up with not configured router port,https://bugs.launchpad.net/neutron/+bug/1857021,2020-02-28
+1860326,1860326,Fix Released,Kill neutron-keepalived-state-change-monitor fails,https://bugs.launchpad.net/neutron/+bug/1860326,2020-02-28
+1836095,1836095,Fix Released,"Improve ""OVSFirewallDriver.process_trusted_ports""",https://bugs.launchpad.net/neutron/+bug/1836095,2020-02-28
+1609217,1609217,Fix Released,DVR: dvr router ns should not exist in scheduled DHCP agent nodes,https://bugs.launchpad.net/neutron/+bug/1609217,2020-02-28
+1659175,1659175,Fix Released,Hit internal error when using StandardAttribute as sort-key,https://bugs.launchpad.net/neutron/+bug/1659175,2020-02-28
+1795127,1795127,Fix Released,[dvr][ha] router state change cause unnecessary router_update,https://bugs.launchpad.net/neutron/+bug/1795127,2020-02-28
+1822199,1822199,Fix Released,neutron-vpn-netns-wrapper not invoked with --rootwrap_config parameter,https://bugs.launchpad.net/neutron/+bug/1822199,2020-02-28
+1826697,1826697,Fix Released,[VPNaaS]: Strongswan function gate failed,https://bugs.launchpad.net/neutron/+bug/1826697,2020-02-28
+1784590,1784590,Fix Released,neutron-dynamic-routing bgp agent should have options for MP-BGP,https://bugs.launchpad.net/neutron/+bug/1784590,2020-02-28
+1795883,1795883,Fix Released,OVN doc build fails due to wrong path,https://bugs.launchpad.net/networking-ovn/+bug/1795883,2020-02-28
+1790900,1790900,Fix Released,Unnecessary ACL added for DHCP traffic,https://bugs.launchpad.net/networking-ovn/+bug/1790900,2020-02-28
+1789921,1789921,Fix Released,Migration to port groups may not work on multiple controllers deployment,https://bugs.launchpad.net/networking-ovn/+bug/1789921,2020-02-28
+1719574,1719574,Fix Released,[OVN]- openstack network agent list command doesn't display  anything,https://bugs.launchpad.net/networking-ovn/+bug/1719574,2020-02-28
+1798028,1798028,Fix Released,neutron-ovn-db-sync-util still recreates Address Sets/ACLs even if Port Groups are supported,https://bugs.launchpad.net/networking-ovn/+bug/1798028,2020-02-28
+1533724,1533724,Fix Released,[SRU] keystone-signing folders fill /tmp and seriously slow down reboots,https://bugs.launchpad.net/keystonemiddleware/+bug/1533724,2020-02-28
+1796878,1796878,Fix Released,agent_alive(): KeyError race problem,https://bugs.launchpad.net/networking-ovn/+bug/1796878,2020-02-28
+1798377,1798377,Fix Released,migration scripts ml2/ovs -> ml2/networking-ovn hit a bug on ovs-vswitchd,https://bugs.launchpad.net/networking-ovn/+bug/1798377,2020-02-28
+1791925,1791925,Fix Released,networking-ovn does not work with Python3.5+,https://bugs.launchpad.net/networking-ovn/+bug/1791925,2020-02-28
+1802373,1802373,Fix Released,Tempest is failing after new test was added to neutron tempest plugin,https://bugs.launchpad.net/networking-ovn/+bug/1802373,2020-02-28
+1804194,1804194,Fix Released,After ml2/ovs to ml2/networking-ovn migration neutron resources are left on the database,https://bugs.launchpad.net/networking-ovn/+bug/1804194,2020-02-28
+1800846,1800846,Fix Released,Race condition while updating ports,https://bugs.launchpad.net/networking-ovn/+bug/1800846,2020-02-28
+1804407,1804407,Fix Released,Networking-ovn does not notify Nova about port status changes,https://bugs.launchpad.net/networking-ovn/+bug/1804407,2020-02-28
+1799703,1799703,Fix Released,Functional tests fail sometimes with timeout,https://bugs.launchpad.net/networking-ovn/+bug/1799703,2020-02-28
+1804477,1804477,Fix Released,migration: if the migration is failed/stopped in the middle a 2nd run fails (pre migration resources conflict),https://bugs.launchpad.net/networking-ovn/+bug/1804477,2020-02-28
+1810292,1810292,Fix Released,functional tests failing due to duplicate Encap entries,https://bugs.launchpad.net/networking-ovn/+bug/1810292,2020-02-28
+1799216,1799216,Fix Released,"OVN Metadata agent is not making use of the configure bridge in OVSDB, instead fetching from config",https://bugs.launchpad.net/networking-ovn/+bug/1799216,2020-02-28
+1814975,1814975,Fix Released,ovn-controller agent health check always 'alive' if  metadata agent running,https://bugs.launchpad.net/networking-ovn/+bug/1814975,2020-02-28
+1808753,1808753,Fix Released,networking-ovn doesn't add IPv6 static route when external gateway is added to a router,https://bugs.launchpad.net/networking-ovn/+bug/1808753,2020-02-28
+1816031,1816031,Fix Released,UnboundLocalError: local variable 'mac' referenced before assignment,https://bugs.launchpad.net/networking-ovn/+bug/1816031,2020-02-28
+1814820,1814820,Fix Released,Error in ovn_migration.sh validation wont let you use $HOME/ovn-extras.yaml,https://bugs.launchpad.net/networking-ovn/+bug/1814820,2020-02-28
+1814817,1814817,Fix Released,"After migration mapped bridges are looking for a controller, and leftover openflow rules are left in them",https://bugs.launchpad.net/networking-ovn/+bug/1814817,2020-02-28
+1814826,1814826,Fix Released,ovn_migration.sh generate-inventory references reduce-mtu as the next step,https://bugs.launchpad.net/networking-ovn/+bug/1814826,2020-02-28
+1814824,1814824,Fix Released,networking-ovn-migration-mtu output is confusing during ovn_migration.sh reduce-mtu call,https://bugs.launchpad.net/networking-ovn/+bug/1814824,2020-02-28
+1814812,1814812,Fix Released,"Don't remove alive dhcp agents during migration, as they could be still be used for SRIOV service",https://bugs.launchpad.net/networking-ovn/+bug/1814812,2020-02-28
+1814831,1814831,Fix Released,long downtime during migration from ml2/ovs to ml2/ovn,https://bugs.launchpad.net/networking-ovn/+bug/1814831,2020-02-28
+1816033,1816033,Fix Released,ERROR ovsdbapp.event KeyError: 'neutron:ovn-metadata-sb-cfg',https://bugs.launchpad.net/networking-ovn/+bug/1816033,2020-02-28
+1818626,1818626,Fix Released,Functional python 3.5 job is failing on Ubuntu Bionic,https://bugs.launchpad.net/networking-ovn/+bug/1818626,2020-02-28
+1814698,1814698,Fix Released,Optimization: Reduce the number of transactions to OVSDBs,https://bugs.launchpad.net/networking-ovn/+bug/1814698,2020-02-28
+1828585,1828585,Fix Released,neutron-server waits unnecessarily for metadata service when DHCP is disabled,https://bugs.launchpad.net/networking-ovn/+bug/1828585,2020-02-28
+1824984,1824984,Fix Released,Migration from ml2/ovs fails because instances don't get ssh keys,https://bugs.launchpad.net/networking-ovn/+bug/1824984,2020-02-28
+1831224,1831224,Fix Released,Metadata service race condition (WARNING: Metadata service is not ready for port),https://bugs.launchpad.net/networking-ovn/+bug/1831224,2020-02-28
+1832831,1832831,Fix Released,requirements-check job fails on Rocky branch,https://bugs.launchpad.net/networking-ovn/+bug/1832831,2020-02-28
+1830221,1830221,Fix Released,networking_ovn.tests.functional.test_metadata_agent.TestMetadataAgent.test_agent_resync_on_non_existing_bridge fails because agent doesn't refresh the settings,https://bugs.launchpad.net/networking-ovn/+bug/1830221,2020-02-28
+1835226,1835226,Fix Released,Metadata Agent: Disappears from agent-list command after ovn-controller is restarted,https://bugs.launchpad.net/networking-ovn/+bug/1835226,2020-02-28
+1837003,1837003,Fix Released,Maintenance task doesn't have enough logging verbosity,https://bugs.launchpad.net/networking-ovn/+bug/1837003,2020-02-28
+1837870,1837870,Fix Released,OVN metadata agent doesn't work while calling nova with TLS,https://bugs.launchpad.net/networking-ovn/+bug/1837870,2020-02-28
+1839434,1839434,Fix Released,test_update_port_with_empty_data is failing,https://bugs.launchpad.net/networking-ovn/+bug/1839434,2020-02-28
+1834637,1834637,Fix Released,Creating a trunk with many subports is really slow,https://bugs.launchpad.net/networking-ovn/+bug/1834637,2020-02-28
+1840876,1840876,Fix Released,Evacuation failing in networking-ovn with VirtualInterfaceCreateException,https://bugs.launchpad.net/networking-ovn/+bug/1840876,2020-02-28
+1838969,1838969,Fix Released,Race condition when creating neutron_pg_drop port group,https://bugs.launchpad.net/networking-ovn/+bug/1838969,2020-02-28
+1847707,1847707,Fix Released,"ovn migration  playbook fails with  'Error parsing reference: \""5672\\\""\"" is not a valid repository/tag'",https://bugs.launchpad.net/networking-ovn/+bug/1847707,2020-02-28
+1843944,1843944,Fix Released,tox functional fails on str conversions,https://bugs.launchpad.net/networking-ovn/+bug/1843944,2020-02-28
+1855328,1855328,Fix Released,Network id info missing in Logical Router Port,https://bugs.launchpad.net/networking-ovn/+bug/1855328,2020-02-28
+1762691,1762691,Fix Released,Not rescheduling gateways upon Chassis addition can lead to routers not being in HA,https://bugs.launchpad.net/networking-ovn/+bug/1762691,2020-02-28
+1835375,1835375,Fix Released,Functional tests: fixup_uca: command not found,https://bugs.launchpad.net/networking-ovn/+bug/1835375,2020-02-28
+1815270,1815270,Fix Released,Port's port security doesn't work as expected,https://bugs.launchpad.net/networking-ovn/+bug/1815270,2020-02-28
+1838535,1838535,Fix Released,"Remove ""unknown"" from router ports and localports addresses column",https://bugs.launchpad.net/networking-ovn/+bug/1838535,2020-02-28
+1800875,1800875,Fix Released,Race condition when multiple interfaces are attached to a router,https://bugs.launchpad.net/networking-ovn/+bug/1800875,2020-02-28
+1841913,1841913,Fix Released,"Error executing ""test_updating_metadata_doesnt_update_controller_stats"", stat not found",https://bugs.launchpad.net/networking-ovn/+bug/1841913,2020-02-28
+1848521,1848521,Fix Released,Skip all Neutron DHCP Agent ports in networking-ovn,https://bugs.launchpad.net/networking-ovn/+bug/1848521,2020-02-28
+1791348,1791348,Fix Released,Improve Performance of n-odl DB operations,https://bugs.launchpad.net/networking-odl/+bug/1791348,2020-02-28
+1351412,1351412,Fix Released,iptables element in tripleo-image-elements do not support Debian distro,https://bugs.launchpad.net/tripleo/+bug/1351412,2020-02-28
+1211557,1211557,Fix Released,root password on a restored instance is empty,https://bugs.launchpad.net/trove/+bug/1211557,2020-02-28
+1198857,1198857,Fix Released,Context isn't reseted after request,https://bugs.launchpad.net/sahara/+bug/1198857,2020-02-28
+836605,836605,Fix Released,Container delete + re-creation can retain old ACL permissions,https://bugs.launchpad.net/swift/+bug/836605,2020-02-28
+1569416,1569416,Fix Released,PercentileComputation sometimes gives incorrect result,https://bugs.launchpad.net/rally/+bug/1569416,2020-02-28
+1864987,1864987,Fix Released,unit tests are failing at Python 3.8 environment,https://bugs.launchpad.net/rally/+bug/1864987,2020-02-28
+1845142,1845142,Fix Released,kolla-ansible CI: tacker-conductor dies always (Train only),https://bugs.launchpad.net/kolla-ansible/+bug/1845142,2020-02-28
+1859496,1859496,Fix Released,Deleting stuck build instance may leak allocations,https://bugs.launchpad.net/nova/+bug/1859496,2020-02-28
+1447675,1447675,Fix Released,directory listing of the service No-VNC,https://bugs.launchpad.net/nova/+bug/1447675,2020-02-28
+1526831,1526831,Fix Released,Hyper-V: swapped disks after host reboot,https://bugs.launchpad.net/nova/+bug/1526831,2020-02-28
+1410984,1410984,Fix Released,special routers ports' ownership can be edited,https://bugs.launchpad.net/neutron/+bug/1410984,2020-02-27
+1524274,1524274,Fix Released,[OSSA 2016-001] Unprivileged api user can access host data using instance snapshot (CVE-2015-7548),https://bugs.launchpad.net/ossa/+bug/1524274,2020-02-27

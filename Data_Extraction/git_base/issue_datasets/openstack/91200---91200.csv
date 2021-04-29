@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1097464,1097464,Fix Released,_cleanup_running_deleted_instances periodic task failing,https://bugs.launchpad.net/nova/+bug/1097464,2013-04-04
+1096508,1096508,Fix Released,config drive doesn't work if using xml request format,https://bugs.launchpad.net/nova/+bug/1096508,2013-04-04
+1095403,1095403,Fix Released,vm_state DELETED race in resource tracker,https://bugs.launchpad.net/nova/+bug/1095403,2013-04-04
+1094373,1094373,Fix Released,libvirt: resize of whole disk image fails,https://bugs.launchpad.net/nova/+bug/1094373,2013-04-04
+1092786,1092786,Fix Released,delete cloudpipe in building state will cause cloudpipe cannot re-deploy anymore,https://bugs.launchpad.net/nova/+bug/1092786,2013-04-04
+1092761,1092761,Fix Released,concurrent disassociate floating ip calls leads to 500 error,https://bugs.launchpad.net/nova/+bug/1092761,2013-04-04
+1088606,1088606,Fix Released,os-used-limits API extension should optionally include the reserved count,https://bugs.launchpad.net/nova/+bug/1088606,2013-04-04
+1088530,1088530,Fix Released,wrong methods can be called on nova APIs,https://bugs.launchpad.net/nova/+bug/1088530,2013-04-04
+1087028,1087028,Fix Released,libvirt: Two Ephemeral backing files are created in base,https://bugs.launchpad.net/nova/+bug/1087028,2013-04-04
+1086688,1086688,Fix Released,resize-revert fails with Failure: [libvirtError :....No such file],https://bugs.launchpad.net/nova/+bug/1086688,2013-04-04
+1084651,1084651,Fix Released,Nova network - Teardown unused networks in VLAN manager mode,https://bugs.launchpad.net/nova/+bug/1084651,2013-04-04
+1084232,1084232,Fix Released,Allow None for ticks_between_runs when configuring periodic tasks,https://bugs.launchpad.net/nova/+bug/1084232,2013-04-04
+1083784,1083784,Fix Released,plug_vifs() not called for each instance when nova compute is started,https://bugs.launchpad.net/nova/+bug/1083784,2013-04-04
+1083447,1083447,Fix Released,nova.virt.libvirt.imagebackend incorrectly hardcodes _base,https://bugs.launchpad.net/nova/+bug/1083447,2013-04-04
+1082132,1082132,Fix Released,HostDeserializer doesn't support multiple line xml,https://bugs.launchpad.net/nova/+bug/1082132,2013-04-04
+1081370,1081370,Fix Released,Multiple node compute doesn't support retry semantics,https://bugs.launchpad.net/nova/+bug/1081370,2013-04-04
+1081355,1081355,Fix Released,Multiple node compute resize bug,https://bugs.launchpad.net/nova/+bug/1081355,2013-04-04
+1081287,1081287,Fix Released,rxtx_factor should be validated as a float,https://bugs.launchpad.net/nova/+bug/1081287,2013-04-04
+1080837,1080837,Fix Released,rename instance_info_cache instance_uuid unique constraints,https://bugs.launchpad.net/nova/+bug/1080837,2013-04-04
+1076109,1076109,Fix Released,nova rest /v2/ call returns v1.1 documentation,https://bugs.launchpad.net/nova/+bug/1076109,2013-04-04
+1067638,1067638,Fix Released,Cannot detach volume from LXC instance,https://bugs.launchpad.net/nova/+bug/1067638,2013-04-04
+1066140,1066140,Fix Released,resize-confirm and resize-revert don't work sometimes,https://bugs.launchpad.net/nova/+bug/1066140,2013-04-04
+1060884,1060884,Fix Released,Disabling/enabling host via API returns HTTP 400 Bad Request,https://bugs.launchpad.net/nova/+bug/1060884,2013-04-04
+1057279,1057279,Fix Released,"console auth does not work with memcache, unicode error",https://bugs.launchpad.net/nova/+bug/1057279,2013-04-04
+861504,861504,Fix Released,nova-compute-lxc limited by available nbd devices to 16 instances,https://bugs.launchpad.net/nova/+bug/861504,2013-04-04
+1098278,1098278,Fix Released,KeyError when logging,https://bugs.launchpad.net/nova/+bug/1098278,2013-04-04
+1097978,1097978,Fix Released,compute_utils.parse_decimal_id doesn't work for all instance_name_templates,https://bugs.launchpad.net/nova/+bug/1097978,2013-04-04
+1096653,1096653,Fix Released,detached instance error on some unit tests,https://bugs.launchpad.net/nova/+bug/1096653,2013-04-04
+1096196,1096196,Fix Released,Retry filter broken,https://bugs.launchpad.net/nova/+bug/1096196,2013-04-04
+1092762,1092762,Fix Released,Rapidly removing a floating ip can leave behind nat rules,https://bugs.launchpad.net/nova/+bug/1092762,2013-04-04
+1089430,1089430,Fix Released,Failed to execute nova list network if using qpid,https://bugs.launchpad.net/nova/+bug/1089430,2013-04-04
+1089092,1089092,Fix Released,New instance's IP can change if rescheduled,https://bugs.launchpad.net/nova/+bug/1089092,2013-04-04
+1088625,1088625,Fix Released,CONF.rescue_timeout not used correctly,https://bugs.launchpad.net/nova/+bug/1088625,2013-04-04
+1088615,1088615,Fix Released,vm_vdi_cleaner.py broken,https://bugs.launchpad.net/nova/+bug/1088615,2013-04-04
+1088584,1088584,Fix Released,Creating a server with a name that already exists,https://bugs.launchpad.net/nova/+bug/1088584,2013-04-04
+1087869,1087869,Fix Released,KeyError: 'disk_format' when booting from volume and xenapi,https://bugs.launchpad.net/nova/+bug/1087869,2013-04-04
+1087807,1087807,Fix Released,filter_scheduler not obeying force_hosts and ignore_hosts,https://bugs.launchpad.net/nova/+bug/1087807,2013-04-04
+1087252,1087252,Fix Released,No handler for NFS volume,https://bugs.launchpad.net/nova/+bug/1087252,2013-04-04
+1085325,1085325,Fix Released,confirm_resize tries to update dest resource tracker,https://bugs.launchpad.net/nova/+bug/1085325,2013-04-04
+1085071,1085071,Fix Released,Nova resize fails if user is not an admin,https://bugs.launchpad.net/nova/+bug/1085071,2013-04-04
+1084261,1084261,Fix Released,'nova-manage project quota' command fails with 'nova-manage: error: no such option: --project',https://bugs.launchpad.net/nova/+bug/1084261,2013-04-04
+1084240,1084240,Fix Released,conductor breaks sqlite datetime fields,https://bugs.launchpad.net/nova/+bug/1084240,2013-04-04
+1083018,1083018,Fix Released,"HyperV compute ""resume"" tests need to be fixed",https://bugs.launchpad.net/nova/+bug/1083018,2013-04-04
+1081750,1081750,Fix Released,nova/network/minidns.py should avoid writing dnstest.txt in local directory,https://bugs.launchpad.net/nova/+bug/1081750,2013-04-04
+1078808,1078808,Fix Released,Multi host DHCP networking and local DNS resolving,https://bugs.launchpad.net/nova/+bug/1078808,2013-04-04
+1067683,1067683,Fix Released,"When unique constraint error occured, exception of  NovaBase.save() raising cause is sqlalchemy.exc.IntegrityError.",https://bugs.launchpad.net/nova/+bug/1067683,2013-04-04
+1009701,1009701,Fix Released,LXC volume attachment code does not work,https://bugs.launchpad.net/nova/+bug/1009701,2013-04-04
+1005990,1005990,Fix Released,security group handler doesn't get called with QuantumManger,https://bugs.launchpad.net/nova/+bug/1005990,2013-04-04
+1096972,1096972,Fix Released,sync_power_states fails because it queries for deleted instances,https://bugs.launchpad.net/nova/+bug/1096972,2013-04-04
+1091403,1091403,Fix Released,nova-manage stack trace when a usage message should be emitted,https://bugs.launchpad.net/nova/+bug/1091403,2013-04-04
+1089192,1089192,Fix Released,lxml 2.3.5 broken,https://bugs.launchpad.net/nova/+bug/1089192,2013-04-04
+1088761,1088761,Fix Released,minidns is leaking temp directories,https://bugs.launchpad.net/openstack-ci/+bug/1088761,2013-04-04
+1088761,1088761,Fix Released,minidns is leaking temp directories,https://bugs.launchpad.net/nova/+bug/1088761,2013-04-04
+1088073,1088073,Fix Released,nbd mounter does not respect max_nbd_devices,https://bugs.launchpad.net/nova/+bug/1088073,2013-04-04
+1084208,1084208,Fix Released,migration 144 doesn't support PostgreSQL,https://bugs.launchpad.net/nova/+bug/1084208,2013-04-04
+1081436,1081436,Fix Released,Only return the last N lines of the console log,https://bugs.launchpad.net/nova/+bug/1081436,2013-04-04
+1057906,1057906,Fix Released,Association of  not allocated floating IP or floating IP allocated for another project are not throwing proper error messages,https://bugs.launchpad.net/nova/+bug/1057906,2013-04-04
+1057831,1057831,Fix Released,Binaries only use default topics,https://bugs.launchpad.net/nova/+bug/1057831,2013-04-04
+1057806,1057806,Fix Released,Image creation needs a size parameter,https://bugs.launchpad.net/nova/+bug/1057806,2013-04-04
+1056918,1056918,Fix Released,"Folsom - Error message for ""Create Flavor""  when Flavor ID is duplicate is not proper",https://bugs.launchpad.net/nova/+bug/1056918,2013-04-04
+1056910,1056910,Fix Released,Folsom - Unable to create flavor without optional parameters,https://bugs.launchpad.net/nova/+bug/1056910,2013-04-04
+1055737,1055737,Fix Released,XenServer bandwidth usage is inaccurate.,https://bugs.launchpad.net/nova/+bug/1055737,2013-04-04
+1054848,1054848,Fix Released,move ldap tests code to nova/tests,https://bugs.launchpad.net/nova/+bug/1054848,2013-04-04
+1053421,1053421,Fix Released,Exception handling could be improved in a number of places,https://bugs.launchpad.net/nova/+bug/1053421,2013-04-04
+1050388,1050388,Fix Released,Create Volume Snapshot with nonexistant volume Id is throwing a server Error  (HTTP 500),https://bugs.launchpad.net/nova/+bug/1050388,2013-04-04
+1064550,1064550,Fix Released,quiet down ssh-key related UserWarning's when running smoke tests,https://bugs.launchpad.net/nova/+bug/1064550,2013-04-04
+1056038,1056038,Fix Released,404 error message can be user friendly while deleting the non-existing floating ip,https://bugs.launchpad.net/nova/+bug/1056038,2013-04-04
+1050922,1050922,Fix Released,404 messages could be more user-friendly,https://bugs.launchpad.net/nova/+bug/1050922,2013-04-04
+1084177,1084177,Fix Released,nova config to override sqlalchemy defaults,https://bugs.launchpad.net/nova/+bug/1084177,2013-04-04
+1079629,1079629,Fix Released,Terminate the long-running cat in rootwrap tests,https://bugs.launchpad.net/nova/+bug/1079629,2013-04-04
+1078737,1078737,Fix Released,Unit Test to create instance without config driver is wrong,https://bugs.launchpad.net/nova/+bug/1078737,2013-04-04
+1078718,1078718,Fix Released,Fixed IP isn't released before updating DHCP host file,https://bugs.launchpad.net/nova/+bug/1078718,2013-04-04
+1078067,1078067,Fix Released,missing exceptions,https://bugs.launchpad.net/nova/+bug/1078067,2013-04-04
+1076977,1076977,Fix Released,XenAPI SM code still in nova after nova-volume removal,https://bugs.launchpad.net/nova/+bug/1076977,2013-04-04
+1075293,1075293,Fix Released,can't run ec2 unit tests by themselves,https://bugs.launchpad.net/nova/+bug/1075293,2013-04-04

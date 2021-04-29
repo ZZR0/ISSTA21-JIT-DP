@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1242338,1242338,Fix Released,Trying to remove a load balancer pool (which contains members) via horizon ends with error,https://bugs.launchpad.net/neutron/+bug/1242338,2014-04-17
+1241874,1241874,Fix Released,L2 pop mech driver sends notif. even no related port changes,https://bugs.launchpad.net/neutron/+bug/1241874,2014-04-17
+1240744,1240744,Fix Released,L2 pop sends updates for unrelated networks,https://bugs.launchpad.net/neutron/+bug/1240744,2014-04-17
+1240720,1240720,Fix Released,Nicira plugin: 500 when removing a router port desynchronized from the backend,https://bugs.launchpad.net/neutron/+bug/1240720,2014-04-17
+1240125,1240125,Fix Released,Linux IP wrapper cannot handle VLAN interfaces,https://bugs.launchpad.net/neutron/+bug/1240125,2014-04-17
+1236741,1236741,Fix Released,Radware LBaaS driver unit-testing enhancement,https://bugs.launchpad.net/neutron/+bug/1236741,2014-04-17
+1235134,1235134,Fix Released,Midonet to support using 'mm-ctl' for binding ports,https://bugs.launchpad.net/neutron/+bug/1235134,2014-04-17
+1234826,1234826,Fix Released,cisco/nexus plugin doesn't create port for router interface,https://bugs.launchpad.net/neutron/+bug/1234826,2014-04-17
+1233802,1233802,Fix Released,cisco N1K plugin: Update plugin to VSM REST api,https://bugs.launchpad.net/neutron/+bug/1233802,2014-04-17
+1233391,1233391,Fix Released,arping can be spawned in background to speed-up floating IP assignment,https://bugs.launchpad.net/neutron/+bug/1233391,2014-04-17
+1308336,1308336,Fix Released,"Change report_interval from 4 to 30, agent_down_time from 9 to 75",https://bugs.launchpad.net/openstack-manuals/+bug/1308336,2014-04-17
+1230073,1230073,Fix Released,Midonet creates DHCP data even when DHCP is disabled,https://bugs.launchpad.net/neutron/+bug/1230073,2014-04-17
+1229954,1229954,Fix Released,updating address pairs with xml doesn't work,https://bugs.launchpad.net/neutron/+bug/1229954,2014-04-17
+1229217,1229217,Fix Released,Cisco plugin migration support,https://bugs.launchpad.net/neutron/+bug/1229217,2014-04-17
+1225080,1225080,Fix Released,Missing extension aliases will not error,https://bugs.launchpad.net/neutron/+bug/1225080,2014-04-17
+1223754,1223754,Fix Released,Multiple  Neutron operations  using a script fails on Brocade Plugin,https://bugs.launchpad.net/neutron/+bug/1223754,2014-04-17
+1215097,1215097,Fix Released,Arista ML2 driver integration with port-binding BP,https://bugs.launchpad.net/neutron/+bug/1215097,2014-04-17
+1210236,1210236,Fix Released,traceback is suppressed when deploy.loadapp fails,https://bugs.launchpad.net/neutron/+bug/1210236,2014-04-17
+1192786,1192786,Fix Released,WARNING [QUANTUM.DB.AGENTSCHEDULERS_DB] FAIL SCHEDULING NETWORK,https://bugs.launchpad.net/neutron/+bug/1192786,2014-04-17
+1255421,1255421,Fix Released,Unittest fails due to unexpected ovs-vsctl calling in ryu plugin test,https://bugs.launchpad.net/neutron/+bug/1255421,2014-04-17
+1254530,1254530,Fix Released,Logging prints traces for q-svc and dhcp-agt,https://bugs.launchpad.net/neutron/+bug/1254530,2014-04-17
+1254046,1254046,Fix Released,openstack.common.local module is out of date,https://bugs.launchpad.net/cinder/+bug/1254046,2014-04-17
+1254046,1254046,Fix Released,openstack.common.local module is out of date,https://bugs.launchpad.net/heat/+bug/1254046,2014-04-17
+1254046,1254046,Fix Released,openstack.common.local module is out of date,https://bugs.launchpad.net/glance/+bug/1254046,2014-04-17
+1254046,1254046,Fix Released,openstack.common.local module is out of date,https://bugs.launchpad.net/neutron/+bug/1254046,2014-04-17
+1252437,1252437,Fix Released,uncaught portnotfound exception on get_dhcp_port,https://bugs.launchpad.net/neutron/+bug/1252437,2014-04-17
+1251709,1251709,Fix Released,Excessive ovs l2 agent debug logging complicates troubleshooting,https://bugs.launchpad.net/neutron/+bug/1251709,2014-04-17
+1248377,1248377,Fix Released,cisco n1kv unit test failing depending on threading,https://bugs.launchpad.net/neutron/+bug/1248377,2014-04-17
+1241602,1241602,Fix Released,AttributeError in plugins/linuxbridge/lb_neutron_plugin.py,https://bugs.launchpad.net/neutron/+bug/1241602,2014-04-17
+1240812,1240812,Fix Released,firewall rule action will be always DROP for the second router,https://bugs.launchpad.net/neutron/+bug/1240812,2014-04-17
+1239637,1239637,Fix Released,internal neutron server error on tempest VolumesActionsTest,https://bugs.launchpad.net/neutron/+bug/1239637,2014-04-17
+1237912,1237912,Fix Released,Cannot update IPSec Policy lifetime,https://bugs.launchpad.net/neutron/+bug/1237912,2014-04-17
+1235486,1235486,Fix Released,Integrity violation on delete network,https://bugs.launchpad.net/neutron/+bug/1235486,2014-04-17
+1230083,1230083,Fix Released,OVS sg_rpc test does not load OVS plugin,https://bugs.launchpad.net/neutron/+bug/1230083,2014-04-17
+1221419,1221419,Fix Released,unable to ping floating ip from fixed_ip association,https://bugs.launchpad.net/neutron/+bug/1221419,2014-04-17
+1211915,1211915,Fix Released,Connection to neutron failed: Maximum attempts reached,https://bugs.launchpad.net/neutron/+bug/1211915,2014-04-17
+1209011,1209011,Fix Released,L3 agent can't handle updates that change floating ip id,https://bugs.launchpad.net/neutron/+bug/1209011,2014-04-17
+1197627,1197627,Fix Released,DHCP agent race condition on subnet and network delete,https://bugs.launchpad.net/neutron/+bug/1197627,2014-04-17
+1285617,1285617,Fix Released,sample configuration needs to be updated for database config,https://bugs.launchpad.net/glance/+bug/1285617,2014-04-17
+1302345,1302345,Fix Released,glance registry v2 doesn't work,https://bugs.launchpad.net/glance/+bug/1302345,2014-04-17
+1302661,1302661,Fix Released,Notifier fails to start when old config params are used and there are missing dependencies,https://bugs.launchpad.net/glance/+bug/1302661,2014-04-17
+1298698,1298698,Fix Released,[OSSA 2014-012] Remote Code Execution in Sheepdog backend (CVE-2014-0162),https://bugs.launchpad.net/glance/+bug/1298698,2014-04-17
+1298698,1298698,Fix Released,[OSSA 2014-012] Remote Code Execution in Sheepdog backend (CVE-2014-0162),https://bugs.launchpad.net/ossa/+bug/1298698,2014-04-17
+1296589,1296589,Fix Released,Image API v2 image tags broken with E500,https://bugs.launchpad.net/glance/+bug/1296589,2014-04-17
+1290969,1290969,Fix Released,Change to require listing all known stores in glance-api.conf breaks swift-backed glance on upgrade,https://bugs.launchpad.net/tripleo/+bug/1290969,2014-04-17
+1290969,1290969,Fix Released,Change to require listing all known stores in glance-api.conf breaks swift-backed glance on upgrade,https://bugs.launchpad.net/glance/+bug/1290969,2014-04-17
+1290432,1290432,Fix Released,Image API v2 image_list returns 400,https://bugs.launchpad.net/glance/+bug/1290432,2014-04-17
+1288877,1288877,Fix Released,Missing copyright text in oslo-incubator in  openstack/common/__init__.py,https://bugs.launchpad.net/glance/+bug/1288877,2014-04-17
+1287760,1287760,Fix Released,Task create should return 'Location' header,https://bugs.launchpad.net/glance/+bug/1287760,2014-04-17
+1287495,1287495,Fix Released,VMware parse_uri method should check for the scheme of the uri provided,https://bugs.launchpad.net/glance/+bug/1287495,2014-04-17
+1283242,1283242,Fix Released,test_v1_api tests depend on other tests,https://bugs.launchpad.net/glance/+bug/1283242,2014-04-17
+1288337,1288337,Fix Released,Remove task-specific validation from tasks resource,https://bugs.launchpad.net/glance/+bug/1288337,2014-04-17
+1243704,1243704,Fix Released,Log image_id with all BadStoreURI error messages,https://bugs.launchpad.net/glance/+bug/1243704,2014-04-17
+1287951,1287951,Fix Released,incorrect response for DELETE /v2/tasks/{task_id},https://bugs.launchpad.net/glance/+bug/1287951,2014-04-17
+1292764,1292764,Fix Released,Tempest failure: tempest.api.image.v1.test_images.CreateRegisterImagesTest.test_register_then_upload,https://bugs.launchpad.net/glance/+bug/1292764,2014-04-17
+1292170,1292170,Fix Released,"Fix swift functional test ""test_create_store""",https://bugs.launchpad.net/glance/+bug/1292170,2014-04-17
+1291646,1291646,Fix Released,Make the VMware datastore backend more robust,https://bugs.launchpad.net/glance/+bug/1291646,2014-04-17
+1287087,1287087,Fix Released,Migration 031_remove_duplicated_locations.py fails with DB2,https://bugs.launchpad.net/glance/+bug/1287087,2014-04-17
+1286375,1286375,Fix Released,Add OVA container format,https://bugs.launchpad.net/glance/+bug/1286375,2014-04-17
+1286240,1286240,Fix Released,Glance pruner fails if cached image does not exist,https://bugs.launchpad.net/glance/+bug/1286240,2014-04-17
+1246980,1246980,Fix Released,glance registry v2 image-list doesn't work due to bad JSON,https://bugs.launchpad.net/glance/+bug/1246980,2014-04-17
+1287888,1287888,Fix Released,Api v2: show_image_direct_url can cause unwarranted 403s when performing a GET /images/<uuid>,https://bugs.launchpad.net/glance/+bug/1287888,2014-04-17
+1255556,1255556,Fix Released,Don't enable all stores by default,https://bugs.launchpad.net/glance/+bug/1255556,2014-04-17
+1238604,1238604,Fix Released,Run into 500 error during delete image,https://bugs.launchpad.net/glance/+bug/1238604,2014-04-17
+1284523,1284523,Fix Released,Log messages should be passed to the underscore function to prepare for translation,https://bugs.launchpad.net/glance/+bug/1284523,2014-04-17
+1271724,1271724,Fix Released,notification_driver option is never used,https://bugs.launchpad.net/glance/+bug/1271724,2014-04-17
+1270832,1270832,Fix Released,no error is printed to glance.api log when we fail to create image on quota,https://bugs.launchpad.net/glance/+bug/1270832,2014-04-17
+1241379,1241379,Fix Released,duplicate upload image,https://bugs.launchpad.net/glance/+bug/1241379,2014-04-17
+1238366,1238366,Fix Released,Keep the date and content of man page update to date,https://bugs.launchpad.net/glance/+bug/1238366,2014-04-17
+1282715,1282715,Fix Released,VMware datastore should use oslo.vmware common code,https://bugs.launchpad.net/glance/+bug/1282715,2014-04-17
+1282437,1282437,Fix Released,Glance server PATCH operations should use 0-based indices for location entries,https://bugs.launchpad.net/glance/+bug/1282437,2014-04-17
+1271806,1271806,Fix Released,unable to run tests due to missing deps in the virtual env,https://bugs.launchpad.net/glance/+bug/1271806,2014-04-17
+1276011,1276011,Fix Released,Duplicate type defination in v2 images schema,https://bugs.launchpad.net/glance/+bug/1276011,2014-04-17
+1275126,1275126,Fix Released,Add VMware store the strategy module,https://bugs.launchpad.net/glance/+bug/1275126,2014-04-17
+1265448,1265448,Fix Released,exception.NotFound is parsed wrong at the API level,https://bugs.launchpad.net/glance/+bug/1265448,2014-04-17

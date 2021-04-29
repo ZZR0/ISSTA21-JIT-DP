@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1449937,1449937,Fix Released,[docs] Update Zabbix info versioning,https://bugs.launchpad.net/fuel/+bug/1449937,2015-05-22
+1403687,1403687,Fix Released,openstack::keepalive defaults incorrect,https://bugs.launchpad.net/fuel/+bug/1403687,2015-05-22
+1405098,1405098,Fix Released,We use deprecated options into MySQL config,https://bugs.launchpad.net/fuel/+bug/1405098,2015-05-22
+1386117,1386117,Fix Released,Change OCF dir in puppet,https://bugs.launchpad.net/fuel/+bug/1386117,2015-05-22
+1421611,1421611,Fix Released,Remove HAProxy configuration for RAbbitMQ as an obsolete,https://bugs.launchpad.net/fuel/+bug/1421611,2015-05-22
+1437213,1437213,Fix Released,"Deployment is good, but tests failed with 'Could not find any hosts in discovery data provided' message",https://bugs.launchpad.net/fuel/+bug/1437213,2015-05-22
+1455739,1455739,Fix Released,Fuel CLI creates env with nova-network by default,https://bugs.launchpad.net/fuel/+bug/1455739,2015-05-22
+1455426,1455426,Fix Released,Neutron metadata proxy logs are missing in snapshot,https://bugs.launchpad.net/fuel/+bug/1455426,2015-05-22
+1457811,1457811,Fix Released,Need devide test 'vcenter_add_delete_nodes' to two tests: 'vcenter_add_delete_nodes' and 'vcenter_delete_controler',https://bugs.launchpad.net/fuel/+bug/1457811,2015-05-22
+1446223,1446223,Fix Released,keytone post_check failed on ubuntu,https://bugs.launchpad.net/fuel/+bug/1446223,2015-05-22
+1434082,1434082,Fix Committed,Refactor logic for running Ceph pre-delete task in server/dispatcher.rb,https://bugs.launchpad.net/fuel/+bug/1434082,2015-05-22
+1361391,1361391,Fix Committed,ceph caching enable,https://bugs.launchpad.net/fuel/+bug/1361391,2015-05-22
+1418765,1418765,Fix Released,Nova scheduler misses compute service updates and marks computes dead sometimes,https://bugs.launchpad.net/fuel/+bug/1418765,2015-05-22
+1323512,1323512,Fix Released,Identity concepts in OpenStack Identity API v2.0 Reference  - API v2.0 and extensions,https://bugs.launchpad.net/openstack-manuals/+bug/1323512,2015-05-22
+1453750,1453750,Fix Released,"Description for ""subnet"" in create ""Create a load balancer pool""  not accurate",https://bugs.launchpad.net/openstack-api-site/+bug/1453750,2015-05-22
+1377302,1377302,Fix Released,HEAD /auth/tokens returns 200 instead of 204,https://bugs.launchpad.net/openstack-api-site/+bug/1377302,2015-05-22
+1453261,1453261,Fix Released,Document subnet id as optional for creating lbaas v2 member,https://bugs.launchpad.net/openstack-api-site/+bug/1453261,2015-05-22
+1456189,1456189,Fix Released,"For Compute API 2.0, add addSecurityGroup as a server action to associate a security group with an instance",https://bugs.launchpad.net/openstack-api-site/+bug/1456189,2015-05-22
+1452036,1452036,Fix Released,OS_CACERT is set in openrc even when it has not been created,https://bugs.launchpad.net/devstack/+bug/1452036,2015-05-21
+1417908,1417908,Fix Released,Empty subnet list results in returning all the ports,https://bugs.launchpad.net/neutron/+bug/1417908,2015-05-21
+1394112,1394112,Fix Released,Allocate gateway_ip automatically (if not specified) for IPv6 SLAAC subnet during subnet_creation.,https://bugs.launchpad.net/neutron/+bug/1394112,2015-05-21
+1364215,1364215,Fix Released,L2 Agent switch to non-dvr mode on first RPC failure,https://bugs.launchpad.net/neutron/+bug/1364215,2015-05-21
+1455775,1455775,Fix Released,Heat tests for Swift resources don't work,https://bugs.launchpad.net/tempest/+bug/1455775,2015-05-21
+1454362,1454362,Fix Committed,Tenant name used in place of Tenant ID for Context,https://bugs.launchpad.net/cue/+bug/1454362,2015-05-21
+1440172,1440172,Fix Released,Api rejects empty valueMeta field,https://bugs.launchpad.net/monasca/+bug/1440172,2015-05-21
+1420268,1420268,Fix Released,[monasca-agent] memory inspection fails due to several bugs on libvirt inspect_memory_usage,https://bugs.launchpad.net/monasca/+bug/1420268,2015-05-21
+1453851,1453851,Fix Released,Scaling controllers fails with ntpd issue due to missing default gateway,https://bugs.launchpad.net/fuel/+bug/1453851,2015-05-21
+1410333,1410333,Fix Released,Master node cannot be correctly installed from USB flash drives,https://bugs.launchpad.net/fuel/+bug/1410333,2015-05-21
+1438369,1438369,Fix Released,[Granular deployment][Nova][Ceph][Ephemeral storage] After applying compute role essential settings are not applied,https://bugs.launchpad.net/fuel/+bug/1438369,2015-05-21
+1413104,1413104,Fix Released,Large number of TIME_WAIT connections from haproxy cause stalled API service requests,https://bugs.launchpad.net/fuel/+bug/1413104,2015-05-21
+1446202,1446202,Fix Committed,Simultaneous adding/removing nodes failed on pre-deployment hook 'yum clean all',https://bugs.launchpad.net/fuel/+bug/1446202,2015-05-21
+1457377,1457377,Fix Committed,Broken string interpolation when reporting missing required nodes in astute,https://bugs.launchpad.net/fuel/+bug/1457377,2015-05-21
+1454110,1454110,Fix Released,[Docs] Unable to use command (copy/paste) operations.html#howto-backport-rabbitmq-pacemaker-ocf-script,https://bugs.launchpad.net/fuel/+bug/1454110,2015-05-21
+1454295,1454295,Fix Released,[Docs] No link or description of --env-id  user-guide.html#node,https://bugs.launchpad.net/fuel/+bug/1454295,2015-05-21
+1456197,1456197,Fix Released,"""Error: No model with name ""version"" defined"" on Nodes tab after upgrade 6.0->6.1",https://bugs.launchpad.net/fuel/+bug/1456197,2015-05-21
+1435335,1435335,Fix Released,deployment failed due to ntpd server can't reach higher stratum,https://bugs.launchpad.net/fuel/+bug/1435335,2015-05-21
+1456977,1456977,Fix Released,Content of VMWare tab does not shows,https://bugs.launchpad.net/fuel/+bug/1456977,2015-05-21
+1456805,1456805,Fix Committed,connectivity_test failures with slow internet,https://bugs.launchpad.net/fuel/+bug/1456805,2015-05-21
+1455148,1455148,Fix Released,Ubuntu BVT failed because nailgun failed to resolve internal mirror,https://bugs.launchpad.net/fuel/+bug/1455148,2015-05-20
+1453112,1453112,Fix Released,tempest test case ServersTestJSON.test_create_specify_keypair is not cleaning up keypair if tenant isolation is false in tempest.conf,https://bugs.launchpad.net/tempest/+bug/1453112,2015-05-20
+1439200,1439200,Fix Released,Haproxy doesn't apply all options to config,https://bugs.launchpad.net/fuel/+bug/1439200,2015-05-20
+1412347,1412347,Fix Released,Deployment fails due to apache misconfiguration,https://bugs.launchpad.net/fuel/+bug/1412347,2015-05-20
+1455951,1455951,Fix Committed,Zero sized GlusterFS logs are dumped after CI job run,https://bugs.launchpad.net/devstack-plugin-glusterfs/+bug/1455951,2015-05-20
+1443800,1443800,Fix Released,[ubuntu] rebuild corosync with pacemaker from vivid mirrors for Fuel mirrors,https://bugs.launchpad.net/fuel/+bug/1443800,2015-05-20
+1446189,1446189,Fix Released,deploy_ha_vlan/ceph_rados_gw fail with AttributeError,https://bugs.launchpad.net/fuel/+bug/1446189,2015-05-20
+1450051,1450051,Fix Released,Post deployment tasks are executed on all nodes,https://bugs.launchpad.net/fuel/+bug/1450051,2015-05-20
+1387615,1387615,Fix Released,New repo is required for ipmitools package,https://bugs.launchpad.net/fuel/+bug/1387615,2015-05-20
+1454607,1454607,Fix Released,No physical interfaces in network config files,https://bugs.launchpad.net/fuel/+bug/1454607,2015-05-20
+1451333,1451333,Fix Released,gate-fuel-astute is failed due to gem installation issues,https://bugs.launchpad.net/fuel/+bug/1451333,2015-05-20
+1456191,1456191,Fix Committed,Remove info about nodes from nodes block in case of fault tolerance,https://bugs.launchpad.net/fuel/+bug/1456191,2015-05-20
+1454691,1454691,Fix Released,firewall script fails to run multiple times,https://bugs.launchpad.net/fuel/+bug/1454691,2015-05-20
+1455130,1455130,Fix Released,"Apt : Problem with MergeList, after successfull plugin build",https://bugs.launchpad.net/fuel/+bug/1455130,2015-05-20
+1451987,1451987,Fix Released,"Tempest against openstack deployed with keystone v3 only, fails to initialize",https://bugs.launchpad.net/tempest/+bug/1451987,2015-05-19
+1456237,1456237,Fix Released,[bvt] ubuntu.bv2 ceph_rados_gw.ceph_rados_gw  failed with Error:  Stdout: 'I: Retrieving Release \nE: Failed getting release file http://osci-mirror-srt.srt.mirantis.net/pkgs//dists/trusty/Release\n',https://bugs.launchpad.net/fuel/+bug/1456237,2015-05-19
+1441226,1441226,Fix Released,Rabbit ocf unable to cleanup mnesia in some conditions,https://bugs.launchpad.net/fuel/+bug/1441226,2015-05-19
+1452479,1452479,Fix Released,[fuel-library] Rabbitmq ocf script doesn't fix log files permissions correctly,https://bugs.launchpad.net/fuel/+bug/1452479,2015-05-19
+1395666,1395666,Fix Released,Provide a link to Murano image when OSTF tests fail,https://bugs.launchpad.net/fuel/+bug/1395666,2015-05-19
+1397276,1397276,Fix Released,[OSTF] Test 'Deploy Apache' fails,https://bugs.launchpad.net/fuel/+bug/1397276,2015-05-19
+1426024,1426024,Fix Released,Need to update Murano image for MOS 6.x releases,https://bugs.launchpad.net/fuel/+bug/1426024,2015-05-19
+1401151,1401151,Fix Released,[OSTF] Need to add tests for Wordpress Application,https://bugs.launchpad.net/fuel/+bug/1401151,2015-05-19
+1394121,1394121,Fix Released,[Murano] OSTF Murano tests hang if env status becomes 'delpoy failure',https://bugs.launchpad.net/fuel/+bug/1394121,2015-05-19
+1440787,1440787,Fix Released,"[OSTF] Murano OSTF passed, but generated env not deleted",https://bugs.launchpad.net/fuel/+bug/1440787,2015-05-19
+1453327,1453327,Fix Released,Chapter 8. HAProxy nodes in OpenStack High Availability Guide  - current,https://bugs.launchpad.net/openstack-manuals/+bug/1453327,2015-05-19
+1443870,1443870,Fix Released,Need to change expected failures into ha disconnect tests,https://bugs.launchpad.net/fuel/+bug/1443870,2015-05-19
+1446734,1446734,Fix Released,[feature-stats] Local datetime instead utc is used for http_requests action logs,https://bugs.launchpad.net/fuel/+bug/1446734,2015-05-19
+1439658,1439658,Fix Released,Need to remove extra steps from Murano system tests,https://bugs.launchpad.net/fuel/+bug/1439658,2015-05-19
+1439618,1439618,Fix Released,[OSTF] Murano OSTF WordPress deploy test fails without error,https://bugs.launchpad.net/fuel/+bug/1439618,2015-05-19
+1454561,1454561,Fix Released,Remove keystone user fuel_user_stats on user opt-out from sending,https://bugs.launchpad.net/fuel/+bug/1454561,2015-05-19
+1454556,1454556,Fix Released,Create puppet granule on removing fuel_stats_user,https://bugs.launchpad.net/fuel/+bug/1454556,2015-05-19
+1441274,1441274,Fix Released,[Murano] Do not use murano-manage to import packages,https://bugs.launchpad.net/fuel/+bug/1441274,2015-05-19
+1453828,1453828,Fix Released,Murano Repository URL is incorrect,https://bugs.launchpad.net/fuel/+bug/1453828,2015-05-19
+1455434,1455434,Fix Released,One of nodes retrieves wrong network config in bond test,https://bugs.launchpad.net/fuel/+bug/1455434,2015-05-19
+1454771,1454771,Fix Released,[system-tests] NTP panicked and stopped on compute nodes after snapshot revert,https://bugs.launchpad.net/fuel/+bug/1454771,2015-05-19
+1454571,1454571,Fix Released,[System tests] Increase wait for ready containers after rollback in system tests,https://bugs.launchpad.net/fuel/+bug/1454571,2015-05-19
+1454214,1454214,Fix Released,"Create isolated thread for USB boot tests, detach from non-func thread",https://bugs.launchpad.net/fuel/+bug/1454214,2015-05-19

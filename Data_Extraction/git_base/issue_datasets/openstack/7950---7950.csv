@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1821437,1821437,Fix Released,Deploying openshift fails on RHEL8 due to selinux issues,https://bugs.launchpad.net/tripleo/+bug/1821437,2019-04-04
+1821784,1821784,Fix Released,podman healthchecks using curl too verbose,https://bugs.launchpad.net/tripleo/+bug/1821784,2019-04-04
+1821778,1821778,Fix Released,podman memcache healthcheck too verbose,https://bugs.launchpad.net/tripleo/+bug/1821778,2019-04-04
+1625547,1625547,Fix Released,Make validation inputs configurable through Mistral,https://bugs.launchpad.net/tripleo/+bug/1625547,2019-04-04
+1797939,1797939,Fix Released,"Example in section ""Create system-scoped token"" is wrong",https://bugs.launchpad.net/keystone/+bug/1797939,2019-04-04
+1810983,1810983,Fix Committed,project admin unable to fetch it's own domain,https://bugs.launchpad.net/keystone/+bug/1810983,2019-04-04
+1815539,1815539,Fix Committed,Self-service policies for credential APIs are broken in stable/rocky,https://bugs.launchpad.net/keystone/+bug/1815539,2019-04-04
+1810393,1810393,Fix Released,shadow user cache is not cleaned  when the related idp is deleted.,https://bugs.launchpad.net/keystone/+bug/1810393,2019-04-04
+1735407,1735407,Fix Released,[Nova] Evacuation doesn't respect anti-affinity rules,https://bugs.launchpad.net/nova/+bug/1735407,2019-04-04
+1808326,1808326,Fix Released,Bifrost container deploy broken by dumb-init ENTRYPOINT,https://bugs.launchpad.net/kolla/+bug/1808326,2019-04-04
+1773935,1773935,Fix Released,Unable to upload image via dashboard,https://bugs.launchpad.net/horizon/+bug/1773935,2019-04-03
+1774684,1774684,Fix Released,redundant volume cleanup can result in 400 error during volume delete,https://bugs.launchpad.net/cinder-tempest-plugin/+bug/1774684,2019-04-03
+1789944,1789944,Fix Released,cinder-tempest-plugin CG tests are broken,https://bugs.launchpad.net/cinder/+bug/1789944,2019-04-03
+1818441,1818441,Fix Released,OSA-AIO has incorrect default setup for Octavia,https://bugs.launchpad.net/openstack-ansible/+bug/1818441,2019-04-03
+1750233,1750233,Fix Released,corrupted dynamic_inventory.py backup file,https://bugs.launchpad.net/openstack-ansible/+bug/1750233,2019-04-03
+1633784,1633784,Fix Released,git repos do not sync across repo containers,https://bugs.launchpad.net/openstack-ansible/+bug/1633784,2019-04-03
+1822888,1822888,Fix Released,f28 container build broken by tripleo-repos  InvalidArguments('Branches only suppported with centos7'),https://bugs.launchpad.net/tripleo/+bug/1822888,2019-04-03
+1745451,1745451,Fix Released,ironic_dnsmasq_dhcp_range values required in globals.yml,https://bugs.launchpad.net/kolla-ansible/+bug/1745451,2019-04-03
+1811814,1811814,Fix Released,Zabbix resource needs to much time to migrate,https://bugs.launchpad.net/fuel/+bug/1811814,2019-04-03
+1801737,1801737,Fix Released,Overcloud fails with misleading error 504 Gateway Time-out when there is an error in templates,https://bugs.launchpad.net/tripleo/+bug/1801737,2019-04-03
+1820804,1820804,Fix Released,Corosync-notifyd fails to respawn when Corosync is killed,https://bugs.launchpad.net/fuel/+bug/1820804,2019-04-03
+1713783,1713783,Fix Released,After failed evacuation the recovered source compute tries to delete the instance,https://bugs.launchpad.net/fuel/+bug/1713783,2019-04-03
+1713783,1713783,Fix Released,After failed evacuation the recovered source compute tries to delete the instance,https://bugs.launchpad.net/nova/+bug/1713783,2019-04-03
+1819705,1819705,Fix Released,RBD volumes are not really detached,https://bugs.launchpad.net/cinderlib/+bug/1819705,2019-04-02
+1814550,1814550,Fix Released,Override_resources is unable to remove customized parameters,https://bugs.launchpad.net/fuel/+bug/1814550,2019-04-02
+1816646,1816646,Fix Released,Infinidat driver fails pylint,https://bugs.launchpad.net/manila/+bug/1816646,2019-04-01
+1819477,1819477,Fix Released,"[OVS] When cleaning min QoS, queue could be already deleted",https://bugs.launchpad.net/neutron/+bug/1819477,2019-04-01
+1812552,1812552,Fix Released,tempest-slow tests fails often,https://bugs.launchpad.net/neutron/+bug/1812552,2019-04-01
+1717130,1717130,Fix Released,project purge deletes ALL images,https://bugs.launchpad.net/python-openstackclient/+bug/1717130,2019-04-01
+1714438,1714438,Fix Released,Scenario tests for the instance reservation,https://bugs.launchpad.net/blazar/+bug/1714438,2019-03-31
+1821731,1821731,Fix Released,"The tempest test ""test_update_host_reservation"" fails sometimes",https://bugs.launchpad.net/blazar/+bug/1821731,2019-03-31
+1821168,1821168,Fix Released,Add affinity support in blazar-dashboard,https://bugs.launchpad.net/blazar/+bug/1821168,2019-03-31
+1817631,1817631,Fix Released,"Failing deployment ""Unable to create the flat network. Physical network tenant is in use.""",https://bugs.launchpad.net/tripleo/+bug/1817631,2019-03-29
+1821018,1821018,Fix Released,Restart chronyd execution is skipped on overcloud-novacompute-0,https://bugs.launchpad.net/tripleo/+bug/1821018,2019-03-29
+1807349,1807349,Fix Released,vitrage-collector service was removed,https://bugs.launchpad.net/kolla/+bug/1807349,2019-03-29
+1808302,1808302,Fix Released,contrib directory not existent in pip package,https://bugs.launchpad.net/kolla/+bug/1808302,2019-03-29
+1753617,1753617,Fix Released,neutron vpn run as l3 extenstions now,https://bugs.launchpad.net/kolla-ansible/+bug/1753617,2019-03-29
+1753617,1753617,Fix Released,neutron vpn run as l3 extenstions now,https://bugs.launchpad.net/kolla/+bug/1753617,2019-03-29
+1775864,1775864,Fix Released,kolla extend_start.sh doesn't check the start of MariaDB server correctly in bootstrap,https://bugs.launchpad.net/tripleo/+bug/1775864,2019-03-29
+1775864,1775864,Fix Released,kolla extend_start.sh doesn't check the start of MariaDB server correctly in bootstrap,https://bugs.launchpad.net/kolla/+bug/1775864,2019-03-29
+1796558,1796558,Fix Released,Include UEFI packages in nova,https://bugs.launchpad.net/kolla/+bug/1796558,2019-03-29
+1791531,1791531,Fix Released,java version missmatch in opendaylight ubuntu image,https://bugs.launchpad.net/kolla/+bug/1791531,2019-03-29
+1778963,1778963,Fix Released,The horizon container does not properly re-run maintenance tasks when configuration is modified,https://bugs.launchpad.net/kolla/+bug/1778963,2019-03-29
+1813832,1813832,Fix Released,"mistral-executor needs to be run as privilaged, with many mounts and dependencies",https://bugs.launchpad.net/tripleo/+bug/1813832,2019-03-29
+1782372,1782372,Fix Released,Rally install fails on existing deployment creation,https://bugs.launchpad.net/openstack-ansible/+bug/1782372,2019-03-29
+1819252,1819252,Fix Released,connection closed before XML bulk delete data can be transmitted,https://bugs.launchpad.net/swift/+bug/1819252,2019-03-28
+1816501,1816501,Fix Released,reconstructor doesn't remove empty handoff dirs with reclaimed tombstones,https://bugs.launchpad.net/swift/+bug/1816501,2019-03-28
+1695855,1695855,Fix Released,tempauth should return 405 for HEAD on /auth/v1.0,https://bugs.launchpad.net/swift/+bug/1695855,2019-03-28
+1598093,1598093,Fix Released,"Dynamic Large Object does not work with ""?"" in prefix",https://bugs.launchpad.net/swift/+bug/1598093,2019-03-28
+1762997,1762997,Fix Released,DLO GET/HEAD does not work if manifest value contains a '?',https://bugs.launchpad.net/swift/+bug/1762997,2019-03-28
+1678022,1678022,Fix Released,SLO upload fails where object name has URL encoded characters,https://bugs.launchpad.net/swift/+bug/1678022,2019-03-28
+1815886,1815886,Fix Released,[RFE] Allow logging a packet in OVS,https://bugs.launchpad.net/dragonflow/+bug/1815886,2019-03-28
+1820533,1820533,Fix Released,Registering a table handler in new app format causes exception on switch reconnect,https://bugs.launchpad.net/dragonflow/+bug/1820533,2019-03-28
+1793687,1793687,Fix Released,"Add nova configuration item to enable memoryBacking Source type file, with shared access",https://bugs.launchpad.net/tripleo/+bug/1793687,2019-03-28
+1521903,1521903,Fix Released,Can not teardown share server when domain controller is not available,https://bugs.launchpad.net/manila/+bug/1521903,2019-03-28
+1535700,1535700,Fix Released,keystone v3 not supported for cinder_admin_auth_url,https://bugs.launchpad.net/manila/+bug/1535700,2019-03-28
+1535284,1535284,Fix Released,Inconsisten name for manilaclient_INSECURE,https://bugs.launchpad.net/manila/+bug/1535284,2019-03-28
+1521999,1521999,Fix Released,api module for share instances is stored under v1 api instead of v2,https://bugs.launchpad.net/manila/+bug/1521999,2019-03-28
+1819794,1819794,Fix Released,nova-next job fail on Ubuntu Bionic,https://bugs.launchpad.net/nova/+bug/1819794,2019-03-28
+1819794,1819794,Fix Released,nova-next job fail on Ubuntu Bionic,https://bugs.launchpad.net/devstack/+bug/1819794,2019-03-28
+1723997,1723997,Fix Released,support nova mksproxy,https://bugs.launchpad.net/kolla-ansible/+bug/1723997,2019-03-28
+1723997,1723997,Fix Released,support nova mksproxy,https://bugs.launchpad.net/kolla/+bug/1723997,2019-03-28
+1722582,1722582,Fix Released,floating ip cannot have any formats but octetstring.domain,https://bugs.launchpad.net/kolla-ansible/+bug/1722582,2019-03-28
+1722505,1722505,Fix Released,keepalived 1.3.5 crashed in neutron-l3-agent when enabled router ha,https://bugs.launchpad.net/kolla-ansible/+bug/1722505,2019-03-28
+1644518,1644518,Fix Released,neutron-vpnaas using wrong driver on redhat derived bases,https://bugs.launchpad.net/kolla/+bug/1644518,2019-03-28
+1821866,1821866,Fix Released,data truncated while reading big file from zip,https://bugs.launchpad.net/glare/+bug/1821866,2019-03-28
+1811809,1811809,Fix Released,Failed to update CRD on pod creation,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1811809,2019-03-27
+1811243,1811243,Fix Released,NPWG driver uses only default subnet if subnetId is not specified in net-attach-def,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1811243,2019-03-27
+1810395,1810395,Fix Released,Octavia adds default SG rule when creating listeners,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1810395,2019-03-27
+1812878,1812878,Fix Released,Fixed variables error with 'public-subnet',https://bugs.launchpad.net/kuryr-kubernetes/+bug/1812878,2019-03-27
+1811995,1811995,Fix Released,CRD not update on namespace events,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1811995,2019-03-27
+1812877,1812877,Fix Released,Network policies should not block host to pod connection,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1812877,2019-03-27
+1813015,1813015,Fix Released,Controller doesn't delete LB if wrong floating subnet was set in a Service,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1813015,2019-03-27
+1811242,1811242,Fix Released,Services sgs are not updated on Network Policy update,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1811242,2019-03-27
+1813186,1813186,Fix Released,Avoid doing `raise ex` when only logging the exception,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1813186,2019-03-27

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1293436,1293436,Fix Released,Allow filtering variables  passed to the RuleProcessor,https://bugs.launchpad.net/keystone/+bug/1293436,2014-04-17
+1291981,1291981,Fix Released,missing type check in SAML RuleProcessor,https://bugs.launchpad.net/keystone/+bug/1291981,2014-04-17
+1290966,1290966,Fix Released,missing auth method configuration in oauth1 documentation,https://bugs.launchpad.net/keystone/+bug/1290966,2014-04-17
+1290582,1290582,Fix Released,missing auth method configuration in federation documentation,https://bugs.launchpad.net/keystone/+bug/1290582,2014-04-17
+1288009,1288009,Fix Released,Default discovery endpoints create an unusable service,https://bugs.launchpad.net/keystone/+bug/1288009,2014-04-17
+1284341,1284341,Fix Released,keystone-manage db_version broken,https://bugs.launchpad.net/keystone/+bug/1284341,2014-04-17
+1280965,1280965,Fix Released,LDAP dumb user is not filtered when listing role assignments,https://bugs.launchpad.net/keystone/+bug/1280965,2014-04-17
+1279492,1279492,Fix Released,oauth consumers links missing OS-OAUTH1,https://bugs.launchpad.net/keystone/+bug/1279492,2014-04-17
+1269739,1269739,Fix Released,an improvement of curl example doc?,https://bugs.launchpad.net/keystone/+bug/1269739,2014-04-17
+1263804,1263804,Fix Released,EC2 token creation no longer possible for admin,https://bugs.launchpad.net/keystone/+bug/1263804,2014-04-17
+1243392,1243392,Fix Released,Can't run live system tests using testr,https://bugs.launchpad.net/keystone/+bug/1243392,2014-04-17
+1214064,1214064,Fix Released,Trust creation allowed with empty roles list,https://bugs.launchpad.net/keystone/+bug/1214064,2014-04-17
+1195813,1195813,Fix Released,All v3 XML responses use  v2 namespace. Should use v3 namespace as v2 and v3 are incompatible,https://bugs.launchpad.net/keystone/+bug/1195813,2014-04-17
+1296348,1296348,Fix Released,/v3/auth/tokens cannot be used for issuing unscoped tokens during federated authn,https://bugs.launchpad.net/keystone/+bug/1296348,2014-04-17
+1296348,1296348,Fix Released,/v3/auth/tokens cannot be used for issuing unscoped tokens during federated authn,https://bugs.launchpad.net/openstack-api-site/+bug/1296348,2014-04-17
+1294293,1294293,Fix Released,domain_id should be immutable by default,https://bugs.launchpad.net/keystone/+bug/1294293,2014-04-17
+1294292,1294292,Fix Released,is_revoked bails out on first unrelated branch,https://bugs.launchpad.net/keystone/+bug/1294292,2014-04-17
+1291423,1291423,Fix Released,revocation events sync slows responses to all authenticated calls,https://bugs.launchpad.net/keystone/+bug/1291423,2014-04-17
+1291393,1291393,Fix Released,domain_id in User/Group/Project should be immutable,https://bugs.launchpad.net/keystone/+bug/1291393,2014-04-17
+1291047,1291047,Fix Released,Keystone returns traceback for db backend,https://bugs.launchpad.net/keystone/+bug/1291047,2014-04-17
+1290258,1290258,Fix Released,Group ids are not validated after SAML2->groups mapping and federated token scoping,https://bugs.launchpad.net/keystone/+bug/1290258,2014-04-17
+1282266,1282266,Fix Released,enabled attribute missing from GET /v3/endpoints,https://bugs.launchpad.net/tempest/+bug/1282266,2014-04-17
+1282266,1282266,Fix Released,enabled attribute missing from GET /v3/endpoints,https://bugs.launchpad.net/keystone/+bug/1282266,2014-04-17
+1275145,1275145,Fix Released,can't create credential with keystone.conf admin_token,https://bugs.launchpad.net/keystone/+bug/1275145,2014-04-17
+1273867,1273867,Fix Released,Keystone API v3 lists disabled endpoints and services in catalog,https://bugs.launchpad.net/keystone/+bug/1273867,2014-04-17
+1295261,1295261,Fix Released,test_v3_os_revoke.OSRevokeTests: invalid event issued_before time; Too early,https://bugs.launchpad.net/keystone/+bug/1295261,2014-04-17
+1294971,1294971,Fix Released,gate-grenade-dsvm-partial-ncpu Failure in upgrade-keystone,https://bugs.launchpad.net/keystone/+bug/1294971,2014-04-17
+1291099,1291099,Fix Released,revoke_api is loaded by default and is causing 401s on horizon switch tenants,https://bugs.launchpad.net/keystone/+bug/1291099,2014-04-17
+1289935,1289935,Fix Released,Revoke API calls non-existant method in revoke map syncronize,https://bugs.launchpad.net/keystone/+bug/1289935,2014-04-17
+1277463,1277463,Fix Released,Unimplemented error on V3 get token,https://bugs.launchpad.net/keystone/+bug/1277463,2014-04-17
+1276299,1276299,Fix Released,Display documentation code snippets as Python,https://bugs.launchpad.net/keystone/+bug/1276299,2014-04-17
+1273336,1273336,Fix Released,(refactor) common.sql.migration.find_migrate_repo never used with an argument.,https://bugs.launchpad.net/keystone/+bug/1273336,2014-04-17
+1269987,1269987,Fix Released,keystone inappropriate debug logging,https://bugs.launchpad.net/keystone/+bug/1269987,2014-04-17
+1269987,1269987,Fix Released,keystone inappropriate debug logging,https://bugs.launchpad.net/devstack/+bug/1269987,2014-04-17
+1269157,1269157,Fix Released,Notifications wrapper doesn't work with Trusts Keystone resource,https://bugs.launchpad.net/keystone/+bug/1269157,2014-04-17
+1229941,1229941,Fix Released,Generate sample config file,https://bugs.launchpad.net/keystone/+bug/1229941,2014-04-17
+1206345,1206345,Fix Released,V3 Api does not provide a means of getting certificates,https://bugs.launchpad.net/python-keystoneclient/+bug/1206345,2014-04-17
+1206345,1206345,Fix Released,V3 Api does not provide a means of getting certificates,https://bugs.launchpad.net/keystone/+bug/1206345,2014-04-17
+1178741,1178741,Fix Released,move s3_token middleware to keystoneclient,https://bugs.launchpad.net/keystone/+bug/1178741,2014-04-17
+1178741,1178741,Fix Released,move s3_token middleware to keystoneclient,https://bugs.launchpad.net/python-keystoneclient/+bug/1178741,2014-04-17
+1280509,1280509,Fix Released,Live LDAP test config uses incorrect default user DN,https://bugs.launchpad.net/keystone/+bug/1280509,2014-04-17
+1279823,1279823,Fix Released,Deleting enabled domain results in confusing error,https://bugs.launchpad.net/keystone/+bug/1279823,2014-04-17
+1277583,1277583,Fix Released,python-sqlalchemy version inconsistent between projects,https://bugs.launchpad.net/neutron/+bug/1277583,2014-04-17
+1277583,1277583,Fix Released,python-sqlalchemy version inconsistent between projects,https://bugs.launchpad.net/keystone/+bug/1277583,2014-04-17
+1275907,1275907,Fix Released,user_enabled and user_enabled_emulation_dn not documented,https://bugs.launchpad.net/keystone/+bug/1275907,2014-04-17
+1274282,1274282,Fix Released,developing with keystone has link to invalid url,https://bugs.launchpad.net/keystone/+bug/1274282,2014-04-17
+1273862,1273862,Fix Released,Keystone manage man page errors,https://bugs.launchpad.net/keystone/+bug/1273862,2014-04-17
+1267187,1267187,Fix Released,Keystone policy.v3cloudsample.json doesn't allow proper resources management,https://bugs.launchpad.net/keystone/+bug/1267187,2014-04-17
+1255990,1255990,Fix Released,StatsController Object in stats/core.py doesn't use @dependency.required decorator,https://bugs.launchpad.net/keystone/+bug/1255990,2014-04-17
+1251300,1251300,Fix Released,test_cache_layer_*_crud depend on test execution order,https://bugs.launchpad.net/keystone/+bug/1251300,2014-04-17
+1288313,1288313,Fix Released,PEP8 failures after oslo.rpc release,https://bugs.launchpad.net/keystone/+bug/1288313,2014-04-17
+1286717,1286717,Fix Released,Keystone unit tests fails with SQLAlchemy 0.9.3,https://bugs.launchpad.net/keystone/+bug/1286717,2014-04-17
+1284740,1284740,Fix Released,db_sync with oauth1 extension fails,https://bugs.launchpad.net/keystone/+bug/1284740,2014-04-17
+1282306,1282306,Fix Released,bad config user_enable_emulation in mask test,https://bugs.launchpad.net/keystone/+bug/1282306,2014-04-17
+1281819,1281819,Fix Released,"""Database Schema Migrations"" section under ""Developing with Keystone"" has wrong ""keystone-manage"" command",https://bugs.launchpad.net/keystone/+bug/1281819,2014-04-17
+1279398,1279398,Fix Released,links section is incorrect when listing trusts,https://bugs.launchpad.net/keystone/+bug/1279398,2014-04-17
+1276885,1276885,Fix Released,fail_gracefully can exit test suite,https://bugs.launchpad.net/keystone/+bug/1276885,2014-04-17
+1276857,1276857,Fix Released,resource attributes not normalized on update,https://bugs.launchpad.net/keystone/+bug/1276857,2014-04-17
+1274402,1274402,Fix Released,Local variable 'domain_ref' referenced before assignment,https://bugs.launchpad.net/keystone/+bug/1274402,2014-04-17
+1273301,1273301,Fix Released,Unit test failure: Message objects do not support str() because they may contain non-ascii characters. Please use unicode() or translate() instead.,https://bugs.launchpad.net/keystone/+bug/1273301,2014-04-17
+1272501,1272501,Fix Released,create region returns 200 OK instead of 201 Created,https://bugs.launchpad.net/keystone/+bug/1272501,2014-04-17
+1272496,1272496,Fix Released,policy entries missing for region CRUD,https://bugs.launchpad.net/keystone/+bug/1272496,2014-04-17
+1270909,1270909,Fix Released,oauth fails with pre 0.6.0 oauthlib,https://bugs.launchpad.net/keystone/+bug/1270909,2014-04-17
+1269703,1269703,Fix Released,"list_projects_for_endpoint interface fail with ""500 Internal Server Error""",https://bugs.launchpad.net/keystone/+bug/1269703,2014-04-17
+1269300,1269300,Fix Released,description is wrong in endpoint filter rst doc,https://bugs.launchpad.net/keystone/+bug/1269300,2014-04-17
+1267530,1267530,Fix Released,boolean query parameters inconsistently handled,https://bugs.launchpad.net/keystone/+bug/1267530,2014-04-17
+1265670,1265670,Fix Released,Changing cache_time doesn't work,https://bugs.launchpad.net/keystone/+bug/1265670,2014-04-17
+1265108,1265108,Fix Released,Changing default_domain_id doesn't work,https://bugs.launchpad.net/keystone/+bug/1265108,2014-04-17
+1260406,1260406,Fix Released,allow disable wsgi keepalive,https://bugs.launchpad.net/keystone/+bug/1260406,2014-04-17
+1260080,1260080,Fix Released,[OSSA 2014-006] Trustee token revocations with memcache backend (CVE-2014-2237),https://bugs.launchpad.net/keystone/+bug/1260080,2014-04-17
+1260080,1260080,Fix Released,[OSSA 2014-006] Trustee token revocations with memcache backend (CVE-2014-2237),https://bugs.launchpad.net/ossa/+bug/1260080,2014-04-17
+1174451,1174451,Fix Released,[LDAP] user_allow_create = False does not raise 403 Forbidden on POST /users,https://bugs.launchpad.net/keystone/+bug/1174451,2014-04-17
+1279849,1279849,Fix Released,keystone password creation and verification mismatch,https://bugs.launchpad.net/keystone/+bug/1279849,2014-04-17
+1276244,1276244,Fix Released,v2 default domain not respected via admin endpoint,https://bugs.launchpad.net/keystone/+bug/1276244,2014-04-17
+1271235,1271235,Fix Released,User Defined Regions not supported,https://bugs.launchpad.net/keystone/+bug/1271235,2014-04-17

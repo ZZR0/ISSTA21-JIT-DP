@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1368419,1368419,Fix Released,Avoid unnecessary restarts for replication,https://bugs.launchpad.net/trove/+bug/1368419,2015-04-30
+1408904,1408904,Fix Released,stack-adopt will delete the resource when rollback,https://bugs.launchpad.net/heat/+bug/1408904,2015-04-30
+1406692,1406692,Fix Released,software deployment delete failed,https://bugs.launchpad.net/heat/+bug/1406692,2015-04-30
+1357704,1357704,Fix Released,When creating a replica for instance Trove doesn't valiate that master exists and is ACTIVE,https://bugs.launchpad.net/trove/+bug/1357704,2015-04-30
+1400783,1400783,Fix Released,OS::Neutron::Subnet needs IPV6 RA mode property,https://bugs.launchpad.net/heat/+bug/1400783,2015-04-30
+1308411,1308411,Fix Released,sample configuration needs to be updated for database config,https://bugs.launchpad.net/trove/+bug/1308411,2015-04-30
+1360292,1360292,Fix Released,Autoscaling nested stack update incorrectly implemented,https://bugs.launchpad.net/heat/+bug/1360292,2015-04-30
+1440785,1440785,Fix Released,redis system.py paths need update for rhel/centos/fedora,https://bugs.launchpad.net/trove/+bug/1440785,2015-04-30
+1343873,1343873,Fix Released,'rolling_update' property should be treated as implicitly specified,https://bugs.launchpad.net/heat/+bug/1343873,2015-04-30
+1440358,1440358,Fix Released,mysql and percona config values result in zero if flavor used for guest has <512MB of RAM,https://bugs.launchpad.net/trove/+bug/1440358,2015-04-30
+1430743,1430743,Fix Released,add a db data migration test for 056,https://bugs.launchpad.net/heat/+bug/1430743,2015-04-30
+1439844,1439844,Fix Released,eject-replica-source uses localtime rather than UTC,https://bugs.launchpad.net/trove/+bug/1439844,2015-04-30
+1438131,1438131,Fix Released,unit-tests sometime fails for guestagent.test_dbaas.DB2AppTest.test_restart_server,https://bugs.launchpad.net/trove/+bug/1438131,2015-04-30
+1429134,1429134,Fix Released,Failed to update autoscaling group,https://bugs.launchpad.net/heat/+bug/1429134,2015-04-30
+1435922,1435922,Fix Released,Fix Slave replacement strategy in eject-replica-source,https://bugs.launchpad.net/trove/+bug/1435922,2015-04-30
+1420987,1420987,Fix Released,Heat not working with keystoneclient_v2,https://bugs.launchpad.net/heat/+bug/1420987,2015-04-30
+1434767,1434767,Fix Released,couchbase and couchdb tests in test_dbaas.py does not revert the mocked operating_system.get_ip_address,https://bugs.launchpad.net/trove/+bug/1434767,2015-04-30
+1434527,1434527,Fix Released,unit-tests sometime fails for guestagent.test_dbaas.CouchDBAppTest.test_restart,https://bugs.launchpad.net/trove/+bug/1434527,2015-04-30
+1431853,1431853,Fix Released,Periodic tasks against nova can be incorrectly redirected after token expiry,https://bugs.launchpad.net/trove/+bug/1431853,2015-04-30
+1417047,1417047,Fix Released,OS::Heat::WaitCondition resource fails when heat communicates with keystone over https in juno,https://bugs.launchpad.net/heat/+bug/1417047,2015-04-30
+1394972,1394972,Fix Released,Improve Trove resources utilization during int tests,https://bugs.launchpad.net/trove/+bug/1394972,2015-04-30
+1415136,1415136,Fix Released,_get_domain_id_from_name uses domain_admin_client; results in 403 from keystone,https://bugs.launchpad.net/heat/+bug/1415136,2015-04-30
+1435026,1435026,Fix Released,vertica and couchdb managers are broken,https://bugs.launchpad.net/trove/+bug/1435026,2015-04-30
+1434856,1434856,Fix Released,Trove gate fails with 'Creating SQLAlchemy engine' failed message,https://bugs.launchpad.net/trove/+bug/1434856,2015-04-30
+1400684,1400684,Fix Released,AutoScalingGroup doesn't support path attributes,https://bugs.launchpad.net/heat/+bug/1400684,2015-04-30
+1434258,1434258,Fix Released,Fix flaky unit test in unittests/mgmt/test_models.py,https://bugs.launchpad.net/trove/+bug/1434258,2015-04-30
+1358624,1358624,Fix Released,Config Drive not created when boot from volume,https://bugs.launchpad.net/heat/+bug/1358624,2015-04-30
+1433852,1433852,Fix Released,volume resize does not works as expected for Vertica,https://bugs.launchpad.net/trove/+bug/1433852,2015-04-30
+1425238,1425238,Fix Released,Heat: Failed to validate parameter errors,https://bugs.launchpad.net/heat/+bug/1425238,2015-04-30
+1425238,1425238,Fix Released,Heat: Failed to validate parameter errors,https://bugs.launchpad.net/tripleo/+bug/1425238,2015-04-30
+1343584,1343584,Fix Released,trove depends on trove-integration to add new int-tests,https://bugs.launchpad.net/trove/+bug/1343584,2015-04-30
+1309030,1309030,Fix Released,Taskmanager writes guestagent conf to wrong place,https://bugs.launchpad.net/trove/+bug/1309030,2015-04-30
+1423963,1423963,Fix Released,"Can't parse python-novaclient!=2.21.0,>=2.18.0",https://bugs.launchpad.net/heat/+bug/1423963,2015-04-30
+1423963,1423963,Fix Released,"Can't parse python-novaclient!=2.21.0,>=2.18.0",https://bugs.launchpad.net/tripleo/+bug/1423963,2015-04-30
+1394650,1394650,Fix Released,Default guest_config attribute value points to invalid location,https://bugs.launchpad.net/trove/+bug/1394650,2015-04-30
+1423126,1423126,Fix Released,controller0AllNodesDeployment CREATE_FAILED,https://bugs.launchpad.net/heat/+bug/1423126,2015-04-30
+1423126,1423126,Fix Released,controller0AllNodesDeployment CREATE_FAILED,https://bugs.launchpad.net/tripleo/+bug/1423126,2015-04-30
+1421285,1421285,Fix Released,os-refresh-config TypeError: 'unicode' object does not support item assignment,https://bugs.launchpad.net/tripleo/+bug/1421285,2015-04-30
+1421285,1421285,Fix Released,os-refresh-config TypeError: 'unicode' object does not support item assignment,https://bugs.launchpad.net/heat/+bug/1421285,2015-04-30
+1364701,1364701,Fix Released,there is some opportunity for code cleanup and improvement in dealing with update of instance names,https://bugs.launchpad.net/trove/+bug/1364701,2015-04-30
+1338996,1338996,Fix Released,HTTP 500 when trying to restore instance from failed backup,https://bugs.launchpad.net/trove/+bug/1338996,2015-04-30
+1416467,1416467,Fix Released,Some methods in heat.api.aws are untested,https://bugs.launchpad.net/heat/+bug/1416467,2015-04-30
+1424741,1424741,Fix Released,test appears to verify wrong value in assert,https://bugs.launchpad.net/trove/+bug/1424741,2015-04-30
+1414869,1414869,Fix Released,pep8 task reports errors in Python files in .ropeproject directories,https://bugs.launchpad.net/heat/+bug/1414869,2015-04-30
+1423760,1423760,Fix Released,Redstack do not default GUEST_LOGDIR to '/tmp',https://bugs.launchpad.net/trove/+bug/1423760,2015-04-30
+1410002,1410002,Fix Released,DeprecationWarning for using oslo.middleware,https://bugs.launchpad.net/heat/+bug/1410002,2015-04-30
+1419995,1419995,Fix Released,Use canonical MySQL root pwd reset procedure,https://bugs.launchpad.net/trove/+bug/1419995,2015-04-30
+1406688,1406688,Fix Released,Software deployment created failed,https://bugs.launchpad.net/heat/+bug/1406688,2015-04-30
+1395107,1395107,Fix Released,"When trying to create a backup for instance within deployment that doesn't have Swift, Trove API doesn't handle correctly process of responding to user",https://bugs.launchpad.net/trove/+bug/1395107,2015-04-30
+1406263,1406263,Fix Released,Stack delete fails when swift container has objects,https://bugs.launchpad.net/heat/+bug/1406263,2015-04-30
+1380789,1380789,Fix Released,Do not use obsolete modules from oslo-incubator,https://bugs.launchpad.net/trove/+bug/1380789,2015-04-30
+1406197,1406197,Fix Released,neutron firewall rule creation not support protocol 'None',https://bugs.launchpad.net/heat/+bug/1406197,2015-04-30
+1378064,1378064,Fix Released,Configuration Group Validation Rules Incorrect for MySQL,https://bugs.launchpad.net/trove/+bug/1378064,2015-04-30
+1405801,1405801,Fix Released,console_urls attribute of OS::Nova::Server lacks support status info,https://bugs.launchpad.net/heat/+bug/1405801,2015-04-30
+1326463,1326463,Fix Released,volume is not deleted on instance delete if resize volume is performed on an instance,https://bugs.launchpad.net/trove/+bug/1326463,2015-04-30
+1404206,1404206,Fix Released,heat_integrationtests generate_sample.sh is broken,https://bugs.launchpad.net/heat/+bug/1404206,2015-04-30
+1423759,1423759,Fix Released,Delete mysql error log file as root on restore,https://bugs.launchpad.net/trove/+bug/1423759,2015-04-30
+1403897,1403897,Fix Released,Doc generation for contrib plugins cannot be re-enabled,https://bugs.launchpad.net/heat/+bug/1403897,2015-04-30
+1416120,1416120,Fix Released,AuthSystemNotFound when using --bypass-url with python-troveclient 1.0.8,https://bugs.launchpad.net/trove/+bug/1416120,2015-04-30
+1410425,1410425,Fix Released,"trove resize-volume for postgresql doesn't work, because its guest agent's stop_db def implementation doesn't have do_not_start_on_reboot optional argument",https://bugs.launchpad.net/trove/+bug/1410425,2015-04-30
+1402531,1402531,Fix Released,resource show returns 'stack or resource not found' for a resource yet to be created,https://bugs.launchpad.net/heat/+bug/1402531,2015-04-30
+1395232,1395232,Fix Released,Detaching a configuration group removes overrides.cnf file. This can remove internal config values,https://bugs.launchpad.net/trove/+bug/1395232,2015-04-30
+1402500,1402500,Fix Released,stack update failed when update image_id of an instance with volume attached,https://bugs.launchpad.net/heat/+bug/1402500,2015-04-30
+1392870,1392870,Fix Released,Guestagent prepare fails when trying to install the mysql package if  package is not installed in image,https://bugs.launchpad.net/trove/+bug/1392870,2015-04-30
+1401333,1401333,Fix Released,Rackspace Cloud Loadbalancer errors after trying to add a node or remove,https://bugs.launchpad.net/heat/+bug/1401333,2015-04-30
+1400389,1400389,Fix Released,host_routes in OS::Neutron::Subnet should be updatable,https://bugs.launchpad.net/heat/+bug/1400389,2015-04-30
+1415862,1415862,Fix Released,Cassandra fails to start due to changed permissing rights on cassandra.yaml,https://bugs.launchpad.net/trove/+bug/1415862,2015-04-30
+1395711,1395711,Fix Released,Periodic watcher task fails when OS::Heat::CWLiteAlarm is used,https://bugs.launchpad.net/heat/+bug/1395711,2015-04-30
+1402410,1402410,Fix Released,Enabling of mysql on Fedora20 doesn't work after latest operating system update,https://bugs.launchpad.net/trove/+bug/1402410,2015-04-30
+1394100,1394100,Fix Released,Heat constrants validate the default parameter value instead of the one passed,https://bugs.launchpad.net/heat/+bug/1394100,2015-04-30
+1415031,1415031,Fix Released,"When trying to deploy a cluster for specific datastore and it's missing, Trove raises HTTP 400 instead of HTTP 404 (NotFound)",https://bugs.launchpad.net/trove/+bug/1415031,2015-04-30
+1352462,1352462,Fix Released,heat-manage command does not have service-list,https://bugs.launchpad.net/heat/+bug/1352462,2015-04-30
+1414132,1414132,Fix Released,Move clustering strategies to cluster package,https://bugs.launchpad.net/trove/+bug/1414132,2015-04-30
+1407892,1407892,Fix Released,link to the hello_world.yaml is not working in doc,https://bugs.launchpad.net/heat/+bug/1407892,2015-04-30
+1416155,1416155,Fix Released,MongoDB guest fails during prepare on Fedora with invalid user,https://bugs.launchpad.net/trove/+bug/1416155,2015-04-30

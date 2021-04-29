@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1883200,1883200,Fix Released,pdf-docs build failing on sphinx 3.1.0,https://bugs.launchpad.net/nova/+bug/1883200,2020-06-15
+1847014,1847014,Fix Released,Error when bootstrapping cache OSD on NVMe drive.,https://bugs.launchpad.net/kolla/+bug/1847014,2020-06-15
+1649536,1649536,Fix Released,When huge personality is given in yaml file Stack creation remains in Create_IN_Progress state,https://bugs.launchpad.net/heat/+bug/1649536,2020-06-15
+1836263,1836263,Fix Released,doc: PUT /ports/{port_id} updates selectively,https://bugs.launchpad.net/neutron/+bug/1836263,2020-06-15
+1844484,1844484,Fix Released,oraclelinux builds always fail (package gone),https://bugs.launchpad.net/kolla/+bug/1844484,2020-06-13
+1881928,1881928,Fix Released,PowerMax Driver - Extend Volume ODE Check always returns negative,https://bugs.launchpad.net/cinder/+bug/1881928,2020-06-12
+1771180,1771180,Fix Released,manila-vmax configuration errors,https://bugs.launchpad.net/tripleo/+bug/1771180,2020-06-12
+1882252,1882252,Fix Released,Fix become attributes for VMware related tasks,https://bugs.launchpad.net/kolla-ansible/+bug/1882252,2020-06-12
+1861917,1861917,Fix Released,we shouldn't ignore facter cache generation failures,https://bugs.launchpad.net/tripleo/+bug/1861917,2020-06-12
+1839133,1839133,Fix Released,LDAP: group_members_are_ids ignored for user_enabled_emulation_use_group_config,https://bugs.launchpad.net/keystone/+bug/1839133,2020-06-12
+1882545,1882545,Fix Released,Ironic Conductor role need public endpoint create_swift_temp_url_key,https://bugs.launchpad.net/tripleo/+bug/1882545,2020-06-12
+1883119,1883119,Fix Released,"tripleo_repos.main.InvalidArguments: Cannot use tripleo-ci-testing at the same time as other repos, except deps.",https://bugs.launchpad.net/tripleo/+bug/1883119,2020-06-12
+1330132,1330132,Fix Released,Creation of Member role is no longer required,https://bugs.launchpad.net/keystone/+bug/1330132,2020-06-12
+1330132,1330132,Fix Released,Creation of Member role is no longer required,https://bugs.launchpad.net/tempest/+bug/1330132,2020-06-12
+1878358,1878358,Fix Released,OVN migration doesn't clean up the existing ml2-ovs agents,https://bugs.launchpad.net/neutron/+bug/1878358,2020-06-11
+1795788,1795788,Fix Released,Horizon configuration to support domains dropdown,https://bugs.launchpad.net/openstack-ansible/+bug/1795788,2020-06-11
+1881029,1881029,Fix Released,SSH issues during ML2/OVS to ML2/OVN migration,https://bugs.launchpad.net/neutron/+bug/1881029,2020-06-11
+1722584,1722584,Fix Released,[SRU] Return traffic from metadata service may get dropped by hypervisor due to wrong checksum,https://bugs.launchpad.net/neutron/+bug/1722584,2020-06-11
+1666547,1666547,Fix Released,poor api performance with postgresql backend,https://bugs.launchpad.net/cinder/+bug/1666547,2020-06-11
+1882020,1882020,Fix Released,neutron-ovn-db-sync-util fails with Traceback when notify_nova config is present,https://bugs.launchpad.net/neutron/+bug/1882020,2020-06-11
+1875746,1875746,Fix Released,openstack undercloud install doesn't update endpoint certificate,https://bugs.launchpad.net/tripleo/+bug/1875746,2020-06-11
+1882886,1882886,Fix Committed,Horizon dropdown menu is empty in Stein,https://bugs.launchpad.net/openstack-ansible/+bug/1882886,2020-06-11
+1881416,1881416,Fix Released,Too many ResourceWarning messages while running tox,https://bugs.launchpad.net/tacker/+bug/1881416,2020-06-11
+1802424,1802424,Fix Released,No user message when share shrinking fails at the driver,https://bugs.launchpad.net/manila/+bug/1802424,2020-06-11
+1881420,1881420,Fix Released,msg: 'Failed to get information on remote file (/home/stack/config-download/overcloud/octavia-ansible/group_vars/octavia_vars.yaml): Permission denied',https://bugs.launchpad.net/tripleo/+bug/1881420,2020-06-11
+1880358,1880358,Fix Released,Capsule's container status not updated,https://bugs.launchpad.net/zun/+bug/1880358,2020-06-11
+1854928,1854928,Fix Released,"NetlinkError: (17, 'File exists') when kuryr-daemon gets restarted in a wrong moment",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1854928,2020-06-11
+1882083,1882083,Fix Released,CNI should return fast if pod doesn't exist or doesn't have annotation,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1882083,2020-06-11
+1872528,1872528,Fix Released,51-hosts is flooding the logs with host list because of debug mode set -x,https://bugs.launchpad.net/tripleo/+bug/1872528,2020-06-10
+1875959,1875959,Fix Released,Unable to perform flexclone from glance share,https://bugs.launchpad.net/cinder/+bug/1875959,2020-06-10
+1823627,1823627,Fix Released,"On admin panel, when creating a network and creating a subnet, the tenant to which the network belongs and the tenant to which the subnet belongs are inconsistent.",https://bugs.launchpad.net/horizon/+bug/1823627,2020-06-10
+1882290,1882290,Fix Released,Inode of /etc/hosts changes when tripleo_hosts_entries updates the file,https://bugs.launchpad.net/tripleo/+bug/1882290,2020-06-10
+1853057,1853057,Fix Released,HashRingIsEmpty class is being initialized incorrectly,https://bugs.launchpad.net/networking-ovn/+bug/1853057,2020-06-10
+1879391,1879391,Fix Released,"doc: ""Troubleshoot the Block Storage configuration in cinder"" references incorrect file",https://bugs.launchpad.net/cinder/+bug/1879391,2020-06-10
+1881455,1881455,Fix Released,migrate server reporting list index out of bound,https://bugs.launchpad.net/nova/+bug/1881455,2020-06-10
+1880691,1880691,Fix Released,Comments for stateles security group are missleading,https://bugs.launchpad.net/neutron/+bug/1880691,2020-06-10
+1882724,1882724,Fix Released,"OVN Octavia driver:  driver shouldn't update status to octavia in case of VIP creation failure, when the vip is owned by other LB",https://bugs.launchpad.net/neutron/+bug/1882724,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/manila/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/barbican/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/glance/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/python-glanceclient/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/neutron/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/python-muranoclient/+bug/1489059,2020-06-10
+1489059,1489059,Fix Committed,"""db type could not be determined"" running py34",https://bugs.launchpad.net/ironic-lib/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/heat/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/senlin/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/hacking/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/zaqar/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/python-keystoneclient/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/cinder/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/rally/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/keystoneauth/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/keystone/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/aodh/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/ironic/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/kolla/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/sahara/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/tempest/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/keystonemiddleware/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/bareon/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/searchlight/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/networking-midonet/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/networking-odl/+bug/1489059,2020-06-10
+1489059,1489059,Fix Released,"""db type could not be determined"" running py34",https://bugs.launchpad.net/python-swiftclient/+bug/1489059,2020-06-10
+1881921,1881921,Fix Released,[DOC]Add quotas for share replicas and replica gigabytes,https://bugs.launchpad.net/manila/+bug/1881921,2020-06-10
+1878014,1878014,Fix Released,"in tripleo queens, ceph-ansible admin_secret seems to be different from the one found in client.ceph.admin.keyring",https://bugs.launchpad.net/tripleo/+bug/1878014,2020-06-09
+1870400,1870400,Fix Released,"""ml2_vlan_allocations.vlan_id"" value should be checked in the DB backend",https://bugs.launchpad.net/neutron/+bug/1870400,2020-06-09
+1882134,1882134,Fix Released,when zaqar/mistral timesout the traceback fails and the user has no idea what happens,https://bugs.launchpad.net/tripleo/+bug/1882134,2020-06-09
+1847050,1847050,Fix Released,CI: masakari-instancemonitor reports an error,https://bugs.launchpad.net/kolla-ansible/+bug/1847050,2020-06-09
+1871144,1871144,Fix Released,[openstackclient] Existing user validation from different domain fails,https://bugs.launchpad.net/openstack-chef/+bug/1871144,2020-06-09
+1879522,1879522,Fix Released,TripleO should provide an option to adjust dashboard help URL,https://bugs.launchpad.net/tripleo/+bug/1879522,2020-06-09
+1882554,1882554,Fix Released,Imposible to deploy manila-cephfsganesha-config due to a problem with ceph-nfs,https://bugs.launchpad.net/tripleo/+bug/1882554,2020-06-09
+1631872,1631872,Fix Released,Not all neutron ports are ACTIVE after the vm spawns (hyper-v),https://bugs.launchpad.net/nova/+bug/1631872,2020-06-09
+1759956,1759956,Fix Released,[dvr][fast-exit] incorrect policy rules get deleted when a distributed router has ports on multiple tenant networks,https://bugs.launchpad.net/neutron/+bug/1759956,2020-06-09
+1602272,1602272,Fix Released,"openstack training lab script goes in infinite loop  ""waiting for ssh to respond on 127.0.0.1:2229""",https://bugs.launchpad.net/labs/+bug/1602272,2020-06-09

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1612494,1612494,Fix Released,neutronv2 unit tests fail with python-neutronclient 5.1.0,https://bugs.launchpad.net/nova/+bug/1612494,2016-09-02
+1613256,1613256,Fix Released,'No data to report.' error in coverage report,https://bugs.launchpad.net/nova/+bug/1613256,2016-09-02
+1608726,1608726,Fix Released,Confusing error message in BadRequest during floating ip assignment,https://bugs.launchpad.net/nova/+bug/1608726,2016-09-02
+1614133,1614133,Fix Released,limits API isn't filtering security groups and floating IPs from 2.36 response,https://bugs.launchpad.net/nova/+bug/1614133,2016-09-02
+1582045,1582045,Fix Released,Nova doesn't support v3 when connecting to Ironic,https://bugs.launchpad.net/nova/+bug/1582045,2016-09-02
+1614561,1614561,Fix Released,db.bw_usage_update can update multiple db records,https://bugs.launchpad.net/nova/+bug/1614561,2016-09-02
+1613998,1613998,Fix Released,Common API samples for server creation does not work with microversions > 2.37,https://bugs.launchpad.net/nova/+bug/1613998,2016-09-02
+1615788,1615788,Fix Released,Microversions URL missing in Nova docs.,https://bugs.launchpad.net/nova/+bug/1615788,2016-09-02
+1420112,1420112,Fix Released,Nova doesn't show enough error message when creating a new network with a duplicate vlan ID.,https://bugs.launchpad.net/nova/+bug/1420112,2016-09-02
+1615944,1615944,Fix Released,[api-guide]: Outdated link reference,https://bugs.launchpad.net/nova/+bug/1615944,2016-09-02
+1599904,1599904,Fix Released,There is no API sample functional test for listing keypairs for another user,https://bugs.launchpad.net/nova/+bug/1599904,2016-09-02
+1618115,1618115,Fix Released,TestStableObjectJsonFixture.test_changes_sort fails with oslo.versionedobjects 1.17.0,https://bugs.launchpad.net/nova/+bug/1618115,2016-09-02
+1551782,1551782,Fix Released,API: Improve os-migrateLive input parameters,https://bugs.launchpad.net/nova/+bug/1551782,2016-09-02
+1602003,1602003,Fix Released,No such option in group DEFAULT: rpc_backend,https://bugs.launchpad.net/mistral/+bug/1602003,2016-09-02
+1584643,1584643,Fix Released,[ui] Bad url to Action detail,https://bugs.launchpad.net/mistral/+bug/1584643,2016-09-02
+1605159,1605159,Fix Released,Fixed timeout in Kombu Driver,https://bugs.launchpad.net/mistral/+bug/1605159,2016-09-02
+1608827,1608827,Fix Released,action error handling,https://bugs.launchpad.net/mistral/+bug/1608827,2016-09-02
+1603941,1603941,Fix Released,create workflow fails on data too long for column definition,https://bugs.launchpad.net/mistral/+bug/1603941,2016-09-02
+1597640,1597640,Fix Released,with-items does not process ad-hoc action default values,https://bugs.launchpad.net/mistral/+bug/1597640,2016-09-02
+1610654,1610654,Fix Released,action-execution-list broken - returns has no property 'type',https://bugs.launchpad.net/mistral/+bug/1610654,2016-09-02
+1610269,1610269,Fix Released,db missing the 'unique_key' column for delayed_calls_v2 table,https://bugs.launchpad.net/mistral/+bug/1610269,2016-09-02
+1607348,1607348,Fix Released,task-rerun fails with AttributeError: 'OsloRPCClient' object has no attribute 'call',https://bugs.launchpad.net/mistral/+bug/1607348,2016-09-02
+1612154,1612154,Fix Released,Not working 'run-action' on kombu driver,https://bugs.launchpad.net/mistral/+bug/1612154,2016-09-02
+1616090,1616090,Fix Released,Task publish does not overwrite variable in context,https://bugs.launchpad.net/mistral/+bug/1616090,2016-09-02
+1618112,1618112,Fix Released,std.ssh requires modern setuptools version,https://bugs.launchpad.net/mistral/+bug/1618112,2016-09-02
+1607788,1607788,Fix Released,Cron Trigger failed to get openstack service authenticaton,https://bugs.launchpad.net/mistral/+bug/1607788,2016-09-02
+1588340,1588340,Fix Released,Hyper-V Security Groups Driver receives bad icmpv6 rule,https://bugs.launchpad.net/networking-hyperv/+bug/1588340,2016-09-01
+1586362,1586362,Fix Released,Security-groups-driver doesn't provide backwards compatibility,https://bugs.launchpad.net/networking-hyperv/+bug/1586362,2016-09-01
+1586339,1586339,Fix Released,VM getting attached to wrong HyperV Switch,https://bugs.launchpad.net/networking-hyperv/+bug/1586339,2016-09-01
+1596916,1596916,Fix Released,Port delete race conditions,https://bugs.launchpad.net/networking-hyperv/+bug/1596916,2016-09-01
+1586354,1586354,Fix Released,Intermittent Issue seen --Associating a vm from one security group (having tcp rule) to another security group(not having tcp rule) does not stop ssh from happening,https://bugs.launchpad.net/networking-hyperv/+bug/1586354,2016-09-01
+1588202,1588202,Fix Released,run_tests.sh -d fails running test_ensure_share_instance_has_pool_with_full_pool_name,https://bugs.launchpad.net/manila/+bug/1588202,2016-09-01
+1493405,1493405,Fix Released,scenario tests are very slow,https://bugs.launchpad.net/manila/+bug/1493405,2016-09-01
+1576557,1576557,Fix Released,huawei driver support 0.0.0.0 ip address,https://bugs.launchpad.net/manila/+bug/1576557,2016-09-01
+1600117,1600117,Fix Released,VNX driver doesn't support port configuration,https://bugs.launchpad.net/manila/+bug/1600117,2016-09-01
+1597940,1597940,Fix Released,HPE3PAR missing filestore can make a share undeletable,https://bugs.launchpad.net/manila/+bug/1597940,2016-09-01
+1599618,1599618,Fix Released,HPE3PAR nested share quota should not decrement on readonly share delete,https://bugs.launchpad.net/manila/+bug/1599618,2016-09-01
+1603434,1603434,Fix Released,Incorrect usage reporting in Quobyte Driver,https://bugs.launchpad.net/manila/+bug/1603434,2016-09-01
+1605203,1605203,Fix Released,share/access: maintenance mode never triggered,https://bugs.launchpad.net/manila/+bug/1605203,2016-09-01
+1604699,1604699,Fix Released,VNX driver failed create share failed due to error 13421840537,https://bugs.launchpad.net/manila/+bug/1604699,2016-09-01
+1548227,1548227,Fix Released,Overhaul Quobyte Manila driver for method calling rule conformity,https://bugs.launchpad.net/manila/+bug/1548227,2016-09-01
+1498882,1498882,Fix Released,Superfluous Backend Call when deleting Quobyte Share,https://bugs.launchpad.net/manila/+bug/1498882,2016-09-01
+1560345,1560345,Fix Released,CannotSendRequest in Quobyte driver,https://bugs.launchpad.net/manila/+bug/1560345,2016-09-01
+1607723,1607723,Fix Released,"tempest test ""test_create_get_delete_share"" has race conditions",https://bugs.launchpad.net/manila/+bug/1607723,2016-09-01
+1607765,1607765,Fix Released,ZFSonLinux driver fails on snapshot deletion,https://bugs.launchpad.net/manila/+bug/1607765,2016-09-01
+1608293,1608293,Fix Released,tempest tests for migration do not check for snapshot support,https://bugs.launchpad.net/manila/+bug/1608293,2016-09-01
+1609696,1609696,Fix Released,ZFSonLinux CI job falls into endless loop trying to upgrade grub,https://bugs.launchpad.net/manila/+bug/1609696,2016-09-01
+1607029,1607029,Fix Released,NetApp cDOT vserver deletion fails if no lifs present,https://bugs.launchpad.net/manila/+bug/1607029,2016-09-01
+1611262,1611262,Fix Released,KeyError: u'err' in unit test,https://bugs.launchpad.net/manila/+bug/1611262,2016-09-01
+1613713,1613713,Fix Released,Share Migration fails with empty files,https://bugs.launchpad.net/manila/+bug/1613713,2016-09-01
+1617417,1617417,Fix Released,ip route match lists different subnets,https://bugs.launchpad.net/manila/+bug/1617417,2016-09-01
+1616115,1616115,Fix Released,VMs cannot mount share in scenario job,https://bugs.launchpad.net/manila/+bug/1616115,2016-09-01
+1594922,1594922,Fix Released,Share migration tempest test fail on driver optimized migration,https://bugs.launchpad.net/manila/+bug/1594922,2016-09-01
+1612746,1612746,Fix Released,Windows SMB: default read access to everyone,https://bugs.launchpad.net/manila/+bug/1612746,2016-09-01
+1618556,1618556,Fix Released,The Windows SMB driver does not implement 'update_access',https://bugs.launchpad.net/manila/+bug/1618556,2016-09-01
+1599169,1599169,Fix Released,"glance-replicator size raises ""object of type 'NoneType' has no len()"" exception when no args provided",https://bugs.launchpad.net/glance/+bug/1599169,2016-09-01
+1592715,1592715,Fix Released,"image member create fails when ""member_id"" is passed instead of ""member"" attribute in the request body",https://bugs.launchpad.net/glance/+bug/1592715,2016-09-01
+1589264,1589264,Fix Released,developer-api-ref for v2 shows incorrect response style for a GET on images/image_id,https://bugs.launchpad.net/glance/+bug/1589264,2016-09-01
+1550457,1550457,Fix Released,Added support new v2 API image filters,https://bugs.launchpad.net/glance/+bug/1550457,2016-09-01
+1606250,1606250,Fix Released,refresh images schemas for api-ref,https://bugs.launchpad.net/glance/+bug/1606250,2016-09-01
+1606253,1606253,Fix Released,replace image-update response example in api-ref,https://bugs.launchpad.net/glance/+bug/1606253,2016-09-01
+1606573,1606573,Fix Released,dev-docs: missing 'ova' container_format,https://bugs.launchpad.net/glance/+bug/1606573,2016-09-01
+1609795,1609795,Fix Released,api-ref: glance 'versions' response incorrect,https://bugs.launchpad.net/glance/+bug/1609795,2016-09-01
+1610311,1610311,Fix Released,"improper use of etc in metadefs docs, api-ref",https://bugs.launchpad.net/glance/+bug/1610311,2016-09-01
+1611489,1611489,Fix Released,dev-docs: make example URLs consistent,https://bugs.launchpad.net/glance/+bug/1611489,2016-09-01
+1612341,1612341,Fix Released,cpu thread pinning flavor metadef,https://bugs.launchpad.net/glance/+bug/1612341,2016-09-01
+1614591,1614591,Fix Released,registry_client_opts are not in glance-cache.conf.sample,https://bugs.launchpad.net/glance/+bug/1614591,2016-09-01
+1617258,1617258,Fix Released,Nova fails to boot signed image,https://bugs.launchpad.net/glance/+bug/1617258,2016-09-01
+1593795,1593795,Fix Released,Modify initActions to reflect changes in Horizon,https://bugs.launchpad.net/searchlight/+bug/1593795,2016-09-01
+1612268,1612268,Fix Released,searchlight-ui settings.py out of date,https://bugs.launchpad.net/searchlight/+bug/1612268,2016-09-01
+1611479,1611479,Fix Released,searchlight ui translation not setup correctly,https://bugs.launchpad.net/searchlight/+bug/1611479,2016-09-01
+1613302,1613302,Fix Released,searchlight-ui doesn't specify python ver for tests,https://bugs.launchpad.net/searchlight/+bug/1613302,2016-09-01
+1614729,1614729,Fix Released,Searchlight UI settings not retained when navigating away.,https://bugs.launchpad.net/searchlight/+bug/1614729,2016-09-01
+1614826,1614826,Fix Released,search polling continues after leaving search page,https://bugs.launchpad.net/searchlight/+bug/1614826,2016-09-01
+1616506,1616506,Fix Released,Field Highlighting shows column even when not selected,https://bugs.launchpad.net/searchlight/+bug/1616506,2016-09-01

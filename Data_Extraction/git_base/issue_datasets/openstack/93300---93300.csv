@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1038109,1038109,Fix Released,No driver notification for attach/detach,https://bugs.launchpad.net/nova/+bug/1038109,2012-09-27
+961451,961451,Fix Released,ImageNotFound until euca-describe-images,https://bugs.launchpad.net/nova/+bug/961451,2012-09-27
+954553,954553,Fix Released,tools/conf/generate_sample.sh doesn't handle code as default value,https://bugs.launchpad.net/nova/+bug/954553,2012-09-27
+1053150,1053150,Fix Released,nova aggregate-details badID throws a stack trace,https://bugs.launchpad.net/nova/+bug/1053150,2012-09-27
+1050409,1050409,Fix Released,Create server(POST) using invalid personality contents is not raising BadRequest,https://bugs.launchpad.net/nova/+bug/1050409,2012-09-27
+1042020,1042020,Fix Released,launch index should be in openstack metadata,https://bugs.launchpad.net/nova/+bug/1042020,2012-09-27
+1040583,1040583,Fix Released,Some string values in nova.conf.sample need to be quoted,https://bugs.launchpad.net/nova/+bug/1040583,2012-09-27
+1038979,1038979,Fix Released,extra_specs matching failure with trailing <or> operator,https://bugs.launchpad.net/nova/+bug/1038979,2012-09-27
+1037835,1037835,Fix Released,Unit Tests fail on OS X (readlink -nm),https://bugs.launchpad.net/nova/+bug/1037835,2012-09-27
+1035426,1035426,Fix Released,Running nova tests with tox leaves lock files in source,https://bugs.launchpad.net/nova/+bug/1035426,2012-09-27
+1034970,1034970,Fix Released,sample config file contains options with hyphens,https://bugs.launchpad.net/nova/+bug/1034970,2012-09-27
+1034043,1034043,Fix Released,"nova/virt/disk/api.py imports crypt, doesn't work on Windows",https://bugs.launchpad.net/nova/+bug/1034043,2012-09-27
+1032663,1032663,Fix Released,Inconsistent quota consumption for failed-to-schedule instances,https://bugs.launchpad.net/nova/+bug/1032663,2012-09-27
+1029762,1029762,Fix Released,Metadata items not seen in response body of Create Volume,https://bugs.launchpad.net/cinder/+bug/1029762,2012-09-27
+1029762,1029762,Fix Released,Metadata items not seen in response body of Create Volume,https://bugs.launchpad.net/nova/+bug/1029762,2012-09-27
+1014796,1014796,Fix Released,console api makes many undefined variable references,https://bugs.launchpad.net/nova/+bug/1014796,2012-09-27
+944015,944015,Fix Released,Reboot server twice without wait for the server to become active is failing,https://bugs.launchpad.net/nova/+bug/944015,2012-09-27
+932137,932137,Fix Released,"Volume tests depend on logging for ""tests""",https://bugs.launchpad.net/nova/+bug/932137,2012-09-27
+932137,932137,Fix Released,"Volume tests depend on logging for ""tests""",https://bugs.launchpad.net/cinder/+bug/932137,2012-09-27
+816025,816025,Fix Released,Remove stub_network flag and replace usage with stubbing out of relevant calls in tests,https://bugs.launchpad.net/nova/+bug/816025,2012-09-27
+1053131,1053131,Fix Released,111_general_aggregates migration does not preserve aggregate_hosts.host data for sqlite,https://bugs.launchpad.net/nova/+bug/1053131,2012-09-27
+1052993,1052993,Fix Released,Scheduling error in resize does not create an instance fault,https://bugs.launchpad.net/nova/+bug/1052993,2012-09-27
+1052196,1052196,Fix Released,The metadata service cannot identity an instance when using the Quantum v2 network API,https://bugs.launchpad.net/nova/+bug/1052196,2012-09-27
+1051752,1051752,Fix Released,EC2 DeregisterImageResponse does not respect AWS specification,https://bugs.launchpad.net/nova/+bug/1051752,2012-09-27
+1050997,1050997,Fix Released,Some server attributes are not de-serialized from XML during create,https://bugs.launchpad.net/nova/+bug/1050997,2012-09-27
+1050645,1050645,Fix Released,Guestfs unmounting need be better + configurable,https://bugs.launchpad.net/nova/+bug/1050645,2012-09-27
+1050417,1050417,Fix Released,failed to describe address in ec2 api,https://bugs.launchpad.net/nova/+bug/1050417,2012-09-27
+1050347,1050347,Fix Released,keypair information leak,https://bugs.launchpad.net/nova/+bug/1050347,2012-09-27
+1050192,1050192,Fix Released,lack reservations parameter when cast create_volume,https://bugs.launchpad.net/nova/+bug/1050192,2012-09-27
+1049578,1049578,Fix Released,Include Security groups quota details in the limits API response,https://bugs.launchpad.net/nova/+bug/1049578,2012-09-27
+1049533,1049533,Fix Released,Live migrate task_state race condition,https://bugs.launchpad.net/nova/+bug/1049533,2012-09-27
+1048678,1048678,Fix Released,nova flavor-delete fails with InstanceTypeNotFoundByName API error,https://bugs.launchpad.net/nova/+bug/1048678,2012-09-27
+1048565,1048565,Fix Released,Volumes APIs returns a 500 error for an invalid entity body rather than 422,https://bugs.launchpad.net/nova/+bug/1048565,2012-09-27
+1048565,1048565,Fix Released,Volumes APIs returns a 500 error for an invalid entity body rather than 422,https://bugs.launchpad.net/cinder/+bug/1048565,2012-09-27
+1046875,1046875,Fix Released,Traceback in invalid volume create.,https://bugs.launchpad.net/cinder/+bug/1046875,2012-09-27
+1046875,1046875,Fix Released,Traceback in invalid volume create.,https://bugs.launchpad.net/nova/+bug/1046875,2012-09-27
+1046778,1046778,Fix Released,Creating a network with VlanManager fails,https://bugs.launchpad.net/nova/+bug/1046778,2012-09-27
+1046605,1046605,Fix Released,nova-manage network create network_size,https://bugs.launchpad.net/nova/+bug/1046605,2012-09-27
+1046054,1046054,Fix Released,Security groups leak across tenants for admin users,https://bugs.launchpad.net/nova/+bug/1046054,2012-09-27
+1044153,1044153,Fix Released,nova-rpc-zmq-receiver doesn't use nova.conf,https://bugs.launchpad.net/nova/+bug/1044153,2012-09-27
+1044090,1044090,Fix Released,cleaning up an LXC instance fails,https://bugs.launchpad.net/nova/+bug/1044090,2012-09-27
+1044004,1044004,Fix Released,zmq RPC driver errors: AttributeError: 'Context' object has no attribute 'destroy',https://bugs.launchpad.net/nova/+bug/1044004,2012-09-27
+1043796,1043796,Fix Released,Should send multiple ARPs after floating IP assignment,https://bugs.launchpad.net/nova/+bug/1043796,2012-09-27
+1043765,1043765,Fix Released,Quota reservation not rolled back if security group create fails,https://bugs.launchpad.net/nova/+bug/1043765,2012-09-27
+1040789,1040789,Fix Released,get_available_resource not implemented in PowerVM compute driver,https://bugs.launchpad.net/nova/+bug/1040789,2012-09-27
+1040785,1040785,Fix Released,PowerVM compute driver fail to start with pid check failure from Crypto.Random,https://bugs.launchpad.net/nova/+bug/1040785,2012-09-27
+1040770,1040770,Fix Released,PowerVM compute driver still using older spawn signature,https://bugs.launchpad.net/nova/+bug/1040770,2012-09-27
+1039675,1039675,Fix Released,glance image service not converting exceptions properly,https://bugs.launchpad.net/nova/+bug/1039675,2012-09-27
+1039633,1039633,Fix Released,compute_node_get should join service,https://bugs.launchpad.net/nova/+bug/1039633,2012-09-27
+1038227,1038227,Fix Released,malformed server update causes: KeyError: 'server',https://bugs.launchpad.net/nova/+bug/1038227,2012-09-27
+1037829,1037829,Fix Released,Simple Scheduler is Deprecated but doesn't raise Deprecated warning,https://bugs.launchpad.net/nova/+bug/1037829,2012-09-27
+1037809,1037809,Fix Released,get_vnc_console returns 500 error if called before host is assigned,https://bugs.launchpad.net/nova/+bug/1037809,2012-09-27
+1037219,1037219,Fix Released,can't list by name with sqlite (regex),https://bugs.launchpad.net/nova/+bug/1037219,2012-09-27
+1037183,1037183,Fix Released,several potential programming bugs found by pylint,https://bugs.launchpad.net/nova/+bug/1037183,2012-09-27
+1036407,1036407,Fix Released,nova.conf option bandwith_poll_interval is misspelled.,https://bugs.launchpad.net/nova/+bug/1036407,2012-09-27
+1034730,1034730,Fix Released,qemu-img receives  'None' as source image to snapshot,https://bugs.launchpad.net/nova/+bug/1034730,2012-09-27
+1033933,1033933,Fix Released,product_version is missing from software_version on xcp-xapi,https://bugs.launchpad.net/nova/+bug/1033933,2012-09-27
+1032890,1032890,Fix Released,euca-describe-availability-zones verbose only supports nova zone,https://bugs.launchpad.net/nova/+bug/1032890,2012-09-27
+1032683,1032683,Fix Released,Inconsistent DB existence for failed-to-schedule instances,https://bugs.launchpad.net/nova/+bug/1032683,2012-09-27
+1031998,1031998,Fix Released,nova-novncproxy needs an additional argument to websickify constructor,https://bugs.launchpad.net/nova/+bug/1031998,2012-09-27
+1030143,1030143,Fix Released,"Xenserver: If a VDI is missing, an active instance cannot be deleted",https://bugs.launchpad.net/nova/+bug/1030143,2012-09-27
+1029211,1029211,Fix Released,Boot from snapshot is broken,https://bugs.launchpad.net/nova/+bug/1029211,2012-09-27
+1023560,1023560,Fix Released,nova-manage floating commands are slow,https://bugs.launchpad.net/nova/+bug/1023560,2012-09-27
+1019017,1019017,Fix Released,"When KVM Host does not have enough ram, ""nova show "" does not show a fault message",https://bugs.launchpad.net/nova/+bug/1019017,2012-09-27
+1004860,1004860,Fix Released,EC2 API AssociateAddress not compliant on addresses already in use,https://bugs.launchpad.net/nova/+bug/1004860,2012-09-27
+979336,979336,Fix Released,EC2 terminate allows partial terminations,https://bugs.launchpad.net/nova/+bug/979336,2012-09-27
+979087,979087,Fix Released,nova-manage isn't correctly setting unlimited quotas,https://bugs.launchpad.net/nova/+bug/979087,2012-09-27
+978439,978439,Fix Released,EC2 error response does no XML escaping,https://bugs.launchpad.net/nova/+bug/978439,2012-09-27
+872899,872899,Fix Released,VMs cannot be terminated if compute host is dead,https://bugs.launchpad.net/nova/+bug/872899,2012-09-27
+1053028,1053028,Fix Released,marker option not working,https://bugs.launchpad.net/nova/+bug/1053028,2012-09-27
+1052997,1052997,Fix Released,"auto_assigned floating ips are counted when used, but never removed",https://bugs.launchpad.net/nova/+bug/1052997,2012-09-27
+1052670,1052670,Fix Released,scheduler rpc API needs to be updated,https://bugs.launchpad.net/nova/+bug/1052670,2012-09-27
+1052479,1052479,Fix Released,Stale aggregate metadata remains in the database,https://bugs.launchpad.net/nova/+bug/1052479,2012-09-27
+1027105,1027105,Fix Released,Restarting nova-compute removes ip packet filters,https://bugs.launchpad.net/nova/+bug/1027105,2012-09-27
+1027069,1027069,Fix Released,get_console_output with body 'os-getConsoleOutput' set to non-integer doe not respond with HTTPBadRequest,https://bugs.launchpad.net/nova/+bug/1027069,2012-09-27

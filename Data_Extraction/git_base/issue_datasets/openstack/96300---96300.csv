@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+844910,844910,Fix Released,OSAPI v1.1 Complex Content Types,https://bugs.launchpad.net/nova/+bug/844910,2012-04-05
+816128,816128,Fix Released,OSAPI: Create server 500 error when malformed bodies,https://bugs.launchpad.net/nova/+bug/816128,2012-04-05
+814196,814196,Fix Released,OSAPI XML Serialization is missing xml document header,https://bugs.launchpad.net/nova/+bug/814196,2012-04-05
+881649,881649,Fix Released,file injection fails when performing a rebuild,https://bugs.launchpad.net/nova/+bug/881649,2012-04-05
+878238,878238,Fix Released,"Developer documentation references bzr, not git",https://bugs.launchpad.net/nova/+bug/878238,2012-04-05
+873156,873156,Fix Released,Unhandled exception during 'nova image-create' caused by wrong destination format in qemu-img create,https://bugs.launchpad.net/nova/+bug/873156,2012-04-05
+870495,870495,Fix Released,xenapi virt layer mount disk on build issues,https://bugs.launchpad.net/nova/+bug/870495,2012-04-05
+862839,862839,Fix Released,listing of instances takes progressively longer the more instances there are,https://bugs.launchpad.net/nova/+bug/862839,2012-04-05
+862672,862672,Fix Released,OSAPI 'create image' location header is missing tenant ID,https://bugs.launchpad.net/nova/+bug/862672,2012-04-05
+862633,862633,Fix Released,OS API consoles create() fails because of an extra arg,https://bugs.launchpad.net/nova/+bug/862633,2012-04-05
+861160,861160,Fix Released,Network uuid is None,https://bugs.launchpad.net/nova/+bug/861160,2012-04-05
+856385,856385,Fix Released,nova-api should add iptables rules to accept metadata API requests,https://bugs.launchpad.net/nova/+bug/856385,2012-04-05
+850602,850602,Fix Released,block migration needs to copy backing file,https://bugs.launchpad.net/nova/+bug/850602,2012-04-05
+849329,849329,Fix Released,test_libvirt shouldn't mock import_class/import_object,https://bugs.launchpad.net/nova/+bug/849329,2012-04-05
+844916,844916,Fix Released,OSAPI v1.1 Alternate Image Links,https://bugs.launchpad.net/nova/+bug/844916,2012-04-05
+844905,844905,Fix Released,OSAPI v1.1 Versioned Content Types,https://bugs.launchpad.net/nova/+bug/844905,2012-04-05
+844160,844160,Fix Released,Build API calls are not compatable with Abstract scheduler subclasses,https://bugs.launchpad.net/nova/+bug/844160,2012-04-05
+838399,838399,Fix Released,xenserver agent calls getting lost,https://bugs.launchpad.net/nova/+bug/838399,2012-04-05
+838372,838372,Fix Released,ImageService should not map unknown attributes to metadata,https://bugs.launchpad.net/nova/+bug/838372,2012-04-05
+837687,837687,Fix Released,Gracefully unattach failed instance from network,https://bugs.launchpad.net/nova/+bug/837687,2012-04-05
+835242,835242,Fix Released,Cannot delete instance that failed to set up network,https://bugs.launchpad.net/nova/+bug/835242,2012-04-05
+822982,822982,Fix Released,Change name-label on VDI in XenServer to reflect the instance id,https://bugs.launchpad.net/nova/+bug/822982,2012-04-05
+821145,821145,Fix Released,OSAPI v1.1 admin api should be an extension,https://bugs.launchpad.net/nova/+bug/821145,2012-04-05
+819990,819990,Fix Released,Add minDisk minRam to OSAPI image details,https://bugs.launchpad.net/nova/+bug/819990,2012-04-05
+817580,817580,Fix Released,OSAPI: don't use toprettyxml() for XML responses,https://bugs.launchpad.net/nova/+bug/817580,2012-04-05
+816630,816630,Fix Released,broadcast ip is being assigned out as IP address,https://bugs.launchpad.net/nova/+bug/816630,2012-04-05
+804093,804093,Fix Released,OS API 1.1 has id and uuid in server details,https://bugs.launchpad.net/nova/+bug/804093,2012-04-05
+769096,769096,Fix Released,xenstore.py inadequate exception handling,https://bugs.launchpad.net/nova/+bug/769096,2012-04-05
+727502,727502,Fix Released,Disallow concurrent snapshots on the same instance,https://bugs.launchpad.net/nova/+bug/727502,2012-04-05
+886281,886281,Fix Released,zone_manager uses LOG which isn't defined,https://bugs.launchpad.net/nova/+bug/886281,2012-04-05
+886189,886189,Fix Released,vCPU-params doesn't exist,https://bugs.launchpad.net/nova/+bug/886189,2012-04-05
+885955,885955,Fix Released,Non-admin users can't boot instances with simple scheduler,https://bugs.launchpad.net/nova/+bug/885955,2012-04-05
+885037,885037,Fix Released,libvirt-related unit tests are failing,https://bugs.launchpad.net/nova/+bug/885037,2012-04-05
+884749,884749,Fix Released,common.get_networks_for_instance causes 'NoneType' object is unsubscriptable when using ipv6,https://bugs.launchpad.net/nova/+bug/884749,2012-04-05
+879044,879044,Fix Released,single xenapi session causes concurrency issues,https://bugs.launchpad.net/nova/+bug/879044,2012-04-05
+874487,874487,Fix Released,instance_actions table has excessive amount of information,https://bugs.launchpad.net/nova/+bug/874487,2012-04-05
+869979,869979,Fix Released,Security groups are not sanity checked for incorrect data,https://bugs.launchpad.net/nova/+bug/869979,2012-04-05
+860520,860520,Fix Released,image snapshots broken (disk config change causes glance plugin AttributeError),https://bugs.launchpad.net/nova/+bug/860520,2012-04-05
+857712,857712,Fix Released,Compute API casting minram None to int fails,https://bugs.launchpad.net/nova/+bug/857712,2012-04-05
+856721,856721,Fix Released,image snapshot creation fails,https://bugs.launchpad.net/nova/+bug/856721,2012-04-05
+851514,851514,Fix Released,wrap_exception munges exceptions which aren't Error or NovaException,https://bugs.launchpad.net/nova/+bug/851514,2012-04-05
+845714,845714,Fix Released,VDI is not resized to instance_type local_gb on initial boot,https://bugs.launchpad.net/nova/+bug/845714,2012-04-05
+838518,838518,Fix Released,"rescue broken for xenserver, no attribute 'admin_pass'",https://bugs.launchpad.net/nova/+bug/838518,2012-04-05
+834633,834633,Fix Released,--auto_assign_floating_ip=true crashes on logout,https://bugs.launchpad.net/nova/+bug/834633,2012-04-05
+809614,809614,Fix Released,Locate and clean up orphaned VDIs in XenServer,https://bugs.launchpad.net/nova/+bug/809614,2012-04-05
+698336,698336,Fix Released,Insufficient resources (memory) causes instance to pending state forever,https://bugs.launchpad.net/nova/+bug/698336,2012-04-05
+882658,882658,Fix Released,OS API v1.1 'Cannot find requested image' errors when creating instance,https://bugs.launchpad.net/nova/+bug/882658,2012-04-05
+872917,872917,Fix Released,EC2 get_metadata fails with InstanceNotFound,https://bugs.launchpad.net/nova/+bug/872917,2012-04-05
+868360,868360,Fix Released,Incorrect secret key causes user details to be revealed,https://bugs.launchpad.net/nova/+bug/868360,2012-04-05
+862658,862658,Fix Released,fixed_ips.address = ARRAY cast errors,https://bugs.launchpad.net/nova/+bug/862658,2012-04-05
+854585,854585,Fix Released,nova list not showing networks info,https://bugs.launchpad.net/nova/+bug/854585,2012-04-05
+854290,854290,Fix Released,DB migration 047 broken for mysql,https://bugs.launchpad.net/nova/+bug/854290,2012-04-05
+854283,854283,Fix Released,nova-manage db sync fails on migration 047,https://bugs.launchpad.net/nova/+bug/854283,2012-04-05
+847604,847604,Fix Released,Instance rebooting is broken,https://bugs.launchpad.net/nova/+bug/847604,2012-04-05
+964774,964774,Fix Released,TabGroup should have an option to persist open state,https://bugs.launchpad.net/horizon/+bug/964774,2012-04-05
+964735,964735,Fix Released,Instance ID in Floating IP list should link to instance,https://bugs.launchpad.net/horizon/+bug/964735,2012-04-05
+959179,959179,Fix Released,Remove the max_length limitations on the login input fields as they do not match the actual backend requirements.,https://bugs.launchpad.net/horizon/+bug/959179,2012-04-05
+971980,971980,Fix Released,fix cidr help text,https://bugs.launchpad.net/horizon/+bug/971980,2012-04-05
+965603,965603,Fix Released,Use of the CAPTION element in tables causes issues in some versions of WebKit.,https://bugs.launchpad.net/horizon/+bug/965603,2012-04-05
+965555,965555,Fix Released,Browsing to VNC tab on instance before it is ready displays a backtrace to the user,https://bugs.launchpad.net/horizon/+bug/965555,2012-04-05
+964739,964739,Fix Released,System panel instance list clears tenant when doing asynchronous polling,https://bugs.launchpad.net/horizon/+bug/964739,2012-04-05
+964738,964738,Fix Released,Host column in Sys Panel instance list should not wrap,https://bugs.launchpad.net/horizon/+bug/964738,2012-04-05
+964320,964320,Fix Released,Reboot text is strange,https://bugs.launchpad.net/horizon/+bug/964320,2012-04-05
+962742,962742,Fix Released,label name for add rule in security group is not consistent,https://bugs.launchpad.net/horizon/+bug/962742,2012-04-05
+962733,962733,Fix Released,extraneous javascript debug message in console,https://bugs.launchpad.net/horizon/+bug/962733,2012-04-05
+959705,959705,Fix Released,Should not be able to launch queued instance snapshot.,https://bugs.launchpad.net/horizon/+bug/959705,2012-04-05
+955695,955695,Fix Released,Reducing window width makes header bar too small,https://bugs.launchpad.net/horizon/+bug/955695,2012-04-05
+955618,955618,Fix Released,Errors on horizontal forms break layout,https://bugs.launchpad.net/horizon/+bug/955618,2012-04-05
+971250,971250,Fix Released,Text shown when Keystone is unavailable and trying to list Users in SysPanel is cryptic,https://bugs.launchpad.net/horizon/+bug/971250,2012-04-05
+971249,971249,Fix Released,SysPanel projects list lacks error handling if underlying service unavailable,https://bugs.launchpad.net/horizon/+bug/971249,2012-04-05
+969630,969630,Fix Released,View Log/View Console actions don't go to tabs,https://bugs.launchpad.net/horizon/+bug/969630,2012-04-05
+969612,969612,Fix Released,UI Semantics: Instance Detail Page Should Use DL Tags Instead of UL Tags,https://bugs.launchpad.net/horizon/+bug/969612,2012-04-05
+965910,965910,Fix Released,Polling on numerous rows can overwhelm server,https://bugs.launchpad.net/horizon/+bug/965910,2012-04-05
+965839,965839,Fix Released,Adding panels to existing dashboards breaks URLConf,https://bugs.launchpad.net/horizon/+bug/965839,2012-04-05
+965284,965284,Fix Released,"When launching instances without all fields input, error is returned to a launch screen with additional launch options",https://bugs.launchpad.net/horizon/+bug/965284,2012-04-05

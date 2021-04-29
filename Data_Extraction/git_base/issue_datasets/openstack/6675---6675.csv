@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1823977,1823977,Fix Released,policy.json: circular reference error on http rules,https://bugs.launchpad.net/horizon/+bug/1823977,2019-06-12
+1824017,1824017,Fix Released,stein requires python-cinderclient >= 4.0.0,https://bugs.launchpad.net/horizon/+bug/1824017,2019-06-12
+1822924,1822924,Fix Released,"Incorrect Error message When user tries to create an extra spec with Key name ""#^&*"" under Volume Type Panel",https://bugs.launchpad.net/horizon/+bug/1822924,2019-06-12
+1825102,1825102,Fix Released,"In the process of creating the image, can still edit the name, description,Source Type and file.",https://bugs.launchpad.net/horizon/+bug/1825102,2019-06-12
+1823149,1823149,Fix Released,"In the admin panel, the subnet page shows that the available IP is less than 0",https://bugs.launchpad.net/horizon/+bug/1823149,2019-06-12
+1797592,1797592,Fix Released,Progress bar doesn't displayed at image upload,https://bugs.launchpad.net/horizon/+bug/1797592,2019-06-12
+1825952,1825952,Fix Released,"When creating a volume group, the volume type is not selected, the creation is not successful, but no prompt message is reported.",https://bugs.launchpad.net/horizon/+bug/1825952,2019-06-12
+1821115,1821115,Fix Released,Inappropriate  UI in Horizon Dashboard,https://bugs.launchpad.net/horizon/+bug/1821115,2019-06-12
+1826495,1826495,Fix Released,"Delete the description information when editing the volume group, an error is shown",https://bugs.launchpad.net/horizon/+bug/1826495,2019-06-12
+1824484,1824484,Fix Released,workflow modal add_item_link is broken,https://bugs.launchpad.net/horizon/+bug/1824484,2019-06-12
+1826693,1826693,Fix Released,"The number of rbac policies reaches the maximum quota, when create rbac policy，an error message is shown and the error information is inaccurate.",https://bugs.launchpad.net/horizon/+bug/1826693,2019-06-12
+1828195,1828195,Fix Released,Snapshot Name is optional parameter on create snapshot form,https://bugs.launchpad.net/horizon/+bug/1828195,2019-06-12
+1826510,1826510,Fix Released,Unable to accept volume transfer when number of volumes equal quota of volumes,https://bugs.launchpad.net/horizon/+bug/1826510,2019-06-12
+1829102,1829102,Fix Released,"If there is a host in the aggregates, when the aggregates is deleted, an error was shown.",https://bugs.launchpad.net/horizon/+bug/1829102,2019-06-12
+1825954,1825954,Fix Released,"When the volume group is created, if the name already exists, an error is reported, but when the volume group is updated, the name is changed to the existing one and it succeeds.",https://bugs.launchpad.net/horizon/+bug/1825954,2019-06-12
+1822734,1822734,Fix Released,"On ""Manage QoS Spec Association"" form, enter '*<>%' when creating a key, the error messages is shown",https://bugs.launchpad.net/horizon/+bug/1822734,2019-06-12
+1822971,1822971,Fix Released,"When editing host aggregation, if the available domain is deleted, two prompts will appear, one success message and one failure message",https://bugs.launchpad.net/horizon/+bug/1822971,2019-06-12
+1826120,1826120,Fix Released,"When the network and qos policy are not selected, create RBAC policy would shown error.",https://bugs.launchpad.net/horizon/+bug/1826120,2019-06-12
+1817253,1817253,Fix Released,"when create volume failure,the message is Success , I think change the success message to info message is much better.",https://bugs.launchpad.net/horizon/+bug/1817253,2019-06-12
+1824959,1824959,Fix Released,"In OpenStack pike version, Delete keypair error in keypair panel",https://bugs.launchpad.net/horizon/+bug/1824959,2019-06-12
+1825314,1825314,Fix Released,"Security group rule quota is full, but the Add Rule button is not disabled",https://bugs.launchpad.net/horizon/+bug/1825314,2019-06-12
+1780782,1780782,Fix Released,neutron-sriov-agent config has bogus EXPERIMENTAL comment,https://bugs.launchpad.net/tripleo/+bug/1780782,2019-06-12
+1821821,1821821,Fix Released,Provide option to disable EMC in puppet-vswitch,https://bugs.launchpad.net/puppet-vswitch/+bug/1821821,2019-06-12
+1815167,1815167,Fix Released,Manage Compute services in nova manual typos,https://bugs.launchpad.net/nova/+bug/1815167,2019-06-12
+1819554,1819554,Fix Released,Basic Deployment (CLI) in tripleo-docs,https://bugs.launchpad.net/tripleo/+bug/1819554,2019-06-12
+1591877,1591877,Fix Released,api_insecure option for clients ignored,https://bugs.launchpad.net/manila/+bug/1591877,2019-06-11
+1741053,1741053,Fix Released,Node blacklisting can't be reverted/reseted,https://bugs.launchpad.net/tripleo/+bug/1741053,2019-06-11
+1741053,1741053,Fix Released,Node blacklisting can't be reverted/reseted,https://bugs.launchpad.net/heat/+bug/1741053,2019-06-11
+1541780,1541780,Fix Released,Hacking rule for underscore import doesn't work,https://bugs.launchpad.net/cinder/+bug/1541780,2019-06-11
+1766184,1766184,Fix Released,Containerized Horizon: unable to connect,https://bugs.launchpad.net/tripleo/+bug/1766184,2019-06-11
+1808342,1808342,Fix Released,CentOS jobs on stable/* fail with libvirt-python 4.4.0,https://bugs.launchpad.net/manila/+bug/1808342,2019-06-11
+1806328,1806328,Fix Released,"Fix usage of ""extra_tht_configs"" to allow passing extra config to overcloud deploy",https://bugs.launchpad.net/tripleo/+bug/1806328,2019-06-11
+1831911,1831911,Fix Released,master overcloud deployments are timing out  - Exception: Failed to install a bootloader when deploying node,https://bugs.launchpad.net/tripleo/+bug/1831911,2019-06-11
+1832275,1832275,Fix Released,undercloud install broken on duplicate api/dhcp_domain definition,https://bugs.launchpad.net/tripleo/+bug/1832275,2019-06-11
+1820333,1820333,Fix Released,[SRU] ldap search should not encode attributes,https://bugs.launchpad.net/keystone/+bug/1820333,2019-06-11
+1830193,1830193,Fix Released,Octavia amphora load balancers fail to create -- Flavor 65 could not be found,https://bugs.launchpad.net/tripleo/+bug/1830193,2019-06-11
+1830235,1830235,Fix Released,Need to be able to retrofit tls everywhere on an existing deployment,https://bugs.launchpad.net/tripleo/+bug/1830235,2019-06-11
+1801455,1801455,Fix Released,Don't quote {posargs} in tox.ini,https://bugs.launchpad.net/python-scciclient/+bug/1801455,2019-06-11
+1829736,1829736,Fix Released,"periodic-tripleo--master-containers-build is failing with ""Failed to import docker-py - cannot import name __version__""",https://bugs.launchpad.net/tripleo/+bug/1829736,2019-06-10
+1831819,1831819,Fix Released,OpenStack packages for Ubuntu in openstackinstallguide,https://bugs.launchpad.net/openstack-manuals/+bug/1831819,2019-06-10
+1828550,1828550,Fix Released,Rocky standalone failing in tempest.api.compute.security_groups.test_security_groups.SecurityGroupsTestJSON,https://bugs.launchpad.net/tripleo/+bug/1828550,2019-06-10
+1829382,1829382,Fix Released,"ovb-3ctlr_1comp_1supp-featureset039 failing overcloud deploy ""Failed to connect to NOVA_API database """,https://bugs.launchpad.net/tripleo/+bug/1829382,2019-06-10
+1681627,1681627,Fix Released,[SRU] Page not found error on refreshing bowser (in AngularJS-based detail page),https://bugs.launchpad.net/zun-ui/+bug/1681627,2019-06-10
+1681627,1681627,Fix Released,[SRU] Page not found error on refreshing bowser (in AngularJS-based detail page),https://bugs.launchpad.net/horizon/+bug/1681627,2019-06-10
+1830351,1830351,Fix Released,periodic-tripleo-ci-centos-7-ovb-1ctlr_1comp-featureset020-queens fails tempest run for tempest.api.volume.admin.test_volumes_backup test group,https://bugs.launchpad.net/tripleo/+bug/1830351,2019-06-10
+1734298,1734298,Fix Released,Configure ssh admin  with custom user/key for deployed servers doesn't work,https://bugs.launchpad.net/tripleo/+bug/1734298,2019-06-10
+1802971,1802971,Fix Released,tempest volume_boot_pattern and basic_ops running concurrently causing timeouts,https://bugs.launchpad.net/tripleo/+bug/1802971,2019-06-10
+1802971,1802971,Fix Committed,tempest volume_boot_pattern and basic_ops running concurrently causing timeouts,https://bugs.launchpad.net/neutron/+bug/1802971,2019-06-10
+1831922,1831922,Fix Released,vexhost mirror config or infra is failing vexhost master ovb jobs,https://bugs.launchpad.net/tripleo/+bug/1831922,2019-06-07
+1820111,1820111,Fix Released,latest python2-tripleoclient not pulled from delorean.repo with tripleo-repos,https://bugs.launchpad.net/tripleo/+bug/1820111,2019-06-07
+1830281,1830281,Fix Released,ipaclient should have option to set domain and --no-ntp,https://bugs.launchpad.net/tripleo/+bug/1830281,2019-06-07
+1759579,1759579,Fix Released,[ocata/pike] Missing space in octavia-worker.yaml template.,https://bugs.launchpad.net/tripleo/+bug/1759579,2019-06-07
+1745016,1745016,Fix Released,neutron workers still being set despite conditionals in ocata,https://bugs.launchpad.net/tripleo/+bug/1745016,2019-06-07
+1823727,1823727,Fix Released,add ipa-client-install --mkhomedir option,https://bugs.launchpad.net/tripleo/+bug/1823727,2019-06-07
+1825976,1825976,Fix Released,THT: wrong indentation (?) in placement-api-container-puppet.yaml leads to wrong hieradata (and failed deployment),https://bugs.launchpad.net/tripleo/+bug/1825976,2019-06-07
+1826178,1826178,Fix Released,nova_metadata iptables rules missing,https://bugs.launchpad.net/tripleo/+bug/1826178,2019-06-07
+1826189,1826189,Fix Released,ovb jobs failing at at oc deploy: Destination directory /var/log/placement does not exist,https://bugs.launchpad.net/tripleo/+bug/1826189,2019-06-07
+1828065,1828065,Fix Released,fs039 job broke after disabling metadata api,https://bugs.launchpad.net/tripleo/+bug/1828065,2019-06-07
+1828414,1828414,Fix Released,Remove NovaConsoleauth service,https://bugs.launchpad.net/tripleo/+bug/1828414,2019-06-07
+1829582,1829582,Fix Released,Ironic Inspector have problem with IPv6 in db connection,https://bugs.launchpad.net/tripleo/+bug/1829582,2019-06-07
+1817938,1817938,Fix Released,Refactor base test classes,https://bugs.launchpad.net/os-vif/+bug/1817938,2019-06-06
+1817940,1817940,Fix Released,Remove IP proxy methods,https://bugs.launchpad.net/os-vif/+bug/1817940,2019-06-06
+1826826,1826826,Fix Released,Replace git.openstack.org URLs with opendev.org URLs,https://bugs.launchpad.net/os-vif/+bug/1826826,2019-06-06
+1827393,1827393,Fix Released,Remove unused vif_plug_ovs.i18n module,https://bugs.launchpad.net/os-vif/+bug/1827393,2019-06-06
+1818915,1818915,Fix Released,CooperativeReader not py3-ready,https://bugs.launchpad.net/glance-store/+bug/1818915,2019-06-06
+1824533,1824533,Fix Released,Glance fail to upload images to radosgw with Ceph Nautilus,https://bugs.launchpad.net/glance-store/+bug/1824533,2019-06-06
+1528349,1528349,Fix Released,Nova and Glance contain a near-identical signature_utils module,https://bugs.launchpad.net/glance/+bug/1528349,2019-06-06
+1528349,1528349,Fix Released,Nova and Glance contain a near-identical signature_utils module,https://bugs.launchpad.net/nova/+bug/1528349,2019-06-06
+1302976,1302976,Fix Released,Install the Image Service in OpenStack Installation Guide for Ubuntu 12.04 (LTS)  - icehouse - Configuration error,https://bugs.launchpad.net/openstack-manuals/+bug/1302976,2019-06-06
+1619257,1619257,Fix Committed,We should comment or remove legacy tasks from tasks.yaml of rabbit detached plugin,https://bugs.launchpad.net/fuel/+bug/1619257,2019-06-06
+1826692,1826692,Fix Released,deprecate idle_timeout option,https://bugs.launchpad.net/puppet-octavia/+bug/1826692,2019-06-06
+1826692,1826692,Fix Released,deprecate idle_timeout option,https://bugs.launchpad.net/puppet-nova/+bug/1826692,2019-06-06
+1826692,1826692,Fix Released,deprecate idle_timeout option,https://bugs.launchpad.net/puppet-vitrage/+bug/1826692,2019-06-06
+1826692,1826692,Fix Released,deprecate idle_timeout option,https://bugs.launchpad.net/puppet-aodh/+bug/1826692,2019-06-06
+1826692,1826692,Fix Released,deprecate idle_timeout option,https://bugs.launchpad.net/puppet-barbican/+bug/1826692,2019-06-06

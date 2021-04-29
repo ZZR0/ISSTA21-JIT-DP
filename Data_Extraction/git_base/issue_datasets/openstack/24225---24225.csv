@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1665569,1665569,Fix Released,Wrong const name is used,https://bugs.launchpad.net/senlin/+bug/1665569,2017-04-13
+1666245,1666245,Fix Released,"with operation is None, node do_recover will fail",https://bugs.launchpad.net/senlin/+bug/1666245,2017-04-13
+1673311,1673311,Fix Released,Wrong ops API version in senlin document.,https://bugs.launchpad.net/senlin/+bug/1673311,2017-04-13
+1674197,1674197,Fix Released,failed to dump notifications due to wrong log level,https://bugs.launchpad.net/senlin/+bug/1674197,2017-04-13
+1674241,1674241,Fix Released,miss access log in senlin devstack,https://bugs.launchpad.net/senlin/+bug/1674241,2017-04-13
+1675630,1675630,Fix Released,there is no need to check if the input is None or not.,https://bugs.launchpad.net/senlin/+bug/1675630,2017-04-13
+1675977,1675977,Fix Released,Name in APIs have no constraints.,https://bugs.launchpad.net/senlin/+bug/1675977,2017-04-13
+1675726,1675726,Fix Released,"doc:receiver message 's  ""cluster_id"" key has problem",https://bugs.launchpad.net/senlin/+bug/1675726,2017-04-13
+1676698,1676698,Fix Released,failed to create cluster due to desired_capacity is not set,https://bugs.launchpad.net/senlin/+bug/1676698,2017-04-13
+1678691,1678691,Fix Released,"in api layer, cluster-resize paramter check has problme",https://bugs.launchpad.net/senlin/+bug/1678691,2017-04-13
+1678053,1678053,Fix Released,scaling policy cooldown bug,https://bugs.launchpad.net/senlin/+bug/1678053,2017-04-13
+1670511,1670511,Fix Released,Agent is not properly initialized,https://bugs.launchpad.net/murano/+bug/1670511,2017-04-13
+1636362,1636362,Fix Released,Fix doc build if git is absent,https://bugs.launchpad.net/murano/+bug/1636362,2017-04-13
+1619532,1619532,Fix Released,get_app_logo exception when logo missing in case of glare backend,https://bugs.launchpad.net/murano/+bug/1619532,2017-04-13
+1654809,1654809,Fix Released,[dashboard] Application Components Icons Rendering Issue,https://bugs.launchpad.net/murano/+bug/1654809,2017-04-13
+1618266,1618266,Fix Released,[tests][glare][dashboard] test_sharing_app_without_permission fails on glare gate job,https://bugs.launchpad.net/murano/+bug/1618266,2017-04-13
+1673114,1673114,Fix Released,[devstask] it is not possible to add Key Pair while configuration application,https://bugs.launchpad.net/murano/+bug/1673114,2017-04-13
+1650403,1650403,Fix Released,Snapshots displayed in the field for image choice,https://bugs.launchpad.net/murano/+bug/1650403,2017-04-13
+1588387,1588387,Fix Released,Deployment with separate-db plugin fails,https://bugs.launchpad.net/fuel/+bug/1588387,2017-04-13
+1455489,1455489,Fix Released,"Nodes stuck in ""provisioning"" state despite successful reboot into newly installed OS",https://bugs.launchpad.net/fuel/+bug/1455489,2017-04-13
+1670667,1670667,Fix Released,change unit test case for vm.py,https://bugs.launchpad.net/nova-dpm/+bug/1670667,2017-04-13
+1670949,1670949,Fix Released,Validation logic for partition name will fail if the host name has '-',https://bugs.launchpad.net/nova-dpm/+bug/1670949,2017-04-13
+1594571,1594571,Fix Released,Neutron tests expects Address pair in specific order.,https://bugs.launchpad.net/neutron/+bug/1594571,2017-04-12
+1628564,1628564,Fix Released,New option for num_threads for state change server,https://bugs.launchpad.net/openstack-manuals/+bug/1628564,2017-04-12
+1585160,1585160,Fix Released,Information Disclosure through Error Messages,https://bugs.launchpad.net/fuel/+bug/1585160,2017-04-12
+1645655,1645655,Fix Released,ovs firewall cannot handle server reboot,https://bugs.launchpad.net/neutron/+bug/1645655,2017-04-12
+1652944,1652944,Fix Released,Broken links,https://bugs.launchpad.net/neutron/+bug/1652944,2017-04-12
+1652944,1652944,Fix Released,Broken links,https://bugs.launchpad.net/openstack-manuals/+bug/1652944,2017-04-12
+1669521,1669521,Fix Released,Coordination backend does not get started in the cinder backup driver,https://bugs.launchpad.net/cinder/+bug/1669521,2017-04-12
+1660870,1660870,Fix Released,NetApp: Failed to get info for aggregate,https://bugs.launchpad.net/cinder/+bug/1660870,2017-04-12
+1672701,1672701,Fix Released,DetachedInstanceError on subnet delete,https://bugs.launchpad.net/neutron/+bug/1672701,2017-04-12
+1579014,1579014,Fix Released,"""name"" field is not validated properly for endpoint creation",https://bugs.launchpad.net/keystone/+bug/1579014,2017-04-12
+1077282,1077282,Fix Released,Remove KVS Backend,https://bugs.launchpad.net/keystone/+bug/1077282,2017-04-12
+1658116,1658116,Fix Released,Wrong migration step run when file names are the same,https://bugs.launchpad.net/keystone/+bug/1658116,2017-04-12
+1642212,1642212,Fix Released,RFE: keystone-manage db_sync --check,https://bugs.launchpad.net/keystone/+bug/1642212,2017-04-12
+1501032,1501032,Fix Released,incorrect method list is returned when scoping tokens with federation,https://bugs.launchpad.net/keystone/+bug/1501032,2017-04-12
+1663627,1663627,Fix Released,Running db_sync --check against new installs fails,https://bugs.launchpad.net/keystone/+bug/1663627,2017-04-12
+1665706,1665706,Fix Released,devref api curl examples are hard to read - not formatted,https://bugs.launchpad.net/keystone/+bug/1665706,2017-04-12
+1667367,1667367,Fix Released,V2 role create does not allow spaces in the role description,https://bugs.launchpad.net/keystone/+bug/1667367,2017-04-12
+1667194,1667194,Fix Released,"[api] The param ""X-Subject-Token"" is not needed in API  ""GET /v3/auth/projects""",https://bugs.launchpad.net/keystone/+bug/1667194,2017-04-12
+1668563,1668563,Fix Released,Unclear error when attempting to create duplicate resources with certain names,https://bugs.launchpad.net/keystone/+bug/1668563,2017-04-12
+1670380,1670380,Fix Released,GET /v3/auth/catalog/ docs are out of sync,https://bugs.launchpad.net/keystone/+bug/1670380,2017-04-12
+1673301,1673301,Fix Released,"[api] In the API ""GET /v3/auth/catalog"", the parameter ""X-Subject-Token"" is unused, it is redundant.",https://bugs.launchpad.net/keystone/+bug/1673301,2017-04-12
+1670382,1670382,Fix Released,[ldap]/group_members_are_ids isn't a whitelisted option,https://bugs.launchpad.net/keystone/+bug/1670382,2017-04-12
+1675377,1675377,Fix Released,Lack rights for regular user: unability to create ec2 credentials,https://bugs.launchpad.net/keystone/+bug/1675377,2017-04-12
+1676925,1676925,Fix Released,db_sync --expand may run downtime-incurring operations in upgrades to Newton,https://bugs.launchpad.net/keystone/+bug/1676925,2017-04-12
+1676497,1676497,Fix Released,bindep returns wrong package name for libssl-dev in redhat,https://bugs.launchpad.net/keystone/+bug/1676497,2017-04-12
+1406776,1406776,Fix Released,Trying to delete a grant with an invalid role ID causes unnecessary processing,https://bugs.launchpad.net/keystone/+bug/1406776,2017-04-12
+1650163,1650163,Fix Released,No schema validation for client doc in Freezer API,https://bugs.launchpad.net/freezer/+bug/1650163,2017-04-12
+1674599,1674599,Fix Released,Remove log translations,https://bugs.launchpad.net/freezer/+bug/1674599,2017-04-12
+1600244,1600244,Fix Released,Removed/deprecated oslo.log configuration options still in use and referenced in freezer,https://bugs.launchpad.net/freezer/+bug/1600244,2017-04-12
+1678033,1678033,Fix Released,freezer-scheduler can be started multiple times on the same node,https://bugs.launchpad.net/freezer/+bug/1678033,2017-04-12
+1677985,1677985,Fix Released,freezer-agent error when backup file with cinder mode,https://bugs.launchpad.net/freezer/+bug/1677985,2017-04-12
+1662196,1662196,Fix Released,Remove the unused 'Nova network ID *' field for 'create action',https://bugs.launchpad.net/freezer/+bug/1662196,2017-04-12
+1662190,1662190,Fix Released,Remove some unused checks for create action,https://bugs.launchpad.net/freezer/+bug/1662190,2017-04-12
+1658557,1658557,Fix Released,Miss name when delete 'action',https://bugs.launchpad.net/freezer/+bug/1658557,2017-04-12
+1663235,1663235,Fix Released,The 'Interval' field in 'create job' is not nice,https://bugs.launchpad.net/freezer/+bug/1663235,2017-04-12
+1663272,1663272,Fix Released,The 'Attach To Session' form should be 'Bootstrap Modal',https://bugs.launchpad.net/freezer/+bug/1663272,2017-04-12
+1663887,1663887,Fix Released,The 'volume id' is required when the backup mode is cinder,https://bugs.launchpad.net/freezer/+bug/1663887,2017-04-12
+1663888,1663888,Fix Released,The 'network id' required error message should be around the 'network id' field,https://bugs.launchpad.net/freezer/+bug/1663888,2017-04-12
+1671958,1671958,Fix Released,Newton: repo build  still broken with optional components (swift),https://bugs.launchpad.net/openstack-ansible/+bug/1671958,2017-04-12
+1641131,1641131,Fix Released,"In mixed OS environments, the libvirt-python wheel does not work",https://bugs.launchpad.net/openstack-ansible/+bug/1641131,2017-04-12
+1653283,1653283,Fix Released,Implement SR-IOV support,https://bugs.launchpad.net/openstack-ansible/+bug/1653283,2017-04-12
+1667193,1667193,Fix Released,"During N->O upgrade, conditional check bombs when inventory hostname not in nova service name",https://bugs.launchpad.net/openstack-ansible/+bug/1667193,2017-04-12
+1667127,1667127,Fix Released,Error running nova-install.yml during N->O upgrade due to table permissions,https://bugs.launchpad.net/openstack-ansible/+bug/1667127,2017-04-12
+1673226,1673226,Fix Released,Support cinder v3,https://bugs.launchpad.net/openstack-ansible/+bug/1673226,2017-04-12
+1675913,1675913,Fix Released,pvm-novalink apt package install fails using powervm driver,https://bugs.launchpad.net/openstack-ansible/+bug/1675913,2017-04-12
+1664393,1664393,Fix Released,neutron l3_ha is not enabled by default for OVS implementation,https://bugs.launchpad.net/openstack-ansible/+bug/1664393,2017-04-12
+1664639,1664639,Fix Released,os_trove doesn't set conductor workers,https://bugs.launchpad.net/openstack-ansible/+bug/1664639,2017-04-12
+1661374,1661374,Fix Released,[os_horizon] venv download can fail due to no success criteria,https://bugs.launchpad.net/openstack-ansible/+bug/1661374,2017-04-12
+1660344,1660344,Fix Released,OPENSTACK_KEYSTONE_URL missing when  horizon_available_regions is defined.,https://bugs.launchpad.net/openstack-ansible/+bug/1660344,2017-04-12
+1670790,1670790,Fix Released,Horizon role needs EPEL,https://bugs.launchpad.net/openstack-ansible/+bug/1670790,2017-04-12
+1667471,1667471,Fix Released,Heat does not have a default SoftwareConfig Transport and Signalling method,https://bugs.launchpad.net/openstack-ansible/+bug/1667471,2017-04-12
+1631029,1631029,Fix Released,"aodh, ceilometer installation . fails",https://bugs.launchpad.net/openstack-ansible/+bug/1631029,2017-04-12
+1666640,1666640,Fix Released,Ceilometer API is deprecated,https://bugs.launchpad.net/openstack-ansible/+bug/1666640,2017-04-12

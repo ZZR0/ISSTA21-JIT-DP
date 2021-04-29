@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+909543,909543,Fix Released,Use tenants instead of tenant in next version of API,https://bugs.launchpad.net/keystone/+bug/909543,2013-04-04
+1070890,1070890,Fix Released,BaseException.message deprecated in py26,https://bugs.launchpad.net/keystone/+bug/1070890,2013-04-04
+1045962,1045962,Fix Released,Transient test failure: test_token_expiry_maintained,https://bugs.launchpad.net/keystone/+bug/1045962,2013-04-04
+1077065,1077065,Fix Released,Transient test failures: test_service.RemoteUserTest,https://bugs.launchpad.net/keystone/+bug/1077065,2013-04-04
+1058429,1058429,Fix Released,run_test.sh produces no output,https://bugs.launchpad.net/keystone/+bug/1058429,2013-04-04
+1055763,1055763,Fix Released,Get user/tenant by name returning full list,https://bugs.launchpad.net/keystone/+bug/1055763,2013-04-04
+1051081,1051081,Fix Released,HTTPD config file errors,https://bugs.launchpad.net/keystone/+bug/1051081,2013-04-04
+1050406,1050406,Fix Released,get_users on tenant retrieves duplicated entries on LDAP backend,https://bugs.launchpad.net/keystone/+bug/1050406,2013-04-04
+1042144,1042144,Fix Released,XML body not working for OSADM service api: namespace needs to be taken into account when deserializing XML,https://bugs.launchpad.net/keystone/+bug/1042144,2013-04-04
+1039112,1039112,Fix Released,Cannot run Keystone in debugger,https://bugs.launchpad.net/keystone/+bug/1039112,2013-04-04
+1023943,1023943,Fix Released,v3api - wrap API calls with RBAC,https://bugs.launchpad.net/keystone/+bug/1023943,2013-04-04
+1023939,1023939,Fix Released,v3api - core impl - policy,https://bugs.launchpad.net/keystone/+bug/1023939,2013-04-04
+1023938,1023938,Fix Released,v3api - core impl - catalog,https://bugs.launchpad.net/keystone/+bug/1023938,2013-04-04
+1023937,1023937,Fix Released,v3api - core impl - identity,https://bugs.launchpad.net/keystone/+bug/1023937,2013-04-04
+1068851,1068851,Fix Released,Openssl tests rely on expired certificate,https://bugs.launchpad.net/keystone/+bug/1068851,2013-04-04
+1063852,1063852,Fix Released,Default to PKI tokens,https://bugs.launchpad.net/keystone/+bug/1063852,2013-04-04
+1060389,1060389,Fix Released,Non PKI Tokens longer than 32 characters can never be valid,https://bugs.launchpad.net/keystone/+bug/1060389,2013-04-04
+1057436,1057436,Fix Released,Delete role does not delete roles assignment in tenants,https://bugs.launchpad.net/keystone/+bug/1057436,2013-04-04
+1044032,1044032,Fix Released,Trying to auth with a bad request reply with a KeyError,https://bugs.launchpad.net/keystone/+bug/1044032,2013-04-04
+1043758,1043758,Fix Released,RBAC policy definition is not utilized by default (policy.json),https://bugs.launchpad.net/keystone/+bug/1043758,2013-04-04
+1039567,1039567,Fix Released,auth_token middleware should be stand alone,https://bugs.launchpad.net/keystone/+bug/1039567,2013-04-04
+1075376,1075376,Fix Released,keystoneclient unit tests fails on update tenants and users,https://bugs.launchpad.net/keystone/+bug/1075376,2013-04-04
+1075376,1075376,Fix Released,keystoneclient unit tests fails on update tenants and users,https://bugs.launchpad.net/python-keystoneclient/+bug/1075376,2013-04-04
+1161713,1161713,Fix Released,fix bug in static large object range requests,https://bugs.launchpad.net/swift/+bug/1161713,2013-04-04
+1160713,1160713,Fix Released,bugs in bulk and static large object,https://bugs.launchpad.net/swift/+bug/1160713,2013-04-04
+1158310,1158310,Fix Released,Multiple Server Swift Installation (Ubuntu) create dir command needs right format,https://bugs.launchpad.net/swift/+bug/1158310,2013-04-04
+1158279,1158279,Fix Released,COPY of gt MAX_FILE_SIZE object fails with 503 instead of 413,https://bugs.launchpad.net/swift/+bug/1158279,2013-04-04
+1158092,1158092,Fix Released,unicode decoding problem in staticweb,https://bugs.launchpad.net/swift/+bug/1158092,2013-04-04
+1013120,1013120,Fix Released,swift middleware roles operation should be case insensitive,https://bugs.launchpad.net/swift/+bug/1013120,2013-04-04
+1068423,1068423,Fix Released,container-sync should be more resilient to missing objects,https://bugs.launchpad.net/swift/+bug/1068423,2013-04-04
+1156631,1156631,Fix Released,Multiple Server Swift Installation (Ubuntu) misses /var/run/swift directory creation step,https://bugs.launchpad.net/swift/+bug/1156631,2013-04-04
+1136893,1136893,Fix Released,Need follow PEP8 rule for sequences.,https://bugs.launchpad.net/swift/+bug/1136893,2013-04-04
+1131901,1131901,Fix Released,swift-account-audit broken in 1.7.6,https://bugs.launchpad.net/swift/+bug/1131901,2013-04-04
+1129769,1129769,Fix Released,authorize method in tempauth need more logs (debug level),https://bugs.launchpad.net/swift/+bug/1129769,2013-04-04
+1129760,1129760,Fix Released,High CPU usage for DB auditor,https://bugs.launchpad.net/swift/+bug/1129760,2013-04-04
+1123048,1123048,Fix Released,encoding error should be notified at least as log.error,https://bugs.launchpad.net/swift/+bug/1123048,2013-04-04
+1110150,1110150,Fix Released,not in synatx,https://bugs.launchpad.net/swift/+bug/1110150,2013-04-04
+1104708,1104708,Fix Released,128K write performance drops if one storage node has problematic disk,https://bugs.launchpad.net/swift/+bug/1104708,2013-04-04
+1102319,1102319,Fix Released,"swift-dispersion should pass ""os_options"" to swiftclient",https://bugs.launchpad.net/swift/+bug/1102319,2013-04-04
+1100632,1100632,Fix Released,500 on request which has no host header w/ domain_remap or cname_lookup middleware,https://bugs.launchpad.net/swift/+bug/1100632,2013-04-04
+1096538,1096538,Fix Released,HTTP/1.1 404 Not Found when setting auth_prefix to '/' in tempauth config,https://bugs.launchpad.net/swift/+bug/1096538,2013-04-04
+1095474,1095474,Fix Released,swift-recon section in administrator's guide incorrect,https://bugs.launchpad.net/swift/+bug/1095474,2013-04-04
+1095130,1095130,Fix Released,"CORS ""Actual Requests"" not returning access-control-* headers",https://bugs.launchpad.net/swift/+bug/1095130,2013-04-04
+1080682,1080682,Fix Released,swift-drive-audit does not handle kern.log rotation,https://bugs.launchpad.net/swift/+bug/1080682,2013-04-04
+1070621,1070621,Fix Released,The wrong note in swift/common/ring/utils.py,https://bugs.launchpad.net/swift/+bug/1070621,2013-04-04
+924577,924577,Fix Released,The part_shift in RingData could be negative,https://bugs.launchpad.net/swift/+bug/924577,2013-04-04
+1154882,1154882,Fix Released,swift-ring-builder blows up when method not found,https://bugs.launchpad.net/swift/+bug/1154882,2013-04-04
+1152658,1152658,Fix Released,Crash from swift-drive-audit when no date at the beginning of kern.log line,https://bugs.launchpad.net/swift/+bug/1152658,2013-04-04
+1119282,1119282,Fix Released,account server metadata are not stored in memcache,https://bugs.launchpad.net/swift/+bug/1119282,2013-04-04
+1095730,1095730,Fix Released,Swift MemcacheRing (set) interface is incompatible with python-memcached,https://bugs.launchpad.net/swift/+bug/1095730,2013-04-04
+1101143,1101143,Fix Released,keystoneauth and CORS is not working,https://bugs.launchpad.net/swift/+bug/1101143,2013-04-04
+1090495,1090495,Fix Released,make statsd sampling config more granular,https://bugs.launchpad.net/swift/+bug/1090495,2013-04-04
+958144,958144,Fix Released,Can the number of replicas be changeable?,https://bugs.launchpad.net/swift/+bug/958144,2013-04-04
+674687,674687,Fix Released,Multi node install needs instructions to point proxy to auth if on different servers,https://bugs.launchpad.net/swift/+bug/674687,2013-04-04
+1020722,1020722,Fix Released,swift_auth middleware disallows access to public Swift URLs,https://bugs.launchpad.net/swift/+bug/1020722,2013-04-04
+1117767,1117767,Fix Released,grizzly: new cinder driver for glusterFS,https://bugs.launchpad.net/openstack-manuals/+bug/1117767,2013-04-04
+1155622,1155622,Fix Released,grizzly: cinder multi-backend support is not documented,https://bugs.launchpad.net/openstack-manuals/+bug/1155622,2013-04-04
+1085411,1085411,Fix Released,nova.conf sample in install needs second copy for RHEL qpid config,https://bugs.launchpad.net/openstack-manuals/+bug/1085411,2013-04-03
+1161896,1161896,Fix Released,Add release notes to manuals,https://bugs.launchpad.net/openstack-manuals/+bug/1161896,2013-04-03
+1163356,1163356,Fix Released,Document how to modify flavors,https://bugs.launchpad.net/openstack-manuals/+bug/1163356,2013-04-03
+1065211,1065211,Fix Released,"ERROR n/a (HTTP 401) when issuing ""nova volume-list"" command",https://bugs.launchpad.net/openstack-manuals/+bug/1065211,2013-04-02
+994330,994330,Fix Released,swift proxy ratelimit function - config options missing from docs,https://bugs.launchpad.net/openstack-manuals/+bug/994330,2013-04-02
+1114656,1114656,Fix Released,grizzly: cinder nfs driver is undocumented,https://bugs.launchpad.net/openstack-manuals/+bug/1114656,2013-04-02
+1073988,1073988,Fix Released,Adapt ceilometer for multiple publication conduits,https://bugs.launchpad.net/ceilometer/+bug/1073988,2013-04-02
+1158851,1158851,Fix Released,test_list_image_filters.py doesn't cleanup failed servers,https://bugs.launchpad.net/tempest/+bug/1158851,2013-04-02
+1129239,1129239,Fix Released,status.o.o should use a common header,https://bugs.launchpad.net/openstack-ci/+bug/1129239,2013-04-02
+1161246,1161246,Fix Released,Removing skips causes quota tests failure,https://bugs.launchpad.net/tempest/+bug/1161246,2013-04-02
+930274,930274,Fix Released,SERVICE_HOST and HOST_IP in openrc might be wrong,https://bugs.launchpad.net/devstack/+bug/930274,2013-04-02
+1092716,1092716,Fix Released,"grizzly: swift middleware in keystone source repository has been removed just now, it's now only in swift",https://bugs.launchpad.net/openstack-manuals/+bug/1092716,2013-04-02
+1153472,1153472,Fix Released,grizzly: Clean unused kernels and ramdisks from image cache,https://bugs.launchpad.net/openstack-manuals/+bug/1153472,2013-04-02
+980966,980966,Fix Released,Rework service dependencies,https://bugs.launchpad.net/devstack/+bug/980966,2013-04-02
+1158344,1158344,Fix Released,snapshot quota error message broken,https://bugs.launchpad.net/cinder/+bug/1158344,2013-04-01
+1134399,1134399,Fix Released,Enabling image cache cleanup by default is troublesome for deployers,https://bugs.launchpad.net/openstack-manuals/+bug/1134399,2013-03-30
+1154141,1154141,Fix Released,grizzly: Horizon config instructions need updating,https://bugs.launchpad.net/openstack-manuals/+bug/1154141,2013-03-29
+1154325,1154325,Fix Released,Page on dashboard configuration not applicable,https://bugs.launchpad.net/openstack-manuals/+bug/1154325,2013-03-29

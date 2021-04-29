@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1542113,1542113,Fix Released,linuxbridge logging tracebacks,https://bugs.launchpad.net/neutron/+bug/1542113,2019-04-16
+1777506,1777506,Fix Released,neutron-rally job failing for stable/pike and stable/ocata,https://bugs.launchpad.net/neutron/+bug/1777506,2019-04-16
+1595440,1595440,Fix Released,neutron-fwaas ships /usr/bin/neutron-l3-agent a 2nd time,https://bugs.launchpad.net/neutron/+bug/1595440,2019-04-16
+1799924,1799924,Fix Released,tempest api test test_list_extensions_includes_all fails in Rocky branch,https://bugs.launchpad.net/neutron/+bug/1799924,2019-04-16
+1581159,1581159,Fix Released,ceph testing: parsing osd crush rule dump devstack output with awk is wrong,https://bugs.launchpad.net/nova/+bug/1581159,2019-04-16
+1581159,1581159,Fix Released,ceph testing: parsing osd crush rule dump devstack output with awk is wrong,https://bugs.launchpad.net/devstack-plugin-ceph/+bug/1581159,2019-04-16
+1824388,1824388,Fix Released,periodic jobs are failing undercloud install  - Not found image,https://bugs.launchpad.net/tripleo/+bug/1824388,2019-04-16
+1711215,1711215,Fix Released,Default neutron-ns-metadata-proxy threads setting is too low (newton),https://bugs.launchpad.net/neutron/+bug/1711215,2019-04-16
+1823912,1823912,Fix Released,zuul reproducer fails doing at python3-setuptools at fedora28 jobs,https://bugs.launchpad.net/tripleo/+bug/1823912,2019-04-16
+1805235,1805235,Fix Released,[neutron-tempest-plugin] delete_router calls remove_router_extra_routes even when extra_routes extension is disabled,https://bugs.launchpad.net/neutron/+bug/1805235,2019-04-16
+1805235,1805235,Fix Released,[neutron-tempest-plugin] delete_router calls remove_router_extra_routes even when extra_routes extension is disabled,https://bugs.launchpad.net/networking-bigswitch/+bug/1805235,2019-04-16
+1824915,1824915,Fix Released,"dlrn builds failing on unit test ""ttest_upload_image_v1_manifest""",https://bugs.launchpad.net/tripleo/+bug/1824915,2019-04-16
+1824954,1824954,Fix Released,zuul reproducer  Error validating value 'bmc-template': No images matching {'name': u'bmc-template'}.,https://bugs.launchpad.net/tripleo/+bug/1824954,2019-04-16
+1749820,1749820,Fix Released,Unpredictable response on invalid query parameters,https://bugs.launchpad.net/neutron/+bug/1749820,2019-04-16
+1803780,1803780,Fix Released,"confusing ""Circular reference found role inference rules ..."" error",https://bugs.launchpad.net/keystone/+bug/1803780,2019-04-16
+1291157,1291157,Fix Released,idp deletion should trigger token revocation,https://bugs.launchpad.net/keystone/+bug/1291157,2019-04-15
+1625120,1625120,Fix Released,Keystone should provide more verbose messages in case of 401 and 403 errors,https://bugs.launchpad.net/keystone/+bug/1625120,2019-04-15
+1782317,1782317,Fix Released,[master] scenario008 multinode job failing at undercloud giving Invalid local_interface specified. br-ex is not available.,https://bugs.launchpad.net/tripleo/+bug/1782317,2019-04-15
+1624556,1624556,Fix Released,Create utility to add metadata checksums,https://bugs.launchpad.net/swift/+bug/1624556,2019-04-15
+1824850,1824850,Fix Released,standalone jobs are failing in upstream gate - 'cp: cannot stat 'docker': No such file or directory',https://bugs.launchpad.net/tripleo/+bug/1824850,2019-04-15
+1746534,1746534,Fix Released,encoding error when doing console-log,https://bugs.launchpad.net/python-novaclient/+bug/1746534,2019-04-15
+1719798,1719798,Fix Released,Instances can be launched more than the reserved amount,https://bugs.launchpad.net/blazar/+bug/1719798,2019-04-15
+1813756,1813756,Fix Released,SG rules fail to be created with latest Neutron,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1813756,2019-04-15
+1824663,1824663,Fix Released,Monasca functional tests failing,https://bugs.launchpad.net/openstack-ansible/+bug/1824663,2019-04-15
+1753653,1753653,Fix Released,Neutron LBaaS delay raises kuryr exception,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1753653,2019-04-15
+1244025,1244025,Fix Released,Remote security group criteria don't work in Midonet plugin,https://bugs.launchpad.net/networking-midonet/+bug/1244025,2019-04-15
+1300785,1300785,Fix Released,"[OSSA 2014-014] neutron allows security group rules with invalid cidrs, resulting in broken iptables rules (breaking iptables-restore) (CVE-2014-0187)",https://bugs.launchpad.net/ossa/+bug/1300785,2019-04-15
+1300785,1300785,Fix Released,"[OSSA 2014-014] neutron allows security group rules with invalid cidrs, resulting in broken iptables rules (breaking iptables-restore) (CVE-2014-0187)",https://bugs.launchpad.net/neutron/+bug/1300785,2019-04-15
+1786326,1786326,Fix Released,Py3.7 unit tests hang; possible deadlock,https://bugs.launchpad.net/watcher/+bug/1786326,2019-04-15
+1549547,1549547,Fix Released,LBaaS leaking password in DEBUG logs,https://bugs.launchpad.net/neutron/+bug/1549547,2019-04-15
+1824476,1824476,Fix Released,zuul reproducer relabels /etc/pki and breaks openvpn with nm-applet,https://bugs.launchpad.net/tripleo/+bug/1824476,2019-04-15
+1824500,1824500,Fix Released,periodic stein fs037 updates tripleo-ansible-inventory: error: unrecognized arguments: --undercloud-connection,https://bugs.launchpad.net/tripleo/+bug/1824500,2019-04-15
+1824512,1824512,Fix Released,periodic standalone jobs not using os_tempest,https://bugs.launchpad.net/tripleo/+bug/1824512,2019-04-15
+1824189,1824189,Fix Released,Existing requirement_file and constraint_file may result in failed playbook runs following failure,https://bugs.launchpad.net/openstack-ansible/+bug/1824189,2019-04-13
+1800884,1800884,Fix Released,iptables-restore wait period cannot be zero,https://bugs.launchpad.net/neutron/+bug/1800884,2019-04-12
+1801361,1801361,Fix Released,Missing install step for OVS-Self-service networks,https://bugs.launchpad.net/neutron/+bug/1801361,2019-04-12
+1801930,1801930,Fix Released,Functional test test_ha_router_namespace_has_ipv6_forwarding_disabled failing quite often,https://bugs.launchpad.net/neutron/+bug/1801930,2019-04-12
+1786272,1786272,Fix Released,Connection between two virtual routers does not work with DVR,https://bugs.launchpad.net/neutron/+bug/1786272,2019-04-12
+1796491,1796491,Fix Released,DVR Floating IP setup in the SNAT namespace of the network node and also in the qrouter namespace in the compute node,https://bugs.launchpad.net/neutron/+bug/1796491,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/glance/+bug/1718356,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/karbor/+bug/1718356,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/neutron/+bug/1718356,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/trove/+bug/1718356,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/cinder/+bug/1718356,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/zun/+bug/1718356,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/sahara/+bug/1718356,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/barbican/+bug/1718356,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/ironic/+bug/1718356,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/keystone/+bug/1718356,2019-04-12
+1718356,1718356,Fix Released,Include default config files in python wheel,https://bugs.launchpad.net/designate/+bug/1718356,2019-04-12
+1799140,1799140,Fix Released,[l3][port_forwarding] subnet can not remove from router if have port_forwarding,https://bugs.launchpad.net/neutron/+bug/1799140,2019-04-12
+1802101,1802101,Fix Released,Devstack OVS module: OVS compilation fails when using an old kernel (even if the build_modules param is False),https://bugs.launchpad.net/neutron/+bug/1802101,2019-04-12
+1775382,1775382,Fix Released,neutron-openvswitch-agent cannot start on Windows,https://bugs.launchpad.net/neutron/+bug/1775382,2019-04-12
+1805808,1805808,Fix Released,Openvswitch firewall driver don't reinitialize after ovs-vswitchd restart,https://bugs.launchpad.net/neutron/+bug/1805808,2019-04-12
+1804842,1804842,Fix Released,When kill(sometines doesn't restart) the ovs switch or restart it in the compute nodes   vm conectivity is lost,https://bugs.launchpad.net/neutron/+bug/1804842,2019-04-12
+1805824,1805824,Fix Released,The dhcp port's address may be messed when the port's network has multiple subnets,https://bugs.launchpad.net/neutron/+bug/1805824,2019-04-12
+1807239,1807239,Fix Released,Race condition with DPDK + trunk ports when instance port is deleted then quickly recreated,https://bugs.launchpad.net/neutron/+bug/1807239,2019-04-12
+1795126,1795126,Fix Released,Race condition of DHCP agent updating port after ownership removed and given to another agent will cause extra port creation,https://bugs.launchpad.net/neutron/+bug/1795126,2019-04-12
+1808136,1808136,Fix Released,l2 pop doesn't always provide the whole list of fdb entries on OVS restart,https://bugs.launchpad.net/neutron/+bug/1808136,2019-04-12
+1798472,1798472,Fix Released,Fullstack tests fails because process is not killed properly,https://bugs.launchpad.net/neutron/+bug/1798472,2019-04-12
+1809643,1809643,Fix Released,Unit tests using fake_port1 and fake_port2 global variables are flaky,https://bugs.launchpad.net/neutron/+bug/1809643,2019-04-12
+1787919,1787919,Fix Released,Upgrade router to L3 HA broke IPv6,https://bugs.launchpad.net/neutron/+bug/1787919,2019-04-12
+1805456,1805456,Fix Released,[DVR] Neutron doesn't configure multiple external subnets for one network properly,https://bugs.launchpad.net/neutron/+bug/1805456,2019-04-12
+1566951,1566951,Fix Released,Duplicated traffic in SR-IOV and DVR mode,https://bugs.launchpad.net/neutron/+bug/1566951,2019-04-12
+1645835,1645835,Fix Released,protect for dhcp agent cache out of sync with neutron  server,https://bugs.launchpad.net/neutron/+bug/1645835,2019-04-12
+1810025,1810025,Fix Released,L2 agent do not clear QoS rules after restart,https://bugs.launchpad.net/neutron/+bug/1810025,2019-04-12
+1812497,1812497,Fix Released,"create vm failed, RequiredOptError: value required for option lock_path in group",https://bugs.launchpad.net/neutron/+bug/1812497,2019-04-12
+1811639,1811639,Fix Released,virtual machine cannot get DHCP (DHCPv6) lease for IPV6 due to packet has no checksum.,https://bugs.launchpad.net/neutron/+bug/1811639,2019-04-12
+1697243,1697243,Fix Released,ovs bridge flow table is dropped by unkown cause,https://bugs.launchpad.net/neutron/+bug/1697243,2019-04-12
+1811905,1811905,Fix Released,"Deferred IP allocation, port update with binding_host_id + set new mac address fails",https://bugs.launchpad.net/neutron/+bug/1811905,2019-04-12
+1813279,1813279,Fix Released,Race during adding and updating same port in L3 agent's info can generate wrong radvd config file,https://bugs.launchpad.net/neutron/+bug/1813279,2019-04-12
+1815913,1815913,Fix Released,DVR can not work with multiple routers on single network.,https://bugs.launchpad.net/neutron/+bug/1815913,2019-04-12
+1817956,1817956,Fix Released,Metadata not reachable when dvr_snat L3 agent is used on compute node,https://bugs.launchpad.net/neutron/+bug/1817956,2019-04-12
+1815345,1815345,Fix Released,neutron doesnt delete port binding level when deleting an inactive port binding,https://bugs.launchpad.net/neutron/+bug/1815345,2019-04-12
+1806770,1806770,Fix Released,DHCP Agent should not release DHCP lease when client ID is not set on port,https://bugs.launchpad.net/neutron/+bug/1806770,2019-04-12

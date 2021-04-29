@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1822367,1822367,Fix Released,Compute nodes need br-ex for OVN,https://bugs.launchpad.net/tripleo/+bug/1822367,2020-02-12
+1776375,1776375,Fix Released,[SRU] Making gnocchi resource support multiple projects with the same name,https://bugs.launchpad.net/aodh/+bug/1776375,2020-02-12
+1856962,1856962,Fix Released,openid method failed when federation_group_ids  is empty list,https://bugs.launchpad.net/keystone/+bug/1856962,2020-02-12
+1860753,1860753,Fix Released,tools/mlock_report.py can't import psutil module,https://bugs.launchpad.net/devstack/+bug/1860753,2020-02-11
+1849377,1849377,Fix Released,Share network create and update test is failing,https://bugs.launchpad.net/python-manilaclient/+bug/1849377,2020-02-11
+1849728,1849728,Fix Released,Functional tests that are skipped appear as failures,https://bugs.launchpad.net/python-manilaclient/+bug/1849728,2020-02-11
+1844488,1844488,Fix Released,optional argument value error,https://bugs.launchpad.net/karbor/+bug/1844488,2020-02-11
+1810539,1810539,Fix Released,split-control plane should work with SSL for Oslo messaging notifications and RPC,https://bugs.launchpad.net/tripleo/+bug/1810539,2020-02-11
+1828098,1828098,Fix Released,Reproducer bash script sets USER_PYTHON_OVERRIDE=python2,https://bugs.launchpad.net/tripleo/+bug/1828098,2020-02-11
+1708234,1708234,Fix Released,ceph-health tripleo validation times out on overcloud,https://bugs.launchpad.net/tripleo/+bug/1708234,2020-02-11
+1839410,1839410,Fix Committed,External Ceph in kolla-ansible instructions incorrect and need more detail,https://bugs.launchpad.net/kolla-ansible/+bug/1839410,2020-02-11
+1744322,1744322,Fix Released,Some validations don't work with containerized services,https://bugs.launchpad.net/tripleo/+bug/1744322,2020-02-11
+1737943,1737943,Fix Released,undercloud-service-status validation hangs when openstack-heat-engine service is not working,https://bugs.launchpad.net/tripleo/+bug/1737943,2020-02-11
+1827897,1827897,Fix Released,undercloud_public_host doesn't work with IPv6,https://bugs.launchpad.net/tripleo/+bug/1827897,2020-02-10
+1859068,1859068,Fix Released,"Exception message in neutronclient missing ""reason""",https://bugs.launchpad.net/python-neutronclient/+bug/1859068,2020-02-10
+1839222,1839222,Fix Released,51-hosts adds two blank lines every invocation,https://bugs.launchpad.net/tripleo/+bug/1839222,2020-02-10
+1834094,1834094,Fix Released,'openstack overcloud config download' fails; mistral.actions.action_factory.GetOvercloudConfig expected a character buffer object,https://bugs.launchpad.net/tripleo/+bug/1834094,2020-02-10
+1858421,1858421,Fix Released,[neutronclient]unit tests in py36 failed due to UnicodeEncodeError,https://bugs.launchpad.net/python-neutronclient/+bug/1858421,2020-02-10
+1802722,1802722,Fix Released,Tempest Plugin Registry in tempest,https://bugs.launchpad.net/tempest/+bug/1802722,2020-02-10
+1796882,1796882,Fix Released,tempest.api.compute.servers.test_attach_interfaces.AttachInterfacesTestJSON failing in the gate lately,https://bugs.launchpad.net/tempest/+bug/1796882,2020-02-10
+1795222,1795222,Fix Released,[l3] router agent side gateway IP not changed if directly change IP address,https://bugs.launchpad.net/neutron/+bug/1795222,2020-02-10
+1826695,1826695,Fix Released,[L3][QoS] cache does not removed when router is down or deleted,https://bugs.launchpad.net/neutron/+bug/1826695,2020-02-10
+1798184,1798184,Fix Released,[SRU] PY3: python3-ldap does not allow bytes for DN/RDN/field names,https://bugs.launchpad.net/keystone/+bug/1798184,2020-02-10
+1743688,1743688,Fix Released,Tempest plugins does not set the corresponding service in service_available config option,https://bugs.launchpad.net/aodh/+bug/1743688,2020-02-10
+1743688,1743688,Fix Released,Tempest plugins does not set the corresponding service in service_available config option,https://bugs.launchpad.net/congress/+bug/1743688,2020-02-10
+1743688,1743688,Fix Released,Tempest plugins does not set the corresponding service in service_available config option,https://bugs.launchpad.net/ceilometer/+bug/1743688,2020-02-10
+1743688,1743688,Fix Released,Tempest plugins does not set the corresponding service in service_available config option,https://bugs.launchpad.net/trove/+bug/1743688,2020-02-10
+1862439,1862439,Fix Released,oslo.concurrency 4.0.0 not found,https://bugs.launchpad.net/devstack/+bug/1862439,2020-02-09
+1861445,1861445,Fix Released,Cluster stuck in deleting,https://bugs.launchpad.net/senlin/+bug/1861445,2020-02-09
+1843043,1843043,Fix Released,kolla-ansible mariadb_backup fails due to xtrabackup being incompatible with mariadb 10.3,https://bugs.launchpad.net/kolla-ansible/+bug/1843043,2020-02-07
+1843043,1843043,Fix Released,kolla-ansible mariadb_backup fails due to xtrabackup being incompatible with mariadb 10.3,https://bugs.launchpad.net/kolla/+bug/1843043,2020-02-07
+1668410,1668410,Fix Released,[SRU] Infinite loop trying to delete deleted HA router,https://bugs.launchpad.net/neutron/+bug/1668410,2020-02-07
+1252900,1252900,Fix Released,Directional network performance issues with Neutron + OpenvSwitch,https://bugs.launchpad.net/openstack-manuals/+bug/1252900,2020-02-07
+1753434,1753434,Fix Released,Unbound ports floating ip not working with address scopes in DVR HA,https://bugs.launchpad.net/neutron/+bug/1753434,2020-02-07
+1845557,1845557,Fix Released,"DVR: FWaaS rules created for a router after the FIP and VM created, not applied to routers rfp port on router-update",https://bugs.launchpad.net/neutron/+bug/1845557,2020-02-07
+1835731,1835731,Fix Released,Neutron server error: failed to update port DOWN,https://bugs.launchpad.net/neutron/+bug/1835731,2020-02-07
+1717302,1717302,Fix Released,Tempest floatingip scenario tests failing on DVR Multinode setup with HA,https://bugs.launchpad.net/neutron/+bug/1717302,2020-02-07
+1766701,1766701,Fix Released,Trunk Tests are failing often in dvr-multinode scenario job,https://bugs.launchpad.net/neutron/+bug/1766701,2020-02-07
+1789434,1789434,Fix Released,neutron_tempest_plugin.scenario.test_migration.NetworkMigrationFromHA failing 100% times,https://bugs.launchpad.net/neutron/+bug/1789434,2020-02-07
+1595043,1595043,Fix Released,Make DVR portbinding implementation useful for HA ports,https://bugs.launchpad.net/neutron/+bug/1595043,2020-02-07
+1862134,1862134,Fix Released,upstream tripleo jobs using os_tempest failing with ERROR: No matching distribution found for oslo.db===7.0.0,https://bugs.launchpad.net/tripleo/+bug/1862134,2020-02-07
+1526226,1526226,Fix Released,[RFE] Extend the power Interface with soft power off and the management interface with NMI injection,https://bugs.launchpad.net/ironic/+bug/1526226,2020-02-07
+1756190,1756190,Fix Released,Project tags is too restrictive,https://bugs.launchpad.net/keystone/+bug/1756190,2020-02-06
+1750384,1750384,Fix Released,Cannot Delete Recordset / Zone in ng_dns panels,https://bugs.launchpad.net/designate-dashboard/+bug/1750384,2020-02-06
+1808595,1808595,Fix Released,fullstack test neutron.tests.fullstack.test_l3_agent.TestHAL3Agent.test_gateway_ip_changed failed intermittently,https://bugs.launchpad.net/neutron/+bug/1808595,2020-02-06
+1838541,1838541,Fix Released,"Spurious warnings in compute logs while building/unshelving an instance: Instance cf1dc8a6-48fe-42fd-90a7-d352c58e1454 is not being actively managed by this compute host but has allocations referencing this compute host: {u'resources': {u'VCPU': 1, u'MEMORY_MB': 64}}. Skipping heal of allocation because we do not know what to do.",https://bugs.launchpad.net/nova/+bug/1838541,2020-02-06
+1849657,1849657,Fix Released,allocation key is missing from the binding:profile of the neutron qos port when the server is created by a non-admin user,https://bugs.launchpad.net/nova/+bug/1849657,2020-02-06
+1850280,1850280,Fix Released,rejecting move operations with qos ports does not work if the operation is called with non admin user,https://bugs.launchpad.net/nova/+bug/1850280,2020-02-06
+1853198,1853198,Fix Released,Disable journald-remote due to systemd issue,https://bugs.launchpad.net/openstack-ansible/+bug/1853198,2020-02-06
+1849695,1849695,Fix Released,resize of server with qos ports fails if called by non admin user,https://bugs.launchpad.net/nova/+bug/1849695,2020-02-06
+1551703,1551703,Fix Released,"Resize a vm that vm_state is ""stopped""  failure， vm's task_state rollback to ""active""",https://bugs.launchpad.net/nova/+bug/1551703,2020-02-06
+1845986,1845986,Fix Released,SEV does not enable IOMMU on SCSI controller,https://bugs.launchpad.net/nova/+bug/1845986,2020-02-06
+1862010,1862010,Fix Released,neutron-haproxy-ovnmeta containers are not up after compute node restarted,https://bugs.launchpad.net/tripleo/+bug/1862010,2020-02-06
+1675191,1675191,Fix Released,operation_log: mask_fields are always recorded even if it is not contained in user parameters,https://bugs.launchpad.net/horizon/+bug/1675191,2020-02-05
+1852682,1852682,Fix Released,[promotion][master][ovn] jobs failing with ovsdb-server: I/O error: /var/lib/openvswitch/ovnnb.db: open failed (No such file or directory),https://bugs.launchpad.net/tripleo/+bug/1852682,2020-02-05
+1798726,1798726,Fix Released,Deletion of VNF is allowed while stack creation is  still in  CREATE_IN_PROGRESS status,https://bugs.launchpad.net/tacker/+bug/1798726,2020-02-05
+1715486,1715486,Fix Released,py35 tests failing due to iso8601 module change,https://bugs.launchpad.net/ironic/+bug/1715486,2020-02-05
+1715486,1715486,Fix Released,py35 tests failing due to iso8601 module change,https://bugs.launchpad.net/magnum/+bug/1715486,2020-02-05
+1715486,1715486,Fix Released,py35 tests failing due to iso8601 module change,https://bugs.launchpad.net/watcher/+bug/1715486,2020-02-05
+1715486,1715486,Fix Released,py35 tests failing due to iso8601 module change,https://bugs.launchpad.net/mogan/+bug/1715486,2020-02-05
+1715486,1715486,Fix Released,py35 tests failing due to iso8601 module change,https://bugs.launchpad.net/manila/+bug/1715486,2020-02-05
+1715486,1715486,Fix Released,py35 tests failing due to iso8601 module change,https://bugs.launchpad.net/masakari/+bug/1715486,2020-02-05
+1715486,1715486,Fix Released,py35 tests failing due to iso8601 module change,https://bugs.launchpad.net/cinder/+bug/1715486,2020-02-05
+1715486,1715486,Fix Released,py35 tests failing due to iso8601 module change,https://bugs.launchpad.net/iotronic/+bug/1715486,2020-02-05
+1715486,1715486,Fix Released,py35 tests failing due to iso8601 module change,https://bugs.launchpad.net/senlin/+bug/1715486,2020-02-05
+1861308,1861308,Fix Released,Tempest and plugins not supported for distro not having py3.6,https://bugs.launchpad.net/tempest/+bug/1861308,2020-02-04
+1841933,1841933,Fix Released,Fetching metadata via LB may result with wrong instance data,https://bugs.launchpad.net/nova/+bug/1841933,2020-02-04
+1855985,1855985,Fix Released,tempest network test_list_agent test failed with mismatch error in train fs020,https://bugs.launchpad.net/tripleo/+bug/1855985,2020-02-04
+1777568,1777568,Fix Released,VNF in PENDING_SCALE_* status can't be deleted.,https://bugs.launchpad.net/tacker/+bug/1777568,2020-02-04
+1861378,1861378,Fix Released,Multiple post_failure on master periodic pipeline,https://bugs.launchpad.net/tripleo/+bug/1861378,2020-02-04
+1820591,1820591,Fix Released,"openstack-ansible AIO , heat role detects wrong IP",https://bugs.launchpad.net/openstack-ansible/+bug/1820591,2020-02-03
+1811086,1811086,Fix Released,heat.conf.j2 keystone_service URIs,https://bugs.launchpad.net/openstack-ansible/+bug/1811086,2020-02-03
+1861314,1861314,Fix Released,Namespace resources not cleaned up due to subnet not found,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1861314,2020-02-03
+1861102,1861102,Fix Released,Multiple neutron tempest plugin tests failure with     AttributeError: 'NoneType' object has no attribute 'open_session',https://bugs.launchpad.net/tripleo/+bug/1861102,2020-02-03
+1861342,1861342,Fix Released,"tripleo-ci promotion failing on ""pull ppc64le tagged containers""",https://bugs.launchpad.net/tripleo/+bug/1861342,2020-02-03

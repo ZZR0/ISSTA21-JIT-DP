@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1032878,1032878,Fix Released,Container delete throughput constrained unnecessarily,https://bugs.launchpad.net/python-swiftclient/+bug/1032878,2015-07-16
+1032879,1032879,Fix Released,Container delete race condition causes timeout/retry,https://bugs.launchpad.net/python-swiftclient/+bug/1032879,2015-07-16
+1037690,1037690,Fix Released,Endpoint is hard-wired to publicURL,https://bugs.launchpad.net/python-swiftclient/+bug/1037690,2015-07-16
+1019832,1019832,Fix Released,swiftclient should support multi-region,https://bugs.launchpad.net/python-swiftclient/+bug/1019832,2015-07-16
+1048560,1048560,Fix Released,Unauthorized results in backtrace,https://bugs.launchpad.net/python-swiftclient/+bug/1048560,2015-07-16
+1034158,1034158,Fix Released,V2 auth may be used even if -V 1.0 is used,https://bugs.launchpad.net/python-swiftclient/+bug/1034158,2015-07-16
+1044204,1044204,Fix Released,swift-bench has bug at auth version 2.0.,https://bugs.launchpad.net/python-swiftclient/+bug/1044204,2015-07-16
+1082930,1082930,Fix Released,Uploading segmented object multiple times potentially corrupts object,https://bugs.launchpad.net/python-swiftclient/+bug/1082930,2015-07-16
+1085827,1085827,Fix Released,swift client appends '/' to the auth URL,https://bugs.launchpad.net/python-swiftclient/+bug/1085827,2015-07-16
+1077869,1077869,Fix Released,Swift CLI can't access to keystone with self signed certification,https://bugs.launchpad.net/python-swiftclient/+bug/1077869,2015-07-16
+1102691,1102691,Fix Released,swiftclient report 1.0 when it should be reporting from tag(from tag),https://bugs.launchpad.net/python-swiftclient/+bug/1102691,2015-07-16
+1102322,1102322,Fix Released,Add keystone client as a dependency for swiftclient,https://bugs.launchpad.net/python-swiftclient/+bug/1102322,2015-07-16
+1011636,1011636,Fix Released,Symbols & and ? in the name of a large object,https://bugs.launchpad.net/python-swiftclient/+bug/1011636,2015-07-16
+1110924,1110924,Fix Released,`swift upload -S` should allow specifying segment container,https://bugs.launchpad.net/python-swiftclient/+bug/1110924,2015-07-16
+1121897,1121897,Fix Released,Swift list container/object (with a slash between)  bombs out,https://bugs.launchpad.net/python-swiftclient/+bug/1121897,2015-07-16
+1154621,1154621,Fix Released,swift client does not allow content type to be specified,https://bugs.launchpad.net/python-swiftclient/+bug/1154621,2015-07-16
+1147232,1147232,Fix Released,Enhance put_object to inform if chunk_size being ignored,https://bugs.launchpad.net/python-swiftclient/+bug/1147232,2015-07-16
+1158819,1158819,Fix Released,Test directory needs pep8 fix,https://bugs.launchpad.net/python-swiftclient/+bug/1158819,2015-07-16
+1008940,1008940,Fix Released,Need full unicode support for Swift,https://bugs.launchpad.net/python-swiftclient/+bug/1008940,2015-07-16
+1008940,1008940,Fix Released,Need full unicode support for Swift,https://bugs.launchpad.net/horizon/+bug/1008940,2015-07-16
+1175057,1175057,Fix Released,get_account() and get_container don't have end_marker param.,https://bugs.launchpad.net/python-swiftclient/+bug/1175057,2015-07-16
+1075184,1075184,Fix Released,Files smaller than --segment-size not handled correctly.,https://bugs.launchpad.net/python-swiftclient/+bug/1075184,2015-07-16
+1131142,1131142,Fix Released,Expired X-Auth-Token can cause re-auth flow to fail,https://bugs.launchpad.net/python-swiftclient/+bug/1131142,2015-07-16
+1183542,1183542,Fix Released,Swiftclient needs maximum backoff for retries,https://bugs.launchpad.net/python-swiftclient/+bug/1183542,2015-07-16
+1207736,1207736,Fix Released,Assignment to reserved built-in symbol: file,https://bugs.launchpad.net/python-swiftclient/+bug/1207736,2015-07-16
+1016641,1016641,Fix Released,swiftclient service_type and endpoint_type support missing,https://bugs.launchpad.net/python-swiftclient/+bug/1016641,2015-07-16
+1204358,1204358,Fix Released,Use absolute imports instead of relative when preparing for Python3,https://bugs.launchpad.net/python-swiftclient/+bug/1204358,2015-07-16
+1212861,1212861,Fix Released,"No handlers could be found for logger ""swiftclient""",https://bugs.launchpad.net/python-swiftclient/+bug/1212861,2015-07-16
+1231321,1231321,Fix Released,cli not clear for create container,https://bugs.launchpad.net/python-swiftclient/+bug/1231321,2015-07-16
+1226256,1226256,Fix Released,"can't set X-Versions-Location with swift cli ""post"" command",https://bugs.launchpad.net/python-swiftclient/+bug/1226256,2015-07-16
+1245082,1245082,Fix Released,"Typo in help text: ""downlad""",https://bugs.launchpad.net/python-swiftclient/+bug/1245082,2015-07-16
+1051046,1051046,Fix Released,get_object does not allow user-provided headers,https://bugs.launchpad.net/python-swiftclient/+bug/1051046,2015-07-16
+1197443,1197443,Fix Released,swift command mis-reports download bandwidth,https://bugs.launchpad.net/python-swiftclient/+bug/1197443,2015-07-16
+1238612,1238612,Fix Released,"curl command displayed by a ""swift --debug list <container>"" is incorrect",https://bugs.launchpad.net/python-swiftclient/+bug/1238612,2015-07-16
+1012979,1012979,Fix Released,Is is possible to specify the object name in the command of swift upload?,https://bugs.launchpad.net/python-swiftclient/+bug/1012979,2015-07-16
+1199783,1199783,Fix Released,Missing SSL cert check in Swift python client (CVE-2013-6396),https://bugs.launchpad.net/python-swiftclient/+bug/1199783,2015-07-16
+1199783,1199783,Fix Released,Missing SSL cert check in Swift python client (CVE-2013-6396),https://bugs.launchpad.net/ossa/+bug/1199783,2015-07-16
+1280275,1280275,Fix Released,swiftclient is hogging all the memory,https://bugs.launchpad.net/python-swiftclient/+bug/1280275,2015-07-16
+1280275,1280275,Fix Released,swiftclient is hogging all the memory,https://bugs.launchpad.net/tripleo/+bug/1280275,2015-07-16
+1284360,1284360,Fix Released,Segmented object upload hangs w/client 2.0,https://bugs.launchpad.net/python-swiftclient/+bug/1284360,2015-07-16
+1302566,1302566,Fix Released,no unit for --segment-size option,https://bugs.launchpad.net/python-swiftclient/+bug/1302566,2015-07-16
+1256441,1256441,Fix Released,headers with a value of None does not work anymore,https://bugs.launchpad.net/heat/+bug/1256441,2015-07-16
+1256441,1256441,Fix Released,headers with a value of None does not work anymore,https://bugs.launchpad.net/python-swiftclient/+bug/1256441,2015-07-16
+1361931,1361931,Fix Released,grenade fails due to ImportError in python-swiftclient,https://bugs.launchpad.net/python-swiftclient/+bug/1361931,2015-07-16
+1361931,1361931,Fix Released,grenade fails due to ImportError in python-swiftclient,https://bugs.launchpad.net/grenade/+bug/1361931,2015-07-16
+1359360,1359360,Fix Released,generate Windows exe,https://bugs.launchpad.net/python-swiftclient/+bug/1359360,2015-07-16
+1372465,1372465,Fix Released,error when attempting keystone v3 authentication,https://bugs.launchpad.net/python-swiftclient/+bug/1372465,2015-07-16
+1474726,1474726,Fix Released,[compute] image filesystems attribute can't work,https://bugs.launchpad.net/openstack-chef/+bug/1474726,2015-07-16
+1473897,1473897,Fix Released,[identity]cannot configure identity_mapping section to support keystone multi-domain,https://bugs.launchpad.net/openstack-chef/+bug/1473897,2015-07-16
+1331978,1331978,Fix Released,Revoke v3 token on logout,https://bugs.launchpad.net/django-openstack-auth/+bug/1331978,2015-07-15
+1357047,1357047,Fix Released,Switching the project also switches the region,https://bugs.launchpad.net/django-openstack-auth/+bug/1357047,2015-07-15
+1433389,1433389,Fix Released,Need a way to extend auth types,https://bugs.launchpad.net/django-openstack-auth/+bug/1433389,2015-07-15
+1196982,1196982,Fix Released,Horizon git repo shouldn't include the .mo files,https://bugs.launchpad.net/horizon/+bug/1196982,2015-07-15
+1196982,1196982,Fix Released,Horizon git repo shouldn't include the .mo files,https://bugs.launchpad.net/django-openstack-auth/+bug/1196982,2015-07-15
+1223079,1223079,Fix Released,Don't scope to disabled projects,https://bugs.launchpad.net/django-openstack-auth/+bug/1223079,2015-07-15
+1452955,1452955,Fix Released,Improve horizon error msg when it could not connect to keystone,https://bugs.launchpad.net/django-openstack-auth/+bug/1452955,2015-07-15
+1424825,1424825,Fix Released,Parsing of  service catalog should be less error prone,https://bugs.launchpad.net/horizon/+bug/1424825,2015-07-15
+1424825,1424825,Fix Released,Parsing of  service catalog should be less error prone,https://bugs.launchpad.net/django-openstack-auth/+bug/1424825,2015-07-15
+1413876,1413876,Fix Released,Horizon tests fail with latest django_openstack_auth 1.1.8,https://bugs.launchpad.net/django-openstack-auth/+bug/1413876,2015-07-15
+1468480,1468480,Fix Committed,gate-infra-puppet-apply-centos6 git timeout,https://bugs.launchpad.net/openstack-gate/+bug/1468480,2015-07-15
+1403510,1403510,Fix Released,"gate tests failed with ""NameError: name 'StandardError' is not defined""",https://bugs.launchpad.net/ceilometer/+bug/1403510,2015-07-15
+1403510,1403510,Fix Released,"gate tests failed with ""NameError: name 'StandardError' is not defined""",https://bugs.launchpad.net/zaqar/+bug/1403510,2015-07-15
+1410471,1410471,Fix Committed,"[image based provisioning] incorrect ""device is busy"" handling for non-RAID devices",https://bugs.launchpad.net/fuel/+bug/1410471,2015-07-15
+1442668,1442668,Fix Released,wrong regex for ntp server list,https://bugs.launchpad.net/fuel/+bug/1442668,2015-07-15
+1347682,1347682,Fix Released,"FUEL web UI allows hitting ""Deploy changes"" with empty NSX settings",https://bugs.launchpad.net/fuel/+bug/1347682,2015-07-15
+1474452,1474452,Fix Released,"Document sidebartoc typo:  ""한국의"" > ""한국어""",https://bugs.launchpad.net/openstack-manuals/+bug/1474452,2015-07-15
+1474843,1474843,Fix Committed,"[docs] Specify KVM, QEMU, vCenter support in supported versions",https://bugs.launchpad.net/fuel/+bug/1474843,2015-07-15
+1469675,1469675,Fix Released,linkcheck for stackforge/fuel-docs reports broken links from external modules,https://bugs.launchpad.net/fuel/+bug/1469675,2015-07-15
+1454302,1454302,Fix Released,Network v2.0 API network show response confusing.,https://bugs.launchpad.net/openstack-api-site/+bug/1454302,2015-07-15
+1472292,1472292,Fix Released,Repeated full-migration on same compute doesn't work,https://bugs.launchpad.net/fuel/+bug/1472292,2015-07-15
+1474249,1474249,Fix Released,Fuel-migrate failed,https://bugs.launchpad.net/fuel/+bug/1474249,2015-07-15
+1458780,1458780,Fix Committed,Smoke nova failed with deployment error,https://bugs.launchpad.net/fuel/+bug/1458780,2015-07-15
+1415955,1415955,Fix Released,ceilometer-api doesn't responce on requests,https://bugs.launchpad.net/fuel/+bug/1415955,2015-07-15
+1395084,1395084,Fix Released,Attempting to upload an image to a non-queued image appears to succeed,https://bugs.launchpad.net/python-glanceclient/+bug/1395084,2015-07-15
+1414809,1414809,Fix Released,Add replacement of failed component as another aspect of HA in Chapter 1,https://bugs.launchpad.net/openstack-manuals/+bug/1414809,2015-07-15

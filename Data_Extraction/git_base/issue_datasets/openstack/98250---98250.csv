@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+843076,843076,Fix Released,Proxy 305 Redirects to Admin API,https://bugs.launchpad.net/keystone/+bug/843076,2011-09-06
+843075,843075,Fix Released,To PUT or to POST,https://bugs.launchpad.net/keystone/+bug/843075,2011-09-06
+843074,843074,Fix Released,keystone-manage throws error on example given in man page,https://bugs.launchpad.net/keystone/+bug/843074,2011-09-06
+843073,843073,Fix Released,auth_token middleware fails for concurrent requests,https://bugs.launchpad.net/keystone/+bug/843073,2011-09-06
+843072,843072,Fix Released,Nova middleware integration (paste.ini) has hardcoded admin token ...,https://bugs.launchpad.net/keystone/+bug/843072,2011-09-06
+843071,843071,Fix Released,auth token is valid for every swift account,https://bugs.launchpad.net/keystone/+bug/843071,2011-09-06
+843070,843070,Fix Released,Allow to parse roleRef without tenantId (json),https://bugs.launchpad.net/keystone/+bug/843070,2011-09-06
+746068,746068,Fix Released,stats system needs to better track differences between clients and load balancers,https://bugs.launchpad.net/swift/+bug/746068,2011-09-06
+788967,788967,Fix Released,Confusing exception when trying to start 'burrowd --help',https://bugs.launchpad.net/burrow/+bug/788967,2011-09-03
+803237,803237,Fix Released,Exception on update_messages w/ SQLite backend,https://bugs.launchpad.net/burrow/+bug/803237,2011-09-03
+837589,837589,Fix Released,puppet not running regularly on quantum build slave,https://bugs.launchpad.net/openstack-ci/+bug/837589,2011-08-31
+721141,721141,Fix Released,empty logfiles in /var/log/nova/ after logrotating with logrotated,https://bugs.launchpad.net/nova/+bug/721141,2011-08-29
+771809,771809,Fix Released,Dead link in swift administration guide (pdf),https://bugs.launchpad.net/openstack-manuals/+bug/771809,2011-08-26
+832596,832596,Fix Released,nova-milestone-tarball job can't execute on nova-1,https://bugs.launchpad.net/openstack-ci/+bug/832596,2011-08-24
+709187,709187,Fix Released,"AjaxTerm refer to a unexistant folder ""tools"" with the Ubuntu packaging",https://bugs.launchpad.net/nova/+bug/709187,2011-08-22
+723453,723453,Fix Released,Update glance-upload to handle VHDs,https://bugs.launchpad.net/glance/+bug/723453,2011-08-20
+823604,823604,Fix Released,Segmentation error,https://bugs.launchpad.net/swift/+bug/823604,2011-08-16
+715618,715618,Fix Released,fix logging message if AMQP server is not reachable,https://bugs.launchpad.net/nova/+bug/715618,2011-08-16
+823495,823495,Fix Released,The 2011.1 Nova docs site is no longer available,https://bugs.launchpad.net/openstack-ci/+bug/823495,2011-08-09
+759972,759972,Fix Released,Install trunk debs on Ubuntu 10.10 fails with dup owned file between swift and swift-account,https://bugs.launchpad.net/swift/+bug/759972,2011-08-03
+807556,807556,Fix Released,Change what ratelimiting rate limits,https://bugs.launchpad.net/swift/+bug/807556,2011-07-27
+803141,803141,Fix Released,charset bug(s),https://bugs.launchpad.net/swift/+bug/803141,2011-07-27
+802587,802587,Fix Released,drop_buffer_cache() doesn't work on systems where off_t isn't 64 bits,https://bugs.launchpad.net/swift/+bug/802587,2011-07-27
+800348,800348,Fix Released,TempAuth fails to instantiate when 'bind_port' is missing in config,https://bugs.launchpad.net/swift/+bug/800348,2011-07-27
+795680,795680,Fix Released,Ratelimiting unit tests mistakenly fail on slow machines,https://bugs.launchpad.net/swift/+bug/795680,2011-07-27
+794618,794618,Fix Released,posix_fadvise syslog warnings,https://bugs.launchpad.net/swift/+bug/794618,2011-07-27
+788019,788019,Fix Released,s3cmd swift3 authentication fails,https://bugs.launchpad.net/swift/+bug/788019,2011-07-27
+802585,802585,Fix Released,fix rate limit tests,https://bugs.launchpad.net/swift/+bug/802585,2011-07-27
+801303,801303,Fix Released,remove recreateaccounts reference,https://bugs.launchpad.net/swift/+bug/801303,2011-07-27
+798486,798486,Fix Released,XML 1.1 Compatibility,https://bugs.launchpad.net/swift/+bug/798486,2011-07-27
+814710,814710,Fix Released,some client libs don't like xml 1.1 encoding,https://bugs.launchpad.net/swift/+bug/814710,2011-07-27
+719093,719093,Fix Released,KeyError: 'imageId' when creating instance with EC2/S3,https://bugs.launchpad.net/nova/+bug/719093,2011-07-27
+741943,741943,Fix Released,allow content-disposition to be set on objects,https://bugs.launchpad.net/swift/+bug/741943,2011-07-25
+729129,729129,Fix Released,Arrow entity references aren't showing up in webhelp output on some browsers,https://bugs.launchpad.net/openstack-manuals/+bug/729129,2011-07-15
+721144,721144,Fix Released,swift docs incorrectly reference CDN,https://bugs.launchpad.net/openstack-manuals/+bug/721144,2011-07-15
+767252,767252,Fix Released,Documentation incorrect for nova username on MySQL database in nova.conf,https://bugs.launchpad.net/nova/+bug/767252,2011-07-13
+805397,805397,Fix Released,password field shows all characters,https://bugs.launchpad.net/horizon/+bug/805397,2011-07-12
+798386,798386,Fix Released,user_roles handles invalid user badly,https://bugs.launchpad.net/horizon/+bug/798386,2011-07-12
+761623,761623,Fix Released,Json response don't meet specification for addresses and metadata.,https://bugs.launchpad.net/nova/+bug/761623,2011-07-12
+791585,791585,Fix Released,Documentation needs updating,https://bugs.launchpad.net/swift/+bug/791585,2011-07-11
+794539,794539,Fix Released,fix cyberduck docs,https://bugs.launchpad.net/swift/+bug/794539,2011-07-11
+752309,752309,Fix Released,missing ; in command line example,https://bugs.launchpad.net/openstack-manuals/+bug/752309,2011-07-11
+798221,798221,Fix Released,"The ""Swift 1.3 Docs"" link on http://swift.openstack.org is not available.",https://bugs.launchpad.net/swift/+bug/798221,2011-07-11
+716441,716441,Fix Released,Search problems - indexed keywords not appearing,https://bugs.launchpad.net/openstack-manuals/+bug/716441,2011-07-11
+805711,805711,Fix Released,"Cactus documentation uses the ""trunk"" PPA",https://bugs.launchpad.net/openstack-manuals/+bug/805711,2011-07-05
+676026,676026,Fix Released,Nova services do not log to new log file after log rotation,https://bugs.launchpad.net/nova/+bug/676026,2011-06-27
+800288,800288,Fix Released,images bleeding off pages in PDF,https://bugs.launchpad.net/openstack-manuals/+bug/800288,2011-06-22
+795822,795822,Fix Released,"When account_autocreate = true, a HEAD|GET on the account doesn't create it",https://bugs.launchpad.net/swift/+bug/795822,2011-06-20
+795666,795666,Fix Released,charset utf8 should be charset utf-8,https://bugs.launchpad.net/swift/+bug/795666,2011-06-20
+793286,793286,Fix Released,swift.common.utils.TRUE_VALUES refactor,https://bugs.launchpad.net/swift/+bug/793286,2011-06-20
+705544,705544,Fix Released,x-auth-* encoding issues against swauth,https://bugs.launchpad.net/swift/+bug/705544,2011-06-20
+785448,785448,Fix Released,Multiple Swauths fails,https://bugs.launchpad.net/swift/+bug/785448,2011-06-20
+795978,795978,Fix Released,Rename st,https://bugs.launchpad.net/swift/+bug/795978,2011-06-20
+735759,735759,Fix Released,creating a new user in dashboard doesn't create a new user in nova,https://bugs.launchpad.net/horizon/+bug/735759,2011-06-15
+766575,766575,Fix Released,allowed_headers not returned in HEAD,https://bugs.launchpad.net/swift/+bug/766575,2011-06-15
+782328,782328,Fix Released,Improve logging in object auditor,https://bugs.launchpad.net/swift/+bug/782328,2011-06-15
+718869,718869,Fix Released,nova-compute: can't spawn new instances after restarting RabbitMQ,https://bugs.launchpad.net/nova/+bug/718869,2011-06-14
+722982,722982,Fix Released,add functionality to bin/nova-manage to remove existing networks,https://bugs.launchpad.net/nova/+bug/722982,2011-06-07
+788413,788413,Fix Released,Unit tests failing in django-openstack,https://bugs.launchpad.net/horizon/+bug/788413,2011-06-07
+788388,788388,Fix Released,run_tests.sh returns successful when django-openstack tests fail,https://bugs.launchpad.net/horizon/+bug/788388,2011-06-07
+782138,782138,Fix Released,"README text in rc-maven-cloud-docs dir just says, ""Don't forget to put this under a license""",https://bugs.launchpad.net/openstack-manuals/+bug/782138,2011-06-07
+752307,752307,Fix Released,command line on page 14 not in grey box,https://bugs.launchpad.net/openstack-manuals/+bug/752307,2011-06-02
+788169,788169,Fix Released,cc_host flag is undocumented,https://bugs.launchpad.net/openstack-manuals/+bug/788169,2011-06-02
+787861,787861,Fix Released,need to update to django 1.3.x series,https://bugs.launchpad.net/horizon/+bug/787861,2011-06-01
+782050,782050,Fix Released,Add Child Node to <subdir> in container listings with delimiters,https://bugs.launchpad.net/swift/+bug/782050,2011-05-31
+778089,778089,Fix Released,swift3 middleware doesn't allow / in object names,https://bugs.launchpad.net/swift/+bug/778089,2011-05-31
+759572,759572,Fix Released,get_hashes in objrep should use utils.write_pickle,https://bugs.launchpad.net/swift/+bug/759572,2011-05-31
+755089,755089,Fix Released,swift3 middleware doesn't support signed URLs,https://bugs.launchpad.net/swift/+bug/755089,2011-05-31
+710186,710186,Fix Released,object-updater async overrides,https://bugs.launchpad.net/swift/+bug/710186,2011-05-31
+655401,655401,Fix Released,swift-bench doesn't clean up containers,https://bugs.launchpad.net/swift/+bug/655401,2011-05-31
+750752,750752,Fix Released,swift should return Accept-Ranges header,https://bugs.launchpad.net/swift/+bug/750752,2011-05-31
+715535,715535,Fix Released,Remove ECONNRESET patch from proxy server,https://bugs.launchpad.net/swift/+bug/715535,2011-05-31
+782446,782446,Fix Released,st retry failure error message could be more informative,https://bugs.launchpad.net/swift/+bug/782446,2011-05-31
+781909,781909,Fix Released,bufferedhttp should str header values to be Python 2.7 compatible,https://bugs.launchpad.net/swift/+bug/781909,2011-05-31
+781837,781837,Fix Released,IPv6 compressed notation and replication,https://bugs.launchpad.net/swift/+bug/781837,2011-05-31

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1542559,1542559,Fix Released,RequestLimitExceeded should return 400 or 413 instead of 500 in heat-cfn-api,https://bugs.launchpad.net/heat/+bug/1542559,2016-03-03
+1517731,1517731,Fix Released,keystone project constraint failed for empty string,https://bugs.launchpad.net/heat/+bug/1517731,2016-03-03
+1536488,1536488,Fix Released,DELETE_FAILED status due to 'UPDATE statement on table 'stack' expected to update x row(s); y were matched,https://bugs.launchpad.net/heat/+bug/1536488,2016-03-03
+1547399,1547399,Fix Released,ValueError: Error parsing template with some tests,https://bugs.launchpad.net/heat/+bug/1547399,2016-03-03
+1509071,1509071,Fix Released,ConnectionError during OS::Nova::Server validation,https://bugs.launchpad.net/heat/+bug/1509071,2016-03-03
+1549264,1549264,Fix Released,ZaqarEventSinkTest is too strict,https://bugs.launchpad.net/heat/+bug/1549264,2016-03-03
+1535051,1535051,Fix Released,missing index on stack.owner_id,https://bugs.launchpad.net/heat/+bug/1535051,2016-03-03
+1535259,1535259,Fix Released,External snapshots cannot be used in fuel-devops with 'host-passthrough' cpu mode,https://bugs.launchpad.net/fuel/+bug/1535259,2016-03-03
+1547537,1547537,Fix Released,`solar orch report` yields an error when there are no resources,https://bugs.launchpad.net/solar/+bug/1547537,2016-03-03
+1538335,1538335,Fix Released,Master node USB setup failed due to anaconda can't mount partition,https://bugs.launchpad.net/fuel/+bug/1538335,2016-03-03
+1515670,1515670,Fix Released,VPNaaS: Modify neutron API users to detect multiple local subnet feature,https://bugs.launchpad.net/neutron/+bug/1515670,2016-03-03
+1483417,1483417,Fix Released,move vpn api tests from neutron to neutron-vpnaas,https://bugs.launchpad.net/neutron/+bug/1483417,2016-03-03
+1530762,1530762,Fix Released,"Lbaas: shouldn't return  the fields ""http_method/url_path/expected_codes"" when healthmonitor type is TCP or ICMP",https://bugs.launchpad.net/neutron/+bug/1530762,2016-03-03
+1533877,1533877,Fix Released,lbaas:encode cert data for processing,https://bugs.launchpad.net/neutron/+bug/1533877,2016-03-03
+1538746,1538746,Fix Released,tempest v2 scenario tests not passing config to serviceclient and support netcat using cirros 0.3.3 image,https://bugs.launchpad.net/neutron/+bug/1538746,2016-03-03
+1548807,1548807,Fix Released,neutron lbaas DB support is broken on PostgreSQL,https://bugs.launchpad.net/neutron/+bug/1548807,2016-03-03
+1549372,1549372,Fix Released,shared-pools patch leaves unique index on Listener.default_pool_id,https://bugs.launchpad.net/neutron/+bug/1549372,2016-03-03
+1535981,1535981,Fix Released,broken assertion in fwaas tempest plugin,https://bugs.launchpad.net/neutron/+bug/1535981,2016-03-03
+1529072,1529072,Fix Released,Ceilometer tests are failed with message ceilometer-api is not running,https://bugs.launchpad.net/fuel/+bug/1529072,2016-03-03
+1543397,1543397,Fix Released,fwaas tempest plugin needs an update,https://bugs.launchpad.net/neutron/+bug/1543397,2016-03-03
+1546793,1546793,Fix Released,Fix neutron-fwaas cover tests,https://bugs.launchpad.net/neutron/+bug/1546793,2016-03-03
+1548520,1548520,Fix Released,FWaaS:  .tox/dsvm-functional/bin/subunit-1to2: No such file or directory,https://bugs.launchpad.net/neutron/+bug/1548520,2016-03-03
+1544799,1544799,Fix Released,FWaaS: Pick/install the right sql database to store user and data in each backend,https://bugs.launchpad.net/neutron/+bug/1544799,2016-03-03
+1535246,1535246,Fix Released,Openstack should be OpenStack on license headers,https://bugs.launchpad.net/neutron/+bug/1535246,2016-03-03
+1534846,1534846,Fix Released,IP address attribute test fails on OSX,https://bugs.launchpad.net/neutron/+bug/1534846,2016-03-03
+1516283,1516283,Fix Released,API extension is an Abstract Class but doesn't use abstractmethod,https://bugs.launchpad.net/neutron/+bug/1516283,2016-03-03
+1475717,1475717,Fix Released,RFE: Security Rules should support VRRP protocol,https://bugs.launchpad.net/neutron/+bug/1475717,2016-03-03
+1519118,1519118,Fix Released,No way to determine whether contract migrations are pending,https://bugs.launchpad.net/neutron/+bug/1519118,2016-03-03
+1537292,1537292,Fix Released,'web_framework' option has no effect,https://bugs.launchpad.net/neutron/+bug/1537292,2016-03-03
+1537578,1537578,Fix Released,Functional test_models_sync in VPNaaS (*aaS?) is failing due to neutron model mismatch,https://bugs.launchpad.net/neutron/+bug/1537578,2016-03-03
+1537746,1537746,Fix Released,l3_db should not assume dns-integration,https://bugs.launchpad.net/networking-ovn/+bug/1537746,2016-03-03
+1537746,1537746,Fix Released,l3_db should not assume dns-integration,https://bugs.launchpad.net/neutron/+bug/1537746,2016-03-03
+1537754,1537754,Fix Released,Unable to associate floating IP 172.24.5.4 to fixed IP 10.1.0.5 for instance ...,https://bugs.launchpad.net/neutron/+bug/1537754,2016-03-03
+1467633,1467633,Fix Released,OVS tunnel interface names are not host unique - Cannot run fullstack tests with more than 2 nodes using tunneling,https://bugs.launchpad.net/neutron/+bug/1467633,2016-03-03
+1538163,1538163,Fix Released,DVR: race in dvr serviceable port deletion,https://bugs.launchpad.net/neutron/+bug/1538163,2016-03-03
+1542277,1542277,Fix Released,Pecan: startup fails to associate plugins with some resources,https://bugs.launchpad.net/neutron/+bug/1542277,2016-03-03
+1468803,1468803,Fix Released,"[RFE] Create a modular L2 agent framework for linuxbridge, sriov and macvtap agents",https://bugs.launchpad.net/neutron/+bug/1468803,2016-03-03
+1542507,1542507,Fix Released,Pecan: quota list does not include tenant_id,https://bugs.launchpad.net/neutron/+bug/1542507,2016-03-03
+1532053,1532053,Fix Released,"No handlers could be found for logger ""oslo_reports.guru_meditation_report""",https://bugs.launchpad.net/neutron/+bug/1532053,2016-03-03
+1543513,1543513,Fix Released,Bring back dvr routers autoscheduling,https://bugs.launchpad.net/neutron/+bug/1543513,2016-03-03
+1537929,1537929,Fix Released,Pecan: controller lookup for resources with dashes fails,https://bugs.launchpad.net/neutron/+bug/1537929,2016-03-03
+1546237,1546237,Fix Released,Typo in alembic_migrations.rst,https://bugs.launchpad.net/neutron/+bug/1546237,2016-03-03
+1522172,1522172,Fix Released,add the new precommit event for security groups,https://bugs.launchpad.net/neutron/+bug/1522172,2016-03-03
+1542815,1542815,Fix Released,rbac-list response will report  wrong object_type,https://bugs.launchpad.net/neutron/+bug/1542815,2016-03-03
+1528510,1528510,Fix Released,Pecan: startup assumes controllers specify plugins,https://bugs.launchpad.net/neutron/+bug/1528510,2016-03-03
+1545620,1545620,Fix Released,Remove NEC plugin tables from neutron db migration,https://bugs.launchpad.net/neutron/+bug/1545620,2016-03-03
+1546731,1546731,Fix Released,1df244e556f5_add_unique_ha_router_agent_port_bindings revision is not postgres compliant,https://bugs.launchpad.net/neutron/+bug/1546731,2016-03-03
+1547164,1547164,Fix Released,Documentation warning on openvswitch_firewall.rst,https://bugs.launchpad.net/neutron/+bug/1547164,2016-03-03
+1529109,1529109,Fix Released,[RFE] Security groups resources are not extendable,https://bugs.launchpad.net/neutron/+bug/1529109,2016-03-03
+1546762,1546762,Fix Released,8a6d8bdae39_migrate_neutron_resources_table is not postgres compliant,https://bugs.launchpad.net/neutron/+bug/1546762,2016-03-03
+1547380,1547380,Fix Released,Correlate address scope with network,https://bugs.launchpad.net/neutron/+bug/1547380,2016-03-03
+1541119,1541119,Fix Released,Running neutron unit tests creates 'fip-priorities' file in directory,https://bugs.launchpad.net/neutron/+bug/1541119,2016-03-03
+1550618,1550618,Fix Released,sqlalchemy column replacement warnings on rbac tables,https://bugs.launchpad.net/neutron/+bug/1550618,2016-03-03
+1549471,1549471,Fix Released,Networks with an MTU of zero makes zero sense,https://bugs.launchpad.net/neutron/+bug/1549471,2016-03-03
+1480979,1480979,Fix Released,[RFE] Adding macvtap ml2 driver and agent,https://bugs.launchpad.net/neutron/+bug/1480979,2016-03-03
+1457986,1457986,Fix Released,RFE: Need API to provide network IP allocation counts,https://bugs.launchpad.net/neutron/+bug/1457986,2016-03-03
+1551219,1551219,Fix Released,"Remove ""LinuxBridge"" specific leftovers from common agent",https://bugs.launchpad.net/neutron/+bug/1551219,2016-03-03
+1547985,1547985,Fix Released,Control external network access with RBAC,https://bugs.launchpad.net/neutron/+bug/1547985,2016-03-03
+1535247,1535247,Fix Released,rpc callback mechanism does not support upgrades,https://bugs.launchpad.net/neutron/+bug/1535247,2016-03-03
+1550514,1550514,Fix Released,L2 CommontAgentLoop does not allow subscribing to push notifications queues,https://bugs.launchpad.net/neutron/+bug/1550514,2016-03-03
+1500012,1500012,Fix Released,[RFE] QoS driver for LinuxBridge Agent,https://bugs.launchpad.net/neutron/+bug/1500012,2016-03-03
+1548161,1548161,Fix Released,make/update_subnetpool_dict should process extension functions,https://bugs.launchpad.net/neutron/+bug/1548161,2016-03-03
+1402894,1402894,Fix Released,Resource group with a nested wait condition handle fails on create,https://bugs.launchpad.net/heat/+bug/1402894,2016-03-03
+1240138,1240138,Fix Released,Update default_catalog.templates,https://bugs.launchpad.net/keystone/+bug/1240138,2016-03-03
+1470718,1470718,Fix Released,"Federation mapping  schema validation for ""local"" attributes could do better",https://bugs.launchpad.net/keystone/+bug/1470718,2016-03-03
+1269789,1269789,Fix Released,using templated catalog causes issues creating/listing new services/endpoints,https://bugs.launchpad.net/keystone/+bug/1269789,2016-03-03
+1367113,1367113,Fix Released,Templated catalog backend not implemented,https://bugs.launchpad.net/keystone/+bug/1367113,2016-03-03
+1509944,1509944,Fix Released,Rolling upgrades: online schema migration,https://bugs.launchpad.net/keystone/+bug/1509944,2016-03-03
+1496946,1496946,Fix Released,keystone v2 allows creation of is_domain=True projects,https://bugs.launchpad.net/keystone/+bug/1496946,2016-03-03
+1229093,1229093,Fix Released,the domain name is case insensitive with keystone v3,https://bugs.launchpad.net/keystone/+bug/1229093,2016-03-03
+1521844,1521844,Fix Released,pycadf ID validation fails for multi-domain IDs,https://bugs.launchpad.net/keystone/+bug/1521844,2016-03-03
+1224273,1224273,Fix Released,Need a test to verify token's do not get data creep,https://bugs.launchpad.net/keystone/+bug/1224273,2016-03-03
+1531959,1531959,Fix Released,"mapping_id does not allow ""_"" character",https://bugs.launchpad.net/keystone/+bug/1531959,2016-03-03
+1401057,1401057,Fix Released,Direct mapping in mapping rules don't work with keywords,https://bugs.launchpad.net/keystone/+bug/1401057,2016-03-03
+1541218,1541218,Fix Released,make tests use test copy of policy.json,https://bugs.launchpad.net/keystone/+bug/1541218,2016-03-03

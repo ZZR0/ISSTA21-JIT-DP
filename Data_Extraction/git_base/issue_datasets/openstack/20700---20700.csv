@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1698921,1698921,Fix Released,ScaleIO: os-vol-host-attr:host is wrong when using multiple pools in the same backend,https://bugs.launchpad.net/cinder/+bug/1698921,2017-07-27
+1614095,1614095,Fix Released,cinder snapshot-show should obtain the user_id,https://bugs.launchpad.net/cinder/+bug/1614095,2017-07-27
+1700358,1700358,Fix Released,misidentification of QoS type,https://bugs.launchpad.net/cinder/+bug/1700358,2017-07-27
+1698310,1698310,Fix Released,"After transfering volume without snapshot, driver may raise exception when doing cascade deleting",https://bugs.launchpad.net/cinder/+bug/1698310,2017-07-27
+1566069,1566069,Fix Released,[api-ref]Added more options while uploading volume as image,https://bugs.launchpad.net/cinder/+bug/1566069,2017-07-27
+1696347,1696347,Fix Released,Add Generic Volume Group Into Quota Management,https://bugs.launchpad.net/cinder/+bug/1696347,2017-07-27
+1701393,1701393,Fix Released,VMware: cascade delete fails with InvalidSnapshot,https://bugs.launchpad.net/cinder/+bug/1701393,2017-07-27
+1369471,1369471,Fix Released,Windows Cinder Driver does not support a dedicated network for iSCSI traffic,https://bugs.launchpad.net/cinder/+bug/1369471,2017-07-27
+1700467,1700467,Fix Released,XtremIO failes on force detach,https://bugs.launchpad.net/cinder/+bug/1700467,2017-07-27
+1701231,1701231,Fix Released,IBM Storage: Creating volume with group-id(not CG) attribute will fail,https://bugs.launchpad.net/cinder/+bug/1701231,2017-07-27
+1702322,1702322,Fix Released,volume from snapshot fails with thin-provisioning,https://bugs.launchpad.net/cinder/+bug/1702322,2017-07-27
+1702512,1702512,Fix Released,shortcuts in attachment-delete will get ya,https://bugs.launchpad.net/cinder/+bug/1702512,2017-07-27
+1701547,1701547,Fix Released,lvm_type='auto' initializes vg incorrectly,https://bugs.launchpad.net/cinder/+bug/1701547,2017-07-27
+1698328,1698328,Fix Released,Volume migration error with multiple NEC Storage backends,https://bugs.launchpad.net/cinder/+bug/1698328,2017-07-27
+1691060,1691060,Fix Released,Size of project_id for Messages should be 255,https://bugs.launchpad.net/cinder/+bug/1691060,2017-07-27
+1697008,1697008,Fix Released,attach_delete removes export when multiple connections exist,https://bugs.launchpad.net/cinder/+bug/1697008,2017-07-27
+1698052,1698052,Fix Released,VNX: VM didn't see the correct size of volume,https://bugs.launchpad.net/cinder/+bug/1698052,2017-07-27
+1696414,1696414,Fix Released,"Using enable_v{1,2,3}_api flag in cinder.conf has no effect",https://bugs.launchpad.net/cinder/+bug/1696414,2017-07-27
+1693984,1693984,Fix Released,cinder volume(IBM SVC Driver) service pending,https://bugs.launchpad.net/cinder/+bug/1693984,2017-07-27
+1609517,1609517,Fix Released,zfssaiscsi driver parses configuration incorrectly,https://bugs.launchpad.net/cinder/+bug/1609517,2017-07-27
+1702317,1702317,Fix Released,HPE 3PAR : tempest.api.volume.admin.test_groups.GroupsTest.test_group_create_show_list_delete failed,https://bugs.launchpad.net/cinder/+bug/1702317,2017-07-27
+1703706,1703706,Fix Released,test_group_create_show_list_delete fails with 'Target group type is still in use',https://bugs.launchpad.net/cinder/+bug/1703706,2017-07-27
+1704690,1704690,Fix Released,Fix API Doc Error in Creating Backup,https://bugs.launchpad.net/cinder/+bug/1704690,2017-07-27
+1704502,1704502,Fix Released,make nimble driver supported,https://bugs.launchpad.net/cinder/+bug/1704502,2017-07-27
+1704499,1704499,Fix Released,ZFSSA: sparse snapshot cloning,https://bugs.launchpad.net/cinder/+bug/1704499,2017-07-27
+1700892,1700892,Fix Released,EMC VNX: tempest.api.volume.admin.test_groups.GroupsTest.test_group_create_show_list_delete failed,https://bugs.launchpad.net/cinder/+bug/1700892,2017-07-27
+1565051,1565051,Fix Released,Live-migration with ZFSSA-backed cinder volume - filesystems to go read-only,https://bugs.launchpad.net/cinder/+bug/1565051,2017-07-27
+1682239,1682239,Fix Released,CoprHD driver needs to add CG capability to Groups,https://bugs.launchpad.net/cinder/+bug/1682239,2017-07-27
+1703892,1703892,Fix Released,create from image fails for raw images due to format autodetection,https://bugs.launchpad.net/cinder/+bug/1703892,2017-07-27
+1537914,1537914,Fix Released,ZFSSA volume driver should catch REST API failure,https://bugs.launchpad.net/cinder/+bug/1537914,2017-07-27
+1699733,1699733,Fix Released,HPE 3Par: Volume Retype with same encryption fails.,https://bugs.launchpad.net/cinder/+bug/1699733,2017-07-27
+1696975,1696975,Fix Released,VMAX bootable volume errors,https://bugs.launchpad.net/cinder/+bug/1696975,2017-07-27
+1702820,1702820,Fix Released,cinder can not revert volume to snapshot,https://bugs.launchpad.net/cinder/+bug/1702820,2017-07-27
+1706888,1706888,Fix Released,Incorrect capacity exists when extending volume,https://bugs.launchpad.net/cinder/+bug/1706888,2017-07-27
+1702241,1702241,Fix Released,[ui] _get_searchlight_url doesn't return the right url when deploying with uwsgi,https://bugs.launchpad.net/searchlight/+bug/1702241,2017-07-27
+1694523,1694523,Fix Released,Concurrent indexing doesn't detect errors in plugin indexing,https://bugs.launchpad.net/searchlight/+bug/1694523,2017-07-27
+1694352,1694352,Fix Released,Stop using deprecated oslo_utils.timeutils.isotime,https://bugs.launchpad.net/manila/+bug/1694352,2017-07-27
+1706511,1706511,Fix Released,elasticsearch rpm package file path is incorrect,https://bugs.launchpad.net/searchlight/+bug/1706511,2017-07-27
+1686717,1686717,Fix Released,Default value of OPENSTACK_ENDPOINT_TYPE is inconsistent,https://bugs.launchpad.net/horizon/+bug/1686717,2017-07-27
+1671593,1671593,Fix Released,Network/Router forms show readonly ID/name fields,https://bugs.launchpad.net/horizon/+bug/1671593,2017-07-27
+1655300,1655300,Fix Released,Low performance when instances are using not available flavour,https://bugs.launchpad.net/horizon/+bug/1655300,2017-07-27
+1689504,1689504,Fix Released,Favicons incorrectly displayed on Apple devices,https://bugs.launchpad.net/horizon/+bug/1689504,2017-07-27
+1352516,1352516,Fix Released,Need to propagate cinder errors to UI,https://bugs.launchpad.net/horizon/+bug/1352516,2017-07-27
+1575913,1575913,Fix Released,Generate and download keypair GET endpoint allows CSRF attacks,https://bugs.launchpad.net/horizon/+bug/1575913,2017-07-27
+1695052,1695052,Fix Released,Pagination doesn't work on the Volume Snapshot tab,https://bugs.launchpad.net/horizon/+bug/1695052,2017-07-27
+1696996,1696996,Fix Released,H405 hacking rule (multi-line docstring),https://bugs.launchpad.net/horizon/+bug/1696996,2017-07-27
+1677206,1677206,Fix Released,Can not choose flavor in dashboard if glance.min_disk > flavor.disk,https://bugs.launchpad.net/horizon/+bug/1677206,2017-07-27
+1697462,1697462,Fix Released,Snaphot update TemplateDoesNotExist error,https://bugs.launchpad.net/horizon/+bug/1697462,2017-07-27
+1697731,1697731,Fix Released,HTML output generation may break horizon plugin unittests,https://bugs.launchpad.net/horizon/+bug/1697731,2017-07-27
+1675504,1675504,Fix Released,openstack_dashboard.usage.quotas.tenant_quota_usages fetches to many quotas and degrades performances,https://bugs.launchpad.net/horizon/+bug/1675504,2017-07-27
+1593903,1593903,Fix Released,Locked status is not visible on instances table,https://bugs.launchpad.net/horizon/+bug/1593903,2017-07-27
+1698086,1698086,Fix Released,"angular-schema-form doesn't apply ""step"" attribute for number type input",https://bugs.launchpad.net/horizon/+bug/1698086,2017-07-27
+1677535,1677535,Fix Released,security groups assigned neutron port is not displayed,https://bugs.launchpad.net/horizon/+bug/1677535,2017-07-27
+1242251,1242251,Fix Released,delete operation in network topology should show a confirm dialog,https://bugs.launchpad.net/horizon/+bug/1242251,2017-07-27
+1698092,1698092,Fix Released,Protocols for websocket should not be hardcorded,https://bugs.launchpad.net/zun-ui/+bug/1698092,2017-07-27
+1698092,1698092,Fix Released,Protocols for websocket should not be hardcorded,https://bugs.launchpad.net/horizon/+bug/1698092,2017-07-27
+1699509,1699509,Fix Released,"NoReverseMatch: Reverse for 'jsi18n' with arguments '('',)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['i18n/js/(?P<packages>\\S+?)/$'] in plugin tests",https://bugs.launchpad.net/horizon/+bug/1699509,2017-07-27
+1699524,1699524,Fix Released,admin volumes: wrong template locations are referred in template include,https://bugs.launchpad.net/horizon/+bug/1699524,2017-07-27
+1688206,1688206,Fix Released,Operations log polluted with policy requests,https://bugs.launchpad.net/horizon/+bug/1688206,2017-07-27
+1700378,1700378,Fix Released,Form validation error in ng-images create volume form,https://bugs.launchpad.net/horizon/+bug/1700378,2017-07-27
+1678462,1678462,Fix Released,"in path of admin snapshot, inconsistent row actions of snapshot detaill",https://bugs.launchpad.net/horizon/+bug/1678462,2017-07-27
+1700578,1700578,Fix Released,Error during tenant_quota_usages function calls @memoized cache,https://bugs.launchpad.net/horizon/+bug/1700578,2017-07-27
+1701134,1701134,Fix Released,Next and Previous hyperlink on API Reference page of doc isn't proper,https://bugs.launchpad.net/horizon/+bug/1701134,2017-07-27
+1688540,1688540,Fix Released,"When operation log enabled, logout returns ""something went wrong""",https://bugs.launchpad.net/horizon/+bug/1688540,2017-07-27
+1700977,1700977,Fix Released,Volumes tab doesn't list any volumes,https://bugs.launchpad.net/horizon/+bug/1700977,2017-07-27
+1701287,1701287,Fix Released,Dead link to Horizon Settings and Configuration,https://bugs.launchpad.net/horizon/+bug/1701287,2017-07-27
+1701782,1701782,Fix Released,Use the wrong exceptions reference in domains panel,https://bugs.launchpad.net/horizon/+bug/1701782,2017-07-27
+1702889,1702889,Fix Released,designate-dashboard UT failure due to KeyError in HORIZON_CONFIG['plugins'],https://bugs.launchpad.net/horizon/+bug/1702889,2017-07-27
+1702925,1702925,Fix Released,The servers group api is called even if the policy disallows it [launch instance modal],https://bugs.launchpad.net/horizon/+bug/1702925,2017-07-27
+1417305,1417305,Fix Released,Default value for Physical Network is hardcoded value,https://bugs.launchpad.net/horizon/+bug/1417305,2017-07-27
+1703390,1703390,Fix Released,Allow setting default region to log into,https://bugs.launchpad.net/horizon/+bug/1703390,2017-07-27
+1703304,1703304,Fix Released,A js bug in jobs page.,https://bugs.launchpad.net/horizon/+bug/1703304,2017-07-27
+1670809,1670809,Fix Released,Table with no items to display blinks if filter input gets clicked,https://bugs.launchpad.net/horizon/+bug/1670809,2017-07-27
+1700546,1700546,Fix Released,Translate to first word capital for new visibility type `shared` in glance images page,https://bugs.launchpad.net/horizon/+bug/1700546,2017-07-27
+1682987,1682987,Fix Released,Create volume snapshot form: usage is volumes not volume snapshots.,https://bugs.launchpad.net/horizon/+bug/1682987,2017-07-27

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+890209,890209,Fix Released,Availability zone ignored in nova-volume,https://bugs.launchpad.net/nova/+bug/890209,2012-04-05
+883293,883293,Fix Released,combination of log_notifier and log.PublishErrorsHandler causes infinite loop,https://bugs.launchpad.net/openstack-qa/+bug/883293,2012-04-05
+883293,883293,Fix Released,combination of log_notifier and log.PublishErrorsHandler causes infinite loop,https://bugs.launchpad.net/nova/+bug/883293,2012-04-05
+767202,767202,Fix Released,libvirt should have support for CreateServer password,https://bugs.launchpad.net/nova/+bug/767202,2012-04-05
+942880,942880,Fix Released,Problem specifying device when attaching volumes on XEN,https://bugs.launchpad.net/nova/+bug/942880,2012-04-05
+928910,928910,Fix Released,Major performance issue with libvirt related to number of VMs on a host,https://bugs.launchpad.net/nova/+bug/928910,2012-04-05
+921807,921807,Fix Released,uptime calculation in simple_usage is incorrect,https://bugs.launchpad.net/nova/+bug/921807,2012-04-05
+921744,921744,Fix Released,"Nova Compute API should use 403, not 401",https://bugs.launchpad.net/nova/+bug/921744,2012-04-05
+921327,921327,Fix Released,simple_usage.show does not work for non-admin users,https://bugs.launchpad.net/nova/+bug/921327,2012-04-05
+919426,919426,Fix Released,OS API: 404 when using a non-existing flavor in the filter for list servers,https://bugs.launchpad.net/nova/+bug/919426,2012-04-05
+918502,918502,Fix Released,clarify error messages that occur when setting admin passwords,https://bugs.launchpad.net/nova/+bug/918502,2012-04-05
+918497,918497,Fix Released,log instance uuid in vmops.py when instances fail to spawn,https://bugs.launchpad.net/nova/+bug/918497,2012-04-05
+915556,915556,Fix Released,moving ips fails intermitently because the ip exists.,https://bugs.launchpad.net/nova/+bug/915556,2012-04-05
+912922,912922,Fix Released,OS API: Limit and marker filters for flavors do not work,https://bugs.launchpad.net/nova/+bug/912922,2012-04-05
+912837,912837,Fix Released,"Unable to filter images by server ID, contrary to API spec",https://bugs.launchpad.net/nova/+bug/912837,2012-04-05
+910198,910198,Fix Released,"ceate_image on server object requires meta data, using servermanager does not",https://bugs.launchpad.net/nova/+bug/910198,2012-04-05
+909210,909210,Fix Released,python-novaclient missing pep8 in pip-requires,https://bugs.launchpad.net/nova/+bug/909210,2012-04-05
+908922,908922,Fix Released,Update xenapi glance plugin to use x-glance-registry-purge-props,https://bugs.launchpad.net/nova/+bug/908922,2012-04-05
+908846,908846,Fix Released,metadata is missing the dhcp_domain flag,https://bugs.launchpad.net/nova/+bug/908846,2012-04-05
+901375,901375,Fix Released,Notification queues in Nova should be durable,https://bugs.launchpad.net/nova/+bug/901375,2012-04-05
+894172,894172,Fix Released,nova.compute.manager has unreachable path,https://bugs.launchpad.net/nova/+bug/894172,2012-04-05
+893243,893243,Fix Released,Access IP4/6 values ignored in rebuild request,https://bugs.launchpad.net/nova/+bug/893243,2012-04-05
+891264,891264,Fix Released,OSAPI - Access addresses not checked for format,https://bugs.launchpad.net/nova/+bug/891264,2012-04-05
+885986,885986,Fix Released,Exceeding compute provider metadata limit on create causes a 500 instead of a 413,https://bugs.launchpad.net/nova/+bug/885986,2012-04-05
+877417,877417,Fix Released,Formatting error for error messages,https://bugs.launchpad.net/nova/+bug/877417,2012-04-05
+851307,851307,Fix Released,Xen _find_rescue_vbd_ref requires swap,https://bugs.launchpad.net/nova/+bug/851307,2012-04-05
+845507,845507,Fix Released,No error is returned if public interface doesn't exist,https://bugs.launchpad.net/nova/+bug/845507,2012-04-05
+920643,920643,Fix Released,Password change failure must change server status  to error,https://bugs.launchpad.net/nova/+bug/920643,2012-04-05
+920600,920600,Fix Released,python-novaclient doesn't report adminPass when rescuing,https://bugs.launchpad.net/nova/+bug/920600,2012-04-05
+920159,920159,Fix Released,'nova-manage fixed list' causes AttributeError: 'FixedIp' object has no attribute 'instance',https://bugs.launchpad.net/nova/+bug/920159,2012-04-05
+919444,919444,Fix Released,Unrescue doesnt error out instance when it fails,https://bugs.launchpad.net/nova/+bug/919444,2012-04-05
+918804,918804,Fix Released,'nova-manage floating list' calls undefined method 'floating_ip_get_all',https://bugs.launchpad.net/nova/+bug/918804,2012-04-05
+918433,918433,Fix Released,Change disk_config extension from RAX to OS,https://bugs.launchpad.net/nova/+bug/918433,2012-04-05
+917810,917810,Fix Released,snapshotted images are missing server refs,https://bugs.launchpad.net/nova/+bug/917810,2012-04-05
+917397,917397,Fix Released,Quantum Manager configuration sanity checks,https://bugs.launchpad.net/nova/+bug/917397,2012-04-05
+917377,917377,Fix Released,typos in kombu back-off,https://bugs.launchpad.net/nova/+bug/917377,2012-04-05
+916267,916267,Fix Released,Nova manage blows up with missing flag,https://bugs.launchpad.net/nova/+bug/916267,2012-04-05
+914476,914476,Fix Released,New Python-Novaclient Extension mechanism doesn't work w/ 2.6,https://bugs.launchpad.net/nova/+bug/914476,2012-04-05
+912927,912927,Fix Released,OS API: Filtering the list images request by server using bookmark link does not return the expected results,https://bugs.launchpad.net/nova/+bug/912927,2012-04-05
+911879,911879,Fix Released,Update OSAPI and EC2's to properly handle InstanceInvalidState exceptions,https://bugs.launchpad.net/nova/+bug/911879,2012-04-05
+909772,909772,Fix Released,nova.exception.novaclient_converter references unknown class ConvertedException,https://bugs.launchpad.net/nova/+bug/909772,2012-04-05
+907083,907083,Fix Released,os-getConsoleOutput server action throws exception,https://bugs.launchpad.net/nova/+bug/907083,2012-04-05
+906945,906945,Fix Released,Cannot wrapped_f while the instance is in this state,https://bugs.launchpad.net/nova/+bug/906945,2012-04-05
+905270,905270,Fix Released,can't start ebs-booted instance that initiated shutdown,https://bugs.launchpad.net/nova/+bug/905270,2012-04-05
+904971,904971,Fix Released,"Error handler in Scheduler uses ID, not UUID",https://bugs.launchpad.net/nova/+bug/904971,2012-04-05
+903345,903345,Fix Released,no way to publish-image if nova uses keystone (no EC2_CERT),https://bugs.launchpad.net/nova/+bug/903345,2012-04-05
+899302,899302,Fix Released,Context goes None intermittently due to calls to get_admin_context method,https://bugs.launchpad.net/nova/+bug/899302,2012-04-05
+897887,897887,Fix Released,Delete while creating: HANDLE_INVALID,https://bugs.launchpad.net/nova/+bug/897887,2012-04-05
+894218,894218,Fix Released,dhcp_lease_time is not used in dnsmasq call,https://bugs.launchpad.net/nova/+bug/894218,2012-04-05
+893582,893582,Fix Released,"Delete while creating: fails to terminate, stays in build state forever and not possible to terminate vm after",https://bugs.launchpad.net/nova/+bug/893582,2012-04-05
+892005,892005,Fix Released,tests fail due to mocks primitivisation,https://bugs.launchpad.net/nova/+bug/892005,2012-04-05
+890461,890461,Fix Released,install_venv.py Fails while patching subprocess.py,https://bugs.launchpad.net/nova/+bug/890461,2012-04-05
+890099,890099,Fix Released,Wrong parameter name gateway6 in nova.virt.libvirt.connection,https://bugs.launchpad.net/nova/+bug/890099,2012-04-05
+888621,888621,Fix Released,kombu reconnecting needs better exception catching,https://bugs.launchpad.net/nova/+bug/888621,2012-04-05
+886701,886701,Fix Released,Image id is not checked for validity on rebuild,https://bugs.launchpad.net/nova/+bug/886701,2012-04-05
+885267,885267,Fix Released,Deleting a server will cause temporary 404 from GET /servers,https://bugs.launchpad.net/nova/+bug/885267,2012-04-05
+884269,884269,Fix Released,Set min_ram and min_disk on image created from a snapshot,https://bugs.launchpad.net/nova/+bug/884269,2012-04-05
+849486,849486,Fix Released,Namespaces for Compute API 1.1 extensions need /compute/ in the URL,https://bugs.launchpad.net/nova/+bug/849486,2012-04-05
+827617,827617,Fix Released,DescribeInstances output does not return kernel or ramdisk,https://bugs.launchpad.net/nova/+bug/827617,2012-04-05
+820059,820059,Fix Released,bin/nova-manage.py VpnCommands.spawn calls non-existant method VpnCommands._vpn_for,https://bugs.launchpad.net/nova/+bug/820059,2012-04-05
+751229,751229,Fix Released,Network/broadcast addresses can be associated by AssociateAddress,https://bugs.launchpad.net/nova/+bug/751229,2012-04-05
+725328,725328,Fix Released,"removing of iSCSI volumes failed because ""Device or resource busy.""",https://bugs.launchpad.net/nova/+bug/725328,2012-04-05
+921789,921789,Fix Released,distributed_scheduler fails to cast,https://bugs.launchpad.net/nova/+bug/921789,2012-04-05
+921784,921784,Fix Released,nova-rootwrap causing issues with linux_net,https://bugs.launchpad.net/nova/+bug/921784,2012-04-05
+921294,921294,Fix Released,Migration 074 should not need connection_type defined if no data is present (new installs),https://bugs.launchpad.net/nova/+bug/921294,2012-04-05
+921265,921265,Fix Released,nova-manage update for local_gb -> ephemeral_gb,https://bugs.launchpad.net/nova/+bug/921265,2012-04-05
+919642,919642,Fix Released,prep_resize() got an unexpected keyword argument 'filter_properties',https://bugs.launchpad.net/nova/+bug/919642,2012-04-05
+919275,919275,Fix Released,nova-rootwrap causes Tracebook,https://bugs.launchpad.net/nova/+bug/919275,2012-04-05
+918563,918563,Fix Released,nova-api's shouldn't have to  share CA folder,https://bugs.launchpad.net/nova/+bug/918563,2012-04-05
+912828,912828,Fix Released,nova requires python-mox at runtime,https://bugs.launchpad.net/nova/+bug/912828,2012-04-05
+911880,911880,Fix Released,nova-rootwrap causes Tracebook,https://bugs.launchpad.net/nova/+bug/911880,2012-04-05
+911599,911599,Fix Released,Location field is wiped when updating metadata,https://bugs.launchpad.net/nova/+bug/911599,2012-04-05
+911599,911599,Fix Released,Location field is wiped when updating metadata,https://bugs.launchpad.net/glance/+bug/911599,2012-04-05
+907898,907898,Fix Released,You can't specify target table 'fixed_ips' for update,https://bugs.launchpad.net/nova/+bug/907898,2012-04-05
+907808,907808,Fix Released,ability to delete instances in 'BUILD' state,https://bugs.launchpad.net/nova/+bug/907808,2012-04-05

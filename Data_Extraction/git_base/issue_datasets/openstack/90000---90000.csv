@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1175444,1175444,Fix Released,lessc selinux permissions causing Horizon error on RHEL6,https://bugs.launchpad.net/devstack/+bug/1175444,2013-05-19
+1177642,1177642,Fix Released,statsd server can accidentally fail an haproxy node if device is processing a loadbalancer 'DELETE' operation,https://bugs.launchpad.net/libra/+bug/1177642,2013-05-17
+1033829,1033829,Fix Released,"""Launch instance"" button could be enabled based on headroom",https://bugs.launchpad.net/horizon/+bug/1033829,2013-05-16
+1078497,1078497,Fix Released,keystone throws error when removing user from tenant.,https://bugs.launchpad.net/keystone/+bug/1078497,2013-05-16
+1032741,1032741,Fix Released,libvirt list_instances causes libvirtError exception,https://bugs.launchpad.net/nova/+bug/1032741,2013-05-16
+1043999,1043999,Fix Released,nova usage-list returns  wrong usage,https://bugs.launchpad.net/nova/+bug/1043999,2013-05-16
+1040537,1040537,Fix Released,Bridge port's hairpin mode not set after resuming a machine,https://bugs.launchpad.net/nova/+bug/1040537,2013-05-16
+1004791,1004791,Fix Released,When attach volume lost attach when node restart,https://bugs.launchpad.net/nova/+bug/1004791,2013-05-16
+1075859,1075859,Fix Released,use_single_default_gateway does not function correctly,https://bugs.launchpad.net/nova/+bug/1075859,2013-05-16
+921774,921774,Fix Released,snapshot stays in saving state if the vm base image is deleted,https://bugs.launchpad.net/nova/+bug/921774,2013-05-16
+1026210,1026210,Fix Released,Nova flavor ephemeral space size reported incorrectly,https://bugs.launchpad.net/nova/+bug/1026210,2013-05-16
+1062314,1062314,Fix Released,do_refresh_security_group_rules in nova.virt.firewall is very slow,https://bugs.launchpad.net/nova/+bug/1062314,2013-05-16
+1046313,1046313,Fix Released,"At termination, LXC rootfs is not always unmounted before rmtree() is called",https://bugs.launchpad.net/nova/+bug/1046313,2013-05-16
+1017633,1017633,Fix Released,deallocate_fixed_ip attempts to update an already deleted fixed_ip,https://bugs.launchpad.net/nova/+bug/1017633,2013-05-16
+996482,996482,Fix Released,failed to allocate fixed ip because old deleted one exists,https://bugs.launchpad.net/nova/+bug/996482,2013-05-16
+1073569,1073569,Fix Released,Jenkins jobs fail because of incompatibility between sqlalchemy-migrate and the newest sqlalchemy-0.8.0b1,https://bugs.launchpad.net/glance/+bug/1073569,2013-05-16
+1073569,1073569,Fix Released,Jenkins jobs fail because of incompatibility between sqlalchemy-migrate and the newest sqlalchemy-0.8.0b1,https://bugs.launchpad.net/cinder/+bug/1073569,2013-05-16
+1073569,1073569,Fix Released,Jenkins jobs fail because of incompatibility between sqlalchemy-migrate and the newest sqlalchemy-0.8.0b1,https://bugs.launchpad.net/nova/+bug/1073569,2013-05-16
+1073569,1073569,Fix Released,Jenkins jobs fail because of incompatibility between sqlalchemy-migrate and the newest sqlalchemy-0.8.0b1,https://bugs.launchpad.net/keystone/+bug/1073569,2013-05-16
+1056373,1056373,Fix Released,memcache driver needs protection against unicode user keys,https://bugs.launchpad.net/keystone/+bug/1056373,2013-05-16
+1050025,1050025,Fix Released,Token invalidation in case of role grant/revoke should be limited to affected tenant,https://bugs.launchpad.net/keystone/+bug/1050025,2013-05-16
+1046905,1046905,Fix Released,Memcached Token Backend does not support list tokens,https://bugs.launchpad.net/keystone/+bug/1046905,2013-05-16
+1031291,1031291,Fix Released,TypeError when trying to delete an unnamed volume via dashboard,https://bugs.launchpad.net/horizon/+bug/1031291,2013-05-16
+1020555,1020555,Fix Released,Wrong 'Download CSV Summary' link,https://bugs.launchpad.net/horizon/+bug/1020555,2013-05-16
+1175650,1175650,Fix Released,Ch 7: Installing Compute Services: duplicate nova-conductor package in the controller apt-get command,https://bugs.launchpad.net/openstack-manuals/+bug/1175650,2013-05-16
+997669,997669,Fix Released,"When adding ICMP rule, the type/code is being validated as from/to ports",https://bugs.launchpad.net/horizon/+bug/997669,2013-05-16
+1065702,1065702,Fix Released,"After folsom upgrade, instances can no longer access existing volumes.",https://bugs.launchpad.net/cinder/+bug/1065702,2013-05-16
+1178343,1178343,Fix Released,Folsom doc links are difficult to guess (and get to through link nav),https://bugs.launchpad.net/openstack-manuals/+bug/1178343,2013-05-15
+1107419,1107419,Fix Released,"grizzly: nova availability_zones changed, need doc update",https://bugs.launchpad.net/openstack-manuals/+bug/1107419,2013-05-15
+1107419,1107419,Fix Released,"grizzly: nova availability_zones changed, need doc update",https://bugs.launchpad.net/openstack-api-site/+bug/1107419,2013-05-15
+1179235,1179235,Fix Released,Ops guide has incorrect statement about glance S3 backend,https://bugs.launchpad.net/openstack-manuals/+bug/1179235,2013-05-15
+1179837,1179837,Fix Released,Dashboard configuration options need to point to differenct locations on rhel/ubuntu,https://bugs.launchpad.net/openstack-manuals/+bug/1179837,2013-05-15
+1179590,1179590,Fix Released,ceilometer ENABLED_SERVICES comment missing a comma,https://bugs.launchpad.net/devstack/+bug/1179590,2013-05-15
+1175658,1175658,Fix Released,unstack.sh did not clean up quantum-ns-metadata-proxy process,https://bugs.launchpad.net/devstack/+bug/1175658,2013-05-15
+1179666,1179666,Fix Released,Use new jenkins hpcloud to include az3 in devstack node pool,https://bugs.launchpad.net/openstack-ci/+bug/1179666,2013-05-15
+1179739,1179739,Fix Released,The test_list_user_projects does not clean up tenants,https://bugs.launchpad.net/tempest/+bug/1179739,2013-05-14
+1177904,1177904,Fix Released,quantum-adv-test requirements check too restrictive,https://bugs.launchpad.net/devstack/+bug/1177904,2013-05-14
+1178704,1178704,Fix Released,ceilometer setup incorrectly sets notification_topics,https://bugs.launchpad.net/devstack/+bug/1178704,2013-05-14
+995608,995608,Fix Released,replace oneiric with RHEL/CentOS jenkins slaves for python 2.6,https://bugs.launchpad.net/openstack-ci/+bug/995608,2013-05-14
+1178877,1178877,Fix Released,Switch Jenkins Jobs Back from Quantal to Precise,https://bugs.launchpad.net/openstack-ci/+bug/1178877,2013-05-14
+1177868,1177868,Fix Released,Emphasized dnsmasq version requirements in os-networking admin guide,https://bugs.launchpad.net/openstack-manuals/+bug/1177868,2013-05-14
+1082779,1082779,Fix Released,Upgrade lists.openstack.org to precise,https://bugs.launchpad.net/openstack-ci/+bug/1082779,2013-05-13
+1174718,1174718,Fix Released,rpc_backend script greps entire devstack directory,https://bugs.launchpad.net/devstack/+bug/1174718,2013-05-13
+1178109,1178109,Fix Released,installing pbr manually unbreaks migrations in from-git installs of nova,https://bugs.launchpad.net/tripleo/+bug/1178109,2013-05-13
+1179632,1179632,Fix Released,api-specs.html page - duplicates,https://bugs.launchpad.net/openstack-manuals/+bug/1179632,2013-05-13
+1085246,1085246,Fix Released,nova quota-update won't let you update all the available properties,https://bugs.launchpad.net/python-novaclient/+bug/1085246,2013-05-13
+954489,954489,Fix Released,python-nova-client show command only displays the first item in a list,https://bugs.launchpad.net/python-novaclient/+bug/954489,2013-05-13
+1029511,1029511,Fix Released,Would benefit from having tarballs contents defined automatically,https://bugs.launchpad.net/cinder/+bug/1029511,2013-05-13
+1029511,1029511,Fix Released,Would benefit from having tarballs contents defined automatically,https://bugs.launchpad.net/python-novaclient/+bug/1029511,2013-05-13
+1175994,1175994,Fix Released,create ramdisk with static busybox fails,https://bugs.launchpad.net/diskimage-builder/+bug/1175994,2013-05-13
+1178337,1178337,Fix Released,super's tearDown called too early,https://bugs.launchpad.net/tempest/+bug/1178337,2013-05-12
+1133609,1133609,Fix Released,horizon as setup by devstack does not work with django 1.5,https://bugs.launchpad.net/horizon/+bug/1133609,2013-05-12
+1021493,1021493,Fix Released,Mailman default private_roster for new lists should be 'list members only for admins',https://bugs.launchpad.net/openstack-ci/+bug/1021493,2013-05-10
+1177075,1177075,Fix Released,openstack-manuals - update book titles for consistency: INSTALLATION GUIDES,https://bugs.launchpad.net/openstack-manuals/+bug/1177075,2013-05-10
+1178759,1178759,Fix Released,mirror26 slave should not run oneiric,https://bugs.launchpad.net/openstack-ci/+bug/1178759,2013-05-10
+1112052,1112052,Fix Released,grizzly: Fedora installation instructions need update,https://bugs.launchpad.net/openstack-manuals/+bug/1112052,2013-05-10
+1160269,1160269,Fix Released,stable/essex is maintained by ~openstack-essex-maint,https://bugs.launchpad.net/openstack-ci/+bug/1160269,2013-05-10
+1178395,1178395,Fix Released,tool error: the book generated by script 'generatedocbook' fails to be built into HTML,https://bugs.launchpad.net/openstack-manuals/+bug/1178395,2013-05-10
+1158505,1158505,Fix Released,Cinderclient stack traces when BadRequest (400) is returned,https://bugs.launchpad.net/nova/+bug/1158505,2013-05-10
+1156490,1156490,Fix Released,There is a chance to call conductor_api in the driver before the conductor_api is initialized,https://bugs.launchpad.net/nova/+bug/1156490,2013-05-10
+1097992,1097992,Fix Released,SQL DB Pools throwing stacktrace,https://bugs.launchpad.net/nova/+bug/1097992,2013-05-10
+1097992,1097992,Fix Released,SQL DB Pools throwing stacktrace,https://bugs.launchpad.net/neutron/+bug/1097992,2013-05-10
+1178117,1178117,Fix Released,default bootstack config for booted nodes will fail to bring up networking,https://bugs.launchpad.net/tripleo/+bug/1178117,2013-05-09
+1178295,1178295,Fix Released,openstack-manuals - update book titles for consistency: ADMINISTRATION GUIDES,https://bugs.launchpad.net/openstack-manuals/+bug/1178295,2013-05-09
+1076742,1076742,Fix Released,Verification for Swift install points to incorrect way to get password out of proxy.conf,https://bugs.launchpad.net/openstack-manuals/+bug/1076742,2013-05-09
+1078057,1078057,Fix Released,OpenStack Install and Deploy Manual - Ubuntu: cinder flag setting is not clear,https://bugs.launchpad.net/openstack-manuals/+bug/1078057,2013-05-09
+1162303,1162303,Fix Released,DATA_DIR not honored by SWIFT_DATA_DIR in stable/folsom,https://bugs.launchpad.net/devstack/+bug/1162303,2013-05-09
+1178342,1178342,Fix Released,There aren't two Disqus threads for Basic Install,https://bugs.launchpad.net/openstack-manuals/+bug/1178342,2013-05-09
+1177561,1177561,Fix Released,test loopback filesystem seems out of place in deploy guide,https://bugs.launchpad.net/openstack-manuals/+bug/1177561,2013-05-09
+1150903,1150903,Fix Released,Quotas feature does not work with XML requests,https://bugs.launchpad.net/trove/+bug/1150903,2013-05-09
+1176216,1176216,Fix Released,Add Debian support in DevStack,https://bugs.launchpad.net/devstack/+bug/1176216,2013-05-09
+1177735,1177735,Fix Released,Set MYSQL_HOST parameter to better support multi-node mode,https://bugs.launchpad.net/devstack/+bug/1177735,2013-05-09
+1177731,1177731,Fix Released,"the name of qpid in default yum repository is qpid-cpp-server, not qpid-cpp-server-daemon",https://bugs.launchpad.net/devstack/+bug/1177731,2013-05-09
+1154343,1154343,Fix Released,Document the v2 Images API,https://bugs.launchpad.net/openstack-api-site/+bug/1154343,2013-05-09
+1158134,1158134,Fix Released,Create image API does not show all the required or optional attributes in the doc,https://bugs.launchpad.net/openstack-api-site/+bug/1158134,2013-05-09

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1799334,1799334,Fix Released,Error when tring to remove lvm snapshot: No such file or directory,https://bugs.launchpad.net/freezer/+bug/1799334,2018-12-10
+1603099,1603099,Fix Released,nova and cinder that should accept names instead of ids,https://bugs.launchpad.net/freezer/+bug/1603099,2018-12-10
+1803006,1803006,Fix Released,.gitignore  Missing a condition,https://bugs.launchpad.net/freezer/+bug/1803006,2018-12-10
+1593418,1593418,Fix Released,Segmennt create operation doesn't validate network_type,https://bugs.launchpad.net/neutron/+bug/1593418,2018-12-09
+1777190,1777190,Fix Released,All neutron-tempest-plugin-api jobs for stable/queens fails,https://bugs.launchpad.net/neutron/+bug/1777190,2018-12-09
+1803577,1803577,Fix Released,swift storage fails under puppet5 with a duplicate class definition of xinetd,https://bugs.launchpad.net/tripleo/+bug/1803577,2018-12-09
+1185290,1185290,Fix Released,nova list's --tenant flag also requires --all-tenants,https://bugs.launchpad.net/nova/+bug/1185290,2018-12-08
+1807390,1807390,Fix Released,Multilib version problems found. This often means that the root,https://bugs.launchpad.net/tripleo/+bug/1807390,2018-12-07
+1807430,1807430,Fix Released,tripleo-ui packaging broken looking for README.md,https://bugs.launchpad.net/tripleo/+bug/1807430,2018-12-07
+1729371,1729371,Fix Released,ResourceTracker races to delete instance allocations before instance is mapped to a cell,https://bugs.launchpad.net/nova/+bug/1729371,2018-12-07
+1755567,1755567,Fix Released,Gate breakage - DevStack and Neutron changes,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1755567,2018-12-07
+1736677,1736677,Fix Released,Add native Octavia driver to support k8s services,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1736677,2018-12-07
+1531103,1531103,Fix Released,"can update the gateway of ipv6 subnet with ipv6 address which has a leading ""0"" via cli",https://bugs.launchpad.net/neutron/+bug/1531103,2018-12-07
+1696506,1696506,Fix Released,User-Facing Operations in Operations Guide Typo,https://bugs.launchpad.net/openstack-manuals/+bug/1696506,2018-12-07
+1764175,1764175,Fix Released,Long text string in left nav obscures personas page text: openstackdocumentationcontributorguide,https://bugs.launchpad.net/openstack-manuals/+bug/1764175,2018-12-06
+1801478,1801478,Fix Committed,Update min tox version to 2.0,https://bugs.launchpad.net/tacker/+bug/1801478,2018-12-06
+1806109,1806109,Fix Released,Discovery fails with all-int project id during url fallback,https://bugs.launchpad.net/keystoneauth/+bug/1806109,2018-12-06
+1648590,1648590,Fix Released,Launch an instance from a volume in End User Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1648590,2018-12-05
+1801465,1801465,Fix Released,Update min tox version to 2.0,https://bugs.launchpad.net/neutron/+bug/1801465,2018-12-05
+1749667,1749667,Fix Released,[SRU] neutron doesn't correctly handle unknown protocols and should whitelist known and handled protocols,https://bugs.launchpad.net/neutron/+bug/1749667,2018-12-05
+1806859,1806859,Fix Released,lists.openstack.org is not right,https://bugs.launchpad.net/labs/+bug/1806859,2018-12-05
+1745977,1745977,Fix Released,"When source compute service up, will not destroy and clean up those instances which be evacuated then be deleted.",https://bugs.launchpad.net/nova/+bug/1745977,2018-12-05
+1766772,1766772,Fix Released,magnum_domain_id undefined,https://bugs.launchpad.net/kolla-ansible/+bug/1766772,2018-12-05
+1790862,1790862,Fix Released,The environment generator uses puppet-ceph instead of ceph-ansible in its sample config file,https://bugs.launchpad.net/tripleo/+bug/1790862,2018-12-05
+1788337,1788337,Fix Released,container manila_api_db_sync fails with TLS everywhere,https://bugs.launchpad.net/tripleo/+bug/1788337,2018-12-05
+1778455,1778455,Fix Released,HAproxy tasks fails: 'haproxy_pcs_res' is undefined,https://bugs.launchpad.net/tripleo/+bug/1778455,2018-12-05
+1782123,1782123,Fix Released,There is no option to set physical_network_mtus via heat template,https://bugs.launchpad.net/tripleo/+bug/1782123,2018-12-05
+1799903,1799903,Fix Released,Instance creation fails with Permission denied: '/var/lib/nova/instances/<instance-id>,https://bugs.launchpad.net/tripleo/+bug/1799903,2018-12-05
+1385240,1385240,Fix Released,Cinder volumes management fails even though Cinder nodes are available if amqp is restarted,https://bugs.launchpad.net/tripleo/+bug/1385240,2018-12-04
+1385240,1385240,Fix Released,Cinder volumes management fails even though Cinder nodes are available if amqp is restarted,https://bugs.launchpad.net/cinder/+bug/1385240,2018-12-04
+1385234,1385234,Fix Released,OVS tunneling between multiple neutron nodes misconfigured if amqp is restarted,https://bugs.launchpad.net/tripleo/+bug/1385234,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/glance/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/python-cinderclient/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/python-ceilometerclient/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/cinder/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/python-neutronclient/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/nova/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/python-glanceclient/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/manila-ui/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/neutron/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/manila/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/horizon/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/heat/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/tuskar/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/ceilometer/+bug/1229324,2018-12-04
+1229324,1229324,Fix Released,extraneous vim editor configuration comments,https://bugs.launchpad.net/tempest/+bug/1229324,2018-12-04
+1630793,1630793,Fix Released,Manila UI usage is broken in Mitaka,https://bugs.launchpad.net/manila-ui/+bug/1630793,2018-12-04
+1578284,1578284,Fix Released,Detailed pages have obsolete HTML templates,https://bugs.launchpad.net/manila-ui/+bug/1578284,2018-12-04
+1516839,1516839,Fix Released,Should report share size in GiB instead of GB,https://bugs.launchpad.net/manila-ui/+bug/1516839,2018-12-04
+1450605,1450605,Fix Released,File README.rst refers to old repo,https://bugs.launchpad.net/manila-ui/+bug/1450605,2018-12-04
+1485112,1485112,Fix Released,Manila-ui plug-in should not use Horizon overrides.py feature,https://bugs.launchpad.net/manila-ui/+bug/1485112,2018-12-04
+1664213,1664213,Fix Released,unit tests for stable/newton branch fail,https://bugs.launchpad.net/manila-ui/+bug/1664213,2018-12-04
+1670123,1670123,Fix Released,delete bash_completion in subcommand,https://bugs.launchpad.net/python-karborclient/+bug/1670123,2018-12-04
+1670123,1670123,Fix Released,delete bash_completion in subcommand,https://bugs.launchpad.net/python-muranoclient/+bug/1670123,2018-12-04
+1733494,1733494,Fix Released,Failed to allow user group access to the share,https://bugs.launchpad.net/python-manilaclient/+bug/1733494,2018-12-04
+1733494,1733494,Fix Released,Failed to allow user group access to the share,https://bugs.launchpad.net/manila/+bug/1733494,2018-12-04
+1734101,1734101,Fix Released,designate-mdns throws errors when listening on IPv6/dual-stack,https://bugs.launchpad.net/designate/+bug/1734101,2018-12-04
+1789189,1789189,Fix Released,Using relative path for CONFIG_VOLUME_PREFIX can lead to unexpected result,https://bugs.launchpad.net/tripleo/+bug/1789189,2018-12-04
+1797130,1797130,Fix Released,Add support for setting timeouts for octavia backend member and frontend clients,https://bugs.launchpad.net/tripleo/+bug/1797130,2018-12-04
+1800148,1800148,Fix Released,ceph-ansible inventory generation incorrectly sets whitespace for ansible_connection: local,https://bugs.launchpad.net/tripleo/+bug/1800148,2018-12-04
+1802085,1802085,Fix Released,containerized UC upgrade job failing on container_cli discrepancy,https://bugs.launchpad.net/tripleo/+bug/1802085,2018-12-04
+1802538,1802538,Fix Released,chrony setup is ignoring NtpServer by default,https://bugs.launchpad.net/tripleo/+bug/1802538,2018-12-04
+1794729,1794729,Fix Released,Undercloud - masquerades the defaults 192.168.24.0/24 and 10.0.0.0/24 always.,https://bugs.launchpad.net/tripleo/+bug/1794729,2018-12-04
+1802531,1802531,Fix Released,"python3 f28 deployment fails on ""no module named paunch""",https://bugs.launchpad.net/tripleo/+bug/1802531,2018-12-04
+1797770,1797770,Fix Released,"For Python 3.0, has_key() isn't supported already",https://bugs.launchpad.net/tripleo/+bug/1797770,2018-12-04
+1797760,1797760,Fix Released,raw_input is not support in Python 3,https://bugs.launchpad.net/tripleo/+bug/1797760,2018-12-04
+1803411,1803411,Fix Released,nova_statedir_owner fails in the fedora28 standalone,https://bugs.launchpad.net/tripleo/+bug/1803411,2018-12-04
+1803949,1803949,Fix Released,[master] tripleo-ci-centos-7-scenario007-multinode-oooq-container job failing at overcloud deploy with TemplateOutputError: Error in 44 output role_data: Incorrect arguments: Items to concat must be lists.,https://bugs.launchpad.net/tripleo/+bug/1803949,2018-12-04
+1790877,1790877,Fix Released,[RFE] Undercloud - allow enabling routed_networks on undercloud upgrade,https://bugs.launchpad.net/tripleo/+bug/1790877,2018-12-04
+1804433,1804433,Fix Released,[fs035][master] multinode periodic job failed at overcloud deploy giving haproxy_public_tls_inject_short_bootstrap_node_name is undefined,https://bugs.launchpad.net/tripleo/+bug/1804433,2018-12-04
+1806084,1806084,Fix Released,Retyped SolidFire volume not being deleted from backend after fallback to generic mechanism,https://bugs.launchpad.net/cinder/+bug/1806084,2018-12-04
+1801821,1801821,Fix Released,Don't quote {posargs} in tox.ini,https://bugs.launchpad.net/networking-sfc/+bug/1801821,2018-12-04
+1806481,1806481,Fix Released,gate failure due to lack of root on Make sure we have losetup installed/latest,https://bugs.launchpad.net/tripleo/+bug/1806481,2018-12-04
+1754269,1754269,Fix Released,stable/pike gate broken due to tox using horizon-master,https://bugs.launchpad.net/designate-dashboard/+bug/1754269,2018-12-03
+1544703,1544703,Fix Released,webSSO URLs may not be accessible under some network configurations,https://bugs.launchpad.net/horizon/+bug/1544703,2018-12-03

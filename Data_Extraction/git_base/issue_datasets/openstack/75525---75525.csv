@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1340124,1340124,Fix Released,Failing to connect to mysql doesn't show enough debugging information,https://bugs.launchpad.net/trove/+bug/1340124,2014-10-07
+1246003,1246003,Fix Released,backup location is not updated if backup fails; leaves artifacts behind when removing failed backup,https://bugs.launchpad.net/trove/+bug/1246003,2014-10-07
+1315101,1315101,Fix Released,No python-troveclient documentation on http://docs.openstack.org/developer/language-bindings.html,https://bugs.launchpad.net/trove/+bug/1315101,2014-10-07
+1280151,1280151,Fix Released,update to instances/servers fails because ports are still attached,https://bugs.launchpad.net/heat/+bug/1280151,2014-10-07
+1278186,1278186,Fix Released,Remove nova_utils.get_keypair,https://bugs.launchpad.net/heat/+bug/1278186,2014-10-07
+1339942,1339942,Fix Released,Can not add a new image in glance and use it to spawn VM in same template due to image validation,https://bugs.launchpad.net/heat/+bug/1339942,2014-10-07
+1372687,1372687,Fix Released,KeystoneClientV2 lacks keypair methods,https://bugs.launchpad.net/heat/+bug/1372687,2014-10-07
+1293806,1293806,Fix Released,Useless auth_token condition in Openstack clients,https://bugs.launchpad.net/heat/+bug/1293806,2014-10-07
+1376778,1376778,Fix Committed,python-devops fails to create diagnostic snapshot for virtualbox VMs,https://bugs.launchpad.net/fuel/+bug/1376778,2014-10-07
+1276623,1276623,Fix Released,Validation errors generate tracebacks,https://bugs.launchpad.net/heat/+bug/1276623,2014-10-07
+1291291,1291291,Fix Released,vmware: vmdk driver should ignore datastores in maintenance mode,https://bugs.launchpad.net/cinder/+bug/1291291,2014-10-07
+1292119,1292119,Fix Released,Performance issue with brcd_fc_zone_client_cli.py,https://bugs.launchpad.net/cinder/+bug/1292119,2014-10-07
+1291346,1291346,Fix Released,vmware: vmdk driver might consider a datastore as accessible to a host when it is not,https://bugs.launchpad.net/cinder/+bug/1291346,2014-10-07
+1293960,1293960,Fix Released,VMware: VMDK VC driver prints deprecation warning,https://bugs.launchpad.net/cinder/+bug/1293960,2014-10-07
+1295316,1295316,Fix Released,NFS driver does not implement extend volume,https://bugs.launchpad.net/cinder/+bug/1295316,2014-10-07
+1298042,1298042,Fix Released,"Image stuck in ""Queued"" state on upload to image failure",https://bugs.launchpad.net/cinder/+bug/1298042,2014-10-07
+1298414,1298414,Fix Released,Missing unit test case for _is_share_eligible in generic NFS driver,https://bugs.launchpad.net/cinder/+bug/1298414,2014-10-07
+1362724,1362724,Fix Released,typo in usage docs,https://bugs.launchpad.net/git-upstream/+bug/1362724,2014-10-07
+1356805,1356805,Fix Committed,"[library] ""service supervisord status"" reports wrong status when supervisor is down",https://bugs.launchpad.net/fuel/+bug/1356805,2014-10-07
+1257726,1257726,Fix Released,VMware: refactor volumeops._get_volume_uuid(),https://bugs.launchpad.net/nova/+bug/1257726,2014-10-07
+1222852,1222852,Fix Released,whitebox tests should be converted to nova unit tests,https://bugs.launchpad.net/nova/+bug/1222852,2014-10-07
+1222852,1222852,Fix Released,whitebox tests should be converted to nova unit tests,https://bugs.launchpad.net/tempest/+bug/1222852,2014-10-07
+1223309,1223309,Fix Released,v3 security groups's attribute without prefix in create's response,https://bugs.launchpad.net/nova/+bug/1223309,2014-10-07
+1244918,1244918,Fix Released,VMware ESX: Boot from volume errors out due to relocate,https://bugs.launchpad.net/nova/+bug/1244918,2014-10-07
+1270573,1270573,Fix Released,VMware: resize does not wait for task to complete,https://bugs.launchpad.net/nova/+bug/1270573,2014-10-07
+1266175,1266175,Fix Released,"'Import contextlib"" should be in the section with standard python libraries",https://bugs.launchpad.net/nova/+bug/1266175,2014-10-07
+1287292,1287292,Fix Released,VMware: vim.get_soap_url improper IPv6 address,https://bugs.launchpad.net/nova/+bug/1287292,2014-10-07
+1206032,1206032,Fix Released,instance actions should be called server actions in v3 API,https://bugs.launchpad.net/nova/+bug/1206032,2014-10-07
+1206032,1206032,Fix Released,instance actions should be called server actions in v3 API,https://bugs.launchpad.net/tempest/+bug/1206032,2014-10-07
+1274627,1274627,Fix Released,Volume attach /detach should be blocked during some opertaions,https://bugs.launchpad.net/nova/+bug/1274627,2014-10-07
+1274758,1274758,Fix Released,Error during ComputeManager.update_available_resource: 'NoneType' object has no attribute '__getitem__',https://bugs.launchpad.net/nova/+bug/1274758,2014-10-07
+1375142,1375142,Fix Released,Negative test admin_flavor_create has wrong schema definition,https://bugs.launchpad.net/tempest/+bug/1375142,2014-10-06
+1366808,1366808,Fix Released,overcloud CI : no user image,https://bugs.launchpad.net/tripleo/+bug/1366808,2014-10-06
+1366063,1366063,Fix Committed,jenkins-job-builder fails to test when hipchat plugin is used,https://bugs.launchpad.net/openstack-ci/+bug/1366063,2014-10-06
+1370906,1370906,Fix Released,[Cinder] cookbook lack of some keystone authtoken attributes,https://bugs.launchpad.net/openstack-chef/+bug/1370906,2014-10-06
+1368334,1368334,Fix Released,congress client has incomplete API support,https://bugs.launchpad.net/congress/+bug/1368334,2014-10-06
+1367887,1367887,Fix Released,Adding multiple rules causes no error in API,https://bugs.launchpad.net/congress/+bug/1367887,2014-10-06
+1370592,1370592,Fix Released,"[compute] add attributes for ssl_only, cert and key",https://bugs.launchpad.net/openstack-chef/+bug/1370592,2014-10-06
+1372717,1372717,Fix Released,[dashboard]cookbook attribute for hash_algorithm,https://bugs.launchpad.net/openstack-chef/+bug/1372717,2014-10-06
+1372008,1372008,Fix Committed,"""ImportError: No module named pbr"" when creating Fuel ISO",https://bugs.launchpad.net/fuel/+bug/1372008,2014-10-06
+1354389,1354389,Fix Released,Different patterns for ussage of method 'expected_success',https://bugs.launchpad.net/tempest/+bug/1354389,2014-10-06
+1361863,1361863,Fix Released,Add parameter to customize Qpid receiver capacity,https://bugs.launchpad.net/openstack-manuals/+bug/1361863,2014-10-06
+1360855,1360855,Fix Released,Extending IBMNAS driver to support NFS based GPFS storage system,https://bugs.launchpad.net/openstack-manuals/+bug/1360855,2014-10-06
+1352754,1352754,Fix Released,Make sure that gateway is in CIDR range by default,https://bugs.launchpad.net/openstack-manuals/+bug/1352754,2014-10-06
+1330573,1330573,Fix Released,Slow down Kombu reconnect attempts,https://bugs.launchpad.net/openstack-manuals/+bug/1330573,2014-10-06
+1263164,1263164,Fix Released,Need to rebuild Puppet Master server,https://bugs.launchpad.net/openstack-ci/+bug/1263164,2014-10-05
+1362948,1362948,Fix Released,libvirt-dev missing from TESTONLY system package lists,https://bugs.launchpad.net/devstack/+bug/1362948,2014-10-05
+1373829,1373829,Fix Released,Tilda `~' is not expanded into home directory in task file name,https://bugs.launchpad.net/rally/+bug/1373829,2014-10-05
+1367699,1367699,Fix Released,Set default pool value to system in gpfs driver,https://bugs.launchpad.net/openstack-manuals/+bug/1367699,2014-10-05
+1368342,1368342,Fix Released,Libvirt-Enable support for discard option for disk device,https://bugs.launchpad.net/openstack-manuals/+bug/1368342,2014-10-05
+1369097,1369097,Fix Released,Adds CA cert file path option for glance connections,https://bugs.launchpad.net/openstack-manuals/+bug/1369097,2014-10-05
+1360841,1360841,Fix Released,Slow down Kombu reconnect attempts,https://bugs.launchpad.net/openstack-manuals/+bug/1360841,2014-10-05
+1372094,1372094,Fix Released,Timeout triggers failures running tempest for ZFSSA driver.,https://bugs.launchpad.net/openstack-manuals/+bug/1372094,2014-10-05
+1366131,1366131,Fix Released,Set default token provider to UUID,https://bugs.launchpad.net/openstack-manuals/+bug/1366131,2014-10-05
+1336818,1336818,Fix Released,Ensure rbd connect exception is properly caught,https://bugs.launchpad.net/openstack-manuals/+bug/1336818,2014-10-05
+1350221,1350221,Fix Released,Cinder driver certification script does not work on a new devstack installation,https://bugs.launchpad.net/devstack/+bug/1350221,2014-10-04
+1253939,1253939,Fix Released,update_snapshot_status throws 500 Internal Error,https://bugs.launchpad.net/cinder/+bug/1253939,2014-10-04
+1374263,1374263,Fix Released,Disable check-requirements job for group-based-policy stackforge projects,https://bugs.launchpad.net/openstack-ci/+bug/1374263,2014-10-04
+1374407,1374407,Fix Released,CLI functional tests doesn't use deployed cloud,https://bugs.launchpad.net/rally/+bug/1374407,2014-10-04
+1344463,1344463,Fix Released,neutron account is overprivileged,https://bugs.launchpad.net/devstack/+bug/1344463,2014-10-04
+1296997,1296997,Fix Released,Add script to migrate ovs or lb db to ml2 db,https://bugs.launchpad.net/openstack-manuals/+bug/1296997,2014-10-04
+1319158,1319158,Fix Released,Add detailed federation configuration docs,https://bugs.launchpad.net/openstack-manuals/+bug/1319158,2014-10-03
+1353814,1353814,Fix Released,Docstrings for tempest scenario test 'sever basic operations' (test_server_basic_ops.py) is not fully appropriate,https://bugs.launchpad.net/tempest/+bug/1353814,2014-10-03
+1342933,1342933,Fix Released,Add references to NIST publication in Chapter 40. Hypervisor selection in OpenStack Security Guide  - current,https://bugs.launchpad.net/openstack-manuals/+bug/1342933,2014-10-03
+1373861,1373861,Fix Released,OSCI test 'vm-check-install' failed but marked as 'SUCCESS',https://bugs.launchpad.net/fuel/+bug/1373861,2014-10-03
+1304967,1304967,Fix Committed,[nailgun] Get a rid of json.loads/json.dumps from tests,https://bugs.launchpad.net/fuel/+bug/1304967,2014-10-03
+1376497,1376497,Fix Released,Incorrect chuck index format,https://bugs.launchpad.net/freezer/+bug/1376497,2014-10-03
+1192416,1192416,Fix Released,Cinder host manager doesn't remove disabled/stopped service from host_state_map,https://bugs.launchpad.net/cinder/+bug/1192416,2014-10-03
+1366728,1366728,Fix Committed,fakeui service failed with AttributeError: 'module' object has no attribute 'add_metaclass',https://bugs.launchpad.net/fuel/+bug/1366728,2014-10-03
+1369118,1369118,Fix Released,CONF calls in testtools skip decorators causes import errors without a config file,https://bugs.launchpad.net/tempest/+bug/1369118,2014-10-03
+1361310,1361310,Fix Released,Mention MTU issue in documentation,https://bugs.launchpad.net/openstack-manuals/+bug/1361310,2014-10-02
+1358857,1358857,Fix Released,test_load_balancer_basic mismatch error,https://bugs.launchpad.net/tempest/+bug/1358857,2014-10-02
+1277788,1277788,Fix Released,VolumesTransfersTest.test_create_list_delete_volume_transfer fails without tenant isolation,https://bugs.launchpad.net/tempest/+bug/1277788,2014-10-02
+1333875,1333875,Fix Released,test_server_cfn_init fails with nova networking,https://bugs.launchpad.net/tempest/+bug/1333875,2014-10-02
+1370673,1370673,Fix Released,ceilometer compute agent fails to start,https://bugs.launchpad.net/devstack/+bug/1370673,2014-10-02

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1472512,1472512,Fix Released,Remove the lvm puppet module,https://bugs.launchpad.net/fuel/+bug/1472512,2015-09-24
+1471260,1471260,Fix Released,[Docs] Bold / not bold fonts,https://bugs.launchpad.net/fuel/+bug/1471260,2015-09-24
+1394170,1394170,Fix Released,[upgrade] Unify logger messages format,https://bugs.launchpad.net/fuel/+bug/1394170,2015-09-24
+1479382,1479382,Fix Released,add project name to openrc,https://bugs.launchpad.net/fuel/+bug/1479382,2015-09-24
+1359998,1359998,Fix Released,Environment delete failure due to Instance.yaml removing server before removing dependent resources,https://bugs.launchpad.net/murano/+bug/1359998,2015-09-24
+1487456,1487456,Fix Released,Real error is hidden behind cryptic: Not a gzipped file,https://bugs.launchpad.net/proliantutils/+bug/1487456,2015-09-24
+1492381,1492381,Fix Released,cfn-signal is broken when arguments contain unicode (on Python 2),https://bugs.launchpad.net/heat-cfntools/+bug/1492381,2015-09-24
+1492371,1492371,Fix Released,Running arbitrary commands in cfn-hup hooks is broken,https://bugs.launchpad.net/heat-cfntools/+bug/1492371,2015-09-24
+1492362,1492362,Fix Released,cfn-hup hooks can no longer be run as different users,https://bugs.launchpad.net/heat-cfntools/+bug/1492362,2015-09-24
+1492367,1492367,Fix Released,Running arbitrary commands in AWS::CloudFormation::Init is broken,https://bugs.launchpad.net/heat-cfntools/+bug/1492367,2015-09-24
+1492356,1492356,Fix Released,cfn-signal is broken due to extra quoting,https://bugs.launchpad.net/heat-cfntools/+bug/1492356,2015-09-24
+1492341,1492341,Fix Released,apt (Debian/Ubuntu) package install is broken in cfn-init,https://bugs.launchpad.net/heat-cfntools/+bug/1492341,2015-09-24
+1490848,1490848,Fix Released,Add pagination to backups,https://bugs.launchpad.net/openstack-api-site/+bug/1490848,2015-09-24
+1489969,1489969,Fix Committed,Python2.6 pkg_resources allowing incompat versions,https://bugs.launchpad.net/anvil/+bug/1489969,2015-09-24
+1493702,1493702,Fix Released,"Some description of response parameters  are incorrect for ""List health monitors"" call",https://bugs.launchpad.net/openstack-api-site/+bug/1493702,2015-09-24
+1380780,1380780,Fix Released,Boot from image and create a new volume ignores availability zone,https://bugs.launchpad.net/nova/+bug/1380780,2015-09-24
+1449950,1449950,Fix Released,image property os-distro not added while configured using plugin,https://bugs.launchpad.net/magnum/+bug/1449950,2015-09-23
+1445455,1445455,Fix Released,keystone v3 REST API doc missing the Region,https://bugs.launchpad.net/openstack-api-site/+bug/1445455,2015-09-23
+1204356,1204356,Fix Released,Fix extension rescue follow API v3 rules,https://bugs.launchpad.net/openstack-api-site/+bug/1204356,2015-09-23
+1494185,1494185,Fix Released,"The ""health_monitor_id"" request parameter is missed for ""health monitors(show,update,delete)"" call.",https://bugs.launchpad.net/openstack-api-site/+bug/1494185,2015-09-23
+1495229,1495229,Fix Released,"There are two optional request parameters missed in ""Create a load balancer health monitor"" - Networking API v2.0 extensions",https://bugs.launchpad.net/openstack-api-site/+bug/1495229,2015-09-23
+1498276,1498276,Fix Released,"Glance: v2 api mistake about the ""container_format"" for ""Create image""",https://bugs.launchpad.net/openstack-api-site/+bug/1498276,2015-09-23
+1495240,1495240,Fix Released,"All the response parameters for ""Create a load balancer pool"" is wrong - Networking API v2.0 extensions LBaaS 1.0",https://bugs.launchpad.net/openstack-api-site/+bug/1495240,2015-09-23
+1498727,1498727,Fix Released,Error spelling of server's status,https://bugs.launchpad.net/openstack-api-site/+bug/1498727,2015-09-23
+1478970,1478970,Fix Released,Deployment image not placed in /httpboot,https://bugs.launchpad.net/bifrost/+bug/1478970,2015-09-23
+1478888,1478888,Fix Released,installing bifrost on fedora fails to find pxelinux.0  file from syslinux .,https://bugs.launchpad.net/bifrost/+bug/1478888,2015-09-23
+1460930,1460930,Fix Released,bifrost does not support systemctl service,https://bugs.launchpad.net/bifrost/+bug/1460930,2015-09-23
+1455334,1455334,Fix Released,[bifrost] install ironic failed,https://bugs.launchpad.net/bifrost/+bug/1455334,2015-09-23
+1463195,1463195,Fix Released,Bifrost network_info.json defaults to an MTU of 1500,https://bugs.launchpad.net/bifrost/+bug/1463195,2015-09-23
+1478726,1478726,Fix Released,Bifrost variables are confusing deploy_image_filename vs  deploy_kernel_url,https://bugs.launchpad.net/bifrost/+bug/1478726,2015-09-23
+1478722,1478722,Fix Released,"With deploy path, bifrost fails to provide meaningful error if no image exists.",https://bugs.launchpad.net/bifrost/+bug/1478722,2015-09-23
+1474514,1474514,Fix Released,bifrost inventory fails to dump a usable inventory from older ironic installations/csv files,https://bugs.launchpad.net/bifrost/+bug/1474514,2015-09-23
+1470137,1470137,Fix Released,Readme does not indicate you should have a ssh key generated.,https://bugs.launchpad.net/bifrost/+bug/1470137,2015-09-23
+1468162,1468162,Fix Released,Instructions for create_vm_nodes.sh are out of date,https://bugs.launchpad.net/bifrost/+bug/1468162,2015-09-23
+1473221,1473221,Fix Released,Inventory plugin has uninformative errors,https://bugs.launchpad.net/bifrost/+bug/1473221,2015-09-23
+1471973,1471973,Fix Released,Incorrect conditional for pxelinux.0 source dir,https://bugs.launchpad.net/bifrost/+bug/1471973,2015-09-23
+1460052,1460052,Fix Released,Bifrost CI job is occasionally hitting the job timeout,https://bugs.launchpad.net/bifrost/+bug/1460052,2015-09-23
+1459947,1459947,Fix Released,pip and requests on Trusty aren't playing nicely together,https://bugs.launchpad.net/bifrost/+bug/1459947,2015-09-23
+1459084,1459084,Fix Released,bifrost does not support http proxy configurations,https://bugs.launchpad.net/bifrost/+bug/1459084,2015-09-23
+1470188,1470188,Fix Released,libvirt auth failure on Centos7,https://bugs.launchpad.net/bifrost/+bug/1470188,2015-09-23
+1463871,1463871,Fix Released,Centos7 base installation compatability issues.,https://bugs.launchpad.net/bifrost/+bug/1463871,2015-09-23
+1463191,1463191,Fix Released,Bifrost does not support network config injection for fedora/centos/redhat based machines,https://bugs.launchpad.net/bifrost/+bug/1463191,2015-09-23
+1459803,1459803,Fix Released,Bifrost logs should be stored in a logs folder for CI colletion,https://bugs.launchpad.net/bifrost/+bug/1459803,2015-09-23
+1459636,1459636,Fix Released,Bifrost presently only supports ipmi and ssh based drivers,https://bugs.launchpad.net/bifrost/+bug/1459636,2015-09-23
+1459634,1459634,Fix Released,Bifrost does not support use of an alternative dhcp server,https://bugs.launchpad.net/bifrost/+bug/1459634,2015-09-23
+1456896,1456896,Fix Released,bifrost does not support RedHat rpm packages,https://bugs.launchpad.net/bifrost/+bug/1456896,2015-09-23
+1490557,1490557,Fix Released,Bifrost iPXE boot requests getting wrong hardcoded URL,https://bugs.launchpad.net/bifrost/+bug/1490557,2015-09-23
+1490546,1490546,Fix Released,bifrost gate job timing out.,https://bugs.launchpad.net/bifrost/+bug/1490546,2015-09-23
+1488958,1488958,Fix Released,missing default for dib_imagetype,https://bugs.launchpad.net/bifrost/+bug/1488958,2015-09-23
+1488127,1488127,Fix Released,Bifrost role metadata is out of date,https://bugs.launchpad.net/bifrost/+bug/1488127,2015-09-23
+1480046,1480046,Fix Released,Bifrost CI failing due to apt package cache being out of date,https://bugs.launchpad.net/bifrost/+bug/1480046,2015-09-23
+1468158,1468158,Fix Released,bifrost gate job failing due to python-pip install,https://bugs.launchpad.net/bifrost/+bug/1468158,2015-09-23
+1465408,1465408,Fix Released,Bifrost currently only downloading cirros,https://bugs.launchpad.net/bifrost/+bug/1465408,2015-09-23
+1461025,1461025,Fix Released,CI Job broken - Ansible reporting raw task issue.,https://bugs.launchpad.net/bifrost/+bug/1461025,2015-09-23
+1459801,1459801,Fix Released,Running bifrost on Ubuntu 14.04 LTS results in segmentation fault,https://bugs.launchpad.net/bifrost/+bug/1459801,2015-09-23
+1490640,1490640,Fix Released,Number of RabbitMQ nodes and number of cluster nodes  are not equal.,https://bugs.launchpad.net/fuel/+bug/1490640,2015-09-23
+1496832,1496832,Fix Released,We need to change descriprtion for upload user owned certificate input to make it more clear,https://bugs.launchpad.net/fuel/+bug/1496832,2015-09-23
+1488847,1488847,Fix Released,Deployment fail when HAproxy keystone backend marked down for too long,https://bugs.launchpad.net/fuel/+bug/1488847,2015-09-23
+1368545,1368545,Fix Released,Value Type of http_connect_timeout is Wrong,https://bugs.launchpad.net/keystonemiddleware/+bug/1368545,2015-09-23
+1486096,1486096,Fix Released,devDependencies and tests are included UI build,https://bugs.launchpad.net/fuel/+bug/1486096,2015-09-23
+1459743,1459743,Fix Committed,"Haproxy glance-api  is DOWN, after all ceph nodes removal/addition and redeploy",https://bugs.launchpad.net/fuel/+bug/1459743,2015-09-23
+1472722,1472722,Fix Released,deployment on heavy-customized environments will be permanently fail after rebase to master,https://bugs.launchpad.net/fuel/+bug/1472722,2015-09-23
+1487604,1487604,Fix Released,Database access control in Security Guide - Bugs found during Migration,https://bugs.launchpad.net/openstack-manuals/+bug/1487604,2015-09-23
+1479829,1479829,Fix Released,skipped tasks break dependent task prerequisites,https://bugs.launchpad.net/fuel/+bug/1479829,2015-09-23
+1390635,1390635,Fix Released,Parametrize headless option for VirtualBox,https://bugs.launchpad.net/fuel/+bug/1390635,2015-09-23
+1486048,1486048,Fix Released,Fix the problem with custom functions calling from noop tests,https://bugs.launchpad.net/fuel/+bug/1486048,2015-09-23
+1496949,1496949,Fix Released,Compute in Security Guide - Minor Grammar nit,https://bugs.launchpad.net/openstack-manuals/+bug/1496949,2015-09-23
+1498792,1498792,Fix Committed,Manila-CI: glusterfs (NFS) driver CI fails because backend  Glusterfs volume  runs out of space,https://bugs.launchpad.net/devstack-plugin-glusterfs/+bug/1498792,2015-09-23
+1498399,1498399,Fix Committed,Manila-CI: glusterfs (NFS) driver CI fails as m-scheduler can't find a valid host to create shares,https://bugs.launchpad.net/devstack-plugin-glusterfs/+bug/1498399,2015-09-23
+1496104,1496104,Fix Committed,Install fails with 'The following LIBS_FROM_GIT were not installed',https://bugs.launchpad.net/trove-integration/+bug/1496104,2015-09-23
+1479000,1479000,Fix Released,Need to add to_dict method to Resource class,https://bugs.launchpad.net/python-mistralclient/+bug/1479000,2015-09-23
+1498101,1498101,Fix Committed,Manila CIs for two gluster driver fail consistency group tests,https://bugs.launchpad.net/devstack-plugin-glusterfs/+bug/1498101,2015-09-23
+1498313,1498313,Fix Committed,Manila-CI: access rule tests fail for glusterfs (NFS) driver CI,https://bugs.launchpad.net/devstack-plugin-glusterfs/+bug/1498313,2015-09-23
+1498624,1498624,Fix Committed,"Manila-CI: glustefs-native CI fails when trying to create share with a share type that has extra spec , storage_protocol = ""GLUSTERFS""",https://bugs.launchpad.net/devstack-plugin-glusterfs/+bug/1498624,2015-09-23
+1495809,1495809,Fix Released,cinder backup-create missing force option for backing up in-use volume,https://bugs.launchpad.net/cinder/+bug/1495809,2015-09-23

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1650694,1650694,Fix Released,nova-manage cell_v2 discover_hosts is broken,https://bugs.launchpad.net/nova/+bug/1650694,2017-02-27
+1641814,1641814,Fix Released,Don't apply multi-queue to SRIOV ports,https://bugs.launchpad.net/nova/+bug/1641814,2017-02-27
+1598661,1598661,Fix Released,Delete duplicate check when live-migrating,https://bugs.launchpad.net/nova/+bug/1598661,2017-02-27
+1587802,1587802,Fix Released,libvirt resize down prevention is invalid when using rbd as backend,https://bugs.launchpad.net/nova/+bug/1587802,2017-02-27
+1596957,1596957,Fix Released,Cannot resize down instance booted from volume backed snapshot with ephemeral,https://bugs.launchpad.net/nova/+bug/1596957,2017-02-27
+1654107,1654107,Fix Released,resource tracking fails with Unauthorized from placement API (keystone v3),https://bugs.launchpad.net/nova/+bug/1654107,2017-02-27
+1655494,1655494,Fix Released,Newton scheduler clients should keep trying to report,https://bugs.launchpad.net/nova/+bug/1655494,2017-02-27
+1649341,1649341,Fix Released,"Undercloud upgrade fails with ""Cell mappings are not created, but required for Ocata""",https://bugs.launchpad.net/puppet-nova/+bug/1649341,2017-02-27
+1649341,1649341,Fix Released,"Undercloud upgrade fails with ""Cell mappings are not created, but required for Ocata""",https://bugs.launchpad.net/tripleo/+bug/1649341,2017-02-27
+1649341,1649341,Fix Released,"Undercloud upgrade fails with ""Cell mappings are not created, but required for Ocata""",https://bugs.launchpad.net/nova/+bug/1649341,2017-02-27
+1656854,1656854,Fix Released,Incorrect metada in ConfigDrive when using barematal ports under neutron,https://bugs.launchpad.net/nova/+bug/1656854,2017-02-27
+1642628,1642628,Fix Released,Detaching encryptors from volumes that are still attached to domains can result in failure,https://bugs.launchpad.net/nova/+bug/1642628,2017-02-27
+1633236,1633236,Fix Released,"If volume detach fails, it cannot be retried and the instance must be rebooted to detach",https://bugs.launchpad.net/nova/+bug/1633236,2017-02-27
+1655979,1655979,Fix Released,NUMATopologyFilter modifies the provided RequestSpec,https://bugs.launchpad.net/nova/+bug/1655979,2017-02-27
+1610679,1610679,Fix Released,race conditions between compute and schedule disk report,https://bugs.launchpad.net/nova/+bug/1610679,2017-02-27
+1654102,1654102,Fix Released,Ironic: TypeError: unsupported operand type(s) for *: 'NoneType' and 'int' - during select_destinations(),https://bugs.launchpad.net/nova/+bug/1654102,2017-02-27
+1621818,1621818,Fix Released,nova-compute unexpected input/output errors on starting instances (NFS + image-cache),https://bugs.launchpad.net/nova/+bug/1621818,2017-02-27
+1493809,1493809,Fix Released,loadbalancer V2 ports are not serviced by DVR,https://bugs.launchpad.net/neutron/+bug/1493809,2017-02-27
+1630209,1630209,Fix Committed,'glance' option for packages_service is deprecated in murano,https://bugs.launchpad.net/fuel/+bug/1630209,2017-02-27
+1630209,1630209,Fix Released,'glance' option for packages_service is deprecated in murano,https://bugs.launchpad.net/fuel-plugin-murano/+bug/1630209,2017-02-27
+1630209,1630209,Fix Released,'glance' option for packages_service is deprecated in murano,https://bugs.launchpad.net/puppet-murano/+bug/1630209,2017-02-27
+1632320,1632320,Fix Committed,Haproxy resource doesn't check nonlocal_bind option for already created namespace,https://bugs.launchpad.net/fuel/+bug/1632320,2017-02-27
+1619282,1619282,Fix Committed,Split swift and glance storages,https://bugs.launchpad.net/fuel/+bug/1619282,2017-02-27
+1628509,1628509,Fix Committed,'verbose' option removing in upstream modules  breaks Fuel CI,https://bugs.launchpad.net/fuel/+bug/1628509,2017-02-27
+1459805,1459805,Fix Released,Remove /var/log/conntrackd-stats.log,https://bugs.launchpad.net/fuel/+bug/1459805,2017-02-27
+1632385,1632385,Fix Committed,[Fuel Library] mongodb tries to start with upstart provider on xenial,https://bugs.launchpad.net/fuel/+bug/1632385,2017-02-27
+1623935,1623935,Fix Committed,mysql-wss ocf script: invalid node score calculation,https://bugs.launchpad.net/fuel/+bug/1623935,2017-02-27
+1634044,1634044,Fix Committed,Deploy fails because aodh cannot start,https://bugs.launchpad.net/fuel/+bug/1634044,2017-02-27
+1628488,1628488,Fix Committed,Adapt aodh task to new upstream changes,https://bugs.launchpad.net/fuel/+bug/1628488,2017-02-27
+1624723,1624723,Fix Committed,After updating murano via murano plugin any deployments will fail,https://bugs.launchpad.net/fuel/+bug/1624723,2017-02-27
+1624723,1624723,Fix Released,After updating murano via murano plugin any deployments will fail,https://bugs.launchpad.net/fuel-plugin-murano/+bug/1624723,2017-02-27
+1635549,1635549,Fix Committed,Duplicate declaration: File[/etc/keystone/fernet-keys] is already declared,https://bugs.launchpad.net/fuel/+bug/1635549,2017-02-27
+1625970,1625970,Fix Committed,Duplicate declaration: Nova_config[DEFAULT/allow_resize_to_same_host],https://bugs.launchpad.net/fuel/+bug/1625970,2017-02-27
+1630561,1630561,Fix Released,[OCF] mysql fails to start if we have own bash script in /etc/profile.d,https://bugs.launchpad.net/fuel/+bug/1630561,2017-02-27
+1629238,1629238,Fix Committed,Replace processorcount sofisticated evaluations to new os_workers fact from puppet openstack lib,https://bugs.launchpad.net/fuel/+bug/1629238,2017-02-27
+1638904,1638904,Fix Committed,cluster::mysql Exec[create-init-file] fails on rhel7,https://bugs.launchpad.net/fuel/+bug/1638904,2017-02-27
+1640083,1640083,Fix Committed,[Fuel-Library] Outdated auth parameters,https://bugs.launchpad.net/fuel/+bug/1640083,2017-02-27
+1638036,1638036,Fix Committed,[library] Implement 'dpdkovs' provider,https://bugs.launchpad.net/fuel/+bug/1638036,2017-02-27
+1641572,1641572,Fix Committed,Fuel doesn't use ceph COW feature even configure nova and glance to use rbd,https://bugs.launchpad.net/fuel/+bug/1641572,2017-02-27
+1641815,1641815,Fix Committed,"Nova isn't using rbd direct snapshot when config Nova, Glance to use Ceph storage",https://bugs.launchpad.net/fuel/+bug/1641815,2017-02-27
+1638440,1638440,Fix Committed,fuel-utils check  keystone service failed,https://bugs.launchpad.net/fuel/+bug/1638440,2017-02-27
+1636472,1636472,Fix Committed,'/root/openrc's resource duplicate declaration,https://bugs.launchpad.net/fuel/+bug/1636472,2017-02-27
+1644844,1644844,Fix Committed,"Cannot alias Package[swiftclient] to [""python-swiftclient""], already declared",https://bugs.launchpad.net/fuel/+bug/1644844,2017-02-27
+1645647,1645647,Fix Committed,DNS task doesn't pass timeout bounds,https://bugs.launchpad.net/fuel/+bug/1645647,2017-02-27
+1644222,1644222,Fix Committed,Invalid parameter tls_options on Mysql_user,https://bugs.launchpad.net/fuel/+bug/1644222,2017-02-27
+1646874,1646874,Fix Committed,noop tests broken for glance,https://bugs.launchpad.net/fuel/+bug/1646874,2017-02-27
+1648359,1648359,Fix Committed,'/root/openrc's resource duplicate declaration,https://bugs.launchpad.net/fuel/+bug/1648359,2017-02-27
+1648028,1648028,Fix Released,TimeoutError: Waiting task u'deploy' timeout,https://bugs.launchpad.net/fuel/+bug/1648028,2017-02-27
+1646799,1646799,Fix Released,Neuton failed to start on non-primary controllers: Table 'neutron.ml2_vlan_allocations' doesn't exist,https://bugs.launchpad.net/fuel/+bug/1646799,2017-02-27
+1647752,1647752,Fix Committed,[Fuel CI] puppet-openstack master jobs fail on build of fuel-library package,https://bugs.launchpad.net/fuel/+bug/1647752,2017-02-27
+1648882,1648882,Fix Committed,"Fuel plugin builder generates spec which creates a symlink, which breaks backward compatibility",https://bugs.launchpad.net/fuel/+bug/1648882,2017-02-27
+1648664,1648664,Fix Committed,Port range for vnc access is only 200 ports,https://bugs.launchpad.net/fuel/+bug/1648664,2017-02-27
+1650283,1650283,Fix Committed,Fix debian-sys-maint,https://bugs.launchpad.net/fuel/+bug/1650283,2017-02-27
+1650284,1650284,Fix Committed,sahara broken if SSL enabled,https://bugs.launchpad.net/fuel/+bug/1650284,2017-02-27
+1649380,1649380,Fix Committed,Override_resources type is not handling notify/subscribe parameters,https://bugs.launchpad.net/fuel/+bug/1649380,2017-02-27
+1648766,1648766,Fix Committed,wrong key_buffer_size value in the mysql config,https://bugs.launchpad.net/fuel/+bug/1648766,2017-02-27
+1651527,1651527,Fix Committed,rabbit fact generates errors,https://bugs.launchpad.net/fuel/+bug/1651527,2017-02-27
+1651772,1651772,Fix Committed,There is no way to enable preallocation mode for images,https://bugs.launchpad.net/fuel/+bug/1651772,2017-02-27
+1651894,1651894,Fix Committed,sriov_agent_required param being removed from puppet-neutron,https://bugs.launchpad.net/fuel/+bug/1651894,2017-02-27
+1652826,1652826,Fix Committed,[fuel-library] unit tests fail with nokogiri-1.7.0 requires ruby version >= 2.1.0,https://bugs.launchpad.net/fuel/+bug/1652826,2017-02-27
+1649886,1649886,Fix Committed,Changing DNS hostname for public TLS endpoints post-install breaks neutron-nova rabbitmq communication,https://bugs.launchpad.net/fuel/+bug/1649886,2017-02-27
+1653107,1653107,Fix Committed,[noop] ceph tests are broken,https://bugs.launchpad.net/fuel/+bug/1653107,2017-02-27
+1651659,1651659,Fix Committed,[Fuel-Library] Invalid parameter admin_url in Nova::Compute::Ironic,https://bugs.launchpad.net/fuel/+bug/1651659,2017-02-27
+1636291,1636291,Fix Committed,ironic iscsi failing because of missing package open-iscsi,https://bugs.launchpad.net/fuel/+bug/1636291,2017-02-27
+1652937,1652937,Fix Committed,DPDK erros after stop and start compute with DPDK,https://bugs.launchpad.net/fuel/+bug/1652937,2017-02-27
+1651982,1651982,Fix Committed,Mysql-wss OCF script raises false-positive split-brain errors,https://bugs.launchpad.net/fuel/+bug/1651982,2017-02-27
+1651066,1651066,Fix Committed,Deploy of detached rabbit plugin failed with error: Loop detected!,https://bugs.launchpad.net/fuel/+bug/1651066,2017-02-27
+1603916,1603916,Fix Committed,MTA shouldn't listen on network,https://bugs.launchpad.net/fuel/+bug/1603916,2017-02-27
+1657436,1657436,Fix Committed,Change default option for haproxy,https://bugs.launchpad.net/fuel/+bug/1657436,2017-02-27
+1656053,1656053,Fix Committed,[library][dpdk] vlan_id is not passed from dpdkovs bridge to l23storedconfig,https://bugs.launchpad.net/fuel/+bug/1656053,2017-02-27
+1657506,1657506,Fix Committed,Malformed transport_url contains spaces for nodes,https://bugs.launchpad.net/fuel/+bug/1657506,2017-02-27
+1655928,1655928,Fix Released,Keystone rises not a NotFound exception,https://bugs.launchpad.net/fuel/+bug/1655928,2017-02-27
+1625125,1625125,Fix Released,Who should re-build bootstrap image after 9.0->9.1 upgrade?,https://bugs.launchpad.net/fuel/+bug/1625125,2017-02-27
+1658675,1658675,Fix Committed,Invalid parameter min_l3_agents_per_router on Class[Neutron::Server],https://bugs.launchpad.net/fuel/+bug/1658675,2017-02-27
+1662158,1662158,Fix Committed,Duplicate declaration: Ironic_config[neutron/url] is already declared,https://bugs.launchpad.net/fuel/+bug/1662158,2017-02-27

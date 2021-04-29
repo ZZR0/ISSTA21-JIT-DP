@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1433944,1433944,Fix Released,missing mock in DHCPAgentWeightSchedulerTestCase,https://bugs.launchpad.net/neutron/+bug/1433944,2015-04-30
+1389929,1389929,Fix Released,"When a VM is deleted, initiator group should get de-registered",https://bugs.launchpad.net/cinder/+bug/1389929,2015-04-30
+1385594,1385594,Fix Released,Unnecessary error log about storage group is output when creating volume from image with  EMC CLI iSCSI driver,https://bugs.launchpad.net/cinder/+bug/1385594,2015-04-30
+1427465,1427465,Fix Released,need to add mandatory parameters for Router Info in vArmour fwaas agent,https://bugs.launchpad.net/neutron/+bug/1427465,2015-04-30
+1383460,1383460,Fix Released,nas_opts showing up twice in sample conf,https://bugs.launchpad.net/cinder/+bug/1383460,2015-04-30
+1425844,1425844,Fix Released,metadata start with db connections,https://bugs.launchpad.net/neutron/+bug/1425844,2015-04-30
+1380686,1380686,Fix Released,eqlx_cli_max_retries needs helptext update,https://bugs.launchpad.net/cinder/+bug/1380686,2015-04-30
+1424548,1424548,Fix Released,neutron allow to create network with physical network that is absent in config file,https://bugs.launchpad.net/neutron/+bug/1424548,2015-04-30
+1371478,1371478,Fix Released,VMware : Creating volume from streamOptimized  image in ova container  fails with ImageCopyFailure exception,https://bugs.launchpad.net/cinder/+bug/1371478,2015-04-30
+1301348,1301348,Fix Released,vmware: Volume backing not getting relocated to a compliant datastore during re-attach,https://bugs.launchpad.net/cinder/+bug/1301348,2015-04-30
+1423213,1423213,Fix Released,ipsec site connection should be set to ERROR state if the peer address is fqdn and cannot be resolved,https://bugs.launchpad.net/neutron/+bug/1423213,2015-04-30
+1432925,1432925,Fix Released,AttributeError: 'Volume' object has no attribute 'instance_uuid' in VNX cinder driver,https://bugs.launchpad.net/cinder/+bug/1432925,2015-04-30
+1430605,1430605,Fix Released,Parameter mismatch of LVM volume retype,https://bugs.launchpad.net/cinder/+bug/1430605,2015-04-30
+1414905,1414905,Fix Released,usage errors in joinedload + filter in agent schedulers,https://bugs.launchpad.net/neutron/+bug/1414905,2015-04-30
+1425124,1425124,Fix Released,SMBFS: fail to retrieve volume path,https://bugs.launchpad.net/cinder/+bug/1425124,2015-04-30
+1413631,1413631,Fix Released,Dhcp agent does not relaunch dnsmasq in case of stale pid,https://bugs.launchpad.net/neutron/+bug/1413631,2015-04-30
+1422903,1422903,Fix Released,storwize_svc volume driver does not handle pool names with imbedded spaces correctly,https://bugs.launchpad.net/cinder/+bug/1422903,2015-04-30
+1421163,1421163,Fix Released,VNX Cinder Driver should reject to create CG with extra spec storagetype:provisioning=compressed,https://bugs.launchpad.net/cinder/+bug/1421163,2015-04-30
+1410841,1410841,Fix Released,Cast unnecessary notification over l3_agent with admin_state_up False,https://bugs.launchpad.net/neutron/+bug/1410841,2015-04-30
+1416035,1416035,Fix Released,VMAX initialize_conn failure when concurrent terminate req for different volume,https://bugs.launchpad.net/cinder/+bug/1416035,2015-04-30
+1407887,1407887,Fix Released,Linux bridge agent should also  handle empty before/after notifications properly,https://bugs.launchpad.net/neutron/+bug/1407887,2015-04-30
+1410341,1410341,Fix Released,LVM driver initialisation race between cinder-volume and cinder-backup,https://bugs.launchpad.net/cinder/+bug/1410341,2015-04-30
+1408763,1408763,Fix Released,allocated_capacity tracking is broken in manager,https://bugs.launchpad.net/cinder/+bug/1408763,2015-04-30
+1403160,1403160,Fix Released,"In large scale environment, deployment fails (EMC VMAX cinder driver)",https://bugs.launchpad.net/cinder/+bug/1403160,2015-04-30
+1389983,1389983,Fix Released,Cinder logs doesn't show authentication error in RBD driver,https://bugs.launchpad.net/cinder/+bug/1389983,2015-04-30
+1386674,1386674,Fix Released,Capture of Volume fails due to lack of space,https://bugs.launchpad.net/cinder/+bug/1386674,2015-04-30
+1434601,1434601,Fix Released,Incorrect usage default in migration 1955efc66455,https://bugs.launchpad.net/neutron/+bug/1434601,2015-04-30
+1386321,1386321,Fix Released,Migration of volume fails,https://bugs.launchpad.net/cinder/+bug/1386321,2015-04-30
+1432958,1432958,Fix Released,unit test neutron.tests.unit.test_dhcp_scheduler.TestNetworksFailover fails,https://bugs.launchpad.net/neutron/+bug/1432958,2015-04-30
+1385450,1385450,Fix Released,EMC volume create_cloned_volume failure leaves target volume,https://bugs.launchpad.net/cinder/+bug/1385450,2015-04-30
+1364554,1364554,Fix Released,Create volume fails with EMC VNX driver,https://bugs.launchpad.net/cinder/+bug/1364554,2015-04-30
+1430253,1430253,Fix Released,netns_cleanup utility doesn't remove 'fip-' and 'snat-' namespaces,https://bugs.launchpad.net/neutron/+bug/1430253,2015-04-30
+1364359,1364359,Fix Released,test case faild of test_emc_vnxdirect,https://bugs.launchpad.net/cinder/+bug/1364359,2015-04-30
+1433360,1433360,Fix Released,Failed to migrate volume using LIO scsi target,https://bugs.launchpad.net/cinder/+bug/1433360,2015-04-30
+1421037,1421037,Fix Released,[metering agent] Failed to get any traffic data if the first chain is missing,https://bugs.launchpad.net/neutron/+bug/1421037,2015-04-30
+1432757,1432757,Fix Released,HP LeftHand driver fails to initialize when old LeftHand client is installed,https://bugs.launchpad.net/cinder/+bug/1432757,2015-04-30
+1430946,1430946,Fix Released,fix multiattach unit tests,https://bugs.launchpad.net/cinder/+bug/1430946,2015-04-30
+1430628,1430628,Fix Released,Create CG from CG snapshot: source snapshots passed to driver are not sorted,https://bugs.launchpad.net/cinder/+bug/1430628,2015-04-30
+1425310,1425310,Fix Released,tgtadm: this access control rule does not exist - results in timeout waiting for volume to attach (stuck in detach) or detach,https://bugs.launchpad.net/cinder/+bug/1425310,2015-04-30
+1424852,1424852,Fix Released,Cinder fc_zone_manger with Cisco configured,https://bugs.launchpad.net/cinder/+bug/1424852,2015-04-30
+1423958,1423958,Fix Released,3PAR iSCSI driver allows for multiple iSCSI IPs to be specifed resulting in live-migration failures,https://bugs.launchpad.net/cinder/+bug/1423958,2015-04-30
+1418201,1418201,Fix Released,Lefthand driver fails to attach a cloned volume,https://bugs.launchpad.net/cinder/+bug/1418201,2015-04-30
+1417018,1417018,Fix Released,"Cinder encounters dbapi error:  NoSuchColumnError: ""Could not locate column in row for column '%(140070887032400 anon)s.volumes_id'""",https://bugs.launchpad.net/cinder/+bug/1417018,2015-04-30
+1409918,1409918,Fix Released,iet target driver not implemented in new iscsi target driver model,https://bugs.launchpad.net/cinder/+bug/1409918,2015-04-30
+1441244,1441244,Fix Released,VPNaaS: Remove check for bash scripts,https://bugs.launchpad.net/neutron/+bug/1441244,2015-04-30
+1409012,1409012,Fix Released,Volume becomes in 'error' state after scheduler starts,https://bugs.launchpad.net/cinder/+bug/1409012,2015-04-30
+1403916,1403916,Fix Released,Undeletable temporary volume object is left in DB if volume migration fails,https://bugs.launchpad.net/cinder/+bug/1403916,2015-04-30
+1383524,1383524,Fix Released,Periodic update replication status causing issues,https://bugs.launchpad.net/cinder/+bug/1383524,2015-04-30
+1382641,1382641,Fix Released,EMC VMAX initialize_connection does not map volume to second host,https://bugs.launchpad.net/cinder/+bug/1382641,2015-04-30
+1434278,1434278,Fix Released,spurious UT failure 'L3_ROUTER_NAT' keyerror,https://bugs.launchpad.net/neutron/+bug/1434278,2015-04-30
+1432876,1432876,Fix Released,3par driver isn't honoring pool,https://bugs.launchpad.net/cinder/+bug/1432876,2015-04-30
+1431875,1431875,Fix Released,EMC VNX: ArgsAlreadyParsedError: arguments already parsed: cannot register CLI option,https://bugs.launchpad.net/cinder/+bug/1431875,2015-04-30
+1428034,1428034,Fix Released,choices for iscsi_helper does not contain scstadmin,https://bugs.launchpad.net/cinder/+bug/1428034,2015-04-30
+1425641,1425641,Fix Released,VMAX should not tie volume extra specs exclusively to driver-wide config,https://bugs.launchpad.net/cinder/+bug/1425641,2015-04-30
+1414867,1414867,Fix Released,fetch_to_volume_format calls copy_volume using the wrong parameter,https://bugs.launchpad.net/cinder/+bug/1414867,2015-04-30
+1430984,1430984,Fix Released,Recent RPC namespacing breaks rolling upgrades,https://bugs.launchpad.net/neutron/+bug/1430984,2015-04-30
+1414207,1414207,Fix Released,Wrong exeption is raised if deleting of LIO iSCSI target is failed,https://bugs.launchpad.net/cinder/+bug/1414207,2015-04-30
+1413558,1413558,Fix Released,Deprication warnings from TaskFlow,https://bugs.launchpad.net/cinder/+bug/1413558,2015-04-30
+1413485,1413485,Fix Released,cinder-manage shell ipython not work,https://bugs.launchpad.net/cinder/+bug/1413485,2015-04-30
+1412526,1412526,Fix Released,VolumeTestCase.test_begin_detaching_fails_available fails with StopIteration,https://bugs.launchpad.net/cinder/+bug/1412526,2015-04-30
+1412317,1412317,Fix Released,Rbd driver： the cloned volume size is wrong when it's different form source volume,https://bugs.launchpad.net/cinder/+bug/1412317,2015-04-30
+1411291,1411291,Fix Released,zfssa driver attach functionality is broken with appliance version 2013.1.3.0,https://bugs.launchpad.net/cinder/+bug/1411291,2015-04-30
+1413111,1413111,Fix Released,local variable 'existing_floating_ips' referenced before assignment in file agent/l3/agent.py,https://bugs.launchpad.net/neutron/+bug/1413111,2015-04-30
+1410627,1410627,Fix Released,EqualLogic driver makes cinder-volume service unavailable if eqlx server closes the ssh connection,https://bugs.launchpad.net/cinder/+bug/1410627,2015-04-30
+1408828,1408828,Fix Released,cinder API modules missing letters,https://bugs.launchpad.net/cinder/+bug/1408828,2015-04-30
+1408443,1408443,Fix Released,reattaching volumes fail with LIO Target Objects,https://bugs.launchpad.net/cinder/+bug/1408443,2015-04-30
+1367999,1367999,Fix Released,live-migration causes VM network disconnected forever,https://bugs.launchpad.net/neutron/+bug/1367999,2015-04-30
+1408162,1408162,Fix Released,live-migration of instances fail with Cinder volume by LVM backend and TgtAdm,https://bugs.launchpad.net/cinder/+bug/1408162,2015-04-30
+1287824,1287824,Fix Released,l3 agent makes too many individual sudo/ip netns calls,https://bugs.launchpad.net/neutron/+bug/1287824,2015-04-30
+1407781,1407781,Fix Released,Provide Python 2.7 compatibility for cinder/tests/test_srb.py,https://bugs.launchpad.net/cinder/+bug/1407781,2015-04-30
+1441501,1441501,Fix Released,gate-neutron-*-python27 fails with ImportError: cannot import name test_db_plugin,https://bugs.launchpad.net/neutron/+bug/1441501,2015-04-30
+1405023,1405023,Fix Released,storpool driver never registers conf options,https://bugs.launchpad.net/cinder/+bug/1405023,2015-04-30
+1405022,1405022,Fix Released,storpool driver does a blind import of libs that don't exist on system,https://bugs.launchpad.net/cinder/+bug/1405022,2015-04-30
+1404013,1404013,Fix Released,[LVMiSCSI] A volume is deleted unexpectedly during volume migration when src and dst VG names are same,https://bugs.launchpad.net/cinder/+bug/1404013,2015-04-30
+1403986,1403986,Fix Released,Fix HNAS driver confusing error message (iSCSI driver),https://bugs.launchpad.net/cinder/+bug/1403986,2015-04-30

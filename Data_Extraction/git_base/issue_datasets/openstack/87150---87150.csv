@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1233337,1233337,Fix Released,Calling resource_data_get twice on an encrypted field error,https://bugs.launchpad.net/heat/+bug/1233337,2013-10-17
+1232234,1232234,Fix Released,already detached error,https://bugs.launchpad.net/heat/+bug/1232234,2013-10-17
+1231805,1231805,Fix Released,AttributeError: 'NoneType' object has no attribute 'split',https://bugs.launchpad.net/heat/+bug/1231805,2013-10-17
+1237459,1237459,Fix Released,RequestContext to_dict username inconsistent,https://bugs.launchpad.net/heat/+bug/1237459,2013-10-17
+1237324,1237324,Fix Released,WatchRule tests could fail,https://bugs.launchpad.net/heat/+bug/1237324,2013-10-17
+1236327,1236327,Fix Released,"""pure"" TemplateResource properties are not validated properly",https://bugs.launchpad.net/heat/+bug/1236327,2013-10-17
+1236107,1236107,Fix Released,global template resources are overridden by plugins,https://bugs.launchpad.net/heat/+bug/1236107,2013-10-17
+1235904,1235904,Fix Released,OS::Neutron::Loadbalancer crashes with empty member list,https://bugs.launchpad.net/heat/+bug/1235904,2013-10-17
+1235903,1235903,Fix Released,OS::Neutron::Loadbalancer with AutoscalingGroup members,https://bugs.launchpad.net/heat/+bug/1235903,2013-10-17
+1235077,1235077,Fix Released,_to_parameters() in template_resource.py has clashing loop variables,https://bugs.launchpad.net/heat/+bug/1235077,2013-10-17
+1234390,1234390,Fix Released,HOT str_replace raises unicode exception when param is None,https://bugs.launchpad.net/heat/+bug/1234390,2013-10-17
+1234263,1234263,Fix Released,"In case of OS::Cinder::Volume, Ref does not work for imageRef attribute",https://bugs.launchpad.net/heat/+bug/1234263,2013-10-17
+1234010,1234010,Fix Released,watchrules of the nested stack are not being evaluated,https://bugs.launchpad.net/heat/+bug/1234010,2013-10-17
+1226494,1226494,Fix Released,Number conversion doesn't work in template,https://bugs.launchpad.net/heat/+bug/1226494,2013-10-17
+1224434,1224434,Fix Released,Incorrect SQL statement in inserting to table EVENT,https://bugs.launchpad.net/heat/+bug/1224434,2013-10-17
+1226473,1226473,Fix Released,OS::Nova::Server can't use flavor-id as flavor property,https://bugs.launchpad.net/heat/+bug/1226473,2013-10-17
+1226244,1226244,Fix Released,UnicodeEncodeError on REST API responses containing non-ascii characters,https://bugs.launchpad.net/heat/+bug/1226244,2013-10-17
+1224646,1224646,Fix Released,incosistent logging for HTTPException and OpenstackExceptions,https://bugs.launchpad.net/heat/+bug/1224646,2013-10-17
+1221017,1221017,Fix Released,Make hot resolve functions compatible with heat,https://bugs.launchpad.net/heat/+bug/1221017,2013-10-17
+1231346,1231346,Fix Released,attribute availability zone should be optional in cinder volume,https://bugs.launchpad.net/heat/+bug/1231346,2013-10-17
+1215267,1215267,Fix Released,Native nova server resource needs validation of  block_device_mapping property,https://bugs.launchpad.net/heat/+bug/1215267,2013-10-17
+1227287,1227287,Fix Released,Neutron Net and Subnet missing the tenant_id property,https://bugs.launchpad.net/heat/+bug/1227287,2013-10-17
+1227282,1227282,Fix Released,Neutron Net resource missing the shared property,https://bugs.launchpad.net/heat/+bug/1227282,2013-10-17
+1227255,1227255,Fix Released,make get_flavor_id to work if input is flavor id,https://bugs.launchpad.net/heat/+bug/1227255,2013-10-17
+1226774,1226774,Fix Released,config-drive should not be marked 'not implemented',https://bugs.launchpad.net/heat/+bug/1226774,2013-10-17
+1226666,1226666,Fix Released,It's not possible to set gateway_ip of Subnet to None,https://bugs.launchpad.net/heat/+bug/1226666,2013-10-17
+1226483,1226483,Fix Released,CommaDelimitedList doesn't work in template,https://bugs.launchpad.net/heat/+bug/1226483,2013-10-17
+1224746,1224746,Fix Released,Failed property resolution prevents delete,https://bugs.launchpad.net/heat/+bug/1224746,2013-10-17
+1224472,1224472,Fix Released,Stack with resource OS::Neutron::Port could not be created when ip_address attr is not specified in fixed_ips property,https://bugs.launchpad.net/heat/+bug/1224472,2013-10-17
+1224349,1224349,Fix Released,Add attributes_schema to CinderVolume,https://bugs.launchpad.net/heat/+bug/1224349,2013-10-17
+1224182,1224182,Fix Released,neutron.vpnservice document properties,https://bugs.launchpad.net/heat/+bug/1224182,2013-10-17
+1224175,1224175,Fix Released,neutron.net document properties,https://bugs.launchpad.net/heat/+bug/1224175,2013-10-17
+1224172,1224172,Fix Released,neutron.loadbalancer document properties,https://bugs.launchpad.net/heat/+bug/1224172,2013-10-17
+1224169,1224169,Fix Released,neutron.floatingip document properties,https://bugs.launchpad.net/heat/+bug/1224169,2013-10-17
+1224162,1224162,Fix Released,ceilometer.alarm document properties,https://bugs.launchpad.net/heat/+bug/1224162,2013-10-17
+1224158,1224158,Fix Released,volume document properties,https://bugs.launchpad.net/heat/+bug/1224158,2013-10-17
+1224154,1224154,Fix Released,user document properties,https://bugs.launchpad.net/heat/+bug/1224154,2013-10-17
+1224153,1224153,Fix Released,swift document properties,https://bugs.launchpad.net/heat/+bug/1224153,2013-10-17
+1224150,1224150,Fix Released,stack document properties,https://bugs.launchpad.net/heat/+bug/1224150,2013-10-17
+1224144,1224144,Fix Released,loadbalancer document properties,https://bugs.launchpad.net/heat/+bug/1224144,2013-10-17
+1224143,1224143,Fix Released,internet_gateway document properties,https://bugs.launchpad.net/heat/+bug/1224143,2013-10-17
+1224139,1224139,Fix Released,instance document properties,https://bugs.launchpad.net/heat/+bug/1224139,2013-10-17
+1224134,1224134,Fix Released,eip document properties and attributes,https://bugs.launchpad.net/heat/+bug/1224134,2013-10-17
+1224133,1224133,Fix Released,cloud_watch document properties,https://bugs.launchpad.net/heat/+bug/1224133,2013-10-17
+1224131,1224131,Fix Released,autoscaling document properties and attributes schema,https://bugs.launchpad.net/heat/+bug/1224131,2013-10-17
+1222830,1222830,Fix Released,Creation of OS::Ceilometer::Alarm fails,https://bugs.launchpad.net/heat/+bug/1222830,2013-10-17
+1222008,1222008,Fix Released,debug flag must be passed to all eventlet.wsgi.Server API services,https://bugs.launchpad.net/heat/+bug/1222008,2013-10-17
+1221476,1221476,Fix Released,Tests call CONF.set_default and set_override without a corresponding clear,https://bugs.launchpad.net/heat/+bug/1221476,2013-10-17
+1220798,1220798,Fix Released,Move Rackspace Resources to contrib,https://bugs.launchpad.net/heat/+bug/1220798,2013-10-17
+1215840,1215840,Fix Released,"InstanceGroup metadata ""metering.groupname"" not enough discriminating",https://bugs.launchpad.net/heat/+bug/1215840,2013-10-17
+1214227,1214227,Fix Released,Failure to download TemplateURL in nested stack has an ugly error message,https://bugs.launchpad.net/heat/+bug/1214227,2013-10-17
+1210368,1210368,Fix Released,Neutron resource documentation gets generated twice,https://bugs.launchpad.net/heat/+bug/1210368,2013-10-17
+1182428,1182428,Fix Released,deprecate/remove tools/openstack,https://bugs.launchpad.net/heat/+bug/1182428,2013-10-17
+1233882,1233882,Fix Released,"neutron resources don't have the ""show"" attribute as used in the example templates",https://bugs.launchpad.net/heat/+bug/1233882,2013-10-17
+1233318,1233318,Fix Released,Inconsistencies in HOT template guide and spec,https://bugs.launchpad.net/heat/+bug/1233318,2013-10-17
+1232252,1232252,Fix Released,"'fixed_ips' property for a OS::Neutron::Port resource is NOT required, but it throws an KeyError",https://bugs.launchpad.net/heat/+bug/1232252,2013-10-17
+1231926,1231926,Fix Released,Signal API makes POST body mandatory,https://bugs.launchpad.net/heat/+bug/1231926,2013-10-17
+1230228,1230228,Fix Released,Remove neutron resources id attributes,https://bugs.launchpad.net/heat/+bug/1230228,2013-10-17
+1230191,1230191,Fix Released,Exceeding stack limits results in 500 errors,https://bugs.launchpad.net/heat/+bug/1230191,2013-10-17
+1230140,1230140,Fix Released,Fn::GetAtt works incorrect when validating block_device_mapping,https://bugs.launchpad.net/heat/+bug/1230140,2013-10-17
+1229674,1229674,Fix Released,ec2token filter should use keystone_authtoken conf section,https://bugs.launchpad.net/heat/+bug/1229674,2013-10-17
+1229610,1229610,Fix Released,block_device_mapping does not work without valid image specified,https://bugs.launchpad.net/heat/+bug/1229610,2013-10-17
+1229412,1229412,Fix Released,requires_deferred_auth broken for nested stacks,https://bugs.launchpad.net/heat/+bug/1229412,2013-10-17
+1229292,1229292,Fix Released,API exceptions are not logged,https://bugs.launchpad.net/heat/+bug/1229292,2013-10-17
+1229244,1229244,Fix Released,"If I create an instance using the OS::Nova::Server, and pass it a 'name' in the properties, the name is ignored.",https://bugs.launchpad.net/heat/+bug/1229244,2013-10-17
+1228929,1228929,Fix Released,Native instance creation with nova doesn't provide public IP,https://bugs.launchpad.net/heat/+bug/1228929,2013-10-17
+1228640,1228640,Fix Released,hot str_replace behaves differently to Fn::Replace,https://bugs.launchpad.net/heat/+bug/1228640,2013-10-17
+1227901,1227901,Fix Released,CFN signal URLs don't work when trusts is enabled,https://bugs.launchpad.net/heat/+bug/1227901,2013-10-17
+1227032,1227032,Fix Released,Clients cannot access metadata for resumed stacks,https://bugs.launchpad.net/heat/+bug/1227032,2013-10-17
+1227025,1227025,Fix Released,Fn::GetAtt function returns None for resumed stacks,https://bugs.launchpad.net/heat/+bug/1227025,2013-10-17
+1224111,1224111,Fix Released,HOT constraints translation broken,https://bugs.launchpad.net/heat/+bug/1224111,2013-10-17
+1223054,1223054,Fix Released,StackResource needs to check its resource in evaluating requires_deferred_auth,https://bugs.launchpad.net/heat/+bug/1223054,2013-10-17
+1223029,1223029,Fix Released,Submitting a template with parameters >65KB can stop the engine (on reboot) for all users.,https://bugs.launchpad.net/heat/+bug/1223029,2013-10-17
+1222676,1222676,Fix Released,OS::Cinder::Volume failed when using imageRef property,https://bugs.launchpad.net/heat/+bug/1222676,2013-10-17
+1221693,1221693,Fix Released,Native nova server resource can't use block_device_mapping,https://bugs.launchpad.net/heat/+bug/1221693,2013-10-17

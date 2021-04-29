@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1714655,1714655,Fix Released,Optimization in DHCP notifier introduced a race condition,https://bugs.launchpad.net/neutron/+bug/1714655,2017-10-27
+1667055,1667055,Fix Released,Fullstack: neutron.tests.fullstack.test_l3_agent.TestHAL3Agent.test_ha_router fails,https://bugs.launchpad.net/neutron/+bug/1667055,2017-10-27
+1712728,1712728,Fix Released,DVR: get_router_cidrs in dvr_edge_router not returning the centralized_floating_ip cidr,https://bugs.launchpad.net/neutron/+bug/1712728,2017-10-27
+1718063,1718063,Fix Released,logging change busted subport RPC push,https://bugs.launchpad.net/neutron/+bug/1718063,2017-10-27
+1693956,1693956,Fix Released,VNX driver: failed to backup in-use volume,https://bugs.launchpad.net/cinder/+bug/1693956,2017-10-27
+1728033,1728033,Fix Released,"testenv-client is failing with error ""Couldn't retrieve env"" on rdo cloud jobs",https://bugs.launchpad.net/tripleo/+bug/1728033,2017-10-27
+1728135,1728135,Fix Released,CI rdocloud 295 orphaned nodes have exhausted tenant resources,https://bugs.launchpad.net/tripleo/+bug/1728135,2017-10-27
+1728058,1728058,Fix Released,Nova DB archiving not working in rh1,https://bugs.launchpad.net/tripleo/+bug/1728058,2017-10-27
+1586915,1586915,Fix Released,"There is no supported disk format for hyperv image when performing operation ""volume to upload to image""",https://bugs.launchpad.net/horizon/+bug/1586915,2017-10-27
+1717255,1717255,Fix Released,Path to grub binaries is hardcoded,https://bugs.launchpad.net/ironic-python-agent/+bug/1717255,2017-10-27
+1699124,1699124,Fix Released,test case failures due to missing skip check,https://bugs.launchpad.net/heat/+bug/1699124,2017-10-27
+1701098,1701098,Fix Released,stack tags set to null after update failed,https://bugs.launchpad.net/heat/+bug/1701098,2017-10-27
+1658007,1658007,Fix Released,Can not create nova server with bdmv2,https://bugs.launchpad.net/heat/+bug/1658007,2017-10-27
+1679969,1679969,Fix Released,ZaqarEventSinkTest.test_events failed with mesage count,https://bugs.launchpad.net/heat/+bug/1679969,2017-10-27
+1703605,1703605,Fix Released,Cinder volume attachments_list attribute should not be cached,https://bugs.launchpad.net/heat/+bug/1703605,2017-10-27
+1702977,1702977,Fix Released,can't validate external resource template,https://bugs.launchpad.net/heat/+bug/1702977,2017-10-27
+1691672,1691672,Fix Released,duplicate validate properties when create retry,https://bugs.launchpad.net/heat/+bug/1691672,2017-10-27
+1694588,1694588,Fix Released,Octavia does not log release version,https://bugs.launchpad.net/octavia/+bug/1694588,2017-10-27
+1712077,1712077,Fix Released,devstack supports only neutron reference implementation,https://bugs.launchpad.net/octavia/+bug/1712077,2017-10-27
+1707310,1707310,Fix Released,diskimage-create.sh does not support suse host os,https://bugs.launchpad.net/octavia/+bug/1707310,2017-10-27
+1652077,1652077,Fix Released,post-deployment validations pass even without deploying,https://bugs.launchpad.net/tripleo/+bug/1652077,2017-10-27
+1714962,1714962,Fix Released,The validator controller-token.yaml has an uppercase key in the metada,https://bugs.launchpad.net/tripleo/+bug/1714962,2017-10-27
+1713483,1713483,Fix Released,Let IP range validation fail instead of outputting warnings,https://bugs.launchpad.net/tripleo/+bug/1713483,2017-10-27
+1719843,1719843,Fix Released,repo-availability validation fails with Ansible 2.3,https://bugs.launchpad.net/tripleo/+bug/1719843,2017-10-27
+1721213,1721213,Fix Released,[WARNING]: when statements should not include jinja2 templating delimiters,https://bugs.launchpad.net/tripleo/+bug/1721213,2017-10-27
+1712413,1712413,Fix Released,Plan descriptions are not showing up on plan cards,https://bugs.launchpad.net/tripleo/+bug/1712413,2017-10-27
+1703818,1703818,Fix Released,Node kebab menu items clickable even when no nodes selected,https://bugs.launchpad.net/tripleo/+bug/1703818,2017-10-27
+1711063,1711063,Fix Released,gnocchi's switch storage is always accessed through the internalURL interface,https://bugs.launchpad.net/tripleo/+bug/1711063,2017-10-27
+1712687,1712687,Fix Released,configure_safe_defaults() should handle failure of carrier check,https://bugs.launchpad.net/tripleo/+bug/1712687,2017-10-27
+1712842,1712842,Fix Released,manila: need to override default setting for 'host',https://bugs.launchpad.net/tripleo/+bug/1712842,2017-10-27
+1712908,1712908,Fix Released,manila: incorrect setting for neutron_admin_auth_url,https://bugs.launchpad.net/tripleo/+bug/1712908,2017-10-27
+1713038,1713038,Fix Released,Enable ceilometer compute agent in scenario001,https://bugs.launchpad.net/tripleo/+bug/1713038,2017-10-27
+1700045,1700045,Fix Released,httpd logs hidden inside containers,https://bugs.launchpad.net/tripleo/+bug/1700045,2017-10-27
+1713183,1713183,Fix Released,cron containers show as unhealthy,https://bugs.launchpad.net/tripleo/+bug/1713183,2017-10-27
+1713185,1713185,Fix Released,long running docker-puppet commands show up as unhealthy,https://bugs.launchpad.net/tripleo/+bug/1713185,2017-10-27
+1713188,1713188,Fix Released,'container did not start before the specified timeout' ERRORS during docker-puppet config generation,https://bugs.launchpad.net/tripleo/+bug/1713188,2017-10-27
+1713240,1713240,Fix Released,Fluentd configuration not correctly written to disk,https://bugs.launchpad.net/tripleo/+bug/1713240,2017-10-27
+1699085,1699085,Fix Released,Add container support for OVN services,https://bugs.launchpad.net/tripleo/+bug/1699085,2017-10-27
+1710952,1710952,Fix Released,missing swift rings causes swift containers stuck in docker restart loop,https://bugs.launchpad.net/tripleo/+bug/1710952,2017-10-27
+1689556,1689556,Fix Released,CI: containers overcloud can't start vm when deployed with multinic network isolation,https://bugs.launchpad.net/tripleo/+bug/1689556,2017-10-27
+1691403,1691403,Fix Released,containerized overcloud - neutron-openvswitchagent fails to start,https://bugs.launchpad.net/tripleo/+bug/1691403,2017-10-27
+1713659,1713659,Fix Released,"Rabbitmq class expects ports as integers, not strings",https://bugs.launchpad.net/tripleo/+bug/1713659,2017-10-27
+1713755,1713755,Fix Released,sample composable roles missing docker services,https://bugs.launchpad.net/tripleo/+bug/1713755,2017-10-27
+1713761,1713761,Fix Released,Generated SSL environments are out of sync,https://bugs.launchpad.net/tripleo/+bug/1713761,2017-10-27
+1714057,1714057,Fix Released,mysql_bootstrap container can fail,https://bugs.launchpad.net/tripleo/+bug/1714057,2017-10-27
+1714221,1714221,Fix Released,DockerCephDaemonImage should not have a default,https://bugs.launchpad.net/tripleo/+bug/1714221,2017-10-27
+1714253,1714253,Fix Released,Zaqar db sync is skipped on undercloud containers deployments,https://bugs.launchpad.net/tripleo/+bug/1714253,2017-10-27
+1714115,1714115,Fix Released,Composable networks require special handling for IPv6,https://bugs.launchpad.net/tripleo/+bug/1714115,2017-10-27
+1711656,1711656,Fix Released,hardcoded reference to deprecated NovaComputeSchedulerHints,https://bugs.launchpad.net/tripleo/+bug/1711656,2017-10-27
+1714986,1714986,Fix Released,container config json files need more retrictive mode,https://bugs.launchpad.net/tripleo/+bug/1714986,2017-10-27
+1710614,1710614,Fix Released,Add param to configure snat mechanism defaulting to conntrack,https://bugs.launchpad.net/tripleo/+bug/1710614,2017-10-27
+1714932,1714932,Fix Released,haproxy certmonger profile for public TLS doesn't use DeployedSSLCertificatePath,https://bugs.launchpad.net/tripleo/+bug/1714932,2017-10-27
+1715132,1715132,Fix Released,ssl container setups hangs in heat db sync,https://bugs.launchpad.net/tripleo/+bug/1715132,2017-10-27
+1713182,1713182,Fix Released,gnocchi-statsd ERRORS on startup due to missing DB,https://bugs.launchpad.net/tripleo/+bug/1713182,2017-10-27
+1715171,1715171,Fix Released,"Live-migration fails from baremetal to containerized compute, selinux disabled in nova_libvirt container",https://bugs.launchpad.net/tripleo/+bug/1715171,2017-10-27
+1715031,1715031,Fix Released,"Mongodb is default disabled on baremetal, enabled on containers",https://bugs.launchpad.net/tripleo/+bug/1715031,2017-10-27
+1713292,1713292,Fix Released,Stack update fails on RHEL if nodes are unsubscribed to Ceph OSD RHN channel,https://bugs.launchpad.net/tripleo/+bug/1713292,2017-10-27
+1714231,1714231,Fix Released,OpenDaylight log file should be placed in /var/log/containers of the Host,https://bugs.launchpad.net/tripleo/+bug/1714231,2017-10-27
+1714271,1714271,Fix Released,It is not possible to configure the overcloud with an external Ceph using ceph-ansible,https://bugs.launchpad.net/tripleo/+bug/1714271,2017-10-27
+1715391,1715391,Fix Released,Scenario002 containers fails configuring zaqar,https://bugs.launchpad.net/tripleo/+bug/1715391,2017-10-27
+1713193,1713193,Fix Released,Remove service plugins and dhcp agent,https://bugs.launchpad.net/tripleo/+bug/1713193,2017-10-27
+1708131,1708131,Fix Released,AttributeError: 'NoneType' object has no attribute 'get_policies',https://bugs.launchpad.net/tripleo/+bug/1708131,2017-10-27
+1715484,1715484,Fix Released,OpenDaylight fails to update neutron port status due to blocked port,https://bugs.launchpad.net/tripleo/+bug/1715484,2017-10-27
+1715388,1715388,Fix Released,Add container support for Neutron SR-IOV Agent,https://bugs.launchpad.net/tripleo/+bug/1715388,2017-10-27
+1715574,1715574,Fix Released,Ocata -> Pike upgrade: compute upgrade fails during Stop and disable ceilometer compute agent: dict object' has no attribute 'rc',https://bugs.launchpad.net/tripleo/+bug/1715574,2017-10-27
+1714171,1714171,Fix Released,"Live-migration fails from baremetal compute to containerized compute, different ssh port is used",https://bugs.launchpad.net/tripleo/+bug/1714171,2017-10-27
+1715321,1715321,Fix Released,Overriding ceph.conf variables replaces some TripleO managed settings,https://bugs.launchpad.net/tripleo/+bug/1715321,2017-10-27
+1715847,1715847,Fix Released,clustercheck service should be in database role and not in controlleropenstack role,https://bugs.launchpad.net/tripleo/+bug/1715847,2017-10-27
+1715209,1715209,Fix Released,Boolean parameters are set to string type,https://bugs.launchpad.net/tripleo/+bug/1715209,2017-10-27
+1716031,1716031,Fix Released,Ocata to Pike upgrade: cannot rerun major-upgrade-composable-steps-docker.yaml after the pacemaker resources have been deleted,https://bugs.launchpad.net/tripleo/+bug/1716031,2017-10-27
+1716404,1716404,Fix Released,Ocata -> Pike overcloud upgrade: after major-upgrade-composable-steps-docker we get Output error: The Referenced Attribute (AllNodesDeploySteps RoleConfig) is incorrect,https://bugs.launchpad.net/tripleo/+bug/1716404,2017-10-27
+1706951,1706951,Fix Released,Ocata to Pike upgrade fails when cinder-volume runs on host because cinder-manage db sync runs when galera is unavailable,https://bugs.launchpad.net/tripleo/+bug/1706951,2017-10-27
+1716915,1716915,Fix Released,scenario001-containers fails during ceph workflow due to Unknown Property tags,https://bugs.launchpad.net/tripleo/+bug/1716915,2017-10-27
+1717244,1717244,Fix Released,Ocata -> Pike overcloud upgrade: upgrade-non-controller.sh script runs the puppet host configuration steps twice,https://bugs.launchpad.net/tripleo/+bug/1717244,2017-10-27
+1717322,1717322,Fix Released,Composable networks imposes order-of-operations of environment includes,https://bugs.launchpad.net/tripleo/+bug/1717322,2017-10-27

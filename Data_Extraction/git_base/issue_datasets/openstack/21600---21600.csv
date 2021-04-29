@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1669991,1669991,Fix Released,neutron  dhcp-agent  WARNING stevedore.named,https://bugs.launchpad.net/neutron/+bug/1669991,2017-06-22
+1692485,1692485,Fix Released,cinder-volume complains no space when boot from image + create new volume,https://bugs.launchpad.net/kolla-ansible/+bug/1692485,2017-06-22
+1689454,1689454,Fix Released,set_config.py exist if one file is not found.,https://bugs.launchpad.net/kolla-ansible/+bug/1689454,2017-06-22
+1673193,1673193,Fix Released,Octavia service logs are not rotated,https://bugs.launchpad.net/kolla-ansible/+bug/1673193,2017-06-22
+1690704,1690704,Fix Released,all_tenants filter for volume summary doesn't work,https://bugs.launchpad.net/cinder/+bug/1690704,2017-06-22
+1596651,1596651,Fix Released,Implement an OSC plugin for the OpenStack LBaaS API,https://bugs.launchpad.net/octavia/+bug/1596651,2017-06-21
+1663692,1663692,Fix Released,Move quota support from v1 to v2 API,https://bugs.launchpad.net/octavia/+bug/1663692,2017-06-21
+1656110,1656110,Fix Released,Octavia: V2 API needs to validate keystone tokens by default,https://bugs.launchpad.net/octavia/+bug/1656110,2017-06-21
+1663693,1663693,Fix Released,Make sure Octavia v2 API has project_id updates,https://bugs.launchpad.net/octavia/+bug/1663693,2017-06-21
+1616701,1616701,Fix Released,Align Octavia API to n-lbaasv2 - l7 rules,https://bugs.launchpad.net/octavia/+bug/1616701,2017-06-21
+1616655,1616655,Fix Released,Align Octavia API to n-lbaasv2 - /lbaas/loadbalancers/{lb_id}/listeners/{listener_id}/l7policies,https://bugs.launchpad.net/octavia/+bug/1616655,2017-06-21
+1616643,1616643,Fix Released,Align Octavia API to n-lbaasv2 - /lbaas/healthmonitors,https://bugs.launchpad.net/octavia/+bug/1616643,2017-06-21
+1616642,1616642,Fix Released,Align Octavia API to n-lbaasv2 - /lbaas/pools/pool_id/members,https://bugs.launchpad.net/octavia/+bug/1616642,2017-06-21
+1616641,1616641,Fix Released,Align Octavia API to n-lbaasv2 - /lbaas/pools,https://bugs.launchpad.net/octavia/+bug/1616641,2017-06-21
+1616640,1616640,Fix Released,Align Octavia API to n-lbaasv2 - /lbaas/listeners,https://bugs.launchpad.net/octavia/+bug/1616640,2017-06-21
+1699503,1699503,Fix Released,Conflict error when trying to activate artifact if glare is uploading blobs,https://bugs.launchpad.net/glare/+bug/1699503,2017-06-21
+1653737,1653737,Fix Committed,[9.0][BVT] Too many nodes failed to provision,https://bugs.launchpad.net/fuel/+bug/1653737,2017-06-21
+1680749,1680749,Fix Released,Manila shares on internal cephfs can not be mounted  when network isolation is used,https://bugs.launchpad.net/tripleo/+bug/1680749,2017-06-21
+1699062,1699062,Fix Released,Containers CI broken by out of date images,https://bugs.launchpad.net/tripleo/+bug/1699062,2017-06-21
+1697902,1697902,Fix Released,masakari-engine considers reserved_hosts which are under maintenance for host failure recovery when recovery_method is 'reserved_host',https://bugs.launchpad.net/masakari/+bug/1697902,2017-06-21
+1694412,1694412,Fix Released,test_create_server_with_subnet_fixed_ip_sec_group failing with ValueError: Unexpected output errors in networks,https://bugs.launchpad.net/heat/+bug/1694412,2017-06-21
+1674771,1674771,Fix Released,Having a raw image without qemu packages causes fun,https://bugs.launchpad.net/cinder/+bug/1674771,2017-06-21
+1677561,1677561,Fix Released,VNX allow specify pool name for replication,https://bugs.launchpad.net/cinder/+bug/1677561,2017-06-21
+1664091,1664091,Fix Released,V3.25 group_list with list_volume doesn't work as expected,https://bugs.launchpad.net/cinder/+bug/1664091,2017-06-21
+1677956,1677956,Fix Released,VNX [Replication v2.1 support] Cannot attach volume after failover,https://bugs.launchpad.net/cinder/+bug/1677956,2017-06-21
+1681874,1681874,Fix Released,Incorrect exception handling when deletion encryption keys,https://bugs.launchpad.net/cinder/+bug/1681874,2017-06-21
+1680379,1680379,Fix Released,ds8k should separate verify_version method,https://bugs.launchpad.net/cinder/+bug/1680379,2017-06-21
+1682176,1682176,Fix Released,VMAX driver -  Pre-zoned port group fix,https://bugs.launchpad.net/cinder/+bug/1682176,2017-06-21
+1658037,1658037,Fix Released,rbd: timeout when create volume from snapshot,https://bugs.launchpad.net/cinder/+bug/1658037,2017-06-21
+1685355,1685355,Fix Released,Failure during consistency group deletion with gpfs driver,https://bugs.launchpad.net/cinder/+bug/1685355,2017-06-21
+1688477,1688477,Fix Released,VNX driver failed: mkdir 'permission denied:,https://bugs.launchpad.net/cinder/+bug/1688477,2017-06-21
+1684243,1684243,Fix Released,LIO: AttributeError on terminate_connection,https://bugs.launchpad.net/cinder/+bug/1684243,2017-06-21
+1681888,1681888,Fix Released,VMAX driver - manage existing scalability issue,https://bugs.launchpad.net/cinder/+bug/1681888,2017-06-21
+1689760,1689760,Fix Released,VMAX driver -  Close ecom connections,https://bugs.launchpad.net/cinder/+bug/1689760,2017-06-21
+1686174,1686174,Fix Released,VMAX: Live migration attach fails with:  'NoneType' object has no attribute 'copy',https://bugs.launchpad.net/cinder/+bug/1686174,2017-06-21
+1691526,1691526,Fix Released,GPFS driver does not return 'Not Implemented' error for API create_from_src,https://bugs.launchpad.net/cinder/+bug/1691526,2017-06-21
+1694189,1694189,Fix Released,GPFS: Force delete of consistency group fails when the fileset doesn't exist in the backend,https://bugs.launchpad.net/cinder/+bug/1694189,2017-06-21
+1688577,1688577,Fix Released,Unable to update default quotas,https://bugs.launchpad.net/horizon/+bug/1688577,2017-06-21
+1694574,1694574,Fix Released,Failed loading flavors in instance launch under MSIE11,https://bugs.launchpad.net/horizon/+bug/1694574,2017-06-21
+1696437,1696437,Fix Released,OpenStack logo doesn't look good on error page,https://bugs.launchpad.net/horizon/+bug/1696437,2017-06-21
+1670789,1670789,Fix Released,Menu entries missing from Horizon if cinder v1 endpoint is deleted,https://bugs.launchpad.net/horizon/+bug/1670789,2017-06-21
+1678109,1678109,Fix Released,Boot from volume default,https://bugs.launchpad.net/horizon/+bug/1678109,2017-06-21
+1698834,1698834,Fix Released,Minimize number of servers created for tests,https://bugs.launchpad.net/patrole/+bug/1698834,2017-06-21
+1694848,1694848,Fix Released,Increase voting gate timeout,https://bugs.launchpad.net/patrole/+bug/1694848,2017-06-21
+1699107,1699107,Fix Released,on_end() in PhysicalHostPlugin doesn't correctly delete running instances at the end of the lease period,https://bugs.launchpad.net/blazar/+bug/1699107,2017-06-21
+1699082,1699082,Fix Released,update port's allowed-address-pair slow,https://bugs.launchpad.net/neutron/+bug/1699082,2017-06-21
+1670948,1670948,Fix Released,missing perf.cache_references will prevent getting meter of perf.instructions,https://bugs.launchpad.net/ceilometer/+bug/1670948,2017-06-20
+1639884,1639884,Fix Committed,Devstack configuration fails due to docker-py version mismatch,https://bugs.launchpad.net/zun/+bug/1639884,2017-06-20
+1695245,1695245,Fix Released,Rally task [NovaServers.list_servers] failed with network problems,https://bugs.launchpad.net/rally/+bug/1695245,2017-06-20
+1635363,1635363,Fix Released,Unit test test_run_expirer_ttl_enabled/disabled failing with MismatchError,https://bugs.launchpad.net/aodh/+bug/1635363,2017-06-20
+1667334,1667334,Fix Released,aodh-dbsync: newton->ocata upgrade fails,https://bugs.launchpad.net/aodh/+bug/1667334,2017-06-20
+1620499,1620499,Fix Released,mitaka trust notifier won't work,https://bugs.launchpad.net/aodh/+bug/1620499,2017-06-20
+1635400,1635400,Fix Released,Replace usage of 'retrying' with 'tenacity',https://bugs.launchpad.net/panko/+bug/1635400,2017-06-20
+1664338,1664338,Fix Released,starting panko api in apache wsgi throws unfupported config warnings,https://bugs.launchpad.net/panko/+bug/1664338,2017-06-20
+1680422,1680422,Fix Released,Remove log translations,https://bugs.launchpad.net/panko/+bug/1680422,2017-06-20
+1697690,1697690,Fix Committed,[devops][2.9] BadHostKeyException when time-sync because of paramiko update,https://bugs.launchpad.net/fuel/+bug/1697690,2017-06-20
+1666518,1666518,Fix Released,Logical volumes are not erase as part of `erase_devices` method,https://bugs.launchpad.net/proliantutils/+bug/1666518,2017-06-20
+1696027,1696027,Fix Released,"Cannot create template with error ""The server has either errd or incapable...""",https://bugs.launchpad.net/meteos/+bug/1696027,2017-06-20
+1656166,1656166,Fix Released,Domain not found,https://bugs.launchpad.net/ceilometer/+bug/1656166,2017-06-20
+1594285,1594285,Fix Released,The local cache mechanism of compute resource may calse cause memory leak,https://bugs.launchpad.net/ceilometer/+bug/1594285,2017-06-20
+1693188,1693188,Fix Released,keystone.conf file contains options from keystone-paste.ini file,https://bugs.launchpad.net/fuel/+bug/1693188,2017-06-20
+1684076,1684076,Fix Released,python27 jenkins check taking unusual time for openstack review changes,https://bugs.launchpad.net/group-based-policy/+bug/1684076,2017-06-20
+1693124,1693124,Fix Released,rally jobs are completely broken on newton branch,https://bugs.launchpad.net/networking-midonet/+bug/1693124,2017-06-20
+1691524,1691524,Fix Released,Docker not configured to pull from undercloud registry by default,https://bugs.launchpad.net/tripleo/+bug/1691524,2017-06-20
+1633592,1633592,Fix Released,catch panko errors when not available,https://bugs.launchpad.net/ceilometer/+bug/1633592,2017-06-19
+1492648,1492648,Fix Released,heat stack-create fails and returns warning about trustee,https://bugs.launchpad.net/kolla/+bug/1492648,2017-06-19
+1674429,1674429,Fix Released,Ocata Cinder ScaleIO driver import doesn't work,https://bugs.launchpad.net/cinder/+bug/1674429,2017-06-19
+1681776,1681776,Fix Released,panko need pymongo package,https://bugs.launchpad.net/kolla/+bug/1681776,2017-06-19
+1687602,1687602,Fix Released,sahara-engine container failed to connect instance,https://bugs.launchpad.net/kolla/+bug/1687602,2017-06-19
+1686830,1686830,Fix Released,tzdata missing from upstream ubuntu docker images,https://bugs.launchpad.net/kolla/+bug/1686830,2017-06-19
+1690890,1690890,Fix Released,error message not clear for shared live migration with block storage,https://bugs.launchpad.net/nova/+bug/1690890,2017-06-19
+1693654,1693654,Fix Released,Boot from volume fails when cross_az_attach=False with: ObjectActionError: Object action obj_load_attr failed because: attribute id not lazy-loadable,https://bugs.launchpad.net/nova/+bug/1693654,2017-06-19
+1669719,1669719,Fix Released,Cannot live migrate on XenServer Ely and later,https://bugs.launchpad.net/nova/+bug/1669719,2017-06-19
+1692982,1692982,Fix Released,Need --strict option for nova-manage cell_v2 discover_hosts,https://bugs.launchpad.net/nova/+bug/1692982,2017-06-19
+1693470,1693470,Fix Released,Hyper-V: vhdx images are rejected,https://bugs.launchpad.net/nova/+bug/1693470,2017-06-19

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1039854,1039854,Fix Released,pruner caches raised NoneType exception,https://bugs.launchpad.net/glance/+bug/1039854,2012-09-27
+1036409,1036409,Fix Released,No logging of glance registry req id in glance api log,https://bugs.launchpad.net/glance/+bug/1036409,2012-09-27
+1032798,1032798,Fix Released,v1Client.update_image fails when image attribute value is not string,https://bugs.launchpad.net/glance/+bug/1032798,2012-09-27
+1008874,1008874,Fix Released,Glance create API times out with copy_from header,https://bugs.launchpad.net/glance/+bug/1008874,2012-09-27
+1049633,1049633,Fix Released,Update v2.0 API version to CURRENT,https://bugs.launchpad.net/glance/+bug/1049633,2012-09-27
+1044127,1044127,Fix Released,v2 api displays deleted image properties,https://bugs.launchpad.net/glance/+bug/1044127,2012-09-27
+1043497,1043497,Fix Released,Deployed APIs should be configurable - on or off,https://bugs.launchpad.net/glance/+bug/1043497,2012-09-27
+1043490,1043490,Fix Released,"authtoken configuration should be in config, not paste",https://bugs.launchpad.net/glance/+bug/1043490,2012-09-27
+1043482,1043482,Fix Released,handle missing policy file gracefully,https://bugs.launchpad.net/glance/+bug/1043482,2012-09-27
+1042078,1042078,Fix Released,Need to encode HTTP headers in UTF-8,https://bugs.launchpad.net/glance/+bug/1042078,2012-09-27
+1039897,1039897,Fix Released,v2 API image DELETE leaves images in store,https://bugs.launchpad.net/glance/+bug/1039897,2012-09-27
+1039818,1039818,Fix Released,v2 API should provide image properties Nova depends on,https://bugs.launchpad.net/glance/+bug/1039818,2012-09-27
+1038219,1038219,Fix Released,unit tests fake out registry connection incorrectly,https://bugs.launchpad.net/glance/+bug/1038219,2012-09-27
+1037979,1037979,Fix Released,v2 API image upload lacks exception handling,https://bugs.launchpad.net/glance/+bug/1037979,2012-09-27
+1037745,1037745,Fix Released,glance fails to start in Swift multi_tenant mode,https://bugs.launchpad.net/glance/+bug/1037745,2012-09-27
+1036470,1036470,Fix Released,exception re-raise incorrectly raises None,https://bugs.launchpad.net/glance/+bug/1036470,2012-09-27
+1034972,1034972,Fix Released,POST /v2/images without an image body raises exception,https://bugs.launchpad.net/glance/+bug/1034972,2012-09-27
+1019421,1019421,Fix Released,Glance doesn't clean up the partial uploaded image when there is no disk space,https://bugs.launchpad.net/glance/+bug/1019421,2012-09-27
+997658,997658,Fix Released,glance fails to upload to S3 store,https://bugs.launchpad.net/glance/+bug/997658,2012-09-27
+909064,909064,Fix Released,No documentation on database migrations,https://bugs.launchpad.net/glance/+bug/909064,2012-09-27
+1044119,1044119,Fix Released,glance-control <service> reload prints traceback,https://bugs.launchpad.net/glance/+bug/1044119,2012-09-27
+1043041,1043041,Fix Released,DB Migration 14 doesn't create all image_tags columns,https://bugs.launchpad.net/glance/+bug/1043041,2012-09-27
+1042925,1042925,Fix Released,DB Migration 14 fails when applied to running system,https://bugs.launchpad.net/glance/+bug/1042925,2012-09-27
+1040734,1040734,Fix Released,sdist builds report version as 0.0.0,https://bugs.launchpad.net/glance/+bug/1040734,2012-09-27
+1039821,1039821,Fix Released,"v2 image update should be use PATCH, not PUT",https://bugs.launchpad.net/glance/+bug/1039821,2012-09-27
+1039212,1039212,Fix Released,AttributeError: 'CooperativeReader' object has no attribute 'read',https://bugs.launchpad.net/glance/+bug/1039212,2012-09-27
+1038994,1038994,Fix Released,IMAGE_SIZE_CAP needs to be configurable,https://bugs.launchpad.net/glance/+bug/1038994,2012-09-27
+1038552,1038552,Fix Released,v2 API doesn't send notifications,https://bugs.launchpad.net/glance/+bug/1038552,2012-09-27
+1038112,1038112,Fix Released,glance-cache-manage doesn't support recent OS env variables,https://bugs.launchpad.net/glance/+bug/1038112,2012-09-27
+1038086,1038086,Fix Released,Glance needs a policy for image download,https://bugs.launchpad.net/glance/+bug/1038086,2012-09-27
+1037793,1037793,Fix Released,v2 anonymous access fails due to keystone middleware,https://bugs.launchpad.net/glance/+bug/1037793,2012-09-27
+1037725,1037725,Fix Released,v2 Images API allows non-uuid image identifiers,https://bugs.launchpad.net/glance/+bug/1037725,2012-09-27
+1037391,1037391,Fix Released,v2 API returns 200 instead of 201 on image data upload,https://bugs.launchpad.net/glance/+bug/1037391,2012-09-27
+1036846,1036846,Fix Released,v2 API doesn't have any policy checks,https://bugs.launchpad.net/glance/+bug/1036846,2012-09-27
+1036507,1036507,Fix Released,v2 API isn't updating image updated_at attribute,https://bugs.launchpad.net/glance/+bug/1036507,2012-09-27
+1036249,1036249,Fix Released,Error building docs.,https://bugs.launchpad.net/glance/+bug/1036249,2012-09-27
+1036193,1036193,Fix Released,glance-api with workers !=0 causes mysql issues,https://bugs.launchpad.net/glance/+bug/1036193,2012-09-27
+1031794,1031794,Fix Released,Allow setting of TCP_KEEPIDLE value,https://bugs.launchpad.net/glance/+bug/1031794,2012-09-27
+1025353,1025353,Fix Released,Support zero-size image creation,https://bugs.launchpad.net/glance/+bug/1025353,2012-09-27
+1023892,1023892,Fix Released,glance client allows override of header fields,https://bugs.launchpad.net/glance/+bug/1023892,2012-09-27
+1021002,1021002,Fix Released,Improved concurrent eventlet thread performance,https://bugs.launchpad.net/glance/+bug/1021002,2012-09-27
+987399,987399,Fix Released,Functional tests bind to 0.0.0.0,https://bugs.launchpad.net/glance/+bug/987399,2012-09-27
+1030742,1030742,Fix Released,glance show does not display relevant dates for an image,https://bugs.launchpad.net/glance/+bug/1030742,2012-09-27
+1030396,1030396,Fix Released,409 exception from glance-replicator for image upload if image already exists,https://bugs.launchpad.net/glance/+bug/1030396,2012-09-27
+1029758,1029758,Fix Released,glance-replicator needs to support different tokens for slave and master,https://bugs.launchpad.net/glance/+bug/1029758,2012-09-27
+1028101,1028101,Fix Released,deleted_at not set when image member and properties are deleted,https://bugs.launchpad.net/glance/+bug/1028101,2012-09-27
+1026222,1026222,Fix Released,image cache middleware should only used unconsumed request path,https://bugs.launchpad.net/glance/+bug/1026222,2012-09-27
+1026072,1026072,Fix Released,registry error message omits image id,https://bugs.launchpad.net/glance/+bug/1026072,2012-09-27
+1026047,1026047,Fix Released,Unit test 'test_unsupported_default_store' fails on slow machine,https://bugs.launchpad.net/glance/+bug/1026047,2012-09-27
+1021798,1021798,Fix Released,keystone not needed in pip-requires,https://bugs.launchpad.net/glance/+bug/1021798,2012-09-27
+1021054,1021054,Fix Released,Admins should be able to share image regardless of ownership,https://bugs.launchpad.net/glance/+bug/1021054,2012-09-27
+996648,996648,Fix Released,Error not meaningful if glance-registry service not running,https://bugs.launchpad.net/glance/+bug/996648,2012-09-27
+955475,955475,Fix Released,docs index links do nothing,https://bugs.launchpad.net/glance/+bug/955475,2012-09-27
+1032314,1032314,Fix Released,qpid_heartbeat setting in ineffective,https://bugs.launchpad.net/glance/+bug/1032314,2012-09-27
+1031396,1031396,Fix Released,xattr and pysendfile dependencies broke Hyper-V integration,https://bugs.launchpad.net/glance/+bug/1031396,2012-09-27
+1028496,1028496,Fix Released,Cache can store invalid images,https://bugs.launchpad.net/glance/+bug/1028496,2012-09-27
+1028433,1028433,Fix Released,Image id not contained in swift chunk debug message,https://bugs.launchpad.net/glance/+bug/1028433,2012-09-27
+1028081,1028081,Fix Released,image properties always blank in image.delete notifications,https://bugs.launchpad.net/glance/+bug/1028081,2012-09-27
+1025756,1025756,Fix Released,Some tests slow when using proxy,https://bugs.launchpad.net/glance/+bug/1025756,2012-09-27
+1025697,1025697,Fix Released,Glance lists filtered image with deleted property,https://bugs.launchpad.net/glance/+bug/1025697,2012-09-27
+1022369,1022369,Fix Released,Glance scrubber date formatting fails w/ Postgres,https://bugs.launchpad.net/glance/+bug/1022369,2012-09-27
+1009248,1009248,Fix Released,Glance HTTP Store query method fails to check response code,https://bugs.launchpad.net/glance/+bug/1009248,2012-09-27
+1003711,1003711,Fix Released,"glance client (in insecure mode), can't talk to keystone over https",https://bugs.launchpad.net/glance/+bug/1003711,2012-09-27
+1035471,1035471,Fix Released,swift_store_admin_tenants should be a list opt,https://bugs.launchpad.net/glance/+bug/1035471,2012-09-27
+1034790,1034790,Fix Released,v2 API image-list fails when images with null checksum,https://bugs.launchpad.net/glance/+bug/1034790,2012-09-27
+1032451,1032451,Fix Released,API Server doesn't validate client ssl certificate,https://bugs.launchpad.net/glance/+bug/1032451,2012-09-27
+1031842,1031842,Fix Released,^c during image downloads leaves incomplete files in cache,https://bugs.launchpad.net/glance/+bug/1031842,2012-09-27
+1031796,1031796,Fix Released,default perms on cached files include w:r,https://bugs.launchpad.net/glance/+bug/1031796,2012-09-27
+1031596,1031596,Fix Released,Glance context never updates local.store with itself,https://bugs.launchpad.net/glance/+bug/1031596,2012-09-27
+1023182,1023182,Fix Released,Add bin/glance-replicator to scripts in setup.py,https://bugs.launchpad.net/glance/+bug/1023182,2012-09-27
+1021740,1021740,Fix Released,Allow admins to modify image members regardless of image ownership,https://bugs.launchpad.net/glance/+bug/1021740,2012-09-27
+1036501,1036501,Fix Released,"v2 image create returns 200, should be 201",https://bugs.launchpad.net/glance/+bug/1036501,2012-09-27
+1031185,1031185,Fix Released,v2 API should not return images or access records in containers,https://bugs.launchpad.net/glance/+bug/1031185,2012-09-27
+1031185,1031185,Fix Released,v2 API should not return images or access records in containers,https://bugs.launchpad.net/python-glanceclient/+bug/1031185,2012-09-27
+1030730,1030730,Fix Released,text/html content type returned for GET /v2/images and GET /v2/image/<IMAGE_ID>,https://bugs.launchpad.net/glance/+bug/1030730,2012-09-27

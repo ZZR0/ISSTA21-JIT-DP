@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1427301,1427301,Fix Released,Cinder iSCSI configuration lost on target.service start/restart,https://bugs.launchpad.net/cinder/+bug/1427301,2015-04-30
+1440153,1440153,Fix Released,unit tests fail on systems with /dev/disk/by-path after merge of https://review.openstack.org/#/c/168505/,https://bugs.launchpad.net/cinder/+bug/1440153,2015-04-30
+1436605,1436605,Fix Released,hitachi drivers access volume['instance_uuid'],https://bugs.launchpad.net/cinder/+bug/1436605,2015-04-30
+1436604,1436604,Fix Released,AttributeError: 'Volume' object has no attribute 'instance_uuid' in manager.py retype,https://bugs.launchpad.net/cinder/+bug/1436604,2015-04-30
+1373513,1373513,Fix Released,Lvm hang during tempest tests,https://bugs.launchpad.net/cinder/+bug/1373513,2015-04-30
+1433202,1433202,Fix Released,"Cannot recognize warning messages from ""multipath -l""",https://bugs.launchpad.net/cinder/+bug/1433202,2015-04-30
+1432687,1432687,Fix Released,adjust nfs backup unit test memory usage,https://bugs.launchpad.net/cinder/+bug/1432687,2015-04-30
+1431543,1431543,Fix Released,Typo in sf_template_account_name help,https://bugs.launchpad.net/cinder/+bug/1431543,2015-04-30
+1430699,1430699,Fix Released,test_pure.py patches utils.retry decorator globally,https://bugs.launchpad.net/cinder/+bug/1430699,2015-04-30
+1430421,1430421,Fix Released,"Dell FC Driver broken, no longer called",https://bugs.launchpad.net/cinder/+bug/1430421,2015-04-30
+1430262,1430262,Fix Released,"Tests use assertEqual(True, var) instead of the dedicated assertTrue(var)",https://bugs.launchpad.net/cinder/+bug/1430262,2015-04-30
+1430009,1430009,Fix Released,vmem driver client library name changed from 'vxg' to 'vmemclient' in PyPI,https://bugs.launchpad.net/cinder/+bug/1430009,2015-04-30
+1429773,1429773,Fix Released,Fix wrong log output in cinder/cinder/volume/drivers/lvm.py,https://bugs.launchpad.net/cinder/+bug/1429773,2015-04-30
+1429702,1429702,Fix Released,Implements unmanage interface for VNX cinder driver,https://bugs.launchpad.net/cinder/+bug/1429702,2015-04-30
+1428609,1428609,Fix Released,Error trying to delete snapshots on Hitachi driver,https://bugs.launchpad.net/cinder/+bug/1428609,2015-04-30
+1428259,1428259,Fix Released,Dell SC REST API removed option fails snapshot creation,https://bugs.launchpad.net/cinder/+bug/1428259,2015-04-30
+1427904,1427904,Fix Released,The iscsi_num_targets and iser_num_targets config parameters are not used at iscsi target,https://bugs.launchpad.net/cinder/+bug/1427904,2015-04-30
+1427851,1427851,Fix Released,Introduction of Objects breaks a number of assumptions,https://bugs.launchpad.net/cinder/+bug/1427851,2015-04-30
+1427713,1427713,Fix Released,setting option gpfs_images_share_mode default=copy_on_write causes setup error,https://bugs.launchpad.net/cinder/+bug/1427713,2015-04-30
+1427402,1427402,Fix Released,db-archiving spec missing developer impact,https://bugs.launchpad.net/cinder/+bug/1427402,2015-04-30
+1426463,1426463,Fix Released,Dell Storage Center Driver API bug,https://bugs.launchpad.net/cinder/+bug/1426463,2015-04-30
+1425551,1425551,Fix Released,Loop on mount nfs share on cinder-volume,https://bugs.launchpad.net/cinder/+bug/1425551,2015-04-30
+1424973,1424973,Fix Released,Use Unique SCST Group names in SCST cinder helper driver,https://bugs.launchpad.net/cinder/+bug/1424973,2015-04-30
+1423450,1423450,Fix Released,Fix some message nits in the ZoneManager,https://bugs.launchpad.net/cinder/+bug/1423450,2015-04-30
+1423357,1423357,Fix Released,Not all drivers implement refresh as a kwarg in get_volume_stats function,https://bugs.launchpad.net/cinder/+bug/1423357,2015-04-30
+1423261,1423261,Fix Released,CxtAdmDriver unit tests try to open files on the system,https://bugs.launchpad.net/cinder/+bug/1423261,2015-04-30
+1422742,1422742,Fix Released,Dell Storage Center driver API calls temporary failure,https://bugs.launchpad.net/cinder/+bug/1422742,2015-04-30
+1422604,1422604,Fix Released,SAN driver inserts whitespaces in commands,https://bugs.launchpad.net/cinder/+bug/1422604,2015-04-30
+1422563,1422563,Fix Released,VNX Cinder Driver fails to return single path target when iscsi_initiators option has no value,https://bugs.launchpad.net/cinder/+bug/1422563,2015-04-30
+1422095,1422095,Fix Released,tgt driver does not handle file open/read errors correctly,https://bugs.launchpad.net/cinder/+bug/1422095,2015-04-30
+1421843,1421843,Fix Released,cleanup EQL driver from reporting infinite capacities,https://bugs.launchpad.net/cinder/+bug/1421843,2015-04-30
+1421570,1421570,Fix Released,Add CHAP persistence to SCST target helper,https://bugs.launchpad.net/cinder/+bug/1421570,2015-04-30
+1421314,1421314,Fix Released,Novaclient calls fail on multi-region infra,https://bugs.launchpad.net/cinder/+bug/1421314,2015-04-30
+1420746,1420746,Fix Released,Fix the total_capacity_gb in CloudByte iSCSI cinder driver,https://bugs.launchpad.net/cinder/+bug/1420746,2015-04-30
+1420332,1420332,Fix Released,quobyte driver introduced extra dependency to xattr,https://bugs.launchpad.net/cinder/+bug/1420332,2015-04-30
+1420171,1420171,Fix Released,DRBD: restarting DRBDmanage or DBus fail one call,https://bugs.launchpad.net/cinder/+bug/1420171,2015-04-30
+1420163,1420163,Fix Released,DRBD cinder driver: wrong data returned,https://bugs.launchpad.net/cinder/+bug/1420163,2015-04-30
+1420010,1420010,Fix Released,Target delete fails if target doesn't exist,https://bugs.launchpad.net/cinder/+bug/1420010,2015-04-30
+1418645,1418645,Fix Released,Exception error breaks HNAS driver loading,https://bugs.launchpad.net/cinder/+bug/1418645,2015-04-30
+1439770,1439770,Fix Released,Invalid validation for intermediates,https://bugs.launchpad.net/neutron/+bug/1439770,2015-04-30
+1417730,1417730,Fix Released,PureISCSIDriver fails to initialize when failing to find available port,https://bugs.launchpad.net/cinder/+bug/1417730,2015-04-30
+1439010,1439010,Fix Released,Encrypted key is not properly handled,https://bugs.launchpad.net/neutron/+bug/1439010,2015-04-30
+1417293,1417293,Fix Released,Ceph test_discard_bytes unit test takes up too much ram and disk space,https://bugs.launchpad.net/cinder/+bug/1417293,2015-04-30
+1438568,1438568,Fix Released,crypto expects encoded passphrase,https://bugs.launchpad.net/neutron/+bug/1438568,2015-04-30
+1417273,1417273,Fix Released,Cinder reset-state should Warn and explicitly state it is DB only,https://bugs.launchpad.net/cinder/+bug/1417273,2015-04-30
+1411904,1411904,Fix Released,Check whether the LUN have been  associated to the LUNgroup before do the association,https://bugs.launchpad.net/cinder/+bug/1411904,2015-04-30
+1373130,1373130,Fix Released,Custom zone name prefix is not getting set for Brocade Driver,https://bugs.launchpad.net/cinder/+bug/1373130,2015-04-30
+1433226,1433226,Fix Released,Add some unit tests for ipsec strongswan vpnaas driver,https://bugs.launchpad.net/neutron/+bug/1433226,2015-04-30
+1350558,1350558,Fix Released,"cinder v2 volume list API does not create ""next"" link correctly for pagination",https://bugs.launchpad.net/cinder/+bug/1350558,2015-04-30
+1329139,1329139,Fix Released,code duplication in iscsi helper(s),https://bugs.launchpad.net/cinder/+bug/1329139,2015-04-30
+1431077,1431077,Fix Released,TRACE: attribute error when trying to fetch the router.snat_namespace.name,https://bugs.launchpad.net/neutron/+bug/1431077,2015-04-30
+1308736,1308736,Fix Released,Nova assisted snapshot APIs require admin credentials,https://bugs.launchpad.net/cinder/+bug/1308736,2015-04-30
+1430994,1430994,Fix Released,Some strings split across lines are missing a space,https://bugs.launchpad.net/neutron/+bug/1430994,2015-04-30
+1405169,1405169,Fix Released,Exception message in volume api non-informative,https://bugs.launchpad.net/cinder/+bug/1405169,2015-04-30
+1285688,1285688,Fix Released,VMware: Refactor log printing statements in vmdk driver,https://bugs.launchpad.net/cinder/+bug/1285688,2015-04-30
+1423228,1423228,Fix Released,L3 agent for nova compute could not be found,https://bugs.launchpad.net/tripleo/+bug/1423228,2015-04-30
+1423228,1423228,Fix Released,L3 agent for nova compute could not be found,https://bugs.launchpad.net/neutron/+bug/1423228,2015-04-30
+1433543,1433543,Fix Released,Datera Needs Retry For Resource Creation,https://bugs.launchpad.net/cinder/+bug/1433543,2015-04-30
+1416308,1416308,Fix Released,remove_router_interface need to improve its validate to avoid 500 DBError,https://bugs.launchpad.net/neutron/+bug/1416308,2015-04-30
+1430978,1430978,Fix Released,Datera driver sends expired token when reauthorizing itself,https://bugs.launchpad.net/cinder/+bug/1430978,2015-04-30
+1434401,1434401,Fix Released,ML2 mechanism driver for Cisco UCS Manager,https://bugs.launchpad.net/neutron/+bug/1434401,2015-04-30
+1434051,1434051,Fix Released,Remove redundant OVS agent unit tests,https://bugs.launchpad.net/neutron/+bug/1434051,2015-04-30
+1430024,1430024,Fix Released,Datera driver expects deprecated response key with export call,https://bugs.launchpad.net/cinder/+bug/1430024,2015-04-30
+1429669,1429669,Fix Released,Wrong mock assert methods,https://bugs.launchpad.net/cinder/+bug/1429669,2015-04-30
+1429283,1429283,Fix Released,xio driver does not recover properly on REST call retries,https://bugs.launchpad.net/cinder/+bug/1429283,2015-04-30
+1426365,1426365,Fix Released,Ml2 Mechanism Driver for OVSvApp Solution,https://bugs.launchpad.net/neutron/+bug/1426365,2015-04-30
+1426205,1426205,Fix Released,useless storage_availability_zone import,https://bugs.launchpad.net/cinder/+bug/1426205,2015-04-30
+1425632,1425632,Fix Released,ML2 Mechanism Driver for Cisco Nexus1000V,https://bugs.launchpad.net/neutron/+bug/1425632,2015-04-30
+1421759,1421759,Fix Released,wsgi unit tests require binding to port 4444,https://bugs.launchpad.net/nova/+bug/1421759,2015-04-30
+1421759,1421759,Fix Released,wsgi unit tests require binding to port 4444,https://bugs.launchpad.net/cinder/+bug/1421759,2015-04-30
+1420321,1420321,Fix Released,Remove custom LazyPluggable object from Cinder,https://bugs.launchpad.net/cinder/+bug/1420321,2015-04-30
+1417499,1417499,Fix Released,Cert test of devstack setup with LVM and chiscsi iscsi_helper,https://bugs.launchpad.net/cinder/+bug/1417499,2015-04-30
+1414531,1414531,Fix Released,potential arbitrary code execution in the srb volume driver,https://bugs.launchpad.net/cinder/+bug/1414531,2015-04-30
+1434337,1434337,Fix Released,VPNaaS: vyatta-agent hangs with oslo-msg warning on monkey patch,https://bugs.launchpad.net/neutron/+bug/1434337,2015-04-30
+1402771,1402771,Fix Released,Fix HNAS driver parsing errors,https://bugs.launchpad.net/cinder/+bug/1402771,2015-04-30

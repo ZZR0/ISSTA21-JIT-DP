@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1095897,1095897,Fix Released,No module named swift.common.swob during run tox py26 in ceilometer,https://bugs.launchpad.net/ceilometer/+bug/1095897,2013-04-04
+1084479,1084479,Fix Released,Add branding to docs,https://bugs.launchpad.net/ceilometer/+bug/1084479,2013-04-04
+1070857,1070857,Fix Released,set default source to something meaningful,https://bugs.launchpad.net/ceilometer/+bug/1070857,2013-04-04
+1064126,1064126,Fix Released,Could not find a unit test for CPUPollster,https://bugs.launchpad.net/ceilometer/+bug/1064126,2013-04-04
+1056087,1056087,Fix Released,floating ip pollster should trap error from lack of ip addresses,https://bugs.launchpad.net/ceilometer/+bug/1056087,2013-04-04
+1028485,1028485,Fix Released,mongodb indexes need names,https://bugs.launchpad.net/ceilometer/+bug/1028485,2013-04-04
+1018471,1018471,Fix Released,"ceilometer logging does not understand ""color"" or ""instance"" formatter values in logging config",https://bugs.launchpad.net/ceilometer/+bug/1018471,2013-04-04
+1079235,1079235,Fix Released,Meters events listing in API does not handle timestamp intervals,https://bugs.launchpad.net/ceilometer/+bug/1079235,2013-04-04
+1078304,1078304,Fix Released,libvirt pollster fails with TypeError when importing nova compute driver,https://bugs.launchpad.net/ceilometer/+bug/1078304,2013-04-04
+1078298,1078298,Fix Released,enumerating on-host instances via public nova API breaks instance-type-specific metering,https://bugs.launchpad.net/ceilometer/+bug/1078298,2013-04-04
+1077104,1077104,Fix Released,ceilometer should require pymongo>=2.0,https://bugs.launchpad.net/ceilometer/+bug/1077104,2013-04-04
+1048647,1048647,Fix Released,need to use tz-aware datetimes,https://bugs.launchpad.net/ceilometer/+bug/1048647,2013-04-04
+1012242,1012242,Fix Released,remove database access from agent pollsters,https://bugs.launchpad.net/ceilometer/+bug/1012242,2013-04-04
+1094337,1094337,Fix Released,v2 api needs explicit timestamp arguments,https://bugs.launchpad.net/ceilometer/+bug/1094337,2013-04-04
+1089734,1089734,Fix Released,ceilometer-collector fail to start cause no ceilometer.collector extensions found,https://bugs.launchpad.net/ceilometer/+bug/1089734,2013-04-04
+1089729,1089729,Fix Released,ceilometer-api fail to start due to no module wsme found by devstack,https://bugs.launchpad.net/ceilometer/+bug/1089729,2013-04-04
+1078788,1078788,Fix Released,Replace minified js lib by non-minified versions,https://bugs.launchpad.net/ceilometer/+bug/1078788,2013-04-04
+1071835,1071835,Fix Released,Different image metadata for audit and polling,https://bugs.launchpad.net/ceilometer/+bug/1071835,2013-04-04
+1071047,1071047,Fix Released,Keystone middleware does not use configuration,https://bugs.launchpad.net/ceilometer/+bug/1071047,2013-04-04
+1065945,1065945,Fix Released,compute pollster uses internal nova libvirt connection API,https://bugs.launchpad.net/ceilometer/+bug/1065945,2013-04-04
+1057679,1057679,Fix Released,implement get_volume_max for sqlalchemy,https://bugs.launchpad.net/ceilometer/+bug/1057679,2013-04-04
+1052015,1052015,Fix Released,MongoDB tests fail with MIM,https://bugs.launchpad.net/ceilometer/+bug/1052015,2013-04-04
+1034666,1034666,Fix Released,Remove nova db access for all ceilometer code,https://bugs.launchpad.net/ceilometer/+bug/1034666,2013-04-04
+1098206,1098206,Fix Released,policy.json is never found,https://bugs.launchpad.net/ceilometer/+bug/1098206,2013-04-04
+1098204,1098204,Fix Released,API ACL authentication is broken,https://bugs.launchpad.net/ceilometer/+bug/1098204,2013-04-04
+1092856,1092856,Fix Released,"ceilometer-collector won't run and pkg_resource raise ""global name 'utf8' is not defined""",https://bugs.launchpad.net/ceilometer/+bug/1092856,2013-04-04
+1091754,1091754,Fix Released,ceilometer-api failed to start because of no log_name option,https://bugs.launchpad.net/ceilometer/+bug/1091754,2013-04-04
+1074488,1074488,Fix Released,nova fake libvirt library breaking tests,https://bugs.launchpad.net/ceilometer/+bug/1074488,2013-04-04
+1073654,1073654,Fix Released,"api server fails loading ""sources.json""",https://bugs.launchpad.net/ceilometer/+bug/1073654,2013-04-04
+1160004,1160004,Fix Released,quota gigabytes sync is broken,https://bugs.launchpad.net/cinder/+bug/1160004,2013-04-04
+1159798,1159798,Fix Released,rc2 still depends on rtslib.,https://bugs.launchpad.net/cinder/+bug/1159798,2013-04-04
+1159489,1159489,Fix Released,Sharing gigabytes quota between snapshots and volumes doesn't work properly,https://bugs.launchpad.net/cinder/+bug/1159489,2013-04-04
+1158409,1158409,Fix Released,cinder-manage volume delete doesn't support volume ids in uuid format,https://bugs.launchpad.net/cinder/+bug/1158409,2013-04-04
+1157982,1157982,Fix Released,snapshot quota checks are checking volume tables,https://bugs.launchpad.net/cinder/+bug/1157982,2013-04-04
+1157912,1157912,Fix Released,EMC SMI-S iSCSI driver fails to attach volume,https://bugs.launchpad.net/cinder/+bug/1157912,2013-04-04
+1157506,1157506,Fix Released,Snapshot in-use count not decrement after snapshot is deleted,https://bugs.launchpad.net/cinder/+bug/1157506,2013-04-04
+1157500,1157500,Fix Released,CoraidDriver: do not call login from __init__,https://bugs.launchpad.net/cinder/+bug/1157500,2013-04-04
+1157499,1157499,Fix Released,CoraidDriver: typo in _login exception handler,https://bugs.launchpad.net/cinder/+bug/1157499,2013-04-04
+1157354,1157354,Fix Released,CoraidDriver: support users that are not admin,https://bugs.launchpad.net/cinder/+bug/1157354,2013-04-04
+1157126,1157126,Fix Released,rpc notifier should be copied into openstack common,https://bugs.launchpad.net/cinder/+bug/1157126,2013-04-04
+1157091,1157091,Fix Released,rtslib dependency (AGPL) should be made optional,https://bugs.launchpad.net/cinder/+bug/1157091,2013-04-04
+1157012,1157012,Fix Released,storwize SVC driver fails to map volume to host when SCSI IDs are not contiguous,https://bugs.launchpad.net/cinder/+bug/1157012,2013-04-04
+1156686,1156686,Fix Released,"Snapshots for NFS/GlusterFS created in error state, but can't be deleted",https://bugs.launchpad.net/cinder/+bug/1156686,2013-04-04
+1155781,1155781,Fix Released,3par drivers has incorrect persona valid value,https://bugs.launchpad.net/cinder/+bug/1155781,2013-04-04
+1155284,1155284,Fix Released,Booting VM from cinder volume fails,https://bugs.launchpad.net/cinder/+bug/1155284,2013-04-04
+1154454,1154454,Fix Released,Cinder volumes list issue when filter was used,https://bugs.launchpad.net/cinder/+bug/1154454,2013-04-04
+1154125,1154125,Fix Released,Huawei driver: Use self.configuration to support the multi-backend case,https://bugs.launchpad.net/cinder/+bug/1154125,2013-04-04
+1153968,1153968,Fix Released,Windows storage service cinder plugins fails when detaching,https://bugs.launchpad.net/cinder/+bug/1153968,2013-04-04
+1153807,1153807,Fix Released,API returns 422 Unprocessable Entity instead of 400 Bad Request,https://bugs.launchpad.net/cinder/+bug/1153807,2013-04-04
+1152501,1152501,Fix Released,"NFS drivers should implemented ""get_volume_stats""",https://bugs.launchpad.net/cinder/+bug/1152501,2013-04-04
+1131857,1131857,Fix Released,avoid calling len in sizelimit middleware,https://bugs.launchpad.net/nova/+bug/1131857,2013-04-04
+1131857,1131857,Fix Released,avoid calling len in sizelimit middleware,https://bugs.launchpad.net/cinder/+bug/1131857,2013-04-04
+1087817,1087817,Fix Released,Update v2 with volume_type_id switch to uuid,https://bugs.launchpad.net/cinder/+bug/1087817,2013-04-04
+1155071,1155071,Fix Released,storwize/svc unit tests fail on real target,https://bugs.launchpad.net/cinder/+bug/1155071,2013-04-04
+1152542,1152542,Fix Released,Cinder should allow a flag for setting glance api version to use,https://bugs.launchpad.net/cinder/+bug/1152542,2013-04-04
+1151684,1151684,Fix Released,cinder-volume capacity data parsing fails with non english locale,https://bugs.launchpad.net/cinder/+bug/1151684,2013-04-04
+1151510,1151510,Fix Released,NetApp driver password not marked secret,https://bugs.launchpad.net/cinder/+bug/1151510,2013-04-04
+1150663,1150663,Fix Released,HpSanISCSIDriver needs to support get_volume_stats,https://bugs.launchpad.net/cinder/+bug/1150663,2013-04-04
+1149072,1149072,Fix Released,Do not use prefix to find host in Storwize/SVC driver.,https://bugs.launchpad.net/cinder/+bug/1149072,2013-04-04
+1146341,1146341,Fix Released,add multitier and compression capabilities,https://bugs.launchpad.net/cinder/+bug/1146341,2013-04-04
+1144591,1144591,Fix Released,Cinder fails to rescan iSCSI targets in ISCSIDriver,https://bugs.launchpad.net/cinder/+bug/1144591,2013-04-04
+1142196,1142196,Fix Released,Storwize/SVC driver storage_protocol reporting,https://bugs.launchpad.net/cinder/+bug/1142196,2013-04-04
+1140162,1140162,Fix Released,sheepdog driver doesn't report capabilities to the scheduler,https://bugs.launchpad.net/cinder/+bug/1140162,2013-04-04
+1139984,1139984,Fix Released,Issues found in Cinder /os-hosts API,https://bugs.launchpad.net/cinder/+bug/1139984,2013-04-04
+1136980,1136980,Fix Released,Huawei driver: Failed to create snap volume if no available resource pool,https://bugs.launchpad.net/cinder/+bug/1136980,2013-04-04
+1135619,1135619,Fix Released,NetApp: unit tests leave lockfile behind,https://bugs.launchpad.net/cinder/+bug/1135619,2013-04-04
+1135618,1135618,Fix Released,Huawei drivers: Failed to map lun 0 to instance,https://bugs.launchpad.net/cinder/+bug/1135618,2013-04-04
+1135391,1135391,Fix Released,Storwize/SVC driver hasn't been updated to use self.configuration,https://bugs.launchpad.net/cinder/+bug/1135391,2013-04-04
+1132834,1132834,Fix Released,Cannot specify ONTAP volume for filtering,https://bugs.launchpad.net/cinder/+bug/1132834,2013-04-04
+1132637,1132637,Fix Released,NetApp Drivers in multi BackEnd environment fails to load,https://bugs.launchpad.net/cinder/+bug/1132637,2013-04-04
+1131320,1131320,Fix Released,The sqlalchemy method volume_get_active_by_window() always returns none,https://bugs.launchpad.net/cinder/+bug/1131320,2013-04-04
+1131147,1131147,Fix Released,cinder-backup fails with error when added to devstack,https://bugs.launchpad.net/cinder/+bug/1131147,2013-04-04
+1130867,1130867,Fix Released,Possible unused volume_id=volume_id lines in cinder/volume/manager.py,https://bugs.launchpad.net/cinder/+bug/1130867,2013-04-04
+1130723,1130723,Fix Released,Exception rendering errors,https://bugs.launchpad.net/cinder/+bug/1130723,2013-04-04
+1117384,1117384,Fix Released,Cinder does not fill in Display Name on creation,https://bugs.launchpad.net/cinder/+bug/1117384,2013-04-04

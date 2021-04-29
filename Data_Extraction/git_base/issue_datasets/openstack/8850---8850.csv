@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1795641,1795641,Fix Released,environments/nonha-arch.yaml disables keepalived,https://bugs.launchpad.net/tripleo/+bug/1795641,2019-03-14
+1813148,1813148,Fix Released,docker_config_scripts/nova_cell_v2_discover_host.py breaks with TLS everywhere,https://bugs.launchpad.net/tripleo/+bug/1813148,2019-03-14
+1813084,1813084,Fix Released,api containers fail on missing mod_auth_mellon.so,https://bugs.launchpad.net/tripleo/+bug/1813084,2019-03-14
+1815998,1815998,Fix Released,::vitrage::database_* not found,https://bugs.launchpad.net/puppet-vitrage/+bug/1815998,2019-03-14
+1812936,1812936,Fix Released,baremetal ML2 mechanism driver is not enabled when deploying ironic in the overcloud,https://bugs.launchpad.net/tripleo/+bug/1812936,2019-03-14
+1813617,1813617,Fix Released,rpc_rabbitmq_short_bootstrap_node_name' is undefined during upgrades,https://bugs.launchpad.net/tripleo/+bug/1813617,2019-03-14
+1812695,1812695,Fix Released,Unmanaged iptables rules are kept after the deploy (v4 and v6),https://bugs.launchpad.net/tripleo/+bug/1812695,2019-03-14
+1814275,1814275,Fix Released,Failed to change ownership of /var/lib/mistral/undercloud.conf,https://bugs.launchpad.net/tripleo/+bug/1814275,2019-03-14
+1814852,1814852,Fix Released,[scenario7] check job failed with Could not fetch contents/tripleo-heat-templates/puppet/services/tacker.yaml during overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1814852,2019-03-14
+1814104,1814104,Fix Released,tripleo-container-tag image pulling failing in upgrade_tasks,https://bugs.launchpad.net/tripleo/+bug/1814104,2019-03-14
+1815170,1815170,Fix Released,undercloud-upgrades job failing during [Stop openstack-nova-compute service],https://bugs.launchpad.net/tripleo/+bug/1815170,2019-03-14
+1815650,1815650,Fix Released,gnocchi_init_lib task fails with podman,https://bugs.launchpad.net/tripleo/+bug/1815650,2019-03-14
+1815713,1815713,Fix Released,service flattening broke nova vnc proxy,https://bugs.launchpad.net/tripleo/+bug/1815713,2019-03-14
+1815888,1815888,Fix Released,service flattening broke nova compute discovery,https://bugs.launchpad.net/tripleo/+bug/1815888,2019-03-14
+1816070,1816070,Fix Released,rabbitmq does not get restarted on config changes,https://bugs.launchpad.net/tripleo/+bug/1816070,2019-03-14
+1816444,1816444,Fix Released,podman: redis fails to start on reboot,https://bugs.launchpad.net/tripleo/+bug/1816444,2019-03-14
+1816484,1816484,Fix Released,nova_migration_target fails to start on compute nodes,https://bugs.launchpad.net/tripleo/+bug/1816484,2019-03-14
+1816441,1816441,Fix Released,openshift CI job (scenario009) fails to run overcloud-prep-images.sh,https://bugs.launchpad.net/tripleo/+bug/1816441,2019-03-14
+1816453,1816453,Fix Released,Standalone upgrade job failing in task [Extra migration for nova tripleo/+bug/1656791],https://bugs.launchpad.net/tripleo/+bug/1816453,2019-03-14
+1816847,1816847,Fix Released,"default NeutronNetworkType is still set to vxlan,vlan but we don't support that with ovn by default",https://bugs.launchpad.net/tripleo/+bug/1816847,2019-03-14
+1817524,1817524,Fix Released,multi cellv2 deployment fails with switch to OVN as default,https://bugs.launchpad.net/tripleo/+bug/1817524,2019-03-14
+1817914,1817914,Fix Released,tht validate templates skips hiera interpolation checks when ean via py3,https://bugs.launchpad.net/tripleo/+bug/1817914,2019-03-14
+1818035,1818035,Fix Released,[RFE]  allow to configure broadcast_dhcp in neutron DHCP server,https://bugs.launchpad.net/tripleo/+bug/1818035,2019-03-14
+1813998,1813998,Fix Released,containers build job broken due to hanging health check file,https://bugs.launchpad.net/tripleo/+bug/1813998,2019-03-14
+1816039,1816039,Fix Released,cannot read directory for multi: /var/lib/image-serve/v2/,https://bugs.launchpad.net/tripleo/+bug/1816039,2019-03-14
+1816026,1816026,Fix Released,multinode promotion jobs timing out at overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1816026,2019-03-14
+1786762,1786762,Fix Released,TLS everywhere development cruft left in the branches,https://bugs.launchpad.net/tripleo/+bug/1786762,2019-03-14
+1818926,1818926,Fix Released,"deploy fails with Invalid input [name=tripleo.parameters.update, class=tripleo_common.actions.parameters.UpdateParametersAction, unexpected=[\'validate\']",https://bugs.launchpad.net/tripleo/+bug/1818926,2019-03-14
+1818994,1818994,Fix Released,ovb jobs broken because pacemaker is unconfigured,https://bugs.launchpad.net/tripleo/+bug/1818994,2019-03-14
+1818757,1818757,Fix Released,Mistral's eventlet monkeypatching breaks git-python,https://bugs.launchpad.net/tripleo/+bug/1818757,2019-03-14
+1811951,1811951,Fix Released,Undercloud always tries to configure docker user/group,https://bugs.launchpad.net/tripleo/+bug/1811951,2019-03-14
+1812919,1812919,Fix Released,defining more than 5 nameservers to the undercloud results in a deployment failure,https://bugs.launchpad.net/tripleo/+bug/1812919,2019-03-14
+1781860,1781860,Fix Released,tox -edocs Fails with AttributeError: module 'cmd' has no attribute 'Cmd',https://bugs.launchpad.net/murano/+bug/1781860,2019-03-14
+1813810,1813810,Fix Released,Change upgrade options nodes and roles to limit.,https://bugs.launchpad.net/tripleo/+bug/1813810,2019-03-14
+1817365,1817365,Fix Released,ansible-playbook-3 symlink missing on RHEL8,https://bugs.launchpad.net/tripleo/+bug/1817365,2019-03-14
+1811134,1811134,Fix Released,Compute node failing with Designate enabled,https://bugs.launchpad.net/tripleo/+bug/1811134,2019-03-14
+1813053,1813053,Fix Released,mod_wsgi incorrectly configured to use the python2 version always,https://bugs.launchpad.net/tripleo/+bug/1813053,2019-03-14
+1812923,1812923,Fix Released,no package should be installed inside a container,https://bugs.launchpad.net/tripleo/+bug/1812923,2019-03-14
+1809833,1809833,Fix Released,podman: healthcheck services start in failure during deployment (then work fine later),https://bugs.launchpad.net/tripleo/+bug/1809833,2019-03-14
+1805410,1805410,Fix Released,Adding a new compute starts new service containers on controller,https://bugs.launchpad.net/tripleo/+bug/1805410,2019-03-14
+1814870,1814870,Fix Released,all health check timers are triggered at the same time causing process congestion.,https://bugs.launchpad.net/tripleo/+bug/1814870,2019-03-14
+1814764,1814764,Fix Released,Paunch: extend systemd unit flags,https://bugs.launchpad.net/tripleo/+bug/1814764,2019-03-14
+1814230,1814230,Fix Released,paunch failed when no builder to apply,https://bugs.launchpad.net/tripleo/+bug/1814230,2019-03-14
+1813250,1813250,Fix Released,unit test failed,https://bugs.launchpad.net/puppet-murano/+bug/1813250,2019-03-14
+1813250,1813250,Fix Released,unit test failed,https://bugs.launchpad.net/puppet-ironic/+bug/1813250,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-gnocchi/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-vitrage/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-barbican/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-cloudkitty/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-openstack-cookiecutter/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-sahara/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-aodh/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-glance/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-keystone/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-zaqar/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-mistral/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-ec2api/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-neutron/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-heat/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-ironic/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-panko/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-congress/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-ceilometer/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-octavia/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-nova/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-cinder/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-tacker/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-freezer/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-glare/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-senlin/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-manila/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-trove/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-watcher/+bug/1804720,2019-03-14
+1804720,1804720,Fix Released,Deprecate  hash_algorithms option,https://bugs.launchpad.net/puppet-designate/+bug/1804720,2019-03-14
+1804562,1804562,Fix Released,Deprecate check_revocations_for_cached option,https://bugs.launchpad.net/puppet-tacker/+bug/1804562,2019-03-14

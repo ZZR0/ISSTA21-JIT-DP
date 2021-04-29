@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1771168,1771168,Fix Committed,Fix OSSA-2016-009,https://bugs.launchpad.net/fuel/+bug/1771168,2018-06-03
+1644318,1644318,Fix Committed,Linux security limits are not configured,https://bugs.launchpad.net/fuel/+bug/1644318,2018-06-03
+1718187,1718187,Fix Released,Implement neutron-fwaas-dashboard,https://bugs.launchpad.net/openstack-ansible/+bug/1718187,2018-06-01
+1721014,1721014,Fix Released,Include bind9utils during designate installation when needed,https://bugs.launchpad.net/openstack-ansible/+bug/1721014,2018-06-01
+1774297,1774297,Fix Released,Containerized Tempest fail to reach Keystone API,https://bugs.launchpad.net/tripleo/+bug/1774297,2018-06-01
+1584647,1584647,Fix Released,"[SRU] ""Interface monitor is not active"" can be observed at ovs-agent start",https://bugs.launchpad.net/neutron/+bug/1584647,2018-06-01
+1748888,1748888,Fix Released,Incorrect database query when get mtu for network list,https://bugs.launchpad.net/neutron/+bug/1748888,2018-06-01
+1750735,1750735,Fix Released,[OVO] UT fails when setting new_facade to True,https://bugs.launchpad.net/neutron/+bug/1750735,2018-06-01
+1681334,1681334,Fix Released,Fix test failure to due to set_override with enforce_type=True,https://bugs.launchpad.net/cinder/+bug/1681334,2018-06-01
+1704810,1704810,Fix Released,update group status after update group_id in volumes,https://bugs.launchpad.net/cinder/+bug/1704810,2018-06-01
+1706060,1706060,Fix Released,Ceph: Stats are wrong,https://bugs.launchpad.net/cinder/+bug/1706060,2018-06-01
+1683431,1683431,Fix Released,create volume with multiattach > NoneType has no attribute get,https://bugs.launchpad.net/cinder/+bug/1683431,2018-06-01
+1731518,1731518,Fix Released,Disallow unmanage for encrypted volumes,https://bugs.launchpad.net/cinder/+bug/1731518,2018-06-01
+1718762,1718762,Fix Released,BRCD FC lookup service not closing HTTP sessions,https://bugs.launchpad.net/cinder/+bug/1718762,2018-06-01
+1719659,1719659,Fix Released,Dell PS: over-subscription ratio stats,https://bugs.launchpad.net/cinder/+bug/1719659,2018-06-01
+1714209,1714209,Fix Released,NetApp ONTAP drivers reporting incorrect provisioned_capacity_gb,https://bugs.launchpad.net/cinder/+bug/1714209,2018-06-01
+1724929,1724929,Fix Released,ScaleIO Driver - Snapshot usage not included in provisioned_capacity,https://bugs.launchpad.net/cinder/+bug/1724929,2018-06-01
+1720454,1720454,Fix Released,Dell Ps: Extend volume creates unmanaged snapsots,https://bugs.launchpad.net/cinder/+bug/1720454,2018-06-01
+1719580,1719580,Fix Released,Creating multiple simultaneous backups results in many backup failures,https://bugs.launchpad.net/cinder/+bug/1719580,2018-06-01
+1692775,1692775,Fix Released,Cinder-backup service reports as down during backup of large volumes,https://bugs.launchpad.net/cinder/+bug/1692775,2018-06-01
+1726591,1726591,Fix Released,Dell EMC PS: Duplicate ACL records created,https://bugs.launchpad.net/cinder/+bug/1726591,2018-06-01
+1732812,1732812,Fix Released,nimble: fix for unicode characters in volume create,https://bugs.launchpad.net/cinder/+bug/1732812,2018-06-01
+1560655,1560655,Fix Released,IBM FlashSystem driver does not honor create from snapshot volume size,https://bugs.launchpad.net/cinder/+bug/1560655,2018-06-01
+1720147,1720147,Fix Released,K2: Attach fails on systems with duplicate FQDNs,https://bugs.launchpad.net/cinder/+bug/1720147,2018-06-01
+1734505,1734505,Fix Released,HPE 3PAR : Large number of VLUN Templates of 'Matched set' type were created if large number of FC ports were present,https://bugs.launchpad.net/cinder/+bug/1734505,2018-06-01
+1723188,1723188,Fix Released,Flashsystem driver implementation of attached volume backup/clone incompatible with some Flashsystem firmware versions,https://bugs.launchpad.net/cinder/+bug/1723188,2018-06-01
+1681895,1681895,Fix Released,rbd.list_snaps() return a list of dict in backup ceph.py file,https://bugs.launchpad.net/cinder/+bug/1681895,2018-06-01
+1693090,1693090,Fix Released,unit testcase 'test_quota' will fail randomly,https://bugs.launchpad.net/cinder/+bug/1693090,2018-06-01
+1737181,1737181,Fix Released,Chap details of 3par VLUN are not updating when VM is live migrated,https://bugs.launchpad.net/cinder/+bug/1737181,2018-06-01
+1739651,1739651,Fix Released,Failing to attach volume on DELL StorageCenter,https://bugs.launchpad.net/cinder/+bug/1739651,2018-06-01
+1726284,1726284,Fix Released,Duplicate hosts created in Unity Cinder driver,https://bugs.launchpad.net/cinder/+bug/1726284,2018-06-01
+1745183,1745183,Fix Released,Ocata VMAX driver - backward compatibility fix,https://bugs.launchpad.net/cinder/+bug/1745183,2018-06-01
+1771365,1771365,Fix Released,Quadweekly meetings have broken __str__()  methods,https://bugs.launchpad.net/yaml2ical/+bug/1771365,2018-06-01
+1628031,1628031,Fix Released,[OSSA-2017-001] CatchErrors leaks sensitive values in oslo.middleware (CVE-2017-2592),https://bugs.launchpad.net/ossa/+bug/1628031,2018-06-01
+1733376,1733376,Fix Released,l3_ext_gw_mode is not documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733376,2018-05-31
+1735093,1735093,Fix Released,Networking API v2.0 in Networking API Reference,https://bugs.launchpad.net/neutron/+bug/1735093,2018-05-31
+1747995,1747995,Fix Released,api-ref: document all the filters of each resource,https://bugs.launchpad.net/neutron/+bug/1747995,2018-05-31
+1733374,1733374,Fix Released,l3agentscheduler not documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733374,2018-05-31
+1748982,1748982,Fix Released,api-ref: 'tags' is missing in response parameters and sample,https://bugs.launchpad.net/neutron/+bug/1748982,2018-05-31
+1749024,1749024,Fix Released,api-ref: document the list of valid sort_keys,https://bugs.launchpad.net/neutron/+bug/1749024,2018-05-31
+1774435,1774435,Fix Released,Libvirt package dependences broken on RDO Phase 2,https://bugs.launchpad.net/tripleo/+bug/1774435,2018-05-31
+1772393,1772393,Fix Committed,Murano application,https://bugs.launchpad.net/murano/+bug/1772393,2018-05-31
+1762821,1762821,Fix Released,Fail to connect an instance to an existing network,https://bugs.launchpad.net/murano/+bug/1762821,2018-05-31
+1773936,1773936,Fix Released,ci failing on cmd2 pip,https://bugs.launchpad.net/tripleo/+bug/1773936,2018-05-31
+1745343,1745343,Fix Released,"When creating a router port, port update precommit happens before the OVN DB object is created, and we see errors in the logs",https://bugs.launchpad.net/networking-ovn/+bug/1745343,2018-05-31
+1743487,1743487,Fix Released,devstack lib function is_ovn_service_enabled seems not work,https://bugs.launchpad.net/networking-ovn/+bug/1743487,2018-05-31
+1750591,1750591,Fix Released,Admin-deployed qos policy breaks tenant port creation,https://bugs.launchpad.net/neutron/+bug/1750591,2018-05-31
+1774176,1774176,Fix Released,Uninstallable using Python 2 (due to cmd2 dropping Py2 support),https://bugs.launchpad.net/python-cliff/+bug/1774176,2018-05-30
+1746068,1746068,Fix Released,stable/ocata nova on 16.04 (xenial)/lxd 2.0.11 can't pass gate,https://bugs.launchpad.net/openstack-ansible/+bug/1746068,2018-05-30
+1746068,1746068,Fix Released,stable/ocata nova on 16.04 (xenial)/lxd 2.0.11 can't pass gate,https://bugs.launchpad.net/openstack-requirements/+bug/1746068,2018-05-30
+1746068,1746068,Fix Released,stable/ocata nova on 16.04 (xenial)/lxd 2.0.11 can't pass gate,https://bugs.launchpad.net/nova-lxd/+bug/1746068,2018-05-30
+1743310,1743310,Fix Released,Auditor daemon generate zombie process,https://bugs.launchpad.net/swift/+bug/1743310,2018-05-30
+1747689,1747689,Fix Released,DB with empty *_info table hangs servers,https://bugs.launchpad.net/swift/+bug/1747689,2018-05-30
+1668399,1668399,Fix Released,db replicator missing priority handoff options,https://bugs.launchpad.net/swift/+bug/1668399,2018-05-30
+1534212,1534212,Fix Released,per-policy audit location generation,https://bugs.launchpad.net/swift/+bug/1534212,2018-05-30
+1763557,1763557,Fix Released,Replicator logger [Errno 105] No buffer space available,https://bugs.launchpad.net/swift/+bug/1763557,2018-05-30
+1755554,1755554,Fix Released,Percent signs in object names cause trouble for versioned_writes,https://bugs.launchpad.net/swift/+bug/1755554,2018-05-30
+1400939,1400939,Fix Released,LockTimeout exception not caught in container updater process_container,https://bugs.launchpad.net/swift/+bug/1400939,2018-05-30
+1761665,1761665,Fix Released,gnocchi-execution-error-metricd.py,https://bugs.launchpad.net/devstack/+bug/1761665,2018-05-30
+1445089,1445089,Fix Released,allowed-address-pairs broken with l2pop/arp responder and LinuxBridge/VXLAN,https://bugs.launchpad.net/neutron/+bug/1445089,2018-05-30
+1229142,1229142,Fix Released,Object versioning fails when object or version container name contains non-ASCII characters,https://bugs.launchpad.net/swift/+bug/1229142,2018-05-29
+1690775,1690775,Fix Released,Remove special handling for lport/ofport in local controller,https://bugs.launchpad.net/dragonflow/+bug/1690775,2018-05-29
+1736109,1736109,Fix Released,/var/log/containers missing on Swift standalone storage nodes,https://bugs.launchpad.net/tripleo/+bug/1736109,2018-05-29
+1758666,1758666,Fix Released,Update the services release links in admin guide,https://bugs.launchpad.net/openstack-manuals/+bug/1758666,2018-05-29
+1764469,1764469,Fix Released,Install guide NTP Openstack Pike is wrong,https://bugs.launchpad.net/openstack-manuals/+bug/1764469,2018-05-29
+1687074,1687074,Fix Released,"Sometimes ovsdb fails with ""tcp:127.0.0.1:6640: error parsing stream""",https://bugs.launchpad.net/neutron/+bug/1687074,2018-05-29
+1538565,1538565,Fix Released,Guest CPU does not support 1Gb hugepages with explicit models,https://bugs.launchpad.net/nova/+bug/1538565,2018-05-28
+1758104,1758104,Fix Committed,Python client examples don't work,https://bugs.launchpad.net/python-cinderclient/+bug/1758104,2018-05-28
+1430042,1430042,Fix Released,Virtual Machine could not be evacuated because virtual interface creation failed,https://bugs.launchpad.net/nova/+bug/1430042,2018-05-28
+1773381,1773381,Fix Released,Promotion failing to pull image from docker,https://bugs.launchpad.net/tripleo/+bug/1773381,2018-05-27
+1773289,1773289,Fix Released,"[queens/master promotion] fs001 fails overcloud deploy with  'No valid host was found. , Code: 500'",https://bugs.launchpad.net/tripleo/+bug/1773289,2018-05-27
+1692995,1692995,Fix Released,Neutron does not set the device_owner  correctly during LBaaS listener recreate,https://bugs.launchpad.net/octavia/+bug/1692995,2018-05-26
+1654710,1654710,Fix Released,globals.yml not present,https://bugs.launchpad.net/kolla-kubernetes/+bug/1654710,2018-05-25
+1773333,1773333,Fix Released,os_keystone: Installing pip packages fails: cannot import name requests,https://bugs.launchpad.net/openstack-ansible/+bug/1773333,2018-05-25
+1756049,1756049,Fix Released,"Ceilometer deploy failing with error ""'ceilometer_policy_overwriting' not defined",https://bugs.launchpad.net/kolla/+bug/1756049,2018-05-25

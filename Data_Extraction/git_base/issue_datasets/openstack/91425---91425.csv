@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1161572,1161572,Fix Released,lbaas_agent.ini is not installed by setup.py,https://bugs.launchpad.net/neutron/+bug/1161572,2013-04-04
+1159581,1159581,Fix Released,Quantum server throwing: No such RPC function 'report_state',https://bugs.launchpad.net/neutron/+bug/1159581,2013-04-04
+1154895,1154895,Fix Released,Quantum not logging anymore on stderr,https://bugs.launchpad.net/neutron/+bug/1154895,2013-04-04
+1152525,1152525,Fix Released,Typo in exception name,https://bugs.launchpad.net/neutron/+bug/1152525,2013-04-04
+1100476,1100476,Fix Released,No quota for fixed_ips,https://bugs.launchpad.net/neutron/+bug/1100476,2013-04-04
+1154837,1154837,Fix Released,resync with oslo/grizzly branch,https://bugs.launchpad.net/neutron/+bug/1154837,2013-04-04
+1154763,1154763,Fix Released,remove rfc.sh,https://bugs.launchpad.net/neutron/+bug/1154763,2013-04-04
+1153374,1153374,Fix Released,missing - in --config-file,https://bugs.launchpad.net/neutron/+bug/1153374,2013-04-04
+1153132,1153132,Fix Released,Apparent typo in agent loadbalancer test name,https://bugs.launchpad.net/neutron/+bug/1153132,2013-04-04
+1146441,1146441,Fix Released,Delete unused option value check unittests,https://bugs.launchpad.net/neutron/+bug/1146441,2013-04-04
+1138233,1138233,Fix Released,incorrect argument in calling post_json,https://bugs.launchpad.net/neutron/+bug/1138233,2013-04-04
+1138216,1138216,Fix Released,incorrect pathname assert in test_config.py,https://bugs.launchpad.net/neutron/+bug/1138216,2013-04-04
+1137386,1137386,Fix Released,Add UT for LBaaS HAProxy driver,https://bugs.launchpad.net/neutron/+bug/1137386,2013-04-04
+1133100,1133100,Fix Released,packet filter extension in NEC plugin is always enabled even when the backend controller does not support it,https://bugs.launchpad.net/neutron/+bug/1133100,2013-04-04
+1133099,1133099,Fix Released,Provide default api_extensions_path for NEC plugin,https://bugs.launchpad.net/neutron/+bug/1133099,2013-04-04
+1133080,1133080,Fix Released,Import order error in modules,https://bugs.launchpad.net/neutron/+bug/1133080,2013-04-04
+1132908,1132908,Fix Released,Ensure that latest common code is added,https://bugs.launchpad.net/neutron/+bug/1132908,2013-04-04
+1132793,1132793,Fix Released,Default state_path does not appear in quantum.conf,https://bugs.launchpad.net/neutron/+bug/1132793,2013-04-04
+1131469,1131469,Fix Released,provide a default api_extensions_path for nvp_plugin,https://bugs.launchpad.net/neutron/+bug/1131469,2013-04-04
+1112051,1112051,Fix Released,Unittest metaplugin.test_metaplugin cannot run alone,https://bugs.launchpad.net/neutron/+bug/1112051,2013-04-04
+1112024,1112024,Fix Released,Unittest openvswitch.test_ovs_tunnel cannot run alone,https://bugs.launchpad.net/neutron/+bug/1112024,2013-04-04
+1154388,1154388,Fix Released,remove references to netstack in setup.py,https://bugs.launchpad.net/neutron/+bug/1154388,2013-04-04
+1152167,1152167,Fix Released,NVP Plugin: 500 if removing a non-existent interface from a router,https://bugs.launchpad.net/neutron/+bug/1152167,2013-04-04
+1152144,1152144,Fix Released,NVP metadata access must require overlapping IPs,https://bugs.launchpad.net/neutron/+bug/1152144,2013-04-04
+1152136,1152136,Fix Released,metadata access network not removed when router interface subnet is deleted,https://bugs.launchpad.net/neutron/+bug/1152136,2013-04-04
+1152050,1152050,Fix Released,get_sync_data fails if router interface subnet is deleted,https://bugs.launchpad.net/neutron/+bug/1152050,2013-04-04
+1150294,1150294,Fix Released,"Update Brocade plugin to support ""report_state"" rpc call",https://bugs.launchpad.net/neutron/+bug/1150294,2013-04-04
+1148839,1148839,Fix Released,improper formatting in some NVP plugin exceptions,https://bugs.launchpad.net/neutron/+bug/1148839,2013-04-04
+1144370,1144370,Fix Released,log the configuration options for metadata agent and proxy,https://bugs.launchpad.net/neutron/+bug/1144370,2013-04-04
+1144076,1144076,Fix Released,Quantum CLI does not show the default Quotas,https://bugs.launchpad.net/neutron/+bug/1144076,2013-04-04
+1138757,1138757,Fix Released,l3-agent is not working with Metadriver,https://bugs.launchpad.net/neutron/+bug/1138757,2013-04-04
+1138330,1138330,Fix Released,fix update_port to get tenant_id from db rather than request,https://bugs.launchpad.net/neutron/+bug/1138330,2013-04-04
+1137249,1137249,Fix Released,logging outputs in test cases,https://bugs.launchpad.net/neutron/+bug/1137249,2013-04-04
+1135948,1135948,Fix Released,Wrong behavior when a DHCP agent goes down,https://bugs.launchpad.net/neutron/+bug/1135948,2013-04-04
+1135793,1135793,Fix Released,enable agent scheduler for linux bridge plugin,https://bugs.launchpad.net/neutron/+bug/1135793,2013-04-04
+1133318,1133318,Fix Released,Floating IPs and NVP NAT rules not synchronizing,https://bugs.launchpad.net/neutron/+bug/1133318,2013-04-04
+1133253,1133253,Fix Released,Some database accesses in NEC plugin do not support subtransaction,https://bugs.launchpad.net/neutron/+bug/1133253,2013-04-04
+1133064,1133064,Fix Released,provider networks: plugins should specify supported network types,https://bugs.launchpad.net/neutron/+bug/1133064,2013-04-04
+1132852,1132852,Fix Released,Port update without subnet id causes an exception,https://bugs.launchpad.net/neutron/+bug/1132852,2013-04-04
+1132849,1132849,Fix Released,Wrong result of listing network with filter router:external=True and pagination,https://bugs.launchpad.net/neutron/+bug/1132849,2013-04-04
+1130927,1130927,Fix Released,remove external-id and security-group proxy,https://bugs.launchpad.net/neutron/+bug/1130927,2013-04-04
+1130657,1130657,Fix Released,Provide a configuration validation utility for the NVP plugin,https://bugs.launchpad.net/neutron/+bug/1130657,2013-04-04
+1130211,1130211,Fix Released,provider network for L3 gateways (NVP),https://bugs.launchpad.net/neutron/+bug/1130211,2013-04-04
+1130192,1130192,Fix Released,Ensure long Quantum names don't upset NVP API,https://bugs.launchpad.net/neutron/+bug/1130192,2013-04-04
+1129741,1129741,Fix Released,ip_lib does not properly handle existing route for add_gateway,https://bugs.launchpad.net/neutron/+bug/1129741,2013-04-04
+1129417,1129417,Fix Released,lbaas unit test should use same db test base class,https://bugs.launchpad.net/neutron/+bug/1129417,2013-04-04
+1126661,1126661,Fix Released,move cisco qos + credential extension to plugin dir,https://bugs.launchpad.net/neutron/+bug/1126661,2013-04-04
+1124117,1124117,Fix Released,security group extension should be disabled when Noop Firewall driver is used,https://bugs.launchpad.net/neutron/+bug/1124117,2013-04-04
+1116137,1116137,Fix Released,Missing error handle for quota,https://bugs.launchpad.net/neutron/+bug/1116137,2013-04-04
+1103840,1103840,Fix Released,Deletion of DHCP should be notified to the security group rpc,https://bugs.launchpad.net/neutron/+bug/1103840,2013-04-04
+1103838,1103838,Fix Released,iptables_manager should cut off chain name,https://bugs.launchpad.net/neutron/+bug/1103838,2013-04-04
+1102726,1102726,Fix Released,Quantum security group does not work with the debug port,https://bugs.launchpad.net/neutron/+bug/1102726,2013-04-04
+1085276,1085276,Fix Released,The router interface cannot be deleted by using Quantum Metaplugin,https://bugs.launchpad.net/neutron/+bug/1085276,2013-04-04
+1154702,1154702,Fix Released,update OpenStack copyright to reflect assignment to foundation,https://bugs.launchpad.net/neutron/+bug/1154702,2013-04-04
+1154393,1154393,Fix Released,sync code from oslo-incubator grizzly branch,https://bugs.launchpad.net/neutron/+bug/1154393,2013-04-04
+1154255,1154255,Fix Released,create grizzly release migration,https://bugs.launchpad.net/neutron/+bug/1154255,2013-04-04
+1153616,1153616,Fix Released,nvp_port_mapping breaks upgrade from folsom for NVP users,https://bugs.launchpad.net/neutron/+bug/1153616,2013-04-04
+1153585,1153585,Fix Released,Add a migration for plugins which added L3 support in Grizzly,https://bugs.launchpad.net/neutron/+bug/1153585,2013-04-04
+1153578,1153578,Fix Released,branch in alembic migrations,https://bugs.launchpad.net/neutron/+bug/1153578,2013-04-04
+1153366,1153366,Fix Released,port_security migration does not migrate data,https://bugs.launchpad.net/neutron/+bug/1153366,2013-04-04
+1153274,1153274,Fix Released,Hyper-V plugin agent fails when a flat network and VLAN networks are deployed on the same host,https://bugs.launchpad.net/neutron/+bug/1153274,2013-04-04
+1152171,1152171,Fix Released,subnet-delete should fail if the subnet is attached to a router,https://bugs.launchpad.net/neutron/+bug/1152171,2013-04-04
+1150628,1150628,Fix Released,rootwrap filters need update now that dhcp agent uses metadata-proxy,https://bugs.launchpad.net/neutron/+bug/1150628,2013-04-04
+1150475,1150475,Fix Released,isolated network metadata does not work with nvp plugin,https://bugs.launchpad.net/neutron/+bug/1150475,2013-04-04
+1150378,1150378,Fix Released,nvp security groups needs explict egress rules,https://bugs.launchpad.net/neutron/+bug/1150378,2013-04-04
+1149287,1149287,Fix Released,Unable to set quotas for extensions defined ouside of the quota extension,https://bugs.launchpad.net/neutron/+bug/1149287,2013-04-04
+1148133,1148133,Fix Released,New install of Quantum failed,https://bugs.launchpad.net/neutron/+bug/1148133,2013-04-04
+1148017,1148017,Fix Released,[q-meta] QuantumClientException: Second simultaneous read on fileno 11 detected,https://bugs.launchpad.net/neutron/+bug/1148017,2013-04-04
+1144424,1144424,Fix Released,LBaaS:HAProxy driver: monitors expected codes upper bound is missed in config,https://bugs.launchpad.net/neutron/+bug/1144424,2013-04-04
+1143569,1143569,Fix Released,make quantum pep8 version + exceptions match other openstack projects,https://bugs.launchpad.net/neutron/+bug/1143569,2013-04-04
+1143283,1143283,Fix Released,Default behavior of Security groups egress handling has different semantics than ingress,https://bugs.launchpad.net/neutron/+bug/1143283,2013-04-04
+1143195,1143195,Fix Released,let dhcp and l3 agents choose if it need report state,https://bugs.launchpad.net/neutron/+bug/1143195,2013-04-04
+1142133,1142133,Fix Released,Fedora does not support nogroup,https://bugs.launchpad.net/neutron/+bug/1142133,2013-04-04
+1139726,1139726,Fix Released,AttributeError: No such RPC function 'report_state' in l3-agent,https://bugs.launchpad.net/neutron/+bug/1139726,2013-04-04
+1137697,1137697,Fix Released,LBaaS: PortNotFound error when deleting vip object,https://bugs.launchpad.net/neutron/+bug/1137697,2013-04-04

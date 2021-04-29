@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1491207,1491207,Fix Released,dothill driver create_cloned_volume doesn't use src_vref for id,https://bugs.launchpad.net/cinder/+bug/1491207,2015-10-15
+1491175,1491175,Fix Released,3PAR common create_cloned_volume doesn't use src_vref for id,https://bugs.launchpad.net/cinder/+bug/1491175,2015-10-15
+1489575,1489575,Fix Released,Cinder always tries to create volumes in Cinder AZ with same name as Nova AZ,https://bugs.launchpad.net/cinder/+bug/1489575,2015-10-15
+1485484,1485484,Fix Released,Virtual port is not supported in VNX driver,https://bugs.launchpad.net/cinder/+bug/1485484,2015-10-15
+1479530,1479530,Fix Released,emc scaleio uses drv_cfg exe which isn't in volume.filters,https://bugs.launchpad.net/cinder/+bug/1479530,2015-10-15
+1473001,1473001,Fix Released,"""BlockDeviceDriver"" doesn't behave as documented",https://bugs.launchpad.net/cinder/+bug/1473001,2015-10-15
+1495764,1495764,Fix Released,Capability Filter doesn't work when create volume using no-admin user,https://bugs.launchpad.net/cinder/+bug/1495764,2015-10-15
+1495758,1495758,Fix Released,Create Consistency Group with non-admin user failed,https://bugs.launchpad.net/cinder/+bug/1495758,2015-10-15
+1493286,1493286,Fix Released,'GlusterfsDriver' object has no attribute 'migrate_volume',https://bugs.launchpad.net/cinder/+bug/1493286,2015-10-15
+1490041,1490041,Fix Released,The SVC  volume driver is not using all the FC ports for zonig,https://bugs.launchpad.net/cinder/+bug/1490041,2015-10-15
+1489335,1489335,Fix Released,Migration: LVM volume migration may end up with the additional volume in destination VG of on the same host,https://bugs.launchpad.net/cinder/+bug/1489335,2015-10-15
+1489182,1489182,Fix Released,provide mechanism to update provider_id on snapshots during backend init,https://bugs.launchpad.net/cinder/+bug/1489182,2015-10-15
+1486286,1486286,Fix Released,'qos_specs' does not get populated by Cinder during scheduler volume placement,https://bugs.launchpad.net/cinder/+bug/1486286,2015-10-15
+1473768,1473768,Fix Released,config generator generates invalid configuration file,https://bugs.launchpad.net/cinder/+bug/1473768,2015-10-15
+1494877,1494877,Fix Released,"Making opt names consistent bug fix  broke dothill, hpmsa and lenovo drivers",https://bugs.launchpad.net/cinder/+bug/1494877,2015-10-15
+1492023,1492023,Fix Released,"after migrate volume to 3PAR, fails to find volume",https://bugs.launchpad.net/cinder/+bug/1492023,2015-10-15
+1491585,1491585,Fix Released,volume ref in VolumeDriver replication_failover and list_replication_targets are missing 'name' property,https://bugs.launchpad.net/cinder/+bug/1491585,2015-10-15
+1490935,1490935,Fix Released,Check before add lun to QoS in Huawei driver,https://bugs.launchpad.net/cinder/+bug/1490935,2015-10-15
+1489931,1489931,Fix Released,V2 get_replication_updates signature doesn't match between manager call and drivers declaration,https://bugs.launchpad.net/cinder/+bug/1489931,2015-10-15
+1489303,1489303,Fix Released,Fix handling of volume copy for ‘virtual’ volumes,https://bugs.launchpad.net/cinder/+bug/1489303,2015-10-15
+1488857,1488857,Fix Released,volume status should be updated after terminate_connection is done,https://bugs.launchpad.net/cinder/+bug/1488857,2015-10-15
+1488373,1488373,Fix Released,"With LB, pagination url become incorrect",https://bugs.launchpad.net/cinder/+bug/1488373,2015-10-15
+1487510,1487510,Fix Released,Parameter osapi_max_limit is always used by default even it's set in the configuration file,https://bugs.launchpad.net/cinder/+bug/1487510,2015-10-15
+1487165,1487165,Fix Released,Avoid return of volume metadata in DotHill driver,https://bugs.launchpad.net/cinder/+bug/1487165,2015-10-15
+1487151,1487151,Fix Released,There should be a check in place when adding a volume that is already in a CG to a new CG,https://bugs.launchpad.net/cinder/+bug/1487151,2015-10-15
+1486744,1486744,Fix Released,SolidFire create cache-account isn't parsing response correctly,https://bugs.launchpad.net/cinder/+bug/1486744,2015-10-15
+1486289,1486289,Fix Released,Cinder api get_all queries extra_specs but does not return them,https://bugs.launchpad.net/cinder/+bug/1486289,2015-10-15
+1486245,1486245,Fix Released,zfssa test_request test failure,https://bugs.launchpad.net/cinder/+bug/1486245,2015-10-15
+1486160,1486160,Fix Released,Add https options and minor code changes,https://bugs.launchpad.net/cinder/+bug/1486160,2015-10-15
+1485846,1485846,Fix Released,Several keys in dict at test code are duplicated,https://bugs.launchpad.net/cinder/+bug/1485846,2015-10-15
+1485783,1485783,Fix Released,Consistency Group created from a cgsnapshot won't delete unless the cgsnapshot source is deleted first,https://bugs.launchpad.net/cinder/+bug/1485783,2015-10-15
+1485766,1485766,Fix Released,"cinder force_detach does not take a connector, so it is useless",https://bugs.launchpad.net/cinder/+bug/1485766,2015-10-15
+1485435,1485435,Fix Released,Remove a method name delete_volume_admin_metadata in Cinder,https://bugs.launchpad.net/cinder/+bug/1485435,2015-10-15
+1484284,1484284,Fix Released,Dell Eqlx: Use generic option ssh_timeout and deprecate eql_cli_timeout,https://bugs.launchpad.net/cinder/+bug/1484284,2015-10-15
+1484035,1484035,Fix Released,Cinder doesn't work with tox version 1.6,https://bugs.launchpad.net/cinder/+bug/1484035,2015-10-15
+1483916,1483916,Fix Released,Pure volume drivers cannot create volume from cgsnapshot,https://bugs.launchpad.net/cinder/+bug/1483916,2015-10-15
+1483157,1483157,Fix Released,In-use retype fails if source deletion takes more than rpc timeout seconds,https://bugs.launchpad.net/cinder/+bug/1483157,2015-10-15
+1483155,1483155,Fix Released,On migrate we lose track of volume if source deletion failed,https://bugs.launchpad.net/cinder/+bug/1483155,2015-10-15
+1482741,1482741,Fix Released,3PAR: CPG performance data inaccessible in filter/goodness function,https://bugs.launchpad.net/cinder/+bug/1482741,2015-10-15
+1482619,1482619,Fix Released,Replace boolean expression with not fields,https://bugs.launchpad.net/cinder/+bug/1482619,2015-10-15
+1482571,1482571,Fix Released,VNX driver needs additional parameters in create_consistencygroup_from_src,https://bugs.launchpad.net/cinder/+bug/1482571,2015-10-15
+1482548,1482548,Fix Released,backup init_host cleanup skips vols without attachments,https://bugs.launchpad.net/cinder/+bug/1482548,2015-10-15
+1482373,1482373,Fix Released,Incorrect order of assertEqual parameters in scheduler unit tests,https://bugs.launchpad.net/cinder/+bug/1482373,2015-10-15
+1482184,1482184,Fix Released,Invalid order of parameters in docstring for restore factory methods for both v1 and v2,https://bugs.launchpad.net/cinder/+bug/1482184,2015-10-15
+1482128,1482128,Fix Released,Wrong usage in CinderException,https://bugs.launchpad.net/cinder/+bug/1482128,2015-10-15
+1482044,1482044,Fix Released,X-IO volume driver should wait for volume deletion to complete,https://bugs.launchpad.net/cinder/+bug/1482044,2015-10-15
+1482017,1482017,Fix Released,VNX driver: Return multiple iSCSI portals,https://bugs.launchpad.net/cinder/+bug/1482017,2015-10-15
+1480361,1480361,Fix Released,test_backup_nfs test cases using compression timeout on processor constrained systems,https://bugs.launchpad.net/cinder/+bug/1480361,2015-10-15
+1479897,1479897,Fix Released,SolidFire template account ignores account-prefix,https://bugs.launchpad.net/cinder/+bug/1479897,2015-10-15
+1479598,1479598,Fix Released,Mirror change in api volumes,https://bugs.launchpad.net/cinder/+bug/1479598,2015-10-15
+1479170,1479170,Fix Released,is_public should be checked when creating volume type,https://bugs.launchpad.net/cinder/+bug/1479170,2015-10-15
+1479072,1479072,Fix Released,Can't attach more than 32 targets using HNAS iSCSI driver,https://bugs.launchpad.net/cinder/+bug/1479072,2015-10-15
+1478758,1478758,Fix Released,"change ""create.end"" to ""manage_existing.end"" when process of managing existing volume is finished",https://bugs.launchpad.net/cinder/+bug/1478758,2015-10-15
+1478432,1478432,Fix Released,NetApp SSC job does not run periodically,https://bugs.launchpad.net/cinder/+bug/1478432,2015-10-15
+1477820,1477820,Fix Released,Adding the mock method cases into create_volume for IBM FlashSystem,https://bugs.launchpad.net/cinder/+bug/1477820,2015-10-15
+1476859,1476859,Fix Released,Nimble driver version is (N/A) in the volume.log,https://bugs.launchpad.net/cinder/+bug/1476859,2015-10-15
+1475739,1475739,Fix Released,requirements.txt includes unnecessary oslo.vmware,https://bugs.launchpad.net/cinder/+bug/1475739,2015-10-15
+1475007,1475007,Fix Released,HNAS iSCSI Driver errors in concurrent scenarios,https://bugs.launchpad.net/cinder/+bug/1475007,2015-10-15
+1473757,1473757,Fix Released,Sheepdog driver doesn't set driver version,https://bugs.launchpad.net/cinder/+bug/1473757,2015-10-15
+1471999,1471999,Fix Released,"policy.json missing ""volume_extension:services:update"" rule",https://bugs.launchpad.net/cinder/+bug/1471999,2015-10-15
+1469581,1469581,Fix Released,Flashsystem need to check I/T map in terminate_connection,https://bugs.launchpad.net/cinder/+bug/1469581,2015-10-15
+1468949,1468949,Fix Released,Tintri driver to associate cinder snapshot id to tintri id,https://bugs.launchpad.net/cinder/+bug/1468949,2015-10-15
+1465967,1465967,Fix Released,qos_specs create api allows whitespaces as name,https://bugs.launchpad.net/cinder/+bug/1465967,2015-10-15
+1463379,1463379,Fix Released,quota-class-update api return 500 error if value is above mysql INT type,https://bugs.launchpad.net/cinder/+bug/1463379,2015-10-15
+1463341,1463341,Fix Released,All backup objects were deleted in a container,https://bugs.launchpad.net/cinder/+bug/1463341,2015-10-15
+1463214,1463214,Fix Released,Nimble driver snap-quota should be unlimited instead of the fix size of volume,https://bugs.launchpad.net/cinder/+bug/1463214,2015-10-15
+1460156,1460156,Fix Released,ZFSSA drivers' restclient.py needs to fix PEP 476 and debug format messages,https://bugs.launchpad.net/cinder/+bug/1460156,2015-10-15
+1455043,1455043,Fix Released,Backup Metadata Import is broken,https://bugs.launchpad.net/cinder/+bug/1455043,2015-10-15
+1435158,1435158,Fix Released,cinder backup-list not support --all-tenants option,https://bugs.launchpad.net/cinder/+bug/1435158,2015-10-15
+1404339,1404339,Fix Released,Unit tests for zfssa driver don't actually check anything,https://bugs.launchpad.net/cinder/+bug/1404339,2015-10-15
+1486142,1486142,Fix Released,Cinder retry function does not accept random periods,https://bugs.launchpad.net/cinder/+bug/1486142,2015-10-15
+1478446,1478446,Fix Released,SimpleScheduler has been deprecated for three releases,https://bugs.launchpad.net/cinder/+bug/1478446,2015-10-15
+1475738,1475738,Fix Released,Cinder VMDK driver : uuid of VMDK disk file needs to be the same as of corresponding Cinder volume ID,https://bugs.launchpad.net/cinder/+bug/1475738,2015-10-15
+1461718,1461718,Fix Released,"switch from urllib to requests in DotHill Drivers, and also use url_safe resource names to communicate to array.",https://bugs.launchpad.net/cinder/+bug/1461718,2015-10-15
+1407162,1407162,Fix Released,Enable Cinder hacking checks,https://bugs.launchpad.net/cinder/+bug/1407162,2015-10-15

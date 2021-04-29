@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1732928,1732928,Fix Released,Fail to generate glance_api config files when using NFS backend,https://bugs.launchpad.net/tripleo/+bug/1732928,2017-12-09
+1717292,1717292,Fix Released,downloaded deploy steps playbook starts at step 0,https://bugs.launchpad.net/tripleo/+bug/1717292,2017-12-09
+1734135,1734135,Fix Released,os-net-config special handling condition during upgrade is wrong.,https://bugs.launchpad.net/tripleo/+bug/1734135,2017-12-09
+1732479,1732479,Fix Released,Re-enable libvirt TLS with SASL auth,https://bugs.launchpad.net/tripleo/+bug/1732479,2017-12-09
+1733966,1733966,Fix Released,"docker: nova disover hosts is not executed during a ""scale out""",https://bugs.launchpad.net/tripleo/+bug/1733966,2017-12-09
+1733924,1733924,Fix Released,Ocata -> Pike overcloud upgrade:  upgrade-non-controller scripts fails with: The conditional check 'not os_net_config_need_upgrade.stdout and os_net_config_has_config.rc == 0' failed. The e rror was: error while evaluating conditional (not os_net_config_need_upgrade.stdout and os_net_config_has_config.rc == 0): 'dict object' has no attribute 'stdout,https://bugs.launchpad.net/tripleo/+bug/1733924,2017-12-09
+1734114,1734114,Fix Released,"After overcloud update is finished, scale attempts run the wrong ceph-ansible playbook",https://bugs.launchpad.net/tripleo/+bug/1734114,2017-12-09
+1734268,1734268,Fix Released,swift-recon not working on containerized deployment,https://bugs.launchpad.net/tripleo/+bug/1734268,2017-12-09
+1734976,1734976,Fix Released,containerized ovs agent started in step4 instead of step5,https://bugs.launchpad.net/tripleo/+bug/1734976,2017-12-09
+1735259,1735259,Fix Released,"Redis replication with tls doesnt work, so lets disable it oob",https://bugs.launchpad.net/tripleo/+bug/1735259,2017-12-09
+1735698,1735698,Fix Released,containerized HA rabbitmq stops on re-deploy if lsns fails,https://bugs.launchpad.net/tripleo/+bug/1735698,2017-12-09
+1717482,1717482,Fix Released,The introspect workflow for the retry limit is badly formatted,https://bugs.launchpad.net/tripleo/+bug/1717482,2017-12-09
+1733303,1733303,Fix Released,Introspection failures are ignored,https://bugs.launchpad.net/tripleo/+bug/1733303,2017-12-09
+1723428,1723428,Fix Released,Change the ceph-ansible playbook on overcloud updates,https://bugs.launchpad.net/tripleo/+bug/1723428,2017-12-09
+1732888,1732888,Fix Released,tripleo-packages upgrade_task conditional ordering leads to error,https://bugs.launchpad.net/tripleo/+bug/1732888,2017-12-09
+1734118,1734118,Fix Released,Ocata to Pike upgrade for non controllers error for UpgradeRemoveUnusedPackages,https://bugs.launchpad.net/tripleo/+bug/1734118,2017-12-09
+1734108,1734108,Fix Released,openstack overcloud update does not preserve roles_data.yaml,https://bugs.launchpad.net/tripleo/+bug/1734108,2017-12-09
+1735330,1735330,Fix Released,resource_registry is not updated correctly during minor update causing puppet to run,https://bugs.launchpad.net/tripleo/+bug/1735330,2017-12-09
+1735500,1735500,Fix Released,tripleo-common containers images points to latest in pike,https://bugs.launchpad.net/tripleo/+bug/1735500,2017-12-09
+1704380,1704380,Fix Released,.tripleo/history created when running unit tests,https://bugs.launchpad.net/tripleo/+bug/1704380,2017-12-09
+1732751,1732751,Fix Released,python-tripleoclient package failed to build due to already existing ~/.tripleo,https://bugs.launchpad.net/tripleo/+bug/1732751,2017-12-09
+1734307,1734307,Fix Released,Switch default playbook for ceph update to site-docker.yml,https://bugs.launchpad.net/tripleo/+bug/1734307,2017-12-09
+1732497,1732497,Fix Released,No output from Pike minor update ansible-playbook calls,https://bugs.launchpad.net/tripleo/+bug/1732497,2017-12-09
+1734712,1734712,Fix Released,Increase timeout for python-tripleo client for scale-down operation,https://bugs.launchpad.net/tripleo/+bug/1734712,2017-12-09
+1734957,1734957,Fix Released,zaqar throw a ServiceUnavailableError  on minor update,https://bugs.launchpad.net/tripleo/+bug/1734957,2017-12-09
+1732010,1732010,Fix Released,CI: tripleoclient package build fails because unit tests fail because tmp file exists,https://bugs.launchpad.net/tripleo/+bug/1732010,2017-12-09
+1733348,1733348,Fix Released,Restarting an HA node is potentially racy since pike,https://bugs.launchpad.net/tripleo/+bug/1733348,2017-12-09
+1721054,1721054,Fix Released,Ceilometer can't find nova instance due to host name mismatch,https://bugs.launchpad.net/tripleo/+bug/1721054,2017-12-09
+1737042,1737042,Fix Released,ERROR! the role 'tripleo-bootstrap' was not found in /var/lib/mistral roles path,https://bugs.launchpad.net/tripleo/+bug/1737042,2017-12-09
+1733873,1733873,Fix Released,Undercloud_undercloud_node_name does not allow to alter endpoints FQDNs for containerized undercloud,https://bugs.launchpad.net/tripleo/+bug/1733873,2017-12-08
+1733837,1733837,Fix Released,Compute only stack fail to create,https://bugs.launchpad.net/tripleo/+bug/1733837,2017-12-08
+1724471,1724471,Fix Released,[Pike] lbaas activation doesn't enable_lb in horizon,https://bugs.launchpad.net/tripleo/+bug/1724471,2017-12-08
+1730125,1730125,Fix Released,Error downloading packages is failing undercloud install in the gate queue,https://bugs.launchpad.net/tripleo/+bug/1730125,2017-12-08
+1701501,1701501,Fix Released,Ocata -> Pike overcloud upgrade: when migrating to containers we should remove the rpm packages from host,https://bugs.launchpad.net/tripleo/+bug/1701501,2017-12-08
+1701485,1701485,Fix Released,Ocata -> Pike pacemaker enabled overcloud fails during db_syncs because /var/lib/mysql/ is not accessible by mysql,https://bugs.launchpad.net/tripleo/+bug/1701485,2017-12-08
+1727406,1727406,Fix Released,Zaqar  subscriptions failed to report deployment error,https://bugs.launchpad.net/tripleo/+bug/1727406,2017-12-08
+1732829,1732829,Fix Released,disable long running tempest jobs for doc changes,https://bugs.launchpad.net/congress/+bug/1732829,2017-12-08
+1732851,1732851,Fix Released,devstack failing on single node/process congress deployment,https://bugs.launchpad.net/congress/+bug/1732851,2017-12-08
+1733268,1733268,Fix Released,gate: devstack failing intermittently on unbale to find aes key file,https://bugs.launchpad.net/congress/+bug/1733268,2017-12-08
+1731141,1731141,Fix Released,congress-devstack-py35-api-mysql fails on gate,https://bugs.launchpad.net/congress/+bug/1731141,2017-12-08
+1681577,1681577,Fix Released,add python 3.5 integration test jobs,https://bugs.launchpad.net/congress/+bug/1681577,2017-12-08
+1724714,1724714,Fix Released,Register and Document Policy in Code,https://bugs.launchpad.net/congress/+bug/1724714,2017-12-08
+1716942,1716942,Fix Released,networking-sfc: cannot set a flow classifier on an existing port chain,https://bugs.launchpad.net/python-neutronclient/+bug/1716942,2017-12-08
+1719584,1719584,Fix Released,networking-sfc: dictionary parameters do not work,https://bugs.launchpad.net/python-neutronclient/+bug/1719584,2017-12-08
+1724187,1724187,Fix Released,networking-sfc: port pair groups order is not preserved in port chain,https://bugs.launchpad.net/python-neutronclient/+bug/1724187,2017-12-08
+1708687,1708687,Fix Released,OS_AUTH_TYPE env var not working for noauth,https://bugs.launchpad.net/python-cinderclient/+bug/1708687,2017-12-08
+1715732,1715732,Fix Released,VolumeAttachmentManager methods aren't using cinderclient.api_versions.wraps decorator for microversion boundaries,https://bugs.launchpad.net/python-cinderclient/+bug/1715732,2017-12-08
+1729530,1729530,Fix Released,Incorrect indent Sahara Installation Guide in sahara,https://bugs.launchpad.net/sahara/+bug/1729530,2017-12-08
+1693891,1693891,Fix Released,Remove use_neutron from config,https://bugs.launchpad.net/sahara/+bug/1693891,2017-12-08
+1736671,1736671,Fix Released,sahara cluster scaling validation error,https://bugs.launchpad.net/sahara/+bug/1736671,2017-12-08
+1715298,1715298,Fix Released,is_service_enabled watcher-dashboard return False(1) in devstack,https://bugs.launchpad.net/watcher/+bug/1715298,2017-12-08
+1709771,1709771,Fix Released,OSC - LB delete with children returns Bad Request (HTTP 400),https://bugs.launchpad.net/octavia/+bug/1709771,2017-12-08
+1706078,1706078,Fix Released,Code is breaking if try to create health monitor with --delay=3000000000000,https://bugs.launchpad.net/octavia/+bug/1706078,2017-12-08
+1611509,1611509,Fix Released,"lbaasv2 doesn't support ""https"" keystone endpoint",https://bugs.launchpad.net/octavia/+bug/1611509,2017-12-08
+1596660,1596660,Fix Released,Neutron LBaaSv2 API needs pass-through to new OpenStack LBaaS API,https://bugs.launchpad.net/octavia/+bug/1596660,2017-12-08
+1726736,1726736,Fix Released,"""no auth token"" debug logs are confusing",https://bugs.launchpad.net/keystone/+bug/1726736,2017-12-08
+1730270,1730270,Fix Released,"keystone raise 500 error when authenticate with ""mapped""",https://bugs.launchpad.net/keystone/+bug/1730270,2017-12-08
+1727099,1727099,Fix Released,Change password error history message count is wrong,https://bugs.launchpad.net/keystone/+bug/1727099,2017-12-08
+1734244,1734244,Fix Released,keystone raise 500 error when create trust with invalid role key,https://bugs.launchpad.net/keystone/+bug/1734244,2017-12-08
+1524030,1524030,Fix Released,Reduce revocation events for performance improvement,https://bugs.launchpad.net/keystone/+bug/1524030,2017-12-08
+1734871,1734871,Fix Released,overcloud deployment fails on mistral action DeployStackAction,https://bugs.launchpad.net/keystone/+bug/1734871,2017-12-08
+1726203,1726203,Fix Released,exception.ConstraintCheck in get_or_create_project(),https://bugs.launchpad.net/barbican/+bug/1726203,2017-12-08
+1727667,1727667,Fix Released,Database session needs to rollback when inserting the same data into projects table,https://bugs.launchpad.net/barbican/+bug/1727667,2017-12-08
+1735295,1735295,Fix Released,Nexus RESTAPI Client Improvements,https://bugs.launchpad.net/networking-cisco/+bug/1735295,2017-12-08
+1726646,1726646,Fix Released,API ref Doc not updated for scoring engine API,https://bugs.launchpad.net/watcher/+bug/1726646,2017-12-08
+1726345,1726345,Fix Released,Can't cancell CONTINUOUS audit,https://bugs.launchpad.net/watcher/+bug/1726345,2017-12-08
+1728476,1728476,Fix Released,live_migrate_instance can't return quickly when live-migrate failed,https://bugs.launchpad.net/watcher/+bug/1728476,2017-12-08
+1731155,1731155,Fix Released,UserWarning: No .stestr.conf file found in the CWD,https://bugs.launchpad.net/watcher/+bug/1731155,2017-12-08
+1732849,1732849,Fix Released,Unable to get scoped data model because audit_scope is not getting updated in CDM collector,https://bugs.launchpad.net/watcher/+bug/1732849,2017-12-08
+1735180,1735180,Fix Released,ceilometerclient-deprecation,https://bugs.launchpad.net/watcher/+bug/1735180,2017-12-08
+1736624,1736624,Fix Released,Migrate action with migration_type 'cold' does not work,https://bugs.launchpad.net/watcher/+bug/1736624,2017-12-08
+1728477,1728477,Fix Released,Server with PAUSE status can also live-migrate,https://bugs.launchpad.net/watcher/+bug/1728477,2017-12-08
+1717582,1717582,Fix Released,fullstack job failing to create namespace because it's already exists,https://bugs.launchpad.net/neutron/+bug/1717582,2017-12-08
+1714251,1714251,Fix Released,router_centralized_snat not removed when router migrated from DVR to HA,https://bugs.launchpad.net/neutron/+bug/1714251,2017-12-08
+1714796,1714796,Fix Released,"Router interface not updated during DVR->HA, HA->DVR migratons",https://bugs.launchpad.net/neutron/+bug/1714796,2017-12-08

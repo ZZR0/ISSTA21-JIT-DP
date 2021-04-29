@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1687429,1687429,Fix Released,keystone_authtoken v3 options are missing,https://bugs.launchpad.net/mistral/+bug/1687429,2018-04-09
+1688767,1688767,Fix Released,baremetal introspection workflow fails with new mistral,https://bugs.launchpad.net/tripleo/+bug/1688767,2018-04-09
+1696128,1696128,Fix Released,unable to access a mistral env using mistral.environments_get,https://bugs.launchpad.net/mistral/+bug/1696128,2018-04-09
+1757918,1757918,Fix Released,incorrect URL in help text,https://bugs.launchpad.net/python-glanceclient/+bug/1757918,2018-04-09
+1755015,1755015,Fix Released,Change keystone-specs webpage to openstackdocstheme,https://bugs.launchpad.net/keystone/+bug/1755015,2018-04-09
+1755840,1755840,Fix Released,'computes_need_external_bridge' logic is broken,https://bugs.launchpad.net/kolla-ansible/+bug/1755840,2018-04-09
+1700943,1700943,Fix Released,instack-haproxy-cert-update loop,https://bugs.launchpad.net/tripleo/+bug/1700943,2018-04-09
+1455561,1455561,Fix Released,Tempest leaking account credentials,https://bugs.launchpad.net/tempest/+bug/1455561,2018-04-09
+1698458,1698458,Fix Released,Validate security groups at zun-api,https://bugs.launchpad.net/zun/+bug/1698458,2018-04-08
+1360446,1360446,Fix Released,client connection leak to memcached under eventlet due to threadlocal,https://bugs.launchpad.net/keystone/+bug/1360446,2018-04-06
+1360446,1360446,Fix Released,client connection leak to memcached under eventlet due to threadlocal,https://bugs.launchpad.net/keystonemiddleware/+bug/1360446,2018-04-06
+1736875,1736875,Fix Released,Keystone raise 500 error when authorize request token with invalid body,https://bugs.launchpad.net/keystone/+bug/1736875,2018-04-06
+1747607,1747607,Fix Released,os_magnum doesn't pass functional tests in Queens,https://bugs.launchpad.net/openstack-ansible/+bug/1747607,2018-04-06
+1678165,1678165,Fix Released,dynamic_inventory.py container_mtu bug,https://bugs.launchpad.net/openstack-ansible/+bug/1678165,2018-04-06
+1660430,1660430,Fix Released,Mistral client error when tenant/project ID and name are both set,https://bugs.launchpad.net/mistral/+bug/1660430,2018-04-06
+1527028,1527028,Fix Released,mistral task-list get stuck,https://bugs.launchpad.net/mistral/+bug/1527028,2018-04-06
+1506199,1506199,Fix Released,failures in unit tests when building Debian package,https://bugs.launchpad.net/mistral/+bug/1506199,2018-04-06
+1760211,1760211,Fix Released,masquerading rules format isn't correct for hiera,https://bugs.launchpad.net/tripleo/+bug/1760211,2018-04-06
+1752036,1752036,Fix Released,overcloud deploy fails if any container image pull fails,https://bugs.launchpad.net/paunch/+bug/1752036,2018-04-05
+1752036,1752036,Fix Released,overcloud deploy fails if any container image pull fails,https://bugs.launchpad.net/tripleo/+bug/1752036,2018-04-05
+1761542,1761542,Fix Released,python-tripleoclient undercloud.conf.sample permissions are too tight,https://bugs.launchpad.net/tripleo/+bug/1761542,2018-04-05
+1588460,1588460,Fix Released,Move path-id generation from ovs driver to plugin,https://bugs.launchpad.net/networking-sfc/+bug/1588460,2018-04-05
+1587486,1587486,Fix Released,Support Service Graphs (SFC Encapsulation),https://bugs.launchpad.net/networking-sfc/+bug/1587486,2018-04-05
+1672108,1672108,Fix Released,unit test failure due to changes in cmd2 0.7,https://bugs.launchpad.net/python-cliff/+bug/1672108,2018-04-05
+1720115,1720115,Fix Released,CSV formatter not working with unicode,https://bugs.launchpad.net/python-cliff/+bug/1720115,2018-04-05
+1760407,1760407,Fix Released,Data privacy concerns in Security Guide,https://bugs.launchpad.net/ossp-security-documentation/+bug/1760407,2018-04-05
+1580728,1580728,Fix Released,UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 386: ordinal not in range(128) in nova.virt.libvirt.vif:unplug with unicode instance.display_name,https://bugs.launchpad.net/nova/+bug/1580728,2018-04-05
+1614344,1614344,Fix Released,retype in-use volumes: DiscoveryFailure,https://bugs.launchpad.net/cinder/+bug/1614344,2018-04-05
+1495537,1495537,Fix Released,Remove ERB template usage for ML2 Cisco Nexus mech driver config,https://bugs.launchpad.net/puppet-neutron/+bug/1495537,2018-04-04
+1480277,1480277,Fix Released,linuxbridge agent module in Kilo branch is broken,https://bugs.launchpad.net/puppet-neutron/+bug/1480277,2018-04-04
+1472425,1472425,Fix Released,Neutron agents don't restart when packages updated,https://bugs.launchpad.net/puppet-neutron/+bug/1472425,2018-04-04
+1612009,1612009,Fix Released,purge_config not working for some classes,https://bugs.launchpad.net/puppet-neutron/+bug/1612009,2018-04-04
+1612009,1612009,Fix Released,purge_config not working for some classes,https://bugs.launchpad.net/puppet-nova/+bug/1612009,2018-04-04
+1612009,1612009,Fix Released,purge_config not working for some classes,https://bugs.launchpad.net/puppet-openstacklib/+bug/1612009,2018-04-04
+1630365,1630365,Fix Released,nova-placement-api support,https://bugs.launchpad.net/puppet-nova/+bug/1630365,2018-04-04
+1675649,1675649,Fix Released,Move pci configuration to 'pci' group from default,https://bugs.launchpad.net/puppet-nova/+bug/1675649,2018-04-04
+1567157,1567157,Fix Released,nova::network::neutron should set use_neutron=true,https://bugs.launchpad.net/puppet-nova/+bug/1567157,2018-04-04
+1709916,1709916,Fix Released,RHEL registration broken due to conditions syntax in UpdateDeploymentAfterRHELRegistration,https://bugs.launchpad.net/tripleo/+bug/1709916,2018-04-04
+1588342,1588342,Fix Released,Disabled users are disabled at every puppet run,https://bugs.launchpad.net/puppet-keystone/+bug/1588342,2018-04-04
+1493450,1493450,Fix Released,bad indirection performance with openstack resources,https://bugs.launchpad.net/puppet-keystone/+bug/1493450,2018-04-04
+1649389,1649389,Fix Released,stack.sh doesn't support share nova instance path,https://bugs.launchpad.net/devstack/+bug/1649389,2018-04-04
+1492848,1492848,Fix Released,able to use wrong resource name,https://bugs.launchpad.net/puppet-keystone/+bug/1492848,2018-04-04
+1492843,1492843,Fix Released,domain name from id lookups return empty,https://bugs.launchpad.net/puppet-keystone/+bug/1492843,2018-04-04
+1483776,1483776,Fix Released,keystone wsgi apache settings missing log formats / options,https://bugs.launchpad.net/puppet-keystone/+bug/1483776,2018-04-04
+1492846,1492846,Fix Released,able to use wrong value for default_domain_id,https://bugs.launchpad.net/puppet-keystone/+bug/1492846,2018-04-04
+1621774,1621774,Fix Released,Comment regarding log_file parameter is incorrect,https://bugs.launchpad.net/puppet-glance/+bug/1621774,2018-04-04
+1548515,1548515,Fix Released,glance acceptance failing after removal of keystone auth token,https://bugs.launchpad.net/puppet-glance/+bug/1548515,2018-04-04
+1627824,1627824,Fix Released,glance_image  provider uses v1 of the api,https://bugs.launchpad.net/puppet-glance/+bug/1627824,2018-04-04
+1506061,1506061,Fix Released,Modules should use *::kestone::auth default values for service names  from Keystone's default catalog,https://bugs.launchpad.net/puppet-glance/+bug/1506061,2018-04-04
+1506061,1506061,Fix Released,Modules should use *::kestone::auth default values for service names  from Keystone's default catalog,https://bugs.launchpad.net/puppet-cinder/+bug/1506061,2018-04-04
+1506061,1506061,Fix Released,Modules should use *::kestone::auth default values for service names  from Keystone's default catalog,https://bugs.launchpad.net/puppet-nova/+bug/1506061,2018-04-04
+1671015,1671015,Fix Released,Ubuntu Xenial is not supported by the current stable/mitaka branch,https://bugs.launchpad.net/puppet-nova/+bug/1671015,2018-04-04
+1755575,1755575,Fix Released,py35 job intermitted failed,https://bugs.launchpad.net/python-neutronclient/+bug/1755575,2018-04-03
+1592043,1592043,Fix Released,os-brick 1.4.0 increases volume setup failure rates,https://bugs.launchpad.net/nova/+bug/1592043,2018-04-03
+1729720,1729720,Fix Released,Multiple IP addresses on router gateway ports,https://bugs.launchpad.net/networking-vpp/+bug/1729720,2018-04-03
+1719517,1719517,Fix Released,Ceilometer policy.json includes python unicode encoding,https://bugs.launchpad.net/openstack-ansible/+bug/1719517,2018-04-03
+1760219,1760219,Fix Released,Issues with osa-ops mnaio service config with existing entries,https://bugs.launchpad.net/openstack-ansible/+bug/1760219,2018-04-03
+1698172,1698172,Fix Released,ovb-containers job logs excessive amounts of data,https://bugs.launchpad.net/tripleo/+bug/1698172,2018-04-03
+1705521,1705521,Fix Released,[os_keystone] uwsgi process segfaults on openSUSE,https://bugs.launchpad.net/openstack-ansible/+bug/1705521,2018-04-03
+1365275,1365275,Fix Released,Leverage novaclient.openstack.common.importutils import_class,https://bugs.launchpad.net/python-novaclient/+bug/1365275,2018-04-03
+1434172,1434172,Fix Released,security group create errors without description,https://bugs.launchpad.net/python-openstackclient/+bug/1434172,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-mistral/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-glare/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-gnocchi/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-openstack-cookiecutter/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-watcher/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-tacker/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-cloudkitty/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-panko/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-heat/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-trove/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-glance/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-aodh/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-octavia/+bug/1717144,2018-04-03
+1717144,1717144,Fix Released,Deprecate revocation_cache_time option,https://bugs.launchpad.net/puppet-ec2api/+bug/1717144,2018-04-03

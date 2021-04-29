@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1251152,1251152,Fix Released,create instance with ephemeral disk fails,https://bugs.launchpad.net/nova/+bug/1251152,2014-04-17
+1250763,1250763,Fix Released,Users with admin role in Nova should not re-authenticate with Neutron,https://bugs.launchpad.net/nova/+bug/1250763,2014-04-17
+1247526,1247526,Fix Released,libvirt evacuate(shared storage) fails w/ Permission denied on disk.config,https://bugs.launchpad.net/nova/+bug/1247526,2014-04-17
+1246592,1246592,Fix Released,Nova live migration failed due to OLE error,https://bugs.launchpad.net/nova/+bug/1246592,2014-04-17
+1244311,1244311,Fix Released,notification failure in _sync_power_states,https://bugs.launchpad.net/nova/+bug/1244311,2014-04-17
+1242955,1242955,Fix Released,compute:update policy no longer checked for V3 API,https://bugs.launchpad.net/nova/+bug/1242955,2014-04-17
+1241625,1241625,Fix Released,flavor name is restricted to ascii characters,https://bugs.launchpad.net/nova/+bug/1241625,2014-04-17
+1241350,1241350,Fix Released,VMware: Detaching a volume from an instance also deletes the volume's backing vmdk (ESXDriver only),https://bugs.launchpad.net/nova/+bug/1241350,2014-04-17
+1239898,1239898,Fix Released,test_rescue_preserve_disk_on_failure unittest broken,https://bugs.launchpad.net/nova/+bug/1239898,2014-04-17
+1239709,1239709,Fix Released,NovaObject does not properly honor VERSION,https://bugs.launchpad.net/nova/+bug/1239709,2014-04-17
+1239603,1239603,Fix Released,Bogus ERROR level debug spew when creating a new instance,https://bugs.launchpad.net/nova/+bug/1239603,2014-04-17
+1237802,1237802,Fix Released,IPMI power manager hangs when the password is empty.,https://bugs.launchpad.net/nova/+bug/1237802,2014-04-17
+1237795,1237795,Fix Released,VMware: restarting nova compute reports invalid instances,https://bugs.launchpad.net/nova/+bug/1237795,2014-04-17
+1235022,1235022,Fix Released,VMware: errors booting from volume via Horizon,https://bugs.launchpad.net/nova/+bug/1235022,2014-04-17
+1229994,1229994,Fix Released,VMwareVCDriver: snapshot failure when host in maintenance mode,https://bugs.launchpad.net/nova/+bug/1229994,2014-04-17
+1229671,1229671,Fix Released,Deploy instances failed on Hyper-V with Chinese locale,https://bugs.launchpad.net/nova/+bug/1229671,2014-04-17
+1227825,1227825,Fix Released,datastore selection bug - fills first disk only,https://bugs.launchpad.net/nova/+bug/1227825,2014-04-17
+1226698,1226698,Fix Released,flavor pagination incorrectly uses id rather than flavorid,https://bugs.launchpad.net/nova/+bug/1226698,2014-04-17
+1224546,1224546,Fix Released,local delete of an instance fails if an attached volume no longer exists,https://bugs.launchpad.net/nova/+bug/1224546,2014-04-17
+1223859,1223859,Fix Released,"Network cache not correctly updated during ""interface-attach""",https://bugs.launchpad.net/nova/+bug/1223859,2014-04-17
+1222979,1222979,Fix Released,Errored instance can't be deleted if volume deleted first,https://bugs.launchpad.net/nova/+bug/1222979,2014-04-17
+1221646,1221646,Fix Released,v3 server's rebuild with access_ip_* doesn't work for xml format,https://bugs.launchpad.net/nova/+bug/1221646,2014-04-17
+1216706,1216706,Fix Released,Migration 211 doesn't downgrade with MySQL,https://bugs.launchpad.net/nova/+bug/1216706,2014-04-17
+1206081,1206081,Fix Released,[OSSA 2013-029] Unchecked qcow2 root disk sizes DoS,https://bugs.launchpad.net/nova/+bug/1206081,2014-04-17
+1206081,1206081,Fix Released,[OSSA 2013-029] Unchecked qcow2 root disk sizes DoS,https://bugs.launchpad.net/ossa/+bug/1206081,2014-04-17
+1195139,1195139,Fix Released,vmware: error trying to store hypervisor_version as string in using postgresql,https://bugs.launchpad.net/nova/+bug/1195139,2014-04-17
+1193980,1193980,Fix Released,"Regression: Cinder Volumes ""unable to find iscsi target"" for VMware instances",https://bugs.launchpad.net/nova/+bug/1193980,2014-04-17
+1178103,1178103,Fix Released,can't disable file injection for bare metal,https://bugs.launchpad.net/nova/+bug/1178103,2014-04-17
+1178103,1178103,Fix Released,can't disable file injection for bare metal,https://bugs.launchpad.net/tripleo/+bug/1178103,2014-04-17
+1255577,1255577,Fix Released,Requests to Metadata API fail with 500 if Neutron network plugin  is used,https://bugs.launchpad.net/nova/+bug/1255577,2014-04-17
+1254714,1254714,Fix Released,XenAPI: Cached images are never re-used,https://bugs.launchpad.net/nova/+bug/1254714,2014-04-17
+1307482,1307482,Fix Released,SNMP load averages misreported as utilization percentages,https://bugs.launchpad.net/ceilometer/+bug/1307482,2014-04-17
+1302664,1302664,Fix Released,POST samples API broken for nested resource metadata,https://bugs.launchpad.net/ceilometer/+bug/1302664,2014-04-17
+1295500,1295500,Fix Released,Need to improve vSphere samples accuracy,https://bugs.launchpad.net/ceilometer/+bug/1295500,2014-04-17
+1295004,1295004,Fix Released,Collector can not persistence compute node CPU metrics when  set ‘compute_monitors = ComputeDriverCPUMonitor’ in nova,https://bugs.launchpad.net/ceilometer/+bug/1295004,2014-04-17
+1288894,1288894,Fix Released,Migration 23 failing on MySQL,https://bugs.launchpad.net/ceilometer/+bug/1288894,2014-04-17
+1275901,1275901,Fix Released,REST API errors are not being translated on response,https://bugs.launchpad.net/ceilometer/+bug/1275901,2014-04-17
+1269243,1269243,Fix Released,Ceilometer cannot support IPv6 network,https://bugs.launchpad.net/ceilometer/+bug/1269243,2014-04-17
+1295088,1295088,Fix Released,Disk IO rate measurements should be of type Gauge,https://bugs.launchpad.net/ceilometer/+bug/1295088,2014-04-17
+1293994,1293994,Fix Released,alarm time constraints can have duplicated names,https://bugs.launchpad.net/ceilometer/+bug/1293994,2014-04-17
+1259724,1259724,Fix Released,residual dump files left from 012 migration,https://bugs.launchpad.net/ceilometer/+bug/1259724,2014-04-17
+1295504,1295504,Fix Released,fix create_or_update logic to avoid rollbacks,https://bugs.launchpad.net/ceilometer/+bug/1295504,2014-04-17
+1294628,1294628,Fix Released,"The API returns an invalid error message, if an unknown field name is specified in the params of the simple query",https://bugs.launchpad.net/ceilometer/+bug/1294628,2014-04-17
+1294438,1294438,Fix Released,insecure flag not propagated to novaclient,https://bugs.launchpad.net/ceilometer/+bug/1294438,2014-04-17
+1291415,1291415,Fix Released,Complex query for samples does not support the field names from the new Sample API model,https://bugs.launchpad.net/ceilometer/+bug/1291415,2014-04-17
+1290924,1290924,Fix Released,Add documentation for selectable aggregates,https://bugs.launchpad.net/ceilometer/+bug/1290924,2014-04-17
+1288677,1288677,Fix Released,validating threshold_rule and combination_rule should according alarm's type,https://bugs.launchpad.net/ceilometer/+bug/1288677,2014-04-17
+1282667,1282667,Fix Released,alarm_id cannot be queried with /v2/query/alarms API with SQL backend,https://bugs.launchpad.net/ceilometer/+bug/1282667,2014-04-17
+1298514,1298514,Fix Released,selectable aggregate list should be explicitly de-duped,https://bugs.launchpad.net/ceilometer/+bug/1298514,2014-04-17
+1298073,1298073,Fix Released,postgres does not work with multiple connections,https://bugs.launchpad.net/ceilometer/+bug/1298073,2014-04-17
+1297677,1297677,Fix Released,normal user create alarm with user-id or project-id specified will success instead of return 401,https://bugs.launchpad.net/ceilometer/+bug/1297677,2014-04-17
+1297004,1297004,Fix Released,inaccurate cardinality computed by mongo driver for larger sets of samples per period,https://bugs.launchpad.net/ceilometer/+bug/1297004,2014-04-17
+1292790,1292790,Fix Released,"multi hardware resources configured in pipeline, only the first one will take effect",https://bugs.launchpad.net/ceilometer/+bug/1292790,2014-04-17
+1292611,1292611,Fix Released,Capabilities API for SQL backends is broken,https://bugs.launchpad.net/ceilometer/+bug/1292611,2014-04-17
+1292312,1292312,Fix Released,028 migration script incorrectly skips over section,https://bugs.launchpad.net/ceilometer/+bug/1292312,2014-04-17
+1292130,1292130,Fix Released,insecure config option not propagated by  alarm service,https://bugs.launchpad.net/ceilometer/+bug/1292130,2014-04-17
+1291666,1291666,Fix Released,mongodb driver does not create indices on project_id as intended,https://bugs.launchpad.net/ceilometer/+bug/1291666,2014-04-17
+1291146,1291146,Fix Released,sample name does NOT match  registered stevedore hardware pollster plugin name,https://bugs.launchpad.net/ceilometer/+bug/1291146,2014-04-17
+1291054,1291054,Fix Released,ceilometer service is working on a single thread,https://bugs.launchpad.net/ceilometer/+bug/1291054,2014-04-17
+1298455,1298455,Fix Released,HBase doesn't work in multithread env,https://bugs.launchpad.net/ceilometer/+bug/1298455,2014-04-17
+1297999,1297999,Fix Released,gate failures due to tools/config/check_uptodate.sh,https://bugs.launchpad.net/ceilometer/+bug/1297999,2014-04-17
+1289325,1289325,Fix Released,Statistics broken,https://bugs.launchpad.net/ceilometer/+bug/1289325,2014-04-17
+1288844,1288844,Fix Released,rpc hang sometimes after oslo try to reconnect to the servers,https://bugs.launchpad.net/ceilometer/+bug/1288844,2014-04-17
+1282176,1282176,Fix Released,source is empty on /v2/samples API,https://bugs.launchpad.net/ceilometer/+bug/1282176,2014-04-17
+1281840,1281840,Fix Released,Contributing testing doc needs updating,https://bugs.launchpad.net/ceilometer/+bug/1281840,2014-04-17
+1276878,1276878,Fix Released,Typo: change 'anomolies' to 'anomalies',https://bugs.launchpad.net/ceilometer/+bug/1276878,2014-04-17
+1276761,1276761,Fix Released,neutron notifications throwing keyerror,https://bugs.launchpad.net/ceilometer/+bug/1276761,2014-04-17
+1273638,1273638,Fix Released,"the nova_notifier should use ""flavorid"" instead of ""instance_type_id"" in the flavor",https://bugs.launchpad.net/ceilometer/+bug/1273638,2014-04-17
+1271993,1271993,Fix Released,Unit tests of hbase write data to same tables,https://bugs.launchpad.net/ceilometer/+bug/1271993,2014-04-17
+1271454,1271454,Fix Released,Inspector should check the domain state before inspecting nics and disks,https://bugs.launchpad.net/ceilometer/+bug/1271454,2014-04-17
+1268628,1268628,Fix Released,recursive_keypairs doesn't throw 'separator' param to next iteration,https://bugs.launchpad.net/ceilometer/+bug/1268628,2014-04-17
+1211985,1211985,Fix Released,meter table contains redundant/duplicate data,https://bugs.launchpad.net/ceilometer/+bug/1211985,2014-04-17
+1284412,1284412,Fix Released,Default log level of iso8601 should be set to WARN,https://bugs.launchpad.net/ceilometer/+bug/1284412,2014-04-17
+1277224,1277224,Fix Released,"Typos in ceilometer documentation, e.g. replace 'Ceilomter' with 'Ceilometer'",https://bugs.launchpad.net/ceilometer/+bug/1277224,2014-04-17
+1272988,1272988,Fix Released,Pipeline configuration is missing from doc,https://bugs.launchpad.net/ceilometer/+bug/1272988,2014-04-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+795772,795772,Fix Released,OSAPI: custom controller action serialization methods are ignored,https://bugs.launchpad.net/nova/+bug/795772,2011-09-22
+795755,795755,Fix Released,OSAPI: images metadata response xml is incorrectly formatted,https://bugs.launchpad.net/nova/+bug/795755,2011-09-22
+795045,795045,Fix Released,OSAPI: POST to servers metadata does not respect Accept header,https://bugs.launchpad.net/nova/+bug/795045,2011-09-22
+795040,795040,Fix Released,OSAPI: 500 on POST images metadata when content-type/accept differ,https://bugs.launchpad.net/nova/+bug/795040,2011-09-22
+794161,794161,Fix Released,EC2 API throws 'Image must be available' errors on active images,https://bugs.launchpad.net/nova/+bug/794161,2011-09-22
+793717,793717,Fix Released,Postgres casting issues with 'deleted' column updates,https://bugs.launchpad.net/nova/+bug/793717,2011-09-22
+792487,792487,Fix Released,Xen image snapshot upload failure (glance 'v1' support),https://bugs.launchpad.net/nova/+bug/792487,2011-09-22
+792094,792094,Fix Released,NotAuthorized exception raises in constructor,https://bugs.launchpad.net/nova/+bug/792094,2011-09-22
+785816,785816,Fix Released,lazy load operation of attribute 'metadata' cannot proceed,https://bugs.launchpad.net/nova/+bug/785816,2011-09-22
+780784,780784,Fix Released,KeyError in image snapshotting,https://bugs.launchpad.net/nova/+bug/780784,2011-09-22
+766352,766352,Fix Released,novarc in nova.zip does not work perfectly as symlink,https://bugs.launchpad.net/nova/+bug/766352,2011-09-22
+758975,758975,Fix Released,"When a floating IP is associated with an instance, nova-manage floating list fails",https://bugs.launchpad.net/nova/+bug/758975,2011-09-22
+757868,757868,Fix Released,nova-compute requires root /w connection_type=xenapi,https://bugs.launchpad.net/nova/+bug/757868,2011-09-22
+750931,750931,Fix Released,Creating and immediately deleting a server causes nova-compute exceptions,https://bugs.launchpad.net/nova/+bug/750931,2011-09-22
+708371,708371,Fix Released,Runinstance : Image available status not checked,https://bugs.launchpad.net/nova/+bug/708371,2011-09-22
+798384,798384,Fix Released,nova-manage role add does not add the user to user_project_association,https://bugs.launchpad.net/nova/+bug/798384,2011-09-22
+798370,798370,Fix Released,Non-admin users cannot launch instances,https://bugs.launchpad.net/nova/+bug/798370,2011-09-22
+792388,792388,Fix Released,Libvirt snapshot causes KeyError: 'architecture',https://bugs.launchpad.net/nova/+bug/792388,2011-09-22
+783705,783705,Fix Released,NWfilter rules not removed upon instance termination,https://bugs.launchpad.net/nova/+bug/783705,2011-09-22
+803563,803563,Fix Released,OSAPI: images list v1.1 fails,https://bugs.launchpad.net/nova/+bug/803563,2011-09-22
+803186,803186,Fix Released,possible_topdir removed from nova-api,https://bugs.launchpad.net/nova/+bug/803186,2011-09-22
+812489,812489,Fix Released,Network Host isn't being set without restarting service,https://bugs.launchpad.net/nova/+bug/812489,2011-09-22
+810780,810780,Fix Released,XS Windows Issues with Password Reset,https://bugs.launchpad.net/nova/+bug/810780,2011-09-22
+810157,810157,Fix Released,support '-' for writing to stdout in nova-manage environment/zip,https://bugs.launchpad.net/nova/+bug/810157,2011-09-22
+810149,810149,Fix Released,"Remove version from href, incorrect RE",https://bugs.launchpad.net/nova/+bug/810149,2011-09-22
+809891,809891,Fix Released,Need to add distributed scheduler docs to Nova devref,https://bugs.launchpad.net/nova/+bug/809891,2011-09-22
+809316,809316,Fix Released,cloudpipe instance gets wrong IP,https://bugs.launchpad.net/nova/+bug/809316,2011-09-22
+807749,807749,Fix Released,No Flag to Disable EC2 or OSAPI,https://bugs.launchpad.net/nova/+bug/807749,2011-09-22
+804363,804363,Fix Released,IPy import causes tests to fail,https://bugs.launchpad.net/nova/+bug/804363,2011-09-22
+813006,813006,Fix Released,Inconsistent database API method naming for instance_types,https://bugs.launchpad.net/nova/+bug/813006,2011-09-22
+810092,810092,Fix Released,Add ability to set DNS entires on network create,https://bugs.launchpad.net/nova/+bug/810092,2011-09-22
+804317,804317,Fix Released,FixedIpNotFoundForInstance: Instance 1 has zero fixed ips.,https://bugs.launchpad.net/nova/+bug/804317,2011-09-22
+798457,798457,Fix Released,IPv6 address isn't present in the OSAPI 1.1,https://bugs.launchpad.net/nova/+bug/798457,2011-09-22
+794705,794705,Fix Released,need a real argparser for the bin/nova-manage commands,https://bugs.launchpad.net/nova/+bug/794705,2011-09-22
+790728,790728,Fix Released,Remove unnecessary fault.Fault wrapping from OSAPI,https://bugs.launchpad.net/nova/+bug/790728,2011-09-22
+803309,803309,Fix Released,Stale (and not upgraded) tests.sqlite is causing unit tests to fail,https://bugs.launchpad.net/nova/+bug/803309,2011-09-22
+803021,803021,Fix Released,"In unit tests, test setup() method not called for subdirectory tests",https://bugs.launchpad.net/nova/+bug/803021,2011-09-22
+802046,802046,Fix Released,metadata does not return security groups,https://bugs.launchpad.net/nova/+bug/802046,2011-09-22
+801297,801297,Fix Released,OSAPI: GET flavors results in 500 error,https://bugs.launchpad.net/nova/+bug/801297,2011-09-22
+800593,800593,Fix Released,Flash websocket emulation doesn't work with nova-vncproxy,https://bugs.launchpad.net/nova/+bug/800593,2011-09-22
+797250,797250,Fix Released,OSAPI: 500 on POST /servers with malformed entity,https://bugs.launchpad.net/nova/+bug/797250,2011-09-22
+796813,796813,Fix Released,vmwareapi does not support distributed vswitch,https://bugs.launchpad.net/nova/+bug/796813,2011-09-22
+796709,796709,Fix Released,OSAPI: delete server instance response code does not match spec,https://bugs.launchpad.net/nova/+bug/796709,2011-09-22
+790743,790743,Fix Released,FaultWrapper middleware does not respect content types,https://bugs.launchpad.net/nova/+bug/790743,2011-09-22
+815747,815747,Fix Released,Translations are out of date,https://bugs.launchpad.net/nova/+bug/815747,2011-09-22
+814221,814221,Fix Released,compute API has_finished_migration should use uuid,https://bugs.launchpad.net/nova/+bug/814221,2011-09-22
+812487,812487,Fix Released,'nova-manage fixed list' fails if address is allocated,https://bugs.launchpad.net/nova/+bug/812487,2011-09-22
+810657,810657,Fix Released,agent plugin fails to detect correct file injection capability,https://bugs.launchpad.net/nova/+bug/810657,2011-09-22
+810635,810635,Fix Released,KeyError; 'b64_file' when injecting file via nova agent,https://bugs.launchpad.net/nova/+bug/810635,2011-09-22
+808989,808989,Fix Released,Network Worker Crashes if --flat_network_bridge isn't specified,https://bugs.launchpad.net/nova/+bug/808989,2011-09-22
+807764,807764,Fix Released,KeyError: 'gateway6' - caused by unchecked hash key reference,https://bugs.launchpad.net/nova/+bug/807764,2011-09-22
+805604,805604,Fix Released,Multiprocess nova-api does not handles SIGTERM correctly.,https://bugs.launchpad.net/nova/+bug/805604,2011-09-22
+805312,805312,Fix Released,Boot from volume fails when network block device is specified.,https://bugs.launchpad.net/nova/+bug/805312,2011-09-22
+804084,804084,Fix Released,OS API v1.1 bad error on server create with invalid flavor,https://bugs.launchpad.net/nova/+bug/804084,2011-09-22
+803716,803716,Fix Released,fixed_ip_disassociate_timeout_pgsql casting errors w/ Postgres,https://bugs.launchpad.net/nova/+bug/803716,2011-09-22
+803524,803524,Fix Released,openstack 1.1 image api doesn't work if there is a port in the href,https://bugs.launchpad.net/nova/+bug/803524,2011-09-22
+803056,803056,Fix Released,Fault wrapper fails to communicate the issue,https://bugs.launchpad.net/nova/+bug/803056,2011-09-22
+800759,800759,Fix Released,"Zone Manager does not ""expire"" offline hosts",https://bugs.launchpad.net/nova/+bug/800759,2011-09-22
+767268,767268,Fix Released,EC2 API methods for dealing with security groups doesn't support GroupId,https://bugs.launchpad.net/nova/+bug/767268,2011-09-22
+723301,723301,Fix Released,xenapi: remove all resources when VM fails to spawn,https://bugs.launchpad.net/nova/+bug/723301,2011-09-22
+704645,704645,Fix Released,"EC2 API supports deprecated authorize and revoke methods, and not recommended methods",https://bugs.launchpad.net/nova/+bug/704645,2011-09-22
+816699,816699,Fix Released,skipped tests need to be reenabled,https://bugs.launchpad.net/nova/+bug/816699,2011-09-22
+816612,816612,Fix Released,add_fixed_ip_to_instance() now requires host for multi-host networks,https://bugs.launchpad.net/nova/+bug/816612,2011-09-22
+816236,816236,Fix Released,Initial 'nova db sync' migration fails on mysql (if InnoDB was used since the beginning),https://bugs.launchpad.net/nova/+bug/816236,2011-09-22
+814471,814471,Fix Released,AttributeError 'Network' object has no attribute 'dhcp_server',https://bugs.launchpad.net/nova/+bug/814471,2011-09-22
+814365,814365,Fix Released,Should support boto 2.0 server-side (was: EC2 API fails with >=boto2.0),https://bugs.launchpad.net/nova/+bug/814365,2011-09-22
+812553,812553,Fix Released,LXC instance fails to start,https://bugs.launchpad.net/nova/+bug/812553,2011-09-22
+809587,809587,Fix Released,Resize revert applies wrong flavor to original instance,https://bugs.launchpad.net/nova/+bug/809587,2011-09-22
+808949,808949,Fix Released,resize doesn't work with recent novaclient,https://bugs.launchpad.net/nova/+bug/808949,2011-09-22
+805083,805083,Fix Released,"""libvirtError: internal error cannot determine default video type"" when using UML",https://bugs.launchpad.net/nova/+bug/805083,2011-09-22
+804270,804270,Fix Released,"Tarball is missing 031_sqlite_{up,down}grade.sql",https://bugs.launchpad.net/nova/+bug/804270,2011-09-22
+804063,804063,Fix Released,FanoutPublisher calls attempt to redeclare the exchange,https://bugs.launchpad.net/nova/+bug/804063,2011-09-22
+803705,803705,Fix Released,Failed to get metadata for ip (list indices must be integers...),https://bugs.launchpad.net/nova/+bug/803705,2011-09-22
+803553,803553,Fix Released,euca-modify-image-attribute makes an image disappear,https://bugs.launchpad.net/nova/+bug/803553,2011-09-22
+802707,802707,Fix Released,EC2API: rescue instance does not work,https://bugs.launchpad.net/nova/+bug/802707,2011-09-22

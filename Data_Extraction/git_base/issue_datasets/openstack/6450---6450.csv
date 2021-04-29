@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1824246,1824246,Fix Released,bad health check logic in common.sh results in error,https://bugs.launchpad.net/tripleo/+bug/1824246,2019-07-05
+1824301,1824301,Fix Released,"standalone-upgrade job fails in post-upgrade tasks for "" Failed to import docker or docker-py - No module named docker""",https://bugs.launchpad.net/tripleo/+bug/1824301,2019-07-05
+1826281,1826281,Fix Released,"systemd timers for podman healthchecks are too high, break AMQP healthchecks",https://bugs.launchpad.net/tripleo/+bug/1826281,2019-07-05
+1827277,1827277,Fix Released,Overcloud deployment on pre-deployed server fails when network-scripts package is not installed,https://bugs.launchpad.net/tripleo/+bug/1827277,2019-07-05
+1828305,1828305,Fix Released,When a *Count parameter is set as a string in yaml the error is incomprehensible,https://bugs.launchpad.net/tripleo/+bug/1828305,2019-07-05
+1824326,1824326,Fix Released,tripleo-create-admin failing to retrieve public key,https://bugs.launchpad.net/tripleo/+bug/1824326,2019-07-05
+1825046,1825046,Fix Released,attempting to get _catalog from empty container image registry is not handled,https://bugs.launchpad.net/tripleo/+bug/1825046,2019-07-05
+1831458,1831458,Fix Released,"TripleO Ceph LVM deployment fails with DeriveParams ""No Ceph OSDs found in the overcloud definition",https://bugs.launchpad.net/tripleo/+bug/1831458,2019-07-05
+1824225,1824225,Fix Released,"""openstack overcloud config download"" fails with Python3",https://bugs.launchpad.net/tripleo/+bug/1824225,2019-07-05
+1823042,1823042,Fix Released,Upgrading from rocky to stein/master does not verify the neutron mechanism correctly,https://bugs.launchpad.net/tripleo/+bug/1823042,2019-07-05
+1824781,1824781,Fix Released,Remove nodes and roles options.,https://bugs.launchpad.net/tripleo/+bug/1824781,2019-07-05
+1824347,1824347,Fix Released,undercloud.conf undercloud_nameserver help text is not accurate,https://bugs.launchpad.net/tripleo/+bug/1824347,2019-07-05
+1824329,1824329,Fix Released,Tracebacks are logged for expected errors,https://bugs.launchpad.net/tripleo/+bug/1824329,2019-07-05
+1827366,1827366,Fix Released,Add ODL deprecation warning before deployment,https://bugs.launchpad.net/tripleo/+bug/1827366,2019-07-05
+1830093,1830093,Fix Released,Incorrect sample_default for host_routes in undercloud.conf,https://bugs.launchpad.net/tripleo/+bug/1830093,2019-07-05
+1831152,1831152,Fix Released,/etc/containers/registries.conf incorrectly populated,https://bugs.launchpad.net/tripleo/+bug/1831152,2019-07-05
+1825366,1825366,Fix Released,keepalived configuration generates invalid haproxy vrrp script,https://bugs.launchpad.net/tripleo/+bug/1825366,2019-07-05
+1829996,1829996,Fix Released,using RHEL8 cold migration fails accessing migrated instance files,https://bugs.launchpad.net/tripleo/+bug/1829996,2019-07-05
+1829758,1829758,Fix Released,/etc/my.cnf.d/tripleo.cnf doesn't expose SSL configuration for [client] section,https://bugs.launchpad.net/tripleo/+bug/1829758,2019-07-05
+1830574,1830574,Fix Released,initramfs should be rebuilt when applying change in some kernel parameters,https://bugs.launchpad.net/tripleo/+bug/1830574,2019-07-05
+1777892,1777892,Fix Released,Reduce duplicate data between unified limit tables,https://bugs.launchpad.net/keystone/+bug/1777892,2019-07-05
+1678694,1678694,Fix Released,Can't attach volume to volume-backed instance,https://bugs.launchpad.net/nova/+bug/1678694,2019-07-04
+1823155,1823155,Fix Released,neutron-fullstack fails on stable/rocky at ovs compilation,https://bugs.launchpad.net/neutron/+bug/1823155,2019-07-04
+1796976,1796976,Fix Released,neutron.conf needs lock_path set for router to operate,https://bugs.launchpad.net/neutron/+bug/1796976,2019-07-04
+1780094,1780094,Fix Released,The transition of a router from distributed to centralized may mistakenly get HA enabled,https://bugs.launchpad.net/neutron/+bug/1780094,2019-07-04
+1770452,1770452,Fix Released,neutron.tests.unit.objects.test_subnet.SubnetDbObjectTestCase.test_db_obj failing with  <NetworkSegment at 0x7fdf760a7310> is not bound to a Session,https://bugs.launchpad.net/neutron/+bug/1770452,2019-07-04
+1799328,1799328,Fix Released,Should not store segmenthostmapping table when segment service plugin disabled,https://bugs.launchpad.net/neutron/+bug/1799328,2019-07-04
+1790598,1790598,Fix Committed,metadata service calls to nova-api-metadata with IP based SAN's fails,https://bugs.launchpad.net/neutron/+bug/1790598,2019-07-04
+1827834,1827834,Fix Committed,stestr 2.3.1 doesnt work well with ostestr 1.0.0,https://bugs.launchpad.net/os-testr/+bug/1827834,2019-07-04
+1806053,1806053,Fix Released,APITestCase still needs to be patched utils.patch_middleware_get_user(),https://bugs.launchpad.net/horizon/+bug/1806053,2019-07-03
+1792936,1792936,Fix Released,Unsuccessful installation of OpenStack Rocky on a fresh bionic host,https://bugs.launchpad.net/devstack/+bug/1792936,2019-07-03
+1762455,1762455,Fix Released,Make setting for ulimit configurable via THT parameter,https://bugs.launchpad.net/tripleo/+bug/1762455,2019-07-03
+1793029,1793029,Fix Released,adding 0.0.0.0/0 address pair to a port  bypasses all other vm security groups,https://bugs.launchpad.net/neutron/+bug/1793029,2019-07-03
+1830554,1830554,Fix Released,Port forwarding require always internal_ip_address to be given,https://bugs.launchpad.net/neutron/+bug/1830554,2019-07-03
+1706592,1706592,Fix Released,Fix for 1694897 broke existing agent function,https://bugs.launchpad.net/neutron/+bug/1706592,2019-07-03
+1825562,1825562,Fix Released,git repository not found,https://bugs.launchpad.net/devstack/+bug/1825562,2019-07-03
+1629399,1629399,Fix Released,Improve error message when arguments missing for vnf-events-list command,https://bugs.launchpad.net/tacker/+bug/1629399,2019-07-03
+1823835,1823835,Fix Released,Creating VNFD in Dashboard doesn't work,https://bugs.launchpad.net/tacker/+bug/1823835,2019-07-03
+1835182,1835182,Fix Released,Triccirle tempest  connection header do not match neutron,https://bugs.launchpad.net/tricircle/+bug/1835182,2019-07-03
+1749076,1749076,Fix Released,Gen10 server does not return secure_boot capability even if it supports,https://bugs.launchpad.net/proliantutils/+bug/1749076,2019-07-03
+1522233,1522233,Fix Released,Failed to migrate encrypted volume,https://bugs.launchpad.net/nova/+bug/1522233,2019-07-02
+1832727,1832727,Fix Released,Rocky repo-install.yml failed,https://bugs.launchpad.net/openstack-ansible/+bug/1832727,2019-07-02
+1834791,1834791,Fix Released,OVB promotion jobs - introspection fails nputException: Invalid input  mistral.actions.openstack.actions.BaremetalIntrospectionAction missing node_id,https://bugs.launchpad.net/tripleo/+bug/1834791,2019-07-02
+1834655,1834655,Fix Released,Featureset039 job failing with python3 not found,https://bugs.launchpad.net/tripleo/+bug/1834655,2019-07-01
+1780383,1780383,Fix Released,Uploading object as SLO multiple times will delete the segments,https://bugs.launchpad.net/python-swiftclient/+bug/1780383,2019-07-01
+1830397,1830397,Fix Released,os_keystone is autoremoving apache2 packages which is needed by other projects,https://bugs.launchpad.net/openstack-ansible/+bug/1830397,2019-07-01
+1764046,1764046,Fix Released,installed pip version 1 does not meet minimum requirements,https://bugs.launchpad.net/devstack/+bug/1764046,2019-07-01
+1796756,1796756,Fix Released,"Error searching for image docker.io/tripleorocky/centos-binary-ceilometer-compute - UnixHTTPConnectionPool(host=\'localhost\', port=None): Read timed out.",https://bugs.launchpad.net/tripleo/+bug/1796756,2019-07-01
+1813533,1813533,Fix Released,Package renames are not honoured in package updates(role-modify-image),https://bugs.launchpad.net/tripleo/+bug/1813533,2019-07-01
+1813546,1813546,Fix Released,ansible-role-modify-image is not py3 and fedora 28+ ready,https://bugs.launchpad.net/tripleo/+bug/1813546,2019-07-01
+1816775,1816775,Fix Released,tripleo-modify-image dev install broken (fails to install pip),https://bugs.launchpad.net/tripleo/+bug/1816775,2019-07-01
+1790786,1790786,Fix Released,missing quotes in ansible-role-container-registry,https://bugs.launchpad.net/tripleo/+bug/1790786,2019-07-01
+1799135,1799135,Fix Released,[l3][port_forwarding] update floating IP (has binding port_forwarding) with empty {} input will lose router_id,https://bugs.launchpad.net/neutron/+bug/1799135,2019-07-01
+1811213,1811213,Fix Released,Floatingip status changed to error when restart l3-agent,https://bugs.launchpad.net/neutron/+bug/1811213,2019-07-01
+1799138,1799138,Fix Released,[l3][port_forwarding] a port can have port_forwarding and then bind floating IP again,https://bugs.launchpad.net/neutron/+bug/1799138,2019-07-01
+1809238,1809238,Fix Released,[l3] `port_forwarding` cannot be set before l3 `router` in service_plugins,https://bugs.launchpad.net/neutron/+bug/1809238,2019-07-01
+1816771,1816771,Fix Released,Creation of router fails in devstack,https://bugs.launchpad.net/neutron/+bug/1816771,2019-07-01
+1740262,1740262,Fix Released,Install and configure a storage node in cinder,https://bugs.launchpad.net/cinder/+bug/1740262,2019-06-30
+1738409,1738409,Fix Released,Install and configure a storage node in cinder,https://bugs.launchpad.net/cinder/+bug/1738409,2019-06-30
+1696262,1696262,Fix Released,Test runs failing missing libssl-dev,https://bugs.launchpad.net/cinder/+bug/1696262,2019-06-30
+1820118,1820118,Fix Released,Manila unexpectedly attempts to delete a share server when deleting a share network,https://bugs.launchpad.net/manila/+bug/1820118,2019-06-29
+1821579,1821579,Fix Released,Configuration files in /etc/kolla have inconsistent permissions,https://bugs.launchpad.net/kolla-ansible/+bug/1821579,2019-06-29
+1824477,1824477,Fix Committed,dhcp: need to reorder classless static route record,https://bugs.launchpad.net/neutron/+bug/1824477,2019-06-28
+1834492,1834492,Fix Released,[rdotrunk][rhel8] missing packages pacemaker/pcs/pacemaker-remote from rhel8/rhui repos during image build,https://bugs.launchpad.net/tripleo/+bug/1834492,2019-06-28
+1834595,1834595,Fix Committed,tricircle do not work well with python3-train-jobs,https://bugs.launchpad.net/tricircle/+bug/1834595,2019-06-28
+1831618,1831618,Fix Released,Remove references to Neutron LBaaS,https://bugs.launchpad.net/tripleo/+bug/1831618,2019-06-28
+1778784,1778784,Fix Released,mox_fixture = self.useFixture(moxstubout.MoxStubout()) usage is deprecated from oslo.test 3.5.0,https://bugs.launchpad.net/nova/+bug/1778784,2019-06-27
+1821347,1821347,Fix Released,ceph-ansible doesn't respect ContainerCli,https://bugs.launchpad.net/tripleo/+bug/1821347,2019-06-27
+1801950,1801950,Fix Released,HAproxy thinks ceph-rgw-back is down when S3 API is enabled,https://bugs.launchpad.net/openstack-ansible/+bug/1801950,2019-06-26
+1834059,1834059,Fix Released,Horizon fails due to pyinotify py2/py3 mismatch,https://bugs.launchpad.net/openstack-ansible/+bug/1834059,2019-06-26
+1833557,1833557,Fix Released,infra: unable to pull images from trunk.registry.rdoproject.org,https://bugs.launchpad.net/tripleo/+bug/1833557,2019-06-26
+1795417,1795417,Fix Released,Deployment with custom stack name fails during ssh admin enablement workflow with: get_blacklisted_ip_addresses task - ERROR: The Stack (overcloud) could not be found.,https://bugs.launchpad.net/tripleo/+bug/1795417,2019-06-26
+1833414,1833414,Fix Released,Fernet keys are lost during Rocky->Stein upgrade,https://bugs.launchpad.net/openstack-ansible/+bug/1833414,2019-06-25
+1758899,1758899,Fix Released,reproducer-quickstart.sh building wrong gating package.,https://bugs.launchpad.net/tripleo/+bug/1758899,2019-06-25
+1833256,1833256,Fix Released,Lots of lingering (git|review).openstack.org redirects,https://bugs.launchpad.net/devstack/+bug/1833256,2019-06-24

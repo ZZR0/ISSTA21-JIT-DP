@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1103473,1103473,Fix Released,Running glance nosetests fails,https://bugs.launchpad.net/glance/+bug/1103473,2013-04-04
+1085984,1085984,Fix Released,glance-manage --version is broken,https://bugs.launchpad.net/glance/+bug/1085984,2013-04-04
+1084707,1084707,Fix Released,ERROR backtraces in n-net log after good tempset run,https://bugs.launchpad.net/nova/+bug/1084707,2013-04-04
+1083218,1083218,Fix Released,oslo changes to logging_context_format_string not compatible with nova,https://bugs.launchpad.net/nova/+bug/1083218,2013-04-04
+1078190,1078190,Fix Released,exception caused by logger in collector,https://bugs.launchpad.net/ceilometer/+bug/1078190,2013-04-04
+1075463,1075463,Fix Released,"ceilometer-acompute, ceilometer-acentral and ceilometer-collector fail to start with no attribute  found",https://bugs.launchpad.net/ceilometer/+bug/1075463,2013-04-04
+1036343,1036343,Fix Released,Validation of Timestamp/Expires for ec2 query parameters is not correct,https://bugs.launchpad.net/nova/+bug/1036343,2013-04-04
+1081498,1081498,Fix Released,I18N issue: some log/messages are not wrapped with _(),https://bugs.launchpad.net/cinder/+bug/1081498,2013-04-04
+1059634,1059634,Fix Released,Badly named stable/folsom Glance tarballs,https://bugs.launchpad.net/openstack-ci/+bug/1059634,2013-04-04
+1160653,1160653,Fix Released,Error when listing a stack that contains a Number parameter,https://bugs.launchpad.net/heat/+bug/1160653,2013-04-04
+1160407,1160407,Fix Released,AutoScalingMultiAZSample.template Haproxy doesnt point to the backend servers,https://bugs.launchpad.net/heat/+bug/1160407,2013-04-04
+1154641,1154641,Fix Released,"If there is no Userdata, loguserdata.py should not try to execute it.",https://bugs.launchpad.net/heat/+bug/1154641,2013-04-04
+1152445,1152445,Fix Released,Add floating ip tests to improve coverage,https://bugs.launchpad.net/heat/+bug/1152445,2013-04-04
+1152242,1152242,Fix Released,Unit tests fail if quantumclient not installed,https://bugs.launchpad.net/heat/+bug/1152242,2013-04-04
+1150091,1150091,Fix Released,API policy debug logging is too noisy,https://bugs.launchpad.net/heat/+bug/1150091,2013-04-04
+1136386,1136386,Fix Released,Add N802 rule to hacking.py,https://bugs.launchpad.net/heat/+bug/1136386,2013-04-04
+1134346,1134346,Fix Released,There are unused config parameters in heat-engine.conf,https://bugs.launchpad.net/heat/+bug/1134346,2013-04-04
+1130898,1130898,Fix Released,Should add 'break's in for loops in instance.py,https://bugs.launchpad.net/heat/+bug/1130898,2013-04-04
+1129394,1129394,Fix Released,Heat cannot create a stack/instance without a keypair specified.,https://bugs.launchpad.net/heat/+bug/1129394,2013-04-04
+1102101,1102101,Fix Released,--host option to heat-boto is ignored,https://bugs.launchpad.net/heat/+bug/1102101,2013-04-04
+1101347,1101347,Fix Released,ec2-user cannot be changed,https://bugs.launchpad.net/heat/+bug/1101347,2013-04-04
+1154887,1154887,Fix Released,part-handler has missing import for errno,https://bugs.launchpad.net/heat/+bug/1154887,2013-04-04
+1154708,1154708,Fix Released,Engine exception handling error,https://bugs.launchpad.net/heat/+bug/1154708,2013-04-04
+1154121,1154121,Fix Released,Templates need updating for F18,https://bugs.launchpad.net/heat/+bug/1154121,2013-04-04
+1153693,1153693,Fix Released,heat-keystone-setup needs a manual page,https://bugs.launchpad.net/heat/+bug/1153693,2013-04-04
+1153691,1153691,Fix Released,heat-db-setup needs a manual page,https://bugs.launchpad.net/heat/+bug/1153691,2013-04-04
+1153689,1153689,Fix Released,heat-watch needs a manual page,https://bugs.launchpad.net/heat/+bug/1153689,2013-04-04
+1153688,1153688,Fix Released,heat-boto needs a manual page,https://bugs.launchpad.net/heat/+bug/1153688,2013-04-04
+1143629,1143629,Fix Released,use olso logging setup instead of our own custom setup,https://bugs.launchpad.net/heat/+bug/1143629,2013-04-04
+1135970,1135970,Fix Released,--timeout doesn't work for heat-boto,https://bugs.launchpad.net/heat/+bug/1135970,2013-04-04
+1135963,1135963,Fix Released,engine API returns hard-coded DisableRollback value,https://bugs.launchpad.net/heat/+bug/1135963,2013-04-04
+1135485,1135485,Fix Released,Unrecognized attributeadmin_state_up in quantum,https://bugs.launchpad.net/heat/+bug/1135485,2013-04-04
+1135229,1135229,Fix Released,References to a wait cond's metadata are cached,https://bugs.launchpad.net/heat/+bug/1135229,2013-04-04
+1133502,1133502,Fix Released,tools/openstack shouldn't install mysql-server,https://bugs.launchpad.net/heat/+bug/1133502,2013-04-04
+1131759,1131759,Fix Released,Cannot query stack by ARN via ReST API/heatclient,https://bugs.launchpad.net/heat/+bug/1131759,2013-04-04
+1131303,1131303,Fix Released,Rollback deletes all events by default,https://bugs.launchpad.net/heat/+bug/1131303,2013-04-04
+1131290,1131290,Fix Released,heat-cfn validate fails for yaml templates,https://bugs.launchpad.net/heat/+bug/1131290,2013-04-04
+1131283,1131283,Fix Released,--disable-rollback doesn't work for heat-boto,https://bugs.launchpad.net/heat/+bug/1131283,2013-04-04
+1131275,1131275,Fix Released,Reinstate pep version check in a run_pep8.sh file,https://bugs.launchpad.net/heat/+bug/1131275,2013-04-04
+1131024,1131024,Fix Released,metadata is cached so if runtime data changes the instance doesn't see it,https://bugs.launchpad.net/heat/+bug/1131024,2013-04-04
+1130902,1130902,Fix Released,Getting started guide should link to pre-built images,https://bugs.launchpad.net/heat/+bug/1130902,2013-04-04
+1119883,1119883,Fix Released,"ValueError shown, unhelpful when Fn::Join is used improperly",https://bugs.launchpad.net/heat/+bug/1119883,2013-04-04
+1105806,1105806,Fix Released,"/var/lib/cloud belongs to cloud-init, heat should not write files there",https://bugs.launchpad.net/heat-cfntools/+bug/1105806,2013-04-04
+1105806,1105806,Fix Released,"/var/lib/cloud belongs to cloud-init, heat should not write files there",https://bugs.launchpad.net/heat/+bug/1105806,2013-04-04
+1103447,1103447,Fix Released,Illegal characters allowed in stack name,https://bugs.launchpad.net/heat/+bug/1103447,2013-04-04
+1101098,1101098,Fix Released,Unknown property not detected,https://bugs.launchpad.net/heat/+bug/1101098,2013-04-04
+1097843,1097843,Fix Released,Ensure create/update greenthreads are always cancelled on delete,https://bugs.launchpad.net/heat/+bug/1097843,2013-04-04
+1072939,1072939,Fix Released,Improve reporting of validation errors,https://bugs.launchpad.net/heat/+bug/1072939,2013-04-04
+1154202,1154202,Fix Released,Can't delete AWS::CloudFormation::Stack resources,https://bugs.launchpad.net/heat/+bug/1154202,2013-04-04
+1153681,1153681,Fix Released,sphinx generates errors during runtime,https://bugs.launchpad.net/heat/+bug/1153681,2013-04-04
+1153397,1153397,Fix Released,Error creating AWS::IAM::AccessKey,https://bugs.launchpad.net/heat/+bug/1153397,2013-04-04
+1152695,1152695,Fix Released,Update to Quantum client 2.2.0,https://bugs.launchpad.net/neutron/+bug/1152695,2013-04-04
+1152695,1152695,Fix Released,Update to Quantum client 2.2.0,https://bugs.launchpad.net/nova/+bug/1152695,2013-04-04
+1152695,1152695,Fix Released,Update to Quantum client 2.2.0,https://bugs.launchpad.net/horizon/+bug/1152695,2013-04-04
+1152695,1152695,Fix Released,Update to Quantum client 2.2.0,https://bugs.launchpad.net/heat/+bug/1152695,2013-04-04
+1151989,1151989,Fix Released,Resources not deleted after a failed update,https://bugs.launchpad.net/heat/+bug/1151989,2013-04-04
+1146848,1146848,Fix Released,heat services logging to file and stderr,https://bugs.launchpad.net/heat/+bug/1146848,2013-04-04
+1146742,1146742,Fix Released,exception trying to create volumes when there are none defined,https://bugs.launchpad.net/heat/+bug/1146742,2013-04-04
+1146529,1146529,Fix Released,Properties validation errors may not be caught,https://bugs.launchpad.net/heat/+bug/1146529,2013-04-04
+1144996,1144996,Fix Released,WaitCondition notification breaks in-instance credentials,https://bugs.launchpad.net/heat/+bug/1144996,2013-04-04
+1142812,1142812,Fix Released,VPC and SubNet should be able to be passed in as parameters,https://bugs.launchpad.net/heat/+bug/1142812,2013-04-04
+1136891,1136891,Fix Released,Roles.split does not work with other backend.,https://bugs.launchpad.net/heat/+bug/1136891,2013-04-04
+1136148,1136148,Fix Released,Autoscaling/InstanceGroup instances are created serially,https://bugs.launchpad.net/heat/+bug/1136148,2013-04-04
+1134258,1134258,Fix Released,Stack updates ignore changes in dynamic attributes,https://bugs.launchpad.net/heat/+bug/1134258,2013-04-04
+1134193,1134193,Fix Released,Security groups with rules don't work,https://bugs.launchpad.net/heat/+bug/1134193,2013-04-04
+1133510,1133510,Fix Released,LoadBalancer nested stack cannot push stats to CW API,https://bugs.launchpad.net/heat/+bug/1133510,2013-04-04
+1133381,1133381,Fix Released,Upgrade to Quantum client 2.1.2,https://bugs.launchpad.net/heat/+bug/1133381,2013-04-04
+1133381,1133381,Fix Released,Upgrade to Quantum client 2.1.2,https://bugs.launchpad.net/neutron/+bug/1133381,2013-04-04
+1133381,1133381,Fix Released,Upgrade to Quantum client 2.1.2,https://bugs.launchpad.net/horizon/+bug/1133381,2013-04-04
+1133381,1133381,Fix Released,Upgrade to Quantum client 2.1.2,https://bugs.launchpad.net/nova/+bug/1133381,2013-04-04
+1132709,1132709,Fix Released,heat log config has hard-coded qpid reference,https://bugs.launchpad.net/heat/+bug/1132709,2013-04-04
+1131666,1131666,Fix Released,Nested Stacks cannot read their resource metadata,https://bugs.launchpad.net/heat/+bug/1131666,2013-04-04
+1131663,1131663,Fix Released,LoadBalancer resource doesn't create cfn-credentials properly,https://bugs.launchpad.net/heat/+bug/1131663,2013-04-04
+1131622,1131622,Fix Released,"Produced Heat tarballs are tagged ""dev""",https://bugs.launchpad.net/heat/+bug/1131622,2013-04-04
+1131534,1131534,Fix Released,stacktrace trying to delete a stack with a User in it.,https://bugs.launchpad.net/heat/+bug/1131534,2013-04-04

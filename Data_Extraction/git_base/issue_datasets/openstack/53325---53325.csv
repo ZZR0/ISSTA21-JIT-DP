@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1454738,1454738,Fix Released,Nexus VLAN config hangs when replay enabled on RHEL set-up,https://bugs.launchpad.net/networking-cisco/+bug/1454738,2015-12-08
+1465426,1465426,Fix Released,Cisco N1KV mech driver is affected by VSM connectivity issues,https://bugs.launchpad.net/networking-cisco/+bug/1465426,2015-12-08
+1470568,1470568,Fix Released,UCSM Driver does not check if desired vlan profile already exists,https://bugs.launchpad.net/networking-cisco/+bug/1470568,2015-12-08
+1454734,1454734,Fix Released,Exceed ssh sessions on Nexus device when running on RHEL,https://bugs.launchpad.net/networking-cisco/+bug/1454734,2015-12-08
+1440214,1440214,Fix Released,N1KV: Send tenant_id 0 when network updated to be shared,https://bugs.launchpad.net/networking-cisco/+bug/1440214,2015-12-08
+1476723,1476723,Fix Released,Detect switch failure earlier during port creation,https://bugs.launchpad.net/networking-cisco/+bug/1476723,2015-12-08
+1466164,1466164,Fix Released,"EMC-POC: Nexus plugin: replay code logs warning message, ""GET call failed to return Nexus type""",https://bugs.launchpad.net/networking-cisco/+bug/1466164,2015-12-08
+1430308,1430308,Fix Released,"Traceback during VM deletion after a Nexus reboot, with switch_heartbeat disabled",https://bugs.launchpad.net/networking-cisco/+bug/1430308,2015-12-08
+1447369,1447369,Fix Released,Handle port update operation in N1kv ML2 plugin,https://bugs.launchpad.net/networking-cisco/+bug/1447369,2015-12-08
+1523931,1523931,Fix Committed,Remove centos target image build code from fuel-main,https://bugs.launchpad.net/fuel/+bug/1523931,2015-12-08
+1520419,1520419,Fix Released,DB models and migrations are out of sync,https://bugs.launchpad.net/networking-cisco/+bug/1520419,2015-12-08
+1523753,1523753,Fix Released,"nova-api container restart infinitely because of ""Permission denied: '/var/lib/nova'""",https://bugs.launchpad.net/kolla/+bug/1523753,2015-12-08
+1512456,1512456,Fix Released,Running hiera task owerwrites plugin data files in the config,https://bugs.launchpad.net/fuel/+bug/1512456,2015-12-08
+1522296,1522296,Fix Released,action.start_time is stored with insufficient precision,https://bugs.launchpad.net/senlin/+bug/1522296,2015-12-08
+1446372,1446372,Fix Released,Bays spawned from devstack dont have external network access,https://bugs.launchpad.net/magnum/+bug/1446372,2015-12-08
+1523741,1523741,Fix Released,There is unnecessary translate attribute in bay detail view,https://bugs.launchpad.net/magnum-ui/+bug/1523741,2015-12-08
+1466352,1466352,Fix Released,NodeStatusError exception is not handled which will cause internal error,https://bugs.launchpad.net/senlin/+bug/1466352,2015-12-08
+1465565,1465565,Fix Released,Policy attach should use policy defaults if not specified,https://bugs.launchpad.net/senlin/+bug/1465565,2015-12-08
+1452531,1452531,Fix Released,Nova server node can't be deleted correctly,https://bugs.launchpad.net/senlin/+bug/1452531,2015-12-08
+1451374,1451374,Fix Released,Incorrect usage of context in event module,https://bugs.launchpad.net/senlin/+bug/1451374,2015-12-08
+1519192,1519192,Fix Released,New version of openstacksdk is breaking jenkins,https://bugs.launchpad.net/senlin/+bug/1519192,2015-12-08
+1523421,1523421,Fix Released,Invalid error seen on horizon when adding second router-interface from the same network using port,https://bugs.launchpad.net/vmware-nsx/+bug/1523421,2015-12-08
+1514805,1514805,Fix Released,[CDH] Add ability of disabling anti_affinity checks for cluster with HA,https://bugs.launchpad.net/sahara/+bug/1514805,2015-12-08
+1502854,1502854,Fix Released,[UI] Cannot get information about job on fake plugin with empty datasources,https://bugs.launchpad.net/sahara/+bug/1502854,2015-12-08
+1523529,1523529,Fix Released,[systest] Tests for network templates fail due to new interfaces naming schema: AttributeError: 'NoneType' object has no attribute 'id',https://bugs.launchpad.net/fuel/+bug/1523529,2015-12-08
+1515610,1515610,Fix Released,Log steps function in fuel-qa should warn when there are errors in step order,https://bugs.launchpad.net/fuel/+bug/1515610,2015-12-08
+1522687,1522687,Fix Released,migration vs model mismatch,https://bugs.launchpad.net/networking-midonet/+bug/1522687,2015-12-08
+1482643,1482643,Fix Released,[system-tests] Flake/pep8/codestyle violations,https://bugs.launchpad.net/fuel/+bug/1482643,2015-12-08
+1482642,1482642,Fix Released,[system-tests] Remove unused code,https://bugs.launchpad.net/fuel/+bug/1482642,2015-12-08
+1521638,1521638,Fix Released,Election code hits EtcdEventIndexCleared when waiting for leader change,https://bugs.launchpad.net/networking-calico/+bug/1521638,2015-12-08
+1519884,1519884,Fix Released,sqlalchemy reqt can cause debian package to be uninstallable,https://bugs.launchpad.net/networking-calico/+bug/1519884,2015-12-08
+1519830,1519830,Fix Released,Various leader election improvements,https://bugs.launchpad.net/networking-calico/+bug/1519830,2015-12-08
+1519799,1519799,Fix Released,Deadlock between eventlet and mysql driver in neutron plugin,https://bugs.launchpad.net/networking-calico/+bug/1519799,2015-12-08
+1519795,1519795,Fix Released,Periodic resync thread doesn't handle concurrent deletion,https://bugs.launchpad.net/networking-calico/+bug/1519795,2015-12-08
+1519783,1519783,Fix Released,DevStack bootstrap script should not set SERVICE_HOST,https://bugs.launchpad.net/networking-calico/+bug/1519783,2015-12-08
+1457033,1457033,Fix Released,39 to 40 upgrade fails when DB is caring about boolean type,https://bugs.launchpad.net/cinder/+bug/1457033,2015-12-08
+1523336,1523336,Fix Released,Update Ubuntu Vagrant bootstrap script,https://bugs.launchpad.net/kolla/+bug/1523336,2015-12-08
+1461970,1461970,Fix Released,Hyper-V: failed to destroy instance,https://bugs.launchpad.net/nova/+bug/1461970,2015-12-08
+1515676,1515676,Fix Released,Incorrect error message when show non-existing env-template,https://bugs.launchpad.net/python-muranoclient/+bug/1515676,2015-12-08
+1523795,1523795,Fix Released,Replace full-width quote with half-width,https://bugs.launchpad.net/kuryr/+bug/1523795,2015-12-08
+1523386,1523386,Fix Released,Using dictionary literal to create dictionary,https://bugs.launchpad.net/kuryr/+bug/1523386,2015-12-08
+1405477,1405477,Fix Committed,neutron-agent-dhcp takes excessive amount of time when you have a lot of networks,https://bugs.launchpad.net/fuel/+bug/1405477,2015-12-08
+1521943,1521943,Fix Released,[CLI] fuel openstack-config list produce '400 Client Error: Bad Request',https://bugs.launchpad.net/fuel/+bug/1521943,2015-12-08
+1501290,1501290,Fix Released,"Cannot set a custom 'Content-Type' via -H option to  the ""swift upload""",https://bugs.launchpad.net/python-swiftclient/+bug/1501290,2015-12-08
+1522719,1522719,Fix Committed,can't extend supported_extension_aliases from the remote repo,https://bugs.launchpad.net/networking-plumgrid/+bug/1522719,2015-12-08
+1520542,1520542,Fix Released,"Glance v2 - ""id"" param for create image operation is unclear",https://bugs.launchpad.net/openstack-api-site/+bug/1520542,2015-12-08
+1523359,1523359,Fix Released,"Cannot open ""Adds extra routes"" on network API",https://bugs.launchpad.net/openstack-api-site/+bug/1523359,2015-12-08
+1522293,1522293,Fix Released,Compute flavor manage API URI etc are wrong,https://bugs.launchpad.net/openstack-api-site/+bug/1522293,2015-12-08
+1521846,1521846,Fix Released,"Metering not configured for all-in-one DVR job, failing tests",https://bugs.launchpad.net/neutron/+bug/1521846,2015-12-07
+1495051,1495051,Fix Released,Integrity life-cycle in Security Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1495051,2015-12-07
+1523239,1523239,Fix Released,Redis is now too old for puppet-redis,https://bugs.launchpad.net/tripleo/+bug/1523239,2015-12-07
+1470799,1470799,Fix Released,1.0.0 beta 1 requires kmip >= 0.3.2,https://bugs.launchpad.net/barbican/+bug/1470799,2015-12-07
+1379040,1379040,Fix Released,SwiftSignalHandle needs a handle_delete method,https://bugs.launchpad.net/heat/+bug/1379040,2015-12-07
+1392867,1392867,Fix Released,Unable to delete a stack with multiple SwiftSignalHandles,https://bugs.launchpad.net/heat/+bug/1392867,2015-12-07
+1419693,1419693,Fix Released,heat engine fail to stop RPC service gracefully,https://bugs.launchpad.net/heat/+bug/1419693,2015-12-07
+1424899,1424899,Fix Released,total_resources() does not handle nested stack NotFound,https://bugs.launchpad.net/heat/+bug/1424899,2015-12-07
+1424600,1424600,Fix Released,if a comma_delimited_list does not have a value or default you can't show the stack,https://bugs.launchpad.net/heat/+bug/1424600,2015-12-07
+1418935,1418935,Fix Released,environment is not honoured when using template resources,https://bugs.launchpad.net/heat/+bug/1418935,2015-12-07
+1385244,1385244,Fix Released,[Heat] Inappropriate color for stack resources rows,https://bugs.launchpad.net/horizon/+bug/1385244,2015-12-07
+1375348,1375348,Fix Released,swift-object-auditor keeps forking processes if /srv is not accessible,https://bugs.launchpad.net/swift/+bug/1375348,2015-12-07
+1381679,1381679,Fix Released,"""VLAN"", ""VXLAN"" and ""GRE"" are hardcoded",https://bugs.launchpad.net/horizon/+bug/1381679,2015-12-07
+1522054,1522054,Fix Released,hacking does not catch LOG.info(_('who lets the dogs out')),https://bugs.launchpad.net/neutron/+bug/1522054,2015-12-07
+1522489,1522489,Fix Released,Watcher Applier - variables written in CamelCase,https://bugs.launchpad.net/watcher/+bug/1522489,2015-12-07
+1522843,1522843,Fix Released,Invalid icon is not shown for Other subtab on Networks tab,https://bugs.launchpad.net/fuel/+bug/1522843,2015-12-07
+1455015,1455015,Fix Released,[systest] Re-factor methods which modify astute.yaml,https://bugs.launchpad.net/fuel/+bug/1455015,2015-12-07
+1514797,1514797,Fix Released,"[testrail] Reporter fails if API returned ""429 Too Many Requests""",https://bugs.launchpad.net/fuel/+bug/1514797,2015-12-07
+1519797,1519797,Fix Released,[testrail] Change name format for SWARM tests suite,https://bugs.launchpad.net/fuel/+bug/1519797,2015-12-07
+1521506,1521506,Fix Released,Hostname renaming error is not removed,https://bugs.launchpad.net/fuel/+bug/1521506,2015-12-07
+1515168,1515168,Fix Released,Broken layout of repo validation error,https://bugs.launchpad.net/fuel/+bug/1515168,2015-12-07
+1514817,1514817,Fix Released,"In modern distributions /proc/acpi/event is deprecated, so puppet will not apply in host.pp acpi support",https://bugs.launchpad.net/fuel/+bug/1514817,2015-12-07
+1516247,1516247,Fix Released,Logs loading error message is not shown on UI,https://bugs.launchpad.net/fuel/+bug/1516247,2015-12-07
+1522607,1522607,Fix Committed,ubuntu yum-builddep doesn't correclty reveal rhel macros,https://bugs.launchpad.net/fuel/+bug/1522607,2015-12-07
+1520041,1520041,Fix Released,doc/source/man/neutron-server.rst is out-of-date. is it necessary?,https://bugs.launchpad.net/neutron/+bug/1520041,2015-12-07
+1451621,1451621,Fix Released,creating resources with an empty tenant_id succeeds when using noop driver,https://bugs.launchpad.net/neutron/+bug/1451621,2015-12-07
+1521766,1521766,Fix Released,pylint breakage in neutron and neutron-vpnaas,https://bugs.launchpad.net/neutron/+bug/1521766,2015-12-07

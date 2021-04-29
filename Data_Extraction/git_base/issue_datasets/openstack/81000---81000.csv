@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1247901,1247901,Fix Released,Querying Windows via WMI intermittently fails in get_device_number_for_target,https://bugs.launchpad.net/nova/+bug/1247901,2014-04-17
+1246206,1246206,Fix Released,VMware: regex support missing for ESX driver,https://bugs.launchpad.net/nova/+bug/1246206,2014-04-17
+1245564,1245564,Fix Released,datastore selection is incorrect if token is being used,https://bugs.launchpad.net/nova/+bug/1245564,2014-04-17
+1241017,1241017,Fix Released,Unshelve bypasses resource tracker,https://bugs.launchpad.net/nova/+bug/1241017,2014-04-17
+1231963,1231963,Fix Released,Resource limits check sometimes enforced when using forced scheduling,https://bugs.launchpad.net/nova/+bug/1231963,2014-04-17
+1231215,1231215,Fix Released,to_xml should be used in post_live_migration_at_destination method,https://bugs.launchpad.net/nova/+bug/1231215,2014-04-17
+1207576,1207576,Fix Released,"python package amqp, should not run in debug mode when nova is in debug mode",https://bugs.launchpad.net/nova/+bug/1207576,2014-04-17
+1192528,1192528,Fix Released,XenAPI VCPU information unavailable,https://bugs.launchpad.net/nova/+bug/1192528,2014-04-17
+1285735,1285735,Fix Released,libvirt lvm volumes based on instance['name'] not instance['uuid'],https://bugs.launchpad.net/nova/+bug/1285735,2014-04-17
+1284312,1284312,Fix Released,vmware driver races to create instance images,https://bugs.launchpad.net/nova/+bug/1284312,2014-04-17
+1282822,1282822,Fix Released,XenAPI: Race condition in wait for coalesce,https://bugs.launchpad.net/nova/+bug/1282822,2014-04-17
+1280034,1280034,Fix Released,compute_node_update broken with havana compute nodes,https://bugs.launchpad.net/nova/+bug/1280034,2014-04-17
+1279358,1279358,Fix Released,instance_get_all_by_filters() got an unexpected keyword argument 'use_slave',https://bugs.launchpad.net/nova/+bug/1279358,2014-04-17
+1276644,1276644,Fix Released,VMware: exception when deleting a VM that has no datastore,https://bugs.launchpad.net/nova/+bug/1276644,2014-04-17
+1274439,1274439,Fix Released,VMware: operations against VC/ESX are taking at least 5 seconds,https://bugs.launchpad.net/nova/+bug/1274439,2014-04-17
+1274341,1274341,Fix Released,reservation_commit can lead to deadlock,https://bugs.launchpad.net/nova/+bug/1274341,2014-04-17
+1271780,1271780,Fix Released,block live migration writes wrong libvirt.xml,https://bugs.launchpad.net/nova/+bug/1271780,2014-04-17
+1271331,1271331,Fix Released,unit test failure in gate nova.tests.db.test_sqlite.TestSqlite.test_big_int_mapping,https://bugs.launchpad.net/nova/+bug/1271331,2014-04-17
+1266580,1266580,Fix Released,VMware: Unable to delete image cache vmdk while launching instance,https://bugs.launchpad.net/nova/+bug/1266580,2014-04-17
+1266579,1266579,Fix Released,VMware: Unable to launch instance because vmware_base already exists,https://bugs.launchpad.net/nova/+bug/1266579,2014-04-17
+1265452,1265452,Fix Released,cache lock for image not consistent,https://bugs.launchpad.net/nova/+bug/1265452,2014-04-17
+1262288,1262288,Fix Released,ignored VimFaultException showing up in nova unit test logs,https://bugs.launchpad.net/nova/+bug/1262288,2014-04-17
+1258603,1258603,Fix Released,tests still fail when libvirt not installed,https://bugs.launchpad.net/nova/+bug/1258603,2014-04-17
+1258179,1258179,Fix Released,VMware: timeouts due to nova-compute stuck at 100% when using deploying 100 VMs,https://bugs.launchpad.net/nova/+bug/1258179,2014-04-17
+1257998,1257998,Fix Released,VMware driver reporting incorrect available vcpus,https://bugs.launchpad.net/nova/+bug/1257998,2014-04-17
+1255609,1255609,Fix Released,VMware: possible collision of VNC ports,https://bugs.launchpad.net/nova/+bug/1255609,2014-04-17
+1254122,1254122,Fix Released,Failure to power off a VM during delete leads to it going back to Active(None),https://bugs.launchpad.net/nova/+bug/1254122,2014-04-17
+1253455,1253455,Fix Released,Compute node stats update may lead to DBDeadlock,https://bugs.launchpad.net/nova/+bug/1253455,2014-04-17
+1251590,1251590,Fix Released,[OSSA 2014-003] Live migration can leak root disk into ephemeral storage (CVE-2013-7130),https://bugs.launchpad.net/ossa/+bug/1251590,2014-04-17
+1251590,1251590,Fix Released,[OSSA 2014-003] Live migration can leak root disk into ephemeral storage (CVE-2013-7130),https://bugs.launchpad.net/nova/+bug/1251590,2014-04-17
+1251235,1251235,Fix Released,IPv6 DAD failure due to hairpinning,https://bugs.launchpad.net/nova/+bug/1251235,2014-04-17
+1247556,1247556,Fix Released,VMware: rescue with IDE disks fails,https://bugs.launchpad.net/nova/+bug/1247556,2014-04-17
+1246258,1246258,Fix Released,UnboundLocalError: local variable 'network_name' referenced before assignment,https://bugs.launchpad.net/nova/+bug/1246258,2014-04-17
+1243193,1243193,Fix Released,VMware: snapshot backs up wrong disk when instance is attached to volume,https://bugs.launchpad.net/nova/+bug/1243193,2014-04-17
+1220892,1220892,Fix Released,Add oslo.messaging config options to sample config file,https://bugs.launchpad.net/nova/+bug/1220892,2014-04-17
+1286457,1286457,Fix Released,docker regression with get_available_resource marked private,https://bugs.launchpad.net/nova/+bug/1286457,2014-04-17
+1279572,1279572,Fix Released,DBError in nova-compute with baremetal driver after stats table change,https://bugs.launchpad.net/tripleo/+bug/1279572,2014-04-17
+1279572,1279572,Fix Released,DBError in nova-compute with baremetal driver after stats table change,https://bugs.launchpad.net/nova/+bug/1279572,2014-04-17
+1278149,1278149,Fix Released,VMware: InstanceNotRescuable hit during rescue tempest tests,https://bugs.launchpad.net/nova/+bug/1278149,2014-04-17
+1277790,1277790,Fix Released,boto 2.25 causing unit tests to fail,https://bugs.launchpad.net/nova/+bug/1277790,2014-04-17
+1271562,1271562,Fix Released,Failed deployment of VM due to the use of guestfs.GuestFS (close_on_exit = False),https://bugs.launchpad.net/nova/+bug/1271562,2014-04-17
+1270693,1270693,Fix Released,_last_vol_usage_poll was not properly updated,https://bugs.launchpad.net/nova/+bug/1270693,2014-04-17
+1270654,1270654,Fix Released,test_different_fname_concurrency flakey fail,https://bugs.launchpad.net/nova/+bug/1270654,2014-04-17
+1258848,1258848,Fix Released,vif doesn't exist Error message in tempest runs,https://bugs.launchpad.net/nova/+bug/1258848,2014-04-17
+1268665,1268665,Fix Released,metadata service should be setting the objects indirection_api,https://bugs.launchpad.net/nova/+bug/1268665,2014-04-17
+1267847,1267847,Fix Released,nova rootwrap fails on blockdev,https://bugs.launchpad.net/nova/+bug/1267847,2014-04-17
+1266450,1266450,Fix Released,Remove unused variables in imagebackend.py,https://bugs.launchpad.net/nova/+bug/1266450,2014-04-17
+1265618,1265618,Fix Released,image_snapshot_pending state breaks havana nodes,https://bugs.launchpad.net/nova/+bug/1265618,2014-04-17
+1265607,1265607,Fix Released,Instance.refresh() sends new info_cache objects,https://bugs.launchpad.net/nova/+bug/1265607,2014-04-17
+1265408,1265408,Fix Released,Remove unused code in nova/api/ec2/__init__.py,https://bugs.launchpad.net/nova/+bug/1265408,2014-04-17
+1264058,1264058,Fix Released,run_test.sh broken for RequiredOptError: value required for option: lock_path,https://bugs.launchpad.net/nova/+bug/1264058,2014-04-17
+1263602,1263602,Fix Released,Do not use contextlib.nested if only mock one function,https://bugs.launchpad.net/nova/+bug/1263602,2014-04-17
+1262639,1262639,Fix Released,Exists notification sent even if rescue fails,https://bugs.launchpad.net/nova/+bug/1262639,2014-04-17
+1262039,1262039,Fix Released,"Inconsistent ""image"" value on _get_image()",https://bugs.launchpad.net/nova/+bug/1262039,2014-04-17
+1261728,1261728,Fix Released,Interprocess file locks aren't usable in unit tests,https://bugs.launchpad.net/nova/+bug/1261728,2014-04-17
+1261675,1261675,Fix Released,Unable to snapshot an instance with ephemeral RBD,https://bugs.launchpad.net/nova/+bug/1261675,2014-04-17
+1257874,1257874,Fix Released,xenapi: Update instance overhead estimation,https://bugs.launchpad.net/nova/+bug/1257874,2014-04-17
+1257661,1257661,Fix Released,should handle boolean string parameters through migrate_live API,https://bugs.launchpad.net/nova/+bug/1257661,2014-04-17
+1256264,1256264,Fix Released,[Docker] Driver doesn't respect CPU limit,https://bugs.launchpad.net/nova/+bug/1256264,2014-04-17
+1255471,1255471,Fix Released,Remove ratelimit from v3 api,https://bugs.launchpad.net/nova/+bug/1255471,2014-04-17
+1254988,1254988,Fix Released,The body validation is redundant for createBackup,https://bugs.launchpad.net/nova/+bug/1254988,2014-04-17
+1254902,1254902,Fix Released,Conductor returns new instance objects to older clients in list operations,https://bugs.launchpad.net/nova/+bug/1254902,2014-04-17
+1254664,1254664,Fix Released,Network quotas are ignored by libvirt when Open vSwitch is used,https://bugs.launchpad.net/nova/+bug/1254664,2014-04-17
+1254616,1254616,Fix Released,max_count and min_count should be converted into the type: int,https://bugs.launchpad.net/nova/+bug/1254616,2014-04-17
+1254356,1254356,Fix Released,ComputeFilter shouldn’t generate a warning for disabled hosts,https://bugs.launchpad.net/nova/+bug/1254356,2014-04-17
+1253089,1253089,Fix Released,An Unexpected API Error return when call nova v3 api with not enough parameters,https://bugs.launchpad.net/nova/+bug/1253089,2014-04-17
+1252177,1252177,Fix Released,The argument availability_zone of create aggregate should be optional,https://bugs.launchpad.net/nova/+bug/1252177,2014-04-17
+1252162,1252162,Fix Released,The status code of create/delete in FlavorManage was wrong,https://bugs.launchpad.net/nova/+bug/1252162,2014-04-17
+1250206,1250206,Fix Released,Local delete emits delete.end notification without delete_at,https://bugs.launchpad.net/nova/+bug/1250206,2014-04-17
+1247735,1247735,Fix Released,500 occurs when making a reboot request without the type field,https://bugs.launchpad.net/nova/+bug/1247735,2014-04-17
+1245696,1245696,Fix Released,Fix response code and improve error message network not found,https://bugs.launchpad.net/nova/+bug/1245696,2014-04-17
+1243108,1243108,Fix Released,Image device should be reset after mounting and teardown,https://bugs.launchpad.net/nova/+bug/1243108,2014-04-17
+1243083,1243083,Fix Released,lxc container rootfs is attached to more than one device when rebooted or resized,https://bugs.launchpad.net/nova/+bug/1243083,2014-04-17
+1240820,1240820,Fix Released,"when doing live migration, there are a lot of duplicate logic to release instance resource between driver destory and post live migration",https://bugs.launchpad.net/nova/+bug/1240820,2014-04-17
+1240470,1240470,Fix Released,baremetal volume driver lacks testcases,https://bugs.launchpad.net/nova/+bug/1240470,2014-04-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1506951,1506951,Fix Released,Generic driver does not wait for user share servers,https://bugs.launchpad.net/manila/+bug/1506951,2015-12-03
+1504746,1504746,Fix Released,Sync Manila compression capabilite with the common capability doc,https://bugs.launchpad.net/manila/+bug/1504746,2015-12-03
+1504052,1504052,Fix Released,manila_tempest_tests gets admin credentials from identity group while identity group has been deprecated by some change.,https://bugs.launchpad.net/manila/+bug/1504052,2015-12-03
+1500899,1500899,Fix Released,Security service tests use names instead of IPs,https://bugs.launchpad.net/manila/+bug/1500899,2015-12-03
+1498590,1498590,Fix Released,"Quobyte driver reports incorrect capability ""snapshot_support""",https://bugs.launchpad.net/manila/+bug/1498590,2015-12-03
+1516634,1516634,Fix Released,Openstack typo,https://bugs.launchpad.net/glance/+bug/1516634,2015-12-03
+1516634,1516634,Fix Released,Openstack typo,https://bugs.launchpad.net/manila/+bug/1516634,2015-12-03
+1434565,1434565,Fix Released,SingleNeutronNetwork plugin has poor validation of share-network,https://bugs.launchpad.net/manila/+bug/1434565,2015-12-03
+1516997,1516997,Fix Released,Typo on quota limit error message,https://bugs.launchpad.net/manila/+bug/1516997,2015-12-03
+1502375,1502375,Fix Released,unnecessary input parameter emc_share_driver in EMC manila plugin framework,https://bugs.launchpad.net/manila/+bug/1502375,2015-12-03
+1499263,1499263,Fix Released,LegacyFormatter no longer exists,https://bugs.launchpad.net/manila/+bug/1499263,2015-12-03
+1507605,1507605,Fix Released,no-share-servers tempest job fails,https://bugs.launchpad.net/manila/+bug/1507605,2015-12-03
+1502063,1502063,Fix Released,Generic driver does not have verification of configured VM for DHSS=False mode,https://bugs.launchpad.net/manila/+bug/1502063,2015-12-03
+1500964,1500964,Fix Released,Manila-shr is auto restarted if exception is thrown in do_setup(),https://bugs.launchpad.net/manila/+bug/1500964,2015-12-03
+1493406,1493406,Fix Released,Tempest tests for consistency groups are slow,https://bugs.launchpad.net/manila/+bug/1493406,2015-12-03
+1519028,1519028,Fix Released,Wrong place for sourcing devstack functions in CI hooks,https://bugs.launchpad.net/manila/+bug/1519028,2015-12-03
+1502809,1502809,Fix Released,Manila-share service considered alive by scheduler when driver init failed,https://bugs.launchpad.net/manila/+bug/1502809,2015-12-03
+1491384,1491384,Fix Released,NetApp: Manila cDOT multi-svm driver cannot handle duplicate ip addresses,https://bugs.launchpad.net/manila/+bug/1491384,2015-12-03
+1498646,1498646,Fix Released,Can't create shares on drivers that don't support snapshots,https://bugs.launchpad.net/manila/+bug/1498646,2015-12-03
+1498835,1498835,Fix Released,glusterfs_driver: Allow access with NFS volume mapped layout is broken,https://bugs.launchpad.net/manila/+bug/1498835,2015-12-03
+1499124,1499124,Fix Released,glusterfs: Gluster NFS with vol layout tolerates improper GlusterFS config,https://bugs.launchpad.net/manila/+bug/1499124,2015-12-03
+1498858,1498858,Fix Released,"Some tempest tests use custom share type and it is impossible to redefine extra spec ""snapshot_support"" default value",https://bugs.launchpad.net/manila/+bug/1498858,2015-12-03
+1499743,1499743,Fix Released,'test_trans_add' unit test broken on Python 3.4.3,https://bugs.launchpad.net/manila/+bug/1499743,2015-12-03
+1499334,1499334,Fix Released,Regression: Proprietary code needed to use NetApp with Cinder and Manila,https://bugs.launchpad.net/cinder/+bug/1499334,2015-12-03
+1499334,1499334,Fix Released,Regression: Proprietary code needed to use NetApp with Cinder and Manila,https://bugs.launchpad.net/manila/+bug/1499334,2015-12-03
+1500257,1500257,Fix Released,NetApp cDOT driver isn't reentrant,https://bugs.launchpad.net/manila/+bug/1500257,2015-12-03
+1499347,1499347,Fix Released,"gluster_native: nfs vol mapped layout: shares created from snapshots aren't started, hence are inaccessible",https://bugs.launchpad.net/manila/+bug/1499347,2015-12-03
+1499733,1499733,Fix Released,"API access-allow returns data about access rule instances, but should not do it",https://bugs.launchpad.net/manila/+bug/1499733,2015-12-03
+1499677,1499677,Fix Released,manila-manage service list show python object representation for zone,https://bugs.launchpad.net/manila/+bug/1499677,2015-12-03
+1503969,1503969,Fix Released,several unit tests are broken using six==1.10,https://bugs.launchpad.net/manila/+bug/1503969,2015-12-03
+1475909,1475909,Fix Released,Barbican Unit Tests Fail with Mock>=1.0,https://bugs.launchpad.net/barbican/+bug/1475909,2015-12-03
+1508022,1508022,Fix Released,oslo.messaging 2.7.0 cause CI fail,https://bugs.launchpad.net/aodh/+bug/1508022,2015-12-03
+1517724,1517724,Fix Committed,elastic recheck unit tests are failing with ImportError: cannot import name always_iterable,https://bugs.launchpad.net/openstack-gate/+bug/1517724,2015-12-03
+1515706,1515706,Fix Released,rename get_job_status to get_job_info,https://bugs.launchpad.net/sahara/+bug/1515706,2015-12-03
+1514322,1514322,Fix Released,plugin version error in scenario test for vanilla,https://bugs.launchpad.net/sahara/+bug/1514322,2015-12-03
+1510611,1510611,Fix Released,Scenario tests not provide information about failed jobs,https://bugs.launchpad.net/sahara/+bug/1510611,2015-12-03
+1508027,1508027,Fix Released,Jobs fail if run via scenario tests on low machine,https://bugs.launchpad.net/sahara/+bug/1508027,2015-12-03
+1503983,1503983,Fix Released,Sahara doesn't support api-paste.ini,https://bugs.launchpad.net/sahara/+bug/1503983,2015-12-03
+1519237,1519237,Fix Released,No need to check edp_engine  is None,https://bugs.launchpad.net/sahara/+bug/1519237,2015-12-03
+1517211,1517211,Fix Released,Port configuration option produces warnings when generating sample config,https://bugs.launchpad.net/sahara/+bug/1517211,2015-12-03
+1515942,1515942,Fix Released,[Docs][sahara-image-elements] Incorrect command for creating plain image,https://bugs.launchpad.net/sahara/+bug/1515942,2015-12-03
+1512813,1512813,Fix Released,add security group example and remove TODO in features.rst,https://bugs.launchpad.net/sahara/+bug/1512813,2015-12-03
+1511256,1511256,Fix Released,Missing underline for python magic method __getsclice__,https://bugs.launchpad.net/sahara/+bug/1511256,2015-12-03
+1504758,1504758,Fix Released,Optimize the code:  remove the redundant statement in get_instance() of vanallia and other plugins,https://bugs.launchpad.net/sahara/+bug/1504758,2015-12-03
+1501663,1501663,Fix Released,Refactor the code : vanilla hadoop2 plugin code uses if statements inefficiently,https://bugs.launchpad.net/sahara/+bug/1501663,2015-12-03
+1501225,1501225,Fix Released,Error spelling of a word,https://bugs.launchpad.net/sahara/+bug/1501225,2015-12-03
+1501197,1501197,Fix Released,"Error spelling of ""occured""",https://bugs.launchpad.net/sahara/+bug/1501197,2015-12-03
+1519842,1519842,Fix Released,Grenade job occasional failures due to lack of resources,https://bugs.launchpad.net/sahara/+bug/1519842,2015-12-03
+1510505,1510505,Fix Released,image can't be registered without description parameter,https://bugs.launchpad.net/sahara/+bug/1510505,2015-12-03
+1508701,1508701,Fix Released,[Ambari] Sahara should allow users to disable fetching base mirrors during cluster deployment,https://bugs.launchpad.net/sahara/+bug/1508701,2015-12-03
+1506334,1506334,Fix Released,[cdh] current service-role views in creating ng is incorrect,https://bugs.launchpad.net/sahara/+bug/1506334,2015-12-03
+1503709,1503709,Fix Released,Storm WebUI unavailable,https://bugs.launchpad.net/sahara/+bug/1503709,2015-12-03
+1502886,1502886,Fix Released,Ambari stack requires several extra packages w/o internet access,https://bugs.launchpad.net/sahara/+bug/1502886,2015-12-03
+1498479,1498479,Fix Released,Impala fails to install on Ubuntu bare images in MapR plugin,https://bugs.launchpad.net/sahara/+bug/1498479,2015-12-03
+1485648,1485648,Fix Released,[DOC] Quickstart user guide is too old,https://bugs.launchpad.net/sahara/+bug/1485648,2015-12-03
+1413602,1413602,Fix Released,"[Vanilla2] Hive job has ""KILLED"" state after scaling cluster",https://bugs.launchpad.net/sahara/+bug/1413602,2015-12-03
+1396211,1396211,Fix Released,HDP and CDH plugins should not require the Internet access,https://bugs.launchpad.net/sahara/+bug/1396211,2015-12-03
+1507646,1507646,Fix Released,grenade job is broken,https://bugs.launchpad.net/sahara/+bug/1507646,2015-12-03
+1503322,1503322,Fix Released,Grenade job should support liberty->master upgrade,https://bugs.launchpad.net/sahara/+bug/1503322,2015-12-03
+1498967,1498967,Fix Released,[SIE] swift_hadoop element uses hardcoded values that may not be correct for all plugins and distros,https://bugs.launchpad.net/sahara/+bug/1498967,2015-12-03
+1192383,1192383,Fix Released,Nova creates too many tokens when booting an image,https://bugs.launchpad.net/python-neutronclient/+bug/1192383,2015-12-03
+1505326,1505326,Fix Released,Unit tests failing with requests 2.8.0,https://bugs.launchpad.net/openstack-ansible/+bug/1505326,2015-12-03
+1489451,1489451,Fix Released,Not able to connect memcached_container while running setup-infrastructure.yml,https://bugs.launchpad.net/openstack-ansible/+bug/1489451,2015-12-03
+1500656,1500656,Fix Released,neutron-lbaas devstack readme.md is out of date,https://bugs.launchpad.net/neutron/+bug/1500656,2015-12-03
+1501505,1501505,Fix Released,Allow updating of TLS refs,https://bugs.launchpad.net/neutron/+bug/1501505,2015-12-03
+1481692,1481692,Fix Released,Neutron usage_audit's router and floating IP reporting doesn't work with ML2 plugin,https://bugs.launchpad.net/neutron/+bug/1481692,2015-12-03
+1499054,1499054,Fix Released,devstack VMs are not booting,https://bugs.launchpad.net/neutron/+bug/1499054,2015-12-03
+1497930,1497930,Fix Released,ovs_agent fails to start on Windows because root_helper cfg opt is not found,https://bugs.launchpad.net/neutron/+bug/1497930,2015-12-03
+1499339,1499339,Fix Released,sec_group rule quota usage unreliable,https://bugs.launchpad.net/neutron/+bug/1499339,2015-12-03
+1499345,1499345,Fix Released,ovs-neutron-agent fails to start on Windows because signal SIGHUP does not exist,https://bugs.launchpad.net/neutron/+bug/1499345,2015-12-03
+1501090,1501090,Fix Released,OVSDB wait_for_change waits for a change that has already happened,https://bugs.launchpad.net/neutron/+bug/1501090,2015-12-03
+1499784,1499784,Fix Released,ovsdb native implementation calls to ovs-vsctl to open the connection port on each BaseOVS __init__ call,https://bugs.launchpad.net/neutron/+bug/1499784,2015-12-03
+1465678,1465678,Fix Released,Table cisco_ml2_apic_contracts has wrong router_id field length: 64 vs 36 in routers.id,https://bugs.launchpad.net/neutron/+bug/1465678,2015-12-03
+1465678,1465678,Fix Committed,Table cisco_ml2_apic_contracts has wrong router_id field length: 64 vs 36 in routers.id,https://bugs.launchpad.net/networking-cisco/+bug/1465678,2015-12-03
+1501703,1501703,Fix Released,unit test failures on 32 bit architectures,https://bugs.launchpad.net/neutron/+bug/1501703,2015-12-03

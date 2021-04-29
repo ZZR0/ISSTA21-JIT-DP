@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1647451,1647451,Fix Released,Post live migration step could fail due to auth errors,https://bugs.launchpad.net/nova/+bug/1647451,2020-08-18
+1891299,1891299,Fix Released,can't use bindep on ubuntu focal,https://bugs.launchpad.net/diskimage-builder/+bug/1891299,2020-08-18
+1828534,1828534,Fix Released,"[19.04][Queens -> Rocky] Upgrading to Rocky resulted in ""Services not running that should be: designate-producer""",https://bugs.launchpad.net/designate/+bug/1828534,2020-08-18
+1891293,1891293,Fix Released,periodic centos-8 scen10 standalone master fails tempest - octavia_tempest_plugin scenario.v2,https://bugs.launchpad.net/tripleo/+bug/1891293,2020-08-18
+1891179,1891179,Fix Released,periodic OVB train centos 7 failing ovb-manage No server with a name or ID,https://bugs.launchpad.net/tripleo/+bug/1891179,2020-08-18
+1860757,1860757,Fix Released,[ussuri][CentOS][scenario003] Mistral Tempest failing tests with  TypeError: dump_all() got an unexpected keyword argument 'sort_keys',https://bugs.launchpad.net/puppet-openstack-integration/+bug/1860757,2020-08-18
+1862726,1862726,Fix Released,[master][heat][CentOS][scenario001/003] Failing tempest tests as heat-tempest-plugin needs gabbi >= 1.49.0,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1862726,2020-08-18
+1889089,1889089,Fix Released,EFI compatible image are not BIOS bootable,https://bugs.launchpad.net/diskimage-builder/+bug/1889089,2020-08-18
+1891317,1891317,Fix Released,"openstack-tox-tht ci failing with sudo: a password is required\n"", ""module_stdout"": """", ""msg"": ""MODULE FAILURE\nSee stdout/stderr for the exact error",https://bugs.launchpad.net/tripleo/+bug/1891317,2020-08-18
+1889075,1889075,Fix Released,overcloud deploy fails at step 2 when file driver + NFS share is used in Gnocchi,https://bugs.launchpad.net/tripleo/+bug/1889075,2020-08-18
+1886222,1886222,Fix Released,Creating snapshot on NFS backend fails,https://bugs.launchpad.net/cinder/+bug/1886222,2020-08-18
+1891008,1891008,Fix Released,function unpackb has no encoding parameter,https://bugs.launchpad.net/zaqar/+bug/1891008,2020-08-18
+1796689,1796689,Fix Released,Incorrect results for tenant usage,https://bugs.launchpad.net/nova/+bug/1796689,2020-08-18
+1763766,1763766,Fix Released,nova needs to disallow resource consumption changes on image rebuild,https://bugs.launchpad.net/nova/+bug/1763766,2020-08-18
+1804502,1804502,Fix Released,Rebuild server with NUMATopologyFilter enabled fails (in some cases),https://bugs.launchpad.net/nova/+bug/1804502,2020-08-18
+1821837,1821837,Fix Released,[api-ref] user_id missing from create/show/manage share API reference,https://bugs.launchpad.net/manila/+bug/1821837,2020-08-17
+1891685,1891685,Fix Released,tgtd should not be listed in support matrix for CentOS 8,https://bugs.launchpad.net/kolla/+bug/1891685,2020-08-17
+1891243,1891243,Fix Released,neutron tempest failure: neutron_tempest_plugin.api.test_extensions.ExtensionsTest.test_list_extensions_includes_all,https://bugs.launchpad.net/neutron/+bug/1891243,2020-08-17
+1871608,1871608,Fix Released,[OVN] Cannot create metadata port for segmented network,https://bugs.launchpad.net/neutron/+bug/1871608,2020-08-17
+1852276,1852276,Fix Released,Tempest - pip build options not loaded for stackviz install,https://bugs.launchpad.net/openstack-ansible/+bug/1852276,2020-08-17
+1738529,1738529,Fix Released,trove install fails,https://bugs.launchpad.net/openstack-ansible/+bug/1738529,2020-08-17
+1778195,1778195,Fix Released,[ceilometer on gnocchi] install failed,https://bugs.launchpad.net/openstack-ansible/+bug/1778195,2020-08-17
+1872737,1872737,Fix Released,[OSSA-2020-003] Keystone doesn't check signature TTL of the EC2 credential auth method (CVE-2020-12692),https://bugs.launchpad.net/keystone/+bug/1872737,2020-08-17
+1872737,1872737,Fix Released,[OSSA-2020-003] Keystone doesn't check signature TTL of the EC2 credential auth method (CVE-2020-12692),https://bugs.launchpad.net/ossa/+bug/1872737,2020-08-17
+1853453,1853453,Fix Released,test_shelve_volume_backed_instance intermittently fails guest ssh with dhcp lease fail,https://bugs.launchpad.net/tempest/+bug/1853453,2020-08-17
+1891000,1891000,Fix Released,master network component failing tempest -  neutron containers unexpected keyword argument 'libc',https://bugs.launchpad.net/tripleo/+bug/1891000,2020-08-17
+1887165,1887165,Fix Released,overcloud deploy can add undercloud hosts entries that keep growing,https://bugs.launchpad.net/tripleo/+bug/1887165,2020-08-15
+1891703,1891703,Fix Released,sandbox bug reporting,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1891703,2020-08-15
+1885551,1885551,Fix Released,[ovn] Geneve traffic should not create conntrack entries,https://bugs.launchpad.net/tripleo/+bug/1885551,2020-08-15
+1884832,1884832,Fix Released,"block level migration failed with ""Shared storage live-migration requires either shared storage or boot-from-volume with no local disks.""",https://bugs.launchpad.net/tempest/+bug/1884832,2020-08-14
+1886685,1886685,Fix Released,Big zone transfers with TSIG key throw  ;; Couldn't verify signature: tsig verify failure,https://bugs.launchpad.net/designate/+bug/1886685,2020-08-13
+1890421,1890421,Fix Released,NP never get applied when there's an LB being created,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1890421,2020-08-13
+1885873,1885873,Fix Released,Fluentd warnings when logging to Monasca,https://bugs.launchpad.net/kolla-ansible/+bug/1885873,2020-08-13
+1891105,1891105,Fix Committed,Image Pull 403 Forbidden When umask Set as 027 on Undercloud,https://bugs.launchpad.net/tripleo/+bug/1891105,2020-08-13
+1759210,1759210,Fix Released,Migrate tacker-horizon to Django 2.0,https://bugs.launchpad.net/tacker/+bug/1759210,2020-08-13
+1891490,1891490,Fix Released,bugbug,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1891490,2020-08-13
+1891495,1891495,Fix Released,Cannot login,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1891495,2020-08-13
+1891488,1891488,Fix Released,Critical Bug pyk,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1891488,2020-08-13
+1891489,1891489,Fix Released,Critical Bug jgs,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1891489,2020-08-13
+1891494,1891494,Fix Released,bugbug,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1891494,2020-08-13
+1891491,1891491,Fix Released,Critical Bug mcc,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1891491,2020-08-13
+1891496,1891496,Fix Released,hanjoo sandbox critical bug,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1891496,2020-08-13
+1891492,1891492,Fix Released,Doongsil Doongsil Cloud,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1891492,2020-08-13
+1891287,1891287,Fix Released,periodic integration pipelines POST_FAIL promoted-components-to-tripleo-ci-testing,https://bugs.launchpad.net/tripleo/+bug/1891287,2020-08-13
+1890266,1890266,Fix Released,centos 8 security & tripleo components + integration pipeline master - Failed container(s): ['nova_wait_for_api_service,https://bugs.launchpad.net/tripleo/+bug/1890266,2020-08-13
+1888022,1888022,Fix Released,Detach is broken for multi-attached fs-based volumes,https://bugs.launchpad.net/nova/+bug/1888022,2020-08-13
+1889635,1889635,Fix Released,Missing quotes in tripleo_common/inventories.py prevent host vars to be populated properly,https://bugs.launchpad.net/tripleo/+bug/1889635,2020-08-13
+1889764,1889764,Fix Released,/sbin/pcs cluster setup tripleo_cluster standalone addr=192.168.24.1 --token 10000 --encryption 1' returned 1 instead of one of [0],https://bugs.launchpad.net/tripleo/+bug/1889764,2020-08-13
+1889017,1889017,Fix Released,public_endpoint parameter causes incorrect url detection in keystone,https://bugs.launchpad.net/tripleo/+bug/1889017,2020-08-12
+1891244,1891244,Fix Released,*-grenade-multinode jobs fail with UnicodeDecodeError: 'utf-8' codec can't decode byte 0x87 in position 3: invalid start byte,https://bugs.launchpad.net/keystone/+bug/1891244,2020-08-12
+1891321,1891321,Fix Released,hello world,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1891321,2020-08-12
+1890997,1890997,Fix Released,"USSURI periodic ovb fs35 fails tempest ""computeFault"": {""code"": 500, ""message"": ""Unexpected API Error",https://bugs.launchpad.net/tripleo/+bug/1890997,2020-08-12
+1833835,1833835,Fix Released,[debian] MountFlags=shared fail for docker 18.09,https://bugs.launchpad.net/kolla-ansible/+bug/1833835,2020-08-12
+1885619,1885619,Fix Released,containers cannot replace /etc/hostname causing service failures on startup,https://bugs.launchpad.net/tripleo/+bug/1885619,2020-08-11
+1878720,1878720,Fix Released,Stack create failed when non-string fields in CephAnsibleEnvironmentVariables json,https://bugs.launchpad.net/tripleo/+bug/1878720,2020-08-11
+1890594,1890594,Fix Committed,_check_vdisk_fc_mappings does not handle snapshot mapping cleanup associated with volumes,https://bugs.launchpad.net/cinder/+bug/1890594,2020-08-11
+1690252,1690252,Fix Released,Docker L3 and VPN agent containers don't kill keealived with a SIGTERM,https://bugs.launchpad.net/kolla/+bug/1690252,2020-08-11
+1890844,1890844,Fix Released,glance_store should copy data files to glance while installed using setup.py,https://bugs.launchpad.net/glance-store/+bug/1890844,2020-08-11
+1887135,1887135,Fix Released,Task conditionals are not consistently  parsed when doing tasks file.,https://bugs.launchpad.net/tripleo/+bug/1887135,2020-08-11
+1885314,1885314,Fix Released,vexx: OVB master job running on vexxhost show some nodes failing  introspection step,https://bugs.launchpad.net/tripleo/+bug/1885314,2020-08-11
+1889126,1889126,Fix Released,Lot of skipped tasks with the tripleo-upgrade role.,https://bugs.launchpad.net/tripleo/+bug/1889126,2020-08-11
+1890078,1890078,Fix Released,Can't convert case styles when function argument is list,https://bugs.launchpad.net/tacker/+bug/1890078,2020-08-11
+1891006,1891006,Fix Released,Doc: Broken link in Tacker Rocky Specs,https://bugs.launchpad.net/tacker/+bug/1891006,2020-08-11
+1888853,1888853,Fix Released,tripleo modprobe handler is getting skipped,https://bugs.launchpad.net/tripleo/+bug/1888853,2020-08-11
+1890297,1890297,Fix Released,CI grenade jobs failing,https://bugs.launchpad.net/neutron/+bug/1890297,2020-08-10
+1890635,1890635,Fix Released,openstack-ansible-os_heat role creates duplicate admin project in heat domain,https://bugs.launchpad.net/openstack-ansible/+bug/1890635,2020-08-10
+1886615,1886615,Fix Released,Encrypted volumes unusable with internal TLS enabled,https://bugs.launchpad.net/kolla-ansible/+bug/1886615,2020-08-10
+1889219,1889219,Fix Released,Add support in quickstart to deploy standalone(on a libvirt node),https://bugs.launchpad.net/tripleo/+bug/1889219,2020-08-10
+1883671,1883671,Fix Released,"[SRIOV] When a VF is bound to a VM, Nova can't retrieve the PCI info",https://bugs.launchpad.net/nova/+bug/1883671,2020-08-10
+1832028,1832028,Fix Released,revert resize: vif-plugged external event sent too soon if Neutron is using OVS hybrid plug,https://bugs.launchpad.net/nova/+bug/1832028,2020-08-10
+1885617,1885617,Fix Released,"CentOS 8 train jobs fail with ""tripleo-podman not found"" error",https://bugs.launchpad.net/tripleo/+bug/1885617,2020-08-10
+1890571,1890571,Fix Released,"periodic integration/component jobs failing ""[Zuul] Log Stream did not terminate""",https://bugs.launchpad.net/tripleo/+bug/1890571,2020-08-10
+1880551,1880551,Fix Released,Incorrect document link,https://bugs.launchpad.net/tacker/+bug/1880551,2020-08-09
+1873067,1873067,Fix Released,openstack image create --disk-format raw  --container-format bare --tag amphora-image  --file /tmp/ansible.JI3rrX/amphora.img  fails w/ read timeout,https://bugs.launchpad.net/tripleo/+bug/1873067,2020-08-07
+1871086,1871086,Fix Released,tripleo-ci-centos-8-scenario001-standalone jobs failing with Container(s) with bad ExitCode: [''container-puppet-collectd''],https://bugs.launchpad.net/tripleo/+bug/1871086,2020-08-07

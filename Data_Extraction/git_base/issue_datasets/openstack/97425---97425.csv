@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+837021,837021,Fix Released,Nova Compute does not restart when there are running instances,https://bugs.launchpad.net/nova/+bug/837021,2012-01-29
+913974,913974,Fix Released,Quantum Admin Guide - Source Install section needs updating,https://bugs.launchpad.net/neutron/+bug/913974,2012-01-27
+921242,921242,Fix Released,Quantum Manager configuration sanity checks,https://bugs.launchpad.net/neutron/+bug/921242,2012-01-27
+828202,828202,Fix Released,Hosts API extension doesn't serialize to XML,https://bugs.launchpad.net/nova/+bug/828202,2012-01-27
+917094,917094,Fix Released,Paramiko key loading broken in expire_old_reviews.py,https://bugs.launchpad.net/openstack-ci/+bug/917094,2012-01-26
+914430,914430,Fix Released,Config files needed on Jenkins build slaves for glance functional tests,https://bugs.launchpad.net/openstack-ci/+bug/914430,2012-01-26
+917661,917661,Fix Released,python-keystoneclient bugs are not updated in LP keystone project,https://bugs.launchpad.net/openstack-ci/+bug/917661,2012-01-26
+907768,907768,Fix Released,Needs working melange-tarball jobs,https://bugs.launchpad.net/openstack-ci/+bug/907768,2012-01-26
+921634,921634,Fix Released,Race condition in unit.test_commands.TestCreateTokenCommand,https://bugs.launchpad.net/keystone/+bug/921634,2012-01-26
+907842,907842,Fix Released,Old negatively reviewed patches should be abandoned,https://bugs.launchpad.net/openstack-ci/+bug/907842,2012-01-25
+802671,802671,Fix Released,restart of nova-compute fails to create iptables rules,https://bugs.launchpad.net/nova/+bug/802671,2012-01-25
+708320,708320,Fix Released,associate floating ip address to an instance works without allocating address,https://bugs.launchpad.net/nova/+bug/708320,2012-01-24
+891669,891669,Fix Released,Config uses broken api_extensions_path,https://bugs.launchpad.net/neutron/+bug/891669,2012-01-24
+891394,891394,Fix Released,UCS Inventory gets the wrong path at Cisco PlugIn,https://bugs.launchpad.net/neutron/+bug/891394,2012-01-24
+887762,887762,Fix Released,document keystone integration in Admin Guide,https://bugs.launchpad.net/neutron/+bug/887762,2012-01-24
+856564,856564,Fix Released,Cisco qos extension description is not correct,https://bugs.launchpad.net/neutron/+bug/856564,2012-01-24
+822519,822519,Fix Released,Quantum plugin extension should be able to load from multiple folders,https://bugs.launchpad.net/neutron/+bug/822519,2012-01-24
+821628,821628,Fix Released,Getting network details is failing,https://bugs.launchpad.net/neutron/+bug/821628,2012-01-24
+801598,801598,Fix Released,SIntax error in quantum/cli.py,https://bugs.launchpad.net/neutron/+bug/801598,2012-01-24
+798080,798080,Fix Released,Typo in install.sh for ovs plugin agent,https://bugs.launchpad.net/neutron/+bug/798080,2012-01-24
+888795,888795,Fix Released,Condense source tree directories,https://bugs.launchpad.net/neutron/+bug/888795,2012-01-24
+838922,838922,Fix Released,Remove unused Fake plugins,https://bugs.launchpad.net/neutron/+bug/838922,2012-01-24
+826563,826563,Fix Released,"add version.py, similar to nova",https://bugs.launchpad.net/neutron/+bug/826563,2012-01-24
+819154,819154,Fix Released,ovs-plugin remove xapi_get_port helper,https://bugs.launchpad.net/neutron/+bug/819154,2012-01-24
+805905,805905,Fix Released,Plugin interface should perform argument count check,https://bugs.launchpad.net/neutron/+bug/805905,2012-01-24
+823841,823841,Fix Released,Remove constraint on network names,https://bugs.launchpad.net/neutron/+bug/823841,2012-01-24
+802688,802688,Fix Released,OVS plugin should implement port Up/Down,https://bugs.launchpad.net/neutron/+bug/802688,2012-01-24
+855152,855152,Fix Released,Add keystone integration middleware for Quantum,https://bugs.launchpad.net/neutron/+bug/855152,2012-01-24
+850261,850261,Fix Released,OVS plugin README should be updated or removed,https://bugs.launchpad.net/neutron/+bug/850261,2012-01-24
+834941,834941,Fix Released,Pep8 warnings on extensions,https://bugs.launchpad.net/neutron/+bug/834941,2012-01-24
+834572,834572,Fix Released,PEP8 errors detected in trunk,https://bugs.launchpad.net/neutron/+bug/834572,2012-01-24
+826001,826001,Fix Released,Build failing for missing webtest pkg,https://bugs.launchpad.net/neutron/+bug/826001,2012-01-24
+823396,823396,Fix Released,Unit tests for CLI,https://bugs.launchpad.net/neutron/+bug/823396,2012-01-24
+857315,857315,Fix Released,Revert changes into Quantum API for nova integration,https://bugs.launchpad.net/neutron/+bug/857315,2012-01-24
+835022,835022,Fix Released,new CLI does not show port attachments,https://bugs.launchpad.net/neutron/+bug/835022,2012-01-24
+834486,834486,Fix Released,api alignment broke cli,https://bugs.launchpad.net/neutron/+bug/834486,2012-01-24
+828414,828414,Fix Released,eventlet and multiprocessing causes failure in oswaitpid,https://bugs.launchpad.net/nova/+bug/828414,2012-01-22
+747665,747665,Fix Released,glance update won't update custom properties,https://bugs.launchpad.net/glance/+bug/747665,2012-01-20
+737979,737979,Fix Released,"swift-init uses fixed path to Python interpreter, breaking virtualenv",https://bugs.launchpad.net/swift/+bug/737979,2012-01-20
+737979,737979,Fix Released,"swift-init uses fixed path to Python interpreter, breaking virtualenv",https://bugs.launchpad.net/glance/+bug/737979,2012-01-20
+817536,817536,Fix Released,OSAPI: Numerous test cases fail to tear down set FLAGS,https://bugs.launchpad.net/nova/+bug/817536,2012-01-20
+746163,746163,Fix Released,AllocateAddress returns uninformative error message after all floating ip addresses are allocated,https://bugs.launchpad.net/nova/+bug/746163,2012-01-20
+917933,917933,Fix Released,Devstack needs to be updated to support nova's vnc console changes,https://bugs.launchpad.net/devstack/+bug/917933,2012-01-20
+876663,876663,Fix Released,Nova should retry connections if started before MySQL,https://bugs.launchpad.net/nova/+bug/876663,2012-01-19
+915053,915053,Fix Released,stable/diablo tarball jobs for nova and glance,https://bugs.launchpad.net/openstack-ci/+bug/915053,2012-01-18
+907811,907811,Fix Released,Gerrit-Launchpad bug_update.py hook doesn't set assignee as it's supposed to,https://bugs.launchpad.net/openstack-ci/+bug/907811,2012-01-17
+902849,902849,Fix Released,Have reviewday comment/vote on reviews,https://bugs.launchpad.net/openstack-ci/+bug/902849,2012-01-17
+916019,916019,Fix Released,Need python-keystoneclient tarball jobs,https://bugs.launchpad.net/openstack-ci/+bug/916019,2012-01-17
+902011,902011,Fix Released,Code coverage job for Quantum,https://bugs.launchpad.net/openstack-ci/+bug/902011,2012-01-17
+915359,915359,Fix Released,Change in vulnerability management team,https://bugs.launchpad.net/openstack-manuals/+bug/915359,2012-01-12
+704603,704603,Fix Released,nova.sh doesn't install python-paste and python-pastedeploy,https://bugs.launchpad.net/nova/+bug/704603,2012-01-11
+903367,903367,Fix Released,Gate milestone-proposed on devstack integration,https://bugs.launchpad.net/openstack-ci/+bug/903367,2012-01-06
+902950,902950,Fix Released,Add CLA signature enforcement to gerrit,https://bugs.launchpad.net/openstack-ci/+bug/902950,2012-01-06
+912605,912605,Fix Released,Fake CLA is confusing,https://bugs.launchpad.net/openstack-ci/+bug/912605,2012-01-06
+911962,911962,Fix Released,saio instructions reference ~/swift/trunk,https://bugs.launchpad.net/swift/+bug/911962,2012-01-05
+911960,911960,Fix Released,auditors,https://bugs.launchpad.net/swift/+bug/911960,2012-01-05
+911959,911959,Fix Released,swift-init doesn't support object-expirer,https://bugs.launchpad.net/swift/+bug/911959,2012-01-05
+911957,911957,Fix Released,static web can make an extra response to the proxy,https://bugs.launchpad.net/swift/+bug/911957,2012-01-05
+906976,906976,Fix Released,explain how replication works more clearly,https://bugs.launchpad.net/swift/+bug/906976,2012-01-05
+905608,905608,Fix Released,Swift Documentation References Wrong PPA,https://bugs.launchpad.net/swift/+bug/905608,2012-01-05
+891247,891247,Fix Released,bad accept header causes 503,https://bugs.launchpad.net/swift/+bug/891247,2012-01-05
+814263,814263,Fix Released,Bug in exception handling with obj replicator,https://bugs.launchpad.net/swift/+bug/814263,2012-01-05
+845753,845753,Fix Released,block migration unnecessarily uses sudo for qemu-img,https://bugs.launchpad.net/nova/+bug/845753,2012-01-05
+817618,817618,Fix Released,nova-manage service list is incorrect when checking availability,https://bugs.launchpad.net/nova/+bug/817618,2012-01-04
+828416,828416,Fix Released,Nova does not respect ram quotas,https://bugs.launchpad.net/nova/+bug/828416,2012-01-04
+741468,741468,Fix Released,libvirt error handling is poor,https://bugs.launchpad.net/nova/+bug/741468,2012-01-03
+732907,732907,Fix Released,OpenStack and EC2 APIs use different usernames and passwords,https://bugs.launchpad.net/nova/+bug/732907,2012-01-03
+822748,822748,Fix Released,"exceptions must be old-style classes or derived from BaseException, not NoneType",https://bugs.launchpad.net/nova/+bug/822748,2011-12-29
+900413,900413,Fix Released,Mark -core members,https://bugs.launchpad.net/openstack-ci/+bug/900413,2011-12-28
+907773,907773,Fix Released,ubuntu 11.10 :  bug in /etc/sudoers.d/nova_sudoers,https://bugs.launchpad.net/openstack-ci/+bug/907773,2011-12-22
+892069,892069,Fix Released,Tagged Releases,https://bugs.launchpad.net/openstack-ci/+bug/892069,2011-12-22
+905471,905471,Fix Released,Volume detach doesn't work,https://bugs.launchpad.net/nova/+bug/905471,2011-12-22
+904820,904820,Fix Released,Gerrit should set bugs In Progress with assignee when a patchset is proposed,https://bugs.launchpad.net/openstack-ci/+bug/904820,2011-12-21
+901313,901313,Fix Released,Gerrit should use Launchpadlib to interact with Launchpad bugs,https://bugs.launchpad.net/openstack-ci/+bug/901313,2011-12-21
+860779,860779,Fix Released,launchpad bug update hook should handle bugs targeted to more than one project,https://bugs.launchpad.net/openstack-ci/+bug/860779,2011-12-21

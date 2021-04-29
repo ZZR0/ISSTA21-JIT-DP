@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1367575,1367575,Fix Released,"""os-start/os-stop"" server actions does not work for v2.1 API",https://bugs.launchpad.net/nova/+bug/1367575,2014-10-16
+1293587,1293587,Fix Released,https support for nova metadata requests,https://bugs.launchpad.net/neutron/+bug/1293587,2014-10-16
+1365683,1365683,Fix Released,API error message reports incorrect state for unavailable soft reboot,https://bugs.launchpad.net/nova/+bug/1365683,2014-10-16
+1291032,1291032,Fix Released,Correct H301 and H302 violations,https://bugs.launchpad.net/neutron/+bug/1291032,2014-10-16
+1324194,1324194,Fix Released,keyerror while updating dhcp port,https://bugs.launchpad.net/neutron/+bug/1324194,2014-10-16
+1364692,1364692,Fix Released,"Error msg says ""No valid host found for cold migrate"" when resizing VM",https://bugs.launchpad.net/nova/+bug/1364692,2014-10-16
+1323344,1323344,Fix Released,Neutron has a few misspelled words,https://bugs.launchpad.net/neutron/+bug/1323344,2014-10-16
+1363014,1363014,Fix Released,NoopQuotasDriver.get_settable_quotas() method always fail with KeyError,https://bugs.launchpad.net/nova/+bug/1363014,2014-10-16
+1360333,1360333,Fix Released,Object hash test fails to detect changes when serialize_args is used,https://bugs.launchpad.net/nova/+bug/1360333,2014-10-16
+1353949,1353949,Fix Released,nova.exception.ExternalNetworkAttachForbidden is not handled in V3,https://bugs.launchpad.net/nova/+bug/1353949,2014-10-16
+1322076,1322076,Fix Released,fwaas plugin doesn't need to handle delete firewall  rule operation,https://bugs.launchpad.net/neutron/+bug/1322076,2014-10-16
+1320278,1320278,Fix Released,NSX: Fetch gateway device id mappings more efficiently,https://bugs.launchpad.net/neutron/+bug/1320278,2014-10-16
+1320111,1320111,Fix Released,"In lb-healthmonitor-create, 'delay ' should be greater than 'timeout'",https://bugs.launchpad.net/neutron/+bug/1320111,2014-10-16
+1319651,1319651,Fix Released,Missing secret property for 'connection' option,https://bugs.launchpad.net/neutron/+bug/1319651,2014-10-16
+1319423,1319423,Fix Released,NSX: l2 gw extension unnecessarily extends fault map,https://bugs.launchpad.net/neutron/+bug/1319423,2014-10-16
+1334903,1334903,Fix Released,Should use 403 status code instead of 413 when out of quota,https://bugs.launchpad.net/nova/+bug/1334903,2014-10-16
+1318909,1318909,Fix Released,NVSD neutron plugin agent does not update security groups on new port creation.,https://bugs.launchpad.net/neutron/+bug/1318909,2014-10-16
+1333494,1333494,Fix Released,os-agents api update return string that is different with index return integer,https://bugs.launchpad.net/nova/+bug/1333494,2014-10-16
+1326599,1326599,Fix Released,The 'uri' input validation of jsonschema does not work,https://bugs.launchpad.net/nova/+bug/1326599,2014-10-16
+1317094,1317094,Fix Released,neutron requires list amqplib dependency,https://bugs.launchpad.net/neutron/+bug/1317094,2014-10-16
+1313779,1313779,Fix Released,ResourceTracker auditing the wrong amount of free resources for Ironic,https://bugs.launchpad.net/nova/+bug/1313779,2014-10-16
+1316515,1316515,Fix Released,DHCPv6 Solicit should be allowed like IPv4,https://bugs.launchpad.net/neutron/+bug/1316515,2014-10-16
+1316486,1316486,Fix Released,Package is imported instead of module in neutron/tests/unit/services/loadbalancer/drivers/netscaler/test_netscaler_driver.py,https://bugs.launchpad.net/neutron/+bug/1316486,2014-10-16
+1308649,1308649,Fix Released,Attaching Nova volumes fails if open-iscsi daemon is not already running,https://bugs.launchpad.net/nova/+bug/1308649,2014-10-16
+1307416,1307416,Fix Released,Unshelve instance needs handling exceptions,https://bugs.launchpad.net/nova/+bug/1307416,2014-10-16
+1316334,1316334,Fix Released,Duplicate module-rgx line in .pylintrc,https://bugs.launchpad.net/neutron/+bug/1316334,2014-10-16
+1306404,1306404,Fix Released,reset_network raises not implemented error on network_reset,https://bugs.launchpad.net/nova/+bug/1306404,2014-10-16
+1315809,1315809,Fix Released,Updation of IKE Policy after the site creation fails,https://bugs.launchpad.net/neutron/+bug/1315809,2014-10-16
+1294556,1294556,Fix Released,os-aggregates sample files miss,https://bugs.launchpad.net/nova/+bug/1294556,2014-10-16
+1315475,1315475,Fix Released,OpenDaylight plugin does not allow vlan network type,https://bugs.launchpad.net/neutron/+bug/1315475,2014-10-16
+1289397,1289397,Fix Released,nova  instance delete fails if dhcp_release fails,https://bugs.launchpad.net/nova/+bug/1289397,2014-10-16
+1315430,1315430,Fix Released,dhcp_lease_duration of 'infinite' is not configurable,https://bugs.launchpad.net/neutron/+bug/1315430,2014-10-16
+1285880,1285880,Fix Released,force_config_drive should be based on image property,https://bugs.launchpad.net/nova/+bug/1285880,2014-10-16
+1315137,1315137,Fix Released,plumgrid drivers should be dynamically loaded,https://bugs.launchpad.net/neutron/+bug/1315137,2014-10-16
+1281627,1281627,Fix Released,nova/image/download/file.py is missing unit tests,https://bugs.launchpad.net/nova/+bug/1281627,2014-10-16
+1313997,1313997,Fix Released,NSX: fix migration of networks with no subnets,https://bugs.launchpad.net/neutron/+bug/1313997,2014-10-16
+1313780,1313780,Fix Released,reuse default value for signing_dir setting from middleware which is sane,https://bugs.launchpad.net/neutron/+bug/1313780,2014-10-16
+1312822,1312822,Fix Released,NSX: fix API mappings,https://bugs.launchpad.net/neutron/+bug/1312822,2014-10-16
+1312310,1312310,Fix Released,There are not unit tests for quota_db,https://bugs.launchpad.net/neutron/+bug/1312310,2014-10-16
+1239864,1239864,Fix Released,nova-api fails to query ServiceGroup status from Zookeeper,https://bugs.launchpad.net/nova/+bug/1239864,2014-10-16
+1310899,1310899,Fix Released,neutron-specs template.rst has non-ascii characters,https://bugs.launchpad.net/neutron/+bug/1310899,2014-10-16
+1214406,1214406,Fix Released,nova.virt.block_device.get_swap should have better safeguards,https://bugs.launchpad.net/nova/+bug/1214406,2014-10-16
+1308421,1308421,Fix Released,local variable 'physical_network' referenced before assignment,https://bugs.launchpad.net/neutron/+bug/1308421,2014-10-16
+1374158,1374158,Fix Released,Typo in call to LibvirtConfigObject's parse_dom() method,https://bugs.launchpad.net/nova/+bug/1374158,2014-10-16
+1307745,1307745,Fix Released,"OFAgent: Apply the patch ""Avoid processing ports which are not yet ready""",https://bugs.launchpad.net/neutron/+bug/1307745,2014-10-16
+1374140,1374140,Fix Released,Need to log the orignial libvirtError when InterfaceDetachFailed,https://bugs.launchpad.net/nova/+bug/1374140,2014-10-16
+1305226,1305226,Fix Released,Fix typo in ml2 configuration example,https://bugs.launchpad.net/neutron/+bug/1305226,2014-10-16
+1372218,1372218,Fix Released,"servers.list, filtering on metadata doesn't work. unicode error",https://bugs.launchpad.net/nova/+bug/1372218,2014-10-16
+1305083,1305083,Fix Released,reuse_existing is never used by the dhcp agent,https://bugs.launchpad.net/neutron/+bug/1305083,2014-10-16
+1370578,1370578,Fix Released,Ironic Hostmanager does not pass hypervisor_type to filters,https://bugs.launchpad.net/nova/+bug/1370578,2014-10-16
+1304723,1304723,Fix Released,Misplaced log statement in NSX plugin,https://bugs.launchpad.net/neutron/+bug/1304723,2014-10-16
+1304326,1304326,Fix Released,neutron-db-manage offline mode requires connection URL,https://bugs.launchpad.net/neutron/+bug/1304326,2014-10-16
+1370536,1370536,Fix Released,DB migrations can go unchecked,https://bugs.launchpad.net/nova/+bug/1370536,2014-10-16
+1301337,1301337,Fix Released,We have three duplicated tests for check_ovs_vxlan_version,https://bugs.launchpad.net/neutron/+bug/1301337,2014-10-16
+1369858,1369858,Fix Released,There is no migration test for migration #254,https://bugs.launchpad.net/nova/+bug/1369858,2014-10-16
+1369487,1369487,Fix Released,NIST: increase RSA key length to 2048 bit,https://bugs.launchpad.net/nova/+bug/1369487,2014-10-16
+1300017,1300017,Fix Released,lbaas on a network without gateway,https://bugs.launchpad.net/neutron/+bug/1300017,2014-10-16
+1369009,1369009,Fix Released,network_get_all_by_host query fails to use index,https://bugs.launchpad.net/nova/+bug/1369009,2014-10-16
+1299046,1299046,Fix Released,Remove Quantum compatibility layer,https://bugs.launchpad.net/neutron/+bug/1299046,2014-10-16
+1297016,1297016,Fix Released,flake8 configuration does not ignore rope artifacts,https://bugs.launchpad.net/neutron/+bug/1297016,2014-10-16
+1297016,1297016,Fix Released,flake8 configuration does not ignore rope artifacts,https://bugs.launchpad.net/horizon/+bug/1297016,2014-10-16
+1366594,1366594,Fix Released,config generator using keystoneclient rather than middleware,https://bugs.launchpad.net/nova/+bug/1366594,2014-10-16
+1288915,1288915,Fix Released,Unclear message when try show quotas of different tenant,https://bugs.launchpad.net/neutron/+bug/1288915,2014-10-16
+1366549,1366549,Fix Released,libvirt: som unit tests take more than 4 seconds,https://bugs.launchpad.net/nova/+bug/1366549,2014-10-16
+1288681,1288681,Fix Released,Migration with alter_column function reset nullable parameter for columns,https://bugs.launchpad.net/neutron/+bug/1288681,2014-10-16
+1364344,1364344,Fix Released,Nova client produces a wrong exception when user tries to boot an instance without specific network UUID,https://bugs.launchpad.net/nova/+bug/1364344,2014-10-16
+1286412,1286412,Fix Released,Add support for router and network scheduling in Cisco N1kv Plugin.,https://bugs.launchpad.net/neutron/+bug/1286412,2014-10-16
+1359510,1359510,Fix Released,Network deallocation can fail with use_single_default_gateway,https://bugs.launchpad.net/nova/+bug/1359510,2014-10-16
+1284549,1284549,Fix Released,tests: notification driver isn't properly cleaned up,https://bugs.launchpad.net/neutron/+bug/1284549,2014-10-16
+1284265,1284265,Fix Released,ovs-agent test_fdb_add_flows test invalid,https://bugs.launchpad.net/neutron/+bug/1284265,2014-10-16
+1357972,1357972,Fix Released,boot from volume fails on Hyper-V if boot device is not vda,https://bugs.launchpad.net/nova/+bug/1357972,2014-10-16
+1282741,1282741,Fix Released,lb agent should not only check if the device exists but also if it´s up,https://bugs.launchpad.net/neutron/+bug/1282741,2014-10-16
+1355922,1355922,Fix Released,instance fault not created when boot process fails,https://bugs.launchpad.net/nova/+bug/1355922,2014-10-16
+1281481,1281481,Fix Released,test_openvswitch_plugin sometimes fail,https://bugs.launchpad.net/neutron/+bug/1281481,2014-10-16
+1271948,1271948,Fix Released,Unexpected response in agent-list command with --field param,https://bugs.launchpad.net/python-neutronclient/+bug/1271948,2014-10-16

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1668995,1668995,Fix Committed,[puppet4] incorrect repo priorities during bootstrap image building,https://bugs.launchpad.net/fuel/+bug/1668995,2017-03-14
+1656327,1656327,Fix Committed,[puppet4] keystone endpoint creation failed,https://bugs.launchpad.net/fuel/+bug/1656327,2017-03-14
+1668803,1668803,Fix Released,Handle port with both ipv4 and ipv6,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1668803,2017-03-14
+1535351,1535351,Fix Released,[api-ref]No API for create and delete extra specs in cinder,https://bugs.launchpad.net/cinder/+bug/1535351,2017-03-14
+1652002,1652002,Fix Committed,[10.0.main.ubuntu.smoke_neutron][1047] Provisioning failed on node-2,https://bugs.launchpad.net/fuel/+bug/1652002,2017-03-14
+1632050,1632050,Fix Released,Checklist in Security Guide,https://bugs.launchpad.net/ossp-security-documentation/+bug/1632050,2017-03-14
+1649440,1649440,Fix Released,[vmware] vspere 6.5 have add some new OS type,https://bugs.launchpad.net/nova/+bug/1649440,2017-03-14
+1538264,1538264,Fix Released,neutron-lbaas-dashboard npm dependencies are out of date,https://bugs.launchpad.net/neutron-lbaas-dashboard/+bug/1538264,2017-03-13
+1644061,1644061,Fix Released,lbaasv2 dashboard: shows project/network/none at the top,https://bugs.launchpad.net/neutron-lbaas-dashboard/+bug/1644061,2017-03-13
+1606777,1606777,Fix Released,neutron  lbaas dashboard has wrong validation with port,https://bugs.launchpad.net/neutron-lbaas-dashboard/+bug/1606777,2017-03-13
+1606656,1606656,Fix Released,"lbaasv2 dashboard API - ""list_loadbalancers"" does not return incomplete loadbalancers",https://bugs.launchpad.net/neutron-lbaas-dashboard/+bug/1606656,2017-03-13
+1593329,1593329,Fix Released,Barbican code must respect OPENSTACK_ENDPOINT_TYPE,https://bugs.launchpad.net/neutron-lbaas-dashboard/+bug/1593329,2017-03-13
+1563413,1563413,Fix Released,Load balancer wizard help is insufficient,https://bugs.launchpad.net/neutron-lbaas-dashboard/+bug/1563413,2017-03-13
+1563046,1563046,Fix Released,Creation wizard default resource names do not correctly reflect the number of existing resources.,https://bugs.launchpad.net/neutron-lbaas-dashboard/+bug/1563046,2017-03-13
+1560541,1560541,Fix Released,Tables provide no indication when loading or empty,https://bugs.launchpad.net/neutron-lbaas-dashboard/+bug/1560541,2017-03-13
+1489446,1489446,Fix Released,Warning message emitted when running tox,https://bugs.launchpad.net/barbican/+bug/1489446,2017-03-13
+1668945,1668945,Fix Released,[Murano CI] devstack fails on trusty,https://bugs.launchpad.net/murano/+bug/1668945,2017-03-13
+1640682,1640682,Fix Released,[Gate-Failure] AttributeError: 'TestNovaDriver' object has no attribute 'tenant_id',https://bugs.launchpad.net/congress/+bug/1640682,2017-03-13
+1612008,1612008,Fix Released,HAHT - Update synchronizer for distributed deployment,https://bugs.launchpad.net/congress/+bug/1612008,2017-03-13
+1639128,1639128,Fix Released,ceilometer_drive error getting alarm data,https://bugs.launchpad.net/congress/+bug/1639128,2017-03-13
+1639116,1639116,Fix Released,doctor tempest test occassional failure,https://bugs.launchpad.net/congress/+bug/1639116,2017-03-13
+1638729,1638729,Fix Released,datasource add/delete not effected until next sync,https://bugs.launchpad.net/congress/+bug/1638729,2017-03-13
+1646280,1646280,Fix Released,fail to start with rule referencing datasource0:table0,https://bugs.launchpad.net/congress/+bug/1646280,2017-03-13
+1646893,1646893,Fix Released,Incorrect Doctor DS description,https://bugs.launchpad.net/congress/+bug/1646893,2017-03-13
+1643809,1643809,Fix Released,cinder driver reports empty volumes & snapshots,https://bugs.launchpad.net/congress/+bug/1643809,2017-03-13
+1657310,1657310,Fix Released,webob  cannot set the body to a text value without a charset,https://bugs.launchpad.net/congress/+bug/1657310,2017-03-13
+1637172,1637172,Fix Released,rule using policy:table(…) reference fails to create,https://bugs.launchpad.net/congress/+bug/1637172,2017-03-13
+1655772,1655772,Fix Released,datasource sync fails on postgres,https://bugs.launchpad.net/congress/+bug/1655772,2017-03-13
+1655777,1655777,Fix Released,401 error on update from datasource (on postgres devstack),https://bugs.launchpad.net/congress/+bug/1655777,2017-03-13
+1666325,1666325,Fix Released,subscription to policy:table init to empty,https://bugs.launchpad.net/congress/+bug/1666325,2017-03-13
+1660673,1660673,Fix Released,MAX_VERSION should be 3.27,https://bugs.launchpad.net/python-cinderclient/+bug/1660673,2017-03-13
+1661045,1661045,Fix Released,cinder list --metadata query option was accidentally removed,https://bugs.launchpad.net/python-cinderclient/+bug/1661045,2017-03-13
+1659742,1659742,Fix Released,Cinder list command outputs duplicate columns if specified in --fields,https://bugs.launchpad.net/python-cinderclient/+bug/1659742,2017-03-13
+1663496,1663496,Fix Released,the group show command should be in v3,https://bugs.launchpad.net/python-cinderclient/+bug/1663496,2017-03-13
+1632872,1632872,Fix Released,discover_versions is broken,https://bugs.launchpad.net/python-cinderclient/+bug/1632872,2017-03-13
+1530275,1530275,Fix Released,Live snapshot is corrupted (possibly race condition?),https://bugs.launchpad.net/nova/+bug/1530275,2017-03-13
+1554859,1554859,Fix Released,in-used volume can't be migrated for InvalidType,https://bugs.launchpad.net/nova/+bug/1554859,2017-03-13
+1643017,1643017,Fix Released,libvirtError: block copy still active: disk 'vdb' not ready for pivot yet,https://bugs.launchpad.net/nova/+bug/1643017,2017-03-13
+1670956,1670956,Fix Released,Add spec directory into blazar repo,https://bugs.launchpad.net/blazar/+bug/1670956,2017-03-13
+1666592,1666592,Fix Committed,Fuel 9.2 update problematic when local mirrors are in use,https://bugs.launchpad.net/fuel/+bug/1666592,2017-03-13
+1660988,1660988,Fix Released,Secondary FIP not accessible unless server assigned that FIP has first created a connection to external world,https://bugs.launchpad.net/networking-cisco/+bug/1660988,2017-03-13
+1655281,1655281,Fix Released,race in router delete with ha port creation,https://bugs.launchpad.net/neutron/+bug/1655281,2017-03-13
+1669511,1669511,Fix Released,The mistral test suite is slow,https://bugs.launchpad.net/mistral/+bug/1669511,2017-03-13
+1669796,1669796,Fix Committed,11.0 community and bvt jobs: Couldn't build  ubuntu bootstrap image,https://bugs.launchpad.net/fuel/+bug/1669796,2017-03-13
+1672282,1672282,Fix Released,Neutron Server can't startup due to bug in ml2 driver,https://bugs.launchpad.net/dragonflow/+bug/1672282,2017-03-13
+1661313,1661313,Fix Released,Elqx: Update heat template for cinder configuration to use composable roles,https://bugs.launchpad.net/tripleo/+bug/1661313,2017-03-13
+1671555,1671555,Fix Released,stable/newton multjob broken due to missing template,https://bugs.launchpad.net/tripleo/+bug/1671555,2017-03-13
+1661314,1661314,Fix Released,DellSc: Update heat template for cinder configuration to use composable roles Edit,https://bugs.launchpad.net/tripleo/+bug/1661314,2017-03-13
+1534363,1534363,Fix Released,message doesn't set properly on ClientException,https://bugs.launchpad.net/keystoneauth/+bug/1534363,2017-03-13
+1668484,1668484,Fix Released,Identity plugins always handle catalog failures,https://bugs.launchpad.net/keystoneauth/+bug/1668484,2017-03-13
+1670697,1670697,Fix Released,Can not record new cassettes using Betamax fixture,https://bugs.launchpad.net/keystoneauth/+bug/1670697,2017-03-13
+1670699,1670699,Fix Released,"Betamax Fixture: To use something other than the YamlJsonSerializer, users must pass a class",https://bugs.launchpad.net/keystoneauth/+bug/1670699,2017-03-13
+1671111,1671111,Fix Released,Betamax Fixture restricts ability to specify how to match recorded requests,https://bugs.launchpad.net/keystoneauth/+bug/1671111,2017-03-13
+1671195,1671195,Fix Released,Recording a GET request with Betamax fixture fails in prerecord hook,https://bugs.launchpad.net/keystoneauth/+bug/1671195,2017-03-13
+1467024,1467024,Fix Released,Murano deployment failed (sometimes?):  0.0.0.0:55572 address already in use,https://bugs.launchpad.net/fuel/+bug/1467024,2017-03-13
+1634696,1634696,Fix Released,Leading or trailing space in name throws error for new or updated Instances,https://bugs.launchpad.net/horizon/+bug/1634696,2017-03-13
+1569404,1569404,Fix Released,Remove threading before process forking,https://bugs.launchpad.net/neutron/+bug/1569404,2017-03-13
+1638506,1638506,Fix Released,Delete for image <Image: ji4image> failed: API version '2.37' is not supported on 'novaclient.v2.images.[class ImageManager(base.ManagerWithFind):].delete' method,https://bugs.launchpad.net/python-novaclient/+bug/1638506,2017-03-13
+1672258,1672258,Fix Released,missing libffi-dev and libssl-dev dependency,https://bugs.launchpad.net/zun/+bug/1672258,2017-03-13
+1630275,1630275,Fix Committed,Provision as a graph failed as $ can't be modified on-the-fly anymore,https://bugs.launchpad.net/fuel/+bug/1630275,2017-03-13
+1647685,1647685,Fix Released,sudo: dpdk_nic_bind: command not found,https://bugs.launchpad.net/dragonflow/+bug/1647685,2017-03-13
+1664571,1664571,Fix Released,Get Hypevisor version from DPM,https://bugs.launchpad.net/nova-dpm/+bug/1664571,2017-03-13
+1495519,1495519,Fix Released,import flow doesn't raise error on forbidden location,https://bugs.launchpad.net/glance/+bug/1495519,2017-03-13
+1668890,1668890,Fix Released,bootloader element shall accept kernel boot flags,https://bugs.launchpad.net/diskimage-builder/+bug/1668890,2017-03-13
+1447743,1447743,Fix Released,Networking services in OpenStack Security Guide  - Elaboration of QoSaaS should be added,https://bugs.launchpad.net/ossp-security-documentation/+bug/1447743,2017-03-13
+1658263,1658263,Fix Released,head-only rule fails to make policy table,https://bugs.launchpad.net/congress/+bug/1658263,2017-03-11
+1670702,1670702,Fix Released,Allowed address pairs not always honored,https://bugs.launchpad.net/networking-vpp/+bug/1670702,2017-03-11
+1541675,1541675,Fix Released,intermittent session persistence scenario test failure,https://bugs.launchpad.net/octavia/+bug/1541675,2017-03-11
+1605548,1605548,Fix Released,AttributeError: 'NoneType' object has no attribute 'id' in Octavia Controller Worker,https://bugs.launchpad.net/octavia/+bug/1605548,2017-03-11
+1662194,1662194,Fix Released,Enabling kernel bridge firewall fails in a container,https://bugs.launchpad.net/devstack/+bug/1662194,2017-03-10
+1670616,1670616,Fix Released,"Image v2 test ""test_update_image_member"" is failing",https://bugs.launchpad.net/patrole/+bug/1670616,2017-03-10
+1671704,1671704,Fix Released,Identity tests are failing due to incorrect caller used for switching the role,https://bugs.launchpad.net/patrole/+bug/1671704,2017-03-10
+1609467,1609467,Fix Released,Rename Network return 403 Error,https://bugs.launchpad.net/horizon/+bug/1609467,2017-03-10
+1656045,1656045,Fix Released,Dashboard panels intermittently disappear when they are in the 'default' panel group.,https://bugs.launchpad.net/horizon/+bug/1656045,2017-03-10
+1659342,1659342,Fix Released,TypeError in message logging,https://bugs.launchpad.net/horizon/+bug/1659342,2017-03-10

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1353942,1353942,Fix Released,ResourceFailure error on adopting a stack having a resource group,https://bugs.launchpad.net/heat/+bug/1353942,2014-10-16
+1347571,1347571,Fix Released,Failing validation for new resources with reference,https://bugs.launchpad.net/heat/+bug/1347571,2014-10-16
+1324366,1324366,Fix Released,disable_rollback will change to true although we don't specify it when stack-update,https://bugs.launchpad.net/heat/+bug/1324366,2014-10-16
+1324366,1324366,Fix Released,disable_rollback will change to true although we don't specify it when stack-update,https://bugs.launchpad.net/python-heatclient/+bug/1324366,2014-10-16
+1322128,1322128,Fix Released,watch timers can't be disabled for multiple engines,https://bugs.launchpad.net/heat/+bug/1322128,2014-10-16
+1308834,1308834,Fix Released,403 on trusts delete causes DELETE_FAILED,https://bugs.launchpad.net/heat/+bug/1308834,2014-10-16
+1304743,1304743,Fix Released,Exceptions Error and ResourceFailure cannot be serialized over RPC,https://bugs.launchpad.net/heat/+bug/1304743,2014-10-16
+1302578,1302578,Fix Released,Required credentials are missing when heat-engine calls heatclient operations,https://bugs.launchpad.net/heat/+bug/1302578,2014-10-16
+1226287,1226287,Fix Released,Unable to prevent heat from logging to stdout without all heat proccesses logging to the same file,https://bugs.launchpad.net/heat/+bug/1226287,2014-10-16
+1375879,1375879,Fix Released,Disable Abandon/Adopt features by default,https://bugs.launchpad.net/heat/+bug/1375879,2014-10-16
+1374096,1374096,Fix Released,heat.engine.clients.has_client is broken,https://bugs.launchpad.net/heat/+bug/1374096,2014-10-16
+1373247,1373247,Fix Released,Cloud watch alarms don't work via Ceilometer,https://bugs.launchpad.net/heat/+bug/1373247,2014-10-16
+1369748,1369748,Fix Released,OS::Neutron::FloatingIP needs updateable port_id,https://bugs.launchpad.net/heat/+bug/1369748,2014-10-16
+1367393,1367393,Fix Released,"CSV param returned wrong when doing ""heat show stack""",https://bugs.launchpad.net/heat/+bug/1367393,2014-10-16
+1366798,1366798,Fix Released,JSON parameter is returned wrongly by the JsonParameter class,https://bugs.launchpad.net/heat/+bug/1366798,2014-10-16
+1365880,1365880,Fix Released,Failing tests heat/tests/test_api_openstack_v1.py,https://bugs.launchpad.net/heat/+bug/1365880,2014-10-16
+1355942,1355942,Fix Released,tempest.api.orchestration.stacks.test_stacks fails An object with that identifier already exists,https://bugs.launchpad.net/heat/+bug/1355942,2014-10-16
+1334492,1334492,Fix Released,Delete volume attachment ine in scaling policy fails,https://bugs.launchpad.net/heat/+bug/1334492,2014-10-16
+1332991,1332991,Fix Released,create volume in scaling policy fails,https://bugs.launchpad.net/heat/+bug/1332991,2014-10-16
+1301486,1301486,Fix Released,"Stack update on ""OS::Nova::Server"" resource fails due instance port still in use",https://bugs.launchpad.net/heat/+bug/1301486,2014-10-16
+1300734,1300734,Fix Released,Stack abandon deletes stack domain project,https://bugs.launchpad.net/heat/+bug/1300734,2014-10-16
+1361448,1361448,Fix Released,boolean parameter type is not recognized in the API,https://bugs.launchpad.net/heat/+bug/1361448,2014-10-16
+1361128,1361128,Fix Released,ignore_not_found not working on ceilometer client,https://bugs.launchpad.net/heat/+bug/1361128,2014-10-16
+1358581,1358581,Fix Released,port resource residue,https://bugs.launchpad.net/heat/+bug/1358581,2014-10-16
+1358093,1358093,Fix Released,heat-keystone-setup-domain should silent urllib3,https://bugs.launchpad.net/heat/+bug/1358093,2014-10-16
+1354962,1354962,Fix Released,stack-update adding a parameter leads to heat stack-list breaking,https://bugs.launchpad.net/heat/+bug/1354962,2014-10-16
+1354687,1354687,Fix Released,heat-keystone-setup-domain needs to check if user is admin,https://bugs.launchpad.net/heat/+bug/1354687,2014-10-16
+1353701,1353701,Fix Released,Schema.to_schema_type() does not always convert value to schema type,https://bugs.launchpad.net/heat/+bug/1353701,2014-10-16
+1353328,1353328,Fix Released,Badrequest is considered an exception by wrong log level,https://bugs.launchpad.net/heat/+bug/1353328,2014-10-16
+1351005,1351005,Fix Released,Stack preview fails for scaling groups with Template version was not provided,https://bugs.launchpad.net/heat/+bug/1351005,2014-10-16
+1350503,1350503,Fix Released,Wrong quote on Heat Resource Plug-in Development Guide,https://bugs.launchpad.net/heat/+bug/1350503,2014-10-16
+1348064,1348064,Fix Released,correct get_secgroup_uuids() to match tenant_id when  name ambiguity,https://bugs.launchpad.net/heat/+bug/1348064,2014-10-16
+1340093,1340093,Fix Released,AWS::EC2::Volume must not support any updates,https://bugs.launchpad.net/heat/+bug/1340093,2014-10-16
+1338066,1338066,Fix Released,heat/tools contents needs cleanup,https://bugs.launchpad.net/heat/+bug/1338066,2014-10-16
+1334497,1334497,Fix Released,failed to delete the stack due to unable to delete the AWS::EC2::EIP resource,https://bugs.launchpad.net/heat/+bug/1334497,2014-10-16
+1334212,1334212,Fix Released,Implement AWS::EC2::NetworkInterface updatable,https://bugs.launchpad.net/heat/+bug/1334212,2014-10-16
+1329613,1329613,Fix Released,The 'x-openstack-request-id' from cinder cannot be output to the log.,https://bugs.launchpad.net/heat/+bug/1329613,2014-10-16
+1325146,1325146,Fix Released,"Missing template version in the ""test_properties_type_mismatch"" unittest",https://bugs.launchpad.net/heat/+bug/1325146,2014-10-16
+1312564,1312564,Fix Released,"LaunchConfiguration missing constraints about ""IMAGE_ID"" and ""KEY_NAME""",https://bugs.launchpad.net/heat/+bug/1312564,2014-10-16
+1312474,1312474,Fix Released,HEAT HOT template fails to create trove instance when using neutron,https://bugs.launchpad.net/heat/+bug/1312474,2014-10-16
+1308883,1308883,Fix Released,rollback fails  when updating stack if the parameters changes,https://bugs.launchpad.net/heat/+bug/1308883,2014-10-16
+1296758,1296758,Fix Released,Docker container deletion should be intolerant to the fact if the container is present or not,https://bugs.launchpad.net/heat/+bug/1296758,2014-10-16
+1358534,1358534,Fix Released,Slow AutoScalingGroupTest unit tests,https://bugs.launchpad.net/heat/+bug/1358534,2014-10-16
+1346755,1346755,Fix Released,"Wrong Logging level for ""WARNING heat.engine.service [-] Stack create failed, status FAILED""",https://bugs.launchpad.net/heat/+bug/1346755,2014-10-16
+1339292,1339292,Fix Released,resource groups should support count of 0,https://bugs.launchpad.net/heat/+bug/1339292,2014-10-16
+1218187,1218187,Fix Released,Wait time skipped for the 1st and 2nd steps of generator type task,https://bugs.launchpad.net/heat/+bug/1218187,2014-10-16
+1364041,1364041,Fix Released,"Docker plugin ""volumes_from"" parameter should be a list",https://bugs.launchpad.net/heat/+bug/1364041,2014-10-16
+1364039,1364039,Fix Released,"Docker plugin ""volumes_from"" parameter results in an error",https://bugs.launchpad.net/heat/+bug/1364039,2014-10-16
+1360559,1360559,Fix Released,Add language info in doc samples,https://bugs.launchpad.net/heat/+bug/1360559,2014-10-16
+1360558,1360558,Fix Released,Don't generate empty properties fields in the doc,https://bugs.launchpad.net/heat/+bug/1360558,2014-10-16
+1358492,1358492,Fix Released,We shouldn't call resource_id_set(None) during deletion,https://bugs.launchpad.net/heat/+bug/1358492,2014-10-16
+1358417,1358417,Fix Released,The returned error message when a template fails to parse is incomplete,https://bugs.launchpad.net/heat/+bug/1358417,2014-10-16
+1355250,1355250,Fix Released,No backward compatibilty for old notifier drivers,https://bugs.launchpad.net/heat/+bug/1355250,2014-10-16
+1346849,1346849,Fix Released,"When a resource can't receive a signal, 500 error happened",https://bugs.launchpad.net/heat/+bug/1346849,2014-10-16
+1340894,1340894,Fix Released,Signal events uninformative,https://bugs.launchpad.net/heat/+bug/1340894,2014-10-16
+1336656,1336656,Fix Released,Can't access subnet attributes from a port resource,https://bugs.launchpad.net/heat/+bug/1336656,2014-10-16
+1334514,1334514,Fix Released,cannot delete the stack after heat-engine down in middle of stack-update,https://bugs.launchpad.net/heat/+bug/1334514,2014-10-16
+1322007,1322007,Fix Released,The metadata property in OS::Cinder::Volume resource returns unexpected <'\'>'s.,https://bugs.launchpad.net/heat/+bug/1322007,2014-10-16
+1317129,1317129,Fix Released,Provider resource Integer/Number type mismatch,https://bugs.launchpad.net/heat/+bug/1317129,2014-10-16
+1303865,1303865,Fix Released,mandatory fields are not enforced in launch stack,https://bugs.launchpad.net/heat/+bug/1303865,2014-10-16
+1290565,1290565,Fix Released,"Traceback ""ERROR"" from a normal server create failure seen at default log level",https://bugs.launchpad.net/heat/+bug/1290565,2014-10-16
+1363148,1363148,Fix Released,Marconi client plugin doesn't install properly,https://bugs.launchpad.net/heat/+bug/1363148,2014-10-16
+1356544,1356544,Fix Released,unable to retrieve attribute (ip) for instances in OS::Heat::AutoScalingGroup,https://bugs.launchpad.net/heat/+bug/1356544,2014-10-16
+1356097,1356097,Fix Released,stack-update from a non-HOT stack to a HOT stack fails,https://bugs.launchpad.net/heat/+bug/1356097,2014-10-16
+1343163,1343163,Fix Released,Heat SoftwareDeployments across provider resources,https://bugs.launchpad.net/heat/+bug/1343163,2014-10-16
+1342487,1342487,Fix Released,json parameters require json strings rather than accepting arbitrary json structures,https://bugs.launchpad.net/heat/+bug/1342487,2014-10-16
+1341048,1341048,Fix Released,get_attr path does not work with ResourceGroup members,https://bugs.launchpad.net/heat/+bug/1341048,2014-10-16
+1336072,1336072,Fix Released,Purge remaining CFN functions in HOT,https://bugs.launchpad.net/heat/+bug/1336072,2014-10-16
+1371297,1371297,Fix Released,loading configuration parameters from trove-manage better,https://bugs.launchpad.net/trove/+bug/1371297,2014-10-16
+1332355,1332355,Fix Released,handle_signal FAILED raises UnicodeError,https://bugs.launchpad.net/heat/+bug/1332355,2014-10-16
+1343192,1343192,Fix Released,ipv6 mysql hostnames disabled by default causes error,https://bugs.launchpad.net/trove/+bug/1343192,2014-10-16
+1329453,1329453,Fix Released,OS::Nova::Server does not check_delete_complete properly,https://bugs.launchpad.net/heat/+bug/1329453,2014-10-16
+1326483,1326483,Fix Released,heat-keystone-setup-domain needs man page,https://bugs.launchpad.net/heat/+bug/1326483,2014-10-16
+1373083,1373083,Fix Released,Add postgresql to the default of notification_service_id option,https://bugs.launchpad.net/trove/+bug/1373083,2014-10-16
+1324493,1324493,Fix Released,"preview for autoscaling group is failed, because reference is None",https://bugs.launchpad.net/heat/+bug/1324493,2014-10-16

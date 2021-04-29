@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1216153,1216153,Fix Released,ops guide japanese build fails,https://bugs.launchpad.net/openstack-ci/+bug/1216153,2014-02-15
+1275291,1275291,Fix Released,Translated installation guide fails to build,https://bugs.launchpad.net/openstack-manuals/+bug/1275291,2014-02-15
+1167899,1167899,Fix Released,"Legacy ""glacne add"" doesn't parse ""copy_from"" option correctly.",https://bugs.launchpad.net/python-glanceclient/+bug/1167899,2014-02-15
+1207504,1207504,Fix Released,auth_token middleware configuration inconsistent and wrong,https://bugs.launchpad.net/openstack-chef/+bug/1207504,2014-02-15
+1244563,1244563,Fix Released,Error executing action `install` on resource 'package[openstack-quantum-openvswitch-agent]',https://bugs.launchpad.net/openstack-chef/+bug/1244563,2014-02-15
+1280437,1280437,Fix Released,Logical architecture image is broken,https://bugs.launchpad.net/fuel/+bug/1280437,2014-02-15
+1161002,1161002,Fix Released,quantum security group API returns entries w/ no protocol,https://bugs.launchpad.net/nova/+bug/1161002,2014-02-15
+1274546,1274546,Fix Released,api-site: auth API POST v2/tokens does not show correct response,https://bugs.launchpad.net/openstack-api-site/+bug/1274546,2014-02-14
+1267891,1267891,Fix Released,Incorrect fuel description statement on https://wiki.openstack.org/wiki/Fuel,https://bugs.launchpad.net/fuel/+bug/1267891,2014-02-14
+1262152,1262152,Fix Committed,One of VMs didn't obtain IP address during deployment,https://bugs.launchpad.net/fuel/+bug/1262152,2014-02-14
+1272550,1272550,Fix Released,supervisord in fuelmaster waits 70sec to to stop,https://bugs.launchpad.net/fuel/+bug/1272550,2014-02-14
+1268861,1268861,Fix Released,Error running RPC method deploy: Could not generate ssh key,https://bugs.launchpad.net/fuel/+bug/1268861,2014-02-14
+1276158,1276158,Fix Released,"[systest] Please, implement tricky test case",https://bugs.launchpad.net/fuel/+bug/1276158,2014-02-14
+1279725,1279725,Fix Released,wrong privileges for mysql user 'openstack_citest',https://bugs.launchpad.net/openstack-ci/+bug/1279725,2014-02-14
+1183664,1183664,Fix Released,Add chef guard functionality to chefspec,https://bugs.launchpad.net/openstack-chef/+bug/1183664,2014-02-13
+1274022,1274022,Fix Released,stack.sh not installing trove,https://bugs.launchpad.net/devstack/+bug/1274022,2014-02-13
+1238272,1238272,Fix Released,"if heat creates a server with a name length > 63, the server fails to respond to dhcp addresses",https://bugs.launchpad.net/heat/+bug/1238272,2014-02-13
+1249891,1249891,Fix Released,Fix --debug curl output,https://bugs.launchpad.net/python-keystoneclient/+bug/1249891,2014-02-13
+1278144,1278144,Fix Released,Cannot run the tests,https://bugs.launchpad.net/python-keystoneclient/+bug/1278144,2014-02-13
+1249165,1249165,Fix Released,httpretty 0.7 does not work with Python 3,https://bugs.launchpad.net/python-keystoneclient/+bug/1249165,2014-02-13
+1277231,1277231,Fix Released,Check for eventlet patching in the cms module is too strict,https://bugs.launchpad.net/python-keystoneclient/+bug/1277231,2014-02-13
+1278409,1278409,Fix Released,When creating an overcloud the Overcloud ID and Overcloud Role IDs need to be passed,https://bugs.launchpad.net/tuskar/+bug/1278409,2014-02-13
+1276465,1276465,Fix Released,500 response JSON doesn't match OpenStack convention,https://bugs.launchpad.net/tuskar/+bug/1276465,2014-02-13
+1276179,1276179,Fix Released,Creating an overcloud with only name errors but overcloud is created.,https://bugs.launchpad.net/tuskar/+bug/1276179,2014-02-13
+1233267,1233267,Fix Released,Deleting a resource class does not delete its flavors,https://bugs.launchpad.net/tuskar/+bug/1233267,2014-02-13
+1271505,1271505,Fix Released,Incorrectly defined MAC of network card which is located in admin network,https://bugs.launchpad.net/fuel/+bug/1271505,2014-02-13
+1275756,1275756,Fix Released,mysql fails on Fedora 19,https://bugs.launchpad.net/tripleo/+bug/1275756,2014-02-13
+1274846,1274846,Fix Released,openstack-clients element broken,https://bugs.launchpad.net/tripleo/+bug/1274846,2014-02-13
+1248970,1248970,Fix Released,AttributeError: 'NoneType' object has no attribute 'release',https://bugs.launchpad.net/fuel/+bug/1248970,2014-02-13
+1275673,1275673,Fix Released,Need confirmation window for click out of wizard pop-up,https://bugs.launchpad.net/fuel/+bug/1275673,2014-02-13
+1278344,1278344,Fix Released,community portal build fail,https://bugs.launchpad.net/openstack-ci/+bug/1278344,2014-02-13
+1279694,1279694,Fix Released,Admin node installation failure: nailgun_syncdb returned 1,https://bugs.launchpad.net/fuel/+bug/1279694,2014-02-13
+1261295,1261295,Fix Released,Enable Mirantis logo by setting special parameter to build system,https://bugs.launchpad.net/fuel/+bug/1261295,2014-02-13
+1276382,1276382,Fix Committed,Cannot find suitable CIDR,https://bugs.launchpad.net/fuel/+bug/1276382,2014-02-13
+1272838,1272838,Fix Released,Define higher neutron quotas than default,https://bugs.launchpad.net/fuel/+bug/1272838,2014-02-13
+1270244,1270244,Fix Released,Neutron network basic ops test requires using neutron security groups,https://bugs.launchpad.net/tempest/+bug/1270244,2014-02-13
+1275003,1275003,Fix Released,Savanna tests leak isolated cred resources,https://bugs.launchpad.net/tempest/+bug/1275003,2014-02-13
+1260723,1260723,Fix Released,Invalid OpenStack Nova credentials.,https://bugs.launchpad.net/devstack/+bug/1260723,2014-02-12
+1247032,1247032,Fix Released,Deleting project with allow_subtree_delete LDAP parameter parameter,https://bugs.launchpad.net/keystone/+bug/1247032,2014-02-12
+1273833,1273833,Fix Released,403 Forbidden error when attempting to retrieve reviewday JSON file,https://bugs.launchpad.net/openstack-ci/+bug/1273833,2014-02-12
+1271952,1271952,Fix Released,"Inaccuracies in the description ""Preparing Murano for Testing"" in documentation",https://bugs.launchpad.net/fuel/+bug/1271952,2014-02-12
+1271079,1271079,Fix Released,Need to fix setup.sh scripts to copy right configuration files,https://bugs.launchpad.net/murano/+bug/1271079,2014-02-12
+1271578,1271578,Fix Released,murano-conductor searches for execution plan scripts in the wrong place,https://bugs.launchpad.net/murano/+bug/1271578,2014-02-12
+1272361,1272361,Fix Released,Add a hint with assigned IP space for SQL Cluster,https://bugs.launchpad.net/murano/+bug/1272361,2014-02-12
+1274011,1274011,Fix Released,Can't deploy few services with different key-pair in one environment,https://bugs.launchpad.net/murano/+bug/1274011,2014-02-12
+1274470,1274470,Fix Released,Changed files doesn't get to cache when murano installed using devstack scripts,https://bugs.launchpad.net/murano/+bug/1274470,2014-02-12
+1275691,1275691,Fix Released,Unable to deploy linux telnet,https://bugs.launchpad.net/murano/+bug/1275691,2014-02-12
+1274851,1274851,Fix Released,"When returning a list of files in nested dirs, murano-repository cuts the first symbol of first dir",https://bugs.launchpad.net/murano/+bug/1274851,2014-02-12
+1265926,1265926,Fix Released,client is not compatible with cliff version 1.5.2,https://bugs.launchpad.net/python-neutronclient/+bug/1265926,2014-02-12
+1274853,1274853,Fix Released,murano-deployment devbox install script doesn't start murano-api and murano-repository jobs,https://bugs.launchpad.net/murano/+bug/1274853,2014-02-12
+1276075,1276075,Fix Released,Incorrect murano deployment with devbox script,https://bugs.launchpad.net/murano/+bug/1276075,2014-02-12
+1271092,1271092,Fix Released,[Murano-repository] Incorrect error when --config-file is not set,https://bugs.launchpad.net/murano/+bug/1271092,2014-02-12
+1270824,1270824,Fix Released,init.ps1 failes if cannot remove log file,https://bugs.launchpad.net/murano/+bug/1270824,2014-02-12
+1270734,1270734,Fix Released,Errors in config files,https://bugs.launchpad.net/murano/+bug/1270734,2014-02-12
+1269769,1269769,Fix Released,'Controller' object has no attribute 'delete_from_service',https://bugs.launchpad.net/murano/+bug/1269769,2014-02-12
+1269749,1269749,Fix Released,Incorrect response on GET services request with 'X-Configuration-Session: None',https://bugs.launchpad.net/murano/+bug/1269749,2014-02-12
+1269431,1269431,Fix Released,Error during service upload,https://bugs.launchpad.net/murano/+bug/1269431,2014-02-12
+1269360,1269360,Fix Released,There is no version in Service Definitions Table for the service (created by the user),https://bugs.launchpad.net/murano/+bug/1269360,2014-02-12
+1269319,1269319,Fix Released,Documentation: Incorrect status code when user creates incorrect directory,https://bugs.launchpad.net/murano/+bug/1269319,2014-02-12
+1268976,1268976,Fix Released,Murano metadata repository returns 500 status code on request to switch service parameter enabled/disabled for nonexistent service,https://bugs.launchpad.net/murano/+bug/1268976,2014-02-12
+1268934,1268934,Fix Released,"Murano metadata repository return 200 code on ""create directory"" request in manifests",https://bugs.launchpad.net/murano/+bug/1268934,2014-02-12
+1268929,1268929,Fix Released,Error message in webUI isn't user-friendly when user uploaded incorrect service,https://bugs.launchpad.net/murano/+bug/1268929,2014-02-12
+1268876,1268876,Fix Released,ImproperlyConfigured: settings.DATABASES is improperly configured.,https://bugs.launchpad.net/murano/+bug/1268876,2014-02-12
+1268537,1268537,Fix Released,Fix issues with Murano documentation,https://bugs.launchpad.net/murano/+bug/1268537,2014-02-12
+1267514,1267514,Fix Released,Uniform approach in localization of log-strings should be used,https://bugs.launchpad.net/murano/+bug/1267514,2014-02-12
+1267420,1267420,Fix Released,Errors during the Murano installation: pip 1.5 problems,https://bugs.launchpad.net/murano/+bug/1267420,2014-02-12
+1265165,1265165,Fix Released,Murano Dashboard: dirty code with extra methods,https://bugs.launchpad.net/murano/+bug/1265165,2014-02-12
+1264980,1264980,Fix Released,Wrong usage of log.exception in dashboard code,https://bugs.launchpad.net/murano/+bug/1264980,2014-02-12
+1264289,1264289,Fix Released,Dynamic_ui Services should use a Session-based storage,https://bugs.launchpad.net/murano/+bug/1264289,2014-02-12
+1264250,1264250,Fix Released,Typo errors in deployment logs for Linux Apache service,https://bugs.launchpad.net/murano/+bug/1264250,2014-02-12
+1264088,1264088,Fix Released,Range of opened ports in SQL-security.template is too wide,https://bugs.launchpad.net/murano/+bug/1264088,2014-02-12
+1263727,1263727,Fix Released,[murano-agent] agent_template requires parameter,https://bugs.launchpad.net/murano/+bug/1263727,2014-02-12
+1263662,1263662,Fix Released,Host name validation does not check length of hostname,https://bugs.launchpad.net/murano/+bug/1263662,2014-02-12
+1263463,1263463,Fix Released,Misleading error message during creating new environment in case metadata-repository is not available,https://bugs.launchpad.net/murano/+bug/1263463,2014-02-12
+1263060,1263060,Fix Released,Service version and author are not set after Modify service,https://bugs.launchpad.net/murano/+bug/1263060,2014-02-12

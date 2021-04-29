@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1343274,1343274,Fix Released,DB Deadlock creating volume,https://bugs.launchpad.net/cinder/+bug/1343274,2015-06-24
+1463822,1463822,Fix Committed,handle high number of concurrent calls for port operations,https://bugs.launchpad.net/networking-plumgrid/+bug/1463822,2015-06-24
+1465193,1465193,Fix Released,explicated error should be thrown out when creating sample with wrong format resource_metadata,https://bugs.launchpad.net/python-ceilometerclient/+bug/1465193,2015-06-24
+1443383,1443383,Fix Released,Example in docs is per the deprecated old sample,https://bugs.launchpad.net/python-ceilometerclient/+bug/1443383,2015-06-24
+1440629,1440629,Fix Released,ceilometeclient document is broken,https://bugs.launchpad.net/python-ceilometerclient/+bug/1440629,2015-06-24
+1438753,1438753,Fix Released,ceilometerclient auth with keystone v3 not working,https://bugs.launchpad.net/python-ceilometerclient/+bug/1438753,2015-06-24
+1438750,1438750,Fix Released,ceilometerclient insecure argument no longer works,https://bugs.launchpad.net/python-ceilometerclient/+bug/1438750,2015-06-24
+1428370,1428370,Fix Released,Ceilometer client instance doesn't use params for SSL,https://bugs.launchpad.net/python-ceilometerclient/+bug/1428370,2015-06-24
+1412300,1412300,Fix Released,Ceilometer CLI doesn‘t support Chinese,https://bugs.launchpad.net/python-ceilometerclient/+bug/1412300,2015-06-24
+1406622,1406622,Fix Released,"event-list should sorts by timestamp, just like API v2 does",https://bugs.launchpad.net/python-ceilometerclient/+bug/1406622,2015-06-24
+1395932,1395932,Fix Released,"Ceilometer alarm-threshold-update CLI does not support updating project-id, user-id and time-constraint fields of alarm but listed as valid options for alarm update.",https://bugs.launchpad.net/python-ceilometerclient/+bug/1395932,2015-06-24
+1393489,1393489,Fix Released,project id is missing for alarm create,https://bugs.launchpad.net/python-ceilometerclient/+bug/1393489,2015-06-24
+1391965,1391965,Fix Released,tests/test_shell.py needs refactor,https://bugs.launchpad.net/python-ceilometerclient/+bug/1391965,2015-06-24
+1391606,1391606,Fix Released,timeout should be float or int,https://bugs.launchpad.net/python-ceilometerclient/+bug/1391606,2015-06-24
+1391122,1391122,Fix Released,Ceilometer client does not pass user_domain_name&project_domain_name  to keystone client,https://bugs.launchpad.net/python-ceilometerclient/+bug/1391122,2015-06-24
+1369461,1369461,Fix Released,ceilometer client fails to (re-)authentificate,https://bugs.launchpad.net/python-ceilometerclient/+bug/1369461,2015-06-24
+1367867,1367867,Fix Released,"sample-create fails with ""TypeError: string indices must be integers, not str""",https://bugs.launchpad.net/python-ceilometerclient/+bug/1367867,2015-06-24
+1348387,1348387,Fix Released,ceilometer alarm-threshold-update returns programming error message,https://bugs.launchpad.net/python-ceilometerclient/+bug/1348387,2015-06-24
+1324759,1324759,Fix Released,"""--resource-metadata"" is unavailable in sample-create",https://bugs.launchpad.net/python-ceilometerclient/+bug/1324759,2015-06-24
+1321649,1321649,Fix Released,CLI return 'module' object has no attribute 'Unauthorized',https://bugs.launchpad.net/python-ceilometerclient/+bug/1321649,2015-06-24
+1314544,1314544,Fix Released,query option doesn't support special characters,https://bugs.launchpad.net/python-ceilometerclient/+bug/1314544,2015-06-24
+1313679,1313679,Fix Released,alarm-threshold-update should check alarm id,https://bugs.launchpad.net/python-ceilometerclient/+bug/1313679,2015-06-24
+1313676,1313676,Fix Released,alarm-threshold-update --query option is discarded,https://bugs.launchpad.net/python-ceilometerclient/+bug/1313676,2015-06-24
+1291935,1291935,Fix Released,No type check for groupby in statistics,https://bugs.launchpad.net/python-ceilometerclient/+bug/1291935,2015-06-24
+1290562,1290562,Fix Released,"failing pypy jobs with ""option --single-version-externally-managed not recognized""",https://bugs.launchpad.net/python-ceilometerclient/+bug/1290562,2015-06-24
+1290562,1290562,Fix Released,"failing pypy jobs with ""option --single-version-externally-managed not recognized""",https://bugs.launchpad.net/openstack-ci/+bug/1290562,2015-06-24
+1290562,1290562,Fix Released,"failing pypy jobs with ""option --single-version-externally-managed not recognized""",https://bugs.launchpad.net/python-neutronclient/+bug/1290562,2015-06-24
+1288246,1288246,Fix Released,unable to specify time constraints for alarms,https://bugs.launchpad.net/python-ceilometerclient/+bug/1288246,2015-06-24
+1274981,1274981,Fix Released,ceilometer-alarm-evaluator can't connect to the API,https://bugs.launchpad.net/python-ceilometerclient/+bug/1274981,2015-06-24
+1270094,1270094,Fix Released,groupby unsupported,https://bugs.launchpad.net/python-ceilometerclient/+bug/1270094,2015-06-24
+1260939,1260939,Fix Released,bash_completion is not supported,https://bugs.launchpad.net/python-heatclient/+bug/1260939,2015-06-24
+1260939,1260939,Fix Released,bash_completion is not supported,https://bugs.launchpad.net/python-ceilometerclient/+bug/1260939,2015-06-24
+1260817,1260817,Fix Released,ceilometer alarm-combination-update doesn't accept the operator argument,https://bugs.launchpad.net/python-ceilometerclient/+bug/1260817,2015-06-24
+1244091,1244091,Fix Released,__init__() got an unexpected keyword argument 'ca_cert',https://bugs.launchpad.net/python-ceilometerclient/+bug/1244091,2015-06-24
+1231303,1231303,Fix Released,Allow to update an alarm partially,https://bugs.launchpad.net/python-ceilometerclient/+bug/1231303,2015-06-24
+1228063,1228063,Fix Released,Ceilometer client does not pass region name to keystone client,https://bugs.launchpad.net/python-ceilometerclient/+bug/1228063,2015-06-24
+1227495,1227495,Fix Released,samples order is not userfriendly,https://bugs.launchpad.net/python-ceilometerclient/+bug/1227495,2015-06-24
+1225049,1225049,Fix Released,Statistic field missing in alarm-show,https://bugs.launchpad.net/python-ceilometerclient/+bug/1225049,2015-06-24
+1224343,1224343,Fix Released,Add support to keystoneclient cacert argument,https://bugs.launchpad.net/python-ceilometerclient/+bug/1224343,2015-06-24
+1201877,1201877,Fix Released,A matching metadata of alarm is not handled by ceilometerclient cli,https://bugs.launchpad.net/python-ceilometerclient/+bug/1201877,2015-06-24
+1190111,1190111,Fix Released,python-ceilometerclient fails to talk to HTTPS endpoints,https://bugs.launchpad.net/python-heatclient/+bug/1190111,2015-06-24
+1190111,1190111,Fix Released,python-ceilometerclient fails to talk to HTTPS endpoints,https://bugs.launchpad.net/python-ceilometerclient/+bug/1190111,2015-06-24
+1167537,1167537,Fix Released,ceilometer client does not handle 204 responses,https://bugs.launchpad.net/python-ceilometerclient/+bug/1167537,2015-06-24
+1167521,1167521,Fix Released,ceilometer client crashes with missing content type reponse,https://bugs.launchpad.net/python-ceilometerclient/+bug/1167521,2015-06-24
+1464694,1464694,Fix Released,filtering events by time range returns an empty list,https://bugs.launchpad.net/python-ceilometerclient/+bug/1464694,2015-06-24
+1451833,1451833,Fix Released,ceilometerclient doesn't catch NotFound exceptions in the shell code,https://bugs.launchpad.net/python-ceilometerclient/+bug/1451833,2015-06-24
+1439553,1439553,Fix Released,ceilometerclient discard region name,https://bugs.launchpad.net/python-ceilometerclient/+bug/1439553,2015-06-24
+1439207,1439207,Fix Released,update alarm time constraints fail but without helpful error message,https://bugs.launchpad.net/python-ceilometerclient/+bug/1439207,2015-06-24
+1436249,1436249,Fix Released,timeout is discard when init keystone session,https://bugs.launchpad.net/python-ceilometerclient/+bug/1436249,2015-06-24
+1323480,1323480,Fix Released,tox -epy27 print unnecessary stderr message HTTPUnauthorized 401,https://bugs.launchpad.net/python-ceilometerclient/+bug/1323480,2015-06-24
+1297769,1297769,Fix Released,Command line doesn't display some error messages,https://bugs.launchpad.net/python-ceilometerclient/+bug/1297769,2015-06-24
+1297156,1297156,Fix Released,replace assertTrue with  assertIsNotNone for check an object,https://bugs.launchpad.net/python-ceilometerclient/+bug/1297156,2015-06-24
+1272986,1272986,Fix Released,httplib2  is not needed anymore,https://bugs.launchpad.net/python-ceilometerclient/+bug/1272986,2015-06-24
+1268431,1268431,Fix Released,the related commands  of alarm shoud support --meter-name abbreviate to -m,https://bugs.launchpad.net/python-ceilometerclient/+bug/1268431,2015-06-24
+1268091,1268091,Fix Released,remove unused imports,https://bugs.launchpad.net/python-ceilometerclient/+bug/1268091,2015-06-24
+1267713,1267713,Fix Released,sample info should be returned when creating sample in CLI,https://bugs.launchpad.net/python-ceilometerclient/+bug/1267713,2015-06-24
+1267378,1267378,Fix Released,meter_name is not optional parameter when creating sample,https://bugs.launchpad.net/python-ceilometerclient/+bug/1267378,2015-06-24
+1266472,1266472,Fix Released,client looking at wrong cacert argument name,https://bugs.launchpad.net/python-ceilometerclient/+bug/1266472,2015-06-24
+1262498,1262498,Fix Released,ceilometerlient log curl request incorrectly,https://bugs.launchpad.net/python-ceilometerclient/+bug/1262498,2015-06-24
+1260343,1260343,Fix Released,ceilometer cmd line client help screen inconsistant state names,https://bugs.launchpad.net/python-ceilometerclient/+bug/1260343,2015-06-24
+1259853,1259853,Fix Released,Awkward wording in help text,https://bugs.launchpad.net/python-ceilometerclient/+bug/1259853,2015-06-24
+1223283,1223283,Fix Released,Indicate which options are required in help messages,https://bugs.launchpad.net/python-ceilometerclient/+bug/1223283,2015-06-24
+1130286,1130286,Fix Released,ceilometer client does not accept tokens for authentication,https://bugs.launchpad.net/python-ceilometerclient/+bug/1130286,2015-06-24
+1111972,1111972,Fix Released,Command line doesn't print useful message when there are no sample events,https://bugs.launchpad.net/python-ceilometerclient/+bug/1111972,2015-06-24
+1453061,1453061,Fix Released,alarm-evaluator service can't start when ssl was enabled,https://bugs.launchpad.net/python-ceilometerclient/+bug/1453061,2015-06-24
+1434264,1434264,Fix Released,make ceilometerclient shell consistent with other clients,https://bugs.launchpad.net/python-ceilometerclient/+bug/1434264,2015-06-24
+1396811,1396811,Fix Released,ceilometerclient doesn't support --os-endpoint nor --ceilometer-url,https://bugs.launchpad.net/python-ceilometerclient/+bug/1396811,2015-06-24
+1395110,1395110,Fix Released,Time constraint value does not display properly on the return table.,https://bugs.launchpad.net/python-ceilometerclient/+bug/1395110,2015-06-24
+1357343,1357343,Fix Released,ceilometer-alarm-evaluator fails after sometime with giving 401,https://bugs.launchpad.net/python-ceilometerclient/+bug/1357343,2015-06-24
+1310805,1310805,Fix Released,Ceilometer client ignores no_proxy env variable,https://bugs.launchpad.net/python-ceilometerclient/+bug/1310805,2015-06-24
+1301877,1301877,Fix Released,Use token in ceilometerclient will crush because dead loop of lambda,https://bugs.launchpad.net/python-ceilometerclient/+bug/1301877,2015-06-24
+1290230,1290230,Fix Released,insufficient_data is not the correct state for alarm-state-set,https://bugs.launchpad.net/python-ceilometerclient/+bug/1290230,2015-06-24
+1260394,1260394,Fix Released,Command line doesn't display messages on error,https://bugs.launchpad.net/python-ceilometerclient/+bug/1260394,2015-06-24
+1254186,1254186,Fix Released,python client crashes because of auth_token type,https://bugs.launchpad.net/python-ceilometerclient/+bug/1254186,2015-06-24
+1253989,1253989,Fix Released,alarm-threshold-update cannot update generic alarm attributes,https://bugs.launchpad.net/python-ceilometerclient/+bug/1253989,2015-06-24

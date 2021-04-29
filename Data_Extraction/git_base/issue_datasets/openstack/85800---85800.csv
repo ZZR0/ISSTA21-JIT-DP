@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1214363,1214363,Fix Released,set_vif_bandwidth_config may throw a KeyError.,https://bugs.launchpad.net/nova/+bug/1214363,2013-10-17
+1229508,1229508,Fix Released,nec plugin: packetfilter table network_id nullable should be False in folsom_initial db migration,https://bugs.launchpad.net/neutron/+bug/1229508,2013-10-17
+1213040,1213040,Fix Released,Fix untranslated log messages in libvirt driver,https://bugs.launchpad.net/nova/+bug/1213040,2013-10-17
+1229243,1229243,Fix Released,test_nvp_sync fails when ran on its own,https://bugs.launchpad.net/neutron/+bug/1229243,2013-10-17
+1212807,1212807,Fix Released,compute:update policy no longer checked,https://bugs.launchpad.net/nova/+bug/1212807,2013-10-17
+1229105,1229105,Fix Released,SystemExit exception should be logged in neutron,https://bugs.launchpad.net/neutron/+bug/1229105,2013-10-17
+1212734,1212734,Fix Released,Ami-style images stored as qcow2 are not resized,https://bugs.launchpad.net/nova/+bug/1212734,2013-10-17
+1228370,1228370,Fix Released,remove unused method update_providers,https://bugs.launchpad.net/neutron/+bug/1228370,2013-10-17
+1227889,1227889,Fix Released,Port Cisco nexus subplugin UT to ML2 mech driver UT,https://bugs.launchpad.net/neutron/+bug/1227889,2013-10-17
+1212496,1212496,Fix Released,vm_state and task_state were not updated after deleting vm,https://bugs.launchpad.net/nova/+bug/1212496,2013-10-17
+1212438,1212438,Fix Released,Message typo in nova.db.sqlalchemy.utils.py,https://bugs.launchpad.net/nova/+bug/1212438,2013-10-17
+1227592,1227592,Fix Released,Nicira plugin: Update and document default for max_lp_for_bridged_ls,https://bugs.launchpad.net/openstack-manuals/+bug/1227592,2013-10-17
+1227592,1227592,Fix Released,Nicira plugin: Update and document default for max_lp_for_bridged_ls,https://bugs.launchpad.net/neutron/+bug/1227592,2013-10-17
+1212420,1212420,Fix Released,some exceptions raised in terminate_instance() wedge the instance in the 'deleting' state,https://bugs.launchpad.net/nova/+bug/1212420,2013-10-17
+1225614,1225614,Fix Released,Using webob constants instead of hard coded HTTP status codes,https://bugs.launchpad.net/neutron/+bug/1225614,2013-10-17
+1212240,1212240,Fix Released,Creating an aggregate with an empty name should result in a 400 not a 409,https://bugs.launchpad.net/nova/+bug/1212240,2013-10-17
+1212217,1212217,Fix Released,Service disabled reason is not cleared on enable (v3 API),https://bugs.launchpad.net/nova/+bug/1212217,2013-10-17
+1225509,1225509,Fix Released,"hyperv neutron agent, break local nosetests tests",https://bugs.launchpad.net/neutron/+bug/1225509,2013-10-17
+1212098,1212098,Fix Released,Should return 409 rather than 500 when booting an instance with port already in use,https://bugs.launchpad.net/nova/+bug/1212098,2013-10-17
+1225009,1225009,Fix Released,mock_open patck not stopped correctly in test_agent_linux_utils,https://bugs.launchpad.net/neutron/+bug/1225009,2013-10-17
+1212096,1212096,Fix Released,Server name will all blank spaces should not be allowed via V3 API,https://bugs.launchpad.net/nova/+bug/1212096,2013-10-17
+1212017,1212017,Fix Released,"def _test_network_api(self, method, rpc_method, **kwargs) is broken",https://bugs.launchpad.net/nova/+bug/1212017,2013-10-17
+1224598,1224598,Fix Released,Fix linuxbridge test name from openvswitch,https://bugs.launchpad.net/neutron/+bug/1224598,2013-10-17
+1211396,1211396,Fix Released,Stub out Torrent URL lookup fn in tests,https://bugs.launchpad.net/nova/+bug/1211396,2013-10-17
+1224290,1224290,Fix Released,Neutron l3 agent should not add metadata filter rules if metadata proxy is disabled,https://bugs.launchpad.net/neutron/+bug/1224290,2013-10-17
+1211347,1211347,Fix Released,Quota message wrong for multiple instances,https://bugs.launchpad.net/nova/+bug/1211347,2013-10-17
+1224285,1224285,Fix Released,No need to init testr in run_tests.sh,https://bugs.launchpad.net/neutron/+bug/1224285,2013-10-17
+1211307,1211307,Fix Released,instance_group_delete() filters related entities by group UUID rather than by ID,https://bugs.launchpad.net/nova/+bug/1211307,2013-10-17
+1223585,1223585,Fix Released,ext_gw_mode extension should register extend_dict_function,https://bugs.launchpad.net/neutron/+bug/1223585,2013-10-17
+1211122,1211122,Fix Released,vendor_data blueprint causes ValueError,https://bugs.launchpad.net/nova/+bug/1211122,2013-10-17
+1221726,1221726,Fix Released,Lbaas tests can't be run alone by tox,https://bugs.launchpad.net/neutron/+bug/1221726,2013-10-17
+1211098,1211098,Fix Released,Don't need to init testr in run_tests.sh,https://bugs.launchpad.net/nova/+bug/1211098,2013-10-17
+1221601,1221601,Fix Released,Replace assertEquals to assertEqual,https://bugs.launchpad.net/neutron/+bug/1221601,2013-10-17
+1210869,1210869,Fix Released,Ratelimiting not working,https://bugs.launchpad.net/nova/+bug/1210869,2013-10-17
+1221500,1221500,Fix Released,NotImplementedError is a Python built-in exception,https://bugs.launchpad.net/neutron/+bug/1221500,2013-10-17
+1210570,1210570,Fix Released,clean up exception handling on evacuate,https://bugs.launchpad.net/nova/+bug/1210570,2013-10-17
+1210264,1210264,Fix Released,compute manager makes a libvirt/xenapi call per instance update,https://bugs.launchpad.net/nova/+bug/1210264,2013-10-17
+1212882,1212882,Fix Released,REST API translation not always working,https://bugs.launchpad.net/neutron/+bug/1212882,2013-10-17
+1208680,1208680,Fix Released,Don't inject files while resizing instance,https://bugs.launchpad.net/nova/+bug/1208680,2013-10-17
+1208656,1208656,Fix Released,direct downloads plugin schema errors on python 2.6,https://bugs.launchpad.net/nova/+bug/1208656,2013-10-17
+1212168,1212168,Fix Released,Can't dnat from 169.254.169.254:80 to host:8775,https://bugs.launchpad.net/neutron/+bug/1212168,2013-10-17
+1208560,1208560,Fix Released,ldap not lazily imported,https://bugs.launchpad.net/nova/+bug/1208560,2013-10-17
+1212102,1212102,Fix Released,NEC Plugin: All packet filters are deleted in a port deletion,https://bugs.launchpad.net/neutron/+bug/1212102,2013-10-17
+1208400,1208400,Fix Released,User quota update should not exceed project quota,https://bugs.launchpad.net/nova/+bug/1208400,2013-10-17
+1208382,1208382,Fix Released,Migrate script 203 doesn't work with SQLAlchemy 0.8.x,https://bugs.launchpad.net/nova/+bug/1208382,2013-10-17
+1195770,1195770,Fix Released,Presence of stale DHCP directories on dhcp-agent node,https://bugs.launchpad.net/neutron/+bug/1195770,2013-10-17
+1180783,1180783,Fix Released,Clean up code in Cisco Nexus plugin's _get_all_segmentation_ids,https://bugs.launchpad.net/neutron/+bug/1180783,2013-10-17
+1157511,1157511,Fix Released,Brocade plugin options have no help text,https://bugs.launchpad.net/neutron/+bug/1157511,2013-10-17
+1207878,1207878,Fix Released,Cannot create an instance on a subnet without gateway,https://bugs.launchpad.net/nova/+bug/1207878,2013-10-17
+1207356,1207356,Fix Released,swap_volume calls functions with volume rather than ID,https://bugs.launchpad.net/nova/+bug/1207356,2013-10-17
+1232758,1232758,Fix Released,AttributeError: 'NoneType' object has no attribute 'security_groups_provider_updated',https://bugs.launchpad.net/neutron/+bug/1232758,2013-10-17
+1229655,1229655,Fix Released,host routes and dns name server not set in midonet plugin,https://bugs.launchpad.net/neutron/+bug/1229655,2013-10-17
+1207355,1207355,Fix Released,Migration 159 does not downgrade with mysql,https://bugs.launchpad.net/nova/+bug/1207355,2013-10-17
+1207344,1207344,Fix Released,Migration 185 does not downgrade on MySQL,https://bugs.launchpad.net/nova/+bug/1207344,2013-10-17
+1229548,1229548,Fix Released,Advanced service router becomes destination of a floating ip for a short period of time,https://bugs.launchpad.net/neutron/+bug/1229548,2013-10-17
+1229492,1229492,Fix Released,rootwrap out of sync with oslo,https://bugs.launchpad.net/neutron/+bug/1229492,2013-10-17
+1207309,1207309,Fix Released,Migration 147 does not downgrade on MySQL,https://bugs.launchpad.net/nova/+bug/1207309,2013-10-17
+1229149,1229149,Fix Released,Nicira plugin - allow users to default to punctual state sync,https://bugs.launchpad.net/neutron/+bug/1229149,2013-10-17
+1207174,1207174,Fix Released,Migration 203 downgrade doesn't remove indexes,https://bugs.launchpad.net/nova/+bug/1207174,2013-10-17
+1228442,1228442,Fix Released,FWaaS plugin should allow creating only one firewall per tenant,https://bugs.launchpad.net/neutron/+bug/1228442,2013-10-17
+1207107,1207107,Fix Released,xenserver + agent plugin failure,https://bugs.launchpad.net/nova/+bug/1207107,2013-10-17
+1227971,1227971,Fix Released,Incorrect usage of _fields method in provider_configuration.py,https://bugs.launchpad.net/neutron/+bug/1227971,2013-10-17
+1206890,1206890,Fix Released,Deleting an instance should clean all the BDMs from the database too,https://bugs.launchpad.net/nova/+bug/1206890,2013-10-17
+1227964,1227964,Fix Released,Port Cisco nexus and network db UT to ML2 mech driver UT,https://bugs.launchpad.net/neutron/+bug/1227964,2013-10-17
+1206528,1206528,Fix Released,powervm driver needs to pass on unsupported aggregate operations,https://bugs.launchpad.net/nova/+bug/1206528,2013-10-17
+1227675,1227675,Fix Released,"OVS agent fails with ""ovs-vsctl: unrecognized option '--may-exist'"" error trying to create a GRE tunnel",https://bugs.launchpad.net/neutron/+bug/1227675,2013-10-17
+1206526,1206526,Fix Released,Timing issue in SimpleTenantUsageSample(Json|XML)Test,https://bugs.launchpad.net/nova/+bug/1206526,2013-10-17
+1227079,1227079,Fix Released,"Midonet plugin, add multiple subnets tests",https://bugs.launchpad.net/neutron/+bug/1227079,2013-10-17
+1206479,1206479,Fix Released,Not clean destroy for project quota,https://bugs.launchpad.net/nova/+bug/1206479,2013-10-17
+1226941,1226941,Fix Released,FWaaS - reordering of rules in a policy fails,https://bugs.launchpad.net/neutron/+bug/1226941,2013-10-17
+1226814,1226814,Fix Released,BigSwitch plugin: missing keyword in router rules,https://bugs.launchpad.net/neutron/+bug/1226814,2013-10-17
+1206362,1206362,Fix Released,Virtual size of the QCOW2 should be logged when flavor's root disk size < virtual size of the QCOW2,https://bugs.launchpad.net/nova/+bug/1206362,2013-10-17
+1206330,1206330,Fix Released,nova list failure when quantum_url points to HTTPS endpoint,https://bugs.launchpad.net/nova/+bug/1206330,2013-10-17
+1226803,1226803,Fix Released,bigswitch plugin doesn't pass context to all network updates,https://bugs.launchpad.net/neutron/+bug/1226803,2013-10-17
+1205693,1205693,Fix Released,Wrong index on project_user_quotas table in 203 migrate script,https://bugs.launchpad.net/nova/+bug/1205693,2013-10-17

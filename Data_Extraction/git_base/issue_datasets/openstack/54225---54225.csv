@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1452864,1452864,Fix Released,chunked and NFS driver help messages and code still have 'Swift' references,https://bugs.launchpad.net/cinder/+bug/1452864,2015-12-03
+1437904,1437904,Fix Released,"generate_sample.sh uses MODULEPATH environment variable, conflicts with environment-modules",https://bugs.launchpad.net/cinder/+bug/1437904,2015-12-03
+1437904,1437904,Fix Released,"generate_sample.sh uses MODULEPATH environment variable, conflicts with environment-modules",https://bugs.launchpad.net/nova/+bug/1437904,2015-12-03
+1437904,1437904,Fix Released,"generate_sample.sh uses MODULEPATH environment variable, conflicts with environment-modules",https://bugs.launchpad.net/ironic/+bug/1437904,2015-12-03
+1288254,1288254,Fix Released,VMware:  vmdk driver should check the extra-spec value,https://bugs.launchpad.net/cinder/+bug/1288254,2015-12-03
+1271286,1271286,Fix Released,Scheduler should give more log info for no host available errors,https://bugs.launchpad.net/cinder/+bug/1271286,2015-12-03
+1255354,1255354,Fix Released,cinder-manage --config-dir is silently ignored if it's  incorrect,https://bugs.launchpad.net/cinder/+bug/1255354,2015-12-03
+1516778,1516778,Fix Released,IBM SVC driver multipath config stranding LUNs,https://bugs.launchpad.net/cinder/+bug/1516778,2015-12-03
+1515181,1515181,Fix Released,VMAX Driver - change naming convention for MV and SG for FAST,https://bugs.launchpad.net/cinder/+bug/1515181,2015-12-03
+1510654,1510654,Fix Released,cinder rootwrap volume.filters is missing lvconvert entry,https://bugs.launchpad.net/cinder/+bug/1510654,2015-12-03
+1505240,1505240,Fix Released,Tons of py34 tracebacks in successful unit test runs,https://bugs.launchpad.net/cinder/+bug/1505240,2015-12-03
+1504696,1504696,Fix Released,replication_devices conf entry method is cumbersome and confusing,https://bugs.launchpad.net/cinder/+bug/1504696,2015-12-03
+1504633,1504633,Fix Released,v2 replication API calls are printing incorrectly formatted strings when an error occurs,https://bugs.launchpad.net/cinder/+bug/1504633,2015-12-03
+1501936,1501936,Fix Released,volume manager missing enforcing driver initialized,https://bugs.launchpad.net/cinder/+bug/1501936,2015-12-03
+1515033,1515033,Fix Released,3PAR fetching multiple vluns fails,https://bugs.launchpad.net/cinder/+bug/1515033,2015-12-03
+1514926,1514926,Fix Released,Cinder has no testing infrastructure for when objects require a version bump,https://bugs.launchpad.net/cinder/+bug/1514926,2015-12-03
+1513158,1513158,Fix Released,3PAR drivers volume size conversion is incorrect,https://bugs.launchpad.net/cinder/+bug/1513158,2015-12-03
+1503439,1503439,Fix Released,Issuing v2 replication commands against a non-replicated volume type puts replication_status into an unrecoverable state,https://bugs.launchpad.net/cinder/+bug/1503439,2015-12-03
+1503069,1503069,Fix Released,Allow specification of a SolidFire volume-prefix,https://bugs.launchpad.net/cinder/+bug/1503069,2015-12-03
+1501942,1501942,Fix Released,enable_replication/disable missing message InvalidVolume(),https://bugs.launchpad.net/cinder/+bug/1501942,2015-12-03
+1501820,1501820,Fix Released,./tools/config/generate_sample.sh doesn't work properly,https://bugs.launchpad.net/cinder/+bug/1501820,2015-12-03
+1501745,1501745,Fix Released,gate-cinder-python34 failed,https://bugs.launchpad.net/cinder/+bug/1501745,2015-12-03
+1499452,1499452,Fix Released,cinder gluster driver extend with snapshot fault,https://bugs.launchpad.net/cinder/+bug/1499452,2015-12-03
+1498651,1498651,Fix Released,LVM_SYSTEM_DIR value is hardcoded as /etc/cinder,https://bugs.launchpad.net/cinder/+bug/1498651,2015-12-03
+1498122,1498122,Fix Released,Unused imported modules in generated opt file,https://bugs.launchpad.net/cinder/+bug/1498122,2015-12-03
+1487329,1487329,Fix Released,unmanage cinder volume error:  AttributeError: 'GlusterfsDriver' object has no attribute 'unmanage',https://bugs.launchpad.net/cinder/+bug/1487329,2015-12-03
+1510790,1510790,Fix Released,Unit tests failed with a new python-novaclient,https://bugs.launchpad.net/python-novaclient/+bug/1510790,2015-12-03
+1510790,1510790,Fix Released,Unit tests failed with a new python-novaclient,https://bugs.launchpad.net/cinder/+bug/1510790,2015-12-03
+1521740,1521740,Fix Released,'tools/get_action_list.py trove' command throws AttributeError,https://bugs.launchpad.net/mistral/+bug/1521740,2015-12-03
+1519929,1519929,Fix Released,mistral-db-manage upgrade heads error with workflow_input_hash index does not exist,https://bugs.launchpad.net/mistral/+bug/1519929,2015-12-03
+1518506,1518506,Fix Released,yaql eval error in subflow output leads to task stuck in RUNNING state,https://bugs.launchpad.net/mistral/+bug/1518506,2015-12-03
+1504429,1504429,Fix Released,Output is not shown for action-get-definition.,https://bugs.launchpad.net/mistral/+bug/1504429,2015-12-03
+1503851,1503851,Fix Released,Use copy.deepcopy for copying dicts,https://bugs.launchpad.net/mistral/+bug/1503851,2015-12-03
+1503014,1503014,Fix Released,Launching WSGI under gunicorn results in CLI already parsed error,https://bugs.launchpad.net/mistral/+bug/1503014,2015-12-03
+1501643,1501643,Fix Released,Cinder v1 API will be deprecated; need to move to Cinder v2,https://bugs.launchpad.net/mistral/+bug/1501643,2015-12-03
+1493343,1493343,Fix Released,workflow-get-definition for wf that created via wb gives empty value,https://bugs.launchpad.net/mistral/+bug/1493343,2015-12-03
+1501172,1501172,Fix Released,For duplicate wf or wb error message is sent in html format. It should be sent in json format,https://bugs.launchpad.net/mistral/+bug/1501172,2015-12-03
+1498406,1498406,Fix Released,Mistral looses the return value of a JavaScript action if it returns a JSON or an array,https://bugs.launchpad.net/mistral/+bug/1498406,2015-12-03
+1501433,1501433,Fix Released,Transaction block in task execution API causes deadlocks,https://bugs.launchpad.net/mistral/+bug/1501433,2015-12-03
+1502076,1502076,Fix Released,password argument in SSH Action should be optional,https://bugs.launchpad.net/mistral/+bug/1502076,2015-12-03
+1505623,1505623,Fix Released,"Missing ""Services"" section in API v2 spec",https://bugs.launchpad.net/mistral/+bug/1505623,2015-12-03
+1505619,1505619,Fix Released,"Missing ""Cron triggers"" section in API v2 spec",https://bugs.launchpad.net/mistral/+bug/1505619,2015-12-03
+1505620,1505620,Fix Released,"Missing ""Validation"" section in API v2 spec",https://bugs.launchpad.net/mistral/+bug/1505620,2015-12-03
+1505175,1505175,Fix Released,Functional tests use setUpClass method in classes,https://bugs.launchpad.net/mistral/+bug/1505175,2015-12-03
+1331374,1331374,Fix Released,parametrize table_prefix_separator in hbase connection,https://bugs.launchpad.net/ceilometer/+bug/1331374,2015-12-03
+1471158,1471158,Fix Released,Incorrect regular expressions used for schema validation,https://bugs.launchpad.net/designate/+bug/1471158,2015-12-03
+1187698,1187698,Fix Released,Status code missing in case of quota exception,https://bugs.launchpad.net/python-neutronclient/+bug/1187698,2015-12-03
+1517127,1517127,Fix Released,Baremetal network is missing on interfaces screen,https://bugs.launchpad.net/fuel/+bug/1517127,2015-12-03
+1498208,1498208,Fix Released,Fix promote for Redis datastore,https://bugs.launchpad.net/trove/+bug/1498208,2015-12-03
+1515891,1515891,Fix Released,No notification on UI after finished provisioning,https://bugs.launchpad.net/fuel/+bug/1515891,2015-12-03
+1480448,1480448,Fix Released,trove database-list and database extensions should treat performance_schema as a special internal database,https://bugs.launchpad.net/trove/+bug/1480448,2015-12-03
+1498964,1498964,Fix Released,Live migration fix for multiple compute nodes using VMAX plugin,https://bugs.launchpad.net/cinder/+bug/1498964,2015-12-03
+1499227,1499227,Fix Released,Report *real* free capacity in Huawei driver,https://bugs.launchpad.net/cinder/+bug/1499227,2015-12-03
+1500583,1500583,Fix Released,Dell SC: cgsnapshot-delete doesn't actually delete,https://bugs.launchpad.net/cinder/+bug/1500583,2015-12-03
+1505488,1505488,Fix Released,Use 500 for default response code,https://bugs.launchpad.net/cinder/+bug/1505488,2015-12-03
+1500880,1500880,Fix Released,fix deprecation note in meters.yaml,https://bugs.launchpad.net/ceilometer/+bug/1500880,2015-12-03
+1478961,1478961,Fix Released,db sync on federation failed if there is existing data,https://bugs.launchpad.net/keystone/+bug/1478961,2015-12-03
+1480270,1480270,Fix Released,Can't get v3 endpoints with v2 in command line,https://bugs.launchpad.net/keystone/+bug/1480270,2015-12-03
+1498824,1498824,Fix Released,Add Firewall and Router association to the firewall resource,https://bugs.launchpad.net/heat/+bug/1498824,2015-12-03
+1496445,1496445,Fix Released,Heat should recognise/handle the error_deleting state in Cinder,https://bugs.launchpad.net/heat/+bug/1496445,2015-12-03
+1499470,1499470,Fix Released,test_ceilometer_alarm and test_properties fails on py34 gates,https://bugs.launchpad.net/heat/+bug/1499470,2015-12-03
+1397883,1397883,Fix Released,assert statement should be removed from heat,https://bugs.launchpad.net/heat/+bug/1397883,2015-12-03
+1499330,1499330,Fix Released,Heat logs too big,https://bugs.launchpad.net/heat/+bug/1499330,2015-12-03
+1499330,1499330,Fix Released,Heat logs too big,https://bugs.launchpad.net/tripleo/+bug/1499330,2015-12-03
+1499877,1499877,Fix Released,OS::Nova::Server resource fails on clouds which don't implement os_interface extension,https://bugs.launchpad.net/heat/+bug/1499877,2015-12-03
+1503060,1503060,Fix Released,Stack creation fails when connecting a Nova::Server instance with a created network,https://bugs.launchpad.net/heat/+bug/1503060,2015-12-03
+1502751,1502751,Fix Released,pagination does not work for stack events when resource is specified,https://bugs.launchpad.net/heat/+bug/1502751,2015-12-03
+1521505,1521505,Fix Released,Rename node network group control is not closed correctly,https://bugs.launchpad.net/fuel/+bug/1521505,2015-12-03
+1473932,1473932,Fix Released,Support several UUID's in the shell script,https://bugs.launchpad.net/python-ironic-inspector-client/+bug/1473932,2015-12-03
+1521229,1521229,Fix Released,openstack-ansible-security needs more thorough gate testing,https://bugs.launchpad.net/openstack-ansible/+bug/1521229,2015-12-03
+1516142,1516142,Fix Released,openstack-ansible-security needs a check mode for auditing,https://bugs.launchpad.net/openstack-ansible/+bug/1516142,2015-12-03
+1519861,1519861,Fix Released,Network notation is always reset to 'cidr' while configuring multiple cluster networks,https://bugs.launchpad.net/fuel/+bug/1519861,2015-12-03
+1518887,1518887,Fix Released,Provisioned node can not be deleted from environment without deployment,https://bugs.launchpad.net/fuel/+bug/1518887,2015-12-03
+1438906,1438906,Fix Released,neutron_test.sh fails in python-neutronclient,https://bugs.launchpad.net/python-neutronclient/+bug/1438906,2015-12-03
+1517877,1517877,Fix Released,Fuel specs should be published to specs.openstack.org,https://bugs.launchpad.net/fuel/+bug/1517877,2015-12-03

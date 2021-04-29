@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1015423,1015423,Fix Released,xenapi ImageTooLarge exception leaves VDI around,https://bugs.launchpad.net/nova/+bug/1015423,2013-10-17
+1169266,1169266,Fix Released,linuxbridge quantum plugin is not checking network_vlan_ranges correctness,https://bugs.launchpad.net/neutron/+bug/1169266,2013-10-17
+915151,915151,Fix Released,"""Malformed request url"" error for project ID mismatch is confusing",https://bugs.launchpad.net/nova/+bug/915151,2013-10-17
+1167780,1167780,Fix Released,Improve checking or return values for functions in linuxbridge agent plugin,https://bugs.launchpad.net/neutron/+bug/1167780,2013-10-17
+1167520,1167520,Fix Released,Linuxbridge tests fail if eth0 not found on device,https://bugs.launchpad.net/neutron/+bug/1167520,2013-10-17
+1182056,1182056,Fix Released,Failed VM's not set to error state on exception,https://bugs.launchpad.net/nova/+bug/1182056,2013-10-17
+1166543,1166543,Fix Released,enable users not to run metadata proxy in l3 agent,https://bugs.launchpad.net/neutron/+bug/1166543,2013-10-17
+1181633,1181633,Fix Released,"memorycache imported into nova, but not present in the common conf file",https://bugs.launchpad.net/nova/+bug/1181633,2013-10-17
+1163181,1163181,Fix Released,update Ryu plugin README,https://bugs.launchpad.net/neutron/+bug/1163181,2013-10-17
+1180671,1180671,Fix Released,Primary VDI and Resize XenAPI tests interfering with each other,https://bugs.launchpad.net/nova/+bug/1180671,2013-10-17
+1160955,1160955,Fix Released,metadata proxy launched by l3 agent is missing the metadata port,https://bugs.launchpad.net/neutron/+bug/1160955,2013-10-17
+1179497,1179497,Fix Released,179 migration doesn't change shadow table,https://bugs.launchpad.net/nova/+bug/1179497,2013-10-17
+1160369,1160369,Fix Released,quantum.conf doesn't provide flags for RabbitMQ HA queues,https://bugs.launchpad.net/neutron/+bug/1160369,2013-10-17
+1178612,1178612,Fix Released,baremetal deploy helper rootwrap file has bad location for iscsiadm on quantal,https://bugs.launchpad.net/nova/+bug/1178612,2013-10-17
+1178608,1178608,Fix Released,nova-baremetal-deploy-helper errors are opaque,https://bugs.launchpad.net/nova/+bug/1178608,2013-10-17
+1160333,1160333,Fix Released,N+1 DB queries executed when extra_route extension is enabled,https://bugs.launchpad.net/neutron/+bug/1160333,2013-10-17
+1177776,1177776,Fix Released,ZooKeeper servicegroup driver is trying to import module by wrong name,https://bugs.launchpad.net/nova/+bug/1177776,2013-10-17
+1160193,1160193,Fix Released,Port information is deleted in live-migration with NEC plugin.,https://bugs.launchpad.net/neutron/+bug/1160193,2013-10-17
+1177689,1177689,Fix Released,variable referenced before assignment in vmwareapi code,https://bugs.launchpad.net/nova/+bug/1177689,2013-10-17
+1159015,1159015,Fix Released,enable_isolated_metadata_proxy should be called only when enable_isolated_metadata enabled,https://bugs.launchpad.net/neutron/+bug/1159015,2013-10-17
+1177635,1177635,Fix Released,code logical error exists in vmwareapi vif.py,https://bugs.launchpad.net/nova/+bug/1177635,2013-10-17
+1158612,1158612,Fix Released,RHEL: TestLinuxBridgeAgent.test_process_network_devices_failed fails,https://bugs.launchpad.net/neutron/+bug/1158612,2013-10-17
+1177247,1177247,Fix Released,libvirt migrate/resize on shared storage can cause data loss,https://bugs.launchpad.net/nova/+bug/1177247,2013-10-17
+1158609,1158609,Fix Released,RHEL TestLinuxBridgeAgent.test_update_devices_failed fails,https://bugs.launchpad.net/neutron/+bug/1158609,2013-10-17
+1176443,1176443,Fix Released,175 and 176 migrations don't change columns for shadow tables,https://bugs.launchpad.net/nova/+bug/1176443,2013-10-17
+1156044,1156044,Fix Released,rootwrap filter for iptables-save/restore incomplete,https://bugs.launchpad.net/neutron/+bug/1156044,2013-10-17
+1174952,1174952,Fix Released,baremetal nodes are garbage collected incorrectly,https://bugs.launchpad.net/nova/+bug/1174952,2013-10-17
+1174952,1174952,Fix Released,baremetal nodes are garbage collected incorrectly,https://bugs.launchpad.net/tripleo/+bug/1174952,2013-10-17
+1155379,1155379,Fix Released,Typo in policy.json,https://bugs.launchpad.net/neutron/+bug/1155379,2013-10-17
+1136027,1136027,Fix Released,improve unit tests for wsgi module,https://bugs.launchpad.net/neutron/+bug/1136027,2013-10-17
+1128674,1128674,Fix Released,add quantum tag and quantum version as nvp tag to quantum elements,https://bugs.launchpad.net/neutron/+bug/1128674,2013-10-17
+1121605,1121605,Fix Released,Simplify NVP plugin configuration loading,https://bugs.launchpad.net/neutron/+bug/1121605,2013-10-17
+1101342,1101342,Fix Released,Quantum endpoint does not support SSL,https://bugs.launchpad.net/neutron/+bug/1101342,2013-10-17
+1170596,1170596,Fix Released,Live migration fails when the instance booted from volume has no image.,https://bugs.launchpad.net/nova/+bug/1170596,2013-10-17
+1096549,1096549,Fix Released,Database deletions should use delete orphan,https://bugs.launchpad.net/neutron/+bug/1096549,2013-10-17
+1170529,1170529,Fix Released,when using multi_host and update_dns_entries dnsmasq is missing addn-hosts arg,https://bugs.launchpad.net/nova/+bug/1170529,2013-10-17
+1092311,1092311,Fix Released,Quantum metadata service does not support POST,https://bugs.launchpad.net/neutron/+bug/1092311,2013-10-17
+1170453,1170453,Fix Released,"PolicyNotAuthorized not returned for confirmResize, revertResize, reboot",https://bugs.launchpad.net/nova/+bug/1170453,2013-10-17
+1053497,1053497,Fix Released,better error mesg when agent can't connect remotely,https://bugs.launchpad.net/neutron/+bug/1053497,2013-10-17
+1168516,1168516,Fix Released,run_tests.sh broken with python-subunit-0.0.11,https://bugs.launchpad.net/nova/+bug/1168516,2013-10-17
+1168490,1168490,Fix Released,nova-cells crash with: operator does not exist: boolean = integer,https://bugs.launchpad.net/nova/+bug/1168490,2013-10-17
+988067,988067,Fix Released,"The opensource plugin agents (linuxbridge, ovs) are missing automated tests",https://bugs.launchpad.net/neutron/+bug/988067,2013-10-17
+1167619,1167619,Fix Released,_poll_rescued_instances() makes an invalid database query,https://bugs.launchpad.net/nova/+bug/1167619,2013-10-17
+1183576,1183576,Fix Released,config shortcut config.AGENT in NEC plugin has typo,https://bugs.launchpad.net/neutron/+bug/1183576,2013-10-17
+1167447,1167447,Fix Released,dnsmasq fails to start,https://bugs.launchpad.net/nova/+bug/1167447,2013-10-17
+1183173,1183173,Fix Released,duplicate entry in dhcp agent auto schedule,https://bugs.launchpad.net/neutron/+bug/1183173,2013-10-17
+1166771,1166771,Fix Released,Live-migration leaves instance in MIGRATING state if scheduler fails to find a host,https://bugs.launchpad.net/nova/+bug/1166771,2013-10-17
+1182772,1182772,Fix Released,database migration failed with missing QUOTAS option,https://bugs.launchpad.net/neutron/+bug/1182772,2013-10-17
+1166112,1166112,Fix Released,baremetal-deploy-helper fails to create partitions,https://bugs.launchpad.net/nova/+bug/1166112,2013-10-17
+1182682,1182682,Fix Released,Nicira plugin unable to load net-gateway extension,https://bugs.launchpad.net/neutron/+bug/1182682,2013-10-17
+1164845,1164845,Fix Released,consoleauth_manager option importing missing,https://bugs.launchpad.net/nova/+bug/1164845,2013-10-17
+1180971,1180971,Fix Released,Floodlight/BigSwitch plugin does not return external network attributes on get_network,https://bugs.launchpad.net/neutron/+bug/1180971,2013-10-17
+1164784,1164784,Fix Released,"console auth does not work with memcache, unicode error (again)",https://bugs.launchpad.net/nova/+bug/1164784,2013-10-17
+1180767,1180767,Fix Released,quantum-netns-cleanup no longer accepts force argument,https://bugs.launchpad.net/neutron/+bug/1180767,2013-10-17
+1164723,1164723,Fix Released,Resource tracker does unnecessary joins,https://bugs.launchpad.net/nova/+bug/1164723,2013-10-17
+1164110,1164110,Fix Released,In-progress migrations may not have stashed instance types,https://bugs.launchpad.net/nova/+bug/1164110,2013-10-17
+1178800,1178800,Fix Released,dhcp unit tests prompt for sudo password,https://bugs.launchpad.net/openstack-ci/+bug/1178800,2013-10-17
+1178800,1178800,Fix Released,dhcp unit tests prompt for sudo password,https://bugs.launchpad.net/neutron/+bug/1178800,2013-10-17
+1178419,1178419,Fix Released,L3 & DHCP agents can't kill metadata proxy on RHEL,https://bugs.launchpad.net/neutron/+bug/1178419,2013-10-17
+1162409,1162409,Fix Released,nova net-list not return network uuid but id instead,https://bugs.launchpad.net/nova/+bug/1162409,2013-10-17
+1178003,1178003,Fix Released,dhcp agent uses root_helper setting from dhcp_agent.ini and quantum.conf,https://bugs.launchpad.net/neutron/+bug/1178003,2013-10-17
+1160773,1160773,Fix Released,Cannot resize instance if base image is not available,https://bugs.launchpad.net/nova/+bug/1160773,2013-10-17
+1177416,1177416,Fix Released,Metadata proxy startup can fail when Daemon class doesn't properly match running processes,https://bugs.launchpad.net/neutron/+bug/1177416,2013-10-17
+1159978,1159978,Fix Released,Nova unit tests spamming log output,https://bugs.launchpad.net/nova/+bug/1159978,2013-10-17
+1177277,1177277,Fix Released,quantum port-create can not detect duplicate IP address,https://bugs.launchpad.net/neutron/+bug/1177277,2013-10-17
+1159116,1159116,Fix Released,colorizer for nova removes all failure output,https://bugs.launchpad.net/nova/+bug/1159116,2013-10-17
+1158940,1158940,Fix Released,python 2.6 doesn't support TextTestRunner resultclass,https://bugs.launchpad.net/nova/+bug/1158940,2013-10-17
+1177176,1177176,Fix Released,exception raised on disassociate_floatingips when out of sync,https://bugs.launchpad.net/neutron/+bug/1177176,2013-10-17
+1158828,1158828,Fix Released,ArchiveTestCase.test_archive_deleted_rows_fk_constraint fails on RHEL6,https://bugs.launchpad.net/nova/+bug/1158828,2013-10-17
+1175393,1175393,Fix Released,cannot delete default security group after tenants are deleted,https://bugs.launchpad.net/neutron/+bug/1175393,2013-10-17
+1158826,1158826,Fix Released,MiscellaneousXMLUtilTests.test_safe_parse_xml fails on RHEL6,https://bugs.launchpad.net/nova/+bug/1158826,2013-10-17
+1158603,1158603,Fix Released,xenapi's check_can_live_migrate_destination should not return None,https://bugs.launchpad.net/nova/+bug/1158603,2013-10-17
+1174877,1174877,Fix Released,NVP plugin: Field based policy checks are broken,https://bugs.launchpad.net/neutron/+bug/1174877,2013-10-17
+1157992,1157992,Fix Released,libvirt tests fail due to too many connections,https://bugs.launchpad.net/nova/+bug/1157992,2013-10-17
+1155152,1155152,Fix Released,Instances deleted during migration cause exception in _destroy_evacuated_instances,https://bugs.launchpad.net/nova/+bug/1155152,2013-10-17

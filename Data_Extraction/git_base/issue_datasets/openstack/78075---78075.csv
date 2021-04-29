@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1324976,1324976,Fix Released,[System Tests] Cherry pick fixes for system tests 4.1.1,https://bugs.launchpad.net/fuel/+bug/1324976,2014-06-06
+1148516,1148516,Fix Released,include more information when logging rpc call exceptions,https://bugs.launchpad.net/nova/+bug/1148516,2014-06-06
+1177584,1177584,Fix Released,baremetal instances can get wedged when deleted,https://bugs.launchpad.net/nova/+bug/1177584,2014-06-06
+1102645,1102645,Fix Released,Flavor resource does not implement delete(),https://bugs.launchpad.net/python-novaclient/+bug/1102645,2014-06-06
+1319087,1319087,Fix Released,keystone-manage db_sync failed on first controller in ha mode,https://bugs.launchpad.net/fuel/+bug/1319087,2014-06-06
+1316585,1316585,Fix Released,Defect: Devstack: Glance upload fails uploading base cirros image,https://bugs.launchpad.net/devstack/+bug/1316585,2014-06-06
+1326539,1326539,Fix Released,devstack setup fails to get pip,https://bugs.launchpad.net/devstack/+bug/1326539,2014-06-05
+1295165,1295165,Fix Released,lbaas is unreliable in the gate,https://bugs.launchpad.net/neutron/+bug/1295165,2014-06-05
+1283035,1283035,Fix Released,"Errors in cinder-volume log for HA, Ubuntu",https://bugs.launchpad.net/fuel/+bug/1283035,2014-06-05
+1303841,1303841,Fix Released,[devops] Report exporter uses fuelweb_test's requirements.txt,https://bugs.launchpad.net/fuel/+bug/1303841,2014-06-05
+1294222,1294222,Fix Released,Add IBM to the Nailgun Agent REMOVABLE_VENDORS list,https://bugs.launchpad.net/fuel/+bug/1294222,2014-06-05
+1315211,1315211,Fix Released,rabbit no longer sets ha policy,https://bugs.launchpad.net/fuel/+bug/1315211,2014-06-05
+1292561,1292561,Fix Committed,"Nailgun ""json"" should be replaced with ""jsonutils""",https://bugs.launchpad.net/fuel/+bug/1292561,2014-06-05
+1281625,1281625,Fix Committed,Pacemaker Galera-MySQL restart race in OCF script,https://bugs.launchpad.net/fuel/+bug/1281625,2014-06-05
+1279594,1279594,Fix Released,RabbitMQ can run out of file descriptors,https://bugs.launchpad.net/fuel/+bug/1279594,2014-06-05
+1235182,1235182,Fix Released,live migration fails with vm booted from vol,https://bugs.launchpad.net/nova/+bug/1235182,2014-06-05
+1321943,1321943,Fix Released,Ceilometer Swift polling on overcloud control node fails with a 403 forbidden error,https://bugs.launchpad.net/tripleo/+bug/1321943,2014-06-05
+1076965,1076965,Fix Released,nova-objectstore on not existing bucket GET does not provide ErrorCode,https://bugs.launchpad.net/nova/+bug/1076965,2014-06-05
+1182384,1182384,Fix Released,SecurityGroups Tests : invalid id must be valid uuid,https://bugs.launchpad.net/tempest/+bug/1182384,2014-06-05
+1182384,1182384,Fix Released,SecurityGroups Tests : invalid id must be valid uuid,https://bugs.launchpad.net/nova/+bug/1182384,2014-06-05
+1285562,1285562,Fix Released,"Sanity tests, demo service deployment check fails",https://bugs.launchpad.net/fuel/+bug/1285562,2014-06-05
+1282391,1282391,Fix Released,Delete domain fails  if the domain has domain grants,https://bugs.launchpad.net/keystone/+bug/1282391,2014-06-05
+991913,991913,Fix Released,Deleting a tenant where a user is a member leaves the user  with a tenant link that's not existant.,https://bugs.launchpad.net/keystone/+bug/991913,2014-06-04
+1278268,1278268,Fix Released,odd indentation in an example code,https://bugs.launchpad.net/hacking/+bug/1278268,2014-06-04
+1265520,1265520,Fix Released,"testsuite fails under py3; 0.7.2, 0.8.0",https://bugs.launchpad.net/hacking/+bug/1265520,2014-06-04
+1249287,1249287,Fix Released,The length of the summary in multiline docstrings is not checked,https://bugs.launchpad.net/hacking/+bug/1249287,2014-06-04
+1231149,1231149,Fix Released,@allownoqa decorator prevents functions from being run,https://bugs.launchpad.net/hacking/+bug/1231149,2014-06-04
+1222706,1222706,Fix Released,run_tests.sh - unit test run fails - hacking pulls in six 1.4.1,https://bugs.launchpad.net/hacking/+bug/1222706,2014-06-04
+1214629,1214629,Fix Released,Improve H202 to cover more cases,https://bugs.launchpad.net/hacking/+bug/1214629,2014-06-04
+1184841,1184841,Fix Released,fix or remove except Exception rule,https://bugs.launchpad.net/hacking/+bug/1184841,2014-06-04
+1304361,1304361,Fix Released,fuel-web verify tests overwrite nosetest.xml log,https://bugs.launchpad.net/fuel/+bug/1304361,2014-06-04
+1221087,1221087,Fix Released,Memcached token backend should work with any timezone,https://bugs.launchpad.net/keystone/+bug/1221087,2014-06-04
+1098307,1098307,Fix Released,[OSSA 2013-003] unauthenticated POST to /tokens can fill up disk/logs,https://bugs.launchpad.net/ossa/+bug/1098307,2014-06-04
+1098307,1098307,Fix Released,[OSSA 2013-003] unauthenticated POST to /tokens can fill up disk/logs,https://bugs.launchpad.net/keystone/+bug/1098307,2014-06-04
+1121494,1121494,Fix Released,[OSSA 2013-005] EC2 authentication does not ensure user or tenant is enabled,https://bugs.launchpad.net/keystone/+bug/1121494,2014-06-04
+1121494,1121494,Fix Released,[OSSA 2013-005] EC2 authentication does not ensure user or tenant is enabled,https://bugs.launchpad.net/ossa/+bug/1121494,2014-06-04
+1100279,1100279,Fix Released,[OSSA 2013-004] Local file leak through entities in XML requests (CVE-2013-1665),https://bugs.launchpad.net/ossa/+bug/1100279,2014-06-04
+1100279,1100279,Fix Released,[OSSA 2013-004] Local file leak through entities in XML requests (CVE-2013-1665),https://bugs.launchpad.net/keystone/+bug/1100279,2014-06-04
+1064914,1064914,Fix Released,[OSSA-2012-018] Removing user from a tenant isn't invalidating user access to tenant,https://bugs.launchpad.net/keystone/+bug/1064914,2014-06-04
+1064914,1064914,Fix Released,[OSSA-2012-018] Removing user from a tenant isn't invalidating user access to tenant,https://bugs.launchpad.net/ossa/+bug/1064914,2014-06-04
+1179615,1179615,Fix Released,[OSSA 2013-014] auth_token middleware neglects to check expiry of signed token,https://bugs.launchpad.net/ossa/+bug/1179615,2014-06-04
+1179615,1179615,Fix Released,[OSSA 2013-014] auth_token middleware neglects to check expiry of signed token,https://bugs.launchpad.net/python-keystoneclient/+bug/1179615,2014-06-04
+1187305,1187305,Fix Released,[OSSA 2013-015] LDAP vulnerability when checking user credentials (CVE-2013-2157),https://bugs.launchpad.net/ossa/+bug/1187305,2014-06-04
+1187305,1187305,Fix Released,[OSSA 2013-015] LDAP vulnerability when checking user credentials (CVE-2013-2157),https://bugs.launchpad.net/keystone/+bug/1187305,2014-06-04
+1166670,1166670,Fix Released,[OSSA 2013-011] Deleted user can still create instances,https://bugs.launchpad.net/keystone/+bug/1166670,2014-06-04
+1166670,1166670,Fix Released,[OSSA 2013-011] Deleted user can still create instances,https://bugs.launchpad.net/ossa/+bug/1166670,2014-06-04
+1181157,1181157,Fix Released,undefined signing_dir does not work,https://bugs.launchpad.net/python-keystoneclient/+bug/1181157,2014-06-04
+1202952,1202952,Fix Released,[OSSA 2013-025] PKI tokens are never revoked using memcache token backend (CVE-2013-4294),https://bugs.launchpad.net/ossa/+bug/1202952,2014-06-04
+1179955,1179955,Fix Released,Disabling a tenant would not disable a user token,https://bugs.launchpad.net/keystone/+bug/1179955,2014-06-04
+1174608,1174608,Fix Released,[OSSA 2013-010] Insecure directory creation for signing,https://bugs.launchpad.net/ossa/+bug/1174608,2014-06-04
+1174608,1174608,Fix Released,[OSSA 2013-010] Insecure directory creation for signing,https://bugs.launchpad.net/nova/+bug/1174608,2014-06-04
+1174608,1174608,Fix Released,[OSSA 2013-010] Insecure directory creation for signing,https://bugs.launchpad.net/python-keystoneclient/+bug/1174608,2014-06-04
+1052674,1052674,Fix Released,Keystone auth_token middleware should support Swift global memcache,https://bugs.launchpad.net/python-keystoneclient/+bug/1052674,2014-06-04
+1160680,1160680,Fix Released,sql_connection not marked secret,https://bugs.launchpad.net/keystone/+bug/1160680,2014-06-04
+1160680,1160680,Fix Released,sql_connection not marked secret,https://bugs.launchpad.net/nova/+bug/1160680,2014-06-04
+1160680,1160680,Fix Released,sql_connection not marked secret,https://bugs.launchpad.net/cinder/+bug/1160680,2014-06-04
+1160680,1160680,Fix Released,sql_connection not marked secret,https://bugs.launchpad.net/neutron/+bug/1160680,2014-06-04
+1086125,1086125,Fix Released,memcache_servers configuration option,https://bugs.launchpad.net/python-keystoneclient/+bug/1086125,2014-06-04
+1076083,1076083,Fix Released,revocation list cache times out immeditately,https://bugs.launchpad.net/python-keystoneclient/+bug/1076083,2014-06-04
+1233838,1233838,Fix Released,cms token_id's are not URL safe nor RFC compliant,https://bugs.launchpad.net/keystone/+bug/1233838,2014-06-04
+1318511,1318511,Fix Released,findif.sh: No such file or directory,https://bugs.launchpad.net/fuel/+bug/1318511,2014-06-04
+1142574,1142574,Fix Released,keystoneclient and keystone has a duplicate common/cms.py,https://bugs.launchpad.net/python-keystoneclient/+bug/1142574,2014-06-04
+1142574,1142574,Fix Released,keystoneclient and keystone has a duplicate common/cms.py,https://bugs.launchpad.net/keystone/+bug/1142574,2014-06-04
+1223023,1223023,Fix Released,tox runs flake8 twice,https://bugs.launchpad.net/keystone/+bug/1223023,2014-06-04
+1257222,1257222,Fix Released,Fix errors in test_server_start_stop.py,https://bugs.launchpad.net/nova/+bug/1257222,2014-06-04
+1325536,1325536,Fix Released,Add tests for verification ha deployment with ceilometer,https://bugs.launchpad.net/fuel/+bug/1325536,2014-06-04
+1255003,1255003,Fix Released,Add upload policy for glance v2 api,https://bugs.launchpad.net/openstack-manuals/+bug/1255003,2014-06-04
+1255003,1255003,Fix Released,Add upload policy for glance v2 api,https://bugs.launchpad.net/openstack-api-site/+bug/1255003,2014-06-04
+1234301,1234301,Fix Released,Need example response code for Object Storage API Get Object Details,https://bugs.launchpad.net/openstack-api-site/+bug/1234301,2014-06-04
+1224232,1224232,Fix Released,assertEquals is deprecated,https://bugs.launchpad.net/nova/+bug/1224232,2014-06-04
+1284241,1284241,Fix Released,Relogin in horizon doesn't work,https://bugs.launchpad.net/fuel/+bug/1284241,2014-06-04
+1216467,1216467,Fix Released,The default limits for v2 and v3 should be different,https://bugs.launchpad.net/nova/+bug/1216467,2014-06-04
+1312841,1312841,Fix Released,Advanced Network Server tests should fail fast,https://bugs.launchpad.net/tempest/+bug/1312841,2014-06-04
+1312755,1312755,Fix Released,Instance failed to get Active state,https://bugs.launchpad.net/fuel/+bug/1312755,2014-06-04
+1308580,1308580,Fix Released,os-cloud-config README has bad documentation URL,https://bugs.launchpad.net/tripleo/+bug/1308580,2014-06-04

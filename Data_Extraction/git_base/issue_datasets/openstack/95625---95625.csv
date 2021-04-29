@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+942896,942896,Fix Released,QuantumManager should set network['host'] when creating the network entry in the database,https://bugs.launchpad.net/nova/+bug/942896,2012-04-05
+942896,942896,Fix Released,QuantumManager should set network['host'] when creating the network entry in the database,https://bugs.launchpad.net/neutron/+bug/942896,2012-04-05
+927507,927507,Fix Released,fix quantum manager get_port_by_attachment,https://bugs.launchpad.net/nova/+bug/927507,2012-04-05
+927507,927507,Fix Released,fix quantum manager get_port_by_attachment,https://bugs.launchpad.net/neutron/+bug/927507,2012-04-05
+922319,922319,Fix Released,QuantumManager allocate_for_instance gives back more networks than requested,https://bugs.launchpad.net/neutron/+bug/922319,2012-04-05
+917495,917495,Fix Released,Document: project_id must be an integer with QuantumManager,https://bugs.launchpad.net/neutron/+bug/917495,2012-04-05
+922440,922440,Fix Released,python-quantumclient e3 tarball is busted,https://bugs.launchpad.net/neutron/+bug/922440,2012-04-05
+863632,863632,Fix Released,fix batch_config to work with v1.0 API changes,https://bugs.launchpad.net/neutron/+bug/863632,2012-04-05
+907470,907470,Fix Released,Cisco plugin README should have ncclient installation instructions,https://bugs.launchpad.net/neutron/+bug/907470,2012-04-05
+897943,897943,Fix Released,Our setup.py needs to be a real setup.py,https://bugs.launchpad.net/neutron/+bug/897943,2012-04-05
+897817,897817,Fix Released,The cisco plugin extensions need to move to the cisco plugin directory,https://bugs.launchpad.net/neutron/+bug/897817,2012-04-05
+920364,920364,Fix Released,quantum doesn't clean-up DB between devstack runs,https://bugs.launchpad.net/devstack/+bug/920364,2012-04-05
+920364,920364,Fix Released,quantum doesn't clean-up DB between devstack runs,https://bugs.launchpad.net/neutron/+bug/920364,2012-04-05
+911655,911655,Fix Released,lxml missing in pip-requires,https://bugs.launchpad.net/neutron/+bug/911655,2012-04-05
+897059,897059,Fix Released,setup.py develop doesn't work,https://bugs.launchpad.net/neutron/+bug/897059,2012-04-05
+921931,921931,Fix Released,Quantum Manager VM launch failure,https://bugs.launchpad.net/nova/+bug/921931,2012-04-05
+921931,921931,Fix Released,Quantum Manager VM launch failure,https://bugs.launchpad.net/neutron/+bug/921931,2012-04-05
+914962,914962,Fix Released,quantum network manager doesn't accept instance_uuid as a keyword arg,https://bugs.launchpad.net/nova/+bug/914962,2012-04-05
+914962,914962,Fix Released,quantum network manager doesn't accept instance_uuid as a keyword arg,https://bugs.launchpad.net/neutron/+bug/914962,2012-04-05
+897875,897875,Fix Released,Document nova-parity DHCP + L3/NAT,https://bugs.launchpad.net/neutron/+bug/897875,2012-04-05
+893665,893665,Fix Released,Inconsistencies in the testing section of the Cisco README,https://bugs.launchpad.net/neutron/+bug/893665,2012-04-05
+893663,893663,Fix Released,Cisco CLI module does not work with installation,https://bugs.launchpad.net/neutron/+bug/893663,2012-04-05
+903829,903829,Fix Released,setup_server.py still tries to install quantum.conf.sample and kills installation,https://bugs.launchpad.net/neutron/+bug/903829,2012-04-05
+903409,903409,Fix Released,quantum manager calls update_dhcp with bad cidr information,https://bugs.launchpad.net/neutron/+bug/903409,2012-04-05
+899767,899767,Fix Released,live_migration does not perform vif unplugging,https://bugs.launchpad.net/neutron/+bug/899767,2012-04-05
+899767,899767,Fix Released,live_migration does not perform vif unplugging,https://bugs.launchpad.net/nova/+bug/899767,2012-04-05
+891881,891881,Fix Released,Plugin path is stated incorrectly in Quantum README,https://bugs.launchpad.net/neutron/+bug/891881,2012-04-05
+897837,897837,Fix Released,The new packaging breaks find_config_file,https://bugs.launchpad.net/neutron/+bug/897837,2012-04-05
+872540,872540,Fix Released,Remove references to set_external_ids.sh in openvswitch plugin,https://bugs.launchpad.net/neutron/+bug/872540,2012-04-05
+872508,872508,Fix Released,Quantum extensions should be able to reside in multiple directories,https://bugs.launchpad.net/neutron/+bug/872508,2012-04-05
+885483,885483,Fix Released,Init scripts for Quantum,https://bugs.launchpad.net/neutron/+bug/885483,2012-04-05
+872537,872537,Fix Released,Update port should be able to update more than just the state of the port,https://bugs.launchpad.net/neutron/+bug/872537,2012-04-05
+872535,872535,Fix Released,"Rename network should be renamed to ""update network""",https://bugs.launchpad.net/neutron/+bug/872535,2012-04-05
+872531,872531,Fix Released,There isn't currently any API support for data extensions,https://bugs.launchpad.net/neutron/+bug/872531,2012-04-05
+850644,850644,Fix Released,Quantum needs proper packaging,https://bugs.launchpad.net/neutron/+bug/850644,2012-04-05
+928959,928959,Fix Released,Dash site doesn't exist when you run the apache command for  it in the install,https://bugs.launchpad.net/openstack-manuals/+bug/928959,2012-04-05
+957359,957359,Fix Released,passlib segfaults when keystone is sent a large password,https://bugs.launchpad.net/keystone/+bug/957359,2012-04-05
+961590,961590,Fix Released,pip glance-2012.1~rc1 missing dependency iso8601,https://bugs.launchpad.net/glance/+bug/961590,2012-04-05
+963656,963656,Fix Released,xenapi VDI_IN_USE error when deleting an instance,https://bugs.launchpad.net/nova/+bug/963656,2012-04-05
+964844,964844,Fix Released,Database logging required,https://bugs.launchpad.net/nova/+bug/964844,2012-04-05
+964950,964950,Fix Released,nova-manage floating list crashes if an instance is missing,https://bugs.launchpad.net/nova/+bug/964950,2012-04-05
+965225,965225,Fix Released,EC2 TerminateInstances api call hangs and returns 500 when given bad data,https://bugs.launchpad.net/nova/+bug/965225,2012-04-05
+965335,965335,Fix Released,Confusing compute extensions documentation,https://bugs.launchpad.net/nova/+bug/965335,2012-04-05
+965667,965667,Fix Released,Attempt to unrescue in invalid state results in 500 error,https://bugs.launchpad.net/nova/+bug/965667,2012-04-05
+967839,967839,Fix Released,A missing checksum does not mean the image is corrupt,https://bugs.launchpad.net/nova/+bug/967839,2012-04-05
+967841,967841,Fix Released,Reduce the image cache manager periodic interval,https://bugs.launchpad.net/nova/+bug/967841,2012-04-05
+967842,967842,Fix Released,Support timestamps as prefixes for traceback log lines,https://bugs.launchpad.net/nova/+bug/967842,2012-04-05
+967843,967843,Fix Released,Base image signature files are not images,https://bugs.launchpad.net/nova/+bug/967843,2012-04-05
+967845,967845,Fix Released,Touch in use image files when they're checked,https://bugs.launchpad.net/nova/+bug/967845,2012-04-05
+967937,967937,Fix Released,when HUP'ing dnsmasq fails... log an error,https://bugs.launchpad.net/nova/+bug/967937,2012-04-05
+968190,968190,Fix Released,flavor-create fails on postgresql DB,https://bugs.launchpad.net/nova/+bug/968190,2012-04-05
+968453,968453,Fix Released,instances in multi node mode can't reach metadata_host,https://bugs.launchpad.net/nova/+bug/968453,2012-04-05
+970041,970041,Fix Released,"after compute restarted, the floating ip  of instance is not associated",https://bugs.launchpad.net/nova/+bug/970041,2012-04-05
+969959,969959,Fix Released,Cannot attach volumes to LXC instances,https://bugs.launchpad.net/nova/+bug/969959,2012-04-05
+969208,969208,Fix Released,Migrating noauth to keystone auth changes user passwords,https://bugs.launchpad.net/nova/+bug/969208,2012-04-05
+969445,969445,Fix Released,VNC Documentation needs work,https://bugs.launchpad.net/nova/+bug/969445,2012-04-05
+972583,972583,Fix Released,network_get_all_by_uuids fails when requesting a network as admin,https://bugs.launchpad.net/nova/+bug/972583,2012-04-05
+963263,963263,Fix Released,KeyError: u'name_label',https://bugs.launchpad.net/nova/+bug/963263,2012-04-05
+972034,972034,Fix Released,-1 vs. None w/ Unlimited Quotas,https://bugs.launchpad.net/nova/+bug/972034,2012-04-05
+972001,972001,Fix Released,AttributeError in Quota API,https://bugs.launchpad.net/nova/+bug/972001,2012-04-05
+968066,968066,Fix Released,Unable to create a snapshot if original image is not in Glance anymore,https://bugs.launchpad.net/nova/+bug/968066,2012-04-05
+965069,965069,Fix Released,'nova-manage config convert' broken,https://bugs.launchpad.net/nova/+bug/965069,2012-04-05
+960884,960884,Fix Released,os-hosts extension accepts invalid host status,https://bugs.launchpad.net/nova/+bug/960884,2012-04-05
+953235,953235,Fix Released,remove old sql api calls,https://bugs.launchpad.net/nova/+bug/953235,2012-04-05
+968682,968682,Fix Released,Can't delete volume snapshot in error state,https://bugs.launchpad.net/nova/+bug/968682,2012-04-05
+965674,965674,Fix Released,openstack api create security group rule doesn't allow self-referential group,https://bugs.launchpad.net/nova/+bug/965674,2012-04-05
+962286,962286,Fix Released,Add VPN management on novaclient,https://bugs.launchpad.net/nova/+bug/962286,2012-04-05
+956777,956777,Fix Released,Auth token is present in clear text in nova-network log file,https://bugs.launchpad.net/nova/+bug/956777,2012-04-05
+968587,968587,Fix Released,libvirt rescue fails w/ Permission denied on console.log,https://bugs.launchpad.net/nova/+bug/968587,2012-04-05
+965732,965732,Fix Released,Scheduler defaults to fill-first.  Spread-first is more intuitive and should be the default,https://bugs.launchpad.net/nova/+bug/965732,2012-04-05
+965540,965540,Fix Released,nova does not handle glance_exception.Forbidden,https://bugs.launchpad.net/nova/+bug/965540,2012-04-05
+959262,959262,Fix Released,[Errno 13] Permission denied: '/var/www/.novaclient',https://bugs.launchpad.net/nova/+bug/959262,2012-04-05
+956967,956967,Fix Released,tweak port validation for secuirty groups,https://bugs.launchpad.net/nova/+bug/956967,2012-04-05
+949444,949444,Fix Released,resizeNotAllowed incorrectly raised,https://bugs.launchpad.net/nova/+bug/949444,2012-04-05
+853381,853381,Fix Released,[EC2] Uncaught error when attempting to exceed quota,https://bugs.launchpad.net/nova/+bug/853381,2012-04-05

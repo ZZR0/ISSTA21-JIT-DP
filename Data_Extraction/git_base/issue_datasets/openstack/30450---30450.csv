@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1647914,1647914,Fix Released,Cannot use minimized_polling when hypervisor is XenServer,https://bugs.launchpad.net/neutron/+bug/1647914,2017-01-26
+1633066,1633066,Fix Released,Input int value into service_type list hit internal error,https://bugs.launchpad.net/neutron/+bug/1633066,2017-01-26
+1657137,1657137,Fix Released,network-ip-availabilities API returns 500 when non-existence network-id is passed,https://bugs.launchpad.net/neutron/+bug/1657137,2017-01-26
+1651327,1651327,Fix Released,Different behavior in firewall_group creation and updation,https://bugs.launchpad.net/neutron/+bug/1651327,2017-01-26
+1656739,1656739,Fix Released,Update fw_rule with ipv6 address if not specified ip_version,https://bugs.launchpad.net/neutron/+bug/1656739,2017-01-26
+1657358,1657358,Fix Released,Create fw_policy with used fw_rule hit internal error,https://bugs.launchpad.net/neutron/+bug/1657358,2017-01-26
+1657377,1657377,Fix Released,FWaaS - message of FirewallGroupPortInvalidProject should be fixed,https://bugs.launchpad.net/neutron/+bug/1657377,2017-01-26
+1640395,1640395,Fix Released,Missing 'ports' attribute when GET firewall-groups,https://bugs.launchpad.net/neutron/+bug/1640395,2017-01-26
+1659031,1659031,Fix Released,FWaaS - Cannot specify 8bit integer for 'protocol' in firewall_rule,https://bugs.launchpad.net/neutron/+bug/1659031,2017-01-26
+1609686,1609686,Fix Released,Add support FWaaSv2,https://bugs.launchpad.net/python-neutronclient/+bug/1609686,2017-01-26
+1614866,1614866,Fix Released,BGP: Failed to withdraw route while dissocating floating IP,https://bugs.launchpad.net/neutron/+bug/1614866,2017-01-26
+1647949,1647949,Fix Released,issue of adding router interface from dashboard with a specified IP,https://bugs.launchpad.net/networking-ovn/+bug/1647949,2017-01-26
+1652254,1652254,Fix Released,"Fix wrong type for ""enable_snat""",https://bugs.launchpad.net/networking-ovn/+bug/1652254,2017-01-26
+1652921,1652921,Fix Released,Eliminate ovsdb error vlog when creating some lsp,https://bugs.launchpad.net/networking-ovn/+bug/1652921,2017-01-26
+1653120,1653120,Fix Released,Fix wrong column change to Logical_Switch_Port when neutron port update,https://bugs.launchpad.net/networking-ovn/+bug/1653120,2017-01-26
+1654488,1654488,Fix Released,Some change for unit test test_update_router_with_ext_gw,https://bugs.launchpad.net/networking-ovn/+bug/1654488,2017-01-26
+1653835,1653835,Fix Released,Stacking failed on OVN compute node,https://bugs.launchpad.net/networking-ovn/+bug/1653835,2017-01-26
+1653698,1653698,Fix Released,neutron-ovn-db-sync-util cmd call trace,https://bugs.launchpad.net/networking-ovn/+bug/1653698,2017-01-26
+1655811,1655811,Fix Released,Adapt neutron-ovn-db-sync-util to ml2 abbr.,https://bugs.launchpad.net/networking-ovn/+bug/1655811,2017-01-26
+1655976,1655976,Fix Released,Need not add ext gw router ip to peer nat_addresses options,https://bugs.launchpad.net/networking-ovn/+bug/1655976,2017-01-26
+1657974,1657974,Fix Released,CI jobs broken after neutron.agent.ovsdb.native.Connection change,https://bugs.launchpad.net/networking-ovn/+bug/1657974,2017-01-26
+1657693,1657693,Fix Released,Inconsistent status of floating IP in some situations,https://bugs.launchpad.net/networking-ovn/+bug/1657693,2017-01-26
+1653976,1653976,Fix Released,Issue of router updating with subnet and fiexed-ip,https://bugs.launchpad.net/networking-ovn/+bug/1653976,2017-01-26
+1605737,1605737,Fix Released,[doc] Add DriverFilter and GoodnessWeigher to manila,https://bugs.launchpad.net/manila/+bug/1605737,2017-01-26
+1648316,1648316,Fix Released,Create share less than 3 GB failed with Unity driver,https://bugs.launchpad.net/manila/+bug/1648316,2017-01-26
+1650482,1650482,Fix Released,Grenade job fails to get tempest config,https://bugs.launchpad.net/manila/+bug/1650482,2017-01-26
+1651578,1651578,Fix Released,GPFS KNFS multiple ssh prepend with gpfs_nfs_server_list,https://bugs.launchpad.net/manila/+bug/1651578,2017-01-26
+1651587,1651587,Fix Released,GPFS KNFS fails to deny access when access does not exist,https://bugs.launchpad.net/manila/+bug/1651587,2017-01-26
+1652150,1652150,Fix Released,Inconsistent Tempest Options in the CI post_test_hook,https://bugs.launchpad.net/manila/+bug/1652150,2017-01-26
+1652911,1652911,Fix Released,Add create_share_from_snapshot_support in Dell EMC drivers,https://bugs.launchpad.net/manila/+bug/1652911,2017-01-26
+1652710,1652710,Fix Released,Rename Unity and VNX option,https://bugs.launchpad.net/manila/+bug/1652710,2017-01-26
+1655216,1655216,Fix Released,Column name error in db migration script,https://bugs.launchpad.net/manila/+bug/1655216,2017-01-26
+1656837,1656837,Fix Released,eggs directory should be put into .gitignore,https://bugs.launchpad.net/manila/+bug/1656837,2017-01-26
+1657033,1657033,Fix Released,share metadata will not be deleted when deleting shares,https://bugs.launchpad.net/manila/+bug/1657033,2017-01-26
+1649458,1649458,Fix Released,Unity driver VLAN enhancement,https://bugs.launchpad.net/manila/+bug/1649458,2017-01-26
+1649782,1649782,Fix Released,manila extend falid for manila image base centos 7,https://bugs.launchpad.net/manila/+bug/1649782,2017-01-26
+1658157,1658157,Fix Released,Driver assisted migration fails to complete because access rules status never goes to 'active',https://bugs.launchpad.net/manila/+bug/1658157,2017-01-26
+1658494,1658494,Fix Released,api-ref job is broken: Warnings being treated as errors,https://bugs.launchpad.net/manila/+bug/1658494,2017-01-26
+1518355,1518355,Fix Released,Install and configure in Installation Guide (verbose=true deprecated),https://bugs.launchpad.net/openstack-manuals/+bug/1518355,2017-01-26
+1653603,1653603,Fix Released,Unknown variable: '::trove::database_idle_timeoutl',https://bugs.launchpad.net/puppet-trove/+bug/1653603,2017-01-26
+1621853,1621853,Fix Released,Wrong configuration of notification_driver,https://bugs.launchpad.net/puppet-sahara/+bug/1621853,2017-01-26
+1650837,1650837,Fix Released,settings for bind_host and port are in wrong sections,https://bugs.launchpad.net/puppet-octavia/+bug/1650837,2017-01-26
+1658437,1658437,Fix Released,CI is break,https://bugs.launchpad.net/puppet-octavia/+bug/1658437,2017-01-26
+1651522,1651522,Fix Released,unit tests fail due to missing fact for apache,https://bugs.launchpad.net/puppet-mistral/+bug/1651522,2017-01-26
+1651522,1651522,Fix Released,unit tests fail due to missing fact for apache,https://bugs.launchpad.net/puppet-nova/+bug/1651522,2017-01-26
+1657251,1657251,Fix Released,Could not evaluate: No such file or directory @ rb_sysopen - /etc/default/libvirt-bin,https://bugs.launchpad.net/puppet-nova/+bug/1657251,2017-01-26
+1658087,1658087,Fix Released,Deprecate parameters,https://bugs.launchpad.net/puppet-nova/+bug/1658087,2017-01-26
+1653605,1653605,Fix Released,Unknown variable: '::murano::params::default_external_network',https://bugs.launchpad.net/puppet-murano/+bug/1653605,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-swift/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-heat/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-neutron/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-mistral/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-glance/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-gnocchi/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-vitrage/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-zaqar/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-manila/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-cinder/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-aodh/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-octavia/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-ceilometer/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-nova/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-barbican/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-ec2api/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-trove/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-ironic/+bug/1604463,2017-01-26
+1604463,1604463,Fix Released,Modules should use keystone::resource::authtoken to configure keystone_authtoken settings,https://bugs.launchpad.net/puppet-designate/+bug/1604463,2017-01-26
+1655620,1655620,Fix Released,Federation mellon support  Web Single Sign-On (SSO),https://bugs.launchpad.net/puppet-keystone/+bug/1655620,2017-01-26
+1658326,1658326,Fix Released,Deprecate group_all_* options for ldap,https://bugs.launchpad.net/puppet-keystone/+bug/1658326,2017-01-26
+1651634,1651634,Fix Released,deprecate keystone_url option,https://bugs.launchpad.net/puppet-ec2api/+bug/1651634,2017-01-26
+1523746,1523746,Fix Released,lack of related parameters in designate::api,https://bugs.launchpad.net/puppet-designate/+bug/1523746,2017-01-26
+1654388,1654388,Fix Released,set default values for parameters of designate::api class,https://bugs.launchpad.net/puppet-designate/+bug/1654388,2017-01-26
+1654208,1654208,Fix Released,update designate::api parameters,https://bugs.launchpad.net/puppet-designate/+bug/1654208,2017-01-26
+1561155,1561155,Fix Released,set-quota module - openstack cli quota change for class does not work,https://bugs.launchpad.net/puppet-cinder/+bug/1561155,2017-01-26
+1657309,1657309,Fix Released,new ceilometer-api package includes apache configuration leading to beaker failures on the 2nd run,https://bugs.launchpad.net/puppet-ceilometer/+bug/1657309,2017-01-26

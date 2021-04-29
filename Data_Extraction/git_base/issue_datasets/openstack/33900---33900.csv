@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1580140,1580140,Fix Released,[8.0] Swarm reduced_footprint tests failed after apply nailgun package from master node,https://bugs.launchpad.net/fuel/+bug/1580140,2016-11-17
+1640883,1640883,Fix Released,Allow same EPG to be added to multiple Endpoints,https://bugs.launchpad.net/networking-plumgrid/+bug/1640883,2016-11-17
+1639830,1639830,Fix Released,Can't use openrc credentials to run fullstack tests,https://bugs.launchpad.net/dragonflow/+bug/1639830,2016-11-17
+1488320,1488320,Fix Released,neutron-vpnaas uses bad file permissions on PSK file,https://bugs.launchpad.net/neutron/+bug/1488320,2016-11-16
+1634937,1634937,Fix Released,Keystone admin password leaked via logs,https://bugs.launchpad.net/networking-arista/+bug/1634937,2016-11-16
+1632265,1632265,Fix Released,can not get group specs in create_group_snapshot,https://bugs.launchpad.net/cinder/+bug/1632265,2016-11-16
+1604871,1604871,Fix Released,Ceph doesn't save a container name for volume backup,https://bugs.launchpad.net/cinder/+bug/1604871,2016-11-16
+1591153,1591153,Fix Released,Missing update-host for CGs in cinder-manage,https://bugs.launchpad.net/cinder/+bug/1591153,2016-11-16
+1609152,1609152,Fix Released,Convert url options from StrOpt to URIOpt,https://bugs.launchpad.net/cinder/+bug/1609152,2016-11-16
+1504007,1504007,Fix Released,unmanage volume/snapshot reduce quota incorrectly,https://bugs.launchpad.net/cinder/+bug/1504007,2016-11-16
+1618908,1618908,Fix Released,"VMAX Driver: V3 backend file has a tag called ""SLO"" - better option would be ""ServiceLevel""",https://bugs.launchpad.net/cinder/+bug/1618908,2016-11-16
+1617401,1617401,Fix Released,Dell SC: Error attaching after LV-AFO,https://bugs.launchpad.net/cinder/+bug/1617401,2016-11-16
+1619008,1619008,Fix Released,"During a rolling upgrade, volume creation can fail with 'volume_type cannot be None'",https://bugs.launchpad.net/cinder/+bug/1619008,2016-11-16
+1608407,1608407,Fix Released,DRBD Driver stops working with >= 7 machines,https://bugs.launchpad.net/cinder/+bug/1608407,2016-11-16
+1622703,1622703,Fix Released,Dell SC:  Iscsi properties errors.,https://bugs.launchpad.net/cinder/+bug/1622703,2016-11-16
+1625170,1625170,Fix Released,RequestSpec object is unconditionally converted to dict when sent to scheduler,https://bugs.launchpad.net/cinder/+bug/1625170,2016-11-16
+1618609,1618609,Fix Released,Cinder api documents lack volume_detach info,https://bugs.launchpad.net/cinder/+bug/1618609,2016-11-16
+1616072,1616072,Fix Released,Cinder lacks v3 api-ref,https://bugs.launchpad.net/cinder/+bug/1616072,2016-11-16
+1618700,1618700,Fix Released,volume retype/migrate fail to delete source volume,https://bugs.launchpad.net/cinder/+bug/1618700,2016-11-16
+1599168,1599168,Fix Released,Domain information is ignored when contacting Novaclient,https://bugs.launchpad.net/cinder/+bug/1599168,2016-11-16
+1626351,1626351,Fix Released,list manageable snapshots broke with v3 rpcapi proxy,https://bugs.launchpad.net/cinder/+bug/1626351,2016-11-16
+1626474,1626474,Fix Released,Snapshot id isn't validated during volume creation,https://bugs.launchpad.net/cinder/+bug/1626474,2016-11-16
+1626704,1626704,Fix Released,Wrong project attribute assignment in  VolumeType OVO,https://bugs.launchpad.net/cinder/+bug/1626704,2016-11-16
+1627045,1627045,Fix Released,Typo in scheduler/manager.py volume migration method,https://bugs.launchpad.net/cinder/+bug/1627045,2016-11-16
+1619701,1619701,Fix Released,in k8s environment vgs return extra line in output,https://bugs.launchpad.net/cinder/+bug/1619701,2016-11-16
+1603306,1603306,Fix Released,'replication_targets' missing in Response of GET/v2/​{tenant_id}​/capabilities/​{hostname}​,https://bugs.launchpad.net/cinder/+bug/1603306,2016-11-16
+1620001,1620001,Fix Released,rpcapi promote_replica/reenable_replication is not used any more,https://bugs.launchpad.net/cinder/+bug/1620001,2016-11-16
+1629207,1629207,Fix Released,VMware: Creating linked clone volumes in VC 6.0 fails with InvalidArgument,https://bugs.launchpad.net/cinder/+bug/1629207,2016-11-16
+1627659,1627659,Fix Released,Unit tests shouldn't have execution time more than 1 sec,https://bugs.launchpad.net/cinder/+bug/1627659,2016-11-16
+1630035,1630035,Fix Released,Tegile Driver fails to establish connection to volume,https://bugs.launchpad.net/cinder/+bug/1630035,2016-11-16
+1630660,1630660,Fix Released,VMAX driver - Misleading logging,https://bugs.launchpad.net/cinder/+bug/1630660,2016-11-16
+1606715,1606715,Fix Released,Cinder functional test client has no mechanism to set admin perms,https://bugs.launchpad.net/cinder/+bug/1606715,2016-11-16
+1555728,1555728,Fix Released,VMAX: _create_initiator_Group uses multiple CIM calls where one sufices,https://bugs.launchpad.net/cinder/+bug/1555728,2016-11-16
+1628515,1628515,Fix Released,cinder-volume-usage-audit should send backup notification,https://bugs.launchpad.net/cinder/+bug/1628515,2016-11-16
+1596139,1596139,Fix Released,Make divisible py3 compatible in remotefs driver,https://bugs.launchpad.net/cinder/+bug/1596139,2016-11-16
+1632433,1632433,Fix Released,attachmnet_get_by_host|instance shouldn't require a volume_id,https://bugs.launchpad.net/cinder/+bug/1632433,2016-11-16
+1633623,1633623,Fix Released,backup_swift_key should be secret to avoid leaking in logs,https://bugs.launchpad.net/cinder/+bug/1633623,2016-11-16
+1632727,1632727,Fix Released,volume manage api should return 400 for invalid or non-existing volume-type,https://bugs.launchpad.net/cinder/+bug/1632727,2016-11-16
+1632741,1632741,Fix Released,storwize initialize and terminate connection npiv optimization,https://bugs.launchpad.net/cinder/+bug/1632741,2016-11-16
+1635884,1635884,Fix Released,Some unit tests don't work on MacOS,https://bugs.launchpad.net/cinder/+bug/1635884,2016-11-16
+1627569,1627569,Fix Released,storage_vnx_security_file_dir can be optional in VNX driver replication,https://bugs.launchpad.net/cinder/+bug/1627569,2016-11-16
+1637044,1637044,Fix Released,FalconStor: create snapshot fail when the display name exceeds 32 characters.,https://bugs.launchpad.net/cinder/+bug/1637044,2016-11-16
+1612344,1612344,Fix Released,EMC VMAX consisitency group from source cg failure,https://bugs.launchpad.net/cinder/+bug/1612344,2016-11-16
+1579934,1579934,Fix Released,VMAX driver: 1000037 duplicate IG name error from SMI-S,https://bugs.launchpad.net/cinder/+bug/1579934,2016-11-16
+1619656,1619656,Fix Released,group and snapshot names should be used in the VMAX,https://bugs.launchpad.net/cinder/+bug/1619656,2016-11-16
+1639199,1639199,Fix Released,tox -egenconfig fails after 6aceda6,https://bugs.launchpad.net/cinder/+bug/1639199,2016-11-16
+1639279,1639279,Fix Released,"decorator.decorate() used, which is not compatible with decorator==3.4.0",https://bugs.launchpad.net/cinder/+bug/1639279,2016-11-16
+1632069,1632069,Fix Released,Dell SC: Live Volumes not cleaned up,https://bugs.launchpad.net/cinder/+bug/1632069,2016-11-16
+1641611,1641611,Fix Released,TypeError: save() takes exactly 2 arguments (1 given),https://bugs.launchpad.net/cinder/+bug/1641611,2016-11-16
+1582583,1582583,Fix Released,A exception occurs during starting neutron-dhcp-agent when a subnet is disabled dhcp,https://bugs.launchpad.net/neutron/+bug/1582583,2016-11-16
+1609727,1609727,Fix Released,Creating meter-label with description that has more than 1024 characters returns 500 error.,https://bugs.launchpad.net/neutron/+bug/1609727,2016-11-16
+1621461,1621461,Fix Released,SR-IOV qos driver calls wrong clear_rate functions,https://bugs.launchpad.net/neutron/+bug/1621461,2016-11-16
+1619535,1619535,Fix Released,DHCP: release exception log has no information information,https://bugs.launchpad.net/neutron/+bug/1619535,2016-11-16
+1511722,1511722,Fix Released,VM loses connectivity on floating ip association when using l3_ha,https://bugs.launchpad.net/neutron/+bug/1511722,2016-11-16
+1624570,1624570,Fix Released,qos rules are not applied to trunk subports,https://bugs.launchpad.net/neutron/+bug/1624570,2016-11-16
+1624701,1624701,Fix Released,OVS port pulled from under dnsmasq,https://bugs.launchpad.net/neutron/+bug/1624701,2016-11-16
+1625136,1625136,Fix Released,linuxbridge trunk plugin doesn't handle subport changes without trunk update,https://bugs.launchpad.net/neutron/+bug/1625136,2016-11-16
+1625872,1625872,Fix Released,CallbackNotFound errors found in API job logs,https://bugs.launchpad.net/neutron/+bug/1625872,2016-11-16
+1625140,1625140,Fix Released,Deprecation warning for unused code,https://bugs.launchpad.net/neutron/+bug/1625140,2016-11-16
+1626132,1626132,Fix Released,IPv6 Prefix delegation: dibbler.filters rootwrap file is not installed,https://bugs.launchpad.net/neutron/+bug/1626132,2016-11-16
+1625135,1625135,Fix Released,removing all subports from trunk leaves trunk in DOWN status with openvswitch driver,https://bugs.launchpad.net/neutron/+bug/1625135,2016-11-16
+1625875,1625875,Fix Released,OVS metadata for trunk ports are not handled correctly,https://bugs.launchpad.net/neutron/+bug/1625875,2016-11-16
+1625981,1625981,Fix Released,update response of ML2 doesn't include bumped revision number,https://bugs.launchpad.net/neutron/+bug/1625981,2016-11-16
+1581580,1581580,Fix Released,Heavy cpu load seen when keepalived state change server gets wsgi_default_pool_size requests at same time,https://bugs.launchpad.net/neutron/+bug/1581580,2016-11-16
+1627691,1627691,Fix Released,non-existent namespace errors in DHCP agent,https://bugs.launchpad.net/neutron/+bug/1627691,2016-11-16
+1537091,1537091,Fix Released,Prevent the attachment of a subnet to a router,https://bugs.launchpad.net/neutron/+bug/1537091,2016-11-16
+1623708,1623708,Fix Released,OVS trunk management does not tolerate agent failures,https://bugs.launchpad.net/neutron/+bug/1623708,2016-11-16
+1609725,1609725,Fix Released,Creating meter-label with name that has more than 255 characters returns 500 error.,https://bugs.launchpad.net/neutron/+bug/1609725,2016-11-16
+1634735,1634735,Fix Released,recursive module import not working correctly in utils.py,https://bugs.launchpad.net/neutron/+bug/1634735,2016-11-16
+1616793,1616793,Fix Released,neutron availability-zone-list got a db error using postgresql,https://bugs.launchpad.net/neutron/+bug/1616793,2016-11-16
+1630439,1630439,Fix Released,linuxbridge-agent fails to start on python3.4,https://bugs.launchpad.net/neutron/+bug/1630439,2016-11-16
+1630410,1630410,Fix Released,fixed_ips list out of order,https://bugs.launchpad.net/neutron/+bug/1630410,2016-11-16
+1631466,1631466,Fix Released,GEt on /v2.0 fails with a 404,https://bugs.launchpad.net/neutron/+bug/1631466,2016-11-16
+1633293,1633293,Fix Released,Deprecation warning when service_providers empty,https://bugs.launchpad.net/neutron/+bug/1633293,2016-11-16
+1633339,1633339,Fix Released,test_routers_flavors is assuming the reference l3 plugin,https://bugs.launchpad.net/neutron/+bug/1633339,2016-11-16

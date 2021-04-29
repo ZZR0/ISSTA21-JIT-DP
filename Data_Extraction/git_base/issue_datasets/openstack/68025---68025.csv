@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1289115,1289115,Fix Released,check_signature syntax error,https://bugs.launchpad.net/keystone/+bug/1289115,2015-04-30
+1441164,1441164,Fix Released,Error in migration 066_fixup_service_name_value.py,https://bugs.launchpad.net/keystone/+bug/1441164,2015-04-30
+1435487,1435487,Fix Released,ServiceProviderModel has wrong attributes for auth_url and sp_url,https://bugs.launchpad.net/keystone/+bug/1435487,2015-04-30
+1435396,1435396,Fix Released,No notifications for role grants using v2,https://bugs.launchpad.net/keystone/+bug/1435396,2015-04-30
+1435312,1435312,Fix Released,v2 and v3 get catalog pass unused metadata parameter,https://bugs.launchpad.net/keystone/+bug/1435312,2015-04-30
+1435174,1435174,Fix Released,SSLTestCase errors when building Debian package,https://bugs.launchpad.net/keystone/+bug/1435174,2015-04-30
+1434599,1434599,Fix Released,ec2 signature possible errors,https://bugs.launchpad.net/keystone/+bug/1434599,2015-04-30
+1424500,1424500,Fix Released,Federation list projects endpoint does not honor project inherited role assignments,https://bugs.launchpad.net/keystone/+bug/1424500,2015-04-30
+1423022,1423022,Fix Released,List Tenants in v2 response has parent_id,https://bugs.launchpad.net/keystone/+bug/1423022,2015-04-30
+1421668,1421668,Fix Released,Tenant in v2 token response has parent_project_id,https://bugs.launchpad.net/keystone/+bug/1421668,2015-04-30
+1417522,1417522,Fix Released,a normal user can delete other user's ec2 credentials,https://bugs.launchpad.net/keystone/+bug/1417522,2015-04-30
+1417366,1417366,Fix Released,a normal user can get other user's ec2credential,https://bugs.launchpad.net/keystone/+bug/1417366,2015-04-30
+1416767,1416767,Fix Released,event_type for role assignment notifications is incorrect,https://bugs.launchpad.net/keystone/+bug/1416767,2015-04-30
+1261468,1261468,Fix Released,"domain-scoped token has ""None"" for tenant_id replacement",https://bugs.launchpad.net/keystone/+bug/1261468,2015-04-30
+1440185,1440185,Fix Released,Identity provider create fails if remote_id is not set,https://bugs.launchpad.net/keystone/+bug/1440185,2015-04-30
+1434916,1434916,Fix Released,GET /v3/projects/project_id with parents_as_list or subtree_as_list option is leaking extra data,https://bugs.launchpad.net/keystone/+bug/1434916,2015-04-30
+1434701,1434701,Fix Released,websso should compare remote_id_attribute to remote_id of IdP,https://bugs.launchpad.net/keystone/+bug/1434701,2015-04-30
+1431669,1431669,Fix Released,Fernet TypeError: token must be bytes.,https://bugs.launchpad.net/keystone/+bug/1431669,2015-04-30
+1410850,1410850,Fix Released,Multiple SQL backend check fails,https://bugs.launchpad.net/keystone/+bug/1410850,2015-04-30
+1407661,1407661,Fix Released,keystone with LDAP identity complains about invalid input for trustor_user_id,https://bugs.launchpad.net/keystone/+bug/1407661,2015-04-30
+1437032,1437032,Fix Released,keystone policy.json breaks oslo.policy,https://bugs.launchpad.net/keystone/+bug/1437032,2015-04-30
+1437032,1437032,Fix Released,keystone policy.json breaks oslo.policy,https://bugs.launchpad.net/tripleo/+bug/1437032,2015-04-30
+1412846,1412846,Fix Released,Cannot chain a trust with a role specified by name,https://bugs.launchpad.net/keystone/+bug/1412846,2015-04-30
+1411517,1411517,Fix Released,add schema for endpoint group,https://bugs.launchpad.net/keystone/+bug/1411517,2015-04-30
+1398347,1398347,Fix Released,LDAP backend should do filtered query instead of getting all data and then filtering,https://bugs.launchpad.net/keystone/+bug/1398347,2015-04-30
+1432191,1432191,Fix Released,Logs useless debugging issue with external auth,https://bugs.launchpad.net/keystone/+bug/1432191,2015-04-30
+1431377,1431377,Fix Released,service provider object accepts null values for mandatory fields,https://bugs.launchpad.net/keystone/+bug/1431377,2015-04-30
+1431088,1431088,Fix Released,eventlet_server options reporting as deprecated,https://bugs.launchpad.net/keystone/+bug/1431088,2015-04-30
+1429338,1429338,Fix Released,add CADF notifications for oauth functions,https://bugs.launchpad.net/keystone/+bug/1429338,2015-04-30
+1428945,1428945,Fix Released,add project id to initiator data for auditing,https://bugs.launchpad.net/keystone/+bug/1428945,2015-04-30
+1427509,1427509,Fix Released,add oauth authentication to config file,https://bugs.launchpad.net/keystone/+bug/1427509,2015-04-30
+1424749,1424749,Fix Released,test_multiple_filters uses an invalid filter that is ignored,https://bugs.launchpad.net/keystone/+bug/1424749,2015-04-30
+1422994,1422994,Fix Released,Backend role tests have duplicate test for get_role,https://bugs.launchpad.net/keystone/+bug/1422994,2015-04-30
+1421966,1421966,Fix Released,Getting role for trust is double-protected,https://bugs.launchpad.net/keystone/+bug/1421966,2015-04-30
+1420688,1420688,Fix Released,keystone notification context is empty,https://bugs.launchpad.net/keystone/+bug/1420688,2015-04-30
+1420121,1420121,Fix Released,check if oauth headers are available before creating request token,https://bugs.launchpad.net/keystone/+bug/1420121,2015-04-30
+1419114,1419114,Fix Released,Nova api 'Authorization failed for token' with federated scoped token,https://bugs.launchpad.net/keystone/+bug/1419114,2015-04-30
+1418830,1418830,Fix Released,Document Bug: service API works different than github doc (documented find by name but code work by type) - Openstack CLI,https://bugs.launchpad.net/keystone/+bug/1418830,2015-04-30
+1418398,1418398,Fix Released,role not found and assignment not found mix up together,https://bugs.launchpad.net/keystone/+bug/1418398,2015-04-30
+1415169,1415169,Fix Released,We don't make the dependency clear between identity and resource/assignment  LDAP,https://bugs.launchpad.net/keystone/+bug/1415169,2015-04-30
+1414909,1414909,Fix Released,"In some tests, calls to role_api still go via assignment_api",https://bugs.launchpad.net/keystone/+bug/1414909,2015-04-30
+1414627,1414627,Fix Released,check whether V2 token is revoked has been performed twice,https://bugs.launchpad.net/keystone/+bug/1414627,2015-04-30
+1409211,1409211,Fix Released,Unnecessary checks when cleaning up a domain,https://bugs.launchpad.net/keystone/+bug/1409211,2015-04-30
+1407861,1407861,Fix Released,tests of endpoint_filter should check the number of endpoints,https://bugs.launchpad.net/keystone/+bug/1407861,2015-04-30
+1406172,1406172,Fix Released,the code of get_token_provider in token.provider.py does not match docstring,https://bugs.launchpad.net/keystone/+bug/1406172,2015-04-30
+1396083,1396083,Fix Released,Improve List Role Assignments Tests,https://bugs.launchpad.net/keystone/+bug/1396083,2015-04-30
+1430062,1430062,Fix Released,Fernet token response has  wrong methods,https://bugs.launchpad.net/keystone/+bug/1430062,2015-04-30
+1429334,1429334,Fix Released,Unmatched Groups in Federation Mapping raise errors,https://bugs.launchpad.net/keystone/+bug/1429334,2015-04-30
+1428829,1428829,Fix Released,Fernet tokens don't return audit_ids,https://bugs.launchpad.net/keystone/+bug/1428829,2015-04-30
+1428717,1428717,Fix Released,Fernet tokens have redundant creation timestamps,https://bugs.launchpad.net/keystone/+bug/1428717,2015-04-30
+1427485,1427485,Fix Released,Fernet tokens contain a version identifier that is not integrity verified,https://bugs.launchpad.net/keystone/+bug/1427485,2015-04-30
+1427440,1427440,Fix Released,V2 only keystone wont start - revoke not in loaded backends,https://bugs.launchpad.net/keystone/+bug/1427440,2015-04-30
+1427379,1427379,Fix Released,AttributeError: 'Assignment' object has no attribute 'get_domain_by_name',https://bugs.launchpad.net/keystone/+bug/1427379,2015-04-30
+1424745,1424745,Fix Released,SQL/LDAP are not able to honor multiple filters in driver_hints.Hints(),https://bugs.launchpad.net/keystone/+bug/1424745,2015-04-30
+1424089,1424089,Fix Released,Use SystemRandom rather than random,https://bugs.launchpad.net/keystone/+bug/1424089,2015-04-30
+1421971,1421971,Fix Released,get_endpoint_group_in_project missing from sample policy files,https://bugs.launchpad.net/keystone/+bug/1421971,2015-04-30
+1421092,1421092,Fix Released,assertTableColumns always passes,https://bugs.launchpad.net/keystone/+bug/1421092,2015-04-30
+1417737,1417737,Fix Released,KVS cache backend incompatible with redis-py,https://bugs.launchpad.net/keystone/+bug/1417737,2015-04-30
+1417451,1417451,Fix Released,SQL User & Group entities still have FK to domain,https://bugs.launchpad.net/keystone/+bug/1417451,2015-04-30
+1414961,1414961,Fix Released,regex bypasses eval_type in federation mapping rules,https://bugs.launchpad.net/keystone/+bug/1414961,2015-04-30
+1409716,1409716,Fix Released,migration 61 downgrade test failure on non-sqlite,https://bugs.launchpad.net/keystone/+bug/1409716,2015-04-30
+1408384,1408384,Fix Released,Providers must be created only once,https://bugs.launchpad.net/keystone/+bug/1408384,2015-04-30
+1406938,1406938,Fix Released,Check of targets and actors on Assignment Controller should report a better error message,https://bugs.launchpad.net/keystone/+bug/1406938,2015-04-30
+1406667,1406667,Fix Released,Return 400 for invalid filter combinations on /role_assignments API,https://bugs.launchpad.net/keystone/+bug/1406667,2015-04-30
+1392584,1392584,Fix Released,OAuth headers are missing when using Apache,https://bugs.launchpad.net/keystone/+bug/1392584,2015-04-30
+1392584,1392584,Fix Released,OAuth headers are missing when using Apache,https://bugs.launchpad.net/python-keystoneclient/+bug/1392584,2015-04-30
+1431434,1431434,Fix Released,user creation with fernet tokens results in 401,https://bugs.launchpad.net/keystone/+bug/1431434,2015-04-30
+1430433,1430433,Fix Released,Fernet token validation doesn't return catalog and role information for domain scoped tokens,https://bugs.launchpad.net/keystone/+bug/1430433,2015-04-30
+1429663,1429663,Fix Released,local tests failing fernet tests,https://bugs.launchpad.net/keystone/+bug/1429663,2015-04-30
+1429557,1429557,Fix Released,Mark domain-config API as experimental in Identity spec,https://bugs.launchpad.net/keystone/+bug/1429557,2015-04-30
+1429556,1429556,Fix Released,Identity API for domain-config should define separate resources for group/option,https://bugs.launchpad.net/keystone/+bug/1429556,2015-04-30
+1428949,1428949,Fix Released,Fernet tokens do not support domain scopes,https://bugs.launchpad.net/keystone/+bug/1428949,2015-04-30
+1428600,1428600,Fix Released,Domain Config updates for specific group/option don't honor NotFound,https://bugs.launchpad.net/keystone/+bug/1428600,2015-04-30
+1428251,1428251,Fix Released,unable to generate saml assertion,https://bugs.launchpad.net/keystone/+bug/1428251,2015-04-30
+1427437,1427437,Fix Released,LDAP debug logging during unit tests brings us close to causing jenkins to fail our tests,https://bugs.launchpad.net/keystone/+bug/1427437,2015-04-30

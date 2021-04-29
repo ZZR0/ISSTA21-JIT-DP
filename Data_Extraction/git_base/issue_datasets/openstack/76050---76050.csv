@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1208618,1208618,Fix Released,glanceclient is using posixpath for URLs,https://bugs.launchpad.net/python-glanceclient/+bug/1208618,2014-09-21
+1192229,1192229,Fix Released,[OSSA 2013-018] Failing SSL cert check in Glance python client,https://bugs.launchpad.net/python-glanceclient/+bug/1192229,2014-09-21
+1192229,1192229,Fix Released,[OSSA 2013-018] Failing SSL cert check in Glance python client,https://bugs.launchpad.net/ossa/+bug/1192229,2014-09-21
+1367326,1367326,Fix Released,All latest (0.14.0) client v2 requests broken when querying any Glance server which is not running head of tree code,https://bugs.launchpad.net/python-glanceclient/+bug/1367326,2014-09-21
+1238054,1238054,Fix Released,Outdated information in the Development Guide,https://bugs.launchpad.net/openstack-api-site/+bug/1238054,2014-09-21
+1255321,1255321,Fix Released,v3 PKI token requests result in 500 error when run in apache,https://bugs.launchpad.net/python-keystoneclient/+bug/1255321,2014-09-21
+1255321,1255321,Fix Released,v3 PKI token requests result in 500 error when run in apache,https://bugs.launchpad.net/keystone/+bug/1255321,2014-09-21
+1200777,1200777,Fix Released,No V3 extensions list,https://bugs.launchpad.net/keystone/+bug/1200777,2014-09-21
+1202179,1202179,Fix Released,findall in novaclient/base.py is inefficient,https://bugs.launchpad.net/python-novaclient/+bug/1202179,2014-09-20
+1367121,1367121,Fix Released,description for nova secgroup-greate not optional,https://bugs.launchpad.net/python-novaclient/+bug/1367121,2014-09-20
+1371781,1371781,Fix Released,Creation of new group for swiftonfile repo,https://bugs.launchpad.net/openstack-ci/+bug/1371781,2014-09-20
+1360521,1360521,Fix Released,Expose user_domain_name in the user attributes,https://bugs.launchpad.net/django-openstack-auth/+bug/1360521,2014-09-20
+1291457,1291457,Fix Released,Log a warning when there is keystone misconfiguration,https://bugs.launchpad.net/django-openstack-auth/+bug/1291457,2014-09-20
+1369064,1369064,Fix Released,document is not generated properly in gate-django_openstack_auth-docs job,https://bugs.launchpad.net/django-openstack-auth/+bug/1369064,2014-09-20
+1241838,1241838,Fix Released,Project list is fetched from Keystone for each request,https://bugs.launchpad.net/django-openstack-auth/+bug/1241838,2014-09-20
+1363515,1363515,Fix Released,Cannot display page at all for logged-in users after upgrade django-openstack-auth to the latest,https://bugs.launchpad.net/django-openstack-auth/+bug/1363515,2014-09-20
+1324948,1324948,Fix Released,".replace('v3', 'v2.0') and .replace('v2.0', 'v3') brakes enpoint urls",https://bugs.launchpad.net/django-openstack-auth/+bug/1324948,2014-09-20
+1349485,1349485,Fix Released,keystoneclient 0.10.0 breaks django-openstack-auth unit tests completely,https://bugs.launchpad.net/django-openstack-auth/+bug/1349485,2014-09-20
+1370976,1370976,Fix Released,Install the Telemetry module in OpenStack Installation Guide for Ubuntu 12.04/14.04 (LTS)  - icehouse: minor defect; rephrase a sentence,https://bugs.launchpad.net/openstack-manuals/+bug/1370976,2014-09-20
+1362703,1362703,Fix Released,test_cinder_endpoints is racy and poorly thought-out,https://bugs.launchpad.net/tempest/+bug/1362703,2014-09-20
+1316328,1316328,Fix Released,"Stack trace when stack.sh hits ""cinder-manage db sync""",https://bugs.launchpad.net/devstack/+bug/1316328,2014-09-19
+1370204,1370204,Fix Released,Initial Gerrit group member for stackforge/bandit,https://bugs.launchpad.net/openstack-ci/+bug/1370204,2014-09-19
+1322224,1322224,Fix Released,Building of security guide fails,https://bugs.launchpad.net/openstack-i18n/+bug/1322224,2014-09-19
+1217120,1217120,Fix Released,Unpin keyring < 2.0,https://bugs.launchpad.net/python-keystoneclient/+bug/1217120,2014-09-19
+1028365,1028365,Fix Released,guestmount installation not mentioned,https://bugs.launchpad.net/openstack-manuals/+bug/1028365,2014-09-19
+1365798,1365798,Fix Released,incorrect path for coreos_production_pxe.vmlinuz,https://bugs.launchpad.net/devstack/+bug/1365798,2014-09-19
+1369691,1369691,Fix Released,Using qpidd fails on trusty: client API not available,https://bugs.launchpad.net/devstack/+bug/1369691,2014-09-19
+1341480,1341480,Fix Released,[library] HA deployment gets stuck on centos,https://bugs.launchpad.net/fuel/+bug/1341480,2014-09-19
+1322475,1322475,Fix Released,Error: 403 forbidden trying to download snapshot,https://bugs.launchpad.net/fuel/+bug/1322475,2014-09-19
+1353408,1353408,Fix Released,[ostf] Default network error message improvement,https://bugs.launchpad.net/fuel/+bug/1353408,2014-09-19
+1349390,1349390,Fix Released,[OSTF] 'Check stack autoscaling' test should be skipped if no image was imported,https://bugs.launchpad.net/fuel/+bug/1349390,2014-09-19
+1346864,1346864,Fix Released,[OSTF] Sahara platform test doesn't work in HA mod when primary controller node is offline,https://bugs.launchpad.net/fuel/+bug/1346864,2014-09-19
+1333298,1333298,Fix Released,Hardcoded sahara image name for OSTF tests,https://bugs.launchpad.net/fuel/+bug/1333298,2014-09-19
+1361629,1361629,Fix Released,"[ostf] Heat OSTF test ""test_autoscaling"" is unstable",https://bugs.launchpad.net/fuel/+bug/1361629,2014-09-19
+1334346,1334346,Fix Released,Check stack autoscaling fails when env has another instances created,https://bugs.launchpad.net/fuel/+bug/1334346,2014-09-19
+1369625,1369625,Fix Released,[OSTF] Need to change check on correctness of volume name in test_volume_create,https://bugs.launchpad.net/fuel/+bug/1369625,2014-09-19
+1359269,1359269,Fix Released,function fuel_web.run_ostf causes error,https://bugs.launchpad.net/fuel/+bug/1359269,2014-09-19
+1356453,1356453,Fix Released,[System Tests] Make ceph restart tests dependent on test group,https://bugs.launchpad.net/fuel/+bug/1356453,2014-09-19
+1353543,1353543,Fix Released,[System Tests] Make ceph_ha_restart and ceph_multinode_restart use existing snapshots,https://bugs.launchpad.net/fuel/+bug/1353543,2014-09-19
+1368628,1368628,Fix Released,[systest] Upgrade script returns non-zero value in 'rollback_automatically_simple_env' test,https://bugs.launchpad.net/fuel/+bug/1368628,2014-09-19
+1368537,1368537,Fix Released,[systest] We should wait until Nailgun is become ready after resetting master node,https://bugs.launchpad.net/fuel/+bug/1368537,2014-09-19
+1358726,1358726,Fix Released,[System tests] Change default fixed and internal network to custom for every cluster in tests,https://bugs.launchpad.net/fuel/+bug/1358726,2014-09-19
+1358642,1358642,Fix Released,[System Tests] Modify deploy_neutron_gre test to use cinder as storage,https://bugs.launchpad.net/fuel/+bug/1358642,2014-09-19
+1358369,1358369,Fix Released,[System tests] Need to add check that Fixed network CIDR on controller is default value,https://bugs.launchpad.net/fuel/+bug/1358369,2014-09-19
+1320181,1320181,Fix Released,[System tests] Test on Murano fails with ConnectionError: HTTPConnectionPool,https://bugs.launchpad.net/fuel/+bug/1320181,2014-09-19
+1316761,1316761,Fix Released,Nodes failed to reboot for HA env,https://bugs.launchpad.net/fuel/+bug/1316761,2014-09-19
+1362542,1362542,Fix Released,[system-tests] Missed parameter settings.DEPLOYMENT_MODE_HA in Heat HA sys test,https://bugs.launchpad.net/fuel/+bug/1362542,2014-09-19
+1362045,1362045,Fix Released,"[system tests] AssertionError in Heat system test ""heat_simple_nova""",https://bugs.launchpad.net/fuel/+bug/1362045,2014-09-19
+1368422,1368422,Fix Released,Chapter 6. Identity in OpenStack Security Guide  - minor grammatical/format issues,https://bugs.launchpad.net/openstack-manuals/+bug/1368422,2014-09-19
+1255128,1255128,Fix Released,TypeError: dist must be a Distribution instance when installing warlock,https://bugs.launchpad.net/tripleo/+bug/1255128,2014-09-19
+1205983,1205983,Fix Released,"capabilities filter uses ':' as a delimiter, which is unsupported by REST XML",https://bugs.launchpad.net/cinder/+bug/1205983,2014-09-18
+898266,898266,Fix Released,Consoles API resource needs to be implemented as extension,https://bugs.launchpad.net/openstack-manuals/+bug/898266,2014-09-18
+1255131,1255131,Fix Released,Can't boot instance on cd-overcloud,https://bugs.launchpad.net/tripleo/+bug/1255131,2014-09-18
+1272803,1272803,Fix Released,testenv nodes DHCP br-untagged from two DHCP servers,https://bugs.launchpad.net/tripleo/+bug/1272803,2014-09-18
+1369381,1369381,Fix Released,Neutron iptables-restore ipset commands failing,https://bugs.launchpad.net/tripleo/+bug/1369381,2014-09-18
+1343162,1343162,Fix Released,Failed to fetch bzip2:... Hash Sum mismatch,https://bugs.launchpad.net/tripleo/+bug/1343162,2014-09-18
+1305991,1305991,Fix Released,there is no method MagicMock.assert_called_once() and MagicMock.assert_called(),https://bugs.launchpad.net/rally/+bug/1305991,2014-09-18
+1291991,1291991,Fix Released,"ipmi cmds run too fast, cause BMC to run out of resources",https://bugs.launchpad.net/ironic/+bug/1291991,2014-09-18
+1369241,1369241,Fix Released,can not do registration work When keystone service need cafile verification,https://bugs.launchpad.net/openstack-chef/+bug/1369241,2014-09-18
+1367357,1367357,Fix Committed,Upgrage maaster node is allowed during OSTF check,https://bugs.launchpad.net/fuel/+bug/1367357,2014-09-18
+1322931,1322931,Fix Released,stack.sh fails with error in cliff.app,https://bugs.launchpad.net/python-cliff/+bug/1322931,2014-09-18
+1298907,1298907,Fix Released,neutron CLI returns CSV with CR character,https://bugs.launchpad.net/python-cliff/+bug/1298907,2014-09-18
+1348648,1348648,Fix Released,"main error logger uses ""cliff.app"" as name instead of the command line app's name",https://bugs.launchpad.net/python-cliff/+bug/1348648,2014-09-18
+1368372,1368372,Fix Released,nova client help text for rescue,https://bugs.launchpad.net/python-novaclient/+bug/1368372,2014-09-18
+1333436,1333436,Fix Committed,Unable to set custom overcommit ratio,https://bugs.launchpad.net/fuel/+bug/1333436,2014-09-18
+1146830,1146830,Fix Released,Glance image-create stuck in saving state using rbd as a backend and --copy-from option,https://bugs.launchpad.net/glance/+bug/1146830,2014-09-18
+1309780,1309780,Fix Released,"Openstack services return 401 (glance, cinder, nova), deployment fails to upload cirros image",https://bugs.launchpad.net/fuel/+bug/1309780,2014-09-18
+1338841,1338841,Fix Released,asynchronous connection failed in postgresql jobs,https://bugs.launchpad.net/devstack/+bug/1338841,2014-09-18
+1362088,1362088,Fix Released,Incomplete documentation for the labs section under openstack-training-labs section,https://bugs.launchpad.net/openstack-training-guides/+bug/1362088,2014-09-18
+1279384,1279384,Fix Released,Failed to upload images when Swift is enabled,https://bugs.launchpad.net/devstack/+bug/1279384,2014-09-18
+1369557,1369557,Fix Released,Tempest auth provider uses v2 token with v3 Auth Provider,https://bugs.launchpad.net/tempest/+bug/1369557,2014-09-18
+1369578,1369578,Fix Released,Missing known_stores RBD for Glance when Ceph is being used,https://bugs.launchpad.net/devstack/+bug/1369578,2014-09-18
+1326615,1326615,Fix Released,Clarity and Punctuation in Define services and API endpoints Section,https://bugs.launchpad.net/openstack-manuals/+bug/1326615,2014-09-18
+1297748,1297748,Fix Released,do_stack_preview should have less parameters,https://bugs.launchpad.net/python-heatclient/+bug/1297748,2014-09-18
+1320789,1320789,Fix Released,"duplicate debug info displayed when using ""--debug""",https://bugs.launchpad.net/python-heatclient/+bug/1320789,2014-09-18

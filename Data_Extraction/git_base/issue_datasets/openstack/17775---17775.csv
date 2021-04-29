@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1717250,1717250,Fix Released,containerized galera bootstrap randomly fails,https://bugs.launchpad.net/tripleo/+bug/1717250,2017-10-27
+1717521,1717521,Fix Released,Containerized HAproxy cannot reload its config while running,https://bugs.launchpad.net/tripleo/+bug/1717521,2017-10-27
+1718173,1718173,Fix Released,We set the default pg_num in ceph.conf but not pgp_num,https://bugs.launchpad.net/tripleo/+bug/1718173,2017-10-27
+1718299,1718299,Fix Released,networker role incorrectly includes api services,https://bugs.launchpad.net/tripleo/+bug/1718299,2017-10-27
+1718391,1718391,Fix Released,roles-data-validation not run in CI,https://bugs.launchpad.net/tripleo/+bug/1718391,2017-10-27
+1718451,1718451,Fix Released,overcloud deployment with lbaasv2 enabled  cannot find file,https://bugs.launchpad.net/tripleo/+bug/1718451,2017-10-27
+1717017,1717017,Fix Released,Composable networks creates two IPv4 VIPs for Redis,https://bugs.launchpad.net/tripleo/+bug/1717017,2017-10-27
+1717123,1717123,Fix Released,Composable networks failing upgrades due to missing management network files.,https://bugs.launchpad.net/tripleo/+bug/1717123,2017-10-27
+1718991,1718991,Fix Released,undercloud_post.sh fails due to old stackrc file,https://bugs.launchpad.net/tripleo/+bug/1718991,2017-10-27
+1718997,1718997,Fix Released,Tacker service missing password for authtoken,https://bugs.launchpad.net/tripleo/+bug/1718997,2017-10-27
+1719530,1719530,Fix Released,Missing dhcp-agent interface driver configuration,https://bugs.launchpad.net/tripleo/+bug/1719530,2017-10-27
+1719599,1719599,Fix Released,Containerized galera does not listen on mysql_network,https://bugs.launchpad.net/tripleo/+bug/1719599,2017-10-27
+1719604,1719604,Fix Released,Ocata to Pike upgrade broken by host_prep_tasks running on non controllers during controlplane upgrade,https://bugs.launchpad.net/tripleo/+bug/1719604,2017-10-27
+1718110,1718110,Fix Released,Missing logging parameters for containerized services,https://bugs.launchpad.net/tripleo/+bug/1718110,2017-10-27
+1719796,1719796,Fix Released,Undercloud containers fail to run openstack commands,https://bugs.launchpad.net/tripleo/+bug/1719796,2017-10-27
+1719919,1719919,Fix Released,"CephConfigOverrides is overwriting the ceph.conf global section, not appending to it",https://bugs.launchpad.net/tripleo/+bug/1719919,2017-10-27
+1717298,1717298,Fix Released,"""become:true"" not used in deploy steps playbook",https://bugs.launchpad.net/tripleo/+bug/1717298,2017-10-27
+1714910,1714910,Fix Released,Currently only single node Sensu can be connected,https://bugs.launchpad.net/tripleo/+bug/1714910,2017-10-27
+1720114,1720114,Fix Released,OVN heat templates should provide the option to configure the name of the OVS integration bridge,https://bugs.launchpad.net/tripleo/+bug/1720114,2017-10-27
+1721073,1721073,Fix Released,"N->P upgrade: Unable to spawn instance post upgrade: Failed to allocate the network(s), not rescheduling.""",https://bugs.launchpad.net/tripleo/+bug/1721073,2017-10-27
+1718944,1718944,Fix Released,Mariadb container reported as unhealthy in non HA scenario,https://bugs.launchpad.net/tripleo/+bug/1718944,2017-10-27
+1721239,1721239,Fix Released,scenario001-containers fails during tempest run while communicating with glance,https://bugs.launchpad.net/tripleo/+bug/1721239,2017-10-27
+1720823,1720823,Fix Released,net ip map template missing type for TenantNetName,https://bugs.launchpad.net/tripleo/+bug/1720823,2017-10-27
+1720972,1720972,Fix Released,Missing info in Sensu check output,https://bugs.launchpad.net/tripleo/+bug/1720972,2017-10-27
+1721306,1721306,Fix Released,Risk of config update to config_volume not triggering container restart,https://bugs.launchpad.net/tripleo/+bug/1721306,2017-10-27
+1720865,1720865,Fix Released,CloudWatchApi should not be in the controller roles,https://bugs.launchpad.net/tripleo/+bug/1720865,2017-10-27
+1723171,1723171,Fix Released,master deployment fails on  Task 'check_flavors' error=Can not evaluate YAQL expression,https://bugs.launchpad.net/tripleo/+bug/1723171,2017-10-27
+1693442,1693442,Fix Released,Unsuitable error when supplying an invalid instackenv.json,https://bugs.launchpad.net/tripleo/+bug/1693442,2017-10-27
+1697031,1697031,Fix Released,overcloud deploy --environment-directory doesn't warn if the environment directory doesn't exist,https://bugs.launchpad.net/tripleo/+bug/1697031,2017-10-27
+1707659,1707659,Fix Released,environment file with empty resource_registry will cause the deployment to silently fail,https://bugs.launchpad.net/tripleo/+bug/1707659,2017-10-27
+1707788,1707788,Fix Released,gate-tripleo-buildimage-overcloud-full-centos-7 is broken on missing semanage,https://bugs.launchpad.net/tripleo/+bug/1707788,2017-10-27
+1709281,1709281,Fix Released,overcloud upgrade fails with error: Timed out waiting for messages from Execution,https://bugs.launchpad.net/tripleo/+bug/1709281,2017-10-27
+1711660,1711660,Fix Released,tripleoclient double prints the result of introspection,https://bugs.launchpad.net/tripleo/+bug/1711660,2017-10-27
+1714296,1714296,Fix Released,overcloud image prepare command doesn't filter our services that are disabled,https://bugs.launchpad.net/tripleo/+bug/1714296,2017-10-27
+1715871,1715871,Fix Released,python-tripleoclient cannot handle multiple lines when conditionals in the upgrade tasks,https://bugs.launchpad.net/tripleo/+bug/1715871,2017-10-27
+1716855,1716855,Fix Released,openstack overcloud node introspect double prints success messages,https://bugs.launchpad.net/tripleo/+bug/1716855,2017-10-27
+1719947,1719947,Fix Released,CLI error messages show action names instead of error text,https://bugs.launchpad.net/tripleo/+bug/1719947,2017-10-27
+1709311,1709311,Fix Released,undercloud deploy double kills heat_all container,https://bugs.launchpad.net/tripleo/+bug/1709311,2017-10-27
+1712377,1712377,Fix Released,Undercloud installation fails intermitently when using SSL,https://bugs.launchpad.net/tripleo/+bug/1712377,2017-10-27
+1712514,1712514,Fix Released,certmonger postsave command for haproxy doesn't actually upadate the bundled PEM,https://bugs.launchpad.net/tripleo/+bug/1712514,2017-10-27
+1712566,1712566,Fix Released,fix panko ssl port,https://bugs.launchpad.net/tripleo/+bug/1712566,2017-10-27
+1712404,1712404,Fix Released,CRL update cronjob fails silently,https://bugs.launchpad.net/tripleo/+bug/1712404,2017-10-27
+1712903,1712903,Fix Released,SR-IOV VF count is not set immediately on deployment,https://bugs.launchpad.net/tripleo/+bug/1712903,2017-10-27
+1713421,1713421,Fix Released,Docker/Pacemaker profiles don't work with Ceph as /etc/ceph is empty,https://bugs.launchpad.net/tripleo/+bug/1713421,2017-10-27
+1713191,1713191,Fix Released,Change references from nsx_v3 to nsx,https://bugs.launchpad.net/tripleo/+bug/1713191,2017-10-27
+1714213,1714213,Fix Released,zaqar's keystone endpoint don't get generated,https://bugs.launchpad.net/tripleo/+bug/1714213,2017-10-27
+1714310,1714310,Fix Released,scenario004 failing to create the Manila share in pingtest,https://bugs.launchpad.net/tripleo/+bug/1714310,2017-10-27
+1716692,1716692,Fix Released,Allow admin access for HAProxy socket,https://bugs.launchpad.net/tripleo/+bug/1716692,2017-10-27
+1716458,1716458,Fix Released,GUI doesn't log to Zaqar by default,https://bugs.launchpad.net/tripleo/+bug/1716458,2017-10-27
+1720868,1720868,Fix Released,snmpd_config can't be customized,https://bugs.launchpad.net/tripleo/+bug/1720868,2017-10-27
+1721246,1721246,Fix Released,"Allow to set custom ""global"" options in HAProxy",https://bugs.launchpad.net/tripleo/+bug/1721246,2017-10-27
+1721497,1721497,Fix Released,galera(galera)[34]: ERROR: Could not determine galera name from pacemaker node <galera-bundle-0>,https://bugs.launchpad.net/tripleo/+bug/1721497,2017-10-27
+1709460,1709460,Fix Released,Setting undercloud_hostname creates an invalid /etc/hosts file,https://bugs.launchpad.net/tripleo/+bug/1709460,2017-10-27
+1712380,1712380,Fix Released,cve-2017-7549 - instack-undercloud uses hardcoded /tmp paths,https://bugs.launchpad.net/tripleo/+bug/1712380,2017-10-27
+1712632,1712632,Fix Released,"Check that enough nodes are in ""available"" state with maintenance mode off error",https://bugs.launchpad.net/tripleo/+bug/1712632,2017-10-27
+1712738,1712738,Fix Released,Ocata to pike upgrade fails (plan issue),https://bugs.launchpad.net/tripleo/+bug/1712738,2017-10-27
+1718454,1718454,Fix Released,"undercloud, swift returns 503 in undercloud install",https://bugs.launchpad.net/tripleo/+bug/1718454,2017-10-27
+1718429,1718429,Fix Released,instack-undercloud uses deprecated create_default_deployment_plan workflow,https://bugs.launchpad.net/tripleo/+bug/1718429,2017-10-27
+1721366,1721366,Fix Released,"Keystone v2.0 APIs have been removed, TripleO config is incomplete",https://bugs.launchpad.net/tripleo/+bug/1721366,2017-10-27
+1710673,1710673,Fix Released,"python setup.py build_sphinx reports: build succeeded, 1 warning",https://bugs.launchpad.net/sahara/+bug/1710673,2017-10-27
+1710608,1710608,Fix Released,"""python setup.py build_sphinx -b man"" not working",https://bugs.launchpad.net/sahara/+bug/1710608,2017-10-27
+1710628,1710628,Fix Released,[Doc] Hyphens render strangely,https://bugs.launchpad.net/sahara/+bug/1710628,2017-10-27
+1712169,1712169,Fix Released,Vanilla cluster default template has invalid JSON,https://bugs.launchpad.net/sahara/+bug/1712169,2017-10-27
+1712134,1712134,Fix Released,Default templates for CDH broken,https://bugs.launchpad.net/sahara/+bug/1712134,2017-10-27
+1716307,1716307,Fix Released,configure ntp service twice on existing nodes during cluster scaling,https://bugs.launchpad.net/sahara/+bug/1716307,2017-10-27
+1713012,1713012,Fix Released,renamed cluster fail to scale,https://bugs.launchpad.net/sahara/+bug/1713012,2017-10-27
+1718479,1718479,Fix Released,glance and manila sections are not documented in  sahara.conf.sample,https://bugs.launchpad.net/sahara/+bug/1718479,2017-10-27
+1718486,1718486,Fix Released,Missing resources validation before scaling cluster,https://bugs.launchpad.net/sahara/+bug/1718486,2017-10-27
+1717913,1717913,Fix Released,Hosting device is never revived from DEAD state if cfg agent is restarted,https://bugs.launchpad.net/networking-cisco/+bug/1717913,2017-10-27
+1710203,1710203,Fix Released,Add port dns_domain processing logic,https://bugs.launchpad.net/neutron/+bug/1710203,2017-10-27
+1675788,1675788,Fix Released,Sequential API requests in instance details as a bottleneck,https://bugs.launchpad.net/horizon/+bug/1675788,2017-10-27
+1655307,1655307,Fix Released,Sequential API requests in instance list as a bottleneck,https://bugs.launchpad.net/horizon/+bug/1655307,2017-10-27
+1712412,1712412,Fix Released,DVR external port setup fails with KeyError: 'host',https://bugs.launchpad.net/neutron/+bug/1712412,2017-10-27
+1714901,1714901,Fix Released,gate-rally-dsvm-neutron-neutron-ubuntu-xenial failing 100% in NeutronTrunks.create_and_list_trunk_subports,https://bugs.launchpad.net/neutron/+bug/1714901,2017-10-27
+1724690,1724690,Fix Released,ENABLE_KSM broken on stack.sh,https://bugs.launchpad.net/devstack/+bug/1724690,2017-10-27

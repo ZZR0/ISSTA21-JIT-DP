@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1543684,1543684,Fix Released,"[systest] Sometimes test 'auto_cic_maintenance_mode' fail, because services don't become ready within 25 minutes after reboot",https://bugs.launchpad.net/fuel/+bug/1543684,2016-06-17
+1591164,1591164,Fix Committed,Can't create volume after scaling of the cluster with example plugin: volume service is down. (host: node-2.test.domain.local@LVM-backend),https://bugs.launchpad.net/fuel/+bug/1591164,2016-06-17
+1487489,1487489,Fix Released,typo in rally/consts.py,https://bugs.launchpad.net/rally/+bug/1487489,2016-06-17
+1506041,1506041,Fix Committed,[fuel-octane]Need to remove upgrade_levels from nova.conf after upgrade of  last compute,https://bugs.launchpad.net/fuel/+bug/1506041,2016-06-17
+1492744,1492744,Fix Committed,Network templates are ignored by cluster_upgrade extension,https://bugs.launchpad.net/fuel/+bug/1492744,2016-06-17
+1565828,1565828,Fix Released,Undercloud mariadb max_connections not respecting config file,https://bugs.launchpad.net/tripleo/+bug/1565828,2016-06-17
+1570824,1570824,Fix Released,Undercloud with ssl fails to upgrade because of removal of vip,https://bugs.launchpad.net/tripleo/+bug/1570824,2016-06-17
+1576307,1576307,Fix Released,Add aodh endpoint generation to instack undercloud,https://bugs.launchpad.net/tripleo/+bug/1576307,2016-06-17
+1584942,1584942,Fix Released,Security role sets incorrect permissions on auditd logs,https://bugs.launchpad.net/openstack-ansible/+bug/1584942,2016-06-17
+1542513,1542513,Fix Released,use of config_template plugin breaks ceilometer.conf,https://bugs.launchpad.net/openstack-ansible/+bug/1542513,2016-06-17
+1566322,1566322,Fix Committed,unexpected behavior octane fuel-restore,https://bugs.launchpad.net/fuel/+bug/1566322,2016-06-17
+1550376,1550376,Fix Released,"[stats] Use JSON, yaml compatible format of data for the fuel-stats config.",https://bugs.launchpad.net/fuel/+bug/1550376,2016-06-17
+1572276,1572276,Fix Released,There is no way to use plugins with legacy task,https://bugs.launchpad.net/fuel/+bug/1572276,2016-06-17
+1570818,1570818,Fix Released,It is not possible to select exact task for execution,https://bugs.launchpad.net/fuel/+bug/1570818,2016-06-17
+1536198,1536198,Fix Released,After backup-reinstall-restore Fuel uses bootstrap with wrong ssh keys,https://bugs.launchpad.net/fuel/+bug/1536198,2016-06-17
+1543767,1543767,Fix Released,Periodic disappearance of default route. Can't save configuration and quit from fuelmenu,https://bugs.launchpad.net/fuel/+bug/1543767,2016-06-17
+1593234,1593234,Fix Released,[Contrail]Deploy Contrail+DPDK leads to fail,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1593234,2016-06-17
+1573490,1573490,Fix Released,system_test.ubuntu.fuel_plugin_reboot failed due to not changes timestamp,https://bugs.launchpad.net/fuel/+bug/1573490,2016-06-17
+1591942,1591942,Fix Released,Missing Python requirement - requests,https://bugs.launchpad.net/tosca-parser/+bug/1591942,2016-06-17
+1560556,1560556,Fix Released,python-ironicclient on Centos 7 master node is unknown,https://bugs.launchpad.net/fuel/+bug/1560556,2016-06-17
+1520610,1520610,Fix Released,[heat] Incorrect run of heat-engine processes,https://bugs.launchpad.net/fuel/+bug/1520610,2016-06-17
+1592048,1592048,Fix Released,[regression] Health checks (functional tests for volumes) are failed for deployed cluster with multipath devices,https://bugs.launchpad.net/fuel/+bug/1592048,2016-06-17
+1588319,1588319,Fix Committed,fuel-devops 3.0.0 work only with local templates,https://bugs.launchpad.net/fuel/+bug/1588319,2016-06-17
+1592576,1592576,Fix Committed,fuel-main fails to build for older fuel versions due to docker not being able to pull down centos images,https://bugs.launchpad.net/fuel/+bug/1592576,2016-06-17
+1577759,1577759,Fix Committed,Not all node attributes are collected for fuel-stats,https://bugs.launchpad.net/fuel/+bug/1577759,2016-06-17
+1559025,1559025,Fix Released,Deploy with network template fails on netconfig task with err: Could not autoload puppet/provider/cs_colocation/pcs: superclass mismatch for class Pacemaker,https://bugs.launchpad.net/fuel/+bug/1559025,2016-06-17
+1581015,1581015,Fix Committed,Get last successful transaction per task does not evaluate status of deployment tasks per node,https://bugs.launchpad.net/fuel/+bug/1581015,2016-06-17
+1591902,1591902,Fix Released,Remove check_i18n files,https://bugs.launchpad.net/networking-onos/+bug/1591902,2016-06-17
+1544839,1544839,Fix Released,Job gate-rally-dsvm-zaqar-zaqar fails since the recent Rally patch,https://bugs.launchpad.net/rally/+bug/1544839,2016-06-17
+1592823,1592823,Fix Released,Neutron devloer document link is not up,https://bugs.launchpad.net/networking-huawei/+bug/1592823,2016-06-17
+1569477,1569477,Fix Released,Undercloud install should be automated by default,https://bugs.launchpad.net/tripleo-quickstart/+bug/1569477,2016-06-16
+1587239,1587239,Fix Released,cover job is failing too frequently,https://bugs.launchpad.net/keystone/+bug/1587239,2016-06-16
+1585753,1585753,Fix Released,[apic-mapping] avoid name scoping for preexisting resources,https://bugs.launchpad.net/group-based-policy/+bug/1585753,2016-06-16
+1504197,1504197,Fix Released,keystoneclient.exceptions.RequestTimeout,https://bugs.launchpad.net/python-ironicclient/+bug/1504197,2016-06-16
+1367915,1367915,Fix Released,ironic-python-agent is missing developer documentation,https://bugs.launchpad.net/ironic-python-agent/+bug/1367915,2016-06-16
+1412393,1412393,Fix Released,mariadb repo unnecessarily configured in all containers,https://bugs.launchpad.net/openstack-ansible/+bug/1412393,2016-06-16
+1568059,1568059,Fix Committed,ironic_conductor doesn't use TLS settings,https://bugs.launchpad.net/fuel/+bug/1568059,2016-06-16
+1580084,1580084,Fix Released,AttributeError: lswitch is None,https://bugs.launchpad.net/dragonflow/+bug/1580084,2016-06-16
+1493554,1493554,Fix Released,Returning processutils output in IPA clean step causes API error,https://bugs.launchpad.net/ironic-python-agent/+bug/1493554,2016-06-16
+1562835,1562835,Fix Committed,problems in nailgun-agent because rethtool doesn't work with virtio adapters properly,https://bugs.launchpad.net/fuel/+bug/1562835,2016-06-16
+1587767,1587767,Fix Committed,Automate getting parameters for devops.*.env job,https://bugs.launchpad.net/fuel/+bug/1587767,2016-06-16
+1522876,1522876,Fix Released,Locality filter does not start,https://bugs.launchpad.net/fuel/+bug/1522876,2016-06-16
+1521119,1521119,Fix Released,[contrail] Cannot deploy cluster with 2 node groups with Contrail,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1521119,2016-06-16
+1543963,1543963,Fix Released,[docs] Put known Ceph OSD placement issues to the Fuel ref. arch,https://bugs.launchpad.net/fuel/+bug/1543963,2016-06-16
+1535893,1535893,Fix Released,releasing address for the gateway address,https://bugs.launchpad.net/kuryr/+bug/1535893,2016-06-16
+1567475,1567475,Fix Released,"Group horizon-core don't have rights to +A/+2 patches in openstack/django_openstack_auth, branch 9.0/mitaka",https://bugs.launchpad.net/fuel/+bug/1567475,2016-06-16
+1522353,1522353,Fix Committed,Unit tests for fuel-bootstrap-cli,https://bugs.launchpad.net/fuel/+bug/1522353,2016-06-16
+1553924,1553924,Fix Released,fuel-web Command is not correct in documentation,https://bugs.launchpad.net/fuel/+bug/1553924,2016-06-16
+1570252,1570252,Fix Committed,Shotgun rpm fails to build on isolated env,https://bugs.launchpad.net/fuel/+bug/1570252,2016-06-16
+1555145,1555145,Fix Committed,[upgrade][8.0] Upgrade does not works if admin password was changed after initial setup,https://bugs.launchpad.net/fuel/+bug/1555145,2016-06-16
+1576177,1576177,Fix Released,search does not reindex when changed object name,https://bugs.launchpad.net/fuel/+bug/1576177,2016-06-16
+1587298,1587298,Fix Released,[Racks] Duplication of one object on different pages.,https://bugs.launchpad.net/fuel/+bug/1587298,2016-06-16
+1574646,1574646,Fix Released,Import HW requestor in Racks,https://bugs.launchpad.net/fuel/+bug/1574646,2016-06-16
+1543955,1543955,Fix Committed,[upgrade] Slaves are not able to get ip address by dhcp,https://bugs.launchpad.net/fuel/+bug/1543955,2016-06-16
+1551896,1551896,Fix Released,Openstack statistic failed to be sent because of validation error on Collector side,https://bugs.launchpad.net/fuel/+bug/1551896,2016-06-16
+1550450,1550450,Fix Released,Compute node deployment fails if OVS is not installed,https://bugs.launchpad.net/fuel/+bug/1550450,2016-06-16
+1556995,1556995,Fix Released,fuel-agent fails to set process group over SSH,https://bugs.launchpad.net/fuel/+bug/1556995,2016-06-16
+1548701,1548701,Fix Released,ShowOne command can't distinguish no existed columns,https://bugs.launchpad.net/python-cliff/+bug/1548701,2016-06-16
+1554408,1554408,Fix Released,AttributeError raise when entry point load failed,https://bugs.launchpad.net/python-cliff/+bug/1554408,2016-06-16
+1577368,1577368,Fix Released,output is line-wrapped,https://bugs.launchpad.net/python-cliff/+bug/1577368,2016-06-16
+1549749,1549749,Fix Released,Completion fails wiht subcommands sharing a verb,https://bugs.launchpad.net/python-cliff/+bug/1549749,2016-06-16
+1564433,1564433,Fix Released,max-width help doesn't address negative values,https://bugs.launchpad.net/python-cliff/+bug/1564433,2016-06-16
+1590682,1590682,Fix Released,[Packaging] Errors during virtual environment creation with virtualenv,https://bugs.launchpad.net/fuel/+bug/1590682,2016-06-16
+1365391,1365391,Fix Committed,FuelMenu: Write tests for it,https://bugs.launchpad.net/fuel/+bug/1365391,2016-06-16
+1574424,1574424,Fix Released,duplicated columns are listed,https://bugs.launchpad.net/python-novaclient/+bug/1574424,2016-06-16
+1280118,1280118,Fix Released,'name' should be the optional parameter on  aggregate-update,https://bugs.launchpad.net/python-novaclient/+bug/1280118,2016-06-16
+1582284,1582284,Fix Released,"nova flavor-access-list help is wrong, the API does not take a tenant_id",https://bugs.launchpad.net/python-novaclient/+bug/1582284,2016-06-16
+1586222,1586222,Fix Released,funtional test gate failure caused by keystone client change.,https://bugs.launchpad.net/python-novaclient/+bug/1586222,2016-06-16
+1569112,1569112,Fix Released,Log API fails when sending a log including a multibyte dimension,https://bugs.launchpad.net/monasca/+bug/1569112,2016-06-16
+1564966,1564966,Fix Released,Previous context doesn't stored on redeploy,https://bugs.launchpad.net/fuel/+bug/1564966,2016-06-16
+1551726,1551726,Fix Released,TestPluginCollection.test_all_newest,https://bugs.launchpad.net/fuel/+bug/1551726,2016-06-16
+1534510,1534510,Fix Committed,Turn on Caching for Heat validation process,https://bugs.launchpad.net/fuel/+bug/1534510,2016-06-16
+1532028,1532028,Fix Released,controller node reports invalid locale,https://bugs.launchpad.net/fuel/+bug/1532028,2016-06-16
+1566974,1566974,Fix Released,LACP bond is in down state after deployment,https://bugs.launchpad.net/fuel/+bug/1566974,2016-06-16
+1529924,1529924,Fix Released,techdebt: fastcgi module should be reconfigured for RadosGW,https://bugs.launchpad.net/fuel/+bug/1529924,2016-06-16

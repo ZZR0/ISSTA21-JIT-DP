@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1703945,1703945,Fix Released,[RFE] Add a flag to always perform persistent boot,https://bugs.launchpad.net/ironic/+bug/1703945,2017-08-22
+1653225,1653225,Fix Released,During a conversion process cinder can overfill a controller root file system,https://bugs.launchpad.net/cinder/+bug/1653225,2017-08-22
+1490406,1490406,Fix Released,grammar/comment description errors,https://bugs.launchpad.net/ironic/+bug/1490406,2017-08-21
+1665697,1665697,Fix Released,"non-existent block device should make deploy fail, not create directory whose name starts with /dev",https://bugs.launchpad.net/puppet-ceph/+bug/1665697,2017-08-21
+1687114,1687114,Fix Released,puppet-ceph does not configure devices like /dev/nvme0n1 as OSDs,https://bugs.launchpad.net/puppet-ceph/+bug/1687114,2017-08-21
+1666174,1666174,Fix Released,Panko dispatcher and publisher should not setup oslo_log again,https://bugs.launchpad.net/panko/+bug/1666174,2017-08-21
+1696613,1696613,Fix Released,Wrong port for Panko API,https://bugs.launchpad.net/panko/+bug/1696613,2017-08-21
+1658656,1658656,Fix Released,"Don't report ""Couldn't obtain IP address"" on non tripleo undercloud instance",https://bugs.launchpad.net/ceilometer/+bug/1658656,2017-08-21
+1664215,1664215,Fix Released,Install and configure for Ubuntu in Installation Guide for Telemetry Data Collection Service,https://bugs.launchpad.net/ceilometer/+bug/1664215,2017-08-21
+1656873,1656873,Fix Released,support declaring exchanges to listen to,https://bugs.launchpad.net/ceilometer/+bug/1656873,2017-08-21
+1666072,1666072,Fix Released,CI / SSL: 504 Gateway Time-out,https://bugs.launchpad.net/ceilometer/+bug/1666072,2017-08-21
+1666072,1666072,Fix Released,CI / SSL: 504 Gateway Time-out,https://bugs.launchpad.net/tripleo/+bug/1666072,2017-08-21
+1667117,1667117,Fix Released,Coordination doesn't work on python3,https://bugs.launchpad.net/ceilometer/+bug/1667117,2017-08-21
+1665348,1665348,Fix Released,Install and configure for Ubuntu in Installation Guide for Telemetry Data Collection Service,https://bugs.launchpad.net/ceilometer/+bug/1665348,2017-08-21
+1670238,1670238,Fix Released,ceilometer should load pipeline config file from /etc/ceilometer firstly,https://bugs.launchpad.net/ceilometer/+bug/1670238,2017-08-21
+1672975,1672975,Fix Released,incorrect gnocchi command in telemetry verification,https://bugs.launchpad.net/ceilometer/+bug/1672975,2017-08-21
+1673798,1673798,Fix Released,Tenacity defined twice in requirements.txt,https://bugs.launchpad.net/ceilometer/+bug/1673798,2017-08-21
+1677091,1677091,Fix Released,Disabled LBaaSv2 members cause errors in logs,https://bugs.launchpad.net/ceilometer/+bug/1677091,2017-08-21
+1421584,1421584,Fix Released,cpu_util  volume won't report right for cpu over commit case,https://bugs.launchpad.net/ceilometer/+bug/1421584,2017-08-21
+1677159,1677159,Fix Released,KeyError: 'cpu.time',https://bugs.launchpad.net/ceilometer/+bug/1677159,2017-08-21
+1678380,1678380,Fix Released,"wrong configuration of ""pipeline_processing_queues"" in devstack pulugin",https://bugs.launchpad.net/ceilometer/+bug/1678380,2017-08-21
+1680657,1680657,Fix Released,wrong arguments amount when compute pollster calling not implemented inspect methods,https://bugs.launchpad.net/ceilometer/+bug/1680657,2017-08-21
+1687641,1687641,Fix Released,"[ceilometer][master] DistributionNotFound: No matching distribution found for SQLAlchemy<1.1.0,>=1.0.10 (from ceilometer)",https://bugs.launchpad.net/openstack-ansible/+bug/1687641,2017-08-21
+1479775,1479775,Fix Released,support loading multiple meter definition files,https://bugs.launchpad.net/ceilometer/+bug/1479775,2017-08-21
+1693846,1693846,Fix Released,Nova compute_monitors aren't handled by Ceilometer,https://bugs.launchpad.net/ceilometer/+bug/1693846,2017-08-21
+1696571,1696571,Fix Released,document how to add gnocchi resources,https://bugs.launchpad.net/ceilometer/+bug/1696571,2017-08-21
+1696199,1696199,Fix Released,polling error discovering image resources,https://bugs.launchpad.net/ceilometer/+bug/1696199,2017-08-21
+1527620,1527620,Fix Released,ceilometer cpu_util over 100%,https://bugs.launchpad.net/ceilometer/+bug/1527620,2017-08-21
+1700447,1700447,Fix Released,UnicodeDecodeError  in  function poll_and_notify,https://bugs.launchpad.net/ceilometer/+bug/1700447,2017-08-21
+1703299,1703299,Fix Released,"""test_versions.py"" is functional test but under ""unit"" directory",https://bugs.launchpad.net/ceilometer/+bug/1703299,2017-08-21
+1369428,1369428,Fix Released,The network statistics api should accepts samples returning project_id,https://bugs.launchpad.net/ceilometer/+bug/1369428,2017-08-21
+1705233,1705233,Fix Released,RGW polling uses the wrong region,https://bugs.launchpad.net/ceilometer/+bug/1705233,2017-08-21
+1706156,1706156,Fix Released,ceilometer has no configuration or installation guide,https://bugs.launchpad.net/ceilometer/+bug/1706156,2017-08-21
+1700464,1700464,Fix Released,Ceilometer neutron_client.py error for method list_members_v2,https://bugs.launchpad.net/ceilometer/+bug/1700464,2017-08-21
+1649947,1649947,Fix Released,deprecate kafka publisher,https://bugs.launchpad.net/ceilometer/+bug/1649947,2017-08-21
+1639114,1639114,Fix Released,RateOfChange data is negative,https://bugs.launchpad.net/ceilometer/+bug/1639114,2017-08-21
+1706440,1706440,Fix Released,Gnocchi fails to create manila.share.size metric,https://bugs.launchpad.net/ceilometer/+bug/1706440,2017-08-21
+1483564,1483564,Fix Released,timestamp format of the sample datas,https://bugs.launchpad.net/ceilometer/+bug/1483564,2017-08-21
+1662469,1662469,Fix Released,Avoiding duplication of service available group in tempest plugin,https://bugs.launchpad.net/aodh/+bug/1662469,2017-08-21
+1665823,1665823,Fix Released,"there are 40 warnings when executing ""tox -e docs""",https://bugs.launchpad.net/aodh/+bug/1665823,2017-08-21
+1702476,1702476,Fix Released,tox -egenconfig is broken,https://bugs.launchpad.net/aodh/+bug/1702476,2017-08-21
+1704251,1704251,Fix Released,3 commands in doc/source/admin/telemetry-alarms.rst can not work,https://bugs.launchpad.net/aodh/+bug/1704251,2017-08-21
+1706155,1706155,Fix Released,aodh has no configuration guide,https://bugs.launchpad.net/aodh/+bug/1706155,2017-08-21
+1709241,1709241,Fix Released,"typo input in ""aodh alarm create"" for param ""--name""",https://bugs.launchpad.net/aodh/+bug/1709241,2017-08-21
+1683833,1683833,Fix Released,Upon kubernetes service delete load balancer delete is not working,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1683833,2017-08-21
+1685799,1685799,Fix Released,Devstack fails to complete when trying to delete /var/run/docker.pid,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1685799,2017-08-21
+1688346,1688346,Fix Released,Add absolute path to docker in run_container,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1688346,2017-08-21
+1688300,1688300,Fix Released,"Since migrating to systemd, docker service doesn't work due to bad unit file",https://bugs.launchpad.net/devstack/+bug/1688300,2017-08-21
+1688300,1688300,Fix Released,"Since migrating to systemd, docker service doesn't work due to bad unit file",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1688300,2017-08-21
+1691103,1691103,Fix Released,upgrade devstack to latest stable hyperkube version,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1691103,2017-08-21
+1690751,1690751,Fix Released,"tox -e cover fails with ""db type could not be determined""",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1690751,2017-08-21
+1677155,1677155,Fix Released,get error RequiredOptError: value required for option service_subnet in group [neutron_defaults],https://bugs.launchpad.net/kuryr-kubernetes/+bug/1677155,2017-08-21
+1693378,1693378,Fix Released,baremetal devstack kubelet can't do network probes to pods,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1693378,2017-08-21
+1693323,1693323,Fix Released,Devstack breaks when stacking an older openstack or when USE_SCREEN is enabled,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1693323,2017-08-21
+1694915,1694915,Fix Released,devstack: overcloud sample should not be trying to bind an ovs interface,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1694915,2017-08-21
+1697608,1697608,Fix Released,macvlan mode get stuck when request_vif,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1697608,2017-08-21
+1693140,1693140,Fix Released,[devstack] Stopping kuryr-k8s raises exception in watcher.py,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1693140,2017-08-21
+1698731,1698731,Fix Released,Could not connect to openstack Services (using Vagrant),https://bugs.launchpad.net/kuryr-kubernetes/+bug/1698731,2017-08-21
+1699917,1699917,Fix Released,ETCD_PORT isn't set when using legacy_etcd,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1699917,2017-08-21
+1697942,1697942,Fix Released,Endpoint-less Services keep the lbaasspec handler endlessly retrying,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1697942,2017-08-21
+1705028,1705028,Fix Released,Systemd commands for kubernetes resources have invalid exec commands,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1705028,2017-08-21
+1707009,1707009,Fix Released,devstack host can't probe pods,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1707009,2017-08-21
+1697279,1697279,Fix Released,devstack fail when create_k8s_router_fake_service in overcloud,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1697279,2017-08-21
+1706576,1706576,Fix Released,devstack does not support multi node scenario,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1706576,2017-08-21
+1707180,1707180,Fix Released,Octavia load balancers fail to load balance services,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1707180,2017-08-21
+1641216,1641216,Fix Released,Sporatic test failure when ETag happens to be Integer,https://bugs.launchpad.net/swift/+bug/1641216,2017-08-21
+1707595,1707595,Fix Released,swift-init fails with TypeError: reduce() of empty sequence with no initial value,https://bugs.launchpad.net/swift/+bug/1707595,2017-08-21
+1639755,1639755,Fix Released,Random unit test inputs are not random across test runs,https://bugs.launchpad.net/swift/+bug/1639755,2017-08-21
+1675776,1675776,Fix Released,proxy.controllers.base.headers_to_account_info() should include per policy stats,https://bugs.launchpad.net/swift/+bug/1675776,2017-08-21
+1710924,1710924,Fix Released,test_GET_with_missing_and_mixed_frags_will_dig_deep_but_stop fails intermittently,https://bugs.launchpad.net/swift/+bug/1710924,2017-08-21
+1709930,1709930,Fix Released,Inconsistencies in endpoint definitions,https://bugs.launchpad.net/swift/+bug/1709930,2017-08-21
+1710951,1710951,Fix Released,test_GET_with_duplicate_but_sufficient_frag_indexes occasionally fails,https://bugs.launchpad.net/swift/+bug/1710951,2017-08-21
+1620617,1620617,Fix Released,Make sure validations work with composable roles,https://bugs.launchpad.net/tripleo/+bug/1620617,2017-08-21
+1711913,1711913,Fix Released,CI: OVB cloud doesn't provide stacks for jobs,https://bugs.launchpad.net/tripleo/+bug/1711913,2017-08-21
+1711389,1711389,Fix Released,VMAX Driver - Ocata documentation refers to Generic Volume Group,https://bugs.launchpad.net/openstack-manuals/+bug/1711389,2017-08-21

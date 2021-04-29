@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1518454,1518454,Fix Released,Enable udev in cinder container,https://bugs.launchpad.net/kolla/+bug/1518454,2015-11-25
+1487780,1487780,Fix Released,/dev needs to be bindmounted into cinder,https://bugs.launchpad.net/kolla/+bug/1487780,2015-11-25
+1487807,1487807,Fix Released,Disable udev and lvm integration,https://bugs.launchpad.net/kolla/+bug/1487807,2015-11-25
+1518641,1518641,Fix Released,Path to partitioned block device is hard coded in test_setup,https://bugs.launchpad.net/kolla/+bug/1518641,2015-11-25
+1519167,1519167,Fix Committed,test_shell_args.py is redundant,https://bugs.launchpad.net/python-magnumclient/+bug/1519167,2015-11-24
+1512341,1512341,Fix Committed,unable to launch more than one containers,https://bugs.launchpad.net/kuryr/+bug/1512341,2015-11-24
+1405422,1405422,Fix Released,Cinderclient should be more informative when trying to create volume of different type out of a snapshot,https://bugs.launchpad.net/python-cinderclient/+bug/1405422,2015-11-24
+1288818,1288818,Fix Released,Cinder uses the old policy engine,https://bugs.launchpad.net/cinder/+bug/1288818,2015-11-24
+1464026,1464026,Fix Released,Enhance error message shown to a user when he/she is run out of quota,https://bugs.launchpad.net/cinder/+bug/1464026,2015-11-24
+1388714,1388714,Fix Released,cinder api don't throw out appropriate exception  when deleting volume detached or with snapshot,https://bugs.launchpad.net/cinder/+bug/1388714,2015-11-24
+1268513,1268513,Fix Released,"Can not translate special char ""&"" in XML function create_volume_metadata volumes_client.py",https://bugs.launchpad.net/cinder/+bug/1268513,2015-11-24
+1268513,1268513,Fix Released,"Can not translate special char ""&"" in XML function create_volume_metadata volumes_client.py",https://bugs.launchpad.net/tempest/+bug/1268513,2015-11-24
+1368910,1368910,Fix Released,intersphinx requires network access  which sometimes fails,https://bugs.launchpad.net/cinder/+bug/1368910,2015-11-24
+1368910,1368910,Fix Released,intersphinx requires network access  which sometimes fails,https://bugs.launchpad.net/nova/+bug/1368910,2015-11-24
+1368910,1368910,Fix Released,intersphinx requires network access  which sometimes fails,https://bugs.launchpad.net/magnetodb/+bug/1368910,2015-11-24
+1368910,1368910,Fix Released,intersphinx requires network access  which sometimes fails,https://bugs.launchpad.net/python-manilaclient/+bug/1368910,2015-11-24
+1368910,1368910,Fix Released,intersphinx requires network access  which sometimes fails,https://bugs.launchpad.net/manila/+bug/1368910,2015-11-24
+1384423,1384423,Fix Released,"check-heat-dsvm-functional fails with ""StackBuildErrorException: Stack VolumeBackupRestoreIntegrationTest-1161201394/7c711e8d-84ba-4363-ab8e-3afa1d6e1dc6 is in CREATE_FAILED status due to 'Resource CREATE failed: WaitConditionFailure: Test Failed'""",https://bugs.launchpad.net/heat/+bug/1384423,2015-11-24
+1260679,1260679,Fix Released,Multiple drivers set insecure file permissions,https://bugs.launchpad.net/cinder/+bug/1260679,2015-11-24
+1496307,1496307,Fix Released,Execution of '/sbin/ip --force route delete default via 10.20.0.2 dev eth0' returned 2: RTNETLINK answers: No such process,https://bugs.launchpad.net/fuel/+bug/1496307,2015-11-24
+1490458,1490458,Fix Released,[Upstream training] Update the Technical Committee (TC) screenshot,https://bugs.launchpad.net/openstack-training-guides/+bug/1490458,2015-11-24
+1467994,1467994,Fix Released,"Install and configure in OpenStack Installation Guide for Red Hat Enterprise Linux 7, CentOS 7, and Fedora 21  - kilo",https://bugs.launchpad.net/openstack-manuals/+bug/1467994,2015-11-24
+1509885,1509885,Fix Released,alarming test fail with ceilometer & aodh installed,https://bugs.launchpad.net/tempest/+bug/1509885,2015-11-24
+1324270,1324270,Fix Released,Creating an Image hangs the UI with no progress indicator or spinner,https://bugs.launchpad.net/horizon/+bug/1324270,2015-11-24
+1446257,1446257,Fix Released,Core openstack services without Zabbix triggers,https://bugs.launchpad.net/fuel/+bug/1446257,2015-11-24
+1519199,1519199,Fix Committed,Typo in help message in '--name' of baymodel-create,https://bugs.launchpad.net/python-magnumclient/+bug/1519199,2015-11-24
+1483404,1483404,Fix Released,500 on invalid body on a POST /pools,https://bugs.launchpad.net/designate/+bug/1483404,2015-11-24
+1487934,1487934,Fix Released,500 error returned in List Records in a Domain,https://bugs.launchpad.net/designate/+bug/1487934,2015-11-24
+1494388,1494388,Fix Released,Designate pdns db upgrade needs to set up masters,https://bugs.launchpad.net/designate/+bug/1494388,2015-11-24
+1498572,1498572,Fix Released,_is_valid_recordset_name incorrectly flags some RRSet names as valid,https://bugs.launchpad.net/designate/+bug/1498572,2015-11-24
+1486743,1486743,Fix Released,v2 API allows CNAME RRSets with multiple Records,https://bugs.launchpad.net/designate/+bug/1486743,2015-11-24
+1494799,1494799,Fix Released,500 on listing zones/recordsets with limit=MAX,https://bugs.launchpad.net/designate/+bug/1494799,2015-11-24
+1177579,1177579,Fix Released,deletion of token for client causes failure,https://bugs.launchpad.net/nova/+bug/1177579,2015-11-24
+1250580,1250580,Fix Released,Excessive calls to keystone from neutron glue code,https://bugs.launchpad.net/nova/+bug/1250580,2015-11-24
+1424462,1424462,Fix Released,Nova/Neutron v3 authentication,https://bugs.launchpad.net/nova/+bug/1424462,2015-11-24
+1312246,1312246,Fix Released,cfntools command injection,https://bugs.launchpad.net/heat-cfntools/+bug/1312246,2015-11-24
+1463157,1463157,Fix Released,karma's jasmine version should match xstatic,https://bugs.launchpad.net/horizon/+bug/1463157,2015-11-24
+1517844,1517844,Fix Released,Fuel Master host logs are missing,https://bugs.launchpad.net/fuel/+bug/1517844,2015-11-24
+1507816,1507816,Fix Released,Fix method name in Intergration tests for Instance tests,https://bugs.launchpad.net/horizon/+bug/1507816,2015-11-24
+1516729,1516729,Fix Released,Glance with filesystem backend not storing images in glance_data,https://bugs.launchpad.net/kolla/+bug/1516729,2015-11-24
+1250740,1250740,Fix Released,Horizon doesn't support filtering images on Admin Panel,https://bugs.launchpad.net/horizon/+bug/1250740,2015-11-24
+1519040,1519040,Fix Released,The database user variable is incorrect,https://bugs.launchpad.net/kolla/+bug/1519040,2015-11-24
+1514304,1514304,Fix Released,Docker MAINTAINER is hardcoded as Kolla,https://bugs.launchpad.net/kolla/+bug/1514304,2015-11-24
+1513175,1513175,Fix Released,build command does not handle wrong build type,https://bugs.launchpad.net/kolla/+bug/1513175,2015-11-24
+1512535,1512535,Fix Released,Automate setting up a cache tier,https://bugs.launchpad.net/kolla/+bug/1512535,2015-11-24
+1276696,1276696,Fix Released,when flavor is too small the error is not clear,https://bugs.launchpad.net/horizon/+bug/1276696,2015-11-24
+1263142,1263142,Fix Released,"previous button not present using limit, marker variables",https://bugs.launchpad.net/horizon/+bug/1263142,2015-11-24
+1518965,1518965,Fix Released,[fuel-product-ci] The 8.0.all job doesn't trigger external events,https://bugs.launchpad.net/fuel/+bug/1518965,2015-11-24
+1252785,1252785,Fix Released,Horizon crashes when deleting logged user primary project,https://bugs.launchpad.net/horizon/+bug/1252785,2015-11-24
+1372661,1372661,Fix Released,Filter doesn't keep pagination in bounds on Admin->Images,https://bugs.launchpad.net/horizon/+bug/1372661,2015-11-24
+1380965,1380965,Fix Released,Floating IPs don't have instance ids in Juno,https://bugs.launchpad.net/nova/+bug/1380965,2015-11-24
+1513439,1513439,Fix Released,bootstrap process can happen on the wrong node,https://bugs.launchpad.net/kolla/+bug/1513439,2015-11-24
+1384666,1384666,Fix Released,Selenium tests fail if run with '--with-selenium' switch,https://bugs.launchpad.net/horizon/+bug/1384666,2015-11-24
+1098047,1098047,Fix Released,memoized will eventually fill up all of memory,https://bugs.launchpad.net/horizon/+bug/1098047,2015-11-24
+1507593,1507593,Fix Released,Not appropriate disabled cursor style on Healthcheck tab,https://bugs.launchpad.net/fuel/+bug/1507593,2015-11-24
+1519283,1519283,Fix Released,Please provide access to fuel-infra.org,https://bugs.launchpad.net/fuel/+bug/1519283,2015-11-24
+1517388,1517388,Fix Released,Improve pacemaker configuration to react on events better,https://bugs.launchpad.net/fuel/+bug/1517388,2015-11-24
+1516988,1516988,Fix Released,Create a Fuel Plugin fuel-plugin-debug project in /Openstack.,https://bugs.launchpad.net/fuel/+bug/1516988,2015-11-24
+1512230,1512230,Fix Released,Create a Fuel Plugin hedvig in /Openstack.,https://bugs.launchpad.net/fuel/+bug/1512230,2015-11-24
+1307495,1307495,Fix Committed,[devops] Recheck no bug doesn't retrigger Fuel CI,https://bugs.launchpad.net/fuel/+bug/1307495,2015-11-24
+1460907,1460907,Fix Released,Tech Debt: Add additional parameters to magnum container-create that would allow for the creation of a container without a JSON or YAML input file,https://bugs.launchpad.net/magnum/+bug/1460907,2015-11-24
+1494645,1494645,Fix Released,local_cert_manager raises exception,https://bugs.launchpad.net/magnum/+bug/1494645,2015-11-24
+1478890,1478890,Fix Released,Some parameter in heat template should be string,https://bugs.launchpad.net/magnum/+bug/1478890,2015-11-24
+1478461,1478461,Fix Released,glance_client_opts is not registered,https://bugs.launchpad.net/magnum/+bug/1478461,2015-11-24
+1477833,1477833,Fix Released,TemplateDefinition test case is complicated,https://bugs.launchpad.net/magnum/+bug/1477833,2015-11-24
+1475490,1475490,Fix Released,unused file in kubernetes template,https://bugs.launchpad.net/magnum/+bug/1475490,2015-11-24
+1465572,1465572,Fix Released,Make quickstart more consitent,https://bugs.launchpad.net/magnum/+bug/1465572,2015-11-24
+1464736,1464736,Fix Released,watch in_progress status of bay when bay_conductor bootup,https://bugs.launchpad.net/magnum/+bug/1464736,2015-11-24
+1464441,1464441,Fix Released,API Version object is not fully tested,https://bugs.launchpad.net/magnum/+bug/1464441,2015-11-24
+1464109,1464109,Fix Released,cloud driver is not needed,https://bugs.launchpad.net/magnum/+bug/1464109,2015-11-24
+1458691,1458691,Fix Released,all requirements should be alphabetical,https://bugs.launchpad.net/magnum/+bug/1458691,2015-11-24
+1495814,1495814,Fix Released,Cryptography only allow str as csr,https://bugs.launchpad.net/magnum/+bug/1495814,2015-11-24
+1495811,1495811,Fix Released,Failing retrieving and deleting cert from barbican,https://bugs.launchpad.net/magnum/+bug/1495811,2015-11-24
+1467345,1467345,Fix Released,ImportError on pod-create,https://bugs.launchpad.net/magnum/+bug/1467345,2015-11-24
+1464689,1464689,Fix Released,Update quickstart to point to kubernetes 0.15 and v1beta3 manifests,https://bugs.launchpad.net/magnum/+bug/1464689,2015-11-24

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1900142,1900142,Fix Released,Copying over custom fluentd input files can fail due to permissions,https://bugs.launchpad.net/kolla-ansible/+bug/1900142,2020-10-19
+1894136,1894136,Fix Released,[OVN Octavia Provider] OVN provider fails during listener delete,https://bugs.launchpad.net/neutron/+bug/1894136,2020-10-19
+1896621,1896621,Fix Released,instance corrupted after volume retype,https://bugs.launchpad.net/nova/+bug/1896621,2020-10-19
+1899284,1899284,Fix Released,[DOCS] Deprecated  lbaasv2 haproxy docs was not removed,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1899284,2020-10-19
+1851248,1851248,Fix Released,bootstrap-aio fails with 'dict object' has no attribute 'interface',https://bugs.launchpad.net/openstack-ansible/+bug/1851248,2020-10-17
+1899170,1899170,Fix Released,"centos8 stream: building gnocchi-base conatiner fails ""package python3-rados-2:14.2.11-1.el8.x86_64 requires librados2 = 2:14.2.11-1.el8, but none of the providers can be installed""",https://bugs.launchpad.net/tripleo/+bug/1899170,2020-10-17
+1882548,1882548,Fix Released,Add check to make sure parameters like CephClusterFSID don't change on a stack update,https://bugs.launchpad.net/tripleo/+bug/1882548,2020-10-16
+1900071,1900071,Fix Released,Grammar errors in Tools in Documentation Contributor Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1900071,2020-10-16
+1895759,1895759,Fix Released,Profile update with new security group fails with multiple network error,https://bugs.launchpad.net/senlin/+bug/1895759,2020-10-16
+1873736,1873736,Fix Released,Opening TLS causes SSLError,https://bugs.launchpad.net/masakari-monitors/+bug/1873736,2020-10-16
+1873736,1873736,Fix Released,Opening TLS causes SSLError,https://bugs.launchpad.net/masakari/+bug/1873736,2020-10-16
+1873736,1873736,Fix Released,Opening TLS causes SSLError,https://bugs.launchpad.net/masakari-dashboard/+bug/1873736,2020-10-16
+1866375,1866375,Fix Released,doc: Unit Tests in python-cinderclient,https://bugs.launchpad.net/python-cinderclient/+bug/1866375,2020-10-15
+1892341,1892341,Fix Committed,Failed to clear the /var/log/kolla directory when executing destroy using non-root,https://bugs.launchpad.net/kolla-ansible/+bug/1892341,2020-10-15
+1890439,1890439,Fix Released,glance-tls-proxy log rotate is enabled when glance-tls-proxy is not,https://bugs.launchpad.net/kolla-ansible/+bug/1890439,2020-10-15
+1744670,1744670,Fix Released,In pike ssl deployment horizon cnt retrieve volumes/snapshots and service data via cinderclient,https://bugs.launchpad.net/horizon/+bug/1744670,2020-10-15
+1744670,1744670,Fix Released,In pike ssl deployment horizon cnt retrieve volumes/snapshots and service data via cinderclient,https://bugs.launchpad.net/python-cinderclient/+bug/1744670,2020-10-15
+1862240,1862240,Fix Released,Replace Tempest tox deprecated 'all-plugin' env to 'all'  env,https://bugs.launchpad.net/designate/+bug/1862240,2020-10-15
+1899057,1899057,Fix Released,Upgrade fails as it cannot pull image,https://bugs.launchpad.net/tripleo/+bug/1899057,2020-10-15
+1776668,1776668,Fix Released,"the placement version discovery doc at / does't have a status field, it should",https://bugs.launchpad.net/nova/+bug/1776668,2020-10-15
+1896470,1896470,Fix Released,OVN migration infrared plugin does not remove ML2OVS-specific templates,https://bugs.launchpad.net/neutron/+bug/1896470,2020-10-14
+1811516,1811516,Fix Released,functional tests fail when run under python3,https://bugs.launchpad.net/python-manilaclient/+bug/1811516,2020-10-14
+1811627,1811627,Fix Released,functional test utf-encode-decode issues with python3,https://bugs.launchpad.net/python-manilaclient/+bug/1811627,2020-10-14
+1899013,1899013,Fix Released,[DOCS] Wrong handlers are defined on Kuryr docs,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1899013,2020-10-14
+1874330,1874330,Fix Released,ansible task tripleo_host_entries fails,https://bugs.launchpad.net/tripleo/+bug/1874330,2020-10-14
+1889765,1889765,Fix Released,Notification processing failure causes notifications to get stuck,https://bugs.launchpad.net/masakari/+bug/1889765,2020-10-14
+1899725,1899725,Fix Released,Grammar errors in Profiling in Documentation Contributor Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1899725,2020-10-14
+1896518,1896518,Fix Released,Access logging status code rewrites hide on-the-wire HTTP status code,https://bugs.launchpad.net/swift/+bug/1896518,2020-10-14
+1881219,1881219,Fix Released,Unable to store multiple deployment flavours of VNFD in DB,https://bugs.launchpad.net/tacker/+bug/1881219,2020-10-13
+1883350,1883350,Fix Released,tacker-server 2.0.0 (train) fails with python3,https://bugs.launchpad.net/tacker/+bug/1883350,2020-10-13
+1899627,1899627,Fix Released,"fs035 jobs are failing in master to deploy the overcloud - ""AnsibleUndefinedVariable: 'external_gateway_ip'",https://bugs.launchpad.net/tripleo/+bug/1899627,2020-10-13
+1763336,1763336,Fix Released,stale tempest config remains in the workspace after re-running os_tempest role,https://bugs.launchpad.net/openstack-ansible/+bug/1763336,2020-10-13
+1759552,1759552,Fix Committed,Pike: 16.0.9 fresh install builds a non-functional Glance,https://bugs.launchpad.net/openstack-ansible/+bug/1759552,2020-10-13
+1813300,1813300,Fix Released,NFS mount point for Glance is created with wrong permissions,https://bugs.launchpad.net/openstack-ansible/+bug/1813300,2020-10-13
+1899266,1899266,Fix Released,Token verification should use internal endpoint instead of admin endpoint,https://bugs.launchpad.net/tripleo/+bug/1899266,2020-10-13
+1773793,1773793,Fix Released,User Guide in OpenStack-Ansible has wrong IP address for haproxy_keepalived_internal_vip_cidr,https://bugs.launchpad.net/openstack-ansible/+bug/1773793,2020-10-13
+1898931,1898931,Fix Released,"periodic-tripleo-ci-centos-8-scenario003-standalone-master is failing standalone deploy ""Service mistral_executor has not started yet""",https://bugs.launchpad.net/tripleo/+bug/1898931,2020-10-13
+1896920,1896920,Fix Released,Unnecessary error log when checking if a device is ready,https://bugs.launchpad.net/neutron/+bug/1896920,2020-10-12
+1896603,1896603,Fix Released,ovn-octavia-provider: Cannot create listener due to alowed_cidrs validation,https://bugs.launchpad.net/neutron/+bug/1896603,2020-10-12
+1895955,1895955,Fix Committed,Nimble multi-attach bad format change,https://bugs.launchpad.net/cinder/+bug/1895955,2020-10-12
+1896678,1896678,Fix Released,[OVN Octavia Provider] test_port_forwarding failing in gate,https://bugs.launchpad.net/neutron/+bug/1896678,2020-10-12
+1717940,1717940,Fix Released,Manila pool-list -column reports nothing for capabilities,https://bugs.launchpad.net/python-manilaclient/+bug/1717940,2020-10-12
+1894520,1894520,Fix Released,Subscription is always unconfirmed,https://bugs.launchpad.net/zaqar/+bug/1894520,2020-10-12
+1898924,1898924,Fix Released,Share replica update operation doesn't provide share-server model,https://bugs.launchpad.net/manila/+bug/1898924,2020-10-12
+1899008,1899008,Fix Released,Unable to introspect nodes via DHCPv6 relay,https://bugs.launchpad.net/tripleo/+bug/1899008,2020-10-10
+1877408,1877408,Fix Released,Implement FIP QoS in OVN backend,https://bugs.launchpad.net/neutron/+bug/1877408,2020-10-10
+1896587,1896587,Fix Released,iptables firewall driver don't drops invalid packets which match some SG rule,https://bugs.launchpad.net/neutron/+bug/1896587,2020-10-09
+1885528,1885528,Fix Released,snapshot delete fails on shutdown VM,https://bugs.launchpad.net/nova/+bug/1885528,2020-10-09
+1899054,1899054,Fix Released,openstack-tox-molecule is failing the gate - 'module' object has no attribute 'which',https://bugs.launchpad.net/tripleo/+bug/1899054,2020-10-09
+1898120,1898120,Fix Released,"centos8 stream:   Deploy the content provider registry fails with ""Error: error configuring network namespace for container : Missing CNI default network""",https://bugs.launchpad.net/tripleo/+bug/1898120,2020-10-09
+1889510,1889510,Fix Released,Error: in /etc/cni/net.d/87-podman-bridge.conflist: error parsing configuration list: unexpected end of JSON input,https://bugs.launchpad.net/tripleo/+bug/1889510,2020-10-09
+1889779,1889779,Fix Released,Functional tests neutron.tests.functional.agent.linux.test_linuxbridge_arp_protect failing on Ubuntu 20.04,https://bugs.launchpad.net/neutron/+bug/1889779,2020-10-09
+1893965,1893965,Fix Released,openstack-tox-py36-with-ovsdbapp-master periodic job is failing everyday since 28.08.2020,https://bugs.launchpad.net/neutron/+bug/1893965,2020-10-09
+1890353,1890353,Fix Released,support pyroute2 0.5.13,https://bugs.launchpad.net/os-vif/+bug/1890353,2020-10-09
+1890353,1890353,Fix Released,support pyroute2 0.5.13,https://bugs.launchpad.net/neutron/+bug/1890353,2020-10-09
+1887148,1887148,Fix Released,Network loop between physical networks with DVR,https://bugs.launchpad.net/neutron/+bug/1887148,2020-10-09
+1870569,1870569,Fix Released,Unable to create network without default network_segment_range,https://bugs.launchpad.net/neutron/+bug/1870569,2020-10-09
+1876094,1876094,Fix Released,Dnsmasq 2.81 broke neutron's DHCP service,https://bugs.launchpad.net/neutron/+bug/1876094,2020-10-09
+1897423,1897423,Fix Released,[L3] Let agent extension do delete router first,https://bugs.launchpad.net/neutron/+bug/1897423,2020-10-09
+1887099,1887099,Fix Released,Invalid metadefs for watchdog,https://bugs.launchpad.net/glance/+bug/1887099,2020-10-09
+1859406,1859406,Fix Released,not wait when instance evacuate error,https://bugs.launchpad.net/masakari/+bug/1859406,2020-10-09
+1782647,1782647,Fix Released,py3.7 deadlock in threading,https://bugs.launchpad.net/designate/+bug/1782647,2020-10-08
+1897265,1897265,Fix Released,Need an heat parameter to mount optional volumes on nova_libvirt containers -NovaLibvirtOptVolumes,https://bugs.launchpad.net/tripleo/+bug/1897265,2020-10-08
+1897391,1897391,Fix Released,"[DOCS] Steps on Kuryr docs expects a Deployment to be created, but a Pod is created instead",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1897391,2020-10-08
+1888799,1888799,Fix Released,Redis fails to start due to permission denied,https://bugs.launchpad.net/tripleo/+bug/1888799,2020-10-08
+1898211,1898211,Fix Released,OVN scenario jobs are failing on Ubuntu Focal due to ebtables-nft used by default,https://bugs.launchpad.net/neutron/+bug/1898211,2020-10-08
+1888828,1888828,Fix Released,[FT] TestMaintenance.test_port failing,https://bugs.launchpad.net/neutron/+bug/1888828,2020-10-08
+1887385,1887385,Fix Released,String to byte conversion should provide the encoding type,https://bugs.launchpad.net/neutron/+bug/1887385,2020-10-08
+1896827,1896827,Fix Released,port update api should not lose foreign external_ids,https://bugs.launchpad.net/neutron/+bug/1896827,2020-10-08
+1896766,1896766,Fix Released,OVN jobs failing due to failed OVS compilation,https://bugs.launchpad.net/neutron/+bug/1896766,2020-10-08
+1898818,1898818,Fix Released,Package upload is failed,https://bugs.launchpad.net/tacker/+bug/1898818,2020-10-08
+1898851,1898851,Fix Released,"Stderr: 'error building at STEP ""RUN dnf -y install iputils openstack-tempest-all && dnf clean all && rm -rf /var/cache/dnf"": error while running runtime: exit status 1\n' failing on  build-containers-ubi-8-push-victoria",https://bugs.launchpad.net/tripleo/+bug/1898851,2020-10-08
+1895830,1895830,Fix Released,Multi BaseHOT VNF cannot be instantiated,https://bugs.launchpad.net/tacker/+bug/1895830,2020-10-08
+1897827,1897827,Fix Released,functional test failure (test_list_vnf_instances) when request header 'Version' is  not set,https://bugs.launchpad.net/tacker/+bug/1897827,2020-10-08
+1897926,1897926,Fix Released,HPMSA driver fails using deprecated syntax with newest firmware,https://bugs.launchpad.net/cinder/+bug/1897926,2020-10-07

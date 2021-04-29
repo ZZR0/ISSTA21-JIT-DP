@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1671359,1671359,Fix Committed,AttributeError raised by mogan,https://bugs.launchpad.net/mogan/+bug/1671359,2017-06-09
+1526570,1526570,Fix Released,Swift MemcacheConnPool does not support IPv6,https://bugs.launchpad.net/swift/+bug/1526570,2017-06-09
+1696726,1696726,Fix Released,[CI] O->P containers upgrade fails with package install dependency issues,https://bugs.launchpad.net/tripleo/+bug/1696726,2017-06-09
+1694958,1694958,Fix Released,Containerized libvirtd does not run with --listen when TLS is enabled,https://bugs.launchpad.net/tripleo/+bug/1694958,2017-06-09
+1674280,1674280,Fix Released,Correct the dpdk bond configuration (vlan port is not supported on netdev),https://bugs.launchpad.net/tripleo/+bug/1674280,2017-06-09
+1689370,1689370,Fix Released,using ubuntu cloud archive gets a version of libvirtd which doesn't do nested virtualization,https://bugs.launchpad.net/devstack/+bug/1689370,2017-06-09
+1655205,1655205,Fix Committed,api-ref:Typo and inconsistency in api docs,https://bugs.launchpad.net/mogan/+bug/1655205,2017-06-09
+1652906,1652906,Fix Committed,Import the _ of i18n,https://bugs.launchpad.net/mogan/+bug/1652906,2017-06-09
+1650462,1650462,Fix Committed,AttributeError will be raise when list available zones,https://bugs.launchpad.net/mogan/+bug/1650462,2017-06-09
+1654046,1654046,Fix Released,introspection fails with certain switches - carrier detection takes longer than expected,https://bugs.launchpad.net/tripleo/+bug/1654046,2017-06-09
+1684028,1684028,Fix Released,wrong status codes for v3-ext oauth1 create request token and create access token,https://bugs.launchpad.net/keystone/+bug/1684028,2017-06-08
+1685634,1685634,Fix Released,Correct oauth create_request_token documentation,https://bugs.launchpad.net/keystone/+bug/1685634,2017-06-08
+1686015,1686015,Fix Released,Add missing response examples for keystone OS-OAUTH1 API documentation,https://bugs.launchpad.net/keystone/+bug/1686015,2017-06-08
+1687115,1687115,Fix Released,LDAPServerConnectionError gives out too much info,https://bugs.launchpad.net/keystone/+bug/1687115,2017-06-08
+1669844,1669844,Fix Released,Host failure shortly after image download can result in data corruption,https://bugs.launchpad.net/nova/+bug/1669844,2017-06-08
+1682845,1682845,Fix Released,nova's server group API returns deleted instances as members,https://bugs.launchpad.net/nova/+bug/1682845,2017-06-08
+1683272,1683272,Fix Released,Error spelling “paramenter”,https://bugs.launchpad.net/nova/+bug/1683272,2017-06-08
+1682693,1682693,Fix Released,tags and not-tags cannot work properly,https://bugs.launchpad.net/nova/+bug/1682693,2017-06-08
+1683264,1683264,Fix Released,api-ref: wrong response code and parameters in servers-action-evacuate.inc,https://bugs.launchpad.net/nova/+bug/1683264,2017-06-08
+1680918,1680918,Fix Released,Nova upgrade fails if PCI devices of type-PF or type-PCI are present in the database,https://bugs.launchpad.net/nova/+bug/1680918,2017-06-08
+1673869,1673869,Fix Released,api-ref: os-pci API is not documented at all,https://bugs.launchpad.net/nova/+bug/1673869,2017-06-08
+1426241,1426241,Fix Released,pci plugin needs to be re-enabled for V2 microversions,https://bugs.launchpad.net/nova/+bug/1426241,2017-06-08
+1683953,1683953,Fix Released,IronicDriverConsoleTestCase.test__get_node_console_with_reset_wait_timeout intermittently fails since 4/18,https://bugs.launchpad.net/nova/+bug/1683953,2017-06-08
+1681843,1681843,Fix Released,"Nova-placement returns ""ValueError: invalid literal for int() with base 10: ''""",https://bugs.launchpad.net/nova/+bug/1681843,2017-06-08
+1685977,1685977,Fix Released,api-ref: wrong description for 'flavorRef' parameter in Create Server API,https://bugs.launchpad.net/nova/+bug/1685977,2017-06-08
+1679314,1679314,Fix Released,createBackup docs don't mention it doesn't work with volume-backed instances,https://bugs.launchpad.net/nova/+bug/1679314,2017-06-08
+1679285,1679285,Fix Released,Create Server Snapshot returns incorrect Image Location,https://bugs.launchpad.net/nova/+bug/1679285,2017-06-08
+1686917,1686917,Fix Released,api-ref: unnecessary description in servers-admin-action.inc,https://bugs.launchpad.net/nova/+bug/1686917,2017-06-08
+1687511,1687511,Fix Released,"live migration job blowing up with ""InvalidSharedStorage: ubuntu-xenial-2-node-osic-cloud1-s3500-8668392-565309 is not on shared storage: Live migration can not be used without shared storage except a booted from volume VM which does not have a local disk.""",https://bugs.launchpad.net/nova/+bug/1687511,2017-06-08
+1687012,1687012,Fix Released,flavor-delete notification should not try to lazy-load projects,https://bugs.launchpad.net/nova/+bug/1687012,2017-06-08
+1680457,1680457,Fix Released,Volume related quota exceptions not handled while creating vms,https://bugs.launchpad.net/nova/+bug/1680457,2017-06-08
+1544989,1544989,Fix Released,Nova doesn't validate user/project is valid from keystone during admin operations,https://bugs.launchpad.net/nova/+bug/1544989,2017-06-08
+1688366,1688366,Fix Released,KeyError: u'overs' in unit test runs,https://bugs.launchpad.net/nova/+bug/1688366,2017-06-08
+1688166,1688166,Fix Released,Missing rootwrap filter for cryptsetup,https://bugs.launchpad.net/nova/+bug/1688166,2017-06-08
+1648197,1648197,Fix Released,Remove the column 'can_host' from the ResourceProvider table,https://bugs.launchpad.net/nova/+bug/1648197,2017-06-08
+1421550,1421550,Fix Released,Creating VM image fails under the race condition with detaching volume,https://bugs.launchpad.net/nova/+bug/1421550,2017-06-08
+1689339,1689339,Fix Released,Filter Scheduler doc claims filters can be specified in the request,https://bugs.launchpad.net/nova/+bug/1689339,2017-06-08
+1673613,1673613,Fix Released,Special characters are not allowed in connection string,https://bugs.launchpad.net/nova/+bug/1673613,2017-06-08
+1687850,1687850,Fix Released,An exception error message does not show the correct instance uuid,https://bugs.launchpad.net/nova/+bug/1687850,2017-06-08
+1690932,1690932,Fix Released,SubclassSignatureTestCase isn't being used properly in libvirt volume tests,https://bugs.launchpad.net/nova/+bug/1690932,2017-06-08
+1691780,1691780,Fix Released,port id is incorrectly logged in _update_port_binding_for_instance,https://bugs.launchpad.net/nova/+bug/1691780,2017-06-08
+1655710,1655710,Fix Released,Query parameter validation using json schema - error messages,https://bugs.launchpad.net/nova/+bug/1655710,2017-06-08
+1691545,1691545,Fix Released,Significant increase in DB connections with cells,https://bugs.launchpad.net/nova/+bug/1691545,2017-06-08
+1686113,1686113,Fix Released,os_compute_api:servers:create:attach_network does not account for networks='none' (or 'auto') and microversion 2.37,https://bugs.launchpad.net/nova/+bug/1686113,2017-06-08
+1674257,1674257,Fix Released,we should not log  unimplemented error in _get_host_metrics method,https://bugs.launchpad.net/nova/+bug/1674257,2017-06-08
+1680661,1680661,Fix Released,HostMappingNotFound during update_instance_info on n-cpu startup,https://bugs.launchpad.net/nova/+bug/1680661,2017-06-08
+1686744,1686744,Fix Released,Unable to add compute host to aggregate if no ironic nodes present,https://bugs.launchpad.net/nova/+bug/1686744,2017-06-08
+1664465,1664465,Fix Released,check instance exist before check in cell,https://bugs.launchpad.net/nova/+bug/1664465,2017-06-08
+1647269,1647269,Fix Released,‘nova service-list’ can‘t get the latest Updated_at time when using mc driver,https://bugs.launchpad.net/nova/+bug/1647269,2017-06-08
+1693438,1693438,Fix Released,"error instances remain in ""Build"" status and can't delete it",https://bugs.launchpad.net/nova/+bug/1693438,2017-06-08
+1693949,1693949,Fix Released,cells v1 job failing after ssh validation was enabled by default,https://bugs.launchpad.net/nova/+bug/1693949,2017-06-08
+1652719,1652719,Fix Released,The JSON-Schema of string integer can't handle the case of empty string,https://bugs.launchpad.net/nova/+bug/1652719,2017-06-08
+1580621,1580621,Fix Released,Avoid looking up a source security group twice when creating new rules,https://bugs.launchpad.net/nova/+bug/1580621,2017-06-08
+1693899,1693899,Fix Released,Cleaning up stale resource allocations can fail with InstanceNotFound,https://bugs.launchpad.net/nova/+bug/1693899,2017-06-08
+1693353,1693353,Fix Released,resource provider links list shows 'traits' in all microversions and should not,https://bugs.launchpad.net/nova/+bug/1693353,2017-06-08
+1693147,1693147,Fix Released,XenAPI: nova-compute cannot run when manually delete a VM,https://bugs.launchpad.net/nova/+bug/1693147,2017-06-08
+1694535,1694535,Fix Released,migration rollback: driver_detach called with wrong number of args,https://bugs.launchpad.net/nova/+bug/1694535,2017-06-08
+1694834,1694834,Fix Released,libvirt rollback: destroy called with wrong number of args,https://bugs.launchpad.net/nova/+bug/1694834,2017-06-08
+1674259,1674259,Fix Released,code comments incorrectness,https://bugs.launchpad.net/nova/+bug/1674259,2017-06-08
+1696267,1696267,Fix Released,Functional test test_sync_standard_traits intermittently fails,https://bugs.launchpad.net/nova/+bug/1696267,2017-06-08
+1696554,1696554,Fix Released,api-ref: wrong type for marker in GET /os-hypervisors(/detail),https://bugs.launchpad.net/nova/+bug/1696554,2017-06-08
+1686400,1686400,Fix Released,Building of Spark images fails as it requires CDH 5.4,https://bugs.launchpad.net/sahara/+bug/1686400,2017-06-08
+1661501,1661501,Fix Released,"Unlocalized string ""Warning!"" is found in Register Image page under Data Processing",https://bugs.launchpad.net/sahara/+bug/1661501,2017-06-08
+1212225,1212225,Fix Released,Inefficient validation checks,https://bugs.launchpad.net/sahara/+bug/1212225,2017-06-08
+1673120,1673120,Fix Released,Env vars in nested scripts lost in image gen CLI,https://bugs.launchpad.net/sahara/+bug/1673120,2017-06-08
+1692551,1692551,Fix Released,Removal of nova-network functions from novaclient breaks cluster provisioning,https://bugs.launchpad.net/sahara/+bug/1692551,2017-06-08
+1673459,1673459,Fix Released,stackrc breaks command prompt,https://bugs.launchpad.net/tripleo/+bug/1673459,2017-06-08
+1664995,1664995,Fix Released,glance is not calling glance-manage db_load_metadefs,https://bugs.launchpad.net/tripleo/+bug/1664995,2017-06-08
+1686357,1686357,Fix Released,IPv6 VIPs are created with /64,https://bugs.launchpad.net/tripleo/+bug/1686357,2017-06-08
+1686357,1686357,Fix Released,IPv6 VIPs are created with /64,https://bugs.launchpad.net/puppet-pacemaker/+bug/1686357,2017-06-08
+1689789,1689789,Fix Released,tripleo-ansible-inventory is very slow,https://bugs.launchpad.net/tripleo/+bug/1689789,2017-06-08
+1685544,1685544,Fix Released,[RFE][tripleo-validations] tripleo-ansible-inventory can only group computes and controllers,https://bugs.launchpad.net/tripleo/+bug/1685544,2017-06-08
+1694712,1694712,Fix Released,tripleo-ansible-inventory is failing with a heatclient.exc.HTTPNotFound: ERROR: The Stack (overcloud) could not be found,https://bugs.launchpad.net/tripleo/+bug/1694712,2017-06-08
+1679709,1679709,Fix Released,integer type values for formatMessage should be marked as number,https://bugs.launchpad.net/tripleo/+bug/1679709,2017-06-08
+1676812,1676812,Fix Released,Parameters defined in base template not shown in parameters for environment,https://bugs.launchpad.net/tripleo/+bug/1676812,2017-06-08

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1852086,1852086,Fix Released,etcd3 driver missing in binary images,https://bugs.launchpad.net/kolla-ansible/+bug/1852086,2020-05-19
+1855701,1855701,Fix Released,keystone_bootstrap.sh fails to display error message due to unprintable characters,https://bugs.launchpad.net/kolla/+bug/1855701,2020-05-19
+1856699,1856699,Fix Released,monasca-grafana fails to build due to old npm version,https://bugs.launchpad.net/kolla/+bug/1856699,2020-05-19
+1856693,1856693,Fix Released,rally container fails on bootstrap due to depricated syntax,https://bugs.launchpad.net/kolla/+bug/1856693,2020-05-19
+1859607,1859607,Fix Released,[ubuntu-binary] swift-object-expirer package is missing,https://bugs.launchpad.net/kolla/+bug/1859607,2020-05-19
+1859047,1859047,Fix Released,fetch-fernet-tokens script doesn't work with python3,https://bugs.launchpad.net/kolla/+bug/1859047,2020-05-19
+1866827,1866827,Fix Released,Invalid test in cinder-api/extend_start.sh,https://bugs.launchpad.net/kolla/+bug/1866827,2020-05-19
+1867365,1867365,Fix Released,nova-libvirt needs fixed libvirt on AArch64 servers with ThunderX cpu,https://bugs.launchpad.net/kolla/+bug/1867365,2020-05-19
+1867614,1867614,Fix Released,Various results with --skip-parents and --skip-existing,https://bugs.launchpad.net/kolla/+bug/1867614,2020-05-19
+1868574,1868574,Fix Released,glance-api cannot use cinder nfs backend,https://bugs.launchpad.net/kolla/+bug/1868574,2020-05-19
+1872432,1872432,Fix Released,Running cyborg bootstrap container failed because init cyborg database failed,https://bugs.launchpad.net/kolla/+bug/1872432,2020-05-19
+1835713,1835713,Fix Released,migration_interface must exist for non-compute controllers,https://bugs.launchpad.net/kolla-ansible/+bug/1835713,2020-05-19
+1877200,1877200,Fix Released,Add Python3 support,https://bugs.launchpad.net/group-based-policy/+bug/1877200,2020-05-19
+1872873,1872873,Fix Released,update provisioned_capacity_gb in consume from share,https://bugs.launchpad.net/manila/+bug/1872873,2020-05-19
+1719860,1719860,Fix Released,traceback and client error when concurrent PUTs result in data file removed before being commited,https://bugs.launchpad.net/swift/+bug/1719860,2020-05-18
+1875538,1875538,Fix Released,Object controller accidentally overwrites headers list,https://bugs.launchpad.net/swift/+bug/1875538,2020-05-18
+1747721,1747721,Fix Released,openstack client not assagning floating ip to instance,https://bugs.launchpad.net/manila/+bug/1747721,2020-05-18
+1843269,1843269,Fix Released,Nova notifier called even if set to False,https://bugs.launchpad.net/neutron/+bug/1843269,2020-05-18
+1697935,1697935,Fix Released,re-enable compute shelve tests,https://bugs.launchpad.net/devstack-plugin-ceph/+bug/1697935,2020-05-18
+1742663,1742663,Fix Released,{{ role }}_classes interfaces no longer work.,https://bugs.launchpad.net/tripleo/+bug/1742663,2020-05-18
+1856086,1856086,Fix Released,container-puppet-SERVICE name is already in use,https://bugs.launchpad.net/tripleo/+bug/1856086,2020-05-18
+1864548,1864548,Fix Released,There's no reason the ovn l3 plugin should create its own ovsdb connections,https://bugs.launchpad.net/neutron/+bug/1864548,2020-05-18
+1879255,1879255,Fix Released,openstack overcloud node introspect --all-manageable timing out and failing periodic tripleo-ci-centos-8-ovb-3ctlr_1comp-featureset001-master,https://bugs.launchpad.net/tripleo/+bug/1879255,2020-05-18
+1876898,1876898,Fix Released,L3 agent should reports enabled extensions to the server,https://bugs.launchpad.net/neutron/+bug/1876898,2020-05-18
+1879267,1879267,Fix Released,"Error: Failed to download metadata for repo \'advanced-virtualization\'\n    level=debug msg=""error running [bash -x /tmp/yum_update.sh delorean-current,quickstart-centos-ceph-nautilus] in container \\""centos-binary-swift-container-working-container\\"": error while running runtime: exit status 1 failing standlone deployment jobs",https://bugs.launchpad.net/tripleo/+bug/1879267,2020-05-18
+1877560,1877560,Fix Released,"Optimize ""QosPolicy"" OVO bound objects retrieve methods",https://bugs.launchpad.net/neutron/+bug/1877560,2020-05-18
+1877195,1877195,Fix Released,[ovn] neutron devstack needs to support openflow15,https://bugs.launchpad.net/neutron/+bug/1877195,2020-05-18
+1878309,1878309,Fix Released,functional-test error in NsdTestCreate,https://bugs.launchpad.net/tacker/+bug/1878309,2020-05-18
+1549141,1549141,Fix Released,Add Barbican scenarios to Rally,https://bugs.launchpad.net/rally/+bug/1549141,2020-05-18
+1877851,1877851,Fix Released,Add missing service name filter to service list api-ref,https://bugs.launchpad.net/keystone/+bug/1877851,2020-05-17
+1878878,1878878,Fix Released,Configuring Monasca Grafana datasource fails,https://bugs.launchpad.net/kolla-ansible/+bug/1878878,2020-05-17
+1878344,1878344,Fix Released,murano failed to be deployed when open internal tls with self signed certs,https://bugs.launchpad.net/kolla-ansible/+bug/1878344,2020-05-17
+1871231,1871231,Fix Released,persistent directories do not match the desired directory rights,https://bugs.launchpad.net/tripleo/+bug/1871231,2020-05-16
+1877378,1877378,Fix Released,puppet/extraconfig/pre_deploy/per_node.yaml does not work with py3,https://bugs.launchpad.net/tripleo/+bug/1877378,2020-05-16
+1876198,1876198,Fix Released,Setting unlimited qouta for zone,https://bugs.launchpad.net/designate/+bug/1876198,2020-05-15
+1843553,1843553,Fix Released,Don't allow missing ipv4/ipv6 configuration for OVN LB,https://bugs.launchpad.net/networking-ovn/+bug/1843553,2020-05-15
+1844491,1844491,Fix Released,networking_ovn.tests.functional.test_maintenance.TestMaintenance.test_security_group fails with ovs 2.9,https://bugs.launchpad.net/networking-ovn/+bug/1844491,2020-05-15
+1877531,1877531,Fix Released,Failed to kill no existing container while unstack,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1877531,2020-05-15
+1878622,1878622,Fix Released,Open vSwitch with DPDK datapath in neutron,https://bugs.launchpad.net/neutron/+bug/1878622,2020-05-15
+1523083,1523083,Fix Released,launch a vm with  macvtap port is not working with kernel < 3.13,https://bugs.launchpad.net/neutron/+bug/1523083,2020-05-15
+1873440,1873440,Fix Released,Vim creation fails if use_barbican is disabled,https://bugs.launchpad.net/tacker/+bug/1873440,2020-05-15
+1874007,1874007,Fix Released,Vim register stuck at pending status,https://bugs.launchpad.net/tacker/+bug/1874007,2020-05-14
+1873480,1873480,Fix Released,hardcode ansible's fact_cache path in 'openstack tripleo config generate ansible',https://bugs.launchpad.net/tripleo/+bug/1873480,2020-05-14
+1870557,1870557,Fix Released,container launch fails if containers fail to pull within a specific time,https://bugs.launchpad.net/tripleo/+bug/1870557,2020-05-14
+1877259,1877259,Fix Released,test_server_rescue.py should use CONF.volume.volume_size isntead of hard-coded '1',https://bugs.launchpad.net/tempest/+bug/1877259,2020-05-14
+1874384,1874384,Fix Released,ExecStart path in the systemd file is not correct,https://bugs.launchpad.net/tacker/+bug/1874384,2020-05-14
+1859832,1859832,Fix Released,L3 HA connectivity to GW port can be broken after reboot of backup node,https://bugs.launchpad.net/neutron/+bug/1859832,2020-05-14
+1869955,1869955,Fix Released,Cinder A/A and etcd not working with TLS-everywhere,https://bugs.launchpad.net/tripleo/+bug/1869955,2020-05-13
+1878063,1878063,Fix Released,healthcheck can fail if podman inspect was too slow,https://bugs.launchpad.net/tripleo/+bug/1878063,2020-05-13
+1871380,1871380,Fix Released,ceph health validation not working properly during upgrades,https://bugs.launchpad.net/tripleo/+bug/1871380,2020-05-13
+1878153,1878153,Fix Released,deployments fail with recent puppetlabs-mysql due to use of deprecated function,https://bugs.launchpad.net/tripleo/+bug/1878153,2020-05-13
+1878192,1878192,Fix Released,Ansible 2.9.8 breaks HAProxy configuration on fresh deploy,https://bugs.launchpad.net/kolla-ansible/+bug/1878192,2020-05-13
+1554130,1554130,Fix Released,Zone imports are incredibly slow,https://bugs.launchpad.net/designate/+bug/1554130,2020-05-13
+1846878,1846878,Fix Released,string_concat is removed from django as of 2.1,https://bugs.launchpad.net/manila-ui/+bug/1846878,2020-05-13
+1856635,1856635,Fix Released,Support application_credential method in keystone v3,https://bugs.launchpad.net/python-swiftclient/+bug/1856635,2020-05-13
+1843901,1843901,Fix Released,Unable to authenticate with v3applicationcredential plugin,https://bugs.launchpad.net/python-swiftclient/+bug/1843901,2020-05-13
+1853812,1853812,Fix Released,"train containerized-undercloud-upgrades failing with ""error creating container the container name is already in use """,https://bugs.launchpad.net/tripleo/+bug/1853812,2020-05-13
+1876897,1876897,Fix Released,IHA tasks break with ansible 2.9,https://bugs.launchpad.net/tripleo/+bug/1876897,2020-05-13
+1859729,1859729,Fix Released,tripleo container image delete has a misleading error when image doesn't exist,https://bugs.launchpad.net/tripleo/+bug/1859729,2020-05-13
+1875898,1875898,Fix Released,Ignored OVNCMSOptions value when SRIOV is deployed,https://bugs.launchpad.net/tripleo/+bug/1875898,2020-05-13
+1870529,1870529,Fix Released,node provisioning with ansible fails,https://bugs.launchpad.net/tripleo/+bug/1870529,2020-05-12
+1818758,1818758,Fix Released,[doc]Add manage/unmanage of shares in DHSS=True,https://bugs.launchpad.net/manila/+bug/1818758,2020-05-12
+1878055,1878055,Fix Released,Tempest test fails when running with a single enabled backend,https://bugs.launchpad.net/manila/+bug/1878055,2020-05-12
+1804283,1804283,Fix Released,Rabbitmq Error: unable to connect to node 'rabbit@ostack-controller-01': nodedown,https://bugs.launchpad.net/openstack-ansible/+bug/1804283,2020-05-12
+1877404,1877404,Fix Released,"Add ""qos_policy_id"" field to ""FloatingIP"" OVO",https://bugs.launchpad.net/neutron/+bug/1877404,2020-05-12
+1859159,1859159,Fix Released,os_swift train incorect default systemctl configuration,https://bugs.launchpad.net/openstack-ansible/+bug/1859159,2020-05-12
+1877930,1877930,Fix Released,rally verify configure-verifier --extend extra-options.conf converts options to lowercase,https://bugs.launchpad.net/rally/+bug/1877930,2020-05-12
+1707084,1707084,Fix Released,"NetApp manila driver does not honor std specs for migration, manage and unmanage",https://bugs.launchpad.net/manila/+bug/1707084,2020-05-12
+1703333,1703333,Fix Released,Generic Volume Group - Enhance Services Client Interface,https://bugs.launchpad.net/tempest/+bug/1703333,2020-05-11
+1721817,1721817,Fix Released,verify the number of osds deployed,https://bugs.launchpad.net/tripleo/+bug/1721817,2020-05-11
+1668972,1668972,Fix Released,[RFE] TripleO validations for checking for multiple disks,https://bugs.launchpad.net/tripleo/+bug/1668972,2020-05-11
+1790637,1790637,Fix Released,Inconsistency in CLI for hypervisor and baremetal node names,https://bugs.launchpad.net/tripleo/+bug/1790637,2020-05-11
+1826829,1826829,Fix Released,[Rocky] Backport ssh lockdown,https://bugs.launchpad.net/tripleo/+bug/1826829,2020-05-11
+1818484,1818484,Fix Released,Reduce kolla containers image size by dropping systemd/kernel and deps,https://bugs.launchpad.net/tripleo/+bug/1818484,2020-05-11
+1807959,1807959,Fix Released,"With config-download deployment, OVS-DPDK is enabled after NetworkDeployment",https://bugs.launchpad.net/tripleo/+bug/1807959,2020-05-11

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1541047,1541047,Fix Released,openstack --help fails if clouds.yaml cannot be read,https://bugs.launchpad.net/python-openstackclient/+bug/1541047,2016-03-03
+1543214,1543214,Fix Released,"Keystone ""token issue"" command should support unscoped token",https://bugs.launchpad.net/python-openstackclient/+bug/1543214,2016-03-03
+1548530,1548530,Fix Released,OSC should use 'instanceof' instead of 'type',https://bugs.launchpad.net/python-openstackclient/+bug/1548530,2016-03-03
+1548910,1548910,Fix Released,Defaults are ignored in flake8,https://bugs.launchpad.net/python-openstackclient/+bug/1548910,2016-03-03
+1546065,1546065,Fix Released,"set/unset command classes should inherit from Command, not ShowOne.",https://bugs.launchpad.net/python-openstackclient/+bug/1546065,2016-03-03
+1550892,1550892,Fix Released,take_action() method from command.Command shouldn't return,https://bugs.launchpad.net/python-openstackclient/+bug/1550892,2016-03-03
+1551160,1551160,Fix Released,interactive openstack console: run_subcommand() takes exactly 2 arguments (1 given),https://bugs.launchpad.net/python-openstackclient/+bug/1551160,2016-03-03
+1549201,1549201,Fix Released,muranoclient uses 'old' urls in requests to Glare,https://bugs.launchpad.net/python-muranoclient/+bug/1549201,2016-03-03
+1550196,1550196,Fix Released,bundle import a wrong bundle with a json file give no errror msg,https://bugs.launchpad.net/python-muranoclient/+bug/1550196,2016-03-03
+1536666,1536666,Fix Released,Error during murano-api restart: Calling waitall() from within one of the GreenPool's greenthreads will never terminate,https://bugs.launchpad.net/murano/+bug/1536666,2016-03-03
+1498097,1498097,Fix Released,Race condition while uploading packages with same tags in parallel,https://bugs.launchpad.net/murano/+bug/1498097,2016-03-03
+1540843,1540843,Fix Released,[murano-cfapi] Some packages in apps.openstack.org can not be used in CF due to large description,https://bugs.launchpad.net/murano/+bug/1540843,2016-03-03
+1527949,1527949,Fix Released,[gate] gate-tempest-dsvm-murano-cfapi fails after a tempest-lib release,https://bugs.launchpad.net/murano/+bug/1527949,2016-03-03
+1540709,1540709,Fix Released,[env-templates] Public/private filters for environment templates doesn't work correctly,https://bugs.launchpad.net/murano/+bug/1540709,2016-03-03
+1542626,1542626,Fix Released,[API] [env-templates] List all templates doesn't work correctly,https://bugs.launchpad.net/murano/+bug/1542626,2016-03-03
+1512390,1512390,Fix Released,Murano incorrectly uses 415 instead of 406 when requested an incorrect Accept header,https://bugs.launchpad.net/murano/+bug/1512390,2016-03-03
+1543023,1543023,Fix Released,Unit test module can't be added,https://bugs.launchpad.net/murano/+bug/1543023,2016-03-03
+1545036,1545036,Fix Released,KEYSTONE_CATALOG_BACKEND is deprecated now,https://bugs.launchpad.net/murano/+bug/1545036,2016-03-03
+1545090,1545090,Fix Released,Murano API tests may fail if running in parallel,https://bugs.launchpad.net/murano/+bug/1545090,2016-03-03
+1536287,1536287,Fix Released,environment-rename don't check the name max length,https://bugs.launchpad.net/murano/+bug/1536287,2016-03-03
+1527219,1527219,Fix Released,"[docs] Documentation mentions keystone CLI command, that is deprecated should rewrite to use openstack-client",https://bugs.launchpad.net/murano/+bug/1527219,2016-03-03
+1545538,1545538,Fix Released,Unexpected tracebacks in murano logs about oslo messaging,https://bugs.launchpad.net/murano/+bug/1545538,2016-03-03
+1514756,1514756,Fix Released,Murano still uses the term tenant in multiple places,https://bugs.launchpad.net/murano/+bug/1514756,2016-03-03
+1539004,1539004,Fix Released,[docs] docs do not mention murano-specs repository anywhere,https://bugs.launchpad.net/murano/+bug/1539004,2016-03-03
+1552226,1552226,Fix Released,tox -egenconfig generates sample config file incorrectly,https://bugs.launchpad.net/murano/+bug/1552226,2016-03-03
+1551293,1551293,Fix Released,[cfapi] service broker can't work with keystone v3,https://bugs.launchpad.net/murano/+bug/1551293,2016-03-03
+1524552,1524552,Fix Released,[dashboard] murano-dashboard uses outdated eslint and eslint-config-openstack,https://bugs.launchpad.net/murano/+bug/1524552,2016-03-03
+1520515,1520515,Fix Released,[muranodashboard] UI files in muranodashboard cache are stored as yaml but it is pickle,https://bugs.launchpad.net/murano/+bug/1520515,2016-03-03
+1525340,1525340,Fix Released,[dashboard] buttons on package definitions page are cluttered on smaller screen resolutions,https://bugs.launchpad.net/murano/+bug/1525340,2016-03-03
+1405788,1405788,Fix Released,Remove environment name restrictions,https://bugs.launchpad.net/murano/+bug/1405788,2016-03-03
+1542832,1542832,Fix Released,[dashboard] Some murano image type names are confusing,https://bugs.launchpad.net/murano/+bug/1542832,2016-03-03
+1540867,1540867,Fix Released,[dashboard] setting confirmInput to false doesn't work,https://bugs.launchpad.net/murano/+bug/1540867,2016-03-03
+1545540,1545540,Fix Released,CI is red beacuse of selenium test timeout,https://bugs.launchpad.net/murano/+bug/1545540,2016-03-03
+1547459,1547459,Fix Released,CI is red due to new project is not removed,https://bugs.launchpad.net/murano/+bug/1547459,2016-03-03
+1548875,1548875,Fix Released,Environment creation from dashboard does not work with jQuery prior to 1.9.0,https://bugs.launchpad.net/murano/+bug/1548875,2016-03-03
+1543734,1543734,Fix Released,[dashboard][i18n] strings marked for translations are inconsistent and often include html code in them,https://bugs.launchpad.net/murano/+bug/1543734,2016-03-03
+1486499,1486499,Fix Released,[dashboard] Environments page lacks Add New button after  environment deletion,https://bugs.launchpad.net/murano/+bug/1486499,2016-03-03
+1516709,1516709,Fix Released,TEMPEST_CONFIG_DIR env variable for neutron api test doesn't work,https://bugs.launchpad.net/neutron/+bug/1516709,2016-03-03
+1523241,1523241,Fix Released,"neutron-lbaas failing in stable/liberty due to ""ImportError: No module named embrane.common""",https://bugs.launchpad.net/neutron/+bug/1523241,2016-03-03
+1432813,1432813,Fix Released,Adds the ability to sort images with multiple keys,https://bugs.launchpad.net/openstack-manuals/+bug/1432813,2016-03-03
+1505715,1505715,Fix Released,"Functional tests falls, if global cfg.CONF tried to register the same option twice",https://bugs.launchpad.net/neutron/+bug/1505715,2016-03-03
+1534974,1534974,Fix Released,Fix mutable default arguments,https://bugs.launchpad.net/manila/+bug/1534974,2016-03-03
+1534974,1534974,Fix Released,Fix mutable default arguments,https://bugs.launchpad.net/python-manilaclient/+bug/1534974,2016-03-03
+1539632,1539632,Fix Released,help of access-allow shows 'None' as access-level,https://bugs.launchpad.net/python-manilaclient/+bug/1539632,2016-03-03
+1545094,1545094,Fix Released,manila client functional tests for access rules are broken,https://bugs.launchpad.net/python-manilaclient/+bug/1545094,2016-03-03
+1545697,1545697,Fix Released,"Functional tests are failing when ""insecure"" SSL is used",https://bugs.launchpad.net/python-manilaclient/+bug/1545697,2016-03-03
+1457155,1457155,Fix Released,manila help do not tag all the Admin-only APIs as Admin only,https://bugs.launchpad.net/python-manilaclient/+bug/1457155,2016-03-03
+1550166,1550166,Fix Released,Functional tests are broken with impossibility to create share-network,https://bugs.launchpad.net/python-manilaclient/+bug/1550166,2016-03-03
+1552366,1552366,Fix Released,Tag manila CLIs for experimental features as experiemntal,https://bugs.launchpad.net/python-manilaclient/+bug/1552366,2016-03-03
+1503390,1503390,Fix Released,status=None while delete is in progress,https://bugs.launchpad.net/manila/+bug/1503390,2016-03-03
+1516160,1516160,Fix Released,Mismatches in the interface layer manila/db/api.py and the db implementation,https://bugs.launchpad.net/manila/+bug/1516160,2016-03-03
+1493971,1493971,Fix Released,Boolean  extra-specs need should work with simple True/False value,https://bugs.launchpad.net/manila/+bug/1493971,2016-03-03
+1538119,1538119,Fix Released,Unnecessary string conversion on Hitachi HNAS Driver,https://bugs.launchpad.net/manila/+bug/1538119,2016-03-03
+1539007,1539007,Fix Released,manila tempest plugin not compatible with devstack anymore,https://bugs.launchpad.net/manila/+bug/1539007,2016-03-03
+1539159,1539159,Fix Released,tempest: cert rules test fails without wait for deletion of access rule,https://bugs.launchpad.net/manila/+bug/1539159,2016-03-03
+1540188,1540188,Fix Released,"manila dsvm jobs fail due to ""Could not satisfy constraints for 'horizon': installation from path or url cannot be constrained to a version""",https://bugs.launchpad.net/manila/+bug/1540188,2016-03-03
+1540947,1540947,Fix Released,gate-manila-tempest-dsvm-neutron fails randomly due to no valid host from cinder (insufficient free space),https://bugs.launchpad.net/manila/+bug/1540947,2016-03-03
+1539231,1539231,Fix Released,Share create API attempts to load all DB fields,https://bugs.launchpad.net/manila/+bug/1539231,2016-03-03
+1520496,1520496,Fix Released,Insufficient error reporting in RPC exception in Quobyte driver,https://bugs.launchpad.net/manila/+bug/1520496,2016-03-03
+1542054,1542054,Fix Released,LVM driver assumes that vgs repots data in gigabytes,https://bugs.launchpad.net/manila/+bug/1542054,2016-03-03
+1542365,1542365,Fix Released,"KeyError: 'instance_id' in manila/share/drivers/service_instance.py"", line 354, in ensure_service_instance",https://bugs.launchpad.net/manila/+bug/1542365,2016-03-03
+1544813,1544813,Fix Released,share-replicas APIs return share_server_id to tenant/users,https://bugs.launchpad.net/manila/+bug/1544813,2016-03-03
+1534767,1534767,Fix Released,convert MultiStrOpt ini file params to ListOpt,https://bugs.launchpad.net/manila/+bug/1534767,2016-03-03
+1545184,1545184,Fix Released,"tempest test ""test_get_share_export_location_by_member"" does not work if admin El exists",https://bugs.launchpad.net/manila/+bug/1545184,2016-03-03
+1530719,1530719,Fix Released,"Update hacking version in Manila to hacking<0.11,>=0.10.0",https://bugs.launchpad.net/manila/+bug/1530719,2016-03-03
+1537808,1537808,Fix Released,Doc: Project name sometimes in uppercase,https://bugs.launchpad.net/manila/+bug/1537808,2016-03-03
+1547056,1547056,Fix Released,Details: Consistency Group None failed to reach available status within the required time (500 s).,https://bugs.launchpad.net/manila/+bug/1547056,2016-03-03
+1542133,1542133,Fix Released,Bug about thin or thick type in huawei driver,https://bugs.launchpad.net/manila/+bug/1542133,2016-03-03
+1538243,1538243,Fix Released,Extra specs '=' operator does >= test instead of equals,https://bugs.launchpad.net/manila/+bug/1538243,2016-03-03
+1545559,1545559,Fix Released,incomplete parameter validation of qos in Huawei Driver,https://bugs.launchpad.net/manila/+bug/1545559,2016-03-03
+1548728,1548728,Fix Released,'Unable to validate token: Failed to fetch token data from identity server',https://bugs.launchpad.net/ironic/+bug/1548728,2016-03-03
+1548728,1548728,Fix Released,'Unable to validate token: Failed to fetch token data from identity server',https://bugs.launchpad.net/manila/+bug/1548728,2016-03-03
+1545033,1545033,Fix Released,RequestContext needs to subclass oslo.context,https://bugs.launchpad.net/manila/+bug/1545033,2016-03-03
+1549518,1549518,Fix Released,NetApp cDOT update_access breaks if flexvol already deleted,https://bugs.launchpad.net/manila/+bug/1549518,2016-03-03
+1550093,1550093,Fix Released,Huawei driver change CIFS rw to full control,https://bugs.launchpad.net/manila/+bug/1550093,2016-03-03

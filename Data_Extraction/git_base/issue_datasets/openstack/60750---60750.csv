@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1492974,1492974,Fix Released,Removing node from cluster after upgrade failed with Error running RPC method remove_nodes: undefined method `empty?' for nil:NilClass,https://bugs.launchpad.net/fuel/+bug/1492974,2015-09-08
+1486845,1486845,Fix Released,To make it clear for command extension requirement,https://bugs.launchpad.net/python-neutronclient/+bug/1486845,2015-09-08
+1486829,1486829,Fix Released,add extension name to command help doc,https://bugs.launchpad.net/python-neutronclient/+bug/1486829,2015-09-08
+1486824,1486824,Fix Released,remove contrib/ way for command extension in dev ref doc,https://bugs.launchpad.net/python-neutronclient/+bug/1486824,2015-09-08
+1474401,1474401,Fix Released,python-neutronclient does not handle extensions with resource plurals that don't end in 's',https://bugs.launchpad.net/python-neutronclient/+bug/1474401,2015-09-08
+1460336,1460336,Fix Released,str2dict raise non user-friendly errors,https://bugs.launchpad.net/python-neutronclient/+bug/1460336,2015-09-08
+1454986,1454986,Fix Released,neutron lbaas-member-list with pool id shows all members,https://bugs.launchpad.net/python-neutronclient/+bug/1454986,2015-09-08
+1411115,1411115,Fix Released,'router-gateway-set' does not support external gateway ip,https://bugs.launchpad.net/python-neutronclient/+bug/1411115,2015-09-08
+1277492,1277492,Fix Released,Bash completion broken on OS X with bash 4,https://bugs.launchpad.net/python-neutronclient/+bug/1277492,2015-09-08
+1401030,1401030,Fix Released,'help router-update' cli output lacks options that can be updated using this cli,https://bugs.launchpad.net/python-neutronclient/+bug/1401030,2015-09-08
+1453706,1453706,Fix Released,tenant_id not update for creating lbaas v2 resources,https://bugs.launchpad.net/python-neutronclient/+bug/1453706,2015-09-08
+1451391,1451391,Fix Released,--router:external=True syntax is invalid,https://bugs.launchpad.net/python-neutronclient/+bug/1451391,2015-09-08
+1312212,1312212,Fix Released,mysql reconnect does not catch 1047 errors,https://bugs.launchpad.net/fuel/+bug/1312212,2015-09-08
+1312212,1312212,Fix Released,mysql reconnect does not catch 1047 errors,https://bugs.launchpad.net/sahara/+bug/1312212,2015-09-08
+1281076,1281076,Fix Released,[ui] _.reject() Lodash method doesn't work properly,https://bugs.launchpad.net/fuel/+bug/1281076,2015-09-08
+1485527,1485527,Fix Released,CentOS cluster re-deployment after rollback failed on provisioning with 404 error on http request to http://10.109.10.2:8080/targetimages/centos_65_x86_64-boot.img.gz,https://bugs.launchpad.net/fuel/+bug/1485527,2015-09-08
+1478571,1478571,Fix Released,Exceptions are not reimported in __init__,https://bugs.launchpad.net/python-ironic-inspector-client/+bug/1478571,2015-09-08
+1470489,1470489,Fix Released,Add functional test,https://bugs.launchpad.net/python-ironic-inspector-client/+bug/1470489,2015-09-08
+1490820,1490820,Fix Released,"Some ""optional"" parameters are incorrect for ""create a load balancer VIP"" call",https://bugs.launchpad.net/openstack-api-site/+bug/1490820,2015-09-08
+1449056,1449056,Fix Released,rabbitmq not ready after restart,https://bugs.launchpad.net/devstack/+bug/1449056,2015-09-08
+1483107,1483107,Fix Released,DuplicateOptError when starting evaluator service,https://bugs.launchpad.net/aodh/+bug/1483107,2015-09-08
+1473406,1473406,Fix Released,dbsync fail on empty database,https://bugs.launchpad.net/aodh/+bug/1473406,2015-09-08
+1473046,1473046,Fix Released,Querying alarm history using severity field breaks the API,https://bugs.launchpad.net/aodh/+bug/1473046,2015-09-08
+1483577,1483577,Fix Released,Threshold alarm tests are failing due to mock issue,https://bugs.launchpad.net/aodh/+bug/1483577,2015-09-08
+1482973,1482973,Fix Released,genconfig fails with ImportError,https://bugs.launchpad.net/aodh/+bug/1482973,2015-09-08
+1481875,1481875,Fix Released,test_migrations test does not do what it is supposed to do,https://bugs.launchpad.net/aodh/+bug/1481875,2015-09-08
+1196613,1196613,Fix Released,Provide a higher level API,https://bugs.launchpad.net/python-swiftclient/+bug/1196613,2015-09-08
+1481839,1481839,Fix Released,[osci] gate-heat-python27 is broken for fuel-6.1/2014.2 branch,https://bugs.launchpad.net/fuel/+bug/1481839,2015-09-08
+1371689,1371689,Fix Released,Services still running on controller when it lose rootfs,https://bugs.launchpad.net/fuel/+bug/1371689,2015-09-08
+1485641,1485641,Fix Released,Deployment with detached-keystone plugin failed - undefined method `collect' for nil:NilClass,https://bugs.launchpad.net/fuel/+bug/1485641,2015-09-08
+1487002,1487002,Fix Released,[nailgun] Node hostname may conflicts with DNS hostname for public TLS endpoints,https://bugs.launchpad.net/fuel/+bug/1487002,2015-09-08
+1488061,1488061,Fix Released,[UI][vCenter] A warning message should be shown if compute-vmware node is not associated with a cluster,https://bugs.launchpad.net/fuel/+bug/1488061,2015-09-08
+1477594,1477594,Fix Released,Need to handle a case of setting label to non-existing node,https://bugs.launchpad.net/fuel/+bug/1477594,2015-09-08
+1477642,1477642,Fix Released,Need to support 'all' option in node label commands,https://bugs.launchpad.net/fuel/+bug/1477642,2015-09-08
+1477585,1477585,Fix Released,Need to filter nodes by label key not only by its key-value pair,https://bugs.launchpad.net/fuel/+bug/1477585,2015-09-08
+1477598,1477598,Fix Released,Need to support cyrillic characters for node labels,https://bugs.launchpad.net/fuel/+bug/1477598,2015-09-08
+1447109,1447109,Fix Released,Fuel task help texts consistently reference -t,https://bugs.launchpad.net/fuel/+bug/1447109,2015-09-08
+1465268,1465268,Fix Released,"OSTF tests are failed during pcs status request on ""Non-current DC"" controller",https://bugs.launchpad.net/fuel/+bug/1465268,2015-09-08
+1471852,1471852,Fix Released,Fuel CLI: incorrect output for 'fuel2 node list',https://bugs.launchpad.net/fuel/+bug/1471852,2015-09-08
+1468546,1468546,Fix Released,Zabbix does not monitor disk space,https://bugs.launchpad.net/fuel/+bug/1468546,2015-09-08
+1491505,1491505,Fix Released,Wrong export of tarball path in upgrade chain job,https://bugs.launchpad.net/fuel/+bug/1491505,2015-09-08
+1481710,1481710,Fix Released,Zabbix plugin: Wrong check for Keystone process,https://bugs.launchpad.net/fuel/+bug/1481710,2015-09-08
+1476688,1476688,Fix Released,Add keystone/wsgi.py to deb package,https://bugs.launchpad.net/fuel/+bug/1476688,2015-09-08
+1469772,1469772,Fix Released,"Sometimes ostf test ""Advanced test action"" fails",https://bugs.launchpad.net/fuel/+bug/1469772,2015-09-08
+1468795,1468795,Fix Released,Heat::keystone::domain is lacking tenant_name,https://bugs.launchpad.net/fuel/+bug/1468795,2015-09-08
+1493269,1493269,Fix Released,"[system-tests] test_separate_service: tests ""add_delete_node"" failed when test tries to run network_check before end of deployment",https://bugs.launchpad.net/fuel/+bug/1493269,2015-09-08
+1487560,1487560,Fix Released,[library] Inconsistent setting of innodb_log_file_size,https://bugs.launchpad.net/fuel/+bug/1487560,2015-09-08
+1477590,1477590,Fix Released,Need to add possibility to delete node label by specifying its key-value pair,https://bugs.launchpad.net/fuel/+bug/1477590,2015-09-08
+1483311,1483311,Fix Released,Murano doesn't check that Keystone backends are up while executing Murano commands,https://bugs.launchpad.net/fuel/+bug/1483311,2015-09-08
+1492203,1492203,Fix Released,"Deployment with Murano and separate db, keystone, rabbit services failed with murano package-import '/var/cache/murano/meta/io.murano.zip' --is-public --exists-action u returned 1 instead of one of [0]",https://bugs.launchpad.net/fuel/+bug/1492203,2015-09-08
+1432809,1432809,Fix Released,Fuel UI Japanese improvement,https://bugs.launchpad.net/fuel/+bug/1432809,2015-09-08
+1462015,1462015,Fix Released,[Murano] Change the way of horizon settings modification,https://bugs.launchpad.net/fuel/+bug/1462015,2015-09-08
+1405642,1405642,Fix Released,Build new DEB/RPM for python-congressclient,https://bugs.launchpad.net/fuel/+bug/1405642,2015-09-08
+1472294,1472294,Fix Released,File control can be modified when the setting locked,https://bugs.launchpad.net/fuel/+bug/1472294,2015-09-08
+1474402,1474402,Fix Released,"Sometimes you cannot click ""Clear all"" and remove non-default attribute for sorting",https://bugs.launchpad.net/fuel/+bug/1474402,2015-09-08
+1478089,1478089,Fix Released,After login navbar extends down for a moment,https://bugs.launchpad.net/fuel/+bug/1478089,2015-09-08
+1480359,1480359,Fix Released,Dashboard tab has multiple issues with layout,https://bugs.launchpad.net/fuel/+bug/1480359,2015-09-08
+1487383,1487383,Fix Released,Need to change the trigger logic for periodic Tempest-based CI jobs,https://bugs.launchpad.net/fuel/+bug/1487383,2015-09-08
+1492278,1492278,Fix Released,"Tests for multiple networks are failing with ""Address space intersection between networks:""",https://bugs.launchpad.net/fuel/+bug/1492278,2015-09-08
+1477479,1477479,Fix Released,[regression] fuelclient can't render roles,https://bugs.launchpad.net/fuel/+bug/1477479,2015-09-08
+1491251,1491251,Fix Released,[Upstream training] Update Relevance metrics,https://bugs.launchpad.net/openstack-training-guides/+bug/1491251,2015-09-08
+1488810,1488810,Fix Released,[library] Network bond (linux) loses its slaves after node reboot if they are sub-interfaces (have VLAN tag),https://bugs.launchpad.net/fuel/+bug/1488810,2015-09-08
+1481951,1481951,Fix Released,[l23network] Puppet modules doesn't generate proper init script for ovs-bond interface,https://bugs.launchpad.net/fuel/+bug/1481951,2015-09-08
+1349380,1349380,Fix Released,[devops] Script is needed which targets dev milestone every X hours if stable is targeted,https://bugs.launchpad.net/fuel/+bug/1349380,2015-09-08
+1491734,1491734,Fix Released,"Upgrade_chain job uses wrong upgrade_to, upgrade_from variable values",https://bugs.launchpad.net/fuel/+bug/1491734,2015-09-08
+1491026,1491026,Fix Released,debugging failed BVTs: change HW configuration for custom tests,https://bugs.launchpad.net/fuel/+bug/1491026,2015-09-08
+1489911,1489911,Fix Released,[system-tests] Some upgrade tests don't wait for online state of nodes,https://bugs.launchpad.net/fuel/+bug/1489911,2015-09-08
+1488149,1488149,Fix Released,Need to return swarm results for Centos to Testrail 6.1 to 7.0 upgrade,https://bugs.launchpad.net/fuel/+bug/1488149,2015-09-08
+1484422,1484422,Fix Released,[system-tests] backup_restore_neutron_tun_ha - new credentials for cluster is not passed to os_actions.OpenStackActions,https://bugs.launchpad.net/fuel/+bug/1484422,2015-09-08
+1483559,1483559,Fix Released,Tests for OS upgrade procedure on Product CI skip,https://bugs.launchpad.net/fuel/+bug/1483559,2015-09-08
+1478568,1478568,Fix Released,Add integration test cases for  Fuel VMware DVS plugin.,https://bugs.launchpad.net/fuel/+bug/1478568,2015-09-08
+1447638,1447638,Fix Released,Default route overwriting problem,https://bugs.launchpad.net/fuel/+bug/1447638,2015-09-07
+1489914,1489914,Fix Released,cinder.conf and glance-api.conf missing os_region_name,https://bugs.launchpad.net/fuel/+bug/1489914,2015-09-07
+1490987,1490987,Fix Released,Local login to nodes that were bootstrapped with Ubuntu bootstrap image doesn't work,https://bugs.launchpad.net/fuel/+bug/1490987,2015-09-07
+1489882,1489882,Fix Released,bootstrap nodes are not available via ssh after switching to Ubuntu bootstrap image,https://bugs.launchpad.net/fuel/+bug/1489882,2015-09-07

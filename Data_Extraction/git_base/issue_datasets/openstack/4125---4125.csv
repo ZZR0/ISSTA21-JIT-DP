@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1764315,1764315,Fix Released,Hiera interpolation requires validation rules in tht,https://bugs.launchpad.net/tripleo/+bug/1764315,2020-01-10
+1858123,1858123,Fix Released,FAILED - RETRYING: waiting for the monitor(s) to form the quorum,https://bugs.launchpad.net/tripleo/+bug/1858123,2020-01-10
+1820668,1820668,Fix Released,No matching Service: barbican_tempest_plugin.tests.scenario.test_image_signing.ImageSigningSnapshotTest,https://bugs.launchpad.net/tripleo/+bug/1820668,2020-01-10
+1793488,1793488,Fix Committed,Horizon logs a user out when created keypair is over quota,https://bugs.launchpad.net/horizon/+bug/1793488,2020-01-10
+1709765,1709765,Fix Committed,Failed to create keypair in ng create instance form  when the quota  exceeded,https://bugs.launchpad.net/horizon/+bug/1709765,2020-01-10
+1806844,1806844,Fix Released,[networking-ovn][octavia] Member Batch Update is not properly supported in Networking-OVN,https://bugs.launchpad.net/networking-ovn/+bug/1806844,2020-01-10
+1749797,1749797,Fix Released,placement returns 503 when keystone is down,https://bugs.launchpad.net/keystonemiddleware/+bug/1749797,2020-01-10
+1836917,1836917,Fix Released,Placement client isn't configured with region name,https://bugs.launchpad.net/blazar/+bug/1836917,2020-01-10
+1853272,1853272,Fix Released,Support OVN 2.12,https://bugs.launchpad.net/tripleo/+bug/1853272,2020-01-09
+1844446,1844446,Fix Released,multiple tripleo jobs timing out upstream causing gate resets in train,https://bugs.launchpad.net/tripleo/+bug/1844446,2020-01-09
+1851575,1851575,Fix Released,"""openstack overcloud node provision"" sometimes ignores default image",https://bugs.launchpad.net/tripleo/+bug/1851575,2020-01-09
+1812274,1812274,Fix Released,Standalone deployment with Octavia: Octavia containers fail to start - permission issue?,https://bugs.launchpad.net/tripleo/+bug/1812274,2020-01-09
+1715374,1715374,Fix Released,Reloading compute with SIGHUP prevents instances from booting,https://bugs.launchpad.net/openstack-ansible/+bug/1715374,2020-01-09
+1715374,1715374,Fix Released,Reloading compute with SIGHUP prevents instances from booting,https://bugs.launchpad.net/nova/+bug/1715374,2020-01-09
+1853822,1853822,Fix Released,Display only supported by glance disk_format,https://bugs.launchpad.net/horizon/+bug/1853822,2020-01-09
+1339885,1339885,Fix Released,exceptions.check_message does not work,https://bugs.launchpad.net/manila-ui/+bug/1339885,2020-01-09
+1339885,1339885,Fix Released,exceptions.check_message does not work,https://bugs.launchpad.net/horizon/+bug/1339885,2020-01-09
+1794000,1794000,Fix Released,Instance rebuild long image list,https://bugs.launchpad.net/horizon/+bug/1794000,2020-01-09
+1852465,1852465,Fix Released,"ExternalNetworkAttachForbidden should result in BuildAbortException, not reschedule",https://bugs.launchpad.net/nova/+bug/1852465,2020-01-09
+1855352,1855352,Fix Released,AIO install fails due to missing chrony on Ubuntu 18.04,https://bugs.launchpad.net/openstack-ansible/+bug/1855352,2020-01-09
+1858773,1858773,Fix Released,Manila uses deprecated CephFS driver,https://bugs.launchpad.net/kolla-ansible/+bug/1858773,2020-01-08
+1803499,1803499,Fix Released,"FWaaS-When setting the protocol to any firewall rule, the error is not in line with expectations.",https://bugs.launchpad.net/neutron/+bug/1803499,2020-01-08
+1832210,1832210,Fix Released,fwaas netfilter_log: incorrect decode of log prefix under python 3,https://bugs.launchpad.net/neutron/+bug/1832210,2020-01-08
+1858639,1858639,Fix Released,functional test test_migrate_within_cell takes 160 seconds to run,https://bugs.launchpad.net/nova/+bug/1858639,2020-01-08
+1858108,1858108,Fix Released,lbaas mistakenly considered as leftover and cleaned up,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1858108,2020-01-08
+1850527,1850527,Fix Released,new promoter fails to push to registry,https://bugs.launchpad.net/tripleo/+bug/1850527,2020-01-08
+1843014,1843014,Fix Released,Horizon cannot show instances list if volume source has been deleted,https://bugs.launchpad.net/horizon/+bug/1843014,2020-01-08
+1858652,1858652,Fix Released,Excessive warning log in functional test due to policy deprecation,https://bugs.launchpad.net/nova/+bug/1858652,2020-01-08
+1858034,1858034,Fix Released,"Magnum fails with ""ModuleNotFoundError: No module named 'encodings'""",https://bugs.launchpad.net/openstack-ansible/+bug/1858034,2020-01-07
+1854235,1854235,Fix Committed,Missing image type 'ploop',https://bugs.launchpad.net/os-traits/+bug/1854235,2020-01-07
+1854235,1854235,Fix Released,Missing image type 'ploop',https://bugs.launchpad.net/nova/+bug/1854235,2020-01-07
+1856241,1856241,Fix Released,Compute API in nova - servers_links should link to paging doc,https://bugs.launchpad.net/nova/+bug/1856241,2020-01-07
+1857564,1857564,Fix Committed,typo error in  cinder.volume.manager.py,https://bugs.launchpad.net/cinder/+bug/1857564,2020-01-06
+1848446,1848446,Fix Released,ansible<2.8 has issues with ipv6 interface addresses (upstream issue),https://bugs.launchpad.net/kolla-ansible/+bug/1848446,2020-01-06
+1841041,1841041,Fix Released,pci passthrough whitelist manual configuration is difficult in SRIOV NIC partioning deployment,https://bugs.launchpad.net/tripleo/+bug/1841041,2020-01-06
+1846368,1846368,Fix Released,Train / Stein minor update deletes stopped containers when using docker container cli,https://bugs.launchpad.net/tripleo/+bug/1846368,2020-01-06
+1849503,1849503,Fix Released,pacemaker_restart_bundle.sh fail when TRIPLEO_MINOR_UPDATE is undefined,https://bugs.launchpad.net/tripleo/+bug/1849503,2020-01-06
+1850562,1850562,Fix Released,undercloud installation fails if rsyslog is not installed,https://bugs.launchpad.net/tripleo/+bug/1850562,2020-01-06
+1851297,1851297,Fix Released,"When External LB is used, minor updates fail while trying to work with haproxy-bundle",https://bugs.launchpad.net/tripleo/+bug/1851297,2020-01-06
+1811005,1811005,Fix Released,AdminPassword with special character fails deployment.,https://bugs.launchpad.net/tripleo/+bug/1811005,2020-01-06
+1850663,1850663,Fix Released,neutron_dhcp_agent fails in tls everywhere due to duplicate mount point,https://bugs.launchpad.net/tripleo/+bug/1850663,2020-01-06
+1851667,1851667,Fix Released,enabling undercloud debug doesn't enable mistral debug,https://bugs.launchpad.net/tripleo/+bug/1851667,2020-01-06
+1851660,1851660,Fix Released,Upgrade with OVN fails on upgrade tasks: ovn_dbs_pcs_res' is undefined,https://bugs.launchpad.net/tripleo/+bug/1851660,2020-01-06
+1851669,1851669,Fix Released,Upgrade fils in ovn upgrade_tasks: ovn_dbs_image undefined,https://bugs.launchpad.net/tripleo/+bug/1851669,2020-01-06
+1851617,1851617,Fix Released,Mysql Upgrade tasks failing due to podman log-driver not found,https://bugs.launchpad.net/tripleo/+bug/1851617,2020-01-06
+1852779,1852779,Fix Released,neutron api tls issues,https://bugs.launchpad.net/tripleo/+bug/1852779,2020-01-06
+1837034,1837034,Fix Released,neutron_ovs_dpdk_agent.yaml pushes wrong group hugetlbfs to non-DPDK nodes in multi compute role environment,https://bugs.launchpad.net/tripleo/+bug/1837034,2020-01-06
+1852606,1852606,Fix Released,facter cache fails if facter.conf is a directory because it was mounted via docker,https://bugs.launchpad.net/tripleo/+bug/1852606,2020-01-06
+1853162,1853162,Fix Released,[upgrade] MySQL upgrade tasks failing during upgrade,https://bugs.launchpad.net/tripleo/+bug/1853162,2020-01-06
+1853156,1853156,Fix Released,container-puppet.py isn't regenerated during update.,https://bugs.launchpad.net/tripleo/+bug/1853156,2020-01-06
+1853644,1853644,Fix Released,scale down fails when FQDN doesn't match any known hosts,https://bugs.launchpad.net/tripleo/+bug/1853644,2020-01-06
+1852530,1852530,Fix Released,recon middleware is not configured for swift account/container server,https://bugs.launchpad.net/tripleo/+bug/1852530,2020-01-06
+1848618,1848618,Fix Released,ironic-neutron-agent missing healthcheck,https://bugs.launchpad.net/tripleo/+bug/1848618,2020-01-06
+1816728,1816728,Fix Released,Timeout deleting BM when net-ansible is used,https://bugs.launchpad.net/tripleo/+bug/1816728,2020-01-06
+1855055,1855055,Fix Released,Train standalone deploy failed with Error: cannot exec into container that is not running: container state improper while applying neutron::ovn_metadata' config,https://bugs.launchpad.net/tripleo/+bug/1855055,2020-01-06
+1847380,1847380,Fix Released,inspector dhcp healtcheck does not work for IPv6,https://bugs.launchpad.net/tripleo/+bug/1847380,2020-01-06
+1848651,1848651,Fix Released,'update' RemovalPoliciesMode can lead to undesired results with node delete,https://bugs.launchpad.net/tripleo/+bug/1848651,2020-01-06
+1848532,1848532,Fix Released,Locking layers currently is not working for image uploader,https://bugs.launchpad.net/tripleo/+bug/1848532,2020-01-06
+1848615,1848615,Fix Released,ironic_pxe_tftp healthcheck fails when using IPv6 ctlplane,https://bugs.launchpad.net/tripleo/+bug/1848615,2020-01-06
+1850549,1850549,Fix Released,container build raises wrong exception,https://bugs.launchpad.net/tripleo/+bug/1850549,2020-01-06
+1850916,1850916,Fix Released,"Ansible Warning: error in 'jsonfile' cache, configured path (/var/tmp/ansible_fact_cache) does not have necessary permissions",https://bugs.launchpad.net/tripleo/+bug/1850916,2020-01-06
+1847225,1847225,Fix Released,Same container image layers are fetched multiple times in the image-uploader pipeline,https://bugs.launchpad.net/tripleo/+bug/1847225,2020-01-06
+1853247,1853247,Fix Released,Config download with blacklisted nodes (DeploymentServerBlacklist) fails with KeyError for NetworkConfig,https://bugs.launchpad.net/tripleo/+bug/1853247,2020-01-06
+1853321,1853321,Fix Released,JSON Query cannot parse invalid characters,https://bugs.launchpad.net/tripleo/+bug/1853321,2020-01-06
+1849393,1849393,Fix Released,"CephFS with StorageNFS - Overcloud deployment fails upon task ""Render hieradata from template"" on all overcloud nodes",https://bugs.launchpad.net/tripleo/+bug/1849393,2020-01-06
+1852064,1852064,Fix Released,live migration in train fails with 'Host key verification failed',https://bugs.launchpad.net/tripleo/+bug/1852064,2020-01-06
+1852136,1852136,Fix Released,"ceph deploy fails ""no filter named 'ips_in_ranges'""",https://bugs.launchpad.net/tripleo/+bug/1852136,2020-01-06
+1848275,1848275,Fix Released,rpm DLRN builds failing due to  ctlplane entry missing from /etc/hosts,https://bugs.launchpad.net/tripleo/+bug/1848275,2020-01-06
+1851572,1851572,Fix Released,Undercloud needs to suppor the fake ironic driver,https://bugs.launchpad.net/tripleo/+bug/1851572,2020-01-06
+1850636,1850636,Fix Released,provide one command to extract parameters necessary to deploy DCN,https://bugs.launchpad.net/tripleo/+bug/1850636,2020-01-06
+1852402,1852402,Fix Released,"After refactor of cell export, cell export fails",https://bugs.launchpad.net/tripleo/+bug/1852402,2020-01-06
+1744692,1744692,Fix Released,Backups with remotefs hit AttributeError for field '_context',https://bugs.launchpad.net/cinder/+bug/1744692,2020-01-06
+1811344,1811344,Fix Released,cinder service is down when re-spawning child process,https://bugs.launchpad.net/cinder/+bug/1811344,2020-01-06
+1822891,1822891,Fix Released,Doc job failure after upgrade to sphinx 2.0,https://bugs.launchpad.net/cinder/+bug/1822891,2020-01-06
+1823852,1823852,Fix Released,Backup compression algorithm setting should not be case sensitive,https://bugs.launchpad.net/cinder/+bug/1823852,2020-01-06

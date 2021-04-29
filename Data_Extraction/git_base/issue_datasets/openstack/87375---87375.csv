@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1180416,1180416,Fix Released,"""get started"" doc is still referring to F16 image",https://bugs.launchpad.net/heat/+bug/1180416,2013-10-17
+1180375,1180375,Fix Released,test_engine_service needs rework,https://bugs.launchpad.net/heat/+bug/1180375,2013-10-17
+1173575,1173575,Fix Released,The engine_topic config option is broken,https://bugs.launchpad.net/heat/+bug/1173575,2013-10-17
+1172468,1172468,Fix Released,Replace nose with testr,https://bugs.launchpad.net/heat/+bug/1172468,2013-10-17
+1166897,1166897,Fix Released,Wordpress templates broken with F18/apache2.4,https://bugs.launchpad.net/heat/+bug/1166897,2013-10-17
+1165043,1165043,Fix Released,NetworkInterface resource cannot reference an existing SubnetId,https://bugs.launchpad.net/heat/+bug/1165043,2013-10-17
+1164913,1164913,Fix Released,The SecurityGroups property of an Instance resource doesn't get applied,https://bugs.launchpad.net/heat/+bug/1164913,2013-10-17
+1164605,1164605,Fix Released,tools/openstack broken with grizzly repo,https://bugs.launchpad.net/heat/+bug/1164605,2013-10-17
+1163991,1163991,Fix Released,Instance resource should implement the SecurityGroupIds property,https://bugs.launchpad.net/heat/+bug/1163991,2013-10-17
+1163067,1163067,Fix Released,Cannot delete a stack which a volume resource that is already deleted,https://bugs.launchpad.net/heat/+bug/1163067,2013-10-17
+1096001,1096001,Fix Released,Parser Fn::GetAZs intrinsic function returns hard-coded value,https://bugs.launchpad.net/heat/+bug/1096001,2013-10-17
+1181045,1181045,Fix Released,template_validate fails due to no registered resources,https://bugs.launchpad.net/heat/+bug/1181045,2013-10-17
+1178591,1178591,Fix Released,Make check_active name more generic,https://bugs.launchpad.net/heat/+bug/1178591,2013-10-17
+1174673,1174673,Fix Released,ec2-token authentication broken,https://bugs.launchpad.net/heat/+bug/1174673,2013-10-17
+1173573,1173573,Fix Released,Not possible to have the engine and api on different machines,https://bugs.launchpad.net/heat/+bug/1173573,2013-10-17
+1171602,1171602,Fix Released,Remove dependency on heat-jeos,https://bugs.launchpad.net/heat/+bug/1171602,2013-10-17
+1171420,1171420,Fix Released,Unit tests fail with pyflakes 0.7,https://bugs.launchpad.net/heat/+bug/1171420,2013-10-17
+1165023,1165023,Fix Released,Creation failures can leave behind resources after stack deletion,https://bugs.launchpad.net/heat/+bug/1165023,2013-10-17
+1160779,1160779,Fix Released,DeletionPolicy is incorrectly implemented,https://bugs.launchpad.net/heat/+bug/1160779,2013-10-17
+1122472,1122472,Fix Released,heat breaks with latest boto,https://bugs.launchpad.net/heat/+bug/1122472,2013-10-17
+1185220,1185220,Fix Released,"Removal of heat.db.sync is backward incompatible, breaking deployments",https://bugs.launchpad.net/heat/+bug/1185220,2013-10-17
+1174302,1174302,Fix Released,heat engine won't start,https://bugs.launchpad.net/heat/+bug/1174302,2013-10-17
+1110221,1110221,Fix Released,Instance stuck in ACTIVE/deleting when network deallocation fails,https://bugs.launchpad.net/nova/+bug/1110221,2013-10-17
+1236861,1236861,Fix Released,change alarm_history.detail column type to Text,https://bugs.launchpad.net/ceilometer/+bug/1236861,2013-10-17
+1232045,1232045,Fix Released,ceilometer API should return 401 instead of 400 when action is not authorized,https://bugs.launchpad.net/ceilometer/+bug/1232045,2013-10-17
+1237632,1237632,Fix Released,combination alarm created by admin on behalf of non-admin user:tenant may leak visibility on alarms,https://bugs.launchpad.net/ceilometer/+bug/1237632,2013-10-17
+1234165,1234165,Fix Released,db2 does not allow None as a key for user_id in user collection,https://bugs.launchpad.net/ceilometer/+bug/1234165,2013-10-17
+1220683,1220683,Fix Released,change resource.resource_metadata column type to Text,https://bugs.launchpad.net/ceilometer/+bug/1220683,2013-10-17
+1237589,1237589,Fix Released,combination alarm state retrieval always fails,https://bugs.launchpad.net/ceilometer/+bug/1237589,2013-10-17
+1237578,1237578,Fix Released,combination alarm evaluator entry point is missing,https://bugs.launchpad.net/ceilometer/+bug/1237578,2013-10-17
+1237567,1237567,Fix Released,threshold-oriented alarm created by admin on behalf of non-admin user:tenant leaks admin-level visibility on statistics,https://bugs.launchpad.net/ceilometer/+bug/1237567,2013-10-17
+1238529,1238529,Fix Released,keystoneclient 0.4.0 breaks Ceilometer,https://bugs.launchpad.net/ceilometer/+bug/1238529,2013-10-17
+1227685,1227685,Fix Released,API TestAlarm unit test failing with bad response,https://bugs.launchpad.net/ceilometer/+bug/1227685,2013-10-17
+1226524,1226524,Fix Released,A tiny mistake in api doc,https://bugs.launchpad.net/ceilometer/+bug/1226524,2013-10-17
+1224305,1224305,Fix Released,group by statistics storage tests are missing timestamp filtering test cases,https://bugs.launchpad.net/ceilometer/+bug/1224305,2013-10-17
+1224222,1224222,Fix Released,API v2 documentation is missing group by statistics query examples,https://bugs.launchpad.net/ceilometer/+bug/1224222,2013-10-17
+1221784,1221784,Fix Released,net polster vnic parsing causes can cause Attribute errors,https://bugs.launchpad.net/ceilometer/+bug/1221784,2013-10-17
+1221635,1221635,Fix Released,"Downgrade in 13, 14 migrations is failed.",https://bugs.launchpad.net/ceilometer/+bug/1221635,2013-10-17
+1221467,1221467,Fix Released,alembic migration issues in devstack,https://bugs.launchpad.net/ceilometer/+bug/1221467,2013-10-17
+1218047,1218047,Fix Released,DB2 implementation not handling out of order samples,https://bugs.launchpad.net/ceilometer/+bug/1218047,2013-10-17
+1217129,1217129,Fix Released,query_to_kwargs inconsistent behaviour on invalid input,https://bugs.launchpad.net/ceilometer/+bug/1217129,2013-10-17
+1215676,1215676,Fix Released,Too low precision on sample timestamps,https://bugs.launchpad.net/ceilometer/+bug/1215676,2013-10-17
+1194354,1194354,Fix Released,rule and check failed in oslo common policy,https://bugs.launchpad.net/ceilometer/+bug/1194354,2013-10-17
+1225583,1225583,Fix Released,add source field to Meter model,https://bugs.launchpad.net/ceilometer/+bug/1225583,2013-10-17
+1233139,1233139,Fix Released,Ceilometer nosetests fail,https://bugs.launchpad.net/ceilometer/+bug/1233139,2013-10-17
+1232961,1232961,Fix Released,doesn't  issue an error log even if libvirt couldn't import,https://bugs.launchpad.net/ceilometer/+bug/1232961,2013-10-17
+1232041,1232041,Fix Released,Should return 404 if a alarm is not found,https://bugs.launchpad.net/ceilometer/+bug/1232041,2013-10-17
+1228465,1228465,Fix Released,sample return values needed in groupby statistics API v2 documentation,https://bugs.launchpad.net/ceilometer/+bug/1228465,2013-10-17
+1227668,1227668,Fix Released,alarm-notifier log action splits reason reason string,https://bugs.launchpad.net/ceilometer/+bug/1227668,2013-10-17
+1221007,1221007,Fix Released,Sample-Create accepts invalid counter_types.,https://bugs.launchpad.net/ceilometer/+bug/1221007,2013-10-17
+1218760,1218760,Fix Released,Should return 404 on resource not found,https://bugs.launchpad.net/ceilometer/+bug/1218760,2013-10-17
+1209093,1209093,Fix Released,Alarm DELETE does not return 204 status code,https://bugs.launchpad.net/ceilometer/+bug/1209093,2013-10-17
+1208552,1208552,Fix Released,ceilometer api error message is not parsable,https://bugs.launchpad.net/ceilometer/+bug/1208552,2013-10-17
+1227146,1227146,Fix Released,Ceilometer does not allow to specify region name when creating nova client,https://bugs.launchpad.net/ceilometer/+bug/1227146,2013-10-17
+1226470,1226470,Fix Released,Alarm creation by admins does not allow project/user setting,https://bugs.launchpad.net/ceilometer/+bug/1226470,2013-10-17
+1226079,1226079,Fix Released,Ceilometer db2 driver does not support groupby and period in get_meter_statistics,https://bugs.launchpad.net/ceilometer/+bug/1226079,2013-10-17
+1224416,1224416,Fix Released,Ceilometer alarm notifier fails if Heat template does not define insufficient_data_actions,https://bugs.launchpad.net/ceilometer/+bug/1224416,2013-10-17
+1221855,1221855,Fix Released,Alarm history is not supported with the sqlalchemy driver,https://bugs.launchpad.net/ceilometer/+bug/1221855,2013-10-17
+1221736,1221736,Fix Released,metadata type guessing code not robust,https://bugs.launchpad.net/ceilometer/+bug/1221736,2013-10-17
+1204517,1204517,Fix Released,UDPCollectorService does not use the same dispatcher that CollectorService uses,https://bugs.launchpad.net/ceilometer/+bug/1204517,2013-10-17
+1177443,1177443,Fix Released,ceilometer.conf.sample file does not include opts from keystone_auth middleware,https://bugs.launchpad.net/ceilometer/+bug/1177443,2013-10-17
+1231503,1231503,Fix Released,Missing file in Ceilometer tarball,https://bugs.launchpad.net/ceilometer/+bug/1231503,2013-10-17
+1230099,1230099,Fix Released,TestCollectorService.test_extract_when : assertAlmostEqual() failure,https://bugs.launchpad.net/ceilometer/+bug/1230099,2013-10-17
+1224190,1224190,Fix Released,Ceilometer pipeline file publisher writes out object references instead of sample content,https://bugs.launchpad.net/ceilometer/+bug/1224190,2013-10-17
+1224132,1224132,Fix Released,Pecan assuming meter names are extensions,https://bugs.launchpad.net/ceilometer/+bug/1224132,2013-10-17
+1223346,1223346,Fix Released,tests.api.v2.test_query.TestQuery.test_query_to_kwargs_timestamp_mapping fails sometimes,https://bugs.launchpad.net/ceilometer/+bug/1223346,2013-10-17
+1222737,1222737,Fix Released,Neutron send 'network' notification without id,https://bugs.launchpad.net/ceilometer/+bug/1222737,2013-10-17
+1231328,1231328,Fix Released,GET /v2/alarms/<alarm-id> won't work when the alarm is disabled,https://bugs.launchpad.net/ceilometer/+bug/1231328,2013-10-17
+1227264,1227264,Fix Released,WSME 0.5b5 returns correct response status codes -- breaking unit tests,https://bugs.launchpad.net/ceilometer/+bug/1227264,2013-10-17
+1218488,1218488,Fix Released,MongoDB connection failures when entire test suite is run,https://bugs.launchpad.net/ceilometer/+bug/1218488,2013-10-17
+1218419,1218419,Fix Released,Documentation on storage engine is not up to date nor complete,https://bugs.launchpad.net/ceilometer/+bug/1218419,2013-10-17
+1220377,1220377,Fix Released,volume.resize.* notifications are not handled,https://bugs.launchpad.net/ceilometer/+bug/1220377,2013-10-17
+1217043,1217043,Fix Released,service.py is broken on Windows due to SIGHUP addition,https://bugs.launchpad.net/ceilometer/+bug/1217043,2013-10-17
+1212159,1212159,Fix Released,"Setting ""period "" with negative value do not prompt error",https://bugs.launchpad.net/ceilometer/+bug/1212159,2013-10-17
+1212116,1212116,Fix Released,Jenkins failed due to missing _ in alarm/threshold_evaluation.py,https://bugs.launchpad.net/ceilometer/+bug/1212116,2013-10-17

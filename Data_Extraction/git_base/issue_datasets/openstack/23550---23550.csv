@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1636542,1636542,Fix Released,MappingToUCSMDeploymentsController is failing with SyntaxError: invalid syntax,https://bugs.launchpad.net/tripleo/+bug/1636542,2017-04-27
+1661839,1661839,Fix Released,Ironic API not setting region to regionOne as the rest of the services and instead using default RegionOne,https://bugs.launchpad.net/tripleo/+bug/1661839,2017-04-27
+1667731,1667731,Fix Released,"During upgrade M->N if mysql_need_upgrade, script fails because of undeclared variables",https://bugs.launchpad.net/tripleo/+bug/1667731,2017-04-27
+1629922,1629922,Fix Released,RHEL registration may leave undesired repos enabled,https://bugs.launchpad.net/tripleo/+bug/1629922,2017-04-27
+1629922,1629922,Fix Released,RHEL registration may leave undesired repos enabled,https://bugs.launchpad.net/diskimage-builder/+bug/1629922,2017-04-27
+1668618,1668618,Fix Released,overcloud nodes on RHEL need direct network access to Satellite servers,https://bugs.launchpad.net/tripleo/+bug/1668618,2017-04-27
+1673995,1673995,Fix Released,[backport] Make QEMU max_files and max_processes customizable by deployer,https://bugs.launchpad.net/tripleo/+bug/1673995,2017-04-27
+1647763,1647763,Fix Released,Multinode job broken: fails to build image,https://bugs.launchpad.net/tripleo/+bug/1647763,2017-04-27
+1649284,1649284,Fix Released,[trunk] Neutron dbsync fails on overcloud deploy due to bigswitch plugin,https://bugs.launchpad.net/tripleo/+bug/1649284,2017-04-27
+1615720,1615720,Fix Released,overcloudrc should not be managed by the CLI,https://bugs.launchpad.net/tripleo/+bug/1615720,2017-04-27
+1653500,1653500,Fix Released,Manila pacemaker includes api/scheduler manifests,https://bugs.launchpad.net/tripleo/+bug/1653500,2017-04-27
+1645657,1645657,Fix Released,swift object-expirer service not running on controller nodes,https://bugs.launchpad.net/tripleo/+bug/1645657,2017-04-27
+1665405,1665405,Fix Released,norpm provider doesn't support virtual_packages causing unnecessary service restarts,https://bugs.launchpad.net/tripleo/+bug/1665405,2017-04-27
+1666459,1666459,Fix Released,CI: Undercloud second install (idempotency step)  fails on pereiodic nonha job,https://bugs.launchpad.net/tripleo/+bug/1666459,2017-04-27
+1653097,1653097,Fix Released,SR-IOV VFs should be ignored for the nic numbering,https://bugs.launchpad.net/tripleo/+bug/1653097,2017-04-27
+1660943,1660943,Fix Released,All gate-instack-undercloud-puppet-syntax-4-centos-7 jobs fail due to a puppet deprecation error,https://bugs.launchpad.net/tripleo/+bug/1660943,2017-04-27
+1493551,1493551,Fix Released,ODL and Neutron can get out of sync due to various conditions,https://bugs.launchpad.net/networking-odl/+bug/1493551,2017-04-27
+1664561,1664561,Fix Released,RabbitMQ port should be string,https://bugs.launchpad.net/tripleo/+bug/1664561,2017-04-27
+1675409,1675409,Fix Released,clients/endpoint_type option is missing,https://bugs.launchpad.net/puppet-heat/+bug/1675409,2017-04-27
+1664176,1664176,Fix Released,"Deploys failed with Error message as ""[Errno 117] Structure needs cleaning: '/tmp/tmpsEIrMa'""",https://bugs.launchpad.net/nova-powervm/+bug/1664176,2017-04-27
+1591114,1591114,Fix Released,Few Vm's not getting IP due to missing security group rules in scale scenarios,https://bugs.launchpad.net/networking-hyperv/+bug/1591114,2017-04-27
+1686455,1686455,Fix Released,Mitaka and Newton jobs broken on splay error,https://bugs.launchpad.net/tripleo/+bug/1686455,2017-04-27
+1686455,1686455,Fix Released,Mitaka and Newton jobs broken on splay error,https://bugs.launchpad.net/heat-templates/+bug/1686455,2017-04-27
+1638816,1638816,Fix Released,failed to backup data to ssh storage,https://bugs.launchpad.net/freezer/+bug/1638816,2017-04-27
+1653174,1653174,Fix Released,weird traceback/race in manual reconstructor: cannot switch to a different thread,https://bugs.launchpad.net/swift/+bug/1653174,2017-04-27
+1664647,1664647,Fix Released,storage_domain is inconsistent between cname_lookup and domain_remap,https://bugs.launchpad.net/swift/+bug/1664647,2017-04-27
+1667122,1667122,Fix Released,object server logs wrong status code for 412,https://bugs.launchpad.net/swift/+bug/1667122,2017-04-27
+1311435,1311435,Fix Released,cname_lookup middleware denies the request which has *Host header* equal to storage_domain,https://bugs.launchpad.net/swift/+bug/1311435,2017-04-27
+1656891,1656891,Fix Released,cname_lookup and eventlet 0.20,https://bugs.launchpad.net/swift/+bug/1656891,2017-04-27
+1672285,1672285,Fix Released,"Proxy Controller sub classes don't use ""super"" to call Controller class constructor.",https://bugs.launchpad.net/swift/+bug/1672285,2017-04-27
+1668736,1668736,Fix Released,swift-get-nodes ValueError on non-legacy rings,https://bugs.launchpad.net/swift/+bug/1668736,2017-04-27
+1579578,1579578,Fix Released,test_unlink_* unittests fail intermittently,https://bugs.launchpad.net/swift/+bug/1579578,2017-04-27
+1679175,1679175,Fix Released,Reconstructor raises UnicodeDecodeError when reverting an obj with non-ascii chars in path,https://bugs.launchpad.net/swift/+bug/1679175,2017-04-27
+1678018,1678018,Fix Released,ssync_sender encoding issue,https://bugs.launchpad.net/swift/+bug/1678018,2017-04-27
+1436414,1436414,Fix Committed,Pacemaker turns DHCP agent resource into unmanaged state,https://bugs.launchpad.net/fuel/+bug/1436414,2017-04-27
+1514111,1514111,Fix Released,test_object_delete_at_aysnc_update occasionally fails,https://bugs.launchpad.net/swift/+bug/1514111,2017-04-27
+1684583,1684583,Fix Released,zun exec - crashing zun-compute and amqp - need to fix,https://bugs.launchpad.net/zun/+bug/1684583,2017-04-27
+1686490,1686490,Fix Released,Intermittent error during container creating,https://bugs.launchpad.net/zun/+bug/1686490,2017-04-27
+1686348,1686348,Fix Released,Add releasenotes for quota feature,https://bugs.launchpad.net/mogan/+bug/1686348,2017-04-27
+1686523,1686523,Fix Released,Zun sometimes returned empty 'addresses' field,https://bugs.launchpad.net/zun/+bug/1686523,2017-04-27
+1686210,1686210,Fix Released,keystone failed to start on centos7 after change to use uwsgi,https://bugs.launchpad.net/devstack/+bug/1686210,2017-04-27
+1686271,1686271,Fix Released,all tempest jobs are failing,https://bugs.launchpad.net/networking-midonet/+bug/1686271,2017-04-27
+1669359,1669359,Fix Released,[TODO exception handling]Configuration validation requires expcetion handling,https://bugs.launchpad.net/nova-dpm/+bug/1669359,2017-04-27
+1673811,1673811,Fix Released,Missing compute server evacuate client method,https://bugs.launchpad.net/patrole/+bug/1673811,2017-04-26
+1673811,1673811,Fix Released,Missing compute server evacuate client method,https://bugs.launchpad.net/tempest/+bug/1673811,2017-04-26
+1659384,1659384,Fix Released,All ovb jobs failing to set up snmp,https://bugs.launchpad.net/tripleo/+bug/1659384,2017-04-26
+1622755,1622755,Fix Released,tripleo-heat-templates: support recent version of the galera WSREP provider,https://bugs.launchpad.net/tripleo/+bug/1622755,2017-04-26
+1620647,1620647,Fix Released,Environment for OpenContrail misses configuration,https://bugs.launchpad.net/tripleo/+bug/1620647,2017-04-26
+1620657,1620657,Fix Released,OpenContrail loadbalancer plugin value is incorrect,https://bugs.launchpad.net/tripleo/+bug/1620657,2017-04-26
+1633693,1633693,Fix Released,rabbitmqctl are broken when using ipv6,https://bugs.launchpad.net/tripleo/+bug/1633693,2017-04-26
+1634120,1634120,Fix Released,neutron-opencontrail environment issue on api_extensions_path,https://bugs.launchpad.net/tripleo/+bug/1634120,2017-04-26
+1635033,1635033,Fix Released,Nuage neutron package name updated,https://bugs.launchpad.net/tripleo/+bug/1635033,2017-04-26
+1381961,1381961,Fix Released,Keystone API GET 5000/v3 returns wrong endpoint URL in response body,https://bugs.launchpad.net/tripleo/+bug/1381961,2017-04-26
+1381961,1381961,Fix Released,Keystone API GET 5000/v3 returns wrong endpoint URL in response body,https://bugs.launchpad.net/keystone/+bug/1381961,2017-04-26
+1636748,1636748,Fix Released,Mitaka to Newton upgrade ovs upgrade check failed on ovs 2.5,https://bugs.launchpad.net/tripleo/+bug/1636748,2017-04-26
+1612642,1612642,Fix Released,M/N upgrade fail as the galera cluster doesn't restart.,https://bugs.launchpad.net/tripleo/+bug/1612642,2017-04-26
+1632830,1632830,Fix Released,TripleO does not correctly disable IPv6 autoconfiguration and RAs,https://bugs.launchpad.net/tripleo/+bug/1632830,2017-04-26
+1634851,1634851,Fix Released,Fix redis/rabbitmq resource timeouts also on updates,https://bugs.launchpad.net/tripleo/+bug/1634851,2017-04-26
+1657991,1657991,Fix Released,[Upgrade] bad nova neutron auth parameters when migrate the workload on L to M,https://bugs.launchpad.net/tripleo/+bug/1657991,2017-04-26
+1572609,1572609,Fix Released,"Some updates/upgrades result in VIP replacement, breaking operation",https://bugs.launchpad.net/tripleo/+bug/1572609,2017-04-26
+1595047,1595047,Fix Released,SSL enabled undercloud doesn't configure https protocol for the ironic-inspector endpoint,https://bugs.launchpad.net/tripleo/+bug/1595047,2017-04-26
+1650374,1650374,Fix Released,[instack-undercloud] package upgrade should happen before service configuration,https://bugs.launchpad.net/tripleo/+bug/1650374,2017-04-26
+1683390,1683390,Fix Released,"""Element 'common-venv' not found"" in mitaka branch",https://bugs.launchpad.net/tripleo/+bug/1683390,2017-04-26
+1650205,1650205,Fix Released,Tempest swift tests may leak containers,https://bugs.launchpad.net/tempest/+bug/1650205,2017-04-26
+1683249,1683249,Fix Released,neutron dynamic routing api ocata job broken,https://bugs.launchpad.net/neutron/+bug/1683249,2017-04-26
+1187942,1187942,Fix Released,Heat tempest templates make reference to third party data structures,https://bugs.launchpad.net/heat/+bug/1187942,2017-04-26
+1508815,1508815,Fix Released,tenant isolation tests fail when tempest_roles is configured,https://bugs.launchpad.net/tempest/+bug/1508815,2017-04-26
+1686351,1686351,Fix Released,CI: undercloud fails because iptables service fails to start,https://bugs.launchpad.net/tripleo/+bug/1686351,2017-04-26
+1649527,1649527,Fix Released,nova creates an invalid ethernet/bridge interface definition in virsh xml,https://bugs.launchpad.net/nova/+bug/1649527,2017-04-26
+1667037,1667037,Fix Released,inconsistent neutron_service_plugin_class_add behaviour,https://bugs.launchpad.net/devstack/+bug/1667037,2017-04-26
+1669900,1669900,Fix Released,ovs-vswitchd crashed in functional test with segmentation fault,https://bugs.launchpad.net/neutron/+bug/1669900,2017-04-26
+1680013,1680013,Fix Released,Change hostname in collectd.conf,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1680013,2017-04-26
+1502028,1502028,Fix Released,cannot attach a volume when using multiple ceph backends,https://bugs.launchpad.net/nova/+bug/1502028,2017-04-26
+1635008,1635008,Fix Released,rbd credentials in nova.conf overwrite connection_info from cinder,https://bugs.launchpad.net/nova/+bug/1635008,2017-04-26
+1617282,1617282,Fix Released,functional gate failed with git clone timeout on fetching ovs from github,https://bugs.launchpad.net/neutron/+bug/1617282,2017-04-26

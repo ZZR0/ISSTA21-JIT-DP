@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1233161,1233161,Fix Released,VMWare: Exception with periodic task - invalid data access,https://bugs.launchpad.net/nova/+bug/1233161,2013-10-17
+1229517,1229517,Fix Released,attach interface to instance fails due to legacy network info not updated to new network model,https://bugs.launchpad.net/nova/+bug/1229517,2013-10-17
+1229204,1229204,Fix Released,Output for live migration corrupted,https://bugs.launchpad.net/nova/+bug/1229204,2013-10-17
+1227898,1227898,Fix Released,xenapi: failed rescue setup destroys root disk,https://bugs.launchpad.net/nova/+bug/1227898,2013-10-17
+1227362,1227362,Fix Released,nova performance regression,https://bugs.launchpad.net/nova/+bug/1227362,2013-10-17
+1227350,1227350,Fix Released,xenapi: Rescue regression,https://bugs.launchpad.net/nova/+bug/1227350,2013-10-17
+1226965,1226965,Fix Released,"nova sync_power_states broken when db is stopped, but VM is running",https://bugs.launchpad.net/nova/+bug/1226965,2013-10-17
+1226924,1226924,Fix Released,Migration 201 isn't tested correctly,https://bugs.launchpad.net/nova/+bug/1226924,2013-10-17
+1226826,1226826,Fix Released,VMwareVCDriver: detaching volume  fails with TypeError,https://bugs.launchpad.net/nova/+bug/1226826,2013-10-17
+1226791,1226791,Fix Released,GET os-availability-zone/detail  returns  500,https://bugs.launchpad.net/nova/+bug/1226791,2013-10-17
+1226211,1226211,Fix Released,VMware: some API's return only data on the first cluster and not the correct cluster,https://bugs.launchpad.net/nova/+bug/1226211,2013-10-17
+1224712,1224712,Fix Released,Cannot get ComputeNodeStat by DB utility of compute_node_get_all(),https://bugs.launchpad.net/nova/+bug/1224712,2013-10-17
+1224602,1224602,Fix Released,ConfKeyManager isn't wired into its super class,https://bugs.launchpad.net/nova/+bug/1224602,2013-10-17
+1224526,1224526,Fix Released,keymgr code references code in nova tests dir,https://bugs.launchpad.net/nova/+bug/1224526,2013-10-17
+1224015,1224015,Fix Released,Instance.name() should not trigger lazy loads of all attributes,https://bugs.launchpad.net/nova/+bug/1224015,2013-10-17
+1223957,1223957,Fix Released,Instance object should gracefully handle missing save handlers,https://bugs.launchpad.net/nova/+bug/1223957,2013-10-17
+1223709,1223709,Fix Released,VMware: boot from volume exception,https://bugs.launchpad.net/nova/+bug/1223709,2013-10-17
+1223345,1223345,Fix Released,Soft-deleted instance files deleted by periodic cleanup task,https://bugs.launchpad.net/nova/+bug/1223345,2013-10-17
+1221383,1221383,Fix Released,Instance_group object should have tighter attribute checking,https://bugs.launchpad.net/nova/+bug/1221383,2013-10-17
+1221360,1221360,Fix Released,PCI Device object improperly ignores missing db_object fields,https://bugs.launchpad.net/nova/+bug/1221360,2013-10-17
+1221346,1221346,Fix Released,Object string attributes should support unicode,https://bugs.launchpad.net/nova/+bug/1221346,2013-10-17
+1220278,1220278,Fix Released,Nova compute fails to register a callback for handling lifecycle events in libvirt driver,https://bugs.launchpad.net/nova/+bug/1220278,2013-10-17
+1220186,1220186,Fix Released,Missing compute.instance.update events for various instance operations.,https://bugs.launchpad.net/nova/+bug/1220186,2013-10-17
+1218133,1218133,Fix Released,MultiprocessWSGITest.test_terminate_sigterm fails because the wait for workers to die is unreliable.,https://bugs.launchpad.net/nova/+bug/1218133,2013-10-17
+1217167,1217167,Fix Released,value too long for type character varying(255),https://bugs.launchpad.net/nova/+bug/1217167,2013-10-17
+1216510,1216510,Fix Released,VMware: exception when accessing invalid nodename,https://bugs.launchpad.net/nova/+bug/1216510,2013-10-17
+1216501,1216501,Fix Released,Instance existance not checked on evacuate,https://bugs.launchpad.net/nova/+bug/1216501,2013-10-17
+1212798,1212798,Fix Released,quota_usages not decremented properly after per user quota migration,https://bugs.launchpad.net/nova/+bug/1212798,2013-10-17
+1194018,1194018,Fix Released,Can't use vmware distributed virtual switch with nova,https://bugs.launchpad.net/nova/+bug/1194018,2013-10-17
+1226759,1226759,Fix Released,Compute manager calls quota_reserve which does a direct db call,https://bugs.launchpad.net/nova/+bug/1226759,2013-10-17
+1221620,1221620,Fix Released,KeyError: 'service' during schedule of baremetal instance,https://bugs.launchpad.net/nova/+bug/1221620,2013-10-17
+1221620,1221620,Fix Released,KeyError: 'service' during schedule of baremetal instance,https://bugs.launchpad.net/tripleo/+bug/1221620,2013-10-17
+1221320,1221320,Fix Released,"""Service VM"" - _get_available_networks  does extra filtering",https://bugs.launchpad.net/nova/+bug/1221320,2013-10-17
+1204810,1204810,Fix Released,network_manager unit test failing due to KeyError,https://bugs.launchpad.net/nova/+bug/1204810,2013-10-17
+1204646,1204646,Fix Released,500 error for image_metadata policy issues,https://bugs.launchpad.net/nova/+bug/1204646,2013-10-17
+1203986,1203986,Fix Released,Instance show SUSPENDED state but in fact suspend action do not implemented on PowerVM,https://bugs.launchpad.net/nova/+bug/1203986,2013-10-17
+1203880,1203880,Fix Released,"Fix ""Include error message in instance faults"" to resolve more messages",https://bugs.launchpad.net/nova/+bug/1203880,2013-10-17
+1203872,1203872,Fix Released,missing index on reservations.uuid,https://bugs.launchpad.net/nova/+bug/1203872,2013-10-17
+1203250,1203250,Fix Released,availability_zone was not updated on time,https://bugs.launchpad.net/nova/+bug/1203250,2013-10-17
+1203069,1203069,Fix Released,replace takes no keyword arguments,https://bugs.launchpad.net/nova/+bug/1203069,2013-10-17
+1202975,1202975,Fix Released,auto confirm is invalid with nova master branch,https://bugs.launchpad.net/nova/+bug/1202975,2013-10-17
+1202255,1202255,Fix Released,CellUpdateUnsupported still overrides `message`,https://bugs.launchpad.net/nova/+bug/1202255,2013-10-17
+1202158,1202158,Fix Released,Allow soft_delete instance which has never been active,https://bugs.launchpad.net/nova/+bug/1202158,2013-10-17
+1202149,1202149,Fix Released,urlparse new behaviour in python 2.7.4 breaks cells' rpc_driver.parse_transport_url,https://bugs.launchpad.net/nova/+bug/1202149,2013-10-17
+1202136,1202136,Fix Released,Nova API crashes for some special characters used in flavor ID,https://bugs.launchpad.net/nova/+bug/1202136,2013-10-17
+1202082,1202082,Fix Released,Instance show paused state but in fact pause action do not implemented on PowerVM,https://bugs.launchpad.net/nova/+bug/1202082,2013-10-17
+1201776,1201776,Fix Released,[objects] Changes to system_metadata aren't saved,https://bugs.launchpad.net/nova/+bug/1201776,2013-10-17
+1201766,1201766,Fix Released,Parent cell fails to process a message from a child cell to update an instance,https://bugs.launchpad.net/nova/+bug/1201766,2013-10-17
+1201594,1201594,Fix Released,xenapi: BitTorrent seed fails to execute because popen is passed integer,https://bugs.launchpad.net/nova/+bug/1201594,2013-10-17
+1201453,1201453,Fix Released,Downgrade of migration 186 is broken when using SQLAlchemy 0.8.x,https://bugs.launchpad.net/nova/+bug/1201453,2013-10-17
+1200141,1200141,Fix Released,timeutils.utcnow() should be used throughout the code instead of datetime.datetime.utcnow(),https://bugs.launchpad.net/nova/+bug/1200141,2013-10-17
+1197506,1197506,Fix Released,hyperv driver get_info raises InstanceNotFound with wrong msg format variable,https://bugs.launchpad.net/nova/+bug/1197506,2013-10-17
+1195700,1195700,Fix Released,NovaWebSocketProxy - Enable no_parent and file_only security,https://bugs.launchpad.net/nova/+bug/1195700,2013-10-17
+1195468,1195468,Fix Released,HTTP 500 Server error while creating an instance with a non existent network port parameter,https://bugs.launchpad.net/nova/+bug/1195468,2013-10-17
+1195205,1195205,Fix Released,Raised nova.virt.hyperv.vmops IndexError on hyper-v when boot with the domain user role,https://bugs.launchpad.net/nova/+bug/1195205,2013-10-17
+1194665,1194665,Fix Released,Make InstanceInfoCache.network_info be the NetworkModel,https://bugs.launchpad.net/nova/+bug/1194665,2013-10-17
+1192774,1192774,Fix Released,Fails to get metadata versions without X-Instance-Id when using quantum metadata proxy,https://bugs.launchpad.net/nova/+bug/1192774,2013-10-17
+1192724,1192724,Fix Released,libvirt Spice console requests should be able to fall back to novnc,https://bugs.launchpad.net/nova/+bug/1192724,2013-10-17
+1191874,1191874,Fix Released,novaclient should recognize 429 as an rate limiting status,https://bugs.launchpad.net/nova/+bug/1191874,2013-10-17
+1190845,1190845,Fix Released,nova ec2-api: DescribeTags search filter should be AND,https://bugs.launchpad.net/nova/+bug/1190845,2013-10-17
+1190718,1190718,Fix Released,manager.py : _validate_instance_zone_for_dns_domain throwing AttributeError: 'NoneType' object has no attribute 'availability_zone' error,https://bugs.launchpad.net/nova/+bug/1190718,2013-10-17
+1189887,1189887,Fix Released,Nova should disable glance's ssl_compression feature,https://bugs.launchpad.net/nova/+bug/1189887,2013-10-17
+1187629,1187629,Fix Released,"""injected_files"" doesn't work for nova rebuild",https://bugs.launchpad.net/tempest/+bug/1187629,2013-10-17
+1187629,1187629,Fix Released,"""injected_files"" doesn't work for nova rebuild",https://bugs.launchpad.net/nova/+bug/1187629,2013-10-17
+1185367,1185367,Fix Released,AZ should be validated durign instance create at the api layer,https://bugs.launchpad.net/nova/+bug/1185367,2013-10-17
+1162047,1162047,Fix Released,lockutils.synchronized does not work properly if lock_path=none,https://bugs.launchpad.net/nova/+bug/1162047,2013-10-17
+970893,970893,Fix Released,nova: dhcp_release command not found on RHEL6,https://bugs.launchpad.net/nova/+bug/970893,2013-10-17
+1218012,1218012,Fix Released,xenapi: test_xenapi performance slow,https://bugs.launchpad.net/nova/+bug/1218012,2013-10-17
+1205089,1205089,Fix Released,powervm driver needs to support reboot operation,https://bugs.launchpad.net/nova/+bug/1205089,2013-10-17
+1200482,1200482,Fix Released,Fakes for vmware driver incorrectly represent vsphere objects,https://bugs.launchpad.net/nova/+bug/1200482,2013-10-17
+1196999,1196999,Fix Released,Server list status filter doesn't work for REBOOT,https://bugs.launchpad.net/nova/+bug/1196999,2013-10-17
+1240353,1240353,Fix Released,subnet IPs are not available again (not recycled),https://bugs.launchpad.net/neutron/+bug/1240353,2013-10-17
+1190777,1190777,Fix Released,v4-fixed-ip and port-id should not be allowed together when passing networks information in createServer,https://bugs.launchpad.net/nova/+bug/1190777,2013-10-17
+1237082,1237082,Fix Released,ml2 vxlan interface with linuxbridge use proxy mode,https://bugs.launchpad.net/neutron/+bug/1237082,2013-10-17
+1183657,1183657,Fix Released,live migration did not send notificaiton for some cases,https://bugs.launchpad.net/nova/+bug/1183657,2013-10-17

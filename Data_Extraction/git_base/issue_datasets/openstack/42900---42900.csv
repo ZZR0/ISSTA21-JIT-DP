@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1566676,1566676,Fix Released,PD: Optimize get_ports query by filtering on subnet,https://bugs.launchpad.net/neutron/+bug/1566676,2016-06-03
+1571503,1571503,Fix Released,update_lease_expiration is not used by the DHCP agent,https://bugs.launchpad.net/neutron/+bug/1571503,2016-06-03
+1571553,1571553,Fix Released,When ovs_use_veth is set as False the DHCP port is shown as down,https://bugs.launchpad.net/neutron/+bug/1571553,2016-06-03
+1568718,1568718,Fix Released,"ovsdb.native.connection.Connection should allow schema_helper to register certain tables, instead of all",https://bugs.launchpad.net/neutron/+bug/1568718,2016-06-03
+1573388,1573388,Fix Released,AvailabilityZonePluginBase isn't decorated with @six.add_metaclass,https://bugs.launchpad.net/neutron/+bug/1573388,2016-06-03
+1575316,1575316,Fix Released,Functional job failures in pecan tests,https://bugs.launchpad.net/neutron/+bug/1575316,2016-06-03
+1574750,1574750,Fix Released,"Full table scan on ""ports"" table lookup by ""device_id""",https://bugs.launchpad.net/neutron/+bug/1574750,2016-06-03
+1500960,1500960,Fix Released,Decouple FwaaS from L3 Agent,https://bugs.launchpad.net/neutron/+bug/1500960,2016-06-03
+1567801,1567801,Fix Released,incorrect status codes from pecan shim controller,https://bugs.launchpad.net/neutron/+bug/1567801,2016-06-03
+1577100,1577100,Fix Released,"RBAC ""Access_as_external"" policy update",https://bugs.launchpad.net/neutron/+bug/1577100,2016-06-03
+1567613,1567613,Fix Released,Functional tests logging configured incorrectly,https://bugs.launchpad.net/neutron/+bug/1567613,2016-06-03
+1576275,1576275,Fix Released,generarted sriov agent config file is wrong with config group,https://bugs.launchpad.net/neutron/+bug/1576275,2016-06-03
+1554332,1554332,Fix Released,neutron agents are too aggressive under server load,https://bugs.launchpad.net/neutron/+bug/1554332,2016-06-03
+1577648,1577648,Fix Released,Many classes lack @six.add_metaclass decoration,https://bugs.launchpad.net/neutron/+bug/1577648,2016-06-03
+1573443,1573443,Fix Released,subnet unusable after updating it,https://bugs.launchpad.net/neutron/+bug/1573443,2016-06-03
+1549513,1549513,Fix Released,Feature specific code should be moved out of iptables_manager,https://bugs.launchpad.net/neutron/+bug/1549513,2016-06-03
+1579924,1579924,Fix Released,remove pecan_server.sh tool,https://bugs.launchpad.net/neutron/+bug/1579924,2016-06-03
+1578274,1578274,Fix Released,SR-IOV ML2 mechanism driver can implement the same interface as other ML2 agent based mechanism drivers,https://bugs.launchpad.net/neutron/+bug/1578274,2016-06-03
+1579967,1579967,Fix Released,segments extension has deprcated warnings,https://bugs.launchpad.net/neutron/+bug/1579967,2016-06-03
+1581918,1581918,Fix Released,Sometimes DHCP agent spawns dnsmasq incorrectly,https://bugs.launchpad.net/neutron/+bug/1581918,2016-06-03
+1582086,1582086,Fix Released,Add negative API tests that try to remove the resources in use.,https://bugs.launchpad.net/neutron/+bug/1582086,2016-06-03
+1582541,1582541,Fix Released,Segments: atrributes deprcation warning,https://bugs.launchpad.net/neutron/+bug/1582541,2016-06-03
+1582522,1582522,Fix Released,Pecan: derpecation warnings with functional tests,https://bugs.launchpad.net/neutron/+bug/1582522,2016-06-03
+1583700,1583700,Fix Released,deprecate neutron-debug,https://bugs.launchpad.net/neutron/+bug/1583700,2016-06-03
+1576000,1576000,Fix Released,Deprecate advertise_mtu option,https://bugs.launchpad.net/neutron/+bug/1576000,2016-06-03
+1585022,1585022,Fix Released,unit.agent.test_securitygroups_rpc broken by neutron-lib 0.2.0,https://bugs.launchpad.net/neutron/+bug/1585022,2016-06-03
+1585075,1585075,Fix Released,OSProfiler break decomposed unit tests,https://bugs.launchpad.net/neutron/+bug/1585075,2016-06-03
+1585078,1585078,Fix Released,The help message for min_l3_agents_per_router is not accurate,https://bugs.launchpad.net/neutron/+bug/1585078,2016-06-03
+1584333,1584333,Fix Released,BGP code still exist in neutron repo,https://bugs.launchpad.net/neutron/+bug/1584333,2016-06-03
+1585047,1585047,Fix Released,"""DeprecationWarning: PROTO_NAME_IPV6_ICMP_LEGACY"" can be observed when running ut for security group",https://bugs.launchpad.net/neutron/+bug/1585047,2016-06-03
+1570259,1570259,Fix Released,Pecan: 'fields' query parameter not handled anywhere,https://bugs.launchpad.net/neutron/+bug/1570259,2016-06-03
+1585941,1585941,Fix Released,"neutron.tests.unit.objects.test_subnetpool.SubnetPoolDbObjectTestCase.test_subnetpool_prefixes fails due to ""UNIQUE constraint failed""",https://bugs.launchpad.net/neutron/+bug/1585941,2016-06-03
+1586776,1586776,Fix Released,RPC Unit tests: have future warnings about UUIDS,https://bugs.launchpad.net/neutron/+bug/1586776,2016-06-03
+1586780,1586780,Fix Released,ML2: warnings for PORT_STATUS_ACTIVE not from neutron-lib,https://bugs.launchpad.net/neutron/+bug/1586780,2016-06-03
+1586816,1586816,Fix Released,SAWarning: in_(empty sequence) from get_networks_segments(),https://bugs.launchpad.net/neutron/+bug/1586816,2016-06-03
+1587307,1587307,Fix Released,The wrong description in the class DhcpAgentNotifyAPI docstring,https://bugs.launchpad.net/neutron/+bug/1587307,2016-06-03
+1588277,1588277,Fix Committed,Cover libvirt package with basic runtests,https://bugs.launchpad.net/fuel/+bug/1588277,2016-06-03
+1558006,1558006,Fix Released,[Ensurability] Service Nova is not triggered after switching backend,https://bugs.launchpad.net/fuel/+bug/1558006,2016-06-03
+1587837,1587837,Fix Committed,[python-fuelclient] New CLI 'fuel2 graph upload' command doesn't take into account required args,https://bugs.launchpad.net/fuel/+bug/1587837,2016-06-03
+1457794,1457794,Fix Released,[granular-deployment] No possibility to control retries count for puppet tasks,https://bugs.launchpad.net/fuel/+bug/1457794,2016-06-03
+1392387,1392387,Fix Committed,Incorrect status of progress bar on nodes from not default nodegroup,https://bugs.launchpad.net/fuel/+bug/1392387,2016-06-03
+1255426,1255426,Fix Committed,Progress shows 100% for deploy while there is one more task is in progress,https://bugs.launchpad.net/fuel/+bug/1255426,2016-06-03
+1401676,1401676,Fix Committed,Deployment progress bar inaccurate,https://bugs.launchpad.net/fuel/+bug/1401676,2016-06-03
+1551902,1551902,Fix Committed,fuel cli --start post_deployment returns 500 Server Error,https://bugs.launchpad.net/fuel/+bug/1551902,2016-06-03
+1563343,1563343,Fix Released,User should not be able to turn off DPDK for 'dpdkovs' bond type,https://bugs.launchpad.net/fuel/+bug/1563343,2016-06-03
+1563957,1563957,Fix Released,[nailgun] DPDK related options aren't available right after bond creation,https://bugs.launchpad.net/fuel/+bug/1563957,2016-06-03
+1566963,1566963,Fix Released,[DPDK] Network verification failed after successful deployment,https://bugs.launchpad.net/fuel/+bug/1566963,2016-06-03
+1566718,1566718,Fix Released,DPDK can not be enabled on linux bond,https://bugs.launchpad.net/fuel/+bug/1566718,2016-06-03
+1585274,1585274,Fix Released,python-freezer-client not working,https://bugs.launchpad.net/freezer/+bug/1585274,2016-06-03
+1564806,1564806,Fix Released,Can not save DPDK enabled bond,https://bugs.launchpad.net/fuel/+bug/1564806,2016-06-03
+1525243,1525243,Fix Released,system user swift has interactive shell /bin/bash,https://bugs.launchpad.net/puppet-swift/+bug/1525243,2016-06-03
+1467667,1467667,Fix Released,openstack-puppet modules should support configuring RabbitMQ heartbeat,https://bugs.launchpad.net/puppet-neutron/+bug/1467667,2016-06-03
+1467667,1467667,Fix Released,openstack-puppet modules should support configuring RabbitMQ heartbeat,https://bugs.launchpad.net/puppet-keystone/+bug/1467667,2016-06-03
+1467667,1467667,Fix Released,openstack-puppet modules should support configuring RabbitMQ heartbeat,https://bugs.launchpad.net/puppet-glance/+bug/1467667,2016-06-03
+1467667,1467667,Fix Released,openstack-puppet modules should support configuring RabbitMQ heartbeat,https://bugs.launchpad.net/puppet-ceilometer/+bug/1467667,2016-06-03
+1467667,1467667,Fix Released,openstack-puppet modules should support configuring RabbitMQ heartbeat,https://bugs.launchpad.net/puppet-heat/+bug/1467667,2016-06-03
+1467667,1467667,Fix Released,openstack-puppet modules should support configuring RabbitMQ heartbeat,https://bugs.launchpad.net/puppet-cinder/+bug/1467667,2016-06-03
+1467667,1467667,Fix Released,openstack-puppet modules should support configuring RabbitMQ heartbeat,https://bugs.launchpad.net/puppet-nova/+bug/1467667,2016-06-03
+1506509,1506509,Fix Released,'project_id' and 'user_id' fields are not set with alarm-gnocchi-resources-threshold-create,https://bugs.launchpad.net/python-ceilometerclient/+bug/1506509,2016-06-03
+1587909,1587909,Fix Released,Network verification fails due to missing python-netifaces dependency in network-checker deb package,https://bugs.launchpad.net/fuel/+bug/1587909,2016-06-03
+1587832,1587832,Fix Committed,6.1.fuel-library jobs fail on ci-slave22 and ci-slave23,https://bugs.launchpad.net/fuel/+bug/1587832,2016-06-03
+1558432,1558432,Fix Released,Cgrulesengd doesn't restarts after adding new cgroups,https://bugs.launchpad.net/fuel/+bug/1558432,2016-06-03
+1583863,1583863,Fix Released,[Contrail] Murano and Contrail-control use same port,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1583863,2016-06-03
+1460072,1460072,Fix Released,Configurable proxies for create-mirror script,https://bugs.launchpad.net/fuel/+bug/1460072,2016-06-03
+1585142,1585142,Fix Released,Update tasks fixtures for LCM (idempotency) tests,https://bugs.launchpad.net/fuel/+bug/1585142,2016-06-03
+1585157,1585157,Fix Released,Skip resource changes in test fixtures (task idempotency) as expected,https://bugs.launchpad.net/fuel/+bug/1585157,2016-06-03
+1584109,1584109,Fix Released,Swift UI failures when deleting large numbers of objects,https://bugs.launchpad.net/horizon/+bug/1584109,2016-06-03
+1585065,1585065,Fix Released,"ng-modal has buttons ""Back"" and ""Next"" even though the number of step is one",https://bugs.launchpad.net/horizon/+bug/1585065,2016-06-03
+1565737,1565737,Fix Released,"freezer-api sample configurations doesn't contain storage, keystone sections",https://bugs.launchpad.net/freezer/+bug/1565737,2016-06-03
+1567868,1567868,Fix Released,devstack unstack not delete apache site config,https://bugs.launchpad.net/freezer/+bug/1567868,2016-06-03
+1556933,1556933,Fix Released,freezer-scheduler session-remove-job fails,https://bugs.launchpad.net/freezer/+bug/1556933,2016-06-03
+1569939,1569939,Fix Released,force freezer-api to refresh elasticsearch on new documents,https://bugs.launchpad.net/freezer/+bug/1569939,2016-06-03
+1569996,1569996,Fix Released,elk configuration is not loaded,https://bugs.launchpad.net/freezer/+bug/1569996,2016-06-03
+1578147,1578147,Fix Released,freezer-api mappings are not updated,https://bugs.launchpad.net/freezer/+bug/1578147,2016-06-03
+1557091,1557091,Fix Released,Can't register a client with elasticsearch 2.2.0,https://bugs.launchpad.net/freezer/+bug/1557091,2016-06-03

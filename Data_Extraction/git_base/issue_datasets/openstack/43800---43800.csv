@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1586017,1586017,Fix Committed,[Fuel CI] test-requirements-rpm job jailed for master branch,https://bugs.launchpad.net/fuel/+bug/1586017,2016-05-26
+1546629,1546629,Fix Committed,fuel-devops should not use a common folder ~/.devops for colecting logs,https://bugs.launchpad.net/fuel/+bug/1546629,2016-05-26
+1581819,1581819,Fix Released,[nailgun] Nailgun returns Internal Server Error 500 during serialized deployment graph request,https://bugs.launchpad.net/fuel/+bug/1581819,2016-05-26
+1566921,1566921,Fix Released,create docker network with a wrong name of existed network,https://bugs.launchpad.net/kuryr/+bug/1566921,2016-05-26
+1585629,1585629,Fix Released,Port binding failed after disable/enable vmware-related compute host,https://bugs.launchpad.net/fuel-plugin-vmware-dvs/+bug/1585629,2016-05-26
+1537084,1537084,Fix Released,We should fix lint for ceph puppet module init manifest,https://bugs.launchpad.net/fuel/+bug/1537084,2016-05-26
+1563722,1563722,Fix Released,Get config_drive_format option,https://bugs.launchpad.net/fuel/+bug/1563722,2016-05-26
+1548332,1548332,Fix Committed,Node node-3 is not defined in the network_metadata hash structure at /etc/puppet/modules/osnailyfacter/modular/globals/globals.pp:24,https://bugs.launchpad.net/fuel/+bug/1548332,2016-05-26
+1554796,1554796,Fix Released,hardcoded node role names into openstack-neutron/* tasks,https://bugs.launchpad.net/fuel/+bug/1554796,2016-05-26
+1551749,1551749,Fix Released,Config agent status timeout is too long,https://bugs.launchpad.net/networking-cisco/+bug/1551749,2016-05-26
+1504446,1504446,Fix Released,Revisit i18n bundle for English,https://bugs.launchpad.net/fuel/+bug/1504446,2016-05-26
+1581237,1581237,Fix Committed,There is no Deploy Changes button for Partially deployed cluster after stopped deployment,https://bugs.launchpad.net/fuel/+bug/1581237,2016-05-26
+1585999,1585999,Fix Committed,VmWare tab does not display correctly,https://bugs.launchpad.net/fuel/+bug/1585999,2016-05-26
+1557505,1557505,Fix Released,Crm resource restart Error (pacemaker complex 'or' loc rules aren't supported),https://bugs.launchpad.net/fuel/+bug/1557505,2016-05-26
+1585199,1585199,Fix Released,Update readme for redis and rethinkdb databases,https://bugs.launchpad.net/dragonflow/+bug/1585199,2016-05-26
+1584852,1584852,Fix Released,Change for Glance bootstrap process,https://bugs.launchpad.net/kolla-kubernetes/+bug/1584852,2016-05-26
+1515517,1515517,Fix Released,deprecate version.yaml file,https://bugs.launchpad.net/fuel/+bug/1515517,2016-05-26
+1456643,1456643,Fix Released,[system tests] Test ha_nova_check_alive_rabbit failed  with  ha_nova_check_alive_rabbit while actually it was,https://bugs.launchpad.net/fuel/+bug/1456643,2016-05-26
+1543110,1543110,Fix Released,dockerctl start all does not work with systemd,https://bugs.launchpad.net/fuel/+bug/1543110,2016-05-26
+1578257,1578257,Fix Released,Nailgun support check task (network and repo check) do not update to final status,https://bugs.launchpad.net/fuel/+bug/1578257,2016-05-26
+1541277,1541277,Fix Released,[fuel-menu] Unable to save and quit. Nothing to restore,https://bugs.launchpad.net/fuel/+bug/1541277,2016-05-26
+1585817,1585817,Fix Committed,[BVT] master fails to build because fuelmenu errors with 'ImportError: cannot import name ssl_match_hostname',https://bugs.launchpad.net/fuel/+bug/1585817,2016-05-26
+1561608,1561608,Fix Released,Deployment failed with error: Task name is not provided,https://bugs.launchpad.net/fuel/+bug/1561608,2016-05-26
+1420120,1420120,Fix Released,oauth request token can created with a project that doesn't exist,https://bugs.launchpad.net/keystone/+bug/1420120,2016-05-26
+1582126,1582126,Fix Released,"when loadbalancer is created,  name of the load balancer is not  optional argument.",https://bugs.launchpad.net/neutron/+bug/1582126,2016-05-26
+1551753,1551753,Fix Released,DBDuplicateEntry : seen along with Traceback in loopingcall.py when scaling to 9 networks and 10 VMs per network,https://bugs.launchpad.net/networking-cisco/+bug/1551753,2016-05-26
+1551754,1551754,Fix Released,router-gateway-clear command fails but update is still pushed to the HA backup hosting-device,https://bugs.launchpad.net/networking-cisco/+bug/1551754,2016-05-26
+1584606,1584606,Fix Released,unconsistent security_groups field value in lport,https://bugs.launchpad.net/dragonflow/+bug/1584606,2016-05-26
+1574631,1574631,Fix Released,after running stack router interface is deleted by df-l3-agent,https://bugs.launchpad.net/dragonflow/+bug/1574631,2016-05-26
+1540758,1540758,Fix Released,Duplicated [octavia] section in the description of file services_lbaas.conf,https://bugs.launchpad.net/openstack-manuals/+bug/1540758,2016-05-26
+1583992,1583992,Fix Released,There are many DBKeyNotFound exceptions in dragonflow's log when running fullstack,https://bugs.launchpad.net/dragonflow/+bug/1583992,2016-05-26
+1508404,1508404,Fix Released,remove unused configuration options,https://bugs.launchpad.net/openstack-manuals/+bug/1508404,2016-05-26
+1441953,1441953,Fix Released,Shotgun doesn't allow specify same filename for different commands,https://bugs.launchpad.net/fuel/+bug/1441953,2016-05-26
+1585513,1585513,Fix Released,enable heat in the local conf,https://bugs.launchpad.net/karbor/+bug/1585513,2016-05-26
+1584946,1584946,Fix Released,Slow startup in plug_vifs calls to swift,https://bugs.launchpad.net/nova-powervm/+bug/1584946,2016-05-25
+1506956,1506956,Fix Released,"swift_url (trove-guestagent.conf) has the default value, breaking backups",https://bugs.launchpad.net/puppet-trove/+bug/1506956,2016-05-25
+1528308,1528308,Fix Released,Keystone_endpoint warning everywhere by default,https://bugs.launchpad.net/puppet-keystone/+bug/1528308,2016-05-25
+1524936,1524936,Fix Released,"""Unexpected line"" Warning from swift_ring_builder provider",https://bugs.launchpad.net/puppet-swift/+bug/1524936,2016-05-25
+1524381,1524381,Fix Released,Duplicate declaration when defining swift::storage::* outside swift::storage::server,https://bugs.launchpad.net/puppet-swift/+bug/1524381,2016-05-25
+1524381,1524381,Fix Released,Duplicate declaration when defining swift::storage::* outside swift::storage::server,https://bugs.launchpad.net/tripleo/+bug/1524381,2016-05-25
+1537251,1537251,Fix Released,(...) is declared more than once in the parameter list,https://bugs.launchpad.net/puppet-ironic/+bug/1537251,2016-05-25
+1537251,1537251,Fix Released,(...) is declared more than once in the parameter list,https://bugs.launchpad.net/puppet-murano/+bug/1537251,2016-05-25
+1531960,1531960,Fix Released,Have a function to handle IPv6 address brackets.,https://bugs.launchpad.net/puppet-openstacklib/+bug/1531960,2016-05-25
+1534901,1534901,Fix Released,auth_file is missing domain env vars for v3 api.,https://bugs.launchpad.net/puppet-openstack-extras/+bug/1534901,2016-05-25
+1521539,1521539,Fix Released,Module not working with new auth_keys,https://bugs.launchpad.net/puppet-nova/+bug/1521539,2016-05-25
+1501767,1501767,Fix Released,Nova_network provider relies that nova-network service is running with nova-api service,https://bugs.launchpad.net/puppet-nova/+bug/1501767,2016-05-25
+1530163,1530163,Fix Released,"neutron provider parses the wrong json output, breaking all idempotency (prefetch) in a lot of providers.",https://bugs.launchpad.net/puppet-neutron/+bug/1530163,2016-05-25
+1508511,1508511,Fix Released,"providers, like neutron_network, neutron_subnet, fails if Neutron CLI throw warnings",https://bugs.launchpad.net/puppet-neutron/+bug/1508511,2016-05-25
+1544934,1544934,Fix Released,Metadata agent doesn't apply config after package installation,https://bugs.launchpad.net/puppet-neutron/+bug/1544934,2016-05-25
+1474961,1474961,Fix Released,Can't use fwaas without db upgrade,https://bugs.launchpad.net/puppet-neutron/+bug/1474961,2016-05-25
+1535939,1535939,Fix Released,endpoint code doesnt properly pass in region,https://bugs.launchpad.net/puppet-keystone/+bug/1535939,2016-05-25
+1541512,1541512,Fix Released,keystone provider fails with ipv6,https://bugs.launchpad.net/puppet-keystone/+bug/1541512,2016-05-25
+1356083,1356083,Fix Released,rabbit_use_ssl shouldn't require kombu certs settings,https://bugs.launchpad.net/puppet-neutron/+bug/1356083,2016-05-25
+1356083,1356083,Fix Released,rabbit_use_ssl shouldn't require kombu certs settings,https://bugs.launchpad.net/puppet-cinder/+bug/1356083,2016-05-25
+1356083,1356083,Fix Released,rabbit_use_ssl shouldn't require kombu certs settings,https://bugs.launchpad.net/puppet-ceilometer/+bug/1356083,2016-05-25
+1356083,1356083,Fix Released,rabbit_use_ssl shouldn't require kombu certs settings,https://bugs.launchpad.net/puppet-heat/+bug/1356083,2016-05-25
+1356083,1356083,Fix Released,rabbit_use_ssl shouldn't require kombu certs settings,https://bugs.launchpad.net/puppet-keystone/+bug/1356083,2016-05-25
+1356083,1356083,Fix Released,rabbit_use_ssl shouldn't require kombu certs settings,https://bugs.launchpad.net/puppet-nova/+bug/1356083,2016-05-25
+1546357,1546357,Fix Released,Keystone resource providers can create duplicates if Keystone API calls fail during resource prefetch,https://bugs.launchpad.net/puppet-keystone/+bug/1546357,2016-05-25
+1515630,1515630,Fix Released,ironic-inspector-dnsmasq will not start with SELinux enforcing,https://bugs.launchpad.net/puppet-ironic/+bug/1515630,2016-05-25
+1532352,1532352,Fix Released,Glance on the overcloud with Swift backend is broken,https://bugs.launchpad.net/puppet-glance/+bug/1532352,2016-05-25
+1532352,1532352,Fix Released,Glance on the overcloud with Swift backend is broken,https://bugs.launchpad.net/tripleo/+bug/1532352,2016-05-25
+1526533,1526533,Fix Released,puppet-cinder duplicate resource error,https://bugs.launchpad.net/puppet-cinder/+bug/1526533,2016-05-25
+1583836,1583836,Fix Released,Tox ValueError No closing quotation,https://bugs.launchpad.net/heat-translator/+bug/1583836,2016-05-25
+1551738,1551738,Fix Released,Config agent health is not checked unless notification is sent,https://bugs.launchpad.net/networking-cisco/+bug/1551738,2016-05-25
+1583957,1583957,Fix Committed,Change test group for uca_neutron_ha swarm thread,https://bugs.launchpad.net/fuel/+bug/1583957,2016-05-25
+1583501,1583501,Fix Committed,"Add fuel-plugin-detach-haproxy, fuel-plugin-external-lb building to ci",https://bugs.launchpad.net/fuel/+bug/1583501,2016-05-25
+1583976,1583976,Fix Released,Add tests for task idempotency of cluster in HA mode,https://bugs.launchpad.net/fuel/+bug/1583976,2016-05-25
+1256049,1256049,Fix Released,[OSSA 2013-034] Heat CFN policy rules not all enforced (CVE-2013-6426),https://bugs.launchpad.net/heat/+bug/1256049,2016-05-25
+1256049,1256049,Fix Released,[OSSA 2013-034] Heat CFN policy rules not all enforced (CVE-2013-6426),https://bugs.launchpad.net/ossa/+bug/1256049,2016-05-25
+1240903,1240903,Fix Released,Stack fails to create when TimeoutInMinutes property is a string,https://bugs.launchpad.net/heat/+bug/1240903,2016-05-25
+1241276,1241276,Fix Released,Number properties don't cast strings to numbers,https://bugs.launchpad.net/heat/+bug/1241276,2016-05-25
+1306743,1306743,Fix Released,queuepool limit of size 5 overflow,https://bugs.launchpad.net/heat/+bug/1306743,2016-05-25
+1444087,1444087,Fix Released,SoftwareDeployments don't work for non-CREATE actions,https://bugs.launchpad.net/heat/+bug/1444087,2016-05-25
+1367375,1367375,Fix Released,Passing number and bool literals to string properties fails with Property error,https://bugs.launchpad.net/heat/+bug/1367375,2016-05-25

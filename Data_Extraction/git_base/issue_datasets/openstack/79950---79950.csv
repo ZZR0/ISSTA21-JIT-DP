@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1291614,1291614,Fix Released,StructuredDeployment is missing the name property,https://bugs.launchpad.net/heat/+bug/1291614,2014-04-17
+1291421,1291421,Fix Released,ResourceGroup doesn't work when there is no properties,https://bugs.launchpad.net/heat/+bug/1291421,2014-04-17
+1289528,1289528,Fix Released,Improve compatibility between Keystone V2 and V3 interfaces,https://bugs.launchpad.net/heat/+bug/1289528,2014-04-17
+1287164,1287164,Fix Released,resource-type-show doesn't work on template resource,https://bugs.launchpad.net/heat/+bug/1287164,2014-04-17
+1286920,1286920,Fix Released,Cannot signal during SUSPEND or DELETE,https://bugs.launchpad.net/heat/+bug/1286920,2014-04-17
+1280268,1280268,Fix Released,WaitCondition resource lacks attributes schema,https://bugs.launchpad.net/heat/+bug/1280268,2014-04-17
+1279645,1279645,Fix Released,stack delete failed when using OS::Neutron::Router's external_gateway_info property,https://bugs.launchpad.net/heat/+bug/1279645,2014-04-17
+1279085,1279085,Fix Released,Getting attributes of a OS::Nova::Server raises a 500 if the server doesn't exist,https://bugs.launchpad.net/heat/+bug/1279085,2014-04-17
+1270313,1270313,Fix Released,Documentation - server:security_groups has no effect if neutron ports assigned,https://bugs.launchpad.net/heat/+bug/1270313,2014-04-17
+1266523,1266523,Fix Released,deleted stacks retain stored credentials,https://bugs.launchpad.net/heat/+bug/1266523,2014-04-17
+1250645,1250645,Fix Released,OS::Nova::Server networks property needs to be UpdateAllowed,https://bugs.launchpad.net/heat/+bug/1250645,2014-04-17
+1299827,1299827,Fix Released,Nova FloatingIPAssociation not properly removed,https://bugs.launchpad.net/heat/+bug/1299827,2014-04-17
+1299174,1299174,Fix Released,template  migration fails if version is integer,https://bugs.launchpad.net/heat/+bug/1299174,2014-04-17
+1297349,1297349,Fix Released,glance.image catches a generic exception,https://bugs.launchpad.net/heat/+bug/1297349,2014-04-17
+1296747,1296747,Fix Released,Nova keypair cannot be updated,https://bugs.launchpad.net/heat/+bug/1296747,2014-04-17
+1296608,1296608,Fix Released,"Change router's property name ""agent_id"" to ""l3_agent_id""",https://bugs.launchpad.net/heat/+bug/1296608,2014-04-17
+1294033,1294033,Fix Released,Stack files are not available in nested stacks,https://bugs.launchpad.net/heat/+bug/1294033,2014-04-17
+1293234,1293234,Fix Released,deployment metadata cannot be polled with stack domain credentials,https://bugs.launchpad.net/heat/+bug/1293234,2014-04-17
+1291411,1291411,Fix Released,get_param is not working with stack-update,https://bugs.launchpad.net/heat/+bug/1291411,2014-04-17
+1291097,1291097,Fix Released,deployment native signalling failing,https://bugs.launchpad.net/heat/+bug/1291097,2014-04-17
+1291097,1291097,Fix Released,deployment native signalling failing,https://bugs.launchpad.net/python-heatclient/+bug/1291097,2014-04-17
+1291060,1291060,Fix Released,"stack delete overcloud fails on Delete AccessKey ""NovaCompute0Key""",https://bugs.launchpad.net/tripleo/+bug/1291060,2014-04-17
+1291060,1291060,Fix Released,"stack delete overcloud fails on Delete AccessKey ""NovaCompute0Key""",https://bugs.launchpad.net/heat/+bug/1291060,2014-04-17
+1290621,1290621,Fix Released,_build_deployments_metadata fails with context provided to describe_stack_resource,https://bugs.launchpad.net/heat/+bug/1290621,2014-04-17
+1288627,1288627,Fix Released,TheadGroupManager.start_with_acquired_lock does not pass keyword arguments to the function being started,https://bugs.launchpad.net/heat/+bug/1288627,2014-04-17
+1288541,1288541,Fix Released,KeyError when using a provider template,https://bugs.launchpad.net/heat/+bug/1288541,2014-04-17
+1288523,1288523,Fix Released,Server metadata polling failed with instance-users,https://bugs.launchpad.net/heat/+bug/1288523,2014-04-17
+1288514,1288514,Fix Released,Conflict occurred attempting to store project.,https://bugs.launchpad.net/heat/+bug/1288514,2014-04-17
+1288223,1288223,Fix Released,Signaling fails when using trusts,https://bugs.launchpad.net/heat/+bug/1288223,2014-04-17
+1288223,1288223,Fix Released,Signaling fails when using trusts,https://bugs.launchpad.net/python-keystoneclient/+bug/1288223,2014-04-17
+1287445,1287445,Fix Released,StackNotFound ERROR stacktrace logging in passing heat job,https://bugs.launchpad.net/heat/+bug/1287445,2014-04-17
+1287397,1287397,Fix Released,HOT get_attr returning empty string if there is no value breaks validation,https://bugs.launchpad.net/heat/+bug/1287397,2014-04-17
+1286307,1286307,Fix Released,stack-update fails when new resources added to OS::Heat::AccessPolicy,https://bugs.launchpad.net/heat/+bug/1286307,2014-04-17
+1286307,1286307,Fix Released,stack-update fails when new resources added to OS::Heat::AccessPolicy,https://bugs.launchpad.net/tripleo/+bug/1286307,2014-04-17
+1286179,1286179,Fix Released,list_resource_types filters template based resources,https://bugs.launchpad.net/heat/+bug/1286179,2014-04-17
+1280391,1280391,Fix Released,resource-list fails for ResourceGroup,https://bugs.launchpad.net/heat/+bug/1280391,2014-04-17
+1271008,1271008,Fix Released,HOT has no equivalent to DependsOn,https://bugs.launchpad.net/heat/+bug/1271008,2014-04-17
+1243992,1243992,Fix Released,Race on delete between OS::Neutron::Subnet and OS::Nova::Server->networks->uuid,https://bugs.launchpad.net/heat/+bug/1243992,2014-04-17
+1089261,1089261,Fix Released,Avoid needing admin role for stack create/delete,https://bugs.launchpad.net/heat/+bug/1089261,2014-04-17
+1285891,1285891,Fix Released,Cloud-init is broken on CentOS 6.5 for Rackspace Cloud Server resource,https://bugs.launchpad.net/heat/+bug/1285891,2014-04-17
+1285681,1285681,Fix Released,User-defined alarms do not start for all tenants,https://bugs.launchpad.net/heat/+bug/1285681,2014-04-17
+1283243,1283243,Fix Released,Unknown property in nested schema,https://bugs.launchpad.net/heat/+bug/1283243,2014-04-17
+1280866,1280866,Fix Released,run_tests.sh default doc omits pep8,https://bugs.launchpad.net/heat/+bug/1280866,2014-04-17
+1280016,1280016,Fix Released,New nova keypair validation breaks client plugin functionality,https://bugs.launchpad.net/heat/+bug/1280016,2014-04-17
+1279239,1279239,Fix Released,Ensure 'name' property update allowed for OS::Nova::Server,https://bugs.launchpad.net/heat/+bug/1279239,2014-04-17
+1279010,1279010,Fix Released,Stack lock on a dead engine results in StopActionFailed during stack-delete,https://bugs.launchpad.net/heat/+bug/1279010,2014-04-17
+1278532,1278532,Fix Released,The KeyPair resource needs validation,https://bugs.launchpad.net/heat/+bug/1278532,2014-04-17
+1277515,1277515,Fix Released,AWS::EC2::SubnetRouteTableAssociation name has a typo,https://bugs.launchpad.net/heat/+bug/1277515,2014-04-17
+1277215,1277215,Fix Released,heat_template_version: 2013-05-23 not enforced,https://bugs.launchpad.net/heat/+bug/1277215,2014-04-17
+1273538,1273538,Fix Released,make sure the environment file is in YAML format,https://bugs.launchpad.net/heat/+bug/1273538,2014-04-17
+1272258,1272258,Fix Released,updating NetDHCPAgent doesn't work with new network_id that is associated with specific dhcp_agent_id,https://bugs.launchpad.net/heat/+bug/1272258,2014-04-17
+1271397,1271397,Fix Released,rolling update logic compares str(template),https://bugs.launchpad.net/heat/+bug/1271397,2014-04-17
+1271303,1271303,Fix Released,Server resource incompatible with Nova Key Pair resource,https://bugs.launchpad.net/heat/+bug/1271303,2014-04-17
+1271226,1271226,Fix Released,Docs for modules in contrib are not generated,https://bugs.launchpad.net/heat/+bug/1271226,2014-04-17
+1270922,1270922,Fix Released,Error in Rackspace Auto Scale resource's properties schema,https://bugs.launchpad.net/heat/+bug/1270922,2014-04-17
+1270750,1270750,Fix Released,OS::Neutron::Pool could not be created when session_persistence.type is HTTP_COOKIE or  SOURCE_IP,https://bugs.launchpad.net/heat/+bug/1270750,2014-04-17
+1270740,1270740,Fix Released,Validation fails for OS::Neutron::Pool if vip.session_persistence is None,https://bugs.launchpad.net/heat/+bug/1270740,2014-04-17
+1270070,1270070,Fix Released,"not validate maxsize minsize when create ""AWS::AutoScaling::AutoScalingGroup""",https://bugs.launchpad.net/heat/+bug/1270070,2014-04-17
+1267735,1267735,Fix Released,"weather can set ""HeatTemplateFormatVersion"" as default while the template missing version section",https://bugs.launchpad.net/heat/+bug/1267735,2014-04-17
+1267379,1267379,Fix Released,whether the  template is using the JSON or YAML format,https://bugs.launchpad.net/heat/+bug/1267379,2014-04-17
+1260282,1260282,Fix Released,Invalid AWS::StackId value is returned when updating a nested stack,https://bugs.launchpad.net/heat/+bug/1260282,2014-04-17
+1270833,1270833,Fix Released,Wrong type name used in tempest heat_minimal_hot.yaml template,https://bugs.launchpad.net/heat/+bug/1270833,2014-04-17
+1278937,1278937,Fix Released,db_api.user_creds_get() traceback during tests,https://bugs.launchpad.net/heat/+bug/1278937,2014-04-17
+1268706,1268706,Fix Released,Cinder client uses incorrect region for Rackspace clients,https://bugs.launchpad.net/heat/+bug/1268706,2014-04-17
+1263743,1263743,Fix Released,AccessKey resource lacks attributes schema,https://bugs.launchpad.net/heat/+bug/1263743,2014-04-17
+1279888,1279888,Fix Released,heat user cannot learn the max template size,https://bugs.launchpad.net/heat/+bug/1279888,2014-04-17
+1278836,1278836,Fix Released,stack lock delete change causes test traceback,https://bugs.launchpad.net/heat/+bug/1278836,2014-04-17
+1276880,1276880,Fix Released,heat-db-setup should set default character set to utf-8,https://bugs.launchpad.net/heat/+bug/1276880,2014-04-17
+1276336,1276336,Fix Released,Stacks that have been soft deleted remain locked,https://bugs.launchpad.net/heat/+bug/1276336,2014-04-17
+1275838,1275838,Fix Released,heat does not read sql db config option,https://bugs.launchpad.net/heat/+bug/1275838,2014-04-17
+1274994,1274994,Fix Released,format_validate_parameter doesn't convert constraint description,https://bugs.launchpad.net/heat/+bug/1274994,2014-04-17
+1274155,1274155,Fix Released,Problems with OS::Nova::Server metadata property and complex values,https://bugs.launchpad.net/heat/+bug/1274155,2014-04-17
+1273993,1273993,Fix Released,devstack heat-api broken,https://bugs.launchpad.net/python-heatclient/+bug/1273993,2014-04-17
+1273993,1273993,Fix Released,devstack heat-api broken,https://bugs.launchpad.net/heat/+bug/1273993,2014-04-17
+1273240,1273240,Fix Released,missing 'stack' in event_type names for stacks CRUD notifications,https://bugs.launchpad.net/heat/+bug/1273240,2014-04-17

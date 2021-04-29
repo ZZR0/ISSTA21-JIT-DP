@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1444300,1444300,Fix Released,nova-compute service doesn't restart if resize operation fails,https://bugs.launchpad.net/nova/+bug/1444300,2015-10-15
+1444021,1444021,Fix Released,HostState.consume_from_instance fails when instance has numa topology,https://bugs.launchpad.net/nova/+bug/1444021,2015-10-15
+1443082,1443082,Fix Released,VMware: console access result in repeated keystrokes,https://bugs.launchpad.net/nova/+bug/1443082,2015-10-15
+1442602,1442602,Fix Released,live migration fails during destination host check,https://bugs.launchpad.net/nova/+bug/1442602,2015-10-15
+1440968,1440968,Fix Released,AttributeError: 'module' object has no attribute 'DatastorePath',https://bugs.launchpad.net/nova/+bug/1440968,2015-10-15
+1439585,1439585,Fix Released,VMware:  when booting with --ephemeral and we fail to default the adapter_type available from the image.,https://bugs.launchpad.net/nova/+bug/1439585,2015-10-15
+1439168,1439168,Fix Released,VMware: Attached volume vmdk not removed before instance delete,https://bugs.launchpad.net/nova/+bug/1439168,2015-10-15
+1438803,1438803,Fix Released,libvirt error libvirtError: Requested operation is not valid: nwfilter is in use hit in _post_live_migration,https://bugs.launchpad.net/nova/+bug/1438803,2015-10-15
+1404268,1404268,Fix Released,Missing nova context during spawn,https://bugs.launchpad.net/nova/+bug/1404268,2015-10-15
+1392923,1392923,Fix Released,Orphan floating ip's created via rapid delete/assign/remove operations,https://bugs.launchpad.net/nova/+bug/1392923,2015-10-15
+1329261,1329261,Fix Released,vmware: VCdriver creates same hypervisor_hostname for different vcenters with same Cluster name,https://bugs.launchpad.net/nova/+bug/1329261,2015-10-15
+984996,984996,Fix Released,Instance directory does not exist: Unable to pre-create chardev file console.log,https://bugs.launchpad.net/nova/+bug/984996,2015-10-15
+1463747,1463747,Fix Released,multinode job failing in test_live_block_migration,https://bugs.launchpad.net/nova/+bug/1463747,2015-10-15
+1459021,1459021,Fix Released,nova vmware unit tests failing with oslo.vmware 0.13.0,https://bugs.launchpad.net/nova/+bug/1459021,2015-10-15
+1451389,1451389,Fix Released,Nova gate broke due to failed unit test,https://bugs.launchpad.net/nova/+bug/1451389,2015-10-15
+1448075,1448075,Fix Released,Recent compute RPC API version bump missed out on security group parts of the api,https://bugs.launchpad.net/nova/+bug/1448075,2015-10-15
+1444439,1444439,Fix Released,Resource tracker: unable to start nova compute,https://bugs.launchpad.net/nova/+bug/1444439,2015-10-15
+1443375,1443375,Fix Released,Version API doesn't return microversion info,https://bugs.launchpad.net/nova/+bug/1443375,2015-10-15
+1442656,1442656,Fix Released,"live migration fails, because incorrect arguments order passed to method",https://bugs.launchpad.net/nova/+bug/1442656,2015-10-15
+1496195,1496195,Fix Released,Revise the upgrade content in OpenStack Operations Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1496195,2015-10-15
+1492749,1492749,Fix Released,Domain masters loaded as attributes when doing _find_domains,https://bugs.launchpad.net/designate/+bug/1492749,2015-10-15
+1498183,1498183,Fix Released,Designate should 400 when given a ttl or email with a secondary zone,https://bugs.launchpad.net/designate/+bug/1498183,2015-10-15
+1498121,1498121,Fix Released,Designate accepts a primary zone with non-empty list of  masters,https://bugs.launchpad.net/designate/+bug/1498121,2015-10-15
+1486709,1486709,Fix Released,Incorrect error code for unathorized policy on all_tenants and edit_managed attributes,https://bugs.launchpad.net/designate/+bug/1486709,2015-10-15
+1466300,1466300,Fix Released,TSIG verify failure at DNS backend side,https://bugs.launchpad.net/designate/+bug/1466300,2015-10-15
+1432850,1432850,Fix Released,Add periodic refresh task for SECONDARY zones,https://bugs.launchpad.net/designate/+bug/1432850,2015-10-15
+1493942,1493942,Fix Released,API returns incorrect response when a pool has multiple ns records,https://bugs.launchpad.net/designate/+bug/1493942,2015-10-15
+1492750,1492750,Fix Released,dnsutils.do_axfr should use srv.host vs srv.ip,https://bugs.launchpad.net/designate/+bug/1492750,2015-10-15
+1487688,1487688,Fix Released,Spell mistake and sentence formation errors,https://bugs.launchpad.net/designate/+bug/1487688,2015-10-15
+1487684,1487684,Fix Released,Difficult in cloning designate,https://bugs.launchpad.net/designate/+bug/1487684,2015-10-15
+1481114,1481114,Fix Released,Fix eleven typos on designate documentation,https://bugs.launchpad.net/designate/+bug/1481114,2015-10-15
+1484332,1484332,Fix Released,devstack git link is wrong in designate using devstack document,https://bugs.launchpad.net/designate/+bug/1484332,2015-10-15
+1479459,1479459,Fix Released,Creating wildcard records fails in v2,https://bugs.launchpad.net/designate/+bug/1479459,2015-10-15
+1482270,1482270,Fix Released,Zone Ownership Transfers Requests are broken,https://bugs.launchpad.net/designate/+bug/1482270,2015-10-15
+1481377,1481377,Fix Released,jsonutils to_primitive needs iteritems on passed object,https://bugs.launchpad.net/designate/+bug/1481377,2015-10-15
+1481309,1481309,Fix Released,all_tenants filter is currently broken,https://bugs.launchpad.net/designate/+bug/1481309,2015-10-15
+1478487,1478487,Fix Released,Cannot filter on pools.,https://bugs.launchpad.net/designate/+bug/1478487,2015-10-15
+1473758,1473758,Fix Released,Trying to AXFR a secondary that hasn't yet initially axfr'd will fail,https://bugs.launchpad.net/designate/+bug/1473758,2015-10-15
+1490034,1490034,Fix Released,Self links return 'http://' when behind an SSL terminating proxy,https://bugs.launchpad.net/designate/+bug/1490034,2015-10-15
+1486735,1486735,Fix Released,API fails to start with oslo.middleware 1.6.0,https://bugs.launchpad.net/designate/+bug/1486735,2015-10-15
+1478517,1478517,Fix Released,Incorrect JSON format of the v1 REST API doc.,https://bugs.launchpad.net/designate/+bug/1478517,2015-10-15
+1471915,1471915,Fix Released,record create / update buttons are not friendly,https://bugs.launchpad.net/designate/+bug/1471915,2015-10-15
+1466649,1466649,Fix Released,"Cannot filter on blacklists, records, & tlds",https://bugs.launchpad.net/designate/+bug/1466649,2015-10-15
+1466545,1466545,Fix Released,"Zone filtering by TTL, Description & Status",https://bugs.launchpad.net/designate/+bug/1466545,2015-10-15
+1473212,1473212,Fix Released,Invalid JSON input type raises incorrect exceptions,https://bugs.launchpad.net/designate/+bug/1473212,2015-10-15
+1459786,1459786,Fix Released,create duplicate domain in horizon has a bad error message,https://bugs.launchpad.net/designate/+bug/1459786,2015-10-15
+1394328,1394328,Fix Released,listening on ipv6 fails,https://bugs.launchpad.net/designate/+bug/1394328,2015-10-15
+1478153,1478153,Fix Released,designate-manage tld's is broken,https://bugs.launchpad.net/designate/+bug/1478153,2015-10-15
+1473210,1473210,Fix Released,Seconday zones with incorrect masters raises TypeError,https://bugs.launchpad.net/designate/+bug/1473210,2015-10-15
+1471159,1471159,Fix Released,Missing check for domain ownership,https://bugs.launchpad.net/designate/+bug/1471159,2015-10-15
+1470864,1470864,Fix Released,"Bind9 Gate occasionally fails due to ""operation canceled""",https://bugs.launchpad.net/designate/+bug/1470864,2015-10-15
+1468452,1468452,Fix Released,APIv2 does not reject requests that have invalid filters,https://bugs.launchpad.net/designate/+bug/1468452,2015-10-15
+1466568,1466568,Fix Released,v1 record description not accessible in v2 API,https://bugs.launchpad.net/designate/+bug/1466568,2015-10-15
+1465731,1465731,Fix Released,Logging during hook point setup doesn't work.,https://bugs.launchpad.net/designate/+bug/1465731,2015-10-15
+1447325,1447325,Fix Released,Filtering recordsets by data gives total_count = null,https://bugs.launchpad.net/designate/+bug/1447325,2015-10-15
+1445127,1445127,Fix Released,Multiple Pool Manager - every PM is running periodic sync,https://bugs.launchpad.net/designate/+bug/1445127,2015-10-15
+1413807,1413807,Fix Released,Testing Failures are Displayed 3 Times,https://bugs.launchpad.net/designate/+bug/1413807,2015-10-15
+1471161,1471161,Fix Released,Designate mDNS DoS through incorrect handling of large RecordSets,https://bugs.launchpad.net/designate/+bug/1471161,2015-10-15
+1470854,1470854,Fix Released,Random gate failure during test_find_zone_imports,https://bugs.launchpad.net/designate/+bug/1470854,2015-10-15
+1468776,1468776,Fix Released,Random gate failure during quotas testing,https://bugs.launchpad.net/designate/+bug/1468776,2015-10-15
+1465644,1465644,Fix Released,InvalidDomainName logs a full stacktrace,https://bugs.launchpad.net/designate/+bug/1465644,2015-10-15
+1453591,1453591,Fix Released,Identity v3 PKI token over 8k does not work,https://bugs.launchpad.net/designate/+bug/1453591,2015-10-15
+1446242,1446242,Fix Released,Allow to use network label in nova_fixed format,https://bugs.launchpad.net/designate/+bug/1446242,2015-10-15
+1463769,1463769,Fix Released,self.check_for_tlds is not set to False when there's no more tlds,https://bugs.launchpad.net/designate/+bug/1463769,2015-10-15
+1462448,1462448,Fix Released,designate-dashboard quota error message fails to display,https://bugs.launchpad.net/designate/+bug/1462448,2015-10-15
+1460729,1460729,Fix Released,designate dashboard reuses update and detail screen for records,https://bugs.launchpad.net/designate/+bug/1460729,2015-10-15
+1453937,1453937,Fix Released,designate dashboard tox tests are not passing,https://bugs.launchpad.net/designate/+bug/1453937,2015-10-15
+1453870,1453870,Fix Released,designate dashboard create domain should honor quotas,https://bugs.launchpad.net/designate/+bug/1453870,2015-10-15
+1447737,1447737,Fix Released,dashboard create record dialog has a terse user experience,https://bugs.launchpad.net/designate/+bug/1447737,2015-10-15
+1447663,1447663,Fix Released,Update JSON in howtos examples to match the API,https://bugs.launchpad.net/designate/+bug/1447663,2015-10-15
+1447324,1447324,Fix Released,Recordsets can not be filtered by status,https://bugs.launchpad.net/designate/+bug/1447324,2015-10-15
+1446980,1446980,Fix Released,Duplicated index on table 'records' of pDNS,https://bugs.launchpad.net/designate/+bug/1446980,2015-10-15
+1444901,1444901,Fix Released,Service threadpool size needs to be configurable,https://bugs.launchpad.net/designate/+bug/1444901,2015-10-15
+1444414,1444414,Fix Released,Order of nameservers is not random,https://bugs.launchpad.net/designate/+bug/1444414,2015-10-15
+1438438,1438438,Fix Released,designatedashboard lacks support for policy files,https://bugs.launchpad.net/designate/+bug/1438438,2015-10-15

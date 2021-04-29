@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1451341,1451341,Fix Released,Route port deletion is not correct,https://bugs.launchpad.net/dragonflow/+bug/1451341,2016-03-14
+1451405,1451405,Fix Released,DHCP server port for devstack demo network in dead state,https://bugs.launchpad.net/dragonflow/+bug/1451405,2016-03-14
+1454239,1454239,Fix Released,Packet OUT is sent to wrong port,https://bugs.launchpad.net/dragonflow/+bug/1454239,2016-03-14
+1462771,1462771,Fix Released,Automatically delete of subnet object on router interface deletion,https://bugs.launchpad.net/dragonflow/+bug/1462771,2016-03-14
+1464378,1464378,Fix Released,Ryu should be installed for a specific version in devstack plugin,https://bugs.launchpad.net/dragonflow/+bug/1464378,2016-03-14
+1480760,1480760,Fix Released,The tunneled east-west packets are sent to every nodes,https://bugs.launchpad.net/dragonflow/+bug/1480760,2016-03-14
+1485501,1485501,Fix Released,Dragonflow local controller doesnt allocate unique ids correctly,https://bugs.launchpad.net/dragonflow/+bug/1485501,2016-03-14
+1496696,1496696,Fix Released,Add controller dispatch message to apps for lswitch create/delete,https://bugs.launchpad.net/dragonflow/+bug/1496696,2016-03-14
+1497709,1497709,Fix Released,"Remove ""ovn"" methods from DF plugin and devstack",https://bugs.launchpad.net/dragonflow/+bug/1497709,2016-03-14
+1505616,1505616,Fix Released,no connectivity between VMs while creating new router,https://bugs.launchpad.net/dragonflow/+bug/1505616,2016-03-14
+1507506,1507506,Fix Released,Problem getting assigning DHCP address to VM,https://bugs.launchpad.net/dragonflow/+bug/1507506,2016-03-14
+1507553,1507553,Fix Released,ETCD publish-subscribe misses DB changes,https://bugs.launchpad.net/dragonflow/+bug/1507553,2016-03-14
+1510812,1510812,Fix Released,rejoin stack isn't supported,https://bugs.launchpad.net/dragonflow/+bug/1510812,2016-03-14
+1512713,1512713,Fix Released,DHCP don't supports VM shutdown,https://bugs.launchpad.net/dragonflow/+bug/1512713,2016-03-14
+1513072,1513072,Fix Released,Bug in removing ovs rules on VM shutdown,https://bugs.launchpad.net/dragonflow/+bug/1513072,2016-03-14
+1517517,1517517,Fix Released,error in plugin.sh: _neutron_ovs_base_setup_bridge: command not found,https://bugs.launchpad.net/dragonflow/+bug/1517517,2016-03-14
+1518709,1518709,Fix Released,Clean all flows on controller restart,https://bugs.launchpad.net/dragonflow/+bug/1518709,2016-03-14
+1526788,1526788,Fix Released,etcd DB data is deleted after server restart,https://bugs.launchpad.net/dragonflow/+bug/1526788,2016-03-14
+1528138,1528138,Fix Released,RethinkDB isn't support multi-node environment,https://bugs.launchpad.net/dragonflow/+bug/1528138,2016-03-14
+1543956,1543956,Fix Released,df db cli imports neutron not from the right package,https://bugs.launchpad.net/dragonflow/+bug/1543956,2016-03-14
+1556738,1556738,Fix Released,Break loop if find nova url,https://bugs.launchpad.net/heat-translator/+bug/1556738,2016-03-14
+1553521,1553521,Fix Released,Reconfigure  rabbitmq service,https://bugs.launchpad.net/kolla/+bug/1553521,2016-03-14
+1549154,1549154,Fix Released,kazoo exception: SessionExpiredError under high load,https://bugs.launchpad.net/dragonflow/+bug/1549154,2016-03-14
+1548437,1548437,Fix Released,clean up df db for untack.sh,https://bugs.launchpad.net/dragonflow/+bug/1548437,2016-03-14
+1549753,1549753,Fix Released,Logger resource temporarily unavailable alert in HAProxy logs,https://bugs.launchpad.net/kolla/+bug/1549753,2016-03-14
+1553522,1553522,Fix Released,droproot implementation for neutron,https://bugs.launchpad.net/kolla/+bug/1553522,2016-03-13
+1555972,1555972,Fix Released,Generated openrc doesn't work with keystone v3 in vagrant,https://bugs.launchpad.net/kolla/+bug/1555972,2016-03-13
+1555900,1555900,Fix Released,dragonflow receive twice feature replys from ovs,https://bugs.launchpad.net/dragonflow/+bug/1555900,2016-03-13
+1458125,1458125,Fix Released,EMC drivers needs to return snapshot objects for create_cgsnapshot and delete_cgsnapshot,https://bugs.launchpad.net/cinder/+bug/1458125,2016-03-13
+1502157,1502157,Fix Released,Updating a project's domain_id can create an illegal project hierarchy,https://bugs.launchpad.net/keystone/+bug/1502157,2016-03-13
+1493087,1493087,Fix Released,[Training guides] Add slides: OpenStack getting started,https://bugs.launchpad.net/openstack-training-guides/+bug/1493087,2016-03-13
+1523570,1523570,Fix Released,Bug external references in commit message is not working to reflect launchpad status,https://bugs.launchpad.net/openstack-training-guides/+bug/1523570,2016-03-13
+1535393,1535393,Fix Released,Landing page for training-guides,https://bugs.launchpad.net/openstack-training-guides/+bug/1535393,2016-03-13
+1516085,1516085,Fix Released,quotas calls fail when CONF.keymgr.encryption_auth_url is not configured,https://bugs.launchpad.net/cinder/+bug/1516085,2016-03-13
+1446750,1446750,Fix Released,cinder-manage service list shows happy for uninitialized driver,https://bugs.launchpad.net/cinder/+bug/1446750,2016-03-13
+1472031,1472031,Fix Released,authority check for create volume API happens too late,https://bugs.launchpad.net/cinder/+bug/1472031,2016-03-13
+1556329,1556329,Fix Released,shortdesc role missing for several methods in networks.wadl,https://bugs.launchpad.net/openstack-api-site/+bug/1556329,2016-03-13
+1556328,1556328,Fix Released,"shortdesc role missing in identity-admin.wadl, v2",https://bugs.launchpad.net/openstack-api-site/+bug/1556328,2016-03-13
+1555509,1555509,Fix Released,"Block storage API v2 wrong link reference in ""POST /v2/​{tenant_id}​/volumes"" response parameters table.",https://bugs.launchpad.net/openstack-api-site/+bug/1555509,2016-03-13
+1554883,1554883,Fix Released,[Manila][Share metadata] metadata parameter should be required,https://bugs.launchpad.net/openstack-api-site/+bug/1554883,2016-03-13
+1478221,1478221,Fix Released,"Incorrect parameter in ""Create a load balancer pool"" - Networking API v2.0 extensions",https://bugs.launchpad.net/openstack-api-site/+bug/1478221,2016-03-13
+1554860,1554860,Fix Released,Glance: Image service API v2 has incorrect data type,https://bugs.launchpad.net/openstack-api-site/+bug/1554860,2016-03-13
+1555888,1555888,Fix Released,[Compute API v2.1 Servers - run an action ]Wrong API between Add floating IP and Confirm resize server.,https://bugs.launchpad.net/openstack-api-site/+bug/1555888,2016-03-13
+1554308,1554308,Fix Released,Definition of Conflict(409) error code for Networking API is duplicated,https://bugs.launchpad.net/openstack-api-site/+bug/1554308,2016-03-13
+1555474,1555474,Fix Released,[Image service API v2] Type of some parameters is wrong in Response Parameters Table for Listing public virtual machine (VM) images.,https://bugs.launchpad.net/openstack-api-site/+bug/1555474,2016-03-13
+1555465,1555465,Fix Released,[neutron][/v2.0/lbaas/pools] Some parameters have wrong type,https://bugs.launchpad.net/openstack-api-site/+bug/1555465,2016-03-13
+1555500,1555500,Fix Released,Block storage v2.0 Shows absolute limits for a tenant missing response parameter.,https://bugs.launchpad.net/openstack-api-site/+bug/1555500,2016-03-13
+1537698,1537698,Fix Released,Update node interfaces failed in tests because of unexpected 'eth0' name instead of 'enp0s3',https://bugs.launchpad.net/fuel/+bug/1537698,2016-03-13
+1555517,1555517,Fix Released,"Cinder: Block Storage API v2 page's data type does not have""xsd:"" prefix",https://bugs.launchpad.net/openstack-api-site/+bug/1555517,2016-03-13
+1527729,1527729,Fix Released,update keystone API - x-subject-token is required for head/delete/get /auth/tokens,https://bugs.launchpad.net/openstack-api-site/+bug/1527729,2016-03-13
+1555008,1555008,Fix Released,"Image v2 Request Parameter ""updated_at"" has wrong type",https://bugs.launchpad.net/openstack-api-site/+bug/1555008,2016-03-13
+1555021,1555021,Fix Released,"Neutron v2.0 ext Extra routes ""next_hop"" request parameter has wrong name.",https://bugs.launchpad.net/openstack-api-site/+bug/1555021,2016-03-13
+1551116,1551116,Fix Released,"[Compute API] The type of ""virtual_interfaces"" parameter is declared incorrectly.",https://bugs.launchpad.net/openstack-api-site/+bug/1551116,2016-03-13
+1551510,1551510,Fix Released,Flavors extra-specs' flavor_id has wrong type,https://bugs.launchpad.net/openstack-api-site/+bug/1551510,2016-03-13
+1548221,1548221,Fix Released,Not sufficiently described reuquest and response params tables for update firewall,https://bugs.launchpad.net/openstack-api-site/+bug/1548221,2016-03-13
+1555031,1555031,Fix Released,[Scenario-tests] Tests in python-saharaclient fails on fake plugin,https://bugs.launchpad.net/sahara/+bug/1555031,2016-03-13
+1553368,1553368,Fix Released,Networks should contain provider attributes,https://bugs.launchpad.net/networking-ovn/+bug/1553368,2016-03-13
+1551193,1551193,Fix Released,Compute v2 - Boot from volume has incorrect parameters,https://bugs.launchpad.net/openstack-api-site/+bug/1551193,2016-03-12
+1239829,1239829,Fix Released,Adding checking to prevent conflict image size,https://bugs.launchpad.net/openstack-api-site/+bug/1239829,2016-03-12
+1551102,1551102,Fix Released,"[Networking API v2.0] Declaring the type of ""router:external "" parameter is incorrect.",https://bugs.launchpad.net/openstack-api-site/+bug/1551102,2016-03-12
+1552269,1552269,Fix Released,scapy installation error,https://bugs.launchpad.net/dragonflow/+bug/1552269,2016-03-12
+1550141,1550141,Fix Released,py34 gate is broken due to scapy,https://bugs.launchpad.net/dragonflow/+bug/1550141,2016-03-12
+1391714,1391714,Fix Released,ryu plugin removal,https://bugs.launchpad.net/openstack-manuals/+bug/1391714,2016-03-12
+1391714,1391714,Fix Released,ryu plugin removal,https://bugs.launchpad.net/devstack/+bug/1391714,2016-03-12
+1391714,1391714,Fix Released,ryu plugin removal,https://bugs.launchpad.net/neutron/+bug/1391714,2016-03-12
+1517861,1517861,Fix Released,Remove imageutils from oslo-incubator and move to using imageutils in oslo_utils,https://bugs.launchpad.net/cinder/+bug/1517861,2016-03-12
+1527052,1527052,Fix Released,Very Large Images on viewing Openstack Operation Guide as HTML,https://bugs.launchpad.net/openstack-manuals/+bug/1527052,2016-03-12
+1553967,1553967,Fix Released,os_swift role has no functional testing,https://bugs.launchpad.net/openstack-ansible/+bug/1553967,2016-03-12
+1554776,1554776,Fix Released,VNX driver does not honor new clone volume size,https://bugs.launchpad.net/cinder/+bug/1554776,2016-03-12
+1433619,1433619,Fix Released,Please  layout the swift-drive-audit configuration,https://bugs.launchpad.net/openstack-ansible/+bug/1433619,2016-03-12
+1453322,1453322,Fix Released,The strange case of the quota_items config option,https://bugs.launchpad.net/neutron/+bug/1453322,2016-03-12
+1518776,1518776,Fix Released,Deprecate router_id option,https://bugs.launchpad.net/neutron/+bug/1518776,2016-03-12
+1459030,1459030,Fix Released,Allow nova to feed its hostname to Neutron for eventually integration with Designate,https://bugs.launchpad.net/neutron/+bug/1459030,2016-03-12
+1469871,1469871,Fix Released,OVS Neutron Agent support for ovs+dpdk netdev datapath,https://bugs.launchpad.net/neutron/+bug/1469871,2016-03-12
+1548905,1548905,Fix Released,L7 - missing branch unit test octavia/db/repositories.py,https://bugs.launchpad.net/octavia/+bug/1548905,2016-03-12

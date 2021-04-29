@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1284718,1284718,Fix Released,interface-attach to external network a) works and b) results in undeletable instances,https://bugs.launchpad.net/nova/+bug/1284718,2014-09-22
+1247185,1247185,Fix Released,libvirt extract snapshot fails if qemu-img >= 0.12.1,https://bugs.launchpad.net/nova/+bug/1247185,2014-09-22
+1242819,1242819,Fix Released,Remove unnecessary steps for cold snapshots,https://bugs.launchpad.net/nova/+bug/1242819,2014-09-22
+1243301,1243301,Fix Released,Changes-since not returning deleted servers,https://bugs.launchpad.net/nova/+bug/1243301,2014-09-22
+1248463,1248463,Fix Released,Cannot resize VM to a different compute node when using hyperv_utils_v2,https://bugs.launchpad.net/nova/+bug/1248463,2014-09-22
+1237303,1237303,Fix Released,Log message does not contain blank space,https://bugs.launchpad.net/nova/+bug/1237303,2014-09-22
+1238430,1238430,Fix Released,"When resize failed in hyperv, the error message isn't sufficient for debugging.",https://bugs.launchpad.net/nova/+bug/1238430,2014-09-22
+1261585,1261585,Fix Released,ConfigDrive metadata is incorrectly generated on Windows,https://bugs.launchpad.net/nova/+bug/1261585,2014-09-22
+1250324,1250324,Fix Released,Resize on hyperV does not preserve the config drive image,https://bugs.launchpad.net/nova/+bug/1250324,2014-09-22
+1275802,1275802,Fix Released,Wrong variable name in debug statement in the Hyper-V driver,https://bugs.launchpad.net/nova/+bug/1275802,2014-09-22
+1275805,1275805,Fix Released,Wrong variable used in log statement in the Hyper-V driver,https://bugs.launchpad.net/nova/+bug/1275805,2014-09-22
+1231911,1231911,Fix Released,VHDX snapshot from Hyper-V driver is bigger than original instance,https://bugs.launchpad.net/nova/+bug/1231911,2014-09-22
+1280363,1280363,Fix Released,Replace exception re-raises with excutils.save_and_reraise_exception() in the Hyper-V driver,https://bugs.launchpad.net/nova/+bug/1280363,2014-09-22
+1275772,1275772,Fix Released,"Missing ""raise"" statement in the Hyper-V driver when checking the config driver format",https://bugs.launchpad.net/nova/+bug/1275772,2014-09-22
+1290403,1290403,Fix Released,Hyper-V agent does not enable disk metrics for individual disks,https://bugs.launchpad.net/nova/+bug/1290403,2014-09-22
+1248019,1248019,Fix Released,OSError occours when try to resize-confirm an instance with status 'VERIFY_RESIZE' using NFS bankend (KVM),https://bugs.launchpad.net/nova/+bug/1248019,2014-09-22
+1237868,1237868,Fix Released,Fail to suspend a unshelved server,https://bugs.launchpad.net/nova/+bug/1237868,2014-09-22
+1250135,1250135,Fix Released,fix for LP #1240905 has a further bug,https://bugs.launchpad.net/nova/+bug/1250135,2014-09-22
+1240905,1240905,Fix Released,libvirtd restart can sometimes cause multiple nova-compute connections,https://bugs.launchpad.net/nova/+bug/1240905,2014-09-22
+1245312,1245312,Fix Released,non-admin user cannot unshelve a server,https://bugs.launchpad.net/nova/+bug/1245312,2014-09-22
+1252409,1252409,Fix Released,use of threading in libvirt driver causes deadlock when connecting to libvirtd,https://bugs.launchpad.net/nova/+bug/1252409,2014-09-22
+1266711,1266711,Fix Released,AttributeError: virConnect instance has no attribute 'registerCloseCallback',https://bugs.launchpad.net/nova/+bug/1266711,2014-09-22
+1266711,1266711,Fix Released,AttributeError: virConnect instance has no attribute 'registerCloseCallback',https://bugs.launchpad.net/openstack-ci/+bug/1266711,2014-09-22
+1077066,1077066,Fix Released,nova-network bridge existing system alias handeling failiure.,https://bugs.launchpad.net/nova/+bug/1077066,2014-09-22
+1255316,1255316,Fix Released,volume backed snapshots are NOT private by default,https://bugs.launchpad.net/nova/+bug/1255316,2014-09-22
+1251261,1251261,Fix Released,finish_revert_migration does not include context as parameter,https://bugs.launchpad.net/nova/+bug/1251261,2014-09-22
+1255449,1255449,Fix Released,Libvirt Driver - Custom disk_bus setting is being lost on instance power on,https://bugs.launchpad.net/nova/+bug/1255449,2014-09-22
+1288636,1288636,Fix Released,Deleted flavor influences new flavor with same id in 'flavor-show' under psql,https://bugs.launchpad.net/nova/+bug/1288636,2014-09-22
+1288296,1288296,Fix Released,Update aggregate allows duplicate names,https://bugs.launchpad.net/nova/+bug/1288296,2014-09-22
+1233853,1233853,Fix Released,VHD format check is not properly performed for fixed disks in the Hyper-V driver,https://bugs.launchpad.net/nova/+bug/1233853,2014-09-22
+1106423,1106423,Fix Released,grizzly: ability to specify the libvirt cache mode for disk devices,https://bugs.launchpad.net/openstack-manuals/+bug/1106423,2014-09-22
+1106423,1106423,Fix Released,grizzly: ability to specify the libvirt cache mode for disk devices,https://bugs.launchpad.net/nova/+bug/1106423,2014-09-22
+1254320,1254320,Fix Released,Network cache should not be refreshed for instances that are still building,https://bugs.launchpad.net/nova/+bug/1254320,2014-09-22
+1229625,1229625,Fix Released,hairpin mode on vnet bridge ports causes false positives on IPv6 duplicate address detection,https://bugs.launchpad.net/nova/+bug/1229625,2014-09-22
+1241222,1241222,Fix Released,Cells is using the wrong flavorid for resize,https://bugs.launchpad.net/nova/+bug/1241222,2014-09-22
+1269448,1269448,Fix Released,VMware: VC driver lacks support for firewall rules,https://bugs.launchpad.net/nova/+bug/1269448,2014-09-22
+1371210,1371210,Fix Committed,Inappropriate post-install commands for fedora,https://bugs.launchpad.net/trove-integration/+bug/1371210,2014-09-22
+1371421,1371421,Fix Released,"[Neutron] Cookbook lack  some keystone authtoken attributes, and  some related attributes",https://bugs.launchpad.net/openstack-chef/+bug/1371421,2014-09-22
+1372315,1372315,Fix Released,"[Heat] Cookbook lack some keystone authtoken attributes, and some related attributes",https://bugs.launchpad.net/openstack-chef/+bug/1372315,2014-09-22
+1370908,1370908,Fix Released,[Glance] cookbook lack of some keystone authtoken attributes,https://bugs.launchpad.net/openstack-chef/+bug/1370908,2014-09-22
+1371438,1371438,Fix Released,"[Nova] Cookbook lack some keystone authtoken attributes, and some related attributes",https://bugs.launchpad.net/openstack-chef/+bug/1371438,2014-09-22
+1370825,1370825,Fix Released,[keystone] cookbook attribute for hash_algorithm,https://bugs.launchpad.net/openstack-chef/+bug/1370825,2014-09-22
+1340388,1340388,Fix Released,sec-guide section id names should be readable,https://bugs.launchpad.net/openstack-manuals/+bug/1340388,2014-09-22
+1291833,1291833,Fix Released,"3par backend expects a 3.1.3 firmware release, which is not in GA",https://bugs.launchpad.net/cinder/+bug/1291833,2014-09-22
+1371682,1371682,Fix Committed,DIB has moved dib-run-parts from DIB repo to dib-utils,https://bugs.launchpad.net/trove-integration/+bug/1371682,2014-09-22
+1354038,1354038,Fix Released,"Upgrades, add parameter for upgrade script to switch to specific version of fuel",https://bugs.launchpad.net/fuel/+bug/1354038,2014-09-22
+1353574,1353574,Fix Released,"Upgrades, puppet in keystone container fails after upgrade",https://bugs.launchpad.net/fuel/+bug/1353574,2014-09-22
+1212463,1212463,Fix Released,SSL verification fails with wildcard certs,https://bugs.launchpad.net/python-glanceclient/+bug/1212463,2014-09-22
+1348217,1348217,Fix Released,Slaves hanged on stop deployment,https://bugs.launchpad.net/fuel/+bug/1348217,2014-09-22
+1372056,1372056,Fix Released,[systest] In 'ha_neutron_destructive' test smiles count should equal to 14 if Neutron is used for networking,https://bugs.launchpad.net/fuel/+bug/1372056,2014-09-22
+1342045,1342045,Fix Released,"[Upgrades] Checkers integration_postgres_nailgun_nginx, ostf fail during upgrade",https://bugs.launchpad.net/fuel/+bug/1342045,2014-09-22
+1341492,1341492,Fix Released,[Upgrades] database migration from one container to another sometimes fails,https://bugs.launchpad.net/fuel/+bug/1341492,2014-09-22
+1288927,1288927,Fix Released,3PAR terminate connection fails during VM live migration,https://bugs.launchpad.net/cinder/+bug/1288927,2014-09-22
+1257232,1257232,Fix Released,endpoint_type is ignored for alarm services,https://bugs.launchpad.net/ceilometer/+bug/1257232,2014-09-22
+1249543,1249543,Fix Released,Not all image custom properties are displayed,https://bugs.launchpad.net/horizon/+bug/1249543,2014-09-22
+1288229,1288229,Fix Released,'Deploy Changes' dialog window doesn't present information about changes in 'Configure Interfaces',https://bugs.launchpad.net/fuel/+bug/1288229,2014-09-22
+1279300,1279300,Fix Released,detach boot device volume without warning,https://bugs.launchpad.net/nova/+bug/1279300,2014-09-22
+1260249,1260249,Fix Released,migration-list: 'unicode' object has no attribute 'iteritems',https://bugs.launchpad.net/nova/+bug/1260249,2014-09-22
+1112483,1112483,Fix Released,LibvirtISCSIVolumeDriver: device size mismatch when LUN is reused,https://bugs.launchpad.net/nova/+bug/1112483,2014-09-22
+1243037,1243037,Fix Released,parameter checking about quota update api is incorrect,https://bugs.launchpad.net/nova/+bug/1243037,2014-09-22
+1251043,1251043,Fix Released,"Havana regression, host and service api no longer work with cells",https://bugs.launchpad.net/nova/+bug/1251043,2014-09-22
+1250710,1250710,Fix Released,OS::Neutron::Subnet needs host_routes property,https://bugs.launchpad.net/heat/+bug/1250710,2014-09-22
+1291091,1291091,Fix Released,"dangerous secgroup rule created when the ""SourceSecurityGroupName"" property string doesn't refer to an existing security group",https://bugs.launchpad.net/heat/+bug/1291091,2014-09-22
+1296881,1296881,Fix Released,NetApp iSCSI driver fails to create snapshot,https://bugs.launchpad.net/cinder/+bug/1296881,2014-09-22
+1288962,1288962,Fix Released,NetApp iSCSI driver doesn't enforce 32 block-ranges limit,https://bugs.launchpad.net/cinder/+bug/1288962,2014-09-22
+1284182,1284182,Fix Released,NetApp iSCSI driver can fail when extending vols > 8gb,https://bugs.launchpad.net/cinder/+bug/1284182,2014-09-22
+1257876,1257876,Fix Released,tests fail when libvirt not installed,https://bugs.launchpad.net/nova/+bug/1257876,2014-09-22
+1291804,1291804,Fix Released,vmware : profile attributes not reflecting in VC UI,https://bugs.launchpad.net/cinder/+bug/1291804,2014-09-22
+1243631,1243631,Fix Released,Missing Orchestration Service API v1 Reference on docs.openstack.org,https://bugs.launchpad.net/openstack-api-site/+bug/1243631,2014-09-22
+1349690,1349690,Fix Released,Building blocks first paragraph is either wrong or just poorly worded,https://bugs.launchpad.net/openstack-manuals/+bug/1349690,2014-09-22
+1365831,1365831,Fix Released,tempest.thirdparty.boto.test_ec2_instance_run.InstanceRunTest : Unable to complete operation on subnet ... One or more ports have an IP allocation from this subnet,https://bugs.launchpad.net/tempest/+bug/1365831,2014-09-22
+1359457,1359457,Fix Released,Discovering within a plugin doesn't work,https://bugs.launchpad.net/python-keystoneclient/+bug/1359457,2014-09-21
+1352051,1352051,Fix Released,Identity Auth plugins will always try and reauthenticate,https://bugs.launchpad.net/python-keystoneclient/+bug/1352051,2014-09-21
+1335726,1335726,Fix Released,Sessions don't handle versioned endpoints,https://bugs.launchpad.net/python-keystoneclient/+bug/1335726,2014-09-21
+1331972,1331972,Fix Released,Delete (revoke) token not exposed in the python-client,https://bugs.launchpad.net/python-keystoneclient/+bug/1331972,2014-09-21

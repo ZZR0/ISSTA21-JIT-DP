@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1244609,1244609,Fix Released,error message on wrong volume size is different between clone from volume and clone from image,https://bugs.launchpad.net/cinder/+bug/1244609,2014-04-17
+1284362,1284362,Fix Released,zone manager doesn't report versioning information,https://bugs.launchpad.net/cinder/+bug/1284362,2014-04-17
+1284227,1284227,Fix Released,race condition in test_delete_backup,https://bugs.launchpad.net/cinder/+bug/1284227,2014-04-17
+1278035,1278035,Fix Released,storwize-svc migration/retype may leave extra volume copies after cinder crash,https://bugs.launchpad.net/cinder/+bug/1278035,2014-04-17
+1277512,1277512,Fix Released,lvm driver fails to catch exception in migrate_volume,https://bugs.launchpad.net/cinder/+bug/1277512,2014-04-17
+1276787,1276787,Fix Released,Create from snapshot will not honor volume-type if backend would need to change,https://bugs.launchpad.net/cinder/+bug/1276787,2014-04-17
+1276657,1276657,Fix Released,rbd unit test improvements,https://bugs.launchpad.net/cinder/+bug/1276657,2014-04-17
+1272365,1272365,Fix Released,QoS specs update return value,https://bugs.launchpad.net/cinder/+bug/1272365,2014-04-17
+1271664,1271664,Fix Released,c-vol error: logical volume already exists in volume group,https://bugs.launchpad.net/cinder/+bug/1271664,2014-04-17
+1271249,1271249,Fix Released,Possibly broken unit tests for TGT and LIO iSCSI backends,https://bugs.launchpad.net/cinder/+bug/1271249,2014-04-17
+1270959,1270959,Fix Released,Missing LVM LV makes cinder-volume fail to initialize,https://bugs.launchpad.net/cinder/+bug/1270959,2014-04-17
+1270178,1270178,Fix Released,common/rpc code needs update from Oslo,https://bugs.launchpad.net/cinder/+bug/1270178,2014-04-17
+1269964,1269964,Fix Released,Cinder scheduler broken with lvm mirroring enabled,https://bugs.launchpad.net/cinder/+bug/1269964,2014-04-17
+1259711,1259711,Fix Released,Volume type or nova flavor extra_spec containing '/' can't be deleted,https://bugs.launchpad.net/cinder/+bug/1259711,2014-04-17
+1258105,1258105,Fix Released,"Time unit is missing in the description of option ""vmware_task_poll_interval""  in VMware VMDK driver configuration reference",https://bugs.launchpad.net/openstack-manuals/+bug/1258105,2014-04-17
+1258105,1258105,Fix Released,"Time unit is missing in the description of option ""vmware_task_poll_interval""  in VMware VMDK driver configuration reference",https://bugs.launchpad.net/cinder/+bug/1258105,2014-04-17
+1258100,1258100,Fix Released,Time unit is missing in the description of option vmware_task_poll_interval in cinder.conf.sample,https://bugs.launchpad.net/cinder/+bug/1258100,2014-04-17
+1256763,1256763,Fix Released,Extending a volume without enough quota isn't caught at API level,https://bugs.launchpad.net/cinder/+bug/1256763,2014-04-17
+1248947,1248947,Fix Released,create export should be separated from volume create (LVM Driver),https://bugs.launchpad.net/cinder/+bug/1248947,2014-04-17
+1137908,1137908,Fix Released,volume glance metadata not included in backups.,https://bugs.launchpad.net/cinder/+bug/1137908,2014-04-17
+1284368,1284368,Fix Released,Extending volume is in GB yet 3PAR is expecting MB,https://bugs.launchpad.net/cinder/+bug/1284368,2014-04-17
+1284338,1284338,Fix Released,fibre channel zone manager config options aren't in a group,https://bugs.launchpad.net/cinder/+bug/1284338,2014-04-17
+1284275,1284275,Fix Released,3PAR FC driver doesn't return initiator_target_map,https://bugs.launchpad.net/cinder/+bug/1284275,2014-04-17
+1280159,1280159,Fix Released,Cannot update quotas using the XML API,https://bugs.launchpad.net/cinder/+bug/1280159,2014-04-17
+1279061,1279061,Fix Released,Storwize/SVC driver initialize_connection can fail on wwpn.lower,https://bugs.launchpad.net/cinder/+bug/1279061,2014-04-17
+1277362,1277362,Fix Released,OSError: [Errno 2] No such file or directory: '/opt/stack/data/cinder/volumes/volume-,https://bugs.launchpad.net/cinder/+bug/1277362,2014-04-17
+1276977,1276977,Fix Released,cinder-backup ceph driver restore failure,https://bugs.launchpad.net/cinder/+bug/1276977,2014-04-17
+1274245,1274245,Fix Released,should remove the use of str() with LOG.* and exceptions in Cinder,https://bugs.launchpad.net/cinder/+bug/1274245,2014-04-17
+1274123,1274123,Fix Released,storwize driver is not thread-safe,https://bugs.launchpad.net/cinder/+bug/1274123,2014-04-17
+1272092,1272092,Fix Released,GlusterFS: volume clone operation can deadlock,https://bugs.launchpad.net/cinder/+bug/1272092,2014-04-17
+1271162,1271162,Fix Released,Scheduler should be updated of capabilities while creating volume,https://bugs.launchpad.net/cinder/+bug/1271162,2014-04-17
+1269633,1269633,Fix Released,FibreChannelDriver is missing accept_transfer,https://bugs.launchpad.net/cinder/+bug/1269633,2014-04-17
+1263175,1263175,Fix Released,test_volume unittest failure,https://bugs.launchpad.net/cinder/+bug/1263175,2014-04-17
+1279758,1279758,Fix Released,Storwize/SVC: delim not passed to lsfabric,https://bugs.launchpad.net/cinder/+bug/1279758,2014-04-17
+1276849,1276849,Fix Released,unit test test_vmware_vmdk fails intermittently,https://bugs.launchpad.net/cinder/+bug/1276849,2014-04-17
+1270608,1270608,Fix Released,n-cpu 'iSCSI device not found' log causes gate-tempest-dsvm-*-full to fail,https://bugs.launchpad.net/nova/+bug/1270608,2014-04-17
+1270608,1270608,Fix Released,n-cpu 'iSCSI device not found' log causes gate-tempest-dsvm-*-full to fail,https://bugs.launchpad.net/cinder/+bug/1270608,2014-04-17
+1270624,1270624,Fix Released,UnboundLocalError in TgtAdm.update_iscsi_target in brick,https://bugs.launchpad.net/cinder/+bug/1270624,2014-04-17
+1270034,1270034,Fix Released,Remove unused variable in restore_backup method,https://bugs.launchpad.net/cinder/+bug/1270034,2014-04-17
+1270020,1270020,Fix Released,Fix exception log msg in attach volume method,https://bugs.launchpad.net/cinder/+bug/1270020,2014-04-17
+1267667,1267667,Fix Released,NetApp NFS driver won't resolve hostnames,https://bugs.launchpad.net/cinder/+bug/1267667,2014-04-17
+1267423,1267423,Fix Released,Remove unused variable in os-extend api,https://bugs.launchpad.net/cinder/+bug/1267423,2014-04-17
+1265944,1265944,Fix Released,mysql downgrade fails in 002_quota_class.py,https://bugs.launchpad.net/cinder/+bug/1265944,2014-04-17
+1265725,1265725,Fix Released,remove unused context parameter in check_*** methods of cinder/volume/api.py,https://bugs.launchpad.net/cinder/+bug/1265725,2014-04-17
+1265718,1265718,Fix Released,_volume_upload_image function lost without doing verification for 'force' parameter,https://bugs.launchpad.net/cinder/+bug/1265718,2014-04-17
+1264360,1264360,Fix Released,Downgrading cinder schema fails when running 018_add_qos_specs.py,https://bugs.launchpad.net/cinder/+bug/1264360,2014-04-17
+1264223,1264223,Fix Released,webob.exc.HTTPBadRequest doesn't accept parameter 'reason',https://bugs.launchpad.net/nova/+bug/1264223,2014-04-17
+1264223,1264223,Fix Released,webob.exc.HTTPBadRequest doesn't accept parameter 'reason',https://bugs.launchpad.net/cinder/+bug/1264223,2014-04-17
+1264053,1264053,Fix Released,Redundant size check in volume restore api,https://bugs.launchpad.net/cinder/+bug/1264053,2014-04-17
+1262958,1262958,Fix Released,Only reverify backing lun when _recreate_backing_lun,https://bugs.launchpad.net/cinder/+bug/1262958,2014-04-17
+1261849,1261849,Fix Released,version list shows wrong hrefs,https://bugs.launchpad.net/cinder/+bug/1261849,2014-04-17
+1261731,1261731,Fix Released,Unable to deactivate LVM snapshot,https://bugs.launchpad.net/cinder/+bug/1261731,2014-04-17
+1260373,1260373,Fix Released,update help text for options in NetApp unified volume driver,https://bugs.launchpad.net/cinder/+bug/1260373,2014-04-17
+1259867,1259867,Fix Released,Raise KeyError exception while generating a WSGI response based on the exception,https://bugs.launchpad.net/cinder/+bug/1259867,2014-04-17
+1259147,1259147,Fix Released,volume usage notifications should include billing period identification,https://bugs.launchpad.net/cinder/+bug/1259147,2014-04-17
+1258229,1258229,Fix Released,HP 3PAR FC driver should support adding WWNs to hosts,https://bugs.launchpad.net/cinder/+bug/1258229,2014-04-17
+1258033,1258033,Fix Released,Use optional key-value pair metadata to track OpenStack volume on the 3PAR storage array,https://bugs.launchpad.net/cinder/+bug/1258033,2014-04-17
+1258004,1258004,Fix Released,The response is incorrect while creating volume metadata,https://bugs.launchpad.net/cinder/+bug/1258004,2014-04-17
+1257274,1257274,Fix Released,Bump hacking to 0.8,https://bugs.launchpad.net/cinder/+bug/1257274,2014-04-17
+1256804,1256804,Fix Released,Initialize_connection exceptions from driver should be properly handled,https://bugs.launchpad.net/cinder/+bug/1256804,2014-04-17
+1256738,1256738,Fix Released,Use assertEqual instead of assertEquals in unitttest,https://bugs.launchpad.net/cinder/+bug/1256738,2014-04-17
+1256737,1256737,Fix Released,Use assertNotEqual instead of assertNotEquals in unit tests,https://bugs.launchpad.net/cinder/+bug/1256737,2014-04-17
+1255917,1255917,Fix Released,The response is incorrect while creating snapshot metadata,https://bugs.launchpad.net/cinder/+bug/1255917,2014-04-17
+1238614,1238614,Fix Released,rbd volume driver unit test needs extending,https://bugs.launchpad.net/cinder/+bug/1238614,2014-04-17
+1209305,1209305,Fix Released,STMF target must be offline exception in Nexenta volume driver,https://bugs.launchpad.net/cinder/+bug/1209305,2014-04-17
+1265148,1265148,Fix Released,Redundant variable declarations  in create(),https://bugs.launchpad.net/cinder/+bug/1265148,2014-04-17
+1268294,1268294,Fix Released,driver exception swallowed during retype,https://bugs.launchpad.net/cinder/+bug/1268294,2014-04-17
+1266321,1266321,Fix Released,Storwize cinder volume driver have unused error message.,https://bugs.launchpad.net/cinder/+bug/1266321,2014-04-17
+1260322,1260322,Fix Released,Cinder sample config does not contain groups other than [DEFAULT],https://bugs.launchpad.net/cinder/+bug/1260322,2014-04-17
+1260126,1260126,Fix Released,cinder test_migrations fails for mysql,https://bugs.launchpad.net/cinder/+bug/1260126,2014-04-17
+1259279,1259279,Fix Released,Failed stats update doesn't include driver name,https://bugs.launchpad.net/cinder/+bug/1259279,2014-04-17
+1258000,1258000,Fix Released,Fix docstring for snapshot metadata Controller,https://bugs.launchpad.net/cinder/+bug/1258000,2014-04-17
+1255685,1255685,Fix Released,service_down_time shouldn't be allowed to be less than report_interval,https://bugs.launchpad.net/cinder/+bug/1255685,2014-04-17
+1255685,1255685,Fix Released,service_down_time shouldn't be allowed to be less than report_interval,https://bugs.launchpad.net/nova/+bug/1255685,2014-04-17
+1206650,1206650,Fix Released,Cinder does not use Oslo for config generator,https://bugs.launchpad.net/cinder/+bug/1206650,2014-04-17

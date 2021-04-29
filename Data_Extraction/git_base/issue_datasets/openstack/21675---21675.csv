@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1614572,1614572,Fix Released,[DOC] Elastic search eats up space quickly,https://bugs.launchpad.net/kolla-ansible/+bug/1614572,2017-06-19
+1673990,1673990,Fix Released,fluentd output to elasticsearch should use elasticsearch_address,https://bugs.launchpad.net/kolla-ansible/+bug/1673990,2017-06-19
+1672241,1672241,Fix Released,ceilometer service depends on panko's code,https://bugs.launchpad.net/kolla/+bug/1672241,2017-06-19
+1672241,1672241,Fix Released,ceilometer service depends on panko's code,https://bugs.launchpad.net/kolla-ansible/+bug/1672241,2017-06-19
+1678982,1678982,Fix Released,InfluxDB configuration is deprecated,https://bugs.launchpad.net/kolla-ansible/+bug/1678982,2017-06-19
+1677655,1677655,Fix Released,Ceilometer doesn't receive any notifications from Magnum,https://bugs.launchpad.net/kolla-ansible/+bug/1677655,2017-06-19
+1687624,1687624,Fix Released,sahara-engine failed to execute ip netns command,https://bugs.launchpad.net/kolla-ansible/+bug/1687624,2017-06-19
+1695111,1695111,Fix Released,Ansible 2.3.1 broke preckecks,https://bugs.launchpad.net/kolla-ansible/+bug/1695111,2017-06-19
+1677542,1677542,Fix Released,Karbor containers restarting issue on providers.d/openstack-infra.conf file modification,https://bugs.launchpad.net/kolla-ansible/+bug/1677542,2017-06-19
+1677362,1677362,Fix Released,Trove backup/restore and replication doesn't work with Swift,https://bugs.launchpad.net/kolla-ansible/+bug/1677362,2017-06-19
+1696056,1696056,Fix Released,chrony synchronization time is slow,https://bugs.launchpad.net/kolla-ansible/+bug/1696056,2017-06-19
+1696088,1696088,Fix Released,tempest image ssh user,https://bugs.launchpad.net/kolla-ansible/+bug/1696088,2017-06-19
+1690458,1690458,Fix Released,"[RFE] During cleaning, remove also disk labels (not just partitions)",https://bugs.launchpad.net/ironic-lib/+bug/1690458,2017-06-19
+1695265,1695265,Fix Released,"Ironic deployment fails on NVMe drives with ""unable to stat device""",https://bugs.launchpad.net/ironic-lib/+bug/1695265,2017-06-19
+1686404,1686404,Fix Released,Add a verification about the protect property of plan's parameter,https://bugs.launchpad.net/karbor/+bug/1686404,2017-06-19
+1686709,1686709,Fix Released,Add a verification about restore's parameter,https://bugs.launchpad.net/karbor/+bug/1686709,2017-06-19
+1671404,1671404,Fix Released,User guide: block-device option is incompatible in launching instance,https://bugs.launchpad.net/openstack-manuals/+bug/1671404,2017-06-19
+1615700,1615700,Fix Released,Move registration of config options to one module,https://bugs.launchpad.net/rally/+bug/1615700,2017-06-19
+1694536,1694536,Fix Released,QoS policy creation cause internal server error,https://bugs.launchpad.net/neutron/+bug/1694536,2017-06-19
+1697452,1697452,Fix Released,openstack client dumps debug info on console even without specifying --debug option,https://bugs.launchpad.net/python-novaclient/+bug/1697452,2017-06-19
+1649481,1649481,Fix Released,collectd failed to start because of sudo in newton,https://bugs.launchpad.net/kolla/+bug/1649481,2017-06-19
+1682303,1682303,Fix Released,Creating a console (os-consoles) doesn't work,https://bugs.launchpad.net/nova/+bug/1682303,2017-06-19
+1651012,1651012,Fix Released,v2 api tests require v1 network api extension,https://bugs.launchpad.net/octavia/+bug/1651012,2017-06-19
+1680575,1680575,Fix Released,Auth token information missing from requests with no args,https://bugs.launchpad.net/octavia/+bug/1680575,2017-06-19
+1675702,1675702,Fix Released,TCP RST sent during neutron_lbaas.tests.tempest.v2.scenario.test_listener_basic.TestListenerBasic.test_listener_basic test fails when it should pass,https://bugs.launchpad.net/octavia/+bug/1675702,2017-06-19
+1495430,1495430,Fix Released,delete lbaasv2 can't delete lbaas namespace automatically.,https://bugs.launchpad.net/octavia/+bug/1495430,2017-06-19
+1646770,1646770,Fix Released,lbaas tempest test cases are not executing,https://bugs.launchpad.net/octavia/+bug/1646770,2017-06-19
+1694187,1694187,Fix Released,Security Guide : Ocata missing in the supported release,https://bugs.launchpad.net/ossp-security-documentation/+bug/1694187,2017-06-18
+1642654,1642654,Fix Released,Replace use of apt/yum module with package module,https://bugs.launchpad.net/openstack-ansible/+bug/1642654,2017-06-18
+1565705,1565705,Fix Released,iptables duplicate rule warning on ports with multiple security groups,https://bugs.launchpad.net/neutron/+bug/1565705,2017-06-18
+1679794,1679794,Fix Released,test_show_router_attribute_with_timestamp can fail in certain environments,https://bugs.launchpad.net/neutron/+bug/1679794,2017-06-17
+1698474,1698474,Fix Released,CI: promotion oooq jobs use current repos instead of consistent,https://bugs.launchpad.net/tripleo/+bug/1698474,2017-06-17
+1370335,1370335,Fix Released,Keystone should support HEAD requests for all GET /v3/* actions,https://bugs.launchpad.net/keystone/+bug/1370335,2017-06-16
+1638892,1638892,Fix Released,"DevStack ""stack.sh"" sometimes fails after ""unstack.sh""",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1638892,2017-06-16
+1552046,1552046,Fix Released,Cannot evacuate instances with cells v1,https://bugs.launchpad.net/nova/+bug/1552046,2017-06-16
+1524421,1524421,Fix Released,Host Manager reads deleted instance info on startup,https://bugs.launchpad.net/nova/+bug/1524421,2017-06-16
+1473308,1473308,Fix Released,NUMATopologyFilter raise exception and not continue filter next node when there is no wanted pagesize in current filtered host,https://bugs.launchpad.net/nova/+bug/1473308,2017-06-16
+1567977,1567977,Fix Released,"POST /servers with incorrect content-type returns 400, should be 415",https://bugs.launchpad.net/nova/+bug/1567977,2017-06-16
+1559026,1559026,Fix Released,nova-novncproxy doesn't start when 'record' is specified,https://bugs.launchpad.net/nova/+bug/1559026,2017-06-16
+1630783,1630783,Fix Released,Nova returns HTTP500 if deleting attached volume,https://bugs.launchpad.net/nova/+bug/1630783,2017-06-16
+1614538,1614538,Fix Released,neutron: instance.info_cache isn't refreshed after deleting associated floating IP,https://bugs.launchpad.net/nova/+bug/1614538,2017-06-16
+1591240,1591240,Fix Released,progress_watermark is not updated,https://bugs.launchpad.net/nova/+bug/1591240,2017-06-16
+1569641,1569641,Fix Released,server group members are not deleted on failed server create overquota,https://bugs.launchpad.net/nova/+bug/1569641,2017-06-16
+1564551,1564551,Fix Released,initialize_connection failure can result in 'exceptions.TypeError' object has no attribute 'code',https://bugs.launchpad.net/nova/+bug/1564551,2017-06-16
+1563547,1563547,Fix Released,Unable to delete instance when cinder is down,https://bugs.launchpad.net/nova/+bug/1563547,2017-06-16
+1558866,1558866,Fix Released,Architecture ValueError Uncaught API Exception,https://bugs.launchpad.net/nova/+bug/1558866,2017-06-16
+1557584,1557584,Fix Released,Broken retry mechanism for 'nova image-list',https://bugs.launchpad.net/nova/+bug/1557584,2017-06-16
+1527370,1527370,Fix Released,IOvisor vif driver fails with some network names because of schema usage in ifc_ctl,https://bugs.launchpad.net/nova/+bug/1527370,2017-06-16
+1522232,1522232,Fix Released,failed automatically creating new SCSI controllers,https://bugs.launchpad.net/nova/+bug/1522232,2017-06-16
+1489853,1489853,Fix Released,"when hard-reboot a instance with serial-port multiple times, instance will not start for port exhausted",https://bugs.launchpad.net/nova/+bug/1489853,2017-06-16
+1439869,1439869,Fix Released,encrypted iSCSI volume attach fails when iscsi_use_multipath is enabled,https://bugs.launchpad.net/nova/+bug/1439869,2017-06-16
+1588003,1588003,Fix Released,"Skip host to guest CPU compatibility check for emulated (QEMU ""TCG"" mode) guests  during live migration",https://bugs.launchpad.net/nova/+bug/1588003,2017-06-16
+1582911,1582911,Fix Released,Relaxed validation for v2 doesn't accept null for user_data like legacy v2 does (liberty),https://bugs.launchpad.net/nova/+bug/1582911,2017-06-16
+1582684,1582684,Fix Released,nova kilo->liberty ceph configdrive upgrade fails,https://bugs.launchpad.net/nova/+bug/1582684,2017-06-16
+1576048,1576048,Fix Released,"""live_migration"" call in Liberty doesn't have backwards compatibility with Kilo",https://bugs.launchpad.net/nova/+bug/1576048,2017-06-16
+1570748,1570748,Fix Released,Bug: resize instance after edit flavor with horizon,https://bugs.launchpad.net/nova/+bug/1570748,2017-06-16
+1570748,1570748,Fix Released,Bug: resize instance after edit flavor with horizon,https://bugs.launchpad.net/tempest/+bug/1570748,2017-06-16
+1570748,1570748,Fix Released,Bug: resize instance after edit flavor with horizon,https://bugs.launchpad.net/nova-powervm/+bug/1570748,2017-06-16
+1565466,1565466,Fix Released,pci detach failed with 'PciDevice' object has no attribute '__getitem__',https://bugs.launchpad.net/nova/+bug/1565466,2017-06-16
+1558343,1558343,Fix Released,configdrive is lost after resize.(libvirt driver),https://bugs.launchpad.net/nova/+bug/1558343,2017-06-16
+1442098,1442098,Fix Released,instance_group_member entries not deleted when the instance deleted,https://bugs.launchpad.net/nova/+bug/1442098,2017-06-16
+1562323,1562323,Fix Released,test_server_basic_ops rename in tempest is breaking cells job,https://bugs.launchpad.net/nova/+bug/1562323,2017-06-16
+1662699,1662699,Fix Released,API documentation and behavior do not match for booting with attached volumes,https://bugs.launchpad.net/nova/+bug/1662699,2017-06-16
+1664607,1664607,Fix Released,test_stamp_pattern failing cells v1 job,https://bugs.launchpad.net/nova/+bug/1664607,2017-06-16
+1668310,1668310,Fix Released,PCI device migration cannot continue with old deleted service records,https://bugs.launchpad.net/nova/+bug/1668310,2017-06-16
+1552971,1552971,Fix Released,[SRU] InstanceList.get_by_security_group_id can run very slow,https://bugs.launchpad.net/nova/+bug/1552971,2017-06-16
+1625220,1625220,Fix Released,get_function_by_ifname does not return true for physical function,https://bugs.launchpad.net/nova/+bug/1625220,2017-06-16
+1621452,1621452,Fix Released,need handle DevicePathInUse in attach_volume,https://bugs.launchpad.net/nova/+bug/1621452,2017-06-16
+1651064,1651064,Fix Released,HTTP 500 when calling os-volume_boot with invalid destination_type,https://bugs.launchpad.net/nova/+bug/1651064,2017-06-16
+1562681,1562681,Fix Released,"Post instance evacuation, image metadata is not retained when using shared storage",https://bugs.launchpad.net/nova/+bug/1562681,2017-06-16
+1480305,1480305,Fix Released,DBDeadlock inserting into instance_extra,https://bugs.launchpad.net/nova/+bug/1480305,2017-06-16
+1588657,1588657,Fix Released,Nova shelve creates duplicated images in cells environment,https://bugs.launchpad.net/nova/+bug/1588657,2017-06-16
+1552786,1552786,Fix Released,VMware: Port Group and Port ID not explicit from port binding,https://bugs.launchpad.net/nova/+bug/1552786,2017-06-16
+1579706,1579706,Fix Released,listing nova instances with invalid status raises 500 InternalServerError for admin user,https://bugs.launchpad.net/nova/+bug/1579706,2017-06-16
+1444446,1444446,Fix Released,VMware: resizing a instance that has no root disk fails,https://bugs.launchpad.net/nova/+bug/1444446,2017-06-16

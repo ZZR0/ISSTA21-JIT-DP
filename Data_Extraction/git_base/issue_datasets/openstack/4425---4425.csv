@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1843555,1843555,Fix Released,Nova conductor container fails on healthcheck,https://bugs.launchpad.net/tripleo/+bug/1843555,2019-12-12
+1845366,1845366,Fix Released,octavia deploy tasks fails when updating,https://bugs.launchpad.net/tripleo/+bug/1845366,2019-12-12
+1845930,1845930,Fix Released,tripleo container update logs wrong timestamps,https://bugs.launchpad.net/tripleo/+bug/1845930,2019-12-12
+1851502,1851502,Fix Released,container images prepare fails with AttibuteError,https://bugs.launchpad.net/tripleo/+bug/1851502,2019-12-12
+1841850,1841850,Fix Released,undercloud admin host or public being in a different cidr from local_ip leads to install failures,https://bugs.launchpad.net/tripleo/+bug/1841850,2019-12-12
+1842987,1842987,Fix Released,Race sometimes causes successful deployments to return failed,https://bugs.launchpad.net/tripleo/+bug/1842987,2019-12-12
+1845927,1845927,Fix Released,Still observing close file warnings with overcloud commands,https://bugs.launchpad.net/tripleo/+bug/1845927,2019-12-12
+1832511,1832511,Fix Released,'openstack overcloud status' fails with KeyError: 'execution',https://bugs.launchpad.net/tripleo/+bug/1832511,2019-12-12
+1845487,1845487,Fix Released,MTU option not set in ironic-inspector dnsmasq.conf,https://bugs.launchpad.net/tripleo/+bug/1845487,2019-12-12
+1845487,1845487,Fix Released,MTU option not set in ironic-inspector dnsmasq.conf,https://bugs.launchpad.net/puppet-ironic/+bug/1845487,2019-12-12
+1819672,1819672,Fix Released,overcloud re-deployment without deleting plan beforehand fails,https://bugs.launchpad.net/tripleo/+bug/1819672,2019-12-12
+1833743,1833743,Fix Released,improve handling of empty resource_registry in env file,https://bugs.launchpad.net/tripleo/+bug/1833743,2019-12-12
+1844856,1844856,Fix Released,podman 1.5 - json-file logging specified but not supported. Choosing k8s-file logging instead,https://bugs.launchpad.net/tripleo/+bug/1844856,2019-12-12
+1839436,1839436,Fix Released,octavia healthcheck fails in scenario010,https://bugs.launchpad.net/tripleo/+bug/1839436,2019-12-12
+1848060,1848060,Fix Released,Customizing mysqld_options does not work on the overcloud,https://bugs.launchpad.net/tripleo/+bug/1848060,2019-12-12
+1848451,1848451,Fix Released,IHA uses keystone admin credentials for nova calls,https://bugs.launchpad.net/tripleo/+bug/1848451,2019-12-12
+1819706,1819706,Fix Released,Cannot set attach_mode when attaching,https://bugs.launchpad.net/cinderlib/+bug/1819706,2019-12-12
+1836724,1836724,Fix Released,Cannot snapshot volumes with volume types,https://bugs.launchpad.net/cinderlib/+bug/1836724,2019-12-12
+1821898,1821898,Fix Released,Error initializing IBM SVC v7000,https://bugs.launchpad.net/cinderlib/+bug/1821898,2019-12-12
+1849828,1849828,Fix Released,New cloned volume is in-use if source was in-use,https://bugs.launchpad.net/cinderlib/+bug/1849828,2019-12-12
+1849339,1849339,Fix Released,Cloning doesn't store the source volume id,https://bugs.launchpad.net/cinderlib/+bug/1849339,2019-12-12
+1854188,1854188,Fix Released,Cannot load complex configuration options,https://bugs.launchpad.net/cinderlib/+bug/1854188,2019-12-12
+1851135,1851135,Fix Released,RHEL-8 qdrouterd container fails to build because of yum command,https://bugs.launchpad.net/tripleo/+bug/1851135,2019-12-12
+1850025,1850025,Fix Released,OVN: The ovn-nb-db-server and ovn-sb-db-server scripts don't handle schema updates,https://bugs.launchpad.net/kolla/+bug/1850025,2019-12-12
+1847331,1847331,Fix Released,CI: reconfigure hides failures from deploy,https://bugs.launchpad.net/kolla-ansible/+bug/1847331,2019-12-12
+1846716,1846716,Fix Released,puppet-openstack-unit* jobs are failing,https://bugs.launchpad.net/puppet-nova/+bug/1846716,2019-12-12
+1847288,1847288,Fix Released,Error: More than one line in file '/etc/sysconfig/libvirtd' matches pattern 'LIBVIRTD_ARGS=',https://bugs.launchpad.net/puppet-nova/+bug/1847288,2019-12-12
+1529065,1529065,Fix Released,default availability zones in nova.conf are not set for nova::api,https://bugs.launchpad.net/puppet-nova/+bug/1529065,2019-12-12
+1853557,1853557,Fix Released,Deployments with NovaComputeCpuDedicatedSet are failing,https://bugs.launchpad.net/puppet-nova/+bug/1853557,2019-12-12
+1854443,1854443,Fix Released,Configure service_instance_password as secret,https://bugs.launchpad.net/puppet-manila/+bug/1854443,2019-12-12
+1847941,1847941,Fix Released,Configure s3_secret_access_key as secret,https://bugs.launchpad.net/puppet-gnocchi/+bug/1847941,2019-12-12
+1846808,1846808,Fix Released,puppet-glance configures glance backends using deprecated glance parameters,https://bugs.launchpad.net/puppet-glance/+bug/1846808,2019-12-12
+1843194,1843194,Fix Released,Wrong default region name definition,https://bugs.launchpad.net/kuryr/+bug/1843194,2019-12-12
+1837698,1837698,Fix Released,dummy bug,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1837698,2019-12-12
+1621404,1621404,Fix Released,Support HiPE in RabbitMQ container,https://bugs.launchpad.net/kolla/+bug/1621404,2019-12-11
+1855947,1855947,Fix Released,rsyslog::server is no more available,https://bugs.launchpad.net/tripleo/+bug/1855947,2019-12-11
+1853498,1853498,Fix Released,Unhandle exception when deleting loadbalancers,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1853498,2019-12-11
+1819923,1819923,Fix Released,Missing allocation for ports with resource request,https://bugs.launchpad.net/nova/+bug/1819923,2019-12-11
+1848023,1848023,Fix Released,Networking API v2.0 LBaaSv2 jumbled,https://bugs.launchpad.net/neutron/+bug/1848023,2019-12-10
+1690993,1690993,Fix Released,Kernel bridge management produces logs,https://bugs.launchpad.net/networking-vpp/+bug/1690993,2019-12-10
+1855752,1855752,Fix Released,Inappropriate HTTP error status from os-server-external-events,https://bugs.launchpad.net/nova/+bug/1855752,2019-12-10
+1845363,1845363,Fix Released,Support remote security-groups for trunk sub-ports,https://bugs.launchpad.net/networking-vpp/+bug/1845363,2019-12-10
+1794874,1794874,Fix Released,The status of the trunk should reflect the status of its parent port,https://bugs.launchpad.net/networking-vpp/+bug/1794874,2019-12-10
+1690214,1690214,Fix Released,Double-deleting VLAN interfaces for subnets when resyncing on startup,https://bugs.launchpad.net/networking-vpp/+bug/1690214,2019-12-10
+1855715,1855715,Fix Released,Upgrade job is failing on  Ensure we set update_serial in roles data,https://bugs.launchpad.net/tripleo/+bug/1855715,2019-12-10
+1854165,1854165,Fix Released,neutron DHCP agent created tap not added under kernel bridge,https://bugs.launchpad.net/networking-vpp/+bug/1854165,2019-12-10
+1837980,1837980,Fix Released,Add option to enable memcached based cache in nova,https://bugs.launchpad.net/devstack/+bug/1837980,2019-12-10
+1855788,1855788,Fix Released,MySQL database configuration fails using stack.sh,https://bugs.launchpad.net/devstack/+bug/1855788,2019-12-10
+1841514,1841514,Fix Released,VMware: disk_io_limits settings are not reflected when resize,https://bugs.launchpad.net/nova/+bug/1841514,2019-12-09
+1855253,1855253,Fix Released,docker nova_libvirt can't start without libvirt.log,https://bugs.launchpad.net/kolla/+bug/1855253,2019-12-09
+1840465,1840465,Fix Released,[SRU] Fails to list security groups if one or more exists without rules,https://bugs.launchpad.net/horizon/+bug/1840465,2019-12-09
+1809887,1809887,Fix Released,Missing neutron rootwrap filter for brctl ops,https://bugs.launchpad.net/networking-vpp/+bug/1809887,2019-12-09
+1686028,1686028,Fix Released,Router interface MTUs need to be set to enable proper fragmentation between networks,https://bugs.launchpad.net/networking-vpp/+bug/1686028,2019-12-09
+1808978,1808978,Fix Released,VM's fail to obtain DHCP IP addr with latest pyudev,https://bugs.launchpad.net/networking-vpp/+bug/1808978,2019-12-09
+1855063,1855063,Fix Released,Master standalone deploy failed with Table 'ovn_revision_numbers' already exists while performing neutron sync,https://bugs.launchpad.net/tripleo/+bug/1855063,2019-12-09
+1855050,1855050,Fix Released,RHEL 8 container build failed while building neutron-mlnx-agent due to missing libvirt-python python-ethtool python-networking-mlnx,https://bugs.launchpad.net/tripleo/+bug/1855050,2019-12-09
+1784660,1784660,Fix Released,[WIP] Implement Neutron OVS-DPDK Support,https://bugs.launchpad.net/openstack-ansible/+bug/1784660,2019-12-08
+1855314,1855314,Fix Released,"Typo in documentation of ""host aggregates in nova""",https://bugs.launchpad.net/nova/+bug/1855314,2019-12-08
+1855120,1855120,Fix Released,periodic- featureset019-queens failing during overcloud deploy with  error in tasks: ceph_base_ansible_workflow,https://bugs.launchpad.net/tripleo/+bug/1855120,2019-12-06
+1780799,1780799,Fix Released,Consumers with no allocations should be auto-deleted,https://bugs.launchpad.net/nova/+bug/1780799,2019-12-06
+1831175,1831175,Fix Released,Octavia: iptables save issue,https://bugs.launchpad.net/openstack-ansible/+bug/1831175,2019-12-06
+1804390,1804390,Fix Released,ml2/ovs to ml2/networking-ovn migration should not clean dhcp-agent stuff when those are active (SRIOV use case),https://bugs.launchpad.net/networking-ovn/+bug/1804390,2019-12-06
+1790118,1790118,Fix Released,Migration to port groups will reference old address sets in ACLs,https://bugs.launchpad.net/networking-ovn/+bug/1790118,2019-12-06
+1830747,1830747,Fix Released,Error 500 trying to migrate an instance after wrong request_spec,https://bugs.launchpad.net/nova/+bug/1830747,2019-12-06
+1824025,1824025,Fix Released,ServiceNetMap using hardcoded network names for ctlplane fallback,https://bugs.launchpad.net/tripleo/+bug/1824025,2019-12-05
+1821377,1821377,Fix Released,TLS everywhere deployments fail when using many composable networks,https://bugs.launchpad.net/tripleo/+bug/1821377,2019-12-05
+1832361,1832361,Fix Released,Upgrade failing because of pacemaker_node_ips not matching the node names,https://bugs.launchpad.net/tripleo/+bug/1832361,2019-12-05
+1806016,1806016,Fix Released,Opendaylight Doc missing neutron_plugin_agent,https://bugs.launchpad.net/kolla-ansible/+bug/1806016,2019-12-05
+1854685,1854685,Fix Released,package install or updates fail in TripleO due to the ssl cert not being mounted in each container,https://bugs.launchpad.net/tripleo/+bug/1854685,2019-12-04
+1854062,1854062,Fix Released,"rhel8 jobs failing for missing containers  "" Exception: Not found image: docker://...""",https://bugs.launchpad.net/tripleo/+bug/1854062,2019-12-04
+1831247,1831247,Fix Released,"Error with multiple networks, when kwargs[""nics""] is empty",https://bugs.launchpad.net/rally/+bug/1831247,2019-12-04
+1831900,1831900,Fix Released,Redundant clear of dhcp agents,https://bugs.launchpad.net/rally/+bug/1831900,2019-12-04
+1844063,1844063,Fix Released,Rally fails vs latest cinder client (Train),https://bugs.launchpad.net/rally/+bug/1844063,2019-12-04
+1833235,1833235,Fix Released,Octavia.create_and_list_loadbalancers: missing project ID,https://bugs.launchpad.net/rally/+bug/1833235,2019-12-04
+1693689,1693689,Fix Released,Could not determine host ip address,https://bugs.launchpad.net/neutron/+bug/1693689,2019-12-04

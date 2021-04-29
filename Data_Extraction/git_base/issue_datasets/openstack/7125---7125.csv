@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1820578,1820578,Fix Released,[queens ]periodic-centos-7-multinode-1ctlr-featureset030-queens fails for ovn image,https://bugs.launchpad.net/tripleo/+bug/1820578,2019-05-14
+1820791,1820791,Fix Released,should use  containers-default-parameters.yaml instead of /home/stack/containers-prepare-parameter.yaml for overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1820791,2019-05-14
+1821744,1821744,Fix Released,"various jobs failing for overcloud deploy with missing cluster error: Could not connect to cluster (is it running?)"", """,https://bugs.launchpad.net/tripleo/+bug/1821744,2019-05-14
+1823030,1823030,Fix Released,improve debug output of [validate-services : Fails if we find failed systemd units],https://bugs.launchpad.net/tripleo/+bug/1823030,2019-05-14
+1824086,1824086,Fix Released,periodic fs030 failing at evaluating conditional (number_of_controllers|int < 3): 'number_of_controllers',https://bugs.launchpad.net/tripleo/+bug/1824086,2019-05-14
+1824779,1824779,Fix Released,centosci queens failing at Property ControlPlaneDefaultRoute not assigned,https://bugs.launchpad.net/tripleo/+bug/1824779,2019-05-14
+1659474,1659474,Fix Released,tuned requires elevated privileges,https://bugs.launchpad.net/tripleo/+bug/1659474,2019-05-14
+1666149,1666149,Fix Released,modify test-requirement according to requirements project,https://bugs.launchpad.net/python-barbicanclient/+bug/1666149,2019-05-14
+1666149,1666149,Fix Released,modify test-requirement according to requirements project,https://bugs.launchpad.net/tripleo-quickstart/+bug/1666149,2019-05-14
+1666149,1666149,Fix Released,modify test-requirement according to requirements project,https://bugs.launchpad.net/os-client-config/+bug/1666149,2019-05-14
+1666149,1666149,Fix Released,modify test-requirement according to requirements project,https://bugs.launchpad.net/coverage2sql/+bug/1666149,2019-05-14
+1666149,1666149,Fix Released,modify test-requirement according to requirements project,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1666149,2019-05-14
+1666149,1666149,Fix Released,modify test-requirement according to requirements project,https://bugs.launchpad.net/refstack/+bug/1666149,2019-05-14
+1632500,1632500,Fix Released,Quickstart.sh fails to ensure polkit dependencies installed,https://bugs.launchpad.net/tripleo-quickstart/+bug/1632500,2019-05-14
+1661657,1661657,Fix Released,baremetal jobs are not accurately creating rst doc,https://bugs.launchpad.net/tripleo/+bug/1661657,2019-05-14
+1674357,1674357,Fix Released,devmode.sh not working because of missing script,https://bugs.launchpad.net/tripleo-quickstart/+bug/1674357,2019-05-14
+1667112,1667112,Fix Released,dstat log file on virthost grows forever.,https://bugs.launchpad.net/tripleo/+bug/1667112,2019-05-14
+1678218,1678218,Fix Released,Undercloud install failing with ironic-inspector dbsync error,https://bugs.launchpad.net/tripleo/+bug/1678218,2019-05-14
+1679799,1679799,Fix Released,tripleo-quickstart needs to cache images based on the release,https://bugs.launchpad.net/tripleo/+bug/1679799,2019-05-14
+1696532,1696532,Fix Released,devmode.sh fails w/ tripleo-quickstart dir not found,https://bugs.launchpad.net/tripleo/+bug/1696532,2019-05-14
+1696474,1696474,Fix Released,[oooq] 1ctlr node topology doesn't work.,https://bugs.launchpad.net/tripleo/+bug/1696474,2019-05-14
+1699453,1699453,Fix Released,quickstart fails with iptables error due to unknown chain,https://bugs.launchpad.net/tripleo/+bug/1699453,2019-05-14
+1701006,1701006,Fix Released,tripleo-quickstart failed on parts/ovs: Install Openvswitch,https://bugs.launchpad.net/tripleo/+bug/1701006,2019-05-14
+1704784,1704784,Fix Released,Quickstart fails if VM extradisks are already attached,https://bugs.launchpad.net/tripleo/+bug/1704784,2019-05-14
+1709333,1709333,Fix Released,freeipa does not work in libvirt environment,https://bugs.launchpad.net/tripleo/+bug/1709333,2019-05-14
+1710112,1710112,Fix Released,Upgrade failing with AnsibleUndefinedVariable: 'deploy_composable_scenario' is undefined,https://bugs.launchpad.net/tripleo/+bug/1710112,2019-05-14
+1711006,1711006,Fix Released,tripleo-quickstart creating redundant repositories,https://bugs.launchpad.net/tripleo/+bug/1711006,2019-05-14
+1689620,1689620,Fix Released,RHEL virthost unable to autostart vm's with ansible module,https://bugs.launchpad.net/tripleo/+bug/1689620,2019-05-14
+1712432,1712432,Fix Released,mistral fails to start the ceph container,https://bugs.launchpad.net/tripleo/+bug/1712432,2019-05-14
+1674799,1674799,Fix Released,Update delorean tasks to use the repos from the release config,https://bugs.launchpad.net/tripleo/+bug/1674799,2019-05-14
+1714917,1714917,Fix Released,"Ensure XDG_RUNTIME_DIR is set fails with ""sudo: sorry, you must have a tty to run sudo\n""",https://bugs.launchpad.net/tripleo/+bug/1714917,2019-05-14
+1715625,1715625,Fix Released,quickstart master-tripleo-ci doesn't install tripleo-validations from master,https://bugs.launchpad.net/tripleo/+bug/1715625,2019-05-14
+1716487,1716487,Fix Released,tqe build images failing on workaround for the old  libguestfs,https://bugs.launchpad.net/tripleo/+bug/1716487,2019-05-14
+1719564,1719564,Fix Released,oooq pike undercloud deploy fails on virt-customize ironic-python-agent.vmlinuz,https://bugs.launchpad.net/tripleo/+bug/1719564,2019-05-14
+1656878,1656878,Fix Released,instackenv.json pm_addr always 127.0.0.1,https://bugs.launchpad.net/tripleo/+bug/1656878,2019-05-14
+1722674,1722674,Fix Released,[quickstart] template improperly injecting http/https into config file,https://bugs.launchpad.net/tripleo/+bug/1722674,2019-05-14
+1722885,1722885,Fix Released,default release configs in config/release point to an unavailable undercloud image,https://bugs.launchpad.net/tripleo/+bug/1722885,2019-05-14
+1723669,1723669,Fix Released,devmode does not create a properly formated clouds.yaml,https://bugs.launchpad.net/tripleo/+bug/1723669,2019-05-14
+1714905,1714905,Fix Released,Composable scenarios BM -> Containers Upgrade jobs never deploy on BM,https://bugs.launchpad.net/tripleo/+bug/1714905,2019-05-14
+1724036,1724036,Fix Released,periodic job fails fetching overcloud inventory,https://bugs.launchpad.net/tripleo/+bug/1724036,2019-05-14
+1731254,1731254,Fix Released,upgrade job ocata->pike fail on ansible error,https://bugs.launchpad.net/tripleo/+bug/1731254,2019-05-14
+1731346,1731346,Fix Released,dlrn_hash_tag is undefined failing ovb jobs in pike/master promotion,https://bugs.launchpad.net/tripleo/+bug/1731346,2019-05-14
+1732039,1732039,Fix Released,undercloud-containers job fails because docker is not installed,https://bugs.launchpad.net/tripleo/+bug/1732039,2019-05-14
+1733319,1733319,Fix Released,virsh list doesn't show running VMs under unprivilged user,https://bugs.launchpad.net/tripleo/+bug/1733319,2019-05-14
+1733598,1733598,Fix Released,newton jobs on rdo cloud fail with 'dlrn_hash_tag' is undefined,https://bugs.launchpad.net/tripleo/+bug/1733598,2019-05-14
+1733652,1733652,Fix Released,TripleO-Quickstart fails to configure virt FreeIPA node,https://bugs.launchpad.net/tripleo/+bug/1733652,2019-05-14
+1712081,1712081,Fix Released,SSH connection to supplemental ipa VM takes minutes,https://bugs.launchpad.net/tripleo/+bug/1712081,2019-05-14
+1732477,1732477,Fix Released,Container deployment failing at overcloud-prep-containers,https://bugs.launchpad.net/tripleo/+bug/1732477,2019-05-14
+1736475,1736475,Fix Released,Telemetry tempest tests fail due to Max retries exceeded with url: /nodata-gnocchi-threshold-resource,https://bugs.launchpad.net/tripleo/+bug/1736475,2019-05-14
+1738120,1738120,Fix Released,[ci] bare metal jobs  have extreme verbosity enabled by default,https://bugs.launchpad.net/tripleo/+bug/1738120,2019-05-14
+1738321,1738321,Fix Released,repo-setup is failing when dlrn_hash_tag_newest' is undefined,https://bugs.launchpad.net/tripleo/+bug/1738321,2019-05-14
+1736811,1736811,Fix Released,RFE: Alllow quickstart to execute a dry run for user visibility,https://bugs.launchpad.net/tripleo/+bug/1736811,2019-05-14
+1739357,1739357,Fix Released,[newton] puppet-ceph.yaml does not exist,https://bugs.launchpad.net/tripleo/+bug/1739357,2019-05-14
+1674411,1674411,Fix Released,Quickstart forces wrong nodes configuration file,https://bugs.launchpad.net/tripleo/+bug/1674411,2019-05-14
+1741130,1741130,Fix Released,ci.centos does not execute tempest consistently,https://bugs.launchpad.net/tripleo/+bug/1741130,2019-05-14
+1742528,1742528,Fix Released,ovb jobs in rdo-cloud are not logging the overcloud nodes,https://bugs.launchpad.net/tripleo/+bug/1742528,2019-05-14
+1745348,1745348,Fix Released,P->M upgrade jobs get containers from master repo.,https://bugs.launchpad.net/tripleo/+bug/1745348,2019-05-14
+1692987,1692987,Fix Released,tripleo-quickstart deploying VMs as root user doesn't work,https://bugs.launchpad.net/tripleo/+bug/1692987,2019-05-14
+1692976,1692976,Fix Released,tripleo-quickstart VMs can't survive a host reboot,https://bugs.launchpad.net/tripleo/+bug/1692976,2019-05-14
+1738244,1738244,Fix Released,quickstart fails with HTTP 404 when using consistent or promotion-testing-hash releases,https://bugs.launchpad.net/tripleo/+bug/1738244,2019-05-14
+1749786,1749786,Fix Released,quickstart: the undercloud-setup role will not run by default with default tags,https://bugs.launchpad.net/tripleo/+bug/1749786,2019-05-14
+1752252,1752252,Fix Released,failed-tripleo-ci-centos-7-scenario002-multinode-oooq-container,https://bugs.launchpad.net/tripleo/+bug/1752252,2019-05-14
+1752947,1752947,Fix Released,when using a non-default environment or user the tripleo-ui tunnel does not start,https://bugs.launchpad.net/tripleo/+bug/1752947,2019-05-14
+1755834,1755834,Fix Released,promote featureset020 failing random temptest tests,https://bugs.launchpad.net/tripleo/+bug/1755834,2019-05-14
+1756935,1756935,Fix Released,quickstart doesn't setup vbmc if you don't let it configure the undercloud,https://bugs.launchpad.net/tripleo/+bug/1756935,2019-05-14
+1759060,1759060,Fix Released,gate-tripleo-ci-centos-7-containers-multinode-upgrades-pike-nv fails - No such file or directory  /home/jenkins/overcloud-prep-containers.sh,https://bugs.launchpad.net/tripleo/+bug/1759060,2019-05-14
+1759426,1759426,Fix Released,container-to-container-upgrades-master (fs040) requires a definition for 'overcloud_templates_path',https://bugs.launchpad.net/tripleo/+bug/1759426,2019-05-14
+1754498,1754498,Fix Released,quickstart.sh no quickstart-extras playbook found,https://bugs.launchpad.net/tripleo/+bug/1754498,2019-05-14
+1764751,1764751,Fix Released,FFWD release file broken for ironic-python-agent,https://bugs.launchpad.net/tripleo/+bug/1764751,2019-05-14
+1766326,1766326,Fix Released,quickstart is missing how to just run the teardown actions,https://bugs.launchpad.net/tripleo/+bug/1766326,2019-05-14
+1771997,1771997,Fix Released,Mixed version (R/Q) deploy with config-download cannot find role_name variable,https://bugs.launchpad.net/tripleo/+bug/1771997,2019-05-14
+1771549,1771549,Fix Released,Containers multinode jobs fails on stable queens with overcloud deploy timeout,https://bugs.launchpad.net/tripleo/+bug/1771549,2019-05-14
+1772589,1772589,Fix Released,Quickstart issue with 3ctlr_2comp_3ceph.yml,https://bugs.launchpad.net/tripleo/+bug/1772589,2019-05-14
+1771074,1771074,Fix Released,[Upgrades] Upstream CI job can't upgrade ceph with a single ceph node,https://bugs.launchpad.net/tripleo/+bug/1771074,2019-05-14
+1768326,1768326,Fix Released,TQE collect-logs ansible role does not generates documentation for the tags defined in featureset,https://bugs.launchpad.net/tripleo/+bug/1768326,2019-05-14

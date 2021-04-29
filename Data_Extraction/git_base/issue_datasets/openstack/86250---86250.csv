@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1207811,1207811,Fix Released,VPNaaS DB schema migration is not applied due to typo in FK name,https://bugs.launchpad.net/neutron/+bug/1207811,2013-10-17
+1172246,1172246,Fix Released,AZ reported wrongly until instance is scheduled,https://bugs.launchpad.net/nova/+bug/1172246,2013-10-17
+1207805,1207805,Fix Released,FWaaS DB schema migration in not applied due to empty Enum definition,https://bugs.launchpad.net/neutron/+bug/1207805,2013-10-17
+1171278,1171278,Fix Released,Factional numbers handle error in JSON Form,https://bugs.launchpad.net/nova/+bug/1171278,2013-10-17
+1207572,1207572,Fix Released,VPNaaS db model - ikepolicy lifetime unit typo error,https://bugs.launchpad.net/neutron/+bug/1207572,2013-10-17
+1169057,1169057,Fix Released,fixed ip re-used if instance can't be deleted with libvirtError raised,https://bugs.launchpad.net/nova/+bug/1169057,2013-10-17
+1206612,1206612,Fix Released,typo in downgrade step of migration for new service types,https://bugs.launchpad.net/neutron/+bug/1206612,2013-10-17
+1156227,1156227,Fix Released,missing UC on virtual_interfaces.address in sqlite,https://bugs.launchpad.net/nova/+bug/1156227,2013-10-17
+1205250,1205250,Fix Released,neutron-db-manage upgrade head(db migration),https://bugs.launchpad.net/neutron/+bug/1205250,2013-10-17
+1154635,1154635,Fix Released,Use event based connection failure handling if libvirt is new enough,https://bugs.launchpad.net/nova/+bug/1154635,2013-10-17
+1205229,1205229,Fix Released,Migration branches after commit adding providernet support for Cisco,https://bugs.launchpad.net/neutron/+bug/1205229,2013-10-17
+1093458,1093458,Fix Released,Multiple security groups with same name can be created,https://bugs.launchpad.net/nova/+bug/1093458,2013-10-17
+1074087,1074087,Fix Released,XenApi migration driver should not use shell=True with Popen,https://bugs.launchpad.net/nova/+bug/1074087,2013-10-17
+1204277,1204277,Fix Released,nicira plugin - metadata access ops lead to eventlet deadlock,https://bugs.launchpad.net/neutron/+bug/1204277,2013-10-17
+1007084,1007084,Fix Released,nova libvirt driver requires iscsi initiator name regardless of using it in volume drivers,https://bugs.launchpad.net/nova/+bug/1007084,2013-10-17
+1203663,1203663,Fix Released,Ryu agent should use ip_lib instead of netifaces,https://bugs.launchpad.net/neutron/+bug/1203663,2013-10-17
+1202392,1202392,Fix Released,unable to create port with same ip with dhcp_enabled=false,https://bugs.launchpad.net/neutron/+bug/1202392,2013-10-17
+1197858,1197858,Fix Released,should not exclude plugins from flake8 tests,https://bugs.launchpad.net/nova/+bug/1197858,2013-10-17
+1202244,1202244,Fix Released,ML2 plugin with gre tunnel_type is unable to use provider extension options,https://bugs.launchpad.net/neutron/+bug/1202244,2013-10-17
+1197514,1197514,Fix Released,migrate from stopped goes back to ACTIVE state after resize-confirm,https://bugs.launchpad.net/nova/+bug/1197514,2013-10-17
+1200001,1200001,Fix Released,Nicira plugin: concurrent instance creation leads to timeouts,https://bugs.launchpad.net/neutron/+bug/1200001,2013-10-17
+1194807,1194807,Fix Released,too old oslo.config: AttributeError: 'module' object has no attribute 'DeprecatedOpt',https://bugs.launchpad.net/neutron/+bug/1194807,2013-10-17
+1194807,1194807,Fix Released,too old oslo.config: AttributeError: 'module' object has no attribute 'DeprecatedOpt',https://bugs.launchpad.net/tripleo/+bug/1194807,2013-10-17
+1194807,1194807,Fix Released,too old oslo.config: AttributeError: 'module' object has no attribute 'DeprecatedOpt',https://bugs.launchpad.net/nova/+bug/1194807,2013-10-17
+1194807,1194807,Fix Released,too old oslo.config: AttributeError: 'module' object has no attribute 'DeprecatedOpt',https://bugs.launchpad.net/openstack-ci/+bug/1194807,2013-10-17
+1194264,1194264,Fix Released,XenServer: resize confirm causes 'XenAPI failed to power the instance off',https://bugs.launchpad.net/nova/+bug/1194264,2013-10-17
+1191653,1191653,Fix Released,port-update with multiple IP addr fails with PostgreSQL,https://bugs.launchpad.net/neutron/+bug/1191653,2013-10-17
+1194178,1194178,Fix Released,Host is always set to None in get_instance_nw_info(...),https://bugs.launchpad.net/nova/+bug/1194178,2013-10-17
+1194032,1194032,Fix Released,Missing dashes from console-log,https://bugs.launchpad.net/nova/+bug/1194032,2013-10-17
+1193167,1193167,Fix Released,nova.tests.integrated.test_servers.ServersTest.test_deferred_delete occasionally fails,https://bugs.launchpad.net/nova/+bug/1193167,2013-10-17
+1193031,1193031,Fix Released,novnc fails when amqp_rpc_single_reply_queue=True,https://bugs.launchpad.net/nova/+bug/1193031,2013-10-17
+1183705,1183705,Fix Released,LBaaS db migration is skipped in all cases,https://bugs.launchpad.net/neutron/+bug/1183705,2013-10-17
+1192331,1192331,Fix Released,extra_specs missing on scheduler request_spec,https://bugs.launchpad.net/nova/+bug/1192331,2013-10-17
+1192004,1192004,Fix Released,OS API stuffs 'fault' into instance object,https://bugs.launchpad.net/nova/+bug/1192004,2013-10-17
+1221451,1221451,Fix Released,vpn and metering configuration files are not install,https://bugs.launchpad.net/neutron/+bug/1221451,2013-10-17
+1192003,1192003,Fix Released,Instance object lacks security_group attribute,https://bugs.launchpad.net/nova/+bug/1192003,2013-10-17
+1216866,1216866,Fix Released,Race condition in Neutron initialization (policy loading),https://bugs.launchpad.net/neutron/+bug/1216866,2013-10-17
+1191913,1191913,Fix Released,New block device format is leaked to the code that is not ready to use it,https://bugs.launchpad.net/nova/+bug/1191913,2013-10-17
+1211829,1211829,Fix Released,error when connecting to metadata service with neutron,https://bugs.launchpad.net/neutron/+bug/1211829,2013-10-17
+1209377,1209377,Fix Released,db migration fails for linuxbridge,https://bugs.launchpad.net/neutron/+bug/1209377,2013-10-17
+1191040,1191040,Fix Released,start/stop instance broken with cells,https://bugs.launchpad.net/nova/+bug/1191040,2013-10-17
+1209279,1209279,Fix Released,transitive dep pbr dependency conflict,https://bugs.launchpad.net/neutron/+bug/1209279,2013-10-17
+1201692,1201692,Fix Released,can not create port after some port update operations,https://bugs.launchpad.net/neutron/+bug/1201692,2013-10-17
+1189889,1189889,Fix Released,Use oslo.config 1.2.0a2,https://bugs.launchpad.net/neutron/+bug/1189889,2013-10-17
+1189889,1189889,Fix Released,Use oslo.config 1.2.0a2,https://bugs.launchpad.net/nova/+bug/1189889,2013-10-17
+1194026,1194026,Fix Released,check_public_network_connectivity fails with timeout,https://bugs.launchpad.net/tempest/+bug/1194026,2013-10-17
+1194026,1194026,Fix Released,check_public_network_connectivity fails with timeout,https://bugs.launchpad.net/neutron/+bug/1194026,2013-10-17
+1189441,1189441,Fix Released,Instance build fails in a cell-setup,https://bugs.launchpad.net/nova/+bug/1189441,2013-10-17
+1201478,1201478,Fix Released,OverflowError: timeout is too large in gate-neutron-python26,https://bugs.launchpad.net/neutron/+bug/1201478,2013-10-17
+1189401,1189401,Fix Released,test_conductor.ConductorAPITestCase.test_vol_usage_update_again has races,https://bugs.launchpad.net/nova/+bug/1189401,2013-10-17
+1201471,1201471,Fix Released,ovs : tunnel_type not in the tunnel_sync RPC answer,https://bugs.launchpad.net/neutron/+bug/1201471,2013-10-17
+1188326,1188326,Fix Released,Reboot of compute node breaks VMs with volumes,https://bugs.launchpad.net/nova/+bug/1188326,2013-10-17
+1200723,1200723,Fix Released,Cisco plugin db code needs cleanup,https://bugs.launchpad.net/neutron/+bug/1200723,2013-10-17
+1187422,1187422,Fix Released,sometimes instances stay in DELETE vm_state but are not marked as deleted,https://bugs.launchpad.net/nova/+bug/1187422,2013-10-17
+1192702,1192702,Fix Released,nvp plugin does not handle update_provider networks,https://bugs.launchpad.net/neutron/+bug/1192702,2013-10-17
+1187092,1187092,Fix Released,Instance nics are reorder after reboot,https://bugs.launchpad.net/nova/+bug/1187092,2013-10-17
+1186123,1186123,Fix Released,nova consoleauth depends on Conductor Service,https://bugs.launchpad.net/nova/+bug/1186123,2013-10-17
+1188845,1188845,Fix Released,Valid IP addresses cannot be determined if a 'non-root' CIDR is used,https://bugs.launchpad.net/neutron/+bug/1188845,2013-10-17
+1182754,1182754,Fix Released,Tempest fails against wrong data types when using postgresql,https://bugs.launchpad.net/nova/+bug/1182754,2013-10-17
+1196689,1196689,Fix Released,Deprecate enable_tunneling in the OVS Plugin server code,https://bugs.launchpad.net/neutron/+bug/1196689,2013-10-17
+1191406,1191406,Fix Released,Remove code duplication from Loadbalancer Db plugin,https://bugs.launchpad.net/neutron/+bug/1191406,2013-10-17
+1182054,1182054,Fix Released,wrong unique constraint names,https://bugs.launchpad.net/nova/+bug/1182054,2013-10-17
+1185080,1185080,Fix Released,Unnecessary checks for MultipleResultsFound in db_base_plugin_v2 and other db plugins,https://bugs.launchpad.net/neutron/+bug/1185080,2013-10-17
+1181865,1181865,Fix Released,The recent soft_deleted filter that was added to db method instance_get_all_by_filters() has an error,https://bugs.launchpad.net/nova/+bug/1181865,2013-10-17
+1179276,1179276,Fix Released,Rename agent_loadbalancer to loadbalancer,https://bugs.launchpad.net/neutron/+bug/1179276,2013-10-17
+1181502,1181502,Fix Released,DB should be empy before runing tests,https://bugs.launchpad.net/nova/+bug/1181502,2013-10-17
+1174311,1174311,Fix Released,"Remove test runner from cisco plugin, use tox instead",https://bugs.launchpad.net/neutron/+bug/1174311,2013-10-17
+1180779,1180779,Fix Released,VMwareESXDriver and VMwareVCDriver report incorrect stat,https://bugs.launchpad.net/nova/+bug/1180779,2013-10-17
+1179507,1179507,Fix Released,159 migration doesn't change shadow table,https://bugs.launchpad.net/nova/+bug/1179507,2013-10-17
+1125393,1125393,Fix Released,"iptables manager in quantum zero's packet and byte counts, regression from nova code",https://bugs.launchpad.net/neutron/+bug/1125393,2013-10-17
+1179504,1179504,Fix Released,157 migration doesn't change shadow table,https://bugs.launchpad.net/nova/+bug/1179504,2013-10-17
+1121129,1121129,Fix Released,Allow the NVP plugin to use configurable gateway modes,https://bugs.launchpad.net/neutron/+bug/1121129,2013-10-17
+1179502,1179502,Fix Released,156 migration doesn't change shadow table,https://bugs.launchpad.net/nova/+bug/1179502,2013-10-17
+1104379,1104379,Fix Released,Code duplication. db_base_plugin_v2.py and loadbalancer_db.py duplicate code,https://bugs.launchpad.net/neutron/+bug/1104379,2013-10-17
+1178919,1178919,Fix Released,instances get stuck in 'BUILDING' sometimes,https://bugs.launchpad.net/tripleo/+bug/1178919,2013-10-17

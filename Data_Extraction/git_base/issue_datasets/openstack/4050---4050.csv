@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1831954,1831954,Fix Released,error in floating IP allocation rest call,https://bugs.launchpad.net/horizon/+bug/1831954,2020-01-23
+1847889,1847889,Fix Released,Cloud-shell and console break in websockify 0.9.0,https://bugs.launchpad.net/python-zunclient/+bug/1847889,2020-01-23
+1847889,1847889,Fix Released,Cloud-shell and console break in websockify 0.9.0,https://bugs.launchpad.net/horizon/+bug/1847889,2020-01-23
+1848383,1848383,Fix Released,"Underscore is valid in key pair names, but the frontend says otherwise",https://bugs.launchpad.net/horizon/+bug/1848383,2020-01-23
+1834985,1834985,Fix Released,Configuration of hypervisor failed when using ironic hypervisor with hardware ironic node (not VM ironic node),https://bugs.launchpad.net/devstack/+bug/1834985,2020-01-22
+1766582,1766582,Fix Released,tempest cleanup unauthorized error,https://bugs.launchpad.net/tempest/+bug/1766582,2020-01-22
+1853004,1853004,Fix Released,tempest-slow-py3 job uses python 2.7 on subnodes,https://bugs.launchpad.net/tempest/+bug/1853004,2020-01-22
+1853264,1853264,Fix Released,Calling ssh.Client.exec_command leaks resources,https://bugs.launchpad.net/tempest/+bug/1853264,2020-01-22
+1848672,1848672,Fix Released,tempest cleanup is not cleaning up regions,https://bugs.launchpad.net/tempest/+bug/1848672,2020-01-22
+1830943,1830943,Fix Released,[tempest] Openstack resources are not deleted post tempest cleanup,https://bugs.launchpad.net/tempest/+bug/1830943,2020-01-22
+1699579,1699579,Fix Released,gate-tempest-dsvm-networking-ovn-ovs-release failing to setup devstack,https://bugs.launchpad.net/networking-ovn/+bug/1699579,2020-01-22
+1744110,1744110,Fix Released,OVN metadata agent is not active on devstack compute nodes,https://bugs.launchpad.net/networking-ovn/+bug/1744110,2020-01-22
+1756123,1756123,Fix Released,Maintenance task: Fails to delete out-of-sync security group rule,https://bugs.launchpad.net/networking-ovn/+bug/1756123,2020-01-22
+1801919,1801919,Fix Released,brctl is obsolete  use ip,https://bugs.launchpad.net/neutron/+bug/1801919,2020-01-22
+1801919,1801919,Fix Committed,brctl is obsolete  use ip,https://bugs.launchpad.net/os-vif/+bug/1801919,2020-01-22
+1852446,1852446,Fix Released,Hypervisors in nova - no subpage details for ironic,https://bugs.launchpad.net/nova/+bug/1852446,2020-01-21
+1860417,1860417,Fix Released,Use of randint in functional tests is racey,https://bugs.launchpad.net/nova/+bug/1860417,2020-01-21
+1834048,1834048,Fix Released,Nova waits indefinitely on ceph client hangs due to network problems,https://bugs.launchpad.net/nova/+bug/1834048,2020-01-21
+1545140,1545140,Fix Released,Networking OVN doesn't permit traffic traversing multiple routers,https://bugs.launchpad.net/networking-ovn/+bug/1545140,2020-01-21
+1735154,1735154,Fix Released,Tempest jobs failing with SSH timeout sometimes,https://bugs.launchpad.net/networking-ovn/+bug/1735154,2020-01-21
+1808146,1808146,Fix Released,Functional tests randomly failing due to Neutron DB errors,https://bugs.launchpad.net/networking-ovn/+bug/1808146,2020-01-21
+1638898,1638898,Fix Released,neutron-ovn-db-sync-util fails with NoSuchOptError,https://bugs.launchpad.net/networking-ovn/+bug/1638898,2020-01-21
+1616712,1616712,Fix Released,Tacker server can not monitor VNF instance after restarted Tacker server,https://bugs.launchpad.net/tacker/+bug/1616712,2020-01-21
+1839929,1839929,Fix Released,Paunch improperly names PID files for services running containers,https://bugs.launchpad.net/tripleo/+bug/1839929,2020-01-20
+1839559,1839559,Fix Released,paunch: podman exec shouldn't be run if the container isn't active,https://bugs.launchpad.net/tripleo/+bug/1839559,2020-01-20
+1860094,1860094,Fix Released,tempest failing in centos7 third party RDO jobs due to corrupted cirros image,https://bugs.launchpad.net/tripleo/+bug/1860094,2020-01-20
+1823124,1823124,Fix Released,Update cache-manage documentation,https://bugs.launchpad.net/glance/+bug/1823124,2020-01-20
+1836140,1836140,Fix Released,500 response while try to delete image is in uploading state,https://bugs.launchpad.net/glance/+bug/1836140,2020-01-20
+1838332,1838332,Fix Committed,Glance adding image member fails with multibackend,https://bugs.launchpad.net/glance/+bug/1838332,2020-01-20
+1854212,1854212,Fix Released,For ironic nova-computes that have no nodes associated aggregate operations are inconsistent,https://bugs.launchpad.net/nova/+bug/1854212,2020-01-20
+1823716,1823716,Fix Committed,url --> endpoint_template in Install and configure controller node in neutron section of nova.conf,https://bugs.launchpad.net/neutron/+bug/1823716,2020-01-20
+1860016,1860016,Fix Released,"periodic-tripleo-ci-centos-7-standalone-train	 is not executing tempest, no results",https://bugs.launchpad.net/tripleo/+bug/1860016,2020-01-18
+1858837,1858837,Fix Released,"ansible-role-tripleo-modify-image - When updating lots of containers for hotfixing purposes, we need to be able to update only installed packages",https://bugs.launchpad.net/tripleo/+bug/1858837,2020-01-17
+1486193,1486193,Fix Released,Individual files not in access log for bulk upload,https://bugs.launchpad.net/swift/+bug/1486193,2020-01-17
+1833105,1833105,Fix Released,Hash Ring: Race condition during service initialization,https://bugs.launchpad.net/networking-ovn/+bug/1833105,2020-01-17
+1823715,1823715,Fix Released,[RFE] Distributed processing of OVSDB events in networking-ovn,https://bugs.launchpad.net/networking-ovn/+bug/1823715,2020-01-17
+1856295,1856295,Fix Committed,Ubuntu: not able to download correct bionic image,https://bugs.launchpad.net/diskimage-builder/+bug/1856295,2020-01-17
+1840818,1840818,Fix Released,Headers and footers no longer appear in upstream logss,https://bugs.launchpad.net/tripleo/+bug/1840818,2020-01-16
+1799182,1799182,Fix Released,Paunch logging should be improved,https://bugs.launchpad.net/tripleo/+bug/1799182,2020-01-16
+1859860,1859860,Fix Released,README is formatted half in RST and some in MD,https://bugs.launchpad.net/tripleo/+bug/1859860,2020-01-16
+1840322,1840322,Fix Released,Versioned Writes drops SLO bytes on overwrite,https://bugs.launchpad.net/swift/+bug/1840322,2020-01-16
+1840068,1840068,Fix Released,(lxc) Instance failed to spawn: TypeError: object of type 'filter' has no len() - python3,https://bugs.launchpad.net/nova/+bug/1840068,2020-01-16
+1858666,1858666,Fix Released,stable/queens|pike|ocata job failing due to disabled n-cauth service,https://bugs.launchpad.net/devstack/+bug/1858666,2020-01-16
+1859633,1859633,Fix Released,refstack-client setup_env fails with setuptools 45.0.0,https://bugs.launchpad.net/refstack/+bug/1859633,2020-01-16
+1856709,1856709,Fix Released,deletion of Network Policies enforced on same pod make controller restart,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1856709,2020-01-15
+1859742,1859742,Fix Released,Container creation failed,https://bugs.launchpad.net/zun/+bug/1859742,2020-01-15
+1795870,1795870,Fix Released,Trunk scenario test test_trunk_subport_lifecycle fails from time to time,https://bugs.launchpad.net/neutron/+bug/1795870,2020-01-15
+1777627,1777627,Fix Released,"RFE: QoS – rule's management (set,delete, show…) requires <qos-policy> parameter in addition to <rule-id>",https://bugs.launchpad.net/neutron/+bug/1777627,2020-01-15
+1857017,1857017,Fix Released,Tag 2.17.0 set to invalid commit,https://bugs.launchpad.net/python-cliff/+bug/1857017,2020-01-15
+1858038,1858038,Fix Released,Cannot find resource provider created by nova,https://bugs.launchpad.net/zun/+bug/1858038,2020-01-15
+1764741,1764741,Fix Released,tht YAML validation may pass a full run and fail a targeted check,https://bugs.launchpad.net/tripleo/+bug/1764741,2020-01-15
+1807340,1807340,Fix Released,Interface detach fails for VFHostUser vif,https://bugs.launchpad.net/nova/+bug/1807340,2020-01-15
+1857023,1857023,Fix Released,Kuryr detecting Octavia version incorrectly,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1857023,2020-01-14
+1858301,1858301,Fix Released,Wrongly Iteration over the remote_ip_prefixes dict,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1858301,2020-01-14
+1784879,1784879,Fix Released,Neutron doesn't update Designate with some use cases,https://bugs.launchpad.net/neutron/+bug/1784879,2020-01-14
+1859187,1859187,Fix Released,Some neutron-plugin-tests in full-tempest job failing with AttributeError: 'NoneType' object has no attribute 'open_session',https://bugs.launchpad.net/tripleo/+bug/1859187,2020-01-14
+1857354,1857354,Fix Released,Timeout adding member with host networking,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1857354,2020-01-14
+1823865,1823865,Fix Released,[neutron][networking-ovn] The function provider_network_attribute_updates_supported is breaking networking-ovn gate,https://bugs.launchpad.net/neutron/+bug/1823865,2020-01-14
+1829304,1829304,Fix Released,Neutron returns HttpException: 500 on certain operations with modified list of policies for non-admin users,https://bugs.launchpad.net/neutron/+bug/1829304,2020-01-14
+1835209,1835209,Fix Released,Bulk-created ports ignore binding_host_id property,https://bugs.launchpad.net/neutron/+bug/1835209,2020-01-14
+1843282,1843282,Fix Released,Rally CI not working since jsonschema version bump,https://bugs.launchpad.net/neutron/+bug/1843282,2020-01-14
+1843282,1843282,Fix Released,Rally CI not working since jsonschema version bump,https://bugs.launchpad.net/rally/+bug/1843282,2020-01-14
+1833386,1833386,Fix Released,Fullstack test neutron.tests.fullstack.test_l3_agent.TestLegacyL3Agent.test_north_south_traffic is failing,https://bugs.launchpad.net/neutron/+bug/1833386,2020-01-14
+1829239,1829239,Fix Released,pyroute2 version conflict,https://bugs.launchpad.net/networking-midonet/+bug/1829239,2020-01-14
+1829239,1829239,Fix Released,pyroute2 version conflict,https://bugs.launchpad.net/neutron/+bug/1829239,2020-01-14
+1856843,1856843,Fix Released,subnets and networks leftovers without associated kuryrnet object,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1856843,2020-01-14
+1817539,1817539,Fix Released,Can't add service mapping from user environment,https://bugs.launchpad.net/tripleo/+bug/1817539,2020-01-14
+1853652,1853652,Fix Released,openstack overcloud node provide --all-manageable timing out and failing periodic rhel-8-ovb-3ctlr_1comp-featureset001-master,https://bugs.launchpad.net/tripleo/+bug/1853652,2020-01-14
+1809313,1809313,Fix Released,networks have empty string IP values when disabling networks,https://bugs.launchpad.net/tripleo/+bug/1809313,2020-01-14
+1742139,1742139,Fix Released,[tempestmail] --file option should not require log_url or LOG_PATH,https://bugs.launchpad.net/tripleo/+bug/1742139,2020-01-13
+1843259,1843259,Fix Released,Periodic rocky fs020 job fails tempest tests tempest.scenario.test_security_groups_basic_ops.TestSecurityGroupsBasicOps.test_cross_tenant_traffic and tempest.scenario.test_security_groups_basic_ops.TestSecurityGroupsBasicOps.test_multiple_security_groups,https://bugs.launchpad.net/tripleo/+bug/1843259,2020-01-13
+1737940,1737940,Fix Released,CI: neutron.tests.tempest.scenario.test_qos.QoSTest.test_qos fails in pike promotion jobs,https://bugs.launchpad.net/tripleo/+bug/1737940,2020-01-13
+1857365,1857365,Fix Released,"Queens, Rocky fs020 tempest test are failing ServersOnMultiNodesTest and TestSecurityGroupsBasicOps",https://bugs.launchpad.net/tripleo/+bug/1857365,2020-01-13
+1838691,1838691,Fix Released,Can't create incremental backups when using python3 and newer Ceph versions.,https://bugs.launchpad.net/cinder/+bug/1838691,2020-01-13
+1834845,1834845,Fix Released,DetachedInstanceError: Parent instance <VolumeAttachment at > is not bound to a Session,https://bugs.launchpad.net/cinder/+bug/1834845,2020-01-13

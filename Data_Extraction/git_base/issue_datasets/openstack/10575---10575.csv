@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1797239,1797239,Fix Released,Fedora version is outdated,https://bugs.launchpad.net/devstack/+bug/1797239,2018-10-14
+1791332,1791332,Fix Released,[CI] New image prepare workflow is incompatible with updates and upgrades,https://bugs.launchpad.net/tripleo/+bug/1791332,2018-10-12
+1758054,1758054,Fix Released,stackviz failing on py3 causing tempest-full-py3 POST_FAILURES,https://bugs.launchpad.net/openstack-gate/+bug/1758054,2018-10-11
+1758054,1758054,Fix Released,stackviz failing on py3 causing tempest-full-py3 POST_FAILURES,https://bugs.launchpad.net/stackviz/+bug/1758054,2018-10-11
+1788375,1788375,Fix Committed,API changes in vault 0.10.0 causes test to fail.,https://bugs.launchpad.net/castellan/+bug/1788375,2018-10-11
+1472178,1472178,Fix Released,Broken unit-tests,https://bugs.launchpad.net/manila-ui/+bug/1472178,2018-10-11
+1786520,1786520,Fix Released,3node jobs failing due to missing file UpgradeInitDeployment,https://bugs.launchpad.net/tripleo/+bug/1786520,2018-10-11
+1743532,1743532,Fix Released,nova list doesn't work above api max_limit,https://bugs.launchpad.net/python-novaclient/+bug/1743532,2018-10-11
+1779273,1779273,Fix Released,building images in container fails due to selinux fixes,https://bugs.launchpad.net/diskimage-builder/+bug/1779273,2018-10-11
+1793665,1793665,Fix Released,multinode-oooq-container scenarios and Fs016/17/20 periodic jobs fails on validate-tempest: Unexpected response code received,https://bugs.launchpad.net/tripleo/+bug/1793665,2018-10-10
+1755602,1755602,Fix Released,Ironic computes may not be discovered when node count is less than compute count,https://bugs.launchpad.net/tripleo/+bug/1755602,2018-10-10
+1755602,1755602,Fix Released,Ironic computes may not be discovered when node count is less than compute count,https://bugs.launchpad.net/nova/+bug/1755602,2018-10-10
+1750415,1750415,Fix Released,validation of app cred tokens is dependent on CONF.token.cache_on_issue,https://bugs.launchpad.net/keystone/+bug/1750415,2018-10-10
+1796415,1796415,Fix Released,OTP returned to Nova incorrect due to caching,https://bugs.launchpad.net/novajoin/+bug/1796415,2018-10-10
+1431987,1431987,Fix Released,Emit failure notifications for CADF audits events,https://bugs.launchpad.net/keystone/+bug/1431987,2018-10-10
+1774066,1774066,Fix Released,ZFSSA volume driver can't delete non-existent snapshot,https://bugs.launchpad.net/cinder/+bug/1774066,2018-10-09
+1773069,1773069,Fix Released,"Tiramisu: After failover, active_backend_id is not set to secondary backend id",https://bugs.launchpad.net/cinder/+bug/1773069,2018-10-09
+1756242,1756242,Fix Released,Storwize:report active wwpns when npiv enabled.,https://bugs.launchpad.net/cinder/+bug/1756242,2018-10-09
+1778669,1778669,Fix Released,NEC driver: LUNs of detached volumes are never reused.,https://bugs.launchpad.net/cinder/+bug/1778669,2018-10-09
+1777385,1777385,Fix Released,NEC driver: access to the attached volumes were removed after live-migration.,https://bugs.launchpad.net/cinder/+bug/1777385,2018-10-09
+1783028,1783028,Fix Released,force delete volume parameter is decorated with incorrect version,https://bugs.launchpad.net/cinder/+bug/1783028,2018-10-09
+1728826,1728826,Fix Released,attachments API's(create and update) fails with 500 InternalServerError if user don't pass 'initiator' parameter in connector object,https://bugs.launchpad.net/cinder/+bug/1728826,2018-10-09
+1552734,1552734,Fix Released,cached image volume not deleted if clone volume fails,https://bugs.launchpad.net/cinder/+bug/1552734,2018-10-09
+1757521,1757521,Fix Released,image conversion dir creation is racy,https://bugs.launchpad.net/cinder/+bug/1757521,2018-10-09
+1773924,1773924,Fix Released,Cinder Volume is incorrectly logging request id,https://bugs.launchpad.net/cinder/+bug/1773924,2018-10-09
+1783640,1783640,Fix Released,Delete group snapshot throws incorrect exception when role doesn't have permission,https://bugs.launchpad.net/cinder/+bug/1783640,2018-10-09
+1773833,1773833,Fix Released,No error message when volume extend fails,https://bugs.launchpad.net/cinder/+bug/1773833,2018-10-09
+1781276,1781276,Fix Released,remotefs _get_provisioned_capacity parses du output incorrectly,https://bugs.launchpad.net/cinder/+bug/1781276,2018-10-09
+1758024,1758024,Fix Released,Incorrect replication status on clusters,https://bugs.launchpad.net/cinder/+bug/1758024,2018-10-09
+1768047,1768047,Fix Released,VMAX driver - Deleting snapshot which is source of multiple volumes fails,https://bugs.launchpad.net/cinder/+bug/1768047,2018-10-09
+1777871,1777871,Fix Released,VMAX driver - Cannot revert replicated volume to snapshot,https://bugs.launchpad.net/cinder/+bug/1777871,2018-10-09
+1561560,1561560,Fix Released,Report back actual volume / snapshot size.,https://bugs.launchpad.net/cinder/+bug/1561560,2018-10-09
+1789294,1789294,Fix Released,RDO Cloud jobs move to zuulv3 native is blocked by legacy dependencies,https://bugs.launchpad.net/tripleo/+bug/1789294,2018-10-09
+1738769,1738769,Fix Released,Cache of workflow spec,https://bugs.launchpad.net/mistral/+bug/1738769,2018-10-09
+1792872,1792872,Fix Released,[queens] overcloud prepare image failed by giving IronicAction.node.set_provision_state failed: 'NoneType' object has no attribute '__getitem_,https://bugs.launchpad.net/tripleo/+bug/1792872,2018-10-09
+1658645,1658645,Fix Released,dbsync fails in newton,https://bugs.launchpad.net/networking-bigswitch/+bug/1658645,2018-10-08
+1658645,1658645,Fix Released,dbsync fails in newton,https://bugs.launchpad.net/tripleo/+bug/1658645,2018-10-08
+1704129,1704129,Fix Released,Add an IVS os-vif plugin,https://bugs.launchpad.net/networking-bigswitch/+bug/1704129,2018-10-08
+1728102,1728102,Fix Released,Missing stable/pike branch in networking-bigswitch,https://bugs.launchpad.net/networking-bigswitch/+bug/1728102,2018-10-08
+1776981,1776981,Fix Released,ironic-tempest-dsvm-ipa-wholedisk-bios-agent_ipmitool-tinyipa is running on non-code changes,https://bugs.launchpad.net/nova/+bug/1776981,2018-10-08
+1779826,1779826,Fix Released,Unshelve instance can't find the image error message is not updated to the instance fault table,https://bugs.launchpad.net/nova/+bug/1779826,2018-10-08
+1703629,1703629,Fix Released,Evacuation fails for instances with PCI devices due to missing migration,https://bugs.launchpad.net/nova/+bug/1703629,2018-10-08
+1630698,1630698,Fix Released,nova evacuate of instances with sriov ports fails due to use of source device,https://bugs.launchpad.net/nova/+bug/1630698,2018-10-08
+1754360,1754360,Fix Released,no unquiesce for volume backed on quiesce failure,https://bugs.launchpad.net/nova/+bug/1754360,2018-10-08
+1785031,1785031,Fix Released,"live migration to non-existing host gets instance stuck in ""migrating"" status",https://bugs.launchpad.net/nova/+bug/1785031,2018-10-08
+1673261,1673261,Fix Released,Help docs for disk_weight_multiplier option are wrong,https://bugs.launchpad.net/nova/+bug/1673261,2018-10-08
+1645175,1645175,Fix Released,Neutron port got deleted when attach interface failed,https://bugs.launchpad.net/nova/+bug/1645175,2018-10-08
+1714248,1714248,Fix Released,Compute node HA for ironic doesn't work due to the name duplication of Resource Provider,https://bugs.launchpad.net/nova/+bug/1714248,2018-10-08
+1756994,1756994,Fix Released,"Misleading log messages ""Unexpected attempt to pop events during shutdown"" on source host during live migration",https://bugs.launchpad.net/nova/+bug/1756994,2018-10-08
+1716922,1716922,Fix Released,Security group creation failed,https://bugs.launchpad.net/manila/+bug/1716922,2018-10-08
+1709266,1709266,Fix Released,Bug in installation guide  for  Shared File Systems,https://bugs.launchpad.net/manila/+bug/1709266,2018-10-08
+1714691,1714691,Fix Released,Manila-share with zfsonlinux not starting when LOCALE is not POSIX or en_US.UTF-8,https://bugs.launchpad.net/manila/+bug/1714691,2018-10-08
+1717562,1717562,Fix Released,tempest: scenario.test_share_basic_ops.TestShareBasicOps fails,https://bugs.launchpad.net/manila/+bug/1717562,2018-10-08
+1728463,1728463,Fix Released,neutron net plugin opts missing from generated config,https://bugs.launchpad.net/manila/+bug/1728463,2018-10-08
+1722707,1722707,Fix Released,Quotas per share_type has bad db unique contraint,https://bugs.launchpad.net/manila/+bug/1722707,2018-10-08
+1717263,1717263,Fix Released,NetApp drivers don’t create share of requested size when creating from snapshot,https://bugs.launchpad.net/manila/+bug/1717263,2018-10-08
+1730529,1730529,Fix Released,Running Pike manila-api directly with SSL does not speak SSL,https://bugs.launchpad.net/manila/+bug/1730529,2018-10-08
+1732844,1732844,Fix Released,Running manila-api directly with SSL does not speak SSL,https://bugs.launchpad.net/manila/+bug/1732844,2018-10-08
+1721123,1721123,Fix Released,cannot update previously deleted drivers_private_storage entries,https://bugs.launchpad.net/manila/+bug/1721123,2018-10-08
+1705533,1705533,Fix Released,manila manage error output does failed to format python string,https://bugs.launchpad.net/manila/+bug/1705533,2018-10-08
+1733742,1733742,Fix Released,http for default share type results not correct,https://bugs.launchpad.net/manila/+bug/1733742,2018-10-08
+1740010,1740010,Fix Released,Raise error when image status is not active,https://bugs.launchpad.net/manila/+bug/1740010,2018-10-08
+1720283,1720283,Fix Released,"use openflow to set security group, create port failed",https://bugs.launchpad.net/manila/+bug/1720283,2018-10-08
+1733451,1733451,Fix Released,Huawei driver failed to connect backend storage in latest python2.7 env,https://bugs.launchpad.net/manila/+bug/1733451,2018-10-08
+1749184,1749184,Fix Released,db migration error with mariadb >= 10.2.8,https://bugs.launchpad.net/manila/+bug/1749184,2018-10-08
+1750074,1750074,Fix Released,Cinder logs rabbitmq password on connection log,https://bugs.launchpad.net/cinder/+bug/1750074,2018-10-08
+1750074,1750074,Fix Released,Cinder logs rabbitmq password on connection log,https://bugs.launchpad.net/manila/+bug/1750074,2018-10-08
+1740816,1740816,Fix Released,Huawei driver mounts CIFS with incorrect username parameter,https://bugs.launchpad.net/manila/+bug/1740816,2018-10-08
+1688155,1688155,Fix Released,tap device will disappear after manila-share node restart,https://bugs.launchpad.net/manila/+bug/1688155,2018-10-08
+1733807,1733807,Fix Released,Quobyte Manila driver does not support newer error codes from  Quobyte 1.4+,https://bugs.launchpad.net/manila/+bug/1733807,2018-10-08
+1765420,1765420,Fix Released,NetApp Driver with Non-Cluster-Scoped Role and User Cannot Delete Shares,https://bugs.launchpad.net/manila/+bug/1765420,2018-10-08
+1717392,1717392,Fix Released,exception when downgrading db from '579c267fbb4d' to '5077ffcc5f1c',https://bugs.launchpad.net/manila/+bug/1717392,2018-10-08
+1743472,1743472,Fix Released,Create a default share type for tempest tests,https://bugs.launchpad.net/manila/+bug/1743472,2018-10-08
+1694768,1694768,Fix Released,NetApp cDOT driver fails to revert to failed-over replicated snapshot or migrated snapshot,https://bugs.launchpad.net/manila/+bug/1694768,2018-10-08
+1698429,1698429,Fix Released,Manila Tempest Tests - CIFS multi-tenancy tests fail with pre-existing network,https://bugs.launchpad.net/manila/+bug/1698429,2018-10-08

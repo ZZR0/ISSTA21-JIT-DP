@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1488265,1488265,Fix Released,NSXv driver does not verify certificates,https://bugs.launchpad.net/vmware-nsx/+bug/1488265,2020-07-29
+1487167,1487167,Fix Released,NSXv: operation hangs when creating a router,https://bugs.launchpad.net/vmware-nsx/+bug/1487167,2020-07-29
+1484803,1484803,Fix Released,NSXv: plugin does not support host routes,https://bugs.launchpad.net/vmware-nsx/+bug/1484803,2020-07-29
+1446661,1446661,Fix Released,Exception when creating metadata service,https://bugs.launchpad.net/vmware-nsx/+bug/1446661,2020-07-29
+1433553,1433553,Fix Released,DVR: remove interface fails on NSX-mh,https://bugs.launchpad.net/vmware-nsx/+bug/1433553,2020-07-29
+1405311,1405311,Fix Released,Incorrect check for security groups in create_port,https://bugs.launchpad.net/vmware-nsx/+bug/1405311,2020-07-29
+1405311,1405311,Fix Released,Incorrect check for security groups in create_port,https://bugs.launchpad.net/neutron/+bug/1405311,2020-07-29
+1883736,1883736,Fix Released,incorrect exception handling - using deprecated 'message' attribute,https://bugs.launchpad.net/networking-vpp/+bug/1883736,2020-07-29
+1886782,1886782,Fix Released,Avoid calling sync for a job where suffixes list is empty,https://bugs.launchpad.net/swift/+bug/1886782,2020-07-29
+1862645,1862645,Fix Released,Object replicator report a failure when suffixes is empty,https://bugs.launchpad.net/swift/+bug/1862645,2020-07-29
+1821207,1821207,Fix Released,"""cinder-manage db online_data_migrations"" fails if volume as a NULL value in host field",https://bugs.launchpad.net/cinder/+bug/1821207,2020-07-28
+1883096,1883096,Fix Released,redis_tls_proxy container fails to start when converting a control plane to TLS-e,https://bugs.launchpad.net/tripleo/+bug/1883096,2020-07-28
+1697422,1697422,Fix Released,"Hp3par:after  volume retyped or migrated, the volume can not work normally.such as clone,create snapshot attach,detach and so on.",https://bugs.launchpad.net/cinder/+bug/1697422,2020-07-28
+1887957,1887957,Fix Committed,OpenvSwtich should not be restarted on os-net-config re-runs,https://bugs.launchpad.net/tripleo/+bug/1887957,2020-07-28
+1875643,1875643,Fix Released,"api-ref: replace mention of ""policy.json""",https://bugs.launchpad.net/cinder/+bug/1875643,2020-07-28
+1841941,1841941,Fix Released,Cannot run scenario4 on rhel8 due to missing pcs required by manila,https://bugs.launchpad.net/tripleo/+bug/1841941,2020-07-28
+1731992,1731992,Fix Released,NFS driver fails with qemu-img >= 2.10.0,https://bugs.launchpad.net/cinder/+bug/1731992,2020-07-28
+1855014,1855014,Fix Released,undercloud minion not honoring minion_password_file,https://bugs.launchpad.net/tripleo/+bug/1855014,2020-07-28
+1814552,1814552,Fix Released,nova_libvirt docker image needs OVMF for UEFI machines,https://bugs.launchpad.net/kolla/+bug/1814552,2020-07-28
+1874019,1874019,Fix Released,scenario009-multinode.yaml and openshift.yaml is missing,https://bugs.launchpad.net/tripleo/+bug/1874019,2020-07-28
+1887376,1887376,Fix Released,"periodic-tripleo-ci-centos-8-standalone-on-multinode-ipa-train is failing with Error while evaluating a Resource Statement, Duplicate declaration: Exec[/etc/pki/CA/certs/vnc.crt]",https://bugs.launchpad.net/tripleo/+bug/1887376,2020-07-28
+1887120,1887120,Fix Released,Periodic C7 container push molecule job - periodic-molecule-container-push-delegated-centos-7 is failing with ERROR: molecule_delegated: could not install deps,https://bugs.launchpad.net/tripleo/+bug/1887120,2020-07-28
+1883807,1883807,Fix Released,"[dcn] instance boot fails on DistributedComputeHCIScaleOut node: Error contacting glance server 'http://172.25.2.182:9292' for 'get', done trying.: glanceclient.exc.HTTPServiceUnavailable: HTTP 503 Service Unavailable",https://bugs.launchpad.net/tripleo/+bug/1883807,2020-07-28
+1877043,1877043,Fix Released,centos7 rdo train fails at container start step1 using paunch,https://bugs.launchpad.net/tripleo/+bug/1877043,2020-07-28
+1886068,1886068,Fix Released,"multinode-ipa tests are failing standalone deployment -  'regsubst' parameter 'target' expects a value of type Array or String, got Undef-",https://bugs.launchpad.net/tripleo/+bug/1886068,2020-07-28
+1880863,1880863,Fix Released,"os_keystone_domain role failure: Could not find a suitable TLS CA certificate bundle, invalid path: /etc/ipa/ca.crt",https://bugs.launchpad.net/tripleo/+bug/1880863,2020-07-28
+1808951,1808951,Fix Released,"python3 + Fedora + SSL + wsgi nova deployment, nova api returns RecursionError: maximum recursion depth exceeded while calling a Python object",https://bugs.launchpad.net/nova/+bug/1808951,2020-07-28
+1797811,1797811,Fix Released,Users with _member_ or member roles cannot use cinder-volume via Horizon Dashboard,https://bugs.launchpad.net/openstack-ansible/+bug/1797811,2020-07-28
+1888681,1888681,Fix Released,Race condition to bootstrap Grafana DB,https://bugs.launchpad.net/kolla-ansible/+bug/1888681,2020-07-28
+1745618,1745618,Fix Released,neutron metadata agent is always binding to 0.0.0.0,https://bugs.launchpad.net/networking-ovn/+bug/1745618,2020-07-28
+1745618,1745618,Fix Released,neutron metadata agent is always binding to 0.0.0.0,https://bugs.launchpad.net/neutron/+bug/1745618,2020-07-28
+1889208,1889208,Fix Released,Second test buggy bug,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1889208,2020-07-28
+1889193,1889193,Fix Released,Test bug for test purposes,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1889193,2020-07-28
+1868686,1868686,Fix Released,ovsdb_timeout config option isn't used to set when adding manager,https://bugs.launchpad.net/neutron/+bug/1868686,2020-07-28
+1703581,1703581,Fix Released,[Generic driver] CIFS extension failing because of volume in use thus unable to unmount,https://bugs.launchpad.net/manila/+bug/1703581,2020-07-28
+1869746,1869746,Fix Released,Cinder throws error creating incremental backup from parent in another project,https://bugs.launchpad.net/cinder/+bug/1869746,2020-07-28
+1882590,1882590,Fix Released,NetApp SVM scoped account  is not working,https://bugs.launchpad.net/manila/+bug/1882590,2020-07-28
+1887695,1887695,Fix Released,driver nfs helper uses out of date 'service' command,https://bugs.launchpad.net/manila/+bug/1887695,2020-07-28
+1877377,1877377,Fix Released,[OVN] neutron-ovn-tempest-ovs-master-fedora periodic job is failing,https://bugs.launchpad.net/neutron/+bug/1877377,2020-07-28
+1887643,1887643,Fix Released,[NetApp] cifs error since ontap 9.5: Failed to set preferred DC,https://bugs.launchpad.net/manila/+bug/1887643,2020-07-27
+1888713,1888713,Fix Released,"Async tasks, image import not supported in pure-WSGI mode",https://bugs.launchpad.net/glance/+bug/1888713,2020-07-27
+1888895,1888895,Fix Released,nova-ceph-multistore job fails often with 'No valid host was found. There are not enough hosts available.',https://bugs.launchpad.net/devstack-plugin-ceph/+bug/1888895,2020-07-27
+1888895,1888895,Fix Released,nova-ceph-multistore job fails often with 'No valid host was found. There are not enough hosts available.',https://bugs.launchpad.net/nova/+bug/1888895,2020-07-27
+1888258,1888258,Fix Released,"[neutron-tempest-plugin] greendns query has no attribute ""_compute_expiration""",https://bugs.launchpad.net/neutron/+bug/1888258,2020-07-27
+1872730,1872730,Fix Released,Delete ARQs for an instance when the instance is deleted only delete bound arqs,https://bugs.launchpad.net/nova/+bug/1872730,2020-07-27
+1889045,1889045,Fix Released,Upstream Check/Gate jobs failing during python-tripleoclient rpm build with error -  No matching package to install: 'validations-common',https://bugs.launchpad.net/tripleo/+bug/1889045,2020-07-27
+1663388,1663388,Fix Released,Convergence: resource failure can result in missing dependencies,https://bugs.launchpad.net/heat/+bug/1663388,2020-07-27
+1888397,1888397,Fix Released,"train standalone-scenario10, loadbalancer fails to get to active state",https://bugs.launchpad.net/tripleo/+bug/1888397,2020-07-27
+1888866,1888866,Fix Released,KeyError: 'name' in test network resources,https://bugs.launchpad.net/rally/+bug/1888866,2020-07-27
+1888242,1888242,Fix Released,freezer deploy failed when enable kolla_dev_mod,https://bugs.launchpad.net/kolla-ansible/+bug/1888242,2020-07-27
+1877976,1877976,Fix Released,PowerMAX Driver - RDFG suspended on vol create exception,https://bugs.launchpad.net/cinder/+bug/1877976,2020-07-26
+1875433,1875433,Fix Released,PowerMax Driver - Retype from rep to rep leaving storage group suspended,https://bugs.launchpad.net/cinder/+bug/1875433,2020-07-26
+1847049,1847049,Fix Released,CI: cinder-backup reports errors in the cinder-lvm scenario,https://bugs.launchpad.net/kolla-ansible/+bug/1847049,2020-07-25
+1766372,1766372,Fix Released,No way to mention  flavor details for KB proxy server,https://bugs.launchpad.net/kloudbuster/+bug/1766372,2020-07-25
+1797765,1797765,Fix Released,raw_input is not support in Python 3,https://bugs.launchpad.net/kloudbuster/+bug/1797765,2020-07-25
+1785769,1785769,Fix Released,Designate Worker does not send 'also_notifies',https://bugs.launchpad.net/designate/+bug/1785769,2020-07-24
+1843734,1843734,Fix Released,deployment fails if container volume source is a docker/podman volume and not a filesystem path,https://bugs.launchpad.net/tripleo/+bug/1843734,2020-07-24
+1752897,1752897,Fix Released,Port creation is slow due to the way networking-ovn handles ACLs,https://bugs.launchpad.net/networking-ovn/+bug/1752897,2020-07-24
+1867619,1867619,Fix Released,"dellemc unity: ""'NoneType' object is not callable"" error in test_delete_host_wo_lock case",https://bugs.launchpad.net/cinder/+bug/1867619,2020-07-24
+1883697,1883697,Fix Released,ML2 agent fails to cleanup DHCP bridges intermittently,https://bugs.launchpad.net/networking-vpp/+bug/1883697,2020-07-24
+1882672,1882672,Fix Released,TrunkPort error - RuntimeError: dictionary changed size during iteration,https://bugs.launchpad.net/networking-vpp/+bug/1882672,2020-07-24
+1717008,1717008,Fix Released,"config sample ""nova"" group is named ""nova_group""",https://bugs.launchpad.net/cinder/+bug/1717008,2020-07-24
+1869808,1869808,Fix Released,reboot neutron-ovs-agent introduces a short interrupt of vlan traffic,https://bugs.launchpad.net/neutron/+bug/1869808,2020-07-24
+1875953,1875953,Fix Released,virtuozzo driver: missing context in create_cloned_volume call,https://bugs.launchpad.net/cinder/+bug/1875953,2020-07-24
+1888655,1888655,Fix Released,TLS certificates not copied into masakari containers,https://bugs.launchpad.net/kolla-ansible/+bug/1888655,2020-07-24
+1888613,1888613,Fix Released,overcloud-hardened-full job is broken with DIB_BLOCK_DEVICE: unbound variable,https://bugs.launchpad.net/tripleo/+bug/1888613,2020-07-24
+1874712,1874712,Fix Released,User provided certificate OctaviaClientCert is missing after deployment,https://bugs.launchpad.net/tripleo/+bug/1874712,2020-07-24
+1886047,1886047,Fix Released,Compute node upgrade from queens -> train with [qemu-nbd-client-cert]: Could not evaluate: Could not get certificate,https://bugs.launchpad.net/tripleo/+bug/1886047,2020-07-24
+1873518,1873518,Fix Released,DB method backup_get_all_by_volume only work for admin,https://bugs.launchpad.net/cinder/+bug/1873518,2020-07-24
+1879706,1879706,Fix Released,PortTestCasesResourceRequest resource_setup failing if vxlan is not supported,https://bugs.launchpad.net/tempest/+bug/1879706,2020-07-24
+1867953,1867953,Fix Released,impossible to deploy fluentd with no openstack services enabled,https://bugs.launchpad.net/kolla-ansible/+bug/1867953,2020-07-24
+1740258,1740258,Fix Released,[scenario]/img_dir is deprecated but required,https://bugs.launchpad.net/tempest/+bug/1740258,2020-07-24
+1886962,1886962,Fix Released,[OVN][QOS] NBDB qos table entries still exist even after corresponding neutron ports are deleted,https://bugs.launchpad.net/neutron/+bug/1886962,2020-07-24
+1809323,1809323,Fix Released,if we firstly create a incremental backup without parent backup， the reserved value of quota_usages table is not rollbacked,https://bugs.launchpad.net/cinder/+bug/1809323,2020-07-24
+1884991,1884991,Fix Released,s3api on py3 doesn't use the bytes-on-the-wire when calculating string to sign,https://bugs.launchpad.net/swift/+bug/1884991,2020-07-24

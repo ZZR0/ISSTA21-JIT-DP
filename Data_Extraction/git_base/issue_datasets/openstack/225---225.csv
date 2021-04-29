@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1892837,1892837,Fix Committed,tempest.api.compute.servers.test_servers_negative fails in periodic-tripleo-ci-centos-8-standalone-full-tempest-api-master,https://bugs.launchpad.net/tempest/+bug/1892837,2020-11-19
+1892837,1892837,Fix Released,tempest.api.compute.servers.test_servers_negative fails in periodic-tripleo-ci-centos-8-standalone-full-tempest-api-master,https://bugs.launchpad.net/tripleo/+bug/1892837,2020-11-19
+1900794,1900794,Fix Released,Netplan network configuration missing,https://bugs.launchpad.net/openstack-ansible/+bug/1900794,2020-11-19
+1893618,1893618,Fix Released,periodic-tripleo-ci-centos-8-standalone-full-tempest-api-compute-master tempest test_shelve_unshelve_server failing in component-pipeline,https://bugs.launchpad.net/tripleo/+bug/1893618,2020-11-19
+1904446,1904446,Fix Released,'GetPMEMNamespacesFailed' is not a valid exception,https://bugs.launchpad.net/nova/+bug/1904446,2020-11-19
+1885286,1885286,Fix Released,Increase in RETRY_LIMIT errors in zuul.openstack.org is preventing jobs from passing check/gate,https://bugs.launchpad.net/tripleo/+bug/1885286,2020-11-19
+1892846,1892846,Fix Released,AttributeError in l3-agent changing HA router to non-HA,https://bugs.launchpad.net/neutron/+bug/1892846,2020-11-19
+1587296,1587296,Fix Released,ovs-agent: use_veth_interconnection is not needed anymore,https://bugs.launchpad.net/neutron/+bug/1587296,2020-11-19
+1881277,1881277,Fix Released,default pool does not allow to config a different default_pool_id,https://bugs.launchpad.net/designate/+bug/1881277,2020-11-19
+1903051,1903051,Fix Released,HA: galera cannot recover from a network split on a 2-node,https://bugs.launchpad.net/tripleo/+bug/1903051,2020-11-19
+1898256,1898256,Fix Released,ComputeDVR upgrades failing due to mishandling of neutron l3 agent container image,https://bugs.launchpad.net/tripleo/+bug/1898256,2020-11-19
+1903550,1903550,Fix Committed,Make the dependency of sriov_config service compatible with 3rd party,https://bugs.launchpad.net/tripleo/+bug/1903550,2020-11-19
+1903982,1903982,Fix Released,"[neutron-tempest-plugin] Error when executing ""hostname"" in the VM",https://bugs.launchpad.net/neutron/+bug/1903982,2020-11-18
+1902670,1902670,Fix Released,ubuntu scenario jobs are failing because of missing mimic on mirror host,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1902670,2020-11-18
+1902478,1902478,Fix Released,tripleo-ci-centos-8-standalone-on-multinode-ipa/tripleo-ci-centos-8-ovb-3ctlr_1comp_1supp-featureset039-master  failing while configuring FreeIPA server with RuntimeError: CA configuration failed.,https://bugs.launchpad.net/tripleo/+bug/1902478,2020-11-18
+1901186,1901186,Fix Released,"Component pipeline jobs are failing with msg: ""Error running container image prepare: Not found image""",https://bugs.launchpad.net/tripleo/+bug/1901186,2020-11-18
+1903641,1903641,Fix Released,Race condition during SG creation,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1903641,2020-11-18
+1733362,1733362,Fix Released,availability_zone extension missing from API ref,https://bugs.launchpad.net/neutron/+bug/1733362,2020-11-18
+1904131,1904131,Fix Released,volume related rescue tests should be skipped when there is no Cinder,https://bugs.launchpad.net/tempest/+bug/1904131,2020-11-18
+1903961,1903961,Fix Released,Intermittently some jobs are timing out while gathering facts on different tasks :  [tripleo-inventory : Ensure gather_facts has been run against localhost] or [validate-undercloud : gather facts used by role],https://bugs.launchpad.net/tripleo/+bug/1903961,2020-11-18
+1903572,1903572,Fix Released,NetworkPolicies with matchLabels are applied to pods with no labels,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1903572,2020-11-18
+1903067,1903067,Fix Released,Kuryr controller sometimes crash on cleaning up Network Policy,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1903067,2020-11-18
+1904544,1904544,Fix Released,"[neutron-tempest-plugin] ""_log_ns_network_status"" should not fail if the namespace does not exist",https://bugs.launchpad.net/neutron/+bug/1904544,2020-11-18
+1891914,1891914,Fix Released,ElementOS/SolidFire cinder driver may fail operations with xNotPrimary error when ElementOS system is upgrading,https://bugs.launchpad.net/cinder/+bug/1891914,2020-11-18
+1891888,1891888,Fix Released,Alaram histories are never removed from aodh database,https://bugs.launchpad.net/tripleo/+bug/1891888,2020-11-18
+1904448,1904448,Fix Released,ndctl is missing in nova-compute image,https://bugs.launchpad.net/tripleo/+bug/1904448,2020-11-18
+1892008,1892008,Fix Released,periodic OVB train centos 7 failing overcloud configuration (config download) Invalid cross-device link,https://bugs.launchpad.net/tripleo/+bug/1892008,2020-11-18
+1896463,1896463,Fix Released,evacuation failed: Port update failed : Unable to correlate PCI slot,https://bugs.launchpad.net/nova/+bug/1896463,2020-11-18
+1904395,1904395,Fix Released,Scaling service endpoints to 0 does not remove loadbalancer members,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1904395,2020-11-18
+1903993,1903993,Fix Released,Intemittenly tripleo-ci-centos-8-standalone-upgrade-ussuri timeouts while running tempest tests.,https://bugs.launchpad.net/tripleo/+bug/1903993,2020-11-18
+1904181,1904181,Fix Released,nova-compute fails to start if cell conductor is not running.,https://bugs.launchpad.net/nova/+bug/1904181,2020-11-18
+1903980,1903980,Fix Released,tripleo-ci-centos-8-scenario000-multinode-oooq-container-updates-train job is failing on TASK [undercloud-deploy : Write containers-prepare-parameter.yaml] with error 'dict object' has no attribute 'registry_ip_address_branch',https://bugs.launchpad.net/tripleo/+bug/1903980,2020-11-18
+1904483,1904483,Fix Released,centos-7 overcloud image build jobs are failing on pre-install.d/03-centos-rt - rt repo no longer exists,https://bugs.launchpad.net/tripleo/+bug/1904483,2020-11-18
+1897267,1897267,Fix Committed,_get_explicit_relationship loose original relationship type,https://bugs.launchpad.net/tosca-parser/+bug/1897267,2020-11-18
+1900191,1900191,Fix Released,Regression in manila-netapp-dataontap driver TLS handling in Ussuri,https://bugs.launchpad.net/manila/+bug/1900191,2020-11-18
+1903773,1903773,Fix Released,Shares cannot be unmounted/destroyed after migration tests,https://bugs.launchpad.net/manila/+bug/1903773,2020-11-18
+1889936,1889936,Fix Released,Using Microsoft AD's objectGUID attribute as user_id_attribute breaks,https://bugs.launchpad.net/keystone/+bug/1889936,2020-11-18
+1903498,1903498,Fix Released,tripleo-ci-centos-8-undercloud-upgrade-ussuri is failing RuntimeError: Update extra packages failed: b'sudo: yum: command not found\n,https://bugs.launchpad.net/tripleo/+bug/1903498,2020-11-18
+1850601,1850601,Fix Released,Synology: Session may not reconnect when current session is expired,https://bugs.launchpad.net/cinder/+bug/1850601,2020-11-17
+1899004,1899004,Fix Released,"[OVN] ""test_agent_show"" failing, agent not found",https://bugs.launchpad.net/neutron/+bug/1899004,2020-11-17
+1902585,1902585,Fix Released,uwsgi socket backlog exceeded,https://bugs.launchpad.net/openstack-ansible/+bug/1902585,2020-11-17
+1829930,1829930,Fix Released,haproxy directs requests to empty repo containers,https://bugs.launchpad.net/openstack-ansible/+bug/1829930,2020-11-17
+1900006,1900006,Fix Released,Asking for different vGPU types is racey,https://bugs.launchpad.net/nova/+bug/1900006,2020-11-17
+1886798,1886798,Fix Released,[RFE] Port NUMA affinity policy,https://bugs.launchpad.net/neutron/+bug/1886798,2020-11-17
+1903955,1903955,Fix Released,Debug log prints password while VIM registration.,https://bugs.launchpad.net/tacker/+bug/1903955,2020-11-17
+1776721,1776721,Fix Released,[rfe] include validation for heat-manage purge_deleted cron job,https://bugs.launchpad.net/tripleo/+bug/1776721,2020-11-17
+1692445,1692445,Fix Released,heat only supports network type 'flat'/'vlan' for provider network,https://bugs.launchpad.net/heat/+bug/1692445,2020-11-17
+1474966,1474966,Fix Released,"Create VNF: Inconsistency between CLI, Horizon UI and API for VNF name",https://bugs.launchpad.net/tacker/+bug/1474966,2020-11-17
+1862143,1862143,Fix Released,object storage container and quota tempest tests are failing with connnection refused on swift healthcheck api on scenario4 stable/stein branch,https://bugs.launchpad.net/tripleo/+bug/1862143,2020-11-17
+1896125,1896125,Fix Released,LDAP paging leaks memory,https://bugs.launchpad.net/keystone/+bug/1896125,2020-11-17
+1897921,1897921,Fix Released,"[OVN] ""test_agent_show"" failing, chassis not found",https://bugs.launchpad.net/neutron/+bug/1897921,2020-11-16
+1889076,1889076,Fix Released,add-apt-keys on ubuntu-minimal fails,https://bugs.launchpad.net/diskimage-builder/+bug/1889076,2020-11-16
+1896192,1896192,Fix Released,Designate API returns invalid links in multiple endpoints,https://bugs.launchpad.net/designate/+bug/1896192,2020-11-16
+1825146,1825146,Fix Released,503 error from octavia after overcloud deployment,https://bugs.launchpad.net/tripleo/+bug/1825146,2020-11-16
+1850609,1850609,Fix Released,Support QoS by meter action,https://bugs.launchpad.net/networking-ovn/+bug/1850609,2020-11-16
+1904025,1904025,Fix Released,Container build on failures reports Exception information: 'int' object is not callable,https://bugs.launchpad.net/tripleo/+bug/1904025,2020-11-16
+1724854,1724854,Fix Released,kolla-ansible: annoying warning log about 'variable using reserved name: action',https://bugs.launchpad.net/kolla-ansible/+bug/1724854,2020-11-16
+1847990,1847990,Fix Released,Nova services RPC version pinning present after upgrade of multinode configuration,https://bugs.launchpad.net/kolla-ansible/+bug/1847990,2020-11-16
+1722126,1722126,Fix Released,Incorrect IPv6 lease entries cause DHCPNAKs from Dnsmasq in dual stack DHCPv6 stateful  network configuration,https://bugs.launchpad.net/neutron/+bug/1722126,2020-11-16
+1903390,1903390,Fix Released,Add openvswitch firewall_driver support in os_neutron,https://bugs.launchpad.net/openstack-ansible/+bug/1903390,2020-11-16
+1871119,1871119,Fix Released,docs: remove outdated autogenerate warning,https://bugs.launchpad.net/python-cinderclient/+bug/1871119,2020-11-16
+1864186,1864186,Fix Released,"""ping"" prepended to ip netns commands",https://bugs.launchpad.net/neutron/+bug/1864186,2020-11-16
+1824911,1824911,Fix Released,[scale issue] the bottleneck lock will multiply increase processing time of agent resources,https://bugs.launchpad.net/neutron/+bug/1824911,2020-11-16
+1904214,1904214,Fix Released,centos-7 train jobs are failing on dependency resolution:  glibc-common = 2.17-307.el7.1 and python3-libs(x86-64) = 3.6.8-13.el7,https://bugs.launchpad.net/tripleo/+bug/1904214,2020-11-16
+1723929,1723929,Fix Released,Horizon plugins are not loaded,https://bugs.launchpad.net/kolla/+bug/1723929,2020-11-16
+1903547,1903547,Fix Released,Add override timeout for openstack exporter,https://bugs.launchpad.net/kolla-ansible/+bug/1903547,2020-11-16
+1859516,1859516,Fix Released,use wheel mirror in CI,https://bugs.launchpad.net/kolla/+bug/1859516,2020-11-16
+1718716,1718716,Fix Released,Add variable for CEILOMETER_DATABASE_TYPE value,https://bugs.launchpad.net/kolla/+bug/1718716,2020-11-16
+1886975,1886975,Fix Released,Logstash 6 embedded config does not include logs removal,https://bugs.launchpad.net/kolla/+bug/1886975,2020-11-16
+1884090,1884090,Fix Released,Logstash 2 not compatible with Elasticsearch + Kibana 6 on Centos 8,https://bugs.launchpad.net/kolla-ansible/+bug/1884090,2020-11-16
+1884090,1884090,Fix Released,Logstash 2 not compatible with Elasticsearch + Kibana 6 on Centos 8,https://bugs.launchpad.net/kolla/+bug/1884090,2020-11-16
+1831469,1831469,Fix Released,Ubuntu binary ironic inspector missing pymysql,https://bugs.launchpad.net/kolla/+bug/1831469,2020-11-16
+1830420,1830420,Fix Released,placement_api fails to start if placement_api_port is set to 8778,https://bugs.launchpad.net/kolla/+bug/1830420,2020-11-16
+1777300,1777300,Fix Released,Can't build ovsdpdk image on CentOS,https://bugs.launchpad.net/kolla/+bug/1777300,2020-11-16
+1753423,1753423,Fix Released,Quick Start in Kolla-Ansible - Ubuntu documentation incorrect,https://bugs.launchpad.net/kolla-ansible/+bug/1753423,2020-11-16

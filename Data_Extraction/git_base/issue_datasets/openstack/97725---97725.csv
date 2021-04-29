@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+761774,761774,Fix Released,Adding a keypair that already exists produces an Unknown error,https://bugs.launchpad.net/nova/+bug/761774,2011-09-22
+754944,754944,Fix Released,self.interfaces_xml is assigned in LibvirtConnection but never used,https://bugs.launchpad.net/nova/+bug/754944,2011-09-22
+754051,754051,Fix Released,instance state polling finds compute instance not in DB,https://bugs.launchpad.net/nova/+bug/754051,2011-09-22
+752663,752663,Fix Released,OpenStack API not logging much,https://bugs.launchpad.net/nova/+bug/752663,2011-09-22
+744150,744150,Fix Released,unit tests fail if nova-api is running on the system,https://bugs.launchpad.net/nova/+bug/744150,2011-09-22
+707224,707224,Fix Released,bin/stack should alphabetize methods and controllers,https://bugs.launchpad.net/nova/+bug/707224,2011-09-22
+702580,702580,Fix Released,Deregister image with invalid Id raises UnknownError,https://bugs.launchpad.net/nova/+bug/702580,2011-09-22
+788550,788550,Fix Released,Fix the APIError typo,https://bugs.launchpad.net/nova/+bug/788550,2011-09-22
+787023,787023,Fix Released,rate limits builder uses incorrect key,https://bugs.launchpad.net/nova/+bug/787023,2011-09-22
+785763,785763,Fix Released,Can't run more than 150 instances using DHCP due inadequate dnsmasq defaults,https://bugs.launchpad.net/nova/+bug/785763,2011-09-22
+784207,784207,Fix Released,auth_tokens table column is named 'server_manageent_url' instead of 'server_management_url',https://bugs.launchpad.net/nova/+bug/784207,2011-09-22
+784134,784134,Fix Released,nova root-password command does not update root password,https://bugs.launchpad.net/nova/+bug/784134,2011-09-22
+783720,783720,Fix Released,services don't listen for rpc calls when report_interval is 0,https://bugs.launchpad.net/nova/+bug/783720,2011-09-22
+781291,781291,Fix Released,image convert is broken for old ami-xxxx images,https://bugs.launchpad.net/nova/+bug/781291,2011-09-22
+777460,777460,Fix Released,OS API xml deserialization missing imageRef and flavorRef,https://bugs.launchpad.net/nova/+bug/777460,2011-09-22
+767849,767849,Fix Released,kernel-id and ramdisk-id are not showing up in metadata,https://bugs.launchpad.net/nova/+bug/767849,2011-09-22
+767545,767545,Fix Released,Password reset not ran on instance create in XenServer,https://bugs.launchpad.net/nova/+bug/767545,2011-09-22
+767103,767103,Fix Released,CreateVolume API response doesn't match AWS EC2,https://bugs.launchpad.net/nova/+bug/767103,2011-09-22
+766282,766282,Fix Released,bad request if content-type header contains charset=UTF-8,https://bugs.launchpad.net/nova/+bug/766282,2011-09-22
+766227,766227,Fix Released,cloudpipe (vpn image) gets the wrong ip,https://bugs.launchpad.net/nova/+bug/766227,2011-09-22
+765782,765782,Fix Released,postgres schema needs updating,https://bugs.launchpad.net/nova/+bug/765782,2011-09-22
+762182,762182,Fix Released,Instance_type_id refactor broke XS Resizes,https://bugs.launchpad.net/nova/+bug/762182,2011-09-22
+758871,758871,Fix Released,OSAPI: A server with DB state of 'shutdown' shows as 'ACTIVE'.,https://bugs.launchpad.net/nova/+bug/758871,2011-09-22
+758054,758054,Fix Released,"If the console.log contains control characters, get console output fails with UnknownError",https://bugs.launchpad.net/nova/+bug/758054,2011-09-22
+755840,755840,Fix Released,"EC2 API: DescribeInstances should return privateIpAddress and publicIpAddress, not just DNS names",https://bugs.launchpad.net/nova/+bug/755840,2011-09-22
+753660,753660,Fix Released,Cannot work with Nova using RightAWS,https://bugs.launchpad.net/nova/+bug/753660,2011-09-22
+751798,751798,Fix Released,Format of Create Image response is malformed,https://bugs.launchpad.net/nova/+bug/751798,2011-09-22
+747922,747922,Fix Released,Rebooting instance doesn't restore mounted volume,https://bugs.launchpad.net/nova/+bug/747922,2011-09-22
+746016,746016,Fix Released,Limits response is not correct in OSAPI v1.1,https://bugs.launchpad.net/nova/+bug/746016,2011-09-22
+745340,745340,Fix Released,euca-attach-volume fails when using iSCSI on XenServer,https://bugs.launchpad.net/nova/+bug/745340,2011-09-22
+745320,745320,Fix Released,nova-manage delete / create can't replace instance types.,https://bugs.launchpad.net/nova/+bug/745320,2011-09-22
+742807,742807,Fix Released,OSAPI: Enforce quota for server metadata controller,https://bugs.launchpad.net/nova/+bug/742807,2011-09-22
+742256,742256,Fix Released,nova-compute should logout an iSCSI target on migration failure,https://bugs.launchpad.net/nova/+bug/742256,2011-09-22
+730233,730233,Fix Released,Openstack API 1.1 Actions,https://bugs.launchpad.net/nova/+bug/730233,2011-09-22
+707094,707094,Fix Released,Add memcache support to the ldap driver,https://bugs.launchpad.net/nova/+bug/707094,2011-09-22
+789741,789741,Fix Released,fix instance rebuilds (compute manager and metadata),https://bugs.launchpad.net/nova/+bug/789741,2011-09-22
+787657,787657,Fix Released,VMware vlan_interface flag defined txice,https://bugs.launchpad.net/nova/+bug/787657,2011-09-22
+785890,785890,Fix Released,Need to utilize locks during vlan creation in nova-network,https://bugs.launchpad.net/nova/+bug/785890,2011-09-22
+784743,784743,Fix Released,IllegalFlagValue: flag --host_state_interval,https://bugs.launchpad.net/nova/+bug/784743,2011-09-22
+784472,784472,Fix Released,Images added through objectstore and EC2 RegisterImage are never made available to the OpenStack API,https://bugs.launchpad.net/nova/+bug/784472,2011-09-22
+784132,784132,Fix Released,Getting TypeError from eventlet during RPC cast in API,https://bugs.launchpad.net/nova/+bug/784132,2011-09-22
+778678,778678,Fix Released,nova.virt.xenapi.vmops _run_ssl() should write directly to stdin instead of file,https://bugs.launchpad.net/nova/+bug/778678,2011-09-22
+773412,773412,Fix Released,Check for use of IPv6 missing,https://bugs.launchpad.net/nova/+bug/773412,2011-09-22
+760921,760921,Fix Released,nbd device busy and inject key fails,https://bugs.launchpad.net/nova/+bug/760921,2011-09-22
+750544,750544,Fix Released,Snapshotting VM instance failing for KVM,https://bugs.launchpad.net/nova/+bug/750544,2011-09-22
+723996,723996,Fix Released,No size restrictions in place for Images and Kernels,https://bugs.launchpad.net/nova/+bug/723996,2011-09-22
+803055,803055,Fix Released,'limit param must be an integer' when listing images via OSAPI,https://bugs.launchpad.net/glance/+bug/803055,2011-09-22
+797907,797907,Fix Released,Add support for floating IPs in the OpenStack API,https://bugs.launchpad.net/nova/+bug/797907,2011-09-22
+794672,794672,Fix Released,Add the ability to allow for multiple glance-apis to function in a zone,https://bugs.launchpad.net/nova/+bug/794672,2011-09-22
+793705,793705,Fix Released,Duplicate functionality in python-ipy and python-netaddr,https://bugs.launchpad.net/nova/+bug/793705,2011-09-22
+792097,792097,Fix Released,Use of now/utcnow inconsistent,https://bugs.launchpad.net/nova/+bug/792097,2011-09-22
+790900,790900,Fix Released,Add SSL support for RabbitMQ Communication,https://bugs.launchpad.net/nova/+bug/790900,2011-09-22
+790481,790481,Fix Released,openstack api has problem to work with certain project,https://bugs.launchpad.net/nova/+bug/790481,2011-09-22
+789755,789755,Fix Released,OSAPI: v1.1 /servers resize action with flavorRef,https://bugs.launchpad.net/nova/+bug/789755,2011-09-22
+789727,789727,Fix Released,test_libvirt: cleanup instances_path dir,https://bugs.launchpad.net/nova/+bug/789727,2011-09-22
+752782,752782,Fix Released,OSAPI wsgi-related code needs to be grouped into a common module,https://bugs.launchpad.net/nova/+bug/752782,2011-09-22
+723947,723947,Fix Released,Remove the local image service (nova/image/local.py),https://bugs.launchpad.net/nova/+bug/723947,2011-09-22
+721867,721867,Fix Released,Use latest pep8 in pip-requires,https://bugs.launchpad.net/nova/+bug/721867,2011-09-22
+798714,798714,Fix Released,Misleading error message on migrate number conflict when running unit tests,https://bugs.launchpad.net/nova/+bug/798714,2011-09-22
+797743,797743,Fix Released,OSAPI: some http bad requests fail to set explanation,https://bugs.launchpad.net/nova/+bug/797743,2011-09-22
+796820,796820,Fix Released,Race condition causes unit test to occasionally fail,https://bugs.launchpad.net/nova/+bug/796820,2011-09-22
+796095,796095,Fix Released,Fix Xen SR tmp dir when migrating (resizing) instances,https://bugs.launchpad.net/nova/+bug/796095,2011-09-22
+795169,795169,Fix Released,OSAPI: metadata can be set on a server that does not exist,https://bugs.launchpad.net/nova/+bug/795169,2011-09-22
+795126,795126,Fix Released,Invalid extensions are added anyway,https://bugs.launchpad.net/nova/+bug/795126,2011-09-22
+795123,795123,Fix Released,ExtensionManager checks extensions twice,https://bugs.launchpad.net/nova/+bug/795123,2011-09-22
+795029,795029,Fix Released,OSAPI: POST with broken JSON returns 500 error,https://bugs.launchpad.net/nova/+bug/795029,2011-09-22
+794651,794651,Fix Released,nova api allocate_address returns 'UnknownError' when no addresses available,https://bugs.launchpad.net/nova/+bug/794651,2011-09-22
+794645,794645,Fix Released,XenServer ensure_vlan_bridge in VLAN mode,https://bugs.launchpad.net/nova/+bug/794645,2011-09-22
+794239,794239,Fix Released,PEP8 in run_tests.sh does not use virtual env,https://bugs.launchpad.net/nova/+bug/794239,2011-09-22
+792367,792367,Fix Released,OSAPI: v1.1 image create support (serverRef),https://bugs.launchpad.net/nova/+bug/792367,2011-09-22
+791627,791627,Fix Released,update_instance may update fields other than display_name/display_description,https://bugs.launchpad.net/nova/+bug/791627,2011-09-22
+788265,788265,Fix Released,Can't boot instance because of instance_type wrong pass,https://bugs.launchpad.net/nova/+bug/788265,2011-09-22
+797017,797017,Fix Released,Unexpected number of VDIs found during XenServer resize,https://bugs.launchpad.net/nova/+bug/797017,2011-09-22
+796660,796660,Fix Released,xenserver migration 'list index out of range' when SR isn't named 'slices',https://bugs.launchpad.net/nova/+bug/796660,2011-09-22
+796619,796619,Fix Released,Revoke cert by user and project broken,https://bugs.launchpad.net/nova/+bug/796619,2011-09-22

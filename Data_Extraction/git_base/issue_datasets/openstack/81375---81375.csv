@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1272176,1272176,Fix Released,logging name for FileDispatcher is incorrect,https://bugs.launchpad.net/ceilometer/+bug/1272176,2014-04-17
+1271525,1271525,Fix Released,conflict alarm name when alarm-create fail with 400 instead of 409,https://bugs.launchpad.net/ceilometer/+bug/1271525,2014-04-17
+1266313,1266313,Fix Released,instance meter value never changes.,https://bugs.launchpad.net/ceilometer/+bug/1266313,2014-04-17
+1252988,1252988,Fix Released,"counter_volume did not represent duration for instance,network,port, subnet, router,",https://bugs.launchpad.net/ceilometer/+bug/1252988,2014-04-17
+1240474,1240474,Fix Released,[HBase] Error during recording metering data,https://bugs.launchpad.net/ceilometer/+bug/1240474,2014-04-17
+1236496,1236496,Fix Released,metaquery returns false positives,https://bugs.launchpad.net/ceilometer/+bug/1236496,2014-04-17
+1280975,1280975,Fix Released,There is a bug in V2 API AlarmThreahholdRule validate function,https://bugs.launchpad.net/ceilometer/+bug/1280975,2014-04-17
+1278973,1278973,Fix Released,cacert and insecure flags not propagated to glanceclient,https://bugs.launchpad.net/ceilometer/+bug/1278973,2014-04-17
+1276554,1276554,Fix Released,[doc] Compute (Nova) measurements table is missing.,https://bugs.launchpad.net/ceilometer/+bug/1276554,2014-04-17
+1274044,1274044,Fix Released,killing (SIGTERM/SIGINT) ceilometer porcesses no longer work,https://bugs.launchpad.net/ceilometer/+bug/1274044,2014-04-17
+1256111,1256111,Fix Released,"user editable settings should all be in ceilometer.conf, not the pecan config",https://bugs.launchpad.net/ceilometer/+bug/1256111,2014-04-17
+1242617,1242617,Fix Released,DBError when creating alarm with no auth,https://bugs.launchpad.net/ceilometer/+bug/1242617,2014-04-17
+1217156,1217156,Fix Released,Alembic migrations not tested -- and they don't work for SQLite,https://bugs.launchpad.net/ceilometer/+bug/1217156,2014-04-17
+1284608,1284608,Fix Released,samples query fails on mongo instance with data predating the advent of recorded_at attribute,https://bugs.launchpad.net/ceilometer/+bug/1284608,2014-04-17
+1260176,1260176,Fix Released,different behavior of alarm creation on different DB backend,https://bugs.launchpad.net/ceilometer/+bug/1260176,2014-04-17
+1245362,1245362,Fix Released,Can not create alarm successfully according to examples in community,https://bugs.launchpad.net/ceilometer/+bug/1245362,2014-04-17
+1274607,1274607,Fix Released,ceilometer-agent-notification is broken without eventlet monkey patching,https://bugs.launchpad.net/ceilometer/+bug/1274607,2014-04-17
+1274490,1274490,Fix Released,KeyError: 'ephemeral_key_uuid' in gate jobs,https://bugs.launchpad.net/ceilometer/+bug/1274490,2014-04-17
+1269521,1269521,Fix Released,deprecated section of dispatcher in doc/source/install/manual.rst,https://bugs.launchpad.net/ceilometer/+bug/1269521,2014-04-17
+1265492,1265492,Fix Released,Impossible to execute storage tests selectively due to missing import,https://bugs.launchpad.net/ceilometer/+bug/1265492,2014-04-17
+1263711,1263711,Fix Released,i18n support is broken in notification and publisher.rpc module,https://bugs.launchpad.net/ceilometer/+bug/1263711,2014-04-17
+1260965,1260965,Fix Released,resource_id is null when using Swift with a custom reseller_prefix,https://bugs.launchpad.net/ceilometer/+bug/1260965,2014-04-17
+1260776,1260776,Fix Released,sql backend problem on alarm update,https://bugs.launchpad.net/ceilometer/+bug/1260776,2014-04-17
+1260398,1260398,Fix Released,faultstring can leak between requests,https://bugs.launchpad.net/ceilometer/+bug/1260398,2014-04-17
+1268092,1268092,Fix Released,remove unused imports,https://bugs.launchpad.net/ceilometer/+bug/1268092,2014-04-17
+1268032,1268032,Fix Released,event api does does not return trait types,https://bugs.launchpad.net/ceilometer/+bug/1268032,2014-04-17
+1266693,1266693,Fix Released,Fix incorrect spellings identified by 'misspellings',https://bugs.launchpad.net/ceilometer/+bug/1266693,2014-04-17
+1266519,1266519,Fix Released,AlarmChange is not listed in V2 Web API doc,https://bugs.launchpad.net/ceilometer/+bug/1266519,2014-04-17
+1266477,1266477,Fix Released,cacert is not picked up correctly by alarm services,https://bugs.launchpad.net/ceilometer/+bug/1266477,2014-04-17
+1265688,1265688,Fix Released,Fix use the fact that empty sequences are false,https://bugs.launchpad.net/ceilometer/+bug/1265688,2014-04-17
+1264099,1264099,Fix Released,remove unnecessary code in nova_client.Client,https://bugs.launchpad.net/ceilometer/+bug/1264099,2014-04-17
+1262331,1262331,Fix Released,Wrong env var in oslo.config.generator.rc,https://bugs.launchpad.net/ceilometer/+bug/1262331,2014-04-17
+1258650,1258650,Fix Released,NoSuchOptError raised when CONF.publisher_rpc.metering_topic is referenced in ceilometer.collector,https://bugs.launchpad.net/ceilometer/+bug/1258650,2014-04-17
+1258044,1258044,Fix Released,Don't need session.flush in context managed by session in sqlalchemy,https://bugs.launchpad.net/ceilometer/+bug/1258044,2014-04-17
+1258044,1258044,Fix Released,Don't need session.flush in context managed by session in sqlalchemy,https://bugs.launchpad.net/keystone/+bug/1258044,2014-04-17
+1238453,1238453,Fix Released,Wrong Alarm Data samples in document,https://bugs.launchpad.net/ceilometer/+bug/1238453,2014-04-17
+1262335,1262335,Fix Released,first & last sample timestamps not included in the Resource representation,https://bugs.launchpad.net/ceilometer/+bug/1262335,2014-04-17
+1257779,1257779,Fix Released,sql migration error in 020_add_metadata_tables,https://bugs.launchpad.net/ceilometer/+bug/1257779,2014-04-17
+1233103,1233103,Fix Released,ceilometer-agent-compute not working when using instances are directly using volumes as backend,https://bugs.launchpad.net/ceilometer/+bug/1233103,2014-04-17
+1267162,1267162,Fix Released,cardinality of storage.models.Resource.meter attribute is one-per-sample,https://bugs.launchpad.net/ceilometer/+bug/1267162,2014-04-17
+1262571,1262571,Fix Released,mongo aggregation pipeline for resource retrieval fails with excessive memory use,https://bugs.launchpad.net/ceilometer/+bug/1262571,2014-04-17
+1262255,1262255,Fix Released,instance.scheduled meter is never persisted,https://bugs.launchpad.net/ceilometer/+bug/1262255,2014-04-17
+1259171,1259171,Fix Released,UDP publisher doesn't work,https://bugs.launchpad.net/ceilometer/+bug/1259171,2014-04-17
+1258071,1258071,Fix Released,[sqlalchemy] clear_expired_metering_data didn't honor the newly added contraints,https://bugs.launchpad.net/ceilometer/+bug/1258071,2014-04-17
+1243251,1243251,Fix Released,QueuePool ERROR in ceilometer-collector  log after successful tempest run,https://bugs.launchpad.net/ceilometer/+bug/1243251,2014-04-17
+1255458,1255458,Fix Released,No module named MySQLdb,https://bugs.launchpad.net/ceilometer/+bug/1255458,2014-04-17
+1255173,1255173,Fix Released,missing connection close in migration,https://bugs.launchpad.net/ceilometer/+bug/1255173,2014-04-17
+1254604,1254604,Fix Released,postgresql: (DataError) integer out of range,https://bugs.launchpad.net/ceilometer/+bug/1254604,2014-04-17
+1249959,1249959,Fix Released,"Hyper-V CPU pollster,could not get CPU time for instance: list index out of range",https://bugs.launchpad.net/ceilometer/+bug/1249959,2014-04-17
+1245992,1245992,Fix Released,SqlAlchemy get_events can't return events without traits,https://bugs.launchpad.net/ceilometer/+bug/1245992,2014-04-17
+1245965,1245965,Fix Released,Fix the default rpc policy value,https://bugs.launchpad.net/ceilometer/+bug/1245965,2014-04-17
+1244722,1244722,Fix Released,ImportError for missing Oslo module openstack.common.log_handler,https://bugs.launchpad.net/ceilometer/+bug/1244722,2014-04-17
+1241460,1241460,Fix Released,Upgrade to iso8601 0.1.5 version breaks time_utils tests,https://bugs.launchpad.net/ceilometer/+bug/1241460,2014-04-17
+1240898,1240898,Fix Released,"Wrong use of MetaData in 15,16 migrations",https://bugs.launchpad.net/ceilometer/+bug/1240898,2014-04-17
+1238469,1238469,Fix Released,Ceilometer has no such project-list subcommand,https://bugs.launchpad.net/ceilometer/+bug/1238469,2014-04-17
+1250336,1250336,Fix Released,"Hyper V disk pollster,the value of disk.read.requests/disk.write.requests/disk.read.bytes/disk.write.bytes always stay the same(which is always 0)",https://bugs.launchpad.net/ceilometer/+bug/1250336,2014-04-17
+1243651,1243651,Fix Released,source is missing when query resource-list,https://bugs.launchpad.net/ceilometer/+bug/1243651,2014-04-17
+1240994,1240994,Fix Released,Havan rc2 acl scenarios failing due to timezone assumption,https://bugs.launchpad.net/ceilometer/+bug/1240994,2014-04-17
+1237089,1237089,Fix Released,requirements should indicate module six required version #,https://bugs.launchpad.net/keystone/+bug/1237089,2014-04-17
+1237089,1237089,Fix Released,requirements should indicate module six required version #,https://bugs.launchpad.net/ceilometer/+bug/1237089,2014-04-17
+1199678,1199678,Fix Released,"Ceilometer i18n support isn't complete, messages should be wrapped by ""_"" function",https://bugs.launchpad.net/ceilometer/+bug/1199678,2014-04-17
+1200518,1200518,Fix Released,Ceilemeter command  will occur a UnicodeEncodeError when using  LANGUAGE=ja_JP.UTF-8,https://bugs.launchpad.net/ceilometer/+bug/1200518,2014-04-17
+1255107,1255107,Fix Released,alarm creation with sqlalchemy fails with intermittent IntegrityError,https://bugs.launchpad.net/ceilometer/+bug/1255107,2014-04-17
+1244476,1244476,Fix Released,[OSSA 2013-031] Ceilometer log contains DB password in plain text (CVE-2013-6384),https://bugs.launchpad.net/ceilometer/+bug/1244476,2014-04-17
+1244476,1244476,Fix Released,[OSSA 2013-031] Ceilometer log contains DB password in plain text (CVE-2013-6384),https://bugs.launchpad.net/ossa/+bug/1244476,2014-04-17
+1237671,1237671,Fix Released,[Postgresql] ERROR in ceilometer-collector log after successful tempest run,https://bugs.launchpad.net/ceilometer/+bug/1237671,2014-04-17
+1255409,1255409,Fix Released,gate broken due to nova changes,https://bugs.launchpad.net/ceilometer/+bug/1255409,2014-04-17
+1240741,1240741,Fix Released,wsme 0.5b6 is broken,https://bugs.launchpad.net/ceilometer/+bug/1240741,2014-04-17
+1178375,1178375,Fix Released,Orphan exchanges in Qpid and lack of option for making queues [un]durable,https://bugs.launchpad.net/cinder/+bug/1178375,2014-04-17
+1178375,1178375,Fix Released,Orphan exchanges in Qpid and lack of option for making queues [un]durable,https://bugs.launchpad.net/heat/+bug/1178375,2014-04-17
+1178375,1178375,Fix Released,Orphan exchanges in Qpid and lack of option for making queues [un]durable,https://bugs.launchpad.net/ceilometer/+bug/1178375,2014-04-17
+1178375,1178375,Fix Released,Orphan exchanges in Qpid and lack of option for making queues [un]durable,https://bugs.launchpad.net/nova/+bug/1178375,2014-04-17
+1178375,1178375,Fix Released,Orphan exchanges in Qpid and lack of option for making queues [un]durable,https://bugs.launchpad.net/neutron/+bug/1178375,2014-04-17
+1301841,1301841,Fix Released,default_ephemeral_format not set for seed and undercloud,https://bugs.launchpad.net/tripleo/+bug/1301841,2014-04-17
+1294850,1294850,Fix Released,tox tests fail intermittently on multiple runs,https://bugs.launchpad.net/trove/+bug/1294850,2014-04-17

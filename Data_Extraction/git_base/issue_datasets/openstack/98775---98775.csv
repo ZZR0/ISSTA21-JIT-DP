@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+647728,647728,Fix Released,--help is non-functional,https://bugs.launchpad.net/nova/+bug/647728,2011-02-07
+640400,640400,Fix Released,RabbitMQ DirectConsumer queue,https://bugs.launchpad.net/nova/+bug/640400,2011-02-07
+709632,709632,Fix Released,ec2 admin api should support modifying project manager,https://bugs.launchpad.net/nova/+bug/709632,2011-02-07
+709510,709510,Fix Released,Fix for 699654 breaks exception handling if args is empty,https://bugs.launchpad.net/nova/+bug/709510,2011-02-07
+709057,709057,Fix Released,Deleting Instances Doesn't Delete Security Group Associations,https://bugs.launchpad.net/nova/+bug/709057,2011-02-07
+708837,708837,Fix Released,NotFound exception: No service for host using simple.SimpleScheduler,https://bugs.launchpad.net/nova/+bug/708837,2011-02-07
+708740,708740,Fix Released,Need to put python TRACEs into logs,https://bugs.launchpad.net/nova/+bug/708740,2011-02-07
+708383,708383,Fix Released,Terminate instance: disassociates only one floating ip address,https://bugs.launchpad.net/nova/+bug/708383,2011-02-07
+708360,708360,Fix Released,xml namespace should match API version,https://bugs.launchpad.net/nova/+bug/708360,2011-02-07
+707055,707055,Fix Released,__dn_to_uid in ldapdriver should return the value of the uid attribute,https://bugs.launchpad.net/nova/+bug/707055,2011-02-07
+707049,707049,Fix Released,"the net_managers expect different args to create_networks, so nova-manage's call to net_manager.create_networks was changed to use named args to prevent argument mismatching.",https://bugs.launchpad.net/nova/+bug/707049,2011-02-07
+706072,706072,Fix Released,Instance NotFound error : Instance Id is not correct from user perspective,https://bugs.launchpad.net/nova/+bug/706072,2011-02-07
+705790,705790,Fix Released,Parted cannot find device when using glance images in xenapi,https://bugs.launchpad.net/nova/+bug/705790,2011-02-07
+708301,708301,Fix Released,s3.py global name '_fix_image_id' is not defined,https://bugs.launchpad.net/nova/+bug/708301,2011-02-07
+707619,707619,Fix Released,driver.init_host() is not called when using flatdhcp driver,https://bugs.launchpad.net/nova/+bug/707619,2011-02-07
+707607,707607,Fix Released,nova.sh doesn't install python-migrate,https://bugs.launchpad.net/nova/+bug/707607,2011-02-07
+706683,706683,Fix Released,setup.py errors and docs won't build without sphinx,https://bugs.launchpad.net/nova/+bug/706683,2011-02-07
+706115,706115,Fix Released,XenServer destroy error on halted instance,https://bugs.launchpad.net/nova/+bug/706115,2011-02-07
+706029,706029,Fix Released,pluginlib_nova needs gettext,https://bugs.launchpad.net/nova/+bug/706029,2011-02-07
+704351,704351,Fix Released,apply_instance_filter is not implemented in NWFilterFirewall,https://bugs.launchpad.net/nova/+bug/704351,2011-02-07
+702965,702965,Fix Released,Diagnostics broken in trunk,https://bugs.launchpad.net/nova/+bug/702965,2011-02-07
+702237,702237,Fix Released,FLAGS.allow_project_net_traffic is not implemented in IptablesFirewallDriver,https://bugs.launchpad.net/nova/+bug/702237,2011-02-07
+701734,701734,Fix Released,vm launch fails if security-group chain file already exists,https://bugs.launchpad.net/nova/+bug/701734,2011-02-07
+705223,705223,Fix Released,EC2 API does not report instance security groups,https://bugs.launchpad.net/nova/+bug/705223,2011-02-07
+705205,705205,Fix Released,Error thrown when creating instance with non-default group,https://bugs.launchpad.net/nova/+bug/705205,2011-02-07
+705195,705195,Fix Released,describe instances requires admin context,https://bugs.launchpad.net/nova/+bug/705195,2011-02-07
+705052,705052,Fix Released,Some tests fail on Python 2.6.1 - dict keys cannot be unicode strings,https://bugs.launchpad.net/nova/+bug/705052,2011-02-07
+703037,703037,Fix Released,Instances fail to spawn - ip6tables-restore v1.4.4: host/network `None' not found,https://bugs.launchpad.net/nova/+bug/703037,2011-02-07
+703014,703014,Fix Released,get_console_output should be in compute.api,https://bugs.launchpad.net/nova/+bug/703014,2011-02-07
+703012,703012,Fix Released,TrialTestCase breaks running individual tests,https://bugs.launchpad.net/nova/+bug/703012,2011-02-07
+702010,702010,Fix Released,novarc template points CloudServer Auth URL to wrong port,https://bugs.launchpad.net/nova/+bug/702010,2011-02-07
+701864,701864,Fix Released,nova.tests.test_cloud.CloudTestCase.test_associate_disassociate_address fails under python 2.7,https://bugs.launchpad.net/nova/+bug/701864,2011-02-07
+701749,701749,Fix Released,volume creation doesn't recover from failure well,https://bugs.launchpad.net/nova/+bug/701749,2011-02-07
+700920,700920,Fix Released,ec2 describe_instances doesn't filter properly,https://bugs.launchpad.net/nova/+bug/700920,2011-02-07
+700867,700867,Fix Released,Metadata is broken in a default install,https://bugs.launchpad.net/nova/+bug/700867,2011-02-07
+700151,700151,Fix Released,nova volume checks for /dev/vg which doesn't always exist,https://bugs.launchpad.net/nova/+bug/700151,2011-02-07
+699654,699654,Fix Released,i18n  - Terminating instance with invalid instance id causes error in the response,https://bugs.launchpad.net/nova/+bug/699654,2011-02-07
+698123,698123,Fix Released,Pausing a Paused instance via OS API causes error,https://bugs.launchpad.net/nova/+bug/698123,2011-02-07
+693464,693464,Fix Released,Double dots in the API docs are causing broken links on nova.openstack.org,https://bugs.launchpad.net/nova/+bug/693464,2011-02-07
+692805,692805,Fix Released,manually running euca-reboot-instances  fails after node reboot,https://bugs.launchpad.net/nova/+bug/692805,2011-02-07
+692716,692716,Fix Released,"In FlatDHCP network mode, ip shouldn't be added to bridge on compute hosts",https://bugs.launchpad.net/nova/+bug/692716,2011-02-07
+691044,691044,Fix Released,"having LC_ALL and LANG configured, some scripts are not working right, including one unittest",https://bugs.launchpad.net/nova/+bug/691044,2011-02-07
+688734,688734,Fix Released,registering an image doesn't use architecture from manifest,https://bugs.launchpad.net/nova/+bug/688734,2011-02-07
+688545,688545,Fix Released,nova-compute (and possibly others) crashes if cannot connect to datastore,https://bugs.launchpad.net/nova/+bug/688545,2011-02-07
+688508,688508,Fix Released,xenapi raise Exception rather than NotFound in get_info,https://bugs.launchpad.net/nova/+bug/688508,2011-02-07
+683737,683737,Fix Released,bin/nova-* processes fail to read flagfile,https://bugs.launchpad.net/nova/+bug/683737,2011-02-07
+683541,683541,Fix Released,Metadata service unreachable from instance,https://bugs.launchpad.net/nova/+bug/683541,2011-02-07
+681600,681600,Fix Released,DescribeImages without image_id argument broken,https://bugs.launchpad.net/nova/+bug/681600,2011-02-07
+681164,681164,Fix Released,Use a search to find DNs instead of creating them directly from attributes,https://bugs.launchpad.net/nova/+bug/681164,2011-02-07
+681030,681030,Fix Released,Nova's LDAP schema has an unneeded requirement on the nis or bis schema,https://bugs.launchpad.net/nova/+bug/681030,2011-02-07
+677537,677537,Fix Released,Nova-api requires nova-compute templates in order to run.,https://bugs.launchpad.net/nova/+bug/677537,2011-02-07
+677475,677475,Fix Released,RunInstances uses same ID if previous request failed,https://bugs.launchpad.net/nova/+bug/677475,2011-02-07
+671197,671197,Fix Released,Smoke tests are broken,https://bugs.launchpad.net/nova/+bug/671197,2011-02-07
+667941,667941,Fix Released,EC2 API and OpenStack API should live on separate ports,https://bugs.launchpad.net/nova/+bug/667941,2011-02-07
+667278,667278,Fix Released,Instance monitor uses hardcoded (wrong) crendentials,https://bugs.launchpad.net/nova/+bug/667278,2011-02-07
+659135,659135,Fix Released,Security Group ingress filtering doesn't work if traffic is routed,https://bugs.launchpad.net/nova/+bug/659135,2011-02-07
+658701,658701,Fix Released,No way(?) to relate EC2 instance ID's to internal ID's.,https://bugs.launchpad.net/nova/+bug/658701,2011-02-07
+654584,654584,Fix Released,404 Not found with euca-register,https://bugs.launchpad.net/nova/+bug/654584,2011-02-07
+638449,638449,Fix Released,Cannot update the flat network IP address list,https://bugs.launchpad.net/nova/+bug/638449,2011-02-07
+709482,709482,Fix Released,adminclient crashes instead of returning none if a user doesn't exist,https://bugs.launchpad.net/nova/+bug/709482,2011-02-07
+709183,709183,Fix Released,Upgrades from Austin fail,https://bugs.launchpad.net/nova/+bug/709183,2011-02-07
+707908,707908,Fix Released,Cannot restart nova-network under use_ipv6=true and with VlanManager,https://bugs.launchpad.net/nova/+bug/707908,2011-02-07
+707262,707262,Fix Released,libvirt driver is using project_get_network instead of network_get_by_instance,https://bugs.launchpad.net/nova/+bug/707262,2011-02-07
+705769,705769,Fix Released,Error in injecting SSH public key during the creation of the VM,https://bugs.launchpad.net/nova/+bug/705769,2011-02-07
+705314,705314,Fix Released,Metadata is broken for anything but /latest/,https://bugs.launchpad.net/nova/+bug/705314,2011-02-07
+705073,705073,Fix Released,Ubuntu packaging should create DB automatically,https://bugs.launchpad.net/nova/+bug/705073,2011-02-07
+705012,705012,Fix Released,Ubuntu packaging missing nova-api.conf,https://bugs.launchpad.net/nova/+bug/705012,2011-02-07
+704742,704742,Fix Released,describe addresses doesn't work if an instance is associated.,https://bugs.launchpad.net/nova/+bug/704742,2011-02-07
+702998,702998,Fix Released,attach_volume fails due to missing import.,https://bugs.launchpad.net/nova/+bug/702998,2011-02-07
+702651,702651,Fix Released,libvirt_conn chmods instance dirs 777,https://bugs.launchpad.net/nova/+bug/702651,2011-02-07
+702370,702370,Fix Released,IptablesFirewallDriver prevents instance startup once one has been terminated,https://bugs.launchpad.net/nova/+bug/702370,2011-02-07
+702200,702200,Fix Released,ec2 api create_volume raises an exception,https://bugs.launchpad.net/nova/+bug/702200,2011-02-07
+702164,702164,Fix Released,error when generating novarc in  get_environment_rc(),https://bugs.launchpad.net/nova/+bug/702164,2011-02-07
+701055,701055,Fix Released,"""No instance for id X"" error terminating instances",https://bugs.launchpad.net/nova/+bug/701055,2011-02-07
+698225,698225,Fix Released,run_instances broken in trunk: problem with _format_instances passed too many arguments,https://bugs.launchpad.net/nova/+bug/698225,2011-02-07

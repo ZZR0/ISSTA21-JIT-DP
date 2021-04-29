@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1011852,1011852,Fix Released,Scheduler race condition,https://bugs.launchpad.net/nova/+bug/1011852,2012-09-27
+1011150,1011150,Fix Released,Volume deletion is never completed if volumes service is restarted,https://bugs.launchpad.net/nova/+bug/1011150,2012-09-27
+1011150,1011150,Fix Released,Volume deletion is never completed if volumes service is restarted,https://bugs.launchpad.net/cinder/+bug/1011150,2012-09-27
+1002814,1002814,Fix Released,Instance stuck in reboot on libvirt failure,https://bugs.launchpad.net/nova/+bug/1002814,2012-09-27
+979020,979020,Fix Released,"Volumes stuck in ""error deleted"" state when using device mapper",https://bugs.launchpad.net/nova/+bug/979020,2012-09-27
+979020,979020,Fix Released,"Volumes stuck in ""error deleted"" state when using device mapper",https://bugs.launchpad.net/cinder/+bug/979020,2012-09-27
+1052244,1052244,Fix Released,DB migration 91 breaks snapshots.volume_id -> volumes.id relation,https://bugs.launchpad.net/nova/+bug/1052244,2012-09-27
+1052220,1052220,Fix Released,DB migration 91 fails on precise with mysql,https://bugs.launchpad.net/nova/+bug/1052220,2012-09-27
+1051066,1051066,Fix Released,starting multiple VMs causes some to be stuck in BUILDING,https://bugs.launchpad.net/nova/+bug/1051066,2012-09-27
+1049381,1049381,Fix Released,sync nova-volume and cinder,https://bugs.launchpad.net/cinder/+bug/1049381,2012-09-27
+1049381,1049381,Fix Released,sync nova-volume and cinder,https://bugs.launchpad.net/nova/+bug/1049381,2012-09-27
+1048842,1048842,Fix Released,resource_tracker prevents oversubscription,https://bugs.launchpad.net/nova/+bug/1048842,2012-09-27
+1047665,1047665,Fix Released,Migration 98 subquery fails using MySQL,https://bugs.launchpad.net/nova/+bug/1047665,2012-09-27
+1047633,1047633,Fix Released,Migration 98 fails with volume data in db,https://bugs.launchpad.net/nova/+bug/1047633,2012-09-27
+1046985,1046985,Fix Released,iscsi volume creation fails (--conf file is not being specified),https://bugs.launchpad.net/nova/+bug/1046985,2012-09-27
+1046985,1046985,Fix Released,iscsi volume creation fails (--conf file is not being specified),https://bugs.launchpad.net/cinder/+bug/1046985,2012-09-27
+1045393,1045393,Fix Released,Update vmware spawn() signature,https://bugs.launchpad.net/nova/+bug/1045393,2012-09-27
+1045392,1045392,Fix Released,Update hyperv spawn() signature,https://bugs.launchpad.net/nova/+bug/1045392,2012-09-27
+1040956,1040956,Fix Released,"""Unable to get quota information"" in horizon when using quantum",https://bugs.launchpad.net/nova/+bug/1040956,2012-09-27
+1039400,1039400,Fix Released,nova security groups issues with quantum-v2-api integration,https://bugs.launchpad.net/neutron/+bug/1039400,2012-09-27
+1039400,1039400,Fix Released,nova security groups issues with quantum-v2-api integration,https://bugs.launchpad.net/nova/+bug/1039400,2012-09-27
+1038062,1038062,Fix Released,TgtAdm is broken,https://bugs.launchpad.net/nova/+bug/1038062,2012-09-27
+1038062,1038062,Fix Released,TgtAdm is broken,https://bugs.launchpad.net/cinder/+bug/1038062,2012-09-27
+1037786,1037786,Fix Released,nova admin based on hard-coded 'admin' role,https://bugs.launchpad.net/nova/+bug/1037786,2012-09-27
+1006624,1006624,Fix Released,Large deployments may require additional indexes,https://bugs.launchpad.net/nova/+bug/1006624,2012-09-27
+1037137,1037137,Fix Released,IPtables rules don't always get added at top when 'top=True' is specified,https://bugs.launchpad.net/nova/+bug/1037137,2012-09-27
+1037127,1037127,Fix Released,Non-wrapped iptables chains are not removed correctly,https://bugs.launchpad.net/nova/+bug/1037127,2012-09-27
+1036449,1036449,Fix Released,live migration fails with wrong number of arguments,https://bugs.launchpad.net/nova/+bug/1036449,2012-09-27
+1035482,1035482,Fix Released,min_count and max_count not validated,https://bugs.launchpad.net/nova/+bug/1035482,2012-09-27
+1035356,1035356,Fix Released,HTTP 500 error on server create,https://bugs.launchpad.net/nova/+bug/1035356,2012-09-27
+1035120,1035120,Fix Released,Server create with malformed body yields a 500 error,https://bugs.launchpad.net/nova/+bug/1035120,2012-09-27
+1034948,1034948,Fix Released,Rescue doesn't use supplied admin_pass,https://bugs.launchpad.net/nova/+bug/1034948,2012-09-27
+1034692,1034692,Fix Released,remove quantum v1 code,https://bugs.launchpad.net/nova/+bug/1034692,2012-09-27
+1034401,1034401,Fix Released,Compute restart causes period of network ‘blackout’,https://bugs.launchpad.net/nova/+bug/1034401,2012-09-27
+1034377,1034377,Fix Released,Answer given by TerminateInstances is not compatible with EC2 api,https://bugs.launchpad.net/nova/+bug/1034377,2012-09-27
+1034216,1034216,Fix Released,Flag use_virtio_for_bridges not works  when use LibvirtOpenVswitchDriver,https://bugs.launchpad.net/nova/+bug/1034216,2012-09-27
+1034117,1034117,Fix Released,xenapi: race condition between creating instance and fetching console URL working,https://bugs.launchpad.net/nova/+bug/1034117,2012-09-27
+1033960,1033960,Fix Released,Traceback when attaching volunes on quantal,https://bugs.launchpad.net/nova/+bug/1033960,2012-09-27
+1033713,1033713,Fix Released,Traceback when detaching volumes when using cinder.,https://bugs.launchpad.net/nova/+bug/1033713,2012-09-27
+1033670,1033670,Fix Released,attach volume fails with n-vol using iscsi since 1ba3dfec,https://bugs.launchpad.net/nova/+bug/1033670,2012-09-27
+1032177,1032177,Fix Released,nova-manage floating list command failed,https://bugs.launchpad.net/nova/+bug/1032177,2012-09-27
+1031509,1031509,Fix Released,[tgtd] iscsi-targets are not getting created.,https://bugs.launchpad.net/nova/+bug/1031509,2012-09-27
+1031096,1031096,Fix Released,Port-id should be specified for each nic,https://bugs.launchpad.net/nova/+bug/1031096,2012-09-27
+1031079,1031079,Fix Released,"Xenserver: image_type set to ""base"" on snapshot images",https://bugs.launchpad.net/nova/+bug/1031079,2012-09-27
+1031004,1031004,Fix Released,Compute resize end event doesn't include the updated instance_type_id and attributes,https://bugs.launchpad.net/nova/+bug/1031004,2012-09-27
+1030939,1030939,Fix Released,Xen: VHD sequence validation needs to handle swap,https://bugs.launchpad.net/nova/+bug/1030939,2012-09-27
+1030609,1030609,Fix Released,Traceback when injecting data into the instance.,https://bugs.launchpad.net/nova/+bug/1030609,2012-09-27
+1030430,1030430,Fix Released,qpid_heartbeat setting in ineffective,https://bugs.launchpad.net/nova/+bug/1030430,2012-09-27
+1030330,1030330,Fix Released,Creating a volume with XML body fails,https://bugs.launchpad.net/nova/+bug/1030330,2012-09-27
+1030330,1030330,Fix Released,Creating a volume with XML body fails,https://bugs.launchpad.net/cinder/+bug/1030330,2012-09-27
+1030175,1030175,Fix Released,"Compute logs full of auto-resize-confirm for instances in task_state ""deleting""",https://bugs.launchpad.net/nova/+bug/1030175,2012-09-27
+1030106,1030106,Fix Released,Instance usage audit log extension miscounts hosts,https://bugs.launchpad.net/nova/+bug/1030106,2012-09-27
+1030073,1030073,Fix Released,XenAPI: 'dict' object has no attribute 'name',https://bugs.launchpad.net/nova/+bug/1030073,2012-09-27
+1029627,1029627,Fix Released,Suspend failure leaves instance in task_state 'suspending',https://bugs.launchpad.net/nova/+bug/1029627,2012-09-27
+1029495,1029495,Fix Released,Security group refresh is not specific,https://bugs.launchpad.net/nova/+bug/1029495,2012-09-27
+1029262,1029262,Fix Released,Incompatible change to scheduler RPC API without version bump,https://bugs.launchpad.net/nova/+bug/1029262,2012-09-27
+1029133,1029133,Fix Released,Xenserver: Image/flavor mismatch causes an undeletable instance,https://bugs.launchpad.net/nova/+bug/1029133,2012-09-27
+1029132,1029132,Fix Released,"Xenserver: Failed power_off during ""nova delete"" leads to undeletable instance",https://bugs.launchpad.net/nova/+bug/1029132,2012-09-27
+1029130,1029130,Fix Released,"Xenserver: If download_vhd raises an exception, instance cannot be deleted",https://bugs.launchpad.net/nova/+bug/1029130,2012-09-27
+1028748,1028748,Fix Released,Import error in console/vmrc_console.py,https://bugs.launchpad.net/nova/+bug/1028748,2012-09-27
+1028559,1028559,Fix Released,need a notification when an instance is updated,https://bugs.launchpad.net/nova/+bug/1028559,2012-09-27
+1027984,1027984,Fix Released,nova testsuite errors on newer versions of python-boto (e.g. 2.5.2),https://bugs.launchpad.net/nova/+bug/1027984,2012-09-27
+1027197,1027197,Fix Released,Adding Image name in notifications for rebuild and create can decrease db calls,https://bugs.launchpad.net/nova/+bug/1027197,2012-09-27
+1033178,1033178,Fix Released,pycrypto is unused and the existing code is potentially insecure to use,https://bugs.launchpad.net/nova/+bug/1033178,2012-09-27
+1031263,1031263,Fix Released,Flavor extra_specs extension mixed the flavor_id and instance_type_id,https://bugs.launchpad.net/nova/+bug/1031263,2012-09-27
+1030226,1030226,Fix Released,poll_unconfirmed_resizes doesn't limit by host,https://bugs.launchpad.net/nova/+bug/1030226,2012-09-27
+1029911,1029911,Fix Released,Associate an already associated Floating IP to server is returning 202,https://bugs.launchpad.net/nova/+bug/1029911,2012-09-27
+1029397,1029397,Fix Released,nova glance image service needs better retries and logging,https://bugs.launchpad.net/nova/+bug/1029397,2012-09-27
+1029206,1029206,Fix Released,upstream code has mistype in nova/volume/san.py,https://bugs.launchpad.net/nova/+bug/1029206,2012-09-27
+1029049,1029049,Fix Released,cinderclient function logs auth token,https://bugs.launchpad.net/nova/+bug/1029049,2012-09-27
+1027187,1027187,Fix Released,Quota handing is broken for multiple delete requests will reduce the,https://bugs.launchpad.net/nova/+bug/1027187,2012-09-27
+1025912,1025912,Fix Released,vm_vdi_cleaner has import error,https://bugs.launchpad.net/nova/+bug/1025912,2012-09-27
+1023682,1023682,Fix Released,getting a wrong 'active' vm_state after snapshoted a 'shutoff' server instance,https://bugs.launchpad.net/nova/+bug/1023682,2012-09-27
+1023492,1023492,Fix Released,boot from iso doesn't work with snapshot with libvirt,https://bugs.launchpad.net/nova/+bug/1023492,2012-09-27
+1022961,1022961,Fix Released,[novaclient] root-password fails and does not return error,https://bugs.launchpad.net/nova/+bug/1022961,2012-09-27

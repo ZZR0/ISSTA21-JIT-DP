@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1782341,1782341,Fix Released,Undercloud backup fails with xattrs,https://bugs.launchpad.net/tripleo/+bug/1782341,2018-08-08
+1781108,1781108,Fix Released,Telemetry containers are unhealthy after fresh deployment,https://bugs.launchpad.net/tripleo/+bug/1781108,2018-08-08
+1780287,1780287,Fix Released,OS_VOLUME_API_VERSION should include appropriate microversion,https://bugs.launchpad.net/tripleo/+bug/1780287,2018-08-08
+1752057,1752057,Fix Released,tripleo-ansible-inventory should have an option to use hostnames instead of just ip addresses,https://bugs.launchpad.net/tripleo/+bug/1752057,2018-08-08
+1779112,1779112,Fix Released,Cinder's db sync should only be performed on bootstrap node,https://bugs.launchpad.net/tripleo/+bug/1779112,2018-08-08
+1781147,1781147,Fix Released,firewall manifest in tripleo breaks some assumptions,https://bugs.launchpad.net/tripleo/+bug/1781147,2018-08-08
+1781616,1781616,Fix Released,"ODL deployment fails with ""Failed to validate OVS OpenFlow pipeline""",https://bugs.launchpad.net/tripleo/+bug/1781616,2018-08-08
+1715387,1715387,Fix Released,When OpenDaylight controller is isolated from the cluster it should be removed from the Neutron  Northbound VIP,https://bugs.launchpad.net/tripleo/+bug/1715387,2018-08-08
+1782720,1782720,Fix Released,disable-telemetry.yaml does not set  [oslo_messaging_notifications]/driver to noop in  heat.conf,https://bugs.launchpad.net/tripleo/+bug/1782720,2018-08-08
+1782814,1782814,Fix Released,undercloud ssl installation can fail with rabbitmq-server not starting,https://bugs.launchpad.net/tripleo/+bug/1782814,2018-08-08
+1768519,1768519,Fix Released,"Containerized Horizon: expose ""DocumentRoot"" on host",https://bugs.launchpad.net/tripleo/+bug/1768519,2018-08-08
+1780014,1780014,Fix Released,Remove ovs-dpdk workarounds stable/pike branch,https://bugs.launchpad.net/tripleo/+bug/1780014,2018-08-08
+1767379,1767379,Fix Released,FFU and major upgrades fails if stack name if different than overcloud,https://bugs.launchpad.net/tripleo/+bug/1767379,2018-08-08
+1733801,1733801,Fix Released,[RFE] allow to activate HTTP logging in haproxy,https://bugs.launchpad.net/tripleo/+bug/1733801,2018-08-08
+1732176,1732176,Fix Released,haproxy defaults_options are not adjustable/overridable,https://bugs.launchpad.net/tripleo/+bug/1732176,2018-08-08
+1736587,1736587,Fix Released,puppet-tripleo: The docker and docker-registry profiles both configure insecure registries,https://bugs.launchpad.net/tripleo/+bug/1736587,2018-08-08
+1785897,1785897,Fix Released,keyerror in admin floating IP panel when neutron dns-integration is not enabled,https://bugs.launchpad.net/horizon/+bug/1785897,2018-08-08
+1690433,1690433,Fix Released,"Expose ""get me a network"" in instance creation",https://bugs.launchpad.net/horizon/+bug/1690433,2018-08-07
+1785549,1785549,Fix Released,HTML report generate error and missing unit test,https://bugs.launchpad.net/rally/+bug/1785549,2018-08-07
+1746202,1746202,Fix Released,Invalid query parameter could lead to HTTP 500,https://bugs.launchpad.net/nova/+bug/1746202,2018-08-07
+1746202,1746202,Fix Released,Invalid query parameter could lead to HTTP 500,https://bugs.launchpad.net/manila/+bug/1746202,2018-08-07
+1746202,1746202,Fix Released,Invalid query parameter could lead to HTTP 500,https://bugs.launchpad.net/cinder/+bug/1746202,2018-08-07
+1781655,1781655,Fix Released,fix Nexus static analysis bugs using bandit,https://bugs.launchpad.net/networking-cisco/+bug/1781655,2018-08-07
+1686037,1686037,Fix Released,[tripleo-ui] Include deployed nodes in nodes assignment,https://bugs.launchpad.net/tripleo/+bug/1686037,2018-08-07
+1662422,1662422,Fix Released,Unable to merge code due to incorrect version of hpe_3par_common.py,https://bugs.launchpad.net/cinder/+bug/1662422,2018-08-07
+1662563,1662563,Fix Released,Tegile disabling certificate verification,https://bugs.launchpad.net/cinder/+bug/1662563,2018-08-07
+1689849,1689849,Fix Released,Adding /O=system:masters to admin certificate,https://bugs.launchpad.net/magnum/+bug/1689849,2018-08-06
+1659189,1659189,Fix Released,"cluster-template-update doesn't work for ""labels""",https://bugs.launchpad.net/python-magnumclient/+bug/1659189,2018-08-06
+1763327,1763327,Fix Released,Mistral fail using trusts at cron exec if domain scope defined in keystone_authtoken,https://bugs.launchpad.net/mistral/+bug/1763327,2018-08-06
+1719882,1719882,Fix Released,"Cron triggers play ""catch-up"" but should not",https://bugs.launchpad.net/mistral/+bug/1719882,2018-08-06
+1762470,1762470,Fix Released,"When a workflow is started with a source execution, the sourc execution should be added to the execution description",https://bugs.launchpad.net/mistral/+bug/1762470,2018-08-06
+1714341,1714341,Fix Released,"DSL for tasks does not restrict content of on-success, on-error, on-complete",https://bugs.launchpad.net/mistral/+bug/1714341,2018-08-06
+1772265,1772265,Fix Released,Retry policy doesn't work when task was rerun,https://bugs.launchpad.net/mistral/+bug/1772265,2018-08-06
+1778736,1778736,Fix Released,Cron triggers tests with a race condition,https://bugs.launchpad.net/mistral/+bug/1778736,2018-08-06
+1774164,1774164,Fix Released,"""Create execution"" API request may lead to creation of more than one workflow execution object",https://bugs.launchpad.net/mistral/+bug/1774164,2018-08-06
+1778757,1778757,Fix Released,Remove the sleep and add a waiter to the test_start_workflow cron test,https://bugs.launchpad.net/mistral/+bug/1778757,2018-08-06
+1757499,1757499,Fix Released,"API parameter ""scope"" missing for workbook post/put",https://bugs.launchpad.net/mistral/+bug/1757499,2018-08-06
+1778756,1778756,Fix Released,Add a tip to the output when deleting running executions,https://bugs.launchpad.net/mistral/+bug/1778756,2018-08-06
+1717354,1717354,Fix Released,"Validate ""verify"" parameter of std.http action",https://bugs.launchpad.net/mistral/+bug/1717354,2018-08-06
+1779293,1779293,Fix Released,"Cannot prevent user from publicizing workbooks, workflows or actions",https://bugs.launchpad.net/mistral/+bug/1779293,2018-08-06
+1779973,1779973,Fix Released,Mistral HTTP action don't handle server error,https://bugs.launchpad.net/mistral/+bug/1779973,2018-08-06
+1782127,1782127,Fix Released,mistral-db-manage discards rev-id parameter,https://bugs.launchpad.net/mistral/+bug/1782127,2018-08-06
+1696469,1696469,Fix Released,Move away from oslo.messaging blocking executor,https://bugs.launchpad.net/mistral/+bug/1696469,2018-08-06
+1782765,1782765,Fix Released,Remove the serialization code from mistral and use the version in mistral_lib,https://bugs.launchpad.net/mistral/+bug/1782765,2018-08-06
+1783316,1783316,Fix Released,Remove hardcoded usage of v2 authentication in Barbican actions,https://bugs.launchpad.net/mistral/+bug/1783316,2018-08-06
+1783291,1783291,Fix Released,Manila actions are not available,https://bugs.launchpad.net/mistral/+bug/1783291,2018-08-06
+1783349,1783349,Fix Released,Missing cc and bcc options in std.email action,https://bugs.launchpad.net/mistral/+bug/1783349,2018-08-06
+1782531,1782531,Fix Released,Cannot build docker image,https://bugs.launchpad.net/mistral/+bug/1782531,2018-08-06
+1775720,1775720,Fix Released,Install and configure for Ubuntu in designate,https://bugs.launchpad.net/designate/+bug/1775720,2018-08-06
+1782204,1782204,Fix Released,In Py3.7 os.errno is removed,https://bugs.launchpad.net/designate/+bug/1782204,2018-08-06
+1756232,1756232,Fix Released,Error comparing byte with GB in image_utils,https://bugs.launchpad.net/cinder/+bug/1756232,2018-08-06
+1761049,1761049,Fix Released,"Block Storage API V3 (CURRENT) missing 'os-reserve', 'os-unreserve' etc.",https://bugs.launchpad.net/cinder/+bug/1761049,2018-08-06
+1771253,1771253,Fix Released,Storwize:update the function of checking hyperswap volume,https://bugs.launchpad.net/cinder/+bug/1771253,2018-08-06
+1775678,1775678,Fix Released,"VMware: Volume creation from sparse vmdk image fails with error ""invalid continuation byte""",https://bugs.launchpad.net/cinder/+bug/1775678,2018-08-06
+1775707,1775707,Fix Released,DataCore unit tests output a lot of stderr resulting in stestr  'Not a text type application/octet-stream' error,https://bugs.launchpad.net/cinder/+bug/1775707,2018-08-06
+1703977,1703977,Fix Released,"Add support for shared ""backend_defaults"" config",https://bugs.launchpad.net/cinder/+bug/1703977,2018-08-06
+1776134,1776134,Fix Released,DS8K:  correct the return value for initialize_connection method,https://bugs.launchpad.net/cinder/+bug/1776134,2018-08-06
+1774280,1774280,Fix Released,api-ref: delete volume precondition is missing some more status conditions,https://bugs.launchpad.net/cinder/+bug/1774280,2018-08-06
+1758010,1758010,Fix Released,VMAX driver - use san_api_port in place of san_rest_port,https://bugs.launchpad.net/cinder/+bug/1758010,2018-08-06
+1766633,1766633,Fix Released,VMAX driver - Incorrect service level reporting,https://bugs.launchpad.net/cinder/+bug/1766633,2018-08-06
+1768273,1768273,Fix Released,VMAX driver - remove deprecated xml option,https://bugs.launchpad.net/cinder/+bug/1768273,2018-08-06
+1754760,1754760,Fix Released,storwize driver not honoring iogrp of extra spec,https://bugs.launchpad.net/cinder/+bug/1754760,2018-08-06
+1493112,1493112,Fix Released,Not all Versioned Object Model names match their ORM counterparts,https://bugs.launchpad.net/cinder/+bug/1493112,2018-08-06
+1749687,1749687,Fix Released,Storwize SVC driver takes too long  time to initialize,https://bugs.launchpad.net/cinder/+bug/1749687,2018-08-06
+1766965,1766965,Fix Released,"HTTP 500 on ""cinder list --filters"" with 4-byte Unicode chars",https://bugs.launchpad.net/cinder/+bug/1766965,2018-08-06
+1777911,1777911,Fix Released,NetApp cmode flexvol setup passes duplicate volume_type kwarg,https://bugs.launchpad.net/cinder/+bug/1777911,2018-08-06
+1746221,1746221,Fix Released,Prophetstor drivers report allocated_capacity_gb,https://bugs.launchpad.net/cinder/+bug/1746221,2018-08-06
+1771390,1771390,Fix Released,"The ""os-update_readonly_flag"" volume action API is not documented in the API reference",https://bugs.launchpad.net/cinder/+bug/1771390,2018-08-06
+1775915,1775915,Fix Released,os-update_readonly_flag not in api-ref,https://bugs.launchpad.net/cinder/+bug/1775915,2018-08-06
+1746222,1746222,Fix Released,Inspur drivers report allocated_capacity_gb,https://bugs.launchpad.net/cinder/+bug/1746222,2018-08-06
+1777430,1777430,Fix Released,vmware disk type dismatched with  cinder volume_type when the type is eagerZeroedThick,https://bugs.launchpad.net/cinder/+bug/1777430,2018-08-06
+1765182,1765182,Fix Released,Extending an attached volume may result in an error,https://bugs.launchpad.net/cinder/+bug/1765182,2018-08-06
+1774155,1774155,Fix Released,User can pass scheduler_hints inside volume object for volume create API on master,https://bugs.launchpad.net/cinder/+bug/1774155,2018-08-06
+1779911,1779911,Fix Released,Pure Storage iSCSI and Fibre Channel volume drivers in cinder,https://bugs.launchpad.net/cinder/+bug/1779911,2018-08-06
+1780095,1780095,Fix Released,DS8K: correct the behavior for get_pools method,https://bugs.launchpad.net/cinder/+bug/1780095,2018-08-06

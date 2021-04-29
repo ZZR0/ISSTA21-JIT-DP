@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1362567,1362567,Fix Released,repomd.xml does not match metalink for updates,https://bugs.launchpad.net/tripleo/+bug/1362567,2014-09-01
+1361090,1361090,Fix Committed,Failed to include file with russian characters,https://bugs.launchpad.net/openstack-ci/+bug/1361090,2014-09-01
+1360464,1360464,Fix Released,tests.benchmark.runners.test_rps.RPSScenarioRunnerTestCase.test__worker_process has race in py26,https://bugs.launchpad.net/rally/+bug/1360464,2014-09-01
+1341501,1341501,Fix Released,"Missing --json, --pprint flags for cmd commands",https://bugs.launchpad.net/rally/+bug/1341501,2014-09-01
+1353464,1353464,Fix Released,Move atomic actions from benchmark/scenario/utils.py to benchamrk/scenario/base.py,https://bugs.launchpad.net/rally/+bug/1353464,2014-09-01
+1359746,1359746,Fix Released,[Upgrade] After upgrade and re-deploy cluster Platform services functional tests failed with HTTPBadRequest: ERROR: Property error : Server: image Multiple physical resources were found with name (TestVM).,https://bugs.launchpad.net/fuel/+bug/1359746,2014-09-01
+1221563,1221563,Fix Released,OPENSTACK_ENDPOINT_TYPE  is not taken into account,https://bugs.launchpad.net/django-openstack-auth/+bug/1221563,2014-09-01
+1229642,1229642,Fix Released,Pep8 test are broken due to a missing Apache2 header,https://bugs.launchpad.net/django-openstack-auth/+bug/1229642,2014-09-01
+1227754,1227754,Fix Released,request.session['token_list'] grows endlessly until logout,https://bugs.launchpad.net/django-openstack-auth/+bug/1227754,2014-09-01
+1308637,1308637,Fix Released,Don't ask already authenticated users to log in,https://bugs.launchpad.net/django-openstack-auth/+bug/1308637,2014-09-01
+1225662,1225662,Fix Released,Log in page: focus should be given to  user name field,https://bugs.launchpad.net/django-openstack-auth/+bug/1225662,2014-09-01
+1240238,1240238,Fix Released,Pass cacert value to keystone client,https://bugs.launchpad.net/django-openstack-auth/+bug/1240238,2014-09-01
+1247186,1247186,Fix Released,Updating user in session does not update request.user,https://bugs.launchpad.net/django-openstack-auth/+bug/1247186,2014-09-01
+1251248,1251248,Fix Released,deprecated import in openstack_auth/urls.py,https://bugs.launchpad.net/django-openstack-auth/+bug/1251248,2014-09-01
+1255305,1255305,Fix Released,switching region throws an exception when not logged in,https://bugs.launchpad.net/django-openstack-auth/+bug/1255305,2014-09-01
+1267636,1267636,Fix Released,Horizon will not authenticate against keystone v3,https://bugs.launchpad.net/django-openstack-auth/+bug/1267636,2014-09-01
+1258590,1258590,Fix Released,Sort project by name,https://bugs.launchpad.net/django-openstack-auth/+bug/1258590,2014-09-01
+1332167,1332167,Fix Released,TemplateDoesNotExist at /auth/logout/ : registration/logged_out.html,https://bugs.launchpad.net/django-openstack-auth/+bug/1332167,2014-09-01
+1331406,1331406,Fix Released,can not login to Dashboard on devstack,https://bugs.launchpad.net/django-openstack-auth/+bug/1331406,2014-09-01
+1355476,1355476,Fix Released,libvirt: remove 'vif_driver' config parameter,https://bugs.launchpad.net/openstack-manuals/+bug/1355476,2014-08-31
+1360290,1360290,Fix Released,BaseAdminNetworkTest is not self sufficient,https://bugs.launchpad.net/tempest/+bug/1360290,2014-08-31
+1333485,1333485,Fix Released,useless urllib3 connection info in CLI,https://bugs.launchpad.net/python-neutronclient/+bug/1333485,2014-08-30
+1153715,1153715,Fix Released,no commandline option to set insecure=True,https://bugs.launchpad.net/python-neutronclient/+bug/1153715,2014-08-30
+1156480,1156480,Fix Released,no 2.2.0 release note in index.rst,https://bugs.launchpad.net/python-neutronclient/+bug/1156480,2014-08-30
+1157502,1157502,Fix Released,The LBaaS CLI command required optional arguments order inside the usage help,https://bugs.launchpad.net/python-neutronclient/+bug/1157502,2014-08-30
+1160203,1160203,Fix Released,remove remainder argument,https://bugs.launchpad.net/python-neutronclient/+bug/1160203,2014-08-30
+1160332,1160332,Fix Released,agent delete queries the name,https://bugs.launchpad.net/python-neutronclient/+bug/1160332,2014-08-30
+1152427,1152427,Fix Released,Support refresh token if token is passed to the constructor,https://bugs.launchpad.net/python-neutronclient/+bug/1152427,2014-08-30
+1150051,1150051,Fix Released,There is no public api to get auth_token from client,https://bugs.launchpad.net/python-neutronclient/+bug/1150051,2014-08-30
+1160704,1160704,Fix Released,create network with xml request and unicode failed,https://bugs.launchpad.net/python-neutronclient/+bug/1160704,2014-08-30
+1161853,1161853,Fix Released,It is confusing admin_state_down=False means DOWN,https://bugs.launchpad.net/python-neutronclient/+bug/1161853,2014-08-30
+1170639,1170639,Fix Released,pep8 test fails with pyflakes 0.7,https://bugs.launchpad.net/python-neutronclient/+bug/1170639,2014-08-30
+1172537,1172537,Fix Released,HTTP-414 URI to long,https://bugs.launchpad.net/python-neutronclient/+bug/1172537,2014-08-30
+1176197,1176197,Fix Released,Cannot choose endpoint type when instantiated HTTPClient,https://bugs.launchpad.net/python-neutronclient/+bug/1176197,2014-08-30
+1161866,1161866,Fix Released,ext-list should define the default columns,https://bugs.launchpad.net/python-neutronclient/+bug/1161866,2014-08-30
+1188889,1188889,Fix Released,quantum port-create --fixed-ip needs metavar,https://bugs.launchpad.net/python-neutronclient/+bug/1188889,2014-08-30
+1167901,1167901,Fix Released,Needs to remove class-based import in unit tests,https://bugs.launchpad.net/python-neutronclient/+bug/1167901,2014-08-30
+1168998,1168998,Fix Released,quantum lb-vip-create support subnet-id name lookup,https://bugs.launchpad.net/python-neutronclient/+bug/1168998,2014-08-30
+1061638,1061638,Fix Released,router-interface-add/delete does not support 'port_id',https://bugs.launchpad.net/python-neutronclient/+bug/1061638,2014-08-30
+1192197,1192197,Fix Released,test_extend_list_exceed_max_uri_len() incorrectly mocks HTTPClient.request() method,https://bugs.launchpad.net/python-neutronclient/+bug/1192197,2014-08-30
+1190652,1190652,Fix Released,quantum --version always reports 2.0,https://bugs.launchpad.net/python-neutronclient/+bug/1190652,2014-08-30
+1086232,1086232,Fix Released,Cannot set some attributes to default values after setting,https://bugs.launchpad.net/python-neutronclient/+bug/1086232,2014-08-30
+1086232,1086232,Fix Released,Cannot set some attributes to default values after setting,https://bugs.launchpad.net/neutron/+bug/1086232,2014-08-30
+1197083,1197083,Fix Released,l3-agent dependancy on pyparsing not listed,https://bugs.launchpad.net/python-neutronclient/+bug/1197083,2014-08-30
+1161078,1161078,Fix Released,Unable to apply a single security group to port,https://bugs.launchpad.net/python-neutronclient/+bug/1161078,2014-08-30
+1196486,1196486,Fix Released,Client should accept tenant_id as an alternative to tenant_name,https://bugs.launchpad.net/python-neutronclient/+bug/1196486,2014-08-30
+1200323,1200323,Fix Released,raise better exception for duplicate matches,https://bugs.launchpad.net/python-neutronclient/+bug/1200323,2014-08-30
+1209364,1209364,Fix Released,AttributeError: 'MockClient' object has no attribute 'EXTED_PLURALS',https://bugs.launchpad.net/python-neutronclient/+bug/1209364,2014-08-30
+1137783,1137783,Fix Released,improve unit tests for python-quantumclient,https://bugs.launchpad.net/python-neutronclient/+bug/1137783,2014-08-30
+1362782,1362782,Fix Released,Devstack needs to start OpenVSwitch daemon,https://bugs.launchpad.net/devstack/+bug/1362782,2014-08-30
+1284850,1284850,Fix Released,Python 3: do not use ugettext(),https://bugs.launchpad.net/python-neutronclient/+bug/1284850,2014-08-30
+1262527,1262527,Fix Released,net-gateway-create's help isn't correct,https://bugs.launchpad.net/python-neutronclient/+bug/1262527,2014-08-30
+1267575,1267575,Fix Released,Neutron lbaas CLI does not list member weight,https://bugs.launchpad.net/python-neutronclient/+bug/1267575,2014-08-30
+1359749,1359749,Fix Released,Install graphviz for building docs,https://bugs.launchpad.net/devstack/+bug/1359749,2014-08-30
+1362797,1362797,Fix Committed,redstack fails to complete installation when run behind proxy,https://bugs.launchpad.net/trove-integration/+bug/1362797,2014-08-30
+1334178,1334178,Fix Released,Add log output of x-openstack-request-id from nova,https://bugs.launchpad.net/openstack-manuals/+bug/1334178,2014-08-30
+1351967,1351967,Fix Released,Per datastore volume support,https://bugs.launchpad.net/openstack-manuals/+bug/1351967,2014-08-30
+1351520,1351520,Fix Released,Add configurable http_timeout parameter for Cisco N1K,https://bugs.launchpad.net/openstack-manuals/+bug/1351520,2014-08-30
+1334853,1334853,Fix Released,Use patch ports to interconnect integration/physical bridges,https://bugs.launchpad.net/openstack-manuals/+bug/1334853,2014-08-30
+1334852,1334852,Fix Released,Implemented S3 multi-part upload functionality,https://bugs.launchpad.net/openstack-manuals/+bug/1334852,2014-08-30
+1332128,1332128,Fix Released,Handle the case where az is disabled/removed,https://bugs.launchpad.net/openstack-manuals/+bug/1332128,2014-08-30
+1331123,1331123,Fix Released,Bump python-swiftclient version,https://bugs.launchpad.net/openstack-manuals/+bug/1331123,2014-08-30
+1330337,1330337,Fix Released,"Increase default metadata_workers, backlog to 4096",https://bugs.launchpad.net/openstack-manuals/+bug/1330337,2014-08-30
+1360062,1360062,Fix Released,Chapter 1. Getting Started in OpenStack Training Guides,https://bugs.launchpad.net/openstack-training-guides/+bug/1360062,2014-08-29
+1359864,1359864,Fix Released,[block-storage] keystone_authtoken missing from cinder.conf,https://bugs.launchpad.net/openstack-chef/+bug/1359864,2014-08-29
+1261976,1261976,Fix Released,create tenant with no enabled field doesn't set it automatically to True,https://bugs.launchpad.net/keystone/+bug/1261976,2014-08-29
+1297879,1297879,Fix Released,"OpenStack packages in OpenStack Installation Guide for Red Hat Enterprise Linux, CentOS, and Fedora  - havana",https://bugs.launchpad.net/openstack-manuals/+bug/1297879,2014-08-29
+1324645,1324645,Fix Released,wrong version of stdlib is installed,https://bugs.launchpad.net/openstack-ci/+bug/1324645,2014-08-29
+1284972,1284972,Fix Released,Creating a region using V3 api fails in backend code when missing description,https://bugs.launchpad.net/keystone/+bug/1284972,2014-08-29
+1363054,1363054,Fix Committed,"Upgrades, ostf checker passes if there is no connectivity between ostf and keystone container",https://bugs.launchpad.net/fuel/+bug/1363054,2014-08-29
+1362659,1362659,Fix Committed,Neutron L2 configuration must be serialized differently depending on env version,https://bugs.launchpad.net/fuel/+bug/1362659,2014-08-29
+1362536,1362536,Fix Committed,Compute node can't be deployed with nsx networks,https://bugs.launchpad.net/fuel/+bug/1362536,2014-08-29
+1362169,1362169,Fix Committed,Cirros image does not properly work with vcenter,https://bugs.launchpad.net/fuel/+bug/1362169,2014-08-29
+1318962,1318962,Fix Released,NetworksIpV6TestJSON tests have hardcoded Gateway address,https://bugs.launchpad.net/tempest/+bug/1318962,2014-08-29
+1362979,1362979,Fix Released,"jobs failing to run tempest: Non-zero exit code (1) from test listing, AttributeError: 'tuple' object has no attribute 'lower'",https://bugs.launchpad.net/openstack-ci/+bug/1362979,2014-08-29

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1362772,1362772,Fix Released,puppet-nova calls nova-manage with --vlan when it means --vlan_start,https://bugs.launchpad.net/puppet-nova/+bug/1362772,2015-03-27
+1361700,1361700,Fix Released,rabbit_ha_queues option should be configured by user,https://bugs.launchpad.net/puppet-nova/+bug/1361700,2015-03-27
+1360978,1360978,Fix Released,enabled_ssl_apis does not convert array for use in nova.conf,https://bugs.launchpad.net/puppet-nova/+bug/1360978,2015-03-27
+1360232,1360232,Fix Released,Should not configure a service user in all cases where a service is configured,https://bugs.launchpad.net/puppet-nova/+bug/1360232,2015-03-27
+1360232,1360232,Fix Released,Should not configure a service user in all cases where a service is configured,https://bugs.launchpad.net/puppet-keystone/+bug/1360232,2015-03-27
+1360232,1360232,Fix Released,Should not configure a service user in all cases where a service is configured,https://bugs.launchpad.net/puppet-cinder/+bug/1360232,2015-03-27
+1360232,1360232,Fix Released,Should not configure a service user in all cases where a service is configured,https://bugs.launchpad.net/puppet-glance/+bug/1360232,2015-03-27
+1360232,1360232,Fix Released,Should not configure a service user in all cases where a service is configured,https://bugs.launchpad.net/puppet-heat/+bug/1360232,2015-03-27
+1360232,1360232,Fix Released,Should not configure a service user in all cases where a service is configured,https://bugs.launchpad.net/puppet-ceilometer/+bug/1360232,2015-03-27
+1360232,1360232,Fix Released,Should not configure a service user in all cases where a service is configured,https://bugs.launchpad.net/puppet-neutron/+bug/1360232,2015-03-27
+1357431,1357431,Fix Released,ML2 plugin config file not configured in /etc/default/neutron-server,https://bugs.launchpad.net/puppet-neutron/+bug/1357431,2015-03-27
+1431024,1431024,Fix Released,Sphinx theme openstackdocstheme search doesn't work,https://bugs.launchpad.net/openstack-manuals/+bug/1431024,2015-03-27
+1355370,1355370,Fix Released,Should be able to manage neutron ML2 package state,https://bugs.launchpad.net/puppet-neutron/+bug/1355370,2015-03-27
+1353844,1353844,Fix Released,agent notification package name is invalid,https://bugs.launchpad.net/puppet-ceilometer/+bug/1353844,2015-03-27
+1352958,1352958,Fix Released,Cannot disable ceilometer::collector without having to include ceilometer::db,https://bugs.launchpad.net/puppet-ceilometer/+bug/1352958,2015-03-27
+1350980,1350980,Fix Released,Fails to manage groups the nova user belongs to,https://bugs.launchpad.net/puppet-ceilometer/+bug/1350980,2015-03-27
+1349765,1349765,Fix Released,Dynamic scoping used in resource defaults in class nova sometimes causes a dependency cycle,https://bugs.launchpad.net/puppet-nova/+bug/1349765,2015-03-27
+1347533,1347533,Fix Released,Module deletes openstack-dashboard.conf,https://bugs.launchpad.net/puppet-horizon/+bug/1347533,2015-03-27
+1343009,1343009,Fix Released,Nova_admin_tenant_id_setter runs after Service['neutron-server'] causing Auth issues in notification callbacks,https://bugs.launchpad.net/puppet-neutron/+bug/1343009,2015-03-27
+1341657,1341657,Fix Released,Quotas section in neutron.conf was renamed in Havana,https://bugs.launchpad.net/puppet-neutron/+bug/1341657,2015-03-27
+1341552,1341552,Fix Released,keystone_user_role doesn't support email address as username,https://bugs.launchpad.net/puppet-keystone/+bug/1341552,2015-03-27
+1341091,1341091,Fix Released,Iscsi_helper isn't populated in cinder:volume:iscsi on Debian family,https://bugs.launchpad.net/puppet-cinder/+bug/1341091,2015-03-27
+1340447,1340447,Fix Released,keystone cannot update a password with the icehouse client,https://bugs.launchpad.net/puppet-keystone/+bug/1340447,2015-03-27
+1340316,1340316,Fix Released,Add rpc_workers for neutron-server,https://bugs.launchpad.net/puppet-neutron/+bug/1340316,2015-03-27
+1338777,1338777,Fix Released,The operatingsystemrelease fact might not be a comparable number,https://bugs.launchpad.net/puppet-cinder/+bug/1338777,2015-03-27
+1338777,1338777,Fix Released,The operatingsystemrelease fact might not be a comparable number,https://bugs.launchpad.net/puppet-nova/+bug/1338777,2015-03-27
+1338777,1338777,Fix Released,The operatingsystemrelease fact might not be a comparable number,https://bugs.launchpad.net/puppet-ceilometer/+bug/1338777,2015-03-27
+1337988,1337988,Fix Released,neutron-plugin-ml2 package is not installed on Ubuntu,https://bugs.launchpad.net/puppet-neutron/+bug/1337988,2015-03-27
+1337733,1337733,Fix Released,"if service not enabled, neutron::agents::ovs fails due to missing dependency on integration bridge",https://bugs.launchpad.net/puppet-neutron/+bug/1337733,2015-03-27
+1336870,1336870,Fix Released,regex for vs_bridge external_ids does not allow '-',https://bugs.launchpad.net/puppet-vswitch/+bug/1336870,2015-03-27
+1334906,1334906,Fix Released,Could not find resource 'Service[neutron-server]',https://bugs.launchpad.net/puppet-neutron/+bug/1334906,2015-03-27
+1333419,1333419,Fix Released,default setup for horizon lets passwords be logged,https://bugs.launchpad.net/puppet-horizon/+bug/1333419,2015-03-27
+1333372,1333372,Fix Released,netapp_sa_password field should be market secret,https://bugs.launchpad.net/puppet-cinder/+bug/1333372,2015-03-27
+1329643,1329643,Fix Released,neutron.conf mtu parameter needed,https://bugs.launchpad.net/puppet-neutron/+bug/1329643,2015-03-27
+1329552,1329552,Fix Released,Cannot create networks if multiple regions exist,https://bugs.launchpad.net/puppet-neutron/+bug/1329552,2015-03-27
+1328547,1328547,Fix Released,Ubuntu servers trying to restore selinux context when facter returns false,https://bugs.launchpad.net/puppet-swift/+bug/1328547,2015-03-27
+1328534,1328534,Fix Released,Add a parameter to swtich agent package,https://bugs.launchpad.net/puppet-neutron/+bug/1328534,2015-03-27
+1250029,1250029,Fix Released,Default port for The MS SQL Security Group is 1433 instead of 1443,https://bugs.launchpad.net/puppet-horizon/+bug/1250029,2015-03-27
+1250029,1250029,Fix Released,Default port for The MS SQL Security Group is 1433 instead of 1443,https://bugs.launchpad.net/horizon/+bug/1250029,2015-03-27
+1325585,1325585,Fix Released,vnc_keymap parameter missing in nova::compute,https://bugs.launchpad.net/puppet-nova/+bug/1325585,2015-03-27
+1320853,1320853,Fix Released,swift::storage::mount breaks selinux contexts,https://bugs.launchpad.net/puppet-swift/+bug/1320853,2015-03-27
+1319857,1319857,Fix Released,cinder types is not tested before creation,https://bugs.launchpad.net/puppet-cinder/+bug/1319857,2015-03-27
+1319464,1319464,Fix Released,keystone_user type should accept blank email address,https://bugs.launchpad.net/puppet-keystone/+bug/1319464,2015-03-27
+1316623,1316623,Fix Released,Dupplicated resource on Red Hat when declaring ML2 plugin and OVS agent,https://bugs.launchpad.net/puppet-neutron/+bug/1316623,2015-03-27
+1313553,1313553,Fix Released,Moving from rabbit_durable_queues to amqp_durable_queues,https://bugs.launchpad.net/puppet-glance/+bug/1313553,2015-03-27
+1312658,1312658,Fix Released,notification_driver typo in puppet-glance notify rabbit,https://bugs.launchpad.net/puppet-glance/+bug/1312658,2015-03-27
+1312628,1312628,Fix Released,"neutron_subnet does not handle empty dns servers, allocation pools and also specific host routes",https://bugs.launchpad.net/puppet-neutron/+bug/1312628,2015-03-27
+1312054,1312054,Fix Released,Spec tests issue for puppet notify rabbit,https://bugs.launchpad.net/puppet-glance/+bug/1312054,2015-03-27
+1308884,1308884,Fix Released,Crash when using puppet-mysql 2.2,https://bugs.launchpad.net/puppet-ceilometer/+bug/1308884,2015-03-27
+1308861,1308861,Fix Released,puppet-keystone uses deprecated [sql] section name in keystone.conf,https://bugs.launchpad.net/puppet-keystone/+bug/1308861,2015-03-27
+1306694,1306694,Fix Released,puppet-neutron needs to support nova notification,https://bugs.launchpad.net/puppet-neutron/+bug/1306694,2015-03-27
+1301700,1301700,Fix Released,nova::config example is invalid,https://bugs.launchpad.net/puppet-nova/+bug/1301700,2015-03-27
+1301637,1301637,Fix Released,neutron::server max_retries warning is incorrect,https://bugs.launchpad.net/puppet-neutron/+bug/1301637,2015-03-27
+1301592,1301592,Fix Released,Add ability to configure any catalog driver,https://bugs.launchpad.net/puppet-keystone/+bug/1301592,2015-03-27
+1301001,1301001,Fix Released,some rspec tests are not executed,https://bugs.launchpad.net/puppet-glance/+bug/1301001,2015-03-27
+1299334,1299334,Fix Released,Reduce default token duration to one hour,https://bugs.launchpad.net/puppet-keystone/+bug/1299334,2015-03-27
+1299181,1299181,Fix Released,$real_allowed_hosts and $allowed_hosts inconsistency,https://bugs.launchpad.net/puppet-keystone/+bug/1299181,2015-03-27
+1436637,1436637,Fix Released,Q_USE_PUBLIC_VETH is broken,https://bugs.launchpad.net/devstack/+bug/1436637,2015-03-27
+1433075,1433075,Fix Released,Ceilometer glance and nova notifications don't work,https://bugs.launchpad.net/fuel/+bug/1433075,2015-03-27
+1430687,1430687,Fix Released,openstack-ci-packtest-deb CI job broken,https://bugs.launchpad.net/fuel/+bug/1430687,2015-03-27
+1435901,1435901,Fix Released,Need to change generated snapshot file name (suffix),https://bugs.launchpad.net/fuel/+bug/1435901,2015-03-27
+1089758,1089758,Fix Released,There's currently no way to disable cinder services on a node,https://bugs.launchpad.net/cinder/+bug/1089758,2015-03-27
+1433037,1433037,Fix Released,[OSCI] Create repositories for python-shaker package,https://bugs.launchpad.net/fuel/+bug/1433037,2015-03-27
+1266988,1266988,Fix Released,config registry protocol in modules/glance/manifests/api.pp,https://bugs.launchpad.net/puppet-glance/+bug/1266988,2015-03-27
+1436855,1436855,Fix Committed,Ceilometer task has not right description on deploy,https://bugs.launchpad.net/fuel/+bug/1436855,2015-03-27
+1377724,1377724,Fix Released,Add missing artifacts to repository,https://bugs.launchpad.net/group-based-policy-specs/+bug/1377724,2015-03-27
+1377786,1377786,Fix Released,Repo does not build,https://bugs.launchpad.net/group-based-policy-specs/+bug/1377786,2015-03-27
+1431864,1431864,Fix Released,Can not create account from Fuel welcome screen,https://bugs.launchpad.net/fuel/+bug/1431864,2015-03-27
+1431861,1431861,Fix Released,Fuel UI does not send data to Retrive Password,https://bugs.launchpad.net/fuel/+bug/1431861,2015-03-27
+1416347,1416347,Fix Released,Add --remove option for fuel plugins,https://bugs.launchpad.net/fuel/+bug/1416347,2015-03-27
+1434093,1434093,Fix Committed,need to fix kombu requirement for openstack projects,https://bugs.launchpad.net/fuel/+bug/1434093,2015-03-27
+1433975,1433975,Fix Committed,Primary-mongo role changes to mongo after upload_nodes_info task,https://bugs.launchpad.net/fuel/+bug/1433975,2015-03-27
+1298146,1298146,Fix Released,neutron::agents::ovs fails unless service and package are enabled/present,https://bugs.launchpad.net/puppet-neutron/+bug/1298146,2015-03-26
+1296636,1296636,Fix Released,Policy files redefined in local_settings,https://bugs.launchpad.net/puppet-horizon/+bug/1296636,2015-03-26
+1294339,1294339,Fix Released,Apache fails to be configured,https://bugs.launchpad.net/puppet-horizon/+bug/1294339,2015-03-26

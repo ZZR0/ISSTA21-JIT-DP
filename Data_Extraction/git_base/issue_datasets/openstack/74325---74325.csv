@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1350800,1350800,Fix Released,"nova v3 api boot failed, return error 500 instead of 404",https://bugs.launchpad.net/nova/+bug/1350800,2014-10-16
+1350268,1350268,Fix Released,allocate_fixed_ip should cleanup with correct param,https://bugs.launchpad.net/nova/+bug/1350268,2014-10-16
+1349933,1349933,Fix Released,xenapi: Do not retry snapshot uploads on glance 500,https://bugs.launchpad.net/nova/+bug/1349933,2014-10-16
+1349680,1349680,Fix Released,nova v3 api raise a  exceptions.NotImplementedError instead of error message,https://bugs.launchpad.net/nova/+bug/1349680,2014-10-16
+1348288,1348288,Fix Released,Resource tracker should report virt driver stats,https://bugs.launchpad.net/nova/+bug/1348288,2014-10-16
+1373651,1373651,Fix Released,submitted dates resets when switch to a different page,https://bugs.launchpad.net/horizon/+bug/1373651,2014-10-16
+1371610,1371610,Fix Released,Incorrect template resolving on Windows,https://bugs.launchpad.net/horizon/+bug/1371610,2014-10-16
+1347833,1347833,Fix Released,os-server-external-events responses 500 to neutron,https://bugs.launchpad.net/nova/+bug/1347833,2014-10-16
+1366842,1366842,Fix Released,No way to set config-drive property when launching instance,https://bugs.launchpad.net/horizon/+bug/1366842,2014-10-16
+1352919,1352919,Fix Released,horizon/workflows/base.py contains add_error() which conflicts with Django 1.7 definition,https://bugs.launchpad.net/horizon/+bug/1352919,2014-10-16
+1347355,1347355,Fix Released,Extra image metadata didn't assgin to volume based instance snapshot image,https://bugs.launchpad.net/nova/+bug/1347355,2014-10-16
+1342293,1342293,Fix Released,[data processing] Make the job executions page more useful,https://bugs.launchpad.net/horizon/+bug/1342293,2014-10-16
+1346327,1346327,Fix Released,libvirt swap_volume and live_snapshot methods have no unit tests,https://bugs.launchpad.net/nova/+bug/1346327,2014-10-16
+1328911,1328911,Fix Released,"""Device size"" field in ""Launch Instance"" workflow isn't prefilled with flavor's size",https://bugs.launchpad.net/horizon/+bug/1328911,2014-10-16
+1317238,1317238,Fix Released,Duplicated get_policy_target() method across code,https://bugs.launchpad.net/horizon/+bug/1317238,2014-10-16
+1347778,1347778,Fix Released,raising Maximum number of ports exceeded is wrong,https://bugs.launchpad.net/nova/+bug/1347778,2014-10-16
+1347778,1347778,Fix Released,raising Maximum number of ports exceeded is wrong,https://bugs.launchpad.net/python-neutronclient/+bug/1347778,2014-10-16
+1347028,1347028,Fix Released,block_device mapping identifies ephemeral disks incorrectly,https://bugs.launchpad.net/nova/+bug/1347028,2014-10-16
+1298483,1298483,Fix Released,Allow customization script to be uploaded,https://bugs.launchpad.net/horizon/+bug/1298483,2014-10-16
+1346385,1346385,Fix Released,libvirt: live migration stopped working after shared storage pacthes,https://bugs.launchpad.net/nova/+bug/1346385,2014-10-16
+1284506,1284506,Fix Released,Tabbed volumes and volume types tables on Admin panel,https://bugs.launchpad.net/horizon/+bug/1284506,2014-10-16
+1346191,1346191,Fix Released,libvirt _live_snapshot & _swap_volume functions re-define guest with wrong XML document,https://bugs.launchpad.net/nova/+bug/1346191,2014-10-16
+1374919,1374919,Fix Released,instance.security_groups must be a list,https://bugs.launchpad.net/horizon/+bug/1374919,2014-10-16
+1372029,1372029,Fix Released,Units heading in forms need to be in parenthesis,https://bugs.launchpad.net/horizon/+bug/1372029,2014-10-16
+1344036,1344036,Fix Released,Hyper-V agent generates exception when force_hyperv_utils_v1 is True on Windows Server / Hyper-V Server 2012 R2,https://bugs.launchpad.net/nova/+bug/1344036,2014-10-16
+1371370,1371370,Fix Released,Data Processing small UI fixes,https://bugs.launchpad.net/horizon/+bug/1371370,2014-10-16
+1342257,1342257,Fix Released,Nova cells can die unexpectedly on boot due to db failure,https://bugs.launchpad.net/nova/+bug/1342257,2014-10-16
+1371251,1371251,Fix Released,"Replace term ""Metadata"" with ""Extra Specs"" in Flavor table",https://bugs.launchpad.net/horizon/+bug/1371251,2014-10-16
+1339823,1339823,Fix Released,Nova compute process crash doesn't reset task state 'migrating',https://bugs.launchpad.net/nova/+bug/1339823,2014-10-16
+1371249,1371249,Fix Released,Fix typos in the Description section of 'Create QOS Spec' form under Admin->Volumes->Volume Type,https://bugs.launchpad.net/horizon/+bug/1371249,2014-10-16
+1338736,1338736,Fix Released,compute.instance.create.end no longer has launched_at populated,https://bugs.launchpad.net/nova/+bug/1338736,2014-10-16
+1370823,1370823,Fix Released,lesscpy reference obsolete,https://bugs.launchpad.net/horizon/+bug/1370823,2014-10-16
+1370485,1370485,Fix Released,Cannot update firewall rule protocol to ANY,https://bugs.launchpad.net/horizon/+bug/1370485,2014-10-16
+1334846,1334846,Fix Released,can not delete metadata key using aggregate-set-metadata,https://bugs.launchpad.net/nova/+bug/1334846,2014-10-16
+1370450,1370450,Fix Released,"Create Volume, Size should have default value",https://bugs.launchpad.net/horizon/+bug/1370450,2014-10-16
+1334278,1334278,Fix Released,limits with tenant parameter returns wrong maxTotal* values,https://bugs.launchpad.net/nova/+bug/1334278,2014-10-16
+1370326,1370326,Fix Released,"""Last Updated"" in Admin System Info panel is not displayed with translated string",https://bugs.launchpad.net/horizon/+bug/1370326,2014-10-16
+1370323,1370323,Fix Released,"Capitalisation of ""Create Router""",https://bugs.launchpad.net/horizon/+bug/1370323,2014-10-16
+1331440,1331440,Fix Released,xenapi: failed snapshots never deleted,https://bugs.launchpad.net/nova/+bug/1331440,2014-10-16
+1370286,1370286,Fix Released,rephrase action_past in Access & Security,https://bugs.launchpad.net/horizon/+bug/1370286,2014-10-16
+1331353,1331353,Fix Released,nova reports Neutron port OverQuota error when the real problem from Neutron is IpAddressGenerationFailure,https://bugs.launchpad.net/nova/+bug/1331353,2014-10-16
+1370186,1370186,Fix Released,very long Volume Description causes generic error,https://bugs.launchpad.net/horizon/+bug/1370186,2014-10-16
+1326958,1326958,Fix Released,default security groups listing doesn't work when neutron is managing security groups,https://bugs.launchpad.net/nova/+bug/1326958,2014-10-16
+1370133,1370133,Fix Released,Unable to dismiss flavor details pop-over unless we click on the flavor detail link itself,https://bugs.launchpad.net/horizon/+bug/1370133,2014-10-16
+1369761,1369761,Fix Released,Update border-radius css and remove mixin,https://bugs.launchpad.net/horizon/+bug/1369761,2014-10-16
+1321640,1321640,Fix Released,[HyperV]: Config drive is not attached to instance after resized or migrated,https://bugs.launchpad.net/nova/+bug/1321640,2014-10-16
+1368757,1368757,Fix Released,Tenants are unordered in tenant switch list,https://bugs.launchpad.net/horizon/+bug/1368757,2014-10-16
+1316373,1316373,Fix Released,Can't force delete an errored instance with no info cache,https://bugs.launchpad.net/nova/+bug/1316373,2014-10-16
+1368752,1368752,Fix Released,Regions are unordered in region list,https://bugs.launchpad.net/horizon/+bug/1368752,2014-10-16
+1368732,1368732,Fix Released,AttributeError: 'VolumeSnapshot' object has no attribute 'bootable',https://bugs.launchpad.net/horizon/+bug/1368732,2014-10-16
+1308565,1308565,Fix Released,Delete does not clean up pending resize files,https://bugs.launchpad.net/nova/+bug/1308565,2014-10-16
+1368600,1368600,Fix Released,Creating a volume from an instance snapshot should validate the volume size / min_disk,https://bugs.launchpad.net/horizon/+bug/1368600,2014-10-16
+1300972,1300972,Fix Released,os-simple-tenant-usage: printing trace in logs if not passing all requirements,https://bugs.launchpad.net/nova/+bug/1300972,2014-10-16
+1368361,1368361,Fix Released,Horizon fails to start if 'exceptions' entry missing from HORIZON_CONFIG,https://bugs.launchpad.net/horizon/+bug/1368361,2014-10-16
+1288809,1288809,Fix Released,pci passthrough: incorrect device allocation,https://bugs.launchpad.net/nova/+bug/1288809,2014-10-16
+1367615,1367615,Fix Released,horizon throws an exception in lbaas.api.pool_list because subnet_id of pool is not available.,https://bugs.launchpad.net/horizon/+bug/1367615,2014-10-16
+1366973,1366973,Fix Released,"Should use ""project"" over ""tenant"" in visible strings",https://bugs.launchpad.net/horizon/+bug/1366973,2014-10-16
+1286969,1286969,Fix Released,NeutronClientException exception isn't handled when showing a network,https://bugs.launchpad.net/nova/+bug/1286969,2014-10-16
+1366731,1366731,Fix Released,Allow to create some translations on access and security page,https://bugs.launchpad.net/horizon/+bug/1366731,2014-10-16
+1366481,1366481,Fix Released,Concatenation needs to be avoided in Volume Type Extra Spec form,https://bugs.launchpad.net/horizon/+bug/1366481,2014-10-16
+1276862,1276862,Fix Released,Nova libvirt driver live migration should sanitize target host,https://bugs.launchpad.net/nova/+bug/1276862,2014-10-16
+1365959,1365959,Fix Released,Reduce code duplication in AccessAndSecurityTests,https://bugs.launchpad.net/horizon/+bug/1365959,2014-10-16
+1265839,1265839,Fix Released,"duplicate index on block_device_mapping ('instance_uuid', 'device_name')",https://bugs.launchpad.net/nova/+bug/1265839,2014-10-16
+1365596,1365596,Fix Released,Create volume from volume snapshot does not work if volume type is specified,https://bugs.launchpad.net/horizon/+bug/1365596,2014-10-16
+1241866,1241866,Fix Released,Nova-compute does not clean up Logical Volume on resize/migrate,https://bugs.launchpad.net/nova/+bug/1241866,2014-10-16
+1365107,1365107,Fix Released,No xstatic-font-awesome in requirements,https://bugs.launchpad.net/horizon/+bug/1365107,2014-10-16
+1364644,1364644,Fix Released,Cancel buttons in several dialogs missing border,https://bugs.launchpad.net/horizon/+bug/1364644,2014-10-16
+1364623,1364623,Fix Released,volume action description clean-up,https://bugs.launchpad.net/horizon/+bug/1364623,2014-10-16
+1364274,1364274,Fix Released,[Bootstrap] Striping issue still takes place in Firefox,https://bugs.launchpad.net/horizon/+bug/1364274,2014-10-16
+1363809,1363809,Fix Released,Fix the LinkAction class name for Domain/Projects panel,https://bugs.launchpad.net/horizon/+bug/1363809,2014-10-16
+1360719,1360719,Fix Released,unit test test_killed_worker_recover taking 160 seconds,https://bugs.launchpad.net/nova/+bug/1360719,2014-10-16
+1362850,1362850,Fix Released,Filter button on Host Aggregates does not work,https://bugs.launchpad.net/horizon/+bug/1362850,2014-10-16
+1360656,1360656,Fix Released,Objects remotable decorator fails to properly handle ListOfObjects field if it is in the updates dict,https://bugs.launchpad.net/nova/+bug/1360656,2014-10-16
+1362704,1362704,Fix Released,Volume Type Extra Specs needs modal dialog,https://bugs.launchpad.net/horizon/+bug/1362704,2014-10-16
+1358881,1358881,Fix Released,jjsonschema 2.3.0 -> 2.4.0 upgrade breaking nova.tests.test_api_validation tests,https://bugs.launchpad.net/nova/+bug/1358881,2014-10-16

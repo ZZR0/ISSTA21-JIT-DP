@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1812997,1812997,Fix Released,Cannot disable octavia in devstack plugin,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1812997,2019-03-27
+1814920,1814920,Fix Released,SG rules not correctly update on service's targetPort update,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1814920,2019-03-27
+1816385,1816385,Fix Released,Race when applying NP to labeled pods that don't yet have an IP assigned,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1816385,2019-03-27
+1810394,1810394,Fix Released,CRD podSelector is not properly updated on NP update,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1810394,2019-03-27
+1816020,1816020,Fix Released,Race when deleting namespaces with network policies,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1816020,2019-03-27
+1817318,1817318,Fix Released,race between NP creation and pods annotations,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1817318,2019-03-27
+1816015,1816015,Fix Released,NP: services sg rules not updated when scaling deployments,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1816015,2019-03-27
+1818203,1818203,Fix Released,All services are updated on Network Policy/ Pods events,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1818203,2019-03-27
+1820284,1820284,Fix Released,DevStack doesn't bump quotas for k8s project,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1820284,2019-03-27
+1818969,1818969,Fix Released,svc with text defined targetPorts,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1818969,2019-03-27
+1820574,1820574,Fix Released,[rocky] periodic-rocky-containers-build fails for missing centos-binary-cron,https://bugs.launchpad.net/tripleo/+bug/1820574,2019-03-27
+1813525,1813525,Fix Released,VNX: initiators are not automatically deregistered on terminate_connection,https://bugs.launchpad.net/cinder/+bug/1813525,2019-03-27
+1821815,1821815,Fix Released,Gate jobs are failing for stable/ocata,https://bugs.launchpad.net/neutron/+bug/1821815,2019-03-27
+1810921,1810921,Fix Released,[horizon] Rollout with tag horizon-config fails,https://bugs.launchpad.net/openstack-ansible/+bug/1810921,2019-03-27
+1807268,1807268,Fix Released,CentOS rsyslog bug,https://bugs.launchpad.net/openstack-ansible/+bug/1807268,2019-03-27
+1798219,1798219,Fix Released,LVM driver can't create snapshots when run with Ubuntu/Bionic Beaver,https://bugs.launchpad.net/manila/+bug/1798219,2019-03-26
+1818081,1818081,Fix Released,Problem using version specific endpoints when deploying with uWSGI,https://bugs.launchpad.net/manila/+bug/1818081,2019-03-26
+1815038,1815038,Fix Released,API is not reachable if manila is deployed with uWSGI and mounted in /share,https://bugs.launchpad.net/manila/+bug/1815038,2019-03-26
+1789938,1789938,Fix Released,QuotasNegativeTest always use dynamic credentials,https://bugs.launchpad.net/tempest/+bug/1789938,2019-03-26
+1792007,1792007,Fix Released,Agents client does not provide delete_agent functionality,https://bugs.launchpad.net/tempest/+bug/1792007,2019-03-26
+1791007,1791007,Fix Released,No handling to register workspace when using invalid/blank name of workspace,https://bugs.launchpad.net/tempest/+bug/1791007,2019-03-26
+1796073,1796073,Fix Released,ZUUL is failing due to assertion for unclosed file of tempest.conf.sample,https://bugs.launchpad.net/tempest/+bug/1796073,2019-03-26
+1616892,1616892,Fix Released,tempest/tempest/lib/common/http.py is hard coded to follow re-directs,https://bugs.launchpad.net/tempest/+bug/1616892,2019-03-26
+1795891,1795891,Fix Released,tempest.scenario.test_network_v6.TestGettingAddress fails with dualnet=True and custom images,https://bugs.launchpad.net/tempest/+bug/1795891,2019-03-26
+1798317,1798317,Fix Released,test_connectivity_between_vms_on_different_networks does not work on all backends,https://bugs.launchpad.net/tempest/+bug/1798317,2019-03-26
+1794558,1794558,Fix Released,Tempest test AttachInterfacesUnderV243Test results in FixedIpNotFoundForSpecificInstance traceback in n-cpu logs,https://bugs.launchpad.net/tempest/+bug/1794558,2019-03-26
+1799883,1799883,Fix Released,tempest workspace: accepting blank path when move and register new workspace is running,https://bugs.launchpad.net/tempest/+bug/1799883,2019-03-26
+1766354,1766354,Fix Released,--config-file option of tempest account-generator ignores its the value,https://bugs.launchpad.net/tempest/+bug/1766354,2019-03-26
+1811895,1811895,Fix Released,Current naming convention is uninformative.,https://bugs.launchpad.net/tempest/+bug/1811895,2019-03-26
+1812587,1812587,Fix Released,tempest cleanup AttributeError,https://bugs.launchpad.net/tempest/+bug/1812587,2019-03-26
+1806089,1806089,Fix Released,tempest cleanup fails on py35,https://bugs.launchpad.net/tempest/+bug/1806089,2019-03-26
+1819910,1819910,Fix Released,test_server_connectivity_live_migration intermittently fails with NoValidHost due to DestinationHypervisorTooOld,https://bugs.launchpad.net/tempest/+bug/1819910,2019-03-26
+1808473,1808473,Fix Released,Silently taking config value even if it is wrong in tempest run,https://bugs.launchpad.net/tempest/+bug/1808473,2019-03-26
+1820974,1820974,Fix Released,One Unicode character in README breaks Python 3 support,https://bugs.launchpad.net/karbor/+bug/1820974,2019-03-26
+1737880,1737880,Fix Released,Tempest test_host_reservation sometimes fails: 'Start date must later than current date' error,https://bugs.launchpad.net/blazar/+bug/1737880,2019-03-26
+1707163,1707163,Fix Released,Horizon reconfigure - policy reconfigure doesn't work due to incorrect paths,https://bugs.launchpad.net/kolla-ansible/+bug/1707163,2019-03-26
+1786712,1786712,Fix Released,Change of neutron_external_network and neutron_bridge_name in globals.yml does not cause change in Ansible,https://bugs.launchpad.net/kolla-ansible/+bug/1786712,2019-03-26
+1773105,1773105,Fix Released,Horizon fails on ubuntu binary due to missing custom_local_settings.py,https://bugs.launchpad.net/kolla-ansible/+bug/1773105,2019-03-26
+1731026,1731026,Fix Released,Baremetal role installs python docker package on host via pip,https://bugs.launchpad.net/kolla-ansible/+bug/1731026,2019-03-26
+1795569,1795569,Fix Released,Reconfiguration fails as non-root user with ceph enabled due to missing 'become',https://bugs.launchpad.net/kolla-ansible/+bug/1795569,2019-03-26
+1740060,1740060,Fix Released,mariaDB 10.1 boostrap failed,https://bugs.launchpad.net/kolla-ansible/+bug/1740060,2019-03-26
+1740060,1740060,Fix Released,mariaDB 10.1 boostrap failed,https://bugs.launchpad.net/kolla/+bug/1740060,2019-03-26
+1691759,1691759,Fix Released,newer rabbitmq versions deprecate clusterer,https://bugs.launchpad.net/kolla-ansible/+bug/1691759,2019-03-26
+1691759,1691759,Fix Released,newer rabbitmq versions deprecate clusterer,https://bugs.launchpad.net/kolla/+bug/1691759,2019-03-26
+1817970,1817970,Fix Released,kolla source installs failing on neutron due to Unhandled error: ImportError: cannot import name agent_resources_synced,https://bugs.launchpad.net/kolla/+bug/1817970,2019-03-26
+1667308,1667308,Fix Released,bifrost-base source image build currently broken,https://bugs.launchpad.net/kolla/+bug/1667308,2019-03-26
+1814625,1814625,Fix Released,drop fwaas v1,https://bugs.launchpad.net/networking-midonet/+bug/1814625,2019-03-26
+1642111,1642111,Fix Released,"create lvm volume from snapshot fails with ""device-mapper: reload ioctl on (252:4) failed: Invalid argument""",https://bugs.launchpad.net/devstack/+bug/1642111,2019-03-26
+1642111,1642111,Fix Released,"create lvm volume from snapshot fails with ""device-mapper: reload ioctl on (252:4) failed: Invalid argument""",https://bugs.launchpad.net/cinder/+bug/1642111,2019-03-26
+1747949,1747949,Fix Released,Cross AZ migration leaves volume with wrong AZ,https://bugs.launchpad.net/cinder/+bug/1747949,2019-03-26
+1816793,1816793,Fix Released,Incorrect concatenation in the version discovery,https://bugs.launchpad.net/cinder/+bug/1816793,2019-03-26
+1790840,1790840,Fix Released,Multiattach - multiattach is set to false after retype operation,https://bugs.launchpad.net/cinder/+bug/1790840,2019-03-26
+1732199,1732199,Fix Released,test_extend_attached_volume fails with Unexpected compute_extend_volume result 'Error',https://bugs.launchpad.net/nova/+bug/1732199,2019-03-26
+1787203,1787203,Fix Released,Api-ref for v2 is missing backup restore,https://bugs.launchpad.net/cinder/+bug/1787203,2019-03-26
+1790008,1790008,Fix Released,VMware: revert-to-snapshot fails with TypeError,https://bugs.launchpad.net/cinder/+bug/1790008,2019-03-26
+1794237,1794237,Fix Released,Create  volume failed because of volume type name,https://bugs.launchpad.net/cinder/+bug/1794237,2019-03-26
+1799910,1799910,Fix Released,glance_cors_allowed_origin should include protocol,https://bugs.launchpad.net/openstack-ansible/+bug/1799910,2019-03-26
+1768711,1768711,Fix Released,Unity: hosts still exist on Unity even after all LUNs are detached,https://bugs.launchpad.net/cinder/+bug/1768711,2019-03-25
+1810610,1810610,Fix Released,[tempest] urllib failure running under py3,https://bugs.launchpad.net/manila/+bug/1810610,2019-03-25
+1810937,1810937,Fix Released,[tempest] type error on filter object running under py3,https://bugs.launchpad.net/manila/+bug/1810937,2019-03-25
+1811739,1811739,Fix Released,[tempest] Tests try to create resources in AZs but fail,https://bugs.launchpad.net/manila/+bug/1811739,2019-03-25
+1796761,1796761,Fix Released,Add support for setting pool tags,https://bugs.launchpad.net/puppet-ceph/+bug/1796761,2019-03-25
+1788006,1788006,Fix Released,"Tests fail with ""Server [UUID] failed to reach ACTIVE status and task state ""None"" within the required time ([INTEGER] s). Current status: BUILD. Current task state: spawning.""",https://bugs.launchpad.net/neutron/+bug/1788006,2019-03-25
+1792472,1792472,Fix Released,neutron_tempest_plugin: test_floatingip_port_details occasionally fails,https://bugs.launchpad.net/neutron/+bug/1792472,2019-03-25
+1769609,1769609,Fix Released,neutron-tempest-plugin: there is no way to create a subnet without a gateway and this breaks trunk tests,https://bugs.launchpad.net/neutron/+bug/1769609,2019-03-25
+1818233,1818233,Fix Released,ping_ip_address used without assertion in Neutron Tempest Plugin,https://bugs.launchpad.net/neutron/+bug/1818233,2019-03-25
+1800454,1800454,Fix Released,designate tempest plugin tests fail with default quota_zones setting,https://bugs.launchpad.net/designate/+bug/1800454,2019-03-25
+1785656,1785656,Fix Committed,test_internal_dns.InternalDNSTest fails even though dns-integration extension isn't loaded,https://bugs.launchpad.net/networking-odl/+bug/1785656,2019-03-25
+1785656,1785656,Fix Committed,test_internal_dns.InternalDNSTest fails even though dns-integration extension isn't loaded,https://bugs.launchpad.net/neutron/+bug/1785656,2019-03-25
+1772378,1772378,Fix Released,exception Occurs in object-reconstructor process,https://bugs.launchpad.net/swift/+bug/1772378,2019-03-25
+1636663,1636663,Fix Released,A complete multipart upload request verification failed due to object-server unable to update container DB,https://bugs.launchpad.net/swift/+bug/1636663,2019-03-25
+1811268,1811268,Fix Released,multi-region EC has constant rebuild traffic,https://bugs.launchpad.net/swift/+bug/1811268,2019-03-25
+1510342,1510342,Fix Released,Reconstructor does not restore a fragment to a handoff node,https://bugs.launchpad.net/swift/+bug/1510342,2019-03-25
+1782622,1782622,Fix Released,cephfs native environment file is broken,https://bugs.launchpad.net/tripleo/+bug/1782622,2019-03-25
+1798147,1798147,Fix Released,failed glance image download leads to NoneType error,https://bugs.launchpad.net/cinder/+bug/1798147,2019-03-25

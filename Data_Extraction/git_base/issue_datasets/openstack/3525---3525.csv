@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1521899,1521899,Fix Released,A lot of H404/405 violations,https://bugs.launchpad.net/tempest/+bug/1521899,2020-02-20
+1858096,1858096,Fix Released,Allow undercloud to be used as NTP Server with chrony,https://bugs.launchpad.net/tripleo/+bug/1858096,2020-02-19
+1861475,1861475,Fix Released,[Stein to Train] Upgrade fails with: 'cinder_backup_docker_image_latest' is undefined,https://bugs.launchpad.net/tripleo/+bug/1861475,2020-02-19
+1838971,1838971,Fix Released,Stein upgrade fails on cinder_volume_restart_bundle,https://bugs.launchpad.net/tripleo/+bug/1838971,2020-02-19
+1856165,1856165,Fix Released,OSA-AIO keystone federation deployment failed cause keystone client not installed in container,https://bugs.launchpad.net/openstack-ansible/+bug/1856165,2020-02-19
+1862330,1862330,Fix Released,"RHEL-8 jobs for train and master got broken with Aborting, target uses selinux but python bindings (libselinux-python) aren't installed!",https://bugs.launchpad.net/tripleo/+bug/1862330,2020-02-19
+1862420,1862420,Fix Released,"docker.io/ceph/daemon:v3.2.10-stable-3.2-luminous-centos-7-x86_64, level=fatal msg=""Error determining repository tags: http: unexpected EOF reading trailer""",https://bugs.launchpad.net/tripleo/+bug/1862420,2020-02-19
+1862864,1862864,Fix Released,vnf package delete should return 409 if operational state is ENABLED and usage state is IN_USE,https://bugs.launchpad.net/tacker/+bug/1862864,2020-02-19
+1860033,1860033,Fix Released,Tempest jobs broken on stable branches due to requirements neutron-lib upgrade (the EOLing python2 drama),https://bugs.launchpad.net/neutron/+bug/1860033,2020-02-19
+1860033,1860033,Fix Released,Tempest jobs broken on stable branches due to requirements neutron-lib upgrade (the EOLing python2 drama),https://bugs.launchpad.net/devstack/+bug/1860033,2020-02-19
+1860033,1860033,Fix Released,Tempest jobs broken on stable branches due to requirements neutron-lib upgrade (the EOLing python2 drama),https://bugs.launchpad.net/tempest/+bug/1860033,2020-02-19
+1856540,1856540,Fix Released,djnago-babel is not compatible with Django 2.2,https://bugs.launchpad.net/horizon/+bug/1856540,2020-02-19
+1838202,1838202,Fix Released,TestMinimumBasicScenario.test_minimum_basic_scenario race fail comparing volume to expected values with updated_at diff,https://bugs.launchpad.net/tempest/+bug/1838202,2020-02-19
+1542169,1542169,Fix Released,purge command fails if volume is deleted but volume-attachment is not deleted,https://bugs.launchpad.net/cinder/+bug/1542169,2020-02-19
+1751418,1751418,Fix Released,test_resize_volume_backed_server_confirm failed when use fixed ip,https://bugs.launchpad.net/tempest/+bug/1751418,2020-02-19
+1830782,1830782,Fix Released,"stein: openstack-dashboard gui not showing  project/users for a selected domain (via ""set domain context) for the admin user.",https://bugs.launchpad.net/horizon/+bug/1830782,2020-02-19
+1863629,1863629,Fix Released,tripleo-ansible ceph roles badly inherrit ansible environment variables,https://bugs.launchpad.net/tripleo/+bug/1863629,2020-02-19
+1862274,1862274,Fix Released,stestr command error in doc/source/contributor/testing.rst,https://bugs.launchpad.net/cinder/+bug/1862274,2020-02-18
+1838522,1838522,Fix Released,Disabled quotas break floating IPs,https://bugs.launchpad.net/horizon/+bug/1838522,2020-02-18
+1862750,1862750,Fix Released,zvm virt driver default hypervisor_version is incorrect,https://bugs.launchpad.net/nova/+bug/1862750,2020-02-18
+1832166,1832166,Fix Released,[FUll Tempest job][master][periodic]3 Tempest tests related to DNS failing,https://bugs.launchpad.net/tripleo/+bug/1832166,2020-02-18
+1818639,1818639,Fix Released,Impossible to change language in user settings to Chinese,https://bugs.launchpad.net/horizon/+bug/1818639,2020-02-18
+1830886,1830886,Fix Released,Taiwanese locale doesn't work,https://bugs.launchpad.net/horizon/+bug/1830886,2020-02-18
+1843478,1843478,Fix Released,Mitigate frequent fixtures._fixtures.timeout.TimeoutException in UTs and FTs,https://bugs.launchpad.net/neutron/+bug/1843478,2020-02-18
+1825291,1825291,Fix Released,TypeError: unhashable type: 'dict' in neutron-vpnaas while deleting routers,https://bugs.launchpad.net/neutron/+bug/1825291,2020-02-18
+1847586,1847586,Fix Released,Loading neutron-lib internationalized file,https://bugs.launchpad.net/neutron/+bug/1847586,2020-02-18
+1833374,1833374,Fix Released,Default behavior is not consistent  while creating  FWaaS-v2 group through  Horizon Dashboard and through CLI command.,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1833374,2020-02-18
+1822277,1822277,Fix Released,UnsupportedOptionError for pool updates with protocol not altered,https://bugs.launchpad.net/networking-ovn/+bug/1822277,2020-02-18
+1789885,1789885,Fix Released,tox cover job failing (< 70%),https://bugs.launchpad.net/networking-ovn/+bug/1789885,2020-02-18
+1794260,1794260,Fix Released,Loadbalancer missing logical switch association,https://bugs.launchpad.net/networking-ovn/+bug/1794260,2020-02-18
+1834453,1834453,Fix Released,Traffic to a FIP assigned to an OVN Load Balancer IP doesn't work,https://bugs.launchpad.net/networking-ovn/+bug/1834453,2020-02-18
+1839834,1839834,Fix Released,OVN migration is missing python3 support,https://bugs.launchpad.net/networking-ovn/+bug/1839834,2020-02-18
+1844792,1844792,Fix Released,Failing pep8 tests in stable/stein,https://bugs.launchpad.net/networking-ovn/+bug/1844792,2020-02-18
+1842901,1842901,Fix Released,LogicalSwitchPortUpdateEvent is failing on octavia gates,https://bugs.launchpad.net/networking-ovn/+bug/1842901,2020-02-18
+1835184,1835184,Fix Released,Cannot specify  fixed vip address when create lb,https://bugs.launchpad.net/networking-ovn/+bug/1835184,2020-02-18
+1850160,1850160,Fix Released,metadata: not working with TLS/SSL OVSDB connections,https://bugs.launchpad.net/networking-ovn/+bug/1850160,2020-02-18
+1853810,1853810,Fix Released,OVN Octavia driver: missing octavia module in requirements,https://bugs.launchpad.net/networking-ovn/+bug/1853810,2020-02-18
+1855672,1855672,Fix Released,OVN Octavia driver: cannot load the driver in stable/stein,https://bugs.launchpad.net/networking-ovn/+bug/1855672,2020-02-18
+1841760,1841760,Fix Released,devstack does not handle double-digit version numbers of ODL,https://bugs.launchpad.net/networking-odl/+bug/1841760,2020-02-18
+1863695,1863695,Fix Released,Create hash_info file with hashes from promoted-components is failing,https://bugs.launchpad.net/tripleo/+bug/1863695,2020-02-18
+1826114,1826114,Fix Released,Errors creating users and projects,https://bugs.launchpad.net/horizon/+bug/1826114,2020-02-18
+1852599,1852599,Fix Released,Cannot delete TLS Terminated listener if container has been deleted in barbican,https://bugs.launchpad.net/octavia/+bug/1852599,2020-02-18
+1861356,1861356,Fix Released,multiple-nics-vlans template should not have InternalAPI network hardcoded,https://bugs.launchpad.net/tripleo/+bug/1861356,2020-02-18
+1854136,1854136,Fix Released,"scenario 1 & 2 standalone timeout  ""Evaluation Error: ... Class[Redis]: parameter 'ulimit' expects an Integer value""",https://bugs.launchpad.net/tripleo/+bug/1854136,2020-02-18
+1854246,1854246,Fix Released,"Dru run broken for ""Set all_nodes data as group_vars""",https://bugs.launchpad.net/tripleo/+bug/1854246,2020-02-18
+1854343,1854343,Fix Released,glance_api_tls_proxy logs are not persisted,https://bugs.launchpad.net/tripleo/+bug/1854343,2020-02-18
+1854377,1854377,Fix Released,Wrong SELinux label on container-puppet.sh,https://bugs.launchpad.net/tripleo/+bug/1854377,2020-02-18
+1854519,1854519,Fix Released,ovn_dbs pacemaker service does not have the correct upgrade steps,https://bugs.launchpad.net/tripleo/+bug/1854519,2020-02-18
+1836074,1836074,Fix Released,octavia config is splitting up common configuration,https://bugs.launchpad.net/tripleo/+bug/1836074,2020-02-18
+1854780,1854780,Fix Released,Cannot create OVS patch port via tripleo heat templates due to sed command in run-os-net-config.sh,https://bugs.launchpad.net/tripleo/+bug/1854780,2020-02-18
+1854846,1854846,Fix Released,Filtering by VIP in /extraconfig/nova_metadata/krb-service-principals/role.role.j2.yaml breaks deployment,https://bugs.launchpad.net/tripleo/+bug/1854846,2020-02-18
+1855732,1855732,Fix Released,[Train] HA: rabbitmq_init_bundle not restart on stack update as expected,https://bugs.launchpad.net/tripleo/+bug/1855732,2020-02-18
+1855802,1855802,Fix Released,"During minor update, tmpwatch is not installed to host system",https://bugs.launchpad.net/tripleo/+bug/1855802,2020-02-18
+1856085,1856085,Fix Released,HA: clustercheck service isn't using container healthcheck,https://bugs.launchpad.net/tripleo/+bug/1856085,2020-02-18
+1856088,1856088,Fix Released,horizon currently doesn't have a container health check defined,https://bugs.launchpad.net/tripleo/+bug/1856088,2020-02-18
+1854704,1854704,Fix Released,rabbitmq tcp backlog can be insufficient,https://bugs.launchpad.net/tripleo/+bug/1854704,2020-02-18
+1855684,1855684,Fix Released,fix stop_grace_period for octavia worker container,https://bugs.launchpad.net/tripleo/+bug/1855684,2020-02-18
+1856060,1856060,Fix Released,ControllerStorageNFS composable role missed CephGrafana resources,https://bugs.launchpad.net/tripleo/+bug/1856060,2020-02-18
+1856062,1856062,Fix Released,scale: failures during scale down,https://bugs.launchpad.net/tripleo/+bug/1856062,2020-02-18
+1856626,1856626,Fix Released,pcsd is listening on all networks available including external networks,https://bugs.launchpad.net/tripleo/+bug/1856626,2020-02-18
+1856278,1856278,Fix Released,"RHEL8 scenario 1 standalone deployment failed with The following containers failed validations and were not started: collectd"" for master and train",https://bugs.launchpad.net/tripleo/+bug/1856278,2020-02-18
+1834325,1834325,Fix Released,Cannot customize resource default operation timeout in HA deployments,https://bugs.launchpad.net/tripleo/+bug/1834325,2020-02-18
+1852385,1852385,Fix Released,Enable configuration option to set reserved_huge_pages,https://bugs.launchpad.net/tripleo/+bug/1852385,2020-02-18
+1856864,1856864,Fix Released,"Not all firewall rules are applied, leading to timeouts",https://bugs.launchpad.net/tripleo/+bug/1856864,2020-02-18
+1856575,1856575,Fix Released,Collect container healthchecks logs in a dedicated file,https://bugs.launchpad.net/tripleo/+bug/1856575,2020-02-18
+1856918,1856918,Fix Released,service_net_map.j2.yaml has invalid jinja logic,https://bugs.launchpad.net/tripleo/+bug/1856918,2020-02-18
+1857356,1857356,Fix Released,Master fs001 centos 7 jobs are timing out on overcloud deploy - log hidden,https://bugs.launchpad.net/tripleo/+bug/1857356,2020-02-18
+1857463,1857463,Fix Released,RHEL8 jobs fails with retry_limit on RDO CI on role remove-build-sshkey,https://bugs.launchpad.net/tripleo/+bug/1857463,2020-02-18
+1858648,1858648,Fix Released,"HA: new container naming scheme ""cluster-common-tag"" make deployment fail",https://bugs.launchpad.net/tripleo/+bug/1858648,2020-02-18
+1858640,1858640,Fix Released,nuage integration broken by assuming existence of standard openvswitch packges,https://bugs.launchpad.net/tripleo/+bug/1858640,2020-02-18
+1858700,1858700,Fix Released,Logrotate limits parameter input can't use hourly,https://bugs.launchpad.net/tripleo/+bug/1858700,2020-02-18
+1858845,1858845,Fix Released,Swift deployment fails if Barbican is enabled,https://bugs.launchpad.net/tripleo/+bug/1858845,2020-02-18
+1859009,1859009,Fix Released,external upgrade triggers systemd migration when unwanted,https://bugs.launchpad.net/tripleo/+bug/1859009,2020-02-18
+1859129,1859129,Fix Released,ComputeSriov's Role-specific parameters are applied to Controller during minor update,https://bugs.launchpad.net/tripleo/+bug/1859129,2020-02-18
+1859175,1859175,Fix Released,Missing any_errors_fatal=true from some plays in deploy_steps_playbook.yaml,https://bugs.launchpad.net/tripleo/+bug/1859175,2020-02-18

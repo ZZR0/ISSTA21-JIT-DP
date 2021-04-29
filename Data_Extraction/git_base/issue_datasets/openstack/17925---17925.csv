@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1686110,1686110,Fix Released,AIDE configuration is set AFTER the initial run,https://bugs.launchpad.net/openstack-ansible/+bug/1686110,2017-10-26
+1691210,1691210,Fix Released,grub2 password set fails when grub config is missing,https://bugs.launchpad.net/openstack-ansible/+bug/1691210,2017-10-26
+1693343,1693343,Fix Released,V-71945 fails on CentOS 7,https://bugs.launchpad.net/openstack-ansible/+bug/1693343,2017-10-26
+1694508,1694508,Fix Released,Check for apparmor in dmesg fails,https://bugs.launchpad.net/openstack-ansible/+bug/1694508,2017-10-26
+1700524,1700524,Fix Released,AIDE isn't getting initialized on RHEL/CentOS/Fedora,https://bugs.launchpad.net/openstack-ansible/+bug/1700524,2017-10-26
+1659232,1659232,Fix Released,openstack-ansible-security task fails if user has no shadow data,https://bugs.launchpad.net/openstack-ansible/+bug/1659232,2017-10-26
+1702182,1702182,Fix Released,ansible-hardening: false positive for sudo NOPASSWD check,https://bugs.launchpad.net/openstack-ansible/+bug/1702182,2017-10-26
+1702571,1702571,Fix Released,ansible-hardening docs are vague about using as standalone,https://bugs.launchpad.net/openstack-ansible/+bug/1702571,2017-10-26
+1702167,1702167,Fix Released,ansible-hardening: provide method to skip epel-release check,https://bugs.launchpad.net/openstack-ansible/+bug/1702167,2017-10-26
+1702183,1702183,Fix Released,ansible-hardening: defaults/main.yml needs reorganized,https://bugs.launchpad.net/openstack-ansible/+bug/1702183,2017-10-26
+1702526,1702526,Fix Released,Setting security_pwquality_apply_rules: yes breaks passwd command,https://bugs.launchpad.net/openstack-ansible/+bug/1702526,2017-10-26
+1704006,1704006,Fix Released,ansible-hardening: audisp tasks checking auditd config,https://bugs.launchpad.net/openstack-ansible/+bug/1704006,2017-10-26
+1715223,1715223,Fix Released,AppArmor task idempotency is broken in ansible-hardening (again),https://bugs.launchpad.net/openstack-ansible/+bug/1715223,2017-10-26
+1715745,1715745,Fix Released,RHEL6 STIG support needs to be removed from ansible-hardening,https://bugs.launchpad.net/openstack-ansible/+bug/1715745,2017-10-26
+1716703,1716703,Fix Released,security_ntp_servers is missing after RHEL 6 STIG removal,https://bugs.launchpad.net/openstack-ansible/+bug/1716703,2017-10-26
+1718772,1718772,Fix Released,RHEL 7 STIG Version 1 Release 2 is available,https://bugs.launchpad.net/openstack-ansible/+bug/1718772,2017-10-26
+1711815,1711815,Fix Released,cephfs devstack plugin should not try to use tempest pin,https://bugs.launchpad.net/manila/+bug/1711815,2017-10-26
+1719965,1719965,Fix Released,iDRAC CI failing due to is-ready timeouts,https://bugs.launchpad.net/ironic/+bug/1719965,2017-10-26
+1727711,1727711,Fix Released,CI pike promotion: deployment fails,https://bugs.launchpad.net/tripleo/+bug/1727711,2017-10-26
+1708560,1708560,Fix Released,Relnotes for Pike contains an entry from a past release,https://bugs.launchpad.net/neutron/+bug/1708560,2017-10-26
+1714384,1714384,Fix Released,pecan is missing the de-dup and empty field stripping logic of the legacy controller,https://bugs.launchpad.net/neutron/+bug/1714384,2017-10-26
+1714386,1714386,Fix Released,Pecan changed delete notification payload,https://bugs.launchpad.net/neutron/+bug/1714386,2017-10-26
+1714381,1714381,Fix Released,pecan is missing some plugin sanity validation for sorting+pagination,https://bugs.launchpad.net/neutron/+bug/1714381,2017-10-26
+1714388,1714388,Fix Released,Pecan is missing the logic to hide authorization failures as 404s,https://bugs.launchpad.net/neutron/+bug/1714388,2017-10-26
+1714389,1714389,Fix Released,Pecan is missing some quota dirtying and resync calls,https://bugs.launchpad.net/neutron/+bug/1714389,2017-10-26
+1714348,1714348,Fix Released,pecan is missing some body validation logic from legacy API,https://bugs.launchpad.net/neutron/+bug/1714348,2017-10-26
+1712107,1712107,Fix Released,Install and configure controller node in neutron,https://bugs.launchpad.net/neutron/+bug/1712107,2017-10-26
+1716943,1716943,Fix Released,"""Cancel"" button in ""Execute workflow"" has wrong CSS",https://bugs.launchpad.net/mistral/+bug/1716943,2017-10-26
+1711069,1711069,Fix Released,Ensure mistral does not use token and project for keystone auth,https://bugs.launchpad.net/mistral/+bug/1711069,2017-10-26
+1712749,1712749,Fix Released,Keycloak auth has no ssl support,https://bugs.launchpad.net/mistral/+bug/1712749,2017-10-26
+1714548,1714548,Fix Released,AdHoc actions with invalid base definitions fail in the engine but leave the task/workflow running,https://bugs.launchpad.net/mistral/+bug/1714548,2017-10-26
+1712133,1712133,Fix Released,Mistral not rendering multiple Jinja expression properly,https://bugs.launchpad.net/mistral/+bug/1712133,2017-10-26
+1716452,1716452,Fix Released,Unit tests for expressions are not running,https://bugs.launchpad.net/mistral/+bug/1716452,2017-10-26
+1694398,1694398,Fix Released,"Endpoint /workbooks doesn't return ""project_id""",https://bugs.launchpad.net/mistral/+bug/1694398,2017-10-26
+1707573,1707573,Fix Released,"/actions endpoint doesn't return ""project_id""",https://bugs.launchpad.net/mistral/+bug/1707573,2017-10-26
+1684469,1684469,Fix Released,Can not get cron trigger instance by id,https://bugs.launchpad.net/mistral/+bug/1684469,2017-10-26
+1721218,1721218,Fix Released,MySQLDb driver for MySQL is not eventlet friendly,https://bugs.launchpad.net/mistral/+bug/1721218,2017-10-26
+1710786,1710786,Fix Released,No translated I18n guide is linked in Korean landing page,https://bugs.launchpad.net/openstack-i18n/+bug/1710786,2017-10-26
+1726434,1726434,Fix Committed,delete router from horizon causes critical error in neutron logs,https://bugs.launchpad.net/neutron/+bug/1726434,2017-10-26
+1715103,1715103,Fix Released,create_nework in central plugin doesn't return tags filed,https://bugs.launchpad.net/tricircle/+bug/1715103,2017-10-26
+1710583,1710583,Fix Released,Fix API Error in get queues list,https://bugs.launchpad.net/zaqar/+bug/1710583,2017-10-26
+1718366,1718366,Fix Released,Install and configure for Ubuntu in zaqar,https://bugs.launchpad.net/zaqar/+bug/1718366,2017-10-26
+1718414,1718414,Fix Released,typo in Installation Guide for Messaging Service,https://bugs.launchpad.net/zaqar/+bug/1718414,2017-10-26
+1711579,1711579,Fix Released,Error connecting to zaqar over IPv6,https://bugs.launchpad.net/zaqar/+bug/1711579,2017-10-26
+1716864,1716864,Fix Released,Deployment doc did not work for non-root user,https://bugs.launchpad.net/zaqar/+bug/1716864,2017-10-26
+1644630,1644630,Fix Released,"Nailgun node status wasn't changed to ""error"" after a deletion of node's networkgroup",https://bugs.launchpad.net/fuel/+bug/1644630,2017-10-26
+1723090,1723090,Fix Released,"tempest failing with ImportError: cannot import name container_client for featuresets 005, 006, 017",https://bugs.launchpad.net/tripleo/+bug/1723090,2017-10-26
+1675469,1675469,Fix Released,NFS/RemoteFS should disallow creation of encrypted volumes,https://bugs.launchpad.net/cinder/+bug/1675469,2017-10-26
+1709547,1709547,Fix Released,fullstack ovsfw tests aren't executed,https://bugs.launchpad.net/neutron/+bug/1709547,2017-10-25
+1709869,1709869,Fix Released,test_convert_default_subnetpool_to_non_default fails: Subnet pool could not be found,https://bugs.launchpad.net/neutron/+bug/1709869,2017-10-25
+1708133,1708133,Fix Released,"when showing  quota-usage details, return NULL",https://bugs.launchpad.net/neutron/+bug/1708133,2017-10-25
+1710064,1710064,Fix Released,agent logs filled with log noise after sinkhole patch,https://bugs.launchpad.net/neutron/+bug/1710064,2017-10-25
+1709938,1709938,Fix Released,DefaultSubnetPoolsTest is racy,https://bugs.launchpad.net/neutron/+bug/1709938,2017-10-25
+1696309,1696309,Fix Released,net-ip-availability-list not support filter by project id,https://bugs.launchpad.net/neutron/+bug/1696309,2017-10-25
+1712388,1712388,Fix Released,Keepalived v1.3.5 failing to assign IP for HA interface,https://bugs.launchpad.net/neutron/+bug/1712388,2017-10-25
+1712278,1712278,Fix Released,Default qos policy doesn't work when creating network,https://bugs.launchpad.net/neutron/+bug/1712278,2017-10-25
+1712594,1712594,Fix Released,test_post_commit_vswitchd_incomplete_timeout fails constsantly,https://bugs.launchpad.net/neutron/+bug/1712594,2017-10-25
+1703059,1703059,Fix Released,DHCP agent should not start metadata ns proxy with vrouter id,https://bugs.launchpad.net/neutron/+bug/1703059,2017-10-25
+1706307,1706307,Fix Released,Tag mechanism supports resources with standard attribute,https://bugs.launchpad.net/neutron/+bug/1706307,2017-10-25
+1703234,1703234,Fix Released,API compare-and-swap updates based on revision_number,https://bugs.launchpad.net/neutron/+bug/1703234,2017-10-25
+1714131,1714131,Fix Released,pecan hooks break on pagination + ID filter,https://bugs.launchpad.net/neutron/+bug/1714131,2017-10-25
+1714378,1714378,Fix Released,Pecan is missing logic to add project_id to fields when tenant_id is specified,https://bugs.launchpad.net/neutron/+bug/1714378,2017-10-25
+1714516,1714516,Fix Released,doc refs to ocata based URLs,https://bugs.launchpad.net/neutron/+bug/1714516,2017-10-25
+1714355,1714355,Fix Released,Pecan missing emulated bulk create,https://bugs.launchpad.net/neutron/+bug/1714355,2017-10-25
+1708358,1708358,Fix Released,"ovsfw ignores icmp_{type,code}",https://bugs.launchpad.net/neutron/+bug/1708358,2017-10-25
+1672922,1672922,Fix Released,iptables: stop 'fixing' kernel sysctl bridge firewalling knobs,https://bugs.launchpad.net/neutron/+bug/1672922,2017-10-25
+1716243,1716243,Fix Released,gw_port not persistent in session for expire call,https://bugs.launchpad.net/neutron/+bug/1716243,2017-10-25
+1704914,1704914,Fix Released,Extend Quota API to report usage statistics,https://bugs.launchpad.net/neutron/+bug/1704914,2017-10-25
+1679999,1679999,Fix Released,Inherit segmentation details for trunk subports if requested,https://bugs.launchpad.net/neutron/+bug/1679999,2017-10-25
+1713590,1713590,Fix Released,Plugging VFs no longer works without a readable phys_switch_id,https://bugs.launchpad.net/neutron/+bug/1713590,2017-10-25
+1715629,1715629,Fix Released,External hyperlink broken on L2 Networking with SR-IOV enabled NICs in neutron,https://bugs.launchpad.net/neutron/+bug/1715629,2017-10-25
+1712787,1712787,Fix Released,Documentation link broken on Open vSwitch L2 Agent in neutron,https://bugs.launchpad.net/neutron/+bug/1712787,2017-10-25
+1708465,1708465,Fix Released,Neutron duplicated provider rule for ICMPv6 Router Advertisements,https://bugs.launchpad.net/neutron/+bug/1708465,2017-10-25
+1719275,1719275,Fix Released,"Linux Bridge bridge_mappings, remove unnecessary logic to retrieve bridge name",https://bugs.launchpad.net/neutron/+bug/1719275,2017-10-25
+1718819,1718819,Fix Released,The linked page does not exist,https://bugs.launchpad.net/neutron/+bug/1718819,2017-10-25

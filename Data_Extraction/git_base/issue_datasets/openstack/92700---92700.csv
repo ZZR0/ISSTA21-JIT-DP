@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+973442,973442,Fix Released,Openstack does not free fixed IPs when instances are removed,https://bugs.launchpad.net/nova/+bug/973442,2012-12-19
+1078588,1078588,Fix Released,provide details for tenant routers use case,https://bugs.launchpad.net/openstack-manuals/+bug/1078588,2012-12-19
+1073313,1073313,Fix Released,nova-manage network commands only when n-net enabled,https://bugs.launchpad.net/devstack/+bug/1073313,2012-12-19
+1048296,1048296,Fix Released,openstack-config command does not exist,https://bugs.launchpad.net/openstack-manuals/+bug/1048296,2012-12-19
+865448,865448,Fix Released,Keystone failed to find top directory for templates,https://bugs.launchpad.net/keystone/+bug/865448,2012-12-19
+802894,802894,Fix Released,Security group no effect....,https://bugs.launchpad.net/nova/+bug/802894,2012-12-19
+802573,802573,Fix Released,Glance flags need to be updated,https://bugs.launchpad.net/openstack-manuals/+bug/802573,2012-12-19
+1078526,1078526,Fix Released,Unable to view the openstack login after installing dashboard,https://bugs.launchpad.net/horizon/+bug/1078526,2012-12-18
+1091674,1091674,Fix Released,Basic Install guide bug - source.d should be sources.d,https://bugs.launchpad.net/openstack-manuals/+bug/1091674,2012-12-18
+1089695,1089695,Fix Released,Glance configuration docs in trunk missing important config change,https://bugs.launchpad.net/openstack-manuals/+bug/1089695,2012-12-18
+1089700,1089700,Fix Released,Keystone certs are not regenerated on restack,https://bugs.launchpad.net/devstack/+bug/1089700,2012-12-18
+1091316,1091316,Fix Released,Worker should not change case of JSON fields,https://bugs.launchpad.net/libra/+bug/1091316,2012-12-17
+984977,984977,Fix Released,MySQL installed when keystone is installed,https://bugs.launchpad.net/openstack-manuals/+bug/984977,2012-12-17
+967402,967402,Fix Released,Document migration path from Diablo to Essex,https://bugs.launchpad.net/openstack-manuals/+bug/967402,2012-12-17
+1043935,1043935,Fix Released,Document template substitution in config file values,https://bugs.launchpad.net/openstack-manuals/+bug/1043935,2012-12-17
+995811,995811,Fix Released,updated prettytable api,https://bugs.launchpad.net/python-keystoneclient/+bug/995811,2012-12-16
+884263,884263,Fix Released,Most of the unit tests are still using instance_ids instead of UUIDs,https://bugs.launchpad.net/nova/+bug/884263,2012-12-15
+863528,863528,Fix Released,"Weights for LeastCost functions should be floats, not ints",https://bugs.launchpad.net/nova/+bug/863528,2012-12-15
+1043980,1043980,Fix Released,Quantum smoke tests do not target running VMs,https://bugs.launchpad.net/tempest/+bug/1043980,2012-12-15
+1088515,1088515,Fix Released,"ListImagesTest.test_index_no_params is checking by the list length, not the images identity",https://bugs.launchpad.net/tempest/+bug/1088515,2012-12-14
+1089992,1089992,Fix Released,Client create can't specify algorithm,https://bugs.launchpad.net/libra/+bug/1089992,2012-12-14
+1089764,1089764,Fix Released,boto tests spend extraordinarily long time timing out and then skip,https://bugs.launchpad.net/tempest/+bug/1089764,2012-12-14
+1088345,1088345,Fix Released,Enable a floating IP negative tests skipped due to bug  957706 test_floating_ips_actions.py,https://bugs.launchpad.net/tempest/+bug/1088345,2012-12-14
+1057059,1057059,Fix Released,Task: Document keystone middleware situation in operator docs,https://bugs.launchpad.net/openstack-manuals/+bug/1057059,2012-12-13
+1076769,1076769,Fix Released,Unclear <user> as variable in Swift install/config instructions,https://bugs.launchpad.net/openstack-manuals/+bug/1076769,2012-12-13
+1089381,1089381,Fix Released,compute.DISK_CONFIG_ENABLED cannot be overridden,https://bugs.launchpad.net/tempest/+bug/1089381,2012-12-13
+1090007,1090007,Fix Released,boot_from_volume test has volume size hard-coded to 1,https://bugs.launchpad.net/devstack/+bug/1090007,2012-12-13
+917245,917245,Fix Released,nova-compute stacktrace in log when reattaching same volume,https://bugs.launchpad.net/nova/+bug/917245,2012-12-13
+1089763,1089763,Fix Released,paramiko should be listed in tools/pip-requires,https://bugs.launchpad.net/tempest/+bug/1089763,2012-12-13
+740393,740393,Fix Released,Remove fake glance client from nova/tests/image/test_glance.py,https://bugs.launchpad.net/nova/+bug/740393,2012-12-13
+992226,992226,Fix Released,libvirt package apparently not installed for nova unittest builder,https://bugs.launchpad.net/openstack-ci/+bug/992226,2012-12-13
+992226,992226,Fix Released,libvirt package apparently not installed for nova unittest builder,https://bugs.launchpad.net/nova/+bug/992226,2012-12-13
+833499,833499,Fix Released,virt/disk.py unconditionally inserts  public_keys into /root/.ssh/authorized_keys,https://bugs.launchpad.net/nova/+bug/833499,2012-12-13
+1089762,1089762,Fix Released,Self-signed certs should not kill tests,https://bugs.launchpad.net/tempest/+bug/1089762,2012-12-13
+1026539,1026539,Fix Released,instance_id still used in live_migration calls,https://bugs.launchpad.net/nova/+bug/1026539,2012-12-13
+1089891,1089891,Fix Released,Client needs an error handler,https://bugs.launchpad.net/libra/+bug/1089891,2012-12-13
+1089889,1089889,Fix Released,Client should support /loadbalancers?status=DELETED,https://bugs.launchpad.net/libra/+bug/1089889,2012-12-13
+1089835,1089835,Fix Released,Client should support /algorithms and /protocols,https://bugs.launchpad.net/libra/+bug/1089835,2012-12-13
+907563,907563,Fix Released,Object Storage API document does not contain expiring objects,https://bugs.launchpad.net/openstack-manuals/+bug/907563,2012-12-12
+1089544,1089544,Fix Released,Error in rest_client when checking for response body,https://bugs.launchpad.net/tempest/+bug/1089544,2012-12-12
+1088801,1088801,Fix Released,q-svc failed to start if token_format is UUID,https://bugs.launchpad.net/devstack/+bug/1088801,2012-12-12
+1089388,1089388,Fix Released,formatting errors in exceptions.py,https://bugs.launchpad.net/tempest/+bug/1089388,2012-12-12
+1089374,1089374,Fix Released,NameError: global name 'exception' is not defined,https://bugs.launchpad.net/tempest/+bug/1089374,2012-12-12
+1085821,1085821,Fix Released,Add Cinder tests for Volume Types and Volume Types extra specs,https://bugs.launchpad.net/tempest/+bug/1085821,2012-12-12
+890672,890672,Fix Released,ovs_quantum_agent should use sqlalchemy,https://bugs.launchpad.net/neutron/+bug/890672,2012-12-12
+903581,903581,Fix Released,etc/quantum.conf.sample is not valid,https://bugs.launchpad.net/neutron/+bug/903581,2012-12-12
+903684,903684,Fix Released,import_class and import_object defined twice in utils.py,https://bugs.launchpad.net/neutron/+bug/903684,2012-12-12
+798261,798261,Fix Released,Quantum API fails to generate JSON Faults,https://bugs.launchpad.net/neutron/+bug/798261,2012-12-12
+800466,800466,Fix Released,OVS plugin allows VMs to communicate when no logical connectivity exists,https://bugs.launchpad.net/neutron/+bug/800466,2012-12-12
+804237,804237,Fix Released,Avoid loading plugin multiple times,https://bugs.launchpad.net/neutron/+bug/804237,2012-12-12
+802892,802892,Fix Released,Remove unused configuration file,https://bugs.launchpad.net/neutron/+bug/802892,2012-12-12
+797419,797419,Fix Released,Quantum routes error on RHEL,https://bugs.launchpad.net/neutron/+bug/797419,2012-12-12
+814517,814517,Fix Released,XML serializer adds extra spaces / newlines to text,https://bugs.launchpad.net/neutron/+bug/814517,2012-12-12
+814012,814012,Fix Released,Malformed XML request body causes 500 error,https://bugs.launchpad.net/neutron/+bug/814012,2012-12-12
+817813,817813,Fix Released,Default plugin in the plugins.ini,https://bugs.launchpad.net/neutron/+bug/817813,2012-12-12
+817826,817826,Fix Released,Incorrect param name in cli.py,https://bugs.launchpad.net/neutron/+bug/817826,2012-12-12
+818321,818321,Fix Released,Inconsistent deserialization of integers,https://bugs.launchpad.net/neutron/+bug/818321,2012-12-12
+814518,814518,Fix Released,Request body parser should reject body with invalid elements,https://bugs.launchpad.net/neutron/+bug/814518,2012-12-12
+822890,822890,Fix Released,"Quantum project is missing any sort of ""LICENSE"" file that is needed to ensure that we meet ""legalese"" requirements.",https://bugs.launchpad.net/neutron/+bug/822890,2012-12-12
+802772,802772,Fix Released,openvswitch plugin doesn't raise exceptions even under exception condition,https://bugs.launchpad.net/neutron/+bug/802772,2012-12-12
+824145,824145,Fix Released,Quantum needs a setup script,https://bugs.launchpad.net/neutron/+bug/824145,2012-12-12
+821733,821733,Fix Released,Undefined variable in cli.py,https://bugs.launchpad.net/neutron/+bug/821733,2012-12-12
+827272,827272,Fix Released,collection actions for PUT and DELETE methods on resource extension routes to update and delete action of the resource.,https://bugs.launchpad.net/neutron/+bug/827272,2012-12-12
+837174,837174,Fix Released,%(tenant_id)s referenced in unit tests logging statement but doesn't exist in locals(),https://bugs.launchpad.net/neutron/+bug/837174,2012-12-12
+833163,833163,Fix Released,Pep8 Violations in recent packaging changes that were merged into the trunk,https://bugs.launchpad.net/neutron/+bug/833163,2012-12-12
+813433,813433,Fix Released,Align API implementation with specifcation,https://bugs.launchpad.net/neutron/+bug/813433,2012-12-12
+834491,834491,Fix Released,api alignment merge broke ovs plugin,https://bugs.launchpad.net/neutron/+bug/834491,2012-12-12
+834694,834694,Fix Released,Integrity error when deleting a network with ports,https://bugs.launchpad.net/neutron/+bug/834694,2012-12-12
+835216,835216,Fix Released,Arg values not being populated in exceptions report by CLI,https://bugs.launchpad.net/neutron/+bug/835216,2012-12-12
+834449,834449,Fix Released,Plugin gets loaded twice,https://bugs.launchpad.net/neutron/+bug/834449,2012-12-12
+834008,834008,Fix Released,Remove weak pattern in API,https://bugs.launchpad.net/neutron/+bug/834008,2012-12-12
+841982,841982,Fix Released,API: list ports op apparently succeeds even if network does not exist,https://bugs.launchpad.net/neutron/+bug/841982,2012-12-12
+838318,838318,Fix Released,Providing Quantum database unit tests,https://bugs.launchpad.net/neutron/+bug/838318,2012-12-12
+838006,838006,Fix Released,Keystone support in Client library,https://bugs.launchpad.net/neutron/+bug/838006,2012-12-12
+837752,837752,Fix Released,Multi-nic support not functioning (for Cisco Plugin),https://bugs.launchpad.net/neutron/+bug/837752,2012-12-12

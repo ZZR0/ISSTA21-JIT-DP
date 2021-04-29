@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1575702,1575702,Fix Released,Docu links in README delivers 404,https://bugs.launchpad.net/openstack-salt/+bug/1575702,2016-04-27
+1553077,1553077,Fix Released,deployment of 9.0.system_test.ubuntu.ha_neutron_tun failed due to missing rabbimq binary on a node,https://bugs.launchpad.net/fuel/+bug/1553077,2016-04-27
+1532851,1532851,Fix Committed,Need to update years in Copyright information,https://bugs.launchpad.net/fuel/+bug/1532851,2016-04-27
+1538233,1538233,Fix Released,Fuel does not allow to deploy environments without controllers,https://bugs.launchpad.net/fuel/+bug/1538233,2016-04-27
+1572442,1572442,Fix Released,tempest.scenario.ha_router_rescheduling should only apply  to alive agents.,https://bugs.launchpad.net/tempest/+bug/1572442,2016-04-27
+1522267,1522267,Fix Released,Details of v3 token validation incorrect,https://bugs.launchpad.net/openstack-api-site/+bug/1522267,2016-04-27
+1567238,1567238,Fix Released,"[Identity API v2.0 extensions] ""users"" and ""users_links"" are missed in Response Parameters Table for listing all users",https://bugs.launchpad.net/openstack-api-site/+bug/1567238,2016-04-27
+1560451,1560451,Fix Released,Fix the Response parameter at the Volume types api's,https://bugs.launchpad.net/openstack-api-site/+bug/1560451,2016-04-27
+1564400,1564400,Fix Released,network interconnection with routers doesn't work anymore when bgpvpn/bagpipe is enabled,https://bugs.launchpad.net/bgpvpn/+bug/1564400,2016-04-27
+1564400,1564400,Fix Released,network interconnection with routers doesn't work anymore when bgpvpn/bagpipe is enabled,https://bugs.launchpad.net/networking-bagpipe/+bug/1564400,2016-04-27
+1561969,1561969,Fix Released,system_test with reduced_footprint spawning vm's are failed with TimeoutError,https://bugs.launchpad.net/fuel/+bug/1561969,2016-04-27
+1575522,1575522,Fix Released,Missing response parameter,https://bugs.launchpad.net/openstack-api-site/+bug/1575522,2016-04-27
+1480914,1480914,Fix Released,Add Ceph/RBD support to playbooks,https://bugs.launchpad.net/openstack-ansible/+bug/1480914,2016-04-27
+1560021,1560021,Fix Released,Hot-pluggable plugins: deployment failed on boot_time calculation,https://bugs.launchpad.net/fuel/+bug/1560021,2016-04-27
+1565061,1565061,Fix Released,Deployment Info on nodes doesn't contain plugins' data,https://bugs.launchpad.net/fuel/+bug/1565061,2016-04-27
+1556068,1556068,Fix Released,Glance upload image returns before image became available for usage,https://bugs.launchpad.net/fuel/+bug/1556068,2016-04-27
+1533650,1533650,Fix Released,Cinder backup feature is not enabled on the horizon UI,https://bugs.launchpad.net/fuel/+bug/1533650,2016-04-27
+1563266,1563266,Fix Released,Test cases for huge pages and cpu pinning throw an error,https://bugs.launchpad.net/fuel/+bug/1563266,2016-04-27
+1541777,1541777,Fix Released,Snapshot is missing pacemaker logs from controllers,https://bugs.launchpad.net/fuel/+bug/1541777,2016-04-27
+1558598,1558598,Fix Released,[qa] [sriov] To validate SR-IOV we need ixgbevf drivers in Cirros,https://bugs.launchpad.net/fuel/+bug/1558598,2016-04-27
+1530898,1530898,Fix Released,Failed test verify-python-fuelclient,https://bugs.launchpad.net/fuel/+bug/1530898,2016-04-27
+1567277,1567277,Fix Committed,Failed fuel-web tests for 6.1,https://bugs.launchpad.net/fuel/+bug/1567277,2016-04-27
+1528761,1528761,Fix Released,"Fix wrong parameters at the ""List volumes with details"" of ""Volumes (volumes)""",https://bugs.launchpad.net/openstack-api-site/+bug/1528761,2016-04-27
+1565760,1565760,Fix Released,Error on  applying tasks for service reconfiguration,https://bugs.launchpad.net/fuel/+bug/1565760,2016-04-27
+1570969,1570969,Fix Committed,test for osnailyfacter url_available tries to connect to external hosts,https://bugs.launchpad.net/fuel/+bug/1570969,2016-04-27
+1562766,1562766,Fix Released,Wrong value of xsd:boolean type,https://bugs.launchpad.net/openstack-api-site/+bug/1562766,2016-04-27
+1533932,1533932,Fix Released,Remove the deprecated opts from sample config breaking zaqar,https://bugs.launchpad.net/keystonemiddleware/+bug/1533932,2016-04-26
+1575317,1575317,Fix Released,Two 'when' conditions on one task in libvirt/setup/overcloud/tasks/main.yml,https://bugs.launchpad.net/tripleo-quickstart/+bug/1575317,2016-04-26
+1573873,1573873,Fix Released,'tempest init cloud-01' shows an error on clean env,https://bugs.launchpad.net/tempest/+bug/1573873,2016-04-26
+1574676,1574676,Fix Committed,Warning: Scope(Class[main]): Can't load /var/www/nailgun/bootstraps/active_bootstrap/metadata.yaml. File does not exist!,https://bugs.launchpad.net/fuel/+bug/1574676,2016-04-26
+1575234,1575234,Fix Released,tripleo-quickstart does not fail when md5checksum mismatch occurs against undercloud image,https://bugs.launchpad.net/tripleo-quickstart/+bug/1575234,2016-04-26
+1574674,1574674,Fix Committed,Warning: Scope(Class[main]): Could not look up qualified variable '::acpid_version',https://bugs.launchpad.net/fuel/+bug/1574674,2016-04-26
+1528707,1528707,Fix Released,[networking_templates] RabbitMQ server uses 'management' network for replication even if 'mgmt/messaging' role is assigned to another network,https://bugs.launchpad.net/fuel/+bug/1528707,2016-04-26
+1572110,1572110,Fix Committed,Execution of modular tasks for centos compute failed,https://bugs.launchpad.net/fuel/+bug/1572110,2016-04-26
+1541397,1541397,Fix Released,Rabbit logs are missing syslog matcher after the messaging prefix was introduced,https://bugs.launchpad.net/fuel/+bug/1541397,2016-04-26
+1548271,1548271,Fix Released,Access denied for user 'root'@'localhost'/Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock errors during cluster deployment,https://bugs.launchpad.net/fuel/+bug/1548271,2016-04-26
+1532804,1532804,Fix Committed,Duplicate messages about plugins after successful deployment,https://bugs.launchpad.net/fuel/+bug/1532804,2016-04-26
+1570333,1570333,Fix Released,dpkg-preconfigure pbuilder deadlocks the build process on isolated environment,https://bugs.launchpad.net/fuel/+bug/1570333,2016-04-26
+1534560,1534560,Fix Released,Upstream sync the rabbitmq puppet module to remove it downstream to be managed by puppet-librarian,https://bugs.launchpad.net/fuel/+bug/1534560,2016-04-26
+1539170,1539170,Fix Released,Use custom pid file for the rabbimq to not interfere with the murano rabbit instance,https://bugs.launchpad.net/fuel/+bug/1539170,2016-04-26
+1541029,1541029,Fix Released,Controller replacement fails: RabbitMQ goes down after node deletion,https://bugs.launchpad.net/fuel/+bug/1541029,2016-04-26
+1552359,1552359,Fix Committed,please create a package of firefox v42,https://bugs.launchpad.net/fuel/+bug/1552359,2016-04-26
+1515841,1515841,Fix Released,Link rot in identity-api-v3-os-inherit-ext,https://bugs.launchpad.net/keystone/+bug/1515841,2016-04-26
+1571542,1571542,Fix Released,Error applying openstack configuration: message() got an unexpected keyword argument 'cluster',https://bugs.launchpad.net/fuel/+bug/1571542,2016-04-26
+1551677,1551677,Fix Released,create puppet role with pinned firefox version,https://bugs.launchpad.net/fuel/+bug/1551677,2016-04-26
+1566880,1566880,Fix Committed,packages CI failed due to Could not update packages,https://bugs.launchpad.net/fuel/+bug/1566880,2016-04-26
+1569893,1569893,Fix Released,[ostf] [heat] OSTF Heat tests failed because of incorrect check of heat-api services count,https://bugs.launchpad.net/fuel/+bug/1569893,2016-04-26
+1512607,1512607,Fix Released,Create a plugin project for fuel-plugin-detach-swift,https://bugs.launchpad.net/fuel/+bug/1512607,2016-04-26
+1558523,1558523,Fix Released,Create a Fuel Plugin fuel-plugin-detach-haproxy project in /Openstack,https://bugs.launchpad.net/fuel/+bug/1558523,2016-04-26
+1560908,1560908,Fix Released,[ironic] Installation test failed due to absence of ironic-lib dependency,https://bugs.launchpad.net/fuel/+bug/1560908,2016-04-26
+1559050,1559050,Fix Released,FuelMasterMigrate fails on step add nodes,https://bugs.launchpad.net/fuel/+bug/1559050,2016-04-26
+1544460,1544460,Fix Released,"[OSTF][Sahara] Sahara OSTF tests for 9.0 failed with ""hadoop_version: null""",https://bugs.launchpad.net/fuel/+bug/1544460,2016-04-26
+1535567,1535567,Fix Released,[Sahara][OSTF] Sahara OSTF tests failed because of service_type has been changed,https://bugs.launchpad.net/fuel/+bug/1535567,2016-04-26
+1573482,1573482,Fix Released,[Contrail 3.0.1] Deploy failed,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1573482,2016-04-26
+1574627,1574627,Fix Released,don't install vagrant-vbguest plugin when not using vbox,https://bugs.launchpad.net/solar/+bug/1574627,2016-04-26
+1541871,1541871,Fix Committed,[fuel-main] Unable to build iso in isolated env,https://bugs.launchpad.net/fuel/+bug/1541871,2016-04-26
+1544119,1544119,Fix Released,fuel-centos-build - unable to build iso in isolated env,https://bugs.launchpad.net/fuel/+bug/1544119,2016-04-26
+1540516,1540516,Fix Released,Update min tox version to 2.3.1,https://bugs.launchpad.net/fuel/+bug/1540516,2016-04-26
+1573507,1573507,Fix Committed,Reexecute_on conditions should be deleted from tasks,https://bugs.launchpad.net/fuel/+bug/1573507,2016-04-26
+1570323,1570323,Fix Committed,Invalid RabbitMQ conf options,https://bugs.launchpad.net/fuel/+bug/1570323,2016-04-26
+1543468,1543468,Fix Released,KeyError: 'cadf_event' in keystonemiddleware repository,https://bugs.launchpad.net/fuel/+bug/1543468,2016-04-26
+1570297,1570297,Fix Committed,Remove heat-engine from pacemaker control,https://bugs.launchpad.net/fuel/+bug/1570297,2016-04-26
+1566811,1566811,Fix Released,"[fuel-ci] 9.0.all doesn't trigger the ""trigger-external-events"" job",https://bugs.launchpad.net/fuel/+bug/1566811,2016-04-26
+1572546,1572546,Fix Released,networking-onos pep8 failed due to unavailability of i18n.py,https://bugs.launchpad.net/networking-onos/+bug/1572546,2016-04-26
+1571458,1571458,Fix Released,[Protection Plans] Submit index view function,https://bugs.launchpad.net/karbor-dashboard/+bug/1571458,2016-04-26
+1571474,1571474,Fix Released,Add fullstack test to smaug,https://bugs.launchpad.net/karbor/+bug/1571474,2016-04-26
+1572503,1572503,Fix Released,TCP ALL rule,https://bugs.launchpad.net/dragonflow/+bug/1572503,2016-04-25
+1560088,1560088,Fix Released,Signed image validation,https://bugs.launchpad.net/openstack-manuals/+bug/1560088,2016-04-25
+1552115,1552115,Fix Released,NSXv LBaaS driver Failed to re-start HA-Load-Balancer,https://bugs.launchpad.net/neutron/+bug/1552115,2016-04-25
+1574176,1574176,Fix Released,API doc reference missing version details for v3,https://bugs.launchpad.net/openstack-api-site/+bug/1574176,2016-04-25
+1569775,1569775,Fix Released,Filter NUMATopologyFilter is missed for HugePage deployment,https://bugs.launchpad.net/fuel/+bug/1569775,2016-04-25
+1574620,1574620,Fix Released,stack delete is broken in ping test on liberty,https://bugs.launchpad.net/tripleo-quickstart/+bug/1574620,2016-04-25
+1570397,1570397,Fix Released,Better logging of exceptions,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1570397,2016-04-25
+1573032,1573032,Fix Released,py gate tests are broken due to stale requirements,https://bugs.launchpad.net/bareon/+bug/1573032,2016-04-25
+1530296,1530296,Fix Released,Wrong log message from rabbit OCF when joining by a node,https://bugs.launchpad.net/fuel/+bug/1530296,2016-04-25

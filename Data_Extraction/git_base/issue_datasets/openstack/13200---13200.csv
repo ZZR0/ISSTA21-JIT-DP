@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1738663,1738663,Fix Released,"Needing to run ""openstack overcloud container image prepare"" twice is confusing and complicated",https://bugs.launchpad.net/tripleo/+bug/1738663,2018-05-18
+1766850,1766850,Fix Released,Use squashfs for more recent Ubuntu releases,https://bugs.launchpad.net/diskimage-builder/+bug/1766850,2018-05-18
+1688518,1688518,Fix Released,"Mistralclient - TypeError: object.__new__(thread.lock) is not safe, use thread.lock.__new__()",https://bugs.launchpad.net/tripleo/+bug/1688518,2018-05-18
+1688518,1688518,Fix Released,"Mistralclient - TypeError: object.__new__(thread.lock) is not safe, use thread.lock.__new__()",https://bugs.launchpad.net/mistral/+bug/1688518,2018-05-18
+1707993,1707993,Fix Released,EndpointData.url should regurgitate my endpoint_override,https://bugs.launchpad.net/keystoneauth/+bug/1707993,2018-05-18
+1771761,1771761,Fix Released,trait functional tests fail due to changed error message from placement,https://bugs.launchpad.net/placement-osc-plugin/+bug/1771761,2018-05-18
+1751592,1751592,Fix Released,Job mistral-docker-buildimage broken,https://bugs.launchpad.net/mistral/+bug/1751592,2018-05-18
+1715837,1715837,Fix Released,ubuntu pike use ceph luminous packages,https://bugs.launchpad.net/kolla/+bug/1715837,2018-05-18
+1674483,1674483,Fix Released,Bifrost failing because of missing SUDO_USER,https://bugs.launchpad.net/kolla/+bug/1674483,2018-05-18
+1401336,1401336,Fix Released,wb_service util used in tests should include a remove_workbook method for tearDown in tests.,https://bugs.launchpad.net/mistral/+bug/1401336,2018-05-18
+1770692,1770692,Fix Released,potential for pacemaker version mismatch (BM vs.container) is a risk for OC deploy failures in gates,https://bugs.launchpad.net/tripleo/+bug/1770692,2018-05-18
+1682726,1682726,Fix Released,Remove unused sort key export_location from list CLI,https://bugs.launchpad.net/manila/+bug/1682726,2018-05-18
+1727779,1727779,Fix Released,[docs] Bad redirects on all the deploy guides,https://bugs.launchpad.net/openstack-ansible/+bug/1727779,2018-05-17
+1757966,1757966,Fix Released,Mistral server consumes more memory over time,https://bugs.launchpad.net/mistral/+bug/1757966,2018-05-17
+1770143,1770143,Fix Released,Nova Console setup broken,https://bugs.launchpad.net/devstack/+bug/1770143,2018-05-17
+1758955,1758955,Fix Released,"workers api-ref documents ""host"" incorrectly",https://bugs.launchpad.net/cinder/+bug/1758955,2018-05-17
+1771686,1771686,Fix Released,tripleo-ci-centos-7-scenario000-multinode-oooq-container-updates failing on update because of no hosts,https://bugs.launchpad.net/tripleo/+bug/1771686,2018-05-16
+1719260,1719260,Fix Released,Run ironic api under uwsgi,https://bugs.launchpad.net/ironic/+bug/1719260,2018-05-16
+1771551,1771551,Fix Released,Containers multinode jobs fails on stable pike because of pacemaker,https://bugs.launchpad.net/tripleo/+bug/1771551,2018-05-16
+1748263,1748263,Fix Released,ironic-inspector: traceback when 'noauth' plugin is used,https://bugs.launchpad.net/ironic-inspector/+bug/1748263,2018-05-16
+1748022,1748022,Fix Released,Introspection fails when LLDP Chassis ID is not a MAC address,https://bugs.launchpad.net/ironic-inspector/+bug/1748022,2018-05-16
+1693129,1693129,Fix Released,test_failure_to_write case is not working when executing with root user,https://bugs.launchpad.net/ironic-inspector/+bug/1693129,2018-05-16
+1751472,1751472,Fix Released,InventoryInUse exception is periodically logged as ERROR,https://bugs.launchpad.net/nova/+bug/1751472,2018-05-16
+1760898,1760898,Fix Released,Deploy step no-op remains in plan env after minor update,https://bugs.launchpad.net/tripleo/+bug/1760898,2018-05-16
+1765843,1765843,Fix Released,config-download files missing from CI logging,https://bugs.launchpad.net/tripleo/+bug/1765843,2018-05-16
+1768337,1768337,Fix Released,tripleoclient unit test fails on nic validation,https://bugs.launchpad.net/tripleo/+bug/1768337,2018-05-16
+1735687,1735687,Fix Released,Not able to list the compute_nodes mapped under single cell using nova-manage,https://bugs.launchpad.net/nova/+bug/1735687,2018-05-16
+1769826,1769826,Fix Committed,Very high memory usage for vitrage-graph process,https://bugs.launchpad.net/vitrage/+bug/1769826,2018-05-15
+1754093,1754093,Fix Released,The CLI doesn't show users errors returned by the API,https://bugs.launchpad.net/mistral/+bug/1754093,2018-05-15
+1767317,1767317,Fix Released,[update/upgrade/ffwd] no-op removal does not take effect,https://bugs.launchpad.net/tripleo/+bug/1767317,2018-05-15
+1771233,1771233,Fix Released,te-broker errors in tripleo 3rd party jobs,https://bugs.launchpad.net/tripleo/+bug/1771233,2018-05-15
+1771107,1771107,Fix Committed,unit test networking_bgpvpn.tests.unit.extensions.test_bgpvpn.BgpvpnExtensionTestCase.test_bgpvpn_list fails,https://bugs.launchpad.net/bgpvpn/+bug/1771107,2018-05-15
+1767473,1767473,Fix Released,Add config option for Barbican endpoint interface,https://bugs.launchpad.net/castellan/+bug/1767473,2018-05-15
+1747936,1747936,Fix Released,Host is not unmapped when the host_mapping is deleted during delete_cell operation,https://bugs.launchpad.net/nova/+bug/1747936,2018-05-15
+1752917,1752917,Fix Released,inappropriate mocking in openstack_dashboard/test/unit/api/rest/test_*.py,https://bugs.launchpad.net/horizon/+bug/1752917,2018-05-15
+1770664,1770664,Fix Committed,[Netvirt] test_subport_connectivity fails in ODL deployment,https://bugs.launchpad.net/neutron/+bug/1770664,2018-05-14
+1747506,1747506,Fix Released,"""Ports"" tab in ""Add Firewall Group"" provides too poor GUI",https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1747506,2018-05-14
+1747515,1747515,Fix Released,"""Rules"" in ""Policy detail"" refers non-existing attribute ""position""",https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1747515,2018-05-14
+1728838,1728838,Fix Released,'ip_version' doesn't exist in detail firewall rule view,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1728838,2018-05-14
+1747524,1747524,Fix Released,Firewall group table cannot be displayed when a group is associated with port(s),https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1747524,2018-05-14
+1728835,1728835,Fix Released,Show detail firewall group doesn't include 'ports' attribute,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1728835,2018-05-14
+1747500,1747500,Fix Released,SCSS entries specific to fwaas was not migrated from horizon,https://bugs.launchpad.net/horizon/+bug/1747500,2018-05-14
+1747500,1747500,Fix Released,SCSS entries specific to fwaas was not migrated from horizon,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1747500,2018-05-14
+1753504,1753504,Fix Released,Remove mox/mox3 usage from testing,https://bugs.launchpad.net/networking-midonet/+bug/1753504,2018-05-14
+1753504,1753504,Fix Released,Remove mox/mox3 usage from testing,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1753504,2018-05-14
+1753504,1753504,Fix Released,Remove mox/mox3 usage from testing,https://bugs.launchpad.net/neutron-vpnaas-dashboard/+bug/1753504,2018-05-14
+1753504,1753504,Fix Released,Remove mox/mox3 usage from testing,https://bugs.launchpad.net/python-neutronclient/+bug/1753504,2018-05-14
+1764997,1764997,Fix Released,VPP uplink interface is erroneously added to the list of SNAT out interfaces,https://bugs.launchpad.net/networking-vpp/+bug/1764997,2018-05-14
+1760878,1760878,Fix Released,"galera_server: Reveals galera passwords in task: ""Create galera users""",https://bugs.launchpad.net/openstack-ansible/+bug/1760878,2018-05-14
+1763479,1763479,Fix Released,Kernel post-installation script which makes kernel readable to Nova is broken,https://bugs.launchpad.net/openstack-ansible/+bug/1763479,2018-05-14
+1715888,1715888,Fix Released,Conflicts between OS python packages and pip packages,https://bugs.launchpad.net/openstack-ansible/+bug/1715888,2018-05-14
+1770947,1770947,Fix Released,Ci: periodic jobs fails because of centos-release-qemu-ev release not removed,https://bugs.launchpad.net/tripleo/+bug/1770947,2018-05-14
+1736739,1736739,Fix Released,Machines attached to isolated network are able to reach VMs attached to other networks,https://bugs.launchpad.net/neutron/+bug/1736739,2018-05-14
+1768354,1768354,Fix Released,dib fails when using custom apt-sources,https://bugs.launchpad.net/diskimage-builder/+bug/1768354,2018-05-14
+1671409,1671409,Fix Released,"Devstack installation failing with ""Permission denied""",https://bugs.launchpad.net/devstack/+bug/1671409,2018-05-14
+1666831,1666831,Fix Released,Nova recreates instance directory after migration/resize,https://bugs.launchpad.net/nova/+bug/1666831,2018-05-12
+1728603,1728603,Fix Released,Resize a boot-from-volume instance with NFS destroys instance,https://bugs.launchpad.net/nova/+bug/1728603,2018-05-12
+1633033,1633033,Fix Released,live migration with encrypted volume fails,https://bugs.launchpad.net/nova/+bug/1633033,2018-05-11
+1770593,1770593,Fix Released,Wrong endpoint interface in gnocchi scenarios execution,https://bugs.launchpad.net/rally/+bug/1770593,2018-05-11
+1697007,1697007,Fix Released,OVB devmode does not inject repos into the overcloud image,https://bugs.launchpad.net/tripleo/+bug/1697007,2018-05-11
+1765916,1765916,Fix Released,networking-vpp agent error,https://bugs.launchpad.net/networking-vpp/+bug/1765916,2018-05-11
+1446252,1446252,Fix Released,Can't rollback update with nested stack in progress,https://bugs.launchpad.net/heat/+bug/1446252,2018-05-10
+1759910,1759910,Fix Released,pip_install: typo in variable name prevents apt update after adding apt source,https://bugs.launchpad.net/openstack-ansible/+bug/1759910,2018-05-10
+1768094,1768094,Fix Released,nova_api nova-manage cell_v2 list_hosts not displaying all hypervisors,https://bugs.launchpad.net/kolla-ansible/+bug/1768094,2018-05-10
+1414674,1414674,Fix Released,Number of Rabbitmq queues is growing from failover to failover,https://bugs.launchpad.net/heat/+bug/1414674,2018-05-10
+1769854,1769854,Fix Released,Local disk without enough capacity appears in allocation candidates,https://bugs.launchpad.net/nova/+bug/1769854,2018-05-10
+1762362,1762362,Fix Released,[RFC] HTTP header field values should be quoted by double quote rather than single-quote,https://bugs.launchpad.net/keystonemiddleware/+bug/1762362,2018-05-09
+1766731,1766731,Fix Released,System scoped tokens are unsupported,https://bugs.launchpad.net/keystonemiddleware/+bug/1766731,2018-05-09
+1757325,1757325,Fix Released,[k8s][calico][fedora-atomic] Periodically lost connection from pod to apiserver,https://bugs.launchpad.net/magnum/+bug/1757325,2018-05-09
+1765470,1765470,Fix Released,FileMonitor eventlet dies due to eventlet.monkey_patch introduced change,https://bugs.launchpad.net/networking-vpp/+bug/1765470,2018-05-09
+1770276,1770276,Fix Released,vpp-dump-tags uses incorrect api call,https://bugs.launchpad.net/networking-vpp/+bug/1770276,2018-05-09
+1770227,1770227,Fix Released,Setting external gateway for L3 router fails when run as a normal user,https://bugs.launchpad.net/networking-vpp/+bug/1770227,2018-05-09
+1770203,1770203,Fix Released,FIP status needs to be updated,https://bugs.launchpad.net/networking-vpp/+bug/1770203,2018-05-09
+1746730,1746730,Fix Released,AgentRescue validation fails to get the signature of PXEBoot.prepare_ramdisk,https://bugs.launchpad.net/ironic/+bug/1746730,2018-05-09
+1746730,1746730,Fix Released,AgentRescue validation fails to get the signature of PXEBoot.prepare_ramdisk,https://bugs.launchpad.net/ironic-lib/+bug/1746730,2018-05-09

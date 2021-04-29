@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1831683,1831683,Fix Released,please add a 'region_name' configuration in  zun/conf/neutron,https://bugs.launchpad.net/zun/+bug/1831683,2019-09-25
+1838715,1838715,Fix Released,Container stuck at 'Creating' status,https://bugs.launchpad.net/zun/+bug/1838715,2019-09-25
+1842243,1842243,Fix Released,CI failed on creating network,https://bugs.launchpad.net/zun/+bug/1842243,2019-09-25
+1844120,1844120,Fix Released,containers ending naturally still present in container listing as 'running',https://bugs.launchpad.net/zun/+bug/1844120,2019-09-25
+1713739,1713739,Fix Released,VM resize and confirm on  the same host fails with custom resources,https://bugs.launchpad.net/nova/+bug/1713739,2019-09-25
+1828419,1828419,Fix Released,bandit 1.6.0 breaks pep8 runs with B104: hardcoded_bind_all_interfaces,https://bugs.launchpad.net/watcher/+bug/1828419,2019-09-25
+1828584,1828584,Fix Released,Watcher User Guide in python-watcher - wrong link to install guide,https://bugs.launchpad.net/watcher/+bug/1828584,2019-09-25
+1828582,1828582,Fix Released,AttributeError: 'NoneType' object has no attribute for cluster_data_model if notification received before nova CDM is built via audit,https://bugs.launchpad.net/watcher/+bug/1828582,2019-09-25
+1829542,1829542,Fix Released,statistic_aggregation in CeilometerHelper is not called correctly,https://bugs.launchpad.net/watcher/+bug/1829542,2019-09-25
+1831515,1831515,Fix Released,openstack-tox-docs fail,https://bugs.launchpad.net/watcher/+bug/1831515,2019-09-25
+1832154,1832154,Fix Released,don't update data model when instance state is building,https://bugs.launchpad.net/watcher/+bug/1832154,2019-09-25
+1832156,1832156,Fix Released,Define a new InstanceNotMapped exception,https://bugs.launchpad.net/watcher/+bug/1832156,2019-09-25
+1831917,1831917,Fix Released,CI jobs on master (train) are not receiving nova versioned notifications,https://bugs.launchpad.net/watcher/+bug/1831917,2019-09-25
+1833665,1833665,Fix Released,Human_id does not correspond to the same field when creating datamodel and updating datamodel,https://bugs.launchpad.net/watcher/+bug/1833665,2019-09-25
+1834392,1834392,Fix Released,uwsgi instead of mod_wsgi,https://bugs.launchpad.net/watcher/+bug/1834392,2019-09-25
+1811069,1811069,Fix Released,"Correction in docs for ""Threshold rule alarms""",https://bugs.launchpad.net/aodh/+bug/1811069,2019-09-25
+1835183,1835183,Fix Released,remove baremetal nodes when building CDM,https://bugs.launchpad.net/watcher/+bug/1835183,2019-09-25
+1834679,1834679,Fix Released,add_instance_node during nova CDM build performance issue when listing servers,https://bugs.launchpad.net/watcher/+bug/1834679,2019-09-25
+1836195,1836195,Fix Released,Invalid parameter for aggregate with workload_stabilization,https://bugs.launchpad.net/watcher/+bug/1836195,2019-09-25
+1835192,1835192,Fix Released,remove id field from  CDM,https://bugs.launchpad.net/watcher/+bug/1835192,2019-09-25
+1839909,1839909,Fix Released,don't revert migrate action when actionplan failed,https://bugs.launchpad.net/watcher/+bug/1839909,2019-09-25
+1843016,1843016,Fix Released,ValueError: Field `input_parameters[destination_node]' cannot be None,https://bugs.launchpad.net/watcher/+bug/1843016,2019-09-25
+1844094,1844094,Fix Released,Failed to import test module: watcher.tests.common.test_clients,https://bugs.launchpad.net/watcher/+bug/1844094,2019-09-25
+1844949,1844949,Fix Released,deleted instance is still in data model,https://bugs.launchpad.net/watcher/+bug/1844949,2019-09-25
+1844948,1844948,Fix Released,"""datamodel list return None When has a compute node""",https://bugs.launchpad.net/watcher/+bug/1844948,2019-09-25
+1729211,1729211,Fix Released,There is no Trove image exists http://tarballs.openstack.org/trove/images,https://bugs.launchpad.net/trove/+bug/1729211,2019-09-25
+1838417,1838417,Fix Released,Notification related functional tests fails randomly due to KeyError,https://bugs.launchpad.net/masakari/+bug/1838417,2019-09-25
+1804634,1804634,Fix Released,[RFE] l3_agent should separate router_info creation logic,https://bugs.launchpad.net/neutron/+bug/1804634,2019-09-24
+1844705,1844705,Fix Committed,Ironic events notifier needs to be migrated from ironicclient to openstacksdk,https://bugs.launchpad.net/neutron/+bug/1844705,2019-09-24
+1830393,1830393,Fix Released,status kuryr-libnetwork faild,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1830393,2019-09-23
+1832597,1832597,Fix Released,tripleo-ci-centos-7-scenario010-standalone time outs in gate checks,https://bugs.launchpad.net/tripleo/+bug/1832597,2019-09-23
+1844032,1844032,Fix Released,No package dumb-init is available in queens build containers job,https://bugs.launchpad.net/tripleo/+bug/1844032,2019-09-23
+1755078,1755078,Fix Released,"config-download:  missing deployment_name in group_vars for ExtraConfigPost, PreConfig, PostConfig",https://bugs.launchpad.net/tripleo/+bug/1755078,2019-09-23
+1733851,1733851,Fix Released,"swift rsync operations fail, no daemon on port 873",https://bugs.launchpad.net/kolla/+bug/1733851,2019-09-20
+1794039,1794039,Fix Released,Barbican containers failing to build on CentOS,https://bugs.launchpad.net/kolla/+bug/1794039,2019-09-20
+1744428,1744428,Fix Released,"magnum-ui, murano-ui failed to enable in horizon",https://bugs.launchpad.net/kolla/+bug/1744428,2019-09-20
+1784123,1784123,Fix Released,reconfigure with tag is failing at mariadb role with HA setup,https://bugs.launchpad.net/kolla-ansible/+bug/1784123,2019-09-20
+1703078,1703078,Fix Released,"when neutron l3 ha is enabled, restart l3 agent may result multi active router",https://bugs.launchpad.net/kolla-ansible/+bug/1703078,2019-09-20
+1703078,1703078,Fix Released,"when neutron l3 ha is enabled, restart l3 agent may result multi active router",https://bugs.launchpad.net/kolla/+bug/1703078,2019-09-20
+1843429,1843429,Fix Released,Octavia ignores region_name settings,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1843429,2019-09-20
+1667579,1667579,Fix Released,swift-proxy-server fails to start with Python 3.5,https://bugs.launchpad.net/swift/+bug/1667579,2019-09-19
+1712835,1712835,Fix Released,shell client completion cache not working,https://bugs.launchpad.net/python-cinderclient/+bug/1712835,2019-09-19
+1487390,1487390,Fix Released,unittests for build script,https://bugs.launchpad.net/kolla/+bug/1487390,2019-09-19
+1604129,1604129,Fix Released,storage_interface problem,https://bugs.launchpad.net/kolla/+bug/1604129,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/magnum/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/designate/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/keystone/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/murano/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/heat/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/tempest/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/manila/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/nova/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/senlin/+bug/1517839,2019-09-19
+1517839,1517839,Fix Committed,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/freezer/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/rally/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/karbor/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/ironic/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/watcher/+bug/1517839,2019-09-19
+1517839,1517839,Fix Released,Make CONF.set_override with parameter enforce_type=True by default,https://bugs.launchpad.net/tacker/+bug/1517839,2019-09-19
+1673691,1673691,Fix Released,error about deploy of  telegraf,https://bugs.launchpad.net/kolla-ansible/+bug/1673691,2019-09-19
+1673914,1673914,Fix Released,telegraf RETENTION POLICIE bug,https://bugs.launchpad.net/kolla-ansible/+bug/1673914,2019-09-19
+1626339,1626339,Fix Released,Kolla mongodb error: can't find self in the replset config,https://bugs.launchpad.net/kolla-ansible/+bug/1626339,2019-09-19
+1661009,1661009,Fix Released,RabbitMQ fails to add guest user during bootstrap of Bifrost,https://bugs.launchpad.net/kolla-ansible/+bug/1661009,2019-09-19
+1807969,1807969,Fix Released,[maniila image elements] custom image job fails to test the new image,https://bugs.launchpad.net/manila/+bug/1807969,2019-09-19
+1605278,1605278,Fix Released,Merge python-django 1:1.11-1 from Debian unstable,https://bugs.launchpad.net/horizon/+bug/1605278,2019-09-19
+1799178,1799178,Fix Released,l2 pop doesn't always provide the whole list of fdb entries on agent restart,https://bugs.launchpad.net/neutron/+bug/1799178,2019-09-19
+1811126,1811126,Fix Released,DHCPAgentOVSTestCase.test_stale_metadata_proxy_killed fails with RuntimeError: Stale metadata proxy didn't get killed,https://bugs.launchpad.net/neutron/+bug/1811126,2019-09-19
+1821708,1821708,Fix Released,neutron-server high cpu usage in host_routes_after_create,https://bugs.launchpad.net/neutron/+bug/1821708,2019-09-19
+1821948,1821948,Fix Released,Unstable unit test uses subnet broadcast address,https://bugs.launchpad.net/neutron/+bug/1821948,2019-09-19
+1818805,1818805,Fix Released,Conntrack rules in the qrouter are not deleted when a fip is removed with dvr,https://bugs.launchpad.net/neutron/+bug/1818805,2019-09-19
+1822155,1822155,Fix Released,neutron-keepalived-state-change can not start on some python3 distro,https://bugs.launchpad.net/neutron/+bug/1822155,2019-09-19
+1811873,1811873,Fix Released,get_l3_agent_with_min_routers fails with postgresql backend,https://bugs.launchpad.net/neutron/+bug/1811873,2019-09-19
+1822100,1822100,Fix Released,Network Update if current provider net attribure key/value pair in request,https://bugs.launchpad.net/neutron/+bug/1822100,2019-09-19
+1819160,1819160,Fix Released,Functional tests for dvr ha routers are broken,https://bugs.launchpad.net/neutron/+bug/1819160,2019-09-19
+1822999,1822999,Fix Released,ml2 create_port_bulk produces incompatible port context to drivers,https://bugs.launchpad.net/neutron/+bug/1822999,2019-09-19

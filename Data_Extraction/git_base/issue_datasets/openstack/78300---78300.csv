@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1285515,1285515,Fix Committed,jenkins-job-builder: MultiSCMs are not generated in case of nested macro,https://bugs.launchpad.net/openstack-ci/+bug/1285515,2014-05-26
+1321175,1321175,Fix Released,ceilometer removed their v1 api causing overcloud-control image to fail to build,https://bugs.launchpad.net/tripleo/+bug/1321175,2014-05-26
+1320834,1320834,Fix Released,Dhc relay check failed in system tests,https://bugs.launchpad.net/fuel/+bug/1320834,2014-05-26
+1311030,1311030,Fix Released,Update rpm package for postgresql to 9.3.4,https://bugs.launchpad.net/fuel/+bug/1311030,2014-05-26
+1318717,1318717,Fix Released,image with rhel element can't be built if DIB_RHSM_* variables aren't set,https://bugs.launchpad.net/diskimage-builder/+bug/1318717,2014-05-26
+1289582,1289582,Fix Released,Images that are > 3G in size fail on a system with enough RAM for tmpfs,https://bugs.launchpad.net/diskimage-builder/+bug/1289582,2014-05-26
+1319987,1319987,Fix Released,WHITELIST error,https://bugs.launchpad.net/diskimage-builder/+bug/1319987,2014-05-26
+1322278,1322278,Fix Released,yum/bin/install-packages does not install packages properly,https://bugs.launchpad.net/diskimage-builder/+bug/1322278,2014-05-26
+1295654,1295654,Fix Released,key_conditions field in query request body can be empty,https://bugs.launchpad.net/magnetodb/+bug/1295654,2014-05-26
+1320800,1320800,Fix Released,[System Tests] ha_delete_vips test failed with timeout after deletion vips,https://bugs.launchpad.net/fuel/+bug/1320800,2014-05-26
+1296861,1296861,Fix Released,nailgun raises trace with 'fuel deployment default' when no controllers in cluster,https://bugs.launchpad.net/fuel/+bug/1296861,2014-05-26
+1320225,1320225,Fix Released,cli Deprecation Warning,https://bugs.launchpad.net/fuel/+bug/1320225,2014-05-26
+1321730,1321730,Fix Released,Error in devops installation guide,https://bugs.launchpad.net/fuel/+bug/1321730,2014-05-26
+1322950,1322950,Fix Released,Please add initial Gerrit group member to aviator-core,https://bugs.launchpad.net/openstack-ci/+bug/1322950,2014-05-26
+1322786,1322786,Fix Released,Revert resize failed when vm with volume attached,https://bugs.launchpad.net/nova/+bug/1322786,2014-05-24
+1289668,1289668,Fix Committed,docs: pre install guide quick install is visually un-readable,https://bugs.launchpad.net/fuel/+bug/1289668,2014-05-24
+1322154,1322154,Fix Released,Initial group member for cloudkitty-core,https://bugs.launchpad.net/openstack-ci/+bug/1322154,2014-05-23
+1321797,1321797,Fix Released,Tempest fails on backports to Icehouse,https://bugs.launchpad.net/tempest/+bug/1321797,2014-05-23
+1231761,1231761,Fix Released,So many unused LOG,https://bugs.launchpad.net/horizon/+bug/1231761,2014-05-23
+1322557,1322557,Fix Committed,ubuntu in master (5.0.1) fails to install,https://bugs.launchpad.net/fuel/+bug/1322557,2014-05-23
+1321340,1321340,Fix Released,service_instance module does not have locks for shared resources,https://bugs.launchpad.net/manila/+bug/1321340,2014-05-23
+1312741,1312741,Fix Committed,Focus is lost when editing a field on Network tab with visible network verification result,https://bugs.launchpad.net/fuel/+bug/1312741,2014-05-23
+1322208,1322208,Fix Committed,Redundant interfaces in controller node after deployment FlatDHCP HA,https://bugs.launchpad.net/fuel/+bug/1322208,2014-05-23
+1316010,1316010,Fix Committed,image builder is not giving error for invalid service type,https://bugs.launchpad.net/trove-integration/+bug/1316010,2014-05-23
+1318996,1318996,Fix Released,Deployment with ovs bond failed: 'add-bond' resource should has non-empty 'properties' field,https://bugs.launchpad.net/fuel/+bug/1318996,2014-05-23
+1320951,1320951,Fix Released,Skip interval_task because Keystone error: Authorization Failed: Unable to establish connection to http://localhost:5000/v2.0/tokens,https://bugs.launchpad.net/devstack/+bug/1320951,2014-05-23
+1173417,1173417,Fix Released,_build_instance does not have a recoverable network_api.allocate_for_instance,https://bugs.launchpad.net/nova/+bug/1173417,2014-05-23
+1319895,1319895,Fix Released,Request: create new repo to consolidate security doc work,https://bugs.launchpad.net/openstack-ci/+bug/1319895,2014-05-23
+1321347,1321347,Fix Released,Incorrect option: notify_nova_on_port_status_change,https://bugs.launchpad.net/devstack/+bug/1321347,2014-05-22
+1316064,1316064,Fix Released,Jenkins jobs are always running for abandoned patches,https://bugs.launchpad.net/openstack-ci/+bug/1316064,2014-05-22
+1204214,1204214,Fix Released,keystone client cannot get users by id when ldap is used and id is not a hash (id == uid in posixAccount),https://bugs.launchpad.net/python-keystoneclient/+bug/1204214,2014-05-22
+1321768,1321768,Fix Committed,Bootstrap node dies after week of inactivity,https://bugs.launchpad.net/fuel/+bug/1321768,2014-05-22
+1236648,1236648,Fix Released,__metaclass__ is incompatible for python 3,https://bugs.launchpad.net/python-novaclient/+bug/1236648,2014-05-22
+1236648,1236648,Fix Released,__metaclass__ is incompatible for python 3,https://bugs.launchpad.net/python-keystoneclient/+bug/1236648,2014-05-22
+1236648,1236648,Fix Released,__metaclass__ is incompatible for python 3,https://bugs.launchpad.net/neutron/+bug/1236648,2014-05-22
+1236648,1236648,Fix Released,__metaclass__ is incompatible for python 3,https://bugs.launchpad.net/cinder/+bug/1236648,2014-05-22
+1236648,1236648,Fix Released,__metaclass__ is incompatible for python 3,https://bugs.launchpad.net/nova/+bug/1236648,2014-05-22
+1236648,1236648,Fix Released,__metaclass__ is incompatible for python 3,https://bugs.launchpad.net/ceilometer/+bug/1236648,2014-05-22
+1319869,1319869,Fix Released,Some nodes don't boot over pxe after cluster deletion,https://bugs.launchpad.net/fuel/+bug/1319869,2014-05-22
+1321917,1321917,Fix Committed,Remove mockito from redstack,https://bugs.launchpad.net/trove-integration/+bug/1321917,2014-05-22
+1319306,1319306,Fix Released,'list index out of range' error on group node disks configuration,https://bugs.launchpad.net/fuel/+bug/1319306,2014-05-22
+1317049,1317049,Fix Released,Create /etc/fuel/5.0 directory and make symlink from /etc/fuel/5.0/version.yaml to /etc/fuel/version.yaml,https://bugs.launchpad.net/fuel/+bug/1317049,2014-05-22
+1318644,1318644,Fix Released,Fix security_group_create_get_delete testcase,https://bugs.launchpad.net/tempest/+bug/1318644,2014-05-22
+1315492,1315492,Fix Released,Add options to configure provider network mappings for OpenDaylight,https://bugs.launchpad.net/devstack/+bug/1315492,2014-05-22
+1316301,1316301,Fix Released,Deployment notification missing environment name,https://bugs.launchpad.net/fuel/+bug/1316301,2014-05-22
+1282762,1282762,Fix Released,bootstap bonding netchecker,https://bugs.launchpad.net/fuel/+bug/1282762,2014-05-22
+1313759,1313759,Fix Released,fuel task deletion sends [1] in URL,https://bugs.launchpad.net/fuel/+bug/1313759,2014-05-22
+1314617,1314617,Fix Released,rabbitmq can't start after reboot one of controllers.,https://bugs.launchpad.net/fuel/+bug/1314617,2014-05-22
+1314634,1314634,Fix Released,OSTF initialization hook silently fails sometimes,https://bugs.launchpad.net/fuel/+bug/1314634,2014-05-22
+1309099,1309099,Fix Released,Instance does not get ip address,https://bugs.launchpad.net/fuel/+bug/1309099,2014-05-22
+1310604,1310604,Fix Released,Nodes stay with wrong status after env reset,https://bugs.launchpad.net/fuel/+bug/1310604,2014-05-22
+1317024,1317024,Fix Released,Create fuel-specs repository,https://bugs.launchpad.net/fuel/+bug/1317024,2014-05-22
+1320245,1320245,Fix Committed,Sahara image with tags wasn't imported into Glance,https://bugs.launchpad.net/fuel/+bug/1320245,2014-05-22
+1308450,1308450,Fix Released,[System tests] 'NoneType' object has no attribute '__getitem__' because node wasn't registered in Nailgun,https://bugs.launchpad.net/fuel/+bug/1308450,2014-05-22
+1318240,1318240,Fix Released,add development feature branch for compass-* projects,https://bugs.launchpad.net/openstack-ci/+bug/1318240,2014-05-22
+1313245,1313245,Fix Released,Typo in the Development Guide,https://bugs.launchpad.net/openstack-api-site/+bug/1313245,2014-05-22
+1320803,1320803,Fix Released,[devops] fuel-devops team is needed in LP,https://bugs.launchpad.net/fuel/+bug/1320803,2014-05-21
+1318633,1318633,Fix Committed,docker sleep when building Fuel mirrors,https://bugs.launchpad.net/fuel/+bug/1318633,2014-05-21
+1183562,1183562,Fix Released,changes-since timestamp is not updated after making network changes,https://bugs.launchpad.net/nova/+bug/1183562,2014-05-21
+1321018,1321018,Fix Released,reviewday does not properly ignore WIP reviews,https://bugs.launchpad.net/openstack-ci/+bug/1321018,2014-05-21
+1321015,1321015,Fix Released,reviewday reraises on errors creating mergeprop,https://bugs.launchpad.net/openstack-ci/+bug/1321015,2014-05-21
+1312662,1312662,Fix Released,IP Range controls have different vertical spacing,https://bugs.launchpad.net/fuel/+bug/1312662,2014-05-21
+1278774,1278774,Fix Released,"Generates about 200 notifications for error: 'Failed to generate volumes info for node...""",https://bugs.launchpad.net/fuel/+bug/1278774,2014-05-21
+1312272,1312272,Fix Released,Murano: Class io.murano.Environment is not found,https://bugs.launchpad.net/fuel/+bug/1312272,2014-05-21
+1313669,1313669,Fix Released,Javascript exeption on deploy changes button click,https://bugs.launchpad.net/fuel/+bug/1313669,2014-05-21
+1286028,1286028,Fix Committed,Search attribute missing from resolv.conf,https://bugs.launchpad.net/fuel/+bug/1286028,2014-05-21
+1274614,1274614,Fix Committed,nailgund bogs down on large number of nodes,https://bugs.launchpad.net/fuel/+bug/1274614,2014-05-21
+1309061,1309061,Fix Released,Ceph is available to be checked with vCenter scheduler,https://bugs.launchpad.net/fuel/+bug/1309061,2014-05-21
+1317080,1317080,Fix Released,master node doesn't collect mongo logs,https://bugs.launchpad.net/fuel/+bug/1317080,2014-05-21
+1312194,1312194,Fix Released,4 point is slid down on tab with Networks for Japanese language,https://bugs.launchpad.net/fuel/+bug/1312194,2014-05-21
+1318631,1318631,Fix Released,[OSTF]After succesfull cleanup button 'run test' does not appear,https://bugs.launchpad.net/fuel/+bug/1318631,2014-05-21
+1318976,1318976,Fix Released,"Parameter ""Auto assign floating IP"" can be selected with neutron",https://bugs.launchpad.net/fuel/+bug/1318976,2014-05-21
+1316453,1316453,Fix Released,Murano contains outadated version of core packages,https://bugs.launchpad.net/fuel/+bug/1316453,2014-05-21
+1306547,1306547,Fix Released,package murano-conductor missing,https://bugs.launchpad.net/fuel/+bug/1306547,2014-05-21
+1313623,1313623,Fix Released,Murano core library is missed after deployment,https://bugs.launchpad.net/fuel/+bug/1313623,2014-05-21

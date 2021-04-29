@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+960261,960261,Fix Released,Need policy control over making images public,https://bugs.launchpad.net/glance/+bug/960261,2012-04-05
+959401,959401,Fix Released,glance client tries to use ssl for http endpoints,https://bugs.launchpad.net/glance/+bug/959401,2012-04-05
+956202,956202,Fix Released,glance add throws: IndexError: tuple index out of range,https://bugs.launchpad.net/glance/+bug/956202,2012-04-05
+955127,955127,Fix Released,ClientException missing module name,https://bugs.launchpad.net/glance/+bug/955127,2012-04-05
+952618,952618,Fix Released,Glance Client in _do_request does not handle 503 (or other HTTP exceptions) in a manageable way.,https://bugs.launchpad.net/glance/+bug/952618,2012-04-05
+952405,952405,Fix Released,Glance authentication with Keystone doc is out-of-date,https://bugs.launchpad.net/glance/+bug/952405,2012-04-05
+949838,949838,Fix Released,glance client return error unless using '-A token' option,https://bugs.launchpad.net/glance/+bug/949838,2012-04-05
+945173,945173,Fix Released,Specify image_id with 'glance add',https://bugs.launchpad.net/glance/+bug/945173,2012-04-05
+957176,957176,Fix Released,ContextMiddleware checks deprecated headers,https://bugs.launchpad.net/glance/+bug/957176,2012-04-05
+956547,956547,Fix Released,glance context is_admin role check is fragile,https://bugs.launchpad.net/glance/+bug/956547,2012-04-05
+956513,956513,Fix Released,401 and 403 errors treated indistinguishably by client,https://bugs.launchpad.net/glance/+bug/956513,2012-04-05
+956206,956206,Fix Released,API reports unauthorized when policy rejects action,https://bugs.launchpad.net/glance/+bug/956206,2012-04-05
+955977,955977,Fix Released,Include babel.cfg and glance/locale/glance.pot in tarballs,https://bugs.launchpad.net/glance/+bug/955977,2012-04-05
+954608,954608,Fix Released,Non-admin user can administer image cache,https://bugs.launchpad.net/glance/+bug/954608,2012-04-05
+954430,954430,Fix Released,libvirt snapshots fail with: OSError: [Errno 11] Resource temporarily unavailable,https://bugs.launchpad.net/glance/+bug/954430,2012-04-05
+949486,949486,Fix Released,Update glance-cache to support keystone service tenants,https://bugs.launchpad.net/glance/+bug/949486,2012-04-05
+957181,957181,Fix Released,Glance depends on an obsolete version of keystone,https://bugs.launchpad.net/glance/+bug/957181,2012-04-05
+954530,954530,Fix Released,Change CLIAuth arg names,https://bugs.launchpad.net/glance/+bug/954530,2012-04-05
+932986,932986,Fix Released,An error occurred during image.send notification: global name 'message' is not defined,https://bugs.launchpad.net/glance/+bug/932986,2012-04-05
+929591,929591,Fix Released,Glance client should verify server cert by default,https://bugs.launchpad.net/glance/+bug/929591,2012-04-05
+939481,939481,Fix Released,copy-from not supported for queued images,https://bugs.launchpad.net/glance/+bug/939481,2012-04-05
+937260,937260,Fix Released,Glance Image Service connector ignores kernel and ramdisk properties in Glance,https://bugs.launchpad.net/glance/+bug/937260,2012-04-05
+934320,934320,Fix Released,Add README.rst to the tarball,https://bugs.launchpad.net/glance/+bug/934320,2012-04-05
+932466,932466,Fix Released,glance db migrations deadlock against precise mysql server,https://bugs.launchpad.net/glance/+bug/932466,2012-04-05
+930536,930536,Fix Released,pep8 error in glance/notifier/__init__.py,https://bugs.launchpad.net/glance/+bug/930536,2012-04-05
+930344,930344,Fix Released,Testsuite fails in the buildds,https://bugs.launchpad.net/glance/+bug/930344,2012-04-05
+922723,922723,Fix Released,glance Essex-3: pycrypto version,https://bugs.launchpad.net/glance/+bug/922723,2012-04-05
+892754,892754,Fix Released,test suite doesn't work with sqlalchemy v7,https://bugs.launchpad.net/glance/+bug/892754,2012-04-05
+817032,817032,Fix Released,glance-control exits with 0 when glance-<server> script is not found,https://bugs.launchpad.net/glance/+bug/817032,2012-04-05
+942118,942118,Fix Released,Glance copy_from should gracefully handle file store,https://bugs.launchpad.net/glance/+bug/942118,2012-04-05
+940364,940364,Fix Released,Missing files in generated tarballs,https://bugs.launchpad.net/glance/+bug/940364,2012-04-05
+932183,932183,Fix Released,"where pysendfile is unavailable, glance client sends small erratically-sized chunks",https://bugs.launchpad.net/glance/+bug/932183,2012-04-05
+929762,929762,Fix Released,responses fail when image cache fails,https://bugs.launchpad.net/glance/+bug/929762,2012-04-05
+925681,925681,Fix Released,Unfriendly error if auth_url not specified when using glance+keystone,https://bugs.launchpad.net/glance/+bug/925681,2012-04-05
+923936,923936,Fix Released,conform to common client configuration,https://bugs.launchpad.net/glance/+bug/923936,2012-04-05
+923894,923894,Fix Released,make glance-control a more fully featured process launcher,https://bugs.launchpad.net/glance/+bug/923894,2012-04-05
+921494,921494,Fix Released,Don't force client to supply SSL cert/key,https://bugs.launchpad.net/glance/+bug/921494,2012-04-05
+920386,920386,Fix Released,Client side SSL related variables,https://bugs.launchpad.net/glance/+bug/920386,2012-04-05
+919257,919257,Fix Released,Glance Add Image API returns 400 response if storage is inaccessible,https://bugs.launchpad.net/glance/+bug/919257,2012-04-05
+919255,919255,Fix Released,Glance Add Image API returns 400 response for disk full scenario,https://bugs.launchpad.net/glance/+bug/919255,2012-04-05
+919250,919250,Fix Released,Glance image list API does not validate filter values,https://bugs.launchpad.net/glance/+bug/919250,2012-04-05
+904850,904850,Fix Released,Glance service selection from ServiceCatalog when using keystone,https://bugs.launchpad.net/glance/+bug/904850,2012-04-05
+939616,939616,Fix Released,'module' object has no attribute 'DataInvalid',https://bugs.launchpad.net/glance/+bug/939616,2012-04-05
+939484,939484,Fix Released,image size and active status not set on update of queued image with location metadata,https://bugs.launchpad.net/glance/+bug/939484,2012-04-05
+937216,937216,Fix Released,nova image snapshots fail with 'Invalid disk format',https://bugs.launchpad.net/glance/+bug/937216,2012-04-05
+936798,936798,Fix Released,Glance always picks the first endpoint from the service catalog,https://bugs.launchpad.net/glance/+bug/936798,2012-04-05
+930544,930544,Fix Released,Test for breaking ties in paging is wrong (?),https://bugs.launchpad.net/glance/+bug/930544,2012-04-05
+930543,930543,Fix Released,Non determinism in test_db.test_image_get_all_marker,https://bugs.launchpad.net/glance/+bug/930543,2012-04-05
+923941,923941,Fix Released,Delete public image as non-admin user results in 404,https://bugs.launchpad.net/glance/+bug/923941,2012-04-05
+933993,933993,Fix Released,glance add can fail for images larger than 2 GB on some Python installations (RHEL 6.2),https://bugs.launchpad.net/glance/+bug/933993,2012-04-05
+933702,933702,Fix Released,Metadata would ideally properly differentiate between None and the empty string,https://bugs.launchpad.net/glance/+bug/933702,2012-04-05
+919520,919520,Fix Released,glance-control registry start tracebacks w/ IndexError,https://bugs.launchpad.net/glance/+bug/919520,2012-04-05
+901672,901672,Fix Released,Glance keystone unit tests can't start essex milestone 1 keystone server,https://bugs.launchpad.net/glance/+bug/901672,2012-04-05
+901376,901376,Fix Released,Notification queues should be consistent with Nova,https://bugs.launchpad.net/glance/+bug/901376,2012-04-05
+773562,773562,Fix Released,file-like objects returned from GET and used to POST do not have the same interface,https://bugs.launchpad.net/glance/+bug/773562,2012-04-05
+919269,919269,Fix Released,AuthBadRequest exceptions don't display URL's,https://bugs.launchpad.net/glance/+bug/919269,2012-04-05
+917438,917438,Fix Released,Two Content-Type headers are returned,https://bugs.launchpad.net/glance/+bug/917438,2012-04-05
+915817,915817,Fix Released,kombu for notifications should reconnect,https://bugs.launchpad.net/glance/+bug/915817,2012-04-05
+915604,915604,Fix Released,assertDictEqual causes test failures in python 2.6,https://bugs.launchpad.net/glance/+bug/915604,2012-04-05
+912094,912094,Fix Released,incorrect scheme for s3 backend,https://bugs.launchpad.net/glance/+bug/912094,2012-04-05
+911681,911681,Fix Released,oparser missing in bin/glance-control,https://bugs.launchpad.net/glance/+bug/911681,2012-04-05
+911547,911547,Fix Released,PEP8 glance cleanup,https://bugs.launchpad.net/glance/+bug/911547,2012-04-05
+911291,911291,Fix Released,Missing man pages for executables,https://bugs.launchpad.net/glance/+bug/911291,2012-04-05
+909408,909408,Fix Released,Glance tests failing in python 2.6 with AssertIsNone,https://bugs.launchpad.net/glance/+bug/909408,2012-04-05
+907906,907906,Fix Released,Can't add image with location=XXX when not in TTY,https://bugs.launchpad.net/glance/+bug/907906,2012-04-05
+903887,903887,Fix Released,Functional tests do not clean up image data,https://bugs.launchpad.net/glance/+bug/903887,2012-04-05
+887596,887596,Fix Released,Allow syslog facility to be selected,https://bugs.launchpad.net/glance/+bug/887596,2012-04-05
+852850,852850,Fix Released,Glance API should not start if default store cannot be used,https://bugs.launchpad.net/glance/+bug/852850,2012-04-05
+815208,815208,Fix Released,remove paste configuration from the config files,https://bugs.launchpad.net/glance/+bug/815208,2012-04-05
+771465,771465,Fix Released,Unclear that you need the account in swift_store_user,https://bugs.launchpad.net/glance/+bug/771465,2012-04-05
+919244,919244,Fix Released,Glance API returns a 500 response code for invalid request params,https://bugs.launchpad.net/glance/+bug/919244,2012-04-05
+915621,915621,Fix Released,Root document contains incorrect href with 0.0.0.0,https://bugs.launchpad.net/glance/+bug/915621,2012-04-05
+914440,914440,Fix Released,No way to track show image bandwidth usage for reporting,https://bugs.launchpad.net/glance/+bug/914440,2012-04-05
+913608,913608,Fix Released,Glance unittests that setup the FAKE_FILESYSTEM_ROOTDIR should use a unique testing directory per test case,https://bugs.launchpad.net/glance/+bug/913608,2012-04-05
+912897,912897,Fix Released,Cannot delete remote image,https://bugs.launchpad.net/glance/+bug/912897,2012-04-05

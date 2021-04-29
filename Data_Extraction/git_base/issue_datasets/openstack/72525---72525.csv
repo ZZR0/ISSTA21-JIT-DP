@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1334785,1334785,Fix Released,Miss argparse module and pbr version of the low,https://bugs.launchpad.net/barbican/+bug/1334785,2014-10-16
+1364059,1364059,Fix Released,Log of network_info can lead to deadlock resulting in nova compute manage hang,https://bugs.launchpad.net/ironic/+bug/1364059,2014-10-16
+1362280,1362280,Fix Released,Unit tests fail with keystoneclient master,https://bugs.launchpad.net/ironic/+bug/1362280,2014-10-16
+1357027,1357027,Fix Released,Ironic virt driver makes too many API calls for resource tracking,https://bugs.launchpad.net/ironic/+bug/1357027,2014-10-16
+1351329,1351329,Fix Released,Agent driver uses dbapi directly,https://bugs.launchpad.net/ironic/+bug/1351329,2014-10-16
+1338725,1338725,Fix Released,order create with secret.bit_length=None returns 201 (expected 400),https://bugs.launchpad.net/barbican/+bug/1338725,2014-10-16
+1336995,1336995,Fix Released,Secret generation fail with SQLite DateTime type only accepts Python,https://bugs.launchpad.net/barbican/+bug/1336995,2014-10-16
+1361672,1361672,Fix Released,Fixtures are used to test ironic.common.images,https://bugs.launchpad.net/ironic/+bug/1361672,2014-10-16
+1330775,1330775,Fix Released,failures running stackforge-barbican-cloudcafe,https://bugs.launchpad.net/barbican/+bug/1330775,2014-10-16
+1330541,1330541,Fix Released,JSONErrorHook is not setting content type to JSON,https://bugs.launchpad.net/barbican/+bug/1330541,2014-10-16
+1360017,1360017,Fix Released,Add boot_device support for vbox,https://bugs.launchpad.net/ironic/+bug/1360017,2014-10-16
+1328993,1328993,Fix Released,Unicode-objects must be encoded before decryption,https://bugs.launchpad.net/barbican/+bug/1328993,2014-10-16
+1358401,1358401,Fix Released,Add Parallels virtualisation to ssh driver,https://bugs.launchpad.net/ironic/+bug/1358401,2014-10-16
+1325972,1325972,Fix Released,generate_fullname_for in barbican.common.utils returns a valid string if the given object is None,https://bugs.launchpad.net/barbican/+bug/1325972,2014-10-16
+1282168,1282168,Fix Released,PXE Driver only supports neutron,https://bugs.launchpad.net/ironic/+bug/1282168,2014-10-16
+1321555,1321555,Fix Released,Secret creation fails without content-type specified,https://bugs.launchpad.net/barbican/+bug/1321555,2014-10-16
+1226042,1226042,Fix Released,New iboot PDU driver for Nova/Ironic,https://bugs.launchpad.net/nova/+bug/1226042,2014-10-16
+1226042,1226042,Fix Released,New iboot PDU driver for Nova/Ironic,https://bugs.launchpad.net/ironic/+bug/1226042,2014-10-16
+1321394,1321394,Fix Released,"datetime conversion to JSON is missing ""T"" in the resultant string",https://bugs.launchpad.net/barbican/+bug/1321394,2014-10-16
+1339460,1339460,Fix Released,PUT to a secret fails after plugins update,https://bugs.launchpad.net/barbican/+bug/1339460,2014-10-16
+1360015,1360015,Fix Released,"Wrong condition of unit test, ssh_virt_type was not set",https://bugs.launchpad.net/ironic/+bug/1360015,2014-10-16
+1359466,1359466,Fix Released,console interface missing from agent_ipmitool driver,https://bugs.launchpad.net/ironic/+bug/1359466,2014-10-16
+1320001,1320001,Fix Released,http 500 when creating secret,https://bugs.launchpad.net/barbican/+bug/1320001,2014-10-16
+1358758,1358758,Fix Released,use exception.MissingParameterValue in iboot,https://bugs.launchpad.net/ironic/+bug/1358758,2014-10-16
+1346406,1346406,Fix Released,Remove gettextutils _ injection,https://bugs.launchpad.net/ironic/+bug/1346406,2014-10-16
+1298638,1298638,Fix Released,fake* drivers should not be visible in a prod environment,https://bugs.launchpad.net/ironic/+bug/1298638,2014-10-16
+1248422,1248422,Fix Released,nova/baremetal-compute-ipmi.filters issues,https://bugs.launchpad.net/ironic/+bug/1248422,2014-10-16
+1360224,1360224,Fix Released,agent drivers using ipmi doesn't have management interface,https://bugs.launchpad.net/ironic/+bug/1360224,2014-10-16
+1358723,1358723,Fix Released,IPA should support booting from virtual media,https://bugs.launchpad.net/ironic/+bug/1358723,2014-10-16
+1356408,1356408,Fix Released,invalid exceptions used in start_shellinabox_console,https://bugs.launchpad.net/ironic/+bug/1356408,2014-10-16
+1326862,1326862,Fix Released,data migration script is not installed by setup.py,https://bugs.launchpad.net/barbican/+bug/1326862,2014-10-16
+1356362,1356362,Fix Released,clean_up_caches needs to better account for image converting,https://bugs.launchpad.net/ironic/+bug/1356362,2014-10-16
+1323830,1323830,Fix Released,migrating from stackforge to openstack,https://bugs.launchpad.net/barbican/+bug/1323830,2014-10-16
+1323830,1323830,Fix Released,migrating from stackforge to openstack,https://bugs.launchpad.net/python-barbicanclient/+bug/1323830,2014-10-16
+1354463,1354463,Fix Released,Invalid arguments in a migration method call.,https://bugs.launchpad.net/ironic/+bug/1354463,2014-10-16
+1321502,1321502,Fix Released,create secret test with oversized binary data gives wrong 4xx code,https://bugs.launchpad.net/barbican/+bug/1321502,2014-10-16
+1315498,1315498,Fix Released,Secret PUT fails with a 500 error,https://bugs.launchpad.net/barbican/+bug/1315498,2014-10-16
+1353631,1353631,Fix Released,adding a new driver requires changing patcher.py,https://bugs.launchpad.net/ironic/+bug/1353631,2014-10-16
+1352443,1352443,Fix Released,Reraising driver load exceptions is not informative,https://bugs.launchpad.net/ironic/+bug/1352443,2014-10-16
+1351431,1351431,Fix Released,DB models don't set charset for individual tables,https://bugs.launchpad.net/ironic/+bug/1351431,2014-10-16
+1348676,1348676,Fix Released,MACAlreadyExists error in Ironic tempest run,https://bugs.launchpad.net/ironic/+bug/1348676,2014-10-16
+1348586,1348586,Fix Released,Slow RPC manager tests after retry mechanism,https://bugs.launchpad.net/ironic/+bug/1348586,2014-10-16
+1340199,1340199,Fix Released,ipmitool driver does not support BMC reset or sending raw bytestrings,https://bugs.launchpad.net/ironic/+bug/1340199,2014-10-16
+1335909,1335909,Fix Released,Failed to tear down an instance when the image is not available,https://bugs.launchpad.net/ironic/+bug/1335909,2014-10-16
+1326849,1326849,Fix Released,Broken test case for IPA standy extension,https://bugs.launchpad.net/ironic/+bug/1326849,2014-10-16
+1317300,1317300,Fix Released,rpc versioning is not done in a way compatible with rolling upgrades,https://bugs.launchpad.net/ironic/+bug/1317300,2014-10-16
+1361295,1361295,Fix Released,gate-ironic-docs failed due to TypeError from sphinx,https://bugs.launchpad.net/ironic/+bug/1361295,2014-10-16
+1359943,1359943,Fix Released,nova driver exceptions on instance delete: TypeError: power_off() takes exactly 2 arguments (4 given),https://bugs.launchpad.net/ironic/+bug/1359943,2014-10-16
+1354437,1354437,Fix Released,"On rebuild failure, nodes are left unrecoverable",https://bugs.launchpad.net/ironic/+bug/1354437,2014-10-16
+1354078,1354078,Fix Released,Ironic now import posix_ipc but doesn't require it,https://bugs.launchpad.net/ironic/+bug/1354078,2014-10-16
+1353540,1353540,Fix Released,Ironic should use oslo.utils,https://bugs.launchpad.net/ironic/+bug/1353540,2014-10-16
+1351114,1351114,Fix Released,periodic_last_run missing,https://bugs.launchpad.net/ironic/+bug/1351114,2014-10-16
+1345334,1345334,Fix Released,unprovision attempts to validate driver state,https://bugs.launchpad.net/ironic/+bug/1345334,2014-10-16
+1347795,1347795,Fix Released,All baremetal instance going to ERROR state,https://bugs.launchpad.net/tripleo/+bug/1347795,2014-10-16
+1347795,1347795,Fix Released,All baremetal instance going to ERROR state,https://bugs.launchpad.net/ironic/+bug/1347795,2014-10-16
+1347795,1347795,Fix Released,All baremetal instance going to ERROR state,https://bugs.launchpad.net/nova/+bug/1347795,2014-10-16
+1342448,1342448,Fix Released,get_ipv4_addr fails if interface has no addresses,https://bugs.launchpad.net/ironic/+bug/1342448,2014-10-16
+1335189,1335189,Fix Released,Fix the section name in CONTRIBUTING.rst,https://bugs.launchpad.net/ironic/+bug/1335189,2014-10-16
+1325663,1325663,Fix Released,Nova in debug causes a lot of ironicclient debug logging,https://bugs.launchpad.net/ironic/+bug/1325663,2014-10-16
+1340280,1340280,Fix Released,"Api ""limit"" parameter should only accept positive values",https://bugs.launchpad.net/ironic/+bug/1340280,2014-10-16
+1334489,1334489,Fix Released,hardcoded glance protocol,https://bugs.launchpad.net/ironic/+bug/1334489,2014-10-16
+1333683,1333683,Fix Released,"DB-API allows changing UUID for Node, Chassis and Port",https://bugs.launchpad.net/ironic/+bug/1333683,2014-10-16
+1332741,1332741,Fix Released,Convert Readme files in ironic-python-agent to rst from md,https://bugs.launchpad.net/ironic/+bug/1332741,2014-10-16
+1331415,1331415,Fix Released,No documentation for vendor_passthru HTTP API,https://bugs.launchpad.net/ironic/+bug/1331415,2014-10-16
+1329389,1329389,Fix Released,from_chassis/from_nodes internal flags appearing in the documentation,https://bugs.launchpad.net/ironic/+bug/1329389,2014-10-16
+1320090,1320090,Fix Released,pxe_ephemeral_format': u'ext4 left on nodes after deploys deleted,https://bugs.launchpad.net/ironic/+bug/1320090,2014-10-16
+1312632,1312632,Fix Released,Passing the 'node' parameter to the driver interfaces,https://bugs.launchpad.net/ironic/+bug/1312632,2014-10-16
+1312383,1312383,Fix Released,drivers' VendorPassthru's validate should call _parse_driver_info,https://bugs.launchpad.net/ironic/+bug/1312383,2014-10-16
+1310132,1310132,Fix Released,Get console log when using ironic nova driver returns 400 due to improper arguments,https://bugs.launchpad.net/ironic/+bug/1310132,2014-10-16
+1297404,1297404,Fix Released,Unit test coverage for _do_sync_power_state should be improved,https://bugs.launchpad.net/ironic/+bug/1297404,2014-10-16
+1288363,1288363,Fix Released,driver interface' validate() should not return anything,https://bugs.launchpad.net/ironic/+bug/1288363,2014-10-16
+1334027,1334027,Fix Released,Running multiple tempest tests that require spawned instances will fail against devstack + ironic,https://bugs.launchpad.net/ironic/+bug/1334027,2014-10-16
+1332860,1332860,Fix Released,Race in check_deploy_timeouts,https://bugs.launchpad.net/ironic/+bug/1332860,2014-10-16
+1332000,1332000,Fix Released,Slow IPMI tests,https://bugs.launchpad.net/ironic/+bug/1332000,2014-10-16
+1327923,1327923,Fix Released,Agent HardwareManager loading always loads GenericHardwareManager,https://bugs.launchpad.net/ironic/+bug/1327923,2014-10-16

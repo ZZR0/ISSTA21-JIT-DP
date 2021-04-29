@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1035326,1035326,Fix Released,keystone should allow different bind addresses for admin and public,https://bugs.launchpad.net/keystone/+bug/1035326,2014-04-17
+1246489,1246489,Fix Released,races in assignment sql backend cause spurious 404s and transient errors while granting roles,https://bugs.launchpad.net/keystone/+bug/1246489,2014-04-17
+1242855,1242855,Fix Released,[OSSA 2013-028] Removing role adds role with LDAP backend,https://bugs.launchpad.net/ossa/+bug/1242855,2014-04-17
+1242855,1242855,Fix Released,[OSSA 2013-028] Removing role adds role with LDAP backend,https://bugs.launchpad.net/keystone/+bug/1242855,2014-04-17
+1298154,1298154,Fix Released,test_ratelimit_sleep_with_incr unreliable in gate,https://bugs.launchpad.net/swift/+bug/1298154,2014-04-17
+1292784,1292784,Fix Released,race with container recreate,https://bugs.launchpad.net/swift/+bug/1292784,2014-04-17
+1292158,1292158,Fix Released,account acl functest is always skipped,https://bugs.launchpad.net/swift/+bug/1292158,2014-04-17
+1285392,1285392,Fix Released,gatekeeper middleware removes duplicate headers in response,https://bugs.launchpad.net/swift/+bug/1285392,2014-04-17
+1285040,1285040,Fix Released,"assertEquals is deprecated, need use assertEqual",https://bugs.launchpad.net/swift/+bug/1285040,2014-04-17
+1277046,1277046,Fix Released,internal client does work with conf.d,https://bugs.launchpad.net/swift/+bug/1277046,2014-04-17
+1272509,1272509,Fix Released,test_node_read_timeout_retry from unit.proxy.test_mem_server.TestObjectController failed in the gate during verify,https://bugs.launchpad.net/swift/+bug/1272509,2014-04-17
+1261692,1261692,Fix Released,"swift-recon ignores zone filter if set to ""0""",https://bugs.launchpad.net/swift/+bug/1261692,2014-04-17
+1254626,1254626,Fix Released,Invalid X-Copy-From value and Account Quotas results in 500,https://bugs.launchpad.net/swift/+bug/1254626,2014-04-17
+1224208,1224208,Fix Released,manager test_wait fails sporadically in python26 unit tests,https://bugs.launchpad.net/swift/+bug/1224208,2014-04-17
+1190244,1190244,Fix Released,TestGreenThreadSafeIterator test reports an error and than OK,https://bugs.launchpad.net/swift/+bug/1190244,2014-04-17
+1297438,1297438,Fix Released,proxy incorrectly logs manifest object reads,https://bugs.launchpad.net/swift/+bug/1297438,2014-04-17
+1296941,1296941,Fix Released,SLO: range GET returns incorrect Http message when inner SLOs are used,https://bugs.launchpad.net/swift/+bug/1296941,2014-04-17
+1241175,1241175,Fix Released,make sample config generation work with oslo messaging,https://bugs.launchpad.net/nova/+bug/1241175,2014-04-17
+1224898,1224898,Fix Released,The string greater than the declared on column in MySQL silently truncated.,https://bugs.launchpad.net/heat/+bug/1224898,2014-04-17
+1307894,1307894,Fix Released,glance database creation error,https://bugs.launchpad.net/openstack-manuals/+bug/1307894,2014-04-17
+1240197,1240197,Fix Released,Add support for 'auto' number of API or conductor workers,https://bugs.launchpad.net/nova/+bug/1240197,2014-04-17
+1304571,1304571,Fix Released,euca-bundle-image requires a new architecture parameter,https://bugs.launchpad.net/devstack/+bug/1304571,2014-04-17
+1257748,1257748,Fix Released,Migrate to oslo.messaging,https://bugs.launchpad.net/openstack-manuals/+bug/1257748,2014-04-17
+1278259,1278259,Fix Released,Allow different login methods to be used with kombu connections,https://bugs.launchpad.net/openstack-manuals/+bug/1278259,2014-04-17
+1287345,1287345,Fix Released,Chapter 7. Block Storage in OpenStack Configuration Reference  - havana,https://bugs.launchpad.net/openstack-manuals/+bug/1287345,2014-04-17
+1293809,1293809,Fix Released,Replace httplib.HTTPSConnection in ec2_token,https://bugs.launchpad.net/openstack-manuals/+bug/1293809,2014-04-17
+1264174,1264174,Fix Released,Increase importance of keystonerc creation and usage,https://bugs.launchpad.net/openstack-manuals/+bug/1264174,2014-04-17
+1277530,1277530,Fix Released,"Configure logical network in OpenStack Installation Guide for Red Hat Enterprise Linux, CentOS, and Fedora  - havana",https://bugs.launchpad.net/openstack-manuals/+bug/1277530,2014-04-17
+1302231,1302231,Fix Released,Replace HTTPSConnection in NEC plugin,https://bugs.launchpad.net/openstack-manuals/+bug/1302231,2014-04-17
+1291090,1291090,Fix Released,Install Compute controller services in OpenStack Installation Guide for Ubuntu 12.04 (LTS)  - icehouse,https://bugs.launchpad.net/openstack-manuals/+bug/1291090,2014-04-17
+1297083,1297083,Fix Released,Change the default version discovery URLs,https://bugs.launchpad.net/openstack-manuals/+bug/1297083,2014-04-17
+1307278,1307278,Fix Released,v2 token generation shouldn't allow arbitrary data,https://bugs.launchpad.net/python-keystoneclient/+bug/1307278,2014-04-17
+1260189,1260189,Fix Released,Add decorator expected_errors for flavors_extraspecs v3,https://bugs.launchpad.net/openstack-api-site/+bug/1260189,2014-04-17
+1259131,1259131,Fix Released,Use 201 instead of 200 for action create of flavor-manage v3,https://bugs.launchpad.net/openstack-api-site/+bug/1259131,2014-04-17
+1258726,1258726,Fix Released,Remove traces of V3 personality extension from api samples,https://bugs.launchpad.net/openstack-api-site/+bug/1258726,2014-04-17
+1258725,1258725,Fix Released,Removes os-personalities extension from the V3 API,https://bugs.launchpad.net/openstack-api-site/+bug/1258725,2014-04-17
+1291148,1291148,Fix Released,v2.0/tokens/tenants -- There is no such api in keystone,https://bugs.launchpad.net/openstack-api-site/+bug/1291148,2014-04-17
+1288194,1288194,Fix Released,lvactivate failed for glance,https://bugs.launchpad.net/fuel/+bug/1288194,2014-04-16
+1281138,1281138,Fix Released,cleanup does not work in LxcProvider,https://bugs.launchpad.net/rally/+bug/1281138,2014-04-16
+1301360,1301360,Fix Released,rally fails to delete task,https://bugs.launchpad.net/rally/+bug/1301360,2014-04-16
+1308471,1308471,Fix Released,incorrect sorting table in `rally verify list`,https://bugs.launchpad.net/rally/+bug/1308471,2014-04-16
+1308029,1308029,Fix Released,tests fail when OS_REGION_NAME env var is set,https://bugs.launchpad.net/rally/+bug/1308029,2014-04-16
+1306801,1306801,Fix Released,Glance cleanup context is broken,https://bugs.launchpad.net/rally/+bug/1306801,2014-04-16
+1307189,1307189,Fix Released,"Install the Identity Service in OpenStack Installation Guide for Red Hat Enterprise Linux, CentOS, and Fedora  - havana",https://bugs.launchpad.net/openstack-manuals/+bug/1307189,2014-04-16
+1307907,1307907,Fix Released,missing images/master_images directory for Ironic,https://bugs.launchpad.net/tripleo/+bug/1307907,2014-04-16
+1202692,1202692,Fix Released,Update EMC instructions in Block Storage Admin Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1202692,2014-04-16
+1307514,1307514,Fix Released,Verify networks button is disabled after deployment,https://bugs.launchpad.net/fuel/+bug/1307514,2014-04-16
+1304306,1304306,Fix Released,failure in rabbitmq os-refresh-config on master node,https://bugs.launchpad.net/tripleo/+bug/1304306,2014-04-16
+1308326,1308326,Fix Released,API Writers Guide link is broken,https://bugs.launchpad.net/openstack-manuals/+bug/1308326,2014-04-16
+1308188,1308188,Fix Released,can't cleanup resources,https://bugs.launchpad.net/rally/+bug/1308188,2014-04-16
+1308414,1308414,Fix Released,designate record-list should also display record data,https://bugs.launchpad.net/python-designateclient/+bug/1308414,2014-04-16
+1277535,1277535,Fix Released,curl multiplexing problem with some curl versions,https://bugs.launchpad.net/openstack-sdk-php/+bug/1277535,2014-04-15
+1252453,1252453,Fix Released,create secret - content type should be case insensitive,https://bugs.launchpad.net/barbican/+bug/1252453,2014-04-15
+1291008,1291008,Fix Released,API should return 401 for failed authorization and 403 when an authorized user does not have permissions for a resource,https://bugs.launchpad.net/barbican/+bug/1291008,2014-04-15
+1290445,1290445,Fix Released,Do we really need to RBAC protect version resource,https://bugs.launchpad.net/barbican/+bug/1290445,2014-04-15
+1285497,1285497,Fix Released,Test fails when using iso8601 version 0.1.9,https://bugs.launchpad.net/barbican/+bug/1285497,2014-04-15
+1291482,1291482,Fix Released,secret create 500 due to format string in py26,https://bugs.launchpad.net/barbican/+bug/1291482,2014-04-15
+1296969,1296969,Fix Released,barbican resource calls fail with 404,https://bugs.launchpad.net/barbican/+bug/1296969,2014-04-15
+1095500,1095500,Fix Released,grizzly: Allow specification of optional domain name space in identity-api,https://bugs.launchpad.net/openstack-api-site/+bug/1095500,2014-04-15
+1307852,1307852,Fix Released,Correct orchestration stack abandon api,https://bugs.launchpad.net/openstack-api-site/+bug/1307852,2014-04-15
+1299350,1299350,Fix Released,Network AgentManagementTest fails,https://bugs.launchpad.net/tempest/+bug/1299350,2014-04-15
+1305781,1305781,Fix Committed,build new RPM for docker 0.10,https://bugs.launchpad.net/fuel/+bug/1305781,2014-04-15
+1307323,1307323,Fix Released,Got import errors when default clients is not available,https://bugs.launchpad.net/tempest/+bug/1307323,2014-04-15
+1295404,1295404,Fix Released,StackBuildErrorException raised with incorrect parameters,https://bugs.launchpad.net/tempest/+bug/1295404,2014-04-15
+1226394,1226394,Fix Released,Document Nicira NVP L3 Advanced Features Extension,https://bugs.launchpad.net/openstack-manuals/+bug/1226394,2014-04-14
+1306935,1306935,Fix Released,ISO smoke test is broken: KeyError: 'floating',https://bugs.launchpad.net/fuel/+bug/1306935,2014-04-14
+1298933,1298933,Fix Released,logging error in nailgun when ran as uwsgi app,https://bugs.launchpad.net/fuel/+bug/1298933,2014-04-14
+1301814,1301814,Fix Released,Nailgun tests fail with circular import of NetworkManager,https://bugs.launchpad.net/fuel/+bug/1301814,2014-04-14
+1301934,1301934,Fix Released,UI settings does not lock after deployment,https://bugs.launchpad.net/fuel/+bug/1301934,2014-04-14
+1286962,1286962,Fix Released,hyperv: Retry after WMI query fails to find dev,https://bugs.launchpad.net/openstack-manuals/+bug/1286962,2014-04-14
+1279518,1279518,Fix Released,Move policy check of start/stop to api layer,https://bugs.launchpad.net/openstack-manuals/+bug/1279518,2014-04-14
+1279070,1279070,Fix Released,Allow multiple DNS forwarders for dnsmasq,https://bugs.launchpad.net/openstack-manuals/+bug/1279070,2014-04-14
+1278656,1278656,Fix Released,Allow operators to customize max header size,https://bugs.launchpad.net/openstack-manuals/+bug/1278656,2014-04-14
+1195473,1195473,Fix Released,Need some docs about Glance notifications with examples,https://bugs.launchpad.net/openstack-api-site/+bug/1195473,2014-04-14
+1195340,1195340,Fix Released,Implements configurable swift_owner_headers,https://bugs.launchpad.net/openstack-manuals/+bug/1195340,2014-04-14

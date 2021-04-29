@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1740107,1740107,Fix Released,api-ref: Fix incorrect parameter name in os-instance-actions.inc,https://bugs.launchpad.net/nova/+bug/1740107,2018-01-26
+1741307,1741307,Fix Released,Resize always fails when using the CachingScheduler,https://bugs.launchpad.net/nova/+bug/1741307,2018-01-26
+1742688,1742688,Fix Released,test_live_migration_actions notification sample test fails intermittently with 'notification instance.live_migration_rollback.start hasn't been received',https://bugs.launchpad.net/nova/+bug/1742688,2018-01-26
+1725331,1725331,Fix Released,'nova-manage cell_v2 delete_cell' fails even if all instances have been deleted in the cell,https://bugs.launchpad.net/nova/+bug/1725331,2018-01-26
+1742935,1742935,Fix Released,TestServiceUpdateNotificationSample fails intermittently: u'host2' != u'host1': path: root.payload.nova_object.data.host,https://bugs.launchpad.net/nova/+bug/1742935,2018-01-26
+1732707,1732707,Fix Released,AllocationCandidates.get_by_filters returns candidates containing non connected RPs,https://bugs.launchpad.net/nova/+bug/1732707,2018-01-26
+1705231,1705231,Fix Released,Placement returns no allocation candidate for request that  needs both compute resources and custom shared resources,https://bugs.launchpad.net/nova/+bug/1705231,2018-01-26
+1742133,1742133,Fix Released,No rescue and unrescue versioned notifications,https://bugs.launchpad.net/nova/+bug/1742133,2018-01-26
+1739571,1739571,Fix Released,Can't delete root resource provider because of the self foreign key,https://bugs.launchpad.net/nova/+bug/1739571,2018-01-26
+1743728,1743728,Fix Released,"giturl not working for api-ref (nova, neutron-lib)",https://bugs.launchpad.net/neutron/+bug/1743728,2018-01-26
+1743728,1743728,Fix Released,"giturl not working for api-ref (nova, neutron-lib)",https://bugs.launchpad.net/nova/+bug/1743728,2018-01-26
+1744780,1744780,Fix Released,Nova::Cell_v2::Simple_setup/Nova_cell_v2[cell0] fails on master promote,https://bugs.launchpad.net/nova/+bug/1744780,2018-01-26
+1744780,1744780,Fix Released,Nova::Cell_v2::Simple_setup/Nova_cell_v2[cell0] fails on master promote,https://bugs.launchpad.net/tripleo/+bug/1744780,2018-01-26
+1707377,1707377,Fix Released,Quota usage value error,https://bugs.launchpad.net/manila/+bug/1707377,2018-01-26
+1707379,1707379,Fix Released,Quota usage value error in batch delete,https://bugs.launchpad.net/manila/+bug/1707379,2018-01-26
+1736370,1736370,Fix Released,QNAP Manila driver: Access rule setting is override by the later access rule setting.,https://bugs.launchpad.net/manila/+bug/1736370,2018-01-26
+1741006,1741006,Fix Released,docs job fail when running tox -e docs,https://bugs.launchpad.net/manila/+bug/1741006,2018-01-26
+1705540,1705540,Fix Released,Add quotas per share type,https://bugs.launchpad.net/manila/+bug/1705540,2018-01-26
+1735832,1735832,Fix Released,LVM driver denies access to root users on read-only NFS shares,https://bugs.launchpad.net/manila/+bug/1735832,2018-01-26
+1741568,1741568,Fix Released,Generic driver volume attach fails due to 'reserved' state,https://bugs.launchpad.net/manila/+bug/1741568,2018-01-26
+1657002,1657002,Fix Released,Add MapR-FS native driver,https://bugs.launchpad.net/manila/+bug/1657002,2018-01-26
+1713591,1713591,Fix Released,Warning message is not shown on launch instance modal,https://bugs.launchpad.net/horizon/+bug/1713591,2018-01-26
+1686449,1686449,Fix Released,Fix create instances error when selected network has no subnets,https://bugs.launchpad.net/horizon/+bug/1686449,2018-01-26
+1702189,1702189,Fix Released,"Click ""Open Console"" link on the instance balloon of network topology will open two windows",https://bugs.launchpad.net/horizon/+bug/1702189,2018-01-26
+1631193,1631193,Fix Released,"""Volume Transfer"" rendered as page instead of modal",https://bugs.launchpad.net/horizon/+bug/1631193,2018-01-26
+1733186,1733186,Fix Released,Snapshot table in Admin volume detail does not show snapshots for different project,https://bugs.launchpad.net/horizon/+bug/1733186,2018-01-26
+1722417,1722417,Fix Released,[Performance] Useless network API calls on instance panel,https://bugs.launchpad.net/horizon/+bug/1722417,2018-01-26
+1737558,1737558,Fix Released,instance description is shown only when it has a value,https://bugs.launchpad.net/horizon/+bug/1737558,2018-01-26
+1711486,1711486,Fix Released,Admin dashboard instances index page generated duplicate Glance requests,https://bugs.launchpad.net/horizon/+bug/1711486,2018-01-26
+1728761,1728761,Fix Released,[Pike support] Use volumev3 and cinderv3 in dashboard,https://bugs.launchpad.net/horizon/+bug/1728761,2018-01-26
+1738328,1738328,Fix Released,"Cannot specify ""#"" as name of a flavor",https://bugs.launchpad.net/horizon/+bug/1738328,2018-01-26
+1739533,1739533,Fix Released,We can not modify flavor access while it is not public,https://bugs.launchpad.net/horizon/+bug/1739533,2018-01-26
+1498352,1498352,Fix Released,Traceback when neutron does not support port binding extension in admin screen,https://bugs.launchpad.net/horizon/+bug/1498352,2018-01-26
+1402959,1402959,Fix Released,Support Launching an instance with a port with vnic_type=direct,https://bugs.launchpad.net/horizon/+bug/1402959,2018-01-26
+1737900,1737900,Fix Released,Random volume type on create volume from image,https://bugs.launchpad.net/horizon/+bug/1737900,2018-01-26
+1738537,1738537,Fix Released,Unable to use @memoized cache when calling nova get_microversion function,https://bugs.launchpad.net/horizon/+bug/1738537,2018-01-26
+1741493,1741493,Fix Released,OverflowError at /project/network_topology/,https://bugs.launchpad.net/horizon/+bug/1741493,2018-01-26
+1583757,1583757,Fix Released,multiline blocktrans in django templates should use 'trimmed' option,https://bugs.launchpad.net/horizon/+bug/1583757,2018-01-26
+1741420,1741420,Fix Released,Some openstack dashboard screenshots are out od date,https://bugs.launchpad.net/horizon/+bug/1741420,2018-01-26
+1742412,1742412,Fix Released,Unicode handling error in transfer credentials,https://bugs.launchpad.net/horizon/+bug/1742412,2018-01-26
+1713497,1713497,Fix Released,Unordered projects,https://bugs.launchpad.net/horizon/+bug/1713497,2018-01-26
+1337473,1337473,Fix Released,horizon gets the default quota for floating ips for new projects from the what the current user has,https://bugs.launchpad.net/horizon/+bug/1337473,2018-01-26
+1743233,1743233,Fix Released,quota defaults: neutron quota names are not translated,https://bugs.launchpad.net/horizon/+bug/1743233,2018-01-26
+1606294,1606294,Fix Released,Error 404 is poorly styled,https://bugs.launchpad.net/horizon/+bug/1606294,2018-01-26
+1661350,1661350,Fix Released,Empty white box in Network Topology when there's nothing to show,https://bugs.launchpad.net/horizon/+bug/1661350,2018-01-26
+1743685,1743685,Fix Released,Resizing the window security groups causes text clipping,https://bugs.launchpad.net/horizon/+bug/1743685,2018-01-26
+1736048,1736048,Fix Released,Cannot modify links in user menu,https://bugs.launchpad.net/horizon/+bug/1736048,2018-01-26
+1728533,1728533,Fix Released,Serial console should be resizable,https://bugs.launchpad.net/horizon/+bug/1728533,2018-01-26
+1722726,1722726,Fix Released,Neutron port shouldn't be reprocessed if the vNIC was not found,https://bugs.launchpad.net/networking-hyperv/+bug/1722726,2018-01-26
+1231101,1231101,Fix Released,Implicit mappings should be removed from the Hyper-V agent for consistency with the ML2 driver,https://bugs.launchpad.net/networking-hyperv/+bug/1231101,2018-01-26
+1731491,1731491,Fix Released,networking-hyperv does not support oslo.config generator,https://bugs.launchpad.net/networking-hyperv/+bug/1731491,2018-01-26
+1592777,1592777,Fix Released,neutron-hyperv-agent shouldn't run if the OVS extension if active,https://bugs.launchpad.net/networking-hyperv/+bug/1592777,2018-01-26
+1744937,1744937,Fix Released,Neutron Hyper-V Agent does not allow MAC spoofing,https://bugs.launchpad.net/networking-hyperv/+bug/1744937,2018-01-26
+1744751,1744751,Fix Released,Logs spam generated by locks,https://bugs.launchpad.net/networking-hyperv/+bug/1744751,2018-01-26
+1745362,1745362,Fix Released,Trunk VLANs not set,https://bugs.launchpad.net/networking-hyperv/+bug/1745362,2018-01-26
+1709608,1709608,Fix Released,freezer client init error,https://bugs.launchpad.net/freezer/+bug/1709608,2018-01-26
+1715539,1715539,Fix Released,freezerclient guess auth version error,https://bugs.launchpad.net/freezer/+bug/1715539,2018-01-26
+1745099,1745099,Fix Released,ironic client can not set portgroup mode as integer,https://bugs.launchpad.net/python-ironicclient/+bug/1745099,2018-01-26
+1724183,1724183,Fix Released,"Attr ""description"" can not be set for share type",https://bugs.launchpad.net/manila/+bug/1724183,2018-01-26
+1724183,1724183,Fix Released,"Attr ""description"" can not be set for share type",https://bugs.launchpad.net/python-manilaclient/+bug/1724183,2018-01-26
+1710769,1710769,Fix Released,Server without keypair can not be adopted success,https://bugs.launchpad.net/senlin/+bug/1710769,2018-01-26
+1715070,1715070,Fix Released,Senlin cann't surpport attach loadbalancer policy to a cluster which the loadbalancer already existed,https://bugs.launchpad.net/senlin/+bug/1715070,2018-01-26
+1716812,1716812,Fix Released,policy validate cann't work when create a policy,https://bugs.launchpad.net/senlin/+bug/1716812,2018-01-26
+1730265,1730265,Fix Released,health manager profile type name error,https://bugs.launchpad.net/senlin/+bug/1730265,2018-01-26
+1730332,1730332,Fix Released,failed to create health_policy in listening model,https://bugs.launchpad.net/senlin/+bug/1730332,2018-01-26
+1730296,1730296,Fix Released,When create health_policy_event policy error,https://bugs.launchpad.net/senlin/+bug/1730296,2018-01-26
+1738430,1738430,Fix Released,Unit tests related to FWaas are failing,https://bugs.launchpad.net/python-neutronclient/+bug/1738430,2018-01-26
+1731116,1731116,Fix Released,Node recover error when name is None,https://bugs.launchpad.net/senlin/+bug/1731116,2018-01-26
+1731120,1731120,Fix Released,Node nova rebuild physical_id return error,https://bugs.launchpad.net/senlin/+bug/1731120,2018-01-26
+1669252,1669252,Fix Released,Add support VPNaaS,https://bugs.launchpad.net/python-neutronclient/+bug/1669252,2018-01-26
+1732821,1732821,Fix Released,Health manager node-recover parameter miss,https://bugs.launchpad.net/senlin/+bug/1732821,2018-01-26
+1734616,1734616,Fix Released,cluster resize error,https://bugs.launchpad.net/senlin/+bug/1734616,2018-01-26
+1735056,1735056,Fix Released,Node check physical_id not found record error,https://bugs.launchpad.net/senlin/+bug/1735056,2018-01-26
+1736307,1736307,Fix Released,Health_manager node recover repeat,https://bugs.launchpad.net/senlin/+bug/1736307,2018-01-26
+1740377,1740377,Fix Released,"Cannot create a cluster and with the error messay ""Field `user' cannot be None""",https://bugs.launchpad.net/senlin/+bug/1740377,2018-01-26

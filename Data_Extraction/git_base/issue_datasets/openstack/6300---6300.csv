@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1514331,1514331,Fix Released,Replace oslo_utils.timeutils.isotime by datetime.datetime.isoformat,https://bugs.launchpad.net/magnum/+bug/1514331,2019-07-25
+1514331,1514331,Fix Released,Replace oslo_utils.timeutils.isotime by datetime.datetime.isoformat,https://bugs.launchpad.net/tempest/+bug/1514331,2019-07-25
+1514331,1514331,Fix Released,Replace oslo_utils.timeutils.isotime by datetime.datetime.isoformat,https://bugs.launchpad.net/ceilometer/+bug/1514331,2019-07-25
+1514331,1514331,Fix Released,Replace oslo_utils.timeutils.isotime by datetime.datetime.isoformat,https://bugs.launchpad.net/manila/+bug/1514331,2019-07-25
+1514331,1514331,Fix Released,Replace oslo_utils.timeutils.isotime by datetime.datetime.isoformat,https://bugs.launchpad.net/watcher/+bug/1514331,2019-07-25
+1514331,1514331,Fix Released,Replace oslo_utils.timeutils.isotime by datetime.datetime.isoformat,https://bugs.launchpad.net/senlin/+bug/1514331,2019-07-25
+1514331,1514331,Fix Released,Replace oslo_utils.timeutils.isotime by datetime.datetime.isoformat,https://bugs.launchpad.net/murano/+bug/1514331,2019-07-25
+1363986,1363986,Fix Released,Hyper-V security groups tests fail due to lack of ICMP stateful ACLs support,https://bugs.launchpad.net/tempest/+bug/1363986,2019-07-25
+1823880,1823880,Fix Released,Unable to remove volume type until image cache has been cleared,https://bugs.launchpad.net/tempest/+bug/1823880,2019-07-25
+1824018,1824018,Fix Released,Neutron cleanup fails sometimes due to 404 response,https://bugs.launchpad.net/tempest/+bug/1824018,2019-07-25
+1826301,1826301,Fix Released,Fix bug of test_change_server_password,https://bugs.launchpad.net/tempest/+bug/1826301,2019-07-25
+1826953,1826953,Fix Released,"test_encrypted_cinder_volumes_luks intermittently fails with ""Volume Type luks already exists.""",https://bugs.launchpad.net/tempest/+bug/1826953,2019-07-25
+1829475,1829475,Fix Released,Mismatch error due to map in python3,https://bugs.launchpad.net/tempest/+bug/1829475,2019-07-25
+1647999,1647999,Fix Released,Tempest Tests with multilpe Availability Zones,https://bugs.launchpad.net/tempest/+bug/1647999,2019-07-25
+1831866,1831866,Fix Released,tempest.api.compute.servers.test_servers.ServerShowV263Test only passing when image has already been cached,https://bugs.launchpad.net/tempest/+bug/1831866,2019-07-25
+1824795,1824795,Fix Released,FlavorsV2NegativeTest fails if locale is not C or en,https://bugs.launchpad.net/tempest/+bug/1824795,2019-07-25
+1834461,1834461,Fix Released,tempest.api.compute.servers.test_servers.ServerShowV263Test.test_show_update_rebuild_list_server - duplicate imageRef kwargs used to create_server,https://bugs.launchpad.net/tempest/+bug/1834461,2019-07-25
+1834758,1834758,Fix Released,Race condition in tempest.api.compute.servers.test_attach_interfaces.AttachInterfacesUnderV243Test. test_add_remove_fixed_ip,https://bugs.launchpad.net/tempest/+bug/1834758,2019-07-25
+1821384,1821384,Fix Released,Customization of ubuntu image fails before upload to devstack,https://bugs.launchpad.net/neutron/+bug/1821384,2019-07-25
+1822453,1822453,Fix Released,neutron-tempest-plugin-designate-scenario is broken,https://bugs.launchpad.net/neutron/+bug/1822453,2019-07-25
+1822453,1822453,Fix Released,neutron-tempest-plugin-designate-scenario is broken,https://bugs.launchpad.net/devstack/+bug/1822453,2019-07-25
+1829962,1829962,Fix Released,base url is not normalized when get resource uri from href,https://bugs.launchpad.net/neutron/+bug/1829962,2019-07-25
+1832968,1832968,Fix Released,neutron tempest test fails 100% due to abandoned ubuntu image release,https://bugs.launchpad.net/neutron/+bug/1832968,2019-07-25
+1469179,1469179,Fix Released,instance.root_gb should be 0 for volume-backed instances,https://bugs.launchpad.net/nova/+bug/1469179,2019-07-25
+1837697,1837697,Fix Released,"CI jobs failing during tempest setup with ""ERROR: No matching distribution found for pyparsing===2.4.1""",https://bugs.launchpad.net/tripleo/+bug/1837697,2019-07-25
+1195361,1195361,Fix Released,QEMU hypervisor type returned when libvirt_type = kvm,https://bugs.launchpad.net/openstack-manuals/+bug/1195361,2019-07-24
+1828599,1828599,Fix Released,octavia tries to set up the service project quota over public interface,https://bugs.launchpad.net/openstack-ansible/+bug/1828599,2019-07-23
+1831160,1831160,Fix Released,octavia playbook error certificate verify failed,https://bugs.launchpad.net/openstack-ansible/+bug/1831160,2019-07-23
+1639188,1639188,Fix Released,The share extend error in generic driver.,https://bugs.launchpad.net/manila/+bug/1639188,2019-07-23
+1378904,1378904,Fix Released,renaming availability zone doesn't modify host's availability zone,https://bugs.launchpad.net/nova/+bug/1378904,2019-07-23
+1831183,1831183,Fix Released,octavia: octavia-amphora-image upload to glance failed,https://bugs.launchpad.net/openstack-ansible/+bug/1831183,2019-07-23
+1737355,1737355,Fix Released,Add support for enhanced features to the QNAP Cinder driver,https://bugs.launchpad.net/cinder/+bug/1737355,2019-07-23
+1670693,1670693,Fix Released,Tests in tempest.api.network.test_routers.RoutersTest don't clean up network resources,https://bugs.launchpad.net/tempest/+bug/1670693,2019-07-23
+1778022,1778022,Fix Released,netapp cdot compression requires deduplication,https://bugs.launchpad.net/manila/+bug/1778022,2019-07-22
+1816836,1816836,Fix Released,manila's devstack plugin fails with tls_proxy enabled,https://bugs.launchpad.net/manila/+bug/1816836,2019-07-22
+1831882,1831882,Fix Released,trunk plugin allows deletion of a trunk's parent or sub/child port without first deleting the trunk itself,https://bugs.launchpad.net/networking-vpp/+bug/1831882,2019-07-22
+1830703,1830703,Fix Released,trunk plugin returns trunk data as object instead of dict causing OPNFV test cases to fail,https://bugs.launchpad.net/networking-vpp/+bug/1830703,2019-07-22
+1835919,1835919,Fix Released,devstack fails with networking-vpp 19.04,https://bugs.launchpad.net/networking-vpp/+bug/1835919,2019-07-22
+1649735,1649735,Fix Released,OSError raised on directory creation race,https://bugs.launchpad.net/keystonemiddleware/+bug/1649735,2019-07-22
+1829802,1829802,Fix Released,request strategy does not print useful auth type log,https://bugs.launchpad.net/keystonemiddleware/+bug/1829802,2019-07-22
+1765679,1765679,Fix Released,get_container_info may lose all sysmeta,https://bugs.launchpad.net/swift/+bug/1765679,2019-07-22
+1821240,1821240,Fix Released,inconsistent url quoting in x-symlink-target,https://bugs.launchpad.net/swift/+bug/1821240,2019-07-22
+1822731,1822731,Fix Released,object-replicator doesn't work while specifying partition number  in once mode,https://bugs.launchpad.net/swift/+bug/1822731,2019-07-22
+1665141,1665141,Fix Released,Reconstructor should not hash suffixes after failure,https://bugs.launchpad.net/swift/+bug/1665141,2019-07-22
+1831932,1831932,Fix Released,Swift a4cc353375 does not work on Ubuntu Trusty (Python < 2.7.9),https://bugs.launchpad.net/swift/+bug/1831932,2019-07-22
+1691075,1691075,Fix Released,swift-object-server fails to start in python 3.5 environment with devstack,https://bugs.launchpad.net/swift/+bug/1691075,2019-07-22
+1833616,1833616,Fix Released,container_info non-result causes object writes to 404,https://bugs.launchpad.net/swift/+bug/1833616,2019-07-22
+1780204,1780204,Fix Released,Check container existence before creating one in s3api,https://bugs.launchpad.net/swift/+bug/1780204,2019-07-22
+1781291,1781291,Fix Released,sharding: container GETs to root container get slow,https://bugs.launchpad.net/swift/+bug/1781291,2019-07-22
+1696028,1696028,Fix Released,"Cannot create template with error ""The server has either errd or incapable...""",https://bugs.launchpad.net/meteos/+bug/1696028,2019-07-22
+1825111,1825111,Fix Committed,package dependencies error with keystone rel. stein,https://bugs.launchpad.net/keystone/+bug/1825111,2019-07-20
+1837019,1837019,Fix Released,tripleo-ci-centos-7-containers-multinode failing on stable/ branches,https://bugs.launchpad.net/tripleo/+bug/1837019,2019-07-19
+1828974,1828974,Fix Released,rbd mirroring: volume attach failed caused by ceph user keyring different with primary,https://bugs.launchpad.net/cinder/+bug/1828974,2019-07-19
+1837197,1837197,Fix Released,[rdo periodic jobs] RDO periodic pipeline is stuck blocking promotions.,https://bugs.launchpad.net/tripleo/+bug/1837197,2019-07-19
+1708980,1708980,Fix Released,Broken link to dependency (oslo),https://bugs.launchpad.net/puppet-nova/+bug/1708980,2019-07-19
+1624166,1624166,Fix Released,Reverts for DB update tasks need to be corrected,https://bugs.launchpad.net/octavia/+bug/1624166,2019-07-18
+1824300,1824300,Fix Committed,CI: TypeError: get_info() got an unexpected keyword argument 'use_cache',https://bugs.launchpad.net/nova-lxd/+bug/1824300,2019-07-18
+1836643,1836643,Fix Released,rhel8 on rdo missing dependencies,https://bugs.launchpad.net/tripleo/+bug/1836643,2019-07-17
+1836637,1836637,Fix Released,rhel8 on rdo missing virt packages,https://bugs.launchpad.net/tripleo/+bug/1836637,2019-07-17
+1834624,1834624,Fix Released,[rdotrunk][rhel8] missing package scsi-target-utils from rhel8/rhui repos during image build,https://bugs.launchpad.net/tripleo/+bug/1834624,2019-07-17
+1836551,1836551,Fix Released,ttributeError: 'Sphinx' object has no attribute 'info',https://bugs.launchpad.net/masakari/+bug/1836551,2019-07-17
+1634673,1634673,Fix Released,migration task state not updated during driver phase 2,https://bugs.launchpad.net/manila/+bug/1634673,2019-07-15
+1831125,1831125,Fix Released,user can accidentally delete the wrong node,https://bugs.launchpad.net/tripleo/+bug/1831125,2019-07-15
+1781292,1781292,Fix Released,sharding: object reads may return 404s,https://bugs.launchpad.net/swift/+bug/1781292,2019-07-15
+1801101,1801101,Fix Released,Incorrect paste of class ref in Authentication Plugins in keystoneauth1,https://bugs.launchpad.net/keystoneauth/+bug/1801101,2019-07-15
+1827008,1827008,Fix Released,Replace git.openstack.org URLs with opendev.org URLs,https://bugs.launchpad.net/keystoneauth/+bug/1827008,2019-07-15
+1829932,1829932,Fix Released,docs: nova evacuate --on-shared-storage option is not documented,https://bugs.launchpad.net/python-novaclient/+bug/1829932,2019-07-15
+1833327,1833327,Fix Released,"duplicate object description of novaclient, other instance in reference/api/index, use :noindex: for one of them",https://bugs.launchpad.net/python-novaclient/+bug/1833327,2019-07-15
+1833338,1833338,Fix Released,novaclient-dsvm-functional job runs although only document is changed,https://bugs.launchpad.net/python-novaclient/+bug/1833338,2019-07-15
+1712260,1712260,Fix Released,firmware update fails for Gen10 when cleaning happens from ironic,https://bugs.launchpad.net/proliantutils/+bug/1712260,2019-07-15
+1835269,1835269,Fix Released,"App.wsgi was removed from ironic, and now jobs are failing",https://bugs.launchpad.net/tripleo/+bug/1835269,2019-07-15
+1834012,1834012,Fix Released,Loopback addresses should not be routable,https://bugs.launchpad.net/neutron/+bug/1834012,2019-07-15
+1831877,1831877,Fix Released,Reproducer script fails with Ansible ImportError,https://bugs.launchpad.net/tripleo/+bug/1831877,2019-07-14
+1835267,1835267,Fix Released,[DocBug] Deploying with IPSec in tripleo-docs have typo in third paragraph - Fuirthermore,https://bugs.launchpad.net/tripleo/+bug/1835267,2019-07-14
+1826197,1826197,Fix Released,Replace git.openstack.org URLs with opendev.org URLs,https://bugs.launchpad.net/python-keystoneclient/+bug/1826197,2019-07-11

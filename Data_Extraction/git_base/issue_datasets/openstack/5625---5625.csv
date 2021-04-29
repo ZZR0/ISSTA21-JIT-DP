@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1823059,1823059,Fix Released,Specify FROM clause to join from in test_floatingip_via_router_interface_returns_201,https://bugs.launchpad.net/neutron/+bug/1823059,2019-09-19
+1823297,1823297,Fix Released,create of segment range for vlan network type fails with error 500,https://bugs.launchpad.net/neutron/+bug/1823297,2019-09-19
+1823294,1823294,Fix Released,test_update_provider_net_unsupported failure,https://bugs.launchpad.net/neutron/+bug/1823294,2019-09-19
+1823798,1823798,Fix Released,rfp and fpr interfaces not updated after changing network MTU,https://bugs.launchpad.net/neutron/+bug/1823798,2019-09-19
+1824138,1824138,Fix Released,Fullstack QoS tests should not handle other tests port events,https://bugs.launchpad.net/neutron/+bug/1824138,2019-09-19
+1820744,1820744,Fix Released,conntrack v1.4.4 (conntrack-tools): `0' unsupported protocol,https://bugs.launchpad.net/neutron/+bug/1820744,2019-09-19
+1814002,1814002,Fix Released,Packets getting lost during SNAT with too many connections using the same source and destination on Network Node,https://bugs.launchpad.net/neutron/+bug/1814002,2019-09-19
+1825205,1825205,Fix Released,"when the last vm of a network in a compute is live-migrated with DVR enable, the qrouter namespace is not deleted",https://bugs.launchpad.net/neutron/+bug/1825205,2019-09-19
+1822582,1822582,Fix Released,Bulk IPv6 subnet create error,https://bugs.launchpad.net/neutron/+bug/1822582,2019-09-19
+1824346,1824346,Fix Released,"Check in ""_update_segmentation_id"" that the mech_driver has an agent",https://bugs.launchpad.net/neutron/+bug/1824346,2019-09-19
+1826186,1826186,Fix Released,port list / get_ports() fails when filtering and limiting at the same time,https://bugs.launchpad.net/neutron/+bug/1826186,2019-09-19
+1826557,1826557,Fix Released,"Only TC class ""htb"" is supported",https://bugs.launchpad.net/neutron/+bug/1826557,2019-09-19
+1825088,1825088,Fix Released,[port forwarding] should not process port forwarding if snat node only run DHCP,https://bugs.launchpad.net/neutron/+bug/1825088,2019-09-19
+1825787,1825787,Fix Released,[L3][HA] agent HA router count should not include dvr local router,https://bugs.launchpad.net/neutron/+bug/1825787,2019-09-19
+1827089,1827089,Fix Released,Remove deprecated SR-IOV devstack file,https://bugs.launchpad.net/neutron/+bug/1827089,2019-09-19
+1822105,1822105,Fix Released,"Policy rules related to ""sub parameters"" doesn't work properly",https://bugs.launchpad.net/neutron/+bug/1822105,2019-09-19
+1826726,1826726,Fix Released,[L3] stale device/process remain in network node after router removed,https://bugs.launchpad.net/neutron/+bug/1826726,2019-09-19
+1808112,1808112,Fix Released,rule:shared is not respected in port/subnet create,https://bugs.launchpad.net/neutron/+bug/1808112,2019-09-19
+1826570,1826570,Fix Released,"Error in ""tc_lib._handle_from_hex_to_string"" formatting",https://bugs.launchpad.net/neutron/+bug/1826570,2019-09-19
+1828363,1828363,Fix Released,FdbInterfaceTestCase interface names should be randomly generated,https://bugs.launchpad.net/neutron/+bug/1828363,2019-09-19
+1824802,1824802,Fix Released,dhcp agent dnsmasq process mgmt race condition between launch and operations,https://bugs.launchpad.net/neutron/+bug/1824802,2019-09-19
+1810349,1810349,Fix Released,agent gw ports created on non dvr destination hosts,https://bugs.launchpad.net/neutron/+bug/1810349,2019-09-19
+1828053,1828053,Fix Released,GRE tunnels between VMs don't work when openvswitch firewall is used,https://bugs.launchpad.net/neutron/+bug/1828053,2019-09-19
+1827418,1827418,Fix Released,Routed provider networks in neutron - placement CLI example,https://bugs.launchpad.net/neutron/+bug/1827418,2019-09-19
+1823038,1823038,Fix Released,Neutron-keepalived-state-change fails to check initial router state,https://bugs.launchpad.net/neutron/+bug/1823038,2019-09-19
+1829357,1829357,Fix Released,Firewall-as-a-Service (FWaaS) v2 scenario in neutron,https://bugs.launchpad.net/neutron/+bug/1829357,2019-09-19
+1829332,1829332,Fix Released,neutron-server report DhcpPortInUse ERROR log,https://bugs.launchpad.net/neutron/+bug/1829332,2019-09-19
+1829889,1829889,Fix Released,_assert_ipv6_accept_ra method should wait until proper settings will be configured,https://bugs.launchpad.net/neutron/+bug/1829889,2019-09-19
+1785608,1785608,Fix Released,[RFE] neutron ovs agent support baremetal port using smart nic,https://bugs.launchpad.net/neutron/+bug/1785608,2019-09-19
+1828367,1828367,Fix Released,[RFE] Ironic notifier - Notify Ironic on port status changes,https://bugs.launchpad.net/neutron/+bug/1828367,2019-09-19
+1825943,1825943,Fix Released,"[RFE] Implement ""stop agent"" hook script support in Neutron",https://bugs.launchpad.net/neutron/+bug/1825943,2019-09-19
+1830456,1830456,Fix Released,dvr router slow response during port update,https://bugs.launchpad.net/neutron/+bug/1830456,2019-09-19
+1831622,1831622,Fix Released,SRIOV: agent may not register VFs,https://bugs.launchpad.net/neutron/+bug/1831622,2019-09-19
+1830383,1830383,Fix Released,SRIOV: MAC address in use error,https://bugs.launchpad.net/neutron/+bug/1830383,2019-09-19
+1831916,1831916,Fix Released,BGP dynamic routing in neutron,https://bugs.launchpad.net/neutron/+bug/1831916,2019-09-19
+1831647,1831647,Fix Released,Creation of existing resource takes too much time or fails,https://bugs.launchpad.net/neutron/+bug/1831647,2019-09-19
+1832307,1832307,Fix Released,Functional test neutron.tests.functional.agent.linux.test_ip_lib.IpMonitorTestCase. test_add_remove_ip_address_and_interface is failing,https://bugs.launchpad.net/neutron/+bug/1832307,2019-09-19
+1832745,1832745,Fix Released,_update_network_segmentation_id KeyError: 'provider:network_type',https://bugs.launchpad.net/neutron/+bug/1832745,2019-09-19
+1832603,1832603,Fix Released,BGP dynamic routing config doc should use openstack client in examples,https://bugs.launchpad.net/neutron/+bug/1832603,2019-09-19
+1834753,1834753,Fix Released,"TC filter priority parameter in Pyroute is ""prio""",https://bugs.launchpad.net/neutron/+bug/1834753,2019-09-19
+1835448,1835448,Fix Released,Add ipam.utils.check_gateway_invalid_in_subnet unit tests,https://bugs.launchpad.net/neutron/+bug/1835448,2019-09-19
+1836037,1836037,Fix Released,Routed provider networks nova inventory update fails,https://bugs.launchpad.net/neutron/+bug/1836037,2019-09-19
+1836565,1836565,Fix Released,Functional test test_keepalived_state_change_notification may fail due to race condition,https://bugs.launchpad.net/neutron/+bug/1836565,2019-09-19
+1582500,1582500,Fix Released,"icmp, icmpv6 and ipv6-icmp should raise duplicated sg rule exception",https://bugs.launchpad.net/neutron/+bug/1582500,2019-09-19
+1837529,1837529,Fix Released,Cannot use push-notification with custom objects,https://bugs.launchpad.net/neutron/+bug/1837529,2019-09-19
+1834176,1834176,Fix Released,[RFE] Neutron enhancements to support per-physnet and IPoIB interface drivers,https://bugs.launchpad.net/neutron/+bug/1834176,2019-09-19
+1838563,1838563,Fix Released,Timeout in executing ovs command crash ovs agent,https://bugs.launchpad.net/neutron/+bug/1838563,2019-09-19
+1839246,1839246,Fix Released,test_router_add_gateway_no_subnet_forbidden failure,https://bugs.launchpad.net/networking-midonet/+bug/1839246,2019-09-19
+1812225,1812225,Fix Released,Firewall-as-a-Service (FWaaS) in neutron docs for Rocky still refer to plans for Ocata,https://bugs.launchpad.net/neutron/+bug/1812225,2019-09-19
+1843368,1843368,Fix Released,objname error in QosPolicy,https://bugs.launchpad.net/neutron/+bug/1843368,2019-09-19
+1840930,1840930,Fix Released,Networking service in neutron - install guide says to configure nova with [neutron]/url which is deprecated,https://bugs.launchpad.net/neutron/+bug/1840930,2019-09-19
+1841183,1841183,Fix Released,"Concurrency error when executing ""test_update_timpestamp""",https://bugs.launchpad.net/neutron/+bug/1841183,2019-09-19
+1841253,1841253,Fix Released,"""FdbInterfaceTestCase"" fails if VXLAN interface is created (no-namespace cases)",https://bugs.launchpad.net/neutron/+bug/1841253,2019-09-19
+1833122,1833122,Fix Released,FWaaS admin documentation is outdated,https://bugs.launchpad.net/neutron/+bug/1833122,2019-09-19
+1794718,1794718,Fix Released,Neutron VPNAAS don't update site connections on python3,https://bugs.launchpad.net/neutron/+bug/1794718,2019-09-19
+1822921,1822921,Fix Released,[VPNaaS]:  Skip check process status for HA backup routers,https://bugs.launchpad.net/neutron/+bug/1822921,2019-09-19
+1834298,1834298,Fix Released,Neutron-fwaas python 3.7 job is broken,https://bugs.launchpad.net/neutron/+bug/1834298,2019-09-19
+1817455,1817455,Fix Released,FWaaS V2 removing a port from the FW group set the FWG to INACTIVE,https://bugs.launchpad.net/neutron/+bug/1817455,2019-09-19
+1836015,1836015,Fix Released,[neutron-fwaas]firewall goup status is inactive when updating policy in fwg,https://bugs.launchpad.net/neutron/+bug/1836015,2019-09-19
+1783327,1783327,Fix Released,firewall group status  error when restart,https://bugs.launchpad.net/neutron/+bug/1783327,2019-09-19
+1799358,1799358,Fix Released,FWaaS: Default firewall rules disallow connection to running instance,https://bugs.launchpad.net/neutron/+bug/1799358,2019-09-19
+1820293,1820293,Fix Released,Error disassociating bgpspeaker from BGP dr-agent,https://bugs.launchpad.net/neutron/+bug/1820293,2019-09-19
+1831127,1831127,Fix Released,master gate is broken,https://bugs.launchpad.net/networking-bagpipe/+bug/1831127,2019-09-19
+1831127,1831127,Fix Released,master gate is broken,https://bugs.launchpad.net/networking-sfc/+bug/1831127,2019-09-19
+1837373,1837373,Fix Released,functional: some processes get stuck after a while,https://bugs.launchpad.net/networking-ovn/+bug/1837373,2019-09-19
+1838405,1838405,Fix Released,Add support for fragmentation,https://bugs.launchpad.net/networking-ovn/+bug/1838405,2019-09-19
+1822557,1822557,Fix Released,The way to fetch HOST_IP in local.conf.example can lead to invalid ip,https://bugs.launchpad.net/networking-odl/+bug/1822557,2019-09-19
+1822559,1822559,Fix Released,networking-odl is not py3 (python3.6.7) compatible,https://bugs.launchpad.net/networking-odl/+bug/1822559,2019-09-19
+1829117,1829117,Fix Released,bandit complaint about hardcoded password,https://bugs.launchpad.net/networking-midonet/+bug/1829117,2019-09-19
+1822975,1822975,Fix Released,"openstack-tox-lower-constraints failing, related to psycopg",https://bugs.launchpad.net/bgpvpn/+bug/1822975,2019-09-19
+1833051,1833051,Fix Released,Unit tests in networking-bgpvpn are broken,https://bugs.launchpad.net/bgpvpn/+bug/1833051,2019-09-19
+1818624,1818624,Fix Released,Fail to compile openvswitch in fullstack job running on Bionic,https://bugs.launchpad.net/networking-bagpipe/+bug/1818624,2019-09-19
+1818837,1818837,Fix Released,IPVPN OVS driver: Exception getting MPLS interface (patch port case) MAC address,https://bugs.launchpad.net/networking-bagpipe/+bug/1818837,2019-09-19
+1838556,1838556,Fix Released,validations ceph-health incorrectly reports 0 OSDs,https://bugs.launchpad.net/tripleo/+bug/1838556,2019-09-18
+1839625,1839625,Fix Released,conditional check 'ceph_mon_enabled is not succeeded' failed,https://bugs.launchpad.net/tripleo/+bug/1839625,2019-09-18

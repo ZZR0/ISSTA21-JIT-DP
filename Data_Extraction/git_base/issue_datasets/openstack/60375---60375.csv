@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1482575,1482575,Fix Released,"nodes can't be loaded in bootstrap time to time: ""Intel pstate controlling: cpu 0""",https://bugs.launchpad.net/fuel/+bug/1482575,2015-09-17
+1476622,1476622,Fix Released,Add missing test case for unshelving a volume backed instance,https://bugs.launchpad.net/tempest/+bug/1476622,2015-09-17
+1496354,1496354,Fix Released,"[fuel-web] Typo in the docstring for the field ""Openstack Release"" during env creation",https://bugs.launchpad.net/fuel/+bug/1496354,2015-09-17
+1479090,1479090,Fix Released,"API locks up during serialization, Number of nodes to serialize impacts lockup time",https://bugs.launchpad.net/fuel/+bug/1479090,2015-09-17
+1495394,1495394,Fix Released,'command' is missing in install.rst,https://bugs.launchpad.net/gnocchi/+bug/1495394,2015-09-17
+1494348,1494348,Fix Released,Gnocchi uses minified source-less JS files,https://bugs.launchpad.net/gnocchi/+bug/1494348,2015-09-17
+1479819,1479819,Fix Released,From the api it is possible to GET resource history on all the resources but not one. It should be.,https://bugs.launchpad.net/gnocchi/+bug/1479819,2015-09-17
+1481830,1481830,Fix Released,influxdb support needs to be added to devstack and (presumably?) gate,https://bugs.launchpad.net/gnocchi/+bug/1481830,2015-09-17
+1491339,1491339,Fix Released,If gnocchi-metricd has import errors in startup they are swallowed,https://bugs.launchpad.net/gnocchi/+bug/1491339,2015-09-17
+1490553,1490553,Fix Released,search with invalid uuid raise 500,https://bugs.launchpad.net/gnocchi/+bug/1490553,2015-09-17
+1488190,1488190,Fix Released,gnocchi alembic migrations not compatible with alembic 0.8.1,https://bugs.launchpad.net/gnocchi/+bug/1488190,2015-09-17
+1480346,1480346,Fix Released,Gnocchi doesn't accept OpenStack id madness,https://bugs.launchpad.net/gnocchi/+bug/1480346,2015-09-17
+1481782,1481782,Fix Released,neutron needs deep hiera hash lookup for rabbit,https://bugs.launchpad.net/fuel/+bug/1481782,2015-09-17
+1484475,1484475,Fix Released,FPB with plugin v3 requires node_roles.yaml,https://bugs.launchpad.net/fuel/+bug/1484475,2015-09-17
+1487900,1487900,Fix Released,Haproxy should use reload as the restart command may produce several haproxy instances using different configs on the same port,https://bugs.launchpad.net/fuel/+bug/1487900,2015-09-17
+1491112,1491112,Fix Released,thread_2_separate_services job fails by timeout,https://bugs.launchpad.net/fuel/+bug/1491112,2015-09-17
+1479900,1479900,Fix Released,detach-rabbitmq plugin should work in HA mode,https://bugs.launchpad.net/fuel/+bug/1479900,2015-09-17
+1470993,1470993,Fix Released,if compress_static=true failed to apply horizon puppets,https://bugs.launchpad.net/fuel/+bug/1470993,2015-09-17
+1480991,1480991,Fix Released,RabbitMQ module uses RabbitMQ's private API,https://bugs.launchpad.net/fuel/+bug/1480991,2015-09-17
+1486642,1486642,Fix Released,[API] Need to change validator for NetworkConfigurationVerifyHandler,https://bugs.launchpad.net/fuel/+bug/1486642,2015-09-17
+1470664,1470664,Fix Released,Swift broken when headers exceed 8k,https://bugs.launchpad.net/fuel/+bug/1470664,2015-09-17
+1470664,1470664,Fix Released,Swift broken when headers exceed 8k,https://bugs.launchpad.net/puppet-swift/+bug/1470664,2015-09-17
+1489408,1489408,Fix Released,Fix Apache Proxy config to allow connect with https proto,https://bugs.launchpad.net/fuel/+bug/1489408,2015-09-17
+1486543,1486543,Fix Released,[nailgun] Need to add VIPs in new format into API output,https://bugs.launchpad.net/fuel/+bug/1486543,2015-09-17
+1496373,1496373,Fix Released,Fix --force explanation for --delete-from-db,https://bugs.launchpad.net/fuel/+bug/1496373,2015-09-17
+1480259,1480259,Fix Released,[cli] support for PUT on network groups is missing,https://bugs.launchpad.net/fuel/+bug/1480259,2015-09-17
+1496727,1496727,Fix Committed,Kuryr tries to query the existing subnet with the given CIDR,https://bugs.launchpad.net/kuryr/+bug/1496727,2015-09-17
+1493417,1493417,Fix Committed,Synchronize mos7.0 repo with stable/7.0 branch,https://bugs.launchpad.net/fuel/+bug/1493417,2015-09-17
+1481988,1481988,Fix Released,do container listing updates in another (green)thread,https://bugs.launchpad.net/openstack-manuals/+bug/1481988,2015-09-17
+1493270,1493270,Fix Released,The dependency of pbr in ryu does not match neutron,https://bugs.launchpad.net/neutron/+bug/1493270,2015-09-17
+1282493,1282493,Fix Released,Kernel 3.10 provisioning serializer workaround,https://bugs.launchpad.net/fuel/+bug/1282493,2015-09-17
+1439821,1439821,Fix Committed,Return back an ability to install Fedora kernel,https://bugs.launchpad.net/fuel/+bug/1439821,2015-09-17
+1318614,1318614,Fix Committed,[provision] Set XFS block size to default (4k),https://bugs.launchpad.net/fuel/+bug/1318614,2015-09-17
+1258347,1258347,Fix Committed,[volumes-refactoring] Can't exclude a volume from the boot md (raid 1),https://bugs.launchpad.net/fuel/+bug/1258347,2015-09-17
+1443913,1443913,Fix Committed,Image creation over glance v1 failed with permission denied error,https://bugs.launchpad.net/fuel/+bug/1443913,2015-09-17
+1436806,1436806,Fix Released,Deployment fails with Error running provisioning: Failed to execute hook in astute.log,https://bugs.launchpad.net/fuel/+bug/1436806,2015-09-17
+1403798,1403798,Fix Released,[Upgrade] Upgrade of fuel failed on upgrading openstack stage withHTTPError: 401 Client Error: Unauthorized,https://bugs.launchpad.net/fuel/+bug/1403798,2015-09-17
+1414247,1414247,Fix Released,Nimble driver cinder create failed without specifying display_description,https://bugs.launchpad.net/cinder/+bug/1414247,2015-09-16
+1433150,1433150,Fix Released,storage network is not accessible from controller with VIP,https://bugs.launchpad.net/fuel/+bug/1433150,2015-09-16
+1393376,1393376,Fix Released,Instance loses port attachment on template update,https://bugs.launchpad.net/heat/+bug/1393376,2015-09-16
+1402637,1402637,Fix Released,HA neutron vlan depoyment failed with errors on controllers - (/Stage[corosync_setup]/Osnailyfacter::Cluster_ha::Virtual_ips/Cluster::Virtual_ips[public]/Cluster::Virtual_ip[public]/Service[vip__public]) Could not evaluate: undefined method `node_type' for nil:NilClass,https://bugs.launchpad.net/fuel/+bug/1402637,2015-09-16
+1235555,1235555,Fix Released,Heat API cannot cope with being behind an SSL terminator,https://bugs.launchpad.net/heat/+bug/1235555,2015-09-16
+1376902,1376902,Fix Released,Order meta attribute treats all attrs but bit_length as optional,https://bugs.launchpad.net/barbican/+bug/1376902,2015-09-16
+1469248,1469248,Fix Released,Create OpenStack Security Specs Repo,https://bugs.launchpad.net/openstack-manuals/+bug/1469248,2015-09-16
+1336568,1336568,Fix Released,LVMiSCSI driver can't issue direct I/O through tgtd  to iscsi volume,https://bugs.launchpad.net/cinder/+bug/1336568,2015-09-16
+1496462,1496462,Fix Released,Readme contains non-ascii characters,https://bugs.launchpad.net/yaql/+bug/1496462,2015-09-16
+1493787,1493787,Fix Released,thread_1_separate_services thread times out,https://bugs.launchpad.net/fuel/+bug/1493787,2015-09-16
+1493344,1493344,Fix Released,Wrong test_group for rollback_neutron_gre,https://bugs.launchpad.net/fuel/+bug/1493344,2015-09-16
+1486046,1486046,Fix Released,Test deploy_ceph_ha_nodegroups failed on the network checking step,https://bugs.launchpad.net/fuel/+bug/1486046,2015-09-16
+1491828,1491828,Fix Released,_merge_dicts error,https://bugs.launchpad.net/yaql/+bug/1491828,2015-09-16
+1463171,1463171,Fix Released,unicode support is broken in yaql 1.0.0b2,https://bugs.launchpad.net/yaql/+bug/1463171,2015-09-16
+1495860,1495860,Fix Released,"""disk-image-create ironic-agent fedora iso -o my-deploy-ramdisk"" failed",https://bugs.launchpad.net/diskimage-builder/+bug/1495860,2015-09-16
+1495695,1495695,Fix Released,Support nested validation flag,https://bugs.launchpad.net/python-heatclient/+bug/1495695,2015-09-16
+1492123,1492123,Fix Released,py34 unit tests are not run by default tox run,https://bugs.launchpad.net/python-heatclient/+bug/1492123,2015-09-16
+1339403,1339403,Fix Released,CLI stack list should expose sort options,https://bugs.launchpad.net/python-heatclient/+bug/1339403,2015-09-16
+1494672,1494672,Fix Released,deployment-create raises an exception,https://bugs.launchpad.net/python-heatclient/+bug/1494672,2015-09-16
+1484434,1484434,Fix Released,[fuel-createmirror] Unable to create ubuntu-part,https://bugs.launchpad.net/fuel/+bug/1484434,2015-09-16
+1490644,1490644,Fix Released,Need add security scan job to new jenkins master,https://bugs.launchpad.net/fuel/+bug/1490644,2015-09-16
+1484858,1484858,Fix Released,Community ISO build failed with cobbler docker container provisioning,https://bugs.launchpad.net/fuel/+bug/1484858,2015-09-16
+1485003,1485003,Fix Released,[system-tests] Need to add check for amqp_hosts in hiera on al nodes after cluster re-deployment,https://bugs.launchpad.net/fuel/+bug/1485003,2015-09-16
+1459655,1459655,Fix Released,Add requerements for Ceilometer OSTF tests to the fuel-docs,https://bugs.launchpad.net/fuel/+bug/1459655,2015-09-16
+1481342,1481342,Fix Released,Haproxy stats should listen to multiple addresses,https://bugs.launchpad.net/fuel/+bug/1481342,2015-09-16
+1479883,1479883,Fix Released,[fuel-web][template] Deployment serialization fails if one of default network was deleted,https://bugs.launchpad.net/fuel/+bug/1479883,2015-09-16
+1479422,1479422,Fix Released,"rabbitmq node can't be recovered automatically, if epmd service has been hanged",https://bugs.launchpad.net/fuel/+bug/1479422,2015-09-16
+1481714,1481714,Fix Released,Zabbix plugin: Wrong check for RabbitMQ epmd process,https://bugs.launchpad.net/fuel/+bug/1481714,2015-09-16
+1421544,1421544,Fix Released,[doc] Docs. Add links and rephrase the router GW IP description,https://bugs.launchpad.net/fuel/+bug/1421544,2015-09-16
+1473409,1473409,Fix Released,[Docs] User Guide has instructions on non-HA mode in 6.1,https://bugs.launchpad.net/fuel/+bug/1473409,2015-09-16
+1496303,1496303,Fix Released,7.0 iso build fails due to a broken link,https://bugs.launchpad.net/fuel/+bug/1496303,2015-09-16
+1493781,1493781,Fix Released,Enable package testing option on Jenkins sandbox instance.,https://bugs.launchpad.net/fuel/+bug/1493781,2015-09-16
+1463131,1463131,Fix Released,Security group update API missing in nova and neutron API docs,https://bugs.launchpad.net/openstack-api-site/+bug/1463131,2015-09-16
+1476779,1476779,Fix Released,Network template lacks API validation,https://bugs.launchpad.net/fuel/+bug/1476779,2015-09-16
+1331917,1331917,Fix Released,Fixes v2 return status on unauthorized download,https://bugs.launchpad.net/openstack-api-site/+bug/1331917,2015-09-16
+1492882,1492882,Fix Released,Avoid cloning of Neutron repository in CI process,https://bugs.launchpad.net/kuryr/+bug/1492882,2015-09-16
+1385615,1385615,Fix Released,[doc] Document how to run puppet locally on slave node,https://bugs.launchpad.net/fuel/+bug/1385615,2015-09-16
+1488595,1488595,Fix Released,Test add_node_after_upgrade_nova_cinder stuck on stop deployment,https://bugs.launchpad.net/fuel/+bug/1488595,2015-09-16

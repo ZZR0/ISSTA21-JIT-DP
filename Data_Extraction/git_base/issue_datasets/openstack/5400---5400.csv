@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1828042,1828042,Fix Released,Compute API in nova - all_tenants listed in non-admin query params set,https://bugs.launchpad.net/nova/+bug/1828042,2019-09-27
+1836080,1836080,Fix Released,Cinder Driver Support Matrix in cinder - HPE MSA driver is not listed for multiattach support,https://bugs.launchpad.net/cinder/+bug/1836080,2019-09-27
+1823278,1823278,Fix Released,SynchronousThreadPoolExecutorFixture mock spec does not work,https://bugs.launchpad.net/nova/+bug/1823278,2019-09-27
+1827628,1827628,Fix Released,"Cannot model affinity (and/or anti) with placement ""limits"" parameter",https://bugs.launchpad.net/nova/+bug/1827628,2019-09-27
+1834660,1834660,Fix Released,Detaching second instance from multi-attach 3par fails,https://bugs.launchpad.net/cinder/+bug/1834660,2019-09-27
+1824821,1824821,Fix Released,cinder should leverage qcow2 compression when uploading volumes to glance,https://bugs.launchpad.net/cinder/+bug/1824821,2019-09-27
+1821373,1821373,Fix Released,Most instance actions can be called concurrently,https://bugs.launchpad.net/nova/+bug/1821373,2019-09-27
+1837240,1837240,Fix Released,Swift backup driver option value is incorrect,https://bugs.launchpad.net/cinder/+bug/1837240,2019-09-27
+1815799,1815799,Fix Released,Attempting to delete a baremetal server places server into ERROR state,https://bugs.launchpad.net/nova/+bug/1815799,2019-09-27
+1838225,1838225,Fix Released,tools/generate_driver_list.py broken with python2,https://bugs.launchpad.net/cinder/+bug/1838225,2019-09-27
+1816686,1816686,Fix Released,"fail to  boot an instance because of ""rbd import"" qcow2 disk",https://bugs.launchpad.net/nova/+bug/1816686,2019-09-27
+1780973,1780973,Fix Released,Failure during live migration leaves BDM with incorrect connection_info,https://bugs.launchpad.net/nova/+bug/1780973,2019-09-27
+1809095,1809095,Fix Released,Wrong representor port was unplugged from OVS during cold migration,https://bugs.launchpad.net/nova/+bug/1809095,2019-09-27
+1836121,1836121,Fix Released,"latest version of rsdlib volume.capacity_sources an instance  in Cinder RSD driver returns Storage Pool Collection instance, instead of StoragePool URL",https://bugs.launchpad.net/cinder/+bug/1836121,2019-09-27
+1775418,1775418,Fix Released,Swap volume of multiattached volume will corrupt data,https://bugs.launchpad.net/nova/+bug/1775418,2019-09-27
+1839069,1839069,Fix Released,Uploading volume to glance is broken,https://bugs.launchpad.net/cinder/+bug/1839069,2019-09-27
+1819425,1819425,Fix Released,Non-admin user can not filter instance by instance-uuid,https://bugs.launchpad.net/nova/+bug/1819425,2019-09-27
+1613154,1613154,Fix Released,Don't using dict.get() in assertions,https://bugs.launchpad.net/cinder/+bug/1613154,2019-09-27
+1751192,1751192,Fix Released,nova-manage archive_deleted_rows date limit,https://bugs.launchpad.net/nova/+bug/1751192,2019-09-27
+1829000,1829000,Fix Released,live migration (block-migrate) may failed if instance image is deleted in glance,https://bugs.launchpad.net/nova/+bug/1829000,2019-09-27
+1830535,1830535,Fix Released,Invalid neutron metadata proxy configuration leads to confusing nova exception,https://bugs.launchpad.net/nova/+bug/1830535,2019-09-27
+1837920,1837920,Fix Released,MacroSAN driver has numerous issues that need to be addressed,https://bugs.launchpad.net/cinder/+bug/1837920,2019-09-27
+1841131,1841131,Fix Released,zuul openstack-tox-docs failure: html_static_path entry '_static' does not exist,https://bugs.launchpad.net/cinder/+bug/1841131,2019-09-27
+1830926,1830926,Fix Released,Links to reno are incorrect,https://bugs.launchpad.net/nova/+bug/1830926,2019-09-27
+1830438,1830438,Fix Released,Hard deleting instance does not take into account soft-deleted referential constraints,https://bugs.launchpad.net/nova/+bug/1830438,2019-09-27
+1829877,1829877,Fix Released,avoid lazy-loading instance.flavor during cold migration,https://bugs.launchpad.net/nova/+bug/1829877,2019-09-27
+1842440,1842440,Fix Released,cinder.tests.unit.compute.test_nova.NovaClientTestCase.test_novaclient_exceptions breaks with novaclient 15.0.0,https://bugs.launchpad.net/cinder/+bug/1842440,2019-09-27
+1779845,1779845,Fix Released,hide_hypervisor_id doesn't hide hyperv signature for Windows VMs,https://bugs.launchpad.net/nova/+bug/1779845,2019-09-27
+1805659,1805659,Fix Released,nova notifications hammering the message bus,https://bugs.launchpad.net/nova/+bug/1805659,2019-09-27
+1822986,1822986,Fix Released,Not clear if www_authenticate_uri is really needed,https://bugs.launchpad.net/nova/+bug/1822986,2019-09-27
+1839140,1839140,Fix Released,3PAR: Add Peer Persistence support,https://bugs.launchpad.net/cinder/+bug/1839140,2019-09-27
+1844556,1844556,Fix Released,Need to delete unused encryption key when rekeying volume,https://bugs.launchpad.net/cinder/+bug/1844556,2019-09-27
+1784992,1784992,Fix Released,Install and configure controller node for Ubuntu in nova,https://bugs.launchpad.net/nova/+bug/1784992,2019-09-27
+1844725,1844725,Fix Released,os-volume_upload_image action uses stale metadata,https://bugs.launchpad.net/cinder/+bug/1844725,2019-09-27
+1831309,1831309,Fix Released,Nova System Architecture in nova,https://bugs.launchpad.net/nova/+bug/1831309,2019-09-27
+1838955,1838955,Fix Released,A volume in NEC Storage was left undeleted when the volume was retyped to another storage.,https://bugs.launchpad.net/cinder/+bug/1838955,2019-09-27
+1832670,1832670,Fix Released,"DeprecationWarning: Flags not at the start of the expression '\\\\Aqu..*\\\\Z(?s)'""",https://bugs.launchpad.net/nova/+bug/1832670,2019-09-27
+1824445,1824445,Fix Released,nova-manage cellv2 discover_hosts traces when run in parallel,https://bugs.launchpad.net/nova/+bug/1824445,2019-09-27
+1832164,1832164,Fix Released,"SADeprecationWarning: The joinedload_all() function is deprecated, and will be removed in a future release.  Please use method chaining with joinedload() instead",https://bugs.launchpad.net/nova/+bug/1832164,2019-09-27
+1833120,1833120,Fix Released,Compute schedulers in nova - missing ComputeFilter in enabled_filters default value,https://bugs.launchpad.net/nova/+bug/1833120,2019-09-27
+1833130,1833130,Fix Released,Quota legacy method warning logged even without CONF.quota.count_usage_from_placement=True,https://bugs.launchpad.net/nova/+bug/1833130,2019-09-27
+1833182,1833182,Fix Released,Wrong assert methods in unit tests for libvirt driver,https://bugs.launchpad.net/nova/+bug/1833182,2019-09-27
+1797146,1797146,Fix Released,"failed to boot guest with vnic_type direct when rx_queue_size, tx_queue_size and hw_vif_type are set",https://bugs.launchpad.net/nova/+bug/1797146,2019-09-27
+1833647,1833647,Fix Released,Install and configure controller node for Red Hat Enterprise Linux and CentOS in nova,https://bugs.launchpad.net/nova/+bug/1833647,2019-09-27
+1833902,1833902,Fix Released,Revert resize tests are failing in jobs with iptables_hybrid fw driver,https://bugs.launchpad.net/nova/+bug/1833902,2019-09-27
+1834005,1834005,Fix Released,the network metadata in request spec shouldn't be persistent,https://bugs.launchpad.net/nova/+bug/1834005,2019-09-27
+1832720,1832720,Fix Released,Inconsistent power and vm states for physical instances when doing nova start/stop,https://bugs.launchpad.net/nova/+bug/1832720,2019-09-27
+1829506,1829506,Fix Released,Error mounting device on create instance (LXC),https://bugs.launchpad.net/nova/+bug/1829506,2019-09-27
+1653953,1653953,Fix Released,Unable to remove snapshots after an instance is unshelved when using the rbd imagebackend,https://bugs.launchpad.net/nova/+bug/1653953,2019-09-27
+1555521,1555521,Fix Released,"""failed to generate fingerprint"" when importing ed25519 key",https://bugs.launchpad.net/nova/+bug/1555521,2019-09-27
+1805984,1805984,Fix Released,Placement is not aware of disabled compute nodes,https://bugs.launchpad.net/nova/+bug/1805984,2019-09-27
+1830260,1830260,Fix Released,Inefficient host_status lookup when listing servers with details (regression),https://bugs.launchpad.net/nova/+bug/1830260,2019-09-27
+1501447,1501447,Fix Released,QEMU built-in iscsi initiator support should be version-constrained in the driver,https://bugs.launchpad.net/nova/+bug/1501447,2019-09-27
+1845307,1845307,Fix Released,Macvlan nested driver prone to race conditions,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1845307,2019-09-27
+1835419,1835419,Fix Released,nova-manage placement heal allocation command wrongly assumes allocation not exists for an instance if placement returns error code,https://bugs.launchpad.net/nova/+bug/1835419,2019-09-27
+1816086,1816086,Fix Released,Resource Tracker performance with Ironic driver,https://bugs.launchpad.net/nova/+bug/1816086,2019-09-27
+1836005,1836005,Fix Released,doc: wrong parameter of NotificationPublisher in the notifications document,https://bugs.launchpad.net/nova/+bug/1836005,2019-09-27
+1834057,1834057,Fix Released,change default quota command example is incorrect,https://bugs.launchpad.net/nova/+bug/1834057,2019-09-27
+1829914,1829914,Fix Released,nova context request_id is not propagated for port binding operations in neutron,https://bugs.launchpad.net/nova/+bug/1829914,2019-09-27
+1816399,1816399,Fix Released,The periodic task to clean up expired console_auth tokens is invalid,https://bugs.launchpad.net/nova/+bug/1816399,2019-09-27
+1837075,1837075,Fix Released,Evacuation takes too long when destination host has a large number of NICs,https://bugs.launchpad.net/nova/+bug/1837075,2019-09-27
+1835063,1835063,Fix Released,Compute API in nova - server actions project/user id descriptions are wrong,https://bugs.launchpad.net/nova/+bug/1835063,2019-09-27
+1836692,1836692,Fix Released,Wrong unit test for pre_live_migration method in compute manager,https://bugs.launchpad.net/nova/+bug/1836692,2019-09-27
+1837756,1837756,Fix Released,ImagePropertiesFilter:  hypervisor_type matchmaking not compliant with documentation,https://bugs.launchpad.net/nova/+bug/1837756,2019-09-27
+1837955,1837955,Fix Released,MaxRetriesExceeded sometime fails with messaging exception,https://bugs.launchpad.net/nova/+bug/1837955,2019-09-27
+1825386,1825386,Fix Released,Nova is looking for OVMF file no longer provided by CentOS 7.6,https://bugs.launchpad.net/openstack-ansible/+bug/1825386,2019-09-27
+1825386,1825386,Fix Released,Nova is looking for OVMF file no longer provided by CentOS 7.6,https://bugs.launchpad.net/nova/+bug/1825386,2019-09-27
+1607400,1607400,Fix Released,UEFI not supported on SLES,https://bugs.launchpad.net/nova/+bug/1607400,2019-09-27
+1838807,1838807,Fix Released,UnsupportedServiceVersion: Service placement has no discoverable version. The resulting Proxy object will only have direct passthrough REST capabilities.,https://bugs.launchpad.net/nova/+bug/1838807,2019-09-27
+1839391,1839391,Fix Released,archive_deleted_rows docs and user-facing messages say CONF.api_database.connection,https://bugs.launchpad.net/nova/+bug/1839391,2019-09-27
+1840094,1840094,Fix Released,api-ref: layout of descriptions of host_status is broken,https://bugs.launchpad.net/nova/+bug/1840094,2019-09-27
+1840862,1840862,Fix Released,Missing description of hacking rule N363 in HACKING.rst,https://bugs.launchpad.net/nova/+bug/1840862,2019-09-27
+1840967,1840967,Fix Released,nova-next job does not fail when 'nova-manage db purge' fails,https://bugs.launchpad.net/nova/+bug/1840967,2019-09-27
+1840978,1840978,Fix Released,nova-manage commands with unexpected errors returning 1 conflict with expected cases of 1 for flow control,https://bugs.launchpad.net/nova/+bug/1840978,2019-09-27
+1719487,1719487,Fix Released,nova-manage db archive_deleted_rows is not multi-cell aware,https://bugs.launchpad.net/nova/+bug/1719487,2019-09-27

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1706830,1706830,Fix Released,server got two interfaces after update networks from [] to None,https://bugs.launchpad.net/heat/+bug/1706830,2017-08-14
+1706197,1706197,Fix Released,Number of service availability checks is absurd,https://bugs.launchpad.net/heat/+bug/1706197,2017-08-14
+1585815,1585815,Fix Released,Making a deployment resource FAILED should also fail the deployment itself,https://bugs.launchpad.net/heat/+bug/1585815,2017-08-14
+1703279,1703279,Fix Released,security info is missed when update networks of server,https://bugs.launchpad.net/heat/+bug/1703279,2017-08-14
+1625759,1625759,Fix Released,Should be able to select external subnet for FloatingIP,https://bugs.launchpad.net/heat/+bug/1625759,2017-08-14
+1709191,1709191,Fix Released,Zun changes the format of 'addresses' attribute,https://bugs.launchpad.net/heat/+bug/1709191,2017-08-14
+1697627,1697627,Fix Released,StructuredDeployment fails to delete with Property error: default: could not convert string to float,https://bugs.launchpad.net/heat/+bug/1697627,2017-08-14
+1697627,1697627,Fix Released,StructuredDeployment fails to delete with Property error: default: could not convert string to float,https://bugs.launchpad.net/tripleo/+bug/1697627,2017-08-14
+1696781,1696781,Fix Released,haproxy should not use IP address for HTTP redirect rule,https://bugs.launchpad.net/tripleo/+bug/1696781,2017-08-14
+1682111,1682111,Fix Released,gate-tripleo-buildimage-overcloud-full-centos-7 failing on permissions,https://bugs.launchpad.net/tripleo/+bug/1682111,2017-08-14
+1664973,1664973,Fix Released,plugin does not log debug messages,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1664973,2017-08-14
+1704691,1704691,Fix Released,Implement pep8 hacking checks,https://bugs.launchpad.net/fuxi/+bug/1704691,2017-08-14
+1708575,1708575,Fix Released,Start etcd3 failed in aarch64,https://bugs.launchpad.net/devstack/+bug/1708575,2017-08-14
+1677138,1677138,Fix Released,Unit tests are failed by TypeError,https://bugs.launchpad.net/masakari/+bug/1677138,2017-08-14
+1692435,1692435,Fix Released,"""ERROR"" instances will be unexpectedly changed to ""ACTIVE"" when host failure happenes",https://bugs.launchpad.net/masakari/+bug/1692435,2017-08-14
+1690995,1690995,Fix Released,"If masakari recover ""resized"" instance that's state was ""stopped"" before resizing, it will be ""active"".",https://bugs.launchpad.net/masakari/+bug/1690995,2017-08-14
+1693731,1693731,Fix Released,"Instances which are in shelved, paused and rescued states are not evacuated",https://bugs.launchpad.net/masakari/+bug/1693731,2017-08-14
+1690768,1690768,Fix Released,"Notification status will be ""error"" if recovered instance was ""resized"".",https://bugs.launchpad.net/masakari/+bug/1690768,2017-08-14
+1707822,1707822,Fix Released,grenade failure on ocata,https://bugs.launchpad.net/networking-midonet/+bug/1707822,2017-08-14
+1709231,1709231,Fix Released,Update the default value of maximum_delay,https://bugs.launchpad.net/zaqar/+bug/1709231,2017-08-13
+1705505,1705505,Fix Released,BGP agent crashes in gate,https://bugs.launchpad.net/dragonflow/+bug/1705505,2017-08-13
+1683784,1683784,Fix Released,update qos notification driver to qos driver,https://bugs.launchpad.net/dragonflow/+bug/1683784,2017-08-13
+1709630,1709630,Fix Released,docker run gnocchi_db_sync is failing in gate-tripleo-ci-centos-7-scenario001-multinode-oooq-container,https://bugs.launchpad.net/tripleo/+bug/1709630,2017-08-13
+1612613,1612613,Fix Released,Can't delete domain with nvram  when clean_nova,https://bugs.launchpad.net/devstack/+bug/1612613,2017-08-12
+1653731,1653731,Fix Released,support-matrix.ini missing CLI commands,https://bugs.launchpad.net/nova/+bug/1653731,2017-08-12
+1684861,1684861,Fix Released,Mitaka -> Newton: Database online_data_migrations in newton fail due to missing keypairs,https://bugs.launchpad.net/nova/+bug/1684861,2017-08-12
+1707669,1707669,Fix Released,[placement] put allocations does not do a full overwrite of existing allocations,https://bugs.launchpad.net/nova/+bug/1707669,2017-08-11
+1707943,1707943,Fix Released,LVM revert is not synchronous,https://bugs.launchpad.net/manila/+bug/1707943,2017-08-11
+1707946,1707946,Fix Released,LVM driver fails to apply access rules to /0 networks,https://bugs.launchpad.net/manila/+bug/1707946,2017-08-11
+1659023,1659023,Fix Released,Consistent Snapshots are broken in the NetApp cDOT driver,https://bugs.launchpad.net/manila/+bug/1659023,2017-08-11
+1700479,1700479,Fix Released,Pull image action doesn't work,https://bugs.launchpad.net/zun-ui/+bug/1700479,2017-08-11
+1709009,1709009,Fix Released,container cannot be deleted,https://bugs.launchpad.net/zun-ui/+bug/1709009,2017-08-11
+1709248,1709248,Fix Released,[ui] 'str' object has no attribute 'regex',https://bugs.launchpad.net/searchlight/+bug/1709248,2017-08-11
+1694553,1694553,Fix Released,Update QoS policy to be not default fails,https://bugs.launchpad.net/neutron/+bug/1694553,2017-08-11
+1710106,1710106,Fix Released,Some wrong links need to fix,https://bugs.launchpad.net/manila/+bug/1710106,2017-08-11
+1675075,1675075,Fix Released,Default Deployment of v3 Endpoint Causes Issues with Horizon,https://bugs.launchpad.net/tripleo/+bug/1675075,2017-08-11
+1676093,1676093,Fix Released,CI: cp: cannot create regular file /opt/stack/new/tripleo-ci/deploy.env,https://bugs.launchpad.net/tripleo/+bug/1676093,2017-08-11
+1676250,1676250,Fix Released,"Promotion jobs fail on timeout, ControllerServiceChain takes too long",https://bugs.launchpad.net/tripleo/+bug/1676250,2017-08-11
+1649722,1649722,Fix Released,provide easy v2 -> ml2 transition,https://bugs.launchpad.net/networking-midonet/+bug/1649722,2017-08-11
+1576197,1576197,Fix Committed,[Nailgun] '{ }' symbols not properly processed for plugin attributes values,https://bugs.launchpad.net/fuel/+bug/1576197,2017-08-11
+1704111,1704111,Fix Released,[Event-triggers] It is impossible to create public trigger,https://bugs.launchpad.net/mistral/+bug/1704111,2017-08-11
+1697662,1697662,Fix Released,Wrong keystone_authtoken middleware configuration for devstack,https://bugs.launchpad.net/mistral/+bug/1697662,2017-08-11
+1702818,1702818,Fix Released,Authorization failed: Cannot authenticate without an auth_url,https://bugs.launchpad.net/mistral/+bug/1702818,2017-08-11
+1707942,1707942,Fix Released,Unable to list cron-triggers for all projects,https://bugs.launchpad.net/mistral/+bug/1707942,2017-08-11
+1708296,1708296,Fix Released,"index ""name"" does not exist on DB upgrade",https://bugs.launchpad.net/mistral/+bug/1708296,2017-08-11
+1708380,1708380,Fix Released,Crontrigger execution error,https://bugs.launchpad.net/mistral/+bug/1708380,2017-08-11
+1708139,1708139,Fix Released,Last execution of cron-trigger doesn't work due to trust deletion,https://bugs.launchpad.net/mistral/+bug/1708139,2017-08-11
+1700196,1700196,Fix Released,Pausing and resuming workflow execution does not cascade to parent or subworkflows,https://bugs.launchpad.net/mistral/+bug/1700196,2017-08-11
+1709566,1709566,Fix Released,openstack actions via cron-triggers are broken again,https://bugs.launchpad.net/mistral/+bug/1709566,2017-08-11
+1709571,1709571,Fix Released,Doc files do not pass doc8 check,https://bugs.launchpad.net/mistral/+bug/1709571,2017-08-11
+1708171,1708171,Fix Released,Nova Affinity filters no longer work,https://bugs.launchpad.net/trove/+bug/1708171,2017-08-11
+1708190,1708190,Fix Released,AttributeError: 'module' object has no attribute '_logger',https://bugs.launchpad.net/trove/+bug/1708190,2017-08-11
+1556189,1556189,Fix Released,"Hyper-V: destroying an instance can fail, having in-use files",https://bugs.launchpad.net/nova/+bug/1556189,2017-08-11
+1675147,1675147,Fix Released,Compute flavor management not granular enough by policy and code,https://bugs.launchpad.net/nova/+bug/1675147,2017-08-11
+1693265,1693265,Fix Released,network_data.json should provide interface-scoped nameserver information,https://bugs.launchpad.net/nova/+bug/1693265,2017-08-11
+1707168,1707168,Fix Released,[placement] resource provider trait-related query creates unicode warning,https://bugs.launchpad.net/nova/+bug/1707168,2017-08-11
+1706533,1706533,Fix Released,TestInstanceNotificationSample.test_rebuild_server_exc fails with testtools.matchers._impl.MismatchError: 2 != 1,https://bugs.launchpad.net/nova/+bug/1706533,2017-08-11
+1615666,1615666,Fix Released,Nova config misses [cinder] insecure option,https://bugs.launchpad.net/nova/+bug/1615666,2017-08-11
+1706545,1706545,Fix Released,"functional test fails with  RuntimeError: http_proxy or https_proxy set in environment, please unset",https://bugs.launchpad.net/nova/+bug/1706545,2017-08-11
+1700359,1700359,Fix Released,"test_os_service_disable_enable fails with ""ERROR (NotFound): Could not find binary nova-scheduler on host""",https://bugs.launchpad.net/python-novaclient/+bug/1700359,2017-08-11
+1700359,1700359,Fix Released,"test_os_service_disable_enable fails with ""ERROR (NotFound): Could not find binary nova-scheduler on host""",https://bugs.launchpad.net/nova/+bug/1700359,2017-08-11
+1708031,1708031,Fix Released,"""Failed to delete inventory for resource provider"" error messages for predictable 409 cases",https://bugs.launchpad.net/nova/+bug/1708031,2017-08-11
+1708167,1708167,Fix Released,placement services logs 405 response as untrapped error,https://bugs.launchpad.net/nova/+bug/1708167,2017-08-11
+1707252,1707252,Fix Released,Claims in the scheduler does not account for doubling allocations on resize to same host,https://bugs.launchpad.net/nova/+bug/1707252,2017-08-11
+1708210,1708210,Fix Released,‘os-extended-volumes:volumes_attached’ field empty in 'server list' api response,https://bugs.launchpad.net/nova/+bug/1708210,2017-08-11
+1708978,1708978,Fix Released,The traits associations are deleted incorrectly,https://bugs.launchpad.net/nova/+bug/1708978,2017-08-11
+1708961,1708961,Fix Released,migration of single instance from multi-instance request spec fails with IndexError,https://bugs.launchpad.net/nova/+bug/1708961,2017-08-11
+1708637,1708637,Fix Released,nova does not properly claim resources when server resized to a too big flavor,https://bugs.launchpad.net/nova/+bug/1708637,2017-08-11
+1708666,1708666,Fix Released,docs: admin guide import is missing several compute-specific docs,https://bugs.launchpad.net/nova/+bug/1708666,2017-08-11
+1528574,1528574,Fix Released,[fence_ssh] stuck reboot task in cobbler ruins provisioning,https://bugs.launchpad.net/fuel/+bug/1528574,2017-08-11
+1709742,1709742,Fix Released,ImportError: cannot import name pattern Django,https://bugs.launchpad.net/freezer/+bug/1709742,2017-08-11
+1696668,1696668,Fix Released,"ovo_rpc semantics ""warnings"" are too verbose",https://bugs.launchpad.net/neutron/+bug/1696668,2017-08-11
+1708079,1708079,Fix Released,rbac creation for network should bump revision,https://bugs.launchpad.net/neutron/+bug/1708079,2017-08-11
+1708394,1708394,Fix Released,Some URL in neutron's documentation cannot found(404).,https://bugs.launchpad.net/neutron/+bug/1708394,2017-08-11
+1706986,1706986,Fix Released,"test_filtering_shared_subnets  - neutron tempest test case fails with ""_impl.MismatchError""",https://bugs.launchpad.net/neutron/+bug/1706986,2017-08-11

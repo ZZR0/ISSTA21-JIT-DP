@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1384531,1384531,Fix Released,"attach encrypted volume failed, exception info is not right",https://bugs.launchpad.net/nova/+bug/1384531,2015-04-30
+1381414,1381414,Fix Released,"Unit test failure ""AssertionError: Expected to be called once. Called 2 times."" in test_get_port_vnic_info_3",https://bugs.launchpad.net/nova/+bug/1381414,2015-04-30
+1380901,1380901,Fix Released,Refine HTTP error code for os-interface,https://bugs.launchpad.net/nova/+bug/1380901,2015-04-30
+1380776,1380776,Fix Released,Uploading and downloading VHDs via Glance XenAPI plugin doesn't always retry when it should,https://bugs.launchpad.net/nova/+bug/1380776,2015-04-30
+1379973,1379973,Fix Released,REST API didn't verify json data format,https://bugs.launchpad.net/nova/+bug/1379973,2015-04-30
+1378903,1378903,Fix Released,Xen snapshot uploads can fail without retry under retryable circumstances,https://bugs.launchpad.net/nova/+bug/1378903,2015-04-30
+1378461,1378461,Fix Released,nova.objects.network_request.NetworkRequest's version is incorrect,https://bugs.launchpad.net/nova/+bug/1378461,2015-04-30
+1378389,1378389,Fix Released,os-interface:show will not handle PortNotFoundClient exception from neutron,https://bugs.launchpad.net/nova/+bug/1378389,2015-04-30
+1377644,1377644,Fix Released,Instance stuck at migrating status when live migrate between icehouse node and juno node,https://bugs.launchpad.net/nova/+bug/1377644,2015-04-30
+1376384,1376384,Fix Released,instance stuck in hard_reboot,https://bugs.launchpad.net/nova/+bug/1376384,2015-04-30
+1376078,1376078,Fix Released,NovaProxyRequestHandlerBaseTestCase fails on python < 2.7.4 due to urlparse bug,https://bugs.launchpad.net/nova/+bug/1376078,2015-04-30
+1375478,1375478,Fix Released,image metadata not copied when bdm v2 source=snapshot used,https://bugs.launchpad.net/nova/+bug/1375478,2015-04-30
+1370999,1370999,Fix Released,xenapi: windows agent unreliable due to reboots,https://bugs.launchpad.net/nova/+bug/1370999,2015-04-30
+1370348,1370348,Fix Released,Using macvtap vnic_type is not working with vif_type=hw_veb,https://bugs.launchpad.net/nova/+bug/1370348,2015-04-30
+1369516,1369516,Fix Released,Convert libvirt driver test suites to use NoDBTestCase,https://bugs.launchpad.net/nova/+bug/1369516,2015-04-30
+1368989,1368989,Fix Released,service_update() should not set an RPC timeout longer than service.report_interval,https://bugs.launchpad.net/nova/+bug/1368989,2015-04-30
+1368260,1368260,Fix Released,add pci_requests to the instance object,https://bugs.launchpad.net/nova/+bug/1368260,2015-04-30
+1367918,1367918,Fix Released,Xenapi attached volume with no VM leaves instance in undeletable state,https://bugs.launchpad.net/nova/+bug/1367918,2015-04-30
+1367363,1367363,Fix Released,Libvirt-lxc will leak nbd devices on instance shutdown,https://bugs.launchpad.net/nova/+bug/1367363,2015-04-30
+1367349,1367349,Fix Released,ironic: Not listing all nodes registered in Ironic due pagination,https://bugs.launchpad.net/nova/+bug/1367349,2015-04-30
+1367151,1367151,Fix Released,VMware: VM's created by VC 5.5 are no compatible with older clusters,https://bugs.launchpad.net/nova/+bug/1367151,2015-04-30
+1367060,1367060,Fix Released,nova network-create allows invalid fixed-ip creation,https://bugs.launchpad.net/nova/+bug/1367060,2015-04-30
+1365579,1365579,Fix Released,HTTP 500 is returned when using an invalid fixed ip to attach interface,https://bugs.launchpad.net/nova/+bug/1365579,2015-04-30
+1362733,1362733,Fix Released,Rebuilding a node in ERROR state should set status to REBUILD,https://bugs.launchpad.net/nova/+bug/1362733,2015-04-30
+1349978,1349978,Fix Released,hard reboot doesn't re-create instance folder,https://bugs.launchpad.net/nova/+bug/1349978,2015-04-30
+1343924,1343924,Fix Released,Fail to create Vm by image  when   with a volume which name is 'vda',https://bugs.launchpad.net/nova/+bug/1343924,2015-04-30
+1343200,1343200,Fix Released,Add notifications when operating server groups,https://bugs.launchpad.net/nova/+bug/1343200,2015-04-30
+1340411,1340411,Fix Released,Evacuate Fails 'Invalid state of instance files' using Ceph Ephemeral RBD,https://bugs.launchpad.net/nova/+bug/1340411,2015-04-30
+1333145,1333145,Fix Released,quota-usage error in soft-delete,https://bugs.launchpad.net/nova/+bug/1333145,2015-04-30
+1294939,1294939,Fix Released,Add a fixed IP to an instance failed,https://bugs.launchpad.net/nova/+bug/1294939,2015-04-30
+1290639,1290639,Fix Released,instance stuck into pausing task state,https://bugs.launchpad.net/nova/+bug/1290639,2015-04-30
+1284930,1284930,Fix Released,deallocate_fixed_ip should handle exception to rollback quota,https://bugs.launchpad.net/nova/+bug/1284930,2015-04-30
+1223450,1223450,Fix Released,trusted_filter cache does not work,https://bugs.launchpad.net/nova/+bug/1223450,2015-04-30
+1188226,1188226,Fix Released,Confusing behavior of default `image_cache_manager_interval` and `instance_delete_interval`,https://bugs.launchpad.net/nova/+bug/1188226,2015-04-30
+1178541,1178541,Fix Released,Inter cell communication doesn't support multiple rabbit servers / HA,https://bugs.launchpad.net/nova/+bug/1178541,2015-04-30
+1163469,1163469,Fix Released,no obvious way to delete incorrect security rules (added to the default nova security group),https://bugs.launchpad.net/nova/+bug/1163469,2015-04-30
+885025,885025,Fix Released,RelaxNG schema contains duplicate elements => is invalid,https://bugs.launchpad.net/nova/+bug/885025,2015-04-30
+1398624,1398624,Fix Released,"nova unit tests failing in the gate with ""TypeError: acquire() got an unexpected keyword argument 'delay'""",https://bugs.launchpad.net/nova/+bug/1398624,2015-04-30
+1393633,1393633,Fix Released,"test_postgresql_opportunistically fails with ""database ""openstack_citest"" is being accessed by other users""",https://bugs.launchpad.net/nova/+bug/1393633,2015-04-30
+1390131,1390131,Fix Released,nova is not using Cinder V2 API in the check/gate,https://bugs.launchpad.net/nova/+bug/1390131,2015-04-30
+1386236,1386236,Fix Released,NUMA scheduling will not attempt to pack an instance onto a host,https://bugs.launchpad.net/nova/+bug/1386236,2015-04-30
+1385484,1385484,Fix Released,Failed to start nova-compute after evacuate,https://bugs.launchpad.net/nova/+bug/1385484,2015-04-30
+1380792,1380792,Fix Released,requests to EC2 metadata's '/2009-04-04/meta-data/security-groups' failing,https://bugs.launchpad.net/nova/+bug/1380792,2015-04-30
+1380624,1380624,Fix Released,VMware: booting from a volume does not configure config driver if necessary,https://bugs.launchpad.net/nova/+bug/1380624,2015-04-30
+1376883,1376883,Fix Released,Spawning images fails on Hyper-V Technical Preview,https://bugs.launchpad.net/nova/+bug/1376883,2015-04-30
+1372049,1372049,Fix Released,Launching multiple VMs fails over 63 instances,https://bugs.launchpad.net/nova/+bug/1372049,2015-04-30
+1370531,1370531,Fix Released,Linux guest images on Hyper-V fail to access local storage when using resized differencing VHDX disks,https://bugs.launchpad.net/nova/+bug/1370531,2015-04-30
+1369254,1369254,Fix Released,VMware: driver does not create a ephemeral disk when disk is defined in flavor,https://bugs.launchpad.net/nova/+bug/1369254,2015-04-30
+1367540,1367540,Fix Released,VMware: Failed to launch instance from volume,https://bugs.launchpad.net/nova/+bug/1367540,2015-04-30
+1366506,1366506,Fix Released,VMware: administrator is unable to know which VM's belong to openstack,https://bugs.launchpad.net/nova/+bug/1366506,2015-04-30
+1365606,1365606,Fix Released,Network deallocation can fail if a network has been deleted,https://bugs.launchpad.net/nova/+bug/1365606,2015-04-30
+1362244,1362244,Fix Released,Issues with Nova Evacuate API,https://bugs.launchpad.net/nova/+bug/1362244,2015-04-30
+1361180,1361180,Fix Released,nova service disable/enable returns 500 on cell environment,https://bugs.launchpad.net/nova/+bug/1361180,2015-04-30
+1360320,1360320,Fix Released,Unit tests fail in handle_schedule_error with wrong instance,https://bugs.launchpad.net/nova/+bug/1360320,2015-04-30
+1359617,1359617,Fix Released,libvirt: driver calls volume connect twice for every volume on boot,https://bugs.launchpad.net/nova/+bug/1359617,2015-04-30
+1358583,1358583,Fix Released,[OSSA 2014-038] List instances by IP results in DoS of nova-network (CVE-2014-3708),https://bugs.launchpad.net/ossa/+bug/1358583,2015-04-30
+1358583,1358583,Fix Released,[OSSA 2014-038] List instances by IP results in DoS of nova-network (CVE-2014-3708),https://bugs.launchpad.net/nova/+bug/1358583,2015-04-30
+1356884,1356884,Fix Released,Hyper-V driver fails while creating instances on Windows / Hyper-V Server 2008 R2,https://bugs.launchpad.net/nova/+bug/1356884,2015-04-30
+1345460,1345460,Fix Released,VMware: resize fails when there is more than one compute node,https://bugs.launchpad.net/nova/+bug/1345460,2015-04-30
+1337236,1337236,Fix Released,vmware: nova-compute will not start if some instance relying datastore not available,https://bugs.launchpad.net/nova/+bug/1337236,2015-04-30
+1324041,1324041,Fix Released,nova-compute cannot restart if _init_instance failed,https://bugs.launchpad.net/nova/+bug/1324041,2015-04-30
+1308342,1308342,Fix Released,Cannot delete vm instance if send duplicate delete requests,https://bugs.launchpad.net/nova/+bug/1308342,2015-04-30
+1262153,1262153,Fix Released,test_rebuild_server* tests timeout intermittently,https://bugs.launchpad.net/nova/+bug/1262153,2015-04-30
+1249319,1249319,Fix Released,evacuate on ceph backed volume fails,https://bugs.launchpad.net/nova/+bug/1249319,2015-04-30
+1403547,1403547,Fix Released,flavor extra_specs are not passed to any of the filters,https://bugs.launchpad.net/nova/+bug/1403547,2015-04-30
+1403162,1403162,Fix Released,fake_notifier: ValueError: Circular reference detected,https://bugs.launchpad.net/nova/+bug/1403162,2015-04-30
+1383757,1383757,Fix Released,oslo-incubator copy of request_id needed for grenade juno -> master upgrade,https://bugs.launchpad.net/nova/+bug/1383757,2015-04-30
+1383305,1383305,Fix Released,VMware: booting compute node with no hosts in cluster causes an exception,https://bugs.launchpad.net/nova/+bug/1383305,2015-04-30
+1373992,1373992,Fix Released,EC2 keystone auth token is using unsafe SSL connection,https://bugs.launchpad.net/nova/+bug/1373992,2015-04-30
+1426646,1426646,Fix Released,exception when run ceilometer-expirer,https://bugs.launchpad.net/ceilometer/+bug/1426646,2015-04-30
+1439538,1439538,Fix Released,missing traits for authenticate event,https://bugs.launchpad.net/ceilometer/+bug/1439538,2015-04-30
+1441258,1441258,Fix Released,Kafka publisher with retry policy does not work,https://bugs.launchpad.net/ceilometer/+bug/1441258,2015-04-30
+1438674,1438674,Fix Released,croniter cause alarm time constraint fail,https://bugs.launchpad.net/ceilometer/+bug/1438674,2015-04-30
+1438300,1438300,Fix Released,The py-mysql tox target will sometimes fail after the py27 target is run in the same session,https://bugs.launchpad.net/ceilometer/+bug/1438300,2015-04-30
+1437175,1437175,Fix Released,No need to call pollster default discovery if resource is found through pipeline,https://bugs.launchpad.net/ceilometer/+bug/1437175,2015-04-30

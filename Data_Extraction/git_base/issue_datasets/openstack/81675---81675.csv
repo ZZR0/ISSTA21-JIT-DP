@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1269947,1269947,Fix Released,v3/ec2tokens validation results in v2 token,https://bugs.launchpad.net/keystone/+bug/1269947,2014-04-17
+1269785,1269785,Fix Released,Dogpile no longer caches anything,https://bugs.launchpad.net/keystone/+bug/1269785,2014-04-17
+1266812,1266812,Fix Released,Keystone spamming log with deprecation warnings,https://bugs.launchpad.net/keystone/+bug/1266812,2014-04-17
+1245629,1245629,Fix Released,keystone is ignoring debug=True,https://bugs.launchpad.net/keystone/+bug/1245629,2014-04-17
+1231339,1231339,Fix Released,keystone s3_token middleware not usable,https://bugs.launchpad.net/keystone/+bug/1231339,2014-04-17
+1284700,1284700,Fix Released,Downgrade of assignment to grant tables has issues with postgresql & mysql,https://bugs.launchpad.net/keystone/+bug/1284700,2014-04-17
+1251123,1251123,Fix Released,_update_user_list_with_cas causes significant overhead (when using memcached as token store backend),https://bugs.launchpad.net/keystone/+bug/1251123,2014-04-17
+1251048,1251048,Fix Released,V3 Auth controller does not have collection_name and member_name defined,https://bugs.launchpad.net/keystone/+bug/1251048,2014-04-17
+1248952,1248952,Fix Released,Delete role not implemented on assignment LDAP backend,https://bugs.launchpad.net/keystone/+bug/1248952,2014-04-17
+1233874,1233874,Fix Released,Need enhancement over bug fix1186059,https://bugs.launchpad.net/keystone/+bug/1233874,2014-04-17
+1211233,1211233,Fix Released,REMOTE_USER support should be more flexible in how domain is specified,https://bugs.launchpad.net/keystone/+bug/1211233,2014-04-17
+1156472,1156472,Fix Released,fixes use the fact that empty sequences are false,https://bugs.launchpad.net/keystone/+bug/1156472,2014-04-17
+1268094,1268094,Fix Released,remove unused variables,https://bugs.launchpad.net/keystone/+bug/1268094,2014-04-17
+1265887,1265887,Fix Released,kvs assignment updates user password,https://bugs.launchpad.net/keystone/+bug/1265887,2014-04-17
+1265332,1265332,Fix Released,Remove unused imports,https://bugs.launchpad.net/keystone/+bug/1265332,2014-04-17
+1264946,1264946,Fix Released,Remove unused code in contrib/ec2/controllers.py,https://bugs.launchpad.net/keystone/+bug/1264946,2014-04-17
+1262589,1262589,Fix Released,"reduce parameter not used in ""_populate_user""",https://bugs.launchpad.net/keystone/+bug/1262589,2014-04-17
+1259978,1259978,Fix Released,xrange not support in python3,https://bugs.launchpad.net/keystone/+bug/1259978,2014-04-17
+1255564,1255564,Fix Released,policy.v3cloudsample.json out of sync with policy.json,https://bugs.launchpad.net/keystone/+bug/1255564,2014-04-17
+1252428,1252428,Fix Released,The module keystone.common.dependency is too sparsely documented.,https://bugs.launchpad.net/keystone/+bug/1252428,2014-04-17
+1269637,1269637,Fix Released,v3 credentials get blob format inconsistent,https://bugs.launchpad.net/keystone/+bug/1269637,2014-04-17
+1263663,1263663,Fix Released,IPv6 test are not skipped when ipv6 is disabled,https://bugs.launchpad.net/keystone/+bug/1263663,2014-04-17
+1261622,1261622,Fix Released,change text or behaviour of the admin token in keystone.conf,https://bugs.launchpad.net/keystone/+bug/1261622,2014-04-17
+1261104,1261104,Fix Released,trustee not able to perform role operations,https://bugs.launchpad.net/keystone/+bug/1261104,2014-04-17
+1259735,1259735,Fix Released,Change attribute_ignore from string to list,https://bugs.launchpad.net/keystone/+bug/1259735,2014-04-17
+1259584,1259584,Fix Released,ec2 signature validation fails with v3 credentials,https://bugs.launchpad.net/keystone/+bug/1259584,2014-04-17
+1259426,1259426,Fix Released,LDAP list group users crash when no member in the group,https://bugs.launchpad.net/keystone/+bug/1259426,2014-04-17
+1258929,1258929,Fix Released,Code documentation is not generated,https://bugs.launchpad.net/keystone/+bug/1258929,2014-04-17
+1257323,1257323,Fix Released,Keystone token_flush execution may fail because of full transaction log in DB2,https://bugs.launchpad.net/keystone/+bug/1257323,2014-04-17
+1253755,1253755,Fix Released,keystone.token.backends.sql list_revoked_tokens performs very poorly,https://bugs.launchpad.net/keystone/+bug/1253755,2014-04-17
+1253484,1253484,Fix Released,external authentication v2 and v3 mismatch,https://bugs.launchpad.net/keystone/+bug/1253484,2014-04-17
+1250765,1250765,Fix Released,Fix errors for create_endpoints in version2,https://bugs.launchpad.net/keystone/+bug/1250765,2014-04-17
+1245590,1245590,Fix Released,List Trusts generates HTTP Error 500,https://bugs.launchpad.net/keystone/+bug/1245590,2014-04-17
+1245342,1245342,Fix Released,"create user returns 400 without a password, which should be optional",https://bugs.launchpad.net/keystone/+bug/1245342,2014-04-17
+1264803,1264803,Fix Released,OAuth dependency is not resolved prior to starting server,https://bugs.launchpad.net/keystone/+bug/1264803,2014-04-17
+1257390,1257390,Fix Released,races in assignment manager can cause spurious 404 when removing user from project,https://bugs.launchpad.net/keystone/+bug/1257390,2014-04-17
+1254619,1254619,Fix Released,"external.Default authentication plugin only considers leftmost part of the REMOTE_USER split by ""@""",https://bugs.launchpad.net/keystone/+bug/1254619,2014-04-17
+1253905,1253905,Fix Released,Keystone doesn't handle UTF8 in exceptions,https://bugs.launchpad.net/keystone/+bug/1253905,2014-04-17
+1240382,1240382,Fix Released,python-oauth2 dependency is unmaintained and has security issues,https://bugs.launchpad.net/keystone/+bug/1240382,2014-04-17
+1242597,1242597,Fix Released,[OSSA 2013-032] Keystone trust circumvention through EC2-style tokens (CVE-2013-6391),https://bugs.launchpad.net/keystone/+bug/1242597,2014-04-17
+1242597,1242597,Fix Released,[OSSA 2013-032] Keystone trust circumvention through EC2-style tokens (CVE-2013-6391),https://bugs.launchpad.net/ossa/+bug/1242597,2014-04-17
+1241812,1241812,Fix Released,Keystone WSGI hides environment vars,https://bugs.launchpad.net/keystone/+bug/1241812,2014-04-17
+1231220,1231220,Fix Released,Add notifications for roles and groups,https://bugs.launchpad.net/keystone/+bug/1231220,2014-04-17
+1222696,1222696,Fix Released,V3 Auth Controller calls V2 Token Controller,https://bugs.launchpad.net/keystone/+bug/1222696,2014-04-17
+1220913,1220913,Fix Released,bp split-identity left unfinished,https://bugs.launchpad.net/keystone/+bug/1220913,2014-04-17
+1218596,1218596,Fix Released,document extension development,https://bugs.launchpad.net/keystone/+bug/1218596,2014-04-17
+1152662,1152662,Fix Released,sample policy.json should use new format,https://bugs.launchpad.net/keystone/+bug/1152662,2014-04-17
+1255864,1255864,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/keystone/+bug/1255864,2014-04-17
+1254585,1254585,Fix Released,Fix typo in keystone,https://bugs.launchpad.net/keystone/+bug/1254585,2014-04-17
+1254036,1254036,Fix Released,misleading error message when keystone.conf not found,https://bugs.launchpad.net/keystone/+bug/1254036,2014-04-17
+1249117,1249117,Fix Released,examples/pki/cms/auth_token_unscoped.json does not parse,https://bugs.launchpad.net/keystone/+bug/1249117,2014-04-17
+1248037,1248037,Fix Released,Duplicate delete the user_project_metadata filter with project_id,https://bugs.launchpad.net/keystone/+bug/1248037,2014-04-17
+1247142,1247142,Fix Released,Live LDAP tests fail when trying to create user with an arbitrary attribute,https://bugs.launchpad.net/keystone/+bug/1247142,2014-04-17
+1244605,1244605,Fix Released,Developer docs should include instructions for runnings tests with tox,https://bugs.launchpad.net/keystone/+bug/1244605,2014-04-17
+1244304,1244304,Fix Released,remove old swift port 8888 in sample script,https://bugs.launchpad.net/keystone/+bug/1244304,2014-04-17
+1239892,1239892,Fix Released,Version for python-memcached not specified,https://bugs.launchpad.net/keystone/+bug/1239892,2014-04-17
+1234283,1234283,Fix Released,remove string formatting in log statements,https://bugs.launchpad.net/keystone/+bug/1234283,2014-04-17
+1232878,1232878,Fix Released,developer manual for keystone services has broken links,https://bugs.launchpad.net/keystone/+bug/1232878,2014-04-17
+1230270,1230270,Fix Released,Install guide has compute v1.1 in an endpoint,https://bugs.launchpad.net/openstack-manuals/+bug/1230270,2014-04-17
+1230270,1230270,Fix Released,Install guide has compute v1.1 in an endpoint,https://bugs.launchpad.net/keystone/+bug/1230270,2014-04-17
+1226466,1226466,Fix Released,"keystone user CRUD uses ""password"" instead of ""OS-KSADM:password""",https://bugs.launchpad.net/keystone/+bug/1226466,2014-04-17
+1186394,1186394,Fix Released,running  keystone-all on already running instance produces stack trace,https://bugs.launchpad.net/keystone/+bug/1186394,2014-04-17
+1153719,1153719,Fix Released,401 responses do not include WWW-Authenticate header,https://bugs.launchpad.net/keystone/+bug/1153719,2014-04-17
+1254852,1254852,Fix Released,cannot downgrade sql migrations for extensions,https://bugs.launchpad.net/keystone/+bug/1254852,2014-04-17
+1252466,1252466,Fix Released,"rules policy driver does not implement create_policy, delete_policy, get_policy, list_policies, update_policy, crashes on startup",https://bugs.launchpad.net/keystone/+bug/1252466,2014-04-17
+1247830,1247830,Fix Released,Update role 'NoneType' object has no attribute 'setdefault',https://bugs.launchpad.net/keystone/+bug/1247830,2014-04-17
+1246831,1246831,Fix Released,Creating trust with invalid expires_at causes 500 error,https://bugs.launchpad.net/keystone/+bug/1246831,2014-04-17
+1246473,1246473,Fix Released,A non-existing tenant can be added to a user,https://bugs.launchpad.net/keystone/+bug/1246473,2014-04-17
+1245539,1245539,Fix Released,"Error running test coverage: ""no such option: --coverage""",https://bugs.launchpad.net/keystone/+bug/1245539,2014-04-17
+1245435,1245435,Fix Released,Unable to remove aws key as normal user,https://bugs.launchpad.net/keystone/+bug/1245435,2014-04-17
+1239476,1239476,Fix Released,kvs and sql assignment backend create_grant checks user/group existence,https://bugs.launchpad.net/keystone/+bug/1239476,2014-04-17
+1235778,1235778,Fix Released,Keystone docs missing Read Only LDAP Config,https://bugs.launchpad.net/keystone/+bug/1235778,2014-04-17
+1227507,1227507,Fix Released,Not all token drivers have an implementation of delete_tokens(),https://bugs.launchpad.net/keystone/+bug/1227507,2014-04-17
+1186059,1186059,Fix Released,A Keystone user can't perform  revoke_token operation due to absence of target in context,https://bugs.launchpad.net/keystone/+bug/1186059,2014-04-17
+1178740,1178740,Fix Released,ec2_token middleware importns nova into Keystone project,https://bugs.launchpad.net/keystone/+bug/1178740,2014-04-17

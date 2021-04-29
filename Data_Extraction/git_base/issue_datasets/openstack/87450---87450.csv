@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1210674,1210674,Fix Released,MongoDB PyMongo username/password warnings occur when running tests,https://bugs.launchpad.net/ceilometer/+bug/1210674,2013-10-17
+1210281,1210281,Fix Released,unused abstract class definitions in storage driver tests,https://bugs.launchpad.net/ceilometer/+bug/1210281,2013-10-17
+1210278,1210278,Fix Released,unused variable self.counters in storage test class StatisticsTest,https://bugs.launchpad.net/ceilometer/+bug/1210278,2013-10-17
+1208448,1208448,Fix Released,tox -e cover fails on macosx,https://bugs.launchpad.net/ceilometer/+bug/1208448,2013-10-17
+1207285,1207285,Fix Released,Lack of documentation for Swift/Cinder measurements,https://bugs.launchpad.net/ceilometer/+bug/1207285,2013-10-17
+1206256,1206256,Fix Released,xml.etree.ElementTree.ParseError not supported in Python 2.6,https://bugs.launchpad.net/ceilometer/+bug/1206256,2013-10-17
+1206022,1206022,Fix Released,Hbase dict metadata query failed,https://bugs.launchpad.net/ceilometer/+bug/1206022,2013-10-17
+1205759,1205759,Fix Released,Hbase metadata query return wrong result,https://bugs.launchpad.net/ceilometer/+bug/1205759,2013-10-17
+1204593,1204593,Fix Released,post sample v2 API tests must check if the content published on the pipeline is correct,https://bugs.launchpad.net/ceilometer/+bug/1204593,2013-10-17
+1204520,1204520,Fix Released,collect requires 2 database handles when storing raw events,https://bugs.launchpad.net/ceilometer/+bug/1204520,2013-10-17
+1204458,1204458,Fix Released,statistics should be added unit attribute,https://bugs.launchpad.net/ceilometer/+bug/1204458,2013-10-17
+1204133,1204133,Fix Released,CollectorService missing storage_conn,https://bugs.launchpad.net/ceilometer/+bug/1204133,2013-10-17
+1202739,1202739,Fix Released,"Final ""/"" on URLs in doc",https://bugs.launchpad.net/ceilometer/+bug/1202739,2013-10-17
+1217688,1217688,Fix Released,missing else clause and TODO comments in statistics group by storage tests,https://bugs.launchpad.net/ceilometer/+bug/1217688,2013-10-17
+1213897,1213897,Fix Released,connection in alembic.env doesn't close,https://bugs.launchpad.net/ceilometer/+bug/1213897,2013-10-17
+1206816,1206816,Fix Released,transformer LOG KeyError when transform cpu meter,https://bugs.launchpad.net/ceilometer/+bug/1206816,2013-10-17
+1202938,1202938,Fix Released,Documentation does not clarify cpu_util meter,https://bugs.launchpad.net/ceilometer/+bug/1202938,2013-10-17
+1195765,1195765,Fix Released,inconsistent use of metadata and resource_metadata in /v2/meters API,https://bugs.launchpad.net/ceilometer/+bug/1195765,2013-10-17
+1195538,1195538,Fix Released,Shall provide a way to register implicit conf options for generate_sample.sh,https://bugs.launchpad.net/ceilometer/+bug/1195538,2013-10-17
+1212851,1212851,Fix Released,iso8601 date parsing test failures (maybe with flask 0.10.1 ),https://bugs.launchpad.net/ceilometer/+bug/1212851,2013-10-17
+1209128,1209128,Fix Released,Support for wildcard in pipeline,https://bugs.launchpad.net/ceilometer/+bug/1209128,2013-10-17
+1204864,1204864,Fix Released,Nova notifier is hard coded to use remote conductor,https://bugs.launchpad.net/ceilometer/+bug/1204864,2013-10-17
+1204609,1204609,Fix Released,sort against documents should be done on server,https://bugs.launchpad.net/ceilometer/+bug/1204609,2013-10-17
+1204607,1204607,Fix Released,unnecessary calls to method distinct('_id'),https://bugs.launchpad.net/ceilometer/+bug/1204607,2013-10-17
+1194046,1194046,Fix Released,SSL verification failures some special deployments,https://bugs.launchpad.net/ceilometer/+bug/1194046,2013-10-17
+1193165,1193165,Fix Released,documentation on running tests is out-of-date,https://bugs.launchpad.net/ceilometer/+bug/1193165,2013-10-17
+1192170,1192170,Fix Released,Ceilometer verbose mode is too verbose,https://bugs.launchpad.net/ceilometer/+bug/1192170,2013-10-17
+1178845,1178845,Fix Released,API server should not create a new database handle on each request,https://bugs.launchpad.net/ceilometer/+bug/1178845,2013-10-17
+1214257,1214257,Fix Released,sql backend throwing sporadic error,https://bugs.launchpad.net/ceilometer/+bug/1214257,2013-10-17
+1206731,1206731,Fix Released,notifier should not log traceback if there is a problem getting stats from the instance,https://bugs.launchpad.net/ceilometer/+bug/1206731,2013-10-17
+1204638,1204638,Fix Released,change meter.resource_metadata column type to Text,https://bugs.launchpad.net/ceilometer/+bug/1204638,2013-10-17
+1203699,1203699,Fix Released,Some sample metadata are missing when we request samples via the v2 API,https://bugs.launchpad.net/ceilometer/+bug/1203699,2013-10-17
+1202749,1202749,Fix Released,Empty metadata in results,https://bugs.launchpad.net/ceilometer/+bug/1202749,2013-10-17
+1202696,1202696,Fix Released,message_id field wrong for user-defined samples,https://bugs.launchpad.net/ceilometer/+bug/1202696,2013-10-17
+1202689,1202689,Fix Released,source field wrong for user-defined samples,https://bugs.launchpad.net/ceilometer/+bug/1202689,2013-10-17
+1201886,1201886,Fix Released,Creating alarm with a maching_metadata with dot in key failed,https://bugs.launchpad.net/ceilometer/+bug/1201886,2013-10-17
+1200577,1200577,Fix Released,"Filtering by ""metadata.size"" in v2/meters/image apparently is not working",https://bugs.launchpad.net/ceilometer/+bug/1200577,2013-10-17
+1197180,1197180,Fix Released,resource metadata fails when image metadata missing kernel and ramdisk,https://bugs.launchpad.net/ceilometer/+bug/1197180,2013-10-17
+1221173,1221173,Fix Released,Nova notifier error TypeError: _from_db_object() got multiple values for keyword argument 'expected_attrs',https://bugs.launchpad.net/ceilometer/+bug/1221173,2013-10-17
+1221033,1221033,Fix Released,test_notifier.TestNovaNotifier failed due to the latest nova change,https://bugs.launchpad.net/ceilometer/+bug/1221033,2013-10-17
+1219776,1219776,Fix Released,PostgreSQL migration is broken,https://bugs.launchpad.net/ceilometer/+bug/1219776,2013-10-17
+1211736,1211736,Fix Released,Error in rpcpublisher,https://bugs.launchpad.net/ceilometer/+bug/1211736,2013-10-17
+1211532,1211532,Fix Released,tests for Nova notifier fail because of nonexistent method,https://bugs.launchpad.net/ceilometer/+bug/1211532,2013-10-17
+1211239,1211239,Fix Released,"Since tests run in parallel, cfg.CONF state can be not that we expect",https://bugs.launchpad.net/ceilometer/+bug/1211239,2013-10-17
+1208370,1208370,Fix Released,gate-ceilometer no longer works,https://bugs.launchpad.net/ceilometer/+bug/1208370,2013-10-17
+1202756,1202756,Fix Released,"with new cpu_pipeline, cpu_util samples dropped for multiple instances",https://bugs.launchpad.net/ceilometer/+bug/1202756,2013-10-17
+1199411,1199411,Fix Released,a tone of tests failed with 'tox -ecover ',https://bugs.launchpad.net/ceilometer/+bug/1199411,2013-10-17
+1197545,1197545,Fix Released,ceilometer tests need to be enabled/cleaned,https://bugs.launchpad.net/ceilometer/+bug/1197545,2013-10-17
+1193926,1193926,Fix Released,filter query op:gt does not work as expected,https://bugs.launchpad.net/ceilometer/+bug/1193926,2013-10-17
+1192918,1192918,Fix Released,swift middleware should not block swift request when rpc is not avialable,https://bugs.launchpad.net/ceilometer/+bug/1192918,2013-10-17
+1188797,1188797,Fix Released,instructions for running tests list incorrect path,https://bugs.launchpad.net/ceilometer/+bug/1188797,2013-10-17
+1188649,1188649,Fix Released,connect to mongodb with pymongo's mongo_client,https://bugs.launchpad.net/ceilometer/+bug/1188649,2013-10-17
+1186283,1186283,Fix Released,sqlalchemy: migration error when running db-sync,https://bugs.launchpad.net/ceilometer/+bug/1186283,2013-10-17
+1183996,1183996,Fix Released,session flushing error,https://bugs.launchpad.net/ceilometer/+bug/1183996,2013-10-17
+1183704,1183704,Fix Released,swift pollster adds '/v1' to  adminURL,https://bugs.launchpad.net/ceilometer/+bug/1183704,2013-10-17
+1183106,1183106,Fix Released,Session obtained by SqlAlchemy driver does not use ceilometer.conf's database_connection setting,https://bugs.launchpad.net/ceilometer/+bug/1183106,2013-10-17
+1180438,1180438,Fix Released,Using SQL backend is non-functionally slow,https://bugs.launchpad.net/ceilometer/+bug/1180438,2013-10-17
+1166445,1166445,Fix Released,the valid values for disabled_ config settings are not documented,https://bugs.launchpad.net/ceilometer/+bug/1166445,2013-10-17
+1185393,1185393,Fix Released,explicitly set downloadcache in tox.ini for accleration,https://bugs.launchpad.net/ceilometer/+bug/1185393,2013-10-17
+1133206,1133206,Fix Released,Split by-meter cast out of meter publisher,https://bugs.launchpad.net/ceilometer/+bug/1133206,2013-10-17
+1030128,1030128,Fix Released,configure separate coverage test job in jenkins & tox,https://bugs.launchpad.net/ceilometer/+bug/1030128,2013-10-17
+1187943,1187943,Fix Released,Nova network.* meters are per VM or per Host?,https://bugs.launchpad.net/ceilometer/+bug/1187943,2013-10-17
+1181160,1181160,Fix Released,Configuration option documentation update,https://bugs.launchpad.net/ceilometer/+bug/1181160,2013-10-17
+1201839,1201839,Fix Released,Incorrect error message in ceilometer-api,https://bugs.launchpad.net/ceilometer/+bug/1201839,2013-10-17
+1199193,1199193,Fix Released,too old oslo.config: AttributeError: 'module' object has no attribute 'DeprecatedOpt' causing tests failure,https://bugs.launchpad.net/ceilometer/+bug/1199193,2013-10-17
+1195925,1195925,Fix Released,Returns 500 for unknown resources,https://bugs.launchpad.net/ceilometer/+bug/1195925,2013-10-17
+1189488,1189488,Fix Released,RPC publisher shouldn't block if transport layer is down,https://bugs.launchpad.net/ceilometer/+bug/1189488,2013-10-17
+1188469,1188469,Fix Released,novaclient's endpoint_type should be configurable,https://bugs.launchpad.net/ceilometer/+bug/1188469,2013-10-17
+1188468,1188468,Fix Released,InstanceScheduled is not used,https://bugs.launchpad.net/ceilometer/+bug/1188468,2013-10-17
+1187843,1187843,Fix Released,Ceilometer should record nova instances state,https://bugs.launchpad.net/ceilometer/+bug/1187843,2013-10-17
+1187833,1187833,Fix Released,ceilometer continues to record nova instances 'exists' events after receiving 'delete.start' event,https://bugs.launchpad.net/ceilometer/+bug/1187833,2013-10-17
+1166717,1166717,Fix Released,ceilometer doesn't get instances data on machine due to invalid hostname,https://bugs.launchpad.net/ceilometer/+bug/1166717,2013-10-17
+1193908,1193908,Fix Released,Unable to load previous MongoDB data,https://bugs.launchpad.net/ceilometer/+bug/1193908,2013-10-17
+1190547,1190547,Fix Released,resource metadata not properly reported,https://bugs.launchpad.net/ceilometer/+bug/1190547,2013-10-17
+1186263,1186263,Fix Released,SQL 003 migration downgrade not ran,https://bugs.launchpad.net/ceilometer/+bug/1186263,2013-10-17

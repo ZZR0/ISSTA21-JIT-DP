@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1671267,1671267,Fix Released,pecan path leaves policy engine uninitialized,https://bugs.launchpad.net/neutron/+bug/1671267,2017-06-01
+1316621,1316621,Fix Released,ebtables calls can race with libvirt,https://bugs.launchpad.net/nova/+bug/1316621,2017-06-01
+1316621,1316621,Fix Released,ebtables calls can race with libvirt,https://bugs.launchpad.net/neutron/+bug/1316621,2017-06-01
+1673243,1673243,Fix Released,test_subnet_tags gate failure,https://bugs.launchpad.net/neutron/+bug/1673243,2017-06-01
+1663908,1663908,Fix Released,Qos rules not cleaned by L2 agent,https://bugs.launchpad.net/neutron/+bug/1663908,2017-06-01
+1665282,1665282,Fix Released,To prioritize port QoS policies over network QoS policies,https://bugs.launchpad.net/neutron/+bug/1665282,2017-06-01
+1659312,1659312,Fix Released,Enforce QoS policies applied on router interfaces,https://bugs.launchpad.net/neutron/+bug/1659312,2017-06-01
+1365461,1365461,Fix Released,HA router should failover if GW address is not reachable,https://bugs.launchpad.net/neutron/+bug/1365461,2017-06-01
+1659919,1659919,Fix Released,dhcp agent race with port update and network create,https://bugs.launchpad.net/neutron/+bug/1659919,2017-06-01
+1595515,1595515,Fix Released,IpConntrackManager class in ip_conntrack.py should be a singleton to be used by both SG and FWaaS,https://bugs.launchpad.net/neutron/+bug/1595515,2017-06-01
+1534113,1534113,Fix Released,default sg could add same rule as original egress ipv4 rule,https://bugs.launchpad.net/neutron/+bug/1534113,2017-06-01
+1541406,1541406,Fix Released,IPv6 prefix delegation does not work with DVR,https://bugs.launchpad.net/neutron/+bug/1541406,2017-06-01
+1694085,1694085,Fix Released,dogpile.cache===0.6.3 breaks nova,https://bugs.launchpad.net/nova/+bug/1694085,2017-06-01
+1694280,1694280,Fix Released,Repositories setup inside the image in TripleO CI by quickstart may take 50 min,https://bugs.launchpad.net/tripleo/+bug/1694280,2017-06-01
+1624379,1624379,Fix Released,Update documentation (and possibly packages) to include installation of io.murano.applications,https://bugs.launchpad.net/murano/+bug/1624379,2017-06-01
+1596196,1596196,Fix Released,[dashboard] Missing UI tests for some functionality,https://bugs.launchpad.net/murano/+bug/1596196,2017-06-01
+1582165,1582165,Fix Released,[agent] strange installation location for murano-agent,https://bugs.launchpad.net/murano/+bug/1582165,2017-06-01
+1669903,1669903,Fix Released,AgentListener is not properly initialized,https://bugs.launchpad.net/murano/+bug/1669903,2017-06-01
+1688175,1688175,Fix Committed,Claim resources for container,https://bugs.launchpad.net/zun/+bug/1688175,2017-06-01
+1694676,1694676,Fix Released,octavia diskimage-create element amphora-agent is sourcing upper-constraints.txt file from master branch,https://bugs.launchpad.net/octavia/+bug/1694676,2017-06-01
+1691887,1691887,Fix Released,build_sphinx always failed,https://bugs.launchpad.net/os-traits/+bug/1691887,2017-06-01
+1694792,1694792,Fix Released,pkgutil.walk_packages will walk top-level packages,https://bugs.launchpad.net/os-traits/+bug/1694792,2017-06-01
+1654616,1654616,Fix Committed,Skip setting MTU on Windows when plugging devices.,https://bugs.launchpad.net/os-vif/+bug/1654616,2017-06-01
+1597287,1597287,Fix Released,dont bring up linux bridge local port when using ovs hybrid plug,https://bugs.launchpad.net/os-vif/+bug/1597287,2017-06-01
+1627367,1627367,Fix Released,Octavia does not handle TLS certs with encrypted keys,https://bugs.launchpad.net/octavia/+bug/1627367,2017-06-01
+1627356,1627356,Fix Released,Intermediate TLS certificates not downloaded to amphorae,https://bugs.launchpad.net/octavia/+bug/1627356,2017-06-01
+1658982,1658982,Fix Released,NUMA scheduling error on evacuation,https://bugs.launchpad.net/fuel/+bug/1658982,2017-05-31
+1543149,1543149,Fix Released,Reserve host pages on compute nodes,https://bugs.launchpad.net/nova/+bug/1543149,2017-05-31
+1643966,1643966,Fix Released,IPA reports connection error when inspecting,https://bugs.launchpad.net/ironic-python-agent/+bug/1643966,2017-05-31
+1657808,1657808,Fix Released,qemu-img calls should limit the memory usage,https://bugs.launchpad.net/ironic-lib/+bug/1657808,2017-05-31
+1657808,1657808,Fix Released,qemu-img calls should limit the memory usage,https://bugs.launchpad.net/ironic-python-agent/+bug/1657808,2017-05-31
+1661219,1661219,Fix Released,TinyIPA build fails when no Babel .dat files are present,https://bugs.launchpad.net/ironic-python-agent/+bug/1661219,2017-05-31
+1659137,1659137,Fix Released,DIB builds of IPA issue with psutils versions,https://bugs.launchpad.net/ironic-python-agent/+bug/1659137,2017-05-31
+1621791,1621791,Fix Released,Inspector grenade fails in test_network_basic_ops,https://bugs.launchpad.net/ironic-inspector/+bug/1621791,2017-05-31
+1644204,1644204,Fix Released,Grenade recreate db during upgrade,https://bugs.launchpad.net/ironic-inspector/+bug/1644204,2017-05-31
+1668579,1668579,Fix Released,Can't change node driver from dynamic to classic,https://bugs.launchpad.net/ironic/+bug/1668579,2017-05-31
+1675744,1675744,Fix Released,Tempest jobs fail to clean up iptables chain,https://bugs.launchpad.net/ironic-inspector/+bug/1675744,2017-05-31
+1669389,1669389,Fix Released,Wrong ports in swift documentation,https://bugs.launchpad.net/swift/+bug/1669389,2017-05-31
+1671896,1671896,Fix Released,Install and configure the storage nodes for Ubuntu and Debian in Installation Guide for Object Storage Service: Ports Are Inconsistent and Incorrect Based on Later Steps in Process,https://bugs.launchpad.net/swift/+bug/1671896,2017-05-31
+1657246,1657246,Fix Released,Proxy logs wrong request method when validating SLO segments,https://bugs.launchpad.net/swift/+bug/1657246,2017-05-31
+1675500,1675500,Fix Released,Container/account disk drive fault results replication on all rest drives,https://bugs.launchpad.net/swift/+bug/1675500,2017-05-31
+1680704,1680704,Fix Released,Do not use a specific string to match the ring name,https://bugs.launchpad.net/swift/+bug/1680704,2017-05-31
+1646247,1646247,Fix Released,New database corruption message: DatabaseError: malformed database schema,https://bugs.launchpad.net/swift/+bug/1646247,2017-05-31
+1586167,1586167,Fix Released,min_part_hours of 0 is not helpful - fix it,https://bugs.launchpad.net/swift/+bug/1586167,2017-05-31
+1558754,1558754,Fix Released,remove devices before min-part-hours requires --force,https://bugs.launchpad.net/swift/+bug/1558754,2017-05-31
+1328735,1328735,Fix Released,Object-updater gives up updating container with no success if all containers are placed at handoff,https://bugs.launchpad.net/swift/+bug/1328735,2017-05-31
+1641980,1641980,Fix Released,Invalid copy destination header can cause 500 response,https://bugs.launchpad.net/swift/+bug/1641980,2017-05-31
+1663181,1663181,Fix Released,Longer term fix for VIP failover issue and clash with cellsv2,https://bugs.launchpad.net/tripleo/+bug/1663181,2017-05-31
+1670632,1670632,Fix Released,ceilometer error because gnocchiclient > 3.0 for stable/newton,https://bugs.launchpad.net/openstack-ansible/+bug/1670632,2017-05-31
+1680694,1680694,Fix Released,Run recovery with galera-bootstrap tag causing check conditional 'mysql_started | failed' failed,https://bugs.launchpad.net/openstack-ansible/+bug/1680694,2017-05-31
+1646107,1646107,Fix Released,Functional job times out on xenial,https://bugs.launchpad.net/neutron/+bug/1646107,2017-05-31
+1687661,1687661,Fix Released,"upper_constraints for oslo.middleware need to be updated for Mitaka, Newton and Ocata",https://bugs.launchpad.net/openstack-requirements/+bug/1687661,2017-05-31
+1643821,1643821,Fix Released,kafka-python version bump not compatible,https://bugs.launchpad.net/openstack-requirements/+bug/1643821,2017-05-31
+1605629,1605629,Fix Released,AttributeError: 'Timer' object has no attribute '__code__' (requires pecan > 1.0.2),https://bugs.launchpad.net/openstack-requirements/+bug/1605629,2017-05-31
+1638263,1638263,Fix Released,Unit tests failing on vine.five import,https://bugs.launchpad.net/openstack-requirements/+bug/1638263,2017-05-31
+1620436,1620436,Fix Released,Constraints generation is NOT py35 ready,https://bugs.launchpad.net/openstack-requirements/+bug/1620436,2017-05-31
+1621763,1621763,Fix Released,Leading 0s are missed in PCI address set by Facter for pci_address_driver_<driver type>,https://bugs.launchpad.net/puppet-vswitch/+bug/1621763,2017-05-31
+1589930,1589930,Fix Released,CPU isolation for host processes,https://bugs.launchpad.net/tripleo/+bug/1589930,2017-05-31
+1693945,1693945,Fix Released,ovb-ha-oooq job execution is timing out regularly,https://bugs.launchpad.net/tripleo/+bug/1693945,2017-05-31
+1684326,1684326,Fix Released,MTU not set on nova instance's vif_type=bridge tap interface,https://bugs.launchpad.net/neutron/+bug/1684326,2017-05-31
+1694463,1694463,Fix Released,Dracut-regenerate fails to build for Fedora 25,https://bugs.launchpad.net/diskimage-builder/+bug/1694463,2017-05-31
+1682147,1682147,Fix Released,Release notes for 8.0.0 is missing,https://bugs.launchpad.net/reno/+bug/1682147,2017-05-31
+1693208,1693208,Fix Released,[zabbix plugin] unable to deploy zabbix plugin without Horizon HTTPS option enabled,https://bugs.launchpad.net/fuel/+bug/1693208,2017-05-31
+1667145,1667145,Fix Released,puppet-cib backup files might be left around,https://bugs.launchpad.net/puppet-pacemaker/+bug/1667145,2017-05-31
+1688322,1688322,Fix Released,ci ocata upgrade jobs seem to be failing on pacemaker stonith property,https://bugs.launchpad.net/tripleo/+bug/1688322,2017-05-31
+1692923,1692923,Fix Released,Race during setup,https://bugs.launchpad.net/puppet-pacemaker/+bug/1692923,2017-05-31
+1692828,1692828,Fix Released,Build documentation failed,https://bugs.launchpad.net/stackube/+bug/1692828,2017-05-31
+1693468,1693468,Fix Released,CentOS node for fuel deployment,https://bugs.launchpad.net/fuel-dev-tools/+bug/1693468,2017-05-31
+1692505,1692505,Fix Released,GlusterFS driver in Ocata Configuration Reference,https://bugs.launchpad.net/openstack-manuals/+bug/1692505,2017-05-31
+1688546,1688546,Fix Released,dracut-network element fails to build due to incorrect path for select-boot-kernel-initrd,https://bugs.launchpad.net/diskimage-builder/+bug/1688546,2017-05-31
+1694431,1694431,Fix Released,python2-ryu-4.13-1breaks ovb-ha-oooq on master,https://bugs.launchpad.net/tripleo/+bug/1694431,2017-05-30
+1670642,1670642,Fix Released,get_model method missing for Ploop image,https://bugs.launchpad.net/nova/+bug/1670642,2017-05-30
+1689835,1689835,Fix Released,"VMAX driver -  Change ""Intervals"" to ""Interval"" in the documentation",https://bugs.launchpad.net/openstack-manuals/+bug/1689835,2017-05-30
+1623089,1623089,Fix Released,Fail to suspend guest with direct-physical ports,https://bugs.launchpad.net/nova/+bug/1623089,2017-05-30
+1656673,1656673,Fix Released,"map_cell0 should use the main DB connection, not the API DB",https://bugs.launchpad.net/nova/+bug/1656673,2017-05-30

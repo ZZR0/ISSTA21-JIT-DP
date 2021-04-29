@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1626673,1626673,Fix Released,Network/UpdateDeployments taking over five minutes to run,https://bugs.launchpad.net/tripleo/+bug/1626673,2016-09-26
+1622501,1622501,Fix Released,[5.0] Deployment with Sahara has failed.,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1622501,2016-09-26
+1626014,1626014,Fix Released,Unit tests fail due to expecting old pre-keystone v3 support in kuryr-lib,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1626014,2016-09-26
+1626234,1626234,Fix Released,groupBy() aggregator doesn't aggregate within the groups,https://bugs.launchpad.net/yaql/+bug/1626234,2016-09-26
+1626483,1626483,Fix Released,CI: not enough memory to run HA jobs with current services configuration,https://bugs.launchpad.net/tripleo/+bug/1626483,2016-09-26
+1626726,1626726,Fix Released,os_trove role should create tenant trove_for_trove_usage,https://bugs.launchpad.net/openstack-ansible/+bug/1626726,2016-09-26
+1626333,1626333,Fix Released,failed to run UT,https://bugs.launchpad.net/dragonflow/+bug/1626333,2016-09-26
+1627686,1627686,Fix Released,There are no subbuilds in jenkins swarm runner job at 74th run,https://bugs.launchpad.net/fuel/+bug/1627686,2016-09-26
+1605352,1605352,Fix Released,Variables are hardcoded to incorrect values,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1605352,2016-09-26
+1604180,1604180,Fix Committed,Add Python 3.5 classifier and venv in kuryr-libnetwork,https://bugs.launchpad.net/kuryr/+bug/1604180,2016-09-26
+1578356,1578356,Fix Committed,new libnetwork API,https://bugs.launchpad.net/kuryr/+bug/1578356,2016-09-26
+1619359,1619359,Fix Committed,[Docs] InfluxDB Grafana wrong IOPS recommendations,https://bugs.launchpad.net/lma-toolchain/+bug/1619359,2016-09-26
+1621497,1621497,Fix Released,"cannot change Maintenance update repos for update because this option appears after running ""fuel2 update --env env_id install --restart-mysql --restar-rabbit""",https://bugs.launchpad.net/fuel/+bug/1621497,2016-09-26
+1457559,1457559,Fix Committed,Nodes can't connect to rabbitmq on Fuel node if you use non eth0 as admin interface,https://bugs.launchpad.net/fuel/+bug/1457559,2016-09-26
+1602583,1602583,Fix Released,[Upgrade 7.0 to 9.0] cobbler doesn't have bootstrap profile,https://bugs.launchpad.net/fuel/+bug/1602583,2016-09-26
+1623854,1623854,Fix Released,[upgrade] key error in upgrade primary controller - serialized data was changed in nailgun,https://bugs.launchpad.net/fuel/+bug/1623854,2016-09-26
+1477490,1477490,Fix Released,Ironic: Deleting while spawning can leave orphan ACTIVE nodes in Ironic,https://bugs.launchpad.net/nova/+bug/1477490,2016-09-26
+1559720,1559720,Fix Released,"using /action_executions/{id} update, user able to update workflow-execution",https://bugs.launchpad.net/mistral/+bug/1559720,2016-09-26
+1581649,1581649,Fix Released,Action Execution Response Timeout,https://bugs.launchpad.net/mistral/+bug/1581649,2016-09-26
+1569142,1569142,Fix Committed,Exposing ports,https://bugs.launchpad.net/kuryr/+bug/1569142,2016-09-26
+1350368,1350368,Fix Released,Show quotas in OpenStack Block Storage API v2 Reference  - API v2 and extensions,https://bugs.launchpad.net/openstack-api-site/+bug/1350368,2016-09-26
+1573107,1573107,Fix Released,Fix DHCP option 121 handling in CPNR plugin,https://bugs.launchpad.net/networking-cisco/+bug/1573107,2016-09-26
+1571995,1571995,Fix Released,Create service file for CPNR plugin,https://bugs.launchpad.net/networking-cisco/+bug/1571995,2016-09-26
+1622244,1622244,Fix Released,Diable devstack job for a doc-only change,https://bugs.launchpad.net/zun/+bug/1622244,2016-09-26
+1624586,1624586,Fix Released,Create shortcut for frequently used options,https://bugs.launchpad.net/zun/+bug/1624586,2016-09-26
+1623961,1623961,Fix Released,ntp.py failes to timesinc because of sshclient error (broken pipe),https://bugs.launchpad.net/fuel/+bug/1623961,2016-09-26
+1626530,1626530,Fix Released,Impossible to download network settings from db using cli: empty yaml,https://bugs.launchpad.net/fuel/+bug/1626530,2016-09-26
+1606843,1606843,Fix Released,Set node status ERROR when physical id is none,https://bugs.launchpad.net/senlin/+bug/1606843,2016-09-26
+1621349,1621349,Fix Released,"profile-list can not display ""type"" column",https://bugs.launchpad.net/senlin/+bug/1621349,2016-09-26
+1459854,1459854,Fix Released,cinder unit tests start to go unstable when bumping concurrency values above 6,https://bugs.launchpad.net/cinder/+bug/1459854,2016-09-24
+1430575,1430575,Fix Released,Nimble Cinder driver crashes if an exception is raised due to unicode -> str conversion,https://bugs.launchpad.net/cinder/+bug/1430575,2016-09-24
+1255593,1255593,Fix Released,configuration options from the [DEFAULT] section are not applied to multiple backends,https://bugs.launchpad.net/devstack/+bug/1255593,2016-09-24
+1582922,1582922,Fix Released,3PAR driver doesn't remove all VLUNs after a volume detach in some situations,https://bugs.launchpad.net/cinder/+bug/1582922,2016-09-24
+1582306,1582306,Fix Released,"test_retype_volume_migration_failed ""Notifier count incorrect""",https://bugs.launchpad.net/cinder/+bug/1582306,2016-09-24
+1589187,1589187,Fix Released,SolidFire driver no longer setting QoS on clone,https://bugs.launchpad.net/cinder/+bug/1589187,2016-09-24
+1548025,1548025,Fix Released,keystone::db::postgresql/mysql appears fundamentally broken.,https://bugs.launchpad.net/puppet-keystone/+bug/1548025,2016-09-24
+1592060,1592060,Fix Released,[Liberty] Need keystone::wsgi::apache::admin_bind_host,https://bugs.launchpad.net/puppet-keystone/+bug/1592060,2016-09-24
+1470635,1470635,Fix Released,endpoints added with v3 are not visible with v2,https://bugs.launchpad.net/keystone/+bug/1470635,2016-09-24
+1627297,1627297,Fix Released,gate-grenade-dsvm-heat broken after grenaderc changes,https://bugs.launchpad.net/heat/+bug/1627297,2016-09-24
+1623332,1623332,Fix Released,unknown port update error for tap-metadata,https://bugs.launchpad.net/dragonflow/+bug/1623332,2016-09-24
+1612149,1612149,Fix Released,py34 and py35 unit tests are broken,https://bugs.launchpad.net/manila/+bug/1612149,2016-09-23
+1593278,1593278,Fix Released,Incorrect resource setUp in VolumesV2SnapshotTestJSON/VolumesV1SnapshotTestJSON,https://bugs.launchpad.net/tempest/+bug/1593278,2016-09-23
+1627131,1627131,Fix Released,Bigswitch related command filters are not included compute filters file,https://bugs.launchpad.net/nova/+bug/1627131,2016-09-23
+1626770,1626770,Fix Released,[apic-mapping] string cast nat_epg_tenant before passing it down the RPC,https://bugs.launchpad.net/group-based-policy/+bug/1626770,2016-09-23
+1620325,1620325,Fix Released,Plugin_example system tests failed on step of checking fuel-simple-service,https://bugs.launchpad.net/fuel/+bug/1620325,2016-09-23
+1596928,1596928,Fix Committed,Tasks from plugins of version 1 and 2 are not executed,https://bugs.launchpad.net/fuel/+bug/1596928,2016-09-23
+1624520,1624520,Fix Released,os_trove role has no functional testing,https://bugs.launchpad.net/openstack-ansible/+bug/1624520,2016-09-23
+1604187,1604187,Fix Released,Inconsistencies between requestslib PreparedRequest and syntribos' RequestObject,https://bugs.launchpad.net/syntribos/+bug/1604187,2016-09-23
+1610751,1610751,Fix Released,No handler found for syntribos.config when config file is unreadble,https://bugs.launchpad.net/syntribos/+bug/1610751,2016-09-23
+1608638,1608638,Fix Released,"Templates file reading, reads all files, there is no real filter",https://bugs.launchpad.net/syntribos/+bug/1608638,2016-09-23
+1625518,1625518,Fix Committed,Formatter is broken in json output on single entities,https://bugs.launchpad.net/fuel/+bug/1625518,2016-09-23
+1600279,1600279,Fix Released,quickstart.sh should output information on connecting to undercloud,https://bugs.launchpad.net/tripleo-quickstart/+bug/1600279,2016-09-23
+1626593,1626593,Fix Released,[Contrail 5.0]  Deploy with vcenter and openstack services failed,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1626593,2016-09-23
+1597071,1597071,Fix Released,allow the deployment to fail and capture logs,https://bugs.launchpad.net/tripleo-quickstart/+bug/1597071,2016-09-23
+1604271,1604271,Fix Released,Swift rebalance returns code 1 after redeploy,https://bugs.launchpad.net/fuel/+bug/1604271,2016-09-23
+1626127,1626127,Fix Released,Error while creating Cinder Volumes,https://bugs.launchpad.net/fuel-plugin-murano/+bug/1626127,2016-09-23
+1626535,1626535,Fix Released,Import package via dashboard failed,https://bugs.launchpad.net/fuel-plugin-murano/+bug/1626535,2016-09-23
+1616967,1616967,Fix Committed,Deployment history should display node names,https://bugs.launchpad.net/fuel/+bug/1616967,2016-09-23
+1584804,1584804,Fix Released,Add option to choose partition alignment mode,https://bugs.launchpad.net/fuel/+bug/1584804,2016-09-23
+1626542,1626542,Fix Released,debugger can't be used with unit tests,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1626542,2016-09-23
+1595982,1595982,Fix Released,move set fact for network_ags and extra_args from UC post install to OC pre tasks,https://bugs.launchpad.net/tripleo-quickstart/+bug/1595982,2016-09-23
+1571800,1571800,Fix Released,images/build role has moved to its own repo,https://bugs.launchpad.net/tripleo-quickstart/+bug/1571800,2016-09-23
+1621439,1621439,Fix Released,[octane] replaced_deployment_info should be dropped after upgrade-control,https://bugs.launchpad.net/fuel/+bug/1621439,2016-09-23
+1599837,1599837,Fix Committed,[octane] upgrade on controllers stopped on mysql reason,https://bugs.launchpad.net/fuel/+bug/1599837,2016-09-23
+1626637,1626637,Fix Released,A directory named '$HOME' is created when executing ansible-lint via tox,https://bugs.launchpad.net/storlets/+bug/1626637,2016-09-23
+1608345,1608345,Fix Released,cinder create error when availability-zone parameter is not specified,https://bugs.launchpad.net/tricircle/+bug/1608345,2016-09-23
+1620298,1620298,Fix Released,[fuel-qa] Role 'mongo' in conflict with role 'ceph-osd',https://bugs.launchpad.net/fuel/+bug/1620298,2016-09-23
+1621580,1621580,Fix Released,Ceilometer service_credentials configuration missing parameters in Enable Compute service meters in Installation Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1621580,2016-09-23
+1621018,1621018,Fix Released,[Tomcat] Test testDeploy1 in TomcatTest.yaml fails,https://bugs.launchpad.net/murano-apps/+bug/1621018,2016-09-23
+1601861,1601861,Fix Released,No api-ref support in vmware-nsx,https://bugs.launchpad.net/vmware-nsx/+bug/1601861,2016-09-23
+1626257,1626257,Fix Released,Clean up remaining PVID looper artifacts,https://bugs.launchpad.net/networking-powervm/+bug/1626257,2016-09-22
+1578659,1578659,Fix Released,Incomplete mapping in cinder volume plugin,https://bugs.launchpad.net/searchlight/+bug/1578659,2016-09-22
+1289121,1289121,Fix Released,swift version is too low in pypi to enable havana tox,https://bugs.launchpad.net/ceilometer/+bug/1289121,2016-09-22
+1301025,1301025,Fix Released,POST requests take too long,https://bugs.launchpad.net/swift/+bug/1301025,2016-09-22
+1604751,1604751,Fix Released,SSH brute force protection for cluster,https://bugs.launchpad.net/fuel/+bug/1604751,2016-09-22

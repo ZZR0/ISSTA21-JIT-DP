@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1795949,1795949,Fix Released,config download tarball getting added to git repo,https://bugs.launchpad.net/tripleo/+bug/1795949,2019-03-14
+1798820,1798820,Fix Released,undercloud install fails on non-us locale,https://bugs.launchpad.net/tripleo/+bug/1798820,2019-03-14
+1799945,1799945,Fix Released,Q > R ceph upgrade fails: SwiftFetchDirGetTempurl not set,https://bugs.launchpad.net/tripleo/+bug/1799945,2019-03-14
+1801416,1801416,Fix Released,config download tarball recursively added to config container each time,https://bugs.launchpad.net/tripleo/+bug/1801416,2019-03-14
+1798193,1798193,Fix Released,openstack overcloud status shows DEPLOY_SUCCESS when the stack status is CREATE_FAILED,https://bugs.launchpad.net/tripleo/+bug/1798193,2019-03-14
+1801902,1801902,Fix Released,config-download timeout doesn't give a proper error,https://bugs.launchpad.net/tripleo/+bug/1801902,2019-03-14
+1801365,1801365,Fix Released,nova_api container in unhealthy state after undercloud upgrade,https://bugs.launchpad.net/tripleo/+bug/1801365,2019-03-14
+1803814,1803814,Fix Released,rotate_fernet_keys workflow fails with error,https://bugs.launchpad.net/tripleo/+bug/1803814,2019-03-14
+1802318,1802318,Fix Released,Incorrect capabilities handling on node update,https://bugs.launchpad.net/tripleo/+bug/1802318,2019-03-14
+1804312,1804312,Fix Released,The entire plan content is output to stdout during deployment,https://bugs.launchpad.net/tripleo/+bug/1804312,2019-03-14
+1800504,1800504,Fix Released,Generating fencing from capitalized MAC returns nothing,https://bugs.launchpad.net/tripleo/+bug/1800504,2019-03-14
+1800916,1800916,Fix Released,Octavia amphora image cannot be installed; RPM not found,https://bugs.launchpad.net/tripleo/+bug/1800916,2019-03-14
+1803609,1803609,Fix Released,Do not fail stack update for empty ceph ansible fetch directory,https://bugs.launchpad.net/tripleo/+bug/1803609,2019-03-14
+1805184,1805184,Fix Released,image_uploader: a registry is seen as secure if URL returns 404,https://bugs.launchpad.net/tripleo/+bug/1805184,2019-03-14
+1804858,1804858,Fix Released,"Update/upgrade actions don't set DeployIdentifier, later upgrade run does nothing with some containers",https://bugs.launchpad.net/tripleo/+bug/1804858,2019-03-14
+1800493,1800493,Fix Released,Error in stack operations are not caught in DeployStackAction,https://bugs.launchpad.net/tripleo/+bug/1800493,2019-03-14
+1806073,1806073,Fix Released,"Overcloud deployment fails with ""TimeoutError: Timer expired after 10 seconds"" when ansible 2.6.2",https://bugs.launchpad.net/tripleo/+bug/1806073,2019-03-14
+1806065,1806065,Fix Released,rocky ceph 3.2 deployment fails: python-notario library is missing,https://bugs.launchpad.net/tripleo/+bug/1806065,2019-03-14
+1786786,1786786,Fix Released,Octavia amphora image and keypair not created in overcloud,https://bugs.launchpad.net/tripleo/+bug/1786786,2019-03-14
+1806406,1806406,Fix Released,environment files not included in capabilities-map are not applied as last,https://bugs.launchpad.net/tripleo/+bug/1806406,2019-03-14
+1807154,1807154,Fix Released,Add workflow for 'container image prepare default',https://bugs.launchpad.net/tripleo/+bug/1807154,2019-03-14
+1788571,1788571,Fix Released,Octavia health manager lacking setting of config params,https://bugs.launchpad.net/tripleo/+bug/1788571,2019-03-14
+1805342,1805342,Fix Released,TripleO common AnsibleAction class fails on any add hoc command not formated ad dict,https://bugs.launchpad.net/tripleo/+bug/1805342,2019-03-14
+1809895,1809895,Fix Released,openshift CI job (scenario009) fails due to missing images,https://bugs.launchpad.net/tripleo/+bug/1809895,2019-03-14
+1796293,1796293,Fix Released,"openstack overcloud node clean reports all nodes were cleaned, but one node is stuck in clean_wait",https://bugs.launchpad.net/tripleo/+bug/1796293,2019-03-14
+1804268,1804268,Fix Released,Template error doesn't show in deploy output,https://bugs.launchpad.net/tripleo/+bug/1804268,2019-03-14
+1760989,1760989,Fix Released,config-download: configurable any_errors_fatal per role,https://bugs.launchpad.net/tripleo/+bug/1760989,2019-03-14
+1812604,1812604,Fix Released,Non standard {Role}NetworkDeploymentActions results in GetOvercloudConfig action failing with  ERROR: None,https://bugs.launchpad.net/tripleo/+bug/1812604,2019-03-14
+1793500,1793500,Fix Released,[tripleo] If undercloud_ntp_servers is not declared then NTP should not be configured,https://bugs.launchpad.net/tripleo/+bug/1793500,2019-03-14
+1783646,1783646,Fix Released,openstack overcloud config download does not use workflow,https://bugs.launchpad.net/tripleo/+bug/1783646,2019-03-14
+1789506,1789506,Fix Released,tripleoclient package build fails trying to unlink a /tmp file during testing,https://bugs.launchpad.net/tripleo/+bug/1789506,2019-03-14
+1794418,1794418,Fix Released,Overcloud deploy error creating overcloudrc,https://bugs.launchpad.net/tripleo/+bug/1794418,2019-03-14
+1783893,1783893,Fix Released,config-download doesnt honor timeout,https://bugs.launchpad.net/tripleo/+bug/1783893,2019-03-14
+1795027,1795027,Fix Released,redis is installed by default in the containerized undercloud,https://bugs.launchpad.net/tripleo/+bug/1795027,2019-03-14
+1796421,1796421,Fix Released,standalone does not rerun the mysql_init_bundle on updates,https://bugs.launchpad.net/tripleo/+bug/1796421,2019-03-14
+1795928,1795928,Fix Released,Upgrade prepare: 'Client' object has no attribute 'workflow_engine',https://bugs.launchpad.net/tripleo/+bug/1795928,2019-03-14
+1795640,1795640,Fix Released,"'openstack stack list' shows CREATE_FAILED , 'openstack overcloud status --plan overcloud' shows DEPLOY_SUCCESS",https://bugs.launchpad.net/tripleo/+bug/1795640,2019-03-14
+1798592,1798592,Fix Released,Fix the default heat-container-image of docker regisitry.,https://bugs.launchpad.net/tripleo/+bug/1798592,2019-03-14
+1797572,1797572,Fix Released,Stack update with blacklisted servers fails with: ERROR openstack [  admin] Timed out waiting for port 22 from 192.168.24.112,https://bugs.launchpad.net/tripleo/+bug/1797572,2019-03-14
+1791034,1791034,Fix Released,Undercloud will create all subnets also when enable_routed_networks = False,https://bugs.launchpad.net/tripleo/+bug/1791034,2019-03-14
+1799241,1799241,Fix Released,Overcloud deployment times out when passing --config-download-timeout option,https://bugs.launchpad.net/tripleo/+bug/1799241,2019-03-14
+1801066,1801066,Fix Released,"Running upgrades as wrong ssh user: file ownership issues, deployed-server incompatibility",https://bugs.launchpad.net/tripleo/+bug/1801066,2019-03-14
+1802592,1802592,Fix Released,overcloud deploy fails on a KeyError: 'plans',https://bugs.launchpad.net/tripleo/+bug/1802592,2019-03-14
+1804275,1804275,Fix Released,THT-based undercloud upgrade should run online migrations,https://bugs.launchpad.net/tripleo/+bug/1804275,2019-03-14
+1805830,1805830,Fix Released,Rocky undercloud upgrade broken by backport,https://bugs.launchpad.net/tripleo/+bug/1805830,2019-03-14
+1799724,1799724,Fix Released,During undercloud installation /etc/hosts gets bad entry: '192.168.0.1  192.168.24.2',https://bugs.launchpad.net/tripleo/+bug/1799724,2019-03-14
+1805836,1805836,Fix Released,"If deploy tasks fail during undercloud upgrade, it would continue with post- and online- upgrade",https://bugs.launchpad.net/tripleo/+bug/1805836,2019-03-14
+1805779,1805779,Fix Released,overcloud status provide None before actual overcloud status,https://bugs.launchpad.net/tripleo/+bug/1805779,2019-03-14
+1802102,1802102,Fix Released,Openstack overcloud delete should call the undeploy workflow,https://bugs.launchpad.net/tripleo/+bug/1802102,2019-03-14
+1806521,1806521,Fix Released,deployment fails on Ensure system is NTP time synced,https://bugs.launchpad.net/tripleo/+bug/1806521,2019-03-14
+1804660,1804660,Fix Released,client exits on RUNNING messages,https://bugs.launchpad.net/tripleo/+bug/1804660,2019-03-14
+1797922,1797922,Fix Released,plan-environment.yaml in home dir can break undercloud install/upgrade,https://bugs.launchpad.net/tripleo/+bug/1797922,2019-03-14
+1811376,1811376,Fix Released,proxy settings are not preserved as we use sudo for uncercloud install,https://bugs.launchpad.net/tripleo/+bug/1811376,2019-03-14
+1810436,1810436,Fix Released,empty hieradata override files results in DeploymentError that does not clearly state the problem,https://bugs.launchpad.net/tripleo/+bug/1810436,2019-03-14
+1788907,1788907,Fix Released,Failed running docker-puppet.py for designate,https://bugs.launchpad.net/tripleo/+bug/1788907,2019-03-14
+1792701,1792701,Fix Released,rebooting an HA controller node can take around 20minutes,https://bugs.launchpad.net/tripleo/+bug/1792701,2019-03-14
+1795986,1795986,Fix Released,chrony-wait service can prevent ntp from starting on reboot,https://bugs.launchpad.net/tripleo/+bug/1795986,2019-03-14
+1794837,1794837,Fix Released,bad nic_alias fact warning in docker-puppet,https://bugs.launchpad.net/tripleo/+bug/1794837,2019-03-14
+1798020,1798020,Fix Released,ceph-nfs duplicate property,https://bugs.launchpad.net/tripleo/+bug/1798020,2019-03-14
+1800944,1800944,Fix Released,puppet-snmp has broken puppet-tripleo unit tests due to structured facts,https://bugs.launchpad.net/tripleo/+bug/1800944,2019-03-14
+1797455,1797455,Fix Released,Container Undercloud - masquerading firewall rules are incorrect,https://bugs.launchpad.net/tripleo/+bug/1797455,2019-03-14
+1799177,1799177,Fix Released,Upgrade Failed to run upgrade prepare: Forbidden: You are not authorized to perform the requested action.,https://bugs.launchpad.net/tripleo/+bug/1799177,2019-03-14
+1811207,1811207,Fix Released,TLS everywhere: the apache service wrongly requests certificates for all networks,https://bugs.launchpad.net/tripleo/+bug/1811207,2019-03-14
+1788257,1788257,Fix Released,"openstack commands on the undercloud fail with (Caused by SSLError(PermissionError(13, 'Permission denied'),))",https://bugs.launchpad.net/tripleo/+bug/1788257,2019-03-14
+1812209,1812209,Fix Released,barbican deployment is missing creator role,https://bugs.launchpad.net/tripleo/+bug/1812209,2019-03-14
+1792469,1792469,Fix Released,Make ODL compatible with podman,https://bugs.launchpad.net/tripleo/+bug/1792469,2019-03-14
+1810136,1810136,Fix Released,standalone-upgrade job failing while upgrading mariadb,https://bugs.launchpad.net/tripleo/+bug/1810136,2019-03-14
+1808893,1808893,Fix Released,Unused Jinja code in environments/network-isolation*.j2.yaml,https://bugs.launchpad.net/tripleo/+bug/1808893,2019-03-14
+1811974,1811974,Fix Released,when using ceph-ansible with python3 only deployment fails on  task nodes-uuid,https://bugs.launchpad.net/tripleo/+bug/1811974,2019-03-14
+1812013,1812013,Fix Released,nova-libvirt doesn't start with f28-based container and podman,https://bugs.launchpad.net/tripleo/+bug/1812013,2019-03-14
+1806113,1806113,Fix Released,[tripleo] Standalone setup is unable to deploy Octavia,https://bugs.launchpad.net/tripleo/+bug/1806113,2019-03-14
+1812530,1812530,Fix Released,merge-new-params-nic-config-script - StopIteration ERROR - Not userfriendly,https://bugs.launchpad.net/tripleo/+bug/1812530,2019-03-14
+1812641,1812641,Fix Released,docker-config-scripts/nova_cell_v2_discover_host.py: No such file or directory,https://bugs.launchpad.net/tripleo/+bug/1812641,2019-03-14
+1808911,1808911,Fix Released,Remove glance-registry related changes from tripleo,https://bugs.launchpad.net/tripleo/+bug/1808911,2019-03-14
+1812983,1812983,Fix Released,'include_tasks' is not a valid attribute for a Play in scenario009 openshift CI job,https://bugs.launchpad.net/tripleo/+bug/1812983,2019-03-14

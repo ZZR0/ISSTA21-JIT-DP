@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1022199,1022199,Fix Released,reboot doesn't start halted xenapi instances,https://bugs.launchpad.net/nova/+bug/1022199,2012-09-27
+1021830,1021830,Fix Released,notifications for deleted instances have garbage/duplicate image_meta,https://bugs.launchpad.net/nova/+bug/1021830,2012-09-27
+1021810,1021810,Fix Released,`nova-manage fixed list` fails if network has been deleted,https://bugs.launchpad.net/nova/+bug/1021810,2012-09-27
+1021373,1021373,Fix Released,"[nova][volumes] Exceeding volumes, gigabytes and floating_ips  quotas returns general uninformative HTTP 500 error",https://bugs.launchpad.net/nova/+bug/1021373,2012-09-27
+1021352,1021352,Fix Released,Deallocation of fixed IP occurs before security group refresh – leading to potential security issue in error / race conditions,https://bugs.launchpad.net/nova/+bug/1021352,2012-09-27
+1018900,1018900,Fix Released,chanage nova to use openstack-common notifier,https://bugs.launchpad.net/nova/+bug/1018900,2012-09-27
+1008866,1008866,Fix Released,Creating volume from snapshot on real/production/multicluster installation of OpenStack is broken,https://bugs.launchpad.net/nova/+bug/1008866,2012-09-27
+1008866,1008866,Fix Released,Creating volume from snapshot on real/production/multicluster installation of OpenStack is broken,https://bugs.launchpad.net/cinder/+bug/1008866,2012-09-27
+1003392,1003392,Fix Released,[Floating IPs] It is possible to create the same IP address with nova-manage floating create,https://bugs.launchpad.net/nova/+bug/1003392,2012-09-27
+967882,967882,Fix Released,"Volumes, volume snapshots, instance snaphots and keypairs all show cross-tenant info when logged in as admin",https://bugs.launchpad.net/nova/+bug/967882,2012-09-27
+967882,967882,Fix Released,"Volumes, volume snapshots, instance snaphots and keypairs all show cross-tenant info when logged in as admin",https://bugs.launchpad.net/horizon/+bug/967882,2012-09-27
+967882,967882,Fix Released,"Volumes, volume snapshots, instance snaphots and keypairs all show cross-tenant info when logged in as admin",https://bugs.launchpad.net/cinder/+bug/967882,2012-09-27
+960265,960265,Fix Released,DescribeVolumes EC2 API issues,https://bugs.launchpad.net/nova/+bug/960265,2012-09-27
+934603,934603,Fix Released,xenhost plugin raises on ip6tables-save/ip6tables-restore,https://bugs.launchpad.net/nova/+bug/934603,2012-09-27
+930193,930193,Fix Released,nova-manage does not return a full list of fixed IPs,https://bugs.launchpad.net/nova/+bug/930193,2012-09-27
+918383,918383,Fix Released,get_all_bw_usage raises keyerror,https://bugs.launchpad.net/nova/+bug/918383,2012-09-27
+904473,904473,Fix Released,Nova should not log 'Unrecognized content-type...' when none is provided,https://bugs.launchpad.net/nova/+bug/904473,2012-09-27
+903927,903927,Fix Released,libvirt lxc failure path does not clean up mounts,https://bugs.launchpad.net/nova/+bug/903927,2012-09-27
+872558,872558,Fix Released,Robustify locking system (utils.synchronized ),https://bugs.launchpad.net/nova/+bug/872558,2012-09-27
+833331,833331,Fix Released,OSAPI v1.1 needs to document config-drive as an extension,https://bugs.launchpad.net/nova/+bug/833331,2012-09-27
+1037503,1037503,Fix Released,Regression in simple extra_specs matching in compute_capabilities_filter,https://bugs.launchpad.net/nova/+bug/1037503,2012-09-27
+1037201,1037201,Fix Released,SchedulerHintsTestCase.test_create_missing_server fails on F17,https://bugs.launchpad.net/nova/+bug/1037201,2012-09-27
+1036793,1036793,Fix Released,checks_instance_lock and revert_task_state do not return value from wrapped function.,https://bugs.launchpad.net/nova/+bug/1036793,2012-09-27
+1036419,1036419,Fix Released,missing _cache_image() in libvirt driver,https://bugs.launchpad.net/nova/+bug/1036419,2012-09-27
+1035004,1035004,Fix Released,TypeError: prep_resize() takes at least 6 arguments (7 given),https://bugs.launchpad.net/nova/+bug/1035004,2012-09-27
+1033596,1033596,Fix Released,"nova/utils.py depends on fcntl, not available on Windows",https://bugs.launchpad.net/nova/+bug/1033596,2012-09-27
+1032738,1032738,Fix Released,DB is no longer recreated for individual tests,https://bugs.launchpad.net/nova/+bug/1032738,2012-09-27
+1031867,1031867,Fix Released,Tracebacks while using cloud-publish-tarball.,https://bugs.launchpad.net/nova/+bug/1031867,2012-09-27
+1031756,1031756,Fix Released,module' object has no attribute 'instance_by',https://bugs.launchpad.net/nova/+bug/1031756,2012-09-27
+1031121,1031121,Fix Released,No longer able to attach volumes to instances in nova-vol,https://bugs.launchpad.net/nova/+bug/1031121,2012-09-27
+1030850,1030850,Fix Released,"rootwrap /usr/sbin/tgt-admin always returns ""Unauthorized command""",https://bugs.launchpad.net/nova/+bug/1030850,2012-09-27
+1030010,1030010,Fix Released,Resizes do not update quota usages,https://bugs.launchpad.net/nova/+bug/1030010,2012-09-27
+1029774,1029774,Fix Released,system_metadata should not be injected into xenstore,https://bugs.launchpad.net/nova/+bug/1029774,2012-09-27
+1029773,1029773,Fix Released,booting instances under xenserver fails with Xb.Invalid,https://bugs.launchpad.net/nova/+bug/1029773,2012-09-27
+1029577,1029577,Fix Released,nova-manage isn't logging errors,https://bugs.launchpad.net/nova/+bug/1029577,2012-09-27
+1029129,1029129,Fix Released,Migration 112 breaks if deleted_at is NULL,https://bugs.launchpad.net/nova/+bug/1029129,2012-09-27
+1027453,1027453,Fix Released,111_general_aggregates migration fails on Postgres,https://bugs.launchpad.net/nova/+bug/1027453,2012-09-27
+1025737,1025737,Fix Released,scheduler hints can be injected when extension is off,https://bugs.launchpad.net/nova/+bug/1025737,2012-09-27
+1025722,1025722,Fix Released,Instance API task state can get stuck if locked,https://bugs.launchpad.net/nova/+bug/1025722,2012-09-27
+1023827,1023827,Fix Released,Server not instanciated on the expected physical host,https://bugs.launchpad.net/nova/+bug/1023827,2012-09-27
+1021340,1021340,Fix Released,Race condition in network/deallocate_for_instance() leads to security issue,https://bugs.launchpad.net/nova/+bug/1021340,2012-09-27
+1020779,1020779,Fix Released,local variable 'service_catalog' referenced before assignment,https://bugs.launchpad.net/nova/+bug/1020779,2012-09-27
+1019899,1019899,Fix Released,add support for requested_networks extension to Nova/Quantum v2 code,https://bugs.launchpad.net/nova/+bug/1019899,2012-09-27
+1018721,1018721,Fix Released,Launching with source groups under load produces lazy load error,https://bugs.launchpad.net/nova/+bug/1018721,2012-09-27
+1017795,1017795,Fix Released,scheduler hang (DOS) possible with DifferentHostFilter/SameHostFilter,https://bugs.launchpad.net/nova/+bug/1017795,2012-09-27
+1008875,1008875,Fix Released,Instance could not be terminated after deleting a network,https://bugs.launchpad.net/nova/+bug/1008875,2012-09-27
+1001088,1001088,Fix Released,iSCSI targets are not restored following a reboot,https://bugs.launchpad.net/nova/+bug/1001088,2012-09-27
+988335,988335,Fix Released,euca-create-image ImageNotFound: Image 87e28713-34d2-4d22-b27b-09006ebe144f could not be found.,https://bugs.launchpad.net/nova/+bug/988335,2012-09-27
+1036835,1036835,Fix Released,task state isn't reset after image snapshot,https://bugs.launchpad.net/nova/+bug/1036835,2012-09-27
+1034593,1034593,Fix Released,resize broken when not allowing same host,https://bugs.launchpad.net/nova/+bug/1034593,2012-09-27
+1034384,1034384,Fix Released,Quotas functionality seems broken in Nova,https://bugs.launchpad.net/nova/+bug/1034384,2012-09-27
+1033963,1033963,Fix Released,booting instance w/ metadata fails on XenServer,https://bugs.launchpad.net/nova/+bug/1033963,2012-09-27
+1031788,1031788,Fix Released,"Some RPC calls are missing arguments (diagnostics, consoles, etc.)",https://bugs.launchpad.net/nova/+bug/1031788,2012-09-27
+1029721,1029721,Fix Released,nova-network: InvalidUUID exception on instance spawn,https://bugs.launchpad.net/nova/+bug/1029721,2012-09-27
+1029501,1029501,Fix Released,nova-compute fails to start on XenServer,https://bugs.launchpad.net/nova/+bug/1029501,2012-09-27
+1029014,1029014,Fix Released,AttributeError: 'module' object has no attribute 'check_output' running hacking.py,https://bugs.launchpad.net/nova/+bug/1029014,2012-09-27
+954375,954375,Fix Released,rootwrap needs to be extensible,https://bugs.launchpad.net/nova/+bug/954375,2012-09-27
+938588,938588,Fix Released,"Backslash continuations (bin, etc.)",https://bugs.launchpad.net/nova/+bug/938588,2012-09-27
+732939,732939,Fix Released,nova lacks cpu_arch field in instance_types,https://bugs.launchpad.net/nova/+bug/732939,2012-09-27
+1018500,1018500,Fix Released,traceback on OSAPI list/show because of instance_type removed from DB,https://bugs.launchpad.net/nova/+bug/1018500,2012-09-27
+1017593,1017593,Fix Released,avoid use of libvirt reset() for hard reboot,https://bugs.launchpad.net/nova/+bug/1017593,2012-09-27
+1014829,1014829,Fix Released,Missing 'nova.exception' import in compute/utils.py,https://bugs.launchpad.net/nova/+bug/1014829,2012-09-27
+1012689,1012689,Fix Released,add libvirt min version check,https://bugs.launchpad.net/nova/+bug/1012689,2012-09-27
+1011788,1011788,Fix Released,connection_type flag ERROR should be warning,https://bugs.launchpad.net/nova/+bug/1011788,2012-09-27
+1010147,1010147,Fix Released,Having to wait to connect to AMQP puts exception in log file,https://bugs.launchpad.net/nova/+bug/1010147,2012-09-27
+1009681,1009681,Fix Released,Provide a default fall-through driver for the multi scheduler,https://bugs.launchpad.net/nova/+bug/1009681,2012-09-27
+1008625,1008625,Fix Released,prefix all nova binaries w/ 'nova-',https://bugs.launchpad.net/nova/+bug/1008625,2012-09-27
+1008023,1008023,Fix Released,Unused imports cleanup,https://bugs.launchpad.net/nova/+bug/1008023,2012-09-27
+1007516,1007516,Fix Released,novaclient should support flavor-show,https://bugs.launchpad.net/nova/+bug/1007516,2012-09-27
+1007009,1007009,Fix Released,remove virt/driver 'resize' function,https://bugs.launchpad.net/nova/+bug/1007009,2012-09-27
+1007005,1007005,Fix Released,remove list_disks/list_interfaces from virt/driver,https://bugs.launchpad.net/nova/+bug/1007005,2012-09-27
+1006664,1006664,Fix Released,euca-describe-keypair NonExistent returns 200,https://bugs.launchpad.net/nova/+bug/1006664,2012-09-27
+1003626,1003626,Fix Released,Missing help string of osapi_max_request_body_size,https://bugs.launchpad.net/nova/+bug/1003626,2012-09-27
+1003587,1003587,Fix Released,Use utils.utcnow rather than datetime.utcnow,https://bugs.launchpad.net/nova/+bug/1003587,2012-09-27
+1002130,1002130,Fix Released,Use utils.parse_strtime rather than datetime.strptime,https://bugs.launchpad.net/nova/+bug/1002130,2012-09-27

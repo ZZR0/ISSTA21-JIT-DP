@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1633595,1633595,Fix Released,Nova no longer sets authtoken memcache_servers,https://bugs.launchpad.net/tripleo/+bug/1633595,2016-12-07
+1636527,1636527,Fix Released,M/N upgrades - Convergence step fails when external load balancer is used,https://bugs.launchpad.net/tripleo/+bug/1636527,2016-12-07
+1636921,1636921,Fix Released,updating a deployment from non-ssl to ssl doesn't reload haproxy's configuration,https://bugs.launchpad.net/tripleo/+bug/1636921,2016-12-07
+1637833,1637833,Fix Released,OpenDaylight HA Proxy config missing transparent binding,https://bugs.launchpad.net/tripleo/+bug/1637833,2016-12-07
+1633580,1633580,Fix Released,port for rabbitmq is not included in list of rabbit_hosts,https://bugs.launchpad.net/tripleo/+bug/1633580,2016-12-07
+1638626,1638626,Fix Released,heat stack domain admin not set correctly on one controller,https://bugs.launchpad.net/tripleo/+bug/1638626,2016-12-07
+1633113,1633113,Fix Released,Removing default mysql accounts fails during step1 when using pacemaker HA,https://bugs.launchpad.net/tripleo/+bug/1633113,2016-12-07
+1635334,1635334,Fix Released,Redis require nofile set to at least 10032 to start correctly,https://bugs.launchpad.net/tripleo/+bug/1635334,2016-12-07
+1638029,1638029,Fix Released,Installation of undercloud with ssl may fails as keepalived may not be started before haproxy,https://bugs.launchpad.net/tripleo/+bug/1638029,2016-12-07
+1637443,1637443,Fix Released,swift-proxy is showed as running even if it's not working,https://bugs.launchpad.net/tripleo/+bug/1637443,2016-12-07
+1625010,1625010,Fix Released,Using keystone::wsi::apache without an fqdn results in an error,https://bugs.launchpad.net/puppet-keystone/+bug/1625010,2016-12-07
+1621959,1621959,Fix Released,keystone incorrectly uses admin_token for the bootstrap password,https://bugs.launchpad.net/puppet-keystone/+bug/1621959,2016-12-07
+1626473,1626473,Fix Released,gnocchi is eating all my CPU :(,https://bugs.launchpad.net/tripleo/+bug/1626473,2016-12-07
+1630184,1630184,Fix Released,Typo in backend/netapp.pp caused failed run,https://bugs.launchpad.net/puppet-cinder/+bug/1630184,2016-12-07
+1616891,1616891,Fix Released,verify: False in clouds.yaml does not == --insecure for python-openstackclient,https://bugs.launchpad.net/python-openstackclient/+bug/1616891,2016-12-07
+1619330,1619330,Fix Released,os-net-config fails on 2nd run with DPDK net config,https://bugs.launchpad.net/tripleo/+bug/1619330,2016-12-07
+1619072,1619072,Fix Released,os-collect-config ec2 collector should be treated as immutable,https://bugs.launchpad.net/tripleo/+bug/1619072,2016-12-07
+1493576,1493576,Fix Released,Incorrect usage of python-novaclient,https://bugs.launchpad.net/horizon/+bug/1493576,2016-12-07
+1493576,1493576,Fix Released,Incorrect usage of python-novaclient,https://bugs.launchpad.net/cinder/+bug/1493576,2016-12-07
+1493576,1493576,Fix Released,Incorrect usage of python-novaclient,https://bugs.launchpad.net/networking-cisco/+bug/1493576,2016-12-07
+1493576,1493576,Fix Released,Incorrect usage of python-novaclient,https://bugs.launchpad.net/trove/+bug/1493576,2016-12-07
+1493576,1493576,Fix Released,Incorrect usage of python-novaclient,https://bugs.launchpad.net/manila/+bug/1493576,2016-12-07
+1493576,1493576,Fix Released,Incorrect usage of python-novaclient,https://bugs.launchpad.net/congress/+bug/1493576,2016-12-07
+1493576,1493576,Fix Released,Incorrect usage of python-novaclient,https://bugs.launchpad.net/mistral/+bug/1493576,2016-12-07
+1634859,1634859,Fix Released,Erasure coding doesn't work for openstack-ansible-os_swift role,https://bugs.launchpad.net/openstack-ansible/+bug/1634859,2016-12-07
+1633438,1633438,Fix Released,Handle intentional task failures properly,https://bugs.launchpad.net/openstack-ansible/+bug/1633438,2016-12-07
+1640733,1640733,Fix Released,Do not create Upstart script if disabling SMT for ppc64le fails,https://bugs.launchpad.net/openstack-ansible/+bug/1640733,2016-12-07
+1633205,1633205,Fix Released,Newton gnocchi installes startup for gnocchi-api even when apache wsgi is setup,https://bugs.launchpad.net/openstack-ansible/+bug/1633205,2016-12-07
+1636018,1636018,Fix Released,cinder ceph not working if documentation followed,https://bugs.launchpad.net/openstack-ansible/+bug/1636018,2016-12-07
+1639026,1639026,Fix Released,ceilometer init is not create/updated on compute nodes on head stable/newton,https://bugs.launchpad.net/openstack-ansible/+bug/1639026,2016-12-07
+1640560,1640560,Fix Released,Should disable sslv3 in haproxy,https://bugs.launchpad.net/openstack-ansible/+bug/1640560,2016-12-07
+1639657,1639657,Fix Released,ceph_client failure due to ceph_extra_confs undefined,https://bugs.launchpad.net/openstack-ansible/+bug/1639657,2016-12-07
+1639900,1639900,Fix Released,Galera-server failed to restart during upgrade from 14.0.0 to 14.0.1,https://bugs.launchpad.net/openstack-ansible/+bug/1639900,2016-12-07
+1595143,1595143,Fix Released,During the upgrade M->N mysql doesn't start properly,https://bugs.launchpad.net/openstack-ansible/+bug/1595143,2016-12-07
+1557242,1557242,Fix Released,Octavia devstack plugin does not clean up dhclient for o-hm0 interface,https://bugs.launchpad.net/octavia/+bug/1557242,2016-12-07
+1558904,1558904,Fix Released,Exit local.sh immediately when error occurs,https://bugs.launchpad.net/octavia/+bug/1558904,2016-12-07
+1559223,1559223,Fix Released,Sample local.sh fails because of keystone default version mismatch,https://bugs.launchpad.net/octavia/+bug/1559223,2016-12-07
+1520990,1520990,Fix Released,SNI in stable/liberty & master(mitaka) for octavia is not able to validated,https://bugs.launchpad.net/octavia/+bug/1520990,2016-12-07
+1548555,1548555,Fix Released,Hardcoded default credentials for anchor,https://bugs.launchpad.net/octavia/+bug/1548555,2016-12-07
+1522981,1522981,Fix Released,Need to use OpenFixture instead of mock_open,https://bugs.launchpad.net/octavia/+bug/1522981,2016-12-07
+1567031,1567031,Fix Released,Octavia -TLS/SNI tests fail when using intermiate certificates,https://bugs.launchpad.net/octavia/+bug/1567031,2016-12-07
+1551444,1551444,Fix Released,Cascade LB delete missing a unit test branch,https://bugs.launchpad.net/octavia/+bug/1551444,2016-12-07
+1574784,1574784,Fix Released,BadRequest: Bad networks format: network uuid is not in proper format  when running octavia basic  loadbalancer test,https://bugs.launchpad.net/octavia/+bug/1574784,2016-12-07
+1572342,1572342,Fix Released,Neutron-LBaaS v2:  LB stuck in PENDING_UPDATE when adding a member to a pool with no listeners,https://bugs.launchpad.net/octavia/+bug/1572342,2016-12-07
+1578652,1578652,Fix Released,Duplicate const declarations,https://bugs.launchpad.net/octavia/+bug/1578652,2016-12-07
+1581615,1581615,Fix Released,New taskflow version exposes missed revert object validation,https://bugs.launchpad.net/octavia/+bug/1581615,2016-12-07
+1580430,1580430,Fix Released,sysvinit jinja template white space bug,https://bugs.launchpad.net/octavia/+bug/1580430,2016-12-07
+1573607,1573607,Fix Released,listener statistics losing data needed for billing,https://bugs.launchpad.net/octavia/+bug/1573607,2016-12-07
+1582879,1582879,Fix Released,Octavia: Create load balancer via neturon-lbaas takes a long time,https://bugs.launchpad.net/octavia/+bug/1582879,2016-12-07
+1581303,1581303,Fix Released,Network driver should handle network config generation,https://bugs.launchpad.net/octavia/+bug/1581303,2016-12-07
+1582507,1582507,Fix Released,Allow host amphora information in templater,https://bugs.launchpad.net/octavia/+bug/1582507,2016-12-07
+1573287,1573287,Fix Released,Lack of timstamp information for resources in octavia,https://bugs.launchpad.net/octavia/+bug/1573287,2016-12-07
+1453484,1453484,Fix Released,api should validate network_ids and subnet_ids,https://bugs.launchpad.net/octavia/+bug/1453484,2016-12-07
+1540662,1540662,Fix Released,Unit Test Failure in ServerTestCase,https://bugs.launchpad.net/octavia/+bug/1540662,2016-12-07
+1589858,1589858,Fix Released,GRM not contains information about octavia package,https://bugs.launchpad.net/octavia/+bug/1589858,2016-12-07
+1589873,1589873,Fix Released,Incorrect docstrings in AmphoraLoadBalancerDriver methods,https://bugs.launchpad.net/octavia/+bug/1589873,2016-12-07
+1590225,1590225,Fix Released,Failed to start o-cw when install octavia by devstack,https://bugs.launchpad.net/octavia/+bug/1590225,2016-12-07
+1592007,1592007,Fix Released,Octavia health manager port is created with no device owner,https://bugs.launchpad.net/octavia/+bug/1592007,2016-12-07
+1590145,1590145,Fix Released,Alembic migration fails with MySQL 5.7,https://bugs.launchpad.net/octavia/+bug/1590145,2016-12-07
+1585919,1585919,Fix Released,Bug in unit test of amphorae/backends/agent/api_server/test_utils.py,https://bugs.launchpad.net/octavia/+bug/1585919,2016-12-07
+1594961,1594961,Fix Released,test_request spends lots of time in retries,https://bugs.launchpad.net/octavia/+bug/1594961,2016-12-07
+1599330,1599330,Fix Released,py27 and py34 unit tests fail when run on a host running devstack,https://bugs.launchpad.net/octavia/+bug/1599330,2016-12-07
+1583341,1583341,Fix Released,HAProxy config generation inconsistency,https://bugs.launchpad.net/octavia/+bug/1583341,2016-12-07
+1607502,1607502,Fix Released,delete load balancers in ERROR state,https://bugs.launchpad.net/octavia/+bug/1607502,2016-12-07
+1607900,1607900,Fix Released,Octavia needs to handle networks with no DHCP services available,https://bugs.launchpad.net/octavia/+bug/1607900,2016-12-07
+1606798,1606798,Fix Released,Error in housekeeping when delete an amphora,https://bugs.launchpad.net/octavia/+bug/1606798,2016-12-07
+1561063,1561063,Fix Released,Docs: Automate TaskFlow key flow documentation,https://bugs.launchpad.net/octavia/+bug/1561063,2016-12-07
+1585804,1585804,Fix Released,Octavia cannot handle VIP networks larger than /24,https://bugs.launchpad.net/octavia/+bug/1585804,2016-12-07
+1585803,1585803,Fix Released,IPv6 does not work,https://bugs.launchpad.net/octavia/+bug/1585803,2016-12-07
+1610440,1610440,Fix Released,Refactor rest_api_driver.AmphoraAPIClient.request method,https://bugs.launchpad.net/octavia/+bug/1610440,2016-12-07
+1614164,1614164,Fix Released,Provide more functionality for network drivers,https://bugs.launchpad.net/octavia/+bug/1614164,2016-12-07
+1577963,1577963,Fix Released,Failover fails with haproxy network namespaces,https://bugs.launchpad.net/octavia/+bug/1577963,2016-12-07
+1509706,1509706,Fix Released,Failover fails when instance is deleted,https://bugs.launchpad.net/octavia/+bug/1509706,2016-12-07
+1615471,1615471,Fix Released,Failover fails when the amphora instance is stoped,https://bugs.launchpad.net/octavia/+bug/1615471,2016-12-07
+1615894,1615894,Fix Released,Amphora has multiple IP addresses attached while there is only a single network attached,https://bugs.launchpad.net/octavia/+bug/1615894,2016-12-07

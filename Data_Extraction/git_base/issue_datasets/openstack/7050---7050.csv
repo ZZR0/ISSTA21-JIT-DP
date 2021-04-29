@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1757474,1757474,Fix Released,periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset027-master fails with undefined groups.overcloud,https://bugs.launchpad.net/tripleo/+bug/1757474,2019-05-14
+1758455,1758455,Fix Released,undercloud - containers CI job does not load neutron service plugins,https://bugs.launchpad.net/tripleo/+bug/1758455,2019-05-14
+1757969,1757969,Fix Released,[CI ocata->pike] Undefined variable 'deploy_config_name',https://bugs.launchpad.net/tripleo/+bug/1757969,2019-05-14
+1759868,1759868,Fix Released,ovb 3ctlr 1comp pike repo dependency errors,https://bugs.launchpad.net/tripleo/+bug/1759868,2019-05-14
+1763073,1763073,Fix Released,"Deployment fails with: parse error: Invalid numeric literal at line 2, column 0",https://bugs.launchpad.net/tripleo/+bug/1763073,2019-05-14
+1760917,1760917,Fix Released,dstat on overcloud causes issues,https://bugs.launchpad.net/tripleo/+bug/1760917,2019-05-14
+1756183,1756183,Fix Released,Masquerade networks in CI moving to quickstart,https://bugs.launchpad.net/tripleo/+bug/1756183,2019-05-14
+1766350,1766350,Fix Released,ovb jobs don't build images for t-p-e if the number of patchesets is >9 in ZUUL_CHANGES,https://bugs.launchpad.net/tripleo/+bug/1766350,2019-05-14
+1766848,1766848,Fix Released,hieradata-overrides-t-h-t-undercloud is not counted in for undercloud install --use-heat,https://bugs.launchpad.net/tripleo/+bug/1766848,2019-05-14
+1766579,1766579,Fix Released,Wire in hieradata_override in undercloud.conf for containerized undercloud heat installer,https://bugs.launchpad.net/tripleo/+bug/1766579,2019-05-14
+1763337,1763337,Fix Released,Wire in net_config_override in undercloud.conf for containerized undercloud heat installer,https://bugs.launchpad.net/tripleo/+bug/1763337,2019-05-14
+1769902,1769902,Fix Released,Quickstart reproducer fails if static and transient hostnames don't match,https://bugs.launchpad.net/tripleo/+bug/1769902,2019-05-14
+1769532,1769532,Fix Released,RFE (libvirt-reproducer): add mechanism allowing user to keep/pass params to script,https://bugs.launchpad.net/tripleo/+bug/1769532,2019-05-14
+1770972,1770972,Fix Released,CI: Images introspection fails in OVB jobs,https://bugs.launchpad.net/tripleo/+bug/1770972,2019-05-14
+1772122,1772122,Fix Released,jobs running container updates fail because containers are trying to be pushed to docker.io,https://bugs.launchpad.net/tripleo/+bug/1772122,2019-05-14
+1773406,1773406,Fix Released,Missing roles_data_undercloud.yaml,https://bugs.launchpad.net/tripleo/+bug/1773406,2019-05-14
+1775209,1775209,Fix Released,docker permission denied on upgrade prep containers,https://bugs.launchpad.net/tripleo/+bug/1775209,2019-05-14
+1777261,1777261,Fix Released,convert-overcloud-undercloud.yml fails on missing update_containers variable,https://bugs.launchpad.net/tripleo/+bug/1777261,2019-05-14
+1777896,1777896,Fix Released,"""AnsibleUndefinedVariable: 'container_build_id' is undefined""}""",https://bugs.launchpad.net/tripleo/+bug/1777896,2019-05-14
+1778847,1778847,Fix Released,fs027 __init__() got an unexpected keyword argument 'cafile',https://bugs.launchpad.net/tripleo/+bug/1778847,2019-05-14
+1779271,1779271,Fix Released,periodic-tripleo-ci-centos-7-ovb-1ctlr_1comp-featureset020-queens Details: volume c414293d-eb0f-4d74-8b4d-f9a15e23d399 failed to reach in-use status (current available) within the required time (500 s).,https://bugs.launchpad.net/tripleo/+bug/1779271,2019-05-14
+1779628,1779628,Fix Released,Disable ssl validation in tempest on tripleo quickstart,https://bugs.launchpad.net/tripleo/+bug/1779628,2019-05-14
+1779005,1779005,Fix Released,The containerized undercloud is no longer setting selinux permissive on CentOS,https://bugs.launchpad.net/tripleo/+bug/1779005,2019-05-14
+1772522,1772522,Fix Released,tempestmail.py fails in rdo phase 2 jobs,https://bugs.launchpad.net/tripleo/+bug/1772522,2019-05-14
+1781752,1781752,Fix Released,"""The conditional check 'compressed_gating_repo' failed. The error was: template error while templating string: unexpected char u'$' at 6. String: {% if ${HOME}/gating_repo.tar.gz %} True {% else %} False {% endif %}",https://bugs.launchpad.net/tripleo/+bug/1781752,2019-05-14
+1773325,1773325,Fix Released,tempest.api.object_storage.test_object_services is failing on scenario002,https://bugs.launchpad.net/tripleo/+bug/1773325,2019-05-14
+1781577,1781577,Fix Released,"With net_config_override set, undercloud heat installer should noop OS::TripleO::Undercloud::Net::SoftwareConfig",https://bugs.launchpad.net/tripleo/+bug/1781577,2019-05-14
+1783055,1783055,Fix Released,[master]multinode periodic promotion jobs are failing where Tempest is run in container,https://bugs.launchpad.net/tripleo/+bug/1783055,2019-05-14
+1781227,1781227,Fix Released,Overcloud upgrade CI job doesn't load templates from /usr/share/openstack-tripleo-heat-templates,https://bugs.launchpad.net/tripleo/+bug/1781227,2019-05-14
+1786106,1786106,Fix Released,containers-prep fails w/ update_containers is undefined due to lack of default,https://bugs.launchpad.net/tripleo/+bug/1786106,2019-05-14
+1784017,1784017,Fix Released,Build of instance was re-scheduled: invalid argument: could not find capabilities for domaintype=kvm,https://bugs.launchpad.net/tripleo/+bug/1784017,2019-05-14
+1786488,1786488,Fix Released,sc000 upgrade job goes N -> N instead of N-1 -> N,https://bugs.launchpad.net/tripleo/+bug/1786488,2019-05-14
+1787244,1787244,Fix Released,rdopkg release has broken all ci jobs,https://bugs.launchpad.net/tripleo/+bug/1787244,2019-05-14
+1784555,1784555,Fix Released,make tempest-setup.sh idempotent,https://bugs.launchpad.net/tripleo/+bug/1784555,2019-05-14
+1788531,1788531,Fix Released,Failed to import test module: vitrage_tempest_plugin on undercloud tempest execution,https://bugs.launchpad.net/tripleo/+bug/1788531,2019-05-14
+1789192,1789192,Fix Released,OVB reproducer fails during install because of missing file,https://bugs.launchpad.net/tripleo/+bug/1789192,2019-05-14
+1790770,1790770,Fix Released,"Overcloud deployment fails with ""No Valid Host"" as oooq_ flavors don't have correct properties set",https://bugs.launchpad.net/tripleo/+bug/1790770,2019-05-14
+1791298,1791298,Fix Released,queens + featureset020 failing at promoting icroversion header 'openstack-api-version' with value 'volume 3.0' does not,https://bugs.launchpad.net/tripleo/+bug/1791298,2019-05-14
+1792296,1792296,Fix Released,Overcloude deploy error:Timed out waiting for messages from Execution,https://bugs.launchpad.net/tripleo/+bug/1792296,2019-05-14
+1795348,1795348,Fix Released,"tripleo-quickstart-promote-master-current-tripleo-delorean-minimal is failing ""undercloud-deploy : Copy stackrc created at the UC user $HOME to the working dir] ***""",https://bugs.launchpad.net/tripleo/+bug/1795348,2019-05-14
+1795452,1795452,Fix Released,quickstart uses deprecated tls options,https://bugs.launchpad.net/tripleo/+bug/1795452,2019-05-14
+1793233,1793233,Fix Released,standalone quickstart should be updated to use the container prepare commands instead of a template,https://bugs.launchpad.net/tripleo/+bug/1793233,2019-05-14
+1796030,1796030,Fix Released,[tripleo] rocky overcloud deployment fails on xined configuration,https://bugs.launchpad.net/tripleo/+bug/1796030,2019-05-14
+1796626,1796626,Fix Released,OVB - overcloud-ssl fail with KeyError - breaks legacy-tripleo-ci-centos-7-ovb-3ctlr_1comp-featureset001-master and featureset035,https://bugs.launchpad.net/tripleo/+bug/1796626,2019-05-14
+1797838,1797838,Fix Released,openstack-tox-linters job is failing for the tripleo-quickstart-extras master gate check,https://bugs.launchpad.net/tripleo/+bug/1797838,2019-05-14
+1797910,1797910,Fix Released,standalone deployment does not configure selinux,https://bugs.launchpad.net/tripleo/+bug/1797910,2019-05-14
+1792622,1792622,Fix Released,Ara fails to install in some of tripleo jobs with ImportError: 'module' object has no attribute 'check_specifier',https://bugs.launchpad.net/tripleo/+bug/1792622,2019-05-14
+1799662,1799662,Fix Released,reproducer-quickstart fails to get dlrn_hash_tag_newest in the generated env file,https://bugs.launchpad.net/tripleo/+bug/1799662,2019-05-14
+1775826,1775826,Fix Released,Can't reproduce more than one stack using reproducer-quickstart.,https://bugs.launchpad.net/tripleo/+bug/1775826,2019-05-14
+1797931,1797931,Fix Released,tempest pip install fails on rocky minimal config,https://bugs.launchpad.net/tripleo/+bug/1797931,2019-05-14
+1798593,1798593,Fix Released,OOOQ deploy with update_containers only updates them for overcloud,https://bugs.launchpad.net/tripleo/+bug/1798593,2019-05-14
+1801769,1801769,Fix Released,"FailedValidation: Hostname  is not fully qualified, fails undercloud install",https://bugs.launchpad.net/tripleo/+bug/1801769,2019-05-14
+1802409,1802409,Fix Released,"cannot create directory ""/var/lib/tempestdata"" Permission denied",https://bugs.launchpad.net/tripleo/+bug/1802409,2019-05-14
+1802611,1802611,Fix Released,standalone dns server contains python encoding which results in a bad nameserver configuration,https://bugs.launchpad.net/tripleo/+bug/1802611,2019-05-14
+1803419,1803419,Fix Released,oooq tempest skip list should use overcloud tempest tests for the standalone skip list,https://bugs.launchpad.net/tripleo/+bug/1803419,2019-05-14
+1802825,1802825,Fix Released,[promotion][pike/queens/Rocky] Ensure DLRN dir is present failed with permission denied,https://bugs.launchpad.net/tripleo/+bug/1802825,2019-05-14
+1803703,1803703,Fix Released,[master][promotion] standalone job is failing during undercloud install with Server Error for url: https://192.168.24.2:13696/v2.0/network,https://bugs.launchpad.net/tripleo/+bug/1803703,2019-05-14
+1803716,1803716,Fix Released,"Provide haproxy stats in CI ""extras"" logs",https://bugs.launchpad.net/tripleo/+bug/1803716,2019-05-14
+1796639,1796639,Fix Released,[stable/queens] The tripleo-ci-centos-7-undercloud-upgrades is failing on queens for No such file or directory: '/etc/heat/policy.json,https://bugs.launchpad.net/tripleo/+bug/1796639,2019-05-14
+1806469,1806469,Fix Released,CI doesn't pick custom images for tripleo openshift deployments,https://bugs.launchpad.net/tripleo/+bug/1806469,2019-05-14
+1806496,1806496,Fix Released,set-libvirt-type throws a misleading failure,https://bugs.launchpad.net/tripleo/+bug/1806496,2019-05-14
+1806720,1806720,Fix Released,standalone tempest seems to just hang,https://bugs.launchpad.net/tripleo/+bug/1806720,2019-05-14
+1725115,1725115,Fix Released,"[quickstart] Passing in tripleo_ui_secure_access=""false"" doesn't work correctly",https://bugs.launchpad.net/tripleo/+bug/1725115,2019-05-14
+1805968,1805968,Fix Released,standalone job does not run yum update during the container image prepare,https://bugs.launchpad.net/tripleo/+bug/1805968,2019-05-14
+1811371,1811371,Fix Released,standalone_upgrade CI job not applying patch under test,https://bugs.launchpad.net/tripleo/+bug/1811371,2019-05-14
+1814090,1814090,Fix Released,Validate the overcloud failing at pike OVB,https://bugs.launchpad.net/tripleo/+bug/1814090,2019-05-14
+1813949,1813949,Fix Released,Reproducer script fails with md5 checksum error for cirros-0.3.6,https://bugs.launchpad.net/tripleo/+bug/1813949,2019-05-14
+1812403,1812403,Fix Released,scenario000-multinode-oooq-container-upgrades fails with target_upgrade_version undefined,https://bugs.launchpad.net/tripleo/+bug/1812403,2019-05-14
+1790858,1790858,Fix Released,PublicVirtualFixedIPs not set correctly in oooq deployment without --tags all,https://bugs.launchpad.net/tripleo/+bug/1790858,2019-05-14
+1814531,1814531,Fix Released,pike: Running tripleo-upgrade at normal job,https://bugs.launchpad.net/tripleo/+bug/1814531,2019-05-14
+1815770,1815770,Fix Released,standalone-upgrade role using different environment files as standalone role,https://bugs.launchpad.net/tripleo/+bug/1815770,2019-05-14
+1816552,1816552,Fix Released,[check][os_tempest] os_tempest standalone job is broken with etwork_type value 'vxlan' not supported.,https://bugs.launchpad.net/tripleo/+bug/1816552,2019-05-14
+1817612,1817612,Fix Released,Wrong containers-prepare-parameter.yaml name in overcloud-deploy.sh template,https://bugs.launchpad.net/tripleo/+bug/1817612,2019-05-14
+1819172,1819172,Fix Released,phase1 rocky failing due to missing default value for validate_services (undefined),https://bugs.launchpad.net/tripleo/+bug/1819172,2019-05-14
+1819452,1819452,Fix Released,"f28: tempest fails Exhausted all hosts available for retrying build failures, due to hw_machine_type=x86_64=pc-i440fx-rhel7.6.0",https://bugs.launchpad.net/tripleo/+bug/1819452,2019-05-14

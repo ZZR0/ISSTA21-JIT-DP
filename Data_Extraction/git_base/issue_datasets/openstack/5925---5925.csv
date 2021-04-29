@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1840742,1840742,Fix Released,Octavia update and upgrade tasks fail,https://bugs.launchpad.net/tripleo/+bug/1840742,2019-09-13
+1832090,1832090,Fix Released,keystone: -DFOREGROUND is dup'd on command line,https://bugs.launchpad.net/tripleo/+bug/1832090,2019-09-13
+1804449,1804449,Fix Released,Region name is not persisted in the overcloudrc,https://bugs.launchpad.net/tripleo/+bug/1804449,2019-09-13
+1833452,1833452,Fix Released,tripleclient fails to retry when it gets a 504 from heat/haproxy,https://bugs.launchpad.net/tripleo/+bug/1833452,2019-09-13
+1834307,1834307,Fix Released,tripleoclient doesn't check if network file exists prior creating/uploading plan,https://bugs.launchpad.net/tripleo/+bug/1834307,2019-09-13
+1792637,1792637,Fix Released,openstack overcloud status run on overcloud not deployed output needs cleanup (,https://bugs.launchpad.net/tripleo/+bug/1792637,2019-09-13
+1823305,1823305,Fix Released,Controller rolling restart creates rabbitmq duplicateerror messages and some services do not recover,https://bugs.launchpad.net/tripleo/+bug/1823305,2019-09-13
+1831234,1831234,Fix Released,Instance HA could be more robust,https://bugs.launchpad.net/tripleo/+bug/1831234,2019-09-13
+1812938,1812938,Fix Released,keepalived container fails to configure correctly with facter 3,https://bugs.launchpad.net/tripleo/+bug/1812938,2019-09-13
+1837086,1837086,Fix Released,haproxy redis stanza needs tcp-check connect port 6379 line,https://bugs.launchpad.net/tripleo/+bug/1837086,2019-09-13
+1831938,1831938,Fix Released,Unable to configure enabled_share_backends in manila,https://bugs.launchpad.net/tripleo/+bug/1831938,2019-09-13
+1835830,1835830,Fix Released,ovn recovery has a race,https://bugs.launchpad.net/tripleo/+bug/1835830,2019-09-13
+1833429,1833429,Fix Released,Undercloud update fails when public_host set to IPv6,https://bugs.launchpad.net/tripleo/+bug/1833429,2019-09-13
+1843701,1843701,Fix Released,Django 2.2 compatibility for widget,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1843701,2019-09-13
+1822052,1822052,Fix Released,python-glanceclient block forever with http,https://bugs.launchpad.net/python-glanceclient/+bug/1822052,2019-09-13
+1840849,1840849,Fix Released,sporadic buildah failures and buildah error log script in tripleo-build-containers-centos-7-buildah is not working correctly,https://bugs.launchpad.net/tripleo/+bug/1840849,2019-09-13
+1788875,1788875,Fix Released,"quickstart creates oooq_foo flavors which do not match config/node templated names, that fails the overcloud deployment",https://bugs.launchpad.net/tripleo/+bug/1788875,2019-09-13
+1659088,1659088,Fix Released,"[RFE] Add documentation for working with, and contributing to, TripleO-CI squad and tripleo-quickstart",https://bugs.launchpad.net/tripleo/+bug/1659088,2019-09-13
+1811515,1811515,Fix Released,pyroute2.NetNS don't work properly with concurrency in oslo.privsep,https://bugs.launchpad.net/neutron/+bug/1811515,2019-09-13
+1818224,1818224,Fix Released,IPv6 forwarding disabled on L3HA routers without gateway,https://bugs.launchpad.net/neutron/+bug/1818224,2019-09-13
+1682094,1682094,Fix Released,Openstack dosen't allow the gateway to be the first address,https://bugs.launchpad.net/neutron/+bug/1682094,2019-09-13
+1820993,1820993,Fix Released,Functional and fullstack tests job definition is broken,https://bugs.launchpad.net/neutron/+bug/1820993,2019-09-13
+1818614,1818614,Fix Released,[SRU] Various L3HA functional tests fails often,https://bugs.launchpad.net/neutron/+bug/1818614,2019-09-13
+1843820,1843820,Fix Released,"When creating diskimage on x86 using RHEL get ""/usr/lib/grub/x86_64-efi/modinfo.sh doesn't exist.""",https://bugs.launchpad.net/diskimage-builder/+bug/1843820,2019-09-13
+1753785,1753785,Fix Released,"Deployment fails with ERROR: Failed to validate: Failed to validate: resources[0]: The Resource Type (OS::TripleO::SwiftStorage::Ports::ManagementPort) could not be found.""",https://bugs.launchpad.net/tripleo/+bug/1753785,2019-09-12
+1678330,1678330,Fix Released,Octavia v2 API members always come up in OFFLINE operating status,https://bugs.launchpad.net/octavia/+bug/1678330,2019-09-12
+1718728,1718728,Fix Released,filesystem_store_datadir should not be set when external Ceph is used,https://bugs.launchpad.net/kolla/+bug/1718728,2019-09-12
+1673102,1673102,Fix Released,[DOC] Documentation for fluentd is missing,https://bugs.launchpad.net/kolla/+bug/1673102,2019-09-12
+1797089,1797089,Fix Released,Permission denied: '/usr/share/ansible/kolla_keystone_service.py',https://bugs.launchpad.net/kolla/+bug/1797089,2019-09-12
+1792270,1792270,Fix Released,7.0.0.0rc1 Some images failed to build,https://bugs.launchpad.net/kolla/+bug/1792270,2019-09-12
+1791674,1791674,Fix Released,RabbitMQ downloads binary over http without verification,https://bugs.launchpad.net/kolla/+bug/1791674,2019-09-12
+1816585,1816585,Fix Released,Incorrect parsing of creation_time timestamp with Monasca / Kibana,https://bugs.launchpad.net/kolla/+bug/1816585,2019-09-12
+1772562,1772562,Fix Released,Support Grafana to import custom dashboards on startup,https://bugs.launchpad.net/kolla/+bug/1772562,2019-09-12
+1771617,1771617,Fix Released,Users cannot properly customise Ceilometer yaml files,https://bugs.launchpad.net/kolla/+bug/1771617,2019-09-12
+1832306,1832306,Fix Released,bootstrap_gnocchi error log: ImportError: No module named 'rados' nor 'cradox',https://bugs.launchpad.net/kolla/+bug/1832306,2019-09-12
+1767751,1767751,Fix Released,the ipmitool in missing in ceilometer-impi image,https://bugs.launchpad.net/kolla/+bug/1767751,2019-09-12
+1836520,1836520,Fix Released,Aodh-api keep restarting caused by port conflict.,https://bugs.launchpad.net/kolla/+bug/1836520,2019-09-12
+1765802,1765802,Fix Released,containers do not automatically restart if killed,https://bugs.launchpad.net/tripleo/+bug/1765802,2019-09-12
+1764369,1764369,Fix Released,"pip 10 breaks ""pip install"", which with out packages",https://bugs.launchpad.net/kolla/+bug/1764369,2019-09-12
+1843715,1843715,Fix Released,"CI jobs failing Sept 11 due to ""ERROR: No matching distribution found for configparser===4.0.1""",https://bugs.launchpad.net/openstack-gate/+bug/1843715,2019-09-12
+1758802,1758802,Fix Released,Missing necessary file in neutron/neutron-vpnaas-agent,https://bugs.launchpad.net/kolla/+bug/1758802,2019-09-12
+1757957,1757957,Fix Released,ceph pool application is not configured,https://bugs.launchpad.net/kolla/+bug/1757957,2019-09-12
+1750413,1750413,Fix Released,Unsigned repository for ceph-nfs.,https://bugs.launchpad.net/kolla/+bug/1750413,2019-09-12
+1753511,1753511,Fix Released,neutron_openvswitch_agent container restarting,https://bugs.launchpad.net/kolla/+bug/1753511,2019-09-12
+1656753,1656753,Fix Released,prevent kolla-build from building images that are known not to work for a given base/type,https://bugs.launchpad.net/kolla/+bug/1656753,2019-09-12
+1558399,1558399,Fix Released,MariaDB lights out recovery,https://bugs.launchpad.net/kolla/+bug/1558399,2019-09-12
+1530416,1530416,Fix Released,Deployment with existing database server,https://bugs.launchpad.net/kolla/+bug/1530416,2019-09-12
+1744215,1744215,Fix Released,tripleo ui image is failed and block the gate,https://bugs.launchpad.net/tripleo/+bug/1744215,2019-09-12
+1744215,1744215,Fix Released,tripleo ui image is failed and block the gate,https://bugs.launchpad.net/kolla/+bug/1744215,2019-09-12
+1832652,1832652,Fix Released,os-vif should set ignore_basepython_conflict = True in tox.ini,https://bugs.launchpad.net/os-vif/+bug/1832652,2019-09-12
+1832352,1832352,Fix Released,test_linux_net.LinuxNetTest.test__arp_filtering unit test fails,https://bugs.launchpad.net/os-vif/+bug/1832352,2019-09-12
+1665364,1665364,Fix Released,kolla-ansible bootstrap-servers fails when api_interface is invalid,https://bugs.launchpad.net/kolla-ansible/+bug/1665364,2019-09-12
+1695218,1695218,Fix Released,nova fake drivers deployment is broken after stable/ocata,https://bugs.launchpad.net/kolla-ansible/+bug/1695218,2019-09-12
+1833690,1833690,Fix Released,logrotate 3.14.0 does not rotate logs for broken symlinks in path,https://bugs.launchpad.net/tripleo/+bug/1833690,2019-09-12
+1835657,1835657,Fix Released,tripleo-ci-centos-7-standalone-upgrade-stein is broken by container registry login task,https://bugs.launchpad.net/tripleo/+bug/1835657,2019-09-12
+1840980,1840980,Fix Released,nova-compute not configured for novajoin vendordata,https://bugs.launchpad.net/tripleo/+bug/1840980,2019-09-12
+1791088,1791088,Fix Released,Container undercloud - preflight validation fail on undercloud_admin_host,https://bugs.launchpad.net/tripleo/+bug/1791088,2019-09-12
+1835718,1835718,Fix Released,Rocky promotion jobs fail on undercloud install,https://bugs.launchpad.net/tripleo/+bug/1835718,2019-09-12
+1824808,1824808,Fix Released,paunch/docker: health-cmd needs to quote the argument,https://bugs.launchpad.net/tripleo/+bug/1824808,2019-09-12
+1832637,1832637,Fix Released,queens undercloud upgrade fails when overcloud is deployed and validation is enabled,https://bugs.launchpad.net/tripleo/+bug/1832637,2019-09-12
+1831253,1831253,Fix Released,instack-undercloud manifest can conflict with systemd puppet module,https://bugs.launchpad.net/tripleo/+bug/1831253,2019-09-12
+1770599,1770599,Fix Released,Update of images for pacemaker services should be optimized,https://bugs.launchpad.net/tripleo/+bug/1770599,2019-09-12
+1837228,1837228,Fix Released,Stein upgrade fails on compute node - editing libvirt-guests config on the host,https://bugs.launchpad.net/tripleo/+bug/1837228,2019-09-12
+1835031,1835031,Fix Released,nova compute container has wrong entry in systemd unit file for Wants=,https://bugs.launchpad.net/tripleo/+bug/1835031,2019-09-11
+1834856,1834856,Fix Released,ovn-dbs is missing firewall port for pacemaker control port,https://bugs.launchpad.net/tripleo/+bug/1834856,2019-09-11
+1835415,1835415,Fix Released,Dry run fails with logging forwarding tasks,https://bugs.launchpad.net/tripleo/+bug/1835415,2019-09-11
+1835503,1835503,Fix Released,Deployment with NovaNfsEnabled: True to enabled NFS share for nova ephemeral storage fails when podman is used,https://bugs.launchpad.net/tripleo/+bug/1835503,2019-09-11
+1836812,1836812,Fix Released,"/etc/named/options.conf:1: change directory to '/var/named-persistent' failed: file not found""",https://bugs.launchpad.net/tripleo/+bug/1836812,2019-09-11
+1836915,1836915,Fix Released,nova cell2 host discover fails for a new cell on initial create,https://bugs.launchpad.net/tripleo/+bug/1836915,2019-09-11
+1838460,1838460,Fix Released,overcloud deploy fails with ou must add a [grafana-server] group and add at least one node,https://bugs.launchpad.net/tripleo/+bug/1838460,2019-09-11
+1832588,1832588,Fix Released,Stein upgrade failing on rabbitmq_init_bundle,https://bugs.launchpad.net/tripleo/+bug/1832588,2019-09-11
+1830892,1830892,Fix Released,"Upgrade: all tasks are run, tags seem to be ignored",https://bugs.launchpad.net/tripleo/+bug/1830892,2019-09-11
+1843188,1843188,Fix Released,"Stein upgrades job fails, syntax error in deploy-steps playbook",https://bugs.launchpad.net/tripleo/+bug/1843188,2019-09-11
+1834456,1834456,Fix Released,Third-party container image labels are not processed correctly,https://bugs.launchpad.net/tripleo/+bug/1834456,2019-09-11
+1833751,1833751,Fix Released,container image prepare incorrectly excludes not completely secure registries for DockerInsecureRegistryAddress,https://bugs.launchpad.net/tripleo/+bug/1833751,2019-09-11

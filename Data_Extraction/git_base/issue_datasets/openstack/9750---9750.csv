@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1794038,1794038,Fix Released,undercloud masquerade_networks is now silently ignored,https://bugs.launchpad.net/tripleo/+bug/1794038,2019-01-11
+1809273,1809273,Fix Released,Standalone deployments fail with capitalized hostname,https://bugs.launchpad.net/tripleo/+bug/1809273,2019-01-11
+1799786,1799786,Fix Released,puppet-openstack-unit-5.5-centos-7 broken due to updated puppet 5.5.7,https://bugs.launchpad.net/tripleo/+bug/1799786,2019-01-11
+1801081,1801081,Fix Released,CI: cinder tempest tests fail in promotion jobs,https://bugs.launchpad.net/tripleo/+bug/1801081,2019-01-11
+1799484,1799484,Fix Released,[podman] neutron doesn't launch dhcp-agent,https://bugs.launchpad.net/tripleo/+bug/1799484,2019-01-11
+1808536,1808536,Fix Released,"periodic-tripleo-featureset035-master fails overcloud deploy for ""error: Could not connect to cluster (is it running""",https://bugs.launchpad.net/tripleo/+bug/1808536,2019-01-11
+1808883,1808883,Fix Released,puppet-tripleo lint job failure,https://bugs.launchpad.net/tripleo/+bug/1808883,2019-01-11
+1809223,1809223,Fix Released,All HA bundles are missing the retries setting,https://bugs.launchpad.net/tripleo/+bug/1809223,2019-01-11
+1798785,1798785,Fix Released,Paunch podman runner requires adaptation for incompatible docker'ish CLI,https://bugs.launchpad.net/tripleo/+bug/1798785,2019-01-11
+1801939,1801939,Fix Released,Podman: Red herring in Paunch when trying to stop Docker containers,https://bugs.launchpad.net/tripleo/+bug/1801939,2019-01-11
+1796646,1796646,Fix Released,Paunch --default-runtime does not work,https://bugs.launchpad.net/tripleo/+bug/1796646,2019-01-11
+1776998,1776998,Fix Released,Enable Nuage VRS for Pike and earlier releases,https://bugs.launchpad.net/tripleo/+bug/1776998,2019-01-11
+1759116,1759116,Fix Released,Enable Neutron LBaaS for Ocata and Newton,https://bugs.launchpad.net/tripleo/+bug/1759116,2019-01-11
+1752918,1752918,Fix Released,Make Neutron and LBaaS parameters configurable from Undercloud,https://bugs.launchpad.net/tripleo/+bug/1752918,2019-01-11
+1788032,1788032,Fix Released,Undercloud upgrade fails due to mismatched Heat template name,https://bugs.launchpad.net/tripleo/+bug/1788032,2019-01-11
+1784668,1784668,Fix Released,tripleo: avoid Inappropriate ioctl for device with pause module,https://bugs.launchpad.net/tripleo/+bug/1784668,2019-01-11
+1799166,1799166,Fix Released,"Upgrade fails on ""Stop and disable cinder_api service"" task.",https://bugs.launchpad.net/tripleo/+bug/1799166,2019-01-11
+1786480,1786480,Fix Released,Unknown user_id attribute specified in magnum client creation,https://bugs.launchpad.net/mistral/+bug/1786480,2019-01-10
+1785654,1785654,Fix Released,Workflow execution fails when catalog is too big,https://bugs.launchpad.net/mistral/+bug/1785654,2019-01-10
+1790079,1790079,Fix Released,"Unnecessary update of workflow execution object on ""on_action_complete"" engine operation",https://bugs.launchpad.net/mistral/+bug/1790079,2019-01-10
+1783708,1783708,Fix Released,std.ssh action can be used to explore executor's filesystem,https://bugs.launchpad.net/mistral/+bug/1783708,2019-01-10
+1781548,1781548,Fix Released,std.ssh doesn't work with python3,https://bugs.launchpad.net/mistral/+bug/1781548,2019-01-10
+1792090,1792090,Fix Released,Workflow output is not calculated correctly sometimes,https://bugs.launchpad.net/mistral/+bug/1792090,2019-01-10
+1793346,1793346,Fix Released,Unable to use oslo.policy CLI tools,https://bugs.launchpad.net/mistral/+bug/1793346,2019-01-10
+1789680,1789680,Fix Released,mistral MessagingTimeout correlates with containerized undercloud uptime,https://bugs.launchpad.net/tripleo/+bug/1789680,2019-01-10
+1796921,1796921,Fix Released,mistral-server --version results in an exception,https://bugs.launchpad.net/mistral/+bug/1796921,2019-01-10
+1793344,1793344,Fix Released,value of next in the response when query filters are used should not contain JSON formatting,https://bugs.launchpad.net/mistral/+bug/1793344,2019-01-10
+1797439,1797439,Fix Released,on-clause cannot reference a task name that contains characters other than [a-zA-Z0-9_],https://bugs.launchpad.net/mistral/+bug/1797439,2019-01-10
+1796242,1796242,Fix Released,Retry DB transactions on sqlalchemy.exc.OperationalError,https://bugs.launchpad.net/mistral/+bug/1796242,2019-01-10
+1799356,1799356,Fix Released,"Remove DB polling to determine ""join"" readiness",https://bugs.launchpad.net/mistral/+bug/1799356,2019-01-10
+1792975,1792975,Fix Released,Mistral saves whole yaml for every wf definition in case of creating multiple wf.,https://bugs.launchpad.net/mistral/+bug/1792975,2019-01-10
+1808899,1808899,Fix Released,Update mailinglist from dev to discuss,https://bugs.launchpad.net/mistral/+bug/1808899,2019-01-10
+1777140,1777140,Fix Released,ntpd on undercloud is not configured,https://bugs.launchpad.net/tripleo/+bug/1777140,2019-01-10
+1811092,1811092,Fix Released,undercloud-upgrade job fails with 'module' object has no attribute 'PodmanRunner',https://bugs.launchpad.net/tripleo/+bug/1811092,2019-01-10
+1797413,1797413,Fix Released,nova-cpu.conf shouldn't have database config in it,https://bugs.launchpad.net/devstack/+bug/1797413,2019-01-10
+1810350,1810350,Fix Released,networking-calico core plugin security group rule updates are slow,https://bugs.launchpad.net/networking-calico/+bug/1810350,2019-01-09
+1808987,1808987,Fix Released,Upgrading to a Next Major Release - 404 Page not found,https://bugs.launchpad.net/tripleo/+bug/1808987,2019-01-09
+1811036,1811036,Fix Released,"matching centos and fedora hashes, however tripleo-ci-testing pin fails",https://bugs.launchpad.net/tripleo/+bug/1811036,2019-01-09
+1809809,1809809,Fix Released,Running subunit with python3 fails name 'file' is not defined,https://bugs.launchpad.net/tripleo/+bug/1809809,2019-01-09
+1725275,1725275,Fix Released,Netapp cDot drivers allow double manage,https://bugs.launchpad.net/cinder/+bug/1725275,2019-01-09
+1713724,1713724,Fix Released,Edit project validates quota against resources used in current project instead of edited project.,https://bugs.launchpad.net/horizon/+bug/1713724,2019-01-09
+1810879,1810879,Fix Released,fedora tripleo-ci-testing link creation fails,https://bugs.launchpad.net/tripleo/+bug/1810879,2019-01-09
+1810898,1810898,Fix Released,tempest.scenario.test_minimum_basic.TestMinimumBasicScenario failure in CI,https://bugs.launchpad.net/tripleo/+bug/1810898,2019-01-08
+1810537,1810537,Fix Released,volume creation fails after successful installation,https://bugs.launchpad.net/openstack-ansible/+bug/1810537,2019-01-08
+1810677,1810677,Fix Released,"on cinder-specs sphinx throws warnings ""WARNING: Footnote [X] is not referenced.""",https://bugs.launchpad.net/cinder/+bug/1810677,2019-01-08
+1662584,1662584,Fix Released,EMC Unity Volume Cloning,https://bugs.launchpad.net/cinder/+bug/1662584,2019-01-08
+1741835,1741835,Fix Released,VNX Driver get error when run case test_force_detach_volume,https://bugs.launchpad.net/cinder/+bug/1741835,2019-01-08
+1808819,1808819,Fix Committed,Error on delete interface when destroying instance,https://bugs.launchpad.net/nova-lxd/+bug/1808819,2019-01-08
+1778271,1778271,Fix Released,tox doesn't support local testing,https://bugs.launchpad.net/networking-midonet/+bug/1778271,2019-01-08
+1770390,1770390,Fix Released,vitrage graph service failed to stop,https://bugs.launchpad.net/vitrage/+bug/1770390,2019-01-08
+1810777,1810777,Fix Released,configure-swap (ROLE) - Error: Partition /dev/xvde1 is being used.,https://bugs.launchpad.net/tripleo/+bug/1810777,2019-01-08
+1785025,1785025,Fix Released,Install and configure controller node in Neutron,https://bugs.launchpad.net/neutron/+bug/1785025,2019-01-07
+1798366,1798366,Fix Released,After a UC upgrade some swift services are still running outside of containers,https://bugs.launchpad.net/tripleo/+bug/1798366,2019-01-07
+1798546,1798546,Fix Released,"After ugprade, zaqar websocket is still running outside of containers",https://bugs.launchpad.net/tripleo/+bug/1798546,2019-01-07
+1802324,1802324,Fix Released,OpenShift master and node scaleup playbook are exclusive,https://bugs.launchpad.net/tripleo/+bug/1802324,2019-01-07
+1794824,1794824,Fix Released,extraconfig/services/openshift-master.yaml is not idempotent,https://bugs.launchpad.net/tripleo/+bug/1794824,2019-01-07
+1797443,1797443,Fix Released,Octavia flavor isn't created if composable octavia,https://bugs.launchpad.net/tripleo/+bug/1797443,2019-01-07
+1800834,1800834,Fix Released,deactivation of interactive login in get-occ-config.sh,https://bugs.launchpad.net/tripleo/+bug/1800834,2019-01-07
+1804468,1804468,Fix Released,"When upgrade_tasks fail for one controller, other controllers continue upgrading",https://bugs.launchpad.net/tripleo/+bug/1804468,2019-01-07
+1799716,1799716,Fix Released,Missing /var/log/btmp in rabbitmq container causes unnecessary logs in /var/log/secure.,https://bugs.launchpad.net/tripleo/+bug/1799716,2019-01-07
+1804459,1804459,Fix Released,Undercloud upgrade cannot be re-run after initial failure.,https://bugs.launchpad.net/tripleo/+bug/1804459,2019-01-07
+1801916,1801916,Fix Released,multiple-nic sample template only add routes to External and Tenant interface,https://bugs.launchpad.net/tripleo/+bug/1801916,2019-01-07
+1751316,1751316,Fix Released,bootstrap-ansible.sh not installing ansible==2.4.3.0,https://bugs.launchpad.net/openstack-ansible/+bug/1751316,2019-01-07
+1799348,1799348,Fix Released,Keystone domains directory permissions are wrong,https://bugs.launchpad.net/kolla-ansible/+bug/1799348,2019-01-07
+1798971,1798971,Fix Released,"container don't restart even though it changed,",https://bugs.launchpad.net/kolla-ansible/+bug/1798971,2019-01-07
+1794275,1794275,Fix Released,"Ceph configuration not generated during nova, cinder or manila upgrade",https://bugs.launchpad.net/kolla-ansible/+bug/1794275,2019-01-07
+1798035,1798035,Fix Released,Failed to copy pipeline.yaml file of ceilometer setting as a non-root user,https://bugs.launchpad.net/kolla-ansible/+bug/1798035,2019-01-07
+1804702,1804702,Fix Released,Error during the upgrade of karbor from queens to rocky,https://bugs.launchpad.net/kolla-ansible/+bug/1804702,2019-01-07
+1805714,1805714,Fix Released,Sahara - generated conf file needs fixes,https://bugs.launchpad.net/kolla-ansible/+bug/1805714,2019-01-07
+1805896,1805896,Fix Released,Sahara - trustee section of conf file needs fixes,https://bugs.launchpad.net/kolla-ansible/+bug/1805896,2019-01-07
+1805705,1805705,Fix Released,Wrong Karbor endpoints,https://bugs.launchpad.net/kolla-ansible/+bug/1805705,2019-01-07
+1806662,1806662,Fix Released,opendaylight crash without tty,https://bugs.launchpad.net/kolla-ansible/+bug/1806662,2019-01-07
+1807841,1807841,Fix Released,There is lots of _resource_update request in ceilometer-notification service,https://bugs.launchpad.net/kolla-ansible/+bug/1807841,2019-01-07
+1778781,1778781,Fix Released,kolla-build fails on python 3 when --config-file is specified,https://bugs.launchpad.net/kolla/+bug/1778781,2019-01-07
+1774123,1774123,Fix Released,Fail to build sensu centos images,https://bugs.launchpad.net/kolla/+bug/1774123,2019-01-07

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1521791,1521791,Fix Released,Nova client incorrectly lists block storage size units in GB,https://bugs.launchpad.net/nova/+bug/1521791,2018-04-20
+1521791,1521791,Fix Released,Nova client incorrectly lists block storage size units in GB,https://bugs.launchpad.net/python-novaclient/+bug/1521791,2018-04-20
+1764420,1764420,Fix Released,flavor-delete output behavior is odd,https://bugs.launchpad.net/python-novaclient/+bug/1764420,2018-04-20
+1659015,1659015,Fix Released,[CLI] Token authentication is broken,https://bugs.launchpad.net/python-novaclient/+bug/1659015,2018-04-20
+1320655,1320655,Fix Released,UnicodeDecodeError in the nova gate logs,https://bugs.launchpad.net/python-glanceclient/+bug/1320655,2018-04-20
+1763068,1763068,Fix Released,TypeError error for insecure calls to sqlalchemy db api,https://bugs.launchpad.net/mistral/+bug/1763068,2018-04-20
+1751018,1751018,Fix Released,DB disconnect errors can leave executions running forever,https://bugs.launchpad.net/mistral/+bug/1751018,2018-04-20
+1762720,1762720,Fix Released,Mistral config guide has wrong DB connection URL,https://bugs.launchpad.net/mistral/+bug/1762720,2018-04-20
+1761246,1761246,Fix Released,cut_list() needs to work the same as cut_dict(),https://bugs.launchpad.net/mistral/+bug/1761246,2018-04-20
+1761827,1761827,Fix Released,Join example in docs is incorrect,https://bugs.launchpad.net/mistral/+bug/1761827,2018-04-20
+1756443,1756443,Fix Released,Duplicate entry error message does not always specify the relevant unique keys,https://bugs.launchpad.net/mistral/+bug/1756443,2018-04-20
+1757036,1757036,Fix Released,Tests of keystone action need oauthlib,https://bugs.launchpad.net/mistral/+bug/1757036,2018-04-20
+1743662,1743662,Fix Released,mistral can create multiple action executions due to bad async action,https://bugs.launchpad.net/mistral/+bug/1743662,2018-04-20
+1664030,1664030,Fix Released,docker image build crashing,https://bugs.launchpad.net/mistral/+bug/1664030,2018-04-20
+1710141,1710141,Fix Released,Continual warnings in n-cpu logs about being unable to delete inventory for an ironic node with an instance on it,https://bugs.launchpad.net/nova/+bug/1710141,2018-04-20
+1762717,1762717,Fix Released,[tests] local variable 'result' referenced before assignment,https://bugs.launchpad.net/placement-osc-plugin/+bug/1762717,2018-04-20
+1764870,1764870,Fix Released,"Missing tags in dockerhub, impossible to deploy a containerized undercloud",https://bugs.launchpad.net/tripleo/+bug/1764870,2018-04-20
+1736336,1736336,Fix Released,Image data stays in backend if image signature verification fails,https://bugs.launchpad.net/glance/+bug/1736336,2018-04-20
+1670627,1670627,Fix Released,quota is always in-use after delete the ERROR instances,https://bugs.launchpad.net/nova/+bug/1670627,2018-04-19
+1747979,1747979,Fix Committed,docs link in readme is wrong,https://bugs.launchpad.net/placement-osc-plugin/+bug/1747979,2018-04-19
+1750190,1750190,Fix Released,unit test failure when building 7.0.0 rc1 in Debian sid,https://bugs.launchpad.net/congress/+bug/1750190,2018-04-19
+1755156,1755156,Fix Released,Remove deprecated nova hosts details from congress,https://bugs.launchpad.net/congress/+bug/1755156,2018-04-19
+1748823,1748823,Fix Released,Remove deprecated neutron_driver,https://bugs.launchpad.net/congress/+bug/1748823,2018-04-19
+1756095,1756095,Fix Released,Cannot specify domain information when creating datasources,https://bugs.launchpad.net/congress/+bug/1756095,2018-04-19
+1751210,1751210,Fix Released,Congress showing misleading exception when policy rules are created with an empty string.,https://bugs.launchpad.net/congress/+bug/1751210,2018-04-19
+1745930,1745930,Fix Released,AuthorizationFailure exception class should support message override,https://bugs.launchpad.net/keystoneauth/+bug/1745930,2018-04-19
+1748860,1748860,Fix Released,Remove tenant_name as required attribute,https://bugs.launchpad.net/congress/+bug/1748860,2018-04-19
+1749144,1749144,Fix Released,Misleading error message when ssl certificate untrusted,https://bugs.launchpad.net/keystoneauth/+bug/1749144,2018-04-19
+1761258,1761258,Fix Released,config validator tempest failure,https://bugs.launchpad.net/congress/+bug/1761258,2018-04-19
+1747016,1747016,Fix Released,NS records for sub-domains are removed during Zone import,https://bugs.launchpad.net/designate/+bug/1747016,2018-04-19
+1752349,1752349,Fix Released,Infoblox driver get_dns_view error after changing multi_tenant option,https://bugs.launchpad.net/designate/+bug/1752349,2018-04-19
+1753503,1753503,Fix Released,Policy check failed for rule 'update_service_status',https://bugs.launchpad.net/designate/+bug/1753503,2018-04-19
+1747655,1747655,Fix Released,keystonemiddleware translate 401 from keystone to 503,https://bugs.launchpad.net/keystonemiddleware/+bug/1747655,2018-04-19
+1747565,1747565,Fix Released,AttributeError when use memcache_use_advanced_pool = True in Ocata,https://bugs.launchpad.net/keystonemiddleware/+bug/1747565,2018-04-19
+1753610,1753610,Fix Released,No module named setproctitle,https://bugs.launchpad.net/puppet-vitrage/+bug/1753610,2018-04-19
+1762107,1762107,Fix Released,Deprecate os_region_name option,https://bugs.launchpad.net/puppet-nova/+bug/1762107,2018-04-19
+1761786,1761786,Fix Released,novajoin install fails because of missing facts,https://bugs.launchpad.net/puppet-nova/+bug/1761786,2018-04-19
+1754203,1754203,Fix Released,murano fails to create environment,https://bugs.launchpad.net/puppet-murano/+bug/1754203,2018-04-19
+1763700,1763700,Fix Released,clients_keystone/auth_uri should not default to admin URL,https://bugs.launchpad.net/puppet-heat/+bug/1763700,2018-04-19
+1764598,1764598,Fix Released,heat fails to auth against keystone,https://bugs.launchpad.net/tripleo/+bug/1764598,2018-04-19
+1657525,1657525,Fix Released,README references deprecated variables,https://bugs.launchpad.net/puppet-glance/+bug/1657525,2018-04-19
+1719874,1719874,Fix Released,glance_image provider should support usage of a proxy,https://bugs.launchpad.net/puppet-glance/+bug/1719874,2018-04-19
+1757945,1757945,Fix Released,Error when using ceilometer collector,https://bugs.launchpad.net/puppet-cloudkitty/+bug/1757945,2018-04-19
+1758145,1758145,Fix Released,Dell EMC SC: 'excluded_domain_ip' SC 'excluded_domain_ip'  blank value should be excluded,https://bugs.launchpad.net/puppet-cinder/+bug/1758145,2018-04-19
+1750930,1750930,Fix Released,Setting name API_TIMEOUT/API_PARALLEL is too generic,https://bugs.launchpad.net/heat-dashboard/+bug/1750930,2018-04-19
+1752527,1752527,Fix Released,unittest crashes on installation,https://bugs.launchpad.net/heat-dashboard/+bug/1752527,2018-04-19
+1752880,1752880,Fix Released,enabled file includes type,https://bugs.launchpad.net/heat-dashboard/+bug/1752880,2018-04-19
+1752881,1752881,Fix Released,static image files cause 404,https://bugs.launchpad.net/heat-dashboard/+bug/1752881,2018-04-19
+1735019,1735019,Fix Released,Document openstackclient commands,https://bugs.launchpad.net/python-heatclient/+bug/1735019,2018-04-19
+1750300,1750300,Fix Released,Uuid and virtual_free elements load error,https://bugs.launchpad.net/watcher/+bug/1750300,2018-04-19
+1755347,1755347,Fix Released,useless WARNING log message,https://bugs.launchpad.net/watcher/+bug/1755347,2018-04-19
+1662887,1662887,Fix Released,Can not sort audit templates list with goal,https://bugs.launchpad.net/watcher/+bug/1662887,2018-04-19
+1738329,1738329,Fix Released,oslo_messaging_rabbit section should be replaced by [DEFAULT]/transport_url in devstack,https://bugs.launchpad.net/watcher/+bug/1738329,2018-04-19
+1712988,1712988,Fix Released,'List' command filters do not accept unicode symbols,https://bugs.launchpad.net/python-manilaclient/+bug/1712988,2018-04-19
+1734016,1734016,Fix Released,could not find Manila endpoint in catalog when list share,https://bugs.launchpad.net/python-manilaclient/+bug/1734016,2018-04-19
+1558995,1558995,Fix Released,Could not find Manila endpoint in catalog,https://bugs.launchpad.net/python-manilaclient/+bug/1558995,2018-04-19
+1759340,1759340,Fix Released,'module' object has no attribute 'get_quota_name',https://bugs.launchpad.net/manila-ui/+bug/1759340,2018-04-19
+1682377,1682377,Fix Released,Doc: explain various combinations of task names and workflow commands work in 'on-xxx' clauses,https://bugs.launchpad.net/mistral/+bug/1682377,2018-04-19
+1750752,1750752,Fix Released,Fix exception handling in the method wrap_messaging_exception() in rpc/base.py,https://bugs.launchpad.net/mistral/+bug/1750752,2018-04-19
+1714054,1714054,Fix Released,tasks listed after pause do not run when workflow is resumed,https://bugs.launchpad.net/mistral/+bug/1714054,2018-04-19
+1756272,1756272,Fix Released,"The ""password"" parameter of std.ssh action has to be specified although it's optional",https://bugs.launchpad.net/mistral/+bug/1756272,2018-04-19
+1711423,1711423,Fix Released,workflow execution stuck in running when description is null,https://bugs.launchpad.net/mistral/+bug/1711423,2018-04-19
+1662350,1662350,Fix Released,malformed json when result is transferred to state_info,https://bugs.launchpad.net/mistral/+bug/1662350,2018-04-19
+1749463,1749463,Fix Released,can't get actionplan list if global efficacy unit is null,https://bugs.launchpad.net/watcher/+bug/1749463,2018-04-19
+1707005,1707005,Fix Released,Enable IPv6 in manila(network plugins and drivers),https://bugs.launchpad.net/manila/+bug/1707005,2018-04-19
+1751683,1751683,Fix Released,Missing quota-classes api-ref documentation,https://bugs.launchpad.net/manila/+bug/1751683,2018-04-19
+1650875,1650875,Fix Released,Typo in help text for ZFSSA config option,https://bugs.launchpad.net/manila/+bug/1650875,2018-04-19
+1650872,1650872,Fix Released,Typo in help text of Generic driver config option,https://bugs.launchpad.net/manila/+bug/1650872,2018-04-19
+1749264,1749264,Fix Released,System role assignments exist after removing users,https://bugs.launchpad.net/keystone/+bug/1749264,2018-04-19
+1749267,1749267,Fix Released,System role assignments exist after removing groups,https://bugs.launchpad.net/keystone/+bug/1749267,2018-04-19
+1748970,1748970,Fix Released,Role assignment API doesn't prune system roles when querying role.id={role_id},https://bugs.launchpad.net/keystone/+bug/1748970,2018-04-19
+1749268,1749268,Fix Released,`keystone-manage bootstrap` doesn't handle system role assignments,https://bugs.launchpad.net/keystone/+bug/1749268,2018-04-19
+1751755,1751755,Fix Released,"wrong description for ""resource_limit"" in limits API",https://bugs.launchpad.net/keystone/+bug/1751755,2018-04-19
+1703666,1703666,Fix Released,Templated catalog does not handle multi-regions properly,https://bugs.launchpad.net/keystone/+bug/1703666,2018-04-19
+1756140,1756140,Fix Released,Project Tags Documentation Wrong - Create Tag,https://bugs.launchpad.net/keystone/+bug/1756140,2018-04-19

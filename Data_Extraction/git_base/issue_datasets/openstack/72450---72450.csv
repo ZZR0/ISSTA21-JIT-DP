@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1379072,1379072,Fix Released,TypeError: remove_event() takes exactly 3 arguments (4 given),https://bugs.launchpad.net/heat/+bug/1379072,2014-10-16
+1363110,1363110,Fix Released,keystone is missing python-oslo-utils in spec,https://bugs.launchpad.net/fuel/+bug/1363110,2014-10-16
+1376616,1376616,Fix Released,Data displayed incorrectly in node details pop-up,https://bugs.launchpad.net/fuel/+bug/1376616,2014-10-16
+1295077,1295077,Fix Released,Bad exception on trying to create table in nonexistent keyspace,https://bugs.launchpad.net/magnetodb/+bug/1295077,2014-10-16
+1364307,1364307,Fix Released,[juno] missed glance dependencies,https://bugs.launchpad.net/fuel/+bug/1364307,2014-10-16
+1338228,1338228,Fix Committed,Puppet coding style,https://bugs.launchpad.net/fuel/+bug/1338228,2014-10-16
+1373979,1373979,Fix Released,Some tests that already have context set it again,https://bugs.launchpad.net/ironic/+bug/1373979,2014-10-16
+1365268,1365268,Fix Released,Search line with awk itself and avoid grep,https://bugs.launchpad.net/ironic/+bug/1365268,2014-10-16
+1375103,1375103,Fix Released,conductor should call validate before send_sensor_data,https://bugs.launchpad.net/ironic/+bug/1375103,2014-10-16
+1372870,1372870,Fix Released,Redudant context parameter,https://bugs.launchpad.net/ironic/+bug/1372870,2014-10-16
+1372499,1372499,Fix Released,REST API should return uuid instead of id in error messages,https://bugs.launchpad.net/ironic/+bug/1372499,2014-10-16
+1371300,1371300,Fix Released,update devstack+ironic docn; not in ubuntu precise,https://bugs.launchpad.net/ironic/+bug/1371300,2014-10-16
+1370559,1370559,Fix Released,snmp driver missing unit tests for SNMPClient,https://bugs.launchpad.net/ironic/+bug/1370559,2014-10-16
+1370487,1370487,Fix Released,PXE cleanup test is a mess and probably don't even work,https://bugs.launchpad.net/ironic/+bug/1370487,2014-10-16
+1369838,1369838,Fix Released,Update docs to mention IPMI sensors with agent drivers,https://bugs.launchpad.net/ironic/+bug/1369838,2014-10-16
+1368425,1368425,Fix Released,remove bypassing of H302 for gettextutils markers,https://bugs.launchpad.net/ironic/+bug/1368425,2014-10-16
+1367291,1367291,Fix Released,openstack-common.conf contains modules not used by Ironic,https://bugs.launchpad.net/ironic/+bug/1367291,2014-10-16
+1366032,1366032,Fix Released,Some modules not migrated to oslo.utils,https://bugs.launchpad.net/ironic/+bug/1366032,2014-10-16
+1365745,1365745,Fix Released,mock.assert_called_once() is not a valid mock method,https://bugs.launchpad.net/ironic/+bug/1365745,2014-10-16
+1364813,1364813,Fix Released,Inappropriate translator functions are used for logging,https://bugs.launchpad.net/ironic/+bug/1364813,2014-10-16
+1362114,1362114,Fix Released,Missing attempt to import necessary module for some drivers in ironic/drivers/fake.py,https://bugs.launchpad.net/ironic/+bug/1362114,2014-10-16
+1359758,1359758,Fix Released,ipminative driver lacks console interface,https://bugs.launchpad.net/ironic/+bug/1359758,2014-10-16
+1354443,1354443,Fix Released,wrong usage of timeutils,https://bugs.launchpad.net/ironic/+bug/1354443,2014-10-16
+1314148,1314148,Fix Released,agent sync and async decorators change method signature,https://bugs.launchpad.net/ironic/+bug/1314148,2014-10-16
+1311268,1311268,Fix Released,api doc samples include XML,https://bugs.launchpad.net/ironic/+bug/1311268,2014-10-16
+1371505,1371505,Fix Released,Any agent drivers fails deploying if agent_ipmitool driver is not enabled,https://bugs.launchpad.net/ironic/+bug/1371505,2014-10-16
+1371418,1371418,Fix Released,IPA build scripts doesn't honor environment variables,https://bugs.launchpad.net/ironic/+bug/1371418,2014-10-16
+1371079,1371079,Fix Released,RealFilePartitioningTestCase.test_whole_disk fails because of locale,https://bugs.launchpad.net/ironic/+bug/1371079,2014-10-16
+1370466,1370466,Fix Released,pxe_ilo driver will fail on ipmitool error after switching from uefi to bios boot mode,https://bugs.launchpad.net/ironic/+bug/1370466,2014-10-16
+1362714,1362714,Fix Released,barbican.sh gives an error when attempting to run tests,https://bugs.launchpad.net/barbican/+bug/1362714,2014-10-16
+1367620,1367620,Fix Released,wrong sensor data format sent from ipminative driver,https://bugs.launchpad.net/ironic/+bug/1367620,2014-10-16
+1326481,1326481,Fix Released,406 response when Accept header is application/json on DELETE requests,https://bugs.launchpad.net/barbican/+bug/1326481,2014-10-16
+1367182,1367182,Fix Released,Ilo* drivers should use only ilo credentials to maintain compatibility across releases,https://bugs.launchpad.net/ironic/+bug/1367182,2014-10-16
+1311240,1311240,Fix Released,Wrong HTTP response code when deleting the entities.,https://bugs.launchpad.net/barbican/+bug/1311240,2014-10-16
+1365334,1365334,Fix Released,Hash ring implementation is not consistent,https://bugs.launchpad.net/ironic/+bug/1365334,2014-10-16
+1354567,1354567,Fix Released,secret delete fails with empty secret_store_metadata,https://bugs.launchpad.net/barbican/+bug/1354567,2014-10-16
+1362060,1362060,Fix Released,Pxe driver should validate that at least one port has vif_port_id,https://bugs.launchpad.net/ironic/+bug/1362060,2014-10-16
+1335327,1335327,Fix Released,secret creation fails with large strings,https://bugs.launchpad.net/barbican/+bug/1335327,2014-10-16
+1358816,1358816,Fix Released,ERROR state from power drivers should be checked,https://bugs.launchpad.net/ironic/+bug/1358816,2014-10-16
+1314732,1314732,Fix Released,Should use object interfaces instead of DBAPI interfaces,https://bugs.launchpad.net/ironic/+bug/1314732,2014-10-16
+1335171,1335171,Fix Released,(Place Holder) Code cleanup to address old order processing,https://bugs.launchpad.net/barbican/+bug/1335171,2014-10-16
+1376239,1376239,Fix Released,SQLAlchemy transaction lingering across requests,https://bugs.launchpad.net/barbican/+bug/1376239,2014-10-16
+1308207,1308207,Fix Released,ironic.common.states doc out of date and partially missing,https://bugs.launchpad.net/ironic/+bug/1308207,2014-10-16
+1374270,1374270,Fix Released,Secret PUT with base64 binary secret fails with sqlalchemy error,https://bugs.launchpad.net/barbican/+bug/1374270,2014-10-16
+1286244,1286244,Fix Released,utils.mkfs() does not check whether formatting to the specified filesystem,https://bugs.launchpad.net/ironic/+bug/1286244,2014-10-16
+1350988,1350988,Fix Released,secrets PUT (option #2 as binary from API doc) fails with 400 Bad Request,https://bugs.launchpad.net/barbican/+bug/1350988,2014-10-16
+1267693,1267693,Fix Released,drivers should only raise IronicExceptions,https://bugs.launchpad.net/ironic/+bug/1267693,2014-10-16
+1375042,1375042,Fix Released,AgentDeploy's validate code crashes on exception.,https://bugs.launchpad.net/ironic/+bug/1375042,2014-10-16
+1374227,1374227,Fix Released,ironic.conf.sample is out of date again,https://bugs.launchpad.net/ironic/+bug/1374227,2014-10-16
+1373671,1373671,Fix Released,SSH driver does not work with non-english locale,https://bugs.launchpad.net/ironic/+bug/1373671,2014-10-16
+1371816,1371816,Fix Released,add_node_capability and rm_node_capability unable to save changes to db,https://bugs.launchpad.net/ironic/+bug/1371816,2014-10-16
+1371503,1371503,Fix Released,Failed to set DHCP BOOT options for any port,https://bugs.launchpad.net/tripleo/+bug/1371503,2014-10-16
+1371503,1371503,Fix Released,Failed to set DHCP BOOT options for any port,https://bugs.launchpad.net/ironic/+bug/1371503,2014-10-16
+1369699,1369699,Fix Released,Migration script has created/updated dates switched,https://bugs.launchpad.net/ironic/+bug/1369699,2014-10-16
+1358500,1358500,Fix Released,fix all the log statments to use %s fomatting,https://bugs.launchpad.net/barbican/+bug/1358500,2014-10-16
+1369545,1369545,Fix Released,Code error in IloPXEVendorPassthru class,https://bugs.launchpad.net/ironic/+bug/1369545,2014-10-16
+1365370,1365370,Fix Released,Race condition running parallel tests,https://bugs.launchpad.net/ironic/+bug/1365370,2014-10-16
+1347205,1347205,Fix Released,Misleading msg in barbican log when using a new tenant,https://bugs.launchpad.net/barbican/+bug/1347205,2014-10-16
+1355510,1355510,Fix Released,conductor hash ring is not updated as conductors arrive and leave,https://bugs.launchpad.net/ironic/+bug/1355510,2014-10-16
+1327438,1327438,Fix Released,Container creation returns 500 for a BadRequest. Expected error code: 400,https://bugs.launchpad.net/barbican/+bug/1327438,2014-10-16
+1347604,1347604,Fix Released,ironic-dbsync fails on SQLite due to bad support of migrations,https://bugs.launchpad.net/ironic/+bug/1347604,2014-10-16
+1358455,1358455,Fix Released,Versionbump script needs to deal with setup.cfg version stamp,https://bugs.launchpad.net/barbican/+bug/1358455,2014-10-16
+1342919,1342919,Fix Released,instances rescheduled after building network info do not update the MAC,https://bugs.launchpad.net/ironic/+bug/1342919,2014-10-16
+1342919,1342919,Fix Released,instances rescheduled after building network info do not update the MAC,https://bugs.launchpad.net/nova/+bug/1342919,2014-10-16
+1356574,1356574,Fix Released,keystonemiddleware missing from rpm,https://bugs.launchpad.net/barbican/+bug/1356574,2014-10-16
+1359452,1359452,Fix Released,On /containers/ GET (list) 'secret_refs' structure includes 'secret_id' not 'secret_ref',https://bugs.launchpad.net/barbican/+bug/1359452,2014-10-16
+1310135,1310135,Fix Released,Stopping an instance via the Nova API when using the Nova Ironic driver incorrectly reports powerstate,https://bugs.launchpad.net/nova/+bug/1310135,2014-10-16
+1310135,1310135,Fix Released,Stopping an instance via the Nova API when using the Nova Ironic driver incorrectly reports powerstate,https://bugs.launchpad.net/ironic/+bug/1310135,2014-10-16
+1279331,1279331,Fix Released,conductor lacks periodic task to keep PXE env up to date,https://bugs.launchpad.net/ironic/+bug/1279331,2014-10-16
+1359197,1359197,Fix Released,Recent merge has function missing or referred incorrectly,https://bugs.launchpad.net/barbican/+bug/1359197,2014-10-16
+1375641,1375641,Fix Released,Error contacting Ironic server for 'node.update',https://bugs.launchpad.net/ironic/+bug/1375641,2014-10-16
+1358386,1358386,Fix Released,Plugin manager stevedore integration is not threadsafe,https://bugs.launchpad.net/barbican/+bug/1358386,2014-10-16
+1368984,1368984,Fix Released,instances cannot be deleted if missing instance_info elements,https://bugs.launchpad.net/ironic/+bug/1368984,2014-10-16
+1349238,1349238,Fix Released,Hardcoded setup.cfg version is messing up deployments,https://bugs.launchpad.net/barbican/+bug/1349238,2014-10-16
+1364671,1364671,Fix Released,"docstring typo ""combinding"" in ironic.drivers.pxe",https://bugs.launchpad.net/ironic/+bug/1364671,2014-10-16

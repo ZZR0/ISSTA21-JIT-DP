@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1490591,1490591,Fix Released,Update 'Add a compute host' operations guide section for kIlo,https://bugs.launchpad.net/openstack-ansible/+bug/1490591,2016-05-03
+1496001,1496001,Fix Released,Add SSL listener to RabbitMQ,https://bugs.launchpad.net/openstack-ansible/+bug/1496001,2016-05-03
+1497433,1497433,Fix Released,ARP cache is being flushed unnecessarily,https://bugs.launchpad.net/openstack-ansible/+bug/1497433,2016-05-03
+1487068,1487068,Fix Released,Gate checks should set DEBIAN_FRONTEND=noninteractive,https://bugs.launchpad.net/openstack-ansible/+bug/1487068,2016-05-03
+1499799,1499799,Fix Released,log rotate template overwrites on converged deployment,https://bugs.launchpad.net/openstack-ansible/+bug/1499799,2016-05-03
+1499451,1499451,Fix Released,simplejson version error while upgrading from 9.0.11 to 10.1.14,https://bugs.launchpad.net/openstack-ansible/+bug/1499451,2016-05-03
+1489251,1489251,Fix Released,Wrong pip package versions after upgrade,https://bugs.launchpad.net/openstack-ansible/+bug/1489251,2016-05-03
+1497283,1497283,Fix Released,Keystone errors 'ArgsAlreadyParsedError' and 'osrandom engine already registered',https://bugs.launchpad.net/openstack-ansible/+bug/1497283,2016-05-03
+1500888,1500888,Fix Released,teardown.sh should have a confirmation prompt,https://bugs.launchpad.net/openstack-ansible/+bug/1500888,2016-05-03
+1501922,1501922,Fix Released,heat_stack_admin_user_name not used anymore ?,https://bugs.launchpad.net/openstack-ansible/+bug/1501922,2016-05-03
+1487221,1487221,Fix Released,Container hosts aren't removed from /etc/hosts during teardown,https://bugs.launchpad.net/openstack-ansible/+bug/1487221,2016-05-03
+1500564,1500564,Fix Released,Need basic security documentation,https://bugs.launchpad.net/openstack-ansible/+bug/1500564,2016-05-03
+1501438,1501438,Fix Released,role requirements file needs its named changed,https://bugs.launchpad.net/openstack-ansible/+bug/1501438,2016-05-03
+1500546,1500546,Fix Released,Teardown script deletes /opt/openstack-ansible directory too early,https://bugs.launchpad.net/openstack-ansible/+bug/1500546,2016-05-03
+1502122,1502122,Fix Released,Horizon configuration docs have HAProxy headings,https://bugs.launchpad.net/openstack-ansible/+bug/1502122,2016-05-03
+1408935,1408935,Fix Committed,LC_ALL variable not set,https://bugs.launchpad.net/fuel/+bug/1408935,2016-05-03
+1408935,1408935,Fix Released,LC_ALL variable not set,https://bugs.launchpad.net/openstack-ansible/+bug/1408935,2016-05-03
+1484619,1484619,Fix Released,Document host_bind_override option,https://bugs.launchpad.net/openstack-ansible/+bug/1484619,2016-05-03
+1509086,1509086,Fix Released,nova should talk to RabbitMQ over an encrypted channel,https://bugs.launchpad.net/openstack-ansible/+bug/1509086,2016-05-03
+1510593,1510593,Fix Released,build html docs throws: WARNING Literal block expected; none found,https://bugs.launchpad.net/openstack-ansible/+bug/1510593,2016-05-03
+1510580,1510580,Fix Released,"build html docs throws: ERROR Unknown target name: ""restructuretext"".",https://bugs.launchpad.net/openstack-ansible/+bug/1510580,2016-05-03
+1510443,1510443,Fix Released,scripts-library.sh can no longer be sourced outside of openstack-ansible checkout,https://bugs.launchpad.net/openstack-ansible/+bug/1510443,2016-05-03
+1512736,1512736,Fix Released,Unarchiving LXC contained throws an error due to UTF-8 characters,https://bugs.launchpad.net/openstack-ansible/+bug/1512736,2016-05-03
+1509837,1509837,Fix Released,Ceph python libraries are missing - liberty,https://bugs.launchpad.net/openstack-ansible/+bug/1509837,2016-05-03
+1513459,1513459,Fix Released,Remove system xtrabackup package if found,https://bugs.launchpad.net/openstack-ansible/+bug/1513459,2016-05-03
+1511756,1511756,Fix Released,neutron migrations broken when neutron-lbaas installed,https://bugs.launchpad.net/openstack-ansible/+bug/1511756,2016-05-03
+1518492,1518492,Fix Released,Flawed volume delete behavior in teardown script,https://bugs.launchpad.net/openstack-ansible/+bug/1518492,2016-05-03
+1520628,1520628,Fix Released,force_config_drive default for Liberty,https://bugs.launchpad.net/openstack-ansible/+bug/1520628,2016-05-03
+1516877,1516877,Fix Released,os-swift is missing configuration for the object-expirer and container-reconciler,https://bugs.launchpad.net/openstack-ansible/+bug/1516877,2016-05-03
+1518005,1518005,Fix Released,HA for ceilometer agents/notifier not implemented,https://bugs.launchpad.net/openstack-ansible/+bug/1518005,2016-05-03
+1519462,1519462,Fix Released,Ceilometer using deprecatd admin_* options in keystone_authtoken,https://bugs.launchpad.net/openstack-ansible/+bug/1519462,2016-05-03
+1519423,1519423,Fix Released,Ceilometer-agent-central not running even though playbooks successfully run,https://bugs.launchpad.net/openstack-ansible/+bug/1519423,2016-05-03
+1510575,1510575,Fix Released,Adding additional Python wheels to the repo,https://bugs.launchpad.net/openstack-ansible/+bug/1510575,2016-05-03
+1510596,1510596,Fix Released,Don't send galera root credentials file to compute hosts,https://bugs.launchpad.net/openstack-ansible/+bug/1510596,2016-05-03
+1522250,1522250,Fix Released,Ceilometer compute namespace drivers not loading,https://bugs.launchpad.net/openstack-ansible/+bug/1522250,2016-05-03
+1518311,1518311,Fix Released,Ability to define the mtu globally (for all the container networks),https://bugs.launchpad.net/openstack-ansible/+bug/1518311,2016-05-03
+1523654,1523654,Fix Released,notification_driver appears twice in neutron.conf,https://bugs.launchpad.net/openstack-ansible/+bug/1523654,2016-05-03
+1527582,1527582,Fix Released,neutron_migrations_facts fails when migration branch dir does not exist,https://bugs.launchpad.net/openstack-ansible/+bug/1527582,2016-05-03
+1531670,1531670,Fix Released,nova_virt_detect always defaults to qemu,https://bugs.launchpad.net/openstack-ansible/+bug/1531670,2016-05-03
+1532917,1532917,Fix Released,role openstack_hosts fails to add br_netfilter to /etc/modules,https://bugs.launchpad.net/openstack-ansible/+bug/1532917,2016-05-03
+1531935,1531935,Fix Released,container fails to start when lxc.network.type != veth,https://bugs.launchpad.net/openstack-ansible/+bug/1531935,2016-05-03
+1535498,1535498,Fix Released,Neutron fails when network_flat_networks or network_vlan_ranges is undefined,https://bugs.launchpad.net/openstack-ansible/+bug/1535498,2016-05-03
+1537039,1537039,Fix Released,Liberty release nova_rpc_backend default value,https://bugs.launchpad.net/openstack-ansible/+bug/1537039,2016-05-03
+1534365,1534365,Fix Released,Log rotation for rsyncd [swift_storage_hosts_setup.yml],https://bugs.launchpad.net/openstack-ansible/+bug/1534365,2016-05-03
+1538993,1538993,Fix Released,os_swift_sync scripts using system site packages,https://bugs.launchpad.net/openstack-ansible/+bug/1538993,2016-05-03
+1538649,1538649,Fix Released,Swift rsync service restart failure,https://bugs.launchpad.net/openstack-ansible/+bug/1538649,2016-05-03
+1541943,1541943,Fix Released,Docs: Update RabbitMQ SSL variable,https://bugs.launchpad.net/openstack-ansible/+bug/1541943,2016-05-03
+1495154,1495154,Fix Released,Docs: Compartmentalizing RabbitMQ,https://bugs.launchpad.net/openstack-ansible/+bug/1495154,2016-05-03
+1487364,1487364,Fix Released,Docs: Add support for additional nova.conf options,https://bugs.launchpad.net/openstack-ansible/+bug/1487364,2016-05-03
+1479215,1479215,Fix Released,Docs: Change to set the container network MTU,https://bugs.launchpad.net/openstack-ansible/+bug/1479215,2016-05-03
+1500642,1500642,Fix Released,Docs: Implement fact caching,https://bugs.launchpad.net/openstack-ansible/+bug/1500642,2016-05-03
+1531309,1531309,Fix Released,Docs: Allow for multiple store backends for Glance,https://bugs.launchpad.net/openstack-ansible/+bug/1531309,2016-05-03
+1509272,1509272,Fix Released,Docs: Set Keystone endpoints to be v3 by default,https://bugs.launchpad.net/openstack-ansible/+bug/1509272,2016-05-03
+1507388,1507388,Fix Released,"Docs: Put swift {account,container,object} logs where they belong",https://bugs.launchpad.net/openstack-ansible/+bug/1507388,2016-05-03
+1491763,1491763,Fix Released,Docs: Allow cinder-backup to use ceph,https://bugs.launchpad.net/openstack-ansible/+bug/1491763,2016-05-03
+1486538,1486538,Fix Released,Docs: Keystone SSL cert/key distribution and configuration,https://bugs.launchpad.net/openstack-ansible/+bug/1486538,2016-05-03
+1539210,1539210,Fix Released,empty log directories cause invalid logrotate files,https://bugs.launchpad.net/openstack-ansible/+bug/1539210,2016-05-03
+1541130,1541130,Fix Released,Use correct LBaasV2 default settings for haproxy,https://bugs.launchpad.net/openstack-ansible/+bug/1541130,2016-05-03
+1559380,1559380,Fix Released,repo build broken due to pywbem 0.8.1,https://bugs.launchpad.net/openstack-ansible/+bug/1559380,2016-05-03
+1549940,1549940,Fix Released,Add erlang overrides to rabbitmq-server role,https://bugs.launchpad.net/openstack-ansible/+bug/1549940,2016-05-03
+1550442,1550442,Fix Released,V-38496 check includes non-system accounts,https://bugs.launchpad.net/openstack-ansible/+bug/1550442,2016-05-03
+1575662,1575662,Fix Released,new probe port not connected to bgpvpn,https://bugs.launchpad.net/bgpvpn/+bug/1575662,2016-05-03
+1576807,1576807,Fix Released,ffi.h: No such file or directory,https://bugs.launchpad.net/tripleo/+bug/1576807,2016-05-03
+1571462,1571462,Fix Released,[Operation Logs] Submit index view function,https://bugs.launchpad.net/karbor-dashboard/+bug/1571462,2016-05-03
+1571461,1571461,Fix Released,[Checkpoints] Submit index view function,https://bugs.launchpad.net/karbor-dashboard/+bug/1571461,2016-05-03
+1575012,1575012,Fix Released,Fix resource name can not be inserted into db,https://bugs.launchpad.net/karbor/+bug/1575012,2016-05-03
+1462998,1462998,Fix Committed,Create packages for MySQL/Galera components,https://bugs.launchpad.net/fuel/+bug/1462998,2016-05-03
+1540890,1540890,Fix Released,[puppet-glance] No option 'auth_address' in section: 'image_format',https://bugs.launchpad.net/fuel/+bug/1540890,2016-05-03
+1517920,1517920,Fix Released,test_subnetpools_extensions checks wrong extension,https://bugs.launchpad.net/tempest/+bug/1517920,2016-05-03
+1570927,1570927,Fix Released,etag mismatch on LPAR POST for rename during migration,https://bugs.launchpad.net/nova-powervm/+bug/1570927,2016-05-02
+1567068,1567068,Fix Released,devstack neutron won't create public network unless q-l3 is enabled,https://bugs.launchpad.net/networking-ovn/+bug/1567068,2016-05-02
+1567155,1567155,Fix Released,--version cmd arg not working,https://bugs.launchpad.net/astara/+bug/1567155,2016-05-02
+1539793,1539793,Fix Released,Nova Mitaka requires a new nova_api database,https://bugs.launchpad.net/puppet-nova/+bug/1539793,2016-05-02
+1576766,1576766,Fix Released,"The size of the logo in not enforced by the rst file, and it i huge on github",https://bugs.launchpad.net/kuryr/+bug/1576766,2016-05-02
+1533960,1533960,Fix Released,can not generate swift client reference,https://bugs.launchpad.net/openstack-manuals/+bug/1533960,2016-05-01

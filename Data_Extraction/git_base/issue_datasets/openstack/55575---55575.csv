@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1463531,1463531,Fix Released,get_attr doesn't work with block_device_mapping,https://bugs.launchpad.net/heat/+bug/1463531,2015-11-19
+1414532,1414532,Fix Released,asserts used in cache.py,https://bugs.launchpad.net/glance/+bug/1414532,2015-11-19
+1437419,1437419,Fix Released,Nova iSCSI volume attach fails in cDOT failover,https://bugs.launchpad.net/cinder/+bug/1437419,2015-11-19
+1398177,1398177,Fix Released,"After migration fail, the copy of volume is not cleaned up",https://bugs.launchpad.net/cinder/+bug/1398177,2015-11-19
+1491524,1491524,Fix Released,HDS HNAS driver logs HNAS password as plain text,https://bugs.launchpad.net/cinder/+bug/1491524,2015-11-19
+1389519,1389519,Fix Released,Retype a in-use volume with qos-specs will always be failed.,https://bugs.launchpad.net/cinder/+bug/1389519,2015-11-19
+1408620,1408620,Fix Released,alarm evaluator should not be broken if one alarm evaluation fails,https://bugs.launchpad.net/ceilometer/+bug/1408620,2015-11-19
+1419239,1419239,Fix Released,sql clear_expired_metering_data breaks resource metadata,https://bugs.launchpad.net/ceilometer/+bug/1419239,2015-11-19
+1415307,1415307,Fix Released,vmware ceilometer-agent-compute  sample_cnt can be a float type or zero,https://bugs.launchpad.net/ceilometer/+bug/1415307,2015-11-19
+1309555,1309555,Fix Released,Retry connection to mongodb on AutoReconnect exceptions,https://bugs.launchpad.net/ceilometer/+bug/1309555,2015-11-19
+1380216,1380216,Fix Released,evaluation periods effectively ignored for threshold alarm,https://bugs.launchpad.net/ceilometer/+bug/1380216,2015-11-19
+1449604,1449604,Fix Released,test_setup_events_default_config fails,https://bugs.launchpad.net/ceilometer/+bug/1449604,2015-11-19
+1433004,1433004,Fix Released,ceilometer.network.notifications prints message which contains auth token in log.info,https://bugs.launchpad.net/ceilometer/+bug/1433004,2015-11-19
+1391040,1391040,Fix Released,bandwidth is not described in doc/source/measurements.rst,https://bugs.launchpad.net/ceilometer/+bug/1391040,2015-11-19
+1396473,1396473,Fix Released,Libvirt inspector can't find instance by instance name in nova cell,https://bugs.launchpad.net/ceilometer/+bug/1396473,2015-11-19
+1397424,1397424,Fix Released,notification agent sets up redundant consumers,https://bugs.launchpad.net/ceilometer/+bug/1397424,2015-11-19
+1517276,1517276,Fix Released,Admin_State option in create-loadbalancer is missing in API Reference,https://bugs.launchpad.net/openstack-api-site/+bug/1517276,2015-11-19
+1518013,1518013,Fix Released,NSXv3: Failed to create backend firewall rules for security group,https://bugs.launchpad.net/vmware-nsx/+bug/1518013,2015-11-19
+1503424,1503424,Fix Committed,Ceph OSD device deleted despite 'keep_data' flag,https://bugs.launchpad.net/fuel/+bug/1503424,2015-11-19
+1453955,1453955,Fix Released,ML2 mechanism driver DVR PortContext info incomplete/inconsistent,https://bugs.launchpad.net/neutron/+bug/1453955,2015-11-19
+1465434,1465434,Fix Released,DVR issues with supporting multiple subnets per network on DVR routers - PortbindingContext does not have the status.,https://bugs.launchpad.net/neutron/+bug/1465434,2015-11-19
+1453943,1453943,Fix Released,ML2 DVR port binding not covered by unit tests,https://bugs.launchpad.net/neutron/+bug/1453943,2015-11-19
+1517362,1517362,Fix Released,[Doc] Wrong Fuel web UI link,https://bugs.launchpad.net/fuel/+bug/1517362,2015-11-19
+1517410,1517410,Fix Committed,status value of senlin node table is not translatable,https://bugs.launchpad.net/senlin-dashboard/+bug/1517410,2015-11-19
+1517425,1517425,Fix Committed,status value of senlin cluster table is not translatable,https://bugs.launchpad.net/senlin-dashboard/+bug/1517425,2015-11-19
+1511731,1511731,Fix Released,No documentation about how to run functional tests,https://bugs.launchpad.net/python-ironicclient/+bug/1511731,2015-11-19
+1446450,1446450,Fix Released,"The sort keys available in the list command should be the same, with or without --detail specified",https://bugs.launchpad.net/python-ironicclient/+bug/1446450,2015-11-19
+1517115,1517115,Fix Released,Environment deployment fails if Ceph is used: 'change from notrun to 0 failed: ceph -n client.radosgw.gateway osd pool create .rgw returned 22 instead of one of [0]',https://bugs.launchpad.net/fuel/+bug/1517115,2015-11-19
+1318706,1318706,Fix Released,Wrong tenant is used for trust generation,https://bugs.launchpad.net/sahara/+bug/1318706,2015-11-19
+1316219,1316219,Fix Released,[DOC] Plugin SPI missing validate_edp method,https://bugs.launchpad.net/sahara/+bug/1316219,2015-11-19
+1316750,1316750,Fix Released,incorrect manifest paths for hdp plugin resources,https://bugs.launchpad.net/sahara/+bug/1316750,2015-11-19
+1496366,1496366,Fix Released,Fuel doesn't delete environment after corrupting root file system of primary controller.,https://bugs.launchpad.net/fuel/+bug/1496366,2015-11-19
+1487964,1487964,Fix Released,"""NoSuchGroupError: no such group: ml2"" in UTs",https://bugs.launchpad.net/networking-midonet/+bug/1487964,2015-11-19
+1500740,1500740,Fix Released,TypeError on security group UTs,https://bugs.launchpad.net/networking-midonet/+bug/1500740,2015-11-19
+1493695,1493695,Fix Released,LOGDIR should be used instead of SCREEN_LOGDIR,https://bugs.launchpad.net/networking-midonet/+bug/1493695,2015-11-19
+1478467,1478467,Fix Released,The README.rst under devstack is not well formatted,https://bugs.launchpad.net/networking-midonet/+bug/1478467,2015-11-19
+1514305,1514305,Fix Released,networking-midonet stable/liberty release request,https://bugs.launchpad.net/neutron/+bug/1514305,2015-11-19
+1514305,1514305,Fix Released,networking-midonet stable/liberty release request,https://bugs.launchpad.net/networking-midonet/+bug/1514305,2015-11-19
+1509602,1509602,Fix Released,jenkins jobs should use midonet metadata proxy for v2/ml2 jobs,https://bugs.launchpad.net/networking-midonet/+bug/1509602,2015-11-19
+1509599,1509599,Fix Released,gate-tempest-dsvm-networking-midonet-* jobs should save midonet logs,https://bugs.launchpad.net/networking-midonet/+bug/1509599,2015-11-19
+1509412,1509412,Fix Released,v1/v2 jobs are failing in stack.sh phase,https://bugs.launchpad.net/networking-midonet/+bug/1509412,2015-11-19
+1509409,1509409,Fix Released,metadata service test is failing in ml2 job,https://bugs.launchpad.net/networking-midonet/+bug/1509409,2015-11-19
+1505965,1505965,Fix Released,fwaas lacks documentation,https://bugs.launchpad.net/networking-midonet/+bug/1505965,2015-11-19
+1505527,1505527,Fix Released,unit tests failing complaining about testscenarios,https://bugs.launchpad.net/networking-midonet/+bug/1505527,2015-11-19
+1505516,1505516,Fix Released,db milestone for liberty,https://bugs.launchpad.net/networking-midonet/+bug/1505516,2015-11-19
+1505490,1505490,Fix Released,lack of upgrade doc,https://bugs.launchpad.net/networking-midonet/+bug/1505490,2015-11-19
+1502767,1502767,Fix Released,devstack plugin shoud not modify ERROR_ON_CLONE,https://bugs.launchpad.net/networking-midonet/+bug/1502767,2015-11-19
+1494199,1494199,Fix Released,deprecation-warning-for-dhcp-metadata-agent,https://bugs.launchpad.net/networking-midonet/+bug/1494199,2015-11-19
+1490921,1490921,Fix Released,test_extension_lbaas needs an update for the new service providers management,https://bugs.launchpad.net/networking-midonet/+bug/1490921,2015-11-19
+1483172,1483172,Fix Released,Q_L3_ROUTER_PER_TENANT-not-set,https://bugs.launchpad.net/networking-midonet/+bug/1483172,2015-11-19
+1505498,1505498,Fix Released,update references to midonet version 2015.09 to 5.0,https://bugs.launchpad.net/networking-midonet/+bug/1505498,2015-11-19
+1504373,1504373,Fix Released,SG callback fails when Kilo MD mixed with Liberty ML2 Plugin,https://bugs.launchpad.net/networking-midonet/+bug/1504373,2015-11-19
+1503130,1503130,Fix Released,MN fwaas plugin does not set the extension path,https://bugs.launchpad.net/networking-midonet/+bug/1503130,2015-11-19
+1486943,1486943,Fix Released,MidNet plugin should be validating against unsupported  provider_network_type,https://bugs.launchpad.net/networking-midonet/+bug/1486943,2015-11-19
+1474266,1474266,Fix Released,py34 unit test starts to fail after Routes 2.1 is excluded in global requirements,https://bugs.launchpad.net/neutron/+bug/1474266,2015-11-19
+1474266,1474266,Fix Released,py34 unit test starts to fail after Routes 2.1 is excluded in global requirements,https://bugs.launchpad.net/networking-midonet/+bug/1474266,2015-11-19
+1506719,1506719,Fix Released,ML2 does not support uplink network type,https://bugs.launchpad.net/networking-midonet/+bug/1506719,2015-11-19
+1480368,1480368,Fix Released,Not all commands in fuel upgrade script has stderr redirection,https://bugs.launchpad.net/fuel/+bug/1480368,2015-11-19
+1512017,1512017,Fix Released,Deployment with detached services failed: No such file or directory - /etc/rabbitmq/definitions,https://bugs.launchpad.net/fuel/+bug/1512017,2015-11-19
+1516932,1516932,Fix Committed,"[monasca-api] ""List Alarms State History"" response body does not contain ""id"" fields",https://bugs.launchpad.net/monasca/+bug/1516932,2015-11-19
+1516904,1516904,Fix Released,LBaaS v2 Create LoadBalancer does not list ´provider´ option,https://bugs.launchpad.net/openstack-api-site/+bug/1516904,2015-11-18
+1508356,1508356,Fix Released,reactivate/deactivate image using CLI,https://bugs.launchpad.net/python-glanceclient/+bug/1508356,2015-11-18
+1499390,1499390,Fix Released,Need to add a more useful tests for 'Unicode support shell client ',https://bugs.launchpad.net/python-glanceclient/+bug/1499390,2015-11-18
+1490461,1490461,Fix Released,Cannot use --x-auth-token with v2 client,https://bugs.launchpad.net/python-glanceclient/+bug/1490461,2015-11-18
+1489727,1489727,Fix Released,'Invalid literal' error occurs when a hostname in an endpoint has a version string,https://bugs.launchpad.net/python-glanceclient/+bug/1489727,2015-11-18
+1511180,1511180,Fix Released,Add support for discovering the available glance versions,https://bugs.launchpad.net/python-glanceclient/+bug/1511180,2015-11-18
+1480529,1480529,Fix Released,No support for setting locale/sending Accept-Language header to Glance server,https://bugs.launchpad.net/python-glanceclient/+bug/1480529,2015-11-18
+1485407,1485407,Fix Released,Glance-client doesn't support image deletion by query in v2,https://bugs.launchpad.net/python-glanceclient/+bug/1485407,2015-11-18
+1517472,1517472,Fix Committed,Zabbix: false alert on swift container net.tcp.service check,https://bugs.launchpad.net/fuel/+bug/1517472,2015-11-18
+1516776,1516776,Fix Released,Incorrect IPv6 address format in mysql user-specific config file,https://bugs.launchpad.net/devstack/+bug/1516776,2015-11-18
+1501728,1501728,Fix Committed,fuel-octane incorrect change deployment info for several controllers upgrade,https://bugs.launchpad.net/fuel/+bug/1501728,2015-11-18
+1515556,1515556,Fix Released,"[detach-rabbitmq] Task 'deploy' has incorrect status. error != ready, 'Tasks 'openstack-network-start' can't be in requires|required_for|groups|tasks for [task-rabbitmq] because they don't exist in the graph'",https://bugs.launchpad.net/fuel/+bug/1515556,2015-11-18
+1509006,1509006,Fix Released,Gate tests failed in fuel-web,https://bugs.launchpad.net/fuel/+bug/1509006,2015-11-18
+1461018,1461018,Fix Released,description column is missing in vpn tables,https://bugs.launchpad.net/horizon/+bug/1461018,2015-11-18
+1461047,1461047,Fix Released,description column is missing in firewall tables,https://bugs.launchpad.net/horizon/+bug/1461047,2015-11-18

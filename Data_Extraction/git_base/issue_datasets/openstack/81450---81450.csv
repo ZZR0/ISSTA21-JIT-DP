@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1292690,1292690,Fix Released,MySQL 5.6 syntax error with revoke,https://bugs.launchpad.net/trove/+bug/1292690,2014-04-17
+1291189,1291189,Fix Released,Generated designate hostnames are uppercase,https://bugs.launchpad.net/trove/+bug/1291189,2014-04-17
+1286180,1286180,Fix Released,trove-manage db_wipe should be renamed to db_recreate,https://bugs.launchpad.net/trove/+bug/1286180,2014-04-17
+1286112,1286112,Fix Released,Need update README with latest oslo wiki link.,https://bugs.launchpad.net/trove/+bug/1286112,2014-04-17
+1246599,1246599,Fix Released,trove database-list command does not display the full database list,https://bugs.launchpad.net/trove/+bug/1246599,2014-04-17
+1290708,1290708,Fix Released,No __name__ test in the db migration script,https://bugs.launchpad.net/trove/+bug/1290708,2014-04-17
+1290617,1290617,Fix Released,Filter Datastore Without Any Active Versions,https://bugs.launchpad.net/trove/+bug/1290617,2014-04-17
+1288864,1288864,Fix Released,Extra initialization in trove config class,https://bugs.launchpad.net/trove/+bug/1288864,2014-04-17
+1288766,1288766,Fix Released,Guest agent resize fs may take longer than guest agent low timeout,https://bugs.launchpad.net/trove/+bug/1288766,2014-04-17
+1288507,1288507,Fix Released,Add support for boolean configuration parameters,https://bugs.launchpad.net/trove/+bug/1288507,2014-04-17
+1287186,1287186,Fix Released,improve readme file,https://bugs.launchpad.net/trove/+bug/1287186,2014-04-17
+1287097,1287097,Fix Released,the LOG call in trove/instance/models.py could potentially raise a TypeError,https://bugs.launchpad.net/trove/+bug/1287097,2014-04-17
+1214188,1214188,Fix Released,DB Migrations missing indexes,https://bugs.launchpad.net/trove/+bug/1214188,2014-04-17
+1291158,1291158,Fix Released,get default configuration on instance with no value in param,https://bugs.launchpad.net/trove/+bug/1291158,2014-04-17
+1290290,1290290,Fix Released,jenkins-sudo-grep fails jobs because some test tries to use sudo,https://bugs.launchpad.net/trove/+bug/1290290,2014-04-17
+1279952,1279952,Fix Released,Add datastore version column to instances table (python-troveclient),https://bugs.launchpad.net/trove/+bug/1279952,2014-04-17
+1279022,1279022,Fix Released,Add datastore version to trove list (trove-api),https://bugs.launchpad.net/trove/+bug/1279022,2014-04-17
+1291516,1291516,Fix Released,Incorrect backup/restore tests trying to execute their cmd on the real jenkins slave environment,https://bugs.launchpad.net/trove/+bug/1291516,2014-04-17
+1276860,1276860,Fix Released,Unimplemented Operations for Datastores Spraying Stacktrace to Users,https://bugs.launchpad.net/trove/+bug/1276860,2014-04-17
+1276858,1276858,Fix Released,Root Password Returned For non-Root Supported Datastores,https://bugs.launchpad.net/trove/+bug/1276858,2014-04-17
+1293465,1293465,Fix Released,Trove db sync does not work correctly with pgsql,https://bugs.launchpad.net/trove/+bug/1293465,2014-04-17
+1285876,1285876,Fix Released,Backup/Restore Validation Lacking w/ the Introduction of Multi-Datastore,https://bugs.launchpad.net/trove/+bug/1285876,2014-04-17
+1267991,1267991,Fix Released,trove updates /etc/fstab in an insecure way,https://bugs.launchpad.net/trove/+bug/1267991,2014-04-17
+1236620,1236620,Fix Released,Resize Usage Events should use DB timestamp,https://bugs.launchpad.net/trove/+bug/1236620,2014-04-17
+1287086,1287086,Fix Released,the dns_ip_address code in trove/instance/models.py is more complicated than it needs to be,https://bugs.launchpad.net/trove/+bug/1287086,2014-04-17
+1287037,1287037,Fix Released,Couchbase security group rules addition,https://bugs.launchpad.net/trove/+bug/1287037,2014-04-17
+1285428,1285428,Fix Released,Error 500 when getting configuration default,https://bugs.launchpad.net/trove/+bug/1285428,2014-04-17
+1285291,1285291,Fix Released,Restore from incremental backup fails for percona,https://bugs.launchpad.net/trove/+bug/1285291,2014-04-17
+1284989,1284989,Fix Released,Race condition causes resize-flavor to fail in Percona,https://bugs.launchpad.net/trove/+bug/1284989,2014-04-17
+1281442,1281442,Fix Released,trove.common.debug_utils.setup() not called in all entry points,https://bugs.launchpad.net/trove/+bug/1281442,2014-04-17
+1281254,1281254,Fix Released,Integration test timeouts for instance creation inconsistent,https://bugs.launchpad.net/trove/+bug/1281254,2014-04-17
+1278965,1278965,Fix Released,"trove-manage update datastore fails when default_version is provided, but does not exist in the db",https://bugs.launchpad.net/trove/+bug/1278965,2014-04-17
+1276346,1276346,Fix Released,Integration tests fail when running different configuration,https://bugs.launchpad.net/trove/+bug/1276346,2014-04-17
+1274608,1274608,Fix Released,"Instance create, delete, and resize volume actions use volume size instead of count as delta during reservation",https://bugs.launchpad.net/trove/+bug/1274608,2014-04-17
+1273446,1273446,Fix Released,Trove DNS code passes IP address as a function instead of string,https://bugs.launchpad.net/trove/+bug/1273446,2014-04-17
+1273094,1273094,Fix Released,instance creation through heat is not working,https://bugs.launchpad.net/trove/+bug/1273094,2014-04-17
+1272806,1272806,Fix Released,Tox Occasional test_one_network_label_exact Failure,https://bugs.launchpad.net/trove/+bug/1272806,2014-04-17
+1272685,1272685,Fix Released,generate_uuid is redefined instead of using common.utils.generate_uuid,https://bugs.launchpad.net/trove/+bug/1272685,2014-04-17
+1272053,1272053,Fix Released,heat code uses ascii encoding,https://bugs.launchpad.net/trove/+bug/1272053,2014-04-17
+1272020,1272020,Fix Released,Few typos in help messages in cfg.py,https://bugs.launchpad.net/trove/+bug/1272020,2014-04-17
+1270113,1270113,Fix Released,Spelling mistake,https://bugs.launchpad.net/trove/+bug/1270113,2014-04-17
+1265829,1265829,Fix Released,Trove-integration make unnecessary keystone accounts,https://bugs.launchpad.net/trove/+bug/1265829,2014-04-17
+1263496,1263496,Fix Released,_create_server_volume_heat does not handles any exception,https://bugs.launchpad.net/trove/+bug/1263496,2014-04-17
+1257489,1257489,Fix Released,guestagent-back-end-connection,https://bugs.launchpad.net/trove/+bug/1257489,2014-04-17
+1256046,1256046,Fix Released,redundant-db-initialization-in-ga,https://bugs.launchpad.net/trove/+bug/1256046,2014-04-17
+1253752,1253752,Fix Released,SwiftStorage load command should use the swiftclient connection,https://bugs.launchpad.net/trove/+bug/1253752,2014-04-17
+1254914,1254914,Fix Released,Password for Database User in Plaintext in Trove API Log,https://bugs.launchpad.net/trove/+bug/1254914,2014-04-17
+1248212,1248212,Fix Released,inconsistent usage of mount_point in guestagent,https://bugs.launchpad.net/trove/+bug/1248212,2014-04-17
+1287315,1287315,Fix Released,Newly secgroup change is breaking percona,https://bugs.launchpad.net/trove/+bug/1287315,2014-04-17
+1281127,1281127,Fix Released,non-flexable-backup-restore-agent,https://bugs.launchpad.net/trove/+bug/1281127,2014-04-17
+1271126,1271126,Fix Released,trove management_url injection contains double slashes,https://bugs.launchpad.net/trove/+bug/1271126,2014-04-17
+1259642,1259642,Fix Released,Upgrade to 'datastores' breaks instance list,https://bugs.launchpad.net/trove/+bug/1259642,2014-04-17
+1257021,1257021,Fix Released,User Grant does not validate databases,https://bugs.launchpad.net/trove/+bug/1257021,2014-04-17
+1277390,1277390,Fix Released,Create Redis Fails After Configuration Group Merge,https://bugs.launchpad.net/trove/+bug/1277390,2014-04-17
+1277376,1277376,Fix Released,Error creating percona instances,https://bugs.launchpad.net/trove/+bug/1277376,2014-04-17
+1257838,1257838,Fix Released,Unable to create instance when multiple networks found,https://bugs.launchpad.net/trove/+bug/1257838,2014-04-17
+1278282,1278282,Fix Released,Race condition during resize service status check,https://bugs.launchpad.net/trove/+bug/1278282,2014-04-17
+1259976,1259976,Fix Released,Unable to resize volumes attached to active instances,https://bugs.launchpad.net/trove/+bug/1259976,2014-04-17
+1267994,1267994,Fix Released,Pep8 1.4.6+ new warnings,https://bugs.launchpad.net/python-keystoneclient/+bug/1267994,2014-04-17
+1267994,1267994,Fix Released,Pep8 1.4.6+ new warnings,https://bugs.launchpad.net/trove/+bug/1267994,2014-04-17
+1267822,1267822,Fix Released,help message for exists_notification_ticks in cfg.py has a reference to an unavailable config report_intevals,https://bugs.launchpad.net/trove/+bug/1267822,2014-04-17
+1267201,1267201,Fix Released,trove/tests/util/mysql.py uses Deprecated BaseException.message,https://bugs.launchpad.net/trove/+bug/1267201,2014-04-17
+1265896,1265896,Fix Released,FreshInstanceTasks.create_instance unnecessarily returns server while calling the server instantiation methods,https://bugs.launchpad.net/trove/+bug/1265896,2014-04-17
+1265141,1265141,Fix Released,load_instance_with_guest tries to print an object not convertible to string,https://bugs.launchpad.net/trove/+bug/1265141,2014-04-17
+1264724,1264724,Fix Released,import * is used in a lot of test files,https://bugs.launchpad.net/trove/+bug/1264724,2014-04-17
+1264721,1264721,Fix Released,trove.trove.tests.util.event_simulator.event_simulator_sleep uses LOG but no LOG is imported in this module,https://bugs.launchpad.net/trove/+bug/1264721,2014-04-17
+1264688,1264688,Fix Released,exception.BadRequest is raised with incorrectly logged message.,https://bugs.launchpad.net/trove/+bug/1264688,2014-04-17
+1264330,1264330,Fix Released,trove/instance/models.py assigns root password as uuidutils.generate_uuid,https://bugs.launchpad.net/trove/+bug/1264330,2014-04-17
+1263371,1263371,Fix Released,BuiltInstanceTasks.get_volume_mountpoint is using an unavailable argument,https://bugs.launchpad.net/trove/+bug/1263371,2014-04-17
+1262789,1262789,Fix Released,Instance create fails due to invalid DNS record name,https://bugs.launchpad.net/trove/+bug/1262789,2014-04-17
+1261905,1261905,Fix Released,directory creation is not needed prior to calling  mount_point.mount(),https://bugs.launchpad.net/trove/+bug/1261905,2014-04-17
+1261854,1261854,Fix Released,_write_temp_mycnf_with_admin_account modifies the permissions of the MYSQL_BASE_DIR without any reasons,https://bugs.launchpad.net/trove/+bug/1261854,2014-04-17
+1261525,1261525,Fix Released,manual installation document doesn't include libmysqlclient-dev dependency,https://bugs.launchpad.net/trove/+bug/1261525,2014-04-17
+1261492,1261492,Fix Released,"os.makedirs is used while creating the mounting directory, which fails because of no-privilleges",https://bugs.launchpad.net/trove/+bug/1261492,2014-04-17
+1260089,1260089,Fix Released,IP used to create DNS record is not filtered,https://bugs.launchpad.net/trove/+bug/1260089,2014-04-17

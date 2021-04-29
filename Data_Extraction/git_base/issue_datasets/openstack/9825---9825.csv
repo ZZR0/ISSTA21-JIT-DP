@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1811036,1811036,Fix Released,"matching centos and fedora hashes, however tripleo-ci-testing pin fails",https://bugs.launchpad.net/tripleo/+bug/1811036,2019-01-09
+1809809,1809809,Fix Released,Running subunit with python3 fails name 'file' is not defined,https://bugs.launchpad.net/tripleo/+bug/1809809,2019-01-09
+1725275,1725275,Fix Released,Netapp cDot drivers allow double manage,https://bugs.launchpad.net/cinder/+bug/1725275,2019-01-09
+1713724,1713724,Fix Released,Edit project validates quota against resources used in current project instead of edited project.,https://bugs.launchpad.net/horizon/+bug/1713724,2019-01-09
+1810879,1810879,Fix Released,fedora tripleo-ci-testing link creation fails,https://bugs.launchpad.net/tripleo/+bug/1810879,2019-01-09
+1810898,1810898,Fix Released,tempest.scenario.test_minimum_basic.TestMinimumBasicScenario failure in CI,https://bugs.launchpad.net/tripleo/+bug/1810898,2019-01-08
+1810537,1810537,Fix Released,volume creation fails after successful installation,https://bugs.launchpad.net/openstack-ansible/+bug/1810537,2019-01-08
+1810677,1810677,Fix Released,"on cinder-specs sphinx throws warnings ""WARNING: Footnote [X] is not referenced.""",https://bugs.launchpad.net/cinder/+bug/1810677,2019-01-08
+1662584,1662584,Fix Released,EMC Unity Volume Cloning,https://bugs.launchpad.net/cinder/+bug/1662584,2019-01-08
+1741835,1741835,Fix Released,VNX Driver get error when run case test_force_detach_volume,https://bugs.launchpad.net/cinder/+bug/1741835,2019-01-08
+1808819,1808819,Fix Committed,Error on delete interface when destroying instance,https://bugs.launchpad.net/nova-lxd/+bug/1808819,2019-01-08
+1778271,1778271,Fix Released,tox doesn't support local testing,https://bugs.launchpad.net/networking-midonet/+bug/1778271,2019-01-08
+1770390,1770390,Fix Released,vitrage graph service failed to stop,https://bugs.launchpad.net/vitrage/+bug/1770390,2019-01-08
+1810777,1810777,Fix Released,configure-swap (ROLE) - Error: Partition /dev/xvde1 is being used.,https://bugs.launchpad.net/tripleo/+bug/1810777,2019-01-08
+1785025,1785025,Fix Released,Install and configure controller node in Neutron,https://bugs.launchpad.net/neutron/+bug/1785025,2019-01-07
+1798366,1798366,Fix Released,After a UC upgrade some swift services are still running outside of containers,https://bugs.launchpad.net/tripleo/+bug/1798366,2019-01-07
+1798546,1798546,Fix Released,"After ugprade, zaqar websocket is still running outside of containers",https://bugs.launchpad.net/tripleo/+bug/1798546,2019-01-07
+1802324,1802324,Fix Released,OpenShift master and node scaleup playbook are exclusive,https://bugs.launchpad.net/tripleo/+bug/1802324,2019-01-07
+1794824,1794824,Fix Released,extraconfig/services/openshift-master.yaml is not idempotent,https://bugs.launchpad.net/tripleo/+bug/1794824,2019-01-07
+1797443,1797443,Fix Released,Octavia flavor isn't created if composable octavia,https://bugs.launchpad.net/tripleo/+bug/1797443,2019-01-07
+1800834,1800834,Fix Released,deactivation of interactive login in get-occ-config.sh,https://bugs.launchpad.net/tripleo/+bug/1800834,2019-01-07
+1804468,1804468,Fix Released,"When upgrade_tasks fail for one controller, other controllers continue upgrading",https://bugs.launchpad.net/tripleo/+bug/1804468,2019-01-07
+1799716,1799716,Fix Released,Missing /var/log/btmp in rabbitmq container causes unnecessary logs in /var/log/secure.,https://bugs.launchpad.net/tripleo/+bug/1799716,2019-01-07
+1804459,1804459,Fix Released,Undercloud upgrade cannot be re-run after initial failure.,https://bugs.launchpad.net/tripleo/+bug/1804459,2019-01-07
+1801916,1801916,Fix Released,multiple-nic sample template only add routes to External and Tenant interface,https://bugs.launchpad.net/tripleo/+bug/1801916,2019-01-07
+1751316,1751316,Fix Released,bootstrap-ansible.sh not installing ansible==2.4.3.0,https://bugs.launchpad.net/openstack-ansible/+bug/1751316,2019-01-07
+1799348,1799348,Fix Released,Keystone domains directory permissions are wrong,https://bugs.launchpad.net/kolla-ansible/+bug/1799348,2019-01-07
+1798971,1798971,Fix Released,"container don't restart even though it changed,",https://bugs.launchpad.net/kolla-ansible/+bug/1798971,2019-01-07
+1794275,1794275,Fix Released,"Ceph configuration not generated during nova, cinder or manila upgrade",https://bugs.launchpad.net/kolla-ansible/+bug/1794275,2019-01-07
+1798035,1798035,Fix Released,Failed to copy pipeline.yaml file of ceilometer setting as a non-root user,https://bugs.launchpad.net/kolla-ansible/+bug/1798035,2019-01-07
+1804702,1804702,Fix Released,Error during the upgrade of karbor from queens to rocky,https://bugs.launchpad.net/kolla-ansible/+bug/1804702,2019-01-07
+1805714,1805714,Fix Released,Sahara - generated conf file needs fixes,https://bugs.launchpad.net/kolla-ansible/+bug/1805714,2019-01-07
+1805896,1805896,Fix Released,Sahara - trustee section of conf file needs fixes,https://bugs.launchpad.net/kolla-ansible/+bug/1805896,2019-01-07
+1805705,1805705,Fix Released,Wrong Karbor endpoints,https://bugs.launchpad.net/kolla-ansible/+bug/1805705,2019-01-07
+1806662,1806662,Fix Released,opendaylight crash without tty,https://bugs.launchpad.net/kolla-ansible/+bug/1806662,2019-01-07
+1807841,1807841,Fix Released,There is lots of _resource_update request in ceilometer-notification service,https://bugs.launchpad.net/kolla-ansible/+bug/1807841,2019-01-07
+1778781,1778781,Fix Released,kolla-build fails on python 3 when --config-file is specified,https://bugs.launchpad.net/kolla/+bug/1778781,2019-01-07
+1774123,1774123,Fix Released,Fail to build sensu centos images,https://bugs.launchpad.net/kolla/+bug/1774123,2019-01-07
+1773736,1773736,Fix Released,elasticsearch start failed,https://bugs.launchpad.net/kolla/+bug/1773736,2019-01-07
+1785880,1785880,Fix Released,Clear all l3 related namespace before starting neutron-l3-agent only when l3_ha is enable,https://bugs.launchpad.net/kolla-ansible/+bug/1785880,2019-01-07
+1795125,1795125,Fix Released,Cinder configuration fails as non-root user,https://bugs.launchpad.net/kolla-ansible/+bug/1795125,2019-01-07
+1794472,1794472,Fix Released,Barbican API log file is not readable by fluentd,https://bugs.launchpad.net/kolla-ansible/+bug/1794472,2019-01-07
+1731498,1731498,Fix Released,neutron-vpn-agent binary not found,https://bugs.launchpad.net/kolla-ansible/+bug/1731498,2019-01-07
+1790653,1790653,Fix Released,prometheus and vitrage are missing check.yml,https://bugs.launchpad.net/kolla-ansible/+bug/1790653,2019-01-07
+1766081,1766081,Fix Released,the configure file missing when run bootstrap.sh,https://bugs.launchpad.net/kolla-ansible/+bug/1766081,2019-01-07
+1718240,1718240,Fix Released,ovs-dpdkctl.sh function list_dpdk_nics only grabs first nic,https://bugs.launchpad.net/kolla-ansible/+bug/1718240,2019-01-07
+1784784,1784784,Fix Released,Opendaylight installation fails Access Denied,https://bugs.launchpad.net/kolla-ansible/+bug/1784784,2019-01-07
+1776529,1776529,Fix Released,[prometheus] Allow operator to pass alert rules,https://bugs.launchpad.net/kolla-ansible/+bug/1776529,2019-01-07
+1790415,1790415,Fix Released,Etcd container failed to start in all-in-one setup,https://bugs.launchpad.net/kolla-ansible/+bug/1790415,2019-01-07
+1791686,1791686,Fix Released,Syntax issue in ovs-dpdk's main.yml,https://bugs.launchpad.net/kolla-ansible/+bug/1791686,2019-01-07
+1792089,1792089,Fix Released,wrong permission for wsgi-zun.conf in zun-api container,https://bugs.launchpad.net/kolla-ansible/+bug/1792089,2019-01-07
+1722422,1722422,Fix Released,haproxy may proxy to a non-exist glance api backend,https://bugs.launchpad.net/kolla-ansible/+bug/1722422,2019-01-07
+1793262,1793262,Fix Released,zookeeper group is missing when run test,https://bugs.launchpad.net/kolla-ansible/+bug/1793262,2019-01-07
+1793637,1793637,Fix Released,neutron warning message need be updated,https://bugs.launchpad.net/kolla-ansible/+bug/1793637,2019-01-07
+1791207,1791207,Fix Released,Octavia can not work with the specific network which is not API network,https://bugs.launchpad.net/kolla-ansible/+bug/1791207,2019-01-07
+1773449,1773449,Fix Released,VM rbd backed block devices inconsistent after unexpected host outage,https://bugs.launchpad.net/tripleo/+bug/1773449,2019-01-07
+1758903,1758903,Fix Released,policy.json not handled by Octavia role,https://bugs.launchpad.net/kolla-ansible/+bug/1758903,2019-01-07
+1795770,1795770,Fix Released,ceilometer failed to deploy with development mode,https://bugs.launchpad.net/kolla-ansible/+bug/1795770,2019-01-07
+1747136,1747136,Fix Released,Pike (5.0.1) breaks linuxbridge network,https://bugs.launchpad.net/kolla-ansible/+bug/1747136,2019-01-07
+1799234,1799234,Fix Released,zun-wsproxy is missing in site.yml and test,https://bugs.launchpad.net/kolla-ansible/+bug/1799234,2019-01-07
+1799243,1799243,Fix Released,reconfigure actions do nothing for multipathd,https://bugs.launchpad.net/kolla-ansible/+bug/1799243,2019-01-07
+1800643,1800643,Fix Released,nova_serialconsole_proxy times out too quickly,https://bugs.launchpad.net/kolla-ansible/+bug/1800643,2019-01-07
+1801662,1801662,Fix Released,There are duplicated host bucket in ceph osd tree,https://bugs.launchpad.net/kolla-ansible/+bug/1801662,2019-01-07
+1786741,1786741,Fix Released,merge_yaml not doing deep copy,https://bugs.launchpad.net/kolla-ansible/+bug/1786741,2019-01-07
+1804242,1804242,Fix Released,Kolla-ansible missing jmespath in requirements.txt,https://bugs.launchpad.net/kolla-ansible/+bug/1804242,2019-01-07
+1804850,1804850,Fix Released,External MariaDB Cluster Integration Guide with Kolla-Ansible,https://bugs.launchpad.net/kolla-ansible/+bug/1804850,2019-01-07
+1806443,1806443,Fix Released,duplicated gather_facts  for storm,https://bugs.launchpad.net/kolla-ansible/+bug/1806443,2019-01-07
+1808829,1808829,Fix Released,Designate: named should be configured to listen on 'dns_interface' as well as 'api_interface',https://bugs.launchpad.net/kolla-ansible/+bug/1808829,2019-01-07
+1809233,1809233,Fix Released,Prometheus configuration fails as non-root user,https://bugs.launchpad.net/kolla-ansible/+bug/1809233,2019-01-07
+1809314,1809314,Fix Released,Currently not possible to allow custom horizon policy files for disabled openstack projects,https://bugs.launchpad.net/kolla-ansible/+bug/1809314,2019-01-07
+1810505,1810505,Fix Released,telegraf template error,https://bugs.launchpad.net/kolla-ansible/+bug/1810505,2019-01-07
+1788384,1788384,Fix Released,self-service password change UI is confusing for end users,https://bugs.launchpad.net/horizon/+bug/1788384,2019-01-07
+1804900,1804900,Fix Released,share-pci-between-numa-nodes.html implemented spec for Queens still contains reference to image and flavor metadata,https://bugs.launchpad.net/nova/+bug/1804900,2019-01-03
+1677008,1677008,Fix Released,Stop using os-cloud-config,https://bugs.launchpad.net/tripleo/+bug/1677008,2019-01-02
+1702761,1702761,Fix Released,heat-engine and heat-api are deployed with number of workers=cores,https://bugs.launchpad.net/tripleo/+bug/1702761,2019-01-02

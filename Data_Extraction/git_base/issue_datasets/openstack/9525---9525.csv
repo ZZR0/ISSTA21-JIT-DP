@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1760843,1760843,Fix Released,Identity Provider domain is not unique,https://bugs.launchpad.net/keystone/+bug/1760843,2019-01-28
+1760809,1760809,Fix Released,delete domain raise 500 error if the domain contains idp,https://bugs.launchpad.net/keystone/+bug/1760809,2019-01-28
+1760205,1760205,Fix Released,Deleting a shadow user doesn't invalidate the cache,https://bugs.launchpad.net/keystone/+bug/1760205,2019-01-28
+1754185,1754185,Fix Released,Limit resources should support descriptions,https://bugs.launchpad.net/keystone/+bug/1754185,2019-01-28
+1751045,1751045,Fix Released,The removal of a role on a non existing group throws an error,https://bugs.launchpad.net/keystone/+bug/1751045,2019-01-28
+1728907,1728907,Fix Released,Empty Fernet Key Files causing problems with token issue,https://bugs.launchpad.net/keystone/+bug/1728907,2019-01-28
+1459402,1459402,Fix Released,Conceptual overview of the Keystone service catalog,https://bugs.launchpad.net/keystone/+bug/1459402,2019-01-28
+1765748,1765748,Fix Released,webob-1.8.1 breaks projects,https://bugs.launchpad.net/openstack-requirements/+bug/1765748,2019-01-28
+1765748,1765748,Fix Released,webob-1.8.1 breaks projects,https://bugs.launchpad.net/glance/+bug/1765748,2019-01-28
+1765748,1765748,Fix Released,webob-1.8.1 breaks projects,https://bugs.launchpad.net/keystone/+bug/1765748,2019-01-28
+1716899,1716899,Fix Released,Install and configure in keystone,https://bugs.launchpad.net/keystone/+bug/1716899,2019-01-28
+1743445,1743445,Fix Released,Switch from msgpack-python to msgpack,https://bugs.launchpad.net/ceilometer/+bug/1743445,2019-01-28
+1743445,1743445,Fix Released,Switch from msgpack-python to msgpack,https://bugs.launchpad.net/keystone/+bug/1743445,2019-01-28
+1743445,1743445,Fix Released,Switch from msgpack-python to msgpack,https://bugs.launchpad.net/openstack-requirements/+bug/1743445,2019-01-28
+1784375,1784375,Fix Released,"Identity API v3 (CURRENT) in Identity API Reference: PUT method for ""Add user to group"" returns 204 on success, not 200 as written",https://bugs.launchpad.net/keystone/+bug/1784375,2019-01-28
+1780896,1780896,Fix Released,project_id filter doesn't work when listing limits with more than one filters,https://bugs.launchpad.net/keystone/+bug/1780896,2019-01-28
+1780159,1780159,Fix Released,Some inherited projects missing when listing user's projects,https://bugs.launchpad.net/keystone/+bug/1780159,2019-01-28
+1779903,1779903,Fix Released,the project limits should be cleaned up when the related project is deleted,https://bugs.launchpad.net/keystone/+bug/1779903,2019-01-28
+1777893,1777893,Fix Released,Limit and registered limit tables should auto-increment primary keys,https://bugs.launchpad.net/keystone/+bug/1777893,2019-01-28
+1774229,1774229,Fix Released,"api-ref: GET /v3/auth/tokens doesn't mention the optional ""system"" parameter for a scoped token",https://bugs.launchpad.net/keystone/+bug/1774229,2019-01-28
+1765193,1765193,Fix Released,Unified limits API doesn't expose model information,https://bugs.launchpad.net/keystone/+bug/1765193,2019-01-28
+1566416,1566416,Fix Released,Keystone does not validate that s3tokens requests came from s3_token middleware,https://bugs.launchpad.net/keystone/+bug/1566416,2019-01-28
+1778945,1778945,Fix Released,Complexity in token provider APIs,https://bugs.launchpad.net/keystone/+bug/1778945,2019-01-28
+1778109,1778109,Fix Released,The token data for a trust-scoped token can contain duplicate roles,https://bugs.launchpad.net/keystone/+bug/1778109,2019-01-28
+1785164,1785164,Fix Released,"Identity API v3: POST method for ""Create Limits"" is abnormal for a domain-id",https://bugs.launchpad.net/keystone/+bug/1785164,2019-01-28
+1757022,1757022,Fix Released,"""keystone-manage mapping_purge"" ignores --type option",https://bugs.launchpad.net/keystone/+bug/1757022,2019-01-28
+1754184,1754184,Fix Released,Unified limits API shouldn't return a list of all limits,https://bugs.launchpad.net/keystone/+bug/1754184,2019-01-28
+1711883,1711883,Fix Released,An error in function get_user_unique_id_and_display_name(),https://bugs.launchpad.net/keystone/+bug/1711883,2019-01-28
+1768980,1768980,Fix Released,"Wrong Port in ""Create OpenStack client environment scripts in keystone"" document",https://bugs.launchpad.net/keystone/+bug/1768980,2019-01-28
+1590805,1590805,Fix Released,"Revoking ""admin"" role from a group invalidates domain admin's token",https://bugs.launchpad.net/keystone/+bug/1590805,2019-01-28
+1768572,1768572,Fix Released,Limit API lacks abstraction for enforcement models,https://bugs.launchpad.net/keystone/+bug/1768572,2019-01-28
+1755728,1755728,Fix Released,Not all references of 'auth_uri' have been removed from openstack projects when we deprecated 'auth_uri' to bring 'www_authenticate_uri',https://bugs.launchpad.net/cinder/+bug/1755728,2019-01-28
+1791167,1791167,Fix Released,podman can't read /dev/null in the container,https://bugs.launchpad.net/tripleo/+bug/1791167,2019-01-28
+1637480,1637480,Fix Released,rubygems FetchError,https://bugs.launchpad.net/openstack-gate/+bug/1637480,2019-01-28
+1809102,1809102,Fix Released,Dry run fails on container-registry : Check ftype,https://bugs.launchpad.net/tripleo/+bug/1809102,2019-01-28
+1806733,1806733,Fix Released,podman/upgrade: haproxy exits and never restart,https://bugs.launchpad.net/tripleo/+bug/1806733,2019-01-28
+1714428,1714428,Fix Released,neutron network don't support multi-DVS when hypervisor is vCenter,https://bugs.launchpad.net/vmware-nsx/+bug/1714428,2019-01-28
+1761624,1761624,Fix Released,docker-puppet.py breaks per-node uuid hieradata,https://bugs.launchpad.net/tripleo/+bug/1761624,2019-01-28
+1756425,1756425,Fix Released,Create volume from large image fails due to incorrect space check,https://bugs.launchpad.net/cinder/+bug/1756425,2019-01-28
+1726378,1726378,Fix Released,MultipleResultsFound error in _find_or_create_kek_objects(),https://bugs.launchpad.net/barbican/+bug/1726378,2019-01-27
+1791062,1791062,Fix Released,The zun-compute service failed to start,https://bugs.launchpad.net/zun/+bug/1791062,2019-01-27
+1805991,1805991,Fix Released,IP Route: subnet's host_houtes attribute and router's routes accept the invalidate subnets.,https://bugs.launchpad.net/neutron/+bug/1805991,2019-01-26
+1604624,1604624,Fix Released,"CI: Error: /Stage[main]/Gnocchi::Db::Sync/Exec[gnocchi-db-sync]: gnocchi-upgrade --config-file /etc/gnocchi/gnocchi.conf --skip-storage --create-legacy-resource-types returned 1 instead of one of [0]\u001b[0m\n"",",https://bugs.launchpad.net/tripleo/+bug/1604624,2019-01-26
+1802619,1802619,Fix Released,Unknown parameter 'bvi' for vpp 18.10,https://bugs.launchpad.net/networking-vpp/+bug/1802619,2019-01-25
+1812478,1812478,Fix Released,image publish job is failing,https://bugs.launchpad.net/manila-image-elements/+bug/1812478,2019-01-24
+1715444,1715444,Fix Released,exercise.sh fails due to deprecated CLI commands,https://bugs.launchpad.net/devstack/+bug/1715444,2019-01-24
+1811506,1811506,Fix Released,neutron-fwaas-dsvm-functional tests failing with oslo.privsep 1.31,https://bugs.launchpad.net/neutron/+bug/1811506,2019-01-24
+1805317,1805317,Fix Released,Rsync is managed by xinetd and by systemd at the same time,https://bugs.launchpad.net/fuel/+bug/1805317,2019-01-24
+1809810,1809810,Fix Released,Update Erlang version on Fuel node,https://bugs.launchpad.net/fuel/+bug/1809810,2019-01-24
+1647872,1647872,Fix Released,Race condition on port binding,https://bugs.launchpad.net/networking-vpp/+bug/1647872,2019-01-24
+1765082,1765082,Fix Released,K8s API LB not reachable with ovs-firewall driver,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1765082,2019-01-23
+1792539,1792539,Fix Released,cni_ds_init should not be pid1 of cni daemon pod,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1792539,2019-01-23
+1798835,1798835,Fix Released,KUBERNETES_NODE_NAME env var applied to kuryr-daemon but not kuryr-controller,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1798835,2019-01-23
+1806062,1806062,Fix Released,kuryr-daemon failing if hostname has uppercase letters,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1806062,2019-01-23
+1792367,1792367,Fix Released,controller pod fails readiness and liveness with KeyError: u'dns',https://bugs.launchpad.net/kuryr-kubernetes/+bug/1792367,2019-01-23
+1798549,1798549,Fix Released,kuryr-controller unable to recover from failure after FIP association,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1798549,2019-01-23
+1803314,1803314,Fix Released,neutron.get_floatingip method does not exist,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1803314,2019-01-23
+1806647,1806647,Fix Released,Kuryr controller restart may cause to failure in FIP for LB service,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1806647,2019-01-23
+1809119,1809119,Fix Released,Errors when creating security group rule for loadbalancers,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1809119,2019-01-23
+1812090,1812090,Fix Released,Import IP implementation modules should be done outside the privsep context,https://bugs.launchpad.net/os-vif/+bug/1812090,2019-01-23
+1812844,1812844,Fix Released,policy breaks TripleO,https://bugs.launchpad.net/novajoin/+bug/1812844,2019-01-23
+1812398,1812398,Fix Released,DBNotAllowed tracebacks in nova-compute logs when running in singleconductor mode (grenade),https://bugs.launchpad.net/devstack/+bug/1812398,2019-01-23
+1709690,1709690,Fix Released,Documentation contributor guide doesn't address copyright/license header,https://bugs.launchpad.net/openstack-manuals/+bug/1709690,2019-01-22
+1809801,1809801,Fix Released,ec2api-tempest-plugin: Fix python3 Compatibility for urllib2,https://bugs.launchpad.net/ec2-api/+bug/1809801,2019-01-22
+1700664,1700664,Fix Released,Parameter definitions can be inconsistent,https://bugs.launchpad.net/tripleo/+bug/1700664,2019-01-22
+1695237,1695237,Fix Released,HA CI jobs do not collect cluster state's log files,https://bugs.launchpad.net/tripleo/+bug/1695237,2019-01-22
+1695091,1695091,Fix Released,os-net-config element overwrites the t-h-t os-net-config scripts config file,https://bugs.launchpad.net/tripleo/+bug/1695091,2019-01-22
+1691113,1691113,Fix Released,User menu should include language selector and log out,https://bugs.launchpad.net/tripleo/+bug/1691113,2019-01-22
+1674711,1674711,Fix Released,"RFE,  tripleo ci logs should include a README with log info",https://bugs.launchpad.net/tripleo/+bug/1674711,2019-01-22
+1658296,1658296,Fix Released,We should enable puppet debug by default in CI jobs,https://bugs.launchpad.net/tripleo/+bug/1658296,2019-01-22
+1643026,1643026,Fix Released,OVS DPDK bonds fail to configure during provisioning,https://bugs.launchpad.net/tripleo/+bug/1643026,2019-01-22
+1640436,1640436,Fix Released,Add workflows for all the direct action calls in Mistral,https://bugs.launchpad.net/tripleo/+bug/1640436,2019-01-22
+1638522,1638522,Fix Released,the lint job is broken due to a new rule in ansible-lint,https://bugs.launchpad.net/tripleo/+bug/1638522,2019-01-22
+1594785,1594785,Fix Released,Test the ansible validations,https://bugs.launchpad.net/tripleo/+bug/1594785,2019-01-22
+1626707,1626707,Fix Released,SSH can fail when the user has many SSH keys,https://bugs.launchpad.net/tripleo/+bug/1626707,2019-01-22

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1240027,1240027,Fix Released,dhcp_agent only allows one dnsmasq_dns_server,https://bugs.launchpad.net/neutron/+bug/1240027,2014-04-17
+1239923,1239923,Fix Released,neutron doesn't use request-ids,https://bugs.launchpad.net/neutron/+bug/1239923,2014-04-17
+1231770,1231770,Fix Released,Edge LbaaS/Firewall should return router_id when getting vip/firewall,https://bugs.launchpad.net/neutron/+bug/1231770,2014-04-17
+1212555,1212555,Fix Released,remove schedule_network in nicira plugin,https://bugs.launchpad.net/neutron/+bug/1212555,2014-04-17
+1095346,1095346,Fix Released,Excessive CPU usage in ProcessLauncher()'s wait loop,https://bugs.launchpad.net/neutron/+bug/1095346,2014-04-17
+1288036,1288036,Fix Released,race condition in update_floatingip_statuses,https://bugs.launchpad.net/neutron/+bug/1288036,2014-04-17
+1287630,1287630,Fix Released,Floating IP status migration should affect only L3-enabled plugins,https://bugs.launchpad.net/neutron/+bug/1287630,2014-04-17
+1285294,1285294,Fix Released,db portbinding migration imports extension module,https://bugs.launchpad.net/neutron/+bug/1285294,2014-04-17
+1283856,1283856,Fix Released,Regression in NSX op status synchronization logic,https://bugs.launchpad.net/neutron/+bug/1283856,2014-04-17
+1282922,1282922,Fix Released,nec pluign: ResourceClosedError from sqlalchemy when release_dhcp_port and API delete-port run in parallel,https://bugs.launchpad.net/neutron/+bug/1282922,2014-04-17
+1280035,1280035,Fix Released,Intermittent unit tests failures in NSX plugin,https://bugs.launchpad.net/neutron/+bug/1280035,2014-04-17
+1278991,1278991,Fix Released,NSX: Deadlock can occur in sync code,https://bugs.launchpad.net/neutron/+bug/1278991,2014-04-17
+1274536,1274536,Fix Released,Neutron metadata agent can't handle high loads,https://bugs.launchpad.net/neutron/+bug/1274536,2014-04-17
+1274487,1274487,Fix Released,neutron-metadata-agent incorrectly passes keystone token to neutronclient,https://bugs.launchpad.net/neutron/+bug/1274487,2014-04-17
+1271231,1271231,Fix Released,securitygroups table is created again while migrating database from havana to icehouse,https://bugs.launchpad.net/neutron/+bug/1271231,2014-04-17
+1268762,1268762,Fix Released,Remove and recreate interfacein ovs  if already exists,https://bugs.launchpad.net/neutron/+bug/1268762,2014-04-17
+1266537,1266537,Fix Released,internal neutron server error on tempest VolumesActionsTest,https://bugs.launchpad.net/neutron/+bug/1266537,2014-04-17
+1263877,1263877,Fix Released,ipt_mgr.ipv6 written in the wrong ipt_mgr.ipv4 in iptables_fwaas.py,https://bugs.launchpad.net/neutron/+bug/1263877,2014-04-17
+1259965,1259965,Fix Released,[LBaaS] Creation of a health monitor after creating a VIP doesn't work correctly,https://bugs.launchpad.net/neutron/+bug/1259965,2014-04-17
+1214115,1214115,Fix Released,ipavailabilityranges race condition when allocating from same range on multiple neutron-servers,https://bugs.launchpad.net/neutron/+bug/1214115,2014-04-17
+1282452,1282452,Fix Released,"gate-neutron-python27 fails: ""greenlet.GreenletExit"" and then ""WARNING: Unable to find  to confirm results!""",https://bugs.launchpad.net/neutron/+bug/1282452,2014-04-17
+1270212,1270212,Fix Released,regression: multiple calls to Message.__mod__ trigger exceptions,https://bugs.launchpad.net/neutron/+bug/1270212,2014-04-17
+1267468,1267468,Fix Released,Add more sanity checks to VMware NSX config/backend,https://bugs.launchpad.net/neutron/+bug/1267468,2014-04-17
+1266555,1266555,Fix Released,pip install fail due to missing nvp.ini file,https://bugs.launchpad.net/neutron/+bug/1266555,2014-04-17
+1265472,1265472,Fix Released,nicira: db integrity error on dhcp port operations,https://bugs.launchpad.net/neutron/+bug/1265472,2014-04-17
+1265267,1265267,Fix Released,Remove unused imports,https://bugs.launchpad.net/neutron/+bug/1265267,2014-04-17
+1265132,1265132,Fix Released,neutron code redundancy,https://bugs.launchpad.net/neutron/+bug/1265132,2014-04-17
+1265081,1265081,Fix Released,nicira: db integrity error during port deletion,https://bugs.launchpad.net/neutron/+bug/1265081,2014-04-17
+1262488,1262488,Fix Released,bigswitch multi-tenant floating IP loss,https://bugs.launchpad.net/neutron/+bug/1262488,2014-04-17
+1261793,1261793,Fix Released,Neutron example log config descriptions are incorrect,https://bugs.launchpad.net/neutron/+bug/1261793,2014-04-17
+1261665,1261665,Fix Released,Midonet plugin: Source NAT not applied,https://bugs.launchpad.net/neutron/+bug/1261665,2014-04-17
+1260232,1260232,Fix Released,db migration on unique constraint should not be applied to all plugins,https://bugs.launchpad.net/neutron/+bug/1260232,2014-04-17
+1259748,1259748,Fix Released,neutron-rootwrap-xen-dom0 does not handle stdin,https://bugs.launchpad.net/neutron/+bug/1259748,2014-04-17
+1259646,1259646,Fix Released,Clean up ML2 Manager,https://bugs.launchpad.net/neutron/+bug/1259646,2014-04-17
+1259560,1259560,Fix Released,Range() in for loop need a refactor,https://bugs.launchpad.net/neutron/+bug/1259560,2014-04-17
+1257607,1257607,Fix Released,Mistake in usage drop_constraint parameters,https://bugs.launchpad.net/neutron/+bug/1257607,2014-04-17
+1256041,1256041,Fix Released,Typo in the metering agent when there is an exception when it invokes a driver method,https://bugs.launchpad.net/neutron/+bug/1256041,2014-04-17
+1255871,1255871,Fix Released,l3_agent: ri.internal_ports.append/removed should be called only if internal_network_added/removed succeed.,https://bugs.launchpad.net/neutron/+bug/1255871,2014-04-17
+1250574,1250574,Fix Released,Quota l3 flags doesn't set in neutron.conf sample file,https://bugs.launchpad.net/neutron/+bug/1250574,2014-04-17
+1249957,1249957,Fix Released,Midonet plugin does not associate port at floating IP creation,https://bugs.launchpad.net/neutron/+bug/1249957,2014-04-17
+1248002,1248002,Fix Released,bandwidth metering - excluded option doesn't work,https://bugs.launchpad.net/neutron/+bug/1248002,2014-04-17
+1245885,1245885,Fix Released,Mellanox Neutron Agent is using keystone port,https://bugs.launchpad.net/neutron/+bug/1245885,2014-04-17
+1243148,1243148,Fix Released,Mistake in usage drop_table in downgrade in migration,https://bugs.launchpad.net/neutron/+bug/1243148,2014-04-17
+1233271,1233271,Fix Released,Floating IPs momentarily removed from router on agent restart,https://bugs.launchpad.net/neutron/+bug/1233271,2014-04-17
+1256197,1256197,Fix Released,An option item is not synced with dhcp_agent.ini in the codes,https://bugs.launchpad.net/neutron/+bug/1256197,2014-04-17
+1196170,1196170,Fix Released,Network type value constants are defined in multiple places,https://bugs.launchpad.net/neutron/+bug/1196170,2014-04-17
+1190622,1190622,Fix Released,Improve unit test coverage for Cisco plugin nexus code,https://bugs.launchpad.net/neutron/+bug/1190622,2014-04-17
+1190621,1190621,Fix Released,Improve unit test coverage for Cisco plugin base code,https://bugs.launchpad.net/neutron/+bug/1190621,2014-04-17
+1190615,1190615,Fix Released,Improve unit test coverage for Cisco plugin common code,https://bugs.launchpad.net/neutron/+bug/1190615,2014-04-17
+1268561,1268561,Fix Released,test_create_security_group_rule_bad_tenant succeeds for the wrong reason,https://bugs.launchpad.net/neutron/+bug/1268561,2014-04-17
+1267841,1267841,Fix Released,ext_gw_mode refers to DNAT,https://bugs.launchpad.net/neutron/+bug/1267841,2014-04-17
+1267246,1267246,Fix Released,missing test coverage in port_security tests,https://bugs.launchpad.net/neutron/+bug/1267246,2014-04-17
+1264260,1264260,Fix Released,NoSuchOptError in lbaas agent test,https://bugs.launchpad.net/neutron/+bug/1264260,2014-04-17
+1263813,1263813,Fix Released,TypeError - not enough args for format string in i18n_cfg.py,https://bugs.launchpad.net/neutron/+bug/1263813,2014-04-17
+1262550,1262550,Fix Released,nicira.test_nvpopts displays some error message in console,https://bugs.launchpad.net/neutron/+bug/1262550,2014-04-17
+1262089,1262089,Fix Released,Tracebacks in py26 unit test console logs related to metadata agent,https://bugs.launchpad.net/neutron/+bug/1262089,2014-04-17
+1261593,1261593,Fix Released,tests/ml2: GreTypeTest missing self.addCleanup(db.clear_db),https://bugs.launchpad.net/neutron/+bug/1261593,2014-04-17
+1260550,1260550,Fix Released,fix core_plugin path in nicira README,https://bugs.launchpad.net/neutron/+bug/1260550,2014-04-17
+1259431,1259431,Fix Released,plugin variable name should be agent,https://bugs.launchpad.net/neutron/+bug/1259431,2014-04-17
+1259242,1259242,Fix Released,duplicated root_helper entries in neutron.conf and plugin ini,https://bugs.launchpad.net/neutron/+bug/1259242,2014-04-17
+1258656,1258656,Fix Released,Remove duplication in get_resource for services,https://bugs.launchpad.net/neutron/+bug/1258656,2014-04-17
+1258629,1258629,Fix Released,remove dead code  _arp_spoofing_rule(),https://bugs.launchpad.net/neutron/+bug/1258629,2014-04-17
+1258390,1258390,Fix Released,Removed erronus config file comment,https://bugs.launchpad.net/neutron/+bug/1258390,2014-04-17
+1257424,1257424,Fix Released,Spelling miss in the code,https://bugs.launchpad.net/neutron/+bug/1257424,2014-04-17
+1250841,1250841,Fix Released,Move FWaaS Noop driver to unit tests directory,https://bugs.launchpad.net/neutron/+bug/1250841,2014-04-17
+1245335,1245335,Fix Released,Mix use of test_config['plugin_name_v2'] and plugin argument in DbPluginV2TestCase,https://bugs.launchpad.net/neutron/+bug/1245335,2014-04-17
+1266334,1266334,Fix Released,Quota extension is not enabled for bigswitch plugin,https://bugs.launchpad.net/neutron/+bug/1266334,2014-04-17
+1263686,1263686,Fix Released,Race between list_networks and delete_network in OVS plugin,https://bugs.launchpad.net/neutron/+bug/1263686,2014-04-17
+1263304,1263304,Fix Released,Security Group tables are never created for ML2 plugin via migrations,https://bugs.launchpad.net/neutron/+bug/1263304,2014-04-17
+1261652,1261652,Fix Released,Internal server error when deleting empty network with OVS plugin,https://bugs.launchpad.net/neutron/+bug/1261652,2014-04-17
+1261334,1261334,Fix Released,nvp: update network gateway name on backend as well,https://bugs.launchpad.net/neutron/+bug/1261334,2014-04-17
+1260692,1260692,Fix Released,LBaaS: stacktraces in q-lbaas while running tempest lbaas api tests,https://bugs.launchpad.net/neutron/+bug/1260692,2014-04-17
+1259088,1259088,Fix Released,setup_rpc should be the last thing in __init__ method,https://bugs.launchpad.net/neutron/+bug/1259088,2014-04-17
+1258065,1258065,Fix Released,The implementation of utils.str2dict fails to convert a dict with more than 2 elements,https://bugs.launchpad.net/neutron/+bug/1258065,2014-04-17
+1257014,1257014,Fix Released,Atomically setup OVS ports,https://bugs.launchpad.net/neutron/+bug/1257014,2014-04-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1136264,1136264,Fix Released,Linuxbrige agent downs with tap device deletion timing issue,https://bugs.launchpad.net/neutron/+bug/1136264,2013-04-04
+1135327,1135327,Fix Released,LBaaS HAProxy namespace_driver should report traffic statistics for a pool,https://bugs.launchpad.net/neutron/+bug/1135327,2013-04-04
+1135324,1135324,Fix Released,LBaaS HAProxy driver should support session persistence,https://bugs.launchpad.net/neutron/+bug/1135324,2013-04-04
+1134043,1134043,Fix Released,Host route to metadata server is not propagated to VM with Big Switch/Floodlight plugin,https://bugs.launchpad.net/neutron/+bug/1134043,2013-04-04
+1133833,1133833,Fix Released,linux bridge agent hung and openvswitch raise an exception if we enable security group,https://bugs.launchpad.net/neutron/+bug/1133833,2013-04-04
+1133395,1133395,Fix Released,NVP plugin must use dhcp_agent_notifier for metadata access network,https://bugs.launchpad.net/neutron/+bug/1133395,2013-04-04
+1131560,1131560,Fix Released,missing pagination parameters for extraroute extension,https://bugs.launchpad.net/neutron/+bug/1131560,2013-04-04
+1131446,1131446,Fix Released,AttributeError: No such RPC function 'report_state',https://bugs.launchpad.net/neutron/+bug/1131446,2013-04-04
+1131009,1131009,Fix Released,install_venv_common.py fails wihout oslo-cfg on host,https://bugs.launchpad.net/neutron/+bug/1131009,2013-04-04
+1130749,1130749,Fix Released,cisco plugin support for creating ports without instances,https://bugs.launchpad.net/neutron/+bug/1130749,2013-04-04
+1129672,1129672,Fix Released,LBaaS VIP creation does not validate or reserve requested address,https://bugs.launchpad.net/neutron/+bug/1129672,2013-04-04
+1123368,1123368,Fix Released,Password options not marked secret,https://bugs.launchpad.net/neutron/+bug/1123368,2013-04-04
+1132889,1132889,Fix Released,midonet plugin is not in setup.py,https://bugs.launchpad.net/neutron/+bug/1132889,2013-04-04
+1128505,1128505,Fix Released,L3NatDBTestCase does not decouple helper functions,https://bugs.launchpad.net/neutron/+bug/1128505,2013-04-04
+1128427,1128427,Fix Released,missing nvp_qos migration script,https://bugs.launchpad.net/neutron/+bug/1128427,2013-04-04
+1127643,1127643,Fix Released,Improve error handling when nvp and quantum are out of sync,https://bugs.launchpad.net/neutron/+bug/1127643,2013-04-04
+1125951,1125951,Fix Released,Some tests from test_dhcp_agent depend on each other,https://bugs.launchpad.net/neutron/+bug/1125951,2013-04-04
+1122117,1122117,Fix Released,Loadbalancing service lacks Alembic migration script,https://bugs.launchpad.net/neutron/+bug/1122117,2013-04-04
+1121555,1121555,Fix Released,fix grammer in network in use error,https://bugs.launchpad.net/neutron/+bug/1121555,2013-04-04
+1119080,1119080,Fix Released,class SecurityGroupDbMixin has diverged from  SecurityGroupPluginBase,https://bugs.launchpad.net/neutron/+bug/1119080,2013-04-04
+1117240,1117240,Fix Released,"Some unit tests fail with message ""no such option: AGENT""",https://bugs.launchpad.net/neutron/+bug/1117240,2013-04-04
+1116664,1116664,Fix Released,extension attributes are not extensible by new extensions,https://bugs.launchpad.net/neutron/+bug/1116664,2013-04-04
+1116290,1116290,Fix Released,processutils from oslo is missing in quantum,https://bugs.launchpad.net/neutron/+bug/1116290,2013-04-04
+1116269,1116269,Fix Released,Quantum test runner is broken,https://bugs.launchpad.net/neutron/+bug/1116269,2013-04-04
+1116263,1116263,Fix Released,quantum.policy unit tests fail,https://bugs.launchpad.net/neutron/+bug/1116263,2013-04-04
+1114183,1114183,Fix Released,import error in ryu-agent,https://bugs.launchpad.net/neutron/+bug/1114183,2013-04-04
+1110957,1110957,Fix Released,Redundant key list generation in Cisco plugin,https://bugs.launchpad.net/neutron/+bug/1110957,2013-04-04
+1110174,1110174,Fix Released,ryu-agent should use rpc,https://bugs.launchpad.net/neutron/+bug/1110174,2013-04-04
+1109824,1109824,Fix Released,Postgresql ENUM type requires a name exceptions NVP Plugin,https://bugs.launchpad.net/neutron/+bug/1109824,2013-04-04
+1109101,1109101,Fix Released,Session persistence cannot be reset for a VIP.,https://bugs.launchpad.net/neutron/+bug/1109101,2013-04-04
+1105193,1105193,Fix Released,OVS cleanup utility does not use the correct root_helper,https://bugs.launchpad.net/neutron/+bug/1105193,2013-04-04
+1104882,1104882,Fix Released,Include api params in quantum.api.extensions.ResourceExtension,https://bugs.launchpad.net/neutron/+bug/1104882,2013-04-04
+1104495,1104495,Fix Released,security group procotol and ethertype should be case insensitive,https://bugs.launchpad.net/neutron/+bug/1104495,2013-04-04
+1104110,1104110,Fix Released,No validation for session-persistance when creating a VIP.,https://bugs.launchpad.net/neutron/+bug/1104110,2013-04-04
+1103988,1103988,Fix Released,Improving code reuse with loadbalancer entity deletion,https://bugs.launchpad.net/neutron/+bug/1103988,2013-04-04
+1103904,1103904,Fix Released,DB reconnection fails,https://bugs.launchpad.net/neutron/+bug/1103904,2013-04-04
+1103519,1103519,Fix Released,Use babel to generate translation file,https://bugs.launchpad.net/neutron/+bug/1103519,2013-04-04
+1103278,1103278,Fix Released,get_security_group() should also return rules,https://bugs.launchpad.net/neutron/+bug/1103278,2013-04-04
+1103216,1103216,Fix Released,primary key set to allow null,https://bugs.launchpad.net/neutron/+bug/1103216,2013-04-04
+1103074,1103074,Fix Released,unit test fails on machines that don't have eth0,https://bugs.launchpad.net/neutron/+bug/1103074,2013-04-04
+1102927,1102927,Fix Released,Extension contracts not inheriting from extensions.ExtensionDescriptor,https://bugs.launchpad.net/neutron/+bug/1102927,2013-04-04
+1102402,1102402,Fix Released,converting subnet into a dict is inconsistent,https://bugs.launchpad.net/neutron/+bug/1102402,2013-04-04
+1102313,1102313,Fix Released,Redundant code in quantum.apit.api_common,https://bugs.launchpad.net/neutron/+bug/1102313,2013-04-04
+1102245,1102245,Fix Released,Test coverage low for quantum.api.api_common,https://bugs.launchpad.net/neutron/+bug/1102245,2013-04-04
+1100357,1100357,Fix Released,RPC control exchange may break agents,https://bugs.launchpad.net/neutron/+bug/1100357,2013-04-04
+1099565,1099565,Fix Released,loadbalancer db enum types need names,https://bugs.launchpad.net/neutron/+bug/1099565,2013-04-04
+1099065,1099065,Fix Released,"Linuxbridge plugin: when admin status is set to False, port status is still ACTIVE",https://bugs.launchpad.net/neutron/+bug/1099065,2013-04-04
+1097541,1097541,Fix Released,provide atomic database access for ports in linuxbridge plugin,https://bugs.launchpad.net/neutron/+bug/1097541,2013-04-04
+1097527,1097527,Fix Released,unit test _create_network/port should not remove false values,https://bugs.launchpad.net/neutron/+bug/1097527,2013-04-04
+1096932,1096932,Fix Released,Inefficient if/else logic in quantum.api.v2.base.prepare_request_body(),https://bugs.launchpad.net/neutron/+bug/1096932,2013-04-04
+1096205,1096205,Fix Released,Fixes i18n messages in nvp plugin,https://bugs.launchpad.net/neutron/+bug/1096205,2013-04-04
+1095885,1095885,Fix Released,rename port attribute variable to SECURITYGROUPS from SECURITYGROUP,https://bugs.launchpad.net/neutron/+bug/1095885,2013-04-04
+1092995,1092995,Fix Released,Inefficient logic in _filters function of quantum.api.v2.base,https://bugs.launchpad.net/neutron/+bug/1092995,2013-04-04
+1123865,1123865,Fix Released,Move keystone auth_token configuration to quantum.conf,https://bugs.launchpad.net/neutron/+bug/1123865,2013-04-04
+1105523,1105523,Fix Released,root_helper is defined inconsistently defined in config files,https://bugs.launchpad.net/neutron/+bug/1105523,2013-04-04
+1094989,1094989,Fix Released,Options missing help strings,https://bugs.launchpad.net/neutron/+bug/1094989,2013-04-04
+1059923,1059923,Fix Released,warn if no plugin config file specified when starting quantum-server,https://bugs.launchpad.net/neutron/+bug/1059923,2013-04-04
+1130052,1130052,Fix Released,DHCP agent should exit if the interface driver isn't provided,https://bugs.launchpad.net/neutron/+bug/1130052,2013-04-04
+1126966,1126966,Fix Released,remove all references of admin_status_up with admin_state_up,https://bugs.launchpad.net/neutron/+bug/1126966,2013-04-04
+1124865,1124865,Fix Released,Allow security group name/description to be updated,https://bugs.launchpad.net/neutron/+bug/1124865,2013-04-04
+1124363,1124363,Fix Released,"Extra, pointless query executed when overlapping IPs are disabled",https://bugs.launchpad.net/neutron/+bug/1124363,2013-04-04
+1122765,1122765,Fix Released,Wrong assertion test used in dhcp agent unit test,https://bugs.launchpad.net/neutron/+bug/1122765,2013-04-04
+1118197,1118197,Fix Released,Lack of unit test for ryu-agent,https://bugs.launchpad.net/neutron/+bug/1118197,2013-04-04
+1110058,1110058,Fix Released,"Misuse of the ""not in"" python syntax",https://bugs.launchpad.net/neutron/+bug/1110058,2013-04-04
+1109310,1109310,Fix Released,L3AgentNofity is misspelled,https://bugs.launchpad.net/neutron/+bug/1109310,2013-04-04
+1102243,1102243,Fix Released,Error during test_agent_ovs_cleanup,https://bugs.launchpad.net/neutron/+bug/1102243,2013-04-04
+1101676,1101676,Fix Released,fix i18n messages for cisco plugin,https://bugs.launchpad.net/neutron/+bug/1101676,2013-04-04
+1101356,1101356,Fix Released,Finish adding help strings to all options,https://bugs.launchpad.net/neutron/+bug/1101356,2013-04-04
+1100234,1100234,Fix Released,Windows CRLF remain in some modules,https://bugs.launchpad.net/neutron/+bug/1100234,2013-04-04
+1099663,1099663,Fix Released,Fix ATTR_NOT_SPECIFIED comparison errors,https://bugs.launchpad.net/neutron/+bug/1099663,2013-04-04
+1098351,1098351,Fix Released,NvpPluginException mixes err_msg and err_desc,https://bugs.launchpad.net/neutron/+bug/1098351,2013-04-04
+1092977,1092977,Fix Released,The _filters function in quantum.api.v2.base is not intuitive,https://bugs.launchpad.net/neutron/+bug/1092977,2013-04-04
+1092399,1092399,Fix Released,Create unittests for public methods in quantum.api.v2.base,https://bugs.launchpad.net/neutron/+bug/1092399,2013-04-04
+1090621,1090621,Fix Released,addr.list() in ip_lib.py fails when broadcast ipv4 address is not set,https://bugs.launchpad.net/neutron/+bug/1090621,2013-04-04
+1083934,1083934,Fix Released,Remove unused imports,https://bugs.launchpad.net/neutron/+bug/1083934,2013-04-04

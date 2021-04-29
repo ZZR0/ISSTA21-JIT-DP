@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1686038,1686038,Fix Released,Revise text about py34,https://bugs.launchpad.net/zaqar/+bug/1686038,2017-06-12
+1687529,1687529,Fix Released,zaqar systemd services don't start with devstack,https://bugs.launchpad.net/zaqar/+bug/1687529,2017-06-12
+1686021,1686021,Fix Released,(swift) queue stats API raise 503 error if only one message in the queue,https://bugs.launchpad.net/zaqar/+bug/1686021,2017-06-12
+1693862,1693862,Fix Released,Zaqar messages cannot be enqueued,https://bugs.launchpad.net/zaqar/+bug/1693862,2017-06-12
+1691315,1691315,Fix Released,Sec-group-rule setup fails when several subnets share the same CIDR,https://bugs.launchpad.net/tricircle/+bug/1691315,2017-06-12
+1680757,1680757,Fix Released,Local subnet left after central subnet deleted,https://bugs.launchpad.net/tricircle/+bug/1680757,2017-06-12
+1691366,1691366,Fix Released,pod_id in ShadowAgent has wrong string length,https://bugs.launchpad.net/tricircle/+bug/1691366,2017-06-12
+1690971,1690971,Fix Released,unreasonable return set when filtering resource routing,https://bugs.launchpad.net/tricircle/+bug/1690971,2017-06-12
+1691306,1691306,Fix Released,Should not reset endpoint when using resource_handle,https://bugs.launchpad.net/tricircle/+bug/1691306,2017-06-12
+1691653,1691653,Fix Released,Optimizing some logic in the code when creating pod,https://bugs.launchpad.net/tricircle/+bug/1691653,2017-06-12
+1691634,1691634,Fix Released,Neuron-lib constant should be used for provider attributes,https://bugs.launchpad.net/tricircle/+bug/1691634,2017-06-12
+1693446,1693446,Fix Released,Could not boot a VM in a subnet without gateway,https://bugs.launchpad.net/tricircle/+bug/1693446,2017-06-12
+1658639,1658639,Fix Released,Regex in ec2/utils.py is wrong,https://bugs.launchpad.net/python-keystoneclient/+bug/1658639,2017-06-12
+1673761,1673761,Fix Released,py27 and py35 test cases are failing on current master,https://bugs.launchpad.net/python-keystoneclient/+bug/1673761,2017-06-12
+1567289,1567289,Fix Released,[openstack-manuals] description of command barbican ca list,https://bugs.launchpad.net/python-barbicanclient/+bug/1567289,2017-06-12
+1662144,1662144,Fix Released,datetime.datetime is not JSON serializable,https://bugs.launchpad.net/python-barbicanclient/+bug/1662144,2017-06-12
+1667887,1667887,Fix Released,certificate order testcases does not inherit order test class,https://bugs.launchpad.net/python-barbicanclient/+bug/1667887,2017-06-12
+1651047,1651047,Fix Released,functional test fails on parsing output,https://bugs.launchpad.net/python-barbicanclient/+bug/1651047,2017-06-12
+1691480,1691480,Fix Released,barbicanclient cannot contact keystone,https://bugs.launchpad.net/python-barbicanclient/+bug/1691480,2017-06-12
+1664739,1664739,Fix Released,cluster-update error message missing details,https://bugs.launchpad.net/python-magnumclient/+bug/1664739,2017-06-12
+1659125,1659125,Fix Released,Add magnum client support for resource quota,https://bugs.launchpad.net/python-magnumclient/+bug/1659125,2017-06-12
+1677393,1677393,Fix Released,ca-rotate: 'Namespace' object has no attribute 'bay',https://bugs.launchpad.net/python-magnumclient/+bug/1677393,2017-06-12
+1401335,1401335,Fix Released,[SRU] rbd calls block eventlet threads,https://bugs.launchpad.net/cinder/+bug/1401335,2017-06-12
+1696749,1696749,Fix Released,Monasca-api Devstack Readme file needs alignment for local.conf update,https://bugs.launchpad.net/monasca/+bug/1696749,2017-06-12
+1692502,1692502,Fix Released,Docker graph driver setting not honored,https://bugs.launchpad.net/tripleo/+bug/1692502,2017-06-12
+1642235,1642235,Fix Released,No plan is set active after deleting the active plan,https://bugs.launchpad.net/tripleo/+bug/1642235,2017-06-12
+1631561,1631561,Fix Released,[SRU] volume usage audit print excessive debug log for deleted resources,https://bugs.launchpad.net/cinder/+bug/1631561,2017-06-12
+1602057,1602057,Fix Released,"[SRU] (libvirt) KeyError updating resources for some node, guest.uuid is not in BDM list",https://bugs.launchpad.net/nova/+bug/1602057,2017-06-12
+1318950,1318950,Fix Released,volume from image creation doesn't copy image with multipath Fibre Channel Connector,https://bugs.launchpad.net/cinder/+bug/1318950,2017-06-10
+1686809,1686809,Fix Released,Deleting a tenant lease deletes lease for all tenants,https://bugs.launchpad.net/mors/+bug/1686809,2017-06-09
+1531511,1531511,Fix Released,Add devref documentation for live-migration,https://bugs.launchpad.net/neutron/+bug/1531511,2017-06-09
+1649750,1649750,Fix Released,Cannot create a provider net without segment_id if only config a physical net name,https://bugs.launchpad.net/neutron/+bug/1649750,2017-06-09
+1663465,1663465,Fix Released,[performance improvement] update neutron-openvswitch-agent's AsyncProcess,https://bugs.launchpad.net/neutron/+bug/1663465,2017-06-09
+1673696,1673696,Fix Released,Internal Server error when adding interface from shared network,https://bugs.launchpad.net/neutron/+bug/1673696,2017-06-09
+1615690,1615690,Fix Released,TypeError with native openflow agent if no datapath_id returned,https://bugs.launchpad.net/neutron/+bug/1615690,2017-06-09
+1667827,1667827,Fix Released,Quota list API doesn't return project_id,https://bugs.launchpad.net/neutron/+bug/1667827,2017-06-09
+1659290,1659290,Fix Released,Failure to load mechanism drivers in ML2 should be critical,https://bugs.launchpad.net/neutron/+bug/1659290,2017-06-09
+1610764,1610764,Fix Released,Create/Update security-group returns 500 error when boolean is specified as name.,https://bugs.launchpad.net/neutron/+bug/1610764,2017-06-09
+1517702,1517702,Fix Released,"create a rbac policy target_tenant_id=self, can not delete this policy",https://bugs.launchpad.net/neutron/+bug/1517702,2017-06-09
+1586908,1586908,Fix Released,"In 'net-ip-availability-list' command ,'-F' or '--field' parameters specified is invalid",https://bugs.launchpad.net/neutron/+bug/1586908,2017-06-09
+1676235,1676235,Fix Released,"IPAM inserts a port's IP allocations directly in the database, instead of appending them to the fixed_ips relationship of the port",https://bugs.launchpad.net/neutron/+bug/1676235,2017-06-09
+1671548,1671548,Fix Released,Updating mac_address of port doesn't update its autoconfigured IPv6 address,https://bugs.launchpad.net/neutron/+bug/1671548,2017-06-09
+1639879,1639879,Fix Released,Deprecate and remove send_arp_for_ha option,https://bugs.launchpad.net/neutron/+bug/1639879,2017-06-09
+1678041,1678041,Fix Released,eliminate callbacks for EXTERNAL_NETWORK,https://bugs.launchpad.net/neutron/+bug/1678041,2017-06-09
+1684897,1684897,Fix Released,fullstack: VXLAN tunnelling doesn't work with fullstack,https://bugs.launchpad.net/neutron/+bug/1684897,2017-06-09
+1677729,1677729,Fix Released,"""Skip DHCP agent query in provisioning block setup"" requires DHCP wiring acknowledgement",https://bugs.launchpad.net/networking-bagpipe/+bug/1677729,2017-06-09
+1677729,1677729,Fix Released,"""Skip DHCP agent query in provisioning block setup"" requires DHCP wiring acknowledgement",https://bugs.launchpad.net/neutron/+bug/1677729,2017-06-09
+1491581,1491581,Fix Released,Some functional tests use 'sudo' alone without rootwrap,https://bugs.launchpad.net/neutron/+bug/1491581,2017-06-09
+1685602,1685602,Fix Released,scenario test_trunk test_subport_connectivity - tagged network created with GW,https://bugs.launchpad.net/neutron/+bug/1685602,2017-06-09
+1668145,1668145,Fix Released,"[RFE] Allow operator control of ""on-link"" routes for subnets in the same Neutron network",https://bugs.launchpad.net/neutron/+bug/1668145,2017-06-09
+1684065,1684065,Fix Released,No tests available for l3-ha extension under neutron tempest tests,https://bugs.launchpad.net/neutron/+bug/1684065,2017-06-09
+1689279,1689279,Fix Released,"tempest  scenario trunk test ""test_subport_connectivity"" fails with non root rhel user",https://bugs.launchpad.net/neutron/+bug/1689279,2017-06-09
+1667138,1667138,Fix Released,Minumum bandwidth can be higher than maximum bandwidth limit in same QoS policy,https://bugs.launchpad.net/neutron/+bug/1667138,2017-06-09
+1691427,1691427,Fix Released,AttributeError: 'DvrLocalRouter' object has no attribute 'ha_state',https://bugs.launchpad.net/neutron/+bug/1691427,2017-06-09
+1658682,1658682,Fix Released,port-security can't be disabled if security groups are not enabled,https://bugs.launchpad.net/neutron/+bug/1658682,2017-06-09
+1657381,1657381,Fix Released,QoS drivers need to implement a precommit for the actions,https://bugs.launchpad.net/neutron/+bug/1657381,2017-06-09
+1557168,1557168,Fix Released,"Fullstack tests do not configure root_helper, use the default of 'sudo'",https://bugs.launchpad.net/neutron/+bug/1557168,2017-06-09
+1560892,1560892,Fix Released,neutron-fwaas does not provide a config file to be loaded by neutron-server,https://bugs.launchpad.net/neutron/+bug/1560892,2017-06-09
+1666568,1666568,Fix Released,"OVS driver unit tests random failure:  ""AssertionError: Mismatched values: 'source_ip_prefix', expected: u'10.0.0.9', actual: u'10.0.0.10'""",https://bugs.launchpad.net/networking-sfc/+bug/1666568,2017-06-09
+1683680,1683680,Fix Released,FlowClassifierPlugin unit test failing with enginefacade change in neutron,https://bugs.launchpad.net/networking-sfc/+bug/1683680,2017-06-09
+1674588,1674588,Fix Released,Can not to find the back group is set with symmetric chain,https://bugs.launchpad.net/networking-sfc/+bug/1674588,2017-06-09
+1681863,1681863,Fix Released,Incorrect dl_type for non-SFC-proxied hops,https://bugs.launchpad.net/networking-sfc/+bug/1681863,2017-06-09
+1692536,1692536,Fix Released,Correlation should  be unique per Port Pair Group,https://bugs.launchpad.net/networking-sfc/+bug/1692536,2017-06-09
+1659821,1659821,Fix Released,Transform the notification driver into a QoSDriver,https://bugs.launchpad.net/networking-ovn/+bug/1659821,2017-06-09
+1683722,1683722,Fix Released,ImportError: No module named 'neutron.services.qos.notification_drivers',https://bugs.launchpad.net/networking-ovn/+bug/1683722,2017-06-09
+1681621,1681621,Fix Released,Pass service_mac to _get_ovn_dhcpv6_opts when syncing,https://bugs.launchpad.net/networking-ovn/+bug/1681621,2017-06-09
+1683073,1683073,Fix Released,"QOS Does not work with ""policing_rate"" and ""policing_burst"" in qos_driver.py",https://bugs.launchpad.net/networking-ovn/+bug/1683073,2017-06-09
+1687568,1687568,Fix Released,Gate failed for USE_SYSTEMD,https://bugs.launchpad.net/networking-ovn/+bug/1687568,2017-06-09
+1686288,1686288,Fix Released,"When update the subnet's gateway ip of the external network, the static route in OVNNB is not updated",https://bugs.launchpad.net/networking-ovn/+bug/1686288,2017-06-09
+1686433,1686433,Fix Released,Trunk plugin cannot be loaded,https://bugs.launchpad.net/networking-ovn/+bug/1686433,2017-06-09
+1691422,1691422,Fix Released,Remove BEFORE_UPDATE event from _subnet_gateway_ip_update,https://bugs.launchpad.net/networking-ovn/+bug/1691422,2017-06-09
+1673339,1673339,Fix Released,vagrant devstack conf contains old configuration file,https://bugs.launchpad.net/networking-odl/+bug/1673339,2017-06-09
+1669609,1669609,Fix Released,use session of requests library for http connection pool,https://bugs.launchpad.net/networking-odl/+bug/1669609,2017-06-09
+1686799,1686799,Fix Released,MAC not updated when VM booted and attached to SRIOV PF,https://bugs.launchpad.net/networking-odl/+bug/1686799,2017-06-09
+1690290,1690290,Fix Released,floatingips status not same when create init and unAssociate with Port,https://bugs.launchpad.net/networking-odl/+bug/1690290,2017-06-09

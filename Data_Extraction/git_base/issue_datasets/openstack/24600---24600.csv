@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1665042,1665042,Fix Released,Restrict Console Logins via /etc/securetty,https://bugs.launchpad.net/tripleo/+bug/1665042,2017-04-11
+1668978,1668978,Fix Released,reduce the number of places to update when new language is added,https://bugs.launchpad.net/tripleo/+bug/1668978,2017-04-11
+1680570,1680570,Fix Released,Tripleo::Profile::Base::Database::Mysql::Client not idempotent,https://bugs.launchpad.net/tripleo/+bug/1680570,2017-04-11
+1680586,1680586,Fix Released,Tripleo::Profile::Pacemaker::Database::Mysql is not idempotent,https://bugs.launchpad.net/tripleo/+bug/1680586,2017-04-11
+1650741,1650741,Fix Released,H803 hacking have been deprecated,https://bugs.launchpad.net/diskimage-builder/+bug/1650741,2017-04-11
+1664111,1664111,Fix Released,Stale data in /var/lib/os-collect-config/ breaks instack-undercloud update,https://bugs.launchpad.net/tripleo/+bug/1664111,2017-04-11
+1663719,1663719,Fix Released,_stackrc_check in instack_undercloud not working as intended,https://bugs.launchpad.net/tripleo/+bug/1663719,2017-04-11
+1664654,1664654,Fix Released,enable_telemetry flag does not correctly handle upgrade scenario,https://bugs.launchpad.net/tripleo/+bug/1664654,2017-04-11
+1665636,1665636,Fix Released,ceilometer not receiving instance notifications from nova on undercloud,https://bugs.launchpad.net/tripleo/+bug/1665636,2017-04-11
+1667136,1667136,Fix Released,undercloud install does not exit with a return code of 1 when an error occurs,https://bugs.launchpad.net/tripleo/+bug/1667136,2017-04-11
+1668709,1668709,Fix Released,openstack undercloud install no longer logs to a file,https://bugs.launchpad.net/tripleo/+bug/1668709,2017-04-11
+1675052,1675052,Fix Released,"ironic-inspector boot_mode detection is off by default, leading to user confusion",https://bugs.launchpad.net/tripleo/+bug/1675052,2017-04-11
+1672730,1672730,Fix Released,instack-undercloud pep8 failures due to broken dib-lint,https://bugs.launchpad.net/tripleo/+bug/1672730,2017-04-11
+1669203,1669203,Fix Released,Remove unused import,https://bugs.launchpad.net/zaqar/+bug/1669203,2017-04-11
+1679891,1679891,Fix Released,Get pool capabilities when creating flavor for v2,https://bugs.launchpad.net/zaqar/+bug/1679891,2017-04-11
+1548289,1548289,Fix Released,Scrubber exits with 0 even though it didn't work,https://bugs.launchpad.net/glance/+bug/1548289,2017-04-11
+1655727,1655727,Fix Released,Improve compatibility with eventlet 0.20.1,https://bugs.launchpad.net/glance/+bug/1655727,2017-04-11
+1554412,1554412,Fix Released,purge command fails due to foreign key constraint,https://bugs.launchpad.net/glance/+bug/1554412,2017-04-11
+1677391,1677391,Fix Released,Glance does not accept 'Range' in requests.,https://bugs.launchpad.net/glance/+bug/1677391,2017-04-11
+1664709,1664709,Fix Released,Partial download of image fails when using  image caching,https://bugs.launchpad.net/glance/+bug/1664709,2017-04-11
+1621984,1621984,Fix Released,nova.conf does not have os_region_name parameter,https://bugs.launchpad.net/fuel/+bug/1621984,2017-04-11
+1681487,1681487,Fix Released,Unittest failure: ttributeError: 'module' object has no attribute 'CAP_PORT_FILTER',https://bugs.launchpad.net/networking-dpm/+bug/1681487,2017-04-11
+1653291,1653291,Fix Committed,Network checker does not check network on plugin roles,https://bugs.launchpad.net/fuel/+bug/1653291,2017-04-11
+1653292,1653292,Fix Committed,Network checker (custom graph) moves discovery node to error state,https://bugs.launchpad.net/fuel/+bug/1653292,2017-04-11
+1653294,1653294,Fix Committed,Second run of Network checker (custom graph) leads to packages download failure,https://bugs.launchpad.net/fuel/+bug/1653294,2017-04-11
+1653297,1653297,Fix Committed,Network checker (custom graph) fails on in multi-rack installation,https://bugs.launchpad.net/fuel/+bug/1653297,2017-04-11
+1681408,1681408,Fix Released,FileIO volume adapter _disconnect_volume fails to remove scsi mapping,https://bugs.launchpad.net/nova-powervm/+bug/1681408,2017-04-10
+1546297,1546297,Fix Released,Storwize driver locking on init/term connection needs to be more granular,https://bugs.launchpad.net/cinder/+bug/1546297,2017-04-10
+1580101,1580101,Fix Released,ironic DevStack plugin fails to install on Ubuntu 16.04,https://bugs.launchpad.net/ironic/+bug/1580101,2017-04-10
+1592335,1592335,Fix Released,ironic node validate fails to show the relevant message for the missing ilo parameter(agent_ilo),https://bugs.launchpad.net/ironic/+bug/1592335,2017-04-10
+1612287,1612287,Fix Released,ipminative does not consider the boot mode when setting the boot device,https://bugs.launchpad.net/ironic/+bug/1612287,2017-04-10
+1561564,1561564,Fix Released,Duplicated drivers in the enabled_drivers list causes conductor to fail,https://bugs.launchpad.net/ironic/+bug/1561564,2017-04-10
+1626612,1626612,Fix Released,Migration tests might fail due to timeout,https://bugs.launchpad.net/ironic/+bug/1626612,2017-04-10
+1563038,1563038,Fix Released,Fix CI jobs to respect upper-constraints.txt,https://bugs.launchpad.net/ironic-inspector/+bug/1563038,2017-04-10
+1563038,1563038,Fix Released,Fix CI jobs to respect upper-constraints.txt,https://bugs.launchpad.net/ironic/+bug/1563038,2017-04-10
+1563038,1563038,Fix Released,Fix CI jobs to respect upper-constraints.txt,https://bugs.launchpad.net/trove/+bug/1563038,2017-04-10
+1563038,1563038,Fix Released,Fix CI jobs to respect upper-constraints.txt,https://bugs.launchpad.net/glance-store/+bug/1563038,2017-04-10
+1563038,1563038,Fix Released,Fix CI jobs to respect upper-constraints.txt,https://bugs.launchpad.net/python-glanceclient/+bug/1563038,2017-04-10
+1563038,1563038,Fix Released,Fix CI jobs to respect upper-constraints.txt,https://bugs.launchpad.net/magnum-ui/+bug/1563038,2017-04-10
+1563038,1563038,Fix Released,Fix CI jobs to respect upper-constraints.txt,https://bugs.launchpad.net/magnum/+bug/1563038,2017-04-10
+1563038,1563038,Fix Released,Fix CI jobs to respect upper-constraints.txt,https://bugs.launchpad.net/python-magnumclient/+bug/1563038,2017-04-10
+1563038,1563038,Fix Released,Fix CI jobs to respect upper-constraints.txt,https://bugs.launchpad.net/barbican/+bug/1563038,2017-04-10
+1611744,1611744,Fix Released,HTTP 500 when trying to update port MAC for an active node,https://bugs.launchpad.net/ironic/+bug/1611744,2017-04-10
+1638596,1638596,Fix Released,ssh_key_contents isn't masked when using the ssh power driver,https://bugs.launchpad.net/ironic/+bug/1638596,2017-04-10
+1655676,1655676,Fix Released,"[stable only] TypeError: %o format: a number is required, not str in neutron errors handling",https://bugs.launchpad.net/ironic/+bug/1655676,2017-04-10
+1516816,1516816,Fix Released,the take_over() fails for pxe drivers,https://bugs.launchpad.net/ironic/+bug/1516816,2017-04-10
+1627034,1627034,Fix Released,There is  no verification if the node is in use by Oneview,https://bugs.launchpad.net/ironic/+bug/1627034,2017-04-10
+1672457,1672457,Fix Released,Ironic Conductor performance trends down with uptime,https://bugs.launchpad.net/ironic/+bug/1672457,2017-04-10
+1586390,1586390,Fix Released,Wait_for_backend[mysql] runs before Xinetd::Service[galeracheck] on primary controller,https://bugs.launchpad.net/fuel/+bug/1586390,2017-04-10
+1659098,1659098,Fix Released,"stable/newton test failures with  ""Message objects do not support addition""",https://bugs.launchpad.net/ceilometer/+bug/1659098,2017-04-10
+1573654,1573654,Fix Released,Failed unit test by ImportError: No module named tempest.common reason,https://bugs.launchpad.net/ceilometer/+bug/1573654,2017-04-10
+1680913,1680913,Fix Released,ci failues with RETRY_LIMIT because of log directory permissions,https://bugs.launchpad.net/tripleo/+bug/1680913,2017-04-10
+1679947,1679947,Fix Released,Dead link in Customizing the OpenStack Compute (nova) Scheduler in Operations Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1679947,2017-04-10
+1673530,1673530,Fix Released,Make rst headers linkable,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1673530,2017-04-10
+1662289,1662289,Fix Released,add support for ovs 2.7 port binding.,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1662289,2017-04-10
+1677241,1677241,Fix Released,HTTP response codes should be extracted to constants,https://bugs.launchpad.net/karbor/+bug/1677241,2017-04-10
+1623517,1623517,Fix Released,"A PUT or POST sent to placement API without a content-type header will result in a 500, should be a 400",https://bugs.launchpad.net/nova/+bug/1623517,2017-04-10
+1681029,1681029,Fix Released,CI: Nova compute fails with KeyError: 'host' when installing undercloud,https://bugs.launchpad.net/puppet-nova/+bug/1681029,2017-04-10
+1612185,1612185,Fix Released,Iptables calls in ruby code cause faults during deployment,https://bugs.launchpad.net/fuel/+bug/1612185,2017-04-10
+1605540,1605540,Fix Released,Iptables calls cause faults during deployment,https://bugs.launchpad.net/fuel/+bug/1605540,2017-04-10
+1647252,1647252,Fix Released,Plugin 'bgp' not found.,https://bugs.launchpad.net/openstack-manuals/+bug/1647252,2017-04-10
+1672430,1672430,Fix Released,Replace the command “nova absolute-limits“  with  “nova limits”,https://bugs.launchpad.net/openstack-manuals/+bug/1672430,2017-04-10
+1588412,1588412,Fix Released,[library] Debug for astute is hardcoded,https://bugs.launchpad.net/fuel/+bug/1588412,2017-04-10
+1680753,1680753,Fix Committed,8.0.fuel-library.pkgs.ubuntu.smoke_neutron fails with libvirt.libvirtError,https://bugs.launchpad.net/fuel/+bug/1680753,2017-04-10
+1647609,1647609,Fix Committed,History tab hangs if transaction graph_type attribute is not specified,https://bugs.launchpad.net/fuel/+bug/1647609,2017-04-10
+1433894,1433894,Fix Released,"novncproxy: code 404, message File not found",https://bugs.launchpad.net/fuel/+bug/1433894,2017-04-10
+1592368,1592368,Fix Released,Endpoint type is ignored for network commands,https://bugs.launchpad.net/python-openstackclient/+bug/1592368,2017-04-10
+1644820,1644820,Fix Released,"The option ""security_groups"" is not serialized",https://bugs.launchpad.net/fuel/+bug/1644820,2017-04-10
+1573105,1573105,Fix Released,Provisioning failed during cluster reinstallation,https://bugs.launchpad.net/fuel/+bug/1573105,2017-04-10
+1656994,1656994,Fix Released,argument of type 'NoneType' is not iterable for invalid type,https://bugs.launchpad.net/tosca-parser/+bug/1656994,2017-04-10
+1668075,1668075,Fix Released,remove key from _get_node_type_by_cap,https://bugs.launchpad.net/tosca-parser/+bug/1668075,2017-04-10
+1663681,1663681,Fix Released,Minor issue in test data found with topology validator,https://bugs.launchpad.net/tosca-parser/+bug/1663681,2017-04-10
+1672219,1672219,Fix Released,gate-tosca-parser-python35 fails,https://bugs.launchpad.net/tosca-parser/+bug/1672219,2017-04-10
+1602719,1602719,Fix Released,priorities for plugins repositories doesn't work,https://bugs.launchpad.net/fuel/+bug/1602719,2017-04-10
+1583173,1583173,Fix Committed,MySQL OCF RA action monitor must check if a seed node is running the most recent of known GTIDs,https://bugs.launchpad.net/fuel/+bug/1583173,2017-04-10

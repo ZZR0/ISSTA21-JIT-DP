@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1026709,1026709,Fix Released,SQL deadlock in quota code,https://bugs.launchpad.net/nova/+bug/1026709,2012-09-27
+1026540,1026540,Fix Released,live_migration call made without using RPC API,https://bugs.launchpad.net/nova/+bug/1026540,2012-09-27
+1026307,1026307,Fix Released,Error handling errors while generating compute.instance.exists notification.,https://bugs.launchpad.net/nova/+bug/1026307,2012-09-27
+1025942,1025942,Fix Released,bare-metal spawn error,https://bugs.launchpad.net/nova/+bug/1025942,2012-09-27
+1025827,1025827,Fix Released,Nova-manage fixed list fails to return correct information,https://bugs.launchpad.net/nova/+bug/1025827,2012-09-27
+1024986,1024986,Fix Released,GET /servers/xxx sets key_name value irrespective of whether keypairs extensions is used or not,https://bugs.launchpad.net/nova/+bug/1024986,2012-09-27
+1024557,1024557,Fix Released,Duplicate DNS entries end up populating in XenStore for networks with both IPv6 and IPv4 subnets,https://bugs.launchpad.net/nova/+bug/1024557,2012-09-27
+1024332,1024332,Fix Released,minor typo in notifications docstring,https://bugs.launchpad.net/nova/+bug/1024332,2012-09-27
+1023805,1023805,Fix Released,OS API: empty network list raises an exception,https://bugs.launchpad.net/nova/+bug/1023805,2012-09-27
+1023698,1023698,Fix Released,File injection on xen doesn't work due to import error,https://bugs.launchpad.net/nova/+bug/1023698,2012-09-27
+1023250,1023250,Fix Released,boot from iso in libvirt doesn't generate correct config,https://bugs.launchpad.net/nova/+bug/1023250,2012-09-27
+1022700,1022700,Fix Released,update should allow accessIPs to be set as null,https://bugs.launchpad.net/nova/+bug/1022700,2012-09-27
+1022681,1022681,Fix Released,Instance destroy fails in xenapi driver if kernel/ramdisk images were deleted,https://bugs.launchpad.net/nova/+bug/1022681,2012-09-27
+1022670,1022670,Fix Released,snapshots tests failing,https://bugs.launchpad.net/nova/+bug/1022670,2012-09-27
+1022520,1022520,Fix Released,Nova can not detached a volume,https://bugs.launchpad.net/nova/+bug/1022520,2012-09-27
+1022470,1022470,Fix Released,create_networks is missed in network.api.API,https://bugs.launchpad.net/nova/+bug/1022470,2012-09-27
+1022469,1022469,Fix Released,create_networks in VlanManager does not return result,https://bugs.launchpad.net/nova/+bug/1022469,2012-09-27
+1022036,1022036,Fix Released,metadata injection is broken in xen,https://bugs.launchpad.net/nova/+bug/1022036,2012-09-27
+1021961,1021961,Fix Released,bandwidht usage data is incompletely updated in database,https://bugs.launchpad.net/nova/+bug/1021961,2012-09-27
+1021836,1021836,Fix Released,rpc import path is incorrect in nova-novncproxy,https://bugs.launchpad.net/nova/+bug/1021836,2012-09-27
+1021370,1021370,Fix Released,Requested Networks UUID-like check prevents some quantum networks,https://bugs.launchpad.net/nova/+bug/1021370,2012-09-27
+1018586,1018586,Fix Released,cleanup_file_locks does not remove stale sentinel files,https://bugs.launchpad.net/nova/+bug/1018586,2012-09-27
+1017765,1017765,Fix Released,jsonutils.py is incompatible with anyjson from 3.3.2 onwards,https://bugs.launchpad.net/nova/+bug/1017765,2012-09-27
+1016650,1016650,Fix Released,Resize image is not supported for XCP brand,https://bugs.launchpad.net/nova/+bug/1016650,2012-09-27
+1012667,1012667,Fix Released,Create Server with min count greater than max count  is not raising BadRequest,https://bugs.launchpad.net/nova/+bug/1012667,2012-09-27
+1011640,1011640,Fix Released,network configuration is not restored after host reboot,https://bugs.launchpad.net/nova/+bug/1011640,2012-09-27
+1011159,1011159,Fix Released,[Nova-volume][tgtd] targets are not persistent,https://bugs.launchpad.net/cinder/+bug/1011159,2012-09-27
+1011159,1011159,Fix Released,[Nova-volume][tgtd] targets are not persistent,https://bugs.launchpad.net/nova/+bug/1011159,2012-09-27
+971609,971609,Fix Released,Error allocating addresses when quota is exceeded,https://bugs.launchpad.net/nova/+bug/971609,2012-09-27
+941951,941951,Fix Released,SQLAlchemy (Migrate): useexisting is deprecated.,https://bugs.launchpad.net/nova/+bug/941951,2012-09-27
+1022592,1022592,Fix Released,old deleted instances have deleted metadata,https://bugs.launchpad.net/nova/+bug/1022592,2012-09-27
+1019120,1019120,Fix Released,chanage nova to use openstack-common log,https://bugs.launchpad.net/nova/+bug/1019120,2012-09-27
+1003373,1003373,Fix Released,"support to Nova to allow exposing specific CPU models to the guest, including the host CPU native model.",https://bugs.launchpad.net/nova/+bug/1003373,2012-09-27
+989799,989799,Fix Released,create instance min/max count defaulting logic is reversed in EC2 and native OS APIs,https://bugs.launchpad.net/nova/+bug/989799,2012-09-27
+977978,977978,Fix Released,Ensure all relevant log messages in nova/compute/manager.py pass instance information,https://bugs.launchpad.net/nova/+bug/977978,2012-09-27
+964055,964055,Fix Released,Remove nova-manage user list and project list as they are confusing in a Keystone world,https://bugs.launchpad.net/nova/+bug/964055,2012-09-27
+1031846,1031846,Fix Released,unicode in an instance name breaks filtering by name,https://bugs.launchpad.net/nova/+bug/1031846,2012-09-27
+1031737,1031737,Fix Released,TooManyInstances msg is misleading if ram or cores over-quota,https://bugs.launchpad.net/nova/+bug/1031737,2012-09-27
+1029674,1029674,Fix Released,Enable libvirt base file cleanup by default,https://bugs.launchpad.net/nova/+bug/1029674,2012-09-27
+1027281,1027281,Fix Released,In the nova-volume api a GET to /types returns extra db fields for json response,https://bugs.launchpad.net/cinder/+bug/1027281,2012-09-27
+1027281,1027281,Fix Released,In the nova-volume api a GET to /types returns extra db fields for json response,https://bugs.launchpad.net/nova/+bug/1027281,2012-09-27
+1026898,1026898,Fix Released,describe image attribute does not support attributes for kernel/ramdisk,https://bugs.launchpad.net/nova/+bug/1026898,2012-09-27
+1026600,1026600,Fix Released,Volume creation 201 API response does not include a Location header,https://bugs.launchpad.net/nova/+bug/1026600,2012-09-27
+1026167,1026167,Fix Released,floating IPs extension should not catch NoMoreFloatingIps and re-raise as EntityTooLarge,https://bugs.launchpad.net/nova/+bug/1026167,2012-09-27
+1024516,1024516,Fix Released,Warning during unittesting - RuntimeWarning: Parent module 'nova_manage' not found,https://bugs.launchpad.net/nova/+bug/1024516,2012-09-27
+1024354,1024354,Fix Released,"EC2 DescribeImages always reports a rootDeviceType of instance-store, even for EBS-backed AMI",https://bugs.launchpad.net/nova/+bug/1024354,2012-09-27
+1022611,1022611,Fix Released,compute API's KeyPairExists errors cause KeyError to be logged,https://bugs.launchpad.net/nova/+bug/1022611,2012-09-27
+1022237,1022237,Fix Released,[nova-manage][floating-ips] There is no way to delete floating ips pool.,https://bugs.launchpad.net/nova/+bug/1022237,2012-09-27
+1021748,1021748,Fix Released,"Security Group Create and adding rule to it,  is not raising proper error code for overlimit",https://bugs.launchpad.net/nova/+bug/1021748,2012-09-27
+1021430,1021430,Fix Released,Instance image metadata is always blank in usage notification when instance has been deleted,https://bugs.launchpad.net/nova/+bug/1021430,2012-09-27
+1021417,1021417,Fix Released,computer manager should log driver class in NotImplemented error,https://bugs.launchpad.net/nova/+bug/1021417,2012-09-27
+1021392,1021392,Fix Released,run_tests.sh with venv fails if *.pyc exists in the current directory,https://bugs.launchpad.net/nova/+bug/1021392,2012-09-27
+1021222,1021222,Fix Released,[nova-manage][floating] Deletion process should continue when failing due to ip not found.,https://bugs.launchpad.net/nova/+bug/1021222,2012-09-27
+1020792,1020792,Fix Released,pep8 HACKING checks should exclude openstack-common files,https://bugs.launchpad.net/nova/+bug/1020792,2012-09-27
+1020634,1020634,Fix Released,"[nova][volumes] Exceeding volumes quotas logs ""VolumeSizeTooLarge"" instead of ""VolumeLimitExceeded""",https://bugs.launchpad.net/nova/+bug/1020634,2012-09-27
+1019335,1019335,Fix Released,IP Addresses in usage audits missing the network label,https://bugs.launchpad.net/nova/+bug/1019335,2012-09-27
+1017682,1017682,Fix Released,Should not use an IPNetwork when assigning floating IPs,https://bugs.launchpad.net/nova/+bug/1017682,2012-09-27
+1014798,1014798,Fix Released,ipv6 api makes undefined reference to IMPL,https://bugs.launchpad.net/nova/+bug/1014798,2012-09-27
+996716,996716,Fix Released,Don't drop exist notification if network call fails,https://bugs.launchpad.net/nova/+bug/996716,2012-09-27
+988488,988488,Fix Released,Foreign keys in instance tables not using UUID,https://bugs.launchpad.net/nova/+bug/988488,2012-09-27
+986200,986200,Fix Released,"nova diagnostics doesn't work with  libvirt/qemu,kvm",https://bugs.launchpad.net/nova/+bug/986200,2012-09-27
+925731,925731,Fix Released,GET on key pairs gives 500,https://bugs.launchpad.net/nova/+bug/925731,2012-09-27
+828588,828588,Fix Released,All of nova/cloudpipe/pipelib.py lacks unit tests,https://bugs.launchpad.net/nova/+bug/828588,2012-09-27
+1036287,1036287,Fix Released,failure to create instance type extra specs when using Postgres,https://bugs.launchpad.net/nova/+bug/1036287,2012-09-27
+1036084,1036084,Fix Released,bw_usage_update makes an unnecessary query,https://bugs.launchpad.net/nova/+bug/1036084,2012-09-27
+1035375,1035375,Fix Released,"InstanceNotFound, VolumeNotFound, and SnapshotNotFound not raised correctly",https://bugs.launchpad.net/nova/+bug/1035375,2012-09-27
+1035315,1035315,Fix Released,Calling hypervisor uptime causes RPC timeout exceptions,https://bugs.launchpad.net/nova/+bug/1035315,2012-09-27
+1035159,1035159,Fix Released,make faultwrapper support exceptions with code = None,https://bugs.launchpad.net/nova/+bug/1035159,2012-09-27
+1035055,1035055,Fix Released,user_data is silently truncated,https://bugs.launchpad.net/nova/+bug/1035055,2012-09-27
+1034595,1034595,Fix Released,compute_api.resize() sends stale model to compute,https://bugs.launchpad.net/nova/+bug/1034595,2012-09-27
+1019357,1019357,Fix Released,Retrieve instance system_metadata for deleted instance,https://bugs.launchpad.net/nova/+bug/1019357,2012-09-27
+1019020,1019020,Fix Released,misreport on unknown instance status,https://bugs.launchpad.net/nova/+bug/1019020,2012-09-27
+1018216,1018216,Fix Released,imageOwnerId in EC2 DescribeImages response is always None,https://bugs.launchpad.net/nova/+bug/1018216,2012-09-27
+1018166,1018166,Fix Released,vm_vdi_cleaner.py does not accept --config-file argument,https://bugs.launchpad.net/nova/+bug/1018166,2012-09-27
+1017759,1017759,Fix Released,Metadata server doesn't allow access to '/' without source IP addr checking.,https://bugs.launchpad.net/nova/+bug/1017759,2012-09-27

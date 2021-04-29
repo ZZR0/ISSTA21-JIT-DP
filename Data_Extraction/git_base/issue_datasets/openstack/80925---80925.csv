@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1258166,1258166,Fix Released,N310 check recommends function that doesn't exist,https://bugs.launchpad.net/nova/+bug/1258166,2014-04-17
+1258048,1258048,Fix Released,Wrong monkey_patch docstring  in nova/utils.py,https://bugs.launchpad.net/nova/+bug/1258048,2014-04-17
+1255536,1255536,Fix Released,Havana-ephemeral-rbd not working for non-admin ceph user,https://bugs.launchpad.net/nova/+bug/1255536,2014-04-17
+1252659,1252659,Fix Released,Empty JSON caused: Error during ComputeManager._run_image_cache_manager_pass: No JSON object could be decoded,https://bugs.launchpad.net/nova/+bug/1252659,2014-04-17
+1247174,1247174,Fix Released,Recover from deleting state on compute manager start-up,https://bugs.launchpad.net/nova/+bug/1247174,2014-04-17
+1245683,1245683,Fix Released,interface-attach: raises 500 error if invalid network,https://bugs.launchpad.net/nova/+bug/1245683,2014-04-17
+1242815,1242815,Fix Released,docker virt driver does not stop containers if spawn fails to setup network,https://bugs.launchpad.net/nova/+bug/1242815,2014-04-17
+1233104,1233104,Fix Released,Instance delete should fail in neutron.delete_port() fails,https://bugs.launchpad.net/nova/+bug/1233104,2014-04-17
+1222656,1222656,Fix Released,Forget to change volume's status when an error occurs in swap volume,https://bugs.launchpad.net/nova/+bug/1222656,2014-04-17
+1279820,1279820,Fix Released,libvirt: some tests taking longer than 2 seconds,https://bugs.launchpad.net/nova/+bug/1279820,2014-04-17
+1262325,1262325,Fix Released,unit tests needed to validate policy exceptions for all available actions,https://bugs.launchpad.net/nova/+bug/1262325,2014-04-17
+1200479,1200479,Fix Released,Aggregate api should limit user to update its availability zone in metadata when its host list isn't empty,https://bugs.launchpad.net/nova/+bug/1200479,2014-04-17
+889299,889299,Fix Released,volume/snapshots takes very long to delete,https://bugs.launchpad.net/nova/+bug/889299,2014-04-17
+1276728,1276728,Fix Released,Cells capacity reports can be wrong when multiple flavors have the same disk/ram size,https://bugs.launchpad.net/nova/+bug/1276728,2014-04-17
+1276398,1276398,Fix Released,nova.tests.api.ec2.test_cloud is missing consoleauth_manager import,https://bugs.launchpad.net/nova/+bug/1276398,2014-04-17
+1274992,1274992,Fix Released,Utils.is_neutron can create race conditions,https://bugs.launchpad.net/nova/+bug/1274992,2014-04-17
+1274718,1274718,Fix Released,_test_postgresql_opportunistically calls get_mysql_connection_info,https://bugs.launchpad.net/nova/+bug/1274718,2014-04-17
+1273496,1273496,Fix Released,libvirt iSCSI driver sets is_block_dev=False,https://bugs.launchpad.net/nova/+bug/1273496,2014-04-17
+1273266,1273266,Fix Released,Error message is malformed when removing a non-existent security group from an instance,https://bugs.launchpad.net/nova/+bug/1273266,2014-04-17
+1266617,1266617,Fix Released,Remove unused code in test_attach_interfaces.py,https://bugs.launchpad.net/nova/+bug/1266617,2014-04-17
+1266538,1266538,Fix Released,Drop dump_... tables in Icehouse (post DB compression),https://bugs.launchpad.net/nova/+bug/1266538,2014-04-17
+1263569,1263569,Fix Released,Remove update_service_capabilities from nova,https://bugs.launchpad.net/nova/+bug/1263569,2014-04-17
+1259462,1259462,Fix Released,image unhandled when delete VM,https://bugs.launchpad.net/nova/+bug/1259462,2014-04-17
+1259213,1259213,Fix Released,out of range flavor parameter should return error,https://bugs.launchpad.net/nova/+bug/1259213,2014-04-17
+1259163,1259163,Fix Released,XenAPI: dd into config drive must use direct IO,https://bugs.launchpad.net/nova/+bug/1259163,2014-04-17
+1258169,1258169,Fix Released,XenAPI: wait_for_vhd_coalesce times out when garbage collector still running,https://bugs.launchpad.net/nova/+bug/1258169,2014-04-17
+1258041,1258041,Fix Released,Unit test can not make sense in tests for availability_zones.reset_cache,https://bugs.launchpad.net/nova/+bug/1258041,2014-04-17
+1252400,1252400,Fix Released,VMware: propSet KeyError: 'summary.accessible',https://bugs.launchpad.net/nova/+bug/1252400,2014-04-17
+1251803,1251803,Fix Released,Disabled Reason column becomes empty after update host is disabled,https://bugs.launchpad.net/nova/+bug/1251803,2014-04-17
+1246276,1246276,Fix Released,xenapi: issues with destroy_vdi masking real errors,https://bugs.launchpad.net/nova/+bug/1246276,2014-04-17
+1237961,1237961,Fix Released,nova services don't diagnose address already in use details,https://bugs.launchpad.net/nova/+bug/1237961,2014-04-17
+1235108,1235108,Fix Released,xenapi: clean up step decorator fake steps,https://bugs.launchpad.net/nova/+bug/1235108,2014-04-17
+1231983,1231983,Fix Released,Forced scheduling should be logged as Audit not Debug,https://bugs.launchpad.net/nova/+bug/1231983,2014-04-17
+1212768,1212768,Fix Released,When claims are rejected indicate specific reason,https://bugs.launchpad.net/nova/+bug/1212768,2014-04-17
+1286936,1286936,Fix Released,v2 API sample for os-assisted-volume snapshot is incorrect,https://bugs.launchpad.net/nova/+bug/1286936,2014-04-17
+1281858,1281858,Fix Released,Cells rebuild regression,https://bugs.launchpad.net/nova/+bug/1281858,2014-04-17
+1280758,1280758,Fix Released,VMware: some unit tests take longer than a second,https://bugs.launchpad.net/nova/+bug/1280758,2014-04-17
+1280379,1280379,Fix Released,VolumeOpsTestCase class is incorrectly inheriting from HyperVAPITestCase,https://bugs.launchpad.net/nova/+bug/1280379,2014-04-17
+1279942,1279942,Fix Released,vm_vdi_cleaner.py fails to launch with NOTIFIER is not None AssertionError,https://bugs.launchpad.net/nova/+bug/1279942,2014-04-17
+1277054,1277054,Fix Released,Poll rescued instances fails with key error,https://bugs.launchpad.net/nova/+bug/1277054,2014-04-17
+1276773,1276773,Fix Released,Image property filter can't handle old vm_modes,https://bugs.launchpad.net/nova/+bug/1276773,2014-04-17
+1276539,1276539,Fix Released,VMware: exception handling throws error - AttributeError: 'NoneType' object has no attribute 'getChildren',https://bugs.launchpad.net/nova/+bug/1276539,2014-04-17
+1274798,1274798,Fix Released,nova-compute stops reporting in grenade,https://bugs.launchpad.net/nova/+bug/1274798,2014-04-17
+1274367,1274367,Fix Released,Nova boot on PowerKVM fails when video type is set to 'cirrus',https://bugs.launchpad.net/nova/+bug/1274367,2014-04-17
+1274088,1274088,Fix Released,XenAPI: iscsi connection may not show VDI during attach,https://bugs.launchpad.net/nova/+bug/1274088,2014-04-17
+1286187,1286187,Fix Released,plugins/xenserver/networking/etc/xensource/scripts/novalib.py uses subprocess incorrectly,https://bugs.launchpad.net/nova/+bug/1286187,2014-04-17
+1285519,1285519,Fix Released,comment typo in nova/compute/api.py,https://bugs.launchpad.net/nova/+bug/1285519,2014-04-17
+1281989,1281989,Fix Released,disk_bus might be ignored when booting from volume,https://bugs.launchpad.net/nova/+bug/1281989,2014-04-17
+1281440,1281440,Fix Released,should handle boolean string parameters through create multiple servers API,https://bugs.launchpad.net/nova/+bug/1281440,2014-04-17
+1280140,1280140,Fix Released,cleanup_running_deleted_instances peroidic task failed with instance not found,https://bugs.launchpad.net/nova/+bug/1280140,2014-04-17
+1279195,1279195,Fix Released,get_spice_console should catch NotImplement exception and handle it,https://bugs.launchpad.net/nova/+bug/1279195,2014-04-17
+1278939,1278939,Fix Released,Insufficient upper bounds checking performed on flavor-create API,https://bugs.launchpad.net/nova/+bug/1278939,2014-04-17
+1278291,1278291,Fix Released,log_handler miss  some log information,https://bugs.launchpad.net/nova/+bug/1278291,2014-04-17
+1278279,1278279,Fix Released,hypervisor and near attributes do not exist in scheduler_hints parameter,https://bugs.launchpad.net/nova/+bug/1278279,2014-04-17
+1278104,1278104,Fix Released,Docker cannot start a new instance because of an internal error,https://bugs.launchpad.net/nova/+bug/1278104,2014-04-17
+1277068,1277068,Fix Released,Multiple db calls in some quota methods,https://bugs.launchpad.net/nova/+bug/1277068,2014-04-17
+1277027,1277027,Fix Released,test_admin_delete_servers_of_others failure due to unexpected task state,https://bugs.launchpad.net/nova/+bug/1277027,2014-04-17
+1276312,1276312,Fix Released,VirtualInterfaceMacAddressException message mention 5 attempts when the value is configurable,https://bugs.launchpad.net/nova/+bug/1276312,2014-04-17
+1276038,1276038,Fix Released,Linux bridge create by the OVS hybrid vif driver sends IGMP query,https://bugs.launchpad.net/nova/+bug/1276038,2014-04-17
+1273139,1273139,Fix Released,HostBinaryNotFound exception isn't caught in service_update,https://bugs.launchpad.net/nova/+bug/1273139,2014-04-17
+1273478,1273478,Fix Released,NetworkInfoAsyncWrapper __str__ can cause deadlock when called from a log message,https://bugs.launchpad.net/nova/+bug/1273478,2014-04-17
+1272518,1272518,Fix Released,"The _test_{compute,console,network,scheduler}_api methods seem broken.",https://bugs.launchpad.net/nova/+bug/1272518,2014-04-17
+1271381,1271381,Fix Released,Incorrect number of security groups in Project Overview,https://bugs.launchpad.net/nova/+bug/1271381,2014-04-17
+1270008,1270008,Fix Released,periodic tasks will be invalid if a qemu process becomes to defunct status,https://bugs.launchpad.net/nova/+bug/1270008,2014-04-17
+1265716,1265716,Fix Released,"Wrong variable names "" addFixedIp"" and ""networkId"" in multinic-add-fixed-ip-req.json",https://bugs.launchpad.net/nova/+bug/1265716,2014-04-17
+1261021,1261021,Fix Released,Nova Docker network in container has wrong network mask,https://bugs.launchpad.net/nova/+bug/1261021,2014-04-17
+1261007,1261007,Fix Released,Nova Docker driver doesn't remove created network namespace,https://bugs.launchpad.net/nova/+bug/1261007,2014-04-17
+1260771,1260771,Fix Released,Fake compute driver cannot deploy image with hypervisor_type attribute,https://bugs.launchpad.net/nova/+bug/1260771,2014-04-17
+1259981,1259981,Fix Released,VMware: factor out the management of unit numbers,https://bugs.launchpad.net/nova/+bug/1259981,2014-04-17
+1257038,1257038,Fix Released,"VMware: instance names can be edited, breaks nova-driver lookup",https://bugs.launchpad.net/nova/+bug/1257038,2014-04-17
+1254017,1254017,Fix Released,API returns unicode Location Header,https://bugs.launchpad.net/nova/+bug/1254017,2014-04-17
+1253626,1253626,Fix Released,Cannot launch whole disk image with xen+libvirt,https://bugs.launchpad.net/nova/+bug/1253626,2014-04-17
+1253599,1253599,Fix Released,Host manager uses a different value for free disk than compute manager,https://bugs.launchpad.net/nova/+bug/1253599,2014-04-17
+1251602,1251602,Fix Released,Some error notifications are missing exception info,https://bugs.launchpad.net/nova/+bug/1251602,2014-04-17
+1250850,1250850,Fix Released,Nova does not need to authenticate with Neutron as admin to get the list of API extensions.,https://bugs.launchpad.net/nova/+bug/1250850,2014-04-17

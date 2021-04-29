@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+986922,986922,Fix Released,Call to network_get_all_by_uuids missing 'db',https://bugs.launchpad.net/nova/+bug/986922,2012-09-27
+985705,985705,Fix Released,Could not find VM by name during delete in xenapi driver,https://bugs.launchpad.net/nova/+bug/985705,2012-09-27
+985263,985263,Fix Released,Blank admin passwords are allowed in set admin password server action,https://bugs.launchpad.net/nova/+bug/985263,2012-09-27
+984219,984219,Fix Released,resize doesn't properly update launched at times,https://bugs.launchpad.net/nova/+bug/984219,2012-09-27
+983024,983024,Fix Released,QuantumManager does not correctly handle multiple nova-network nodes,https://bugs.launchpad.net/nova/+bug/983024,2012-09-27
+978992,978992,Fix Released,remove python-novaclient,https://bugs.launchpad.net/nova/+bug/978992,2012-09-27
+977875,977875,Fix Released,starting dnsmasq should be protected by semaphore,https://bugs.launchpad.net/nova/+bug/977875,2012-09-27
+977759,977759,Fix Released,"[SRU] With QuantumManager,  nova-network does not start dnsmasq during initialization",https://bugs.launchpad.net/nova/+bug/977759,2012-09-27
+977723,977723,Fix Released,Networks extension not found not returned,https://bugs.launchpad.net/nova/+bug/977723,2012-09-27
+977712,977712,Fix Released,Network extension returns integer id but expects uuid,https://bugs.launchpad.net/nova/+bug/977712,2012-09-27
+975335,975335,Fix Released,RBD volumes don't work with unprivileged RADOS users in Essex,https://bugs.launchpad.net/nova/+bug/975335,2012-09-27
+973194,973194,Fix Released,[SRU] Parallel VM creation fails when nova-computes share the disks and each nova-compute node has no cached images.,https://bugs.launchpad.net/nova/+bug/973194,2012-09-27
+973034,973034,Fix Released,quotas shouldn't accept negative numbers other than (-1),https://bugs.launchpad.net/nova/+bug/973034,2012-09-27
+972831,972831,Fix Released,18 nova mysql database tables are not explicitly Innodb,https://bugs.launchpad.net/nova/+bug/972831,2012-09-27
+971939,971939,Fix Released,xenapi poll_unconfirmed_resizes needs better error handling,https://bugs.launchpad.net/nova/+bug/971939,2012-09-27
+971640,971640,Fix Released,[SRU] public key  injection should be configurable,https://bugs.launchpad.net/nova/+bug/971640,2012-09-27
+968019,968019,Fix Released,floating ips associated to instance can not be used when nova-network restart,https://bugs.launchpad.net/nova/+bug/968019,2012-09-27
+967931,967931,Fix Released,[SRU] killfilter should handle updated/deleted executables,https://bugs.launchpad.net/nova/+bug/967931,2012-09-27
+964824,964824,Fix Released,Database tuning required,https://bugs.launchpad.net/nova/+bug/964824,2012-09-27
+962665,962665,Fix Released,Mitigate periodic task scheduler stampedes,https://bugs.launchpad.net/nova/+bug/962665,2012-09-27
+962592,962592,Fix Released,db migration completely fails on sqlalchemy-migrate 0.6,https://bugs.launchpad.net/nova/+bug/962592,2012-09-27
+962117,962117,Fix Released,Nova API accepts invalid metadata while creating snapshot,https://bugs.launchpad.net/nova/+bug/962117,2012-09-27
+961762,961762,Fix Released,Rollback create_disk not catching StorageError,https://bugs.launchpad.net/nova/+bug/961762,2012-09-27
+961588,961588,Fix Released,Fail-fast for invalid read_deleted values,https://bugs.launchpad.net/nova/+bug/961588,2012-09-27
+961524,961524,Fix Released,xenapi cannot unplug VBDs when rescue instance is halted,https://bugs.launchpad.net/nova/+bug/961524,2012-09-27
+960655,960655,Fix Released,vm_utils vbd_unplug_with_retry failing to retry,https://bugs.launchpad.net/nova/+bug/960655,2012-09-27
+956096,956096,Fix Released,Listing flavors with marker set returns 400,https://bugs.launchpad.net/nova/+bug/956096,2012-09-27
+952176,952176,Fix Released,"[SRU] Cannot associate a second network/vlan to a tenant with ""nova-manage network modify""",https://bugs.launchpad.net/nova/+bug/952176,2012-09-27
+940500,940500,Fix Released,List detail of non-existent floating ip fails,https://bugs.launchpad.net/nova/+bug/940500,2012-09-27
+919367,919367,Fix Released,OS API: Servers become stuck in rebuild if flavor does not meet flavor reqs of new image,https://bugs.launchpad.net/nova/+bug/919367,2012-09-27
+754900,754900,Fix Released,[SRU] Nova-manage network delete does not delete from fixed_ips,https://bugs.launchpad.net/nova/+bug/754900,2012-09-27
+1001218,1001218,Fix Released,[folsom-1] volume-usage-audit missing from generated tarballs,https://bugs.launchpad.net/nova/+bug/1001218,2012-09-27
+999043,999043,Fix Released,Unable to retrieve details for instance due to volumes KeyError,https://bugs.launchpad.net/nova/+bug/999043,2012-09-27
+997833,997833,Fix Released,instance_usage_audit fail because using admin context to talk to glance,https://bugs.launchpad.net/nova/+bug/997833,2012-09-27
+997313,997313,Fix Released,resize fails w/ Could not find VM with name instance-00000002,https://bugs.launchpad.net/nova/+bug/997313,2012-09-27
+997245,997245,Fix Released,image_ref updated too early for rebuild,https://bugs.launchpad.net/nova/+bug/997245,2012-09-27
+995328,995328,Fix Released,rpc.register_opts race in service.py causes NoneType exception,https://bugs.launchpad.net/nova/+bug/995328,2012-09-27
+994775,994775,Fix Released,unit tests fail w/ RPC error importutils.import_module(_CONF.rpc_backend),https://bugs.launchpad.net/nova/+bug/994775,2012-09-27
+994663,994663,Fix Released,Remove FK relationship to Instances in Volume table,https://bugs.launchpad.net/nova/+bug/994663,2012-09-27
+989306,989306,Fix Released,xenapi driver can leave VDIs attached to compute domU if shutdown uncleanly,https://bugs.launchpad.net/nova/+bug/989306,2012-09-27
+988034,988034,Fix Released,Quantum Network Manager - not clearing ips,https://bugs.launchpad.net/nova/+bug/988034,2012-09-27
+981316,981316,Fix Released,run_instance thread may block if exception InstanceNotFound raised,https://bugs.launchpad.net/nova/+bug/981316,2012-09-27
+979089,979089,Fix Released,New volume endpoint doesn't support volume type creation/deletion,https://bugs.launchpad.net/nova/+bug/979089,2012-09-27
+974293,974293,Fix Released,Instances directory gets deleted during unit test suite run,https://bugs.launchpad.net/nova/+bug/974293,2012-09-27
+971629,971629,Fix Released,TypeError when starting nova-network,https://bugs.launchpad.net/nova/+bug/971629,2012-09-27
+969545,969545,Fix Released,missing quotas on security group rules,https://bugs.launchpad.net/nova/+bug/969545,2012-09-27
+968843,968843,Fix Released,[SRU] connection leak in rpc connection pool,https://bugs.launchpad.net/nova/+bug/968843,2012-09-27
+964843,964843,Fix Released,libvirt rebuild causes: global name 'xml_info' is not defined,https://bugs.launchpad.net/nova/+bug/964843,2012-09-27
+962840,962840,Fix Released,Setting non blocking libvirt flag causes __str__ error on virConnect,https://bugs.launchpad.net/nova/+bug/962840,2012-09-27
+962615,962615,Fix Released,[SRU] Unable to list volumes after building from snapshot,https://bugs.launchpad.net/nova/+bug/962615,2012-09-27
+960226,960226,Fix Released,Nova API os-hosts extension broken,https://bugs.launchpad.net/nova/+bug/960226,2012-09-27
+1048891,1048891,Fix Released,default value of extension:router:(add/remove)_router_interface should be admin_or_owner,https://bugs.launchpad.net/neutron/+bug/1048891,2012-09-27
+1048622,1048622,Fix Released,lack of DHCP RPC support in NEC plugin,https://bugs.launchpad.net/neutron/+bug/1048622,2012-09-27
+1047569,1047569,Fix Released,test_dhcp_agent uses non-existant assert_called,https://bugs.launchpad.net/neutron/+bug/1047569,2012-09-27
+1047273,1047273,Fix Released,exception due to missing include when using configurtaion option log_config,https://bugs.launchpad.net/neutron/+bug/1047273,2012-09-27
+1046904,1046904,Fix Released,Exception remote RPC Callback causes DHCP agent to terminate,https://bugs.launchpad.net/neutron/+bug/1046904,2012-09-27
+1045601,1045601,Fix Released,improve openvswitch error when flat network already exists,https://bugs.launchpad.net/neutron/+bug/1045601,2012-09-27
+1045598,1045598,Fix Released,openvswitch agent needs additional rootwrap filters,https://bugs.launchpad.net/neutron/+bug/1045598,2012-09-27
+1045592,1045592,Fix Released,openvswitch agent logging verbosity issues,https://bugs.launchpad.net/neutron/+bug/1045592,2012-09-27
+1044565,1044565,Fix Released,openvswitch plugin does not remove inbound unicast flow in br-tun,https://bugs.launchpad.net/neutron/+bug/1044565,2012-09-27
+1044542,1044542,Fix Released,ip_lib netns commands should run in root ns,https://bugs.launchpad.net/neutron/+bug/1044542,2012-09-27
+1044113,1044113,Fix Released,mangle network namespace used for dhcp,https://bugs.launchpad.net/neutron/+bug/1044113,2012-09-27
+1043746,1043746,Fix Released,lack of L3 support of ryu plugin,https://bugs.launchpad.net/neutron/+bug/1043746,2012-09-27
+1043630,1043630,Fix Released,some policy check code for ports should be purged,https://bugs.launchpad.net/neutron/+bug/1043630,2012-09-27
+1040568,1040568,Fix Released,Remove reference to verbose API fetch mechsnism,https://bugs.launchpad.net/neutron/+bug/1040568,2012-09-27
+1040398,1040398,Fix Released,lack of DHCP RPC API support of ryu plugin,https://bugs.launchpad.net/neutron/+bug/1040398,2012-09-27
+1038905,1038905,Fix Released,Response of GET / contains v1.0/1.1 API versions,https://bugs.launchpad.net/neutron/+bug/1038905,2012-09-27
+1038759,1038759,Fix Released,ip_lib netns delete runs in the namespace assigned to wrapper,https://bugs.launchpad.net/neutron/+bug/1038759,2012-09-27
+1038585,1038585,Fix Released,Undefined variables in agent/linux/interface and some plugins,https://bugs.launchpad.net/neutron/+bug/1038585,2012-09-27
+1037881,1037881,Fix Released,Exception messages are not formatted,https://bugs.launchpad.net/neutron/+bug/1037881,2012-09-27
+1037284,1037284,Fix Released,Improve UnitTest for metaplugin,https://bugs.launchpad.net/neutron/+bug/1037284,2012-09-27
+1037245,1037245,Fix Released,linux bridge support for L3 + floating Ips.,https://bugs.launchpad.net/neutron/+bug/1037245,2012-09-27
+1037239,1037239,Fix Released,MetaInterfaceDriver didn't work with namespace support,https://bugs.launchpad.net/neutron/+bug/1037239,2012-09-27
+1037082,1037082,Fix Released,some unused global variable exists in OVS and linuxbridge agent,https://bugs.launchpad.net/neutron/+bug/1037082,2012-09-27
+1036996,1036996,Fix Released,clear _ENGINE is needed in Metaplugin init,https://bugs.launchpad.net/neutron/+bug/1036996,2012-09-27

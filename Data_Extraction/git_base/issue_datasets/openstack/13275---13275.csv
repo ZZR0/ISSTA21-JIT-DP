@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1712255,1712255,Fix Released,Remove argument  enforce_type  for method set_override/set_default,https://bugs.launchpad.net/networking-dpm/+bug/1712255,2018-05-09
+1707151,1707151,Fix Released,Remove method CORS.set_latent,https://bugs.launchpad.net/zun/+bug/1707151,2018-05-09
+1707151,1707151,Fix Committed,Remove method CORS.set_latent,https://bugs.launchpad.net/octavia/+bug/1707151,2018-05-09
+1707151,1707151,Fix Released,Remove method CORS.set_latent,https://bugs.launchpad.net/magnum/+bug/1707151,2018-05-09
+1770021,1770021,Fix Released,hubbot: TQE check jobs have not been kicked by hubbot since 4/25,https://bugs.launchpad.net/tripleo/+bug/1770021,2018-05-09
+1717550,1717550,Fix Released,Repositories have unresolved dependencies in centos 7.4,https://bugs.launchpad.net/tripleo/+bug/1717550,2018-05-09
+1769629,1769629,Fix Released,[cloudkitty][master] cloudkitty config template does not differentiate between cloudkitty_collectors,https://bugs.launchpad.net/openstack-ansible/+bug/1769629,2018-05-09
+1769621,1769621,Fix Released,"[cloudkitty][stable/queens] ""Could not find a version that satisfies the requirement sqlalchemy<1.1.0,>=1.0.10 (from versions: 1.1.12)""",https://bugs.launchpad.net/openstack-ansible/+bug/1769621,2018-05-09
+1769625,1769625,Fix Released,[cloudkitty][master] found a duplicate dict key (cloudkitty_services),https://bugs.launchpad.net/openstack-ansible/+bug/1769625,2018-05-09
+1769624,1769624,Fix Released,[cloudkitty][master] found a duplicate dict key (tags),https://bugs.launchpad.net/openstack-ansible/+bug/1769624,2018-05-09
+1769630,1769630,Fix Released,[cloudkitty][master] No section 'cloudkitty+keystone' found in config /etc/cloudkitty/api_paste.ini,https://bugs.launchpad.net/openstack-ansible/+bug/1769630,2018-05-09
+1768726,1768726,Fix Released,aide cronjob is broken on CentOS 7,https://bugs.launchpad.net/openstack-ansible/+bug/1768726,2018-05-09
+1769499,1769499,Fix Released,oooq-queens-rdo_trunk-bmu-haa16-lab-float_nic_with_vlans failing to report job status to dlrn_api,https://bugs.launchpad.net/tripleo/+bug/1769499,2018-05-09
+1765845,1765845,Fix Released,"ceph job fails intermittently with ""ImageNotFound: [errno 2] error opening image volume-ac0586ce-26c6-4e04-a4d6-78a941a93ad7 at snapshot None""",https://bugs.launchpad.net/cinder/+bug/1765845,2018-05-09
+1768495,1768495,Fix Released,the test_fail_if_incorrect_aggregate_uuid fails consistently on master,https://bugs.launchpad.net/placement-osc-plugin/+bug/1768495,2018-05-08
+1765313,1765313,Fix Released,tripleo-upgrade fails with inventory's output file awk: fatal: cannot open file `/tmp/fake-oc-hosts.yaml',https://bugs.launchpad.net/tripleo/+bug/1765313,2018-05-08
+1752718,1752718,Fix Released,Error: The following files were not found: /usr/share/openstack-tripleo-heat-templates/ci/environments/scenario000-multinode-containers.yaml,https://bugs.launchpad.net/tripleo/+bug/1752718,2018-05-08
+1567317,1567317,Fix Released,wrong link to attached vm from volumes list,https://bugs.launchpad.net/horizon/+bug/1567317,2018-05-08
+1645708,1645708,Fix Released,Can't create Port as Admin on an unshared Network in another project,https://bugs.launchpad.net/horizon/+bug/1645708,2018-05-08
+1703708,1703708,Fix Released,"Horizon image upload with bad Glance CORS config fails with ""[object Object]""",https://bugs.launchpad.net/horizon/+bug/1703708,2018-05-08
+1710396,1710396,Fix Released,tox -e manage -- extract_messages mixes horizon and openstack_dashboard catalogs,https://bugs.launchpad.net/horizon/+bug/1710396,2018-05-08
+1738379,1738379,Fix Released,Install and configure for Ubuntu in horizon,https://bugs.launchpad.net/horizon/+bug/1738379,2018-05-08
+1712025,1712025,Fix Released,ICMP type/code should be optional in Security Group creation form,https://bugs.launchpad.net/horizon/+bug/1712025,2018-05-08
+1717932,1717932,Fix Released,"The way of setting default panel of identity dashboard is not ""pluggable settings""",https://bugs.launchpad.net/horizon/+bug/1717932,2018-05-08
+1702466,1702466,Fix Released,Subnet details page fails when a subnet uses IPv6 with prefix delegation,https://bugs.launchpad.net/horizon/+bug/1702466,2018-05-08
+1650373,1650373,Fix Released,Image list displays incorrect type for instance snapshots,https://bugs.launchpad.net/horizon/+bug/1650373,2018-05-08
+1699724,1699724,Fix Released,Incorrect message displayed during creation of new secgroup rules if quota exceeded,https://bugs.launchpad.net/horizon/+bug/1699724,2018-05-08
+1686315,1686315,Fix Released,"Back button on Firefox 52 hangs with ""Loading...""",https://bugs.launchpad.net/horizon/+bug/1686315,2018-05-08
+1714753,1714753,Fix Released,Some links are broken after doc-migration,https://bugs.launchpad.net/horizon/+bug/1714753,2018-05-08
+1745367,1745367,Fix Released,Tabs in launch server wizard not depending on OPENSTACK_NOVA_EXTENSIONS_BLACKLIST,https://bugs.launchpad.net/horizon/+bug/1745367,2018-05-08
+1741051,1741051,Fix Released,Views accessible via url even if user doesn't match policy rules,https://bugs.launchpad.net/horizon/+bug/1741051,2018-05-08
+1744239,1744239,Fix Released,collectstatic broken in case of template customization,https://bugs.launchpad.net/horizon/+bug/1744239,2018-05-08
+1752360,1752360,Fix Released,Launching instance with volume created from snapshot doesn't honor original image min_disk,https://bugs.launchpad.net/horizon/+bug/1752360,2018-05-08
+1744609,1744609,Fix Released,operation log: user passwords are logged by default setting,https://bugs.launchpad.net/horizon/+bug/1744609,2018-05-08
+1644051,1644051,Fix Released,Unable to remove availability zone from host aggregate,https://bugs.launchpad.net/horizon/+bug/1644051,2018-05-08
+1647677,1647677,Fix Released,angular table doesn't use the setting of Items Per Page,https://bugs.launchpad.net/horizon/+bug/1647677,2018-05-08
+1757112,1757112,Fix Released,wrong variable name in context_processors.py,https://bugs.launchpad.net/horizon/+bug/1757112,2018-05-08
+1747082,1747082,Fix Released,OVS-FIREWALL - can't create Loadbalancer when firewall_driver = openvswitch,https://bugs.launchpad.net/neutron/+bug/1747082,2018-05-08
+1761260,1761260,Fix Released,"DVR: Add a check for the item_allocator IP before trying to release it, since we see a KeyError sometimes, when the item is not there anymore.",https://bugs.launchpad.net/neutron/+bug/1761260,2018-05-08
+1637366,1637366,Fix Released,HostNotCompatibleWithFixedIps exception happens when setting router's gateway.,https://bugs.launchpad.net/neutron/+bug/1637366,2018-05-08
+1763604,1763604,Fix Released,neutron-ovs-cleanup failing when there are too many ports in bridge,https://bugs.launchpad.net/neutron/+bug/1763604,2018-05-08
+1626025,1626025,Fix Released,Nested validation breaks with ResourceGroup and non-defaulted count parameter,https://bugs.launchpad.net/heat/+bug/1626025,2018-05-08
+1751074,1751074,Fix Released,template validate doesn't return schema for nested resources when resource group count is zero,https://bugs.launchpad.net/heat/+bug/1751074,2018-05-08
+1737796,1737796,Fix Released,test test_stack_update_with_conditions fail with new resource not found,https://bugs.launchpad.net/heat/+bug/1737796,2018-05-08
+1731032,1731032,Fix Released,CI: Deployment fails on controller timeout with task creation in heat timing out,https://bugs.launchpad.net/heat/+bug/1731032,2018-05-08
+1731032,1731032,Fix Released,CI: Deployment fails on controller timeout with task creation in heat timing out,https://bugs.launchpad.net/tripleo/+bug/1731032,2018-05-08
+1769286,1769286,Fix Released,"NoVNCConsoleTestJSON.test_novnc intermittently fails with: SecurityProxyNegotiationFailed: Failed to negotiate security type with server: No compute auth available: No matching auth scheme: allowed types: 'AuthType.NONE', desired types: '19'",https://bugs.launchpad.net/devstack/+bug/1769286,2018-05-08
+1769713,1769713,Fix Released,vpp-agent imports incorrect module for using get_random_mac util method,https://bugs.launchpad.net/networking-vpp/+bug/1769713,2018-05-08
+1768585,1768585,Fix Released,Add arm64 support for grafana,https://bugs.launchpad.net/kolla/+bug/1768585,2018-05-07
+1746532,1746532,Fix Released,metadata section not supported in an imported file,https://bugs.launchpad.net/tosca-parser/+bug/1746532,2018-05-07
+1755891,1755891,Fix Released,ci: OVB based jobs are not collecting logs from OC nodes,https://bugs.launchpad.net/tripleo/+bug/1755891,2018-05-07
+1733538,1733538,Fix Released,Release of kubernetes 4.0 pypi package breaks kuryr-tempest-plugin,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1733538,2018-05-07
+1746456,1746456,Fix Released,Kuryr Tempest Plugin gives syntax error on devstack,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1746456,2018-05-07
+1700993,1700993,Fix Released,Concurrency makes list pods test fail,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1700993,2018-05-07
+1614092,1614092,Fix Released,SRIOV - PF / VM that assign to PF  does not get vlan tag,https://bugs.launchpad.net/nova/+bug/1614092,2018-05-07
+1564327,1564327,Fix Committed,Server host name limit,https://bugs.launchpad.net/heat/+bug/1564327,2018-05-07
+1544195,1544195,Fix Released,User can not provision ironic node via nova when providing pre-created port,https://bugs.launchpad.net/nova/+bug/1544195,2018-05-07
+1504266,1504266,Fix Released,Stack overcloud-ComputeNodesPostDeployment-dkq4fgg4lqk5-NovaComputeContainersDeployment-6zpj2rijh3lk already has an action (CREATE) in progress.,https://bugs.launchpad.net/tripleo/+bug/1504266,2018-05-07
+1609020,1609020,Fix Released,Servers get rebuilt during a stack update following new image rollout,https://bugs.launchpad.net/tripleo/+bug/1609020,2018-05-07
+1609020,1609020,Fix Released,Servers get rebuilt during a stack update following new image rollout,https://bugs.launchpad.net/tripleo-common/+bug/1609020,2018-05-07
+1768813,1768813,Fix Committed,config.get_cache_expiration_time() function missing in 1.31.0 release,https://bugs.launchpad.net/os-client-config/+bug/1768813,2018-05-07
+1765338,1765338,Fix Released,Search based on tags provides more record in case of or codition,https://bugs.launchpad.net/glare/+bug/1765338,2018-05-06
+1596119,1596119,Fix Released,Can't delete instance with numa_topology after upgrading from kilo,https://bugs.launchpad.net/nova/+bug/1596119,2018-05-04
+1738451,1738451,Fix Released,openstack_host_kernel_modules missing nf_conntrack_ipv6,https://bugs.launchpad.net/openstack-ansible/+bug/1738451,2018-05-04
+1719344,1719344,Fix Released,defined lxc.pool if lxd_storage_pool is set,https://bugs.launchpad.net/openstack-ansible/+bug/1719344,2018-05-04
+1746935,1746935,Fix Released,"virtualenv is broken on Pike, on its first repo server",https://bugs.launchpad.net/openstack-ansible/+bug/1746935,2018-05-03
+1743717,1743717,Fix Released,Remove Trove's support for Heat,https://bugs.launchpad.net/openstack-ansible/+bug/1743717,2018-05-03
+1763300,1763300,Fix Released,tasks which try to omit a delegation attempt to ssh directly to containers,https://bugs.launchpad.net/openstack-ansible/+bug/1763300,2018-05-03
+1742718,1742718,Fix Released,haproxy healthchecks are filling up logs,https://bugs.launchpad.net/openstack-ansible/+bug/1742718,2018-05-03
+1755253,1755253,Fix Released,Rally role doesn't support RedHat/CentOS 7,https://bugs.launchpad.net/openstack-ansible/+bug/1755253,2018-05-03
+1755929,1755929,Fix Released,Octavia config drop fails on multiple hosts,https://bugs.launchpad.net/openstack-ansible/+bug/1755929,2018-05-03
+1748911,1748911,Fix Released,SELinux contexts missing on /openstack/log/*-nova,https://bugs.launchpad.net/openstack-ansible/+bug/1748911,2018-05-03
+1751681,1751681,Fix Released,change python-libguestfs to python-guestfs for ubuntu,https://bugs.launchpad.net/openstack-ansible/+bug/1751681,2018-05-03
+1749037,1749037,Fix Released,Nova API downtime during Ocata upgrade,https://bugs.launchpad.net/openstack-ansible/+bug/1749037,2018-05-03
+1748968,1748968,Fix Released,Missing SELinux context for neutron's logs,https://bugs.launchpad.net/openstack-ansible/+bug/1748968,2018-05-03

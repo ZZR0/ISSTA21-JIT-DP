@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1657291,1657291,Fix Released,ubuntu libvirt 2.5.0 no longer has libvirtd group,https://bugs.launchpad.net/puppet-ceilometer/+bug/1657291,2017-01-26
+1651020,1651020,Fix Released,Unknown variable: '::barbican::database_pool_size',https://bugs.launchpad.net/puppet-barbican/+bug/1651020,2017-01-26
+1657847,1657847,Fix Released,new aodh-api package includes apache configuration leading to beaker failures on the 2nd run,https://bugs.launchpad.net/puppet-aodh/+bug/1657847,2017-01-26
+1657293,1657293,Fix Released,wsgi file location has changed for UCA packages,https://bugs.launchpad.net/puppet-aodh/+bug/1657293,2017-01-26
+1646290,1646290,Fix Released,arch and configuration docs have several incorrect descripton/ref,https://bugs.launchpad.net/watcher/+bug/1646290,2017-01-26
+1649441,1649441,Fix Released,AttributeError: 'unicode' object has no attribute 'state',https://bugs.launchpad.net/watcher/+bug/1649441,2017-01-26
+1649638,1649638,Fix Released,multinode devstack setup documentation update,https://bugs.launchpad.net/watcher/+bug/1649638,2017-01-26
+1650485,1650485,Fix Released,compute model does not handle correctly service.update notification from nova,https://bugs.launchpad.net/watcher/+bug/1650485,2017-01-26
+1647927,1647927,Fix Released,TypeError if no input_parameters added,https://bugs.launchpad.net/watcher/+bug/1647927,2017-01-26
+1655516,1655516,Fix Released,Should use glanceclient to get image info,https://bugs.launchpad.net/watcher/+bug/1655516,2017-01-26
+1656157,1656157,Fix Released,KeyError when running cmd 'watcher audit create -g server_consolidation -s vm_workload_consolidation',https://bugs.launchpad.net/watcher/+bug/1656157,2017-01-26
+1657031,1657031,Fix Released,Tempest test TestExecuteDummyStrategy.test_execute_dummy_action_plan has FAILED due to unexpected SUPERSEDED state,https://bugs.launchpad.net/watcher/+bug/1657031,2017-01-26
+1658553,1658553,Fix Released,AssertionError when running tox -epy27,https://bugs.launchpad.net/watcher/+bug/1658553,2017-01-26
+1658995,1658995,Fix Released,Can not exclude a compute node from an audit scope,https://bugs.launchpad.net/watcher/+bug/1658995,2017-01-26
+1620539,1620539,Fix Released,Image signature documentation modify barbican auth_endpoint,https://bugs.launchpad.net/glance/+bug/1620539,2017-01-26
+1399851,1399851,Fix Released,Glance should return 206 when fulfilling a request using the Range header,https://bugs.launchpad.net/glance/+bug/1399851,2017-01-26
+1624508,1624508,Fix Released,Glance raises a HTTPBadRequest instead of HTTPRequestRangeNotSatisfiable (400 instead of 416),https://bugs.launchpad.net/glance/+bug/1624508,2017-01-26
+1417069,1417069,Fix Released,Glance does not support HTTP Range requests,https://bugs.launchpad.net/glance/+bug/1417069,2017-01-26
+1650108,1650108,Fix Released,remove v3 controller stub,https://bugs.launchpad.net/glance/+bug/1650108,2017-01-26
+1655326,1655326,Fix Released,dev-docs: file missing 'vhdx' disk_format,https://bugs.launchpad.net/glance/+bug/1655326,2017-01-26
+1452443,1452443,Fix Released,"Schema definition for visibility attribute missing ""shared"" value",https://bugs.launchpad.net/glance/+bug/1452443,2017-01-26
+1394299,1394299,Fix Released,Shared image shows as private,https://bugs.launchpad.net/glance/+bug/1394299,2017-01-26
+1658164,1658164,Fix Released,community images breaks Images v1 API,https://bugs.launchpad.net/glance/+bug/1658164,2017-01-26
+1649412,1649412,Fix Released,user to nonlocal_user should be a 1 to 1 table relationship,https://bugs.launchpad.net/keystone/+bug/1649412,2017-01-26
+1641652,1641652,Fix Released,cache invalidation should be wrapped to local context,https://bugs.launchpad.net/keystone/+bug/1641652,2017-01-26
+1523012,1523012,Fix Released,[api] set `is_admin` on tokens for admin project,https://bugs.launchpad.net/keystone/+bug/1523012,2017-01-26
+1523012,1523012,Fix Released,[api] set `is_admin` on tokens for admin project,https://bugs.launchpad.net/openstack-manuals/+bug/1523012,2017-01-26
+1634568,1634568,Fix Released,[api] Inconsistency between v3 API and keystone token timestamps,https://bugs.launchpad.net/keystone/+bug/1634568,2017-01-26
+1653472,1653472,Fix Released,remove the CONF.domain_id_immutable option,https://bugs.launchpad.net/keystone/+bug/1653472,2017-01-26
+1648542,1648542,Fix Released,keystone does not retry on deadlock Transactions [500 Error] in identity backend,https://bugs.launchpad.net/keystone/+bug/1648542,2017-01-26
+1654613,1654613,Fix Released,OS-EP-FILTER documentation is incorrect,https://bugs.launchpad.net/keystone/+bug/1654613,2017-01-26
+1652458,1652458,Fix Released,Tests unnecessarily use pep8 internals,https://bugs.launchpad.net/keystone/+bug/1652458,2017-01-26
+1652458,1652458,Fix Released,Tests unnecessarily use pep8 internals,https://bugs.launchpad.net/python-keystoneclient/+bug/1652458,2017-01-26
+1654659,1654659,Fix Released,test_sql_upgrade docstring needs update,https://bugs.launchpad.net/keystone/+bug/1654659,2017-01-26
+1636950,1636950,Fix Released,Set network connection timeout on Keystone Identity's LDAP backend to prevent stall on bind,https://bugs.launchpad.net/keystone/+bug/1636950,2017-01-26
+1649138,1649138,Fix Released,Initial LDAP bind occurs inconsistently depending on deployment configuration,https://bugs.launchpad.net/keystone/+bug/1649138,2017-01-26
+1656076,1656076,Fix Released,The keystone server auth plugin methods could mismatch user_id in auth_context,https://bugs.launchpad.net/keystone/+bug/1656076,2017-01-26
+1656026,1656026,Fix Released,Exception don't follow a punctuation convention,https://bugs.launchpad.net/keystone/+bug/1656026,2017-01-26
+1557166,1557166,Fix Released,V2 Endpoint creation with missing region returns 500,https://bugs.launchpad.net/keystone/+bug/1557166,2017-01-26
+1602422,1602422,Fix Released,Many tracebacks building keystone docs,https://bugs.launchpad.net/keystone/+bug/1602422,2017-01-26
+1641645,1641645,Fix Released,PCI: A user who's password has expired must ask an admin to reset their password.,https://bugs.launchpad.net/keystone/+bug/1641645,2017-01-26
+1642687,1642687,Fix Released,Missing domain for federated users,https://bugs.launchpad.net/keystone/+bug/1642687,2017-01-26
+1590901,1590901,Fix Released,cinder-api lost SSL in oslo.service wsgi move for M,https://bugs.launchpad.net/cinder/+bug/1590901,2017-01-26
+1658113,1658113,Fix Released,functions should be indented correctly in bash scripts,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1658113,2017-01-26
+1577686,1577686,Fix Released,"DVS plugin can't be enabled. Error ""Some restrictions didn't pass verification: [u'Empty name of dvSwitch']""",https://bugs.launchpad.net/fuel/+bug/1577686,2017-01-26
+1659104,1659104,Fix Released,Remove access_secret_id from cli,https://bugs.launchpad.net/python-cratonclient/+bug/1659104,2017-01-26
+1648229,1648229,Fix Released,Fix grow cluster caching,https://bugs.launchpad.net/trove-dashboard/+bug/1648229,2017-01-26
+1648235,1648235,Fix Released,Enable pxc grow and shrink,https://bugs.launchpad.net/trove-dashboard/+bug/1648235,2017-01-26
+1655249,1655249,Fix Released,blocktrans in django templates should use 'trimmed' option,https://bugs.launchpad.net/trove-dashboard/+bug/1655249,2017-01-26
+1652423,1652423,Fix Released,project and user not support in action parse,https://bugs.launchpad.net/senlin/+bug/1652423,2017-01-26
+1653850,1653850,Fix Released,coverage test can't run,https://bugs.launchpad.net/senlin/+bug/1653850,2017-01-26
+1655207,1655207,Fix Released,User column restraints does not equal Keystone for user ID,https://bugs.launchpad.net/senlin/+bug/1655207,2017-01-26
+1655511,1655511,Fix Released,health-policy cannot work,https://bugs.launchpad.net/senlin/+bug/1655511,2017-01-26
+1656787,1656787,Fix Released,_add_listener cannot get project,https://bugs.launchpad.net/senlin/+bug/1656787,2017-01-26
+1656986,1656986,Fix Released,NotFoundException when cluster-list with global-project,https://bugs.launchpad.net/senlin/+bug/1656986,2017-01-26
+1658278,1658278,Fix Released,health policy should check if all actions are applicable,https://bugs.launchpad.net/senlin/+bug/1658278,2017-01-26
+1652232,1652232,Fix Released,receiver with action 'CLUSTER_CREATE' cannot be triggered successfully,https://bugs.launchpad.net/senlin/+bug/1652232,2017-01-26
+1655518,1655518,Fix Released,log error when do cluster_check,https://bugs.launchpad.net/senlin/+bug/1655518,2017-01-26
+1640994,1640994,Fix Released,cluster_check doesn't support disable  in health_manager,https://bugs.launchpad.net/senlin/+bug/1640994,2017-01-26
+1659046,1659046,Fix Released,newest code:cluster policy attach fail,https://bugs.launchpad.net/senlin/+bug/1659046,2017-01-26
+1659050,1659050,Fix Released,"when attach health policy, registry_create fail",https://bugs.launchpad.net/senlin/+bug/1659050,2017-01-26
+1500667,1500667,Fix Committed,Changing gateway in fuelmenu changes gateway in bootstrap but not in deployment,https://bugs.launchpad.net/fuel/+bug/1500667,2017-01-26
+1659502,1659502,Fix Released,swarm 10.0: incorrect mirrors,https://bugs.launchpad.net/fuel/+bug/1659502,2017-01-26
+1635966,1635966,Fix Released,"Functional test fails, thus cause error when retrieving order list",https://bugs.launchpad.net/barbican/+bug/1635966,2017-01-26
+1544493,1544493,Fix Released,Removing two clusters problem,https://bugs.launchpad.net/fuel/+bug/1544493,2017-01-26
+1652581,1652581,Fix Released,python-freezerclient domain_project/user_id is missing,https://bugs.launchpad.net/freezer/+bug/1652581,2017-01-26
+1396126,1396126,Fix Released,Deployment doesn't work without an active public gateway,https://bugs.launchpad.net/fuel/+bug/1396126,2017-01-26
+1459868,1459868,Fix Released,Fix libvirt watchdog support,https://bugs.launchpad.net/openstack-manuals/+bug/1459868,2017-01-26
+1428326,1428326,Fix Released,VMware: Accept image and block device mappings,https://bugs.launchpad.net/openstack-manuals/+bug/1428326,2017-01-26
+1595206,1595206,Fix Committed,[vCenter] Can't create snapshot (>2GB) with vSphere 6,https://bugs.launchpad.net/fuel/+bug/1595206,2017-01-26
+1600714,1600714,Fix Released,"Do not write except:, use except Exception: at the very least. When catching an exception you should be as specific so you don’t mistakenly catch unexpected exceptions.",https://bugs.launchpad.net/python-barbicanclient/+bug/1600714,2017-01-26
+1596851,1596851,Fix Released,Brbican client Malformed orders lead to an exception,https://bugs.launchpad.net/python-barbicanclient/+bug/1596851,2017-01-26
+1531403,1531403,Fix Released,container list fails when  a container contains secret without a name,https://bugs.launchpad.net/python-barbicanclient/+bug/1531403,2017-01-26
+1649644,1649644,Fix Released,Vanilla cluster on centos7 hangs in Waiting state in case of indirect access,https://bugs.launchpad.net/sahara/+bug/1649644,2017-01-26
+1584680,1584680,Fix Released,Unique resource name check misses the tenant filter,https://bugs.launchpad.net/sahara/+bug/1584680,2017-01-26

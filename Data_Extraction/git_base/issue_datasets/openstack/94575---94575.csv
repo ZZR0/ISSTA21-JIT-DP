@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1015685,1015685,Fix Released,Consistent logger instantiation,https://bugs.launchpad.net/glance/+bug/1015685,2012-09-27
+1015613,1015613,Fix Released,Test output polluted with debug logging,https://bugs.launchpad.net/glance/+bug/1015613,2012-09-27
+1015210,1015210,Fix Released,missing import in glance/image_cache/drivers/xattr.py,https://bugs.launchpad.net/glance/+bug/1015210,2012-09-27
+1015181,1015181,Fix Released,functional tests fail due to leftover pyc files,https://bugs.launchpad.net/glance/+bug/1015181,2012-09-27
+1014788,1014788,Fix Released,empty doc string in glance/image_cache/drivers/xattr.py,https://bugs.launchpad.net/glance/+bug/1014788,2012-09-27
+1012746,1012746,Fix Released,help message for glance --debug needs updating,https://bugs.launchpad.net/glance/+bug/1012746,2012-09-27
+1010681,1010681,Fix Released,webob exception incorrectly used in v1 images.py,https://bugs.launchpad.net/glance/+bug/1010681,2012-09-27
+1010191,1010191,Fix Released,fake request needs a cleaner implementation,https://bugs.launchpad.net/glance/+bug/1010191,2012-09-27
+1020388,1020388,Fix Released,Simple DB driver reports properties as dict,https://bugs.launchpad.net/glance/+bug/1020388,2012-09-27
+1019463,1019463,Fix Released,Reorder imports by full module path,https://bugs.launchpad.net/glance/+bug/1019463,2012-09-27
+1018638,1018638,Fix Released,notifier_strategy should not be restricted to a specific set of drivers,https://bugs.launchpad.net/glance/+bug/1018638,2012-09-27
+1018467,1018467,Fix Released,python glanceclient should use underscores instead of dashes,https://bugs.launchpad.net/glance/+bug/1018467,2012-09-27
+1015270,1015270,Fix Released,typo in common/config.py overwrites real exception,https://bugs.launchpad.net/glance/+bug/1015270,2012-09-27
+1013235,1013235,Fix Released,Log level info (verbose) shouldn't log SQL queries,https://bugs.launchpad.net/glance/+bug/1013235,2012-09-27
+1012752,1012752,Fix Released,glance-cache.conf needs metadata encryption key,https://bugs.launchpad.net/glance/+bug/1012752,2012-09-27
+1010140,1010140,Fix Released,"In multiple places, BadStoreUri exceptions are incorrectly passing parameters",https://bugs.launchpad.net/glance/+bug/1010140,2012-09-27
+1010070,1010070,Fix Released,PEP8 test fails,https://bugs.launchpad.net/glance/+bug/1010070,2012-09-27
+1009122,1009122,Fix Released,Creating a GlanceException with a specified msg containing kwargs does not work.,https://bugs.launchpad.net/glance/+bug/1009122,2012-09-27
+1008698,1008698,Fix Released,default known_stores to list of all glance stores,https://bugs.launchpad.net/glance/+bug/1008698,2012-09-27
+1002791,1002791,Fix Released,glance should use python-swiftclient,https://bugs.launchpad.net/glance/+bug/1002791,2012-09-27
+1018830,1018830,Fix Released,Missing tests/unit/common/test_exception.py in tarballs,https://bugs.launchpad.net/glance/+bug/1018830,2012-09-27
+1018246,1018246,Fix Released,image.upload notification doesn't report size,https://bugs.launchpad.net/glance/+bug/1018246,2012-09-27
+1016762,1016762,Fix Released,NameError on failure to find custom properties,https://bugs.launchpad.net/glance/+bug/1016762,2012-09-27
+1012823,1012823,Fix Released,default db_auto_create to False,https://bugs.launchpad.net/glance/+bug/1012823,2012-09-27
+1010560,1010560,Fix Released,response.environ is None; instance fails to spawn,https://bugs.launchpad.net/glance/+bug/1010560,2012-09-27
+994609,994609,Fix Released,wsgi.Server() starts but is broken on osx (test_multiprocessing never ends),https://bugs.launchpad.net/glance/+bug/994609,2012-09-27
+1012268,1012268,Fix Released,exception.BadStoreUri exposes sensitive information to end users,https://bugs.launchpad.net/glance/+bug/1012268,2012-09-27
+1010519,1010519,Fix Released,role case sensitivity,https://bugs.launchpad.net/glance/+bug/1010519,2012-09-27
+1007093,1007093,Fix Released,glance add uploads a double image if using ssl and images is smaller the 4k,https://bugs.launchpad.net/glance/+bug/1007093,2012-09-27
+1020380,1020380,Fix Released,v1 image member add broken (IndexError),https://bugs.launchpad.net/glance/+bug/1020380,2012-09-27
+1019401,1019401,Fix Released,"v2 schemas controller missing ""images"" schema",https://bugs.launchpad.net/glance/+bug/1019401,2012-09-27
+1010284,1010284,Fix Released,glance-manage db_sync fails (missing migrate.cfg),https://bugs.launchpad.net/glance/+bug/1010284,2012-09-27
+1000636,1000636,Fix Released,Backslash continuation removal,https://bugs.launchpad.net/glance/+bug/1000636,2012-09-27
+997565,997565,Fix Released,glance add command - incorrect help text,https://bugs.launchpad.net/glance/+bug/997565,2012-09-27
+908180,908180,Fix Released,Test migrations on PostgreSQL,https://bugs.launchpad.net/glance/+bug/908180,2012-09-27
+1000931,1000931,Fix Released,test_interrupt_avoids_respawn_storm leaves behind glance-api processes,https://bugs.launchpad.net/glance/+bug/1000931,2012-09-27
+1000828,1000828,Fix Released,test_invalid_auth_url shouldn't hit arbitrary web server,https://bugs.launchpad.net/glance/+bug/1000828,2012-09-27
+996157,996157,Fix Released,backend storage error not logged properly,https://bugs.launchpad.net/glance/+bug/996157,2012-09-27
+995224,995224,Fix Released,DELETE /v2/images/<image_id> should return 204 No Content,https://bugs.launchpad.net/glance/+bug/995224,2012-09-27
+987968,987968,Fix Released,Glance shouldn't be maintaining openstack-common code itself,https://bugs.launchpad.net/glance/+bug/987968,2012-09-27
+985671,985671,Fix Released,glance tests fail because of OS_AUTH_URL,https://bugs.launchpad.net/glance/+bug/985671,2012-09-27
+983829,983829,Fix Released,[sru] notify_kombu incorrect message format for logging,https://bugs.launchpad.net/glance/+bug/983829,2012-09-27
+980892,980892,Fix Released,Transition from using tenant name to id,https://bugs.launchpad.net/glance/+bug/980892,2012-09-27
+978907,978907,Fix Released,[SRU] capture-output fails in glance-control,https://bugs.launchpad.net/glance/+bug/978907,2012-09-27
+978610,978610,Fix Released,/usr/bin/glance's built-in pager breaks redirection,https://bugs.launchpad.net/glance/+bug/978610,2012-09-27
+978119,978119,Fix Released,cachemanagement middleware requires keystone -- remove paste section cachemanagement,https://bugs.launchpad.net/glance/+bug/978119,2012-09-27
+973626,973626,Fix Released,glance unit tests fail if sqlite3 isn't installed,https://bugs.launchpad.net/glance/+bug/973626,2012-09-27
+972014,972014,Fix Released,Duplication between container_format and disk_format,https://bugs.launchpad.net/glance/+bug/972014,2012-09-27
+1000304,1000304,Fix Released,Table creation race between glance-api and registry services,https://bugs.launchpad.net/glance/+bug/1000304,2012-09-27
+995323,995323,Fix Released,glance-api-caching pipeline should use unauthenticated-context,https://bugs.launchpad.net/glance/+bug/995323,2012-09-27
+994296,994296,Fix Released,Glance can't deploy an image from Swift if the Swift account name contains an '@',https://bugs.launchpad.net/glance/+bug/994296,2012-09-27
+992859,992859,Fix Released,Extract noauth context from ContextMiddleware,https://bugs.launchpad.net/glance/+bug/992859,2012-09-27
+979745,979745,Fix Released,"with keystone auth, image objects left behind in swift post-deletion",https://bugs.launchpad.net/glance/+bug/979745,2012-09-27
+976908,976908,Fix Released,DB Migration 12 fails when image has no members/properties,https://bugs.launchpad.net/glance/+bug/976908,2012-09-27
+975655,975655,Fix Released,Migration 012_id_to_uuid attempts to convert IDs twice for non-sqlite databases,https://bugs.launchpad.net/glance/+bug/975655,2012-09-27
+706449,706449,Fix Released,Add localization to Glance,https://bugs.launchpad.net/glance/+bug/706449,2012-09-27
+1003504,1003504,Fix Released,glance-api now requires sql_ configs in conf file,https://bugs.launchpad.net/glance/+bug/1003504,2012-09-27
+1002907,1002907,Fix Released,Add timeout option for glance client,https://bugs.launchpad.net/glance/+bug/1002907,2012-09-27
+1001213,1001213,Fix Released,[folsom-1] Missing files in generated tarballs,https://bugs.launchpad.net/glance/+bug/1001213,2012-09-27
+992600,992600,Fix Released,glance client doc root initialized to /v1/v1,https://bugs.launchpad.net/glance/+bug/992600,2012-09-27
+992319,992319,Fix Released,Patch to openstack.common.cfg should be removed,https://bugs.launchpad.net/glance/+bug/992319,2012-09-27
+981332,981332,Fix Released,Content-Length and Transfer-Encoding are mutually exclusive HTTP headers,https://bugs.launchpad.net/glance/+bug/981332,2012-09-27
+980872,980872,Fix Released,[sru] 'unhashable type' when sending notifications via  Qpid,https://bugs.launchpad.net/glance/+bug/980872,2012-09-27
+980196,980196,Fix Released,Glance and Keystone+Swift is not working,https://bugs.launchpad.net/glance/+bug/980196,2012-09-27
+978130,978130,Fix Released,multiprocess glance-api failed to exit when stopped by ctrl+c,https://bugs.launchpad.net/glance/+bug/978130,2012-09-27
+975651,975651,Fix Released,Image properties that reference image ids are not updated to UUIDs,https://bugs.launchpad.net/glance/+bug/975651,2012-09-27
+1003470,1003470,Fix Released,glance-api fails to start (invalid schema-image.json),https://bugs.launchpad.net/glance/+bug/1003470,2012-09-27
+1003328,1003328,Fix Released,python-glanceclient-tarball broken,https://bugs.launchpad.net/glance/+bug/1003328,2012-09-27
+1003328,1003328,Fix Released,python-glanceclient-tarball broken,https://bugs.launchpad.net/openstack-ci/+bug/1003328,2012-09-27
+992096,992096,Fix Released,Image API tests all error after recent Devstack change,https://bugs.launchpad.net/tempest/+bug/992096,2012-09-27
+992096,992096,Fix Released,Image API tests all error after recent Devstack change,https://bugs.launchpad.net/glance/+bug/992096,2012-09-27
+1057255,1057255,Fix Released,pictures are out of page scope in quantum admin guide,https://bugs.launchpad.net/openstack-manuals/+bug/1057255,2012-09-27
+1012730,1012730,Fix Released,No way to tell when a change needs reapproval,https://bugs.launchpad.net/openstack-ci/+bug/1012730,2012-09-26
+1056884,1056884,Fix Released,OpenStack Quantum Administration Guide: html version and pdf version mismatch,https://bugs.launchpad.net/openstack-manuals/+bug/1056884,2012-09-26
+1056857,1056857,Fix Released,Quantum: quantum.conf file location not specified,https://bugs.launchpad.net/openstack-manuals/+bug/1056857,2012-09-26

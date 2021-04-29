@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1513678,1513678,Fix Released,At scale router scheduling takes a long time with DVR routers with multiple compute nodes hosting thousands of VMs,https://bugs.launchpad.net/neutron/+bug/1513678,2016-10-07
+1505575,1505575,Fix Released,Fatal memory consumption by neutron-server with DVR at scale,https://bugs.launchpad.net/neutron/+bug/1505575,2016-10-07
+1505166,1505166,Fix Released,"Resync OVS, L3, DHCP agents upon revival",https://bugs.launchpad.net/neutron/+bug/1505166,2016-10-07
+1504465,1504465,Fix Released,neutron_lbaas.tests.tempest.v2.api.test_health_monitors_non_admin.TestHealthMonitors failed to clean up loadbalancer,https://bugs.launchpad.net/neutron/+bug/1504465,2016-10-07
+1504166,1504166,Fix Released,Update network with New Qos-Policy isn't working with SR-IOV agent,https://bugs.launchpad.net/neutron/+bug/1504166,2016-10-07
+1503342,1503342,Fix Released,"""neutron-db-manage revision"" complains about multiple heads",https://bugs.launchpad.net/neutron/+bug/1503342,2016-10-07
+1482630,1482630,Fix Released,Router resources lost after rescheduling,https://bugs.launchpad.net/neutron/+bug/1482630,2016-10-07
+1443421,1443421,Fix Released,"After VM migration, tunnels not getting removed with L2Pop ON, when using multiple api_workers in controller",https://bugs.launchpad.net/neutron/+bug/1443421,2016-10-07
+1443421,1443421,Fix Released,"After VM migration, tunnels not getting removed with L2Pop ON, when using multiple api_workers in controller",https://bugs.launchpad.net/openstack-ansible/+bug/1443421,2016-10-07
+1631388,1631388,Fix Released,Sporadic UT failures due to IpAddressAlreadyAllocated exceptions,https://bugs.launchpad.net/networking-cisco/+bug/1631388,2016-10-07
+1550434,1550434,Fix Released,vpnaas alembic migration fails for upgrade liberty,https://bugs.launchpad.net/neutron/+bug/1550434,2016-10-07
+1541879,1541879,Fix Released,Neutron devstack gate fails to install keystone due to fresh testtools,https://bugs.launchpad.net/neutron/+bug/1541879,2016-10-07
+1515035,1515035,Fix Released,configure_for_func_testing.sh specifies wrong arguments to get_packages,https://bugs.launchpad.net/neutron/+bug/1515035,2016-10-07
+1505438,1505438,Fix Released,test_restart_wsgi_on_sighup_multiple_workers failing with Timed out RuntimeError,https://bugs.launchpad.net/neutron/+bug/1505438,2016-10-07
+1503847,1503847,Fix Released,test_migration fails with type error,https://bugs.launchpad.net/neutron/+bug/1503847,2016-10-07
+1497940,1497940,Fix Released,ovs_neutron_agent doesn't start on Windows because validate_local_ip_method uses linux specific implementation,https://bugs.launchpad.net/neutron/+bug/1497940,2016-10-07
+1584661,1584661,Fix Released,bgp-speaker-network-remove Failed: internal server error,https://bugs.launchpad.net/neutron/+bug/1584661,2016-10-07
+1564745,1564745,Fix Released,VPNaaS: connection terminate with error when multiple subnets used,https://bugs.launchpad.net/neutron/+bug/1564745,2016-10-07
+1525895,1525895,Fix Released,ML2 OpenvSwitch Agent GRE/VXLAN tunnel code does not support IPv6 addresses as tunnel endpoints,https://bugs.launchpad.net/neutron/+bug/1525895,2016-10-07
+1616250,1616250,Fix Released,Uncaught SubnetAllocationError leads to dangling networks when using auto-allocate operation,https://bugs.launchpad.net/neutron/+bug/1616250,2016-10-07
+1614872,1614872,Fix Released,delete method on auto-allocate extension returns 500,https://bugs.launchpad.net/neutron/+bug/1614872,2016-10-07
+1614872,1614872,Fix Released,delete method on auto-allocate extension returns 500,https://bugs.launchpad.net/python-neutronclient/+bug/1614872,2016-10-07
+1586207,1586207,Fix Released,[qos] section is missing from neutron.conf,https://bugs.launchpad.net/neutron/+bug/1586207,2016-10-07
+1579769,1579769,Fix Released,neutron agent restart slow when bridge ports are missing,https://bugs.launchpad.net/neutron/+bug/1579769,2016-10-07
+1574881,1574881,Fix Released,use_helper_for_ns_read=False breaks dhcp agent and l3 agent when /var/run/netns doesn't exist,https://bugs.launchpad.net/neutron/+bug/1574881,2016-10-07
+1566569,1566569,Fix Released,OVS functional tests no longer output OVS logs after the change to compile OVS from source,https://bugs.launchpad.net/neutron/+bug/1566569,2016-10-07
+1558101,1558101,Fix Released,Neutron performance degradation when multiple subnets attached to same router,https://bugs.launchpad.net/neutron/+bug/1558101,2016-10-07
+1492228,1492228,Fix Released,SR-IOV port doesn't reach OVS port on same compute node,https://bugs.launchpad.net/neutron/+bug/1492228,2016-10-07
+1602358,1602358,Fix Released,[agent] extensions option not included in sample config files,https://bugs.launchpad.net/neutron/+bug/1602358,2016-10-07
+1591222,1591222,Fix Released,Shared filter is broken for QoS policies since Mitaka,https://bugs.launchpad.net/neutron/+bug/1591222,2016-10-07
+1588067,1588067,Fix Released,Designate DNS driver for neutron fails for SSL based endpoints.,https://bugs.launchpad.net/neutron/+bug/1588067,2016-10-07
+1583763,1583763,Fix Released,neutron.tests.functional.agent.linux.test_ovsdb_monitor.TestSimpleInterfaceMonitor.test_get_events reads output sometimes too early,https://bugs.launchpad.net/neutron/+bug/1583763,2016-10-07
+1582739,1582739,Fix Released,[DVR][L3 HA] Unable to ping 8.8.8.8 from VM without floating ip,https://bugs.launchpad.net/neutron/+bug/1582739,2016-10-07
+1571666,1571666,Fix Released,[Pluggable IPAM] Original exception is replaced on rollback failure,https://bugs.launchpad.net/neutron/+bug/1571666,2016-10-07
+1571544,1571544,Fix Released,"continuous warning in q-svc ""Dictionary resource_versions for agent is invalid""",https://bugs.launchpad.net/neutron/+bug/1571544,2016-10-07
+1571113,1571113,Fix Released,SNAT interface not created for dvrha in some scenarios,https://bugs.launchpad.net/neutron/+bug/1571113,2016-10-07
+1570392,1570392,Fix Released,Interface drivers that don't support mtu= argument for plug_new() are broken,https://bugs.launchpad.net/neutron/+bug/1570392,2016-10-07
+1561243,1561243,Fix Released,Integration bridge parameter leaking into IptablesFirewallDriver,https://bugs.launchpad.net/neutron/+bug/1561243,2016-10-07
+1556884,1556884,Fix Released,floating-ip association is allowed via router interface,https://bugs.launchpad.net/neutron/+bug/1556884,2016-10-07
+1549370,1549370,Fix Released,Existing connections are not dropped with ovs-firewall when rule is removed,https://bugs.launchpad.net/neutron/+bug/1549370,2016-10-07
+1544861,1544861,Fix Released,LBaaS: connection limit does not work with HA Proxy,https://bugs.launchpad.net/neutron/+bug/1544861,2016-10-07
+1544861,1544861,Fix Released,LBaaS: connection limit does not work with HA Proxy,https://bugs.launchpad.net/octavia/+bug/1544861,2016-10-07
+1534625,1534625,Fix Released,[Pluggable IPAM] Ipam driver is not called on update subnet if allocation pools are blank,https://bugs.launchpad.net/neutron/+bug/1534625,2016-10-07
+1522436,1522436,Fix Released,No need to autoreschedule routers if l3 agent is back online,https://bugs.launchpad.net/neutron/+bug/1522436,2016-10-07
+1486607,1486607,Fix Released,tenants seem like they were able to detach admin enforced QoS policies from ports or networks,https://bugs.launchpad.net/neutron/+bug/1486607,2016-10-07
+1593528,1593528,Fix Released,Many FWaaS tempest jobs fail with AttributeError,https://bugs.launchpad.net/neutron/+bug/1593528,2016-10-07
+1577584,1577584,Fix Released,mitaka now requires firewall driver in neutron server conf or hybrid agents break,https://bugs.launchpad.net/neutron/+bug/1577584,2016-10-07
+1576757,1576757,Fix Released,SRIOV: ESwitchManager should handle multiple NICs per physical net,https://bugs.launchpad.net/neutron/+bug/1576757,2016-10-07
+1567497,1567497,Fix Released,resource_versions in agents state reports led to performance degradation,https://bugs.launchpad.net/neutron/+bug/1567497,2016-10-07
+1563883,1563883,Fix Released,test_net_ip_availability_after_subnet_and_ports failed in _assert_total_and_used_ips,https://bugs.launchpad.net/neutron/+bug/1563883,2016-10-07
+1563720,1563720,Fix Released,Bandwidth limiting for linuxbridge agent works for ingress traffic instead of egress,https://bugs.launchpad.net/neutron/+bug/1563720,2016-10-07
+1445255,1445255,Fix Released,DVR FloatingIP to unbound allowed_address_pairs does not work,https://bugs.launchpad.net/neutron/+bug/1445255,2016-10-07
+1590298,1590298,Fix Released,DB retry wrapper needs to look for savepoint errors,https://bugs.launchpad.net/neutron/+bug/1590298,2016-10-07
+1590116,1590116,Fix Released,test_list_pagination_page_reverse_with_href_links failure in gate,https://bugs.launchpad.net/neutron/+bug/1590116,2016-10-07
+1590041,1590041,Fix Released,DVR: regression with router rescheduling,https://bugs.launchpad.net/neutron/+bug/1590041,2016-10-07
+1588393,1588393,Fix Released,Switching OpenFlow interface to 'native' causes network loop,https://bugs.launchpad.net/neutron/+bug/1588393,2016-10-07
+1585738,1585738,Fix Released,ML2 doesn't return fixed_ips on a port update with binding,https://bugs.launchpad.net/neutron/+bug/1585738,2016-10-07
+1585623,1585623,Fix Released,A vm's port is in down state after compute node reboot,https://bugs.launchpad.net/neutron/+bug/1585623,2016-10-07
+1584920,1584920,Fix Released,ExternalGatewayForFloatingIPNotFound exception raised in gate-tempest-dsvm-neutron-full,https://bugs.launchpad.net/neutron/+bug/1584920,2016-10-07
+1572474,1572474,Fix Released,[Pluggable IPAM] Deadlock on simultaneous update subnet and ip allocation from subnet,https://bugs.launchpad.net/neutron/+bug/1572474,2016-10-07
+1569918,1569918,Fix Released,Allowed_address_pair fixed_ip configured with FloatingIP after getting associated with a VM port does not work with DVR routers,https://bugs.launchpad.net/neutron/+bug/1569918,2016-10-07
+1567502,1567502,Fix Released,[ml2]/physical_network_mtus impoperly handled,https://bugs.launchpad.net/neutron/+bug/1567502,2016-10-07
+1558626,1558626,Fix Released,[sriov] physical_device_mappings allows only one physnet for per nic,https://bugs.launchpad.net/neutron/+bug/1558626,2016-10-07
+1560724,1560724,Fix Released,Deadlock errors when updating agents table,https://bugs.launchpad.net/neutron/+bug/1560724,2016-10-07
+1560464,1560464,Fix Released,ovsdb monitor doesn't return ofport,https://bugs.launchpad.net/neutron/+bug/1560464,2016-10-07
+1593653,1593653,Fix Released,DVR: cannot manually remove router from l3 agent,https://bugs.launchpad.net/neutron/+bug/1593653,2016-10-07
+1597561,1597561,Fix Released,L3 agent allows multiple gateway ports in fip namespace,https://bugs.launchpad.net/neutron/+bug/1597561,2016-10-07
+1596585,1596585,Fix Released,test_db_find_column_type_list is failing depending on ovsdb result order,https://bugs.launchpad.net/neutron/+bug/1596585,2016-10-07
+1595878,1595878,Fix Released,Memory leak in unit tests,https://bugs.launchpad.net/neutron/+bug/1595878,2016-10-07
+1599089,1599089,Fix Released,DVR: floating ip stops working after reassignment,https://bugs.launchpad.net/neutron/+bug/1599089,2016-10-07
+1605090,1605090,Fix Released,AssertionError: 0 == 0 : No IPv4 addresses found on gate-tempest-dsvm-neutron-linuxbridge,https://bugs.launchpad.net/neutron/+bug/1605090,2016-10-07
+1557516,1557516,Fix Released,pecan: nova notifier breaks on errors,https://bugs.launchpad.net/neutron/+bug/1557516,2016-10-07
+1544508,1544508,Fix Released,neutron-meter-agent - makes traffic between internal networks NATed,https://bugs.launchpad.net/neutron/+bug/1544508,2016-10-07
+1543094,1543094,Fix Released,[Pluggable IPAM] DB exceeded retry limit (RetryRequest) on create_router call,https://bugs.launchpad.net/neutron/+bug/1543094,2016-10-07
+1535707,1535707,Fix Released,Create router with external network attached doesn't notify l3 agent,https://bugs.launchpad.net/horizon/+bug/1535707,2016-10-07

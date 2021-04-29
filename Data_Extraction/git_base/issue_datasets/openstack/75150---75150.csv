@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1372287,1372287,Fix Released,Spelling error in keystone/common/utils.py,https://bugs.launchpad.net/keystone/+bug/1372287,2014-10-16
+1371499,1371499,Fix Released,Spelling errors in comments in test_backend_ldap.py,https://bugs.launchpad.net/keystone/+bug/1371499,2014-10-16
+1371428,1371428,Fix Released,Keystone unit tests trying to use git clone,https://bugs.launchpad.net/keystone/+bug/1371428,2014-10-16
+1366944,1366944,Fix Released,Man pages out of date,https://bugs.launchpad.net/keystone/+bug/1366944,2014-10-16
+1366649,1366649,Fix Released,Typo in keystone/common/base64utils.py,https://bugs.launchpad.net/keystone/+bug/1366649,2014-10-16
+1366606,1366606,Fix Released,oauth1 downgrade fail with sqlite,https://bugs.launchpad.net/keystone/+bug/1366606,2014-10-16
+1366211,1366211,Fix Released,"Using LDAP assignments, delete group doesn't remove assignments",https://bugs.launchpad.net/keystone/+bug/1366211,2014-10-16
+1364618,1364618,Fix Released,KvsInheritanceTests does not use backend KVS,https://bugs.launchpad.net/keystone/+bug/1364618,2014-10-16
+1363932,1363932,Fix Released,Internal error Enabling Federation Extension,https://bugs.launchpad.net/keystone/+bug/1363932,2014-10-16
+1363709,1363709,Fix Released,keystone-all logging config twice,https://bugs.launchpad.net/keystone/+bug/1363709,2014-10-16
+1362007,1362007,Fix Released,Empty supported backend list in Keystone architecture documentation,https://bugs.launchpad.net/keystone/+bug/1362007,2014-10-16
+1346211,1346211,Fix Released,keystone under apache can't handle request chunking,https://bugs.launchpad.net/keystone/+bug/1346211,2014-10-16
+1374033,1374033,Fix Released,wsgi generating wrong entity_id values when issuing saml assertions.,https://bugs.launchpad.net/keystone/+bug/1374033,2014-10-16
+1373167,1373167,Fix Released,Infinite Recursion for __getattr__ in keystone.token.persistence.core.Manager due to dep injection,https://bugs.launchpad.net/keystone/+bug/1373167,2014-10-16
+1372956,1372956,Fix Released,Wrong idp_metadata_path parameter group,https://bugs.launchpad.net/keystone/+bug/1372956,2014-10-16
+1371620,1371620,Fix Released,Setting up database schema with db_sync fails in migration 039 (SQLITE),https://bugs.launchpad.net/keystone/+bug/1371620,2014-10-16
+1371154,1371154,Fix Released,increase default setting of workers to n-cpu,https://bugs.launchpad.net/keystone/+bug/1371154,2014-10-16
+1369664,1369664,Fix Released,Token are not revoked when a role from group is revoked,https://bugs.launchpad.net/keystone/+bug/1369664,2014-10-16
+1369180,1369180,Fix Released,keystone logs for unit tests are too verbose,https://bugs.launchpad.net/keystone/+bug/1369180,2014-10-16
+1368046,1368046,Fix Released,empty username/userid results in unhelpful error,https://bugs.launchpad.net/keystone/+bug/1368046,2014-10-16
+1367952,1367952,Fix Released,Trust execution fails when trustor is in LDAP,https://bugs.launchpad.net/keystone/+bug/1367952,2014-10-16
+1366991,1366991,Fix Released,Keystone local authenticate has unnecessary CADF pending audit record,https://bugs.launchpad.net/keystone/+bug/1366991,2014-10-16
+1366589,1366589,Fix Released,JSON Home support for GET /,https://bugs.launchpad.net/keystone/+bug/1366589,2014-10-16
+1365787,1365787,Fix Released,LDAP group role assignment becomes user assignment,https://bugs.launchpad.net/keystone/+bug/1365787,2014-10-16
+1365678,1365678,Fix Released,Sync with openstack/requirements,https://bugs.launchpad.net/keystone/+bug/1365678,2014-10-16
+1365169,1365169,Fix Released,Endpoint grouping extension does handle deletion callbacks,https://bugs.launchpad.net/keystone/+bug/1365169,2014-10-16
+1363917,1363917,Fix Released,Links in `Configuring Federation` documentation return 404,https://bugs.launchpad.net/keystone/+bug/1363917,2014-10-16
+1363019,1363019,Fix Released,test_versions.py is currently breaking pep8 in master,https://bugs.launchpad.net/keystone/+bug/1363019,2014-10-16
+1380032,1380032,Fix Released,auth fragments deprecated - sample confs doc need updating,https://bugs.launchpad.net/glance/+bug/1380032,2014-10-16
+1355489,1355489,Fix Released,authenticate ldap binary fields fail when converting fields to utf8,https://bugs.launchpad.net/keystone/+bug/1355489,2014-10-16
+1332666,1332666,Fix Released,Poor performance on delete_tokens due to missing indexes,https://bugs.launchpad.net/keystone/+bug/1332666,2014-10-16
+1282355,1282355,Fix Released,ldap/core deleteTree not always supported,https://bugs.launchpad.net/keystone/+bug/1282355,2014-10-16
+1262360,1262360,Fix Released,Unable to delete domain if user from other domain was added,https://bugs.launchpad.net/keystone/+bug/1262360,2014-10-16
+1373961,1373961,Fix Released,Missing version attribute while generating K2K SAML assertion,https://bugs.launchpad.net/keystone/+bug/1373961,2014-10-16
+1343579,1343579,Fix Released,Versionless GET on keystone gives different answer with port 5000 and 35357,https://bugs.launchpad.net/keystone/+bug/1343579,2014-10-16
+1292283,1292283,Fix Released,revocation events: deleting a token revokes all tokens with same expiration,https://bugs.launchpad.net/keystone/+bug/1292283,2014-10-16
+1222675,1222675,Fix Released,LDAP  Identity Driver does not call delete_user or delete_group on the LDAP assignment api,https://bugs.launchpad.net/keystone/+bug/1222675,2014-10-16
+1373113,1373113,Fix Released,Deleting a domain group assignment using a non-domain-aware identity backend (e.g. LDAP) fails,https://bugs.launchpad.net/keystone/+bug/1373113,2014-10-16
+1282893,1282893,Fix Released,Enforce using six.text_type() over unicode(),https://bugs.launchpad.net/glance/+bug/1282893,2014-10-16
+1353511,1353511,Fix Released,Credential backend doesn't use hints model,https://bugs.launchpad.net/keystone/+bug/1353511,2014-10-16
+1040772,1040772,Fix Released,Tweak logging of process id,https://bugs.launchpad.net/nova/+bug/1040772,2014-10-16
+1040772,1040772,Fix Released,Tweak logging of process id,https://bugs.launchpad.net/glance/+bug/1040772,2014-10-16
+1040772,1040772,Fix Released,Tweak logging of process id,https://bugs.launchpad.net/openstack-common/+bug/1040772,2014-10-16
+1348063,1348063,Fix Released,Testing of results of entity lists does not check that the command part of the url is in the 'self' link,https://bugs.launchpad.net/keystone/+bug/1348063,2014-10-16
+1343709,1343709,Fix Released,Cannot Use existing auth plugins with new methods,https://bugs.launchpad.net/keystone/+bug/1343709,2014-10-16
+1370769,1370769,Fix Released,Ensure all metadata definition code uses six.itertypes,https://bugs.launchpad.net/glance/+bug/1370769,2014-10-16
+1337850,1337850,Fix Released,keystone-bin should properly reload configuration and restart services on SIGHUP,https://bugs.launchpad.net/keystone/+bug/1337850,2014-10-16
+1337763,1337763,Fix Released,add internal notification for endpoint,https://bugs.launchpad.net/keystone/+bug/1337763,2014-10-16
+1337029,1337029,Fix Released,Allow LDAP account lock attributes to be used as enable attributes,https://bugs.launchpad.net/keystone/+bug/1337029,2014-10-16
+1367860,1367860,Fix Released,metadef namespace OS::Compute::HostCapabilities description improvement,https://bugs.launchpad.net/glance/+bug/1367860,2014-10-16
+1367548,1367548,Fix Released,metadata definition VMware namespace has incorrect capitalization,https://bugs.launchpad.net/glance/+bug/1367548,2014-10-16
+1332196,1332196,Fix Released,endpoint table is missing reference to region table,https://bugs.launchpad.net/keystone/+bug/1332196,2014-10-16
+1367545,1367545,Fix Released,"metadef OS::Glance::CommonImageProperties missing colon "":",https://bugs.launchpad.net/glance/+bug/1367545,2014-10-16
+1367172,1367172,Fix Released,glance-manage db_load_metadefs should use 'with open as...',https://bugs.launchpad.net/glance/+bug/1367172,2014-10-16
+1363750,1363750,Fix Released,Fix the minor comments made during revue of endpoint policy,https://bugs.launchpad.net/keystone/+bug/1363750,2014-10-16
+1363704,1363704,Fix Released,notification registration log should be debug,https://bugs.launchpad.net/keystone/+bug/1363704,2014-10-16
+1362344,1362344,Fix Released,Tests for Trusts don't actually test the roles provided in the trust reference,https://bugs.launchpad.net/keystone/+bug/1362344,2014-10-16
+1364570,1364570,Fix Released,missing registry api tests for glance tasks,https://bugs.launchpad.net/glance/+bug/1364570,2014-10-16
+1359608,1359608,Fix Released,Abstract driver signatures for update catalog entities are wrong,https://bugs.launchpad.net/keystone/+bug/1359608,2014-10-16
+1361963,1361963,Fix Released,No default control_exchange configuration prompt in glance-api.conf,https://bugs.launchpad.net/glance/+bug/1361963,2014-10-16
+1354765,1354765,Fix Released,Valid V3 tokens reported as invalid,https://bugs.launchpad.net/keystone/+bug/1354765,2014-10-16
+1324395,1324395,Fix Released,Rename Openstack to OpenStack,https://bugs.launchpad.net/glance/+bug/1324395,2014-10-16
+1354417,1354417,Fix Released,new_role_ref() in unit tests adds unused attributes,https://bugs.launchpad.net/keystone/+bug/1354417,2014-10-16
+1352115,1352115,Fix Released,stop spamming cadf event authn messages in log,https://bugs.launchpad.net/keystone/+bug/1352115,2014-10-16
+1230127,1230127,Fix Released,"Use self.assertTrue instead of self.assertEqual(..., True)",https://bugs.launchpad.net/glance/+bug/1230127,2014-10-16
+1351016,1351016,Fix Released,lxml is a hard dependency even if XmlBodyMiddleware is not enabled,https://bugs.launchpad.net/keystone/+bug/1351016,2014-10-16
+1187395,1187395,Fix Released,GET to non-existent member can return 500,https://bugs.launchpad.net/glance/+bug/1187395,2014-10-16
+1348680,1348680,Fix Released,Missing headers in cURL examples in federation docs.,https://bugs.launchpad.net/keystone/+bug/1348680,2014-10-16
+1347976,1347976,Fix Released,sqlite files should be excluded from the scope of the repo,https://bugs.launchpad.net/keystone/+bug/1347976,2014-10-16
+1347891,1347891,Fix Released,mis-use of XML canonicalization in keystone tests,https://bugs.launchpad.net/keystone/+bug/1347891,2014-10-16
+1370247,1370247,Fix Released,glance_store rbd driver accidentally changed chunk size units,https://bugs.launchpad.net/glance/+bug/1370247,2014-10-16
+1321822,1321822,Fix Released,"test_user_mixed_case_attribute fails - mail, not email",https://bugs.launchpad.net/keystone/+bug/1321822,2014-10-16
+1366503,1366503,Fix Released,[v2] Duplicate image id return 500 instead of 409,https://bugs.launchpad.net/glance/+bug/1366503,2014-10-16
+1317261,1317261,Fix Released,auth tests should not require admin token,https://bugs.launchpad.net/keystone/+bug/1317261,2014-10-16
+1300546,1300546,Fix Released,config.generator could not handle split configs,https://bugs.launchpad.net/glance/+bug/1300546,2014-10-16

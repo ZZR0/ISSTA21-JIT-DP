@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1585911,1585911,Fix Released,Mistral docker container does not start,https://bugs.launchpad.net/mistral/+bug/1585911,2016-06-02
+1568909,1568909,Fix Released,execution of ad-hoc actions based on std.mistral_http always fails,https://bugs.launchpad.net/mistral/+bug/1568909,2016-06-02
+1484521,1484521,Fix Released,wait-before and retry policies directly call task_handler.run_existing_task() method via RPC,https://bugs.launchpad.net/mistral/+bug/1484521,2016-06-02
+1586080,1586080,Fix Released,Refactor form input error and desctiption into reusable components,https://bugs.launchpad.net/tripleo-ui/+bug/1586080,2016-06-02
+1588235,1588235,Fix Committed,Failed to load kernel module during python-rtslib-fb package installation,https://bugs.launchpad.net/fuel/+bug/1588235,2016-06-02
+1555262,1555262,Fix Committed,After changing nailgun password astute.yaml wasn't updated,https://bugs.launchpad.net/fuel/+bug/1555262,2016-06-02
+1538052,1538052,Fix Committed,Wrong free space check in dockectl,https://bugs.launchpad.net/fuel/+bug/1538052,2016-06-02
+1512069,1512069,Fix Released,Remove deprecated nova_* options,https://bugs.launchpad.net/openstack-manuals/+bug/1512069,2016-06-02
+1535712,1535712,Fix Released,[fuel-master] Impossible to auto-deploy master,https://bugs.launchpad.net/fuel/+bug/1535712,2016-06-02
+1570329,1570329,Fix Released,Fuel plugin contrail package name is not correct,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1570329,2016-06-02
+1568812,1568812,Fix Committed,Redeployment runs cinder tasks anyway,https://bugs.launchpad.net/fuel/+bug/1568812,2016-06-02
+1554962,1554962,Fix Released,Implement BGP extension,https://bugs.launchpad.net/networking-midonet/+bug/1554962,2016-06-02
+1587750,1587750,Fix Released,Add test for ironic task idempotency into stable/mitaka,https://bugs.launchpad.net/fuel/+bug/1587750,2016-06-02
+1587185,1587185,Fix Released,Glance-api fails to start in docker,https://bugs.launchpad.net/openstack-salt/+bug/1587185,2016-06-02
+1571570,1571570,Fix Released,Wrong release version in tests_gpg_singing_check,https://bugs.launchpad.net/fuel/+bug/1571570,2016-06-02
+1567330,1567330,Fix Committed,new fuel UI color scheme has unusable active dialog fg color,https://bugs.launchpad.net/fuel/+bug/1567330,2016-06-02
+1570384,1570384,Fix Released,betamax fixture needs a custom serializer,https://bugs.launchpad.net/keystoneauth/+bug/1570384,2016-06-02
+1558790,1558790,Fix Released,Neutron doesn't send notifications for network DHCP ports,https://bugs.launchpad.net/searchlight/+bug/1558790,2016-06-02
+1561189,1561189,Fix Released,Mitaka release notes need to be updated,https://bugs.launchpad.net/searchlight/+bug/1561189,2016-06-02
+1557003,1557003,Fix Released,Errors during initial indexing should cause fatal error,https://bugs.launchpad.net/searchlight/+bug/1557003,2016-06-02
+1558618,1558618,Fix Released,Re-indexing optimization for doc_type,https://bugs.launchpad.net/searchlight/+bug/1558618,2016-06-02
+1563053,1563053,Fix Released,Unit tests using ./etc/searchlight.conf,https://bugs.launchpad.net/searchlight/+bug/1563053,2016-06-02
+1561190,1561190,Fix Released,Documentation missing for zero downtime reindexing,https://bugs.launchpad.net/searchlight/+bug/1561190,2016-06-02
+1563516,1563516,Fix Released,_is_multiple_alias_exception takes exactly 2 arguments,https://bugs.launchpad.net/searchlight/+bug/1563516,2016-06-02
+1550506,1550506,Fix Released,Designate record deletion using wrong event name,https://bugs.launchpad.net/searchlight/+bug/1550506,2016-06-02
+1566515,1566515,Fix Released,Region name isn't configured in service_credentials,https://bugs.launchpad.net/searchlight/+bug/1566515,2016-06-02
+1563074,1563074,Fix Released,Redundant code in alias_listener_update,https://bugs.launchpad.net/searchlight/+bug/1563074,2016-06-02
+1564718,1564718,Fix Released,Index refresh should be disabled during reindexing,https://bugs.launchpad.net/searchlight/+bug/1564718,2016-06-02
+1563072,1563072,Fix Released,Break up utils.py,https://bugs.launchpad.net/searchlight/+bug/1563072,2016-06-02
+1565032,1565032,Fix Released,searchlight-manage isn't python-3 compatible,https://bugs.launchpad.net/searchlight/+bug/1565032,2016-06-02
+1557287,1557287,Fix Released,Add a cleanup function to functional tests to ensure the API server is torn down,https://bugs.launchpad.net/searchlight/+bug/1557287,2016-06-02
+1552919,1552919,Fix Released,Functional test indexing code needs some TLC,https://bugs.launchpad.net/searchlight/+bug/1552919,2016-06-02
+1568900,1568900,Fix Released,Allow limit=0 in searches,https://bugs.launchpad.net/searchlight/+bug/1568900,2016-06-02
+1571985,1571985,Fix Released,New index created by listener has no alias,https://bugs.launchpad.net/searchlight/+bug/1571985,2016-06-02
+1572451,1572451,Fix Released,Error deleting index in initial syncing,https://bugs.launchpad.net/searchlight/+bug/1572451,2016-06-02
+1578481,1578481,Fix Released,Freeform query syntax in UI should be in docs,https://bugs.launchpad.net/searchlight/+bug/1578481,2016-06-02
+1547118,1547118,Fix Released,Child plugins should not expose index_name as an option,https://bugs.launchpad.net/searchlight/+bug/1547118,2016-06-02
+1570691,1570691,Fix Released,Designate Recordset  missing zone ID mapping and facet,https://bugs.launchpad.net/searchlight/+bug/1570691,2016-06-02
+1572660,1572660,Fix Released,Replace use of search_type=count with size=0,https://bugs.launchpad.net/searchlight/+bug/1572660,2016-06-02
+1579865,1579865,Fix Released,os_endpoint_type not honored in openstack_clients,https://bugs.launchpad.net/searchlight/+bug/1579865,2016-06-02
+1587303,1587303,Fix Released,python3 compatible issue in searchlight listener,https://bugs.launchpad.net/searchlight/+bug/1587303,2016-06-02
+1579926,1579926,Fix Released,Api doesn't handle domain-scoped tokens gracefully,https://bugs.launchpad.net/searchlight/+bug/1579926,2016-06-02
+1565947,1565947,Fix Released,searchlight-ui remove unused array-field directive,https://bugs.launchpad.net/searchlight/+bug/1565947,2016-06-02
+1573078,1573078,Fix Released,Text search not repopulated in search bar,https://bugs.launchpad.net/searchlight/+bug/1573078,2016-06-02
+1583418,1583418,Fix Released,The search breadcrumb nav is None,https://bugs.launchpad.net/searchlight/+bug/1583418,2016-06-02
+1585658,1585658,Fix Released,Search panel should use base Angular view,https://bugs.launchpad.net/searchlight/+bug/1585658,2016-06-02
+1538630,1538630,Fix Released,Additional Service options should have consistent naming,https://bugs.launchpad.net/fuel/+bug/1538630,2016-06-02
+1517038,1517038,Fix Released,API-based Domain config method could temporarily show partial update,https://bugs.launchpad.net/keystone/+bug/1517038,2016-06-02
+1391682,1391682,Fix Released,V2.0 parameter formatting for projects and groups should be removed from drivers,https://bugs.launchpad.net/keystone/+bug/1391682,2016-06-02
+1413276,1413276,Fix Released,Filtering (and limiting) list domains is not tested,https://bugs.launchpad.net/keystone/+bug/1413276,2016-06-02
+1561099,1561099,Fix Released,keystone-manage looks for default_config_files in the wrong place,https://bugs.launchpad.net/keystone/+bug/1561099,2016-06-02
+1537697,1537697,Fix Released,The name  can be just white character except project,https://bugs.launchpad.net/keystone/+bug/1537697,2016-06-02
+1562934,1562934,Fix Released,liberty -> mitaka db migrate fails when constraint names are inconsistent,https://bugs.launchpad.net/keystone/+bug/1562934,2016-06-02
+1565108,1565108,Fix Released,"""unexpected error"" attempting to rename a project when name is already in use",https://bugs.launchpad.net/keystone/+bug/1565108,2016-06-02
+1564961,1564961,Fix Released,"provide a deprecation reason for ""domain_id_immutable"" config option",https://bugs.launchpad.net/keystone/+bug/1564961,2016-06-02
+1273273,1273273,Fix Released,keystone-manage should produce a friendlier error when it cannot read the config files,https://bugs.launchpad.net/keystone/+bug/1273273,2016-06-02
+1576315,1576315,Fix Released,Critically fail on startup if fernet_setup has not been run,https://bugs.launchpad.net/keystone/+bug/1576315,2016-06-02
+1558670,1558670,Fix Released,Internal server error when updating an identity provider,https://bugs.launchpad.net/keystone/+bug/1558670,2016-06-02
+1574493,1574493,Fix Released,keystone tox -epy27 fail in devstack environment,https://bugs.launchpad.net/keystone/+bug/1574493,2016-06-02
+1586904,1586904,Fix Released,Adding Falcon release support to networking-onos,https://bugs.launchpad.net/networking-onos/+bug/1586904,2016-06-02
+1586405,1586405,Fix Committed,Neutron L3 Guest OS DNS Servers text fields are not returned to default settings (visually),https://bugs.launchpad.net/fuel/+bug/1586405,2016-06-02
+1585072,1585072,Fix Released,Fix  create checkpoint API errors in protect service,https://bugs.launchpad.net/karbor/+bug/1585072,2016-06-02
+1586074,1586074,Fix Released,OVN NB sync doesn't ignore non-neutron routers,https://bugs.launchpad.net/networking-ovn/+bug/1586074,2016-06-02
+1587251,1587251,Fix Released,"Feeds should not be served with the ""text/html"" media type by validator.w3.org",https://bugs.launchpad.net/openstack-health/+bug/1587251,2016-06-01
+1573826,1573826,Fix Released,the plugin doesn't work when used in devstack-gate,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1573826,2016-06-01
+1371644,1371644,Fix Released,glance_api_servers=None should use the catalogue,https://bugs.launchpad.net/cinder/+bug/1371644,2016-06-01
+1546734,1546734,Fix Released,Nexenta chunksize defaults to 16k not 32k,https://bugs.launchpad.net/cinder/+bug/1546734,2016-06-01
+1554027,1554027,Fix Released,SMBFS: initialize connection can fail for in-use volumes,https://bugs.launchpad.net/cinder/+bug/1554027,2016-06-01
+1554209,1554209,Fix Released,LoggingVolumeDriver should allow volume creation,https://bugs.launchpad.net/cinder/+bug/1554209,2016-06-01
+1529877,1529877,Fix Released,SMBFS: creating volumes with extra specs fails,https://bugs.launchpad.net/cinder/+bug/1529877,2016-06-01
+1558644,1558644,Fix Released,pywbem import failed error in generating cinder.sample.conf,https://bugs.launchpad.net/cinder/+bug/1558644,2016-06-01
+1551253,1551253,Fix Released,XtremIO terminate connection for non-standard ig name,https://bugs.launchpad.net/cinder/+bug/1551253,2016-06-01
+1526600,1526600,Fix Released,VNX: Race Condition in toggling SP,https://bugs.launchpad.net/cinder/+bug/1526600,2016-06-01
+1533028,1533028,Fix Released,Double check to make sure whether migrate succeeds or not,https://bugs.launchpad.net/cinder/+bug/1533028,2016-06-01
+1535590,1535590,Fix Released,Huawei: Record and check LUN wwn,https://bugs.launchpad.net/cinder/+bug/1535590,2016-06-01

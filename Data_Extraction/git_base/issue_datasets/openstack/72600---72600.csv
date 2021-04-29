@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1316549,1316549,Fix Released,ironic.nova.driver.ClientWrapper lacks in unittest,https://bugs.launchpad.net/ironic/+bug/1316549,2014-10-16
+1316168,1316168,Fix Released,Handle hard drive overflow when downloading/caching images in PXE cache,https://bugs.launchpad.net/ironic/+bug/1316168,2014-10-16
+1306153,1306153,Fix Released,parted use not well tested,https://bugs.launchpad.net/ironic/+bug/1306153,2014-10-16
+1301975,1301975,Fix Released,"Fix sleep() workaround for the ""device is busy"" problem",https://bugs.launchpad.net/ironic/+bug/1301975,2014-10-16
+1261915,1261915,Fix Released,API does not expose required driver_info,https://bugs.launchpad.net/ironic/+bug/1261915,2014-10-16
+1260265,1260265,Fix Released,BaremetalHostManager cannot distinguish baremetal hosts from other hosts,https://bugs.launchpad.net/nova/+bug/1260265,2014-10-16
+1260265,1260265,Fix Released,BaremetalHostManager cannot distinguish baremetal hosts from other hosts,https://bugs.launchpad.net/ironic/+bug/1260265,2014-10-16
+1344351,1344351,Fix Released,IPA attempts to secure erase raid devices,https://bugs.launchpad.net/ironic/+bug/1344351,2014-10-16
+1340196,1340196,Fix Released,Can't change the node->chassis OR port-> node association,https://bugs.launchpad.net/ironic/+bug/1340196,2014-10-16
+1339816,1339816,Fix Released,Node properties not exposed to ComputeCapabilitiesFilter,https://bugs.launchpad.net/ironic/+bug/1339816,2014-10-16
+1334905,1334905,Fix Released,"Node instance_info not updated during rebuild, rebuilds do not deploy new images",https://bugs.launchpad.net/ironic/+bug/1334905,2014-10-16
+1331494,1331494,Fix Released,Nodes left in an inconsistent state due to lack of free conductor workers to start the deployment,https://bugs.launchpad.net/ironic/+bug/1331494,2014-10-16
+1328997,1328997,Fix Released,"Unit test failure: openstack_citest"" is being accessed by other users\nDETAIL:  There are 1 other session(s) using the database.",https://bugs.launchpad.net/nova/+bug/1328997,2014-10-16
+1328997,1328997,Fix Released,"Unit test failure: openstack_citest"" is being accessed by other users\nDETAIL:  There are 1 other session(s) using the database.",https://bugs.launchpad.net/ironic/+bug/1328997,2014-10-16
+1326556,1326556,Fix Released,image conversion occasionally failing,https://bugs.launchpad.net/ironic/+bug/1326556,2014-10-16
+1326326,1326326,Fix Released,Wrong check in ironic_python_agent/shell/copy_configdrive_to_disk.sh,https://bugs.launchpad.net/ironic/+bug/1326326,2014-10-16
+1314954,1314954,Fix Released,validate hangs if ipmitool is unable to reach BMC,https://bugs.launchpad.net/ironic/+bug/1314954,2014-10-16
+1309548,1309548,Fix Released,n-cpu dies when started before the ironic service is running,https://bugs.launchpad.net/ironic/+bug/1309548,2014-10-16
+1317647,1317647,Fix Released,disk volume labels on conductor can conflict with nodes disk labels,https://bugs.launchpad.net/ironic/+bug/1317647,2014-10-16
+1324655,1324655,Fix Released,tests fail with new keystoneclient,https://bugs.launchpad.net/ironic/+bug/1324655,2014-10-16
+1318333,1318333,Fix Released,debug level logs should not be translated,https://bugs.launchpad.net/swift/+bug/1318333,2014-10-16
+1318333,1318333,Fix Released,debug level logs should not be translated,https://bugs.launchpad.net/ironic/+bug/1318333,2014-10-16
+1375397,1375397,Fix Released,"""Multi"" backend attempts to read a deleted domain",https://bugs.launchpad.net/designate/+bug/1375397,2014-10-16
+1370354,1370354,Fix Released,doc: replace diagram sources with Dia,https://bugs.launchpad.net/designate/+bug/1370354,2014-10-16
+1367954,1367954,Fix Released,API displays deleted recordsets,https://bugs.launchpad.net/designate/+bug/1367954,2014-10-16
+1365741,1365741,Fix Released,handle_query_error called incorrectly in mdns,https://bugs.launchpad.net/designate/+bug/1365741,2014-10-16
+1314638,1314638,Fix Released,Nova driver uses hardcoded API retry value instead of config value,https://bugs.launchpad.net/ironic/+bug/1314638,2014-10-16
+1338246,1338246,Fix Released,Missing tests for Blacklist storage layer methods,https://bugs.launchpad.net/designate/+bug/1338246,2014-10-16
+1308021,1308021,Fix Released,Deprecate command_name argument,https://bugs.launchpad.net/ironic/+bug/1308021,2014-10-16
+1337276,1337276,Fix Released,Missing tests for TLD storage layer methods,https://bugs.launchpad.net/designate/+bug/1337276,2014-10-16
+1308017,1308017,Fix Released,deprecate agent extension name,https://bugs.launchpad.net/ironic/+bug/1308017,2014-10-16
+1293101,1293101,Fix Released,powerdns domains are not cleaned up if creation fails using multi driver,https://bugs.launchpad.net/designate/+bug/1293101,2014-10-16
+1373913,1373913,Fix Released,Prevent update/delete of managed records in v1 API,https://bugs.launchpad.net/designate/+bug/1373913,2014-10-16
+1300420,1300420,Fix Released,Unit tests randomly consume all available memory,https://bugs.launchpad.net/ironic/+bug/1300420,2014-10-16
+1368863,1368863,Fix Released,"PowerDNS backend does not create domains in a transaction, or roll back changes on an error",https://bugs.launchpad.net/designate/+bug/1368863,2014-10-16
+1311773,1311773,Fix Released,make encoding.serialize() more programmatical,https://bugs.launchpad.net/ironic/+bug/1311773,2014-10-16
+1366766,1366766,Fix Released,Policy is not initialized in designate-api,https://bugs.launchpad.net/designate/+bug/1366766,2014-10-16
+1366764,1366764,Fix Released,Policy is not initialized in designate-sink,https://bugs.launchpad.net/designate/+bug/1366764,2014-10-16
+1327397,1327397,Fix Released,No notice given when db migrations are not run due to missing engine,https://bugs.launchpad.net/ironic/+bug/1327397,2014-10-16
+1327397,1327397,Fix Released,No notice given when db migrations are not run due to missing engine,https://bugs.launchpad.net/nova/+bug/1327397,2014-10-16
+1366100,1366100,Fix Released,Downgrade in 039 does not delete NS records,https://bugs.launchpad.net/designate/+bug/1366100,2014-10-16
+1327085,1327085,Fix Released,Log message in build_pxe_config is unreadable,https://bugs.launchpad.net/ironic/+bug/1327085,2014-10-16
+1365996,1365996,Fix Released,Downgrading to version 38 fails with AttributeError,https://bugs.launchpad.net/designate/+bug/1365996,2014-10-16
+1319637,1319637,Fix Released,impitool debug logging does not include node identifier,https://bugs.launchpad.net/ironic/+bug/1319637,2014-10-16
+1315050,1315050,Fix Released,Conductor should not use identity comparison for ironic state values,https://bugs.launchpad.net/ironic/+bug/1315050,2014-10-16
+1365699,1365699,Fix Released,We could end up with multiple SOA recordsets in the recordset table,https://bugs.launchpad.net/designate/+bug/1365699,2014-10-16
+1366821,1366821,Fix Released,Backends don't implement create/update/delete_recordset,https://bugs.launchpad.net/designate/+bug/1366821,2014-10-16
+1311285,1311285,Fix Released,API doc for /v1/nodes/xxx/state is wrong,https://bugs.launchpad.net/ironic/+bug/1311285,2014-10-16
+1309599,1309599,Fix Released,nova.virt.driver:instance_exists is not overridden,https://bugs.launchpad.net/ironic/+bug/1309599,2014-10-16
+1353012,1353012,Fix Released,v2 report uses 'domains',https://bugs.launchpad.net/designate/+bug/1353012,2014-10-16
+1309110,1309110,Fix Released,Advertise Host for ironic-python-agent has a bad default,https://bugs.launchpad.net/ironic/+bug/1309110,2014-10-16
+1342460,1342460,Fix Released,WARNING: Arguments dropped when creating context,https://bugs.launchpad.net/designate/+bug/1342460,2014-10-16
+1308144,1308144,Fix Released,Wrong message when preventing instance_uuid to be overwritten,https://bugs.launchpad.net/ironic/+bug/1308144,2014-10-16
+1363724,1363724,Fix Released,designate-sink default notification-topic's for nova/neutron are incorrect,https://bugs.launchpad.net/designate/+bug/1363724,2014-10-16
+1306214,1306214,Fix Released,test should use node.id instead of '123',https://bugs.launchpad.net/ironic/+bug/1306214,2014-10-16
+1348318,1348318,Fix Released,"ObjectDeletedError: Instance '<Record >' has been deleted, or its row is otherwise not present. Gate Error",https://bugs.launchpad.net/designate/+bug/1348318,2014-10-16
+1306210,1306210,Fix Released,cleanup docstring for drivers.utils.get_node_mac_addresses,https://bugs.launchpad.net/ironic/+bug/1306210,2014-10-16
+1348296,1348296,Fix Released,Add HTTP Proxy support to DynECT backend,https://bugs.launchpad.net/designate/+bug/1348296,2014-10-16
+1304564,1304564,Fix Released,Bookmark url for chassis links are incorrect,https://bugs.launchpad.net/ironic/+bug/1304564,2014-10-16
+1291595,1291595,Fix Released,id can be set in the post body in v1,https://bugs.launchpad.net/designate/+bug/1291595,2014-10-16
+1363425,1363425,Fix Released,get_record_id in Devstack's gate job returns more than one id,https://bugs.launchpad.net/designate/+bug/1363425,2014-10-16
+1298077,1298077,Fix Released,help for ironic driver's admin_url is wrong,https://bugs.launchpad.net/ironic/+bug/1298077,2014-10-16
+1360696,1360696,Fix Released,"oslo notify dispatcher, unexpected keyword argument",https://bugs.launchpad.net/designate/+bug/1360696,2014-10-16
+1364080,1364080,Fix Released,Designate migrations fail with Cannot add foreign key constraint,https://bugs.launchpad.net/designate/+bug/1364080,2014-10-16
+1294676,1294676,Fix Released,change_node_power_state inconsistent; validation in async part,https://bugs.launchpad.net/ironic/+bug/1294676,2014-10-16
+1361342,1361342,Fix Released,Creating a Recordset doesn't increment the serial number,https://bugs.launchpad.net/designate/+bug/1361342,2014-10-16
+1327392,1327392,Fix Released,iSCSI login from conductor fails. iscsiadm: No records found,https://bugs.launchpad.net/ironic/+bug/1327392,2014-10-16
+1304088,1304088,Fix Released,Deleting a record doesn't delete the relating recordset in the DB,https://bugs.launchpad.net/designate/+bug/1304088,2014-10-16
+1324840,1324840,Fix Released,Failed to deploy. Error: 'kernel_id',https://bugs.launchpad.net/ironic/+bug/1324840,2014-10-16
+1335902,1335902,Fix Released,URL Wildcard returns UTF-8 Error,https://bugs.launchpad.net/designate/+bug/1335902,2014-10-16
+1334933,1334933,Fix Released,Min and max are incorrectly specified in the json schema,https://bugs.launchpad.net/designate/+bug/1334933,2014-10-16
+1322676,1322676,Fix Released,image fetch and conversion to raw fail on small nodes,https://bugs.launchpad.net/ironic/+bug/1322676,2014-10-16
+1333892,1333892,Fix Released,Wrong quota information returned when different a tenant requests it,https://bugs.launchpad.net/designate/+bug/1333892,2014-10-16
+1320907,1320907,Fix Released,Nova Driver tests should mock 'api_retry_interval' and 'api_max_retries' config values,https://bugs.launchpad.net/ironic/+bug/1320907,2014-10-16
+1328840,1328840,Fix Released,Change to support x-openstack-request-id  vs our own.,https://bugs.launchpad.net/designate/+bug/1328840,2014-10-16

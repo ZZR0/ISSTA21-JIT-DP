@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1673439,1673439,Fix Released,"In Newton, while replacing controller node with ID 0 : StackValidationFailed: resources.AllNodesValidationConfig: Property error: AllNodesValidationConfig.Properties.PingTestIps: The Referenced Attribute (Controller resource.0.external_ip_address) is incorrect.",https://bugs.launchpad.net/tripleo/+bug/1673439,2017-04-28
+1673266,1673266,Fix Released,default etcd deployments share the same cluster token,https://bugs.launchpad.net/tripleo/+bug/1673266,2017-04-28
+1675426,1675426,Fix Released,provider_mappings is wrong when using OpenDaylight,https://bugs.launchpad.net/tripleo/+bug/1675426,2017-04-28
+1648181,1648181,Fix Released,Move generation of mariadb systemd drop-in to puppet-tripleo,https://bugs.launchpad.net/tripleo/+bug/1648181,2017-04-28
+1674689,1674689,Fix Released,OVS DPDK Agent does not apply ovs agent firewall rules,https://bugs.launchpad.net/tripleo/+bug/1674689,2017-04-28
+1675170,1675170,Fix Released,openstack-selinux not installed by deployed server bootstrap,https://bugs.launchpad.net/tripleo/+bug/1675170,2017-04-28
+1675739,1675739,Fix Released,N -> O upgrade: instances live migration gets stuck before starting compute upgrade,https://bugs.launchpad.net/tripleo/+bug/1675739,2017-04-28
+1675782,1675782,Fix Released,N->O upgrade on IPv6 deployment get stuck during major-upgrade-composable-steps,https://bugs.launchpad.net/tripleo/+bug/1675782,2017-04-28
+1665458,1665458,Fix Released,deployed-server: resource group resources not in guaranteed order in resource list output,https://bugs.launchpad.net/tripleo/+bug/1665458,2017-04-28
+1670493,1670493,Fix Released,no default nic config mappings when using deployed-server custom roles,https://bugs.launchpad.net/tripleo/+bug/1670493,2017-04-28
+1675418,1675418,Fix Released,N ->O upgrade: cell_v2 setup creates 2 default cells,https://bugs.launchpad.net/tripleo/+bug/1675418,2017-04-28
+1674858,1674858,Fix Released,Some services configuration are purged at step 3 and re-applied at step 3: lost of time,https://bugs.launchpad.net/tripleo/+bug/1674858,2017-04-28
+1676528,1676528,Fix Released,overcloud.j2.yaml references 'Controller' (undercloud-containers broken),https://bugs.launchpad.net/tripleo/+bug/1676528,2017-04-28
+1675036,1675036,Fix Released,SR-IOV deployment failed with new hiera data hook changes,https://bugs.launchpad.net/tripleo/+bug/1675036,2017-04-28
+1677574,1677574,Fix Released,Run 'clustercheck' during minor update just on database nodes,https://bugs.launchpad.net/tripleo/+bug/1677574,2017-04-28
+1675814,1675814,Fix Released,Newton->Ocata upgrade fails when Ironic services are enabled on a monolithic controller deployment,https://bugs.launchpad.net/tripleo/+bug/1675814,2017-04-28
+1675359,1675359,Fix Released,N ->O upgrade: after running major-upgrade-composable-steps.yaml nova-api cannot connect to Galera on 2/3 controllers,https://bugs.launchpad.net/tripleo/+bug/1675359,2017-04-28
+1673126,1673126,Fix Released,bigswitch agent cannot be included,https://bugs.launchpad.net/tripleo/+bug/1673126,2017-04-28
+1677539,1677539,Fix Released,N->O upgrade fails on environment using external loadbalancer due to missing haproxy service running on controller nodes,https://bugs.launchpad.net/tripleo/+bug/1677539,2017-04-28
+1676900,1676900,Fix Released,Add panko to default event dispatchers,https://bugs.launchpad.net/tripleo/+bug/1676900,2017-04-28
+1675211,1675211,Fix Released,OpenDaylight doesn't work with Ocata due to port binding,https://bugs.launchpad.net/tripleo/+bug/1675211,2017-04-28
+1677354,1677354,Fix Released,decouple ceilometer user creation from ceilometer api,https://bugs.launchpad.net/tripleo/+bug/1677354,2017-04-28
+1679234,1679234,Fix Released,deployed-server: firewall not purged on initial deployment,https://bugs.launchpad.net/tripleo/+bug/1679234,2017-04-28
+1665060,1665060,Fix Released,Pre/Post puppet task resources only generated for Controller role,https://bugs.launchpad.net/tripleo/+bug/1665060,2017-04-28
+1677603,1677603,Fix Released,[RFE] add LDAP as keystone domain,https://bugs.launchpad.net/tripleo/+bug/1677603,2017-04-28
+1678126,1678126,Fix Released,ceph-rgw role changes roles list and breaks upgrades,https://bugs.launchpad.net/tripleo/+bug/1678126,2017-04-28
+1682144,1682144,Fix Released,Stale references to 192.0.2 subnet cause overcloud deployment to fail,https://bugs.launchpad.net/tripleo/+bug/1682144,2017-04-28
+1680634,1680634,Fix Released,openstack minor update - list_updates=$(yum list updates) never returns empty string,https://bugs.launchpad.net/tripleo/+bug/1680634,2017-04-28
+1656558,1656558,Fix Released,restrict mongodb memory usage,https://bugs.launchpad.net/tripleo/+bug/1656558,2017-04-28
+1671881,1671881,Fix Released,Fencing generation fails if there are unprovisioned nodes,https://bugs.launchpad.net/tripleo/+bug/1671881,2017-04-28
+1672060,1672060,Fix Released,set os_auth_type in overcloudrc,https://bugs.launchpad.net/tripleo/+bug/1672060,2017-04-28
+1680996,1680996,Fix Released,ocata ovb jobs fail with CREATE_FAILED  Error: resources.NovaComputeDeployment,https://bugs.launchpad.net/tripleo/+bug/1680996,2017-04-28
+1670687,1670687,Fix Released,Fencing parameter generation should not force a fencing action,https://bugs.launchpad.net/tripleo/+bug/1670687,2017-04-28
+1670817,1670817,Fix Released,os-cloud-config deprecation warning seen on every overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1670817,2017-04-28
+1665426,1665426,Fix Released,chrony package purge doesn't work because of the norpm provider,https://bugs.launchpad.net/tripleo/+bug/1665426,2017-04-28
+1669666,1669666,Fix Released,hard to tell when the package is not actually installed with the norpm provider,https://bugs.launchpad.net/tripleo/+bug/1669666,2017-04-28
+1671716,1671716,Fix Released,scenario001 fails with due to panko-dbsync not being available,https://bugs.launchpad.net/tripleo/+bug/1671716,2017-04-28
+1675462,1675462,Fix Released,when using split stack iscsi-initiator-utils is assumed to already be installed,https://bugs.launchpad.net/tripleo/+bug/1675462,2017-04-28
+1674421,1674421,Fix Released,gnocchi resource types missing in ceilometer,https://bugs.launchpad.net/tripleo/+bug/1674421,2017-04-28
+1675194,1675194,Fix Released,puppet-tripleo rabbitmq profile assumes rabbitmq is running at step1 during stack-update,https://bugs.launchpad.net/tripleo/+bug/1675194,2017-04-28
+1678338,1678338,Fix Released,horizon gets deconfigued in step3 of updates,https://bugs.launchpad.net/tripleo/+bug/1678338,2017-04-28
+1679202,1679202,Fix Released,puppet-tripleo SRIOV missing neutron base,https://bugs.launchpad.net/tripleo/+bug/1679202,2017-04-28
+1679753,1679753,Fix Released,cluster recheck interval should be configurable (and lower by default when using pacemaker remote),https://bugs.launchpad.net/tripleo/+bug/1679753,2017-04-28
+1680588,1680588,Fix Released,Octavia user/service missing from overcloud keystone,https://bugs.launchpad.net/tripleo/+bug/1680588,2017-04-28
+1668775,1668775,Fix Released,Certmonger certificate does not include EKUs,https://bugs.launchpad.net/tripleo/+bug/1668775,2017-04-28
+1663199,1663199,Fix Released,UI doesn't work without manual update on HTTP undercloud,https://bugs.launchpad.net/tripleo/+bug/1663199,2017-04-28
+1669915,1669915,Fix Released,undercloud install fails if anaconda-gui is installed,https://bugs.launchpad.net/tripleo/+bug/1669915,2017-04-28
+1674822,1674822,Fix Released,heat configuration for clients endpoint_type is hardcoded to internal in the undercloud,https://bugs.launchpad.net/tripleo/+bug/1674822,2017-04-28
+1671829,1671829,Fix Released,add auth type to stackrc on undercloud,https://bugs.launchpad.net/tripleo/+bug/1671829,2017-04-28
+1667697,1667697,Fix Released,Default heat's max_json_body_size value is too low to deploy undercloud,https://bugs.launchpad.net/tripleo/+bug/1667697,2017-04-28
+1674827,1674827,Fix Released,no heat cfn api endpoint in the undercloud,https://bugs.launchpad.net/tripleo/+bug/1674827,2017-04-28
+1676816,1676816,Fix Released,undercloud installation fails in gnocchi-upgrade command,https://bugs.launchpad.net/tripleo/+bug/1676816,2017-04-28
+1679676,1679676,Fix Released,dont include wsgi profile when enable_legacy_ceilo_api flag is false,https://bugs.launchpad.net/tripleo/+bug/1679676,2017-04-28
+1680126,1680126,Fix Released,Add a dependency on ceilo collector so its restarted after ceilo-upgrade is done,https://bugs.launchpad.net/tripleo/+bug/1680126,2017-04-28
+1643808,1643808,Fix Released,The openstack-endpoints validation can't read overcloudrc,https://bugs.launchpad.net/tripleo/+bug/1643808,2017-04-27
+1654051,1654051,Fix Released,webpack ignores build errors,https://bugs.launchpad.net/tripleo/+bug/1654051,2017-04-27
+1649997,1649997,Fix Released,"When tripleo_ui_config.js is used, %(tenant_id)s macro is not expanded",https://bugs.launchpad.net/tripleo/+bug/1649997,2017-04-27
+1647625,1647625,Fix Released,TripleO UI should not log out user if plan is empty,https://bugs.launchpad.net/tripleo/+bug/1647625,2017-04-27
+1644801,1644801,Fix Released,"Nodes that are assigned to custom roles are ""Not Assigned"" in other plans (UI)",https://bugs.launchpad.net/tripleo/+bug/1644801,2017-04-27
+1667691,1667691,Fix Released,deletePlan action calls a non-existent function,https://bugs.launchpad.net/tripleo/+bug/1667691,2017-04-27
+1641589,1641589,Fix Released,when deploying heat-cfn over httpd ec2 authorization fails,https://bugs.launchpad.net/tripleo/+bug/1641589,2017-04-27
+1606632,1606632,Fix Released,Public and Control VIP interface should be automatically set in tripleO,https://bugs.launchpad.net/tripleo/+bug/1606632,2017-04-27
+1649303,1649303,Fix Released,Multiple DeployArtifiactURLs broken on newton,https://bugs.launchpad.net/tripleo/+bug/1649303,2017-04-27
+1649407,1649407,Fix Released,findmnt might return a list of filesystems and fail to detect ext4 on cephstorage upgrade,https://bugs.launchpad.net/tripleo/+bug/1649407,2017-04-27
+1651476,1651476,Fix Released,OpenDaylight Missing API Firewall rules,https://bugs.launchpad.net/tripleo/+bug/1651476,2017-04-27
+1651499,1651499,Fix Released,Custom OpenDaylight role without Neutron fails,https://bugs.launchpad.net/tripleo/+bug/1651499,2017-04-27
+1643487,1643487,Fix Released,"During a VIP failover, services colocated with the VIP are slow to recover",https://bugs.launchpad.net/tripleo/+bug/1643487,2017-04-27
+1655738,1655738,Fix Released,OpenDaylight ML2 and L3 driver should be V2,https://bugs.launchpad.net/tripleo/+bug/1655738,2017-04-27
+1654204,1654204,Fix Released,Manila default_share_type is not set on Overcloud deploy,https://bugs.launchpad.net/tripleo/+bug/1654204,2017-04-27
+1642524,1642524,Fix Released,ceph-rgw should not use the keystone admin token,https://bugs.launchpad.net/tripleo/+bug/1642524,2017-04-27
+1656980,1656980,Fix Released,Stack update (package update) fails with Deployment exited with non-zero status code: 3,https://bugs.launchpad.net/tripleo/+bug/1656980,2017-04-27
+1659662,1659662,Fix Released,Deployment fails when Neutron services run on a dedicated role,https://bugs.launchpad.net/tripleo/+bug/1659662,2017-04-27
+1659741,1659741,Fix Released,Replacing a controller node takes a very long time (1h),https://bugs.launchpad.net/tripleo/+bug/1659741,2017-04-27
+1609421,1609421,Fix Released,Default Swift ring deployment by TripleO are error-prone,https://bugs.launchpad.net/tripleo/+bug/1609421,2017-04-27
+1664192,1664192,Fix Released,Module ip_conntrack_proto_sctp should be loaded when using  netfilter/conntrack,https://bugs.launchpad.net/tripleo/+bug/1664192,2017-04-27

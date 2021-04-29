@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1758351,1758351,Fix Released,ironic is using old things,https://bugs.launchpad.net/openstack-ansible/+bug/1758351,2018-07-06
+1731072,1731072,Fix Released,AllocationCandidates.get_by_filters returns garbage with multiple aggregates,https://bugs.launchpad.net/nova/+bug/1731072,2018-07-06
+1765376,1765376,Fix Released,nova scheduler log contains html,https://bugs.launchpad.net/nova/+bug/1765376,2018-07-06
+1754039,1754039,Fix Released,octavia amphora image upload should update glance image if changed,https://bugs.launchpad.net/tripleo/+bug/1754039,2018-07-05
+1771179,1771179,Fix Released,Dell EMC Manila configuration errors,https://bugs.launchpad.net/tripleo/+bug/1771179,2018-07-05
+1774647,1774647,Fix Released,Need to re-enable WorkflowSteps resource in ceph-upgrade-prepare env file,https://bugs.launchpad.net/tripleo/+bug/1774647,2018-07-05
+1774262,1774262,Fix Released,Cinder RPC versions not updated after upgrade,https://bugs.launchpad.net/tripleo/+bug/1774262,2018-07-05
+1760787,1760787,Fix Released,iscsi container failed with: 'text file busy',https://bugs.launchpad.net/tripleo/+bug/1760787,2018-07-05
+1744174,1744174,Fix Released,NFS backup driver,https://bugs.launchpad.net/tripleo/+bug/1744174,2018-07-05
+1770634,1770634,Fix Released,ironic fast fwd upgrade tasks missing in tripleo-heat-templates,https://bugs.launchpad.net/tripleo/+bug/1770634,2018-07-05
+1774961,1774961,Fix Released,FFU: openstack overcloud ffwd-upgrade prepare fails with: u'message': u'Init Minor update failed',https://bugs.launchpad.net/tripleo/+bug/1774961,2018-07-05
+1768586,1768586,Fix Released,Lifecycle converge commands don't remove no-ops,https://bugs.launchpad.net/tripleo/+bug/1768586,2018-07-05
+1767385,1767385,Fix Released,Exclude folders from Undercloud backup or backup might backup unnecesary resources,https://bugs.launchpad.net/tripleo/+bug/1767385,2018-07-05
+1769230,1769230,Fix Released,[tripleo] master baremetal overcloud deploy fails running script enable-ssh-admin.sh,https://bugs.launchpad.net/tripleo/+bug/1769230,2018-07-05
+1771128,1771128,Fix Released,Duplicates in /etc/sysconfig/iptable,https://bugs.launchpad.net/tripleo/+bug/1771128,2018-07-05
+1770180,1770180,Fix Released,redis stunnel log level is too high,https://bugs.launchpad.net/tripleo/+bug/1770180,2018-07-05
+1773823,1773823,Fix Released,Neutron sidecar wrappers make assumptions about netns names,https://bugs.launchpad.net/tripleo/+bug/1773823,2018-07-05
+1771656,1771656,Fix Released,[manila] Dell/EMC backends require value for share_backend_name,https://bugs.launchpad.net/tripleo/+bug/1771656,2018-07-05
+1774271,1774271,Fix Released,"when setting local_mtu > 1500 in undercloud.conf, undercloud install failed",https://bugs.launchpad.net/tripleo/+bug/1774271,2018-07-05
+1687317,1687317,Fix Committed,Write RBAC tests for v3 auth-related policy actions,https://bugs.launchpad.net/patrole/+bug/1687317,2018-07-05
+1652741,1652741,Fix Released,Ironic should not send sensors data for nodes in maintenance,https://bugs.launchpad.net/ironic/+bug/1652741,2018-07-05
+1747467,1747467,Fix Released,[RFE] Add validate_rescue() method for boot interface,https://bugs.launchpad.net/ironic/+bug/1747467,2018-07-05
+1748515,1748515,Fix Released,[RFE] support healthcheck middleware,https://bugs.launchpad.net/ironic/+bug/1748515,2018-07-05
+1749256,1749256,Fix Released,FakeHardware does not support noop implementations,https://bugs.launchpad.net/ironic/+bug/1749256,2018-07-05
+1745630,1745630,Fix Released,Node gets stuck in 'deploying' when configdrive is too large,https://bugs.launchpad.net/ironic/+bug/1745630,2018-07-05
+1674899,1674899,Fix Released,[RFE] Implement Rescue for ILO Virtual Media drivers,https://bugs.launchpad.net/ironic/+bug/1674899,2018-07-05
+1748893,1748893,Fix Released,Port list returns HTTP 400 if a node is removed while listing ports,https://bugs.launchpad.net/ironic/+bug/1748893,2018-07-05
+1748893,1748893,Fix Released,Port list returns HTTP 400 if a node is removed while listing ports,https://bugs.launchpad.net/ironic-inspector/+bug/1748893,2018-07-05
+1749755,1749755,Fix Released,Timeouts do not work because our database code cannot filter by ID/UUID,https://bugs.launchpad.net/ironic/+bug/1749755,2018-07-05
+1749433,1749433,Fix Released,Unrescued node fails to boot with partition image,https://bugs.launchpad.net/ironic/+bug/1749433,2018-07-05
+1596421,1596421,Fix Released,[RFE] Stop storing configdrive in the database,https://bugs.launchpad.net/ironic/+bug/1596421,2018-07-05
+1749860,1749860,Fix Released,Rescue ramdisk doesn't boot on UEFI,https://bugs.launchpad.net/ironic/+bug/1749860,2018-07-05
+1588901,1588901,Fix Released,Nodes stuck on power state transitions,https://bugs.launchpad.net/ironic/+bug/1588901,2018-07-05
+1750785,1750785,Fix Released,Detached VIF may be restored during node cleaning,https://bugs.launchpad.net/ironic/+bug/1750785,2018-07-05
+1750027,1750027,Fix Released,Cleaning fails when nodes have traits,https://bugs.launchpad.net/ironic/+bug/1750027,2018-07-05
+1559835,1559835,Fix Released,iLO does not utilize the UEFI capability for cleaning,https://bugs.launchpad.net/ironic/+bug/1559835,2018-07-05
+1585595,1585595,Fix Released,[RFE] Handling SIGHUP on Ironic services,https://bugs.launchpad.net/ironic/+bug/1585595,2018-07-05
+1368906,1368906,Fix Released,Agent client lacks docstrings,https://bugs.launchpad.net/ironic/+bug/1368906,2018-07-05
+1754026,1754026,Fix Released,ironic and cinder fail to run unit tests with master oslo.config,https://bugs.launchpad.net/ironic/+bug/1754026,2018-07-05
+1747842,1747842,Fix Released,[RFE] Implement Rescue for iRMC Virtual Media drivers,https://bugs.launchpad.net/ironic/+bug/1747842,2018-07-05
+1755914,1755914,Fix Released,'<No description provided>' in the sample config file,https://bugs.launchpad.net/ironic/+bug/1755914,2018-07-05
+1755146,1755146,Fix Released,Instance traits are not validated against node traits,https://bugs.launchpad.net/ironic/+bug/1755146,2018-07-05
+1748849,1748849,Fix Released,Need to set whole_disk_image_url and whole_disk_image_checksum in case IPXE is disabled,https://bugs.launchpad.net/ironic/+bug/1748849,2018-07-05
+1772750,1772750,Fix Released,[grafana] cannot find grafana executable under /opt/ directory,https://bugs.launchpad.net/kolla/+bug/1772750,2018-07-05
+1779642,1779642,Fix Released,"http://mirror.centos.org/centos/7/virt/x86_64/kvm-common/repodata/b58d947530c09c958e0d78c2c9029ef1fbb4d341c68ce99e3b0133561ca70421-primary.sqlite.bz2: [Errno 14] HTTP Error 404 - Not Found""",https://bugs.launchpad.net/tripleo/+bug/1779642,2018-07-04
+1777939,1777939,Fix Released,"Unable to connect to AMQP server on undercloud.internalapi.localdomain:5672 after None tries: (0, 0): (403) ACCESS_REFUSED",https://bugs.launchpad.net/tripleo/+bug/1777939,2018-07-03
+1767422,1767422,Fix Released,"Neutron agent internal ports remain untagged for some time, which makes them trunk ports",https://bugs.launchpad.net/neutron/+bug/1767422,2018-07-03
+1738453,1738453,Fix Released,haproxy's horizon stanza exposes the wrong per server cookie,https://bugs.launchpad.net/tripleo/+bug/1738453,2018-07-03
+1731595,1731595,Fix Released,L3 HA: multiple agents are active at the same time,https://bugs.launchpad.net/neutron/+bug/1731595,2018-07-03
+1778698,1778698,Fix Released,stestr for functional test is running unit test,https://bugs.launchpad.net/tacker/+bug/1778698,2018-07-03
+1693192,1693192,Fix Released,devstack with etcd3 enabled not working on s390x,https://bugs.launchpad.net/devstack/+bug/1693192,2018-07-03
+1739383,1739383,Fix Released,'409 Conflict' occurred when adding reserved_host to aggregate,https://bugs.launchpad.net/masakari/+bug/1739383,2018-07-03
+1705351,1705351,Fix Released,agent notifier getting amqp NotFound exceptions propagated up to it,https://bugs.launchpad.net/neutron/+bug/1705351,2018-07-03
+1776731,1776731,Fix Released,Monitoring Tools Pacemaker check ineffective with containerized services,https://bugs.launchpad.net/osops/+bug/1776731,2018-07-02
+1778247,1778247,Fix Released,Could not evaluate: Invalid parameter force_new_section_creation(:force_new_section_creation),https://bugs.launchpad.net/puppet-openstacklib/+bug/1778247,2018-07-02
+1778247,1778247,Fix Released,Could not evaluate: Invalid parameter force_new_section_creation(:force_new_section_creation),https://bugs.launchpad.net/tripleo/+bug/1778247,2018-07-02
+1717236,1717236,Fix Released,PXE options are not understood correctly by some Neutron backends due to theirs names,https://bugs.launchpad.net/ironic/+bug/1717236,2018-07-02
+1779263,1779263,Fix Released,"""AnsibleUndefinedVariable: 'dict object' has no attribute 'overcloud'""} at periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset010-master",https://bugs.launchpad.net/tripleo/+bug/1779263,2018-07-02
+1778865,1778865,Fix Released,Failing openstack-pox-linter TypeError: unbound method construct_mapping(),https://bugs.launchpad.net/tripleo/+bug/1778865,2018-07-02
+1779059,1779059,Fix Released,tempest vlan test failed,https://bugs.launchpad.net/networking-spp/+bug/1779059,2018-07-02
+1734185,1734185,Fix Released,"notification_format in nova.conf should be ""unversioned""",https://bugs.launchpad.net/tripleo/+bug/1734185,2018-06-30
+1779256,1779256,Fix Released,test-bug,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1779256,2018-06-30
+1778974,1778974,Fix Released,"reproduce-quickstart.sh broken by 576834, no such file",https://bugs.launchpad.net/tripleo/+bug/1778974,2018-06-29
+1729663,1729663,Fix Released,expirer cron fails to run properly,https://bugs.launchpad.net/tripleo/+bug/1729663,2018-06-29
+1779342,1779342,Fix Committed,Test fails when there is internet connectivity,https://bugs.launchpad.net/proliantutils/+bug/1779342,2018-06-29
+1576769,1576769,Fix Released,EC2 IDs change when switching from nova embedded ec2 api,https://bugs.launchpad.net/ec2-api/+bug/1576769,2018-06-29
+1619259,1619259,Fix Released,improve metadata response time,https://bugs.launchpad.net/ec2-api/+bug/1619259,2018-06-29
+1778637,1778637,Fix Released,"mistral_tempest_tests.tests.api.v2.test_actions.ActionTestsV2:  MismatchError: [u'aodh.alarm_create',",https://bugs.launchpad.net/tripleo/+bug/1778637,2018-06-29
+1778948,1778948,Fix Released,HA deployment docs broken,https://bugs.launchpad.net/tripleo/+bug/1778948,2018-06-29
+1778583,1778583,Fix Released,api-ref: endpoint status text in a bad location,https://bugs.launchpad.net/openstack-api-site/+bug/1778583,2018-06-28
+1778579,1778579,Fix Released,api-ref: image v1 link returns 404,https://bugs.launchpad.net/openstack-api-site/+bug/1778579,2018-06-28
+1650713,1650713,Fix Released,Setting the backend in default is not supported since Ocata,https://bugs.launchpad.net/puppet-cinder/+bug/1650713,2018-06-28
+1746512,1746512,Fix Released,vim-register API raises 500 error when user passes empty string in 'type' parameter,https://bugs.launchpad.net/tacker/+bug/1746512,2018-06-28
+1746538,1746538,Fix Released,vim-register API is_default parameter should accept only boolean values,https://bugs.launchpad.net/tacker/+bug/1746538,2018-06-28
+1755243,1755243,Fix Released,AttributeError when updating DvrEdgeRouter objects running on network nodes,https://bugs.launchpad.net/neutron/+bug/1755243,2018-06-28

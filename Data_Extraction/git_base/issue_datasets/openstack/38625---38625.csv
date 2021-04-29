@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1615046,1615046,Fix Released,Comment regarding available_themes parameter needs clarifying,https://bugs.launchpad.net/puppet-horizon/+bug/1615046,2016-08-29
+1604829,1604829,Fix Released,Typo in values for disk_format in glance_image,https://bugs.launchpad.net/puppet-glance/+bug/1604829,2016-08-29
+1602451,1602451,Fix Released,Backup Swift missing some new config options,https://bugs.launchpad.net/puppet-cinder/+bug/1602451,2016-08-29
+1602454,1602454,Fix Released,Missing some backup drivers,https://bugs.launchpad.net/puppet-cinder/+bug/1602454,2016-08-29
+1605373,1605373,Fix Released,SolidFire backend deployment should use $::os_service_default,https://bugs.launchpad.net/puppet-cinder/+bug/1605373,2016-08-29
+1605368,1605368,Fix Released,solidfire backend module doesn't handle svip correct,https://bugs.launchpad.net/puppet-cinder/+bug/1605368,2016-08-29
+1607872,1607872,Fix Released,GPFS NFS support,https://bugs.launchpad.net/puppet-cinder/+bug/1607872,2016-08-29
+1614467,1614467,Fix Released,Test volume race condition between losetup and pvdisplay,https://bugs.launchpad.net/puppet-cinder/+bug/1614467,2016-08-29
+1586986,1586986,Fix Released,vpnaas: Copy strongswan.d needs root rights,https://bugs.launchpad.net/neutron/+bug/1586986,2016-08-29
+1614985,1614985,Fix Committed,Fix the upload test cases mechanism to work with pytest tests and to be more stable,https://bugs.launchpad.net/fuel/+bug/1614985,2016-08-29
+1581660,1581660,Fix Released,Neutron-LBaaSv2: Fix network_resources path,https://bugs.launchpad.net/neutron/+bug/1581660,2016-08-29
+1554464,1554464,Fix Released,Radware lbaas v2 driver should not treat listener without default pool,https://bugs.launchpad.net/neutron/+bug/1554464,2016-08-29
+1571097,1571097,Fix Released,unable to delete lbaasv2 health monitor if its listener deleted,https://bugs.launchpad.net/neutron/+bug/1571097,2016-08-29
+1592564,1592564,Fix Released,gate-neutron-lbaasv2-dsvm-minimal is failing,https://bugs.launchpad.net/neutron/+bug/1592564,2016-08-29
+1588372,1588372,Fix Released,L7 policy is deleted along with listener deletion,https://bugs.launchpad.net/neutron/+bug/1588372,2016-08-29
+1589521,1589521,Fix Released,AttributeError: type object 'BaseNetworkTest' has no attribute '_try_delete_resource',https://bugs.launchpad.net/neutron/+bug/1589521,2016-08-29
+1567472,1567472,Fix Released,net_helpers.get_free_namespace_port can return used ports,https://bugs.launchpad.net/neutron/+bug/1567472,2016-08-29
+1572439,1572439,Fix Released,test_update_subnetpool_associate_address_scope_wrong_ip_version should check address-scope extension,https://bugs.launchpad.net/neutron/+bug/1572439,2016-08-29
+1567855,1567855,Fix Released,auto allocate topology plugin subscribe calls not safe for tests,https://bugs.launchpad.net/neutron/+bug/1567855,2016-08-29
+1519342,1519342,Fix Released,Returns 500 when delete method is called with request body,https://bugs.launchpad.net/neutron/+bug/1519342,2016-08-29
+1569130,1569130,Fix Released,test_timestamp_core not safe with other default service plugins,https://bugs.launchpad.net/neutron/+bug/1569130,2016-08-29
+1581325,1581325,Fix Released,test_dhcp_agent_main_agent_manager fails in UT,https://bugs.launchpad.net/neutron/+bug/1581325,2016-08-29
+1567023,1567023,Fix Released,test_keepalived_respawns* functional tests raceful,https://bugs.launchpad.net/neutron/+bug/1567023,2016-08-29
+1585102,1585102,Fix Released,neutron-server crashes when loading *aas plugins,https://bugs.launchpad.net/neutron/+bug/1585102,2016-08-29
+1574472,1574472,Fix Released,icmpv6 and ipv6-icmp are missed in _validate_port_range,https://bugs.launchpad.net/neutron/+bug/1574472,2016-08-29
+1590397,1590397,Fix Released,Router interfaces get wrong MTU inherited from br-int,https://bugs.launchpad.net/neutron/+bug/1590397,2016-08-29
+1593647,1593647,Fix Released,TestDesignateClient.test_secure_client fails with  AssertionError: Expected call: mock(verify='...'),https://bugs.launchpad.net/neutron/+bug/1593647,2016-08-29
+1595078,1595078,Fix Released,bgp: _get_id_for seems useless,https://bugs.launchpad.net/neutron/+bug/1595078,2016-08-29
+1592982,1592982,Fix Released,Cannot create password-authenticated BGP peer,https://bugs.launchpad.net/neutron/+bug/1592982,2016-08-29
+1600281,1600281,Fix Released,ImportError: No module named api,https://bugs.launchpad.net/tripleo/+bug/1600281,2016-08-29
+1600281,1600281,Fix Released,ImportError: No module named api,https://bugs.launchpad.net/neutron/+bug/1600281,2016-08-29
+1597613,1597613,Fix Released,OVS firewall fails if of_interface=native and ovsdb_interface=native,https://bugs.launchpad.net/neutron/+bug/1597613,2016-08-29
+1597362,1597362,Fix Released,ML2 manager throws spurious error messages,https://bugs.launchpad.net/neutron/+bug/1597362,2016-08-29
+1588731,1588731,Fix Released,net_helpers.async_ping() is unreliable,https://bugs.launchpad.net/neutron/+bug/1588731,2016-08-29
+1587498,1587498,Fix Released,"macvtap agent does terminates when NoopFWDriver is specified via ""noop"" alias",https://bugs.launchpad.net/neutron/+bug/1587498,2016-08-29
+1599725,1599725,Fix Released,DOCS: Cleanup deleted load balancers in housekeeper's db_cleanup,https://bugs.launchpad.net/octavia/+bug/1599725,2016-08-29
+1444496,1444496,Fix Released,/usr/sbin/grub-install: error: will not proceed with blocklists.,https://bugs.launchpad.net/diskimage-builder/+bug/1444496,2016-08-29
+1591766,1591766,Fix Released,auto_allocated_topology network creation isn't atomic per tenant,https://bugs.launchpad.net/neutron/+bug/1591766,2016-08-29
+1265650,1265650,Fix Released,element-info -d ubuntu errors,https://bugs.launchpad.net/diskimage-builder/+bug/1265650,2016-08-29
+1600741,1600741,Fix Released,"""bus error"" when creating a centos-minimal image",https://bugs.launchpad.net/diskimage-builder/+bug/1600741,2016-08-29
+1571492,1571492,Fix Released,gate-tempest-dsvm-ironic-pxe_ssh-dib failing : test_baremetal_server_ops ssh timeout,https://bugs.launchpad.net/ironic/+bug/1571492,2016-08-29
+1571492,1571492,Fix Released,gate-tempest-dsvm-ironic-pxe_ssh-dib failing : test_baremetal_server_ops ssh timeout,https://bugs.launchpad.net/tempest/+bug/1571492,2016-08-29
+1571492,1571492,Fix Released,gate-tempest-dsvm-ironic-pxe_ssh-dib failing : test_baremetal_server_ops ssh timeout,https://bugs.launchpad.net/diskimage-builder/+bug/1571492,2016-08-29
+1538135,1538135,Fix Released,disk-image-create deleting system /dev during image create,https://bugs.launchpad.net/diskimage-builder/+bug/1538135,2016-08-29
+1536999,1536999,Fix Released,fial,https://bugs.launchpad.net/diskimage-builder/+bug/1536999,2016-08-29
+1611527,1611527,Fix Released,Update EPEL version and package manager call for RHEL-based distros,https://bugs.launchpad.net/manila-image-elements/+bug/1611527,2016-08-29
+1617947,1617947,Fix Released,Running pep8 with python3.5 gives a handful of errors,https://bugs.launchpad.net/ironic/+bug/1617947,2016-08-29
+1617954,1617954,Fix Released,Installation failed with 500 Server Error: Internal,https://bugs.launchpad.net/fuel-ccp/+bug/1617954,2016-08-29
+1616952,1616952,Fix Released,InfluxDB database not recreated after InfluxDB pod re-creation,https://bugs.launchpad.net/fuel-ccp/+bug/1616952,2016-08-29
+1609486,1609486,Fix Committed,Firefox hangs on opened deployment history of running deployment,https://bugs.launchpad.net/fuel/+bug/1609486,2016-08-29
+1606942,1606942,Fix Released,"Rename ""devstackgatenativel3rc"" and the associated gate job to a more appropriate one",https://bugs.launchpad.net/networking-ovn/+bug/1606942,2016-08-29
+1595591,1595591,Fix Committed,[Monitoring] Create one more template for VMs attached to any Jenkins as slaves.,https://bugs.launchpad.net/fuel/+bug/1595591,2016-08-29
+1576682,1576682,Fix Committed,404 message after a node is removed by Fuel CLI,https://bugs.launchpad.net/fuel/+bug/1576682,2016-08-29
+1605949,1605949,Fix Released,XtremIO: support of snapshot manage commands,https://bugs.launchpad.net/openstack-manuals/+bug/1605949,2016-08-29
+1613651,1613651,Fix Released,Service naming convention created by Murano app is not clear,https://bugs.launchpad.net/murano-apps/+bug/1613651,2016-08-29
+1611842,1611842,Fix Released,CI: services memory fails,https://bugs.launchpad.net/tripleo/+bug/1611842,2016-08-29
+1617280,1617280,Fix Released,logger - cron container with log rotate not included into default template,https://bugs.launchpad.net/fuel-ccp/+bug/1617280,2016-08-29
+1501328,1501328,Fix Released,RFE Replace the existing default subnetpool configuration options with an admin-only API,https://bugs.launchpad.net/neutron/+bug/1501328,2016-08-29
+1608836,1608836,Fix Released,Websites deployed with Docker HTTPdSite and NginxSite apps are unreachable,https://bugs.launchpad.net/murano-apps/+bug/1608836,2016-08-29
+1613723,1613723,Fix Released,Required group: pvm_admin,https://bugs.launchpad.net/nova-powervm/+bug/1613723,2016-08-28
+1607650,1607650,Fix Released,There are some mistake in log,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1607650,2016-08-28
+1537663,1537663,Fix Released,cluster resize operation should change desired_capacity immediately,https://bugs.launchpad.net/senlin/+bug/1537663,2016-08-27
+1616282,1616282,Fix Released,creating ipv6 subnet on ipv6 vm will cause loss of connectivity,https://bugs.launchpad.net/devstack/+bug/1616282,2016-08-27
+1589764,1589764,Fix Released,[repo] Newer ChefDK does not converge,https://bugs.launchpad.net/openstack-chef/+bug/1589764,2016-08-27
+1611106,1611106,Fix Released,Run time graph on per test graph should be multiChart type,https://bugs.launchpad.net/openstack-health/+bug/1611106,2016-08-26
+1611105,1611105,Fix Released,Pass Fail Graph on test page should be a time series,https://bugs.launchpad.net/openstack-health/+bug/1611105,2016-08-26
+1585247,1585247,Fix Released,Failed validation on update security service form leads to unhandled exception,https://bugs.launchpad.net/manila-ui/+bug/1585247,2016-08-26
+1585252,1585252,Fix Released,Failed validation on edit share form leads to unhandled exception,https://bugs.launchpad.net/manila-ui/+bug/1585252,2016-08-26
+1604809,1604809,Fix Released,Cannot run single test module,https://bugs.launchpad.net/manila-ui/+bug/1604809,2016-08-26
+1598169,1598169,Fix Released,New Django requirements break the gate,https://bugs.launchpad.net/manila-ui/+bug/1598169,2016-08-26
+1585244,1585244,Fix Released,Failed validation on create snapshot  form leads to unhandled exception,https://bugs.launchpad.net/manila-ui/+bug/1585244,2016-08-26
+1609806,1609806,Fix Released,Django 1.9 gate is broken,https://bugs.launchpad.net/manila-ui/+bug/1609806,2016-08-26
+1611368,1611368,Fix Released,Disabled quotas cannot be obtained properly,https://bugs.launchpad.net/manila-ui/+bug/1611368,2016-08-26
+1614525,1614525,Fix Released,Gates are broken,https://bugs.launchpad.net/manila-ui/+bug/1614525,2016-08-26
+1593057,1593057,Fix Released,Disable creating public share types and public shares per configuration,https://bugs.launchpad.net/manila-ui/+bug/1593057,2016-08-26

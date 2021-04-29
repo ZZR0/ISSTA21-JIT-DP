@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1031373,1031373,Fix Released,rename disable_pki=False config option,https://bugs.launchpad.net/keystone/+bug/1031373,2012-09-27
+1003829,1003829,Fix Released,pam backend doesn't have unittests.,https://bugs.launchpad.net/keystone/+bug/1003829,2012-09-27
+1037683,1037683,Fix Released,PKI Token revocation,https://bugs.launchpad.net/keystone/+bug/1037683,2012-09-27
+1006777,1006777,Fix Released,GET /v2.0/tokens/{token_id}/endpoints not implemented,https://bugs.launchpad.net/keystone/+bug/1006777,2012-09-27
+980085,980085,Fix Released,ldap Identity backend TenantAPI bugs,https://bugs.launchpad.net/keystone/+bug/980085,2012-09-27
+1030912,1030912,Fix Released,auth_token middleware fails to fetch CA Cert,https://bugs.launchpad.net/keystone/+bug/1030912,2012-09-27
+1022575,1022575,Fix Released,pep8 tests failing for tests/*py,https://bugs.launchpad.net/keystone/+bug/1022575,2012-09-27
+1022411,1022411,Fix Released,500 Returned when trying to PUT /users/<USER_ID>/enabled,https://bugs.launchpad.net/keystone/+bug/1022411,2012-09-27
+1021508,1021508,Fix Released,pep8 not being ran for tests,https://bugs.launchpad.net/keystone/+bug/1021508,2012-09-27
+1016056,1016056,Fix Released,EC2 credentials not migrated from legacy (diablo) database,https://bugs.launchpad.net/keystone/+bug/1016056,2012-09-27
+1016171,1016171,Fix Released,Keystone API is forcing Content-Transfer: chunked on responses,https://bugs.launchpad.net/keystone/+bug/1016171,2012-09-27
+1003962,1003962,Fix Released,PKI Signed Tokens,https://bugs.launchpad.net/keystone/+bug/1003962,2012-09-27
+996922,996922,Fix Released,Ability to allow a user to change their own password,https://bugs.launchpad.net/keystone/+bug/996922,2012-09-27
+1027109,1027109,Fix Released,DOCS: Broken link in http://docs.openstack.org/developer/keystone/api_curl_examples.html,https://bugs.launchpad.net/keystone/+bug/1027109,2012-09-27
+1031317,1031317,Fix Released,log errors when signing/verification fail,https://bugs.launchpad.net/keystone/+bug/1031317,2012-09-27
+1023998,1023998,Fix Released,Explicitly prevent X-Service-Catalog from being injected via auth_token middleware,https://bugs.launchpad.net/keystone/+bug/1023998,2012-09-27
+1021315,1021315,Fix Released,Live LDAP tests fail,https://bugs.launchpad.net/keystone/+bug/1021315,2012-09-27
+1020569,1020569,Fix Released,wsgi code ties all middleware consumers  to Eventlet,https://bugs.launchpad.net/keystone/+bug/1020569,2012-09-27
+1006055,1006055,Fix Released,/v2.0/tenants: the 'limit' paramter should limit results instead of scopes,https://bugs.launchpad.net/keystone/+bug/1006055,2012-09-27
+999594,999594,Fix Released,Keystone Admin: Can create a duplicate roleRef (role assignment) for a user,https://bugs.launchpad.net/keystone/+bug/999594,2012-09-27
+994860,994860,Fix Released,Keystone middleware auth_token assumes top level URL when making http connection,https://bugs.launchpad.net/keystone/+bug/994860,2012-09-27
+967440,967440,Fix Released,Eventlet monkey_patch done too late ?,https://bugs.launchpad.net/keystone/+bug/967440,2012-09-27
+966251,966251,Fix Released,User can be created with name more than 64 characters in length,https://bugs.launchpad.net/keystone/+bug/966251,2012-09-27
+1037010,1037010,Fix Released,[folsom-3] Missing files in generated tarballs,https://bugs.launchpad.net/keystone/+bug/1037010,2012-09-27
+1031191,1031191,Fix Released,PKI key_size=2048 causes truncation errors on 'id' column,https://bugs.launchpad.net/keystone/+bug/1031191,2012-09-27
+1031164,1031164,Fix Released,Support PostgreSQL w/ migration 002,https://bugs.launchpad.net/keystone/+bug/1031164,2012-09-27
+1031022,1031022,Fix Released,update auth_token to default signing_dir w/ os USER as suffix,https://bugs.launchpad.net/keystone/+bug/1031022,2012-09-27
+958950,958950,Fix Released,no unit tests for SQL catalog backend,https://bugs.launchpad.net/keystone/+bug/958950,2012-09-27
+1030968,1030968,Fix Released,'Adminness' is not asserted when validating non-PKI tokens,https://bugs.launchpad.net/keystone/+bug/1030968,2012-09-27
+1020613,1020613,Fix Released,iso8601 is required by default on keystone,https://bugs.launchpad.net/keystone/+bug/1020613,2012-09-27
+1020182,1020182,Fix Released,Reorder test imports by full import path,https://bugs.launchpad.net/keystone/+bug/1020182,2012-09-27
+1017554,1017554,Fix Released,Provision certificates for Keystone install,https://bugs.launchpad.net/keystone/+bug/1017554,2012-09-27
+1014845,1014845,Fix Released,keystoneclient requires unittest2 for production install,https://bugs.launchpad.net/keystone/+bug/1014845,2012-09-27
+1013441,1013441,Fix Released,Reorder imports by full import path,https://bugs.launchpad.net/keystone/+bug/1013441,2012-09-27
+994501,994501,Fix Released,Token authentication for missing tenant,https://bugs.launchpad.net/keystone/+bug/994501,2012-09-27
+980864,980864,Fix Released,Keystone Essex does not support TLS over HTTPS,https://bugs.launchpad.net/keystone/+bug/980864,2012-09-27
+928564,928564,Fix Released,require only one ctrl-c to kill keystone,https://bugs.launchpad.net/keystone/+bug/928564,2012-09-27
+1007661,1007661,Fix Released,keystoneclient should only attempt to decode JSON in msg body if the response was a success,https://bugs.launchpad.net/keystone/+bug/1007661,2012-09-27
+1006793,1006793,Fix Released,Service API :5000/v2.0/tenants doesn't check HTTP method,https://bugs.launchpad.net/keystone/+bug/1006793,2012-09-27
+1006344,1006344,Fix Released,Attempt to get list ofusers by passing non existant tenant id is not raising exception,https://bugs.launchpad.net/keystone/+bug/1006344,2012-09-27
+1006334,1006334,Fix Released,Attempt to add role to nonexistant user on tenant is not throwing an error,https://bugs.launchpad.net/keystone/+bug/1006334,2012-09-27
+1006287,1006287,Fix Released,Attempt to delete role of user with invalid parameters sent is returning 500 error code,https://bugs.launchpad.net/keystone/+bug/1006287,2012-09-27
+1006029,1006029,Fix Released,Invalid tokens obtained when tenantId/tenantName is missing/invalid,https://bugs.launchpad.net/keystone/+bug/1006029,2012-09-27
+999608,999608,Fix Released,Keystone Admin: Creating a roleRef for a non	existent user or role returns Internal Server Error,https://bugs.launchpad.net/keystone/+bug/999608,2012-09-27
+999209,999209,Fix Released,Listing roleRefs (Role assignments) for non existent user returns an incorrect status code,https://bugs.launchpad.net/keystone/+bug/999209,2012-09-27
+987457,987457,Fix Released,keystoneclient endpoint-create should require service_id,https://bugs.launchpad.net/keystone/+bug/987457,2012-09-27
+980209,980209,Fix Released,BaseLDAP builds tree_dn backwards,https://bugs.launchpad.net/keystone/+bug/980209,2012-09-27
+1012282,1012282,Fix Released,Missing 'content-type' header triggers 500 Internal Server Error,https://bugs.launchpad.net/keystone/+bug/1012282,2012-09-27
+1010237,1010237,Fix Released,Validate token should always return service catalog,https://bugs.launchpad.net/keystone/+bug/1010237,2012-09-27
+1003715,1003715,Fix Released,auth_token middleware doesn't import optional modules correctly,https://bugs.launchpad.net/keystone/+bug/1003715,2012-09-27
+999998,999998,Fix Released,Swift Auth backward compatibility broken,https://bugs.launchpad.net/keystone/+bug/999998,2012-09-27
+999567,999567,Fix Released,Keystone Admin - Deleting a roleRef for a non existent user or role returns Internal Server Error,https://bugs.launchpad.net/keystone/+bug/999567,2012-09-27
+999447,999447,Fix Released,swift_auth middleware is still referencing deprecated header HTTP_X_USER,https://bugs.launchpad.net/keystone/+bug/999447,2012-09-27
+995222,995222,Fix Released,swift proxy start ValueError: invalid literal for int() with base 10: 'true',https://bugs.launchpad.net/keystone/+bug/995222,2012-09-27
+994744,994744,Fix Released,"--user should be --user_id, for consistency",https://bugs.launchpad.net/keystone/+bug/994744,2012-09-27
+1020109,1020109,Fix Released,User role deletion is broken,https://bugs.launchpad.net/keystone/+bug/1020109,2012-09-27
+1019409,1019409,Fix Released,python-keystone client fails w/ PrettyTable 0.5-3 (,https://bugs.launchpad.net/keystone/+bug/1019409,2012-09-27
+1013953,1013953,Fix Released,keystoneclient fails with 'pkg_resources.DistributionNotFound: argparse' Error,https://bugs.launchpad.net/keystone/+bug/1013953,2012-09-27
+1012381,1012381,Fix Released,Memcache token backend eventually stops working,https://bugs.launchpad.net/keystone/+bug/1012381,2012-09-27
+1006341,1006341,Fix Released,Attempt to add role to user with nonexistant tenant id in the request is not raising proper exception,https://bugs.launchpad.net/keystone/+bug/1006341,2012-09-27
+928441,928441,Fix Released,document base model types for key elements within Keystone API,https://bugs.launchpad.net/keystone/+bug/928441,2012-09-27
+1006316,1006316,Fix Released,Add invalid role id to user on tenant is not raising proper exception,https://bugs.launchpad.net/keystone/+bug/1006316,2012-09-27
+994481,994481,Fix Released,admin login in pam backend fails,https://bugs.launchpad.net/keystone/+bug/994481,2012-09-27
+992918,992918,Fix Released,ValueError: rounds too low (sha512_crypt requires >= 1000 rounds),https://bugs.launchpad.net/keystone/+bug/992918,2012-09-27
+980277,980277,Fix Released,Live LDAP tests do cleanup no_meta user,https://bugs.launchpad.net/keystone/+bug/980277,2012-09-27
+974199,974199,Fix Released,deleting a tenant does not cleanup its user associations,https://bugs.launchpad.net/keystone/+bug/974199,2012-09-27
+973433,973433,Fix Released,S3_Token  middleware is not coming back with proper s3 reply when unauthorized token or service is not available,https://bugs.launchpad.net/keystone/+bug/973433,2012-09-27
+973243,973243,Fix Released,deleting tenants or users does not clean up metadata,https://bugs.launchpad.net/keystone/+bug/973243,2012-09-27
+966749,966749,Fix Released,documentation incorrect: user-create throws on --default_tenant,https://bugs.launchpad.net/keystone/+bug/966749,2012-09-27
+966670,966670,Fix Released,keystone-manage looks in source tree first for keystone.conf,https://bugs.launchpad.net/keystone/+bug/966670,2012-09-27
+966612,966612,Fix Released,Build artifacts are missing from .gitignore,https://bugs.launchpad.net/keystone/+bug/966612,2012-09-27
+966249,966249,Fix Released,Tenant can be created with name more than 64 characters in length,https://bugs.launchpad.net/keystone/+bug/966249,2012-09-27
+1000608,1000608,Fix Released,Backslash continuation removal (Keystone folsom-1),https://bugs.launchpad.net/keystone/+bug/1000608,2012-09-27
+991936,991936,Fix Released,"501 Not Implemented response missing ""title"" attribute",https://bugs.launchpad.net/keystone/+bug/991936,2012-09-27
+983800,983800,Fix Released,TokenNotFound not raised in testsuite because of timezone issues,https://bugs.launchpad.net/keystone/+bug/983800,2012-09-27

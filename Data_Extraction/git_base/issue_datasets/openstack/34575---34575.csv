@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1555093,1555093,Fix Released,Keystone v3 support broken (all clients),https://bugs.launchpad.net/manila/+bug/1555093,2016-11-10
+1557283,1557283,Fix Released,ZFSonLinux driver fails replcation tests with snapshot instance fix,https://bugs.launchpad.net/manila/+bug/1557283,2016-11-10
+1544725,1544725,Fix Released,manage API ignores snapshot_support in the share_type,https://bugs.launchpad.net/manila/+bug/1544725,2016-11-10
+1550295,1550295,Fix Released,Concurrent requests to allow access get lost,https://bugs.launchpad.net/manila/+bug/1550295,2016-11-10
+1551064,1551064,Fix Released,Shares created from snapshot of a replicated share do not support replication,https://bugs.launchpad.net/manila/+bug/1551064,2016-11-10
+1546303,1546303,Fix Released,Drivers need more information to ensure snapshots of a replicated share across replicas,https://bugs.launchpad.net/manila/+bug/1546303,2016-11-10
+1557071,1557071,Fix Released,NetApp cDOT: Does not handle replicated snapshots,https://bugs.launchpad.net/manila/+bug/1557071,2016-11-10
+1559456,1559456,Fix Released,tests run before instance is ready in generic-no-share-servers CI,https://bugs.launchpad.net/manila/+bug/1559456,2016-11-10
+1518147,1518147,Fix Committed,Revert oslo.versionedobjects when new release ready,https://bugs.launchpad.net/magnum/+bug/1518147,2016-11-10
+1520072,1520072,Fix Committed,Dev guide for mesos need fix one typo place,https://bugs.launchpad.net/magnum/+bug/1520072,2016-11-10
+1520308,1520308,Fix Committed,Heat stack error - when creating a new swarmbay,https://bugs.launchpad.net/magnum/+bug/1520308,2016-11-10
+1519714,1519714,Fix Committed,DEFAULT_DOCKER_TIMEOUT =10 is too short,https://bugs.launchpad.net/magnum/+bug/1519714,2016-11-10
+1521840,1521840,Fix Committed,Can not import magnum.api.validation,https://bugs.launchpad.net/magnum/+bug/1521840,2016-11-10
+1521395,1521395,Fix Released,Gate occasionally failed with TLS handshake error,https://bugs.launchpad.net/magnum/+bug/1521395,2016-11-10
+1521146,1521146,Fix Committed,"bay-show command always return ""0"" in bay_create_timeout",https://bugs.launchpad.net/magnum/+bug/1521146,2016-11-10
+1522620,1522620,Fix Committed,Remove Python 2.6 classifier,https://bugs.launchpad.net/magnum/+bug/1522620,2016-11-10
+1524123,1524123,Fix Released,avoid to use keystone client in doc,https://bugs.launchpad.net/magnum/+bug/1524123,2016-11-10
+1524134,1524134,Fix Released,swarm template need cleanup,https://bugs.launchpad.net/magnum/+bug/1524134,2016-11-10
+1523843,1523843,Fix Released,500 error occurred in pod creation,https://bugs.launchpad.net/magnum/+bug/1523843,2016-11-10
+1524236,1524236,Fix Released,The types of some parameters in heat templates are wrong,https://bugs.launchpad.net/magnum/+bug/1524236,2016-11-10
+1525035,1525035,Fix Released,Duplicated code in k8s conductor handler,https://bugs.launchpad.net/magnum/+bug/1525035,2016-11-10
+1525678,1525678,Fix Released,Not able to delete a failed bay,https://bugs.launchpad.net/magnum/+bug/1525678,2016-11-10
+1526433,1526433,Fix Released,$HOME directory is deleted when run clean.sh in devstack,https://bugs.launchpad.net/magnum/+bug/1526433,2016-11-10
+1526173,1526173,Fix Released,"pod-list --bay ""not_k8s_bay"" will return 500 error",https://bugs.launchpad.net/magnum/+bug/1526173,2016-11-10
+1526581,1526581,Fix Released,Remove bay_lock,https://bugs.launchpad.net/magnum/+bug/1526581,2016-11-10
+1528059,1528059,Fix Released,Gate failed with empty service catalog error,https://bugs.launchpad.net/magnum/+bug/1528059,2016-11-10
+1528078,1528078,Fix Released,enable docker registry in heat template,https://bugs.launchpad.net/magnum/+bug/1528078,2016-11-10
+1528075,1528075,Fix Released,error in docker registry configuration,https://bugs.launchpad.net/magnum/+bug/1528075,2016-11-10
+1502367,1502367,Fix Released,Remove the logic to Create a kubernetes API client for each k8s object,https://bugs.launchpad.net/magnum/+bug/1502367,2016-11-10
+1527407,1527407,Fix Released,Move swarm agent out of master node,https://bugs.launchpad.net/magnum/+bug/1527407,2016-11-10
+1498570,1498570,Fix Released,swarm baymodel does not honor master_flavor_id,https://bugs.launchpad.net/magnum/+bug/1498570,2016-11-10
+1528744,1528744,Fix Released,"Option ""lock_path"" from group ""DEFAULT"" is deprecated.",https://bugs.launchpad.net/magnum/+bug/1528744,2016-11-10
+1528867,1528867,Fix Released,Move away from cliutils.py,https://bugs.launchpad.net/magnum/+bug/1528867,2016-11-10
+1529030,1529030,Fix Released,remove openstack common code from Magnum,https://bugs.launchpad.net/magnum/+bug/1529030,2016-11-10
+1524151,1524151,Fix Released,bay-show doesn't return stack_id,https://bugs.launchpad.net/magnum/+bug/1524151,2016-11-10
+1529253,1529253,Fix Released,remove unused logging import,https://bugs.launchpad.net/magnum/+bug/1529253,2016-11-10
+1529200,1529200,Fix Released,Raise exception when failed to get discovery_url,https://bugs.launchpad.net/magnum/+bug/1529200,2016-11-10
+1529786,1529786,Fix Released,devstack: wrong image variable in scripts,https://bugs.launchpad.net/magnum/+bug/1529786,2016-11-10
+1530503,1530503,Fix Released,K8s monitor passes wrong bay indent to k8s_api,https://bugs.launchpad.net/magnum/+bug/1530503,2016-11-10
+1529798,1529798,Fix Released,Http 500 when bay name contains Unicode characters like Chinese,https://bugs.launchpad.net/magnum/+bug/1529798,2016-11-10
+1530789,1530789,Fix Released,Remove redundant code in magnum/api/controllers/v1/service.py,https://bugs.launchpad.net/magnum/+bug/1530789,2016-11-10
+1520311,1520311,Fix Released,magnum service-list return incorrect error code,https://bugs.launchpad.net/magnum/+bug/1520311,2016-11-10
+1531239,1531239,Fix Released,"magnum-conductor throws exception on ""Possible Hang""",https://bugs.launchpad.net/magnum/+bug/1531239,2016-11-10
+1531725,1531725,Fix Released,Incorrect message when failed to get discovery url,https://bugs.launchpad.net/magnum/+bug/1531725,2016-11-10
+1530506,1530506,Fix Released,baymodel's mandatory attr can be deleted when update it.,https://bugs.launchpad.net/magnum/+bug/1530506,2016-11-10
+1532918,1532918,Fix Released,Create a bay without name returned 500,https://bugs.launchpad.net/magnum/+bug/1532918,2016-11-10
+1533146,1533146,Fix Released,Doc comment for `baymodel_id` attr is confusing,https://bugs.launchpad.net/magnum/+bug/1533146,2016-11-10
+1533148,1533148,Fix Released,Doc comment for `node_count` attr is confusing,https://bugs.launchpad.net/magnum/+bug/1533148,2016-11-10
+1517259,1517259,Fix Released,Disallow updating baymodel when it is referenced,https://bugs.launchpad.net/magnum/+bug/1517259,2016-11-10
+1523180,1523180,Fix Released,Use bay name as Mesos cluster name,https://bugs.launchpad.net/magnum/+bug/1523180,2016-11-10
+1533510,1533510,Fix Released,'novaclient.v2.client.Client' is not designed to be initialized directly,https://bugs.launchpad.net/magnum/+bug/1533510,2016-11-10
+1533540,1533540,Fix Released,do not use inner class of heatclient,https://bugs.launchpad.net/magnum/+bug/1533540,2016-11-10
+1533550,1533550,Fix Released,do not use inner class of glanceclient,https://bugs.launchpad.net/magnum/+bug/1533550,2016-11-10
+1530788,1530788,Fix Released,use oslo.i18n in magnum/api/controllers/v1/service.py,https://bugs.launchpad.net/magnum/+bug/1530788,2016-11-10
+1533149,1533149,Fix Released,`status ` Bay attr being an Enum,https://bugs.launchpad.net/magnum/+bug/1533149,2016-11-10
+1534641,1534641,Fix Released,Gate: API func test failed with Unauthorized,https://bugs.launchpad.net/magnum/+bug/1534641,2016-11-10
+1494122,1494122,Fix Released,Change 404 to 400 when resource not found exception raises,https://bugs.launchpad.net/magnum/+bug/1494122,2016-11-10
+1535611,1535611,Fix Released,"Option ""notification_driver"" from group ""DEFAULT"" is deprecated",https://bugs.launchpad.net/murano/+bug/1535611,2016-11-10
+1535611,1535611,Fix Released,"Option ""notification_driver"" from group ""DEFAULT"" is deprecated",https://bugs.launchpad.net/magnum/+bug/1535611,2016-11-10
+1535825,1535825,Fix Released,Bay create fails to sign a certificate when name is not given,https://bugs.launchpad.net/magnum/+bug/1535825,2016-11-10
+1536484,1536484,Fix Released,BayModel#fixed_network is used for fixed_network_cidr,https://bugs.launchpad.net/magnum/+bug/1536484,2016-11-10
+1532403,1532403,Fix Released,Remove dev prefix in magnum/doc/source/dev,https://bugs.launchpad.net/magnum/+bug/1532403,2016-11-10
+1538374,1538374,Fix Released,Use config-generator.conf to generate config.sample file,https://bugs.launchpad.net/magnum/+bug/1538374,2016-11-10
+1538796,1538796,Fix Released,kube-proxy container is dead in minion,https://bugs.launchpad.net/magnum/+bug/1538796,2016-11-10
+1539423,1539423,Fix Released,Hacking rule doesn't exist in HACKING.rst,https://bugs.launchpad.net/magnum/+bug/1539423,2016-11-10
+1539438,1539438,Fix Released,Wrong usage of MagnumService object,https://bugs.launchpad.net/magnum/+bug/1539438,2016-11-10
+1539764,1539764,Fix Released,Update in devstack gate forces everyone to use keystone v3,https://bugs.launchpad.net/magnum/+bug/1539764,2016-11-10
+1533746,1533746,Fix Released,Tech-debt: Add func test to validate baymodel-update,https://bugs.launchpad.net/magnum/+bug/1533746,2016-11-10
+1539356,1539356,Fix Released,"When I perform bay-update to reduce the node,DBerror error has occurred",https://bugs.launchpad.net/magnum/+bug/1539356,2016-11-10
+1540646,1540646,Fix Released,bay-create takes too long to return,https://bugs.launchpad.net/magnum/+bug/1540646,2016-11-10
+1538447,1538447,Fix Released,We need to add status that can update the stack,https://bugs.launchpad.net/magnum/+bug/1538447,2016-11-10
+1540790,1540790,Fix Released,Remove node object from Magnum,https://bugs.launchpad.net/magnum/+bug/1540790,2016-11-10
+1542162,1542162,Fix Released,Bay#status should be Enum,https://bugs.launchpad.net/magnum/+bug/1542162,2016-11-10
+1542167,1542167,Fix Released,BayModel#coe should be Enum,https://bugs.launchpad.net/magnum/+bug/1542167,2016-11-10
+1541105,1541105,Fix Released,etcdctl sometimes hangs during provisioning,https://bugs.launchpad.net/magnum/+bug/1541105,2016-11-10

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1178919,1178919,Fix Released,instances get stuck in 'BUILDING' sometimes,https://bugs.launchpad.net/nova/+bug/1178919,2013-10-17
+1200321,1200321,Fix Released,"Large lines with ""Update port filter for"" filling log files.",https://bugs.launchpad.net/neutron/+bug/1200321,2013-10-17
+1177993,1177993,Fix Released,poll_rebooting_instances hits DB directly  in Xen/VMware virt drivers,https://bugs.launchpad.net/nova/+bug/1177993,2013-10-17
+1175286,1175286,Fix Released,cannot block migrate old style instances libvirt complains,https://bugs.launchpad.net/nova/+bug/1175286,2013-10-17
+1197200,1197200,Fix Released,do not mask NotImplementedError exceptions,https://bugs.launchpad.net/neutron/+bug/1197200,2013-10-17
+1160078,1160078,Fix Released,instance_uuid and instance_id used in get_instance_security_groups(),https://bugs.launchpad.net/nova/+bug/1160078,2013-10-17
+1197053,1197053,Fix Released,Remove unused database table from Cisco plugin,https://bugs.launchpad.net/neutron/+bug/1197053,2013-10-17
+1133058,1133058,Fix Released,powervm lacks tests for resize/migrate,https://bugs.launchpad.net/nova/+bug/1133058,2013-10-17
+1195781,1195781,Fix Released,rootwrap default config has uppercase sections,https://bugs.launchpad.net/neutron/+bug/1195781,2013-10-17
+1084703,1084703,Fix Released,ImageNotFound ERROR in n-api log after good tempest run,https://bugs.launchpad.net/nova/+bug/1084703,2013-10-17
+1195429,1195429,Fix Released,Remove reference to quantum cli in provider network extension,https://bugs.launchpad.net/neutron/+bug/1195429,2013-10-17
+1077817,1077817,Fix Released,Nova failed to mount a RBD volume without extra ceph.conf,https://bugs.launchpad.net/nova/+bug/1077817,2013-10-17
+1077817,1077817,Fix Released,Nova failed to mount a RBD volume without extra ceph.conf,https://bugs.launchpad.net/cinder/+bug/1077817,2013-10-17
+1194296,1194296,Fix Released,bigswitch plugin uses upper case configuration section,https://bugs.launchpad.net/neutron/+bug/1194296,2013-10-17
+1074908,1074908,Fix Released,EC2 RegisterImage ImageLocation starts with / Fails,https://bugs.launchpad.net/nova/+bug/1074908,2013-10-17
+1049249,1049249,Fix Released,Remove plugging of internal classes from configuration,https://bugs.launchpad.net/nova/+bug/1049249,2013-10-17
+1192987,1192987,Fix Released,pbr single-version-externally-mananged typo in quantum setup.cfg,https://bugs.launchpad.net/neutron/+bug/1192987,2013-10-17
+1200069,1200069,Fix Released,heartbeating is broken with kombu,https://bugs.launchpad.net/nova/+bug/1200069,2013-10-17
+1191623,1191623,Fix Released,wrong log message in l3_rpc_agent_api,https://bugs.launchpad.net/neutron/+bug/1191623,2013-10-17
+1191155,1191155,Fix Released,update Quantum to use newer version of pbr,https://bugs.launchpad.net/neutron/+bug/1191155,2013-10-17
+1191113,1191113,Fix Released,Periodic task refresh object issue?,https://bugs.launchpad.net/nova/+bug/1191113,2013-10-17
+1190032,1190032,Fix Released,improve detection of config errors in nvp ini file,https://bugs.launchpad.net/neutron/+bug/1190032,2013-10-17
+1186243,1186243,Fix Released,Race can cause soft deleted instance to be erased by mistake,https://bugs.launchpad.net/nova/+bug/1186243,2013-10-17
+1189683,1189683,Fix Released,prettify nvplib exception messages,https://bugs.launchpad.net/neutron/+bug/1189683,2013-10-17
+1183452,1183452,Fix Released,VMware drivers are no longer passing quantum port-id to vCenter,https://bugs.launchpad.net/nova/+bug/1183452,2013-10-17
+1188959,1188959,Fix Released,lbaas. Adding column level constraints to table definition,https://bugs.launchpad.net/neutron/+bug/1188959,2013-10-17
+1183192,1183192,Fix Released,VMware VC Driver does not honor hw_vif_model from glance,https://bugs.launchpad.net/nova/+bug/1183192,2013-10-17
+1188562,1188562,Fix Released,nicira plugin: subnet loaded twice in add_router_interface,https://bugs.launchpad.net/neutron/+bug/1188562,2013-10-17
+1180178,1180178,Fix Released,Instance IP addresses are re-used even when previous instance could not be powered off,https://bugs.launchpad.net/nova/+bug/1180178,2013-10-17
+1180178,1180178,Fix Released,Instance IP addresses are re-used even when previous instance could not be powered off,https://bugs.launchpad.net/tripleo/+bug/1180178,2013-10-17
+1187600,1187600,Fix Released,missing *.swo/swp in .gitignore,https://bugs.launchpad.net/neutron/+bug/1187600,2013-10-17
+1178369,1178369,Fix Released,VNC console does not work with VCDriver,https://bugs.launchpad.net/nova/+bug/1178369,2013-10-17
+1186518,1186518,Fix Released,Ensure all OpenStack Modules have common set of files packaged,https://bugs.launchpad.net/neutron/+bug/1186518,2013-10-17
+1178092,1178092,Fix Released,second boot during baremetal deploy does not configure netboot : will hang unless the machine attempts PXE automatically,https://bugs.launchpad.net/tripleo/+bug/1178092,2013-10-17
+1178092,1178092,Fix Released,second boot during baremetal deploy does not configure netboot : will hang unless the machine attempts PXE automatically,https://bugs.launchpad.net/nova/+bug/1178092,2013-10-17
+1186255,1186255,Fix Released,Fix auto-generated doc for QuantumPluginBaseV2,https://bugs.launchpad.net/neutron/+bug/1186255,2013-10-17
+1175808,1175808,Fix Released,Qpid cannot serialize objects containing strings longer than 65535 characters,https://bugs.launchpad.net/neutron/+bug/1175808,2013-10-17
+1175808,1175808,Fix Released,Qpid cannot serialize objects containing strings longer than 65535 characters,https://bugs.launchpad.net/nova/+bug/1175808,2013-10-17
+1175808,1175808,Fix Released,Qpid cannot serialize objects containing strings longer than 65535 characters,https://bugs.launchpad.net/heat/+bug/1175808,2013-10-17
+1186077,1186077,Fix Released,create/delete_floatingip missing from policy.json,https://bugs.launchpad.net/neutron/+bug/1186077,2013-10-17
+1185712,1185712,Fix Released,Inconsistent way of writing the default values in configuration files,https://bugs.launchpad.net/neutron/+bug/1185712,2013-10-17
+1169005,1169005,Fix Released,nova coverage create lots empty folders even with coverage extension disabled,https://bugs.launchpad.net/nova/+bug/1169005,2013-10-17
+1183285,1183285,Fix Released,Invalid error status code returned by nicira network-gateway API extension,https://bugs.launchpad.net/neutron/+bug/1183285,2013-10-17
+1167811,1167811,Fix Released,Unnecessary db call in scheduler driver live-migration code,https://bugs.launchpad.net/nova/+bug/1167811,2013-10-17
+1177572,1177572,Fix Released,List networks operation reloads external network info for each network,https://bugs.launchpad.net/neutron/+bug/1177572,2013-10-17
+1075089,1075089,Fix Released,Exception message muted in quantum/db/l3_db.py,https://bugs.launchpad.net/neutron/+bug/1075089,2013-10-17
+1165088,1165088,Fix Released,Passing duplicate network ids to Quantum throws wrong exception,https://bugs.launchpad.net/nova/+bug/1165088,2013-10-17
+1164152,1164152,Fix Released,legacy_net_info guard incompatible with new-style NetworkInfo,https://bugs.launchpad.net/nova/+bug/1164152,2013-10-17
+1201569,1201569,Fix Released,Nicira plugin not loaded for port security unit tests,https://bugs.launchpad.net/neutron/+bug/1201569,2013-10-17
+1163622,1163622,Fix Released,_update_usage_from_migrations doesn't grab instance for migration,https://bugs.launchpad.net/nova/+bug/1163622,2013-10-17
+1200749,1200749,Fix Released,NAT rule on l3-agent will not be deleted after deletion,https://bugs.launchpad.net/neutron/+bug/1200749,2013-10-17
+1163598,1163598,Fix Released,InstanceMetadata content can be None,https://bugs.launchpad.net/nova/+bug/1163598,2013-10-17
+1200698,1200698,Fix Released,OverflowError: timeout is too large in gate-neutron-python27,https://bugs.launchpad.net/neutron/+bug/1200698,2013-10-17
+1161193,1161193,Fix Released,Compute manager fails to cleanup compute_nodes not reported by driver,https://bugs.launchpad.net/nova/+bug/1161193,2013-10-17
+1200530,1200530,Fix Released,neutron.common.legacy is using LOG before the logging is setup,https://bugs.launchpad.net/neutron/+bug/1200530,2013-10-17
+1159897,1159897,Fix Released,docstring has incorrect return value docs,https://bugs.launchpad.net/nova/+bug/1159897,2013-10-17
+1200023,1200023,Fix Released,BigSwitch plugin generates unnecessary errors on 404 from controller,https://bugs.launchpad.net/neutron/+bug/1200023,2013-10-17
+1200022,1200022,Fix Released,Race condition with failover logic in BigSwitch plugin,https://bugs.launchpad.net/neutron/+bug/1200022,2013-10-17
+1159042,1159042,Fix Released,Argument order inconsistancy in nova.network.quantumv2.api.get_instance_nw_info(),https://bugs.launchpad.net/nova/+bug/1159042,2013-10-17
+1199978,1199978,Fix Released,Unit tests for the ML2 Mechanism Driver,https://bugs.launchpad.net/neutron/+bug/1199978,2013-10-17
+1199977,1199977,Fix Released,ml2_conf.ini needs comments describing mechanism_drivers,https://bugs.launchpad.net/neutron/+bug/1199977,2013-10-17
+1158075,1158075,Fix Released,network-create returns an internal error when network conflicts,https://bugs.launchpad.net/nova/+bug/1158075,2013-10-17
+1157411,1157411,Fix Released,nova.network.manager should list InstanceNotFound as a client exception,https://bugs.launchpad.net/nova/+bug/1157411,2013-10-17
+1199160,1199160,Fix Released,Cisco plugin sample config still says quantum,https://bugs.launchpad.net/neutron/+bug/1199160,2013-10-17
+1156445,1156445,Fix Released,ec2 api does not work for aws-java-sdk,https://bugs.launchpad.net/nova/+bug/1156445,2013-10-17
+1198223,1198223,Fix Released,Drop a name of packet filter in NEC Plugin,https://bugs.launchpad.net/neutron/+bug/1198223,2013-10-17
+1155458,1155458,Fix Released,500 response when trying to create a server from a deleted image,https://bugs.launchpad.net/nova/+bug/1155458,2013-10-17
+1155113,1155113,Fix Released,xenapi: ImageTooLarge for instances with 0 disk size,https://bugs.launchpad.net/nova/+bug/1155113,2013-10-17
+1196806,1196806,Fix Released,Divide dhcp and l3 agent scheduling into separate extensions,https://bugs.launchpad.net/neutron/+bug/1196806,2013-10-17
+1130922,1130922,Fix Released,nova.virt.driver.ComputeDriver.check_can_live_migrate_destination docstring should specify the return type,https://bugs.launchpad.net/nova/+bug/1130922,2013-10-17
+1130222,1130222,Fix Released,vmware compute driver retrieves the cluster reference for every spawn and volume operation,https://bugs.launchpad.net/nova/+bug/1130222,2013-10-17
+1195923,1195923,Fix Released,Add HTTP timeout in BigSwitch Neutron plugin,https://bugs.launchpad.net/neutron/+bug/1195923,2013-10-17
+1115575,1115575,Fix Released,Missing unit test for FlavorAccess create,https://bugs.launchpad.net/nova/+bug/1115575,2013-10-17
+1195903,1195903,Fix Released,BigSwitch port tracking code doesn't correctly handle missing host id,https://bugs.launchpad.net/neutron/+bug/1195903,2013-10-17
+1098048,1098048,Fix Released,Traceback from cinderclient in nova-api log for BadRequest errors,https://bugs.launchpad.net/nova/+bug/1098048,2013-10-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1263684,1263684,Fix Released,"DB2: GET image with long ID (non-existed) Glance would return 500, but not 404",https://bugs.launchpad.net/glance/+bug/1263684,2014-04-17
+1258160,1258160,Fix Released,Got error if create image with v2 and update it with v1,https://bugs.launchpad.net/glance/+bug/1258160,2014-04-17
+1283080,1283080,Fix Released,KeyError: 'user_identity',https://bugs.launchpad.net/glance/+bug/1283080,2014-04-17
+1276142,1276142,Fix Released,Physical image can not be deleted again if deletion is failed with OSError,https://bugs.launchpad.net/glance/+bug/1276142,2014-04-17
+1266590,1266590,Fix Released,db connection string is cleartext in debug log,https://bugs.launchpad.net/glance/+bug/1266590,2014-04-17
+1266590,1266590,Fix Released,db connection string is cleartext in debug log,https://bugs.launchpad.net/keystone/+bug/1266590,2014-04-17
+1260314,1260314,Fix Released,glance image-create with invalid store fails but still creates image,https://bugs.launchpad.net/glance/+bug/1260314,2014-04-17
+1256816,1256816,Fix Released,031 migration script failed on DB2,https://bugs.launchpad.net/glance/+bug/1256816,2014-04-17
+1276033,1276033,Fix Released,Now we're depending on python-swiftclient>=1.6,https://bugs.launchpad.net/glance/+bug/1276033,2014-04-17
+1275716,1275716,Fix Released,psutil >= 1.1.0 is actually on PyPI,https://bugs.launchpad.net/glance/+bug/1275716,2014-04-17
+1275062,1275062,Fix Released,[OSSA 2014-004] sensitive info in image location is logged when authentication to single tenant swift store fails (CVE-2014-1948),https://bugs.launchpad.net/ossa/+bug/1275062,2014-04-17
+1275062,1275062,Fix Released,[OSSA 2014-004] sensitive info in image location is logged when authentication to single tenant swift store fails (CVE-2014-1948),https://bugs.launchpad.net/glance/+bug/1275062,2014-04-17
+1273087,1273087,Fix Released,Image status stuck at 'saving' when an upload fails using v2 APIs,https://bugs.launchpad.net/glance/+bug/1273087,2014-04-17
+1268966,1268966,Fix Released,glance requires pyOpenSSL>=0.11,https://bugs.launchpad.net/glance/+bug/1268966,2014-04-17
+1261253,1261253,Fix Released,oslo.messaging 1.2.0a11 is outdated and problematic to install,https://bugs.launchpad.net/tripleo/+bug/1261253,2014-04-17
+1261253,1261253,Fix Released,oslo.messaging 1.2.0a11 is outdated and problematic to install,https://bugs.launchpad.net/glance/+bug/1261253,2014-04-17
+1258068,1258068,Fix Released,glance-manage doesnt take version into consideration,https://bugs.launchpad.net/glance/+bug/1258068,2014-04-17
+1274365,1274365,Fix Released,FAIL: glance.tests.unit.v2.test_tasks_resource.TestTasksController.test_index_with_sort_key,https://bugs.launchpad.net/glance/+bug/1274365,2014-04-17
+1263945,1263945,Fix Released,Backwards compat support breaks transport_url,https://bugs.launchpad.net/glance/+bug/1263945,2014-04-17
+1264245,1264245,Fix Released,Remove unused imports in glance,https://bugs.launchpad.net/glance/+bug/1264245,2014-04-17
+1264204,1264204,Fix Released,redundant code in glance.tests.unit.utils:FakeDB.reset,https://bugs.launchpad.net/glance/+bug/1264204,2014-04-17
+1264193,1264193,Fix Released,wrong doc string for glance.db.sqlalchemy.migration.db_sync,https://bugs.launchpad.net/glance/+bug/1264193,2014-04-17
+1264089,1264089,Fix Released,Wrong string format in exception in glance.api.v2.image_data,https://bugs.launchpad.net/glance/+bug/1264089,2014-04-17
+1264056,1264056,Fix Released,Redundant code to set sql_connection,https://bugs.launchpad.net/glance/+bug/1264056,2014-04-17
+1263871,1263871,Fix Released,Two different Exception didn't log seperately when get images information,https://bugs.launchpad.net/glance/+bug/1263871,2014-04-17
+1263639,1263639,Fix Released,glance/tests/unit/test_migrations.py does not calculate the tmp db path properly for sqlite,https://bugs.launchpad.net/glance/+bug/1263639,2014-04-17
+1263537,1263537,Fix Released,Glance is not H102 compliant,https://bugs.launchpad.net/glance/+bug/1263537,2014-04-17
+1263535,1263535,Fix Released,Remove Hxxx test ignored unecessarily,https://bugs.launchpad.net/glance/+bug/1263535,2014-04-17
+1259818,1259818,Fix Released,Remove unused exceptions,https://bugs.launchpad.net/glance/+bug/1259818,2014-04-17
+1259241,1259241,Fix Released,copy_from policy not enforced during update,https://bugs.launchpad.net/glance/+bug/1259241,2014-04-17
+1257949,1257949,Fix Released,fix task.owner to be nullable=False in models.py,https://bugs.launchpad.net/glance/+bug/1257949,2014-04-17
+1257922,1257922,Fix Released,Use glance.openstack.common.jsonutils to deal with JSON in test files,https://bugs.launchpad.net/glance/+bug/1257922,2014-04-17
+1257282,1257282,Fix Released,Bump hacking to 0.8,https://bugs.launchpad.net/glance/+bug/1257282,2014-04-17
+1256044,1256044,Fix Released,rbd driver returns wrong size when create size is zero,https://bugs.launchpad.net/glance/+bug/1256044,2014-04-17
+1249412,1249412,Fix Released,Images v2 api allows you to update container and diskformat after image upload,https://bugs.launchpad.net/glance/+bug/1249412,2014-04-17
+1239856,1239856,Fix Released,Registry client request GET /images/UUID raised ClientConnectionError,https://bugs.launchpad.net/glance/+bug/1239856,2014-04-17
+1267074,1267074,Fix Released,type() method should be replaced with isinstance() in stone/__init__.py,https://bugs.launchpad.net/glance/+bug/1267074,2014-04-17
+1262051,1262051,Fix Released,Cleanup: tests.functional.store_utils setup_s3 and setup_swift unused,https://bugs.launchpad.net/glance/+bug/1262051,2014-04-17
+1250228,1250228,Fix Released,Forbidden update to image member says 'image' instead of 'image member' in error message,https://bugs.launchpad.net/glance/+bug/1250228,2014-04-17
+1268051,1268051,Fix Released,README Oslo URL points to a blank page,https://bugs.launchpad.net/glance/+bug/1268051,2014-04-17
+1266986,1266986,Fix Released,Fix typo in gridfs store,https://bugs.launchpad.net/glance/+bug/1266986,2014-04-17
+1265711,1265711,Fix Released,image is creating with option min_disk and min_ram as negative number,https://bugs.launchpad.net/glance/+bug/1265711,2014-04-17
+1264428,1264428,Fix Released,Incorrect URL requested in Glance v1 API test_get_images_unauthorized test,https://bugs.launchpad.net/glance/+bug/1264428,2014-04-17
+1263437,1263437,Fix Released,Glance is not E125 Compliant,https://bugs.launchpad.net/glance/+bug/1263437,2014-04-17
+1259477,1259477,Fix Released,Duplicate __getitem__ in quota/__init__.py,https://bugs.launchpad.net/glance/+bug/1259477,2014-04-17
+1259227,1259227,Fix Released,Bug in Glance Simple DB while applying filters on properties,https://bugs.launchpad.net/glance/+bug/1259227,2014-04-17
+1259036,1259036,Fix Released,Duplicate test case 'test_exceed_append_location' in unit/test_quota.py,https://bugs.launchpad.net/glance/+bug/1259036,2014-04-17
+1257498,1257498,Fix Released,Glance v1: Creating/updating image with a malformed location uri causes 500,https://bugs.launchpad.net/glance/+bug/1257498,2014-04-17
+1257496,1257496,Fix Released,Glance v1: Creating image with bad scheme in location causes 500,https://bugs.launchpad.net/glance/+bug/1257496,2014-04-17
+1257234,1257234,Fix Released,HTTP Store is hiding errors from the remote location,https://bugs.launchpad.net/glance/+bug/1257234,2014-04-17
+1254210,1254210,Fix Released,"remove, add and save in glance.db.__init__ should not return",https://bugs.launchpad.net/glance/+bug/1254210,2014-04-17
+1250633,1250633,Fix Released,core domain objects depend on config,https://bugs.launchpad.net/glance/+bug/1250633,2014-04-17
+1247629,1247629,Fix Released,TestRegistryDB depends on TestRegistryAPI test case,https://bugs.launchpad.net/glance/+bug/1247629,2014-04-17
+1267148,1267148,Fix Released,ResponseSerializer shows incorrect 'expires_at' on a task at the time of creation,https://bugs.launchpad.net/glance/+bug/1267148,2014-04-17
+1265446,1265446,Fix Released,v2 upload returns '500' when quota exceeded on local filesystem storage,https://bugs.launchpad.net/glance/+bug/1265446,2014-04-17
+1263729,1263729,Fix Released,Image size won't be updated if locations are updated to empty,https://bugs.launchpad.net/glance/+bug/1263729,2014-04-17
+1261624,1261624,Fix Released,Missing image size after adding/updating the locations,https://bugs.launchpad.net/glance/+bug/1261624,2014-04-17
+1260738,1260738,Fix Released,image is creating with option size= a negative number,https://bugs.launchpad.net/glance/+bug/1260738,2014-04-17
+1260333,1260333,Fix Released,Malformed property protection rules return error to end user,https://bugs.launchpad.net/glance/+bug/1260333,2014-04-17
+1258691,1258691,Fix Released,don't ignore H306 while running tests,https://bugs.launchpad.net/glance/+bug/1258691,2014-04-17
+1254521,1254521,Fix Released,Add upload_image policy for glance v1 api,https://bugs.launchpad.net/glance/+bug/1254521,2014-04-17
+1251055,1251055,Fix Released,A GET on imagedata in glance v2 returns 404 instead of 204 when data does not exist.,https://bugs.launchpad.net/glance/+bug/1251055,2014-04-17
+1247481,1247481,Fix Released,is_image_sharable in sqlalchemy driver throws AttributeError,https://bugs.launchpad.net/glance/+bug/1247481,2014-04-17
+1245947,1245947,Fix Released,[DB2] Glance image-list command failed when there are more than DEFAULT_PAGE_SIZE images,https://bugs.launchpad.net/glance/+bug/1245947,2014-04-17
+1241025,1241025,Fix Released,guard against image upload conflict,https://bugs.launchpad.net/glance/+bug/1241025,2014-04-17
+1261738,1261738,Fix Released,Openstack Glance: user_total_quota calculated incorrectly,https://bugs.launchpad.net/glance/+bug/1261738,2014-04-17
+1257507,1257507,Fix Released,Glance v2: HTTP500 when updating image with locations,https://bugs.launchpad.net/glance/+bug/1257507,2014-04-17
+1259031,1259031,Fix Released,Glance needs a config option to limit the number of additional image locations,https://bugs.launchpad.net/glance/+bug/1259031,2014-04-17
+1256734,1256734,Fix Released,Use assertEqual instead of assertEquals in unitttest,https://bugs.launchpad.net/glance/+bug/1256734,2014-04-17
+1256217,1256217,Fix Released,Fix docstring on detail in glance/api/v1/images.py,https://bugs.launchpad.net/glance/+bug/1256217,2014-04-17
+1249949,1249949,Fix Released,"Remove ""image_cache_invalid_entry_grace_period ""option",https://bugs.launchpad.net/glance/+bug/1249949,2014-04-17
+1248292,1248292,Fix Released,config files should mention default log location,https://bugs.launchpad.net/glance/+bug/1248292,2014-04-17
+1243945,1243945,Fix Released,Adding third example for property protections,https://bugs.launchpad.net/glance/+bug/1243945,2014-04-17
+1243902,1243902,Fix Released,glance policy unit tests should use a simple mock instead of a FakePolicyEnforcer,https://bugs.launchpad.net/glance/+bug/1243902,2014-04-17
+1236709,1236709,Fix Released,argument of glance-cache-manage command is confusing,https://bugs.launchpad.net/glance/+bug/1236709,2014-04-17

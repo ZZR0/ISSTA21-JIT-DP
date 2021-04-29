@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1811004,1811004,Fix Released,tripleo-ci-centos-7-scenario003-standalone fails tempest.scenario.test_minimum_basic.TestMinimumBasicScenario,https://bugs.launchpad.net/tripleo/+bug/1811004,2019-03-25
+1800627,1800627,Fix Released,ganesha cannot handle access-allow 0.0.0.0/0,https://bugs.launchpad.net/manila/+bug/1800627,2019-03-25
+1713050,1713050,Fix Released,Monasca client raises keystone url error,https://bugs.launchpad.net/heat/+bug/1713050,2019-03-25
+1809165,1809165,Fix Released,service user token configuration is not documented,https://bugs.launchpad.net/nova/+bug/1809165,2019-03-24
+1805902,1805902,Fix Released,Attaching physical PCI devices to guests in nova - bad link for configuring a flavor for pci_passthrough,https://bugs.launchpad.net/nova/+bug/1805902,2019-03-24
+1805901,1805901,Fix Released,Attaching physical PCI devices to guests in nova - bad link to neutron admin guide,https://bugs.launchpad.net/nova/+bug/1805901,2019-03-24
+1808906,1808906,Fix Released,doc: broken link in user/cells.rst,https://bugs.launchpad.net/nova/+bug/1808906,2019-03-24
+1793255,1793255,Fix Released,nova-consoleauth missing from Rocky install guide; unable to use VNC,https://bugs.launchpad.net/nova/+bug/1793255,2019-03-24
+1809943,1809943,Fix Released,nova send None global_request_id on neutron calls,https://bugs.launchpad.net/nova/+bug/1809943,2019-03-24
+1809418,1809418,Fix Released,ironic serial console port validate always failed,https://bugs.launchpad.net/nova/+bug/1809418,2019-03-24
+1812196,1812196,Fix Released,"when using templated cells urls, validation fails with create_cell when using {scheme} and {port}",https://bugs.launchpad.net/nova/+bug/1812196,2019-03-24
+1812110,1812110,Fix Released,Detaching pre-existing port  fails to remove user's dns record,https://bugs.launchpad.net/nova/+bug/1812110,2019-03-24
+1808089,1808089,Fix Released,Feature to detach volume from a shelved(_offloaded) instance is broken,https://bugs.launchpad.net/nova/+bug/1808089,2019-03-24
+1788180,1788180,Fix Released,nova-serialproxy should support X-Forwarded-Proto,https://bugs.launchpad.net/nova/+bug/1788180,2019-03-24
+1814913,1814913,Fix Released,A new instance_mapping record will have queued_for_delete set to NULL,https://bugs.launchpad.net/nova/+bug/1814913,2019-03-24
+1805164,1805164,Fix Released,Confusing error message when trying to disable non-nova-compute service,https://bugs.launchpad.net/nova/+bug/1805164,2019-03-24
+1794773,1794773,Fix Released,Unnecessary warning when ironic node properties are not set,https://bugs.launchpad.net/nova/+bug/1794773,2019-03-24
+1797237,1797237,Fix Released,"Superfluous ""Create attachment failed for volume"" error in nova-api logs",https://bugs.launchpad.net/nova/+bug/1797237,2019-03-24
+1814177,1814177,Fix Released,nova.tests.functional.notification_sample_tests.test_instance.TestInstanceNotificationSample.test_volume_swap_server_with_error intermittently fails with IndexError,https://bugs.launchpad.net/nova/+bug/1814177,2019-03-24
+1793556,1793556,Fix Released,ironic: power sync loop makes way too many API calls,https://bugs.launchpad.net/nova/+bug/1793556,2019-03-24
+1815791,1815791,Fix Released,Race condition causes Nova to shut off a successfully deployed baremetal server,https://bugs.launchpad.net/nova/+bug/1815791,2019-03-24
+1791075,1791075,Fix Released,update_available_resource periodic does not take into account all evacuation states,https://bugs.launchpad.net/nova/+bug/1791075,2019-03-24
+1817542,1817542,Fix Released,nova instance-action fails if project_id=NULL,https://bugs.launchpad.net/nova/+bug/1817542,2019-03-24
+1818701,1818701,Fix Released,invalid PCI alias in flavor results in HTTP 500 on instance create,https://bugs.launchpad.net/nova/+bug/1818701,2019-03-24
+1818047,1818047,Fix Released,nova-status doesn't render cell DB connection strings before use,https://bugs.launchpad.net/nova/+bug/1818047,2019-03-24
+1809123,1809123,Fix Released,OSError failure to read when creating multiple instances with NFS,https://bugs.launchpad.net/nova/+bug/1809123,2019-03-24
+1818295,1818295,Fix Released,Only Ironic public endpoint is supported,https://bugs.launchpad.net/nova/+bug/1818295,2019-03-24
+1815153,1815153,Fix Released,Requested host during cold migrate is ignored if server created before Rocky,https://bugs.launchpad.net/nova/+bug/1815153,2019-03-24
+1773754,1773754,Fix Released,pcmk remote setup code has a race,https://bugs.launchpad.net/tripleo/+bug/1773754,2019-03-24
+1773754,1773754,Fix Released,pcmk remote setup code has a race,https://bugs.launchpad.net/puppet-pacemaker/+bug/1773754,2019-03-24
+1782231,1782231,Fix Released,crm_node -n needlessly called via facter,https://bugs.launchpad.net/puppet-pacemaker/+bug/1782231,2019-03-24
+1783199,1783199,Fix Released,puppet-tripleo unit tests broken due to puppet-pacemaker running crm_node,https://bugs.launchpad.net/tripleo/+bug/1783199,2019-03-24
+1783302,1783302,Fix Released,spec tests are currently broken,https://bugs.launchpad.net/puppet-pacemaker/+bug/1783302,2019-03-24
+1792571,1792571,Fix Released,Update job failing: undefined method container_backend,https://bugs.launchpad.net/tripleo/+bug/1792571,2019-03-24
+1797542,1797542,Fix Released,deep_compare misses changes under certain conditions,https://bugs.launchpad.net/puppet-pacemaker/+bug/1797542,2019-03-24
+1802140,1802140,Fix Released,spec broken  for ubuntu 18.04 and puppet 4.8,https://bugs.launchpad.net/puppet-pacemaker/+bug/1802140,2019-03-24
+1805336,1805336,Fix Released,Deprecate include_class,https://bugs.launchpad.net/puppet-pacemaker/+bug/1805336,2019-03-24
+1805868,1805868,Fix Released,ci breaks on rainbow gem,https://bugs.launchpad.net/puppet-pacemaker/+bug/1805868,2019-03-24
+1805786,1805786,Fix Released,node properties can match wrong nodes,https://bugs.launchpad.net/puppet-pacemaker/+bug/1805786,2019-03-24
+1807906,1807906,Fix Released,remote race,https://bugs.launchpad.net/tripleo/+bug/1807906,2019-03-24
+1807906,1807906,Fix Released,remote race,https://bugs.launchpad.net/puppet-pacemaker/+bug/1807906,2019-03-24
+1797580,1797580,Fix Released,NoValidHost during live migration after cold migrating to a specified host,https://bugs.launchpad.net/nova/+bug/1797580,2019-03-24
+1768807,1768807,Fix Released,Live Migration failure: 'ascii' codec can't encode characters in position 251-252,https://bugs.launchpad.net/nova/+bug/1768807,2019-03-24
+1746558,1746558,Fix Released,Make service all-cells min version helper use scatter-gather,https://bugs.launchpad.net/nova/+bug/1746558,2019-03-24
+1746561,1746561,Fix Released,Make host_manager use scatter-gather and ignore down cells,https://bugs.launchpad.net/nova/+bug/1746561,2019-03-24
+1800663,1800663,Fix Released,docs: Flavors in nova - custom resource classes and overrides,https://bugs.launchpad.net/nova/+bug/1800663,2019-03-24
+1819260,1819260,Fix Released,Adding floating IP fails with SQLA 1.3.0,https://bugs.launchpad.net/neutron/+bug/1819260,2019-03-24
+1816874,1816874,Fix Released,l3 agent using return value from methods with no return,https://bugs.launchpad.net/neutron/+bug/1816874,2019-03-24
+1818632,1818632,Fix Released,Fullstack tests fails on Ubuntu Bionic,https://bugs.launchpad.net/neutron/+bug/1818632,2019-03-24
+1819982,1819982,Fix Released,Misuse of assertTrue/assertFalse,https://bugs.launchpad.net/neutron/+bug/1819982,2019-03-24
+1820763,1820763,Fix Released,"Add upgrade check for removed ""external_network_bridge"" config option",https://bugs.launchpad.net/neutron/+bug/1820763,2019-03-24
+1612876,1612876,Fix Released,[doc] Add MTU information in DB and API,https://bugs.launchpad.net/manila/+bug/1612876,2019-03-24
+1777705,1777705,Fix Released,Avoid using deprecated opt in Web-UI,https://bugs.launchpad.net/freezer/+bug/1777705,2019-03-23
+1600251,1600251,Fix Released,live migration does not honor server group policy,https://bugs.launchpad.net/nova/+bug/1600251,2019-03-22
+1819418,1819418,Fix Released,Mistral's retries ignore join logical state,https://bugs.launchpad.net/mistral/+bug/1819418,2019-03-22
+1785297,1785297,Fix Released,cStringIO import invalid for Py3,https://bugs.launchpad.net/python-manilaclient/+bug/1785297,2019-03-22
+1809230,1809230,Fix Released,"tox -e cover returns ""error: option --coverage not recognized""",https://bugs.launchpad.net/masakari/+bug/1809230,2019-03-22
+1811742,1811742,Fix Released,nova client call to disabled_reason method accepts service_uuid for api_version 2.53,https://bugs.launchpad.net/masakari/+bug/1811742,2019-03-22
+1808513,1808513,Fix Released,Incorrect payload in notification results in running status forever,https://bugs.launchpad.net/masakari/+bug/1808513,2019-03-22
+1814656,1814656,Fix Released,Update host allows to update host name for any non-existing compute host in nova,https://bugs.launchpad.net/masakari/+bug/1814656,2019-03-22
+1816941,1816941,Fix Released,Incorrect service_type passed for parsing micro-version from  OpenStack-API-Version request header,https://bugs.launchpad.net/masakari/+bug/1816941,2019-03-22
+1819422,1819422,Fix Released,Get Notification for API version 1.1 returns KeyError: 'progress_details',https://bugs.launchpad.net/masakari/+bug/1819422,2019-03-22
+1819578,1819578,Fix Released,HOST failure recovery fails with reserved host,https://bugs.launchpad.net/masakari/+bug/1819578,2019-03-22
+1798033,1798033,Fix Released,update aodh notifier when there're multiple regions,https://bugs.launchpad.net/aodh/+bug/1798033,2019-03-22
+1799406,1799406,Fix Released,[SRU] Alarms fail on Rocky,https://bugs.launchpad.net/aodh/+bug/1799406,2019-03-22
+1684603,1684603,Fix Released,[DOC] Refactor and rename CephFSNativeDriver,https://bugs.launchpad.net/manila/+bug/1684603,2019-03-22
+1734907,1734907,Fix Released,let mongs and config_server use specified volume_size,https://bugs.launchpad.net/trove/+bug/1734907,2019-03-22
+1780184,1780184,Fix Released,README of trovestack should be update,https://bugs.launchpad.net/trove/+bug/1780184,2019-03-22
+1776229,1776229,Fix Released,*_endpoint_type option not used within single tenant,https://bugs.launchpad.net/trove/+bug/1776229,2019-03-22
+1791878,1791878,Fix Released,Mysql restore fails because the mysql does not start correctly,https://bugs.launchpad.net/trove/+bug/1791878,2019-03-22
+1797014,1797014,Fix Released,trove build fail on arm64,https://bugs.launchpad.net/trove/+bug/1797014,2019-03-22
+1777968,1777968,Fix Released,Too many DBDeadlockError and IP address collision during port creating,https://bugs.launchpad.net/neutron/+bug/1777968,2019-03-22
+1716694,1716694,Fix Released,netapp driver active directory cifs server not valid dns hostname,https://bugs.launchpad.net/manila/+bug/1716694,2019-03-22
+1785180,1785180,Fix Released,ZFSonLinux driver fails to manage share in scenario test,https://bugs.launchpad.net/manila/+bug/1785180,2019-03-22
+1786769,1786769,Fix Released,dp purge fails on ShareGroupTypes,https://bugs.launchpad.net/manila/+bug/1786769,2019-03-22

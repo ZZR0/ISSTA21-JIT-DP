@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1835837,1835837,Fix Released,container image prepare does not fail correctly if there are problems downloading images,https://bugs.launchpad.net/tripleo/+bug/1835837,2019-09-11
+1836379,1836379,Fix Released,ResourceWarning: unclosed file - tripleoclient/utils.py:1888,https://bugs.launchpad.net/tripleo/+bug/1836379,2019-09-11
+1830702,1830702,Fix Released,Octavia tempest test test_provider_list fails,https://bugs.launchpad.net/tripleo/+bug/1830702,2019-09-11
+1787097,1787097,Fix Released,cloudkitty mispelling causes error - easy fix,https://bugs.launchpad.net/kolla-ansible/+bug/1787097,2019-09-11
+1793239,1793239,Fix Released,Enable IPv6 overlay tunnel deployments,https://bugs.launchpad.net/tripleo/+bug/1793239,2019-09-10
+1789392,1789392,Fix Released,Stop hardcoding OS_BAREMETAL_API_VERSION in stackrc,https://bugs.launchpad.net/tripleo/+bug/1789392,2019-09-10
+1373599,1373599,Fix Released,Trust operations in policy.json are misleading,https://bugs.launchpad.net/keystone/+bug/1373599,2019-09-10
+1841731,1841731,Fix Released,[RFE] Support upload of local container images into undercloud registry,https://bugs.launchpad.net/tripleo/+bug/1841731,2019-09-10
+1843264,1843264,Fix Released,RHEL8 build containers fails because bindep.txt in tripleoclient includes policycoreutils-python,https://bugs.launchpad.net/tripleo/+bug/1843264,2019-09-10
+1843263,1843263,Fix Released,fs030 aka scenario007-multinode job fails because doesn't find docker,https://bugs.launchpad.net/tripleo/+bug/1843263,2019-09-10
+1836046,1836046,Fix Released,tempest.scenario.test_network_basic_ops.TestNetworkBasicOps Failing on queens,https://bugs.launchpad.net/tripleo/+bug/1836046,2019-09-10
+1436763,1436763,Fix Released,nova flavor-create default values for ephemeral space and swap space,https://bugs.launchpad.net/python-novaclient/+bug/1436763,2019-09-10
+1288438,1288438,Fix Released,Neutron server takes a long time to recover from VIP move,https://bugs.launchpad.net/neutron/+bug/1288438,2019-09-09
+1288438,1288438,Fix Committed,Neutron server takes a long time to recover from VIP move,https://bugs.launchpad.net/fuel/+bug/1288438,2019-09-09
+1833732,1833732,Fix Released,kuryr-kubernetes multi-region support,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1833732,2019-09-09
+1633120,1633120,Fix Released,[SRU] Nova scheduler tries to assign an already-in-use SRIOV QAT VF to a new instance,https://bugs.launchpad.net/nova/+bug/1633120,2019-09-09
+1840764,1840764,Fix Committed,MariaDB fails while scaling out,https://bugs.launchpad.net/kolla-ansible/+bug/1840764,2019-09-09
+1791896,1791896,Fix Released,kolla_keystone_user can not handle role change properly,https://bugs.launchpad.net/kolla/+bug/1791896,2019-09-09
+1820134,1820134,Fix Released,Cannot use merge_configs module in python3,https://bugs.launchpad.net/kolla-ansible/+bug/1820134,2019-09-09
+1796615,1796615,Fix Released,cinder-volume active active depends on tooz,https://bugs.launchpad.net/kolla-ansible/+bug/1796615,2019-09-09
+1811581,1811581,Fix Released,ceph_nfs start faild,https://bugs.launchpad.net/kolla/+bug/1811581,2019-09-09
+1811581,1811581,Fix Released,ceph_nfs start faild,https://bugs.launchpad.net/kolla-ansible/+bug/1811581,2019-09-09
+1794504,1794504,Fix Released,new external bridges is not created automatically,https://bugs.launchpad.net/kolla-ansible/+bug/1794504,2019-09-09
+1794249,1794249,Fix Released,Add option to specify log-opt max-size value  for docker containers,https://bugs.launchpad.net/kolla-ansible/+bug/1794249,2019-09-09
+1842978,1842978,Fix Released,requests-mock 1.7.0 breaks keystoneauth unit tests,https://bugs.launchpad.net/keystoneauth/+bug/1842978,2019-09-07
+1830030,1830030,Fix Released,[Centos][rabbit upgrade] _rabbitmq_package_version is undefined,https://bugs.launchpad.net/openstack-ansible/+bug/1830030,2019-09-07
+1835804,1835804,Fix Released,sphinx >=2.0.0 nolonger support py27,https://bugs.launchpad.net/os-vif/+bug/1835804,2019-09-06
+1572417,1572417,Fix Released,stable:kilo: testresources 2.0.0 require pbr > 1.8 but pbr is capped too low in kilo,https://bugs.launchpad.net/devstack/+bug/1572417,2019-09-06
+1572417,1572417,Fix Released,stable:kilo: testresources 2.0.0 require pbr > 1.8 but pbr is capped too low in kilo,https://bugs.launchpad.net/openstack-gate/+bug/1572417,2019-09-06
+1842448,1842448,Fix Released,Outage on trunk.rdoprojects.org is causing all the CI jobs to fail,https://bugs.launchpad.net/tripleo/+bug/1842448,2019-09-06
+1407664,1407664,Fix Released,Race: instance nw_info cache is updated to empty list because of nova/neutron event mechanism,https://bugs.launchpad.net/nova/+bug/1407664,2019-09-05
+1659062,1659062,Fix Released,Failed evacuations leave neutron ports on destination host,https://bugs.launchpad.net/nova/+bug/1659062,2019-09-05
+1501735,1501735,Fix Released,Network interface allocation corrupts instance info cache,https://bugs.launchpad.net/nova/+bug/1501735,2019-09-05
+1808946,1808946,Fix Released,Update mailinglist from dev to discuss,https://bugs.launchpad.net/python-zaqarclient/+bug/1808946,2019-09-05
+1831684,1831684,Fix Released,please add a 'region_name' configuration in kuryr/lib/config,https://bugs.launchpad.net/kuryr/+bug/1831684,2019-09-04
+1680770,1680770,Fix Released,dumb-init cannot be disabled,https://bugs.launchpad.net/kolla/+bug/1680770,2019-09-04
+1821970,1821970,Fix Released,mariadb container fails when dumb-init is unavailable,https://bugs.launchpad.net/tripleo/+bug/1821970,2019-09-04
+1762369,1762369,Fix Released,DNS  domain name update test give KeyError,https://bugs.launchpad.net/neutron/+bug/1762369,2019-09-04
+1840759,1840759,Fix Released,network_id reservation parameter is not recognized,https://bugs.launchpad.net/blazar/+bug/1840759,2019-09-04
+1839532,1839532,Fix Released,"tripleo gate jobs are failing to pull containers when running on ovh provider with ""UNAUTHORIZED"" error",https://bugs.launchpad.net/tripleo/+bug/1839532,2019-09-03
+1824846,1824846,Fix Released,pyroute2 0.5.4 breaks nested deployments,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1824846,2019-09-03
+1831361,1831361,Fix Released,Check-Image-03: auth_strategy is deprecated,https://bugs.launchpad.net/ossp-security-documentation/+bug/1831361,2019-09-03
+1719815,1719815,Fix Released,"Not detecting network drivers by default in ""Example: Microsoft Windows image"" in Virtual Machine Image Guide",https://bugs.launchpad.net/openstack-manuals/+bug/1719815,2019-09-03
+1779643,1779643,Fix Released,"Error setting host relationship in ""long"" format",https://bugs.launchpad.net/tosca-parser/+bug/1779643,2019-09-03
+1835505,1835505,Fix Released,Document schema not correctly validated,https://bugs.launchpad.net/tosca-parser/+bug/1835505,2019-09-02
+1835699,1835699,Fix Released,cells v1 and extension commands and APIs should be deprecated,https://bugs.launchpad.net/python-novaclient/+bug/1835699,2019-09-02
+1773945,1773945,Fix Released,nova client servers.list crashes with bad marker,https://bugs.launchpad.net/python-novaclient/+bug/1773945,2019-08-31
+1774205,1774205,Fix Released,AggregateMultiTenancyIsolation uses wrong tenant_id during cold migrate,https://bugs.launchpad.net/nova/+bug/1774205,2019-08-30
+1675607,1675607,Fix Released,test_list_migrations_in_flavor_resize_situation fails with NoValidHost - AvailabilityZoneFilter returned 0 hosts,https://bugs.launchpad.net/nova/+bug/1675607,2019-08-30
+1838250,1838250,Fix Released,Cinder's my_ip is hard coded to HOST_IP instead of selecting based on SERVICE_IP_VERSION,https://bugs.launchpad.net/devstack/+bug/1838250,2019-08-30
+1750573,1750573,Fix Released,Wrong entry for RH OS in apache_config_path,https://bugs.launchpad.net/devstack/+bug/1750573,2019-08-30
+1838920,1838920,Fix Released,fix spec for error on reference part etc,https://bugs.launchpad.net/tricircle/+bug/1838920,2019-08-30
+1825404,1825404,Fix Released,Race condition when adding tap interfaces to bridge,https://bugs.launchpad.net/networking-vpp/+bug/1825404,2019-08-29
+1841071,1841071,Fix Released,Master promotions are failing tempest test (fs020) -  tempest.api.volume.* are failing sporadically,https://bugs.launchpad.net/tripleo/+bug/1841071,2019-08-29
+1826925,1826925,Fix Released,[stable/queens] Issues recovering after scaling out to more nodes than available,https://bugs.launchpad.net/tripleo/+bug/1826925,2019-08-29
+1796220,1796220,Fix Released,"instack uses /tmp as temporary directory for DIB to run scripts, but /tmp is often mounted with noexec",https://bugs.launchpad.net/tripleo/+bug/1796220,2019-08-29
+1824958,1824958,Fix Released,Building docs broken on kuryr-tempest-plugin,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1824958,2019-08-28
+1799239,1799239,Fix Released,Gate tests download kuryr/demo image,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1799239,2019-08-28
+1833456,1833456,Fix Released,supplemental node creation not idempotent & leaks resources,https://bugs.launchpad.net/tripleo/+bug/1833456,2019-08-28
+1743923,1743923,Fix Released,ceilometer notification agent drop  samples when calculate rate of range and variation,https://bugs.launchpad.net/ceilometer/+bug/1743923,2019-08-28
+1839910,1839910,Fix Released,[tripleo-ha-utils] 'Remove resources associated to remote nodes' task doesn't have a good filter to identify target resources.,https://bugs.launchpad.net/tripleo/+bug/1839910,2019-08-28
+1661753,1661753,Fix Released,[identity] in-process token cache is deprecated in favor of memcache,https://bugs.launchpad.net/openstack-chef/+bug/1661753,2019-08-28
+1477753,1477753,Fix Released,dashboard cookbook needs to run python manage.py compress if COMPRESS_OFFLINE=True,https://bugs.launchpad.net/openstack-chef/+bug/1477753,2019-08-28
+1786976,1786976,Fix Released,Redfish username/password should be optional,https://bugs.launchpad.net/tripleo/+bug/1786976,2019-08-28
+1768824,1768824,Fix Released,[SRU] service_statuses table running full in Designate database,https://bugs.launchpad.net/designate/+bug/1768824,2019-08-27
+1840763,1840763,Fix Released,[queens][fs037] Upgrade jobs are failiing while doing overcloud minor update with ssh error,https://bugs.launchpad.net/tripleo/+bug/1840763,2019-08-27
+1841564,1841564,Fix Released,/usr/share/ansible/roles/tripleo-hieradata/tasks/hieradata_vars.yaml conflicts between attempted installs of tripleo-ansible and openstack-tripleo-common,https://bugs.launchpad.net/tripleo/+bug/1841564,2019-08-27
+1841405,1841405,Fix Released,role 'dump_vars' not found leading to logs not getting collect in post,https://bugs.launchpad.net/tripleo/+bug/1841405,2019-08-27
+1560961,1560961,Fix Released,[RFE] Allow instance-ingress bandwidth limiting,https://bugs.launchpad.net/neutron/+bug/1560961,2019-08-26
+1829024,1829024,Fix Released,Could not install packages due to an EnvironmentError: 404 Client Error: Not Found for url: https://opendev.org/openstack/requirements/raw/branch/master/upper-constraints.txt,https://bugs.launchpad.net/openstack-gate/+bug/1829024,2019-08-26
+1782005,1782005,Fix Released,pep8/py27 job failing in tripleo-puppet-elements,https://bugs.launchpad.net/tripleo/+bug/1782005,2019-08-26
+1795790,1795790,Fix Released,[Pike] Upgrade tasks not running after re-execution of upgrade command,https://bugs.launchpad.net/tripleo/+bug/1795790,2019-08-26
+1692725,1692725,Fix Released,os-net-config safe defaults often don't work,https://bugs.launchpad.net/tripleo/+bug/1692725,2019-08-26
+1712054,1712054,Fix Released,etcd_lb: incorrect listener_type,https://bugs.launchpad.net/magnum/+bug/1712054,2019-08-25
+1679724,1679724,Fix Released,multi master cluster creation fails with ETCD LB,https://bugs.launchpad.net/magnum/+bug/1679724,2019-08-25

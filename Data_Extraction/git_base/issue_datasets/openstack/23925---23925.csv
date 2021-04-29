@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1638059,1638059,Fix Released,Can't launch qemu instance with lan9118 nic type,https://bugs.launchpad.net/nova/+bug/1638059,2017-04-14
+1675143,1675143,Fix Released,placement microversion comparisons are sometimes floats,https://bugs.launchpad.net/nova/+bug/1675143,2017-04-14
+1675536,1675536,Fix Released,api-ref: attach volume volumeAttachment description is wrong,https://bugs.launchpad.net/nova/+bug/1675536,2017-04-14
+1675584,1675584,Fix Released,TypeError: connect_volume() takes exactly 3 arguments (4 given) for NFS Cinder drivers,https://bugs.launchpad.net/nova/+bug/1675584,2017-04-14
+1676039,1676039,Fix Released,code comment redundant,https://bugs.launchpad.net/nova/+bug/1676039,2017-04-14
+1674961,1674961,Fix Released,Instances are not left in active state after a notification test,https://bugs.launchpad.net/nova/+bug/1674961,2017-04-14
+1677452,1677452,Fix Released,api-ref: wrong response code in servers.inc and servers-actions.inc,https://bugs.launchpad.net/nova/+bug/1677452,2017-04-14
+1677999,1677999,Fix Released,api-ref: flavor information in server response can be empty,https://bugs.launchpad.net/nova/+bug/1677999,2017-04-14
+1680211,1680211,Fix Released,InstanceNotFound during local delete in API does not short-circuit,https://bugs.launchpad.net/nova/+bug/1680211,2017-04-14
+1680240,1680240,Fix Released,test_no_migrations_have_downgrade is broken,https://bugs.launchpad.net/nova/+bug/1680240,2017-04-14
+1674392,1674392,Fix Released,placement api requires content-type on put and post even when no body,https://bugs.launchpad.net/nova/+bug/1674392,2017-04-14
+1680667,1680667,Fix Released,TypeError: unorderable types: int() > str() in get_system_metadata_from_image,https://bugs.launchpad.net/nova/+bug/1680667,2017-04-14
+1675559,1675559,Fix Released,api-ref: os-extended-volumes:volumes_attached keys are not described,https://bugs.launchpad.net/nova/+bug/1675559,2017-04-14
+1653884,1653884,Fix Released,api-ref: wrong parameters in os-hosts.inc,https://bugs.launchpad.net/nova/+bug/1653884,2017-04-14
+1681946,1681946,Fix Released,py27 unit test failure: ImageMetaProps has a system dependent hash signature.,https://bugs.launchpad.net/nova/+bug/1681946,2017-04-14
+1554900,1554900,Fix Released,Fix module-instances command,https://bugs.launchpad.net/trove/+bug/1554900,2017-04-14
+1554903,1554903,Fix Released,live-update support for Trove modules missing,https://bugs.launchpad.net/trove/+bug/1554903,2017-04-14
+1668674,1668674,Fix Released,Fix missing CONTROLLER_IP if ends in .1,https://bugs.launchpad.net/trove/+bug/1668674,2017-04-14
+1674520,1674520,Fix Released,the various assert_ methods in guest_log_runners don't account for slow hosts,https://bugs.launchpad.net/trove/+bug/1674520,2017-04-14
+1659064,1659064,Fix Released,"Delete LB fails with: noauth, no project_id",https://bugs.launchpad.net/octavia/+bug/1659064,2017-04-14
+1649987,1649987,Fix Committed,Resetting and redeploying Openstack environment fails with  copy_haproxy_keys task error,https://bugs.launchpad.net/fuel/+bug/1649987,2017-04-14
+1663037,1663037,Fix Released,Some nova deployments institute a maximum VM name length,https://bugs.launchpad.net/octavia/+bug/1663037,2017-04-14
+1624145,1624145,Fix Released,Octavia should ignore project_id on API create commands (except load_balancer),https://bugs.launchpad.net/octavia/+bug/1624145,2017-04-14
+1662952,1662952,Fix Released,Encrypted ramfs storage service does not start,https://bugs.launchpad.net/octavia/+bug/1662952,2017-04-14
+1642982,1642982,Fix Released,CentOS/RHEL based amphorae: no ecryptfs-utils package for encrypted ramfs certs storage,https://bugs.launchpad.net/octavia/+bug/1642982,2017-04-14
+1667175,1667175,Fix Released,"single-create doesn't set project-id on sub-objects, which leads to quota leakage on delete",https://bugs.launchpad.net/octavia/+bug/1667175,2017-04-14
+1659488,1659488,Fix Released,Octavia is not handling VIPs on the same subnet as the lb-mgmt-net,https://bugs.launchpad.net/octavia/+bug/1659488,2017-04-14
+1671128,1671128,Fix Released,"DELETE on a LB with children will delete it, creating orphans",https://bugs.launchpad.net/octavia/+bug/1671128,2017-04-14
+1667161,1667161,Fix Released,"Cascade delete fails, stuck in pending delete",https://bugs.launchpad.net/octavia/+bug/1667161,2017-04-14
+1571802,1571802,Fix Released,[RFE] Amphora build rate limiting and prioritizing,https://bugs.launchpad.net/octavia/+bug/1571802,2017-04-14
+1673894,1673894,Fix Released,Octavia v2 API LB create returns 202 instead of 201,https://bugs.launchpad.net/octavia/+bug/1673894,2017-04-14
+1673494,1673494,Fix Released,"Octavia v2 LB API returning null for description where LBaaSv2 returns """"",https://bugs.launchpad.net/octavia/+bug/1673494,2017-04-14
+1677379,1677379,Fix Released,Failover logic doesn't handle anti-affinity,https://bugs.launchpad.net/octavia/+bug/1677379,2017-04-14
+1677604,1677604,Fix Released,RfE: Add soft-affinity policy to Octavia,https://bugs.launchpad.net/octavia/+bug/1677604,2017-04-14
+1678337,1678337,Fix Released,Octavia v2 API member protocol_port should have a range restriction,https://bugs.launchpad.net/octavia/+bug/1678337,2017-04-14
+1678336,1678336,Fix Released,"Octavia v2 API returning null for name on member instead of """"",https://bugs.launchpad.net/octavia/+bug/1678336,2017-04-14
+1679259,1679259,Fix Released,[V2 API] Trying to crate a pool causes exception,https://bugs.launchpad.net/octavia/+bug/1679259,2017-04-14
+1657090,1657090,Fix Released,[RFE]Add bandwidth_limit to vip,https://bugs.launchpad.net/octavia/+bug/1657090,2017-04-14
+1681405,1681405,Fix Released,Octavia tempest plugin causing tempest init command to fail by  giving ERROR tempest AttributeError: 'tuple' object has no attribute 'dest',https://bugs.launchpad.net/octavia/+bug/1681405,2017-04-14
+1679854,1679854,Fix Released,Octavia v2 API tenant_id is not being accepted on create LB,https://bugs.launchpad.net/octavia/+bug/1679854,2017-04-14
+1654474,1654474,Fix Released,open up second listener port in scenario test,https://bugs.launchpad.net/octavia/+bug/1654474,2017-04-14
+1652702,1652702,Fix Released,"return http 404 with ""No eligible agent found for lb ..."" but create loadbalancer successfully when lbaasv2 agent is down",https://bugs.launchpad.net/octavia/+bug/1652702,2017-04-14
+1664572,1664572,Fix Released,loadbalancerv2  base plugin need abstractmethod for get_l7policies,https://bugs.launchpad.net/octavia/+bug/1664572,2017-04-14
+1668513,1668513,Fix Released,KeyError on loadbalancer schedule,https://bugs.launchpad.net/neutron/+bug/1668513,2017-04-14
+1509500,1509500,Fix Released,novaclient stats all files in /usr/bin,https://bugs.launchpad.net/python-novaclient/+bug/1509500,2017-04-14
+1509500,1509500,Fix Released,novaclient stats all files in /usr/bin,https://bugs.launchpad.net/neutron/+bug/1509500,2017-04-14
+1589400,1589400,Fix Released,In func tunnel_sync flood flows were added many times leading to slow start,https://bugs.launchpad.net/neutron/+bug/1589400,2017-04-14
+1477921,1477921,Fix Released,"Create/Update port responds 500 to the request with invalid ""security_groups""",https://bugs.launchpad.net/neutron/+bug/1477921,2017-04-14
+1571676,1571676,Fix Released,"After binding a floating IP to VM, the static route can't work in DVR.",https://bugs.launchpad.net/neutron/+bug/1571676,2017-04-14
+1587444,1587444,Fix Released,macvtap: agent starts although no interface_mapping is provided,https://bugs.launchpad.net/neutron/+bug/1587444,2017-04-14
+1661181,1661181,Fix Released,IPv6 subnet update creates RPC client with each call,https://bugs.launchpad.net/neutron/+bug/1661181,2017-04-14
+1564648,1564648,Fix Released,nova notifier should send first event immediately,https://bugs.launchpad.net/neutron/+bug/1564648,2017-04-14
+1661106,1661106,Fix Released,neutron ns proxy reading files from config dir,https://bugs.launchpad.net/neutron/+bug/1661106,2017-04-14
+1661608,1661608,Fix Released,Enhance tag mechanism,https://bugs.launchpad.net/neutron/+bug/1661608,2017-04-14
+1649317,1649317,Fix Released,Combinatorial blow-up with the Alchemy strategy lazy='joined',https://bugs.launchpad.net/neutron/+bug/1649317,2017-04-14
+1624515,1624515,Fix Released,DVR: SNAT port not found in the list error in check jobs,https://bugs.launchpad.net/neutron/+bug/1624515,2017-04-14
+1662102,1662102,Fix Released,Enhance tag mechanism,https://bugs.launchpad.net/neutron/+bug/1662102,2017-04-14
+1662102,1662102,Fix Released,Enhance tag mechanism,https://bugs.launchpad.net/openstack-manuals/+bug/1662102,2017-04-14
+1664659,1664659,Fix Released,linuxbridge vlan-aware-vms subports do not get wired,https://bugs.launchpad.net/neutron/+bug/1664659,2017-04-14
+1524004,1524004,Fix Released,linuxbridge agent does not wire ports for non-traditional device owners,https://bugs.launchpad.net/neutron/+bug/1524004,2017-04-14
+1665061,1665061,Fix Released,"keepalived sanity check tries to disable process monitoring, but doesn't",https://bugs.launchpad.net/neutron/+bug/1665061,2017-04-14
+1658019,1658019,Fix Released,ovs_lib.OVSBridge.delete_flows does not delete flows when called with no args,https://bugs.launchpad.net/neutron/+bug/1658019,2017-04-14
+1668209,1668209,Fix Released,linux bridge trunk wiring shouldn't set tap mac address,https://bugs.launchpad.net/neutron/+bug/1668209,2017-04-14
+1669244,1669244,Fix Released,"noisy ""Original exception being dropped"" logs",https://bugs.launchpad.net/neutron/+bug/1669244,2017-04-14
+1669893,1669893,Fix Released,ovsdb-monitor fails to connect to tcp port when vsctl driver is used,https://bugs.launchpad.net/neutron/+bug/1669893,2017-04-14
+1668908,1668908,Fix Released,available_local_vlans miss 4094,https://bugs.launchpad.net/neutron/+bug/1668908,2017-04-14
+1670524,1670524,Fix Released,auto allocate external network callback changes is_default,https://bugs.launchpad.net/neutron/+bug/1670524,2017-04-14
+1672789,1672789,Fix Released,dscp marking can't be deleted on agent with native openflow driver,https://bugs.launchpad.net/neutron/+bug/1672789,2017-04-14
+1651465,1651465,Fix Released,support prefix delegation in HA router,https://bugs.launchpad.net/neutron/+bug/1651465,2017-04-14
+1673086,1673086,Fix Released,"test_filter_router_tags fails with testtools.matchers._impl.MismatchError: set(['tag-res2', 'tag-res3']) != set([u'tag-res3'])",https://bugs.launchpad.net/neutron/+bug/1673086,2017-04-14
+1580327,1580327,Fix Released,[RFE] Neutron Feature Classification,https://bugs.launchpad.net/neutron/+bug/1580327,2017-04-14
+1673105,1673105,Fix Released,Pecan doesn't work with noauth auth_strategy,https://bugs.launchpad.net/neutron/+bug/1673105,2017-04-14
+1674434,1674434,Fix Released,RouterL3AgentBindingDbObjTestCase may fail with NeutronDbObjectDuplicateEntry,https://bugs.launchpad.net/neutron/+bug/1674434,2017-04-14
+1675022,1675022,Fix Released,devstack transition to new neutron variable breaks bgpvpn,https://bugs.launchpad.net/neutron/+bug/1675022,2017-04-14
+1659265,1659265,Fix Released,Network level QoS policies should apply to network:router_gateway,https://bugs.launchpad.net/neutron/+bug/1659265,2017-04-14

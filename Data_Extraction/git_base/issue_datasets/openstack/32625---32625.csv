@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1617584,1617584,Fix Released,"Incorrect ""test_dir"" Path in load_tests method of TempestPlugin",https://bugs.launchpad.net/octavia/+bug/1617584,2016-12-07
+1552599,1552599,Fix Released,PENDING_CREATE status caused by Quota exceeded for resources: ['security_group'],https://bugs.launchpad.net/octavia/+bug/1552599,2016-12-07
+1621211,1621211,Fix Released,Fix No sql_connection parameter is established error,https://bugs.launchpad.net/octavia/+bug/1621211,2016-12-07
+1620914,1620914,Fix Released,Active/Active specs are not passing the specs tox test,https://bugs.launchpad.net/octavia/+bug/1620914,2016-12-07
+1621648,1621648,Fix Released,Merge gate does not test 'tox -e specs',https://bugs.launchpad.net/octavia/+bug/1621648,2016-12-07
+1621251,1621251,Fix Released,Bandit should ignore test directories,https://bugs.launchpad.net/octavia/+bug/1621251,2016-12-07
+1619449,1619449,Fix Released,Toggling admin_state_up has no effect,https://bugs.launchpad.net/octavia/+bug/1619449,2016-12-07
+1551478,1551478,Fix Released,get-a-lb - Missing unit test in octavia/api/v1/controllers/load_balancer.py,https://bugs.launchpad.net/octavia/+bug/1551478,2016-12-07
+1558377,1558377,Fix Released,Docs: Better L7 documentation needed,https://bugs.launchpad.net/octavia/+bug/1558377,2016-12-07
+1620629,1620629,Fix Released,Octavia should filter an Amphora image from a specific tenant,https://bugs.launchpad.net/octavia/+bug/1620629,2016-12-07
+1624047,1624047,Fix Released,DB repository calls in revert methods should have exception handling,https://bugs.launchpad.net/octavia/+bug/1624047,2016-12-07
+1625844,1625844,Fix Released,Compute task test may pickup host octavia.conf image owner setting causing failure,https://bugs.launchpad.net/octavia/+bug/1625844,2016-12-07
+1623686,1623686,Fix Released,Octavia revert paths do not always terminate in the correct state,https://bugs.launchpad.net/octavia/+bug/1623686,2016-12-07
+1624016,1624016,Fix Released,During revert at port and/or security group may be orphaned,https://bugs.launchpad.net/octavia/+bug/1624016,2016-12-07
+1627370,1627370,Fix Released,Amphorae not storing TLS keys on memory filesystem,https://bugs.launchpad.net/octavia/+bug/1627370,2016-12-07
+1558368,1558368,Fix Released,Docs: Operator installation guide needed,https://bugs.launchpad.net/octavia/+bug/1558368,2016-12-07
+1558372,1558372,Fix Released,Docs: End-user cookbook needed,https://bugs.launchpad.net/octavia/+bug/1558372,2016-12-07
+1555320,1555320,Fix Released,"""Migration for instance 0763227e-e192-4e0b-a49d-0ea0b181fca6 refers to another host's instance!"" should not be an error",https://bugs.launchpad.net/nova/+bug/1555320,2016-12-07
+1475652,1475652,Fix Released,"libvirt, rbd imagebackend, disk.rescue not deleted when unrescued",https://bugs.launchpad.net/nova/+bug/1475652,2016-12-07
+1632723,1632723,Fix Released,New WebOb minimum version requirement of >=1.6.1,https://bugs.launchpad.net/nova/+bug/1632723,2016-12-07
+1632513,1632513,Fix Released,Nova returns HTTP500 if attaching the attached volume,https://bugs.launchpad.net/nova/+bug/1632513,2016-12-07
+1635446,1635446,Fix Released,DBError storing build_requests.instance with user_data too long,https://bugs.launchpad.net/nova/+bug/1635446,2016-12-07
+1604471,1604471,Fix Released,neutron-lib api-ref response code formatting,https://bugs.launchpad.net/neutron/+bug/1604471,2016-12-07
+1606381,1606381,Fix Released,API-REF LBaaS v2 API version mixed with LBaaS v1 API,https://bugs.launchpad.net/neutron/+bug/1606381,2016-12-07
+1610047,1610047,Fix Released,api-ref: Networking API v2.0 extensions show wrong Response Parameter,https://bugs.launchpad.net/neutron/+bug/1610047,2016-12-07
+1613409,1613409,Fix Released,Sentinel doesn't work with copy(),https://bugs.launchpad.net/neutron/+bug/1613409,2016-12-07
+1614594,1614594,Fix Released,neutron-lib public APIs missing docstring,https://bugs.launchpad.net/neutron/+bug/1614594,2016-12-07
+1630693,1630693,Fix Released,lbaasv2 stevedore alias for service_plugins not working,https://bugs.launchpad.net/neutron/+bug/1630693,2016-12-07
+1623953,1623953,Fix Released,Updating firewall rule that is associated with a  policy causes KeyError,https://bugs.launchpad.net/neutron/+bug/1623953,2016-12-07
+1624496,1624496,Fix Released,_create_or_update_agent used by neutron-dynamic-routing,https://bugs.launchpad.net/neutron/+bug/1624496,2016-12-07
+1624120,1624120,Fix Released,"gate-tempest-dsvm-networking-ovn failure due to ""Timeout waiting for vif plugging""",https://bugs.launchpad.net/networking-ovn/+bug/1624120,2016-12-07
+1624161,1624161,Fix Released,fix for vtep port,https://bugs.launchpad.net/networking-ovn/+bug/1624161,2016-12-07
+1492003,1492003,Fix Released,Space in instance name is replaced by '-' in alarmdef dimension hostname and causing no alarms for the VM,https://bugs.launchpad.net/monasca/+bug/1492003,2016-12-07
+1603915,1603915,Fix Released,monasca-persister console script imports non-existent servicerunner:main,https://bugs.launchpad.net/monasca/+bug/1603915,2016-12-07
+1621329,1621329,Fix Released,[monasca-log-api] monasca-log-api.log grows infinitely,https://bugs.launchpad.net/monasca/+bug/1621329,2016-12-07
+1618641,1618641,Fix Released,Threshold Engine may transition last function alarms to OK slowly,https://bugs.launchpad.net/monasca/+bug/1618641,2016-12-07
+1604933,1604933,Fix Released,libvirt metrics are polling hypervisor info on user project?,https://bugs.launchpad.net/monasca/+bug/1604933,2016-12-07
+1605403,1605403,Fix Released,libvirt metric cpu.time_ns  reports hypervisor name in dimension,https://bugs.launchpad.net/monasca/+bug/1605403,2016-12-07
+1596686,1596686,Fix Released,Monasca Agent can't use value meta to determine if a metric is unique,https://bugs.launchpad.net/monasca/+bug/1596686,2016-12-07
+1610719,1610719,Fix Released,Agent: Gauge metrics are not reported if value is 0,https://bugs.launchpad.net/monasca/+bug/1610719,2016-12-07
+1610823,1610823,Fix Released,Monasca ovs plugin unnecessary polls Neutron even without any matching ports,https://bugs.launchpad.net/monasca/+bug/1610823,2016-12-07
+1611905,1611905,Fix Released,vm_probation isn't cast to an int in  libvirt detection plugin,https://bugs.launchpad.net/monasca/+bug/1611905,2016-12-07
+1612724,1612724,Fix Released,libvirt plugin sends metric host_alive_status before vm_probation period expires,https://bugs.launchpad.net/monasca/+bug/1612724,2016-12-07
+1613463,1613463,Fix Released,Libvirt disk_collection period has inconsistent collection timestamps,https://bugs.launchpad.net/monasca/+bug/1613463,2016-12-07
+1613827,1613827,Fix Released,Invalid input exception is not caught when an invalid json is sent to monasca-forwarder,https://bugs.launchpad.net/monasca/+bug/1613827,2016-12-07
+1619241,1619241,Fix Released,Monasca ceph process monitoring breaks on multi-cluster environment,https://bugs.launchpad.net/monasca/+bug/1619241,2016-12-07
+1616434,1616434,Fix Released,ntp check backtraces; makes no report; when ntp server down,https://bugs.launchpad.net/monasca/+bug/1616434,2016-12-07
+1620473,1620473,Fix Released,process check alarm often becomes UNDETERMINED,https://bugs.launchpad.net/monasca/+bug/1620473,2016-12-07
+1625776,1625776,Fix Released,Customer Aggregate Disk metrics are exposing Compute Node name,https://bugs.launchpad.net/monasca/+bug/1625776,2016-12-07
+1578718,1578718,Fix Released,"max_over_subscription_ratio is miscalculated for drivers reporting list [True, False] for thin_provisioning",https://bugs.launchpad.net/manila/+bug/1578718,2016-12-07
+1615616,1615616,Fix Released,Default filter function missing in Hitachi HSP driver,https://bugs.launchpad.net/manila/+bug/1615616,2016-12-07
+1608002,1608002,Fix Released,[doc] Add EMC Unity Driver for Manila,https://bugs.launchpad.net/manila/+bug/1608002,2016-12-07
+1616696,1616696,Fix Released,Correct reraising of exception,https://bugs.launchpad.net/manila/+bug/1616696,2016-12-07
+1620502,1620502,Fix Released,ZFSonLinux share migration does not work with remote (shell) executor,https://bugs.launchpad.net/manila/+bug/1620502,2016-12-07
+1578328,1578328,Fix Released,NetApp cDOT tries to release and destroy snap mirrors to the same volume,https://bugs.launchpad.net/manila/+bug/1578328,2016-12-07
+1587636,1587636,Fix Released,test_manage_invalid causes error in API,https://bugs.launchpad.net/manila/+bug/1587636,2016-12-07
+1617461,1617461,Fix Released,Race condition in generic drivers updating routes,https://bugs.launchpad.net/manila/+bug/1617461,2016-12-07
+1606691,1606691,Fix Released,manila does not calculate allocated_capacity_gb,https://bugs.launchpad.net/manila/+bug/1606691,2016-12-07
+1609858,1609858,Fix Released,glusterfs driver incompatibility with GlusterFS 3.7.14+,https://bugs.launchpad.net/manila/+bug/1609858,2016-12-07
+1609718,1609718,Fix Released,huawei driver doesn't default create thin type share,https://bugs.launchpad.net/manila/+bug/1609718,2016-12-07
+1621260,1621260,Fix Released,NetApp cDOT driver autosupport broken,https://bugs.launchpad.net/manila/+bug/1621260,2016-12-07
+1621068,1621068,Fix Released,zfsonlinux share migration feature not covered with unit tests,https://bugs.launchpad.net/manila/+bug/1621068,2016-12-07
+1622998,1622998,Fix Released,Neutron port binding unit tests fail,https://bugs.launchpad.net/manila/+bug/1622998,2016-12-07
+1613675,1613675,Fix Released,Container driver does not actually mount logical volumes,https://bugs.launchpad.net/manila/+bug/1613675,2016-12-07
+1623052,1623052,Fix Released,Access rules concurrency in share migration,https://bugs.launchpad.net/manila/+bug/1623052,2016-12-07
+1623051,1623051,Fix Released,allow/deny do not show proper message when share is migrating,https://bugs.launchpad.net/manila/+bug/1623051,2016-12-07
+1620800,1620800,Fix Released,Share Migration share-type change not covered in tempest,https://bugs.launchpad.net/manila/+bug/1620800,2016-12-07
+1620756,1620756,Fix Released,Manila HSP driver doesnt support adding existent rules after manage,https://bugs.launchpad.net/manila/+bug/1620756,2016-12-07
+1623379,1623379,Fix Released,ZFSonLinux share migration works only if source share executor runs on the same host as ZFS storage,https://bugs.launchpad.net/manila/+bug/1623379,2016-12-07
+1613721,1613721,Fix Released,After failure in create from snap Manila HNAS driver does not cleanup,https://bugs.launchpad.net/manila/+bug/1613721,2016-12-07
+1630259,1630259,Fix Released,KeyError: 'is_domain' during mitaka -> newton rolling upgrade,https://bugs.launchpad.net/keystone/+bug/1630259,2016-12-07
+1629926,1629926,Fix Released,Code for config drive incorrectly counts primary partitions,https://bugs.launchpad.net/ironic/+bug/1629926,2016-12-07
+1578357,1578357,Fix Released,instack: $IMAGE_ELEMENT not updated after excluding an element,https://bugs.launchpad.net/tripleo/+bug/1578357,2016-12-07
+1623799,1623799,Fix Released,Serial console not show up on horizon dashboard,https://bugs.launchpad.net/horizon/+bug/1623799,2016-12-07
+1624562,1624562,Fix Released,container details styles in swift ui are broken,https://bugs.launchpad.net/horizon/+bug/1624562,2016-12-07

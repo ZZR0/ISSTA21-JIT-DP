@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1621530,1621530,Fix Released,[RFE] Inband inspection for the OneView drivers,https://bugs.launchpad.net/ironic/+bug/1621530,2017-02-13
+1582964,1582964,Fix Released,[RFE] Support multi arch deployments,https://bugs.launchpad.net/ironic/+bug/1582964,2017-02-13
+1625804,1625804,Fix Released,Cannot generate policy file,https://bugs.launchpad.net/ironic/+bug/1625804,2017-02-13
+1618179,1618179,Fix Released,passthru methods don't have descriptions,https://bugs.launchpad.net/ironic/+bug/1618179,2017-02-13
+1630799,1630799,Fix Released,Deprecated bash ramdisk options still exist in pxe templates,https://bugs.launchpad.net/ironic/+bug/1630799,2017-02-13
+1621783,1621783,Fix Released,"When 'vif_port_id' is missing in any node port, we will not fail deployment",https://bugs.launchpad.net/ironic/+bug/1621783,2017-02-13
+1631875,1631875,Fix Released,iSCSI CI jobs don't work on Xenial,https://bugs.launchpad.net/ironic/+bug/1631875,2017-02-13
+1629051,1629051,Fix Released,Avoid name errors in oneview periodics,https://bugs.launchpad.net/ironic/+bug/1629051,2017-02-13
+1632762,1632762,Fix Released,Unit tests fail with ironic-lib 2.2.0,https://bugs.launchpad.net/ironic/+bug/1632762,2017-02-13
+1602410,1602410,Fix Released,[RFE] Make agent_last_heartbeat a datetime field,https://bugs.launchpad.net/ironic/+bug/1602410,2017-02-13
+1607527,1607527,Fix Released,ssh power driver can not use a key with a passphrase,https://bugs.launchpad.net/ironic/+bug/1607527,2017-02-13
+1561137,1561137,Fix Released,[RFE]  Add support for operators on root device hints,https://bugs.launchpad.net/ironic-lib/+bug/1561137,2017-02-13
+1561137,1561137,Fix Released,[RFE]  Add support for operators on root device hints,https://bugs.launchpad.net/ironic-python-agent/+bug/1561137,2017-02-13
+1561137,1561137,Fix Released,[RFE]  Add support for operators on root device hints,https://bugs.launchpad.net/ironic/+bug/1561137,2017-02-13
+1526408,1526408,Fix Released,[RFE] Add notification support to ironic,https://bugs.launchpad.net/ironic/+bug/1526408,2017-02-13
+1611555,1611555,Fix Released,[RFE] Metrics for DRAC driver,https://bugs.launchpad.net/ironic/+bug/1611555,2017-02-13
+1633992,1633992,Fix Released,ipmitool power driver's reboot has no error check in case of failing power off,https://bugs.launchpad.net/ironic/+bug/1633992,2017-02-13
+1611285,1611285,Fix Released,_start_console provides wrong ipmi command for socat console,https://bugs.launchpad.net/ironic/+bug/1611285,2017-02-13
+1635191,1635191,Fix Released,"""dhcp"" command in the iPXE script is redundant and may actually break boot",https://bugs.launchpad.net/ironic/+bug/1635191,2017-02-13
+1635191,1635191,Fix Released,"""dhcp"" command in the iPXE script is redundant and may actually break boot",https://bugs.launchpad.net/puppet-ironic/+bug/1635191,2017-02-13
+1633586,1633586,Fix Released,Some distributions do not provide 'vconfig' by default,https://bugs.launchpad.net/ironic/+bug/1633586,2017-02-13
+1635094,1635094,Fix Released,wrong default path to get deploy image,https://bugs.launchpad.net/ironic/+bug/1635094,2017-02-13
+1633585,1633585,Fix Released,Deployment fails with API errors  when one of the macs addresses is of type infiniband,https://bugs.launchpad.net/ironic/+bug/1633585,2017-02-13
+1638940,1638940,Fix Released,DevStack: Standard PXE setup broken: pxelinux.0 not found,https://bugs.launchpad.net/ironic/+bug/1638940,2017-02-13
+1639187,1639187,Fix Released,[RFE] Extend PXE to support petitboot,https://bugs.launchpad.net/ironic/+bug/1639187,2017-02-13
+1639738,1639738,Fix Released,some configuration items are depricated (and to be ignored silently in the future),https://bugs.launchpad.net/ironic/+bug/1639738,2017-02-13
+1628842,1628842,Fix Released,install guide is out of sync with proper way to configure auth for service users,https://bugs.launchpad.net/ironic/+bug/1628842,2017-02-13
+1611557,1611557,Fix Released,[RFE] Metrics support for OneView drivers,https://bugs.launchpad.net/ironic/+bug/1611557,2017-02-13
+1641972,1641972,Fix Released,[RFE] Add domains to ironic context,https://bugs.launchpad.net/ironic/+bug/1641972,2017-02-13
+1611556,1611556,Fix Released,[RFE] Metrics for iRMC driver,https://bugs.launchpad.net/ironic/+bug/1611556,2017-02-13
+1642986,1642986,Fix Released,Ironic gate failure - unable to reach test vm network,https://bugs.launchpad.net/ironic/+bug/1642986,2017-02-13
+1642512,1642512,Fix Released,Remove deprecated create_cleaning_ports and delete_cleaning_ports from dhcp provider,https://bugs.launchpad.net/ironic/+bug/1642512,2017-02-13
+1644210,1644210,Fix Released,Drac: drac_host inconsistent property name,https://bugs.launchpad.net/ironic/+bug/1644210,2017-02-13
+1646330,1646330,Fix Released,ilo documentation has incorrect links,https://bugs.launchpad.net/ironic/+bug/1646330,2017-02-13
+1614938,1614938,Fix Released,"[RFE] Allow names in {provisioning,cleaning}_network option",https://bugs.launchpad.net/ironic/+bug/1614938,2017-02-13
+1647783,1647783,Fix Released,Empty or trailing comma on enabled_drivers cause Ironic-conductor to fail to start,https://bugs.launchpad.net/ironic/+bug/1647783,2017-02-13
+1594242,1594242,Fix Released,[RFE] Security Groups support for baremetal servers,https://bugs.launchpad.net/ironic/+bug/1594242,2017-02-13
+1648387,1648387,Fix Released,Ironic API service does not start with default audit.ignore_req_list conf option,https://bugs.launchpad.net/ironic/+bug/1648387,2017-02-13
+1649561,1649561,Fix Released,Enabling debug in Ironic should also enable it for IPA,https://bugs.launchpad.net/ironic/+bug/1649561,2017-02-13
+1615070,1615070,Fix Released,Ironic not reusing OneView client instance,https://bugs.launchpad.net/ironic/+bug/1615070,2017-02-13
+1641162,1641162,Fix Released,Missing or not needed return values in the OneView drivers deploy.,https://bugs.launchpad.net/ironic/+bug/1641162,2017-02-13
+1649449,1649449,Fix Released,devstack cannot find qemu-kvm binary on some redhat systems,https://bugs.launchpad.net/ironic/+bug/1649449,2017-02-13
+1650203,1650203,Fix Released,default policies in devstack do not work,https://bugs.launchpad.net/ironic/+bug/1650203,2017-02-13
+1651517,1651517,Fix Released,Sending notifications always fails when payload fields are missing,https://bugs.launchpad.net/ironic/+bug/1651517,2017-02-13
+1158684,1158684,Fix Released,Pre-created ports get deleted on VM delete,https://bugs.launchpad.net/ironic/+bug/1158684,2017-02-13
+1158684,1158684,Fix Released,Pre-created ports get deleted on VM delete,https://bugs.launchpad.net/nova/+bug/1158684,2017-02-13
+1646854,1646854,Fix Released,Ironic validate_driver_interfaces does not catch general errors,https://bugs.launchpad.net/ironic/+bug/1646854,2017-02-13
+1611279,1611279,Fix Released,Socat console de-activates without close active SOL connections,https://bugs.launchpad.net/ironic/+bug/1611279,2017-02-13
+1654243,1654243,Fix Released,Wrong json example in raid configuration,https://bugs.launchpad.net/ironic/+bug/1654243,2017-02-13
+1646038,1646038,Fix Released,AgentDeploy and PXEBoot only partially support takeover for ACTIVE netboot-ed nodes,https://bugs.launchpad.net/ironic/+bug/1646038,2017-02-13
+1626453,1626453,Fix Released,Setting persistent boot device does not work with ipmi_force_boot_device on,https://bugs.launchpad.net/ironic/+bug/1626453,2017-02-13
+1648036,1648036,Fix Released,[RFE] Add support for HCTL root device hint in Ironic,https://bugs.launchpad.net/ironic/+bug/1648036,2017-02-13
+1627022,1627022,Fix Released,Inconsistency deploy whole disk images in UEFI and BIOS mode,https://bugs.launchpad.net/ironic/+bug/1627022,2017-02-13
+1657475,1657475,Fix Released,Impossible to spawn overcloud without Glance v1 API,https://bugs.launchpad.net/tripleo/+bug/1657475,2017-02-13
+1657475,1657475,Fix Released,Impossible to spawn overcloud without Glance v1 API,https://bugs.launchpad.net/ironic/+bug/1657475,2017-02-13
+1657675,1657675,Fix Released,Do not pass user token to neutron client,https://bugs.launchpad.net/ironic/+bug/1657675,2017-02-13
+1658061,1658061,Fix Released,No way to abort even abortable in-band manual cleaning step,https://bugs.launchpad.net/ironic/+bug/1658061,2017-02-13
+1658187,1658187,Fix Released,api-ref generation now has warnings,https://bugs.launchpad.net/ironic/+bug/1658187,2017-02-13
+1659335,1659335,Fix Released,DevStack: Clean up of the nodes will fail for nodes with NVRAM (UEFI),https://bugs.launchpad.net/ironic/+bug/1659335,2017-02-13
+1653249,1653249,Fix Released,Validation that local_link_connection is present is missed for nodes with network_interface=neutron,https://bugs.launchpad.net/ironic/+bug/1653249,2017-02-13
+1651065,1651065,Fix Released,link in user-guide gives 404,https://bugs.launchpad.net/ironic/+bug/1651065,2017-02-13
+1660610,1660610,Fix Released,DevStack: CentOS (and possible other RPM based distros) fails with: No package edk2-ovmf available,https://bugs.launchpad.net/ironic/+bug/1660610,2017-02-13
+1642285,1642285,Fix Released,periodic get_sensors_data task unusable for large deployments,https://bugs.launchpad.net/ironic/+bug/1642285,2017-02-13
+1612666,1612666,Fix Released,calling port.refresh() and port.save() leads to DateTime error,https://bugs.launchpad.net/ironic/+bug/1612666,2017-02-13
+1657083,1657083,Fix Released,instance rebuild cause creation of two ports in two networks simultaneously,https://bugs.launchpad.net/ironic/+bug/1657083,2017-02-13
+1609622,1609622,Fix Released,RFE: Fix iLO drivers to get local_gb for all storages,https://bugs.launchpad.net/ironic/+bug/1609622,2017-02-13
+1663018,1663018,Fix Released,"Remove VirtualBox, MSFTOCS and SeaMicro drivers",https://bugs.launchpad.net/ironic/+bug/1663018,2017-02-13
+1663371,1663371,Fix Released,grenade is broken DEFAULT_IMAGE_NAME is not set correctly,https://bugs.launchpad.net/ironic/+bug/1663371,2017-02-13
+1663709,1663709,Fix Released,Timeout exceptions for some of ironic unittests when run with driver-requirements installed,https://bugs.launchpad.net/ironic/+bug/1663709,2017-02-13
+1663660,1663660,Fix Released,Impossible to detach VIF when it was manually attached to port in portgroup,https://bugs.launchpad.net/ironic/+bug/1663660,2017-02-13
+1662955,1662955,Fix Released,aodh-dbsync fails during Newton -> Ocata overcloud upgrade,https://bugs.launchpad.net/tripleo/+bug/1662955,2017-02-13
+1650610,1650610,Fix Released,Cannot disable public shares per configuration,https://bugs.launchpad.net/manila-ui/+bug/1650610,2017-02-13
+1566709,1566709,Fix Released,Put version selector in documentation,https://bugs.launchpad.net/gnocchi/+bug/1566709,2017-02-13
+1664165,1664165,Fix Released,CI: ocata ha job fails during apache placement in deployment,https://bugs.launchpad.net/tripleo/+bug/1664165,2017-02-13
+1661643,1661643,Fix Released,"Rally does not pass endpoint_type or interface during heatclient creation, although its expected in heatclient",https://bugs.launchpad.net/rally/+bug/1661643,2017-02-13

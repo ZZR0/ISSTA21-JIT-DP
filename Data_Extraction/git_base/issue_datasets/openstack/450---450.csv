@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1724538,1724538,Fix Released,gnocchi install api runtime error numpy version 0xa 0xb,https://bugs.launchpad.net/openstack-ansible/+bug/1724538,2020-11-03
+1576724,1576724,Fix Committed,OSA doesn't handle hosts file in compute nodes for live migration,https://bugs.launchpad.net/openstack-ansible/+bug/1576724,2020-11-03
+1790686,1790686,Fix Released,"DNS resolution not working in rocky, queens",https://bugs.launchpad.net/openstack-ansible/+bug/1790686,2020-11-03
+1753543,1753543,Fix Released,LXC interface template does not set MTU for provider interface,https://bugs.launchpad.net/openstack-ansible/+bug/1753543,2020-11-03
+1787912,1787912,Fix Released,a11y: tripleo output should be easier to read,https://bugs.launchpad.net/tripleo/+bug/1787912,2020-11-03
+1887435,1887435,Fix Committed,Moving cinder from host to containers changes ownership of files on NFS backend,https://bugs.launchpad.net/tripleo/+bug/1887435,2020-11-03
+1885326,1885326,Fix Released,tripleo-ansible molecule train ERROR: Double requirement given: mock,https://bugs.launchpad.net/tripleo/+bug/1885326,2020-11-03
+1884570,1884570,Fix Released,tripleo-ci-centos-8-standalone-on-multinode-ipa is failing sporadically on 'install tls dependencies',https://bugs.launchpad.net/tripleo/+bug/1884570,2020-11-03
+1884845,1884845,Fix Released,RDOcloud stacks cannot be deleted - taking cloud resources,https://bugs.launchpad.net/tripleo/+bug/1884845,2020-11-03
+1764545,1764545,Fix Released,install_rally.sh fails when python-wrapt system package is installed on ubuntu xenial,https://bugs.launchpad.net/rally/+bug/1764545,2020-11-03
+1872458,1872458,Fix Released,Upgrade Stein > Train: Converge step fails during ceph-ansible preparation,https://bugs.launchpad.net/tripleo/+bug/1872458,2020-11-03
+1654007,1654007,Fix Released,Install rally failed because some packages are missing,https://bugs.launchpad.net/rally/+bug/1654007,2020-11-03
+1578293,1578293,Fix Released,Rally requires admin credentials to run tasks,https://bugs.launchpad.net/rally/+bug/1578293,2020-11-03
+1731668,1731668,Fix Released,placement: claim allocations fails with IndexError in _ensure_lookup_table_entry,https://bugs.launchpad.net/nova/+bug/1731668,2020-11-03
+1900268,1900268,Fix Released,"Implement ""find_parent_pid"" natively",https://bugs.launchpad.net/neutron/+bug/1900268,2020-11-03
+1880230,1880230,Fix Released,Designate obsesses over deleting non-existent domains,https://bugs.launchpad.net/designate/+bug/1880230,2020-11-03
+1756813,1756813,Fix Released,Configure memcache_secret_key as secret,https://bugs.launchpad.net/puppet-keystone/+bug/1756813,2020-11-03
+1880619,1880619,Fix Released,libvirt fails to start because --listen parameter is not permitted with systemd activation socket,https://bugs.launchpad.net/puppet-nova/+bug/1880619,2020-11-03
+1898553,1898553,Fix Released,nova-compute doesn't start due to libvirtd --listen restriction,https://bugs.launchpad.net/puppet-nova/+bug/1898553,2020-11-03
+1901299,1901299,Fix Released,mysql-open-files-limit is broken because container_cli fact is missing,https://bugs.launchpad.net/tripleo/+bug/1901299,2020-11-03
+1902506,1902506,Fix Released,Fs039 in security component is failing in master/Victoria/Ussuri on TASK [ovb-manage : Attach instance to provision OVB network],https://bugs.launchpad.net/tripleo/+bug/1902506,2020-11-03
+1899917,1899917,Fix Released,neutron-tempest-plugin-scenario-linuxbridge jobs are broken on rocky/queens branches,https://bugs.launchpad.net/neutron/+bug/1899917,2020-11-03
+1899006,1899006,Fix Released,Wrong mac address of ARP entry setting for allowed_address_pairs in DVR router,https://bugs.launchpad.net/neutron/+bug/1899006,2020-11-03
+1886088,1886088,Fix Released,Mixed versions of liberasurecode leads to quarantined fragments,https://bugs.launchpad.net/swift/+bug/1886088,2020-11-02
+1900420,1900420,Fix Released,Clean up reference to deprecated config option,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1900420,2020-11-02
+1899541,1899541,Fix Released,archive_deleted_rows archives pci_devices records as residue because of 'instance_uuid',https://bugs.launchpad.net/nova/+bug/1899541,2020-11-02
+1900713,1900713,Fix Released,'openstack tripleo validator run' should not run the ceph-pg validation,https://bugs.launchpad.net/tripleo/+bug/1900713,2020-11-02
+1899182,1899182,Fix Released,Neutron ports are created for hostNetworking pods,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1899182,2020-11-02
+1893656,1893656,Fix Released,[ovn] Limit the number of metadata workers,https://bugs.launchpad.net/neutron/+bug/1893656,2020-11-02
+1872671,1872671,Fix Released,[Focal] Policy files are missing,https://bugs.launchpad.net/horizon/+bug/1872671,2020-11-02
+1798387,1798387,Fix Released,VMAX Queens - 90 REST endpoint not compatible with minimum unisphere version,https://bugs.launchpad.net/cinder/+bug/1798387,2020-11-02
+1874829,1874829,Fix Released,Queens VMAX driver - FC Live Migration failure,https://bugs.launchpad.net/cinder/+bug/1874829,2020-11-02
+1838704,1838704,Fix Released,keystoneauth doesn't cleanup session if it creates one,https://bugs.launchpad.net/keystoneauth/+bug/1838704,2020-11-02
+1787219,1787219,Fix Released,VMAX Queens driver - incorrect condition for a list,https://bugs.launchpad.net/cinder/+bug/1787219,2020-11-02
+1800684,1800684,Fix Released,VMAX ocata - a backport caused a deadlock,https://bugs.launchpad.net/cinder/+bug/1800684,2020-11-02
+1772019,1772019,Fix Released,VMAX doc - use config-table directive,https://bugs.launchpad.net/cinder/+bug/1772019,2020-11-02
+1768548,1768548,Fix Released,VMAX driver - implement config table sphinx directive,https://bugs.launchpad.net/cinder/+bug/1768548,2020-11-02
+1874697,1874697,Fix Released,Snapshot restore failure against PowerMAX,https://bugs.launchpad.net/cinder/+bug/1874697,2020-11-02
+1800008,1800008,Fix Released,VMAX: _unlink_volume failed after 30 tries,https://bugs.launchpad.net/cinder/+bug/1800008,2020-11-02
+1901297,1901297,Fix Released,nova-event-callback validation doesn't validate vif_plugging_timeout_check properly,https://bugs.launchpad.net/tripleo/+bug/1901297,2020-11-02
+1900158,1900158,Fix Released,ci.centos jobs in master and ussuri are failing introspection - failed to run hardware-detect utility,https://bugs.launchpad.net/tripleo/+bug/1900158,2020-11-02
+1901619,1901619,Fix Released,Ansble-hardening role is not applied to containers,https://bugs.launchpad.net/openstack-ansible/+bug/1901619,2020-10-31
+1898554,1898554,Fix Released,Legacy 'InstanceNUMACell' with 'mixed' policy results in 'TypeError',https://bugs.launchpad.net/nova/+bug/1898554,2020-10-31
+1846791,1846791,Fix Released,"race, openstack overcloud node introspect --all-manageable --provide may hang",https://bugs.launchpad.net/tripleo/+bug/1846791,2020-10-30
+1878938,1878938,Fix Released,System role assignments exist after system role delete,https://bugs.launchpad.net/keystone/+bug/1878938,2020-10-30
+1888407,1888407,Fix Released,Surplus SG rules are created for the services.,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1888407,2020-10-30
+1901666,1901666,Fix Released,Bulk port creation exception not completely formatted,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1901666,2020-10-30
+1888395,1888395,Fix Released,live migration of a vm using the single port binding work flow is broken in train as a result of the introduction of sriov live migration,https://bugs.launchpad.net/nova/+bug/1888395,2020-10-30
+1896533,1896533,Fix Released,share_update is_public param should be always be a string,https://bugs.launchpad.net/manila-ui/+bug/1896533,2020-10-29
+1901547,1901547,Fix Committed,tripleo-ipa molecule fails on setup,https://bugs.launchpad.net/tripleo/+bug/1901547,2020-10-29
+1894381,1894381,Fix Released,cinder-manage cluster remove does not work,https://bugs.launchpad.net/cinder/+bug/1894381,2020-10-29
+1868234,1868234,Fix Released,nova-live-migration evacuation fails if volumes created on subnode c-vol backend,https://bugs.launchpad.net/nova/+bug/1868234,2020-10-29
+1824987,1824987,Fix Released,Galera  user creation fails,https://bugs.launchpad.net/openstack-ansible/+bug/1824987,2020-10-29
+1863808,1863808,Fix Released,Version comparison: LooseVersion instance has no attribute 'version,https://bugs.launchpad.net/openstack-ansible/+bug/1863808,2020-10-29
+1872427,1872427,Fix Released,'placement-infra_hosts' is missing from the example user config,https://bugs.launchpad.net/openstack-ansible/+bug/1872427,2020-10-29
+1859012,1859012,Fix Released,Swift account-auditor does not start,https://bugs.launchpad.net/openstack-ansible/+bug/1859012,2020-10-29
+1837425,1837425,Fix Released,utility host openstack cli tools point to old versions,https://bugs.launchpad.net/openstack-ansible/+bug/1837425,2020-10-29
+1824646,1824646,Fix Released,After installation using 19.0.0.0rc1 heat is not usable,https://bugs.launchpad.net/openstack-ansible/+bug/1824646,2020-10-29
+1822109,1822109,Fix Released,gnocchi : TypeError: ufunc subtract cannot use operands with types dtype('O') and dtype('<M8[ns]'),https://bugs.launchpad.net/openstack-ansible/+bug/1822109,2020-10-29
+1898589,1898589,Fix Released,During FFWD 13>16 upgrade site-container.yml is triggered instead of docker-to-podman.yml even with --tags ceph_systemd,https://bugs.launchpad.net/tripleo/+bug/1898589,2020-10-29
+1895033,1895033,Fix Released,"When using ml2/OVN with other plugins with agents, non-OVN agents are broken for show/update/delete operations",https://bugs.launchpad.net/neutron/+bug/1895033,2020-10-28
+1808543,1808543,Fix Released,Keystone Federation cannot complete SP node setup on stable/rocky,https://bugs.launchpad.net/openstack-ansible/+bug/1808543,2020-10-28
+1794599,1794599,Fix Released,Rocky repo build fails when upgrading from queens,https://bugs.launchpad.net/openstack-ansible/+bug/1794599,2020-10-28
+1794525,1794525,Fix Released,Upgrade fails when having cinder_qos_specs defined,https://bugs.launchpad.net/openstack-ansible/+bug/1794525,2020-10-28
+1778663,1778663,Fix Released,Pike→Queens upgrade fails on final step in run_upgrade.sh (running haproxy-install.yml),https://bugs.launchpad.net/openstack-ansible/+bug/1778663,2020-10-28
+1714597,1714597,Fix Released,multi OS repo-build needs to be more intuitive,https://bugs.launchpad.net/openstack-ansible/+bug/1714597,2020-10-28
+1688320,1688320,Fix Released,Support for versionless Keystone endpoints,https://bugs.launchpad.net/openstack-ansible/+bug/1688320,2020-10-28
+1885113,1885113,Fix Released,TLS certificate update for some HA services might cause service disruption,https://bugs.launchpad.net/tripleo/+bug/1885113,2020-10-28
+1900957,1900957,Fix Released,"Ussuri periodic standalone upgrade job is failing with error ""stderr"": ""/bin/sh: docker: command not found""",https://bugs.launchpad.net/tripleo/+bug/1900957,2020-10-28
+1901626,1901626,Fix Released,puppet-nova-tripleo-standalone keeps failinig in stable/victoria,https://bugs.launchpad.net/tripleo/+bug/1901626,2020-10-28
+1765438,1765438,Fix Released,RabbitMQ policy application not working for AIO,https://bugs.launchpad.net/openstack-ansible/+bug/1765438,2020-10-28
+1900884,1900884,Fix Released,ubuntu-base-20.04-base-amd64.tar.gz is missing,https://bugs.launchpad.net/openstack-ansible/+bug/1900884,2020-10-28
+1900975,1900975,Fix Released,Default Ubuntu image URL in openstack-ansible-lhx_hosts needs updating,https://bugs.launchpad.net/openstack-ansible/+bug/1900975,2020-10-28
+1901676,1901676,Fix Released,"Undercloud install is failing with Error message: Validation ['r', 'o', 'p', 'd', '.', 'i', 'y', 'k', 'c', 'e', 'l', 's', '-', 'n', 'u', 'a', 'm'] not found in /usr/share/ansible/validation-playbooks.",https://bugs.launchpad.net/tripleo/+bug/1901676,2020-10-28
+1764783,1764783,Fix Released,Split kuryr-controller and kuryr-cni ServiceAccounts,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1764783,2020-10-28

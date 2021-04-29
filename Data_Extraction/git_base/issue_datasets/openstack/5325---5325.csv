@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1730933,1730933,Fix Released,Quobyte mount validation needs update,https://bugs.launchpad.net/cinder/+bug/1730933,2019-09-27
+1756823,1756823,Fix Released,systemd based mount failures with Quobyte driver,https://bugs.launchpad.net/nova/+bug/1756823,2019-09-27
+1818730,1818730,Fix Released,Errors in finish_revert_resize can leave migration.dest_compute pointing at source_compute,https://bugs.launchpad.net/nova/+bug/1818730,2019-09-27
+1819049,1819049,Fix Released,block_device_allocate_retries help needs work,https://bugs.launchpad.net/nova/+bug/1819049,2019-09-27
+1819430,1819430,Fix Released,unnecessary placement call to fill group mapping during boot,https://bugs.launchpad.net/nova/+bug/1819430,2019-09-27
+1819764,1819764,Fix Released,Excessive warnings in nova-compute logs about unexpected network-vif-unplugged events during live migration,https://bugs.launchpad.net/nova/+bug/1819764,2019-09-27
+1819963,1819963,Fix Released,Reverting a resize does not update the instance.availability_zone value to the source az,https://bugs.launchpad.net/nova/+bug/1819963,2019-09-27
+1816938,1816938,Fix Released,"Misleading log message ""Booting with blank volume"" in nova-compute when booting from real volume",https://bugs.launchpad.net/nova/+bug/1816938,2019-09-27
+1808975,1808975,Fix Released,python3 + Fedora + SSL + nova compute RecursionError: maximum recursion depth exceeded while calling a Python object,https://bugs.launchpad.net/nova/+bug/1808975,2019-09-27
+1821244,1821244,Fix Released,Failed volume creation can result in invalid `connection_info` field,https://bugs.launchpad.net/nova/+bug/1821244,2019-09-27
+1821015,1821015,Fix Released,Attaching virtual GPU devices to guests in nova - libvirt reshaping,https://bugs.launchpad.net/nova/+bug/1821015,2019-09-27
+1820337,1820337,Fix Released,test_bfv_quota_race_local_delete intermittently fails with testtools.matchers._impl.MismatchError: ['bfv'] != [],https://bugs.launchpad.net/nova/+bug/1820337,2019-09-27
+1821764,1821764,Fix Released,docs: JsonFilter query hint examples do not use valid json strings,https://bugs.launchpad.net/nova/+bug/1821764,2019-09-27
+1821411,1821411,Fix Released,Configuring nova.conf - [keystone_auth] mistake,https://bugs.launchpad.net/nova/+bug/1821411,2019-09-27
+1816727,1816727,Fix Released,nova-novncproxy does not handle TCP RST cleanly when using SSL,https://bugs.launchpad.net/nova/+bug/1816727,2019-09-27
+1821916,1821916,Fix Released,"""openstack placement aggregate"" CLI command should be replaced with  ""resource provider aggregate"" in https://docs.openstack.org/nova/rocky/admin/configuration/schedulers.html",https://bugs.launchpad.net/nova/+bug/1821916,2019-09-27
+1821594,1821594,Fix Released,[SRU] Error in confirm_migration leaves stale allocations and 'confirming' migration state,https://bugs.launchpad.net/nova/+bug/1821594,2019-09-27
+1819460,1819460,Fix Released,instance stuck in BUILD state due to unhandled exceptions in conductor,https://bugs.launchpad.net/nova/+bug/1819460,2019-09-27
+1822262,1822262,Fix Released,Unnecessary _fill_provider_mapping call during reschedule when claim fails,https://bugs.launchpad.net/nova/+bug/1822262,2019-09-27
+1821824,1821824,Fix Released,Forbidden traits in flavor properties don't work,https://bugs.launchpad.net/nova/+bug/1821824,2019-09-27
+1816755,1816755,Fix Released,Flavor id and name validation are unnecessary because of jsonschema validation,https://bugs.launchpad.net/nova/+bug/1816755,2019-09-27
+1822605,1822605,Fix Released,"nova-live-migration fails 100% with ""Multiple possible networks found, use a Network ID to be more specific""",https://bugs.launchpad.net/nova/+bug/1822605,2019-09-27
+1822355,1822355,Fix Released,Incomplete stubbing of os-vif in libvirt functional tests,https://bugs.launchpad.net/nova/+bug/1822355,2019-09-27
+1822575,1822575,Fix Released,lower-constraints are not used in gate job,https://bugs.launchpad.net/nova/+bug/1822575,2019-09-27
+1822729,1822729,Fix Released,DeprecationWarning: Property 'tenant' has moved to 'project_id' in version '2.6' and will be removed in version '3.0',https://bugs.launchpad.net/nova/+bug/1822729,2019-09-27
+1821938,1821938,Fix Released,No nova hypervisor can be enabled on workers with QAT devices,https://bugs.launchpad.net/nova/+bug/1821938,2019-09-27
+1822613,1822613,Fix Released,Inefficient queries inside online_data_migrations,https://bugs.launchpad.net/nova/+bug/1822613,2019-09-27
+1823104,1823104,Fix Released,CellMappingPayload in select_destinations versioned notification sends sensitive database_connection and transport_url information,https://bugs.launchpad.net/nova/+bug/1823104,2019-09-27
+1823198,1823198,Fix Released,NetworkAmbiguous traceback in nova-compute logs even though it's a user error,https://bugs.launchpad.net/nova/+bug/1823198,2019-09-27
+1823207,1823207,Fix Released,"Annoying log on nova-compute startup with default configuration: ""WARNING [nova.compute.monitors] Excluding nova.compute.monitors.cpu monitor virt_driver. Not in the list of enabled monitors (CONF.compute_monitors).""",https://bugs.launchpad.net/nova/+bug/1823207,2019-09-27
+1823203,1823203,Fix Released,PortLimitExceeded results in 500 error from POST /servers/{server_id}/os-interface,https://bugs.launchpad.net/nova/+bug/1823203,2019-09-27
+1806398,1806398,Fix Released,Cannot attach to NetApp when first IP is not accessible,https://bugs.launchpad.net/cinder/+bug/1806398,2019-09-27
+1823043,1823043,Fix Released,"Docs insufficiently clear on the intersection of availalability zones, force, and cold and live migrations",https://bugs.launchpad.net/nova/+bug/1823043,2019-09-27
+1695018,1695018,Fix Released,periodic_interval only works at a minimum of 60 seconds for periodic_tasks,https://bugs.launchpad.net/cinder/+bug/1695018,2019-09-27
+1821737,1821737,Fix Released,"simple_cell_setup reports ""exiting"" when it is not",https://bugs.launchpad.net/nova/+bug/1821737,2019-09-27
+1818506,1818506,Fix Released,Netapp ONTAP iSCSI error extending,https://bugs.launchpad.net/cinder/+bug/1818506,2019-09-27
+1812945,1812945,Fix Released,The computing node has left the mount information after the encryption fails.,https://bugs.launchpad.net/nova/+bug/1812945,2019-09-27
+1753885,1753885,Fix Released,"invalid filter option ""all_tenants"" for non-aministrator user",https://bugs.launchpad.net/cinder/+bug/1753885,2019-09-27
+1822917,1822917,Fix Released,"""Overwriting current allocation"" warnings in logs during move operations although there are no failures",https://bugs.launchpad.net/nova/+bug/1822917,2019-09-27
+1817259,1817259,Fix Released,Synology: Add support for UC-Series model,https://bugs.launchpad.net/cinder/+bug/1817259,2019-09-27
+1823794,1823794,Fix Released,We should remove require_instance_exists_using_uuid,https://bugs.launchpad.net/nova/+bug/1823794,2019-09-27
+1823781,1823781,Fix Released,Related virtual_interfaces not deleted in DB API instance_destroy method,https://bugs.launchpad.net/nova/+bug/1823781,2019-09-27
+1803961,1803961,Fix Released,Nova doesn't call migrate_volume_completion after cinder volume migration,https://bugs.launchpad.net/nova/+bug/1803961,2019-09-27
+1822025,1822025,Fix Released,message_field.Detail.EXCEPTION_DETAIL_MAPPINGS contains non-exception,https://bugs.launchpad.net/cinder/+bug/1822025,2019-09-27
+1821798,1821798,Fix Released,nova diagnostics command is not working with all interfaces,https://bugs.launchpad.net/nova/+bug/1821798,2019-09-27
+1822000,1822000,Fix Released,clarify operation of message.create when passed an exception and a detail,https://bugs.launchpad.net/cinder/+bug/1822000,2019-09-27
+1824813,1824813,Fix Released,Unsetting '[DEFAULT] dhcp_domain' results in hostname corruption,https://bugs.launchpad.net/nova/+bug/1824813,2019-09-27
+1808113,1808113,Fix Released,os-reset_status policy change ineffective,https://bugs.launchpad.net/cinder/+bug/1808113,2019-09-27
+1698010,1698010,Fix Released,neutron-based instances should not use the nova-network 'dhcp_domain' option,https://bugs.launchpad.net/nova/+bug/1698010,2019-09-27
+1825020,1825020,Fix Released,"resize of instance, that was booted from volume, trigger image size check then fails resize",https://bugs.launchpad.net/nova/+bug/1825020,2019-09-27
+1796825,1796825,Fix Released,VNXCreateSnapError: failed to create snap when running test_volumes_clone,https://bugs.launchpad.net/cinder/+bug/1796825,2019-09-27
+1792077,1792077,Fix Released,"problem specifying multiple ""bus=scsi"" block devices on nova boot",https://bugs.launchpad.net/nova/+bug/1792077,2019-09-27
+1823748,1823748,Fix Released,periodic_interval used in too many places,https://bugs.launchpad.net/cinder/+bug/1823748,2019-09-27
+1825535,1825535,Fix Released,nova.tests.unit.test_rpc.TestRPC intermittently fails if run in isolation,https://bugs.launchpad.net/nova/+bug/1825535,2019-09-27
+1825029,1825029,Fix Released,NFS update_migrated_volume should print a better message,https://bugs.launchpad.net/cinder/+bug/1825029,2019-09-27
+1825583,1825583,Fix Released,Region name isn't respected when configuring ironic,https://bugs.launchpad.net/nova/+bug/1825583,2019-09-27
+1814027,1814027,Fix Released,3PAR : Creation of volume from snapshot,https://bugs.launchpad.net/cinder/+bug/1814027,2019-09-27
+1825957,1825957,Fix Released,Premature volume connection termination with LVM/iSCSI multiattached volumes when using different mountpoints,https://bugs.launchpad.net/cinder/+bug/1825957,2019-09-27
+1826434,1826434,Fix Released,Swift backup driver fails to initialize unless backup_swift_url is set,https://bugs.launchpad.net/cinder/+bug/1826434,2019-09-27
+1822801,1822801,Fix Released,Baremetal port's host_id get updated during instance restart,https://bugs.launchpad.net/nova/+bug/1822801,2019-09-27
+1827733,1827733,Fix Released,"volume list should allow filtering on ""size""",https://bugs.launchpad.net/cinder/+bug/1827733,2019-09-27
+1784093,1784093,Fix Released,Build requests can be orphaned without instance mappings,https://bugs.launchpad.net/nova/+bug/1784093,2019-09-27
+1828113,1828113,Fix Released,Block Storage API V3 (CURRENT) in cinder - migration_status is optional in volume detail responses,https://bugs.launchpad.net/cinder/+bug/1828113,2019-09-27
+1825882,1825882,Fix Released,[SRU] Virsh disk attach errors silently ignored,https://bugs.launchpad.net/nova/+bug/1825882,2019-09-27
+1795957,1795957,Fix Released,VNX unit tests are not Python 3.7 compatible,https://bugs.launchpad.net/cinder/+bug/1795957,2019-09-27
+1829398,1829398,Fix Released,"Fix ""connector=None"" issue in terminate_connection for Kaminario volume drivers",https://bugs.launchpad.net/cinder/+bug/1829398,2019-09-27
+1826523,1826523,Fix Released,libvirtError exceptions during volume attach leave volume connected to host,https://bugs.launchpad.net/nova/+bug/1826523,2019-09-27
+1825435,1825435,Fix Released,"TestRPC unit tests intermittently fail with ""'>' not supported between instances of 'NoneType' and 'datetime.datetime'"" - maybe due to ""Fatal Python error: Cannot recover from stack overflow.""",https://bugs.launchpad.net/nova/+bug/1825435,2019-09-27
+1813851,1813851,Fix Released,Backup restore fails intermittently with nfs mount error,https://bugs.launchpad.net/cinder/+bug/1813851,2019-09-27
+1827094,1827094,Fix Released,ironic.peer_list config help is wrong,https://bugs.launchpad.net/nova/+bug/1827094,2019-09-27
+1810642,1810642,Fix Released,Neutron service taking up all CPU resources,https://bugs.launchpad.net/nova/+bug/1810642,2019-09-27
+1833485,1833485,Fix Released,Wrong assert methods in a unit tests for PowerMax driver,https://bugs.launchpad.net/cinder/+bug/1833485,2019-09-27
+1825034,1825034,Fix Released,listing deleted servers from the API fails after running fill_virtual_interface_list online data migration,https://bugs.launchpad.net/nova/+bug/1825034,2019-09-27
+1825469,1825469,Fix Released,Unity: force-delete not delete volumes in storage groups,https://bugs.launchpad.net/cinder/+bug/1825469,2019-09-27
+1827984,1827984,Fix Released,Wrong assert methods in unit tests,https://bugs.launchpad.net/nova/+bug/1827984,2019-09-27

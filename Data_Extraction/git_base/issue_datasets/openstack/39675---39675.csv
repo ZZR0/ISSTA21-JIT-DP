@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1547598,1547598,Fix Released,install-guide define contents of /etc/network/interfaces for both the controller node and compute node that differ,https://bugs.launchpad.net/openstack-ansible/+bug/1547598,2016-07-28
+1572859,1572859,Fix Released,"""locale.Error: unsupported locale setting"" error on target hosts and containers",https://bugs.launchpad.net/openstack-ansible/+bug/1572859,2016-07-28
+1574019,1574019,Fix Released,Upgrade from 12.0.10 to 13.0.1 fails without local SSH keys,https://bugs.launchpad.net/openstack-ansible/+bug/1574019,2016-07-28
+1582043,1582043,Fix Released,documentation: swift docs have /mnt mount point in examples instead of /srv/node,https://bugs.launchpad.net/openstack-ansible/+bug/1582043,2016-07-28
+1581923,1581923,Fix Released,incorrect documentation: details about proper permissions not specified or are incorrect,https://bugs.launchpad.net/openstack-ansible/+bug/1581923,2016-07-28
+1579963,1579963,Fix Released,Applying security-hardening post 3.19 kernel upgrade fails if pre-upgrade kernel was 3.13,https://bugs.launchpad.net/openstack-ansible/+bug/1579963,2016-07-28
+1583016,1583016,Fix Released,broken link in developer documentation: scripts file,https://bugs.launchpad.net/openstack-ansible/+bug/1583016,2016-07-28
+1431324,1431324,Fix Released,gate: change ansible to run in virtual environment,https://bugs.launchpad.net/openstack-ansible/+bug/1431324,2016-07-28
+1446434,1446434,Fix Released,Provide RabbitMQ management UI through HAProxy,https://bugs.launchpad.net/openstack-ansible/+bug/1446434,2016-07-28
+1528953,1528953,Fix Released,Can't name your infra host os_infra,https://bugs.launchpad.net/openstack-ansible/+bug/1528953,2016-07-28
+1512883,1512883,Fix Released,Host name of haproxy in openstack_user_config.yml causes recursion error,https://bugs.launchpad.net/openstack-ansible/+bug/1512883,2016-07-28
+1589440,1589440,Fix Released,bootstrap host fails due to the deletion of upstream's libvirt cpu map update script,https://bugs.launchpad.net/openstack-ansible/+bug/1589440,2016-07-28
+1588902,1588902,Fix Released,Variables defined in global_overrides persist after deletion,https://bugs.launchpad.net/openstack-ansible/+bug/1588902,2016-07-28
+1596548,1596548,Fix Released,Disabling SSL breaks HAProxy config,https://bugs.launchpad.net/openstack-ansible/+bug/1596548,2016-07-28
+1539246,1539246,Fix Released,only install one of nova_console_novnc or nova_console to haproxy,https://bugs.launchpad.net/openstack-ansible/+bug/1539246,2016-07-28
+1544898,1544898,Fix Released,Host layout is missing the Object Storage,https://bugs.launchpad.net/openstack-ansible/+bug/1544898,2016-07-28
+1595631,1595631,Fix Released,missing lxc_net_mtu configuration in documentation,https://bugs.launchpad.net/openstack-ansible/+bug/1595631,2016-07-28
+1596572,1596572,Fix Released,DOCS: Clarify variable usage in global_overrides,https://bugs.launchpad.net/openstack-ansible/+bug/1596572,2016-07-28
+1598324,1598324,Fix Released,"lxc_hosts ""create base container"" with proxy settings are failing",https://bugs.launchpad.net/openstack-ansible/+bug/1598324,2016-07-28
+1600628,1600628,Fix Released,Disable a container with env.d overrides,https://bugs.launchpad.net/openstack-ansible/+bug/1600628,2016-07-28
+1595370,1595370,Fix Released,Enabling designate dns extension in ml2 causes failure in network interface addition on the router,https://bugs.launchpad.net/networking-cisco/+bug/1595370,2016-07-28
+1604840,1604840,Fix Released,osa-differ doesn't handle new roles well,https://bugs.launchpad.net/openstack-ansible/+bug/1604840,2016-07-28
+1607419,1607419,Fix Released,missing sudo in install_deps in quickstart.sh,https://bugs.launchpad.net/tripleo-quickstart/+bug/1607419,2016-07-28
+1583282,1583282,Fix Released,Cannot specify non-default collectd config file location,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1583282,2016-07-28
+1435885,1435885,Fix Released,tests/ci/rally-integrated.sh should accept args and transmit them to subunit.run,https://bugs.launchpad.net/rally/+bug/1435885,2016-07-28
+1498218,1498218,Fix Released,Rally verify should allow tempest plugins,https://bugs.launchpad.net/rally/+bug/1498218,2016-07-28
+1494685,1494685,Fix Released,rally.common.db.api.<any> should return serialized data,https://bugs.launchpad.net/rally/+bug/1494685,2016-07-28
+1496421,1496421,Fix Released,CleanupContext tries to remove one resource several times,https://bugs.launchpad.net/rally/+bug/1496421,2016-07-28
+1603351,1603351,Fix Committed,node.create() is absent for IpmiNode,https://bugs.launchpad.net/fuel/+bug/1603351,2016-07-28
+1551250,1551250,Fix Released,[liberty] IPA cannot be used with CentOS base due to lack of LIO support,https://bugs.launchpad.net/ironic-python-agent/+bug/1551250,2016-07-28
+1589469,1589469,Fix Committed,Fuel library doesn't update DNS server in case of 'save-only' mode,https://bugs.launchpad.net/fuel/+bug/1589469,2016-07-28
+1604790,1604790,Fix Released,[DPDK_VF]Deployment has failed with error 'Failed to execute hook 'contrail-compute-vrouter'.,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1604790,2016-07-28
+1606537,1606537,Fix Released,python 3.5 unit test failed for  NovaScenarioTestCase.test__boot_server_5,https://bugs.launchpad.net/rally/+bug/1606537,2016-07-28
+1595160,1595160,Fix Released,Functional tests in CI fail on share creation step,https://bugs.launchpad.net/python-manilaclient/+bug/1595160,2016-07-28
+1606445,1606445,Fix Released,Create a new user for the packages.fuel-infra.org,https://bugs.launchpad.net/fuel/+bug/1606445,2016-07-28
+1598248,1598248,Fix Released,5xx on slaves cvs export in racks,https://bugs.launchpad.net/fuel/+bug/1598248,2016-07-28
+1593223,1593223,Fix Released,Pagination is not working on Jenkins slaves listing page for particular CI,https://bugs.launchpad.net/fuel/+bug/1593223,2016-07-28
+1595951,1595951,Fix Released,add switch port allocation for lab,https://bugs.launchpad.net/fuel/+bug/1595951,2016-07-28
+1561373,1561373,Fix Released,mirror settings ignored in preseed.cfg file,https://bugs.launchpad.net/fuel/+bug/1561373,2016-07-28
+1585559,1585559,Fix Released,lpreports doesn't get new primary on mongo replicaset rebuild,https://bugs.launchpad.net/fuel/+bug/1585559,2016-07-28
+1545812,1545812,Fix Released,unable to update hosts in production pxe,https://bugs.launchpad.net/fuel/+bug/1545812,2016-07-28
+1519776,1519776,Fix Released,Create unit/integration tests for seedclient,https://bugs.launchpad.net/fuel/+bug/1519776,2016-07-28
+1603488,1603488,Fix Released,Case with master migration failed with error: [Errno 111] Connection refused,https://bugs.launchpad.net/fuel/+bug/1603488,2016-07-28
+1601835,1601835,Fix Committed,Need to create two new branches for project ans system configs,https://bugs.launchpad.net/fuel/+bug/1601835,2016-07-28
+1606809,1606809,Fix Released,Nova retry for scheduling results in error,https://bugs.launchpad.net/vmware-nsx/+bug/1606809,2016-07-28
+1598824,1598824,Fix Released,Bug in service target creation,https://bugs.launchpad.net/group-based-policy/+bug/1598824,2016-07-28
+1579663,1579663,Fix Released,Include supported/available types in help message,https://bugs.launchpad.net/python-aodhclient/+bug/1579663,2016-07-28
+1582999,1582999,Fix Released,"when create a threshold alarm, the ""--meter-name"" should be reminded how to get",https://bugs.launchpad.net/python-aodhclient/+bug/1582999,2016-07-28
+1586763,1586763,Fix Released,aodh alarm create/show don't print queries to multiple lines,https://bugs.launchpad.net/python-aodhclient/+bug/1586763,2016-07-28
+1585155,1585155,Fix Released,add releasenotes for Newton updates,https://bugs.launchpad.net/python-aodhclient/+bug/1585155,2016-07-28
+1538927,1538927,Fix Released,support pagination in aodhclient,https://bugs.launchpad.net/python-aodhclient/+bug/1538927,2016-07-28
+1589480,1589480,Fix Released,Add event_id for alarm_history display,https://bugs.launchpad.net/python-aodhclient/+bug/1589480,2016-07-28
+1605915,1605915,Fix Released,doc8 complains D001(too long line),https://bugs.launchpad.net/networking-odl/+bug/1605915,2016-07-28
+1472531,1472531,Fix Released,test_api_reload_on_sighup fails on gate,https://bugs.launchpad.net/heat/+bug/1472531,2016-07-28
+1604649,1604649,Fix Released,python35 job often fails,https://bugs.launchpad.net/networking-midonet/+bug/1604649,2016-07-28
+1598542,1598542,Fix Released,deadlock happens when neutron-server down while core plugin holding a lock,https://bugs.launchpad.net/dragonflow/+bug/1598542,2016-07-28
+1606468,1606468,Fix Released,fullstack test uses invalid mac to test port security functionalbility,https://bugs.launchpad.net/dragonflow/+bug/1606468,2016-07-28
+1606553,1606553,Fix Released,pep8 AttributeError,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1606553,2016-07-28
+1599429,1599429,Fix Released,Manila gate is failing due to old tempest commit state,https://bugs.launchpad.net/manila/+bug/1599429,2016-07-27
+1602039,1602039,Fix Released,Missing query of L3P for a given router ID,https://bugs.launchpad.net/group-based-policy/+bug/1602039,2016-07-27
+1606981,1606981,Fix Released,Driver does not implement cleanup_live_migration_destination_check method,https://bugs.launchpad.net/nova-powervm/+bug/1606981,2016-07-27
+1561378,1561378,Fix Released,l3-agent-list-hosting-router failing with «Field names must be unique!» in interactive Neutron CLI,https://bugs.launchpad.net/python-neutronclient/+bug/1561378,2016-07-27
+1523968,1523968,Fix Released,LBaaS v2 - LB update with admin-state-down fails,https://bugs.launchpad.net/python-neutronclient/+bug/1523968,2016-07-27
+1515111,1515111,Fix Released,neutron-lbaas missing options in Help section in lbaas-*-update CLI,https://bugs.launchpad.net/python-neutronclient/+bug/1515111,2016-07-27
+1570689,1570689,Fix Released,random failures of CLITestV20SecurityGroupsJSON.test_extend_list_exceed_max_uri_len,https://bugs.launchpad.net/python-neutronclient/+bug/1570689,2016-07-27
+1570976,1570976,Fix Released,neutronclient is missing help text for the purge command,https://bugs.launchpad.net/python-neutronclient/+bug/1570976,2016-07-27
+1536479,1536479,Fix Released,the return info is unclear when creating subnetpool without prefixes,https://bugs.launchpad.net/python-openstackclient/+bug/1536479,2016-07-27
+1536479,1536479,Fix Released,the return info is unclear when creating subnetpool without prefixes,https://bugs.launchpad.net/python-neutronclient/+bug/1536479,2016-07-27
+1567846,1567846,Fix Released,VPNaaS: require to support sha256,https://bugs.launchpad.net/neutron/+bug/1567846,2016-07-27
+1567846,1567846,Fix Released,VPNaaS: require to support sha256,https://bugs.launchpad.net/python-neutronclient/+bug/1567846,2016-07-27
+1583029,1583029,Fix Released,fixtures 2.0.0 broke stable/liberty python34 gate,https://bugs.launchpad.net/python-neutronclient/+bug/1583029,2016-07-27
+1580432,1580432,Fix Released,neutron purge failed to remove router,https://bugs.launchpad.net/python-neutronclient/+bug/1580432,2016-07-27
+1583050,1583050,Fix Released,Constraint neutronclient tox targets with upper-constraints.txt,https://bugs.launchpad.net/python-neutronclient/+bug/1583050,2016-07-27
+1583562,1583562,Fix Released,neutronclient should update tempest_lib to tempest.lib,https://bugs.launchpad.net/python-neutronclient/+bug/1583562,2016-07-27
+1590942,1590942,Fix Released,Missing option to set qos-policy as not shared during upgrade,https://bugs.launchpad.net/python-neutronclient/+bug/1590942,2016-07-27

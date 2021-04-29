@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1413861,1413861,Fix Released,Need to sync openstack/common from oslo-incubator for service module - catalog index service requires for notifications,https://bugs.launchpad.net/glance/+bug/1413861,2015-04-30
+1333119,1333119,Fix Released,Glance image delete output,https://bugs.launchpad.net/glance/+bug/1333119,2015-04-30
+1316137,1316137,Fix Released,glance --location images handling is hiding HTTP errors and uses incorrect HTTP codes...,https://bugs.launchpad.net/glance/+bug/1316137,2015-04-30
+1316137,1316137,Fix Released,glance --location images handling is hiding HTTP errors and uses incorrect HTTP codes...,https://bugs.launchpad.net/glance-store/+bug/1316137,2015-04-30
+1365436,1365436,Fix Released,Database schema differs from migrations,https://bugs.launchpad.net/glance/+bug/1365436,2015-04-30
+1420696,1420696,Fix Released,[OSSA 2015-004] Image data remains in backend after deleting the image created using task api (import-from) (CVE-2015-1881),https://bugs.launchpad.net/ossa/+bug/1420696,2015-04-30
+1420696,1420696,Fix Released,[OSSA 2015-004] Image data remains in backend after deleting the image created using task api (import-from) (CVE-2015-1881),https://bugs.launchpad.net/glance/+bug/1420696,2015-04-30
+1419945,1419945,Fix Released,metadef tags create api does not match blue-print,https://bugs.launchpad.net/glance/+bug/1419945,2015-04-30
+1404820,1404820,Fix Released,Typo: glance exception additional dot,https://bugs.launchpad.net/glance/+bug/1404820,2015-04-30
+1064052,1064052,Fix Released,SSL tests are fragile and repeat too much code,https://bugs.launchpad.net/glance/+bug/1064052,2015-04-30
+1414875,1414875,Fix Released,The api.authorization.MetadefTagProxy.__init__ method is redundant.,https://bugs.launchpad.net/glance/+bug/1414875,2015-04-30
+1406182,1406182,Fix Released,Doc needs update for glance datastore backend driver,https://bugs.launchpad.net/glance/+bug/1406182,2015-04-30
+1392565,1392565,Fix Released,Install and configure in Openstack(Glance) Installation Guide for Ubuntu 14.04  - juno,https://bugs.launchpad.net/glance/+bug/1392565,2015-04-30
+1343907,1343907,Fix Released,db_auto_create configuration option is no longer valid,https://bugs.launchpad.net/glance/+bug/1343907,2015-04-30
+1314354,1314354,Fix Released,CONF.auth_url option used inconsistently,https://bugs.launchpad.net/glance/+bug/1314354,2015-04-30
+1410563,1410563,Fix Released,test_exception_not_eaten_from_registry_to_api fails if curl is not installed,https://bugs.launchpad.net/glance/+bug/1410563,2015-04-30
+1410063,1410063,Fix Released,Remove python-cinderclient from requirement.txt,https://bugs.launchpad.net/glance/+bug/1410063,2015-04-30
+1400366,1400366,Fix Released,Glance allows to sort images by private fields,https://bugs.launchpad.net/glance/+bug/1400366,2015-04-30
+1398903,1398903,Fix Released,copy-from does not work,https://bugs.launchpad.net/glance/+bug/1398903,2015-04-30
+1298918,1298918,Fix Released,unit tests causes http-requests to domain broker,https://bugs.launchpad.net/glance/+bug/1298918,2015-04-30
+1288545,1288545,Fix Released,Ensure digital signatures in Glance are a minimum of SHA2,https://bugs.launchpad.net/glance/+bug/1288545,2015-04-30
+1398830,1398830,Fix Released,[OSSA 2015-003] Glance image leak when in saving state (CVE-2014-9623),https://bugs.launchpad.net/ossa/+bug/1398830,2015-04-30
+1398830,1398830,Fix Released,[OSSA 2015-003] Glance image leak when in saving state (CVE-2014-9623),https://bugs.launchpad.net/glance/+bug/1398830,2015-04-30
+1410494,1410494,Fix Released,sqlalchemy-migrate>0.9.1 and <0.9.5 causes glance test failures,https://bugs.launchpad.net/glance/+bug/1410494,2015-04-30
+1382585,1382585,Fix Released,eventlet.wsgi and glance.wsgi logs not separate,https://bugs.launchpad.net/glance/+bug/1382585,2015-04-30
+1362451,1362451,Fix Released,ignore .idea folder in glance,https://bugs.launchpad.net/glance/+bug/1362451,2015-04-30
+1376247,1376247,Fix Released,"Test ""test_get_client_all_creds"" fails if OS_XXX variables set",https://bugs.launchpad.net/glance/+bug/1376247,2015-04-30
+1373268,1373268,Fix Released,Fix space issue in help message for user_storage_quota config parameter,https://bugs.launchpad.net/glance/+bug/1373268,2015-04-30
+1370058,1370058,Fix Released,Refactor metadef ORM as_dict method to to_dict for consistency,https://bugs.launchpad.net/glance/+bug/1370058,2015-04-30
+1367650,1367650,Fix Released,Use existing Metadef{type}NotFound Exceptions instead of MetadefRecordNotFound,https://bugs.launchpad.net/glance/+bug/1367650,2015-04-30
+1349845,1349845,Fix Released,Logging is missing in image_tags and image_memebers,https://bugs.launchpad.net/glance/+bug/1349845,2015-04-30
+1398313,1398313,Fix Released,Nullable fields default values are not part of the schema,https://bugs.launchpad.net/glance/+bug/1398313,2015-04-30
+1392485,1392485,Fix Released,metadef modules should only use - from wsme.rest import json,https://bugs.launchpad.net/glance/+bug/1392485,2015-04-30
+1390031,1390031,Fix Released,"Inconsistancy in using ""aggregate_instance_extra_specs"" prefix in glance/etc/metadefs/compute-host-capabilities.json",https://bugs.launchpad.net/glance/+bug/1390031,2015-04-30
+1384911,1384911,Fix Released,Request id isn't logged correctly,https://bugs.launchpad.net/glance/+bug/1384911,2015-04-30
+1383255,1383255,Fix Released,non-unicode error message -> glance-reg dies without saying why,https://bugs.launchpad.net/glance/+bug/1383255,2015-04-30
+1380552,1380552,Fix Released,Fix for adopt glance.store library in Glance,https://bugs.launchpad.net/glance/+bug/1380552,2015-04-30
+1378640,1378640,Fix Released,Incorrect parameters passed to delete_from_backend method,https://bugs.launchpad.net/glance/+bug/1378640,2015-04-30
+1371118,1371118,Fix Released,[OSSA 2015-004] Image file stays in store if image has been deleted during upload (CVE-2014-9684),https://bugs.launchpad.net/ossa/+bug/1371118,2015-04-30
+1371118,1371118,Fix Released,[OSSA 2015-004] Image file stays in store if image has been deleted during upload (CVE-2014-9684),https://bugs.launchpad.net/glance/+bug/1371118,2015-04-30
+1370954,1370954,Fix Released,glance 500's when passed image name with a 4-byte utf-8 character,https://bugs.launchpad.net/glance/+bug/1370954,2015-04-30
+1368274,1368274,Fix Released,tests failed when running tox without `--concurrency 1`,https://bugs.launchpad.net/glance/+bug/1368274,2015-04-30
+1336955,1336955,Fix Released,glance-api logs INFO for glance-registry ServerError 500 response,https://bugs.launchpad.net/glance/+bug/1336955,2015-04-30
+1250158,1250158,Fix Released,Glance V2 incorrectly implements JSON Patch 'add',https://bugs.launchpad.net/glance/+bug/1250158,2015-04-30
+1163075,1163075,Fix Released,qualname values in logging.conf sample are bogus,https://bugs.launchpad.net/glance/+bug/1163075,2015-04-30
+1394641,1394641,Fix Released,glance.db.metadata import error,https://bugs.launchpad.net/glance/+bug/1394641,2015-04-30
+1391211,1391211,Fix Released,Glance-manage should log to a unique file,https://bugs.launchpad.net/glance/+bug/1391211,2015-04-30
+1385213,1385213,Fix Released,Swift multi-tenant store: upload broken,https://bugs.launchpad.net/glance-store/+bug/1385213,2015-04-30
+1385213,1385213,Fix Released,Swift multi-tenant store: upload broken,https://bugs.launchpad.net/glance/+bug/1385213,2015-04-30
+1381870,1381870,Fix Released,Do not use obsolete modules from oslo-incubator,https://bugs.launchpad.net/glance/+bug/1381870,2015-04-30
+1378215,1378215,Fix Released,"If db deadlock occurs for some reason while deleting an image, no one can delete the image any more",https://bugs.launchpad.net/glance/+bug/1378215,2015-04-30
+1369390,1369390,Fix Released,Fails to start a server providing the configuration file,https://bugs.launchpad.net/glance/+bug/1369390,2015-04-30
+1331885,1331885,Fix Released,Glance service doesn't support ipv6,https://bugs.launchpad.net/glance/+bug/1331885,2015-04-30
+1198566,1198566,Fix Released,expired image location url cause glance client errors,https://bugs.launchpad.net/glance/+bug/1198566,2015-04-30
+1391437,1391437,Fix Released,glance_store 0.1.9 broke multiple unit tests,https://bugs.launchpad.net/glance/+bug/1391437,2015-04-30
+1387973,1387973,Fix Released,Normal user not able to download image if protected property is not associated with the image with restrict-download policy,https://bugs.launchpad.net/glance/+bug/1387973,2015-04-30
+1387320,1387320,Fix Released,osprofiler causing crash when update from icehouse,https://bugs.launchpad.net/glance/+bug/1387320,2015-04-30
+1438983,1438983,Fix Released,"The directory holding dev docs is ""doc"" instead of ""docs"".",https://bugs.launchpad.net/keystone/+bug/1438983,2015-04-30
+1438529,1438529,Fix Released,Assignment manager uses .driver. unnecessarily in many places,https://bugs.launchpad.net/keystone/+bug/1438529,2015-04-30
+1426128,1426128,Fix Released,Add ECP related bits to saml generation code,https://bugs.launchpad.net/keystone/+bug/1426128,2015-04-30
+1271273,1271273,Fix Released,Policy testing checks could be simplified in test_v3_filters,https://bugs.launchpad.net/keystone/+bug/1271273,2015-04-30
+1440123,1440123,Fix Released,keystone-manage fails if optional fernet packages not installed,https://bugs.launchpad.net/keystone/+bug/1440123,2015-04-30
+1434653,1434653,Fix Released,Empty mappring engine white/black lists should be treated differently than lack of them.,https://bugs.launchpad.net/keystone/+bug/1434653,2015-04-30
+1434620,1434620,Fix Released,default_lock_timeout units are not documented,https://bugs.launchpad.net/keystone/+bug/1434620,2015-04-30
+1426704,1426704,Fix Released,"""Installing Keystone"" document is outdated",https://bugs.launchpad.net/keystone/+bug/1426704,2015-04-30
+1419106,1419106,Fix Released,potential race condition with member role creation,https://bugs.launchpad.net/keystone/+bug/1419106,2015-04-30
+1418868,1418868,Fix Released,duplicate operations when deleting tokens,https://bugs.launchpad.net/keystone/+bug/1418868,2015-04-30
+1416303,1416303,Fix Released,response of v3 OS-EC2 API doesn't contain links field,https://bugs.launchpad.net/keystone/+bug/1416303,2015-04-30
+1413905,1413905,Fix Released,some exception messages of trust manager are not formatted,https://bugs.launchpad.net/keystone/+bug/1413905,2015-04-30
+1410922,1410922,Fix Released,notifications.py missing several docstrings,https://bugs.launchpad.net/keystone/+bug/1410922,2015-04-30
+1410389,1410389,Fix Released,"If service name is not passed, set it to an empty string",https://bugs.launchpad.net/keystone/+bug/1410389,2015-04-30
+1409203,1409203,Fix Released,Formatting in configuration.rst,https://bugs.launchpad.net/keystone/+bug/1409203,2015-04-30
+1409201,1409201,Fix Released,Typos in configuration.rst,https://bugs.launchpad.net/keystone/+bug/1409201,2015-04-30
+1398165,1398165,Fix Released,Unable to update a region description to None,https://bugs.launchpad.net/keystone/+bug/1398165,2015-04-30
+1397899,1397899,Fix Released,A database index missing in a model class but declared in a migration.,https://bugs.launchpad.net/keystone/+bug/1397899,2015-04-30

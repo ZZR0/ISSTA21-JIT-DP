@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1485667,1485667,Fix Released,Cleaning error handler not always called during heartbeats,https://bugs.launchpad.net/ironic/+bug/1485667,2015-09-09
+1483226,1483226,Fix Released,parse_image_ref method for glance images should handle unicode,https://bugs.launchpad.net/ironic/+bug/1483226,2015-09-09
+1382164,1382164,Fix Released,"Still ""no space left"" error during deploy",https://bugs.launchpad.net/ironic/+bug/1382164,2015-09-09
+1493233,1493233,Fix Released,Unit test failures when building 4.0.0 debian package,https://bugs.launchpad.net/ironic/+bug/1493233,2015-09-09
+1491704,1491704,Fix Released,agent_ilo fails to bring up the instance,https://bugs.launchpad.net/ironic/+bug/1491704,2015-09-09
+1488338,1488338,Fix Released,"prepare_instance() of new boot interface do not get called when boot_option=""local"" and image being deployed is partition image",https://bugs.launchpad.net/ironic/+bug/1488338,2015-09-09
+1483828,1483828,Fix Released,IPA exceptions are not printed properly,https://bugs.launchpad.net/ironic/+bug/1483828,2015-09-09
+1483120,1483120,Fix Released,Node stuck in CLEANWAIT if agent ramdisk fails to boot,https://bugs.launchpad.net/ironic/+bug/1483120,2015-09-09
+1488270,1488270,Fix Released,oslo.versionedobjects 0.8.0 release causing py27/py34 unittests to fail in ironic,https://bugs.launchpad.net/ironic/+bug/1488270,2015-09-09
+1490609,1490609,Fix Released,CORS not enabled for new JSON,https://bugs.launchpad.net/app-catalog/+bug/1490609,2015-09-09
+1480151,1480151,Fix Released,L23network: tags for OVS patchcords doesn't work properly,https://bugs.launchpad.net/fuel/+bug/1480151,2015-09-09
+1478923,1478923,Fix Released,Node roles conflicts are not applied immediately,https://bugs.launchpad.net/fuel/+bug/1478923,2015-09-09
+1491461,1491461,Fix Released,Keystone plugin failed to be built with error 'service_endpoint' is too long,https://bugs.launchpad.net/fuel/+bug/1491461,2015-09-09
+1470810,1470810,Fix Released,Generation of all CSV reports takes long time,https://bugs.launchpad.net/fuel/+bug/1470810,2015-09-09
+1491849,1491849,Fix Released,store nginx/apache Fuel Master keys in /var/lib/fuel/keys/master,https://bugs.launchpad.net/fuel/+bug/1491849,2015-09-09
+1474377,1474377,Fix Released,Sorting has failed if node has not selected attribute,https://bugs.launchpad.net/fuel/+bug/1474377,2015-09-09
+1474290,1474290,Fix Released,Hostname is missed in cinder.conf after deployment Ubuntu HA ceph cluster,https://bugs.launchpad.net/fuel/+bug/1474290,2015-09-09
+1481577,1481577,Fix Released,"Adding user_id handling to keypair index, show and create api calls",https://bugs.launchpad.net/openstack-api-site/+bug/1481577,2015-09-09
+1493734,1493734,Fix Released,"Mistake in description of manual ""Block Storage API v2 (CURRENT)""",https://bugs.launchpad.net/openstack-api-site/+bug/1493734,2015-09-09
+1493685,1493685,Fix Released,The first word should be capitalized,https://bugs.launchpad.net/openstack-api-site/+bug/1493685,2015-09-09
+1477953,1477953,Fix Released,Deployment does not start with template and new networks,https://bugs.launchpad.net/fuel/+bug/1477953,2015-09-09
+1491009,1491009,Fix Released,Deployment with detached keystone failed with Puppet (err): Timeout waiting for HAProxy backend: 'keystone-1' status to become,https://bugs.launchpad.net/fuel/+bug/1491009,2015-09-09
+1466140,1466140,Fix Released,Add filtration of nodes metadata,https://bugs.launchpad.net/fuel/+bug/1466140,2015-09-09
+1466064,1466064,Fix Released,Add nodes meta info into statistics,https://bugs.launchpad.net/fuel/+bug/1466064,2015-09-09
+1478441,1478441,Fix Released,Ubuntu based bootstrap image should coexist with CentOS based one,https://bugs.launchpad.net/fuel/+bug/1478441,2015-09-09
+1462439,1462439,Fix Released,restore/backup fuel plugins,https://bugs.launchpad.net/fuel/+bug/1462439,2015-09-09
+1436449,1436449,Fix Released,Incorrect platform check in monasca-setup,https://bugs.launchpad.net/monasca/+bug/1436449,2015-09-09
+1394404,1394404,Fix Released,Fuel fails with IndexError exception when trying to deploy env with node without disks,https://bugs.launchpad.net/fuel/+bug/1394404,2015-09-09
+1477643,1477643,Fix Released,[nailgun] IPs are not allocated for new networks,https://bugs.launchpad.net/fuel/+bug/1477643,2015-09-09
+1492947,1492947,Fix Released,Network verification fails with net template if some L2 network is assigned to only 1 node in cloud,https://bugs.launchpad.net/fuel/+bug/1492947,2015-09-09
+1492158,1492158,Fix Released,Galera uses management network for replication instead of network with 'management/database' role,https://bugs.launchpad.net/fuel/+bug/1492158,2015-09-09
+1489057,1489057,Fix Released,[library] Apache frontend for Keystone API listens on all node addresses,https://bugs.launchpad.net/fuel/+bug/1489057,2015-09-09
+1486382,1486382,Fix Released,[library] Apache frontend for RadosGW API listens on all node addresses,https://bugs.launchpad.net/fuel/+bug/1486382,2015-09-09
+1484928,1484928,Fix Released,Network templates for custom Node Groups don't work: group ID is used instead of name during template applying,https://bugs.launchpad.net/fuel/+bug/1484928,2015-09-09
+1483692,1483692,Fix Released,Instance live migration doesn't work with network templates if 'nova/migration' role is moved out of management interface,https://bugs.launchpad.net/fuel/+bug/1483692,2015-09-09
+1479384,1479384,Fix Released,[cli] Network group creation doesn't work if 'meta' parameter is specified,https://bugs.launchpad.net/fuel/+bug/1479384,2015-09-09
+1484127,1484127,Fix Released,All tests failed with error 404 on tempest 33e20d0a7300ca0b0257fcce2eb4501c9c5dca77,https://bugs.launchpad.net/tempest/+bug/1484127,2015-09-09
+1478973,1478973,Fix Released,[cli] Network template can't be removed using CLI,https://bugs.launchpad.net/fuel/+bug/1478973,2015-09-09
+1477180,1477180,Fix Released,[library] Instances fail to boot because nova-compute tries to connect to cinder API using public VIP,https://bugs.launchpad.net/fuel/+bug/1477180,2015-09-09
+1461930,1461930,Fix Released,Unable to load default repos for deployed environment,https://bugs.launchpad.net/fuel/+bug/1461930,2015-09-09
+1492312,1492312,Fix Released,Deployment with detached services failed after upgrade with No such file or directory - /etc/rabbitmq/definitions,https://bugs.launchpad.net/fuel/+bug/1492312,2015-09-09
+1491418,1491418,Fix Committed,Package epel-rpm-macros should be updated on the build infrastructure,https://bugs.launchpad.net/fuel/+bug/1491418,2015-09-09
+1418155,1418155,Fix Released,nova will try to create unlimited instances concurrently and timeout when resources are depleted,https://bugs.launchpad.net/nova/+bug/1418155,2015-09-09
+904307,904307,Fix Released,Application/server name not available in service logs,https://bugs.launchpad.net/murano/+bug/904307,2015-09-09
+904307,904307,Fix Released,Application/server name not available in service logs,https://bugs.launchpad.net/keystone/+bug/904307,2015-09-09
+904307,904307,Fix Released,Application/server name not available in service logs,https://bugs.launchpad.net/ceilometer/+bug/904307,2015-09-09
+904307,904307,Fix Released,Application/server name not available in service logs,https://bugs.launchpad.net/glance/+bug/904307,2015-09-09
+904307,904307,Fix Released,Application/server name not available in service logs,https://bugs.launchpad.net/cinder/+bug/904307,2015-09-09
+904307,904307,Fix Released,Application/server name not available in service logs,https://bugs.launchpad.net/neutron/+bug/904307,2015-09-09
+904307,904307,Fix Released,Application/server name not available in service logs,https://bugs.launchpad.net/sahara/+bug/904307,2015-09-09
+904307,904307,Fix Released,Application/server name not available in service logs,https://bugs.launchpad.net/nova/+bug/904307,2015-09-09
+1492432,1492432,Fix Released,"ceph job is busted in the gate on ""AttributeError: 'module' object has no attribute 'ImageExists'""",https://bugs.launchpad.net/glance-store/+bug/1492432,2015-09-08
+1479157,1479157,Fix Released,Tempest tests fail on HTTP success code 200  mismatch  with 202 received,https://bugs.launchpad.net/tempest/+bug/1479157,2015-09-08
+1481623,1481623,Fix Released,"Shebang of several commands is ""#!/usr/bin/python""",https://bugs.launchpad.net/swift/+bug/1481623,2015-09-08
+1479972,1479972,Fix Released,HUP signal doesn't shutdown wsgi servers,https://bugs.launchpad.net/swift/+bug/1479972,2015-09-08
+1489587,1489587,Fix Released,Reconstruction error,https://bugs.launchpad.net/swift/+bug/1489587,2015-09-08
+1457262,1457262,Fix Released,handoffs_first should log warning,https://bugs.launchpad.net/swift/+bug/1457262,2015-09-08
+1470576,1470576,Fix Released,mount_check does not prevent writing to root mount,https://bugs.launchpad.net/swift/+bug/1470576,2015-09-08
+1449212,1449212,Fix Released,Container level temp URLs can unintentionally leak data.,https://bugs.launchpad.net/swift/+bug/1449212,2015-09-08
+1449212,1449212,Fix Released,Container level temp URLs can unintentionally leak data.,https://bugs.launchpad.net/ossa/+bug/1449212,2015-09-08
+1472201,1472201,Fix Released,"EC GET makes a ""Client disconnected on read"" warning",https://bugs.launchpad.net/swift/+bug/1472201,2015-09-08
+1477877,1477877,Fix Released,Fix six typos on swift documentation,https://bugs.launchpad.net/swift/+bug/1477877,2015-09-08
+1484565,1484565,Fix Released,"""Quorum"" on durable response is too low",https://bugs.launchpad.net/swift/+bug/1484565,2015-09-08
+1467677,1467677,Fix Released,Server side copy with Single Ranged read not working with Erasure Coded Data,https://bugs.launchpad.net/swift/+bug/1467677,2015-09-08
+1468374,1468374,Fix Released,swift dispersion does not support keystone auth v3,https://bugs.launchpad.net/swift/+bug/1468374,2015-09-08
+1468298,1468298,Fix Released,"Reconstructor remaining time is incorrect, because total jobs number is increase continually",https://bugs.launchpad.net/swift/+bug/1468298,2015-09-08
+1477283,1477283,Fix Released,project_id and user_id are empty in ceilometer storage.objects.outgoing.bytes for dlo objects,https://bugs.launchpad.net/swift/+bug/1477283,2015-09-08
+1469951,1469951,Fix Released,swift-object-info uses wrong policy for calculating while no full data path in the coomand,https://bugs.launchpad.net/swift/+bug/1469951,2015-09-08
+1482096,1482096,Fix Released,swift-ring-builder sometimes uses .builder file when given .ring.gz and vice versa,https://bugs.launchpad.net/swift/+bug/1482096,2015-09-08
+1483705,1483705,Fix Released,testCopyDestinationSlashProblems functional test fails,https://bugs.launchpad.net/swift/+bug/1483705,2015-09-08
+1475439,1475439,Fix Released,BrocadeMPLSVPNDriver class references an abstract class which is not found in the repo,https://bugs.launchpad.net/edge-vpn/+bug/1475439,2015-09-08
+1396665,1396665,Fix Released,add security related details to trove-specs template,https://bugs.launchpad.net/trove/+bug/1396665,2015-09-08
+1487494,1487494,Fix Released,Detach-database plugin fails to create VIP due to missing primary_controller_nodes hash,https://bugs.launchpad.net/fuel/+bug/1487494,2015-09-08
+1487543,1487543,Fix Released,Deployment with separate keystone nodes failed with primary_controller_nodes is not a hash or array when accessing it with 0 at /etc/fuel/plugins/detach-keystone-1.0/vip.pp:14,https://bugs.launchpad.net/fuel/+bug/1487543,2015-09-08
+1482136,1482136,Fix Released,Deployment with separate rabbitmq service failed on controllers with (/Stage[main]/Cluster::Haproxy_ocf/Service[p_haproxy]) Could not evaluate: Primitive 'p_haproxy' was not found in CIB!,https://bugs.launchpad.net/fuel/+bug/1482136,2015-09-08

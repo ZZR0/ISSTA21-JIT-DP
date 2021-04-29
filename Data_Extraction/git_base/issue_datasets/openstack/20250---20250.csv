@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1619052,1619052,Fix Released,[RFE] openstackclient cmd for 'ironic driver-raid-logical-disk-properties',https://bugs.launchpad.net/python-ironicclient/+bug/1619052,2017-08-06
+1706862,1706862,Fix Released,re-stack with redis failed. unstack doesn't kill redis-server,https://bugs.launchpad.net/dragonflow/+bug/1706862,2017-08-06
+1605955,1605955,Fix Released,router interface status stuck in BUILD,https://bugs.launchpad.net/neutron/+bug/1605955,2017-08-06
+1602107,1602107,Fix Released,Adding members with the same network but different subnets fails to plug properly,https://bugs.launchpad.net/octavia/+bug/1602107,2017-08-06
+1567463,1567463,Fix Released,Trying to create a load balancer while no avaliable compute node ends with a non-deletable loadbalancer,https://bugs.launchpad.net/octavia/+bug/1567463,2017-08-05
+1703160,1703160,Fix Released,ImportError: cannot import name pattern,https://bugs.launchpad.net/octavia/+bug/1703160,2017-08-05
+1708657,1708657,Fix Released,rake spec in puppet-tripleo contain duplicate module in newton,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1708657,2017-08-05
+1284371,1284371,Fix Released,gate error: Looks like the node went offline during the build. Check the slave log for the details.FATAL: /var/lib/jenkins/logs/slaves/*/slave.log (No such file or directory),https://bugs.launchpad.net/openstack-gate/+bug/1284371,2017-08-04
+1638982,1638982,Fix Released,"libvirtd randomly crashes on xenial nodes with ""realloc(): invalid next size""",https://bugs.launchpad.net/openstack-gate/+bug/1638982,2017-08-04
+1676704,1676704,Fix Released,Octavia v2 API pool response is not returning members,https://bugs.launchpad.net/octavia/+bug/1676704,2017-08-04
+1681607,1681607,Fix Released,Octavia v2 API is returning full l7policy records instead of a list of IDs,https://bugs.launchpad.net/octavia/+bug/1681607,2017-08-04
+1531187,1531187,Fix Released,subnode fails to be accessable over ssh,https://bugs.launchpad.net/openstack-gate/+bug/1531187,2017-08-04
+1699616,1699616,Fix Released,Octavia v2 API needs to support conditional filtering,https://bugs.launchpad.net/octavia/+bug/1699616,2017-08-04
+1675932,1675932,Fix Released,Align Octavia API to n-lbaasv2 - /lbaas/listeners/<Listener_ID>/stats,https://bugs.launchpad.net/octavia/+bug/1675932,2017-08-04
+1675931,1675931,Fix Released,Align Octavia API to n-lbaasv2 - /lbaas/loadbalancers/<LB_ID>/stats,https://bugs.launchpad.net/octavia/+bug/1675931,2017-08-04
+1675930,1675930,Fix Released,Align Octavia API to n-lbaasv2 - /lbaas/loadbalancers/<LB_ID>/status,https://bugs.launchpad.net/octavia/+bug/1675930,2017-08-04
+1697808,1697808,Fix Released,wget: unable to resolve host address 'tarballs.openstack.org',https://bugs.launchpad.net/openstack-gate/+bug/1697808,2017-08-04
+1596639,1596639,Fix Released,Align Octavia API to Neutron-LBaaS APIs,https://bugs.launchpad.net/octavia/+bug/1596639,2017-08-04
+1690132,1690132,Fix Released,"Newton HA failure: unable to push cib, cib_apply_diff failed",https://bugs.launchpad.net/tripleo/+bug/1690132,2017-08-04
+1691559,1691559,Fix Released,puppet-tripleo .gitignore is masking the hiera files used by tests,https://bugs.launchpad.net/tripleo/+bug/1691559,2017-08-04
+1639807,1639807,Fix Released,Can't login to the UI with SSL when using Firefox,https://bugs.launchpad.net/tripleo/+bug/1639807,2017-08-04
+1648736,1648736,Fix Released,puppet-tripleo: swift can't be installed without ceilometer,https://bugs.launchpad.net/tripleo/+bug/1648736,2017-08-04
+1547609,1547609,Fix Released,Delete Health Monitor makes LB go into ERROR operating status,https://bugs.launchpad.net/octavia/+bug/1547609,2017-08-04
+1706965,1706965,Fix Released,allow user to add config during baremetal auto port-channel creation,https://bugs.launchpad.net/networking-cisco/+bug/1706965,2017-08-04
+1708573,1708573,Fix Released,Fix AWS Router Plugin Crashes,https://bugs.launchpad.net/omni/+bug/1708573,2017-08-04
+1708163,1708163,Fix Released,nova-powervm tox pep8 fails for py3,https://bugs.launchpad.net/nova-powervm/+bug/1708163,2017-08-04
+1696679,1696679,Fix Released,QosSRIOVAgentDriver' object has no attribute 'delete_minimum_bandwidth_ingress',https://bugs.launchpad.net/neutron/+bug/1696679,2017-08-04
+1691176,1691176,Fix Released,test_verify_duplicate_network_nics[id-1678d144-ed74-43f8-8e57-ab10dbf9b3c2] race fails during port deletion on postgresql job,https://bugs.launchpad.net/neutron/+bug/1691176,2017-08-04
+1708493,1708493,Fix Released,Bindep files expect python2-pyOpenSSL to be present,https://bugs.launchpad.net/openstack-ansible/+bug/1708493,2017-08-04
+1708554,1708554,Fix Released,Introspection is failing with latest Mistral & puppet-mistral,https://bugs.launchpad.net/tripleo/+bug/1708554,2017-08-04
+1683469,1683469,Fix Released,InvalidRequestError: Can't attach instance,https://bugs.launchpad.net/tripleo/+bug/1683469,2017-08-04
+1683469,1683469,Fix Released,InvalidRequestError: Can't attach instance,https://bugs.launchpad.net/neutron/+bug/1683469,2017-08-04
+1708479,1708479,Fix Released,Fedora gate jobs are missing yum-config-manager,https://bugs.launchpad.net/openstack-ansible/+bug/1708479,2017-08-04
+1542282,1542282,Fix Released,Q_PLUGIN_EXTRA_CONF_FILES documented with incorrect syntax,https://bugs.launchpad.net/devstack/+bug/1542282,2017-08-04
+1651640,1651640,Fix Released,Add lbaasv2 scenario tempest tests,https://bugs.launchpad.net/networking-midonet/+bug/1651640,2017-08-04
+1684102,1684102,Fix Released,ValidationError: max_processors 3 configured for CpcSubset test1 is greater than the available amount of processors 0 on CPC object-id fa1f2466-12df-311a-804c-4ed2cc1d6564 and CPC name P000S67B,https://bugs.launchpad.net/nova-dpm/+bug/1684102,2017-08-04
+1678002,1678002,Fix Released,PowerOn of a partition in paused state not working,https://bugs.launchpad.net/nova-dpm/+bug/1678002,2017-08-04
+1707628,1707628,Fix Released,No SQL parameter stablish,https://bugs.launchpad.net/nova-dpm/+bug/1707628,2017-08-04
+1564008,1564008,Fix Released,Kolla should be able to handle connection limit for database according to infra,https://bugs.launchpad.net/kolla/+bug/1564008,2017-08-04
+1675746,1675746,Fix Released,"instance snapshots created, but won't boot",https://bugs.launchpad.net/nova-lxd/+bug/1675746,2017-08-04
+1703352,1703352,Fix Released,add support for the partition flag 'lba',https://bugs.launchpad.net/diskimage-builder/+bug/1703352,2017-08-04
+1708385,1708385,Fix Released,Add a bug to sandbox for test,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1708385,2017-08-04
+1680347,1680347,Fix Released,finish v2 -> ml2 transition and remove v2 plugin,https://bugs.launchpad.net/networking-midonet/+bug/1680347,2017-08-04
+1707997,1707997,Fix Released,"paunch always exits 0, the ansible tasks never fail",https://bugs.launchpad.net/tripleo/+bug/1707997,2017-08-03
+1707997,1707997,Fix Released,"paunch always exits 0, the ansible tasks never fail",https://bugs.launchpad.net/paunch/+bug/1707997,2017-08-03
+1187091,1187091,Fix Released,[block storage] Let compute and block-storage cookbooks use image_api_chef_role,https://bugs.launchpad.net/openstack-chef/+bug/1187091,2017-08-03
+1706841,1706841,Fix Released,Client refactor broke all object entrypoints,https://bugs.launchpad.net/python-barbicanclient/+bug/1706841,2017-08-03
+1586041,1586041,Fix Released,Incorrect PO-Revision-Date in some translation files for aodh project,https://bugs.launchpad.net/openstack-i18n/+bug/1586041,2017-08-03
+1651506,1651506,Fix Released,feature: add support for the LXD unified tarball format,https://bugs.launchpad.net/nova-lxd/+bug/1651506,2017-08-03
+1672728,1672728,Fix Released,"keystone fails to install, missing libgsasl-devel on CentOS 7",https://bugs.launchpad.net/openstack-ansible/+bug/1672728,2017-08-03
+1676485,1676485,Fix Released,Use Keystone sessions to create OpenStack clients for actions,https://bugs.launchpad.net/mistral/+bug/1676485,2017-08-03
+1702745,1702745,Fix Released,Filtering physical hosts with extra capabilities (via the resource_properties parameter) returns nodes which do not have the extra capability present,https://bugs.launchpad.net/blazar/+bug/1702745,2017-08-03
+1702853,1702853,Fix Released,Fail to clean lease if reserve_resource fails,https://bugs.launchpad.net/blazar/+bug/1702853,2017-08-03
+1706882,1706882,Fix Released,Demo user fails to create  a host reservation,https://bugs.launchpad.net/blazar/+bug/1706882,2017-08-03
+1707858,1707858,Fix Released,Not useful BM flavor info return to common users,https://bugs.launchpad.net/mogan/+bug/1707858,2017-08-03
+1635610,1635610,Fix Released,Software Deployment with DELETE deploy action fails with convergence,https://bugs.launchpad.net/heat/+bug/1635610,2017-08-03
+1687009,1687009,Fix Released,Restore from  snapshot is not working with resource references,https://bugs.launchpad.net/heat/+bug/1687009,2017-08-03
+1693661,1693661,Fix Released,AssertionError: Must specify client name raised when stack update,https://bugs.launchpad.net/heat/+bug/1693661,2017-08-03
+1697623,1697623,Fix Released,credentials is incorrect after transport updated,https://bugs.launchpad.net/heat/+bug/1697623,2017-08-03
+1641800,1641800,Fix Released,gate broken with swift change,https://bugs.launchpad.net/heat/+bug/1641800,2017-08-03
+1656429,1656429,Fix Released,Convergence loads all resources to check a single resource,https://bugs.launchpad.net/heat/+bug/1656429,2017-08-03
+1244399,1244399,Fix Released,swift-object-builder can not connect to an IPv6 address,https://bugs.launchpad.net/swift/+bug/1244399,2017-08-02
+1557636,1557636,Fix Released,ZFSonLinux fails to unmount dataset sometimes,https://bugs.launchpad.net/manila/+bug/1557636,2017-08-02
+1655888,1655888,Fix Released,tempest plugin runs tests for new API endpoints against stable releases,https://bugs.launchpad.net/ironic/+bug/1655888,2017-08-02
+1582188,1582188,Fix Released,[RFE] Add interface attach API,https://bugs.launchpad.net/ironic/+bug/1582188,2017-08-02
+1654202,1654202,Fix Released,All tempest tests fail with KeystoneV2AuthProvider,https://bugs.launchpad.net/ironic/+bug/1654202,2017-08-02
+1649344,1649344,Fix Released,set console mode tempest api test fails sometimes,https://bugs.launchpad.net/ironic/+bug/1649344,2017-08-02
+1586299,1586299,Fix Released,ironic gates are broked due to request method signature changed,https://bugs.launchpad.net/ironic/+bug/1586299,2017-08-02
+1614516,1614516,Fix Released,Move baremetal tests and configs to ironic tree,https://bugs.launchpad.net/ironic/+bug/1614516,2017-08-02
+1614516,1614516,Fix Released,Move baremetal tests and configs to ironic tree,https://bugs.launchpad.net/tempest/+bug/1614516,2017-08-02
+1668807,1668807,Fix Released,Ironic should not import tempest.scenario.manager,https://bugs.launchpad.net/ironic/+bug/1668807,2017-08-02
+1674597,1674597,Fix Released,gate-tempest-dsvm-ironic-multitenant-network-ubuntu-xenial is broken due to excessive pruning of local scenario manager,https://bugs.launchpad.net/ironic/+bug/1674597,2017-08-02
+1666858,1666858,Fix Released,Add tests for portgroups to the ironic tempest plugin,https://bugs.launchpad.net/ironic/+bug/1666858,2017-08-02
+1701153,1701153,Fix Released,XenAPI:  Failed to create ephemeral disk for VMs on XenServer 7.0/7.1,https://bugs.launchpad.net/os-xenapi/+bug/1701153,2017-08-02
+1708156,1708156,Fix Released,Undercloud install fails to find openstack-tripleo-ui RPM,https://bugs.launchpad.net/tripleo/+bug/1708156,2017-08-02

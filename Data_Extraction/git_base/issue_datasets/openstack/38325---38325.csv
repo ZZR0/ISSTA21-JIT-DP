@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1603318,1603318,Fix Released,Double spaces are used at multiple places in some files,https://bugs.launchpad.net/zaqar/+bug/1603318,2016-09-01
+1609662,1609662,Fix Released,Getting the versions of the API fails,https://bugs.launchpad.net/zaqar/+bug/1609662,2016-09-01
+1612887,1612887,Fix Released,Ubuntu Xenial gate is busted,https://bugs.launchpad.net/kolla/+bug/1612887,2016-09-01
+1615924,1615924,Fix Released,Some typos need to be fixed,https://bugs.launchpad.net/dragonflow/+bug/1615924,2016-09-01
+1594240,1594240,Fix Released,DF-controller: cannot recover data from restarting,https://bugs.launchpad.net/dragonflow/+bug/1594240,2016-09-01
+1605043,1605043,Fix Released,confused chassis value when chassis is None or empty,https://bugs.launchpad.net/dragonflow/+bug/1605043,2016-09-01
+1618360,1618360,Fix Released,volume_backups should be wraped by api_version for lib users,https://bugs.launchpad.net/python-cinderclient/+bug/1618360,2016-09-01
+1618369,1618369,Fix Released,group type and group spec should be wraped by api_version for lib users,https://bugs.launchpad.net/python-cinderclient/+bug/1618369,2016-09-01
+1618415,1618415,Fix Released,cluster should be wraped by api_version for lib users,https://bugs.launchpad.net/python-cinderclient/+bug/1618415,2016-09-01
+1592713,1592713,Fix Released,[api] wrong url for list role identity v2,https://bugs.launchpad.net/keystone/+bug/1592713,2016-09-01
+1532222,1532222,Fix Released,[api] OS-FEDERATION extension missing,https://bugs.launchpad.net/keystone/+bug/1532222,2016-09-01
+1610777,1610777,Fix Released,[api] entries in parameters.yaml have unclear name,https://bugs.launchpad.net/keystone/+bug/1610777,2016-09-01
+1338464,1338464,Fix Released,Encoded content triggers content_length warnings,https://bugs.launchpad.net/python-swiftclient/+bug/1338464,2016-09-01
+1282861,1282861,Fix Released,crash on content-encoding:gzip http responses,https://bugs.launchpad.net/python-swiftclient/+bug/1282861,2016-09-01
+1291229,1291229,Fix Released,reverse dns leads to low response of all api in some network,https://bugs.launchpad.net/ceilometer/+bug/1291229,2016-09-01
+1291229,1291229,Fix Released,reverse dns leads to low response of all api in some network,https://bugs.launchpad.net/cloudpulse/+bug/1291229,2016-09-01
+1526219,1526219,Fix Released,[RFE] Add pluggable metrics backend for Ironic and IPA,https://bugs.launchpad.net/ironic/+bug/1526219,2016-08-31
+1604921,1604921,Fix Released,Barbican debug logs database connection password,https://bugs.launchpad.net/barbican/+bug/1604921,2016-08-31
+1606591,1606591,Fix Released,Enabling FIPS mode on SafeNet HSM causes 500 error on encrypt,https://bugs.launchpad.net/barbican/+bug/1606591,2016-08-31
+1516789,1516789,Fix Released,improve flannel vxlan conditional logic,https://bugs.launchpad.net/magnum/+bug/1516789,2016-08-31
+1559803,1559803,Fix Released,Delete bay return 500 when bay is in status CREATE_IN_PROGRESS,https://bugs.launchpad.net/magnum/+bug/1559803,2016-08-31
+1559845,1559845,Fix Released,Gate failed due to AttributeError: load_pem_x509_csr,https://bugs.launchpad.net/magnum/+bug/1559845,2016-08-31
+1557977,1557977,Fix Released,Can not use public baymodel,https://bugs.launchpad.net/magnum/+bug/1557977,2016-08-31
+1560308,1560308,Fix Released,cert and trust are not released when creating bay is failed,https://bugs.launchpad.net/magnum/+bug/1560308,2016-08-31
+1557943,1557943,Fix Released,Don't allow to update any baymodel attr if it is referenced by a bay,https://bugs.launchpad.net/magnum/+bug/1557943,2016-08-31
+1560766,1560766,Fix Released,Wrong usage for LOG.debug in magnum,https://bugs.launchpad.net/magnum/+bug/1560766,2016-08-31
+1515014,1515014,Fix Released,Switch to keystone auth_plugin and session,https://bugs.launchpad.net/magnum/+bug/1515014,2016-08-31
+1496810,1496810,Fix Released,refactor keystone client using auth plugins,https://bugs.launchpad.net/magnum/+bug/1496810,2016-08-31
+1503863,1503863,Fix Released,Use trusts for TLS cert generation,https://bugs.launchpad.net/magnum/+bug/1503863,2016-08-31
+1561401,1561401,Fix Released,"The container ""Patch"" function doesn't be used. We should delete it",https://bugs.launchpad.net/magnum/+bug/1561401,2016-08-31
+1562725,1562725,Fix Released,Error infomation when file api-paste.ini not exsit,https://bugs.launchpad.net/magnum/+bug/1562725,2016-08-31
+1552457,1552457,Fix Released,500 error on delete a bay created by another user,https://bugs.launchpad.net/magnum/+bug/1552457,2016-08-31
+1566501,1566501,Fix Released,Cannot find SSH key on copying logs,https://bugs.launchpad.net/magnum/+bug/1566501,2016-08-31
+1567124,1567124,Fix Released,Gate: fix a 404 image not found error,https://bugs.launchpad.net/magnum/+bug/1567124,2016-08-31
+1567195,1567195,Fix Released,Can not create bay due to delete_trustee_and_trust failed,https://bugs.launchpad.net/magnum/+bug/1567195,2016-08-31
+1568212,1568212,Fix Released,'\xac\x18\x05\x07' does not appear to be an IPv4 or IPv6 address,https://bugs.launchpad.net/magnum/+bug/1568212,2016-08-31
+1568427,1568427,Fix Released,Add subjectAltName back to CSR config,https://bugs.launchpad.net/magnum/+bug/1568427,2016-08-31
+1570543,1570543,Fix Released,Functional tests should support DNS nameserver config,https://bugs.launchpad.net/magnum/+bug/1570543,2016-08-31
+1567834,1567834,Fix Released,memory-limit is not passed to docker API correctly,https://bugs.launchpad.net/magnum/+bug/1567834,2016-08-31
+1569879,1569879,Fix Released,"devstack plugin uses ""m-api"" for ENABLED_SERVICES",https://bugs.launchpad.net/magnum/+bug/1569879,2016-08-31
+1570949,1570949,Fix Released,Log copy for failed functional tests cannot be disabled,https://bugs.launchpad.net/magnum/+bug/1570949,2016-08-31
+1571582,1571582,Fix Released,heat parameters are different in swarm master and swarm node,https://bugs.launchpad.net/magnum/+bug/1571582,2016-08-31
+1571272,1571272,Fix Released,logs are not copied when the bay is timed out,https://bugs.launchpad.net/magnum/+bug/1571272,2016-08-31
+1578846,1578846,Fix Released,400 error on creating a coreos bay,https://bugs.launchpad.net/magnum/+bug/1578846,2016-08-31
+1579571,1579571,Fix Released,The atomic image name is outdated,https://bugs.launchpad.net/magnum/+bug/1579571,2016-08-31
+1580048,1580048,Fix Released,Native CLI doesn't work,https://bugs.launchpad.net/magnum/+bug/1580048,2016-08-31
+1580121,1580121,Fix Released,Correct spelling mistake in Quickstart,https://bugs.launchpad.net/magnum/+bug/1580121,2016-08-31
+1581008,1581008,Fix Released,Parameter order for 'assertEqual()' method is wrong,https://bugs.launchpad.net/magnum/+bug/1581008,2016-08-31
+1579236,1579236,Fix Released,Add more fields to unset_exception list,https://bugs.launchpad.net/magnum/+bug/1579236,2016-08-31
+1581364,1581364,Fix Released,Correct attribute name in TestListBayModel,https://bugs.launchpad.net/magnum/+bug/1581364,2016-08-31
+1581057,1581057,Fix Released,The keystone client in magnum doesn't honor insecure and cacert parameters,https://bugs.launchpad.net/magnum/+bug/1581057,2016-08-31
+1505085,1505085,Fix Released,use method decrypt in k8s_api,https://bugs.launchpad.net/magnum/+bug/1505085,2016-08-31
+1583415,1583415,Fix Released,systemd service kube-system-namespace failed,https://bugs.launchpad.net/magnum/+bug/1583415,2016-08-31
+1582625,1582625,Fix Released,"pod ""kube-controller-manager ""  reset every 30 seconds",https://bugs.launchpad.net/magnum/+bug/1582625,2016-08-31
+1556675,1556675,Fix Released,"Test ""test_start_stop_container_from_api"" occasionally failed",https://bugs.launchpad.net/magnum/+bug/1556675,2016-08-31
+1584198,1584198,Fix Released,k8s error: Error updating node status,https://bugs.launchpad.net/magnum/+bug/1584198,2016-08-31
+1584251,1584251,Fix Released,"Rename service_type from ""container"" to ""container-infra""",https://bugs.launchpad.net/magnum/+bug/1584251,2016-08-31
+1585754,1585754,Fix Released,magnum's uuid tools duplicates code in oslo,https://bugs.launchpad.net/magnum/+bug/1585754,2016-08-31
+1585925,1585925,Fix Released,magnum's integer tools duplicates code in oslo,https://bugs.launchpad.net/magnum/+bug/1585925,2016-08-31
+1586575,1586575,Fix Released,Endpoint not found after changing service name,https://bugs.launchpad.net/magnum/+bug/1586575,2016-08-31
+1587638,1587638,Fix Released,Magnum quickstart doc swarmbay errors and missing steps,https://bugs.launchpad.net/magnum/+bug/1587638,2016-08-31
+1586123,1586123,Fix Released,Magnum quickstart doc has bad example output,https://bugs.launchpad.net/magnum/+bug/1586123,2016-08-31
+1583725,1583725,Fix Released,Update swarm templates to use Heat resources,https://bugs.launchpad.net/magnum/+bug/1583725,2016-08-31
+1569776,1569776,Fix Released,Change microversion header,https://bugs.launchpad.net/magnum/+bug/1569776,2016-08-31
+1589831,1589831,Fix Released,Duplicated parameter 'auth_url' in templates/kubernetes/kubeminion.yaml,https://bugs.launchpad.net/magnum/+bug/1589831,2016-08-31
+1586090,1586090,Fix Released,The TestObject unit tests are not running,https://bugs.launchpad.net/magnum/+bug/1586090,2016-08-31
+1584934,1584934,Fix Released,An here-document syntax error on k8s scripts,https://bugs.launchpad.net/magnum/+bug/1584934,2016-08-31
+1592187,1592187,Fix Released,Gate failed with invalid credential object type error,https://bugs.launchpad.net/magnum/+bug/1592187,2016-08-31
+1593679,1593679,Fix Released,Wrong parameter in InvalidName exception message,https://bugs.launchpad.net/magnum/+bug/1593679,2016-08-31
+1587033,1587033,Fix Released,magnum certificates are not deleted while bay-delete,https://bugs.launchpad.net/magnum/+bug/1587033,2016-08-31
+1590593,1590593,Fix Released,"Microversion handling should be based on service type, not service name",https://bugs.launchpad.net/magnum/+bug/1590593,2016-08-31
+1590636,1590636,Fix Released,"""status_reason: Create timed out "" is conflict to ""bay_create_timeout: 0""",https://bugs.launchpad.net/magnum/+bug/1590636,2016-08-31
+1591018,1591018,Fix Released,faild to create bay with property error,https://bugs.launchpad.net/magnum/+bug/1591018,2016-08-31
+1599680,1599680,Fix Released,dependency of metadata service,https://bugs.launchpad.net/magnum/+bug/1599680,2016-08-31
+1569777,1569777,Fix Released,Incorrect version header return incorrect error response,https://bugs.launchpad.net/magnum/+bug/1569777,2016-08-31

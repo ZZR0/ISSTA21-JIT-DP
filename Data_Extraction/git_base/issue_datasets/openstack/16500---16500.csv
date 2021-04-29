@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1728457,1728457,Fix Released,"when creating a snapshot of a vm with over quota scenario, we get wrong error message",https://bugs.launchpad.net/cinder/+bug/1728457,2017-12-21
+1728834,1728834,Fix Released,while taking snapshot of a vm having multiple volumes the gigabytes quota gets updated to twice the actual total volume's size and snapshots quota get updated with a value equivalent to number of volumes,https://bugs.launchpad.net/cinder/+bug/1728834,2017-12-21
+1730720,1730720,Fix Released,HPE 3PAR : host iqn / wwn still intact after volume detach,https://bugs.launchpad.net/cinder/+bug/1730720,2017-12-21
+1731528,1731528,Fix Released,Deleting encrypted volume can leak Barbican key,https://bugs.launchpad.net/cinder/+bug/1731528,2017-12-21
+1714922,1714922,Fix Released,VMAX driver - concurrently deleting volumes,https://bugs.launchpad.net/cinder/+bug/1714922,2017-12-21
+1717933,1717933,Fix Released,VMAX driver - Volume identifier issues,https://bugs.launchpad.net/cinder/+bug/1717933,2017-12-21
+1714946,1714946,Fix Released,ironic prechecks broken,https://bugs.launchpad.net/kolla-ansible/+bug/1714946,2017-12-21
+1714407,1714407,Fix Released,No such file or directory: '/tmp/kolla_keepalived_running',https://bugs.launchpad.net/kolla-ansible/+bug/1714407,2017-12-21
+1714900,1714900,Fix Released,Abandon configuration item in skydive conf,https://bugs.launchpad.net/kolla-ansible/+bug/1714900,2017-12-21
+1715135,1715135,Fix Released,outward rabbitmq prechecks not idempotent,https://bugs.launchpad.net/kolla-ansible/+bug/1715135,2017-12-21
+1713410,1713410,Fix Released,Fluentd/Kibana can't sort all logs by log level,https://bugs.launchpad.net/kolla-ansible/+bug/1713410,2017-12-21
+1707856,1707856,Fix Released,sudo kolla-ansible genconfig failed,https://bugs.launchpad.net/kolla-ansible/+bug/1707856,2017-12-21
+1718874,1718874,Fix Released,rabbitmq tag not match in fluentd,https://bugs.launchpad.net/kolla-ansible/+bug/1718874,2017-12-21
+1714249,1714249,Fix Released,HyperV FreeRDP not working from Horizon,https://bugs.launchpad.net/kolla-ansible/+bug/1714249,2017-12-21
+1720380,1720380,Fix Released,Neutron server container failed to start when enabling dvs or nsxv,https://bugs.launchpad.net/kolla-ansible/+bug/1720380,2017-12-21
+1720048,1720048,Fix Released,set glance_api_version = 2 in cinder configure,https://bugs.launchpad.net/kolla-ansible/+bug/1720048,2017-12-21
+1718102,1718102,Fix Released,Warning during tox -e genconfig,https://bugs.launchpad.net/kolla/+bug/1718102,2017-12-21
+1723408,1723408,Fix Released,Fluentd image is missing plugin for SSL transport,https://bugs.launchpad.net/kolla/+bug/1723408,2017-12-21
+1730346,1730346,Fix Released,Error building fluentd container image in CentOS,https://bugs.launchpad.net/kolla/+bug/1730346,2017-12-21
+1733262,1733262,Fix Released,Debian Mariadb image could not start on AArch64 by Kolla-kubernetes,https://bugs.launchpad.net/kolla/+bug/1733262,2017-12-21
+1739092,1739092,Fix Released,Nexus cfg var intfg.portchannel does not work with tripleo,https://bugs.launchpad.net/networking-cisco/+bug/1739092,2017-12-21
+1671860,1671860,Fix Released,freezer ui does not support multi-domain configurations,https://bugs.launchpad.net/freezer/+bug/1671860,2017-12-21
+1614963,1614963,Fix Committed,fuel-rabbit-fence is not able to manage its pid file,https://bugs.launchpad.net/fuel/+bug/1614963,2017-12-21
+1603848,1603848,Fix Released,config description link is wrong in local.conf,https://bugs.launchpad.net/devstack/+bug/1603848,2017-12-21
+1526231,1526231,Fix Released,[RFE] Add volume connection information into ironic db,https://bugs.launchpad.net/ironic/+bug/1526231,2017-12-21
+1737785,1737785,Fix Released,Support all Neutron protocol names in a security  group rule,https://bugs.launchpad.net/networking-vpp/+bug/1737785,2017-12-21
+1737641,1737641,Fix Released,Patch that adds support to install kuryr as a network addon is not working,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1737641,2017-12-20
+1734928,1734928,Fix Released,ui_validate_simple is failing on master gate - logs are not collected,https://bugs.launchpad.net/tripleo/+bug/1734928,2017-12-20
+1654318,1654318,Fix Released,[RFE] Deprecate and remove setting IPMI credentials during inspection,https://bugs.launchpad.net/python-ironic-inspector-client/+bug/1654318,2017-12-20
+1654318,1654318,Fix Released,[RFE] Deprecate and remove setting IPMI credentials during inspection,https://bugs.launchpad.net/ironic-python-agent/+bug/1654318,2017-12-20
+1654318,1654318,Fix Released,[RFE] Deprecate and remove setting IPMI credentials during inspection,https://bugs.launchpad.net/ironic-inspector/+bug/1654318,2017-12-20
+1654318,1654318,Fix Released,[RFE] Deprecate and remove setting IPMI credentials during inspection,https://bugs.launchpad.net/puppet-ironic/+bug/1654318,2017-12-20
+1670916,1670916,Fix Released,"Node Deployment failure due to "" Error finding the disk or partition device to deploy the image onto""",https://bugs.launchpad.net/ironic-python-agent/+bug/1670916,2017-12-20
+1733898,1733898,Fix Released,Identity token derived from RequestContext is missing domain info,https://bugs.launchpad.net/castellan/+bug/1733898,2017-12-20
+1733504,1733504,Fix Released,group_type_id is wrongly mentioned as optional in api ref for PUT /group_types/group_type_id,https://bugs.launchpad.net/cinder/+bug/1733504,2017-12-19
+1737529,1737529,Fix Released,Rally does not support create verifier from gerrit source,https://bugs.launchpad.net/rally/+bug/1737529,2017-12-19
+1718990,1718990,Fix Released,500 error cloning from zuul mergers,https://bugs.launchpad.net/openstack-gate/+bug/1718990,2017-12-19
+1686109,1686109,Fix Released,"requests.exceptions.ConnectionError: ('Connection aborted.', BadStatusLine(""''"",)) in functional tests",https://bugs.launchpad.net/nova/+bug/1686109,2017-12-19
+1717281,1717281,Fix Released,undercloud-container: neutron post config fails,https://bugs.launchpad.net/tripleo/+bug/1717281,2017-12-19
+1694509,1694509,Fix Released,eventlet errors and cannot switch to a different thread,https://bugs.launchpad.net/cinder/+bug/1694509,2017-12-19
+1708707,1708707,Fix Released,Pip finds hash mismatch for package during installation,https://bugs.launchpad.net/openstack-gate/+bug/1708707,2017-12-19
+1710533,1710533,Fix Released,docker client failed to download container from docker.io,https://bugs.launchpad.net/tripleo/+bug/1710533,2017-12-19
+1393099,1393099,Fix Released,test_baremetal_server_ops fails with timeout waiting for provision_state to change,https://bugs.launchpad.net/openstack-gate/+bug/1393099,2017-12-19
+1713167,1713167,Fix Released,build-images : Throw error msg if image build is failing *** Image Build Error ***,https://bugs.launchpad.net/tripleo/+bug/1713167,2017-12-19
+1735586,1735586,Fix Released,with_dict expects a dict,https://bugs.launchpad.net/openstack-gate/+bug/1735586,2017-12-19
+1738111,1738111,Fix Released,zun-tempest-plugin doc link 404,https://bugs.launchpad.net/zun/+bug/1738111,2017-12-19
+1380701,1380701,Fix Released,create project validates quota usage against the current project,https://bugs.launchpad.net/horizon/+bug/1380701,2017-12-19
+1660700,1660700,Fix Released,Multinode tempest tests always fail,https://bugs.launchpad.net/networking-sfc/+bug/1660700,2017-12-18
+1530972,1530972,Fix Released,"configdrive contents should be obfuscated via policy setting, just like passwords",https://bugs.launchpad.net/ironic/+bug/1530972,2017-12-18
+1709788,1709788,Fix Released,AllocationCandidates return duplicated allocation requests when no sharing rp,https://bugs.launchpad.net/nova/+bug/1709788,2017-12-18
+1719915,1719915,Fix Released,test_live_migrate_delete race fail when checking allocations: MismatchError: 2 != 1,https://bugs.launchpad.net/nova/+bug/1719915,2017-12-18
+1715995,1715995,Fix Released,Flavors in nova - wrong notes,https://bugs.launchpad.net/nova/+bug/1715995,2017-12-18
+1708196,1708196,Fix Released,test_validate_volume_no_mtab_entry depends on /etc/mtab,https://bugs.launchpad.net/nova/+bug/1708196,2017-12-18
+1715463,1715463,Fix Released,binary/name gets confused under upgrades of osapi_compute and metadata when using wsgi files,https://bugs.launchpad.net/nova/+bug/1715463,2017-12-18
+1733746,1733746,Fix Released,Failed to get flavors(raise 500) with a domain scope token(without project_id).,https://bugs.launchpad.net/nova/+bug/1733746,2017-12-18
+1718474,1718474,Fix Released,Vzstorage driver doesn't lock when connecting volume,https://bugs.launchpad.net/nova/+bug/1718474,2017-12-18
+1732976,1732976,Fix Released,[OSSA-2017-006] Potential DoS by rebuilding the same instance with a new image multiple times (CVE-2017-17051),https://bugs.launchpad.net/nova/+bug/1732976,2017-12-18
+1732976,1732976,Fix Released,[OSSA-2017-006] Potential DoS by rebuilding the same instance with a new image multiple times (CVE-2017-17051),https://bugs.launchpad.net/ossa/+bug/1732976,2017-12-18
+1727719,1727719,Fix Released,Placement: resource provider can't be deleted if there is trait associated with it,https://bugs.launchpad.net/nova/+bug/1727719,2017-12-18
+1714909,1714909,Fix Released,Previous page in checkpoints pagination not work,https://bugs.launchpad.net/karbor-dashboard/+bug/1714909,2017-12-18
+1613587,1613587,Fix Released,Fix Trigger Creation Failed,https://bugs.launchpad.net/karbor-dashboard/+bug/1613587,2017-12-18
+1729193,1729193,Fix Released,Update queue metadata failed when the original value is zero.,https://bugs.launchpad.net/python-zaqarclient/+bug/1729193,2017-12-18
+1593719,1593719,Fix Released,StaleDataError: DELETE statement on table 'standardattributes' expected to delete 1 row(s); 0 were matched,https://bugs.launchpad.net/neutron/+bug/1593719,2017-12-18
+1626645,1626645,Fix Released,Redirects to HTTP when SSL enabled,https://bugs.launchpad.net/kolla/+bug/1626645,2017-12-18
+1732180,1732180,Fix Released,kolla-toolbox is missing openstack client,https://bugs.launchpad.net/kolla/+bug/1732180,2017-12-18
+1689422,1689422,Fix Released,ovs bridge still exist in system after  kolla destroy,https://bugs.launchpad.net/kolla/+bug/1689422,2017-12-18
+1671940,1671940,Fix Released,Neutron oslo_messaging_notifications config error,https://bugs.launchpad.net/kolla-ansible/+bug/1671940,2017-12-18
+1664493,1664493,Fix Released,neutron fails to deploy when sfc is enabled,https://bugs.launchpad.net/kolla/+bug/1664493,2017-12-18
+1664493,1664493,Fix Released,neutron fails to deploy when sfc is enabled,https://bugs.launchpad.net/kolla-ansible/+bug/1664493,2017-12-18
+1690693,1690693,Fix Released,stevedore.named Could not load VPNDriverPlugin,https://bugs.launchpad.net/kolla-ansible/+bug/1690693,2017-12-18
+1671734,1671734,Fix Released,neutron rpc_workers not managed by openstack_service_workers,https://bugs.launchpad.net/kolla-ansible/+bug/1671734,2017-12-18
+1713725,1713725,Fix Released,bootstrap-servers is not working with --limit flag,https://bugs.launchpad.net/kolla-ansible/+bug/1713725,2017-12-18
+1672334,1672334,Fix Released,Fix separate bug in cleanup-containers,https://bugs.launchpad.net/kolla-ansible/+bug/1672334,2017-12-18
+1719247,1719247,Fix Released,Unity cinder: UnityBaseHasThinCloneError: The specified LUN cannot be deleted because it has one or more dependent thin clones. (Error Code:0x6701676),https://bugs.launchpad.net/cinder/+bug/1719247,2017-12-17
+1734011,1734011,Fix Released,Retype a volume with migration-policy 'on-demand' fails if replication_status = 'not-capable',https://bugs.launchpad.net/cinder/+bug/1734011,2017-12-17

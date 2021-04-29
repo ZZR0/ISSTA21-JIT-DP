@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1684277,1684277,Fix Released,Use ovsdbapp for Neutron OVSDB API,https://bugs.launchpad.net/neutron/+bug/1684277,2017-06-13
+1674889,1674889,Fix Released,Fix get_schema_helper bug in some case,https://bugs.launchpad.net/neutron/+bug/1674889,2017-06-13
+1674889,1674889,Fix Released,Fix get_schema_helper bug in some case,https://bugs.launchpad.net/networking-ovn/+bug/1674889,2017-06-13
+1453350,1453350,Fix Released,race between neutron port create and nova boot,https://bugs.launchpad.net/neutron/+bug/1453350,2017-06-13
+1341952,1341952,Fix Released,Default swift ports cannot be added to SELinux policy and violates IANA,https://bugs.launchpad.net/tripleo/+bug/1341952,2017-06-13
+1695057,1695057,Fix Released,upgrade note missing from nova 14.0.0 release notes,https://bugs.launchpad.net/reno/+bug/1695057,2017-06-13
+1668375,1668375,Fix Released,Restart openvswitch after binding a DPDK port,https://bugs.launchpad.net/tripleo/+bug/1668375,2017-06-13
+1641653,1641653,Fix Released,virsh secret-set-value failing on updates,https://bugs.launchpad.net/tripleo/+bug/1641653,2017-06-13
+1641890,1641890,Fix Released,[Liberty/Mitaka] Backport glance pacemaker race fix,https://bugs.launchpad.net/tripleo/+bug/1641890,2017-06-13
+1555749,1555749,Fix Released,CI: compute node networking unresponsive after os-net-config run,https://bugs.launchpad.net/tripleo/+bug/1555749,2017-06-13
+1416056,1416056,Fix Released,SELinux keepalived read denials,https://bugs.launchpad.net/tripleo/+bug/1416056,2017-06-13
+1504294,1504294,Fix Released,neutron-openvswitch-agent dies on deploy if instack is rebooted,https://bugs.launchpad.net/tripleo/+bug/1504294,2017-06-13
+1547660,1547660,Fix Released,Could not find command '/usr/bin/clustercheck',https://bugs.launchpad.net/tripleo/+bug/1547660,2017-06-13
+1375532,1375532,Fix Released,SELinux rhsmcertd_worke denials on RHEL,https://bugs.launchpad.net/tripleo/+bug/1375532,2017-06-13
+1379079,1379079,Fix Released,SELinux: keepalived denied access to /proc,https://bugs.launchpad.net/tripleo/+bug/1379079,2017-06-13
+1379081,1379081,Fix Released,SELinux: swift services denied search on /var/lib/swift/.local,https://bugs.launchpad.net/tripleo/+bug/1379081,2017-06-13
+1272821,1272821,Fix Released,keystone isn't logging requests,https://bugs.launchpad.net/tripleo/+bug/1272821,2017-06-13
+1284424,1284424,Fix Released,nova quota statistics can be incorrect,https://bugs.launchpad.net/tripleo/+bug/1284424,2017-06-13
+1284424,1284424,Fix Released,nova quota statistics can be incorrect,https://bugs.launchpad.net/nova/+bug/1284424,2017-06-13
+1290759,1290759,Fix Released,not enough logging,https://bugs.launchpad.net/tripleo/+bug/1290759,2017-06-13
+1669462,1669462,Fix Released,puppet package versions break ocata deployments and upgrades to pike,https://bugs.launchpad.net/tripleo/+bug/1669462,2017-06-13
+1366164,1366164,Fix Released,Add domain roles for admin user,https://bugs.launchpad.net/tripleo/+bug/1366164,2017-06-13
+1375422,1375422,Fix Released,Vlan not recreated on overcloud controller reboot,https://bugs.launchpad.net/tripleo/+bug/1375422,2017-06-13
+1342863,1342863,Fix Released,SELinux blocks nova-api from using tmp,https://bugs.launchpad.net/tripleo/+bug/1342863,2017-06-13
+1351010,1351010,Fix Released,Update to syslinux 6 breaks TFTPboot,https://bugs.launchpad.net/ironic/+bug/1351010,2017-06-13
+1351010,1351010,Fix Released,Update to syslinux 6 breaks TFTPboot,https://bugs.launchpad.net/tripleo/+bug/1351010,2017-06-13
+1352924,1352924,Fix Released,apache2 can be start of sysv script before o-r-c configures it blocking the o-r-c run,https://bugs.launchpad.net/tripleo/+bug/1352924,2017-06-13
+1697626,1697626,Fix Released,CI promotion fails to create image for conflicting python-cffi package,https://bugs.launchpad.net/tripleo/+bug/1697626,2017-06-13
+1336110,1336110,Fix Released,mysql does not start on boot post-upgrade,https://bugs.launchpad.net/tripleo/+bug/1336110,2017-06-13
+1336100,1336100,Fix Released,deprecation of pxe_deploy_* flavor metadata,https://bugs.launchpad.net/tripleo/+bug/1336100,2017-06-13
+1334313,1334313,Fix Released,Services should not be started until metadata exists,https://bugs.launchpad.net/tripleo/+bug/1334313,2017-06-13
+1324286,1324286,Fix Released,ephemeral partition not being mounted,https://bugs.launchpad.net/ironic/+bug/1324286,2017-06-13
+1324286,1324286,Fix Released,ephemeral partition not being mounted,https://bugs.launchpad.net/tripleo/+bug/1324286,2017-06-13
+1661202,1661202,Fix Released,L->M upgrade convergence fail with gnocchi-db-sync error.,https://bugs.launchpad.net/tripleo/+bug/1661202,2017-06-13
+1685814,1685814,Fix Released,centos-release-* repos conflicting with dlrn,https://bugs.launchpad.net/tripleo/+bug/1685814,2017-06-13
+1648504,1648504,Fix Released,"[Upgrade] Liberty to mitaka, computes cant boot an instance or live migration before converge",https://bugs.launchpad.net/tripleo/+bug/1648504,2017-06-13
+1697698,1697698,Fix Released,Artifact creation fails with names contain ':',https://bugs.launchpad.net/glare/+bug/1697698,2017-06-13
+1618491,1618491,Fix Released,Add IPv6 tests in CI for newton,https://bugs.launchpad.net/tripleo/+bug/1618491,2017-06-13
+1655489,1655489,Fix Released,CI jobs not stopped when zuul job goes away,https://bugs.launchpad.net/tripleo/+bug/1655489,2017-06-13
+1667365,1667365,Fix Released,Support IPv6 in PortSecurity application,https://bugs.launchpad.net/dragonflow/+bug/1667365,2017-06-13
+1696137,1696137,Fix Released,DB drivers don't need notification callback functions,https://bugs.launchpad.net/dragonflow/+bug/1696137,2017-06-13
+1697388,1697388,Fix Released,replace node_type with resource_class,https://bugs.launchpad.net/mogan/+bug/1697388,2017-06-13
+1696632,1696632,Fix Released,use PATCH method for flavor extra specs,https://bugs.launchpad.net/mogan/+bug/1696632,2017-06-13
+1697423,1697423,Fix Committed,Platform Sub-Projects in monasca-common-service update,https://bugs.launchpad.net/monasca/+bug/1697423,2017-06-13
+1695719,1695719,Fix Released,AttributeError in project snapshot detail page,https://bugs.launchpad.net/horizon/+bug/1695719,2017-06-13
+1682788,1682788,Fix Released,JS error in resize instance form.,https://bugs.launchpad.net/horizon/+bug/1682788,2017-06-13
+1674982,1674982,Fix Released,python-tripleoclient exits with status code 0 when overcloud deploy fails,https://bugs.launchpad.net/tripleo/+bug/1674982,2017-06-13
+1697455,1697455,Fix Released,image creation race on same hypervisor,https://bugs.launchpad.net/nova-lxd/+bug/1697455,2017-06-13
+1697367,1697367,Fix Committed,monasca-analytics Devstack ReadMe file alignment issue,https://bugs.launchpad.net/monasca/+bug/1697367,2017-06-13
+1266402,1266402,Fix Released,nova client diagnostics is problematics,https://bugs.launchpad.net/python-novaclient/+bug/1266402,2017-06-13
+1696999,1696999,Fix Released,Install and configure controller node in Installation Guide missing httpd restart,https://bugs.launchpad.net/openstack-manuals/+bug/1696999,2017-06-13
+1695795,1695795,Fix Released,'tox -e releasenotes' fails because of the input file format,https://bugs.launchpad.net/python-novaclient/+bug/1695795,2017-06-13
+1676961,1676961,Fix Released,Deprecate ceilometer collector,https://bugs.launchpad.net/tripleo/+bug/1676961,2017-06-12
+1683983,1683983,Fix Released,Long running overcloud deployments fail with auth error,https://bugs.launchpad.net/tripleo/+bug/1683983,2017-06-12
+1685171,1685171,Fix Released,updating overcloud after undercloud upgrade: Unable to create plan. A container with the name overcloud already exists.,https://bugs.launchpad.net/tripleo/+bug/1685171,2017-06-12
+1692046,1692046,Fix Released,Problems with URLs in default UI config,https://bugs.launchpad.net/tripleo/+bug/1692046,2017-06-12
+1690811,1690811,Fix Released,instack-undercloud libvirt 192.168.122.x FORWARD and MASQURADING,https://bugs.launchpad.net/tripleo/+bug/1690811,2017-06-12
+1693805,1693805,Fix Released,openstack undercloud install/upgrade doesn't log exception traceback,https://bugs.launchpad.net/tripleo/+bug/1693805,2017-06-12
+1642551,1642551,Fix Released,"os-net-config-mappings.yaml - Example does not work on most hardware due to ""Consistent Network Device Naming""",https://bugs.launchpad.net/tripleo/+bug/1642551,2017-06-12
+1688646,1688646,Fix Released,Documentation: Placement service not running,https://bugs.launchpad.net/openstack-manuals/+bug/1688646,2017-06-12
+1692744,1692744,Fix Released,rally cli task command crashes if a benchmarking test is in progress,https://bugs.launchpad.net/rally/+bug/1692744,2017-06-12
+1689965,1689965,Fix Released,lsyncd won't start on CentOS 7,https://bugs.launchpad.net/openstack-ansible/+bug/1689965,2017-06-12
+1680075,1680075,Fix Released,keystone fails with haproxy in maint mode,https://bugs.launchpad.net/openstack-ansible/+bug/1680075,2017-06-12
+1493026,1493026,Fix Released,location-add return error when add new location to 'queued' image,https://bugs.launchpad.net/python-glanceclient/+bug/1493026,2017-06-12
+1692693,1692693,Fix Released,Not handling unicode when serialising exceptions,https://bugs.launchpad.net/heat/+bug/1692693,2017-06-12
+1665699,1665699,Fix Released,pre-update hook does weird things on failed resources,https://bugs.launchpad.net/heat/+bug/1665699,2017-06-12
+1656190,1656190,Fix Released,test_neutron.NeutronTest.test_needs_replace_failed failed with TypeError,https://bugs.launchpad.net/heat/+bug/1656190,2017-06-12
+1679934,1679934,Fix Released,with keystone v3 Could not find domain: default.,https://bugs.launchpad.net/python-ceilometerclient/+bug/1679934,2017-06-12
+1683250,1683250,Fix Released,support homedoc in cli,https://bugs.launchpad.net/python-zaqarclient/+bug/1683250,2017-06-12
+1664374,1664374,Fix Released,Direction path is not correct,https://bugs.launchpad.net/horizon/+bug/1664374,2017-06-12
+1677049,1677049,Fix Released,Set enabled=false doesn't work for cors,https://bugs.launchpad.net/zaqar/+bug/1677049,2017-06-12
+1679821,1679821,Fix Released,Don't hardcode is_alive for swift driver,https://bugs.launchpad.net/zaqar/+bug/1679821,2017-06-12
+1680373,1680373,Fix Released,Zaqar queue list with detailed doesn't return reserved metadata,https://bugs.launchpad.net/zaqar/+bug/1680373,2017-06-12
+1679459,1679459,Fix Released,Can't add swift/redis as a pool,https://bugs.launchpad.net/zaqar/+bug/1679459,2017-06-12
+1679888,1679888,Fix Released,Failed to handle queue actions for pooling,https://bugs.launchpad.net/zaqar/+bug/1679888,2017-06-12

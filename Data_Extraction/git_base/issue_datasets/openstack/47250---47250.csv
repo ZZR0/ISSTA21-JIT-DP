@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1551104,1551104,Fix Released,get-XXX-console returns 500 while an expected exception ConsoleTypeInvalid raised,https://bugs.launchpad.net/nova/+bug/1551104,2016-03-16
+1554059,1554059,Fix Released,Cleanup the usage of deprecated CONF.network_api_class in hyper-v driver,https://bugs.launchpad.net/nova/+bug/1554059,2016-03-16
+1548724,1548724,Fix Released,nova.tests.unit.test_signature_utils.TestSignatureUtils.test_get_certificate fails on slow build server,https://bugs.launchpad.net/nova/+bug/1548724,2016-03-16
+1554617,1554617,Fix Released,Tests for aggregates use getattr() improperly,https://bugs.launchpad.net/nova/+bug/1554617,2016-03-16
+1552293,1552293,Fix Released,glance plugin not exiting when tar exits from bad data being passed.,https://bugs.launchpad.net/nova/+bug/1552293,2016-03-16
+1378459,1378459,Fix Released,Missing info_cache.save() in db sqlalchemy api,https://bugs.launchpad.net/nova/+bug/1378459,2016-03-16
+1555602,1555602,Fix Released,Resource tracker _get_instance_type stashed_flavor logic is wrong,https://bugs.launchpad.net/nova/+bug/1555602,2016-03-16
+1424698,1424698,Fix Released,Backend fIlter testing could be more comprehensive,https://bugs.launchpad.net/keystone/+bug/1424698,2016-03-16
+1470047,1470047,Fix Released,CLI fails to report an error after creating a snapshot from instance,https://bugs.launchpad.net/python-novaclient/+bug/1470047,2016-03-16
+1553969,1553969,Fix Released,os_heat role has no functional testing,https://bugs.launchpad.net/openstack-ansible/+bug/1553969,2016-03-16
+1553769,1553769,Fix Released,vpnaas: mitaka db migrations are placed in liberty directory,https://bugs.launchpad.net/neutron/+bug/1553769,2016-03-16
+1552086,1552086,Fix Released,LBaaS v2 updating pool clears session_persistence,https://bugs.launchpad.net/neutron/+bug/1552086,2016-03-16
+1552063,1552063,Fix Released,gate-networking-midonet-python27 failure due to migration model mismatch in lbaas,https://bugs.launchpad.net/neutron/+bug/1552063,2016-03-16
+1552063,1552063,Fix Released,gate-networking-midonet-python27 failure due to migration model mismatch in lbaas,https://bugs.launchpad.net/networking-midonet/+bug/1552063,2016-03-16
+1549699,1549699,Fix Released,LBaaS needs automated test for DB migrations,https://bugs.launchpad.net/neutron/+bug/1549699,2016-03-16
+1554076,1554076,Fix Released,neutron_lbaas.tests.unit.drivers.common.test_agent_callbacks.TestLoadBalancerCallbacks fails due to new description field in subnet,https://bugs.launchpad.net/neutron/+bug/1554076,2016-03-16
+1536852,1536852,Fix Released,lbaas tempest code needs work,https://bugs.launchpad.net/neutron/+bug/1536852,2016-03-16
+1556528,1556528,Fix Released,lbaas-loadbalancer-status fails when health monitor is admin-state-up=False,https://bugs.launchpad.net/neutron/+bug/1556528,2016-03-16
+1553940,1553940,Fix Released,RPC client recreates exception object failed,https://bugs.launchpad.net/karbor/+bug/1553940,2016-03-16
+1552742,1552742,Fix Released,macvtap: automatically generate example config file,https://bugs.launchpad.net/neutron/+bug/1552742,2016-03-16
+1552926,1552926,Fix Released,pecan resource/plugin association breaks with extensions from other plugins,https://bugs.launchpad.net/neutron/+bug/1552926,2016-03-16
+1553254,1553254,Fix Released,neutron.tests.unit.objects.qos.test_policy.QosPolicyObjectTestCase fails if executed separately,https://bugs.launchpad.net/neutron/+bug/1553254,2016-03-16
+1557709,1557709,Fix Released,init_ironic fails if neutron is disabled,https://bugs.launchpad.net/ironic/+bug/1557709,2016-03-16
+1483480,1483480,Fix Released,[RFE] Allow annotations on Neutron resources,https://bugs.launchpad.net/neutron/+bug/1483480,2016-03-16
+1553689,1553689,Fix Released,description association proxy shared between all standard attrs,https://bugs.launchpad.net/neutron/+bug/1553689,2016-03-16
+1554362,1554362,Fix Released,neutron api job failing with failure to import tempest service client,https://bugs.launchpad.net/neutron/+bug/1554362,2016-03-16
+1552978,1552978,Fix Released,pecan doesn't work with dhcp agent scheduler extension,https://bugs.launchpad.net/neutron/+bug/1552978,2016-03-16
+1554151,1554151,Fix Released,update_port failure across server restart,https://bugs.launchpad.net/neutron/+bug/1554151,2016-03-16
+1554153,1554153,Fix Released,Updating a port without dns_name parameter clears dns_name when dns-integration is enabled,https://bugs.launchpad.net/neutron/+bug/1554153,2016-03-16
+1554207,1554207,Fix Released,"Updating a port only propagates to the external DNS service if dns_name is changed, when it should also propagate IP addresses changes",https://bugs.launchpad.net/neutron/+bug/1554207,2016-03-16
+1554922,1554922,Fix Released,External DNS driver fails with Python 3.4 with an index computed with a division operation  when slicing a string,https://bugs.launchpad.net/neutron/+bug/1554922,2016-03-16
+1555686,1555686,Fix Released,Can't PUT tag on network,https://bugs.launchpad.net/neutron/+bug/1555686,2016-03-16
+1552979,1552979,Fix Released,pecan doesn't emit nova or metrics notifications,https://bugs.launchpad.net/neutron/+bug/1552979,2016-03-16
+1556038,1556038,Fix Released,pecan doesn't allow unauthenticated version request,https://bugs.launchpad.net/neutron/+bug/1556038,2016-03-16
+1556139,1556139,Fix Released,ml2 create extension processing racey,https://bugs.launchpad.net/neutron/+bug/1556139,2016-03-16
+1556992,1556992,Fix Released,OVS agent doesn't start on Windows because of linux specific import,https://bugs.launchpad.net/neutron/+bug/1556992,2016-03-16
+1557757,1557757,Fix Released,add_is_default_to_subnetpool migration not postgresql-compliant,https://bugs.launchpad.net/neutron/+bug/1557757,2016-03-16
+1557785,1557785,Fix Released,auto_allocated_topology migration generates inconsistent external networks with PostgreSQL,https://bugs.launchpad.net/neutron/+bug/1557785,2016-03-16
+1553781,1553781,Fix Released,Branding: Create Network should inherit from theme,https://bugs.launchpad.net/horizon/+bug/1553781,2016-03-16
+1466563,1466563,Fix Released,test TestRestore.test_restore_fs_sort_obj randomly failed,https://bugs.launchpad.net/freezer/+bug/1466563,2016-03-16
+1546750,1546750,Fix Released,Unable to do SSH Backup,https://bugs.launchpad.net/freezer/+bug/1546750,2016-03-16
+1555532,1555532,Fix Released,SSH storage cannot create directory for backup,https://bugs.launchpad.net/freezer/+bug/1555532,2016-03-16
+1370022,1370022,Fix Released,Keystone cannot cope with being behind an SSL terminator for version list,https://bugs.launchpad.net/keystone/+bug/1370022,2016-03-16
+1529326,1529326,Fix Released,network creation error but it is recorded at neutron DB side.,https://bugs.launchpad.net/dragonflow/+bug/1529326,2016-03-16
+1529812,1529812,Fix Released,race happens in api_nb,https://bugs.launchpad.net/dragonflow/+bug/1529812,2016-03-16
+1497676,1497676,Fix Released,Handle rollbacks of DF DB failures in DF Neutron plugin,https://bugs.launchpad.net/dragonflow/+bug/1497676,2016-03-16
+1549213,1549213,Fix Released,Checking for nested stack status is expensive,https://bugs.launchpad.net/heat/+bug/1549213,2016-03-16
+1552194,1552194,Fix Released,Error during execution pep8 check,https://bugs.launchpad.net/heat/+bug/1552194,2016-03-16
+1539541,1539541,Fix Released,Can't ignore updates to OS::Nova::Server,https://bugs.launchpad.net/heat/+bug/1539541,2016-03-16
+1539541,1539541,Fix Released,Can't ignore updates to OS::Nova::Server,https://bugs.launchpad.net/tripleo/+bug/1539541,2016-03-16
+1552716,1552716,Fix Released,Incorrect error message in Manila resource creation,https://bugs.launchpad.net/heat/+bug/1552716,2016-03-16
+1524194,1524194,Fix Released,can't create stack if resource name is chinese character,https://bugs.launchpad.net/heat/+bug/1524194,2016-03-16
+1553362,1553362,Fix Released,Stack update preview breaks for Neutron port resource,https://bugs.launchpad.net/heat/+bug/1553362,2016-03-16
+1552724,1552724,Fix Released,Potential race condition in LBaaS v2 resources,https://bugs.launchpad.net/heat/+bug/1552724,2016-03-16
+1554372,1554372,Fix Released,Stack create failed due launchconfig reference not found,https://bugs.launchpad.net/heat/+bug/1554372,2016-03-16
+1552379,1552379,Fix Released,please clarify heat_*_server_url parameters help,https://bugs.launchpad.net/heat/+bug/1552379,2016-03-16
+1503672,1503672,Fix Released,Failed to Update the resource of  AWS::EC2::SecurityGroup,https://bugs.launchpad.net/heat/+bug/1503672,2016-03-16
+1555425,1555425,Fix Released,Difficult to understand the ERROR of stack-cancel-update,https://bugs.launchpad.net/heat/+bug/1555425,2016-03-16
+1554927,1554927,Fix Released,resolve translation fails for get_attr,https://bugs.launchpad.net/heat/+bug/1554927,2016-03-16
+1548802,1548802,Fix Released,Failed to preview stack with template resource nested in resource group,https://bugs.launchpad.net/heat/+bug/1548802,2016-03-16
+1556317,1556317,Fix Released,Using a Nova::Flavor resource in a Nova::Server resource fails validation,https://bugs.launchpad.net/heat/+bug/1556317,2016-03-16
+1488679,1488679,Fix Released,heat-manage script fails on encryption for default integer parameter values,https://bugs.launchpad.net/heat/+bug/1488679,2016-03-16
+1489157,1489157,Fix Released,heat-manage script encrypts default parameters,https://bugs.launchpad.net/heat/+bug/1489157,2016-03-16
+1556790,1556790,Fix Released,Can't apply 'get_param' for deletion_policy,https://bugs.launchpad.net/heat/+bug/1556790,2016-03-16
+1554311,1554311,Fix Released,Move  launchconfig reference checking to validate(),https://bugs.launchpad.net/heat/+bug/1554311,2016-03-16
+1538767,1538767,Fix Released,Users cannot create extra-routes with nexthop on ext-net,https://bugs.launchpad.net/neutron/+bug/1538767,2016-03-16
+1557922,1557922,Fix Released,Check volume_id is consistent with snapshot.volume_id when creating backup,https://bugs.launchpad.net/cinder/+bug/1557922,2016-03-16
+1546798,1546798,Fix Released,neutron failed to deploy in ubuntu binary,https://bugs.launchpad.net/kolla/+bug/1546798,2016-03-16
+1550011,1550011,Fix Released,Add the default empty reconfigure.yml file to all roles,https://bugs.launchpad.net/kolla/+bug/1550011,2016-03-16
+1554780,1554780,Fix Released,"Update the documentation about installation of curl, nova, neutron  clients",https://bugs.launchpad.net/kolla/+bug/1554780,2016-03-16
+1552433,1552433,Fix Released,init-runonce does not pull CirrOS image in fresh node deployment,https://bugs.launchpad.net/kolla/+bug/1552433,2016-03-16
+1557117,1557117,Fix Released,private_address attribute incorrectly used as property,https://bugs.launchpad.net/tosca-parser/+bug/1557117,2016-03-16
+1545384,1545384,Fix Released,Implement swift bank plugin,https://bugs.launchpad.net/karbor/+bug/1545384,2016-03-16
+1551689,1551689,Fix Released,Adding member in a list causes 500,https://bugs.launchpad.net/glance/+bug/1551689,2016-03-16
+1552830,1552830,Fix Released,no module docs generated,https://bugs.launchpad.net/glance/+bug/1552830,2016-03-16

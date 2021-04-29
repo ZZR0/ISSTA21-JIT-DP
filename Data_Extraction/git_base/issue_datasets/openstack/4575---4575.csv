@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1829085,1829085,Fix Released,Cross account symlink_path incorrect on failure,https://bugs.launchpad.net/swift/+bug/1829085,2019-11-26
+1829959,1829959,Fix Released,s3api MPU issue when copying parts from other MUs,https://bugs.launchpad.net/swift/+bug/1829959,2019-11-26
+1828907,1828907,Fix Released,Cannot change content-type with s3api,https://bugs.launchpad.net/swift/+bug/1828907,2019-11-26
+1776476,1776476,Fix Released,s3token fail to replace account in URL with keystone project id,https://bugs.launchpad.net/swift/+bug/1776476,2019-11-26
+1810567,1810567,Fix Released,s3api doesn't delete SLOs during multideletes,https://bugs.launchpad.net/swift/+bug/1810567,2019-11-26
+1765834,1765834,Fix Released,Need to verify content of v4-signed PUTs,https://bugs.launchpad.net/swift/+bug/1765834,2019-11-26
+1568650,1568650,Fix Released,Connection between client and proxy service does not closes,https://bugs.launchpad.net/swift/+bug/1568650,2019-11-26
+1560650,1560650,Fix Released,EMC XtremIO driver does not honor create from snapshot volume size,https://bugs.launchpad.net/cinder/+bug/1560650,2019-11-26
+1703011,1703011,Fix Released,cinder backup-create with ceph fails for incremental backup if latest incremental backup is deleted,https://bugs.launchpad.net/cinder/+bug/1703011,2019-11-26
+1799382,1799382,Fix Released,Move away from using periodic jobs to check workflow completion,https://bugs.launchpad.net/mistral/+bug/1799382,2019-11-25
+1793651,1793651,Fix Released,"Backwards compatibility issue: when starting a workflow ""params"" can't be null now",https://bugs.launchpad.net/mistral/+bug/1793651,2019-11-25
+1802477,1802477,Fix Released,SQL exception when updating task 'state_info' in case  action fails and returns a result as an array on Python 2.7,https://bugs.launchpad.net/mistral/+bug/1802477,2019-11-25
+1792451,1792451,Fix Released,An execution hangs in the RUNNING state after rerun,https://bugs.launchpad.net/mistral/+bug/1792451,2019-11-25
+1801872,1801872,Fix Released,Make workflow and join completion more effective,https://bugs.launchpad.net/mistral/+bug/1801872,2019-11-25
+1801876,1801876,Fix Released,Integrity checker is too greedy,https://bugs.launchpad.net/mistral/+bug/1801876,2019-11-25
+1802065,1802065,Fix Released,Action execution heartbeat checker leaves thrash in DB upon restart,https://bugs.launchpad.net/mistral/+bug/1802065,2019-11-25
+1803528,1803528,Fix Released,"Sometimes getting ""DetachedInstanceError: Instance <ActionDefinition at..."" when processing ""on_action_complete""",https://bugs.launchpad.net/mistral/+bug/1803528,2019-11-25
+1803483,1803483,Fix Released,"""join"" task sometimes starts more than one action even if it's not ""with-items""",https://bugs.launchpad.net/mistral/+bug/1803483,2019-11-25
+1803677,1803677,Fix Released,Join is not triggered if the last finished inbound task is in ERROR and  it's not a direct predecessor,https://bugs.launchpad.net/mistral/+bug/1803677,2019-11-25
+1805080,1805080,Fix Released,Action execution checker doesn't set a security context,https://bugs.launchpad.net/mistral/+bug/1805080,2019-11-25
+1805579,1805579,Fix Released,Not enough logging for sending/receiving actions from engine to executor,https://bugs.launchpad.net/mistral/+bug/1805579,2019-11-25
+1715848,1715848,Fix Released,event-engine works incorrectly in HA,https://bugs.launchpad.net/mistral/+bug/1715848,2019-11-25
+1821858,1821858,Fix Released,Ad-hoc actions prepare input twice,https://bugs.launchpad.net/mistral/+bug/1821858,2019-11-25
+1821860,1821860,Fix Released,"WorkflowExecution only has ""root_execution_id"" to reference a root execution",https://bugs.launchpad.net/mistral/+bug/1821860,2019-11-25
+1822060,1822060,Fix Released,YAQL input data conversion leads to performance regression,https://bugs.launchpad.net/mistral/+bug/1822060,2019-11-25
+1816364,1816364,Fix Released,Mistral doesn't use oslo_middleware.http_proxy_to_wsgi,https://bugs.launchpad.net/mistral/+bug/1816364,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/panko/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/magnum/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/sahara/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/trove/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/senlin/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/freezer/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/heat/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/searchlight/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/mistral/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/keystone/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/barbican/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/ceilometer/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/aodh/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/cinder/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/glance/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/neutron/+bug/1590608,2019-11-25
+1590608,1590608,Fix Released,Services should use http_proxy_to_wsgi middleware,https://bugs.launchpad.net/gnocchi/+bug/1590608,2019-11-25
+1811775,1811775,Fix Released,Workflow output computation fails,https://bugs.launchpad.net/mistral/+bug/1811775,2019-11-25
+1843175,1843175,Fix Released,Error validate token when run an action with cron trigger,https://bugs.launchpad.net/mistral/+bug/1843175,2019-11-25
+1853803,1853803,Fix Released,periodic containers build push jobs master & train broken distutils.errors.DistutilsError: `allow-hosts` option not supported,https://bugs.launchpad.net/tripleo/+bug/1853803,2019-11-25
+1820870,1820870,Fix Released,Fullstack tests are failing because async_process is not started properly,https://bugs.launchpad.net/neutron/+bug/1820870,2019-11-23
+1810563,1810563,Fix Released,adding rules to security groups is slow,https://bugs.launchpad.net/neutron/+bug/1810563,2019-11-23
+1842687,1842687,Fix Released,healthcheck testing process with opened RabbitMQ ports don't work,https://bugs.launchpad.net/tripleo/+bug/1842687,2019-11-22
+1759473,1759473,Fix Released,Avoid InstanceNotRunning reporting,https://bugs.launchpad.net/nova/+bug/1759473,2019-11-22
+1851872,1851872,Fix Released,update of docker package causes network outage,https://bugs.launchpad.net/tripleo/+bug/1851872,2019-11-22
+1823875,1823875,Fix Released,YAQL/Jinja function task() w/o arguments fails when a workflow is completing,https://bugs.launchpad.net/mistral/+bug/1823875,2019-11-22
+1827906,1827906,Fix Released,invalid option for include_tasks: tags --> breaks ansible 2.7,https://bugs.launchpad.net/tripleo/+bug/1827906,2019-11-22
+1688331,1688331,Fix Released,Heat wait conditions advertise internal endpoint,https://bugs.launchpad.net/kolla-ansible/+bug/1688331,2019-11-22
+1851954,1851954,Fix Released,Security hardening YUM package add/remove task sometimes corrupts yum database on target hosts,https://bugs.launchpad.net/openstack-ansible/+bug/1851954,2019-11-22
+1842664,1842664,Fix Released,modprobe config is ignored by dracut,https://bugs.launchpad.net/diskimage-builder/+bug/1842664,2019-11-22
+1683288,1683288,Fix Released,Deployment failed due to patching failure in compute_post_deployment.py,https://bugs.launchpad.net/fuel-plugin-xenserver/+bug/1683288,2019-11-22
+1762130,1762130,Fix Released,Need fix issues due to no module available in XenServer dom0,https://bugs.launchpad.net/os-xenapi/+bug/1762130,2019-11-22
+1850723,1850723,Fix Released,Wrong repositories links in 'Prepare the deployment host in openstack-ansible' page,https://bugs.launchpad.net/openstack-ansible/+bug/1850723,2019-11-22
+1853172,1853172,Fix Released,local variable 'last_update' referenced before assignment,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1853172,2019-11-21
+1784624,1784624,Fix Released,"[updates pike] update fails with error ""The Resource Type (OS::TripleO::Services::ManilaBackendGeneric) could not be found""",https://bugs.launchpad.net/tripleo/+bug/1784624,2019-11-21
+1794996,1794996,Fix Released,_destroy_evacuated_instances fails and kills n-cpu startup if lazy-loading flavor on a deleted instance,https://bugs.launchpad.net/nova/+bug/1794996,2019-11-21
+1691602,1691602,Fix Released,live migration generates several network-changed events which lock up refreshing the nw info cache,https://bugs.launchpad.net/neutron/+bug/1691602,2019-11-21
+1786298,1786298,Fix Released,nova-manage db archive_deleted_rows does not cleanup table instance_id_mappings,https://bugs.launchpad.net/nova/+bug/1786298,2019-11-21
+1849626,1849626,Fix Released,Leftover OVS ports on kuryr-daemon,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1849626,2019-11-21
+1842119,1842119,Fix Released,missing some saved quotas values in manila share tab,https://bugs.launchpad.net/manila-ui/+bug/1842119,2019-11-21
+1798048,1798048,Fix Released,cant modify project quotas with manila-ui plugin,https://bugs.launchpad.net/horizon/+bug/1798048,2019-11-21
+1842749,1842749,Fix Released,CSV Injection Possible in Compute Usage History,https://bugs.launchpad.net/horizon/+bug/1842749,2019-11-21
+1847959,1847959,Fix Released,nova list-extensions is abandoned,https://bugs.launchpad.net/horizon/+bug/1847959,2019-11-21
+1826924,1826924,Fix Released,Better defaults for Gnocchi API behind HAProxy,https://bugs.launchpad.net/kolla-ansible/+bug/1826924,2019-11-21
+1850126,1850126,Fix Released,"Scenario012 fails with error ""Function lookup() did not find a value for the name 'redis_vip'""",https://bugs.launchpad.net/tripleo/+bug/1850126,2019-11-21
+1846467,1846467,Fix Released,RabbitMQ container - high CPU load on multicore systems,https://bugs.launchpad.net/kolla-ansible/+bug/1846467,2019-11-20
+1852477,1852477,Fix Released,periodic-tripleo-ci-centos-7-ovb-3ctlr_1comp_1supp-featureset039-train is failing tempest.scenario.test_network_basic_ops.TestNetworkBasicOps,https://bugs.launchpad.net/tripleo/+bug/1852477,2019-11-19
+1853166,1853166,Fix Released,nova not installable on py2 environments which breaks the gate,https://bugs.launchpad.net/nova/+bug/1853166,2019-11-19
+1850034,1850034,Fix Released,"Cirros images no more available over http, only https",https://bugs.launchpad.net/openstack-ansible/+bug/1850034,2019-11-19

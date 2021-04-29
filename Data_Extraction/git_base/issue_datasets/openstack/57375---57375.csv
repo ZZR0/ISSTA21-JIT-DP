@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1468163,1468163,Fix Released,test_dhcp_stateful_fixedips_outrange fails on the gate,https://bugs.launchpad.net/neutron/+bug/1468163,2015-10-15
+1464612,1464612,Fix Released,Neutron server races when using the pymysql driver,https://bugs.launchpad.net/neutron/+bug/1464612,2015-10-15
+1443480,1443480,Fix Released,Some of the neutron functional tests are failing with import error after unit test tree reorganization,https://bugs.launchpad.net/neutron/+bug/1443480,2015-10-15
+1443067,1443067,Fix Released,Use listener and pool UUIDs  as an internak entity identifier in Radware LBaaS backend,https://bugs.launchpad.net/neutron/+bug/1443067,2015-10-15
+1443060,1443060,Fix Released,Radware LBaaS v2 driver does not delete DB entity properly,https://bugs.launchpad.net/neutron/+bug/1443060,2015-10-15
+1442683,1442683,Fix Released,add_constraint_for_routerid migration doesn't account for orphaned records,https://bugs.launchpad.net/neutron/+bug/1442683,2015-10-15
+1442543,1442543,Fix Released,oslo_config.cfg.ConfigFilesPermissionDeniedError: Failed to open some config files: /etc/neutron/neutron.conf,https://bugs.launchpad.net/neutron/+bug/1442543,2015-10-15
+1442377,1442377,Fix Released,Intermittent ipset_manager test failures in Kilo,https://bugs.launchpad.net/neutron/+bug/1442377,2015-10-15
+1442123,1442123,Fix Released,iPXE: neutron chainloading undionly.kpxe is not working,https://bugs.launchpad.net/neutron/+bug/1442123,2015-10-15
+1441788,1441788,Fix Released,VPNaaS: Fedora support for StrongSwan,https://bugs.launchpad.net/neutron/+bug/1441788,2015-10-15
+1441205,1441205,Fix Released,Re-use callers session in ML2 DB methods,https://bugs.launchpad.net/neutron/+bug/1441205,2015-10-15
+1440655,1440655,Fix Released,VPNaas:service ipsec status gives incorrect status of the ipsec tunnel.,https://bugs.launchpad.net/neutron/+bug/1440655,2015-10-15
+1439383,1439383,Fix Released,"FWaaS - the action of  firewall-policy ""insert_rule"" and ""remove_rule"" not exist in policy.json",https://bugs.launchpad.net/neutron/+bug/1439383,2015-10-15
+1438615,1438615,Fix Released,Fwaas - update_firewall_policy always set audited to False,https://bugs.launchpad.net/neutron/+bug/1438615,2015-10-15
+1438463,1438463,Fix Released,Some unit tests cannot be run independently,https://bugs.launchpad.net/neutron/+bug/1438463,2015-10-15
+1437499,1437499,Fix Released,init_l3 should consider all address scopes,https://bugs.launchpad.net/neutron/+bug/1437499,2015-10-15
+1436890,1436890,Fix Released,[IPv6] [VPNaaS]Error when %defaultroute assigned to leftnexthop and rightnexthop for ipv6,https://bugs.launchpad.net/neutron/+bug/1436890,2015-10-15
+1436781,1436781,Fix Released,KEMP Technologies V2 shim driver,https://bugs.launchpad.net/neutron/+bug/1436781,2015-10-15
+1436263,1436263,Fix Released,[IPv6] [VPNaaS]Add connaddrfamily to ipsec.conf.template,https://bugs.launchpad.net/neutron/+bug/1436263,2015-10-15
+1436164,1436164,Fix Released,duplicated l3 scheduler test cases,https://bugs.launchpad.net/neutron/+bug/1436164,2015-10-15
+1435136,1435136,Fix Released,[IPv6] [VPNaaS]ipsec-site-connection-create failing for ipv6,https://bugs.launchpad.net/neutron/+bug/1435136,2015-10-15
+1434824,1434824,Fix Released,restart L3 agent failure to setup floating IPs in DVR env,https://bugs.launchpad.net/neutron/+bug/1434824,2015-10-15
+1432582,1432582,Fix Released,OVS agent shows connected to AMQP but neutron server rejects the request.,https://bugs.launchpad.net/neutron/+bug/1432582,2015-10-15
+1426265,1426265,Fix Released,dhcp _test_sync_state_helper does not assert calls properly,https://bugs.launchpad.net/neutron/+bug/1426265,2015-10-15
+1424587,1424587,Fix Released,In ML2 plugin for accessing private attributes of PortContext members use accessors,https://bugs.launchpad.net/neutron/+bug/1424587,2015-10-15
+1420117,1420117,Fix Released,Create HA router shows successful when there is only one l3 agent is active.,https://bugs.launchpad.net/neutron/+bug/1420117,2015-10-15
+1416181,1416181,Fix Released,'router_gateway' port status is always DOWN,https://bugs.launchpad.net/neutron/+bug/1416181,2015-10-15
+1403001,1403001,Fix Released,LBaaS VIP does not work with IPv6 addresses because haproxy cannot bind socket,https://bugs.launchpad.net/neutron/+bug/1403001,2015-10-15
+1382360,1382360,Fix Released,ml2 plugin wrongly calls _filter_nets_l3 from get_networks,https://bugs.launchpad.net/neutron/+bug/1382360,2015-10-15
+1372882,1372882,Fix Released,Neutron should drop certain outbound ICMPv6 packets,https://bugs.launchpad.net/neutron/+bug/1372882,2015-10-15
+1357068,1357068,Fix Released,Arping doesn't work with IPv6,https://bugs.launchpad.net/neutron/+bug/1357068,2015-10-15
+1350149,1350149,Fix Released,mysqldb + eventlet = potential deadlocks,https://bugs.launchpad.net/neutron/+bug/1350149,2015-10-15
+1450090,1450090,Fix Released,fip-linklocal-networks file not in .gitignore,https://bugs.launchpad.net/neutron/+bug/1450090,2015-10-15
+1448268,1448268,Fix Released,Move test_get_user_allocation_for_dhcp_port_returns_none to NeutronDbPluginV2AsMixinTestCase,https://bugs.launchpad.net/neutron/+bug/1448268,2015-10-15
+1446911,1446911,Fix Released,Improve naming of methods in l3_dvr_db,https://bugs.launchpad.net/neutron/+bug/1446911,2015-10-15
+1436922,1436922,Fix Released,Improve readability of l3_agent_scheduler module,https://bugs.launchpad.net/neutron/+bug/1436922,2015-10-15
+1388858,1388858,Fix Released,Neutron disallows to change default enable_snat value,https://bugs.launchpad.net/neutron/+bug/1388858,2015-10-15
+1466554,1466554,Fix Released,Unexpected indentation crashes doc generation,https://bugs.launchpad.net/neutron/+bug/1466554,2015-10-15
+1458924,1458924,Fix Released,OVS_LIB set_secure_mode doesn't allow setting all possible values,https://bugs.launchpad.net/neutron/+bug/1458924,2015-10-15
+1456760,1456760,Fix Released,confusing timestamp related error trace in server log,https://bugs.launchpad.net/neutron/+bug/1456760,2015-10-15
+1453323,1453323,Fix Released,Remove router interface on Arista Plugin fails,https://bugs.launchpad.net/neutron/+bug/1453323,2015-10-15
+1450244,1450244,Fix Released,In admin context is_advsvc should be True,https://bugs.launchpad.net/neutron/+bug/1450244,2015-10-15
+1449462,1449462,Fix Released,read_deleted in neutron context serves no purpose,https://bugs.launchpad.net/neutron/+bug/1449462,2015-10-15
+1446807,1446807,Fix Released,Enhance configure_for_func_testing.sh for other repo use,https://bugs.launchpad.net/neutron/+bug/1446807,2015-10-15
+1446642,1446642,Fix Released,Updated Protocol named constants,https://bugs.launchpad.net/neutron/+bug/1446642,2015-10-15
+1445169,1445169,Fix Released,Quota model does not use HasTenant mixin,https://bugs.launchpad.net/neutron/+bug/1445169,2015-10-15
+1443710,1443710,Fix Released,_device_to_port_id broken for many devices,https://bugs.launchpad.net/neutron/+bug/1443710,2015-10-15
+1442527,1442527,Fix Released,Using plural 'ports' to reference port from IPAllocation is confusing,https://bugs.launchpad.net/neutron/+bug/1442527,2015-10-15
+1441879,1441879,Fix Released,POST body not json causing 500's,https://bugs.launchpad.net/neutron/+bug/1441879,2015-10-15
+1441793,1441793,Fix Released,_create_subnet_from_implicit_pool assumes external network,https://bugs.launchpad.net/neutron/+bug/1441793,2015-10-15
+1441632,1441632,Fix Released,FWaaS: Remove checks for bash scripts,https://bugs.launchpad.net/neutron/+bug/1441632,2015-10-15
+1441180,1441180,Fix Released,OVSDB connection should get schema name as a parameter,https://bugs.launchpad.net/neutron/+bug/1441180,2015-10-15
+1441043,1441043,Fix Released,Move values for network_type to plugins.common.constants.py,https://bugs.launchpad.net/neutron/+bug/1441043,2015-10-15
+1440797,1440797,Fix Released,Fullstack test db fixture usage conflicts with retargetable db fixture usage,https://bugs.launchpad.net/neutron/+bug/1440797,2015-10-15
+1438751,1438751,Fix Released,db_get in native OVSDB backend doesn't properly handle UUID columns,https://bugs.launchpad.net/neutron/+bug/1438751,2015-10-15
+1433208,1433208,Fix Released,OVS_LIB should support setting controller connection-mode,https://bugs.launchpad.net/neutron/+bug/1433208,2015-10-15
+1424757,1424757,Fix Released,VPNaaS: Create a StrongSwan based functional job,https://bugs.launchpad.net/neutron/+bug/1424757,2015-10-15
+1420042,1420042,Fix Released,DHCP port is changed when dhcp-agent restart,https://bugs.launchpad.net/neutron/+bug/1420042,2015-10-15
+1348703,1348703,Fix Released,LinuxInterfaceDriver plug method in derived class already check for device existence,https://bugs.launchpad.net/neutron/+bug/1348703,2015-10-15
+1314534,1314534,Fix Released,get_dhcp_port() RPC is no longer used,https://bugs.launchpad.net/neutron/+bug/1314534,2015-10-15
+1466921,1466921,Fix Released,IptablesFirewallDriver making extra unnecessary calls to IpsetManager.set_members(),https://bugs.launchpad.net/neutron/+bug/1466921,2015-10-15
+1466542,1466542,Fix Released,Exception.message deprecation warning during tests,https://bugs.launchpad.net/neutron/+bug/1466542,2015-10-15
+1461714,1461714,Fix Released,Do not remove dhcp agent bindings if no alive agents are available,https://bugs.launchpad.net/neutron/+bug/1461714,2015-10-15
+1461539,1461539,Fix Released,Linuxbridge neutron agent should exit gracefully on receiving SIGTERM,https://bugs.launchpad.net/neutron/+bug/1461539,2015-10-15
+1460793,1460793,Fix Released,"Metadata IP is resolved locally by Windows by default, causing big delay in URL access",https://bugs.launchpad.net/neutron/+bug/1460793,2015-10-15
+1458786,1458786,Fix Released,"Update port security group, relevant ipset member can't be updated",https://bugs.launchpad.net/neutron/+bug/1458786,2015-10-15
+1455675,1455675,Fix Released,IptablesManager._find_last_entry taking up majority of time to plug ports,https://bugs.launchpad.net/neutron/+bug/1455675,2015-10-15
+1455439,1455439,Fix Released,l3 agent: race may lead to creation of deleted routers,https://bugs.launchpad.net/neutron/+bug/1455439,2015-10-15
+1454566,1454566,Fix Released,Neutron DB migration failed in the script 2b801560a332_remove_hypervneutronplugin_tables.py when upgrade,https://bugs.launchpad.net/neutron/+bug/1454566,2015-10-15
+1468128,1468128,Fix Released,Brocade plugin unittests are broken,https://bugs.launchpad.net/neutron/+bug/1468128,2015-10-15
+1468059,1468059,Fix Released,Extend default setenv instead of replacing it in tox.ini,https://bugs.launchpad.net/neutron/+bug/1468059,2015-10-15
+1467466,1467466,Fix Released,[vpnaas] Unit test failure: cannot import name dvr_router,https://bugs.launchpad.net/neutron/+bug/1467466,2015-10-15
+1467087,1467087,Fix Released,RPC version type should be string and not float,https://bugs.launchpad.net/neutron/+bug/1467087,2015-10-15
+1466873,1466873,Fix Released,neutron.tests.functional.agent.linux.test_keepalived keeps running keepalived processes,https://bugs.launchpad.net/neutron/+bug/1466873,2015-10-15
+1466322,1466322,Fix Released,"IPv6 subnet creation fails if the gateway is of the ""*::ffff:ffff:ffff:ffff"" pattern",https://bugs.launchpad.net/neutron/+bug/1466322,2015-10-15

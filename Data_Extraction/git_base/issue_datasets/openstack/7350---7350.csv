@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1770326,1770326,Fix Released,Can't Update Volume Status on dashboard if cinder volume stunk at reserved status,https://bugs.launchpad.net/horizon/+bug/1770326,2019-05-09
+1778771,1778771,Fix Released,Backups panel is visible even if enable_backup is False,https://bugs.launchpad.net/horizon/+bug/1778771,2019-05-09
+1764622,1764622,Fix Released,Restarting the web server causes users to get kicked out,https://bugs.launchpad.net/horizon/+bug/1764622,2019-05-09
+1781911,1781911,Fix Released,Network Topology: Popup delete doesn't work,https://bugs.launchpad.net/horizon/+bug/1781911,2019-05-09
+1711090,1711090,Fix Released,stage call fails with TypeError,https://bugs.launchpad.net/python-glanceclient/+bug/1711090,2019-05-09
+1711259,1711259,Fix Released,client sends incorrectly formatted request body for image-import call,https://bugs.launchpad.net/python-glanceclient/+bug/1711259,2019-05-09
+1711511,1711511,Fix Released,glance image-create-via-import fails with value error,https://bugs.launchpad.net/python-glanceclient/+bug/1711511,2019-05-09
+1714240,1714240,Fix Released,glance re-spawns a child when terminating,https://bugs.launchpad.net/glance/+bug/1714240,2019-05-09
+1720354,1720354,Fix Released,Glance doesn't send correctly authorization request to Oslo policy,https://bugs.launchpad.net/glance/+bug/1720354,2019-05-09
+1773446,1773446,Fix Released,"Volume creation with group ID fails with ""no valid backend""",https://bugs.launchpad.net/cinder/+bug/1773446,2019-05-09
+1797640,1797640,Fix Released,encryption records are not deleted when related volume type is deleted,https://bugs.launchpad.net/cinder/+bug/1797640,2019-05-09
+1747481,1747481,Fix Released,POST /volume/v3/{id}/attachments returns a 202 response which is wrong,https://bugs.launchpad.net/cinder/+bug/1747481,2019-05-09
+1802155,1802155,Fix Released,Migrating an attached read-only volume turns it into read-write,https://bugs.launchpad.net/cinder/+bug/1802155,2019-05-09
+1783790,1783790,Fix Released,Multiattach - the multiattach is still set to False after a Manage and Retype operation,https://bugs.launchpad.net/cinder/+bug/1783790,2019-05-09
+1805762,1805762,Fix Released,We shouldn't allow update of attachment records on volumes in error state,https://bugs.launchpad.net/cinder/+bug/1805762,2019-05-09
+1791089,1791089,Fix Released,Tintri unit tests fail if run alone,https://bugs.launchpad.net/cinder/+bug/1791089,2019-05-09
+1794716,1794716,Fix Released,Can't create a group with a uuid format name volume type,https://bugs.launchpad.net/cinder/+bug/1794716,2019-05-09
+1796784,1796784,Fix Released,'RBDDriver' object has no attribute 'get_manageable_snapshots',https://bugs.launchpad.net/cinder/+bug/1796784,2019-05-09
+1795098,1795098,Fix Released,Unexpected behavior when upload a snapshot-volume to vol-backed image,https://bugs.launchpad.net/cinder/+bug/1795098,2019-05-09
+1790005,1790005,Fix Released,3par driver failure in get_volume_stats,https://bugs.launchpad.net/cinder/+bug/1790005,2019-05-09
+1798088,1798088,Fix Released,Failed to re-raise the ImageTooBig exception when create img volume,https://bugs.launchpad.net/cinder/+bug/1798088,2019-05-09
+1792889,1792889,Fix Released,VMAX Driver - A cinder manage operation for a VMAX volume for an invalid reference shouldn't result in any storage operations on the VMAX,https://bugs.launchpad.net/cinder/+bug/1792889,2019-05-09
+1787292,1787292,Fix Released,Functional tests are failing because there's no default share type configured,https://bugs.launchpad.net/python-manilaclient/+bug/1787292,2019-05-09
+1814094,1814094,Fix Released,get_base_url is returning an incomplete value,https://bugs.launchpad.net/python-manilaclient/+bug/1814094,2019-05-09
+1826247,1826247,Fix Released,Remove magnum module from plugins,https://bugs.launchpad.net/openstack-ansible/+bug/1826247,2019-05-08
+1782850,1782850,Fix Released,Typo in /etc/apache2/apache2.conf on Ubuntu,https://bugs.launchpad.net/ossp-security-documentation/+bug/1782850,2019-05-08
+1828081,1828081,Fix Released,containers build job failing on nova-placement-api,https://bugs.launchpad.net/tripleo/+bug/1828081,2019-05-08
+1722404,1722404,Fix Released,"Database transactions can fail with ""TypeError: Can't upgrade a READER transaction to a WRITER mid-transaction"" because of scatter_gather_cells",https://bugs.launchpad.net/nova/+bug/1722404,2019-05-08
+1826452,1826452,Fix Released,pip install tripleo-repos: DistributionNotFound,https://bugs.launchpad.net/tripleo/+bug/1826452,2019-05-08
+1560965,1560965,Fix Released,libvirt selects wrong root device name,https://bugs.launchpad.net/horizon/+bug/1560965,2019-05-08
+1815657,1815657,Fix Released,python 3 failures - /usr/bin/masakari-wsgi and unit tests,https://bugs.launchpad.net/masakari/+bug/1815657,2019-05-07
+1787028,1787028,Fix Released,neutron returned internal server error on updating tags,https://bugs.launchpad.net/neutron/+bug/1787028,2019-05-06
+1787028,1787028,Fix Released,neutron returned internal server error on updating tags,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1787028,2019-05-06
+1507651,1507651,Fix Released,MidoNet Neutron Plugin upgrade from kilo stable 2015.1.0 to kilo unstable 2015.1.1.2.0-1~rc0 (MNv5.0) not supported,https://bugs.launchpad.net/networking-midonet/+bug/1507651,2019-05-04
+1816112,1816112,Fix Released,RFE: Object Dependency Lifecycle,https://bugs.launchpad.net/keystone/+bug/1816112,2019-05-04
+1783755,1783755,Fix Released,Ceph integration in TripleO doesn't work with Ansible 2.6.1,https://bugs.launchpad.net/tripleo/+bug/1783755,2019-05-04
+1827243,1827243,Fix Released,OpenStack API Documentation in OpenStack API Documentation - no link to barbican api reference,https://bugs.launchpad.net/openstack-api-site/+bug/1827243,2019-05-03
+1824426,1824426,Fix Released,Link-local IPv6 blocked by anti-spoofing rules,https://bugs.launchpad.net/networking-vpp/+bug/1824426,2019-05-03
+1825401,1825401,Fix Released,Handle the KeyNotFound exception in vpp agent,https://bugs.launchpad.net/networking-vpp/+bug/1825401,2019-05-03
+1777591,1777591,Fix Released,‘limit’ in allocation_candidates where sometimes make force_hosts invalid,https://bugs.launchpad.net/nova/+bug/1777591,2019-05-02
+1706569,1706569,Fix Released,containers fail to start in created state,https://bugs.launchpad.net/kolla-ansible/+bug/1706569,2019-05-02
+1826591,1826591,Fix Released,phase1 jobs failing with undefined variables,https://bugs.launchpad.net/tripleo/+bug/1826591,2019-05-02
+1805114,1805114,Fix Released,Upgrade job not upgrading,https://bugs.launchpad.net/tripleo/+bug/1805114,2019-05-02
+1821175,1821175,Fix Released,UC upgrade: nova_db_sync hangs if nova cell DB connection string is no longer valid,https://bugs.launchpad.net/tripleo/+bug/1821175,2019-05-02
+1604226,1604226,Fix Released,allowed-address-pair needs to be supported,https://bugs.launchpad.net/networking-calico/+bug/1604226,2019-05-02
+1453629,1453629,Fix Released,Creating neutron ports uses incorrect instance availability zone,https://bugs.launchpad.net/nova/+bug/1453629,2019-05-01
+1646135,1646135,Fix Released,ssh key login broken to share VM,https://bugs.launchpad.net/manila/+bug/1646135,2019-05-01
+1656684,1656684,Fix Released,[DOC]Remove NovaNetworkPlugin,https://bugs.launchpad.net/manila/+bug/1656684,2019-05-01
+1749953,1749953,Fix Released,Add support for Python 3.6,https://bugs.launchpad.net/cinder/+bug/1749953,2019-04-30
+1821017,1821017,Fix Released,"UC upgrade: error while resolving custom fact ""rabbitmq_plugins_dirs""",https://bugs.launchpad.net/tripleo/+bug/1821017,2019-04-30
+1614289,1614289,Fix Released,py3: default request content-type should be forced to None,https://bugs.launchpad.net/swift/+bug/1614289,2019-04-29
+1693512,1693512,Fix Released,Optimation for _update_lrouter_routes(),https://bugs.launchpad.net/networking-ovn/+bug/1693512,2019-04-29
+1464283,1464283,Fix Released,Create a stable-to-master grenade upgrade job,https://bugs.launchpad.net/networking-ovn/+bug/1464283,2019-04-29
+1605089,1605089,Fix Released,Race condition of post-commit ovn update,https://bugs.launchpad.net/networking-ovn/+bug/1605089,2019-04-29
+1793389,1793389,Fix Released,Upgrade to Ocata: Keystone Intermittent Missing 'options' Key,https://bugs.launchpad.net/openstack-ansible/+bug/1793389,2019-04-29
+1821567,1821567,Fix Committed,network_segment_ranges could not load in tricirlce test,https://bugs.launchpad.net/tricircle/+bug/1821567,2019-04-29
+1688648,1688648,Fix Committed,cinder lvm problems after patch is applied,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1688648,2019-04-28
+1667598,1667598,Fix Committed,check_bug_free_001,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1667598,2019-04-28
+1826784,1826784,Fix Committed,There is no bug!,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1826784,2019-04-28
+1816698,1816698,Fix Released,"DVR-HA: Removing a router from an agent, does not clear the namespaces on the agent",https://bugs.launchpad.net/neutron/+bug/1816698,2019-04-28
+1826129,1826129,Fix Released,Multiple jobs with IOError: [Errno 26] Text file busy: '/home/zuul/workspace/.quickstart/bin/python2',https://bugs.launchpad.net/tripleo/+bug/1826129,2019-04-26
+1822916,1822916,Fix Released,"tempest config error in standalone upgrade in reproducer only: TypeError: must be string or buffer, not callable-iterator",https://bugs.launchpad.net/tripleo/+bug/1822916,2019-04-26
+1780373,1780373,Fix Released,server_group_members quota check failure with multi-create,https://bugs.launchpad.net/nova/+bug/1780373,2019-04-26
+1790221,1790221,Fix Released,shelved offloaded server still shows old AZ while shelved,https://bugs.launchpad.net/nova/+bug/1790221,2019-04-26
+1757061,1757061,Fix Released,vm_state become ERROR after execute 'nova set-password <server-id>' failed,https://bugs.launchpad.net/nova/+bug/1757061,2019-04-26
+1793419,1793419,Fix Released,database online data migration fail due to missing request spec marker,https://bugs.launchpad.net/nova/+bug/1793419,2019-04-26
+1789423,1789423,Fix Released,Server operations fail to complete with versioned notifications if payload contains unset is_public field,https://bugs.launchpad.net/nova/+bug/1789423,2019-04-26
+1806515,1806515,Fix Released,Instance tag not taken care of when bury in cell0,https://bugs.launchpad.net/nova/+bug/1806515,2019-04-26
+1785827,1785827,Fix Released,Performance regression in libvirt get_available_resource(),https://bugs.launchpad.net/nova/+bug/1785827,2019-04-26
+1784579,1784579,Fix Released,unable to live migrate instance after update to queens,https://bugs.launchpad.net/nova/+bug/1784579,2019-04-26
+1759924,1759924,Fix Released,Port device owner isn't updated with new host availability zone during unshelve,https://bugs.launchpad.net/nova/+bug/1759924,2019-04-26
+1809136,1809136,Fix Released,Unsupported VIF type unbound convert '_nova_to_osvif_vif_unbound' on compute restart,https://bugs.launchpad.net/nova/+bug/1809136,2019-04-26
+1808358,1808358,Fix Released,destination_type missing from Block Device Mapping v2 documentation in nova,https://bugs.launchpad.net/nova/+bug/1808358,2019-04-26
+1796074,1796074,Fix Released,interface-attach to instance with a large number of attached interfaces fails with RequestURITooLong from neutron,https://bugs.launchpad.net/nova/+bug/1796074,2019-04-26
+1795064,1795064,Fix Released,SR-IOV error IndexError: pop from empty list,https://bugs.launchpad.net/nova/+bug/1795064,2019-04-26

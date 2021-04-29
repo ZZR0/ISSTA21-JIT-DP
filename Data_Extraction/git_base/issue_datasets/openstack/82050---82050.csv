@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1288425,1288425,Fix Released,Driver required libraries are not included in requirements.txt,https://bugs.launchpad.net/tripleo/+bug/1288425,2014-04-01
+1300458,1300458,Fix Released,incorrect ram weighting on overclouds,https://bugs.launchpad.net/tripleo/+bug/1300458,2014-04-01
+1224666,1224666,Fix Released,alarm_history_project_fkey Constraint fails on el6 MySQL,https://bugs.launchpad.net/ceilometer/+bug/1224666,2014-04-01
+1292873,1292873,Fix Released,Typo in Chapter 1. Example Architectures in OpenStack Operations Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1292873,2014-04-01
+1218631,1218631,Fix Released,Build new puppet-dashboard server,https://bugs.launchpad.net/openstack-ci/+bug/1218631,2014-04-01
+1300430,1300430,Fix Released,Ceph is ready for production!,https://bugs.launchpad.net/openstack-manuals/+bug/1300430,2014-03-31
+1297360,1297360,Fix Released,Get no error message when 'Request stack list' test failed,https://bugs.launchpad.net/fuel/+bug/1297360,2014-03-31
+1291826,1291826,Fix Released,Negative test multi generator causes pep8 error if config is not available,https://bugs.launchpad.net/tempest/+bug/1291826,2014-03-31
+1299057,1299057,Fix Released,Remove outdated branches in fuel-* repos,https://bugs.launchpad.net/openstack-ci/+bug/1299057,2014-03-31
+1234970,1234970,Fix Released,"Previous change to allow SolidFire to clone different size, breaks create-snapshot",https://bugs.launchpad.net/cinder/+bug/1234970,2014-03-31
+1219105,1219105,Fix Released,Volume size is not updated when cloning a volume with SolidFire,https://bugs.launchpad.net/cinder/+bug/1219105,2014-03-31
+1160584,1160584,Fix Released,Deleting a swift container fails,https://bugs.launchpad.net/heat/+bug/1160584,2014-03-31
+1180878,1180878,Fix Released,AWS::AutoScaling::LaunchConfiguration resource doesn't support the SecurityGroups property,https://bugs.launchpad.net/heat/+bug/1180878,2014-03-31
+1190285,1190285,Fix Released,rpc is old in oslo and has a leaky exchange problem with qpid,https://bugs.launchpad.net/heat/+bug/1190285,2014-03-31
+1221564,1221564,Fix Released,Didn't associate a security-group to instances,https://bugs.launchpad.net/heat/+bug/1221564,2014-03-31
+1163952,1163952,Fix Released,Instance resource should implement the SubnetId property,https://bugs.launchpad.net/heat/+bug/1163952,2014-03-31
+1180293,1180293,Fix Released,Fail to create a stack calling Fn::GetAtt on Quantum resource,https://bugs.launchpad.net/heat/+bug/1180293,2014-03-31
+1234593,1234593,Fix Released,Fail to delete a floating IP address that doesn't exist anymore,https://bugs.launchpad.net/heat/+bug/1234593,2014-03-31
+1196494,1196494,Fix Released,AWS::AutoScaling::AutoScalingGroup resource should implement VPCZoneIdentifier attribute,https://bugs.launchpad.net/heat/+bug/1196494,2014-03-31
+1206276,1206276,Fix Released,Creating Cinder volumes via Heat fails if no default AvailabilityZone defined,https://bugs.launchpad.net/heat/+bug/1206276,2014-03-31
+1207416,1207416,Fix Released,Cannot use default AZ with volume,https://bugs.launchpad.net/heat/+bug/1207416,2014-03-31
+1175207,1175207,Fix Released,Unintended keyword arg to utils.execute prevents cinder-volume service from starting,https://bugs.launchpad.net/cinder/+bug/1175207,2014-03-31
+1179671,1179671,Fix Released,Cannot run cinder-volume with SolidFire driver in active/active,https://bugs.launchpad.net/cinder/+bug/1179671,2014-03-31
+1186991,1186991,Fix Released,tgt-admin exceptions aren't logging error response,https://bugs.launchpad.net/cinder/+bug/1186991,2014-03-31
+1188386,1188386,Fix Released,cinder backups don't implement policy checks,https://bugs.launchpad.net/cinder/+bug/1188386,2014-03-31
+1191812,1191812,Fix Released,volume cloning is failing with an I/O error happening when the backing snapshot is wiped,https://bugs.launchpad.net/cinder/+bug/1191812,2014-03-31
+1192745,1192745,Fix Released,SolidFire _do_clone needs to account for create_from_snapshot as well as clone,https://bugs.launchpad.net/cinder/+bug/1192745,2014-03-31
+1196248,1196248,Fix Released,No way to describe block-size info,https://bugs.launchpad.net/cinder/+bug/1196248,2014-03-31
+1197648,1197648,Fix Released,Volume manager loses track of exception,https://bugs.launchpad.net/cinder/+bug/1197648,2014-03-31
+1199198,1199198,Fix Released,solidfire drivers generate request id is not usable,https://bugs.launchpad.net/cinder/+bug/1199198,2014-03-31
+1203152,1203152,Fix Released,long flashcopy operations  in the storwize_scv driver will block in _delete_vdisk(),https://bugs.launchpad.net/cinder/+bug/1203152,2014-03-31
+1210853,1210853,Fix Released,ThinLVM create volume from snapshot fails,https://bugs.launchpad.net/cinder/+bug/1210853,2014-03-31
+1158959,1158959,Fix Released,CoraidDriver: create_volume_from_snapshot of a different size,https://bugs.launchpad.net/cinder/+bug/1158959,2014-03-31
+1192370,1192370,Fix Released,update attach status when instance is not a valid UUID,https://bugs.launchpad.net/cinder/+bug/1192370,2014-03-31
+1223474,1223474,Fix Released,NetApp driver should disallow very old controller OS versions,https://bugs.launchpad.net/cinder/+bug/1223474,2014-03-31
+1226398,1226398,Fix Released,Allow display_name for v2 snapshot-update,https://bugs.launchpad.net/cinder/+bug/1226398,2014-03-31
+1098581,1098581,Fix Released,Netapp: create_volume_from_snapshot of a different size,https://bugs.launchpad.net/cinder/+bug/1098581,2014-03-31
+1158991,1158991,Fix Released,3PAR host in different domain causes attach to fail.,https://bugs.launchpad.net/cinder/+bug/1158991,2014-03-31
+1167329,1167329,Fix Released,cinder.conf.sample is outdated,https://bugs.launchpad.net/cinder/+bug/1167329,2014-03-31
+1176759,1176759,Fix Released,Incorrect tunnelling to NetApp servers in concurrent requests,https://bugs.launchpad.net/cinder/+bug/1176759,2014-03-31
+1178418,1178418,Fix Released,3par drivers don't report stats when limitMiB is set on a CPG,https://bugs.launchpad.net/cinder/+bug/1178418,2014-03-31
+1182015,1182015,Fix Released,NetApp: iSCSI drivers' reserved percentage is 100,https://bugs.launchpad.net/cinder/+bug/1182015,2014-03-31
+1195788,1195788,Fix Released,CoraidDriver: Volumes in error state cannot be deleted,https://bugs.launchpad.net/cinder/+bug/1195788,2014-03-31
+1202139,1202139,Fix Released,A race condtion in LVMVolumeDriver create_cloned_volume method,https://bugs.launchpad.net/cinder/+bug/1202139,2014-03-31
+1205956,1205956,Fix Released,"Cinder API v2: List Snapshots Details can not use search options like ""offset"" and ""limit"" as admin user",https://bugs.launchpad.net/cinder/+bug/1205956,2014-03-31
+1212206,1212206,Fix Released,Cinder-Volume Fails to Boot on Restart,https://bugs.launchpad.net/cinder/+bug/1212206,2014-03-31
+1209367,1209367,Fix Released,volume is not deleted in cinder db,https://bugs.launchpad.net/cinder/+bug/1209367,2014-03-31
+1212286,1212286,Fix Released,"""mount.nfs is not installed"" is in error",https://bugs.launchpad.net/cinder/+bug/1212286,2014-03-31
+1218479,1218479,Fix Released,thinlvm driver fails to create the pool if the outer vg is rounded to the GB,https://bugs.launchpad.net/cinder/+bug/1218479,2014-03-31
+1221205,1221205,Fix Released,upload-to-image fails with the NetApp NFS backend,https://bugs.launchpad.net/cinder/+bug/1221205,2014-03-31
+1155121,1155121,Fix Released,DB tables not loaded with Cisco Plugin,https://bugs.launchpad.net/neutron/+bug/1155121,2014-03-31
+1155748,1155748,Fix Released,SubnetRoute changes don't propagete to dhcp agent,https://bugs.launchpad.net/neutron/+bug/1155748,2014-03-31
+1156782,1156782,Fix Released,LoadBalancerCallbacks.get_ready_devices() returns incorrect set of devices,https://bugs.launchpad.net/neutron/+bug/1156782,2014-03-31
+1156978,1156978,Fix Released,quantum l3_agent Failed synchronizing routers,https://bugs.launchpad.net/neutron/+bug/1156978,2014-03-31
+1157045,1157045,Fix Released,Exception when using database pooling,https://bugs.launchpad.net/neutron/+bug/1157045,2014-03-31
+1158146,1158146,Fix Released,Invalid setting of lock path,https://bugs.launchpad.net/neutron/+bug/1158146,2014-03-31
+1158468,1158468,Fix Released,Syntax error in XML Serializer,https://bugs.launchpad.net/neutron/+bug/1158468,2014-03-31
+1159616,1159616,Fix Released,"When running quantum with qpid rpc backend, the agent state report failed",https://bugs.launchpad.net/neutron/+bug/1159616,2014-03-31
+1160644,1160644,Fix Released,Quantum xml doesn't work with unicode,https://bugs.launchpad.net/neutron/+bug/1160644,2014-03-31
+1162626,1162626,Fix Released,lb-vip agent does not have a route to the gw,https://bugs.launchpad.net/neutron/+bug/1162626,2014-03-31
+1167916,1167916,Fix Released,ovs plugin generating the same endpoint number,https://bugs.launchpad.net/neutron/+bug/1167916,2014-03-31
+1184484,1184484,Fix Released,Quantum default settings will cause deadlocks due to overflow of sqlalchemy_pool,https://bugs.launchpad.net/neutron/+bug/1184484,2014-03-31
+1184484,1184484,Fix Released,Quantum default settings will cause deadlocks due to overflow of sqlalchemy_pool,https://bugs.launchpad.net/tripleo/+bug/1184484,2014-03-31
+1194438,1194438,Fix Released,compute node's OVS agent takes long time to scan sync all port's stat and update port security rules,https://bugs.launchpad.net/neutron/+bug/1194438,2014-03-31
+1197760,1197760,Fix Released,cannot create ICMP secgroup rule when icmp_type > icmp_code,https://bugs.launchpad.net/neutron/+bug/1197760,2014-03-31
+1197769,1197769,Fix Released,Cannot create ICMP secgroup rule with a specific type and any code,https://bugs.launchpad.net/neutron/+bug/1197769,2014-03-31
+1224583,1224583,Fix Released,Hyper-V agent does not report the correct exception when the network type is set to GRE,https://bugs.launchpad.net/neutron/+bug/1224583,2014-03-31
+1235106,1235106,Fix Released,nec-agent dies with RPC timeout in secgroup RPC,https://bugs.launchpad.net/neutron/+bug/1235106,2014-03-31
+1178675,1178675,Fix Released,Add negative test cases for subnet create/update for GW,https://bugs.launchpad.net/neutron/+bug/1178675,2014-03-31
+1179350,1179350,Fix Released,Invalid status code assertion after handle expected exception,https://bugs.launchpad.net/neutron/+bug/1179350,2014-03-31
+1179729,1179729,Fix Released,The quota of administrator doesn't work if quantum.db.quota_db.DbQuotaDriver.,https://bugs.launchpad.net/neutron/+bug/1179729,2014-03-31
+1179745,1179745,Fix Released,expensive policy check operation,https://bugs.launchpad.net/neutron/+bug/1179745,2014-03-31
+1181378,1181378,Fix Released,"dhcp-agent network namespace does not have a default route, can't use upstream dns",https://bugs.launchpad.net/neutron/+bug/1181378,2014-03-31
+1182602,1182602,Fix Released,Nicira plugin: gateway ports waste IP addresses,https://bugs.launchpad.net/neutron/+bug/1182602,2014-03-31
+1185885,1185885,Fix Released,Nicira plugin: return appropriate error when l3_gateway_service_uuid not configured,https://bugs.launchpad.net/neutron/+bug/1185885,2014-03-31

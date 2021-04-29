@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1799396,1799396,Fix Released,Image prepare doesn't work with images hosted on quay.io,https://bugs.launchpad.net/tripleo/+bug/1799396,2018-12-18
+1801162,1801162,Fix Released,output of group vars that are not string/ints may include python encoding,https://bugs.launchpad.net/tripleo/+bug/1801162,2018-12-18
+1802511,1802511,Fix Released,Error when tagging cinder-backup container for Pacemaker,https://bugs.launchpad.net/tripleo/+bug/1802511,2018-12-18
+1805109,1805109,Fix Released,TripleO-common contributing doc page points to non-existing bugs link,https://bugs.launchpad.net/tripleo/+bug/1805109,2018-12-18
+1805439,1805439,Fix Released,UpdateParametersAction is doing too much in case of errors,https://bugs.launchpad.net/tripleo/+bug/1805439,2018-12-18
+1801298,1801298,Fix Released,disable TRACE support for apache service,https://bugs.launchpad.net/tripleo/+bug/1801298,2018-12-18
+1783196,1783196,Fix Released,Add support for ODL IPv6 deployment,https://bugs.launchpad.net/tripleo/+bug/1783196,2018-12-18
+1802347,1802347,Fix Released,Need ability to configure cinder's settings for nova,https://bugs.launchpad.net/tripleo/+bug/1802347,2018-12-18
+1786409,1786409,Fix Released,Make vlan_transparent in neutron.conf configurable from Undercloud,https://bugs.launchpad.net/tripleo/+bug/1786409,2018-12-18
+1793020,1793020,Fix Released,roles/Standalone.yaml contains Ceph services but not CephOSD,https://bugs.launchpad.net/tripleo/+bug/1793020,2018-12-18
+1792968,1792968,Fix Released,Overcloud deployment with predictable IPs  fail. The Referenced Attribute (.*Port host_routes) is incorrect.,https://bugs.launchpad.net/tripleo/+bug/1792968,2018-12-18
+1776987,1776987,Fix Released,Wrong ceph auth client when disable telemetry,https://bugs.launchpad.net/tripleo/+bug/1776987,2018-12-18
+1781405,1781405,Fix Released,Metadata API is still using eventlet which will be deprecated in Rocky,https://bugs.launchpad.net/tripleo/+bug/1781405,2018-12-18
+1792926,1792926,Fix Released,After deploying overcloud with collectd support I see duplicate plugin files in the collectd container,https://bugs.launchpad.net/tripleo/+bug/1792926,2018-12-18
+1793598,1793598,Fix Released,validation scripts should ping default gateways before controllers,https://bugs.launchpad.net/tripleo/+bug/1793598,2018-12-18
+1795462,1795462,Fix Released,environment/ssl/enable-internal-tls.yaml is missing notify ssl variables,https://bugs.launchpad.net/tripleo/+bug/1795462,2018-12-18
+1795689,1795689,Fix Released,Long output from ceph-ansible seems to be able to break CLI,https://bugs.launchpad.net/tripleo/+bug/1795689,2018-12-18
+1794027,1794027,Fix Released,Consume ceph-ansible from container's host,https://bugs.launchpad.net/tripleo/+bug/1794027,2018-12-18
+1792527,1792527,Fix Released,Undercloud upgrade rocky -> master broken on ironic,https://bugs.launchpad.net/tripleo/+bug/1792527,2018-12-18
+1793833,1793833,Fix Released,The Parameter (ControlPlaneRoutes) was not provided,https://bugs.launchpad.net/tripleo/+bug/1793833,2018-12-18
+1795722,1795722,Fix Released,TLS is broken since containerized undercloud,https://bugs.launchpad.net/tripleo/+bug/1795722,2018-12-18
+1793838,1793838,Fix Released,bond-with-vlans - concatenate routes is nested in a list - invalid configuration,https://bugs.launchpad.net/tripleo/+bug/1793838,2018-12-18
+1795881,1795881,Fix Released,Images not being downloaded during overcloud update/upgrade,https://bugs.launchpad.net/tripleo/+bug/1795881,2018-12-18
+1797117,1797117,Fix Released,ceph-ansible inventory generation references undefined variable:  'dict object' has no attribute 'ansible_hostname',https://bugs.launchpad.net/tripleo/+bug/1797117,2018-12-18
+1796924,1796924,Fix Released,docker-puppet* containers get re-created on existing nodes when re-running overcloud deploy with --skip-deploy-identifier option,https://bugs.launchpad.net/tripleo/+bug/1796924,2018-12-18
+1796933,1796933,Fix Released,nova scheduler is now multiprocess so it needs to be configurable,https://bugs.launchpad.net/tripleo/+bug/1796933,2018-12-18
+1797167,1797167,Fix Released,swift timeout during undercloud deploy,https://bugs.launchpad.net/tripleo/+bug/1797167,2018-12-18
+1791771,1791771,Fix Released,Missing tar command when creating default deployment plan,https://bugs.launchpad.net/tripleo/+bug/1791771,2018-12-18
+1796934,1796934,Fix Released,Octavia log file directories may not get correct permissions with composable roles,https://bugs.launchpad.net/tripleo/+bug/1796934,2018-12-18
+1794073,1794073,Fix Released,Add provisio to specify java arguments to ODL,https://bugs.launchpad.net/tripleo/+bug/1794073,2018-12-18
+1793332,1793332,Fix Released,Online data migrations should be separated from the main upgrade phase,https://bugs.launchpad.net/tripleo/+bug/1793332,2018-12-18
+1798670,1798670,Fix Released,ControllerOpenstack role is missing the OS::TripleO::Services::ContainerImagePrepare service,https://bugs.launchpad.net/tripleo/+bug/1798670,2018-12-18
+1581092,1581092,Fix Released,Test volume is not available after reboot,https://bugs.launchpad.net/tripleo/+bug/1581092,2018-12-18
+1797119,1797119,Fix Released,use nova_api DB for [placement_database] -> connection setting instead of separate DB,https://bugs.launchpad.net/tripleo/+bug/1797119,2018-12-18
+1793566,1793566,Fix Released,ODL log issues with tripleO logrotate_crond,https://bugs.launchpad.net/tripleo/+bug/1793566,2018-12-18
+1798560,1798560,Fix Released,os_region_name settings deprecation broke IHA,https://bugs.launchpad.net/tripleo/+bug/1798560,2018-12-18
+1798044,1798044,Fix Released,Blacklisted stack update fails due to malformed ceph-ansible inventory,https://bugs.launchpad.net/tripleo/+bug/1798044,2018-12-18
+1799395,1799395,Fix Released,Stack deployment with ODL fails when it is redeployed without deleting the previous deployment,https://bugs.launchpad.net/tripleo/+bug/1799395,2018-12-18
+1786952,1786952,Fix Released,Unnecessary RPC workers consume a lot of CPU resources in OVN setups,https://bugs.launchpad.net/tripleo/+bug/1786952,2018-12-18
+1800001,1800001,Fix Released,python-gnocchiclient is not installed on undercloud therefor CLI commands for metrics can not be run,https://bugs.launchpad.net/tripleo/+bug/1800001,2018-12-18
+1798590,1798590,Fix Released,No default plan is created during the deployment of a containerized undercloud,https://bugs.launchpad.net/tripleo/+bug/1798590,2018-12-18
+1799352,1799352,Fix Released,Vendordata plugins are not functional,https://bugs.launchpad.net/puppet-nova/+bug/1799352,2018-12-18
+1797128,1797128,Fix Released,OpenDaylight OVSDB inactivity probe needs to default to 180s,https://bugs.launchpad.net/tripleo/+bug/1797128,2018-12-18
+1802323,1802323,Fix Released,OpenShift nodes are always detected as new,https://bugs.launchpad.net/tripleo/+bug/1802323,2018-12-18
+1803986,1803986,Fix Released,Dry run fails to ensure that we create a new fetch_directory or use the old fetch_directory,https://bugs.launchpad.net/tripleo/+bug/1803986,2018-12-18
+1803154,1803154,Fix Released,"Upgrade fail during ""remove old OpenvSwitch package""",https://bugs.launchpad.net/tripleo/+bug/1803154,2018-12-18
+1808295,1808295,Fix Released,Exception thrown when running df-db with Python3,https://bugs.launchpad.net/dragonflow/+bug/1808295,2018-12-18
+1809026,1809026,Fix Released,tripleo-repos rpm can't be installed on centos 7,https://bugs.launchpad.net/tripleo/+bug/1809026,2018-12-18
+1806938,1806938,Fix Released,RabbitMQ Upgrade does not work during upgrade from Q->R,https://bugs.launchpad.net/openstack-ansible/+bug/1806938,2018-12-18
+1714017,1714017,Fix Released,User guide was not migrated to the nova repo,https://bugs.launchpad.net/heat/+bug/1714017,2018-12-18
+1795880,1795880,Fix Released,NetApp CDOT NFS copy offload tools fails with hostname,https://bugs.launchpad.net/cinder/+bug/1795880,2018-12-18
+1808940,1808940,Fix Released,Update quota test should be add when quota not found,https://bugs.launchpad.net/mogan/+bug/1808940,2018-12-18
+1808933,1808933,Fix Released,Miss test for save aggregate metadata,https://bugs.launchpad.net/mogan/+bug/1808933,2018-12-18
+1808921,1808921,Fix Released,Miss test for api app,https://bugs.launchpad.net/mogan/+bug/1808921,2018-12-18
+1808952,1808952,Fix Released,Miss server nic tests,https://bugs.launchpad.net/mogan/+bug/1808952,2018-12-18
+1808962,1808962,Fix Released,Miss call test in rpc test case,https://bugs.launchpad.net/mogan/+bug/1808962,2018-12-18
+1808388,1808388,Fix Committed,create_ovs_vif_port does not exist,https://bugs.launchpad.net/nova-lxd/+bug/1808388,2018-12-18
+1808936,1808936,Fix Released,Server_group related db unit tests are not rich enough,https://bugs.launchpad.net/mogan/+bug/1808936,2018-12-18
+1808918,1808918,Fix Released,there is no test for get_one() when the input uuid is wrong,https://bugs.launchpad.net/mogan/+bug/1808918,2018-12-18
+1808922,1808922,Fix Released,unit.db.test_servers.DbServerTestCase does not contain a test about updating a not exist server.,https://bugs.launchpad.net/mogan/+bug/1808922,2018-12-18
+1808914,1808914,Fix Released,No unittest of api about trying to get a not exist flavor,https://bugs.launchpad.net/mogan/+bug/1808914,2018-12-18
+1808900,1808900,Fix Released,Mogan project CI error,https://bugs.launchpad.net/mogan/+bug/1808900,2018-12-18
+1695273,1695273,Fix Released,Subrequests from ratelimit for /auth/v1.0 considered as proxy-server errors,https://bugs.launchpad.net/swift/+bug/1695273,2018-12-17
+1759606,1759606,Fix Released,Swift hard-coded socket.TCP_KEEPIDLE = 600 and that might cause some odd behavior for users,https://bugs.launchpad.net/swift/+bug/1759606,2018-12-17
+1674842,1674842,Fix Released,Swift3 should report a clear an unambiguous error on region mismatch for v4 signatures,https://bugs.launchpad.net/swift/+bug/1674842,2018-12-17
+1671180,1671180,Fix Released,Multiple EC policies can cause reconstructor to get wrong remote suffixes,https://bugs.launchpad.net/swift/+bug/1671180,2018-12-17
+1806596,1806596,Fix Released,Object Storage API in Object Storage API Reference,https://bugs.launchpad.net/swift/+bug/1806596,2018-12-17
+1787334,1787334,Fix Released,OCP-Router -  Devstack deployment failed on floating IP creation,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1787334,2018-12-17
+1787918,1787918,Fix Released,release_vif() signature does not match base class,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1787918,2018-12-17
+1787951,1787951,Fix Released,Race between vif hander on_delete function and kubernetes deleting the namespace object,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1787951,2018-12-17
+1787883,1787883,Fix Released,OCP-Router : Ingress controller fails on listener creation,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1787883,2018-12-17
+1789632,1789632,Fix Released,Verify_keystone_connection requires admin endpoint,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1789632,2018-12-17
+1787595,1787595,Fix Released,Port pools troublesome with kuryr-controller HA,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1787595,2018-12-17
+1791266,1791266,Fix Released,generate_k8s_resource_definitions generates incorrect cni_ds.yaml,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1791266,2018-12-17
+1790912,1790912,Fix Released,Watcher cannot be started after start-stop sequence,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1790912,2018-12-17

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1521620,1521620,Fix Released,Neutron-lbaas gate broken due to pep8,https://bugs.launchpad.net/neutron/+bug/1521620,2015-12-07
+1497471,1497471,Fix Released,LBaaS V2 api tests too slow with octavia,https://bugs.launchpad.net/neutron/+bug/1497471,2015-12-07
+1498532,1498532,Fix Released,[LBaaS v2] API tests performance needs to be improved,https://bugs.launchpad.net/neutron/+bug/1498532,2015-12-07
+1505932,1505932,Fix Released,neutron_lbaas.tests.tempest.v2.api.test_health_monitors_non_admin.TestHealthMonitors fails to create a load balancer,https://bugs.launchpad.net/neutron/+bug/1505932,2015-12-07
+1498173,1498173,Fix Released,LBaaSv2 reports timeout waiting for ACTIVE on delete operation,https://bugs.launchpad.net/neutron/+bug/1498173,2015-12-07
+1507314,1507314,Fix Released,device_driver default in LBaaS needs adjustment,https://bugs.launchpad.net/neutron/+bug/1507314,2015-12-07
+1514473,1514473,Fix Released,LBaaS v2 TLS configuration bugs,https://bugs.launchpad.net/neutron/+bug/1514473,2015-12-07
+1487599,1487599,Fix Released,fwaas - ip_version and IP address conflicts are not raised,https://bugs.launchpad.net/neutron/+bug/1487599,2015-12-07
+1502932,1502932,Fix Released,iptables bare jump rule is not getting comments put in the right spot,https://bugs.launchpad.net/neutron/+bug/1502932,2015-12-07
+1497980,1497980,Fix Released,DB Exception during rescheduling,https://bugs.launchpad.net/neutron/+bug/1497980,2015-12-07
+1505282,1505282,Fix Released,L3 agent: explicit call to resync on init may lead to double syncing,https://bugs.launchpad.net/neutron/+bug/1505282,2015-12-07
+1505557,1505557,Fix Released,L3 agent not always properly update floatingip status on server,https://bugs.launchpad.net/neutron/+bug/1505557,2015-12-07
+1501451,1501451,Fix Released,Inconsistency in dhcp-agent when filling hosts and opts files,https://bugs.launchpad.net/neutron/+bug/1501451,2015-12-07
+1502901,1502901,Fix Released,allowed address pair rule never matches iptables counter because of MAC address format,https://bugs.launchpad.net/neutron/+bug/1502901,2015-12-07
+1502917,1502917,Fix Released,"iptables rule generation doesn't match prefixes of /0, /32 and /128  correctly",https://bugs.launchpad.net/neutron/+bug/1502917,2015-12-07
+1504165,1504165,Fix Released,SR-IOV: The Action Detach port/network from Qos-Policy is not working,https://bugs.launchpad.net/neutron/+bug/1504165,2015-12-07
+1505043,1505043,Fix Released,Spelling error of a word,https://bugs.launchpad.net/neutron/+bug/1505043,2015-12-07
+1499821,1499821,Fix Released,ovs_lib.OVSBridge.get_ports_attributes returns all ports in case there's no ports on the OVSBridge in question,https://bugs.launchpad.net/neutron/+bug/1499821,2015-12-07
+1505700,1505700,Fix Released,Floating IPs disassociation does not remove conntrack state with HA routers,https://bugs.launchpad.net/neutron/+bug/1505700,2015-12-07
+1507684,1507684,Fix Released,Unable to establish tunnel across hypervisor,https://bugs.launchpad.net/neutron/+bug/1507684,2015-12-07
+1507078,1507078,Fix Released,arping for floating IPs fail on newer kernels,https://bugs.launchpad.net/neutron/+bug/1507078,2015-12-07
+1508205,1508205,Fix Released,L2pop connectivity broken to nodes with L3/metadata/dhcp/non-L2 agents,https://bugs.launchpad.net/neutron/+bug/1508205,2015-12-07
+1497969,1497969,Fix Released,L2 Agent doesn't expose loaded extenstions,https://bugs.launchpad.net/neutron/+bug/1497969,2015-12-07
+1507776,1507776,Fix Released,Wrong OVS flows created for new networks,https://bugs.launchpad.net/neutron/+bug/1507776,2015-12-07
+1501969,1501969,Fix Released,No dhcp IPv6 assigned (slaac/slaac) with interface-add after VM boot,https://bugs.launchpad.net/neutron/+bug/1501969,2015-12-07
+1505346,1505346,Fix Released,Downgrade of DVR to legacy router returns wrong HTTP error code,https://bugs.launchpad.net/neutron/+bug/1505346,2015-12-07
+1502906,1502906,Fix Released,fallback accept rule in iptables is added after every port,https://bugs.launchpad.net/neutron/+bug/1502906,2015-12-07
+1499488,1499488,Fix Released,Race condition puts ovs agent in resync,https://bugs.launchpad.net/neutron/+bug/1499488,2015-12-07
+1510399,1510399,Fix Released,Error when metadata proxy is disabled for ha l3 agent,https://bugs.launchpad.net/neutron/+bug/1510399,2015-12-07
+1508789,1508789,Fix Released,"Linux bridge agent ""get_bridge_for_tap_device"" can be optimized",https://bugs.launchpad.net/neutron/+bug/1508789,2015-12-07
+1503852,1503852,Fix Released,Do not use SQL IN on empty sequence,https://bugs.launchpad.net/neutron/+bug/1503852,2015-12-07
+1510653,1510653,Fix Released,delete_subnet is not called in IPAM driver on subnet deallocation if ML2 plugin is used,https://bugs.launchpad.net/neutron/+bug/1510653,2015-12-07
+1505832,1505832,Fix Released,when you use icpmv6 as protocol it should use IPV6 ethertype by default but it shows IPV4,https://bugs.launchpad.net/neutron/+bug/1505832,2015-12-07
+1517815,1517815,Fix Released,"List rbac request didn't process ""fields""",https://bugs.launchpad.net/neutron/+bug/1517815,2015-12-07
+1518632,1518632,Fix Released,API tests skipped at the gate,https://bugs.launchpad.net/neutron/+bug/1518632,2015-12-07
+1520013,1520013,Fix Released,OVS unnecessarily drops rule on setup_arp_protection,https://bugs.launchpad.net/neutron/+bug/1520013,2015-12-07
+1425402,1425402,Fix Released,race condition when dhcp agent uses reserved port,https://bugs.launchpad.net/neutron/+bug/1425402,2015-12-07
+1452458,1452458,Fix Released,"Server returns error 500 when setting a DVR router as a gateway on a network with no subnet, and then adding an interface",https://bugs.launchpad.net/neutron/+bug/1452458,2015-12-07
+1447193,1447193,Fix Released,Glance client fails with v2 API / Failed validating 'Type' in schema[u'properties'][u'ramdisk_id'],https://bugs.launchpad.net/python-glanceclient/+bug/1447193,2015-12-07
+1508709,1508709,Fix Released,no way to enable meter_links on resource list via CLI,https://bugs.launchpad.net/python-ceilometerclient/+bug/1508709,2015-12-07
+1499601,1499601,Fix Released,Cached file is deleted if same exact modification time,https://bugs.launchpad.net/ironic/+bug/1499601,2015-12-07
+1498113,1498113,Fix Released,Ironic genconfig does not appear to be idempotent across users.,https://bugs.launchpad.net/ironic/+bug/1498113,2015-12-07
+1488289,1488289,Fix Released,Ironic fails to deploy instance with pxe_ipmitool driver on system with Japanese locale,https://bugs.launchpad.net/ironic/+bug/1488289,2015-12-07
+1488289,1488289,Fix Released,Ironic fails to deploy instance with pxe_ipmitool driver on system with Japanese locale,https://bugs.launchpad.net/ironic-lib/+bug/1488289,2015-12-07
+1501119,1501119,Fix Released,pep8 tests will report warning about bash command not installed,https://bugs.launchpad.net/ironic/+bug/1501119,2015-12-07
+1501415,1501415,Fix Released,tox py34 tests failing locally when LANG=C,https://bugs.launchpad.net/ironic/+bug/1501415,2015-12-07
+1501415,1501415,Fix Released,tox py34 tests failing locally when LANG=C,https://bugs.launchpad.net/os-testr/+bug/1501415,2015-12-07
+1496017,1496017,Fix Released,Attribute error if AMQP server is unreachable when conductor is starting,https://bugs.launchpad.net/ironic/+bug/1496017,2015-12-07
+1499489,1499489,Fix Released,AMT is not supported with Ironic-Python-Agent,https://bugs.launchpad.net/ironic/+bug/1499489,2015-12-07
+1505080,1505080,Fix Released,format_message() function should be deleted or deprecated,https://bugs.launchpad.net/ironic/+bug/1505080,2015-12-07
+1504012,1504012,Fix Released,iLO drivers logs exception when temp swift object delete fails,https://bugs.launchpad.net/ironic/+bug/1504012,2015-12-07
+1489172,1489172,Fix Released,GET / endpoint doesn't provide versioning information,https://bugs.launchpad.net/ironic/+bug/1489172,2015-12-07
+1506860,1506860,Fix Released,Delay between off/on is needed for external power controllers,https://bugs.launchpad.net/ironic/+bug/1506860,2015-12-07
+1329077,1329077,Fix Released,Ironic tests unable to run on Macs,https://bugs.launchpad.net/ironic/+bug/1329077,2015-12-07
+1506657,1506657,Fix Released,Ironic conductor Hash ring reset  needs to be independent of sync_local_state periodic task,https://bugs.launchpad.net/ironic/+bug/1506657,2015-12-07
+1513845,1513845,Fix Released,Seamicro terminal port should be checked as long as it specified,https://bugs.launchpad.net/ironic/+bug/1513845,2015-12-07
+1513858,1513858,Fix Released,Can't catch exception when shellinaboxd failed in _set_console_mode,https://bugs.launchpad.net/ironic/+bug/1513858,2015-12-07
+1514653,1514653,Fix Released,Console validate will succeed even if specify the port out the valid range,https://bugs.launchpad.net/ironic/+bug/1514653,2015-12-07
+1508413,1508413,Fix Released,sync_power_state failure not setting the right cause in the last_error field,https://bugs.launchpad.net/ironic/+bug/1508413,2015-12-07
+1515283,1515283,Fix Released,fix docker service name,https://bugs.launchpad.net/ironic/+bug/1515283,2015-12-07
+1514955,1514955,Fix Released,Installation Guide lacks whole disk user image creation command,https://bugs.launchpad.net/ironic/+bug/1514955,2015-12-07
+1513690,1513690,Fix Released,Got exception during stopping console if shellinabox already exited,https://bugs.launchpad.net/ironic/+bug/1513690,2015-12-07
+1515908,1515908,Fix Released,Default log level setup is broken for oslo.messaging,https://bugs.launchpad.net/ironic/+bug/1515908,2015-12-07
+1284781,1284781,Fix Released,JsonPatchType duplicates functionality of WSME readonly & mandatory attributes,https://bugs.launchpad.net/ironic/+bug/1284781,2015-12-07
+1516897,1516897,Fix Released,Starting shellinabox console may fail silently if there's an error occured,https://bugs.launchpad.net/ironic/+bug/1516897,2015-12-07
+1519725,1519725,Fix Released,There is no support for taking over console session,https://bugs.launchpad.net/ironic/+bug/1519725,2015-12-07
+1519774,1519774,Fix Released,Deploying with iscsi_ilo or agent_ilo driver fails while trying to upload floppy image to swift,https://bugs.launchpad.net/ironic/+bug/1519774,2015-12-07
+1502895,1502895,Fix Released,Rolling upgrades: backward incompatible changes in versioned objects,https://bugs.launchpad.net/ironic/+bug/1502895,2015-12-07
+1517277,1517277,Fix Released,Clean steps don't actually run (CVE-2015-7514),https://bugs.launchpad.net/ironic/+bug/1517277,2015-12-07
+1418916,1418916,Fix Released,"Env description isn't required in the definition, but user sees warning message if it's absent",https://bugs.launchpad.net/mistral/+bug/1418916,2015-12-07
+1496685,1496685,Fix Released,task stuck in RUNNING if YAQL expression failed in publish,https://bugs.launchpad.net/mistral/+bug/1496685,2015-12-07
+1503915,1503915,Fix Released,mistralclient does not work without auth,https://bugs.launchpad.net/mistral/+bug/1503915,2015-12-07
+1520562,1520562,Fix Released,Neutron L3 section can be splitted into subsections,https://bugs.launchpad.net/fuel/+bug/1520562,2015-12-07
+1521507,1521507,Fix Released,IP validation errors are not visible in most cases,https://bugs.launchpad.net/fuel/+bug/1521507,2015-12-07
+1505570,1505570,Fix Released,[ui] Incorrect titles of modal forms,https://bugs.launchpad.net/mistral/+bug/1505570,2015-12-07

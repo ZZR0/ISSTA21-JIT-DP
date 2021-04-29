@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1552446,1552446,Fix Released,terminate Ironic instance update resources for all nodes,https://bugs.launchpad.net/ironic/+bug/1552446,2016-06-22
+1572651,1572651,Fix Released,"Naming a node ""detail"" confuses Ironic",https://bugs.launchpad.net/ironic/+bug/1572651,2016-06-22
+1572511,1572511,Fix Released,[RFE] RAID interface to support JBOD volumes,https://bugs.launchpad.net/ironic/+bug/1572511,2016-06-22
+1579635,1579635,Fix Released,RAID is not supported in iscsi_ilo drivers,https://bugs.launchpad.net/ironic/+bug/1579635,2016-06-22
+1567013,1567013,Fix Released,IRONIC_RAMDISK_TYPE check in the destack plugin breaks iLO CI,https://bugs.launchpad.net/ironic/+bug/1567013,2016-06-22
+1568811,1568811,Fix Released,"erase_devices_iterations controls the number of random passes, not total passes",https://bugs.launchpad.net/ironic/+bug/1568811,2016-06-22
+1481665,1481665,Fix Released,Exclusive locking should be optional in vendor passthru,https://bugs.launchpad.net/ironic/+bug/1481665,2016-06-22
+1581644,1581644,Fix Released,Ironic releasenotes are misformatted,https://bugs.launchpad.net/ironic/+bug/1581644,2016-06-22
+1581909,1581909,Fix Released,missing ']' error in devstack create-node script,https://bugs.launchpad.net/ironic/+bug/1581909,2016-06-22
+1582211,1582211,Fix Released,Doc: stop using nova image-list command,https://bugs.launchpad.net/ironic/+bug/1582211,2016-06-22
+1510797,1510797,Fix Released,ironic devstack plugin should support building dib based agent ramdisk,https://bugs.launchpad.net/ironic/+bug/1510797,2016-06-22
+1581778,1581778,Fix Released,Warning in api-ref tox environment,https://bugs.launchpad.net/ironic/+bug/1581778,2016-06-22
+1581778,1581778,Fix Released,Warning in api-ref tox environment,https://bugs.launchpad.net/cinder/+bug/1581778,2016-06-22
+1582564,1582564,Fix Released,DevStack plugin: console device is hardcoded to ttyS0,https://bugs.launchpad.net/ironic/+bug/1582564,2016-06-22
+1583721,1583721,Fix Released,"""tox -eapi-ref"" fails on python 3.5",https://bugs.launchpad.net/ironic/+bug/1583721,2016-06-22
+1561624,1561624,Fix Released,Please make vbox pxe_ssh driver 'headless' so it doesn't require a display,https://bugs.launchpad.net/ironic/+bug/1561624,2016-06-22
+1564195,1564195,Fix Released,[RFE]Adopt oslo-config-generator,https://bugs.launchpad.net/ironic/+bug/1564195,2016-06-22
+1585731,1585731,Fix Released,Wrong default is used for ISCSI portal port number in get_deploy_info,https://bugs.launchpad.net/ironic/+bug/1585731,2016-06-22
+1586157,1586157,Fix Released,RAID documentation JSON is not usable in current form,https://bugs.launchpad.net/ironic/+bug/1586157,2016-06-22
+1536695,1536695,Fix Released,Node cleaning fails if the _ata_erase fails,https://bugs.launchpad.net/ironic-python-agent/+bug/1536695,2016-06-22
+1584005,1584005,Fix Released,start_iscsi_target fails on  Mitaka-era IPA ramdisk with master ironic,https://bugs.launchpad.net/ironic/+bug/1584005,2016-06-22
+1589627,1589627,Fix Released,Documentation error on raid configuration,https://bugs.launchpad.net/ironic/+bug/1589627,2016-06-22
+1546371,1546371,Fix Released,Can change portgroup-node association when I should not,https://bugs.launchpad.net/ironic/+bug/1546371,2016-06-22
+1590146,1590146,Fix Released,A timed out cleaning cannot be retried successfully,https://bugs.launchpad.net/ironic/+bug/1590146,2016-06-22
+1592852,1592852,Fix Released,test_cleanup_cleanwait_timeout AttributeError: assert_called_once,https://bugs.launchpad.net/ironic/+bug/1592852,2016-06-22
+1588669,1588669,Fix Released,Should use neutron vif_port_id instead of vif_portgroup_id,https://bugs.launchpad.net/ironic/+bug/1588669,2016-06-22
+1510007,1510007,Fix Released,Use assertIn and assertNotIn,https://bugs.launchpad.net/ironic/+bug/1510007,2016-06-22
+1510007,1510007,Fix Released,Use assertIn and assertNotIn,https://bugs.launchpad.net/designate/+bug/1510007,2016-06-22
+1510007,1510007,Fix Released,Use assertIn and assertNotIn,https://bugs.launchpad.net/ironic-python-agent/+bug/1510007,2016-06-22
+1510007,1510007,Fix Released,Use assertIn and assertNotIn,https://bugs.launchpad.net/magnum/+bug/1510007,2016-06-22
+1561407,1561407,Fix Released,Add a trigger to switch to the granular deployment engine mode,https://bugs.launchpad.net/fuel/+bug/1561407,2016-06-22
+1559383,1559383,Fix Released,IPA post jobs appear to be failing,https://bugs.launchpad.net/ironic/+bug/1559383,2016-06-22
+1506409,1506409,Fix Released,Unhelpful logging of the command result,https://bugs.launchpad.net/ironic-python-agent/+bug/1506409,2016-06-22
+1525898,1525898,Fix Released,Name or service not known when doing the initial lookup,https://bugs.launchpad.net/ironic-python-agent/+bug/1525898,2016-06-22
+1564954,1564954,Fix Released,Inspection should wait for IP addresses to appear on nodes,https://bugs.launchpad.net/ironic-python-agent/+bug/1564954,2016-06-22
+1567981,1567981,Fix Released,Tinyipa post job is missing squashfs-tools,https://bugs.launchpad.net/ironic-python-agent/+bug/1567981,2016-06-22
+1569835,1569835,Fix Released,"Building coreos image failed, broken packages qemu-utils from jessie testing",https://bugs.launchpad.net/ironic-python-agent/+bug/1569835,2016-06-22
+1570090,1570090,Fix Released,IPA CoreOS ramdisk build fails with apt error installing qemu-utils,https://bugs.launchpad.net/ironic/+bug/1570090,2016-06-22
+1578778,1578778,Fix Released,Unable to build tinyipa behind a proxy server,https://bugs.launchpad.net/ironic-python-agent/+bug/1578778,2016-06-22
+1581699,1581699,Fix Released,copy_configdrive_to_disk.sh fails if there are more than 10 partitions,https://bugs.launchpad.net/ironic-python-agent/+bug/1581699,2016-06-22
+1588325,1588325,Fix Released,lldp-timeout kernel parameter is missing ipa- prefix,https://bugs.launchpad.net/ironic-python-agent/+bug/1588325,2016-06-22
+1590912,1590912,Fix Released,TinyIPA build uses unspecified tgt and qemu versions on Git < 1.7.10,https://bugs.launchpad.net/ironic-python-agent/+bug/1590912,2016-06-22
+1562786,1562786,Fix Released,Exceptions raised during node look up on the conductor side pollute the log,https://bugs.launchpad.net/ironic-python-agent/+bug/1562786,2016-06-22
+1556084,1556084,Fix Released,Inherit file's permissions in apache puppet module,https://bugs.launchpad.net/fuel/+bug/1556084,2016-06-22
+1595072,1595072,Fix Released,[master-pkg-pipeline-centos] Jenkins job is broken,https://bugs.launchpad.net/fuel/+bug/1595072,2016-06-22
+1547808,1547808,Fix Released,Partitions minimum size online help,https://bugs.launchpad.net/fuel/+bug/1547808,2016-06-22
+1593142,1593142,Fix Committed,l23networking can't create tagged subinterface on the bridge,https://bugs.launchpad.net/fuel/+bug/1593142,2016-06-22
+1543533,1543533,Fix Released,Fuel-library noop tests check deprecated manifests for master node,https://bugs.launchpad.net/fuel/+bug/1543533,2016-06-22
+1527517,1527517,Fix Released,keystone-heat and keystone-swift doesn't handle configure_user params,https://bugs.launchpad.net/fuel/+bug/1527517,2016-06-22
+1551320,1551320,Fix Released,LMA alerting plugin fails to deploy because vip_namespace/vip_name is too long,https://bugs.launchpad.net/fuel/+bug/1551320,2016-06-22
+1538577,1538577,Fix Released,Cannot start OSTF tests on failed environment,https://bugs.launchpad.net/fuel/+bug/1538577,2016-06-22
+1479112,1479112,Fix Released,Adding NFS support to the GPFS Driver,https://bugs.launchpad.net/openstack-manuals/+bug/1479112,2016-06-22
+1542196,1542196,Fix Released,Misleading provision task message,https://bugs.launchpad.net/fuel/+bug/1542196,2016-06-22
+1482339,1482339,Fix Released,[api-ref] data processing scaling operation method is incorrect,https://bugs.launchpad.net/openstack-manuals/+bug/1482339,2016-06-22
+1583744,1583744,Fix Released,Security role docs need updates for Xenial/CentOS,https://bugs.launchpad.net/openstack-ansible/+bug/1583744,2016-06-22
+1588935,1588935,Fix Released,ML2 driver does not support enable_security_group configuration,https://bugs.launchpad.net/networking-ovn/+bug/1588935,2016-06-22
+1488292,1488292,Fix Released,Rework doc/source/index.rst as landing point for all heat docs,https://bugs.launchpad.net/heat/+bug/1488292,2016-06-22
+1588263,1588263,Fix Released,[stable/mitaka] [stable/liberty] test_get_delete_*_flow fail with MismatchError,https://bugs.launchpad.net/octavia/+bug/1588263,2016-06-22
+1411480,1411480,Fix Released,"remain ""BUILD"" status when instance with force-host failed to create",https://bugs.launchpad.net/nova/+bug/1411480,2016-06-22
+1333498,1333498,Fix Released,table nova.pci_devices  lost device status every time. && PciDeviceList.get_by_compute_node pass a wrong parameter,https://bugs.launchpad.net/nova/+bug/1333498,2016-06-22
+1586249,1586249,Fix Released,a depth in `get topology show` API can only be used if there is a root,https://bugs.launchpad.net/vitrage/+bug/1586249,2016-06-21
+1435610,1435610,Fix Committed,Fault Tolerance is broken in Task-based Deployment,https://bugs.launchpad.net/fuel/+bug/1435610,2016-06-21
+1563308,1563308,Fix Released,Nailgun LCM task serializer does node resolving prior to final serializtion of cluster attributes,https://bugs.launchpad.net/fuel/+bug/1563308,2016-06-21
+1547590,1547590,Fix Released,"Could not set ""conflicts"" parameter to everyone at node_roles.yaml",https://bugs.launchpad.net/fuel/+bug/1547590,2016-06-21
+1540441,1540441,Fix Released,httplib.InvalidURL error if snapshot task ended with error,https://bugs.launchpad.net/fuel/+bug/1540441,2016-06-21
+1594834,1594834,Fix Released,stop using neutron/i18n.py in networking-ovs-dpdk,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1594834,2016-06-21
+1541028,1541028,Fix Released,l23network modprobes bonding even if install_bondtool false,https://bugs.launchpad.net/fuel/+bug/1541028,2016-06-21
+1557235,1557235,Fix Released,Warnings and errors when generating docs,https://bugs.launchpad.net/python-glanceclient/+bug/1557235,2016-06-21
+1536430,1536430,Fix Released,Help text not displayed without a running glance server,https://bugs.launchpad.net/python-glanceclient/+bug/1536430,2016-06-21
+1563495,1563495,Fix Released,Token refresh workaround fails for Glance,https://bugs.launchpad.net/congress/+bug/1563495,2016-06-21
+1563495,1563495,Fix Released,Token refresh workaround fails for Glance,https://bugs.launchpad.net/python-glanceclient/+bug/1563495,2016-06-21
+1563649,1563649,Fix Released,want help info default v2,https://bugs.launchpad.net/python-glanceclient/+bug/1563649,2016-06-21
+1552533,1552533,Fix Released,AttributeError: 'SessionClient' object has no attribute 'last_request_id',https://bugs.launchpad.net/python-glanceclient/+bug/1552533,2016-06-21
+1573049,1573049,Fix Released,documentation glanceclient images list v1,https://bugs.launchpad.net/python-glanceclient/+bug/1573049,2016-06-21
+1584123,1584123,Fix Released,Please install ruby gem FPM  on plugin slave in product-ci.,https://bugs.launchpad.net/fuel/+bug/1584123,2016-06-21

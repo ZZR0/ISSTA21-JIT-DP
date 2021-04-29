@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1135221,1135221,Fix Released,Copy image to volume sometimes fails for EMC driver.,https://bugs.launchpad.net/cinder/+bug/1135221,2013-04-04
+1133131,1133131,Fix Released,Incomplete logging for cinder operation,https://bugs.launchpad.net/cinder/+bug/1133131,2013-04-04
+1154700,1154700,Fix Released,3PAR drivers hide existing host error.,https://bugs.launchpad.net/cinder/+bug/1154700,2013-04-04
+1136174,1136174,Fix Released,cinder-backup doesn't use/check metadata version during restore,https://bugs.launchpad.net/cinder/+bug/1136174,2013-04-04
+1132791,1132791,Fix Released,cinder-backup doesn't set a useful fail_reason on backup record when swift is unavailable,https://bugs.launchpad.net/cinder/+bug/1132791,2013-04-04
+1132788,1132788,Fix Released,"cinder-backup doesn't log at info level for backup, restore and delete operations",https://bugs.launchpad.net/cinder/+bug/1132788,2013-04-04
+1131553,1131553,Fix Released,SolidFire driver hasn't been updated to use self.configuration,https://bugs.launchpad.net/cinder/+bug/1131553,2013-04-04
+1131346,1131346,Fix Released,3PAR driver's don't work in multi-backend mode,https://bugs.launchpad.net/cinder/+bug/1131346,2013-04-04
+1131291,1131291,Fix Released,XenAPINFS: Volume always uploaded as vhd/ovf,https://bugs.launchpad.net/cinder/+bug/1131291,2013-04-04
+1062508,1062508,Fix Released,Devstack Folsom: attaching volume in HpSanISCSIDriver failed with CliqObjectNotFound,https://bugs.launchpad.net/cinder/+bug/1062508,2013-04-04
+1131011,1131011,Fix Released,cinder capabilities filter fails in naive set up,https://bugs.launchpad.net/cinder/+bug/1131011,2013-04-04
+1130844,1130844,Fix Released,better error handling for hpsan volume_delete,https://bugs.launchpad.net/cinder/+bug/1130844,2013-04-04
+1130744,1130744,Fix Released,HpSan - CLIQ Hangs on delete for non existent volume,https://bugs.launchpad.net/cinder/+bug/1130744,2013-04-04
+1130706,1130706,Fix Released,XenAPINFS: custom image types are not supported,https://bugs.launchpad.net/cinder/+bug/1130706,2013-04-04
+1130266,1130266,Fix Released,cinder-volume-usage-audit is borken,https://bugs.launchpad.net/cinder/+bug/1130266,2013-04-04
+1130129,1130129,Fix Released,cinder tests fail.,https://bugs.launchpad.net/cinder/+bug/1130129,2013-04-04
+1129199,1129199,Fix Released,create volume from image fails,https://bugs.launchpad.net/cinder/+bug/1129199,2013-04-04
+1129056,1129056,Fix Released,XenAPINFS: Capacity is not reported,https://bugs.launchpad.net/cinder/+bug/1129056,2013-04-04
+1112485,1112485,Fix Released,create_cloned_volume calls non-existant method '_sizestr',https://bugs.launchpad.net/cinder/+bug/1112485,2013-04-04
+1112484,1112484,Fix Released,can't run tests!,https://bugs.launchpad.net/cinder/+bug/1112484,2013-04-04
+1111308,1111308,Fix Released,create volume from image API level constraints,https://bugs.launchpad.net/cinder/+bug/1111308,2013-04-04
+1110987,1110987,Fix Released,Object inequality evaluation syntax nits,https://bugs.launchpad.net/cinder/+bug/1110987,2013-04-04
+1110309,1110309,Fix Released,ssh pool connections dont timeout,https://bugs.launchpad.net/cinder/+bug/1110309,2013-04-04
+1104231,1104231,Fix Released,host extension is broken,https://bugs.launchpad.net/cinder/+bug/1104231,2013-04-04
+1100655,1100655,Fix Released,cannot create sheepdog volumes,https://bugs.launchpad.net/cinder/+bug/1100655,2013-04-04
+1099866,1099866,Fix Released,no client support for upload volume to image,https://bugs.launchpad.net/cinder/+bug/1099866,2013-04-04
+1064455,1064455,Fix Released,os-volume_attachment docs are incorrect,https://bugs.launchpad.net/cinder/+bug/1064455,2013-04-04
+1130496,1130496,Fix Released,example emc_conf.xml file should not be in /cinder/etc,https://bugs.launchpad.net/cinder/+bug/1130496,2013-04-04
+1130495,1130495,Fix Released,cinder test_emc.py leaves behind test file,https://bugs.launchpad.net/cinder/+bug/1130495,2013-04-04
+1115634,1115634,Fix Released,create from  bootable volume doesn't create a bootable volume,https://bugs.launchpad.net/cinder/+bug/1115634,2013-04-04
+1115629,1115629,Fix Released,bootable status differs between cinder list and cinder show,https://bugs.launchpad.net/cinder/+bug/1115629,2013-04-04
+1113042,1113042,Fix Released,libvirt volume_nfs driver does not support mount options,https://bugs.launchpad.net/cinder/+bug/1113042,2013-04-04
+1113042,1113042,Fix Released,libvirt volume_nfs driver does not support mount options,https://bugs.launchpad.net/nova/+bug/1113042,2013-04-04
+1096018,1096018,Fix Released,Create volume API does not validate metadata,https://bugs.launchpad.net/cinder/+bug/1096018,2013-04-04
+1130669,1130669,Fix Released,./run_tests.sh returns immediately without error,https://bugs.launchpad.net/cinder/+bug/1130669,2013-04-04
+1130258,1130258,Fix Released,cinder-manage logs errors causes no such option: logdi,https://bugs.launchpad.net/cinder/+bug/1130258,2013-04-04
+1125457,1125457,Fix Released,delete of scratch LVM fails in lvm.delete_snapshot due to missing key,https://bugs.launchpad.net/cinder/+bug/1125457,2013-04-04
+1107963,1107963,Fix Released,osapi_volume_extension config option causing log WARNings,https://bugs.launchpad.net/cinder/+bug/1107963,2013-04-04
+1074125,1074125,Fix Released,no docs for cinderclient,https://bugs.launchpad.net/cinder/+bug/1074125,2013-04-04
+1095401,1095401,Fix Released,volume_type_extra_specs doesn't work on postgresql,https://bugs.launchpad.net/cinder/+bug/1095401,2013-04-04
+1090168,1090168,Fix Released,NetApp: can't create a snapshot,https://bugs.launchpad.net/cinder/+bug/1090168,2013-04-04
+1089168,1089168,Fix Released,The Windows volume driver fails when queried for a manually deleted volume,https://bugs.launchpad.net/cinder/+bug/1089168,2013-04-04
+1087253,1087253,Fix Released,Multiple instances can be booted from the same volume,https://bugs.launchpad.net/cinder/+bug/1087253,2013-04-04
+1084711,1084711,Fix Released,ERROR stacktrace in c-api log after good tempest run,https://bugs.launchpad.net/cinder/+bug/1084711,2013-04-04
+1083818,1083818,Fix Released,Detached and deleted RBD volumes remain associated with instance,https://bugs.launchpad.net/cinder/+bug/1083818,2013-04-04
+1046451,1046451,Fix Released,rename/remove osapi_compute_link_prefix config option,https://bugs.launchpad.net/cinder/+bug/1046451,2013-04-04
+1070649,1070649,Fix Released,Inconsistency for the iscsi targets using ietadm,https://bugs.launchpad.net/cinder/+bug/1070649,2013-04-04
+1096983,1096983,Fix Released,Can attach_volume to multiple instances (race),https://bugs.launchpad.net/cinder/+bug/1096983,2013-04-04
+1090169,1090169,Fix Released,iSCSI Drivers fall back to LVM for volume<->image,https://bugs.launchpad.net/cinder/+bug/1090169,2013-04-04
+1089147,1089147,Fix Released,Cinder doesn't support glance over ssl,https://bugs.launchpad.net/cinder/+bug/1089147,2013-04-04
+1087282,1087282,Fix Released,Root wrap tools used by NFS volume driver,https://bugs.launchpad.net/cinder/+bug/1087282,2013-04-04
+1087161,1087161,Fix Released,Volume type delete fails,https://bugs.launchpad.net/cinder/+bug/1087161,2013-04-04
+1085192,1085192,Fix Released,type-delete failure,https://bugs.launchpad.net/cinder/+bug/1085192,2013-04-04
+1077011,1077011,Fix Released,Remove old XenSM driver,https://bugs.launchpad.net/cinder/+bug/1077011,2013-04-04
+1070047,1070047,Fix Released,run_tests.sh usage message and behavior for -x don't match,https://bugs.launchpad.net/cinder/+bug/1070047,2013-04-04
+1070033,1070033,Fix Released,several sqlalchemy db api methods are duplicated,https://bugs.launchpad.net/cinder/+bug/1070033,2013-04-04
+1070023,1070023,Fix Released,Volume deletion can write lots of data if device node is missing,https://bugs.launchpad.net/cinder/+bug/1070023,2013-04-04
+1069601,1069601,Fix Released,cinder-volume-usage-audit has un i18ned output strings,https://bugs.launchpad.net/cinder/+bug/1069601,2013-04-04
+1065073,1065073,Fix Released,Error message format string uses wrong variable name (Tgtadm remove_iscsi_target),https://bugs.launchpad.net/cinder/+bug/1065073,2013-04-04
+1053181,1053181,Fix Released,cinder admin based on hard-coded 'admin' role,https://bugs.launchpad.net/cinder/+bug/1053181,2013-04-04
+1074201,1074201,Fix Released,Minor optimization in create_volume in HpSanISCSIDriver,https://bugs.launchpad.net/cinder/+bug/1074201,2013-04-04
+1074185,1074185,Fix Released,Replace ssh connections in san.py with a connection pool,https://bugs.launchpad.net/cinder/+bug/1074185,2013-04-04
+1071536,1071536,Fix Released,typo prevents volume_tmp_dir flag from working,https://bugs.launchpad.net/cinder/+bug/1071536,2013-04-04
+1071436,1071436,Fix Released,"volume type on create is name in request, and id in resp",https://bugs.launchpad.net/cinder/+bug/1071436,2013-04-04
+1035350,1035350,Fix Released,"Host name not shown in ""Volumes"" page",https://bugs.launchpad.net/cinder/+bug/1035350,2013-04-04
+1035350,1035350,Fix Released,"Host name not shown in ""Volumes"" page",https://bugs.launchpad.net/horizon/+bug/1035350,2013-04-04
+1071003,1071003,Fix Released,Dead methods in cinderclient,https://bugs.launchpad.net/cinder/+bug/1071003,2013-04-04
+1070489,1070489,Fix Released,SanISCSIDriver SSH bad cmd processing,https://bugs.launchpad.net/nova/+bug/1070489,2013-04-04
+1070489,1070489,Fix Released,SanISCSIDriver SSH bad cmd processing,https://bugs.launchpad.net/cinder/+bug/1070489,2013-04-04
+1053364,1053364,Fix Released,Add SIGPIPE handler to subprocess execution in rootwrap and utils.execute,https://bugs.launchpad.net/cinder/+bug/1053364,2013-04-04
+1053364,1053364,Fix Released,Add SIGPIPE handler to subprocess execution in rootwrap and utils.execute,https://bugs.launchpad.net/nova/+bug/1053364,2013-04-04
+1053364,1053364,Fix Released,Add SIGPIPE handler to subprocess execution in rootwrap and utils.execute,https://bugs.launchpad.net/neutron/+bug/1053364,2013-04-04
+1046382,1046382,Fix Released,can't update volume meta-data,https://bugs.launchpad.net/cinder/+bug/1046382,2013-04-04
+1075675,1075675,Fix Released,Buffer IO Error in kernel logs on volume_delete,https://bugs.launchpad.net/cinder/+bug/1075675,2013-04-04
+1070258,1070258,Fix Released,Resource reservation isn't rolled back properly for certain failures during Volume Create,https://bugs.launchpad.net/cinder/+bug/1070258,2013-04-04

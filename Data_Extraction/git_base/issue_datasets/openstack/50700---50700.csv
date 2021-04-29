@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1519684,1519684,Fix Released,auth_plugin is None when building sdk connection,https://bugs.launchpad.net/senlin/+bug/1519684,2016-01-22
+1465620,1465620,Fix Released,Cluster policy update API is not checking the JSON body,https://bugs.launchpad.net/senlin/+bug/1465620,2016-01-22
+1520027,1520027,Fix Released,Examples for trigger does't be removed,https://bugs.launchpad.net/senlin/+bug/1520027,2016-01-22
+1520453,1520453,Fix Released,keystone driver tries to get trust list from keystone v2 API,https://bugs.launchpad.net/senlin/+bug/1520453,2016-01-22
+1520440,1520440,Fix Released,authentication failed when getting trusts,https://bugs.launchpad.net/senlin/+bug/1520440,2016-01-22
+1467826,1467826,Fix Released,policy create API should validate the parameters,https://bugs.launchpad.net/senlin/+bug/1467826,2016-01-22
+1521074,1521074,Fix Released,action api is exposed at the wrong uri with wrong verb,https://bugs.launchpad.net/senlin/+bug/1521074,2016-01-22
+1521114,1521114,Fix Released,token is not found when creating sdk connection for nova server profile,https://bugs.launchpad.net/senlin/+bug/1521114,2016-01-22
+1521049,1521049,Fix Released,Should store the actual UUID of obj_id in senlin database in webhook create,https://bugs.launchpad.net/senlin/+bug/1521049,2016-01-22
+1522237,1522237,Fix Released,build_info is not returning an object,https://bugs.launchpad.net/senlin/+bug/1522237,2016-01-22
+1522322,1522322,Fix Released,"exact filtering of timestamps are useless, should be removed",https://bugs.launchpad.net/senlin/+bug/1522322,2016-01-22
+1518209,1518209,Fix Released,engine should return 400 when referenced object is not found,https://bugs.launchpad.net/senlin/+bug/1518209,2016-01-22
+1523038,1523038,Fix Released,profile-type schema not exposed following RESTful API,https://bugs.launchpad.net/senlin/+bug/1523038,2016-01-22
+1523102,1523102,Fix Released,policy-type schema not exposed following RESTful API,https://bugs.launchpad.net/senlin/+bug/1523102,2016-01-22
+1522337,1522337,Fix Released,'init_time' returned from node-create is of incorrect format,https://bugs.launchpad.net/senlin/+bug/1522337,2016-01-22
+1522324,1522324,Fix Released,response from policy-create is not parsed correctly,https://bugs.launchpad.net/senlin/+bug/1522324,2016-01-22
+1524611,1524611,Fix Released,The 'os.nova.server' type profile doesn't support block_device_mapping_v2.,https://bugs.launchpad.net/senlin/+bug/1524611,2016-01-22
+1525484,1525484,Fix Released,Deletion policy  with ‘RANDOM‘  constraint   always select  the same order nodes,https://bugs.launchpad.net/senlin/+bug/1525484,2016-01-22
+1525504,1525504,Fix Released,Cluster node updates failed with os.nova.server profile,https://bugs.launchpad.net/senlin/+bug/1525504,2016-01-22
+1515229,1515229,Fix Released,Test case of engine/parser is missing,https://bugs.launchpad.net/senlin/+bug/1515229,2016-01-22
+1526177,1526177,Fix Released,node-show for nova servers is not handling details correctly,https://bugs.launchpad.net/senlin/+bug/1526177,2016-01-22
+1526578,1526578,Fix Released,gitignore didn't ignore senlin.conf.sample,https://bugs.launchpad.net/senlin/+bug/1526578,2016-01-22
+1526582,1526582,Fix Released,health_mgr_opts is not auto generated to config sample,https://bugs.launchpad.net/senlin/+bug/1526582,2016-01-22
+1526228,1526228,Fix Released,senlin-manage purge-deleted is not working,https://bugs.launchpad.net/senlin/+bug/1526228,2016-01-22
+1527085,1527085,Fix Released,‘test_vSphereDRSPolicy.py’ file mode is wrong,https://bugs.launchpad.net/senlin/+bug/1527085,2016-01-22
+1497190,1497190,Fix Released,Cluster next_index can't be updated correctly after node join,https://bugs.launchpad.net/senlin/+bug/1497190,2016-01-22
+1527112,1527112,Fix Released,Can't delete node if stack doesn't exists in heat db,https://bugs.launchpad.net/senlin/+bug/1527112,2016-01-22
+1526597,1526597,Fix Released,Policy checks failed for cooldown with one scale-in and one scale-out policies,https://bugs.launchpad.net/senlin/+bug/1526597,2016-01-22
+1509992,1509992,Fix Released,the property 'name' of nova_server is not used,https://bugs.launchpad.net/senlin/+bug/1509992,2016-01-22
+1526223,1526223,Fix Released,node-list fails if the show_deleted argument is specified,https://bugs.launchpad.net/senlin/+bug/1526223,2016-01-22
+1530746,1530746,Fix Released,LB policy is not working in a correct way,https://bugs.launchpad.net/senlin/+bug/1530746,2016-01-22
+1530749,1530749,Fix Released,Senlin API should support global_project option for policy list,https://bugs.launchpad.net/senlin/+bug/1530749,2016-01-22
+1530748,1530748,Fix Released,Senlin API should support global_project option for profile list,https://bugs.launchpad.net/senlin/+bug/1530748,2016-01-22
+1533556,1533556,Fix Released,Create cluster failed because recent action sort changes,https://bugs.launchpad.net/senlin/+bug/1533556,2016-01-22
+1535192,1535192,Fix Released,Error happened when creating cluster with nova-server profile,https://bugs.launchpad.net/senlin/+bug/1535192,2016-01-22
+1535508,1535508,Fix Released,lb policy should not refer data in action.outputs,https://bugs.launchpad.net/senlin/+bug/1535508,2016-01-22
+1535857,1535857,Fix Released,"coordination hash table gets additional member when using ZK, throwing off hashing",https://bugs.launchpad.net/astara/+bug/1535857,2016-01-22
+1535245,1535245,Fix Released,agent_ssh gate fails on openstack object store account set --property Temp-URL-Key=secretkey,https://bugs.launchpad.net/devstack/+bug/1535245,2016-01-22
+1536718,1536718,Fix Released,VMware: unable to boot an instance,https://bugs.launchpad.net/nova/+bug/1536718,2016-01-22
+1479379,1479379,Fix Released,Long Image name breaks 'Create An Image' window layout,https://bugs.launchpad.net/horizon/+bug/1479379,2016-01-22
+1525830,1525830,Fix Released,Refactored Watcher codebase to add py34 support,https://bugs.launchpad.net/watcher/+bug/1525830,2016-01-22
+1528397,1528397,Fix Released,Style: Material Design: Alerts should have a box-shadow,https://bugs.launchpad.net/horizon/+bug/1528397,2016-01-22
+1424680,1424680,Fix Released,rally verify start doesn't work with ssl_enabled endpoints,https://bugs.launchpad.net/rally/+bug/1424680,2016-01-22
+1506316,1506316,Fix Committed,Add support for handling ipam operational data correctly while network creation,https://bugs.launchpad.net/kuryr/+bug/1506316,2016-01-22
+1506311,1506311,Fix Committed,Add missing libnetwork apis for completion of network driver interface,https://bugs.launchpad.net/kuryr/+bug/1506311,2016-01-22
+1502067,1502067,Fix Committed,Without the username and the password Kuryr  gets error of auth_url,https://bugs.launchpad.net/kuryr/+bug/1502067,2016-01-22
+1499959,1499959,Fix Committed,Update /NetworkDriver.Join to catch up with libnetwork 0.5.0,https://bugs.launchpad.net/kuryr/+bug/1499959,2016-01-22
+1514662,1514662,Fix Committed,Docker's IPAM driver is incompatible with Neutron,https://bugs.launchpad.net/kuryr/+bug/1514662,2016-01-22
+1531903,1531903,Fix Released,os-quota-sets api doc is incorrect,https://bugs.launchpad.net/openstack-api-site/+bug/1531903,2016-01-22
+1524147,1524147,Fix Released,"Need to write ""update user's password"" on identity v2 API",https://bugs.launchpad.net/openstack-api-site/+bug/1524147,2016-01-22
+1534524,1534524,Fix Released,Add the Response parameter to volume api's,https://bugs.launchpad.net/openstack-api-site/+bug/1534524,2016-01-22
+1414104,1414104,Fix Released,Update Chapter 1. Introduction to OpenStack High Availability in OpenStack High Availability Guide  to introduce more HA concepts,https://bugs.launchpad.net/openstack-manuals/+bug/1414104,2016-01-22
+1536581,1536581,Fix Released,Add is-public for environment-template list,https://bugs.launchpad.net/python-muranoclient/+bug/1536581,2016-01-22
+1535968,1535968,Fix Released,should add the cover case for 'body' kwarg in http json_request,https://bugs.launchpad.net/python-muranoclient/+bug/1535968,2016-01-22
+1534613,1534613,Fix Released,warnings in stable/liberty release notes are breaking releasenotes job in master,https://bugs.launchpad.net/nova/+bug/1534613,2016-01-22
+1534613,1534613,Fix Released,warnings in stable/liberty release notes are breaking releasenotes job in master,https://bugs.launchpad.net/reno/+bug/1534613,2016-01-22
+1536820,1536820,Fix Released,deprecated auth parameter name in nova.conf,https://bugs.launchpad.net/kolla/+bug/1536820,2016-01-22
+1517013,1517013,Fix Released,Deploying ISO with configuration openstack-8.0-ubuntu-vxlan-lvm-swift triggers to an error,https://bugs.launchpad.net/fuel/+bug/1517013,2016-01-22
+1534088,1534088,Fix Released,Novaclient module not found for 6.1 fuel-library job,https://bugs.launchpad.net/fuel/+bug/1534088,2016-01-22
+1468689,1468689,Fix Released,Task manager locks are hard to debug,https://bugs.launchpad.net/ironic/+bug/1468689,2016-01-22
+1536481,1536481,Fix Released,lb policy should be able to work without scaling/deletion policy,https://bugs.launchpad.net/senlin/+bug/1536481,2016-01-22
+1526318,1526318,Fix Released,[systest] Support cases for Centos bootstrap in swarm,https://bugs.launchpad.net/fuel/+bug/1526318,2016-01-22
+1528104,1528104,Fix Released,"manager.create_server always creates server with default name, image, flavor",https://bugs.launchpad.net/tempest/+bug/1528104,2016-01-22
+1493806,1493806,Fix Committed,[fuel] Invalid handling of node without disks,https://bugs.launchpad.net/fuel/+bug/1493806,2016-01-22
+1524368,1524368,Fix Released,Astute should use debug level as default for CentOS 7,https://bugs.launchpad.net/fuel/+bug/1524368,2016-01-22
+1531745,1531745,Fix Released,Change capability_scope default value to local,https://bugs.launchpad.net/kuryr/+bug/1531745,2016-01-22
+1536716,1536716,Fix Released,Fix not calling rpc.init(CONF) in basic Service class,https://bugs.launchpad.net/karbor/+bug/1536716,2016-01-22
+1532250,1532250,Fix Released,Multiple OSTF failed on environment with ceilomenter,https://bugs.launchpad.net/fuel/+bug/1532250,2016-01-22
+1522733,1522733,Fix Released,Statuses - 3 classes with the same name,https://bugs.launchpad.net/watcher/+bug/1522733,2016-01-22
+1536731,1536731,Fix Released,Update the user-guide to explain the main steps regarding Watcher usage,https://bugs.launchpad.net/watcher/+bug/1536731,2016-01-22
+1535305,1535305,Fix Released,Version bump in 'requirements.txt' for 'fuel-devops' repo,https://bugs.launchpad.net/fuel/+bug/1535305,2016-01-22
+1534558,1534558,Fix Released,gating job failed with trying to build 'fuel-nailgun' package,https://bugs.launchpad.net/fuel/+bug/1534558,2016-01-22
+1517124,1517124,Fix Released,Share status precedence of Creating over Error with multiple instances,https://bugs.launchpad.net/manila/+bug/1517124,2016-01-22
+1519326,1519326,Fix Released,manila-share can not deploy  multi node,https://bugs.launchpad.net/manila/+bug/1519326,2016-01-22
+1436865,1436865,Fix Released,"Attr ""is_public"" can not be set for share using API ""manage""",https://bugs.launchpad.net/manila/+bug/1436865,2016-01-22

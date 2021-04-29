@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+705583,705583,Fix Released,twisted still referenced in glance.common.utils,https://bugs.launchpad.net/glance/+bug/705583,2011-02-07
+701180,701180,Fix Released,.debs need to be created for glance.client and glance,https://bugs.launchpad.net/glance/+bug/701180,2011-02-07
+696385,696385,Fix Released,Glance is not pep8-clean,https://bugs.launchpad.net/glance/+bug/696385,2011-02-07
+706192,706192,Fix Released,Generates exception when updating properties,https://bugs.launchpad.net/glance/+bug/706192,2011-02-07
+681117,681117,Fix Released,Inadequate documentation of glance architecture.,https://bugs.launchpad.net/glance/+bug/681117,2011-02-07
+706668,706668,Fix Released,glance lacks sphinx and argparse in pip-requires,https://bugs.launchpad.net/glance/+bug/706668,2011-02-07
+706636,706636,Fix Released,run_tests.sh should return failure on pep8 failure,https://bugs.launchpad.net/glance/+bug/706636,2011-02-07
+706174,706174,Fix Released,PUT is reading entire image into memory,https://bugs.launchpad.net/glance/+bug/706174,2011-02-07
+704038,704038,Fix Released,Glance RegistryClient only connects to 0.0.0.0:9292,https://bugs.launchpad.net/glance/+bug/704038,2011-02-07
+698316,698316,Fix Released,Glance reads the whole image into memory when handling a POST /images request,https://bugs.launchpad.net/glance/+bug/698316,2011-02-07
+693471,693471,Fix Released,SQLAlchemy requires date column to be a datetime object,https://bugs.launchpad.net/glance/+bug/693471,2011-02-07
+687665,687665,Fix Released,Swift Backend URL Parser breaks for 2.6.5,https://bugs.launchpad.net/glance/+bug/687665,2011-02-07
+687661,687661,Fix Released,Glance servers crash when using epoll,https://bugs.launchpad.net/glance/+bug/687661,2011-02-07
+704842,704842,Fix Released,Missing man pages for glance-api and glance-registry,https://bugs.launchpad.net/glance/+bug/704842,2011-02-07
+700162,700162,Fix Released,Can't upload image more than 2GB using glance.client,https://bugs.launchpad.net/glance/+bug/700162,2011-02-07
+696375,696375,Fix Released,"x-image-meta-size in POST /images not optional, contrary to documentation",https://bugs.launchpad.net/glance/+bug/696375,2011-02-07
+686438,686438,Fix Released,Cannot create image: Json Circular reference detected,https://bugs.launchpad.net/glance/+bug/686438,2011-02-07
+701575,701575,Fix Released,install_venv.py does not install virtualenv if missing,https://bugs.launchpad.net/nova/+bug/701575,2011-02-07
+701278,701278,Fix Released,iptables is failing when lauching instances,https://bugs.launchpad.net/nova/+bug/701278,2011-02-07
+701164,701164,Fix Released,Can't change project manager after creation of project.,https://bugs.launchpad.net/nova/+bug/701164,2011-02-07
+700974,700974,Fix Released,_describe_availability_zones_verbose calls db.service_get_all and db.get_time. Neither exist.,https://bugs.launchpad.net/nova/+bug/700974,2011-02-07
+700530,700530,Fix Released,Doc make broken by rev530 nova version change,https://bugs.launchpad.net/nova/+bug/700530,2011-02-07
+700015,700015,Fix Released,Headers in virt/images.py function _fetch_s3_image are sent improperly to curl,https://bugs.launchpad.net/nova/+bug/700015,2011-02-07
+699912,699912,Fix Released,"When failing to connect to a data store, Nova doesn't log which data store it tried to connect to",https://bugs.launchpad.net/nova/+bug/699912,2011-02-07
+699910,699910,Fix Released,Nova RPC layer silently swallows exceptions,https://bugs.launchpad.net/nova/+bug/699910,2011-02-07
+697841,697841,Fix Released,Actions query should include date,https://bugs.launchpad.net/nova/+bug/697841,2011-02-07
+697019,697019,Fix Released,Recover from a lost data store connection,https://bugs.launchpad.net/nova/+bug/697019,2011-02-07
+695467,695467,Fix Released,"nova-compute flag 'injected_network_template' definition is missing, causes vm creation failure",https://bugs.launchpad.net/nova/+bug/695467,2011-02-07
+695157,695157,Fix Released,test suite fails with webob >=1.0,https://bugs.launchpad.net/nova/+bug/695157,2011-02-07
+694890,694890,Fix Released,run_tests.sh sometimes doesn't pass arguments to nosetest,https://bugs.launchpad.net/nova/+bug/694890,2011-02-07
+693963,693963,Fix Released,run_tests.sh wants sudo privs,https://bugs.launchpad.net/nova/+bug/693963,2011-02-07
+691463,691463,Fix Released,Tests require a running redis-server,https://bugs.launchpad.net/nova/+bug/691463,2011-02-07
+688032,688032,Fix Released,"creating a new instance via eucatools with wrong instance type get the error ""global name 'exception' is not defined""",https://bugs.launchpad.net/nova/+bug/688032,2011-02-07
+682658,682658,Fix Released,xenapi support use empty request context,https://bugs.launchpad.net/nova/+bug/682658,2011-02-07
+680709,680709,Fix Released,Auth should allow for fully customized URL's when defining x-Server-Management-Url,https://bugs.launchpad.net/nova/+bug/680709,2011-02-07
+677138,677138,Fix Released,Error messages from api that include unicode fail to display,https://bugs.launchpad.net/nova/+bug/677138,2011-02-07
+668229,668229,Fix Released,nova-manage can't find IP address when host is behind a HTTP proxy,https://bugs.launchpad.net/nova/+bug/668229,2011-02-07
+666554,666554,Fix Released,_inject_net_info_fs in compute/disk.py fails if /etc/network doesn't exist,https://bugs.launchpad.net/nova/+bug/666554,2011-02-07
+654025,654025,Fix Released,nova-manage project zip and nova-manage vpn list broken by change in DB semantics when networks are missing,https://bugs.launchpad.net/nova/+bug/654025,2011-02-07
+632693,632693,Fix Released,Setting up access to the meta-data service is too much work,https://bugs.launchpad.net/nova/+bug/632693,2011-02-07
+708673,708673,Fix Released,libvirt/hyperv do not support Glance,https://bugs.launchpad.net/nova/+bug/708673,2011-02-07
+706415,706415,Fix Released,Use Glance instead of KRM json to Relate Images,https://bugs.launchpad.net/nova/+bug/706415,2011-02-07
+704908,704908,Fix Released,Have helpful error messages when DB tables were not created,https://bugs.launchpad.net/nova/+bug/704908,2011-02-07
+704896,704896,Fix Released,Logs should include a timestamp by default,https://bugs.launchpad.net/nova/+bug/704896,2011-02-07
+701904,701904,Fix Released,Logging handler warning when running nova-manage,https://bugs.launchpad.net/nova/+bug/701904,2011-02-07
+701706,701706,Fix Released,Security Group w/o enough parameters should fail more gracefully,https://bugs.launchpad.net/nova/+bug/701706,2011-02-07
+684353,684353,Fix Released,Need a way to determine Nova version after installing,https://bugs.launchpad.net/nova/+bug/684353,2011-02-07
+613264,613264,Fix Released,api / objectstore should allow specifying ip to bind to,https://bugs.launchpad.net/nova/+bug/613264,2011-02-07
+708759,708759,Fix Released,"Not Found responses in terminate_instance, get_console_output, attach_volume, detach_volume, delete_volume should return ec2_id",https://bugs.launchpad.net/nova/+bug/708759,2011-02-07
+708309,708309,Fix Released,New localized strings with >1 placeholder still being added to trunk not using dict formating,https://bugs.launchpad.net/nova/+bug/708309,2011-02-07
+707675,707675,Fix Released,should be able to use --firewall_driver=nova.virt.libvirt_conn.NWFilterFirewall,https://bugs.launchpad.net/nova/+bug/707675,2011-02-07
+707601,707601,Fix Released,Local traffic (host->guest) escapes filtering in some cases,https://bugs.launchpad.net/nova/+bug/707601,2011-02-07
+705574,705574,Fix Released,typo in installing for Ubuntu 10.04 doc,https://bugs.launchpad.net/nova/+bug/705574,2011-02-07
+705504,705504,Fix Released,pep8 errors on trunk r592,https://bugs.launchpad.net/nova/+bug/705504,2011-02-07
+705186,705186,Fix Released,Some error and log message strings are not i18N,https://bugs.launchpad.net/nova/+bug/705186,2011-02-07
+705131,705131,Fix Released,"LocalImageService tests fail for user ""B"" if user ""A"" has previously run test on same machine",https://bugs.launchpad.net/nova/+bug/705131,2011-02-07
+704447,704447,Fix Released,bin/stack: urllib2.HTTPError when issuing reflection request,https://bugs.launchpad.net/nova/+bug/704447,2011-02-07
+704424,704424,Fix Released,bin/stack: AttributeError: port,https://bugs.launchpad.net/nova/+bug/704424,2011-02-07
+704422,704422,Fix Released,nova-direct-api: AttributeError: 'module' object has no attribute 'ComputeAPI',https://bugs.launchpad.net/nova/+bug/704422,2011-02-07
+704280,704280,Fix Released,security group methods not in virt/fakes.py,https://bugs.launchpad.net/nova/+bug/704280,2011-02-07
+704176,704176,Fix Released,run_tests.sh -V fails -- Need to add glance to tools/pip-requires,https://bugs.launchpad.net/nova/+bug/704176,2011-02-07
+703041,703041,Fix Released,"i18n strings with >1 placeholder should always use dictionary, not tuple, replacement",https://bugs.launchpad.net/nova/+bug/703041,2011-02-07
+701748,701748,Fix Released,nova-volume is too hard to set up,https://bugs.launchpad.net/nova/+bug/701748,2011-02-07
+695182,695182,Fix Released,test_scheduler doesn't run in isolation,https://bugs.launchpad.net/nova/+bug/695182,2011-02-07
+694880,694880,Fix Released,nova-compute now depends upon Cheetah even when not using libvirt,https://bugs.launchpad.net/nova/+bug/694880,2011-02-07
+692317,692317,Fix Released,Metadata breaks with Forwarded-For,https://bugs.launchpad.net/nova/+bug/692317,2011-02-07
+691704,691704,Fix Released,"auth_unittests tries to skip some tests, but unittest doesn't support that",https://bugs.launchpad.net/nova/+bug/691704,2011-02-07
+688151,688151,Fix Released,Describe volumes in the ec2 api does not filter results by instance_id,https://bugs.launchpad.net/nova/+bug/688151,2011-02-07
+687963,687963,Fix Released,nova-api debian packages does not create /var/log/nova/nova-api.log,https://bugs.launchpad.net/nova/+bug/687963,2011-02-07
+687451,687451,Fix Released,test_authors_up_to_date requires bzrlib of some specific version?,https://bugs.launchpad.net/nova/+bug/687451,2011-02-07
+684179,684179,Fix Released,"Having to run ""nova-manage network create"" is not easily discoverable",https://bugs.launchpad.net/nova/+bug/684179,2011-02-07
+681265,681265,Fix Released,"""nova-manage zipfile"" step is missing from single.node.install docs",https://bugs.launchpad.net/nova/+bug/681265,2011-02-07
+670654,670654,Fix Released,unittests hang on python 2.6.1,https://bugs.launchpad.net/nova/+bug/670654,2011-02-07
+666083,666083,Fix Released,remove tornado.escape,https://bugs.launchpad.net/nova/+bug/666083,2011-02-07
+664916,664916,Fix Released,dd should use larger block size,https://bugs.launchpad.net/nova/+bug/664916,2011-02-07

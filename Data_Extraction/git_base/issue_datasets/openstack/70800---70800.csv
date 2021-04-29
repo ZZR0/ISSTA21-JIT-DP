@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1407181,1407181,Fix Released,py26 still present in tox.ini,https://bugs.launchpad.net/group-based-policy/+bug/1407181,2015-01-06
+1406137,1406137,Fix Released,Delete policy target fails for APIC policy driver,https://bugs.launchpad.net/group-based-policy/+bug/1406137,2015-01-06
+1404799,1404799,Fix Released,Validations are missing in RM driver for multiple redirect actions in a Rule/PRS,https://bugs.launchpad.net/group-based-policy/+bug/1404799,2015-01-06
+1387536,1387536,Fix Released,Notify ServiceChainInstance of classifier updates,https://bugs.launchpad.net/group-based-policy/+bug/1387536,2015-01-06
+1406738,1406738,Fix Released,PTG delete throws error if a redirect to an LB is involved,https://bugs.launchpad.net/group-based-policy/+bug/1406738,2015-01-06
+1406502,1406502,Fix Released,PTG update with Ruleset(having a redirect action) does not result in create/update of service chain instance,https://bugs.launchpad.net/group-based-policy/+bug/1406502,2015-01-06
+1405080,1405080,Fix Released,PTG delete fails on account of dangling PTs,https://bugs.launchpad.net/group-based-policy/+bug/1405080,2015-01-06
+1407104,1407104,Fix Released,SG cleanup not happening when PTG is deleted,https://bugs.launchpad.net/group-based-policy/+bug/1407104,2015-01-06
+1406716,1406716,Fix Released,Update test-requirements to sync with neutron,https://bugs.launchpad.net/group-based-policy/+bug/1406716,2015-01-06
+1406623,1406623,Fix Released,GBP package name conflict,https://bugs.launchpad.net/group-based-policy/+bug/1406623,2015-01-06
+1407608,1407608,Fix Released,The GBP usage document has a few errors,https://bugs.launchpad.net/group-based-policy/+bug/1407608,2015-01-06
+1407636,1407636,Fix Released,Parent ruleset is not enforced for Redirect if the child Ruleset is already associated with PTGs,https://bugs.launchpad.net/group-based-policy/+bug/1407636,2015-01-06
+1243685,1243685,Fix Released,Servers/Instances sorting order via API,https://bugs.launchpad.net/nova/+bug/1243685,2015-01-05
+1402136,1402136,Fix Released,NetApp FC Drivers don't have a driver_cert file,https://bugs.launchpad.net/cinder/+bug/1402136,2015-01-05
+1398469,1398469,Fix Released,[block-storage] Need to allow san_private_key only  option,https://bugs.launchpad.net/openstack-chef/+bug/1398469,2015-01-05
+1402390,1402390,Fix Released,CentOS 7 No package openvswitch available,https://bugs.launchpad.net/devstack/+bug/1402390,2015-01-05
+1373859,1373859,Fix Released,metadata_agent don't work,https://bugs.launchpad.net/devstack/+bug/1373859,2015-01-05
+1342639,1342639,Fix Released,[sahara] sahara OSTF test has a missing notification,https://bugs.launchpad.net/fuel/+bug/1342639,2015-01-05
+1404851,1404851,Fix Released,Murano OSTF tests failed with 'no valid deployment status' error,https://bugs.launchpad.net/fuel/+bug/1404851,2015-01-05
+1404850,1404850,Fix Released,Heat OSTF tests failed with 'autoscalling timeout' error,https://bugs.launchpad.net/fuel/+bug/1404850,2015-01-05
+1332660,1332660,Fix Released,Update statistics from computes if RBD ephemeral is used,https://bugs.launchpad.net/nova/+bug/1332660,2015-01-05
+1406289,1406289,Fix Released,Tempest test test_personality_files_exceed_limit failed,https://bugs.launchpad.net/tempest/+bug/1406289,2015-01-05
+1405745,1405745,Fix Released,Tempest api tests delete router cleanup should check for missing router interfaces,https://bugs.launchpad.net/tempest/+bug/1405745,2015-01-05
+1393805,1393805,Fix Released,Nova - Creating a new security group uses the wrong JSON body,https://bugs.launchpad.net/openstack-api-site/+bug/1393805,2015-01-05
+1405318,1405318,Fix Released,"gate-tempest-dsvm-neutron-src-python-heatclient failed due to ""ServerFault: Got server fault""",https://bugs.launchpad.net/devstack/+bug/1405318,2015-01-03
+1407165,1407165,Fix Released,setuptools 10.2 breaks mako install,https://bugs.launchpad.net/tripleo/+bug/1407165,2015-01-02
+1405609,1405609,Fix Released,py3 incompatible issue: 'module' object has no attribute 'maxint',https://bugs.launchpad.net/rally/+bug/1405609,2015-01-02
+1403074,1403074,Fix Released,"py3 incompatible issue: ""next"" attr of generators",https://bugs.launchpad.net/rally/+bug/1403074,2015-01-02
+1116440,1116440,Fix Released,Quantum Documentation misses the output examples,https://bugs.launchpad.net/openstack-manuals/+bug/1116440,2015-01-02
+1116440,1116440,Fix Released,Quantum Documentation misses the output examples,https://bugs.launchpad.net/neutron/+bug/1116440,2015-01-02
+1405319,1405319,Fix Released,syntax error in clean up neutron,https://bugs.launchpad.net/devstack/+bug/1405319,2015-01-02
+1393386,1393386,Fix Released,[statistics] provide more env details within statistics snapshot,https://bugs.launchpad.net/fuel/+bug/1393386,2015-01-02
+1398559,1398559,Fix Released,Enable: H301 one import per line,https://bugs.launchpad.net/congress/+bug/1398559,2015-01-02
+1320535,1320535,Fix Released,DevStack should use new bash8 pypi package,https://bugs.launchpad.net/devstack/+bug/1320535,2015-01-02
+1405732,1405732,Fix Released,rm: cannot remove `/home/jenkins/.cache/image-create/pypi/mirror/': Permission denied,https://bugs.launchpad.net/tripleo/+bug/1405732,2015-01-02
+1373813,1373813,Fix Committed,Incorrect value for swift_store_large_object_size in default Glance configuration file,https://bugs.launchpad.net/fuel/+bug/1373813,2014-12-31
+1371104,1371104,Fix Committed,VMs are losing connectivity and their IPs after HA failover,https://bugs.launchpad.net/fuel/+bug/1371104,2014-12-31
+1397845,1397845,Fix Committed,Half-broken Debian installer initramfs image,https://bugs.launchpad.net/fuel/+bug/1397845,2014-12-31
+1397916,1397916,Fix Committed,run_tests fails with unclear error when wrong path to test is specified,https://bugs.launchpad.net/fuel/+bug/1397916,2014-12-31
+1394120,1394120,Fix Released,swift-propose-translation-update is failing,https://bugs.launchpad.net/openstack-i18n/+bug/1394120,2014-12-31
+1393564,1393564,Fix Released,Some api.network tests try to create a duplicate subnet,https://bugs.launchpad.net/tempest/+bug/1393564,2014-12-30
+1401028,1401028,Fix Released,KeyError: key 'networks' does not exist in response body,https://bugs.launchpad.net/tempest/+bug/1401028,2014-12-30
+1387602,1387602,Fix Committed,virtualbox scripts searches VM name incorrectly,https://bugs.launchpad.net/fuel/+bug/1387602,2014-12-30
+1010350,1010350,Fix Released,Confusing to put DEBUG messages in horizon_error.log,https://bugs.launchpad.net/devstack/+bug/1010350,2014-12-30
+1398071,1398071,Fix Released,"[qa] Tests logs report that nova/flatdhcp is used for network configuration, but actually cluster with nova/vlan is deployed",https://bugs.launchpad.net/fuel/+bug/1398071,2014-12-30
+1395658,1395658,Fix Committed,remove puppet run from containers which don't need configuration,https://bugs.launchpad.net/fuel/+bug/1395658,2014-12-30
+1380991,1380991,Fix Released,confusing logs in NSX puppet manifests,https://bugs.launchpad.net/fuel/+bug/1380991,2014-12-30
+1405748,1405748,Fix Committed,Create example for filtering statistics by release,https://bugs.launchpad.net/fuel/+bug/1405748,2014-12-30
+1368820,1368820,Fix Released,Fuel CI test failed:  simple_flat_node_deletion,https://bugs.launchpad.net/fuel/+bug/1368820,2014-12-30
+1358265,1358265,Fix Committed,Remove fabric monkey patch from Shotgun,https://bugs.launchpad.net/fuel/+bug/1358265,2014-12-30
+1406420,1406420,Fix Released,Chapter 8. HAProxy nodes in OpenStack High Availability Guide  - current,https://bugs.launchpad.net/openstack-manuals/+bug/1406420,2014-12-30
+1405918,1405918,Fix Released,py3 incompatible issue: string.lowercase/string.uppercase,https://bugs.launchpad.net/rally/+bug/1405918,2014-12-30
+1370708,1370708,Fix Released,Enable Sahara support in vCenter,https://bugs.launchpad.net/fuel/+bug/1370708,2014-12-30
+1404939,1404939,Fix Released,Syntax error in lib/trove,https://bugs.launchpad.net/devstack/+bug/1404939,2014-12-29
+1388775,1388775,Fix Released,Fuel system tests for sahara are broken in Juno,https://bugs.launchpad.net/fuel/+bug/1388775,2014-12-29
+1397293,1397293,Fix Released,vlan_interface option in section [vmware] is not configured when nova-network (VlanManager) is used with vCenter,https://bugs.launchpad.net/fuel/+bug/1397293,2014-12-29
+1397331,1397331,Fix Released,Fuel doen't deploy when neutron+nsx choosed for networking,https://bugs.launchpad.net/fuel/+bug/1397331,2014-12-29
+1368728,1368728,Fix Released,Deployment process of openstack on the second controller of nsx's machine always fails due to different reasons.,https://bugs.launchpad.net/fuel/+bug/1368728,2014-12-29
+1403447,1403447,Fix Released,py3 incompatible issue: No module named 'xrange',https://bugs.launchpad.net/rally/+bug/1403447,2014-12-28
+1402618,1402618,Fix Released,"outdated common module ""uuidutils"" is used",https://bugs.launchpad.net/rally/+bug/1402618,2014-12-27
+1267326,1267326,Fix Released,test_create_backup fails due to unexpected image number,https://bugs.launchpad.net/tempest/+bug/1267326,2014-12-27
+1243377,1243377,Fix Released,Taking Snapshots in OpenStack Operations Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1243377,2014-12-26
+1204628,1204628,Fix Released,exception.ClientConnectionError.__init__ throws an exception when it is passed an Exception type,https://bugs.launchpad.net/glance/+bug/1204628,2014-12-26
+1201701,1201701,Fix Released,"After Image is deleted, the resource status of that image is still in queued in Ceilometer",https://bugs.launchpad.net/ceilometer/+bug/1201701,2014-12-26
+1405559,1405559,Fix Released,Router creation fails to add external network,https://bugs.launchpad.net/rally/+bug/1405559,2014-12-26
+1403433,1403433,Fix Released,py3 incompatible issue: No module named 'urlparse',https://bugs.launchpad.net/rally/+bug/1403433,2014-12-26
+1403434,1403434,Fix Released,"py3 incompatible issue: ""imap"" is missed in itertools",https://bugs.launchpad.net/rally/+bug/1403434,2014-12-26
+1383224,1383224,Fix Released,Wrong name of Cinder role in case of vCenter,https://bugs.launchpad.net/fuel/+bug/1383224,2014-12-26
+1388113,1388113,Fix Released,Symlink to VMDK CirrOS image is broken,https://bugs.launchpad.net/fuel/+bug/1388113,2014-12-26
+1376198,1376198,Fix Released,It is necessary that during deploy Astute waited until the glance  is started,https://bugs.launchpad.net/fuel/+bug/1376198,2014-12-26
+1376683,1376683,Fix Released,Service glance-api not starting when deploy HA and Glance backend is vCenter,https://bugs.launchpad.net/fuel/+bug/1376683,2014-12-26
+1369529,1369529,Fix Released,"In HA mode on nsx's machine, deploy of openstack is crashed due to reason that neutron and keystone services are not availaible.",https://bugs.launchpad.net/fuel/+bug/1369529,2014-12-26
+1395638,1395638,Fix Released,[docs] No documentation on multiple cluster l2,https://bugs.launchpad.net/fuel/+bug/1395638,2014-12-26
+1367859,1367859,Fix Released,Docs: Deployment with NSX fails if NSX nodes reside in separate network,https://bugs.launchpad.net/fuel/+bug/1367859,2014-12-26
+1379651,1379651,Fix Released,[doc] Describe how to set up vCenter data stores for the Image Service (Glance) backend,https://bugs.launchpad.net/fuel/+bug/1379651,2014-12-26

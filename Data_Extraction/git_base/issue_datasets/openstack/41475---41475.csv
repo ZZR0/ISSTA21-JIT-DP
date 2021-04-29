@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1585535,1585535,Fix Released,"When using zmq, every event is processed two times",https://bugs.launchpad.net/dragonflow/+bug/1585535,2016-06-24
+1595638,1595638,Fix Released,"After tempest run, project is not cleaned up, can't delete project in a hierarchy",https://bugs.launchpad.net/tempest/+bug/1595638,2016-06-24
+1595613,1595613,Fix Released,"POST to routes with body {""routes"": ... instead of {""route"":... 500's with keyerror",https://bugs.launchpad.net/neutron-quark/+bug/1595613,2016-06-23
+1594215,1594215,Fix Released,Better quota management and enforccement,https://bugs.launchpad.net/group-based-policy/+bug/1594215,2016-06-23
+1594942,1594942,Fix Released,changes to billing code,https://bugs.launchpad.net/neutron-quark/+bug/1594942,2016-06-23
+1447704,1447704,Fix Released,token issue fails for keystone v2 if OS_PROJECT_DOMAIN_NAME or OS_USER_DOMAIN_NAME are set,https://bugs.launchpad.net/python-openstackclient/+bug/1447704,2016-06-23
+1501838,1501838,Fix Released,Tests: lazy load operation of attribute 'snapshot_metadata' cannot proceed,https://bugs.launchpad.net/cinder/+bug/1501838,2016-06-23
+1533771,1533771,Fix Committed,Update example plugin accordingly to the new format 4 version,https://bugs.launchpad.net/fuel/+bug/1533771,2016-06-23
+1594746,1594746,Fix Released,devstack plugin uses a wrong version of midonet,https://bugs.launchpad.net/networking-midonet/+bug/1594746,2016-06-23
+1588869,1588869,Fix Released,8.0.fuel-library.pkgs.ubuntu.neutron_vlan_ha job continuously fails,https://bugs.launchpad.net/fuel/+bug/1588869,2016-06-23
+1595594,1595594,Fix Released,quark metadata is stale on pypi,https://bugs.launchpad.net/neutron-quark/+bug/1595594,2016-06-23
+1536246,1536246,Fix Released,incorrect default bond properties,https://bugs.launchpad.net/fuel/+bug/1536246,2016-06-23
+1530825,1530825,Fix Released,"network_vlan_ranges is generated if  segmentation gre, vxlan is used",https://bugs.launchpad.net/fuel/+bug/1530825,2016-06-23
+1570707,1570707,Fix Released,[vagrant] newest_dhcp_lease.py should look for private iface's MAC address,https://bugs.launchpad.net/kolla/+bug/1570707,2016-06-23
+1595267,1595267,Fix Released,"response body returns ""address"" instead of ""ip_address""",https://bugs.launchpad.net/neutron-quark/+bug/1595267,2016-06-23
+1574685,1574685,Fix Released,ERROR: ../libkmod/libkmod.c:556 kmod_search_moddep() could not open moddep file '/lib/modules/3.10.0-327.13.1.el7.x86_64/modules.dep.bin',https://bugs.launchpad.net/fuel/+bug/1574685,2016-06-23
+1592868,1592868,Fix Committed,Can't start deploy for selected nodes,https://bugs.launchpad.net/fuel/+bug/1592868,2016-06-23
+1595579,1595579,Fix Committed,Forbid change of fields which are get imported from dcim,https://bugs.launchpad.net/fuel/+bug/1595579,2016-06-23
+1595340,1595340,Fix Released,Shared IPs Quota Tenant Based,https://bugs.launchpad.net/neutron-quark/+bug/1595340,2016-06-23
+1587867,1587867,Fix Released,[9.0] Release notes for Intel X(L)710 NIC,https://bugs.launchpad.net/fuel/+bug/1587867,2016-06-23
+1581360,1581360,Fix Committed,Fuel 8.0 docs are missing on docs.m.com,https://bugs.launchpad.net/fuel/+bug/1581360,2016-06-23
+1595068,1595068,Fix Committed,Add delete button on details page,https://bugs.launchpad.net/fuel/+bug/1595068,2016-06-23
+1595111,1595111,Fix Committed,Servers which isn't a jenkins slave should not be shown in jenkins nodes list,https://bugs.launchpad.net/fuel/+bug/1595111,2016-06-23
+1595473,1595473,Fix Committed,update fuel-qa code for master review_fuel_client,https://bugs.launchpad.net/fuel/+bug/1595473,2016-06-23
+1591005,1591005,Fix Committed,[Gerrit] NACR is not set,https://bugs.launchpad.net/fuel/+bug/1591005,2016-06-23
+1527320,1527320,Fix Released,"The plugins always reads tasks from file ""tasks.yaml""",https://bugs.launchpad.net/fuel/+bug/1527320,2016-06-23
+1595067,1595067,Fix Committed,Missing links on switches,https://bugs.launchpad.net/fuel/+bug/1595067,2016-06-23
+1565837,1565837,Fix Released,[nsxv] Sync way to create neutron and keystone urls from fuel-library,https://bugs.launchpad.net/fuel-plugin-nsxv/+bug/1565837,2016-06-23
+1528211,1528211,Fix Committed,Node search input remains open after clicking outside,https://bugs.launchpad.net/fuel/+bug/1528211,2016-06-23
+1583267,1583267,Fix Released,OSTF failed Check state of haproxy backends on controllers,https://bugs.launchpad.net/fuel-plugin-nsxv/+bug/1583267,2016-06-23
+1593413,1593413,Fix Committed,"Add option ""disable creation  jenkins instance""",https://bugs.launchpad.net/fuel/+bug/1593413,2016-06-23
+1500825,1500825,Fix Released,mounts fact should be an array,https://bugs.launchpad.net/fuel/+bug/1500825,2016-06-23
+1538982,1538982,Fix Released,Improve description of task based schema in docs,https://bugs.launchpad.net/fuel/+bug/1538982,2016-06-23
+1594750,1594750,Fix Committed,Add filter for 9.0 release to the fuel-stats Web UI,https://bugs.launchpad.net/fuel/+bug/1594750,2016-06-23
+1594850,1594850,Fix Committed,Fuel bootstrap building is broken due to absence of oslo_log module,https://bugs.launchpad.net/fuel/+bug/1594850,2016-06-23
+1595161,1595161,Fix Committed,Unsafe HTML markup in racks,https://bugs.launchpad.net/fuel/+bug/1595161,2016-06-23
+1546943,1546943,Fix Committed,[system-tests] Update upgrade test cases for data-driven fuel upgrade(+rollback) from 7.0 to 8.0,https://bugs.launchpad.net/fuel/+bug/1546943,2016-06-23
+1587074,1587074,Fix Released,BVT failure: OSTF haproxy backends check fails due to neutron-server failure on secondary controllers:  An unexpected error occurred in the NSX Plugin: Metadata initialization is incomplete on initializer node,https://bugs.launchpad.net/fuel-plugin-nsxv/+bug/1587074,2016-06-23
+1586212,1586212,Fix Committed,dos.py reports about environments from nearest future,https://bugs.launchpad.net/fuel/+bug/1586212,2016-06-23
+1583452,1583452,Fix Committed,Command dos.py slave-add doesn't work,https://bugs.launchpad.net/fuel/+bug/1583452,2016-06-23
+1384260,1384260,Fix Released,"You can click button ""Stop Tests"" many times and it's behaviour is strange",https://bugs.launchpad.net/fuel/+bug/1384260,2016-06-23
+1580991,1580991,Fix Released,"Add entry_points for l2gateway, gateway device and bgp service plugins",https://bugs.launchpad.net/networking-midonet/+bug/1580991,2016-06-23
+1591104,1591104,Fix Released,[9.0] Related notes for DPDK deployment across mult-numa guest VM.,https://bugs.launchpad.net/fuel/+bug/1591104,2016-06-23
+1566312,1566312,Fix Committed,Not flexible UX of ovs-dpdk bond creation,https://bugs.launchpad.net/fuel/+bug/1566312,2016-06-23
+1595317,1595317,Fix Committed,create devops_template for ironic deployment in case of ironic deployment for review_in_fuel_library,https://bugs.launchpad.net/fuel/+bug/1595317,2016-06-23
+1595441,1595441,Fix Released,directory name for nested-vm and k8s integeration spec should be renamed to newton,https://bugs.launchpad.net/kuryr/+bug/1595441,2016-06-23
+1537542,1537542,Fix Released,[Task-based] Nailgun generates multiple false warning about non resolved dependencies,https://bugs.launchpad.net/fuel/+bug/1537542,2016-06-23
+1590750,1590750,Fix Committed,Slave nodes logs are attempted to be collected on master node,https://bugs.launchpad.net/fuel/+bug/1590750,2016-06-23
+1591556,1591556,Fix Released,Fix .rst format in kuryr_k8s_integration.rst,https://bugs.launchpad.net/kuryr/+bug/1591556,2016-06-23
+1594789,1594789,Fix Released,lack get segment_id and type method in lswitch,https://bugs.launchpad.net/dragonflow/+bug/1594789,2016-06-23
+1594334,1594334,Fix Released,Newly registered nodes don't have default boot_option set,https://bugs.launchpad.net/tripleo-ui/+bug/1594334,2016-06-23
+1594074,1594074,Fix Released,unbound port info should not be published,https://bugs.launchpad.net/dragonflow/+bug/1594074,2016-06-23
+1585521,1585521,Fix Released,change db from etcd to redis at gate testing,https://bugs.launchpad.net/dragonflow/+bug/1585521,2016-06-23
+1593622,1593622,Fix Released,Permissions error when configuring nfs backend,https://bugs.launchpad.net/cinder/+bug/1593622,2016-06-23
+1590367,1590367,Fix Committed,Nova-network support should be removed,https://bugs.launchpad.net/fuel/+bug/1590367,2016-06-23
+1548632,1548632,Fix Released,"create a listener will cause  loadbalancer into ""PENDING_UPDATE""",https://bugs.launchpad.net/octavia/+bug/1548632,2016-06-22
+1546835,1546835,Fix Released,wrong command to pack a custom bootstrap,https://bugs.launchpad.net/fuel/+bug/1546835,2016-06-22
+1571521,1571521,Fix Released,Add support for info actions for task,https://bugs.launchpad.net/fuel/+bug/1571521,2016-06-22
+1552974,1552974,Fix Released,[docs] nova-controller mentioned in planning guide does not exist,https://bugs.launchpad.net/fuel/+bug/1552974,2016-06-22
+1569956,1569956,Fix Committed,fuel does not provision software raid as shown in documentation,https://bugs.launchpad.net/fuel/+bug/1569956,2016-06-22
+1552641,1552641,Fix Released,Ability to set VIP addresses manually should be documented for Fuel 9.0,https://bugs.launchpad.net/fuel/+bug/1552641,2016-06-22
+1558230,1558230,Fix Released,nailgun role_resolver does not support a single regexp string,https://bugs.launchpad.net/fuel/+bug/1558230,2016-06-22
+1538342,1538342,Fix Released,Some constraints in database missing ON DELETE clauses,https://bugs.launchpad.net/fuel/+bug/1538342,2016-06-22
+1594730,1594730,Fix Released,Stopping server is redundant before cold-migrating server,https://bugs.launchpad.net/rally/+bug/1594730,2016-06-22
+1592314,1592314,Fix Released,Add available params in set metadata,https://bugs.launchpad.net/tempest/+bug/1592314,2016-06-22
+1585528,1585528,Fix Committed,[octane] Octane doesn't include patches subdirectories,https://bugs.launchpad.net/fuel/+bug/1585528,2016-06-22
+1578639,1578639,Fix Committed,[octane] Disk and volume metdata preparation is non-idempotent,https://bugs.launchpad.net/fuel/+bug/1578639,2016-06-22
+1585151,1585151,Fix Committed,octane fuel-restore fails on 8.0 + mos-updates,https://bugs.launchpad.net/fuel/+bug/1585151,2016-06-22
+1574624,1574624,Fix Committed,[octane] Upgrade of compute node fails due to missing file '/tmp/update_node_partition_info.py',https://bugs.launchpad.net/fuel/+bug/1574624,2016-06-22
+1584638,1584638,Fix Committed,[octane] host_evacuation.sh isn't installed,https://bugs.launchpad.net/fuel/+bug/1584638,2016-06-22
+1584656,1584656,Fix Committed,"[octane] Upgrade second and third controllers separately fails at ""installing openstack"" part",https://bugs.launchpad.net/fuel/+bug/1584656,2016-06-22
+1484552,1484552,Fix Released,[Partition preservation] mysql is trying to use 'lost+found'  database,https://bugs.launchpad.net/fuel/+bug/1484552,2016-06-22
+1566393,1566393,Fix Committed,octane fuel-restore fails (7.0 -> 8.0),https://bugs.launchpad.net/fuel/+bug/1566393,2016-06-22
+1594438,1594438,Fix Released,Layout is broken in recent racks package,https://bugs.launchpad.net/fuel/+bug/1594438,2016-06-22
+1566307,1566307,Fix Released,Update docs for racks,https://bugs.launchpad.net/fuel/+bug/1566307,2016-06-22

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1458008,1458008,Fix Released,SoftwareDeployments and StructuredDeployments resource type names are confusing,https://bugs.launchpad.net/heat/+bug/1458008,2015-10-15
+1457675,1457675,Fix Released,OS::project_id documentation doesn't say it was added in Kilo,https://bugs.launchpad.net/heat/+bug/1457675,2015-10-15
+1456839,1456839,Fix Released,Need to add test to cover assertion errors,https://bugs.launchpad.net/heat/+bug/1456839,2015-10-15
+1455421,1455421,Fix Released,Heat could not create samples with Ceilometer,https://bugs.launchpad.net/heat/+bug/1455421,2015-10-15
+1454987,1454987,Fix Released,Heat engine does not react on first keyboard interruption,https://bugs.launchpad.net/heat/+bug/1454987,2015-10-15
+1454873,1454873,Fix Released,Stacks have reference loops,https://bugs.launchpad.net/heat/+bug/1454873,2015-10-15
+1454589,1454589,Fix Released,Failing check_resource for remote stack,https://bugs.launchpad.net/heat/+bug/1454589,2015-10-15
+1453923,1453923,Fix Released,Update AutoScale stack with nested template fails when you add or remove OS::Neutron::Pool resource,https://bugs.launchpad.net/heat/+bug/1453923,2015-10-15
+1453558,1453558,Fix Released,resource-signal Mistral workflow with params results in ResourceFailure: AttributeError,https://bugs.launchpad.net/heat/+bug/1453558,2015-10-15
+1453539,1453539,Fix Released,resource-signal Mistral workflow results in ResourceFailure: TypeError,https://bugs.launchpad.net/heat/+bug/1453539,2015-10-15
+1452983,1452983,Fix Released,can't add/del parameter in nested stack during stack-update,https://bugs.launchpad.net/heat/+bug/1452983,2015-10-15
+1452636,1452636,Fix Released,Should raise error if hooks is invalid,https://bugs.launchpad.net/heat/+bug/1452636,2015-10-15
+1452520,1452520,Fix Released,Missing template file on update fails silently,https://bugs.launchpad.net/heat/+bug/1452520,2015-10-15
+1451713,1451713,Fix Released,"No validation of imageRef, snapshot and source volume for cinder volume",https://bugs.launchpad.net/heat/+bug/1451713,2015-10-15
+1451062,1451062,Fix Released,"OS::Heat::AutoScalingGroup current_size, document as being added in kilo-1",https://bugs.launchpad.net/heat/+bug/1451062,2015-10-15
+1449808,1449808,Fix Released,mistral workflow resource needs better unit test coverage,https://bugs.launchpad.net/heat/+bug/1449808,2015-10-15
+1449805,1449805,Fix Released,stack_resource needs better unit test coverage,https://bugs.launchpad.net/heat/+bug/1449805,2015-10-15
+1449466,1449466,Fix Released,Allow to update cinder volume 'readonly' property,https://bugs.launchpad.net/heat/+bug/1449466,2015-10-15
+1449349,1449349,Fix Released,ValueError is not standardized raise in API,https://bugs.launchpad.net/heat/+bug/1449349,2015-10-15
+1448842,1448842,Fix Released,KeyError raised when deleting stack,https://bugs.launchpad.net/heat/+bug/1448842,2015-10-15
+1447209,1447209,Fix Released,heat produced a blocker for development of novaclient,https://bugs.launchpad.net/heat/+bug/1447209,2015-10-15
+1446532,1446532,Fix Released,support v6-fixed-ip for nova server,https://bugs.launchpad.net/heat/+bug/1446532,2015-10-15
+1446098,1446098,Fix Released,False positives of *_FAILED status in heat_integrationtests,https://bugs.launchpad.net/heat/+bug/1446098,2015-10-15
+1446044,1446044,Fix Released,"SAWarning: The IN-predicate on ""stack_tag.tag"" was invoked with an empty sequence.",https://bugs.launchpad.net/heat/+bug/1446044,2015-10-15
+1444898,1444898,Fix Released,Can't skip constraint validation if the value is None,https://bugs.launchpad.net/heat/+bug/1444898,2015-10-15
+1444286,1444286,Fix Released,OS::Heat:Autoscaling group Fn::GetAttr does  not work for attributes 'outputs' and 'outputs_list',https://bugs.launchpad.net/heat/+bug/1444286,2015-10-15
+1443947,1443947,Fix Released,Can not use Security group for AWS LB,https://bugs.launchpad.net/heat/+bug/1443947,2015-10-15
+1443252,1443252,Fix Released,sql migration failed on db2,https://bugs.launchpad.net/heat/+bug/1443252,2015-10-15
+1441480,1441480,Fix Released,It's not possible to get network address via network id from server networks attribute,https://bugs.launchpad.net/heat/+bug/1441480,2015-10-15
+1438002,1438002,Fix Released,stack still in SNAPSHOT_IN_PROGRESS after delete the snapshot,https://bugs.launchpad.net/heat/+bug/1438002,2015-10-15
+1437158,1437158,Fix Released,Module novaclient.v1_1 is deprecated,https://bugs.launchpad.net/heat/+bug/1437158,2015-10-15
+1437120,1437120,Fix Released,allow-specific-floating-ip-address,https://bugs.launchpad.net/heat/+bug/1437120,2015-10-15
+1397969,1397969,Fix Released,resource creation failes with type error if derived from a parameter,https://bugs.launchpad.net/heat/+bug/1397969,2015-10-15
+1465173,1465173,Fix Released,KeyError: 'backup_id' raised when stack deletion,https://bugs.launchpad.net/heat/+bug/1465173,2015-10-15
+1464379,1464379,Fix Released,TypeError: argument of type 'NoneType' is not iterable,https://bugs.launchpad.net/heat/+bug/1464379,2015-10-15
+1463929,1463929,Fix Released,ERROR: 'module' object has no attribute 'a',https://bugs.launchpad.net/heat/+bug/1463929,2015-10-15
+1463716,1463716,Fix Released,Can not delete stack with nova server resource,https://bugs.launchpad.net/heat/+bug/1463716,2015-10-15
+1459837,1459837,Fix Released,Error messages from nested stacks are awful,https://bugs.launchpad.net/heat/+bug/1459837,2015-10-15
+1457202,1457202,Fix Released,nested stack  failing with StackValidationFailed,https://bugs.launchpad.net/heat/+bug/1457202,2015-10-15
+1456700,1456700,Fix Released,KeyError: 'encrypted_param_names' in heat.objects.raw_template.get_by_id(),https://bugs.launchpad.net/heat/+bug/1456700,2015-10-15
+1456672,1456672,Fix Released,Conflict errors when snapshot-restore stacks in parallel,https://bugs.launchpad.net/heat/+bug/1456672,2015-10-15
+1450422,1450422,Fix Released,Fix info about configuring heat on devstack in docs,https://bugs.launchpad.net/heat/+bug/1450422,2015-10-15
+1450293,1450293,Fix Released,"test_neutron_loadbalancer is failing with ""httplib.InvalidURL: nonnumeric port: '4ae'""",https://bugs.launchpad.net/heat/+bug/1450293,2015-10-15
+1446958,1446958,Fix Released,Heat engine can not start after changing local language,https://bugs.launchpad.net/heat/+bug/1446958,2015-10-15
+1446861,1446861,Fix Released,ResourceGroup removal_policies broken,https://bugs.launchpad.net/heat/+bug/1446861,2015-10-15
+1446408,1446408,Fix Released,auth_encryption_key option should be secret,https://bugs.launchpad.net/heat/+bug/1446408,2015-10-15
+1458399,1458399,Fix Released,Gate jobs failing due to pbr dependency in libs,https://bugs.launchpad.net/heat/+bug/1458399,2015-10-15
+1455065,1455065,Fix Released,New tox version broke integration tests,https://bugs.launchpad.net/heat/+bug/1455065,2015-10-15
+1453357,1453357,Fix Released,Updated Cirros version broke functional tests,https://bugs.launchpad.net/heat/+bug/1453357,2015-10-15
+1449896,1449896,Fix Released,Failing FIP resources in Heat integration tests job,https://bugs.launchpad.net/heat/+bug/1449896,2015-10-15
+1455032,1455032,Fix Released,[doc] Add experimental upgrade procedure to Operations guide,https://bugs.launchpad.net/fuel/+bug/1455032,2015-10-15
+1495645,1495645,Fix Released,keystone-manage and keystone-all man pages incorrect versions/dates,https://bugs.launchpad.net/keystone/+bug/1495645,2015-10-15
+1491854,1491854,Fix Released,Fix typos in 'developing_drivers' doc,https://bugs.launchpad.net/keystone/+bug/1491854,2015-10-15
+1488903,1488903,Fix Released,Link attached to Json schema is wrong,https://bugs.launchpad.net/keystone/+bug/1488903,2015-10-15
+1418643,1418643,Fix Released,References to im_class.__name__ are not compatible with python3,https://bugs.launchpad.net/keystone/+bug/1418643,2015-10-15
+1491916,1491916,Fix Released,Improve IdP Specific WebSSO docs,https://bugs.launchpad.net/keystone/+bug/1491916,2015-10-15
+1490354,1490354,Fix Released,Tox exhausting /tmp partition,https://bugs.launchpad.net/keystone/+bug/1490354,2015-10-15
+1485604,1485604,Fix Released,Logs must contain the request ID,https://bugs.launchpad.net/keystone/+bug/1485604,2015-10-15
+1484735,1484735,Fix Released,Assertion signing error causes TypeError for Message objects do not support addition,https://bugs.launchpad.net/keystone/+bug/1484735,2015-10-15
+1482330,1482330,Fix Released,Creating a user/group/project without a domain should be deprecated (or even raise an exception),https://bugs.launchpad.net/keystone/+bug/1482330,2015-10-15
+1476347,1476347,Fix Released,LDAP Resource backend should be deprecated,https://bugs.launchpad.net/keystone/+bug/1476347,2015-10-15
+1450344,1450344,Fix Released,Invalid SQL Identity  Assertion - Load Config from Database,https://bugs.launchpad.net/keystone/+bug/1450344,2015-10-15
+1482662,1482662,Fix Released,Remove deprecated methods from assignment manager,https://bugs.launchpad.net/keystone/+bug/1482662,2015-10-15
+1480480,1480480,Fix Released,keystone v3 example policy file should allow domain admin to  get it's current domain,https://bugs.launchpad.net/keystone/+bug/1480480,2015-10-15
+1489474,1489474,Fix Released,Lack of federated token user object validation,https://bugs.launchpad.net/keystone/+bug/1489474,2015-10-15
+1487663,1487663,Fix Released,no testcases to cover the region creation with invalid id,https://bugs.launchpad.net/keystone/+bug/1487663,2015-10-15
+1486313,1486313,Fix Released,add executable bit of the source files,https://bugs.launchpad.net/keystone/+bug/1486313,2015-10-15
+1485687,1485687,Fix Released,keystone install from source doc missing libffi-devel (fedora),https://bugs.launchpad.net/keystone/+bug/1485687,2015-10-15
+1485104,1485104,Fix Released,Redundant rule:cloud_admin in list_role_assignments v3 policy file,https://bugs.launchpad.net/keystone/+bug/1485104,2015-10-15
+1482687,1482687,Fix Released,enabled emulation query should request no attributes,https://bugs.launchpad.net/keystone/+bug/1482687,2015-10-15
+1482585,1482585,Fix Released,Fix duplicate-key pylint issue,https://bugs.launchpad.net/keystone/+bug/1482585,2015-10-15
+1480119,1480119,Fix Released,Replace tearDown with addCleanup in unit tests,https://bugs.launchpad.net/keystone/+bug/1480119,2015-10-15
+1478629,1478629,Fix Released,test_admin in VersionSingleAppTestCase expects public endpoint in a response,https://bugs.launchpad.net/keystone/+bug/1478629,2015-10-15
+1474491,1474491,Fix Released,keystone.tests.unit.test_config fails in isolation,https://bugs.launchpad.net/keystone/+bug/1474491,2015-10-15
+1474490,1474490,Fix Released,keystone.tests.unit.common.test_notifications.NotificationsTestCase fails in isolation,https://bugs.launchpad.net/keystone/+bug/1474490,2015-10-15

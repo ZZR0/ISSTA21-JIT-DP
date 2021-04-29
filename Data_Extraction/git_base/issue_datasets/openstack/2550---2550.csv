@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1777475,1777475,Fix Released,Undercloud vm in state error after update of the undercloud.,https://bugs.launchpad.net/nova/+bug/1777475,2020-04-23
+1777475,1777475,Fix Released,Undercloud vm in state error after update of the undercloud.,https://bugs.launchpad.net/tripleo/+bug/1777475,2020-04-23
+1867920,1867920,Fix Released,Missing configuration item in doc/source/configuration/block-storage/drivers/infortrend-volume-driver.rst,https://bugs.launchpad.net/cinder/+bug/1867920,2020-04-23
+1868153,1868153,Fix Released,After volume.refresh we forget the volume is locally attached,https://bugs.launchpad.net/cinderlib/+bug/1868153,2020-04-23
+1873007,1873007,Fix Released,All roles allowed to edit metadata on cinder volumes and snapshots,https://bugs.launchpad.net/horizon/+bug/1873007,2020-04-23
+1813703,1813703,Fix Released,[L2] [summary] ovs-agent issues at large scale,https://bugs.launchpad.net/neutron/+bug/1813703,2020-04-23
+1873246,1873246,Fix Released,"overcloud deploy failed in ""PLAY [Run Create admin]""",https://bugs.launchpad.net/tripleo/+bug/1873246,2020-04-23
+1867608,1867608,Fix Released,Error in keystone resources in tripleo-ansible with ansible 2.9,https://bugs.launchpad.net/tripleo/+bug/1867608,2020-04-23
+1866871,1866871,Fix Released,PowerMax Driver - Allowing for default volume type in group,https://bugs.launchpad.net/cinder/+bug/1866871,2020-04-23
+1870149,1870149,Fix Released,Cannot start cinderlib,https://bugs.launchpad.net/cinderlib/+bug/1870149,2020-04-23
+1873240,1873240,Fix Released,Missing rootwrap filter rule for radvd kill script,https://bugs.launchpad.net/neutron/+bug/1873240,2020-04-23
+1861221,1861221,Fix Released,"[FT] ncat process do not provide information, if any, about the error during execution",https://bugs.launchpad.net/neutron/+bug/1861221,2020-04-23
+1848278,1848278,Fix Released,tempest extend/shrink tests may use wrong share export location,https://bugs.launchpad.net/manila/+bug/1848278,2020-04-23
+1858024,1858024,Fix Released,ssh key mismatch occurred when booting more than one instance,https://bugs.launchpad.net/manila/+bug/1858024,2020-04-23
+1850545,1850545,Fix Released,Manila allows the creation of unlimited share replicas,https://bugs.launchpad.net/manila/+bug/1850545,2020-04-23
+1874242,1874242,Fix Released,[tempest] Quota tests for microversion 2.53 are failing in stable branches,https://bugs.launchpad.net/manila/+bug/1874242,2020-04-22
+1873708,1873708,Fix Released,Floating IP was not removed from the router when the port forwarding deletion was completed,https://bugs.launchpad.net/neutron/+bug/1873708,2020-04-22
+1873544,1873544,Fix Released,start kuryr-controller get SSLError when connecting to openstack authurl,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1873544,2020-04-22
+1869708,1869708,Fix Released,"monasca ui throws an ''AnonymousUser' object has no attribute 'project_id'"" error when not logged in",https://bugs.launchpad.net/horizon/+bug/1869708,2020-04-22
+1828993,1828993,Fix Released,volumes may be mounted using outdated sources with the Quobyte driver,https://bugs.launchpad.net/cinder/+bug/1828993,2020-04-22
+1866236,1866236,Fix Released,goodness_function doesn't report correct values,https://bugs.launchpad.net/cinder/+bug/1866236,2020-04-22
+1873776,1873776,Fix Released,[stable/stein] Neutron-tempest-plugin jobs are failing due to wrong python version,https://bugs.launchpad.net/neutron/+bug/1873776,2020-04-22
+1849518,1849518,Fix Released,oslopolicy-list-redundant loses cli args when used with keystone,https://bugs.launchpad.net/keystone/+bug/1849518,2020-04-22
+1871406,1871406,Fix Released,ValueError: not enough values to unpack during Tempest execution,https://bugs.launchpad.net/rally/+bug/1871406,2020-04-22
+1846360,1846360,Fix Released,Pyroute2 can return dictionary keys in bytes instead of strings,https://bugs.launchpad.net/neutron/+bug/1846360,2020-04-22
+1872962,1872962,Fix Released,[kuryr-controller] Kuryr deploys Octavia Listeners in disabled state,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1872962,2020-04-22
+1861754,1861754,Fix Released,single yaml file in csar is failed to upload,https://bugs.launchpad.net/tacker/+bug/1861754,2020-04-22
+1861680,1861680,Fix Released,[OVN] QoS OVN driver does not return a correct set of qos options,https://bugs.launchpad.net/neutron/+bug/1861680,2020-04-21
+1871010,1871010,Fix Released,Problem: package python3-tripleoclient-13.1.1-0.20200404091914.624a61f.el8.noarch requires validations-common,https://bugs.launchpad.net/tripleo/+bug/1871010,2020-04-21
+1869778,1869778,Fix Released,train upgrade jobs blocked by missing stein containers,https://bugs.launchpad.net/tripleo/+bug/1869778,2020-04-21
+1869165,1869165,Fix Released,component compute  test_port_security_disable_security_group tempest failing often,https://bugs.launchpad.net/tripleo/+bug/1869165,2020-04-21
+1871908,1871908,Fix Released,"Fullstack security groups tests failing with ""broken pipe"" error",https://bugs.launchpad.net/neutron/+bug/1871908,2020-04-21
+1864027,1864027,Fix Released,[OVN] DHCP doesn't work while instance has disabled port security,https://bugs.launchpad.net/neutron/+bug/1864027,2020-04-21
+1861092,1861092,Fix Released,[OVN] Too frequent agent health-checks causes stress on ovsdb-server,https://bugs.launchpad.net/neutron/+bug/1861092,2020-04-21
+1869887,1869887,Fix Released,L3 DVR ARP population gets incorrect MAC address in some cases,https://bugs.launchpad.net/neutron/+bug/1869887,2020-04-21
+1862927,1862927,Fix Released,"""ncat"" rootwrap filter is missing",https://bugs.launchpad.net/neutron/+bug/1862927,2020-04-21
+1864641,1864641,Fix Released,[OVN] Run maintenance task whenever the OVN DB schema has been upgraded,https://bugs.launchpad.net/neutron/+bug/1864641,2020-04-21
+1871340,1871340,Fix Released,neutron.tests.functional.agent.ovn.metadata.test_metadata_agent.TestMetadataAgent.test_agent_registration_at_chassis_create_event fails randomly,https://bugs.launchpad.net/neutron/+bug/1871340,2020-04-21
+1870313,1870313,Fix Released,"""send_ip_addr_adv_notif"" can't use eventlet when called from ""keepalived_state_change""",https://bugs.launchpad.net/neutron/+bug/1870313,2020-04-21
+1864620,1864620,Fix Released,[OVN] neutron_tempest_plugin.scenario.test_security_groups.NetworkSecGroupTest.test_multiple_ports_portrange_remote often fails,https://bugs.launchpad.net/neutron/+bug/1864620,2020-04-21
+1862648,1862648,Fix Released,[OVN] Reduce the number of tables watched by MetadataProxyHandler,https://bugs.launchpad.net/neutron/+bug/1862648,2020-04-21
+1860612,1860612,Fix Released,OVN agent devstack script doesn't support IPv6,https://bugs.launchpad.net/neutron/+bug/1860612,2020-04-21
+1861502,1861502,Fix Released,[OVN] Mechanism driver - failing to recreate floating IP,https://bugs.launchpad.net/neutron/+bug/1861502,2020-04-21
+1849547,1849547,Fix Released,Use threads insted of greethreads in IP monitor,https://bugs.launchpad.net/neutron/+bug/1849547,2020-04-21
+1861876,1861876,Fix Released,[Neutron API] Neutron Floating IP not always have 'port_details',https://bugs.launchpad.net/nova/+bug/1861876,2020-04-21
+1861876,1861876,Fix Released,[Neutron API] Neutron Floating IP not always have 'port_details',https://bugs.launchpad.net/neutron/+bug/1861876,2020-04-21
+1855260,1855260,Fix Released,SmartNIC OVS representor port is not removed from OVS on instance tear down,https://bugs.launchpad.net/neutron/+bug/1855260,2020-04-21
+1861269,1861269,Fix Released,Functional tests failing due to failure with getting datapath ID from ovs,https://bugs.launchpad.net/neutron/+bug/1861269,2020-04-21
+1866336,1866336,Fix Released,Binding of floating ip agent gateway port and agent_id isn't removed,https://bugs.launchpad.net/neutron/+bug/1866336,2020-04-21
+1815933,1815933,Fix Committed,[RFE] Allow bulk-tagging of resources,https://bugs.launchpad.net/neutron/+bug/1815933,2020-04-21
+1831315,1831315,Fix Released,nova-manage cell_v2 discover_hosts fails for IPv6 - ValueError: invalid literal for int() with base 10 - db connection URI gets its brackets eaten,https://bugs.launchpad.net/tripleo/+bug/1831315,2020-04-21
+1856581,1856581,Fix Released,metadefs: OS::Glance::CommonImageProperties out of date,https://bugs.launchpad.net/glance/+bug/1856581,2020-04-21
+1871999,1871999,Fix Released,powermax and vnx drivers create_share_from_snapshot returns str instead of list,https://bugs.launchpad.net/manila/+bug/1871999,2020-04-21
+1864181,1864181,Fix Released,Monasca deployment fails due to invalid variable monasca_log_dir,https://bugs.launchpad.net/kolla-ansible/+bug/1864181,2020-04-21
+1843576,1843576,Fix Released,Glance metadefs is missing Image property hw_vif_multiqueue_enabled,https://bugs.launchpad.net/glance/+bug/1843576,2020-04-21
+1873453,1873453,Fix Released,[master] Job in gate failed with Could not find the requested service tripleo_keystone.service: host,https://bugs.launchpad.net/tripleo/+bug/1873453,2020-04-21
+1872998,1872998,Fix Released,Support configuring [neutron]/dhcpv6_stateful_address_count in ironic.conf,https://bugs.launchpad.net/tripleo/+bug/1872998,2020-04-21
+1868063,1868063,Fix Released,Timeout settings are misused for config download and some workflows,https://bugs.launchpad.net/tripleo/+bug/1868063,2020-04-21
+1778563,1778563,Fix Released,Resize/Cold-migrate doesn't recreate vGPUs,https://bugs.launchpad.net/nova/+bug/1778563,2020-04-21
+1872562,1872562,Fix Released,puppet-openstack-unit-5.5-centos-8 is broken because of puppet modules incompatible with CentOS8,https://bugs.launchpad.net/tripleo/+bug/1872562,2020-04-20
+1873239,1873239,Fix Released,TripleO doesn't set proper cache backend for OpenIdc when environments/enable-federation-openidc.yaml is used,https://bugs.launchpad.net/tripleo/+bug/1873239,2020-04-20
+1871646,1871646,Fix Released,Minor updates in composable HA break due to haproxy rules being applied too late,https://bugs.launchpad.net/tripleo/+bug/1871646,2020-04-20
+1867904,1867904,Fix Released,Catch json exception in TaggedBootDevicesTest.verify_device_metadata,https://bugs.launchpad.net/tempest/+bug/1867904,2020-04-20
+1864180,1864180,Fix Released,Kibana deployment fails due to invalid value for elasticsearch.ssl.certificateAuthorities,https://bugs.launchpad.net/kolla-ansible/+bug/1864180,2020-04-20
+1844168,1844168,Fix Released,[L3] TooManyExternalNetworks: More than one external network exists.,https://bugs.launchpad.net/neutron/+bug/1844168,2020-04-20
+1839595,1839595,Fix Released,neutron.tests.unit.scheduler.test_dhcp_agent_scheduler.TestNetworksFailover.test_filter_bindings test can fail depending on generated UUIDs,https://bugs.launchpad.net/neutron/+bug/1839595,2020-04-20
+1834849,1834849,Fix Released,Wrong endpoints config with configure_auth_token_middleware,https://bugs.launchpad.net/neutron/+bug/1834849,2020-04-20
+1857562,1857562,Fix Committed,[Zun][Vitrage][Horizon] Containers view broken when enabled Vitrage,https://bugs.launchpad.net/zun-ui/+bug/1857562,2020-04-20
+1857562,1857562,Fix Committed,[Zun][Vitrage][Horizon] Containers view broken when enabled Vitrage,https://bugs.launchpad.net/vitrage-dashboard/+bug/1857562,2020-04-20
+1813714,1813714,Fix Released,[L2][scale issue] ovs-agent meets unexpected flow lost,https://bugs.launchpad.net/neutron/+bug/1813714,2020-04-20
+1869731,1869731,Fix Released,powermax driver does not recognise retype change required to re-enable compression,https://bugs.launchpad.net/cinder/+bug/1869731,2020-04-19
+1863053,1863053,Fix Released,Swift on py3 doesn't like message/rfc822 data,https://bugs.launchpad.net/swift/+bug/1863053,2020-04-19
+1817966,1817966,Fix Released,Encourage the use of static device names in fstab,https://bugs.launchpad.net/swift/+bug/1817966,2020-04-19
+1873532,1873532,Fix Released,pytest breaks all horizon plugin tests,https://bugs.launchpad.net/horizon/+bug/1873532,2020-04-18
+1872919,1872919,Fix Released,py38 test failed in test_hacking.HackingTestCase,https://bugs.launchpad.net/manila/+bug/1872919,2020-04-18

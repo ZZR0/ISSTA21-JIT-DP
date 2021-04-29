@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1793649,1793649,Fix Released,Add rocky support to install guide for OpenStack packages for Ubuntu,https://bugs.launchpad.net/openstack-manuals/+bug/1793649,2018-09-25
+1726301,1726301,Fix Released,Nova should list instances even if it can't connect to a cell DB,https://bugs.launchpad.net/nova/+bug/1726301,2018-09-25
+1613237,1613237,Fix Released,DHCP agent hostname should be configurable,https://bugs.launchpad.net/networking-calico/+bug/1613237,2018-09-25
+1793375,1793375,Fix Released,attempting the tripleo container image prepare workflow without logging out after install results in an error,https://bugs.launchpad.net/tripleo/+bug/1793375,2018-09-25
+1638863,1638863,Fix Released,cannot update labels in cluster-template,https://bugs.launchpad.net/magnum-ui/+bug/1638863,2018-09-25
+1638863,1638863,Fix Released,cannot update labels in cluster-template,https://bugs.launchpad.net/magnum/+bug/1638863,2018-09-25
+1473042,1473042,Fix Released,s3 token authentication doesn't support v4 protocol,https://bugs.launchpad.net/keystone/+bug/1473042,2018-09-24
+1275962,1275962,Fix Released,s3token should have auth_uri,https://bugs.launchpad.net/keystonemiddleware/+bug/1275962,2018-09-24
+1775625,1775625,Fix Released,nova-scheduler calculates alternative hosts incorrectly,https://bugs.launchpad.net/nova/+bug/1775625,2018-09-24
+1776596,1776596,Fix Released,[QUEENS] Promotion Jobs failing at overcloud deployment with AttributeError: 'IronicNodeState' object has no attribute 'failed_builds',https://bugs.launchpad.net/tripleo/+bug/1776596,2018-09-24
+1776596,1776596,Fix Released,[QUEENS] Promotion Jobs failing at overcloud deployment with AttributeError: 'IronicNodeState' object has no attribute 'failed_builds',https://bugs.launchpad.net/nova/+bug/1776596,2018-09-24
+1750450,1750450,Fix Released,ironic: n-cpu fails to recover after losing connection to ironic-api and placement-api,https://bugs.launchpad.net/nova/+bug/1750450,2018-09-24
+1778044,1778044,Fix Released,libvirt.libvirtError: internal error: unable to execute QEMU command 'object-add': Incorrect number of padding bytes,https://bugs.launchpad.net/nova/+bug/1778044,2018-09-24
+1770636,1770636,Fix Released,placement API not translating CannotDeleteParentResourceProvider to 409 Conflict,https://bugs.launchpad.net/nova/+bug/1770636,2018-09-24
+1726310,1726310,Fix Released,nova doesn't list services if it can't connect to a cell DB,https://bugs.launchpad.net/nova/+bug/1726310,2018-09-24
+1762688,1762688,Fix Released,rescued instance doesn't have attached vGPUs,https://bugs.launchpad.net/nova/+bug/1762688,2018-09-24
+1777458,1777458,Fix Released,Listing instances with a marker that is in the build_requests table and the ip/ip6 filters results in an error,https://bugs.launchpad.net/nova/+bug/1777458,2018-09-24
+1775863,1775863,Fix Released,Cannot save a RequestSpec object if nothing changed,https://bugs.launchpad.net/nova/+bug/1775863,2018-09-24
+1779626,1779626,Fix Released,MTU setting feature conflicts with minimum Qemu version,https://bugs.launchpad.net/nova/+bug/1779626,2018-09-24
+1761405,1761405,Fix Released,impossible to disable notifications,https://bugs.launchpad.net/nova/+bug/1761405,2018-09-24
+1737513,1737513,Fix Released,img_signature_hash_method and img_signature are inherited when creating a snapshot,https://bugs.launchpad.net/nova/+bug/1737513,2018-09-24
+1781100,1781100,Fix Released,TypeError: delete_allocation_for_failed_resize() takes exactly 5 arguments (4 given) in ComputeManager.prep_resize,https://bugs.launchpad.net/nova/+bug/1781100,2018-09-24
+1750623,1750623,Fix Released,rebuild to same host with different image shouldn't check with placement,https://bugs.launchpad.net/nova/+bug/1750623,2018-09-24
+1745529,1745529,Fix Released,"Failed to shelve paused instance with libvirt: ""libvirtError: Requested operation is not valid: domain is not running""",https://bugs.launchpad.net/nova/+bug/1745529,2018-09-24
+1757407,1757407,Fix Released,Notification sending sometimes hits the keystone API to get glance endpoints,https://bugs.launchpad.net/nova/+bug/1757407,2018-09-24
+1761054,1761054,Fix Released,nova log expose password when swapvolume,https://bugs.launchpad.net/nova/+bug/1761054,2018-09-24
+1662867,1662867,Fix Released,update_available_resource_for_node racing instance deletion,https://bugs.launchpad.net/nova/+bug/1662867,2018-09-24
+1752824,1752824,Fix Released,VMware: error while get serial console log,https://bugs.launchpad.net/nova/+bug/1752824,2018-09-24
+1763183,1763183,Fix Released,DELETE /os-services/{service_id} does not block for hosted instances,https://bugs.launchpad.net/nova/+bug/1763183,2018-09-24
+1760303,1760303,Fix Released,ComputeManager.cleanup_host fails when there are waiting events: ValueError: Field value network-vif-plugged-ce531f90-199f-48c0-816c is invalid,https://bugs.launchpad.net/nova/+bug/1760303,2018-09-24
+1679750,1679750,Fix Released,Allocations are not cleaned up in placement for instance 'local delete' case,https://bugs.launchpad.net/nova/+bug/1679750,2018-09-24
+1724621,1724621,Fix Released,nova-manage cell_v2 verify_instance returns a valid instance mapping even after the instance is deleted/archived,https://bugs.launchpad.net/nova/+bug/1724621,2018-09-24
+1782056,1782056,Fix Released,add release note for vnx and unity template changes,https://bugs.launchpad.net/tripleo/+bug/1782056,2018-09-24
+1781894,1781894,Fix Released,With NovaNfsEnabled instance create fails due to wrong default selinux context.,https://bugs.launchpad.net/tripleo/+bug/1781894,2018-09-24
+1783520,1783520,Fix Released,"ceph-nfs defaults to admin keyring, which is not available when distributed to a custom role",https://bugs.launchpad.net/tripleo/+bug/1783520,2018-09-24
+1783341,1783341,Fix Released,Customizing ManilaCephFSCephFSAuthId does not have any effect,https://bugs.launchpad.net/tripleo/+bug/1783341,2018-09-24
+1783155,1783155,Fix Released,Nova cron for archiving deleted rows isn't parametrable,https://bugs.launchpad.net/tripleo/+bug/1783155,2018-09-24
+1777249,1777249,Fix Released,ceph.client.manila.keyring  contains uncessary backslashes in caps mon,https://bugs.launchpad.net/tripleo/+bug/1777249,2018-09-24
+1778597,1778597,Fix Released,low-memory-usage.yaml should lower NovaReservedHostMemory to 512MB,https://bugs.launchpad.net/tripleo/+bug/1778597,2018-09-24
+1784032,1784032,Fix Released,[manila] upgrade from baremetal to containers fails,https://bugs.launchpad.net/tripleo/+bug/1784032,2018-09-24
+1779500,1779500,Fix Released,CinderNetAppBackendName is not reflected in deployed environment,https://bugs.launchpad.net/tripleo/+bug/1779500,2018-09-24
+1784863,1784863,Fix Released,Minor stack update on controllers is failing with OVN deployments,https://bugs.launchpad.net/tripleo/+bug/1784863,2018-09-24
+1785028,1785028,Fix Released,"Upgrade checks services 6 times in row, this causes slowdown and does not scale",https://bugs.launchpad.net/tripleo/+bug/1785028,2018-09-24
+1785700,1785700,Fix Released,with tls-everywhere connection from haproxy to novnc proxy is not encrypted,https://bugs.launchpad.net/tripleo/+bug/1785700,2018-09-24
+1781585,1781585,Fix Released,"With OVN deployments, ovn db servers are flooding the logs",https://bugs.launchpad.net/tripleo/+bug/1781585,2018-09-24
+1779706,1779706,Fix Released,"Whe n deploying OVN, the hosts configured with ovn-bridge-mappings should increase the mac-table-size of the provider bridges to a large value",https://bugs.launchpad.net/tripleo/+bug/1779706,2018-09-24
+1785665,1785665,Fix Released,Stack update failed with Property error: resources.BootstrapServerId.properties.value when blacklisting controllers,https://bugs.launchpad.net/tripleo/+bug/1785665,2018-09-24
+1786311,1786311,Fix Released,neutron netns and ovs cleanup services don't work with containers,https://bugs.launchpad.net/tripleo/+bug/1786311,2018-09-24
+1780932,1780932,Fix Released,Move role-specific parameters of DPDK to roles file from the environment file,https://bugs.launchpad.net/tripleo/+bug/1780932,2018-09-24
+1787010,1787010,Fix Released,The Parameter (UndercloudUpgrade) was not provided.,https://bugs.launchpad.net/tripleo/+bug/1787010,2018-09-24
+1787959,1787959,Fix Released,Ceilometer Gnocchi upgrade fails with TLS everywhere,https://bugs.launchpad.net/tripleo/+bug/1787959,2018-09-24
+1779410,1779410,Fix Released,Edit post_upate_tasks logic for ODL,https://bugs.launchpad.net/tripleo/+bug/1779410,2018-09-24
+1788584,1788584,Fix Released,IHA uses compute public endpoint by default and is not overridable,https://bugs.launchpad.net/tripleo/+bug/1788584,2018-09-24
+1786212,1786212,Fix Released,FFWD: boot_param_tasks.yaml doesn't set BOOTPROTO=none due to conditions are never met,https://bugs.launchpad.net/tripleo/+bug/1786212,2018-09-24
+1781623,1781623,Fix Released,nova_placement in unhealthy state in containerized overcloud,https://bugs.launchpad.net/tripleo/+bug/1781623,2018-09-24
+1783740,1783740,Fix Released,Excessive output from mistral workflows results in a DB update error during WorkflowTasks_Step2_Execution,https://bugs.launchpad.net/tripleo/+bug/1783740,2018-09-24
+1782168,1782168,Fix Released,"[Upgrades] deploy_steps fail with AnsibleUndefinedVariable: \'dict object\' has no attribute \'ansible_hostname\'""",https://bugs.launchpad.net/tripleo/+bug/1782168,2018-09-24
+1783866,1783866,Fix Released,fs037 updates: Failed to update nodes - Controller,https://bugs.launchpad.net/tripleo/+bug/1783866,2018-09-24
+1785704,1785704,Fix Released,enable_ssh_admin doesnt use user specified ssh key when removing tmp key,https://bugs.launchpad.net/tripleo/+bug/1785704,2018-09-24
+1785829,1785829,Fix Released,Remove CLI warning when running FFU,https://bugs.launchpad.net/tripleo/+bug/1785829,2018-09-24
+1786037,1786037,Fix Released,OVS in ODL deployments have wrong OF port 6640 instead of 6653,https://bugs.launchpad.net/tripleo/+bug/1786037,2018-09-24
+1786412,1786412,Fix Released,BlockStorage role conflicts with Controller on CinderVolume,https://bugs.launchpad.net/tripleo/+bug/1786412,2018-09-24
+1787878,1787878,Fix Released,TLS everywhere: CRL retrieval fails when FreeIPA is replicated,https://bugs.launchpad.net/tripleo/+bug/1787878,2018-09-24
+1762475,1762475,Fix Released,Docker debug puppet augeas fails to apply,https://bugs.launchpad.net/tripleo/+bug/1762475,2018-09-24
+1762330,1762330,Fix Released,High cpu usage of cfgvalidator datasource,https://bugs.launchpad.net/congress/+bug/1762330,2018-09-24
+1762586,1762586,Fix Released,Monasca driver custom poll_time causes error,https://bugs.launchpad.net/congress/+bug/1762586,2018-09-24
+1775001,1775001,Fix Released,ceilometer undercloud snmp polling is broken,https://bugs.launchpad.net/tripleo/+bug/1775001,2018-09-24
+1780722,1780722,Fix Released,rsyslog does not send system logs to fluentd,https://bugs.launchpad.net/tripleo/+bug/1780722,2018-09-24
+1739024,1739024,Fix Released,UCS ironic nodes collide on import,https://bugs.launchpad.net/tripleo/+bug/1739024,2018-09-24
+1665025,1665025,Fix Released,LLDP discovery fails when I have NICs that aren't plugged in on my server,https://bugs.launchpad.net/ironic-python-agent/+bug/1665025,2018-09-24
+1611852,1611852,Fix Released,Create and delete port timing windows with address sets,https://bugs.launchpad.net/networking-ovn/+bug/1611852,2018-09-24
+1718280,1718280,Fix Released,CinderVolumes.create_volume_from_snapshot has wrong order deleting source snapshot before volume,https://bugs.launchpad.net/rally/+bug/1718280,2018-09-21
+1676994,1676994,Fix Released,[openstack containers] HA deployment with containers on overcloud fails during ControllerContainersDeployment_Step3 .,https://bugs.launchpad.net/tripleo/+bug/1676994,2018-09-21
+1700909,1700909,Fix Released,The sosreport plugins must collect containerized services configs/logs as well,https://bugs.launchpad.net/tripleo/+bug/1700909,2018-09-21
+1682179,1682179,Fix Released,containers are not working when the host has selinux in enforcing mode,https://bugs.launchpad.net/tripleo/+bug/1682179,2018-09-21

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1221478,1221478,Fix Released,YamlMinimalTest.test_long_yaml takes 22 seconds to run,https://bugs.launchpad.net/heat/+bug/1221478,2013-10-17
+1221009,1221009,Fix Released,TemplateResource empty list property causes backtrace,https://bugs.launchpad.net/heat/+bug/1221009,2013-10-17
+1220723,1220723,Fix Released,Improve test coverage of stack deletion,https://bugs.launchpad.net/heat/+bug/1220723,2013-10-17
+1217617,1217617,Fix Released,Always requiring password on create is too restrictive,https://bugs.launchpad.net/heat/+bug/1217617,2013-10-17
+1215797,1215797,Fix Released,Remove/update references to Fedora17,https://bugs.launchpad.net/heat/+bug/1215797,2013-10-17
+1215501,1215501,Fix Released,In REST API JSON API body should be size limited,https://bugs.launchpad.net/heat/+bug/1215501,2013-10-17
+1215100,1215100,Fix Released,Nested stacks can be used to create billions of resources,https://bugs.launchpad.net/heat/+bug/1215100,2013-10-17
+1214602,1214602,Fix Released,stack_list loads all resource from the database via the ORM,https://bugs.launchpad.net/heat/+bug/1214602,2013-10-17
+1209492,1209492,Fix Released,Users can fill up the events table,https://bugs.launchpad.net/heat/+bug/1209492,2013-10-17
+1227816,1227816,Fix Released,Bad environment file results in un-deletable stack,https://bugs.launchpad.net/heat/+bug/1227816,2013-10-17
+1223035,1223035,Fix Released,Dependencies not calculated for HOT templates,https://bugs.launchpad.net/heat/+bug/1223035,2013-10-17
+1220737,1220737,Fix Released,AttributeError exception when getting InstanceList attribute of OS::Heat::InstanceGroup in Outputs section,https://bugs.launchpad.net/heat/+bug/1220737,2013-10-17
+1214333,1214333,Fix Released,Schema missing for SecurityGroupIngress and SecurityGroupEgress properties,https://bugs.launchpad.net/heat/+bug/1214333,2013-10-17
+1211507,1211507,Fix Released,Heat engine exceptions are not being localized in  REST API responses,https://bugs.launchpad.net/heat/+bug/1211507,2013-10-17
+1210183,1210183,Fix Released,unnecessary individual import heat.tests.utils.X,https://bugs.launchpad.net/heat/+bug/1210183,2013-10-17
+1209240,1209240,Fix Released,Incoherence between heat and python-ceilometerclient on auth_token type,https://bugs.launchpad.net/heat/+bug/1209240,2013-10-17
+1208620,1208620,Fix Released,REST API error responses are not consistent,https://bugs.launchpad.net/heat/+bug/1208620,2013-10-17
+1208559,1208559,Fix Released,Cloud Server resource caches API data that could change,https://bugs.launchpad.net/heat/+bug/1208559,2013-10-17
+1207032,1207032,Fix Released,Updating stack fails when an action is already in progress,https://bugs.launchpad.net/heat/+bug/1207032,2013-10-17
+1206865,1206865,Fix Released,FloatingIpPoolNotFound when creating ElasticIp,https://bugs.launchpad.net/heat/+bug/1206865,2013-10-17
+1205465,1205465,Fix Released,Support RHEL and CentOS distros in Cloud Server resource,https://bugs.launchpad.net/heat/+bug/1205465,2013-10-17
+1204601,1204601,Fix Released,Rackspace database resource output is empty/null,https://bugs.launchpad.net/heat/+bug/1204601,2013-10-17
+1204582,1204582,Fix Released,unregistered KeyName error should be a normal string not a json,https://bugs.launchpad.net/heat/+bug/1204582,2013-10-17
+1204268,1204268,Fix Released,Delete stack shows resources in INIT-COMPLETE instead of DELETE-COMPLETE,https://bugs.launchpad.net/heat/+bug/1204268,2013-10-17
+1202987,1202987,Fix Released,"A direct reference to a swift, s3 resource can be resolved to 'None'",https://bugs.launchpad.net/heat/+bug/1202987,2013-10-17
+1202552,1202552,Fix Released,Statistic SampleCount works incorrect if heat engine restart,https://bugs.launchpad.net/heat/+bug/1202552,2013-10-17
+1202031,1202031,Fix Released,the periodic watch task is created if there are no alarms,https://bugs.launchpad.net/heat/+bug/1202031,2013-10-17
+1199311,1199311,Fix Released,Default attribute is missed in hot translate parameter,https://bugs.launchpad.net/heat/+bug/1199311,2013-10-17
+1197077,1197077,Fix Released,Rackspace db resource throws exception,https://bugs.launchpad.net/heat/+bug/1197077,2013-10-17
+1214429,1214429,Fix Released,Misleading error on invalid template URL,https://bugs.launchpad.net/heat/+bug/1214429,2013-10-17
+1208567,1208567,Fix Released,"Double assignment of ""error"" in test_api_openstack_v1.py",https://bugs.launchpad.net/heat/+bug/1208567,2013-10-17
+1217172,1217172,Fix Released,heat.po files are missing in heat,https://bugs.launchpad.net/heat/+bug/1217172,2013-10-17
+1215850,1215850,Fix Released,user_creds contains several unnecessary columns,https://bugs.launchpad.net/heat/+bug/1215850,2013-10-17
+1215834,1215834,Fix Released,Several config options do nothing,https://bugs.launchpad.net/heat/+bug/1215834,2013-10-17
+1215140,1215140,Fix Released,InstanceGroup shouldn't delete instances that failed to be created,https://bugs.launchpad.net/heat/+bug/1215140,2013-10-17
+1214239,1214239,Fix Released,Infinitely recursing stacks reach python's maximum recursion depth,https://bugs.launchpad.net/heat/+bug/1214239,2013-10-17
+1213285,1213285,Fix Released,Creating an instances results in AttributeError: fault,https://bugs.launchpad.net/heat/+bug/1213285,2013-10-17
+1211941,1211941,Fix Released,TypeError when instance status goes to ERROR (need 3 args for ResourceFailure),https://bugs.launchpad.net/heat/+bug/1211941,2013-10-17
+1211633,1211633,Fix Released,ScalingPolicy delete fails on user 404,https://bugs.launchpad.net/heat/+bug/1211633,2013-10-17
+1209413,1209413,Fix Released,Doc generation is broken due to missing import _,https://bugs.launchpad.net/heat/+bug/1209413,2013-10-17
+1204650,1204650,Fix Released,Rackspace Cloud Servers unsupported image with no UserData/MetaData,https://bugs.launchpad.net/heat/+bug/1204650,2013-10-17
+1204506,1204506,Fix Released,event-list fails after resource-remove stack update,https://bugs.launchpad.net/heat/+bug/1204506,2013-10-17
+1204061,1204061,Fix Released,heat template-validate does not work on hot template,https://bugs.launchpad.net/heat/+bug/1204061,2013-10-17
+1197074,1197074,Fix Released,user_creds table stores redundant data,https://bugs.launchpad.net/heat/+bug/1197074,2013-10-17
+1195793,1195793,Fix Released,heat event-list is really slow,https://bugs.launchpad.net/heat/+bug/1195793,2013-10-17
+1193415,1193415,Fix Released,Unable to reference other security group id as part of an ingress group,https://bugs.launchpad.net/heat/+bug/1193415,2013-10-17
+1191685,1191685,Fix Released,heat-provision.log now contains no useful info,https://bugs.launchpad.net/heat/+bug/1191685,2013-10-17
+1183275,1183275,Fix Released,Heat Engine default configuration miss RPC flags,https://bugs.launchpad.net/heat/+bug/1183275,2013-10-17
+1164866,1164866,Fix Released,EIPAssociation resource should implement the NetworkInterfaceId attribute,https://bugs.launchpad.net/heat/+bug/1164866,2013-10-17
+1164865,1164865,Fix Released,EIPAssociation resource should implement the AllocationId attribute,https://bugs.launchpad.net/heat/+bug/1164865,2013-10-17
+1158598,1158598,Fix Released,REST error body should be parseable by clients,https://bugs.launchpad.net/heat/+bug/1158598,2013-10-17
+1215132,1215132,Fix Released,Nova server gets deleted immediately after failed create,https://bugs.launchpad.net/heat/+bug/1215132,2013-10-17
+1214831,1214831,Fix Released,CFN API error responses all broken,https://bugs.launchpad.net/heat/+bug/1214831,2013-10-17
+1214580,1214580,Fix Released,Heat does not make use of the C libyaml parser.,https://bugs.launchpad.net/heat/+bug/1214580,2013-10-17
+1214457,1214457,Fix Released,exception.ServerError being abused in nova_utils.py,https://bugs.launchpad.net/heat/+bug/1214457,2013-10-17
+1214234,1214234,Fix Released,Big stacks can be used to crash heat-engine,https://bugs.launchpad.net/heat/+bug/1214234,2013-10-17
+1214007,1214007,Fix Released,InstanceGroup.resize may leave nested stack in FAILED status,https://bugs.launchpad.net/heat/+bug/1214007,2013-10-17
+1212013,1212013,Fix Released,Auto scaling nested stack loses its owner_id on stack update,https://bugs.launchpad.net/heat/+bug/1212013,2013-10-17
+1211276,1211276,Fix Released,can't cancel wedged stack-create,https://bugs.launchpad.net/heat/+bug/1211276,2013-10-17
+1211125,1211125,Fix Released,Autoscaling groups are broken if they have a reference,https://bugs.launchpad.net/heat/+bug/1211125,2013-10-17
+1210681,1210681,Fix Released,ResourceFailure exception is created incorrectly,https://bugs.launchpad.net/heat/+bug/1210681,2013-10-17
+1209141,1209141,Fix Released,Heat config: all options related to binding should be splited from DEFAULT,https://bugs.launchpad.net/heat/+bug/1209141,2013-10-17
+1208454,1208454,Fix Released,Exception is swallowed during template validation,https://bugs.launchpad.net/heat/+bug/1208454,2013-10-17
+1207193,1207193,Fix Released,All errors encountered while storing are logged and ignored.,https://bugs.launchpad.net/heat/+bug/1207193,2013-10-17
+1207088,1207088,Fix Released,Requirement for cloud-init 0.7 broke Cloud Server resource,https://bugs.launchpad.net/heat/+bug/1207088,2013-10-17
+1206505,1206505,Fix Released,cfn-get-metadata is broken if there is a waitcondition in the stack,https://bugs.launchpad.net/heat/+bug/1206505,2013-10-17
+1204157,1204157,Fix Released,Missing resource name produces unintelligible error,https://bugs.launchpad.net/heat/+bug/1204157,2013-10-17
+1202492,1202492,Fix Released,HARestarter does not recreate resources,https://bugs.launchpad.net/heat/+bug/1202492,2013-10-17
+1201534,1201534,Fix Released,heat.common.urlfetch does not validate server SSL certificates,https://bugs.launchpad.net/heat/+bug/1201534,2013-10-17
+1199435,1199435,Fix Released,heat doesn't work with SQLAlchemy >= 0.8,https://bugs.launchpad.net/heat/+bug/1199435,2013-10-17
+1197747,1197747,Fix Released,Volume Delete sometimes failed,https://bugs.launchpad.net/heat/+bug/1197747,2013-10-17
+1192551,1192551,Fix Released,common module policy need to be refactor to keep consistency with oslo,https://bugs.launchpad.net/heat/+bug/1192551,2013-10-17
+1189278,1189278,Fix Released,Autoscaling max limit is capped by length of resource.nova_instance column,https://bugs.launchpad.net/heat/+bug/1189278,2013-10-17
+1176142,1176142,Fix Released,UPDATE_REPLACE deletes things before it creates the replacement,https://bugs.launchpad.net/heat/+bug/1176142,2013-10-17
+1165071,1165071,Fix Released,Stack deletion failed because the VPCGatewayAttachment resource cannot be deleted,https://bugs.launchpad.net/heat/+bug/1165071,2013-10-17

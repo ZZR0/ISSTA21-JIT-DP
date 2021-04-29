@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1776678,1776678,Fix Released,Horizon password change is throwing Unathorized error,https://bugs.launchpad.net/horizon/+bug/1776678,2018-12-03
+1797382,1797382,Fix Released,The command 'openstack tripleo container image prepare' should be run before undercloud update,https://bugs.launchpad.net/tripleo/+bug/1797382,2018-12-03
+1652096,1652096,Fix Released,error : unknow modal provider,https://bugs.launchpad.net/neutron-lbaas-dashboard/+bug/1652096,2018-12-02
+1749304,1749304,Fix Released,RFE: Support filter by attribute with empty value,https://bugs.launchpad.net/neutron/+bug/1749304,2018-12-01
+1801858,1801858,Fix Released,openstack tripleo container image prepare is not an openstack command,https://bugs.launchpad.net/tripleo/+bug/1801858,2018-12-01
+1805626,1805626,Fix Released,ML2 OVN port binding failures due to hostname mismatch,https://bugs.launchpad.net/openstack-ansible/+bug/1805626,2018-12-01
+1802740,1802740,Fix Released,[os_neutron][docs] openvswitch scenario does not match release notes,https://bugs.launchpad.net/openstack-ansible/+bug/1802740,2018-11-30
+1804475,1804475,Fix Released,[master][vexhost][fs001]container-selinux package failed to install during install packages step,https://bugs.launchpad.net/tripleo/+bug/1804475,2018-11-30
+1800186,1800186,Fix Released,Add support for python 3 and other TC goals,https://bugs.launchpad.net/networking-bigswitch/+bug/1800186,2018-11-30
+1793125,1793125,Fix Released,Running TripleO Deployments on an OVB Cloud using tripleo-quickstart devmode in tripleo-quickstart,https://bugs.launchpad.net/tripleo/+bug/1793125,2018-11-30
+1404867,1404867,Fix Released,"Volume remains in-use status, if instance booted from volume is deleted in error state",https://bugs.launchpad.net/nova/+bug/1404867,2018-11-30
+1551228,1551228,Fix Released,InfluxDB report by default anonymous statistics,https://bugs.launchpad.net/lma-toolchain/+bug/1551228,2018-11-30
+1702420,1702420,Fix Released,The AllocationCandidates.get_by_filters returned wrong combination of AllocationRequests,https://bugs.launchpad.net/nova/+bug/1702420,2018-11-29
+1557583,1557583,Fix Released,IPAddr2 resource should allow an operations parameter,https://bugs.launchpad.net/puppet-pacemaker/+bug/1557583,2018-11-29
+1659597,1659597,Fix Released,::resource::ip ignores changes,https://bugs.launchpad.net/puppet-pacemaker/+bug/1659597,2018-11-29
+1766270,1766270,Fix Released,deep_compare of pacemaker::remote is not working,https://bugs.launchpad.net/puppet-pacemaker/+bug/1766270,2018-11-29
+1805087,1805087,Fix Released,libvirt+KVM: High CPU usage on Windows 10 (1803) guests,https://bugs.launchpad.net/nova/+bug/1805087,2018-11-28
+1802620,1802620,Fix Released,crash on restart:  GPE CIDR already set,https://bugs.launchpad.net/networking-vpp/+bug/1802620,2018-11-28
+1805094,1805094,Fix Released,[master][rocky] No kolla logs getting collected in periodic-tripleo-centos-7-master-containers-build,https://bugs.launchpad.net/tripleo/+bug/1805094,2018-11-28
+1784650,1784650,Fix Released,"When no defined flavors, check will return a status code CRITICAL with message ""Unable to contact nova API""",https://bugs.launchpad.net/osops/+bug/1784650,2018-11-28
+1794720,1794720,Fix Released,Clean up old templates for updates with  pre-containerization pacemaker,https://bugs.launchpad.net/tripleo/+bug/1794720,2018-11-28
+1797412,1797412,Fix Released,Wrong syntax for import_role in the ansible part of the templates.,https://bugs.launchpad.net/tripleo/+bug/1797412,2018-11-28
+1789871,1789871,Fix Released,Tripleo modify image role doens't have verbosity and logs,https://bugs.launchpad.net/tripleo/+bug/1789871,2018-11-28
+1795026,1795026,Fix Released,We are needlessly limiting notification drivers,https://bugs.launchpad.net/tripleo/+bug/1795026,2018-11-28
+1797114,1797114,Fix Released,"running skopeo in podman fails with ""Error inspecting image""",https://bugs.launchpad.net/tripleo/+bug/1797114,2018-11-28
+1798126,1798126,Fix Released,Undercloud deploy - 'NoneType' object has no attribute 'group',https://bugs.launchpad.net/tripleo/+bug/1798126,2018-11-28
+1798232,1798232,Fix Released,tripleo-container-image-prepare fails when there is a readtimeout,https://bugs.launchpad.net/tripleo/+bug/1798232,2018-11-28
+1756545,1756545,Fix Released,undercloud-containers: loading the default plan fails,https://bugs.launchpad.net/tripleo/+bug/1756545,2018-11-28
+1796022,1796022,Fix Released,The containerized undercloud is using a deprecated environment,https://bugs.launchpad.net/tripleo/+bug/1796022,2018-11-28
+1795000,1795000,Fix Released,tripleoclient: heat-native can't be disabled,https://bugs.launchpad.net/tripleo/+bug/1795000,2018-11-28
+1796860,1796860,Fix Released,Wrong documentation for the role parameter in the update cmd.,https://bugs.launchpad.net/tripleo/+bug/1796860,2018-11-28
+1734704,1734704,Fix Released,Tripleoclient failures don't produce enough information,https://bugs.launchpad.net/tripleo/+bug/1734704,2018-11-28
+1797781,1797781,Fix Released,stein undercloud hangs on ** Performing Heat stack create.. **,https://bugs.launchpad.net/tripleo/+bug/1797781,2018-11-28
+1619350,1619350,Fix Released,Refactor tests in tripleoclient,https://bugs.launchpad.net/tripleo/+bug/1619350,2018-11-28
+1796359,1796359,Fix Released,Cinder's RBD backend has incorrect default backend host name,https://bugs.launchpad.net/tripleo/+bug/1796359,2018-11-28
+1803133,1803133,Fix Released,"jobs running with ""rdo-cloud"" provider are broken, mainly jobs running on package update in RDO",https://bugs.launchpad.net/tripleo/+bug/1803133,2018-11-28
+1753784,1753784,Fix Released,Node introspection fails when max_retry_count set to 0,https://bugs.launchpad.net/tripleo/+bug/1753784,2018-11-27
+1311040,1311040,Fix Released,Subnet option to disable dns server,https://bugs.launchpad.net/neutron/+bug/1311040,2018-11-26
+1804381,1804381,Fix Released,[master/Rocky] standalone job failed with Cloud standalone was not found.,https://bugs.launchpad.net/tripleo/+bug/1804381,2018-11-26
+1787462,1787462,Fix Released,group_binds for provider networks has no effect on neutron provider mappings,https://bugs.launchpad.net/openstack-ansible/+bug/1787462,2018-11-26
+1533122,1533122,Fix Released,Disable IP address updates for non-VIF ports,https://bugs.launchpad.net/networking-midonet/+bug/1533122,2018-11-26
+1800974,1800974,Fix Released,Click on the blank and the modal box closes,https://bugs.launchpad.net/horizon/+bug/1800974,2018-11-26
+1801488,1801488,Fix Released,Update min tox version to 2.0,https://bugs.launchpad.net/openstack-health/+bug/1801488,2018-11-26
+1803159,1803159,Fix Released,Config_tempest fails to gather extensions from nova in featureset001/53 OVB job in master,https://bugs.launchpad.net/tripleo/+bug/1803159,2018-11-26
+1800837,1800837,Fix Released,openstack-ansible-nova-lxd test fails due to lxd storage pool not set up on bionic host,https://bugs.launchpad.net/openstack-ansible/+bug/1800837,2018-11-25
+1627987,1627987,Fix Released,[RFE] SR-IOV accelerated OVS integration,https://bugs.launchpad.net/neutron/+bug/1627987,2018-11-25
+1774725,1774725,Fix Released,[prometheus] Implement alertmanager,https://bugs.launchpad.net/kolla-ansible/+bug/1774725,2018-11-23
+1773303,1773303,Fix Released,[prometheus] Implement the memcached_exporter,https://bugs.launchpad.net/kolla-ansible/+bug/1773303,2018-11-23
+1768833,1768833,Fix Released,Attempt at restoring test volume's LVM loopback device causing new failure,https://bugs.launchpad.net/puppet-cinder/+bug/1768833,2018-11-23
+1775375,1775375,Fix Released,storage_vnx_pool_name is wrong for Dell EMC VNX Cinder driver,https://bugs.launchpad.net/puppet-cinder/+bug/1775375,2018-11-23
+1713499,1713499,Fix Released,"Cannot delete a neutron network, if the currently configured MTU is lower than the network's MTU",https://bugs.launchpad.net/neutron/+bug/1713499,2018-11-22
+1794929,1794929,Fix Released,can't use ipv6 with devstack if tls is enabled,https://bugs.launchpad.net/devstack/+bug/1794929,2018-11-22
+1781205,1781205,Fix Released,SMB: volume backup fails with SoFS,https://bugs.launchpad.net/cinder/+bug/1781205,2018-11-22
+1797309,1797309,Fix Released,Every item in navigation bar of workflow form should be  hide if the parameter ready is false,https://bugs.launchpad.net/horizon/+bug/1797309,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-trove/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-zaqar/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-congress/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-neutron/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-nova/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-octavia/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-heat/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-barbican/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-panko/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-vitrage/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-manila/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-designate/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-keystone/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-cloudkitty/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-watcher/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-aodh/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-glance/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-cinder/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-ec2api/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-ceilometer/+bug/1652700,2018-11-22
+1652700,1652700,Fix Released,Deprecate signing_dir option,https://bugs.launchpad.net/puppet-murano/+bug/1652700,2018-11-22

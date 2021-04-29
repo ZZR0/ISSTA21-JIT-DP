@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1366031,1366031,Fix Released,Update H501 to check for self.__dict__ usage in string formatting checks,https://bugs.launchpad.net/hacking/+bug/1366031,2015-04-09
+1329363,1329363,Fix Released,Bad import type for oslo.* projects,https://bugs.launchpad.net/hacking/+bug/1329363,2015-04-09
+1403330,1403330,Fix Released,trunk hacking hangs sometimes,https://bugs.launchpad.net/hacking/+bug/1403330,2015-04-09
+1441292,1441292,Fix Released,[image] upload_images recipe fails with 403 forbidden,https://bugs.launchpad.net/openstack-chef/+bug/1441292,2015-04-09
+1424925,1424925,Fix Released,Enforce policy checking in REST API layer for v2.1 server_password,https://bugs.launchpad.net/openstack-api-site/+bug/1424925,2015-04-09
+1437212,1437212,Fix Committed,Error when adding multiple nodes with duplicated macs,https://bugs.launchpad.net/tuskar-ui/+bug/1437212,2015-04-09
+1440077,1440077,Fix Released,Priorities for repositories should be always shown on UI,https://bugs.launchpad.net/fuel/+bug/1440077,2015-04-09
+1441130,1441130,Fix Committed,Fuelclient v2 uses manual parsing for multiple values in CLI,https://bugs.launchpad.net/fuel/+bug/1441130,2015-04-09
+1402738,1402738,Fix Committed,Add regression tests for swift ring rebalance and pretend_min_part_hours_passed execs,https://bugs.launchpad.net/fuel/+bug/1402738,2015-04-09
+1400733,1400733,Fix Released,"Different errors ""query failed: [2006] MySQL server has gone away"" in zabbix.log",https://bugs.launchpad.net/fuel/+bug/1400733,2015-04-09
+1435318,1435318,Fix Released,CentOS HA deployment with Zabbix failed with ::fuel_settings is not a hash or array when accessing it with role at /etc/puppet/modules/zabbix/manifests/monitoring/ceph_mon.pp:5 on node node-3.test.domain.local,https://bugs.launchpad.net/fuel/+bug/1435318,2015-04-09
+1437400,1437400,Fix Released,device eth0.102 is already a member of a bridge,https://bugs.launchpad.net/fuel/+bug/1437400,2015-04-09
+1440661,1440661,Fix Released,Group editing of Bonding on network interfaces doesn't work,https://bugs.launchpad.net/fuel/+bug/1440661,2015-04-09
+1430906,1430906,Fix Released,[Devops] Add jobs to run tests with classic provisioning,https://bugs.launchpad.net/fuel/+bug/1430906,2015-04-09
+1413220,1413220,Fix Released,"Need to standardize names of roles in messages in dialog window ""Deploy Changes""",https://bugs.launchpad.net/fuel/+bug/1413220,2015-04-09
+1417377,1417377,Fix Released,[ostf]OSTF should have basic security tests,https://bugs.launchpad.net/fuel/+bug/1417377,2015-04-09
+1433546,1433546,Fix Released,[nailgun] network scheme: mtu must be in root level of add_bond transformation,https://bugs.launchpad.net/fuel/+bug/1433546,2015-04-09
+1433691,1433691,Fix Released,[nailgun] test_orchestrator_serializer.TestNeutronOrchestratorSerializerBonds.test_bonds_serialization fails sometimes,https://bugs.launchpad.net/fuel/+bug/1433691,2015-04-09
+1375347,1375347,Fix Committed,L23network don't add lnx bond interface to the ovs bridge,https://bugs.launchpad.net/fuel/+bug/1375347,2015-04-09
+1431252,1431252,Fix Committed,OCF ns_IPAddr2 script regexp error in interface checking code,https://bugs.launchpad.net/fuel/+bug/1431252,2015-04-09
+1401554,1401554,Fix Committed,[stats] 'Deploy' action from action logs isn't sent if deployment is stopped,https://bugs.launchpad.net/fuel/+bug/1401554,2015-04-09
+1425829,1425829,Fix Released,Move policy enforcement into REST API layer for v2.1 floating ips,https://bugs.launchpad.net/openstack-api-site/+bug/1425829,2015-04-09
+1424905,1424905,Fix Released,Move policy enforcement into REST API layer for v2.1 floating_ip_pools,https://bugs.launchpad.net/openstack-api-site/+bug/1424905,2015-04-09
+1440739,1440739,Fix Released,Create a Fuel plugin project for MidoNet plugin in Stackforge,https://bugs.launchpad.net/fuel/+bug/1440739,2015-04-09
+1399192,1399192,Fix Released,[nailgun] Unreadable traceback on 500 Internal Error,https://bugs.launchpad.net/fuel/+bug/1399192,2015-04-09
+1398728,1398728,Fix Released,Allow to use unix-socket to connect to database in Nailgun,https://bugs.launchpad.net/fuel/+bug/1398728,2015-04-09
+1439981,1439981,Fix Released,[orchestration]Some deprecated warning from heat,https://bugs.launchpad.net/openstack-chef/+bug/1439981,2015-04-09
+1441918,1441918,Fix Released,PBR version lookup module incorrect in package,https://bugs.launchpad.net/python-keystoneclient-kerberos/+bug/1441918,2015-04-09
+1318754,1318754,Fix Released,nova boot --number-instances  with v4-fixed-ip,https://bugs.launchpad.net/nova/+bug/1318754,2015-04-09
+1439634,1439634,Fix Released,fixed_networks does not account for force tenant isolation,https://bugs.launchpad.net/tempest/+bug/1439634,2015-04-08
+1371225,1371225,Fix Committed,nailgun-agent reports status back while node is deleting,https://bugs.launchpad.net/fuel/+bug/1371225,2015-04-08
+1439643,1439643,Fix Released,Puppet got permission denied when try exec /etc/init.d/ntp and conntrackd,https://bugs.launchpad.net/fuel/+bug/1439643,2015-04-08
+1425838,1425838,Fix Released,Enforce in REST API layer on v2.1 shelve api,https://bugs.launchpad.net/openstack-api-site/+bug/1425838,2015-04-08
+1433349,1433349,Fix Released,"Fix Tempest Test failure for ""test_add_list_remove_router_on_l3_agent"" with DVR routers when routers does not have any subnets associated with it.",https://bugs.launchpad.net/tempest/+bug/1433349,2015-04-08
+1439540,1439540,Fix Released,Nailgun's performance tests are broken because of blocked NICs changes,https://bugs.launchpad.net/fuel/+bug/1439540,2015-04-08
+1439970,1439970,Fix Released,Adding Murano URL settings breaks TestInstallationInfo.test_all_cluster_attributes_in_white_list,https://bugs.launchpad.net/fuel/+bug/1439970,2015-04-08
+1418001,1418001,Fix Released,Validation errors on the Network tab are not aligned,https://bugs.launchpad.net/fuel/+bug/1418001,2015-04-08
+1439508,1439508,Fix Committed,Monasca swift detection plugin combines all checks into one.,https://bugs.launchpad.net/monasca/+bug/1439508,2015-04-08
+1372613,1372613,Fix Released,"[ha-guide] section ""Run neutron L3 agent"" has to be rewritten",https://bugs.launchpad.net/openstack-manuals/+bug/1372613,2015-04-08
+1431281,1431281,Fix Released,[UI] Master node ID should be visible on support tab,https://bugs.launchpad.net/fuel/+bug/1431281,2015-04-08
+1436426,1436426,Fix Released,Need to update script which allow to upload Tempest tests to TestRail,https://bugs.launchpad.net/fuel/+bug/1436426,2015-04-08
+1439235,1439235,Fix Released,[feature-stats] CSV report for all resources failed on vmware attributes,https://bugs.launchpad.net/fuel/+bug/1439235,2015-04-08
+1435224,1435224,Fix Released,"[stats] Getting of all oswl reports into zip file failed with TypeError: sequence item 0: expected string, dict found",https://bugs.launchpad.net/fuel/+bug/1435224,2015-04-08
+1439099,1439099,Fix Released,Display Changes dialog isn't closed after click on navigation links in it,https://bugs.launchpad.net/fuel/+bug/1439099,2015-04-08
+1440346,1440346,Fix Released,Tables on Capacity Audit page have different widths of columns,https://bugs.launchpad.net/fuel/+bug/1440346,2015-04-08
+1438053,1438053,Fix Released,"[osci] Jobs ""mox-build-deb-request"" and ""mox-build-rpm-request"" failed",https://bugs.launchpad.net/fuel/+bug/1438053,2015-04-08
+1387028,1387028,Fix Committed,Wrong disk setup shown while extending,https://bugs.launchpad.net/fuel/+bug/1387028,2015-04-08
+1438591,1438591,Fix Committed,[library] Deployment fails: DNS resolving is broken on nodes with Mongo role,https://bugs.launchpad.net/fuel/+bug/1438591,2015-04-08
+1434535,1434535,Fix Released,[stats] Oswl polling interval should be 15 minutes not 5,https://bugs.launchpad.net/fuel/+bug/1434535,2015-04-08
+1427270,1427270,Fix Released,[stats] Add OSWL statistics collector user to the env,https://bugs.launchpad.net/fuel/+bug/1427270,2015-04-08
+1438576,1438576,Fix Released,[feature-stats] [nailgun] Add checking of installation info structure,https://bugs.launchpad.net/fuel/+bug/1438576,2015-04-08
+1439268,1439268,Fix Released,Nailgun statistics module needs refactoring,https://bugs.launchpad.net/fuel/+bug/1439268,2015-04-08
+1431362,1431362,Fix Released,[stats] Plugin information is incorrectly exported into csv file,https://bugs.launchpad.net/fuel/+bug/1431362,2015-04-08
+1411661,1411661,Fix Committed,Fuel CLI doen't convert --fuel-version to JSON if used the option --json,https://bugs.launchpad.net/fuel/+bug/1411661,2015-04-08
+1441090,1441090,Fix Released,Click on 'Terms && Conditions' in the registration dialog closes the pop-up,https://bugs.launchpad.net/fuel/+bug/1441090,2015-04-08
+1439131,1439131,Fix Released,"Need to rename ""Send new password"" button by analogy with other buttons",https://bugs.launchpad.net/fuel/+bug/1439131,2015-04-08
+1438268,1438268,Fix Released,Error message from server is not erase after other actions,https://bugs.launchpad.net/fuel/+bug/1438268,2015-04-08
+1437317,1437317,Fix Released,"UX improvement of ""Create account"" form",https://bugs.launchpad.net/fuel/+bug/1437317,2015-04-08
+1439117,1439117,Fix Released,"Need to rename ""Retrive password"" to ""Retrieve password""",https://bugs.launchpad.net/fuel/+bug/1439117,2015-04-08
+1438661,1438661,Fix Released,Incorrect validation of email field on #welcome page,https://bugs.launchpad.net/fuel/+bug/1438661,2015-04-08
+1435284,1435284,Fix Released,CI slaves need to be tested before Grunt to Gulp migration,https://bugs.launchpad.net/fuel/+bug/1435284,2015-04-08
+1434610,1434610,Fix Released,Virtualbox network adapters should be  switched from PCnet to Intel MT,https://bugs.launchpad.net/fuel/+bug/1434610,2015-04-08
+1435401,1435401,Fix Released,[fuel-ci] syntax check script does not work as expected for removed modules,https://bugs.launchpad.net/fuel/+bug/1435401,2015-04-08
+1440095,1440095,Fix Released,Fuel UI doesn't provide access to environment with VMware support.,https://bugs.launchpad.net/fuel/+bug/1440095,2015-04-08
+1435725,1435725,Fix Released,"Not related checkbox ""Enable cinder"" in the VMware tab and the choice of Cinder-VMDK roles to nodes",https://bugs.launchpad.net/fuel/+bug/1435725,2015-04-08
+1439178,1439178,Fix Released,[fuel-osci] MOX jenkins jobs doesn't set 'verified' in gerrit,https://bugs.launchpad.net/fuel/+bug/1439178,2015-04-08
+1421390,1421390,Fix Released,Move policy enforcement into REST API layer for v2.1 lock server,https://bugs.launchpad.net/openstack-api-site/+bug/1421390,2015-04-08
+1425037,1425037,Fix Released,Move policy enforcement into REST API layer for v2.1 suspend/resume server,https://bugs.launchpad.net/openstack-api-site/+bug/1425037,2015-04-08
+1425828,1425828,Fix Released,Move policy enforcement into REST API layer for v2.1 admin actions,https://bugs.launchpad.net/openstack-api-site/+bug/1425828,2015-04-08
+1425209,1425209,Fix Released,Move policy enforcement into REST API layer for v2.1 multinic,https://bugs.launchpad.net/openstack-api-site/+bug/1425209,2015-04-08
+1424906,1424906,Fix Released,Move migrate-server policy enforce into REST API,https://bugs.launchpad.net/openstack-api-site/+bug/1424906,2015-04-08
+1421371,1421371,Fix Released,Move policy enforcement into REST API layer for v2.1 deferred_delete,https://bugs.launchpad.net/openstack-api-site/+bug/1421371,2015-04-08
+1420548,1420548,Fix Released,Move policy enforcement into REST API layer for v2.1 pause server,https://bugs.launchpad.net/openstack-api-site/+bug/1420548,2015-04-08
+1437799,1437799,Fix Released,test_security_groups_basic_ops should be skipped when using vnic_type=direct or vnic_type=macvtap,https://bugs.launchpad.net/tempest/+bug/1437799,2015-04-08
+1331720,1331720,Fix Released,missing TripleO heat metadata,https://bugs.launchpad.net/heat/+bug/1331720,2015-04-08

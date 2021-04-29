@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1550121,1550121,Fix Released,"LVM driver executes ""vgs"" with sudo instead of rootwrap",https://bugs.launchpad.net/manila/+bug/1550121,2016-03-03
+1549657,1549657,Fix Released,Update Huawei driver doc for M,https://bugs.launchpad.net/manila/+bug/1549657,2016-03-03
+1501178,1501178,Fix Released,glusterfs_driver: Glusterfs NFS-Ganesha share's export location should be uniform for both nfsv3 & nfsv4 protocols,https://bugs.launchpad.net/manila/+bug/1501178,2016-03-03
+1550106,1550106,Fix Released,Code reviews about huawei driver,https://bugs.launchpad.net/manila/+bug/1550106,2016-03-03
+1549183,1549183,Fix Released,Bugs about Huawei driver support StandaloneNetworkPlugin,https://bugs.launchpad.net/manila/+bug/1549183,2016-03-03
+1549561,1549561,Fix Released,Disallow identical external routes on external segments,https://bugs.launchpad.net/group-based-policy/+bug/1549561,2016-03-03
+1508432,1508432,Fix Released,[test-runner] It will be good if tox will have a personal venv for test-runner execution,https://bugs.launchpad.net/murano/+bug/1508432,2016-03-03
+1512587,1512587,Fix Released,[RFE] Role-based Access Control for QoS policies,https://bugs.launchpad.net/neutron/+bug/1512587,2016-03-03
+1552548,1552548,Fix Released,Login does not work when no Foundation org found,https://bugs.launchpad.net/refstack/+bug/1552548,2016-03-03
+1552781,1552781,Fix Released,IntrospectionRule.check_conditions calls .dict() instead of to_dict(),https://bugs.launchpad.net/ironic-inspector/+bug/1552781,2016-03-03
+1526244,1526244,Fix Released,"Able to create objects by admin in the particular domain, for incorrect domain Id field name ""domain-id"".",https://bugs.launchpad.net/keystone/+bug/1526244,2016-03-03
+1543172,1543172,Fix Released,[MAPR] Add support for new service versions to sahara-image-elements,https://bugs.launchpad.net/sahara/+bug/1543172,2016-03-03
+1538159,1538159,Fix Released,[sahara-dashboard] Dashboard fails when importing horizon.utils.urlresolvers,https://bugs.launchpad.net/sahara/+bug/1538159,2016-03-03
+1538265,1538265,Fix Released,"[sahara-dashboard] Integration tests are running, even when not requested",https://bugs.launchpad.net/sahara/+bug/1538265,2016-03-03
+1551006,1551006,Fix Released,dashboard: Invalid template Could not parse the remainder: '{{' from '{{',https://bugs.launchpad.net/sahara/+bug/1551006,2016-03-03
+1519871,1519871,Fix Released,Must regenerate cluster template after node group template edit,https://bugs.launchpad.net/sahara/+bug/1519871,2016-03-03
+1536034,1536034,Fix Released,Move notifications options into oslo_messaging_notifications group,https://bugs.launchpad.net/sahara/+bug/1536034,2016-03-03
+1540302,1540302,Fix Released,Broken yum mapr repository,https://bugs.launchpad.net/sahara/+bug/1540302,2016-03-03
+1540341,1540341,Fix Released,Hue needs to be installed after Spark in MapR plugin,https://bugs.launchpad.net/sahara/+bug/1540341,2016-03-03
+1540355,1540355,Fix Released,Add ability for setting file mode right after file is changed in MapR plugin,https://bugs.launchpad.net/sahara/+bug/1540355,2016-03-03
+1540892,1540892,Fix Released,Add Drill 1.4 to MapR plugin,https://bugs.launchpad.net/sahara/+bug/1540892,2016-03-03
+1540899,1540899,Fix Released,Add Pig 0.15 to MapR plugin,https://bugs.launchpad.net/sahara/+bug/1540899,2016-03-03
+1540901,1540901,Fix Released,Add Oozie 4.2.0 to MapR plugin,https://bugs.launchpad.net/sahara/+bug/1540901,2016-03-03
+1540904,1540904,Fix Released,Add Hive 1.2 to MapR plugin,https://bugs.launchpad.net/sahara/+bug/1540904,2016-03-03
+1541359,1541359,Fix Released,Add missing mapreduce configs to MapR plugin,https://bugs.launchpad.net/sahara/+bug/1541359,2016-03-03
+1541367,1541367,Fix Released,Oozie 4.2.0 fails to install when mapr user is not created before,https://bugs.launchpad.net/sahara/+bug/1541367,2016-03-03
+1542416,1542416,Fix Released,Sahara uses an older bandit version (0.10.1),https://bugs.launchpad.net/sahara/+bug/1542416,2016-03-03
+1540380,1540380,Fix Released,Add ability for parsing property files with custom key/value separator,https://bugs.launchpad.net/sahara/+bug/1540380,2016-03-03
+1543365,1543365,Fix Released,Vanilla diskimage builder page is missing from documentation,https://bugs.launchpad.net/sahara/+bug/1543365,2016-03-03
+1543372,1543372,Fix Released,Autoconfiguration recommendation documentation file produces sphinx warnings,https://bugs.launchpad.net/sahara/+bug/1543372,2016-03-03
+1541354,1541354,Fix Released,Add property 'MapR-FS heap size percent' to cluster template for MapR plugin,https://bugs.launchpad.net/sahara/+bug/1541354,2016-03-03
+1540920,1540920,Fix Released,Add Hue 3.9.0 to MapR plugin,https://bugs.launchpad.net/sahara/+bug/1540920,2016-03-03
+1540932,1540932,Fix Released,Add Spark 1.5.2 to MapR plugin,https://bugs.launchpad.net/sahara/+bug/1540932,2016-03-03
+1548965,1548965,Fix Released,telnetlib usage in sahara.plugins.cdh.plugin_util should be marked as nosec for bandit,https://bugs.launchpad.net/sahara/+bug/1548965,2016-03-03
+1548948,1548948,Fix Released,telnetlib usage in sahara.plugins.ambari.deploy should be marked as nosec for bandit,https://bugs.launchpad.net/sahara/+bug/1548948,2016-03-03
+1548991,1548991,Fix Released,SQL string template in sahara.plugins.mapr.services.mysql.mysql should be marked as nosec for bandit,https://bugs.launchpad.net/sahara/+bug/1548991,2016-03-03
+1549965,1549965,Fix Released,HDP plugin should be removed from default plugin list,https://bugs.launchpad.net/sahara/+bug/1549965,2016-03-03
+1540914,1540914,Fix Released,Add Flume 1.6.0 to MapR plugin,https://bugs.launchpad.net/sahara/+bug/1540914,2016-03-03
+1550126,1550126,Fix Released,[CDH] Useless version string check in cludera_utils.py,https://bugs.launchpad.net/sahara/+bug/1550126,2016-03-03
+1550135,1550135,Fix Released,[CDH] config description optimization in config_helper.py,https://bugs.launchpad.net/sahara/+bug/1550135,2016-03-03
+1543147,1543147,Fix Released,Oozie fails to start in MapR plugin,https://bugs.launchpad.net/sahara/+bug/1543147,2016-03-03
+1552465,1552465,Fix Released,Pickle usages in packages related to remote ssh should be marked as nosec for bandit,https://bugs.launchpad.net/sahara/+bug/1552465,2016-03-03
+1552481,1552481,Fix Released,Subprocess usages in sahara.service.edp.launch_command should be marked as nosec for bandit,https://bugs.launchpad.net/sahara/+bug/1552481,2016-03-03
+1466773,1466773,Fix Released,remove the current consumer from the choices in QoS,https://bugs.launchpad.net/horizon/+bug/1466773,2016-03-03
+1361298,1361298,Fix Released,Can not load instances page if glance service is not configured for region,https://bugs.launchpad.net/horizon/+bug/1361298,2016-03-03
+1480997,1480997,Fix Released,Can not get info about stack operation events,https://bugs.launchpad.net/horizon/+bug/1480997,2016-03-03
+1327276,1327276,Fix Released,filter function doesn't handle some special characters,https://bugs.launchpad.net/horizon/+bug/1327276,2016-03-03
+1520431,1520431,Fix Released,Legacy launch instance wizard space issue under material theme,https://bugs.launchpad.net/horizon/+bug/1520431,2016-03-03
+1535852,1535852,Fix Released,material theme icons don't show for Stacks Events,https://bugs.launchpad.net/horizon/+bug/1535852,2016-03-03
+1532068,1532068,Fix Released,"Quota: Set total instances be unlimited but ""no quota"" displayed",https://bugs.launchpad.net/horizon/+bug/1532068,2016-03-03
+1518584,1518584,Fix Released,Branding: Horizon Header should be more composable,https://bugs.launchpad.net/horizon/+bug/1518584,2016-03-03
+1531095,1531095,Fix Released,"Fix help text in ""Create Network"" and ""Update Subnet"" dialogs",https://bugs.launchpad.net/horizon/+bug/1531095,2016-03-03
+1527457,1527457,Fix Released,'admin' is used by fixed string in domain and project workflow,https://bugs.launchpad.net/horizon/+bug/1527457,2016-03-03
+1522317,1522317,Fix Released,string in glance.service.js cannot control the word order in translations,https://bugs.launchpad.net/horizon/+bug/1522317,2016-03-03
+1534526,1534526,Fix Released,[Django 1.9] Horizon uses django.utils.log.NullHandler,https://bugs.launchpad.net/horizon/+bug/1534526,2016-03-03
+1534553,1534553,Fix Released,[Django 1.9] uses TemplateDoesNotExist,https://bugs.launchpad.net/horizon/+bug/1534553,2016-03-03
+1463733,1463733,Fix Released,Image metadata update view doesn't search for image property key name,https://bugs.launchpad.net/horizon/+bug/1463733,2016-03-03
+1519567,1519567,Fix Released,update flavor metadata - filtering is not reliable,https://bugs.launchpad.net/horizon/+bug/1519567,2016-03-03
+1519535,1519535,Fix Released,Update image metadata - filtering is not reliable,https://bugs.launchpad.net/horizon/+bug/1519535,2016-03-03
+1526054,1526054,Fix Released,Angular delete action icons and alignment wrong,https://bugs.launchpad.net/horizon/+bug/1526054,2016-03-03
+1298460,1298460,Fix Released,"Add the same security rule shouldn't report ""Unable to add rule to security group.""",https://bugs.launchpad.net/horizon/+bug/1298460,2016-03-03
+1316793,1316793,Fix Released,Add pagination support to the volume page in the Dashboard,https://bugs.launchpad.net/horizon/+bug/1316793,2016-03-03
+1536681,1536681,Fix Released,launch instance cannot use location provider,https://bugs.launchpad.net/horizon/+bug/1536681,2016-03-03
+1537573,1537573,Fix Released,Horizon Logo is not centered,https://bugs.launchpad.net/horizon/+bug/1537573,2016-03-03
+1535215,1535215,Fix Released,AttributeError: 'module' object has no attribute 'ClientException',https://bugs.launchpad.net/horizon/+bug/1535215,2016-03-03
+1536586,1536586,Fix Released,Angular: neutron.service getPorts is using the wrong call parameters,https://bugs.launchpad.net/horizon/+bug/1536586,2016-03-03
+1534522,1534522,Fix Released,[django 1.9] uses django.utils.importlib,https://bugs.launchpad.net/horizon/+bug/1534522,2016-03-03
+1538261,1538261,Fix Released,Material theme inline edit exit icon not showing,https://bugs.launchpad.net/horizon/+bug/1538261,2016-03-03
+1538353,1538353,Fix Released,Unnecessary Django tag exists in template,https://bugs.launchpad.net/horizon/+bug/1538353,2016-03-03
+1536919,1536919,Fix Released,"""Name"" doesn't be shown when Bay was created without name",https://bugs.launchpad.net/horizon/+bug/1536919,2016-03-03
+1536919,1536919,Fix Released,"""Name"" doesn't be shown when Bay was created without name",https://bugs.launchpad.net/magnum-ui/+bug/1536919,2016-03-03
+1482353,1482353,Fix Released,Keyboard navigation across form tabs causes error,https://bugs.launchpad.net/horizon/+bug/1482353,2016-03-03
+1525309,1525309,Fix Released,action_present and action_past attributes have to be deprecated in favor of action_present and action_past methods,https://bugs.launchpad.net/horizon/+bug/1525309,2016-03-03
+1480106,1480106,Fix Released,Move humanize and truncate functions to horizon.quota.js,https://bugs.launchpad.net/horizon/+bug/1480106,2016-03-03
+1537842,1537842,Fix Released,Instance Metadata should only show metadata definitions with properties_target: metadata,https://bugs.launchpad.net/horizon/+bug/1537842,2016-03-03

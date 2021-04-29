@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+985587,985587,Fix Released,"allow power state ""BLOCKED"" for live migrations if using Xen by libvirt",https://bugs.launchpad.net/nova/+bug/985587,2012-09-27
+983206,983206,Fix Released,[SRU] nova errors when keypair starts with 0XG using EC2 API,https://bugs.launchpad.net/nova/+bug/983206,2012-09-27
+982360,982360,Fix Released,multi ip block for dmz_cidr,https://bugs.launchpad.net/nova/+bug/982360,2012-09-27
+981286,981286,Fix Released,empty ERROR message in novaclient when quota exceeded,https://bugs.launchpad.net/nova/+bug/981286,2012-09-27
+980685,980685,Fix Released,Instance remains in 'resizing' state if network node is down during resize,https://bugs.launchpad.net/nova/+bug/980685,2012-09-27
+980452,980452,Fix Released,enable ip_forward when nova-network start,https://bugs.launchpad.net/nova/+bug/980452,2012-09-27
+980009,980009,Fix Released,Running pep8 checks with ./run_tests.sh --pep8 results in ERROR messages,https://bugs.launchpad.net/nova/+bug/980009,2012-09-27
+979282,979282,Fix Released,setup root logging,https://bugs.launchpad.net/nova/+bug/979282,2012-09-27
+977719,977719,Fix Released,"migration_get_all_unconfirmed() should use lower case ""finished""",https://bugs.launchpad.net/nova/+bug/977719,2012-09-27
+977489,977489,Fix Released,Remove --repeat option from pep8,https://bugs.launchpad.net/nova/+bug/977489,2012-09-27
+977187,977187,Fix Released,Flavors should not accept special characters,https://bugs.launchpad.net/nova/+bug/977187,2012-09-27
+977021,977021,Fix Released,empty __init__.py under locale directory leading to ImportError,https://bugs.launchpad.net/glance/+bug/977021,2012-09-27
+977021,977021,Fix Released,empty __init__.py under locale directory leading to ImportError,https://bugs.launchpad.net/nova/+bug/977021,2012-09-27
+975043,975043,Fix Released,[SRU] Cloudpipe VPN instance can loose connectivity after starting openvpn,https://bugs.launchpad.net/nova/+bug/975043,2012-09-27
+973591,973591,Fix Released,rebuilding an instance with a blank name shouldn't be allowed,https://bugs.launchpad.net/nova/+bug/973591,2012-09-27
+973331,973331,Fix Released,poll_unconfirmed_resizes periodic task errors for instances in 'resize_verify' task state,https://bugs.launchpad.net/nova/+bug/973331,2012-09-27
+971552,971552,Fix Released,Kwargs info lost when String Format Operation fails in NovaException,https://bugs.launchpad.net/nova/+bug/971552,2012-09-27
+965102,965102,Fix Released,Nova Create Server API returns incorrect error response,https://bugs.launchpad.net/nova/+bug/965102,2012-09-27
+965008,965008,Fix Released,"""nova-manage network create"" doesn't check length of label",https://bugs.launchpad.net/nova/+bug/965008,2012-09-27
+963630,963630,Fix Released,xenapi driver leaves -orig instance around when deleting from RESIZE_VERIFY,https://bugs.launchpad.net/nova/+bug/963630,2012-09-27
+963026,963026,Fix Released,python-novaclient does not support nova actions with instance  name as argument,https://bugs.launchpad.net/nova/+bug/963026,2012-09-27
+961507,961507,Fix Released,xenapi tries to shutdown rescue instance even if it's already shutdown,https://bugs.launchpad.net/nova/+bug/961507,2012-09-27
+960704,960704,Fix Released,Allow insecure setting to be specified by environment,https://bugs.launchpad.net/nova/+bug/960704,2012-09-27
+957707,957707,Fix Released,ec2:  Associate non-existent floating ip yields Unknown Error,https://bugs.launchpad.net/nova/+bug/957707,2012-09-27
+953449,953449,Fix Released,Inconsistent use of xml libraries,https://bugs.launchpad.net/nova/+bug/953449,2012-09-27
+949038,949038,Fix Released,aggregate db api handles read_deleted in an inconsistent way,https://bugs.launchpad.net/nova/+bug/949038,2012-09-27
+944028,944028,Fix Released,Updating the server hostid to another name not raising Bad request,https://bugs.launchpad.net/nova/+bug/944028,2012-09-27
+838386,838386,Fix Released,Test suite requires kombu and carrot to be installed,https://bugs.launchpad.net/nova/+bug/838386,2012-09-27
+817107,817107,Fix Released,Exceptions should be united and exception.wrap_exception should be updated or removed,https://bugs.launchpad.net/nova/+bug/817107,2012-09-27
+704737,704737,Fix Released,dhcp_filter applied in FirewallDriver for FlatManager,https://bugs.launchpad.net/nova/+bug/704737,2012-09-27
+1002212,1002212,Fix Released,cert/manager.py not using crypto.fetch_crl,https://bugs.launchpad.net/nova/+bug/1002212,2012-09-27
+1000522,1000522,Fix Released,Dom0IptablesFirewallDriver tries to configure dhcp_server rule for -s None,https://bugs.launchpad.net/nova/+bug/1000522,2012-09-27
+1000371,1000371,Fix Released,Add configurable timeout for Quantum calls,https://bugs.launchpad.net/nova/+bug/1000371,2012-09-27
+1000366,1000366,Fix Released,Add eventlet backdoor support,https://bugs.launchpad.net/nova/+bug/1000366,2012-09-27
+1055578,1055578,Fix Released,NetAppCmodeISCSIDriver sends bad LUN handles in API requests for some operations,https://bugs.launchpad.net/cinder/+bug/1055578,2012-09-27
+1055578,1055578,Fix Released,NetAppCmodeISCSIDriver sends bad LUN handles in API requests for some operations,https://bugs.launchpad.net/nova/+bug/1055578,2012-09-27
+1056246,1056246,Fix Released,"using tgt-admin --conf option creates false sense of security, volume attach still fails after tgtd restart",https://bugs.launchpad.net/nova/+bug/1056246,2012-09-27
+1056246,1056246,Fix Released,"using tgt-admin --conf option creates false sense of security, volume attach still fails after tgtd restart",https://bugs.launchpad.net/cinder/+bug/1056246,2012-09-27
+1055715,1055715,Fix Released,"Volume attach reports wrong device when it is ""auto attached"" in Xen instances",https://bugs.launchpad.net/nova/+bug/1055715,2012-09-27
+1055712,1055712,Fix Released,Volume auto attach can fail if there is a swap or ephemeral device,https://bugs.launchpad.net/nova/+bug/1055712,2012-09-27
+1055401,1055401,Fix Released,[ietd] can not delete volume sucessfully,https://bugs.launchpad.net/nova/+bug/1055401,2012-09-27
+1055401,1055401,Fix Released,[ietd] can not delete volume sucessfully,https://bugs.launchpad.net/cinder/+bug/1055401,2012-09-27
+1055965,1055965,Fix Released,Translations should be updated,https://bugs.launchpad.net/nova/+bug/1055965,2012-09-27
+1047036,1047036,Fix Released,Document does not describe operators for compute capability filter and aggregate filter,https://bugs.launchpad.net/nova/+bug/1047036,2012-09-27
+1053512,1053512,Fix Released,services log twice to the console,https://bugs.launchpad.net/nova/+bug/1053512,2012-09-27
+1053512,1053512,Fix Released,services log twice to the console,https://bugs.launchpad.net/cinder/+bug/1053512,2012-09-27
+1053427,1053427,Fix Released,solidfire volume driver's sf_allow_tenant_qos option is a boolean,https://bugs.launchpad.net/nova/+bug/1053427,2012-09-27
+1053041,1053041,Fix Released,SolarisISCSIDriver does not work,https://bugs.launchpad.net/cinder/+bug/1053041,2012-09-27
+1053041,1053041,Fix Released,SolarisISCSIDriver does not work,https://bugs.launchpad.net/nova/+bug/1053041,2012-09-27
+1052695,1052695,Fix Released,Block Device Mapping via XML on server create does not work,https://bugs.launchpad.net/nova/+bug/1052695,2012-09-27
+1055095,1055095,Fix Released,Failure in delete leads to undeletable instance.,https://bugs.launchpad.net/nova/+bug/1055095,2012-09-27
+1055076,1055076,Fix Released,snapshot with boot from volume fails,https://bugs.launchpad.net/nova/+bug/1055076,2012-09-27
+1053717,1053717,Fix Released,Lefthand driver in san.py not setting Lun in model_update,https://bugs.launchpad.net/cinder/+bug/1053717,2012-09-27
+1053717,1053717,Fix Released,Lefthand driver in san.py not setting Lun in model_update,https://bugs.launchpad.net/nova/+bug/1053717,2012-09-27
+1050421,1050421,Fix Released,check_for_export parameter list inconsistency between nova-volume and cinder,https://bugs.launchpad.net/nova/+bug/1050421,2012-09-27
+1053740,1053740,Fix Released,soft_reboot does not complete properly in libvirt,https://bugs.launchpad.net/nova/+bug/1053740,2012-09-27
+1052641,1052641,Fix Released,No such file or directory: 'nova.compute.manager',https://bugs.launchpad.net/nova/+bug/1052641,2012-09-27
+1050196,1050196,Fix Released,iptables still on source node after resize,https://bugs.launchpad.net/nova/+bug/1050196,2012-09-27
+1050086,1050086,Fix Released,nova.tests.test_iscsi:TgtAdmTestCase leaves a file,https://bugs.launchpad.net/nova/+bug/1050086,2012-09-27
+1050086,1050086,Fix Released,nova.tests.test_iscsi:TgtAdmTestCase leaves a file,https://bugs.launchpad.net/cinder/+bug/1050086,2012-09-27
+1049897,1049897,Fix Released,Failed build needs to cleanup task state,https://bugs.launchpad.net/nova/+bug/1049897,2012-09-27
+1049619,1049619,Fix Released,Keypair create with invalid Json Is not throwing a proper exception,https://bugs.launchpad.net/nova/+bug/1049619,2012-09-27
+1049195,1049195,Fix Released,"Resize checks for memory difference, not flavor id",https://bugs.launchpad.net/nova/+bug/1049195,2012-09-27
+1048263,1048263,Fix Released,get_available_resource not implemented in hyper-v driver,https://bugs.launchpad.net/nova/+bug/1048263,2012-09-27
+1047029,1047029,Fix Released,Unit tests leave a folder behind:   nova/tests/nova.compute.manager/,https://bugs.launchpad.net/nova/+bug/1047029,2012-09-27
+1046591,1046591,Fix Released,Incorrect compute node stats,https://bugs.launchpad.net/nova/+bug/1046591,2012-09-27
+1046431,1046431,Fix Released,Incorrect query for compute stats,https://bugs.launchpad.net/nova/+bug/1046431,2012-09-27
+1045508,1045508,Fix Released,Periodic Task _reclaim_queued_deletes fail on deallocating floating IP,https://bugs.launchpad.net/nova/+bug/1045508,2012-09-27
+1044238,1044238,Fix Released,"""Nova show"" lists incorrect property for compute host",https://bugs.launchpad.net/nova/+bug/1044238,2012-09-27
+1044008,1044008,Fix Released,Incorrect image metadata sent in notification on rebuild,https://bugs.launchpad.net/nova/+bug/1044008,2012-09-27
+1043165,1043165,Fix Released,exception used in  check_can_live_migrate_source is wrong,https://bugs.launchpad.net/nova/+bug/1043165,2012-09-27
+1042710,1042710,Fix Released,deleting vm is failed  for lvm type,https://bugs.launchpad.net/nova/+bug/1042710,2012-09-27
+1042081,1042081,Fix Released,Nova can not connect to glance through ssl,https://bugs.launchpad.net/nova/+bug/1042081,2012-09-27
+1042071,1042071,Fix Released,FLAGS.reserved_host_disk_mb isn't works duo to wrong Calculation method,https://bugs.launchpad.net/nova/+bug/1042071,2012-09-27
+1041426,1041426,Fix Released,versions links do not support osapi_compute_link_prefix,https://bugs.launchpad.net/nova/+bug/1041426,2012-09-27

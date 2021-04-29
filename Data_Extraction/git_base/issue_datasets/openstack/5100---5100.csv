@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1847287,1847287,Fix Released,"""Non unique UUID"" when deleting namespaces on nested setup",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1847287,2019-10-09
+1847085,1847085,Fix Released,Unhandle race between namespace and pod creation,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1847085,2019-10-09
+1846717,1846717,Fix Released,KNPs cannot be deleted due to ports on the pools with its associated SG,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1846717,2019-10-09
+1845977,1845977,Fix Released,NPs for svc don't react to namespace labels updates,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1845977,2019-10-09
+1845917,1845917,Fix Released,LBaaS SG update wrongly triggered for SVCs without selector and ports,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1845917,2019-10-09
+1845905,1845905,Fix Released,vpmem - libvirt.libvirtError: XML error: Invalid value for element or attribute 'maxMemory',https://bugs.launchpad.net/nova/+bug/1845905,2019-10-09
+1846401,1846401,Fix Released,console proxy deployment info was removed from cells v2 layout doc,https://bugs.launchpad.net/nova/+bug/1846401,2019-10-09
+1846656,1846656,Fix Released,Compute API in nova - show/list servers with details says security_groups is required in response but it's optional,https://bugs.launchpad.net/nova/+bug/1846656,2019-10-09
+1846251,1846251,Fix Released,Default zuul home permissions break the access to source files on CentOS,https://bugs.launchpad.net/devstack/+bug/1846251,2019-10-08
+1847217,1847217,Fix Released,tripleo-quickstart-promote-train-current-tripleo-delorean-minimal failing with missing train-current-tripleo.yml file,https://bugs.launchpad.net/tripleo/+bug/1847217,2019-10-08
+1719540,1719540,Fix Released,Pacemaker default configurations are unreasonable,https://bugs.launchpad.net/tripleo/+bug/1719540,2019-10-08
+1843769,1843769,Fix Released,Octavia communicate with barbican using its publicURL,https://bugs.launchpad.net/openstack-ansible/+bug/1843769,2019-10-08
+1682145,1682145,Fix Released,neutron router shows active on a dead agent,https://bugs.launchpad.net/neutron/+bug/1682145,2019-10-08
+1788900,1788900,Fix Released,pci_passthrough_whitelist deprecated,https://bugs.launchpad.net/neutron/+bug/1788900,2019-10-08
+1847131,1847131,Fix Released,UnboundLocalError: local variable 'cell_uuid' referenced before assignment,https://bugs.launchpad.net/nova/+bug/1847131,2019-10-08
+1836354,1836354,Fix Released,Masakari service cannot function well when set auth_strategy=noauth2,https://bugs.launchpad.net/masakari/+bug/1836354,2019-10-08
+1838418,1838418,Fix Released,Instances are not cleanup properly after functional tests finished execution,https://bugs.launchpad.net/masakari/+bug/1838418,2019-10-08
+1693525,1693525,Fix Released,unconfigured  cgroup driver make kubelet unready,https://bugs.launchpad.net/magnum/+bug/1693525,2019-10-07
+1580704,1580704,Fix Released,Connections to HTTPS publicURLs need CA cert,https://bugs.launchpad.net/magnum/+bug/1580704,2019-10-07
+1735051,1735051,Fix Released,fix project_domain_name and user_domain_name in doc,https://bugs.launchpad.net/glance/+bug/1735051,2019-10-07
+1735051,1735051,Fix Released,fix project_domain_name and user_domain_name in doc,https://bugs.launchpad.net/neutron/+bug/1735051,2019-10-07
+1735051,1735051,Fix Released,fix project_domain_name and user_domain_name in doc,https://bugs.launchpad.net/cinder/+bug/1735051,2019-10-07
+1735051,1735051,Fix Released,fix project_domain_name and user_domain_name in doc,https://bugs.launchpad.net/nova/+bug/1735051,2019-10-07
+1845918,1845918,Fix Released,OVB jobs failing to connect to cloud.centos.org,https://bugs.launchpad.net/tripleo/+bug/1845918,2019-10-07
+1635182,1635182,Fix Released,[placement] in api code repeated need to restate json_error_formatter is error prone,https://bugs.launchpad.net/nova/+bug/1635182,2019-10-07
+1807044,1807044,Fix Released,nova-api startup does not scan cells looking for minimum nova-compute service version,https://bugs.launchpad.net/nova/+bug/1807044,2019-10-07
+1845510,1845510,Fix Committed,Nova install fails on ironic-compute_hosts group,https://bugs.launchpad.net/openstack-ansible/+bug/1845510,2019-10-07
+1664793,1664793,Fix Released,test_stamp_pattern timing out waiting for attached device to show up in guest,https://bugs.launchpad.net/tempest/+bug/1664793,2019-10-07
+1788561,1788561,Fix Released,tempest cleanup init-saved-state filed because v2 RolesClient returned,https://bugs.launchpad.net/tempest/+bug/1788561,2019-10-07
+1836133,1836133,Fix Released,"In the client for volume v3, the response data is inconsistent with the Reference API document",https://bugs.launchpad.net/tempest/+bug/1836133,2019-10-07
+1839048,1839048,Fix Released,deleting server conflict with task_state image_snapshot,https://bugs.launchpad.net/tempest/+bug/1839048,2019-10-07
+1763620,1763620,Fix Released,tempest.api.network.admin.test_ports  test need nova service,https://bugs.launchpad.net/tempest/+bug/1763620,2019-10-07
+1836618,1836618,Fix Released,"Due to case sensitivity of a user name compare in a keystone test, the test might fail",https://bugs.launchpad.net/tempest/+bug/1836618,2019-10-07
+1832566,1832566,Fix Released,tempest cleanup NotImplemented error,https://bugs.launchpad.net/tempest/+bug/1832566,2019-10-07
+1839882,1839882,Fix Released,tempest.api.compute.servers.test_servers.ServerShowV263Test.test_show_update_rebuild_list_server - missing property img_signature_uuid,https://bugs.launchpad.net/tempest/+bug/1839882,2019-10-07
+1838530,1838530,Fix Released,Volume pagination test fail if Keystone endpoint have explicit port in the endpoint for http(80) and https(443),https://bugs.launchpad.net/tempest/+bug/1838530,2019-10-07
+1838314,1838314,Fix Released,ListProjectsStaticTestJSON fails with multiple domains configured,https://bugs.launchpad.net/tempest/+bug/1838314,2019-10-07
+1838777,1838777,Fix Released,test_novnc does not adequately validate websocket upgrade,https://bugs.launchpad.net/tempest/+bug/1838777,2019-10-07
+1817701,1817701,Fix Released,compute get_server_ip() should have detailed server object,https://bugs.launchpad.net/tempest/+bug/1817701,2019-10-07
+1844772,1844772,Fix Released,"Running test_get_pools_with_details get ""IndexError""",https://bugs.launchpad.net/tempest/+bug/1844772,2019-10-07
+1839794,1839794,Fix Released,"For v3 volume, add show_version api test, url is error and not reachable",https://bugs.launchpad.net/tempest/+bug/1839794,2019-10-07
+1846236,1846236,Fix Released,User credentials not being released when skipException is raised on resource_setup(),https://bugs.launchpad.net/tempest/+bug/1846236,2019-10-07
+1678056,1678056,Fix Released,RequestSpec records are never deleted when destroying an instance,https://bugs.launchpad.net/nova/+bug/1678056,2019-10-07
+1846139,1846139,Fix Released,dlrn_promoter unable to push / tag containers,https://bugs.launchpad.net/tripleo/+bug/1846139,2019-10-07
+1812027,1812027,Fix Released,SG leftovers in case of services modification (deleting/updating ports),https://bugs.launchpad.net/kuryr-kubernetes/+bug/1812027,2019-10-07
+1662401,1662401,Fix Released,Volume Retype with encryption fails.,https://bugs.launchpad.net/cinder/+bug/1662401,2019-10-07
+1812677,1812677,Fix Released,elasticsearch upgrade fails,https://bugs.launchpad.net/kolla-ansible/+bug/1812677,2019-10-07
+1827689,1827689,Fix Released,Install and configure (Ubuntu) in glance,https://bugs.launchpad.net/glance/+bug/1827689,2019-10-07
+1660888,1660888,Fix Released,ec2api.metadata ERROR 'NoResultFound: No row was found for one()',https://bugs.launchpad.net/ec2-api/+bug/1660888,2019-10-07
+1846525,1846525,Fix Released,KuryrNet CRD addition tried when Namespace is not present,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1846525,2019-10-06
+1839355,1839355,Fix Released,container-sharder should keep cleaving when there are no rows,https://bugs.launchpad.net/swift/+bug/1839355,2019-10-05
+1840507,1840507,Fix Released,Mixed py2/py3 environment allows authed users to write arbitrary data to the cluster,https://bugs.launchpad.net/swift/+bug/1840507,2019-10-05
+1805539,1805539,Fix Released,The class method of obj.diskfile.BaseDiskFile call __init__() with invalid argument,https://bugs.launchpad.net/swift/+bug/1805539,2019-10-05
+1838361,1838361,Fix Released,Pep8 test used the bandit.yaml needs to update  content.,https://bugs.launchpad.net/swift/+bug/1838361,2019-10-05
+1797305,1797305,Fix Released,Support multi-character delimiters,https://bugs.launchpad.net/swift/+bug/1797305,2019-10-05
+1846186,1846186,Fix Released,test_get_network_port_bindings_by_ip functional test fails,https://bugs.launchpad.net/networking-ovn/+bug/1846186,2019-10-05
+1845616,1845616,Fix Released,puppet-openstack-beaker-centos-7 failing on puppet-nova changes,https://bugs.launchpad.net/puppet-nova/+bug/1845616,2019-10-04
+1845566,1845566,Fix Released,Inspector IPXE tempalte does not wrap IPv6 addresses in URL,https://bugs.launchpad.net/puppet-ironic/+bug/1845566,2019-10-04
+1833736,1833736,Fix Released,volumes are allowed to attach to the same instance more than once,https://bugs.launchpad.net/cinder/+bug/1833736,2019-10-04
+1812913,1812913,Fix Released,VolumeAttachment is not bound to a Session; lazy load operation of attribute 'volume' cannot proceed,https://bugs.launchpad.net/cinder/+bug/1812913,2019-10-04
+1831623,1831623,Fix Released,'OS-SCH-HNT' does not show up in extensions list API since rocky,https://bugs.launchpad.net/cinder/+bug/1831623,2019-10-04
+1690724,1690724,Fix Released,Volume retype fails from encrypted to non-encrypted volume type with FC backend,https://bugs.launchpad.net/cinder/+bug/1690724,2019-10-04
+1833125,1833125,Fix Released,Remaining neutron-lbaas relevant code and documentation,https://bugs.launchpad.net/neutron/+bug/1833125,2019-10-04
+1830800,1830800,Fix Released,"Compute API in nova - server group ""policy"" field is a string rather than an object",https://bugs.launchpad.net/nova/+bug/1830800,2019-10-04
+1841400,1841400,Fix Released,nonexistent hacking rules descriptions in HACKING.rst,https://bugs.launchpad.net/nova/+bug/1841400,2019-10-04
+1843615,1843615,Fix Released,"TestInstanceNotificationSampleWithMultipleCompute.test_multiple_compute_actions intermittently failing since Sept 10, 2019",https://bugs.launchpad.net/nova/+bug/1843615,2019-10-04
+1843885,1843885,Fix Released,Misuse of assertGreaterEqual in a notification functional test,https://bugs.launchpad.net/nova/+bug/1843885,2019-10-04
+1826472,1826472,Fix Released,addFloatingIp action can fail if re-associating a floating IP to an instance in another cell,https://bugs.launchpad.net/nova/+bug/1826472,2019-10-04
+1843090,1843090,Fix Released,ComputeTaskManager._cold_migrate could get a legacy request spec dict from stein computes if rpc pinned and not convert it properly,https://bugs.launchpad.net/nova/+bug/1843090,2019-10-04
+1835383,1835383,Fix Released,RBD driver marked not support multiattach in stein support matrix page,https://bugs.launchpad.net/cinder/+bug/1835383,2019-10-04
+1833115,1833115,Fix Released,NetApp ONTAP: Python 3 failures,https://bugs.launchpad.net/cinder/+bug/1833115,2019-10-04
+1696866,1696866,Fix Released,Cinder LVM driver and ipv6 broken,https://bugs.launchpad.net/cinder/+bug/1696866,2019-10-04
+1696866,1696866,Fix Released,Cinder LVM driver and ipv6 broken,https://bugs.launchpad.net/tripleo/+bug/1696866,2019-10-04
+1846523,1846523,Fix Released,tripleo rhel8 swift-proxy-server container fails to build due to python2 package in spec,https://bugs.launchpad.net/tripleo/+bug/1846523,2019-10-04
+1846391,1846391,Fix Released,tripleo-bootstrap network service fails on rhel 8,https://bugs.launchpad.net/tripleo/+bug/1846391,2019-10-03

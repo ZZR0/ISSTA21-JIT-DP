@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1792888,1792888,Fix Released,VMAX Driver - cinder unmanage operation doesn't place the volume in any SG on the VMAX array,https://bugs.launchpad.net/cinder/+bug/1792888,2019-03-21
+1805550,1805550,Fix Released,Default policy file is not /etc/cinder/policy.yaml,https://bugs.launchpad.net/cinder/+bug/1805550,2019-03-21
+1805853,1805853,Fix Released,Optimize qemu-img commit ops in remotefs driver,https://bugs.launchpad.net/cinder/+bug/1805853,2019-03-21
+1802249,1802249,Fix Released,Periodic_interval time affects cinder-scheduler service status,https://bugs.launchpad.net/cinder/+bug/1802249,2019-03-21
+1806473,1806473,Fix Released,"In Cinder, conf_key_manager logs encryption key value",https://bugs.launchpad.net/cinder/+bug/1806473,2019-03-21
+1805692,1805692,Fix Released,Unable to reset volume status to 'reserved',https://bugs.launchpad.net/cinder/+bug/1805692,2019-03-21
+1790141,1790141,Fix Released,VMAX OS Upgrade brings back service levels and deprecates workloads,https://bugs.launchpad.net/cinder/+bug/1790141,2019-03-21
+1807446,1807446,Fix Released,RBD volume encryption broken,https://bugs.launchpad.net/cinder/+bug/1807446,2019-03-21
+1808343,1808343,Fix Released,Cinder A/A error when cloning a volume or snapshot,https://bugs.launchpad.net/cinder/+bug/1808343,2019-03-21
+1808443,1808443,Fix Released,ImageDownloadFailed exception sets wrong message property,https://bugs.launchpad.net/cinder/+bug/1808443,2019-03-21
+1808598,1808598,Fix Released,db migration issue on CentOS,https://bugs.launchpad.net/cinder/+bug/1808598,2019-03-21
+1809647,1809647,Fix Released,CI failed: test_get_volume_filter_options_using_config,https://bugs.launchpad.net/cinder/+bug/1809647,2019-03-21
+1808941,1808941,Fix Released,The time to send 'attach.end' notify is unexpected,https://bugs.launchpad.net/cinder/+bug/1808941,2019-03-21
+1810465,1810465,Fix Released,using wrong parameter in test_backup_ceph,https://bugs.launchpad.net/cinder/+bug/1810465,2019-03-21
+1810709,1810709,Fix Released,INSPUR AS13000 cinder driver has some small format issues,https://bugs.launchpad.net/cinder/+bug/1810709,2019-03-21
+1775988,1775988,Fix Released,Volume Creation failed for ISCSI Backend.,https://bugs.launchpad.net/cinder/+bug/1775988,2019-03-21
+1681374,1681374,Fix Released,cinder-volume can't be inited with large number of volume,https://bugs.launchpad.net/cinder/+bug/1681374,2019-03-21
+1808620,1808620,Fix Released,type-list does not work with non-admin user with OS_VOLUME_API_VERSION=3.55,https://bugs.launchpad.net/cinder/+bug/1808620,2019-03-21
+1808539,1808539,Fix Released,PowerMax driver - change rest endpoints from 84 to 90,https://bugs.launchpad.net/cinder/+bug/1808539,2019-03-21
+1796072,1796072,Fix Released,Fix message in the exception string,https://bugs.launchpad.net/nova-powervm/+bug/1796072,2019-03-21
+1811792,1811792,Fix Released,LinstorBaseDriver use the wrong variable when getting the device path.,https://bugs.launchpad.net/cinder/+bug/1811792,2019-03-21
+1807071,1807071,Fix Released,Default policy file incorrect in sample config file,https://bugs.launchpad.net/cinder/+bug/1807071,2019-03-21
+1811184,1811184,Fix Released,ImageDownloadFailed exception passed incorrect argument,https://bugs.launchpad.net/cinder/+bug/1811184,2019-03-21
+1809434,1809434,Fix Released,Quota error after deleting snapshot group,https://bugs.launchpad.net/cinder/+bug/1809434,2019-03-21
+1811119,1811119,Fix Released,cinder.conf configuration doc don't use the correct param's name,https://bugs.launchpad.net/cinder/+bug/1811119,2019-03-21
+1812685,1812685,Fix Released,PowerMax replication specs not correctly applied,https://bugs.launchpad.net/cinder/+bug/1812685,2019-03-21
+1813930,1813930,Fix Released,HPE3PAR doesn't return cached stats,https://bugs.launchpad.net/cinder/+bug/1813930,2019-03-21
+1814195,1814195,Fix Released,Volume transfer pagination support,https://bugs.launchpad.net/cinder/+bug/1814195,2019-03-21
+1716987,1716987,Fix Released,"doc: ""Configure an NFS storage back end in cinder"" needs updates",https://bugs.launchpad.net/cinder/+bug/1716987,2019-03-21
+1812231,1812231,Fix Released,PowerMax driver - solve issue of concurrent snapvx operations,https://bugs.launchpad.net/cinder/+bug/1812231,2019-03-21
+1815845,1815845,Fix Released,cinder backup has a parameter error when discard bytes  in ceph cluster,https://bugs.launchpad.net/cinder/+bug/1815845,2019-03-21
+1784042,1784042,Fix Released,Solidfire driver returns capacity based on used space relative to max provision space which does not balance as expected,https://bugs.launchpad.net/cinder/+bug/1784042,2019-03-21
+1814910,1814910,Fix Released,"doc/source/configuration/tables/cinder-api.inc documents ""enable_v1_api"" option",https://bugs.launchpad.net/cinder/+bug/1814910,2019-03-21
+1813267,1813267,Fix Released,Cinder's new attach API all volume in creating status to be attached,https://bugs.launchpad.net/cinder/+bug/1813267,2019-03-21
+1818684,1818684,Fix Released,update minimum version for glanceclient,https://bugs.launchpad.net/cinder/+bug/1818684,2019-03-21
+1813189,1813189,Fix Released,SolidFire driver does not work with python3,https://bugs.launchpad.net/cinder/+bug/1813189,2019-03-21
+1821070,1821070,Fix Released,OVN gates have errors in kuryr-daemon logs,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1821070,2019-03-21
+1667736,1667736,Fix Released,gate-neutron-fwaas-dsvm-functional failure after recent localrc change,https://bugs.launchpad.net/neutron/+bug/1667736,2019-03-21
+1764282,1764282,Fix Released,Multiple times retrieve information of project_id in  Delete domain,https://bugs.launchpad.net/keystone/+bug/1764282,2019-03-21
+1784536,1784536,Fix Released,"issue token with project-scope get error: ""object of type 'NoneType' has no len()""",https://bugs.launchpad.net/keystone/+bug/1784536,2019-03-21
+1787874,1787874,Fix Released,There is no way to only check once for user password history,https://bugs.launchpad.net/keystone/+bug/1787874,2019-03-21
+1790148,1790148,Fix Released,Verify operation in keystone (Documentation fault),https://bugs.launchpad.net/keystone/+bug/1790148,2019-03-21
+1777671,1777671,Fix Released,Incorrect use of translation _(),https://bugs.launchpad.net/keystone/+bug/1777671,2019-03-21
+1792047,1792047,Fix Released,keystone rbacenforcer not populating policy dict with view args,https://bugs.launchpad.net/keystone/+bug/1792047,2019-03-21
+1793027,1793027,Fix Released,Flask doesn't normalize domains sanely in some cases,https://bugs.launchpad.net/keystone/+bug/1793027,2019-03-21
+1473292,1473292,Fix Released,Cannot delete or show a trust with an expired date,https://bugs.launchpad.net/keystone/+bug/1473292,2019-03-21
+1789450,1789450,Fix Released,Groups mapped to projects that do not exist in OpenStack breaks WebSSO,https://bugs.launchpad.net/keystone/+bug/1789450,2019-03-21
+1782197,1782197,Fix Released,Mapping Engine Tester is untested,https://bugs.launchpad.net/keystone/+bug/1782197,2019-03-21
+1794552,1794552,Fix Released,Flaskification broke ECP,https://bugs.launchpad.net/keystone/+bug/1794552,2019-03-21
+1753585,1753585,Fix Released,LDAP user name attribute is case sensitive,https://bugs.launchpad.net/keystone/+bug/1753585,2019-03-21
+1744195,1744195,Fix Released,unit tests don't enable Foreign Key for Sqlite,https://bugs.launchpad.net/keystone/+bug/1744195,2019-03-21
+1793421,1793421,Fix Released,Hacking check should check that log messages are not translated,https://bugs.launchpad.net/keystone/+bug/1793421,2019-03-21
+1776504,1776504,Fix Released,flaskification,https://bugs.launchpad.net/keystone/+bug/1776504,2019-03-21
+1798495,1798495,Fix Released,Resource name maximum length is not defined in limits,https://bugs.launchpad.net/keystone/+bug/1798495,2019-03-21
+1798716,1798716,Fix Released,can't update registered limit's region_id to None,https://bugs.launchpad.net/keystone/+bug/1798716,2019-03-21
+1796887,1796887,Fix Released,Validation of tokens degraded after upgrade to Rocky,https://bugs.launchpad.net/keystone/+bug/1796887,2019-03-21
+1537963,1537963,Fix Released,notification not generated for authentication failure with invalid user name,https://bugs.launchpad.net/keystone/+bug/1537963,2019-03-21
+1797876,1797876,Fix Released,Default values for registered limit allows  to set  negative value,https://bugs.launchpad.net/keystone/+bug/1797876,2019-03-21
+1230927,1230927,Fix Released,GET / returns 300 Multiple Choice without a preference in the Location header,https://bugs.launchpad.net/keystone/+bug/1230927,2019-03-21
+1788415,1788415,Fix Released,The credential API should account for different scopes,https://bugs.launchpad.net/keystone/+bug/1788415,2019-03-21
+1800124,1800124,Fix Released,internal NotFound error can lead to 500 error in modern devstack setup,https://bugs.launchpad.net/keystone/+bug/1800124,2019-03-21
+1729933,1729933,Fix Released,region update doesn't update extras,https://bugs.launchpad.net/keystone/+bug/1729933,2019-03-21
+1801778,1801778,Fix Released,Keystone 500 on OPTIONS,https://bugs.launchpad.net/keystone/+bug/1801778,2019-03-21
+1735250,1735250,Fix Released,Password column limit (128 char) in the Password table exceeded when using passwords exceeding 2000 characters （sqlalchemy<1.1.0）,https://bugs.launchpad.net/keystone/+bug/1735250,2019-03-21
+1801095,1801095,Fix Released,RFE: enhance CADF notifications with request ID and global request ID,https://bugs.launchpad.net/keystone/+bug/1801095,2019-03-21
+1757151,1757151,Fix Released,Token and scope documentation needs an update,https://bugs.launchpad.net/keystone/+bug/1757151,2019-03-21
+1792026,1792026,Fix Released,User options are not documented in the API reference,https://bugs.launchpad.net/keystone/+bug/1792026,2019-03-21
+1794376,1794376,Fix Released,Domains API should account for system-scope and default roles,https://bugs.launchpad.net/keystone/+bug/1794376,2019-03-21
+1786594,1786594,Fix Released,Missing linked topic,https://bugs.launchpad.net/keystone/+bug/1786594,2019-03-21
+1804522,1804522,Fix Released,Service provider API doesn't use default roles,https://bugs.launchpad.net/keystone/+bug/1804522,2019-03-21
+1810485,1810485,Fix Released,incorrect API doc description on domain reenablement,https://bugs.launchpad.net/keystone/+bug/1810485,2019-03-21
+1793374,1793374,Fix Released,Federated documentations lacks a concise introduction,https://bugs.launchpad.net/keystone/+bug/1793374,2019-03-21
+1805403,1805403,Fix Released,Project API doesn't use default roles,https://bugs.launchpad.net/keystone/+bug/1805403,2019-03-21
+1804523,1804523,Fix Released,Federated protocol API doesn't use default roles,https://bugs.launchpad.net/keystone/+bug/1804523,2019-03-21
+1805402,1805402,Fix Released,Role API doesn't use default roles,https://bugs.launchpad.net/keystone/+bug/1805402,2019-03-21

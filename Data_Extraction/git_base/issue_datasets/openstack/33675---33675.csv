@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1620964,1620964,Fix Released,Update tripleoclient to use osc-lib,https://bugs.launchpad.net/tripleo/+bug/1620964,2016-11-17
+1623346,1623346,Fix Released,Setting the user-environment for a plan results wrongly made resource-registry,https://bugs.launchpad.net/tripleo/+bug/1623346,2016-11-17
+1616015,1616015,Fix Released,Provide a way to deploy a plan,https://bugs.launchpad.net/tripleo/+bug/1616015,2016-11-17
+1623179,1623179,Fix Released,tripleoclient unit tests failing with latest openstackclient,https://bugs.launchpad.net/tripleo/+bug/1623179,2016-11-17
+1623546,1623546,Fix Released,The timeout isn't passed to the deploy workflow by tripleoclient,https://bugs.launchpad.net/tripleo/+bug/1623546,2016-11-17
+1620949,1620949,Fix Released,No useful feedback when 'node provide'  fails,https://bugs.launchpad.net/tripleo/+bug/1620949,2016-11-17
+1565807,1565807,Fix Released,[python-tripleoclient] [tripleo-common] upgrade commands incomplete,https://bugs.launchpad.net/tripleo/+bug/1565807,2016-11-17
+1626267,1626267,Fix Released,Overcloud deploy logs 404 looking for overcloud-without-mergepy.yaml,https://bugs.launchpad.net/tripleo/+bug/1626267,2016-11-17
+1621493,1621493,Fix Released,Plan creation doesn't stop when an action fails,https://bugs.launchpad.net/tripleo/+bug/1621493,2016-11-17
+1626422,1626422,Fix Released,Failed to validate nested template: Property error: resources[10].properties: Property KeystoneCredential0 not assigned,https://bugs.launchpad.net/tripleo/+bug/1626422,2016-11-17
+1630743,1630743,Fix Released,stable/newton jobs can't upload images to glance,https://bugs.launchpad.net/tripleo/+bug/1630743,2016-11-17
+1624727,1624727,Fix Released,Could not fetch contents for file:///home/stack/tripleo-heat-templates/puppet/post.yaml,https://bugs.launchpad.net/tripleo/+bug/1624727,2016-11-17
+1625783,1625783,Fix Released,unable to leverage swap-partition extraconfig,https://bugs.launchpad.net/tripleo/+bug/1625783,2016-11-17
+1631426,1631426,Fix Released,get_file from external environments doesn't work (No connection adapters were found),https://bugs.launchpad.net/tripleo/+bug/1631426,2016-11-17
+1626128,1626128,Fix Released,openstack overcloud update stack is broken,https://bugs.launchpad.net/tripleo/+bug/1626128,2016-11-17
+1631281,1631281,Fix Released,The result of direct calls to Mistral actions should be saved,https://bugs.launchpad.net/tripleo/+bug/1631281,2016-11-17
+1628484,1628484,Fix Released,"UI fails to load with a ""400 Bad Request"" error",https://bugs.launchpad.net/tripleo/+bug/1628484,2016-11-17
+1629366,1629366,Fix Released,Newton - pacemaker systemd resources do not have the correct timeout values,https://bugs.launchpad.net/tripleo/+bug/1629366,2016-11-17
+1628983,1628983,Fix Released,Puppet httpd config for the tripleo-ui conflicts with the package config,https://bugs.launchpad.net/tripleo/+bug/1628983,2016-11-17
+1629098,1629098,Fix Released,The server names in haproxy configs do not match the ip addresses,https://bugs.launchpad.net/tripleo/+bug/1629098,2016-11-17
+1630546,1630546,Fix Released,Can't log in to the UI: wrong keystone endpoint URL,https://bugs.launchpad.net/tripleo/+bug/1630546,2016-11-17
+1630965,1630965,Fix Released,Wrong name for zaqar websocket in UI when configured with puppet,https://bugs.launchpad.net/tripleo/+bug/1630965,2016-11-17
+1630564,1630564,Fix Released,manila enabled_share_protocols wrong for cephfs,https://bugs.launchpad.net/tripleo/+bug/1630564,2016-11-17
+1629373,1629373,Fix Released,tripleo::profile::base::ceilometer::collector always does a db sync,https://bugs.launchpad.net/tripleo/+bug/1629373,2016-11-17
+1631527,1631527,Fix Released,cinder eqlx incorrectly uses the wrong password for the chap password,https://bugs.launchpad.net/tripleo/+bug/1631527,2016-11-17
+1632232,1632232,Fix Released,M/N upgrade: Cinder upgrade fails to converge.,https://bugs.launchpad.net/tripleo/+bug/1632232,2016-11-17
+1640104,1640104,Fix Released,Wrong default in docstring,https://bugs.launchpad.net/tripleo/+bug/1640104,2016-11-17
+1622779,1622779,Fix Released,Tasks doc links to image statuses instead of task statuses,https://bugs.launchpad.net/glance/+bug/1622779,2016-11-17
+1621161,1621161,Fix Released,api-ref: need version history on versions page,https://bugs.launchpad.net/glance/+bug/1621161,2016-11-17
+1611490,1611490,Fix Released,api-ref: make example URLs consistent,https://bugs.launchpad.net/glance/+bug/1611490,2016-11-17
+1367011,1367011,Fix Released,glance-manage db_export_metadefs should always require a directory option,https://bugs.launchpad.net/glance/+bug/1367011,2016-11-17
+1621236,1621236,Fix Released,Attempt to not set location on non active or queued image,https://bugs.launchpad.net/glance/+bug/1621236,2016-11-17
+1631471,1631471,Fix Released,"""router unset --route"" option does not work",https://bugs.launchpad.net/python-openstackclient/+bug/1631471,2016-11-17
+1609037,1609037,Fix Released,Add support for QoS policies commands,https://bugs.launchpad.net/python-openstackclient/+bug/1609037,2016-11-17
+1614321,1614321,Fix Released,List port missed one option,https://bugs.launchpad.net/python-openstackclient/+bug/1614321,2016-11-17
+1613995,1613995,Fix Released,Add a new column to os port list command,https://bugs.launchpad.net/python-openstackclient/+bug/1613995,2016-11-17
+1613533,1613533,Fix Released,List security group rules filtering option,https://bugs.launchpad.net/python-openstackclient/+bug/1613533,2016-11-17
+1566090,1566090,Fix Released,"Cannot determine network, or pool, a floating ip belongs to without multiple commands",https://bugs.launchpad.net/python-openstackclient/+bug/1566090,2016-11-17
+1634672,1634672,Fix Released,Bad request with subnet set --no-allocation-pool,https://bugs.launchpad.net/python-openstackclient/+bug/1634672,2016-11-17
+1607959,1607959,Fix Released,Account created with empty password cannot request tokens,https://bugs.launchpad.net/python-openstackclient/+bug/1607959,2016-11-17
+1637074,1637074,Fix Released,Support more columns in hypervisor list,https://bugs.launchpad.net/python-openstackclient/+bug/1637074,2016-11-17
+1635580,1635580,Fix Released,Support filtering networks by --provider-* options,https://bugs.launchpad.net/python-openstackclient/+bug/1635580,2016-11-17
+1637945,1637945,Fix Released,"Add filtering options: name, enable, disable for router",https://bugs.launchpad.net/python-openstackclient/+bug/1637945,2016-11-17
+1637365,1637365,Fix Released,Not appropriate name sg rule attribute,https://bugs.launchpad.net/python-openstackclient/+bug/1637365,2016-11-17
+1639712,1639712,Fix Released,Missing options in volume backup list command,https://bugs.launchpad.net/python-openstackclient/+bug/1639712,2016-11-17
+1612484,1612484,Fix Released,Missing '--marker' and '--limit' options in list commands in volume,https://bugs.launchpad.net/python-openstackclient/+bug/1612484,2016-11-17
+1636209,1636209,Fix Released,openstack <subcommand> help summaries do not support translation,https://bugs.launchpad.net/python-cliff/+bug/1636209,2016-11-17
+1636209,1636209,Fix Released,openstack <subcommand> help summaries do not support translation,https://bugs.launchpad.net/python-openstackclient/+bug/1636209,2016-11-17
+1584044,1584044,Fix Committed,[nailgun] [octane] Nailgun returns an error 500 during node-upgrade via octane,https://bugs.launchpad.net/fuel/+bug/1584044,2016-11-17
+1565054,1565054,Fix Released,missing libvirt module in ceilometer-compute,https://bugs.launchpad.net/kolla/+bug/1565054,2016-11-17
+1575477,1575477,Fix Committed,Octane should be able to ssh as non-root user and use sudo.,https://bugs.launchpad.net/fuel/+bug/1575477,2016-11-17
+1629099,1629099,Fix Released,OVS transaction mutate clears column data within transaction,https://bugs.launchpad.net/networking-ovn/+bug/1629099,2016-11-17
+1641600,1641600,Fix Released,Designate mysql secret variables do not match with openstack-ansible-os_designate,https://bugs.launchpad.net/openstack-ansible/+bug/1641600,2016-11-17
+1621505,1621505,Fix Released,Wrong usage of parameter `endpoint_override`,https://bugs.launchpad.net/python-heatclient/+bug/1621505,2016-11-17
+1625011,1625011,Fix Released,Help message for heat stack-list tags are confusing,https://bugs.launchpad.net/python-heatclient/+bug/1625011,2016-11-17
+1599568,1599568,Fix Released,osc plugin event list sorting is hard to use,https://bugs.launchpad.net/python-heatclient/+bug/1599568,2016-11-17
+1625505,1625505,Fix Released,Add 'with_condition_func' filter param to return condition functions,https://bugs.launchpad.net/heat/+bug/1625505,2016-11-17
+1639107,1639107,Fix Released,openstack stack --property failed to filter stacks,https://bugs.launchpad.net/python-heatclient/+bug/1639107,2016-11-17
+1642248,1642248,Fix Released,"[dashboard] action screen ""run"" button CSS issue",https://bugs.launchpad.net/mistral/+bug/1642248,2016-11-17
+1622881,1622881,Fix Released,os_actions_endpoint_type option exists but it's unused,https://bugs.launchpad.net/mistral/+bug/1622881,2016-11-17
+1608909,1608909,Fix Released,Kombu driver exception when call returns error,https://bugs.launchpad.net/mistral/+bug/1608909,2016-11-17
+1624012,1624012,Fix Released,Validate that either an action or a workflow is provided in workflow tasks,https://bugs.launchpad.net/mistral/+bug/1624012,2016-11-17
+1627443,1627443,Fix Released,Delayed calls related to WF executions are not removed if we delete WF execution or stop it,https://bugs.launchpad.net/mistral/+bug/1627443,2016-11-17
+1630430,1630430,Fix Released,Missing utf-8 encoding,https://bugs.launchpad.net/mistral/+bug/1630430,2016-11-17
+1631035,1631035,Fix Released,task expression function throws exception if task wasn't executed,https://bugs.launchpad.net/mistral/+bug/1631035,2016-11-17
+1630473,1630473,Fix Released,'state_info' of failed tasks should contain error messages first and then other information,https://bugs.launchpad.net/mistral/+bug/1630473,2016-11-17
+1634090,1634090,Fix Released,Failed to create keystone client,https://bugs.launchpad.net/mistral/+bug/1634090,2016-11-17
+1635841,1635841,Fix Released,The entire workflow fails if one of a join task inbound tasks fails,https://bugs.launchpad.net/mistral/+bug/1635841,2016-11-17
+1636169,1636169,Fix Released,Mistral does not always detect unreachable task with join,https://bugs.launchpad.net/mistral/+bug/1636169,2016-11-17
+1640724,1640724,Fix Released,Migrate to the new oslo.db engine facade,https://bugs.launchpad.net/mistral/+bug/1640724,2016-11-17
+1635380,1635380,Fix Released,Replace usage of 'retrying' with 'tenacity',https://bugs.launchpad.net/mistral/+bug/1635380,2016-11-17
+1642142,1642142,Fix Released,"the sort key ""oid"" in event list has not been implemented completely",https://bugs.launchpad.net/senlin/+bug/1642142,2016-11-17
+1623983,1623983,Fix Released,group_by statement in metric queries does not work within ceilosca,https://bugs.launchpad.net/watcher/+bug/1623983,2016-11-17
+1548874,1548874,Fix Released,basic consolidation computes VMs BFD only on the first hypervisor,https://bugs.launchpad.net/watcher/+bug/1548874,2016-11-17
+1625560,1625560,Fix Released,'tox -e py27' failed,https://bugs.launchpad.net/watcher/+bug/1625560,2016-11-17

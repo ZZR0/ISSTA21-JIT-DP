@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1784015,1784015,Fix Released,ovb image build broken due to diskimage_builder.element_dependencies.MissingElementException: Element 'disable-nouveau' not found,https://bugs.launchpad.net/tripleo/+bug/1784015,2018-12-31
+1810068,1810068,Fix Released,ha-guide home-page is not right,https://bugs.launchpad.net/openstack-manuals/+bug/1810068,2018-12-30
+1669842,1669842,Fix Released,deployed-server: ec2 collector should not be enabled by default,https://bugs.launchpad.net/heat/+bug/1669842,2018-12-29
+1622914,1622914,Fix Released,agent traces about bridge-nf-call sysctl values missing,https://bugs.launchpad.net/devstack/+bug/1622914,2018-12-29
+1622914,1622914,Fix Released,agent traces about bridge-nf-call sysctl values missing,https://bugs.launchpad.net/neutron/+bug/1622914,2018-12-29
+1708663,1708663,Fix Released,Configuring Network Isolation in tripleo-docs,https://bugs.launchpad.net/tripleo/+bug/1708663,2018-12-29
+1774153,1774153,Fix Released,cisco VTS template missing site-id,https://bugs.launchpad.net/tripleo/+bug/1774153,2018-12-29
+1746727,1746727,Fix Released,overcloud images can't be deployed to 4k disks,https://bugs.launchpad.net/tripleo/+bug/1746727,2018-12-29
+1600597,1600597,Fix Released,stable/mitaka constraints path fails,https://bugs.launchpad.net/manila/+bug/1600597,2018-12-26
+1675538,1675538,Fix Released,Add support for CentOS,https://bugs.launchpad.net/manila-image-elements/+bug/1675538,2018-12-26
+1504397,1504397,Fix Released,truncate table size column cause the exception,https://bugs.launchpad.net/horizon/+bug/1504397,2018-12-26
+1809397,1809397,Fix Committed,"fuel 8.0 update bootstrap kernel, system boot hang at ""random nonblocking pool is initialized""",https://bugs.launchpad.net/fuel/+bug/1809397,2018-12-25
+1782296,1782296,Fix Released,nova [ERROR (ClientException): Unexpected API Error.],https://bugs.launchpad.net/nova/+bug/1782296,2018-12-24
+1590845,1590845,Fix Released,Router interfaces report being in BUILD state - l3ha vrrp+LinuxBridge,https://bugs.launchpad.net/neutron/+bug/1590845,2018-12-23
+1780827,1780827,Fix Released,Py3.7 RuntimeError: generator raised StopIteration,https://bugs.launchpad.net/designate/+bug/1780827,2018-12-22
+1804180,1804180,Fix Released,Neutron ovs cleanup cannot run on Windows,https://bugs.launchpad.net/neutron/+bug/1804180,2018-12-21
+1763627,1763627,Fix Released,neutron service-provider-list return duplicated entries,https://bugs.launchpad.net/neutron/+bug/1763627,2018-12-21
+1774460,1774460,Fix Released,Neutron pagination ignores X-Forwarded-Proto header,https://bugs.launchpad.net/neutron/+bug/1774460,2018-12-21
+1783556,1783556,Fix Released,Neutron ovs agent logs flooded with KeyErrors,https://bugs.launchpad.net/neutron/+bug/1783556,2018-12-21
+1782576,1782576,Fix Released,Logging - No SG-log data found at /var/log/syslog,https://bugs.launchpad.net/neutron/+bug/1782576,2018-12-21
+1785349,1785349,Fix Released,policy.json does not contain rule for auto-allocated-topologies removal,https://bugs.launchpad.net/neutron/+bug/1785349,2018-12-21
+1786213,1786213,Fix Released,Metering agent: failed to run ip netns command,https://bugs.launchpad.net/neutron/+bug/1786213,2018-12-21
+1783470,1783470,Fix Released,get_subnet_for_dvr returns SNAT mac instead of gateway in subnet_info,https://bugs.launchpad.net/neutron/+bug/1783470,2018-12-21
+1785582,1785582,Fix Released,Connectivity to instance after L3 router migration from Legacy to HA fails,https://bugs.launchpad.net/neutron/+bug/1785582,2018-12-21
+1782421,1782421,Fix Released,Port creation fails during concurrent deploys,https://bugs.launchpad.net/neutron/+bug/1782421,2018-12-21
+1787106,1787106,Fix Released,Not able to ping between VMs when creating logging with --resource-type security_group,https://bugs.launchpad.net/neutron/+bug/1787106,2018-12-21
+1783559,1783559,Fix Released,Qos binding network causes ovs-agent to send a lot of rpc,https://bugs.launchpad.net/neutron/+bug/1783559,2018-12-21
+1786169,1786169,Fix Released,DVR: Missing fixed_ips info for IPv6 subnets,https://bugs.launchpad.net/neutron/+bug/1786169,2018-12-21
+1471957,1471957,Fix Released,Invalid subnet cidr cause dhcp runtimerror,https://bugs.launchpad.net/neutron/+bug/1471957,2018-12-21
+1787119,1787119,Fix Released,[Logging] firewall_group log resource and security_group log resource could not co-exist correctly,https://bugs.launchpad.net/neutron/+bug/1787119,2018-12-21
+1788865,1788865,Fix Released,neutron-openvswitch-agent interface monitor does not work if ovsdb-client generates warnings (ovs 2.10),https://bugs.launchpad.net/neutron/+bug/1788865,2018-12-21
+1790143,1790143,Fix Released,devstack/lib/ovs fails on fedora,https://bugs.launchpad.net/neutron/+bug/1790143,2018-12-21
+1728642,1728642,Fix Released,corrupted namespace blasted ovs bridge with thousands of dangling port,https://bugs.launchpad.net/neutron/+bug/1728642,2018-12-21
+1791178,1791178,Fix Released,"pep8 tests failing on ""./tools/coding-checks.sh --pylint""",https://bugs.launchpad.net/neutron/+bug/1791178,2018-12-21
+1778740,1778740,Fix Released,Quality of Service (QoS) in Neutron - associating QoS policy to Floating IP,https://bugs.launchpad.net/neutron/+bug/1778740,2018-12-21
+1775146,1775146,Fix Released,I found some flow tables of br-int will be missing After I restarted neutron-openvswitch-agent.,https://bugs.launchpad.net/neutron/+bug/1775146,2018-12-21
+1789403,1789403,Fix Released,ip6tables rules for PD subnets not fully recreated at l3-agent restart,https://bugs.launchpad.net/neutron/+bug/1789403,2018-12-21
+1794259,1794259,Fix Released,rocky upgrade path broken requirements pecan too low,https://bugs.launchpad.net/neutron/+bug/1794259,2018-12-21
+1794406,1794406,Fix Released,neutron.objects lost PortForwarding in setup.cfg,https://bugs.launchpad.net/neutron/+bug/1794406,2018-12-21
+1794305,1794305,Fix Released,[dvr_no_external][ha] centralized fip show up in the backup snat-namespace on the restore host (restaring or down/up),https://bugs.launchpad.net/neutron/+bug/1794305,2018-12-21
+1784484,1784484,Fix Released,"intermittent issue getting assigned MACs for SRIOV nics, causes nova timeout",https://bugs.launchpad.net/neutron/+bug/1784484,2018-12-21
+1795878,1795878,Fix Released,Python 2.7 and 3.5 periodic jobs with-oslo-master fails,https://bugs.launchpad.net/neutron/+bug/1795878,2018-12-21
+1797084,1797084,Fix Released,Stale namespaces when fallback tunnels are present,https://bugs.launchpad.net/neutron/+bug/1797084,2018-12-21
+1779052,1779052,Fix Released,Quality of Service (QoS) in Neutron (documentation) - only different types  rules can be combined in QoS policy,https://bugs.launchpad.net/neutron/+bug/1779052,2018-12-21
+1797037,1797037,Fix Released,Extra routes configured on routers are not set in the router namespace and snat namespace with DVR-HA routers,https://bugs.launchpad.net/neutron/+bug/1797037,2018-12-21
+1793391,1793391,Fix Released,Subnet update with the subnet's current segment_id fail with: NoUpdateSubnetWhenMultipleSegmentsOnNetwork,https://bugs.launchpad.net/neutron/+bug/1793391,2018-12-21
+1794809,1794809,Fix Released,Gateway ports are down after reboot of control plane nodes,https://bugs.launchpad.net/neutron/+bug/1794809,2018-12-21
+1799748,1799748,Fix Released,"OVSNeutronAgent.rpc_loop is always called with ""polling_manager""",https://bugs.launchpad.net/neutron/+bug/1799748,2018-12-21
+1780370,1780370,Fix Released,[RFE] Replace the timer based periodic resync task of DHCP agents with an event driven one,https://bugs.launchpad.net/neutron/+bug/1780370,2018-12-21
+1796629,1796629,Fix Released,Incorrectly passing ext_ips  as gw_ips  after creating router gateway,https://bugs.launchpad.net/neutron/+bug/1796629,2018-12-21
+1801030,1801030,Fix Released,neutron-macvtap-agent fails to start due to interface not having a mac address,https://bugs.launchpad.net/neutron/+bug/1801030,2018-12-21
+1799150,1799150,Fix Released,[l3][port_forwarding] internal/external port should not allow 0,https://bugs.launchpad.net/neutron/+bug/1799150,2018-12-21
+1799155,1799155,Fix Released,[L3][port_forwarding] two different protocols can not have the same internal/external port number at the same time,https://bugs.launchpad.net/neutron/+bug/1799155,2018-12-21
+1797298,1797298,Fix Released,Router gateway device are repeatedly configured When ha changed,https://bugs.launchpad.net/neutron/+bug/1797298,2018-12-21
+1805356,1805356,Fix Released,Convert instance method to staticmethod in linux bridge agent,https://bugs.launchpad.net/neutron/+bug/1805356,2018-12-21
+1805844,1805844,Fix Released,"When debugging fullstack tests, ""cmd"" module is incorrectly imported",https://bugs.launchpad.net/neutron/+bug/1805844,2018-12-21
+1794424,1794424,Fix Released,trunk: can not delete bound trunk for agent which allow create trunk on bound port,https://bugs.launchpad.net/neutron/+bug/1794424,2018-12-21
+1807128,1807128,Fix Released,"Table name in ""add_ip_rule"" can be a string",https://bugs.launchpad.net/neutron/+bug/1807128,2018-12-21
+1796824,1796824,Fix Released,Port in some type of device_owner should not allow update IP address,https://bugs.launchpad.net/neutron/+bug/1796824,2018-12-21
+1808335,1808335,Fix Released,[neutron] Missing insecure flag for [nova] section of neutron.conf,https://bugs.launchpad.net/openstack-ansible/+bug/1808335,2018-12-21
+1358243,1358243,Fix Released,"LDAP fails with paging support, ""Critical extension is unavailable"" 500 error",https://bugs.launchpad.net/keystone/+bug/1358243,2018-12-21
+1808331,1808331,Fix Released,Adding an object without 'version' field crashes Dragonflow,https://bugs.launchpad.net/dragonflow/+bug/1808331,2018-12-20
+1546441,1546441,Fix Released,db sync command should give user friendly message for invalid 'version' specified,https://bugs.launchpad.net/cinder/+bug/1546441,2018-12-20
+1809199,1809199,Fix Released,lint error,https://bugs.launchpad.net/puppet-placement/+bug/1809199,2018-12-20
+1764883,1764883,Fix Released,Evacuation fails if the source host returns while the migration is still in progress,https://bugs.launchpad.net/nova/+bug/1764883,2018-12-19
+1808816,1808816,Fix Released,/var/run/dragonflow directory is missing in docker,https://bugs.launchpad.net/dragonflow/+bug/1808816,2018-12-19
+1743458,1743458,Fix Released,Device tagging does not work for PF passthrough,https://bugs.launchpad.net/nova/+bug/1743458,2018-12-19
+1759792,1759792,Fix Released,[Testing] Compute nodes are registered to only one cell database regardless of their cells,https://bugs.launchpad.net/nova/+bug/1759792,2018-12-19
+1694693,1694693,Fix Released,Ironic port is getting deleted for node whose provision state is active,https://bugs.launchpad.net/ironic/+bug/1694693,2018-12-19
+1587313,1587313,Fix Released,There's an race condition in setting console mode for shellinabox,https://bugs.launchpad.net/ironic/+bug/1587313,2018-12-19
+1809085,1809085,Fix Released,No test cases for nodes api,https://bugs.launchpad.net/mogan/+bug/1809085,2018-12-19
+1809059,1809059,Fix Released,No test cases for availability_zone api,https://bugs.launchpad.net/mogan/+bug/1809059,2018-12-19
+1798895,1798895,Fix Released,config-download writes server deployments per role and not per server,https://bugs.launchpad.net/tripleo/+bug/1798895,2018-12-18
+1796436,1796436,Fix Released,mistral.actions.action_factory.GetOvercloudConfig : string longer than 2147483647 bytes,https://bugs.launchpad.net/tripleo/+bug/1796436,2018-12-18
+1800958,1800958,Fix Released,container prepare needs to use parameter DockerRegistryMirror,https://bugs.launchpad.net/tripleo/+bug/1800958,2018-12-18

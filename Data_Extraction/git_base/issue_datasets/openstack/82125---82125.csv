@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1188652,1188652,Fix Released,Nicira plugin: get_port reports wrong port status for extended switches,https://bugs.launchpad.net/neutron/+bug/1188652,2014-03-31
+1195974,1195974,Fix Released,Wrong CIDR configuration in subnet will cause all IP-related functions invalid.,https://bugs.launchpad.net/neutron/+bug/1195974,2014-03-31
+1197670,1197670,Fix Released,unit test for ryu-agent is broken,https://bugs.launchpad.net/neutron/+bug/1197670,2014-03-31
+1223747,1223747,Fix Released,Neutron network delete fails with brocade plugin,https://bugs.launchpad.net/neutron/+bug/1223747,2014-03-31
+1235111,1235111,Fix Released,nec-agent: port_added message can be dropped when RPC timeout occurs,https://bugs.launchpad.net/neutron/+bug/1235111,2014-03-31
+1119790,1119790,Fix Released,Circular reference detected ValueError due to  JSONDictSerializer,https://bugs.launchpad.net/neutron/+bug/1119790,2014-03-31
+1146478,1146478,Fix Released,Missing option group in test_iptables_firewall,https://bugs.launchpad.net/neutron/+bug/1146478,2014-03-31
+1151642,1151642,Fix Released,Error with ryu plugin unittests,https://bugs.launchpad.net/neutron/+bug/1151642,2014-03-31
+1153845,1153845,Fix Released,linux bridge test test_process_network_devices_failed hangs,https://bugs.launchpad.net/neutron/+bug/1153845,2014-03-31
+1179327,1179327,Fix Released,allow ports to be created on networks that do not exist in nvp,https://bugs.launchpad.net/neutron/+bug/1179327,2014-03-31
+1180113,1180113,Fix Released,Fix logic in test_db_loadbalancer,https://bugs.launchpad.net/neutron/+bug/1180113,2014-03-31
+1181718,1181718,Fix Released,Incorrect logic in api.v2.base.Controller._is_visible,https://bugs.launchpad.net/neutron/+bug/1181718,2014-03-31
+1200026,1200026,Fix Released,nvp plugin does not validate dscp value range less than 64,https://bugs.launchpad.net/neutron/+bug/1200026,2014-03-31
+1202722,1202722,Fix Released,Caught Exception in dhcp agent sync_state may block or delay configuration of new networks,https://bugs.launchpad.net/neutron/+bug/1202722,2014-03-31
+1213159,1213159,Fix Released,Preserve traceback in re-raised exception in Cisco plugin,https://bugs.launchpad.net/neutron/+bug/1213159,2014-03-31
+1217479,1217479,Fix Released,make nvp plugin future version friendly,https://bugs.launchpad.net/neutron/+bug/1217479,2014-03-31
+1190242,1190242,Fix Released,addFloatingIp with empty IP address should raise a 404 not a 200,https://bugs.launchpad.net/neutron/+bug/1190242,2014-03-31
+1158596,1158596,Fix Released,Cant disassociate floating IP from instance panel when using Quantum,https://bugs.launchpad.net/horizon/+bug/1158596,2014-03-30
+1096084,1096084,Fix Released,Unclear error when deleting a Swift container that contains data,https://bugs.launchpad.net/horizon/+bug/1096084,2014-03-30
+1165095,1165095,Fix Released,Exception when editing (some) Quantum security rules,https://bugs.launchpad.net/horizon/+bug/1165095,2014-03-30
+1170193,1170193,Fix Released,Duplicate Networks in Networking Tab,https://bugs.launchpad.net/horizon/+bug/1170193,2014-03-30
+1226224,1226224,Fix Released,Floating IPs from other tenants are listed when with admin tenant,https://bugs.launchpad.net/horizon/+bug/1226224,2014-03-30
+1177629,1177629,Fix Released,'msgid' format string with unnamed arguments cannot be properly localized in dashboards/project/instances/workflows/create_instance.py,https://bugs.launchpad.net/horizon/+bug/1177629,2014-03-30
+1104994,1104994,Fix Released,Multi datastore support for provisioning of instances on ESX,https://bugs.launchpad.net/nova/+bug/1104994,2014-03-30
+1172922,1172922,Fix Released,Nova and quantum don't close qpid connections after certain error conditions,https://bugs.launchpad.net/cinder/+bug/1172922,2014-03-30
+1172922,1172922,Fix Released,Nova and quantum don't close qpid connections after certain error conditions,https://bugs.launchpad.net/nova/+bug/1172922,2014-03-30
+1172922,1172922,Fix Released,Nova and quantum don't close qpid connections after certain error conditions,https://bugs.launchpad.net/neutron/+bug/1172922,2014-03-30
+1186867,1186867,Fix Released,normal user can show all the networks,https://bugs.launchpad.net/nova/+bug/1186867,2014-03-30
+1202042,1202042,Fix Released,VMware: Unable to spawn a instance when using Quantum and VMware drivers,https://bugs.launchpad.net/nova/+bug/1202042,2014-03-30
+1212648,1212648,Fix Released,launch index is not right if boot some VMs in one request,https://bugs.launchpad.net/nova/+bug/1212648,2014-03-30
+1181934,1181934,Fix Released,Not prompt relevant message when stop a stoped vm,https://bugs.launchpad.net/nova/+bug/1181934,2014-03-30
+1237944,1237944,Fix Released,boto version breaks gating,https://bugs.launchpad.net/nova/+bug/1237944,2014-03-30
+1204850,1204850,Fix Released,one port_id can add to two instance,https://bugs.launchpad.net/nova/+bug/1204850,2014-03-30
+1180641,1180641,Fix Released,setup.cfg contains non existing driver,https://bugs.launchpad.net/ceilometer/+bug/1180641,2014-03-30
+1183314,1183314,Fix Released,cannot specify bind_host for api,https://bugs.launchpad.net/ceilometer/+bug/1183314,2014-03-30
+1220176,1220176,Fix Released,Two typos found in Ceilometer document,https://bugs.launchpad.net/ceilometer/+bug/1220176,2014-03-30
+1223259,1223259,Fix Released,Middleware for swift can not get correct response,https://bugs.launchpad.net/ceilometer/+bug/1223259,2014-03-30
+1231491,1231491,Fix Released,"keystone client has changed AuthProtocol interface, our test cases failing",https://bugs.launchpad.net/ceilometer/+bug/1231491,2014-03-30
+1173415,1173415,Fix Released,Remove glance-control from the test suite,https://bugs.launchpad.net/glance/+bug/1173415,2014-03-30
+1025746,1025746,Fix Released,Migration 015 should not use internal Glance classes,https://bugs.launchpad.net/glance/+bug/1025746,2014-03-30
+1153983,1153983,Fix Released,Consolidate SQLAlchemy requirements to 0.7.x,https://bugs.launchpad.net/glance/+bug/1153983,2014-03-30
+1153983,1153983,Fix Released,Consolidate SQLAlchemy requirements to 0.7.x,https://bugs.launchpad.net/neutron/+bug/1153983,2014-03-30
+1153983,1153983,Fix Released,Consolidate SQLAlchemy requirements to 0.7.x,https://bugs.launchpad.net/heat/+bug/1153983,2014-03-30
+1155749,1155749,Fix Released,Migration 017 uses internal swift store classes,https://bugs.launchpad.net/glance/+bug/1155749,2014-03-30
+1158723,1158723,Fix Released,Add image_size_cap documentation,https://bugs.launchpad.net/glance/+bug/1158723,2014-03-30
+1178307,1178307,Fix Released,'500' can occur when inaccessible id of other user used as marker,https://bugs.launchpad.net/glance/+bug/1178307,2014-03-30
+1229042,1229042,Fix Released,glance qpid notifier can hang under heavy load,https://bugs.launchpad.net/glance/+bug/1229042,2014-03-30
+1124224,1124224,Fix Released,Glance V1 API documentation inaccuracy,https://bugs.launchpad.net/glance/+bug/1124224,2014-03-30
+1154760,1154760,Fix Released,Glance v2 API changes its behavior based on the is_public filter even tho that is not a valid optins in v2.,https://bugs.launchpad.net/glance/+bug/1154760,2014-03-30
+1164681,1164681,Fix Released,Provide graceful fallback from qpid notification errors,https://bugs.launchpad.net/glance/+bug/1164681,2014-03-30
+1176270,1176270,Fix Released,add_user_to_project fails if default role_id hasn't been previously created,https://bugs.launchpad.net/keystone/+bug/1176270,2014-03-30
+1212778,1212778,Fix Released,Authenticating v2 token against v3 api fails with error 500,https://bugs.launchpad.net/keystone/+bug/1212778,2014-03-30
+1170186,1170186,Fix Released,Unscoped tokens are revoked when assigning a role to a user,https://bugs.launchpad.net/keystone/+bug/1170186,2014-03-30
+1170186,1170186,Fix Released,Unscoped tokens are revoked when assigning a role to a user,https://bugs.launchpad.net/horizon/+bug/1170186,2014-03-30
+1190286,1190286,Fix Released,LDAP get_project_users should not return password,https://bugs.launchpad.net/keystone/+bug/1190286,2014-03-30
+1201487,1201487,Fix Released,listing projects for a user omits those that only have group related roles,https://bugs.launchpad.net/keystone/+bug/1201487,2014-03-30
+1221889,1221889,Fix Released,Invalid X-Subject-Token results in HTTP 401 rather than 404,https://bugs.launchpad.net/tempest/+bug/1221889,2014-03-30
+1221889,1221889,Fix Released,Invalid X-Subject-Token results in HTTP 401 rather than 404,https://bugs.launchpad.net/keystone/+bug/1221889,2014-03-30
+1155361,1155361,Fix Released,keystone-manage pki_setup does not create pem files,https://bugs.launchpad.net/keystone/+bug/1155361,2014-03-30
+1160573,1160573,Fix Released,keystone config file doesn't work if you specify admin_endpoint,https://bugs.launchpad.net/keystone/+bug/1160573,2014-03-30
+1167593,1167593,Fix Released,400 Bad Request not raised for string values of 'enabled',https://bugs.launchpad.net/keystone/+bug/1167593,2014-03-30
+1168879,1168879,Fix Released,Error with unicode error message,https://bugs.launchpad.net/keystone/+bug/1168879,2014-03-30
+1169381,1169381,Fix Released,IntegrityError running sql tests on MySQL/Postgres,https://bugs.launchpad.net/keystone/+bug/1169381,2014-03-30
+1177630,1177630,Fix Released,LDAP group search doesn't use filter,https://bugs.launchpad.net/keystone/+bug/1177630,2014-03-30
+1210515,1210515,Fix Released,"keystone chokes on empty ""description"" field in active directory",https://bugs.launchpad.net/keystone/+bug/1210515,2014-03-30
+1168317,1168317,Fix Released,Blank Description for projects being handled incorrectly,https://bugs.launchpad.net/keystone/+bug/1168317,2014-03-30
+1183874,1183874,Fix Released,Keystone Trusts API response contains invalid links,https://bugs.launchpad.net/keystone/+bug/1183874,2014-03-30
+1171190,1171190,Fix Released,sql error when launching an instance from a volume,https://bugs.launchpad.net/nova/+bug/1171190,2014-03-30
+1182102,1182102,Fix Released,volume I/O usage notification events send too many times,https://bugs.launchpad.net/nova/+bug/1182102,2014-03-30
+1184807,1184807,Fix Released,Snapshot failure with VMwareVCDriver,https://bugs.launchpad.net/nova/+bug/1184807,2014-03-30
+1187853,1187853,Fix Released,VMWAREAPI: Problem with starting Windows instances on ESXi 5.1,https://bugs.launchpad.net/nova/+bug/1187853,2014-03-30
+1191724,1191724,Fix Released,Migration 152 harms indexes with `deleted` columns,https://bugs.launchpad.net/nova/+bug/1191724,2014-03-30
+1194900,1194900,Fix Released,scheduler only sees compute resources freed on periodic updates,https://bugs.launchpad.net/nova/+bug/1194900,2014-03-30
+1195877,1195877,Fix Released,resume guests on libvirt host reboot fails for instances with an ephemeral disk,https://bugs.launchpad.net/nova/+bug/1195877,2014-03-30
+1200113,1200113,Fix Released,hard reboot fails with preallocate_images=performance,https://bugs.launchpad.net/nova/+bug/1200113,2014-03-30

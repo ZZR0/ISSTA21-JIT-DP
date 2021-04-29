@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1779799,1779799,Fix Released,the somke test random failed,https://bugs.launchpad.net/tricircle/+bug/1779799,2018-11-07
+1756515,1756515,Fix Released,the unit test can not pass,https://bugs.launchpad.net/tricircle/+bug/1756515,2018-11-07
+1741008,1741008,Fix Released,the unit test do not have the correct  user_agent,https://bugs.launchpad.net/tricircle/+bug/1741008,2018-11-07
+1657624,1657624,Fix Released,"Some document format errors in the ""Tricircle Design Blueprint""",https://bugs.launchpad.net/tricircle/+bug/1657624,2018-11-07
+1635405,1635405,Fix Released,Replace usage of 'retrying' with 'tenacity',https://bugs.launchpad.net/tricircle/+bug/1635405,2018-11-07
+1583436,1583436,Fix Released,Inconsistent prameter name - pod,https://bugs.launchpad.net/tricircle/+bug/1583436,2018-11-07
+1581903,1581903,Fix Released,Improvement: Exception handling,https://bugs.launchpad.net/tricircle/+bug/1581903,2018-11-07
+1675401,1675401,Fix Released,yum does not fail when packages are missing,https://bugs.launchpad.net/kolla/+bug/1675401,2018-11-06
+1799514,1799514,Fix Released,Test environment example in openstack-ansible,https://bugs.launchpad.net/openstack-ansible/+bug/1799514,2018-11-06
+1794545,1794545,Fix Released,"PlacementAPIClient.update_resource_class wrong client call, missing argument",https://bugs.launchpad.net/neutron/+bug/1794545,2018-11-06
+1796854,1796854,Fix Released,Neutron doesn't respect advscv role while creating port,https://bugs.launchpad.net/neutron/+bug/1796854,2018-11-06
+1751069,1751069,Fix Released,missing release note (or doc) on vpn-agent change in queens,https://bugs.launchpad.net/neutron/+bug/1751069,2018-11-06
+1777673,1777673,Fix Released,vpnaas gate broken due to some cases in functional tests are always failing,https://bugs.launchpad.net/neutron/+bug/1777673,2018-11-06
+1715395,1715395,Fix Released,FWaaS: Firewall creation fails in case of distributed routers (Pike),https://bugs.launchpad.net/neutron/+bug/1715395,2018-11-06
+1758062,1758062,Fix Released,fwaas unit tests are failing on networking-midonet gate,https://bugs.launchpad.net/networking-midonet/+bug/1758062,2018-11-06
+1758062,1758062,Fix Released,fwaas unit tests are failing on networking-midonet gate,https://bugs.launchpad.net/neutron/+bug/1758062,2018-11-06
+1758786,1758786,Fix Released,neutron db migration failed in subproject neutron-fwaas,https://bugs.launchpad.net/neutron/+bug/1758786,2018-11-06
+1753507,1753507,Fix Released,FWaaS V2: Upgrade Pike->Queen causes error,https://bugs.launchpad.net/neutron/+bug/1753507,2018-11-06
+1758093,1758093,Fix Released,DVR: RPC error handling missing for get_network_info_for_id,https://bugs.launchpad.net/neutron/+bug/1758093,2018-11-06
+1740450,1740450,Fix Released,Restarting l3 agent results in lost of centralized fip in snat ns,https://bugs.launchpad.net/neutron/+bug/1740450,2018-11-06
+1716913,1716913,Fix Released,bandwidth metering - Creating meter label rule doesn't match the metering concept.,https://bugs.launchpad.net/neutron/+bug/1716913,2018-11-06
+1730271,1730271,Fix Released,test_two_sec_groups failure,https://bugs.launchpad.net/neutron/+bug/1730271,2018-11-06
+1730271,1730271,Fix Released,test_two_sec_groups failure,https://bugs.launchpad.net/networking-midonet/+bug/1730271,2018-11-06
+1767829,1767829,Fix Released,Fullstack test_securitygroup.TestSecurityGroupsSameNetwork fails often after SG rule delete,https://bugs.launchpad.net/neutron/+bug/1767829,2018-11-06
+1774006,1774006,Fix Released,Fullstack security group test fails on _test_using_multiple_security_groups,https://bugs.launchpad.net/neutron/+bug/1774006,2018-11-06
+1744447,1744447,Fix Released,Filtering Port OVO based on security groups don't work,https://bugs.launchpad.net/neutron/+bug/1744447,2018-11-06
+1737917,1737917,Fix Released,NeutronServerTrytoFindL3agentOnComputeNodewhenWeUseLinuxBridge,https://bugs.launchpad.net/neutron/+bug/1737917,2018-11-06
+1776255,1776255,Fix Released,DVR scheduling checks wrong port binding profile for host in live-migration,https://bugs.launchpad.net/neutron/+bug/1776255,2018-11-06
+1736068,1736068,Fix Released,DVR lost centralized floating ip when the ha state switched.,https://bugs.launchpad.net/neutron/+bug/1736068,2018-11-06
+1709931,1709931,Fix Released,Windows: exec calls stdout trimmed,https://bugs.launchpad.net/neutron/+bug/1709931,2018-11-06
+1757089,1757089,Fix Released,Fullstack test_port_shut_down(Linux bridge agent) fails quite often,https://bugs.launchpad.net/neutron/+bug/1757089,2018-11-06
+1754327,1754327,Fix Released,Tempest scenario jobs failing due to no FIP connectivity,https://bugs.launchpad.net/neutron/+bug/1754327,2018-11-06
+1720205,1720205,Fix Released,neutron does not create the necessary iptables rules for l3 and dhcp agents when linuxbridge used,https://bugs.launchpad.net/neutron/+bug/1720205,2018-11-06
+1745642,1745642,Fix Released,SG hybrid iptables driver and FWaaS OVS driver create overlapping conntrack zones,https://bugs.launchpad.net/neutron/+bug/1745642,2018-11-06
+1775183,1775183,Fix Released,Fullstack test neutron.tests.fullstack.test_l3_agent.TestHAL3Agent. test_ha_router_restart_agents_no_packet_lost fails often,https://bugs.launchpad.net/neutron/+bug/1775183,2018-11-06
+1778643,1778643,Fix Released,DVR: Fip gateway port is tagged as DEAD port by OVS when external_bridge is configured,https://bugs.launchpad.net/neutron/+bug/1778643,2018-11-06
+1776984,1776984,Fix Released,DVR: Self recover from the loss of 'fg' ports in FIP Namespace,https://bugs.launchpad.net/neutron/+bug/1776984,2018-11-06
+1773818,1773818,Fix Released,Test failures in docker container,https://bugs.launchpad.net/neutron/+bug/1773818,2018-11-06
+1754770,1754770,Fix Released,Duplicate iptables rule detected in Linuxbridge agent logs,https://bugs.launchpad.net/neutron/+bug/1754770,2018-11-06
+1776459,1776459,Fix Released,TestHAL3Agent.test_ha_router_restart_agents_no_packet_lost fullstack fails,https://bugs.launchpad.net/neutron/+bug/1776459,2018-11-06
+1781915,1781915,Fix Released,QoS (DSCP Mark IDs) – No correlation between the implemented functionality and design,https://bugs.launchpad.net/neutron/+bug/1781915,2018-11-06
+1777547,1777547,Fix Released,[Doc] [FWaaS] Configuration of FWaaS v1  is confused,https://bugs.launchpad.net/neutron/+bug/1777547,2018-11-06
+1715163,1715163,Fix Released,StaleDataError in _reconfigure_ha_resources while running tempest tests,https://bugs.launchpad.net/neutron/+bug/1715163,2018-11-06
+1764481,1764481,Fix Released,Sometimes dhcp_releasepackets don't reach dnsmasq,https://bugs.launchpad.net/neutron/+bug/1764481,2018-11-06
+1672629,1672629,Fix Released,"when port admin-state-up=False, the port status should be DOWN",https://bugs.launchpad.net/neutron/+bug/1672629,2018-11-06
+1756406,1756406,Fix Released,DVR: Fix dvr mac address format to be backward compatible with non native openflow interface,https://bugs.launchpad.net/neutron/+bug/1756406,2018-11-06
+1773286,1773286,Fix Released,In some specific case with dvr mode I found the l2pop flows is incomplete.,https://bugs.launchpad.net/neutron/+bug/1773286,2018-11-06
+1680161,1680161,Fix Released,FWaaS v2 - filtering doesn't work correctly,https://bugs.launchpad.net/neutron/+bug/1680161,2018-11-06
+1782059,1782059,Fix Released,Use api version 1.12 with stable/queens server failed,https://bugs.launchpad.net/zun/+bug/1782059,2018-11-06
+1799343,1799343,Fix Released,Get 406 response on host list,https://bugs.launchpad.net/zun/+bug/1799343,2018-11-06
+1504536,1504536,Fix Released,Provide stevedore aliases for interface_driver option,https://bugs.launchpad.net/devstack/+bug/1504536,2018-11-06
+1504536,1504536,Fix Released,Provide stevedore aliases for interface_driver option,https://bugs.launchpad.net/neutron/+bug/1504536,2018-11-06
+1504536,1504536,Fix Released,Provide stevedore aliases for interface_driver option,https://bugs.launchpad.net/kolla-ansible/+bug/1504536,2018-11-06
+1801199,1801199,Fix Released,default DPDK_GIT_TAG setting is too old,https://bugs.launchpad.net/networking-spp/+bug/1801199,2018-11-05
+1798195,1798195,Fix Released,rdo-cloud yum repos unavailable during container updates and failing the undercloud install,https://bugs.launchpad.net/tripleo/+bug/1798195,2018-11-04
+1801384,1801384,Fix Released,build image overcloudfull job failing on ELEMENTS_PATH entry '/home/zuul/workspace/instack-undercloud/elements' is not a directory,https://bugs.launchpad.net/tripleo/+bug/1801384,2018-11-04
+1628443,1628443,Fix Released,Value 'all' of CONF.compute_feature_enabled.scheduler_available_filters is misleading,https://bugs.launchpad.net/tempest/+bug/1628443,2018-11-04
+1801479,1801479,Fix Released,Update min tox version to 2.0,https://bugs.launchpad.net/apmec/+bug/1801479,2018-11-03
+1791989,1791989,Fix Released,grenade-dvr-multinode job fails,https://bugs.launchpad.net/neutron/+bug/1791989,2018-11-02
+1801330,1801330,Fix Released,CI: dlrn build fails to build instack-undercloud because it doesn't have setup.py,https://bugs.launchpad.net/tripleo/+bug/1801330,2018-11-02
+1618754,1618754,Fix Released,[RFE] Add portgroups support to Ironic,https://bugs.launchpad.net/ironic/+bug/1618754,2018-11-02
+1791093,1791093,Fix Released,nova::keystone::authtoken::auth_url is sometimes incorrect,https://bugs.launchpad.net/tripleo/+bug/1791093,2018-11-02
+1554987,1554987,Fix Released,"iscsi_ilo driver fail to deploy for ""Could not create NetworkPortal in configFS"" on ubuntu",https://bugs.launchpad.net/diskimage-builder/+bug/1554987,2018-11-02
+1800748,1800748,Fix Released,undercloud-containers job does not configure a docker mirror when podman is the container cli,https://bugs.launchpad.net/tripleo/+bug/1800748,2018-11-01
+1801074,1801074,Fix Released,Typo within How to Become a Patch Guru? in contributor-guide,https://bugs.launchpad.net/openstack-contributor-guide/+bug/1801074,2018-11-01
+1674715,1674715,Fix Released,Collect containerized services logs on fluentd,https://bugs.launchpad.net/tripleo/+bug/1674715,2018-11-01
+1784038,1784038,Fix Released,blazar CLI fails to create a reservation if a start date is not provided,https://bugs.launchpad.net/blazar/+bug/1784038,2018-11-01
+1786030,1786030,Fix Released,Blazar CLI displays wrong information in error message when leases exist with the same name,https://bugs.launchpad.net/blazar/+bug/1786030,2018-11-01
+1788323,1788323,Fix Released,glanceclient uses only md5 for download validation,https://bugs.launchpad.net/python-glanceclient/+bug/1788323,2018-11-01
+1762612,1762612,Fix Released,different results between python2 client and python3 client,https://bugs.launchpad.net/python-designateclient/+bug/1762612,2018-11-01
+1783653,1783653,Fix Released,scenario007 failing with resources.ServiceChain: resources.BlockStorageServiceChain.Property error: resources[2].properties: Property DockerCinderConfigImage not assigned,https://bugs.launchpad.net/tripleo/+bug/1783653,2018-10-31
+1800511,1800511,Fix Released,VMs with vif_type bridge/tap started before Rocky upgrade cannot be live migrated,https://bugs.launchpad.net/nova/+bug/1800511,2018-10-31
+1783403,1783403,Fix Released,ERROR stevedore.extension [-] Could not load 'noop': No module named vif_plug_noop.noop in n-cpu logs,https://bugs.launchpad.net/os-vif/+bug/1783403,2018-10-31
+1793562,1793562,Fix Released,Fix upper-constraints link in tox file,https://bugs.launchpad.net/os-vif/+bug/1793562,2018-10-31
+1672812,1672812,Fix Released,_plug_vif_windows uses linux net fuctions that do not work correctly on windows.,https://bugs.launchpad.net/os-vif/+bug/1672812,2018-10-31

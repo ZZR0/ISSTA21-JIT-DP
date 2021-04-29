@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1582929,1582929,Fix Released,Add options when uploading images to Glance,https://bugs.launchpad.net/openstack-manuals/+bug/1582929,2017-06-06
+1604924,1604924,Fix Released,[RFE] add support for vhost-user reconnect to the ovs neutron agent,https://bugs.launchpad.net/neutron/+bug/1604924,2017-06-06
+1694847,1694847,Fix Released,pingtest fails on ipv6/ssl: glanceclient fails to upload pingtest_initramfs,https://bugs.launchpad.net/tripleo/+bug/1694847,2017-06-06
+1695819,1695819,Fix Released,Use node resource_class to match flavors,https://bugs.launchpad.net/mogan/+bug/1695819,2017-06-06
+1693406,1693406,Fix Released,Extend Falconstor driver to utilize multiple FSS storage pools,https://bugs.launchpad.net/openstack-manuals/+bug/1693406,2017-06-06
+1695589,1695589,Fix Released,Ironic containers in restarting loop,https://bugs.launchpad.net/tripleo/+bug/1695589,2017-06-06
+1695259,1695259,Fix Released,VMAX driver - incorrect spelling fixes,https://bugs.launchpad.net/openstack-manuals/+bug/1695259,2017-06-06
+1695865,1695865,Fix Released,NotImplementedError when synchronizing power states from backend,https://bugs.launchpad.net/mogan/+bug/1695865,2017-06-06
+1695634,1695634,Fix Released,Something weird just broke in creating servers,https://bugs.launchpad.net/devstack/+bug/1695634,2017-06-06
+1603210,1603210,Fix Released,app aborts when output is non-ASCII and redirected,https://bugs.launchpad.net/python-cliff/+bug/1603210,2017-06-05
+1695760,1695760,Fix Released,CI: ha and nonha periodic jobs fail with gnocchi db-sync error,https://bugs.launchpad.net/tripleo/+bug/1695760,2017-06-05
+1692513,1692513,Fix Released,Nova uses bad URL for noVNC,https://bugs.launchpad.net/devstack/+bug/1692513,2017-06-05
+1695762,1695762,Fix Released,CI: ovb OOOQ container job fails,https://bugs.launchpad.net/tripleo/+bug/1695762,2017-06-05
+1685284,1685284,Fix Released,overcloud node import should support _comment inside instackenv.json,https://bugs.launchpad.net/tripleo/+bug/1685284,2017-06-05
+1685177,1685177,Fix Released,Since moving some validations to mistral deploy warnings  seem to be broken,https://bugs.launchpad.net/tripleo/+bug/1685177,2017-06-05
+1686981,1686981,Fix Released,<% $.message or '' %> in workflows doesn't actually work,https://bugs.launchpad.net/tripleo/+bug/1686981,2017-06-05
+1691697,1691697,Fix Released,mysql container image doesn't recognize --wsrep-new-cluster flag during kolla bootstrap,https://bugs.launchpad.net/tripleo/+bug/1691697,2017-06-05
+1691740,1691740,Fix Released,Git clone action missing arg in create plan workflow,https://bugs.launchpad.net/tripleo/+bug/1691740,2017-06-05
+1667679,1667679,Fix Released,Setting quota fails saying admin project is not a valid project,https://bugs.launchpad.net/tripleo/+bug/1667679,2017-06-05
+1667679,1667679,Fix Released,Setting quota fails saying admin project is not a valid project,https://bugs.launchpad.net/nova/+bug/1667679,2017-06-05
+1693151,1693151,Fix Released,metadata option doesn't support unicode,https://bugs.launchpad.net/python-cinderclient/+bug/1693151,2017-06-05
+1677308,1677308,Fix Released,Usage of pycrypto,https://bugs.launchpad.net/keystonemiddleware/+bug/1677308,2017-06-05
+1695256,1695256,Fix Released,[doc] README.md has incorrect linking,https://bugs.launchpad.net/monasca/+bug/1695256,2017-06-05
+1603499,1603499,Fix Released,barbican-worker doesn't have a --help (or other switches),https://bugs.launchpad.net/barbican/+bug/1603499,2017-06-05
+1695287,1695287,Fix Released,Volume encryption missing from Manage Volumes section,https://bugs.launchpad.net/openstack-manuals/+bug/1695287,2017-06-05
+1669264,1669264,Fix Released,Update Data Processing service options in Configuration Reference for Ocata,https://bugs.launchpad.net/openstack-manuals/+bug/1669264,2017-06-05
+1669594,1669594,Fix Committed,DHCP host_routes should be Neutron Segment aware,https://bugs.launchpad.net/neutron/+bug/1669594,2017-06-05
+1673569,1673569,Fix Released,[OSSA-2017-002] Failed notification payload is dumped in logs with auth secrets (CVE-2017-7214),https://bugs.launchpad.net/nova/+bug/1673569,2017-06-05
+1673569,1673569,Fix Released,[OSSA-2017-002] Failed notification payload is dumped in logs with auth secrets (CVE-2017-7214),https://bugs.launchpad.net/ossa/+bug/1673569,2017-06-05
+1695821,1695821,Fix Committed,proxy service configuration refers to newton,https://bugs.launchpad.net/swift/+bug/1695821,2017-06-05
+1693957,1693957,Fix Released,Default az isn't set to server if users don't specify the az when creating a server,https://bugs.launchpad.net/mogan/+bug/1693957,2017-06-05
+1695176,1695176,Fix Released,Incorrect package name in vmware networking config-reference,https://bugs.launchpad.net/openstack-manuals/+bug/1695176,2017-06-03
+1489291,1489291,Fix Released,[RFE] Add tags to neutron resources,https://bugs.launchpad.net/neutron/+bug/1489291,2017-06-02
+1691194,1691194,Fix Released,create host interface map table for baremetal,https://bugs.launchpad.net/networking-cisco/+bug/1691194,2017-06-02
+1621345,1621345,Fix Released,dhcp notifier should use core resource events,https://bugs.launchpad.net/neutron/+bug/1621345,2017-06-02
+1630664,1630664,Fix Released,Intermittent failure in n-api connecting to neutron to list ports after TLS was enabled in CI,https://bugs.launchpad.net/devstack/+bug/1630664,2017-06-02
+1695199,1695199,Fix Released,Neutron-server tripleoupstream docker image needs a rebuild to unblock with updated python2-pyroute2 dependency,https://bugs.launchpad.net/tripleo/+bug/1695199,2017-06-02
+1693011,1693011,Fix Released,relax requirement for openvswitch as kernel module,https://bugs.launchpad.net/kolla-kubernetes/+bug/1693011,2017-06-02
+1695254,1695254,Fix Released,Jenkins Ocata runs keep failing,https://bugs.launchpad.net/networking-cisco/+bug/1695254,2017-06-02
+1694795,1694795,Fix Released,devmode -ovb fails with undefined variable,https://bugs.launchpad.net/tripleo/+bug/1694795,2017-06-02
+1694524,1694524,Fix Released,Neutron OVS agent fails to start when neutron-server is not available,https://bugs.launchpad.net/tripleo/+bug/1694524,2017-06-02
+1607525,1607525,Fix Released,display more flavor information in trove flavor-list command,https://bugs.launchpad.net/trove/+bug/1607525,2017-06-02
+1644851,1644851,Fix Released,cleanup the project team's metadata in README files,https://bugs.launchpad.net/trove/+bug/1644851,2017-06-02
+1692931,1692931,Fix Released,"overcloud upgrade from Ocata to Pike with containerized services failed due to ""Could not find the requested service openstack-ceilometer-expirer: cannot disable""",https://bugs.launchpad.net/tripleo/+bug/1692931,2017-06-02
+1646685,1646685,Fix Released,Provide support of consuming Redfish APIs,https://bugs.launchpad.net/proliantutils/+bug/1646685,2017-06-02
+1678104,1678104,Fix Released,DHCP may not work on a dualstack network,https://bugs.launchpad.net/neutron/+bug/1678104,2017-06-02
+1649503,1649503,Fix Released,Mechanism driver getting stale QoS data on network update,https://bugs.launchpad.net/neutron/+bug/1649503,2017-06-02
+1690983,1690983,Fix Released,[Newton] Tacker manual install failed where openstack is deployed by fuel 10.0,https://bugs.launchpad.net/fuel/+bug/1690983,2017-06-02
+1663204,1663204,Fix Released,Non-admin users cannot create reservations with default policy rules,https://bugs.launchpad.net/blazar/+bug/1663204,2017-06-02
+1665500,1665500,Fix Released,Update unittest for vlan configuration with fossw_driver,https://bugs.launchpad.net/networking-fujitsu/+bug/1665500,2017-06-02
+1691699,1691699,Fix Released,Multi-servers creation will succeed if there are no enough nodes,https://bugs.launchpad.net/mogan/+bug/1691699,2017-06-02
+1694904,1694904,Fix Released,pip_install failed with 'ImportError: No module named six',https://bugs.launchpad.net/devstack/+bug/1694904,2017-06-02
+1693482,1693482,Fix Released,Failed to import test module: keystone_tempest_plugin.tests.api.identity.v3.test_mapping_rules,https://bugs.launchpad.net/manila/+bug/1693482,2017-06-02
+1657351,1657351,Fix Released,x-openstack-request-id mapping statement will be logged twice in the logs,https://bugs.launchpad.net/python-cinderclient/+bug/1657351,2017-06-01
+1657351,1657351,Fix Released,x-openstack-request-id mapping statement will be logged twice in the logs,https://bugs.launchpad.net/python-novaclient/+bug/1657351,2017-06-01
+1657351,1657351,Fix Released,x-openstack-request-id mapping statement will be logged twice in the logs,https://bugs.launchpad.net/python-glanceclient/+bug/1657351,2017-06-01
+1657351,1657351,Fix Released,x-openstack-request-id mapping statement will be logged twice in the logs,https://bugs.launchpad.net/python-neutronclient/+bug/1657351,2017-06-01
+1692085,1692085,Fix Released,requests raises IOError on missing cacert file,https://bugs.launchpad.net/python-glanceclient/+bug/1692085,2017-06-01
+1641239,1641239,Fix Released,v2: Content-Type: application/octet-stream header always added,https://bugs.launchpad.net/python-glanceclient/+bug/1641239,2017-06-01
+1695039,1695039,Fix Released,puppet-tripleo releasenotes job is failing,https://bugs.launchpad.net/tripleo/+bug/1695039,2017-06-01
+1694564,1694564,Fix Released,agent startup should validate vios availability,https://bugs.launchpad.net/networking-powervm/+bug/1694564,2017-06-01
+1497006,1497006,Fix Committed,devstack-gate jobs fail because ansible is not installed properly,https://bugs.launchpad.net/openstack-gate/+bug/1497006,2017-06-01
+1691428,1691428,Fix Released,LXDAPIException: json: cannot unmarshal bool into Go value of type string when using config-drive,https://bugs.launchpad.net/nova-lxd/+bug/1691428,2017-06-01
+1670402,1670402,Fix Released,Neutron OVS Agent fails to start on Windows because of Linux specific import,https://bugs.launchpad.net/neutron/+bug/1670402,2017-06-01
+1675187,1675187,Fix Released,Floating IPs not removed on rfp interface in qrouter,https://bugs.launchpad.net/neutron/+bug/1675187,2017-06-01
+1635629,1635629,Fix Released,neutron-keepalived-state-change logs are removed with router,https://bugs.launchpad.net/neutron/+bug/1635629,2017-06-01
+1677742,1677742,Fix Released,Missing Binary Commands don't log in a sane way,https://bugs.launchpad.net/neutron/+bug/1677742,2017-06-01
+1590049,1590049,Fix Released,test_add_list_remove_router_on_l3_agent may fail on envs where there is >= two L3 agents and DVR enabled,https://bugs.launchpad.net/neutron/+bug/1590049,2017-06-01
+1590049,1590049,Fix Released,test_add_list_remove_router_on_l3_agent may fail on envs where there is >= two L3 agents and DVR enabled,https://bugs.launchpad.net/tempest/+bug/1590049,2017-06-01
+1668958,1668958,Fix Released,metadata service occasionally not returning keys,https://bugs.launchpad.net/neutron/+bug/1668958,2017-06-01
+1523835,1523835,Fix Released,egress sg_rule use 'dest_ip_prefix' but not 'source_ip_prefix',https://bugs.launchpad.net/neutron/+bug/1523835,2017-06-01
+1663077,1663077,Fix Released,[ipv6] when slaas is setup as ipv6_address_mode ipv6-icmp packets are rejected by iptables,https://bugs.launchpad.net/neutron/+bug/1663077,2017-06-01
+1653830,1653830,Fix Released,Security group filters for all ports are refreshed on any DHCP port change,https://bugs.launchpad.net/neutron/+bug/1653830,2017-06-01
+1665967,1665967,Fix Released,rally timeouts and poor subnet_update performance,https://bugs.launchpad.net/neutron/+bug/1665967,2017-06-01
+1672564,1672564,Fix Released,l2pop raising exceptions when host has no tunneling_ip or agent,https://bugs.launchpad.net/neutron/+bug/1672564,2017-06-01

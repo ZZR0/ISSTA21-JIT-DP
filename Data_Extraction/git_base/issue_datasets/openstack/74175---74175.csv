@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1277494,1277494,Fix Released,Stuck in vm_state SHUTOFF and task_state rebuild_spawning - stuck in to_xml() ?,https://bugs.launchpad.net/nova/+bug/1277494,2014-10-16
+1274183,1274183,Fix Released,"""nova host-servers-migrate <host>"" Migrate instances on free compute in error status",https://bugs.launchpad.net/nova/+bug/1274183,2014-10-16
+1307295,1307295,Fix Released,duplicate entry exception for vxlan-allocation,https://bugs.launchpad.net/neutron/+bug/1307295,2014-10-16
+1168318,1168318,Fix Released,qemu_image_info should not return empty QemuImgInfo objects,https://bugs.launchpad.net/nova/+bug/1168318,2014-10-16
+1306399,1306399,Fix Released,iptables-restore failure message isn't useful,https://bugs.launchpad.net/neutron/+bug/1306399,2014-10-16
+1100697,1100697,Fix Released,libvirt should enable pae setting for Xen or KVM guest,https://bugs.launchpad.net/nova/+bug/1100697,2014-10-16
+1304872,1304872,Fix Released,use vif_details to get physical_network for mellanox vif driver to support ML2 plugin,https://bugs.launchpad.net/nova/+bug/1304872,2014-10-16
+1304872,1304872,Fix Released,use vif_details to get physical_network for mellanox vif driver to support ML2 plugin,https://bugs.launchpad.net/neutron/+bug/1304872,2014-10-16
+1373950,1373950,Fix Released,Serial proxy service  and API broken by design,https://bugs.launchpad.net/nova/+bug/1373950,2014-10-16
+1303830,1303830,Fix Released,Cisco VPN device driver support ipsec site conn udpates,https://bugs.launchpad.net/neutron/+bug/1303830,2014-10-16
+1303312,1303312,Fix Released,SSL mode with combined cert/keys not supported,https://bugs.launchpad.net/neutron/+bug/1303312,2014-10-16
+1369151,1369151,Fix Released,TypeError: consume_from_instance() takes exactly 2 arguments,https://bugs.launchpad.net/tripleo/+bug/1369151,2014-10-16
+1369151,1369151,Fix Released,TypeError: consume_from_instance() takes exactly 2 arguments,https://bugs.launchpad.net/nova/+bug/1369151,2014-10-16
+1302611,1302611,Fix Released,policy.init called too many time for each API request,https://bugs.launchpad.net/neutron/+bug/1302611,2014-10-16
+1367007,1367007,Fix Released,Ironic driver requires extra_specs,https://bugs.launchpad.net/nova/+bug/1367007,2014-10-16
+1302463,1302463,Fix Released,LinuxBridgeManager is not using device_exist from ip_lib,https://bugs.launchpad.net/neutron/+bug/1302463,2014-10-16
+1366859,1366859,Fix Released,Ironic: extra_spec requirement 'amd64' does not match 'x86_64',https://bugs.launchpad.net/nova/+bug/1366859,2014-10-16
+1302283,1302283,Fix Released,LBaaS Haproxy occurs error if no member is added,https://bugs.launchpad.net/neutron/+bug/1302283,2014-10-16
+1362854,1362854,Fix Released,Incorrect regex on rootwrap for encrypted volumes ln creation,https://bugs.launchpad.net/nova/+bug/1362854,2014-10-16
+1301432,1301432,Fix Released,ODL ML2 driver doesn't warn if the url parameter is not set,https://bugs.launchpad.net/neutron/+bug/1301432,2014-10-16
+1361792,1361792,Fix Released,pci requests saved as system metadata can be out of bound,https://bugs.launchpad.net/nova/+bug/1361792,2014-10-16
+1357578,1357578,Fix Released,Unit test:  nova.tests.integrated.test_multiprocess_api.MultiprocessWSGITest.test_terminate_sigterm timing out in gate,https://bugs.launchpad.net/nova/+bug/1357578,2014-10-16
+1301396,1301396,Fix Released,Enum type is changed incorrectly in migration 1341ed32cc1e_nvp_netbinding_update for,https://bugs.launchpad.net/neutron/+bug/1301396,2014-10-16
+1301165,1301165,Fix Released,Deleting and readding the same VIP results in a non-working VIP,https://bugs.launchpad.net/neutron/+bug/1301165,2014-10-16
+1346092,1346092,Fix Released,RBD helper utils in libvirt driver code need to be moved to separate module,https://bugs.launchpad.net/nova/+bug/1346092,2014-10-16
+1301144,1301144,Fix Released,ofagent incorrectly uses OF1.0 VLAN semantics,https://bugs.launchpad.net/neutron/+bug/1301144,2014-10-16
+1343778,1343778,Fix Released,V3 servers core API missing decorator expected_errors,https://bugs.launchpad.net/nova/+bug/1343778,2014-10-16
+1301142,1301142,Fix Released,ofagent _phys_br_block_untranslated_traffic installs a flow into a wrong bridge,https://bugs.launchpad.net/neutron/+bug/1301142,2014-10-16
+1343331,1343331,Fix Released,quota_usages and pci_devices tables have columns with mismatching nullable attribute,https://bugs.launchpad.net/nova/+bug/1343331,2014-10-16
+1342055,1342055,Fix Released,Suspending and restoring a rescued instance restores it to ACTIVE rather than RESCUED,https://bugs.launchpad.net/nova/+bug/1342055,2014-10-16
+1301035,1301035,Fix Released,Nova notifier thread does not run in rpc_worker sub-processes,https://bugs.launchpad.net/neutron/+bug/1301035,2014-10-16
+1341459,1341459,Fix Released,block device isn't resized after swap to larger volume,https://bugs.launchpad.net/nova/+bug/1341459,2014-10-16
+1300570,1300570,Fix Released,dhcp_agent fails in RPC communication with neutron-server under Metaplugin,https://bugs.launchpad.net/neutron/+bug/1300570,2014-10-16
+1340159,1340159,Fix Released,Resize to zero disk flavor is not allowed,https://bugs.launchpad.net/nova/+bug/1340159,2014-10-16
+1298635,1298635,Fix Released,Deleting router without deleting router-interface deletes router from VSD,https://bugs.launchpad.net/neutron/+bug/1298635,2014-10-16
+1339386,1339386,Fix Released,Reboot should not require a Glance.show,https://bugs.launchpad.net/nova/+bug/1339386,2014-10-16
+1339098,1339098,Fix Released,detach_interface may hide issues due to async call,https://bugs.launchpad.net/nova/+bug/1339098,2014-10-16
+1296282,1296282,Fix Released,Incorrect nullable parameter in models,https://bugs.launchpad.net/neutron/+bug/1296282,2014-10-16
+1337349,1337349,Fix Released,Nova qemu hypervisor host smbios serial number is leaked to guest,https://bugs.launchpad.net/nova/+bug/1337349,2014-10-16
+1294900,1294900,Fix Released,ML2 Cisco Nexus MD: Support portchannel interfaces,https://bugs.launchpad.net/neutron/+bug/1294900,2014-10-16
+1336977,1336977,Fix Released,nova-scheduler insufficient log details,https://bugs.launchpad.net/nova/+bug/1336977,2014-10-16
+1294474,1294474,Fix Released,"OFAgent: fix the ""too long tunnel devices names"" problem",https://bugs.launchpad.net/neutron/+bug/1294474,2014-10-16
+1335733,1335733,Fix Released,Failed to boot instance with admin role,https://bugs.launchpad.net/python-neutronclient/+bug/1335733,2014-10-16
+1335733,1335733,Fix Released,Failed to boot instance with admin role,https://bugs.launchpad.net/nova/+bug/1335733,2014-10-16
+1294445,1294445,Fix Released,Record and log reason for dhcp agent resync,https://bugs.launchpad.net/neutron/+bug/1294445,2014-10-16
+1334563,1334563,Fix Released,nova-network allow creating network with invalid vlan number,https://bugs.launchpad.net/nova/+bug/1334563,2014-10-16
+1294254,1294254,Fix Released,dhcp cannot find tap device exceptions,https://bugs.launchpad.net/neutron/+bug/1294254,2014-10-16
+1292173,1292173,Fix Released,Remove list events API from Cisco N1kv neutron,https://bugs.launchpad.net/neutron/+bug/1292173,2014-10-16
+1331176,1331176,Fix Released,ComputeCapabilitiesFilter fail because cpu_info is loaded as unicode,https://bugs.launchpad.net/nova/+bug/1331176,2014-10-16
+1290646,1290646,Fix Released,Parallel requests fail due to db locks in N1kv plugin,https://bugs.launchpad.net/neutron/+bug/1290646,2014-10-16
+1331170,1331170,Fix Released,Live migration fails in heterogeneous host OS environment,https://bugs.launchpad.net/nova/+bug/1331170,2014-10-16
+1290068,1290068,Fix Released,Some dhcp tap devices remain after tempest run,https://bugs.launchpad.net/neutron/+bug/1290068,2014-10-16
+1330981,1330981,Fix Released,Cannot attach volumes to LXC instances,https://bugs.launchpad.net/nova/+bug/1330981,2014-10-16
+1288923,1288923,Fix Released,Failover of a network from one dhcp agent to another breaks DNS,https://bugs.launchpad.net/neutron/+bug/1288923,2014-10-16
+1324091,1324091,Fix Released,ec2 metadata request fails with: AttributeError: 'NoneType' object has no attribute 'instance',https://bugs.launchpad.net/nova/+bug/1324091,2014-10-16
+1287792,1287792,Fix Released,test_ml2_plugin can't be run independently,https://bugs.launchpad.net/neutron/+bug/1287792,2014-10-16
+1284676,1284676,Fix Released,ML2 Cisco Nexus MD: Remove unnecessary Cisco nexus DB,https://bugs.launchpad.net/neutron/+bug/1284676,2014-10-16
+1323403,1323403,Fix Released,ec2-api crashes on describing volume backed snapshot,https://bugs.launchpad.net/nova/+bug/1323403,2014-10-16
+1283930,1283930,Fix Released,Make metaplugin be used with a router service plugin,https://bugs.launchpad.net/neutron/+bug/1283930,2014-10-16
+1283930,1283930,Fix Released,Make metaplugin be used with a router service plugin,https://bugs.launchpad.net/openstack-manuals/+bug/1283930,2014-10-16
+1322195,1322195,Fix Released,Admin creates volume backed instance snapshot in image tenant,https://bugs.launchpad.net/nova/+bug/1322195,2014-10-16
+1276440,1276440,Fix Released,Metadata-agent sends a lot of same requests to neutron-server during cloud-init,https://bugs.launchpad.net/neutron/+bug/1276440,2014-10-16
+1316916,1316916,Fix Released,resource tracker report negative value for memory and vcpu will be confusing,https://bugs.launchpad.net/nova/+bug/1316916,2014-10-16
+1263866,1263866,Fix Released,OVS lib deferred apply cannot handle concurrency,https://bugs.launchpad.net/neutron/+bug/1263866,2014-10-16
+1314015,1314015,Fix Released,It returned RESP:202 even if NoValidHost exception raised when run nova resize,https://bugs.launchpad.net/nova/+bug/1314015,2014-10-16
+1262759,1262759,Fix Released,ICMPv6 RAs should only be permitted from known routers,https://bugs.launchpad.net/neutron/+bug/1262759,2014-10-16
+1304184,1304184,Fix Released,instance stuck into rebuild state when nova-compute unexpected restart,https://bugs.launchpad.net/nova/+bug/1304184,2014-10-16
+1255338,1255338,Fix Released,neutron allows security group rules with invalid cidrs,https://bugs.launchpad.net/neutron/+bug/1255338,2014-10-16
+1301696,1301696,Fix Released,automatic confirm resize should not set migration to error when encounter problem,https://bugs.launchpad.net/nova/+bug/1301696,2014-10-16
+1237427,1237427,Fix Released,l2-pop ML2 mechanism driver need ARP responder with the OVS agent,https://bugs.launchpad.net/neutron/+bug/1237427,2014-10-16
+1298131,1298131,Fix Released,improper usage of HTTP 413 status code,https://bugs.launchpad.net/nova/+bug/1298131,2014-10-16
+1111572,1111572,Fix Released,quantum subnet-update can't update allocation-pool,https://bugs.launchpad.net/neutron/+bug/1111572,2014-10-16
+1296489,1296489,Fix Released,should rollback quota if network delete action fails,https://bugs.launchpad.net/nova/+bug/1296489,2014-10-16
+1328162,1328162,Fix Released,Tempest fails to delete firewall in 300 seconds,https://bugs.launchpad.net/neutron/+bug/1328162,2014-10-16
+1284996,1284996,Fix Released,reduce VM network down time during live (block) migration,https://bugs.launchpad.net/nova/+bug/1284996,2014-10-16

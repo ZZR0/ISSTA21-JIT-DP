@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1779627,1779627,Fix Released,Move ODL logging to file,https://bugs.launchpad.net/tripleo/+bug/1779627,2020-05-11
+1815204,1815204,Fix Released,HA controller: VIPs may take a long time to failover during minor update,https://bugs.launchpad.net/tripleo/+bug/1815204,2020-05-11
+1875281,1875281,Fix Released,[MultipleStores] All queries to glance API fails with 503 error if rbd store configured incorrectly,https://bugs.launchpad.net/glance-store/+bug/1875281,2020-05-11
+1868997,1868997,Fix Released,RFE: option to overwrite allocations for instances,https://bugs.launchpad.net/nova/+bug/1868997,2020-05-11
+1876148,1876148,Fix Released,OVNL3RouterPlugin should add_router_interface as in RouterPluginBase,https://bugs.launchpad.net/neutron/+bug/1876148,2020-05-11
+1873535,1873535,Fix Released,inventory in CI has 'underclou' instead of 'undercloud',https://bugs.launchpad.net/tripleo/+bug/1873535,2020-05-11
+1873377,1873377,Fix Committed,TypeError: Object of type 'Decimal' is not JSON serializable,https://bugs.launchpad.net/watcher/+bug/1873377,2020-05-11
+1677136,1677136,Fix Released,Deleting external network leads a failure to tempest/api/compute/admin/test_auto_allocate_network,https://bugs.launchpad.net/tempest/+bug/1677136,2020-05-11
+1877974,1877974,Fix Released,Gnocchi & external Ceph broken following Ceph removal,https://bugs.launchpad.net/kolla-ansible/+bug/1877974,2020-05-11
+1810977,1810977,Fix Released,Oversubscription broken for instances with NUMA topologies,https://bugs.launchpad.net/nova/+bug/1810977,2020-05-11
+1873421,1873421,Fix Released,monasca-api use wrong mod_wsgi Python version on Debian/Ubuntu source,https://bugs.launchpad.net/kolla/+bug/1873421,2020-05-11
+1877230,1877230,Fix Released,https://images.rdoproject.org/centos8/master/rdo_trunk/tripleo-ci-testing/overcloud-full.tar doesn't exist (anymore?),https://bugs.launchpad.net/tripleo/+bug/1877230,2020-05-11
+1867121,1867121,Fix Released,horizon can`t login when enable tls report  could not find cert file,https://bugs.launchpad.net/kolla-ansible/+bug/1867121,2020-05-11
+1602837,1602837,Fix Released,Policy UI (Horizon): Unable to get policies list (devstack),https://bugs.launchpad.net/congress/+bug/1602837,2020-05-11
+1800073,1800073,Fix Released,Create host allows to add any non-existing compute host  configured in nova,https://bugs.launchpad.net/masakari/+bug/1800073,2020-05-11
+1860572,1860572,Fix Released,Importing ceph keyrings from files fails,https://bugs.launchpad.net/openstack-ansible/+bug/1860572,2020-05-10
+1858328,1858328,Fix Released,"Manila share does not get into ""shrinking_possible_data_loss_error"" status when shrinking a share",https://bugs.launchpad.net/manila/+bug/1858328,2020-05-09
+1840601,1840601,Fix Released,Wrong assertions in unit tests,https://bugs.launchpad.net/nova/+bug/1840601,2020-05-09
+1843542,1843542,Fix Released,"Flavor property ""hw_rng:rate_period"" should be milliseconds",https://bugs.launchpad.net/nova/+bug/1843542,2020-05-09
+1840200,1840200,Fix Released,Misuse of 'assert_has_calls' in unit tests,https://bugs.launchpad.net/nova/+bug/1840200,2020-05-09
+1839853,1839853,Fix Released,Misuse of nova.objects.base.obj_equal_prims in tests,https://bugs.launchpad.net/nova/+bug/1839853,2020-05-09
+1789686,1789686,Fix Released,OVN with distributed floating IPs doesn't work with Octavia as LB VIPs are not bound to any chassis,https://bugs.launchpad.net/networking-ovn/+bug/1789686,2020-05-09
+1840449,1840449,Fix Released,"RFE: Add support for ""virtual"" port type",https://bugs.launchpad.net/networking-ovn/+bug/1840449,2020-05-09
+1706137,1706137,Fix Released,NetApp manila driver keep QoS policy on backend during migration,https://bugs.launchpad.net/manila/+bug/1706137,2020-05-08
+1866068,1866068,Fix Released,[OVN] neutron_pg_drop port group table creation race condition,https://bugs.launchpad.net/neutron/+bug/1866068,2020-05-08
+1876087,1876087,Fix Released,"Queens, Rocky, Stein, tempest.scenario.test_network_basic_ops.TestNetworkBasicOps failing.  Timeout",https://bugs.launchpad.net/tripleo/+bug/1876087,2020-05-08
+1871568,1871568,Fix Released,python3 unit tests jobs are failing on master branch,https://bugs.launchpad.net/networking-midonet/+bug/1871568,2020-05-08
+1876666,1876666,Fix Released,LB sg update not skipped when no endpoint is found,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1876666,2020-05-08
+1848889,1848889,Fix Released,"NetApp replica update check eventually fails with ""Another transfer is in progress""",https://bugs.launchpad.net/manila/+bug/1848889,2020-05-08
+1864675,1864675,Fix Released,DHCP agent should prioritize new ports when sending RPC messages to server,https://bugs.launchpad.net/neutron/+bug/1864675,2020-05-08
+1863983,1863983,Fix Released,Image upload is failing with NoFibreChannelVolumeDeviceFound after configuring Cinder(HP3Par FC storage) as glance backend,https://bugs.launchpad.net/glance-store/+bug/1863983,2020-05-08
+1877281,1877281,Fix Released,vGPU multiple instance creation test is racey,https://bugs.launchpad.net/nova/+bug/1877281,2020-05-08
+1875428,1875428,Fix Released,NPs on svc not enforced when exposed port and target are different,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1875428,2020-05-07
+1866965,1866965,Fix Released,Duplicate declaration: Package[collectd-python] is already declared at puppet-collectd and puppet-tripleo,https://bugs.launchpad.net/tripleo/+bug/1866965,2020-05-07
+1872514,1872514,Fix Released,Ussuri unit test failures,https://bugs.launchpad.net/bgpvpn/+bug/1872514,2020-05-07
+1874276,1874276,Fix Released,"neutron_vif with pools broken with: ""Unrecognized attribute(s) 'binding_host_id'""",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1874276,2020-05-07
+1876820,1876820,Fix Released,CI: manila-tempest-dsvm-postgres-container job is failing,https://bugs.launchpad.net/manila/+bug/1876820,2020-05-07
+1811383,1811383,Fix Released,podman / docker-puppet.py : concurrency is unstable,https://bugs.launchpad.net/tripleo/+bug/1811383,2020-05-07
+1870257,1870257,Fix Released,puppet-neutron-tripleo-standalone is continuously failing/timing out,https://bugs.launchpad.net/puppet-neutron/+bug/1870257,2020-05-07
+1870257,1870257,Fix Released,puppet-neutron-tripleo-standalone is continuously failing/timing out,https://bugs.launchpad.net/tripleo/+bug/1870257,2020-05-07
+1877201,1877201,Fix Released,designate-sink stuck shutting down when no handler is configured,https://bugs.launchpad.net/designate/+bug/1877201,2020-05-07
+1836788,1836788,Fix Released,ipv6 default route setup fails with mutliple defaults,https://bugs.launchpad.net/manila/+bug/1836788,2020-05-07
+1863852,1863852,Fix Released,[OVN]Could not support more than one qos rule in one policy,https://bugs.launchpad.net/neutron/+bug/1863852,2020-05-07
+1861685,1861685,Fix Released,"scenario10 tempest random tempest failures in check / gate, cloud related",https://bugs.launchpad.net/tripleo/+bug/1861685,2020-05-07
+1746539,1746539,Fix Released,obj_from_name fails on glance images with no name,https://bugs.launchpad.net/rally/+bug/1746539,2020-05-07
+1870751,1870751,Fix Released,Share type access references not cleaned up when share types are deleted,https://bugs.launchpad.net/manila/+bug/1870751,2020-05-06
+1757136,1757136,Fix Released,Uploading OVA to Glance via Horizon Fails,https://bugs.launchpad.net/horizon/+bug/1757136,2020-05-06
+1875685,1875685,Fix Released,THT/tools/process-templates.py - /usr/bin/env: ‘python’: No such file or directory,https://bugs.launchpad.net/tripleo/+bug/1875685,2020-05-06
+1875849,1875849,Fix Released,not ensure default security group exists when filter by project_id,https://bugs.launchpad.net/neutron/+bug/1875849,2020-05-05
+1858680,1858680,Fix Released,"Succeed to create new security group, even if security group rule quota is exceeded",https://bugs.launchpad.net/neutron/+bug/1858680,2020-05-05
+1873255,1873255,Fix Released,Nova cell updated unnecessarily if using separate notification queue,https://bugs.launchpad.net/kolla-ansible/+bug/1873255,2020-05-05
+1869371,1869371,Fix Released,Nova compute addition with --limit fails to map host to cell,https://bugs.launchpad.net/kolla-ansible/+bug/1869371,2020-05-05
+1869133,1869133,Fix Released,"when using internal https with self-sign cert, create volume from image failed",https://bugs.launchpad.net/kolla-ansible/+bug/1869133,2020-05-05
+1866727,1866727,Fix Released,elasticsearch does not work in an ipv6 environment,https://bugs.launchpad.net/kolla-ansible/+bug/1866727,2020-05-05
+1862817,1862817,Fix Released,REST urls should use configured service protocol,https://bugs.launchpad.net/kolla-ansible/+bug/1862817,2020-05-05
+1865840,1865840,Fix Released,service-rabbitmq logs password in cleartext,https://bugs.launchpad.net/kolla-ansible/+bug/1865840,2020-05-05
+1864615,1864615,Fix Released,TLS misconfigured for neutron metadata agent,https://bugs.launchpad.net/kolla-ansible/+bug/1864615,2020-05-05
+1862133,1862133,Fix Released,octavia train does not work due to the certificates configuration change,https://bugs.launchpad.net/kolla-ansible/+bug/1862133,2020-05-05
+1862628,1862628,Fix Released,Problems with ironic docs,https://bugs.launchpad.net/kolla-ansible/+bug/1862628,2020-05-05
+1863363,1863363,Fix Released,RabbitMQ hostname address resolution precheck fails to fail when necessary,https://bugs.launchpad.net/kolla-ansible/+bug/1863363,2020-05-05
+1861513,1861513,Fix Released,libvirt: qemu cannot access ceph.conf,https://bugs.launchpad.net/kolla-ansible/+bug/1861513,2020-05-05
+1873753,1873753,Fix Released,nova-scheduler workers is not managed,https://bugs.launchpad.net/kolla-ansible/+bug/1873753,2020-05-05
+1870903,1870903,Fix Released,Unauthenticated access to Skydive's UI by default,https://bugs.launchpad.net/kolla-ansible/+bug/1870903,2020-05-05
+1867926,1867926,Fix Released,Octavia lacks region_name when barbican is enabled,https://bugs.launchpad.net/kolla-ansible/+bug/1867926,2020-05-05
+1867754,1867754,Fix Released,Fluentd config files are unreadable,https://bugs.launchpad.net/kolla-ansible/+bug/1867754,2020-05-05
+1867179,1867179,Fix Released,Deploy fails on zookeeper_port undefined in telegraf.conf.j2,https://bugs.launchpad.net/kolla-ansible/+bug/1867179,2020-05-05
+1863094,1863094,Fix Released,Creating volume backup fails when iscsi_tcp module is not inserted when using LVM backend,https://bugs.launchpad.net/kolla-ansible/+bug/1863094,2020-05-05
+1821592,1821592,Fix Released,Kolla Watcher Service - Unable to determine the name of the local timezone,https://bugs.launchpad.net/kolla-ansible/+bug/1821592,2020-05-05
+1862358,1862358,Fix Released,"InfluxDB configuration limits CloudKitty dataframes results to 10,000",https://bugs.launchpad.net/kolla-ansible/+bug/1862358,2020-05-05
+1861688,1861688,Fix Released,gnocchi-api does not work on ubuntu binary,https://bugs.launchpad.net/kolla-ansible/+bug/1861688,2020-05-05
+1867506,1867506,Fix Released,OVS native firewall driver does not work,https://bugs.launchpad.net/kolla-ansible/+bug/1867506,2020-05-05
+1864856,1864856,Fix Released,dhcp-agent failed to open netns,https://bugs.launchpad.net/kolla-ansible/+bug/1864856,2020-05-05
+1867750,1867750,Fix Released,Stein Debian MariaDB cluster failed to deploy on multi-node,https://bugs.launchpad.net/kolla/+bug/1867750,2020-05-05
+1876028,1876028,Fix Released,networking-bgpvpn-functional-full job fails with ModuleNotFoundError: No module named 'mock',https://bugs.launchpad.net/bgpvpn/+bug/1876028,2020-05-05
+1699836,1699836,Fix Released,Default Share Group Type still linked to original default Share Type even after deletion,https://bugs.launchpad.net/manila/+bug/1699836,2020-05-05

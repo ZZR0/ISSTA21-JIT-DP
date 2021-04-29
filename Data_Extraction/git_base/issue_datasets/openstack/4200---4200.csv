@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1829876,1829876,Fix Released,PowerMax Metro volumes formatted,https://bugs.launchpad.net/cinder/+bug/1829876,2020-01-06
+1849797,1849797,Fix Released,pci/aliases i not being configured in nova_api container,https://bugs.launchpad.net/tripleo/+bug/1849797,2020-01-06
+1853517,1853517,Fix Released,ha containers hardcode container's log-driver,https://bugs.launchpad.net/tripleo/+bug/1853517,2020-01-06
+1840036,1840036,Fix Released,"[check][container-build] RHEL-8 patch pulled, needs to be rebased against kolla patch running in check",https://bugs.launchpad.net/tripleo/+bug/1840036,2020-01-06
+1755605,1755605,Fix Released,openvswitch-agent eating 100% cpu,https://bugs.launchpad.net/tripleo/+bug/1755605,2020-01-04
+1856243,1856243,Fix Released,"""prev"" link in Horizon instances panel does not paginate correctly.",https://bugs.launchpad.net/horizon/+bug/1856243,2020-01-04
+1854993,1854993,Fix Released,QoS bandwidth tempest test no longer running,https://bugs.launchpad.net/nova/+bug/1854993,2020-01-03
+1608849,1608849,Fix Released,the items in quota_usage table will longer than 255,https://bugs.launchpad.net/cinder/+bug/1608849,2020-01-03
+1855088,1855088,Fix Released,Improvement in Skiplist tool,https://bugs.launchpad.net/tripleo/+bug/1855088,2020-01-03
+1854215,1854215,Fix Released,libpod rpm does not build on rhel-8/centos-8 missing deps,https://bugs.launchpad.net/tripleo/+bug/1854215,2020-01-03
+1852078,1852078,Fix Released,rdo zuul has broken zuul logger for pre-runs,https://bugs.launchpad.net/tripleo/+bug/1852078,2020-01-03
+1844840,1844840,Fix Released,quickstart fails with virt-customize out of space,https://bugs.launchpad.net/tripleo/+bug/1844840,2020-01-03
+1844454,1844454,Fix Released,overcloud controller containers are missing from ci logs,https://bugs.launchpad.net/tripleo/+bug/1844454,2020-01-03
+1837843,1837843,Fix Released,ovb jobs intermittent fail (race?) during overcloud deploy with rabbit/pcs cluster errors,https://bugs.launchpad.net/tripleo/+bug/1837843,2020-01-03
+1834189,1834189,Fix Released,Use scenario004 as third party CI for ceph-ansible,https://bugs.launchpad.net/tripleo/+bug/1834189,2020-01-03
+1857884,1857884,Fix Released,centos-7-master-containers-build-push time out pushing containers,https://bugs.launchpad.net/tripleo/+bug/1857884,2020-01-03
+1855655,1855655,Fix Released,FS01 master overcloud image prepare time out due to  'module' object has no attribute 'abc' in dhcp agent,https://bugs.launchpad.net/tripleo/+bug/1855655,2020-01-03
+1801461,1801461,Fix Released,Update min tox version to 2.0,https://bugs.launchpad.net/networking-ovn/+bug/1801461,2020-01-03
+1856556,1856556,Fix Released,Configuration options are broken,https://bugs.launchpad.net/cinderlib/+bug/1856556,2020-01-02
+1570631,1570631,Fix Released,"With hw:vif_multiqueue_enabled, libvirt driver fails with VM larger than 8 vCPU",https://bugs.launchpad.net/nova/+bug/1570631,2020-01-02
+1824952,1824952,Fix Released,Tempest Container Image is not building successfully using buildah,https://bugs.launchpad.net/tripleo/+bug/1824952,2020-01-01
+1844046,1844046,Fix Released,Failed to create share server cause of image not found,https://bugs.launchpad.net/manila/+bug/1844046,2020-01-01
+1850936,1850936,Fix Committed,VM and zun container errors after host reboot,https://bugs.launchpad.net/zun/+bug/1850936,2019-12-27
+1856842,1856842,Fix Released,LB sg update ignored upon NP enforcement,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1856842,2019-12-24
+1856233,1856233,Fix Committed,Console does not render in zun-ui when container was started with a heat template,https://bugs.launchpad.net/zun/+bug/1856233,2019-12-24
+1856076,1856076,Fix Released,hosts-config.sh reports Argument list too long,https://bugs.launchpad.net/tripleo/+bug/1856076,2019-12-23
+1723856,1723856,Fix Committed,lbaasv2 tests fail with error,https://bugs.launchpad.net/octavia/+bug/1723856,2019-12-23
+1742866,1742866,Fix Released,Modify the storwize hyperswap host site to DictOpt,https://bugs.launchpad.net/cinder/+bug/1742866,2019-12-23
+1842677,1842677,Fix Released,reset failed: reset: standard error: Inappropriate ioctl for device,https://bugs.launchpad.net/tripleo/+bug/1842677,2019-12-23
+1614912,1614912,Fix Released,destroy task fails to remove libvirt when guests running,https://bugs.launchpad.net/kolla/+bug/1614912,2019-12-21
+1791044,1791044,Fix Released,Cisco ML2 extraconfig template outputs an additional incorrect key into the hiera file,https://bugs.launchpad.net/tripleo/+bug/1791044,2019-12-21
+1793381,1793381,Fix Released,Cisco Nexus config template - update config & remove deprecated features,https://bugs.launchpad.net/tripleo/+bug/1793381,2019-12-21
+1426433,1426433,Fix Released,"[FakeDriver] Live migration issue, power_state=NOSTATE",https://bugs.launchpad.net/nova/+bug/1426433,2019-12-20
+1849274,1849274,Fix Released,tripleo-ci-centos-7-scenario001-standalone fails overcloud deploy ceph-dashboard  EINVAL: unrecognized config option 'mgr/dashboard/ssl_server_port,https://bugs.launchpad.net/tripleo/+bug/1849274,2019-12-20
+1797041,1797041,Fix Released,Instance HA needs a few tweaks for BM computes that take long time rebooting,https://bugs.launchpad.net/tripleo/+bug/1797041,2019-12-20
+1801595,1801595,Fix Released,raising error during image clone doen't delete cache,https://bugs.launchpad.net/cinder/+bug/1801595,2019-12-20
+1519843,1519843,Fix Released,XtremIO glance cache fail after reaching volume snapshot limit,https://bugs.launchpad.net/cinder/+bug/1519843,2019-12-20
+1750121,1750121,Fix Released,Dynamic routing: adding speaker to agent fails,https://bugs.launchpad.net/neutron/+bug/1750121,2019-12-20
+1856000,1856000,Fix Released,Pod is stuck in container creating after installation.,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1856000,2019-12-20
+1852354,1852354,Fix Released,TestTasksDeserializer class not using FakePolicyEnforcer,https://bugs.launchpad.net/glance/+bug/1852354,2019-12-20
+1852356,1852356,Fix Released,tox testenv not installing requirements properly,https://bugs.launchpad.net/glance/+bug/1852356,2019-12-20
+1853693,1853693,Fix Released,Remove Python 2 testing and gate jobs,https://bugs.launchpad.net/glance/+bug/1853693,2019-12-20
+1844462,1844462,Fix Released,Deprecation warning messages are emitted continuously due to warning.simplefilter 'Always'  option,https://bugs.launchpad.net/glance-store/+bug/1844462,2019-12-20
+1853978,1853978,Fix Released,periodic train rhel8 ovb overcloud deployment failed with Could not find class ::tripleo::profile::base::neutron::ovn_metadata_agent_wrappers,https://bugs.launchpad.net/tripleo/+bug/1853978,2019-12-20
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/barbican/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/networking-calico/+bug/1508442,2019-12-19
+1508442,1508442,Fix Committed,LOG.warn is deprecated,https://bugs.launchpad.net/senlin/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/astara/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/python-dracclient/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/trove-dashboard/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/openstack-ansible/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/nova/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/tempest/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/rally/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/kolla/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/designate/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/octavia/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/aodh/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/ceilometer/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/masakari/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/bilean/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/searchlight/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/heat-cfntools/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/magnum/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/networking-fujitsu/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/keystone/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/django-openstack-auth/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/tripleo/+bug/1508442,2019-12-19
+1508442,1508442,Fix Committed,LOG.warn is deprecated,https://bugs.launchpad.net/networking-odl/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/nova-powervm/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/tacker/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/manila/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/ec2-api/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/zaqar/+bug/1508442,2019-12-19
+1508442,1508442,Fix Released,LOG.warn is deprecated,https://bugs.launchpad.net/networking-arista/+bug/1508442,2019-12-19

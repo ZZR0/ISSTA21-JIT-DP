@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1212401,1212401,Fix Released,"neutron-dhcp-agent fails to start in TripleO environment ""IOError: [Errno 22] Invalid argument""",https://bugs.launchpad.net/neutron/+bug/1212401,2014-10-16
+1341144,1341144,Fix Released,Wrong server_default value for multicast_ip_index in cisco_network_profiles table,https://bugs.launchpad.net/neutron/+bug/1341144,2014-10-16
+1340570,1340570,Fix Released,ovs agent test is blocking to sleep,https://bugs.launchpad.net/neutron/+bug/1340570,2014-10-16
+1340431,1340431,Fix Released,NSX: network gateway connection doesn't validate vlan id,https://bugs.launchpad.net/neutron/+bug/1340431,2014-10-16
+1340405,1340405,Fix Released,Big Switch plugin missing in migration for agents table,https://bugs.launchpad.net/neutron/+bug/1340405,2014-10-16
+1339401,1339401,Fix Released,NSX: don't check router interface on network delete,https://bugs.launchpad.net/neutron/+bug/1339401,2014-10-16
+1337185,1337185,Fix Released,Brocadeport table is not up to models,https://bugs.launchpad.net/neutron/+bug/1337185,2014-10-16
+1336556,1336556,Fix Released,migration default value not being applied to dbase,https://bugs.launchpad.net/neutron/+bug/1336556,2014-10-16
+1336196,1336196,Fix Released,Inconsistent keyword for automatic deletion of resources during unit tests,https://bugs.launchpad.net/neutron/+bug/1336196,2014-10-16
+1336175,1336175,Fix Released,ofagent argument mismatch,https://bugs.launchpad.net/neutron/+bug/1336175,2014-10-16
+1335226,1335226,Fix Released,ML2 ensure_port_binding may be prone to race condition,https://bugs.launchpad.net/neutron/+bug/1335226,2014-10-16
+1334708,1334708,Fix Released,NSX - Floating IP status does not transition correctly,https://bugs.launchpad.net/neutron/+bug/1334708,2014-10-16
+1334434,1334434,Fix Released,job check-rally-dsvm failed,https://bugs.launchpad.net/neutron/+bug/1334434,2014-10-16
+1334412,1334412,Fix Released,Add an external sanity check for nova notification availability,https://bugs.launchpad.net/neutron/+bug/1334412,2014-10-16
+1333442,1333442,Fix Released,PLUMgrid Plugin DHCP and gateway IP conflict,https://bugs.launchpad.net/neutron/+bug/1333442,2014-10-16
+1330955,1330955,Fix Released,Lock wait timeout exceeded while updating status for floatingips,https://bugs.launchpad.net/neutron/+bug/1330955,2014-10-16
+1330924,1330924,Fix Released,create a method to get all devices details in one shot,https://bugs.launchpad.net/neutron/+bug/1330924,2014-10-16
+1329560,1329560,Fix Released,NSX sync thread might fail because of a KeyError,https://bugs.launchpad.net/neutron/+bug/1329560,2014-10-16
+1329496,1329496,Fix Released,Use jsonutils instead of json,https://bugs.launchpad.net/neutron/+bug/1329496,2014-10-16
+1329426,1329426,Fix Released,Cisco n1kv neutron plugin typo in get_profile_binding,https://bugs.launchpad.net/neutron/+bug/1329426,2014-10-16
+1328222,1328222,Fix Released,BigSwitch: Sync function is missing network information,https://bugs.launchpad.net/neutron/+bug/1328222,2014-10-16
+1328181,1328181,Fix Released,NSX: remove_router_interface might fail because of NAT rule mismatch,https://bugs.launchpad.net/neutron/+bug/1328181,2014-10-16
+1328076,1328076,Fix Released,ovs-agent launch failed if br-int not existed,https://bugs.launchpad.net/neutron/+bug/1328076,2014-10-16
+1327955,1327955,Fix Released,fwaas:Error not thrown when setting protocol is icmp and destination /source port while creating firewall rule,https://bugs.launchpad.net/neutron/+bug/1327955,2014-10-16
+1327001,1327001,Fix Released,brocade mechanism driver should be derived from ml2 plugin base class,https://bugs.launchpad.net/neutron/+bug/1327001,2014-10-16
+1326937,1326937,Fix Released,brocade ml2 mechanism driver depends on templates of brocade plugin,https://bugs.launchpad.net/neutron/+bug/1326937,2014-10-16
+1323005,1323005,Fix Released,Metadata workers has a bad default for production,https://bugs.launchpad.net/neutron/+bug/1323005,2014-10-16
+1319361,1319361,Fix Released,Lbaas: Active_connections and Total_Connection in lbaas always show 0 for lb-pool-stat,https://bugs.launchpad.net/neutron/+bug/1319361,2014-10-16
+1305800,1305800,Fix Released,linuxbridge agent uses root helper when it is  not needed,https://bugs.launchpad.net/neutron/+bug/1305800,2014-10-16
+1304741,1304741,Fix Released,folsom_initial migration has wrong type for brocadenetworks.id,https://bugs.launchpad.net/neutron/+bug/1304741,2014-10-16
+1298865,1298865,Fix Released,NVP advanced service plugin should check router status before deploying a service,https://bugs.launchpad.net/neutron/+bug/1298865,2014-10-16
+1289066,1289066,Fix Released,L3 Agent cannot process RPC messages until _sync_routers_task is finished,https://bugs.launchpad.net/neutron/+bug/1289066,2014-10-16
+1285335,1285335,Fix Released,Openvswitch agent should use ovs patch ports instead veths,https://bugs.launchpad.net/neutron/+bug/1285335,2014-10-16
+1277379,1277379,Fix Released,folsom_initial db migration does not create quotas table,https://bugs.launchpad.net/neutron/+bug/1277379,2014-10-16
+1264210,1264210,Fix Released,"ValueError should use '%' instead of ','",https://bugs.launchpad.net/neutron/+bug/1264210,2014-10-16
+1233339,1233339,Fix Released,bump dhcp.Dnsmasq.MINIMUM_VERSION,https://bugs.launchpad.net/neutron/+bug/1233339,2014-10-16
+1342166,1342166,Fix Released,Lock wait timeout updating floatingips,https://bugs.launchpad.net/neutron/+bug/1342166,2014-10-16
+1341465,1341465,Fix Released,ofagent: non tapXXX device handling is broken,https://bugs.launchpad.net/neutron/+bug/1341465,2014-10-16
+1337787,1337787,Fix Released,Port update crashes when device id does not need to be updated,https://bugs.launchpad.net/neutron/+bug/1337787,2014-10-16
+1275267,1275267,Fix Released,GuestFS fails to mount image for data injection,https://bugs.launchpad.net/nova/+bug/1275267,2014-10-16
+1336251,1336251,Fix Released,Big Switch: Consistency hash table lock causing deadlocks,https://bugs.launchpad.net/neutron/+bug/1336251,2014-10-16
+1271097,1271097,Fix Released,[tox] ImportError: No module named config,https://bugs.launchpad.net/nova/+bug/1271097,2014-10-16
+1269990,1269990,Fix Released,LXC volume issues,https://bugs.launchpad.net/nova/+bug/1269990,2014-10-16
+1335959,1335959,Fix Released,Neutron dhcp agent variable 'mode' referenced before an assignment,https://bugs.launchpad.net/neutron/+bug/1335959,2014-10-16
+1267723,1267723,Fix Released,nova interface-attach doesn't work if port|network|fixed id is omitted,https://bugs.launchpad.net/nova/+bug/1267723,2014-10-16
+1332719,1332719,Fix Released,brocade ml2 mechanism does not support VDX/NOS version greater than 4.1.0,https://bugs.launchpad.net/neutron/+bug/1332719,2014-10-16
+1157922,1157922,Fix Released,Instance state is not set to ERROR when guestfs file-injection fails,https://bugs.launchpad.net/nova/+bug/1157922,2014-10-16
+1332478,1332478,Fix Released,ofagent is broken after oslo.messaging changes,https://bugs.launchpad.net/neutron/+bug/1332478,2014-10-16
+1366758,1366758,Fix Released,notifications should include progress info and cell name,https://bugs.launchpad.net/nova/+bug/1366758,2014-10-16
+1331456,1331456,Fix Released,Fix dhcp agent scheduler to be resistant to race coditions,https://bugs.launchpad.net/neutron/+bug/1331456,2014-10-16
+1351301,1351301,Fix Released,Log messages for child cells informing their parents can be more verbose,https://bugs.launchpad.net/nova/+bug/1351301,2014-10-16
+1329546,1329546,Fix Released,Upon rebuild instances might never get to Active state,https://bugs.launchpad.net/neutron/+bug/1329546,2014-10-16
+890906,890906,Fix Released,os-virtual-interfaces extension should take a uuid instead of an instance id,https://bugs.launchpad.net/nova/+bug/890906,2014-10-16
+1329071,1329071,Fix Released,NSX: queue extension name changed,https://bugs.launchpad.net/neutron/+bug/1329071,2014-10-16
+1375432,1375432,Fix Released,Duplicate entry in gitignore,https://bugs.launchpad.net/nova/+bug/1375432,2014-10-16
+1374666,1374666,Fix Released,Nova devref documentation on hooks is incorrect,https://bugs.launchpad.net/nova/+bug/1374666,2014-10-16
+1329043,1329043,Fix Released,NSX: neutron router-interface-add should clear security-groups,https://bugs.launchpad.net/neutron/+bug/1329043,2014-10-16
+1373230,1373230,Fix Released,start/stop instance in EC2 API shouldn't return active/stopped status immediately,https://bugs.launchpad.net/nova/+bug/1373230,2014-10-16
+1371072,1371072,Fix Released,xenapi: should clean up old snapshots before creating a new one,https://bugs.launchpad.net/nova/+bug/1371072,2014-10-16
+1276391,1276391,Fix Released,ML2 MechanismDriver.bind_port() called inside transaction,https://bugs.launchpad.net/neutron/+bug/1276391,2014-10-16
+1145610,1145610,Fix Released,iptable chain remains after vm is deleted,https://bugs.launchpad.net/neutron/+bug/1145610,2014-10-16
+1370885,1370885,Fix Released,The log info is error in the method '_sync_instance_power_state',https://bugs.launchpad.net/nova/+bug/1370885,2014-10-16
+1369973,1369973,Fix Released,libvirt test cases fail due to lockutils error when run via testtools,https://bugs.launchpad.net/nova/+bug/1369973,2014-10-16
+1340881,1340881,Fix Released,importing neutron/tests/unit/services/vpn/device_drivers/_test_cisco_csr_rest.py causes program to exit prematurely,https://bugs.launchpad.net/neutron/+bug/1340881,2014-10-16
+1369358,1369358,Fix Released,Improve secgroup create error message,https://bugs.launchpad.net/nova/+bug/1369358,2014-10-16
+1333410,1333410,Fix Released,sqla 0.9.5 breaks the world,https://bugs.launchpad.net/neutron/+bug/1333410,2014-10-16
+1333410,1333410,Fix Released,sqla 0.9.5 breaks the world,https://bugs.launchpad.net/nova/+bug/1333410,2014-10-16
+1368597,1368597,Fix Released,Wrong status code in @wsgi.response decorator in server's `confirmResize` action,https://bugs.launchpad.net/nova/+bug/1368597,2014-10-16
+1292105,1292105,Fix Released,ovs tunnel state not syncing (failure pinging overcloud instance),https://bugs.launchpad.net/neutron/+bug/1292105,2014-10-16
+1292105,1292105,Fix Released,ovs tunnel state not syncing (failure pinging overcloud instance),https://bugs.launchpad.net/tripleo/+bug/1292105,2014-10-16
+1368035,1368035,Fix Released,'os-interface' resource name is wrong for Nova V2.1,https://bugs.launchpad.net/nova/+bug/1368035,2014-10-16
+1367642,1367642,Fix Released,"""revertResize/confirmResize"" server actions does not work for v2.1 API",https://bugs.launchpad.net/nova/+bug/1367642,2014-10-16
+1244860,1244860,Fix Released,Two DHCP ports on same network due to cleanup failure,https://bugs.launchpad.net/neutron/+bug/1244860,2014-10-16
+1367633,1367633,Fix Released,Server actions 'createImage' does not work for v2.1 API,https://bugs.launchpad.net/nova/+bug/1367633,2014-10-16
+1328362,1328362,Fix Released,ext.check_env is not used,https://bugs.launchpad.net/neutron/+bug/1328362,2014-10-16

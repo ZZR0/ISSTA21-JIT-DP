@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1750394,1750394,Fix Released,kuryr-daemon is not deleting pod information from in-memory registry,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1750394,2018-08-21
+1750332,1750332,Fix Released,macvlan VIF reproduces neutron port when HostIP exception raised,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1750332,2018-08-21
+1749921,1749921,Fix Released,Loadbalancer service type fails to create due to subnet access policy,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1749921,2018-08-21
+1749968,1749968,Fix Released,services backed by neutron-lbaas do not work with native ovs firewall,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1749968,2018-08-21
+1751794,1751794,Fix Released,Multiple pools created with same trunk ip,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1751794,2018-08-21
+1748890,1748890,Fix Released,Neutron loadbalancer is not deleted after endpoint has been deleted already.,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1748890,2018-08-21
+1752117,1752117,Fix Released,kuryr-daemon jobs are not running kuryr-daemon,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1752117,2018-08-21
+1711074,1711074,Fix Released,Installing kuryr-kubernetes manually in kuryr-kubernetes,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1711074,2018-08-21
+1753751,1753751,Fix Released,TestCNIHealthUtils.test_has_cap fails when run in a mock chroot,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1753751,2018-08-21
+1752939,1752939,Fix Released,cni health memory accounting does not count with the children,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1752939,2018-08-21
+1736060,1736060,Fix Released,kuryr-kubernetes not support udp services,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1736060,2018-08-21
+1754636,1754636,Fix Released,Upstream containers are missing lock_path,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1754636,2018-08-21
+1752600,1752600,Fix Released,Pools are not aware of ports subnet,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1752600,2018-08-21
+1684096,1684096,Fix Released,When a service is updated with new listener port a new listener is added to the LB instead of listener update,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1684096,2018-08-21
+1739776,1739776,Fix Released,watching thread exits if exception occurs,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1739776,2018-08-21
+1743081,1743081,Fix Released,Can't access service in devstack,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1743081,2018-08-21
+1757993,1757993,Fix Released,devstack: openshift-node lacks the kubelet iface to make probes and have host-network pods reach the OpenShift API,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1757993,2018-08-21
+1758061,1758061,Fix Released,Containerized gate is broken due to OpenStack API certs missing,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1758061,2018-08-21
+1756730,1756730,Fix Released,Services of type LoadBalancer: IP appears in the status before LB was completely provisioned in Openstack,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1756730,2018-08-21
+1760825,1760825,Fix Released,Containerized DevStack broken without tls-proxy,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1760825,2018-08-21
+1752285,1752285,Fix Released,[docs] Specify the kuryr-kubernetes - kubernetes versions correspondance,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1752285,2018-08-21
+1757531,1757531,Fix Released,Using venv to deliver CNI executable is problematic,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1757531,2018-08-21
+1708173,1708173,Fix Released,Update Vagrant README to fit Octavia memory usage,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1708173,2018-08-21
+1763045,1763045,Fix Released,Failure to translate services in the supported neutron lbaas proxy less configuration,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1763045,2018-08-21
+1763752,1763752,Fix Released,Controller and cni containers aren't capped in requirements,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1763752,2018-08-21
+1759153,1759153,Fix Released,DevStack plugin fails when deploying containerized Kuryr with OpenShift on fresh env,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1759153,2018-08-21
+1759287,1759287,Fix Released,DevStack plugin fails to deploy Deployment and DaemonSet in OpenShift configurations,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1759287,2018-08-21
+1759293,1759293,Fix Released,Healthchecks are using requests library directly and doesn't not support certificates or SSL,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1759293,2018-08-21
+1765132,1765132,Fix Released,Containerized Kuryr unable to annotate Pods created on its own (not through a Controller),https://bugs.launchpad.net/kuryr-kubernetes/+bug/1765132,2018-08-21
+1762894,1762894,Fix Released,Devstack fails on nested environment set up,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1762894,2018-08-21
+1759242,1759242,Fix Released,DevStack plugin leaves leftover kubeconfigs that mess up OpenShift installation,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1759242,2018-08-21
+1766898,1766898,Fix Released,Issues with lower-constraints.txt,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1766898,2018-08-21
+1765639,1765639,Fix Released,generate_k8s_resource_definitions.sh hangs when  ca_certificate_path is not provided,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1765639,2018-08-21
+1767074,1767074,Fix Released,Service deletion fails when deleting the load balancer,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1767074,2018-08-21
+1769815,1769815,Fix Released,netns_proc_dir and docker_mode are not set in configmap generated by generate_k8s_resource_definitions.sh,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1769815,2018-08-21
+1774577,1774577,Fix Released,Replace neutron cli with openstack cli,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1774577,2018-08-21
+1770934,1770934,Fix Released,Coupling of K8S-endpoint handler and LBaaS driver,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1770934,2018-08-21
+1774997,1774997,Fix Released,Failure recovering pre-created ports into pools,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1774997,2018-08-21
+1763278,1763278,Fix Released,Devstack:  Kubernetes API server configured wrongly to use all range of the service subnet addresses,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1763278,2018-08-21
+1775620,1775620,Fix Released,ports repeated on all the pool drivers of the multipool driver,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1775620,2018-08-21
+1777469,1777469,Fix Released,L7 router not found after devstack stack.sh execution,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1777469,2018-08-21
+1777821,1777821,Fix Released,Ingress design devref doc not updated with latest changes,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1777821,2018-08-21
+1778048,1778048,Fix Released,Containerized controller fails to build due to old version of setuptools,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1778048,2018-08-21
+1776591,1776591,Fix Released,Can not install kuryr-kubernetes devstack if docker cgroup driver is systemd,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1776591,2018-08-21
+1778483,1778483,Fix Released,kuryr-daemon broken with Flask update,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1778483,2018-08-21
+1778867,1778867,Fix Released,Healthchecks failing with Connection refused,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1778867,2018-08-21
+1778516,1778516,Fix Released,LBaaS driver doesn't handler properly 'ensure_loadbalancer' for existing LB. Amphora fails to start with IP address already allocated error,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1778516,2018-08-21
+1779133,1779133,Fix Released,missing documentation for OCP-Route capability.,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1779133,2018-08-21
+1779312,1779312,Fix Released,LBaaS v2 tests fail occasionally due to IP address conflict,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1779312,2018-08-21
+1779894,1779894,Fix Released,DevStack's OpenShift has externalIPs blocked,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1779894,2018-08-21
+1779718,1779718,Fix Released,Kuryr-kubernetes output is not conform to CNI spec,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1779718,2018-08-21
+1780029,1780029,Fix Released,namespace driver does not use the right project id,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1780029,2018-08-21
+1781825,1781825,Fix Released,OCP-Route handler unit tests - not running,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1781825,2018-08-21
+1773340,1773340,Fix Released,Connection to DevStack-created K8s LB timeouts after 50 seconds of inactivity,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1773340,2018-08-21
+1771801,1771801,Fix Released,DevStack configures local address as K8s API endpoint,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1771801,2018-08-21
+1781828,1781828,Fix Released,OCP-Route: sub path route doesn't work as expected,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1781828,2018-08-21
+1785010,1785010,Fix Released,kuryr-config ConfigMap malformed on containerized deployments,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1785010,2018-08-21
+1785046,1785046,Fix Released,get_project for namespace not returning project_id,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1785046,2018-08-21
+1785035,1785035,Fix Released,namespace security group driver overwrites default security group,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1785035,2018-08-21
+1785786,1785786,Fix Released,Wrong reference in kuryr_k8s_opts,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1785786,2018-08-21
+1786447,1786447,Fix Released,error deleting namespace resources due to a race with ports recycling,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1786447,2018-08-21
+1787376,1787376,Fix Released,Wrong reference in subnet_caching_opts,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1787376,2018-08-21
+1782366,1782366,Fix Released,Kuryr new annotation format is incompatible with old one,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1782366,2018-08-21
+1787428,1787428,Fix Released,Port pools recovery broken with new pod annotation format,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1787428,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/kuryr-libnetwork/+bug/1082248,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/senlin/+bug/1082248,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/horizon/+bug/1082248,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/barbican/+bug/1082248,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/ironic-python-agent/+bug/1082248,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/mistral/+bug/1082248,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/networking-midonet/+bug/1082248,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/kuryr/+bug/1082248,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/ironic/+bug/1082248,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/nova/+bug/1082248,2018-08-21
+1082248,1082248,Fix Released,Use uuidutils instead of uuid.uuid4(),https://bugs.launchpad.net/watcher/+bug/1082248,2018-08-21

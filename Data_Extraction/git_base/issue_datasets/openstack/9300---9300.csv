@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1759175,1759175,Fix Released,Unity: Failed to detach LUN when auto zone enabled,https://bugs.launchpad.net/cinder/+bug/1759175,2019-02-15
+1807609,1807609,Fix Released,mariadb not found in ubuntu 18.04,https://bugs.launchpad.net/openstack-manuals/+bug/1807609,2019-02-15
+1787608,1787608,Fix Released,Change octavia::health_manager::event_streamer_driver default to noop_event_streamer,https://bugs.launchpad.net/tripleo/+bug/1787608,2019-02-15
+1789799,1789799,Fix Released,NeutronSriovHostConfig is missing in neutron-sirov env file in stable/queens,https://bugs.launchpad.net/tripleo/+bug/1789799,2019-02-15
+1782369,1782369,Fix Released,Health checks don't reflect port changes,https://bugs.launchpad.net/tripleo/+bug/1782369,2019-02-15
+1789303,1789303,Fix Released,Enable TLS in the internal network for Octavia API,https://bugs.launchpad.net/tripleo/+bug/1789303,2019-02-15
+1795923,1795923,Fix Released,octavia-api and glance-api missing metadata_settings,https://bugs.launchpad.net/tripleo/+bug/1795923,2019-02-15
+1804288,1804288,Fix Released,neutron_ovs_cleanup script destroys octavia health monitor port on reboot,https://bugs.launchpad.net/tripleo/+bug/1804288,2019-02-15
+1807680,1807680,Fix Released,Allow to run docker-puppet.py with SELinux enabled,https://bugs.launchpad.net/tripleo/+bug/1807680,2019-02-15
+1797098,1797098,Fix Released,Octavia worker cannot connect to the database,https://bugs.launchpad.net/tripleo/+bug/1797098,2019-02-15
+1806812,1806812,Fix Released,"When using ""IsolCpusList"", setting TunedProfileName to anything other than cpu-partitioning deployment fails",https://bugs.launchpad.net/tripleo/+bug/1806812,2019-02-15
+1808530,1808530,Fix Released,iptables rules are missing from haproxy when horizon is split off to separate role,https://bugs.launchpad.net/tripleo/+bug/1808530,2019-02-15
+1805803,1805803,Fix Released,overcloud update fails when  NovaPassword  is changed.,https://bugs.launchpad.net/tripleo/+bug/1805803,2019-02-15
+1778303,1778303,Fix Released,Allow option for amphora image to be automatically uploaded in raw format,https://bugs.launchpad.net/tripleo/+bug/1778303,2019-02-15
+1799573,1799573,Fix Released,Overcloud deployment failed because of docker-puppet-crond container conflict,https://bugs.launchpad.net/tripleo/+bug/1799573,2019-02-15
+1794769,1794769,Fix Released,process-templates script doesn't write to output dir when base_path is set,https://bugs.launchpad.net/tripleo/+bug/1794769,2019-02-15
+1766989,1766989,Fix Released,OpenDaylight OVS class needs to add SSL certificates to every ODL,https://bugs.launchpad.net/puppet-neutron/+bug/1766989,2019-02-15
+1786407,1786407,Fix Released,Make vlan_transparent in neutron.conf configurable,https://bugs.launchpad.net/puppet-neutron/+bug/1786407,2019-02-15
+1783067,1783067,Fix Released,Add support for ODL-OVS IPv6 deployment,https://bugs.launchpad.net/puppet-neutron/+bug/1783067,2019-02-15
+1755790,1755790,Fix Released,vxlan ttl defaults to 1,https://bugs.launchpad.net/openstack-ansible/+bug/1755790,2019-02-15
+1815436,1815436,Fix Released,Update the documentation to use the limit option.,https://bugs.launchpad.net/tripleo/+bug/1815436,2019-02-15
+1739646,1739646,Fix Released,Instance type with disk set to 0 can cause DoS,https://bugs.launchpad.net/nova/+bug/1739646,2019-02-15
+1796764,1796764,Fix Released,"undercloud install failing for containers-multinode in the gate ""OperationalError: (sqlite3.OperationalError) database is locked """,https://bugs.launchpad.net/tripleo/+bug/1796764,2019-02-14
+1815659,1815659,Fix Released,Error on task galera_server : Prepare the package list,https://bugs.launchpad.net/openstack-ansible/+bug/1815659,2019-02-14
+1708188,1708188,Fix Released,get_highest_client_server_version is failing with the new uWSGI changes in Devstack,https://bugs.launchpad.net/python-cinderclient/+bug/1708188,2019-02-14
+1803386,1803386,Fix Released,auth algorithms limited to sha1 only,https://bugs.launchpad.net/neutron-vpnaas-dashboard/+bug/1803386,2019-02-14
+1810897,1810897,Fix Released,Documentation is not docs link,https://bugs.launchpad.net/neutron-vpnaas-dashboard/+bug/1810897,2019-02-14
+1723951,1723951,Fix Released,Clean up get_dict in api/fwaas_v2.py,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1723951,2019-02-14
+1810391,1810391,Fix Released,User frendlier port adding/removing,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1810391,2019-02-14
+1708594,1708594,Fix Released,gate functional tests broken due to new fields in OVN ACL table,https://bugs.launchpad.net/networking-ovn/+bug/1708594,2019-02-14
+1815411,1815411,Fix Released,[periodic/check][master] multinode fs016/019 & scenario-10 job failed while deploying overcloud with Permission denied: '/var/lib/mistral/overcloud/ceph-ansible,https://bugs.launchpad.net/tripleo/+bug/1815411,2019-02-14
+1815569,1815569,Fix Released,collect logs timing out at gate and check upstream,https://bugs.launchpad.net/tripleo/+bug/1815569,2019-02-14
+1785825,1785825,Fix Released,Obsolete --container-registry-file is still present in update/upgrade CLI,https://bugs.launchpad.net/tripleo/+bug/1785825,2019-02-14
+1785597,1785597,Fix Released,"overcloud deploy command calls ansible-playbook always with ""--limit !""",https://bugs.launchpad.net/tripleo/+bug/1785597,2019-02-14
+1766375,1766375,Fix Released,nova-placement-api always reports unhealthy,https://bugs.launchpad.net/tripleo/+bug/1766375,2019-02-14
+1794079,1794079,Fix Released,On upgrade to queens the Ceph OSDs containers are killed,https://bugs.launchpad.net/tripleo/+bug/1794079,2019-02-14
+1531590,1531590,Fix Released,Update xstatic-jasmine package,https://bugs.launchpad.net/horizon/+bug/1531590,2019-02-14
+1814860,1814860,Fix Released,overcloud deploy with podman fails on step4 with systemctl failed error,https://bugs.launchpad.net/tripleo/+bug/1814860,2019-02-14
+1812185,1812185,Fix Released,cannot create volume from image,https://bugs.launchpad.net/openstack-ansible/+bug/1812185,2019-02-14
+1777303,1777303,Fix Released,rndc command not present on Centos 7,https://bugs.launchpad.net/openstack-ansible/+bug/1777303,2019-02-13
+1738467,1738467,Fix Released,CentOS has network dependency problems at startup,https://bugs.launchpad.net/openstack-ansible/+bug/1738467,2019-02-13
+1682481,1682481,Fix Released,"When using openstack-ansible-lxc_container_create role with an SSH jumpbox, sits waiting forever for container even though ssh is available.",https://bugs.launchpad.net/openstack-ansible/+bug/1682481,2019-02-13
+1778537,1778537,Fix Released,LXC bridge issue with networkd on CentOS 7,https://bugs.launchpad.net/openstack-ansible/+bug/1778537,2019-02-13
+1788182,1788182,Fix Released,"nova list filter ""--instance-name"" is no longer valid on the server side",https://bugs.launchpad.net/python-novaclient/+bug/1788182,2019-02-13
+1794167,1794167,Fix Released,nova get-password not decoding with python3,https://bugs.launchpad.net/python-novaclient/+bug/1794167,2019-02-13
+1804198,1804198,Fix Released,block_device_mapping_v2 documentation incorrect,https://bugs.launchpad.net/python-novaclient/+bug/1804198,2019-02-13
+1781368,1781368,Fix Released,KeyError: 'flavor' when nova boot,https://bugs.launchpad.net/python-novaclient/+bug/1781368,2019-02-13
+1781619,1781619,Fix Released,Neutron role does not enable osprofiler,https://bugs.launchpad.net/openstack-ansible/+bug/1781619,2019-02-13
+1748485,1748485,Fix Released,OpenStack-Ansible RabbitMQ server in OpenStack-Ansible: standalone module fails on CentOS7,https://bugs.launchpad.net/openstack-ansible/+bug/1748485,2019-02-13
+1691749,1691749,Fix Released,Generated no_proxy env string can be too long for pam_env,https://bugs.launchpad.net/openstack-ansible/+bug/1691749,2019-02-13
+1657890,1657890,Fix Released,ansible venv --system-site-packages causes conflicts,https://bugs.launchpad.net/openstack-ansible/+bug/1657890,2019-02-13
+1782798,1782798,Fix Released,AIO Build Fails on SELinux File Context Tasks,https://bugs.launchpad.net/openstack-ansible/+bug/1782798,2019-02-13
+1792050,1792050,Fix Released,SELinux context overrides fail for neutron install on metal,https://bugs.launchpad.net/openstack-ansible/+bug/1792050,2019-02-13
+1654004,1654004,Fix Released,galera_server is using repo by default instead of packages in centos,https://bugs.launchpad.net/openstack-ansible/+bug/1654004,2019-02-13
+1781166,1781166,Fix Released,Firewall as a service v2 is not compatible with LXB,https://bugs.launchpad.net/openstack-ansible/+bug/1781166,2019-02-13
+1633105,1633105,Fix Released,Improve offline/near-offline installations,https://bugs.launchpad.net/openstack-ansible/+bug/1633105,2019-02-13
+1629390,1629390,Fix Released,Create an os_panko role,https://bugs.launchpad.net/openstack-ansible/+bug/1629390,2019-02-13
+1712741,1712741,Fix Released,[lxc_container_create] sysctl-container.service: Failed at step CGROUP spawning /sbin/sysctl: No such device,https://bugs.launchpad.net/openstack-ansible/+bug/1712741,2019-02-13
+1617431,1617431,Fix Released,Disable rabbitmq management  plugin,https://bugs.launchpad.net/openstack-ansible/+bug/1617431,2019-02-13
+1628825,1628825,Fix Released,[DOCS] adding more infrastructure node,https://bugs.launchpad.net/openstack-ansible/+bug/1628825,2019-02-13
+1727663,1727663,Fix Released,[Octavia] Create mgmt network failed,https://bugs.launchpad.net/openstack-ansible/+bug/1727663,2019-02-13
+1677007,1677007,Fix Released,Documentation bug - proxy config,https://bugs.launchpad.net/openstack-ansible/+bug/1677007,2019-02-13
+1699550,1699550,Fix Released,Git repo build process doesn't use HTTP proxy,https://bugs.launchpad.net/openstack-ansible/+bug/1699550,2019-02-13
+1804837,1804837,Fix Released,Failed to checkout version 0.5.1 of ansible-sshd for stable/pike,https://bugs.launchpad.net/openstack-ansible/+bug/1804837,2019-02-13
+1806633,1806633,Fix Released,Outdated git repos,https://bugs.launchpad.net/openstack-ansible/+bug/1806633,2019-02-13
+1655333,1655333,Fix Released,Output journal in gate build results,https://bugs.launchpad.net/openstack-ansible/+bug/1655333,2019-02-13
+1579091,1579091,Fix Released,There are no html docs for the plugins,https://bugs.launchpad.net/openstack-ansible/+bug/1579091,2019-02-13
+1804770,1804770,Fix Released,Pike -> Queens Upgrade: Documentation for OVS setup and neutron agent rebalancing missing,https://bugs.launchpad.net/openstack-ansible/+bug/1804770,2019-02-13
+1804438,1804438,Fix Released,Cinder backend creates public volume type,https://bugs.launchpad.net/openstack-ansible/+bug/1804438,2019-02-13
+1800100,1800100,Fix Released,Aodh has wrong admin and internal endpoint in group vars,https://bugs.launchpad.net/openstack-ansible/+bug/1800100,2019-02-13
+1744249,1744249,Fix Released,Uptime testing in glance and neutron role upgrades don't use venvs,https://bugs.launchpad.net/openstack-ansible/+bug/1744249,2019-02-13
+1774999,1774999,Fix Released,os_gnocchi: Broken DB connection,https://bugs.launchpad.net/openstack-ansible/+bug/1774999,2019-02-13
+1749255,1749255,Fix Released,haproxy healthcheck for API placement is broken,https://bugs.launchpad.net/openstack-ansible/+bug/1749255,2019-02-13
+1727778,1727778,Fix Released,ceph_client Update apt cache play fails with conditional check error,https://bugs.launchpad.net/openstack-ansible/+bug/1727778,2019-02-13
+1699326,1699326,Fix Released,Copy of lxc_container_cache_files fails if destination directory doesn't exist,https://bugs.launchpad.net/openstack-ansible/+bug/1699326,2019-02-13

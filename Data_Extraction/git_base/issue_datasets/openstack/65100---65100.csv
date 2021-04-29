@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1437269,1437269,Fix Released,share with snapshot can be unmanaged,https://bugs.launchpad.net/manila/+bug/1437269,2015-04-30
+1437176,1437176,Fix Released,glusterfs_native: Unable to create shares using newly available GlusterFS volumes without restarting  manila share service,https://bugs.launchpad.net/manila/+bug/1437176,2015-04-30
+1434919,1434919,Fix Released,NetApp cDOT multi-SVM driver should work with non-VLAN network plug-in,https://bugs.launchpad.net/manila/+bug/1434919,2015-04-30
+1434918,1434918,Fix Released,NetApp cDOT multi-SVM driver may choose unsuitable physical port for LIFs,https://bugs.launchpad.net/manila/+bug/1434918,2015-04-30
+1434817,1434817,Fix Released,EMC VNX driver should return CIFS export with with backslashes,https://bugs.launchpad.net/manila/+bug/1434817,2015-04-30
+1434816,1434816,Fix Released,Generic driver should return CIFS export with with backslashes,https://bugs.launchpad.net/manila/+bug/1434816,2015-04-30
+1434642,1434642,Fix Released,creating or deleting share can be unmanaged,https://bugs.launchpad.net/manila/+bug/1434642,2015-04-30
+1434563,1434563,Fix Released,share server can not be deleted if hung in transitional state,https://bugs.launchpad.net/manila/+bug/1434563,2015-04-30
+1434056,1434056,Fix Released,"API ""manage share"" does not update field 'name'",https://bugs.launchpad.net/manila/+bug/1434056,2015-04-30
+1420369,1420369,Fix Released,manila create from snapid fails to inherit share type,https://bugs.launchpad.net/manila/+bug/1420369,2015-04-30
+1417352,1417352,Fix Released,Failed to allow-access for native_glusterfs,https://bugs.launchpad.net/manila/+bug/1417352,2015-04-30
+1370761,1370761,Fix Released,NetApp cDOT driver uses a deprecated API for NFS export management,https://bugs.launchpad.net/manila/+bug/1370761,2015-04-30
+1440169,1440169,Fix Released,no tempest coverage for share type access operations,https://bugs.launchpad.net/manila/+bug/1440169,2015-04-30
+1439198,1439198,Fix Released,glusterfs_native corrupts GlusterFS backend,https://bugs.launchpad.net/manila/+bug/1439198,2015-04-30
+1437509,1437509,Fix Released,cDOT driver can leave shares in world-readable state,https://bugs.launchpad.net/manila/+bug/1437509,2015-04-30
+1435819,1435819,Fix Released,extra specs can not be set to share type if required spec is not provided,https://bugs.launchpad.net/manila/+bug/1435819,2015-04-30
+1435313,1435313,Fix Released,export locations are not set as deleted in DB after share deletion,https://bugs.launchpad.net/manila/+bug/1435313,2015-04-30
+1434511,1434511,Fix Released,Unmanage API allows schedule unmanaging of share that could not be managed,https://bugs.launchpad.net/manila/+bug/1434511,2015-04-30
+1434218,1434218,Fix Released,Huawei NAS driver returns CIFS export locations in wrong format,https://bugs.launchpad.net/manila/+bug/1434218,2015-04-30
+1434009,1434009,Fix Released,generic driver does not update export location on manage operation,https://bugs.launchpad.net/manila/+bug/1434009,2015-04-30
+1433973,1433973,Fix Released,manage operation in generic driver is broken,https://bugs.launchpad.net/manila/+bug/1433973,2015-04-30
+1442788,1442788,Fix Released,Two EMC unit tests failing due to changes in neutronclient,https://bugs.launchpad.net/manila/+bug/1442788,2015-04-30
+1440089,1440089,Fix Released,Extra specs can not be assigned to share type using postgres,https://bugs.launchpad.net/manila/+bug/1440089,2015-04-30
+1434958,1434958,Fix Released,fixed version of tempest not compatible with CI anymore,https://bugs.launchpad.net/manila/+bug/1434958,2015-04-30
+1429246,1429246,Fix Released,cDOT driver only reports one export location,https://bugs.launchpad.net/manila/+bug/1429246,2015-04-30
+1429123,1429123,Fix Released,Can not delete share network that has no shares,https://bugs.launchpad.net/manila/+bug/1429123,2015-04-30
+1426099,1426099,Fix Released,access-allow API doesn't accept backslash character,https://bugs.launchpad.net/manila/+bug/1426099,2015-04-30
+1422255,1422255,Fix Released,ganesha:  execute calls made with argument whose identifier is 'run_as_root=' is invalid if calls  are made to remote machine,https://bugs.launchpad.net/manila/+bug/1422255,2015-04-30
+1422235,1422235,Fix Released,ganesha: an execute call made with argument 'process_input' that is invalid if call is  made to a remote machine,https://bugs.launchpad.net/manila/+bug/1422235,2015-04-30
+1420739,1420739,Fix Released,Improve error handling in GPFS driver for remote execution,https://bugs.launchpad.net/manila/+bug/1420739,2015-04-30
+1418696,1418696,Fix Released,cDOT NFS export retry logic not working as designed,https://bugs.launchpad.net/manila/+bug/1418696,2015-04-30
+1418690,1418690,Fix Released,cDOT driver deletes a preexisting vserver,https://bugs.launchpad.net/manila/+bug/1418690,2015-04-30
+1418324,1418324,Fix Released,share server  did not update the status in db after its deletion,https://bugs.launchpad.net/manila/+bug/1418324,2015-04-30
+1429972,1429972,Fix Released,cDOT driver should use loopingcall for autosupport report timing,https://bugs.launchpad.net/manila/+bug/1429972,2015-04-30
+1431559,1431559,Fix Released,HP3PAR Manila driver logs incorrect SHA,https://bugs.launchpad.net/manila/+bug/1431559,2015-04-30
+1427791,1427791,Fix Released,cDOT driver creates useless export-policy rule,https://bugs.launchpad.net/manila/+bug/1427791,2015-04-30
+1425237,1425237,Fix Released,Docs: reference to obsolete option: enabled_backends,https://bugs.launchpad.net/manila/+bug/1425237,2015-04-30
+1370965,1370965,Fix Released,kerberos should be configured for each lif within cmode driver,https://bugs.launchpad.net/manila/+bug/1370965,2015-04-30
+1423538,1423538,Fix Released,devstack can ot set extra specs to default share type,https://bugs.launchpad.net/manila/+bug/1423538,2015-04-30
+1410317,1410317,Fix Released,NetApp driver tries to create new network interfaces when it shouldn't,https://bugs.launchpad.net/manila/+bug/1410317,2015-04-30
+1406759,1406759,Fix Released,generic driver does not have possibility to disable some of share protocols,https://bugs.launchpad.net/manila/+bug/1406759,2015-04-30
+1403161,1403161,Fix Released,share protocols can not be disabled,https://bugs.launchpad.net/manila/+bug/1403161,2015-04-30
+1194315,1194315,Fix Released,API common CONF entries not registered locally,https://bugs.launchpad.net/manila/+bug/1194315,2015-04-30
+1194315,1194315,Fix Released,API common CONF entries not registered locally,https://bugs.launchpad.net/cinder/+bug/1194315,2015-04-30
+1431823,1431823,Fix Released,downgrade migrations are not tested,https://bugs.launchpad.net/manila/+bug/1431823,2015-04-30
+1431335,1431335,Fix Released,Wrong delete field type for VolumeTypes table,https://bugs.launchpad.net/manila/+bug/1431335,2015-04-30
+1430434,1430434,Fix Released,Manila Scheduler doesn't read full driver capabilities,https://bugs.launchpad.net/manila/+bug/1430434,2015-04-30
+1428564,1428564,Fix Released,Failed to load xml configure file,https://bugs.launchpad.net/manila/+bug/1428564,2015-04-30
+1422042,1422042,Fix Released,get_pool scheduler API is poorly designed,https://bugs.launchpad.net/manila/+bug/1422042,2015-04-30
+1420498,1420498,Fix Released,some multisvm tempest tests are not skipped for singlesvm mode setup,https://bugs.launchpad.net/manila/+bug/1420498,2015-04-30
+1420055,1420055,Fix Released,HP3PAR Manila driver fails to delete snapshot for CIFS share,https://bugs.launchpad.net/manila/+bug/1420055,2015-04-30
+1419434,1419434,Fix Released,"tox job ""genconfig"" is broken",https://bugs.launchpad.net/manila/+bug/1419434,2015-04-30
+1417087,1417087,Fix Released,all drivers instantiate some network plugin,https://bugs.launchpad.net/manila/+bug/1417087,2015-04-30
+1421200,1421200,Fix Released,generic driver gets more than volume in list filtering by unique name,https://bugs.launchpad.net/manila/+bug/1421200,2015-04-30
+1416958,1416958,Fix Released,Ganesha manager service initialization fails if ganesha exports directory is empty,https://bugs.launchpad.net/manila/+bug/1416958,2015-04-30
+1413434,1413434,Fix Released,pep8 E265 error in wsgi.py,https://bugs.launchpad.net/manila/+bug/1413434,2015-04-30
+1413315,1413315,Fix Released,Typo in manila-manage command,https://bugs.launchpad.net/manila/+bug/1413315,2015-04-30
+1409770,1409770,Fix Released,"Command ""manila-manage db downgrade"" without arguments fails",https://bugs.launchpad.net/manila/+bug/1409770,2015-04-30
+1405105,1405105,Fix Released,Add gate job to test config sample generation,https://bugs.launchpad.net/manila/+bug/1405105,2015-04-30
+1413511,1413511,Fix Released,Search snapshot by ID instead of name in Huawei driver,https://bugs.launchpad.net/manila/+bug/1413511,2015-04-30
+1412782,1412782,Fix Released,SSHPool object does not auto discover private key from ~/.ssh folder during authentication,https://bugs.launchpad.net/manila/+bug/1412782,2015-04-30
+1410221,1410221,Fix Released,Unable to attach service subnet to private router when gateway is already in use,https://bugs.launchpad.net/manila/+bug/1410221,2015-04-30
+1405362,1405362,Fix Released,Error share without share network cannot be deleted in generic driver,https://bugs.launchpad.net/manila/+bug/1405362,2015-04-30
+1405168,1405168,Fix Released,tempest plugin resource deletion waiter does not consider status of entity,https://bugs.launchpad.net/manila/+bug/1405168,2015-04-30
+1404800,1404800,Fix Released,Scheduler picks up a host even when the manila-share service on it already down/disabled,https://bugs.launchpad.net/manila/+bug/1404800,2015-04-30
+1348635,1348635,Fix Released,manila has modules that are not covered with unittests,https://bugs.launchpad.net/manila/+bug/1348635,2015-04-30
+1415738,1415738,Fix Released,Ganesha config options not being registered,https://bugs.launchpad.net/manila/+bug/1415738,2015-04-30
+1415602,1415602,Fix Released,Need to replace legacy StubOutForTesting class,https://bugs.launchpad.net/manila/+bug/1415602,2015-04-30
+1412525,1412525,Fix Released,tempest test 'test_delete_share_server' does not release resources properly if error appeared,https://bugs.launchpad.net/manila/+bug/1412525,2015-04-30
+1412409,1412409,Fix Released,multi_backend tempest tests are failing,https://bugs.launchpad.net/manila/+bug/1412409,2015-04-30
+1410246,1410246,Fix Released,driver uses router when connect_share_server_to_tenant_network config option is enabled,https://bugs.launchpad.net/manila/+bug/1410246,2015-04-30
+1408982,1408982,Fix Released,generic driver does not release resources properly with share-server deletion,https://bugs.launchpad.net/manila/+bug/1408982,2015-04-30
+1408584,1408584,Fix Released,errors in clear_isolated_creds are not covered with suppressing,https://bugs.launchpad.net/manila/+bug/1408584,2015-04-30
+1408069,1408069,Fix Released,wrong formatting within tempest retry functionality,https://bugs.launchpad.net/manila/+bug/1408069,2015-04-30
+1407923,1407923,Fix Released,wrong handling of share-networks with single_svm drivers,https://bugs.launchpad.net/manila/+bug/1407923,2015-04-30

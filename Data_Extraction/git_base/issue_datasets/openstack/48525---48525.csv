@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1538411,1538411,Fix Released,exception.AutoDiskConfigDisabledByImage is expected 2 times in _resize,https://bugs.launchpad.net/nova/+bug/1538411,2016-03-03
+1458934,1458934,Fix Released,Ironic: heavy polling,https://bugs.launchpad.net/nova/+bug/1458934,2016-03-03
+1514360,1514360,Fix Released,Deleting a rebuilding instance tries to set it to ERROR,https://bugs.launchpad.net/nova/+bug/1514360,2016-03-03
+1533859,1533859,Fix Released,There should be a DB API test that ensures no new tables have soft-delete columns,https://bugs.launchpad.net/nova/+bug/1533859,2016-03-03
+1501366,1501366,Fix Released,libvirtError: Error while building firewall: Some rules could not be created for interface,https://bugs.launchpad.net/nova/+bug/1501366,2016-03-03
+1488565,1488565,Fix Released,Quiescing instance on live snapshot fails by AttributeError,https://bugs.launchpad.net/nova/+bug/1488565,2016-03-03
+1436579,1436579,Fix Released,os_require_quiesce has different meaning between volume backed instances and volume backed instances,https://bugs.launchpad.net/nova/+bug/1436579,2016-03-03
+1543181,1543181,Fix Released,Raw and qcow2 disks are never preallocated on systems with newer util-linux,https://bugs.launchpad.net/nova/+bug/1543181,2016-03-03
+1543253,1543253,Fix Released,cells test_rebuild_instance_with_volume Tempest test fails,https://bugs.launchpad.net/nova/+bug/1543253,2016-03-03
+1536671,1536671,Fix Released,libvirt detach_interface logs errors for network device not found after neutron network-vif-deleted event,https://bugs.launchpad.net/nova/+bug/1536671,2016-03-03
+1540682,1540682,Fix Released,InstanceNotFound during instance usage audit,https://bugs.launchpad.net/nova/+bug/1540682,2016-03-03
+1544599,1544599,Fix Released,RBD image resize to smaller error handling,https://bugs.launchpad.net/nova/+bug/1544599,2016-03-03
+1298242,1298242,Fix Released,live_migration_uri should be dependant on virt_type,https://bugs.launchpad.net/nova/+bug/1298242,2016-03-03
+1545153,1545153,Fix Released,BadRequest: Invalid input for dns_name. Name must not start or end with a hyphen.,https://bugs.launchpad.net/nova/+bug/1545153,2016-03-03
+1529785,1529785,Fix Released,Create snapshot fails on VM containing multiple SRIOV vNICs configured with the same MAC,https://bugs.launchpad.net/nova/+bug/1529785,2016-03-03
+1416132,1416132,Fix Released,_get_instance_disk_info fails to read files from NFS due to permissions,https://bugs.launchpad.net/nova/+bug/1416132,2016-03-03
+1545177,1545177,Fix Released,nova_object.changes compare intermittently fails in py34 unit tests,https://bugs.launchpad.net/nova/+bug/1545177,2016-03-03
+1538619,1538619,Fix Released,Fix up argument order in remove_volume_connection(),https://bugs.launchpad.net/nova/+bug/1538619,2016-03-03
+1545999,1545999,Fix Released,[vmware] missing os types: suseGuest64/suseGuest,https://bugs.launchpad.net/nova/+bug/1545999,2016-03-03
+1546433,1546433,Fix Released,nova.service.Service.kill() is unused and orphaned,https://bugs.launchpad.net/nova/+bug/1546433,2016-03-03
+1522536,1522536,Fix Released,500 error returned from server GET by numeric id,https://bugs.launchpad.net/nova/+bug/1522536,2016-03-03
+1547279,1547279,Fix Released,nova.tests.unit.compute.test_compute.ComputeTestCase.test_run_instance_queries_macs takes an average of 1 minute to run,https://bugs.launchpad.net/nova/+bug/1547279,2016-03-03
+1545101,1545101,Fix Released,Nova Metadata server in Mitaka can not work with Liberty config,https://bugs.launchpad.net/nova/+bug/1545101,2016-03-03
+1414536,1414536,Fix Released,Zookeeper servicegroup driver's get_all() erroneously raises  ServiceGroupUnavailable,https://bugs.launchpad.net/nova/+bug/1414536,2016-03-03
+1414517,1414517,Fix Released,Zookeeper servicegroup API driver is not tested and apparently not usable either,https://bugs.launchpad.net/nova/+bug/1414517,2016-03-03
+1443910,1443910,Fix Released,Zookeeper servicegroup driver crashes,https://bugs.launchpad.net/nova/+bug/1443910,2016-03-03
+1548198,1548198,Fix Released,Misuse of assertTrue in console and virt unittests,https://bugs.launchpad.net/nova/+bug/1548198,2016-03-03
+1521977,1521977,Fix Released,XenAPI: XenVIF implementation breaks the interface,https://bugs.launchpad.net/nova/+bug/1521977,2016-03-03
+1532657,1532657,Fix Released,nova-compute failed to start due to exception raised in _destroy_evacuated_instances,https://bugs.launchpad.net/nova/+bug/1532657,2016-03-03
+1520567,1520567,Fix Released,Incorrect pass exception with oslo_db.enginefacade,https://bugs.launchpad.net/nova/+bug/1520567,2016-03-03
+1520563,1520563,Fix Released,No unit tests for instance_info_cache db section,https://bugs.launchpad.net/nova/+bug/1520563,2016-03-03
+1547066,1547066,Fix Released,Test test_live_migration_pause_vm_invalid_migration_state lacks of execution,https://bugs.launchpad.net/nova/+bug/1547066,2016-03-03
+1550795,1550795,Fix Released,"live migration with block migration on Xen produces ""cannot marshal"" exception",https://bugs.launchpad.net/nova/+bug/1550795,2016-03-03
+1549401,1549401,Fix Released,compute: calling cancel_all_events twice raises NoneType error,https://bugs.launchpad.net/nova/+bug/1549401,2016-03-03
+1550018,1550018,Fix Released,Cells v1 is borked for live-migrate and evacuate,https://bugs.launchpad.net/nova/+bug/1550018,2016-03-03
+1547362,1547362,Fix Released,A driver API for triggering crash dump should abstract an implementation,https://bugs.launchpad.net/nova/+bug/1547362,2016-03-03
+1517297,1517297,Fix Released,More to do when resetting state of backup,https://bugs.launchpad.net/cinder/+bug/1517297,2016-03-03
+1529762,1529762,Fix Released,Image volume clone failure on upload-to-image with image_upload_use_cinder_backend=True,https://bugs.launchpad.net/cinder/+bug/1529762,2016-03-03
+1518536,1518536,Fix Released,volume manage command using source-name or source-id should be both working for IBM storwize/SVC,https://bugs.launchpad.net/cinder/+bug/1518536,2016-03-03
+1511751,1511751,Fix Released,mkvdiskhostmap should use the force flag with multihostmap,https://bugs.launchpad.net/cinder/+bug/1511751,2016-03-03
+1532285,1532285,Fix Released,NetApp DOT block drivers report incorrect thin_provisioning flags,https://bugs.launchpad.net/cinder/+bug/1532285,2016-03-03
+1532965,1532965,Fix Released,NetApp drivers contain invalid QoS flags,https://bugs.launchpad.net/cinder/+bug/1532965,2016-03-03
+1528855,1528855,Fix Released,XtremIO specify CA cert location,https://bugs.launchpad.net/cinder/+bug/1528855,2016-03-03
+1535464,1535464,Fix Released,MemoryError in Tegile unit tests,https://bugs.launchpad.net/cinder/+bug/1535464,2016-03-03
+1524450,1524450,Fix Released,Filtering bootable volumes are not working for non-admin users,https://bugs.launchpad.net/cinder/+bug/1524450,2016-03-03
+1536750,1536750,Fix Released,coordination unit tests slow due to reconnect waits,https://bugs.launchpad.net/cinder/+bug/1536750,2016-03-03
+1536717,1536717,Fix Released,rbd unit tests should mock time.sleep,https://bugs.launchpad.net/cinder/+bug/1536717,2016-03-03
+1536782,1536782,Fix Released,test_emc_xtremio.py runs extremely slowly,https://bugs.launchpad.net/cinder/+bug/1536782,2016-03-03
+1536457,1536457,Fix Released,test_cisco_fc_zone_client_cli.py runs > 30s,https://bugs.launchpad.net/cinder/+bug/1536457,2016-03-03
+1501938,1501938,Fix Released,VMAX driver failing to remove zones,https://bugs.launchpad.net/cinder/+bug/1501938,2016-03-03
+1538391,1538391,Fix Released,Log info in update_consistencygroup is inappropriate,https://bugs.launchpad.net/cinder/+bug/1538391,2016-03-03
+1512796,1512796,Fix Released,"VMAX driver - V3-deleting volume failure, if it is the last in the storage group",https://bugs.launchpad.net/cinder/+bug/1512796,2016-03-03
+1536015,1536015,Fix Released,Huawei: Change progress level lock to thread level lock,https://bugs.launchpad.net/cinder/+bug/1536015,2016-03-03
+1540190,1540190,Fix Released,Return updated volume type after updation,https://bugs.launchpad.net/cinder/+bug/1540190,2016-03-03
+1535697,1535697,Fix Released,Remove useless ut mock in Huawei driver,https://bugs.launchpad.net/cinder/+bug/1535697,2016-03-03
+1491088,1491088,Fix Released,3PAR image cache fails,https://bugs.launchpad.net/cinder/+bug/1491088,2016-03-03
+1535979,1535979,Fix Released,"cgsnapshot cometo ""creating"" status when Consistency group is empty",https://bugs.launchpad.net/cinder/+bug/1535979,2016-03-03
+1541745,1541745,Fix Released,Misuse of variable scope in backup/api.py,https://bugs.launchpad.net/cinder/+bug/1541745,2016-03-03
+1537187,1537187,Fix Released,Pure volume drivers don't ever eradicate volumes,https://bugs.launchpad.net/cinder/+bug/1537187,2016-03-03
+1520549,1520549,Fix Released,VMAX driver - VMAX3 - _remove_last_vol_and_delete_sg is not being called,https://bugs.launchpad.net/cinder/+bug/1520549,2016-03-03
+1508548,1508548,Fix Released,Should not use default initiator group when no matching groups found,https://bugs.launchpad.net/cinder/+bug/1508548,2016-03-03
+1543171,1543171,Fix Released,Volume create fails with FakeISCSIDriver,https://bugs.launchpad.net/cinder/+bug/1543171,2016-03-03
+1505801,1505801,Fix Released,Create volume ignores allocated quota values of the parent project,https://bugs.launchpad.net/cinder/+bug/1505801,2016-03-03
+1534616,1534616,Fix Released,VMAX driver - Changes to CG functionality needing updates,https://bugs.launchpad.net/cinder/+bug/1534616,2016-03-03
+1545023,1545023,Fix Released,VOLUME_NOT_FOUND_ERROR error code is wrong in ScaleIO driver,https://bugs.launchpad.net/cinder/+bug/1545023,2016-03-03
+1545603,1545603,Fix Released,Sheepdog: clone_image doesn't work,https://bugs.launchpad.net/cinder/+bug/1545603,2016-03-03
+1530144,1530144,Fix Released,service-list filters work incorrect,https://bugs.launchpad.net/cinder/+bug/1530144,2016-03-03
+1545894,1545894,Fix Released,Delete unuseful code in Huawei Driver,https://bugs.launchpad.net/cinder/+bug/1545894,2016-03-03
+1546089,1546089,Fix Released,While upgrading retype can leave hanging quota reservation,https://bugs.launchpad.net/cinder/+bug/1546089,2016-03-03
+1546161,1546161,Fix Released,Dell SC: Multiple volumes left on SC on create fail,https://bugs.launchpad.net/cinder/+bug/1546161,2016-03-03
+1546234,1546234,Fix Released,When stopping services Cinder doesn't wait for periodic tasks,https://bugs.launchpad.net/cinder/+bug/1546234,2016-03-03
+1531502,1531502,Fix Released,Child project's default quota not enforced,https://bugs.launchpad.net/cinder/+bug/1531502,2016-03-03
+1547008,1547008,Fix Released,Wrong exception message raised on rtstool  save exceptions,https://bugs.launchpad.net/cinder/+bug/1547008,2016-03-03
+1536046,1536046,Fix Released,Huawei: Ensure the port is noline,https://bugs.launchpad.net/cinder/+bug/1536046,2016-03-03
+1534850,1534850,Fix Released,Tintri cleanup image cache,https://bugs.launchpad.net/cinder/+bug/1534850,2016-03-03

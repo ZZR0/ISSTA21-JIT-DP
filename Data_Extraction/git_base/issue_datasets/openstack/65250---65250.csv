@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1391426,1391426,Fix Released,"Wildcard records cannot be added, when at least one is already created",https://bugs.launchpad.net/designate/+bug/1391426,2015-04-30
+1443453,1443453,Fix Released,Port Scan / Load Bal TCP check can lockup mDNS,https://bugs.launchpad.net/designate/+bug/1443453,2015-04-30
+1443366,1443366,Fix Released,V2 Zone Import/Export API requires a breaking change,https://bugs.launchpad.net/designate/+bug/1443366,2015-04-30
+1443348,1443348,Fix Released,Invalid RR Type in v2 API causes 500 Error,https://bugs.launchpad.net/designate/+bug/1443348,2015-04-30
+1441286,1441286,Fix Released,X-Sudo-Tenant-ID has disappeared,https://bugs.launchpad.net/designate/+bug/1441286,2015-04-30
+1441283,1441283,Fix Released,API v2 allows editing of managed=True records,https://bugs.launchpad.net/designate/+bug/1441283,2015-04-30
+1441146,1441146,Fix Released,API v2 does not validate SRV hostnames are complient,https://bugs.launchpad.net/designate/+bug/1441146,2015-04-30
+1440847,1440847,Fix Released,500 on creating a TXT recordset,https://bugs.launchpad.net/designate/+bug/1440847,2015-04-30
+1440844,1440844,Fix Released,500 on creating an SRV recordset,https://bugs.launchpad.net/designate/+bug/1440844,2015-04-30
+1439656,1439656,Fix Released,Exception during validation of invalid RRSet name,https://bugs.launchpad.net/designate/+bug/1439656,2015-04-30
+1439125,1439125,Fix Released,mDNS Fails to AXFR zones over 65k,https://bugs.launchpad.net/designate/+bug/1439125,2015-04-30
+1437710,1437710,Fix Released,mDNS outbound queries / NOTIFY's appear to be blocking,https://bugs.launchpad.net/designate/+bug/1437710,2015-04-30
+1436261,1436261,Fix Released,Requires jsonschema >= 2.4.0 (not 2.2.0),https://bugs.launchpad.net/designate/+bug/1436261,2015-04-30
+1435863,1435863,Fix Released,Message size passed to response.to_wire() max_size is too low,https://bugs.launchpad.net/designate/+bug/1435863,2015-04-30
+1434479,1434479,Fix Released,designate stop working after insert ~10k records,https://bugs.launchpad.net/designate/+bug/1434479,2015-04-30
+1433645,1433645,Fix Released,Floating IP Reverse DNS API does not respect async operations,https://bugs.launchpad.net/designate/+bug/1433645,2015-04-30
+1404529,1404529,Fix Released,DynECT is called twice when any domain action happens.,https://bugs.launchpad.net/designate/+bug/1404529,2015-04-30
+1338256,1338256,Fix Released,There's no record validation in v2,https://bugs.launchpad.net/designate/+bug/1338256,2015-04-30
+1375613,1375613,Fix Released,"Jinja2>=2.6 required, but not in requirements.txt",https://bugs.launchpad.net/designate/+bug/1375613,2015-04-30
+1377619,1377619,Fix Released,Minor errors and warning in Sphinx build,https://bugs.launchpad.net/designate/+bug/1377619,2015-04-30
+1403261,1403261,Fix Released,Example designate.conf file is incorrect,https://bugs.launchpad.net/designate/+bug/1403261,2015-04-30
+1398778,1398778,Fix Released,Incorrect notification sent for recordset deletion,https://bugs.launchpad.net/designate/+bug/1398778,2015-04-30
+1385300,1385300,Fix Released,Version DB column is not incrementing,https://bugs.launchpad.net/designate/+bug/1385300,2015-04-30
+1375389,1375389,Fix Released,Convert to newly graduated oslo.serialization and oslo.utils,https://bugs.launchpad.net/designate/+bug/1375389,2015-04-30
+1297432,1297432,Fix Released,Sphinx-build does not generate Module Index,https://bugs.launchpad.net/designate/+bug/1297432,2015-04-30
+1403274,1403274,Fix Released,fields defined twice for ZoneTransferRequest object,https://bugs.launchpad.net/designate/+bug/1403274,2015-04-30
+1402788,1402788,Fix Released,obj_reset_changes is implemented incorrectly in SQLA Storage backend,https://bugs.launchpad.net/designate/+bug/1402788,2015-04-30
+1398587,1398587,Fix Released,Updating record (v1) returns 500 with PowerDNS backend,https://bugs.launchpad.net/designate/+bug/1398587,2015-04-30
+1396720,1396720,Fix Released,PUT on a Recordset with multiple Records results in delete/recreation of all Records,https://bugs.launchpad.net/designate/+bug/1396720,2015-04-30
+1392762,1392762,Fix Released,Concurrent requests can cause designate-central to lock up,https://bugs.launchpad.net/designate/+bug/1392762,2015-04-30
+1391212,1391212,Fix Released,Missing Unique Constraint on Pool Attributes table,https://bugs.launchpad.net/designate/+bug/1391212,2015-04-30
+1399183,1399183,Fix Released,mDNS Support for multi-packet TCP AXFR queries,https://bugs.launchpad.net/designate/+bug/1399183,2015-04-30
+1398786,1398786,Fix Released,Bind9+Pools Gate is failing spuriously,https://bugs.launchpad.net/designate/+bug/1398786,2015-04-30
+1392748,1392748,Fix Released,Admins cannot access the default pool through the API,https://bugs.launchpad.net/designate/+bug/1392748,2015-04-30
+1428679,1428679,Fix Released,devstack/install.sh shouldn't rely on exact path,https://bugs.launchpad.net/designate/+bug/1428679,2015-04-30
+1268313,1268313,Fix Released,Oslo WSGI is depreciated,https://bugs.launchpad.net/designate/+bug/1268313,2015-04-30
+1425726,1425726,Fix Released,The pool manager cache doesn't actually use memcached,https://bugs.launchpad.net/designate/+bug/1425726,2015-04-30
+1424686,1424686,Fix Released,MX Record documentation is incorrect,https://bugs.launchpad.net/designate/+bug/1424686,2015-04-30
+1423628,1423628,Fix Released,Simplify the getting started instructions by avoiding directories requiring sudo/root.,https://bugs.launchpad.net/designate/+bug/1423628,2015-04-30
+1421416,1421416,Fix Released,Get on an abandon zone should return 405 and not a 404,https://bugs.launchpad.net/designate/+bug/1421416,2015-04-30
+1420399,1420399,Fix Released,A zone's status needs to be updated when its recordsets are updated,https://bugs.launchpad.net/designate/+bug/1420399,2015-04-30
+1420359,1420359,Fix Released,Deleting a recordset returns 204 (Deleted) even though it is async,https://bugs.launchpad.net/designate/+bug/1420359,2015-04-30
+1427435,1427435,Fix Released,Pool Manager _retrieve_from_cache() is Calling MDNS to Get Status,https://bugs.launchpad.net/designate/+bug/1427435,2015-04-30
+1427433,1427433,Fix Released,Pool Manager Recovery Code Needs to Update Status in Central,https://bugs.launchpad.net/designate/+bug/1427433,2015-04-30
+1427425,1427425,Fix Released,Zones remain in ERROR indefinitely with the noop pool manager cache,https://bugs.launchpad.net/designate/+bug/1427425,2015-04-30
+1427411,1427411,Fix Released,Recordset updates remain PENDING until periodic sync,https://bugs.launchpad.net/designate/+bug/1427411,2015-04-30
+1425751,1425751,Fix Released,MemcachedStringEncodingError in pool manager with memcached,https://bugs.launchpad.net/designate/+bug/1425751,2015-04-30
+1425695,1425695,Fix Released,Unhandled exception during periodic recovery (_get_failed_domains is returning domains instead of status objects),https://bugs.launchpad.net/designate/+bug/1425695,2015-04-30
+1423148,1423148,Fix Released,Unable to create domain if name ends with another domain ending,https://bugs.launchpad.net/designate/+bug/1423148,2015-04-30
+1422713,1422713,Fix Released,Count record/recordsets include record/recordsets from deleted domains,https://bugs.launchpad.net/designate/+bug/1422713,2015-04-30
+1419843,1419843,Fix Released,v2 recordsets api returns incorrect response codes,https://bugs.launchpad.net/designate/+bug/1419843,2015-04-30
+1419138,1419138,Fix Released,Nameservers added via /v2/pools are not validated,https://bugs.launchpad.net/designate/+bug/1419138,2015-04-30
+1413024,1413024,Fix Released,Add an API flag for force delete from storage,https://bugs.launchpad.net/designate/+bug/1413024,2015-04-30
+1412812,1412812,Fix Released,designate imports private symbols from oslo.messaging,https://bugs.launchpad.net/designate/+bug/1412812,2015-04-30
+1409824,1409824,Fix Released,The API does not return a status field for recordsets,https://bugs.launchpad.net/designate/+bug/1409824,2015-04-30
+1408336,1408336,Fix Released,Central should perform retries upon database deadlocks,https://bugs.launchpad.net/designate/+bug/1408336,2015-04-30
+1433560,1433560,Fix Released,Quota set/reset suffers from check+set race condition,https://bugs.launchpad.net/designate/+bug/1433560,2015-04-30
+1425616,1425616,Fix Released,Gate wedged after update to eventlet 0.17.1,https://bugs.launchpad.net/designate/+bug/1425616,2015-04-30
+1424621,1424621,Fix Released,eventlet 0.17.0 has broke dns.reversename.from_address(),https://bugs.launchpad.net/designate/+bug/1424621,2015-04-30
+1413346,1413346,Fix Released,Pool Manager Cache Needs to be More Resilient,https://bugs.launchpad.net/designate/+bug/1413346,2015-04-30
+1409177,1409177,Fix Released,"oslo.middleware is deprecated, switch to oslo_middleware",https://bugs.launchpad.net/designate/+bug/1409177,2015-04-30
+1408202,1408202,Fix Released,Statuses in Pool Manager Cache Are Persistent,https://bugs.launchpad.net/designate/+bug/1408202,2015-04-30
+1413800,1413800,Fix Released,Domain Creation Never Enters Error State,https://bugs.launchpad.net/designate/+bug/1413800,2015-04-30
+1413387,1413387,Fix Released,Move some methods from mdns to dnsutils,https://bugs.launchpad.net/designate/+bug/1413387,2015-04-30
+1412601,1412601,Fix Released,Update mDNS to accept server obj rather than destination host:port,https://bugs.launchpad.net/designate/+bug/1412601,2015-04-30
+1412306,1412306,Fix Released,sink neutron floating_ip handler is hard for formatting,https://bugs.launchpad.net/designate/+bug/1412306,2015-04-30
+1411432,1411432,Fix Released,Designate Object base class needs more unit tests,https://bugs.launchpad.net/designate/+bug/1411432,2015-04-30
+1411019,1411019,Fix Released,"oslo.utils is deprecated, switch to oslo_utils",https://bugs.launchpad.net/designate/+bug/1411019,2015-04-30
+1410546,1410546,Fix Released,DeprecationWarning: The oslo namespace package is deprecated. Please use oslo_db instead.,https://bugs.launchpad.net/designate/+bug/1410546,2015-04-30
+1409629,1409629,Fix Released,powerdns database records table missing 'disabled' column,https://bugs.launchpad.net/designate/+bug/1409629,2015-04-30
+1404395,1404395,Fix Released,Pool manager attempts to periodically sync *all* zones,https://bugs.launchpad.net/designate/+bug/1404395,2015-04-30
+1403591,1403591,Fix Released,A ZeroDivisionError is Thrown Without Servers,https://bugs.launchpad.net/designate/+bug/1403591,2015-04-30
+1412884,1412884,Fix Released,Pool Manager sync and recovery timers throw non-descriptive errors,https://bugs.launchpad.net/designate/+bug/1412884,2015-04-30
+1412605,1412605,Fix Released,Pool Manager Instance Should Only Be Called For Domains in Instance,https://bugs.launchpad.net/designate/+bug/1412605,2015-04-30
+1412598,1412598,Fix Released,Pool Manager's periodic sync should allow for sync'ing only zone changed in the last N seconds,https://bugs.launchpad.net/designate/+bug/1412598,2015-04-30

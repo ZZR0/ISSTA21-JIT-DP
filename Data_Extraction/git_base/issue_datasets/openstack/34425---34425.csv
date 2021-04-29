@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1533919,1533919,Fix Released,Put py34 first in the env order of tox,https://bugs.launchpad.net/cinder/+bug/1533919,2016-11-10
+1520078,1520078,Fix Released,Unreachable code in fakes.py,https://bugs.launchpad.net/python-cinderclient/+bug/1520078,2016-11-10
+1502639,1502639,Fix Released,cinder list (summary) is no longer a summary,https://bugs.launchpad.net/cinder/+bug/1502639,2016-11-10
+1526829,1526829,Fix Released,The 'quota-delete' call is not compatible with cinder API v2,https://bugs.launchpad.net/python-cinderclient/+bug/1526829,2016-11-10
+1527169,1527169,Fix Released,Make _discover_extensions public,https://bugs.launchpad.net/python-cinderclient/+bug/1527169,2016-11-10
+1536054,1536054,Fix Released,sort in backup-list/snapshot-list doesn't work,https://bugs.launchpad.net/cinder/+bug/1536054,2016-11-10
+1538648,1538648,Fix Released,cinderclient shell ignores insecure option,https://bugs.launchpad.net/python-cinderclient/+bug/1538648,2016-11-10
+1538412,1538412,Fix Released,"incorrect info when do ""cinder type-update""",https://bugs.launchpad.net/python-cinderclient/+bug/1538412,2016-11-10
+1535749,1535749,Fix Released,"cinder client does not have handling for ""--bootable"" parameter for cinder list command",https://bugs.launchpad.net/cinder/+bug/1535749,2016-11-10
+1535749,1535749,Fix Released,"cinder client does not have handling for ""--bootable"" parameter for cinder list command",https://bugs.launchpad.net/python-cinderclient/+bug/1535749,2016-11-10
+1543056,1543056,Fix Released,Allow multiple backup deletes in the command line,https://bugs.launchpad.net/python-cinderclient/+bug/1543056,2016-11-10
+1516689,1516689,Fix Released,cinderclient logs sensitive info in http requests,https://bugs.launchpad.net/python-cinderclient/+bug/1516689,2016-11-10
+1545975,1545975,Fix Released,cinderclient doesn't return  request_ids to users in ManagerWithFind class,https://bugs.launchpad.net/python-cinderclient/+bug/1545975,2016-11-10
+1538415,1538415,Fix Released,useless 'u' in the return info of credentials and qos specs,https://bugs.launchpad.net/python-cinderclient/+bug/1538415,2016-11-10
+1538413,1538413,Fix Released,"useless 'u' in the return info of ""cinder show""",https://bugs.launchpad.net/python-cinderclient/+bug/1538413,2016-11-10
+1549026,1549026,Fix Released,consisgroup-update reports HTTP 400 when no request is sent,https://bugs.launchpad.net/python-cinderclient/+bug/1549026,2016-11-10
+1549020,1549020,Fix Released,rename commands report (HTTP 1) error code on invalid arguments,https://bugs.launchpad.net/python-cinderclient/+bug/1549020,2016-11-10
+1531602,1531602,Fix Released,gnocchi alarm fails if missing aggregation-method,https://bugs.launchpad.net/python-ceilometerclient/+bug/1531602,2016-11-10
+1506959,1506959,Fix Released,Ceilometer doesnt expose a way to retrieve just a distinct list of active meter names,https://bugs.launchpad.net/python-ceilometerclient/+bug/1506959,2016-11-10
+1506959,1506959,Fix Released,Ceilometer doesnt expose a way to retrieve just a distinct list of active meter names,https://bugs.launchpad.net/ceilometer/+bug/1506959,2016-11-10
+1550095,1550095,Fix Released,ceilometerclient shouldn't depend on running of aodh,https://bugs.launchpad.net/python-ceilometerclient/+bug/1550095,2016-11-10
+1546456,1546456,Fix Released,the return of alarm list may be ugly,https://bugs.launchpad.net/python-aodhclient/+bug/1546456,2016-11-10
+1526786,1526786,Fix Released,Haproxy has non-working Horizon session persistence.,https://bugs.launchpad.net/tripleo/+bug/1526786,2016-11-10
+1536349,1536349,Fix Released,package update dependency cycles in puppet-tripleo,https://bugs.launchpad.net/tripleo/+bug/1536349,2016-11-10
+1585214,1585214,Fix Released,Cannot pin/unpin cpus during cold migration with enabled CPU pinning,https://bugs.launchpad.net/nova/+bug/1585214,2016-11-10
+1601822,1601822,Fix Released,remotefs.RsyncDriver() should use utils.safe_ip_format(),https://bugs.launchpad.net/nova/+bug/1601822,2016-11-10
+1596922,1596922,Fix Released,instance uuid not cleared  in an ironic node,https://bugs.launchpad.net/nova/+bug/1596922,2016-11-10
+1607461,1607461,Fix Released,nova-compute hangs while executing a blocking call to librbd,https://bugs.launchpad.net/nova/+bug/1607461,2016-11-10
+1246201,1246201,Fix Released,Live migration fails when the instance has a config_drive_format=iso9660,https://bugs.launchpad.net/nova/+bug/1246201,2016-11-10
+1606496,1606496,Fix Released,Instance affinity filters do not work in a heterogeneous cloud with Ironic computes,https://bugs.launchpad.net/nova/+bug/1606496,2016-11-10
+1278690,1278690,Fix Released,VMware: Fetching images from Glance is slower than it should be,https://bugs.launchpad.net/nova/+bug/1278690,2016-11-10
+1546454,1546454,Fix Released,VMware: NFC lease has to be updated when transferring streamOpt images,https://bugs.launchpad.net/nova/+bug/1546454,2016-11-10
+1606707,1606707,Fix Released,"instance snapshot fails with ""AttributeError: size"" when using glance v1",https://bugs.launchpad.net/nova/+bug/1606707,2016-11-10
+1583284,1583284,Fix Released,disconnect_volume calls are made during a remote rebuild of a volume backed instance,https://bugs.launchpad.net/nova/+bug/1583284,2016-11-10
+1600068,1600068,Fix Released,Cannot run tox using python 3,https://bugs.launchpad.net/neutron/+bug/1600068,2016-11-10
+1570596,1570596,Fix Released,Neutron-LBaaS v2: 500 error on creating 2 listeners simultaneously,https://bugs.launchpad.net/neutron/+bug/1570596,2016-11-10
+1558819,1558819,Fix Released,"Fullstack linux bridge agent sometimes refuses to die during test clean up, failing the test",https://bugs.launchpad.net/neutron/+bug/1558819,2016-11-10
+1563070,1563070,Fix Released,external_network_bridge option deprecation is misleading,https://bugs.launchpad.net/neutron/+bug/1563070,2016-11-10
+1560957,1560957,Fix Released,ovs mech_driver depends on neutron server firewall_driver option instead of the agent firewall_driver option to determine if hybrid plug can be used,https://bugs.launchpad.net/neutron/+bug/1560957,2016-11-10
+1598422,1598422,Fix Released,HA router is scheduled to incompatible l3 agent,https://bugs.launchpad.net/neutron/+bug/1598422,2016-11-10
+1572670,1572670,Fix Released,Ovs agent should set min burst value if user don't provide it,https://bugs.launchpad.net/neutron/+bug/1572670,2016-11-10
+1585373,1585373,Fix Released,qos-policy update without specify --shared causing it change to default False,https://bugs.launchpad.net/neutron/+bug/1585373,2016-11-10
+1598734,1598734,Fix Released,Avoid duplicate ipset processing for security groups,https://bugs.launchpad.net/neutron/+bug/1598734,2016-11-10
+1582966,1582966,Fix Released,Broken URL in Mitaka Neutron Release Notes,https://bugs.launchpad.net/neutron/+bug/1582966,2016-11-10
+1606827,1606827,Fix Released,Agents might be reported as down for 10 minutes after all controllers restart,https://bugs.launchpad.net/neutron/+bug/1606827,2016-11-10
+1574694,1574694,Fix Released,Port dns_name is updated when dns-integration extension is disabled,https://bugs.launchpad.net/neutron/+bug/1574694,2016-11-10
+1533457,1533457,Fix Released,Neutron server unable to sync HA info after race between HA router creating and deleting,https://bugs.launchpad.net/neutron/+bug/1533457,2016-11-10
+1567668,1567668,Fix Released,Functional job sometimes hits global 2 hour limit and fails,https://bugs.launchpad.net/neutron/+bug/1567668,2016-11-10
+1604370,1604370,Fix Released,functional: test_legacy_router_ns_rebuild is unstable,https://bugs.launchpad.net/neutron/+bug/1604370,2016-11-10
+1604816,1604816,Fix Released,native ovsdb seems to return before finishing adding/removing port,https://bugs.launchpad.net/neutron/+bug/1604816,2016-11-10
+1549311,1549311,Fix Released,Unexpected SNAT behavior between instances with DVR+floating ip,https://bugs.launchpad.net/neutron/+bug/1549311,2016-11-10
+1602294,1602294,Fix Released,check_vlan_transparency on mech drivers not called,https://bugs.launchpad.net/neutron/+bug/1602294,2016-11-10
+1557909,1557909,Fix Released,SNAT namespace is not getting cleared after the manual move of SNAT with dead agent,https://bugs.launchpad.net/neutron/+bug/1557909,2016-11-10
+1608406,1608406,Fix Released,BGP: DVR fip host routes query including legacy/HA fip routes,https://bugs.launchpad.net/neutron/+bug/1608406,2016-11-10
+1610303,1610303,Fix Released,l2pop mech fails to update_port_postcommit on a loaded cluster,https://bugs.launchpad.net/neutron/+bug/1610303,2016-11-10
+1594376,1594376,Fix Released,"Delete subnet fails with ""ObjectDeletedError: Instance '<IPAllocation at 0x7f6abc3abe50>' has been deleted, or its row is otherwise not present.""",https://bugs.launchpad.net/neutron/+bug/1594376,2016-11-10
+1564335,1564335,Fix Released,[Pluggable IPAM] delete subnet in ml2 plugin does not comply with pluggable ipam (deletes ip allocations directly from db),https://bugs.launchpad.net/neutron/+bug/1564335,2016-11-10
+1492773,1492773,Fix Released,"there are a lot of warn  log ""No DHCP agents available, skipping rescheduling""""",https://bugs.launchpad.net/neutron/+bug/1492773,2016-11-10
+1614452,1614452,Fix Released,Port create time grows at scale due to dvr arp update,https://bugs.launchpad.net/neutron/+bug/1614452,2016-11-10
+1614014,1614014,Fix Released,Networking configuration options in Configuration Reference,https://bugs.launchpad.net/neutron/+bug/1614014,2016-11-10
+1523859,1523859,Fix Released,Failing router interface add changes port device_id/device_owner attributes,https://bugs.launchpad.net/neutron/+bug/1523859,2016-11-10
+1515564,1515564,Fix Released,Internal server error when running qos-bandwidth-limit-rule-update as a tenant,https://bugs.launchpad.net/neutron/+bug/1515564,2016-11-10
+1611964,1611964,Fix Released,SNAT redirect rules should be removed only on Gateway clear.,https://bugs.launchpad.net/neutron/+bug/1611964,2016-11-10
+1611513,1611513,Fix Released,ip_lib: Add support for 'Flush' command in iproute,https://bugs.launchpad.net/neutron/+bug/1611513,2016-11-10
+1599287,1599287,Fix Released,Cleanup snat redirect rules when agent restarts after stale snat namespace is cleaned.,https://bugs.launchpad.net/neutron/+bug/1599287,2016-11-10
+1517331,1517331,Fix Released,RBAC: create RBAC policy without target-tenant will raise internal error,https://bugs.launchpad.net/neutron/+bug/1517331,2016-11-10
+1616480,1616480,Fix Released,Creation of vlan transparent network fails with SR-IOV mechanism driver,https://bugs.launchpad.net/neutron/+bug/1616480,2016-11-10
+1614086,1614086,Fix Released,SRIOV- when numvfs=0 SRIOV agent is failed to start,https://bugs.launchpad.net/neutron/+bug/1614086,2016-11-10
+1602320,1602320,Fix Released,ha + distributed router:  keepalived process kill vrrp child process,https://bugs.launchpad.net/neutron/+bug/1602320,2016-11-10
+1622850,1622850,Fix Released,The use_veth_interconnection config doesn't work fine,https://bugs.launchpad.net/neutron/+bug/1622850,2016-11-10
+1570465,1570465,Fix Released,[Pluggable IPAM] AutomaticAddressRequest is created manually instead of using factory,https://bugs.launchpad.net/neutron/+bug/1570465,2016-11-10
+1616066,1616066,Fix Released,neutron error when trying to update a bgp peer,https://bugs.launchpad.net/neutron/+bug/1616066,2016-11-10
+1609149,1609149,Fix Released,v2driver: Deadlock error,https://bugs.launchpad.net/networking-odl/+bug/1609149,2016-11-10
+1609184,1609184,Fix Released,ML2: Allow retry on db error by precommit,https://bugs.launchpad.net/neutron/+bug/1609184,2016-11-10
+1462154,1462154,Fix Released,With DVR Pings to floating IPs replied with fixed-ips if VMs are on the same network,https://bugs.launchpad.net/neutron/+bug/1462154,2016-11-10

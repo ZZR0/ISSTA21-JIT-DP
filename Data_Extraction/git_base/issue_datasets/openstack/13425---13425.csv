@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1741981,1741981,Fix Released,Attributes not stored for ResourceGroup after rolling update,https://bugs.launchpad.net/heat/+bug/1741981,2018-04-30
+1750960,1750960,Fix Released,grenade job broken with tempest switching to stestr,https://bugs.launchpad.net/heat/+bug/1750960,2018-04-30
+1739447,1739447,Fix Released,"stack validation fails when ""resource with type being template filename"" is used in template provided to OS::Heat::Stack resource",https://bugs.launchpad.net/heat/+bug/1739447,2018-04-30
+1766824,1766824,Fix Released,Cloud-init randomly fail to get nova metadata,https://bugs.launchpad.net/novajoin/+bug/1766824,2018-04-30
+1741634,1741634,Fix Released,virtualenv-tools is unreliable for changing path in venvs,https://bugs.launchpad.net/openstack-ansible/+bug/1741634,2018-04-30
+1743395,1743395,Fix Released,Trove cluster create failed,https://bugs.launchpad.net/kolla-ansible/+bug/1743395,2018-04-29
+1744647,1744647,Fix Released,we should  not use ram node in rabbitmq cluster,https://bugs.launchpad.net/openstack-manuals/+bug/1744647,2018-04-28
+1757927,1757927,Fix Released,"image-create-via-import does not fail with missing {container,disk}-format for web-download method",https://bugs.launchpad.net/python-glanceclient/+bug/1757927,2018-04-27
+1758039,1758039,Fix Released,client does not provide way to use 'web-download',https://bugs.launchpad.net/python-glanceclient/+bug/1758039,2018-04-27
+1758149,1758149,Fix Released,image-create-via-import needs to fail faster,https://bugs.launchpad.net/python-glanceclient/+bug/1758149,2018-04-27
+1758718,1758718,Fix Released,image-import needs to fail faster,https://bugs.launchpad.net/python-glanceclient/+bug/1758718,2018-04-27
+1759951,1759951,Fix Released,intermittent v2 unit test failures,https://bugs.launchpad.net/python-glanceclient/+bug/1759951,2018-04-27
+1540484,1540484,Fix Released,Network topology should fit the screen,https://bugs.launchpad.net/horizon/+bug/1540484,2018-04-27
+1292165,1292165,Fix Released,"In the access and security tab, for adding new rules, required port field is not marked with an asterisk",https://bugs.launchpad.net/horizon/+bug/1292165,2018-04-27
+1690790,1690790,Fix Released,policy checks for detach_interface not working correctly,https://bugs.launchpad.net/horizon/+bug/1690790,2018-04-27
+1555415,1555415,Fix Released,Session timeout from AngularJS pages doesn't give user feedback,https://bugs.launchpad.net/horizon/+bug/1555415,2018-04-27
+1766368,1766368,Fix Released,IPv6 NDP support for VXLAN GPE,https://bugs.launchpad.net/networking-vpp/+bug/1766368,2018-04-27
+1765815,1765815,Fix Released,"legacy-tempest-dsvm-full-devstack-plugin-ceph failing with ""ImportError: No module named urlmap""",https://bugs.launchpad.net/devstack-plugin-ceph/+bug/1765815,2018-04-27
+1766899,1766899,Fix Released,periodic-tripleo-ci-centos-7-ovb-1ctlr_1comp-featureset002-master-upload fails to copy agent image,https://bugs.launchpad.net/tripleo/+bug/1766899,2018-04-27
+1706750,1706750,Fix Released,FlushError for automatic IPAllocations when subnet create is retried,https://bugs.launchpad.net/neutron/+bug/1706750,2018-04-27
+1719711,1719711,Fix Released,iptables failed to apply when binding a port with AGENT.debug_iptables_rules enabled,https://bugs.launchpad.net/neutron/+bug/1719711,2018-04-27
+1731948,1731948,Fix Released,Wrong OVO classes registered in some cases,https://bugs.launchpad.net/neutron/+bug/1731948,2018-04-27
+1698812,1698812,Fix Released,security group callbacks regression,https://bugs.launchpad.net/networking-midonet/+bug/1698812,2018-04-27
+1698812,1698812,Fix Released,security group callbacks regression,https://bugs.launchpad.net/neutron/+bug/1698812,2018-04-27
+1734674,1734674,Fix Released,swift_rsync container is in a restarting loop after stack update,https://bugs.launchpad.net/tripleo/+bug/1734674,2018-04-27
+1754067,1754067,Fix Released,openstack undercloud install --use-heat fails when no container image params provided,https://bugs.launchpad.net/tripleo/+bug/1754067,2018-04-27
+1767136,1767136,Fix Released,"default docker-py timeout reached, keystone default user role creating fails.",https://bugs.launchpad.net/kolla-ansible/+bug/1767136,2018-04-27
+1751092,1751092,Fix Released,install guide: statement about uwsgi,https://bugs.launchpad.net/glance/+bug/1751092,2018-04-26
+1657582,1657582,Fix Released,keystone::wsgi::apache should leverage openstacklib::wsgi::apache,https://bugs.launchpad.net/puppet-keystone/+bug/1657582,2018-04-26
+1757391,1757391,Fix Released,Client raises AttributeError: 'module' object has no attribute 'OpenStackConfigException',https://bugs.launchpad.net/python-openstackclient/+bug/1757391,2018-04-26
+1733360,1733360,Fix Released,auto-allocated-topology extension missing from API ref,https://bugs.launchpad.net/neutron/+bug/1733360,2018-04-26
+1745380,1745380,Fix Released,Cleanup unused params in parameters.yaml of api-ref,https://bugs.launchpad.net/neutron/+bug/1745380,2018-04-26
+1733396,1733396,Fix Released,subnet_service_types extension is not documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733396,2018-04-26
+1733380,1733380,Fix Released,network_availability_zone not documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733380,2018-04-26
+1733365,1733365,Fix Released,dvr extension not documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733365,2018-04-26
+1733368,1733368,Fix Released,extra_dhcp_opt extension not properly documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733368,2018-04-26
+1733370,1733370,Fix Released,ip_allocation extension not documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733370,2018-04-26
+1733386,1733386,Fix Released,qos_default extension not doc'd in api-ref,https://bugs.launchpad.net/neutron/+bug/1733386,2018-04-26
+1733373,1733373,Fix Released,l2_adjacency extension not documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733373,2018-04-26
+1733390,1733390,Fix Released,routerservicetype extension not documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733390,2018-04-26
+1733395,1733395,Fix Released,subnetallocation extension not doc'd in api-ref,https://bugs.launchpad.net/neutron/+bug/1733395,2018-04-26
+1733378,1733378,Fix Released,l3_flavors extension is not documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733378,2018-04-26
+1733383,1733383,Fix Released,qos_bw_limit_direction extension not properly documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733383,2018-04-26
+1759959,1759959,Fix Released,api-ref: documentation of address scope extension is missing,https://bugs.launchpad.net/neutron/+bug/1759959,2018-04-26
+1733377,1733377,Fix Released,l3_ext_ha_mode extension is not documented in api-ref,https://bugs.launchpad.net/neutron/+bug/1733377,2018-04-26
+1763814,1763814,Fix Released,frequent DHCP failures,https://bugs.launchpad.net/networking-vpp/+bug/1763814,2018-04-26
+1766537,1766537,Fix Released,"Get artifacts with limit, display name search and sort, does not return correct set of packages",https://bugs.launchpad.net/glare/+bug/1766537,2018-04-26
+1763422,1763422,Fix Released,config_template is not fully python3 compatible,https://bugs.launchpad.net/openstack-ansible/+bug/1763422,2018-04-26
+1766822,1766822,Fix Released,At periodic-tripleo-ci-centos-7-ovb-1ctlr_1comp-featureset020-ocata No package matching 'python-stestr',https://bugs.launchpad.net/tripleo/+bug/1766822,2018-04-26
+1765669,1765669,Fix Released,Failed check job jenkins-tripleo-quickstart-extras-gate-newton-delorean-full-minimal at No option 'uri' in section: 'identity',https://bugs.launchpad.net/tripleo/+bug/1765669,2018-04-26
+1759311,1759311,Fix Released,swift_ring_rebalance playbook fails due to missing permissions,https://bugs.launchpad.net/tripleo/+bug/1759311,2018-04-26
+1749426,1749426,Fix Released,Node delete is broken,https://bugs.launchpad.net/heat/+bug/1749426,2018-04-26
+1749426,1749426,Fix Released,Node delete is broken,https://bugs.launchpad.net/tripleo/+bug/1749426,2018-04-26
+1750455,1750455,Fix Released,quickstart still requires OS_TENANT_NAME,https://bugs.launchpad.net/tripleo/+bug/1750455,2018-04-25
+1529534,1529534,Fix Released,User new log style where Logger.exception() is used by passing an exception object as the first argument.,https://bugs.launchpad.net/trove/+bug/1529534,2018-04-25
+1529534,1529534,Fix Released,User new log style where Logger.exception() is used by passing an exception object as the first argument.,https://bugs.launchpad.net/magnum/+bug/1529534,2018-04-25
+1756360,1756360,Fix Released,Serializer strips Exception kwargs,https://bugs.launchpad.net/nova/+bug/1756360,2018-04-25
+1749418,1749418,Fix Released,swap volume not blocked between an unencrypted and encrypted volume while using QEMU to natively decrypt,https://bugs.launchpad.net/nova/+bug/1749418,2018-04-25
+1719460,1719460,Fix Released,(perf) Unnecessarily joining instance.services when listing instances regardless of microversion,https://bugs.launchpad.net/nova/+bug/1719460,2018-04-25
+1727260,1727260,Fix Released,Nova assumes that a volume is fully detached from the compute if the volume is not defined in the instance's libvirt definition,https://bugs.launchpad.net/nova/+bug/1727260,2018-04-25
+1766271,1766271,Fix Released,Installing packages: gperftools-libs-2.4.91-1.el7.x86_64.rpm not found,https://bugs.launchpad.net/tripleo/+bug/1766271,2018-04-25
+1766406,1766406,Fix Released,multinode-oooq-container-updates fails on master,https://bugs.launchpad.net/tripleo/+bug/1766406,2018-04-25
+1649333,1649333,Fix Released,Aodh can be used to launder Keystone trusts,https://bugs.launchpad.net/aodh/+bug/1649333,2018-04-24
+1749642,1749642,Fix Released,Revert to snapshots of Replicated volume fails,https://bugs.launchpad.net/cinder/+bug/1749642,2018-04-24
+1753707,1753707,Fix Released,VMAX driver - Concurrency issues when creating replicated volumes,https://bugs.launchpad.net/cinder/+bug/1753707,2018-04-24
+1750878,1750878,Fix Released,Cinder volume sends old stats,https://bugs.launchpad.net/cinder/+bug/1750878,2018-04-24
+1751057,1751057,Fix Released,Race condition between scheduler and volume for their allocated_capacity_gb,https://bugs.launchpad.net/cinder/+bug/1751057,2018-04-24
+1754354,1754354,Fix Released,Insufficient threads in eventlet's tpool,https://bugs.launchpad.net/cinder/+bug/1754354,2018-04-24
+1752930,1752930,Fix Released,Dell EMC SC: Can't delete consistency group,https://bugs.launchpad.net/cinder/+bug/1752930,2018-04-24
+1754549,1754549,Fix Released,Update doc name and path for dell emc vnx driver,https://bugs.launchpad.net/cinder/+bug/1754549,2018-04-24
+1756002,1756002,Fix Released,"GET snapshot API is failing when ""volume_extension:extended_snapshot_attributes"" is not allowed",https://bugs.launchpad.net/cinder/+bug/1756002,2018-04-24
+1757244,1757244,Fix Released,Converting images to VHD fails,https://bugs.launchpad.net/cinder/+bug/1757244,2018-04-24
+1756139,1756139,Fix Released,Race condition when migrating encryption key with snapshot creation in flight,https://bugs.launchpad.net/cinder/+bug/1756139,2018-04-24
+1757235,1757235,Fix Released,Key migration to Barbican needs to update Backup table,https://bugs.launchpad.net/cinder/+bug/1757235,2018-04-24
+1754061,1754061,Fix Released,zaqar returns 503 causing overcloud deployment failure,https://bugs.launchpad.net/tripleo/+bug/1754061,2018-04-24

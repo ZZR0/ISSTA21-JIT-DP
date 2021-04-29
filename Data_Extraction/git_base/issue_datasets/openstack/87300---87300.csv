@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1210799,1210799,Fix Released,"With MySQL, a template > 65535 bytes results in an undeletable stack",https://bugs.launchpad.net/heat/+bug/1210799,2013-10-17
+1208673,1208673,Fix Released,ImportError: No module named babel - heat-manage needs babel,https://bugs.launchpad.net/heat/+bug/1208673,2013-10-17
+1196491,1196491,Fix Released,Resources and parameters should have unique names,https://bugs.launchpad.net/heat/+bug/1196491,2013-10-17
+1195403,1195403,Fix Released,volume create from backup restore fails,https://bugs.launchpad.net/heat/+bug/1195403,2013-10-17
+1195239,1195239,Fix Released,test fakes assert_has_keys buggy,https://bugs.launchpad.net/heat/+bug/1195239,2013-10-17
+1191117,1191117,Fix Released,"Heat GET /stacks call doesn't have a ""detail"" option",https://bugs.launchpad.net/heat/+bug/1191117,2013-10-17
+1189354,1189354,Fix Released,heat-manage cannot run from topdir,https://bugs.launchpad.net/heat/+bug/1189354,2013-10-17
+1184722,1184722,Fix Released,Add mariadb support to heat-db-setup script,https://bugs.launchpad.net/heat/+bug/1184722,2013-10-17
+1183239,1183239,Fix Released,Volume detach is missing unit tests,https://bugs.launchpad.net/heat/+bug/1183239,2013-10-17
+1194981,1194981,Fix Released,Add length validation to LIST and MAP type properties.,https://bugs.launchpad.net/heat/+bug/1194981,2013-10-17
+1196184,1196184,Fix Released,inconsistency in the use of translation mechanism,https://bugs.launchpad.net/heat/+bug/1196184,2013-10-17
+1195310,1195310,Fix Released,nested stack error path test coverage lacking,https://bugs.launchpad.net/heat/+bug/1195310,2013-10-17
+1193975,1193975,Fix Released,Resource remains stuck in IN_PROGRESS DELETE after transient delete failure,https://bugs.launchpad.net/heat/+bug/1193975,2013-10-17
+1197718,1197718,Fix Released,watchrule tests don't cleanup properly,https://bugs.launchpad.net/heat/+bug/1197718,2013-10-17
+1196707,1196707,Fix Released,AWS::IAM::User delete fails if user is already deleted,https://bugs.launchpad.net/heat/+bug/1196707,2013-10-17
+1195599,1195599,Fix Released,Router gateway creation sometimes fails,https://bugs.launchpad.net/heat/+bug/1195599,2013-10-17
+1195596,1195596,Fix Released,Delete stack sometimes fails,https://bugs.launchpad.net/heat/+bug/1195596,2013-10-17
+1195364,1195364,Fix Released,Autoscaling incorrect behaviour with zero instances,https://bugs.launchpad.net/heat/+bug/1195364,2013-10-17
+1194840,1194840,Fix Released,heat-manage command should display appropriate command name in usage,https://bugs.launchpad.net/heat/+bug/1194840,2013-10-17
+1194394,1194394,Fix Released,OS::Quantum::Subnet should support enable_dhcp Property,https://bugs.launchpad.net/heat/+bug/1194394,2013-10-17
+1194303,1194303,Fix Released,A validation error should be raised if user credentials are not provide on stack create/update,https://bugs.launchpad.net/heat/+bug/1194303,2013-10-17
+1192685,1192685,Fix Released,Heat setup.cfg needs babel configuration,https://bugs.launchpad.net/heat/+bug/1192685,2013-10-17
+1192371,1192371,Fix Released,quantum instance list index out of range,https://bugs.launchpad.net/heat/+bug/1192371,2013-10-17
+1191009,1191009,Fix Released,Nova error causes StackValidationFailed error,https://bugs.launchpad.net/heat/+bug/1191009,2013-10-17
+1188473,1188473,Fix Released,returning the wrong error types for CFN API exceptions,https://bugs.launchpad.net/heat/+bug/1188473,2013-10-17
+1186790,1186790,Fix Released,passing an unknown parameter should result in parse error,https://bugs.launchpad.net/heat/+bug/1186790,2013-10-17
+1186410,1186410,Fix Released,ImageId: {Ref: ImageId} expects name instead of UUID,https://bugs.launchpad.net/heat/+bug/1186410,2013-10-17
+1185590,1185590,Fix Released,API returns 500 error on yaml parse error,https://bugs.launchpad.net/heat/+bug/1185590,2013-10-17
+1185530,1185530,Fix Released,Metadata update fails when an Instance has not yet been created,https://bugs.launchpad.net/heat/+bug/1185530,2013-10-17
+1184713,1184713,Fix Released,Instance server naming scheme interacts poorly with default nova configuration,https://bugs.launchpad.net/tripleo/+bug/1184713,2013-10-17
+1184713,1184713,Fix Released,Instance server naming scheme interacts poorly with default nova configuration,https://bugs.launchpad.net/heat/+bug/1184713,2013-10-17
+1166787,1166787,Fix Released,Subnet resource cannot reference an existing VPC,https://bugs.launchpad.net/heat/+bug/1166787,2013-10-17
+1166779,1166779,Fix Released,RouteTable resource cannot reference an existing VPC,https://bugs.launchpad.net/heat/+bug/1166779,2013-10-17
+1166084,1166084,Fix Released,Creation of NetworkInterface resource failed because GroupSet attribute is invalid,https://bugs.launchpad.net/heat/+bug/1166084,2013-10-17
+1165056,1165056,Fix Released,SubnetRouteTableAssocation cannot reference an existing SubnetId,https://bugs.launchpad.net/heat/+bug/1165056,2013-10-17
+1165050,1165050,Fix Released,VPCGatewayAttachment resource cannot reference an existing VPC,https://bugs.launchpad.net/heat/+bug/1165050,2013-10-17
+1164864,1164864,Fix Released,EIP resource should implement the InstanceId property,https://bugs.launchpad.net/heat/+bug/1164864,2013-10-17
+1137526,1137526,Fix Released,LoadBalancer resource requires KeyName,https://bugs.launchpad.net/heat/+bug/1137526,2013-10-17
+1199189,1199189,Fix Released,Stack update parameters do not propagate to resources,https://bugs.launchpad.net/heat/+bug/1199189,2013-10-17
+1198670,1198670,Fix Released,"Missing parameter ""KeyName"" not caught during create, causes error while calling stack-list",https://bugs.launchpad.net/heat/+bug/1198670,2013-10-17
+1196618,1196618,Fix Released,run_alarm_action traceback in NORMAL state,https://bugs.launchpad.net/heat/+bug/1196618,2013-10-17
+1193970,1193970,Fix Released,Constant ALARM state means only one actions event is ever emitted,https://bugs.launchpad.net/heat/+bug/1193970,2013-10-17
+1192814,1192814,Fix Released,Alarms refs are None when they need to be resolved,https://bugs.launchpad.net/heat/+bug/1192814,2013-10-17
+1192142,1192142,Fix Released,Fn::GetAtt fails validation when used as a property,https://bugs.launchpad.net/heat/+bug/1192142,2013-10-17
+1192128,1192128,Fix Released,Autoscaling updates loadbalancer with bad IP address,https://bugs.launchpad.net/heat/+bug/1192128,2013-10-17
+1192125,1192125,Fix Released,Autoscaling doesn't detect failed instance creation,https://bugs.launchpad.net/heat/+bug/1192125,2013-10-17
+1191705,1191705,Fix Released,Loadbalancer update doesn't work,https://bugs.launchpad.net/heat/+bug/1191705,2013-10-17
+1187883,1187883,Fix Released,Stack create API response ignores Accept header,https://bugs.launchpad.net/heat/+bug/1187883,2013-10-17
+1187882,1187882,Fix Released,JSONRequestDeserializer.has_body uses bad logic,https://bugs.launchpad.net/heat/+bug/1187882,2013-10-17
+1187881,1187881,Fix Released,DELETE with a body triggers a 500 error with traceback in response body,https://bugs.launchpad.net/heat/+bug/1187881,2013-10-17
+1187023,1187023,Fix Released,Stack creation fails when a network has no subnet attached,https://bugs.launchpad.net/heat/+bug/1187023,2013-10-17
+1184794,1184794,Fix Released,WaitCondition FnGetAtt fails if handle doesn't exist yet,https://bugs.launchpad.net/heat/+bug/1184794,2013-10-17
+1182266,1182266,Fix Released,Heat stack deletion fails when using floating IPs,https://bugs.launchpad.net/heat/+bug/1182266,2013-10-17
+1176661,1176661,Fix Released,Stack creation fail when using Quantum floating IPs,https://bugs.launchpad.net/heat/+bug/1176661,2013-10-17
+1201974,1201974,Fix Released,Resource-data delete bug,https://bugs.launchpad.net/heat/+bug/1201974,2013-10-17
+1201621,1201621,Fix Released,haproxy is in a failed state in the loadbalancer resource,https://bugs.launchpad.net/heat/+bug/1201621,2013-10-17
+1193132,1193132,Fix Released,"heat 500 error ""could not refresh instance""",https://bugs.launchpad.net/heat/+bug/1193132,2013-10-17
+1191931,1191931,Fix Released,AssertionError when creating a stack.,https://bugs.launchpad.net/heat/+bug/1191931,2013-10-17
+1186389,1186389,Fix Released,Some tasks run forever,https://bugs.launchpad.net/heat/+bug/1186389,2013-10-17
+1184923,1184923,Fix Released,heat-manage db_sync can't connect to database,https://bugs.launchpad.net/heat/+bug/1184923,2013-10-17
+1181701,1181701,Fix Released,Heat DB Install fails for non-root user,https://bugs.launchpad.net/heat/+bug/1181701,2013-10-17
+1178578,1178578,Fix Released,Implement check_active in Volume resource,https://bugs.launchpad.net/heat/+bug/1178578,2013-10-17
+1175753,1175753,Fix Released,Test discovery broken in Python 2.6,https://bugs.launchpad.net/heat/+bug/1175753,2013-10-17
+1163586,1163586,Fix Released,Stack validate is hiding exception details,https://bugs.launchpad.net/heat/+bug/1163586,2013-10-17
+1158009,1158009,Fix Released,non-executable-scripts in cloudinit,https://bugs.launchpad.net/heat/+bug/1158009,2013-10-17
+1157885,1157885,Fix Released,Versioninfo file no longer generated,https://bugs.launchpad.net/heat/+bug/1157885,2013-10-17
+1157537,1157537,Fix Released,REST template_validate only shows cfn Parameters fields,https://bugs.launchpad.net/heat/+bug/1157537,2013-10-17
+1178705,1178705,Fix Released,ReST API lookup/redirect broken for template-show,https://bugs.launchpad.net/heat/+bug/1178705,2013-10-17
+1178011,1178011,Fix Released,Create better exception for invalid template reference,https://bugs.launchpad.net/heat/+bug/1178011,2013-10-17
+1156375,1156375,Fix Released,create test case for bug #1155824,https://bugs.launchpad.net/heat/+bug/1156375,2013-10-17
+1154759,1154759,Fix Released,"improve the heat-cfn error when ""without credentials""",https://bugs.launchpad.net/heat/+bug/1154759,2013-10-17
+1154722,1154722,Fix Released,template-validate does not validate resources,https://bugs.launchpad.net/heat/+bug/1154722,2013-10-17
+1140324,1140324,Fix Released,Uncommon states from nova are not handled properly during instance creation,https://bugs.launchpad.net/heat/+bug/1140324,2013-10-17
+1133580,1133580,Fix Released,Test suite does not test BUILD return status when mocking novaclient create,https://bugs.launchpad.net/heat/+bug/1133580,2013-10-17
+1182285,1182285,Fix Released,tox outputs AttributeError:'NoneType' object has no attribute 'update_and_save',https://bugs.launchpad.net/heat/+bug/1182285,2013-10-17

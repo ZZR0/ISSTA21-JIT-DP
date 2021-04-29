@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1510979,1510979,Fix Released,Instance reschedule failure leaves orphaned neutron ports,https://bugs.launchpad.net/nova/+bug/1510979,2017-06-16
+1506465,1506465,Fix Released,VMware: unable to deploy debian image with liberty,https://bugs.launchpad.net/nova/+bug/1506465,2017-06-16
+1505471,1505471,Fix Released,Service group's DB driver dies if local conductor is used,https://bugs.launchpad.net/nova/+bug/1505471,2017-06-16
+1505318,1505318,Fix Released,VMware: fail to attach config drive when cluster is in a folder,https://bugs.launchpad.net/nova/+bug/1505318,2017-06-16
+1495834,1495834,Fix Released,[VMware] Launching an instance with large image size crashes nova-compute,https://bugs.launchpad.net/nova/+bug/1495834,2017-06-16
+1487742,1487742,Fix Released,Nova passing bad 'size' property value 'None' to Glance for images,https://bugs.launchpad.net/nova/+bug/1487742,2017-06-16
+1482066,1482066,Fix Released,cannot delete nova instance if volume is not active,https://bugs.launchpad.net/nova/+bug/1482066,2017-06-16
+1464259,1464259,Fix Released,Volumes tests fails often with rbd backend,https://bugs.launchpad.net/cinder/+bug/1464259,2017-06-16
+1464259,1464259,Fix Released,Volumes tests fails often with rbd backend,https://bugs.launchpad.net/nova/+bug/1464259,2017-06-16
+1447342,1447342,Fix Released,libvirtError: XML error: Missing CPU model name lead to compute service fail to start,https://bugs.launchpad.net/nova/+bug/1447342,2017-06-16
+1436166,1436166,Fix Released,"Problems with images bubble up as a simple ""There are not enough hosts available""",https://bugs.launchpad.net/nova/+bug/1436166,2017-06-16
+1386932,1386932,Fix Released,context.elevated: copy.copy causes admin role leak,https://bugs.launchpad.net/cinder/+bug/1386932,2017-06-16
+1386932,1386932,Fix Released,context.elevated: copy.copy causes admin role leak,https://bugs.launchpad.net/nova/+bug/1386932,2017-06-16
+1386932,1386932,Fix Released,context.elevated: copy.copy causes admin role leak,https://bugs.launchpad.net/manila/+bug/1386932,2017-06-16
+1386932,1386932,Fix Released,context.elevated: copy.copy causes admin role leak,https://bugs.launchpad.net/neutron/+bug/1386932,2017-06-16
+1175464,1175464,Fix Released,should not add default security group to quantum unless api-request had it,https://bugs.launchpad.net/nova/+bug/1175464,2017-06-16
+1548450,1548450,Fix Released,[OSSA 2016-007] Host data leak during resize/migrate for raw-backed instances (CVE-2016-2140),https://bugs.launchpad.net/nova/+bug/1548450,2017-06-16
+1548450,1548450,Fix Released,[OSSA 2016-007] Host data leak during resize/migrate for raw-backed instances (CVE-2016-2140),https://bugs.launchpad.net/ossa/+bug/1548450,2017-06-16
+1526413,1526413,Fix Released,test_app_using_ipv6_and_ssl fails with requests 2.9.0,https://bugs.launchpad.net/nova/+bug/1526413,2017-06-16
+1516805,1516805,Fix Released,nova unit tests failing with infinite recursion with oslo.versionedobjects 0.13.0,https://bugs.launchpad.net/nova/+bug/1516805,2017-06-16
+1698316,1698316,Fix Released,gate may be broken because test_nodes_list test,https://bugs.launchpad.net/mogan/+bug/1698316,2017-06-16
+1651961,1651961,Fix Released,"Readme Steps fail for Vagrant, zlib missing",https://bugs.launchpad.net/kolla/+bug/1651961,2017-06-16
+1523267,1523267,Fix Released,L3 router unit tests fail,https://bugs.launchpad.net/networking-cisco/+bug/1523267,2017-06-16
+1691013,1691013,Fix Released,Permission denied in ansible,https://bugs.launchpad.net/networking-midonet/+bug/1691013,2017-06-16
+1680701,1680701,Fix Released,Synology driver lost snapshot metadata after creating snapshot,https://bugs.launchpad.net/cinder/+bug/1680701,2017-06-16
+1603042,1603042,Fix Released,typo in Synology cinder driver,https://bugs.launchpad.net/cinder/+bug/1603042,2017-06-16
+1619234,1619234,Fix Released,Synology: Rename specific driver option with synology prefix,https://bugs.launchpad.net/cinder/+bug/1619234,2017-06-16
+1694215,1694215,Fix Released,Admin can delete resources managed by L3 router plugin,https://bugs.launchpad.net/networking-cisco/+bug/1694215,2017-06-15
+1536250,1536250,Fix Released,Intermittent database problems in the HA job,https://bugs.launchpad.net/tripleo/+bug/1536250,2017-06-15
+1513879,1513879,Fix Released,NeutronClientException: 404 Not Found,https://bugs.launchpad.net/nova/+bug/1513879,2017-06-15
+1513879,1513879,Fix Released,NeutronClientException: 404 Not Found,https://bugs.launchpad.net/tripleo/+bug/1513879,2017-06-15
+1513879,1513879,Fix Released,NeutronClientException: 404 Not Found,https://bugs.launchpad.net/python-neutronclient/+bug/1513879,2017-06-15
+1317056,1317056,Fix Released,Guest VM FS corruption after compute host reboot,https://bugs.launchpad.net/tripleo/+bug/1317056,2017-06-15
+1678326,1678326,Fix Released,Quota is decremented during instance delete in cell0 even if the instance destroy fails,https://bugs.launchpad.net/nova/+bug/1678326,2017-06-15
+1630740,1630740,Fix Released,Custom selinux policy compilation may fail,https://bugs.launchpad.net/tripleo/+bug/1630740,2017-06-15
+1696899,1696899,Fix Released,Change to use metadta instead of extra for server,https://bugs.launchpad.net/mogan/+bug/1696899,2017-06-15
+1697685,1697685,Fix Released,need to ensure server completely in tempest's resource_cleanup,https://bugs.launchpad.net/mogan/+bug/1697685,2017-06-15
+1697686,1697686,Fix Released,Wrong keystone_authtoken middleware configuration for devstack,https://bugs.launchpad.net/glare/+bug/1697686,2017-06-15
+1367444,1367444,Fix Released,Need a pollster for cinder volumes and snapshots,https://bugs.launchpad.net/ceilometer/+bug/1367444,2017-06-14
+1479962,1479962,Fix Released,Use extras for deployment-specific package requirements,https://bugs.launchpad.net/keystone/+bug/1479962,2017-06-14
+1492235,1492235,Fix Released,XFS sometimes can't mount filesystems due to UUID error,https://bugs.launchpad.net/grenade/+bug/1492235,2017-06-14
+1488008,1488008,Fix Released,grenade -t failed when running resource phase verify,https://bugs.launchpad.net/grenade/+bug/1488008,2017-06-14
+1487287,1487287,Fix Released,Database for BASE_RELEASE is not saved,https://bugs.launchpad.net/grenade/+bug/1487287,2017-06-14
+1487279,1487279,Fix Released,DATA_DIR in clean.sh is does not respect STACK_ROOT,https://bugs.launchpad.net/grenade/+bug/1487279,2017-06-14
+1487259,1487259,Fix Released,grenade -t failed because requirements is not cloned,https://bugs.launchpad.net/grenade/+bug/1487259,2017-06-14
+1486444,1486444,Fix Released,grenade is not upgrading cinder,https://bugs.launchpad.net/grenade/+bug/1486444,2017-06-14
+1484528,1484528,Fix Released,inc/upgrade:ensure_services_started can't handle processes with spaces,https://bugs.launchpad.net/grenade/+bug/1484528,2017-06-14
+1460112,1460112,Fix Released,Race failure to delete security group,https://bugs.launchpad.net/python-openstackclient/+bug/1460112,2017-06-14
+1460112,1460112,Fix Released,Race failure to delete security group,https://bugs.launchpad.net/grenade/+bug/1460112,2017-06-14
+1422520,1422520,Fix Released,check-grenade-dsvm-ironic-sideways failing test_list_baremetal_node,https://bugs.launchpad.net/grenade/+bug/1422520,2017-06-14
+1419913,1419913,Fix Released,Grenade fails with ContextualVersionConflict between oslo.config and tempest-lib on juno side,https://bugs.launchpad.net/grenade/+bug/1419913,2017-06-14
+1415284,1415284,Fix Released,grenade jobs failure due to eventlet version mismatch,https://bugs.launchpad.net/grenade/+bug/1415284,2017-06-14
+1404651,1404651,Fix Released,rootwrap filters not applied for target,https://bugs.launchpad.net/grenade/+bug/1404651,2017-06-14
+1398833,1398833,Fix Released,Keystone fails to start after upgrade due to misconfiguration,https://bugs.launchpad.net/grenade/+bug/1398833,2017-06-14
+1398561,1398561,Fix Released,"pkg_resources.VersionConflict: oslo.config 1.5.0 is installed but oslo.config>=1.4.0,<1.5 is required by ['ceilometer']",https://bugs.launchpad.net/grenade/+bug/1398561,2017-06-14
+1398074,1398074,Fix Released,grenade/javelin fails with out of memory error when trying to create libvirt domain,https://bugs.launchpad.net/grenade/+bug/1398074,2017-06-14
+1392641,1392641,Fix Released,generate_javelin_resources generates wrong yaml for server's networks,https://bugs.launchpad.net/grenade/+bug/1392641,2017-06-14
+1391436,1391436,Fix Released,Tempest.conf has wrong cli_dir value after upgrade,https://bugs.launchpad.net/grenade/+bug/1391436,2017-06-14
+1358332,1358332,Fix Released,save-state can fail if neuetron_ml2 database present,https://bugs.launchpad.net/grenade/+bug/1358332,2017-06-14
+1356178,1356178,Fix Released,unfubar_setuptools was removed from devstack but it is still called by upgrade-infra,https://bugs.launchpad.net/grenade/+bug/1356178,2017-06-14
+1355499,1355499,Fix Released,check-sanity fails if any of BASE_SERVICES are disabled,https://bugs.launchpad.net/grenade/+bug/1355499,2017-06-14
+1347851,1347851,Fix Released,Executable not found: conntrack,https://bugs.launchpad.net/grenade/+bug/1347851,2017-06-14
+1313791,1313791,Fix Released,Upgrade from Icehouse to current master (Juno) doesn't configure VPN vars,https://bugs.launchpad.net/grenade/+bug/1313791,2017-06-14
+1309324,1309324,Fix Released,check-grenade-dsvm-partial-ncpu* failing since icehouse release due to compat issue,https://bugs.launchpad.net/grenade/+bug/1309324,2017-06-14
+1281540,1281540,Fix Released,stable/havana gate job fails because of partial swift client upgrade,https://bugs.launchpad.net/grenade/+bug/1281540,2017-06-14
+1281540,1281540,Fix Released,stable/havana gate job fails because of partial swift client upgrade,https://bugs.launchpad.net/openstack-ci/+bug/1281540,2017-06-14
+1259911,1259911,Fix Released,apt.puppetlabs.com connectivity problem from rax breaks grenade job,https://bugs.launchpad.net/grenade/+bug/1259911,2017-06-14
+1252170,1252170,Fix Released,tempest.scenario test_resize_server_confirm failed in grenade,https://bugs.launchpad.net/grenade/+bug/1252170,2017-06-14
+1235149,1235149,Fix Released,Add neutron upgrade process to grenade project,https://bugs.launchpad.net/grenade/+bug/1235149,2017-06-14
+1199250,1199250,Fix Released,Failure in upgrade-nova due to neutron rename,https://bugs.launchpad.net/grenade/+bug/1199250,2017-06-14
+1183111,1183111,Fix Released,stop-base is not terminating swift processes,https://bugs.launchpad.net/grenade/+bug/1183111,2017-06-14
+1161545,1161545,Fix Released,echo_summary is not found when running save-state script,https://bugs.launchpad.net/grenade/+bug/1161545,2017-06-14
+1454467,1454467,Fix Released,Latest version 1.0.4 doesn't work with master,https://bugs.launchpad.net/devstack/+bug/1454467,2017-06-14
+1405626,1405626,Fix Released,check-tempest-dsvm-ironic-pxe_ssh is failing,https://bugs.launchpad.net/devstack/+bug/1405626,2017-06-14
+1355429,1355429,Fix Released,neutron-vpn-agent fails to start post-upgrade,https://bugs.launchpad.net/devstack/+bug/1355429,2017-06-14

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1882387,1882387,Fix Released,TASK [ceph : Get OSD stat percentage]: null and null cannot be divided,https://bugs.launchpad.net/tripleo/+bug/1882387,2020-07-31
+1882202,1882202,Fix Released,neutron-ovn-db-sync-util stops with Traceback due to L3 service plugin expecting ``ovn`` mech driver to be present while ``ovn-sync`` mech driver is loaded,https://bugs.launchpad.net/neutron/+bug/1882202,2020-07-31
+1882061,1882061,Fix Released,neutron-ovn-db-sync-util fails with KeyError: 'port_security_enabled' when port security not enabled,https://bugs.launchpad.net/neutron/+bug/1882061,2020-07-31
+1888649,1888649,Fix Released,OVN: Extra DHCP options validation broke the Ironic+OVN+DHCP agent combination,https://bugs.launchpad.net/neutron/+bug/1888649,2020-07-31
+1880747,1880747,Fix Released,NetApp driver fails trying to delete ipspace 'Default',https://bugs.launchpad.net/manila/+bug/1880747,2020-07-31
+1887708,1887708,Fix Released,'chown failed: failed to look up user stack',https://bugs.launchpad.net/tripleo/+bug/1887708,2020-07-31
+1886497,1886497,Fix Released,ceph/train: chown failed: failed to look up user tripleo-admin,https://bugs.launchpad.net/tripleo/+bug/1886497,2020-07-31
+1578989,1578989,Fix Released,[RFE] Strict minimum bandwidth support (egress),https://bugs.launchpad.net/neutron/+bug/1578989,2020-07-31
+1874211,1874211,Fix Released,[L3HA] Keepalived 2.x.x tracks state of virtual_ipaddresses interfaces and router now,https://bugs.launchpad.net/neutron/+bug/1874211,2020-07-31
+1884512,1884512,Fix Released,[QoS] Race condition during port qos rules deletion,https://bugs.launchpad.net/neutron/+bug/1884512,2020-07-31
+1884906,1884906,Fix Released,L3 agent cannot be manually scheduled,https://bugs.launchpad.net/neutron/+bug/1884906,2020-07-31
+1889418,1889418,Fix Released,undercloud update error with [tripleo-podman : Clean podman images],https://bugs.launchpad.net/tripleo/+bug/1889418,2020-07-31
+1889440,1889440,Fix Released,zun-cni-daemon permission issue on ovs hybrid plug,https://bugs.launchpad.net/zun/+bug/1889440,2020-07-31
+1887694,1887694,Fix Released,[lvm driver] should use lvextend capabilities,https://bugs.launchpad.net/manila/+bug/1887694,2020-07-30
+1864649,1864649,Fix Released,tripleo-ansible molecule run-local test uses ansible_connection type ssh,https://bugs.launchpad.net/tripleo/+bug/1864649,2020-07-30
+1889221,1889221,Fix Released,[Ussuri + Master] Compute scale down regression,https://bugs.launchpad.net/tripleo/+bug/1889221,2020-07-30
+1833506,1833506,Fix Released,VNF force delete failed with invalid VIM error,https://bugs.launchpad.net/tacker/+bug/1833506,2020-07-30
+1853715,1853715,Fix Released,[train] [kolla-ansible] [tacker] Incomplete config results in ERRORs from tacker-server,https://bugs.launchpad.net/kolla-ansible/+bug/1853715,2020-07-30
+1887980,1887980,Fix Released,volumes_client is_resource_deleted KeyError,https://bugs.launchpad.net/tempest/+bug/1887980,2020-07-30
+1884825,1884825,Fix Released,"swift_operator_role defaults to ""Member"", not ""member""",https://bugs.launchpad.net/rally/+bug/1884825,2020-07-30
+1858417,1858417,Fix Released,ConsistencyGroupException doesn't exist in tempest,https://bugs.launchpad.net/tempest/+bug/1858417,2020-07-30
+1884866,1884866,Fix Released,podman containers are not properly cleaned and restarted when their common process is killed,https://bugs.launchpad.net/tripleo/+bug/1884866,2020-07-30
+1882927,1882927,Fix Released,suboptimal haproxy LB strategy for API services with longrunning requests might produce traffic spikes and cascading failures,https://bugs.launchpad.net/tripleo/+bug/1882927,2020-07-30
+1682835,1682835,Fix Committed,Networking is not working with OVS bridges,https://bugs.launchpad.net/fuel/+bug/1682835,2020-07-29
+1653301,1653301,Fix Committed,Network checker (custom graph) fails on scale,https://bugs.launchpad.net/fuel/+bug/1653301,2020-07-29
+1654598,1654598,Fix Released,User can list other tenant's and admin's export locations,https://bugs.launchpad.net/manila/+bug/1654598,2020-07-29
+1885331,1885331,Fix Released,"tripleo-ansible-centos-7-molecule-tripleo-ceph-run-ansible Aborting, target uses selinux but python bindings (libselinux-python) aren't installed!",https://bugs.launchpad.net/tripleo/+bug/1885331,2020-07-29
+1882869,1882869,Fix Released,flavour_description is not updated when instantiating,https://bugs.launchpad.net/tacker/+bug/1882869,2020-07-29
+1859847,1859847,Fix Released,Glance registry should not be required to run since Queens,https://bugs.launchpad.net/manila/+bug/1859847,2020-07-29
+1859847,1859847,Fix Released,Glance registry should not be required to run since Queens,https://bugs.launchpad.net/devstack/+bug/1859847,2020-07-29
+1887644,1887644,Fix Released,missing configuration in novajoin container,https://bugs.launchpad.net/tripleo/+bug/1887644,2020-07-29
+1888349,1888349,Fix Released,glance-cache-manage utility is broken,https://bugs.launchpad.net/glance/+bug/1888349,2020-07-29
+1885080,1885080,Fix Released,Cannot wait more than ten minutes during VNF create,https://bugs.launchpad.net/tacker/+bug/1885080,2020-07-29
+1889148,1889148,Fix Released,Some test yaml files have BOM at the beginning,https://bugs.launchpad.net/tacker/+bug/1889148,2020-07-29
+1819003,1819003,Fix Released,"DevStack stable/queens stack.sh fails with ""Failure creating public IPv4 subnet""",https://bugs.launchpad.net/vmware-nsx/+bug/1819003,2020-07-29
+1886017,1886017,Fix Released,"""allow expired"" feature is broken against json web token",https://bugs.launchpad.net/keystone/+bug/1886017,2020-07-29
+1879754,1879754,Fix Released,Service instance teardown makes non-optimal neutron port-list query,https://bugs.launchpad.net/manila/+bug/1879754,2020-07-29
+1534769,1534769,Fix Released,Creation of external network without tier0 router specified outputs confusing error,https://bugs.launchpad.net/vmware-nsx/+bug/1534769,2020-07-29
+1520062,1520062,Fix Released,NSX vendor code still present in neutronclient tree,https://bugs.launchpad.net/python-neutronclient/+bug/1520062,2020-07-29
+1520062,1520062,Fix Released,NSX vendor code still present in neutronclient tree,https://bugs.launchpad.net/vmware-nsx/+bug/1520062,2020-07-29
+1376981,1376981,Fix Released,NSX plugin security group rules OVS flow explosion,https://bugs.launchpad.net/vmware-nsx/+bug/1376981,2020-07-29
+1771574,1771574,Fix Released,Source port specified when creating rule,https://bugs.launchpad.net/vmware-nsx/+bug/1771574,2020-07-29
+1617041,1617041,Fix Released,NSX|V3: Update upgrade scripts for native DHCP/Metadata,https://bugs.launchpad.net/vmware-nsx/+bug/1617041,2020-07-29
+1609266,1609266,Fix Released,DVS: provide a dhcp_driver class for plugin,https://bugs.launchpad.net/vmware-nsx/+bug/1609266,2020-07-29
+1607267,1607267,Fix Released,Update CIF creation request body,https://bugs.launchpad.net/vmware-nsx/+bug/1607267,2020-07-29
+1578114,1578114,Fix Released,Fix creating portgroup provider net with no physical_network set,https://bugs.launchpad.net/vmware-nsx/+bug/1578114,2020-07-29
+1493682,1493682,Fix Released,NsxV3: external network support,https://bugs.launchpad.net/vmware-nsx/+bug/1493682,2020-07-29
+1490082,1490082,Fix Released,Deploy NSX Edges in HA mode,https://bugs.launchpad.net/vmware-nsx/+bug/1490082,2020-07-29
+1490056,1490056,Fix Released,Add support to NSXv3 driver to verify certs,https://bugs.launchpad.net/vmware-nsx/+bug/1490056,2020-07-29
+1489595,1489595,Fix Released,DVS: Verify certificate on vCenter connections,https://bugs.launchpad.net/vmware-nsx/+bug/1489595,2020-07-29
+1489214,1489214,Fix Released,Deploy NSX Edges in HA mode,https://bugs.launchpad.net/vmware-nsx/+bug/1489214,2020-07-29
+1668975,1668975,Fix Released,NSXt CI is broken due to exception when creating security group,https://bugs.launchpad.net/vmware-nsx/+bug/1668975,2020-07-29
+1517377,1517377,Fix Released,Move 'locking_coordinator_url' to common configuration section,https://bugs.launchpad.net/vmware-nsx/+bug/1517377,2020-07-29
+1515183,1515183,Fix Released,NSX|V3: unable to add port to network,https://bugs.launchpad.net/vmware-nsx/+bug/1515183,2020-07-29
+1518481,1518481,Fix Released,NSXv3: nsx resources are not being clean up during unstack,https://bugs.launchpad.net/vmware-nsx/+bug/1518481,2020-07-29
+1522023,1522023,Fix Released,[NSXv] Add SSL support for metadata service in NSX-V plugin,https://bugs.launchpad.net/vmware-nsx/+bug/1522023,2020-07-29
+1530472,1530472,Fix Released,Making the number of nested NSGroup configurable,https://bugs.launchpad.net/vmware-nsx/+bug/1530472,2020-07-29
+1530621,1530621,Fix Released,Making the number of nested NSGroup configurable,https://bugs.launchpad.net/vmware-nsx/+bug/1530621,2020-07-29
+1543494,1543494,Fix Released,NSX|V: add ability for admin to configure default nameservers,https://bugs.launchpad.net/vmware-nsx/+bug/1543494,2020-07-29
+1557267,1557267,Fix Released,Admin util: add in option to set the DVS teaming policy,https://bugs.launchpad.net/vmware-nsx/+bug/1557267,2020-07-29
+1570201,1570201,Fix Released,[Admin-Util]: Add support to list missing edges for NSXv plugin,https://bugs.launchpad.net/vmware-nsx/+bug/1570201,2020-07-29
+1570561,1570561,Fix Released,Tempest: vmware_nsx tempest plugin is broken due to upstream change,https://bugs.launchpad.net/vmware-nsx/+bug/1570561,2020-07-29
+1571819,1571819,Fix Released,NSX|v3 replace configuration uuids with names,https://bugs.launchpad.net/vmware-nsx/+bug/1571819,2020-07-29
+1580148,1580148,Fix Released,Fix creating portgroup provider net with no physical_network set,https://bugs.launchpad.net/vmware-nsx/+bug/1580148,2020-07-29
+1587041,1587041,Fix Released,NSX|V router create with availability zones hints,https://bugs.launchpad.net/vmware-nsx/+bug/1587041,2020-07-29
+1595419,1595419,Fix Released,NSX|V add vm to exclude list when the port has no port security,https://bugs.launchpad.net/vmware-nsx/+bug/1595419,2020-07-29
+1595429,1595429,Fix Released,NSX|v HA: deploy edges on 2 datastores,https://bugs.launchpad.net/vmware-nsx/+bug/1595429,2020-07-29
+1602790,1602790,Fix Released,NSX|V Extend Availability Zones to support data stores,https://bugs.launchpad.net/vmware-nsx/+bug/1602790,2020-07-29
+1604566,1604566,Fix Released,NSX-V Service insertion support,https://bugs.launchpad.net/vmware-nsx/+bug/1604566,2020-07-29
+1604567,1604567,Fix Released,NSX|v service insertion handle upgrade,https://bugs.launchpad.net/vmware-nsx/+bug/1604567,2020-07-29
+1608982,1608982,Fix Released,NSX|V add dhcp-mtu extension to subnet,https://bugs.launchpad.net/vmware-nsx/+bug/1608982,2020-07-29
+1672155,1672155,Fix Released,NSX|V: add in exclusive DHCP support,https://bugs.launchpad.net/vmware-nsx/+bug/1672155,2020-07-29
+1514934,1514934,Fix Released,NSX|V3: Exceptions in rally teardown,https://bugs.launchpad.net/vmware-nsx/+bug/1514934,2020-07-29
+1510279,1510279,Fix Released,NSXv3: Unable to set Gateway for router from openstack horizon UI,https://bugs.launchpad.net/vmware-nsx/+bug/1510279,2020-07-29
+1515847,1515847,Fix Released,NSXv3: Router interface attachment fails,https://bugs.launchpad.net/vmware-nsx/+bug/1515847,2020-07-29

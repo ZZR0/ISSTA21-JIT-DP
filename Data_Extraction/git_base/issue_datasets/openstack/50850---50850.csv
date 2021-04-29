@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1467451,1467451,Fix Released,Hyper-V: fail to detach virtual hard disks,https://bugs.launchpad.net/nova/+bug/1467451,2016-01-21
+1463044,1463044,Fix Released,Hyper-V: the driver fails to initialize on Windows Server 2008 R2,https://bugs.launchpad.net/nova/+bug/1463044,2016-01-21
+1466305,1466305,Fix Released,Booting from volume nolonger can be bigger that flavor size,https://bugs.launchpad.net/nova/+bug/1466305,2016-01-21
+1459491,1459491,Fix Released,Unexpected result when create server booted from volume,https://bugs.launchpad.net/nova/+bug/1459491,2016-01-21
+1457517,1457517,Fix Released,Unable to boot from volume when flavor disk too small,https://bugs.launchpad.net/nova/+bug/1457517,2016-01-21
+1465443,1465443,Fix Released,Hyper-V: Live migration does not copy configdrive to new host,https://bugs.launchpad.net/nova/+bug/1465443,2016-01-21
+1470690,1470690,Fix Released,No 'OS-EXT-VIF-NET' extension in v2.1,https://bugs.launchpad.net/nova/+bug/1470690,2016-01-21
+1465446,1465446,Fix Released,"Hyper-V: After live migration succeded, the only instance dirs on the source host are not cleaned up",https://bugs.launchpad.net/nova/+bug/1465446,2016-01-21
+1456064,1456064,Fix Released,VMWare instance missing ip address when using config drive,https://bugs.launchpad.net/nova/+bug/1456064,2016-01-21
+1436187,1436187,Fix Released,'AttributeError' is getting raised while unshelving instance booted from volume,https://bugs.launchpad.net/nova/+bug/1436187,2016-01-21
+1459917,1459917,Fix Released,Can't boot with bdm when use image in local,https://bugs.launchpad.net/nova/+bug/1459917,2016-01-21
+1481812,1481812,Fix Released,nova servers pagination does not work with changes-since and deleted marker,https://bugs.launchpad.net/nova/+bug/1481812,2016-01-21
+1494653,1494653,Fix Released,Remove unnecessary 'context' parameter from quotas reserve method call,https://bugs.launchpad.net/nova/+bug/1494653,2016-01-21
+1491511,1491511,Fix Released,Behavior change with latest nova paste config,https://bugs.launchpad.net/nova/+bug/1491511,2016-01-21
+1493694,1493694,Fix Released,"On compute restart, quotas are not updated when instance vm_state is 'DELETED' but instance is not destroyed in db",https://bugs.launchpad.net/nova/+bug/1493694,2016-01-21
+1495388,1495388,Fix Released,The instance hostname didn't match the RFC 952 and 1123's definition,https://bugs.launchpad.net/nova/+bug/1495388,2016-01-21
+1454451,1454451,Fix Released,simultaneous boot of multiple instances leads to cpu pinning overlap,https://bugs.launchpad.net/nova/+bug/1454451,2016-01-21
+1488233,1488233,Fix Released,FC with LUN ID >255 not recognized,https://bugs.launchpad.net/nova/+bug/1488233,2016-01-21
+1392527,1392527,Fix Released,[OSSA 2015-017] Deleting instance while resize instance is running leads to unuseable compute nodes (CVE-2015-3280),https://bugs.launchpad.net/ossa/+bug/1392527,2016-01-21
+1392527,1392527,Fix Released,[OSSA 2015-017] Deleting instance while resize instance is running leads to unuseable compute nodes (CVE-2015-3280),https://bugs.launchpad.net/nova/+bug/1392527,2016-01-21
+1461065,1461065,Fix Released,Security groups may break,https://bugs.launchpad.net/nova/+bug/1461065,2016-01-21
+1387543,1387543,Fix Released,[OSSA 2015-015] Resize/delete combo allows to overload nova-compute (CVE-2015-3241),https://bugs.launchpad.net/nova/+bug/1387543,2016-01-21
+1387543,1387543,Fix Released,[OSSA 2015-015] Resize/delete combo allows to overload nova-compute (CVE-2015-3241),https://bugs.launchpad.net/ossa/+bug/1387543,2016-01-21
+1462128,1462128,Fix Released,Cells: DBReferenceError possible deleting unscheduled instance,https://bugs.launchpad.net/nova/+bug/1462128,2016-01-21
+1482699,1482699,Fix Released,glance requests from nova fail if there are too many endpoints in the service catalog,https://bugs.launchpad.net/nova/+bug/1482699,2016-01-21
+1472946,1472946,Fix Released,_poll_shelved_instances periodic task is offloading instances even if shelved_offload_time is -1,https://bugs.launchpad.net/nova/+bug/1472946,2016-01-21
+1466056,1466056,Fix Released,Hyper-V: serial ports issue on Windows Threshold,https://bugs.launchpad.net/nova/+bug/1466056,2016-01-21
+1491325,1491325,Fix Released,nova api v2.1 does not allow to use autodetection of volume device path,https://bugs.launchpad.net/python-novaclient/+bug/1491325,2016-01-21
+1491325,1491325,Fix Released,nova api v2.1 does not allow to use autodetection of volume device path,https://bugs.launchpad.net/nova/+bug/1491325,2016-01-21
+1484738,1484738,Fix Released,keyerror when refreshing instance security groups,https://bugs.launchpad.net/nova/+bug/1484738,2016-01-21
+1487937,1487937,Fix Released,IndexError if federation mapping doesn't match anything,https://bugs.launchpad.net/keystone/+bug/1487937,2016-01-21
+1469029,1469029,Fix Released,Migrations fail going from juno -> kilo,https://bugs.launchpad.net/keystone/+bug/1469029,2016-01-21
+1401926,1401926,Fix Released,Role revocation invalidates tokens on all user projects,https://bugs.launchpad.net/keystone/+bug/1401926,2016-01-21
+1402760,1402760,Fix Released,All user tokens are considered revoked on it's group role revocation,https://bugs.launchpad.net/keystone/+bug/1402760,2016-01-21
+1485035,1485035,Fix Released,cadf payload doesn't have initiator for v2 calls,https://bugs.launchpad.net/keystone/+bug/1485035,2016-01-21
+1487115,1487115,Fix Released,Ephemeral user's id is not always urlsafe,https://bugs.launchpad.net/keystone/+bug/1487115,2016-01-21
+1515302,1515302,Fix Released,Group membership attribute is hard-coded when using 'user_enable_emulation',https://bugs.launchpad.net/keystone/+bug/1515302,2016-01-21
+1442787,1442787,Fix Released,Mapping openstack_user attribute in k2k assertions with different domains,https://bugs.launchpad.net/keystone/+bug/1442787,2016-01-21
+1452418,1452418,Fix Released,Fernet tokens read from disk on every request,https://bugs.launchpad.net/keystone/+bug/1452418,2016-01-21
+1471967,1471967,Fix Released,Fernet unit tests do not test persistence logic,https://bugs.launchpad.net/keystone/+bug/1471967,2016-01-21
+1478656,1478656,Fix Released,Non-numeric filenames in key_repository will make Keystone explode,https://bugs.launchpad.net/keystone/+bug/1478656,2016-01-21
+1475762,1475762,Fix Released,v3 tokens with references outside the default domain can be validated on v2,https://bugs.launchpad.net/keystone/+bug/1475762,2016-01-21
+1459790,1459790,Fix Released,"With fernet tokens, validate token loses the ms on 'expires' value",https://bugs.launchpad.net/keystone/+bug/1459790,2016-01-21
+1477600,1477600,Fix Released,Token Validation API returns 401 not 404 on invalid fernet token,https://bugs.launchpad.net/keystone/+bug/1477600,2016-01-21
+1468000,1468000,Fix Released,Group lookup by name in LDAP via v3 fails,https://bugs.launchpad.net/keystone/+bug/1468000,2016-01-21
+1448286,1448286,Fix Released,unicode query string raises UnicodeEncodeError,https://bugs.launchpad.net/keystone/+bug/1448286,2016-01-21
+1483382,1483382,Fix Released,Able to request a V2 token for user and project in a non-default domain,https://bugs.launchpad.net/keystone/+bug/1483382,2016-01-21
+1465444,1465444,Fix Released,Fernet key rotation removing keys early,https://bugs.launchpad.net/keystone/+bug/1465444,2016-01-21
+1287757,1287757,Fix Released,Optimization:  Don't prune events on every get,https://bugs.launchpad.net/keystone/+bug/1287757,2016-01-21
+1454309,1454309,Fix Released,Keystone v3 user/tenant lookup by name via OpenStack CLI client fails,https://bugs.launchpad.net/keystone/+bug/1454309,2016-01-21
+1469563,1469563,Fix Released,Fernet tokens do not maintain expires time across rescope (V2 tokens),https://bugs.launchpad.net/keystone/+bug/1469563,2016-01-21
+1459382,1459382,Fix Released,Fernet tokens can fail with LDAP identity backends,https://bugs.launchpad.net/keystone/+bug/1459382,2016-01-21
+1466405,1466405,Fix Released,broken ACL tests,https://bugs.launchpad.net/ironic/+bug/1466405,2016-01-21
+1490019,1490019,Fix Released,ilo drivers restart the node when another conductor takes over,https://bugs.launchpad.net/ironic/+bug/1490019,2016-01-21
+1466239,1466239,Fix Released,Stack creation failed with: AttributeError: 'module' object has no attribute 'MessagingTimeout',https://bugs.launchpad.net/heat/+bug/1466239,2016-01-21
+1510338,1510338,Fix Released,OS::Neutron::Subnet changing allocation_pools causes replacement,https://bugs.launchpad.net/heat/+bug/1510338,2016-01-21
+1509880,1509880,Fix Released,Resource.has_interface can fail if there are registry changes on update,https://bugs.launchpad.net/heat/+bug/1509880,2016-01-21
+1521881,1521881,Fix Released,stacks still hung in IN_PROGRESS when error happen,https://bugs.launchpad.net/heat/+bug/1521881,2016-01-21
+1523303,1523303,Fix Released,A noop stack-update with many nested stacks is slow,https://bugs.launchpad.net/heat/+bug/1523303,2016-01-21
+1505054,1505054,Fix Released,can't get attribute for stack in SNAPSHOT/CHECK,https://bugs.launchpad.net/heat/+bug/1505054,2016-01-21
+1478480,1478480,Fix Released,stack is always in UPDATE_IN_PROGRESS,https://bugs.launchpad.net/heat/+bug/1478480,2016-01-21
+1375156,1375156,Fix Released,Extra instance is created if evaluation period set short,https://bugs.launchpad.net/heat/+bug/1375156,2016-01-21
+1477329,1477329,Fix Released,Potential race in software deployments db write to server rsrc_metadata,https://bugs.launchpad.net/heat/+bug/1477329,2016-01-21
+1459719,1459719,Fix Released,Stack can't be updated if creation fails on validation step,https://bugs.launchpad.net/heat/+bug/1459719,2016-01-21
+1488881,1488881,Fix Released,Correct tenant_id when init python-client,https://bugs.launchpad.net/heat/+bug/1488881,2016-01-21
+1473660,1473660,Fix Released,multipart mime wait handle,https://bugs.launchpad.net/heat/+bug/1473660,2016-01-21
+1423426,1423426,Fix Released,Heat scaling group doesn't override the update_policy_schema,https://bugs.launchpad.net/heat/+bug/1423426,2016-01-21
+1476345,1476345,Fix Released,Stack lifecycle scheduler hints missing orchestration UUID,https://bugs.launchpad.net/heat/+bug/1476345,2016-01-21
+1471135,1471135,Fix Released,Resize instance via Heat might fail,https://bugs.launchpad.net/heat/+bug/1471135,2016-01-21
+1496909,1496909,Fix Released,Empty data  can be cause of some errors during deleting backup stack,https://bugs.launchpad.net/heat/+bug/1496909,2016-01-21
+1481614,1481614,Fix Released,Ubuntu 15.04 python3 path problem when running loguserdata.py,https://bugs.launchpad.net/heat/+bug/1481614,2016-01-21
+1461375,1461375,Fix Released,"ValueError: No content found in the ""files"" section for get_file path when restore",https://bugs.launchpad.net/heat/+bug/1461375,2016-01-21
+1458095,1458095,Fix Released,"Defining actions DELETE,SUSPEND results in: ""Cannot signal resource during [ACTION]""",https://bugs.launchpad.net/heat/+bug/1458095,2016-01-21
+1445361,1445361,Fix Released,A lot of unneeded events/signals send when using autoscaling group,https://bugs.launchpad.net/heat/+bug/1445361,2016-01-21
+1439518,1439518,Fix Released,purge_deleted gives SQL integrety error,https://bugs.launchpad.net/heat/+bug/1439518,2016-01-21

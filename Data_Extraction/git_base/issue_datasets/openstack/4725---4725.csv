@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1832821,1832821,Fix Released,hnas_iscsi  is deprecated by Cinder in Ocata release,https://bugs.launchpad.net/kolla-ansible/+bug/1832821,2019-11-11
+1833729,1833729,Fix Released,Fernet keys are rotated by the keystone deploy playbook every time,https://bugs.launchpad.net/kolla-ansible/+bug/1833729,2019-11-11
+1833069,1833069,Fix Committed,Nova services still have RPC version pinning after upgrade,https://bugs.launchpad.net/kolla-ansible/+bug/1833069,2019-11-11
+1834332,1834332,Fix Released,Bifrost upgrade occasionally fails,https://bugs.launchpad.net/kolla-ansible/+bug/1834332,2019-11-11
+1834647,1834647,Fix Released,Tasks handling nova-status upgrade check are too restrictive,https://bugs.launchpad.net/kolla-ansible/+bug/1834647,2019-11-11
+1835817,1835817,Fix Released,'nova_compute_services' is undefined during deploy on Ansible <2.8,https://bugs.launchpad.net/kolla-ansible/+bug/1835817,2019-11-11
+1832878,1832878,Fix Released,Docs - external ceph section needs an update for cinder-backup,https://bugs.launchpad.net/kolla-ansible/+bug/1832878,2019-11-11
+1836151,1836151,Fix Released,glance-api deployed on all nodes despite using file backend,https://bugs.launchpad.net/kolla-ansible/+bug/1836151,2019-11-11
+1823766,1823766,Fix Released,DB sync can be skipped during deploy if DB setup fails,https://bugs.launchpad.net/kolla-ansible/+bug/1823766,2019-11-11
+1832979,1832979,Fix Released,ovsdpdk images not built for RHEL-based distros,https://bugs.launchpad.net/kolla-ansible/+bug/1832979,2019-11-11
+1837274,1837274,Fix Released,Fluentd stops working on Ubuntu deploys,https://bugs.launchpad.net/kolla-ansible/+bug/1837274,2019-11-11
+1838259,1838259,Fix Released,double slash in path,https://bugs.launchpad.net/kolla-ansible/+bug/1838259,2019-11-11
+1839149,1839149,Fix Released,monasca thresh fills filesystem,https://bugs.launchpad.net/kolla-ansible/+bug/1839149,2019-11-11
+1838624,1838624,Fix Released,Cinder-backup iscsi lvm backend,https://bugs.launchpad.net/kolla-ansible/+bug/1838624,2019-11-11
+1826327,1826327,Fix Released,fetch_ceph_keys.py uses insecure sha1 function,https://bugs.launchpad.net/kolla-ansible/+bug/1826327,2019-11-11
+1826327,1826327,Fix Released,fetch_ceph_keys.py uses insecure sha1 function,https://bugs.launchpad.net/kolla/+bug/1826327,2019-11-11
+1839165,1839165,Fix Released,neutron-bgp-dragent is missing ryu,https://bugs.launchpad.net/kolla-ansible/+bug/1839165,2019-11-11
+1838719,1838719,Fix Released,Horizon wsgi should select python_path for python3,https://bugs.launchpad.net/kolla-ansible/+bug/1838719,2019-11-11
+1838985,1838985,Fix Released,"Micsonfiguration of Barbican, Ceilometer, and Nova oslo_messaging sections",https://bugs.launchpad.net/kolla-ansible/+bug/1838985,2019-11-11
+1840315,1840315,Fix Released,Configure docker for Zun,https://bugs.launchpad.net/kolla-ansible/+bug/1840315,2019-11-11
+1840572,1840572,Fix Released,Zun tries to reach itself and Cinder via the public endpoint,https://bugs.launchpad.net/kolla-ansible/+bug/1840572,2019-11-11
+1803029,1803029,Fix Released,horizon loads wrong local_settings.py file in ubuntu-binary-rocky deployment,https://bugs.launchpad.net/kolla-ansible/+bug/1803029,2019-11-11
+1803029,1803029,Fix Released,horizon loads wrong local_settings.py file in ubuntu-binary-rocky deployment,https://bugs.launchpad.net/kolla/+bug/1803029,2019-11-11
+1841073,1841073,Fix Released,Baremetal role should not reference service groups,https://bugs.launchpad.net/kolla-ansible/+bug/1841073,2019-11-11
+1841243,1841243,Fix Released,Zun possibly advertises wrong IP address for WS,https://bugs.launchpad.net/kolla-ansible/+bug/1841243,2019-11-11
+1841908,1841908,Fix Released,Ironic socat consoles listen on external api address,https://bugs.launchpad.net/kolla-ansible/+bug/1841908,2019-11-11
+1841914,1841914,Fix Released,When using SSL nova serial console proxy uses an unsecure websocket,https://bugs.launchpad.net/kolla-ansible/+bug/1841914,2019-11-11
+1842078,1842078,Fix Released,$net_default_ip in ansible/roles/ironic/templates/ironic_pxe_uefi.default.j2 breaks ironic standalone uefi deployment,https://bugs.launchpad.net/kolla-ansible/+bug/1842078,2019-11-11
+1843067,1843067,Fix Released,Ironic configuration uses options which have been removed or deprecated,https://bugs.launchpad.net/kolla-ansible/+bug/1843067,2019-11-11
+1843070,1843070,Fix Released,Ironic configuration is missing [nova] section,https://bugs.launchpad.net/kolla-ansible/+bug/1843070,2019-11-11
+1843235,1843235,Fix Released,Support nova_compute_ironic deployment without nova-api,https://bugs.launchpad.net/kolla-ansible/+bug/1843235,2019-11-11
+1841175,1841175,Fix Committed,enable_neutron_provider_networks doesn't exist in globals.yml,https://bugs.launchpad.net/kolla-ansible/+bug/1841175,2019-11-11
+1844016,1844016,Fix Released,horizon redirects to https by default,https://bugs.launchpad.net/kolla-ansible/+bug/1844016,2019-11-11
+1843518,1843518,Fix Released,openstack_release 'auto' makes invalid tagging for image,https://bugs.launchpad.net/kolla-ansible/+bug/1843518,2019-11-11
+1844752,1844752,Fix Released,Swift role does not deploy multi-policies ring files,https://bugs.launchpad.net/kolla-ansible/+bug/1844752,2019-11-11
+1845258,1845258,Fix Released,Grafana deployment fails configuring prometheus as a data source,https://bugs.launchpad.net/kolla-ansible/+bug/1845258,2019-11-11
+1653987,1653987,Fix Released,openvswitch missing conntrack-tools,https://bugs.launchpad.net/kolla-ansible/+bug/1653987,2019-11-11
+1845681,1845681,Fix Released,kolla_toolbox module fails with docker 1.12.0 in master,https://bugs.launchpad.net/kolla-ansible/+bug/1845681,2019-11-11
+1760065,1760065,Fix Released,Ceph client.cinder insufficient privileges for blacklist op,https://bugs.launchpad.net/kolla-ansible/+bug/1760065,2019-11-11
+1837761,1837761,Fix Released,User should be able to choose RabbitMQ network partition policy,https://bugs.launchpad.net/kolla-ansible/+bug/1837761,2019-11-11
+1848933,1848933,Fix Released,deploy Zun with Cinder iSCSI support,https://bugs.launchpad.net/kolla-ansible/+bug/1848933,2019-11-11
+1840573,1840573,Fix Released,Zun - configure placement API endpoint in Train,https://bugs.launchpad.net/kolla-ansible/+bug/1840573,2019-11-11
+1849127,1849127,Fix Released,Encrypted cephx keyrings are not decrypted during key extraction,https://bugs.launchpad.net/kolla-ansible/+bug/1849127,2019-11-11
+1849691,1849691,Fix Released,kolla-ansible bootstrap-servers fails if docker_storage_driver is set,https://bugs.launchpad.net/kolla-ansible/+bug/1849691,2019-11-11
+1849943,1849943,Fix Released,kolla-ansible train fails with an unfriendly message when run not installed,https://bugs.launchpad.net/kolla-ansible/+bug/1849943,2019-11-11
+1839866,1839866,Fix Released,Ironic inspector fails on startup with AttributeError: StrictVersion instance has no attribute 'version',https://bugs.launchpad.net/kolla-ansible/+bug/1839866,2019-11-11
+1841967,1841967,Fix Released,ML2 mech driver sometimes receives network context without provider attributes in delete_network_postcommit,https://bugs.launchpad.net/neutron/+bug/1841967,2019-11-11
+1851525,1851525,Fix Released,Master promotions OVB overcloud deploy fails with: AttributeError: resources.NovaCompute: 'Client' object has no attribute 'list_extensions',https://bugs.launchpad.net/tripleo/+bug/1851525,2019-11-08
+1851417,1851417,Fix Released,Nova libvirt container fails to build on RHEL-8 because last dnf changes,https://bugs.launchpad.net/tripleo/+bug/1851417,2019-11-08
+1851754,1851754,Fix Released,OVB jobs are failing introspection in RDOcloud - bmc-template login errors,https://bugs.launchpad.net/tripleo/+bug/1851754,2019-11-08
+1413619,1413619,Fix Released,container sync gets stuck after deleting all objects,https://bugs.launchpad.net/swift/+bug/1413619,2019-11-08
+1850188,1850188,Fix Released,periodic container build (train) timing out,https://bugs.launchpad.net/tripleo/+bug/1850188,2019-11-07
+1597234,1597234,Fix Released,VM with encrypted volume goes to error state when hard reboot,https://bugs.launchpad.net/nova/+bug/1597234,2019-11-07
+1613770,1613770,Fix Released,Improve error log when instance snapshot fails,https://bugs.launchpad.net/nova/+bug/1613770,2019-11-07
+1685655,1685655,Fix Released,Share type is created with snapshot_support=True by default,https://bugs.launchpad.net/manila-ui/+bug/1685655,2019-11-06
+1677605,1677605,Fix Released,puppet-ceph isn't handling dev by id so ceph-disk parepare runs multiple times and fails,https://bugs.launchpad.net/puppet-ceph/+bug/1677605,2019-11-06
+1851426,1851426,Fix Released,gate jobs are failing on vexxhost - Could not find or access '/home/zuul/src/opendev.org/openstack/tripleo-ci/toci-quickstart/config/testenv/singlenode-vexxhost.yml',https://bugs.launchpad.net/tripleo/+bug/1851426,2019-11-06
+1747435,1747435,Fix Released,docker API return value type of wait() changed,https://bugs.launchpad.net/kolla-ansible/+bug/1747435,2019-11-06
+1761907,1761907,Fix Released,Deprecate auth_uri option,https://bugs.launchpad.net/kolla-ansible/+bug/1761907,2019-11-06
+1824982,1824982,Fix Released,Monasca invalid config for  log-transformer and log-persister,https://bugs.launchpad.net/kolla-ansible/+bug/1824982,2019-11-06
+1642940,1642940,Fix Released,"config global.yml to install lbaas plugin into neutron server,and it crash on bootstrap(upgrading neutron database)",https://bugs.launchpad.net/kolla/+bug/1642940,2019-11-06
+1799109,1799109,Fix Released,openstack command failed in kolla_toolbox container,https://bugs.launchpad.net/kolla/+bug/1799109,2019-11-06
+1769970,1769970,Fix Released,[horizon] Allow custom local settings to be applied,https://bugs.launchpad.net/kolla/+bug/1769970,2019-11-06
+1769970,1769970,Fix Released,[horizon] Allow custom local settings to be applied,https://bugs.launchpad.net/kolla-ansible/+bug/1769970,2019-11-06
+1716355,1716355,Fix Released,Horizon Zun HTTP exception with no status/code,https://bugs.launchpad.net/kolla/+bug/1716355,2019-11-06
+1773911,1773911,Fix Released,kolla-ansible is hanging on TASK [ceph : Looking up disks to bootstrap for Ceph OSDs],https://bugs.launchpad.net/kolla/+bug/1773911,2019-11-06
+1811020,1811020,Fix Released,Grafana image build failed,https://bugs.launchpad.net/kolla/+bug/1811020,2019-11-06
+1776461,1776461,Fix Released,kolla_toolbox misconfigured kolla_ansible_sudoers file,https://bugs.launchpad.net/kolla-ansible/+bug/1776461,2019-11-06
+1776461,1776461,Fix Released,kolla_toolbox misconfigured kolla_ansible_sudoers file,https://bugs.launchpad.net/kolla/+bug/1776461,2019-11-06
+1765657,1765657,Fix Released,Wrong Grafana Plugin gnocchi for PIKE,https://bugs.launchpad.net/kolla/+bug/1765657,2019-11-06
+1827412,1827412,Fix Released,Swift may quarantine all objects within a suffix if a single one is invalid,https://bugs.launchpad.net/swift/+bug/1827412,2019-11-06
+1837983,1837983,Fix Released,the url is error,https://bugs.launchpad.net/swift/+bug/1837983,2019-11-06
+1821681,1821681,Fix Released,Deploying osd will modify the crush map,https://bugs.launchpad.net/kolla-ansible/+bug/1821681,2019-11-06
+1824137,1824137,Fix Released,Horizon static asset compression failures ignored,https://bugs.launchpad.net/kolla/+bug/1824137,2019-11-06
+1824787,1824787,Fix Released,Disk not found causes ceph osd bootstrap to fail,https://bugs.launchpad.net/kolla/+bug/1824787,2019-11-06

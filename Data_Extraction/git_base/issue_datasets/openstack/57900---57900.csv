@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1445561,1445561,Fix Released,cinder scheduler fails to handle CONF.scheduler_max_attempts = 1,https://bugs.launchpad.net/cinder/+bug/1445561,2015-10-15
+1445137,1445137,Fix Released,iscsiadm log shows passwords,https://bugs.launchpad.net/cinder/+bug/1445137,2015-10-15
+1444517,1444517,Fix Released,NetApp FC driver shims missing manage/unmanage,https://bugs.launchpad.net/cinder/+bug/1444517,2015-10-15
+1442376,1442376,Fix Released,"VMAX: clone failed ""A configuration mismatch was detected among members of your META device(s)""",https://bugs.launchpad.net/cinder/+bug/1442376,2015-10-15
+1440154,1440154,Fix Released,VMAX: Failed clones do not result in created target vol(s) getting cleaned up,https://bugs.launchpad.net/cinder/+bug/1440154,2015-10-15
+1439531,1439531,Fix Released,Remove redundant logic on read-only volume in VNX Cinder Driver,https://bugs.launchpad.net/cinder/+bug/1439531,2015-10-15
+1439506,1439506,Fix Released,Fix issues with extra specs in the VMAX driver,https://bugs.launchpad.net/cinder/+bug/1439506,2015-10-15
+1436844,1436844,Fix Released,"VMware: Create volume fails with error ""DuplicateName: The name 'cinder-volumes' already exists.""",https://bugs.launchpad.net/cinder/+bug/1436844,2015-10-15
+1436675,1436675,Fix Released,CloudByte iSCSI driver fails to create a snapshot when snapshot name contains spaces,https://bugs.launchpad.net/cinder/+bug/1436675,2015-10-15
+1436594,1436594,Fix Released,brocade cli _ssh_execute does not scale for concurrent deployments,https://bugs.launchpad.net/cinder/+bug/1436594,2015-10-15
+1431256,1431256,Fix Released,Log messages are not translated using marker functions,https://bugs.launchpad.net/cinder/+bug/1431256,2015-10-15
+1425875,1425875,Fix Released,iscsi_ip_address is not used by lioadm iscsi_helper,https://bugs.launchpad.net/cinder/+bug/1425875,2015-10-15
+1420009,1420009,Fix Released,Unit tests for LIO and ISER target drivers are horribly written,https://bugs.launchpad.net/cinder/+bug/1420009,2015-10-15
+1293978,1293978,Fix Released,LVMVolumeDriver is missing *_export functions,https://bugs.launchpad.net/cinder/+bug/1293978,2015-10-15
+1467167,1467167,Fix Released,Can't delete backup: User does not have admin privileges,https://bugs.launchpad.net/cinder/+bug/1467167,2015-10-15
+1463580,1463580,Fix Released,If the database session is not disposed at volume start time unpredictable behavior can result,https://bugs.launchpad.net/cinder/+bug/1463580,2015-10-15
+1445409,1445409,Fix Released,IBM Storwize driver should only report active wwpn port,https://bugs.launchpad.net/cinder/+bug/1445409,2015-10-15
+1443331,1443331,Fix Released,Fix a wrong argument of create method in QoSSpecsController Class,https://bugs.launchpad.net/cinder/+bug/1443331,2015-10-15
+1432972,1432972,Fix Released,update quota failed with multi-value in one request,https://bugs.launchpad.net/cinder/+bug/1432972,2015-10-15
+1421492,1421492,Fix Released,admin extend tenant's volume but change admin self quota,https://bugs.launchpad.net/cinder/+bug/1421492,2015-10-15
+1416456,1416456,Fix Released,"VMware: volume create fails with ""VimFaultException: A specified parameter was not correct""",https://bugs.launchpad.net/cinder/+bug/1416456,2015-10-15
+1289931,1289931,Fix Released,Can't restore volume to a different type than the snapshot,https://bugs.launchpad.net/cinder/+bug/1289931,2015-10-15
+1278289,1278289,Fix Released,volume export functions not updated for migration,https://bugs.launchpad.net/cinder/+bug/1278289,2015-10-15
+1447380,1447380,Fix Released,wrong cinder.conf.sample generation: missing directives for keystone_authtoken (at least),https://bugs.launchpad.net/cinder/+bug/1447380,2015-10-15
+1447380,1447380,Fix Released,wrong cinder.conf.sample generation: missing directives for keystone_authtoken (at least),https://bugs.launchpad.net/nova/+bug/1447380,2015-10-15
+1497986,1497986,Fix Released,"Horizon ""django-admin make_web_conf --wsgi"" generates a wsgi which is not compatible with Django-1.7 or greater",https://bugs.launchpad.net/horizon/+bug/1497986,2015-10-15
+1497591,1497591,Fix Released,Heat environments can't be passed to the heat stack create form,https://bugs.launchpad.net/horizon/+bug/1497591,2015-10-15
+1497408,1497408,Fix Released,Facets disappear when fullTextSearch facet is removed,https://bugs.launchpad.net/horizon/+bug/1497408,2015-10-15
+1496417,1496417,Fix Released,Inline edit checkbox value does not match cell value,https://bugs.launchpad.net/horizon/+bug/1496417,2015-10-15
+1495968,1495968,Fix Released,FWaaS unit tests typo,https://bugs.launchpad.net/horizon/+bug/1495968,2015-10-15
+1495185,1495185,Fix Released,should fix all the network/router/subnet/port name_or_id,https://bugs.launchpad.net/horizon/+bug/1495185,2015-10-15
+1492281,1492281,Fix Released,VPNaaS and FWaaS delete actions need refactoring,https://bugs.launchpad.net/horizon/+bug/1492281,2015-10-15
+1482354,1482354,Fix Released,"Setting ""enable_quotas""=False disables Neutron in  GUI",https://bugs.launchpad.net/horizon/+bug/1482354,2015-10-15
+1495188,1495188,Fix Released,Load Balancer table Subnet row display the cidr not subnet name,https://bugs.launchpad.net/horizon/+bug/1495188,2015-10-15
+1491948,1491948,Fix Released,eslint fails due to missing newlines,https://bugs.launchpad.net/horizon/+bug/1491948,2015-10-15
+1479171,1479171,Fix Released,"Display the project name in user detail page corresponding to the ""Project ID""",https://bugs.launchpad.net/horizon/+bug/1479171,2015-10-15
+1445233,1445233,Fix Released,"[data processing] Add a ""swift"" toggle to the configure tab on Spark job launch",https://bugs.launchpad.net/horizon/+bug/1445233,2015-10-15
+1365359,1365359,Fix Released,Ability to disable more than one domain at a time,https://bugs.launchpad.net/horizon/+bug/1365359,2015-10-15
+1496679,1496679,Fix Released,Need to translate '-' for non-values in angular HTML,https://bugs.launchpad.net/horizon/+bug/1496679,2015-10-15
+1495642,1495642,Fix Released,Missing values from VPN Service details,https://bugs.launchpad.net/horizon/+bug/1495642,2015-10-15
+1494713,1494713,Fix Released,"""scss is misspelled as css"" in these scss files",https://bugs.launchpad.net/horizon/+bug/1494713,2015-10-15
+1494532,1494532,Fix Released,Magic Search filtering should provide default help content,https://bugs.launchpad.net/horizon/+bug/1494532,2015-10-15
+1493984,1493984,Fix Released,magic search css bug,https://bugs.launchpad.net/horizon/+bug/1493984,2015-10-15
+1493581,1493581,Fix Released,navigation checkmarks in safari display poorly,https://bugs.launchpad.net/horizon/+bug/1493581,2015-10-15
+1493354,1493354,Fix Released,Some angular unit tests use a wrong way of checking if an element exists,https://bugs.launchpad.net/horizon/+bug/1493354,2015-10-15
+1493252,1493252,Fix Released,Wording for Edit Instance/Security Groups is incorrect,https://bugs.launchpad.net/horizon/+bug/1493252,2015-10-15
+1492422,1492422,Fix Released,hz-magic-search-bar doesn't use a class,https://bugs.launchpad.net/horizon/+bug/1492422,2015-10-15
+1491469,1491469,Fix Released,Contributing doc needs updating,https://bugs.launchpad.net/horizon/+bug/1491469,2015-10-15
+1491401,1491401,Fix Released,awkward wording for shutdown an instance,https://bugs.launchpad.net/horizon/+bug/1491401,2015-10-15
+1491321,1491321,Fix Released,Address source selector visible even when no subnetpools available,https://bugs.launchpad.net/horizon/+bug/1491321,2015-10-15
+1490375,1490375,Fix Released,Volume Type Extra Specs cancel action redirect wrong url,https://bugs.launchpad.net/horizon/+bug/1490375,2015-10-15
+1487658,1487658,Fix Released,Modification on name repeated error message of admin create volume type,https://bugs.launchpad.net/horizon/+bug/1487658,2015-10-15
+1487582,1487582,Fix Released,Moving translation to HTML for launch-instance steps,https://bugs.launchpad.net/horizon/+bug/1487582,2015-10-15
+1484750,1484750,Fix Released,Unable to launch instance when there are two security groups with same name in a tenant (with Neutron back-end),https://bugs.launchpad.net/horizon/+bug/1484750,2015-10-15
+1484025,1484025,Fix Released,Hide 'Gateway IP' input when 'Disable Gateway' is checked,https://bugs.launchpad.net/horizon/+bug/1484025,2015-10-15
+1480343,1480343,Fix Released,"Swap field in ""Flavor create/update"" dialog shouldn't be mandatory",https://bugs.launchpad.net/horizon/+bug/1480343,2015-10-15
+1480264,1480264,Fix Released,Error message indents are different on login page,https://bugs.launchpad.net/horizon/+bug/1480264,2015-10-15
+1370206,1370206,Fix Released,Description text area should be fixed width,https://bugs.launchpad.net/horizon/+bug/1370206,2015-10-15
+1496080,1496080,Fix Released,Text in Usage.CSV not translated,https://bugs.launchpad.net/horizon/+bug/1496080,2015-10-15
+1493854,1493854,Fix Released,MANIFEST.in is outdated,https://bugs.launchpad.net/horizon/+bug/1493854,2015-10-15
+1493725,1493725,Fix Released,Add Interface in router panel has a bug,https://bugs.launchpad.net/horizon/+bug/1493725,2015-10-15
+1493426,1493426,Fix Released,Angular quota pie charts are broken after applying bp horizon-theme-css-reorg,https://bugs.launchpad.net/horizon/+bug/1493426,2015-10-15
+1492089,1492089,Fix Released,Add rule cancel action redirect to wrong url,https://bugs.launchpad.net/horizon/+bug/1492089,2015-10-15
+1492065,1492065,Fix Released,"Create instance testcase -- ""test_launch_form_keystone_exception"" broken",https://bugs.launchpad.net/horizon/+bug/1492065,2015-10-15
+1480301,1480301,Fix Released,[Sahara] is_proxy_gateway field remains unchanged after update,https://bugs.launchpad.net/horizon/+bug/1480301,2015-10-15
+1479018,1479018,Fix Released,get_panel_group error with enabled panel tests,https://bugs.launchpad.net/horizon/+bug/1479018,2015-10-15
+1443428,1443428,Fix Released,subnet create doesn't show message when network address is omitted,https://bugs.launchpad.net/horizon/+bug/1443428,2015-10-15
+1441794,1441794,Fix Released,Removing unused variables in javascripts,https://bugs.launchpad.net/horizon/+bug/1441794,2015-10-15
+1283148,1283148,Fix Released,add keypair config params for instance creation,https://bugs.launchpad.net/horizon/+bug/1283148,2015-10-15
+1497142,1497142,Fix Released,cinderclient traces in tests output,https://bugs.launchpad.net/horizon/+bug/1497142,2015-10-15
+1497029,1497029,Fix Released,newest horizon broken in compressed state,https://bugs.launchpad.net/horizon/+bug/1497029,2015-10-15
+1495815,1495815,Fix Released,"Hard to translate ""Displaying %s of %s items"" (cannot control the order of substitutions)",https://bugs.launchpad.net/horizon/+bug/1495815,2015-10-15
+1495634,1495634,Fix Released,[sahara] Cluster creation fails,https://bugs.launchpad.net/horizon/+bug/1495634,2015-10-15
+1495105,1495105,Fix Released,Admin user add DHCP agent failed when the network name is blank,https://bugs.launchpad.net/horizon/+bug/1495105,2015-10-15
+1494503,1494503,Fix Released,Launch Instance button does not open the corresponding workflow on network topology page,https://bugs.launchpad.net/horizon/+bug/1494503,2015-10-15

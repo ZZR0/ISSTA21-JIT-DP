@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1361797,1361797,Fix Released,unused code in pci_manager.get_instance_pci_devs(),https://bugs.launchpad.net/nova/+bug/1361797,2015-04-30
+1361490,1361490,Fix Released,param check for backup rotatetype is needed,https://bugs.launchpad.net/nova/+bug/1361490,2015-04-30
+1357263,1357263,Fix Released,Unhelpful error message when attempting to boot a guest with an invalid guestId,https://bugs.launchpad.net/nova/+bug/1357263,2015-04-30
+1350542,1350542,Fix Released,resource tracker reports negative value for free hard disk space,https://bugs.launchpad.net/nova/+bug/1350542,2015-04-30
+1334857,1334857,Fix Released,EC2 metadata retuns ip of instance and ip of nova-api service node,https://bugs.launchpad.net/nova/+bug/1334857,2015-04-30
+1326238,1326238,Fix Released,libvirt: use qdisk instead of blktap for Xen,https://bugs.launchpad.net/nova/+bug/1326238,2015-04-30
+1238910,1238910,Fix Released,nova boot operation with servers greater then 63 characters don't get DHCP address,https://bugs.launchpad.net/nova/+bug/1238910,2015-04-30
+1158552,1158552,Fix Released,network_rpcapi.allocate_for_instance timing out under load.,https://bugs.launchpad.net/nova/+bug/1158552,2015-04-30
+1370019,1370019,Fix Released,unshelve and resize instance unnecessarily logs ‘image not found’ error/warning messages,https://bugs.launchpad.net/nova/+bug/1370019,2015-04-30
+1347025,1347025,Fix Released,Iscsi connector always uses CONF.my_ip,https://bugs.launchpad.net/nova/+bug/1347025,2015-04-30
+1292644,1292644,Fix Released,nova.compute.api should return Objects,https://bugs.launchpad.net/nova/+bug/1292644,2015-04-30
+1279857,1279857,Fix Released,RFE: libguestfs logging should be connected up to openstack logging,https://bugs.launchpad.net/nova/+bug/1279857,2015-04-30
+1399546,1399546,Fix Released,confusing code snippet when registers all standard API extensions,https://bugs.launchpad.net/nova/+bug/1399546,2015-04-30
+1396703,1396703,Fix Released,NoSuchOptError: no such option in group database: backend,https://bugs.launchpad.net/nova/+bug/1396703,2015-04-30
+1394569,1394569,Fix Released,"KeyError ""extra_specs"" in _cold_migrate",https://bugs.launchpad.net/nova/+bug/1394569,2015-04-30
+1394215,1394215,Fix Released,Please document shelving in VM state diagram,https://bugs.launchpad.net/nova/+bug/1394215,2015-04-30
+1393491,1393491,Fix Released,_manual_join_columns should copy columns_to_join rather than mutate it,https://bugs.launchpad.net/nova/+bug/1393491,2015-04-30
+1391782,1391782,Fix Released,[database] section missing when generating nova.conf.sample,https://bugs.launchpad.net/nova/+bug/1391782,2015-04-30
+1385246,1385246,Fix Released,Catch specific exceptions for _get_instance_nw_info,https://bugs.launchpad.net/nova/+bug/1385246,2015-04-30
+1383617,1383617,Fix Released,"SAWarning contradiction IN-predicate on ""instances.uuid""",https://bugs.launchpad.net/nova/+bug/1383617,2015-04-30
+1382564,1382564,Fix Released,memcache servicegroup driver does not logs connection issues,https://bugs.launchpad.net/nova/+bug/1382564,2015-04-30
+1380456,1380456,Fix Released,Use 400 instead of 422 for security_groups v2 API,https://bugs.launchpad.net/nova/+bug/1380456,2015-04-30
+1378088,1378088,Fix Released,nova/tests/virt/vmwareapi/test_vmops:test_spawn_mask_block_device_info_password doesn't correctly assert password is scrubbed,https://bugs.launchpad.net/nova/+bug/1378088,2015-04-30
+1376363,1376363,Fix Released,test_live_migration_raises_unsupported_config_exception can fail if VIR_ERR_CONFIG_UNSUPPORTED is not in fakelibvirt,https://bugs.launchpad.net/nova/+bug/1376363,2015-04-30
+1374320,1374320,Fix Released,HTTPBadRequest returns to the client when creating a existing default rule,https://bugs.launchpad.net/nova/+bug/1374320,2015-04-30
+1374260,1374260,Fix Released,HTTPBadRequest is raised when creating floating_ip_bulk which already exists,https://bugs.launchpad.net/nova/+bug/1374260,2015-04-30
+1373761,1373761,Fix Released,Better error message for attach/detach interface failed,https://bugs.launchpad.net/nova/+bug/1373761,2015-04-30
+1373239,1373239,Fix Released,libvirt: custom video RAM setting in MB but libvirt xml is in blocks of 1024 bytes,https://bugs.launchpad.net/nova/+bug/1373239,2015-04-30
+1373238,1373238,Fix Released,load extension lead to error calling 'volumes': 'NoneType' object has no attribute 'controller' for v3 api,https://bugs.launchpad.net/nova/+bug/1373238,2015-04-30
+1372815,1372815,Fix Released,Hyper-V tries to logout from iSCSI targets in use,https://bugs.launchpad.net/nova/+bug/1372815,2015-04-30
+1372672,1372672,Fix Released,VMware: 'NoneType' object has no attribute 'keys' in the driver,https://bugs.launchpad.net/nova/+bug/1372672,2015-04-30
+1370184,1370184,Fix Released,Ironic driver states file out-of-date,https://bugs.launchpad.net/nova/+bug/1370184,2015-04-30
+1369696,1369696,Fix Released,quota_reserve headroom might be wrong if project_quotas != user_quotas,https://bugs.launchpad.net/nova/+bug/1369696,2015-04-30
+1369605,1369605,Fix Released,nova.db.sqlalchemy.api.quota_reserve is not very unit test-able,https://bugs.launchpad.net/nova/+bug/1369605,2015-04-30
+1368495,1368495,Fix Released,'type'/'mac_adrr' attribute of server's address field not converted to V2.1,https://bugs.launchpad.net/nova/+bug/1368495,2015-04-30
+1367964,1367964,Fix Released,Unable to recover from timeout of detaching cinder volume,https://bugs.launchpad.net/nova/+bug/1367964,2015-04-30
+1367845,1367845,Fix Released,Traceback is logged when delete an instance.,https://bugs.launchpad.net/nova/+bug/1367845,2015-04-30
+1366982,1366982,Fix Released,Exception NoMoreFixedIps doesn't show which network is out of IPs,https://bugs.launchpad.net/nova/+bug/1366982,2015-04-30
+1365228,1365228,Fix Released,Rename cli variable in ironic driver,https://bugs.launchpad.net/nova/+bug/1365228,2015-04-30
+1361419,1361419,Fix Released,Hyper-V driver should provide a more detailed exception in case block storage volumes cannot be mounted due to a invalid SAN policy,https://bugs.launchpad.net/nova/+bug/1361419,2015-04-30
+1360426,1360426,Fix Released,bulk floating ip extension is missing instance_uuid and fixed_ip,https://bugs.launchpad.net/nova/+bug/1360426,2015-04-30
+1356167,1356167,Fix Released,add monitoring on resume_instance,https://bugs.launchpad.net/nova/+bug/1356167,2015-04-30
+1343080,1343080,Fix Released,alternate link type in GET /images incorrectly includes the project/tenant in the URI,https://bugs.launchpad.net/nova/+bug/1343080,2015-04-30
+1324005,1324005,Fix Released,use real disk size to consider whether it's a resize down,https://bugs.launchpad.net/nova/+bug/1324005,2015-04-30
+1292733,1292733,Fix Released,Ironic: unplugging of instance VIFs fails if no VIFs associated with port,https://bugs.launchpad.net/nova/+bug/1292733,2015-04-30
+1279172,1279172,Fix Released,"Unicode encoding error exists in extended Nova API, when the data contain unicode",https://bugs.launchpad.net/nova/+bug/1279172,2015-04-30
+1278736,1278736,Fix Released,Strings passed to InvalidAggregateAction should be translated,https://bugs.launchpad.net/nova/+bug/1278736,2015-04-30
+1276203,1276203,Fix Released,Period task interval config values need to be consistent,https://bugs.launchpad.net/nova/+bug/1276203,2015-04-30
+1403564,1403564,Fix Released,nova.tests.unit.conductor.test_conductor._BaseTaskTestCase.test_build_instances_scheduler_failure is racy,https://bugs.launchpad.net/nova/+bug/1403564,2015-04-30
+1397549,1397549,Fix Released,Attaching volumes with CHAP authentication fails on Hyper-V,https://bugs.launchpad.net/nova/+bug/1397549,2015-04-30
+1396324,1396324,Fix Released,Instance object has no attribute get_flavor(),https://bugs.launchpad.net/nova/+bug/1396324,2015-04-30
+1390906,1390906,Fix Released,VMware: reading a file fails when using IPv6,https://bugs.launchpad.net/nova/+bug/1390906,2015-04-30
+1389102,1389102,Fix Released,Instance error message truncation error in non-English locale,https://bugs.launchpad.net/nova/+bug/1389102,2015-04-30
+1388386,1388386,Fix Released,libvirt: boot instance with utf-8 name results in UnicodeDecodeError,https://bugs.launchpad.net/nova/+bug/1388386,2015-04-30
+1386162,1386162,Fix Released,Nova libvirt driver does not bind emulator threads to host CPUs,https://bugs.launchpad.net/nova/+bug/1386162,2015-04-30
+1385308,1385308,Fix Released,Nova libvirt driver does not bind guest memory to NUMA nodes,https://bugs.launchpad.net/nova/+bug/1385308,2015-04-30
+1385225,1385225,Fix Released,"typo in the policy.json  ""rule_admin_api""",https://bugs.launchpad.net/nova/+bug/1385225,2015-04-30
+1382318,1382318,Fix Released,NoValidHost failure when trying to spawn instance with unicode name,https://bugs.launchpad.net/nova/+bug/1382318,2015-04-30
+1379451,1379451,Fix Released,anti-affinity policy only honored on boot,https://bugs.launchpad.net/nova/+bug/1379451,2015-04-30
+1403230,1403230,Fix Released,GET server API does not handle invalid sort keys or directions gracefully,https://bugs.launchpad.net/nova/+bug/1403230,2015-04-30
+1399817,1399817,Fix Released,403 Forbidden - Timestamp failed validation in EC2 unit tests,https://bugs.launchpad.net/nova/+bug/1399817,2015-04-30
+1398686,1398686,Fix Released,Some volume api related policy rule is not used by any code,https://bugs.launchpad.net/nova/+bug/1398686,2015-04-30
+1397882,1397882,Fix Released,api/test_auth.py:test_user_only.py and test_user_id_only.py,https://bugs.launchpad.net/nova/+bug/1397882,2015-04-30
+1397381,1397381,Fix Released,numa cell ids need to be normalized before creating  xml,https://bugs.launchpad.net/nova/+bug/1397381,2015-04-30
+1397247,1397247,Fix Released,test_notifications.py:test_send_on_vm_change,https://bugs.launchpad.net/nova/+bug/1397247,2015-04-30
+1394606,1394606,Fix Released,pylint job fails on the gate due to wrong parameters,https://bugs.launchpad.net/ceilometer/+bug/1394606,2015-04-30
+1394606,1394606,Fix Released,pylint job fails on the gate due to wrong parameters,https://bugs.launchpad.net/nova/+bug/1394606,2015-04-30
+1394052,1394052,Fix Released,Fix exception handling in _get_host_metrics(),https://bugs.launchpad.net/nova/+bug/1394052,2015-04-30
+1393135,1393135,Fix Released,Developer Docs: devref/rpc spelling mistakes,https://bugs.launchpad.net/nova/+bug/1393135,2015-04-30
+1392426,1392426,Fix Released,objects.BandwidthUsage.create does not honor the update_cells argument,https://bugs.launchpad.net/nova/+bug/1392426,2015-04-30
+1392423,1392423,Fix Released,BandwidthUsage.create() used incorrectly in _poll_bandwidth_usage,https://bugs.launchpad.net/nova/+bug/1392423,2015-04-30
+1389933,1389933,Fix Released,cell create api failed with string number,https://bugs.launchpad.net/nova/+bug/1389933,2015-04-30
+1389850,1389850,Fix Released,libvirt: Custom disk_bus setting is being lost when migration is reverted,https://bugs.launchpad.net/nova/+bug/1389850,2015-04-30
+1387901,1387901,Fix Released,Admin API os-instance_usage_audit_log is being tests as non-admin,https://bugs.launchpad.net/nova/+bug/1387901,2015-04-30
+1384637,1384637,Fix Released,Shelve_offload should support clean_shutdown,https://bugs.launchpad.net/nova/+bug/1384637,2015-04-30

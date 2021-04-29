@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1754144,1754144,Fix Released,OpenvSwitch run path not created,https://bugs.launchpad.net/openstack-ansible/+bug/1754144,2018-05-03
+1754139,1754139,Fix Released,openvswitch does not start on new AIO deployment,https://bugs.launchpad.net/openstack-ansible/+bug/1754139,2018-05-03
+1752073,1752073,Fix Released,Neutron firewall_v2 driver missing,https://bugs.launchpad.net/openstack-ansible/+bug/1752073,2018-05-03
+1723963,1723963,Fix Released,[gnocchi] ceph default pool name,https://bugs.launchpad.net/openstack-ansible/+bug/1723963,2018-05-03
+1748969,1748969,Fix Released,Cinder's logs are missing SELinux contexts,https://bugs.launchpad.net/openstack-ansible/+bug/1748969,2018-05-03
+1747610,1747610,Fix Released,os_aodh doesn't pass functional tests in Queens,https://bugs.launchpad.net/openstack-ansible/+bug/1747610,2018-05-03
+1755063,1755063,Fix Released,[CVE-2018-1000115] memcached: restrict to TCP,https://bugs.launchpad.net/openstack-ansible/+bug/1755063,2018-05-03
+1753454,1753454,Fix Released,openstack-ansible-lxc-overlayfs failures due to apparmor,https://bugs.launchpad.net/openstack-ansible/+bug/1753454,2018-05-03
+1750665,1750665,Fix Released,Galera installs on CentOS 7 are not using cache on repo server,https://bugs.launchpad.net/openstack-ansible/+bug/1750665,2018-05-03
+1739472,1739472,Fix Released,mariadb-client excluded in ocata centos7 deploy,https://bugs.launchpad.net/openstack-ansible/+bug/1739472,2018-05-03
+1745675,1745675,Fix Released,aide database file is missing,https://bugs.launchpad.net/openstack-ansible/+bug/1745675,2018-05-03
+1730998,1730998,Fix Released,ClamAV update fails if install forces update,https://bugs.launchpad.net/openstack-ansible/+bug/1730998,2018-05-03
+1604916,1604916,Fix Released,RFE: add a resource_class field to the node object,https://bugs.launchpad.net/ironic/+bug/1604916,2018-05-03
+1366168,1366168,Fix Released,delete private flavor will cause access problem with existed instance,https://bugs.launchpad.net/python-novaclient/+bug/1366168,2018-05-03
+1766784,1766784,Fix Released,[Pike Containers] Stalled ceph_install step leads to several issues,https://bugs.launchpad.net/tripleo/+bug/1766784,2018-05-03
+1759049,1759049,Fix Released,Neutron DHCP agent unable to read TLS key/certificate due to neutron UID mismatch,https://bugs.launchpad.net/tripleo/+bug/1759049,2018-05-03
+1620953,1620953,Fix Released,MTU settings for neutron,https://bugs.launchpad.net/openstack-ansible/+bug/1620953,2018-05-03
+1766949,1766949,Fix Released,Cisco VTS ML2 missing defaut ip,https://bugs.launchpad.net/tripleo/+bug/1766949,2018-05-02
+1745041,1745041,Fix Released,Missed renamed variable in list_orphans.py,https://bugs.launchpad.net/osops/+bug/1745041,2018-05-02
+1210719,1210719,Fix Released,horizon listen port should be configurable,https://bugs.launchpad.net/puppet-horizon/+bug/1210719,2018-05-02
+1651720,1651720,Fix Released,Setting root_url to '/' will break config files,https://bugs.launchpad.net/puppet-horizon/+bug/1651720,2018-05-02
+1767114,1767114,Fix Released,Remove deprecated parameters in horizon,https://bugs.launchpad.net/puppet-horizon/+bug/1767114,2018-05-02
+1749669,1749669,Fix Released,'attribute' and 'pool_id_attribute' scheduler filters are mutally exclusive,https://bugs.launchpad.net/designate/+bug/1749669,2018-05-02
+1696221,1696221,Fix Released,Unnecessary instance lazy-loads during rebuild,https://bugs.launchpad.net/nova/+bug/1696221,2018-05-02
+1680614,1680614,Fix Released,test_instance_get_all_by_host does not actually test instance_get_all_by_host,https://bugs.launchpad.net/nova/+bug/1680614,2018-05-02
+1680616,1680616,Fix Released,instance_get_all_by_host joins tables even if told not to,https://bugs.launchpad.net/nova/+bug/1680616,2018-05-02
+1693335,1693335,Fix Released,UUID case sensitivity causing unfriendly and unexpected API errors,https://bugs.launchpad.net/nova/+bug/1693335,2018-05-02
+1691274,1691274,Fix Released,Error on adding duplicated secgroup,https://bugs.launchpad.net/nova/+bug/1691274,2018-05-02
+1732316,1732316,Fix Released,ComputeManager._allocate_network should not call _update_resource_tracker,https://bugs.launchpad.net/nova/+bug/1732316,2018-05-02
+1713857,1713857,Fix Released,Soft-reboot fails after volume-update,https://bugs.launchpad.net/nova/+bug/1713857,2018-05-02
+1735430,1735430,Fix Released,Report client doesn't handle RP create conflict (409) properly,https://bugs.launchpad.net/nova/+bug/1735430,2018-05-02
+1736946,1736946,Fix Released,Conductor: fails to clean up networking resources due to _destroy_build_request CantStartEngineError,https://bugs.launchpad.net/nova/+bug/1736946,2018-05-02
+1737856,1737856,Fix Released,Listing instances with a marker doesn't nix the marker if it's found in build_requests,https://bugs.launchpad.net/nova/+bug/1737856,2018-05-02
+1737201,1737201,Fix Released,TypeError when sending notification during attach_interface,https://bugs.launchpad.net/nova/+bug/1737201,2018-05-02
+1724573,1724573,Fix Released,encrypted volumes are directly attached to instances after a compute host reboot,https://bugs.launchpad.net/nova/+bug/1724573,2018-05-02
+1739013,1739013,Fix Released,nova.tests.functional.test_server_group.ServerGroupTest*.test_evacuate_with_anti_affinity does not  validate that evacuation really happens,https://bugs.launchpad.net/nova/+bug/1739013,2018-05-02
+1744325,1744325,Fix Released,"If a rebuild is refused by the scheduler, the instance's imageref is not rolled back",https://bugs.launchpad.net/nova/+bug/1744325,2018-05-02
+1742962,1742962,Fix Released,nova functional test does not triggered on notification sample only changes,https://bugs.launchpad.net/nova/+bug/1742962,2018-05-02
+1746032,1746032,Fix Released,"By rebuilding twice with the same ""forbidden"" image one can circumvent scheduler rebuild restrictions",https://bugs.launchpad.net/nova/+bug/1746032,2018-05-02
+1745398,1745398,Fix Released,functional jobs frequently time out,https://bugs.launchpad.net/nova/+bug/1745398,2018-05-02
+1744361,1744361,Fix Released,"test_server_security_groups failed to reboot with ""Domain not found: no domain with matching uuid"" because of missing vif event from linuxbridge agent",https://bugs.launchpad.net/nova/+bug/1744361,2018-05-02
+1746531,1746531,Fix Released,nova-manage db archive_deleted_rows man page does not mention --until-complete option,https://bugs.launchpad.net/nova/+bug/1746531,2018-05-02
+1715569,1715569,Fix Released,Live migration fails with an attached non-bootable Cinder volume (Pike),https://bugs.launchpad.net/nova/+bug/1715569,2018-05-02
+1746483,1746483,Fix Released,Not able to boot from Volume / Volume snapshot when using isolated_images,https://bugs.launchpad.net/nova/+bug/1746483,2018-05-02
+1721179,1721179,Fix Released,A cell cannot be deleted once a host is added to the cell,https://bugs.launchpad.net/nova/+bug/1721179,2018-05-02
+1731986,1731986,Fix Released,nova snapshot_volume_backed failure does not thaw filesystems,https://bugs.launchpad.net/nova/+bug/1731986,2018-05-02
+1737207,1737207,Fix Released,Guest admin password and network information is logged at debug if libvirt.inject_partition != -2,https://bugs.launchpad.net/nova/+bug/1737207,2018-05-02
+1750618,1750618,Fix Released,rebuild to same host with a different image results in erroneously doing a Claim,https://bugs.launchpad.net/nova/+bug/1750618,2018-05-02
+1720726,1720726,Fix Released,Attach public network return 500,https://bugs.launchpad.net/nova/+bug/1720726,2018-05-02
+1718512,1718512,Fix Released,migration fails if instance build failed on destination host,https://bugs.launchpad.net/nova/+bug/1718512,2018-05-02
+1727855,1727855,Fix Released,conductor rebuild_instance does not properly handle image_ref if request_spec is not provided,https://bugs.launchpad.net/nova/+bug/1727855,2018-05-02
+1764489,1764489,Fix Released,Preallocated disks are deducted twice from disk_available_least when using preallocated_images = space,https://bugs.launchpad.net/nova/+bug/1764489,2018-05-02
+1729294,1729294,Fix Released,debug message not correct in inject_data,https://bugs.launchpad.net/nova/+bug/1729294,2018-05-02
+1627694,1627694,Fix Released,unshelving an instance doesn't rollback volumes connections on failure,https://bugs.launchpad.net/nova/+bug/1627694,2018-05-02
+1699469,1699469,Fix Released,Nova doesn't clean up all resources on vm boot failure,https://bugs.launchpad.net/nova/+bug/1699469,2018-05-02
+1633249,1633249,Fix Released,Boot volume creation failure leaves secondary volume attached to broken server,https://bugs.launchpad.net/nova/+bug/1633249,2018-05-02
+1753394,1753394,Fix Released,rbd volume disk device config has wrong scsi unit address since pike,https://bugs.launchpad.net/nova/+bug/1753394,2018-05-02
+1729584,1729584,Fix Released,boot from volume + configdrive with virtio-scsi broken (regression),https://bugs.launchpad.net/nova/+bug/1729584,2018-05-02
+1768083,1768083,Fix Released,dlrn_api client setup fails w/ setup_tools is too old,https://bugs.launchpad.net/tripleo/+bug/1768083,2018-05-01
+1762550,1762550,Fix Released,Support router HA for VXLAN GPE bound router ports,https://bugs.launchpad.net/networking-vpp/+bug/1762550,2018-05-01
+1761023,1761023,Fix Released,GPE stops working when the vpp-agent is restarted,https://bugs.launchpad.net/networking-vpp/+bug/1761023,2018-05-01
+1760726,1760726,Fix Released,vpp-agent crashes during GPE port binding,https://bugs.launchpad.net/networking-vpp/+bug/1760726,2018-05-01
+1708680,1708680,Fix Released,Drop support for Manila Generic driver,https://bugs.launchpad.net/tripleo/+bug/1708680,2018-05-01
+1744101,1744101,Fix Released,linuxbridge: vxlan interfaces doesn't get MTU,https://bugs.launchpad.net/neutron/+bug/1744101,2018-04-30
+1766257,1766257,Fix Released,api-ref: broken link to tasks admin doc,https://bugs.launchpad.net/glance/+bug/1766257,2018-04-30
+1627749,1627749,Fix Released,qos driver api can have better error handling,https://bugs.launchpad.net/neutron/+bug/1627749,2018-04-30
+1710865,1710865,Fix Released,fullsync: networking-odl fills neutron_server log with errors,https://bugs.launchpad.net/networking-odl/+bug/1710865,2018-04-30
+1764696,1764696,Fix Released,The string formatting in mistral.db.v2.sqlalchemy.api.update_on_match is invalid,https://bugs.launchpad.net/mistral/+bug/1764696,2018-04-30
+1764704,1764704,Fix Released,"""__task_execution"" of inbound task execution context is saved to DB",https://bugs.launchpad.net/mistral/+bug/1764704,2018-04-30
+1744962,1744962,Fix Released,Removed client calls need to be removed from mapping.json,https://bugs.launchpad.net/mistral/+bug/1744962,2018-04-30
+1762742,1762742,Fix Released,Some delegated tasks are failing when deployer is node part of a deployment (eg. controller node),https://bugs.launchpad.net/openstack-ansible/+bug/1762742,2018-04-30
+1727127,1727127,Fix Released,prepare_for_replace() is not protected by a lock,https://bugs.launchpad.net/heat/+bug/1727127,2018-04-30
+1741552,1741552,Fix Released,Not all attributes stored for SoftwareDeploymentGroup,https://bugs.launchpad.net/heat/+bug/1741552,2018-04-30
+1737047,1737047,Fix Released,Not all attributes stored for Heat AutoScalingGroup,https://bugs.launchpad.net/heat/+bug/1737047,2018-04-30
+1742185,1742185,Fix Released,Not all attributes stored for ResourceGroup & ResourceChain,https://bugs.launchpad.net/heat/+bug/1742185,2018-04-30

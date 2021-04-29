@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+801195,801195,Fix Released,Rescue OSAPI command fails,https://bugs.launchpad.net/nova/+bug/801195,2011-09-22
+816555,816555,Fix Released,Attach volume fails with NameError: global name 'vol' is not defined,https://bugs.launchpad.net/nova/+bug/816555,2011-09-22
+814889,814889,Fix Released,'Network' object has no attribute 'dns' - regression in rev.1306,https://bugs.launchpad.net/nova/+bug/814889,2011-09-22
+809593,809593,Fix Released,allocate_fixed_ip causes unexpected keyword argument 'vpn',https://bugs.launchpad.net/nova/+bug/809593,2011-09-22
+804134,804134,Fix Released,TopicPublisher shouldn't have auto_delete=True,https://bugs.launchpad.net/nova/+bug/804134,2011-09-22
+833856,833856,Fix Released,Cannot boot instance with metadata,https://bugs.launchpad.net/nova/+bug/833856,2011-09-22
+831627,831627,Fix Released,Nova-Manage: method calls with bad addresses fail to raise NotFound,https://bugs.launchpad.net/nova/+bug/831627,2011-09-22
+829512,829512,Fix Released,OSAPI: Tenants are not included in req URIs,https://bugs.launchpad.net/nova/+bug/829512,2011-09-22
+829026,829026,Fix Released,OSAPI: 500 error in PUT servers/id with accept: xml,https://bugs.launchpad.net/nova/+bug/829026,2011-09-22
+827078,827078,Fix Released,OSAPI /servers/detail missing flavor attribute,https://bugs.launchpad.net/nova/+bug/827078,2011-09-22
+826656,826656,Fix Released,incorrect list response structure for floating ips,https://bugs.launchpad.net/nova/+bug/826656,2011-09-22
+825288,825288,Fix Released,Kernel Panic when start instance in Xen Environment,https://bugs.launchpad.net/nova/+bug/825288,2011-09-22
+824967,824967,Fix Released,Parent instance is not bound to a Session; lazy load operation of attribute 'instance' cannot proceed,https://bugs.launchpad.net/nova/+bug/824967,2011-09-22
+824780,824780,Fix Released,Typo in update_service_capabilities: UnboundLocalError: local variable 'capability' referenced before assignment,https://bugs.launchpad.net/nova/+bug/824780,2011-09-22
+824745,824745,Fix Released,OSAPI flavorRef causes 500,https://bugs.launchpad.net/nova/+bug/824745,2011-09-22
+824601,824601,Fix Released,OSAPI v1.1 PUT /servers/<id> response incorrect,https://bugs.launchpad.net/nova/+bug/824601,2011-09-22
+824033,824033,Fix Released,SQLAlchemy w/ MySQL doesn't play nice with eventlet,https://bugs.launchpad.net/nova/+bug/824033,2011-09-22
+823676,823676,Fix Released,python-nova installs /usr/share/pyshared/run_tests.py,https://bugs.launchpad.net/nova/+bug/823676,2011-09-22
+823329,823329,Fix Released,OSAPI v1.1 instance metadata behaves incorrectly,https://bugs.launchpad.net/nova/+bug/823329,2011-09-22
+821720,821720,Fix Released,ZoneAwareScheduler can't build instances,https://bugs.launchpad.net/nova/+bug/821720,2011-09-22
+821622,821622,Fix Released,OS API actions call doesn't work when calling with UUID,https://bugs.launchpad.net/nova/+bug/821622,2011-09-22
+821469,821469,Fix Released,Glance Image Service does not support pagination,https://bugs.launchpad.net/nova/+bug/821469,2011-09-22
+821203,821203,Fix Released,dns-nameservers in injected interfaces file not formatted correctly,https://bugs.launchpad.net/nova/+bug/821203,2011-09-22
+821144,821144,Fix Released,finish_revert_resize being called with the wrong number of arguments,https://bugs.launchpad.net/nova/+bug/821144,2011-09-22
+821117,821117,Fix Released,nova-ajax-console-proxy fails to start,https://bugs.launchpad.net/nova/+bug/821117,2011-09-22
+821046,821046,Fix Released,Images with no guest agent aren't handled gracefully,https://bugs.launchpad.net/nova/+bug/821046,2011-09-22
+821044,821044,Fix Released,Zones no longer work with novaclient 2.6.0,https://bugs.launchpad.net/nova/+bug/821044,2011-09-22
+820987,820987,Fix Released,"confirm resize shuts down destination, not source",https://bugs.launchpad.net/nova/+bug/820987,2011-09-22
+820970,820970,Fix Released,Test DNS not present in vm_utils,https://bugs.launchpad.net/nova/+bug/820970,2011-09-22
+820437,820437,Fix Released,Error injecting networking: unbound local variable 'dns',https://bugs.launchpad.net/nova/+bug/820437,2011-09-22
+820094,820094,Fix Released,"Numerous OSAPI commands expect a body argument, but never use it",https://bugs.launchpad.net/nova/+bug/820094,2011-09-22
+820062,820062,Fix Released,No name 'image' in module 'nova.objectstore',https://bugs.launchpad.net/nova/+bug/820062,2011-09-22
+819970,819970,Fix Released,image 'progress' is incorrect,https://bugs.launchpad.net/nova/+bug/819970,2011-09-22
+819523,819523,Fix Released,Instance Migrate should be an admin only action,https://bugs.launchpad.net/nova/+bug/819523,2011-09-22
+818050,818050,Fix Released,flavorid vs instance_type id mismatch,https://bugs.launchpad.net/nova/+bug/818050,2011-09-22
+817771,817771,Fix Released,OSAPI poor error handling on server resize down,https://bugs.launchpad.net/nova/+bug/817771,2011-09-22
+817719,817719,Fix Released,"OSAPI server actions return code should be 400, not 501",https://bugs.launchpad.net/nova/+bug/817719,2011-09-22
+794635,794635,Fix Released,Allow option for durable RabbitMQ queues,https://bugs.launchpad.net/nova/+bug/794635,2011-09-22
+708754,708754,Fix Released,xenapi_image_service flag is redundant with image_service flag,https://bugs.launchpad.net/nova/+bug/708754,2011-09-22
+828907,828907,Fix Released,Distributed Scheduler docs need updating,https://bugs.launchpad.net/nova/+bug/828907,2011-09-22
+828207,828207,Fix Released,host API extension broken after recent changes,https://bugs.launchpad.net/nova/+bug/828207,2011-09-22
+827024,827024,Fix Released,exceptions get eaten during image register failures,https://bugs.launchpad.net/nova/+bug/827024,2011-09-22
+825074,825074,Fix Released,Release floating IP with OS API,https://bugs.launchpad.net/nova/+bug/825074,2011-09-22
+823520,823520,Fix Released,EC2 instance-type metadata returns SQLAlchemy object string,https://bugs.launchpad.net/nova/+bug/823520,2011-09-22
+821242,821242,Fix Released,test_004_can_access_metadata_over_public_ip fails intermittently,https://bugs.launchpad.net/nova/+bug/821242,2011-09-22
+820979,820979,Fix Released,OSAPI v1.0 image create POST should store instance_id,https://bugs.launchpad.net/nova/+bug/820979,2011-09-22
+820963,820963,Fix Released,The name 'action' is referenced before it is defined in xenapi_conn.py,https://bugs.launchpad.net/nova/+bug/820963,2011-09-22
+820000,820000,Fix Released,OSAPI v1.1 server snapshot action should limit image metadata per quota,https://bugs.launchpad.net/nova/+bug/820000,2011-09-22
+818210,818210,Fix Released,virtualenv failed to install because Twisted-10.0.0Nova.tar.gz missing,https://bugs.launchpad.net/nova/+bug/818210,2011-09-22
+817178,817178,Fix Released,it is possible to create networks with the same cidr even though logic exists to prevent it,https://bugs.launchpad.net/nova/+bug/817178,2011-09-22
+808406,808406,Fix Released,creating duplicate project causes unhandled error,https://bugs.launchpad.net/nova/+bug/808406,2011-09-22
+796742,796742,Fix Released,OSAPI 1.1: Create server instance response code does not match spec,https://bugs.launchpad.net/nova/+bug/796742,2011-09-22
+824043,824043,Fix Released,Scheduler clogs up logging with too much noise,https://bugs.launchpad.net/nova/+bug/824043,2011-09-22
+824034,824034,Fix Released,Validate size of vhd files in OVF containers,https://bugs.launchpad.net/nova/+bug/824034,2011-09-22
+822609,822609,Fix Released,--purge option of deleting flavor won't work.,https://bugs.launchpad.net/nova/+bug/822609,2011-09-22
+821708,821708,Fix Released,nova-manage image convert is broken,https://bugs.launchpad.net/nova/+bug/821708,2011-09-22
+821689,821689,Fix Released,Need ability to disable snapshots and backups at the API layer,https://bugs.launchpad.net/nova/+bug/821689,2011-09-22
+821202,821202,Fix Released,ResponseNotReady when uploading an image,https://bugs.launchpad.net/nova/+bug/821202,2011-09-22
+821093,821093,Fix Released,nova-dhcpbridge: hostname = argv[4] causes IndexError,https://bugs.launchpad.net/nova/+bug/821093,2011-09-22
+821048,821048,Fix Released,IndexError: Index out of range error is observed for creating multiple networks with CIDR_v6,https://bugs.launchpad.net/nova/+bug/821048,2011-09-22
+820619,820619,Fix Released,Floating IPs API extension should disassociate floating ips from fixed when deallocating from a project,https://bugs.launchpad.net/nova/+bug/820619,2011-09-22
+819397,819397,Fix Released,migrations/resize go through full create process,https://bugs.launchpad.net/nova/+bug/819397,2011-09-22
+817555,817555,Fix Released,Compute error reporting to Notification system fails on non-JSON serializable objects,https://bugs.launchpad.net/nova/+bug/817555,2011-09-22
+817525,817525,Fix Released,OSAPI: Versions Multiple Choice responses do not exist,https://bugs.launchpad.net/nova/+bug/817525,2011-09-22
+817523,817523,Fix Released,OSAPI: Version Detail requests do not exist as per the Spec,https://bugs.launchpad.net/nova/+bug/817523,2011-09-22
+817265,817265,Fix Released,resize exception on xenserver,https://bugs.launchpad.net/nova/+bug/817265,2011-09-22
+817082,817082,Fix Released,OSAPI v1.1 servers metadata does not match the spec,https://bugs.launchpad.net/nova/+bug/817082,2011-09-22
+817079,817079,Fix Released,OSAPI v1.1 image create should be a server action,https://bugs.launchpad.net/nova/+bug/817079,2011-09-22
+816713,816713,Fix Released,instance launching broken when using nova-api generated imageRefs through osapi,https://bugs.launchpad.net/nova/+bug/816713,2011-09-22
+816604,816604,Fix Released,OSAPI: created and updated for /servers have incorrect time format,https://bugs.launchpad.net/nova/+bug/816604,2011-09-22
+815957,815957,Fix Released,lazy load operation of attribute 'network' cannot proceed,https://bugs.launchpad.net/nova/+bug/815957,2011-09-22
+811248,811248,Fix Released,"update compute API to handle UUID's for rebuild, reboot, passwords...",https://bugs.launchpad.net/nova/+bug/811248,2011-09-22
+810364,810364,Fix Released,Error occures if try to get details of disassociated floating IP address,https://bugs.launchpad.net/nova/+bug/810364,2011-09-22
+809909,809909,Fix Released,Migrate of instance with no local storage fails with exception,https://bugs.launchpad.net/nova/+bug/809909,2011-09-22
+809570,809570,Fix Released,Migrate will change instance_type_id of instance,https://bugs.launchpad.net/nova/+bug/809570,2011-09-22

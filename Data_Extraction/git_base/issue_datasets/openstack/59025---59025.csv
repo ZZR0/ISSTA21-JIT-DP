@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1453915,1453915,Fix Released,incorrect cinder_catalog_info option in warning message,https://bugs.launchpad.net/nova/+bug/1453915,2015-10-15
+1453909,1453909,Fix Released,xenapi: BittorrentStore tries to load entry points that don't exist in tree,https://bugs.launchpad.net/nova/+bug/1453909,2015-10-15
+1453418,1453418,Fix Released,ebrctl should be in compute.filters,https://bugs.launchpad.net/nova/+bug/1453418,2015-10-15
+1452522,1452522,Fix Released,nova-api: remove unuseful expect error in v2.1 service delete method,https://bugs.launchpad.net/nova/+bug/1452522,2015-10-15
+1451801,1451801,Fix Released,Console tokens are not correctly cleaned when destroy instance from host,https://bugs.launchpad.net/nova/+bug/1451801,2015-10-15
+1451605,1451605,Fix Released,Ironic admin_auth_token option should be deprecated,https://bugs.launchpad.net/nova/+bug/1451605,2015-10-15
+1448015,1448015,Fix Released,Should skip weight calculation if only one host exists,https://bugs.launchpad.net/nova/+bug/1448015,2015-10-15
+1447946,1447946,Fix Released,nova report DeprecationWarning message when using exception.message,https://bugs.launchpad.net/nova/+bug/1447946,2015-10-15
+1444542,1444542,Fix Released,create a volume with invalid snapshot should report 404 instead of 500,https://bugs.launchpad.net/nova/+bug/1444542,2015-10-15
+1443868,1443868,Fix Released,"IncompatibleObjectVersion should also mention, the supported version",https://bugs.launchpad.net/nova/+bug/1443868,2015-10-15
+1439493,1439493,Fix Released,reboot-instances fails after nova-compute process reboot,https://bugs.launchpad.net/nova/+bug/1439493,2015-10-15
+1439067,1439067,Fix Released,use db retry decorator from oslo.db,https://bugs.launchpad.net/nova/+bug/1439067,2015-10-15
+1438027,1438027,Fix Released,backing file path isn't relative path for file-based volume drivers using qcow2 snapshots,https://bugs.launchpad.net/nova/+bug/1438027,2015-10-15
+1437790,1437790,Fix Released,vm stack in migration state when ssh is not configure correctly,https://bugs.launchpad.net/nova/+bug/1437790,2015-10-15
+1436986,1436986,Fix Released,PciDeviceStats not compared properly,https://bugs.launchpad.net/nova/+bug/1436986,2015-10-15
+1435803,1435803,Fix Released,Some compute manager tests take excessively long time to complete due to conductor timeouts,https://bugs.launchpad.net/nova/+bug/1435803,2015-10-15
+1435316,1435316,Fix Released,property vnc_keymap is not managed by vmware compute,https://bugs.launchpad.net/nova/+bug/1435316,2015-10-15
+1434429,1434429,Fix Released,libvirt: _compare_cpu doesn't consider NotSupportedError,https://bugs.launchpad.net/nova/+bug/1434429,2015-10-15
+1432101,1432101,Fix Released,non-admin user can't create network by os-tenant-network with nova-network vlanmanager,https://bugs.launchpad.net/nova/+bug/1432101,2015-10-15
+1430966,1430966,Fix Released,Image deletion causes instance hard-reboot failure,https://bugs.launchpad.net/nova/+bug/1430966,2015-10-15
+1430681,1430681,Fix Released,object value errors do not all indicate which field was involved,https://bugs.launchpad.net/nova/+bug/1430681,2015-10-15
+1429126,1429126,Fix Released,miss moving unlock_override policy enforcement into V2.1 REST API layer,https://bugs.launchpad.net/nova/+bug/1429126,2015-10-15
+1426867,1426867,Fix Released,"Remove orphaned tables: iscsi_targets, volumes",https://bugs.launchpad.net/nova/+bug/1426867,2015-10-15
+1426324,1426324,Fix Released,VFS blkid calls need to handle 0 or 2 return codes,https://bugs.launchpad.net/nova/+bug/1426324,2015-10-15
+1425486,1425486,Fix Released,"VMware: Detach volume fails with ""Unable to access the virtual machine configuration: Unable to access file""",https://bugs.launchpad.net/nova/+bug/1425486,2015-10-15
+1424968,1424968,Fix Released,unhandled return from linuxscsi.find_multipath_device in disconnect_volume,https://bugs.launchpad.net/nova/+bug/1424968,2015-10-15
+1422775,1422775,Fix Released,nova libvirt driver needs to check qemu support for NUMA & hugepages,https://bugs.launchpad.net/nova/+bug/1422775,2015-10-15
+1420848,1420848,Fix Released,"""down"" nova-compute service spuriously marked as ""up"" when disabled/enabled",https://bugs.launchpad.net/nova/+bug/1420848,2015-10-15
+1408859,1408859,Fix Released,Scheduler didn't release already allocated HostState resources after multiple creating instances fails,https://bugs.launchpad.net/nova/+bug/1408859,2015-10-15
+1390483,1390483,Fix Released,Clean up db.instance_get_all_by_host() in NOVA api,https://bugs.launchpad.net/nova/+bug/1390483,2015-10-15
+1364851,1364851,Fix Released,CONF.allow_migrate_to_same_host  doesn't work,https://bugs.launchpad.net/nova/+bug/1364851,2015-10-15
+1340068,1340068,Fix Released,Useless option mute_weight_value,https://bugs.launchpad.net/nova/+bug/1340068,2015-10-15
+1279719,1279719,Fix Released,Fail to createVM with extra_spec using ComputeCapabilitiesFilter,https://bugs.launchpad.net/nova/+bug/1279719,2015-10-15
+1465799,1465799,Fix Released,Instance object always re-saves flavor info,https://bugs.launchpad.net/nova/+bug/1465799,2015-10-15
+1464381,1464381,Fix Released,can't get instances from different tenants even if policy.json is set properly for that,https://bugs.launchpad.net/nova/+bug/1464381,2015-10-15
+1461665,1461665,Fix Released,nova.tests.unit.db.test_db_api sets up quotas incorrectly,https://bugs.launchpad.net/nova/+bug/1461665,2015-10-15
+1460673,1460673,Fix Released,nova-manage flavor convert fails if instance has no flavor in sys_meta,https://bugs.launchpad.net/nova/+bug/1460673,2015-10-15
+1460206,1460206,Fix Released,gate-nova-python34 fails to install rfc3986 due to UnicodeDecodeError,https://bugs.launchpad.net/nova/+bug/1460206,2015-10-15
+1460176,1460176,Fix Released,Reschedules sometimes do not allocate networks,https://bugs.launchpad.net/nova/+bug/1460176,2015-10-15
+1460079,1460079,Fix Released,Instance system metadata is sometimes overwritten by image metadata,https://bugs.launchpad.net/nova/+bug/1460079,2015-10-15
+1459758,1459758,Fix Released,inline flavor migration fails with pre-kilo instances,https://bugs.launchpad.net/nova/+bug/1459758,2015-10-15
+1463918,1463918,Fix Released,nova.scheduler.filters.utils is tested in two separate files,https://bugs.launchpad.net/nova/+bug/1463918,2015-10-15
+1455000,1455000,Fix Released,"Ironic: ""nova delete"" doesn't work when instance is spawning",https://bugs.launchpad.net/nova/+bug/1455000,2015-10-15
+1454839,1454839,Fix Released,cells: error if deleting an instance while host is being set,https://bugs.launchpad.net/nova/+bug/1454839,2015-10-15
+1453857,1453857,Fix Released,5/11 gate-nova-pip-missing-reqs failing on master,https://bugs.launchpad.net/nova/+bug/1453857,2015-10-15
+1453835,1453835,Fix Released,Hyper-V: Nova cold resize / migration fails,https://bugs.launchpad.net/nova/+bug/1453835,2015-10-15
+1452143,1452143,Fix Released,nova-idmapshift is missing its rootwrap filter,https://bugs.launchpad.net/nova/+bug/1452143,2015-10-15
+1447884,1447884,Fix Released,"Boot from volume, block device allocate timeout cause VM error, but volume would be available later",https://bugs.launchpad.net/nova/+bug/1447884,2015-10-15
+1447653,1447653,Fix Released,x509 keypair cannot be created if the given subject is too long,https://bugs.launchpad.net/nova/+bug/1447653,2015-10-15
+1447642,1447642,Fix Released,Ironic: Driver should validate the node's properties,https://bugs.launchpad.net/nova/+bug/1447642,2015-10-15
+1447249,1447249,Fix Released,Ironic: injected files not passed through to configdrive,https://bugs.launchpad.net/nova/+bug/1447249,2015-10-15
+1445675,1445675,Fix Released,missing index on virtual_interfaces can cause long queries that can cause timeouts in launching instances,https://bugs.launchpad.net/nova/+bug/1445675,2015-10-15
+1444497,1444497,Fix Released,Instance doesn't get an address via DHCP (nova-network) because of issue with live migration,https://bugs.launchpad.net/nova/+bug/1444497,2015-10-15
+1443970,1443970,Fix Released,nova-manage create networks with wrong dhcp_server in DB(nova),https://bugs.launchpad.net/nova/+bug/1443970,2015-10-15
+1443697,1443697,Fix Released,VMware: resize always fails for image with capacity larger than 1 GB,https://bugs.launchpad.net/nova/+bug/1443697,2015-10-15
+1441169,1441169,Fix Released,can't schedule vm with numa topology and pci device,https://bugs.launchpad.net/nova/+bug/1441169,2015-10-15
+1436462,1436462,Fix Released,VMware: no validations for CPU levels,https://bugs.launchpad.net/nova/+bug/1436462,2015-10-15
+1427056,1427056,Fix Released,shelved_image_id is deleted before completing unshelving instance on compute node,https://bugs.launchpad.net/nova/+bug/1427056,2015-10-15
+1385468,1385468,Fix Released,Cells assumes 1:1 compute-service:compute-node mapping,https://bugs.launchpad.net/nova/+bug/1385468,2015-10-15
+1257674,1257674,Fix Released,Inject keypair or others failed when using rbd backend and CONF.force_config_drive is false,https://bugs.launchpad.net/nova/+bug/1257674,2015-10-15
+1468087,1468087,Fix Released,py27 job failing on test_save_objectfield_missing_instance_row,https://bugs.launchpad.net/nova/+bug/1468087,2015-10-15
+1465927,1465927,Fix Released,varible'version' is undefine in function'_has_cpu_policy_support',https://bugs.launchpad.net/nova/+bug/1465927,2015-10-15
+1465344,1465344,Fix Released,TestObjEqualPrims.test_object_not_equal is failing,https://bugs.launchpad.net/nova/+bug/1465344,2015-10-15
+1463039,1463039,Fix Released,BandwidthUsage object has no attribute 'instance_uuid',https://bugs.launchpad.net/nova/+bug/1463039,2015-10-15
+1462851,1462851,Fix Released,invalid event status None,https://bugs.launchpad.net/nova/+bug/1462851,2015-10-15
+1462374,1462374,Fix Released,Ironic: Unavailable nodes may be scheduled to,https://bugs.launchpad.net/nova/+bug/1462374,2015-10-15
+1456771,1456771,Fix Released,Failure prepping block device in the gate,https://bugs.launchpad.net/nova/+bug/1456771,2015-10-15
+1453666,1453666,Fix Released,libvirt: guestfs api makes nova-compute hang,https://bugs.launchpad.net/nova/+bug/1453666,2015-10-15
+1451834,1451834,Fix Released,VMware: unable to boot an instance with NFS 4.1,https://bugs.launchpad.net/nova/+bug/1451834,2015-10-15
+1447132,1447132,Fix Released,nova-manage db migrate_flavor_data doesn't do instances not in instance_extra,https://bugs.launchpad.net/nova/+bug/1447132,2015-10-15
+1447084,1447084,Fix Released,view hypervisor details should be controlled by policy.json,https://bugs.launchpad.net/nova/+bug/1447084,2015-10-15
+1445335,1445335,Fix Released,create/delete flavor permissions should be controlled by policy.json,https://bugs.launchpad.net/nova/+bug/1445335,2015-10-15
+1445040,1445040,Fix Released,InstancePCIRequests.obj_from_db fails to get requests from db,https://bugs.launchpad.net/nova/+bug/1445040,2015-10-15
+1444745,1444745,Fix Released,Updates RPC version alias for kilo,https://bugs.launchpad.net/nova/+bug/1444745,2015-10-15
+1444728,1444728,Fix Released,KeyError: 'uuid' trace in n-cpu logs when logging with instance=instance kwarg,https://bugs.launchpad.net/nova/+bug/1444728,2015-10-15

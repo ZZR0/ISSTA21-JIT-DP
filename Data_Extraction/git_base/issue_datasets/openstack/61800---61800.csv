@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1463337,1463337,Fix Released,Mirrors for Fuel 7.0,https://bugs.launchpad.net/fuel/+bug/1463337,2015-08-11
+1482659,1482659,Fix Released,VNC console to instance doesn't work if network role 'nova/api' is moved out of management network,https://bugs.launchpad.net/fuel/+bug/1482659,2015-08-11
+1478858,1478858,Fix Released,[library] Moving of MySQL network role away from management network causes deployment failure,https://bugs.launchpad.net/fuel/+bug/1478858,2015-08-11
+1420257,1420257,Fix Released,Server for Patching demo,https://bugs.launchpad.net/fuel/+bug/1420257,2015-08-11
+1474040,1474040,Fix Released,[fuel-devops] master doesn't pass ci,https://bugs.launchpad.net/fuel/+bug/1474040,2015-08-11
+1477537,1477537,Fix Released,IBP: refactor out udev blacklisting from do_partitioning to utils,https://bugs.launchpad.net/fuel/+bug/1477537,2015-08-11
+1454366,1454366,Fix Released,try_lazy_umount=False by default in fuel_agent,https://bugs.launchpad.net/fuel/+bug/1454366,2015-08-11
+1445400,1445400,Fix Released,tests for mount_target and umount_target in fuel_agent,https://bugs.launchpad.net/fuel/+bug/1445400,2015-08-11
+1452158,1452158,Fix Released,More tests for fuel_agent.utils.grub_utils,https://bugs.launchpad.net/fuel/+bug/1452158,2015-08-11
+1463102,1463102,Fix Released,405 is being returned by the api when it should be 404,https://bugs.launchpad.net/gnocchi/+bug/1463102,2015-08-11
+1450093,1450093,Fix Released,"GET /v1/resource/instance/some_existing_id/metric is a 404, should it list available metrics?",https://bugs.launchpad.net/gnocchi/+bug/1450093,2015-08-11
+1424627,1424627,Fix Released,"/v1 returns 404, should maybe be json links",https://bugs.launchpad.net/gnocchi/+bug/1424627,2015-08-11
+1472546,1472546,Fix Released,devstack: GNOCCHI_USE_MOD_WSGI no longer work by default,https://bugs.launchpad.net/gnocchi/+bug/1472546,2015-08-11
+1450109,1450109,Fix Released,posting to a /v1/metric/<id> or /v1/resource/<id>/metric/<name> is a 404 when it should be 405,https://bugs.launchpad.net/gnocchi/+bug/1450109,2015-08-11
+1447669,1447669,Fix Released,the project long description is pretty much non-existent,https://bugs.launchpad.net/gnocchi/+bug/1447669,2015-08-11
+1476186,1476186,Fix Released,Enhance 404 reported when we post measurements,https://bugs.launchpad.net/gnocchi/+bug/1476186,2015-08-11
+1474996,1474996,Fix Released,gnocchi-metricd pretty hard to kill,https://bugs.launchpad.net/gnocchi/+bug/1474996,2015-08-11
+1475684,1475684,Fix Released,File exists error when posting metric,https://bugs.launchpad.net/gnocchi/+bug/1475684,2015-08-11
+1475329,1475329,Fix Released,Exception in gnocchi-metricd: ValueError: cannot reindex from a duplicate axis,https://bugs.launchpad.net/gnocchi/+bug/1475329,2015-08-11
+1439358,1439358,Fix Released,trying to delete an archive policy being used by a metric causes a TRACE log from sqla,https://bugs.launchpad.net/gnocchi/+bug/1439358,2015-08-11
+1470940,1470940,Fix Released,missing session in some tests,https://bugs.launchpad.net/gnocchi/+bug/1470940,2015-08-11
+1470787,1470787,Fix Released,gnocchi-metricd fails to start,https://bugs.launchpad.net/gnocchi/+bug/1470787,2015-08-11
+1449452,1449452,Fix Released,posting measures sometimes fail,https://bugs.launchpad.net/gnocchi/+bug/1449452,2015-08-11
+1382092,1382092,Fix Released,On Ubuntu / Debian in OpenStack High Availability Guide  - current,https://bugs.launchpad.net/openstack-manuals/+bug/1382092,2015-08-11
+1480169,1480169,Fix Released,Unable to change offloading modes for bond interface,https://bugs.launchpad.net/fuel/+bug/1480169,2015-08-11
+1160850,1160850,Fix Released,ec2 (DescribeKeyPairs) does not supports filtering by fingerprint,https://bugs.launchpad.net/ec2-api/+bug/1160850,2015-08-11
+1477164,1477164,Fix Released,typo in training guides,https://bugs.launchpad.net/openstack-manuals/+bug/1477164,2015-08-11
+1457589,1457589,Fix Released,Align with VLAN aware VM design,https://bugs.launchpad.net/networking-ovn/+bug/1457589,2015-08-11
+1162845,1162845,Fix Released,"""Too many connections"" with MySQL + sql token driver + v3 auth",https://bugs.launchpad.net/keystone/+bug/1162845,2015-08-11
+1483292,1483292,Fix Released,"Security Groups in OpenStack Operations Guide, port_range_max and ICMP",https://bugs.launchpad.net/openstack-manuals/+bug/1483292,2015-08-11
+1483230,1483230,Fix Released,Too many arguments for format string,https://bugs.launchpad.net/tempest/+bug/1483230,2015-08-11
+1440463,1440463,Fix Released,ceilometer should not require tenant id when request to keystone v3 api,https://bugs.launchpad.net/python-ceilometerclient/+bug/1440463,2015-08-10
+1481014,1481014,Fix Released,CSV writer fails to handle unicode strings,https://bugs.launchpad.net/python-cliff/+bug/1481014,2015-08-10
+1462192,1462192,Fix Released,suggest commands if command is not recognized,https://bugs.launchpad.net/python-cliff/+bug/1462192,2015-08-10
+1444983,1444983,Fix Released,-h and --help revert to top level help when used in a subcommand,https://bugs.launchpad.net/python-cliff/+bug/1444983,2015-08-10
+1475543,1475543,Fix Released,[Fuel Community Catalog] Wrong versions specified for plugins,https://bugs.launchpad.net/fuel/+bug/1475543,2015-08-10
+1482654,1482654,Fix Released,Unresolved var in separate_horizon_service system test,https://bugs.launchpad.net/fuel/+bug/1482654,2015-08-10
+1481475,1481475,Fix Released,Incorrect call argument,https://bugs.launchpad.net/fuel/+bug/1481475,2015-08-10
+1480147,1480147,Fix Released,Add ping attempts to jumbo_frames tests,https://bugs.launchpad.net/fuel/+bug/1480147,2015-08-10
+1406161,1406161,Fix Released,boot from fcsan volume live migration caused bdm table lost connection_info value,https://bugs.launchpad.net/nova/+bug/1406161,2015-08-10
+1455676,1455676,Fix Released,Chapter 6. Identity - Future Section,https://bugs.launchpad.net/openstack-manuals/+bug/1455676,2015-08-10
+1477687,1477687,Fix Released,Disable Unattended Upgrades,https://bugs.launchpad.net/openstack-ansible/+bug/1477687,2015-08-10
+1475727,1475727,Fix Released,Document where to continue from run-upgrade.sh failures,https://bugs.launchpad.net/openstack-ansible/+bug/1475727,2015-08-10
+1473462,1473462,Fix Released,Gate script conditional for DEPLOY_CEILOMETER is wrong,https://bugs.launchpad.net/openstack-ansible/+bug/1473462,2015-08-10
+1477081,1477081,Fix Released,glance_nfs_client adding additional mount points,https://bugs.launchpad.net/openstack-ansible/+bug/1477081,2015-08-10
+1480471,1480471,Fix Released,Update links that point to other documentation guides,https://bugs.launchpad.net/openstack-manuals/+bug/1480471,2015-08-10
+1478178,1478178,Fix Released,MongoDB can't connect to server on AIO installation,https://bugs.launchpad.net/openstack-ansible/+bug/1478178,2015-08-10
+1477864,1477864,Fix Released,Broken layout of Target Node control on Vmware tab,https://bugs.launchpad.net/fuel/+bug/1477864,2015-08-10
+1398288,1398288,Fix Released,GET servers API sorting REST API updates,https://bugs.launchpad.net/openstack-api-site/+bug/1398288,2015-08-10
+1478960,1478960,Fix Released,Node panel icons need inscriptions/titles/tooltips,https://bugs.launchpad.net/fuel/+bug/1478960,2015-08-10
+1479414,1479414,Fix Released,[SSL]Http link to horizon is shown on ready cluster with enabled ssl feature,https://bugs.launchpad.net/fuel/+bug/1479414,2015-08-10
+1479748,1479748,Fix Released,Breadcrumbs wrong determine current page,https://bugs.launchpad.net/fuel/+bug/1479748,2015-08-10
+1477074,1477074,Fix Committed,storm-supervisor unable to restart,https://bugs.launchpad.net/monasca/+bug/1477074,2015-08-10
+1480364,1480364,Fix Released,Infinite progress bar on Dashboard tab has invalid layout,https://bugs.launchpad.net/fuel/+bug/1480364,2015-08-10
+1480954,1480954,Fix Released,Incorrect warning when deleting deployed node,https://bugs.launchpad.net/fuel/+bug/1480954,2015-08-10
+1480956,1480956,Fix Released,Deployment alerts are shown too close to deployment recommendations,https://bugs.launchpad.net/fuel/+bug/1480956,2015-08-10
+1474037,1474037,Fix Released,Plugins list incorrectly display missing Homepage,https://bugs.launchpad.net/fuel/+bug/1474037,2015-08-10
+1481535,1481535,Fix Released,when SSL for openstack public endpoints is enabled fuel link is to horizon on http,https://bugs.launchpad.net/fuel/+bug/1481535,2015-08-10
+1481724,1481724,Fix Released,In Delete and Reset environment confirmation dialogs block of text is invisible,https://bugs.launchpad.net/fuel/+bug/1481724,2015-08-10
+1481807,1481807,Fix Released,Unexpected change of sorting on Edit Roles screen,https://bugs.launchpad.net/fuel/+bug/1481807,2015-08-10
+1482262,1482262,Fix Released,Discard Addition button broken in node extended panel,https://bugs.launchpad.net/fuel/+bug/1482262,2015-08-10
+1482605,1482605,Fix Released,Broken layout of controls on Settings tab,https://bugs.launchpad.net/fuel/+bug/1482605,2015-08-10
+1477152,1477152,Fix Released,Deployment has failed after version change to Kilo,https://bugs.launchpad.net/fuel/+bug/1477152,2015-08-10
+1481635,1481635,Fix Released,tempest.conf.sample is not in etc now.,https://bugs.launchpad.net/tempest/+bug/1481635,2015-08-10
+1475335,1475335,Fix Released,"Environment provisioning fails, can't create boot image: 'Command: debootstrap --verbose --no-check-gpg --arch=amd64 trusty /tmp/tmpCVnqMk.fuel-agent-image http://mirror-pkgs.vm.mirantis.net/pkgs/ubuntu-2015-07-15-170127/' returns 1",https://bugs.launchpad.net/fuel/+bug/1475335,2015-08-10
+1481256,1481256,Fix Released,publish stackforge/fuel-specs on specs.fuel-infra.org,https://bugs.launchpad.net/fuel/+bug/1481256,2015-08-10
+1482570,1482570,Fix Released,please remove branch 1.0 from fuel-plugin-zabbix-snmptrapd repository,https://bugs.launchpad.net/fuel/+bug/1482570,2015-08-10
+1479550,1479550,Fix Released,Fuel CI does not publish filtered.log generated by fuel_log on system test failure,https://bugs.launchpad.net/fuel/+bug/1479550,2015-08-10
+1479770,1479770,Fix Released,"When Sahara starts to work, there is a weird trace in Sahara logs",https://bugs.launchpad.net/fuel/+bug/1479770,2015-08-10
+1477508,1477508,Fix Released,Ceilometer service in Keystone is created even though Ceilometer is not installed,https://bugs.launchpad.net/fuel/+bug/1477508,2015-08-10
+1480202,1480202,Fix Released,Most of swarm tests with Nova network failed on task globals.pp,https://bugs.launchpad.net/fuel/+bug/1480202,2015-08-10
+1470548,1470548,Fix Released,Puppetize publisher node of Perestroika.,https://bugs.launchpad.net/fuel/+bug/1470548,2015-08-10
+1478947,1478947,Fix Released,Fix dependencies for package 'zuul'.,https://bugs.launchpad.net/fuel/+bug/1478947,2015-08-10
+1472240,1472240,Fix Released,Create package 'zuul' for uging it inside internal resources.,https://bugs.launchpad.net/fuel/+bug/1472240,2015-08-10
+1481740,1481740,Fix Released,[Fuel ci] ha_neutron_vlan test has been removed,https://bugs.launchpad.net/fuel/+bug/1481740,2015-08-10

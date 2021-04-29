@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1636829,1636829,Fix Released,Conflict between flat network and DNAT app,https://bugs.launchpad.net/dragonflow/+bug/1636829,2020-06-23
+1651643,1651643,Fix Released,metadata service cannot start due to zmq binding conflict,https://bugs.launchpad.net/dragonflow/+bug/1651643,2020-06-23
+1627229,1627229,Fix Released,duplicated df db connection config,https://bugs.launchpad.net/dragonflow/+bug/1627229,2020-06-23
+1720734,1720734,Fix Released,Floating IP association to LBaaS VIP supported by Octavia does not work,https://bugs.launchpad.net/dragonflow/+bug/1720734,2020-06-23
+1738620,1738620,Fix Released,tempest gate errors due to FloatingIP name,https://bugs.launchpad.net/dragonflow/+bug/1738620,2020-06-23
+1722839,1722839,Fix Released,"df-controller.service start failed,due to OVS database connection to Open_vSwitch fail",https://bugs.launchpad.net/dragonflow/+bug/1722839,2020-06-23
+1836187,1836187,Fix Released,Tempest tests passing wrong request body to compute action API.,https://bugs.launchpad.net/tempest/+bug/1836187,2020-06-22
+1884523,1884523,Fix Released,HeatStacks.create_and_delete_stack failed with template server-with-volume,https://bugs.launchpad.net/rally/+bug/1884523,2020-06-22
+1883913,1883913,Fix Released,"Introspection fails in OVB, bmc error: openstackbmc: struct.error: unpack requires a string argument of length 2",https://bugs.launchpad.net/tripleo/+bug/1883913,2020-06-22
+1422575,1422575,Fix Released,Add missing test case for os-volume-attachment-update api,https://bugs.launchpad.net/tempest/+bug/1422575,2020-06-22
+1713163,1713163,Fix Released,test_delete_saving_image fails because image hasn't transitioned to SAVING,https://bugs.launchpad.net/tempest/+bug/1713163,2020-06-22
+1875432,1875432,Fix Released,PowerMAX Driver - Live migration fails when an instance has more than one replication device,https://bugs.launchpad.net/cinder/+bug/1875432,2020-06-21
+1875640,1875640,Fix Released,PowerMax Driver - Failover lock not released during U4P failover during exception,https://bugs.launchpad.net/cinder/+bug/1875640,2020-06-21
+1828437,1828437,Fix Committed,Remove unneeded compatibility conversions,https://bugs.launchpad.net/neutron/+bug/1828437,2020-06-21
+1872553,1872553,Fix Released,fallocate_reserve is still broken on py3,https://bugs.launchpad.net/swift/+bug/1872553,2020-06-21
+1844368,1844368,Fix Released,fallocate_reserve cannot be specified as a percentage running under python3,https://bugs.launchpad.net/swift/+bug/1844368,2020-06-21
+1877445,1877445,Fix Released,pure storage cinder driver doesn't handle synchronous replication CIDR filters properly,https://bugs.launchpad.net/cinder/+bug/1877445,2020-06-20
+1626101,1626101,Fix Released,Option to run live migration tests in a specific availability zone,https://bugs.launchpad.net/tempest/+bug/1626101,2020-06-20
+1274545,1274545,Fix Released,Add scenario tests for live migration in tempest,https://bugs.launchpad.net/tempest/+bug/1274545,2020-06-20
+1787872,1787872,Fix Released,Edit Image dialog contains truncated description text,https://bugs.launchpad.net/horizon/+bug/1787872,2020-06-20
+1875478,1875478,Fix Released,PowerMax Driver - Concurrent live migrations failure,https://bugs.launchpad.net/cinder/+bug/1875478,2020-06-20
+1883095,1883095,Fix Released,"[neutron-tempest-plugin] ""wait_for_interface_status"" only retrieves the Nova server information, not the VM network",https://bugs.launchpad.net/neutron/+bug/1883095,2020-06-20
+1884138,1884138,Fix Released,tripleoclient fails to build on delorean: ModuleNotFoundError: No module named 'tripleo_common.actions.config',https://bugs.launchpad.net/tripleo/+bug/1884138,2020-06-19
+1861510,1861510,Fix Released,[OVN] GW rescheduling mechanism is triggered on every Chassis updated unnecessarily,https://bugs.launchpad.net/neutron/+bug/1861510,2020-06-19
+1813551,1813551,Fix Released,[OVN]Missing ingress QoS in OVN,https://bugs.launchpad.net/neutron/+bug/1813551,2020-06-19
+1869389,1869389,Fix Released,[OVN] SRIOV (external) ports flapping,https://bugs.launchpad.net/neutron/+bug/1869389,2020-06-19
+1880976,1880976,Fix Released,"[tempest] Error in ""test_reuse_ip_address_with_other_fip_on_other_router"" with duplicated floating IP",https://bugs.launchpad.net/neutron/+bug/1880976,2020-06-19
+1874295,1874295,Fix Released,s3api needs to check whether versioning is enabled in more places,https://bugs.launchpad.net/swift/+bug/1874295,2020-06-19
+1877924,1877924,Fix Released,object-updater should be more tolerant of already-removed async pendings,https://bugs.launchpad.net/swift/+bug/1877924,2020-06-19
+1878056,1878056,Fix Released,object-updater should shuffle work before making requests,https://bugs.launchpad.net/swift/+bug/1878056,2020-06-19
+1880013,1880013,Fix Released,ACLs and container tempurls don't work with x-versions-enable: true,https://bugs.launchpad.net/swift/+bug/1880013,2020-06-19
+1834097,1834097,Fix Released,container-sharder has no latch when reporting stats,https://bugs.launchpad.net/swift/+bug/1834097,2020-06-19
+1881210,1881210,Fix Released,Shard DBs should not get created in response to an object update,https://bugs.launchpad.net/swift/+bug/1881210,2020-06-19
+1875736,1875736,Fix Released,swift-get-nodes doesn't handle blank args well,https://bugs.launchpad.net/swift/+bug/1875736,2020-06-19
+1875735,1875735,Fix Released,swift-get-nodes can display ambiguous account/container/object names,https://bugs.launchpad.net/swift/+bug/1875735,2020-06-19
+1875734,1875734,Fix Released,swift-get-nodes cannot be used with %00versions containers,https://bugs.launchpad.net/swift/+bug/1875734,2020-06-19
+1883211,1883211,Fix Released,get_container_info 503s shouldn't try to clear memcache,https://bugs.launchpad.net/swift/+bug/1883211,2020-06-19
+1874416,1874416,Fix Released,watcher strategy workload_stabilization cannot print log normally,https://bugs.launchpad.net/watcher/+bug/1874416,2020-06-19
+1877827,1877827,Fix Released,DB replicators should allow fractions of a db per second,https://bugs.launchpad.net/swift/+bug/1877827,2020-06-19
+1882072,1882072,Fix Released,Quality of Service (QoS) in neutron,https://bugs.launchpad.net/neutron/+bug/1882072,2020-06-19
+1879716,1879716,Fix Released,Policy is not enforced for network mtu config,https://bugs.launchpad.net/neutron/+bug/1879716,2020-06-19
+1864588,1864588,Fix Released,Cpu model is not correct on Aarch64/Qemu/Custom mode,https://bugs.launchpad.net/nova/+bug/1864588,2020-06-18
+1883946,1883946,Fix Released,tripleo-ansible zuul checks require virtualenv on CentOS 8,https://bugs.launchpad.net/tripleo/+bug/1883946,2020-06-18
+1881112,1881112,Fix Released,services table is not cleaned up after host rename,https://bugs.launchpad.net/manila/+bug/1881112,2020-06-18
+1880851,1880851,Fix Released,Script is hanging when ansible task failed,https://bugs.launchpad.net/tripleo/+bug/1880851,2020-06-18
+1639662,1639662,Fix Released,Share service VM system to restart stuck,https://bugs.launchpad.net/manila/+bug/1639662,2020-06-18
+1883909,1883909,Fix Released,Failed to find required executable virtualenv in paths: /home/zuul/.local/bin:/home/zuul/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin,https://bugs.launchpad.net/tripleo/+bug/1883909,2020-06-18
+1785657,1785657,Fix Released,Denial of service through YAML anchors expansion (Billion Laughs),https://bugs.launchpad.net/mistral/+bug/1785657,2020-06-18
+1883937,1883937,Fix Released,"Container(s) with bad ExitCode: [''mysql_init_bundle''],   Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock'",https://bugs.launchpad.net/tripleo/+bug/1883937,2020-06-18
+1872753,1872753,Fix Released,Updating EC2 credential blob can lead to a ec2 credential id / credential id mismatch,https://bugs.launchpad.net/keystone/+bug/1872753,2020-06-18
+1883689,1883689,Fix Released,"The error was: error while evaluating conditional ((wait_for_all_osds_up.stdout | from_json)[\""osdmap\""][\""num_osds\""] | int > 0): ''dict object'' has no attribute ''num_osds''""}' failing cpeh integration jobs while standalone deployment sc001 and 004 on ussuri",https://bugs.launchpad.net/tripleo/+bug/1883689,2020-06-18
+1881584,1881584,Fix Released,SC10 train periodic job  failing on LoadBalancerScenarioTest consistently,https://bugs.launchpad.net/tripleo/+bug/1881584,2020-06-18
+1883715,1883715,Fix Released,Manila API fails to initialize uwsgi,https://bugs.launchpad.net/manila/+bug/1883715,2020-06-17
+1882116,1882116,Fix Released,404: test_create_group_from_group_snapshot when deleteting group,https://bugs.launchpad.net/tempest/+bug/1882116,2020-06-17
+1883699,1883699,Fix Released,"sudo dnf update -y --exclude '*openvswitch*', fails on providers and dpdk w/",https://bugs.launchpad.net/tripleo/+bug/1883699,2020-06-17
+1883722,1883722,Fix Released,some template validations  are skipped with python 3.8,https://bugs.launchpad.net/tripleo/+bug/1883722,2020-06-17
+1747687,1747687,Fix Released,Please provide original js files,https://bugs.launchpad.net/heat-dashboard/+bug/1747687,2020-06-17
+1835299,1835299,Fix Committed,Architecture documents are out of date,https://bugs.launchpad.net/keystone/+bug/1835299,2020-06-17
+1374663,1374663,Fix Released,[SRU] agent/linux/ip_lib.py does not correctly handle output from 'iproute2' command,https://bugs.launchpad.net/neutron/+bug/1374663,2020-06-17
+1794991,1794991,Fix Released,Inconsistent flows with DVR l2pop VxLAN on br-tun,https://bugs.launchpad.net/neutron/+bug/1794991,2020-06-16
+1881456,1881456,Fix Released,rally verify start convert keys and values to lowercase,https://bugs.launchpad.net/rally/+bug/1881456,2020-06-16
+1799384,1799384,Fix Committed,cache guide is out of date,https://bugs.launchpad.net/keystone/+bug/1799384,2020-06-16
+1843925,1843925,Fix Released,Keystone's policy enforcer breaks oslopolicy-list-redundant,https://bugs.launchpad.net/keystone/+bug/1843925,2020-06-16
+1883064,1883064,Fix Released,Could not fetch contents for file:///tmp/tripleoclient-qhLLCI/tripleo-heat-templates/docker/ceilometer-agent-compute.yaml,https://bugs.launchpad.net/tripleo/+bug/1883064,2020-06-16
+1875176,1875176,Fix Released,scaleio driver support is outdated,https://bugs.launchpad.net/puppet-cinder/+bug/1875176,2020-06-16
+1875176,1875176,Fix Released,scaleio driver support is outdated,https://bugs.launchpad.net/tripleo/+bug/1875176,2020-06-16
+1859145,1859145,Fix Released,MariaDB deployment does not respect quorum and may break cluster,https://bugs.launchpad.net/kolla-ansible/+bug/1859145,2020-06-15
+1857908,1857908,Fix Released,New MariaDB instance deployment fails due to missing container or possibly breaks the cluster,https://bugs.launchpad.net/kolla-ansible/+bug/1857908,2020-06-15
+1857368,1857368,Fix Released,Cyborg unavailable for Ubuntu,https://bugs.launchpad.net/kolla/+bug/1857368,2020-06-15
+1857368,1857368,Fix Released,Cyborg unavailable for Ubuntu,https://bugs.launchpad.net/kolla-ansible/+bug/1857368,2020-06-15
+1880956,1880956,Fix Released,minion uses the wrong password for notify messaging access,https://bugs.launchpad.net/tripleo/+bug/1880956,2020-06-15
+1798054,1798054,Fix Released,Solidfire driver fails on  image conversion exception,https://bugs.launchpad.net/cinder/+bug/1798054,2020-06-15
+1742029,1742029,Fix Released,nova compute inject password failed,https://bugs.launchpad.net/kolla-ansible/+bug/1742029,2020-06-15
+1820989,1820989,Fix Released,octavia-api container crash,https://bugs.launchpad.net/kolla/+bug/1820989,2020-06-15
+1827146,1827146,Fix Released,kolla-build uses wrong oslo_config type for --docker-dir  cmd option,https://bugs.launchpad.net/kolla/+bug/1827146,2020-06-15

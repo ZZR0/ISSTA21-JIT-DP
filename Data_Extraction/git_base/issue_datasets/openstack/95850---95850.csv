@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+903405,903405,Fix Released,ec2 metadata service extremely unreliable (sometimes),https://bugs.launchpad.net/nova/+bug/903405,2012-04-05
+870491,870491,Fix Released,XenAPI doesn't clean up failed build's VHDs,https://bugs.launchpad.net/nova/+bug/870491,2012-04-05
+851315,851315,Fix Released,Unrescue causes 'Device in use' when trying to unplug VBD devices,https://bugs.launchpad.net/nova/+bug/851315,2012-04-05
+851159,851159,Fix Released,ec2 metadata service is very slow,https://bugs.launchpad.net/nova/+bug/851159,2012-04-05
+953410,953410,Fix Released,libvirt get_console_output requires python 2.7 xml module,https://bugs.launchpad.net/nova/+bug/953410,2012-04-05
+950440,950440,Fix Released,ERROR nova.rpc.amqp [-] Exception during message handling,https://bugs.launchpad.net/nova/+bug/950440,2012-04-05
+939060,939060,Fix Released,live migrations do not update dnsmasq entries or setup networking on destination node when using multi_host,https://bugs.launchpad.net/nova/+bug/939060,2012-04-05
+942893,942893,Fix Released,Unable to start nova-compute in a fresh XenServer environment.,https://bugs.launchpad.net/nova/+bug/942893,2012-04-05
+942549,942549,Fix Released,nova-api returns 500 if an aggregate is created in a non existent availability zone,https://bugs.launchpad.net/nova/+bug/942549,2012-04-05
+940941,940941,Fix Released,spawning of instance failed during network setup: error in method hydrate in nova/network/model.py,https://bugs.launchpad.net/nova/+bug/940941,2012-04-05
+940734,940734,Fix Released,deprecated auth missing import,https://bugs.launchpad.net/nova/+bug/940734,2012-04-05
+940407,940407,Fix Released,TestMigrations does not work with latest migrate and sqlaclhemy,https://bugs.launchpad.net/nova/+bug/940407,2012-04-05
+940069,940069,Fix Released,Bandwidth polling floods the network manager,https://bugs.launchpad.net/nova/+bug/940069,2012-04-05
+939916,939916,Fix Released,OSError Invalid cross-device link during resize,https://bugs.launchpad.net/nova/+bug/939916,2012-04-05
+939480,939480,Fix Released,network manager specific flags in vmwareapi readme need to be updated,https://bugs.launchpad.net/nova/+bug/939480,2012-04-05
+939254,939254,Fix Released,No test coverage for libvirt vif plugging,https://bugs.launchpad.net/nova/+bug/939254,2012-04-05
+939252,939252,Fix Released,libvirt OVS vif-plugging broken on Red Hat / Fedora,https://bugs.launchpad.net/nova/+bug/939252,2012-04-05
+938876,938876,Fix Released,SolidFire ISCSI Driver is not populating the Lun field on volume creation,https://bugs.launchpad.net/nova/+bug/938876,2012-04-05
+938702,938702,Fix Released,"""nova-manage fixed list"" no longer works",https://bugs.launchpad.net/nova/+bug/938702,2012-04-05
+938375,938375,Fix Released,enabling the keystone shim causes memcache error on account creation,https://bugs.launchpad.net/nova/+bug/938375,2012-04-05
+938194,938194,Fix Released,flavors.create extension returns 500 for duplicated flavor,https://bugs.launchpad.net/nova/+bug/938194,2012-04-05
+938114,938114,Fix Released,Openstack API returns unicode Location Header,https://bugs.launchpad.net/nova/+bug/938114,2012-04-05
+937463,937463,Fix Released,Use of Deprecated md5 library,https://bugs.launchpad.net/nova/+bug/937463,2012-04-05
+936797,936797,Fix Released,os-networks index fails with quantum,https://bugs.launchpad.net/nova/+bug/936797,2012-04-05
+935744,935744,Fix Released,lxc containers and xen does not support usb tablets.,https://bugs.launchpad.net/nova/+bug/935744,2012-04-05
+934566,934566,Fix Released,Typo in verify_base_images,https://bugs.launchpad.net/nova/+bug/934566,2012-04-05
+934539,934539,Fix Released,Traceback running instance-usage-audit,https://bugs.launchpad.net/nova/+bug/934539,2012-04-05
+934534,934534,Fix Released,"metadata ami-launch-index always returning ""1""",https://bugs.launchpad.net/nova/+bug/934534,2012-04-05
+934356,934356,Fix Released,"get_instance_uuids_by_ip_filter is slow, making ec2 metadata slow",https://bugs.launchpad.net/nova/+bug/934356,2012-04-05
+933785,933785,Fix Released,"security_group name is an XML element when creating a server, an attribute everywhere else",https://bugs.launchpad.net/nova/+bug/933785,2012-04-05
+933620,933620,Fix Released,Error during ComputeManager._poll_bandwidth_usage,https://bugs.launchpad.net/nova/+bug/933620,2012-04-05
+826794,826794,Fix Released,"inject_data disables routine filesystem checks in ext2, ext3, ext4 filesystems",https://bugs.launchpad.net/nova/+bug/826794,2012-04-05
+805695,805695,Fix Released,Running nova-manage as the correct user is awkward,https://bugs.launchpad.net/nova/+bug/805695,2012-04-05
+754950,754950,Fix Released,"When files are injected into a disk image, they should have a comment e.g. ""Injected during boot by the OpenStack cloud""",https://bugs.launchpad.net/nova/+bug/754950,2012-04-05
+741972,741972,Fix Released,OpenStack API returning blank endpoints,https://bugs.launchpad.net/nova/+bug/741972,2012-04-05
+739601,739601,Fix Released,Instance files should be tombstoned and cleaned up later instead of immediately deleted,https://bugs.launchpad.net/nova/+bug/739601,2012-04-05
+943006,943006,Fix Released,volumes api should return ids as strings,https://bugs.launchpad.net/nova/+bug/943006,2012-04-05
+941591,941591,Fix Released,libvirt unrescue doesn't cleanup rescue images,https://bugs.launchpad.net/nova/+bug/941591,2012-04-05
+939531,939531,Fix Released,[Nova-manage] please give a nicer failure message,https://bugs.launchpad.net/nova/+bug/939531,2012-04-05
+934478,934478,Fix Released,security_group controllers uses inheritance and thus have 'extra' methods in odd places,https://bugs.launchpad.net/nova/+bug/934478,2012-04-05
+932071,932071,Fix Released,nova-manage floating list returns error if no floating IPs,https://bugs.launchpad.net/nova/+bug/932071,2012-04-05
+931516,931516,Fix Released,API Extensions documentation not building correctly,https://bugs.launchpad.net/nova/+bug/931516,2012-04-05
+930513,930513,Fix Released,Flags default uses google's DNS,https://bugs.launchpad.net/nova/+bug/930513,2012-04-05
+929369,929369,Fix Released,run_tests.sh fix,https://bugs.launchpad.net/nova/+bug/929369,2012-04-05
+928976,928976,Fix Released,pep8 check on api-paste.ini when using devstack,https://bugs.launchpad.net/nova/+bug/928976,2012-04-05
+928954,928954,Fix Released,ServerStartStop extension has no alias,https://bugs.launchpad.net/nova/+bug/928954,2012-04-05
+926250,926250,Fix Released,ApiError should be limited to EC2 API responses,https://bugs.launchpad.net/nova/+bug/926250,2012-04-05
+925891,925891,Fix Released,test_virt_drivers will not run alone,https://bugs.launchpad.net/nova/+bug/925891,2012-04-05
+925823,925823,Fix Released,allow instance_types / volume_types / flavors to be deleted and created without purge option,https://bugs.launchpad.net/nova/+bug/925823,2012-04-05
+925644,925644,Fix Released,Novaclient bash-completion is polluting homedir with dotfiles,https://bugs.launchpad.net/nova/+bug/925644,2012-04-05
+925102,925102,Fix Released,DRYup compute and volume APIRouters,https://bugs.launchpad.net/nova/+bug/925102,2012-04-05
+924417,924417,Fix Released,Cannot suspend instance as regular user,https://bugs.launchpad.net/nova/+bug/924417,2012-04-05
+924371,924371,Fix Released,Incorrect flavor ref is returned briefly after a resize is reverted,https://bugs.launchpad.net/nova/+bug/924371,2012-04-05
+923475,923475,Fix Released,novaclient: type object 'datetime.datetime' has no attribute 'tomorrow',https://bugs.launchpad.net/nova/+bug/923475,2012-04-05
+923218,923218,Fix Released,admin GET on /servers should NOT return servers for all tenants,https://bugs.launchpad.net/nova/+bug/923218,2012-04-05
+922047,922047,Fix Released,"little bug in usage information of ""nova keypair-add""",https://bugs.launchpad.net/nova/+bug/922047,2012-04-05
+920588,920588,Fix Released,XenAPI get_all_bw_usage using name-label to ingore control domain,https://bugs.launchpad.net/nova/+bug/920588,2012-04-05
+918958,918958,Fix Released,Race condition causes servers to be undeletable stay in rebuild state.,https://bugs.launchpad.net/nova/+bug/918958,2012-04-05
+916219,916219,Fix Released,"Per-userness of ""nova list"" is confused",https://bugs.launchpad.net/nova/+bug/916219,2012-04-05
+915108,915108,Fix Released,sm volume driver: sm_backend_conf_update fails,https://bugs.launchpad.net/nova/+bug/915108,2012-04-05
+912066,912066,Fix Released,/etc/fstab contains incorrect device for swap partition when no ephemeral disk present.,https://bugs.launchpad.net/nova/+bug/912066,2012-04-05
+910193,910193,Fix Released,No documentation on how to configure ratelimit middleware,https://bugs.launchpad.net/nova/+bug/910193,2012-04-05
+910193,910193,Fix Released,No documentation on how to configure ratelimit middleware,https://bugs.launchpad.net/openstack-manuals/+bug/910193,2012-04-05
+909207,909207,Fix Released,Nova API doesn't return instance security groups,https://bugs.launchpad.net/nova/+bug/909207,2012-04-05
+906346,906346,Fix Released,a mistake in nova/utils.py/vpn_ping,https://bugs.launchpad.net/nova/+bug/906346,2012-04-05
+904792,904792,Fix Released,Cleanup on nova-manage commands,https://bugs.launchpad.net/nova/+bug/904792,2012-04-05
+904792,904792,Fix Released,Cleanup on nova-manage commands,https://bugs.launchpad.net/openstack-manuals/+bug/904792,2012-04-05
+902395,902395,Fix Released,500 error on invalid pubkey  with KeyPair API,https://bugs.launchpad.net/nova/+bug/902395,2012-04-05
+902162,902162,Fix Released,500 error with duplicate key pairs,https://bugs.launchpad.net/nova/+bug/902162,2012-04-05
+900924,900924,Fix Released,500 Error on DELETE key pair with invalid keypair name,https://bugs.launchpad.net/nova/+bug/900924,2012-04-05
+889196,889196,Fix Released,XenAPI driver leaks VDI when image includes swap.vhd,https://bugs.launchpad.net/nova/+bug/889196,2012-04-05
+888102,888102,Fix Released,"In RST docs, some module names now missing a dot",https://bugs.launchpad.net/nova/+bug/888102,2012-04-05
+884825,884825,Fix Released,utils.runthis has unused argument and unused valiables,https://bugs.launchpad.net/nova/+bug/884825,2012-04-05
+872450,872450,Fix Released,"utils.xhtml_escape should escape apostrophe, U+0027",https://bugs.launchpad.net/nova/+bug/872450,2012-04-05
+854163,854163,Fix Released,MigrateDeprecationWarning when migrating schema,https://bugs.launchpad.net/glance/+bug/854163,2012-04-05

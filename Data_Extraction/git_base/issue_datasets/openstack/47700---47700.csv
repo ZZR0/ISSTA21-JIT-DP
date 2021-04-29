@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1500446,1500446,Fix Released,Test for pacemaker resources when disk is full,https://bugs.launchpad.net/fuel/+bug/1500446,2016-03-11
+1524082,1524082,Fix Released,"Test for ostf gates was reverted, so need to fix issues in it",https://bugs.launchpad.net/fuel/+bug/1524082,2016-03-11
+1535302,1535302,Fix Released,"Add export of external ntp, dns to acceptance tests",https://bugs.launchpad.net/fuel/+bug/1535302,2016-03-11
+1540321,1540321,Fix Released,deploy_multiple_services_local_mirror test failed with AttributeError: 'MultiroleMultipleServices' object has no attribute 'get_cluster_repos',https://bugs.launchpad.net/fuel/+bug/1540321,2016-03-11
+1529787,1529787,Fix Released,Create mapping structure for fuel-library-gate,https://bugs.launchpad.net/fuel/+bug/1529787,2016-03-11
+1541921,1541921,Fix Released,[systest] Test 'deploy_controllers_from_custom_nodegroup' fails on VIPs verification step: KeyError: 'vrouter_pub',https://bugs.launchpad.net/fuel/+bug/1541921,2016-03-11
+1518960,1518960,Fix Released,[fuel-createmirror] We need to replace usage of fuel-create mirror to  replaced by fuel-mirror utils,https://bugs.launchpad.net/fuel/+bug/1518960,2016-03-11
+1544916,1544916,Fix Released,[system-tests] setup_environment method starts all nodes with 'fuel-master' role,https://bugs.launchpad.net/fuel/+bug/1544916,2016-03-11
+1545640,1545640,Fix Released,"deploy_ceilometer_ha_with_external_mongo test failed on updating cluster attributes with 400 bad request {""message"": ""[mongo_user] Empty username"", ""errors"": []}",https://bugs.launchpad.net/fuel/+bug/1545640,2016-03-11
+1539586,1539586,Fix Released,Changing of pacemaker parameters breaks RabbitMQ test fail on parsing rabbitmqctl cluster_status output,https://bugs.launchpad.net/fuel/+bug/1539586,2016-03-11
+1544973,1544973,Fix Released,"Rabbit cluster is broken after destroy controllers: no running rabbit nodes, no master",https://bugs.launchpad.net/fuel/+bug/1544973,2016-03-11
+1544958,1544958,Fix Released,Need to increase time-out for ostf ha test after step power on destroyed node,https://bugs.launchpad.net/fuel/+bug/1544958,2016-03-11
+1536994,1536994,Fix Released,Need to increase timeouts for ostf checks in test Check after repeatable failover rabbit cluster is healthy.,https://bugs.launchpad.net/fuel/+bug/1536994,2016-03-11
+1545719,1545719,Fix Released,Need add  assert_ha_services  step after vips failover in test  ha_neutron_delete_vips,https://bugs.launchpad.net/fuel/+bug/1545719,2016-03-11
+1545727,1545727,Fix Released,We should  raise error if someone try to run group that is not discovered by test runner,https://bugs.launchpad.net/fuel/+bug/1545727,2016-03-11
+1550242,1550242,Fix Released,"If we miss to set plugin variables, we start to fail in method   check_archive_type with Attribute error",https://bugs.launchpad.net/fuel/+bug/1550242,2016-03-11
+1493273,1493273,Fix Released,Need increase timeout in mysql check in  test mysql termination,https://bugs.launchpad.net/fuel/+bug/1493273,2016-03-11
+1493246,1493246,Fix Released,We should disable or move to known issues test for disconnect controllers,https://bugs.launchpad.net/fuel/+bug/1493246,2016-03-11
+1488476,1488476,Fix Released,[system_tests] Native Linux network bonds must be named as 'bondNN' in tests,https://bugs.launchpad.net/fuel/+bug/1488476,2016-03-11
+1496039,1496039,Fix Released,[system tests] Test separate_keystone_service_add_delete_node failed on assertionseparate_keystone_service_add_delete_node command,https://bugs.launchpad.net/fuel/+bug/1496039,2016-03-11
+1476222,1476222,Fix Released,[system-tests] Absent checker of Ceph version,https://bugs.launchpad.net/fuel/+bug/1476222,2016-03-11
+1496883,1496883,Fix Released,Add cinder node to destructive tests,https://bugs.launchpad.net/fuel/+bug/1496883,2016-03-11
+1509244,1509244,Fix Released,[System tests] We should check if active_slaves list is emtpy in tests 3 in 1 rabbit failover,https://bugs.launchpad.net/fuel/+bug/1509244,2016-03-11
+1498567,1498567,Fix Released,Inconsistent keyword parameter in fuel-qa update_yaml,https://bugs.launchpad.net/fuel/+bug/1498567,2016-03-11
+1507987,1507987,Fix Released,[system tests] Test check_ceph_cinder_cow.check_ceph_cinder_cow with attribute error id when we try to get image details over glance client,https://bugs.launchpad.net/fuel/+bug/1507987,2016-03-11
+1555705,1555705,Fix Released,[dashboard] Create new environment inline markup is broken,https://bugs.launchpad.net/murano/+bug/1555705,2016-03-11
+1476185,1476185,Fix Released,Networks values are wrong after Fuel installation via system tests,https://bugs.launchpad.net/fuel/+bug/1476185,2016-03-11
+1455357,1455357,Fix Released,Paramiko 'Exception in thread Thread-NNN' errors after system test/devops command finished.,https://bugs.launchpad.net/fuel/+bug/1455357,2016-03-11
+1471272,1471272,Fix Released,In destructive system tests there is no possibility to choose neutron segmentation for env,https://bugs.launchpad.net/fuel/+bug/1471272,2016-03-11
+1500828,1500828,Fix Released,Test check_cobler_alive failed with local variable 'result' referenced before assignment,https://bugs.launchpad.net/fuel/+bug/1500828,2016-03-11
+1550822,1550822,Fix Released,[dashboard] All 3 descriptions are displayed on import package page,https://bugs.launchpad.net/murano/+bug/1550822,2016-03-11
+1543136,1543136,Fix Released,[system-tests] Unnessessary arg in self.env.sync_time at save_load_environment method,https://bugs.launchpad.net/fuel/+bug/1543136,2016-03-11
+1546932,1546932,Fix Released,We pass node in the method instead of list of nodes,https://bugs.launchpad.net/fuel/+bug/1546932,2016-03-11
+1546539,1546539,Fix Released,Can't create env with enabled NOVA QUOTAS via fuel-qa,https://bugs.launchpad.net/fuel/+bug/1546539,2016-03-11
+1549289,1549289,Fix Released,Remove obsolated 'fuelweb_test/tests/test_by_tempest.py' file,https://bugs.launchpad.net/fuel/+bug/1549289,2016-03-11
+1473392,1473392,Fix Released,Add package version to the packages list from nodes,https://bugs.launchpad.net/fuel/+bug/1473392,2016-03-11
+1554717,1554717,Fix Committed,Change neutronclient extension to use execute(),https://bugs.launchpad.net/networking-cisco/+bug/1554717,2016-03-11
+1497286,1497286,Fix Released,[devops] Need to add git clone of octane to os_upgrade job,https://bugs.launchpad.net/fuel/+bug/1497286,2016-03-11
+1511338,1511338,Fix Released,[system tests] Need to add Ceilometer test for events in test list,https://bugs.launchpad.net/fuel/+bug/1511338,2016-03-11
+1528131,1528131,Fix Released,Add scale tests for vCenter+DVS (8.0 release),https://bugs.launchpad.net/fuel/+bug/1528131,2016-03-11
+1498338,1498338,Fix Released,Automate test with ceilometer and compute-vmware,https://bugs.launchpad.net/fuel/+bug/1498338,2016-03-11
+1549409,1549409,Fix Released,"Slaves from non-default racks aren't discovered, task 'update_dnsmasq' fails: 'Error: Could not find data item admin_networks in any Hiera data file'",https://bugs.launchpad.net/fuel/+bug/1549409,2016-03-11
+1470927,1470927,Fix Released,OSTF tests can not use third-party keystone,https://bugs.launchpad.net/fuel/+bug/1470927,2016-03-11
+1335894,1335894,Fix Released,[ostf] Need to rewrite error messages for HA ostf tests,https://bugs.launchpad.net/fuel/+bug/1335894,2016-03-11
+1439652,1439652,Fix Released,[ostf] Expand HA non destructive suite with ha proxy verification,https://bugs.launchpad.net/fuel/+bug/1439652,2016-03-11
+1476174,1476174,Fix Released,old VIP format in OSTF and system tests,https://bugs.launchpad.net/fuel/+bug/1476174,2016-03-11
+1468258,1468258,Fix Released,[OSTF] We should skip ha rabbit test in case if deployment with 1 controller only,https://bugs.launchpad.net/fuel/+bug/1468258,2016-03-11
+1467974,1467974,Fix Released,Timeout exceeded in OSTF while Murano was deploying Wordpress app,https://bugs.launchpad.net/fuel/+bug/1467974,2016-03-11
+1466399,1466399,Fix Released,"Fuel OSTF may falsely show working cloud as inoperable when public virtual IP address is not available, due to public gateway outage",https://bugs.launchpad.net/fuel/+bug/1466399,2016-03-11
+1443893,1443893,Fix Released,OSTF try to ssh to the node that was destroyed,https://bugs.launchpad.net/fuel/+bug/1443893,2016-03-11
+1547022,1547022,Fix Released,[OSTF] Test Check Openstack credential should passed if  user or password for Openstack were changed,https://bugs.launchpad.net/fuel/+bug/1547022,2016-03-11
+1517487,1517487,Fix Released,"Update decorator ""update_ostf"", working via package, not patch",https://bugs.launchpad.net/fuel/+bug/1517487,2016-03-11
+1488416,1488416,Fix Released,RabbitMQ replication ostf test fails if one rabbit node is offline,https://bugs.launchpad.net/fuel/+bug/1488416,2016-03-11
+1473164,1473164,Fix Released,False positive result of OSTF test with file injection,https://bugs.launchpad.net/fuel/+bug/1473164,2016-03-11
+1489462,1489462,Fix Released,OSTF rabbit tests fail on old clusters after upgrade,https://bugs.launchpad.net/fuel/+bug/1489462,2016-03-11
+1486511,1486511,Fix Released,"OSTF test on authorization in horizon failed with ConnectionError: HTTPSConnectionPool(host='10.109.6.3', port=443): Max retries exceeded with url: / (Caused by <class 'socket.error'>: [Errno 111] Connection refused)",https://bugs.launchpad.net/fuel/+bug/1486511,2016-03-11
+1485489,1485489,Fix Released,Rabbit OSTF test still compares number of controllers with number of rabbit nodes,https://bugs.launchpad.net/fuel/+bug/1485489,2016-03-11
+1478981,1478981,Fix Released,Add possibility to run unit and integration ostf tests with coverage parameter,https://bugs.launchpad.net/fuel/+bug/1478981,2016-03-11
+1477562,1477562,Fix Released,"Pacemacker tests try to initialize all openstack clients, but doesn not use any of it",https://bugs.launchpad.net/fuel/+bug/1477562,2016-03-11
+1473910,1473910,Fix Released,[OSTF] RabbitMQ tests should use IP addresses from network with 'mgmt/messaging' role,https://bugs.launchpad.net/fuel/+bug/1473910,2016-03-11
+1469877,1469877,Fix Released,"[OSTF] If user delete net04_ext network, Sahara and Ceilo platform tests start to fail",https://bugs.launchpad.net/fuel/+bug/1469877,2016-03-11
+1465238,1465238,Fix Released,[OSTF] Platfrom tests runs before smoke if user run all the tests,https://bugs.launchpad.net/fuel/+bug/1465238,2016-03-11
+1475049,1475049,Fix Released,OSTF should use internalURL everywhere by default,https://bugs.launchpad.net/fuel/+bug/1475049,2016-03-11
+1470151,1470151,Fix Released,Typo in OSTF test RabbitSanityTest broke 7.0 bvt,https://bugs.launchpad.net/fuel/+bug/1470151,2016-03-11
+1486413,1486413,Fix Released,Mysql ostf tests are failed instead of skipping if there are only 1 controller node,https://bugs.launchpad.net/fuel/+bug/1486413,2016-03-11
+1474730,1474730,Fix Released,OSTF 'Launch instance with file injection' test fails with TypeError: exec_command_on_vm() got an unexpected keyword argument 'cmd',https://bugs.launchpad.net/fuel/+bug/1474730,2016-03-11
+1465257,1465257,Fix Released,Health check data should be updated in fuel-docs,https://bugs.launchpad.net/fuel/+bug/1465257,2016-03-11
+1515172,1515172,Fix Released,Ceilometer OSTF may fail on longliving environment,https://bugs.launchpad.net/fuel/+bug/1515172,2016-03-11
+1517085,1517085,Fix Released,No ostf-server version,https://bugs.launchpad.net/fuel/+bug/1517085,2016-03-11
+1476637,1476637,Fix Released,[Fuel web UI] Messages in UI written in poor English,https://bugs.launchpad.net/fuel/+bug/1476637,2016-03-11
+1474358,1474358,Fix Released,ostf-server python requirements issue,https://bugs.launchpad.net/fuel/+bug/1474358,2016-03-11
+1466468,1466468,Fix Released,[OSTF] Adapter is broken,https://bugs.launchpad.net/fuel/+bug/1466468,2016-03-11
+1520518,1520518,Fix Released,[ostf] Deduplicate method _run_ssh_cmd_with_exit_code,https://bugs.launchpad.net/fuel/+bug/1520518,2016-03-11
+1477197,1477197,Fix Released,[ostf] Need to update sahara tests to kilo release,https://bugs.launchpad.net/fuel/+bug/1477197,2016-03-11
+1470910,1470910,Fix Released,OSTF  test 'Check usage of default credentials on master node' is using wrong credentials for ssh connection.,https://bugs.launchpad.net/fuel/+bug/1470910,2016-03-11

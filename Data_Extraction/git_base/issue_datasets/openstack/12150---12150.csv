@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1780855,1780855,Fix Released,undercloud install fails on workflow not found workflow_identifier=tripleo.validations.v1.upload_validations,https://bugs.launchpad.net/tripleo/+bug/1780855,2018-07-16
+1781823,1781823,Fix Released,"openstack-ansible-ops: ""shrinking"" machines00 fails  due to ""insufficient free space""",https://bugs.launchpad.net/openstack-ansible/+bug/1781823,2018-07-16
+1781658,1781658,Fix Released,image upload from promotion jobs continues to fail,https://bugs.launchpad.net/tripleo/+bug/1781658,2018-07-14
+1728948,1728948,Fix Released,fullstack: test_connectivity fails due to dhclient crash,https://bugs.launchpad.net/neutron/+bug/1728948,2018-07-13
+1463525,1463525,Fix Released,There is no volume encryption support for rbd-backed volumes,https://bugs.launchpad.net/nova/+bug/1463525,2018-07-13
+1463525,1463525,Fix Released,There is no volume encryption support for rbd-backed volumes,https://bugs.launchpad.net/cinder/+bug/1463525,2018-07-13
+1780434,1780434,Fix Released,[tripleo-ha-utils] Instance HA task does not support stonith names for compute nodes different form ipmilan-<hostname>,https://bugs.launchpad.net/tripleo/+bug/1780434,2018-07-13
+1771755,1771755,Fix Released,Images can't be updated with built packages in OVB obs,https://bugs.launchpad.net/tripleo/+bug/1771755,2018-07-13
+1771090,1771090,Fix Released,Kolla fails to build containers for tripleo in Ci build-container job,https://bugs.launchpad.net/tripleo/+bug/1771090,2018-07-13
+1778913,1778913,Fix Released,containers are not gracefully stopped on shutdown/reboot,https://bugs.launchpad.net/tripleo/+bug/1778913,2018-07-13
+1685677,1685677,Fix Released,Xenial containers fail to apply sysctl (procps),https://bugs.launchpad.net/openstack-ansible/+bug/1685677,2018-07-13
+1727785,1727785,Fix Released,Config file not being copied to iscsid containers on compute and storage nodes,https://bugs.launchpad.net/kolla-ansible/+bug/1727785,2018-07-13
+1706573,1706573,Fix Released,neutron cli UT failure,https://bugs.launchpad.net/python-neutronclient/+bug/1706573,2018-07-13
+1706573,1706573,Fix Released,neutron cli UT failure,https://bugs.launchpad.net/networking-sfc/+bug/1706573,2018-07-13
+1706573,1706573,Fix Released,neutron cli UT failure,https://bugs.launchpad.net/networking-midonet/+bug/1706573,2018-07-13
+1708147,1708147,Fix Released,"dashboard: tox -e docs ""too many arguments""",https://bugs.launchpad.net/neutron-vpnaas-dashboard/+bug/1708147,2018-07-13
+1708147,1708147,Fix Released,"dashboard: tox -e docs ""too many arguments""",https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1708147,2018-07-13
+1781456,1781456,Fix Released,Using config download for deployment and getting enable-ssh-admin.sh failed.,https://bugs.launchpad.net/tripleo/+bug/1781456,2018-07-12
+1370322,1370322,Fix Released,"Add a tooltip for ""Admin State"" in the Network forms",https://bugs.launchpad.net/horizon/+bug/1370322,2018-07-12
+1774927,1774927,Fix Released,Guest user/policy isn't created after containerized undercloud upgrade,https://bugs.launchpad.net/tripleo/+bug/1774927,2018-07-12
+1776206,1776206,Fix Released,Deploy steps executed twice during `update run`,https://bugs.launchpad.net/tripleo/+bug/1776206,2018-07-12
+1776313,1776313,Fix Released,openstack overcloud delete fails with Error occurred during stack delete 'Client' object has no attribute 'workflow_engine',https://bugs.launchpad.net/tripleo/+bug/1776313,2018-07-12
+1776874,1776874,Fix Released,There is no way to see what Zaqar messages tripleoclient receives,https://bugs.launchpad.net/tripleo/+bug/1776874,2018-07-12
+1777941,1777941,Fix Released,undercloud password generation is not idempotent,https://bugs.launchpad.net/tripleo/+bug/1777941,2018-07-12
+1779916,1779916,Fix Released,undercloud.conf net_config_override broken with containerized undercloud,https://bugs.launchpad.net/tripleo/+bug/1779916,2018-07-12
+1780726,1780726,Fix Released,[master][queens][pike][ocata] Base periodic jobs are broken after zuul v3 migration,https://bugs.launchpad.net/tripleo/+bug/1780726,2018-07-12
+1740456,1740456,Fix Released,Provide alternatives to add NetApp configuration for glance in heat templates.,https://bugs.launchpad.net/tripleo/+bug/1740456,2018-07-12
+1768063,1768063,Fix Released,Cinder backends cause cinder-volume to deploy as both service and container,https://bugs.launchpad.net/tripleo/+bug/1768063,2018-07-12
+1652654,1652654,Fix Released,Routes for neighbour subnets missing after dhcp agents restart,https://bugs.launchpad.net/neutron/+bug/1652654,2018-07-11
+1780780,1780780,Fix Released,multi-node-bridge role in zuul-jobs uses a released OVS package,https://bugs.launchpad.net/tripleo/+bug/1780780,2018-07-11
+1731000,1731000,Fix Released,Cinder doesn't work with the latest osbrick==2.0.0,https://bugs.launchpad.net/cinder/+bug/1731000,2018-07-11
+1781161,1781161,Fix Released,py27 tox checks fail occasionally,https://bugs.launchpad.net/dragonflow/+bug/1781161,2018-07-11
+1767144,1767144,Fix Committed,Murano CLI ignores keystone auth environment variables,https://bugs.launchpad.net/murano/+bug/1767144,2018-07-11
+1780861,1780861,Fix Released,Some Manila Quota Tempest Tests have Wrong Test Tags,https://bugs.launchpad.net/manila/+bug/1780861,2018-07-11
+1772689,1772689,Fix Released,openvswitch kernel module not loaded in gate jobs,https://bugs.launchpad.net/neutron/+bug/1772689,2018-07-10
+1780282,1780282,Fix Released,Update neutron shas for Pike,https://bugs.launchpad.net/openstack-ansible/+bug/1780282,2018-07-10
+1761837,1761837,Fix Released,Mistral DSL docs should be updated/removed,https://bugs.launchpad.net/mistral/+bug/1761837,2018-07-10
+1771324,1771324,Fix Released,"netwon update fails with ""couldn't get the live value of the neutron agent""",https://bugs.launchpad.net/tripleo/+bug/1771324,2018-07-10
+1708965,1708965,Fix Released,container upload leaves images on the undercloud docker,https://bugs.launchpad.net/tripleo/+bug/1708965,2018-07-10
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/designate/+bug/1424728,2018-07-09
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/nova/+bug/1424728,2018-07-09
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/watcher/+bug/1424728,2018-07-09
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/ironic/+bug/1424728,2018-07-09
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/manila/+bug/1424728,2018-07-09
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/keystonemiddleware/+bug/1424728,2018-07-09
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/magnum/+bug/1424728,2018-07-09
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/sahara/+bug/1424728,2018-07-09
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/neutron/+bug/1424728,2018-07-09
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/cinder/+bug/1424728,2018-07-09
+1424728,1424728,Fix Released,Remove old rpc alias(es) from code,https://bugs.launchpad.net/searchlight/+bug/1424728,2018-07-09
+1646255,1646255,Fix Released,removing compute node causes ComputeHostNotFound in nova-api,https://bugs.launchpad.net/nova/+bug/1646255,2018-07-09
+1761781,1761781,Fix Released,log_dirs variable missing from roles,https://bugs.launchpad.net/openstack-ansible/+bug/1761781,2018-07-09
+1778463,1778463,Fix Released,[magnum][pike] Image upload in playbook does not work,https://bugs.launchpad.net/openstack-ansible/+bug/1778463,2018-07-09
+1779705,1779705,Fix Committed,Region is not used when coming from openstackclient,https://bugs.launchpad.net/python-mistralclient/+bug/1779705,2018-07-09
+1777704,1777704,Fix Released,[Devstack] Tacker's devstack script hardcode REGION_NAME=RegionOne,https://bugs.launchpad.net/tacker/+bug/1777704,2018-07-09
+1758343,1758343,Fix Released,{{role.name}}ExtraConfig not honored when using deprecated keys in roles_data,https://bugs.launchpad.net/tripleo/+bug/1758343,2018-07-08
+1768158,1768158,Fix Released,"get-occ-config.sh counts ""wrong"" cause of missing tonumber messing up the deployment",https://bugs.launchpad.net/tripleo/+bug/1768158,2018-07-08
+1772635,1772635,Fix Released,collectd can't read /var/run/libvirt,https://bugs.launchpad.net/tripleo/+bug/1772635,2018-07-08
+1773376,1773376,Fix Released,gnocchi file driver won't work with container,https://bugs.launchpad.net/tripleo/+bug/1773376,2018-07-08
+1759581,1759581,Fix Released,get-occ-config.sh no longer works with roles with a count greater than 1,https://bugs.launchpad.net/tripleo/+bug/1759581,2018-07-08
+1762991,1762991,Fix Released,can't update openstack database passwords,https://bugs.launchpad.net/tripleo/+bug/1762991,2018-07-08
+1768913,1768913,Fix Released,"DBError: (pymysql.err.InternalError) (1118, u'The size of BLOB/TEXT data inserted in one transaction is greater than 10% of redo log size.",https://bugs.launchpad.net/tripleo/+bug/1768913,2018-07-08
+1764731,1764731,Fix Released,haproxy for swift doesn't provide httplog as well as X-Forwarded-Proto,https://bugs.launchpad.net/tripleo/+bug/1764731,2018-07-08
+1773013,1773013,Fix Released,Some Cinder Netapp parameters are not handled correctly,https://bugs.launchpad.net/tripleo/+bug/1773013,2018-07-08
+1773219,1773219,Fix Released,HA deployment with uppercase hostnames can fail,https://bugs.launchpad.net/tripleo/+bug/1773219,2018-07-08
+1765839,1765839,Fix Released,undercloud: NTP always needs to be deployed,https://bugs.launchpad.net/tripleo/+bug/1765839,2018-07-08
+1703792,1703792,Fix Released,Enhance completion message when upgrading non controller nodes,https://bugs.launchpad.net/tripleo/+bug/1703792,2018-07-08
+1771830,1771830,Fix Released,crudini package required for split stack deployment with overcloud node registration,https://bugs.launchpad.net/tripleo/+bug/1771830,2018-07-08
+1594388,1594388,Fix Released,Allow neutron_options customization for dashboard,https://bugs.launchpad.net/tripleo/+bug/1594388,2018-07-08
+1774079,1774079,Fix Released,"[ocata promotion] phase1 (ci.centos) job  tripleo-quickstart-promote-ocata-rdo_trunk-minimal fails introspection/deploy ""No valid host found""",https://bugs.launchpad.net/tripleo/+bug/1774079,2018-07-08
+1754426,1754426,Fix Released,os-collect-config running on the undercloud breaks overcloud deployments,https://bugs.launchpad.net/tripleo/+bug/1754426,2018-07-08
+1749879,1749879,Fix Committed,Tempest tests occasionally failed on tear down,https://bugs.launchpad.net/zun/+bug/1749879,2018-07-08
+1737602,1737602,Fix Released,oooq: undercloud lacks network-environment and tls files to deploy overcloud,https://bugs.launchpad.net/tripleo/+bug/1737602,2018-07-07
+1779561,1779561,Fix Released,No realm key for 'realm1',https://bugs.launchpad.net/tripleo/+bug/1779561,2018-07-06
+1780427,1780427,Fix Released,[periodic][master][queens]  /etc/nodepool/primary_node_private: No such file or directory,https://bugs.launchpad.net/tripleo/+bug/1780427,2018-07-06

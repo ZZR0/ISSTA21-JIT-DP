@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1423427,1423427,Fix Released,tempest baremetal client is creating node with wrong property keys,https://bugs.launchpad.net/tempest/+bug/1423427,2015-11-19
+1381468,1381468,Fix Released,Type conflict in nova/nova/scheduler/filters/trusted_filter.py using attestation_port default value,https://bugs.launchpad.net/nova/+bug/1381468,2015-11-19
+1408480,1408480,Fix Released,PciDevTracker passes context module instead of instance,https://bugs.launchpad.net/nova/+bug/1408480,2015-11-19
+1415768,1415768,Fix Released,the pci deivce assigned to instance is inconsistent with DB record when restarting nova-compute,https://bugs.launchpad.net/nova/+bug/1415768,2015-11-19
+1420032,1420032,Fix Released,remove_router_interface doesn't scale well with dvr routers,https://bugs.launchpad.net/neutron/+bug/1420032,2015-11-19
+1427343,1427343,Fix Released,missing entry point for cisco apic topology agent,https://bugs.launchpad.net/neutron/+bug/1427343,2015-11-19
+1442494,1442494,Fix Released,test_add_list_remove_router_on_l3_agent race-y for dvr,https://bugs.launchpad.net/neutron/+bug/1442494,2015-11-19
+1332917,1332917,Fix Released,Deadlock when deleting from ipavailabilityranges,https://bugs.launchpad.net/neutron/+bug/1332917,2015-11-19
+1444397,1444397,Fix Released,single allowed address pair rule can exhaust entire ipset space,https://bugs.launchpad.net/neutron/+bug/1444397,2015-11-19
+1439817,1439817,Fix Released,IP set full error in kernel log,https://bugs.launchpad.net/neutron/+bug/1439817,2015-11-19
+1447883,1447883,Fix Released,Restrict netmask of CIDR to avoid DHCP resync is not enough,https://bugs.launchpad.net/neutron/+bug/1447883,2015-11-19
+1457900,1457900,Fix Released,dhcp_agents_per_network > 1 cause conflicts (NACKs) from dnsmasqs (break networks),https://bugs.launchpad.net/neutron/+bug/1457900,2015-11-19
+1459467,1459467,Fix Released,port update multiple fixed IPs anticipating allocation fails with mac address error,https://bugs.launchpad.net/neutron/+bug/1459467,2015-11-19
+1456823,1456823,Fix Released,address pair rules not matched in iptables counter-preservation code,https://bugs.launchpad.net/neutron/+bug/1456823,2015-11-19
+1445412,1445412,Fix Released,performance of plugin_rpc.get_routers is bad,https://bugs.launchpad.net/neutron/+bug/1445412,2015-11-19
+1447344,1447344,Fix Released,DHCP agent: metadata network broken for DVR,https://bugs.launchpad.net/neutron/+bug/1447344,2015-11-19
+1456822,1456822,Fix Released,AgentNotFoundByTypeHost exception logged when L3-agent starts up,https://bugs.launchpad.net/neutron/+bug/1456822,2015-11-19
+1374473,1374473,Fix Released,500 error on router-gateway-set for DVR on second external network,https://bugs.launchpad.net/neutron/+bug/1374473,2015-11-19
+1416933,1416933,Fix Released,Race condition in Ha router updating port status,https://bugs.launchpad.net/neutron/+bug/1416933,2015-11-19
+1438040,1438040,Fix Released,fdb entries can't be removed when a VM is migrated,https://bugs.launchpad.net/neutron/+bug/1438040,2015-11-19
+1439857,1439857,Fix Released,live-migration failure leave the port to BUILD state,https://bugs.launchpad.net/neutron/+bug/1439857,2015-11-19
+1454434,1454434,Fix Released,NoNetworkFoundInMaximumAllowedAttempts during concurrent network creation,https://bugs.launchpad.net/neutron/+bug/1454434,2015-11-19
+1382064,1382064,Fix Released,Failure to allocate tunnel id when creating networks concurrently,https://bugs.launchpad.net/neutron/+bug/1382064,2015-11-19
+1473556,1473556,Fix Released,Error log is generated when API operation is PolicyNotAuthorized and returns 404,https://bugs.launchpad.net/neutron/+bug/1473556,2015-11-19
+1187102,1187102,Fix Released,quantum-ns-metadata-proxy listens on external interfaces too,https://bugs.launchpad.net/neutron/+bug/1187102,2015-11-19
+1460220,1460220,Fix Released,ipset functional tests assume system capability,https://bugs.launchpad.net/neutron/+bug/1460220,2015-11-19
+1490581,1490581,Fix Released,the items will never be deleted from metering_info,https://bugs.launchpad.net/neutron/+bug/1490581,2015-11-19
+1460562,1460562,Fix Released,ipset can't be destroyed when last sg rule is deleted,https://bugs.launchpad.net/neutron/+bug/1460562,2015-11-19
+1274034,1274034,Fix Released,Neutron firewall anti-spoofing does not prevent ARP poisoning,https://bugs.launchpad.net/neutron/+bug/1274034,2015-11-19
+1477253,1477253,Fix Released,ovs arp_responder unsuccessfully inserts IPv6 address into arp table,https://bugs.launchpad.net/neutron/+bug/1477253,2015-11-19
+1422504,1422504,Fix Released,floating ip delete deadlock,https://bugs.launchpad.net/neutron/+bug/1422504,2015-11-19
+1374108,1374108,Fix Released,Hyper-V agent cannot disconnect orphaned switch ports,https://bugs.launchpad.net/networking-hyperv/+bug/1374108,2015-11-19
+1472458,1472458,Fix Released,Arista ML2 VLAN driver should ignore non-VLAN network types,https://bugs.launchpad.net/neutron/+bug/1472458,2015-11-19
+1361211,1361211,Fix Released,Hyper-V agent does not add new VLAN ids to the external port's trunked list on Hyper-V 2008 R2,https://bugs.launchpad.net/networking-hyperv/+bug/1361211,2015-11-19
+1468828,1468828,Fix Released,HA router-create  breaks ML2 drivers that implement create_network such as Arista,https://bugs.launchpad.net/neutron/+bug/1468828,2015-11-19
+1422476,1422476,Fix Released,floating ip scheduled to wrong router,https://bugs.launchpad.net/neutron/+bug/1422476,2015-11-19
+1403068,1403068,Fix Released,Tests fail with python 2.7.9,https://bugs.launchpad.net/neutron/+bug/1403068,2015-11-19
+1403068,1403068,Fix Released,Tests fail with python 2.7.9,https://bugs.launchpad.net/keystone/+bug/1403068,2015-11-19
+1403068,1403068,Fix Released,Tests fail with python 2.7.9,https://bugs.launchpad.net/cinder/+bug/1403068,2015-11-19
+1403068,1403068,Fix Released,Tests fail with python 2.7.9,https://bugs.launchpad.net/manila/+bug/1403068,2015-11-19
+1443598,1443598,Fix Released,[OSSA 2015-008] backend_argument containing a password leaked in logs (CVE-2015-3646),https://bugs.launchpad.net/keystone/+bug/1443598,2015-11-19
+1443598,1443598,Fix Released,[OSSA 2015-008] backend_argument containing a password leaked in logs (CVE-2015-3646),https://bugs.launchpad.net/ossa/+bug/1443598,2015-11-19
+1392316,1392316,Fix Released,Hypervisors returns TemplateSyntaxError instead of error message,https://bugs.launchpad.net/horizon/+bug/1392316,2015-11-19
+1398468,1398468,Fix Released,Unable to terminate instance from Network Topology screen,https://bugs.launchpad.net/horizon/+bug/1398468,2015-11-19
+1394051,1394051,Fix Released,"Can't display port list on a shared network in ""Manage Floating IP Associations"" page",https://bugs.launchpad.net/horizon/+bug/1394051,2015-11-19
+1405049,1405049,Fix Released,"Can't see the router in the network topology page, if neutron l3 agent HA is enabled.",https://bugs.launchpad.net/horizon/+bug/1405049,2015-11-19
+1453074,1453074,Fix Released,[OSSA 2015-010] help_text parameter of fields is vulnerable to arbitrary html injection (CVE-2015-3219),https://bugs.launchpad.net/horizon/+bug/1453074,2015-11-19
+1453074,1453074,Fix Released,[OSSA 2015-010] help_text parameter of fields is vulnerable to arbitrary html injection (CVE-2015-3219),https://bugs.launchpad.net/ossa/+bug/1453074,2015-11-19
+1441523,1441523,Fix Released,changing flavor details on running instances will result in errors popping up for users,https://bugs.launchpad.net/horizon/+bug/1441523,2015-11-19
+1394900,1394900,Fix Released,"cinder disabled, many popups about missing volume service",https://bugs.launchpad.net/horizon/+bug/1394900,2015-11-19
+1388764,1388764,Fix Released,Horizon fail to load resources usage if ceilometer configured with SSL,https://bugs.launchpad.net/horizon/+bug/1388764,2015-11-19
+1263665,1263665,Fix Released,Number of GET requests grows exponentially when multiple rows are being updated in the table,https://bugs.launchpad.net/horizon/+bug/1263665,2015-11-19
+1378558,1378558,Fix Released,Plugin panel not listed in configured panel group,https://bugs.launchpad.net/horizon/+bug/1378558,2015-11-19
+1449260,1449260,Fix Released,[OSSA 2015-009] Sanitation of metadata label (CVE-2015-3988),https://bugs.launchpad.net/ossa/+bug/1449260,2015-11-19
+1449260,1449260,Fix Released,[OSSA 2015-009] Sanitation of metadata label (CVE-2015-3988),https://bugs.launchpad.net/horizon/+bug/1449260,2015-11-19
+1420196,1420196,Fix Released,Nested stacks cannot process non-trivial data structures in parameters,https://bugs.launchpad.net/heat/+bug/1420196,2015-11-19
+1375864,1375864,Fix Released,Heat assumes that Python on booted servers is 2.6+,https://bugs.launchpad.net/heat/+bug/1375864,2015-11-19
+1433821,1433821,Fix Released,Failed to stop stack error from functional tests with engine_workers=2,https://bugs.launchpad.net/heat/+bug/1433821,2015-11-19
+1450923,1450923,Fix Released,Heat (juno) failing to log authentication errors,https://bugs.launchpad.net/heat/+bug/1450923,2015-11-19
+1437588,1437588,Fix Released,Can not delete stack when SNAPSHOT_IN_PROGRESS,https://bugs.launchpad.net/heat/+bug/1437588,2015-11-19
+1418942,1418942,Fix Released,Metadata is not refreshed on template resources,https://bugs.launchpad.net/heat/+bug/1418942,2015-11-19
+1338811,1338811,Fix Released,Invalid metadata reference not validated,https://bugs.launchpad.net/heat/+bug/1338811,2015-11-19
+1413398,1413398,Fix Released,stack_user_project_id is not discoverable by the user,https://bugs.launchpad.net/heat/+bug/1413398,2015-11-19
+1413366,1413366,Fix Released,Race condition in setting tempurl key,https://bugs.launchpad.net/heat/+bug/1413366,2015-11-19
+1445170,1445170,Fix Released,get_file doesn't notice changes during update,https://bugs.launchpad.net/heat/+bug/1445170,2015-11-19
+1377290,1377290,Fix Released,stack_delete fails/times out when soft-delete is enabled in nova,https://bugs.launchpad.net/heat/+bug/1377290,2015-11-19
+1446575,1446575,Fix Released,Invalid Templete Reference when delete failed stack,https://bugs.launchpad.net/heat/+bug/1446575,2015-11-19
+1396982,1396982,Fix Released,"Delete failed, when OS::Nova::FloatingIPAssociation cannot find server",https://bugs.launchpad.net/heat/+bug/1396982,2015-11-19
+1376213,1376213,Fix Released,stack_user_domain_name not working as expected,https://bugs.launchpad.net/heat/+bug/1376213,2015-11-19
+1429141,1429141,Fix Released,stack-delete/stack-abandon fails with missing resources from global environment,https://bugs.launchpad.net/heat/+bug/1429141,2015-11-19
+1448384,1448384,Fix Released,Exception raised during cancel stack update,https://bugs.launchpad.net/heat/+bug/1448384,2015-11-19
+1392359,1392359,Fix Released,Create Stack failed when using 'OS::Heat::RandomString' (length = 512) in template,https://bugs.launchpad.net/heat/+bug/1392359,2015-11-19
+1452534,1452534,Fix Released,Changing paths in env are ignored when updating a template resource,https://bugs.launchpad.net/heat/+bug/1452534,2015-11-19
+1384750,1384750,Fix Released,Deleting with an in-progress stack update can fail,https://bugs.launchpad.net/heat/+bug/1384750,2015-11-19
+1477908,1477908,Fix Released,Missed requirement during backporting fix,https://bugs.launchpad.net/heat/+bug/1477908,2015-11-19

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+746435,746435,Fix Released,Duplicate lines in logging from SQLAlchemy,https://bugs.launchpad.net/glance/+bug/746435,2011-04-15
+742353,742353,Fix Released,Changelog does not included in tarball anymore for glance,https://bugs.launchpad.net/glance/+bug/742353,2011-04-15
+740128,740128,Fix Released,Missing sample etc configs for glance from ppa (ppa:glance-core/trunk),https://bugs.launchpad.net/glance/+bug/740128,2011-04-15
+739327,739327,Fix Released,glance-combined still referenced in rev92,https://bugs.launchpad.net/glance/+bug/739327,2011-04-15
+737158,737158,Fix Released,Content-type header not 'application/octet-stream' for GET /images/<ID>,https://bugs.launchpad.net/glance/+bug/737158,2011-04-15
+737149,737149,Fix Released,Content-Length header not returned from GET /images/<ID>,https://bugs.launchpad.net/glance/+bug/737149,2011-04-15
+736395,736395,Fix Released,glance-combined and glance-manage throw a TypeError when run,https://bugs.launchpad.net/glance/+bug/736395,2011-04-15
+731558,731558,Fix Released,"Empty fields get turned in to ""None"" when passing over http.",https://bugs.launchpad.net/glance/+bug/731558,2011-04-15
+729726,729726,Fix Released,Deprecated use of raising error with tuple,https://bugs.launchpad.net/glance/+bug/729726,2011-04-15
+726685,726685,Fix Released,Image_properties 'key' column collides with SQL KEY keyword,https://bugs.launchpad.net/glance/+bug/726685,2011-04-15
+725281,725281,Fix Released,No way to remove a custom image property,https://bugs.launchpad.net/glance/+bug/725281,2011-04-15
+719825,719825,Fix Released,POST /images should return 201 on success,https://bugs.launchpad.net/glance/+bug/719825,2011-04-15
+715372,715372,Fix Released,Add --config-file option,https://bugs.launchpad.net/glance/+bug/715372,2011-04-15
+714454,714454,Fix Released,three failed builds in hudson.openstack.org,https://bugs.launchpad.net/glance/+bug/714454,2011-04-15
+758761,758761,Fix Released,logging in Swift backend store does not work,https://bugs.launchpad.net/glance/+bug/758761,2011-04-15
+755912,755912,Fix Released,Content-Type header must be octet stream,https://bugs.launchpad.net/glance/+bug/755912,2011-04-15
+747799,747799,Fix Released,DELETE existing image fails if location attribute is None,https://bugs.launchpad.net/glance/+bug/747799,2011-04-15
+742190,742190,Fix Released,glance-manage not respecting config,https://bugs.launchpad.net/glance/+bug/742190,2011-04-15
+736789,736789,Fix Released,Eventlet/WSGI logger needs to use same logging as Glance,https://bugs.launchpad.net/glance/+bug/736789,2011-04-15
+726742,726742,Fix Released,Producing useless traceback info,https://bugs.launchpad.net/glance/+bug/726742,2011-04-15
+726700,726700,Fix Released,glance-manage doesn't use config file,https://bugs.launchpad.net/glance/+bug/726700,2011-04-15
+724654,724654,Fix Released,Image Type is Erroneously Required,https://bugs.launchpad.net/glance/+bug/724654,2011-04-15
+720816,720816,Fix Released,logging configuration not documented,https://bugs.launchpad.net/glance/+bug/720816,2011-04-15
+720459,720459,Fix Released,Remove validation on image_type,https://bugs.launchpad.net/glance/+bug/720459,2011-04-15
+716652,716652,Fix Released,MySQL Gone Away Error,https://bugs.launchpad.net/glance/+bug/716652,2011-04-15
+715263,715263,Fix Released,glance-combined not included in setup.py,https://bugs.launchpad.net/glance/+bug/715263,2011-04-15
+704854,704854,Fix Released,Add an image to Glance with wrong type and underlying exception gets eaten,https://bugs.launchpad.net/glance/+bug/704854,2011-04-15
+759012,759012,Fix Released,verbose and debug settings no effect on logging,https://bugs.launchpad.net/glance/+bug/759012,2011-04-15
+752750,752750,Fix Released,properties should be marked as deleted=0 on update,https://bugs.launchpad.net/glance/+bug/752750,2011-04-15
+739433,739433,Fix Released,Glance Image Limit is 2^32 on 32bit Systems,https://bugs.launchpad.net/glance/+bug/739433,2011-04-15
+737990,737990,Fix Released,test_db_sync_downgrade_then_upgrade fails no such index: ix_images_deleted,https://bugs.launchpad.net/glance/+bug/737990,2011-04-15
+737098,737098,Fix Released,HTTPBackend.get() does not support options argument,https://bugs.launchpad.net/glance/+bug/737098,2011-04-15
+736295,736295,Fix Released,glance client update metadata is_public=True fails,https://bugs.launchpad.net/glance/+bug/736295,2011-04-15
+731684,731684,Fix Released,Glance lazy loading issue -- still coupled with Swift,https://bugs.launchpad.net/glance/+bug/731684,2011-04-15
+731304,731304,Fix Released,Missing full functional tests,https://bugs.launchpad.net/glance/+bug/731304,2011-04-15
+730213,730213,Fix Released,image-format needs db migration script,https://bugs.launchpad.net/glance/+bug/730213,2011-04-15
+719834,719834,Fix Released,sqlalchemy-migrate ImportError,https://bugs.launchpad.net/glance/+bug/719834,2011-04-15
+717431,717431,Fix Released,Swift backend not taking into account new Swift account:user:key in URI,https://bugs.launchpad.net/glance/+bug/717431,2011-04-15
+759018,759018,Fix Released,"When running tests without virtualenv, test_traceback_not_consumed fails",https://bugs.launchpad.net/glance/+bug/759018,2011-04-15
+713126,713126,Fix Released,Swift backend does not support POST,https://bugs.launchpad.net/glance/+bug/713126,2011-04-15
+664567,664567,Fix Released,Memcached race condition and test cleanup,https://bugs.launchpad.net/swift/+bug/664567,2011-04-15
+737953,737953,Fix Released,nova.api.openstack.images doesn't return all attributes about an image,https://bugs.launchpad.net/nova/+bug/737953,2011-04-14
+704196,704196,Fix Released,swift3 middlware errors if content has unicode text,https://bugs.launchpad.net/swift/+bug/704196,2011-04-11
+754687,754687,Fix Released,Change the default 'lock_path' flag value in RHEL6 port,https://bugs.launchpad.net/nova/+bug/754687,2011-04-11
+710890,710890,Fix Released,hard coded dependency on nova user 'admin' and nova project 'admin',https://bugs.launchpad.net/horizon/+bug/710890,2011-04-05
+747618,747618,Fix Released,Fix .admin get_user privileges.,https://bugs.launchpad.net/swift/+bug/747618,2011-04-01
+702107,702107,Fix Released,swauth bins should default to the right port if no port is given,https://bugs.launchpad.net/swift/+bug/702107,2011-04-01
+708823,708823,Fix Released,swift-auth-to-swauth only works on swath default,https://bugs.launchpad.net/swift/+bug/708823,2011-04-01
+737956,737956,Fix Released,can't make an image public,https://bugs.launchpad.net/horizon/+bug/737956,2011-03-31
+737249,737249,Fix Released,image detail view incorrectly displays option to edit an image,https://bugs.launchpad.net/horizon/+bug/737249,2011-03-31
+741106,741106,Fix Released,Register button out of place,https://bugs.launchpad.net/horizon/+bug/741106,2011-03-31
+723897,723897,Fix Released,'No user for access key admin' when using the Openstack API,https://bugs.launchpad.net/nova/+bug/723897,2011-03-29
+742106,742106,Fix Released,Need python-suds >= 0.4.0,https://bugs.launchpad.net/openstack-ci/+bug/742106,2011-03-24
+739906,739906,Fix Released,lucid nova packages fail to build on Launchpad,https://bugs.launchpad.net/nova/+bug/739906,2011-03-22
+739546,739546,Fix Released,image_service default flag is incorrect,https://bugs.launchpad.net/openstack-manuals/+bug/739546,2011-03-21
+738817,738817,Fix Released,openstack-compute/admin/content/ch03s02.html img url for NOVA_install_arch.png broken,https://bugs.launchpad.net/openstack-manuals/+bug/738817,2011-03-21
+729918,729918,Fix Released,Steal colorization from Nova,https://bugs.launchpad.net/glance/+bug/729918,2011-03-18
+737135,737135,Fix Released,modify user roles doesn't show correct selections,https://bugs.launchpad.net/horizon/+bug/737135,2011-03-18
+732493,732493,Fix Released,Unable to change the project manager of a project,https://bugs.launchpad.net/horizon/+bug/732493,2011-03-17
+732220,732220,Fix Released,credentials email subject template not stripping whitespace,https://bugs.launchpad.net/horizon/+bug/732220,2011-03-17
+728750,728750,Fix Released,UserData kb page not found,https://bugs.launchpad.net/horizon/+bug/728750,2011-03-17
+736505,736505,Fix Released,modify project user roles from admin UI is broken,https://bugs.launchpad.net/horizon/+bug/736505,2011-03-17
+695866,695866,Fix Released,Admin client should be packaged separately,https://bugs.launchpad.net/nova/+bug/695866,2011-03-15
+694944,694944,Fix Released,nova-coverage is broken,https://bugs.launchpad.net/openstack-ci/+bug/694944,2011-03-15
+714452,714452,Fix Released,unable to cancel creating volume,https://bugs.launchpad.net/horizon/+bug/714452,2011-03-09
+727369,727369,Fix Released,"Registration page submit but says ""reset password""",https://bugs.launchpad.net/horizon/+bug/727369,2011-03-03
+711024,711024,Fix Released,replace hard coded site branding with django-nova site branding template tags,https://bugs.launchpad.net/horizon/+bug/711024,2011-02-25
+658257,658257,Fix Released,get_console_output fails,https://bugs.launchpad.net/nova/+bug/658257,2011-02-18
+662579,662579,Fix Released,TypeError: terminate_instances() takes exactly 3 non-keyword arguments (2 given),https://bugs.launchpad.net/nova/+bug/662579,2011-02-17
+708329,708329,Fix Released,DescribeGroups: Groups are not sorted properly,https://bugs.launchpad.net/nova/+bug/708329,2011-02-15
+658237,658237,Fix Released,Default kernel and ramdisk from image manifest are ignored,https://bugs.launchpad.net/nova/+bug/658237,2011-02-09
+706940,706940,Fix Released,Missing deps in ubuntu packaging,https://bugs.launchpad.net/glance/+bug/706940,2011-02-07
+696382,696382,Fix Released,Glance client parameter defaults misdocumented,https://bugs.launchpad.net/glance/+bug/696382,2011-02-07
+694382,694382,Fix Released,"setup.py refers to parallax-server and teller-server, when these have been renamed",https://bugs.launchpad.net/glance/+bug/694382,2011-02-07
+687944,687944,Fix Released,missing get-image-size method in Teller client,https://bugs.launchpad.net/glance/+bug/687944,2011-02-07

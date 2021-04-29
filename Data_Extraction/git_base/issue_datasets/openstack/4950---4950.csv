@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1831439,1831439,Fix Released,[docs] Major upgrades in openstack-ansible,https://bugs.launchpad.net/openstack-ansible/+bug/1831439,2019-10-24
+1829900,1829900,Fix Released,Provider network documentation refers to incorrect file path,https://bugs.launchpad.net/openstack-ansible/+bug/1829900,2019-10-24
+1835631,1835631,Fix Released,The conditional check 'cinder_all_software_updated | bool' failed,https://bugs.launchpad.net/openstack-ansible/+bug/1835631,2019-10-24
+1848012,1848012,Fix Released,Neutron internal error when activating vif or adding subports to trunk crashes kuryr-controller,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1848012,2019-10-24
+1809249,1809249,Fix Released,3PAR driver picks wrong port when not in multipath mode.,https://bugs.launchpad.net/cinder/+bug/1809249,2019-10-24
+1788039,1788039,Fix Released,Getting versions should not return v2 if it is disabled,https://bugs.launchpad.net/cinder/+bug/1788039,2019-10-24
+1848761,1848761,Fix Released,kuryrnet leftovers after kuryr-controller restart,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1848761,2019-10-24
+1847753,1847753,Fix Released,Races between retries and delete events,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1847753,2019-10-24
+1847664,1847664,Fix Released,rhel8 containers not being tagged w/ _arch suffix,https://bugs.launchpad.net/tripleo/+bug/1847664,2019-10-24
+1781286,1781286,Fix Released,CantStartEngineError in cell conductor during reschedule - get_host_availability_zone up-call,https://bugs.launchpad.net/nova/+bug/1781286,2019-10-23
+1788694,1788694,Fix Released,System scoped tokens don't expand role assignments,https://bugs.launchpad.net/keystone/+bug/1788694,2019-10-23
+1798503,1798503,Fix Released,When reverting volume to smaller snapshot size is incorrect,https://bugs.launchpad.net/cinder/+bug/1798503,2019-10-23
+1844851,1844851,Fix Committed,[stein] Prometheus OpenStack Exporter Broken,https://bugs.launchpad.net/kolla-ansible/+bug/1844851,2019-10-23
+1849284,1849284,Fix Released,"rdo periodic centos 7 featureset 050 upgrades-master fails post task ""Error: invalid path 'commits.0.commit_hash', can't query subvalue 'commits' of a leaf""",https://bugs.launchpad.net/tripleo/+bug/1849284,2019-10-23
+1848702,1848702,Fix Released,"rdo rhel-8-scenario standalone failing tempest ""[Errno 13] Permission denied: '/opt/cache/files/cirros-0.3.5-x86_64-disk.img""",https://bugs.launchpad.net/tripleo/+bug/1848702,2019-10-23
+1847821,1847821,Fix Released,Leases fail to start because freepool not found,https://bugs.launchpad.net/blazar/+bug/1847821,2019-10-23
+1829146,1829146,Fix Released,sthonith constraint location should not have INFINITY as score,https://bugs.launchpad.net/puppet-pacemaker/+bug/1829146,2019-10-22
+1830162,1830162,Fix Released,cloned resources are broken with pcmk2.x/pcs0.10,https://bugs.launchpad.net/puppet-pacemaker/+bug/1830162,2019-10-22
+1835217,1835217,Fix Released,Stein upgrade: failing on pacemaker scale up,https://bugs.launchpad.net/puppet-pacemaker/+bug/1835217,2019-10-22
+1835217,1835217,Fix Released,Stein upgrade: failing on pacemaker scale up,https://bugs.launchpad.net/tripleo/+bug/1835217,2019-10-22
+1829461,1829461,Fix Released,Volume Group Under project panel not working,https://bugs.launchpad.net/horizon/+bug/1829461,2019-10-22
+1652619,1652619,Fix Committed,Creation of ICMPV6 rule through horizon is treating as invalid packet,https://bugs.launchpad.net/neutron/+bug/1652619,2019-10-22
+1652619,1652619,Fix Released,Creation of ICMPV6 rule through horizon is treating as invalid packet,https://bugs.launchpad.net/horizon/+bug/1652619,2019-10-22
+1842004,1842004,Fix Released,Horizon tenant/user get calls fail for non-uuid IDs,https://bugs.launchpad.net/horizon/+bug/1842004,2019-10-22
+1523341,1523341,Fix Released,Unable to add ipv6 static route,https://bugs.launchpad.net/horizon/+bug/1523341,2019-10-22
+1794421,1794421,Fix Released,Add allowed address pair button is only visible to admin,https://bugs.launchpad.net/horizon/+bug/1794421,2019-10-22
+1843480,1843480,Fix Released,Group names in Edit Project can get truncated when it is too long,https://bugs.launchpad.net/horizon/+bug/1843480,2019-10-22
+1815285,1815285,Fix Released,test_url_for in openstack_dashboard.test.unit.api.test_base fails if UT runs only with this module,https://bugs.launchpad.net/horizon/+bug/1815285,2019-10-22
+1824644,1824644,Fix Released,"""Server Group Members"" in ""Server Group Detail"" cannot be translated",https://bugs.launchpad.net/horizon/+bug/1824644,2019-10-22
+1777834,1777834,Fix Released,Unable to PATCH Metadata via horizon on Images Created with glance cli,https://bugs.launchpad.net/horizon/+bug/1777834,2019-10-22
+1779879,1779879,Fix Released,No image description field,https://bugs.launchpad.net/horizon/+bug/1779879,2019-10-22
+1831811,1831811,Fix Released,Unable to filter using same cidr value as used for subnet create,https://bugs.launchpad.net/neutron/+bug/1831811,2019-10-22
+1834257,1834257,Fix Released,dhcp-agent can overwhelm neutron server with dhcp_ready_on_ports RPC calls,https://bugs.launchpad.net/neutron/+bug/1834257,2019-10-22
+1828473,1828473,Fix Released,Dnsmasq spawned by neutron-dhcp-agent should use bind-dynamic option instead of bind-interfaces,https://bugs.launchpad.net/neutron/+bug/1828473,2019-10-22
+1825295,1825295,Fix Released,The openflow won't be deleted when we reboot and migrate the instance,https://bugs.launchpad.net/neutron/+bug/1825295,2019-10-22
+1830895,1830895,Fix Released,Debug test_assert_br_int_patch_port_ofports_dont_change errors,https://bugs.launchpad.net/neutron/+bug/1830895,2019-10-22
+1755810,1755810,Fix Released,concurrent calls to _bind_port_if_needed results in port stuck in DOWN status,https://bugs.launchpad.net/neutron/+bug/1755810,2019-10-22
+1828865,1828865,Fix Released,"Pass the correct subnet to the port creation function in ""test_port_ip_update_revises""",https://bugs.launchpad.net/neutron/+bug/1828865,2019-10-22
+1815142,1815142,Fix Released,ovsdbapp.exceptions.TimeoutException in functional tests,https://bugs.launchpad.net/neutron/+bug/1815142,2019-10-22
+1820865,1820865,Fix Released,"Fullstack tests are failing because of ""OSError: [Errno 22] failed to open netns""",https://bugs.launchpad.net/neutron/+bug/1820865,2019-10-22
+1840895,1840895,Fix Released,segment parameter check failed when creating network,https://bugs.launchpad.net/neutron/+bug/1840895,2019-10-22
+1843425,1843425,Fix Released,br-int lose flows ephemerally due to unnecessary flow operation,https://bugs.launchpad.net/neutron/+bug/1843425,2019-10-22
+1799137,1799137,Fix Released,[l3][port_forwarding] should not allow creating port_forwarding to a port which already has a binding floating IP,https://bugs.launchpad.net/neutron/+bug/1799137,2019-10-22
+1827363,1827363,Fix Released,Additional  port list / get_ports() failures when filtering and limiting at the same time,https://bugs.launchpad.net/neutron/+bug/1827363,2019-10-22
+1718345,1718345,Fix Released,ml2_distributed_port_bindings not cleared after migration from DVR,https://bugs.launchpad.net/neutron/+bug/1718345,2019-10-22
+1834068,1834068,Fix Released,"""Manage Networking service quotas"" admin guide needs to be ported to neutron repo",https://bugs.launchpad.net/neutron/+bug/1834068,2019-10-22
+1834825,1834825,Fix Released,Rule to prevent SNAT for router's internal traffic  is wrong,https://bugs.launchpad.net/neutron/+bug/1834825,2019-10-22
+1834484,1834484,Fix Released,[QoS] qos_plugin._extend_port_resource_request is killing port retrieval performance,https://bugs.launchpad.net/neutron/+bug/1834484,2019-10-22
+1838689,1838689,Fix Released,rpc_workers default value ignores setting of api_workers,https://bugs.launchpad.net/neutron/+bug/1838689,2019-10-22
+1833721,1833721,Fix Released,ip_lib synchronized decorator should wrap the privileged one,https://bugs.launchpad.net/neutron/+bug/1833721,2019-10-22
+1735588,1735588,Fix Released,"Mock autospec not used, or not used properly",https://bugs.launchpad.net/nova/+bug/1735588,2019-10-22
+1735588,1735588,Fix Released,"Mock autospec not used, or not used properly",https://bugs.launchpad.net/networking-hyperv/+bug/1735588,2019-10-22
+1554440,1554440,Fix Released,Show volume  attachment exception does not looks good if server is in shelved_offloaded state,https://bugs.launchpad.net/nova/+bug/1554440,2019-10-22
+1616450,1616450,Fix Released,add version info for help on hypervisor-list,https://bugs.launchpad.net/python-novaclient/+bug/1616450,2019-10-22
+1825061,1825061,Fix Released,server.create config_drive description is wrong,https://bugs.launchpad.net/python-novaclient/+bug/1825061,2019-10-22
+1849174,1849174,Fix Released,wsgi entrypoint does not work,https://bugs.launchpad.net/senlin/+bug/1849174,2019-10-22
+1849175,1849175,Fix Released,Custom uri e.g. /clustering/v1 does not work,https://bugs.launchpad.net/senlin/+bug/1849175,2019-10-22
+1737096,1737096,Fix Released,resources are not created after gnocchi is installed  resulting ceilometer agent to throw error ResourceTypeNotFound,https://bugs.launchpad.net/openstack-ansible/+bug/1737096,2019-10-21
+1844713,1844713,Fix Released,ironic pxe tftp server fail with IPv6,https://bugs.launchpad.net/tripleo/+bug/1844713,2019-10-21
+1841811,1841811,Fix Released,ovn vip should not be tied to haproxy,https://bugs.launchpad.net/tripleo/+bug/1841811,2019-10-21
+1844109,1844109,Fix Released,external upgrade/update run --tags container_image_prepare does not update images in the Undercloud,https://bugs.launchpad.net/tripleo/+bug/1844109,2019-10-21
+1847360,1847360,Fix Released,The Parameter (ExternalMtu) was not provided,https://bugs.launchpad.net/tripleo/+bug/1847360,2019-10-21
+1844767,1844767,Fix Released,undercloud - IPv6 - router created by undercloud conflict with infrastructure router,https://bugs.launchpad.net/tripleo/+bug/1844767,2019-10-21
+1847606,1847606,Fix Released,Make ipv6_address_mode and ipv6_ra_mode for ctlplane subnets configurable,https://bugs.launchpad.net/tripleo/+bug/1847606,2019-10-21
+1848359,1848359,Fix Released,Non-HA container images are not updated.,https://bugs.launchpad.net/tripleo/+bug/1848359,2019-10-21
+1845170,1845170,Fix Released,tripleo-ansible - uses 'proto' field to decide if rule is created in iptables or ip6tables,https://bugs.launchpad.net/tripleo/+bug/1845170,2019-10-21
+1845175,1845175,Fix Released,tripleo-ansible - firewall role does not open ipv6-icmp,https://bugs.launchpad.net/tripleo/+bug/1845175,2019-10-21
+1846399,1846399,Fix Released,octavia fails in overcloud config while listing subnets,https://bugs.launchpad.net/tripleo/+bug/1846399,2019-10-21
+1843535,1843535,Fix Released,HAproxy's redis check missing OK response on AUTH request,https://bugs.launchpad.net/tripleo/+bug/1843535,2019-10-21
+1845153,1845153,Fix Released,puppet-tripleo - not possible to create IPv4 or IPv6 only rules,https://bugs.launchpad.net/tripleo/+bug/1845153,2019-10-21
+1845222,1845222,Fix Released,Not possible to deploy undercloud with ipxe_enabled = false,https://bugs.launchpad.net/tripleo/+bug/1845222,2019-10-21
+1840992,1840992,Fix Released,paunch: cont_exec_args doesn't support unique names,https://bugs.launchpad.net/tripleo/+bug/1840992,2019-10-21
+1848172,1848172,Fix Released,Kuryr fails to release port when pod doesn't have status.hostIP set,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1848172,2019-10-21
+1728529,1728529,Fix Released,typo in 'Setting sysctl values' play in Neutron role,https://bugs.launchpad.net/kolla-ansible/+bug/1728529,2019-10-21
+1847814,1847814,Fix Released,periodic jobs timing out: rm -f /opt/git,https://bugs.launchpad.net/tripleo/+bug/1847814,2019-10-21

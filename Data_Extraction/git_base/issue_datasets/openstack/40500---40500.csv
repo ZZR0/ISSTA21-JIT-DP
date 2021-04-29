@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1599854,1599854,Fix Released,Murano actions fail to generate,https://bugs.launchpad.net/mistral/+bug/1599854,2016-07-13
+1599918,1599918,Fix Released,Test mistral.tests.unit.engine.test_environment.EnvironmentTest.test_subworkflow_env_recursive print invalid stacktrace in case there is assertion error,https://bugs.launchpad.net/mistral/+bug/1599918,2016-07-13
+1586082,1586082,Fix Released,"vpnaas: ""Failed to enable vpn process on router "" due to wrong rundir",https://bugs.launchpad.net/neutron/+bug/1586082,2016-07-13
+1602298,1602298,Fix Committed,[fuel-devops-3] Fuel-devops cannot use cloud images with custom metadata,https://bugs.launchpad.net/fuel/+bug/1602298,2016-07-13
+1579607,1579607,Fix Released,there is no guide for enabling v2 dashboard in devstack README.md,https://bugs.launchpad.net/neutron/+bug/1579607,2016-07-13
+1585538,1585538,Fix Released,Creating LBaaS pool related to LB (not listener) does not  reflect the new pool  to provider's driver,https://bugs.launchpad.net/neutron/+bug/1585538,2016-07-13
+1557992,1557992,Fix Released,NoSuchOptError: no such option: service_auth when using local cert manager,https://bugs.launchpad.net/neutron/+bug/1557992,2016-07-13
+1579314,1579314,Fix Released,there is no haproxy for lbaas v2 doc in devstack README.md,https://bugs.launchpad.net/neutron/+bug/1579314,2016-07-13
+1573828,1573828,Fix Released,Neutron-LBaaS v2: Providing invalid subnet_id to add member causing LB to go into pending_update indefinitely,https://bugs.launchpad.net/neutron/+bug/1573828,2016-07-13
+1591380,1591380,Fix Released,neutron-lbaas: broken tests after vip allocation behavior changed,https://bugs.launchpad.net/neutron/+bug/1591380,2016-07-13
+1588560,1588560,Fix Released,neutron-lbaas devstack plugin for ubuntu hard-codes trusty,https://bugs.launchpad.net/neutron/+bug/1588560,2016-07-13
+1588118,1588118,Fix Released,"In lbaasv2,when I create a listener,the function _check_pool_loadbalancer_match is not used  at the suitable place",https://bugs.launchpad.net/neutron/+bug/1588118,2016-07-13
+1592438,1592438,Fix Released,[LBaaS] Devstack plugin sets auth_uri option instead of auth_url in neutron.conf and neutron_lbaas.conf,https://bugs.launchpad.net/neutron/+bug/1592438,2016-07-13
+1599585,1599585,Fix Released,Neutron LBaaS: Scenario tests broke with latest tempest changes,https://bugs.launchpad.net/neutron/+bug/1599585,2016-07-13
+1596984,1596984,Fix Released,LBaaS: Models and migrations are out of sync,https://bugs.launchpad.net/neutron/+bug/1596984,2016-07-13
+1585116,1585116,Fix Released,[LBaaS] test_models_sync is skipped in UT due to the backend unavailability,https://bugs.launchpad.net/neutron/+bug/1585116,2016-07-13
+1596472,1596472,Fix Released,LBaaSv2 driver exceptions are suppressed by generic driver error,https://bugs.launchpad.net/neutron/+bug/1596472,2016-07-13
+1593565,1593565,Fix Released,test_cisco_fwaas_plugin failure,https://bugs.launchpad.net/neutron/+bug/1593565,2016-07-13
+1588502,1588502,Fix Released,Bump hacking version in neutron-dynamic-routing,https://bugs.launchpad.net/neutron/+bug/1588502,2016-07-13
+1583958,1583958,Fix Released,non-admin can create and list bgpspeakers but can not show or update speaker,https://bugs.launchpad.net/neutron/+bug/1583958,2016-07-13
+1519493,1519493,Fix Released,oslo_i18n cleanup needed,https://bugs.launchpad.net/neutron/+bug/1519493,2016-07-13
+1519493,1519493,Fix Released,oslo_i18n cleanup needed,https://bugs.launchpad.net/python-neutronclient/+bug/1519493,2016-07-13
+1581348,1581348,Fix Released,Can't delete a v4 csnat port when there is a v6 router interface attached,https://bugs.launchpad.net/neutron/+bug/1581348,2016-07-13
+1583601,1583601,Fix Released,Duplicated sg rules could be created with diff description,https://bugs.launchpad.net/neutron/+bug/1583601,2016-07-13
+1578233,1578233,Fix Released,functional tests fail with native ovsdb_interface enabled,https://bugs.launchpad.net/neutron/+bug/1578233,2016-07-13
+1561188,1561188,Fix Released,DB api: remove deprecated methods,https://bugs.launchpad.net/neutron/+bug/1561188,2016-07-13
+1587021,1587021,Fix Released,Log file full of info messages that segments are not supported,https://bugs.launchpad.net/neutron/+bug/1587021,2016-07-13
+1557407,1557407,Fix Released,macvtap: add devstack support for macvtap agent,https://bugs.launchpad.net/neutron/+bug/1557407,2016-07-13
+1588281,1588281,Fix Released,db_base_plugin_v2: id used instead of subnet_id,https://bugs.launchpad.net/neutron/+bug/1588281,2016-07-13
+1583835,1583835,Fix Released,dhcp api method get_active_networks is unused,https://bugs.launchpad.net/neutron/+bug/1583835,2016-07-13
+1517883,1517883,Fix Released,switch from oslo-incubator cache code to dogpile,https://bugs.launchpad.net/neutron/+bug/1517883,2016-07-13
+1589434,1589434,Fix Released,ROUTER_INTERFACE/BEFORE_DELETE event should provide router-id,https://bugs.launchpad.net/neutron/+bug/1589434,2016-07-13
+1468353,1468353,Fix Released,[RFE] QoS DSCP marking rule support,https://bugs.launchpad.net/neutron/+bug/1468353,2016-07-13
+1591878,1591878,Fix Released,Unit test not using neutron-lib constants,https://bugs.launchpad.net/neutron/+bug/1591878,2016-07-13
+1588906,1588906,Fix Released,DHCP port status not active until agent restart,https://bugs.launchpad.net/neutron/+bug/1588906,2016-07-13
+1594593,1594593,Fix Released,API tests are broken with 'TypeError: create_tenant() takes exactly 1 argument (2 given)',https://bugs.launchpad.net/neutron/+bug/1594593,2016-07-13
+1592463,1592463,Fix Released,Avoid removing SegmentHostMapping in other host when update agent,https://bugs.launchpad.net/neutron/+bug/1592463,2016-07-13
+1594898,1594898,Fix Released,functional DB tests based on SqlFixture don't actually use non-sqlite DB,https://bugs.launchpad.net/neutron/+bug/1594898,2016-07-13
+1584940,1584940,Fix Released,MTU calculations only support IPv4 tunnel endpoints don't account for IPv6,https://bugs.launchpad.net/neutron/+bug/1584940,2016-07-13
+1599275,1599275,Fix Released,Deprecate min_l3_agents_per_router option,https://bugs.launchpad.net/neutron/+bug/1599275,2016-07-13
+1599698,1599698,Fix Released,Associating a floating IP address to a server through Horizon failed,https://bugs.launchpad.net/neutron/+bug/1599698,2016-07-13
+1553634,1553634,Fix Released,"tox -r -e docs fails on doc/notification_samples/service-update.json with ""No JSON object could be decoded""",https://bugs.launchpad.net/nova/+bug/1553634,2016-07-13
+1427819,1427819,Fix Released,Downloading large objects from swift containers exhausts web-server memory,https://bugs.launchpad.net/horizon/+bug/1427819,2016-07-13
+1563871,1563871,Fix Released,Mention max_connections during SQL database phase in Installation Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1563871,2016-07-13
+1556256,1556256,Fix Released,barbican db manage breaks with mysql 5.5,https://bugs.launchpad.net/barbican/+bug/1556256,2016-07-13
+1500629,1500629,Fix Released,Convert devstack gate to use Alembic migrations,https://bugs.launchpad.net/barbican/+bug/1500629,2016-07-13
+1568141,1568141,Fix Released,Unhandled CRITICAL error raised for json-home request to /v1 resource,https://bugs.launchpad.net/barbican/+bug/1568141,2016-07-13
+1568648,1568648,Fix Released,Barbican server logs Secret Payload contents in PolicyNotAuthorized Exception message,https://bugs.launchpad.net/barbican/+bug/1568648,2016-07-13
+1541118,1541118,Fix Released,Barbican single host setting does not work with internal and public endpoints,https://bugs.launchpad.net/barbican/+bug/1541118,2016-07-13
+1571029,1571029,Fix Released,Improve provided href validation for containers creation,https://bugs.launchpad.net/barbican/+bug/1571029,2016-07-13
+1580461,1580461,Fix Released,oslo.messaging API change broke keystone listener,https://bugs.launchpad.net/barbican/+bug/1580461,2016-07-13
+1579801,1579801,Fix Released,keystonemiddleware integration should use auth plugin,https://bugs.launchpad.net/barbican/+bug/1579801,2016-07-13
+1582884,1582884,Fix Released,Safenet HSM CKR_TOKEN_NOT_PRESENT errors force application restart,https://bugs.launchpad.net/barbican/+bug/1582884,2016-07-13
+1582872,1582872,Fix Released,Expired Secrets count towards quota,https://bugs.launchpad.net/barbican/+bug/1582872,2016-07-13
+1590097,1590097,Fix Released,500 Error instead of 400 Bad Request when barbican secret get payload with missing payload_content_type,https://bugs.launchpad.net/barbican/+bug/1590097,2016-07-13
+1428183,1428183,Fix Released,Barbican tests fail because of incomplete test dependencies,https://bugs.launchpad.net/barbican/+bug/1428183,2016-07-13
+1597253,1597253,Fix Committed,[system-tests] fuel-devops Node object has wrong method Node._close_remotes(),https://bugs.launchpad.net/fuel/+bug/1597253,2016-07-13
+1590413,1590413,Fix Released,Unable to start a default job,https://bugs.launchpad.net/freezer/+bug/1590413,2016-07-13
+1591985,1591985,Fix Released,Tempest Tests Broken on Credentials,https://bugs.launchpad.net/freezer/+bug/1591985,2016-07-13
+1587408,1587408,Fix Released,freezer-db-init script is not working correctly,https://bugs.launchpad.net/freezer/+bug/1587408,2016-07-13
+1595144,1595144,Fix Released,_version is failing in elasticsearch 2.x,https://bugs.launchpad.net/freezer/+bug/1595144,2016-07-13
+1570401,1570401,Fix Released,unable to stop starting jobs in stop status,https://bugs.launchpad.net/freezer/+bug/1570401,2016-07-13
+1593212,1593212,Fix Released,Freezer api fails to encode return objects as json,https://bugs.launchpad.net/freezer/+bug/1593212,2016-07-13
+1598819,1598819,Fix Released,error handler support not available in falcon < 0.1.8,https://bugs.launchpad.net/freezer/+bug/1598819,2016-07-13
+1598820,1598820,Fix Released,falcon 0.1.6 does not expose <module>.__version__,https://bugs.launchpad.net/freezer/+bug/1598820,2016-07-13
+1600750,1600750,Fix Released,Fix 'ElastichSearch' typo in freezer-api source,https://bugs.launchpad.net/freezer/+bug/1600750,2016-07-13
+1587713,1587713,Fix Released,deleted unavailable variable,https://bugs.launchpad.net/freezer/+bug/1587713,2016-07-13
+1589788,1589788,Fix Released,Fix the failure of loading  the instance of MongoDbMode,https://bugs.launchpad.net/freezer/+bug/1589788,2016-07-13
+1588461,1588461,Fix Released,freezer-agent is not using the correct log,https://bugs.launchpad.net/freezer/+bug/1588461,2016-07-13
+1590787,1590787,Fix Released,Scheduler fails due to incompatibilities with keystoneauth1,https://bugs.launchpad.net/freezer/+bug/1590787,2016-07-13
+1591347,1591347,Fix Released,Freezer Tar Error Handling Not Working Correctly,https://bugs.launchpad.net/freezer/+bug/1591347,2016-07-13
+1592589,1592589,Fix Released,Class QueuedThread does not proopagate exceptions to caller,https://bugs.launchpad.net/freezer/+bug/1592589,2016-07-13
+1593452,1593452,Fix Released,Freezer Agent tox.ini file for flake8 is incorrect,https://bugs.launchpad.net/freezer/+bug/1593452,2016-07-13
+1595670,1595670,Fix Released,Freezer Agent does not trap tar restore errors,https://bugs.launchpad.net/freezer/+bug/1595670,2016-07-13
+1597105,1597105,Fix Released,tar error handling has format string with incorrect args,https://bugs.launchpad.net/freezer/+bug/1597105,2016-07-13

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1469942,1469942,Fix Released,Error message of quota exceeded don't contain enough information,https://bugs.launchpad.net/nova/+bug/1469942,2015-10-15
+1478800,1478800,Fix Released,Libvirt migrations with rsync are slow,https://bugs.launchpad.net/nova/+bug/1478800,2015-10-15
+1459468,1459468,Fix Released,"When doing resize action, CONF.allow_resize_to_same_host should check only once",https://bugs.launchpad.net/nova/+bug/1459468,2015-10-15
+1498634,1498634,Fix Released,pep8 check not on api/openstack/common.py,https://bugs.launchpad.net/nova/+bug/1498634,2015-10-15
+1494289,1494289,Fix Released,Docstring for validators._soft_validate_additional_properties is incomplete,https://bugs.launchpad.net/nova/+bug/1494289,2015-10-15
+1494125,1494125,Fix Released,"When post an unkown external event to nova api, it will return 500",https://bugs.launchpad.net/nova/+bug/1494125,2015-10-15
+1491951,1491951,Fix Released,missing logging variable in nova network manager deallocate_fixed_ip,https://bugs.launchpad.net/nova/+bug/1491951,2015-10-15
+1488637,1488637,Fix Released,tox -e docs fails trying to import nova.pci.device,https://bugs.launchpad.net/nova/+bug/1488637,2015-10-15
+1486791,1486791,Fix Released,Fix mistake in UT: test_detach_unattached_volume,https://bugs.launchpad.net/nova/+bug/1486791,2015-10-15
+1486410,1486410,Fix Released,Hyper-V: detach_interface raises NotImplementedError during neutron event,https://bugs.launchpad.net/nova/+bug/1486410,2015-10-15
+1485429,1485429,Fix Released,Unit test case for unshelving a volume backed instance is not correct,https://bugs.launchpad.net/nova/+bug/1485429,2015-10-15
+1484830,1484830,Fix Released,Fail early when live-migrate with block-migration and bdm,https://bugs.launchpad.net/nova/+bug/1484830,2015-10-15
+1484223,1484223,Fix Released,"Revert ""Revert ""Add VIF_DELETED notification event to Nova""""",https://bugs.launchpad.net/nova/+bug/1484223,2015-10-15
+1481123,1481123,Fix Released,"Typos of 'address', 'current' and 'concurrent'",https://bugs.launchpad.net/nova/+bug/1481123,2015-10-15
+1475911,1475911,Fix Released,nova-idmapshift outputs incorrect usage,https://bugs.launchpad.net/nova/+bug/1475911,2015-10-15
+1471307,1471307,Fix Released,Resize to a flavor with swap doesn't create the swap device if a volume is attached,https://bugs.launchpad.net/nova/+bug/1471307,2015-10-15
+1443640,1443640,Fix Released,Cells: race condition when saving an instance,https://bugs.launchpad.net/nova/+bug/1443640,2015-10-15
+1390033,1390033,Fix Released,Inconsistent info of availability zone (az) if the default az is replaced,https://bugs.launchpad.net/nova/+bug/1390033,2015-10-15
+1495547,1495547,Fix Released,nova.tests.unit.test_crypto.RevokeCertsTest.test_revoke_cert_project_not_found_chdir_fails fails locally since ~9/11,https://bugs.launchpad.net/nova/+bug/1495547,2015-10-15
+1493961,1493961,Fix Released,nova-conductor object debug does not format,https://bugs.launchpad.net/nova/+bug/1493961,2015-10-15
+1489874,1489874,Fix Released,No logging is done if live-migration fails,https://bugs.launchpad.net/nova/+bug/1489874,2015-10-15
+1488884,1488884,Fix Released,xapi live migration rollback should clean up any volume attached during migration,https://bugs.launchpad.net/nova/+bug/1488884,2015-10-15
+1487176,1487176,Fix Released,`nova-manage db expand` fails in dry run mode,https://bugs.launchpad.net/nova/+bug/1487176,2015-10-15
+1486590,1486590,Fix Released,nova.conf.sample does not have neutron<->keystone auth plugin configuration,https://bugs.launchpad.net/nova/+bug/1486590,2015-10-15
+1486541,1486541,Fix Released,"Using cells, local instance deletes incorrectly use legacy bdms instead of objects",https://bugs.launchpad.net/nova/+bug/1486541,2015-10-15
+1480029,1480029,Fix Released,lack index of instance_system_metadata.instance_uuid in pgsql,https://bugs.launchpad.net/nova/+bug/1480029,2015-10-15
+1479129,1479129,Fix Released,Hyper-V doesn't boot instances from volume with ephemeral disk,https://bugs.launchpad.net/nova/+bug/1479129,2015-10-15
+1478430,1478430,Fix Released,nova failed to list old db instances,https://bugs.launchpad.net/nova/+bug/1478430,2015-10-15
+1477110,1477110,Fix Released,Online snapshot delete fails for network disk type,https://bugs.launchpad.net/nova/+bug/1477110,2015-10-15
+1446638,1446638,Fix Released,api has issues when Sorting and pagination params used as filters,https://bugs.launchpad.net/nova/+bug/1446638,2015-10-15
+1446032,1446032,Fix Released,Missing delete policy in policy sample file,https://bugs.launchpad.net/nova/+bug/1446032,2015-10-15
+1429581,1429581,Fix Released,[VMware] Failed to attach volume due to wrong host iqn,https://bugs.launchpad.net/nova/+bug/1429581,2015-10-15
+1428136,1428136,Fix Released,Nova v3 API still listed in the paste pipeline,https://bugs.launchpad.net/nova/+bug/1428136,2015-10-15
+1385489,1385489,Fix Released,ResourceTracker._update_usage_from_migrations() is inefficient due to multiple Instance.get_by_uuid() lookups,https://bugs.launchpad.net/nova/+bug/1385489,2015-10-15
+1156456,1156456,Fix Released,libvirt CPU info doesn't count NUMA cells,https://bugs.launchpad.net/nova/+bug/1156456,2015-10-15
+1072751,1072751,Fix Released,Instance recovery needed when Compute service goes down during Reboot,https://bugs.launchpad.net/nova/+bug/1072751,2015-10-15
+1498075,1498075,Fix Released,Filter leading/trailing spaces for name field in v2.1 compat mode,https://bugs.launchpad.net/nova/+bug/1498075,2015-10-15
+1497896,1497896,Fix Released,Libvirt: unable to launch a VM with direct OVS plugging neutron drivers,https://bugs.launchpad.net/nova/+bug/1497896,2015-10-15
+1496557,1496557,Fix Released,xenapi boot from volume is broken after move to ImageMeta object if volume passed in,https://bugs.launchpad.net/nova/+bug/1496557,2015-10-15
+1494467,1494467,Fix Released,Fix ScaleIO commands in rootwrap filters,https://bugs.launchpad.net/nova/+bug/1494467,2015-10-15
+1492925,1492925,Fix Released,Lack of API schema definition for different cell filter,https://bugs.launchpad.net/nova/+bug/1492925,2015-10-15
+1491307,1491307,Fix Released,[OSSA 2015-021] secgroup rules doesn't work for instance immediately (CVE-2015-7713),https://bugs.launchpad.net/nova/+bug/1491307,2015-10-15
+1491307,1491307,Fix Released,[OSSA 2015-021] secgroup rules doesn't work for instance immediately (CVE-2015-7713),https://bugs.launchpad.net/ossa/+bug/1491307,2015-10-15
+1486880,1486880,Fix Released,Can't delete an instance if boot from  encryption volume,https://bugs.launchpad.net/nova/+bug/1486880,2015-10-15
+1486458,1486458,Fix Released,Hyper-V: snapshot fails if the instance is destroyed beforehand,https://bugs.launchpad.net/nova/+bug/1486458,2015-10-15
+1485408,1485408,Fix Released,Deadlock when querying user quota usage.,https://bugs.launchpad.net/nova/+bug/1485408,2015-10-15
+1485059,1485059,Fix Released,bdm image property should overload 'mappings' one for instance launch,https://bugs.launchpad.net/nova/+bug/1485059,2015-10-15
+1482444,1482444,Fix Released,Abnormal changes of quota usage after instance restored by admin,https://bugs.launchpad.net/nova/+bug/1482444,2015-10-15
+1466390,1466390,Fix Released,server group can be shown and deleted by not owner tenant,https://bugs.launchpad.net/nova/+bug/1466390,2015-10-15
+1462901,1462901,Fix Released,Remove v3 and plugins from nova code tree,https://bugs.launchpad.net/nova/+bug/1462901,2015-10-15
+1443816,1443816,Fix Released,cells: config drive doesn't work with cells when injecting an ssh key,https://bugs.launchpad.net/nova/+bug/1443816,2015-10-15
+1382630,1382630,Fix Released,access_ip_* not updated on reschedules when they should be,https://bugs.launchpad.net/nova/+bug/1382630,2015-10-15
+1226049,1226049,Fix Released,instance_system_metadata rows not being deleted,https://bugs.launchpad.net/nova/+bug/1226049,2015-10-15
+1492255,1492255,Fix Released,Cells gate job fails because of 2 network tests,https://bugs.launchpad.net/nova/+bug/1492255,2015-10-15
+1492121,1492121,Fix Released,VMware: failed volume detachment leads to instances remaining on backend and volume still in 'in-use' state,https://bugs.launchpad.net/nova/+bug/1492121,2015-10-15
+1485631,1485631,Fix Released,"CPU/RAM overcommit treated differently by ""normal"" and ""NUMA topology"" case",https://bugs.launchpad.net/nova/+bug/1485631,2015-10-15
+1483993,1483993,Fix Released,Fix three typos on nova/pci directory,https://bugs.launchpad.net/nova/+bug/1483993,2015-10-15
+1483613,1483613,Fix Released,It may be possible to request (un)pinning of CPUs not in the NUMA cpuset,https://bugs.launchpad.net/nova/+bug/1483613,2015-10-15
+1483486,1483486,Fix Released,Ironic: get_available_resource doesn't report numa_topology,https://bugs.launchpad.net/nova/+bug/1483486,2015-10-15
+1482191,1482191,Fix Released,Error message is too generic when boot with volume creation fails with exceeded quota,https://bugs.launchpad.net/nova/+bug/1482191,2015-10-15
+1482019,1482019,Fix Released,resource leak when launching pci instance on host that don't have enough pci resources,https://bugs.launchpad.net/nova/+bug/1482019,2015-10-15
+1481271,1481271,Fix Released,formely is not correct,https://bugs.launchpad.net/nova/+bug/1481271,2015-10-15
+1481078,1481078,Fix Released,auto_disk_config image property incorrectly treated as boolean during rescue mode boot,https://bugs.launchpad.net/nova/+bug/1481078,2015-10-15
+1480222,1480222,Fix Released,hw:mem_page_size=2MB|1GB unsupported,https://bugs.launchpad.net/nova/+bug/1480222,2015-10-15
+1480040,1480040,Fix Released,Allow resize root_gb to 0 for volume-backed instances,https://bugs.launchpad.net/nova/+bug/1480040,2015-10-15
+1479532,1479532,Fix Released,Ironic driver needs to handle nodes in CLEANWAIT state,https://bugs.launchpad.net/nova/+bug/1479532,2015-10-15
+1479361,1479361,Fix Released,missing _ in API documentation for hw properties,https://bugs.launchpad.net/nova/+bug/1479361,2015-10-15
+1479291,1479291,Fix Released,Cannot attach to iscsi volume with multipath,https://bugs.launchpad.net/nova/+bug/1479291,2015-10-15
+1478003,1478003,Fix Released,Fix seven typos on nova documentation,https://bugs.launchpad.net/nova/+bug/1478003,2015-10-15
+1476931,1476931,Fix Released,monkey_patch broken,https://bugs.launchpad.net/nova/+bug/1476931,2015-10-15
+1476530,1476530,Fix Released,Iscsi session still connect after detach volume from paused instance,https://bugs.launchpad.net/nova/+bug/1476530,2015-10-15
+1471978,1471978,Fix Released,test_relationships() uses subobject version instead of relationship version,https://bugs.launchpad.net/nova/+bug/1471978,2015-10-15
+1468431,1468431,Fix Released,Nova delayed instance lifecycle events issue,https://bugs.launchpad.net/nova/+bug/1468431,2015-10-15
+1467916,1467916,Fix Released,Hyper-V: get free SCSI controller slot issue on V1,https://bugs.launchpad.net/nova/+bug/1467916,2015-10-15
+1466387,1466387,Fix Released,wrong error message when fixed_ip is not valid in nova boot,https://bugs.launchpad.net/nova/+bug/1466387,2015-10-15

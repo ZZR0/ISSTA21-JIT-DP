@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1830827,1830827,Fix Released,Sync Sphinx requirement,https://bugs.launchpad.net/tripleo/+bug/1830827,2019-09-18
+1835171,1835171,Fix Released,Octavia should use keystone internal endpoint when deploying on networker nodes,https://bugs.launchpad.net/tripleo/+bug/1835171,2019-09-18
+1836604,1836604,Fix Released,OVN: bump the ovn-remote-probe-interval for ovn-controller,https://bugs.launchpad.net/tripleo/+bug/1836604,2019-09-18
+1837043,1837043,Fix Released,octavia uses incorrect hostname when creating health manager ports,https://bugs.launchpad.net/tripleo/+bug/1837043,2019-09-18
+1837030,1837030,Fix Released,data type error for revalidator/handler threads in heat templates,https://bugs.launchpad.net/tripleo/+bug/1837030,2019-09-18
+1836531,1836531,Fix Released,standalone upgrade job fails when upgrading mysql container,https://bugs.launchpad.net/tripleo/+bug/1836531,2019-09-18
+1837731,1837731,Fix Released,libvirt-guest systemd service won't get set on compute when NovaResumeGuestsStateOnHostBoot: True,https://bugs.launchpad.net/tripleo/+bug/1837731,2019-09-18
+1831885,1831885,Fix Released,Stein network-isolation template processing broken,https://bugs.launchpad.net/tripleo/+bug/1831885,2019-09-18
+1837942,1837942,Fix Released,minion install locks user out of host via ssh,https://bugs.launchpad.net/tripleo/+bug/1837942,2019-09-18
+1836729,1836729,Fix Released,Rocky minor upgrade fails if Octavia service is deployed ('internal_tls_enabled' is undefined),https://bugs.launchpad.net/tripleo/+bug/1836729,2019-09-18
+1793581,1793581,Fix Released,Remove legacy controller-v6.j2.yaml NIC config templates,https://bugs.launchpad.net/tripleo/+bug/1793581,2019-09-18
+1838099,1838099,Fix Released,errors is misspelled (errros) in THT's deploy-steps.j2,https://bugs.launchpad.net/tripleo/+bug/1838099,2019-09-18
+1838196,1838196,Fix Released,ml2-ansible deployment fails with error,https://bugs.launchpad.net/tripleo/+bug/1838196,2019-09-18
+1837195,1837195,Fix Released,Ceph MDS pools creation fails,https://bugs.launchpad.net/tripleo/+bug/1837195,2019-09-18
+1838159,1838159,Fix Released,Kernel module vfio_iommu_type1 is not loaded on reboot,https://bugs.launchpad.net/tripleo/+bug/1838159,2019-09-18
+1837099,1837099,Fix Released,puppet-tripleo is always configuring manila cephfs backend to use manila_data,https://bugs.launchpad.net/tripleo/+bug/1837099,2019-09-18
+1838279,1838279,Fix Released,ha restart bundles do not work on podman when the service runs on pacemaker remote,https://bugs.launchpad.net/tripleo/+bug/1838279,2019-09-18
+1839033,1839033,Fix Released,Overcloud: Missing healthcheck for panko_api_cron container,https://bugs.launchpad.net/tripleo/+bug/1839033,2019-09-18
+1839305,1839305,Fix Released,HA Overcloud: Redis TLS deployment is broken,https://bugs.launchpad.net/tripleo/+bug/1839305,2019-09-18
+1838412,1838412,Fix Released,"scenario010-multinode-oooq-container fails because  ""KeyError: ''rotational''"" in ceph deployment",https://bugs.launchpad.net/tripleo/+bug/1838412,2019-09-18
+1839321,1839321,Fix Released,"""Sync cached facts"" task fails on dry-run",https://bugs.launchpad.net/tripleo/+bug/1839321,2019-09-18
+1839324,1839324,Fix Released,Overcloud deployment on pre-deployed servers fails due to missing SSH firewall rule,https://bugs.launchpad.net/tripleo/+bug/1839324,2019-09-18
+1839635,1839635,Fix Released,ovn-dbs-bundle fails to restart during update.,https://bugs.launchpad.net/tripleo/+bug/1839635,2019-09-18
+1839789,1839789,Fix Released,During cell_v2 update external_deploy_steps_tasks.yaml is empty,https://bugs.launchpad.net/tripleo/+bug/1839789,2019-09-18
+1823760,1823760,Fix Released,[cells v2 multicell] nova metadata api per cell,https://bugs.launchpad.net/tripleo/+bug/1823760,2019-09-18
+1840039,1840039,Fix Released,adding additional subnets fail as no network segment is assigned to the default subnets,https://bugs.launchpad.net/tripleo/+bug/1840039,2019-09-18
+1840054,1840054,Fix Released,VLAN IDs of subnets not assigned correct,https://bugs.launchpad.net/tripleo/+bug/1840054,2019-09-18
+1840059,1840059,Fix Released,When using external_resource_subnet_id and external_resource_segment_id in additional subnets the deployment fails,https://bugs.launchpad.net/tripleo/+bug/1840059,2019-09-18
+1840138,1840138,Fix Released,Disable Glance multiple_locations past Mitaka,https://bugs.launchpad.net/tripleo/+bug/1840138,2019-09-18
+1840140,1840140,Fix Released,allow libvirtd log_filters to be configured via tripleo,https://bugs.launchpad.net/tripleo/+bug/1840140,2019-09-18
+1840180,1840180,Fix Released,Unable to specify additional kernel related packages to install,https://bugs.launchpad.net/tripleo/+bug/1840180,2019-09-18
+1840447,1840447,Fix Released,Add parameter to configure libvirt tls_priority,https://bugs.launchpad.net/tripleo/+bug/1840447,2019-09-18
+1840607,1840607,Fix Released,Horizon uses /tmp inside container to store temporary files for image upload,https://bugs.launchpad.net/tripleo/+bug/1840607,2019-09-18
+1840618,1840618,Fix Released,overcloud deploy fails with NovaResumeGuestsStateOnHostBoot: True and podman,https://bugs.launchpad.net/tripleo/+bug/1840618,2019-09-18
+1840651,1840651,Fix Released,cephfs_data_pool should be into ceph-ansible all vars not mds only,https://bugs.launchpad.net/tripleo/+bug/1840651,2019-09-18
+1840983,1840983,Fix Released,nfs-ganesha bind_addr has invalid IPv6 address,https://bugs.launchpad.net/tripleo/+bug/1840983,2019-09-18
+1840999,1840999,Fix Released,bootstrap containers need KOLLA_BOOTSTRAP=True,https://bugs.launchpad.net/tripleo/+bug/1840999,2019-09-18
+1841100,1841100,Fix Released,notifications needed for novajoin not working when telemetry is disabled,https://bugs.launchpad.net/tripleo/+bug/1841100,2019-09-18
+1841415,1841415,Fix Released,[Stein] MariaDB fails to upgrade,https://bugs.launchpad.net/tripleo/+bug/1841415,2019-09-18
+1841590,1841590,Fix Released,Best-effort upgrade migrations being a red herring when upgrade hits trouble,https://bugs.launchpad.net/tripleo/+bug/1841590,2019-09-18
+1841805,1841805,Fix Released,undercloud install errors if using both ipv4 and ipv6 nameservers in the configuration,https://bugs.launchpad.net/tripleo/+bug/1841805,2019-09-18
+1841864,1841864,Fix Released,Invalid hieradata specified for glance authtoken configuration,https://bugs.launchpad.net/tripleo/+bug/1841864,2019-09-18
+1842074,1842074,Fix Released,tripleo-ci-centos-7-scenario010-standalone has failed podman container placement_api_db_extract_data_from_nova_api,https://bugs.launchpad.net/tripleo/+bug/1842074,2019-09-18
+1842410,1842410,Fix Released,"always tag doesn't work right with nested ""include_tasks""",https://bugs.launchpad.net/tripleo/+bug/1842410,2019-09-18
+1842938,1842938,Fix Released,server snapshot fails - 403 forbidden - on glance with ceph,https://bugs.launchpad.net/tripleo/+bug/1842938,2019-09-18
+1812960,1812960,Fix Released,"""openstack undercloud backup"" creates empty files",https://bugs.launchpad.net/tripleo/+bug/1812960,2019-09-18
+1836761,1836761,Fix Released,pre-commit fails for tripleo-common trying to fetch flake8,https://bugs.launchpad.net/tripleo/+bug/1836761,2019-09-18
+1838536,1838536,Fix Released,tripleo.ansible-generate-inventory action broken with ansible_python_interpreter,https://bugs.launchpad.net/tripleo/+bug/1838536,2019-09-18
+1838612,1838612,Fix Released,not support conductor_group in node creation,https://bugs.launchpad.net/tripleo/+bug/1838612,2019-09-18
+1838861,1838861,Fix Released,config download uses expensive api calls for deployment_name,https://bugs.launchpad.net/tripleo/+bug/1838861,2019-09-18
+1839423,1839423,Fix Released,[RHEL-8][container-build]No match for argument: collectd-sensubility,https://bugs.launchpad.net/tripleo/+bug/1839423,2019-09-18
+1840137,1840137,Fix Released,unclosed socket warnings during image prepare,https://bugs.launchpad.net/tripleo/+bug/1840137,2019-09-18
+1841203,1841203,Fix Released,image uploader fails when pull source ends with a trailing slash,https://bugs.launchpad.net/tripleo/+bug/1841203,2019-09-18
+1839546,1839546,Fix Released,multistack DCN deployment fails on compute; hiera memcached_node_ips is nil,https://bugs.launchpad.net/tripleo/+bug/1839546,2019-09-18
+1843422,1843422,Fix Released,OVB featureset039 all-TLS job fails in master,https://bugs.launchpad.net/tripleo/+bug/1843422,2019-09-18
+1837623,1837623,Fix Released,undercloud minion doesn't honor the minion_local_interface,https://bugs.launchpad.net/tripleo/+bug/1837623,2019-09-18
+1836976,1836976,Fix Released,wait_for_introspection_to_finish sometimes fails with a keystoneauth1.exceptions.connection.ConnectFailure,https://bugs.launchpad.net/tripleo/+bug/1836976,2019-09-18
+1838506,1838506,Fix Released,tripleoclient unit tests fail intermitently at packaging (again),https://bugs.launchpad.net/tripleo/+bug/1838506,2019-09-18
+1786204,1786204,Fix Released,Containers image prepare fails if cant generate the output file,https://bugs.launchpad.net/tripleo/+bug/1786204,2019-09-18
+1838540,1838540,Fix Released,Deployment workflow doesn't entertain ansible_python_interpreter input,https://bugs.launchpad.net/tripleo/+bug/1838540,2019-09-18
+1713539,1713539,Fix Released,tripleoclient uses print rather than LOG.warning,https://bugs.launchpad.net/tripleo/+bug/1713539,2019-09-18
+1838828,1838828,Fix Released,enable_telemetry=false in undercloud.conf doesn't set notification_driver to noop,https://bugs.launchpad.net/tripleo/+bug/1838828,2019-09-18
+1833302,1833302,Fix Released,undercloud install breaks shell command line,https://bugs.launchpad.net/tripleo/+bug/1833302,2019-09-18
+1840711,1840711,Fix Released,"The role of --http-boot in ""openstack overcloud image upload"" should be clearer",https://bugs.launchpad.net/tripleo/+bug/1840711,2019-09-18
+1842754,1842754,Fix Released,unused parameter list during the deployment should exclude known acceptable params,https://bugs.launchpad.net/tripleo/+bug/1842754,2019-09-18
+1835615,1835615,Fix Released,[fs01][master] Error: /Stage[main]/Tripleo::Profile::Pacemaker::Rabbitmq_bundle/Rabbitmq_policy[ha-all@/]: Could not evaluate: undefined method `scan' for nil:NilClass,https://bugs.launchpad.net/tripleo/+bug/1835615,2019-09-18
+1840901,1840901,Fix Released,Jobs failing with:- Could not find class ::ceilometer::dispatcher::gnocchi,https://bugs.launchpad.net/tripleo/+bug/1840901,2019-09-18
+1839841,1839841,Fix Released,paunch systemd units enablement might trigger the rate limiting,https://bugs.launchpad.net/tripleo/+bug/1839841,2019-09-18
+1838363,1838363,Fix Released,DPDK: Avoid overriding driver again during next os-net-config run,https://bugs.launchpad.net/tripleo/+bug/1838363,2019-09-18
+1784953,1784953,Fix Released,Useful image properties in glance - os_shutdown_timeout is not documented,https://bugs.launchpad.net/glance/+bug/1784953,2019-09-18
+1826136,1826136,Fix Released,powervm as hypervisor type required for image metadata prefiltering,https://bugs.launchpad.net/glance/+bug/1826136,2019-09-18
+1805679,1805679,Fix Released,hwrng only works if the flavor property is also set,https://bugs.launchpad.net/glance/+bug/1805679,2019-09-18
+1831963,1831963,Fix Released,unit tests fails with new glance_store version 0.29.0,https://bugs.launchpad.net/glance/+bug/1831963,2019-09-18
+1831996,1831996,Fix Released,"glance project ""tips"" jobs should be runnable on demand",https://bugs.launchpad.net/glance/+bug/1831996,2019-09-18
+1832490,1832490,Fix Released,Avoid keyerror which might cause failure of functional tests,https://bugs.launchpad.net/glance/+bug/1832490,2019-09-18

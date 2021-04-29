@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1041385,1041385,Fix Released,Deprecation change broke SimpleScheduler,https://bugs.launchpad.net/nova/+bug/1041385,2012-09-27
+1041236,1041236,Fix Released,Detaching a volume again results in a traceback,https://bugs.launchpad.net/nova/+bug/1041236,2012-09-27
+1040818,1040818,Fix Released,Unused flags in Nova,https://bugs.launchpad.net/nova/+bug/1040818,2012-09-27
+1040758,1040758,Fix Released,PowerVM compute driver still using virt.driver.InstanceInfo,https://bugs.launchpad.net/nova/+bug/1040758,2012-09-27
+1040385,1040385,Fix Released,allow nova delete to continue if quantum port delete fails,https://bugs.launchpad.net/nova/+bug/1040385,2012-09-27
+1040385,1040385,Fix Released,allow nova delete to continue if quantum port delete fails,https://bugs.launchpad.net/neutron/+bug/1040385,2012-09-27
+1040246,1040246,Fix Released,hyperv_attaching_volume_retry_count and hyperv_wait_between_attach_retry should be IntOpt not StrOpt,https://bugs.launchpad.net/nova/+bug/1040246,2012-09-27
+1039898,1039898,Fix Released,file .gitignore has reduplicate item,https://bugs.launchpad.net/nova/+bug/1039898,2012-09-27
+1039891,1039891,Fix Released,libvirt domains are never re-registered,https://bugs.launchpad.net/nova/+bug/1039891,2012-09-27
+1039745,1039745,Fix Released,pip dependency list is out of date,https://bugs.launchpad.net/nova/+bug/1039745,2012-09-27
+1039697,1039697,Fix Released,hacking.py N801/N302 doesn't set the return value to -1,https://bugs.launchpad.net/nova/+bug/1039697,2012-09-27
+1039579,1039579,Fix Released,availability-zone should be available in openstack metadata,https://bugs.launchpad.net/nova/+bug/1039579,2012-09-27
+1039432,1039432,Fix Released,Some FloatingIP tests are not testing properly,https://bugs.launchpad.net/nova/+bug/1039432,2012-09-27
+1039139,1039139,Fix Released,Cannot create a server associated with a keypair throuhg XML API,https://bugs.launchpad.net/nova/+bug/1039139,2012-09-27
+1037946,1037946,Fix Released,I18N problem in Nova's test suites,https://bugs.launchpad.net/nova/+bug/1037946,2012-09-27
+1037885,1037885,Fix Released,Command 'nova list --status DELETED' returns nothing for admin,https://bugs.launchpad.net/nova/+bug/1037885,2012-09-27
+1037729,1037729,Fix Released,xenapi: rescue fails with hvm instances,https://bugs.launchpad.net/nova/+bug/1037729,2012-09-27
+1037705,1037705,Fix Released,Remove unused imports,https://bugs.launchpad.net/nova/+bug/1037705,2012-09-27
+1036826,1036826,Fix Released,Using reset for hard_reboot is not reliable,https://bugs.launchpad.net/nova/+bug/1036826,2012-09-27
+1035726,1035726,Fix Released,EC2 RunInstances fails with formatting error when multiple instances cannot be scheduled,https://bugs.launchpad.net/nova/+bug/1035726,2012-09-27
+1035317,1035317,Fix Released,all instances have user data,https://bugs.launchpad.net/nova/+bug/1035317,2012-09-27
+1034547,1034547,Fix Released,notification for the instance metadata change is missing,https://bugs.launchpad.net/nova/+bug/1034547,2012-09-27
+1032558,1032558,Fix Released,Disassociate Floating IP with wrong servers ID is successful,https://bugs.launchpad.net/nova/+bug/1032558,2012-09-27
+1032405,1032405,Fix Released,RBDDriver does not support volume creation from snapshots,https://bugs.launchpad.net/nova/+bug/1032405,2012-09-27
+1024789,1024789,Fix Released,deallocate_fixed_ip called incorrectly,https://bugs.launchpad.net/nova/+bug/1024789,2012-09-27
+1015853,1015853,Fix Released,DNAT rule for accessing metadata server does not work if metadata_host is 127.0.0.1,https://bugs.launchpad.net/nova/+bug/1015853,2012-09-27
+1011166,1011166,Fix Released,[Nova-volume][tgtd] Failed to detach volume / delete instance when target is already disconnected,https://bugs.launchpad.net/nova/+bug/1011166,2012-09-27
+1052052,1052052,Fix Released,Quota reservation leaks when volume failed to schedule,https://bugs.launchpad.net/nova/+bug/1052052,2012-09-27
+1052052,1052052,Fix Released,Quota reservation leaks when volume failed to schedule,https://bugs.launchpad.net/cinder/+bug/1052052,2012-09-27
+1051600,1051600,Fix Released,Resizing an instance with a volume attached fails to reattach volume to instance,https://bugs.launchpad.net/nova/+bug/1051600,2012-09-27
+1051069,1051069,Fix Released,backup fails to reset instance task_state to None,https://bugs.launchpad.net/nova/+bug/1051069,2012-09-27
+1051010,1051010,Fix Released,Can't delete instances using old libvirt (oneiric),https://bugs.launchpad.net/nova/+bug/1051010,2012-09-27
+1050797,1050797,Fix Released,user_data can't be passed in xml,https://bugs.launchpad.net/nova/+bug/1050797,2012-09-27
+1049099,1049099,Fix Released,XenAPI: cannot add/remove host to hypervisor pool,https://bugs.launchpad.net/nova/+bug/1049099,2012-09-27
+1048869,1048869,Fix Released,Regular user can't boot with requested ip,https://bugs.launchpad.net/nova/+bug/1048869,2012-09-27
+1048798,1048798,Fix Released,cinderclient service catalog lookup fails,https://bugs.launchpad.net/nova/+bug/1048798,2012-09-27
+1047628,1047628,Fix Released,correct libvirt ephemeral disk filename,https://bugs.launchpad.net/nova/+bug/1047628,2012-09-27
+1047530,1047530,Fix Released,Tempdirs left behind after test run on python 2.7,https://bugs.launchpad.net/nova/+bug/1047530,2012-09-27
+1047120,1047120,Fix Released,run_test.sh fails to install venv with most recent version of pip (1.2),https://bugs.launchpad.net/nova/+bug/1047120,2012-09-27
+1047120,1047120,Fix Released,run_test.sh fails to install venv with most recent version of pip (1.2),https://bugs.launchpad.net/cinder/+bug/1047120,2012-09-27
+1047033,1047033,Fix Released,nova's usage of cinderclient url should be configurable,https://bugs.launchpad.net/nova/+bug/1047033,2012-09-27
+1046484,1046484,Fix Released,deleting volume in 'error' state fails,https://bugs.launchpad.net/cinder/+bug/1046484,2012-09-27
+1046484,1046484,Fix Released,deleting volume in 'error' state fails,https://bugs.launchpad.net/nova/+bug/1046484,2012-09-27
+1046464,1046464,Fix Released,euca-create-volume fails w/ Cinder,https://bugs.launchpad.net/nova/+bug/1046464,2012-09-27
+1046040,1046040,Fix Released,Project-specific flavors broke Horizon flavor admin,https://bugs.launchpad.net/nova/+bug/1046040,2012-09-27
+1046040,1046040,Fix Released,Project-specific flavors broke Horizon flavor admin,https://bugs.launchpad.net/horizon/+bug/1046040,2012-09-27
+1046021,1046021,Fix Released,Over rate limit error response not up to spec,https://bugs.launchpad.net/nova/+bug/1046021,2012-09-27
+1046020,1046020,Fix Released,attach_volume fails for LXC due to wrong root_device_name and path,https://bugs.launchpad.net/nova/+bug/1046020,2012-09-27
+1043905,1043905,Fix Released,RPC timeout with multi_host networking,https://bugs.launchpad.net/nova/+bug/1043905,2012-09-27
+1043827,1043827,Fix Released,quantum allocate_for_instance() returns non-related subnet info for a port on a network without subnet,https://bugs.launchpad.net/nova/+bug/1043827,2012-09-27
+1043585,1043585,Fix Released,Flavor disabled status should not be shown by default,https://bugs.launchpad.net/nova/+bug/1043585,2012-09-27
+1043107,1043107,Fix Released,nova-volume [ietd] delete volume fail,https://bugs.launchpad.net/cinder/+bug/1043107,2012-09-27
+1043107,1043107,Fix Released,nova-volume [ietd] delete volume fail,https://bugs.launchpad.net/nova/+bug/1043107,2012-09-27
+1042709,1042709,Fix Released,integrated.test_api_samples.ServersSampleAllExtensionXmlTest.test_servers_get fails on Fedora 17,https://bugs.launchpad.net/nova/+bug/1042709,2012-09-27
+1042302,1042302,Fix Released,create_db_entry_for_new_instance call signature mismatch,https://bugs.launchpad.net/nova/+bug/1042302,2012-09-27
+1041351,1041351,Fix Released,InvalidUUID on resize because of weird value in request_spec['instance_uuids'],https://bugs.launchpad.net/nova/+bug/1041351,2012-09-27
+1040942,1040942,Fix Released,Error during scheduler Manager expire reservations,https://bugs.launchpad.net/nova/+bug/1040942,2012-09-27
+1040891,1040891,Fix Released,XML formatting for volume metadata incorrect,https://bugs.launchpad.net/nova/+bug/1040891,2012-09-27
+1040891,1040891,Fix Released,XML formatting for volume metadata incorrect,https://bugs.launchpad.net/cinder/+bug/1040891,2012-09-27
+1040430,1040430,Fix Released,The firewall_driver default in nova.conf.sample is wrong,https://bugs.launchpad.net/nova/+bug/1040430,2012-09-27
+1040332,1040332,Fix Released,xenapi live migration without pools: empty vdi-map will cause  VM.migrate_send operation to fail as of XenServer 6.1 RC1,https://bugs.launchpad.net/nova/+bug/1040332,2012-09-27
+1039419,1039419,Fix Released,Cannot launch an instance when quantum public network is specified,https://bugs.launchpad.net/nova/+bug/1039419,2012-09-27
+1039419,1039419,Fix Released,Cannot launch an instance when quantum public network is specified,https://bugs.launchpad.net/neutron/+bug/1039419,2012-09-27
+1039386,1039386,Fix Released,TrustedFilter issue with ComputeCapabilitiesFilter and AggregateInstanceExtraSpecsFilter,https://bugs.launchpad.net/nova/+bug/1039386,2012-09-27
+1039356,1039356,Fix Released,Block migration doesn't work,https://bugs.launchpad.net/nova/+bug/1039356,2012-09-27
+1039276,1039276,Fix Released,hypervisor_hostname in extended server status doesn't appear in xml,https://bugs.launchpad.net/nova/+bug/1039276,2012-09-27
+1039093,1039093,Fix Released,Policy doesn't allow network:get_fixed_ip_by_address to be performed.,https://bugs.launchpad.net/nova/+bug/1039093,2012-09-27
+1038599,1038599,Fix Released,Typo in cinder volume API's unreserve_volume(),https://bugs.launchpad.net/nova/+bug/1038599,2012-09-27
+1038193,1038193,Fix Released,Error trying to reschedule: unexpected keyword argument 'reservations',https://bugs.launchpad.net/nova/+bug/1038193,2012-09-27
+1037372,1037372,Fix Released,task_state may be overwritten in race condition,https://bugs.launchpad.net/nova/+bug/1037372,2012-09-27
+1037339,1037339,Fix Released,architecture filtering should be done in its own filter,https://bugs.launchpad.net/nova/+bug/1037339,2012-09-27
+1037090,1037090,Fix Released,Add support for extra ops to aggregate_instance_extra_specs filter,https://bugs.launchpad.net/nova/+bug/1037090,2012-09-27
+1036911,1036911,Fix Released,Creating large numbers of instances can lead to a timeout while waiting for a response from the scheduler,https://bugs.launchpad.net/nova/+bug/1036911,2012-09-27
+1029599,1029599,Fix Released,Deleting a XEN instance that has volumes attached fails,https://bugs.launchpad.net/nova/+bug/1029599,2012-09-27
+1014227,1014227,Fix Released,Booting up more than one instance on a fresh image fails,https://bugs.launchpad.net/nova/+bug/1014227,2012-09-27

@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+909574,909574,Fix Released,Glance does not sanity-check given image size on upload,https://bugs.launchpad.net/glance/+bug/909574,2012-04-05
+907461,907461,Fix Released,Request for images where marker is a deleted image causes error,https://bugs.launchpad.net/glance/+bug/907461,2012-04-05
+901804,901804,Fix Released,split glance package into glance-api/glance-registry,https://bugs.launchpad.net/glance/+bug/901804,2012-04-05
+901609,901609,Fix Released,With keystone v2 auth does not use v2 path (/v2.0/tokens),https://bugs.launchpad.net/glance/+bug/901609,2012-04-05
+898097,898097,Fix Released,Glance cli produces 'invalid literal for int' error when using ssl,https://bugs.launchpad.net/glance/+bug/898097,2012-04-05
+909538,909538,Fix Released,Swift upload via Glance logs the password it's using,https://bugs.launchpad.net/glance/+bug/909538,2012-04-05
+909533,909533,Fix Released,Swift uploads through Glance using ridiculously small chunks,https://bugs.launchpad.net/glance/+bug/909533,2012-04-05
+853933,853933,Fix Released,bin/glance should have --user/--password auth protocol negotiation,https://bugs.launchpad.net/glance/+bug/853933,2012-04-05
+912800,912800,Fix Released,Deleting image does not clear cached images,https://bugs.launchpad.net/glance/+bug/912800,2012-04-05
+907969,907969,Fix Released,index when add is occurring is slow,https://bugs.launchpad.net/glance/+bug/907969,2012-04-05
+904863,904863,Fix Released,"glance-manage db_sync fails with ""no such option: add_group""",https://bugs.launchpad.net/glance/+bug/904863,2012-04-05
+900959,900959,Fix Released,Adding remote image when cache enabled results in image having size of 0,https://bugs.launchpad.net/glance/+bug/900959,2012-04-05
+901768,901768,Fix Released,glance-cache-manage list-cached output incorrect,https://bugs.launchpad.net/glance/+bug/901768,2012-04-05
+900258,900258,Fix Released,Need to add documentation for --url option in glance,https://bugs.launchpad.net/glance/+bug/900258,2012-04-05
+894027,894027,Fix Released,The wrong glance module is used when building docs,https://bugs.launchpad.net/glance/+bug/894027,2012-04-05
+888284,888284,Fix Released,Add uuid support to Glance Image Caching,https://bugs.launchpad.net/glance/+bug/888284,2012-04-05
+903768,903768,Fix Released,glance image delete of a segmented image from swift will always record a failure.,https://bugs.launchpad.net/glance/+bug/903768,2012-04-05
+888816,888816,Fix Released,AttributeError: 'Store' object has no attribute 'snet',https://bugs.launchpad.net/glance/+bug/888816,2012-04-05
+888753,888753,Fix Released,Glance configs should use new Keystone auth_port,https://bugs.launchpad.net/glance/+bug/888753,2012-04-05
+888711,888711,Fix Released,assertGreaterEqual not in Python 2.6,https://bugs.launchpad.net/glance/+bug/888711,2012-04-05
+888370,888370,Fix Released,glance show prints invalid URI,https://bugs.launchpad.net/glance/+bug/888370,2012-04-05
+888340,888340,Fix Released,glance-cache-prefetcher exceptions when ran,https://bugs.launchpad.net/glance/+bug/888340,2012-04-05
+888241,888241,Fix Released,glance cache rollback causes 'OSError: [Errno 2] No such file or directory ',https://bugs.launchpad.net/glance/+bug/888241,2012-04-05
+878411,878411,Fix Released,No documentation for cache management,https://bugs.launchpad.net/glance/+bug/878411,2012-04-05
+837817,837817,Fix Released,bin/glance should handle cache being disabled,https://bugs.launchpad.net/glance/+bug/837817,2012-04-05
+891738,891738,Fix Released,Should swift backend compute size if none is specified?,https://bugs.launchpad.net/glance/+bug/891738,2012-04-05
+889209,889209,Fix Released,glance image-members causes httplib.BadStatusLine,https://bugs.launchpad.net/glance/+bug/889209,2012-04-05
+888382,888382,Fix Released,glance-cache-cleaner causes 'Driver' object has no attribute 'delete_incomplete_files',https://bugs.launchpad.net/glance/+bug/888382,2012-04-05
+888215,888215,Fix Released,NameError: global name 'sleep' is not defined,https://bugs.launchpad.net/glance/+bug/888215,2012-04-05
+885341,885341,Fix Released,Test failure in TestImageCacheManageXattr,https://bugs.launchpad.net/glance/+bug/885341,2012-04-05
+861650,861650,Fix Released,Glance client packaging uses non-required dependencies,https://bugs.launchpad.net/glance/+bug/861650,2012-04-05
+850377,850377,Fix Released,functional tests should not depend on local keystone,https://bugs.launchpad.net/glance/+bug/850377,2012-04-05
+901217,901217,Fix Released,Missing files in Glance tarballs,https://bugs.launchpad.net/glance/+bug/901217,2012-04-05
+888343,888343,Fix Released,bin/glance and caching sqlite driver column discrepancies,https://bugs.launchpad.net/glance/+bug/888343,2012-04-05
+901534,901534,Fix Released,Data loss of properties during normal server snapshot process,https://bugs.launchpad.net/glance/+bug/901534,2012-04-05
+889182,889182,Fix Released,Stacktrace when trying to write a file to the cache,https://bugs.launchpad.net/glance/+bug/889182,2012-04-05
+888839,888839,Fix Released,ID to UUID migration produces stacktrace (foreign_keys is a set),https://bugs.launchpad.net/glance/+bug/888839,2012-04-05
+888802,888802,Fix Released,glance-prefetcher requires authorization to run,https://bugs.launchpad.net/glance/+bug/888802,2012-04-05
+885529,885529,Fix Released,Use of _ function without importing it,https://bugs.launchpad.net/glance/+bug/885529,2012-04-05
+884432,884432,Fix Released,glance-manage tries to catch exception.Error which doesn't exist,https://bugs.launchpad.net/glance/+bug/884432,2012-04-05
+884382,884382,Fix Released,NameError: global name 'errno' is not defined,https://bugs.launchpad.net/glance/+bug/884382,2012-04-05
+884297,884297,Fix Released,Install doc needs to reflect move to git/Github rather than bzr/Launchpad,https://bugs.launchpad.net/glance/+bug/884297,2012-04-05
+882185,882185,Fix Released,Documentation should mention Swift auth address HTTPS by default,https://bugs.launchpad.net/glance/+bug/882185,2012-04-05
+872276,872276,Fix Released,small typo in error msg in bin/glance member_add,https://bugs.launchpad.net/glance/+bug/872276,2012-04-05
+860010,860010,Fix Released,Adding image with swift backend poorly constructs url,https://bugs.launchpad.net/glance/+bug/860010,2012-04-05
+857956,857956,Fix Released,[SRU] Control file needs python-httplib2 dependency,https://bugs.launchpad.net/glance/+bug/857956,2012-04-05
+850441,850441,Fix Released,Update Authors checking for git,https://bugs.launchpad.net/glance/+bug/850441,2012-04-05
+844618,844618,Fix Released,SQLAlchemy registry database connection error not logged,https://bugs.launchpad.net/glance/+bug/844618,2012-04-05
+836381,836381,Fix Released,Scrubber does not use the registry api,https://bugs.launchpad.net/glance/+bug/836381,2012-04-05
+820643,820643,Fix Released,import_class() does not report original exception,https://bugs.launchpad.net/glance/+bug/820643,2012-04-05
+767344,767344,Fix Released,Align glance-upload and glance add,https://bugs.launchpad.net/glance/+bug/767344,2012-04-05
+885696,885696,Fix Released,"glance checked_iter missing variable in error case, mixed type of expected_size",https://bugs.launchpad.net/glance/+bug/885696,2012-04-05
+883236,883236,Fix Released,Cache management needs refactoring,https://bugs.launchpad.net/glance/+bug/883236,2012-04-05
+879136,879136,Fix Released,keyerror: 'image' when doing nova image-list,https://bugs.launchpad.net/glance/+bug/879136,2012-04-05
+872372,872372,Fix Released,Image cache has virtually no unit test coverage,https://bugs.launchpad.net/glance/+bug/872372,2012-04-05
+871803,871803,Fix Released,Authentication documentation should explain server configuration,https://bugs.launchpad.net/glance/+bug/871803,2012-04-05
+857711,857711,Fix Released,min_ram and min_disk shouldn't ever be NULL,https://bugs.launchpad.net/glance/+bug/857711,2012-04-05
+850685,850685,Fix Released,Glance client not properly catching HTTP 300 Multiple Choice,https://bugs.launchpad.net/glance/+bug/850685,2012-04-05
+850425,850425,Fix Released,instance build failure when building from snapshot,https://bugs.launchpad.net/glance/+bug/850425,2012-04-05
+819936,819936,Fix Released,New image cache breaks Glance on Windows,https://bugs.launchpad.net/glance/+bug/819936,2012-04-05
+817570,817570,Fix Released,Make new image cache a true extension,https://bugs.launchpad.net/glance/+bug/817570,2012-04-05
+880910,880910,Fix Released,Glance reports location (with credentials) in create return json,https://bugs.launchpad.net/glance/+bug/880910,2012-04-05
+879195,879195,Fix Released,Functional tests will not run on Mac OS X,https://bugs.launchpad.net/glance/+bug/879195,2012-04-05
+878927,878927,Fix Released,Glance + keystone Exception: Unexpected response: 400,https://bugs.launchpad.net/glance/+bug/878927,2012-04-05
+878200,878200,Fix Released,Functional tests that require keystone fail,https://bugs.launchpad.net/glance/+bug/878200,2012-04-05
+874580,874580,Fix Released,keyerror 'location' when fetch errors,https://bugs.launchpad.net/glance/+bug/874580,2012-04-05
+860872,860872,Fix Released,s3 backend cannot stream remote images,https://bugs.launchpad.net/glance/+bug/860872,2012-04-05
+860862,860862,Fix Released,Location information still showing in calls to HEAD|GET /images/<ID>,https://bugs.launchpad.net/glance/+bug/860862,2012-04-05
+851026,851026,Fix Released,Keystone version drift impacting functional tests,https://bugs.launchpad.net/glance/+bug/851026,2012-04-05
+845788,845788,Fix Released,update_image in glance.client doesn't add content-length so the swift backend can't chunk,https://bugs.launchpad.net/glance/+bug/845788,2012-04-05
+951311,951311,Fix Released,"The index for http://docs.openstack.org/developer/ does not have ""Search All OpenStack Manuals"" above search box",https://bugs.launchpad.net/openstack-manuals/+bug/951311,2012-04-02
+901499,901499,Fix Released,euca2ools do not work after sourcing .openrc,https://bugs.launchpad.net/devstack/+bug/901499,2012-03-30
+968424,968424,Fix Released,openvswitch fails to install when quantum enabled,https://bugs.launchpad.net/devstack/+bug/968424,2012-03-30
+933208,933208,Fix Released,Databases and connections should use UTF8,https://bugs.launchpad.net/devstack/+bug/933208,2012-03-30
+965154,965154,Fix Released,Launchpad Answers misconfigured for OpenStack QA?,https://bugs.launchpad.net/openstack-qa/+bug/965154,2012-03-30

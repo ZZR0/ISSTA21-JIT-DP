@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+718360,718360,Fix Released,Debug messages from nova.utils (and probably other places) don't get output if --verbose is passed,https://bugs.launchpad.net/nova/+bug/718360,2011-04-15
+717467,717467,Fix Released,from migrate.versioning import exceptions fails with recent venv,https://bugs.launchpad.net/nova/+bug/717467,2011-04-15
+716919,716919,Fix Released,"nova-api overrides FLAGS.ec2_host with 0.0.0.0, breaks regionEndpoint pointer",https://bugs.launchpad.net/nova/+bug/716919,2011-04-15
+713434,713434,Fix Released,illegal domain novalocal in /var/lib/nova/networks/nova-br100.conf,https://bugs.launchpad.net/nova/+bug/713434,2011-04-15
+711948,711948,Fix Released,nova-network crashes on restart with floating ips assigned,https://bugs.launchpad.net/nova/+bug/711948,2011-04-15
+710959,710959,Fix Released,FlatDHCP workarounds don't work because linux_net uses ifconfig,https://bugs.launchpad.net/nova/+bug/710959,2011-04-15
+709355,709355,Fix Released,"""kernel_id property not found"" Openstack API w/ S3ImageService",https://bugs.launchpad.net/nova/+bug/709355,2011-04-15
+706405,706405,Fix Released,MySQL Gone Away Generated,https://bugs.launchpad.net/nova/+bug/706405,2011-04-15
+699878,699878,Fix Released,Compute worker silently fails when XS host runs out of space,https://bugs.launchpad.net/nova/+bug/699878,2011-04-15
+694935,694935,Fix Released,"when using xenapi, there is no clean-up if a vm fails to spawn",https://bugs.launchpad.net/nova/+bug/694935,2011-04-15
+661260,661260,Fix Released,nova-compute doesn't notice when a VM crashes,https://bugs.launchpad.net/nova/+bug/661260,2011-04-15
+661214,661214,Fix Released,"When a node dies, its instances should be marked !running",https://bugs.launchpad.net/nova/+bug/661214,2011-04-15
+760289,760289,Fix Released,All image types return as 'machine' when using glance client in ec2 api,https://bugs.launchpad.net/nova/+bug/760289,2011-04-15
+759053,759053,Fix Released,Running an instance using an image name returns NotFound,https://bugs.launchpad.net/nova/+bug/759053,2011-04-15
+758810,758810,Fix Released,VMwareAPIConnection class should inherit ComputeDriver class,https://bugs.launchpad.net/nova/+bug/758810,2011-04-15
+755666,755666,Fix Released,[RC] libvirt instance definitions not removed,https://bugs.launchpad.net/nova/+bug/755666,2011-04-15
+754242,754242,Fix Released,euca-describe-image-attribute -l fails w/ UnknownError:,https://bugs.launchpad.net/nova/+bug/754242,2011-04-15
+753339,753339,Fix Released,"""instance_type"" subcommand in nova-manage masks ""instance"" subcmd",https://bugs.launchpad.net/nova/+bug/753339,2011-04-15
+752735,752735,Fix Released,Volumes aren't zeroed out,https://bugs.launchpad.net/nova/+bug/752735,2011-04-15
+749973,749973,Fix Released,libvirtError: internal error cannot determine default video type,https://bugs.launchpad.net/nova/+bug/749973,2011-04-15
+747855,747855,Fix Released,Incoherent use of is_public creates havoc when using euca-describe-images,https://bugs.launchpad.net/nova/+bug/747855,2011-04-15
+746821,746821,Fix Released,live_migration failing due to network filter not found,https://bugs.launchpad.net/nova/+bug/746821,2011-04-15
+745309,745309,Fix Released,LocalImageService images only accessable by admin user,https://bugs.launchpad.net/nova/+bug/745309,2011-04-15
+745016,745016,Fix Released,Unconditionally injects network configuration,https://bugs.launchpad.net/nova/+bug/745016,2011-04-15
+744496,744496,Fix Released,ec2 api with local image store doesn't return proper name and description,https://bugs.launchpad.net/nova/+bug/744496,2011-04-15
+744056,744056,Fix Released,RunInstances fail due to state change of _poll_instance_state(),https://bugs.launchpad.net/nova/+bug/744056,2011-04-15
+742706,742706,Fix Released,HyperV nova-compute dies at startup (missing update_available_resource method),https://bugs.launchpad.net/nova/+bug/742706,2011-04-15
+742650,742650,Fix Released,nova-ajax-console-proxy: 'module' object has no attribute 'TopicConsumer',https://bugs.launchpad.net/nova/+bug/742650,2011-04-15
+742488,742488,Fix Released,foxinsocks test extension missing from tarball,https://bugs.launchpad.net/nova/+bug/742488,2011-04-15
+742229,742229,Fix Released,openstack-api instance create failing on disk_format,https://bugs.launchpad.net/nova/+bug/742229,2011-04-15
+742204,742204,Fix Released,openstack-api-image-create failing due to datetime parsing,https://bugs.launchpad.net/nova/+bug/742204,2011-04-15
+742179,742179,Fix Released,DescribeImages api failing (using glance: filesytem),https://bugs.launchpad.net/nova/+bug/742179,2011-04-15
+736804,736804,Fix Released,execute calls in volume driver not completely ported to execvp style execution,https://bugs.launchpad.net/nova/+bug/736804,2011-04-15
+735390,735390,Fix Released,Live migration breaks UML (and will break LXC).,https://bugs.launchpad.net/nova/+bug/735390,2011-04-15
+735298,735298,Fix Released,"can't start nova-compute: Invalid: Invalid xml. '<cpu>' must be 1,but 5",https://bugs.launchpad.net/nova/+bug/735298,2011-04-15
+735050,735050,Fix Released,ubuntu packages missing cpuinfo.xml.template,https://bugs.launchpad.net/nova/+bug/735050,2011-04-15
+733609,733609,Fix Released,Failed to spawn an instance :  AttributeError: 'str' object has no attribute 'fileno',https://bugs.launchpad.net/nova/+bug/733609,2011-04-15
+733137,733137,Fix Released,vif_rules.py execvp fallout,https://bugs.launchpad.net/nova/+bug/733137,2011-04-15
+733044,733044,Fix Released,ensure_bridge ip del/add commands fail (post execvp),https://bugs.launchpad.net/nova/+bug/733044,2011-04-15
+732866,732866,Fix Released,OpenStack API authentication information leakage,https://bugs.launchpad.net/nova/+bug/732866,2011-04-15
+732801,732801,Fix Released,Sporadic failure when creating XS vms from machine-images,https://bugs.launchpad.net/nova/+bug/732801,2011-04-15
+732570,732570,Fix Released,Meta-data service broken if ramdisk or kernel is missing (which is valid!),https://bugs.launchpad.net/nova/+bug/732570,2011-04-15
+731470,731470,Fix Released,Nova should use disk_format and container_format,https://bugs.launchpad.net/nova/+bug/731470,2011-04-15
+727794,727794,Fix Released,"""python setup.py install"" actually does not install a lot stuff from tarball",https://bugs.launchpad.net/nova/+bug/727794,2011-04-15
+726359,726359,Fix Released,utils.execute uses potentially insecure shell=True,https://bugs.launchpad.net/nova/+bug/726359,2011-04-15
+724159,724159,Fix Released,Fixes for bug 723298 inadvertently broke flatdhcp,https://bugs.launchpad.net/nova/+bug/724159,2011-04-15
+724143,724143,Fix Released,KeyError: 'metadata' error when creating server with OS API,https://bugs.launchpad.net/nova/+bug/724143,2011-04-15
+722477,722477,Fix Released,iptables-restore failed,https://bugs.launchpad.net/nova/+bug/722477,2011-04-15
+721660,721660,Fix Released,api is incredibly slow with ldap due to user.is_admin() lookups,https://bugs.launchpad.net/nova/+bug/721660,2011-04-15
+719798,719798,Fix Released,Some instances can't connect to metadata due to ARP failure,https://bugs.launchpad.net/nova/+bug/719798,2011-04-15
+718390,718390,Fix Released,Filedescriptor leak and zombie processes,https://bugs.launchpad.net/nova/+bug/718390,2011-04-15
+716732,716732,Fix Released,API returns UnknownError: An unknown error has occurred. Please try your request again. when describing instances,https://bugs.launchpad.net/nova/+bug/716732,2011-04-15
+715180,715180,Fix Released,"vlan100 and br100 still available after stopping nova-network: restart of nova-network not possible, br100 in state DOWN after starting nova-network",https://bugs.launchpad.net/nova/+bug/715180,2011-04-15
+714679,714679,Fix Released,Missing translations in Bexar release tarball,https://bugs.launchpad.net/nova/+bug/714679,2011-04-15
+713430,713430,Fix Released,Restart of nova-volume with volumes in wrong state: global name 'volume_ref' is not defined,https://bugs.launchpad.net/nova/+bug/713430,2011-04-15
+713144,713144,Fix Released,Openstack API:  GET on /servers/<id> returns empty 'addresses',https://bugs.launchpad.net/nova/+bug/713144,2011-04-15
+712979,712979,Fix Released,delete volume while still creating it crashes,https://bugs.launchpad.net/nova/+bug/712979,2011-04-15
+712979,712979,Fix Released,delete volume while still creating it crashes,https://bugs.launchpad.net/horizon/+bug/712979,2011-04-15
+712782,712782,Fix Released,Nova EC2 /images  returned mapping has wrong keys for euca-describe-images,https://bugs.launchpad.net/nova/+bug/712782,2011-04-15
+711439,711439,Fix Released,euca-add-keypair fails with MySQL chosen in nova.sh,https://bugs.launchpad.net/nova/+bug/711439,2011-04-15
+704300,704300,Fix Released,reboot instance does not restore security group rules,https://bugs.launchpad.net/nova/+bug/704300,2011-04-15
+754509,754509,Fix Released,terminating instance causes nova-compute hang,https://bugs.launchpad.net/nova/+bug/754509,2011-04-15
+752426,752426,Fix Released,nova-manage project does not work after moving CA dir inside nova/,https://bugs.launchpad.net/nova/+bug/752426,2011-04-15
+732549,732549,Fix Released,execvp fallout,https://bugs.launchpad.net/nova/+bug/732549,2011-04-15
+728342,728342,Fix Released,Regression prevents to start any instance through libvirt,https://bugs.launchpad.net/nova/+bug/728342,2011-04-15
+718457,718457,Fix Released,Trunk tests are broken due to security_group change,https://bugs.launchpad.net/nova/+bug/718457,2011-04-15
+758030,758030,Fix Released,Dpkg does not include migrate_repo/version/*.sql,https://bugs.launchpad.net/glance/+bug/758030,2011-04-15
+744708,744708,Fix Released,kernel_id and ramdisk_id marked as deleted by default,https://bugs.launchpad.net/glance/+bug/744708,2011-04-15
+728861,728861,Fix Released,client.update_image is broken,https://bugs.launchpad.net/glance/+bug/728861,2011-04-15
+713461,713461,Fix Released,Glance Code Cleanup Round 1,https://bugs.launchpad.net/glance/+bug/713461,2011-04-15
+711385,711385,Fix Released,glance-combined needs --sql-connection option,https://bugs.launchpad.net/glance/+bug/711385,2011-04-15
+710789,710789,Fix Released,use-optparse breaks daemonized server stop,https://bugs.launchpad.net/glance/+bug/710789,2011-04-15
+712575,712575,Fix Released,Database tables not created in glance.registry.db.api.register_models(),https://bugs.launchpad.net/glance/+bug/712575,2011-04-15
+757404,757404,Fix Released,Glance trunk package for 10.10 doesn't install upstart jobs,https://bugs.launchpad.net/glance/+bug/757404,2011-04-15
+756886,756886,Fix Released,"is_public must be ""True"" - mismatch with docs",https://bugs.launchpad.net/glance/+bug/756886,2011-04-15

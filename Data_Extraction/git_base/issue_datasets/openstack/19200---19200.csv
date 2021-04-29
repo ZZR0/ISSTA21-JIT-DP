@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1704410,1704410,Fix Released,Fail to attach a volume using kubernetes cloud provider,https://bugs.launchpad.net/magnum/+bug/1704410,2017-08-31
+1580013,1580013,Fix Released,unexpected function was called in _migrate_volume_generic,https://bugs.launchpad.net/cinder/+bug/1580013,2017-08-31
+1668924,1668924,Fix Released,Containerize barbican,https://bugs.launchpad.net/tripleo/+bug/1668924,2017-08-31
+1707496,1707496,Fix Released,Stabilize tempest job,https://bugs.launchpad.net/dragonflow/+bug/1707496,2017-08-31
+1614054,1614054,Fix Released,[SRU] Incorrect host cpu is given to emulator threads when cpu_realtime_mask flag is set,https://bugs.launchpad.net/nova/+bug/1614054,2017-08-31
+1710046,1710046,Fix Released,[AWS] Image operations support  in Cinder,https://bugs.launchpad.net/omni/+bug/1710046,2017-08-31
+1694639,1694639,Fix Released,failed to spawn instance mkfs.ext4: No such file or directory,https://bugs.launchpad.net/kolla/+bug/1694639,2017-08-31
+1707552,1707552,Fix Released,blazarclient forms all parameters as string type,https://bugs.launchpad.net/blazar/+bug/1707552,2017-08-31
+1699679,1699679,Fix Released,python-blazarclient does not accept multiple properties,https://bugs.launchpad.net/blazar/+bug/1699679,2017-08-31
+1706288,1706288,Fix Released,Debug option should output debug level logs,https://bugs.launchpad.net/blazar/+bug/1706288,2017-08-31
+1708963,1708963,Fix Released,"Blazar client fails to create lease with error ""string indices must be integers""",https://bugs.launchpad.net/blazar/+bug/1708963,2017-08-31
+1416340,1416340,Fix Released,"SLO server side copy with header ""If-Match"" causes 500 error",https://bugs.launchpad.net/swift/+bug/1416340,2017-08-30
+1713868,1713868,Fix Released,devstack-gate doesn't provide ovs_vxlan_bridge function anymore,https://bugs.launchpad.net/tripleo/+bug/1713868,2017-08-30
+1709658,1709658,Fix Released,"""Could not find requested endpoint in Service Catalog"" when requesting unavailable identity endpoint",https://bugs.launchpad.net/keystoneauth/+bug/1709658,2017-08-30
+1708673,1708673,Fix Released,Register deprecated opts with Adapter.get_conf_options,https://bugs.launchpad.net/keystoneauth/+bug/1708673,2017-08-30
+1707273,1707273,Fix Released,get_adapter_conf_options(include_deprecated=False) results in NoSuchOptError,https://bugs.launchpad.net/keystoneauth/+bug/1707273,2017-08-30
+1686429,1686429,Fix Released,Tempest doesn't efficiently handle volume deletion failures,https://bugs.launchpad.net/tempest/+bug/1686429,2017-08-30
+1702222,1702222,Fix Released,fix we cannot create a subnet with ipv6 in dynamic creds,https://bugs.launchpad.net/tempest/+bug/1702222,2017-08-30
+1702758,1702758,Fix Released,Response schema validation for instance action events is wrong,https://bugs.launchpad.net/tempest/+bug/1702758,2017-08-30
+1703044,1703044,Fix Released,Tests assume volume v1 is always available,https://bugs.launchpad.net/tempest/+bug/1703044,2017-08-30
+1703997,1703997,Fix Released,Retype volume in volumes_client doesn't return a response body,https://bugs.launchpad.net/tempest/+bug/1703997,2017-08-30
+1703959,1703959,Fix Released,Test for Neutron GET / doesn't always use the right URL,https://bugs.launchpad.net/tempest/+bug/1703959,2017-08-30
+1683809,1683809,Fix Released,tempest verify config only works with config files in etc/ relative to source tree,https://bugs.launchpad.net/tempest/+bug/1683809,2017-08-30
+1705769,1705769,Fix Released,Tempest dishonors disable_ssl_certificate_validation values if ca_certificates file is defined,https://bugs.launchpad.net/tempest/+bug/1705769,2017-08-30
+1709546,1709546,Fix Released,Do not support PY35 for StringIO and chr,https://bugs.launchpad.net/tempest/+bug/1709546,2017-08-30
+1709739,1709739,Fix Released,"""Invalid volume: Volume is not local to this node"" in neutron multinode job (pike)",https://bugs.launchpad.net/tempest/+bug/1709739,2017-08-30
+1709909,1709909,Fix Released,test_attach_volume not waiting for attach to complete,https://bugs.launchpad.net/tempest/+bug/1709909,2017-08-30
+1707478,1707478,Fix Released,RemoteClient has bad default ssh_shell_prologue,https://bugs.launchpad.net/tempest/+bug/1707478,2017-08-30
+1704467,1704467,Fix Released,test_external_network_visibility  fails with AssertionError  when  `public_network_id` is both external and shared,https://bugs.launchpad.net/tempest/+bug/1704467,2017-08-30
+1711651,1711651,Fix Released,No unit tests for Blacklist and Whitelist,https://bugs.launchpad.net/tempest/+bug/1711651,2017-08-30
+1708585,1708585,Fix Released,[AWS] Unit test for AWS Router Plugin,https://bugs.launchpad.net/omni/+bug/1708585,2017-08-30
+1708586,1708586,Fix Released,[AWS]Unit test for AWS Mechanism Driver,https://bugs.launchpad.net/omni/+bug/1708586,2017-08-30
+1709338,1709338,Fix Released,support for standard MPLS/GRE,https://bugs.launchpad.net/networking-bagpipe/+bug/1709338,2017-08-30
+1712503,1712503,Fix Released,L3 application does not take care of allowed address pairs,https://bugs.launchpad.net/dragonflow/+bug/1712503,2017-08-30
+1713358,1713358,Fix Released,Cirros website is no longer available,https://bugs.launchpad.net/tripleo/+bug/1713358,2017-08-30
+1713358,1713358,Fix Released,Cirros website is no longer available,https://bugs.launchpad.net/puppet-openstack-integration/+bug/1713358,2017-08-30
+1694251,1694251,Fix Released,failed to reconfigure,https://bugs.launchpad.net/kolla-ansible/+bug/1694251,2017-08-30
+1705558,1705558,Fix Released,the synchroizing time one-time task fails behind proxies.,https://bugs.launchpad.net/kolla-ansible/+bug/1705558,2017-08-30
+1707598,1707598,Fix Released,Error building barbican-api container using kolla,https://bugs.launchpad.net/tripleo/+bug/1707598,2017-08-30
+1710798,1710798,Fix Released,commit 6e58742 cuase debian build error,https://bugs.launchpad.net/kolla/+bug/1710798,2017-08-30
+1713959,1713959,Fix Released,typo in admin doc cli-os-migrate-cfg-ssh.rst,https://bugs.launchpad.net/openstack-manuals/+bug/1713959,2017-08-30
+1713820,1713820,Fix Released,AWS: Assigning Floating IP to an instance fails,https://bugs.launchpad.net/omni/+bug/1713820,2017-08-30
+1685147,1685147,Fix Released,Fix doc generation for Python3,https://bugs.launchpad.net/manila/+bug/1685147,2017-08-30
+1681292,1681292,Fix Released,it is good day to debug,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1681292,2017-08-30
+1709120,1709120,Fix Released,vpp 17.07 GPE graph loop within VPP,https://bugs.launchpad.net/networking-vpp/+bug/1709120,2017-08-30
+1707298,1707298,Fix Released,Need to override 'rpc_backend_add_vhost' in devstack,https://bugs.launchpad.net/devstack-plugin-amqp1/+bug/1707298,2017-08-30
+1710737,1710737,Fix Released,GPE creates empty etcd directories after port unbind,https://bugs.launchpad.net/networking-vpp/+bug/1710737,2017-08-30
+1710990,1710990,Fix Released,Delete gpe keys on the server when ports are unbound,https://bugs.launchpad.net/networking-vpp/+bug/1710990,2017-08-30
+1693690,1693690,Fix Released,keystone federation mapping rules with blacklist,https://bugs.launchpad.net/keystone/+bug/1693690,2017-08-30
+1713860,1713860,Fix Released,race condition in quark-agent can lead to inconsistent updates,https://bugs.launchpad.net/neutron-quark/+bug/1713860,2017-08-30
+1712264,1712264,Fix Released,vpp command bug,https://bugs.launchpad.net/networking-vpp/+bug/1712264,2017-08-30
+1713805,1713805,Fix Released,updates to docker dev deploy code,https://bugs.launchpad.net/neutron-quark/+bug/1713805,2017-08-29
+1713498,1713498,Fix Released,Nexus - Replace neutron.db.api.get_session call due to master error,https://bugs.launchpad.net/networking-cisco/+bug/1713498,2017-08-29
+1711165,1711165,Fix Released,Error during full sync with QoS,https://bugs.launchpad.net/networking-odl/+bug/1711165,2017-08-29
+1711165,1711165,Fix Committed,Error during full sync with QoS,https://bugs.launchpad.net/neutron/+bug/1711165,2017-08-29
+1712090,1712090,Fix Released,nexus ml2 Set default for config replay to enabled,https://bugs.launchpad.net/networking-cisco/+bug/1712090,2017-08-29
+1708667,1708667,Fix Released,"Inconsistent capitalization on Gnocchi, Aodh, OpenStack in docs",https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1708667,2017-08-29
+1711785,1711785,Fix Released,Default position of Firewall/VPN panel in the left menu is confusing,https://bugs.launchpad.net/neutron-fwaas-dashboard/+bug/1711785,2017-08-29
+1711785,1711785,Fix Released,Default position of Firewall/VPN panel in the left menu is confusing,https://bugs.launchpad.net/neutron-vpnaas-dashboard/+bug/1711785,2017-08-29
+1713503,1713503,Fix Released,Heat not listed in installation overview page,https://bugs.launchpad.net/openstack-manuals/+bug/1713503,2017-08-29
+1686108,1686108,Fix Released,DHCP port does not have an ARP/ICMP responders,https://bugs.launchpad.net/dragonflow/+bug/1686108,2017-08-29
+1705738,1705738,Fix Released,Netapp: SVM scoped user fails to determine capabilities,https://bugs.launchpad.net/cinder/+bug/1705738,2017-08-29
+1676674,1676674,Fix Released,"Policy.json is not exhaustive, missing many policy actions",https://bugs.launchpad.net/neutron/+bug/1676674,2017-08-29
+1709453,1709453,Fix Released,Router interface status is down,https://bugs.launchpad.net/group-based-policy/+bug/1709453,2017-08-28
+1713070,1713070,Fix Released,screen-n-cond-cell1 logs are missing colorized log formatting,https://bugs.launchpad.net/devstack/+bug/1713070,2017-08-28
+1606675,1606675,Fix Released,Upgrade guide needs to be made generic and improved,https://bugs.launchpad.net/ironic/+bug/1606675,2017-08-28
+1286818,1286818,Fix Committed,Ubuntu package archive periodically inconsistent causing gate build failures,https://bugs.launchpad.net/openstack-ci/+bug/1286818,2017-08-28
+1286818,1286818,Fix Released,Ubuntu package archive periodically inconsistent causing gate build failures,https://bugs.launchpad.net/openstack-gate/+bug/1286818,2017-08-28
+1614236,1614236,Fix Released,c-api should not log ERROR tracebacks for 400/409 cases,https://bugs.launchpad.net/cinder/+bug/1614236,2017-08-28
+1707286,1707286,Fix Released,ml2 nexus fix vpc-pool config,https://bugs.launchpad.net/networking-cisco/+bug/1707286,2017-08-28
+1706772,1706772,Fix Released,InternalServerError: Internal Server Error (HTTP 500) in n-cpu logs on startup with Ironic driver,https://bugs.launchpad.net/nova/+bug/1706772,2017-08-28
+1675589,1675589,Fix Released,Property values in nested stacks are no longer validated prior to creation,https://bugs.launchpad.net/heat/+bug/1675589,2017-08-28
+1699463,1699463,Fix Released,"6 upgrade jobs (cont. and non-cont.) stuck on UpgradeInitDeployment, SoftwareDeployment resources signals get response code 400",https://bugs.launchpad.net/tripleo/+bug/1699463,2017-08-28
+1699463,1699463,Fix Released,"6 upgrade jobs (cont. and non-cont.) stuck on UpgradeInitDeployment, SoftwareDeployment resources signals get response code 400",https://bugs.launchpad.net/heat/+bug/1699463,2017-08-28
+1705052,1705052,Fix Released,OS::Neutron::Subnet can't refer to OS::Neutron::SubnetPool created in same template,https://bugs.launchpad.net/heat/+bug/1705052,2017-08-28

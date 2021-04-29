@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1269850,1269850,Fix Released,[docs] Document the flow of adding a package to Fuel,https://bugs.launchpad.net/fuel/+bug/1269850,2014-12-02
+1395703,1395703,Fix Committed,Json schemas are not included into fuel-stats package,https://bugs.launchpad.net/fuel/+bug/1395703,2014-12-02
+1378327,1378327,Fix Released,[fuel-library] Incorrect logrotate configuration leads to lack of free disk space on master node,https://bugs.launchpad.net/fuel/+bug/1378327,2014-12-02
+1391845,1391845,Fix Committed,Update Mellanox OFED to version 2.3,https://bugs.launchpad.net/fuel/+bug/1391845,2014-12-02
+1240565,1240565,Fix Released,"heat deploying loadbalancer takes more than 600 secs, and the deployment failed",https://bugs.launchpad.net/heat/+bug/1240565,2014-12-02
+835919,835919,Fix Released,Single default gateway should be offered to VM on multi-NICs environment.,https://bugs.launchpad.net/nova/+bug/835919,2014-12-02
+1387430,1387430,Fix Released,"iscsi_helper needed in Configure a Block Storage service node in OpenStack Installation Guide for Red Hat Enterprise Linux, CentOS, and Fedora  - icehouse",https://bugs.launchpad.net/openstack-manuals/+bug/1387430,2014-12-02
+1397244,1397244,Fix Released,auth.allow_tenant_isolation is not always respected,https://bugs.launchpad.net/tempest/+bug/1397244,2014-12-02
+1396908,1396908,Fix Released,[network] route must have ip information,https://bugs.launchpad.net/openstack-chef/+bug/1396908,2014-12-01
+1366988,1366988,Fix Released,Formatting error in debug logging,https://bugs.launchpad.net/keystone/+bug/1366988,2014-12-01
+1330518,1330518,Fix Released,Chapter 7. Network Design in OpenStack Operations Guide,https://bugs.launchpad.net/openstack-manuals/+bug/1330518,2014-12-01
+1342390,1342390,Fix Released,Chapter 21. Object Storage in OpenStack Security Guide -> Load Balancing - current - bad wording,https://bugs.launchpad.net/openstack-manuals/+bug/1342390,2014-12-01
+1397700,1397700,Fix Released,[network] Metadata agent is restarted before package is installed,https://bugs.launchpad.net/openstack-chef/+bug/1397700,2014-12-01
+1375443,1375443,Fix Released,[common][chef-testing-stack] apt-get update is needed for testing-stack,https://bugs.launchpad.net/openstack-chef/+bug/1375443,2014-12-01
+1397981,1397981,Fix Committed,Nailgun's migration fails due to typo,https://bugs.launchpad.net/fuel/+bug/1397981,2014-12-01
+1386735,1386735,Fix Released,Nova can't launch a VM from an RBD backed volume,https://bugs.launchpad.net/fuel/+bug/1386735,2014-12-01
+1362466,1362466,Fix Released,iptables metering removes wrong labels on update,https://bugs.launchpad.net/neutron/+bug/1362466,2014-11-30
+1270156,1270156,Fix Released,nova volume-update is throwing an ERROR,https://bugs.launchpad.net/python-novaclient/+bug/1270156,2014-11-29
+1318512,1318512,Fix Committed,"Default m1.tiny has 512Mb, which doesn’t allow to run demo VM with VBox scripts",https://bugs.launchpad.net/fuel/+bug/1318512,2014-11-28
+1397290,1397290,Fix Committed,kmod-openvswitch wasn't installed in CentOS,https://bugs.launchpad.net/fuel/+bug/1397290,2014-11-28
+1386060,1386060,Fix Released,[glance_store] should use os.statvfs to get available disk space in filesystem driver,https://bugs.launchpad.net/glance-store/+bug/1386060,2014-11-28
+1354512,1354512,Fix Released,Anonymous user can download public image through Swift,https://bugs.launchpad.net/glance-store/+bug/1354512,2014-11-28
+1201873,1201873,Fix Released,"dnsmasq does not use -h, so /etc/hosts sends folks to loopback when they look up the machine it's running on",https://bugs.launchpad.net/nova/+bug/1201873,2014-11-28
+1297465,1297465,Fix Released,ChunkReader has no len() Swiftclient + Glance,https://bugs.launchpad.net/glance-store/+bug/1297465,2014-11-28
+1297465,1297465,Fix Released,ChunkReader has no len() Swiftclient + Glance,https://bugs.launchpad.net/python-swiftclient/+bug/1297465,2014-11-28
+1352102,1352102,Fix Released,users are unable to create ports on provider networks,https://bugs.launchpad.net/nova/+bug/1352102,2014-11-28
+1393384,1393384,Fix Committed,'dockerctl build all' failed in the second run,https://bugs.launchpad.net/fuel/+bug/1393384,2014-11-28
+1394565,1394565,Fix Released,[Devops] Please create two jobs in 6.0 swarm to run image-based tests,https://bugs.launchpad.net/fuel/+bug/1394565,2014-11-28
+1377174,1377174,Fix Committed,[juno] Dhcpcheck error application,https://bugs.launchpad.net/fuel/+bug/1377174,2014-11-28
+1302272,1302272,Fix Released,neutron iptables manager is slow modifying a large amount of rules,https://bugs.launchpad.net/neutron/+bug/1302272,2014-11-28
+1387792,1387792,Fix Committed,Neutron API inaccessible during deployment due to multiple AMQP reconnects,https://bugs.launchpad.net/fuel/+bug/1387792,2014-11-28
+1386353,1386353,Fix Released,Image builds on Ubuntu 14.04 fails with errors,https://bugs.launchpad.net/diskimage-builder/+bug/1386353,2014-11-28
+1391072,1391072,Fix Committed,cfn-init stack fails on update,https://bugs.launchpad.net/heat-templates/+bug/1391072,2014-11-28
+1380886,1380886,Fix Committed,software config hook for docker,https://bugs.launchpad.net/heat-templates/+bug/1380886,2014-11-28
+1396020,1396020,Fix Committed,Mellanox OFED drivers are broken on ubuntu,https://bugs.launchpad.net/fuel/+bug/1396020,2014-11-27
+1396259,1396259,Fix Released,Run neutron DHCP agent in OpenStack High Availability Guide  link not working,https://bugs.launchpad.net/openstack-manuals/+bug/1396259,2014-11-27
+1318912,1318912,Fix Released,pacemaker would be wrong when both node have same hostname,https://bugs.launchpad.net/openstack-manuals/+bug/1318912,2014-11-27
+1397034,1397034,Fix Released,Create gerrit repositories for solving bug #1376733,https://bugs.launchpad.net/fuel/+bug/1397034,2014-11-27
+1381023,1381023,Fix Released,[Devops] Need to add UPGRADE_FUEL_TO export to Upgrade jobs,https://bugs.launchpad.net/fuel/+bug/1381023,2014-11-27
+1395685,1395685,Fix Released,[devops] create 7.0.x series and 7.0 milestone for MOS and Fuel projects,https://bugs.launchpad.net/fuel/+bug/1395685,2014-11-27
+1396234,1396234,Fix Committed,"fpb, shows incorrect message if task doesn't have timeout",https://bugs.launchpad.net/fuel/+bug/1396234,2014-11-27
+1388895,1388895,Fix Released,[System Tests] Need to change regular expression in deploy_ha_neutron to get node with l3 agent,https://bugs.launchpad.net/fuel/+bug/1388895,2014-11-27
+1336379,1336379,Fix Committed,[nailgun] New releases must be created during upgrade/update script run on master,https://bugs.launchpad.net/fuel/+bug/1336379,2014-11-27
+1397020,1397020,Fix Committed,neutron ostf tests should be executed only on env >= 6.0,https://bugs.launchpad.net/fuel/+bug/1397020,2014-11-27
+1379197,1379197,Fix Released,Checking container ostf: ERROR: ostf failed to start.,https://bugs.launchpad.net/fuel/+bug/1379197,2014-11-27
+1396134,1396134,Fix Released,[System Tests] Remove expected failure in rollback test - rollback_automatically_simple_env,https://bugs.launchpad.net/fuel/+bug/1396134,2014-11-27
+1391566,1391566,Fix Released,Downloading of files during ISO building is too slow,https://bugs.launchpad.net/fuel/+bug/1391566,2014-11-27
+1365345,1365345,Fix Released,[devops] Add REBOOT_TIMEOUT variable to all Jenkins jobs which execute system tests,https://bugs.launchpad.net/fuel/+bug/1365345,2014-11-27
+1282565,1282565,Fix Released,Run fuel-web verify tests in parallel,https://bugs.launchpad.net/fuel/+bug/1282565,2014-11-27
+1369948,1369948,Fix Committed,sahara and murano HA system tests fail,https://bugs.launchpad.net/fuel/+bug/1369948,2014-11-27
+1384089,1384089,Fix Committed,[library]Replace exist HA controller node with new one cause deploy error,https://bugs.launchpad.net/fuel/+bug/1384089,2014-11-27
+1374573,1374573,Fix Released,Server hang on external network deletion with FIPs,https://bugs.launchpad.net/neutron/+bug/1374573,2014-11-27
+1374573,1374573,Fix Released,Server hang on external network deletion with FIPs,https://bugs.launchpad.net/tempest/+bug/1374573,2014-11-27
+1384702,1384702,Fix Released,neutron depends on conntrack-tools,https://bugs.launchpad.net/fuel/+bug/1384702,2014-11-27
+1325184,1325184,Fix Released,add unit tests for the ODL MechanismDriver,https://bugs.launchpad.net/neutron/+bug/1325184,2014-11-27
+1395814,1395814,Fix Released,grenades failing eventlet 0.13.0 is installed but eventlet>=0.15.2 is required by ['oslo.vmware'],https://bugs.launchpad.net/openstack-ci/+bug/1395814,2014-11-27
+1306367,1306367,Fix Released,XML tests of Nova API can be skipped.,https://bugs.launchpad.net/tempest/+bug/1306367,2014-11-27
+1323591,1323591,Fix Released,No new XML client/test case for Nova API tests are needed,https://bugs.launchpad.net/tempest/+bug/1323591,2014-11-27
+1387195,1387195,Fix Released,[object-storage] Add/check template tests,https://bugs.launchpad.net/openstack-chef/+bug/1387195,2014-11-27
+1378428,1378428,Fix Released,Add support vSphere Datastore backend for Glance,https://bugs.launchpad.net/fuel/+bug/1378428,2014-11-27
+1396833,1396833,Fix Released,Chapter 4. Controller Node Quiz in OpenStack Training Guides,https://bugs.launchpad.net/openstack-training-guides/+bug/1396833,2014-11-27
+1388798,1388798,Fix Committed,ceph monitor will not be installed on controllers if ceph-osd added to cluster afterwards,https://bugs.launchpad.net/fuel/+bug/1388798,2014-11-27
+1371841,1371841,Fix Released,forget update properties_data  for resource when UPDATE_COMPLETE,https://bugs.launchpad.net/heat/+bug/1371841,2014-11-27
+1343018,1343018,Fix Released,"openstack-ops-manual.pdf (July 8, 2014) table 7.1 -last column is chopped",https://bugs.launchpad.net/openstack-manuals/+bug/1343018,2014-11-27
+1297948,1297948,Fix Released,pypi element errors are opaque when no mirror is available,https://bugs.launchpad.net/diskimage-builder/+bug/1297948,2014-11-27
+1259144,1259144,Fix Released,bigswitch: no need to duplicate check on network_delete,https://bugs.launchpad.net/neutron/+bug/1259144,2014-11-27
+1238439,1238439,Fix Released,admin can not delete External Network because floatingip,https://bugs.launchpad.net/neutron/+bug/1238439,2014-11-27
+1338613,1338613,Fix Released,Compute in OpenStack Configuration Reference  - icehouse missing api verson on nova_url,https://bugs.launchpad.net/openstack-manuals/+bug/1338613,2014-11-27
+1396274,1396274,Fix Released,Don't crash rally if benchmark context creation failed,https://bugs.launchpad.net/rally/+bug/1396274,2014-11-27
+1393342,1393342,Fix Committed,supervisord don't really monitor cobbler container,https://bugs.launchpad.net/fuel/+bug/1393342,2014-11-26
+1385491,1385491,Fix Released,neutron create_[router|network] can run before admin tenant is created,https://bugs.launchpad.net/fuel/+bug/1385491,2014-11-26
+1342384,1342384,Fix Released,"Remove ""Use SSL/TLS"" para in Chapter 21. Object Storage in OpenStack Security Guide  - current",https://bugs.launchpad.net/openstack-manuals/+bug/1342384,2014-11-26
+1396515,1396515,Fix Released,Typo in rally tempest config generation code,https://bugs.launchpad.net/rally/+bug/1396515,2014-11-26
+1377990,1377990,Fix Released,Exec ['chown_dashboard'] should executied after ['horizon_compress_styles'],https://bugs.launchpad.net/fuel/+bug/1377990,2014-11-26
+1274924,1274924,Fix Released,Settings the availability zone deletes all attached metadata,https://bugs.launchpad.net/nova/+bug/1274924,2014-11-26

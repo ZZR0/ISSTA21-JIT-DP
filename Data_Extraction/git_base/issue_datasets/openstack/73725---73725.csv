@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1319639,1319639,Fix Released,Standard random number generators (using shuffle )  should not be used to generate randomness,https://bugs.launchpad.net/cinder/+bug/1319639,2014-10-16
+1348737,1348737,Fix Released,Once a Gateway is set L-3 agent attempts to update external Gateway on every router update,https://bugs.launchpad.net/neutron/+bug/1348737,2014-10-16
+1348306,1348306,Fix Released,L3 agent restart disrupts fip namespace causing connectivity loss,https://bugs.launchpad.net/neutron/+bug/1348306,2014-10-16
+1340969,1340969,Fix Released,NSX: Correct default timeout params,https://bugs.launchpad.net/neutron/+bug/1340969,2014-10-16
+1308318,1308318,Fix Released,Zone manager removes zoning when there are still volumes attached,https://bugs.launchpad.net/cinder/+bug/1308318,2014-10-16
+1336596,1336596,Fix Released,Cisco N1k: Clear entries in n1kv specific tables on rollbacks,https://bugs.launchpad.net/neutron/+bug/1336596,2014-10-16
+1303460,1303460,Fix Released,BrcdFCSanLookupService doesn't handle more than 1 switch,https://bugs.launchpad.net/cinder/+bug/1303460,2014-10-16
+1295281,1295281,Fix Released,py26 tests take too long to run,https://bugs.launchpad.net/neutron/+bug/1295281,2014-10-16
+1211839,1211839,Fix Released,volume stuck in creating following VolumeBackendAPIException,https://bugs.launchpad.net/cinder/+bug/1211839,2014-10-16
+1253993,1253993,Fix Released,OVS agent loop slowdown,https://bugs.launchpad.net/neutron/+bug/1253993,2014-10-16
+1345789,1345789,Fix Released,Enable lazy translation is not importing _,https://bugs.launchpad.net/cinder/+bug/1345789,2014-10-16
+1334086,1334086,Fix Released,Import existing volume failed due to missing 'optional_args' arguments,https://bugs.launchpad.net/cinder/+bug/1334086,2014-10-16
+1328681,1328681,Fix Released,fc_zone_manager.py not parsing list value consistently for fc_fabric_names,https://bugs.launchpad.net/cinder/+bug/1328681,2014-10-16
+1207402,1207402,Fix Released,neutron should automatically stamp the database version when it is deployed,https://bugs.launchpad.net/neutron/+bug/1207402,2014-10-16
+1207402,1207402,Fix Released,neutron should automatically stamp the database version when it is deployed,https://bugs.launchpad.net/devstack/+bug/1207402,2014-10-16
+1320056,1320056,Fix Released,Cinder utils SSHPool should allow customized ssh host keys and missing policy,https://bugs.launchpad.net/cinder/+bug/1320056,2014-10-16
+1364171,1364171,Fix Released,Neutron functional job is failing without output that would aid in debugging,https://bugs.launchpad.net/neutron/+bug/1364171,2014-10-16
+1317606,1317606,Fix Released,The call to add_admin_meta to view in list volumes takes incredibly long,https://bugs.launchpad.net/cinder/+bug/1317606,2014-10-16
+1336172,1336172,Fix Released,Neutron functional job is broken,https://bugs.launchpad.net/neutron/+bug/1336172,2014-10-16
+1307956,1307956,Fix Released,Limit formatting routes when adding resources like nova api,https://bugs.launchpad.net/cinder/+bug/1307956,2014-10-16
+1346372,1346372,Fix Released,The default value of quota_firewall_rule should not be -1,https://bugs.launchpad.net/neutron/+bug/1346372,2014-10-16
+1306275,1306275,Fix Released,Cinder needs to be explicitly importing gettextutils _,https://bugs.launchpad.net/cinder/+bug/1306275,2014-10-16
+1346245,1346245,Fix Released,Incorrect downgrade in migration b7a8863760e_rm_cisco_vlan_bindin,https://bugs.launchpad.net/neutron/+bug/1346245,2014-10-16
+1295239,1295239,Fix Released,VMware: Upload volume to image fails with GlanceConnectionFailed error,https://bugs.launchpad.net/cinder/+bug/1295239,2014-10-16
+1344266,1344266,Fix Released,NSX: router ports should be set as port_security_enabled=false on interface-attach,https://bugs.launchpad.net/neutron/+bug/1344266,2014-10-16
+1285833,1285833,Fix Released,Keystone client racing on certificate lookups causing 401 Unauthorized on API calls,https://bugs.launchpad.net/python-keystoneclient/+bug/1285833,2014-10-16
+1285833,1285833,Fix Released,Keystone client racing on certificate lookups causing 401 Unauthorized on API calls,https://bugs.launchpad.net/cinder/+bug/1285833,2014-10-16
+1343750,1343750,Fix Released,RYU CI fails with PortNotFound,https://bugs.launchpad.net/neutron/+bug/1343750,2014-10-16
+1347184,1347184,Fix Released,Attach fails Unable to fetch connection information from backend: global name '_' is not defined,https://bugs.launchpad.net/cinder/+bug/1347184,2014-10-16
+1325481,1325481,Fix Released,comment misspelled about volume_clear,https://bugs.launchpad.net/cinder/+bug/1325481,2014-10-16
+1323741,1323741,Fix Released,LVM iSER driver scan_tries not set correctly,https://bugs.launchpad.net/cinder/+bug/1323741,2014-10-16
+1318748,1318748,Fix Released,dd iflag/oflag set  invalid argument,https://bugs.launchpad.net/cinder/+bug/1318748,2014-10-16
+1313118,1313118,Fix Released,cinder v1: links in versions response don't work,https://bugs.launchpad.net/cinder/+bug/1313118,2014-10-16
+1341518,1341518,Fix Released,Incorrect default value on integer column,https://bugs.launchpad.net/neutron/+bug/1341518,2014-10-16
+1340536,1340536,Fix Released,NSX: Remove unneed call to _ensure_default_security_group,https://bugs.launchpad.net/neutron/+bug/1340536,2014-10-16
+1313116,1313116,Fix Released,cinder: update version response to remove PDF and WADL links,https://bugs.launchpad.net/cinder/+bug/1313116,2014-10-16
+1339884,1339884,Fix Released,Variable initialization missing in db_base_plugin_v2 class,https://bugs.launchpad.net/neutron/+bug/1339884,2014-10-16
+1311640,1311640,Fix Released,cinder causes tgtd to crash when default-driver is not configured,https://bugs.launchpad.net/cinder/+bug/1311640,2014-10-16
+1336566,1336566,Fix Released,unboundlocalerror during sync_routers_task,https://bugs.launchpad.net/neutron/+bug/1336566,2014-10-16
+1311277,1311277,Fix Released,cinder list with metadata filter doesn't work,https://bugs.launchpad.net/cinder/+bug/1311277,2014-10-16
+1336207,1336207,Fix Released,[OSSA 2014-025] There is no quota for allowed address pair (CVE-2014-3555),https://bugs.launchpad.net/neutron/+bug/1336207,2014-10-16
+1336207,1336207,Fix Released,[OSSA 2014-025] There is no quota for allowed address pair (CVE-2014-3555),https://bugs.launchpad.net/ossa/+bug/1336207,2014-10-16
+1309047,1309047,Fix Released,NetApp NFS driver: dst_img_local referenced before assignment,https://bugs.launchpad.net/cinder/+bug/1309047,2014-10-16
+1336198,1336198,Fix Released,Metering test plugin includes initialization code as well as tests,https://bugs.launchpad.net/neutron/+bug/1336198,2014-10-16
+1308255,1308255,Fix Released,Volume migration status extension makes too many db requests,https://bugs.launchpad.net/cinder/+bug/1308255,2014-10-16
+1336177,1336177,Fix Released,"Foreign key was set in model, but was skipped in migration",https://bugs.launchpad.net/neutron/+bug/1336177,2014-10-16
+1334922,1334922,Fix Released,agent functional tests reference incorrect MAX_LEN constant,https://bugs.launchpad.net/neutron/+bug/1334922,2014-10-16
+1303882,1303882,Fix Released,force detach should be an admin api as force delete api,https://bugs.launchpad.net/cinder/+bug/1303882,2014-10-16
+1302609,1302609,Fix Released,"Create empty volume when snapshot id is """" or srv volume is """"",https://bugs.launchpad.net/cinder/+bug/1302609,2014-10-16
+1298608,1298608,Fix Released,HP LeftHand driver fails with Paramiko 1.13.0,https://bugs.launchpad.net/cinder/+bug/1298608,2014-10-16
+1332412,1332412,Fix Released,Could not send notification to notifications,https://bugs.launchpad.net/neutron/+bug/1332412,2014-10-16
+1290317,1290317,Fix Released,UnboundLocalError: local variable 'copy_error' referenced before assignment,https://bugs.launchpad.net/cinder/+bug/1290317,2014-10-16
+1332334,1332334,Fix Released,Big Switch: Consistency watchdog should stop on polling interval of 0,https://bugs.launchpad.net/neutron/+bug/1332334,2014-10-16
+1289696,1289696,Fix Released,request_id middleware uses wrong request ID value,https://bugs.launchpad.net/neutron/+bug/1289696,2014-10-16
+1289696,1289696,Fix Released,request_id middleware uses wrong request ID value,https://bugs.launchpad.net/cinder/+bug/1289696,2014-10-16
+1332041,1332041,Fix Released,type_tunnel.TunnelRpcCallbackMixin  __init__ method incompatible with other mixins,https://bugs.launchpad.net/neutron/+bug/1332041,2014-10-16
+1331335,1331335,Fix Released,Big Switch ML2 driver doesn't sync on missing networks,https://bugs.launchpad.net/neutron/+bug/1331335,2014-10-16
+1285673,1285673,Fix Released,service_get_all_by_topic filters out disabled services,https://bugs.launchpad.net/cinder/+bug/1285673,2014-10-16
+1284300,1284300,Fix Released,Some tests incorrectly override configuration values,https://bugs.launchpad.net/cinder/+bug/1284300,2014-10-16
+1330532,1330532,Fix Released,systemd is not notified when api_workers = 0,https://bugs.launchpad.net/neutron/+bug/1330532,2014-10-16
+1330490,1330490,Fix Released,can't create security group rule by ip protocol when using postgresql,https://bugs.launchpad.net/neutron/+bug/1330490,2014-10-16
+1284293,1284293,Fix Released,glusterfs_disk_util config option was removed but is still referenced in tests,https://bugs.launchpad.net/cinder/+bug/1284293,2014-10-16
+1279703,1279703,Fix Released,fixup ceph backup driver log messages,https://bugs.launchpad.net/cinder/+bug/1279703,2014-10-16
+1329099,1329099,Fix Released,Control active number of REST calls to the controller in Cisco N1kv plugin,https://bugs.launchpad.net/neutron/+bug/1329099,2014-10-16
+1255925,1255925,Fix Released,unused reservation methods from db api,https://bugs.launchpad.net/cinder/+bug/1255925,2014-10-16
+1322366,1322366,Fix Released,Can't override host in cinder-volume backend,https://bugs.launchpad.net/cinder/+bug/1322366,2014-10-16
+1328331,1328331,Fix Released,Big Switch: servermanager consistency hash doesn't work in HA deployments,https://bugs.launchpad.net/neutron/+bug/1328331,2014-10-16
+1324294,1324294,Fix Released,cinder API stacktraces on assorted quota LimitExceeded,https://bugs.launchpad.net/cinder/+bug/1324294,2014-10-16
+1328321,1328321,Fix Released,Big Switch: Consistency watchdog calling wrong method,https://bugs.launchpad.net/neutron/+bug/1328321,2014-10-16
+1323993,1323993,Fix Released,IBM SVC driver lost essential info for volume-attach,https://bugs.launchpad.net/cinder/+bug/1323993,2014-10-16
+1326256,1326256,Fix Released,Dnsmasq config files syntax issue when dhcp_domain is empty,https://bugs.launchpad.net/neutron/+bug/1326256,2014-10-16
+1322340,1322340,Fix Released,cinder-volume fails to start on resume deletes where a volume DNE,https://bugs.launchpad.net/cinder/+bug/1322340,2014-10-16
+1322105,1322105,Fix Released,NVP FWaaS occurs error when removing a rule which is shared by two firewalls,https://bugs.launchpad.net/neutron/+bug/1322105,2014-10-16
+1318261,1318261,Fix Released,"OVS Agent: With l2-pop ON, cleaned up tunnel ports appear in rules for table 0 in br-tun",https://bugs.launchpad.net/neutron/+bug/1318261,2014-10-16
+1317573,1317573,Fix Released,logger: fail to mount gluster storage shows as warning and not error,https://bugs.launchpad.net/cinder/+bug/1317573,2014-10-16

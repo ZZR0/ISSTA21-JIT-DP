@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1534349,1534349,Fix Released,[liberty] neutron port binding fails when launching an instance on overcloud,https://bugs.launchpad.net/tripleo/+bug/1534349,2017-09-27
+1590083,1590083,Fix Released,The --initial-state option to `openstack baremetal import` is undocumented,https://bugs.launchpad.net/tripleo/+bug/1590083,2017-09-27
+1598846,1598846,Fix Released,inspection_enable_uefi option is not passed to Puppet on Mitaka and Liberty,https://bugs.launchpad.net/tripleo/+bug/1598846,2017-09-27
+1594724,1594724,Fix Released,Undercloud timeouts when uploading images on slow environments,https://bugs.launchpad.net/tripleo/+bug/1594724,2017-09-27
+1595916,1595916,Fix Released,Swift memory usage grows until it is killed,https://bugs.launchpad.net/tripleo/+bug/1595916,2017-09-27
+1573943,1573943,Fix Released,controller-no-external.yaml fix backport,https://bugs.launchpad.net/tripleo/+bug/1573943,2017-09-27
+1573649,1573649,Fix Released,Management Network value specs has wrong param type,https://bugs.launchpad.net/tripleo/+bug/1573649,2017-09-27
+1583988,1583988,Fix Released,puppet error when set false to NeutronEnableL3Agent,https://bugs.launchpad.net/tripleo/+bug/1583988,2017-09-27
+1577570,1577570,Fix Released,"Disable VIPs before calling ""pcs cluster stop --all""",https://bugs.launchpad.net/tripleo/+bug/1577570,2017-09-27
+1472803,1472803,Fix Released,Move to thin LVM as the default configuration,https://bugs.launchpad.net/cinder/+bug/1472803,2017-09-27
+1718328,1718328,Fix Released,"rdo on rhel 7.4, undercloud httpd service fails to start due to could not bind to address 192.168.24.1:6385",https://bugs.launchpad.net/tripleo/+bug/1718328,2017-09-27
+1713496,1713496,Fix Released,etcd driver implement allocate_unique_key in a raceful manner,https://bugs.launchpad.net/dragonflow/+bug/1713496,2017-09-27
+1703760,1703760,Fix Released,Cann't update flavor access if base information is not changed.,https://bugs.launchpad.net/horizon/+bug/1703760,2017-09-27
+1708160,1708160,Fix Released,Rally scenario CinderVolumes.create_nested_snapshots_and_attach_volume has failed due to lack of names for disk devices,https://bugs.launchpad.net/rally/+bug/1708160,2017-09-27
+1693448,1693448,Fix Released,Undercloud baremetal/nova/glance services  contstraints should be altered to non-mandatory for the tripleoclient and tripleo-common logic,https://bugs.launchpad.net/tripleo/+bug/1693448,2017-09-27
+1694609,1694609,Fix Released,Attaching neutron router to internal network with multiple subnets causes corrupt ASR1k configuration,https://bugs.launchpad.net/networking-cisco/+bug/1694609,2017-09-27
+1719476,1719476,Fix Released,duplicate return status code,https://bugs.launchpad.net/python-gluon/+bug/1719476,2017-09-27
+1680869,1680869,Fix Released,driver reports incorrect storage capacity when LXD is configured with zfs,https://bugs.launchpad.net/nova-lxd/+bug/1680869,2017-09-27
+1717253,1717253,Fix Released,Mechanism that performs user actions before Synergy deletes the VMs,https://bugs.launchpad.net/synergy-scheduler-manager/+bug/1717253,2017-09-27
+1717464,1717464,Fix Released,Synergy should scale up the oldest user requests from the queue,https://bugs.launchpad.net/synergy-scheduler-manager/+bug/1717464,2017-09-27
+1715823,1715823,Fix Released,deleteExpiredServers,https://bugs.launchpad.net/synergy-scheduler-manager/+bug/1715823,2017-09-27
+1719861,1719861,Fix Released,[identity] fernet key file resource shuld be sensitive,https://bugs.launchpad.net/openstack-chef/+bug/1719861,2017-09-27
+1719373,1719373,Fix Released,"tripleo ocata ceilometer-db-upgrade fails, as gnocchi cant reach swift",https://bugs.launchpad.net/tripleo/+bug/1719373,2017-09-27
+1357139,1357139,Fix Released,"EC: Add support for policy types, 'erasure_coding' policy",https://bugs.launchpad.net/openstack-manuals/+bug/1357139,2017-09-27
+1357139,1357139,Fix Released,"EC: Add support for policy types, 'erasure_coding' policy",https://bugs.launchpad.net/swift/+bug/1357139,2017-09-27
+1708169,1708169,Fix Released,cephfs-nfs gate fails with luminous 12.1.1,https://bugs.launchpad.net/devstack-plugin-ceph/+bug/1708169,2017-09-27
+1525464,1525464,Fix Released,Release request of networking-cisco and creation of stable/liberty 2.0.0,https://bugs.launchpad.net/networking-cisco/+bug/1525464,2017-09-27
+1525464,1525464,Fix Released,Release request of networking-cisco and creation of stable/liberty 2.0.0,https://bugs.launchpad.net/neutron/+bug/1525464,2017-09-27
+1506948,1506948,Fix Released,Release request of networking-cisco on stable/kilo: 1.0.0 and 1.1.0,https://bugs.launchpad.net/neutron/+bug/1506948,2017-09-27
+1506948,1506948,Fix Released,Release request of networking-cisco on stable/kilo: 1.0.0 and 1.1.0,https://bugs.launchpad.net/networking-cisco/+bug/1506948,2017-09-27
+1241665,1241665,Fix Released,Mysql losing connection can result in running instance stuck in BUILD,https://bugs.launchpad.net/nova/+bug/1241665,2017-09-27
+1494657,1494657,Fix Released,ASR1K plugin: Router port status is DOWN even when fwd happens,https://bugs.launchpad.net/networking-cisco/+bug/1494657,2017-09-27
+1699437,1699437,Fix Released,muti mount points don't mount in right order,https://bugs.launchpad.net/diskimage-builder/+bug/1699437,2017-09-27
+1694616,1694616,Fix Released,Remove usage of parameter enforce_type,https://bugs.launchpad.net/zun/+bug/1694616,2017-09-27
+1694616,1694616,Fix Released,Remove usage of parameter enforce_type,https://bugs.launchpad.net/senlin/+bug/1694616,2017-09-27
+1694616,1694616,Fix Released,Remove usage of parameter enforce_type,https://bugs.launchpad.net/watcher/+bug/1694616,2017-09-27
+1694616,1694616,Fix Released,Remove usage of parameter enforce_type,https://bugs.launchpad.net/zaqar/+bug/1694616,2017-09-27
+1702587,1702587,Fix Released,Refactor code,https://bugs.launchpad.net/zun/+bug/1702587,2017-09-27
+1648566,1648566,Fix Released,UI user cannot see nor change network driver selection,https://bugs.launchpad.net/ironic-ui/+bug/1648566,2017-09-27
+1602211,1602211,Fix Released,Implementation for CoprHD Cinder Drivers,https://bugs.launchpad.net/cinder/+bug/1602211,2017-09-26
+1552865,1552865,Fix Released,Add 'conf' param for TextGuruMeditation autorun setup,https://bugs.launchpad.net/cinder/+bug/1552865,2017-09-26
+1648228,1648228,Fix Released,HNAS: Rename hnas_svcX_volume_type,https://bugs.launchpad.net/cinder/+bug/1648228,2017-09-26
+1703265,1703265,Fix Released,Fixed the 'addresses' field,https://bugs.launchpad.net/zun/+bug/1703265,2017-09-26
+1695791,1695791,Fix Released,OSC: return columns instead of using print_dict,https://bugs.launchpad.net/zun/+bug/1695791,2017-09-26
+1694137,1694137,Fix Released,Zunclient should escape special character,https://bugs.launchpad.net/zun/+bug/1694137,2017-09-26
+1692598,1692598,Fix Released,Improve style of zun pull,https://bugs.launchpad.net/zun/+bug/1692598,2017-09-26
+1719334,1719334,Fix Released,rh1 compute nodes OVS port exhaustion,https://bugs.launchpad.net/tripleo/+bug/1719334,2017-09-26
+1672709,1672709,Fix Released,Ability to edit resource_class via the UI is missing,https://bugs.launchpad.net/ironic-ui/+bug/1672709,2017-09-26
+1671567,1671567,Fix Released,UI has no way to get/set a node's current boot device,https://bugs.launchpad.net/ironic-ui/+bug/1671567,2017-09-26
+1674374,1674374,Fix Released,remove i18n methods because logs are not being translated,https://bugs.launchpad.net/python-ironic-inspector-client/+bug/1674374,2017-09-26
+1674374,1674374,Fix Released,remove i18n methods because logs are not being translated,https://bugs.launchpad.net/python-ironicclient/+bug/1674374,2017-09-26
+1674374,1674374,Fix Released,remove i18n methods because logs are not being translated,https://bugs.launchpad.net/ironic-lib/+bug/1674374,2017-09-26
+1674374,1674374,Fix Released,remove i18n methods because logs are not being translated,https://bugs.launchpad.net/ironic-inspector/+bug/1674374,2017-09-26
+1674374,1674374,Fix Released,remove i18n methods because logs are not being translated,https://bugs.launchpad.net/ironic/+bug/1674374,2017-09-26
+1653926,1653926,Fix Released,l3_proactive_app naming convention is unclear,https://bugs.launchpad.net/dragonflow/+bug/1653926,2017-09-26
+1718670,1718670,Fix Released,remove sample response from common/keystone_light,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1718670,2017-09-26
+1719301,1719301,Fix Released,Redis sometimes reports empty IP address,https://bugs.launchpad.net/dragonflow/+bug/1719301,2017-09-26
+1718094,1718094,Fix Released,resource and description should be required parameters when creating flavor,https://bugs.launchpad.net/python-moganclient/+bug/1718094,2017-09-26
+1718277,1718277,Fix Released,Operations frequently timeout waiting for iDRAC to become ready,https://bugs.launchpad.net/python-dracclient/+bug/1718277,2017-09-26
+1691687,1691687,Fix Released,failed to backup nova vm with 'NoneType' object has no attribute 'strip',https://bugs.launchpad.net/freezer/+bug/1691687,2017-09-26
+1676574,1676574,Fix Released,Volume delete slowdown at high concurrency and retries after 'Deadlock detected',https://bugs.launchpad.net/cinder/+bug/1676574,2017-09-25
+1675529,1675529,Fix Released,ipmitool driver could needlessly check power status even after power action fails,https://bugs.launchpad.net/ironic/+bug/1675529,2017-09-25
+1719469,1719469,Fix Released,CI: ovb cannot allocate host,https://bugs.launchpad.net/tripleo/+bug/1719469,2017-09-25
+1509012,1509012,Fix Released,Some versioned objects are missing relationships defined as backref in SQLAlchemy models,https://bugs.launchpad.net/cinder/+bug/1509012,2017-09-25
+1717535,1717535,Fix Released,Intermittent KeyError - take two: 'cisco_ha:details' tracebacks in asr1k_routertype_driver unit tests,https://bugs.launchpad.net/networking-cisco/+bug/1717535,2017-09-25
+1702158,1702158,Fix Released,test_models_sync  unit test fails when run on a system with default MyISAM engine,https://bugs.launchpad.net/ironic/+bug/1702158,2017-09-25
+1705498,1705498,Fix Released,"""Image Builder"" hyper-link is not true",https://bugs.launchpad.net/ironic/+bug/1705498,2017-09-25
+1663202,1663202,Fix Released,--provision-state argument works incorrectly in OSC 'node list' command,https://bugs.launchpad.net/python-ironicclient/+bug/1663202,2017-09-25
+1706229,1706229,Fix Released,security group: ipv6 protocol integer works in ipv4 ethertype,https://bugs.launchpad.net/neutron/+bug/1706229,2017-09-25
+1669074,1669074,Fix Released,neutron ovs wires subports with wrong firewall loaded,https://bugs.launchpad.net/neutron/+bug/1669074,2017-09-25
+1699516,1699516,Fix Released,Trunk create fails due to case typo,https://bugs.launchpad.net/neutron/+bug/1699516,2017-09-25
+1697926,1697926,Fix Released,linuxbridge ensure_bridge report errror,https://bugs.launchpad.net/neutron/+bug/1697926,2017-09-25
+1695740,1695740,Fix Released,"Segments, routed-networks, IPAM only usecase regression",https://bugs.launchpad.net/neutron/+bug/1695740,2017-09-25
+1696537,1696537,Fix Released,test_keepalived_multiple_sighups_does_not_forfeit_mastership fails when neutron-server tries to bind with Linuxbridge driver (agent not enabled),https://bugs.launchpad.net/neutron/+bug/1696537,2017-09-25
+1682621,1682621,Fix Released,http 404 instead of 403 for role with read but not write access,https://bugs.launchpad.net/neutron/+bug/1682621,2017-09-25

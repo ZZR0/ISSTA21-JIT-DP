@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1570557,1570557,Fix Released,RFE: Allow vdu (VM) names to be specified as a parameter,https://bugs.launchpad.net/tacker/+bug/1570557,2016-12-07
+1591361,1591361,Fix Released,"Fix data handling for vnfd, config and param yaml templates",https://bugs.launchpad.net/tacker/+bug/1591361,2016-12-07
+1622856,1622856,Fix Released,PY35-jenkins-gate errors,https://bugs.launchpad.net/tacker/+bug/1622856,2016-12-07
+1620948,1620948,Fix Released,gate-tacker-python35-db-nv failed,https://bugs.launchpad.net/tacker/+bug/1620948,2016-12-07
+1617337,1617337,Fix Released,"Unit tests failing : ""AttributeError: 'str' object has no attribute 'decode'""",https://bugs.launchpad.net/tacker/+bug/1617337,2016-12-07
+1591372,1591372,Fix Released,Provide support for security-groups setting for ConnectionPoints iin tosca templates,https://bugs.launchpad.net/tacker/+bug/1591372,2016-12-07
+1585788,1585788,Fix Released,Automate vnf creation/deletion with static ip support in tosca template,https://bugs.launchpad.net/tacker/+bug/1585788,2016-12-07
+1624609,1624609,Fix Released,stevedore extension error thrown for get_resource_info  while loading nova and noop driver during tacker startup,https://bugs.launchpad.net/tacker/+bug/1624609,2016-12-07
+1623064,1623064,Fix Released,"The event type for the VIM status ""Reachable"" should be Monitor instead of Update",https://bugs.launchpad.net/tacker/+bug/1623064,2016-12-07
+1475047,1475047,Fix Released,Horizon and tacker client allow one to create VNFD's with same name,https://bugs.launchpad.net/tacker/+bug/1475047,2016-12-07
+1618724,1618724,Fix Released,deprecate warning for infra_driver and mgmt_driver at server,https://bugs.launchpad.net/tacker/+bug/1618724,2016-12-07
+1627151,1627151,Fix Released,Ceilometer cannot triger alarms to Tacker,https://bugs.launchpad.net/tacker/+bug/1627151,2016-12-07
+1604320,1604320,Fix Released,Change assertTrue to assertEqual in test_ringbuilder,https://bugs.launchpad.net/swift/+bug/1604320,2016-12-07
+1600247,1600247,Fix Released,object copy with x-fresh-metadata ignore new sysmeta,https://bugs.launchpad.net/swift/+bug/1600247,2016-12-07
+1391826,1391826,Fix Released,not all existing headers are copied with COPY or X-Copy-From,https://bugs.launchpad.net/swift/+bug/1391826,2016-12-07
+1534572,1534572,Fix Released,EC: policy ring validation doesn't work at ring reload,https://bugs.launchpad.net/swift/+bug/1534572,2016-12-07
+1578835,1578835,Fix Released,pretend_min_part_hours throws TypeError on unbalanced rings,https://bugs.launchpad.net/swift/+bug/1578835,2016-12-07
+1555860,1555860,Fix Released,Incorrect IPv6 curl commands output by swift-get-nodes,https://bugs.launchpad.net/swift/+bug/1555860,2016-12-07
+1596944,1596944,Fix Released,object metadata constraints should be checked after callback to authorize,https://bugs.launchpad.net/swift/+bug/1596944,2016-12-07
+1536127,1536127,Fix Released,Duplicated code,https://bugs.launchpad.net/swift/+bug/1536127,2016-12-07
+1567105,1567105,Fix Released,swift-ring-builder output display bad column alignment with ipv6,https://bugs.launchpad.net/swift/+bug/1567105,2016-12-07
+1605686,1605686,Fix Released,swift-dispersion-report and -populate  man pages are missing --policy-name option,https://bugs.launchpad.net/swift/+bug/1605686,2016-12-07
+1607017,1607017,Fix Released,add man page for swift-oldies,https://bugs.launchpad.net/swift/+bug/1607017,2016-12-07
+1609904,1609904,Fix Released,"Encryption raises KeyErrors on ""subdir"" entries in container listings",https://bugs.launchpad.net/swift/+bug/1609904,2016-12-07
+1609687,1609687,Fix Released,Inconsistent naming of OpenStack Swift in manpages,https://bugs.launchpad.net/swift/+bug/1609687,2016-12-07
+1605021,1605021,Fix Released,[install-guide] Missing environment-networking-storage-swift,https://bugs.launchpad.net/swift/+bug/1605021,2016-12-07
+1612051,1612051,Fix Released,Typo in Documentation of Large Object Support page,https://bugs.launchpad.net/swift/+bug/1612051,2016-12-07
+1612302,1612302,Fix Released,Grammatical error in overview_ring.rst,https://bugs.launchpad.net/swift/+bug/1612302,2016-12-07
+1613316,1613316,Fix Released,HEAD requests on DLOs break when segment container is missing,https://bugs.launchpad.net/swift/+bug/1613316,2016-12-07
+1613494,1613494,Fix Released,probe test can run even if resetswift failed,https://bugs.launchpad.net/swift/+bug/1613494,2016-12-07
+1612991,1612991,Fix Released,Post-as-copy does not allow a DLO manifest to be updated,https://bugs.launchpad.net/swift/+bug/1612991,2016-12-07
+1600403,1600403,Fix Released,Typos in comments in the builder,https://bugs.launchpad.net/swift/+bug/1600403,2016-12-07
+1619261,1619261,Fix Released,Missing detail in versioned_writes docstring,https://bugs.launchpad.net/swift/+bug/1619261,2016-12-07
+1224734,1224734,Fix Released,recheck_account_existence of 0 causes all container and object requests to fail,https://bugs.launchpad.net/swift/+bug/1224734,2016-12-07
+1607519,1607519,Fix Released,swift-temp-url wrong HMAC full url (with WARNING),https://bugs.launchpad.net/swift/+bug/1607519,2016-12-07
+1607523,1607523,Fix Released,swift-temp-url should be deprecated,https://bugs.launchpad.net/swift/+bug/1607523,2016-12-07
+1599923,1599923,Fix Released,swift-ring-builder-analyzer needs man page,https://bugs.launchpad.net/swift/+bug/1599923,2016-12-07
+1607023,1607023,Fix Released,add man page for swift-temp-url,https://bugs.launchpad.net/swift/+bug/1607023,2016-12-07
+1607021,1607021,Fix Released,add man page for swift-recon-cron,https://bugs.launchpad.net/swift/+bug/1607021,2016-12-07
+1607019,1607019,Fix Released,add man page for swift-reconciler-enqueue,https://bugs.launchpad.net/swift/+bug/1607019,2016-12-07
+1607016,1607016,Fix Released,add man page for swift-object-reconstructor,https://bugs.launchpad.net/swift/+bug/1607016,2016-12-07
+1607014,1607014,Fix Released,add man page for swift-form-signature,https://bugs.launchpad.net/swift/+bug/1607014,2016-12-07
+1607012,1607012,Fix Released,add man page for swift-drive-audit,https://bugs.launchpad.net/swift/+bug/1607012,2016-12-07
+1607010,1607010,Fix Released,add man page for swift-container-reconciler,https://bugs.launchpad.net/swift/+bug/1607010,2016-12-07
+1607007,1607007,Fix Released,add man page for swift-config,https://bugs.launchpad.net/swift/+bug/1607007,2016-12-07
+1607005,1607005,Fix Released,add man page for swift-account-audit,https://bugs.launchpad.net/swift/+bug/1607005,2016-12-07
+1583551,1583551,Fix Released,docs should say more about ring regions and that regions and zones are ints,https://bugs.launchpad.net/swift/+bug/1583551,2016-12-07
+1607027,1607027,Fix Released,add man page for swift.conf,https://bugs.launchpad.net/swift/+bug/1607027,2016-12-07
+1605597,1605597,Fix Released,container sync cannot copy SLOs,https://bugs.launchpad.net/swift/+bug/1605597,2016-12-07
+1484598,1484598,Fix Released,Proxy server ignores additional fragments on primary nodes,https://bugs.launchpad.net/swift/+bug/1484598,2016-12-07
+1469094,1469094,Fix Released,Timeout writing .durable can cause error on GET (under failure),https://bugs.launchpad.net/swift/+bug/1469094,2016-12-07
+1625956,1625956,Fix Released,test_GET_HEAD_with_fragment_preferences is flakey,https://bugs.launchpad.net/swift/+bug/1625956,2016-12-07
+1301728,1301728,Fix Released,tombstone (.ts) object will never be deleted if the hash_suffix exists in the hashes.pkl,https://bugs.launchpad.net/swift/+bug/1301728,2016-12-07
+1623299,1623299,Fix Released,openstack cluster action list WARNING: openstackclient.common.utils is deprecated and will be removed after Jun 2017. Please use osc_lib.utils  HttpException: Field `user' cannot be None,https://bugs.launchpad.net/senlin/+bug/1623299,2016-12-07
+1624670,1624670,Fix Released,service_manage_cleanup has some problem,https://bugs.launchpad.net/senlin/+bug/1624670,2016-12-07
+1617364,1617364,Fix Released,Multiple security group rule updates cause conflicts and are ignored,https://bugs.launchpad.net/searchlight/+bug/1617364,2016-12-07
+1621914,1621914,Fix Released,Don't index neutron ports for which we don't get notifications,https://bugs.launchpad.net/searchlight/+bug/1621914,2016-12-07
+1550032,1550032,Fix Released,Calls to get_version should specify a date field,https://bugs.launchpad.net/searchlight/+bug/1550032,2016-12-07
+1626589,1626589,Fix Released,Default 'context_is_admin' policy rule should include is_admin_project,https://bugs.launchpad.net/searchlight/+bug/1626589,2016-12-07
+1599332,1599332,Fix Released,Highlighting will return hits in searchlight_user_role,https://bugs.launchpad.net/searchlight/+bug/1599332,2016-12-07
+1625292,1625292,Fix Released,dashboard: Some templates are hard to translate due to string concatenation,https://bugs.launchpad.net/sahara/+bug/1625292,2016-12-07
+1625076,1625076,Fix Released,MapR ZooKeeper heath check fails on CentOS 7,https://bugs.launchpad.net/sahara/+bug/1625076,2016-12-07
+1624351,1624351,Fix Released,MapR Hue fails on Centos7,https://bugs.launchpad.net/sahara/+bug/1624351,2016-12-07
+1627081,1627081,Fix Released,wrong event log for ambari,https://bugs.launchpad.net/sahara/+bug/1627081,2016-12-07
+1627639,1627639,Fix Released,API break: image metadata format changed in Newton,https://bugs.launchpad.net/sahara/+bug/1627639,2016-12-07
+1602620,1602620,Fix Released,ImportError (No module named requests_mock.contrib),https://bugs.launchpad.net/python-zaqarclient/+bug/1602620,2016-12-07
+1625643,1625643,Fix Released,"""openstack optimize""  returns   'ClientManager' object has no attribute '_auth_url'",https://bugs.launchpad.net/python-watcherclient/+bug/1625643,2016-12-07
+1632683,1632683,Fix Released,python-triploeclient disregards some parameters in environment files,https://bugs.launchpad.net/tripleo/+bug/1632683,2016-12-07
+1632013,1632013,Fix Released,Tripleoclient should use the passwords generated by the Mistral workflow,https://bugs.launchpad.net/tripleo/+bug/1632013,2016-12-07
+1639174,1639174,Fix Released,Endpoints missing when deploying Mitaka with the Newton client,https://bugs.launchpad.net/tripleo/+bug/1639174,2016-12-07
+1634260,1634260,Fix Released,Missing get_file files don't cause deploy failures,https://bugs.launchpad.net/tripleo/+bug/1634260,2016-12-07
+1640141,1640141,Fix Released,Composable roles deployment fails with KeyError: 'CountDefault' error message,https://bugs.launchpad.net/tripleo/+bug/1640141,2016-12-07
+1635301,1635301,Fix Released,openstack overcloud update stack does not update plan witch changed THT,https://bugs.launchpad.net/tripleo/+bug/1635301,2016-12-07
+1617480,1617480,Fix Released,test cases for pagination methods errors out with unexpected method call due to url string mismatch,https://bugs.launchpad.net/python-tackerclient/+bug/1617480,2016-12-07
+1560052,1560052,Fix Released,SwiftService.post ignores SwiftPostObject options['header'],https://bugs.launchpad.net/python-swiftclient/+bug/1560052,2016-12-07

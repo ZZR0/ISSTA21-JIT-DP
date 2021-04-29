@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1715885,1715885,Fix Released,HPE OneView driver documentation for ``oneview`` hardware type,https://bugs.launchpad.net/ironic/+bug/1715885,2017-11-15
+1718794,1718794,Fix Released,Some BMC/IPMI will error if currently off and told to turn off,https://bugs.launchpad.net/ironic/+bug/1718794,2017-11-15
+1718683,1718683,Fix Released,'next' link should not be generated for GET /nodes?limit=1&instance_uuid=<uuid>,https://bugs.launchpad.net/ironic/+bug/1718683,2017-11-15
+1648448,1648448,Fix Released,[RFE]SUM based firmware update as manual cleaning step for iLO drivers,https://bugs.launchpad.net/ironic/+bug/1648448,2017-11-15
+1694649,1694649,Fix Released,[RFE] Support UEFI secure boot in iRMC drivers,https://bugs.launchpad.net/python-scciclient/+bug/1694649,2017-11-15
+1694649,1694649,Fix Released,[RFE] Support UEFI secure boot in iRMC drivers,https://bugs.launchpad.net/ironic/+bug/1694649,2017-11-15
+1724275,1724275,Fix Released,boot from volume: Initiator Node is not authorized,https://bugs.launchpad.net/ironic/+bug/1724275,2017-11-15
+1353688,1353688,Fix Released,User guide needs updating,https://bugs.launchpad.net/ironic/+bug/1353688,2017-11-15
+1701258,1701258,Fix Released,Building or downloading a deploy ramdisk image in Installation Guide for Bare Metal Service,https://bugs.launchpad.net/ironic/+bug/1701258,2017-11-15
+1729628,1729628,Fix Released,should be able to have a port of 0,https://bugs.launchpad.net/ironic/+bug/1729628,2017-11-15
+1586320,1586320,Fix Released,remove IronicObjectIndirectionAPI from ironic-api,https://bugs.launchpad.net/ironic/+bug/1586320,2017-11-15
+1526283,1526283,Fix Released,[RFE] Support rolling upgrades,https://bugs.launchpad.net/ironic/+bug/1526283,2017-11-15
+1730526,1730526,Fix Released,miss node id in devstack lib,https://bugs.launchpad.net/ironic/+bug/1730526,2017-11-15
+1534513,1534513,Fix Released,Time failed to sync on same nodes for different tests in random order,https://bugs.launchpad.net/fuel/+bug/1534513,2017-11-15
+1299048,1299048,Fix Released,Need to remove logs Releases from UI,https://bugs.launchpad.net/fuel/+bug/1299048,2017-11-15
+1367319,1367319,Fix Released,[OSTF] Failure ceilometer test test_create_sample,https://bugs.launchpad.net/fuel/+bug/1367319,2017-11-15
+1688328,1688328,Fix Released,rally task failing with error unable to open database file,https://bugs.launchpad.net/rally/+bug/1688328,2017-11-15
+1435947,1435947,Fix Released,need to add retry on run ostf in destroy controllers test,https://bugs.launchpad.net/fuel/+bug/1435947,2017-11-15
+1473334,1473334,Fix Released,[Docs] Wrong command separation operations.html#fuel-master-and-docker-disk-space-troubleshooting,https://bugs.launchpad.net/fuel/+bug/1473334,2017-11-15
+1539503,1539503,Fix Committed,Invalid baremetal network configuration in multi-rack environment,https://bugs.launchpad.net/fuel/+bug/1539503,2017-11-15
+1544148,1544148,Fix Released,[system-tests] Remove ipaddr and use netaddr instead,https://bugs.launchpad.net/fuel/+bug/1544148,2017-11-15
+1597512,1597512,Fix Released,Enable KS token caching by default to avoid performance problems,https://bugs.launchpad.net/fuel/+bug/1597512,2017-11-15
+1727895,1727895,Fix Released,should include portgroup mode in manageable servers list,https://bugs.launchpad.net/mogan/+bug/1727895,2017-11-15
+1729903,1729903,Fix Released,[docs] Incorrect link in doc/source/GSG.rst,https://bugs.launchpad.net/collectd-ceilometer-plugin/+bug/1729903,2017-11-15
+1708580,1708580,Fix Released,ovsfw ignores port_ranges under some conditions,https://bugs.launchpad.net/neutron/+bug/1708580,2017-11-15
+1718177,1718177,Fix Released,Migrating a VM to a different host fails,https://bugs.launchpad.net/networking-midonet/+bug/1718177,2017-11-15
+1729518,1729518,Fix Released,zuul  test failed,https://bugs.launchpad.net/puppet-openstack-cookiecutter/+bug/1729518,2017-11-15
+1718485,1718485,Fix Released,instance.live.migration.force.complete is not a versioned notification and not whitelisted,https://bugs.launchpad.net/nova/+bug/1718485,2017-11-15
+1714237,1714237,Fix Released,After deleting (abort) a live migration the allocations are not deleted from the destination host,https://bugs.launchpad.net/nova/+bug/1714237,2017-11-15
+1715182,1715182,Fix Released,_rollback_live_migration does not remove allocations from destination node,https://bugs.launchpad.net/nova/+bug/1715182,2017-11-15
+1618822,1618822,Fix Released,downgrade the exception log in update_instance_cache_with_nw_info,https://bugs.launchpad.net/nova/+bug/1618822,2017-11-15
+1685340,1685340,Fix Released,compute logs tell me live migration finished successfully when it actually failed,https://bugs.launchpad.net/nova/+bug/1685340,2017-11-15
+1709319,1709319,Fix Released,LibvirtConfigGuestDeviceAddressPCI missing format_dom method,https://bugs.launchpad.net/nova/+bug/1709319,2017-11-15
+1693315,1693315,Fix Released,Unhelpful invalid bdm error in compute logs when volume creation fails during boot from volume,https://bugs.launchpad.net/nova/+bug/1693315,2017-11-15
+1592167,1592167,Fix Released,Deleted keypair causes metadata failure,https://bugs.launchpad.net/nova/+bug/1592167,2017-11-15
+1717365,1717365,Fix Released,binding:profile is None breaks migration,https://bugs.launchpad.net/nova/+bug/1717365,2017-11-15
+1718877,1718877,Fix Released,nova-api returns 500 error(DBError) if nova list API is called with filters with empty string,https://bugs.launchpad.net/nova/+bug/1718877,2017-11-15
+1715533,1715533,Fix Released,'nova-manage cell_v2 map_instances' return argument error when --max-count option is used,https://bugs.launchpad.net/nova/+bug/1715533,2017-11-15
+1721670,1721670,Fix Released,Build notification in conductor fails to send due to InstanceNotFound,https://bugs.launchpad.net/nova/+bug/1721670,2017-11-15
+1718756,1718756,Fix Released,Ceph suggests defaulting pg_num to 128 when using < 5 OSDs,https://bugs.launchpad.net/tripleo/+bug/1718756,2017-11-14
+1720780,1720780,Fix Released,"Setting root device hints automatically with ""configure boot --root-device smallest"" doesn't work when wwn_vendor_extension is used",https://bugs.launchpad.net/tripleo/+bug/1720780,2017-11-14
+1704848,1704848,Fix Released,port binding for dhcp port fails,https://bugs.launchpad.net/networking-odl/+bug/1704848,2017-11-14
+1716908,1716908,Fix Released,Unable to create new instances after upgrade.,https://bugs.launchpad.net/openstack-ansible/+bug/1716908,2017-11-14
+1715364,1715364,Fix Released,Validation results are still shown for updated plans,https://bugs.launchpad.net/tripleo/+bug/1715364,2017-11-14
+1708629,1708629,Fix Released,Glance image isn't created in the share in case of nfs backend,https://bugs.launchpad.net/tripleo/+bug/1708629,2017-11-14
+1723665,1723665,Fix Released,puppet-rabbitmq breakage: wrong param type,https://bugs.launchpad.net/tripleo/+bug/1723665,2017-11-14
+1723125,1723125,Fix Released,Horizon container can't read *policy.json in /etc/openstack-dashboard,https://bugs.launchpad.net/tripleo/+bug/1723125,2017-11-14
+1721877,1721877,Fix Released,composable-roles standalone environment file has incorrect controller vars,https://bugs.launchpad.net/tripleo/+bug/1721877,2017-11-14
+1714461,1714461,Fix Released,DPDK feature is enabled or not in ODL,https://bugs.launchpad.net/tripleo/+bug/1714461,2017-11-14
+1667816,1667816,Fix Released,gate failure due to recent local.conf change,https://bugs.launchpad.net/networking-midonet/+bug/1667816,2017-11-14
+1659760,1659760,Fix Released,General scale issue on neutron-fwaas due to RPC broadcast usage (fanout),https://bugs.launchpad.net/networking-midonet/+bug/1659760,2017-11-14
+1659760,1659760,Fix Released,General scale issue on neutron-fwaas due to RPC broadcast usage (fanout),https://bugs.launchpad.net/neutron/+bug/1659760,2017-11-14
+1683644,1683644,Fix Released,UT breakage in stable/ocata and stable/newton,https://bugs.launchpad.net/networking-midonet/+bug/1683644,2017-11-14
+1662041,1662041,Fix Released,create ocata db migration milestone,https://bugs.launchpad.net/networking-midonet/+bug/1662041,2017-11-14
+1669194,1669194,Fix Released,make gate hook use devstack-tools,https://bugs.launchpad.net/networking-midonet/+bug/1669194,2017-11-14
+1665213,1665213,Fix Released,"""Wrong format of rendered input task"" on rally job",https://bugs.launchpad.net/networking-midonet/+bug/1665213,2017-11-14
+1671848,1671848,Fix Released,rally job for monolithic plugin fails because of duplicate security groups,https://bugs.launchpad.net/networking-midonet/+bug/1671848,2017-11-14
+1694378,1694378,Fix Released,v2 plugin returns none for a port w/o portbindings.PROFILE,https://bugs.launchpad.net/networking-midonet/+bug/1694378,2017-11-14
+1682078,1682078,Fix Released,some qos tests failing for v2 plugin,https://bugs.launchpad.net/networking-midonet/+bug/1682078,2017-11-14
+1664104,1664104,Fix Released,MIDONET_USE_CASSANDRA is not passed to configure_repo.sh correctly,https://bugs.launchpad.net/networking-midonet/+bug/1664104,2017-11-14
+1686014,1686014,Fix Released,devstack: typos in variable names (MIDNOET),https://bugs.launchpad.net/networking-midonet/+bug/1686014,2017-11-14
+1693153,1693153,Fix Released,Test RH/Centos with devstack,https://bugs.launchpad.net/networking-midonet/+bug/1693153,2017-11-14
+1706181,1706181,Fix Released,"manila has no admin, config, or install guides",https://bugs.launchpad.net/manila/+bug/1706181,2017-11-14
+1706181,1706181,Fix Released,"manila has no admin, config, or install guides",https://bugs.launchpad.net/manila-ui/+bug/1706181,2017-11-14
+1706181,1706181,Fix Released,"manila has no admin, config, or install guides",https://bugs.launchpad.net/python-manilaclient/+bug/1706181,2017-11-14
+1717203,1717203,Fix Released,manila-ui does not report quota.type for usage limits,https://bugs.launchpad.net/manila-ui/+bug/1717203,2017-11-14
+1718160,1718160,Fix Released,"Quota bars in ""Create Share"" don't show correctly",https://bugs.launchpad.net/manila-ui/+bug/1718160,2017-11-14
+1671783,1671783,Fix Released,Stack delete does not delete Swift ring container,https://bugs.launchpad.net/tripleo/+bug/1671783,2017-11-14
+1725318,1725318,Fix Released,undercloud installation fails when using IPV6,https://bugs.launchpad.net/tripleo/+bug/1725318,2017-11-14
+1716893,1716893,Fix Released,Update of BGPVPN Route Targets breaks connectivity,https://bugs.launchpad.net/networking-bagpipe/+bug/1716893,2017-11-14
+1716893,1716893,Fix Released,Update of BGPVPN Route Targets breaks connectivity,https://bugs.launchpad.net/bgpvpn/+bug/1716893,2017-11-14
+1724764,1724764,Fix Released,service_type and service_name which is specified in nova_catalog_admin_info are not used,https://bugs.launchpad.net/masakari/+bug/1724764,2017-11-14
+1728544,1728544,Fix Released,devstack installation of masakari fails with rabbitmq ACCESS_REFUSED,https://bugs.launchpad.net/masakari/+bug/1728544,2017-11-14
+1722832,1722832,Fix Released,"Trying to remove a route from a match, but match not found",https://bugs.launchpad.net/networking-bagpipe/+bug/1722832,2017-11-14
+1720796,1720796,Fix Released,quickstart shall allow to pass empty external networks for undercloud,https://bugs.launchpad.net/tripleo/+bug/1720796,2017-11-14

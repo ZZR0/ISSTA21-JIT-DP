@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1709310,1709310,Fix Released,Support multiple docker insecure registries,https://bugs.launchpad.net/tripleo/+bug/1709310,2017-08-24
+1708135,1708135,Fix Released,containerized galera does not use SSL in gcomm when enable_internal_tls is set to true,https://bugs.launchpad.net/tripleo/+bug/1708135,2017-08-24
+1710162,1710162,Fix Released,"When TLS everywhere is enabled, mongodb fails cause it's missing the CA",https://bugs.launchpad.net/tripleo/+bug/1710162,2017-08-24
+1709322,1709322,Fix Released,OC upgrade O->P containers fails with error: su: unrecognized option '--sacks-number=128',https://bugs.launchpad.net/tripleo/+bug/1709322,2017-08-24
+1709485,1709485,Fix Released,"When using ceph-ansible, mon host is not set from the public_network block",https://bugs.launchpad.net/tripleo/+bug/1709485,2017-08-24
+1710127,1710127,Fix Released,Services which require DB fail to initialize when deployed with internal TLS,https://bugs.launchpad.net/tripleo/+bug/1710127,2017-08-24
+1709553,1709553,Fix Released,internal TLS deployment failed when using containerized mongodb,https://bugs.launchpad.net/tripleo/+bug/1709553,2017-08-24
+1678025,1678025,Fix Released,nova-libvirt.yaml vnc port range is very limited (port exhaustion),https://bugs.launchpad.net/tripleo/+bug/1678025,2017-08-24
+1709683,1709683,Fix Released,ACLs are not visible inside container images,https://bugs.launchpad.net/tripleo/+bug/1709683,2017-08-24
+1696598,1696598,Fix Released,"overcloud_containers.yaml should be template driven, not static",https://bugs.launchpad.net/tripleo/+bug/1696598,2017-08-24
+1691213,1691213,Fix Released,Add parameter for neutron ml2 overlap_ip_version,https://bugs.launchpad.net/tripleo/+bug/1691213,2017-08-24
+1710866,1710866,Fix Released,ceilometer polling host service not stopped during compute upgrade,https://bugs.launchpad.net/tripleo/+bug/1710866,2017-08-24
+1710773,1710773,Fix Released,scenario001 and 004 fails when Glance with rbd backend is containerized but not Ceph,https://bugs.launchpad.net/tripleo/+bug/1710773,2017-08-24
+1711159,1711159,Fix Released,Ocata -> Pike upgrade: during upgrade the switch-from-non-containerized-to-containerized-ceph-daemons.yml provided by ceph-ansible fails because it requires user input,https://bugs.launchpad.net/tripleo/+bug/1711159,2017-08-24
+1711387,1711387,Fix Released,setup_docker_host.sh blocks other use of Compute::NodeUserData,https://bugs.launchpad.net/tripleo/+bug/1711387,2017-08-24
+1711424,1711424,Fix Released,CertmongerUser profile missing from roles,https://bugs.launchpad.net/tripleo/+bug/1711424,2017-08-24
+1711425,1711425,Fix Released,nova metadata broken in containerized environment,https://bugs.launchpad.net/tripleo/+bug/1711425,2017-08-24
+1700912,1700912,Fix Released,Logrotate configs must be adjusted for containerized services logs,https://bugs.launchpad.net/tripleo/+bug/1700912,2017-08-24
+1712300,1712300,Fix Released,logrotate_crond container is restarting,https://bugs.launchpad.net/tripleo/+bug/1712300,2017-08-24
+1712328,1712328,Fix Released,enabling zaqar doesn't generate appropriate hieradata which makes the TLS everywhere deployment fail.,https://bugs.launchpad.net/tripleo/+bug/1712328,2017-08-24
+1712475,1712475,Fix Released,"when TLS is enabled, libvirt listens on all interfaces",https://bugs.launchpad.net/tripleo/+bug/1712475,2017-08-24
+1712498,1712498,Fix Released,"[UPDATES] tasks with step == ""0"" are never executed",https://bugs.launchpad.net/tripleo/+bug/1712498,2017-08-24
+1712599,1712599,Fix Released,scenario001 fails because ceph-ansible is trying to install epel-release,https://bugs.launchpad.net/tripleo/+bug/1712599,2017-08-24
+1706411,1706411,Fix Released,No way to specify node interfaces via instackenv.json,https://bugs.launchpad.net/tripleo/+bug/1706411,2017-08-24
+1706408,1706408,Fix Released,Bump the used baremetal API version to Pike latest,https://bugs.launchpad.net/tripleo/+bug/1706408,2017-08-24
+1708180,1708180,Fix Released,Remote ssh administration user creation not working with split stack,https://bugs.launchpad.net/tripleo/+bug/1708180,2017-08-24
+1709777,1709777,Fix Released,"Unable to provide a suffix ""-docker"" to build container image registry",https://bugs.launchpad.net/tripleo/+bug/1709777,2017-08-24
+1710629,1710629,Fix Released,Fix tripleo-common path in container health check scripts,https://bugs.launchpad.net/tripleo/+bug/1710629,2017-08-24
+1706026,1706026,Fix Released,tls_proxy gives undef docroot to apache vhost,https://bugs.launchpad.net/tripleo/+bug/1706026,2017-08-24
+1707034,1707034,Fix Released,puppet-tripleo unit jobs failing for tripleo::profile::base::nova::libvirt,https://bugs.launchpad.net/tripleo/+bug/1707034,2017-08-24
+1706389,1706389,Fix Released,Legacy nova/cinder key manager not specified when it needs to be,https://bugs.launchpad.net/tripleo/+bug/1706389,2017-08-24
+1707683,1707683,Fix Released,HA deployments in Pike do not create a clustercheck user,https://bugs.launchpad.net/tripleo/+bug/1707683,2017-08-24
+1696504,1696504,Fix Released,Containerized libvirt auth (disable polkitd),https://bugs.launchpad.net/tripleo/+bug/1696504,2017-08-24
+1708279,1708279,Fix Released,docker --iptables=true rules can block traffic,https://bugs.launchpad.net/tripleo/+bug/1708279,2017-08-24
+1709332,1709332,Fix Released,Haproxy listen options are not being set for resources that are only internal,https://bugs.launchpad.net/tripleo/+bug/1709332,2017-08-24
+1710928,1710928,Fix Released,Barbican's database is created on the barbican profile,https://bugs.launchpad.net/tripleo/+bug/1710928,2017-08-24
+1701490,1701490,Fix Released,We shouldn't need the nova cell undercloud upgrade special case handling.,https://bugs.launchpad.net/tripleo/+bug/1701490,2017-08-24
+1709325,1709325,Fix Released,docker with iptables=false breaks building kolla containers on the undercloud,https://bugs.launchpad.net/tripleo/+bug/1709325,2017-08-24
+1709177,1709177,Fix Released,undercloud install doesn't validate the local interface which leads to delayed and misleading errors,https://bugs.launchpad.net/tripleo/+bug/1709177,2017-08-24
+1711061,1711061,Fix Released,ironic cors don't allow PATCH method,https://bugs.launchpad.net/tripleo/+bug/1711061,2017-08-24
+1708653,1708653,Fix Released,Need to set resource_class on Ironic nodes after upgrade to Pike,https://bugs.launchpad.net/tripleo/+bug/1708653,2017-08-24
+1598709,1598709,Fix Released,backup driver cannot instantiate,https://bugs.launchpad.net/cinder/+bug/1598709,2017-08-24
+1535704,1535704,Fix Released,OSC does not support to set volume's bootable flag,https://bugs.launchpad.net/python-openstackclient/+bug/1535704,2017-08-24
+1519503,1519503,Fix Released,Network Router CRUD,https://bugs.launchpad.net/python-openstackclient/+bug/1519503,2017-08-24
+1519909,1519909,Fix Released,Network Port CRUD,https://bugs.launchpad.net/python-openstackclient/+bug/1519909,2017-08-24
+1555235,1555235,Fix Released,dhclient changes default route,https://bugs.launchpad.net/octavia/+bug/1555235,2017-08-24
+1709328,1709328,Fix Released,the default of the scheduler.enabled_filters config is inconsistent,https://bugs.launchpad.net/nova/+bug/1709328,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-octavia/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-nova/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-vitrage/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-congress/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-mistral/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-watcher/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-manila/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-cloudkitty/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-tacker/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-barbican/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-sahara/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-cinder/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-aodh/+bug/1708976,2017-08-24
+1708976,1708976,Fix Released,Fix test failed,https://bugs.launchpad.net/puppet-ceilometer/+bug/1708976,2017-08-24
+1706473,1706473,Fix Released,The filename of api_paste.ini is wrong,https://bugs.launchpad.net/puppet-vitrage/+bug/1706473,2017-08-24
+1706473,1706473,Fix Released,The filename of api_paste.ini is wrong,https://bugs.launchpad.net/puppet-panko/+bug/1706473,2017-08-24
+1706473,1706473,Fix Released,The filename of api_paste.ini is wrong,https://bugs.launchpad.net/puppet-nova/+bug/1706473,2017-08-24
+1706473,1706473,Fix Released,The filename of api_paste.ini is wrong,https://bugs.launchpad.net/puppet-aodh/+bug/1706473,2017-08-24
+1708149,1708149,Fix Released,Ironic upgrade now needs running online_data_migrations command,https://bugs.launchpad.net/tripleo/+bug/1708149,2017-08-24
+1708149,1708149,Fix Released,Ironic upgrade now needs running online_data_migrations command,https://bugs.launchpad.net/puppet-ironic/+bug/1708149,2017-08-24
+1711060,1711060,Fix Released,not possible to set gnocchi's swift storage endpoint type,https://bugs.launchpad.net/puppet-gnocchi/+bug/1711060,2017-08-24
+1711404,1711404,Fix Released,Can't start glance with IPv6 registry_host,https://bugs.launchpad.net/puppet-glance/+bug/1711404,2017-08-24
+1483371,1483371,Fix Released,Add type/provider for paste configs,https://bugs.launchpad.net/puppet-aodh/+bug/1483371,2017-08-24
+1483371,1483371,Fix Released,Add type/provider for paste configs,https://bugs.launchpad.net/puppet-cloudkitty/+bug/1483371,2017-08-24
+1483371,1483371,Fix Released,Add type/provider for paste configs,https://bugs.launchpad.net/puppet-sahara/+bug/1483371,2017-08-24
+1483371,1483371,Fix Released,Add type/provider for paste configs,https://bugs.launchpad.net/puppet-heat/+bug/1483371,2017-08-24
+1483371,1483371,Fix Released,Add type/provider for paste configs,https://bugs.launchpad.net/puppet-congress/+bug/1483371,2017-08-24
+1483371,1483371,Fix Released,Add type/provider for paste configs,https://bugs.launchpad.net/puppet-ceilometer/+bug/1483371,2017-08-24

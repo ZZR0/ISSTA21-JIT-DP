@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1265493,1265493,Fix Released,RFE - Adding comments to each rule added to iptables,https://bugs.launchpad.net/neutron/+bug/1265493,2015-07-18
+1462304,1462304,Fix Released,[integration tests] Need to add workaround for dhcp_mask issue,https://bugs.launchpad.net/fuel/+bug/1462304,2015-07-18
+1371677,1371677,Fix Released,Race in resource tracker causes 500 response on deleting during verify_resize state,https://bugs.launchpad.net/nova/+bug/1371677,2015-07-17
+1475103,1475103,Fix Released,"Neutron: ""List routers"" doesn't show fully parameters",https://bugs.launchpad.net/openstack-api-site/+bug/1475103,2015-07-17
+1475106,1475106,Fix Released,"Neutron: ""Show router"" doesn't show fully parameters",https://bugs.launchpad.net/openstack-api-site/+bug/1475106,2015-07-17
+1475206,1475206,Fix Released,Keystone: Call get services api not showing fully info in site,https://bugs.launchpad.net/openstack-api-site/+bug/1475206,2015-07-17
+1469692,1469692,Fix Released,[swarm] Jobs for upgrade/rollback should be configure from upgrade 6.1GA to 7.0x,https://bugs.launchpad.net/fuel/+bug/1469692,2015-07-17
+1470168,1470168,Fix Released,Upgrade jobs 6.1 -> 7.0 should use proper snapshot names,https://bugs.launchpad.net/fuel/+bug/1470168,2015-07-17
+1473351,1473351,Fix Released,Test upgrade_ha_env failed on extracting tarball with upgrade script,https://bugs.launchpad.net/fuel/+bug/1473351,2015-07-17
+1446186,1446186,Fix Committed,[IBP] ValueError while parsing: mdadm --detail,https://bugs.launchpad.net/fuel/+bug/1446186,2015-07-17
+1335847,1335847,Fix Released,fuel-web tests leave running fakeui process,https://bugs.launchpad.net/fuel/+bug/1335847,2015-07-17
+1367506,1367506,Fix Released,fuellib_review_syntax_check doesn't fail on errors,https://bugs.launchpad.net/fuel/+bug/1367506,2015-07-17
+1465655,1465655,Fix Released,Enable gating test for fuel-devops,https://bugs.launchpad.net/fuel/+bug/1465655,2015-07-17
+1472250,1472250,Fix Released,verify-fuel-ostf job fails with oslo.serialization error,https://bugs.launchpad.net/fuel/+bug/1472250,2015-07-17
+1475540,1475540,Fix Released,List of ubuntu repositories MIRROR_UBUNTU incorrectly passed to the Nailgun,https://bugs.launchpad.net/fuel/+bug/1475540,2015-07-17
+1475062,1475062,Fix Released,Volume type fails with V2 API,https://bugs.launchpad.net/devstack/+bug/1475062,2015-07-17
+1475454,1475454,Fix Released,"list_migration schema does not allow None for dest_host, dest_node, source_node etc",https://bugs.launchpad.net/tempest/+bug/1475454,2015-07-17
+1474868,1474868,Fix Released,"Compute API: XML ""deprecation"" statement incorrect for Kilo",https://bugs.launchpad.net/openstack-api-site/+bug/1474868,2015-07-17
+1474745,1474745,Fix Released,Neutron: Get extension details show redundant parameter,https://bugs.launchpad.net/openstack-api-site/+bug/1474745,2015-07-17
+1474733,1474733,Fix Released,Neutron: List extensions show redundant parameter,https://bugs.launchpad.net/openstack-api-site/+bug/1474733,2015-07-17
+1474752,1474752,Fix Released,Neutron: List quotas doesn't show fully parameters,https://bugs.launchpad.net/openstack-api-site/+bug/1474752,2015-07-16
+1461570,1461570,Fix Released,[system-test] In ceph_ha_restart test we wait all Nova services but 1 compute was destroyed,https://bugs.launchpad.net/fuel/+bug/1461570,2015-07-16
+1459704,1459704,Fix Released,[system tests] Need to change deployment method in ha_flat_addremove,https://bugs.launchpad.net/fuel/+bug/1459704,2015-07-16
+1459172,1459172,Fix Released,[system tests] Need to adjust prepare_ceph_to_delete method to Ubuntu,https://bugs.launchpad.net/fuel/+bug/1459172,2015-07-16
+1458071,1458071,Fix Released,Sometimes fuel_web.verify_network() can be failed with environment on VMs,https://bugs.launchpad.net/fuel/+bug/1458071,2015-07-16
+1455743,1455743,Fix Released,[system-tests] Incorrect description in deploy_ha_one_controller_flat,https://bugs.launchpad.net/fuel/+bug/1455743,2015-07-16
+1447158,1447158,Fix Released,[system-tests]Equal doc strings for different tests for example plugins,https://bugs.launchpad.net/fuel/+bug/1447158,2015-07-16
+1461173,1461173,Fix Released,[system tests] We need to install version of python glance client  >=0.14. <=0.15  in venv,https://bugs.launchpad.net/fuel/+bug/1461173,2015-07-16
+1460654,1460654,Fix Released,Need add retry on ostf in test ha_nova_delete_vips,https://bugs.launchpad.net/fuel/+bug/1460654,2015-07-16
+1460578,1460578,Fix Released,[system tests] Upgrade tests failed because successful phrase has been changed,https://bugs.launchpad.net/fuel/+bug/1460578,2015-07-16
+1457009,1457009,Fix Released,Need to add download speed limit on wget in the test ha_neutron_virtual_router,https://bugs.launchpad.net/fuel/+bug/1457009,2015-07-16
+1445451,1445451,Fix Released,Environment variables are not set for Contrail plugin tests,https://bugs.launchpad.net/fuel/+bug/1445451,2015-07-16
+1350010,1350010,Fix Released,VMware: re-use session token,https://bugs.launchpad.net/glance-store/+bug/1350010,2015-07-16
+1471063,1471063,Fix Released,Moving cinderclient to test-requirements.txt made glance gate logs very noisy,https://bugs.launchpad.net/glance-store/+bug/1471063,2015-07-16
+1475342,1475342,Fix Released,Compute API extensions: missing {tenant_id} param for get and reset server password,https://bugs.launchpad.net/openstack-api-site/+bug/1475342,2015-07-16
+1469973,1469973,Fix Released,Correct the swift tempurl arguments help message,https://bugs.launchpad.net/python-swiftclient/+bug/1469973,2015-07-16
+1453135,1453135,Fix Released,[Errno 22] Invalid Argument if negative integer passed as --segment-size param in upload,https://bugs.launchpad.net/python-swiftclient/+bug/1453135,2015-07-16
+1450606,1450606,Fix Released,the tempurl subcommand is missing from the man page,https://bugs.launchpad.net/python-swiftclient/+bug/1450606,2015-07-16
+1447847,1447847,Fix Released,use a socket timeout in get_auth,https://bugs.launchpad.net/python-swiftclient/+bug/1447847,2015-07-16
+1379252,1379252,Fix Released,--skip-identical fails for large files,https://bugs.launchpad.net/python-swiftclient/+bug/1379252,2015-07-16
+1255876,1255876,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/python-glanceclient/+bug/1255876,2015-07-16
+1255876,1255876,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/python-swiftclient/+bug/1255876,2015-07-16
+1255876,1255876,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/python-ceilometerclient/+bug/1255876,2015-07-16
+1255876,1255876,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/python-keystoneclient/+bug/1255876,2015-07-16
+1255876,1255876,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/horizon/+bug/1255876,2015-07-16
+1255876,1255876,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/python-novaclient/+bug/1255876,2015-07-16
+1255876,1255876,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/neutron/+bug/1255876,2015-07-16
+1255876,1255876,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/python-cinderclient/+bug/1255876,2015-07-16
+1255876,1255876,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/python-neutronclient/+bug/1255876,2015-07-16
+1201376,1201376,Fix Released,debugs are filling screen when launching functests,https://bugs.launchpad.net/python-swiftclient/+bug/1201376,2015-07-16
+1052161,1052161,Fix Released,setup.py build fails on Windows due to hardcoded paths,https://bugs.launchpad.net/python-swiftclient/+bug/1052161,2015-07-16
+1052161,1052161,Fix Released,setup.py build fails on Windows due to hardcoded paths,https://bugs.launchpad.net/python-keystoneclient/+bug/1052161,2015-07-16
+1052161,1052161,Fix Released,setup.py build fails on Windows due to hardcoded paths,https://bugs.launchpad.net/python-novaclient/+bug/1052161,2015-07-16
+1052161,1052161,Fix Released,setup.py build fails on Windows due to hardcoded paths,https://bugs.launchpad.net/neutron/+bug/1052161,2015-07-16
+1052161,1052161,Fix Released,setup.py build fails on Windows due to hardcoded paths,https://bugs.launchpad.net/python-openstackclient/+bug/1052161,2015-07-16
+1052161,1052161,Fix Released,setup.py build fails on Windows due to hardcoded paths,https://bugs.launchpad.net/python-neutronclient/+bug/1052161,2015-07-16
+1052161,1052161,Fix Released,setup.py build fails on Windows due to hardcoded paths,https://bugs.launchpad.net/python-cinderclient/+bug/1052161,2015-07-16
+1052161,1052161,Fix Released,setup.py build fails on Windows due to hardcoded paths,https://bugs.launchpad.net/python-glanceclient/+bug/1052161,2015-07-16
+973557,973557,Fix Released,Swift cli doesn't return exit codes,https://bugs.launchpad.net/python-swiftclient/+bug/973557,2015-07-16
+1412425,1412425,Fix Released,swiftclient object with beginning /,https://bugs.launchpad.net/python-swiftclient/+bug/1412425,2015-07-16
+1473057,1473057,Fix Released,publish Kilo mirrors to mirror.fuel-infra.org,https://bugs.launchpad.net/fuel/+bug/1473057,2015-07-16
+1194885,1194885,Fix Released,Keystone V3 - add side-by-side comparison of V2 and V3 to the docs,https://bugs.launchpad.net/openstack-api-site/+bug/1194885,2015-07-16
+1472152,1472152,Fix Released,[compute]Add recipe to enable serialproxy service,https://bugs.launchpad.net/openstack-chef/+bug/1472152,2015-07-16
+1475012,1475012,Fix Committed,hpcloud: node setup fails due to: *** /dev/vdb appears to already be mounted,https://bugs.launchpad.net/openstack-gate/+bug/1475012,2015-07-16
+1471206,1471206,Fix Released,Warning icon makes controls expand,https://bugs.launchpad.net/fuel/+bug/1471206,2015-07-16
+1474446,1474446,Fix Released,"Incorrectly inscription ""Less than undefined"" for filtering",https://bugs.launchpad.net/fuel/+bug/1474446,2015-07-16
+1467988,1467988,Fix Released,(DataError) value too long for type character varying(50),https://bugs.launchpad.net/fuel/+bug/1467988,2015-07-16
+1474870,1474870,Fix Released,package_testing_deb_updates FAILED,https://bugs.launchpad.net/fuel/+bug/1474870,2015-07-16
+1468600,1468600,Fix Released,network_client only support one extra route,https://bugs.launchpad.net/tempest/+bug/1468600,2015-07-16
+1423500,1423500,Fix Released,Package testing job fails,https://bugs.launchpad.net/fuel/+bug/1423500,2015-07-16
+1474043,1474043,Fix Released,7.0.test_staging_mirror failed several times during switching from juno to kilo repos,https://bugs.launchpad.net/fuel/+bug/1474043,2015-07-16
+1474903,1474903,Fix Committed,All devstack jobs fail,https://bugs.launchpad.net/magnetodb/+bug/1474903,2015-07-16
+1475006,1475006,Fix Committed,Devstack job fails on backup tests,https://bugs.launchpad.net/magnetodb/+bug/1475006,2015-07-16
+1474765,1474765,Fix Released,Discovery ignores plugin errors,https://bugs.launchpad.net/tempest/+bug/1474765,2015-07-16
+1474685,1474685,Fix Released,test_discover error while using plugin interface,https://bugs.launchpad.net/tempest/+bug/1474685,2015-07-16

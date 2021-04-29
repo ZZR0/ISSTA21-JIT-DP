@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1610073,1610073,Fix Released,Create volume without volume type failed,https://bugs.launchpad.net/cinder/+bug/1610073,2016-09-02
+1608913,1608913,Fix Released,Concurrency issue in K2 iSCSI and FC Cinder drivers,https://bugs.launchpad.net/cinder/+bug/1608913,2016-09-02
+1612602,1612602,Fix Released,Self replication issue and other issues  in K2 cinder driver,https://bugs.launchpad.net/cinder/+bug/1612602,2016-09-02
+1602942,1602942,Fix Released,Revise Synology DSM storage driver,https://bugs.launchpad.net/cinder/+bug/1602942,2016-09-02
+1613624,1613624,Fix Released,"c-vol, c-sched and c-bak can't start with MySQL-Python driver",https://bugs.launchpad.net/cinder/+bug/1613624,2016-09-02
+1614238,1614238,Fix Released,Dell SC: Break_replication unhandled NoneType error,https://bugs.launchpad.net/cinder/+bug/1614238,2016-09-02
+1602459,1602459,Fix Released,NFS driver throws exception if nfs_shares file is missing even when it isn't needed,https://bugs.launchpad.net/cinder/+bug/1602459,2016-09-02
+1614371,1614371,Fix Released,Attachment info lost after migrating a in-use volume,https://bugs.launchpad.net/cinder/+bug/1614371,2016-09-02
+1612763,1612763,Fix Released,NetApp cDOT/7-mode LUNs don't properly report their multi-attach capabilities,https://bugs.launchpad.net/cinder/+bug/1612763,2016-09-02
+1615791,1615791,Fix Released,Module 'cinder.exception' has no 'GroupTypeExtraSpecsNotFound' member,https://bugs.launchpad.net/cinder/+bug/1615791,2016-09-02
+1615178,1615178,Fix Released,Add replication failback in Kaminario K2 drivers,https://bugs.launchpad.net/cinder/+bug/1615178,2016-09-02
+1615953,1615953,Fix Released,Not possible create bootable volume using EMC Scaleio backend,https://bugs.launchpad.net/cinder/+bug/1615953,2016-09-02
+1615667,1615667,Fix Released,Vzstorage driver cannot make volume snapshots,https://bugs.launchpad.net/cinder/+bug/1615667,2016-09-02
+1615059,1615059,Fix Released,Cinder fails to create a crypted volume when barbican is used as key manager,https://bugs.launchpad.net/cinder/+bug/1615059,2016-09-02
+1616329,1616329,Fix Released,retype issue in kaminario cinder drivers,https://bugs.launchpad.net/cinder/+bug/1616329,2016-09-02
+1616527,1616527,Fix Released,utils tracing masked password returns wrong value,https://bugs.launchpad.net/cinder/+bug/1616527,2016-09-02
+1616810,1616810,Fix Released,Set backup's host same as volume when backup_use_same_host is set,https://bugs.launchpad.net/cinder/+bug/1616810,2016-09-02
+1609304,1609304,Fix Released,o.vo's returned by RPC calls are not backported,https://bugs.launchpad.net/cinder/+bug/1609304,2016-09-02
+1616491,1616491,Fix Released,Pure driver errors on deleted snapshots unless eradicated,https://bugs.launchpad.net/cinder/+bug/1616491,2016-09-02
+1472042,1472042,Fix Released,separate create and update rules for volume metadata,https://bugs.launchpad.net/cinder/+bug/1472042,2016-09-02
+1617330,1617330,Fix Released,unit tests fail with sqlite3.OperationalError syntax error,https://bugs.launchpad.net/cinder/+bug/1617330,2016-09-02
+1617424,1617424,Fix Released,Add sessions support to Nexenta volume drivers,https://bugs.launchpad.net/cinder/+bug/1617424,2016-09-02
+1301888,1301888,Fix Released,cinder services doesn't honor _topic setting in config,https://bugs.launchpad.net/cinder/+bug/1301888,2016-09-02
+1592331,1592331,Fix Released,volume update API misses metadata checking,https://bugs.launchpad.net/cinder/+bug/1592331,2016-09-02
+1615535,1615535,Fix Released,"On Coprhd Volume Driver, we are getting KeyError on 'scaleIO_volume_id' during attach volume operation on Scaleio driver",https://bugs.launchpad.net/cinder/+bug/1615535,2016-09-02
+1615547,1615547,Fix Released,On CorprHD volume driver - Create a volume from a snapshot which is part of a CG fails,https://bugs.launchpad.net/cinder/+bug/1615547,2016-09-02
+1552117,1552117,Fix Released,Data model should be devided from $scope,https://bugs.launchpad.net/magnum-ui/+bug/1552117,2016-09-02
+1467569,1467569,Fix Released,f22: python-pip removal pull python too,https://bugs.launchpad.net/devstack/+bug/1467569,2016-09-02
+1572062,1572062,Fix Released,nova-consoleauth doesn't play well with memcached,https://bugs.launchpad.net/nova/+bug/1572062,2016-09-02
+1533380,1533380,Fix Released,Creating multiple instances with a single request when using cells creates wrong instance names,https://bugs.launchpad.net/nova/+bug/1533380,2016-09-02
+1538837,1538837,Fix Released,Invalid exception raised (ComputeServiceUnavailable) if host is not found,https://bugs.launchpad.net/nova/+bug/1538837,2016-09-02
+1591996,1591996,Fix Released,Serial console output is not properly handled,https://bugs.launchpad.net/nova/+bug/1591996,2016-09-02
+1537882,1537882,Fix Released,test_obj_make_compatible() does not call __init__ properly on ServiceStatusPayload objects,https://bugs.launchpad.net/nova/+bug/1537882,2016-09-02
+1599377,1599377,Fix Released,nova should raise http 409 instead of 500 when get a error instance diagnostics,https://bugs.launchpad.net/nova/+bug/1599377,2016-09-02
+1582589,1582589,Fix Released,"ComputeCapacityFilter always reject irrelevant,self-defined specs",https://bugs.launchpad.net/nova/+bug/1582589,2016-09-02
+1571722,1571722,Fix Released,"Neutronclient failures throw unhelpful ""Unexpected Exception""",https://bugs.launchpad.net/nova/+bug/1571722,2016-09-02
+1475740,1475740,Fix Released,"For instances spawned by Nova on ESX compute, there is no link in /dev/disk/by-id for SCSI (sdx) devices",https://bugs.launchpad.net/nova/+bug/1475740,2016-09-02
+1603034,1603034,Fix Released,pci whitelist exception will kill the periodic update of the hypervisor statistics,https://bugs.launchpad.net/nova/+bug/1603034,2016-09-02
+1603197,1603197,Fix Released,neutron: VirtualInterface isn't cleaned up before rescheduling during allocation failure,https://bugs.launchpad.net/nova/+bug/1603197,2016-09-02
+1595587,1595587,Fix Released,Cannot save HostMapping object,https://bugs.launchpad.net/nova/+bug/1595587,2016-09-02
+1602023,1602023,Fix Released,Incorrect cellid in NUMA memnode,https://bugs.launchpad.net/nova/+bug/1602023,2016-09-02
+1470341,1470341,Fix Released,Cannot remove host from aggregate if host has been deleted,https://bugs.launchpad.net/nova/+bug/1470341,2016-09-02
+1599435,1599435,Fix Released,help of numa_get_reserved_huge_pages is not accurate.,https://bugs.launchpad.net/nova/+bug/1599435,2016-09-02
+1598370,1598370,Fix Released,Got AttributeError  when launching instance in Aarch64,https://bugs.launchpad.net/nova/+bug/1598370,2016-09-02
+1593745,1593745,Fix Released,Suspended or migrated instances may have a wrong time on restore,https://bugs.launchpad.net/nova/+bug/1593745,2016-09-02
+1604475,1604475,Fix Released,TypeError: live_migrate_instance() got an unexpected keyword argument 'async',https://bugs.launchpad.net/nova/+bug/1604475,2016-09-02
+1603736,1603736,Fix Released,Remove already deprecated ec2 api code,https://bugs.launchpad.net/nova/+bug/1603736,2016-09-02
+1603592,1603592,Fix Released,os-attach-interface returns a 500 when neutron policy forbids port creation,https://bugs.launchpad.net/nova/+bug/1603592,2016-09-02
+1584676,1584676,Fix Released,500 Error when attaching an interface with the network that doesn't have any subnets,https://bugs.launchpad.net/nova/+bug/1584676,2016-09-02
+1606269,1606269,Fix Released,Incorrect flavor in request_spec on resize,https://bugs.launchpad.net/nova/+bug/1606269,2016-09-02
+1532098,1532098,Fix Released,"""nova list-extensions"" not showing Summary for all extensions",https://bugs.launchpad.net/nova/+bug/1532098,2016-09-02
+1547068,1547068,Fix Released,Configuration option 'fake_call' is not used,https://bugs.launchpad.net/nova/+bug/1547068,2016-09-02
+1606718,1606718,Fix Released,logging pci_devices from the resource tracker is kind of terrible,https://bugs.launchpad.net/nova/+bug/1606718,2016-09-02
+1585601,1585601,Fix Released,Deleting a live-migrated instance causes its fixed IP to remain reserved,https://bugs.launchpad.net/nova/+bug/1585601,2016-09-02
+1596602,1596602,Fix Released,"Instance Snapshot failure: ""Unable to set 'kernel_id' to 'None'. Reason: None is not of type u'string'""",https://bugs.launchpad.net/python-glanceclient/+bug/1596602,2016-09-02
+1596602,1596602,Fix Released,"Instance Snapshot failure: ""Unable to set 'kernel_id' to 'None'. Reason: None is not of type u'string'""",https://bugs.launchpad.net/nova/+bug/1596602,2016-09-02
+1607219,1607219,Fix Released,revert-resize doen't drop new pci devices,https://bugs.launchpad.net/nova/+bug/1607219,2016-09-02
+1605549,1605549,Fix Released,PCI whitelist exception causes the resource tracker to stop and will not allow us to spawn further SR-IOV/PCIPT VMs when SR-IOV PF is assigned to a VM.,https://bugs.launchpad.net/nova/+bug/1605549,2016-09-02
+1608258,1608258,Fix Released,test_neutronv2 unit tests fail with python-neutronclient 5.0.0,https://bugs.launchpad.net/nova/+bug/1608258,2016-09-02
+1603728,1603728,Fix Released,search with error regex causes a 500 error,https://bugs.launchpad.net/nova/+bug/1603728,2016-09-02
+1598860,1598860,Fix Released,live migration failing when nova-conductor is started before other services,https://bugs.launchpad.net/nova/+bug/1598860,2016-09-02
+1593860,1593860,Fix Released,iscsi_use_multipath confusing,https://bugs.launchpad.net/nova/+bug/1593860,2016-09-02
+1607229,1607229,Fix Released,ImageRef for server create/rebuild/rescue etc are accepted as random url,https://bugs.launchpad.net/nova/+bug/1607229,2016-09-02
+1610312,1610312,Fix Released,releasenotes building broken,https://bugs.launchpad.net/nova/+bug/1610312,2016-09-02
+1594230,1594230,Fix Released,nova hypervisor cannot show ironic node,https://bugs.launchpad.net/nova/+bug/1594230,2016-09-02
+1610069,1610069,Fix Released,there is no detach interface api policy in nova,https://bugs.launchpad.net/nova/+bug/1610069,2016-09-02
+1550269,1550269,Fix Released,'hw:cpu_thread_policy=require' does not function correctly if NUMATopologyFilter is disabled,https://bugs.launchpad.net/nova/+bug/1550269,2016-09-02
+1611628,1611628,Fix Released,test_admin_only_rules doesn't check an 'admin_or_owner' case correctly,https://bugs.launchpad.net/nova/+bug/1611628,2016-09-02
+1609691,1609691,Fix Released,Non-admin users can lists VM instances of other projects (tenants) by default,https://bugs.launchpad.net/nova/+bug/1609691,2016-09-02
+1609625,1609625,Fix Released,The 'create:forced_host' policy is set to 'rule:admin_or_owner' by default,https://bugs.launchpad.net/nova/+bug/1609625,2016-09-02
+1611940,1611940,Fix Released,"vncserver_proxyclient_address changed from stropt to ipopt, breaking backwards compat without deprecation",https://bugs.launchpad.net/nova/+bug/1611940,2016-09-02
+1612281,1612281,Fix Released,Neutron Linuxbridge jobs failing with 'operation failed: failed to read XML',https://bugs.launchpad.net/nova/+bug/1612281,2016-09-02
+1610332,1610332,Fix Released,Can't disable nova quotas,https://bugs.launchpad.net/nova/+bug/1610332,2016-09-02
+1612812,1612812,Fix Released,OS-VIF: Interface missing from Route Object. (OVS),https://bugs.launchpad.net/os-vif/+bug/1612812,2016-09-02
+1612812,1612812,Fix Released,OS-VIF: Interface missing from Route Object. (OVS),https://bugs.launchpad.net/nova/+bug/1612812,2016-09-02

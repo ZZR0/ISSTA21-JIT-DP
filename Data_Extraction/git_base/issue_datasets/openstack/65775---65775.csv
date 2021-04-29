@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1412836,1412836,Fix Released,unit tests mocking private symbol _CallContext,https://bugs.launchpad.net/heat/+bug/1412836,2015-04-30
+1389885,1389885,Fix Released,service catalog for endpoints needs to be more configurable,https://bugs.launchpad.net/trove/+bug/1389885,2015-04-30
+1387721,1387721,Fix Released,Couchbase backup failing,https://bugs.launchpad.net/trove/+bug/1387721,2015-04-30
+1379083,1379083,Fix Released,test_delete_configuration_parameter_with_mgmt_api integration test is not idempotent,https://bugs.launchpad.net/trove/+bug/1379083,2015-04-30
+1401876,1401876,Fix Released,RemoteStack suspend and resume are calling non-existent heatclient apis,https://bugs.launchpad.net/heat/+bug/1401876,2015-04-30
+1401522,1401522,Fix Released,ResourceUnknownStatus exception is ignoring status_reason,https://bugs.launchpad.net/heat/+bug/1401522,2015-04-30
+1375311,1375311,Fix Released,Guest agent still depends on trove models,https://bugs.launchpad.net/trove/+bug/1375311,2015-04-30
+1394654,1394654,Fix Released,Trove doesn't inject trove-guestagent.conf if use_nova_server_volume enabled,https://bugs.launchpad.net/trove/+bug/1394654,2015-04-30
+1401107,1401107,Fix Released,test_server_cfn_init fails due to attribute resolution problem,https://bugs.launchpad.net/heat/+bug/1401107,2015-04-30
+1391840,1391840,Fix Released,"trove cli changed in an incompatible way, has broken devstack exercise",https://bugs.launchpad.net/trove/+bug/1391840,2015-04-30
+1400305,1400305,Fix Released,stack-create fails when OS::Trove::Instance is used,https://bugs.launchpad.net/heat/+bug/1400305,2015-04-30
+1390317,1390317,Fix Released,configuration parameters payload changed,https://bugs.launchpad.net/trove/+bug/1390317,2015-04-30
+1399049,1399049,Fix Released,Add serial console url attribute to nova server resource,https://bugs.launchpad.net/heat/+bug/1399049,2015-04-30
+1398307,1398307,Fix Released,Show creation time for stack snapshots,https://bugs.launchpad.net/heat/+bug/1398307,2015-04-30
+1397468,1397468,Fix Released,"random failures in unit tests with ""AttributeError: 'NoneType' object has no attribute 'keys'""",https://bugs.launchpad.net/heat/+bug/1397468,2015-04-30
+1397313,1397313,Fix Released,Traceback instead of error message when stack_name's format is wrong,https://bugs.launchpad.net/heat/+bug/1397313,2015-04-30
+1396441,1396441,Fix Released,uninformative output error message,https://bugs.launchpad.net/heat/+bug/1396441,2015-04-30
+1395975,1395975,Fix Released,Make volume_type updatable for cinder volume,https://bugs.launchpad.net/heat/+bug/1395975,2015-04-30
+1395726,1395726,Fix Released,heat-db-setup doesn't support rhel7,https://bugs.launchpad.net/heat/+bug/1395726,2015-04-30
+1394998,1394998,Fix Released,RouterGateway resource's name duplicates router's id,https://bugs.launchpad.net/heat/+bug/1394998,2015-04-30
+1393831,1393831,Fix Released,[heat] certain template errors display a long stack trace in the red error popup,https://bugs.launchpad.net/heat/+bug/1393831,2015-04-30
+1392455,1392455,Fix Released,Stack preview fails validation,https://bugs.launchpad.net/heat/+bug/1392455,2015-04-30
+1391792,1391792,Fix Released,Heat set the incorrect ca file argument for ceilometer client,https://bugs.launchpad.net/heat/+bug/1391792,2015-04-30
+1389714,1389714,Fix Released,Can not add role if role does not exist,https://bugs.launchpad.net/heat/+bug/1389714,2015-04-30
+1389104,1389104,Fix Released,OS::Heat::AutoScalingGroup doesn't validate the resource type before creation,https://bugs.launchpad.net/heat/+bug/1389104,2015-04-30
+1388140,1388140,Fix Released,Nested stacks not validated until creation,https://bugs.launchpad.net/heat/+bug/1388140,2015-04-30
+1386824,1386824,Fix Released,AWS Load Balancer creation fails with Ceilometer Alarm,https://bugs.launchpad.net/heat/+bug/1386824,2015-04-30
+1386332,1386332,Fix Released,Wrong error handling in Outputs section in CFN templates,https://bugs.launchpad.net/heat/+bug/1386332,2015-04-30
+1386242,1386242,Fix Released,Traceback instead of error message when output or resource body is empty or a string,https://bugs.launchpad.net/heat/+bug/1386242,2015-04-30
+1386184,1386184,Fix Released,hot_spec.rst is lagging behind the code regarding HOT versioning,https://bugs.launchpad.net/heat/+bug/1386184,2015-04-30
+1385109,1385109,Fix Released,record stack updated_time for stack actions,https://bugs.launchpad.net/heat/+bug/1385109,2015-04-30
+1385014,1385014,Fix Released,ERROR_WAIT_TIME should be a config option,https://bugs.launchpad.net/heat/+bug/1385014,2015-04-30
+1384669,1384669,Fix Released,template_format_parse error message mangled by i8n,https://bugs.launchpad.net/heat/+bug/1384669,2015-04-30
+1384594,1384594,Fix Released,record the updated_time for nested_stack,https://bugs.launchpad.net/heat/+bug/1384594,2015-04-30
+1383521,1383521,Fix Released,metadata.metering incorrectly prepended to ceilometer query rule key,https://bugs.launchpad.net/heat/+bug/1383521,2015-04-30
+1382665,1382665,Fix Released,Rackspace Cloud Loadbalancer resource properties are not updatable,https://bugs.launchpad.net/heat/+bug/1382665,2015-04-30
+1380755,1380755,Fix Released,Rackspace Cloud DNS TTL constraints don't match API,https://bugs.launchpad.net/heat/+bug/1380755,2015-04-30
+1380563,1380563,Fix Released,Missed tests for sahara client plugin,https://bugs.launchpad.net/heat/+bug/1380563,2015-04-30
+1380479,1380479,Fix Released,data migration should depend on reflection,https://bugs.launchpad.net/heat/+bug/1380479,2015-04-30
+1380168,1380168,Fix Released,alarm creation fails with string vs. int mismatch,https://bugs.launchpad.net/heat/+bug/1380168,2015-04-30
+1379318,1379318,Fix Released,Sahara resource doesn't support security group feature,https://bugs.launchpad.net/heat/+bug/1379318,2015-04-30
+1378979,1378979,Fix Released,Rackspace Swift client uses incorrect account identifier in URL,https://bugs.launchpad.net/heat/+bug/1378979,2015-04-30
+1369933,1369933,Fix Released,correct the behavior of 'security_groups=[]' for OS::Neutron::Port resource creation,https://bugs.launchpad.net/heat/+bug/1369933,2015-04-30
+1368008,1368008,Fix Released,Fix network_gateway residue when resource deletion,https://bugs.launchpad.net/heat/+bug/1368008,2015-04-30
+1365949,1365949,Fix Released,Unrecognized error during validation and creation,https://bugs.launchpad.net/heat/+bug/1365949,2015-04-30
+1328045,1328045,Fix Released,heat db migration fails for db2,https://bugs.launchpad.net/heat/+bug/1328045,2015-04-30
+1316041,1316041,Fix Released,DB2 column 'id' autoincrement issue,https://bugs.launchpad.net/heat/+bug/1316041,2015-04-30
+1397220,1397220,Fix Released,Take admin_password when server rebuild,https://bugs.launchpad.net/heat/+bug/1397220,2015-04-30
+1398535,1398535,Fix Released,heat-db-setup has invalid syntax,https://bugs.launchpad.net/heat/+bug/1398535,2015-04-30
+1386899,1386899,Fix Released,Unhelpful error message when resource fails to create,https://bugs.launchpad.net/heat/+bug/1386899,2015-04-30
+1386886,1386886,Fix Released,Unable to add DNS record alone to Rackspace Cloud DNS resource,https://bugs.launchpad.net/heat/+bug/1386886,2015-04-30
+1385982,1385982,Fix Released,typo - allow_values should be allowed_values in hot_guide.html,https://bugs.launchpad.net/heat/+bug/1385982,2015-04-30
+1383064,1383064,Fix Released,SoftwareDeployments needs support_status with release version,https://bugs.launchpad.net/heat/+bug/1383064,2015-04-30
+1381127,1381127,Fix Released,Name vs ID bug in doc of get_attr,https://bugs.launchpad.net/heat/+bug/1381127,2015-04-30
+1376712,1376712,Fix Released,cinder-keystone-setup should be removed,https://bugs.launchpad.net/heat/+bug/1376712,2015-04-30
+1376656,1376656,Fix Released,Unrecognizable error during creation custom resource,https://bugs.launchpad.net/heat/+bug/1376656,2015-04-30
+1375309,1375309,Fix Released,test_engine_service should access Template class directly,https://bugs.launchpad.net/heat/+bug/1375309,2015-04-30
+1360561,1360561,Fix Released,Add information about the release in which a resource has been added,https://bugs.launchpad.net/heat/+bug/1360561,2015-04-30
+1289198,1289198,Fix Released,exception.InvalidStackIdentifier is missing,https://bugs.launchpad.net/heat/+bug/1289198,2015-04-30
+1282888,1282888,Fix Released,Python 3.x Compatibility - convert x.iteritems to six.iteritems(x),https://bugs.launchpad.net/heat/+bug/1282888,2015-04-30
+1201823,1201823,Fix Released,Develop Docs for Heat,https://bugs.launchpad.net/heat/+bug/1201823,2015-04-30
+1199695,1199695,Fix Released,"Heat i18n support isn't complete, messages should be wrapped by ""_"" function",https://bugs.launchpad.net/heat/+bug/1199695,2015-04-30
+1402472,1402472,Fix Released,heat standalone mode should work with keystone v3,https://bugs.launchpad.net/heat/+bug/1402472,2015-04-30
+1398927,1398927,Fix Released,SwiftSignalHandle resource ID can be too long for DB column,https://bugs.launchpad.net/heat/+bug/1398927,2015-04-30
+1396917,1396917,Fix Released,set stack to ADOPT_FAILED if disable stack adopt,https://bugs.launchpad.net/heat/+bug/1396917,2015-04-30
+1396283,1396283,Fix Released,Barbican client doesn't work anymore,https://bugs.launchpad.net/heat/+bug/1396283,2015-04-30
+1394552,1394552,Fix Released,Unusable traceback during heat resource_type_show,https://bugs.launchpad.net/heat/+bug/1394552,2015-04-30
+1388985,1388985,Fix Released,Launch Stack doesn't apply parameters from environment file,https://bugs.launchpad.net/heat/+bug/1388985,2015-04-30
+1388695,1388695,Fix Released,incorrect batch count for rolling update,https://bugs.launchpad.net/heat/+bug/1388695,2015-04-30
+1387063,1387063,Fix Released,heat-keystone-setup-domain can't support cacert as a parameter,https://bugs.launchpad.net/heat/+bug/1387063,2015-04-30
+1382659,1382659,Fix Released,Cinder api version detection fails,https://bugs.launchpad.net/heat/+bug/1382659,2015-04-30
+1381136,1381136,Fix Released,TemplateResource RefId is wrong,https://bugs.launchpad.net/heat/+bug/1381136,2015-04-30
+1380846,1380846,Fix Released,OS::Nova::Server throws error for unrelated OS::Neutron::Subnet,https://bugs.launchpad.net/heat/+bug/1380846,2015-04-30
+1379958,1379958,Fix Released,defaults in [clients] section of configuration not applied when [clients_xxx] sections do not exist,https://bugs.launchpad.net/heat/+bug/1379958,2015-04-30
+1377323,1377323,Fix Released,"Heat's implementation of Fn::Base64 is a pass-through, despite documentation to the contrary.",https://bugs.launchpad.net/heat/+bug/1377323,2015-04-30

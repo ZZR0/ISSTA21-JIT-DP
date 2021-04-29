@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1554779,1554779,Fix Released,Hitachi drivers do not allow cloning volume to a different size,https://bugs.launchpad.net/cinder/+bug/1554779,2016-06-01
+1558750,1558750,Fix Released,Dell SC: cgsnapshot not returning proper dict,https://bugs.launchpad.net/cinder/+bug/1558750,2016-06-01
+1558566,1558566,Fix Released,New backup-related volume RPC API methods live break upgrades and ZMQ support,https://bugs.launchpad.net/cinder/+bug/1558566,2016-06-01
+1557420,1557420,Fix Released,Fail to create multiattach volumes in storwize driver even when enabled in conf,https://bugs.launchpad.net/cinder/+bug/1557420,2016-06-01
+1554785,1554785,Fix Released,NexentaEdge driver does not honor clone volume size,https://bugs.launchpad.net/cinder/+bug/1554785,2016-06-01
+1559399,1559399,Fix Released,failover_host has format problem in the log,https://bugs.launchpad.net/cinder/+bug/1559399,2016-06-01
+1538214,1538214,Fix Released,VMAX driver - create volume and timeout issue,https://bugs.launchpad.net/cinder/+bug/1538214,2016-06-01
+1554786,1554786,Fix Released,NexentaStor5 driver does not honor clone volume size,https://bugs.launchpad.net/cinder/+bug/1554786,2016-06-01
+1560062,1560062,Fix Released,No path forward with RPC API versioning,https://bugs.launchpad.net/cinder/+bug/1560062,2016-06-01
+1554755,1554755,Fix Released,Datera driver does not honor clone volume size,https://bugs.launchpad.net/cinder/+bug/1554755,2016-06-01
+1288131,1288131,Fix Released,Cinder's upload-to-image function can't create protected & public images,https://bugs.launchpad.net/cinder/+bug/1288131,2016-06-01
+1288131,1288131,Fix Released,Cinder's upload-to-image function can't create protected & public images,https://bugs.launchpad.net/python-cinderclient/+bug/1288131,2016-06-01
+1561413,1561413,Fix Released,Quota exceeded exception info makes user confused,https://bugs.launchpad.net/cinder/+bug/1561413,2016-06-01
+1561370,1561370,Fix Released,cinder remove path part of the glance_api_servers,https://bugs.launchpad.net/cinder/+bug/1561370,2016-06-01
+1560636,1560636,Fix Released,DRBD driver does not honor create from snapshot volume size,https://bugs.launchpad.net/cinder/+bug/1560636,2016-06-01
+1561874,1561874,Fix Released,Sheepdog:bad way of connection error handling,https://bugs.launchpad.net/cinder/+bug/1561874,2016-06-01
+1560478,1560478,Fix Released,Huawei: Failed to get admin_metadata while initialize_connection,https://bugs.launchpad.net/cinder/+bug/1560478,2016-06-01
+1560823,1560823,Fix Released,TypeError raised for not enough arguments for format string,https://bugs.launchpad.net/cinder/+bug/1560823,2016-06-01
+1561679,1561679,Fix Released,Snapshot doesn't have 'size' key causing create_from_snapshot to fail in NexentaStor5 iscsi driver,https://bugs.launchpad.net/cinder/+bug/1561679,2016-06-01
+1539667,1539667,Fix Released,cinder-backup restore volume metadata not working,https://bugs.launchpad.net/cinder/+bug/1539667,2016-06-01
+1557822,1557822,Fix Released,storwize initialize_connection call to terminate_connection deadlocs,https://bugs.launchpad.net/cinder/+bug/1557822,2016-06-01
+1554744,1554744,Fix Released,Dell EQLX driver does not honor new size on clone,https://bugs.launchpad.net/cinder/+bug/1554744,2016-06-01
+1525773,1525773,Fix Released,usage of volume objects break cinder as glance backend unit tests,https://bugs.launchpad.net/cinder/+bug/1525773,2016-06-01
+1563533,1563533,Fix Released,python34 tests don't run without python3-dev,https://bugs.launchpad.net/cinder/+bug/1563533,2016-06-01
+1560644,1560644,Fix Released,Dell SC driver does not honor create from snapshot volume size,https://bugs.launchpad.net/cinder/+bug/1560644,2016-06-01
+1565653,1565653,Fix Released,"invalid error message for ""cinder create --image""",https://bugs.launchpad.net/cinder/+bug/1565653,2016-06-01
+1560807,1560807,Fix Released,sheepdog:use a single node for cinder-backend,https://bugs.launchpad.net/cinder/+bug/1560807,2016-06-01
+1564200,1564200,Fix Released,driver.failover_host in manager isn't passing int he seocndary_id named arg,https://bugs.launchpad.net/cinder/+bug/1564200,2016-06-01
+1567550,1567550,Fix Released,per-volume-gigabytes quota is not honored when extending volumes,https://bugs.launchpad.net/cinder/+bug/1567550,2016-06-01
+1567878,1567878,Fix Released,ExtraSpecsOpsTestCase unit tests fail,https://bugs.launchpad.net/cinder/+bug/1567878,2016-06-01
+1557047,1557047,Fix Released,docs: many docstring warnings and errors on build,https://bugs.launchpad.net/cinder/+bug/1557047,2016-06-01
+1572665,1572665,Fix Released,Remove additional metadata that tracks the instance ID on the 3PAR backends,https://bugs.launchpad.net/cinder/+bug/1572665,2016-06-01
+1551535,1551535,Fix Released,Bootable filter patch should use microversions,https://bugs.launchpad.net/cinder/+bug/1551535,2016-06-01
+1572743,1572743,Fix Released,ibm flashsystem driver: multattach should not be hardcoded,https://bugs.launchpad.net/cinder/+bug/1572743,2016-06-01
+1575592,1575592,Fix Released,SolidFireDriver does not update vref provider ids,https://bugs.launchpad.net/cinder/+bug/1575592,2016-06-01
+1577016,1577016,Fix Released,Could not load 'cinder_tests': No module named tempest_tests.plugin,https://bugs.launchpad.net/cinder/+bug/1577016,2016-06-01
+1577417,1577417,Fix Released,failback causes cinder to enable backend which may be frozen before failover,https://bugs.launchpad.net/cinder/+bug/1577417,2016-06-01
+1555946,1555946,Fix Released,NetApp E-Series host-type field allows invalid options,https://bugs.launchpad.net/cinder/+bug/1555946,2016-06-01
+1569548,1569548,Fix Released,NetApp: Managing iSCSI volume by UUID fails,https://bugs.launchpad.net/cinder/+bug/1569548,2016-06-01
+1570903,1570903,Fix Released,Volume get transfer not supported by policy.json and code,https://bugs.launchpad.net/cinder/+bug/1570903,2016-06-01
+1573298,1573298,Fix Released,"If lun id is 0, auto is not disabled in HPE 3PAR driver",https://bugs.launchpad.net/cinder/+bug/1573298,2016-06-01
+1578829,1578829,Fix Released,snapshot_metadata APIs are not supported by policy.json and code,https://bugs.launchpad.net/cinder/+bug/1578829,2016-06-01
+1578856,1578856,Fix Released,os-volume_upload_image is not supported by policy.json,https://bugs.launchpad.net/cinder/+bug/1578856,2016-06-01
+1578722,1578722,Fix Released,Cheesecake APIs are not supported by policy.json and code,https://bugs.launchpad.net/cinder/+bug/1578722,2016-06-01
+1578864,1578864,Fix Released,Unable to safely synchronize access to initiator_data from volume driver,https://bugs.launchpad.net/cinder/+bug/1578864,2016-06-01
+1579860,1579860,Fix Released,Dell SC: find_volume not honoring provider_id,https://bugs.launchpad.net/cinder/+bug/1579860,2016-06-01
+1579194,1579194,Fix Released,Pure drivers don't specify user agent,https://bugs.launchpad.net/cinder/+bug/1579194,2016-06-01
+1560855,1560855,Fix Released,Remove CG DB access in Storwize driver,https://bugs.launchpad.net/cinder/+bug/1560855,2016-06-01
+1493120,1493120,Fix Released,There are potential API races on action os-extend,https://bugs.launchpad.net/cinder/+bug/1493120,2016-06-01
+1490946,1490946,Fix Released,API create image from volume Races,https://bugs.launchpad.net/cinder/+bug/1490946,2016-06-01
+1565921,1565921,Fix Released,NetApp client_cmode.py references non-existent exception.SnapshotUnavailable,https://bugs.launchpad.net/cinder/+bug/1565921,2016-06-01
+1560947,1560947,Fix Released,modwsgi application doesn't work if cinder not mounted on /,https://bugs.launchpad.net/cinder/+bug/1560947,2016-06-01
+1560637,1560637,Fix Released,Dell EQLX driver does not honor create from snapshot volume size,https://bugs.launchpad.net/cinder/+bug/1560637,2016-06-01
+1252502,1252502,Fix Released,image_utils tests don't mock out file system access,https://bugs.launchpad.net/cinder/+bug/1252502,2016-06-01
+1581290,1581290,Fix Released,misspelt words in msg in cinder,https://bugs.launchpad.net/cinder/+bug/1581290,2016-06-01
+1582460,1582460,Fix Released,doc of  api microversion might be wrong,https://bugs.launchpad.net/cinder/+bug/1582460,2016-06-01
+1570574,1570574,Fix Released,ibm flashsystem driver: terminate_connection doesn't clean host,https://bugs.launchpad.net/cinder/+bug/1570574,2016-06-01
+1582370,1582370,Fix Released,test_snapshot_failure_when_remote_is_unreachable  TimeoutException,https://bugs.launchpad.net/cinder/+bug/1582370,2016-06-01
+1583993,1583993,Fix Released,Windows iSCSI: config option not handled properly,https://bugs.launchpad.net/cinder/+bug/1583993,2016-06-01
+1583652,1583652,Fix Released,Check for Service disabled_reason allows strings longer than the DB field size,https://bugs.launchpad.net/cinder/+bug/1583652,2016-06-01
+1568915,1568915,Fix Released,API logging can result in UnicodeDecodeError: 'ascii' codec can't decode byte,https://bugs.launchpad.net/cinder/+bug/1568915,2016-06-01
+1584683,1584683,Fix Released,VMware: Unmanage does not remove config persisted in the volume,https://bugs.launchpad.net/cinder/+bug/1584683,2016-06-01
+1573647,1573647,Fix Released,Long display name cause CG creation in HPE 3PAR driver to fail,https://bugs.launchpad.net/cinder/+bug/1573647,2016-06-01
+1458128,1458128,Fix Released,IBM drivers needs to return snapshot objects for create_cgsnapshot and delete_cgsnapshot,https://bugs.launchpad.net/cinder/+bug/1458128,2016-06-01
+1584567,1584567,Fix Released,in cinder manage each backend driver’s integer conversion method is different,https://bugs.launchpad.net/cinder/+bug/1584567,2016-06-01
+1586282,1586282,Fix Released,Huawei replication  should use auto recovery policy,https://bugs.launchpad.net/cinder/+bug/1586282,2016-06-01
+1494466,1494466,Fix Released,Potential API races on volume retype,https://bugs.launchpad.net/cinder/+bug/1494466,2016-06-01
+1493476,1493476,Fix Released,Potential API races on volume migration,https://bugs.launchpad.net/cinder/+bug/1493476,2016-06-01
+1587306,1587306,Fix Released,Nimble Driver lacks of unit test case about getting manage volume size,https://bugs.launchpad.net/cinder/+bug/1587306,2016-06-01
+1587668,1587668,Fix Released,Regression after Change 321846: kubernetes RC's don't parse,https://bugs.launchpad.net/kolla-kubernetes/+bug/1587668,2016-06-01
+1587883,1587883,Fix Released,[dashboard][ci] Murano CI gate is broken after updates in devstack,https://bugs.launchpad.net/murano/+bug/1587883,2016-06-01
+1430232,1430232,Fix Released,"[UI] In ""Job execution"" i can select cluster in ""Error"" state",https://bugs.launchpad.net/sahara/+bug/1430232,2016-06-01
+1500468,1500468,Fix Released,[UI] Cluster Node Process list display is unsightly,https://bugs.launchpad.net/sahara/+bug/1500468,2016-06-01
+1371360,1371360,Fix Released,[DOC] Features overview suggests Cinders to increase reliability,https://bugs.launchpad.net/sahara/+bug/1371360,2016-06-01
+1373563,1373563,Fix Released,[DOC] Image for overview of Sahara is outdated,https://bugs.launchpad.net/sahara/+bug/1373563,2016-06-01

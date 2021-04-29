@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1488586,1488586,Fix Released,Some mocks are still started after test cleanups,https://bugs.launchpad.net/octavia/+bug/1488586,2015-10-01
+1465618,1465618,Fix Released,The devstack plugin.sh for octavia does not work for non ubuntu distributions,https://bugs.launchpad.net/octavia/+bug/1465618,2015-10-01
+1490707,1490707,Fix Released,Octavia should give better error for  health_manager controller IP missing,https://bugs.launchpad.net/octavia/+bug/1490707,2015-10-01
+1487359,1487359,Fix Released,Support keystone region,https://bugs.launchpad.net/octavia/+bug/1487359,2015-10-01
+1466688,1466688,Fix Released,Amphora REST server /details not working,https://bugs.launchpad.net/octavia/+bug/1466688,2015-10-01
+1450523,1450523,Fix Released,"alembic.ini database url hard coded admin/password, breaks devstack",https://bugs.launchpad.net/octavia/+bug/1450523,2015-10-01
+1491936,1491936,Fix Released,"Octavia currently shows ""no_check"" members in ERROR state",https://bugs.launchpad.net/octavia/+bug/1491936,2015-10-01
+1486190,1486190,Fix Released,Delete listener and pool fails randomly.,https://bugs.launchpad.net/octavia/+bug/1486190,2015-10-01
+1474876,1474876,Fix Released,CalculateDelta should use vip.subnet_id and not network_id,https://bugs.launchpad.net/octavia/+bug/1474876,2015-10-01
+1464954,1464954,Fix Released,Deleting a listener does not remove the security group rule,https://bugs.launchpad.net/octavia/+bug/1464954,2015-10-01
+1464953,1464953,Fix Released,allowed_address_pairs driver does not delete security groups on unplug_vip,https://bugs.launchpad.net/octavia/+bug/1464953,2015-10-01
+1464948,1464948,Fix Released,allowed address pairs driver fails on deallocate_vip call,https://bugs.launchpad.net/octavia/+bug/1464948,2015-10-01
+1374638,1374638,Fix Released,Member db model has ip_address but db table is just address,https://bugs.launchpad.net/octavia/+bug/1374638,2015-10-01
+1494956,1494956,Fix Released,health monitor delete does not remove health monitor,https://bugs.launchpad.net/octavia/+bug/1494956,2015-10-01
+1491697,1491697,Fix Released,REST create member fails in AmphoraePostNetworkPlug,https://bugs.launchpad.net/octavia/+bug/1491697,2015-10-01
+1488281,1488281,Fix Released,Security groups are not added correctly on amphorae,https://bugs.launchpad.net/octavia/+bug/1488281,2015-10-01
+1488279,1488279,Fix Released,Amphora fails with member on same subnet as vip,https://bugs.launchpad.net/octavia/+bug/1488279,2015-10-01
+1474481,1474481,Fix Released,Octavia unit tests fail with updated mock,https://bugs.launchpad.net/octavia/+bug/1474481,2015-10-01
+1459008,1459008,Fix Released,Fix controller worker delete health monitor,https://bugs.launchpad.net/octavia/+bug/1459008,2015-10-01
+1459001,1459001,Fix Released,Fix controller worker delete listener,https://bugs.launchpad.net/octavia/+bug/1459001,2015-10-01
+1458998,1458998,Fix Released,Fix controller worker delete load balancer,https://bugs.launchpad.net/octavia/+bug/1458998,2015-10-01
+1458242,1458242,Fix Released,fix controller worker pool delete,https://bugs.launchpad.net/octavia/+bug/1458242,2015-10-01
+1458241,1458241,Fix Released,fix controller worker member delete,https://bugs.launchpad.net/octavia/+bug/1458241,2015-10-01
+1453951,1453951,Fix Released,"Cannot send traffic to VIP on global namespace, but can on the VIP network's dhcp namespace",https://bugs.launchpad.net/octavia/+bug/1453951,2015-10-01
+1453945,1453945,Fix Released,AllocateVIP task's loadbalancer parameter occassionally will have it's vip attribute equal None,https://bugs.launchpad.net/octavia/+bug/1453945,2015-10-01
+1453610,1453610,Fix Released,network driver allocate_vip should take in a load balancer object,https://bugs.launchpad.net/octavia/+bug/1453610,2015-10-01
+1453609,1453609,Fix Released,security group rules need to be added or removed when listeners are added or removed,https://bugs.launchpad.net/octavia/+bug/1453609,2015-10-01
+1452141,1452141,Fix Released,"Queue Producer Handler sends entire data model, should just send id",https://bugs.launchpad.net/octavia/+bug/1452141,2015-10-01
+1450630,1450630,Fix Released,SSH driver doesn't update interfaces file correctly,https://bugs.launchpad.net/octavia/+bug/1450630,2015-10-01
+1450621,1450621,Fix Released,Create load balancer does not apply network updates to amphora,https://bugs.launchpad.net/octavia/+bug/1450621,2015-10-01
+1450524,1450524,Fix Released,Controller worker needs to call allocate vip,https://bugs.launchpad.net/octavia/+bug/1450524,2015-10-01
+1450520,1450520,Fix Released,Create amphora does not store the amphora IP in DB,https://bugs.launchpad.net/octavia/+bug/1450520,2015-10-01
+1444426,1444426,Fix Released,Unsufficient unit tests for shell modules,https://bugs.launchpad.net/python-ironicclient/+bug/1444426,2015-10-01
+1488700,1488700,Fix Released,Comments in blacklist file mandatory,https://bugs.launchpad.net/os-testr/+bug/1488700,2015-10-01
+1501258,1501258,Fix Released,"nova volume-* managers override service_type to 'volume', which is missed in gates",https://bugs.launchpad.net/python-novaclient/+bug/1501258,2015-10-01
+1501435,1501435,Fix Released,osc 1.7 no longer can boot a server from volume,https://bugs.launchpad.net/python-novaclient/+bug/1501435,2015-10-01
+1406957,1406957,Fix Released,Neutron: PUT Quota update missing parameters,https://bugs.launchpad.net/openstack-api-site/+bug/1406957,2015-10-01
+1499281,1499281,Fix Released,Compute API os-services v2.1 needs  update,https://bugs.launchpad.net/openstack-api-site/+bug/1499281,2015-10-01
+1478508,1478508,Fix Released,"The description that  ""Shelves a running server""  is invalid.",https://bugs.launchpad.net/openstack-api-site/+bug/1478508,2015-10-01
+1239153,1239153,Fix Released,Neutron API: service-type extension should be documented,https://bugs.launchpad.net/openstack-api-site/+bug/1239153,2015-10-01
+1496358,1496358,Fix Released,There are ca.* files generated after system tests run not in .gitignore.,https://bugs.launchpad.net/fuel/+bug/1496358,2015-10-01
+1490827,1490827,Fix Released,Adding delete-wait-loop for CloudByte Volumes,https://bugs.launchpad.net/cinder/+bug/1490827,2015-10-01
+1494302,1494302,Fix Committed,HA networks are not removed from EOS in certain circumstances,https://bugs.launchpad.net/networking-arista/+bug/1494302,2015-09-30
+1500032,1500032,Fix Released,"The ""Getting Credentials"" steps are wrong",https://bugs.launchpad.net/openstack-manuals/+bug/1500032,2015-09-30
+1215721,1215721,Fix Released,Add alias as prefix for request params for config_drive v3,https://bugs.launchpad.net/openstack-api-site/+bug/1215721,2015-09-30
+1500822,1500822,Fix Released,Lack of description of a parameter,https://bugs.launchpad.net/openstack-api-site/+bug/1500822,2015-09-30
+1420930,1420930,Fix Released,API document update for container-level tempurl/formpost,https://bugs.launchpad.net/openstack-api-site/+bug/1420930,2015-09-30
+1316775,1316775,Fix Released,Images table - filter by column,https://bugs.launchpad.net/horizon/+bug/1316775,2015-09-30
+1334677,1334677,Fix Released,Flavor extra specs should be refactored,https://bugs.launchpad.net/horizon/+bug/1334677,2015-09-30
+1328114,1328114,Fix Released,[HBase]Separators in db should be more designed,https://bugs.launchpad.net/ceilometer/+bug/1328114,2015-09-30
+1306963,1306963,Fix Released,ceilometer.api.middleware improperly sets an integer Content-Length header,https://bugs.launchpad.net/ceilometer/+bug/1306963,2015-09-30
+1281181,1281181,Fix Released,evaluation_periods are incorrectly handled in db2 engine,https://bugs.launchpad.net/ceilometer/+bug/1281181,2015-09-30
+1287613,1287613,Fix Released,keystone unavailable may cause agent-central unavailable forever,https://bugs.launchpad.net/ceilometer/+bug/1287613,2015-09-30
+1241526,1241526,Fix Released,resource-list seems not work with postgresql,https://bugs.launchpad.net/ceilometer/+bug/1241526,2015-09-30
+1223361,1223361,Fix Released,unclear error message for quota in horizon (possibly taking wrong one from logs),https://bugs.launchpad.net/nova/+bug/1223361,2015-09-30
+1412153,1412153,Fix Released,Orchestration resource_type_list API documentation inaccurate,https://bugs.launchpad.net/openstack-api-site/+bug/1412153,2015-09-30
+1488144,1488144,Fix Released,Collection of Compute v2.1 API doc bugs,https://bugs.launchpad.net/openstack-api-site/+bug/1488144,2015-09-30
+1452933,1452933,Fix Released,"base-os sometimes runs puppet, but we dont get logs",https://bugs.launchpad.net/fuel/+bug/1452933,2015-09-30
+1463441,1463441,Fix Released,[Plugins] Deploy fails when try to execute deploy.sh plugins script,https://bugs.launchpad.net/fuel/+bug/1463441,2015-09-30
+1474434,1474434,Fix Released,[Docs] Information about Sahara provisioning is missing,https://bugs.launchpad.net/fuel/+bug/1474434,2015-09-30
+1499614,1499614,Fix Committed,senlinclient related bug,https://bugs.launchpad.net/senlin-dashboard/+bug/1499614,2015-09-30
+1500874,1500874,Fix Released,[Docs] Please renew data on page #demos-and-tutorials related to 7.0,https://bugs.launchpad.net/fuel/+bug/1500874,2015-09-30
+1405664,1405664,Fix Released,[image-based] set gateway correctly,https://bugs.launchpad.net/fuel/+bug/1405664,2015-09-30
+1430291,1430291,Fix Committed,Add plymouth to boostrap image,https://bugs.launchpad.net/fuel/+bug/1430291,2015-09-30
+1409800,1409800,Fix Committed,ubuntu: use security updates APT repository,https://bugs.launchpad.net/fuel/+bug/1409800,2015-09-30
+1438516,1438516,Fix Committed,mysqld got signal 6 at rally job,https://bugs.launchpad.net/fuel/+bug/1438516,2015-09-30
+1454781,1454781,Fix Released,Remove IBP target images after env removal,https://bugs.launchpad.net/fuel/+bug/1454781,2015-09-30
+1500795,1500795,Fix Released,"Inapt spelling of ""Troubleshooting""",https://bugs.launchpad.net/openstack-api-site/+bug/1500795,2015-09-30
+1500788,1500788,Fix Released,inapt spelling of a word,https://bugs.launchpad.net/openstack-api-site/+bug/1500788,2015-09-30
+1500923,1500923,Fix Released,"Cinder V2 API now returns a 202 on create, but we haven't updated Tempest to handle this",https://bugs.launchpad.net/tempest/+bug/1500923,2015-09-30
+1494310,1494310,Fix Committed,Arista ML2 driver doesn't synchronize HA networks with EOS correctly,https://bugs.launchpad.net/networking-arista/+bug/1494310,2015-09-30
+1500780,1500780,Fix Released,orchestration.stacks.test_volumes test is failing,https://bugs.launchpad.net/tempest/+bug/1500780,2015-09-29
+1494516,1494516,Fix Released,python-ceilometerclient 1.0.12 has uncapped oslo.utils which breaks unit test jobs on stable/juno,https://bugs.launchpad.net/python-ceilometerclient/+bug/1494516,2015-09-29
+1477144,1477144,Fix Released,Deprecate tasks.yaml in plugins,https://bugs.launchpad.net/fuel/+bug/1477144,2015-09-29
+1469153,1469153,Fix Released,[Plugins] Add new version 7.0 to the plugins repository,https://bugs.launchpad.net/fuel/+bug/1469153,2015-09-29

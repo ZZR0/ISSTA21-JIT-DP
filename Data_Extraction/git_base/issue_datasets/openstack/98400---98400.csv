@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+750777,750777,Fix Released,Metadata values in api responses should be strings.,https://bugs.launchpad.net/nova/+bug/750777,2011-04-21
+750482,750482,Fix Released,DescribeImages response prevents listing images correctly for ElastixFox/tAWS,https://bugs.launchpad.net/nova/+bug/750482,2011-04-21
+746922,746922,Fix Released,DescribeAddresses returns all Floating IPs regardless of AllocateAddress,https://bugs.launchpad.net/nova/+bug/746922,2011-04-21
+746634,746634,Fix Released,Network is not injecting into guest in libvirt driver,https://bugs.launchpad.net/nova/+bug/746634,2011-04-21
+745388,745388,Fix Released,images fail to register with --use_project_ca=True,https://bugs.launchpad.net/nova/+bug/745388,2011-04-21
+745152,745152,Fix Released,floating ip address allocated for project1 can be associated with the instances running for project2,https://bugs.launchpad.net/nova/+bug/745152,2011-04-21
+745043,745043,Fix Released,OSAPI fault responses returning invalid content-type/body,https://bugs.launchpad.net/nova/+bug/745043,2011-04-21
+745027,745027,Fix Released,OSAPI versions response returns incorrect Content-Type,https://bugs.launchpad.net/nova/+bug/745027,2011-04-21
+744833,744833,Fix Released,python-suds shouldn't be a hard dependency,https://bugs.launchpad.net/nova/+bug/744833,2011-04-21
+744637,744637,Fix Released,nova-manage fails silently if --logfile is set.,https://bugs.launchpad.net/nova/+bug/744637,2011-04-21
+744567,744567,Fix Released,OSAPI v1.1 should not support password update on PUT /servers/<id>,https://bugs.launchpad.net/nova/+bug/744567,2011-04-21
+742809,742809,Fix Released,OSAPI: enforce quota for number of image metadata items,https://bugs.launchpad.net/nova/+bug/742809,2011-04-21
+742684,742684,Fix Released,OSAPI: GET /server/<id> returns invalid flavor ID,https://bugs.launchpad.net/nova/+bug/742684,2011-04-21
+742507,742507,Fix Released,nova.sh doesn't apt-get install python-novaclient,https://bugs.launchpad.net/nova/+bug/742507,2011-04-21
+742466,742466,Fix Released,Need pass use_ipv6 to interfaces.template as first level var in libvirt_conn,https://bugs.launchpad.net/nova/+bug/742466,2011-04-21
+742115,742115,Fix Released,Guests lost on host reboot,https://bugs.launchpad.net/nova/+bug/742115,2011-04-21
+742113,742113,Fix Released,EC2 API doesn't work well with arbitrary glance images,https://bugs.launchpad.net/nova/+bug/742113,2011-04-21
+741965,741965,Fix Released,server status attribute different than rackspace style in OS API,https://bugs.launchpad.net/nova/+bug/741965,2011-04-21
+741246,741246,Fix Released,file_inject method missing from agent plugin,https://bugs.launchpad.net/nova/+bug/741246,2011-04-21
+739763,739763,Fix Released,Consolidate locking mechanisms,https://bugs.launchpad.net/nova/+bug/739763,2011-04-21
+739743,739743,Fix Released,greenthread not imported in libvirt_conn,https://bugs.launchpad.net/nova/+bug/739743,2011-04-21
+736915,736915,Fix Released,Stray raise Exception(image) prevents EC2 ModifyImageAttribute from working,https://bugs.launchpad.net/nova/+bug/736915,2011-04-21
+736343,736343,Fix Released,Incorrect mapping of instance type id to flavor id in Openstack API,https://bugs.launchpad.net/nova/+bug/736343,2011-04-21
+735907,735907,Fix Released,Openstack API /flavors resource does not respect the specification,https://bugs.launchpad.net/nova/+bug/735907,2011-04-21
+735898,735898,Fix Released,get_user in adminclient is broken,https://bugs.launchpad.net/nova/+bug/735898,2011-04-21
+735836,735836,Fix Released,euca-get-ajax-console raises unknown exception,https://bugs.launchpad.net/nova/+bug/735836,2011-04-21
+735636,735636,Fix Released,Standardize BaseImageServices handling of timestamps,https://bugs.launchpad.net/nova/+bug/735636,2011-04-21
+734680,734680,Fix Released,Command nova-manage instance_types list error,https://bugs.launchpad.net/nova/+bug/734680,2011-04-21
+733216,733216,Fix Released,"Only one of multiple, simultaneous RunInstances calls succeeds if issued immediately after starting nova-network",https://bugs.launchpad.net/nova/+bug/733216,2011-04-21
+733139,733139,Fix Released,Removing an instance while refreshing security groups is racy,https://bugs.launchpad.net/nova/+bug/733139,2011-04-21
+732277,732277,Fix Released,Password Generation (in)security,https://bugs.launchpad.net/nova/+bug/732277,2011-04-21
+732204,732204,Fix Released,Make keypairs optional in the Openstack API,https://bugs.launchpad.net/nova/+bug/732204,2011-04-21
+731750,731750,Fix Released,nova compute race condition on truncate,https://bugs.launchpad.net/nova/+bug/731750,2011-04-21
+731668,731668,Fix Released,No way to cleanly shut down WSGI,https://bugs.launchpad.net/nova/+bug/731668,2011-04-21
+728587,728587,Fix Released,OS API /limits resource,https://bugs.launchpad.net/nova/+bug/728587,2011-04-21
+728392,728392,Fix Released,tools/euca-get-ajax-console fails with pure euca2ools 1.2 or 1.3.1,https://bugs.launchpad.net/nova/+bug/728392,2011-04-21
+727225,727225,Fix Released,OS API does not support personality during instance creation,https://bugs.launchpad.net/nova/+bug/727225,2011-04-21
+724623,724623,Fix Released,Creating servers with metadata fails,https://bugs.launchpad.net/nova/+bug/724623,2011-04-21
+724622,724622,Fix Released,Openstack API Content Type negotiation,https://bugs.launchpad.net/nova/+bug/724622,2011-04-21
+724325,724325,Fix Released,Generated tarballs include two .pyc files,https://bugs.launchpad.net/nova/+bug/724325,2011-04-21
+723938,723938,Fix Released,describe_availability_zones fails for non-admin users,https://bugs.launchpad.net/nova/+bug/723938,2011-04-21
+722979,722979,Fix Released,replace all SQL queries with SQLAlchemy code,https://bugs.launchpad.net/nova/+bug/722979,2011-04-21
+722543,722543,Fix Released,nova.pot out of sync with source code in trunk,https://bugs.launchpad.net/nova/+bug/722543,2011-04-21
+722246,722246,Fix Released,Api traceback when using novatools list,https://bugs.launchpad.net/nova/+bug/722246,2011-04-21
+721701,721701,Fix Released,time reported by ec2 log is incorrect,https://bugs.launchpad.net/nova/+bug/721701,2011-04-21
+721632,721632,Fix Released,Incorrent images date format of OS API w/ Glance,https://bugs.launchpad.net/nova/+bug/721632,2011-04-21
+721297,721297,Fix Released,nova returns wrong date format in AWS API Calls,https://bugs.launchpad.net/nova/+bug/721297,2011-04-21
+721254,721254,Fix Released,nova returns no status code for state scheduling,https://bugs.launchpad.net/nova/+bug/721254,2011-04-21
+721005,721005,Fix Released,Incompatible comparison on flavor_id when using the Openstack API with XML request body,https://bugs.launchpad.net/nova/+bug/721005,2011-04-21
+720393,720393,Fix Released,fixed_ips table is not cleaned up by default using FlatDHCPManager,https://bugs.launchpad.net/nova/+bug/720393,2011-04-21
+720157,720157,Fix Released,Nova returns HTTP 400 for SignatureVersion=1 requests,https://bugs.launchpad.net/nova/+bug/720157,2011-04-21
+720133,720133,Fix Released,Nova returns non-compliant tag for DescribeKeypairs,https://bugs.launchpad.net/nova/+bug/720133,2011-04-21
+718999,718999,Fix Released,Expired Auth Token Deletion Failure,https://bugs.launchpad.net/nova/+bug/718999,2011-04-21
+746731,746731,Fix Released,xenstore.py xapi plugin uses potentially insecure shell=True,https://bugs.launchpad.net/nova/+bug/746731,2011-04-21
+746220,746220,Fix Released,swift3: Requests without a Content-Type header fail to authenticate,https://bugs.launchpad.net/swift/+bug/746220,2011-04-15
+745965,745965,Fix Released,Lookback Command Line Options For Log Processor Daemon,https://bugs.launchpad.net/swift/+bug/745965,2011-04-15
+740647,740647,Fix Released,content-encoding can't be set or deleted via post,https://bugs.launchpad.net/swift/+bug/740647,2011-04-15
+725219,725219,Fix Released,log_processor can reprocess files if processed_files.pickle.gz can't be found,https://bugs.launchpad.net/swift/+bug/725219,2011-04-15
+725215,725215,Fix Released,swift.stats.log_processor.run_once() needs to be refactored and tested,https://bugs.launchpad.net/swift/+bug/725215,2011-04-15
+725210,725210,Fix Released,internal proxy needs to handle retries better,https://bugs.launchpad.net/swift/+bug/725210,2011-04-15
+724558,724558,Fix Released,Memcache clients not handling memcache restarts correctly,https://bugs.launchpad.net/swift/+bug/724558,2011-04-15
+717967,717967,Fix Released,rsync lockfile configuration missing from sample rsync configuration,https://bugs.launchpad.net/swift/+bug/717967,2011-04-15
+708948,708948,Fix Released,nodes with a weight of zero should not be valid for handoff,https://bugs.launchpad.net/swift/+bug/708948,2011-04-15
+708849,708849,Fix Released,Object Auditor to quickly look for zero byte files,https://bugs.launchpad.net/swift/+bug/708849,2011-04-15
+733508,733508,Fix Released,swauth-* bug with non-trailing / in urls,https://bugs.launchpad.net/swift/+bug/733508,2011-04-15
+713474,713474,Fix Released,st hangs when asking for help,https://bugs.launchpad.net/swift/+bug/713474,2011-04-15
+712517,712517,Fix Released,calling swift-init without parameters ends in a traceback,https://bugs.launchpad.net/swift/+bug/712517,2011-04-15
+712147,712147,Fix Released,logging doesn't support differing log_levels for the same log_name,https://bugs.launchpad.net/swift/+bug/712147,2011-04-15
+700894,700894,Fix Released,Add note to multi server docs to set the ip in proxy config if on a different server,https://bugs.launchpad.net/swift/+bug/700894,2011-04-15
+689608,689608,Fix Released,Services will silently not start if syslog is not running,https://bugs.launchpad.net/swift/+bug/689608,2011-04-15
+639710,639710,Fix Released,low visibility of errors when using swift-init,https://bugs.launchpad.net/swift/+bug/639710,2011-04-15
+733517,733517,Fix Released,Multi server set up docs don't have swauth specifics correct,https://bugs.launchpad.net/swift/+bug/733517,2011-04-15
+707549,707549,Fix Released,"LogProcessor will process entire log files as ""empty"" on InteralProxy error",https://bugs.launchpad.net/swift/+bug/707549,2011-04-15
+665164,665164,Fix Released,Container DELETEs should only need a node majority to succeed,https://bugs.launchpad.net/swift/+bug/665164,2011-04-15
+737175,737175,Fix Released,access processor allows unsafe query param keys,https://bugs.launchpad.net/swift/+bug/737175,2011-04-15

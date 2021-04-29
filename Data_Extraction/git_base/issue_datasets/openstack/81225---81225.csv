@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1245502,1245502,Fix Released,Grizzly -> Havana nova upgrade failure: Cannot drop index 'instance_uuid',https://bugs.launchpad.net/nova/+bug/1245502,2014-04-17
+1244829,1244829,Fix Released,destroy() method broken on Docker virt driver,https://bugs.launchpad.net/nova/+bug/1244829,2014-04-17
+1244220,1244220,Fix Released,Consoleauth check_token is broken with rpcapi v2,https://bugs.launchpad.net/nova/+bug/1244220,2014-04-17
+1243816,1243816,Fix Released,migrate fails with cells,https://bugs.launchpad.net/nova/+bug/1243816,2014-04-17
+1243553,1243553,Fix Released,Migrations fail when dropping a non-existent index,https://bugs.launchpad.net/nova/+bug/1243553,2014-04-17
+1243488,1243488,Fix Released,unplugging vif ERROR in n-cpu log after successful tempest neutron run,https://bugs.launchpad.net/nova/+bug/1243488,2014-04-17
+1243062,1243062,Fix Released,wrong description when updating quotas,https://bugs.launchpad.net/nova/+bug/1243062,2014-04-17
+1240823,1240823,Fix Released,network module not used in certificates api extension and should be removed,https://bugs.launchpad.net/nova/+bug/1240823,2014-04-17
+1240751,1240751,Fix Released,Migration 227 doesn't run tests against sqlite despite modifying it.,https://bugs.launchpad.net/nova/+bug/1240751,2014-04-17
+1240670,1240670,Fix Released,"Nova compute service should be disabled, if libvirt service is unavailable.",https://bugs.launchpad.net/nova/+bug/1240670,2014-04-17
+1240458,1240458,Fix Released,should validate the parameters of agent API,https://bugs.launchpad.net/nova/+bug/1240458,2014-04-17
+1240344,1240344,Fix Released,"Libvirt driver should reply with a meaningful exception, when connection to libvirt is broken",https://bugs.launchpad.net/nova/+bug/1240344,2014-04-17
+1240342,1240342,Fix Released,ec2 test_api failures,https://bugs.launchpad.net/nova/+bug/1240342,2014-04-17
+1240292,1240292,Fix Released,vmware: Error in logging causing vcdriver report 0 resources,https://bugs.launchpad.net/nova/+bug/1240292,2014-04-17
+1239679,1239679,Fix Released,The lockutils synchronised decorator does not log lock released message,https://bugs.launchpad.net/nova/+bug/1239679,2014-04-17
+1239038,1239038,Fix Released,migrate server doesn't raise correct exception,https://bugs.launchpad.net/nova/+bug/1239038,2014-04-17
+1239009,1239009,Fix Released,scheduler filter disk_filter doesn't take swap into account,https://bugs.launchpad.net/nova/+bug/1239009,2014-04-17
+1238949,1238949,Fix Released,Quota sets v3 non int value test error,https://bugs.launchpad.net/nova/+bug/1238949,2014-04-17
+1238595,1238595,Fix Released,baremetal allows to register an interface having an empty mac address,https://bugs.launchpad.net/nova/+bug/1238595,2014-04-17
+1237836,1237836,Fix Released,error message of os-cells sync_instances api is incorrect,https://bugs.launchpad.net/nova/+bug/1237836,2014-04-17
+1237622,1237622,Fix Released,vmware driver is not actually implementing get_diagnostics,https://bugs.launchpad.net/nova/+bug/1237622,2014-04-17
+1237611,1237611,Fix Released,flavor name with only white spaces should return 400 error,https://bugs.launchpad.net/nova/+bug/1237611,2014-04-17
+1237432,1237432,Fix Released,Nova Hyper-V driver volumeutils iscsicli ListTargets contains a typo,https://bugs.launchpad.net/nova/+bug/1237432,2014-04-17
+1236877,1236877,Fix Released,hostname not set on network reset call,https://bugs.launchpad.net/nova/+bug/1236877,2014-04-17
+1235422,1235422,Fix Released,Misc typos in virt files,https://bugs.launchpad.net/nova/+bug/1235422,2014-04-17
+1235036,1235036,Fix Released,cleanup nova deprecated  vif driver code,https://bugs.launchpad.net/nova/+bug/1235036,2014-04-17
+1234902,1234902,Fix Released,Misc typos in scheduler code,https://bugs.launchpad.net/nova/+bug/1234902,2014-04-17
+1233561,1233561,Fix Released,server's action confirm_resize return wrong status code v3,https://bugs.launchpad.net/nova/+bug/1233561,2014-04-17
+1224461,1224461,Fix Released,Cell type is overwritten when update a cell without cell-type specified,https://bugs.launchpad.net/nova/+bug/1224461,2014-04-17
+1223198,1223198,Fix Released,Invalid exception message in create_volume_from_image.,https://bugs.launchpad.net/nova/+bug/1223198,2014-04-17
+1222781,1222781,Fix Released,Create a VM with no networks result to a AttributeError,https://bugs.launchpad.net/nova/+bug/1222781,2014-04-17
+1220102,1220102,Fix Released,libguestfs uses an inappropriate default attach method,https://bugs.launchpad.net/nova/+bug/1220102,2014-04-17
+1217679,1217679,Fix Released,there is an  Unexpected API Error when call remove_tenant_access action in nova v3 flavor_access api as an unadmin user,https://bugs.launchpad.net/nova/+bug/1217679,2014-04-17
+1208387,1208387,Fix Released,image still attached to loopback device after deleting lxc instance,https://bugs.launchpad.net/nova/+bug/1208387,2014-04-17
+1203927,1203927,Fix Released,Nbd device is still connected after deleting a lxc Container,https://bugs.launchpad.net/nova/+bug/1203927,2014-04-17
+1189817,1189817,Fix Released,"OS-DCF:diskConfig=""MANUAL"" using XML yields Bad Request",https://bugs.launchpad.net/nova/+bug/1189817,2014-04-17
+1174726,1174726,Fix Released,monitoring for mute child cells,https://bugs.launchpad.net/nova/+bug/1174726,2014-04-17
+1229273,1229273,Fix Released,RFE: add support for floppy device type to libvirt driver,https://bugs.launchpad.net/nova/+bug/1229273,2014-04-17
+1257008,1257008,Fix Released,invalid flavor marker leads to KeyError,https://bugs.launchpad.net/nova/+bug/1257008,2014-04-17
+1256981,1256981,Fix Released,network_device_mtu should be IntOpt,https://bugs.launchpad.net/nova/+bug/1256981,2014-04-17
+1237126,1237126,Fix Released,"nova-api-{ec2,metadata,os-compute} don't allow SSL to be enabled",https://bugs.launchpad.net/nova/+bug/1237126,2014-04-17
+1236930,1236930,Fix Released,"attempting to reboot a shutdown/suspened/crashed/paused instance appears to have failed, but then surprisingly succeeds two minutes later",https://bugs.launchpad.net/nova/+bug/1236930,2014-04-17
+1235435,1235435,Fix Released,'SubnetInUse: Unable to complete operation on subnet UUID. One or more ports have an IP allocation from this subnet.',https://bugs.launchpad.net/nova/+bug/1235435,2014-04-17
+1235399,1235399,Fix Released,test_cell_update_without_type_specified test fails sporadically,https://bugs.launchpad.net/nova/+bug/1235399,2014-04-17
+1234759,1234759,Fix Released,Hyper-V fails to spawn snapshots,https://bugs.launchpad.net/nova/+bug/1234759,2014-04-17
+1234752,1234752,Fix Released,Live Migration in XenServer fails with duplicated base_mirror key,https://bugs.launchpad.net/nova/+bug/1234752,2014-04-17
+1233837,1233837,Fix Released,target_iqn is referenced before assignment after exceptions in hyperv/volumeop.py attch_volume(),https://bugs.launchpad.net/nova/+bug/1233837,2014-04-17
+1232179,1232179,Fix Released,Aggregate metadata is not correctly handled by compute,https://bugs.launchpad.net/nova/+bug/1232179,2014-04-17
+1231263,1231263,Fix Released,Clear text password has been print in log by some API call,https://bugs.launchpad.net/nova/+bug/1231263,2014-04-17
+1229912,1229912,Fix Released,vmware: nova aggregate-remove-host not implemented for vcdriver,https://bugs.launchpad.net/nova/+bug/1229912,2014-04-17
+1229911,1229911,Fix Released,vmware: Nova aggregate-add-host not implemented for vcdriver,https://bugs.launchpad.net/nova/+bug/1229911,2014-04-17
+1229327,1229327,Fix Released,block_device_mapping_v2 boot_index not respected by libvirt driver,https://bugs.launchpad.net/nova/+bug/1229327,2014-04-17
+1227434,1227434,Fix Released,"Quota ""injected-file-content-bytes"" does not work for each user",https://bugs.launchpad.net/nova/+bug/1227434,2014-04-17
+1225659,1225659,Fix Released,Wrong handling of Instance expected_task_state,https://bugs.launchpad.net/nova/+bug/1225659,2014-04-17
+1224561,1224561,Fix Released,xenapi: kernel and ramdisk missing after live-migrate,https://bugs.launchpad.net/nova/+bug/1224561,2014-04-17
+1224453,1224453,Fix Released,min_count ignored for instance create,https://bugs.launchpad.net/nova/+bug/1224453,2014-04-17
+1221664,1221664,Fix Released,xenapi: configdrive does not include network details,https://bugs.launchpad.net/nova/+bug/1221664,2014-04-17
+1221244,1221244,Fix Released,"baremetal driver misuses ""instance"" parameter of attach/detach_volume()",https://bugs.launchpad.net/nova/+bug/1221244,2014-04-17
+1217630,1217630,Fix Released,All CPU features not exposed,https://bugs.launchpad.net/nova/+bug/1217630,2014-04-17
+1216929,1216929,Fix Released,"when ephemeral_gb and swap is default value 0, the response is wrong in v3 flavor api",https://bugs.launchpad.net/nova/+bug/1216929,2014-04-17
+1216176,1216176,Fix Released,v3 api still use v2 ratelimit middleware,https://bugs.launchpad.net/nova/+bug/1216176,2014-04-17
+1214720,1214720,Fix Released,nova-manage db archive_deleted_rows fails if max_rows is a large number,https://bugs.launchpad.net/nova/+bug/1214720,2014-04-17
+1213866,1213866,Fix Released,Rescue operation should honor the enable_instance_password conf value,https://bugs.launchpad.net/nova/+bug/1213866,2014-04-17
+1207253,1207253,Fix Released,xenapi config settings should be in their own nova config section,https://bugs.launchpad.net/nova/+bug/1207253,2014-04-17
+1206828,1206828,Fix Released,xenapi: determine_is_pv should be fixed to have a safer default of HVM,https://bugs.launchpad.net/nova/+bug/1206828,2014-04-17
+1199954,1199954,Fix Released,VCDriver: Failed to resize instance,https://bugs.launchpad.net/nova/+bug/1199954,2014-04-17
+1197041,1197041,Fix Released,nova compute crashes if you do not have any hosts in your cluster,https://bugs.launchpad.net/nova/+bug/1197041,2014-04-17
+1197024,1197024,Fix Released,Recover from Build state on compute manager start-up,https://bugs.launchpad.net/nova/+bug/1197024,2014-04-17
+1184449,1184449,Fix Released,baremetal API extension does not show important status information,https://bugs.launchpad.net/nova/+bug/1184449,2014-04-17
+1180670,1180670,Fix Released,XenAPIVMTestCase.test_instance_snapshot_fails_with_no_primary_vdi sometimes fails,https://bugs.launchpad.net/nova/+bug/1180670,2014-04-17
+1078055,1078055,Fix Released,Some id arguments for OSAPI are not verified to be numeric leading to false matches in mysql,https://bugs.launchpad.net/nova/+bug/1078055,2014-04-17
+1253960,1253960,Fix Released,docker driver reports hypervisor version in wrong format,https://bugs.launchpad.net/nova/+bug/1253960,2014-04-17
+1253064,1253064,Fix Released,XenAPI: no such option: default_os_type,https://bugs.launchpad.net/nova/+bug/1253064,2014-04-17
+1252849,1252849,Fix Released,tempest fail due to neutron cache miss,https://bugs.launchpad.net/nova/+bug/1252849,2014-04-17
+1251792,1251792,Fix Released,infinite recursion when deleting an instance with no network interfaces,https://bugs.launchpad.net/nova/+bug/1251792,2014-04-17

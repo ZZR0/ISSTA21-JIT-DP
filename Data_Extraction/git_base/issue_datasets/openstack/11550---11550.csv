@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1776227,1776227,Fix Released,DS8K:  correct behavior and return value for terminate_connection method,https://bugs.launchpad.net/cinder/+bug/1776227,2018-08-06
+1781168,1781168,Fix Released,Cinder backup no longer starts on Windows,https://bugs.launchpad.net/cinder/+bug/1781168,2018-08-06
+1780750,1780750,Fix Released,Incorrect move to os.mkdir in Nexenta NFS and Quobyte Drivers,https://bugs.launchpad.net/cinder/+bug/1780750,2018-08-06
+1777588,1777588,Fix Released,when restore volume，cinder-backup no need open restored volume,https://bugs.launchpad.net/cinder/+bug/1777588,2018-08-06
+1782292,1782292,Fix Released,DS8K: correct the behavior for retype method,https://bugs.launchpad.net/cinder/+bug/1782292,2018-08-06
+1783040,1783040,Fix Released,Fix-some-nits-for-transfer-volume-with-snapshots,https://bugs.launchpad.net/cinder/+bug/1783040,2018-08-06
+1742587,1742587,Fix Released,NEC driver: initialize_connection() returns random information.,https://bugs.launchpad.net/cinder/+bug/1742587,2018-08-06
+1746233,1746233,Fix Released,RemoteFS base driver incorrect reports allocated_capacity_gb,https://bugs.launchpad.net/cinder/+bug/1746233,2018-08-06
+1502534,1502534,Fix Released,multipath iscsi sessions and device mapper entries are left behind when disconnecting volumes,https://bugs.launchpad.net/cinder/+bug/1502534,2018-08-06
+1784821,1784821,Fix Released,Volume creation from snapshot shouldn't require size,https://bugs.launchpad.net/cinder/+bug/1784821,2018-08-06
+1656329,1656329,Fix Released,SERVICE_IP_VERSION=6 doesn't work in devstack,https://bugs.launchpad.net/devstack/+bug/1656329,2018-08-06
+1667756,1667756,Fix Released,"Backup HA router sending traffic, traffic from switch interrupted",https://bugs.launchpad.net/neutron/+bug/1667756,2018-08-06
+1784491,1784491,Fix Released,Bootstrap AIO Broken When Passing Multiple BOOTSTRAP_OPTS,https://bugs.launchpad.net/openstack-ansible/+bug/1784491,2018-08-06
+1783128,1783128,Fix Released,backup_swift_url is missing from subnode cinder.conf in tempest-multinode-full job,https://bugs.launchpad.net/devstack/+bug/1783128,2018-08-06
+1783293,1783293,Fix Released,Mistral shouldn't use eval on the Mistral config,https://bugs.launchpad.net/mistral/+bug/1783293,2018-08-06
+1100282,1100282,Fix Released,[OSSA 2013-004] DoS through XML entity expansion (CVE-2013-1664),https://bugs.launchpad.net/nova/+bug/1100282,2018-08-06
+1100282,1100282,Fix Released,[OSSA 2013-004] DoS through XML entity expansion (CVE-2013-1664),https://bugs.launchpad.net/keystone/+bug/1100282,2018-08-06
+1100282,1100282,Fix Released,[OSSA 2013-004] DoS through XML entity expansion (CVE-2013-1664),https://bugs.launchpad.net/neutron/+bug/1100282,2018-08-06
+1100282,1100282,Fix Released,[OSSA 2013-004] DoS through XML entity expansion (CVE-2013-1664),https://bugs.launchpad.net/ossa/+bug/1100282,2018-08-06
+1100282,1100282,Fix Released,[OSSA 2013-004] DoS through XML entity expansion (CVE-2013-1664),https://bugs.launchpad.net/cinder/+bug/1100282,2018-08-06
+1749801,1749801,Fix Released,Neutron docs should use openstackclient commands,https://bugs.launchpad.net/neutron/+bug/1749801,2018-08-06
+1775404,1775404,Fix Released,We can't upgrade the Overcloud if the stack name contains underscores,https://bugs.launchpad.net/tripleo/+bug/1775404,2018-08-06
+1778668,1778668,Fix Released,using tripleo_role_name in queens breaks update,https://bugs.launchpad.net/tripleo/+bug/1778668,2018-08-06
+1776796,1776796,Fix Released,"tripleo gate jobs timing out, duplicate containers pulls  a possible cause",https://bugs.launchpad.net/tripleo/+bug/1776796,2018-08-06
+1775874,1775874,Fix Released,[promotion] fs027 is using containers from docker.io not  trunk.registry.rdoproject.org/tripleoX/,https://bugs.launchpad.net/tripleo/+bug/1775874,2018-08-06
+1773837,1773837,Fix Released,Overcloud deployment failed with node unreachable even if the node is available,https://bugs.launchpad.net/tripleo/+bug/1773837,2018-08-06
+1784929,1784929,Fix Released,[tempest] ImportError: No module named muranoclient,https://bugs.launchpad.net/tripleo/+bug/1784929,2018-08-06
+1592164,1592164,Fix Released,cron-trigger shows execution times in local timezone,https://bugs.launchpad.net/mistral/+bug/1592164,2018-08-06
+1716648,1716648,Fix Released,"""tags"" query argument filters everything out",https://bugs.launchpad.net/mistral/+bug/1716648,2018-08-06
+1690787,1690787,Fix Released,cron trigger uses trust-scoped token to create another token,https://bugs.launchpad.net/mistral/+bug/1690787,2018-08-06
+1668088,1668088,Fix Released,Add test for mistral-dashboard cron_triggers,https://bugs.launchpad.net/mistral/+bug/1668088,2018-08-06
+1785417,1785417,Fix Committed,Growpart doesn't resize partition when using quotation marks in partition name,https://bugs.launchpad.net/diskimage-builder/+bug/1785417,2018-08-05
+1785162,1785162,Fix Released,tracker: ci.centos rdo cloud slaves are offline,https://bugs.launchpad.net/tripleo/+bug/1785162,2018-08-05
+1471278,1471278,Fix Released,target removal on detaching volume with multi-attach flag,https://bugs.launchpad.net/cinder/+bug/1471278,2018-08-05
+1739653,1739653,Fix Released,python-brick-cinderclient-ext attach hangs in 'attaching'  when using new attachment APIs,https://bugs.launchpad.net/cinder/+bug/1739653,2018-08-05
+1692153,1692153,Fix Released,v3 attachment connection_info formatting is different than v2,https://bugs.launchpad.net/cinder/+bug/1692153,2018-08-05
+1682243,1682243,Fix Released,ProphetStor driver needs to add CG capability to Groups,https://bugs.launchpad.net/cinder/+bug/1682243,2018-08-05
+1745361,1745361,Fix Released,Failed to create subvolume /var/lib/machines/ when run 'openstack-ansible setup-hosts.yml' multiple times,https://bugs.launchpad.net/openstack-ansible/+bug/1745361,2018-08-04
+1774353,1774353,Fix Released,Limit formatting routes when adding resources,https://bugs.launchpad.net/manila/+bug/1774353,2018-08-04
+1784703,1784703,Fix Released,Volume transfer functionality is broken by microversion 3.55 introducing multiple issues,https://bugs.launchpad.net/cinder/+bug/1784703,2018-08-03
+1743941,1743941,Fix Released,is_default value is always empty after creating a type/group type,https://bugs.launchpad.net/manila/+bug/1743941,2018-08-03
+1743941,1743941,Fix Released,is_default value is always empty after creating a type/group type,https://bugs.launchpad.net/python-manilaclient/+bug/1743941,2018-08-03
+1649586,1649586,Fix Released,"""HTTP exception thrown: Cannot 'os-migrateLive' instance while it is in task_state migrating"" in gate-grenade-dsvm-neutron-multinode-live-migration-nv",https://bugs.launchpad.net/devstack/+bug/1649586,2018-08-03
+1780445,1780445,Fix Released,Retire ml2_conf_cisco.ini file,https://bugs.launchpad.net/networking-cisco/+bug/1780445,2018-08-03
+1782334,1782334,Fix Released,etcd.conf.yml file not found after etcd installation on Ubuntu,https://bugs.launchpad.net/openstack-manuals/+bug/1782334,2018-08-03
+1777486,1777486,Fix Released,Multiple profiler traces get same base_id,https://bugs.launchpad.net/horizon/+bug/1777486,2018-08-03
+1508324,1508324,Fix Released,Convergence stack can't be deleted by non-convergence engine,https://bugs.launchpad.net/heat/+bug/1508324,2018-08-03
+1747888,1747888,Fix Released,Update documentation for Queens Release,https://bugs.launchpad.net/congress/+bug/1747888,2018-08-03
+1783548,1783548,Fix Released,port creation/deletion fails due to etcd refresh issue,https://bugs.launchpad.net/networking-vpp/+bug/1783548,2018-08-03
+1784691,1784691,Fix Released,VRF table needs to be created explicitly in VPP 18.07,https://bugs.launchpad.net/networking-vpp/+bug/1784691,2018-08-03
+1777655,1777655,Fix Released,neutron-db-manage fails during OSA installation,https://bugs.launchpad.net/openstack-ansible/+bug/1777655,2018-08-02
+1775544,1775544,Fix Released,1.2.3.4 is not supposed to be used as example,https://bugs.launchpad.net/openstack-ansible/+bug/1775544,2018-08-02
+1672453,1672453,Fix Released,haproxy play/keepalive role uses k.root name server for the ping check,https://bugs.launchpad.net/openstack-ansible/+bug/1672453,2018-08-02
+1778275,1778275,Fix Released,Time to change https_verify default to True,https://bugs.launchpad.net/networking-cisco/+bug/1778275,2018-08-02
+1696000,1696000,Fix Released,NetApp cDOT: Can't write into CIFS share,https://bugs.launchpad.net/manila/+bug/1696000,2018-08-02
+1721787,1721787,Fix Released,Shares cannot be found by name in admin context,https://bugs.launchpad.net/manila/+bug/1721787,2018-08-02
+1721787,1721787,Fix Released,Shares cannot be found by name in admin context,https://bugs.launchpad.net/python-manilaclient/+bug/1721787,2018-08-02
+1612655,1612655,Fix Released,NetApp driver doesn't use network gateway field,https://bugs.launchpad.net/manila/+bug/1612655,2018-08-02
+1783456,1783456,Fix Released,"Cannot pass RefStack ""object storage"" test after deploy ceph_rgw",https://bugs.launchpad.net/kolla-ansible/+bug/1783456,2018-08-02
+1729583,1729583,Fix Released,allow object versioning to pass DefCore tests,https://bugs.launchpad.net/kolla-ansible/+bug/1729583,2018-08-02
+1731486,1731486,Fix Released,Kuryr ignores namespaces,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1731486,2018-08-02
+1775199,1775199,Fix Released,Failure in tripleo undercloud install no such option collect_timing in keystone_authtoken group,https://bugs.launchpad.net/tripleo/+bug/1775199,2018-08-02
+1775199,1775199,Fix Released,Failure in tripleo undercloud install no such option collect_timing in keystone_authtoken group,https://bugs.launchpad.net/puppet-keystone/+bug/1775199,2018-08-02
+1771106,1771106,Fix Committed,ToscaParserFailed with alarm tests,https://bugs.launchpad.net/heat-translator/+bug/1771106,2018-08-02
+1771106,1771106,Fix Committed,ToscaParserFailed with alarm tests,https://bugs.launchpad.net/tacker/+bug/1771106,2018-08-02
+1782393,1782393,Fix Released,hypervisor local_gb_used still reports usage even with volume-backed instances after fix for bug 1469179,https://bugs.launchpad.net/nova/+bug/1782393,2018-08-01
+1774958,1774958,Fix Released,messages from _heat_stacks_get workflow are probably too large,https://bugs.launchpad.net/tripleo/+bug/1774958,2018-08-01
+1738493,1738493,Fix Released,undercloud installation fails waiting for create default plan execution to finish,https://bugs.launchpad.net/tripleo/+bug/1738493,2018-08-01
+1586268,1586268,Fix Released,Unit test: self.assertNotEqual in  unit.test_base.BaseTest.test_eq does not work in PY2,https://bugs.launchpad.net/python-muranoclient/+bug/1586268,2018-08-01
+1586268,1586268,Fix Released,Unit test: self.assertNotEqual in  unit.test_base.BaseTest.test_eq does not work in PY2,https://bugs.launchpad.net/python-karborclient/+bug/1586268,2018-08-01
+1586268,1586268,Fix Released,Unit test: self.assertNotEqual in  unit.test_base.BaseTest.test_eq does not work in PY2,https://bugs.launchpad.net/panko/+bug/1586268,2018-08-01
+1586268,1586268,Fix Released,Unit test: self.assertNotEqual in  unit.test_base.BaseTest.test_eq does not work in PY2,https://bugs.launchpad.net/octavia/+bug/1586268,2018-08-01
+1784519,1784519,Fix Released,horizon container continues to fail to build on editing httpd.conf,https://bugs.launchpad.net/tripleo/+bug/1784519,2018-07-31
+1784519,1784519,Fix Released,horizon container continues to fail to build on editing httpd.conf,https://bugs.launchpad.net/kolla/+bug/1784519,2018-07-31
+1754547,1754547,Fix Released,aodh alarm create: error: argument -t/--type,https://bugs.launchpad.net/senlin/+bug/1754547,2018-07-31

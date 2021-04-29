@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1705009,1705009,Fix Released,RG create does not honour stack timeout,https://bugs.launchpad.net/heat/+bug/1705009,2017-08-28
+1704883,1704883,Fix Released,Zaqar MistralTrigger subscription broken by mistralclient 3.0.0,https://bugs.launchpad.net/heat/+bug/1704883,2017-08-28
+1658083,1658083,Fix Released,Heat API services re-read policy.json on each request,https://bugs.launchpad.net/heat/+bug/1658083,2017-08-28
+1689689,1689689,Fix Released,retryError when detach interface,https://bugs.launchpad.net/heat/+bug/1689689,2017-08-28
+1690806,1690806,Fix Released,post-delete hooks don't work,https://bugs.launchpad.net/heat/+bug/1690806,2017-08-28
+1662095,1662095,Fix Released,redundant resource of stack if disable convergence,https://bugs.launchpad.net/heat/+bug/1662095,2017-08-28
+1671592,1671592,Fix Released,Stack check causes entire ResourceGroup to be recreated,https://bugs.launchpad.net/heat/+bug/1671592,2017-08-28
+1620696,1620696,Fix Released,"M/N upgrades UPDATE_FAILED .enabled_services.list_join: Incorrect arguments to ""list_join"" should be: ""list_join"" : [ "" "", [ ""str1"", ""str2""]]",https://bugs.launchpad.net/heat/+bug/1620696,2017-08-28
+1620696,1620696,Fix Released,"M/N upgrades UPDATE_FAILED .enabled_services.list_join: Incorrect arguments to ""list_join"" should be: ""list_join"" : [ "" "", [ ""str1"", ""str2""]]",https://bugs.launchpad.net/tripleo/+bug/1620696,2017-08-28
+1703703,1703703,Fix Released,resource-list fails on stacks that were created before needed_by column was added,https://bugs.launchpad.net/heat/+bug/1703703,2017-08-28
+1632901,1632901,Fix Released,keypair creation fails with keystone change,https://bugs.launchpad.net/heat/+bug/1632901,2017-08-28
+1688342,1688342,Fix Released,Encryption key is not properly formatted before being passed to dmcrypt,https://bugs.launchpad.net/nova/+bug/1688342,2017-08-28
+1691831,1691831,Fix Released,VM evacuation is broken with shared storage if VM console.log is not owned by nova,https://bugs.launchpad.net/nova/+bug/1691831,2017-08-28
+1693576,1693576,Fix Released,addFloatingIP conflict is tracing in n-api logs,https://bugs.launchpad.net/nova/+bug/1693576,2017-08-28
+1696001,1696001,Fix Released,nova-manage cell_v2 map_cell0 can create invalid connection URL,https://bugs.launchpad.net/nova/+bug/1696001,2017-08-28
+1697497,1697497,Fix Released,PUT /os-services/force-down won't work with non-boolean forced_down field,https://bugs.launchpad.net/nova/+bug/1697497,2017-08-28
+1687187,1687187,Fix Released,metadata-api requires iptables-save/restore,https://bugs.launchpad.net/nova/+bug/1687187,2017-08-28
+1706083,1706083,Fix Released,"Post-migration, Cinder volumes lose disk cache value, resulting in I/O latency",https://bugs.launchpad.net/nova/+bug/1706083,2017-08-28
+1622292,1622292,Fix Released,vf interface isn't assigned the correct mac address,https://bugs.launchpad.net/nova/+bug/1622292,2017-08-28
+1621076,1621076,Fix Released,Can't detach interface from VM (if VM has two interface with same mac addresses),https://bugs.launchpad.net/nova/+bug/1621076,2017-08-28
+1651887,1651887,Fix Released,Ephemeral storage encryption is broken with interface mismatch,https://bugs.launchpad.net/nova/+bug/1651887,2017-08-28
+1693679,1693679,Fix Released,Stopped instance's disk sizes are not calculated for disk_available_least,https://bugs.launchpad.net/nova/+bug/1693679,2017-08-28
+1685185,1685185,Fix Released,disconnect_volume not called when rebase failures are encountered during swap_volume,https://bugs.launchpad.net/nova/+bug/1685185,2017-08-28
+1649852,1649852,Fix Released,Concurrent calls to DELETE os-floating-ips can raise uncaught neutronclient.common.exceptions.NotFound,https://bugs.launchpad.net/nova/+bug/1649852,2017-08-28
+1607714,1607714,Fix Released,test_reassign_port_between_servers failing with tap device is busy errors in neutron xenial jobs since 7/28,https://bugs.launchpad.net/nova/+bug/1607714,2017-08-28
+1669857,1669857,Fix Released,libvirt.VIR_DOMAIN_AFFECT_CONFIG provided when detaching volumes during LM rollback,https://bugs.launchpad.net/nova/+bug/1669857,2017-08-28
+1707238,1707238,Fix Released,detach_device_with_retry doesn't detach from live domain if persistent domain was already detached in the past,https://bugs.launchpad.net/nova/+bug/1707238,2017-08-28
+1689284,1689284,Fix Released,should capture quota exceed error from cinder when create image for volume backed instance,https://bugs.launchpad.net/nova/+bug/1689284,2017-08-28
+1672667,1672667,Fix Released,Cinder support broken in k8s,https://bugs.launchpad.net/magnum/+bug/1672667,2017-08-28
+1630692,1630692,Fix Released,Fluentd ciomposable service is only partly functional,https://bugs.launchpad.net/tripleo/+bug/1630692,2017-08-28
+1712511,1712511,Fix Released,No unplug_vif actions when revert a failed server creation,https://bugs.launchpad.net/mogan/+bug/1712511,2017-08-28
+1684682,1684682,Fix Released,DHCP namespace doesn't have IPv6 default route,https://bugs.launchpad.net/neutron/+bug/1684682,2017-08-28
+1694505,1694505,Fix Released,neutron-ovs-agent dies with return code 0 when neutron-server is down,https://bugs.launchpad.net/neutron/+bug/1694505,2017-08-28
+1694897,1694897,Fix Released,neutron tag xxx.xxx doesn't work correctly,https://bugs.launchpad.net/neutron/+bug/1694897,2017-08-28
+1696874,1696874,Fix Released,unsafe set reference in neutron iptables code,https://bugs.launchpad.net/neutron/+bug/1696874,2017-08-28
+1697383,1697383,Fix Released,unsafe str call in linuxbridge trunk driver,https://bugs.launchpad.net/neutron/+bug/1697383,2017-08-28
+1697408,1697408,Fix Released,Passwords in user body requests are not being masked before logged for debug,https://bugs.launchpad.net/neutron/+bug/1697408,2017-08-28
+1687896,1687896,Fix Released,neutron-rpc-server fails to start on configuration that works under neutron-server,https://bugs.launchpad.net/neutron/+bug/1687896,2017-08-28
+1689019,1689019,Fix Released,"functional test test_cleanup_stale_devices fails with ""ValueError: foo_host is not a valid host address""",https://bugs.launchpad.net/neutron/+bug/1689019,2017-08-28
+1696403,1696403,Fix Released,pep8 job (pylint) fails due to version mismatch between pylint and astroid,https://bugs.launchpad.net/neutron/+bug/1696403,2017-08-28
+1684519,1684519,Fix Released,Add missing unittests in segment db,https://bugs.launchpad.net/neutron/+bug/1684519,2017-08-28
+1617248,1617248,Fix Released,Metering-agent fail to create iptables rule for add_metering_label_rule,https://bugs.launchpad.net/neutron/+bug/1617248,2017-08-28
+1674517,1674517,Fix Released,pecan missing custom tenant_id policy project_id matching,https://bugs.launchpad.net/neutron/+bug/1674517,2017-08-28
+1673876,1673876,Fix Released,vlan_transparency=True is always rejected by logger mechanism driver,https://bugs.launchpad.net/neutron/+bug/1673876,2017-08-28
+1695888,1695888,Fix Released,Test are unable to run because of old tox version,https://bugs.launchpad.net/neutron/+bug/1695888,2017-08-28
+1690598,1690598,Fix Released,test_filtering_shared_subnets tempest test case fails with segments extension enabled,https://bugs.launchpad.net/neutron/+bug/1690598,2017-08-28
+1658802,1658802,Fix Released,Issue booting instance with normal port and macvtap agent,https://bugs.launchpad.net/neutron/+bug/1658802,2017-08-28
+1620824,1620824,Fix Released,Neutron DVR(SNAT) steals FIP traffic,https://bugs.launchpad.net/neutron/+bug/1620824,2017-08-28
+1696889,1696889,Fix Released,external_dns_driver causes floating ip association to fail,https://bugs.launchpad.net/neutron/+bug/1696889,2017-08-28
+1681440,1681440,Fix Released,QoS policy object can't be suitable with 1.2 version of object,https://bugs.launchpad.net/neutron/+bug/1681440,2017-08-28
+1689238,1689238,Fix Released,Do not disable qos scenario unconditionally,https://bugs.launchpad.net/neutron/+bug/1689238,2017-08-28
+1658460,1658460,Fix Released,Duplicate metadata iptables rules in HA router,https://bugs.launchpad.net/neutron/+bug/1658460,2017-08-28
+1606455,1606455,Fix Released,Neutron server was not compatible with member actions,https://bugs.launchpad.net/neutron/+bug/1606455,2017-08-28
+1683606,1683606,Fix Released,segments notifier needs to be disabled in unit tests,https://bugs.launchpad.net/neutron/+bug/1683606,2017-08-28
+1675891,1675891,Fix Released,ML2: create_network_precommit isn't passed MTU and AZ,https://bugs.launchpad.net/neutron/+bug/1675891,2017-08-28
+1698517,1698517,Fix Released,DVR FIP namespace missing default route after upgrade,https://bugs.launchpad.net/neutron/+bug/1698517,2017-08-28
+1697410,1697410,Fix Released,Add router interface checking for duplicated subnets should ingore external network,https://bugs.launchpad.net/neutron/+bug/1697410,2017-08-28
+1692007,1692007,Fix Released,Dual Stack IPV4/6 ARP bleed,https://bugs.launchpad.net/neutron/+bug/1692007,2017-08-28
+1694753,1694753,Fix Released,QosPolicyDbObjectTestCase.test_update_objects failed because it couldn't find a matching object,https://bugs.launchpad.net/neutron/+bug/1694753,2017-08-28
+1679775,1679775,Fix Released,test_network_list_queries_constant fails with testtools.matchers._impl.MismatchError: 28 != 13,https://bugs.launchpad.net/neutron/+bug/1679775,2017-08-28
+1696093,1696093,Fix Released,"When update a firewall, we should update the iptables firstly,  and then clear the conntrack record,  just like the function create_firewall(). Otherwise, the contrack record could be reproduced.",https://bugs.launchpad.net/neutron/+bug/1696093,2017-08-28
+1669528,1669528,Fix Released,portbinding update fails with ObjectDeletedError,https://bugs.launchpad.net/neutron/+bug/1669528,2017-08-28
+1627902,1627902,Fix Released,DHCP agent conflicting with dynamic IPv6 addresses,https://bugs.launchpad.net/neutron/+bug/1627902,2017-08-28
+1646370,1646370,Fix Released,QosPolicyInUse after notifying the removal to backends,https://bugs.launchpad.net/neutron/+bug/1646370,2017-08-28
+1652729,1652729,Fix Released,OFPort's _get_allowed_pairs method fails when there is CIDR in allowed_address_pairs,https://bugs.launchpad.net/neutron/+bug/1652729,2017-08-28
+1704936,1704936,Fix Released,Sync between repo containers not working,https://bugs.launchpad.net/openstack-ansible/+bug/1704936,2017-08-28
+1707630,1707630,Fix Released,"Repository synch failling with ""mkdir failed: No such file or directory""",https://bugs.launchpad.net/openstack-ansible/+bug/1707630,2017-08-28
+1704770,1704770,Fix Released,HTTPS Certificate documentation is old and badly wrong,https://bugs.launchpad.net/openstack-ansible/+bug/1704770,2017-08-28
+1709346,1709346,Fix Released,cinder scheduler/backup using 100% CPU,https://bugs.launchpad.net/openstack-ansible/+bug/1709346,2017-08-28
+1704856,1704856,Fix Released,'rabbitmq_erlang_distro_packages' is undefined,https://bugs.launchpad.net/openstack-ansible/+bug/1704856,2017-08-28
+1701696,1701696,Fix Released,image cache blows up when limits are enabled,https://bugs.launchpad.net/cinder/+bug/1701696,2017-08-28
+1701311,1701311,Fix Released,EMC Unity: tempest.api.volume.test_volumes_backup.VolumesBackupsTest.test_backup_create_attached_volume failed,https://bugs.launchpad.net/cinder/+bug/1701311,2017-08-28
+1699109,1699109,Fix Released,Huawei driver creates volume from image failed while using non-admin user,https://bugs.launchpad.net/cinder/+bug/1699109,2017-08-28
+1667875,1667875,Fix Released,Huawei Driver doesn't support front-end qos,https://bugs.launchpad.net/cinder/+bug/1667875,2017-08-28
+1705375,1705375,Fix Released,Cinder alllows group/consisgroup deletion while group snapshot exists,https://bugs.launchpad.net/cinder/+bug/1705375,2017-08-28

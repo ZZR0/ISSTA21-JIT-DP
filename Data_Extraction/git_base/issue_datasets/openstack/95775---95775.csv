@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+898808,898808,Fix Released,unicode characters in keypair name cause 500 server errors,https://bugs.launchpad.net/nova/+bug/898808,2012-04-05
+898808,898808,Fix Released,unicode characters in keypair name cause 500 server errors,https://bugs.launchpad.net/horizon/+bug/898808,2012-04-05
+957110,957110,Fix Released,compute service doesn't start with a missing libvirt instance.../disk,https://bugs.launchpad.net/nova/+bug/957110,2012-04-05
+954692,954692,Fix Released,cannot detach volume from terminated instance,https://bugs.launchpad.net/nova/+bug/954692,2012-04-05
+954505,954505,Fix Released,Nova s3 should be able to talk to swift,https://bugs.launchpad.net/nova/+bug/954505,2012-04-05
+954505,954505,Fix Released,Nova s3 should be able to talk to swift,https://bugs.launchpad.net/keystone/+bug/954505,2012-04-05
+953379,953379,Fix Released,remove fixed ip only works with flat,https://bugs.launchpad.net/nova/+bug/953379,2012-04-05
+959929,959929,Fix Released,--novncproxy_base_url is misdocumented,https://bugs.launchpad.net/nova/+bug/959929,2012-04-05
+959843,959843,Fix Released,Regression in libvirt lxc console,https://bugs.launchpad.net/nova/+bug/959843,2012-04-05
+955737,955737,Fix Released,Extended status extension should not be admin-only,https://bugs.launchpad.net/nova/+bug/955737,2012-04-05
+955650,955650,Fix Released,debug log filter fails during scheduling,https://bugs.launchpad.net/nova/+bug/955650,2012-04-05
+955166,955166,Fix Released,xenapi delete in rescue leaves rescue instance behind,https://bugs.launchpad.net/nova/+bug/955166,2012-04-05
+950153,950153,Fix Released,carrot code is old and buggy and needs marked as deprecated,https://bugs.launchpad.net/nova/+bug/950153,2012-04-05
+949731,949731,Fix Released,Exceptions in rpc's ProxyCallback __call__ are eaten,https://bugs.launchpad.net/nova/+bug/949731,2012-04-05
+949726,949726,Fix Released,RequestContext removal of strategy keyword arg breaks upgrades,https://bugs.launchpad.net/nova/+bug/949726,2012-04-05
+949438,949438,Fix Released,kvm block_migration fails with ImageNotAuthorized error,https://bugs.launchpad.net/nova/+bug/949438,2012-04-05
+948728,948728,Fix Released,ec2 auth uses obsolete hard-coded authorizor,https://bugs.launchpad.net/nova/+bug/948728,2012-04-05
+948632,948632,Fix Released,race condition when updating instance after it's deleted,https://bugs.launchpad.net/nova/+bug/948632,2012-04-05
+948165,948165,Fix Released,man pages fail to build (No such file or directory...),https://bugs.launchpad.net/nova/+bug/948165,2012-04-05
+947326,947326,Fix Released,Instance in state not running after live migration,https://bugs.launchpad.net/nova/+bug/947326,2012-04-05
+945198,945198,Fix Released,Swap not being cleaned up on exception,https://bugs.launchpad.net/nova/+bug/945198,2012-04-05
+944734,944734,Fix Released,nova-compute cannot brctl addif br100 to the correct interface,https://bugs.launchpad.net/nova/+bug/944734,2012-04-05
+944245,944245,Fix Released,Support --ipv6 and --port in python-novaclient ssh command,https://bugs.launchpad.net/nova/+bug/944245,2012-04-05
+943304,943304,Fix Released,LXC bind run_as_root commands are obviously wrong,https://bugs.launchpad.net/nova/+bug/943304,2012-04-05
+943259,943259,Fix Released,images filtering with Glance image services and PostgreSQL,https://bugs.launchpad.net/nova/+bug/943259,2012-04-05
+943029,943029,Fix Released,fixed_ip_associate or FixedIP tables looks broken,https://bugs.launchpad.net/nova/+bug/943029,2012-04-05
+942593,942593,Fix Released,KeyError with nova-compute,https://bugs.launchpad.net/nova/+bug/942593,2012-04-05
+939386,939386,Fix Released,Console-Output does not escape XML correctly,https://bugs.launchpad.net/nova/+bug/939386,2012-04-05
+937408,937408,Fix Released,Can't delete keypair with a slash,https://bugs.launchpad.net/nova/+bug/937408,2012-04-05
+934464,934464,Fix Released,New instance imagecache doesn't work with keystone: get_admin_context() doesn't set a valid token/strategy,https://bugs.launchpad.net/nova/+bug/934464,2012-04-05
+934276,934276,Fix Released,_sync_power_states causes 'dict' object has no attribute 'state',https://bugs.launchpad.net/nova/+bug/934276,2012-04-05
+929773,929773,Fix Released,Unable to delete volume snapshot,https://bugs.launchpad.net/nova/+bug/929773,2012-04-05
+915085,915085,Fix Released,sm volume driver: adding backend fails,https://bugs.launchpad.net/nova/+bug/915085,2012-04-05
+905350,905350,Fix Released,nova-compute qemu-img resize command fails,https://bugs.launchpad.net/nova/+bug/905350,2012-04-05
+881641,881641,Fix Released,OSAPI rebuild fails when using image HREF,https://bugs.launchpad.net/nova/+bug/881641,2012-04-05
+853602,853602,Fix Released,get_console_output for 'lxc' libvirt type would throw an error,https://bugs.launchpad.net/nova/+bug/853602,2012-04-05
+842653,842653,Fix Released,deleting instance in rescue state leaves rescue instance on hypervisor,https://bugs.launchpad.net/nova/+bug/842653,2012-04-05
+823503,823503,Fix Released,EC2 API: Timestamps do not follow documented formats,https://bugs.launchpad.net/nova/+bug/823503,2012-04-05
+798998,798998,Fix Released,format_images in ec2_api does not correctly return owner id,https://bugs.launchpad.net/nova/+bug/798998,2012-04-05
+959378,959378,Fix Released,Dhcp db interaction is horribly inefficient,https://bugs.launchpad.net/nova/+bug/959378,2012-04-05
+957716,957716,Fix Released,"command ""nova diagnostics"" fails due to typo",https://bugs.launchpad.net/nova/+bug/957716,2012-04-05
+956719,956719,Fix Released,"Instance sometimes do not fully terminate, causes crash",https://bugs.launchpad.net/nova/+bug/956719,2012-04-05
+956474,956474,Fix Released,Duplicate packets when pinging between Floating IPs,https://bugs.launchpad.net/nova/+bug/956474,2012-04-05
+956313,956313,Fix Released,Nova loses ability to build instances,https://bugs.launchpad.net/nova/+bug/956313,2012-04-05
+955735,955735,Fix Released,task state and power state not displayed for non-admin users,https://bugs.launchpad.net/horizon/+bug/955735,2012-04-05
+955735,955735,Fix Released,task state and power state not displayed for non-admin users,https://bugs.launchpad.net/nova/+bug/955735,2012-04-05
+955351,955351,Fix Released,Permission denied when getting console output,https://bugs.launchpad.net/nova/+bug/955351,2012-04-05
+955064,955064,Fix Released,"XenServer resize broken: 'TypeError', 'execv() argument 1 must be (encoded string without NULL bytes),",https://bugs.launchpad.net/nova/+bug/955064,2012-04-05
+954490,954490,Fix Released,fix/remove nova VSA support,https://bugs.launchpad.net/nova/+bug/954490,2012-04-05
+954377,954377,Fix Released,"ec2 metadata service regressed for block-device-mapping and empty kernel-id, ramdisk-id",https://bugs.launchpad.net/nova/+bug/954377,2012-04-05
+953831,953831,Fix Released,"when creating instance root image file,nova does not check backing file is ready.file is",https://bugs.launchpad.net/nova/+bug/953831,2012-04-05
+953319,953319,Fix Released,image kernel and ramdisk are broken in metadata,https://bugs.launchpad.net/nova/+bug/953319,2012-04-05
+951863,951863,Fix Released,nova api returns an error 500 while asking server details using application/xml,https://bugs.launchpad.net/nova/+bug/951863,2012-04-05
+951642,951642,Fix Released,'Network' object has no attribute 'dhcp_server',https://bugs.launchpad.net/nova/+bug/951642,2012-04-05
+951235,951235,Fix Released,reboot from non-running in kvm doesn't work,https://bugs.launchpad.net/nova/+bug/951235,2012-04-05
+950168,950168,Fix Released,xenapi unrescue sometimes leaves rescue VM undeleted,https://bugs.launchpad.net/nova/+bug/950168,2012-04-05
+950029,950029,Fix Released,TypeError: deallocate_fixed_ip() got an unexpected keyword argument 'project_id',https://bugs.launchpad.net/nova/+bug/950029,2012-04-05
+949477,949477,Fix Released,Prevent bad images from corrupting SR,https://bugs.launchpad.net/nova/+bug/949477,2012-04-05
+949475,949475,Fix Released,Snapshot creation is racey,https://bugs.launchpad.net/nova/+bug/949475,2012-04-05
+949471,949471,Fix Released,Snapshots aren't cleaned up when coalesce fails,https://bugs.launchpad.net/nova/+bug/949471,2012-04-05
+948965,948965,Fix Released,Nova network errors during resize:  'Network' object has no attribute 'multihost',https://bugs.launchpad.net/nova/+bug/948965,2012-04-05
+948685,948685,Fix Released,novaclient proxy_token behavior broken,https://bugs.launchpad.net/nova/+bug/948685,2012-04-05
+948066,948066,Fix Released,"nova API fails to run with Postgres: ""UPDATE/SHARE cannot be applied to the nullable side of an outer join""",https://bugs.launchpad.net/nova/+bug/948066,2012-04-05
+947549,947549,Fix Released,new config format requires explicit --config-file option,https://bugs.launchpad.net/nova/+bug/947549,2012-04-05
+946830,946830,Fix Released,"on qemu, create image fails when volume is attached to vm instance",https://bugs.launchpad.net/nova/+bug/946830,2012-04-05
+946427,946427,Fix Released,Authorizing ICMP w/o specifying types adds 1-65535/tcp and 1-65536/udp,https://bugs.launchpad.net/nova/+bug/946427,2012-04-05
+944184,944184,Fix Released,Iptables chaine name is to long for nova-api-metadata,https://bugs.launchpad.net/nova/+bug/944184,2012-04-05
+944145,944145,Fix Released,race condition when putting host in maintenance causes VM's state to be SHUTOFF,https://bugs.launchpad.net/nova/+bug/944145,2012-04-05
+943453,943453,Fix Released,VDI cleanup needs to shutdown VM first,https://bugs.launchpad.net/nova/+bug/943453,2012-04-05
+943421,943421,Fix Released,Token expiration during resize causes vm to go to ERROR state,https://bugs.launchpad.net/nova/+bug/943421,2012-04-05
+942918,942918,Fix Released,logs in greenthreads don't log request_id,https://bugs.launchpad.net/nova/+bug/942918,2012-04-05
+942865,942865,Fix Released,upgrade from diablo leaves existing images with kernel unbootable,https://bugs.launchpad.net/nova/+bug/942865,2012-04-05
+939557,939557,Fix Released,'nova reboot' under KVM always does a hard reboot,https://bugs.launchpad.net/nova/+bug/939557,2012-04-05
+928819,928819,Fix Released,Launching instance fails in Precise A2 - network/manager.py too many values to unpack,https://bugs.launchpad.net/nova/+bug/928819,2012-04-05
+928521,928521,Fix Released,"If no hosts found during resize, scheduler will leave instance stuck in RESIZE",https://bugs.launchpad.net/nova/+bug/928521,2012-04-05

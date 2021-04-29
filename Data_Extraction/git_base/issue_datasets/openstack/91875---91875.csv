@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1160114,1160114,Fix Released,test_postgresql_opportunistically fails on RHEL,https://bugs.launchpad.net/glance/+bug/1160114,2013-04-04
+1131705,1131705,Fix Released,Glance API v2 suffers from bug 1036193,https://bugs.launchpad.net/glance/+bug/1131705,2013-04-04
+1154606,1154606,Fix Released,Log when image is too large,https://bugs.launchpad.net/glance/+bug/1154606,2013-04-04
+1153670,1153670,Fix Released,Test 'test_publicize_image_unauthorized' is missing a piece,https://bugs.launchpad.net/glance/+bug/1153670,2013-04-04
+1153432,1153432,Fix Released,scrubber and other utils do not read 'default_log_levels',https://bugs.launchpad.net/glance/+bug/1153432,2013-04-04
+1152386,1152386,Fix Released,Migration 12 drops the indices for table image_properties with sqlite,https://bugs.launchpad.net/glance/+bug/1152386,2013-04-04
+1152252,1152252,Fix Released,glance-scrubber crashes if Swift returns 404,https://bugs.launchpad.net/glance/+bug/1152252,2013-04-04
+1144681,1144681,Fix Released,Segmented images not deleted cleanly from swift,https://bugs.launchpad.net/glance/+bug/1144681,2013-04-04
+1136480,1136480,Fix Released,v2 Image Upload Returns Incorrect Response Code on Success,https://bugs.launchpad.net/glance/+bug/1136480,2013-04-04
+1134465,1134465,Fix Released,Unused variable in update(),https://bugs.launchpad.net/glance/+bug/1134465,2013-04-04
+1051123,1051123,Fix Released,migration 6 drops deleted image property index in sqlite,https://bugs.launchpad.net/glance/+bug/1051123,2013-04-04
+1029727,1029727,Fix Released,Using logging module from signal handler can wedge process,https://bugs.launchpad.net/nova/+bug/1029727,2013-04-04
+1029727,1029727,Fix Released,Using logging module from signal handler can wedge process,https://bugs.launchpad.net/glance/+bug/1029727,2013-04-04
+988099,988099,Fix Released,Monkey patch all the (eventlet) things,https://bugs.launchpad.net/glance/+bug/988099,2013-04-04
+1152866,1152866,Fix Released,notifier_kombu should not retry forever,https://bugs.launchpad.net/glance/+bug/1152866,2013-04-04
+1125130,1125130,Fix Released,Location reported in notifications,https://bugs.launchpad.net/glance/+bug/1125130,2013-04-04
+1037708,1037708,Fix Released,Swift backend hardwires publicURL,https://bugs.launchpad.net/glance/+bug/1037708,2013-04-04
+1155603,1155603,Fix Released,Some db/sqlalchemy debug messages print sql password,https://bugs.launchpad.net/glance/+bug/1155603,2013-04-04
+1154777,1154777,Fix Released,Image Member index not tracked in sqlalchemy models,https://bugs.launchpad.net/glance/+bug/1154777,2013-04-04
+1154576,1154576,Fix Released,Image segments not deleted from swift when size >  image_size_cap,https://bugs.launchpad.net/glance/+bug/1154576,2013-04-04
+1154096,1154096,Fix Released,qpid_password not marked secret in notifier,https://bugs.launchpad.net/glance/+bug/1154096,2013-04-04
+1154058,1154058,Fix Released,Cannot run test_migrations.py: circular import in glance/db/sqlalchemy,https://bugs.launchpad.net/glance/+bug/1154058,2013-04-04
+1139131,1139131,Fix Released,'glance-cache-manage list-cached'  'last modified' fields displayed in UTC but test uses local timezone,https://bugs.launchpad.net/glance/+bug/1139131,2013-04-04
+1132840,1132840,Fix Released,Latest jsonschema release breaks unit tests,https://bugs.launchpad.net/glance/+bug/1132840,2013-04-04
+1132755,1132755,Fix Released,No download notification when using v2 api and image is cached,https://bugs.launchpad.net/glance/+bug/1132755,2013-04-04
+1154317,1154317,Fix Released,Publish new API version '2.1',https://bugs.launchpad.net/glance/+bug/1154317,2013-04-04
+1147231,1147231,Fix Released,v2 image data upload raises exception,https://bugs.launchpad.net/glance/+bug/1147231,2013-04-04
+1132294,1132294,Fix Released,glance image-list does not return shared images using v1 api,https://bugs.launchpad.net/glance/+bug/1132294,2013-04-04
+1131994,1131994,Fix Released,v2 api should ensure important properties are set prior to upload,https://bugs.launchpad.net/glance/+bug/1131994,2013-04-04
+1128650,1128650,Fix Released,GET /v2/images and /v2/images/XXX does not decrypt image location,https://bugs.launchpad.net/glance/+bug/1128650,2013-04-04
+1114821,1114821,Fix Released,Can view private images belonging to another user using member-list,https://bugs.launchpad.net/glance/+bug/1114821,2013-04-04
+1098700,1098700,Fix Released,re-creating a previously deleted image member fails with 500 ServerError,https://bugs.launchpad.net/glance/+bug/1098700,2013-04-04
+1034787,1034787,Fix Released,v2 API image upload doesn't update status,https://bugs.launchpad.net/glance/+bug/1034787,2013-04-04
+1118845,1118845,Fix Released,nosetests won't run tests on a fresh git clone of glance due to version issue,https://bugs.launchpad.net/glance/+bug/1118845,2013-04-04
+1103073,1103073,Fix Released,BadStoreConfiguration exception not displayed,https://bugs.launchpad.net/glance/+bug/1103073,2013-04-04
+1090592,1090592,Fix Released,version detection code produces wrong version,https://bugs.launchpad.net/python-novaclient/+bug/1090592,2013-04-04
+1090592,1090592,Fix Released,version detection code produces wrong version,https://bugs.launchpad.net/glance/+bug/1090592,2013-04-04
+1090592,1090592,Fix Released,version detection code produces wrong version,https://bugs.launchpad.net/python-glanceclient/+bug/1090592,2013-04-04
+1090592,1090592,Fix Released,version detection code produces wrong version,https://bugs.launchpad.net/nova/+bug/1090592,2013-04-04
+1090592,1090592,Fix Released,version detection code produces wrong version,https://bugs.launchpad.net/python-keystoneclient/+bug/1090592,2013-04-04
+1111254,1111254,Fix Released,"Fixed ""not in "" operator usage",https://bugs.launchpad.net/glance/+bug/1111254,2013-04-04
+1110597,1110597,Fix Released,Clarify some multi-tenant swift documentation,https://bugs.launchpad.net/glance/+bug/1110597,2013-04-04
+1123515,1123515,Fix Released,glance.tests.functional.v2.test_images.TestImages.test_image_lifecycle is fragile,https://bugs.launchpad.net/glance/+bug/1123515,2013-04-04
+1115495,1115495,Fix Released,Image schema description not i18n enabled,https://bugs.launchpad.net/glance/+bug/1115495,2013-04-04
+1112586,1112586,Fix Released,glance-scrubber marker files contain keys in plain text,https://bugs.launchpad.net/glance/+bug/1112586,2013-04-04
+1098687,1098687,Fix Released,Permission denied: '/etc/glance/policy.json' when running tests,https://bugs.launchpad.net/glance/+bug/1098687,2013-04-04
+1098670,1098670,Fix Released,policy tests missing a config import,https://bugs.launchpad.net/glance/+bug/1098670,2013-04-04
+1098651,1098651,Fix Released,v1/images/delete return 'null' body,https://bugs.launchpad.net/glance/+bug/1098651,2013-04-04
+1130853,1130853,Fix Released,Installing virtual environment depends on oslo.config,https://bugs.launchpad.net/glance/+bug/1130853,2013-04-04
+1111948,1111948,Fix Released,Spaces in image id causes glance to fail,https://bugs.launchpad.net/glance/+bug/1111948,2013-04-04
+1111948,1111948,Fix Released,Spaces in image id causes glance to fail,https://bugs.launchpad.net/python-glanceclient/+bug/1111948,2013-04-04
+1100317,1100317,Fix Released,Glance hangs in qpid notification when adding/removing an image,https://bugs.launchpad.net/glance/+bug/1100317,2013-04-04
+1081043,1081043,Fix Released,DB migration doesn't seem to handle metadata encryption,https://bugs.launchpad.net/glance/+bug/1081043,2013-04-04
+1080907,1080907,Fix Released,Disabling run_tests pep8,https://bugs.launchpad.net/glance/+bug/1080907,2013-04-04
+1095528,1095528,Fix Released,Link to controllingservers wrong in glance configuration page,https://bugs.launchpad.net/glance/+bug/1095528,2013-04-04
+1091294,1091294,Fix Released,silent failure when loading the paste deploy app,https://bugs.launchpad.net/glance/+bug/1091294,2013-04-04
+1082404,1082404,Fix Released,typo in glance image formats docs,https://bugs.launchpad.net/glance/+bug/1082404,2013-04-04
+1075088,1075088,Fix Released,I18N issue: some log/messages are not wrapped with _(),https://bugs.launchpad.net/glance/+bug/1075088,2013-04-04
+1092584,1092584,Fix Released,Supplied image size should be verified against actual size,https://bugs.launchpad.net/glance/+bug/1092584,2013-04-04
+1089916,1089916,Fix Released,Use one wsgi app for service but one dbengine per worker,https://bugs.launchpad.net/glance/+bug/1089916,2013-04-04
+1089391,1089391,Fix Released,No timeout for API to registry requests,https://bugs.launchpad.net/glance/+bug/1089391,2013-04-04
+1083648,1083648,Fix Released,"Default notification topic should be 'notifications', not 'glance_notifications'",https://bugs.launchpad.net/glance/+bug/1083648,2013-04-04
+1083070,1083070,Fix Released,Deleted image stays in cache,https://bugs.launchpad.net/glance/+bug/1083070,2013-04-04
+1045179,1045179,Fix Released,glance caching fails with webob 1.2.0,https://bugs.launchpad.net/glance/+bug/1045179,2013-04-04
+1081941,1081941,Fix Released,Deleted image can be downloaded by admin user,https://bugs.launchpad.net/glance/+bug/1081941,2013-04-04
+1080991,1080991,Fix Released,update_store_acls references unimported exception,https://bugs.launchpad.net/glance/+bug/1080991,2013-04-04
+1078520,1078520,Fix Released,glance v2 404 on POST/DELETE to an image you can GET,https://bugs.launchpad.net/glance/+bug/1078520,2013-04-04
+1075580,1075580,Fix Released,Glance image-delete HTTPInternalServerError HTTP 500,https://bugs.launchpad.net/glance/+bug/1075580,2013-04-04
+1077256,1077256,Fix Released,improve simple db to use is_image_available,https://bugs.launchpad.net/glance/+bug/1077256,2013-04-04
+1075676,1075676,Fix Released,glance.registry.db.api does not support + as a special character for database password,https://bugs.launchpad.net/glance/+bug/1075676,2013-04-04
+993284,993284,Fix Released,no downgrade in db sync,https://bugs.launchpad.net/glance/+bug/993284,2013-04-04
+955457,955457,Fix Released,"add command ""status"" to ""glance-control""",https://bugs.launchpad.net/glance/+bug/955457,2013-04-04
+1079211,1079211,Fix Released,Successful full gate jobs show ERRORs and stacktraces,https://bugs.launchpad.net/glance/+bug/1079211,2013-04-04
+1067518,1067518,Fix Released,bin/glance-control isn't checked for pep8,https://bugs.launchpad.net/glance/+bug/1067518,2013-04-04
+1065758,1065758,Fix Released,No exclude option to skip tests in run_tests.sh,https://bugs.launchpad.net/glance/+bug/1065758,2013-04-04

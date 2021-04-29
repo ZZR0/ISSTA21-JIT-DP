@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1837699,1837699,Fix Released,[ubuntu host] Handle duplicated hostnames in /etc/hosts file (127.0.1.1 problem),https://bugs.launchpad.net/kolla-ansible/+bug/1837699,2020-03-23
+1792496,1792496,Fix Released,No column dpdk_version in table Open_vSwitch,https://bugs.launchpad.net/kolla-ansible/+bug/1792496,2020-03-23
+1840145,1840145,Fix Released,MariaDB not accepting connections straight away,https://bugs.launchpad.net/kolla-ansible/+bug/1840145,2020-03-23
+1866039,1866039,Fix Released,[OVN] QoS gives different bandwidth limit measures than ml2/ovs,https://bugs.launchpad.net/neutron/+bug/1866039,2020-03-23
+1816022,1816022,Fix Released,Incompatible requirements break tempest (at least) on stable/pike,https://bugs.launchpad.net/tempest/+bug/1816022,2020-03-23
+1783751,1783751,Fix Released,tempest does not read the configuration file passed through '--config-file' option,https://bugs.launchpad.net/tempest/+bug/1783751,2020-03-23
+1555524,1555524,Fix Committed,Any tempest plugin import failure leads other plugin tests fails,https://bugs.launchpad.net/neutron/+bug/1555524,2020-03-23
+1852600,1852600,Fix Released,3par marked as supporting active-active HA but driver does not enable this,https://bugs.launchpad.net/cinder/+bug/1852600,2020-03-23
+1836529,1836529,Fix Released,fix error message from ipa-client-install - error: Too many arguments provided,https://bugs.launchpad.net/novajoin/+bug/1836529,2020-03-23
+1868439,1868439,Fix Released,"All stable branches OVB job fail because ""No module named 'keystoneauth1'""",https://bugs.launchpad.net/tripleo/+bug/1868439,2020-03-23
+1868125,1868125,Fix Released,[ovn] Metadata agent spawns haproxy quickly twice on a single new port binding,https://bugs.launchpad.net/neutron/+bug/1868125,2020-03-21
+1850610,1850610,Fix Released,Error booting vm when specifying xfs as ephemeral file system,https://bugs.launchpad.net/tripleo/+bug/1850610,2020-03-20
+1850610,1850610,Fix Released,Error booting vm when specifying xfs as ephemeral file system,https://bugs.launchpad.net/kolla/+bug/1850610,2020-03-20
+1850647,1850647,Fix Released,certmonger does not create cacert files when invoked wityh -F option when doing brownfield TLS,https://bugs.launchpad.net/tripleo/+bug/1850647,2020-03-20
+1853000,1853000,Fix Released,Bump up default pacemaker monitor timeout value for OVN DBs,https://bugs.launchpad.net/tripleo/+bug/1853000,2020-03-20
+1854117,1854117,Fix Released,"[queens only] Undercloud has iptables rule to allow traffic for horizon, which is not deployed",https://bugs.launchpad.net/tripleo/+bug/1854117,2020-03-20
+1856322,1856322,Fix Released,NovaVcpuPinSet puts vcpu_pin_set under [compute] instead of [DEFAULT],https://bugs.launchpad.net/tripleo/+bug/1856322,2020-03-20
+1862321,1862321,Fix Released,[queens-only] race in nova host discovery task,https://bugs.launchpad.net/tripleo/+bug/1862321,2020-03-20
+1864232,1864232,Fix Released,rsync missing from pre-deployed server deployment,https://bugs.launchpad.net/tripleo/+bug/1864232,2020-03-20
+1867362,1867362,Fix Released,Deployment fails on overcloud nodes because chronyd takes more than 20 seconds to sync with source,https://bugs.launchpad.net/tripleo/+bug/1867362,2020-03-20
+1860017,1860017,Fix Released,enable python-tempest-conf to execute w/o nova enabled,https://bugs.launchpad.net/tripleo/+bug/1860017,2020-03-20
+1868076,1868076,Fix Released,Fedora jobs fail in setup-devstack-cache: find: â€˜/opt/cache/filesâ€™: No such file or directory,https://bugs.launchpad.net/devstack/+bug/1868076,2020-03-20
+1340172,1340172,Fix Released,[OSCI] Add mamange/unmanage blocks to corosync init scripts,https://bugs.launchpad.net/fuel/+bug/1340172,2020-03-20
+1841441,1841441,Fix Released,net.ifnames is disabled by default under rhel8,https://bugs.launchpad.net/tripleo/+bug/1841441,2020-03-20
+1867035,1867035,Fix Released,AttributeError: 'MoleculeItem' object has no attribute 'funcargs' in molecule jobs,https://bugs.launchpad.net/tripleo/+bug/1867035,2020-03-20
+1860009,1860009,Fix Released,The 'ComputeRealTime' role is still using 'NovaVcpuPinSet',https://bugs.launchpad.net/tripleo/+bug/1860009,2020-03-19
+1868121,1868121,Fix Released,block info get cdrom error on non x86 platform,https://bugs.launchpad.net/nova/+bug/1868121,2020-03-19
+1800879,1800879,Fix Released,Periodic job openstack-tox-py35-with-oslo-master fails since some time,https://bugs.launchpad.net/neutron/+bug/1800879,2020-03-19
+1687027,1687027,Fix Released,"test_walk_versions tests fail with ""IndexError: tuple index out of range"" after timeout",https://bugs.launchpad.net/neutron/+bug/1687027,2020-03-19
+1847019,1847019,Fix Released,test_update_firewall_calls_get_dvr_hosts_for_router failure on rocky,https://bugs.launchpad.net/neutron/+bug/1847019,2020-03-19
+1847019,1847019,Fix Committed,test_update_firewall_calls_get_dvr_hosts_for_router failure on rocky,https://bugs.launchpad.net/networking-midonet/+bug/1847019,2020-03-19
+1845227,1845227,Fix Released,new l3 agent router factory breaks neutron-fwaas functional tests,https://bugs.launchpad.net/neutron/+bug/1845227,2020-03-19
+1842657,1842657,Fix Released,Job networking-ovn-tempest-dsvm-ovs-release is failing 100% times,https://bugs.launchpad.net/neutron/+bug/1842657,2020-03-19
+1778714,1778714,Fix Released,neutron-rally-neutron fails with `NeutronTrunks.create_and_list_trunk_subports` in in any platform,https://bugs.launchpad.net/neutron/+bug/1778714,2020-03-19
+1862845,1862845,Fix Released,ronic_inspector healthcheck is failing when using IPv6 provisioning address (,https://bugs.launchpad.net/tripleo/+bug/1862845,2020-03-19
+1860556,1860556,Fix Released,healthchecks are mostly unreliable,https://bugs.launchpad.net/tripleo/+bug/1860556,2020-03-19
+1866048,1866048,Fix Released,memcached healthcheck is broken,https://bugs.launchpad.net/tripleo/+bug/1866048,2020-03-19
+1866135,1866135,Fix Released,DeployIdentifier is not empty if --skip-deploy-identifier is used during a scale-out,https://bugs.launchpad.net/tripleo/+bug/1866135,2020-03-19
+1867648,1867648,Fix Released,tripleo-common openstack-tox-py27 job failingtripleo_common.tests.image.test_image_uploader.TestPythonImageUploader.test_copy_manifest_config_to_registry* tests,https://bugs.launchpad.net/tripleo/+bug/1867648,2020-03-19
+1856671,1856671,Fix Released,Smoke test fails when the external network has multiple IPv4 subnets,https://bugs.launchpad.net/tempest/+bug/1856671,2020-03-19
+1784874,1784874,Fix Released,ResourceTracker doesn't clean up compute_nodes or stats entries,https://bugs.launchpad.net/nova/+bug/1784874,2020-03-19
+1812177,1812177,Fix Released,BuildRequest ovo incorrectly assumes that IncompatibleObjectVersion exception has an objver field,https://bugs.launchpad.net/nova/+bug/1812177,2020-03-19
+1849409,1849409,Fix Released,openstack server list --deleted --limit -1 hangs,https://bugs.launchpad.net/nova/+bug/1849409,2020-03-19
+1844697,1844697,Fix Released,[kolla] periodic: container build job can fail during push,https://bugs.launchpad.net/tripleo/+bug/1844697,2020-03-19
+1844697,1844697,Fix Released,[kolla] periodic: container build job can fail during push,https://bugs.launchpad.net/kolla/+bug/1844697,2020-03-19
+1861802,1861802,Fix Released,"overcloud prepare image step time out with  moved to provision state ""clean failed"" from state ""clean wait"";  on rhel8 fs01 master",https://bugs.launchpad.net/tripleo/+bug/1861802,2020-03-19
+1864427,1864427,Fix Released,CentOS 8 buildimage-ironic-python-agent job failing with Error: Unable to find a match: scsi-target-utils,https://bugs.launchpad.net/tripleo/+bug/1864427,2020-03-19
+1867672,1867672,Fix Released,py27 pythonImageUploader failing tests in tripleo git repos for stable/train,https://bugs.launchpad.net/tripleo/+bug/1867672,2020-03-19
+1840487,1840487,Fix Released,cinder scheduler does not support mutate as restart method,https://bugs.launchpad.net/cinder/+bug/1840487,2020-03-19
+1815260,1815260,Fix Released,remove_version_from_href is not working properly when cinder api is deployed with uwsgi,https://bugs.launchpad.net/cinder/+bug/1815260,2020-03-19
+1837538,1837538,Fix Released,QNAP driver doesn't work with Python 3,https://bugs.launchpad.net/cinder/+bug/1837538,2020-03-19
+1816721,1816721,Fix Released,[SRU] Python3 librados incompatibility,https://bugs.launchpad.net/glance-store/+bug/1816721,2020-03-19
+1804075,1804075,Fix Released,[doc] multistore incorrect options group for default_backend,https://bugs.launchpad.net/glance/+bug/1804075,2020-03-19
+1808375,1808375,Fix Released,deprecation note for show_multiple_locations needs an update,https://bugs.launchpad.net/glance/+bug/1808375,2020-03-19
+1809462,1809462,Fix Released,Glance image conversion cannot convert to vmdk,https://bugs.launchpad.net/glance/+bug/1809462,2020-03-19
+1805765,1805765,Fix Released,Glance image conversion fails,https://bugs.launchpad.net/glance/+bug/1805765,2020-03-19
+1803498,1803498,Fix Released,node_staging_uri needs the file store to be configured,https://bugs.launchpad.net/glance/+bug/1803498,2020-03-19
+1803299,1803299,Fix Released,Failure in web-dowload doesn't put the image into error,https://bugs.launchpad.net/glance/+bug/1803299,2020-03-19
+1866988,1866988,Fix Released,Tempest cleanup does not delete server snapshots,https://bugs.launchpad.net/tempest/+bug/1866988,2020-03-19
+1827234,1827234,Fix Released,tempest_test_regex and tempest_black_regex docs don't seem to work with comments and multi-lines,https://bugs.launchpad.net/tempest/+bug/1827234,2020-03-19
+1474210,1474210,Fix Released,PPTP vpn server not working because of module not loaded,https://bugs.launchpad.net/fuel/+bug/1474210,2020-03-18
+1867323,1867323,Fix Released,"standalone sc12 deploy failed at Error: error checking path ""/run/libvirt"": stat /run/libvirt: no such file or directory",https://bugs.launchpad.net/tripleo/+bug/1867323,2020-03-18
+1865574,1865574,Fix Released,centos-8 multinode and undercloud jobs are hanging on the undercloud install,https://bugs.launchpad.net/tripleo/+bug/1865574,2020-03-18
+1864829,1864829,Fix Released,centos7 periodic containers build fails unrecognized arguments: --work-dir,https://bugs.launchpad.net/tripleo/+bug/1864829,2020-03-18
+1863883,1863883,Fix Released,periodic scenario3 standalone failing in 'list tempest tests' No module named parse,https://bugs.launchpad.net/tripleo/+bug/1863883,2020-03-18
+1863750,1863750,Fix Released,test_create_server_from_volume_snapshot tests failing with Invalid volume: Volume status must be available or error or error_restoring or error_extending or error_managing and must not be migrating,https://bugs.launchpad.net/tripleo/+bug/1863750,2020-03-18
+1861694,1861694,Fix Released,Nonstop restarting ovn_metadata_haproxy container,https://bugs.launchpad.net/tripleo/+bug/1861694,2020-03-18
+1856016,1856016,Fix Released,Tempest basic ops test_cross_tenant_traffic tests failed on fs020 train with Timed out waiting for 10.0.0.102 to become reachable from 10.0.0.117,https://bugs.launchpad.net/tripleo/+bug/1856016,2020-03-18
+1845628,1845628,Fix Released,Check UEFI support not insufficient,https://bugs.launchpad.net/nova/+bug/1845628,2020-03-18
+1867888,1867888,Fix Released,pyscss2 has no binary wheel and fails w/o pcre dev package,https://bugs.launchpad.net/kolla/+bug/1867888,2020-03-18
+1821856,1821856,Fix Released,tripleo_neutron_* podman healtchecks broken on the undercloud,https://bugs.launchpad.net/tripleo/+bug/1821856,2020-03-18
+1821782,1821782,Fix Released,podman healthchecks listing processes/file descriptors too verbose,https://bugs.launchpad.net/tripleo/+bug/1821782,2020-03-18
+1854074,1854074,Fix Released,BadResponseLength error when creating symlink,https://bugs.launchpad.net/swift/+bug/1854074,2020-03-18
+1863841,1863841,Fix Released,container listing with limit=N is returning additional containers,https://bugs.launchpad.net/swift/+bug/1863841,2020-03-18
+1857909,1857909,Fix Released,ERROR: Object HEAD returning 503 for 404,https://bugs.launchpad.net/swift/+bug/1857909,2020-03-18

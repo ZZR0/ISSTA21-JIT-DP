@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1309208,1309208,Fix Released,NSX: sync thread catches wrong exceptions on not found in db elements,https://bugs.launchpad.net/neutron/+bug/1309208,2015-03-13
+1254555,1254555,Fix Released,tenant does not see network that is routable from tenant-visible network until neutron-server is restarted,https://bugs.launchpad.net/tripleo/+bug/1254555,2015-03-13
+1254555,1254555,Fix Released,tenant does not see network that is routable from tenant-visible network until neutron-server is restarted,https://bugs.launchpad.net/neutron/+bug/1254555,2015-03-13
+1278550,1278550,Fix Released,test_provider_token_expiration_validation tests fails on slow system,https://bugs.launchpad.net/keystone/+bug/1278550,2015-03-13
+1315556,1315556,Fix Released,Disabling a domain does not disable the projects in that domain,https://bugs.launchpad.net/keystone/+bug/1315556,2015-03-13
+1305186,1305186,Fix Released,Fake libvirtError incompatibile with real libvirtError,https://bugs.launchpad.net/nova/+bug/1305186,2015-03-13
+1322926,1322926,Fix Released,Hyper-V driver volumes are attached incorrectly when multiple iSCSI servers are present,https://bugs.launchpad.net/nova/+bug/1322926,2015-03-13
+1300788,1300788,Fix Released,VMware: exceptions when SOAP reply message has no body,https://bugs.launchpad.net/nova/+bug/1300788,2015-03-13
+1179816,1179816,Fix Released,ec2_eror_code mismatch,https://bugs.launchpad.net/nova/+bug/1179816,2015-03-13
+1308544,1308544,Fix Released,libvirt: Trying to delete a non-existing vif raises an exception,https://bugs.launchpad.net/nova/+bug/1308544,2015-03-13
+1255347,1255347,Fix Released,cinder cross_az_attach uses instance AZ value,https://bugs.launchpad.net/nova/+bug/1255347,2015-03-13
+1355929,1355929,Fix Released,"test_postgresql_opportunistically fails in stable/havana due to: ""ERROR:  source database ""template1"" is being accessed by other users""",https://bugs.launchpad.net/nova/+bug/1355929,2015-03-13
+1314677,1314677,Fix Released,nova-cells fails when using JSON file to store cell information,https://bugs.launchpad.net/nova/+bug/1314677,2015-03-13
+1374458,1374458,Fix Released,test_encrypted_cinder_volumes_luks fails to detach encrypted volume,https://bugs.launchpad.net/nova/+bug/1374458,2015-03-13
+1332382,1332382,Fix Released,block device mapping timeout in compute,https://bugs.launchpad.net/nova/+bug/1332382,2015-03-13
+1365901,1365901,Fix Released,cinder-api ran into hang loop in python2.6,https://bugs.launchpad.net/cinder/+bug/1365901,2015-03-13
+1365901,1365901,Fix Released,cinder-api ran into hang loop in python2.6,https://bugs.launchpad.net/nova/+bug/1365901,2015-03-13
+1362916,1362916,Fix Released,"_rescan_multipath construct wrong parameter for ""multipath -r""",https://bugs.launchpad.net/nova/+bug/1362916,2015-03-13
+1362233,1362233,Fix Released,instance_create() DB API method implicitly creates additional DB transactions,https://bugs.launchpad.net/nova/+bug/1362233,2015-03-13
+1370782,1370782,Fix Released,SecurityGroupExists error when booting multiple instances concurrently,https://bugs.launchpad.net/nova/+bug/1370782,2015-03-13
+1359138,1359138,Fix Released,[OSSA 2014-037] vmware: deletion VM in resize state will cause VM-orig get leak (CVE-2014-8333),https://bugs.launchpad.net/nova/+bug/1359138,2015-03-13
+1359138,1359138,Fix Released,[OSSA 2014-037] vmware: deletion VM in resize state will cause VM-orig get leak (CVE-2014-8333),https://bugs.launchpad.net/ossa/+bug/1359138,2015-03-13
+1360022,1360022,Fix Released,min_ram and min_disk is ignored when boot from volume,https://bugs.launchpad.net/nova/+bug/1360022,2015-03-13
+1370191,1370191,Fix Released,db deadlock on service_update(),https://bugs.launchpad.net/nova/+bug/1370191,2015-03-13
+1297962,1297962,Fix Released,[sru] Nova-compute doesnt start,https://bugs.launchpad.net/nova/+bug/1297962,2015-03-13
+1357372,1357372,Fix Released,[oss-security] [OSSA 2014-035] Nova VMware driver may connect VNC to another tenant's console (CVE-2014-8750),https://bugs.launchpad.net/nova/+bug/1357372,2015-03-13
+1357372,1357372,Fix Released,[oss-security] [OSSA 2014-035] Nova VMware driver may connect VNC to another tenant's console (CVE-2014-8750),https://bugs.launchpad.net/ossa/+bug/1357372,2015-03-13
+1373993,1373993,Fix Released,Trusted Filter uses unsafe SSL connection,https://bugs.launchpad.net/nova/+bug/1373993,2015-03-13
+1281324,1281324,Fix Released,vm_state ERROR vm undeletable if first delete attempt does not succeed.,https://bugs.launchpad.net/nova/+bug/1281324,2015-03-12
+1304181,1304181,Fix Released,neutron should validate gateway_ip is in subnet,https://bugs.launchpad.net/neutron/+bug/1304181,2015-03-12
+1423696,1423696,Fix Released,"Output sensitive commands like ""rally deployment config"" shouldn't print warnings",https://bugs.launchpad.net/rally/+bug/1423696,2015-03-12
+1414597,1414597,Fix Released,"Scenario ""boot-runcommand-delete"" doesn't properly clean resources after completion",https://bugs.launchpad.net/rally/+bug/1414597,2015-03-12
+1414974,1414974,Fix Released,postgresql-devel isn't in requirements,https://bugs.launchpad.net/rally/+bug/1414974,2015-03-12
+1425439,1425439,Fix Released,DB is restricted to root,https://bugs.launchpad.net/rally/+bug/1425439,2015-03-12
+1420703,1420703,Fix Released,Invalid output in rally task detailed --iterations-data,https://bugs.launchpad.net/rally/+bug/1420703,2015-03-12
+1424082,1424082,Fix Released,Setting endpoint_type does not get apply for new users,https://bugs.launchpad.net/rally/+bug/1424082,2015-03-12
+1425149,1425149,Fix Released,cinder create_and_attach_volume uses same **kwargs for  server and volume,https://bugs.launchpad.net/rally/+bug/1425149,2015-03-12
+1430527,1430527,Fix Released,Use Ceilometer client.get_client to correctly setup the client,https://bugs.launchpad.net/rally/+bug/1430527,2015-03-12
+1401180,1401180,Fix Released,'rally task sla' command is not available,https://bugs.launchpad.net/rally/+bug/1401180,2015-03-12
+1405884,1405884,Fix Released,"Use everywhere "" instead of '",https://bugs.launchpad.net/rally/+bug/1405884,2015-03-12
+1421142,1421142,Fix Released,print user-friendly message if the task cannot be deleted,https://bugs.launchpad.net/rally/+bug/1421142,2015-03-12
+1423610,1423610,Fix Released,"""rally show secgroups"" gives bogus output when there is more than one secgroup",https://bugs.launchpad.net/rally/+bug/1423610,2015-03-12
+1430701,1430701,Fix Released,Tempest: config generator failed due to httperrors,https://bugs.launchpad.net/rally/+bug/1430701,2015-03-12
+1378960,1378960,Fix Released,Switch to oslo.config generator,https://bugs.launchpad.net/rally/+bug/1378960,2015-03-12
+1428066,1428066,Fix Released,"Heat test fails because of multiple ""default"" security groups",https://bugs.launchpad.net/rally/+bug/1428066,2015-03-12
+1419603,1419603,Fix Released,Rally wrongfully checks for deletion of floating IPs in Nova,https://bugs.launchpad.net/rally/+bug/1419603,2015-03-12
+1413916,1413916,Fix Released,Some floatingIP parameters are incorrect(3/3),https://bugs.launchpad.net/openstack-api-site/+bug/1413916,2015-03-12
+1426187,1426187,Fix Released,Glance: Missing parameters for Images APIs,https://bugs.launchpad.net/openstack-api-site/+bug/1426187,2015-03-12
+1413914,1413914,Fix Released,Some floatingIP parameters are incorrect(2/3),https://bugs.launchpad.net/openstack-api-site/+bug/1413914,2015-03-12
+1425344,1425344,Fix Released,"Incorrect parameter for ""Bulk create network""",https://bugs.launchpad.net/openstack-api-site/+bug/1425344,2015-03-12
+1373420,1373420,Fix Released,"Neutron: ""binding"" extension attributes are mixed with non-extension attributes",https://bugs.launchpad.net/openstack-api-site/+bug/1373420,2015-03-12
+1429738,1429738,Fix Released,Missing os_region_name for cinder in multiregion env,https://bugs.launchpad.net/devstack/+bug/1429738,2015-03-12
+1430939,1430939,Fix Released,enable_service zaqar-server failed on Fedora 21,https://bugs.launchpad.net/devstack/+bug/1430939,2015-03-12
+1430688,1430688,Fix Committed,hiera can't find sections in astute.yaml during fuel-plugin pre_deployment stage,https://bugs.launchpad.net/fuel/+bug/1430688,2015-03-12
+1428013,1428013,Fix Released,my_ip in cinder.conf should be set to HOST_IP instead of SERVIVE_HOST,https://bugs.launchpad.net/devstack/+bug/1428013,2015-03-12
+1428280,1428280,Fix Released,'page_size' parameter is not valid for compute GET servers,https://bugs.launchpad.net/openstack-api-site/+bug/1428280,2015-03-12
+1405741,1405741,Fix Released,"OpenStack Juno release Nova error: RemoteError: Remote error: OperationalError (OperationalError) (1048, “Column 'instance_uuid' cannot be null”)",https://bugs.launchpad.net/nova/+bug/1405741,2015-03-12
+1421592,1421592,Fix Released,[stats] statsenderd generates too much logs when postgres is unavailable,https://bugs.launchpad.net/fuel/+bug/1421592,2015-03-12
+1418589,1418589,Fix Released,Set status 'skipped' for not complete action_logs,https://bugs.launchpad.net/fuel/+bug/1418589,2015-03-12
+1427757,1427757,Fix Released,OpenStack workloads stats is incorrect on cluster reset,https://bugs.launchpad.net/fuel/+bug/1427757,2015-03-12
+1427575,1427575,Fix Released,"[Statistics] Second send of oswl statistics caused IntegrityError: (IntegrityError) duplicate key value violates unique constraint ""oswl_stats_pkey""",https://bugs.launchpad.net/fuel/+bug/1427575,2015-03-12
+1421580,1421580,Fix Released,Package versioning for fuel-stats,https://bugs.launchpad.net/fuel/+bug/1421580,2015-03-12
+1425783,1425783,Fix Released,Neutron: Incorrect parameters for Port APIs,https://bugs.launchpad.net/openstack-api-site/+bug/1425783,2015-03-12
+1411462,1411462,Fix Released,Some floatingIP parameters are incorrect(1/3),https://bugs.launchpad.net/openstack-api-site/+bug/1411462,2015-03-12
+1418075,1418075,Fix Released,After resource_data is changed is_sent flag is not reset,https://bugs.launchpad.net/fuel/+bug/1418075,2015-03-12
+1418070,1418070,Fix Released,All object info is in modified in resource_data after workload is modified,https://bugs.launchpad.net/fuel/+bug/1418070,2015-03-12
+1397010,1397010,Fix Released,[Plugins] Wrong packages are installed on node with glusterfs plugin,https://bugs.launchpad.net/fuel/+bug/1397010,2015-03-12
+1396996,1396996,Fix Released,[Plugins] Wrong task yaml for glusterfs plugin is used,https://bugs.launchpad.net/fuel/+bug/1396996,2015-03-12
+1314525,1314525,Fix Released,Non-ASCII artifact after fuel menu exit,https://bugs.launchpad.net/fuel/+bug/1314525,2015-03-12
+1341497,1341497,Fix Released,[osci] Deployment  execution expired on primary controller,https://bugs.launchpad.net/fuel/+bug/1341497,2015-03-12
+1356921,1356921,Fix Released,[Update] Murano Dashboard update fails,https://bugs.launchpad.net/fuel/+bug/1356921,2015-03-12
+1352896,1352896,Fix Released,[update] Rollback failed with error in puppet about package verions,https://bugs.launchpad.net/fuel/+bug/1352896,2015-03-12
+1430811,1430811,Fix Released,Need change test group in master_smoke job,https://bugs.launchpad.net/fuel/+bug/1430811,2015-03-12
+1420605,1420605,Fix Released,Admin user must be project scoped,https://bugs.launchpad.net/tempest/+bug/1420605,2015-03-12
+1429032,1429032,Fix Released,OFAgent: 'OFANeutronAgent' object has no attribute 'local_vlan_map',https://bugs.launchpad.net/neutron/+bug/1429032,2015-03-12

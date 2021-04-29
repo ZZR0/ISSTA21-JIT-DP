@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1593175,1593175,Fix Released,Databases created before and after compacting migrations are different,https://bugs.launchpad.net/cinder/+bug/1593175,2016-07-14
+1593808,1593808,Fix Released,cloudbyte unit tests logging info during unit tests,https://bugs.launchpad.net/cinder/+bug/1593808,2016-07-14
+1594195,1594195,Fix Released,db sync fails to create cinder.volumes,https://bugs.launchpad.net/cinder/+bug/1594195,2016-07-14
+1586604,1586604,Fix Released,snapshot is stuck in 'deleting' after reboot cinder-volume in cascade deleting process,https://bugs.launchpad.net/cinder/+bug/1586604,2016-07-14
+1594390,1594390,Fix Released,Tooz locks are creating lockfiles in cinder dir when running unit tests,https://bugs.launchpad.net/cinder/+bug/1594390,2016-07-14
+1594835,1594835,Fix Released,One location missed for coordination=True on service start,https://bugs.launchpad.net/cinder/+bug/1594835,2016-07-14
+1595014,1595014,Fix Released,cinder ceph backup driver padding error,https://bugs.launchpad.net/cinder/+bug/1595014,2016-07-14
+1596508,1596508,Fix Released,gate-cinder-tox-compliance is broken,https://bugs.launchpad.net/cinder/+bug/1596508,2016-07-14
+1588736,1588736,Fix Released,Huawei cinder driver should support iscsi configuration in replication feature,https://bugs.launchpad.net/cinder/+bug/1588736,2016-07-14
+1561600,1561600,Fix Released,XtremIO test suit redesign,https://bugs.launchpad.net/cinder/+bug/1561600,2016-07-14
+1597335,1597335,Fix Released,lvm_driver tests need to be converted to mock from mox,https://bugs.launchpad.net/cinder/+bug/1597335,2016-07-14
+1597356,1597356,Fix Released,brick_lvm tests need to be converted to mock from mox,https://bugs.launchpad.net/cinder/+bug/1597356,2016-07-14
+1597483,1597483,Fix Released,SolidFire driver not raising UnableToFailOver Exception properly,https://bugs.launchpad.net/cinder/+bug/1597483,2016-07-14
+1594294,1594294,Fix Released,Tenant fail to create volume if cinder uses VolumeNumberWeigher,https://bugs.launchpad.net/cinder/+bug/1594294,2016-07-14
+1554634,1554634,Fix Released,"VMAX: SMI-S error on attach - Resources are ""locked by an existing change session""",https://bugs.launchpad.net/cinder/+bug/1554634,2016-07-14
+1591598,1591598,Fix Released,EMC ScaleIO should return ceiling of volume size,https://bugs.launchpad.net/cinder/+bug/1591598,2016-07-14
+1598148,1598148,Fix Released,EQLX driver throws exception when cloning a volume larger than original,https://bugs.launchpad.net/cinder/+bug/1598148,2016-07-14
+1598007,1598007,Fix Released,update volume's metadata returns 500 error,https://bugs.launchpad.net/cinder/+bug/1598007,2016-07-14
+1597223,1597223,Fix Released,API v3 consisgroup-list fail,https://bugs.launchpad.net/cinder/+bug/1597223,2016-07-14
+1599052,1599052,Fix Released,Traceback not logged for driver initialize_connection failure,https://bugs.launchpad.net/cinder/+bug/1599052,2016-07-14
+1599106,1599106,Fix Released,Volume type creation with extra_specs set to null or a string fails with AttributeError.,https://bugs.launchpad.net/cinder/+bug/1599106,2016-07-14
+1599522,1599522,Fix Released,"Snapshot object has no attribute about size,but some unit tests still use snapshot['size']",https://bugs.launchpad.net/cinder/+bug/1599522,2016-07-14
+1594421,1594421,Fix Released,Manage existing volume fails,https://bugs.launchpad.net/cinder/+bug/1594421,2016-07-14
+1599732,1599732,Fix Released,cinder.utils.check_metadata_properties logs at WARNING erroniously,https://bugs.launchpad.net/cinder/+bug/1599732,2016-07-14
+1597771,1597771,Fix Released,Microversions only work if Controller inherits directly from wsgi.Controller,https://bugs.launchpad.net/cinder/+bug/1597771,2016-07-14
+1589338,1589338,Fix Released,VNX: refine driver opts to use ListOpt instead of  StrOpt,https://bugs.launchpad.net/cinder/+bug/1589338,2016-07-14
+1524160,1524160,Fix Released,VNX: migration start failed as 'The destination LUN is not available for migration',https://bugs.launchpad.net/cinder/+bug/1524160,2016-07-14
+1569245,1569245,Fix Released,VNX: unexpected loose of HLU connections,https://bugs.launchpad.net/cinder/+bug/1569245,2016-07-14
+1534118,1534118,Fix Released,Volume stays in 'deleting' state for long time in some scenario for IBM storwize/SVC,https://bugs.launchpad.net/cinder/+bug/1534118,2016-07-14
+1599147,1599147,Fix Released,Image virtual size doesn't fit to volume size,https://bugs.launchpad.net/cinder/+bug/1599147,2016-07-14
+1567814,1567814,Fix Released,heatclient doesn't support clear pre-delete hook,https://bugs.launchpad.net/python-heatclient/+bug/1567814,2016-07-14
+1558049,1558049,Fix Released,Add description displaying for resource-type-list and resource-type-show,https://bugs.launchpad.net/heat/+bug/1558049,2016-07-14
+1585820,1585820,Fix Released,"Implement a ""openstack stack failures list"" command",https://bugs.launchpad.net/python-heatclient/+bug/1585820,2016-07-14
+1586884,1586884,Fix Released,show 'parameter_defaults' for environment-show api,https://bugs.launchpad.net/python-heatclient/+bug/1586884,2016-07-14
+1589519,1589519,Fix Released,TemplateFiles object is not JSON serializable,https://bugs.launchpad.net/python-heatclient/+bug/1589519,2016-07-14
+1597691,1597691,Fix Released,The openstacklient heat plugin does not support token based authentication,https://bugs.launchpad.net/python-heatclient/+bug/1597691,2016-07-14
+1602301,1602301,Fix Released,openstack stack update --dry-run wrongly requires an existing stack,https://bugs.launchpad.net/python-heatclient/+bug/1602301,2016-07-14
+1544139,1544139,Fix Released,Migrate prepush processor to dse2,https://bugs.launchpad.net/congress/+bug/1544139,2016-07-14
+1588167,1588167,Fix Released,Fail to create new datasource in dse,https://bugs.launchpad.net/congress/+bug/1588167,2016-07-14
+1587728,1587728,Fix Released,Exposed ssh timeout and interval in vm scenario,https://bugs.launchpad.net/rally/+bug/1587728,2016-07-14
+1560974,1560974,Fix Released,[ironic][ostf]9.0.system_test.ubuntu.ironic_deploy_swift - some ostf ironic tests fails with EndpointNotFound error,https://bugs.launchpad.net/fuel/+bug/1560974,2016-07-14
+1599848,1599848,Fix Released,Rally scenario  NovaServers.pause_and_unpause_server failed,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1599848,2016-07-14
+1599825,1599825,Fix Released,Rally scenario NovaServers.boot_server_from_volume_and_live_migrate  failed,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1599825,2016-07-14
+1599824,1599824,Fix Released,Rally scenario NovaServers.boot_server_from_volume_and_delete failed,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1599824,2016-07-14
+1599820,1599820,Fix Released,Rally scenario  NovaServers.boot_and_live_migrate_server failed,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1599820,2016-07-14
+1599815,1599815,Fix Released,Rally scenario NovaServers.boot_and_delete_server failed,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1599815,2016-07-14
+1599814,1599814,Fix Released,Rally scenario NovaSecGroup.boot_and_delete_server_with_secgroups  failed,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1599814,2016-07-14
+1599811,1599811,Fix Released,Rally scenario boot_and_delete_server_with_secgroups  failed,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1599811,2016-07-14
+1587198,1587198,Fix Committed,A part of word isn't translated,https://bugs.launchpad.net/monasca/+bug/1587198,2016-07-14
+1590059,1590059,Fix Released,Per group page graphs don't update with regex filter,https://bugs.launchpad.net/openstack-health/+bug/1590059,2016-07-14
+1600659,1600659,Fix Released,"Missing quota option ""quota_items""",https://bugs.launchpad.net/octavia/+bug/1600659,2016-07-14
+1508833,1508833,Fix Released,broken Symbolic link created in Ubuntu and Fedora,https://bugs.launchpad.net/networking-ovs-dpdk/+bug/1508833,2016-07-13
+1570229,1570229,Fix Committed,OSC plugin: Missing template gives unhelpful error,https://bugs.launchpad.net/python-heatclient/+bug/1570229,2016-07-13
+1504384,1504384,Fix Committed,deployment-delete doesn't delete the corresponding config,https://bugs.launchpad.net/python-heatclient/+bug/1504384,2016-07-13
+1501207,1501207,Fix Committed,preview_update_stack inconsistent with update_stack,https://bugs.launchpad.net/python-heatclient/+bug/1501207,2016-07-13
+1501207,1501207,Fix Released,preview_update_stack inconsistent with update_stack,https://bugs.launchpad.net/heat/+bug/1501207,2016-07-13
+1464248,1464248,Fix Committed,Cannot list software_configs,https://bugs.launchpad.net/python-heatclient/+bug/1464248,2016-07-13
+1464248,1464248,Fix Released,Cannot list software_configs,https://bugs.launchpad.net/heat/+bug/1464248,2016-07-13
+1398640,1398640,Fix Released,test_congess.py tests things all over the place,https://bugs.launchpad.net/congress/+bug/1398640,2016-07-13
+1585975,1585975,Fix Released,Fails to start replica on rabbit bus,https://bugs.launchpad.net/congress/+bug/1585975,2016-07-13
+1466340,1466340,Fix Released,Any user error message is coming as Internal Server Error,https://bugs.launchpad.net/cue/+bug/1466340,2016-07-13
+1451721,1451721,Fix Released,DataTables warning on page load,https://bugs.launchpad.net/app-catalog/+bug/1451721,2016-07-13
+1593704,1593704,Fix Committed,[packaging][keystone] Fuel node deployment failed due keystone issue,https://bugs.launchpad.net/fuel/+bug/1593704,2016-07-13
+1587457,1587457,Fix Released,mistral actions for designate v1 api's not working,https://bugs.launchpad.net/mistral/+bug/1587457,2016-07-13
+1589714,1589714,Fix Released,join fails with 'list' object has no attribute 'workflow_execution',https://bugs.launchpad.net/mistral/+bug/1589714,2016-07-13
+1539173,1539173,Fix Released,Mistral IndexError on fork/join and multiple executions,https://bugs.launchpad.net/mistral/+bug/1539173,2016-07-13
+1590789,1590789,Fix Released,Can't pass inputs as direct JSON objects,https://bugs.launchpad.net/mistral/+bug/1590789,2016-07-13
+1592748,1592748,Fix Released,Mistral tempest tests don't implement a skip method,https://bugs.launchpad.net/mistral/+bug/1592748,2016-07-13
+1593286,1593286,Fix Released,Mistral docker container broke after oslo.policy update,https://bugs.launchpad.net/mistral/+bug/1593286,2016-07-13
+1593940,1593940,Fix Released,Input paramters are not registered to database for glance and designate actions,https://bugs.launchpad.net/mistral/+bug/1593940,2016-07-13
+1538996,1538996,Fix Released,unit tests fails if http_proxy is set in environment variables,https://bugs.launchpad.net/mistral/+bug/1538996,2016-07-13
+1591217,1591217,Fix Released,Cannot create an ad-hoc action from another ad-hoc action,https://bugs.launchpad.net/mistral/+bug/1591217,2016-07-13
+1596430,1596430,Fix Released,Add action context to saved/asynchronous action executions,https://bugs.launchpad.net/mistral/+bug/1596430,2016-07-13
+1568541,1568541,Fix Released,action-update API on non existing action - creates action instead of returning 404,https://bugs.launchpad.net/mistral/+bug/1568541,2016-07-13
+1526300,1526300,Fix Released,openstack client in Mistal can't support to change the endpoint_type,https://bugs.launchpad.net/mistral/+bug/1526300,2016-07-13

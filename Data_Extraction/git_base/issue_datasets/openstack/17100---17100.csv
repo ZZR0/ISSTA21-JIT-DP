@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1729384,1729384,Fix Released,mysql certificate specs are always populated,https://bugs.launchpad.net/tripleo/+bug/1729384,2017-12-04
+1729405,1729405,Fix Released,Live-migration fails when selinux is enforcing,https://bugs.launchpad.net/tripleo/+bug/1729405,2017-12-04
+1729479,1729479,Fix Released,puppet-collectd change on datatype,https://bugs.launchpad.net/tripleo/+bug/1729479,2017-12-04
+1729352,1729352,Fix Released,CinderCronDbPurgeUser is set to 'keystone' by default,https://bugs.launchpad.net/tripleo/+bug/1729352,2017-12-04
+1729419,1729419,Fix Released,Encrypted volume attachment fails when nova-compute is containerized,https://bugs.launchpad.net/tripleo/+bug/1729419,2017-12-04
+1724182,1724182,Fix Released,We should default storage-environment.yaml to ceph-ansible,https://bugs.launchpad.net/tripleo/+bug/1724182,2017-12-04
+1729430,1729430,Fix Released,Cinder containers used with pacemaker not configured correctly,https://bugs.launchpad.net/tripleo/+bug/1729430,2017-12-04
+1727454,1727454,Fix Released,OS_AUTH_URL in overcloudrc points to keystone API v2.0,https://bugs.launchpad.net/tripleo/+bug/1727454,2017-12-04
+1726891,1726891,Fix Released,fluentd on BM fails on scenario001-multinode-container,https://bugs.launchpad.net/tripleo/+bug/1726891,2017-12-04
+1730349,1730349,Fix Released,Ocata to Pike upgrade fails for mysql init tasks,https://bugs.launchpad.net/tripleo/+bug/1730349,2017-12-04
+1730533,1730533,Fix Released,nova_compute nfs mounts are not propagated to nova_libvirt,https://bugs.launchpad.net/tripleo/+bug/1730533,2017-12-04
+1730370,1730370,Fix Released,Potential privilege escalation with the default libvirtd TLS config,https://bugs.launchpad.net/tripleo/+bug/1730370,2017-12-04
+1730859,1730859,Fix Released,Typos in Bagpipe composable service,https://bugs.launchpad.net/tripleo/+bug/1730859,2017-12-04
+1730911,1730911,Fix Released,Wrong permissions to local_settings.d in dockerized Horizon,https://bugs.launchpad.net/tripleo/+bug/1730911,2017-12-04
+1720821,1720821,Fix Released,race in cell_v2 discovery with containers,https://bugs.launchpad.net/tripleo/+bug/1720821,2017-12-04
+1718912,1718912,Fix Released,Ocata to Pike upgrade: duplicate default cell_v2 cells are created,https://bugs.launchpad.net/tripleo/+bug/1718912,2017-12-04
+1731883,1731883,Fix Released,ntpd without iburst can be out of sync for a long time,https://bugs.launchpad.net/tripleo/+bug/1731883,2017-12-04
+1730711,1730711,Fix Released,OVN configures ovn-bridge-mappings on all the nodes even if they don't provide external connectivity,https://bugs.launchpad.net/tripleo/+bug/1730711,2017-12-04
+1732443,1732443,Fix Released,TLS everywhere fails with keystone admin API in the external network,https://bugs.launchpad.net/tripleo/+bug/1732443,2017-12-04
+1732937,1732937,Fix Released,horizon container has restarting state after deployment,https://bugs.launchpad.net/tripleo/+bug/1732937,2017-12-04
+1732663,1732663,Fix Released,swift.conf not configured on containerized node without storage service,https://bugs.launchpad.net/tripleo/+bug/1732663,2017-12-04
+1730487,1730487,Fix Released,Some docker image names are still hardcoded in t-h-t,https://bugs.launchpad.net/tripleo/+bug/1730487,2017-12-04
+1716778,1716778,Fix Released,tripleo-ui cannot set default container image parameters,https://bugs.launchpad.net/tripleo/+bug/1716778,2017-12-04
+1724550,1724550,Fix Released,Upgrade Ocata to Pike running upgrade-non-controller.sh script for a split stack compute node prompts for heat-admin user password,https://bugs.launchpad.net/tripleo/+bug/1724550,2017-12-04
+1724552,1724552,Fix Released,Ocata to Pike upgrade: running upgrade-non-controller.sh script for a split stack compute node fails because tripleo-ansible-inventory is using the heat-admin user instead of 'stack',https://bugs.launchpad.net/tripleo/+bug/1724552,2017-12-04
+1724922,1724922,Fix Released,"Health checks for nova_vnc_proxy, ceilometer_agent_central and aodh_evaluator report false negative",https://bugs.launchpad.net/tripleo/+bug/1724922,2017-12-04
+1726727,1726727,Fix Released,fernet key rotation playbook sets wrong ownership for fernet keys,https://bugs.launchpad.net/tripleo/+bug/1726727,2017-12-04
+1710717,1710717,Fix Released,"""openstack overcloud node configure"" accepts image names, not IDs",https://bugs.launchpad.net/tripleo/+bug/1710717,2017-12-04
+1725224,1725224,Fix Released,"Deployment with ceph and ansible 2.4 fails with: ""WorkflowTasks_Step2_Execution: ERROR"" ""Failed to connect to the host via ssh: Could not create directory '/home/mistral/.ssh'. Host key verification failed.""",https://bugs.launchpad.net/tripleo/+bug/1725224,2017-12-04
+1728158,1728158,Fix Released,Can not evaluate YAQL expression when registering nodes,https://bugs.launchpad.net/tripleo/+bug/1728158,2017-12-04
+1730649,1730649,Fix Released,nova_migration_target healthcheck reports false negative,https://bugs.launchpad.net/tripleo/+bug/1730649,2017-12-04
+1730687,1730687,Fix Released,Minor update should work without container registry file,https://bugs.launchpad.net/tripleo/+bug/1730687,2017-12-04
+1723085,1723085,Fix Released,We should stop the deployment if on upgrade there is stale hieradata for puppet-ceph,https://bugs.launchpad.net/tripleo/+bug/1723085,2017-12-04
+1730663,1730663,Fix Released,Zaqar error when Mistral message size exceeded during Pike minor update.,https://bugs.launchpad.net/tripleo/+bug/1730663,2017-12-04
+1731472,1731472,Fix Released,Log tarball sometimes contains many empty files,https://bugs.launchpad.net/tripleo/+bug/1731472,2017-12-04
+1735923,1735923,Fix Released,swift/glance container healthchecks fail when using IPv6,https://bugs.launchpad.net/tripleo/+bug/1735923,2017-12-04
+1712732,1712732,Fix Released,VM creation fails on DPDK network in a containerized deployment,https://bugs.launchpad.net/tripleo/+bug/1712732,2017-12-04
+1723157,1723157,Fix Released,Options for the prepare command are confusing,https://bugs.launchpad.net/tripleo/+bug/1723157,2017-12-04
+1723057,1723057,Fix Released,overcloud container image prepare should support --env-dir,https://bugs.launchpad.net/tripleo/+bug/1723057,2017-12-04
+1729039,1729039,Fix Released,Ocata -> Pike overcloud upgrade: major-upgrade-composable-steps-docker fails with The Resource Type (OS::TripleO::Network::Management) could not be found.,https://bugs.launchpad.net/tripleo/+bug/1729039,2017-12-04
+1725329,1725329,Fix Released,Manage undercloud containers prepare steps in the tripleo client,https://bugs.launchpad.net/tripleo/+bug/1725329,2017-12-04
+1730650,1730650,Fix Released,cannot use enable-internal-tls.yaml due to /usr/share/openstack-tripleo-heat-templates/extraconfig/nova_metadata/krb-service-principals.yaml doesn't exist,https://bugs.launchpad.net/tripleo/+bug/1730650,2017-12-04
+1727519,1727519,Fix Released,image prepare CLI commands maintains its own default argument values,https://bugs.launchpad.net/tripleo/+bug/1727519,2017-12-04
+1733327,1733327,Fix Released,Tripleoclient sets only deprecated flavor parameters,https://bugs.launchpad.net/tripleo/+bug/1733327,2017-12-04
+1733593,1733593,Fix Released,Let users know where the overcloudrc file is for CLI deploys,https://bugs.launchpad.net/tripleo/+bug/1733593,2017-12-04
+1734703,1734703,Fix Released,Cannot deploy via config download when some role has count 0,https://bugs.launchpad.net/tripleo/+bug/1734703,2017-12-04
+1735173,1735173,Fix Released,overcloud deploy --config-download not working for Nova+Ironic envs,https://bugs.launchpad.net/tripleo/+bug/1735173,2017-12-04
+1713007,1713007,Fix Released,HA Bundles need to store properties on per-host basis,https://bugs.launchpad.net/tripleo/+bug/1713007,2017-12-04
+1719885,1719885,Fix Released,Galera SST traffic is not encrypted when Internal TLS is enabled,https://bugs.launchpad.net/tripleo/+bug/1719885,2017-12-04
+1730351,1730351,Fix Released,sshd complains about missing /etc/ssh/ssh_host_dsa_key,https://bugs.launchpad.net/tripleo/+bug/1730351,2017-12-04
+1731688,1731688,Fix Released,scenario004 non-containers broken due to Error: Could not find resource 'Exec[exec-satfacl-openstack-manila]' for relationship from 'Ceph::Key[mds.centos-7-infracloud-chocolate-0000823196]',https://bugs.launchpad.net/tripleo/+bug/1731688,2017-12-04
+1731931,1731931,Fix Released,logrotate ignores apache logs in /var/log/containers/httpd,https://bugs.launchpad.net/tripleo/+bug/1731931,2017-12-04
+1732998,1732998,Fix Released,"puppet-tripleo still using deprecated key manager ""api_class""",https://bugs.launchpad.net/tripleo/+bug/1732998,2017-12-04
+1722489,1722489,Fix Released,hieradata_override doesn't work with relative path,https://bugs.launchpad.net/tripleo/+bug/1722489,2017-12-04
+1726959,1726959,Fix Released,heat-dbsync fails during upgrade with large db,https://bugs.launchpad.net/tripleo/+bug/1726959,2017-12-04
+1731885,1731885,Fix Released,Resource class is not assigned to all nodes on upgrade to Pike,https://bugs.launchpad.net/tripleo/+bug/1731885,2017-12-04
+1732354,1732354,Fix Released,Ansible-pacemaker needs to be installled before upgrade P to Q on the Undercloud,https://bugs.launchpad.net/tripleo/+bug/1732354,2017-12-04
+1732459,1732459,Fix Released,fix panko undercloud ssl port,https://bugs.launchpad.net/tripleo/+bug/1732459,2017-12-04
+1736184,1736184,Fix Released,CI: TripleO OVB jobs fail because not finding pytjon-cinderclient in PyPi mirror,https://bugs.launchpad.net/tripleo/+bug/1736184,2017-12-04
+1732014,1732014,Fix Released,Set api_version on tempest tests,https://bugs.launchpad.net/zun/+bug/1732014,2017-12-04
+1732750,1732750,Fix Released,Do not generate undercloud.conf.sample in-tree,https://bugs.launchpad.net/tripleo/+bug/1732750,2017-12-04
+1676998,1676998,Fix Released,Drop openstack-puppet-modules from TripleO,https://bugs.launchpad.net/tripleo/+bug/1676998,2017-12-04
+1725311,1725311,Fix Released,"Tempest Swift tests run on scenario004 (with Ceph RGW, not Swift)",https://bugs.launchpad.net/tripleo/+bug/1725311,2017-12-04
+1735168,1735168,Fix Released,overcloud deploy --config-download returns 0 even when Ansible fails,https://bugs.launchpad.net/tripleo/+bug/1735168,2017-12-04
+1736172,1736172,Fix Released,david has a bug,https://bugs.launchpad.net/openstack-dev-sandbox/+bug/1736172,2017-12-04
+1734914,1734914,Fix Released,BootAndLiveMigrateServer does wrong target host selection,https://bugs.launchpad.net/rally/+bug/1734914,2017-12-04
+1721832,1721832,Fix Released,Allow to add custom backends in HAProxy,https://bugs.launchpad.net/tripleo/+bug/1721832,2017-12-04
+1618928,1618928,Fix Released,Glance Content-Range request returns incorrect Content-Length,https://bugs.launchpad.net/glance/+bug/1618928,2017-12-04
+1736051,1736051,Fix Released,release notes job is failure,https://bugs.launchpad.net/qinling/+bug/1736051,2017-12-04
+1734348,1734348,Fix Released,legacy-instack-undercloud-puppet-lint is failing with ERROR Unable to find playbook,https://bugs.launchpad.net/tripleo/+bug/1734348,2017-12-03
+1703168,1703168,Fix Released,DHCP app always replies in broadcast,https://bugs.launchpad.net/dragonflow/+bug/1703168,2017-12-03
+1734335,1734335,Fix Released,Chrony configuration path is incorrect,https://bugs.launchpad.net/openstack-manuals/+bug/1734335,2017-12-02
+1600540,1600540,Fix Released,Show snapshot metadata key values in snapshot detailed view,https://bugs.launchpad.net/horizon/+bug/1600540,2017-12-02
+1731421,1731421,Fix Released,"nodejs-npm-run-test fails because of ""No binary for Chrome browser on your platform""",https://bugs.launchpad.net/horizon/+bug/1731421,2017-12-02
+1656047,1656047,Fix Committed,[swarm 9.2]ceph_partitions_repetitive_cold_restart: Cannot connect to the Docker daemon,https://bugs.launchpad.net/fuel/+bug/1656047,2017-12-01

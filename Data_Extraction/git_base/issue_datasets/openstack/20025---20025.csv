@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1583694,1583694,Fix Released,[RFE] DVR support for Allowed_address_pair port that are bound to multiple ACTIVE VM ports,https://bugs.launchpad.net/neutron/+bug/1583694,2017-08-11
+1605654,1605654,Fix Released,TestNetworkBasicOps often times out running against tripleo,https://bugs.launchpad.net/neutron/+bug/1605654,2017-08-11
+1682355,1682355,Fix Released,DHCP issues for subnet DHCP updating,https://bugs.launchpad.net/networking-ovn/+bug/1682355,2017-08-11
+1696713,1696713,Fix Released,SSL functional tests are failing,https://bugs.launchpad.net/networking-ovn/+bug/1696713,2017-08-11
+1528674,1528674,Fix Released,Provide a migration path from ML2+OVS agents to ML2+OVN,https://bugs.launchpad.net/networking-ovn/+bug/1528674,2017-08-11
+1702292,1702292,Fix Released,Pylint doesn't work with Py3,https://bugs.launchpad.net/networking-ovn/+bug/1702292,2017-08-11
+1707215,1707215,Fix Released,gate broken due to a new neutron test,https://bugs.launchpad.net/networking-ovn/+bug/1707215,2017-08-11
+1683797,1683797,Fix Released,Journal multi threading causes neutron server to become unresponsive,https://bugs.launchpad.net/networking-odl/+bug/1683797,2017-08-11
+1693143,1693143,Fix Released,document supported extensions and features,https://bugs.launchpad.net/networking-midonet/+bug/1693143,2017-08-11
+1707465,1707465,Fix Released,default midonet-api port doesn't match the backend's default,https://bugs.launchpad.net/networking-midonet/+bug/1707465,2017-08-11
+1406333,1406333,Fix Released,"LOG messages localized, shouldn't be",https://bugs.launchpad.net/horizon/+bug/1406333,2017-08-11
+1406333,1406333,Fix Released,"LOG messages localized, shouldn't be",https://bugs.launchpad.net/neutron-vpnaas-dashboard/+bug/1406333,2017-08-11
+1705288,1705288,Fix Released,delete listener cause active_standby keepalived in fault state,https://bugs.launchpad.net/octavia/+bug/1705288,2017-08-11
+1708042,1708042,Fix Released,Specific versions of HAProxy return unexpected member status,https://bugs.launchpad.net/octavia/+bug/1708042,2017-08-11
+1706828,1706828,Fix Released,"admin_state_up == false, member still ONLINE",https://bugs.launchpad.net/octavia/+bug/1706828,2017-08-11
+1705764,1705764,Fix Released,Deleting a listener during failover causes it to go into ERROR (edge case),https://bugs.launchpad.net/octavia/+bug/1705764,2017-08-11
+1695323,1695323,Fix Released,Octavia v2 API lb create admin_state_up = False shows ONLINE op_status,https://bugs.launchpad.net/octavia/+bug/1695323,2017-08-11
+1695331,1695331,Fix Released,Octavia v2 API Requesting a VIP address is not working,https://bugs.launchpad.net/octavia/+bug/1695331,2017-08-11
+1666559,1666559,Fix Released,API v2.0 Octavia Port Creation,https://bugs.launchpad.net/octavia/+bug/1666559,2017-08-11
+1709922,1709922,Fix Released,Octavia fails to create a loadbalancer when just getting the VIP port,https://bugs.launchpad.net/octavia/+bug/1709922,2017-08-11
+1698301,1698301,Fix Released,haproxy get_stats method is not python3 compatible,https://bugs.launchpad.net/octavia/+bug/1698301,2017-08-11
+1706193,1706193,Fix Released,zaqar has no configuration reference guide,https://bugs.launchpad.net/zaqar/+bug/1706193,2017-08-11
+1707814,1707814,Fix Released,Fix bug in mongodb backend for dead letter queue,https://bugs.launchpad.net/zaqar/+bug/1707814,2017-08-11
+1707106,1707106,Fix Released,(MongoDB) Claim mesages failed because one of message is moved to DLQ,https://bugs.launchpad.net/zaqar/+bug/1707106,2017-08-11
+1665845,1665845,Fix Released,invalide mogan docs link,https://bugs.launchpad.net/mogan/+bug/1665845,2017-08-11
+1691673,1691673,Fix Committed,Fail to run a container with glance image with image uuid,https://bugs.launchpad.net/zun/+bug/1691673,2017-08-11
+1709270,1709270,Fix Released,kube-controller accesses keystone with wrong endpoint,https://bugs.launchpad.net/stackube/+bug/1709270,2017-08-11
+1514699,1514699,Fix Released,functional test regex not working,https://bugs.launchpad.net/python-barbicanclient/+bug/1514699,2017-08-11
+1709514,1709514,Fix Released,We should use default schedule zone instead of default availability zone,https://bugs.launchpad.net/mogan/+bug/1709514,2017-08-11
+1709891,1709891,Fix Released,[GCE] Delete instance on GCE fails with timeout,https://bugs.launchpad.net/omni/+bug/1709891,2017-08-11
+1692479,1692479,Fix Released,Vzstorage driver still uses remotefs.RemoteFsClient,https://bugs.launchpad.net/cinder/+bug/1692479,2017-08-11
+1695832,1695832,Fix Released,"can't upload to image with disk format ""parallels""",https://bugs.launchpad.net/cinder/+bug/1695832,2017-08-11
+1698034,1698034,Fix Released,[api-ref]Using volume transfer description in querying volume response parameters,https://bugs.launchpad.net/cinder/+bug/1698034,2017-08-11
+1701203,1701203,Fix Released,Extension manager cannot extend resource: no such resource on API start,https://bugs.launchpad.net/cinder/+bug/1701203,2017-08-11
+1705919,1705919,Fix Released,ibm_storage fails to delete replication with wrong group name,https://bugs.launchpad.net/cinder/+bug/1705919,2017-08-11
+1700741,1700741,Fix Released,Incorrect comparison of volume types with same encryption in cinder.volume.volume_types_encryption_changed(),https://bugs.launchpad.net/cinder/+bug/1700741,2017-08-11
+1691285,1691285,Fix Released,VMware: volume vmdks are always created using lsiLogic,https://bugs.launchpad.net/cinder/+bug/1691285,2017-08-11
+1676646,1676646,Fix Released,test_brick_lvm unit test issue,https://bugs.launchpad.net/cinder/+bug/1676646,2017-08-11
+1703013,1703013,Fix Released,cinder backup is_incremental flag is True even if incremental backup fails,https://bugs.launchpad.net/cinder/+bug/1703013,2017-08-11
+1706554,1706554,Fix Released,VNX driver fail back failed with Error: mirrorview command failed,https://bugs.launchpad.net/cinder/+bug/1706554,2017-08-11
+1705042,1705042,Fix Released,VMAX driver - harmonizing VMAX QOS settings to leverage Nova parameters for the hypervisor frontend,https://bugs.launchpad.net/cinder/+bug/1705042,2017-08-11
+1705407,1705407,Fix Released,Bootable volume creation failed with glance image of 'ISO' format,https://bugs.launchpad.net/cinder/+bug/1705407,2017-08-11
+1702618,1702618,Fix Released,[Api-ref] Missing snapshot statuses,https://bugs.launchpad.net/cinder/+bug/1702618,2017-08-11
+1707098,1707098,Fix Released,Use clone instead of dd for thin lv,https://bugs.launchpad.net/cinder/+bug/1707098,2017-08-11
+1675895,1675895,Fix Released,create volume throws HTTP 500 on invalid encryption specs,https://bugs.launchpad.net/cinder/+bug/1675895,2017-08-11
+1705512,1705512,Fix Released,VMAX driver - Pike Documentation,https://bugs.launchpad.net/cinder/+bug/1705512,2017-08-11
+1707989,1707989,Fix Released,test_group_type_create_list_show fails on postgres,https://bugs.launchpad.net/cinder/+bug/1707989,2017-08-11
+1708060,1708060,Fix Released,general filter break backward compatibility,https://bugs.launchpad.net/cinder/+bug/1708060,2017-08-11
+1708000,1708000,Fix Released,VMware: Config option for default adapter type,https://bugs.launchpad.net/cinder/+bug/1708000,2017-08-11
+1708001,1708001,Fix Released,VMware: Add volume adapter type extra-spec option,https://bugs.launchpad.net/cinder/+bug/1708001,2017-08-11
+1708388,1708388,Fix Released,host and cluster_name filter doesn't work for snapshot list,https://bugs.launchpad.net/cinder/+bug/1708388,2017-08-11
+1704155,1704155,Fix Released,VMAX driver - Performance issues on attaches and detaches,https://bugs.launchpad.net/cinder/+bug/1704155,2017-08-11
+1703341,1703341,Fix Released,VMAX driver - Upgrading snapshots and attached volumes not supported,https://bugs.launchpad.net/cinder/+bug/1703341,2017-08-11
+1708547,1708547,Fix Released,Infortrend driver logs password in commands,https://bugs.launchpad.net/cinder/+bug/1708547,2017-08-11
+1708329,1708329,Fix Released,Fujitsu DX Driver: Fix exception in terminate_connection with no connector,https://bugs.launchpad.net/cinder/+bug/1708329,2017-08-11
+1708431,1708431,Fix Released,VMAX driver - volume delete can fail,https://bugs.launchpad.net/cinder/+bug/1708431,2017-08-11
+1704377,1704377,Fix Released,VMAX driver - performance improvements retype,https://bugs.launchpad.net/cinder/+bug/1704377,2017-08-11
+1697661,1697661,Fix Released,VMAX driver - require connector object in a terminate_connection,https://bugs.launchpad.net/cinder/+bug/1697661,2017-08-11
+1707181,1707181,Fix Released,VMAX driver - Error attaching failed over volumes,https://bugs.launchpad.net/cinder/+bug/1707181,2017-08-11
+1708801,1708801,Fix Released,force delete option for volumes not in api docs,https://bugs.launchpad.net/cinder/+bug/1708801,2017-08-11
+1602400,1602400,Fix Released,os-quota-class-sets APIs are undocumented,https://bugs.launchpad.net/nova/+bug/1602400,2017-08-11
+1602400,1602400,Fix Released,os-quota-class-sets APIs are undocumented,https://bugs.launchpad.net/cinder/+bug/1602400,2017-08-11
+1681337,1681337,Fix Released,Cinder NetApp CDOT NFS Driver overruling Scheduler Decision when Cloning,https://bugs.launchpad.net/cinder/+bug/1681337,2017-08-11
+1688188,1688188,Fix Released,Handle auto created domain when  creating duplicate idp in federation,https://bugs.launchpad.net/keystone/+bug/1688188,2017-08-11
+1707176,1707176,Fix Released,Forget to indicate the installation of package  apache2 and libapache2-mod-wsgi,https://bugs.launchpad.net/keystone/+bug/1707176,2017-08-11
+1694460,1694460,Fix Released,Keystone docs need to be migrated from the OpenStack-manuals,https://bugs.launchpad.net/keystone/+bug/1694460,2017-08-11
+1705485,1705485,Fix Released,policy rule identity:change password is no longer needed,https://bugs.launchpad.net/keystone/+bug/1705485,2017-08-11
+1673157,1673157,Fix Released,type: local must be set in order to get domain parsed when mapping federated users,https://bugs.launchpad.net/keystone/+bug/1673157,2017-08-11
+1705081,1705081,Fix Released,DELETE project API is failing in forbidden(403) error message,https://bugs.launchpad.net/keystone/+bug/1705081,2017-08-11
+1700852,1700852,Fix Released,Slow listing projects for user with many role assignments,https://bugs.launchpad.net/keystone/+bug/1700852,2017-08-11
+1674676,1674676,Fix Released,The URL listed against the details of identity resources returns 404 Not Found error,https://bugs.launchpad.net/keystone/+bug/1674676,2017-08-11
+1705072,1705072,Fix Released,clearing default project_id from users using wrong driver implementation,https://bugs.launchpad.net/keystone/+bug/1705072,2017-08-11
+1709002,1709002,Fix Released,[GCE] Security Groups validation before creation,https://bugs.launchpad.net/omni/+bug/1709002,2017-08-11
+1706857,1706857,Fix Released,Continuous audit fails to execute once it fails,https://bugs.launchpad.net/watcher/+bug/1706857,2017-08-11
+1659243,1659243,Fix Released,Create an Actuator strategy to allow excplicit action execution,https://bugs.launchpad.net/watcher/+bug/1659243,2017-08-11

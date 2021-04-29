@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1371982,1371982,Fix Released,Examples not complete/correct in user-guides section sdk_neutron_apis,https://bugs.launchpad.net/openstack-manuals/+bug/1371982,2014-09-23
+1097364,1097364,Fix Released,Missing API documentation for QuotaClasses API extension,https://bugs.launchpad.net/openstack-api-site/+bug/1097364,2014-09-23
+1370678,1370678,Fix Released,"[identity] openstack-identity::registration recipe succeeded even though it failed to create users, tenants and roles",https://bugs.launchpad.net/openstack-chef/+bug/1370678,2014-09-23
+1368873,1368873,Fix Released,[block-storage] Add attribute for osapi_volume_workers,https://bugs.launchpad.net/openstack-chef/+bug/1368873,2014-09-23
+1365113,1365113,Fix Released,[common] Add sensitive flag for openrc file,https://bugs.launchpad.net/openstack-chef/+bug/1365113,2014-09-23
+1247245,1247245,Fix Released,Disassociate Floating IP in Instances panel also deletes IP,https://bugs.launchpad.net/horizon/+bug/1247245,2014-09-22
+1258349,1258349,Fix Released,Rebuild Instance dialog fails for nameless images,https://bugs.launchpad.net/horizon/+bug/1258349,2014-09-22
+1272136,1272136,Fix Released,Case test_get_index_sort_updated_at_desc failed sometimes,https://bugs.launchpad.net/glance/+bug/1272136,2014-09-22
+1279753,1279753,Fix Released,The race condition caused by image created_at break registry v2 api test cases,https://bugs.launchpad.net/glance/+bug/1279753,2014-09-22
+1245909,1245909,Fix Released,"when creating the thin lvm pool, its size is not calculated correctly",https://bugs.launchpad.net/cinder/+bug/1245909,2014-09-22
+1249782,1249782,Fix Released,thin lvm volume create fails,https://bugs.launchpad.net/cinder/+bug/1249782,2014-09-22
+1229759,1229759,Fix Released,Huawei driver can not attach volume to Windows OS,https://bugs.launchpad.net/cinder/+bug/1229759,2014-09-22
+1266906,1266906,Fix Released,Volume type defaults remain in Defaults tab even after volume type is removed,https://bugs.launchpad.net/cinder/+bug/1266906,2014-09-22
+1260773,1260773,Fix Released,LVM Thin pool free space calculation fails if pool not activated,https://bugs.launchpad.net/cinder/+bug/1260773,2014-09-22
+1233763,1233763,Fix Released,Deprecated: Default quota for resource: *,https://bugs.launchpad.net/cinder/+bug/1233763,2014-09-22
+1260786,1260786,Fix Released,Ensure ThinLVM LV is active when cloning from volume,https://bugs.launchpad.net/cinder/+bug/1260786,2014-09-22
+1289014,1289014,Fix Released,Hyper-V inspector does not return correct metrics for networking,https://bugs.launchpad.net/ceilometer/+bug/1289014,2014-09-22
+1284073,1284073,Fix Released,samples from notifications for autoscaled instances cannot be persisted in mongo,https://bugs.launchpad.net/ceilometer/+bug/1284073,2014-09-22
+1289015,1289015,Fix Released,Hyper-V inspector does not report the correct units for networking and disks data,https://bugs.launchpad.net/ceilometer/+bug/1289015,2014-09-22
+1091333,1091333,Fix Released,docutils 0.10 incompatible with sphinx 1.1.3,https://bugs.launchpad.net/horizon/+bug/1091333,2014-09-22
+1091333,1091333,Fix Released,docutils 0.10 incompatible with sphinx 1.1.3,https://bugs.launchpad.net/openstack-ci/+bug/1091333,2014-09-22
+1091333,1091333,Fix Released,docutils 0.10 incompatible with sphinx 1.1.3,https://bugs.launchpad.net/ceilometer/+bug/1091333,2014-09-22
+1265032,1265032,Fix Released,"Floating IPs configured via Neutron, viewed via Nova, so floating IP info is out of date",https://bugs.launchpad.net/horizon/+bug/1265032,2014-09-22
+1265872,1265872,Fix Released,Disassociate Floating IP from an instance with 2 NICs doesn't work,https://bugs.launchpad.net/horizon/+bug/1265872,2014-09-22
+1289033,1289033,Fix Released,[OSSA-2014-010] XSS in Horizon-Orchestration (CVE-2014-0157),https://bugs.launchpad.net/horizon/+bug/1289033,2014-09-22
+1289033,1289033,Fix Released,[OSSA-2014-010] XSS in Horizon-Orchestration (CVE-2014-0157),https://bugs.launchpad.net/ossa/+bug/1289033,2014-09-22
+1256259,1256259,Fix Released,rbd driver should check for watchers before delete,https://bugs.launchpad.net/cinder/+bug/1256259,2014-09-22
+1252423,1252423,Fix Released,Ensure ThinLVM LV is active when cloning or creating from snapshot,https://bugs.launchpad.net/cinder/+bug/1252423,2014-09-22
+1276409,1276409,Fix Released,Fix error message typo in PLUMgrid Plugin,https://bugs.launchpad.net/neutron/+bug/1276409,2014-09-22
+1228827,1228827,Fix Released,add request timeout handling for Mellanox Neutron Agent,https://bugs.launchpad.net/neutron/+bug/1228827,2014-09-22
+1302467,1302467,Fix Released,Logging on list operations slows down operation by about 500%,https://bugs.launchpad.net/neutron/+bug/1302467,2014-09-22
+1257815,1257815,Fix Released,Internal server error while deleting subnet(can not find the rows  in ipavailabilityranges  table),https://bugs.launchpad.net/neutron/+bug/1257815,2014-09-22
+1252506,1252506,Fix Released,"_recycle_ip slow, multiple port deletes begin timing out",https://bugs.launchpad.net/neutron/+bug/1252506,2014-09-22
+1269501,1269501,Fix Released,"With removal of explicit _recycle_ip, the method should be removed from db_base_plugin_v2.py",https://bugs.launchpad.net/neutron/+bug/1269501,2014-09-22
+1283522,1283522,Fix Released,DB lock timeout errors with parallel operations,https://bugs.launchpad.net/neutron/+bug/1283522,2014-09-22
+1288379,1288379,Fix Released,db Deadlock detected when running 'delete_port,https://bugs.launchpad.net/neutron/+bug/1288379,2014-09-22
+1243867,1243867,Fix Released,Polling minimization lacks the option to configure a respawn interval,https://bugs.launchpad.net/neutron/+bug/1243867,2014-09-22
+1293083,1293083,Fix Released,"report_interval too frequent; Causing load on service, failing high CPU usage operations",https://bugs.launchpad.net/neutron/+bug/1293083,2014-09-22
+1292114,1292114,Fix Released,cisco plugin missing from few migration files causing missing db tables,https://bugs.launchpad.net/neutron/+bug/1292114,2014-09-22
+1284277,1284277,Fix Released,nsx: deal with 503 errors coming from the controller,https://bugs.launchpad.net/neutron/+bug/1284277,2014-09-22
+1288079,1288079,Fix Released,test_lb_neutron_agent leaves a loopingcall which can affect unrelated tests,https://bugs.launchpad.net/neutron/+bug/1288079,2014-09-22
+1241969,1241969,Fix Released,test_nvp_sync.SyncLoopingCallTestCase unreliable,https://bugs.launchpad.net/neutron/+bug/1241969,2014-09-22
+1269040,1269040,Fix Released,Dependency on pyudev is unnecessary,https://bugs.launchpad.net/neutron/+bug/1269040,2014-09-22
+1244481,1244481,Fix Released,NVP Plugin router port's mac don't match neturon's,https://bugs.launchpad.net/neutron/+bug/1244481,2014-09-22
+1260262,1260262,Fix Released,ml2 gre/vxlan type driver can lose segment_id allocation,https://bugs.launchpad.net/neutron/+bug/1260262,2014-09-22
+1252856,1252856,Fix Released,destroy_metadata_proxy not called from _destroy_router_namespaces,https://bugs.launchpad.net/neutron/+bug/1252856,2014-09-22
+1289007,1289007,Fix Released,Hyper-V agent does not count metrics for individual ports,https://bugs.launchpad.net/neutron/+bug/1289007,2014-09-22
+1282662,1282662,Fix Released,l2-population with linuxbridge  : recreating a VM with the same ip fails,https://bugs.launchpad.net/neutron/+bug/1282662,2014-09-22
+1282141,1282141,Fix Released,l2-population : update_port --admin_state_up False  doesn't remove flooding entries,https://bugs.launchpad.net/neutron/+bug/1282141,2014-09-22
+1175695,1175695,Fix Released,L3 agent restart causes network outage,https://bugs.launchpad.net/neutron/+bug/1175695,2014-09-22
+1250596,1250596,Fix Released,L3 and DHCP agents need an option to delete namespaces,https://bugs.launchpad.net/neutron/+bug/1250596,2014-09-22
+1273259,1273259,Fix Released,Unit test failure: delete_port() got an unexpected keyword argument 'l3_port_check',https://bugs.launchpad.net/neutron/+bug/1273259,2014-09-22
+1251422,1251422,Fix Released,deleting security-group fails when neutron and nvp are out of sync,https://bugs.launchpad.net/neutron/+bug/1251422,2014-09-22
+1210121,1210121,Fix Released,Havana staging:ERROR neutron.common.legacy [-] Skipping unknown group key: firewall_driver,https://bugs.launchpad.net/neutron/+bug/1210121,2014-09-22
+1283765,1283765,Fix Released,ovs plugin changes port it shouldn't change,https://bugs.launchpad.net/neutron/+bug/1283765,2014-09-22
+1257514,1257514,Fix Released,pool.waitall needed in dhcp-agent sync_state,https://bugs.launchpad.net/neutron/+bug/1257514,2014-09-22
+1244757,1244757,Fix Released,"DBDuplicateEntry: (IntegrityError) duplicate key value violates unique constraint ""networkdhcpagentbindings_pkey""",https://bugs.launchpad.net/neutron/+bug/1244757,2014-09-22
+1234750,1234750,Fix Released,multiple external networks,https://bugs.launchpad.net/neutron/+bug/1234750,2014-09-22
+1252712,1252712,Fix Released,Hyper-V agent fails when enabling Ceilometer metrics collection,https://bugs.launchpad.net/neutron/+bug/1252712,2014-09-22
+1236783,1236783,Fix Released,Using external routers and dhcp metadata together is difficult,https://bugs.launchpad.net/neutron/+bug/1236783,2014-09-22
+1259482,1259482,Fix Released,"When multiple dhcp agents per network, each agent doesn't provide all agent ips for nameserver",https://bugs.launchpad.net/neutron/+bug/1259482,2014-09-22
+1250644,1250644,Fix Released,dhcp_release not called causing new VMs to fail DHCP,https://bugs.launchpad.net/neutron/+bug/1250644,2014-09-22
+1246080,1246080,Fix Released,Cisco nexus plugin fails to untrunk vlan if other hosts using vlan,https://bugs.launchpad.net/neutron/+bug/1246080,2014-09-22
+1177973,1177973,Fix Released,OVS L2 agent polling is too cpu intensive,https://bugs.launchpad.net/neutron/+bug/1177973,2014-09-22
+1240849,1240849,Fix Released,Cannot ssh into an instance after reboot,https://bugs.launchpad.net/neutron/+bug/1240849,2014-09-22
+1252982,1252982,Fix Released,MetaInterfaceDriver uses auth_region instead of region_name to call neutron client,https://bugs.launchpad.net/neutron/+bug/1252982,2014-09-22
+1302106,1302106,Fix Released,LDAP non-URL safe characters cause auth failure,https://bugs.launchpad.net/keystone/+bug/1302106,2014-09-22
+1300274,1300274,Fix Released,[0SSA 2014-013] V3 Authentication Chaining - uniqueness of auth method names (CVE-2014-2828),https://bugs.launchpad.net/ossa/+bug/1300274,2014-09-22
+1300274,1300274,Fix Released,[0SSA 2014-013] V3 Authentication Chaining - uniqueness of auth method names (CVE-2014-2828),https://bugs.launchpad.net/keystone/+bug/1300274,2014-09-22
+1247427,1247427,Fix Released,VMware: vmrescue broken when config drive is used,https://bugs.launchpad.net/nova/+bug/1247427,2014-09-22
+1218593,1218593,Fix Released,virt drivers should raise NotImplementedError instead of pass for plug_vifs,https://bugs.launchpad.net/nova/+bug/1218593,2014-09-22
+1272286,1272286,Fix Released,VMware driver: Nova compute fails to start when multiple nova compute services are running per vCenter.,https://bugs.launchpad.net/nova/+bug/1272286,2014-09-22
+1285158,1285158,Fix Released,deallocating network not updating database,https://bugs.launchpad.net/nova/+bug/1285158,2014-09-22
+1294346,1294346,Fix Released,"When creating Neutron Security Group Rules with a Protocol other than TCP/UDP/ICMP, breaks nova secgroup-* calls",https://bugs.launchpad.net/nova/+bug/1294346,2014-09-22
+1257594,1257594,Fix Released,Unshelving an instance uses original image not shelved image,https://bugs.launchpad.net/nova/+bug/1257594,2014-09-22

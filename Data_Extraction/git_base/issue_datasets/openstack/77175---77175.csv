@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1257169,1257169,Fix Released,openstack-image api recipe should be run before openstack-image registry recipe,https://bugs.launchpad.net/openstack-chef/+bug/1257169,2014-07-28
+1257741,1257741,Fix Released,bug in qpid rpc backend for openstack-block-storage,https://bugs.launchpad.net/openstack-chef/+bug/1257741,2014-07-28
+1258569,1258569,Fix Released,rpc_backend for qpid in openstack-network is incorrect,https://bugs.launchpad.net/openstack-chef/+bug/1258569,2014-07-28
+1259038,1259038,Fix Released,[network] control_exchange is set to quantum. Should be configurable,https://bugs.launchpad.net/openstack-chef/+bug/1259038,2014-07-28
+1266495,1266495,Fix Released,cookbook-openstack-network fails to add quantum-ovs-cleanup to startup in stable/grizzly,https://bugs.launchpad.net/openstack-chef/+bug/1266495,2014-07-28
+1344199,1344199,Fix Released,Could not find platform 'suse/11.03' in any of the sources!,https://bugs.launchpad.net/openstack-chef/+bug/1344199,2014-07-28
+1342002,1342002,Fix Released,Move keystone_authtoken configuration from api-paste.ini to nova.conf,https://bugs.launchpad.net/openstack-chef/+bug/1342002,2014-07-28
+1338928,1338928,Fix Released,[network] neutron-server failed to connect to rabbitmq with enabling SSL,https://bugs.launchpad.net/openstack-chef/+bug/1338928,2014-07-28
+1338719,1338719,Fix Released,[compute] Allow metadata_listen and port be configurable,https://bugs.launchpad.net/openstack-chef/+bug/1338719,2014-07-28
+1336613,1336613,Fix Released,Allow router_delete_namespaces and dhcp_delete_namespaces to be overridden,https://bugs.launchpad.net/openstack-chef/+bug/1336613,2014-07-28
+1336231,1336231,Fix Released,trove-conductor fails to connect to rabbitmq,https://bugs.launchpad.net/openstack-chef/+bug/1336231,2014-07-28
+1334754,1334754,Fix Released,Allow scheduler_available_filters and compute_manager overrides,https://bugs.launchpad.net/openstack-chef/+bug/1334754,2014-07-28
+1330484,1330484,Fix Released,"[network, common]: usage of common/libraries/cli functions presuppose keystone client being installed",https://bugs.launchpad.net/openstack-chef/+bug/1330484,2014-07-28
+1330319,1330319,Fix Released,region_name_for_services is not allowed to override in the /etc/heat/heat.conf,https://bugs.launchpad.net/openstack-chef/+bug/1330319,2014-07-28
+1329035,1329035,Fix Released,[Compute] nova.conf missing flat_injected and use_ipv6,https://bugs.launchpad.net/openstack-chef/+bug/1329035,2014-07-28
+1328959,1328959,Fix Released,Can not configure the inject_partition in nova.conf,https://bugs.launchpad.net/openstack-chef/+bug/1328959,2014-07-28
+1328956,1328956,Fix Released,[Compute] state and  lock paths are not created,https://bugs.launchpad.net/openstack-chef/+bug/1328956,2014-07-28
+1328522,1328522,Fix Released,lack of resize_confirm_windows attribute in nova.conf.erb,https://bugs.launchpad.net/openstack-chef/+bug/1328522,2014-07-28
+1327249,1327249,Fix Released,[image] image upload silently fails for unknown type,https://bugs.launchpad.net/openstack-chef/+bug/1327249,2014-07-28
+1327130,1327130,Fix Released,openstack-keystone no longer contains keystone-paste.ini,https://bugs.launchpad.net/openstack-chef/+bug/1327130,2014-07-28
+1327031,1327031,Fix Released,dnsmasq_config_file attribute could not be overrided in the current nova.conf template,https://bugs.launchpad.net/openstack-chef/+bug/1327031,2014-07-28
+1327029,1327029,Fix Released,neutron server service was not started immediately after installed,https://bugs.launchpad.net/openstack-chef/+bug/1327029,2014-07-28
+1326248,1326248,Fix Released,Invalid availability zone settings in nova.conf,https://bugs.launchpad.net/openstack-chef/+bug/1326248,2014-07-28
+1324821,1324821,Fix Released,libvirtError Permission denied,https://bugs.launchpad.net/openstack-chef/+bug/1324821,2014-07-28
+1324187,1324187,Fix Released,telemetry still has dup'd policy file,https://bugs.launchpad.net/openstack-chef/+bug/1324187,2014-07-28
+1323833,1323833,Fix Released,[orchestration] signing_dir not set in heat.conf,https://bugs.launchpad.net/openstack-chef/+bug/1323833,2014-07-28
+1323733,1323733,Fix Released,[telemetry] needs db connection options,https://bugs.launchpad.net/openstack-chef/+bug/1323733,2014-07-28
+1322146,1322146,Fix Released,Add TLS options for [ldap] to keystone.conf,https://bugs.launchpad.net/openstack-chef/+bug/1322146,2014-07-28
+1321390,1321390,Fix Released,[dashboard] LOGIN_REDIRECT_URL = WEBROOT+'/admin' on rhel,https://bugs.launchpad.net/openstack-chef/+bug/1321390,2014-07-28
+1321336,1321336,Fix Released,[Block-Storage] LVMISCSIDriver does not support local disk with lvm,https://bugs.launchpad.net/openstack-chef/+bug/1321336,2014-07-28
+1321010,1321010,Fix Released,Need misc support for neutron.conf,https://bugs.launchpad.net/openstack-chef/+bug/1321010,2014-07-28
+1320647,1320647,Fix Released,[block-storage] storwize_svc_vol_rsize default is wrong,https://bugs.launchpad.net/openstack-chef/+bug/1320647,2014-07-28
+1320372,1320372,Fix Released,cookbook openstack-block-storage sets extra attributes for gpfs driver,https://bugs.launchpad.net/openstack-chef/+bug/1320372,2014-07-28
+1320274,1320274,Fix Released,Allow Keystone backend to be defined in Dashboard's local_settings.py,https://bugs.launchpad.net/openstack-chef/+bug/1320274,2014-07-28
+1320033,1320033,Fix Released,openstack-object-storage run_command exit code retrieval fails,https://bugs.launchpad.net/openstack-chef/+bug/1320033,2014-07-28
+1320011,1320011,Fix Released,[network] plugin.ini symlink not updated if main plugin changes,https://bugs.launchpad.net/openstack-chef/+bug/1320011,2014-07-28
+1319286,1319286,Fix Released,databag item id is not correct in openstack-image cookbook,https://bugs.launchpad.net/openstack-chef/+bug/1319286,2014-07-28
+1319280,1319280,Fix Released,[network] switch to using auth_url instead of auth_host et al,https://bugs.launchpad.net/openstack-chef/+bug/1319280,2014-07-28
+1318992,1318992,Fix Released,Configurable Keystone assignment driver,https://bugs.launchpad.net/openstack-chef/+bug/1318992,2014-07-28
+1318790,1318790,Fix Released,dhcp default wrong for ovs_use_veth in IceHouse,https://bugs.launchpad.net/openstack-chef/+bug/1318790,2014-07-28
+1317564,1317564,Fix Released,[compute] compute driver settings missing,https://bugs.launchpad.net/openstack-chef/+bug/1317564,2014-07-28
+1317247,1317247,Fix Released,[Compute]No way to configure compute worker values,https://bugs.launchpad.net/openstack-chef/+bug/1317247,2014-07-28
+1314105,1314105,Fix Released,Can we have attribute like misc_nova in cinder?,https://bugs.launchpad.net/openstack-chef/+bug/1314105,2014-07-28
+1305318,1305318,Fix Released,[compute] api recipes install full keystone service,https://bugs.launchpad.net/openstack-chef/+bug/1305318,2014-07-28
+1304421,1304421,Fix Released,[common] Revert ceph.client.keyring.erb template,https://bugs.launchpad.net/openstack-chef/+bug/1304421,2014-07-28
+1302227,1302227,Fix Released,[network] nova interactions requires admin uuid,https://bugs.launchpad.net/openstack-chef/+bug/1302227,2014-07-28
+1273504,1273504,Fix Released,[block-storage] Update README to reference available drivers,https://bugs.launchpad.net/openstack-chef/+bug/1273504,2014-07-28
+1271353,1271353,Fix Released,[compute] bad default for ['openstack']['compute']['network']['neutron']['libvirt_vif_driver'],https://bugs.launchpad.net/openstack-chef/+bug/1271353,2014-07-28
+1312952,1312952,Fix Released,[compute] compute cookbook is locked to selinux 0.7.x,https://bugs.launchpad.net/openstack-chef/+bug/1312952,2014-07-28
+1295050,1295050,Fix Released,"lack ""capabilities:"" prefix when set volume_backend_name in test_multi_backend",https://bugs.launchpad.net/tempest/+bug/1295050,2014-07-28
+1318011,1318011,Fix Released,[image] Add/check template tests,https://bugs.launchpad.net/openstack-chef/+bug/1318011,2014-07-28
+1312172,1312172,Fix Released,[dashboard] Add/check template tests,https://bugs.launchpad.net/openstack-chef/+bug/1312172,2014-07-28
+1304412,1304412,Fix Released,[block-storage] Add/check template tests,https://bugs.launchpad.net/openstack-chef/+bug/1304412,2014-07-28
+1313828,1313828,Fix Released,keystone-paste.ini contains deprecated entries,https://bugs.launchpad.net/openstack-chef/+bug/1313828,2014-07-28
+1313578,1313578,Fix Released,Add network_allocate_retries parameter to nova.conf,https://bugs.launchpad.net/openstack-chef/+bug/1313578,2014-07-28
+1307678,1307678,Fix Released,[network] build_openvswitch_source_spec spec fails on windows,https://bugs.launchpad.net/openstack-chef/+bug/1307678,2014-07-28
+1304070,1304070,Fix Released,[dashboard] openstack keystone default role wrong default,https://bugs.launchpad.net/openstack-chef/+bug/1304070,2014-07-28
+1302164,1302164,Fix Released,[network] common rpc_ options missing,https://bugs.launchpad.net/openstack-chef/+bug/1302164,2014-07-28
+1300774,1300774,Fix Released,[common] Add template tests to cookbook,https://bugs.launchpad.net/openstack-chef/+bug/1300774,2014-07-28
+1300468,1300468,Fix Released,"[object-storage] is laying down package repository data, instead of using openstack-common",https://bugs.launchpad.net/openstack-chef/+bug/1300468,2014-07-28
+1299125,1299125,Fix Released,[ops-messaging] Stop carrying rabbitmq chefspec custom matchers,https://bugs.launchpad.net/openstack-chef/+bug/1299125,2014-07-28
+1318822,1318822,Fix Released,Need misc support for keystone.conf,https://bugs.launchpad.net/openstack-chef/+bug/1318822,2014-07-28
+1316452,1316452,Fix Released,"lack of ""os_region_name"" in nova.conf template",https://bugs.launchpad.net/openstack-chef/+bug/1316452,2014-07-28
+1313827,1313827,Fix Released,keystone-paste.ini contains deprecated entries,https://bugs.launchpad.net/openstack-chef/+bug/1313827,2014-07-28
+1313690,1313690,Fix Released,"action “create_endpoint"" defined in openstack-identity can't support multi region scenario",https://bugs.launchpad.net/openstack-chef/+bug/1313690,2014-07-28
+1312927,1312927,Fix Released,PKI should be the default token format,https://bugs.launchpad.net/openstack-chef/+bug/1312927,2014-07-28
+1312324,1312324,Fix Released,Need an all-in-one role for all the telemetry individual roles,https://bugs.launchpad.net/openstack-chef/+bug/1312324,2014-07-28
+1311200,1311200,Fix Released,StorewizeSVC cinder driver changed name,https://bugs.launchpad.net/openstack-chef/+bug/1311200,2014-07-28
+1310747,1310747,Fix Released,Can't configure rpc_backend on keystone,https://bugs.launchpad.net/openstack-chef/+bug/1310747,2014-07-28
+1306703,1306703,Fix Released,[orchestration] no attribute for notification_driver,https://bugs.launchpad.net/openstack-chef/+bug/1306703,2014-07-28
+1305120,1305120,Fix Released,"[compute] if images_type is lvm, there's no way to set libvirt_lvm_snapshot_size",https://bugs.launchpad.net/openstack-chef/+bug/1305120,2014-07-28
+1303784,1303784,Fix Released,notifier_strategy deprecated,https://bugs.launchpad.net/openstack-chef/+bug/1303784,2014-07-28
+1303777,1303777,Fix Released,ceilometer services do not subscribe to changes in their config,https://bugs.launchpad.net/openstack-chef/+bug/1303777,2014-07-28
+1301594,1301594,Fix Released,[telemetry] no package options,https://bugs.launchpad.net/openstack-chef/+bug/1301594,2014-07-28
+1300964,1300964,Fix Released,[network] namespace not a load balance option,https://bugs.launchpad.net/openstack-chef/+bug/1300964,2014-07-28

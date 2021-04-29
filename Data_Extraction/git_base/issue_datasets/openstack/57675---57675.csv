@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1487320,1487320,Fix Released,bad except clauses order in emc_vmax driver,https://bugs.launchpad.net/cinder/+bug/1487320,2015-10-15
+1486566,1486566,Fix Released,Incorrect AssertEquals parameter order in Quobyte unit tests,https://bugs.launchpad.net/cinder/+bug/1486566,2015-10-15
+1486315,1486315,Fix Released,ScaleIO driver should use os-brick connector,https://bugs.launchpad.net/cinder/+bug/1486315,2015-10-15
+1485550,1485550,Fix Released,VMware: Unclutter vCenter inventory,https://bugs.launchpad.net/cinder/+bug/1485550,2015-10-15
+1484533,1484533,Fix Released,cinder-all raises exceptions on unregistered volumes,https://bugs.launchpad.net/cinder/+bug/1484533,2015-10-15
+1481182,1481182,Fix Released,Wrong limit in volume quota exceeded exception message,https://bugs.launchpad.net/cinder/+bug/1481182,2015-10-15
+1479693,1479693,Fix Released,VMware: Driver reports wrong protocol,https://bugs.launchpad.net/cinder/+bug/1479693,2015-10-15
+1477535,1477535,Fix Released,LOG.warning should use _LW instead of _LI,https://bugs.launchpad.net/cinder/+bug/1477535,2015-10-15
+1469678,1469678,Fix Released,cannot get snapshot detail,https://bugs.launchpad.net/cinder/+bug/1469678,2015-10-15
+1466351,1466351,Fix Released,Validate request parameters against max string and integer limit and return 400 error instead of 500,https://bugs.launchpad.net/cinder/+bug/1466351,2015-10-15
+1458844,1458844,Fix Released,Remove unused context parameter from cinder methods,https://bugs.launchpad.net/cinder/+bug/1458844,2015-10-15
+1457274,1457274,Fix Released,Provide an alternative way to create volume from snapshot or volume in VNX Cinder driver,https://bugs.launchpad.net/cinder/+bug/1457274,2015-10-15
+1431374,1431374,Fix Released,Migration #33 doesn't work well with SQLite,https://bugs.launchpad.net/cinder/+bug/1431374,2015-10-15
+1304234,1304234,Fix Released,Quotas should not be updated to a value lower than current usage,https://bugs.launchpad.net/cinder/+bug/1304234,2015-10-15
+1491206,1491206,Fix Released,cloudbyte driver create_cloned_volume doesn't use src_vref for id,https://bugs.launchpad.net/cinder/+bug/1491206,2015-10-15
+1488916,1488916,Fix Released,VMware: driver initialization fails if we set optional parameter 'vmware_cluster_name',https://bugs.launchpad.net/cinder/+bug/1488916,2015-10-15
+1484774,1484774,Fix Released,Handle missing temp volume and snapshot during backup cleanup,https://bugs.launchpad.net/cinder/+bug/1484774,2015-10-15
+1484194,1484194,Fix Released,Cinder shouldn't fail a detach call for a volume that's not attached,https://bugs.launchpad.net/cinder/+bug/1484194,2015-10-15
+1483165,1483165,Fix Released,The performance of volume index is low,https://bugs.launchpad.net/cinder/+bug/1483165,2015-10-15
+1478651,1478651,Fix Released,Get default quota value of a subproject is not ignoring default_quota_class conf,https://bugs.launchpad.net/cinder/+bug/1478651,2015-10-15
+1477625,1477625,Fix Released,DB access to show volumes may not be properly controlled,https://bugs.launchpad.net/cinder/+bug/1477625,2015-10-15
+1472037,1472037,Fix Released,"missing ""volume:delete_volume_metadata"" and ""volume:update_volume_metadata"" in policy.json",https://bugs.launchpad.net/cinder/+bug/1472037,2015-10-15
+1472003,1472003,Fix Released,delete_snapshot and update_snapshot missing policy rules,https://bugs.launchpad.net/cinder/+bug/1472003,2015-10-15
+1471995,1471995,Fix Released,services.py index() missing action=index for authorization,https://bugs.launchpad.net/cinder/+bug/1471995,2015-10-15
+1470558,1470558,Fix Released,LVM driver: volume with snaps can't be extended,https://bugs.launchpad.net/cinder/+bug/1470558,2015-10-15
+1458126,1458126,Fix Released,Pure Storage driver needs to return snapshot objects for create_cgsnapshot and delete_cgsnapshot,https://bugs.launchpad.net/cinder/+bug/1458126,2015-10-15
+1426440,1426440,Fix Released,Sheepdog driver doesn't implement backup_volume and restore_backup,https://bugs.launchpad.net/cinder/+bug/1426440,2015-10-15
+1491538,1491538,Fix Released,Can't use efficient volume copy for generic volume migration,https://bugs.launchpad.net/cinder/+bug/1491538,2015-10-15
+1489337,1489337,Fix Released,Migration: critical issue=>migrated available volumes unable to migrate due to naming inconsistency between back-end name and export name,https://bugs.launchpad.net/cinder/+bug/1489337,2015-10-15
+1487616,1487616,Fix Released,SMI-S v8.0.3 support changes overwritten. Cannot delete volume,https://bugs.launchpad.net/cinder/+bug/1487616,2015-10-15
+1486267,1486267,Fix Released,LeftHand driver is ignoring reserved percentage,https://bugs.launchpad.net/cinder/+bug/1486267,2015-10-15
+1485198,1485198,Fix Released,Cannot boot if bdm specifies to create a new volume from an image or a snapshot,https://bugs.launchpad.net/cinder/+bug/1485198,2015-10-15
+1482733,1482733,Fix Released,Driver needs additional parameters in create_consistencygroup_from_src,https://bugs.launchpad.net/cinder/+bug/1482733,2015-10-15
+1480734,1480734,Fix Released,incorrect status comparison when doing non-disruptive volume backup for attached  volume,https://bugs.launchpad.net/cinder/+bug/1480734,2015-10-15
+1478987,1478987,Fix Released,AttributeError: 'NfsDriver' object has no attribute 'retype',https://bugs.launchpad.net/cinder/+bug/1478987,2015-10-15
+1477706,1477706,Fix Released,RBD driver ignores user-configured max-clone-depth,https://bugs.launchpad.net/cinder/+bug/1477706,2015-10-15
+1476416,1476416,Fix Released,backup.api:import_record sets volume_id to '0000-0000-0000-0000',https://bugs.launchpad.net/cinder/+bug/1476416,2015-10-15
+1475422,1475422,Fix Released,Non-admin users can get volumes in non-authorized tenants,https://bugs.launchpad.net/cinder/+bug/1475422,2015-10-15
+1472486,1472486,Fix Released,LVM: thin volume created from a thin snapshot is no longer thin,https://bugs.launchpad.net/cinder/+bug/1472486,2015-10-15
+1471807,1471807,Fix Released,Driver object has no attribute 'update_migrated_volume',https://bugs.launchpad.net/cinder/+bug/1471807,2015-10-15
+1468445,1468445,Fix Released,RemoteFS offline snapshot delete commits wrong disk,https://bugs.launchpad.net/cinder/+bug/1468445,2015-10-15
+1490668,1490668,Fix Released,cinder test-requirements does not include pyopenssl,https://bugs.launchpad.net/cinder/+bug/1490668,2015-10-15
+1478599,1478599,Fix Released,backup service startup fails when backup's original volume has been deleted,https://bugs.launchpad.net/cinder/+bug/1478599,2015-10-15
+1478236,1478236,Fix Released,typos(?) in create_snapshots_in_db,https://bugs.launchpad.net/cinder/+bug/1478236,2015-10-15
+1477780,1477780,Fix Released,Pure drivers retyping to same backend requires migrate,https://bugs.launchpad.net/cinder/+bug/1477780,2015-10-15
+1476797,1476797,Fix Released,Del SC: init conn fails if called with a connected vol,https://bugs.launchpad.net/cinder/+bug/1476797,2015-10-15
+1476794,1476794,Fix Released,Dell SC: Cinder driver fails on Dell API 2.2 or later.,https://bugs.launchpad.net/cinder/+bug/1476794,2015-10-15
+1476786,1476786,Fix Released,Dell SC: Cinder driver fails is ports in legacy mode,https://bugs.launchpad.net/cinder/+bug/1476786,2015-10-15
+1475016,1475016,Fix Released,Dell SC: Fail to create volume from cgsnapshot,https://bugs.launchpad.net/cinder/+bug/1475016,2015-10-15
+1474748,1474748,Fix Released,Cinder exception is thrown instead of HTTP exception if backup doesn't exist while resetting backup status,https://bugs.launchpad.net/cinder/+bug/1474748,2015-10-15
+1474596,1474596,Fix Released,Cinder volume usage notifications should include volume attachment,https://bugs.launchpad.net/cinder/+bug/1474596,2015-10-15
+1474130,1474130,Fix Released,assert_error_propagates in test_pure.py removes mock objects side_effect values,https://bugs.launchpad.net/cinder/+bug/1474130,2015-10-15
+1474105,1474105,Fix Released,Dell SC: Not adding vol to consis group on create,https://bugs.launchpad.net/cinder/+bug/1474105,2015-10-15
+1474062,1474062,Fix Released,Dell SC: ConsisGroup snapshots fail on uninitialized volumes,https://bugs.launchpad.net/cinder/+bug/1474062,2015-10-15
+1472710,1472710,Fix Released,Pure driver sometimes fails to terminate connection to host,https://bugs.launchpad.net/cinder/+bug/1472710,2015-10-15
+1472412,1472412,Fix Released,cinder should not fail to delete a volume already deleted on zfssa,https://bugs.launchpad.net/cinder/+bug/1472412,2015-10-15
+1472088,1472088,Fix Released,backup-restore fails between ceph and other storage,https://bugs.launchpad.net/cinder/+bug/1472088,2015-10-15
+1471749,1471749,Fix Released,Change IBM cinder configuration storwize_svc_npiv_compatibility_mode default value to True,https://bugs.launchpad.net/cinder/+bug/1471749,2015-10-15
+1471694,1471694,Fix Released,HTTPNotFound is raised when creating a volume from an existing source replica with invalid replication status,https://bugs.launchpad.net/cinder/+bug/1471694,2015-10-15
+1470112,1470112,Fix Released,HBSD horcm driver crashes with oslo.concurrency 2.1.0,https://bugs.launchpad.net/cinder/+bug/1470112,2015-10-15
+1470041,1470041,Fix Released,The operation state of volume is out of date in EMC VNX Cinder driver,https://bugs.launchpad.net/cinder/+bug/1470041,2015-10-15
+1470003,1470003,Fix Released,Support white list in initialize_connection,https://bugs.launchpad.net/cinder/+bug/1470003,2015-10-15
+1469983,1469983,Fix Released,Cannot get wwpn information on infortrend driver,https://bugs.launchpad.net/cinder/+bug/1469983,2015-10-15
+1469575,1469575,Fix Released,Guru Meditation Reports need switched to oslo.reports,https://bugs.launchpad.net/cinder/+bug/1469575,2015-10-15
+1469523,1469523,Fix Released,Incorrect error message in Pure cinder driver,https://bugs.launchpad.net/cinder/+bug/1469523,2015-10-15
+1468955,1468955,Fix Released,"generated configs file has duplicate entries, and missing lib configs",https://bugs.launchpad.net/cinder/+bug/1468955,2015-10-15
+1468955,1468955,Fix Released,"generated configs file has duplicate entries, and missing lib configs",https://bugs.launchpad.net/heat/+bug/1468955,2015-10-15
+1468955,1468955,Fix Released,"generated configs file has duplicate entries, and missing lib configs",https://bugs.launchpad.net/sahara/+bug/1468955,2015-10-15
+1468884,1468884,Fix Released,NetApp 7mode DOT API error when cleaning image cache,https://bugs.launchpad.net/cinder/+bug/1468884,2015-10-15
+1468751,1468751,Fix Released,HTTP 500 after encryption-type-delete,https://bugs.launchpad.net/cinder/+bug/1468751,2015-10-15
+1468559,1468559,Fix Released,Cinder api not starting up,https://bugs.launchpad.net/cinder/+bug/1468559,2015-10-15
+1468401,1468401,Fix Released,cinder-manage volume delete cmd is broken,https://bugs.launchpad.net/cinder/+bug/1468401,2015-10-15
+1468203,1468203,Fix Released,"Storwize: missing stop ""."" in many log or exception messages",https://bugs.launchpad.net/cinder/+bug/1468203,2015-10-15
+1467808,1467808,Fix Released,public volume type can be added/removed project access,https://bugs.launchpad.net/cinder/+bug/1467808,2015-10-15
+1466802,1466802,Fix Released,Docstrings quotes not following PEP 0257,https://bugs.launchpad.net/cinder/+bug/1466802,2015-10-15

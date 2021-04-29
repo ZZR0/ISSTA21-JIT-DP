@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1753384,1753384,Fix Released,"The old QoS policy ID is returned when updating the QoS policy ID, when the revision plugin is enabled",https://bugs.launchpad.net/neutron/+bug/1753384,2018-04-19
+1731857,1731857,Fix Released,DVR scenario tests fail in default deployment,https://bugs.launchpad.net/neutron/+bug/1731857,2018-04-19
+1759345,1759345,Fix Released,-with-oslo-master job fails with DuplicateOptError: duplicate option: polling_interval,https://bugs.launchpad.net/neutron/+bug/1759345,2018-04-19
+1763329,1763329,Fix Released,Race condition in privileged._run_iproute_xxx() functions,https://bugs.launchpad.net/neutron/+bug/1763329,2018-04-19
+1644517,1644517,Fix Released,[neutron-vpnaas] libreswan driver requires root,https://bugs.launchpad.net/neutron/+bug/1644517,2018-04-19
+1747654,1747654,Fix Released,VPNaaS: enable sha384/sha512 auth algorithms for  *Swan drivers,https://bugs.launchpad.net/neutron/+bug/1747654,2018-04-19
+1692130,1692130,Fix Released,VPNaaS - add IPv6 scenario test,https://bugs.launchpad.net/neutron/+bug/1692130,2018-04-19
+1622694,1622694,Fix Released,[FWaaS] Unit test race condition in creating/updating firewall,https://bugs.launchpad.net/neutron/+bug/1622694,2018-04-19
+1750562,1750562,Fix Released,Dynamic routing: Docs for speaker scheduling are incorrect,https://bugs.launchpad.net/neutron/+bug/1750562,2018-04-19
+1738983,1738983,Fix Released,Dynamic routing: invalid exception inputs leads to test exceptions,https://bugs.launchpad.net/neutron/+bug/1738983,2018-04-19
+1745103,1745103,Fix Released,Name is error when finding revision_number in CheckRevisionNumber,https://bugs.launchpad.net/networking-ovn/+bug/1745103,2018-04-19
+1741187,1741187,Fix Released,v2 job definitions can be removed in master,https://bugs.launchpad.net/networking-midonet/+bug/1741187,2018-04-19
+1759454,1759454,Fix Released,multinode job is failing,https://bugs.launchpad.net/networking-midonet/+bug/1759454,2018-04-19
+1749388,1749388,Fix Released,tempest scenario tests sometimes fail depending on execution environment,https://bugs.launchpad.net/bgpvpn/+bug/1749388,2018-04-19
+1762649,1762649,Fix Released,tempest: wrong design of test for port association bgpvpn route,https://bugs.launchpad.net/bgpvpn/+bug/1762649,2018-04-19
+1759867,1759867,Fix Released,bagpipe-bgp: Redirect VRF not always stopped,https://bugs.launchpad.net/networking-bagpipe/+bug/1759867,2018-04-19
+1764336,1764336,Fix Released,bagpipe-bgp: broken logging when IP prefix is not defined,https://bugs.launchpad.net/networking-bagpipe/+bug/1764336,2018-04-19
+1764353,1764353,Fix Released,"bagpipe-bgp: EVPN linuxbridge, uncatched exception on unplug",https://bugs.launchpad.net/networking-bagpipe/+bug/1764353,2018-04-19
+1764702,1764702,Fix Released,bagpipe ML2: wrong behavior on delete_port,https://bugs.launchpad.net/networking-bagpipe/+bug/1764702,2018-04-19
+1756361,1756361,Fix Released,bagpipe ML2: network VNI not reused for E-VPN,https://bugs.launchpad.net/networking-bagpipe/+bug/1756361,2018-04-19
+1748399,1748399,Fix Released,Config generation failing after recent patch,https://bugs.launchpad.net/glance/+bug/1748399,2018-04-19
+1747869,1747869,Fix Released,./stack.sh doesn't work with postgres,https://bugs.launchpad.net/glance/+bug/1747869,2018-04-19
+1748559,1748559,Fix Released,image-create header is static,https://bugs.launchpad.net/glance/+bug/1748559,2018-04-19
+1748916,1748916,Fix Released,Glance default workers is total overkill for modern servers,https://bugs.launchpad.net/glance/+bug/1748916,2018-04-19
+1749297,1749297,Fix Released,list-tasks call 500s with postgresql,https://bugs.launchpad.net/glance/+bug/1749297,2018-04-19
+1749525,1749525,Fix Released,Image Import leaves state transition to way too late stage,https://bugs.launchpad.net/glance/+bug/1749525,2018-04-19
+1749461,1749461,Fix Released,import tasks failing,https://bugs.launchpad.net/glance/+bug/1749461,2018-04-19
+1745360,1745360,Fix Released,DB Upgrade: Validation missing to check if E/M already executed,https://bugs.launchpad.net/glance/+bug/1745360,2018-04-19
+1748512,1748512,Fix Released,web-download is subject to same port scan vulnerability as v1 copy_from,https://bugs.launchpad.net/glance/+bug/1748512,2018-04-19
+1749478,1749478,Fix Released,admin docs: need info about configuring web-download URI filtering,https://bugs.launchpad.net/glance/+bug/1749478,2018-04-19
+1749762,1749762,Fix Released,admin docs: interoperable image import revision,https://bugs.launchpad.net/glance/+bug/1749762,2018-04-19
+1748229,1748229,Fix Released,revise api-ref: add info about web-download import-method,https://bugs.launchpad.net/glance/+bug/1748229,2018-04-19
+1750205,1750205,Fix Released,image import: 500 for web-download import-method,https://bugs.launchpad.net/glance/+bug/1750205,2018-04-19
+1748900,1748900,Fix Released,api-ref: value of custom property not limited to 255 chars,https://bugs.launchpad.net/glance/+bug/1748900,2018-04-19
+1749466,1749466,Fix Released,postgresql db migration broken in queens,https://bugs.launchpad.net/glance/+bug/1749466,2018-04-19
+1750555,1750555,Fix Released,Revisit database rolling upgrade documentation,https://bugs.launchpad.net/glance/+bug/1750555,2018-04-19
+1749788,1749788,Fix Released,image import: uri filtering conf opts help text needs revision,https://bugs.launchpad.net/glance/+bug/1749788,2018-04-19
+1749640,1749640,Fix Released,db sync fails for mysql while adding triggers,https://bugs.launchpad.net/glance/+bug/1749640,2018-04-19
+1751208,1751208,Fix Released,api-ref: list-resource-type-associations example is incorrect,https://bugs.launchpad.net/glance/+bug/1751208,2018-04-19
+1759935,1759935,Fix Released,Documentation build broken with openstackdocstheme 1.20.0,https://bugs.launchpad.net/glance/+bug/1759935,2018-04-19
+1762387,1762387,Fix Released,v1 Image Service APIs in Image Service API Reference,https://bugs.launchpad.net/glance/+bug/1762387,2018-04-19
+1745372,1745372,Fix Released,DS8K: Correct create volume behavior for CG,https://bugs.launchpad.net/cinder/+bug/1745372,2018-04-19
+1694635,1694635,Fix Released,SMBFS: creating volumes from in-use snapshots can fail,https://bugs.launchpad.net/cinder/+bug/1694635,2018-04-19
+1748558,1748558,Fix Released,When deleting an SSHPool some connections can be left open,https://bugs.launchpad.net/cinder/+bug/1748558,2018-04-19
+1749983,1749983,Fix Released,Unhelpful error message when trying to force detach and content-type header is missing,https://bugs.launchpad.net/cinder/+bug/1749983,2018-04-19
+1747845,1747845,Fix Released,Wrong parameter name for hpe3par SAN snap CPG configuration in Cinder documentation,https://bugs.launchpad.net/cinder/+bug/1747845,2018-04-19
+1750888,1750888,Fix Released,Steps out of order for Cinder Installation,https://bugs.launchpad.net/cinder/+bug/1750888,2018-04-19
+1751917,1751917,Fix Released,SolidFire not allowing unique login/password settings for replication target,https://bugs.launchpad.net/cinder/+bug/1751917,2018-04-19
+1753908,1753908,Fix Released,Storwize: update storwize_svc_flashcopy_rate  max value to 150 and add  flachcopy_rate to volume type,https://bugs.launchpad.net/cinder/+bug/1753908,2018-04-19
+1755282,1755282,Fix Released,Sample cinder.conf file leaks build system IP,https://bugs.launchpad.net/cinder/+bug/1755282,2018-04-19
+1747894,1747894,Fix Released,VMAX driver - Failover can take a long time,https://bugs.launchpad.net/cinder/+bug/1747894,2018-04-19
+1754604,1754604,Fix Released,VMAX docs - change name of doc from emc-vmax-driver.html to dell-emc-vmax-driver.html,https://bugs.launchpad.net/cinder/+bug/1754604,2018-04-19
+1755566,1755566,Fix Released,API reference can no longer hide whole sections,https://bugs.launchpad.net/cinder/+bug/1755566,2018-04-19
+1658766,1658766,Fix Released,Qnap driver using HTTPSConnection,https://bugs.launchpad.net/cinder/+bug/1658766,2018-04-19
+1755546,1755546,Fix Released,nimble : update documentation for supportability,https://bugs.launchpad.net/cinder/+bug/1755546,2018-04-19
+1746732,1746732,Fix Released,DS8K: correct in-use replication vol status,https://bugs.launchpad.net/cinder/+bug/1746732,2018-04-19
+1758022,1758022,Fix Released,Cinder volume says it's including resources in Cluster for non clustered service,https://bugs.launchpad.net/cinder/+bug/1758022,2018-04-19
+1758114,1758114,Fix Released,Quobyte driver fails with Qemu >= 2.10.0,https://bugs.launchpad.net/cinder/+bug/1758114,2018-04-19
+1738681,1738681,Fix Released,VNX: max_luns_per_storage_group and check_max_pool_luns_threshold for newton release,https://bugs.launchpad.net/cinder/+bug/1738681,2018-04-19
+1751340,1751340,Fix Released,tripleo-ansible-inventory won't show a traceback during exception handling,https://bugs.launchpad.net/tripleo/+bug/1751340,2018-04-19
+1751855,1751855,Fix Released,tripleo-ansible-inventory: alias --static-inventory to --static-yaml-inventory,https://bugs.launchpad.net/tripleo/+bug/1751855,2018-04-19
+1731972,1731972,Fix Released,[RFE] Allow user to see version information from UI,https://bugs.launchpad.net/tripleo/+bug/1731972,2018-04-19
+1750821,1750821,Fix Released,Use Nova flavor profiles when tagging nodes,https://bugs.launchpad.net/tripleo/+bug/1750821,2018-04-19
+1753530,1753530,Fix Released,Unneeded icons on buttons should be removed,https://bugs.launchpad.net/tripleo/+bug/1753530,2018-04-19
+1754098,1754098,Fix Released,Modal footer not showing in Firefox,https://bugs.launchpad.net/tripleo/+bug/1754098,2018-04-19
+1755541,1755541,Fix Released,[ui] nova endpoint missing from appConfig,https://bugs.launchpad.net/tripleo/+bug/1755541,2018-04-19
+1755542,1755542,Fix Released,DeploymentSuccess fails to render,https://bugs.launchpad.net/tripleo/+bug/1755542,2018-04-19
+1756145,1756145,Fix Released,"After successful deployment, ""Overcloud"" term is used and should be made more generic",https://bugs.launchpad.net/tripleo/+bug/1756145,2018-04-19
+1757014,1757014,Fix Released,Manage Roles link should be in a button and inline with other actions on steps,https://bugs.launchpad.net/tripleo/+bug/1757014,2018-04-19
+1757108,1757108,Fix Released,Edit Configuration button spacing is inconsistent,https://bugs.launchpad.net/tripleo/+bug/1757108,2018-04-19
+1753474,1753474,Fix Released,GUI state is not updated in case when zaqar message does not arrive,https://bugs.launchpad.net/tripleo/+bug/1753474,2018-04-19
+1727501,1727501,Fix Released,Hover state on the username in the enterprise navigation not needed,https://bugs.launchpad.net/tripleo/+bug/1727501,2018-04-19
+1751262,1751262,Fix Released,tripleo-ipsec: Uninstall option doesn't delete the resource agents,https://bugs.launchpad.net/tripleo/+bug/1751262,2018-04-19
+1751857,1751857,Fix Released,Docker healthcheck fails for OpenDaylight due to missing features loaded in ODL,https://bugs.launchpad.net/tripleo/+bug/1751857,2018-04-19
+1752467,1752467,Fix Released,Request limit exceeded: JSON body size (2299844 bytes) exceeds maximum allowed size (2097152 bytes).,https://bugs.launchpad.net/tripleo/+bug/1752467,2018-04-19

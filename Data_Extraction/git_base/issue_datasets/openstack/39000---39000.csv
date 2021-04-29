@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1612047,1612047,Fix Released,UUID Reduction impacted bridge_mappings,https://bugs.launchpad.net/networking-powervm/+bug/1612047,2016-08-18
+1614081,1614081,Fix Released,hostname should be unique throughout the deployment,https://bugs.launchpad.net/masakari/+bug/1614081,2016-08-18
+1614629,1614629,Fix Committed,"10.0 BVT failed because of ""no space left"" problem",https://bugs.launchpad.net/fuel/+bug/1614629,2016-08-18
+1603945,1603945,Fix Released,10.0all job uses Ubuntu Trusty packages instead of Xenial,https://bugs.launchpad.net/fuel/+bug/1603945,2016-08-18
+1611454,1611454,Fix Released,error message for invalid nic should be conditional on v2.32,https://bugs.launchpad.net/python-novaclient/+bug/1611454,2016-08-18
+1611985,1611985,Fix Released,functional tests should use same flavors as tempest if available,https://bugs.launchpad.net/python-novaclient/+bug/1611985,2016-08-18
+1613435,1613435,Fix Released,TestConsolesNovaClient.test_vnc_console_get fails if you're using default devstack,https://bugs.launchpad.net/python-novaclient/+bug/1613435,2016-08-18
+1613454,1613454,Fix Released,novaclient.tests.functional.v2.test_trigger_crash_dump fails in default local devstack setup,https://bugs.launchpad.net/python-novaclient/+bug/1613454,2016-08-18
+1612410,1612410,Fix Released,functional tests rely on nova-network backed devstack,https://bugs.launchpad.net/python-novaclient/+bug/1612410,2016-08-18
+1561581,1561581,Fix Released,packaging instructions include extra dependencies,https://bugs.launchpad.net/ironic-ui/+bug/1561581,2016-08-18
+1558451,1558451,Fix Released,deploy images link gives 404,https://bugs.launchpad.net/ironic-ui/+bug/1558451,2016-08-18
+1606980,1606980,Fix Released,[product-ci ] Build-fuel-qa-docs jobs make the queue huge,https://bugs.launchpad.net/fuel/+bug/1606980,2016-08-18
+1610581,1610581,Fix Released,template-type is still documented as a required field,https://bugs.launchpad.net/heat-translator/+bug/1610581,2016-08-18
+1286380,1286380,Fix Released,cfn-json2yaml number key,https://bugs.launchpad.net/heat/+bug/1286380,2016-08-18
+1578980,1578980,Fix Released,Links to user and dev docs on Fuel Overview LP page are outdated,https://bugs.launchpad.net/fuel/+bug/1578980,2016-08-18
+1613152,1613152,Fix Released,Restart metadata proxy will leave stale ip rule,https://bugs.launchpad.net/dragonflow/+bug/1613152,2016-08-18
+1585204,1585204,Fix Committed,[octane] OSD upgrade should take care about package preferences,https://bugs.launchpad.net/fuel/+bug/1585204,2016-08-18
+1614481,1614481,Fix Released,Fix failing gate for networking-plumgrid,https://bugs.launchpad.net/networking-plumgrid/+bug/1614481,2016-08-18
+1605423,1605423,Fix Released,linux gate jobs are broken with ovs-vsctl missing error,https://bugs.launchpad.net/devstack/+bug/1605423,2016-08-18
+1611820,1611820,Fix Released,[vCenter] Add test for checking HA after scaling of vCenter enviroment,https://bugs.launchpad.net/fuel/+bug/1611820,2016-08-18
+1602291,1602291,Fix Released,[pkgs-ci] automatically merge merge commits to downstream branches if tests pass,https://bugs.launchpad.net/fuel/+bug/1602291,2016-08-18
+1583007,1583007,Fix Released,Sometimes environment deployment failures due to Error: The murano-agent did not respond within 3600 seconds,https://bugs.launchpad.net/murano-apps/+bug/1583007,2016-08-18
+1587135,1587135,Fix Released,Double encoding in api_nb.py and related code,https://bugs.launchpad.net/dragonflow/+bug/1587135,2016-08-18
+1609705,1609705,Fix Released,[fuel-qa] Add new exception handling,https://bugs.launchpad.net/fuel/+bug/1609705,2016-08-18
+1613204,1613204,Fix Committed,"(""Invalid container name (1), only [a-zA-Z0-9][a-zA-Z0-9_.-] are allowed"")",https://bugs.launchpad.net/zun/+bug/1613204,2016-08-18
+1613993,1613993,Fix Released,flows in CONNTRACK_TABLE are wrongly installed when a port isn't configured SG,https://bugs.launchpad.net/dragonflow/+bug/1613993,2016-08-18
+1599463,1599463,Fix Committed,"A space is missing on the button on ""Capacity Audit"" page",https://bugs.launchpad.net/fuel/+bug/1599463,2016-08-18
+1612566,1612566,Fix Released,vif_plugging_timeout = 0 should mean endless retry,https://bugs.launchpad.net/kuryr-libnetwork/+bug/1612566,2016-08-18
+1310597,1310597,Fix Released,race between quota setting and quota being enforced,https://bugs.launchpad.net/tempest/+bug/1310597,2016-08-18
+1302514,1302514,Fix Released,"vmware: error observed - "" 'The session is not authenticated.' to caller""",https://bugs.launchpad.net/cinder/+bug/1302514,2016-08-18
+1579903,1579903,Fix Released,require_volume_exists does a volume_get,https://bugs.launchpad.net/cinder/+bug/1579903,2016-08-18
+1493350,1493350,Fix Released,Attach Volume fail : Cinder - ISCSI device symlinks under /dev/disk/by-path in hex.,https://bugs.launchpad.net/cinder/+bug/1493350,2016-08-18
+1493350,1493350,Fix Released,Attach Volume fail : Cinder - ISCSI device symlinks under /dev/disk/by-path in hex.,https://bugs.launchpad.net/nova/+bug/1493350,2016-08-18
+1591332,1591332,Fix Released,ZFSSA iSCSI driver volume backup/restore doesn't work,https://bugs.launchpad.net/cinder/+bug/1591332,2016-08-18
+1614076,1614076,Fix Released,Job name missing from job page title,https://bugs.launchpad.net/openstack-health/+bug/1614076,2016-08-18
+1549661,1549661,Fix Released,get_nic_name not working properly on all disros,https://bugs.launchpad.net/tempest/+bug/1549661,2016-08-18
+1479123,1479123,Fix Committed,N1Kv ML2 mech driver and DB models decomposition,https://bugs.launchpad.net/networking-cisco/+bug/1479123,2016-08-18
+1362676,1362676,Fix Released,Hyper-V agent doesn't create stateful security group rules,https://bugs.launchpad.net/networking-hyperv/+bug/1362676,2016-08-17
+1362676,1362676,Fix Released,Hyper-V agent doesn't create stateful security group rules,https://bugs.launchpad.net/neutron/+bug/1362676,2016-08-17
+1488793,1488793,Fix Released,CertManager couldn't connect to barbican,https://bugs.launchpad.net/neutron/+bug/1488793,2016-08-17
+1262906,1262906,Fix Released,swift unable to start in gate-tempest-dsvm-neutron-large-ops,https://bugs.launchpad.net/devstack/+bug/1262906,2016-08-17
+1610092,1610092,Fix Released,There's a typo in the spec of sriov-physical-function-passthrough.rst,https://bugs.launchpad.net/nova/+bug/1610092,2016-08-17
+1604958,1604958,Fix Released,security role duplicates config options in auditd.conf,https://bugs.launchpad.net/openstack-ansible/+bug/1604958,2016-08-17
+1565128,1565128,Fix Released,mariadb10 libs are needed when building the repo,https://bugs.launchpad.net/openstack-ansible/+bug/1565128,2016-08-17
+1604243,1604243,Fix Released,local.conf file in quick start guide needs a note on dealing with firewall/proxy blocking git protocol,https://bugs.launchpad.net/ironic/+bug/1604243,2016-08-17
+1613622,1613622,Fix Released,nova cellsv2 breaks ironic,https://bugs.launchpad.net/nova/+bug/1613622,2016-08-17
+1545789,1545789,Fix Released,keystone ADMIN_TOKEN set by default can lead to default insecure deployment,https://bugs.launchpad.net/keystone/+bug/1545789,2016-08-17
+1329755,1329755,Fix Released,novncproxy children progresses don't quit while stopping novncproxy,https://bugs.launchpad.net/nova/+bug/1329755,2016-08-17
+1609497,1609497,Fix Released,VM Startup not doing full VIF plug operation,https://bugs.launchpad.net/nova-powervm/+bug/1609497,2016-08-17
+1606900,1606900,Fix Released,Some log isn't present in diagnostic snapshot,https://bugs.launchpad.net/fuel/+bug/1606900,2016-08-17
+1612532,1612532,Fix Released,"Kuryr hard code listen ip ""0.0.0.0""",https://bugs.launchpad.net/kuryr-libnetwork/+bug/1612532,2016-08-17
+1612152,1612152,Fix Released,aodh driver properties not consistent with ceilometer spec,https://bugs.launchpad.net/vitrage/+bug/1612152,2016-08-17
+1614015,1614015,Fix Released,[Contrail 5.0.0] OSTF tests failed,https://bugs.launchpad.net/fuel-plugin-contrail/+bug/1614015,2016-08-17
+1466694,1466694,Fix Released,admin role can't delete other tenants stacks,https://bugs.launchpad.net/heat/+bug/1466694,2016-08-17
+1610205,1610205,Fix Released,Updating the undercloud messes up ironic settings,https://bugs.launchpad.net/tripleo-quickstart/+bug/1610205,2016-08-17
+1549877,1549877,Fix Released,NSXv: can not create router with tenant_router_types exclusive,https://bugs.launchpad.net/vmware-nsx/+bug/1549877,2016-08-17
+1598436,1598436,Fix Committed,Separate packages for sigul components,https://bugs.launchpad.net/fuel/+bug/1598436,2016-08-17
+1613722,1613722,Fix Committed,Change Fuel 10.0 to use MOS without UCA,https://bugs.launchpad.net/fuel/+bug/1613722,2016-08-17
+1568723,1568723,Fix Released,secure_proxy_ssl_header not in sample config files,https://bugs.launchpad.net/glance/+bug/1568723,2016-08-17
+1568894,1568894,Fix Released,glance_store opts missing in glance-scrubber.conf and glance-cache.conf sample files,https://bugs.launchpad.net/glance/+bug/1568894,2016-08-17
+1585128,1585128,Fix Committed,OSTF 'RabbitMQ availability' test fails after network outage and recovery (cluster_status hangs on controllers),https://bugs.launchpad.net/fuel/+bug/1585128,2016-08-17
+1612639,1612639,Fix Released,There is outdated venv on ci-slave-26 which causes usage of wrong method api.,https://bugs.launchpad.net/fuel/+bug/1612639,2016-08-17
+1595534,1595534,Fix Released,Fix failing Watcher Tempest tests,https://bugs.launchpad.net/watcher/+bug/1595534,2016-08-17
+1590357,1590357,Fix Released,The selected strategy in the audit template is not take into account.,https://bugs.launchpad.net/watcher/+bug/1590357,2016-08-17
+1613719,1613719,Fix Released,Webpack error due to version loader when running npm start,https://bugs.launchpad.net/tripleo-ui/+bug/1613719,2016-08-17
+1613792,1613792,Fix Released,Fix pep8 error,https://bugs.launchpad.net/networking-huawei/+bug/1613792,2016-08-17
+1613790,1613790,Fix Released,"Fix UT Error "" {""NeutronError"": {""message"": ""Invalid input for external_gateway_info. Reason: Unexpected keys supplied: enable_snat."", ""detail"": """", ""type"": ""HTTPBadRequest""}}",https://bugs.launchpad.net/networking-huawei/+bug/1613790,2016-08-17
+1558690,1558690,Fix Released,project set works for invalid properties,https://bugs.launchpad.net/python-openstackclient/+bug/1558690,2016-08-17
+1568192,1568192,Fix Released,Connection errors shouldn't be exceptions,https://bugs.launchpad.net/syntribos/+bug/1568192,2016-08-17
+1594732,1594732,Fix Released,CI: No connected gearman servers,https://bugs.launchpad.net/tripleo/+bug/1594732,2016-08-16
+1513346,1513346,Fix Released,Add some negative test for identity v3 domain test,https://bugs.launchpad.net/tempest/+bug/1513346,2016-08-16
+1505478,1505478,Fix Released,test_dualnet_multi_prefix_slaac fails on the gate,https://bugs.launchpad.net/tempest/+bug/1505478,2016-08-16
+1486475,1486475,Fix Released,Transient mismatch between OS-EXT-STS:vm_state and OS-EXT-STS:power_state,https://bugs.launchpad.net/tempest/+bug/1486475,2016-08-16
+1480983,1480983,Fix Released,exec_command of ssh client errors when tests are run from OS X,https://bugs.launchpad.net/tempest/+bug/1480983,2016-08-16
+1460975,1460975,Fix Released,tempest-lib: No 'FormatChecker'  is passed for json schema validation in RestClient,https://bugs.launchpad.net/tempest/+bug/1460975,2016-08-16

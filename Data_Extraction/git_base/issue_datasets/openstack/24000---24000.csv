@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1674780,1674780,Fix Released,L3 HA: check scripts are written after keepalived is (re)started,https://bugs.launchpad.net/neutron/+bug/1674780,2017-04-14
+1674787,1674787,Fix Released,Bump default quotas for core resources,https://bugs.launchpad.net/neutron/+bug/1674787,2017-04-14
+1621073,1621073,Fix Released,Neutron NeutronKeystoneContext object doesn't retrieve user_domain attribute,https://bugs.launchpad.net/neutron/+bug/1621073,2017-04-14
+1513771,1513771,Fix Released,functional tests random failure on TestProcessMonitor.test_respawn_handler trying to kill a process,https://bugs.launchpad.net/neutron/+bug/1513771,2017-04-14
+1557620,1557620,Fix Released,OVSCookieBridge not applying extension cookie to all flow operations,https://bugs.launchpad.net/neutron/+bug/1557620,2017-04-14
+1671478,1671478,Fix Released,Tests in   neutron.tests.tempest.api.test_revisions.TestRevisions don't clean up network resources,https://bugs.launchpad.net/neutron/+bug/1671478,2017-04-14
+1676787,1676787,Fix Released,Release note shows non-existent feature,https://bugs.launchpad.net/neutron/+bug/1676787,2017-04-14
+1674069,1674069,Fix Released,TypeError: add_router_interface() takes exactly 4 arguments (3 given),https://bugs.launchpad.net/neutron/+bug/1674069,2017-04-14
+1677636,1677636,Fix Released,TestTrackedResource.test_resync failed with AttributeError: 'NoneType' object has no attribute '_get_collection_query',https://bugs.launchpad.net/neutron/+bug/1677636,2017-04-14
+1649747,1649747,Fix Released,"XenAPI: With ovs polling mode, Neutron gets the error of oslo_rootwrap.wrapper.FilterMatchNotExecutable",https://bugs.launchpad.net/neutron/+bug/1649747,2017-04-14
+1648129,1648129,Fix Released,add ironic support to trunk extension,https://bugs.launchpad.net/neutron/+bug/1648129,2017-04-14
+1680580,1680580,Fix Released,rally job broken because of new validations failing on NeutronTrunks.create_and_list_trunk_subports,https://bugs.launchpad.net/neutron/+bug/1680580,2017-04-14
+1678726,1678726,Fix Released,vpnaas endpoint related UT failure,https://bugs.launchpad.net/neutron/+bug/1678726,2017-04-14
+1661418,1661418,Fix Released,neutron-fwaas functional tests do not execute,https://bugs.launchpad.net/neutron/+bug/1661418,2017-04-14
+1658060,1658060,Fix Released,FirewallNotFound exceptions when deleting the firewall in FWaaS-DVR,https://bugs.launchpad.net/neutron/+bug/1658060,2017-04-14
+1670868,1670868,Fix Released,AttributeError: 'MidonetL3ServicePlugin' object has no attribute 'get_l3_agents_hosting_routers',https://bugs.launchpad.net/networking-midonet/+bug/1670868,2017-04-14
+1670868,1670868,Fix Released,AttributeError: 'MidonetL3ServicePlugin' object has no attribute 'get_l3_agents_hosting_routers',https://bugs.launchpad.net/neutron/+bug/1670868,2017-04-14
+1663054,1663054,Fix Released,neutron-dynamic-routing unit test failure,https://bugs.launchpad.net/neutron/+bug/1663054,2017-04-14
+1670650,1670650,Fix Released,port-chain-create failure leaves stale DB entry,https://bugs.launchpad.net/networking-sfc/+bug/1670650,2017-04-14
+1673706,1673706,Fix Released,docs.openstack.org/developer/networking-sfc/portchain-ovs-driver-agent.html is missing,https://bugs.launchpad.net/networking-sfc/+bug/1673706,2017-04-14
+1661182,1661182,Fix Released,Failed creation of flow-classifier,https://bugs.launchpad.net/networking-sfc/+bug/1661182,2017-04-14
+1664103,1664103,Fix Released,add placement-api  enable to computenode-local.conf.sample,https://bugs.launchpad.net/networking-ovn/+bug/1664103,2017-04-14
+1639806,1639806,Fix Released,devstackgaterc job is failing,https://bugs.launchpad.net/neutron/+bug/1639806,2017-04-14
+1639806,1639806,Fix Released,devstackgaterc job is failing,https://bugs.launchpad.net/networking-ovn/+bug/1639806,2017-04-14
+1658622,1658622,Fix Released,Support distributed NAT in networking-ovn  native L3 routing,https://bugs.launchpad.net/networking-ovn/+bug/1658622,2017-04-14
+1664842,1664842,Fix Released,Remove get_router when handling floating ip,https://bugs.launchpad.net/networking-ovn/+bug/1664842,2017-04-14
+1664856,1664856,Fix Released,Improve OVN impl idl unit test for snat and fip,https://bugs.launchpad.net/networking-ovn/+bug/1664856,2017-04-14
+1664541,1664541,Fix Released,"Improve OVN DB sync unit test for snat, gateway route and fip",https://bugs.launchpad.net/networking-ovn/+bug/1664541,2017-04-14
+1656342,1656342,Fix Released,The pymod-index link is broken in the docs,https://bugs.launchpad.net/networking-ovn/+bug/1656342,2017-04-14
+1626717,1626717,Fix Released,Deprecate conventional layer-3 agent support,https://bugs.launchpad.net/networking-ovn/+bug/1626717,2017-04-14
+1665574,1665574,Fix Released,Ignore syncing floating IP ports when handling DB sync,https://bugs.launchpad.net/networking-ovn/+bug/1665574,2017-04-14
+1666113,1666113,Fix Released,"In python3.5 environment, synchronization router exception",https://bugs.launchpad.net/networking-ovn/+bug/1666113,2017-04-14
+1666143,1666143,Fix Released,Add functional testing with python3.5 in CI jobs,https://bugs.launchpad.net/networking-ovn/+bug/1666143,2017-04-14
+1665388,1665388,Fix Released,Improve OVN DB sync functional test for external gateway,https://bugs.launchpad.net/networking-ovn/+bug/1665388,2017-04-14
+1668834,1668834,Fix Released,dsvm-functional test_dhcp_options  failed in CentOS 7.3,https://bugs.launchpad.net/networking-ovn/+bug/1668834,2017-04-14
+1662405,1662405,Fix Released,Unnecessary floating IP dissociate during updating extra attirbutes,https://bugs.launchpad.net/networking-ovn/+bug/1662405,2017-04-14
+1671016,1671016,Fix Released,Double functional testing timeout to 120s,https://bugs.launchpad.net/networking-ovn/+bug/1671016,2017-04-14
+1670663,1670663,Fix Released,Add dhcp allowing rule to ACL for native dhcp,https://bugs.launchpad.net/networking-ovn/+bug/1670663,2017-04-14
+1671394,1671394,Fix Released,Sync provnet lsp missing in OVN DB for provider network,https://bugs.launchpad.net/networking-ovn/+bug/1671394,2017-04-14
+1677581,1677581,Fix Released,Implement disassociate_floatingips in l3_ovn.py,https://bugs.launchpad.net/networking-ovn/+bug/1677581,2017-04-14
+1680146,1680146,Fix Released,Allow tuning the probe_interval attribute from OVS python library,https://bugs.launchpad.net/networking-ovn/+bug/1680146,2017-04-14
+1681364,1681364,Fix Released,Docs generation shouldn't treat a warning as an error,https://bugs.launchpad.net/networking-ovn/+bug/1681364,2017-04-14
+1659182,1659182,Fix Released,Support for connecting OVSDB over SSL,https://bugs.launchpad.net/networking-ovn/+bug/1659182,2017-04-14
+1665844,1665844,Fix Released,neutron-odl-ovs-hostconfig failing in devstack on compute node,https://bugs.launchpad.net/networking-odl/+bug/1665844,2017-04-14
+1671323,1671323,Fix Released,stable/ocata: functional/fullstack initialization fails,https://bugs.launchpad.net/networking-odl/+bug/1671323,2017-04-14
+1673285,1673285,Fix Released,Devstack fails to detect and download ODL due to xpath version differences,https://bugs.launchpad.net/networking-odl/+bug/1673285,2017-04-14
+1673783,1673783,Fix Released,Opendaylight trunk driver fails to load,https://bugs.launchpad.net/networking-odl/+bug/1673783,2017-04-14
+1671678,1671678,Fix Released,Creation of br-int times out when spinning up devstack due to malformed connection string,https://bugs.launchpad.net/networking-odl/+bug/1671678,2017-04-14
+1674880,1674880,Fix Released,Problem in documentation links,https://bugs.launchpad.net/networking-odl/+bug/1674880,2017-04-14
+1657304,1657304,Fix Released,re-enable test_router_interface_port_update_with_fixed_ip,https://bugs.launchpad.net/networking-midonet/+bug/1657304,2017-04-14
+1655852,1655852,Fix Released,No such device for tnvxlan-fip64,https://bugs.launchpad.net/networking-midonet/+bug/1655852,2017-04-14
+1656404,1656404,Fix Released,The py-modindex for networking-midonet docs is a broken link,https://bugs.launchpad.net/networking-midonet/+bug/1656404,2017-04-14
+1665267,1665267,Fix Released,local.conf templates should include placement-api service,https://bugs.launchpad.net/networking-midonet/+bug/1665267,2017-04-14
+1672586,1672586,Fix Released,packages.rst is stale,https://bugs.launchpad.net/networking-midonet/+bug/1672586,2017-04-14
+1673785,1673785,Fix Released,agent config import error,https://bugs.launchpad.net/networking-midonet/+bug/1673785,2017-04-14
+1679988,1679988,Fix Released,v2 plugin needs an update for recent SG changes,https://bugs.launchpad.net/networking-midonet/+bug/1679988,2017-04-14
+1679590,1679590,Fix Released,UT failures due to enginefacade change,https://bugs.launchpad.net/networking-midonet/+bug/1679590,2017-04-14
+1676452,1676452,Fix Released,ONOS ml2 plugin does not support security group  updates,https://bugs.launchpad.net/networking-onos/+bug/1676452,2017-04-14
+1650622,1650622,Fix Committed,Fuel-agent does not create partition with fs without mountpoint,https://bugs.launchpad.net/fuel/+bug/1650622,2017-04-14
+1674326,1674326,Fix Released,typo in oslo.config.opts,https://bugs.launchpad.net/senlin/+bug/1674326,2017-04-14
+1642881,1642881,Fix Released,Resource that failed creation cannot be deleted,https://bugs.launchpad.net/senlin/+bug/1642881,2017-04-14
+1642833,1642833,Fix Released,the output of event list cannot sort by cluster,https://bugs.launchpad.net/senlin/+bug/1642833,2017-04-14
+1641916,1641916,Fix Released,"the sort key ""user"" in event-list cannot work",https://bugs.launchpad.net/senlin/+bug/1641916,2017-04-14
+1633689,1633689,Fix Released,‘senlin event-list -l value’cannot filters,https://bugs.launchpad.net/senlin/+bug/1633689,2017-04-14
+1605869,1605869,Fix Released,hang: wait is waiting for stop to complete,https://bugs.launchpad.net/senlin/+bug/1605869,2017-04-14
+1645290,1645290,Fix Released,clean cached images to avoid using up disk,https://bugs.launchpad.net/fuel-plugin-xenserver/+bug/1645290,2017-04-14
+1682025,1682025,Fix Released,Developer Quick-Start - Need modification,https://bugs.launchpad.net/zun/+bug/1682025,2017-04-14
+1680136,1680136,Fix Released,Stable newton gate is broken,https://bugs.launchpad.net/neutron/+bug/1680136,2017-04-14
+1664885,1664885,Fix Released,Cluster update failed on devstack,https://bugs.launchpad.net/senlin/+bug/1664885,2017-04-14
+1634407,1634407,Fix Released,filters in openstack cluster policy binding list,https://bugs.launchpad.net/senlin/+bug/1634407,2017-04-14
+1666092,1666092,Fix Released,better creating service  before health manager started,https://bugs.launchpad.net/senlin/+bug/1666092,2017-04-14
+1659188,1659188,Fix Released,senlin cluster-policy-detach cannot disable,https://bugs.launchpad.net/senlin/+bug/1659188,2017-04-14
+1674556,1674556,Fix Released,"Param ""response"" is not used any more in python-senlinclient/senlinclient/tests/unit/v1/test_build_info.py",https://bugs.launchpad.net/senlin/+bug/1674556,2017-04-14
+1506407,1506407,Fix Committed,octane install-node often fails on provision step,https://bugs.launchpad.net/fuel/+bug/1506407,2017-04-14
+1547804,1547804,Fix Committed,[upgrade][8.0] Restore failed if Fuel's ip is different on new node,https://bugs.launchpad.net/fuel/+bug/1547804,2017-04-14

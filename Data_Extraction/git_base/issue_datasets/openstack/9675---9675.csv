@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1806705,1806705,Fix Released,cinder-qos provider issue with python-openstackclient >= 3.8.0,https://bugs.launchpad.net/puppet-cinder/+bug/1806705,2019-01-16
+1555411,1555411,Fix Released,storlet_middleware should validate metadata in POST/COPY,https://bugs.launchpad.net/storlets/+bug/1555411,2019-01-16
+1677268,1677268,Fix Committed,scale-out API will take a long time to response when too many nodes in a cluster,https://bugs.launchpad.net/senlin/+bug/1677268,2019-01-16
+1659022,1659022,Fix Committed,"when do health check, it was raised in db",https://bugs.launchpad.net/senlin/+bug/1659022,2019-01-16
+1794585,1794585,Fix Released,puppet integration tests failing \tcri requires Ruby version ~> 2.3.,https://bugs.launchpad.net/tripleo/+bug/1794585,2019-01-15
+1808118,1808118,Fix Released,f28 standalon fails at container prep,https://bugs.launchpad.net/tripleo/+bug/1808118,2019-01-15
+1809882,1809882,Fix Released,[f28][standalone] neutron_tempest_plugin.api.admin.test_tag tests skipped as tag extension not enabled,https://bugs.launchpad.net/tripleo/+bug/1809882,2019-01-15
+1674539,1674539,Fix Released,"Unittest broken with ""cannot import name utils from openstackclient.tests""",https://bugs.launchpad.net/senlin/+bug/1674539,2019-01-15
+1639811,1639811,Fix Committed,"When dead_lock happened,log and action in db increasing too fast",https://bugs.launchpad.net/senlin/+bug/1639811,2019-01-15
+1695798,1695798,Fix Released,senlin delete nova physical resource error in log,https://bugs.launchpad.net/senlin/+bug/1695798,2019-01-15
+1725883,1725883,Fix Committed,cluster lock can not be release,https://bugs.launchpad.net/senlin/+bug/1725883,2019-01-15
+1741831,1741831,Fix Released,Unity Driver get error when run case test_force_detach_volume,https://bugs.launchpad.net/cinder/+bug/1741831,2019-01-15
+1801689,1801689,Fix Released,openstackclient commands doesn't work,https://bugs.launchpad.net/python-masakariclient/+bug/1801689,2019-01-15
+1798156,1798156,Fix Released,hacking url is not the latest,https://bugs.launchpad.net/python-masakariclient/+bug/1798156,2019-01-15
+1801905,1801905,Fix Released,segment-delete return 'NoneType' object has no attribute 'to_dict',https://bugs.launchpad.net/python-masakariclient/+bug/1801905,2019-01-15
+1755783,1755783,Fix Released,PCI configuration documentation renders with smart quotes,https://bugs.launchpad.net/nova/+bug/1755783,2019-01-15
+1808787,1808787,Fix Released,Pod Label Handler tries to handle pod creation causing controller restart,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1808787,2019-01-14
+1808969,1808969,Fix Released,cni_ds_init unable to distinguish additional containers in kuryr-cni pod,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1808969,2019-01-14
+1809049,1809049,Fix Released,Kuryr doesn't support provider name 'octavia' of Octavia,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1809049,2019-01-14
+1809451,1809451,Fix Released,sg_mode create is not enforced without namespace handler or svc of ClusterIP,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1809451,2019-01-14
+1808966,1808966,Fix Released,controller health checks don't consider the enabled options,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1808966,2019-01-14
+1809649,1809649,Fix Released,LoadBalancer svc type broken with sg_mode create,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1809649,2019-01-14
+1810344,1810344,Fix Released,NPWGMultiVIFDriver crashes if 'subnetId' field is not specified in net-attach-def,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1810344,2019-01-14
+1810442,1810442,Fix Released,Failed to create NP with namespaceSelector when no matched namespace is present,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1810442,2019-01-14
+1811370,1811370,Fix Released,Doc missing needed config to enable Network Policy,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1811370,2019-01-14
+1789231,1789231,Fix Released,nova dropping support for unversioned notifications,https://bugs.launchpad.net/novajoin/+bug/1789231,2019-01-14
+1769437,1769437,Fix Released,typo in failover-segments.inc file,https://bugs.launchpad.net/masakari/+bug/1769437,2019-01-14
+1786742,1786742,Fix Released,Packaging is failing due to non-existence of masakari-custom-recovery-methods.conf,https://bugs.launchpad.net/masakari/+bug/1786742,2019-01-14
+1799634,1799634,Fix Released,Missing __init__.py in masakari/tests/unit/cmd/,https://bugs.launchpad.net/masakari/+bug/1799634,2019-01-14
+1788883,1788883,Fix Released,Created_At parameter returned in response for create segment and get segment APIs differ,https://bugs.launchpad.net/masakari/+bug/1788883,2019-01-14
+1792608,1792608,Fix Released,puppet-mistral missing python3 client for Debian,https://bugs.launchpad.net/puppet-mistral/+bug/1792608,2019-01-14
+1811185,1811185,Fix Released,"Connection refused, http://overcloud-controller-0.ctlplane.localdomain:5000/v3/projects?",https://bugs.launchpad.net/tripleo/+bug/1811185,2019-01-14
+1808134,1808134,Fix Released,support for templated cell database URLs,https://bugs.launchpad.net/tripleo/+bug/1808134,2019-01-14
+1789371,1789371,Fix Released,Set OVS local ip through puppet-tripleo ODL class and not Neutron's,https://bugs.launchpad.net/tripleo/+bug/1789371,2019-01-13
+1778531,1778531,Fix Released,Don't specify ODL password in THT,https://bugs.launchpad.net/tripleo/+bug/1778531,2019-01-13
+1649956,1649956,Fix Released,Failed to create rbd volume,https://bugs.launchpad.net/cinder/+bug/1649956,2019-01-13
+1810650,1810650,Fix Released,"Rocky spec of ""Promote Replication Target"" - broken list formating in ""Current Workflow"" section",https://bugs.launchpad.net/cinder/+bug/1810650,2019-01-13
+1810431,1810431,Fix Released,buildimage overcloud full fails with InvalidElementDir error,https://bugs.launchpad.net/tripleo/+bug/1810431,2019-01-12
+1796658,1796658,Fix Released,novajoin logging not correct in container undercloud,https://bugs.launchpad.net/tripleo/+bug/1796658,2019-01-11
+1802319,1802319,Fix Released,Fail to scale up openshift master nodes,https://bugs.launchpad.net/tripleo/+bug/1802319,2019-01-11
+1804154,1804154,Fix Released,OpenShift registry isn't configured to use gluster even if deployed with CNS,https://bugs.launchpad.net/tripleo/+bug/1804154,2019-01-11
+1804479,1804479,Fix Released,Using deprecated param ControllerEnableSwiftStorage breaks deployment,https://bugs.launchpad.net/tripleo/+bug/1804479,2019-01-11
+1805482,1805482,Fix Released,Non intuitive provisioning predictable IPs - due to deprecated_params defaults,https://bugs.launchpad.net/tripleo/+bug/1805482,2019-01-11
+1805660,1805660,Fix Released,Swift S3 API is not working,https://bugs.launchpad.net/tripleo/+bug/1805660,2019-01-11
+1805788,1805788,Fix Released,"Adding environments/services/ironic-inspector.yaml should enable the ""inspector"" inspect interface",https://bugs.launchpad.net/tripleo/+bug/1805788,2019-01-11
+1799522,1799522,Fix Released,Invalid gnocchi tmp dir ownership,https://bugs.launchpad.net/tripleo/+bug/1799522,2019-01-11
+1805826,1805826,Fix Released,Pacemaker containers image tagging race condition,https://bugs.launchpad.net/tripleo/+bug/1805826,2019-01-11
+1806011,1806011,Fix Released,facter uuid  is not set many times and per node customization does not work,https://bugs.launchpad.net/tripleo/+bug/1806011,2019-01-11
+1806351,1806351,Fix Released,j2_excludes file is mandatory for using process_templates.py script,https://bugs.launchpad.net/tripleo/+bug/1806351,2019-01-11
+1806897,1806897,Fix Released,fs035: BadRequest: resources.ManagementSubnet: Invalid input for operation: gateway_ip '10.0.1.1' does not match the ip_version '6'.,https://bugs.launchpad.net/tripleo/+bug/1806897,2019-01-11
+1806853,1806853,Fix Released,python-dockery-py package conflict causing jobs to fail,https://bugs.launchpad.net/tripleo/+bug/1806853,2019-01-11
+1805825,1805825,Fix Released,tripleo_undercloud_conf_file hiera variable is missing after the instack-undercloud retirement,https://bugs.launchpad.net/tripleo/+bug/1805825,2019-01-11
+1806718,1806718,Fix Released,ApacheServiceBase needs ServiceData,https://bugs.launchpad.net/tripleo/+bug/1806718,2019-01-11
+1807418,1807418,Fix Released,Docker restart in deploy steps causing malfunction in pacemaker services during upgrades,https://bugs.launchpad.net/tripleo/+bug/1807418,2019-01-11
+1807987,1807987,Fix Released,[rhsm] Upgrade fails when using rhsm if the overcloud nodes are alread registered in satellite,https://bugs.launchpad.net/tripleo/+bug/1807987,2019-01-11
+1671859,1671859,Fix Released,[RFE] Only create resources that will be used at deploy time,https://bugs.launchpad.net/tripleo/+bug/1671859,2019-01-11
+1808240,1808240,Fix Released,scenario008 fail with Property error: allNodesConfig.Properties.service_bootstrap_node_ip,https://bugs.launchpad.net/tripleo/+bug/1808240,2019-01-11
+1808974,1808974,Fix Released,undercloud-upgrades: The conditional check 'step|int = 3',https://bugs.launchpad.net/tripleo/+bug/1808974,2019-01-11
+1806529,1806529,Fix Released,Explicit configure machine type for KVM to guarantee for migration compatibility,https://bugs.launchpad.net/tripleo/+bug/1806529,2019-01-11
+1790537,1790537,Fix Released,[RFE] NIC Config Templates Should Include MTU Settings,https://bugs.launchpad.net/tripleo/+bug/1790537,2019-01-11
+1807707,1807707,Fix Released,The undercloud configuration should support non-contiguous allocation pools for ctlplane subnets,https://bugs.launchpad.net/tripleo/+bug/1807707,2019-01-11
+1806512,1806512,Fix Released,dhcp_start and dhcp_end should be optional for non-local subnet definitions in undercloud.conf.,https://bugs.launchpad.net/tripleo/+bug/1806512,2019-01-11
+1810408,1810408,Fix Released,is_bootstrap_node fact potential name collisions,https://bugs.launchpad.net/tripleo/+bug/1810408,2019-01-11
+1784068,1784068,Fix Released,undercloud role does not have timezone service,https://bugs.launchpad.net/tripleo/+bug/1784068,2019-01-11
+1774401,1774401,Fix Released,Not possible to deploy with custom network unless External network is also used,https://bugs.launchpad.net/tripleo/+bug/1774401,2019-01-11
+1803153,1803153,Fix Released,ironic-pxe in unhealthy status,https://bugs.launchpad.net/tripleo/+bug/1803153,2019-01-11
+1777074,1777074,Fix Released,openstack overcloud plan delete can get stuck forever,https://bugs.launchpad.net/tripleo/+bug/1777074,2019-01-11
+1808349,1808349,Fix Released,"periodic-...-1ctlr-featureset010-master periodic-...-multinode-1ctlr-featureset037-updates-master jobs failing ""Not found image: ... tripleomaster/centos-binary-zaqar""",https://bugs.launchpad.net/tripleo/+bug/1808349,2019-01-11
+1810294,1810294,Fix Released,"command syntax error on docs page ""TripleO and Mistral""",https://bugs.launchpad.net/tripleo/+bug/1810294,2019-01-11
+1801180,1801180,Fix Released,tripleo-common GetOvercloudConfigActionTest.test_run is failing trying to call swift functions,https://bugs.launchpad.net/tripleo/+bug/1801180,2019-01-11
+1723071,1723071,Fix Released,overcloud container image prepare --env-file overwrites unconditionally,https://bugs.launchpad.net/tripleo/+bug/1723071,2019-01-11
+1803387,1803387,Fix Released,tripleoclient unit tests read config from ~/undercloud.conf if exists,https://bugs.launchpad.net/tripleo/+bug/1803387,2019-01-11
+1804527,1804527,Fix Released,undercloud install fails with cryptic error message if /etc/puppet does not exist,https://bugs.launchpad.net/tripleo/+bug/1804527,2019-01-11
+1804649,1804649,Fix Released,f28 standalon fails at timeout,https://bugs.launchpad.net/tripleo/+bug/1804649,2019-01-11
+1806502,1806502,Fix Released,node clean should have --provide flag to Provide (make available) the nodes once cleaned,https://bugs.launchpad.net/tripleo/+bug/1806502,2019-01-11

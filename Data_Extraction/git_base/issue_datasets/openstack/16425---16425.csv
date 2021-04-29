@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1704131,1704131,Fix Released,openstack overcloud update ... fails when yum is locked on an overcloud node,https://bugs.launchpad.net/tripleo/+bug/1704131,2018-01-03
+1737583,1737583,Fix Released,functional tests broken by missing domain info,https://bugs.launchpad.net/python-glanceclient/+bug/1737583,2018-01-03
+1738033,1738033,Fix Released,functional tests broken in ssl environment,https://bugs.launchpad.net/python-glanceclient/+bug/1738033,2018-01-03
+1491668,1491668,Fix Released,deprecate external_network_bridge option in L3 agent,https://bugs.launchpad.net/neutron/+bug/1491668,2018-01-03
+1714163,1714163,Fix Released,Modify the installation description (manual.rst  kuryr-cni),https://bugs.launchpad.net/kuryr-kubernetes/+bug/1714163,2018-01-03
+1718137,1718137,Fix Released,Mismatches in ENV definitions in dockerfiles,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1718137,2018-01-03
+1718674,1718674,Fix Released,Skip sg update calls when returning ports to the pools,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1718674,2018-01-03
+1721194,1721194,Fix Released,Exception recovering ports in use without K8S_ANNOTATION_VIF,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1721194,2018-01-03
+1722142,1722142,Fix Released,"metadata.resourceVersion: Invalid value: """"",https://bugs.launchpad.net/kuryr-kubernetes/+bug/1722142,2018-01-03
+1722524,1722524,Fix Released,devstack: enable ports naming upon k8s pods by default,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1722524,2018-01-03
+1724495,1724495,Fix Released,ERROR is reported upon deletion of service where type=LoadBalancer,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1724495,2018-01-03
+1714204,1714204,Fix Released,Delete service/deployment causes exception,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1714204,2018-01-03
+1727668,1727668,Fix Released,Octavia and lbaasv2 tempest gates are broken,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1727668,2018-01-03
+1732597,1732597,Fix Released,kubernetes headless service cause  AddrFormatError,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1732597,2018-01-03
+1728996,1728996,Fix Released,Usage of IPDB leaks processes,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1728996,2018-01-03
+1733344,1733344,Fix Released,Add support for release notes,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1733344,2018-01-03
+1733832,1733832,Fix Released,kuryr-controller readiness probe is added regardless of KURYR_USE_PORTS_POOLS setting,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1733832,2018-01-03
+1734834,1734834,Fix Released,Promote kuryr-kubernetes devstack deployment to K8s 1.8,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1734834,2018-01-03
+1737978,1737978,Fix Released,documentation should be updated with octavia amaphora HA options,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1737978,2018-01-03
+1738374,1738374,Fix Released,kuryr-daemon fails with TypeError: port must be an integer,https://bugs.launchpad.net/kuryr-kubernetes/+bug/1738374,2018-01-03
+1547142,1547142,Fix Released,A shelved_offload VM's volumes are still attached to a host,https://bugs.launchpad.net/nova/+bug/1547142,2018-01-03
+1695861,1695861,Fix Released,Invalid availability zone name with ':' is accepted,https://bugs.launchpad.net/nova/+bug/1695861,2018-01-03
+1535254,1535254,Fix Released,illustration of 'notify_on_state_change' are different from implementation,https://bugs.launchpad.net/nova/+bug/1535254,2018-01-03
+1721286,1721286,Fix Released,Create volume from image displays incorrect AZs,https://bugs.launchpad.net/horizon/+bug/1721286,2018-01-03
+1736258,1736258,Fix Released,"master/pike network prep fails with ipv6, iptables v1.4.21: invalid mask `64' specified",https://bugs.launchpad.net/tripleo/+bug/1736258,2018-01-03
+1739626,1739626,Fix Released,featureset008 is failing in Pike jobs - exec-setfacl-manila-manila,https://bugs.launchpad.net/tripleo/+bug/1739626,2018-01-02
+1737485,1737485,Fix Released,CI: featureset020 (all tempest tests) promotion job fails with timeout on mtu test,https://bugs.launchpad.net/tripleo/+bug/1737485,2018-01-02
+1740233,1740233,Fix Released,Etcd,https://bugs.launchpad.net/openstack-manuals/+bug/1740233,2018-01-02
+1664294,1664294,Fix Committed,Netlink solution not enough mature for Ocata,https://bugs.launchpad.net/neutron/+bug/1664294,2018-01-02
+1740487,1740487,Fix Released,Nova console SSL broken,https://bugs.launchpad.net/openstack-ansible/+bug/1740487,2018-01-02
+1657048,1657048,Fix Released,package epel-release-7-8 is not installed,https://bugs.launchpad.net/sahara/+bug/1657048,2018-01-01
+1738938,1738938,Fix Released,"""[: ==: unary operator expected"" when running unstack.sh",https://bugs.launchpad.net/devstack/+bug/1738938,2018-01-01
+1737889,1737889,Fix Released,dragonflow-dsvm-fullstack-etcd-zmq gate fails,https://bugs.launchpad.net/dragonflow/+bug/1737889,2017-12-31
+1708370,1708370,Fix Released,SFC driver should warp it's nb_api  calls with DB lock,https://bugs.launchpad.net/dragonflow/+bug/1708370,2017-12-31
+1718101,1718101,Fix Released,TestMultiprocPubSub - skip tests with testtools skip_test of self.skip,https://bugs.launchpad.net/dragonflow/+bug/1718101,2017-12-31
+1738743,1738743,Fix Released,Kolla-kubernetes setup-kubectl.sh and setup-helm.sh only download amd64 binary,https://bugs.launchpad.net/kolla-kubernetes/+bug/1738743,2017-12-30
+1723108,1723108,Fix Released,overcloud config download writes malformed step_config.pp,https://bugs.launchpad.net/tripleo/+bug/1723108,2017-12-29
+1733740,1733740,Fix Released,container image upload is slow due to lack of concurrency,https://bugs.launchpad.net/tripleo/+bug/1733740,2017-12-29
+1736175,1736175,Fix Released,config download command is slow now,https://bugs.launchpad.net/tripleo/+bug/1736175,2017-12-29
+1736993,1736993,Fix Released,Error handling in the create_swift_rings_backup_container_plan workflow is broken,https://bugs.launchpad.net/tripleo/+bug/1736993,2017-12-29
+1737163,1737163,Fix Released,overcloud-full: use openstack-heat-agents,https://bugs.launchpad.net/tripleo/+bug/1737163,2017-12-29
+1736998,1736998,Fix Released,The create_swift_rings_backup_container_plan workflow fails if the container already exists,https://bugs.launchpad.net/tripleo/+bug/1736998,2017-12-29
+1737801,1737801,Fix Released,config-download: config dir created on every deployment task,https://bugs.launchpad.net/tripleo/+bug/1737801,2017-12-29
+1737026,1737026,Fix Released,ansible-playbook action: messages can exceed max message size for zaqar queue,https://bugs.launchpad.net/tripleo/+bug/1737026,2017-12-29
+1739305,1739305,Fix Released,tripleo.deployment.v1.deploy_on_server fails with yaql evaluation error,https://bugs.launchpad.net/tripleo/+bug/1739305,2017-12-29
+1738437,1738437,Fix Released,"Stack update fails with ""overcloud-swift-rings already exists""",https://bugs.launchpad.net/tripleo/+bug/1738437,2017-12-29
+1738208,1738208,Fix Released,ProcessTemplatesAction._heat_resource_exists is inneficient,https://bugs.launchpad.net/tripleo/+bug/1738208,2017-12-29
+1423315,1423315,Fix Released,swift functional tests failing with py.error.EACCES: [Permission denied],https://bugs.launchpad.net/openstack-gate/+bug/1423315,2017-12-29
+1403284,1403284,Fix Released,"mysql (1040, 'Too many connections')",https://bugs.launchpad.net/openstack-gate/+bug/1403284,2017-12-29
+1654673,1654673,Fix Committed,configuration group setting do not survive resize-instance,https://bugs.launchpad.net/trove/+bug/1654673,2017-12-29
+1737115,1737115,Fix Released,missing python-memcached requirement,https://bugs.launchpad.net/keystonemiddleware/+bug/1737115,2017-12-28
+1737119,1737119,Fix Released,oslo cache options are not read from configuration file,https://bugs.launchpad.net/keystonemiddleware/+bug/1737119,2017-12-28
+1617531,1617531,Fix Released,Remote port online error because there is no tunnel for the new created chassis,https://bugs.launchpad.net/dragonflow/+bug/1617531,2017-12-28
+1482061,1482061,Fix Released,The vm in external shared network has no related flow created in br-int,https://bugs.launchpad.net/dragonflow/+bug/1482061,2017-12-28
+1739474,1739474,Fix Released,Promote jobs that upload images failing on image convert,https://bugs.launchpad.net/tripleo/+bug/1739474,2017-12-27
+1452274,1452274,Fix Released,Router port status is not reported back (port status is always DOWN),https://bugs.launchpad.net/dragonflow/+bug/1452274,2017-12-27
+1602240,1602240,Fix Released,[ci][master-pkg-install-*][runtests.sh] Temporary ignore runtests.sh scripts,https://bugs.launchpad.net/fuel/+bug/1602240,2017-12-27
+1631316,1631316,Fix Released,nova package for 8.0 edits existing nova.conf while upgrading,https://bugs.launchpad.net/fuel/+bug/1631316,2017-12-27
+1671525,1671525,Fix Released,Support different container_vars when affinity > 1,https://bugs.launchpad.net/openstack-ansible/+bug/1671525,2017-12-26
+1615475,1615475,Fix Released,"Unable to fetch the details of a keypair with name ""new"".",https://bugs.launchpad.net/nova/+bug/1615475,2017-12-26
+1549125,1549125,Fix Released,Refactor subnet object in df db,https://bugs.launchpad.net/dragonflow/+bug/1549125,2017-12-25
+1739604,1739604,Fix Released,Break up fullstack test file test_apps.py,https://bugs.launchpad.net/dragonflow/+bug/1739604,2017-12-25
+1718564,1718564,Fix Released,[saharaclient] scale command goes to KeyError,https://bugs.launchpad.net/sahara/+bug/1718564,2017-12-25
+1615134,1615134,Fix Released,volume create fails in /usr/sbin/thin_check,https://bugs.launchpad.net/devstack/+bug/1615134,2017-12-25
+1287323,1287323,Fix Released,Python 3 support,https://bugs.launchpad.net/django-openstack-auth/+bug/1287323,2017-12-23
+1676225,1676225,Fix Released,Module has no attributes check_container_status,https://bugs.launchpad.net/zun/+bug/1676225,2017-12-23
+1738441,1738441,Fix Released,ML2 Cisco UCSM MD: More documentation updates,https://bugs.launchpad.net/networking-cisco/+bug/1738441,2017-12-22
+1697879,1697879,Fix Released,Add numa-topology colector to the list of default collectors,https://bugs.launchpad.net/tripleo/+bug/1697879,2017-12-22
+1725170,1725170,Fix Released,flat network type is not mandatory in ironic environment,https://bugs.launchpad.net/kolla-ansible/+bug/1725170,2017-12-22
+1715404,1715404,Fix Released,ubuntu binary job fails due to nova-api failure,https://bugs.launchpad.net/kolla-ansible/+bug/1715404,2017-12-22
+1715818,1715818,Fix Released,Configure and use driver filter and weighing for scheduler in cinder,https://bugs.launchpad.net/cinder/+bug/1715818,2017-12-22
+1739448,1739448,Fix Released,Nexus: obfuscate switch password,https://bugs.launchpad.net/networking-cisco/+bug/1739448,2017-12-21
+1730373,1730373,Fix Released,test.unit.proxy.controllers.test_obj.TestECObjController sometimes fails,https://bugs.launchpad.net/swift/+bug/1730373,2017-12-21
+1715275,1715275,Fix Released,storwize npiv enabled caused add_fc_zone failed,https://bugs.launchpad.net/cinder/+bug/1715275,2017-12-21
+1724074,1724074,Fix Released,XIV: SourceVolumeBadNameError on create volume from snapshot,https://bugs.launchpad.net/cinder/+bug/1724074,2017-12-21

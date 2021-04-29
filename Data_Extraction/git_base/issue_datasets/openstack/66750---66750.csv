@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1425763,1425763,Fix Released,test_flavor_manage.rand_flavor sometimes generates an invalid flavor,https://bugs.launchpad.net/nova/+bug/1425763,2015-04-30
+1425343,1425343,Fix Released,KeyErrors in NovaException message format during unit test runs,https://bugs.launchpad.net/nova/+bug/1425343,2015-04-30
+1424792,1424792,Fix Released,DB API fixed_ip_associate() still uses SELECT FOR UPDATE,https://bugs.launchpad.net/nova/+bug/1424792,2015-04-30
+1422385,1422385,Fix Released,libvirt unit tests fail with older libvirt (or no libvirt installed),https://bugs.launchpad.net/nova/+bug/1422385,2015-04-30
+1422239,1422239,Fix Released,vmware: It can not be select hard or soft reboot,https://bugs.launchpad.net/nova/+bug/1422239,2015-04-30
+1420971,1420971,Fix Released,iscsi_transport parameter should be called iscsi_iface,https://bugs.launchpad.net/nova/+bug/1420971,2015-04-30
+1420322,1420322,Fix Released,"gate-devstack-dsvm-cells fails in volumes exercise with ""Server ex-vol-inst not deleted""",https://bugs.launchpad.net/nova/+bug/1420322,2015-04-30
+1417671,1417671,Fix Released,"when using dedicated cpus, the emulator thread should be affined as well",https://bugs.launchpad.net/nova/+bug/1417671,2015-04-30
+1321765,1321765,Fix Released,Network verification fails when active/backup bonding (Open vSwitch) is configured,https://bugs.launchpad.net/fuel/+bug/1321765,2015-04-30
+1407438,1407438,Fix Released,VMware: resize may select wrong datastore,https://bugs.launchpad.net/nova/+bug/1407438,2015-04-30
+1405359,1405359,Fix Released,Instance's numa_topology shouldn't be changed in NUMATopologyFilter,https://bugs.launchpad.net/nova/+bug/1405359,2015-04-30
+1402784,1402784,Fix Released,VMware: resized instance not marked as 'belonging' to OpenStack,https://bugs.launchpad.net/nova/+bug/1402784,2015-04-30
+1385480,1385480,Fix Released,LVM rescue disk not removed during unrescue,https://bugs.launchpad.net/nova/+bug/1385480,2015-04-30
+1366139,1366139,Fix Released,Metadata cache time should be configurable,https://bugs.launchpad.net/nova/+bug/1366139,2015-04-30
+1363119,1363119,Fix Released,nova messaging queues slow in idle cluster,https://bugs.launchpad.net/nova/+bug/1363119,2015-04-30
+1350224,1350224,Fix Released,"VMWare: Operating System Not Found, using block device mapping for volume during VM spawn",https://bugs.launchpad.net/nova/+bug/1350224,2015-04-30
+1322096,1322096,Fix Released,[HyperV]: configdrive.iso is not migrated when live-migration,https://bugs.launchpad.net/nova/+bug/1322096,2015-04-30
+1249992,1249992,Fix Released,the task_state is migrating if compare cpu failed,https://bugs.launchpad.net/nova/+bug/1249992,2015-04-30
+1161661,1161661,Fix Released,Rescheduling loses reasons,https://bugs.launchpad.net/nova/+bug/1161661,2015-04-30
+1082414,1082414,Fix Released,Live migration between hosts with differents CPU models fails,https://bugs.launchpad.net/nova/+bug/1082414,2015-04-30
+1071799,1071799,Fix Released,commands crash when don't have permissions to read config,https://bugs.launchpad.net/nova/+bug/1071799,2015-04-30
+1431562,1431562,Fix Released,cells: Error processing message locally: Object action save failed because: Calling remotables with context is deprecated,https://bugs.launchpad.net/nova/+bug/1431562,2015-04-30
+1424756,1424756,Fix Released,nova network on multihost does not delete bridges during deletion of networks,https://bugs.launchpad.net/nova/+bug/1424756,2015-04-30
+1418298,1418298,Fix Released,"After service deleted, the corresponding compute-node can't restart again",https://bugs.launchpad.net/nova/+bug/1418298,2015-04-30
+1417340,1417340,Fix Released,Wrong hypervisor statistics reported,https://bugs.launchpad.net/nova/+bug/1417340,2015-04-30
+1417201,1417201,Fix Released,nova-scheduler exception when trying to use hugepages,https://bugs.launchpad.net/nova/+bug/1417201,2015-04-30
+1407050,1407050,Fix Released,VMware: resize fails when using config drive,https://bugs.launchpad.net/nova/+bug/1407050,2015-04-30
+1402728,1402728,Fix Released,VMware: resize does not update cpu limits,https://bugs.launchpad.net/nova/+bug/1402728,2015-04-30
+1375320,1375320,Fix Released,VMware: VM does not have network connectivty when there are many port groups defined,https://bugs.launchpad.net/nova/+bug/1375320,2015-04-30
+1356389,1356389,Fix Released,VMware: unable to access VNC console of rescue VM,https://bugs.launchpad.net/nova/+bug/1356389,2015-04-30
+1352728,1352728,Fix Released,The simultaneous launch of  two or more VMs  will fail,https://bugs.launchpad.net/nova/+bug/1352728,2015-04-30
+1329313,1329313,Fix Released,offline server migration fails if it image in glance was deleted,https://bugs.launchpad.net/nova/+bug/1329313,2015-04-30
+1271966,1271966,Fix Released,Not possible to spawn vmware instance with multiple disks,https://bugs.launchpad.net/nova/+bug/1271966,2015-04-30
+1255317,1255317,Fix Released,VMware: can't boot from sparse image copied to volume,https://bugs.launchpad.net/nova/+bug/1255317,2015-04-30
+1431571,1431571,Fix Released,"archive_deleted_rows_for_table relies on reflection to access the ""default"" for soft-delete columns, but this is not a server default",https://bugs.launchpad.net/nova/+bug/1431571,2015-04-30
+1431201,1431201,Fix Released,kilo controller can't conduct juno compute nodes,https://bugs.launchpad.net/nova/+bug/1431201,2015-04-30
+1430822,1430822,Fix Released,cells rpc API _handle_cell_delete regressed with commit 222d44532c65ddf3f26532ced217890628352536,https://bugs.launchpad.net/nova/+bug/1430822,2015-04-30
+1427209,1427209,Fix Released,"oslo.log doesn't log request_id, project_id, user_id in nova",https://bugs.launchpad.net/nova/+bug/1427209,2015-04-30
+1424532,1424532,Fix Released,setup() takes at least 2 arguments (1 given),https://bugs.launchpad.net/nova/+bug/1424532,2015-04-30
+1423952,1423952,Fix Released,It is impossible to delete an instance that has failed due to neutron/nova notification problems,https://bugs.launchpad.net/nova/+bug/1423952,2015-04-30
+1422901,1422901,Fix Released,"test_delete_server_while_in_verify_resize_state fails with ""ValueError: You must specify a valid interface name.""",https://bugs.launchpad.net/nova/+bug/1422901,2015-04-30
+1417239,1417239,Fix Released,Duplicated block_device_mapping entries with cells,https://bugs.launchpad.net/nova/+bug/1417239,2015-04-30
+1416970,1416970,Fix Released,Typo in nova/virt/disk/vfs/localfs.py,https://bugs.launchpad.net/nova/+bug/1416970,2015-04-30
+1414522,1414522,Fix Released,_get_ironic_client should catch NotImplement exception and handle it,https://bugs.launchpad.net/nova/+bug/1414522,2015-04-30
+1413281,1413281,Fix Released,Conflicting policies should fail with ValidationError in v3,https://bugs.launchpad.net/nova/+bug/1413281,2015-04-30
+1412973,1412973,Fix Released,test_create_server_with_scheduler_hint_group fails,https://bugs.launchpad.net/nova/+bug/1412973,2015-04-30
+1411847,1411847,Fix Released,"block device mapping transformation doesn't handle ""image"" source",https://bugs.launchpad.net/nova/+bug/1411847,2015-04-30
+1411525,1411525,Fix Released,Nova boot from volume functionallity stop working,https://bugs.launchpad.net/rally/+bug/1411525,2015-04-30
+1411525,1411525,Fix Released,Nova boot from volume functionallity stop working,https://bugs.launchpad.net/nova/+bug/1411525,2015-04-30
+1410235,1410235,Fix Released,TIMEOUT_SCALING_FACTOR is ignored in migration tests,https://bugs.launchpad.net/nova/+bug/1410235,2015-04-30
+1408625,1408625,Fix Released,metadata server errors out with a request missing X-Instance-ID-Signature header,https://bugs.launchpad.net/nova/+bug/1408625,2015-04-30
+1408122,1408122,Fix Released,Cells service_get_by_compute_host fails on object conversion,https://bugs.launchpad.net/nova/+bug/1408122,2015-04-30
+1408024,1408024,Fix Released,Wrong processing BadRequest while adding security group rule,https://bugs.launchpad.net/nova/+bug/1408024,2015-04-30
+1407885,1407885,Fix Released,os-tenant-networks API of v2.1 fails,https://bugs.launchpad.net/nova/+bug/1407885,2015-04-30
+1407685,1407685,Fix Released,New eventlet library breaks nova-manage,https://bugs.launchpad.net/nova/+bug/1407685,2015-04-30
+1407370,1407370,Fix Released,comment of the host index api is incorrect,https://bugs.launchpad.net/nova/+bug/1407370,2015-04-30
+1407002,1407002,Fix Released,set_admin_password failed log is not correct,https://bugs.launchpad.net/nova/+bug/1407002,2015-04-30
+1405044,1405044,Fix Released,[GPFS] nova volume-attach a gpfs volume with an error log in nova-compute,https://bugs.launchpad.net/nova/+bug/1405044,2015-04-30
+1403586,1403586,Fix Released,'Controller.create' is too complex,https://bugs.launchpad.net/nova/+bug/1403586,2015-04-30
+1402574,1402574,Fix Released,No fault-tolerance in nova-scheduler,https://bugs.launchpad.net/nova/+bug/1402574,2015-04-30
+1401480,1401480,Fix Released,nova service-list show inconsistent output for disabled_reason,https://bugs.launchpad.net/nova/+bug/1401480,2015-04-30
+1399113,1399113,Fix Released,instance_action cannot record live-migration,https://bugs.launchpad.net/nova/+bug/1399113,2015-04-30
+1397153,1397153,Fix Released,instance stuck at migrating state when some unexpected error happened,https://bugs.launchpad.net/nova/+bug/1397153,2015-04-30
+1392798,1392798,Fix Released,Deleted instances show power state as 'Running',https://bugs.launchpad.net/nova/+bug/1392798,2015-04-30
+1390511,1390511,Fix Released,conductor: race between processes to join servicegroups when zk driver is used,https://bugs.launchpad.net/nova/+bug/1390511,2015-04-30
+1383377,1383377,Fix Released,cpu.shares are not affected by the number of vCPUs,https://bugs.launchpad.net/nova/+bug/1383377,2015-04-30
+1382343,1382343,Fix Released,HTTP 500 is returned when using an invalid port id to attach interface,https://bugs.launchpad.net/nova/+bug/1382343,2015-04-30
+1374915,1374915,Fix Released,"mount nfs volume failed with ""options"" is a blank string",https://bugs.launchpad.net/nova/+bug/1374915,2015-04-30
+1370359,1370359,Fix Released,HTTP 500 is returned when using an invalid network id to attach interface,https://bugs.launchpad.net/nova/+bug/1370359,2015-04-30
+1301373,1301373,Fix Released,nova net-delete of associated network is not informative enough,https://bugs.launchpad.net/nova/+bug/1301373,2015-04-30
+1408484,1408484,Fix Released,Libvirt Windows Timer tests fail on a Mac,https://bugs.launchpad.net/nova/+bug/1408484,2015-04-30
+1370948,1370948,Fix Released,ComputeCapabilitiesFilter doesn't provide enough information on failure,https://bugs.launchpad.net/nova/+bug/1370948,2015-04-30
+1366778,1366778,Fix Released,Flavor names unnecessarily restrictive,https://bugs.launchpad.net/nova/+bug/1366778,2015-04-30
+1355285,1355285,Fix Released,EC2 'attaching' state is not reported for attaching volumes,https://bugs.launchpad.net/nova/+bug/1355285,2015-04-30
+1308171,1308171,Fix Released,Ironic nova driver should be more efficient with ironic client calls,https://bugs.launchpad.net/nova/+bug/1308171,2015-04-30

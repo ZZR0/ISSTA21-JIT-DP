@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1378450,1378450,Fix Released,[OSSA 2014-039] Maliciously crafted dns_nameservers will crash neutron (CVE-2014-7821),https://bugs.launchpad.net/ossa/+bug/1378450,2015-04-30
+1378450,1378450,Fix Released,[OSSA 2014-039] Maliciously crafted dns_nameservers will crash neutron (CVE-2014-7821),https://bugs.launchpad.net/neutron/+bug/1378450,2015-04-30
+1377241,1377241,Fix Released,Lock wait timeout on delete port for DVR,https://bugs.launchpad.net/neutron/+bug/1377241,2015-04-30
+1374461,1374461,Fix Released,potential lock wait timeout issue when creating a HA router,https://bugs.launchpad.net/neutron/+bug/1374461,2015-04-30
+1367881,1367881,Fix Released,l2pop RPC code throwing an exception in fdb_chg_ip_tun(),https://bugs.launchpad.net/neutron/+bug/1367881,2015-04-30
+1365806,1365806,Fix Released,Noopfirewall driver or security group disabled should avoid impose security group related calls to Neutron server,https://bugs.launchpad.net/neutron/+bug/1365806,2015-04-30
+1365255,1365255,Fix Released,ofagent: possible crash in arp responder,https://bugs.launchpad.net/neutron/+bug/1365255,2015-04-30
+1348309,1348309,Fix Released,Migration of legacy router to distributed router not working,https://bugs.launchpad.net/neutron/+bug/1348309,2015-04-30
+1330826,1330826,Fix Released,Neutron network:dhcp port is not assigned EUI64 IPv6 address for SLAAC subnet,https://bugs.launchpad.net/neutron/+bug/1330826,2015-04-30
+1401656,1401656,Fix Released,IPv6 Tempest tests fail with DVR,https://bugs.launchpad.net/neutron/+bug/1401656,2015-04-30
+1397796,1397796,Fix Released,"alembic v. 0.7.1 will support ""remove_fk"" and others not expected by heal_script",https://bugs.launchpad.net/neutron/+bug/1397796,2015-04-30
+1438920,1438920,Fix Released,specification of a nova network to instance during icehouse->juno partial upgrade fails,https://bugs.launchpad.net/nova/+bug/1438920,2015-04-30
+1437389,1437389,Fix Released,Libvirt SMB volume driver: fail to attach volume,https://bugs.launchpad.net/nova/+bug/1437389,2015-04-30
+1439868,1439868,Fix Released,Ironic: CONF.scheduler_use_baremetal_filters doesn't have any effect,https://bugs.launchpad.net/nova/+bug/1439868,2015-04-30
+1438480,1438480,Fix Released,missing json-schema for fixed-ips,https://bugs.launchpad.net/nova/+bug/1438480,2015-04-30
+1437184,1437184,Fix Released,v2.1 list-host support 'service' filter but v2 does not,https://bugs.launchpad.net/nova/+bug/1437184,2015-04-30
+1437111,1437111,Fix Released,os-migrateLive fault but rest api raise a incorrect conflict message,https://bugs.launchpad.net/nova/+bug/1437111,2015-04-30
+1436895,1436895,Fix Released,two socket related unit tests fail in mac os,https://bugs.launchpad.net/nova/+bug/1436895,2015-04-30
+1436750,1436750,Fix Released,hypervisor_type='ironic' in image option breaks nova deploy,https://bugs.launchpad.net/nova/+bug/1436750,2015-04-30
+1436613,1436613,Fix Released,TypeError: _instance_action() got an unexpected keyword argument 'clean_shutdown',https://bugs.launchpad.net/nova/+bug/1436613,2015-04-30
+1435668,1435668,Fix Released,v2.1- os-hypervisors/servers API returns empty servers list,https://bugs.launchpad.net/nova/+bug/1435668,2015-04-30
+1435507,1435507,Fix Released,Compute API v2.0 vs v2.1 labelling,https://bugs.launchpad.net/nova/+bug/1435507,2015-04-30
+1435507,1435507,Fix Released,Compute API v2.0 vs v2.1 labelling,https://bugs.launchpad.net/openstack-api-site/+bug/1435507,2015-04-30
+1435327,1435327,Fix Released,api unittest failed with policy config in '/etc/nova/policy.d',https://bugs.launchpad.net/nova/+bug/1435327,2015-04-30
+1434687,1434687,Fix Released,Need to drop unused DB API - vol_get_usage_by_time,https://bugs.launchpad.net/nova/+bug/1434687,2015-04-30
+1434335,1434335,Fix Released,Change v2 API server group name validation to use the same validation that the other APIs use,https://bugs.launchpad.net/nova/+bug/1434335,2015-04-30
+1434112,1434112,Fix Released,Optimize periodic call to get_by_host,https://bugs.launchpad.net/nova/+bug/1434112,2015-04-30
+1432913,1432913,Fix Released,rescue imageref not pulling image metadata during rescue mode,https://bugs.launchpad.net/nova/+bug/1432913,2015-04-30
+1432020,1432020,Fix Released,Ironic nodes can be scheduled to in inappropriate states,https://bugs.launchpad.net/nova/+bug/1432020,2015-04-30
+1431746,1431746,Fix Released,AggregateCoreFilter return incorrect value,https://bugs.launchpad.net/nova/+bug/1431746,2015-04-30
+1431193,1431193,Fix Released,Fix typo in _live_migration_cleanup_flags() method,https://bugs.launchpad.net/nova/+bug/1431193,2015-04-30
+1430941,1430941,Fix Released,vmware: snapshot not passing image properties,https://bugs.launchpad.net/nova/+bug/1430941,2015-04-30
+1430481,1430481,Fix Released,neutronv2 API: remove_fixed_ip_from_instance constructs a client for each port in the loop,https://bugs.launchpad.net/nova/+bug/1430481,2015-04-30
+1429729,1429729,Fix Released,networks_associate V2 test case call networks_associate V2.1 controller,https://bugs.launchpad.net/nova/+bug/1429729,2015-04-30
+1428429,1428429,Fix Released,'nova show vm-id' return wrong mac,https://bugs.launchpad.net/nova/+bug/1428429,2015-04-30
+1428182,1428182,Fix Released,Removing network bridge cause ERROR state of instance during deletion,https://bugs.launchpad.net/nova/+bug/1428182,2015-04-30
+1427467,1427467,Fix Released,Oversight when copying configdrive during live migration on Hyperv,https://bugs.launchpad.net/nova/+bug/1427467,2015-04-30
+1427295,1427295,Fix Released,nova-network with multi-host and update_dns_entries crashes during instance termination,https://bugs.launchpad.net/nova/+bug/1427295,2015-04-30
+1427092,1427092,Fix Released,preallocate_images can be arbitrary characters to enable preallocate feature,https://bugs.launchpad.net/nova/+bug/1427092,2015-04-30
+1423845,1423845,Fix Released,In certain cases compute does not clean up neutron ports after unsuccessful vm spawn,https://bugs.launchpad.net/nova/+bug/1423845,2015-04-30
+1386511,1386511,Fix Released,VMWare: attach a iscsi volume to a VirtualIDEController,https://bugs.launchpad.net/nova/+bug/1386511,2015-04-30
+1371175,1371175,Fix Released,Delete the libvirt volume_drivers config parameter,https://bugs.launchpad.net/nova/+bug/1371175,2015-04-30
+1346108,1346108,Fix Released,nova doesn't release network when network_info is not  equal to 1,https://bugs.launchpad.net/nova/+bug/1346108,2015-04-30
+1439282,1439282,Fix Released,Cinder API errors and timeouts can cause Nova to not save data about volumes,https://bugs.launchpad.net/nova/+bug/1439282,2015-04-30
+1438514,1438514,Fix Released,cells message methods are unable to return objects,https://bugs.launchpad.net/nova/+bug/1438514,2015-04-30
+1438183,1438183,Fix Released,Graceful shutdown of nova-compute service fails,https://bugs.launchpad.net/nova/+bug/1438183,2015-04-30
+1436455,1436455,Fix Released,PCIDevicePool object can't be converted to a primitive if no tags are set,https://bugs.launchpad.net/nova/+bug/1436455,2015-04-30
+1435586,1435586,Fix Released,trigger security group refresh gives 'dict' object has no attribute 'uuid',https://bugs.launchpad.net/nova/+bug/1435586,2015-04-30
+1435483,1435483,Fix Released,[pci-passthrough] Failed to launch vm after restarting nova compute,https://bugs.launchpad.net/nova/+bug/1435483,2015-04-30
+1434855,1434855,Fix Released,tox -e docs fails because of 2 bad json files,https://bugs.launchpad.net/nova/+bug/1434855,2015-04-30
+1433524,1433524,Fix Released,Nova deletes first preexisting port if second was attached to instance,https://bugs.launchpad.net/nova/+bug/1433524,2015-04-30
+1418855,1418855,Fix Released,Instance files doesn't clean up from destination node in revert-resize api for non-shared environment,https://bugs.launchpad.net/nova/+bug/1418855,2015-04-30
+1343946,1343946,Fix Released,nova should not disable retry when there are multiple force hosts/nodes,https://bugs.launchpad.net/nova/+bug/1343946,2015-04-30
+1328455,1328455,Fix Released,vmware: Instance going to error state while resizing,https://bugs.launchpad.net/nova/+bug/1328455,2015-04-30
+1239723,1239723,Fix Released,500 response on booting a server with dict security group argument,https://bugs.launchpad.net/nova/+bug/1239723,2015-04-30
+1226083,1226083,Fix Released,extract_flavor() doesn't work for deleted instances,https://bugs.launchpad.net/nova/+bug/1226083,2015-04-30
+1189981,1189981,Fix Released,key_pairs name column should be not null in DB,https://bugs.launchpad.net/nova/+bug/1189981,2015-04-30
+1442048,1442048,Fix Released,Avoid websocket proxies needing to have matching have config '*_baseurl' configs with compute nodes,https://bugs.launchpad.net/nova/+bug/1442048,2015-04-30
+1441931,1441931,Fix Released,nova-network create ignores uuid request parameter,https://bugs.launchpad.net/nova/+bug/1441931,2015-04-30
+1441243,1441243,Fix Released,EnumField can be None and thus unrestricted,https://bugs.launchpad.net/nova/+bug/1441243,2015-04-30
+1439796,1439796,Fix Released,Ironic driver fails to start when CONF.ironic.client_log_level is set,https://bugs.launchpad.net/nova/+bug/1439796,2015-04-30
+1438861,1438861,Fix Released,"Policy file reloaded > 33,000 times during a gate run",https://bugs.launchpad.net/nova/+bug/1438861,2015-04-30
+1438315,1438315,Fix Released,add_instance_fault_from_exc expects object but isn't always passed one,https://bugs.launchpad.net/nova/+bug/1438315,2015-04-30
+1436823,1436823,Fix Released,cpu pinning request was ignored,https://bugs.launchpad.net/nova/+bug/1436823,2015-04-30
+1435981,1435981,Fix Released,PciPassthroughFilter throws exception if host has no pci devices,https://bugs.launchpad.net/nova/+bug/1435981,2015-04-30
+1434611,1434611,Fix Released,serial console in Horizon is broken by origin header verification,https://bugs.launchpad.net/nova/+bug/1434611,2015-04-30
+1434033,1434033,Fix Released,api: need to clean up keypairs after initial work,https://bugs.launchpad.net/nova/+bug/1434033,2015-04-30
+1427351,1427351,Fix Released,cells: hypervisor API extension can't find compute_node services,https://bugs.launchpad.net/nova/+bug/1427351,2015-04-30
+1425115,1425115,Fix Released,nova can't start with libvirt-xen driver,https://bugs.launchpad.net/nova/+bug/1425115,2015-04-30
+1423237,1423237,Fix Released,"check-tempest-dsvm-cells fails with: ""AttributeError: 'dict' object has no attribute 'host' in hypervisor.py""",https://bugs.launchpad.net/nova/+bug/1423237,2015-04-30
+1416361,1416361,Fix Released,Nova doesn't allow to resize down an instance booted from a volume,https://bugs.launchpad.net/nova/+bug/1416361,2015-04-30
+1408496,1408496,Fix Released,Juno with icehouse compute service object error,https://bugs.launchpad.net/nova/+bug/1408496,2015-04-30
+1303615,1303615,Fix Released,"Instance's Task state never change from ""scheduling"" after sending SIGHUP to nova-compute",https://bugs.launchpad.net/nova/+bug/1303615,2015-04-30
+1442236,1442236,Fix Released,Bump compute RPC API to 4.0,https://bugs.launchpad.net/nova/+bug/1442236,2015-04-30
+1431551,1431551,Fix Released,nova.tests.unit.api.openstack.compute.contrib.test_block_device_mapping_v1 hits OverQuota with --concurrency=1,https://bugs.launchpad.net/nova/+bug/1431551,2015-04-30

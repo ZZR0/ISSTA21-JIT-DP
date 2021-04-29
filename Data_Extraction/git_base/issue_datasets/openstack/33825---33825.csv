@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1621200,1621200,Fix Released,password created_at does not honor timezones,https://bugs.launchpad.net/keystone/+bug/1621200,2016-11-17
+1593813,1593813,Fix Released,domain admin unable to setup a domain-specific role to imply another domain-specific role in the same domain,https://bugs.launchpad.net/keystone/+bug/1593813,2016-11-17
+1620764,1620764,Fix Released,migration test fails on table addition,https://bugs.launchpad.net/keystone/+bug/1620764,2016-11-17
+1590583,1590583,Fix Released,domain-specific role in one domain should not be able to imply a domain-specific role from another domain,https://bugs.launchpad.net/keystone/+bug/1590583,2016-11-17
+1626794,1626794,Fix Released,"[api] document ""belongsTo"" query for HEAD/GET tokens on v2",https://bugs.launchpad.net/keystone/+bug/1626794,2016-11-17
+1627085,1627085,Fix Released,The belongsTo query parameters for v2.0 is broken,https://bugs.launchpad.net/keystone/+bug/1627085,2016-11-17
+1274581,1274581,Fix Released,keystone ldap identity backend will not work without TLS_CACERT path specified in an ldap.conf file,https://bugs.launchpad.net/keystone/+bug/1274581,2016-11-17
+1630435,1630435,Fix Released,make the assignment/resource backend default to sql,https://bugs.launchpad.net/keystone/+bug/1630435,2016-11-17
+1448602,1448602,Fix Released,[api] /v3/policy incorrectly shows user_id and project_id as supported parameters,https://bugs.launchpad.net/keystone/+bug/1448602,2016-11-17
+1448602,1448602,Fix Released,[api] /v3/policy incorrectly shows user_id and project_id as supported parameters,https://bugs.launchpad.net/openstack-api-site/+bug/1448602,2016-11-17
+1631517,1631517,Fix Released,No formal statement of project name restrictions,https://bugs.launchpad.net/keystone/+bug/1631517,2016-11-17
+1563101,1563101,Fix Released,Remove backend dependency on core,https://bugs.launchpad.net/keystone/+bug/1563101,2016-11-17
+1622310,1622310,Fix Released,trust still exist in the DB when the trustor/trustee/project is deleted,https://bugs.launchpad.net/keystone/+bug/1622310,2016-11-17
+1633285,1633285,Fix Released,Identity API v3 (CURRENT) in Identity API Reference,https://bugs.launchpad.net/keystone/+bug/1633285,2016-11-17
+1472059,1472059,Fix Released,"Using ""keystone-manage domain_config_upload --all"" with an empty /etc/keystone/domains directory results in no feedback",https://bugs.launchpad.net/keystone/+bug/1472059,2016-11-17
+1604971,1604971,Fix Released,RFE: keystone doctor should check for domain specific backends,https://bugs.launchpad.net/keystone/+bug/1604971,2016-11-17
+1635162,1635162,Fix Released,log.error use _ of i18n,https://bugs.launchpad.net/keystone/+bug/1635162,2016-11-17
+1637135,1637135,Fix Released,*_attribute_ignore is deprecated for removal even ldap backend read operations depends on it,https://bugs.launchpad.net/keystone/+bug/1637135,2016-11-17
+1626779,1626779,Fix Released,[api] document OS-SIMPLE-CERT routes,https://bugs.launchpad.net/keystone/+bug/1626779,2016-11-17
+1639131,1639131,Fix Released,Invalid folder in openstack/keystone repository,https://bugs.launchpad.net/keystone/+bug/1639131,2016-11-17
+1638368,1638368,Fix Released,new keystone db migrations require either SUPER or  log_bin_trust_function_creators=1,https://bugs.launchpad.net/keystone/+bug/1638368,2016-11-17
+1596692,1596692,Fix Released,NUMATopologyFilter filters out a compute from candidates for booting a VM with  'hw:cpu_thread_policy=require' unless cores from all NUMA nodes are enabled in vcpu_pin_set on the compute,https://bugs.launchpad.net/nova/+bug/1596692,2016-11-17
+1612913,1612913,Fix Released,"The description of ""Inject guest networking config"" in support-matrix is misleading",https://bugs.launchpad.net/nova/+bug/1612913,2016-11-17
+1596873,1596873,Fix Released,[novncproxy] log for closing web is misleading,https://bugs.launchpad.net/nova/+bug/1596873,2016-11-17
+1599787,1599787,Fix Released,The documentation of disk=0 in flavor is misleading,https://bugs.launchpad.net/nova/+bug/1599787,2016-11-17
+1615467,1615467,Fix Released,[api-ref]: Computer API show version refer wrong link,https://bugs.launchpad.net/nova/+bug/1615467,2016-11-17
+1619690,1619690,Fix Released,request logging in placement api always logs success,https://bugs.launchpad.net/nova/+bug/1619690,2016-11-17
+1622758,1622758,Fix Released,"Doc fix in Nova API Guide: faults.rst, insert missing word ""call""",https://bugs.launchpad.net/nova/+bug/1622758,2016-11-17
+1623738,1623738,Fix Released,Disabled state of host is not updated when reason is not provided.,https://bugs.launchpad.net/nova/+bug/1623738,2016-11-17
+1624383,1624383,Fix Released,vif plugging fails with ovn when trying to set mtu on qvb device that does not exist,https://bugs.launchpad.net/nova/+bug/1624383,2016-11-17
+1621891,1621891,Fix Released,Extra characters in create server responses description,https://bugs.launchpad.net/nova/+bug/1621891,2016-11-17
+1538169,1538169,Fix Released,Quota_server_group_members parameter is not respected with min_count/max_count,https://bugs.launchpad.net/nova/+bug/1538169,2016-11-17
+1588888,1588888,Fix Released,Set migration status to 'error' on live-migration failure,https://bugs.launchpad.net/nova/+bug/1588888,2016-11-17
+1620748,1620748,Fix Released,In placement when an attempt is made to write to missing inventory the error message is ugly,https://bugs.launchpad.net/nova/+bug/1620748,2016-11-17
+1302831,1302831,Fix Released,hacking/flake8 skips most xenapi plugins,https://bugs.launchpad.net/nova/+bug/1302831,2016-11-17
+1623573,1623573,Fix Released,placement API functional test fixtures do not do appropriate stdout and stderr handling,https://bugs.launchpad.net/nova/+bug/1623573,2016-11-17
+1615676,1615676,Fix Released,os-vif log messages corrupt and pollute test output,https://bugs.launchpad.net/nova/+bug/1615676,2016-11-17
+1496932,1496932,Fix Released,nova.console.websocketproxy fails if there is a cookie with invalid name,https://bugs.launchpad.net/nova/+bug/1496932,2016-11-17
+1613411,1613411,Fix Released,check_config_option_in_central_place does not check anything,https://bugs.launchpad.net/nova/+bug/1613411,2016-11-17
+1612875,1612875,Fix Released,"FixedIPsTestJson fails server build with ""was re-scheduled: operation failed: filter 'nova-no-nd-reflection' already exists with uuid""",https://bugs.launchpad.net/nova/+bug/1612875,2016-11-17
+1441242,1441242,Fix Released,instances internal_id attribute not in use,https://bugs.launchpad.net/nova/+bug/1441242,2016-11-17
+1626880,1626880,Fix Released,"Mock.side_effects does not exist, use Mock.side_effect instead",https://bugs.launchpad.net/nova/+bug/1626880,2016-11-17
+1626489,1626489,Fix Released,placement api 404 errors are logged poorly,https://bugs.launchpad.net/nova/+bug/1626489,2016-11-17
+1626490,1626490,Fix Released,placement api root resource is only '/' not '' which can lead to unexpected 404s,https://bugs.launchpad.net/nova/+bug/1626490,2016-11-17
+1500896,1500896,Fix Released,It's not necessary to pass context as kwarg to oslo.log in most cases,https://bugs.launchpad.net/nova/+bug/1500896,2016-11-17
+1500896,1500896,Fix Released,It's not necessary to pass context as kwarg to oslo.log in most cases,https://bugs.launchpad.net/cinder/+bug/1500896,2016-11-17
+1622545,1622545,Fix Released,archive_deleted_rows isn't archiving instances,https://bugs.launchpad.net/nova/+bug/1622545,2016-11-17
+1628200,1628200,Fix Released,"Remove unused column ""scheduled_at"" from instances from schema",https://bugs.launchpad.net/nova/+bug/1628200,2016-11-17
+1626496,1626496,Fix Released,when placement API sends a 405 the header value is in the incorrect format,https://bugs.launchpad.net/nova/+bug/1626496,2016-11-17
+1628530,1628530,Fix Released,Rescheduling an instance leaves it in a scheduling state and never succeeds,https://bugs.launchpad.net/nova/+bug/1628530,2016-11-17
+1599256,1599256,Fix Released,instance_get_all_by_filters can perform unnecessary joins,https://bugs.launchpad.net/nova/+bug/1599256,2016-11-17
+1628643,1628643,Fix Released,RST markup error leaving trailing ::,https://bugs.launchpad.net/nova/+bug/1628643,2016-11-17
+1626493,1626493,Fix Released,placement api log entries have mismatched request ids,https://bugs.launchpad.net/nova/+bug/1626493,2016-11-17
+1628854,1628854,Fix Released,Hyper-V VMs cannot spawn due to missing image property,https://bugs.launchpad.net/nova/+bug/1628854,2016-11-17
+1575998,1575998,Fix Released,The actual value of 'request_spec' should be reported when a MaxRetriesExceeded exception is raised,https://bugs.launchpad.net/nova/+bug/1575998,2016-11-17
+1629040,1629040,Fix Released,Incorrect hyper-v driver capability,https://bugs.launchpad.net/nova/+bug/1629040,2016-11-17
+1628449,1628449,Fix Released,Exception when live block migration multiple ephemerals,https://bugs.launchpad.net/nova/+bug/1628449,2016-11-17
+1602293,1602293,Fix Released,The API doc for os-console-auth-tokens is wrong,https://bugs.launchpad.net/nova/+bug/1602293,2016-11-17
+1555065,1555065,Fix Released,Image goes to saving state when we delete instance just after taking snapshot and remain the state forever,https://bugs.launchpad.net/nova/+bug/1555065,2016-11-17
+1623871,1623871,Fix Released,Nova hugepage support does not include aarch64,https://bugs.launchpad.net/nova/+bug/1623871,2016-11-17
+1632987,1632987,Fix Released,_nova_to_osvif_vif_bridge: 'module' object has no attribute 'vif',https://bugs.launchpad.net/nova/+bug/1632987,2016-11-17
+1611292,1611292,Fix Released,api-ref: wrong parameters in os-volumes.inc,https://bugs.launchpad.net/nova/+bug/1611292,2016-11-17
+1610932,1610932,Fix Released,XenServer 7.0 failed live-migrate with iSCSI SR volume,https://bugs.launchpad.net/nova/+bug/1610932,2016-11-17
+1634962,1634962,Fix Released,"""test_check_can_live_migrate_dest_fills_listen_addrs"" failed due to incorrect mock",https://bugs.launchpad.net/nova/+bug/1634962,2016-11-17
+1635230,1635230,Fix Released,Unable to specify hw_vif_model image metadata for Virtuozzo hypervisor virt_type=parallels,https://bugs.launchpad.net/nova/+bug/1635230,2016-11-17
+1635467,1635467,Fix Released,_emit_versioned_exception_notification fails with AttributeError: 'NoneType' object has no attribute '__name__',https://bugs.launchpad.net/nova/+bug/1635467,2016-11-17
+1636418,1636418,Fix Released,Show Image Details example response is using the wrong API sample,https://bugs.launchpad.net/nova/+bug/1636418,2016-11-17
+1622854,1622854,Fix Released,pci: double pci migration is putting vm in ERROR,https://bugs.launchpad.net/nova/+bug/1622854,2016-11-17
+1598843,1598843,Fix Released,PCI whitelist is getting parsed every time neutronv2 API create or update a port,https://bugs.launchpad.net/nova/+bug/1598843,2016-11-17
+1638606,1638606,Fix Released,api-ref: create keypair response is confusing wrt user_id and microversion 2.10,https://bugs.launchpad.net/nova/+bug/1638606,2016-11-17
+1636185,1636185,Fix Released,Associate Floating IP with server - Improve description,https://bugs.launchpad.net/nova/+bug/1636185,2016-11-17
+1632153,1632153,Fix Released,api-ref: a description for 'port' is wrong in os-consoles.inc,https://bugs.launchpad.net/nova/+bug/1632153,2016-11-17
+1641331,1641331,Fix Released,server metadata PUT request details are wrong,https://bugs.launchpad.net/nova/+bug/1641331,2016-11-17
+1640995,1640995,Fix Released,Add microversion cap for each version to api-ref,https://bugs.launchpad.net/nova/+bug/1640995,2016-11-17
+1585889,1585889,Fix Released,There's no option to disable internal db for storing sahara job binaries,https://bugs.launchpad.net/sahara/+bug/1585889,2016-11-17

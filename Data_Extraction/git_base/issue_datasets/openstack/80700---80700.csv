@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1269958,1269958,Fix Released,cinder allows 'env' as commandfilter in rootwrap,https://bugs.launchpad.net/cinder/+bug/1269958,2014-04-17
+1267983,1267983,Fix Released,GlusterFS: Additional operations require synchronization,https://bugs.launchpad.net/cinder/+bug/1267983,2014-04-17
+1267253,1267253,Fix Released,NFS/GlusterFS drivers should validate format of configured shares,https://bugs.launchpad.net/cinder/+bug/1267253,2014-04-17
+1266804,1266804,Fix Released,User/pass logged in PostgreSQL connection string,https://bugs.launchpad.net/cinder/+bug/1266804,2014-04-17
+1265208,1265208,Fix Released,solidfire account prefix default causes problems in HA environments,https://bugs.launchpad.net/cinder/+bug/1265208,2014-04-17
+1263820,1263820,Fix Released,Handle terminate_connection() exception in volume manager,https://bugs.launchpad.net/cinder/+bug/1263820,2014-04-17
+1261941,1261941,Fix Released,creating sheepdog volume from image fails,https://bugs.launchpad.net/cinder/+bug/1261941,2014-04-17
+1259336,1259336,Fix Released,"Unhandled exception when ""None"" is passed in as new_size to extend",https://bugs.launchpad.net/cinder/+bug/1259336,2014-04-17
+1258203,1258203,Fix Released,migrate_volume dest_vg existence is wrong,https://bugs.launchpad.net/cinder/+bug/1258203,2014-04-17
+1258133,1258133,Fix Released,lvm_mirrors in volume_migration should be converted to int,https://bugs.launchpad.net/cinder/+bug/1258133,2014-04-17
+1257613,1257613,Fix Released,cinder/bin/*.py has un i18ned output strings,https://bugs.launchpad.net/cinder/+bug/1257613,2014-04-17
+1257198,1257198,Fix Released,All Cinder Public API controllers should inherit from wsgi.Controller,https://bugs.launchpad.net/cinder/+bug/1257198,2014-04-17
+1253657,1253657,Fix Released,NetApp Cinder driver doesn't work with vsadmin role credentials,https://bugs.launchpad.net/cinder/+bug/1253657,2014-04-17
+1252864,1252864,Fix Released,GlusterFS: allow snapshot_delete when snapshot info does not exist,https://bugs.launchpad.net/cinder/+bug/1252864,2014-04-17
+1251334,1251334,Fix Released,volume create race condition protection,https://bugs.launchpad.net/cinder/+bug/1251334,2014-04-17
+1250249,1250249,Fix Released,3PAR: Snapshot stuck in Error_Deleting status,https://bugs.launchpad.net/cinder/+bug/1250249,2014-04-17
+1248415,1248415,Fix Released,cinder extend Bug : tgt update not implemented,https://bugs.launchpad.net/cinder/+bug/1248415,2014-04-17
+1243613,1243613,Fix Released,Volume-transfer Creation doesn't support 'name' specified via xml format,https://bugs.launchpad.net/cinder/+bug/1243613,2014-04-17
+1268305,1268305,Fix Released,host not updated during driver retype,https://bugs.launchpad.net/cinder/+bug/1268305,2014-04-17
+1266048,1266048,Fix Released,Copy image to volume iSCSI multipath doesn't work properly if there are different targets associated with different portals for a mulitpath device.,https://bugs.launchpad.net/cinder/+bug/1266048,2014-04-17
+1262880,1262880,Fix Released,GlusterFS: Use correct base argument when deleting attached snaps,https://bugs.launchpad.net/cinder/+bug/1262880,2014-04-17
+1262432,1262432,Fix Released,tempest volume transfer test can race against other tenants,https://bugs.launchpad.net/cinder/+bug/1262432,2014-04-17
+1259957,1259957,Fix Released,rate-limiting doesn't work,https://bugs.launchpad.net/cinder/+bug/1259957,2014-04-17
+1258128,1258128,Fix Released,LVM brick instantiation fails on volume_migration,https://bugs.launchpad.net/cinder/+bug/1258128,2014-04-17
+1257053,1257053,Fix Released,No notification sent deleting a volume that doesn't have a real backing volume,https://bugs.launchpad.net/cinder/+bug/1257053,2014-04-17
+1252512,1252512,Fix Released,config option keymgr.fixed_key has not been defined,https://bugs.launchpad.net/cinder/+bug/1252512,2014-04-17
+1250816,1250816,Fix Released,VMware VMDK driver should use host mount count as the main criterion for datastore selection,https://bugs.launchpad.net/cinder/+bug/1250816,2014-04-17
+1247998,1247998,Fix Released,Create volume from image does not convert with ceph,https://bugs.launchpad.net/cinder/+bug/1247998,2014-04-17
+1257068,1257068,Fix Released,Use assertAlmostEqual instead of failUnlessAlmostEqual in unit tests,https://bugs.launchpad.net/cinder/+bug/1257068,2014-04-17
+1257049,1257049,Fix Released,Volume manager re-export failure stops volume service,https://bugs.launchpad.net/cinder/+bug/1257049,2014-04-17
+1255908,1255908,Fix Released,Fix typo in cinder,https://bugs.launchpad.net/cinder/+bug/1255908,2014-04-17
+1255857,1255857,Fix Released,need to ignore swap files from getting into repository,https://bugs.launchpad.net/cinder/+bug/1255857,2014-04-17
+1254978,1254978,Fix Released,_update_volume_status() is not called by anyone,https://bugs.launchpad.net/cinder/+bug/1254978,2014-04-17
+1254975,1254975,Fix Released,The body validation is redundant for os-volume_upload_image,https://bugs.launchpad.net/cinder/+bug/1254975,2014-04-17
+1254671,1254671,Fix Released,Remove the redundant judgment for 'restore',https://bugs.launchpad.net/cinder/+bug/1254671,2014-04-17
+1254635,1254635,Fix Released,Fix docstring for Snapshot model.,https://bugs.launchpad.net/cinder/+bug/1254635,2014-04-17
+1254089,1254089,Fix Released,wait_child() without greenthread.sleep() uses excessive CPU,https://bugs.launchpad.net/cinder/+bug/1254089,2014-04-17
+1253944,1253944,Fix Released,"initialize and terminate connection should check ""connector"" in request",https://bugs.launchpad.net/cinder/+bug/1253944,2014-04-17
+1253910,1253910,Fix Released,Fixes inappropriate description about migrate_volume_completion,https://bugs.launchpad.net/cinder/+bug/1253910,2014-04-17
+1253904,1253904,Fix Released,"Migrate volume  should check parameter ""host"" in request",https://bugs.launchpad.net/cinder/+bug/1253904,2014-04-17
+1252175,1252175,Fix Released,Fixes error message when create snapshot,https://bugs.launchpad.net/cinder/+bug/1252175,2014-04-17
+1304473,1304473,Fix Released,security-service can be deleted if attached to some share-network,https://bugs.launchpad.net/manila/+bug/1304473,2014-04-17
+1251126,1251126,Fix Released,test_get_dss_rp in test_vmware_vmdk.py not testing the positive case as intended,https://bugs.launchpad.net/cinder/+bug/1251126,2014-04-17
+1249411,1249411,Fix Released,volume record can be deleted when GPFS is unmounted,https://bugs.launchpad.net/cinder/+bug/1249411,2014-04-17
+1248815,1248815,Fix Released,Update quotas shouldn't allow bad keys in the request,https://bugs.launchpad.net/cinder/+bug/1248815,2014-04-17
+1248434,1248434,Fix Released,RequestContext initialization failed in cinder.,https://bugs.launchpad.net/cinder/+bug/1248434,2014-04-17
+1246779,1246779,Fix Released,get_volume_stats() will report wrong capacity number if GPFS is unmounted,https://bugs.launchpad.net/cinder/+bug/1246779,2014-04-17
+1246079,1246079,Fix Released,Nexenta volume driver leaves snapshot uremoved,https://bugs.launchpad.net/cinder/+bug/1246079,2014-04-17
+1244848,1244848,Fix Released,volume_readonly_update API not support request using XML,https://bugs.launchpad.net/cinder/+bug/1244848,2014-04-17
+1243840,1243840,Fix Released,flaky log ERRORs in c-vol after successful tempest run,https://bugs.launchpad.net/cinder/+bug/1243840,2014-04-17
+1242547,1242547,Fix Released,VMware: driver must register opts in global space,https://bugs.launchpad.net/cinder/+bug/1242547,2014-04-17
+1242511,1242511,Fix Released,GPFS driver creates volume file on local disk when GPFS is unmounted,https://bugs.launchpad.net/cinder/+bug/1242511,2014-04-17
+1241348,1241348,Fix Released,generate_sample script can't handle MultiStrOpt when is blank list,https://bugs.launchpad.net/cinder/+bug/1241348,2014-04-17
+1240650,1240650,Fix Released,Nexenta driver ignore does not exist,https://bugs.launchpad.net/cinder/+bug/1240650,2014-04-17
+1239741,1239741,Fix Released,RemoteFS driver should initialize shares variables,https://bugs.launchpad.net/cinder/+bug/1239741,2014-04-17
+1237185,1237185,Fix Released,AttributeError occurs when Huawei HVS driver attaching volume with incorrect target IP,https://bugs.launchpad.net/cinder/+bug/1237185,2014-04-17
+1236723,1236723,Fix Released,HostManager doesn't have get_host_list() method,https://bugs.launchpad.net/cinder/+bug/1236723,2014-04-17
+1236626,1236626,Fix Released,Nexenta iSCSI driver fix lu exists,https://bugs.launchpad.net/cinder/+bug/1236626,2014-04-17
+1235148,1235148,Fix Released,Over quota message does not give user enough information,https://bugs.launchpad.net/cinder/+bug/1235148,2014-04-17
+1256483,1256483,Fix Released,Use model_query() instead of session.query in db.*****_destroy,https://bugs.launchpad.net/cinder/+bug/1256483,2014-04-17
+1254682,1254682,Fix Released,The param 'readonly' for os-update_readonly_flag incorrectly checked,https://bugs.launchpad.net/cinder/+bug/1254682,2014-04-17
+1253931,1253931,Fix Released,Remove unused code in test_admin_actions.py,https://bugs.launchpad.net/cinder/+bug/1253931,2014-04-17
+1252915,1252915,Fix Released,Fix typo in cinder.volume.API,https://bugs.launchpad.net/cinder/+bug/1252915,2014-04-17
+1252692,1252692,Fix Released,Unrecognized Content-Type application/json,https://bugs.launchpad.net/cinder/+bug/1252692,2014-04-17
+1249971,1249971,Fix Released,update quota sets API does not handle all fail cases,https://bugs.launchpad.net/cinder/+bug/1249971,2014-04-17
+1246569,1246569,Fix Released,devref auth.rst file has unicode char,https://bugs.launchpad.net/cinder/+bug/1246569,2014-04-17
+1246291,1246291,Fix Released,Remove unnecessary db calls made to fetch original metadata when delete flag is set to True,https://bugs.launchpad.net/cinder/+bug/1246291,2014-04-17
+1246228,1246228,Fix Released,Fix typo in types_manager.py,https://bugs.launchpad.net/cinder/+bug/1246228,2014-04-17
+1244418,1244418,Fix Released,Brick HostDriver test failure,https://bugs.launchpad.net/cinder/+bug/1244418,2014-04-17
+1243485,1243485,Fix Released,Volume or Snapshot not found ERROR in c-api log after successful tempest run,https://bugs.launchpad.net/cinder/+bug/1243485,2014-04-17
+1233907,1233907,Fix Released,cinder should use cinder/utils.get_root_helper(),https://bugs.launchpad.net/cinder/+bug/1233907,2014-04-17
+1223145,1223145,Fix Released,NetApp unittest fails if environment has http proxy setting,https://bugs.launchpad.net/cinder/+bug/1223145,2014-04-17
+1255802,1255802,Fix Released,A mistake verification for 'readonly',https://bugs.launchpad.net/cinder/+bug/1255802,2014-04-17
+1255214,1255214,Fix Released,Volume status ERRORs in c-api after successful tempest run,https://bugs.launchpad.net/cinder/+bug/1255214,2014-04-17
+1253660,1253660,Fix Released,NetApp cinder driver reports 0 free space for the first 60 seconds,https://bugs.launchpad.net/cinder/+bug/1253660,2014-04-17

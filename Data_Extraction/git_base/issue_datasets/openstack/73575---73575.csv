@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1333273,1333273,Fix Released,cinder utils usage_from _volume need to add host info,https://bugs.launchpad.net/cinder/+bug/1333273,2014-10-16
+1348180,1348180,Fix Released,remove redundand topic from rpc calls,https://bugs.launchpad.net/neutron/+bug/1348180,2014-10-16
+1317516,1317516,Fix Released,Solidfire driver does not honor reserved_percentage in cinder.conf,https://bugs.launchpad.net/cinder/+bug/1317516,2014-10-16
+1311243,1311243,Fix Released,cinder: List API versions does not accept XML,https://bugs.launchpad.net/cinder/+bug/1311243,2014-10-16
+1347078,1347078,Fix Released,NSX: set_auth_cookie() is called twice when 401 occurs,https://bugs.launchpad.net/neutron/+bug/1347078,2014-10-16
+1214433,1214433,Fix Released,workaround for coraid appliance multiply requests,https://bugs.launchpad.net/cinder/+bug/1214433,2014-10-16
+1346966,1346966,Fix Released,Heal migration fails if MySQL is using MyISAM engine,https://bugs.launchpad.net/neutron/+bug/1346966,2014-10-16
+1211272,1211272,Fix Released,incorrect bootable flag for volume cloned from image,https://bugs.launchpad.net/cinder/+bug/1211272,2014-10-16
+1346900,1346900,Fix Released,Table tz_network_bindings uses nullable on primary keys,https://bugs.launchpad.net/neutron/+bug/1346900,2014-10-16
+1167931,1167931,Fix Released,cinder-manage volume reattach is broken,https://bugs.launchpad.net/cinder/+bug/1167931,2014-10-16
+1286809,1286809,Fix Released,Remove unused function: fake_get_remote_image_service,https://bugs.launchpad.net/cinder/+bug/1286809,2014-10-16
+1344497,1344497,Fix Released,Replace strings by constants in Cisco N1kv test modules,https://bugs.launchpad.net/neutron/+bug/1344497,2014-10-16
+1286742,1286742,Fix Released,Remove unused function fake_execute2,https://bugs.launchpad.net/cinder/+bug/1286742,2014-10-16
+1341014,1341014,Fix Released,Update VSM credential correctly,https://bugs.launchpad.net/neutron/+bug/1341014,2014-10-16
+1286714,1286714,Fix Released,Remove unused enumerate,https://bugs.launchpad.net/cinder/+bug/1286714,2014-10-16
+1340696,1340696,Fix Released,rpc communication is not logged in debug,https://bugs.launchpad.net/neutron/+bug/1340696,2014-10-16
+1286712,1286712,Fix Released,Remove useless funciton stub_out_key_pair_funcs,https://bugs.launchpad.net/cinder/+bug/1286712,2014-10-16
+1338853,1338853,Fix Released,Remove tables that store the mapping between neutron and Nuage VSD resources,https://bugs.launchpad.net/neutron/+bug/1338853,2014-10-16
+1333134,1333134,Fix Released,"wrong gateway_ip setting in subnet constantly resyncs dhcp-agent, causing DHCP NAK dropping connection in guests",https://bugs.launchpad.net/neutron/+bug/1333134,2014-10-16
+1360001,1360001,Fix Released,3PAR FC driver using excessive fc ports,https://bugs.launchpad.net/cinder/+bug/1360001,2014-10-16
+1357004,1357004,Fix Released,PureISCSIDriver error logging not Python 2.6 compatible,https://bugs.launchpad.net/cinder/+bug/1357004,2014-10-16
+1332380,1332380,Fix Released,tox functional tests should use openstack.common.lockutils module for locks,https://bugs.launchpad.net/neutron/+bug/1332380,2014-10-16
+1355622,1355622,Fix Released,solidfire api commands not encoded,https://bugs.launchpad.net/cinder/+bug/1355622,2014-10-16
+1349636,1349636,Fix Released,3PAR: Delete a clone volume in progress needs clearer message,https://bugs.launchpad.net/cinder/+bug/1349636,2014-10-16
+1330898,1330898,Fix Released,"fwaas: "" firewall policy insert firewall rule "" cli should not accept the same firewall rule which is going to insert in the insert-before/after field",https://bugs.launchpad.net/neutron/+bug/1330898,2014-10-16
+1348787,1348787,Fix Released,cinder-manage loads more modules than necessary,https://bugs.launchpad.net/cinder/+bug/1348787,2014-10-16
+1327063,1327063,Fix Released,fwaas:updating firewall policy with shared attribute is not changing the audited attribute to false,https://bugs.launchpad.net/neutron/+bug/1327063,2014-10-16
+1348461,1348461,Fix Released,Datera driver cert results,https://bugs.launchpad.net/cinder/+bug/1348461,2014-10-16
+1326793,1326793,Fix Released,VPNaaS enhance abstract methods for service driver APIs,https://bugs.launchpad.net/neutron/+bug/1326793,2014-10-16
+1341752,1341752,Fix Released,No handlers could be found for logger,https://bugs.launchpad.net/cinder/+bug/1341752,2014-10-16
+1340315,1340315,Fix Released,VMware: Minimum disk size is incorrectly set to 1KB,https://bugs.launchpad.net/cinder/+bug/1340315,2014-10-16
+1316618,1316618,Fix Released,add host to security group broken,https://bugs.launchpad.net/neutron/+bug/1316618,2014-10-16
+1338481,1338481,Fix Released,Fix error log level in restore-backup routine,https://bugs.launchpad.net/cinder/+bug/1338481,2014-10-16
+1313801,1313801,Fix Released,Cisco VPN move URI strings to constants,https://bugs.launchpad.net/neutron/+bug/1313801,2014-10-16
+1288393,1288393,Fix Released,Nexus ML2 mechanism driver need to specify multiple interfaces per host,https://bugs.launchpad.net/neutron/+bug/1288393,2014-10-16
+1358960,1358960,Fix Released,Extended_snasphot_attributes extension doesn't work with all_tenants=1,https://bugs.launchpad.net/cinder/+bug/1358960,2014-10-16
+1279655,1279655,Fix Released,process port updates in the main loop for mlnx agent,https://bugs.launchpad.net/neutron/+bug/1279655,2014-10-16
+1357726,1357726,Fix Released,key error for mbps in c-vol logs,https://bugs.launchpad.net/cinder/+bug/1357726,2014-10-16
+1357261,1357261,Fix Released,SolidFire: Volume not found isn't properly handled in accept_transfer(),https://bugs.launchpad.net/cinder/+bug/1357261,2014-10-16
+1243213,1243213,Fix Released,Enums are not deleted after dropping tables in some migrations,https://bugs.launchpad.net/neutron/+bug/1243213,2014-10-16
+1357239,1357239,Fix Released,VMware: Volume stuck in uploading state even after upload to image failure,https://bugs.launchpad.net/cinder/+bug/1357239,2014-10-16
+1362618,1362618,Fix Released,Old confusing policies in policy.json,https://bugs.launchpad.net/neutron/+bug/1362618,2014-10-16
+1355297,1355297,Fix Released,manage.py is unusable,https://bugs.launchpad.net/cinder/+bug/1355297,2014-10-16
+1349912,1349912,Fix Released,db call to snapshot_update doesn't return an updated ref,https://bugs.launchpad.net/cinder/+bug/1349912,2014-10-16
+1349808,1349808,Fix Released,volume has wrong status in notification-info when it had extended successfully,https://bugs.launchpad.net/cinder/+bug/1349808,2014-10-16
+1361044,1361044,Fix Released,Show/Update/Delete IPSec connection APIs return 500 rather than 404 when resource not found,https://bugs.launchpad.net/neutron/+bug/1361044,2014-10-16
+1349475,1349475,Fix Released,Solidfire: wrong AUTH info for transferred volume,https://bugs.launchpad.net/cinder/+bug/1349475,2014-10-16
+1359460,1359460,Fix Released,l3 agent rescheduling query is not joining tables,https://bugs.launchpad.net/neutron/+bug/1359460,2014-10-16
+1348031,1348031,Fix Released,new manage/unmanage commands should be admin only,https://bugs.launchpad.net/cinder/+bug/1348031,2014-10-16
+1358998,1358998,Fix Released,"""No L3 agents can host the router..."" traces for DVR",https://bugs.launchpad.net/neutron/+bug/1358998,2014-10-16
+1343142,1343142,Fix Released,IBM storwize_svc can not get the right host,https://bugs.launchpad.net/cinder/+bug/1343142,2014-10-16
+1357048,1357048,Fix Released,NSX: restriction on distributed update must be lifted,https://bugs.launchpad.net/neutron/+bug/1357048,2014-10-16
+1287185,1287185,Fix Released,VMware: vmdk driver ignoring vmdk_type extra_spec property while copying image with vmware_disktype=thin/preallocated,https://bugs.launchpad.net/cinder/+bug/1287185,2014-10-16
+1356734,1356734,Fix Released,SNAT name space is being hosted on all nodes though agent_mode is set as dvr,https://bugs.launchpad.net/neutron/+bug/1356734,2014-10-16
+1287176,1287176,Fix Released,VMware: vmdk driver not handling vmware_disktype=sparse properly during copy image to volume,https://bugs.launchpad.net/cinder/+bug/1287176,2014-10-16
+1284284,1284284,Fix Released,VMware: volume create ignores adapter_type,https://bugs.launchpad.net/cinder/+bug/1284284,2014-10-16
+1361738,1361738,Fix Released,Live migration disconnects attached volumes on target,https://bugs.launchpad.net/cinder/+bug/1361738,2014-10-16
+1356127,1356127,Fix Released,VPNaaS: Cisco validator incorrectly checking public IP of router,https://bugs.launchpad.net/neutron/+bug/1356127,2014-10-16
+1361287,1361287,Fix Released,ibmnas tests don't mock out execute call,https://bugs.launchpad.net/cinder/+bug/1361287,2014-10-16
+1356120,1356120,Fix Released,PortNotFound in update_device_up for DVR,https://bugs.launchpad.net/neutron/+bug/1356120,2014-10-16
+1350466,1350466,Fix Released,deadlock in scheduler expire reservation periodic task,https://bugs.launchpad.net/nova/+bug/1350466,2014-10-16
+1350466,1350466,Fix Released,deadlock in scheduler expire reservation periodic task,https://bugs.launchpad.net/cinder/+bug/1350466,2014-10-16
+1355902,1355902,Fix Released,neutron HTTP exceptions have invalid format,https://bugs.launchpad.net/neutron/+bug/1355902,2014-10-16
+1354912,1354912,Fix Released,Exception in l3_rbc_base,https://bugs.launchpad.net/neutron/+bug/1354912,2014-10-16
+1348720,1348720,Fix Released,Missing index for expire_reservations,https://bugs.launchpad.net/nova/+bug/1348720,2014-10-16
+1348720,1348720,Fix Released,Missing index for expire_reservations,https://bugs.launchpad.net/cinder/+bug/1348720,2014-10-16
+1354188,1354188,Fix Released,Small glitch in heal script,https://bugs.launchpad.net/neutron/+bug/1354188,2014-10-16
+1348129,1348129,Fix Released,"New requirement for explicit import of '_' missing in some files, need automated check for this",https://bugs.launchpad.net/cinder/+bug/1348129,2014-10-16
+1353165,1353165,Fix Released,Namespaces not removed when the last VM using a DVR is deleted,https://bugs.launchpad.net/neutron/+bug/1353165,2014-10-16
+1352907,1352907,Fix Released,"response of normal user update the ""shared"" property of network",https://bugs.launchpad.net/neutron/+bug/1352907,2014-10-16
+1330776,1330776,Fix Released,lock may be released before lvremove command returns,https://bugs.launchpad.net/cinder/+bug/1330776,2014-10-16
+1311350,1311350,Fix Released,Live-migration of an instance with Lefthand volumes triggers Cinder errors,https://bugs.launchpad.net/cinder/+bug/1311350,2014-10-16
+1254972,1254972,Fix Released,"Volume transition from attaching -> attached is lost, leading to unattached and undettachable volume",https://bugs.launchpad.net/nova/+bug/1254972,2014-10-16
+1254972,1254972,Fix Released,"Volume transition from attaching -> attached is lost, leading to unattached and undettachable volume",https://bugs.launchpad.net/cinder/+bug/1254972,2014-10-16
+1351066,1351066,Fix Released,Neutron floatingip delete does not delete the fip_agent_gw_port  for DVR,https://bugs.launchpad.net/neutron/+bug/1351066,2014-10-16

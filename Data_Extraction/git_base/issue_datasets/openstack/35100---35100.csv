@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1441374,1441374,Fix Released,'ironic port-create' 'node' vs 'node_uuid' is not backward compat,https://bugs.launchpad.net/python-ironicclient/+bug/1441374,2016-11-10
+1420091,1420091,Fix Released,event-list command sorts events newest-first,https://bugs.launchpad.net/python-heatclient/+bug/1420091,2016-11-10
+1421299,1421299,Fix Released,heat CLI heat.rst missing with command 'service-list',https://bugs.launchpad.net/heat/+bug/1421299,2016-11-10
+1422487,1422487,Fix Released,Non-working --os-endpoint-type,https://bugs.launchpad.net/python-heatclient/+bug/1422487,2016-11-10
+1427310,1427310,Fix Released,SessionClient requires unnecessary endpoint,https://bugs.launchpad.net/python-heatclient/+bug/1427310,2016-11-10
+1334839,1334839,Fix Released,stack creator should be able to pass files an input,https://bugs.launchpad.net/python-heatclient/+bug/1334839,2016-11-10
+1429036,1429036,Fix Released,Create softwareconfig resource in multiregion stack fails,https://bugs.launchpad.net/python-heatclient/+bug/1429036,2016-11-10
+1477910,1477910,Fix Released,A user can prevent another user listing images via v2 (in certain cases),https://bugs.launchpad.net/python-glanceclient/+bug/1477910,2016-11-10
+1481729,1481729,Fix Released,Help text not displayed without a running glance server,https://bugs.launchpad.net/python-glanceclient/+bug/1481729,2016-11-10
+1332625,1332625,Fix Released,pypi tarball does not deliver Apache 2.0 LICENSE file,https://bugs.launchpad.net/python-designateclient/+bug/1332625,2016-11-10
+1332626,1332626,Fix Released,package metadata sets homepage to https://launchpad.net/python-designateclientclient,https://bugs.launchpad.net/python-designateclient/+bug/1332626,2016-11-10
+1420442,1420442,Fix Released,client gets json.dumps error trying to serialize datetime objects,https://bugs.launchpad.net/python-barbicanclient/+bug/1420442,2016-11-10
+1427423,1427423,Fix Released,secrets.list() raises TypeError,https://bugs.launchpad.net/python-barbicanclient/+bug/1427423,2016-11-10
+1420445,1420445,Fix Released,empty/zero length string is converted to None in filter_empty_keys,https://bugs.launchpad.net/python-barbicanclient/+bug/1420445,2016-11-10
+1420868,1420868,Fix Released,functional tests - remove datadriven tests from smoke tests,https://bugs.launchpad.net/python-barbicanclient/+bug/1420868,2016-11-10
+1429286,1429286,Fix Released,"Can't create Containers, missing self._api._post method",https://bugs.launchpad.net/python-barbicanclient/+bug/1429286,2016-11-10
+1419166,1419166,Fix Released,python-barbicanclient drops base64 encoding from payload,https://bugs.launchpad.net/python-barbicanclient/+bug/1419166,2016-11-10
+1434652,1434652,Fix Released,payload_content_encoding is ignored when content_type is none or empty,https://bugs.launchpad.net/python-barbicanclient/+bug/1434652,2016-11-10
+1434615,1434615,Fix Released,Can't create orders using the command line,https://bugs.launchpad.net/python-barbicanclient/+bug/1434615,2016-11-10
+1434629,1434629,Fix Released,Can't fetch secret payload using the command line,https://bugs.launchpad.net/python-barbicanclient/+bug/1434629,2016-11-10
+1297325,1297325,Fix Released,swap and ephemeral devices defined in the flavor are not created as a block device mapping,https://bugs.launchpad.net/nova/+bug/1297325,2016-11-10
+1471916,1471916,Fix Released,race with neutron: can't create bridge with the same name,https://bugs.launchpad.net/nova/+bug/1471916,2016-11-10
+1433843,1433843,Fix Released,live-migration failed but give wrong refer url,https://bugs.launchpad.net/nova/+bug/1433843,2016-11-10
+1290975,1290975,Fix Released,cells AttributeError with compute api methods using new object access style,https://bugs.launchpad.net/nova/+bug/1290975,2016-11-10
+1558697,1558697,Fix Released,[kilo] libvirt block migrations fail due to disk_info being an encoded JSON string,https://bugs.launchpad.net/ossa/+bug/1558697,2016-11-10
+1557938,1557938,Fix Released,[doc]support matrix of vmware for chap is wrong,https://bugs.launchpad.net/nova/+bug/1557938,2016-11-10
+1496235,1496235,Fix Released,"Boot from volume faild with availability_zone option, in case of cinder do not have availability_zone",https://bugs.launchpad.net/nova/+bug/1496235,2016-11-10
+1558289,1558289,Fix Released,Installing neutron_lbaas plugin via devstack fails because of incorrect image/package. Change devstack-trusty to ubuntu-trusty to support infra migration,https://bugs.launchpad.net/neutron/+bug/1558289,2016-11-10
+1477348,1477348,Fix Released,"Creating a neutron lbaas pool with session persistence type HTTP_COOKIE, I could see errors in lbaasv2 screen",https://bugs.launchpad.net/neutron/+bug/1477348,2016-11-10
+1528031,1528031,Fix Released,'NetworkNotFound' exception during listing ports,https://bugs.launchpad.net/neutron/+bug/1528031,2016-11-10
+1521524,1521524,Fix Released,With DVR enabled instances sometimes fail to get metadata,https://bugs.launchpad.net/neutron/+bug/1521524,2016-11-10
+1533441,1533441,Fix Released,HA router can not be deleted in L3 agent after race between HA router creating and deleting,https://bugs.launchpad.net/neutron/+bug/1533441,2016-11-10
+1520517,1520517,Fix Released,IPv6 networking broken by garp_master_* keepalived settings when using HA routers,https://bugs.launchpad.net/neutron/+bug/1520517,2016-11-10
+1515341,1515341,Fix Released,DVR associating a new floatingip on existing network fails after restart of l3 agent,https://bugs.launchpad.net/neutron/+bug/1515341,2016-11-10
+1461148,1461148,Fix Released,Dead L3 agent should reflect HA router states,https://bugs.launchpad.net/neutron/+bug/1461148,2016-11-10
+1463891,1463891,Fix Released,Setting admin_state down on port  produces no logs,https://bugs.launchpad.net/neutron/+bug/1463891,2016-11-10
+1487338,1487338,Fix Released,OVS ARP spoofing protection breaks floating IPs without port security extension,https://bugs.launchpad.net/neutron/+bug/1487338,2016-11-10
+1444797,1444797,Fix Released,ovs_lib: get_port_tag_dict race with port removal,https://bugs.launchpad.net/neutron/+bug/1444797,2016-11-10
+1501686,1501686,Fix Released,Incorrect exception handling in DB code involving rollbacked transactions.,https://bugs.launchpad.net/neutron/+bug/1501686,2016-11-10
+1533454,1533454,Fix Released,L3 agent unable to update HA router state after race between HA router creating and deleting,https://bugs.launchpad.net/neutron/+bug/1533454,2016-11-10
+1514728,1514728,Fix Released,insufficient service name for external process,https://bugs.launchpad.net/neutron/+bug/1514728,2016-11-10
+1549394,1549394,Fix Released,neutron-sanity-check --no* BoolOpts don't work,https://bugs.launchpad.net/neutron/+bug/1549394,2016-11-10
+1558397,1558397,Fix Released,functional job fails due to missing netcat,https://bugs.launchpad.net/neutron/+bug/1558397,2016-11-10
+1512199,1512199,Fix Released,change vm fixed ips will cause unable to communicate to vm in other network,https://bugs.launchpad.net/neutron/+bug/1512199,2016-11-10
+1401095,1401095,Fix Released,HA router can't be manually scheduled on L3 agent,https://bugs.launchpad.net/neutron/+bug/1401095,2016-11-10
+1554695,1554695,Fix Released,network not found warnings in test runs,https://bugs.launchpad.net/neutron/+bug/1554695,2016-11-10
+1554696,1554696,Fix Released,"Neutron server log filled with ""device requested by agent not found""",https://bugs.launchpad.net/neutron/+bug/1554696,2016-11-10
+1557640,1557640,Fix Released,DHCP agent logging is causing performance issues,https://bugs.launchpad.net/neutron/+bug/1557640,2016-11-10
+1558721,1558721,Fix Released,neutron-rootwrap-xen-dom0 not properly closing XenAPI sessions,https://bugs.launchpad.net/neutron/+bug/1558721,2016-11-10
+1555850,1555850,Fix Released,"excessive ""no bound segment for port warnings"" in server log",https://bugs.launchpad.net/neutron/+bug/1555850,2016-11-10
+1501515,1501515,Fix Released,DBReferenceError is raised when updating dvr port binding,https://bugs.launchpad.net/neutron/+bug/1501515,2016-11-10
+1538387,1538387,Fix Released,fdb_chg_ip_tun throwing exception because fdb_entries not in correct format,https://bugs.launchpad.net/neutron/+bug/1538387,2016-11-10
+1550623,1550623,Fix Released,Functional ARPSpoofTestCase's occasionally fail,https://bugs.launchpad.net/neutron/+bug/1550623,2016-11-10
+1477829,1477829,Fix Released,Create port API with invalid value returns 500(Internal Server Error),https://bugs.launchpad.net/neutron/+bug/1477829,2016-11-10
+1545695,1545695,Fix Released,L3 agent: traceback is suppressed on floating ip setup failure,https://bugs.launchpad.net/neutron/+bug/1545695,2016-11-10
+1555842,1555842,Fix Released,"Excessive ""network has been deleted"" warnings in dhcp agent log",https://bugs.launchpad.net/neutron/+bug/1555842,2016-11-10
+1546110,1546110,Fix Released,DB error causes router rescheduling loop to fail,https://bugs.launchpad.net/neutron/+bug/1546110,2016-11-10
+1523638,1523638,Fix Released,tempest fails with  No IPv4 addresses found,https://bugs.launchpad.net/tempest/+bug/1523638,2016-11-10
+1523638,1523638,Fix Released,tempest fails with  No IPv4 addresses found,https://bugs.launchpad.net/neutron/+bug/1523638,2016-11-10
+1312016,1312016,Fix Released,nova libvirtError: Unable to add bridge brqxxx-xx port tapxxx-xx: Device or resource busy,https://bugs.launchpad.net/neutron/+bug/1312016,2016-11-10
+1561046,1561046,Fix Released,If there is a /var/lib/neutron/ha_confs/<router-id>.pid then l3 agent fails to spawn a keepalived process for that router,https://bugs.launchpad.net/neutron/+bug/1561046,2016-11-10
+1469322,1469322,Fix Released,Associating a floatingip with a dual stack port requires the fixed-address to be specified,https://bugs.launchpad.net/neutron/+bug/1469322,2016-11-10
+1323766,1323766,Fix Released,Incorrect Floating IP behavior  in dual stack or ipv6 only network,https://bugs.launchpad.net/neutron/+bug/1323766,2016-11-10
+1534652,1534652,Fix Released,Host machine exposed to tenant networks via IPv6,https://bugs.launchpad.net/networking-midonet/+bug/1534652,2016-11-10
+1534652,1534652,Fix Released,Host machine exposed to tenant networks via IPv6,https://bugs.launchpad.net/neutron/+bug/1534652,2016-11-10
+1562467,1562467,Fix Released,DVR logic in OVS doesn't handle CSNAT ofport change,https://bugs.launchpad.net/neutron/+bug/1562467,2016-11-10
+1452942,1452942,Fix Released,"If user is member in tenant, he can not deploy any app because  Core Library  unavailable",https://bugs.launchpad.net/murano/+bug/1452942,2016-11-10
+1450536,1450536,Fix Released,HOT-to-MuranoPL converter does not support some parameter types,https://bugs.launchpad.net/murano/+bug/1450536,2016-11-10
+1443350,1443350,Fix Released,Incorrect error message when creating unicode env,https://bugs.launchpad.net/murano/+bug/1443350,2016-11-10
+1450547,1450547,Fix Released,Repeatative HOT package uploads fail,https://bugs.launchpad.net/murano/+bug/1450547,2016-11-10
+1461883,1461883,Fix Released,Default agent timeout is too small,https://bugs.launchpad.net/murano/+bug/1461883,2016-11-10
+1452080,1452080,Fix Released,Deployment erros are not reported for HOT applications,https://bugs.launchpad.net/murano/+bug/1452080,2016-11-10
+1451799,1451799,Fix Released,"Classes with same name, that are loaded from plugin are not cleaned-up",https://bugs.launchpad.net/murano/+bug/1451799,2016-11-10
+1472331,1472331,Fix Released,Trust id is not hidden in logs,https://bugs.launchpad.net/murano/+bug/1472331,2016-11-10
+1190149,1190149,Fix Released,Token auth fails when token is larger than 8k,https://bugs.launchpad.net/murano/+bug/1190149,2016-11-10

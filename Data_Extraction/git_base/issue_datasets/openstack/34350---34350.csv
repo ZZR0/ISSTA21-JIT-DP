@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1551836,1551836,Fix Released,CORS middleware's latent configuration options need to change,https://bugs.launchpad.net/aodh/+bug/1551836,2016-11-10
+1564936,1564936,Fix Released,Cluster/Node event table is empty,https://bugs.launchpad.net/senlin/+bug/1564936,2016-11-10
+1566349,1566349,Fix Released,`Create` column of Profile/Cluster/...  Table and Timestamp column of event table is empty,https://bugs.launchpad.net/senlin-dashboard/+bug/1566349,2016-11-10
+1565015,1565015,Fix Released,Volume attach/detach isn't detected by nova event listener,https://bugs.launchpad.net/searchlight/+bug/1565015,2016-11-10
+1568709,1568709,Fix Released,Cinder retype events are not handled,https://bugs.launchpad.net/searchlight/+bug/1568709,2016-11-10
+1567525,1567525,Fix Released,port.create.end events are handled incorrectly by nova,https://bugs.launchpad.net/searchlight/+bug/1567525,2016-11-10
+1570199,1570199,Fix Released,Failed to sync index using elasticsearch 2.x,https://bugs.launchpad.net/searchlight/+bug/1570199,2016-11-10
+1570674,1570674,Fix Released,unicode error when indexing booted from volume instance,https://bugs.launchpad.net/searchlight/+bug/1570674,2016-11-10
+1532010,1532010,Fix Released,Identically named fields with different definitions not allowed in elasticsearch 2.0,https://bugs.launchpad.net/searchlight/+bug/1532010,2016-11-10
+1570213,1570213,Fix Released,Failed to load data in searchlight ui when using elasticsearch 2.x,https://bugs.launchpad.net/searchlight/+bug/1570213,2016-11-10
+1583659,1583659,Fix Released,Cinder exchange name is incorrect,https://bugs.launchpad.net/searchlight/+bug/1583659,2016-11-10
+1583215,1583215,Fix Released,Enable oslo.messaging pools support,https://bugs.launchpad.net/searchlight/+bug/1583215,2016-11-10
+1568708,1568708,Fix Released,translation sync broken due to wrong usage of venv,https://bugs.launchpad.net/networking-midonet/+bug/1568708,2016-11-10
+1568708,1568708,Fix Released,translation sync broken due to wrong usage of venv,https://bugs.launchpad.net/neutron/+bug/1568708,2016-11-10
+1568708,1568708,Fix Released,translation sync broken due to wrong usage of venv,https://bugs.launchpad.net/sahara/+bug/1568708,2016-11-10
+1568708,1568708,Fix Released,translation sync broken due to wrong usage of venv,https://bugs.launchpad.net/networking-ovn/+bug/1568708,2016-11-10
+1551009,1551009,Fix Released,dashboard: Invalid template Invalid filter: 'parse_isotime',https://bugs.launchpad.net/sahara/+bug/1551009,2016-11-10
+1579187,1579187,Fix Released,[Ambari] 'service ambari-server start' never finishes,https://bugs.launchpad.net/sahara/+bug/1579187,2016-11-10
+1593268,1593268,Fix Released,"ca_file settings are wrongly honored in keystone,nova,neutron,cinder sessions",https://bugs.launchpad.net/sahara/+bug/1593268,2016-11-10
+1587755,1587755,Fix Released,Sahara scenario jobs broken with auth_url issues,https://bugs.launchpad.net/sahara/+bug/1587755,2016-11-10
+1596553,1596553,Fix Released,clusters with ambari 2.2.1 are failed to deploy,https://bugs.launchpad.net/sahara/+bug/1596553,2016-11-10
+1599252,1599252,Fix Released,Can't change HDP repo URL or HDP-UTILS repo URL unless on centos6,https://bugs.launchpad.net/sahara/+bug/1599252,2016-11-10
+1491738,1491738,Fix Released,zaqarclient token authorization failing at zaqar-server,https://bugs.launchpad.net/python-zaqarclient/+bug/1491738,2016-11-10
+1494154,1494154,Fix Released,zaqarclient (0.1.2.dev20) failing with error header X-PROJECT-ID was missing,https://bugs.launchpad.net/python-zaqarclient/+bug/1494154,2016-11-10
+1525994,1525994,Fix Released,Age property of Claim object returns wrong values on subsequent calls,https://bugs.launchpad.net/python-zaqarclient/+bug/1525994,2016-11-10
+1517812,1517812,Fix Released,Failed to create queue,https://bugs.launchpad.net/python-zaqarclient/+bug/1517812,2016-11-10
+1537517,1537517,Fix Released,Typo prevents queue listing for v1,https://bugs.launchpad.net/python-zaqarclient/+bug/1537517,2016-11-10
+1536389,1536389,Fix Released,Tests in zaqarclient/tests/queues/flavor.py should not contain class variables,https://bugs.launchpad.net/python-zaqarclient/+bug/1536389,2016-11-10
+1525973,1525973,Fix Released,The client does not work on python3,https://bugs.launchpad.net/python-zaqarclient/+bug/1525973,2016-11-10
+1534427,1534427,Fix Released,queue stats doesn't work for v1.1 and above,https://bugs.launchpad.net/python-zaqarclient/+bug/1534427,2016-11-10
+1538367,1538367,Fix Released,Subscription's  queue_name variable is a tuple,https://bugs.launchpad.net/python-zaqarclient/+bug/1538367,2016-11-10
+1538366,1538366,Fix Released,Subscriptions listing is not written good and causes many potential and real problems.,https://bugs.launchpad.net/python-zaqarclient/+bug/1538366,2016-11-10
+1534378,1534378,Fix Released,"If client api version is passed as string, some comparisons do not work properly",https://bugs.launchpad.net/python-zaqarclient/+bug/1534378,2016-11-10
+1542780,1542780,Fix Released,It's not good to catch ConflictError exception inside Subscription,https://bugs.launchpad.net/python-zaqarclient/+bug/1542780,2016-11-10
+1542799,1542799,Fix Released,ConflictError exception should be thrown in http.py,https://bugs.launchpad.net/python-zaqarclient/+bug/1542799,2016-11-10
+1532776,1532776,Fix Released,Invisible conflict during creation of some resources,https://bugs.launchpad.net/python-zaqarclient/+bug/1532776,2016-11-10
+1504959,1504959,Fix Released,"""group"" word should be used instead ""pool"" to denote a pool group",https://bugs.launchpad.net/zaqar/+bug/1504959,2016-11-10
+1504959,1504959,Fix Released,"""group"" word should be used instead ""pool"" to denote a pool group",https://bugs.launchpad.net/python-zaqarclient/+bug/1504959,2016-11-10
+1564558,1564558,Fix Released,Centos based image building broken because centos-cloud-rdo.repo returns a 404,https://bugs.launchpad.net/tripleo/+bug/1564558,2016-11-10
+1567385,1567385,Fix Released,Minor update always triggered on first stack-deploy after major upgrade,https://bugs.launchpad.net/tripleo/+bug/1567385,2016-11-10
+1584792,1584792,Fix Released,python-tripleoclient doesnt show actual path to missing templates,https://bugs.launchpad.net/tripleo/+bug/1584792,2016-11-10
+1592926,1592926,Fix Released,Fix overcloud deploy to allow force keystone init,https://bugs.launchpad.net/tripleo/+bug/1592926,2016-11-10
+1612463,1612463,Fix Released,Deployment on IPv6 fails post-deployment initialization,https://bugs.launchpad.net/tripleo/+bug/1612463,2016-11-10
+1457012,1457012,Fix Released,Can't convert 'bytes' object to str implicitly on HTTP error,https://bugs.launchpad.net/python-swiftclient/+bug/1457012,2016-11-10
+1527556,1527556,Fix Released,"Replace the assertEqual(arg, None) with assertIsNone(arg)",https://bugs.launchpad.net/python-swiftclient/+bug/1527556,2016-11-10
+1478210,1478210,Fix Released,swift client psudeo-folder upload syntax can't create the container,https://bugs.launchpad.net/python-swiftclient/+bug/1478210,2016-11-10
+1501292,1501292,Fix Released,Request logging in put_object is broken,https://bugs.launchpad.net/python-swiftclient/+bug/1501292,2016-11-10
+1532096,1532096,Fix Released,Error with uploading large object includes unicode path,https://bugs.launchpad.net/python-swiftclient/+bug/1532096,2016-11-10
+1476002,1476002,Fix Released,python-swiftclient cannot authenticate against keystone using only authtoken,https://bugs.launchpad.net/python-swiftclient/+bug/1476002,2016-11-10
+1539536,1539536,Fix Released,tests/unit/test_shell.py:TestShell.test_delete_account fails intermittently,https://bugs.launchpad.net/python-swiftclient/+bug/1539536,2016-11-10
+1532981,1532981,Fix Released,swift client psudeo-folder upload syntax for segmented objects uses wrong path,https://bugs.launchpad.net/python-swiftclient/+bug/1532981,2016-11-10
+1541273,1541273,Fix Released,OS_IDENTITY_API_VERSION should be supported,https://bugs.launchpad.net/python-swiftclient/+bug/1541273,2016-11-10
+1540254,1540254,Fix Released,"""#flake8: noqa"" is using incorrectly",https://bugs.launchpad.net/python-heatclient/+bug/1540254,2016-11-10
+1540254,1540254,Fix Released,"""#flake8: noqa"" is using incorrectly",https://bugs.launchpad.net/horizon/+bug/1540254,2016-11-10
+1540254,1540254,Fix Released,"""#flake8: noqa"" is using incorrectly",https://bugs.launchpad.net/designate/+bug/1540254,2016-11-10
+1540254,1540254,Fix Released,"""#flake8: noqa"" is using incorrectly",https://bugs.launchpad.net/murano/+bug/1540254,2016-11-10
+1540254,1540254,Fix Released,"""#flake8: noqa"" is using incorrectly",https://bugs.launchpad.net/python-saharaclient/+bug/1540254,2016-11-10
+1540254,1540254,Fix Released,"""#flake8: noqa"" is using incorrectly",https://bugs.launchpad.net/python-novaclient/+bug/1540254,2016-11-10
+1496093,1496093,Fix Released,keyword arg passed as positional to get_container,https://bugs.launchpad.net/python-swiftclient/+bug/1496093,2016-11-10
+1516692,1516692,Fix Released,swiftclient logs sensitive info in http requests,https://bugs.launchpad.net/python-swiftclient/+bug/1516692,2016-11-10
+1549881,1549881,Fix Released,download method shouldn't download all object,https://bugs.launchpad.net/python-swiftclient/+bug/1549881,2016-11-10
+1565775,1565775,Fix Released,'--version' shouldn't be used as an argument for subcommands,https://bugs.launchpad.net/python-saharaclient/+bug/1565775,2016-11-10
+1581336,1581336,Fix Released,nova evacuation does not work in api_version > 2.14,https://bugs.launchpad.net/python-novaclient/+bug/1581336,2016-11-10
+1608440,1608440,Fix Released,Core library can not be imported via client if Glare used as backend,https://bugs.launchpad.net/python-muranoclient/+bug/1608440,2016-11-10
+1555811,1555811,Fix Released,Monasca cli - Alarm definition update fails with AttributeError: 'Namespace' object has no attribute 'alarm_actions',https://bugs.launchpad.net/monasca/+bug/1555811,2016-11-10
+1535967,1535967,Fix Released,Workflow execution returned from API is missing task_execution_id,https://bugs.launchpad.net/mistral/+bug/1535967,2016-11-10
+1547453,1547453,Fix Released,'Member' object has no attribute 'updated_at',https://bugs.launchpad.net/python-mistralclient/+bug/1547453,2016-11-10
+1554587,1554587,Fix Released,auth_url and admin_auth_url have the same description in config.py,https://bugs.launchpad.net/python-manilaclient/+bug/1554587,2016-11-10
+1552848,1552848,Fix Released,cephx auth type not microversioned in API v2,https://bugs.launchpad.net/python-manilaclient/+bug/1552848,2016-11-10
+1556956,1556956,Fix Released,Functional tests for access rules is waiting for access_rules_status=active,https://bugs.launchpad.net/python-manilaclient/+bug/1556956,2016-11-10
+1557105,1557105,Fix Released,region name is not passed to SessionClient,https://bugs.launchpad.net/python-ironicclient/+bug/1557105,2016-11-10
+1563830,1563830,Fix Released,No stacktrace when --debug enabled,https://bugs.launchpad.net/python-glanceclient/+bug/1563830,2016-11-10
+1551076,1551076,Fix Released,glanceclient doesn't print debug info when --debug is passed,https://bugs.launchpad.net/python-glanceclient/+bug/1551076,2016-11-10
+1574587,1574587,Fix Released,Codec can't encode characters,https://bugs.launchpad.net/python-glanceclient/+bug/1574587,2016-11-10
+1557364,1557364,Fix Released,'openstack tld list' command  not working and provides meaningless exception,https://bugs.launchpad.net/python-designateclient/+bug/1557364,2016-11-10

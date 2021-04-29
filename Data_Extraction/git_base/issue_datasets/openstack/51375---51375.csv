@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1389178,1389178,Fix Released,heat stack-update failure when scaling resource group due to deficient signal handling in o-r-c scripts,https://bugs.launchpad.net/heat/+bug/1389178,2016-01-19
+1389178,1389178,Fix Released,heat stack-update failure when scaling resource group due to deficient signal handling in o-r-c scripts,https://bugs.launchpad.net/tripleo/+bug/1389178,2016-01-19
+1524295,1524295,Fix Released,encrypted resource_data is not helping during troubleshooting issues,https://bugs.launchpad.net/heat/+bug/1524295,2016-01-19
+1533240,1533240,Fix Committed,Refactor manifest l2/bond.pp,https://bugs.launchpad.net/fuel/+bug/1533240,2016-01-19
+1490903,1490903,Fix Released,"Glance returned 500 status code when we specify headers ""Content-Type: application/json"" when work with blob/bloblist",https://bugs.launchpad.net/glance/+bug/1490903,2016-01-19
+1521160,1521160,Fix Released,VMware LBaaSv1 method uses invalid context,https://bugs.launchpad.net/neutron/+bug/1521160,2016-01-19
+1522652,1522652,Fix Released,LBaaS V2 Octavia driver should send tenant_id to octavia,https://bugs.launchpad.net/neutron/+bug/1522652,2016-01-19
+1484395,1484395,Fix Released,Radware LBaaS v2 driver LB deletion fails when no members exist,https://bugs.launchpad.net/neutron/+bug/1484395,2016-01-19
+1524675,1524675,Fix Released,lbaasv2-agent is logging credentials from barbican,https://bugs.launchpad.net/neutron/+bug/1524675,2016-01-19
+1519664,1519664,Fix Released,lb-pool status remains ACTIVE when admin_state_up is false.,https://bugs.launchpad.net/neutron/+bug/1519664,2016-01-19
+1531927,1531927,Fix Released,lbaas:Update and enable auth config in devstack plugin,https://bugs.launchpad.net/neutron/+bug/1531927,2016-01-19
+1531985,1531985,Fix Released,neutron lbaas octavia driver sends project_id on PUTs,https://bugs.launchpad.net/neutron/+bug/1531985,2016-01-19
+1531640,1531640,Fix Released,lbaas:Service authentication from Octavia driver,https://bugs.launchpad.net/neutron/+bug/1531640,2016-01-19
+1526436,1526436,Fix Released,[RFE] Add support for VMware Edge appliance loadbalancer to neutron lbaas,https://bugs.launchpad.net/neutron/+bug/1526436,2016-01-19
+1534886,1534886,Fix Released,neutron-lbaas drivers should not update child statuses before load balancer statuses,https://bugs.launchpad.net/neutron/+bug/1534886,2016-01-19
+1523357,1523357,Fix Released,fwaas tempest tests are failing,https://bugs.launchpad.net/networking-midonet/+bug/1523357,2016-01-19
+1523357,1523357,Fix Released,fwaas tempest tests are failing,https://bugs.launchpad.net/neutron/+bug/1523357,2016-01-19
+1501186,1501186,Fix Released,excessive attribute checks in extension processing,https://bugs.launchpad.net/neutron/+bug/1501186,2016-01-19
+1495465,1495465,Fix Released,RDNSS Option should be included in ICMPv6 Router Advertisements,https://bugs.launchpad.net/neutron/+bug/1495465,2016-01-19
+1521820,1521820,Fix Released,Some DVR functional tests leak the FIP namespace,https://bugs.launchpad.net/neutron/+bug/1521820,2016-01-19
+1522224,1522224,Fix Released,default quotas are broken for rbac,https://bugs.launchpad.net/neutron/+bug/1522224,2016-01-19
+1522734,1522734,Fix Released,neutron cannot build on HyperV,https://bugs.launchpad.net/neutron/+bug/1522734,2016-01-19
+1518637,1518637,Fix Released,Brocade vendor code still present in neutron tree,https://bugs.launchpad.net/neutron/+bug/1518637,2016-01-19
+1518643,1518643,Fix Released,Nuage vendor code still present in neutron tree,https://bugs.launchpad.net/neutron/+bug/1518643,2016-01-19
+1518643,1518643,Fix Released,Nuage vendor code still present in neutron tree,https://bugs.launchpad.net/python-neutronclient/+bug/1518643,2016-01-19
+1503428,1503428,Fix Released,Support keystone V3 API,https://bugs.launchpad.net/neutron/+bug/1503428,2016-01-19
+1524164,1524164,Fix Released,Decompose OFAgent mechanism driver from neutron tree completely,https://bugs.launchpad.net/neutron/+bug/1524164,2016-01-19
+1500993,1500993,Fix Released,Missing vNIC type for SR-IOV physical functions,https://bugs.launchpad.net/neutron/+bug/1500993,2016-01-19
+1526785,1526785,Fix Released,Remove unused parameter gw_info of _update_router_db,https://bugs.launchpad.net/neutron/+bug/1526785,2016-01-19
+1527113,1527113,Fix Released,Code duplication in neutron/api/v2attribute.py,https://bugs.launchpad.net/neutron/+bug/1527113,2016-01-19
+1524220,1524220,Fix Released,"can update the gateway of subnet with needless ""0"" in the ip address via cli",https://bugs.launchpad.net/neutron/+bug/1524220,2016-01-19
+1518921,1518921,Fix Released,"Functional tests failing test_restart_l3_agent_on_sighup with ""Timed out waiting for file /tmp/XXX/YYY/test_server.tmp to be created and its size become equal to ZZZ""",https://bugs.launchpad.net/neutron/+bug/1518921,2016-01-19
+1528435,1528435,Fix Released,The gate test of VPNaaS is failing with AttributeError,https://bugs.launchpad.net/neutron/+bug/1528435,2016-01-19
+1509232,1509232,Fix Released,"If we update a QoSPolicy description, the agents get notified and rules get rewired for nothing",https://bugs.launchpad.net/neutron/+bug/1509232,2016-01-19
+1466117,1466117,Fix Released,Add default DNS servers to Neutron's DNS configuration,https://bugs.launchpad.net/neutron/+bug/1466117,2016-01-19
+1513825,1513825,Fix Released,code duplication : tenant checked twice for resource creation,https://bugs.launchpad.net/neutron/+bug/1513825,2016-01-19
+1527307,1527307,Fix Released,SR-IOV Agent doesn't expose loaded extenstions,https://bugs.launchpad.net/neutron/+bug/1527307,2016-01-19
+1531706,1531706,Fix Released,API job fails with ExternalIpAddressExhausted,https://bugs.launchpad.net/neutron/+bug/1531706,2016-01-19
+1531484,1531484,Fix Released,Adopt oslotest in DietTestCase,https://bugs.launchpad.net/neutron/+bug/1531484,2016-01-19
+1529022,1529022,Fix Released,agentless l3 plugin fails to load AZ relationship,https://bugs.launchpad.net/neutron/+bug/1529022,2016-01-19
+1532033,1532033,Fix Released,test_create_floatingip_with_specified_ip_address is racey,https://bugs.launchpad.net/neutron/+bug/1532033,2016-01-19
+1524291,1524291,Fix Released,check_ports_on_host_and_subnet() duplicates check_ports_exist_on_l3agent(),https://bugs.launchpad.net/neutron/+bug/1524291,2016-01-19
+1532273,1532273,Fix Released,DPDK: datapath_type not updated for physical and tunnel bridges,https://bugs.launchpad.net/neutron/+bug/1532273,2016-01-19
+1523845,1523845,Fix Released,Pip package 'ovs' needed but not present in requirements.txt,https://bugs.launchpad.net/neutron/+bug/1523845,2016-01-19
+1505831,1505831,Fix Released,Pecan: policy evaluation error can trigger 500 response,https://bugs.launchpad.net/neutron/+bug/1505831,2016-01-19
+1520180,1520180,Fix Released,Pecan: no authZ check on DELETE operations,https://bugs.launchpad.net/neutron/+bug/1520180,2016-01-19
+1505843,1505843,Fix Released,Pecan: quota management API broken,https://bugs.launchpad.net/neutron/+bug/1505843,2016-01-19
+1533638,1533638,Fix Released,test_bash_completion fails due to deprecation warning generated by neutronclient,https://bugs.launchpad.net/neutron/+bug/1533638,2016-01-19
+1529439,1529439,Fix Released,unify validate_agent_router_combination exceptions for dvr agent_mode,https://bugs.launchpad.net/neutron/+bug/1529439,2016-01-19
+1510796,1510796,Fix Released,Function sync_routers always call _get_dvr_sync_data in ha scenario,https://bugs.launchpad.net/neutron/+bug/1510796,2016-01-19
+1526592,1526592,Fix Released,Change git url to https in devstack local.conf sample,https://bugs.launchpad.net/kuryr/+bug/1526592,2016-01-19
+1375825,1375825,Fix Released,Connecting to nodes via SSH is not covered in documentation,https://bugs.launchpad.net/fuel/+bug/1375825,2016-01-19
+1373419,1373419,Fix Released,The documentation of Fuel not specified the minimum system requirements for slave nodes,https://bugs.launchpad.net/fuel/+bug/1373419,2016-01-19
+1518957,1518957,Fix Released,puppet-lint gate fails due to broken ruby dependencies,https://bugs.launchpad.net/fuel/+bug/1518957,2016-01-19
+1525073,1525073,Fix Released,db api resource_data_get_all()  fails to raise NotFound exception,https://bugs.launchpad.net/heat/+bug/1525073,2016-01-19
+1494654,1494654,Fix Released,Designate does not emit any notification upon resource state changes,https://bugs.launchpad.net/designate/+bug/1494654,2016-01-19
+1516350,1516350,Fix Released,500 Internal Server Error while trying to update NS Pool,https://bugs.launchpad.net/designate/+bug/1516350,2016-01-19
+1416263,1416263,Fix Released,Pool Manager's Periodic Sync Needs to Regress States,https://bugs.launchpad.net/designate/+bug/1416263,2016-01-19
+1522518,1522518,Fix Released,[Docs] /v2/limits is undocumented,https://bugs.launchpad.net/designate/+bug/1522518,2016-01-19
+1522952,1522952,Fix Released,designate devstack docs out of date,https://bugs.launchpad.net/designate/+bug/1522952,2016-01-19
+1517389,1517389,Fix Released,Designate does not prevent duplicate servers / ns_records,https://bugs.launchpad.net/designate/+bug/1517389,2016-01-19
+1522517,1522517,Fix Released,[Docs] /v2/tsigkeys is undocumented,https://bugs.launchpad.net/designate/+bug/1522517,2016-01-19
+1522519,1522519,Fix Released,[Docs] /v2/reverse is undocumented,https://bugs.launchpad.net/designate/+bug/1522519,2016-01-19
+1368511,1368511,Fix Released,Document HA recovery procedure after network split,https://bugs.launchpad.net/fuel/+bug/1368511,2016-01-19
+1371626,1371626,Fix Released,Matrix of possible slave nodes role combinations,https://bugs.launchpad.net/fuel/+bug/1371626,2016-01-19
+1521698,1521698,Fix Released,OpenStack API Guide in API-Quick-Start - Kilo and Juno pages return 404,https://bugs.launchpad.net/openstack-manuals/+bug/1521698,2016-01-19
+1421814,1421814,Fix Released,"Need a more specific link for ""How to Contribute"" from each docs page from Sphinx template",https://bugs.launchpad.net/openstack-manuals/+bug/1421814,2016-01-19
+1531877,1531877,Fix Released,API - Trying to fetch an already deleted Audit Template with 500 as status code,https://bugs.launchpad.net/watcher/+bug/1531877,2016-01-19
+1535522,1535522,Fix Released,package name should less than 80 characters,https://bugs.launchpad.net/murano/+bug/1535522,2016-01-19
+1526907,1526907,Fix Committed,build atop=2.1 to infra repository,https://bugs.launchpad.net/fuel/+bug/1526907,2016-01-19
+1535061,1535061,Fix Released,create vm and dns record to test jenkins reporting application,https://bugs.launchpad.net/fuel/+bug/1535061,2016-01-19
+1535728,1535728,Fix Released,bareon cli fails with versioning parsing error,https://bugs.launchpad.net/bareon/+bug/1535728,2016-01-19
+1511265,1511265,Fix Released,The centos/7 image for vagrant-libvirt need to bigger than 41GB,https://bugs.launchpad.net/kolla/+bug/1511265,2016-01-19
+1534648,1534648,Fix Released,DIB release 1.7.0 broke ironic-inspector gate,https://bugs.launchpad.net/diskimage-builder/+bug/1534648,2016-01-19
+1534648,1534648,Fix Released,DIB release 1.7.0 broke ironic-inspector gate,https://bugs.launchpad.net/ironic-inspector/+bug/1534648,2016-01-19

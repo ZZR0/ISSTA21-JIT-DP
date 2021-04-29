@@ -1,0 +1,76 @@
+,Key,Status,Summary,Url,Last_Date
+1131025,1131025,Fix Released,there is no way to get the instance ips from the autoscaling group or instanceGroup,https://bugs.launchpad.net/heat/+bug/1131025,2013-04-04
+1129388,1129388,Fix Released,MIssing flavor causes backtrace,https://bugs.launchpad.net/heat/+bug/1129388,2013-04-04
+1096013,1096013,Fix Released,Instance resource doesn't allow IP assignment to VPC/quantum network,https://bugs.launchpad.net/heat/+bug/1096013,2013-04-04
+1133434,1133434,Fix Released,"All stacks broken, create GenericResource for all resources",https://bugs.launchpad.net/heat/+bug/1133434,2013-04-04
+1117820,1117820,Fix Released,use yaml.safe_load,https://bugs.launchpad.net/heat/+bug/1117820,2013-04-04
+1101717,1101717,Fix Released,ConfigSet not implemented,https://bugs.launchpad.net/heat/+bug/1101717,2013-04-04
+1100242,1100242,Fix Released,HEAT::HA::Restarter': Restarter should us OS:: namespace,https://bugs.launchpad.net/heat/+bug/1100242,2013-04-04
+1130345,1130345,Fix Released,need to set https_validate_certificates in boto config as well as is_secure,https://bugs.launchpad.net/heat/+bug/1130345,2013-04-04
+1129577,1129577,Fix Released,There is no unit testing coverage for AWS::EC2::SecurityGroup,https://bugs.launchpad.net/heat/+bug/1129577,2013-04-04
+1127498,1127498,Fix Released,"python-heatclient depends on heat-api being started, but that is not documented",https://bugs.launchpad.net/heat/+bug/1127498,2013-04-04
+1126723,1126723,Fix Released,ubuntu 12.04 server installation doesn't work,https://bugs.launchpad.net/heat/+bug/1126723,2013-04-04
+1102446,1102446,Fix Released,WatchRule initial state should be NODATA not NORMAL,https://bugs.launchpad.net/heat/+bug/1102446,2013-04-04
+1102391,1102391,Fix Released,heat-api validate template method returns 500 and stacktrace when json parser fails,https://bugs.launchpad.net/heat/+bug/1102391,2013-04-04
+1101119,1101119,Fix Released,volumes property not implemented,https://bugs.launchpad.net/heat/+bug/1101119,2013-04-04
+1100754,1100754,Fix Released,WaitCondition should validate Handle URL,https://bugs.launchpad.net/heat/+bug/1100754,2013-04-04
+1100365,1100365,Fix Released,"tools/nova_create_flavors.sh deletes all flavors, not just those it will replace",https://bugs.launchpad.net/heat/+bug/1100365,2013-04-04
+1099634,1099634,Fix Released,"When nova fails to launch an instance, the errored instance is not deletable",https://bugs.launchpad.net/heat/+bug/1099634,2013-04-04
+1097850,1097850,Fix Released,AutoScaling Cooldown property ignored,https://bugs.launchpad.net/heat/+bug/1097850,2013-04-04
+1097847,1097847,Fix Released,WatchRule should use stack ThreadGroup,https://bugs.launchpad.net/heat/+bug/1097847,2013-04-04
+1097813,1097813,Fix Released,"WaitCondition ""Count"" property is ignored",https://bugs.launchpad.net/heat/+bug/1097813,2013-04-04
+1097786,1097786,Fix Released,WaitCondition FnGetAtt broken,https://bugs.launchpad.net/heat/+bug/1097786,2013-04-04
+1096006,1096006,Fix Released,Instance resource doesn't really implement AvailabilityZone property,https://bugs.launchpad.net/heat/+bug/1096006,2013-04-04
+1087530,1087530,Fix Released,sendfile possibly problematic with eventlet,https://bugs.launchpad.net/heat/+bug/1087530,2013-04-04
+1072940,1072940,Fix Released,backtrace on console 3-5 minutes after HA test completes,https://bugs.launchpad.net/heat/+bug/1072940,2013-04-04
+1130270,1130270,Fix Released,Resource create/update/delete failures not always caught,https://bugs.launchpad.net/heat/+bug/1130270,2013-04-04
+1130119,1130119,Fix Released,Missing files in heat tarballs,https://bugs.launchpad.net/heat/+bug/1130119,2013-04-04
+1123053,1123053,Fix Released,Latest wordpress breaks all wordpress templates,https://bugs.launchpad.net/heat/+bug/1123053,2013-04-04
+1117594,1117594,Fix Released,cfntools need to be able to use secure transport,https://bugs.launchpad.net/heat/+bug/1117594,2013-04-04
+1115269,1115269,Fix Released,doc building broken due to version strings,https://bugs.launchpad.net/heat/+bug/1115269,2013-04-04
+1104617,1104617,Fix Released,Heat stack-list reports wrong state on failed create,https://bugs.launchpad.net/heat/+bug/1104617,2013-04-04
+1103793,1103793,Fix Released,loguserdata.py does not work with cloud-init >= 0.7.0,https://bugs.launchpad.net/heat/+bug/1103793,2013-04-04
+1100719,1100719,Fix Released,IHA template fails to send heartbeat due to no credentials,https://bugs.launchpad.net/heat/+bug/1100719,2013-04-04
+1100287,1100287,Fix Released,cfn-init data/logs world readable,https://bugs.launchpad.net/heat/+bug/1100287,2013-04-04
+1073164,1073164,Fix Released,Heat EBS implementation should support Cinder,https://bugs.launchpad.net/heat/+bug/1073164,2013-04-04
+1072944,1072944,Fix Released,HA template creation fails with AWS auth,https://bugs.launchpad.net/heat/+bug/1072944,2013-04-04
+1072932,1072932,Fix Released,create-delete of same stack executed in order in a script result in engine backtrace,https://bugs.launchpad.net/heat/+bug/1072932,2013-04-04
+1131251,1131251,Fix Released,run_tests.sh pep tests fail,https://bugs.launchpad.net/heat/+bug/1131251,2013-04-04
+1131135,1131135,Fix Released,oslo config import error,https://bugs.launchpad.net/heat/+bug/1131135,2013-04-04
+1129620,1129620,Fix Released,the version should be 2013.1,https://bugs.launchpad.net/heat/+bug/1129620,2013-04-04
+1115758,1115758,Fix Released,No simple way to have limited access to Metadata from inside resources,https://bugs.launchpad.net/heat/+bug/1115758,2013-04-04
+1091497,1091497,Fix Released,AWS::EC2::Instance - PrivateIp and PublicDnsName raise InvalidTemplateAttribute but are valid CloudFormation instance attributes,https://bugs.launchpad.net/heat/+bug/1091497,2013-04-04
+1088746,1088746,Fix Released,cfn-signal waitcondition fails due to URL quoting,https://bugs.launchpad.net/heat/+bug/1088746,2013-04-04
+1087527,1087527,Fix Released,heat-watch set-state fails,https://bugs.launchpad.net/heat/+bug/1087527,2013-04-04
+1085970,1085970,Fix Released,"Heat engine now requires pip extras install, docs/packaging impact",https://bugs.launchpad.net/heat/+bug/1085970,2013-04-04
+1085725,1085725,Fix Released,load_modules fails if quantum code is in the search path,https://bugs.launchpad.net/heat/+bug/1085725,2013-04-04
+1083740,1083740,Fix Released,Unit tests create a file in /tmp,https://bugs.launchpad.net/heat/+bug/1083740,2013-04-04
+1092057,1092057,Fix Released,Update to pep8 1.3,https://bugs.launchpad.net/heat/+bug/1092057,2013-04-04
+1072896,1072896,Fix Released,Make an instance group resource type,https://bugs.launchpad.net/heat/+bug/1072896,2013-04-04
+1090544,1090544,Fix Released,In AWS::EC2::Instance UserData should be optional but is failing..,https://bugs.launchpad.net/heat/+bug/1090544,2013-04-04
+1088937,1088937,Fix Released,WaitConditions in nested stacks don't work,https://bugs.launchpad.net/heat/+bug/1088937,2013-04-04
+1097362,1097362,Fix Released,RDS DBInstance cfn-init error on creation,https://bugs.launchpad.net/heat/+bug/1097362,2013-04-04
+1090420,1090420,Fix Released,install.sh should detect rabbit/qpid,https://bugs.launchpad.net/heat/+bug/1090420,2013-04-04
+1089354,1089354,Fix Released,Unable to delete failed stack,https://bugs.launchpad.net/heat/+bug/1089354,2013-04-04
+1089032,1089032,Fix Released,cfn API waitcondition errors incorrectly formatted,https://bugs.launchpad.net/heat/+bug/1089032,2013-04-04
+1087799,1087799,Fix Released,WaitConditionHandle URL should be in ARN format,https://bugs.launchpad.net/heat/+bug/1087799,2013-04-04
+1083507,1083507,Fix Released,tools/openstack need ubuntu version,https://bugs.launchpad.net/heat/+bug/1083507,2013-04-04
+1072954,1072954,Fix Released,Can't create multiple stacks with the same name,https://bugs.launchpad.net/heat/+bug/1072954,2013-04-04
+1072951,1072951,Fix Released,CreateStack non-graceful failure for invalid template-url server,https://bugs.launchpad.net/heat/+bug/1072951,2013-04-04
+1072927,1072927,Fix Released,WARNING printed in log: Stack None not found message printed,https://bugs.launchpad.net/heat/+bug/1072927,2013-04-04
+1072908,1072908,Fix Released,engine allows file:// for composed templates,https://bugs.launchpad.net/heat/+bug/1072908,2013-04-04
+1072903,1072903,Fix Released,Allow custom/user Resource types.,https://bugs.launchpad.net/heat/+bug/1072903,2013-04-04
+1097394,1097394,Fix Released,LoadBalancer resource doesn't delete nested stack,https://bugs.launchpad.net/heat/+bug/1097394,2013-04-04
+1097299,1097299,Fix Released,RDS stack fails to delete DBInstance instance,https://bugs.launchpad.net/heat/+bug/1097299,2013-04-04
+1097290,1097290,Fix Released,WordPress_Composed_Instances broken,https://bugs.launchpad.net/heat/+bug/1097290,2013-04-04
+1096150,1096150,Fix Released,Deleting RDS stack while DBInstance create in progress fails,https://bugs.launchpad.net/heat/+bug/1096150,2013-04-04
+1096099,1096099,Fix Released,RDS DBInstance resource is broken,https://bugs.launchpad.net/heat/+bug/1096099,2013-04-04
+1096068,1096068,Fix Released,Missing files in generated tarballs,https://bugs.launchpad.net/heat/+bug/1096068,2013-04-04
+1092196,1092196,Fix Released,DescribeStacks fails if no stack specified,https://bugs.launchpad.net/heat/+bug/1092196,2013-04-04
+1089338,1089338,Fix Released,event-list fails for Autoscaling example template,https://bugs.launchpad.net/heat/+bug/1089338,2013-04-04
+1089035,1089035,Fix Released,AccessKey/WaitConditionHandle ec2 keypair incorrect,https://bugs.launchpad.net/heat/+bug/1089035,2013-04-04
+1088928,1088928,Fix Released,Need to reject stack/resource names with slashes,https://bugs.launchpad.net/heat/+bug/1088928,2013-04-04
+1087741,1087741,Fix Released,heat.db.sqlalchemy.manage doesn't respect config sql_connection option,https://bugs.launchpad.net/heat/+bug/1087741,2013-04-04
+1085049,1085049,Fix Released,User/AccessKey/WaitConditionHandle don't work on devstack,https://bugs.launchpad.net/heat/+bug/1085049,2013-04-04
+1083505,1083505,Fix Released,Need Ubuntu (non devstack) getting started guide,https://bugs.launchpad.net/heat/+bug/1083505,2013-04-04
+1083500,1083500,Fix Released,Submit heat to PyPi,https://bugs.launchpad.net/heat/+bug/1083500,2013-04-04
