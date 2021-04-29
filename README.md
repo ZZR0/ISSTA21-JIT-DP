@@ -60,10 +60,10 @@ We list the program directories and their files which can be used by artifact ev
 ## Quick Result Analysis
 Since running the experiments completely can be extremely time-consuming, we provide result analysis scripts to generate the corresponding table/figures in the paper directly out of the cached results from our prior runs. Specially, we prepared a cached result directory `ResultAnalysis` to avoid time-consuming experiment re-execution by the following commands.
 ```cmd
-$ git clone https://github.com/ZZR0/ISSTA2021-JIT-DP
+$ git clone https://github.com/ZZR0/ISSTA21-JIT-DP
 ```
 ```cmd
-$cd ISSTA2021-JIT-DP/ResultAnalysis
+$cd ISSTA21-JIT-DP/ResultAnalysis
 $python analysis.py $RQ 
 
 # example

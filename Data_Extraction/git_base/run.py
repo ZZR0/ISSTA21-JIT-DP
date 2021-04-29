@@ -1,7 +1,7 @@
 try:
     import traceback
     import os
-    from typing import Dict
+    import argparse
     import pandas as pd
     import pickle
     from Dict import Dict
@@ -10,6 +10,17 @@ try:
 except ImportError:
     traceback.print_exc()
     print("Sorry, we didn't remind you to install this module, please use 'pip -install' to install it")
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-RQ1_T2', action='store_true')
+parser.add_argument('-RQ1_T3', action='store_true')
+parser.add_argument('-RQ1_T4', action='store_true')
+parser.add_argument('-RQ2_F5', action='store_true')
+parser.add_argument('-RQ2_F6', action='store_true')
+parser.add_argument('-RQ2_T5', action='store_true')
+parser.add_argument('-RQ2_T6', action='store_true')
+parser.add_argument('-RQ3_F7', action='store_true')
+parser.add_argument('-RQ4_T8', action='store_true')
 
 projects = ['qt', 'openstack', 'jdt', 'platform', 'gerrit', 'go']
 afters = ['2015-01-01', '2016-01-01', '2014-01-01', '2016-01-01', '2016-01-01', '2016-01-01']
@@ -219,15 +230,92 @@ def cp_data():
     os.system("cp -r datasets/* ../../JIT_Baseline/data")
 
 
-if __name__ == "__main__":
+def RQ1_T2():
+    try:
+        for project in ["qt", "openstack"]:
+            os.system("mkdir datasets/{}/original".format(project))
+            os.system("cp ../../DeepJIT/data/{}/original/*.pkl datasets/{}/original/".format(project, project))
+        gen_replication_data()
+    except:
+        traceback.print_exc()
+        print("You may not have provided the original dataset of DeepJIT and CC2Vec, sorry we didn't remind you.\nYou can find the original dataset in `data/qt/original/original*.pkl` of the pre-processed dataset and put it under `Data_Extraction/datasets/qt/original/`")
+
+    
+def RQ1_T3():
+    try:
+        for project in ["qt", "openstack"]:
+            os.system("mkdir datasets/{}/original".format(project))
+            os.system("cp ../../DeepJIT/data/{}/original/*.pkl datasets/{}/original/".format(project, project))
+        gen_cam_data()
+    except:
+        traceback.print_exc()
+        print("You may not have provided the original dataset of DeepJIT and CC2Vec, sorry we didn't remind you.\nYou can find the original dataset in `data/qt/original/original*.pkl` of the pre-processed dataset and put it under `Data_Extraction/datasets/qt/original/`")
+
+
+def RQ1_T4():
+    try:
+        for project in ["qt", "openstack"]:
+            os.system("mkdir datasets/{}/original".format(project))
+            os.system("cp ../../DeepJIT/data/{}/original/*.pkl datasets/{}/original/".format(project, project))
+        gen_component_data()
+    except:
+        traceback.print_exc()
+        print("You may not have provided the original dataset of DeepJIT and CC2Vec, sorry we didn't remind you.\nYou can find the original dataset in `data/qt/original/original*.pkl` of the pre-processed dataset and put it under `Data_Extraction/datasets/qt/original/`")
+
+
+def RQ2_F5():
+    gen_deep_data()
+    k_feature()
+
+
+def RQ2_F6():
+    gen_k_size()
+    gen_deep_size()
+
+
+def RQ2_T5():
     gen_deep_data()
     gen_deep_cross_data()
     k_feature()
     k_feature_cross()
 
-    gen_deep_size()
-    gen_k_size()
+
+def RQ2_T6():
     gen_deep_old_data()
     old_k_feature()
 
-    gen_original_data()
+
+def RQ3_F7():
+    k_feature()
+    k_feature_cross()
+
+
+def RQ4_T8():
+    gen_deep_data()
+    gen_deep_cross_data()
+    k_feature()
+    k_feature_cross()
+
+
+if __name__ == "__main__":
+    args = parser.parse_args()
+    if args.RQ1_T2:
+        RQ1_T2()
+    elif args.RQ1_T3:
+        RQ1_T3()
+    elif args.RQ1_T4:
+        RQ1_T4()
+    elif args.RQ2_F5:
+        RQ2_F5()
+    elif args.RQ2_F6:
+        RQ2_F6()
+    elif args.RQ2_T5:
+        RQ2_T5()
+    elif args.RQ2_T6:
+        RQ2_T6()
+    elif args.RQ3_F7:
+        RQ3_F7()
+    elif args.RQ4_T8:
+        RQ4_T8()
+    else:
+        print("Please select a -RQ.")
