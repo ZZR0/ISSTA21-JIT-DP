@@ -244,7 +244,7 @@ def RQ1_T2():
 def RQ1_T3():
     try:
         for project in ["qt", "openstack"]:
-            os.system("mkdir datasets/{}/original".format(project))
+            os.system("mkdir -p datasets/{}/original".format(project))
             os.system("cp ../../DeepJIT/data/{}/original/*.pkl datasets/{}/original/".format(project, project))
         gen_cam_data()
     except:
@@ -255,7 +255,7 @@ def RQ1_T3():
 def RQ1_T4():
     try:
         for project in ["qt", "openstack"]:
-            os.system("mkdir datasets/{}/original".format(project))
+            os.system("mkdir -p datasets/{}/original".format(project))
             os.system("cp ../../DeepJIT/data/{}/original/*.pkl datasets/{}/original/".format(project, project))
         gen_component_data()
     except:

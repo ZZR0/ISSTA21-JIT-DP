@@ -182,10 +182,13 @@ Analyze the commits and generate 14 basic commit features. This step takes about
 ```cmd
 $python extract_k_feature.py -analyse_project -project qt
 ```
-Execute the above commands for each project to extract all the required data. Then, generate data for each `$RQ` and move such data to the target fold.
+Execute the above commands for each project to extract all the required data. Then, generate input data for each `$RQ` and move such data to the target fold.
 ```cmd
 $python run.py $RQ
+```
+- `$RQ`: the corresponding RQ in the paper. There are 4 RQs with 9 kinds of results, i.e., *-RQ1_T2 (Table 2), -RQ1_T3 (Table 3), -RQ1_T4 (Table 4), -RQ2_F5 (Figure 5), -RQ2_F6 (Figure 6), -RQ2_T5 (Table 5), -RQ2_T6 (Table 6), -RQ3_F7 (Figure 7) and -RQ4_T8 (Table 8).*
 
+```cmd
 $cp -r datasets/* ../DeepJIT/data/
 $cp -r datasets/* ../CC2Vec/data/
 $cp -r datasets/* ../JIT_Baseline/data/
