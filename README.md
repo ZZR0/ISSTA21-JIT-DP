@@ -182,9 +182,9 @@ Analyze the commits and generate 14 basic commit features. This step takes about
 ```cmd
 $python extract_k_feature.py -analyse_project -project qt
 ```
-Execute the above commands for each project to extract all the required data. Then, generate and move such data to the target fold.
+Execute the above commands for each project to extract all the required data. Then, generate data for each `$RQ` and move such data to the target fold.
 ```cmd
-$python run.py
+$python run.py $RQ
 
 $cp -r datasets/* ../DeepJIT/data/
 $cp -r datasets/* ../CC2Vec/data/
