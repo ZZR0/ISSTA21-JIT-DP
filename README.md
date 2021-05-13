@@ -31,6 +31,9 @@ Due to the random nature of neural networks, users may obtain slightly different
     tqdm                   4.59.0
     torch                  1.2.0+
     ```
+- Ubuntu 18.04
+- git
+- CUDA Toolkit
 
 ## Code Structure
 
@@ -156,7 +159,7 @@ where the parameters are explained as follows.
 For the users who want to perform complete evaluation, i.e., extract data, train and test the models step by step, we provide a tutorial which is initialized by accessing the `Data_Extraction` directory as follows. 
 
 ```cmd
-$cd Data_Extraction
+$cd Data_Extraction/git_base
 ```
 Clone git repositories of `qt` project. Our datasets contains 6 projects `qt`, `openstack`, `platform`, `jdt`, `gerrit` and `go`. You can choose one of them to execute, and this step takes about 30 minutes for each project. Here is the example command for cloning qt:
 ```cmd
