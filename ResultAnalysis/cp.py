@@ -15,14 +15,14 @@ parser.add_argument('-RQ4_T8', action='store_true')
 projects = ['qt', 'openstack', 'jdt', 'platform', 'gerrit', 'go']
 
 def RQ1_T2():
-    cmd = "cp ../DeepJIT/snapshot/{}/{}/model/epoch_50.pt.result ./RQ1-T2/deepjit/{}_{}_github.result"
+    cmd = "cp ../DeepJIT/snapshot/{}/{}/model/epoch_25.pt.result ./RQ1-T2/deepjit/{}_{}_github.result"
     
     for project in ["qt", "openstack"]:
         for cv in ["cv0", "cv1", "cv2", "cv3", "cv4"]:
             print(cmd.format(project, cv, project, cv))
             os.system(cmd.format(project, cv, project, cv))
     
-    cmd = "cp ../DeepJIT/snapshot/{}/{}/raw/epoch_50.pt.result ./RQ1-T2/deepjit/{}_{}_paper.result"
+    cmd = "cp ../DeepJIT/snapshot/{}/{}/raw/epoch_25.pt.result ./RQ1-T2/deepjit/{}_{}_paper.result"
     
     for project in ["qt", "openstack"]:
         for cv in ["cv0", "cv1", "cv2", "cv3", "cv4"]:
