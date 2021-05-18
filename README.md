@@ -30,7 +30,7 @@ Due to the random nature of neural networks, users may obtain slightly different
     pymongo                3.11.3
     sklearn                0.0
     tqdm                   4.59.0
-    torch                  1.2.0+
+    torch                  1.5.0+
     ```
 - Ubuntu 18.04
 - git
