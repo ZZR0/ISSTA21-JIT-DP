@@ -21,6 +21,7 @@ Due to the random nature of neural networks, users may obtain slightly different
 - *Complete Evaluation*: In addition to the general requirements of *Retraining Evaluation* (extra 200GB free disk space in this case), MongoDB is required for the data extraction process. You can install MongoDB by the following tutorial: [mongodb-4.4.4](https://docs.mongodb.com/manual/installation/). 
 - python 3.7+
     ```
+    argparse               1.4.0
     lxml                   4.6.3
     requests               2.25.1
     numpy                  1.20.1
