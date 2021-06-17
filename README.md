@@ -32,9 +32,21 @@ Due to the random nature of neural networks, users may obtain slightly different
     tqdm                   4.59.0
     torch                  1.5.0+
     ```
-- Ubuntu 18.04
 - git
+- Ubuntu 18.04
 - CUDA Toolkit
+
+### Docker Container
+To simplify the testing process of the artifacts, we provide a docker container which can be downloaded from an online docker hub. Please note that the size of our docker container including the dataset is about 30GB, so please prepare sufficient disk space. And to using GPU in docker, you should install [docker](https://docs.docker.com/get-docker/) with version >= 19.04 and install [NVIDIA Container Runtime](https://github.com/NVIDIA/nvidia-container-runtime). Then, you can install and run the docker files by following commands below.
+
+```cmd
+$docker pull zzr0/issta2021-jit-dp:v1.0
+$docker run -itd --gpus all --name jit-dp issta2021-jit-dp:v1.0
+$docker exec -it jit-dp zsh
+$cd /home/jit-dp/ISSTA21-JIT-DP
+
+#Evaluate the artifacts by following commands below...
+```
 
 ## Code Structure
 
