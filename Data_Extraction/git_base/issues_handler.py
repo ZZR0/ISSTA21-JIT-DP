@@ -156,7 +156,7 @@ def get_eclipse_issues(args):
         out_file = args.issue_datasets + './{}_{}_{}.csv'.format(project, args.after, args.before)
 
         if not os.path.exists(out_file):
-            os.system("""wget "{}" -O {}""".format(search_url, out_file))
+            os.system("""wget "{}" -O '{}'""".format(search_url, out_file))
 
         table = pd.read_csv(out_file)
         if all_issue_data is None:
